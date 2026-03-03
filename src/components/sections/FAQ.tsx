@@ -3,38 +3,39 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import Badge from "@/components/ui/Badge";
+import Button from "@/components/ui/Button";
 import SectionWrapper from "@/components/ui/SectionWrapper";
 
 const faqs = [
   {
+    question: "What exactly does EcomSEO do?",
+    answer:
+      "We specialize in SEO for e-commerce brands. From technical SEO and product page optimization to link building and content strategy — everything we do is focused on driving organic revenue for online stores.",
+  },
+  {
+    question: 'How are you different from a "normal" SEO agency?',
+    answer:
+      "We only work with e-commerce brands. We don't do local SEO, B2B SEO, or anything else. This means our entire process, team, and tooling is built specifically for product-based businesses with hundreds or thousands of SKUs.",
+  },
+  {
+    question: "Who is EcomSEO a good fit for?",
+    answer:
+      "We work best with e-commerce brands doing €500K+ in annual revenue that are serious about organic growth. If you're just starting out, SEO might not be the best investment yet — and we'll be honest about that.",
+  },
+  {
     question: "How long does it take to see results?",
     answer:
-      "SEO is a long-term play. Most of our clients start seeing meaningful improvements within 3-6 months. However, this depends on your industry, competition, and the current state of your website. We set realistic expectations from day one and provide monthly reporting so you can track progress.",
+      "SEO is a long-term play. Most of our clients start seeing meaningful improvements within 3-6 months. However, this depends on your industry, competition, and the current state of your website.",
   },
   {
-    question: "Do you guarantee rankings?",
+    question: "What kind of results can we realistically expect?",
     answer:
-      "No legitimate SEO agency can guarantee specific rankings. Google's algorithm uses 200+ factors and changes constantly. What we do guarantee is a proven process, transparent reporting, and a relentless focus on driving revenue — not just vanity metrics.",
+      "This depends on many factors — your niche, competition, current SEO health, and budget. We set realistic expectations from day one and provide monthly reporting so you can track progress. Check our case studies for examples.",
   },
   {
-    question: "What makes EcomSEO different from other agencies?",
+    question: "How transparent is your reporting?",
     answer:
-      "We only work with ecommerce brands, and we decline 70% of projects. Our Commerce Growth Framework™ combines SEO, CRO, and data layer optimization — specifically designed for product-based businesses with thousands of SKUs. We also own and operate our own ecommerce brands, so we understand the challenges firsthand.",
-  },
-  {
-    question: "Which platforms do you work with?",
-    answer:
-      "We work with all major ecommerce platforms including Shopify, WooCommerce, Magento, BigCommerce, Lightspeed, Shopware, and PrestaShop. Our technical team has deep expertise in platform-specific optimizations at the code level.",
-  },
-  {
-    question: "How much does it cost?",
-    answer:
-      "Our pricing depends on the scope of work, your current organic performance, and the competitive landscape. We offer custom proposals after an initial audit. We're not the cheapest agency — we're the most effective for ecommerce brands serious about organic growth.",
-  },
-  {
-    question: "Do you work with small brands?",
-    answer:
-      "We work with ecommerce brands doing at least $500K+ in annual revenue. If you're just starting out, SEO might not be the best investment yet. We'll be honest about that in our initial consultation.",
+      "100% transparent. You get access to live dashboards, dedicated Slack/WhatsApp channels, and monthly strategy calls. We believe in full visibility — no black-box SEO.",
   },
 ];
 
@@ -107,14 +108,10 @@ export default function FAQ() {
           viewport={{ once: true, margin: "-100px" }}
           transition={{ duration: 0.6 }}
         >
-          <Badge text="FAQ" />
+          <Badge text="Frequently asked questions" />
           <h2 className="text-[32px] md:text-[48px] lg:text-[56px] font-medium leading-[1.1] tracking-[-0.02em] text-heading">
-            Most agencies absolutely Suck. We know.
+            Questions? We got you.
           </h2>
-          <p className="text-body text-base md:text-lg">
-            That&apos;s why we do things differently. Got questions? We&apos;ve
-            got answers.
-          </p>
         </motion.div>
 
         <motion.div
@@ -133,6 +130,17 @@ export default function FAQ() {
               onClick={() => setOpenIndex(openIndex === i ? null : i)}
             />
           ))}
+        </motion.div>
+
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.5 }}
+        >
+          <Button href="/faq" variant="secondary">
+            Check all FAQ
+          </Button>
         </motion.div>
       </div>
     </SectionWrapper>

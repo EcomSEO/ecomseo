@@ -13,11 +13,11 @@ const paidAdsItems = [
 ];
 
 const seoItems = [
-  "Multiple acquisition channels",
-  "Full omnichannel presence",
-  "Capture curious shoppers",
-  "Build returning customers",
-  "Higher conversion rates",
+  "Long-term ongoing organic sales",
+  "Omni-channel approach",
+  "Boost Exit Value",
+  "Build Brand Trust and Authority",
+  "Become A Market Leader",
 ];
 
 function ListItem({

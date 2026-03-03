@@ -3,42 +3,33 @@
 import { motion } from "framer-motion";
 import Badge from "@/components/ui/Badge";
 import SectionWrapper from "@/components/ui/SectionWrapper";
+import GlowEffect from "@/components/ui/GlowEffect";
 
 const steps = [
   {
-    phase: "Phase 1",
-    type: "Diagnosis",
-    title: "Precision Ecommerce SEO Audit",
+    number: "01",
+    title: "100% Transparancy",
     description:
-      "Technical scoring, Crawl-depth analysis, Index bloat detection, and a comprehensive Revenue opportunity map.",
+      "Automated updates, log in at any time into our dashboards. Dedicated Slack/Whatsapp channels.",
   },
   {
-    phase: "Phase 2",
-    type: "Strategy",
-    title: "Revenue-Intent Keyword Mapping",
+    number: "02",
+    title: "Proven Process",
     description:
-      "We ditch volume for value. We identify the exact keywords buyers use right before purchasing.",
+      "SEO sensei's like us know exactly what we're doing. Because we've done it before. For many brands.",
   },
   {
-    phase: "Phase 3",
-    type: "Execution",
-    title: "Conversion-Driven Content System",
+    number: "03",
+    title: "Profit-Focused",
     description:
-      "We redesign category & product content to persuade, not just rank. Turning grids into sales pages.",
-  },
-  {
-    phase: "Phase 4",
-    type: "Technical",
-    title: "Platform-Level Technical Enhancements",
-    description:
-      "Shopify, WooCommerce, Magento, BigCommerce - optimized at the code-level for speed and crawlability.",
+      "Revenue is nice. Profit is nicer. We focus on high ROI tasks. No time for bs.",
   },
 ];
 
 export default function Process() {
   return (
     <SectionWrapper className="py-24 md:py-32">
-      <div className="flex flex-col gap-16">
+      <div className="flex flex-col gap-12">
         <motion.div
           className="flex flex-col gap-4 max-w-[800px]"
           initial={{ opacity: 0, y: 30 }}
@@ -46,51 +37,43 @@ export default function Process() {
           viewport={{ once: true, margin: "-100px" }}
           transition={{ duration: 0.6 }}
         >
-          <Badge text="Unique Mechanism" />
-          <h2 className="text-[32px] md:text-[48px] font-medium leading-[1.1] tracking-[-0.02em] text-heading">
-            The Commerce Growth Framework&trade;
+          <Badge text="Process" />
+          <h2 className="text-[32px] md:text-[48px] lg:text-[56px] font-medium leading-[1.1] tracking-[-0.02em] text-heading">
+            Most agencies absolutely Suck. We know.
           </h2>
-          <h3 className="text-lg md:text-xl font-medium text-white/40">
-            SEO + CRO + Data Layer Optimization
-          </h3>
           <p className="text-body text-base md:text-lg">
-            You don&apos;t need random tactics. You need a system built for
-            ecommerce volume, competition, and SKU scale.
+            Pretending, no focus, no proven strategy. The truth is… that&apos;s
+            how you start. If you work with experienced agency owners,
+            you&apos;ll experience:
           </p>
         </motion.div>
 
-        <div className="flex flex-col">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
           {steps.map((step, i) => (
             <motion.div
-              key={step.phase}
-              className="group flex flex-col md:flex-row gap-2 md:gap-6 pl-6 md:pl-8 pb-8 md:pb-10 relative cursor-default"
+              key={step.number}
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: i * 0.1 }}
             >
-              {/* Animated border line */}
-              <div className="absolute left-0 top-0 bottom-0 w-[2px] bg-white/10 group-hover:bg-accent transition-colors duration-300" />
-
-              {/* Phase column */}
-              <div className="flex md:flex-col items-center md:items-start gap-3 md:w-1/4 shrink-0">
-                <h4 className="text-accent text-lg font-medium">
-                  {step.phase}
-                </h4>
-                <span className="text-sm text-white/40 font-medium">
-                  {step.type}
-                </span>
-              </div>
-
-              {/* Content column */}
-              <div className="md:w-3/4">
-                <h3 className="text-xl md:text-2xl font-medium text-heading mb-2">
-                  {step.title}
-                </h3>
-                <p className="text-sm text-body leading-relaxed">
-                  {step.description}
-                </p>
-              </div>
+              <GlowEffect
+                borderRadius={24}
+                className="h-full"
+                color="rgb(123, 45, 233)"
+              >
+                <div className="p-8 md:p-10 flex flex-col gap-6 min-h-[250px]">
+                  <span className="text-accent text-sm font-medium">
+                    {step.number}
+                  </span>
+                  <h3 className="text-xl md:text-2xl font-medium text-heading">
+                    {step.title}
+                  </h3>
+                  <p className="text-body text-sm leading-relaxed">
+                    {step.description}
+                  </p>
+                </div>
+              </GlowEffect>
             </motion.div>
           ))}
         </div>

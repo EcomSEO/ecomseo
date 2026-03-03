@@ -7,28 +7,35 @@ import GlowEffect from "@/components/ui/GlowEffect";
 
 const caseStudies = [
   {
-    title: "Norwegian Health Store",
-    metric: "+412%",
-    description: "Organic revenue growth in 8 months",
+    title: "Narcotics store",
+    description:
+      "\u20AC2.9k to \u20AC91.7k per month revenue. 94% through our SEO.",
+    metric: "Exited for 7 figures+",
+    subMetric: "In 2 years",
     href: "/cases/norwegian-health-store",
   },
   {
-    title: "Dutch Brand",
-    metric: "+287%",
-    description: "Non-brand organic traffic increase",
-    href: "/cases/dutch-brand",
+    title: "Biking Brand",
+    description:
+      "Improved collection page visibility by 970% through product data optimization",
+    metric: "8 weeks",
+    subMetric: "19% higher CVR",
+    href: "/cases/ecommerce-brand",
   },
   {
-    title: "Swedish SEO Explosion",
-    metric: "+534%",
-    description: "Organic visibility improvement",
-    href: "/cases/swedish-seo-explosion",
+    title: "Superfoods Brand",
+    description: "Tripled SEO revenue with our GMC Optimization",
+    metric: "479% more clicks",
+    subMetric: "1 week",
+    href: "/cases/skyrocket-ecom-site",
   },
   {
-    title: "Beauty Brand",
-    metric: "+195%",
-    description: "Organic revenue increase in 6 months",
-    href: "/cases/beauty-brand-dominated-in-google",
+    title: "Health Brand",
+    description:
+      "1316% increase in non-branded clicks on a Shopify store in 12 months!",
+    metric: "57% Increase in CTR",
+    subMetric: "69% Reduction in CPR",
+    href: "/cases/norwegian-smart-seo",
   },
 ];
 
@@ -72,12 +79,17 @@ export default function Results() {
                   <span className="text-accent text-sm font-medium">
                     {study.title}
                   </span>
-                  <span className="text-[48px] md:text-[64px] font-medium leading-none tracking-[-0.03em] text-heading">
-                    {study.metric}
-                  </span>
-                  <span className="text-body text-sm">
+                  <p className="text-body text-sm leading-relaxed">
                     {study.description}
-                  </span>
+                  </p>
+                  <div className="mt-auto flex items-center gap-4">
+                    <span className="text-lg md:text-xl font-medium text-heading">
+                      {study.metric}
+                    </span>
+                    <span className="text-xs text-white/40">
+                      {study.subMetric}
+                    </span>
+                  </div>
                 </div>
               </GlowEffect>
             </motion.a>

@@ -7,6 +7,7 @@ import Services from "@/components/sections/Services";
 import ToolsSoftware from "@/components/sections/ToolsSoftware";
 import Comparison from "@/components/sections/Comparison";
 import Process from "@/components/sections/Process";
+import DataFeeds from "@/components/sections/DataFeeds";
 import FAQ from "@/components/sections/FAQ";
 import Team from "@/components/sections/Team";
 import CTA from "@/components/sections/CTA";
@@ -25,6 +26,7 @@ export default function Home() {
         <ToolsSoftware />
         <Comparison />
         <Process />
+        <DataFeeds />
         <FAQ />
         <Team />
         <CTA />
