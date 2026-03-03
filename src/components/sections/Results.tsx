@@ -2,39 +2,36 @@
 
 import { motion } from "framer-motion";
 import Badge from "@/components/ui/Badge";
+import Button from "@/components/ui/Button";
 import SectionWrapper from "@/components/ui/SectionWrapper";
-import GlowEffect from "@/components/ui/GlowEffect";
 
 const caseStudies = [
   {
     title: "Narcotics store",
-    description:
-      "\u20AC2.9k to \u20AC91.7k per month revenue. 94% through our SEO.",
-    metric: "Exited for 7 figures+",
-    subMetric: "In 2 years",
+    image:
+      "https://framerusercontent.com/images/jKLk43bNfpNjhQGvnRhYkxJNjQ.webp",
+    badges: ["Exited for 7 figures+", "In 2 years"],
     href: "/cases/norwegian-health-store",
   },
   {
     title: "Biking Brand",
-    description:
-      "Improved collection page visibility by 970% through product data optimization",
-    metric: "8 weeks",
-    subMetric: "19% higher CVR",
+    image:
+      "https://framerusercontent.com/images/EeufC2RDWV8GzZB7fBbKfmWJQuc.webp",
+    badges: ["8 weeks", "19% higher CVR"],
     href: "/cases/ecommerce-brand",
   },
   {
     title: "Superfoods Brand",
-    description: "Tripled SEO revenue with our GMC Optimization",
-    metric: "479% more clicks",
-    subMetric: "1 week",
+    image:
+      "https://framerusercontent.com/images/nT2RO8bU8V5MvRjsqPRcXjKiA.webp",
+    badges: ["479% more clicks", "1 week"],
     href: "/cases/skyrocket-ecom-site",
   },
   {
     title: "Health Brand",
-    description:
-      "1316% increase in non-branded clicks on a Shopify store in 12 months!",
-    metric: "57% Increase in CTR",
-    subMetric: "69% Reduction in CPR",
+    image:
+      "https://framerusercontent.com/images/U8W2ek1f8J8lKPXlMlEGVJnMA.webp",
+    badges: ["57% Increase in CTR", "69% Reduction in CPR"],
     href: "/cases/norwegian-smart-seo",
   },
 ];
@@ -60,41 +57,54 @@ export default function Results() {
           </p>
         </motion.div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
           {caseStudies.map((study, i) => (
             <motion.a
               key={study.title}
               href={study.href}
+              className="group relative rounded-3xl overflow-hidden border border-border h-[400px] block"
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: i * 0.1 }}
             >
-              <GlowEffect
-                borderRadius={24}
-                className="h-full"
-                color="rgb(123, 45, 233)"
-              >
-                <div className="p-8 md:p-10 flex flex-col gap-4 min-h-[220px]">
-                  <span className="text-accent text-sm font-medium">
-                    {study.title}
-                  </span>
-                  <p className="text-body text-sm leading-relaxed">
-                    {study.description}
-                  </p>
-                  <div className="mt-auto flex items-center gap-4">
-                    <span className="text-lg md:text-xl font-medium text-heading">
-                      {study.metric}
+              {/* Background image */}
+              <div
+                className="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-105"
+                style={{ backgroundImage: `url(${study.image})` }}
+              />
+              {/* Gradient overlay */}
+              <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/30 to-transparent" />
+              {/* Content at bottom */}
+              <div className="absolute bottom-0 left-0 right-0 p-6 flex flex-col gap-3">
+                <h3 className="text-base font-medium text-heading">
+                  {study.title}
+                </h3>
+                <div className="flex flex-wrap gap-2">
+                  {study.badges.map((badge) => (
+                    <span
+                      key={badge}
+                      className="px-3 py-1.5 text-xs font-medium text-white/80 bg-[rgba(13,13,13,0.56)] border border-border rounded-xl backdrop-blur-sm"
+                    >
+                      {badge}
                     </span>
-                    <span className="text-xs text-white/40">
-                      {study.subMetric}
-                    </span>
-                  </div>
+                  ))}
                 </div>
-              </GlowEffect>
+              </div>
             </motion.a>
           ))}
         </div>
+
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.5 }}
+        >
+          <Button href="/cases" variant="secondary" size="large">
+            All Case Studies
+          </Button>
+        </motion.div>
       </div>
     </SectionWrapper>
   );

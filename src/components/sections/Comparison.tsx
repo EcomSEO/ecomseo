@@ -28,13 +28,32 @@ function ListItem({
   type: "negative" | "positive";
 }) {
   return (
-    <div className="flex items-start gap-3 py-2">
+    <div className="flex items-start gap-3 py-2.5">
       <span
-        className={`mt-0.5 text-sm ${
+        className={`mt-0.5 flex-shrink-0 ${
           type === "negative" ? "text-white/40" : "text-accent"
         }`}
       >
-        {type === "negative" ? "✕" : "✓"}
+        {type === "negative" ? (
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+            <path
+              d="M4 4l8 8M4 12l8-8"
+              stroke="currentColor"
+              strokeWidth="1.5"
+              strokeLinecap="round"
+            />
+          </svg>
+        ) : (
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+            <path
+              d="M3 8l3.5 3.5L13 5"
+              stroke="currentColor"
+              strokeWidth="1.5"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+          </svg>
+        )}
       </span>
       <span className="text-body text-sm">{text}</span>
     </div>
@@ -54,7 +73,8 @@ export default function Comparison() {
         >
           <Badge text="Comparison" />
           <h2 className="text-[32px] md:text-[48px] lg:text-[56px] font-medium leading-[1.1] tracking-[-0.02em] text-heading">
-            Why SEO for Ecommerce Brands makes sense
+            Why SEO for Ecommerce Brands{" "}
+            <em className="italic">makes sense</em>
           </h2>
         </motion.div>
 

@@ -58,10 +58,12 @@ export default function Services() {
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: i * 0.1 }}
             >
-              <div className="relative bg-bg-ui border border-border rounded-3xl p-8 md:p-12 overflow-hidden group hover:border-border-strong transition-colors h-full">
-                {/* Glow on hover */}
-                <div className="absolute -top-20 -right-20 w-40 h-40 bg-primary/10 rounded-full blur-[80px] opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
-                <div className="relative z-10 flex flex-col gap-4">
+              <GlowEffect
+                borderRadius={24}
+                className="h-full"
+                color="rgb(123, 45, 233)"
+              >
+                <div className="p-8 md:p-10 flex flex-col gap-4 min-h-[200px]">
                   <h3 className="text-[24px] md:text-[32px] font-medium text-heading">
                     {service.title}
                   </h3>
@@ -69,7 +71,7 @@ export default function Services() {
                     {service.description}
                   </p>
                 </div>
-              </div>
+              </GlowEffect>
             </motion.div>
           ))}
         </div>
@@ -83,6 +85,7 @@ export default function Services() {
           <Button
             href="https://w35pmime997.typeform.com/to/eqeeLQvb"
             variant="primary"
+            size="large"
             external
           >
             Get in touch

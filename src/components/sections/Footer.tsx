@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 const footerLinks = {
   Services: [
@@ -29,20 +30,14 @@ export default function Footer() {
         <div className="grid grid-cols-2 md:grid-cols-4 gap-10 md:gap-8">
           {/* Brand */}
           <div className="col-span-2 md:col-span-1 flex flex-col gap-4">
-            <Link
-              href="/"
-              className="flex items-center gap-2 text-white font-medium text-lg"
-            >
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
-                <rect width="24" height="24" rx="6" fill="rgb(123, 45, 233)" />
-                <path
-                  d="M7 8h10M7 12h10M7 16h6"
-                  stroke="white"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                />
-              </svg>
-              EcomSEO
+            <Link href="/" className="flex-shrink-0">
+              <Image
+                src="https://framerusercontent.com/images/TQbukBV8G5LIkEwGfbxZAiZs.png"
+                alt="EcomSEO"
+                width={160}
+                height={19}
+                className="h-[19px] w-auto"
+              />
             </Link>
             <p className="text-body text-sm leading-relaxed max-w-[250px]">
               Profit-focused ecommerce SEO agency. We build and scale brands
