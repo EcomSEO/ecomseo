@@ -1,0 +1,98 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-bg: rgb(10, 10, 10);
+  --color-bg-ui: rgb(13, 13, 13);
+  --color-bg-input: rgb(28, 28, 28);
+  --color-bg-card: rgba(13, 13, 13, 0.8);
+  --color-bg-nav: rgba(10, 10, 10, 0.48);
+  --color-bg-cta: rgba(13, 13, 13, 0.5);
+
+  --color-heading: rgb(255, 255, 255);
+  --color-body: rgba(255, 255, 255, 0.56);
+  --color-body-strong: rgba(255, 255, 255, 0.7);
+  --color-white: rgb(255, 255, 255);
+  --color-white-60: rgba(255, 255, 255, 0.6);
+  --color-white-10: rgba(255, 255, 255, 0.1);
+  --color-white-05: rgba(255, 255, 255, 0.05);
+
+  --color-border: rgba(255, 255, 255, 0.12);
+  --color-border-strong: rgba(255, 255, 255, 0.15);
+
+  --color-accent: rgb(193, 100, 230);
+  --color-primary: rgb(123, 45, 233);
+  --color-primary-hover: rgb(176, 87, 231);
+  --color-purple-dark: rgb(55, 24, 102);
+  --color-purple-darker: rgb(25, 13, 46);
+}
+
+/* Satoshi from Fontshare CDN */
+@font-face {
+  font-family: "Satoshi";
+  src: url("/fonts/Satoshi-Light.woff2") format("woff2");
+  font-weight: 300;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Satoshi";
+  src: url("/fonts/Satoshi-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Satoshi";
+  src: url("/fonts/Satoshi-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Satoshi";
+  src: url("/fonts/Satoshi-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-display: swap;
+  font-style: normal;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: rgb(10, 10, 10);
+  color: rgb(255, 255, 255);
+  font-family: "Satoshi", "DM Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: rgb(10, 10, 10); }
+::-webkit-scrollbar-thumb { background: rgba(255, 255, 255, 0.12); border-radius: 3px; }
+
+@keyframes glow-rotate {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes ticker {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+@keyframes fade-in-up {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-glow-rotate { animation: glow-rotate 6s linear infinite; }
+.animate-ticker { animation: ticker 30s linear infinite; }
+.animate-fade-in-up { animation: fade-in-up 0.6s ease-out forwards; }
+
+::selection {
+  background: rgba(123, 45, 233, 0.3);
+  color: white;
+}
