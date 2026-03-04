@@ -8,9 +8,9 @@ import { useLocale } from "@/lib/i18n/useTranslations";
 import { teamT } from "@/lib/i18n/translations/home";
 
 const teamImages = [
-  "https://framerusercontent.com/images/C23VbBxvj2kY5TMoXAJHXWVLaA.webp",
-  "https://framerusercontent.com/images/LFHXY0nxSQzbhGYgd9g8reMSo.png",
-  "https://framerusercontent.com/images/7GK5DLrtqk7QeLTPR3zbV0jHZOw.webp",
+  "/images/framer/C23VbBxvj2kY5TMoXAJHXWVLaA.webp",
+  "/images/framer/LFHXY0nxSQzbhGYgd9g8reMSo.png",
+  "/images/framer/7GK5DLrtqk7QeLTPR3zbV0jHZOw.webp",
 ];
 
 export default function Team() {

@@ -16,8 +16,8 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 
 
 const entryImages = [
-  "https://framerusercontent.com/images/ItBctzl5M66ve6J7UvXVHZQQShs.png",
-  "https://framerusercontent.com/images/ItBctzl5M66ve6J7UvXVHZQQShs.png",
+  "/images/framer/ItBctzl5M66ve6J7UvXVHZQQShs.png",
+  "/images/framer/ItBctzl5M66ve6J7UvXVHZQQShs.png",
 ];
 
 const entryHrefs = [

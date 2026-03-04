@@ -261,7 +261,7 @@ export default function Navigation() {
             <div className="flex items-center gap-[50px]">
               <LocaleLink href="/" className="flex-shrink-0">
                 <Image
-                  src="https://framerusercontent.com/images/TQbukBV8G5LIkEwGfbxZAiZs.png"
+                  src="/images/framer/TQbukBV8G5LIkEwGfbxZAiZs.png"
                   alt="EcomSEO"
                   width={215}
                   height={25}

@@ -17,7 +17,7 @@ export default function Footer() {
           <div className="col-span-2 md:col-span-1 flex flex-col gap-4">
             <LocaleLink href="/" className="flex-shrink-0">
               <Image
-                src="https://framerusercontent.com/images/TQbukBV8G5LIkEwGfbxZAiZs.png"
+                src="/images/framer/TQbukBV8G5LIkEwGfbxZAiZs.png"
                 alt="EcomSEO"
                 width={160}
                 height={19}

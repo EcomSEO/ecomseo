@@ -97,7 +97,7 @@ export default async function TemplatePage({ params }: { params: Promise<{ local
           <div className="flex items-center gap-4 mb-8">
             <div className="w-12 h-12 rounded-xl bg-purple-100 flex items-center justify-center">
               <Image
-                src="https://framerusercontent.com/images/1y7YPEZl3UouLlzQc4ikktB4SlQ.png"
+                src="/images/framer/1y7YPEZl3UouLlzQc4ikktB4SlQ.png"
                 alt="Template icon"
                 width={32}
                 height={32}
@@ -111,7 +111,7 @@ export default async function TemplatePage({ params }: { params: Promise<{ local
           {/* Cover image */}
           <div className="relative aspect-[16/9] rounded-2xl overflow-hidden mb-8 border border-gray-200">
             <Image
-              src="https://framerusercontent.com/images/dtTy5pSdH9vdxf7ZmXfyy4cQH0.png"
+              src="/images/framer/dtTy5pSdH9vdxf7ZmXfyy4cQH0.png"
               alt={t.abcTemplate.title}
               fill
               className="object-cover"
@@ -147,7 +147,7 @@ export default async function TemplatePage({ params }: { params: Promise<{ local
           {/* Author */}
           <div className="flex items-center gap-3 mb-16 pb-8 border-b border-gray-200">
             <Image
-              src="https://framerusercontent.com/images/TInweDbtgC4BbdOxO9KSYbemgM.png"
+              src="/images/framer/TInweDbtgC4BbdOxO9KSYbemgM.png"
               alt="Fabian van Til"
               width={40}
               height={40}

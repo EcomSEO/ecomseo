@@ -14,25 +14,25 @@ const teamMembersData = [
   {
     name: "Fabian van Til",
     image:
-      "https://framerusercontent.com/images/C23VbBxvj2kY5TMoXAJHXWVLaA.webp",
+      "/images/framer/C23VbBxvj2kY5TMoXAJHXWVLaA.webp",
     href: "/team/fabian-van-til",
   },
   {
     name: "Martinijan Trajkovski",
     image:
-      "https://framerusercontent.com/images/7GK5DLrtqk7QeLTPR3zbV0jHZOw.webp",
+      "/images/framer/7GK5DLrtqk7QeLTPR3zbV0jHZOw.webp",
     href: "/team/martinijan-trajkovski",
   },
   {
     name: "Dimitar Georgiev",
     image:
-      "https://framerusercontent.com/images/Q3tfuu2ytPAotONsFoP1ouyPZic.png",
+      "/images/framer/Q3tfuu2ytPAotONsFoP1ouyPZic.png",
     href: "/team/dimitar-georgiev",
   },
   {
     name: "Gjorgi Jovev",
     image:
-      "https://framerusercontent.com/images/LFHXY0nxSQzbhGYgd9g8reMSo.png",
+      "/images/framer/LFHXY0nxSQzbhGYgd9g8reMSo.png",
     href: "/team/gjorgi-jovev",
   },
 ];
@@ -191,7 +191,7 @@ export default function TeamPage() {
                 transition={{ duration: 0.6 }}
               >
                 <Image
-                  src="https://framerusercontent.com/images/bAgme6Zne4dPOBGSkAqQH3x2Wc.jpg"
+                  src="/images/framer/bAgme6Zne4dPOBGSkAqQH3x2Wc.jpg"
                   alt="EcomSEO Team"
                   fill
                   className="object-cover"

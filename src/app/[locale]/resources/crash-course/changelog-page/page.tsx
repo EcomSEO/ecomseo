@@ -59,7 +59,7 @@ export default async function ChangelogPage({ params }: { params: Promise<{ loca
           {/* Cover image */}
           <div className="relative w-full aspect-[16/9] rounded-lg overflow-hidden mb-10">
             <Image
-              src="https://framerusercontent.com/images/ItBctzl5M66ve6J7UvXVHZQQShs.png"
+              src="/images/framer/ItBctzl5M66ve6J7UvXVHZQQShs.png"
               alt={t.title}
               fill
               className="object-cover"

@@ -10,19 +10,19 @@ const linkPreviews = [
     url: "https://stripe.com",
     title: "Stripe | Payment Processing Platform",
     description: "Online payment processing for internet businesses.",
-    icon: "https://framerusercontent.com/images/9pIhXfhCU1sTeHBOgCHIx1HYRQ.png",
+    icon: "/images/framer/9pIhXfhCU1sTeHBOgCHIx1HYRQ.png",
   },
   {
     url: "https://linear.app",
     title: "Linear -- Plan and build products",
     description: "Linear streamlines issues, sprints, and product roadmaps.",
-    icon: "https://framerusercontent.com/images/4qGHkqJJxfq89gQcjxyVFRpDY.png",
+    icon: "/images/framer/4qGHkqJJxfq89gQcjxyVFRpDY.png",
   },
   {
     url: "https://framer.com",
     title: "Framer -- The web builder for stunning sites",
     description: "Ship sites with unmatched design and performance.",
-    icon: "https://framerusercontent.com/images/1FvNSvPn60UkPbHBHxPBTOqP7Hc.png",
+    icon: "/images/framer/1FvNSvPn60UkPbHBHxPBTOqP7Hc.png",
   },
 ];
 
@@ -48,7 +48,7 @@ export default async function PageProfilePage({
           <div className="flex flex-col items-center text-center mb-10">
             <div className="w-20 h-20 rounded-full bg-white-10 border-2 border-border mb-4 overflow-hidden">
               <Image
-                src="https://framerusercontent.com/images/kDMvWdaX2VtdpLFprGXLJCDbnA.jpg"
+                src="/images/framer/kDMvWdaX2VtdpLFprGXLJCDbnA.jpg"
                 alt="Fabian van Til"
                 width={80}
                 height={80}
@@ -124,7 +124,7 @@ export default async function PageProfilePage({
                 <div className="flex items-center gap-3 mb-3">
                   <div className="w-8 h-8 rounded-full bg-white-10 overflow-hidden">
                     <Image
-                      src="https://framerusercontent.com/images/kDMvWdaX2VtdpLFprGXLJCDbnA.jpg"
+                      src="/images/framer/kDMvWdaX2VtdpLFprGXLJCDbnA.jpg"
                       alt="Fabian van Til"
                       width={32}
                       height={32}

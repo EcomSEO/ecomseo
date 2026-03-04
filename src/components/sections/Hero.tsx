@@ -8,11 +8,11 @@ import { useLocale } from "@/lib/i18n/useTranslations";
 import { heroT } from "@/lib/i18n/translations/home";
 
 const avatars = [
-  "https://framerusercontent.com/images/M30GCOkzDVYBvBJnuLVYhsnyGw.png",
-  "https://framerusercontent.com/images/80o2iODSsHPFqjC6aLCcDC1DMYQ.png",
-  "https://framerusercontent.com/images/IXaVr7HXZA5nSzm7giEQq6Bs.png",
-  "https://framerusercontent.com/images/C23VbBxvj2kY5TMoXAJHXWVLaA.webp",
-  "https://framerusercontent.com/images/LFHXY0nxSQzbhGYgd9g8reMSo.png",
+  "/images/framer/M30GCOkzDVYBvBJnuLVYhsnyGw.png",
+  "/images/framer/80o2iODSsHPFqjC6aLCcDC1DMYQ.png",
+  "/images/framer/IXaVr7HXZA5nSzm7giEQq6Bs.png",
+  "/images/framer/C23VbBxvj2kY5TMoXAJHXWVLaA.webp",
+  "/images/framer/LFHXY0nxSQzbhGYgd9g8reMSo.png",
 ];
 
 function SocialProof({ text }: { text: string }) {

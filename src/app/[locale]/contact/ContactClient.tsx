@@ -356,7 +356,7 @@ export default function ContactPage() {
                 transition={{ duration: 0.5 }}
               >
                 <Image
-                  src="https://framerusercontent.com/images/C23VbBxvj2kY5TMoXAJHXWVLaA.webp"
+                  src="/images/framer/C23VbBxvj2kY5TMoXAJHXWVLaA.webp"
                   alt="Fabian van Til"
                   fill
                   className="object-cover"

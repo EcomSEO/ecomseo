@@ -8,11 +8,11 @@ import { useLocale } from "@/lib/i18n/useTranslations";
 import { thankYouPaymentT } from "@/lib/i18n/translations/thankYouPayment";
 
 const logos = [
-  "https://framerusercontent.com/images/t2yR7ACCVBmSnnUUjNT7njcCKU.png",
-  "https://framerusercontent.com/images/GBYkGoRfRJI1RTbDG3VVMkFcA.png",
-  "https://framerusercontent.com/images/Ts3FQ67LyRFYn1bXxKAKUvJo5s.png",
-  "https://framerusercontent.com/images/F4l4UGH2sO1TG1hwPsVlyqtWk.png",
-  "https://framerusercontent.com/images/X9SFdl0C2lB2eSoN5sJxO5I3Bw.png",
+  "/images/framer/t2yR7ACCVBmSnnUUjNT7njcCKU.png",
+  "/images/framer/GBYkGoRfRJI1RTbDG3VVMkFcA.png",
+  "/images/framer/Ts3FQ67LyRFYn1bXxKAKUvJo5s.png",
+  "/images/framer/F4l4UGH2sO1TG1hwPsVlyqtWk.png",
+  "/images/framer/X9SFdl0C2lB2eSoN5sJxO5I3Bw.png",
 ];
 
 export default function ThankYouPaymentPage() {
@@ -66,7 +66,7 @@ export default function ThankYouPaymentPage() {
           <div className="flex justify-center mb-12">
             <div className="relative w-full max-w-[500px] aspect-square rounded-2xl overflow-hidden">
               <Image
-                src="https://framerusercontent.com/images/AB0iieRBYCg49jEBwxtcw3fs4.gif"
+                src="/images/framer/AB0iieRBYCg49jEBwxtcw3fs4.gif"
                 alt="Thank you"
                 fill
                 className="object-cover"

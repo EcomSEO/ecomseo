@@ -14,14 +14,14 @@ const clientLogosT: Record<Locale, { trustLine: string }> = {
 };
 
 const clientLogos = [
-  { src: "https://framerusercontent.com/images/R9PWSY8LxXtyW5suU5EWxJzw9Y.webp", alt: "Client logo", width: 125, height: 81 },
-  { src: "https://framerusercontent.com/images/t0iElALIslZN0LoWiFvtHdqsKI.webp", alt: "Client logo", width: 124, height: 81 },
-  { src: "https://framerusercontent.com/images/3Kg9SIK0Ro5itxJOLFuhbQeyx8.webp", alt: "Client logo", width: 124, height: 81 },
-  { src: "https://framerusercontent.com/images/5AyCDNdvQEtwyBvuGqHcDCwJeA.webp", alt: "Client logo", width: 125, height: 81 },
-  { src: "https://framerusercontent.com/images/14JcRp6JZhBUl6ReHp6lqIRBmlo.webp", alt: "Client logo", width: 126, height: 82 },
-  { src: "https://framerusercontent.com/images/TlKNFSmHBRkkG6eJvlll5HbhEc.webp", alt: "Client logo", width: 76, height: 49 },
-  { src: "https://framerusercontent.com/images/MbUu08RiiVySyvbDK3jesMWTr7c.webp", alt: "Client logo", width: 125, height: 81 },
-  { src: "https://framerusercontent.com/images/SyEG0S06QqQM1bHszg8JHjBY8.png", alt: "EcomSEO", width: 217, height: 141 },
+  { src: "/images/framer/R9PWSY8LxXtyW5suU5EWxJzw9Y.webp", alt: "Client logo", width: 125, height: 81 },
+  { src: "/images/framer/t0iElALIslZN0LoWiFvtHdqsKI.webp", alt: "Client logo", width: 124, height: 81 },
+  { src: "/images/framer/3Kg9SIK0Ro5itxJOLFuhbQeyx8.webp", alt: "Client logo", width: 124, height: 81 },
+  { src: "/images/framer/5AyCDNdvQEtwyBvuGqHcDCwJeA.webp", alt: "Client logo", width: 125, height: 81 },
+  { src: "/images/framer/14JcRp6JZhBUl6ReHp6lqIRBmlo.webp", alt: "Client logo", width: 126, height: 82 },
+  { src: "/images/framer/TlKNFSmHBRkkG6eJvlll5HbhEc.webp", alt: "Client logo", width: 76, height: 49 },
+  { src: "/images/framer/MbUu08RiiVySyvbDK3jesMWTr7c.webp", alt: "Client logo", width: 125, height: 81 },
+  { src: "/images/framer/SyEG0S06QqQM1bHszg8JHjBY8.png", alt: "EcomSEO", width: 217, height: 141 },
 ];
 
 export default function ClientLogos() {

@@ -104,7 +104,7 @@ export default async function WhyWeSharePage({ params }: { params: Promise<{ loc
             <Badge text={t.ecom.badge} />
             <div className="rounded-2xl bg-bg-card border border-border p-8 md:p-12 flex flex-col md:flex-row items-center gap-8 w-full max-w-[900px]">
               <Image
-                src="https://framerusercontent.com/images/pLr2VAAJPydel6VZNLZAsJP6k.png"
+                src="/images/framer/pLr2VAAJPydel6VZNLZAsJP6k.png"
                 alt="Fabian van Til"
                 width={160}
                 height={160}

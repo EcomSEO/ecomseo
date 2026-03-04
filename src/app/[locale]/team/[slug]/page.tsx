@@ -30,7 +30,7 @@ const teamMembers: Record<string, TeamMember> = {
     tagline:
       "A Passionate Entrepreneur, specialising in ecommerce marketing.",
     image:
-      "https://framerusercontent.com/images/pLr2VAAJPydel6VZNLZAsJP6k.png",
+      "/images/framer/pLr2VAAJPydel6VZNLZAsJP6k.png",
     bio: "Fabian entered the e-commerce space in 2020. Two years later he and a partner launched a Google-marketing agency, which they swiftly refocused into an SEO firm. After selling his stake to his co-founder, Fabian doubled down on e-commerce. In 2024 he and his brother introduced their own brand and co-founded EcomSEO, an agency dedicated to shattering the norms of traditional marketing through transparent, results-oriented partnerships.",
     skills: [
       "Intent Matching",
@@ -71,7 +71,7 @@ const teamMembers: Record<string, TeamMember> = {
     tagline:
       "A Passionate Entrepreneur, specialising in ecommerce marketing.",
     image:
-      "https://framerusercontent.com/images/CBAq5E76Hb1mj6ehAOixPYBjN1w.png",
+      "/images/framer/CBAq5E76Hb1mj6ehAOixPYBjN1w.png",
     bio: "Martinijan Trajkovski is a data-driven SEO strategist with 9+ years of experience \u2014 four dedicated to skyrocketing ecommerce brands. Since joining EcomSEO in 2023, he\u2019s fused deep market research, competitor intel, white-hat link building, affiliate growth and digital PR to turn organic search into profit. Away from the SERPs he\u2019s usually devouring marketing books, lifting at the gym or chasing drop-shots on the tennis court.",
     skills: [
       "Market Research",
@@ -123,7 +123,7 @@ const teamMembers: Record<string, TeamMember> = {
     tagline:
       "SEO specialist focused on eCommerce, with over 5 years of experience.",
     image:
-      "https://framerusercontent.com/images/Q3tfuu2ytPAotONsFoP1ouyPZic.png",
+      "/images/framer/Q3tfuu2ytPAotONsFoP1ouyPZic.png",
     bio: "Dimitar joined EcomSEO in 2024, bringing over five years of hands-on experience in SEO for both e-commerce and affiliate websites. With a strong foundation in on-page optimization, technical audits, content strategy, and off-page SEO, he plays a key role in driving client growth through sustainable rankings and targeted traffic. Dimitar\u2019s approach combines precision with creativity, helping brands stand out in competitive niches. Outside of work, he\u2019s committed to the gym and enjoys traveling to new destinations \u2014 always seeking the next challenge, both in fitness and digital marketing.",
     skills: [
       "Keyword Research",
@@ -166,7 +166,7 @@ const teamMembers: Record<string, TeamMember> = {
     tagline:
       "An SEO Expert, specialising in e-commerce growth and visibility.",
     image:
-      "https://framerusercontent.com/images/mwZY3GOpimv2aB41YxuZegw3ZNc.png",
+      "/images/framer/mwZY3GOpimv2aB41YxuZegw3ZNc.png",
     bio: "Gjorgi entered the e-commerce space in 2022. With a background in digital marketing, he quickly carved out a niche in SEO, focusing on performance-driven strategies for online stores. Over the next two years, he honed his skills in technical SEO, content optimization, keyword strategy, and high-quality backlink building. Known for his tenacity and results-first mindset, Gjorgi continues to help businesses scale through transparent, data-led SEO.",
     skills: [
       "Link Building",

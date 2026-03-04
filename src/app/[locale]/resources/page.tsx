@@ -25,9 +25,9 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 }
 
 const articleImages = [
-  "https://framerusercontent.com/images/onMUu7iRiATs271DY4qFTwrfs2A.jpeg",
-  "https://framerusercontent.com/images/dtTy5pSdH9vdxf7ZmXfyy4cQH0.png",
-  "https://framerusercontent.com/images/pLr2VAAJPydel6VZNLZAsJP6k.png",
+  "/images/framer/onMUu7iRiATs271DY4qFTwrfs2A.jpeg",
+  "/images/framer/dtTy5pSdH9vdxf7ZmXfyy4cQH0.png",
+  "/images/framer/pLr2VAAJPydel6VZNLZAsJP6k.png",
 ];
 
 const articleHrefs = [
@@ -71,7 +71,7 @@ export default async function ResourcesPage({ params }: { params: Promise<{ loca
             <div className="rounded-2xl bg-bg-card border border-border p-8 md:p-10 flex flex-col gap-6">
               <div className="flex items-center gap-4">
                 <Image
-                  src="https://framerusercontent.com/images/TInweDbtgC4BbdOxO9KSYbemgM.png"
+                  src="/images/framer/TInweDbtgC4BbdOxO9KSYbemgM.png"
                   alt={fabian.name}
                   width={56}
                   height={56}
@@ -143,7 +143,7 @@ export default async function ResourcesPage({ params }: { params: Promise<{ loca
             {/* Side image card */}
             <div className="rounded-2xl overflow-hidden border border-border min-h-[300px] relative">
               <Image
-                src="https://framerusercontent.com/images/onMUu7iRiATs271DY4qFTwrfs2A.jpeg"
+                src="/images/framer/onMUu7iRiATs271DY4qFTwrfs2A.jpeg"
                 alt="EcomSEO resources"
                 fill
                 className="object-cover"

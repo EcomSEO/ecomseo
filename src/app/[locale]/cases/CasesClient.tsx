@@ -14,72 +14,72 @@ const caseStudyData = [
   {
     href: "/cases/norwegian-health-store",
     image:
-      "https://framerusercontent.com/images/jKLk43bNfpNjhQGvnRhYkxJNjQ.webp",
+      "/images/framer/jKLk43bNfpNjhQGvnRhYkxJNjQ.webp",
   },
   {
     href: "/cases/ecommerce-brand",
     image:
-      "https://framerusercontent.com/images/EeufC2RDWV8GzZB7fBbKfmWJQuc.webp",
+      "/images/framer/EeufC2RDWV8GzZB7fBbKfmWJQuc.webp",
   },
   {
     href: "/cases/skyrocket-ecom-site",
     image:
-      "https://framerusercontent.com/images/nT2RO8bU8V5MvRjsqPRcXjKiA.webp",
+      "/images/framer/nT2RO8bU8V5MvRjsqPRcXjKiA.webp",
   },
   {
     href: "/cases/norwegian-smart-seo",
     image:
-      "https://framerusercontent.com/images/U8W2ek1f8J8lKPXlMlEGVJnMA.webp",
+      "/images/framer/U8W2ek1f8J8lKPXlMlEGVJnMA.webp",
   },
   {
     href: "/cases/dutch-brand",
     image:
-      "https://framerusercontent.com/images/XveBJKU8qwY42bC8IYC2qnY0XI.webp",
+      "/images/framer/XveBJKU8qwY42bC8IYC2qnY0XI.webp",
   },
   {
     href: "/cases/english-health-site",
     image:
-      "https://framerusercontent.com/images/pOqYpuGRc2T3mmxrOH6jk7dLGk.webp",
+      "/images/framer/pOqYpuGRc2T3mmxrOH6jk7dLGk.webp",
   },
   {
     href: "/cases/dutch-health-brand",
     image:
-      "https://framerusercontent.com/images/fYBmJFqXMuLPgEQrC9RMXS2bEQ.webp",
+      "/images/framer/fYBmJFqXMuLPgEQrC9RMXS2bEQ.webp",
   },
   {
     href: "/cases/swedish-seo-explosion",
     image:
-      "https://framerusercontent.com/images/DkD9z15pJoS3dlSyXfBDIu1yg0.webp",
+      "/images/framer/DkD9z15pJoS3dlSyXfBDIu1yg0.webp",
   },
   {
     href: "/cases/beauty-brand-dominated-in-google",
     image:
-      "https://framerusercontent.com/images/fYBmJFqXMuLPgEQrC9RMXS2bEQ.webp",
+      "/images/framer/fYBmJFqXMuLPgEQrC9RMXS2bEQ.webp",
   },
   {
     href: "/cases/jewelry-dutch-brand-ecom",
     image:
-      "https://framerusercontent.com/images/XveBJKU8qwY42bC8IYC2qnY0XI.webp",
+      "/images/framer/XveBJKU8qwY42bC8IYC2qnY0XI.webp",
   },
   {
     href: "/cases/ecom-brand-explode",
     image:
-      "https://framerusercontent.com/images/DkD9z15pJoS3dlSyXfBDIu1yg0.webp",
+      "/images/framer/DkD9z15pJoS3dlSyXfBDIu1yg0.webp",
   },
   {
     href: "/cases/dutch-lighting-store",
     image:
-      "https://framerusercontent.com/images/pOqYpuGRc2T3mmxrOH6jk7dLGk.webp",
+      "/images/framer/pOqYpuGRc2T3mmxrOH6jk7dLGk.webp",
   },
   {
     href: "/cases/swedish-ecom-site",
     image:
-      "https://framerusercontent.com/images/nT2RO8bU8V5MvRjsqPRcXjKiA.webp",
+      "/images/framer/nT2RO8bU8V5MvRjsqPRcXjKiA.webp",
   },
   {
     href: "/cases/ecom-swedish-brand",
     image:
-      "https://framerusercontent.com/images/jKLk43bNfpNjhQGvnRhYkxJNjQ.webp",
+      "/images/framer/jKLk43bNfpNjhQGvnRhYkxJNjQ.webp",
   },
 ];
 

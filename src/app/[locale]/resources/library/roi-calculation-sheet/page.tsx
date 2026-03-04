@@ -141,7 +141,7 @@ export default async function RoiCalculationPage({ params }: { params: Promise<{
           {/* Author */}
           <div className="flex items-center gap-3 mb-16 pb-8 border-b border-gray-200">
             <Image
-              src="https://framerusercontent.com/images/TInweDbtgC4BbdOxO9KSYbemgM.png"
+              src="/images/framer/TInweDbtgC4BbdOxO9KSYbemgM.png"
               alt="Fabian van Til"
               width={40}
               height={40}

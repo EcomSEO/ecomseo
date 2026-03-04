@@ -8,11 +8,11 @@ import type { Locale } from "@/lib/i18n/config";
 import { premiumChecklistT } from "@/lib/i18n/translations/premiumChecklist";
 
 const logos = [
-  "https://framerusercontent.com/images/t2yR7ACCVBmSnnUUjNT7njcCKU.png",
-  "https://framerusercontent.com/images/GBYkGoRfRJI1RTbDG3VVMkFcA.png",
-  "https://framerusercontent.com/images/Ts3FQ67LyRFYn1bXxKAKUvJo5s.png",
-  "https://framerusercontent.com/images/F4l4UGH2sO1TG1hwPsVlyqtWk.png",
-  "https://framerusercontent.com/images/X9SFdl0C2lB2eSoN5sJxO5I3Bw.png",
+  "/images/framer/t2yR7ACCVBmSnnUUjNT7njcCKU.png",
+  "/images/framer/GBYkGoRfRJI1RTbDG3VVMkFcA.png",
+  "/images/framer/Ts3FQ67LyRFYn1bXxKAKUvJo5s.png",
+  "/images/framer/F4l4UGH2sO1TG1hwPsVlyqtWk.png",
+  "/images/framer/X9SFdl0C2lB2eSoN5sJxO5I3Bw.png",
 ];
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {

@@ -10,22 +10,22 @@ import { resultsT } from "@/lib/i18n/translations/home";
 const caseStudies = [
   {
     image:
-      "https://framerusercontent.com/images/jKLk43bNfpNjhQGvnRhYkxJNjQ.webp",
+      "/images/framer/jKLk43bNfpNjhQGvnRhYkxJNjQ.webp",
     href: "/cases/norwegian-health-store",
   },
   {
     image:
-      "https://framerusercontent.com/images/EeufC2RDWV8GzZB7fBbKfmWJQuc.webp",
+      "/images/framer/EeufC2RDWV8GzZB7fBbKfmWJQuc.webp",
     href: "/cases/ecommerce-brand",
   },
   {
     image:
-      "https://framerusercontent.com/images/nT2RO8bU8V5MvRjsqPRcXjKiA.webp",
+      "/images/framer/nT2RO8bU8V5MvRjsqPRcXjKiA.webp",
     href: "/cases/skyrocket-ecom-site",
   },
   {
     image:
-      "https://framerusercontent.com/images/U8W2ek1f8J8lKPXlMlEGVJnMA.webp",
+      "/images/framer/U8W2ek1f8J8lKPXlMlEGVJnMA.webp",
     href: "/cases/norwegian-smart-seo",
   },
 ];
