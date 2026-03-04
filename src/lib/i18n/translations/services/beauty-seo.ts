@@ -9,6 +9,7 @@ export const beautySeoData: Record<Locale, ServicePageProps> = {
       subtitle:
         "We help beauty and skincare brands rank for the searches that drive revenue \u2014 from ingredient queries to routine guides and product comparisons.",
       ctaText: "Book a Beauty SEO Strategy Call",
+      heroImage: "/images/niches/beauty-hairdryer.png",
     },
     trustBar: "20+ beauty brands trust us to grow their organic revenue",
     sections: [
@@ -61,6 +62,7 @@ export const beautySeoData: Record<Locale, ServicePageProps> = {
       subtitle:
         "Wir helfen Beauty- und Hautpflegemarken, f\u00fcr die Suchanfragen zu ranken, die Umsatz bringen \u2014 von Inhaltsstoff-Suchen \u00fcber Routine-Guides bis zu Produktvergleichen.",
       ctaText: "Beauty-SEO-Strategiegespr\u00e4ch buchen",
+      heroImage: "/images/niches/beauty-hairdryer.png",
     },
     trustBar: "Mehr als 20 Beauty-Marken vertrauen uns beim organischen Wachstum",
     sections: [
@@ -113,6 +115,7 @@ export const beautySeoData: Record<Locale, ServicePageProps> = {
       subtitle:
         "Nous aidons les marques de beaut\u00e9 et de soins \u00e0 se positionner sur les recherches qui g\u00e9n\u00e8rent du chiffre d\u2019affaires \u2014 des requ\u00eates sur les ingr\u00e9dients aux guides de routine et comparatifs produits.",
       ctaText: "R\u00e9server un appel strat\u00e9gique SEO Beaut\u00e9",
+      heroImage: "/images/niches/beauty-hairdryer.png",
     },
     trustBar: "Plus de 20 marques beaut\u00e9 nous font confiance pour leur croissance organique",
     sections: [
@@ -165,6 +168,7 @@ export const beautySeoData: Record<Locale, ServicePageProps> = {
       subtitle:
         "Ayudamos a marcas de belleza y cuidado de la piel a posicionarse en las b\u00fasquedas que generan ingresos \u2014 desde consultas sobre ingredientes hasta gu\u00edas de rutina y comparativas de productos.",
       ctaText: "Reserva una llamada estrat\u00e9gica de SEO Belleza",
+      heroImage: "/images/niches/beauty-hairdryer.png",
     },
     trustBar: "M\u00e1s de 20 marcas de belleza conf\u00edan en nosotros para crecer org\u00e1nicamente",
     sections: [
@@ -217,6 +221,7 @@ export const beautySeoData: Record<Locale, ServicePageProps> = {
       subtitle:
         "Aiutiamo brand beauty e skincare a posizionarsi per le ricerche che generano fatturato \u2014 dalle query sugli ingredienti alle guide di routine e ai confronti prodotto.",
       ctaText: "Prenota una call strategica SEO Beauty",
+      heroImage: "/images/niches/beauty-hairdryer.png",
     },
     trustBar: "Oltre 20 brand beauty si affidano a noi per la crescita organica",
     sections: [
@@ -269,6 +274,7 @@ export const beautySeoData: Record<Locale, ServicePageProps> = {
       subtitle:
         "We helpen beauty- en huidverzorgingsmerken te ranken op de zoekopdrachten die omzet genereren \u2014 van ingredi\u00ebntenzoekopdrachten tot routinegidsen en productvergelijkingen.",
       ctaText: "Boek een Beauty SEO-strategiegesprek",
+      heroImage: "/images/niches/beauty-hairdryer.png",
     },
     trustBar: "Meer dan 20 beautymerken vertrouwen op ons voor organische groei",
     sections: [

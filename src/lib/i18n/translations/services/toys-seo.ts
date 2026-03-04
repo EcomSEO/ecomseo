@@ -9,6 +9,7 @@ export const toysSeoData: Record<Locale, ServicePageProps> = {
       subtitle:
         "We help toy and game ecommerce brands rank for the searches that drive revenue \u2014 from seasonal spikes to age-based queries and gift guide searches.",
       ctaText: "Book a Toys SEO Strategy Call",
+      heroImage: "/images/niches/toys-spheres.png",
     },
     trustBar: "20+ toy brands trust us to grow their organic revenue",
     sections: [
@@ -123,6 +124,7 @@ export const toysSeoData: Record<Locale, ServicePageProps> = {
       subtitle:
         "Wir helfen Spielzeug- und Spiele-E-Commerce-Marken, f\u00fcr die Suchanfragen zu ranken, die Umsatz bringen \u2014 von saisonalen Spitzen \u00fcber altersbasierte Suchen bis zu Geschenkratgeber-Anfragen.",
       ctaText: "Kostenloses Strategiegespr\u00e4ch buchen",
+      heroImage: "/images/niches/toys-spheres.png",
     },
     trustBar:
       "20+ Spielzeugmarken vertrauen uns f\u00fcr ihr organisches Umsatzwachstum",
@@ -244,6 +246,7 @@ export const toysSeoData: Record<Locale, ServicePageProps> = {
       subtitle:
         "Nous aidons les marques e-commerce de jouets et jeux \u00e0 se positionner sur les recherches qui g\u00e9n\u00e8rent du chiffre d\u2019affaires \u2014 des pics saisonniers aux requ\u00eates par \u00e2ge en passant par les guides cadeaux.",
       ctaText: "R\u00e9server un appel strat\u00e9gique",
+      heroImage: "/images/niches/toys-spheres.png",
     },
     trustBar:
       "Plus de 20 marques de jouets nous font confiance pour d\u00e9velopper leur chiffre d\u2019affaires organique",
@@ -365,6 +368,7 @@ export const toysSeoData: Record<Locale, ServicePageProps> = {
       subtitle:
         "Ayudamos a marcas de juguetes y juegos a posicionarse en las b\u00fasquedas que generan ingresos \u2014 desde picos estacionales hasta consultas por edad y b\u00fasquedas de gu\u00edas de regalos.",
       ctaText: "Reservar una llamada estrat\u00e9gica",
+      heroImage: "/images/niches/toys-spheres.png",
     },
     trustBar:
       "M\u00e1s de 20 marcas de juguetes conf\u00edan en nosotros para hacer crecer sus ingresos org\u00e1nicos",
@@ -486,6 +490,7 @@ export const toysSeoData: Record<Locale, ServicePageProps> = {
       subtitle:
         "Aiutiamo brand e-commerce di giocattoli e giochi a posizionarsi per le ricerche che generano fatturato \u2014 dai picchi stagionali alle query per et\u00e0 fino alle ricerche di guide ai regali.",
       ctaText: "Prenota una consulenza strategica",
+      heroImage: "/images/niches/toys-spheres.png",
     },
     trustBar:
       "Oltre 20 brand di giocattoli si affidano a noi per far crescere il loro fatturato organico",
@@ -607,6 +612,7 @@ export const toysSeoData: Record<Locale, ServicePageProps> = {
       subtitle:
         "Wij helpen speelgoed- en spelletjesmerken te ranken voor de zoekopdrachten die omzet genereren \u2014 van seizoenspieken tot leeftijdsgerichte zoekopdrachten en cadeau-gidsen.",
       ctaText: "Boek een strategiegesprek",
+      heroImage: "/images/niches/toys-spheres.png",
     },
     trustBar:
       "Meer dan 20 speelgoedmerken vertrouwen op ons voor hun organische omzetgroei",

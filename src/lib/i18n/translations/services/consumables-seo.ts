@@ -9,6 +9,7 @@ export const consumablesSeoData: Record<Locale, ServicePageProps> = {
       subtitle:
         "We help food, supplement, and consumable ecommerce brands rank for the searches that drive first orders and repeat purchases \u2014 from ingredient queries to subscription comparisons.",
       ctaText: "Book a Consumables SEO Strategy Call",
+      heroImage: "/images/niches/health-capsule.webp",
     },
     trustBar: "20+ consumable brands trust us to grow their organic revenue",
     sections: [
@@ -123,6 +124,7 @@ export const consumablesSeoData: Record<Locale, ServicePageProps> = {
       subtitle:
         "Wir helfen Lebensmittel-, Nahrungserg\u00e4nzungs- und Verbrauchsg\u00fcter-Marken, f\u00fcr die Suchanfragen zu ranken, die Erstbestellungen und Wiederholungsk\u00e4ufe generieren \u2014 von Inhaltsstoff-Suchen bis zu Abo-Vergleichen.",
       ctaText: "Kostenloses Strategiegespr\u00e4ch buchen",
+      heroImage: "/images/niches/health-capsule.webp",
     },
     trustBar:
       "20+ Verbrauchsg\u00fcter-Marken vertrauen uns f\u00fcr ihr organisches Umsatzwachstum",
@@ -244,6 +246,7 @@ export const consumablesSeoData: Record<Locale, ServicePageProps> = {
       subtitle:
         "Nous aidons les marques e-commerce d\u2019alimentation, compl\u00e9ments et produits consommables \u00e0 se positionner sur les recherches qui g\u00e9n\u00e8rent premi\u00e8res commandes et rachats \u2014 des requ\u00eates d\u2019ingr\u00e9dients aux comparaisons d\u2019abonnements.",
       ctaText: "R\u00e9server un appel strat\u00e9gique",
+      heroImage: "/images/niches/health-capsule.webp",
     },
     trustBar:
       "Plus de 20 marques de consommables nous font confiance pour d\u00e9velopper leur chiffre d\u2019affaires organique",
@@ -365,6 +368,7 @@ export const consumablesSeoData: Record<Locale, ServicePageProps> = {
       subtitle:
         "Ayudamos a marcas de alimentaci\u00f3n, suplementos y consumibles a posicionarse en las b\u00fasquedas que generan primeros pedidos y compras recurrentes \u2014 desde consultas de ingredientes hasta comparaciones de suscripciones.",
       ctaText: "Reservar una llamada estrat\u00e9gica",
+      heroImage: "/images/niches/health-capsule.webp",
     },
     trustBar:
       "M\u00e1s de 20 marcas de consumibles conf\u00edan en nosotros para hacer crecer sus ingresos org\u00e1nicos",
@@ -486,6 +490,7 @@ export const consumablesSeoData: Record<Locale, ServicePageProps> = {
       subtitle:
         "Aiutiamo brand e-commerce di alimentari, integratori e beni di consumo a posizionarsi per le ricerche che generano primi ordini e acquisti ripetuti \u2014 dalle query sugli ingredienti ai confronti tra abbonamenti.",
       ctaText: "Prenota una consulenza strategica",
+      heroImage: "/images/niches/health-capsule.webp",
     },
     trustBar:
       "Oltre 20 brand di consumabili si affidano a noi per far crescere il loro fatturato organico",
@@ -607,6 +612,7 @@ export const consumablesSeoData: Record<Locale, ServicePageProps> = {
       subtitle:
         "Wij helpen voedings-, supplement- en consumentengoedmerken te ranken voor de zoekopdrachten die eerste bestellingen en herhaalaankopen genereren \u2014 van ingredi\u00ebntvragen tot abonnementsvergelijkingen.",
       ctaText: "Boek een strategiegesprek",
+      heroImage: "/images/niches/health-capsule.webp",
     },
     trustBar:
       "Meer dan 20 consumablemerken vertrouwen op ons voor hun organische omzetgroei",

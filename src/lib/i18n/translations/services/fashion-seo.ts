@@ -9,6 +9,7 @@ export const fashionSeoData: Record<Locale, ServicePageProps> = {
       subtitle:
         "We help fashion and apparel brands rank for the searches that drive revenue \u2014 from seasonal trends to style queries and collection-level intent.",
       ctaText: "Book a Fashion SEO Strategy Call",
+      heroImage: "/images/niches/cosmetics-perfume.webp",
     },
     trustBar: "Trusted by 20+ fashion brands scaling organic revenue",
     sections: [
@@ -214,6 +215,7 @@ export const fashionSeoData: Record<Locale, ServicePageProps> = {
       subtitle:
         "Wir helfen Mode- und Bekleidungsmarken, f\u00fcr die Suchanfragen zu ranken, die Umsatz bringen \u2014 von saisonalen Trends \u00fcber Style-Suchanfragen bis hin zu Kollektions-Intent.",
       ctaText: "Fashion SEO-Strategiegespr\u00e4ch buchen",
+      heroImage: "/images/niches/cosmetics-perfume.webp",
     },
     trustBar: "\u00dcber 20 Modemarken vertrauen auf unser organisches Wachstum",
     sections: [
@@ -419,6 +421,7 @@ export const fashionSeoData: Record<Locale, ServicePageProps> = {
       subtitle:
         "Nous aidons les marques de mode et de v\u00eatements \u00e0 se positionner sur les recherches qui g\u00e9n\u00e8rent du chiffre d\u2019affaires \u2014 des tendances saisonni\u00e8res aux requ\u00eates de style et d\u2019intention de collection.",
       ctaText: "R\u00e9server un appel strat\u00e9gique SEO mode",
+      heroImage: "/images/niches/cosmetics-perfume.webp",
     },
     trustBar: "Plus de 20 marques de mode nous font confiance pour leur croissance organique",
     sections: [
@@ -507,6 +510,7 @@ export const fashionSeoData: Record<Locale, ServicePageProps> = {
       subtitle:
         "Ayudamos a marcas de moda y ropa a posicionarse en las b\u00fasquedas que generan ingresos \u2014 desde tendencias estacionales hasta consultas de estilo e intenci\u00f3n a nivel de colecci\u00f3n.",
       ctaText: "Reservar una llamada estrat\u00e9gica de SEO moda",
+      heroImage: "/images/niches/cosmetics-perfume.webp",
     },
     trustBar: "M\u00e1s de 20 marcas de moda conf\u00edan en nosotros para escalar sus ingresos org\u00e1nicos",
     sections: [
@@ -593,6 +597,7 @@ export const fashionSeoData: Record<Locale, ServicePageProps> = {
       subtitle:
         "Aiutiamo i brand di moda e abbigliamento a posizionarsi per le ricerche che generano fatturato \u2014 dalle tendenze stagionali alle query di stile e all\u2019intento a livello di collezione.",
       ctaText: "Prenota una call strategica SEO moda",
+      heroImage: "/images/niches/cosmetics-perfume.webp",
     },
     trustBar: "Oltre 20 brand di moda si affidano a noi per la crescita organica",
     sections: [
@@ -679,6 +684,7 @@ export const fashionSeoData: Record<Locale, ServicePageProps> = {
       subtitle:
         "Wij helpen mode- en kledingmerken te ranken op de zoekopdrachten die omzet genereren \u2014 van seizoenstrends tot stijlzoekopdrachten en collectie-intentie.",
       ctaText: "Boek een Fashion SEO-strategiegesprek",
+      heroImage: "/images/niches/cosmetics-perfume.webp",
     },
     trustBar: "Meer dan 20 modemerken vertrouwen op ons voor organische omzetgroei",
     sections: [

@@ -54,11 +54,20 @@ export async function buildPageMetadata(
       siteName: "EcomSEO",
       type: "website",
       locale: ogLocaleMap[locale],
+      images: [
+        {
+          url: `${BASE_URL}/images/brand/og-image.png`,
+          width: 1200,
+          height: 630,
+          alt: "EcomSEO - We do SEO for Ecommerce Brands",
+        },
+      ],
     },
     twitter: {
       card: "summary_large_image",
       title: entry.ogTitle || entry.title,
       description: entry.description,
+      images: [`${BASE_URL}/images/brand/og-image.png`],
     },
     robots: {
       index: true,

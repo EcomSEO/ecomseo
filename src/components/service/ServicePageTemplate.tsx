@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import Image from "next/image";
 import Navigation from "@/components/sections/Navigation";
 import CTA from "@/components/sections/CTA";
 import Footer from "@/components/sections/Footer";
@@ -55,6 +56,7 @@ export interface ServicePageProps {
     heading: string;
     subtitle: string;
     ctaText: string;
+    heroImage?: string;
   };
   trustBar: string;
   sections: ContentSection[];
@@ -75,6 +77,7 @@ function ServiceHero({
   heading,
   subtitle,
   ctaText,
+  heroImage,
 }: ServicePageProps["hero"]) {
   return (
     <section className="w-full px-5 md:px-10 pt-[80px] pb-12">
@@ -116,6 +119,22 @@ function ServiceHero({
             {ctaText}
           </Button>
         </motion.div>
+        {heroImage && (
+          <motion.div
+            className="mt-4 w-full max-w-[500px]"
+            initial={{ opacity: 0, scale: 0.95 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.6, delay: 0.4 }}
+          >
+            <Image
+              src={heroImage}
+              alt=""
+              width={500}
+              height={500}
+              className="w-full h-auto rounded-3xl"
+            />
+          </motion.div>
+        )}
       </div>
     </section>
   );

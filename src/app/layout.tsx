@@ -17,6 +17,10 @@ const figtree = Figtree({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://ecomseo.co"),
+  icons: {
+    icon: "/favicon.ico",
+    apple: "/images/brand/ecomseo-icon.png",
+  },
 };
 
 export default async function RootLayout({
