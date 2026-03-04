@@ -5,6 +5,8 @@ import LocaleLink from "@/components/ui/LocaleLink";
 import Image from "next/image";
 import Button from "@/components/ui/Button";
 import LanguageSelector from "@/components/ui/LanguageSelector";
+import { useLocale } from "@/lib/i18n/useTranslations";
+import { navigationTranslations } from "@/lib/i18n/translations/navigation";
 
 /* ─── Icon components (pink outlined style matching original Framer site) ─── */
 
@@ -140,30 +142,22 @@ const iconMap: Record<string, React.FC> = {
   "toys": IconToys,
 };
 
-/* ─── Service data ─── */
+/* ─── href → icon key mapping ─── */
 
-const allServices = [
-  // Row 1
-  { label: "Link Building", desc: "Build real off-page authority for your site", href: "/link-building", icon: "link-building" },
-  { label: "Keyword Research", desc: "Fundamentals of any SEO strategy", href: "/keyword-research", icon: "keyword-research" },
-  { label: "Shopify (Plus)", desc: "Our Chef's Special. We know Shopify.", href: "/shopify-seo", icon: "shopify" },
-  { label: "Adobe Commerce", desc: "Previously Magento", href: "/adobe-commerce-seo", icon: "adobe-commerce" },
-  { label: "Fashion", desc: "Every fashionista wants some more eyeballs", href: "/fashion-seo", icon: "fashion" },
-  { label: "Beauty", desc: "Make more people feel better", href: "/beauty-seo", icon: "beauty" },
-  // Row 2
-  { label: "Amazon SEO", desc: "Get on top of Amazon with your brand", href: "/amazon-seo", icon: "amazon" },
-  { label: "Content Writing", desc: "SEO optimized content for your store", href: "/content-writing", icon: "content-writing" },
-  { label: "Woocommerce", desc: "The golden standard for old-school SEO", href: "/woocommerce-seo", icon: "woocommerce" },
-  { label: "Bigcommerce", desc: "Many SKU's? No worries, we got it covered", href: "/bigcommerce-seo", icon: "bigcommerce" },
-  { label: "Consumables", desc: "Increase LTV and decrease churn with SEO", href: "/consumables-seo", icon: "consumables" },
-  { label: "Toys", desc: "A kid's dream! Most parent's nightmare", href: "/toys-seo", icon: "toys" },
-];
-
-const resourceLinks = [
-  { label: "Library", desc: "Free tools, templates & guides", href: "/resources/library" },
-  { label: "Guides", desc: "\u201CGotcha\u2019s\u201D for your SEO journey", href: "/guides" },
-  { label: "Solutions", desc: "EcomSEO\u2019s picks to help you scale", href: "/resources/solutions" },
-];
+const hrefToIcon: Record<string, string> = {
+  "/link-building": "link-building",
+  "/keyword-research": "keyword-research",
+  "/shopify-seo": "shopify",
+  "/adobe-commerce-seo": "adobe-commerce",
+  "/fashion-seo": "fashion",
+  "/beauty-seo": "beauty",
+  "/amazon-seo": "amazon",
+  "/content-writing": "content-writing",
+  "/woocommerce-seo": "woocommerce",
+  "/bigcommerce-seo": "bigcommerce",
+  "/consumables-seo": "consumables",
+  "/toys-seo": "toys",
+};
 
 /* ─── Service Grid Tile ─── */
 
@@ -229,6 +223,14 @@ export default function Navigation() {
   const [mobileAccordion, setMobileAccordion] = useState<string | null>(null);
   const closeTimeoutRef = useRef<NodeJS.Timeout | null>(null);
 
+  const locale = useLocale();
+  const t = navigationTranslations[locale];
+
+  const allServices = t.services.map((s) => ({
+    ...s,
+    icon: hrefToIcon[s.href] || "",
+  }));
+
   const handleMouseEnter = (label: string) => {
     if (closeTimeoutRef.current) {
       clearTimeout(closeTimeoutRef.current);
@@ -252,7 +254,7 @@ export default function Navigation() {
   return (
     <nav className="fixed top-0 left-0 right-0 z-50">
       <div className="mx-auto max-w-[1400px] px-3 pt-3">
-        <div className="relative bg-[rgb(10,10,10)] rounded-none overflow-hidden">
+        <div className="relative bg-[rgb(10,10,10)] rounded-none">
           {/* Main nav bar */}
           <div className="mx-auto max-w-[1200px] flex items-center justify-between px-3 py-3">
             {/* Left: Logo + Links */}
@@ -277,7 +279,7 @@ export default function Navigation() {
                   onMouseLeave={handleMouseLeave}
                 >
                   <button className="flex items-center gap-1 text-sm text-white/56 hover:text-white transition-colors">
-                    Ecommerce SEO
+                    {t.ecommerceSeo}
                     <svg width="16" height="16" viewBox="0 0 256 256" fill="none">
                       <path
                         d="M213.66 101.66l-80 80a8 8 0 01-11.32 0l-80-80A8 8 0 0148 88h160a8 8 0 015.66 13.66z"
@@ -294,7 +296,7 @@ export default function Navigation() {
                   onMouseLeave={handleMouseLeave}
                 >
                   <button className="flex items-center gap-1 text-sm text-white/56 hover:text-white transition-colors">
-                    Resources
+                    {t.resources}
                     <svg width="16" height="16" viewBox="0 0 256 256" fill="none">
                       <path
                         d="M213.66 101.66l-80 80a8 8 0 01-11.32 0l-80-80A8 8 0 0148 88h160a8 8 0 015.66 13.66z"
@@ -309,7 +311,7 @@ export default function Navigation() {
                   href="/cases"
                   className="text-sm text-white/56 hover:text-white transition-colors"
                 >
-                  Cases
+                  {t.cases}
                 </LocaleLink>
               </div>
             </div>
@@ -321,7 +323,7 @@ export default function Navigation() {
                 target="_blank"
                 className="text-sm font-medium text-white hover:text-white/80 transition-colors"
               >
-                Client Dashboard
+                {t.clientDashboard}
               </LocaleLink>
               <LanguageSelector />
               <Button
@@ -330,7 +332,7 @@ export default function Navigation() {
                 size="small"
                 external
               >
-                Get in Touch
+                {t.getInTouch}
               </Button>
             </div>
 
@@ -385,7 +387,7 @@ export default function Navigation() {
             >
               <div className="mx-auto max-w-[1200px] px-3 pb-8">
                 <div className="grid grid-cols-3 gap-5">
-                  {resourceLinks.map((r) => (
+                  {t.resourceLinks.map((r) => (
                     <ResourceTile key={r.href} {...r} />
                   ))}
                 </div>
@@ -407,7 +409,7 @@ export default function Navigation() {
                   )
                 }
               >
-                <span>Ecommerce SEO</span>
+                <span>{t.ecommerceSeo}</span>
                 <svg
                   width="16"
                   height="16"
@@ -458,7 +460,7 @@ export default function Navigation() {
                   )
                 }
               >
-                <span>Resources</span>
+                <span>{t.resources}</span>
                 <svg
                   width="16"
                   height="16"
@@ -476,7 +478,7 @@ export default function Navigation() {
               </button>
               {mobileAccordion === "resources" && (
                 <div className="pl-4 pb-3 space-y-1">
-                  {resourceLinks.map((r) => (
+                  {t.resourceLinks.map((r) => (
                     <LocaleLink
                       key={r.href}
                       href={r.href}
@@ -496,7 +498,7 @@ export default function Navigation() {
               className="block py-3 text-white/70 hover:text-white border-b border-white/[0.06]"
               onClick={() => setMobileOpen(false)}
             >
-              Cases
+              {t.cases}
             </LocaleLink>
 
             {/* Client Dashboard */}
@@ -506,7 +508,7 @@ export default function Navigation() {
               className="block py-3 text-white/70 hover:text-white border-b border-white/[0.06]"
               onClick={() => setMobileOpen(false)}
             >
-              Client Dashboard
+              {t.clientDashboard}
             </LocaleLink>
 
             {/* Language Selector */}
@@ -522,7 +524,7 @@ export default function Navigation() {
                 className="w-full justify-center"
                 external
               >
-                Get in Touch
+                {t.getInTouch}
               </Button>
             </div>
           </div>

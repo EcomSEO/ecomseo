@@ -4,29 +4,13 @@ import { motion } from "framer-motion";
 import Badge from "@/components/ui/Badge";
 import SectionWrapper from "@/components/ui/SectionWrapper";
 import GlowEffect from "@/components/ui/GlowEffect";
-
-const steps = [
-  {
-    number: "01",
-    title: "100% Transparancy",
-    description:
-      "Automated updates, log in at any time into our dashboards. Dedicated Slack/Whatsapp channels.",
-  },
-  {
-    number: "02",
-    title: "Proven Process",
-    description:
-      "SEO sensei's like us know exactly what we're doing. Because we've done it before. For many brands.",
-  },
-  {
-    number: "03",
-    title: "Profit-Focused",
-    description:
-      "Revenue is nice. Profit is nicer. We focus on high ROI tasks. No time for bs.",
-  },
-];
+import { useLocale } from "@/lib/i18n/useTranslations";
+import { processT } from "@/lib/i18n/translations/home";
 
 export default function Process() {
+  const locale = useLocale();
+  const t = processT[locale];
+
   return (
     <SectionWrapper className="py-24 md:py-32">
       <div className="flex flex-col gap-12">
@@ -37,19 +21,17 @@ export default function Process() {
           viewport={{ once: true, margin: "-100px" }}
           transition={{ duration: 0.6 }}
         >
-          <Badge text="Process" />
+          <Badge text={t.badge} />
           <h2 className="text-[32px] md:text-[48px] lg:text-[56px] font-medium leading-[1.1] tracking-[-0.02em] text-heading">
-            Most agencies absolutely Suck. We know.
+            {t.heading}
           </h2>
           <p className="text-body text-base md:text-lg">
-            Pretending, no focus, no proven strategy. The truth is… that&apos;s
-            how you start. If you work with experienced agency owners,
-            you&apos;ll experience:
+            {t.subtext}
           </p>
         </motion.div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-          {steps.map((step, i) => (
+          {t.steps.map((step, i) => (
             <motion.div
               key={step.number}
               initial={{ opacity: 0, y: 20 }}

@@ -4,6 +4,8 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import LocaleLink from "@/components/ui/LocaleLink";
 import Button from "@/components/ui/Button";
+import { useLocale } from "@/lib/i18n/useTranslations";
+import { heroT } from "@/lib/i18n/translations/home";
 
 const avatars = [
   "https://framerusercontent.com/images/M30GCOkzDVYBvBJnuLVYhsnyGw.png",
@@ -13,7 +15,7 @@ const avatars = [
   "https://framerusercontent.com/images/LFHXY0nxSQzbhGYgd9g8reMSo.png",
 ];
 
-function SocialProof() {
+function SocialProof({ text }: { text: string }) {
   return (
     <LocaleLink
       href="/#projects"
@@ -58,7 +60,7 @@ function SocialProof() {
           ))}
         </div>
         <span className="text-xs font-medium text-body">
-          Backed by 19+ brand owners
+          {text}
         </span>
       </div>
     </LocaleLink>
@@ -66,6 +68,9 @@ function SocialProof() {
 }
 
 export default function Hero() {
+  const locale = useLocale();
+  const t = heroT[locale];
+
   return (
     <section className="relative w-full overflow-hidden">
       <div className="relative px-5 md:px-16 pt-[78px] pb-[104px]">
@@ -78,7 +83,7 @@ export default function Hero() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5 }}
             >
-              <SocialProof />
+              <SocialProof text={t.socialProof} />
             </motion.div>
 
             {/* Content inner - gap 24px */}
@@ -90,7 +95,7 @@ export default function Hero() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: 0.1 }}
               >
-                We build and scale brands with Ecommerce SEO
+                {t.heading}
               </motion.h1>
 
               {/* Subtitle */}
@@ -100,8 +105,7 @@ export default function Hero() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: 0.2 }}
               >
-                Solving SEO for ecommerce brands with a profit-focused approach.
-                Multiple 8 figures+ generated through our frameworks.
+                {t.subtitle}
               </motion.p>
 
               {/* CTAs */}
@@ -117,10 +121,10 @@ export default function Hero() {
                   size="large"
                   external
                 >
-                  Get in Touch
+                  {t.ctaPrimary}
                 </Button>
                 <Button href="/#projects" variant="secondary" size="large">
-                  Learn More
+                  {t.ctaSecondary}
                 </Button>
               </motion.div>
             </div>

@@ -2,8 +2,13 @@
 
 import { motion } from "framer-motion";
 import Button from "@/components/ui/Button";
+import { useLocale } from "@/lib/i18n/useTranslations";
+import { ctaT } from "@/lib/i18n/translations/home";
 
 export default function CTA() {
+  const locale = useLocale();
+  const t = ctaT[locale];
+
   return (
     <section className="w-full px-5 md:px-16 pt-16 pb-24 md:pt-16 md:pb-24">
       <div className="mx-auto max-w-[1000px] w-full">
@@ -16,10 +21,10 @@ export default function CTA() {
         >
           <div className="relative z-10 flex flex-col items-center text-center gap-6 p-12 md:p-12">
             <h2 className="text-[32px] md:text-[48px] lg:text-[56px] font-medium leading-[1.1] tracking-[-0.02em] text-heading max-w-[521px]">
-              Work Together With SEO Experts who understand ecommerce
+              {t.heading}
             </h2>
             <p className="text-body text-base md:text-lg max-w-[589px]">
-              World&apos;s first Ecom-founded SEO agency
+              {t.subtext}
             </p>
             <div className="mt-2">
               <Button
@@ -28,7 +33,7 @@ export default function CTA() {
                 size="large"
                 external
               >
-                Get in touch
+                {t.cta}
               </Button>
             </div>
           </div>

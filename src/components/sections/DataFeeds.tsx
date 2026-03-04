@@ -3,6 +3,8 @@
 import { motion } from "framer-motion";
 import Badge from "@/components/ui/Badge";
 import SectionWrapper from "@/components/ui/SectionWrapper";
+import { useLocale } from "@/lib/i18n/useTranslations";
+import { dataFeedsT } from "@/lib/i18n/translations/home";
 
 const platforms = [
   "Google Shopping",
@@ -20,6 +22,9 @@ const platforms = [
 ];
 
 export default function DataFeeds() {
+  const locale = useLocale();
+  const t = dataFeedsT[locale];
+
   return (
     <SectionWrapper className="py-24 md:py-32">
       <div className="flex flex-col items-center text-center gap-12">
@@ -30,13 +35,12 @@ export default function DataFeeds() {
           viewport={{ once: true, margin: "-100px" }}
           transition={{ duration: 0.6 }}
         >
-          <Badge text="SEO Impact" />
+          <Badge text={t.badge} />
           <h2 className="text-[32px] md:text-[48px] lg:text-[56px] font-medium leading-[1.1] tracking-[-0.02em] text-heading">
-            Want to be a market leader? Do SEO.
+            {t.heading}
           </h2>
           <p className="text-body text-base md:text-lg max-w-[559px]">
-            Go back in time… When you were looking for your first
-            competitors… where did you look? Google.
+            {t.subtext}
           </p>
         </motion.div>
 

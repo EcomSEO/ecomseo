@@ -1,29 +1,14 @@
+"use client";
+
 import LocaleLink from "@/components/ui/LocaleLink";
 import Image from "next/image";
-
-const footerLinks = {
-  Services: [
-    { label: "Ecommerce SEO", href: "/ecommerce-seo" },
-    { label: "Shopify SEO", href: "/shopify-seo" },
-    { label: "Link Building", href: "/link-building" },
-    { label: "Keyword Research", href: "/keyword-research" },
-    { label: "Content Writing", href: "/content-writing" },
-    { label: "Amazon SEO", href: "/amazon-seo" },
-  ],
-  Company: [
-    { label: "Cases", href: "/cases" },
-    { label: "Team", href: "/team" },
-    { label: "Resources", href: "/resources" },
-    { label: "Pricing", href: "/pricing" },
-    { label: "FAQ", href: "/faq" },
-  ],
-  Legal: [
-    { label: "Privacy Policy", href: "/privacy-policy" },
-    { label: "Terms of Service", href: "/terms-of-service" },
-  ],
-};
+import { useLocale } from "@/lib/i18n/useTranslations";
+import { footerTranslations } from "@/lib/i18n/translations/footer";
 
 export default function Footer() {
+  const locale = useLocale();
+  const t = footerTranslations[locale];
+
   return (
     <footer className="w-full border-t border-border/50">
       <div className="mx-auto max-w-[1200px] px-5 md:px-16 py-16 md:py-20">
@@ -40,34 +25,63 @@ export default function Footer() {
               />
             </LocaleLink>
             <p className="text-body text-sm leading-relaxed max-w-[250px]">
-              Profit-focused ecommerce SEO agency. We build and scale brands
-              through organic search.
+              {t.brandDescription}
             </p>
           </div>
 
-          {/* Link columns */}
-          {Object.entries(footerLinks).map(([title, links]) => (
-            <div key={title} className="flex flex-col gap-4">
-              <h4 className="text-sm font-medium text-white/80">{title}</h4>
-              <div className="flex flex-col gap-2">
-                {links.map((link) => (
-                  <LocaleLink
-                    key={link.href}
-                    href={link.href}
-                    className="text-sm text-white/40 hover:text-white transition-colors"
-                  >
-                    {link.label}
-                  </LocaleLink>
-                ))}
-              </div>
+          {/* Services */}
+          <div className="flex flex-col gap-4">
+            <h4 className="text-sm font-medium text-white/80">{t.services}</h4>
+            <div className="flex flex-col gap-2">
+              {t.serviceLinks.map((link) => (
+                <LocaleLink
+                  key={link.href}
+                  href={link.href}
+                  className="text-sm text-white/40 hover:text-white transition-colors"
+                >
+                  {link.label}
+                </LocaleLink>
+              ))}
             </div>
-          ))}
+          </div>
+
+          {/* Company */}
+          <div className="flex flex-col gap-4">
+            <h4 className="text-sm font-medium text-white/80">{t.company}</h4>
+            <div className="flex flex-col gap-2">
+              {t.companyLinks.map((link) => (
+                <LocaleLink
+                  key={link.href}
+                  href={link.href}
+                  className="text-sm text-white/40 hover:text-white transition-colors"
+                >
+                  {link.label}
+                </LocaleLink>
+              ))}
+            </div>
+          </div>
+
+          {/* Legal */}
+          <div className="flex flex-col gap-4">
+            <h4 className="text-sm font-medium text-white/80">{t.legal}</h4>
+            <div className="flex flex-col gap-2">
+              {t.legalLinks.map((link) => (
+                <LocaleLink
+                  key={link.href}
+                  href={link.href}
+                  className="text-sm text-white/40 hover:text-white transition-colors"
+                >
+                  {link.label}
+                </LocaleLink>
+              ))}
+            </div>
+          </div>
         </div>
 
         {/* Bottom bar */}
         <div className="mt-16 pt-6 border-t border-border/50 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-xs text-white/30">
-            &copy; {new Date().getFullYear()} EcomSEO. All rights reserved.
+            &copy; {new Date().getFullYear()} {t.copyright}
           </p>
           <div className="flex items-center gap-4">
             <a

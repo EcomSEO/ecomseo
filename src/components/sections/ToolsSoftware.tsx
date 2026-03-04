@@ -3,6 +3,8 @@
 import { motion } from "framer-motion";
 import Badge from "@/components/ui/Badge";
 import SectionWrapper from "@/components/ui/SectionWrapper";
+import { useLocale } from "@/lib/i18n/useTranslations";
+import { toolsT } from "@/lib/i18n/translations/home";
 
 const tools = [
   "Ahrefs",
@@ -20,6 +22,9 @@ const tools = [
 ];
 
 export default function ToolsSoftware() {
+  const locale = useLocale();
+  const t = toolsT[locale];
+
   return (
     <SectionWrapper className="py-24 md:py-32">
       <div className="flex flex-col gap-12">
@@ -30,13 +35,12 @@ export default function ToolsSoftware() {
           viewport={{ once: true, margin: "-100px" }}
           transition={{ duration: 0.6 }}
         >
-          <Badge text="Tools & Software" />
+          <Badge text={t.badge} />
           <h2 className="text-[32px] md:text-[48px] lg:text-[56px] font-medium leading-[1.1] tracking-[-0.02em] text-heading">
-            Enterprise-grade SEO tools.
+            {t.heading}
           </h2>
           <p className="text-body text-base md:text-lg">
-            We use the best tools in the industry to analyze, strategize, and
-            execute. No shortcuts, no guesswork.
+            {t.subtext}
           </p>
         </motion.div>
 

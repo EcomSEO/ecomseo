@@ -5,39 +5,8 @@ import { motion, AnimatePresence } from "framer-motion";
 import Badge from "@/components/ui/Badge";
 import Button from "@/components/ui/Button";
 import SectionWrapper from "@/components/ui/SectionWrapper";
-
-const faqs = [
-  {
-    question: "What exactly does EcomSEO do?",
-    answer:
-      "We specialize in SEO for e-commerce brands. From technical SEO and product page optimization to link building and content strategy — everything we do is focused on driving organic revenue for online stores.",
-  },
-  {
-    question: 'How are you different from a "normal" SEO agency?',
-    answer:
-      "We only work with e-commerce brands. We don't do local SEO, B2B SEO, or anything else. This means our entire process, team, and tooling is built specifically for product-based businesses with hundreds or thousands of SKUs.",
-  },
-  {
-    question: "Who is EcomSEO a good fit for?",
-    answer:
-      "We work best with e-commerce brands doing €500K+ in annual revenue that are serious about organic growth. If you're just starting out, SEO might not be the best investment yet — and we'll be honest about that.",
-  },
-  {
-    question: "How long does it take to see results?",
-    answer:
-      "SEO is a long-term play. Most of our clients start seeing meaningful improvements within 3-6 months. However, this depends on your industry, competition, and the current state of your website.",
-  },
-  {
-    question: "What kind of results can we realistically expect?",
-    answer:
-      "This depends on many factors — your niche, competition, current SEO health, and budget. We set realistic expectations from day one and provide monthly reporting so you can track progress. Check our case studies for examples.",
-  },
-  {
-    question: "How transparent is your reporting?",
-    answer:
-      "100% transparent. You get access to live dashboards, dedicated Slack/WhatsApp channels, and monthly strategy calls. We believe in full visibility — no black-box SEO.",
-  },
-];
+import { useLocale } from "@/lib/i18n/useTranslations";
+import { homeFaqT } from "@/lib/i18n/translations/home";
 
 function FAQItem({
   question,
@@ -96,6 +65,8 @@ function FAQItem({
 }
 
 export default function FAQ() {
+  const locale = useLocale();
+  const t = homeFaqT[locale];
   const [openIndex, setOpenIndex] = useState<number | null>(0);
 
   return (
@@ -108,9 +79,9 @@ export default function FAQ() {
           viewport={{ once: true, margin: "-100px" }}
           transition={{ duration: 0.6 }}
         >
-          <Badge text="Frequently asked questions" />
+          <Badge text={t.badge} />
           <h2 className="text-[32px] md:text-[48px] lg:text-[56px] font-medium leading-[1.1] tracking-[-0.02em] text-heading">
-            Questions? We got you.
+            {t.heading}
           </h2>
         </motion.div>
 
@@ -121,7 +92,7 @@ export default function FAQ() {
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
         >
-          {faqs.map((faq, i) => (
+          {t.items.map((faq, i) => (
             <FAQItem
               key={i}
               question={faq.question}
@@ -139,7 +110,7 @@ export default function FAQ() {
           transition={{ duration: 0.5 }}
         >
           <Button href="/faq" variant="secondary">
-            Check all FAQ
+            {t.cta}
           </Button>
         </motion.div>
       </div>

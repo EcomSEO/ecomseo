@@ -4,29 +4,25 @@ import { motion } from "framer-motion";
 import Badge from "@/components/ui/Badge";
 import Button from "@/components/ui/Button";
 import SectionWrapper from "@/components/ui/SectionWrapper";
+import { useLocale } from "@/lib/i18n/useTranslations";
+import { teamT } from "@/lib/i18n/translations/home";
 
-const teamMembers = [
-  {
-    name: "Fabian van Til",
-    role: "CEO at EcomSEO, Brand Owner",
-    image:
-      "https://framerusercontent.com/images/C23VbBxvj2kY5TMoXAJHXWVLaA.webp",
-  },
-  {
-    name: "Gjorgi Jovev",
-    role: "Outreach & SEO Expert",
-    image:
-      "https://framerusercontent.com/images/LFHXY0nxSQzbhGYgd9g8reMSo.png",
-  },
-  {
-    name: "Martinijan Trajkovski",
-    role: "SEO Strategies & Head of Link-Building",
-    image:
-      "https://framerusercontent.com/images/7GK5DLrtqk7QeLTPR3zbV0jHZOw.webp",
-  },
+const teamImages = [
+  "https://framerusercontent.com/images/C23VbBxvj2kY5TMoXAJHXWVLaA.webp",
+  "https://framerusercontent.com/images/LFHXY0nxSQzbhGYgd9g8reMSo.png",
+  "https://framerusercontent.com/images/7GK5DLrtqk7QeLTPR3zbV0jHZOw.webp",
 ];
 
 export default function Team() {
+  const locale = useLocale();
+  const t = teamT[locale];
+
+  const teamMembers = t.members.map((member, i) => ({
+    name: member.name,
+    role: member.role,
+    image: teamImages[i],
+  }));
+
   return (
     <SectionWrapper className="py-24 md:py-32">
       <div className="flex flex-col gap-12">
@@ -37,13 +33,12 @@ export default function Team() {
           viewport={{ once: true, margin: "-100px" }}
           transition={{ duration: 0.6 }}
         >
-          <Badge text="Our natural habitat" />
+          <Badge text={t.badge} />
           <h2 className="text-[32px] md:text-[48px] lg:text-[56px] font-medium leading-[1.1] tracking-[-0.02em] text-heading">
-            We speak the same language.
+            {t.heading}
           </h2>
           <p className="text-body text-base md:text-lg">
-            We breath and talk e-commerce (and Dutch). That&apos;s
-            specialisation.
+            {t.description}
           </p>
         </motion.div>
 
@@ -87,7 +82,7 @@ export default function Team() {
             size="large"
             external
           >
-            Get in Touch with Fabian
+            {t.cta}
           </Button>
         </motion.div>
       </div>
