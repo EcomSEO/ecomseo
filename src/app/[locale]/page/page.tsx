@@ -4,6 +4,7 @@ import Navigation from "@/components/sections/Navigation";
 import Footer from "@/components/sections/Footer";
 import { buildPageMetadata } from "@/lib/i18n/metadata";
 import type { Locale } from "@/lib/i18n/config";
+import { profilePageT } from "@/lib/i18n/translations/profilePage";
 const linkPreviews = [
   {
     url: "https://stripe.com",
@@ -13,13 +14,13 @@ const linkPreviews = [
   },
   {
     url: "https://linear.app",
-    title: "Linear — Plan and build products",
+    title: "Linear -- Plan and build products",
     description: "Linear streamlines issues, sprints, and product roadmaps.",
     icon: "https://framerusercontent.com/images/4qGHkqJJxfq89gQcjxyVFRpDY.png",
   },
   {
     url: "https://framer.com",
-    title: "Framer — The web builder for stunning sites",
+    title: "Framer -- The web builder for stunning sites",
     description: "Ship sites with unmatched design and performance.",
     icon: "https://framerusercontent.com/images/1FvNSvPn60UkPbHBHxPBTOqP7Hc.png",
   },
@@ -30,7 +31,14 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   return buildPageMetadata(locale as Locale, "/page");
 }
 
-export default function PageProfilePage() {
+export default async function PageProfilePage({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  const t = profilePageT[locale as Locale];
+
   return (
     <>
       <Navigation />
@@ -57,11 +65,10 @@ export default function PageProfilePage() {
               fabian@akravo.com
             </a>
             <p className="text-body text-base mt-4 max-w-[400px]">
-              LLM Optimisation Agency. Getting your site on top of ChatGPT
-              &amp; more!
+              {t.tagline}
             </p>
             <p className="text-body/60 text-sm mt-2">
-              Est. 2024 &middot; The Netherlands &middot; Fully Remote
+              {t.established}
             </p>
           </div>
 
@@ -111,7 +118,7 @@ export default function PageProfilePage() {
 
           {/* Thread / content */}
           <div className="space-y-6">
-            <h2 className="text-heading text-lg font-semibold">Thread</h2>
+            <h2 className="text-heading text-lg font-semibold">{t.threadHeading}</h2>
             <div className="space-y-4">
               <div className="rounded-xl border border-border bg-bg-card p-5">
                 <div className="flex items-center gap-3 mb-3">
@@ -128,20 +135,16 @@ export default function PageProfilePage() {
                     <p className="text-heading text-sm font-medium">
                       Fabian van Til
                     </p>
-                    <p className="text-body/60 text-xs">Founder, EcomSEO</p>
+                    <p className="text-body/60 text-xs">{t.founderRole}</p>
                   </div>
                 </div>
                 <p className="text-body text-sm leading-relaxed">
-                  We help ecommerce brands get discovered by AI. LLMs like
-                  ChatGPT, Perplexity and Google AI Overviews are changing how
-                  people shop online. Is your store visible?
+                  {t.threadPost1}
                 </p>
               </div>
               <div className="rounded-xl border border-border bg-bg-card p-5">
                 <p className="text-body text-sm leading-relaxed">
-                  Our approach combines traditional SEO fundamentals with
-                  cutting-edge LLM optimization strategies. We&apos;ve helped
-                  brands generate millions in organic revenue.
+                  {t.threadPost2}
                 </p>
               </div>
             </div>
@@ -153,7 +156,7 @@ export default function PageProfilePage() {
               href="/"
               className="inline-flex items-center gap-2 px-8 py-4 rounded-full bg-heading text-bg font-medium text-sm hover:opacity-90 transition-opacity"
             >
-              Visit EcomSEO
+              {t.visitCta}
               <svg
                 width="16"
                 height="16"

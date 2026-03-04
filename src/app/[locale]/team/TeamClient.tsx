@@ -4,61 +4,44 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import LocaleLink from "@/components/ui/LocaleLink";
 import Badge from "@/components/ui/Badge";
-import Button from "@/components/ui/Button";
 import Navigation from "@/components/sections/Navigation";
 import CTA from "@/components/sections/CTA";
 import Footer from "@/components/sections/Footer";
+import { useLocale } from "@/lib/i18n/useTranslations";
+import { teamPageT } from "@/lib/i18n/translations/team";
 
-const teamMembers = [
+const teamMembersData = [
   {
     name: "Fabian van Til",
-    role: "Strategy & Innovation",
     image:
       "https://framerusercontent.com/images/C23VbBxvj2kY5TMoXAJHXWVLaA.webp",
     href: "/team/fabian-van-til",
   },
   {
     name: "Martinijan Trajkovski",
-    role: "Off-Page Wizard",
     image:
       "https://framerusercontent.com/images/7GK5DLrtqk7QeLTPR3zbV0jHZOw.webp",
     href: "/team/martinijan-trajkovski",
   },
   {
     name: "Dimitar Georgiev",
-    role: "Technical Jedi",
     image:
       "https://framerusercontent.com/images/Q3tfuu2ytPAotONsFoP1ouyPZic.png",
     href: "/team/dimitar-georgiev",
   },
   {
     name: "Gjorgi Jovev",
-    role: "On-Page & PR Maestro",
     image:
       "https://framerusercontent.com/images/LFHXY0nxSQzbhGYgd9g8reMSo.png",
     href: "/team/gjorgi-jovev",
   },
 ];
 
-const cultureItems = [
-  {
-    title: "We say what we do, and do what we say.",
-    description:
-      "Communication & results. That\u2019s what drives our agency. We love getting involved deep into projects, and we love to give Ecommerce insights where we can.",
-  },
-  {
-    title: "Fast-paced & goal-oriented",
-    description:
-      "Look. In SEO it\u2019s easy to get lost in the details. However, we don\u2019t. Why? Profit-focused goal setting with proven frameworks that leverage on big movers rather than small optimisations.",
-  },
-  {
-    title: "AI\u2019s ambassadors",
-    description:
-      "We invest time & capital into building AI infrastructures (custom) for every project. Our SEO content output is 11.4x more effective than old-fashioned content writing",
-  },
-];
-
-function TeamCard({ member }: { member: (typeof teamMembers)[0] }) {
+function TeamCard({
+  member,
+}: {
+  member: { name: string; role: string; image: string; href: string };
+}) {
   return (
     <LocaleLink
       href={member.href}
@@ -80,6 +63,14 @@ function TeamCard({ member }: { member: (typeof teamMembers)[0] }) {
 }
 
 export default function TeamPage() {
+  const locale = useLocale();
+  const t = teamPageT[locale];
+
+  const teamMembers = teamMembersData.map((member, i) => ({
+    ...member,
+    role: t.members[i].role,
+  }));
+
   return (
     <>
       <Navigation />
@@ -93,7 +84,7 @@ export default function TeamPage() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5 }}
               >
-                <Badge text="Our Team" />
+                <Badge text={t.badge} />
               </motion.div>
 
               <motion.h1
@@ -102,7 +93,7 @@ export default function TeamPage() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: 0.1 }}
               >
-                Meet the team that drives results for your brand
+                {t.heading}
               </motion.h1>
 
               <motion.p
@@ -111,8 +102,7 @@ export default function TeamPage() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: 0.2 }}
               >
-                The only team in the world with rich expertise &amp; experience
-                both in direct-response ecommerce and SEO.
+                {t.subtitle}
               </motion.p>
             </div>
 
@@ -217,11 +207,11 @@ export default function TeamPage() {
                 transition={{ duration: 0.6, delay: 0.1 }}
               >
                 <h2 className="text-[28px] md:text-[36px] font-medium leading-[1.1] tracking-[-0.02em] text-heading">
-                  Culture makes the dream work
+                  {t.culture.heading}
                 </h2>
 
                 <div className="flex flex-col gap-8">
-                  {cultureItems.map((item, i) => (
+                  {t.culture.items.map((item, i) => (
                     <div key={i} className="flex flex-col gap-4">
                       <h3 className="text-base font-medium text-heading">
                         {item.title}

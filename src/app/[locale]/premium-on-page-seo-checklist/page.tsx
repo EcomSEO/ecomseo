@@ -5,6 +5,8 @@ import Badge from "@/components/ui/Badge";
 import GlowEffect from "@/components/ui/GlowEffect";
 import { buildPageMetadata } from "@/lib/i18n/metadata";
 import type { Locale } from "@/lib/i18n/config";
+import { premiumChecklistT } from "@/lib/i18n/translations/premiumChecklist";
+
 const logos = [
   "https://framerusercontent.com/images/t2yR7ACCVBmSnnUUjNT7njcCKU.png",
   "https://framerusercontent.com/images/GBYkGoRfRJI1RTbDG3VVMkFcA.png",
@@ -13,28 +15,22 @@ const logos = [
   "https://framerusercontent.com/images/X9SFdl0C2lB2eSoN5sJxO5I3Bw.png",
 ];
 
-const checklistFeatures = [
-  "Integrations with 3rd-party",
-  "Advanced analytics",
-  "Team performance tracking",
-  "Top grade security",
-  "Priority customer support",
-  "Detailed usage reports",
-];
-
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   return buildPageMetadata(locale as Locale, "/premium-on-page-seo-checklist");
 }
 
-export default function PremiumOnPageSeoChecklistPage() {
+export default async function PremiumOnPageSeoChecklistPage({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
+  const t = premiumChecklistT[locale as Locale];
+
   return (
     <>
       <Navigation />
       <main className="min-h-screen bg-bg">
         <section className="relative overflow-hidden px-5 md:px-16 pt-[120px] md:pt-[160px] pb-20">
           <div className="relative z-10 max-w-[1200px] mx-auto flex flex-col items-center text-center gap-2">
-            <Badge text="Premium On-Page SEO Checklist" />
+            <Badge text={t.badge} />
 
             {/* Social proof */}
             <div className="flex items-center gap-2 mt-6 mb-4">
@@ -47,14 +43,13 @@ export default function PremiumOnPageSeoChecklistPage() {
                 ))}
               </div>
               <span className="text-body text-sm">
-                Backed by 19+ brand owners
+                {t.socialProof}
               </span>
             </div>
 
             {/* Heading */}
             <h1 className="text-[32px] md:text-[52px] font-medium leading-[1.1] tracking-[-0.02em] text-heading max-w-[796px]">
-              Ecom Owners! This On-Page SEO Checklist is All You Need to
-              generate millions organically on Google.
+              {t.heading}
             </h1>
 
             {/* YouTube embed */}
@@ -75,7 +70,7 @@ export default function PremiumOnPageSeoChecklistPage() {
               href="#pricing"
               className="mt-8 inline-flex items-center gap-2 px-8 py-4 rounded-full bg-heading text-bg font-medium text-sm hover:opacity-90 transition-opacity"
             >
-              Check Pricing
+              {t.checkPricing}
               <svg
                 width="16"
                 height="16"
@@ -91,9 +86,7 @@ export default function PremiumOnPageSeoChecklistPage() {
 
             {/* Body text */}
             <p className="text-body text-base max-w-[619px] mt-8">
-              We built a checklist for ecommerce brands on Shopify that want to
-              rank higher in Google. This exact process helped our clients
-              generate 8+ figures from competitive keywords in Google.
+              {t.body}
             </p>
 
             {/* Pricing cards */}
@@ -104,18 +97,18 @@ export default function PremiumOnPageSeoChecklistPage() {
               {/* Card 1 */}
               <div className="rounded-2xl border border-border bg-bg-card p-8 max-w-[340px] flex flex-col gap-4">
                 <h3 className="text-heading font-semibold text-lg">
-                  The full checklist
+                  {t.card1Title}
                 </h3>
-                <p className="text-body text-sm">Includes:</p>
+                <p className="text-body text-sm">{t.card1Includes}</p>
                 <div className="flex items-baseline gap-2">
                   <span className="text-heading font-bold text-3xl font-[family-name:var(--font-figtree)]">
                     $12
                   </span>
-                  <span className="text-body text-sm line-through">$17</span>
-                  <span className="text-body text-xs">/ one-time</span>
+                  <span className="text-body text-sm line-through">{t.card1OldPrice}</span>
+                  <span className="text-body text-xs">{t.card1Period}</span>
                 </div>
                 <ul className="space-y-2 mt-2">
-                  {checklistFeatures.map((f) => (
+                  {t.features.map((f) => (
                     <li
                       key={f}
                       className="flex items-center gap-2 text-body text-sm"
@@ -140,26 +133,26 @@ export default function PremiumOnPageSeoChecklistPage() {
                   rel="noopener noreferrer"
                   className="mt-4 inline-flex items-center justify-center px-6 py-3 rounded-xl bg-accent hover:bg-accent/90 text-white font-medium text-sm transition-colors"
                 >
-                  Get Started Now
+                  {t.ctaButton}
                 </a>
               </div>
 
               {/* Card 2 */}
               <div className="rounded-2xl border border-border bg-bg-card p-8 max-w-[340px] flex flex-col gap-4">
                 <h3 className="text-heading font-semibold text-lg">
-                  The full checklist + EcomSEO Consulting Call
+                  {t.card2Title}
                 </h3>
-                <p className="text-body text-sm">Includes:</p>
+                <p className="text-body text-sm">{t.card2Includes}</p>
                 <div className="flex items-baseline gap-2">
                   <span className="text-heading font-bold text-3xl font-[family-name:var(--font-figtree)]">
                     $250
                   </span>
                   <span className="text-body text-xs">
-                    - 1 hour consulting
+                    {t.card2Period}
                   </span>
                 </div>
                 <ul className="space-y-2 mt-2">
-                  {checklistFeatures.map((f) => (
+                  {t.features.map((f) => (
                     <li
                       key={f}
                       className="flex items-center gap-2 text-body text-sm"
@@ -184,7 +177,7 @@ export default function PremiumOnPageSeoChecklistPage() {
                   rel="noopener noreferrer"
                   className="mt-4 inline-flex items-center justify-center px-6 py-3 rounded-xl border border-border text-heading hover:border-accent font-medium text-sm transition-colors"
                 >
-                  Get Started Now
+                  {t.ctaButton}
                 </a>
               </div>
             </div>

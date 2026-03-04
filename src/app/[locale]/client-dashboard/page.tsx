@@ -5,31 +5,37 @@ import Button from "@/components/ui/Button";
 import GlowEffect from "@/components/ui/GlowEffect";
 import { buildPageMetadata } from "@/lib/i18n/metadata";
 import type { Locale } from "@/lib/i18n/config";
+import { clientDashboardT } from "@/lib/i18n/translations/clientDashboard";
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   return buildPageMetadata(locale as Locale, "/client-dashboard");
 }
 
-export default function ClientDashboardPage() {
+export default async function ClientDashboardPage({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  const t = clientDashboardT[locale as Locale];
+
   return (
     <>
       <Navigation />
       <main className="min-h-screen bg-bg">
         <section className="relative overflow-hidden px-5 md:px-16 pt-[120px] md:pt-[160px] pb-[250px]">
           <div className="relative z-10 max-w-[1200px] mx-auto flex flex-col items-center text-center gap-8">
-            <Badge text="Client Dashboard" />
+            <Badge text={t.badge} />
             <div className="space-y-4 max-w-[700px]">
               <h1 className="text-[32px] md:text-[52px] font-medium leading-[1.1] tracking-[-0.02em] text-heading">
-                Our Client Dashboard is launching soon&hellip;
+                {t.heading}
               </h1>
               <p className="text-body text-lg max-w-[500px] mx-auto">
-                Transparent reporting, task management and deep insights. Still
-                in beta. Reach out to our team in Slack or Whatsapp to get early
-                access.
+                {t.description}
               </p>
             </div>
             <Button href="/" variant="primary" size="large">
-              Go back to Home
+              {t.backHome}
             </Button>
           </div>
 

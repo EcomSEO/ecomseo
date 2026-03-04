@@ -6,7 +6,8 @@ import Badge from "@/components/ui/Badge";
 import Navigation from "@/components/sections/Navigation";
 import CTA from "@/components/sections/CTA";
 import Footer from "@/components/sections/Footer";
-import { faqItems as faqs } from "@/data/faqData";
+import { useLocale } from "@/lib/i18n/useTranslations";
+import { faqPageT, faqItemsT } from "@/lib/i18n/translations/faq";
 
 function FAQItem({
   question,
@@ -64,6 +65,9 @@ function FAQItem({
 
 export default function FAQPage() {
   const [openIndex, setOpenIndex] = useState<number | null>(0);
+  const locale = useLocale();
+  const t = faqPageT[locale];
+  const faqs = faqItemsT[locale];
 
   return (
     <>
@@ -78,7 +82,7 @@ export default function FAQPage() {
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.5 }}
                 >
-                  <Badge text="Frequently asked questions" />
+                  <Badge text={t.badge} />
                 </motion.div>
 
                 <motion.h1
@@ -87,7 +91,7 @@ export default function FAQPage() {
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.5, delay: 0.1 }}
                 >
-                  Questions? We got you.
+                  {t.heading}
                 </motion.h1>
 
                 <motion.p
@@ -96,9 +100,7 @@ export default function FAQPage() {
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.5, delay: 0.2 }}
                 >
-                  We are in the business of making other business more money. If
-                  you have questions about that, always feel free to reach out to
-                  us.
+                  {t.subtitle}
                 </motion.p>
               </div>
 

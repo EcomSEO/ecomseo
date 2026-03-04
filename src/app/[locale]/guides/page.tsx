@@ -6,15 +6,7 @@ import JsonLd from "@/components/JsonLd";
 import { breadcrumbJsonLd } from "@/lib/jsonLd";
 import { buildPageMetadata } from "@/lib/i18n/metadata";
 import type { Locale } from "@/lib/i18n/config";
-const sideNavItems = [
-  {
-    category: "Ecommerce SEO Basics",
-    items: [
-      { label: "Introduction", href: "/guides", active: true },
-      { label: "SEO Fundamentals Checklist", href: "/guides/fundamentals" },
-    ],
-  },
-];
+import { guidesNavT, guidesIntroT } from "@/lib/i18n/translations/guides";
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
@@ -23,9 +15,23 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 
 export default async function GuidesPage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
+  const l = locale as Locale;
+  const nav = guidesNavT[l];
+  const t = guidesIntroT[l];
+
+  const sideNavItems = [
+    {
+      category: nav.category,
+      items: [
+        { label: nav.introLabel, href: "/guides", active: true },
+        { label: nav.fundamentalsLabel, href: "/guides/fundamentals" },
+      ],
+    },
+  ];
+
   return (
     <>
-      <JsonLd data={breadcrumbJsonLd(locale as Locale, [
+      <JsonLd data={breadcrumbJsonLd(l, [
         { name: "Home", path: "/" },
         { name: "Guides", path: "/guides" },
       ])} />
@@ -65,19 +71,16 @@ export default async function GuidesPage({ params }: { params: Promise<{ locale:
             <div className="max-w-[720px]">
               {/* Breadcrumb */}
               <p className="text-accent text-sm font-medium mb-4">
-                Ecommerce SEO Basics
+                {t.breadcrumb}
               </p>
 
               <h1 className="text-[36px] md:text-[48px] font-medium leading-[1.1] tracking-[-0.02em] text-heading mb-6">
-                Introduction
+                {t.heading}
               </h1>
 
               <div className="prose-custom flex flex-col gap-6">
                 <p className="text-body text-base leading-relaxed">
-                  We&apos;re excited to announce our guides are now publicly
-                  available since Q2 2025! We hope you learn deep and actionable
-                  insights that are of real value to your brand. If you have any
-                  suggestions, they are more than welcome on{" "}
+                  {t.bodyParagraph}{" "}
                   <a
                     href="mailto:info@ecomseo.co"
                     className="text-accent hover:underline"
@@ -88,23 +91,15 @@ export default async function GuidesPage({ params }: { params: Promise<{ locale:
                 </p>
 
                 <h2 className="text-[24px] md:text-[28px] font-medium leading-[1.2] tracking-[-0.02em] text-heading mt-4">
-                  What you should be expecting
+                  {t.expectHeading}
                 </h2>
 
                 <p className="text-body text-base leading-relaxed">
-                  It&apos;s a fair trade. We give you knowledge. You spend time
-                  on our site. This signals to Google you like our information →
-                  we rank higher = SEO!
+                  {t.expectBody}
                 </p>
 
                 <div className="flex flex-col gap-4 mt-2">
-                  {[
-                    "Deep, actionable ecommerce SEO strategies",
-                    "Step-by-step workflows you can implement today",
-                    "Real data and case examples from our client work",
-                    "Regularly updated content as SEO evolves",
-                    "No gatekeeping — everything we know, shared openly",
-                  ].map((feature) => (
+                  {t.features.map((feature) => (
                     <div key={feature} className="flex items-start gap-3">
                       <svg
                         width="20"
@@ -128,17 +123,17 @@ export default async function GuidesPage({ params }: { params: Promise<{ locale:
 
                 {/* Navigation to next guide */}
                 <div className="mt-12 pt-8 border-t border-border">
-                  <p className="text-body text-sm mb-2">Next up</p>
+                  <p className="text-body text-sm mb-2">{t.nextUp}</p>
                   <LocaleLink
                     href="/guides/fundamentals"
                     className="group flex items-center justify-between rounded-xl bg-bg-card border border-border p-5 hover:border-border-strong transition-colors"
                   >
                     <div>
                       <p className="text-accent text-xs font-medium mb-1">
-                        Ecommerce SEO Basics
+                        {t.nextCategory}
                       </p>
                       <p className="text-heading font-medium text-base group-hover:text-accent transition-colors">
-                        SEO Fundamentals Checklist
+                        {t.nextTitle}
                       </p>
                     </div>
                     <svg
@@ -158,21 +153,21 @@ export default async function GuidesPage({ params }: { params: Promise<{ locale:
                 {/* Extra links */}
                 <div className="mt-8 flex flex-col gap-3">
                   <p className="text-body text-sm">
-                    Want the crash course?{" "}
+                    {t.crashCoursePrompt}{" "}
                     <LocaleLink
                       href="/resources/crash-course"
                       className="text-accent hover:underline"
                     >
-                      Start here
+                      {t.crashCourseLink}
                     </LocaleLink>
                   </p>
                   <p className="text-body text-sm">
-                    Ready to talk?{" "}
+                    {t.talkPrompt}{" "}
                     <LocaleLink
                       href="/contact"
                       className="text-accent hover:underline"
                     >
-                      Get in touch
+                      {t.talkLink}
                     </LocaleLink>
                   </p>
                 </div>

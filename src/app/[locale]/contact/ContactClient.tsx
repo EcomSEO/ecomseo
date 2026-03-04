@@ -8,26 +8,14 @@ import Button from "@/components/ui/Button";
 import Navigation from "@/components/sections/Navigation";
 import CTA from "@/components/sections/CTA";
 import Footer from "@/components/sections/Footer";
-
-const faqItems = [
-  {
-    question:
-      "What can I expect from EcomSEO when we start working together?",
-    answer:
-      "We handle your complete SEO channel A-Z. We will connect with your team/agencies about strategy, reporting, and execution. You'll get transparent updates and a clear roadmap from day one.",
-  },
-  {
-    question: "What does EcomSEO expect from me in a cooperation?",
-    answer:
-      "We expect you to set up communication channels with your team. When we talk SEO, we're the experts. So let us do our job. We give you transparent reporting, we can hop on meetings once a week. But after all, we require decision making power to take fast actions.",
-  },
-];
+import { useLocale } from "@/lib/i18n/useTranslations";
+import { contactPageT } from "@/lib/i18n/translations/contact";
 
 function FAQItem({
   item,
   index,
 }: {
-  item: (typeof faqItems)[0];
+  item: { question: string; answer: string };
   index: number;
 }) {
   const [open, setOpen] = useState(false);
@@ -68,6 +56,9 @@ function FAQItem({
 }
 
 export default function ContactPage() {
+  const locale = useLocale();
+  const t = contactPageT[locale];
+
   return (
     <>
       <Navigation />
@@ -84,7 +75,7 @@ export default function ContactPage() {
                   className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-border bg-bg-nav backdrop-blur-sm"
                 >
                   <span className="text-sm text-body font-medium">
-                    Backed by 19+ brand owners
+                    {t.hero.badge}
                   </span>
                 </motion.div>
 
@@ -94,7 +85,7 @@ export default function ContactPage() {
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.5, delay: 0.1 }}
                 >
-                  Don&apos;t be a stranger, say hello!
+                  {t.hero.heading}
                 </motion.h1>
 
                 <motion.p
@@ -103,9 +94,7 @@ export default function ContactPage() {
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.5, delay: 0.2 }}
                 >
-                  Solving SEO for ecommerce brands with a profit-focused
-                  approach. Multiple 8 figures+ generated through our
-                  frameworks.
+                  {t.hero.subtitle}
                 </motion.p>
 
                 <motion.div
@@ -120,10 +109,10 @@ export default function ContactPage() {
                     size="large"
                     external
                   >
-                    Open Form
+                    {t.hero.openForm}
                   </Button>
                   <Button href="/contact#team" variant="secondary" size="large">
-                    Learn More
+                    {t.hero.learnMore}
                   </Button>
                 </motion.div>
               </div>
@@ -221,7 +210,7 @@ export default function ContactPage() {
                   />
                 </svg>
                 <span className="text-heading font-medium text-base">
-                  Whatsapp
+                  {t.actions.whatsapp}
                 </span>
               </a>
               <a
@@ -254,7 +243,7 @@ export default function ContactPage() {
                   />
                 </svg>
                 <span className="text-heading font-medium text-base">
-                  Book 30 min
+                  {t.actions.book30min}
                 </span>
               </a>
             </motion.div>
@@ -271,21 +260,21 @@ export default function ContactPage() {
               <div className="flex flex-col sm:flex-row gap-4">
                 <div className="flex-1 flex flex-col gap-2.5">
                   <label className="text-sm font-medium text-heading">
-                    First Name
+                    {t.form.firstName}
                   </label>
                   <input
                     type="text"
-                    placeholder="Your first name"
+                    placeholder={t.form.firstNamePlaceholder}
                     className="w-full px-4 py-3 rounded-xl bg-bg-input border border-border text-heading text-sm placeholder:text-body focus:outline-none focus:border-accent transition-colors"
                   />
                 </div>
                 <div className="flex-1 flex flex-col gap-2.5">
                   <label className="text-sm font-medium text-heading">
-                    Last Name
+                    {t.form.lastName}
                   </label>
                   <input
                     type="text"
-                    placeholder="Your last name"
+                    placeholder={t.form.lastNamePlaceholder}
                     className="w-full px-4 py-3 rounded-xl bg-bg-input border border-border text-heading text-sm placeholder:text-body focus:outline-none focus:border-accent transition-colors"
                   />
                 </div>
@@ -293,44 +282,44 @@ export default function ContactPage() {
 
               <div className="flex flex-col gap-2.5">
                 <label className="text-sm font-medium text-heading">
-                  Email
+                  {t.form.email}
                 </label>
                 <input
                   type="email"
-                  placeholder="your@email.com"
+                  placeholder={t.form.emailPlaceholder}
                   className="w-full px-4 py-3 rounded-xl bg-bg-input border border-border text-heading text-sm placeholder:text-body focus:outline-none focus:border-accent transition-colors"
                 />
               </div>
 
               <div className="flex flex-col gap-2.5">
                 <label className="text-sm font-medium text-heading">
-                  Phone
+                  {t.form.phone}
                 </label>
                 <input
                   type="tel"
-                  placeholder="Your phone number"
+                  placeholder={t.form.phonePlaceholder}
                   className="w-full px-4 py-3 rounded-xl bg-bg-input border border-border text-heading text-sm placeholder:text-body focus:outline-none focus:border-accent transition-colors"
                 />
               </div>
 
               <div className="flex flex-col gap-2.5">
                 <label className="text-sm font-medium text-heading">
-                  Website
+                  {t.form.website}
                 </label>
                 <input
                   type="url"
-                  placeholder="https://yourwebsite.com"
+                  placeholder={t.form.websitePlaceholder}
                   className="w-full px-4 py-3 rounded-xl bg-bg-input border border-border text-heading text-sm placeholder:text-body focus:outline-none focus:border-accent transition-colors"
                 />
               </div>
 
               <div className="flex flex-col gap-2.5">
                 <label className="text-sm font-medium text-heading">
-                  How can we help?
+                  {t.form.howCanWeHelp}
                 </label>
                 <textarea
                   rows={4}
-                  placeholder="Tell us about your project..."
+                  placeholder={t.form.messagePlaceholder}
                   className="w-full px-4 py-3 rounded-xl bg-bg-input border border-border text-heading text-sm placeholder:text-body focus:outline-none focus:border-accent transition-colors resize-none"
                 />
               </div>
@@ -339,7 +328,7 @@ export default function ContactPage() {
                 type="submit"
                 className="w-full py-3.5 rounded-xl bg-gradient-to-r from-primary to-accent text-white font-medium text-sm hover:opacity-90 transition-opacity"
               >
-                Send email
+                {t.form.sendEmail}
               </button>
             </motion.form>
           </div>
@@ -354,7 +343,7 @@ export default function ContactPage() {
               viewport={{ once: true }}
               transition={{ duration: 0.5 }}
             >
-              <Badge text="We understand ecom" />
+              <Badge text={t.team.badge} />
             </motion.div>
 
             <div className="flex flex-col lg:flex-row items-center gap-16 w-full">
@@ -378,7 +367,7 @@ export default function ContactPage() {
                     Fabian van Til
                   </h3>
                   <span className="text-sm text-body">
-                    CEO at EcomSEO, Brand Owner
+                    {t.team.fabianRole}
                   </span>
                 </div>
               </motion.div>
@@ -392,14 +381,13 @@ export default function ContactPage() {
                 transition={{ duration: 0.5, delay: 0.1 }}
               >
                 <h2 className="text-[28px] md:text-[36px] font-medium leading-[1.1] tracking-[-0.02em] text-heading max-w-[750px]">
-                  We speak the same language.
+                  {t.team.heading}
                 </h2>
                 <p className="text-body text-base md:text-lg max-w-[402px]">
-                  We breath and talk e-commerce (and Dutch). That&apos;s
-                  specialisation.
+                  {t.team.description}
                 </p>
                 <Button href="/team/fabian-van-til" variant="primary">
-                  Get in Touch with Fabian
+                  {t.team.fabianCta}
                 </Button>
               </motion.div>
             </div>
@@ -409,12 +397,12 @@ export default function ContactPage() {
         {/* FAQ Section */}
         <section className="w-full px-5 md:px-16 py-16 md:py-24">
           <div className="mx-auto max-w-[800px] w-full flex flex-col gap-6">
-            {faqItems.map((item, i) => (
+            {t.faqItems.map((item, i) => (
               <FAQItem key={i} item={item} index={i} />
             ))}
             <div className="flex justify-center pt-4">
               <Button href="/faq" variant="primary">
-                Check all FAQ
+                {t.checkAllFaq}
               </Button>
             </div>
           </div>

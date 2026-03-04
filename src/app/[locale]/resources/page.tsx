@@ -10,45 +10,45 @@ import JsonLd from "@/components/JsonLd";
 import { breadcrumbJsonLd } from "@/lib/jsonLd";
 import { buildPageMetadata } from "@/lib/i18n/metadata";
 import type { Locale } from "@/lib/i18n/config";
+import {
+  resourcesHeroT,
+  fabianCardT,
+  recentArticlesT,
+  resourceLibraryT,
+  guidesCtaT,
+  newsletterT,
+} from "@/lib/i18n/translations/resources";
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   return buildPageMetadata(locale as Locale, "/resources");
 }
 
+const articleImages = [
+  "https://framerusercontent.com/images/onMUu7iRiATs271DY4qFTwrfs2A.jpeg",
+  "https://framerusercontent.com/images/dtTy5pSdH9vdxf7ZmXfyy4cQH0.png",
+  "https://framerusercontent.com/images/pLr2VAAJPydel6VZNLZAsJP6k.png",
+];
 
-const recentArticles = [
-  {
-    title: "The Complete Ecommerce SEO Checklist for 2025",
-    description:
-      "Everything you need to audit and optimize your online store for organic search.",
-    image:
-      "https://framerusercontent.com/images/onMUu7iRiATs271DY4qFTwrfs2A.jpeg",
-    href: "/resources/shopify-on-page-checklist",
-  },
-  {
-    title: "How Search & Product Discovery Works",
-    description:
-      "Understand how customers find products through search and how to optimize for discovery.",
-    image:
-      "https://framerusercontent.com/images/dtTy5pSdH9vdxf7ZmXfyy4cQH0.png",
-    href: "/resources/search-product-discovery",
-  },
-  {
-    title: "EcomSEO Solutions Overview",
-    description:
-      "A comprehensive look at our SEO solutions for ecommerce brands.",
-    image:
-      "https://framerusercontent.com/images/pLr2VAAJPydel6VZNLZAsJP6k.png",
-    href: "/resources/solutions",
-  },
+const articleHrefs = [
+  "/resources/shopify-on-page-checklist",
+  "/resources/search-product-discovery",
+  "/resources/solutions",
 ];
 
 export default async function ResourcesPage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
+  const l = locale as Locale;
+  const hero = resourcesHeroT[l];
+  const fabian = fabianCardT[l];
+  const articles = recentArticlesT[l];
+  const library = resourceLibraryT[l];
+  const guidesCta = guidesCtaT[l];
+  const newsletter = newsletterT[l];
+
   return (
     <>
-      <JsonLd data={breadcrumbJsonLd(locale as Locale, [
+      <JsonLd data={breadcrumbJsonLd(l, [
         { name: "Home", path: "/" },
         { name: "Resources", path: "/resources" },
       ])} />
@@ -57,9 +57,9 @@ export default async function ResourcesPage({ params }: { params: Promise<{ loca
         {/* Hero */}
         <section className="w-full px-5 md:px-16 pt-[120px] md:pt-[160px] pb-16">
           <div className="mx-auto max-w-[1200px] flex flex-col items-center text-center gap-6">
-            <Badge text="Resources / Learning Centre" />
+            <Badge text={hero.badge} />
             <h1 className="text-[36px] md:text-[52px] lg:text-[64px] font-medium leading-[1.1] tracking-[-0.02em] text-heading max-w-[800px]">
-              Industry&apos;s best resources about SEO For Ecommerce Brands
+              {hero.heading}
             </h1>
           </div>
         </section>
@@ -72,28 +72,25 @@ export default async function ResourcesPage({ params }: { params: Promise<{ loca
               <div className="flex items-center gap-4">
                 <Image
                   src="https://framerusercontent.com/images/TInweDbtgC4BbdOxO9KSYbemgM.png"
-                  alt="Fabian van Til"
+                  alt={fabian.name}
                   width={56}
                   height={56}
                   className="rounded-full"
                 />
                 <div>
                   <p className="text-heading font-medium text-sm">
-                    Fabian van Til
+                    {fabian.name}
                   </p>
                   <p className="text-body text-xs">
-                    Founder & Strategy Lead
+                    {fabian.role}
                   </p>
                 </div>
               </div>
               <h2 className="text-[24px] md:text-[32px] font-medium leading-[1.2] tracking-[-0.02em] text-heading">
-                The Ecommerce-focused SEO Guy who also Owns Brands
+                {fabian.heading}
               </h2>
               <p className="text-body text-base leading-relaxed">
-                I run &amp; operate in two 7+ figure D2C ecom brands and obsess
-                over turning traffic into profit. At EcomSEO, I combine
-                first-hand store-owner experience with data-driven SEO to help
-                ecommerce brands scale organic revenue.
+                {fabian.bio}
               </p>
               <div className="flex items-center gap-3 mt-2">
                 <Link
@@ -160,19 +157,19 @@ export default async function ResourcesPage({ params }: { params: Promise<{ loca
           <div className="mx-auto max-w-[1200px]">
             <div className="flex items-center justify-between mb-8">
               <h2 className="text-[24px] md:text-[32px] font-medium leading-[1.2] tracking-[-0.02em] text-heading">
-                Recent Articles
+                {articles.sectionTitle}
               </h2>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-              {recentArticles.map((article) => (
+              {articles.articles.map((article, i) => (
                 <LocaleLink
-                  key={article.href}
-                  href={article.href}
+                  key={articleHrefs[i]}
+                  href={articleHrefs[i]}
                   className="group rounded-2xl bg-bg-card border border-border overflow-hidden hover:border-border-strong transition-colors"
                 >
                   <div className="relative aspect-[16/10] overflow-hidden">
                     <Image
-                      src={article.image}
+                      src={articleImages[i]}
                       alt={article.title}
                       fill
                       className="object-cover group-hover:scale-105 transition-transform duration-500"
@@ -195,16 +192,16 @@ export default async function ResourcesPage({ params }: { params: Promise<{ loca
         {/* Resource Library Section */}
         <section className="w-full px-5 md:px-16 pb-20">
           <div className="mx-auto max-w-[1200px] rounded-2xl bg-bg-card border border-border p-8 md:p-12 flex flex-col gap-6">
-            <Badge text="Resource Library" />
+            <Badge text={library.badge} />
             <h2 className="text-[28px] md:text-[40px] font-medium leading-[1.1] tracking-[-0.02em] text-heading max-w-[600px]">
-              Tools, Templates &amp; Guides related to SEO to boost e-commerce
+              {library.heading}
             </h2>
             <p className="text-body text-base leading-relaxed max-w-[500px]">
-              The best ecommerce SEO resources on planet earth.
+              {library.body}
             </p>
             <div className="mt-2">
               <Button href="/resources/library" variant="secondary" size="small">
-                All resources
+                {library.cta}
               </Button>
             </div>
           </div>
@@ -213,16 +210,16 @@ export default async function ResourcesPage({ params }: { params: Promise<{ loca
         {/* Ecommerce SEO Guides Section */}
         <section className="w-full px-5 md:px-16 pb-20">
           <div className="mx-auto max-w-[1200px] rounded-2xl bg-bg-card border border-border p-8 md:p-12 flex flex-col gap-6">
-            <Badge text="Ecommerce SEO Guides" />
+            <Badge text={guidesCta.badge} />
             <h2 className="text-[28px] md:text-[40px] font-medium leading-[1.1] tracking-[-0.02em] text-heading max-w-[600px]">
-              Practical guides &amp; step-by-step workflows about Ecommerce SEO
+              {guidesCta.heading}
             </h2>
             <p className="text-body text-base leading-relaxed max-w-[500px]">
-              Gotcha&apos;s for your SEO journey.
+              {guidesCta.body}
             </p>
             <div className="mt-2">
               <Button href="/guides" variant="secondary" size="small">
-                Go to guides
+                {guidesCta.cta}
               </Button>
             </div>
           </div>
@@ -232,28 +229,23 @@ export default async function ResourcesPage({ params }: { params: Promise<{ loca
         <section className="w-full px-5 md:px-16 pb-20">
           <div className="mx-auto max-w-[1200px] rounded-2xl bg-bg-card border border-border p-8 md:p-12 flex flex-col items-center text-center gap-6">
             <h2 className="text-[28px] md:text-[40px] font-medium leading-[1.1] tracking-[-0.02em] text-heading max-w-[600px]">
-              Get Industry-Leading Ecommerce SEO insights in your email
+              {newsletter.heading}
             </h2>
             <p className="text-body text-base leading-relaxed max-w-[500px]">
-              We don&apos;t have a sales team. We just share what works. Subscribe
-              and get actionable ecommerce SEO insights delivered to your inbox.
+              {newsletter.body}
             </p>
             <div className="flex flex-col sm:flex-row items-center gap-3 w-full max-w-[460px] mt-2">
               <input
                 type="email"
-                placeholder="Enter your email"
+                placeholder={newsletter.placeholder}
                 className="w-full px-4 py-3 rounded-xl bg-bg-input border border-border text-heading text-sm placeholder:text-body focus:outline-none focus:border-accent"
               />
               <button className="whitespace-nowrap px-6 py-3 rounded-xl bg-primary hover:bg-primary-hover text-white text-sm font-medium transition-colors">
-                Subscribe
+                {newsletter.cta}
               </button>
             </div>
             <div className="flex flex-col gap-3 mt-4 text-left w-full max-w-[460px]">
-              {[
-                "Ecommerce SEO focused updates",
-                "Discover latest SEO methods before they go viral",
-                "Insights about agency's SEO experiments",
-              ].map((item) => (
+              {newsletter.benefits.map((item) => (
                 <div key={item} className="flex items-center gap-3">
                   <svg
                     width="16"

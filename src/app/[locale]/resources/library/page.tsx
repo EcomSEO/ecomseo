@@ -6,6 +6,7 @@ import JsonLd from "@/components/JsonLd";
 import { breadcrumbJsonLd } from "@/lib/jsonLd";
 import { buildPageMetadata } from "@/lib/i18n/metadata";
 import type { Locale } from "@/lib/i18n/config";
+import { libraryPageT } from "@/lib/i18n/translations/resources/library";
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
@@ -20,211 +21,211 @@ interface Resource {
   isPlaceholder?: boolean;
 }
 
-const categories: {
+function getCategoryData(t: typeof libraryPageT["en"]): {
   id: string;
   label: string;
   icon: React.ReactNode;
   resources: Resource[];
-}[] = [
-  {
-    id: "ai-tools",
-    label: "AI Tools",
-    icon: (
-      <svg
-        width="18"
-        height="18"
-        viewBox="0 0 24 24"
-        fill="none"
-        stroke="currentColor"
-        strokeWidth="2"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      >
-        <rect x="3" y="11" width="18" height="10" rx="2" />
-        <circle cx="12" cy="5" r="2" />
-        <path d="M12 7v4" />
-        <line x1="8" y1="16" x2="8" y2="16" />
-        <line x1="16" y1="16" x2="16" y2="16" />
-      </svg>
-    ),
-    resources: [
-      {
-        title: "ABC Template",
-        description: "AI-powered content generation template for ecommerce product descriptions and category pages.",
-        href: "/resources/library/template",
-      },
-      {
-        title: "New Template",
-        description: "Coming soon — stay tuned for more AI tools.",
-        href: "#",
-        isPlaceholder: true,
-      },
-      {
-        title: "New Template",
-        description: "Coming soon — stay tuned for more AI tools.",
-        href: "#",
-        isPlaceholder: true,
-      },
-    ],
-  },
-  {
-    id: "on-page",
-    label: "On-Page SEO",
-    icon: (
-      <svg
-        width="18"
-        height="18"
-        viewBox="0 0 24 24"
-        fill="none"
-        stroke="currentColor"
-        strokeWidth="2"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      >
-        <path d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z" />
-      </svg>
-    ),
-    resources: [
-      {
-        title: "Fundamentals Checklist",
-        description:
-          "The absolute first thing we do when starting a new project.",
-        href: "/resources/library/on-page-checklist",
-      },
-      {
-        title: "New Template",
-        description: "Coming soon — stay tuned for more on-page guides.",
-        href: "#",
-        isPlaceholder: true,
-      },
-      {
-        title: "New Template",
-        description: "Coming soon — stay tuned for more on-page guides.",
-        href: "#",
-        isPlaceholder: true,
-      },
-    ],
-  },
-  {
-    id: "off-page",
-    label: "Off-Page SEO",
-    icon: (
-      <svg
-        width="18"
-        height="18"
-        viewBox="0 0 24 24"
-        fill="none"
-        stroke="currentColor"
-        strokeWidth="2"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      >
-        <circle cx="12" cy="12" r="10" />
-        <line x1="2" y1="12" x2="22" y2="12" />
-        <path d="M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z" />
-      </svg>
-    ),
-    resources: [
-      {
-        title: "New Template",
-        description: "Coming soon — stay tuned for off-page SEO resources.",
-        href: "#",
-        isPlaceholder: true,
-      },
-      {
-        title: "New Template",
-        description: "Coming soon — stay tuned for off-page SEO resources.",
-        href: "#",
-        isPlaceholder: true,
-      },
-      {
-        title: "New Template",
-        description: "Coming soon — stay tuned for off-page SEO resources.",
-        href: "#",
-        isPlaceholder: true,
-      },
-    ],
-  },
-  {
-    id: "sops",
-    label: "SOP's",
-    icon: (
-      <svg
-        width="18"
-        height="18"
-        viewBox="0 0 24 24"
-        fill="none"
-        stroke="currentColor"
-        strokeWidth="2"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      >
-        <path d="M4 19.5A2.5 2.5 0 016.5 17H20" />
-        <path d="M6.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15A2.5 2.5 0 016.5 2z" />
-      </svg>
-    ),
-    resources: [
-      {
-        title: "New Template",
-        description: "Coming soon — stay tuned for SOPs.",
-        href: "#",
-        isPlaceholder: true,
-      },
-      {
-        title: "New Template",
-        description: "Coming soon — stay tuned for SOPs.",
-        href: "#",
-        isPlaceholder: true,
-      },
-      {
-        title: "New Template",
-        description: "Coming soon — stay tuned for SOPs.",
-        href: "#",
-        isPlaceholder: true,
-      },
-    ],
-  },
-  {
-    id: "templates",
-    label: "Templates",
-    icon: (
-      <svg
-        width="18"
-        height="18"
-        viewBox="0 0 24 24"
-        fill="none"
-        stroke="currentColor"
-        strokeWidth="2"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      >
-        <rect x="2" y="3" width="20" height="14" rx="2" ry="2" />
-        <line x1="8" y1="21" x2="16" y2="21" />
-        <line x1="12" y1="17" x2="12" y2="21" />
-      </svg>
-    ),
-    resources: [
-      {
-        title: "Ecommerce SEO ROI Calculation Sheet",
-        description:
-          "Will SEO be profitable for my brand? Insert your own data and visualise your SEO potential.",
-        href: "/resources/library/roi-calculation-sheet",
-      },
-      {
-        title: "New Template",
-        description: "Coming soon — stay tuned for more templates.",
-        href: "#",
-        isPlaceholder: true,
-      },
-      {
-        title: "New Template",
-        description: "Coming soon — stay tuned for more templates.",
-        href: "#",
-        isPlaceholder: true,
-      },
-    ],
-  },
-];
+}[] {
+  return [
+    {
+      id: "ai-tools",
+      label: t.categories.aiTools,
+      icon: (
+        <svg
+          width="18"
+          height="18"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        >
+          <rect x="3" y="11" width="18" height="10" rx="2" />
+          <circle cx="12" cy="5" r="2" />
+          <path d="M12 7v4" />
+          <line x1="8" y1="16" x2="8" y2="16" />
+          <line x1="16" y1="16" x2="16" y2="16" />
+        </svg>
+      ),
+      resources: [
+        {
+          title: t.resources.abcTemplate.title,
+          description: t.resources.abcTemplate.description,
+          href: "/resources/library/template",
+        },
+        {
+          title: t.resources.newTemplate,
+          description: t.resources.comingSoonAi,
+          href: "#",
+          isPlaceholder: true,
+        },
+        {
+          title: t.resources.newTemplate,
+          description: t.resources.comingSoonAi,
+          href: "#",
+          isPlaceholder: true,
+        },
+      ],
+    },
+    {
+      id: "on-page",
+      label: t.categories.onPageSeo,
+      icon: (
+        <svg
+          width="18"
+          height="18"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        >
+          <path d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z" />
+        </svg>
+      ),
+      resources: [
+        {
+          title: t.resources.fundamentalsChecklist.title,
+          description: t.resources.fundamentalsChecklist.description,
+          href: "/resources/library/on-page-checklist",
+        },
+        {
+          title: t.resources.newTemplate,
+          description: t.resources.comingSoonOnPage,
+          href: "#",
+          isPlaceholder: true,
+        },
+        {
+          title: t.resources.newTemplate,
+          description: t.resources.comingSoonOnPage,
+          href: "#",
+          isPlaceholder: true,
+        },
+      ],
+    },
+    {
+      id: "off-page",
+      label: t.categories.offPageSeo,
+      icon: (
+        <svg
+          width="18"
+          height="18"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        >
+          <circle cx="12" cy="12" r="10" />
+          <line x1="2" y1="12" x2="22" y2="12" />
+          <path d="M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z" />
+        </svg>
+      ),
+      resources: [
+        {
+          title: t.resources.newTemplate,
+          description: t.resources.comingSoonOffPage,
+          href: "#",
+          isPlaceholder: true,
+        },
+        {
+          title: t.resources.newTemplate,
+          description: t.resources.comingSoonOffPage,
+          href: "#",
+          isPlaceholder: true,
+        },
+        {
+          title: t.resources.newTemplate,
+          description: t.resources.comingSoonOffPage,
+          href: "#",
+          isPlaceholder: true,
+        },
+      ],
+    },
+    {
+      id: "sops",
+      label: t.categories.sops,
+      icon: (
+        <svg
+          width="18"
+          height="18"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        >
+          <path d="M4 19.5A2.5 2.5 0 016.5 17H20" />
+          <path d="M6.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15A2.5 2.5 0 016.5 2z" />
+        </svg>
+      ),
+      resources: [
+        {
+          title: t.resources.newTemplate,
+          description: t.resources.comingSoonSops,
+          href: "#",
+          isPlaceholder: true,
+        },
+        {
+          title: t.resources.newTemplate,
+          description: t.resources.comingSoonSops,
+          href: "#",
+          isPlaceholder: true,
+        },
+        {
+          title: t.resources.newTemplate,
+          description: t.resources.comingSoonSops,
+          href: "#",
+          isPlaceholder: true,
+        },
+      ],
+    },
+    {
+      id: "templates",
+      label: t.categories.templates,
+      icon: (
+        <svg
+          width="18"
+          height="18"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        >
+          <rect x="2" y="3" width="20" height="14" rx="2" ry="2" />
+          <line x1="8" y1="21" x2="16" y2="21" />
+          <line x1="12" y1="17" x2="12" y2="21" />
+        </svg>
+      ),
+      resources: [
+        {
+          title: t.resources.roiSheet.title,
+          description: t.resources.roiSheet.description,
+          href: "/resources/library/roi-calculation-sheet",
+        },
+        {
+          title: t.resources.newTemplate,
+          description: t.resources.comingSoonTemplates,
+          href: "#",
+          isPlaceholder: true,
+        },
+        {
+          title: t.resources.newTemplate,
+          description: t.resources.comingSoonTemplates,
+          href: "#",
+          isPlaceholder: true,
+        },
+      ],
+    },
+  ];
+}
 
 function ResourceCard({ resource }: { resource: Resource }) {
   if (resource.isPlaceholder) {
@@ -283,6 +284,8 @@ function ResourceCard({ resource }: { resource: Resource }) {
 
 export default async function ResourceLibraryPage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
+  const t = libraryPageT[locale as Locale];
+  const categories = getCategoryData(t);
   return (
     <>
       <JsonLd data={breadcrumbJsonLd(locale as Locale, [
@@ -322,7 +325,7 @@ export default async function ResourceLibraryPage({ params }: { params: Promise<
                 >
                   <polyline points="15 18 9 12 15 6" />
                 </svg>
-                All resources
+                {t.allResources}
               </LocaleLink>
             </div>
           </aside>
@@ -332,13 +335,12 @@ export default async function ResourceLibraryPage({ params }: { params: Promise<
             <div className="max-w-[900px]">
               {/* Header */}
               <div className="mb-12">
-                <Badge text="Resource Library" />
+                <Badge text={t.badge} />
                 <h1 className="text-[32px] md:text-[44px] font-medium leading-[1.1] tracking-[-0.02em] text-heading mt-4 mb-3">
-                  Tools, Templates &amp; Guides related to SEO to boost
-                  e-commerce
+                  {t.heading}
                 </h1>
                 <p className="text-body text-base">
-                  The best ecommerce SEO resources on planet earth.
+                  {t.subtitle}
                 </p>
               </div>
 
@@ -346,7 +348,7 @@ export default async function ResourceLibraryPage({ params }: { params: Promise<
               <div className="mb-12">
                 <input
                   type="text"
-                  placeholder="Search Resources..."
+                  placeholder={t.searchPlaceholder}
                   className="w-full max-w-[400px] px-4 py-3 rounded-xl bg-bg-input border border-border text-heading text-sm placeholder:text-body focus:outline-none focus:border-accent"
                 />
               </div>
@@ -382,7 +384,7 @@ export default async function ResourceLibraryPage({ params }: { params: Promise<
                   >
                     <polyline points="15 18 9 12 15 6" />
                   </svg>
-                  All resources
+                  {t.allResources}
                 </LocaleLink>
               </div>
             </div>

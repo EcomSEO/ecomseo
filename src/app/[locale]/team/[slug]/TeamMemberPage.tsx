@@ -6,6 +6,8 @@ import Link from "next/link";
 import Navigation from "@/components/sections/Navigation";
 import CTA from "@/components/sections/CTA";
 import Footer from "@/components/sections/Footer";
+import { useLocale } from "@/lib/i18n/useTranslations";
+import { teamMemberDetailT } from "@/lib/i18n/translations/teamMemberDetail";
 
 interface TeamMember {
   slug: string;
@@ -102,6 +104,10 @@ const socialIcons: Record<string, React.ComponentType> = {
 };
 
 export default function TeamMemberPage({ member }: { member: TeamMember }) {
+  const locale = useLocale();
+  const t = teamMemberDetailT[locale];
+  const firstName = member.name.split(" ")[0];
+
   return (
     <>
       <Navigation />
@@ -207,7 +213,7 @@ export default function TeamMemberPage({ member }: { member: TeamMember }) {
               transition={{ duration: 0.5 }}
             >
               <h2 className="text-[20px] md:text-[24px] font-medium text-heading mb-8">
-                Expert Area
+                {t.expertArea}
               </h2>
               <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
                 {member.skills.map((skill) => (
@@ -236,7 +242,7 @@ export default function TeamMemberPage({ member }: { member: TeamMember }) {
               transition={{ duration: 0.5 }}
             >
               <h2 className="text-[20px] md:text-[24px] font-medium text-heading mb-6">
-                About {member.name.split(" ")[0]}
+                {t.about} {firstName}
               </h2>
               <p className="text-body text-base leading-relaxed max-w-[800px]">
                 {member.bio}
@@ -255,7 +261,7 @@ export default function TeamMemberPage({ member }: { member: TeamMember }) {
               transition={{ duration: 0.5 }}
             >
               <h2 className="text-[20px] md:text-[24px] font-medium text-heading mb-8">
-                Interests
+                {t.interests}
               </h2>
               <div className="flex flex-wrap gap-3">
                 {member.interests.map((interest) => (
@@ -281,7 +287,7 @@ export default function TeamMemberPage({ member }: { member: TeamMember }) {
               transition={{ duration: 0.5 }}
             >
               <h2 className="text-[20px] md:text-[24px] font-medium text-heading mb-8">
-                Connect with {member.name.split(" ")[0]}
+                {t.connectWith} {firstName}
               </h2>
               <div className="flex flex-wrap gap-4">
                 {member.socials.map((social) => {

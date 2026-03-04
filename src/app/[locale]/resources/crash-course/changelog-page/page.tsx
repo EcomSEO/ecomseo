@@ -6,6 +6,7 @@ import JsonLd from "@/components/JsonLd";
 import { breadcrumbJsonLd } from "@/lib/jsonLd";
 import { buildPageMetadata } from "@/lib/i18n/metadata";
 import type { Locale } from "@/lib/i18n/config";
+import { changelogPageT } from "@/lib/i18n/translations/resources/crash-course";
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
@@ -15,6 +16,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 
 export default async function ChangelogPage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
+  const t = changelogPageT[locale as Locale];
   return (
     <>
       <JsonLd data={breadcrumbJsonLd(locale as Locale, [
@@ -42,23 +44,23 @@ export default async function ChangelogPage({ params }: { params: Promise<{ loca
               >
                 <polyline points="15 18 9 12 15 6" />
               </svg>
-              Back
+              {t.back}
             </LocaleLink>
           </div>
 
           {/* Header */}
           <section className="text-center mb-8 space-y-3">
             <h1 className="text-[28px] md:text-[36px] font-semibold leading-[1.1] tracking-[-0.02em] text-heading">
-              Performance Boost &amp; New Features
+              {t.title}
             </h1>
-            <p className="text-body text-sm">January 23, 2025</p>
+            <p className="text-body text-sm">{t.date}</p>
           </section>
 
           {/* Cover image */}
           <div className="relative w-full aspect-[16/9] rounded-lg overflow-hidden mb-10">
             <Image
               src="https://framerusercontent.com/images/ItBctzl5M66ve6J7UvXVHZQQShs.png"
-              alt="Performance Boost & New Features"
+              alt={t.title}
               fill
               className="object-cover"
             />
@@ -67,10 +69,7 @@ export default async function ChangelogPage({ params }: { params: Promise<{ loca
           {/* Content placeholder */}
           <article className="prose prose-invert prose-sm max-w-none mb-12">
             <p className="text-body text-sm leading-relaxed">
-              This crash course entry covers the fundamentals of SEO performance
-              optimization for ecommerce stores. Learn about Core Web Vitals,
-              page speed optimization, and new features that can help your store
-              rank higher in search results.
+              {t.content}
             </p>
           </article>
 
@@ -80,9 +79,9 @@ export default async function ChangelogPage({ params }: { params: Promise<{ loca
             className="flex items-center justify-between gap-4 rounded-xl border border-border p-4 hover:border-accent transition-colors"
           >
             <div className="space-y-1">
-              <p className="text-body text-xs">Next step</p>
+              <p className="text-body text-xs">{t.nextStep}</p>
               <p className="text-heading font-semibold text-sm">
-                Doing Keyword Research
+                {t.nextTitle}
               </p>
             </div>
             <svg

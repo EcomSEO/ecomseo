@@ -7,6 +7,8 @@ import CTA from "@/components/sections/CTA";
 import Footer from "@/components/sections/Footer";
 import Badge from "@/components/ui/Badge";
 import Button from "@/components/ui/Button";
+import { serviceTemplateStrings } from "@/lib/i18n/translations/services";
+import type { Locale } from "@/lib/i18n/config";
 
 /* ─── Types ─── */
 
@@ -63,6 +65,7 @@ export interface ServicePageProps {
       subtitle: string;
     };
   };
+  locale?: Locale;
 }
 
 /* ─── Sub-components ─── */
@@ -324,19 +327,22 @@ function DeliverablesSection({
 function FAQSection({
   items,
   miniCta,
+  locale = "en",
 }: {
   items: FAQItem[];
   miniCta: { heading: string; subtitle: string };
+  locale?: Locale;
 }) {
+  const tpl = serviceTemplateStrings[locale];
   const [openIndex, setOpenIndex] = useState<number | null>(0);
 
   return (
     <section className="w-full px-5 md:px-10 py-24">
       <div className="mx-auto max-w-[1120px] flex flex-col items-center gap-[60px]">
         <div className="flex flex-col items-center text-center gap-4">
-          <Badge text="FAQs" />
+          <Badge text={tpl.faqBadge} />
           <h2 className="text-[28px] md:text-[40px] lg:text-[48px] font-medium leading-[1.1] tracking-[-0.02em] text-heading max-w-[700px]">
-            Frequently Asked Questions
+            {tpl.faqHeading}
           </h2>
         </div>
 
@@ -399,7 +405,7 @@ function FAQSection({
               size="large"
               external
             >
-              Get in touch
+              {tpl.getInTouch}
             </Button>
           </div>
         </div>
@@ -415,6 +421,7 @@ export default function ServicePageTemplate({
   trustBar,
   sections,
   faqs,
+  locale,
 }: ServicePageProps) {
   return (
     <>
@@ -468,7 +475,7 @@ export default function ServicePageTemplate({
               return null;
           }
         })}
-        <FAQSection items={faqs.items} miniCta={faqs.miniCta} />
+        <FAQSection items={faqs.items} miniCta={faqs.miniCta} locale={locale} />
         <CTA />
       </main>
       <Footer />

@@ -7,6 +7,7 @@ import JsonLd from "@/components/JsonLd";
 import { breadcrumbJsonLd } from "@/lib/jsonLd";
 import { buildPageMetadata } from "@/lib/i18n/metadata";
 import type { Locale } from "@/lib/i18n/config";
+import { crashCoursePageT } from "@/lib/i18n/translations/resources/crash-course";
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
@@ -14,40 +15,19 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 }
 
 
-interface CrashCourseEntry {
-  date: string;
-  title: string;
-  badge: string;
-  image: string;
-  content: string;
-  href: string;
-}
+const entryImages = [
+  "https://framerusercontent.com/images/ItBctzl5M66ve6J7UvXVHZQQShs.png",
+  "https://framerusercontent.com/images/ItBctzl5M66ve6J7UvXVHZQQShs.png",
+];
 
-const entries: CrashCourseEntry[] = [
-  {
-    date: "January 23, 2025",
-    title: "Performance Boost & New Features",
-    badge: "SEO 101",
-    image:
-      "https://framerusercontent.com/images/ItBctzl5M66ve6J7UvXVHZQQShs.png",
-    content:
-      "Learn the fundamentals of SEO performance and discover new features that can help your ecommerce store rank higher in search results.",
-    href: "/resources/crash-course/changelog-page",
-  },
-  {
-    date: "January 23, 2025",
-    title: "Performance Boost & New Features",
-    badge: "SEO 101",
-    image:
-      "https://framerusercontent.com/images/ItBctzl5M66ve6J7UvXVHZQQShs.png",
-    content:
-      "Continuing our series on ecommerce SEO basics with advanced techniques for optimizing your product and collection pages.",
-    href: "/resources/crash-course/changelog-page",
-  },
+const entryHrefs = [
+  "/resources/crash-course/changelog-page",
+  "/resources/crash-course/changelog-page",
 ];
 
 export default async function CrashCoursePage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
+  const t = crashCoursePageT[locale as Locale];
   return (
     <>
       <JsonLd data={breadcrumbJsonLd(locale as Locale, [
@@ -61,24 +41,23 @@ export default async function CrashCoursePage({ params }: { params: Promise<{ lo
           {/* Hero */}
           <section className="text-center mb-24 pt-14">
             <h1 className="text-[32px] md:text-[52px] font-medium leading-[1.1] tracking-[-0.02em] text-heading mb-3">
-              Beginner to Hero - Ecommerce SEO Crash Course
+              {t.heading}
             </h1>
             <p className="text-body text-base max-w-[600px] mx-auto">
-              What you should know from an absolute beginner to start ranking
-              your site seriously on Search Engines.
+              {t.subtitle}
             </p>
           </section>
 
           {/* Timeline */}
           <div className="flex flex-col gap-2.5">
-            {entries.map((entry, i) => (
+            {t.entries.map((entry, i) => (
               <div key={i} className="flex gap-6">
                 {/* Timeline dot + line */}
                 <div className="flex flex-col items-center shrink-0">
                   <div className="p-2">
                     <div className="w-[7px] h-[7px] rounded-full bg-body" />
                   </div>
-                  {i < entries.length - 1 && (
+                  {i < t.entries.length - 1 && (
                     <div className="w-px flex-1 bg-border" />
                   )}
                 </div>
@@ -103,7 +82,7 @@ export default async function CrashCoursePage({ params }: { params: Promise<{ lo
                     <div className="rounded-[20px] border border-border overflow-hidden p-8 flex flex-col gap-6">
                       <div className="relative aspect-[16/9] rounded-lg overflow-hidden">
                         <Image
-                          src={entry.image}
+                          src={entryImages[i]}
                           alt={entry.title}
                           fill
                           className="object-cover"
@@ -113,10 +92,10 @@ export default async function CrashCoursePage({ params }: { params: Promise<{ lo
                         {entry.content}
                       </p>
                       <LocaleLink
-                        href={entry.href}
+                        href={entryHrefs[i]}
                         className="inline-flex items-center gap-2 text-heading text-sm font-medium hover:text-accent transition-colors"
                       >
-                        Read more
+                        {t.readMore}
                         <svg
                           width="16"
                           height="16"

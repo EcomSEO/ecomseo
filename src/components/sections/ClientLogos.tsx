@@ -1,6 +1,17 @@
 "use client";
 
 import Image from "next/image";
+import { useLocale } from "@/lib/i18n/useTranslations";
+import type { Locale } from "@/lib/i18n/config";
+
+const clientLogosT: Record<Locale, { trustLine: string }> = {
+  en: { trustLine: "You're in good hands:" },
+  de: { trustLine: "Sie sind in guten Händen:" },
+  fr: { trustLine: "Vous êtes entre de bonnes mains :" },
+  es: { trustLine: "Estás en buenas manos:" },
+  it: { trustLine: "Sei in buone mani:" },
+  nl: { trustLine: "Je bent in goede handen:" },
+};
 
 const clientLogos = [
   { src: "https://framerusercontent.com/images/R9PWSY8LxXtyW5suU5EWxJzw9Y.webp", alt: "Client logo", width: 125, height: 81 },
@@ -14,11 +25,13 @@ const clientLogos = [
 ];
 
 export default function ClientLogos() {
+  const locale = useLocale();
+  const t = clientLogosT[locale];
   return (
     <section className="w-full py-8 overflow-hidden">
       <div className="max-w-[1200px] mx-auto px-5 md:px-16">
         <p className="text-center text-body text-sm mb-8">
-          You&apos;re in good hands:
+          {t.trustLine}
         </p>
       </div>
       <div className="relative overflow-hidden">

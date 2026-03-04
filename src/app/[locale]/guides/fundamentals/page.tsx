@@ -6,103 +6,9 @@ import JsonLd from "@/components/JsonLd";
 import { breadcrumbJsonLd } from "@/lib/jsonLd";
 import { buildPageMetadata } from "@/lib/i18n/metadata";
 import type { Locale } from "@/lib/i18n/config";
-const sideNavItems = [
-  {
-    category: "Ecommerce SEO Basics",
-    items: [
-      { label: "Introduction", href: "/guides" },
-      {
-        label: "SEO Fundamentals Checklist",
-        href: "/guides/fundamentals",
-        active: true,
-      },
-    ],
-  },
-];
+import { guidesFundamentalsT } from "@/lib/i18n/translations/guidesFundamentals";
 
-const checklistSections = [
-  {
-    title: "1. Title Tags",
-    items: [
-      "Every page has a unique, descriptive title tag",
-      "Include primary keyword near the beginning",
-      "Keep under 60 characters to avoid truncation",
-      "Include your brand name at the end (e.g., | Brand)",
-      "Use modifiers for long-tail variations (best, buy, review, 2025)",
-    ],
-  },
-  {
-    title: "2. Meta Descriptions",
-    items: [
-      "Every page has a unique meta description",
-      "Include primary keyword naturally",
-      "Keep under 155 characters",
-      "Include a call-to-action (Shop now, Free shipping, etc.)",
-      "Highlight unique selling points",
-    ],
-  },
-  {
-    title: "3. Heading Structure",
-    items: [
-      "One H1 per page containing the primary keyword",
-      "Logical heading hierarchy (H1 → H2 → H3)",
-      "H2s cover main subtopics / categories",
-      "H3s used for supporting points",
-      "Don't skip heading levels",
-    ],
-  },
-  {
-    title: "4. URL Structure",
-    items: [
-      "URLs are short, descriptive, and keyword-rich",
-      "Use hyphens to separate words",
-      "Avoid parameters and session IDs in URLs",
-      "Logical folder structure (/category/subcategory/product)",
-      "All URLs are lowercase",
-    ],
-  },
-  {
-    title: "5. Internal Linking",
-    items: [
-      "Category pages link to relevant subcategories and products",
-      "Product pages link back to their category",
-      "Blog posts link to relevant product/category pages",
-      "Use descriptive anchor text (not 'click here')",
-      "Implement breadcrumb navigation",
-    ],
-  },
-  {
-    title: "6. Image Optimization",
-    items: [
-      "All images have descriptive alt text",
-      "Images are compressed (WebP format preferred)",
-      "Use descriptive file names (blue-running-shoes.webp)",
-      "Implement lazy loading for below-fold images",
-      "Include product images in your sitemap",
-    ],
-  },
-  {
-    title: "7. Schema Markup",
-    items: [
-      "Product schema on all product pages (price, availability, reviews)",
-      "BreadcrumbList schema on all pages",
-      "Organization schema on homepage",
-      "FAQ schema on FAQ pages",
-      "Review/Rating schema where applicable",
-    ],
-  },
-  {
-    title: "8. Technical Foundations",
-    items: [
-      "XML sitemap submitted to Google Search Console",
-      "Robots.txt properly configured",
-      "Canonical tags set correctly on all pages",
-      "SSL/HTTPS enabled site-wide",
-      "Mobile-responsive design",
-      "Core Web Vitals passing (LCP < 2.5s, CLS < 0.1, INP < 200ms)",
-    ],
-  },
-];
+const sideNavHrefs = ["/guides", "/guides/fundamentals"] as const;
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
@@ -111,6 +17,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 
 export default async function FundamentalsPage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
+  const t = guidesFundamentalsT[locale as Locale];
   return (
     <>
       <JsonLd data={breadcrumbJsonLd(locale as Locale, [
@@ -124,28 +31,26 @@ export default async function FundamentalsPage({ params }: { params: Promise<{ l
           {/* Left sidebar navigation */}
           <aside className="hidden lg:flex flex-col w-[280px] shrink-0 border-r border-border pt-[120px] px-5 pb-8 sticky top-0 h-screen overflow-y-auto">
             <nav className="flex flex-col gap-6 mt-8">
-              {sideNavItems.map((section) => (
-                <div key={section.category}>
-                  <p className="text-body text-xs font-medium uppercase tracking-wider mb-3">
-                    {section.category}
-                  </p>
-                  <div className="flex flex-col gap-0.5">
-                    {section.items.map((item) => (
-                      <LocaleLink
-                        key={item.href}
-                        href={item.href}
-                        className={`px-3 py-2 rounded-lg text-sm transition-colors ${
-                          "active" in item && item.active
-                            ? "text-heading bg-white-05 font-medium"
-                            : "text-body hover:text-heading hover:bg-white-05"
-                        }`}
-                      >
-                        {item.label}
-                      </LocaleLink>
-                    ))}
-                  </div>
+              <div>
+                <p className="text-body text-xs font-medium uppercase tracking-wider mb-3">
+                  {t.sideNav.category}
+                </p>
+                <div className="flex flex-col gap-0.5">
+                  {t.sideNav.items.map((item, i) => (
+                    <LocaleLink
+                      key={sideNavHrefs[i]}
+                      href={sideNavHrefs[i]}
+                      className={`px-3 py-2 rounded-lg text-sm transition-colors ${
+                        i === 1
+                          ? "text-heading bg-white-05 font-medium"
+                          : "text-body hover:text-heading hover:bg-white-05"
+                      }`}
+                    >
+                      {item.label}
+                    </LocaleLink>
+                  ))}
                 </div>
-              ))}
+              </div>
             </nav>
           </aside>
 
@@ -153,22 +58,19 @@ export default async function FundamentalsPage({ params }: { params: Promise<{ l
           <div className="flex-1 pt-[120px] md:pt-[160px] px-5 md:px-12 lg:px-16 pb-20">
             <div className="max-w-[720px]">
               <p className="text-accent text-sm font-medium mb-4">
-                Ecommerce SEO Basics
+                {t.badge}
               </p>
 
               <h1 className="text-[36px] md:text-[48px] font-medium leading-[1.1] tracking-[-0.02em] text-heading mb-6">
-                SEO Fundamentals Checklist
+                {t.heading}
               </h1>
 
               <p className="text-body text-base leading-relaxed mb-8">
-                This is the absolute first thing we do when starting a new
-                project. Before content strategy, before link building, before
-                anything — we make sure the fundamentals are locked in. Use this
-                checklist to audit your own store.
+                {t.intro}
               </p>
 
               <div className="flex flex-col gap-10">
-                {checklistSections.map((section) => (
+                {t.sections.map((section) => (
                   <div key={section.title}>
                     <h2 className="text-[20px] md:text-[24px] font-medium leading-[1.2] tracking-[-0.02em] text-heading mb-4">
                       {section.title}
@@ -205,7 +107,7 @@ export default async function FundamentalsPage({ params }: { params: Promise<{ l
 
               {/* Navigation */}
               <div className="mt-12 pt-8 border-t border-border">
-                <p className="text-body text-sm mb-2">Previous</p>
+                <p className="text-body text-sm mb-2">{t.nav.previous}</p>
                 <LocaleLink
                   href="/guides"
                   className="group flex items-center justify-between rounded-xl bg-bg-card border border-border p-5 hover:border-border-strong transition-colors"
@@ -224,10 +126,10 @@ export default async function FundamentalsPage({ params }: { params: Promise<{ l
                     </svg>
                     <div>
                       <p className="text-accent text-xs font-medium mb-1">
-                        Ecommerce SEO Basics
+                        {t.nav.category}
                       </p>
                       <p className="text-heading font-medium text-base group-hover:text-accent transition-colors">
-                        Introduction
+                        {t.nav.intro}
                       </p>
                     </div>
                   </div>
@@ -236,21 +138,21 @@ export default async function FundamentalsPage({ params }: { params: Promise<{ l
 
               <div className="mt-8 flex flex-col gap-3">
                 <p className="text-body text-sm">
-                  Want the full resource library?{" "}
+                  {t.nav.resourceLibrary}{" "}
                   <LocaleLink
                     href="/resources/library"
                     className="text-accent hover:underline"
                   >
-                    Browse all resources
+                    {t.nav.browseAll}
                   </LocaleLink>
                 </p>
                 <p className="text-body text-sm">
-                  Need help implementing?{" "}
+                  {t.nav.needHelp}{" "}
                   <LocaleLink
                     href="/contact"
                     className="text-accent hover:underline"
                   >
-                    Get in touch
+                    {t.nav.getInTouch}
                   </LocaleLink>
                 </p>
               </div>

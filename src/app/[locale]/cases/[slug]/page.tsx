@@ -7,6 +7,7 @@ import Footer from "@/components/sections/Footer";
 import { getCaseStudy, getAllCaseSlugs } from "@/data/caseStudies";
 import { generateAlternates } from "@/lib/i18n/metadata";
 import { type Locale, ogLocaleMap } from "@/lib/i18n/config";
+import { caseStudyDetailT } from "@/lib/i18n/translations/caseStudyDetail";
 
 export function generateStaticParams() {
   return getAllCaseSlugs().map((slug) => ({ slug }));
@@ -36,11 +37,13 @@ export async function generateMetadata({
 export default async function CaseStudyPage({
   params,
 }: {
-  params: Promise<{ slug: string }>;
+  params: Promise<{ locale: string; slug: string }>;
 }) {
-  const { slug } = await params;
+  const { locale, slug } = await params;
   const cs = getCaseStudy(slug);
   if (!cs) notFound();
+
+  const t = caseStudyDetailT[locale as Locale];
 
   return (
     <>
@@ -68,10 +71,10 @@ export default async function CaseStudyPage({
               {/* Case Overview - 4 columns */}
               <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
                 {[
-                  { label: "Niche", value: cs.niche },
-                  { label: "Focus", value: cs.focus },
-                  { label: "Metrics", value: cs.metrics },
-                  { label: "Date", value: cs.date },
+                  { label: t.niche, value: cs.niche },
+                  { label: t.focus, value: cs.focus },
+                  { label: t.metrics, value: cs.metrics },
+                  { label: t.date, value: cs.date },
                 ].map((item) => (
                   <div
                     key={item.label}
@@ -110,7 +113,7 @@ export default async function CaseStudyPage({
             <div className="w-full max-w-[1040px] relative rounded-3xl overflow-hidden aspect-[1040/300]">
               <Image
                 src={cs.image1}
-                alt="Case study data"
+                alt={t.imageAlt1}
                 fill
                 className="object-cover"
               />
@@ -128,7 +131,7 @@ export default async function CaseStudyPage({
               <div className="w-full max-w-[1040px] relative rounded-3xl overflow-hidden aspect-[1040/650]">
                 <Image
                   src={cs.image2}
-                  alt="Case study results"
+                  alt={t.imageAlt2}
                   fill
                   className="object-cover"
                 />

@@ -7,116 +7,76 @@ import Badge from "@/components/ui/Badge";
 import Navigation from "@/components/sections/Navigation";
 import CTA from "@/components/sections/CTA";
 import Footer from "@/components/sections/Footer";
+import { useLocale } from "@/lib/i18n/useTranslations";
+import { casesPageT } from "@/lib/i18n/translations/cases";
 
-const caseStudies = [
+const caseStudyData = [
   {
-    title: "Norwegian Health Store Had 19 Keywords",
-    subtitle: "How we achieved +1,900% keyword growth",
-    category: "Keyword Expansion",
     href: "/cases/norwegian-health-store",
     image:
       "https://framerusercontent.com/images/jKLk43bNfpNjhQGvnRhYkxJNjQ.webp",
   },
   {
-    title: "From 295 to 2,160 Clicks in 90 Days",
-    subtitle: "How we boosted 7\u00d7 traffic",
-    category: "Content Optimisation",
     href: "/cases/ecommerce-brand",
     image:
       "https://framerusercontent.com/images/EeufC2RDWV8GzZB7fBbKfmWJQuc.webp",
   },
   {
-    title: "How We Boosted Traffic by 1,343%",
-    subtitle: "How we secured 1,343% clicks",
-    category: "Content Creation",
     href: "/cases/skyrocket-ecom-site",
     image:
       "https://framerusercontent.com/images/nT2RO8bU8V5MvRjsqPRcXjKiA.webp",
   },
   {
-    title: "Clicks Up by +556% in 6 Months?",
-    subtitle: "How we generated 556% clicks",
-    category: "Local SEO",
     href: "/cases/norwegian-smart-seo",
     image:
       "https://framerusercontent.com/images/U8W2ek1f8J8lKPXlMlEGVJnMA.webp",
   },
   {
-    title: "814% Impressions in 3 Months?",
-    subtitle: "How we achieved 814% impressions",
-    category: "Technical SEO",
     href: "/cases/dutch-brand",
     image:
       "https://framerusercontent.com/images/XveBJKU8qwY42bC8IYC2qnY0XI.webp",
   },
   {
-    title: "Zero to 1,323 Keywords",
-    subtitle: "How we achieved 1,323 keywords",
-    category: "International Targeting",
     href: "/cases/english-health-site",
     image:
       "https://framerusercontent.com/images/pOqYpuGRc2T3mmxrOH6jk7dLGk.webp",
   },
   {
-    title: "How We Grew Keyword Rankings by +987%",
-    subtitle: "How we powered 987% rankings",
-    category: "Keyword Strategy",
     href: "/cases/dutch-health-brand",
     image:
       "https://framerusercontent.com/images/fYBmJFqXMuLPgEQrC9RMXS2bEQ.webp",
   },
   {
-    title: "From 23 to 267 Keywords",
-    subtitle: "How we unlocked 267 keywords",
-    category: "Content Strategy",
     href: "/cases/swedish-seo-explosion",
     image:
       "https://framerusercontent.com/images/DkD9z15pJoS3dlSyXfBDIu1yg0.webp",
   },
   {
-    title: "This SEO Landing Page Dominated in Google",
-    subtitle: "How we boosted 7\u00d7 page clicks",
-    category: "Keyword Targeting",
     href: "/cases/beauty-brand-dominated-in-google",
     image:
       "https://framerusercontent.com/images/fYBmJFqXMuLPgEQrC9RMXS2bEQ.webp",
   },
   {
-    title: "Jewelry Collections Became a Search Magnet",
-    subtitle: "How we executed 100+ collections",
-    category: "Category Architecture",
     href: "/cases/jewelry-dutch-brand-ecom",
     image:
       "https://framerusercontent.com/images/XveBJKU8qwY42bC8IYC2qnY0XI.webp",
   },
   {
-    title: "From 0 to 84 Clicks a Day",
-    subtitle: "How we delivered 84 clicks/day",
-    category: "Strategic SEO",
     href: "/cases/ecom-brand-explode",
     image:
       "https://framerusercontent.com/images/DkD9z15pJoS3dlSyXfBDIu1yg0.webp",
   },
   {
-    title: "Ignited SEO Growth for This Dutch Lighting Store",
-    subtitle: "How we implemented 250+ categories",
-    category: "Category Architecture",
     href: "/cases/dutch-lighting-store",
     image:
       "https://framerusercontent.com/images/pOqYpuGRc2T3mmxrOH6jk7dLGk.webp",
   },
   {
-    title: "From 37 to 1,529 Keywords in 6 Months",
-    subtitle: "How we achieved 446K impressions",
-    category: "Link Building",
     href: "/cases/swedish-ecom-site",
     image:
       "https://framerusercontent.com/images/nT2RO8bU8V5MvRjsqPRcXjKiA.webp",
   },
   {
-    title: "We Skyrocketed a Swedish E-com Site",
-    subtitle: "How we secured 1,529 keywords",
-    category: "Backlink Strategy",
     href: "/cases/ecom-swedish-brand",
     image:
       "https://framerusercontent.com/images/jKLk43bNfpNjhQGvnRhYkxJNjQ.webp",
@@ -128,7 +88,13 @@ function CaseCard({
   index,
   size = "normal",
 }: {
-  study: (typeof caseStudies)[0];
+  study: {
+    title: string;
+    subtitle: string;
+    category: string;
+    href: string;
+    image: string;
+  };
   index: number;
   size?: "normal" | "large";
 }) {
@@ -165,6 +131,16 @@ function CaseCard({
 }
 
 export default function CasesPage() {
+  const locale = useLocale();
+  const t = casesPageT[locale];
+
+  const caseStudies = caseStudyData.map((data, i) => ({
+    ...data,
+    title: t.cases[i].title,
+    subtitle: t.cases[i].subtitle,
+    category: t.cases[i].category,
+  }));
+
   return (
     <>
       <Navigation />
@@ -179,13 +155,12 @@ export default function CasesPage() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6 }}
               >
-                <Badge text="Case studies" />
+                <Badge text={t.badge} />
                 <h1 className="text-[32px] md:text-[48px] lg:text-[56px] font-medium leading-[1.1] tracking-[-0.02em] text-heading">
-                  Case studies that made an impact
+                  {t.heading}
                 </h1>
                 <p className="text-body text-base md:text-lg">
-                  With our profit-focused ecommerce SEO approach, we value
-                  efficiency. We measure success based on data. No hard feelings.
+                  {t.subtitle}
                 </p>
               </motion.div>
 

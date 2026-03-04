@@ -6,6 +6,7 @@ import JsonLd from "@/components/JsonLd";
 import { breadcrumbJsonLd } from "@/lib/jsonLd";
 import { buildPageMetadata } from "@/lib/i18n/metadata";
 import type { Locale } from "@/lib/i18n/config";
+import { searchProductDiscoveryT } from "@/lib/i18n/translations/resources/search-product-discovery";
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
@@ -13,14 +14,9 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 }
 
 
-const facts = [
-  "1 billion+ searches hit ChatGPT every week",
-  "Only 5 product cards show per query – WIN or DISAPPEAR",
-  "Early movers grab free clicks before CPC auctions roll out",
-];
-
 export default async function SearchProductDiscoveryPage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
+  const t = searchProductDiscoveryT[locale as Locale];
   return (
     <>
       <JsonLd data={breadcrumbJsonLd(locale as Locale, [
@@ -32,16 +28,14 @@ export default async function SearchProductDiscoveryPage({ params }: { params: P
       <main className="min-h-screen bg-bg">
         <section className="relative overflow-hidden px-5 md:px-16 pt-[120px] md:pt-[160px] pb-[250px]">
           <div className="relative z-10 max-w-[1200px] mx-auto flex flex-col items-center text-center gap-4">
-            <Badge text="AI Shopping" />
+            <Badge text={t.badge} />
 
             <div className="space-y-8 max-w-[700px]">
               <h1 className="text-[32px] md:text-[52px] font-medium leading-[1.1] tracking-[-0.02em] text-heading">
-                Get your products on LLM&apos;s like ChatGPT before your
-                competitors do
+                {t.heading}
               </h1>
               <p className="text-body text-lg max-w-[600px] mx-auto">
-                Your products are invisible on AI, you can do something about it
-                today. Perhaps the biggest opportunity in 2025.
+                {t.subtitle}
               </p>
             </div>
 
@@ -51,7 +45,7 @@ export default async function SearchProductDiscoveryPage({ params }: { params: P
               rel="noopener noreferrer"
               className="mt-4 inline-flex items-center gap-2 px-8 py-4 rounded-full bg-heading text-bg font-medium text-sm hover:opacity-90 transition-opacity"
             >
-              Get a free audit
+              {t.cta}
               <svg
                 width="16"
                 height="16"
@@ -68,7 +62,7 @@ export default async function SearchProductDiscoveryPage({ params }: { params: P
             {/* Facts card */}
             <div className="relative mt-8 max-w-[450px] w-full rounded-3xl border border-border bg-bg-ui p-8 text-left overflow-hidden">
               <div className="relative z-10 space-y-3">
-                {facts.map((fact) => (
+                {t.facts.map((fact) => (
                   <div key={fact} className="flex items-start gap-3">
                     <svg
                       width="20"
