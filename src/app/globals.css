@@ -90,6 +90,7 @@ body {
 
 .animate-glow-rotate { animation: glow-rotate 6s linear infinite; }
 .animate-ticker { animation: ticker 30s linear infinite; }
+.animate-team-ticker { animation: ticker 25s linear infinite; }
 .animate-fade-in-up { animation: fade-in-up 0.6s ease-out forwards; }
 
 ::selection {
