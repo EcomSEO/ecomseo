@@ -1,0 +1,19 @@
+import type { Locale } from "./config";
+
+export type Dictionary = Record<
+  string,
+  { title: string; description: string; ogTitle?: string }
+>;
+
+const dictionaries: Record<Locale, () => Promise<Dictionary>> = {
+  en: () => import("./dictionaries/en.json").then((m) => m.default),
+  de: () => import("./dictionaries/de.json").then((m) => m.default),
+  fr: () => import("./dictionaries/fr.json").then((m) => m.default),
+  es: () => import("./dictionaries/es.json").then((m) => m.default),
+  it: () => import("./dictionaries/it.json").then((m) => m.default),
+  nl: () => import("./dictionaries/nl.json").then((m) => m.default),
+};
+
+export async function getDictionary(locale: Locale): Promise<Dictionary> {
+  return dictionaries[locale]();
+}

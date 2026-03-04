@@ -1,9 +1,10 @@
 "use client";
 
 import { useState, useRef, useEffect } from "react";
-import Link from "next/link";
+import LocaleLink from "@/components/ui/LocaleLink";
 import Image from "next/image";
 import Button from "@/components/ui/Button";
+import LanguageSelector from "@/components/ui/LanguageSelector";
 
 /* ─── Icon components (pink outlined style matching original Framer site) ─── */
 
@@ -179,7 +180,7 @@ function ServiceGridTile({
 }) {
   const Icon = iconMap[icon];
   return (
-    <Link
+    <LocaleLink
       href={href}
       className="group flex items-start gap-3 p-4 rounded-lg hover:bg-white/[0.04] transition-colors"
     >
@@ -194,7 +195,7 @@ function ServiceGridTile({
           {desc}
         </span>
       </div>
-    </Link>
+    </LocaleLink>
   );
 }
 
@@ -210,13 +211,13 @@ function ResourceTile({
   href: string;
 }) {
   return (
-    <Link
+    <LocaleLink
       href={href}
       className="group flex flex-col gap-2 p-4 rounded-xl border border-white/[0.06] bg-white/[0.02] hover:bg-white/[0.05] hover:border-white/10 transition-all"
     >
       <span className="text-sm font-medium text-white">{label}</span>
       <span className="text-xs text-white/40 leading-relaxed">{desc}</span>
-    </Link>
+    </LocaleLink>
   );
 }
 
@@ -256,7 +257,7 @@ export default function Navigation() {
           <div className="mx-auto max-w-[1200px] flex items-center justify-between px-3 py-3">
             {/* Left: Logo + Links */}
             <div className="flex items-center gap-[50px]">
-              <Link href="/" className="flex-shrink-0">
+              <LocaleLink href="/" className="flex-shrink-0">
                 <Image
                   src="https://framerusercontent.com/images/TQbukBV8G5LIkEwGfbxZAiZs.png"
                   alt="EcomSEO"
@@ -265,7 +266,7 @@ export default function Navigation() {
                   className="h-[25px] w-auto"
                   priority
                 />
-              </Link>
+              </LocaleLink>
 
               {/* Desktop Links */}
               <div className="hidden lg:flex items-center gap-6">
@@ -304,24 +305,25 @@ export default function Navigation() {
                 </div>
 
                 {/* Cases Link */}
-                <Link
+                <LocaleLink
                   href="/cases"
                   className="text-sm text-white/56 hover:text-white transition-colors"
                 >
                   Cases
-                </Link>
+                </LocaleLink>
               </div>
             </div>
 
             {/* Right: CTA */}
-            <div className="hidden lg:flex items-center gap-6">
-              <Link
+            <div className="hidden lg:flex items-center gap-4">
+              <LocaleLink
                 href="/client-dashboard"
                 target="_blank"
                 className="text-sm font-medium text-white hover:text-white/80 transition-colors"
               >
                 Client Dashboard
-              </Link>
+              </LocaleLink>
+              <LanguageSelector />
               <Button
                 href="https://w35pmime997.typeform.com/to/eqeeLQvb"
                 variant="primary"
@@ -426,7 +428,7 @@ export default function Navigation() {
                   {allServices.map((s) => {
                     const Icon = iconMap[s.icon];
                     return (
-                      <Link
+                      <LocaleLink
                         key={s.href}
                         href={s.href}
                         className="flex items-center gap-3 py-2.5 px-2 rounded-lg text-sm text-white/50 hover:text-white hover:bg-white/[0.04] transition-colors"
@@ -439,7 +441,7 @@ export default function Navigation() {
                           <div className="text-white/80 font-medium text-sm">{s.label}</div>
                           <div className="text-white/30 text-xs">{s.desc}</div>
                         </div>
-                      </Link>
+                      </LocaleLink>
                     );
                   })}
                 </div>
@@ -475,37 +477,42 @@ export default function Navigation() {
               {mobileAccordion === "resources" && (
                 <div className="pl-4 pb-3 space-y-1">
                   {resourceLinks.map((r) => (
-                    <Link
+                    <LocaleLink
                       key={r.href}
                       href={r.href}
                       className="block py-2 text-sm text-white/50 hover:text-white"
                       onClick={() => setMobileOpen(false)}
                     >
                       {r.label}
-                    </Link>
+                    </LocaleLink>
                   ))}
                 </div>
               )}
             </div>
 
             {/* Cases Link */}
-            <Link
+            <LocaleLink
               href="/cases"
               className="block py-3 text-white/70 hover:text-white border-b border-white/[0.06]"
               onClick={() => setMobileOpen(false)}
             >
               Cases
-            </Link>
+            </LocaleLink>
 
             {/* Client Dashboard */}
-            <Link
+            <LocaleLink
               href="/client-dashboard"
               target="_blank"
               className="block py-3 text-white/70 hover:text-white border-b border-white/[0.06]"
               onClick={() => setMobileOpen(false)}
             >
               Client Dashboard
-            </Link>
+            </LocaleLink>
+
+            {/* Language Selector */}
+            <div className="py-3 border-b border-white/[0.06]">
+              <LanguageSelector />
+            </div>
 
             <div className="mt-4">
               <Button

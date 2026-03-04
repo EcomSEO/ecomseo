@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 import Image from "next/image";
-import Link from "next/link";
+import LocaleLink from "@/components/ui/LocaleLink";
 import Button from "@/components/ui/Button";
 
 const avatars = [
@@ -15,7 +15,7 @@ const avatars = [
 
 function SocialProof() {
   return (
-    <Link
+    <LocaleLink
       href="/#projects"
       className="inline-flex items-center gap-3 max-w-[300px]"
     >
@@ -61,7 +61,7 @@ function SocialProof() {
           Backed by 19+ brand owners
         </span>
       </div>
-    </Link>
+    </LocaleLink>
   );
 }
 

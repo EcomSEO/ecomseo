@@ -1,0 +1,187 @@
+{
+  "/": {
+    "title": "EcomSEO - Winstgericht Ecommerce SEO Bureau",
+    "description": "Wij helpen ecommerce merken organische omzet te schalen met datagedreven SEO-strategieen. Gespecialiseerd in Shopify, WooCommerce, BigCommerce en meer.",
+    "ogTitle": "EcomSEO - Winstgericht Ecommerce SEO Bureau"
+  },
+  "/shopify-seo": {
+    "title": "Shopify SEO Bureau | EcomSEO",
+    "description": "Wij auditen, verbeteren en schalen organisch verkeer voor Shopify en Shopify Plus winkels. Verlies geen omzet meer aan concurrenten met onze gespecialiseerde Shopify SEO-diensten.",
+    "ogTitle": "Shopify SEO die daadwerkelijk omzet oplevert | EcomSEO"
+  },
+  "/ecommerce-seo": {
+    "title": "Ecommerce SEO Bureau | EcomSEO",
+    "description": "Ecommerce SEO bureau dat audits uitvoert, problemen oplost en organisch verkeer schaalt voor webshops. Wij hebben onze klanten geholpen om 8-cijferige organische omzet te genereren.",
+    "ogTitle": "Ecommerce SEO-diensten die omzet laten groeien | EcomSEO"
+  },
+  "/link-building": {
+    "title": "Ecommerce Linkbuilding Bureau | EcomSEO",
+    "description": "Professionele linkbuilding voor ecommerce webshops. Wij realiseren hoogwaardige backlinks die organisch verkeer genereren en je zoekresultaten verbeteren.",
+    "ogTitle": "Linkbuilding die het verschil maakt voor ecommerce | EcomSEO"
+  },
+  "/keyword-research": {
+    "title": "Ecommerce Zoekwoordenonderzoek | EcomSEO",
+    "description": "Omzetgericht zoekwoordenonderzoek voor ecommerce merken. Wij identificeren zoekwoorden met hoge koopintentie die gekwalificeerd verkeer en daadwerkelijke omzet opleveren.",
+    "ogTitle": "Omzetgericht zoekwoordenonderzoek voor ecommerce merken | EcomSEO"
+  },
+  "/content-writing": {
+    "title": "SEO Content voor Ecommerce | EcomSEO",
+    "description": "SEO-content die bezoekers omzet in kopers. Productomschrijvingen, categoriepagina's, blogartikelen en koopgidsen geschreven voor webshops.",
+    "ogTitle": "SEO-content die bezoekers omzet in kopers | EcomSEO"
+  },
+  "/adobe-commerce-seo": {
+    "title": "Adobe Commerce SEO Bureau | EcomSEO",
+    "description": "Adobe Commerce (Magento) SEO-diensten voor enterprise ecommerce. Wij auditen, optimaliseren en schalen organisch verkeer voor Adobe Commerce winkels.",
+    "ogTitle": "Adobe Commerce SEO voor enterprise ecommerce | EcomSEO"
+  },
+  "/woocommerce-seo": {
+    "title": "WooCommerce SEO Bureau | EcomSEO",
+    "description": "WooCommerce SEO-diensten die daadwerkelijk omzet opleveren. Wij auditen, verbeteren en schalen organisch verkeer voor WooCommerce winkels.",
+    "ogTitle": "WooCommerce SEO die daadwerkelijk omzet oplevert | EcomSEO"
+  },
+  "/bigcommerce-seo": {
+    "title": "BigCommerce SEO Bureau | EcomSEO",
+    "description": "BigCommerce SEO voor uitgebreide productcatalogi. Wij auditen, verbeteren en schalen organisch verkeer voor BigCommerce winkels.",
+    "ogTitle": "BigCommerce SEO voor uitgebreide productcatalogi | EcomSEO"
+  },
+  "/amazon-seo": {
+    "title": "Amazon SEO Bureau | EcomSEO",
+    "description": "Amazon SEO-diensten. Bereik de top op Amazon met je merk door geoptimaliseerde listings, A+ content en strategische zoekwoordtargeting.",
+    "ogTitle": "Amazon SEO — Bereik de top op Amazon met je merk | EcomSEO"
+  },
+  "/fashion-seo": {
+    "title": "Fashion SEO Bureau | EcomSEO",
+    "description": "Fashion ecommerce SEO die bezoekers omzet in kopers. Wij helpen modemerken hoger te ranken en organische omzet te genereren.",
+    "ogTitle": "Fashion SEO die bezoekers omzet in kopers | EcomSEO"
+  },
+  "/beauty-seo": {
+    "title": "Beauty SEO Bureau | EcomSEO",
+    "description": "Beauty ecommerce SEO die merken laat stralen. Wij helpen beauty- en huidverzorgingsmerken hoger te ranken en organische omzet te genereren.",
+    "ogTitle": "Beauty SEO die merken laat stralen | EcomSEO"
+  },
+  "/consumables-seo": {
+    "title": "Consumables SEO Bureau | EcomSEO",
+    "description": "Consumables ecommerce SEO die herhaalaankopen stimuleert. Wij helpen food-, supplement- en consumable merken organisch verkeer te schalen.",
+    "ogTitle": "Consumables SEO die herhaalaankopen stimuleert | EcomSEO"
+  },
+  "/toys-seo": {
+    "title": "Speelgoed SEO Bureau | EcomSEO",
+    "description": "Speelgoed ecommerce SEO die de verkoop laat stijgen. Wij helpen speelgoedmerken hoger te ranken op Google en organische omzet te genereren.",
+    "ogTitle": "Speelgoed SEO die de verkoop laat stijgen | EcomSEO"
+  },
+  "/cases": {
+    "title": "Casestudies — Echte SEO-resultaten | EcomSEO",
+    "description": "Bekijk hoe wij ecommerce merken hebben geholpen organisch verkeer en omzet te schalen. Echte resultaten, echte cijfers, echte groeiverhalen.",
+    "ogTitle": "Casestudies — Echte SEO-resultaten | EcomSEO"
+  },
+  "/team": {
+    "title": "Maak kennis met het team | EcomSEO",
+    "description": "Maak kennis met de mensen achter EcomSEO. Een team van ecommerce SEO-specialisten dat zich inzet voor het schalen van jouw organische omzet.",
+    "ogTitle": "Maak kennis met het team | EcomSEO"
+  },
+  "/contact": {
+    "title": "Neem contact op | EcomSEO",
+    "description": "Neem contact op met EcomSEO. Plan een gesprek, stel een vraag of begin vandaag nog met jouw ecommerce SEO-traject.",
+    "ogTitle": "Neem contact op | EcomSEO"
+  },
+  "/faq": {
+    "title": "Veelgestelde vragen | EcomSEO",
+    "description": "Antwoorden op veelgestelde vragen over onze ecommerce SEO-diensten, prijzen, werkwijze en wat je kunt verwachten bij een samenwerking met EcomSEO.",
+    "ogTitle": "Veelgestelde vragen | EcomSEO"
+  },
+  "/resources": {
+    "title": "Kenniscentrum & Hulpbronnen | EcomSEO",
+    "description": "Gratis hulpbronnen, handleidingen en tools om ecommerce merken te helpen SEO te beheersen en organische omzet te schalen.",
+    "ogTitle": "Kenniscentrum & Hulpbronnen | EcomSEO"
+  },
+  "/resources/crash-course": {
+    "title": "Van beginner tot expert — Ecommerce SEO Cursus | EcomSEO",
+    "description": "Complete ecommerce SEO-cursus. Leer alles wat je moet weten over hoger ranken op Google en het genereren van organische omzet.",
+    "ogTitle": "Van beginner tot expert — Ecommerce SEO Cursus | EcomSEO"
+  },
+  "/resources/crash-course/changelog-page": {
+    "title": "Prestatieverbeteringen & Nieuwe functies | Ecommerce SEO Cursus",
+    "description": "Laatste updates en nieuwe functies toegevoegd aan de Ecommerce SEO Cursus.",
+    "ogTitle": "Prestatieverbeteringen & Nieuwe functies | Ecommerce SEO Cursus"
+  },
+  "/resources/library": {
+    "title": "Bibliotheek — Tools, Templates & Handleidingen | EcomSEO",
+    "description": "De beste ecommerce SEO-hulpbronnen ter wereld. Gratis tools, templates en handleidingen om je organische aanwezigheid te auditen en te schalen.",
+    "ogTitle": "Bibliotheek — Tools, Templates & Handleidingen | EcomSEO"
+  },
+  "/resources/library/on-page-checklist": {
+    "title": "On-Page SEO Basischecklist | EcomSEO Bibliotheek",
+    "description": "Het allereerste wat wij doen bij een nieuw project. Gratis on-page SEO-checklist voor ecommerce webshops.",
+    "ogTitle": "On-Page SEO Basischecklist | EcomSEO"
+  },
+  "/resources/library/roi-calculation-sheet": {
+    "title": "Ecommerce SEO ROI-rekensheet | EcomSEO Bibliotheek",
+    "description": "Gratis ROI-rekensheet om de impact van je ecommerce SEO-inspanningen te meten en organische omzetgroei te voorspellen.",
+    "ogTitle": "Ecommerce SEO ROI-rekensheet | EcomSEO"
+  },
+  "/resources/library/template": {
+    "title": "ABC Template | EcomSEO Bibliotheek",
+    "description": "Gratis ecommerce SEO-template van EcomSEO. Download en gebruik het voor de SEO-optimalisatie van jouw webshop.",
+    "ogTitle": "ABC Template | EcomSEO Bibliotheek"
+  },
+  "/resources/search-product-discovery": {
+    "title": "AI Shopping — Krijg je producten op LLMs zoals ChatGPT | EcomSEO",
+    "description": "Je producten zijn onzichtbaar op AI. Daar kun je vandaag nog iets aan doen. Misschien wel de grootste kans van 2025.",
+    "ogTitle": "AI Shopping — Krijg je producten op LLMs zoals ChatGPT | EcomSEO"
+  },
+  "/resources/shopify-on-page-checklist": {
+    "title": "Premium Shopify On-Page SEO Checklist | EcomSEO",
+    "description": "Wij hebben een checklist gebouwd voor ecommerce merken op Shopify die hoger willen ranken in Google. Dit exacte proces heeft onze klanten 8+ cijfers opgeleverd.",
+    "ogTitle": "Premium Shopify On-Page SEO Checklist | EcomSEO"
+  },
+  "/resources/solutions": {
+    "title": "Oplossingen — Partners, Referenties & Aanbevelingen | EcomSEO",
+    "description": "Partners, referenties en aanbevelingen die je helpen te schalen. Wij bouwen ons netwerk uit en maken het binnenkort publiek beschikbaar.",
+    "ogTitle": "Oplossingen — Partners, Referenties & Aanbevelingen | EcomSEO"
+  },
+  "/resources/why-we-share": {
+    "title": "Waarom wij zoveel kennis delen | EcomSEO",
+    "description": "Ontdek waarom wij zoveel gratis kennis en hulpbronnen delen met de ecommerce community.",
+    "ogTitle": "Waarom wij zoveel kennis delen | EcomSEO"
+  },
+  "/guides": {
+    "title": "Ecommerce SEO Handleidingen | EcomSEO",
+    "description": "Gratis ecommerce SEO-handleidingen om je te helpen organisch verkeer te beheersen en de omzet van je webshop te schalen.",
+    "ogTitle": "Ecommerce SEO Handleidingen | EcomSEO"
+  },
+  "/guides/fundamentals": {
+    "title": "SEO Basischecklist | EcomSEO Handleidingen",
+    "description": "Beheers de basis van ecommerce SEO met onze complete checklist. Audit en optimaliseer je webshop voor organische groei.",
+    "ogTitle": "SEO Basischecklist | EcomSEO Handleidingen"
+  },
+  "/guides/fundamentals-2": {
+    "title": "SEO Basis Vervolg | EcomSEO Handleidingen",
+    "description": "Ga verder met het beheersen van ecommerce SEO-basisprincipes met geavanceerde optimalisatietechnieken en strategieen.",
+    "ogTitle": "SEO Basis Vervolg | EcomSEO Handleidingen"
+  },
+  "/page": {
+    "title": "Fabian van Til — LLM Optimalisatie Bureau | EcomSEO",
+    "description": "Fabian van Til, oprichter van EcomSEO. Wij helpen ecommerce merken vindbaar te worden op AI en LLMs zoals ChatGPT.",
+    "ogTitle": "Fabian van Til — LLM Optimalisatie Bureau | EcomSEO"
+  },
+  "/intent-matching-tool": {
+    "title": "Intent Matching Tool — AI Zoekwoordanalyse | EcomSEO",
+    "description": "Analyseer de zoekintentie van je ecommerce zoekwoorden. Begrijp waar je klanten naar zoeken en optimaliseer je content op basis daarvan.",
+    "ogTitle": "Intent Matching Tool — AI Zoekwoordanalyse | EcomSEO"
+  },
+  "/premium-on-page-seo-checklist": {
+    "title": "Premium On-Page SEO Checklist — Genereer miljoenen organisch | EcomSEO",
+    "description": "Ecom-eigenaren! Deze On-Page SEO Checklist is alles wat je nodig hebt om miljoenen aan organische omzet te genereren via Google.",
+    "ogTitle": "Premium On-Page SEO Checklist | EcomSEO"
+  },
+  "/client-dashboard": {
+    "title": "Klantdashboard — Binnenkort beschikbaar | EcomSEO",
+    "description": "Binnenkort beschikbaar: krijg toegang tot je SEO-prestatiedata, inzichten en aanbevelingen op een plek.",
+    "ogTitle": "Klantdashboard — Binnenkort beschikbaar | EcomSEO"
+  },
+  "/thank-you-payment": {
+    "title": "Bedankt voor je betaling | EcomSEO",
+    "description": "Bedankt voor je betaling. We nemen binnenkort contact met je op om te beginnen met jouw ecommerce SEO-project.",
+    "ogTitle": "Bedankt voor je betaling | EcomSEO"
+  }
+}

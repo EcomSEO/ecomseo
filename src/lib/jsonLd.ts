@@ -1,0 +1,113 @@
+import { BASE_URL, type Locale } from "./i18n/config";
+
+export function organizationJsonLd() {
+  return {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    name: "EcomSEO",
+    url: BASE_URL,
+    logo: `${BASE_URL}/favicon.ico`,
+    description:
+      "Profit-focused ecommerce SEO agency. We help ecommerce brands scale organic revenue with data-driven SEO strategies.",
+    foundingDate: "2023",
+    sameAs: [
+      "https://www.linkedin.com/company/ecomseo",
+    ],
+    contactPoint: {
+      "@type": "ContactPoint",
+      contactType: "sales",
+      url: `${BASE_URL}/en/contact`,
+    },
+    areaServed: [
+      { "@type": "Country", name: "United Kingdom" },
+      { "@type": "Country", name: "Germany" },
+      { "@type": "Country", name: "Austria" },
+      { "@type": "Country", name: "France" },
+      { "@type": "Country", name: "Belgium" },
+      { "@type": "Country", name: "Spain" },
+      { "@type": "Country", name: "Italy" },
+      { "@type": "Country", name: "Netherlands" },
+    ],
+  };
+}
+
+export function breadcrumbJsonLd(
+  locale: Locale,
+  items: { name: string; path: string }[]
+) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: items.map((item, index) => ({
+      "@type": "ListItem",
+      position: index + 1,
+      name: item.name,
+      item: `${BASE_URL}/${locale}${item.path === "/" ? "" : item.path}`,
+    })),
+  };
+}
+
+export function serviceJsonLd(params: {
+  locale: Locale;
+  name: string;
+  description: string;
+  path: string;
+}) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    serviceType: "SEO Services",
+    name: params.name,
+    description: params.description,
+    url: `${BASE_URL}/${params.locale}${params.path}`,
+    provider: {
+      "@type": "Organization",
+      name: "EcomSEO",
+      url: BASE_URL,
+    },
+    areaServed: {
+      "@type": "Country",
+      name: "Europe",
+    },
+  };
+}
+
+export function faqJsonLd(
+  items: { question: string; answer: string }[]
+) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: items.map((item) => ({
+      "@type": "Question",
+      name: item.question,
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: item.answer,
+      },
+    })),
+  };
+}
+
+export function personJsonLd(params: {
+  name: string;
+  jobTitle: string;
+  description: string;
+  url: string;
+  image?: string;
+}) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    name: params.name,
+    jobTitle: params.jobTitle,
+    description: params.description,
+    url: params.url,
+    ...(params.image ? { image: params.image } : {}),
+    worksFor: {
+      "@type": "Organization",
+      name: "EcomSEO",
+      url: BASE_URL,
+    },
+  };
+}

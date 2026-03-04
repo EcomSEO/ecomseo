@@ -1,0 +1,187 @@
+{
+  "/": {
+    "title": "EcomSEO - Gewinnorientierte Ecommerce SEO Agentur",
+    "description": "Wir helfen Ecommerce-Marken, organischen Umsatz mit datengetriebenen SEO-Strategien zu skalieren. Spezialisiert auf Shopify, WooCommerce, BigCommerce & mehr.",
+    "ogTitle": "EcomSEO - Gewinnorientierte Ecommerce SEO Agentur"
+  },
+  "/shopify-seo": {
+    "title": "Shopify SEO Agentur | EcomSEO",
+    "description": "Wir analysieren, optimieren und skalieren den organischen Traffic f\u00fcr Shopify und Shopify Plus Shops. Verlieren Sie keinen Umsatz mehr an Ihre Wettbewerber mit unseren spezialisierten Shopify SEO Leistungen.",
+    "ogTitle": "Shopify SEO, das wirklich Umsatz bringt | EcomSEO"
+  },
+  "/ecommerce-seo": {
+    "title": "Ecommerce SEO Agentur | EcomSEO",
+    "description": "Ecommerce SEO Agentur, die organischen Traffic f\u00fcr Online-Shops analysiert, optimiert und skaliert. Wir haben unseren Kunden geholfen, 8-stellige organische Ums\u00e4tze zu erzielen.",
+    "ogTitle": "Ecommerce SEO Leistungen, die Ihren Umsatz steigern | EcomSEO"
+  },
+  "/link-building": {
+    "title": "Ecommerce Linkaufbau Agentur | EcomSEO",
+    "description": "Professioneller Linkaufbau f\u00fcr Ecommerce-Shops. Wir sichern hochwertige Backlinks, die organischen Traffic steigern und Ihre Suchmaschinen-Rankings verbessern.",
+    "ogTitle": "Linkaufbau, der Ecommerce wirklich voranbringt | EcomSEO"
+  },
+  "/keyword-research": {
+    "title": "Ecommerce Keyword-Recherche | EcomSEO",
+    "description": "Umsatzorientierte Keyword-Recherche f\u00fcr Ecommerce-Marken. Wir identifizieren hochkonvertierende Keywords, die qualifizierten Traffic und echten Umsatz bringen.",
+    "ogTitle": "Umsatzorientierte Keyword-Recherche f\u00fcr Ecommerce-Marken | EcomSEO"
+  },
+  "/content-writing": {
+    "title": "SEO Content-Erstellung f\u00fcr Ecommerce | EcomSEO",
+    "description": "SEO-Content, der Besucher zu K\u00e4ufern macht. Produktbeschreibungen, Kategorieseiten, Blogbeitr\u00e4ge und Kaufratgeber f\u00fcr Online-Shops.",
+    "ogTitle": "SEO-Content, der Besucher zu K\u00e4ufern macht | EcomSEO"
+  },
+  "/adobe-commerce-seo": {
+    "title": "Adobe Commerce SEO Agentur | EcomSEO",
+    "description": "Adobe Commerce (Magento) SEO Leistungen f\u00fcr Enterprise Ecommerce. Wir analysieren, optimieren und skalieren den organischen Traffic f\u00fcr Adobe Commerce Shops.",
+    "ogTitle": "Adobe Commerce SEO f\u00fcr Enterprise Ecommerce | EcomSEO"
+  },
+  "/woocommerce-seo": {
+    "title": "WooCommerce SEO Agentur | EcomSEO",
+    "description": "WooCommerce SEO Leistungen, die wirklich Umsatz bewegen. Wir analysieren, optimieren und skalieren den organischen Traffic f\u00fcr WooCommerce Shops.",
+    "ogTitle": "WooCommerce SEO, das wirklich Umsatz bewegt | EcomSEO"
+  },
+  "/bigcommerce-seo": {
+    "title": "BigCommerce SEO Agentur | EcomSEO",
+    "description": "BigCommerce SEO f\u00fcr umfangreiche Produktkataloge. Wir analysieren, optimieren und skalieren den organischen Traffic f\u00fcr BigCommerce Shops.",
+    "ogTitle": "BigCommerce SEO f\u00fcr umfangreiche Produktkataloge | EcomSEO"
+  },
+  "/amazon-seo": {
+    "title": "Amazon SEO Agentur | EcomSEO",
+    "description": "Amazon SEO Leistungen. Erreichen Sie die Spitze auf Amazon mit Ihrer Marke durch optimierte Listings, A+ Content und strategisches Keyword-Targeting.",
+    "ogTitle": "Amazon SEO \u2014 Bringen Sie Ihre Marke an die Spitze von Amazon | EcomSEO"
+  },
+  "/fashion-seo": {
+    "title": "Fashion SEO Agentur | EcomSEO",
+    "description": "Fashion Ecommerce SEO, das Besucher zu K\u00e4ufern macht. Wir helfen Modemarken, h\u00f6her zu ranken und organischen Umsatz zu steigern.",
+    "ogTitle": "Fashion SEO, das Besucher zu K\u00e4ufern macht | EcomSEO"
+  },
+  "/beauty-seo": {
+    "title": "Beauty SEO Agentur | EcomSEO",
+    "description": "Beauty Ecommerce SEO, das Marken zum Strahlen bringt. Wir helfen Beauty- und Hautpflegemarken, h\u00f6her zu ranken und organischen Umsatz zu steigern.",
+    "ogTitle": "Beauty SEO, das Marken zum Strahlen bringt | EcomSEO"
+  },
+  "/consumables-seo": {
+    "title": "Verbrauchsg\u00fcter SEO Agentur | EcomSEO",
+    "description": "Verbrauchsg\u00fcter Ecommerce SEO, das wiederkehrenden Umsatz antreibt. Wir helfen Lebensmittel-, Supplement- und Verbrauchsg\u00fctermarken, organischen Traffic zu skalieren.",
+    "ogTitle": "Verbrauchsg\u00fcter SEO, das wiederkehrenden Umsatz antreibt | EcomSEO"
+  },
+  "/toys-seo": {
+    "title": "Spielzeug SEO Agentur | EcomSEO",
+    "description": "Spielzeug Ecommerce SEO, das den Umsatz in die H\u00f6he treibt. Wir helfen Spielzeugmarken, h\u00f6her bei Google zu ranken und organischen Umsatz zu steigern.",
+    "ogTitle": "Spielzeug SEO, das den Umsatz in die H\u00f6he treibt | EcomSEO"
+  },
+  "/cases": {
+    "title": "Fallstudien \u2014 Echte SEO-Ergebnisse | EcomSEO",
+    "description": "Sehen Sie, wie wir Ecommerce-Marken geholfen haben, organischen Traffic und Umsatz zu skalieren. Echte Ergebnisse, echte Zahlen, echte Wachstumsgeschichten.",
+    "ogTitle": "Fallstudien \u2014 Echte SEO-Ergebnisse | EcomSEO"
+  },
+  "/team": {
+    "title": "Unser Team | EcomSEO",
+    "description": "Lernen Sie die Menschen hinter EcomSEO kennen. Ein Team von Ecommerce SEO Spezialisten, das sich der Skalierung Ihres organischen Umsatzes verschrieben hat.",
+    "ogTitle": "Unser Team | EcomSEO"
+  },
+  "/contact": {
+    "title": "Kontakt | EcomSEO",
+    "description": "Nehmen Sie Kontakt mit EcomSEO auf. Buchen Sie ein Gespr\u00e4ch, stellen Sie eine Frage oder starten Sie noch heute Ihre Ecommerce SEO Reise.",
+    "ogTitle": "Kontakt | EcomSEO"
+  },
+  "/faq": {
+    "title": "H\u00e4ufig gestellte Fragen | EcomSEO",
+    "description": "Antworten auf h\u00e4ufige Fragen zu unseren Ecommerce SEO Leistungen, Preisen, Prozessen und was Sie bei der Zusammenarbeit mit EcomSEO erwartet.",
+    "ogTitle": "H\u00e4ufig gestellte Fragen | EcomSEO"
+  },
+  "/resources": {
+    "title": "Ressourcen & Wissenszentrum | EcomSEO",
+    "description": "Kostenlose Ressourcen, Leitf\u00e4den und Tools, die Ecommerce-Marken helfen, SEO zu meistern und organischen Umsatz zu skalieren.",
+    "ogTitle": "Ressourcen & Wissenszentrum | EcomSEO"
+  },
+  "/resources/crash-course": {
+    "title": "Vom Anf\u00e4nger zum Profi \u2014 Ecommerce SEO Crashkurs | EcomSEO",
+    "description": "Kompletter Ecommerce SEO Crashkurs. Lernen Sie alles, was Sie wissen m\u00fcssen, um bei Google h\u00f6her zu ranken und organischen Umsatz zu steigern.",
+    "ogTitle": "Vom Anf\u00e4nger zum Profi \u2014 Ecommerce SEO Crashkurs | EcomSEO"
+  },
+  "/resources/crash-course/changelog-page": {
+    "title": "Performance-Updates & neue Funktionen | Ecommerce SEO Crashkurs",
+    "description": "Neueste Updates und neue Funktionen im Ecommerce SEO Crashkurs.",
+    "ogTitle": "Performance-Updates & neue Funktionen | Ecommerce SEO Crashkurs"
+  },
+  "/resources/library": {
+    "title": "Ressourcen-Bibliothek \u2014 Tools, Vorlagen & Leitf\u00e4den | EcomSEO",
+    "description": "Die besten Ecommerce SEO Ressourcen der Welt. Kostenlose Tools, Vorlagen und Leitf\u00e4den, um Ihre organische Pr\u00e4senz zu analysieren und zu skalieren.",
+    "ogTitle": "Ressourcen-Bibliothek \u2014 Tools, Vorlagen & Leitf\u00e4den | EcomSEO"
+  },
+  "/resources/library/on-page-checklist": {
+    "title": "On-Page SEO Grundlagen Checkliste | EcomSEO Ressourcen-Bibliothek",
+    "description": "Das Allererste, was wir bei einem neuen Projekt tun. Kostenlose On-Page SEO Checkliste f\u00fcr Ecommerce-Shops.",
+    "ogTitle": "On-Page SEO Grundlagen Checkliste | EcomSEO"
+  },
+  "/resources/library/roi-calculation-sheet": {
+    "title": "Ecommerce SEO ROI-Berechnungstabelle | EcomSEO Ressourcen-Bibliothek",
+    "description": "Kostenlose ROI-Berechnungstabelle, um den Erfolg Ihrer Ecommerce SEO Ma\u00dfnahmen zu messen und das organische Umsatzwachstum zu prognostizieren.",
+    "ogTitle": "Ecommerce SEO ROI-Berechnungstabelle | EcomSEO"
+  },
+  "/resources/library/template": {
+    "title": "ABC Vorlage | EcomSEO Ressourcen-Bibliothek",
+    "description": "Kostenlose Ecommerce SEO Vorlage von EcomSEO. Herunterladen und f\u00fcr die SEO-Optimierung Ihres Shops nutzen.",
+    "ogTitle": "ABC Vorlage | EcomSEO Ressourcen-Bibliothek"
+  },
+  "/resources/search-product-discovery": {
+    "title": "AI Shopping \u2014 Bringen Sie Ihre Produkte auf LLMs wie ChatGPT | EcomSEO",
+    "description": "Ihre Produkte sind auf AI unsichtbar. Sie k\u00f6nnen noch heute etwas dagegen tun. Vielleicht die gr\u00f6\u00dfte Chance in 2025.",
+    "ogTitle": "AI Shopping \u2014 Bringen Sie Ihre Produkte auf LLMs wie ChatGPT | EcomSEO"
+  },
+  "/resources/shopify-on-page-checklist": {
+    "title": "Premium Shopify On-Page SEO Checkliste | EcomSEO",
+    "description": "Wir haben eine Checkliste f\u00fcr Ecommerce-Marken auf Shopify erstellt, die bei Google h\u00f6her ranken wollen. Genau dieser Prozess hat unseren Kunden 8-stellige Ums\u00e4tze erm\u00f6glicht.",
+    "ogTitle": "Premium Shopify On-Page SEO Checkliste | EcomSEO"
+  },
+  "/resources/solutions": {
+    "title": "L\u00f6sungen \u2014 Partner, Referenzen & Empfehlungen | EcomSEO",
+    "description": "Partner, Referenzen und Empfehlungen, die Ihnen beim Wachstum helfen. Wir bauen unser Netzwerk auf und werden es bald \u00f6ffentlich verf\u00fcgbar machen.",
+    "ogTitle": "L\u00f6sungen \u2014 Partner, Referenzen & Empfehlungen | EcomSEO"
+  },
+  "/resources/why-we-share": {
+    "title": "Warum wir so viel Wissen teilen | EcomSEO",
+    "description": "Erfahren Sie, warum wir so viel kostenloses Wissen und Ressourcen mit der Ecommerce-Community teilen.",
+    "ogTitle": "Warum wir so viel Wissen teilen | EcomSEO"
+  },
+  "/guides": {
+    "title": "Ecommerce SEO Leitf\u00e4den | EcomSEO",
+    "description": "Kostenlose Ecommerce SEO Leitf\u00e4den, die Ihnen helfen, organischen Traffic zu meistern und den Umsatz Ihres Online-Shops zu skalieren.",
+    "ogTitle": "Ecommerce SEO Leitf\u00e4den | EcomSEO"
+  },
+  "/guides/fundamentals": {
+    "title": "SEO Grundlagen Checkliste | EcomSEO Leitf\u00e4den",
+    "description": "Meistern Sie die Grundlagen von Ecommerce SEO mit unserer vollst\u00e4ndigen Checkliste. Analysieren und optimieren Sie Ihren Shop f\u00fcr organisches Wachstum.",
+    "ogTitle": "SEO Grundlagen Checkliste | EcomSEO Leitf\u00e4den"
+  },
+  "/guides/fundamentals-2": {
+    "title": "SEO Grundlagen Fortsetzung | EcomSEO Leitf\u00e4den",
+    "description": "Vertiefen Sie Ihr Wissen \u00fcber Ecommerce SEO Grundlagen mit fortgeschrittenen Optimierungstechniken und Strategien.",
+    "ogTitle": "SEO Grundlagen Fortsetzung | EcomSEO Leitf\u00e4den"
+  },
+  "/page": {
+    "title": "Fabian van Til \u2014 LLM Optimisation Agency | EcomSEO",
+    "description": "Fabian van Til, Gr\u00fcnder von EcomSEO. Wir helfen Ecommerce-Marken, auf AI und LLMs wie ChatGPT gefunden zu werden.",
+    "ogTitle": "Fabian van Til \u2014 LLM Optimisation Agency | EcomSEO"
+  },
+  "/intent-matching-tool": {
+    "title": "Intent-Matching-Tool \u2014 AI Keyword-Analyse | EcomSEO",
+    "description": "Analysieren Sie die Suchintention f\u00fcr Ihre Ecommerce Keywords. Verstehen Sie, wonach Ihre Kunden suchen, und optimieren Sie Ihren Content entsprechend.",
+    "ogTitle": "Intent-Matching-Tool \u2014 AI Keyword-Analyse | EcomSEO"
+  },
+  "/premium-on-page-seo-checklist": {
+    "title": "Premium On-Page SEO Checkliste \u2014 Millionen-Ums\u00e4tze organisch generieren | EcomSEO",
+    "description": "Ecom-Betreiber aufgepasst! Diese On-Page SEO Checkliste ist alles, was Sie brauchen, um Millionen organisch \u00fcber Google zu generieren.",
+    "ogTitle": "Premium On-Page SEO Checkliste | EcomSEO"
+  },
+  "/client-dashboard": {
+    "title": "Kunden-Dashboard \u2014 Bald verf\u00fcgbar | EcomSEO",
+    "description": "Kommt bald: Zugang zu Ihren SEO-Performance-Daten, Insights und Empfehlungen an einem Ort.",
+    "ogTitle": "Kunden-Dashboard \u2014 Bald verf\u00fcgbar | EcomSEO"
+  },
+  "/thank-you-payment": {
+    "title": "Vielen Dank f\u00fcr Ihre Zahlung | EcomSEO",
+    "description": "Vielen Dank f\u00fcr Ihre Zahlung. Wir melden uns in K\u00fcrze, um mit Ihrem Ecommerce SEO Projekt zu starten.",
+    "ogTitle": "Vielen Dank f\u00fcr Ihre Zahlung | EcomSEO"
+  }
+}

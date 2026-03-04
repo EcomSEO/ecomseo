@@ -1,4 +1,4 @@
-import Link from "next/link";
+import LocaleLink from "@/components/ui/LocaleLink";
 import Image from "next/image";
 
 const footerLinks = {
@@ -30,7 +30,7 @@ export default function Footer() {
         <div className="grid grid-cols-2 md:grid-cols-4 gap-10 md:gap-8">
           {/* Brand */}
           <div className="col-span-2 md:col-span-1 flex flex-col gap-4">
-            <Link href="/" className="flex-shrink-0">
+            <LocaleLink href="/" className="flex-shrink-0">
               <Image
                 src="https://framerusercontent.com/images/TQbukBV8G5LIkEwGfbxZAiZs.png"
                 alt="EcomSEO"
@@ -38,7 +38,7 @@ export default function Footer() {
                 height={19}
                 className="h-[19px] w-auto"
               />
-            </Link>
+            </LocaleLink>
             <p className="text-body text-sm leading-relaxed max-w-[250px]">
               Profit-focused ecommerce SEO agency. We build and scale brands
               through organic search.
@@ -51,13 +51,13 @@ export default function Footer() {
               <h4 className="text-sm font-medium text-white/80">{title}</h4>
               <div className="flex flex-col gap-2">
                 {links.map((link) => (
-                  <Link
+                  <LocaleLink
                     key={link.href}
                     href={link.href}
                     className="text-sm text-white/40 hover:text-white transition-colors"
                   >
                     {link.label}
-                  </Link>
+                  </LocaleLink>
                 ))}
               </div>
             </div>
