@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Image from "next/image";
 import Badge from "@/components/ui/Badge";
 import SectionWrapper from "@/components/ui/SectionWrapper";
 import { useLocale } from "@/lib/i18n/useTranslations";
@@ -14,7 +15,7 @@ function ListItem({
   type: "negative" | "positive";
 }) {
   return (
-    <div className="flex items-start gap-3 py-2.5">
+    <div className="flex items-start gap-3 py-3">
       <span
         className={`mt-0.5 flex-shrink-0 ${
           type === "negative" ? "text-white/40" : "text-accent"
@@ -41,8 +42,36 @@ function ListItem({
           </svg>
         )}
       </span>
-      <span className="text-body text-sm">{text}</span>
+      <span
+        className={
+          type === "negative"
+            ? "text-body text-sm"
+            : "text-heading text-sm font-medium"
+        }
+      >
+        {text}
+      </span>
     </div>
+  );
+}
+
+function renderHeading(text: string) {
+  const parts = text.split(/\*(.*?)\*/);
+  return parts.map((part, i) =>
+    i % 2 === 1 ? (
+      <em
+        key={i}
+        className="not-italic"
+        style={{
+          fontFamily: '"Georgia", "Times New Roman", serif',
+          fontStyle: "italic",
+        }}
+      >
+        {part}
+      </em>
+    ) : (
+      <span key={i}>{part}</span>
+    ),
   );
 }
 
@@ -52,23 +81,42 @@ export default function Comparison() {
 
   return (
     <SectionWrapper className="py-24 md:py-32">
-      <div className="flex flex-col gap-12">
+      <div className="flex flex-col gap-12 items-center">
+        {/* ─── Center-aligned header ─── */}
         <motion.div
-          className="flex flex-col gap-4 max-w-[700px]"
+          className="flex flex-col items-center text-center gap-5"
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-100px" }}
           transition={{ duration: 0.6 }}
         >
           <Badge text={t.badge} />
-          <h2 className="text-[32px] md:text-[48px] lg:text-[56px] font-medium leading-[1.1] tracking-[-0.02em] text-heading">
-            {t.heading}
-            <em className="italic">{t.headingItalic}</em>
+          <h2 className="text-[32px] md:text-[48px] lg:text-[56px] font-medium leading-[1.1] tracking-[-0.02em] text-heading max-w-[700px]">
+            {renderHeading(t.heading)}
           </h2>
         </motion.div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-          {/* Left column */}
+        {/* ─── Column titles ─── */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 w-full">
+          <div className="flex items-center justify-center pb-2">
+            <span className="text-white/40 text-lg font-medium">
+              {t.leftTitle}
+            </span>
+          </div>
+          <div className="flex items-center justify-center pb-2">
+            <Image
+              src="/images/framer/TQbukBV8G5LIkEwGfbxZAiZs.png"
+              alt="EcomSEO"
+              width={160}
+              height={36}
+              className="object-contain"
+            />
+          </div>
+        </div>
+
+        {/* ─── Comparison cards ─── */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 w-full -mt-4">
+          {/* Left column — Just Paid Ads */}
           <motion.div
             className="bg-bg-ui border border-border rounded-3xl p-8 overflow-hidden"
             initial={{ opacity: 0, x: -20 }}
@@ -76,9 +124,6 @@ export default function Comparison() {
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
           >
-            <h3 className="text-lg font-medium text-white/60 mb-6">
-              {t.leftTitle}
-            </h3>
             <div className="flex flex-col">
               {t.leftItems.map((item) => (
                 <ListItem key={item} text={item} type="negative" />
@@ -86,18 +131,26 @@ export default function Comparison() {
             </div>
           </motion.div>
 
-          {/* Right column */}
+          {/* Right column — EcomSEO */}
           <motion.div
-            className="relative bg-bg-ui border border-accent/30 rounded-3xl p-8 overflow-hidden"
+            className="relative border border-accent/30 rounded-3xl p-8 overflow-hidden"
+            style={{
+              background:
+                "linear-gradient(135deg, rgba(13, 13, 13, 0.95) 0%, rgba(13, 13, 13, 0.9) 60%, rgba(123, 45, 233, 0.15) 100%)",
+            }}
             initial={{ opacity: 0, x: 20 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: 0.1 }}
           >
-            <div className="absolute -top-20 -right-20 w-40 h-40 bg-primary/15 rounded-full blur-[80px]" />
-            <h3 className="text-lg font-medium text-accent mb-6 relative z-10">
-              {t.rightTitle}
-            </h3>
+            {/* Aurora glow */}
+            <div
+              className="absolute -bottom-16 -right-16 w-[280px] h-[280px] rounded-full blur-[100px] pointer-events-none"
+              style={{
+                background:
+                  "radial-gradient(circle, rgba(193, 100, 230, 0.35) 0%, rgba(123, 45, 233, 0.15) 60%, transparent 100%)",
+              }}
+            />
             <div className="flex flex-col relative z-10">
               {t.rightItems.map((item) => (
                 <ListItem key={item} text={item} type="positive" />

@@ -266,64 +266,50 @@ export const servicesT: Record<Locale, {
 export const comparisonT: Record<Locale, {
   badge: string;
   heading: string;
-  headingItalic: string;
   leftTitle: string;
   leftItems: string[];
-  rightTitle: string;
   rightItems: string[];
 }> = {
   en: {
     badge: "Comparison",
-    heading: "Why SEO for Ecommerce Brands ",
-    headingItalic: "makes sense",
+    heading: "Why SEO for Ecommerce Brands *makes sense*",
     leftTitle: "Just Paid Ads",
     leftItems: ["Dependant on 1 sales channel", "No omnichannel", "Lose curious customers", "Limit returning customers", "Convert less customers"],
-    rightTitle: "SEO + Paid Ads",
     rightItems: ["Long-term ongoing organic sales", "Omni-channel approach", "Boost Exit Value", "Build Brand Trust and Authority", "Become A Market Leader"],
   },
   de: {
     badge: "Vergleich",
-    heading: "Warum SEO für E-Commerce-Marken ",
-    headingItalic: "Sinn macht",
+    heading: "Warum SEO für E-Commerce-Marken *Sinn macht*",
     leftTitle: "Nur bezahlte Werbung",
     leftItems: ["Abhängig von 1 Vertriebskanal", "Kein Omnichannel", "Neugierige Kunden verlieren", "Stammkunden einschränken", "Weniger Kunden konvertieren"],
-    rightTitle: "SEO + bezahlte Werbung",
     rightItems: ["Langfristige organische Umsätze", "Omnichannel-Ansatz", "Exit-Wert steigern", "Markenvertrauen und Autorität aufbauen", "Marktführer werden"],
   },
   fr: {
     badge: "Comparaison",
-    heading: "Pourquoi le SEO pour les marques e-commerce ",
-    headingItalic: "a du sens",
+    heading: "Pourquoi le SEO pour les marques e-commerce *a du sens*",
     leftTitle: "Publicité payante seule",
     leftItems: ["Dépendant d\u2019un seul canal de vente", "Pas d\u2019omnicanal", "Perdre des clients curieux", "Limiter les clients récurrents", "Convertir moins de clients"],
-    rightTitle: "SEO + Publicité payante",
     rightItems: ["Ventes organiques continues à long terme", "Approche omnicanale", "Augmenter la valeur de sortie", "Construire la confiance et l\u2019autorité de marque", "Devenir leader du marché"],
   },
   es: {
     badge: "Comparación",
-    heading: "Por qué el SEO para marcas E-commerce ",
-    headingItalic: "tiene sentido",
+    heading: "Por qué el SEO para marcas E-commerce *tiene sentido*",
     leftTitle: "Solo anuncios pagados",
     leftItems: ["Dependiente de 1 canal de venta", "Sin omnicanal", "Perder clientes curiosos", "Limitar clientes recurrentes", "Convertir menos clientes"],
-    rightTitle: "SEO + anuncios pagados",
     rightItems: ["Ventas orgánicas continuas a largo plazo", "Enfoque omnicanal", "Aumentar el valor de salida", "Construir confianza y autoridad de marca", "Convertirse en líder del mercado"],
   },
   it: {
     badge: "Confronto",
-    heading: "Perché la SEO per i brand e-commerce ",
-    headingItalic: "ha senso",
+    heading: "Perché la SEO per i brand e-commerce *ha senso*",
     leftTitle: "Solo pubblicità a pagamento",
     leftItems: ["Dipendente da 1 canale di vendita", "Nessun omnicanale", "Perdere clienti curiosi", "Limitare i clienti di ritorno", "Convertire meno clienti"],
-    rightTitle: "SEO + pubblicità a pagamento",
     rightItems: ["Vendite organiche continue a lungo termine", "Approccio omnicanale", "Aumentare il valore di uscita", "Costruire fiducia e autorità del brand", "Diventare leader di mercato"],
   },
   nl: {
     badge: "Vergelijking",
-    heading: "Waarom SEO voor e-commercemerken ",
-    headingItalic: "logisch is",
+    heading: "Waarom SEO voor e-commercemerken *logisch is*",
     leftTitle: "Alleen betaalde advertenties",
     leftItems: ["Afhankelijk van 1 verkoopkanaal", "Geen omnichannel", "Nieuwsgierige klanten verliezen", "Terugkerende klanten beperken", "Minder klanten converteren"],
-    rightTitle: "SEO + betaalde advertenties",
     rightItems: ["Langdurige organische verkoop", "Omnichannel-aanpak", "Exit-waarde verhogen", "Merkvertrouwen en autoriteit opbouwen", "Marktleider worden"],
   },
 };
