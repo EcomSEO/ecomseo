@@ -15,6 +15,10 @@ export default function ToolsSoftware() {
   return (
     <section className="w-full py-8 overflow-hidden">
       <div className="relative overflow-hidden">
+        {/* Edge fade masks */}
+        <div className="pointer-events-none absolute inset-y-0 left-0 z-10 w-20 bg-gradient-to-r from-background to-transparent" />
+        <div className="pointer-events-none absolute inset-y-0 right-0 z-10 w-20 bg-gradient-to-l from-background to-transparent" />
+
         <div className="flex animate-ticker items-center">
           {[0, 1].map((copy) => (
             <div

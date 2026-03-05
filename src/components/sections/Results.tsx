@@ -71,7 +71,7 @@ export default function Results() {
           </p>
         </motion.div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 w-full">
           {caseStudies.map((study, i) => {
             const card = t.cards[i];
             return (
