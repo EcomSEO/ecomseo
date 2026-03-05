@@ -418,7 +418,7 @@ export default function Navigation() {
                       ))}
                     </div>
                     <LocaleLink
-                      href="/ecommerce-seo"
+                      href="/ecommerce-seo-services"
                       className="mt-3 text-[13px] text-white/30 hover:text-white transition-colors flex items-center gap-1"
                     >
                       {t.seeMoreServices}

@@ -8,6 +8,7 @@ import CTA from "@/components/sections/CTA";
 import Footer from "@/components/sections/Footer";
 import Badge from "@/components/ui/Badge";
 import Button from "@/components/ui/Button";
+import LocaleLink from "@/components/ui/LocaleLink";
 import { serviceTemplateStrings } from "@/lib/i18n/translations/services";
 import type { Locale } from "@/lib/i18n/config";
 
@@ -21,17 +22,25 @@ export interface StatItem {
 export interface BenefitItem {
   title: string;
   description: string;
+  href?: string;
 }
 
 export interface ProcessItem {
   number: string;
   title: string;
   description: string;
+  href?: string;
 }
 
 export interface DeliverableItem {
   title: string;
   description: string;
+}
+
+export interface LinkItem {
+  title: string;
+  description: string;
+  href: string;
 }
 
 export interface FAQItem {
@@ -40,7 +49,7 @@ export interface FAQItem {
 }
 
 export interface ContentSection {
-  type: "stats" | "benefits" | "process" | "deliverables";
+  type: "stats" | "benefits" | "process" | "deliverables" | "links";
   badge?: string;
   heading: string;
   subtitle?: string;
@@ -48,6 +57,7 @@ export interface ContentSection {
   benefits?: BenefitItem[];
   process?: ProcessItem[];
   deliverables?: DeliverableItem[];
+  links?: LinkItem[];
 }
 
 export interface ServicePageProps {
@@ -223,23 +233,39 @@ function BenefitsSection({
           )}
         </div>
         <div className="w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-          {items.map((item, i) => (
-            <motion.div
-              key={i}
-              className="flex flex-col gap-3 p-6 rounded-2xl border border-border bg-ui"
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.4, delay: i * 0.05 }}
-            >
-              <h3 className="text-base font-medium text-heading">
-                {item.title}
-              </h3>
-              <p className="text-sm text-body leading-relaxed">
-                {item.description}
-              </p>
-            </motion.div>
-          ))}
+          {items.map((item, i) =>
+            item.href ? (
+              <LocaleLink key={i} href={item.href} className="flex flex-col gap-3 p-6 rounded-2xl border border-border bg-ui hover:border-accent/60 transition-colors group">
+                <div className="flex items-start justify-between gap-2">
+                  <h3 className="text-base font-medium text-heading group-hover:text-accent transition-colors">
+                    {item.title}
+                  </h3>
+                  <svg width="14" height="14" viewBox="0 0 14 14" fill="none" className="flex-shrink-0 mt-0.5 text-white/30 group-hover:text-accent transition-colors">
+                    <path d="M2 7h10M7 2l5 5-5 5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                  </svg>
+                </div>
+                <p className="text-sm text-body leading-relaxed">
+                  {item.description}
+                </p>
+              </LocaleLink>
+            ) : (
+              <motion.div
+                key={i}
+                className="flex flex-col gap-3 p-6 rounded-2xl border border-border bg-ui"
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.4, delay: i * 0.05 }}
+              >
+                <h3 className="text-base font-medium text-heading">
+                  {item.title}
+                </h3>
+                <p className="text-sm text-body leading-relaxed">
+                  {item.description}
+                </p>
+              </motion.div>
+            )
+          )}
         </div>
       </div>
     </section>
@@ -275,7 +301,7 @@ function ProcessSection({
           {items.map((item, i) => (
             <motion.div
               key={i}
-              className="flex flex-col items-center text-center gap-4 p-8 rounded-3xl border border-border bg-ui"
+              className={`flex flex-col items-center text-center gap-4 p-8 rounded-3xl border border-border bg-ui${item.href ? " hover:border-accent/60 transition-colors group" : ""}`}
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
@@ -284,10 +310,21 @@ function ProcessSection({
               <span className="font-[family-name:var(--font-figtree)] text-sm font-medium text-white/40">
                 {item.number}
               </span>
-              <h3 className="text-lg font-medium text-heading">{item.title}</h3>
+              <h3 className={`text-lg font-medium text-heading${item.href ? " group-hover:text-accent transition-colors" : ""}`}>{item.title}</h3>
               <p className="text-sm text-body leading-relaxed">
                 {item.description}
               </p>
+              {item.href && (
+                <LocaleLink
+                  href={item.href}
+                  className="inline-flex items-center gap-1.5 text-sm font-medium text-accent hover:underline mt-1"
+                >
+                  Learn more
+                  <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
+                    <path d="M2 6h8M6 2l4 4-4 4" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                  </svg>
+                </LocaleLink>
+              )}
             </motion.div>
           ))}
         </div>
@@ -335,6 +372,76 @@ function DeliverablesSection({
                 {item.title}
               </span>
               <span className="text-sm text-body">{item.description}</span>
+            </motion.div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
+
+function LinksSection({
+  badge,
+  heading,
+  subtitle,
+  items,
+}: {
+  badge?: string;
+  heading: string;
+  subtitle?: string;
+  items: LinkItem[];
+}) {
+  return (
+    <section className="w-full px-5 md:px-10 py-20">
+      <div className="mx-auto max-w-[1120px] flex flex-col items-center gap-[60px]">
+        <div className="flex flex-col items-center text-center gap-6">
+          {badge && <Badge text={badge} />}
+          <h2 className="text-[28px] md:text-[40px] lg:text-[48px] font-medium leading-[1.1] tracking-[-0.02em] text-heading max-w-[800px]">
+            {heading}
+          </h2>
+          {subtitle && (
+            <p className="text-body text-base md:text-lg max-w-[746px]">
+              {subtitle}
+            </p>
+          )}
+        </div>
+        <div className="w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+          {items.map((item, i) => (
+            <motion.div
+              key={i}
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.4, delay: i * 0.05 }}
+            >
+              <LocaleLink
+                href={item.href}
+                className="flex flex-col gap-3 p-6 rounded-2xl border border-border bg-ui hover:border-accent/60 transition-colors group h-full"
+              >
+                <div className="flex items-start justify-between gap-2">
+                  <h3 className="text-base font-medium text-heading group-hover:text-accent transition-colors">
+                    {item.title}
+                  </h3>
+                  <svg
+                    width="16"
+                    height="16"
+                    viewBox="0 0 16 16"
+                    fill="none"
+                    className="flex-shrink-0 mt-0.5 text-white/30 group-hover:text-accent transition-colors"
+                  >
+                    <path
+                      d="M3 8h10M8 3l5 5-5 5"
+                      stroke="currentColor"
+                      strokeWidth="1.5"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    />
+                  </svg>
+                </div>
+                <p className="text-sm text-body leading-relaxed">
+                  {item.description}
+                </p>
+              </LocaleLink>
             </motion.div>
           ))}
         </div>
@@ -488,6 +595,16 @@ export default function ServicePageTemplate({
                   heading={section.heading}
                   subtitle={section.subtitle}
                   items={section.deliverables!}
+                />
+              );
+            case "links":
+              return (
+                <LinksSection
+                  key={i}
+                  badge={section.badge}
+                  heading={section.heading}
+                  subtitle={section.subtitle}
+                  items={section.links!}
                 />
               );
             default:

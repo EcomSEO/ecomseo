@@ -16,10 +16,10 @@ export const ecommerceSeoPlatformsData: Record<Locale, ServicePageProps> = {
         badge: "Platform SEO Realities",
         heading: "Why Your Platform Shapes Your Entire SEO Strategy",
         process: [
-          { number: "01", title: "Shopify", description: "Shopify\u2019s theme architecture, canonical handling, and app ecosystem create specific SEO patterns. We optimize Liquid templates, fix duplicate content from collections, and leverage Shopify\u2019s native structured data." },
-          { number: "02", title: "WooCommerce", description: "WordPress flexibility is both a strength and a risk. Plugin conflicts, bloated databases, and uncontrolled URL sprawl quietly destroy rankings. We audit and tighten the full WP stack for SEO performance." },
-          { number: "03", title: "BigCommerce", description: "BigCommerce has the strongest native SEO foundation of any major platform \u2014 built-in sitemaps, microdata, and clean URL structures. We push those advantages further with faceted navigation control and catalog-level optimization." },
-          { number: "04", title: "Adobe Commerce", description: "Adobe Commerce (Magento) is enterprise-grade but enterprise-complex. Crawl budget waste, JS rendering issues, and multi-store configurations require specialist knowledge. We\u2019ve worked inside complex Magento environments \u2014 we know where the bodies are buried." },
+          { number: "01", title: "Shopify", href: "/shopify-seo", description: "Shopify\u2019s theme architecture, canonical handling, and app ecosystem create specific SEO patterns. We optimize Liquid templates, fix duplicate content from collections, and leverage Shopify\u2019s native structured data." },
+          { number: "02", title: "WooCommerce", href: "/woocommerce-seo", description: "WordPress flexibility is both a strength and a risk. Plugin conflicts, bloated databases, and uncontrolled URL sprawl quietly destroy rankings. We audit and tighten the full WP stack for SEO performance." },
+          { number: "03", title: "BigCommerce", href: "/bigcommerce-seo", description: "BigCommerce has the strongest native SEO foundation of any major platform \u2014 built-in sitemaps, microdata, and clean URL structures. We push those advantages further with faceted navigation control and catalog-level optimization." },
+          { number: "04", title: "Adobe Commerce", href: "/adobe-commerce-seo", description: "Adobe Commerce (Magento) is enterprise-grade but enterprise-complex. Crawl budget waste, JS rendering issues, and multi-store configurations require specialist knowledge. We\u2019ve worked inside complex Magento environments \u2014 we know where the bodies are buried." },
         ],
       },
       {
@@ -46,6 +46,29 @@ export const ecommerceSeoPlatformsData: Record<Locale, ServicePageProps> = {
           { number: "02", title: "Architecture Fix", description: "Fix the foundational issues first: URL structure, internal linking, faceted navigation control, and crawl prioritization. The platform is now structurally sound for ranking." },
           { number: "03", title: "Content & Category Optimization", description: "Platform-aware category page optimization, product template SEO, and content strategy built around your catalog\u2019s unique keyword opportunities." },
           { number: "04", title: "Scale & Monitor", description: "Ongoing monitoring for platform updates, app changes, and ranking shifts. We protect your organic gains as your catalog and stack evolve." },
+        ],
+      },
+      {
+        type: "links",
+        badge: "Explore More",
+        heading: "Browse All Services & Industry Approaches",
+        subtitle: "Platform expertise is one dimension of ecommerce SEO. Explore our full service menu and industry-specific strategies.",
+        links: [
+          {
+            title: "All Ecommerce SEO Services",
+            description: "See every service we offer — from technical audits to content writing to authority building.",
+            href: "/ecommerce-seo-services",
+          },
+          {
+            title: "SEO by Industry",
+            description: "Fashion, Beauty, Consumables, Toys — industry-native strategies for your specific vertical.",
+            href: "/ecommerce-seo-industries",
+          },
+          {
+            title: "Ecommerce SEO",
+            description: "The full commercial SEO strategy for online stores — platform-agnostic and revenue-focused.",
+            href: "/ecommerce-seo",
+          },
         ],
       },
     ],
@@ -78,10 +101,10 @@ export const ecommerceSeoPlatformsData: Record<Locale, ServicePageProps> = {
         badge: "Plattform-SEO-Realit\u00e4ten",
         heading: "Warum Ihre Plattform Ihre gesamte SEO-Strategie pr\u00e4gt",
         process: [
-          { number: "01", title: "Shopify", description: "Shopifys Theme-Architektur, Canonical-Behandlung und App-\u00d6kosystem erzeugen spezifische SEO-Muster. Wir optimieren Liquid-Templates, beheben doppelte Inhalte aus Collections und nutzen Shopifys native strukturierte Daten." },
-          { number: "02", title: "WooCommerce", description: "WordPress-Flexibilit\u00e4t ist sowohl St\u00e4rke als auch Risiko. Plugin-Konflikte, aufgebl\u00e4hte Datenbanken und unkontrollierte URL-Ausbreitung zerst\u00f6ren still Rankings. Wir pr\u00fcfen und straffen den gesamten WP-Stack f\u00fcr SEO-Leistung." },
-          { number: "03", title: "BigCommerce", description: "BigCommerce hat das st\u00e4rkste native SEO-Fundament aller gro\u00dfen Plattformen \u2014 eingebaute Sitemaps, Mikrodaten und saubere URL-Strukturen. Wir treiben diese Vorteile weiter mit Facettennavigation-Kontrolle und katalogweiter Optimierung." },
-          { number: "04", title: "Adobe Commerce", description: "Adobe Commerce (Magento) ist enterprise-grade, aber enterprise-komplex. Crawl-Budget-Verschwendung, JS-Rendering-Probleme und Multi-Store-Konfigurationen erfordern Spezialwissen. Wir haben in komplexen Magento-Umgebungen gearbeitet \u2014 wir wissen, wo die Probleme liegen." },
+          { number: "01", title: "Shopify", href: "/shopify-seo", description: "Shopifys Theme-Architektur, Canonical-Behandlung und App-\u00d6kosystem erzeugen spezifische SEO-Muster. Wir optimieren Liquid-Templates, beheben doppelte Inhalte aus Collections und nutzen Shopifys native strukturierte Daten." },
+          { number: "02", title: "WooCommerce", href: "/woocommerce-seo", description: "WordPress-Flexibilit\u00e4t ist sowohl St\u00e4rke als auch Risiko. Plugin-Konflikte, aufgebl\u00e4hte Datenbanken und unkontrollierte URL-Ausbreitung zerst\u00f6ren still Rankings. Wir pr\u00fcfen und straffen den gesamten WP-Stack f\u00fcr SEO-Leistung." },
+          { number: "03", title: "BigCommerce", href: "/bigcommerce-seo", description: "BigCommerce hat das st\u00e4rkste native SEO-Fundament aller gro\u00dfen Plattformen \u2014 eingebaute Sitemaps, Mikrodaten und saubere URL-Strukturen. Wir treiben diese Vorteile weiter mit Facettennavigation-Kontrolle und katalogweiter Optimierung." },
+          { number: "04", title: "Adobe Commerce", href: "/adobe-commerce-seo", description: "Adobe Commerce (Magento) ist enterprise-grade, aber enterprise-komplex. Crawl-Budget-Verschwendung, JS-Rendering-Probleme und Multi-Store-Konfigurationen erfordern Spezialwissen. Wir haben in komplexen Magento-Umgebungen gearbeitet \u2014 wir wissen, wo die Probleme liegen." },
         ],
       },
       {
@@ -108,6 +131,29 @@ export const ecommerceSeoPlatformsData: Record<Locale, ServicePageProps> = {
           { number: "02", title: "Architektur-Reparatur", description: "Zuerst die grundlegenden Probleme beheben: URL-Struktur, interne Verlinkung, Facettennavigation-Kontrolle und Crawl-Priorisierung. Die Plattform ist nun strukturell solide f\u00fcr das Ranking." },
           { number: "03", title: "Content- & Kategorieoptimierung", description: "Plattformbewusste Kategorieseiten-Optimierung, Produkttemplate-SEO und Content-Strategie rund um die einzigartigen Keyword-M\u00f6glichkeiten Ihres Katalogs." },
           { number: "04", title: "Skalieren & \u00dcberwachen", description: "Laufende \u00dcberwachung auf Plattform-Updates, App-\u00c4nderungen und Ranking-Verschiebungen. Wir sch\u00fctzen Ihre organischen Gewinne, w\u00e4hrend sich Ihr Katalog und Stack weiterentwickeln." },
+        ],
+      },
+      {
+        type: "links",
+        badge: "Mehr entdecken",
+        heading: "Alle Services & Branchenansätze durchsuchen",
+        subtitle: "Plattform-Expertise ist eine Dimension des E-Commerce-SEO. Entdecken Sie unser vollständiges Service-Menü und branchenspezifische Strategien.",
+        links: [
+          {
+            title: "Alle E-Commerce SEO Services",
+            description: "Sehen Sie jeden Service, den wir anbieten — von technischen Audits bis zu Content-Erstellung und Autoritätsaufbau.",
+            href: "/ecommerce-seo-services",
+          },
+          {
+            title: "SEO nach Branche",
+            description: "Mode, Beauty, Konsumgüter, Spielzeug — branchenorientierte Strategien für Ihre spezifische Nische.",
+            href: "/ecommerce-seo-industries",
+          },
+          {
+            title: "E-Commerce SEO",
+            description: "Die vollständige kommerzielle SEO-Strategie für Online-Shops — plattformunabhängig und umsatzorientiert.",
+            href: "/ecommerce-seo",
+          },
         ],
       },
     ],
@@ -140,10 +186,10 @@ export const ecommerceSeoPlatformsData: Record<Locale, ServicePageProps> = {
         badge: "R\u00e9alit\u00e9s du SEO par plateforme",
         heading: "Pourquoi votre plateforme d\u00e9termine toute votre strat\u00e9gie SEO",
         process: [
-          { number: "01", title: "Shopify", description: "L\u2019architecture de th\u00e8me, la gestion des balises canoniques et l\u2019\u00e9cosyst\u00e8me d\u2019applications de Shopify cr\u00e9ent des sch\u00e9mas SEO sp\u00e9cifiques. Nous optimisons les templates Liquid, corrigeons le contenu dupliqu\u00e9 des collections et exploitons les donn\u00e9es structur\u00e9es natives de Shopify." },
-          { number: "02", title: "WooCommerce", description: "La flexibilit\u00e9 WordPress est \u00e0 la fois une force et un risque. Les conflits de plugins, les bases de donn\u00e9es surcharg\u00e9es et la proliferation incontr\u00f4l\u00e9e des URLs d\u00e9truisent silencieusement les classements. Nous auditons et renfor\u00e7ons l\u2019ensemble du stack WP pour les performances SEO." },
-          { number: "03", title: "BigCommerce", description: "BigCommerce poss\u00e8de les fondations SEO natives les plus solides de toutes les plateformes majeures \u2014 sitemaps int\u00e9gr\u00e9s, microdata et structures d\u2019URL propres. Nous poussons ces avantages encore plus loin avec le contr\u00f4le de la navigation \u00e0 facettes et l\u2019optimisation au niveau du catalogue." },
-          { number: "04", title: "Adobe Commerce", description: "Adobe Commerce (Magento) est de niveau enterprise, mais de complexit\u00e9 enterprise. Le gaspillage de budget de crawl, les probl\u00e8mes de rendu JS et les configurations multi-boutiques n\u00e9cessitent une expertise sp\u00e9cialis\u00e9e. Nous avons travaill\u00e9 dans des environnements Magento complexes \u2014 nous savons o\u00f9 se cachent les probl\u00e8mes." },
+          { number: "01", title: "Shopify", href: "/shopify-seo", description: "L\u2019architecture de th\u00e8me, la gestion des balises canoniques et l\u2019\u00e9cosyst\u00e8me d\u2019applications de Shopify cr\u00e9ent des sch\u00e9mas SEO sp\u00e9cifiques. Nous optimisons les templates Liquid, corrigeons le contenu dupliqu\u00e9 des collections et exploitons les donn\u00e9es structur\u00e9es natives de Shopify." },
+          { number: "02", title: "WooCommerce", href: "/woocommerce-seo", description: "La flexibilit\u00e9 WordPress est \u00e0 la fois une force et un risque. Les conflits de plugins, les bases de donn\u00e9es surcharg\u00e9es et la proliferation incontr\u00f4l\u00e9e des URLs d\u00e9truisent silencieusement les classements. Nous auditons et renfor\u00e7ons l\u2019ensemble du stack WP pour les performances SEO." },
+          { number: "03", title: "BigCommerce", href: "/bigcommerce-seo", description: "BigCommerce poss\u00e8de les fondations SEO natives les plus solides de toutes les plateformes majeures \u2014 sitemaps int\u00e9gr\u00e9s, microdata et structures d\u2019URL propres. Nous poussons ces avantages encore plus loin avec le contr\u00f4le de la navigation \u00e0 facettes et l\u2019optimisation au niveau du catalogue." },
+          { number: "04", title: "Adobe Commerce", href: "/adobe-commerce-seo", description: "Adobe Commerce (Magento) est de niveau enterprise, mais de complexit\u00e9 enterprise. Le gaspillage de budget de crawl, les probl\u00e8mes de rendu JS et les configurations multi-boutiques n\u00e9cessitent une expertise sp\u00e9cialis\u00e9e. Nous avons travaill\u00e9 dans des environnements Magento complexes \u2014 nous savons o\u00f9 se cachent les probl\u00e8mes." },
         ],
       },
       {
@@ -170,6 +216,29 @@ export const ecommerceSeoPlatformsData: Record<Locale, ServicePageProps> = {
           { number: "02", title: "Correction d\u2019architecture", description: "Corriger d\u2019abord les probl\u00e8mes fondamentaux\u00a0: structure des URL, maillage interne, contr\u00f4le de la navigation \u00e0 facettes et priorisation du crawl. La plateforme est maintenant structurellement solide pour le classement." },
           { number: "03", title: "Optimisation du contenu et des cat\u00e9gories", description: "Optimisation des pages de cat\u00e9gories consciente de la plateforme, SEO des templates produits et strat\u00e9gie de contenu ax\u00e9e sur les opportunit\u00e9s de mots-cl\u00e9s uniques de votre catalogue." },
           { number: "04", title: "Mise \u00e0 l\u2019\u00e9chelle et surveillance", description: "Surveillance continue des mises \u00e0 jour de la plateforme, changements d\u2019applications et \u00e9volutions de classement. Nous prot\u00e9geons vos gains organiques \u00e0 mesure que votre catalogue et stack \u00e9voluent." },
+        ],
+      },
+      {
+        type: "links",
+        badge: "Explorer Plus",
+        heading: "Parcourir Tous les Services et Approches Sectorielles",
+        subtitle: "L'expertise plateforme est une dimension du SEO e-commerce. Explorez notre menu complet de services et nos stratégies sectorielles.",
+        links: [
+          {
+            title: "Tous les Services SEO E-Commerce",
+            description: "Découvrez chaque service que nous proposons — des audits techniques à la rédaction de contenu en passant par la construction d'autorité.",
+            href: "/ecommerce-seo-services",
+          },
+          {
+            title: "SEO par Secteur",
+            description: "Mode, Beauté, Consommables, Jouets — stratégies sectorielles pour votre vertical spécifique.",
+            href: "/ecommerce-seo-industries",
+          },
+          {
+            title: "SEO E-Commerce",
+            description: "La stratégie SEO commerciale complète pour les boutiques en ligne — indépendante de la plateforme et axée sur le chiffre d'affaires.",
+            href: "/ecommerce-seo",
+          },
         ],
       },
     ],
@@ -202,10 +271,10 @@ export const ecommerceSeoPlatformsData: Record<Locale, ServicePageProps> = {
         badge: "Realidades del SEO por plataforma",
         heading: "Por qu\u00e9 tu plataforma determina toda tu estrategia SEO",
         process: [
-          { number: "01", title: "Shopify", description: "La arquitectura de temas, el manejo de canonicals y el ecosistema de apps de Shopify crean patrones SEO espec\u00edficos. Optimizamos templates Liquid, corregimos contenido duplicado de colecciones y aprovechamos los datos estructurados nativos de Shopify." },
-          { number: "02", title: "WooCommerce", description: "La flexibilidad de WordPress es tanto una fortaleza como un riesgo. Los conflictos de plugins, las bases de datos infladas y la proliferaci\u00f3n incontrolada de URLs destruyen silenciosamente los rankings. Auditamos y ajustamos todo el stack WP para el rendimiento SEO." },
-          { number: "03", title: "BigCommerce", description: "BigCommerce tiene la base SEO nativa m\u00e1s s\u00f3lida de todas las plataformas principales \u2014 sitemaps integrados, microdata y estructuras de URL limpias. Llevamos esas ventajas m\u00e1s lejos con control de navegaci\u00f3n facetada y optimizaci\u00f3n a nivel de cat\u00e1logo." },
-          { number: "04", title: "Adobe Commerce", description: "Adobe Commerce (Magento) es de nivel enterprise pero de complejidad enterprise. El desperdicio de presupuesto de crawl, los problemas de renderizado JS y las configuraciones multi-tienda requieren conocimiento especializado. Hemos trabajado en entornos Magento complejos \u2014 sabemos d\u00f3nde est\u00e1n los problemas." },
+          { number: "01", title: "Shopify", href: "/shopify-seo", description: "La arquitectura de temas, el manejo de canonicals y el ecosistema de apps de Shopify crean patrones SEO espec\u00edficos. Optimizamos templates Liquid, corregimos contenido duplicado de colecciones y aprovechamos los datos estructurados nativos de Shopify." },
+          { number: "02", title: "WooCommerce", href: "/woocommerce-seo", description: "La flexibilidad de WordPress es tanto una fortaleza como un riesgo. Los conflictos de plugins, las bases de datos infladas y la proliferaci\u00f3n incontrolada de URLs destruyen silenciosamente los rankings. Auditamos y ajustamos todo el stack WP para el rendimiento SEO." },
+          { number: "03", title: "BigCommerce", href: "/bigcommerce-seo", description: "BigCommerce tiene la base SEO nativa m\u00e1s s\u00f3lida de todas las plataformas principales \u2014 sitemaps integrados, microdata y estructuras de URL limpias. Llevamos esas ventajas m\u00e1s lejos con control de navegaci\u00f3n facetada y optimizaci\u00f3n a nivel de cat\u00e1logo." },
+          { number: "04", title: "Adobe Commerce", href: "/adobe-commerce-seo", description: "Adobe Commerce (Magento) es de nivel enterprise pero de complejidad enterprise. El desperdicio de presupuesto de crawl, los problemas de renderizado JS y las configuraciones multi-tienda requieren conocimiento especializado. Hemos trabajado en entornos Magento complejos \u2014 sabemos d\u00f3nde est\u00e1n los problemas." },
         ],
       },
       {
@@ -232,6 +301,29 @@ export const ecommerceSeoPlatformsData: Record<Locale, ServicePageProps> = {
           { number: "02", title: "Correcci\u00f3n de arquitectura", description: "Primero corregir los problemas fundamentales: estructura de URL, enlazado interno, control de navegaci\u00f3n facetada y priorizaci\u00f3n de crawl. La plataforma ahora es estructuralmente s\u00f3lida para posicionar." },
           { number: "03", title: "Optimizaci\u00f3n de contenido y categor\u00edas", description: "Optimizaci\u00f3n de p\u00e1ginas de categor\u00edas consciente de la plataforma, SEO de templates de productos y estrategia de contenido basada en las oportunidades de palabras clave \u00fanicas de tu cat\u00e1logo." },
           { number: "04", title: "Escalar y monitorear", description: "Monitoreo continuo de actualizaciones de la plataforma, cambios de apps y cambios de ranking. Protegemos tus ganancias org\u00e1nicas a medida que tu cat\u00e1logo y stack evolucionan." },
+        ],
+      },
+      {
+        type: "links",
+        badge: "Explorar Más",
+        heading: "Todos los Servicios y Enfoques Sectoriales",
+        subtitle: "La experiencia en plataformas es una dimensión del SEO ecommerce. Explore nuestro menú completo de servicios y estrategias sectoriales.",
+        links: [
+          {
+            title: "Todos los Servicios SEO Ecommerce",
+            description: "Vea cada servicio que ofrecemos — desde auditorías técnicas hasta redacción de contenido y construcción de autoridad.",
+            href: "/ecommerce-seo-services",
+          },
+          {
+            title: "SEO por Sector",
+            description: "Moda, Belleza, Consumibles, Juguetes — estrategias sectoriales para su vertical específico.",
+            href: "/ecommerce-seo-industries",
+          },
+          {
+            title: "SEO Ecommerce",
+            description: "La estrategia SEO comercial completa para tiendas online — independiente de la plataforma y orientada a ingresos.",
+            href: "/ecommerce-seo",
+          },
         ],
       },
     ],
@@ -264,10 +356,10 @@ export const ecommerceSeoPlatformsData: Record<Locale, ServicePageProps> = {
         badge: "Realt\u00e0 del SEO per piattaforma",
         heading: "Perch\u00e9 la tua piattaforma determina tutta la tua strategia SEO",
         process: [
-          { number: "01", title: "Shopify", description: "L\u2019architettura del tema, la gestione dei canonical e l\u2019ecosistema app di Shopify creano schemi SEO specifici. Ottimizziamo i template Liquid, correggiamo i contenuti duplicati dalle collection e sfruttiamo i dati strutturati nativi di Shopify." },
-          { number: "02", title: "WooCommerce", description: "La flessibilit\u00e0 di WordPress \u00e8 sia un punto di forza che un rischio. I conflitti di plugin, i database gonfiati e la proliferazione incontrollata degli URL distruggono silenziosamente i posizionamenti. Facciamo l\u2019audit e ottimizziamo l\u2019intero stack WP per le prestazioni SEO." },
-          { number: "03", title: "BigCommerce", description: "BigCommerce ha le fondamenta SEO native pi\u00f9 solide tra tutte le piattaforme principali \u2014 sitemap integrate, microdata e strutture URL pulite. Spingiamo questi vantaggi ancora oltre con il controllo della navigazione a faccette e l\u2019ottimizzazione a livello di catalogo." },
-          { number: "04", title: "Adobe Commerce", description: "Adobe Commerce (Magento) \u00e8 di livello enterprise ma di complessit\u00e0 enterprise. Lo spreco di budget di crawl, i problemi di rendering JS e le configurazioni multi-store richiedono conoscenze specializzate. Abbiamo lavorato in ambienti Magento complessi \u2014 sappiamo dove si nascondono i problemi." },
+          { number: "01", title: "Shopify", href: "/shopify-seo", description: "L\u2019architettura del tema, la gestione dei canonical e l\u2019ecosistema app di Shopify creano schemi SEO specifici. Ottimizziamo i template Liquid, correggiamo i contenuti duplicati dalle collection e sfruttiamo i dati strutturati nativi di Shopify." },
+          { number: "02", title: "WooCommerce", href: "/woocommerce-seo", description: "La flessibilit\u00e0 di WordPress \u00e8 sia un punto di forza che un rischio. I conflitti di plugin, i database gonfiati e la proliferazione incontrollata degli URL distruggono silenziosamente i posizionamenti. Facciamo l\u2019audit e ottimizziamo l\u2019intero stack WP per le prestazioni SEO." },
+          { number: "03", title: "BigCommerce", href: "/bigcommerce-seo", description: "BigCommerce ha le fondamenta SEO native pi\u00f9 solide tra tutte le piattaforme principali \u2014 sitemap integrate, microdata e strutture URL pulite. Spingiamo questi vantaggi ancora oltre con il controllo della navigazione a faccette e l\u2019ottimizzazione a livello di catalogo." },
+          { number: "04", title: "Adobe Commerce", href: "/adobe-commerce-seo", description: "Adobe Commerce (Magento) \u00e8 di livello enterprise ma di complessit\u00e0 enterprise. Lo spreco di budget di crawl, i problemi di rendering JS e le configurazioni multi-store richiedono conoscenze specializzate. Abbiamo lavorato in ambienti Magento complessi \u2014 sappiamo dove si nascondono i problemi." },
         ],
       },
       {
@@ -294,6 +386,29 @@ export const ecommerceSeoPlatformsData: Record<Locale, ServicePageProps> = {
           { number: "02", title: "Correzione dell\u2019architettura", description: "Prima correggiamo i problemi fondamentali: struttura URL, linking interno, controllo della navigazione a faccette e prioritizzazione del crawl. La piattaforma \u00e8 ora strutturalmente solida per il posizionamento." },
           { number: "03", title: "Ottimizzazione di contenuti e categorie", description: "Ottimizzazione delle pagine di categoria consapevole della piattaforma, SEO dei template prodotto e strategia di contenuto costruita attorno alle opportunit\u00e0 di keyword uniche del tuo catalogo." },
           { number: "04", title: "Scalare e monitorare", description: "Monitoraggio continuo degli aggiornamenti della piattaforma, cambiamenti delle app e variazioni di posizionamento. Proteggiamo i tuoi guadagni organici mentre il tuo catalogo e stack si evolvono." },
+        ],
+      },
+      {
+        type: "links",
+        badge: "Esplora Altro",
+        heading: "Tutti i Servizi e gli Approcci Settoriali",
+        subtitle: "L'esperienza della piattaforma è una dimensione del SEO ecommerce. Esplora il nostro menu completo di servizi e strategie settoriali.",
+        links: [
+          {
+            title: "Tutti i Servizi SEO Ecommerce",
+            description: "Scopri ogni servizio che offriamo — dagli audit tecnici alla scrittura di contenuti alla costruzione di autorità.",
+            href: "/ecommerce-seo-services",
+          },
+          {
+            title: "SEO per Settore",
+            description: "Moda, Bellezza, Consumabili, Giocattoli — strategie settoriali per il tuo verticale specifico.",
+            href: "/ecommerce-seo-industries",
+          },
+          {
+            title: "SEO Ecommerce",
+            description: "La strategia SEO commerciale completa per i negozi online — indipendente dalla piattaforma e orientata ai ricavi.",
+            href: "/ecommerce-seo",
+          },
         ],
       },
     ],
@@ -326,10 +441,10 @@ export const ecommerceSeoPlatformsData: Record<Locale, ServicePageProps> = {
         badge: "Platform SEO-realiteiten",
         heading: "Waarom jouw platform je hele SEO-strategie bepaalt",
         process: [
-          { number: "01", title: "Shopify", description: "De thema-architectuur, canonical-afhandeling en het app-ecosysteem van Shopify cre\u00ebren specifieke SEO-patronen. We optimaliseren Liquid-templates, lossen duplicate content van collections op en benutten Shopify\u2019s native gestructureerde data." },
-          { number: "02", title: "WooCommerce", description: "WordPress-flexibiliteit is zowel een kracht als een risico. Plugin-conflicten, opgeblazen databases en ongecontroleerde URL-wildgroei vernietigen stilletjes rankings. We auditeren en stroomlijnen de volledige WP-stack voor SEO-prestaties." },
-          { number: "03", title: "BigCommerce", description: "BigCommerce heeft de sterkste native SEO-basis van alle grote platforms \u2014 ingebouwde sitemaps, microdata en schone URL-structuren. We drijven die voordelen verder met gefacetteerde navigatiecontrole en optimalisatie op catalogusniveau." },
-          { number: "04", title: "Adobe Commerce", description: "Adobe Commerce (Magento) is enterprise-grade maar enterprise-complex. Crawlbudgetverspilling, JS-renderingproblemen en multi-store configuraties vereisen specialistische kennis. We hebben in complexe Magento-omgevingen gewerkt \u2014 we weten waar de problemen zitten." },
+          { number: "01", title: "Shopify", href: "/shopify-seo", description: "De thema-architectuur, canonical-afhandeling en het app-ecosysteem van Shopify cre\u00ebren specifieke SEO-patronen. We optimaliseren Liquid-templates, lossen duplicate content van collections op en benutten Shopify\u2019s native gestructureerde data." },
+          { number: "02", title: "WooCommerce", href: "/woocommerce-seo", description: "WordPress-flexibiliteit is zowel een kracht als een risico. Plugin-conflicten, opgeblazen databases en ongecontroleerde URL-wildgroei vernietigen stilletjes rankings. We auditeren en stroomlijnen de volledige WP-stack voor SEO-prestaties." },
+          { number: "03", title: "BigCommerce", href: "/bigcommerce-seo", description: "BigCommerce heeft de sterkste native SEO-basis van alle grote platforms \u2014 ingebouwde sitemaps, microdata en schone URL-structuren. We drijven die voordelen verder met gefacetteerde navigatiecontrole en optimalisatie op catalogusniveau." },
+          { number: "04", title: "Adobe Commerce", href: "/adobe-commerce-seo", description: "Adobe Commerce (Magento) is enterprise-grade maar enterprise-complex. Crawlbudgetverspilling, JS-renderingproblemen en multi-store configuraties vereisen specialistische kennis. We hebben in complexe Magento-omgevingen gewerkt \u2014 we weten waar de problemen zitten." },
         ],
       },
       {
@@ -356,6 +471,29 @@ export const ecommerceSeoPlatformsData: Record<Locale, ServicePageProps> = {
           { number: "02", title: "Architectuurherstel", description: "Eerst de fundamentele problemen oplossen: URL-structuur, interne linking, gefacetteerde navigatiecontrole en crawlprioritering. Het platform is nu structureel solide om te ranken." },
           { number: "03", title: "Content- en categorieoptimalisatie", description: "Platformbewuste categoriepagina-optimalisatie, product-template SEO en contentstrategie gebouwd rond de unieke keyword-kansen van jouw catalogus." },
           { number: "04", title: "Schalen & monitoren", description: "Doorlopende monitoring op platformupdates, app-wijzigingen en rankingverschuivingen. We beschermen je organische winsten terwijl je catalogus en stack zich ontwikkelen." },
+        ],
+      },
+      {
+        type: "links",
+        badge: "Meer Verkennen",
+        heading: "Alle Services en Sectorbenadering Verkennen",
+        subtitle: "Platformexpertise is één dimensie van ecommerce SEO. Verken ons volledige servicemenu en branchespecifieke strategieën.",
+        links: [
+          {
+            title: "Alle Ecommerce SEO Services",
+            description: "Bekijk elke service die we aanbieden — van technische audits tot contentschrijven tot gezagsopbouw.",
+            href: "/ecommerce-seo-services",
+          },
+          {
+            title: "SEO per Sector",
+            description: "Mode, Beauty, Consumabelen, Speelgoed — sectorstrategieën voor uw specifieke vertical.",
+            href: "/ecommerce-seo-industries",
+          },
+          {
+            title: "Ecommerce SEO",
+            description: "De volledige commerciële SEO-strategie voor webshops — platformonafhankelijk en omzetgericht.",
+            href: "/ecommerce-seo",
+          },
         ],
       },
     ],

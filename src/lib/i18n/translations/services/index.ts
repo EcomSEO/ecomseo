@@ -16,6 +16,7 @@ export { consumablesSeoData } from "./consumables-seo";
 export { toysSeoData } from "./toys-seo";
 export { ecommerceSeoPlatformsData } from "./ecommerce-seo-platforms";
 export { ecommerceSeoIndustriesData } from "./ecommerce-seo-industries";
+export { ecommerceSeoServicesData } from "./ecommerce-seo-services";
 
 import { ecommerceSeoData } from "./ecommerce-seo";
 import { shopifySeoData } from "./shopify-seo";
@@ -32,6 +33,7 @@ import { consumablesSeoData } from "./consumables-seo";
 import { toysSeoData } from "./toys-seo";
 import { ecommerceSeoPlatformsData } from "./ecommerce-seo-platforms";
 import { ecommerceSeoIndustriesData } from "./ecommerce-seo-industries";
+import { ecommerceSeoServicesData } from "./ecommerce-seo-services";
 
 /**
  * Template-level strings used by ServicePageTemplate itself
@@ -96,6 +98,7 @@ export const servicePageData: Record<
   "toys-seo": toysSeoData,
   "ecommerce-seo-platforms": ecommerceSeoPlatformsData,
   "ecommerce-seo-industries": ecommerceSeoIndustriesData,
+  "ecommerce-seo-services": ecommerceSeoServicesData,
 };
 
 /**

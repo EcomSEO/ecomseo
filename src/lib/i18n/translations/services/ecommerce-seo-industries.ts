@@ -30,10 +30,10 @@ export const ecommerceSeoIndustriesData: Record<Locale, ServicePageProps> = {
         badge: "Industries We Specialize In",
         heading: "Our Approach to Each Vertical",
         process: [
-          { number: "01", title: "Fashion SEO", description: "Seasonal trend content, size & style facet optimization, trend-driven category pages, and lookbook-style content that earns natural editorial links from fashion publishers." },
-          { number: "02", title: "Beauty SEO", description: "Ingredient keyword clusters, how-to & tutorial content, product comparison pages, and skin type / concern-based navigation that matches how beauty buyers actually search." },
-          { number: "03", title: "Consumables SEO", description: "Subscription and repurchase intent optimization, loyalty content, and topical authority in product benefit categories. We increase LTV through organic search \u2014 not just first-purchase traffic." },
-          { number: "04", title: "Toys SEO", description: "Age-range and developmental category optimization, safety-focused content that builds trust, gift guide content for peak seasonal capture, and compliance-aware copy." },
+          { number: "01", title: "Fashion SEO", href: "/fashion-seo", description: "Seasonal trend content, size & style facet optimization, trend-driven category pages, and lookbook-style content that earns natural editorial links from fashion publishers." },
+          { number: "02", title: "Beauty SEO", href: "/beauty-seo", description: "Ingredient keyword clusters, how-to & tutorial content, product comparison pages, and skin type / concern-based navigation that matches how beauty buyers actually search." },
+          { number: "03", title: "Consumables SEO", href: "/consumables-seo", description: "Subscription and repurchase intent optimization, loyalty content, and topical authority in product benefit categories. We increase LTV through organic search \u2014 not just first-purchase traffic." },
+          { number: "04", title: "Toys SEO", href: "/toys-seo", description: "Age-range and developmental category optimization, safety-focused content that builds trust, gift guide content for peak seasonal capture, and compliance-aware copy." },
         ],
       },
       {
@@ -46,6 +46,29 @@ export const ecommerceSeoIndustriesData: Record<Locale, ServicePageProps> = {
           { number: "02", title: "Competitor Intelligence", description: "We reverse-engineer the top-ranking stores in your niche: their content architecture, backlink profile, and category structure. Then we build a strategy that beats them on their best angles." },
           { number: "03", title: "Content Architecture", description: "A content plan built for your buyer\u2019s journey: category page optimization, buying guides, comparison content, and seasonal campaign pages that capture demand year-round." },
           { number: "04", title: "Authority Building", description: "Industry-relevant link acquisition from publications, bloggers, and directories that carry real authority in your vertical \u2014 not generic link farms that don\u2019t move the needle." },
+        ],
+      },
+      {
+        type: "links",
+        badge: "Explore More",
+        heading: "Browse All Services & Platform Approaches",
+        subtitle: "Industry expertise is one dimension of ecommerce SEO. Explore our full service menu and platform-specific strategies.",
+        links: [
+          {
+            title: "All Ecommerce SEO Services",
+            description: "See every service we offer — from technical audits to content writing to authority building.",
+            href: "/ecommerce-seo-services",
+          },
+          {
+            title: "SEO by Platform",
+            description: "Shopify, WooCommerce, BigCommerce, Adobe Commerce — platform-native strategies for your exact tech stack.",
+            href: "/ecommerce-seo-platforms",
+          },
+          {
+            title: "Ecommerce SEO",
+            description: "The full commercial SEO strategy for online stores — industry-agnostic and revenue-focused.",
+            href: "/ecommerce-seo",
+          },
         ],
       },
     ],
@@ -92,10 +115,10 @@ export const ecommerceSeoIndustriesData: Record<Locale, ServicePageProps> = {
         badge: "Unsere Spezialgebiete",
         heading: "Unser Ansatz f\u00fcr jede Vertikale",
         process: [
-          { number: "01", title: "Mode SEO", description: "Saisonaler Trend-Content, Gr\u00f6\u00dfen- & Stil-Facettenoptimierung, trend-getriebene Kategorieseiten und Lookbook-artiger Content, der nat\u00fcrliche redaktionelle Links von Mode-Publishern generiert." },
-          { number: "02", title: "Beauty SEO", description: "Inhaltsstoff-Keyword-Cluster, How-to- & Tutorial-Content, Produktvergleichsseiten und hauttyp-/problembasierte Navigation, die der tats\u00e4chlichen Suchweise von Beauty-K\u00e4ufern entspricht." },
-          { number: "03", title: "Konsumg\u00fcter SEO", description: "Abo- und Wiederkaufintentions-Optimierung, Loyalty-Content und Themenauthorit\u00e4t in Produktnutzen-Kategorien. Wir steigern den LTV durch organische Suche \u2014 nicht nur Erst-Kauf-Traffic." },
-          { number: "04", title: "Spielzeug SEO", description: "Altersgruppen- und Entwicklungskategorien-Optimierung, sicherheitsfokussierter Content, der Vertrauen aufbaut, Geschenkf\u00fchrer-Content f\u00fcr saisonale H\u00f6chstleistung und compliance-bewusstes Texten." },
+          { number: "01", title: "Mode SEO", href: "/fashion-seo", description: "Saisonaler Trend-Content, Gr\u00f6\u00dfen- & Stil-Facettenoptimierung, trend-getriebene Kategorieseiten und Lookbook-artiger Content, der nat\u00fcrliche redaktionelle Links von Mode-Publishern generiert." },
+          { number: "02", title: "Beauty SEO", href: "/beauty-seo", description: "Inhaltsstoff-Keyword-Cluster, How-to- & Tutorial-Content, Produktvergleichsseiten und hauttyp-/problembasierte Navigation, die der tats\u00e4chlichen Suchweise von Beauty-K\u00e4ufern entspricht." },
+          { number: "03", title: "Konsumg\u00fcter SEO", href: "/consumables-seo", description: "Abo- und Wiederkaufintentions-Optimierung, Loyalty-Content und Themenauthorit\u00e4t in Produktnutzen-Kategorien. Wir steigern den LTV durch organische Suche \u2014 nicht nur Erst-Kauf-Traffic." },
+          { number: "04", title: "Spielzeug SEO", href: "/toys-seo", description: "Altersgruppen- und Entwicklungskategorien-Optimierung, sicherheitsfokussierter Content, der Vertrauen aufbaut, Geschenkf\u00fchrer-Content f\u00fcr saisonale H\u00f6chstleistung und compliance-bewusstes Texten." },
         ],
       },
       {
@@ -108,6 +131,29 @@ export const ecommerceSeoIndustriesData: Record<Locale, ServicePageProps> = {
           { number: "02", title: "Wettbewerbsintelligenz", description: "Wir analysieren die Top-rankenden Shops in Ihrer Nische: ihre Content-Architektur, Backlink-Profil und Kategoriestruktur. Dann entwickeln wir eine Strategie, die sie an ihren besten Winkeln schl\u00e4gt." },
           { number: "03", title: "Content-Architektur", description: "Ein Content-Plan f\u00fcr die Customer Journey Ihres K\u00e4ufers: Kategorieseitenoptimierung, Kaufratgeber, Vergleichs-Content und saisonale Kampagnenseiten, die das ganze Jahr \u00fcber Nachfrage erfassen." },
           { number: "04", title: "Autorit\u00e4tsaufbau", description: "Branchenrelevante Linkaquisition von Publikationen, Bloggern und Verzeichnissen, die in Ihrer Vertikale echte Autorit\u00e4t tragen \u2014 keine generischen Linkfarmen, die nichts bewirken." },
+        ],
+      },
+      {
+        type: "links",
+        badge: "Mehr entdecken",
+        heading: "Alle Services & Plattformansätze durchsuchen",
+        subtitle: "Branchenexpertise ist eine Dimension des E-Commerce-SEO. Entdecken Sie unser vollständiges Service-Menü und plattformspezifische Strategien.",
+        links: [
+          {
+            title: "Alle E-Commerce SEO Services",
+            description: "Sehen Sie jeden Service, den wir anbieten — von technischen Audits bis zu Content-Erstellung und Autoritätsaufbau.",
+            href: "/ecommerce-seo-services",
+          },
+          {
+            title: "SEO nach Plattform",
+            description: "Shopify, WooCommerce, BigCommerce, Adobe Commerce — plattformnative Strategien für Ihren genauen Tech-Stack.",
+            href: "/ecommerce-seo-platforms",
+          },
+          {
+            title: "E-Commerce SEO",
+            description: "Die vollständige kommerzielle SEO-Strategie für Online-Shops — branchenunabhängig und umsatzorientiert.",
+            href: "/ecommerce-seo",
+          },
         ],
       },
     ],
@@ -154,10 +200,10 @@ export const ecommerceSeoIndustriesData: Record<Locale, ServicePageProps> = {
         badge: "Secteurs de sp\u00e9cialisation",
         heading: "Notre approche de chaque verticale",
         process: [
-          { number: "01", title: "SEO Mode", description: "Contenu tendance saisonnier, optimisation des facettes taille & style, pages de cat\u00e9gories ax\u00e9es sur les tendances et contenu de type lookbook qui g\u00e9n\u00e8re des liens \u00e9ditoriaux naturels de la part des \u00e9diteurs de mode." },
-          { number: "02", title: "SEO Beaut\u00e9", description: "Clusters de mots-cl\u00e9s d\u2019ingr\u00e9dients, contenu how-to & tutoriels, pages de comparaison de produits et navigation bas\u00e9e sur le type de peau / probl\u00e8matique qui correspond \u00e0 la fa\u00e7on dont les acheteurs de beaut\u00e9 recherchent vraiment." },
-          { number: "03", title: "SEO Consommables", description: "Optimisation de l\u2019intention d\u2019abonnement et de rachat, contenu de fid\u00e9lit\u00e9 et autorit\u00e9 th\u00e9matique dans les cat\u00e9gories de b\u00e9n\u00e9fices produits. Nous augmentons le LTV par la recherche organique \u2014 pas seulement le trafic de premier achat." },
-          { number: "04", title: "SEO Jouets", description: "Optimisation des cat\u00e9gories par tranche d\u2019\u00e2ge et d\u00e9veloppementale, contenu ax\u00e9 s\u00e9curit\u00e9 qui renforce la confiance, contenu de guide cadeaux pour la capture saisonni\u00e8re et textes respectueux des r\u00e9glementations." },
+          { number: "01", title: "SEO Mode", href: "/fashion-seo", description: "Contenu tendance saisonnier, optimisation des facettes taille & style, pages de cat\u00e9gories ax\u00e9es sur les tendances et contenu de type lookbook qui g\u00e9n\u00e8re des liens \u00e9ditoriaux naturels de la part des \u00e9diteurs de mode." },
+          { number: "02", title: "SEO Beaut\u00e9", href: "/beauty-seo", description: "Clusters de mots-cl\u00e9s d\u2019ingr\u00e9dients, contenu how-to & tutoriels, pages de comparaison de produits et navigation bas\u00e9e sur le type de peau / probl\u00e8matique qui correspond \u00e0 la fa\u00e7on dont les acheteurs de beaut\u00e9 recherchent vraiment." },
+          { number: "03", title: "SEO Consommables", href: "/consumables-seo", description: "Optimisation de l\u2019intention d\u2019abonnement et de rachat, contenu de fid\u00e9lit\u00e9 et autorit\u00e9 th\u00e9matique dans les cat\u00e9gories de b\u00e9n\u00e9fices produits. Nous augmentons le LTV par la recherche organique \u2014 pas seulement le trafic de premier achat." },
+          { number: "04", title: "SEO Jouets", href: "/toys-seo", description: "Optimisation des cat\u00e9gories par tranche d\u2019\u00e2ge et d\u00e9veloppementale, contenu ax\u00e9 s\u00e9curit\u00e9 qui renforce la confiance, contenu de guide cadeaux pour la capture saisonni\u00e8re et textes respectueux des r\u00e9glementations." },
         ],
       },
       {
@@ -170,6 +216,29 @@ export const ecommerceSeoIndustriesData: Record<Locale, ServicePageProps> = {
           { number: "02", title: "Intelligence concurrentielle", description: "Nous d\u00e9codons les boutiques les mieux class\u00e9es dans votre niche\u00a0: leur architecture de contenu, profil de backlinks et structure de cat\u00e9gories. Puis nous construisons une strat\u00e9gie qui les bat sur leurs meilleurs angles." },
           { number: "03", title: "Architecture de contenu", description: "Un plan de contenu con\u00e7u pour le parcours d\u2019achat de votre client\u00a0: optimisation des pages de cat\u00e9gories, guides d\u2019achat, contenu comparatif et pages de campagne saisonni\u00e8res qui captent la demande toute l\u2019ann\u00e9e." },
           { number: "04", title: "Renforcement d\u2019autorit\u00e9", description: "Acquisition de liens pertinents au secteur aupr\u00e8s de publications, blogueurs et annuaires qui portent une vraie autorit\u00e9 dans votre verticale \u2014 pas de fermes de liens g\u00e9n\u00e9riques qui ne changent rien." },
+        ],
+      },
+      {
+        type: "links",
+        badge: "Explorer Plus",
+        heading: "Parcourir Tous les Services et Approches Plateformes",
+        subtitle: "L'expertise sectorielle est une dimension du SEO e-commerce. Explorez notre menu complet de services et nos stratégies par plateforme.",
+        links: [
+          {
+            title: "Tous les Services SEO E-Commerce",
+            description: "Découvrez chaque service que nous proposons — des audits techniques à la rédaction de contenu en passant par la construction d'autorité.",
+            href: "/ecommerce-seo-services",
+          },
+          {
+            title: "SEO par Plateforme",
+            description: "Shopify, WooCommerce, BigCommerce, Adobe Commerce — stratégies natives pour votre stack technologique exact.",
+            href: "/ecommerce-seo-platforms",
+          },
+          {
+            title: "SEO E-Commerce",
+            description: "La stratégie SEO commerciale complète pour les boutiques en ligne — indépendante du secteur et axée sur le chiffre d'affaires.",
+            href: "/ecommerce-seo",
+          },
         ],
       },
     ],
@@ -216,10 +285,10 @@ export const ecommerceSeoIndustriesData: Record<Locale, ServicePageProps> = {
         badge: "Industrias en las que nos especializamos",
         heading: "Nuestro enfoque para cada vertical",
         process: [
-          { number: "01", title: "SEO de Moda", description: "Contenido de tendencias estacionales, optimizaci\u00f3n de facetas de talla y estilo, p\u00e1ginas de categor\u00edas impulsadas por tendencias y contenido estilo lookbook que genera enlaces editoriales naturales de publicaciones de moda." },
-          { number: "02", title: "SEO de Belleza", description: "Clusters de keywords de ingredientes, contenido how-to y tutoriales, p\u00e1ginas de comparaci\u00f3n de productos y navegaci\u00f3n basada en tipo de piel / preocupaci\u00f3n que coincide con c\u00f3mo los compradores de belleza realmente buscan." },
-          { number: "03", title: "SEO de Consumibles", description: "Optimizaci\u00f3n de intenci\u00f3n de suscripci\u00f3n y recompra, contenido de fidelidad y autoridad tem\u00e1tica en categor\u00edas de beneficios de productos. Aumentamos el LTV a trav\u00e9s de b\u00fasqueda org\u00e1nica \u2014 no solo tr\u00e1fico de primera compra." },
-          { number: "04", title: "SEO de Juguetes", description: "Optimizaci\u00f3n de categor\u00edas por rango de edad y desarrollo, contenido enfocado en seguridad que genera confianza, contenido de gu\u00eda de regalos para captura estacional pico y textos conscientes del cumplimiento." },
+          { number: "01", title: "SEO de Moda", href: "/fashion-seo", description: "Contenido de tendencias estacionales, optimizaci\u00f3n de facetas de talla y estilo, p\u00e1ginas de categor\u00edas impulsadas por tendencias y contenido estilo lookbook que genera enlaces editoriales naturales de publicaciones de moda." },
+          { number: "02", title: "SEO de Belleza", href: "/beauty-seo", description: "Clusters de keywords de ingredientes, contenido how-to y tutoriales, p\u00e1ginas de comparaci\u00f3n de productos y navegaci\u00f3n basada en tipo de piel / preocupaci\u00f3n que coincide con c\u00f3mo los compradores de belleza realmente buscan." },
+          { number: "03", title: "SEO de Consumibles", href: "/consumables-seo", description: "Optimizaci\u00f3n de intenci\u00f3n de suscripci\u00f3n y recompra, contenido de fidelidad y autoridad tem\u00e1tica en categor\u00edas de beneficios de productos. Aumentamos el LTV a trav\u00e9s de b\u00fasqueda org\u00e1nica \u2014 no solo tr\u00e1fico de primera compra." },
+          { number: "04", title: "SEO de Juguetes", href: "/toys-seo", description: "Optimizaci\u00f3n de categor\u00edas por rango de edad y desarrollo, contenido enfocado en seguridad que genera confianza, contenido de gu\u00eda de regalos para captura estacional pico y textos conscientes del cumplimiento." },
         ],
       },
       {
@@ -232,6 +301,29 @@ export const ecommerceSeoIndustriesData: Record<Locale, ServicePageProps> = {
           { number: "02", title: "Inteligencia competitiva", description: "Revertimos las tiendas mejor posicionadas en tu nicho: su arquitectura de contenido, perfil de backlinks y estructura de categor\u00edas. Luego construimos una estrategia que las supera en sus mejores \u00e1ngulos." },
           { number: "03", title: "Arquitectura de contenido", description: "Un plan de contenido construido para el viaje del comprador: optimizaci\u00f3n de p\u00e1ginas de categor\u00edas, gu\u00edas de compra, contenido comparativo y p\u00e1ginas de campa\u00f1a estacional que capturan demanda todo el a\u00f1o." },
           { number: "04", title: "Construcci\u00f3n de autoridad", description: "Adquisici\u00f3n de enlaces relevantes para la industria de publicaciones, bloggers y directorios que llevan autoridad real en tu vertical \u2014 no granjas de enlaces gen\u00e9ricas que no mueven la aguja." },
+        ],
+      },
+      {
+        type: "links",
+        badge: "Explorar Más",
+        heading: "Todos los Servicios y Enfoques de Plataforma",
+        subtitle: "La experiencia sectorial es una dimensión del SEO ecommerce. Explore nuestro menú completo de servicios y estrategias por plataforma.",
+        links: [
+          {
+            title: "Todos los Servicios SEO Ecommerce",
+            description: "Vea cada servicio que ofrecemos — desde auditorías técnicas hasta redacción de contenido y construcción de autoridad.",
+            href: "/ecommerce-seo-services",
+          },
+          {
+            title: "SEO por Plataforma",
+            description: "Shopify, WooCommerce, BigCommerce, Adobe Commerce — estrategias nativas para su stack tecnológico exacto.",
+            href: "/ecommerce-seo-platforms",
+          },
+          {
+            title: "SEO Ecommerce",
+            description: "La estrategia SEO comercial completa para tiendas online — independiente del sector y orientada a ingresos.",
+            href: "/ecommerce-seo",
+          },
         ],
       },
     ],
@@ -278,10 +370,10 @@ export const ecommerceSeoIndustriesData: Record<Locale, ServicePageProps> = {
         badge: "Settori in cui ci specializziamo",
         heading: "Il nostro approccio a ogni verticale",
         process: [
-          { number: "01", title: "SEO Moda", description: "Contenuto di tendenze stagionali, ottimizzazione delle faccette taglia e stile, pagine di categoria guidate dalle tendenze e contenuto in stile lookbook che guadagna link editoriali naturali dagli editori di moda." },
-          { number: "02", title: "SEO Bellezza", description: "Cluster di keyword di ingredienti, contenuto how-to e tutorial, pagine di confronto dei prodotti e navigazione basata sul tipo di pelle / problematica che corrisponde a come gli acquirenti di bellezza cercano davvero." },
-          { number: "03", title: "SEO Consumabili", description: "Ottimizzazione dell\u2019intenzione di abbonamento e riacquisto, contenuto di fidelizzazione e autorit\u00e0 tematica nelle categorie dei benefici dei prodotti. Aumentiamo il LTV attraverso la ricerca organica \u2014 non solo il traffico di primo acquisto." },
-          { number: "04", title: "SEO Giocattoli", description: "Ottimizzazione delle categorie per fascia d\u2019et\u00e0 e sviluppo, contenuto focalizzato sulla sicurezza che costruisce fiducia, contenuto di guida regali per la cattura stagionale di punta e testi consapevoli delle normative." },
+          { number: "01", title: "SEO Moda", href: "/fashion-seo", description: "Contenuto di tendenze stagionali, ottimizzazione delle faccette taglia e stile, pagine di categoria guidate dalle tendenze e contenuto in stile lookbook che guadagna link editoriali naturali dagli editori di moda." },
+          { number: "02", title: "SEO Bellezza", href: "/beauty-seo", description: "Cluster di keyword di ingredienti, contenuto how-to e tutorial, pagine di confronto dei prodotti e navigazione basata sul tipo di pelle / problematica che corrisponde a come gli acquirenti di bellezza cercano davvero." },
+          { number: "03", title: "SEO Consumabili", href: "/consumables-seo", description: "Ottimizzazione dell\u2019intenzione di abbonamento e riacquisto, contenuto di fidelizzazione e autorit\u00e0 tematica nelle categorie dei benefici dei prodotti. Aumentiamo il LTV attraverso la ricerca organica \u2014 non solo il traffico di primo acquisto." },
+          { number: "04", title: "SEO Giocattoli", href: "/toys-seo", description: "Ottimizzazione delle categorie per fascia d\u2019et\u00e0 e sviluppo, contenuto focalizzato sulla sicurezza che costruisce fiducia, contenuto di guida regali per la cattura stagionale di punta e testi consapevoli delle normative." },
         ],
       },
       {
@@ -294,6 +386,29 @@ export const ecommerceSeoIndustriesData: Record<Locale, ServicePageProps> = {
           { number: "02", title: "Intelligence competitiva", description: "Decodifichiamo i negozi meglio posizionati nella tua nicchia: la loro architettura di contenuto, il profilo backlink e la struttura delle categorie. Poi costruiamo una strategia che li batte sui loro migliori angoli." },
           { number: "03", title: "Architettura del contenuto", description: "Un piano di contenuto costruito per il percorso d\u2019acquisto del tuo cliente: ottimizzazione delle pagine di categoria, guide all\u2019acquisto, contenuto comparativo e pagine di campagna stagionale che catturano la domanda tutto l\u2019anno." },
           { number: "04", title: "Costruzione dell\u2019autorit\u00e0", description: "Acquisizione di link pertinenti al settore da pubblicazioni, blogger e directory che portano vera autorit\u00e0 nel tuo verticale \u2014 non link farm generiche che non fanno differenza." },
+        ],
+      },
+      {
+        type: "links",
+        badge: "Esplora Altro",
+        heading: "Tutti i Servizi e gli Approcci di Piattaforma",
+        subtitle: "L'esperienza settoriale è una dimensione del SEO ecommerce. Esplora il nostro menu completo di servizi e strategie per piattaforma.",
+        links: [
+          {
+            title: "Tutti i Servizi SEO Ecommerce",
+            description: "Scopri ogni servizio che offriamo — dagli audit tecnici alla scrittura di contenuti alla costruzione di autorità.",
+            href: "/ecommerce-seo-services",
+          },
+          {
+            title: "SEO per Piattaforma",
+            description: "Shopify, WooCommerce, BigCommerce, Adobe Commerce — strategie native per il tuo stack tecnologico esatto.",
+            href: "/ecommerce-seo-platforms",
+          },
+          {
+            title: "SEO Ecommerce",
+            description: "La strategia SEO commerciale completa per i negozi online — indipendente dal settore e orientata ai ricavi.",
+            href: "/ecommerce-seo",
+          },
         ],
       },
     ],
@@ -340,10 +455,10 @@ export const ecommerceSeoIndustriesData: Record<Locale, ServicePageProps> = {
         badge: "Sectoren waar we in gespecialiseerd zijn",
         heading: "Onze aanpak per verticaal",
         process: [
-          { number: "01", title: "Mode SEO", description: "Seizoensgebonde trendcontent, grootte & stijl facetoptimalisatie, trendgedreven categoriepagina\u2019s en lookbook-stijl content die natuurlijke redactionele links verdient van mode-uitgevers." },
-          { number: "02", title: "Beauty SEO", description: "Ingredi\u00ebntkeyword-clusters, how-to & tutorial content, productvergelijkingspagina\u2019s en navigatie op basis van huidtype / concern die overeenkomt met hoe beauty-kopers werkelijk zoeken." },
-          { number: "03", title: "Consumptiegoederen SEO", description: "Abonnement- en herkoopintentieoptimalisatie, loyaliteitscontent en topicale autoriteit in productvoordeel-categorie\u00ebn. We verhogen LTV via organisch zoeken \u2014 niet alleen eerste-aankoopverkeer." },
-          { number: "04", title: "Speelgoed SEO", description: "Leeftijdsgroep- en ontwikkelingsgerichte categorieoptimalisatie, veiligheidsgericht content dat vertrouwen opbouwt, cadeau-gids content voor seizoenspiekopvang en nalevingsbewuste teksten." },
+          { number: "01", title: "Mode SEO", href: "/fashion-seo", description: "Seizoensgebonde trendcontent, grootte & stijl facetoptimalisatie, trendgedreven categoriepagina\u2019s en lookbook-stijl content die natuurlijke redactionele links verdient van mode-uitgevers." },
+          { number: "02", title: "Beauty SEO", href: "/beauty-seo", description: "Ingredi\u00ebntkeyword-clusters, how-to & tutorial content, productvergelijkingspagina\u2019s en navigatie op basis van huidtype / concern die overeenkomt met hoe beauty-kopers werkelijk zoeken." },
+          { number: "03", title: "Consumptiegoederen SEO", href: "/consumables-seo", description: "Abonnement- en herkoopintentieoptimalisatie, loyaliteitscontent en topicale autoriteit in productvoordeel-categorie\u00ebn. We verhogen LTV via organisch zoeken \u2014 niet alleen eerste-aankoopverkeer." },
+          { number: "04", title: "Speelgoed SEO", href: "/toys-seo", description: "Leeftijdsgroep- en ontwikkelingsgerichte categorieoptimalisatie, veiligheidsgericht content dat vertrouwen opbouwt, cadeau-gids content voor seizoenspiekopvang en nalevingsbewuste teksten." },
         ],
       },
       {
@@ -356,6 +471,29 @@ export const ecommerceSeoIndustriesData: Record<Locale, ServicePageProps> = {
           { number: "02", title: "Concurrentie-intelligentie", description: "We reverse-engineeren de best-rankende winkels in jouw niche: hun contentarchitectuur, backlinkprofiel en categoriestructuur. Dan bouwen we een strategie die ze verslaat op hun beste hoeken." },
           { number: "03", title: "Contentarchitectuur", description: "Een contentplan gebouwd voor de kooprit van jouw koper: categoriepagina-optimalisatie, koopgidsen, vergelijkende content en seizoensgebonden campagnepagina\u2019s die het hele jaar door vraag vangen." },
           { number: "04", title: "Autoriteitsopbouw", description: "Sector-relevante linkverwerving van publicaties, bloggers en directories die echte autoriteit dragen in jouw verticaal \u2014 geen generieke linkfarms die geen verschil maken." },
+        ],
+      },
+      {
+        type: "links",
+        badge: "Meer Verkennen",
+        heading: "Alle Services en Platformbenaderingen Verkennen",
+        subtitle: "Sectorexpertise is één dimensie van ecommerce SEO. Verken ons volledige servicemenu en platformspecifieke strategieën.",
+        links: [
+          {
+            title: "Alle Ecommerce SEO Services",
+            description: "Bekijk elke service die we aanbieden — van technische audits tot contentschrijven tot gezagsopbouw.",
+            href: "/ecommerce-seo-services",
+          },
+          {
+            title: "SEO per Platform",
+            description: "Shopify, WooCommerce, BigCommerce, Adobe Commerce — platform-native strategieën voor uw exacte techstack.",
+            href: "/ecommerce-seo-platforms",
+          },
+          {
+            title: "Ecommerce SEO",
+            description: "De volledige commerciële SEO-strategie voor webshops — sectoronafhankelijk en omzetgericht.",
+            href: "/ecommerce-seo",
+          },
         ],
       },
     ],
