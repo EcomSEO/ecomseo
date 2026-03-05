@@ -337,7 +337,7 @@ export const processT: Record<Locale, {
 }> = {
   en: {
     badge: "Process",
-    heading: "Most agencies absolutely Suck. We know.",
+    heading: "Most agencies absolutely Suck. *We know.*",
     subtext: "Pretending, no focus, no proven strategy. The truth is... that\u2019s how you start. If you work with experienced agency owners, you\u2019ll experience:",
     steps: [
       { number: "01", title: "100% Transparancy", description: "Automated updates, log in at any time into our dashboards. Dedicated Slack/Whatsapp channels." },
@@ -347,7 +347,7 @@ export const processT: Record<Locale, {
   },
   de: {
     badge: "Prozess",
-    heading: "Die meisten Agenturen sind einfach schlecht. Wir wissen das.",
+    heading: "Die meisten Agenturen sind einfach schlecht. *Wir wissen das.*",
     subtext: "Vortäuschen, kein Fokus, keine bewährte Strategie. Die Wahrheit ist... so fängt man an. Wenn Sie mit erfahrenen Agenturinhabern arbeiten, erleben Sie:",
     steps: [
       { number: "01", title: "100 % Transparenz", description: "Automatisierte Updates, jederzeit in unsere Dashboards einloggen. Dedizierte Slack-/WhatsApp-Kanäle." },
@@ -357,7 +357,7 @@ export const processT: Record<Locale, {
   },
   fr: {
     badge: "Processus",
-    heading: "La plupart des agences sont nulles. On le sait.",
+    heading: "La plupart des agences sont nulles. *On le sait.*",
     subtext: "Faire semblant, pas de focus, pas de stratégie éprouvée. La vérité c\u2019est... c\u2019est comme ça qu\u2019on commence. Si vous travaillez avec des propriétaires d\u2019agence expérimentés, vous vivrez :",
     steps: [
       { number: "01", title: "100 % de transparence", description: "Mises à jour automatisées, connectez-vous à tout moment à nos tableaux de bord. Canaux Slack/WhatsApp dédiés." },
@@ -367,7 +367,7 @@ export const processT: Record<Locale, {
   },
   es: {
     badge: "Proceso",
-    heading: "La mayoría de las agencias son pésimas. Lo sabemos.",
+    heading: "La mayoría de las agencias son pésimas. *Lo sabemos.*",
     subtext: "Fingir, sin enfoque, sin estrategia probada. La verdad es... así es como se empieza. Si trabajas con propietarios de agencias experimentados, experimentarás:",
     steps: [
       { number: "01", title: "100 % de transparencia", description: "Actualizaciones automatizadas, accede en cualquier momento a nuestros dashboards. Canales dedicados de Slack/WhatsApp." },
@@ -377,7 +377,7 @@ export const processT: Record<Locale, {
   },
   it: {
     badge: "Processo",
-    heading: "La maggior parte delle agenzie fa schifo. Lo sappiamo.",
+    heading: "La maggior parte delle agenzie fa schifo. *Lo sappiamo.*",
     subtext: "Fingere, nessun focus, nessuna strategia comprovata. La verità è... così si inizia. Se lavorate con proprietari di agenzie esperti, sperimenterete:",
     steps: [
       { number: "01", title: "100% di trasparenza", description: "Aggiornamenti automatizzati, accedi in qualsiasi momento alle nostre dashboard. Canali Slack/WhatsApp dedicati." },
@@ -387,7 +387,7 @@ export const processT: Record<Locale, {
   },
   nl: {
     badge: "Proces",
-    heading: "De meeste bureaus zijn gewoon slecht. Dat weten we.",
+    heading: "De meeste bureaus zijn gewoon slecht. *Dat weten we.*",
     subtext: "Doen alsof, geen focus, geen bewezen strategie. De waarheid is... zo begin je. Als je werkt met ervaren bureau-eigenaren, ervaar je:",
     steps: [
       { number: "01", title: "100% transparantie", description: "Geautomatiseerde updates, log op elk moment in op onze dashboards. Dedicated Slack/WhatsApp-kanalen." },
