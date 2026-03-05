@@ -31,13 +31,14 @@ export default function ClientLogos() {
               {clientLogos.map((logo, i) => (
                 <div
                   key={`${set}-${i}`}
-                  className="flex-shrink-0 px-8 md:px-12 lg:px-16 flex items-center justify-center"
+                  className="flex-shrink-0 px-10 md:px-14 lg:px-20 flex items-center justify-center"
                 >
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
                     src={logo.src}
                     alt={logo.alt}
-                    className="h-[28px] md:h-[34px] lg:h-[40px] w-auto object-contain opacity-40"
+                    className="h-[28px] md:h-[34px] lg:h-[40px] w-auto object-contain opacity-40 hover:opacity-70 transition-opacity"
+                    style={{ filter: "brightness(0) invert(1)" }}
                   />
                 </div>
               ))}

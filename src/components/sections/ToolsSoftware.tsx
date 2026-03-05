@@ -16,25 +16,26 @@ export default function ToolsSoftware() {
     <section className="w-full py-8 overflow-hidden">
       <div className="relative overflow-hidden">
         {/* Edge fade masks */}
-        <div className="pointer-events-none absolute inset-y-0 left-0 z-10 w-20 bg-gradient-to-r from-background to-transparent" />
-        <div className="pointer-events-none absolute inset-y-0 right-0 z-10 w-20 bg-gradient-to-l from-background to-transparent" />
+        <div className="pointer-events-none absolute inset-y-0 left-0 z-10 w-24 bg-gradient-to-r from-background to-transparent" />
+        <div className="pointer-events-none absolute inset-y-0 right-0 z-10 w-24 bg-gradient-to-l from-background to-transparent" />
 
         <div className="flex animate-ticker items-center">
           {[0, 1].map((copy) => (
             <div
               key={copy}
-              className="flex-shrink-0 flex items-center gap-4 md:gap-6 px-4"
+              className="flex-shrink-0 flex items-center"
             >
               {toolLogos.map((tool) => (
                 <div
                   key={`${copy}-${tool.alt}`}
-                  className="flex-shrink-0 flex items-center justify-center px-4"
+                  className="flex-shrink-0 flex items-center justify-center px-8 md:px-10"
                 >
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
                     src={tool.src}
                     alt={tool.alt}
-                    className="h-[45px] md:h-[55px] w-auto object-contain opacity-50 hover:opacity-80 transition-opacity"
+                    className="h-[28px] md:h-[36px] w-auto object-contain opacity-40 hover:opacity-70 transition-opacity"
+                    style={{ filter: "brightness(0) invert(1)" }}
                   />
                 </div>
               ))}
