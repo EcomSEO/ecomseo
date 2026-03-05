@@ -196,7 +196,7 @@ export const servicesT: Record<Locale, {
 }> = {
   en: {
     badge: "Services",
-    heading: "How can we help you?",
+    heading: "How can we help *you*?",
     subtext: "Our team is focused on growing your brand exponentially through SEO. All of our offers are tailor made.",
     cta: "Get in touch",
     cards: [
@@ -207,7 +207,7 @@ export const servicesT: Record<Locale, {
   },
   de: {
     badge: "Leistungen",
-    heading: "Wie können wir Ihnen helfen?",
+    heading: "Wie können wir *Ihnen* helfen?",
     subtext: "Unser Team konzentriert sich darauf, Ihre Marke durch SEO exponentiell zu skalieren. Alle unsere Angebote sind maßgeschneidert.",
     cta: "Kontakt aufnehmen",
     cards: [
@@ -218,7 +218,7 @@ export const servicesT: Record<Locale, {
   },
   fr: {
     badge: "Services",
-    heading: "Comment pouvons-nous vous aider ?",
+    heading: "Comment pouvons-nous *vous* aider ?",
     subtext: "Notre équipe se concentre sur la croissance exponentielle de votre marque grâce au SEO. Toutes nos offres sont sur mesure.",
     cta: "Nous contacter",
     cards: [
@@ -229,7 +229,7 @@ export const servicesT: Record<Locale, {
   },
   es: {
     badge: "Servicios",
-    heading: "¿Cómo podemos ayudarte?",
+    heading: "¿Cómo podemos *ayudarte*?",
     subtext: "Nuestro equipo se enfoca en hacer crecer tu marca exponencialmente a través del SEO. Todas nuestras ofertas son personalizadas.",
     cta: "Contáctenos",
     cards: [
@@ -240,7 +240,7 @@ export const servicesT: Record<Locale, {
   },
   it: {
     badge: "Servizi",
-    heading: "Come possiamo aiutarti?",
+    heading: "Come possiamo *aiutarti*?",
     subtext: "Il nostro team si concentra sulla crescita esponenziale del tuo brand attraverso la SEO. Tutte le nostre offerte sono su misura.",
     cta: "Contattaci",
     cards: [
@@ -251,7 +251,7 @@ export const servicesT: Record<Locale, {
   },
   nl: {
     badge: "Diensten",
-    heading: "Hoe kunnen we je helpen?",
+    heading: "Hoe kunnen we *je* helpen?",
     subtext: "Ons team is gericht op het exponentieel laten groeien van je merk door SEO. Al onze aanbiedingen zijn op maat gemaakt.",
     cta: "Neem contact op",
     cards: [
