@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Image from "next/image";
 import Badge from "@/components/ui/Badge";
 import Button from "@/components/ui/Button";
 import SectionWrapper from "@/components/ui/SectionWrapper";
@@ -17,33 +18,74 @@ export default function Team() {
   const locale = useLocale();
   const t = teamT[locale];
 
-  const teamMembers = t.members.map((member, i) => ({
-    name: member.name,
-    role: member.role,
-    image: teamImages[i],
+  const fabian = { ...t.members[0], image: teamImages[0] };
+  const otherMembers = t.members.slice(1).map((m, i) => ({
+    ...m,
+    image: teamImages[i + 1],
   }));
 
   return (
     <SectionWrapper className="py-24 md:py-32">
       <div className="flex flex-col gap-12">
-        <motion.div
-          className="flex flex-col gap-4 max-w-[700px]"
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, margin: "-100px" }}
-          transition={{ duration: 0.6 }}
-        >
-          <Badge text={t.badge} />
-          <h2 className="text-[32px] md:text-[48px] lg:text-[56px] font-medium leading-[1.1] tracking-[-0.02em] text-heading">
-            {t.heading}
-          </h2>
-          <p className="text-body text-base md:text-lg">
-            {t.description}
-          </p>
-        </motion.div>
+        {/* ─── Hero row: Fabian photo + text side by side ─── */}
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
+          {/* Left – Fabian photo card */}
+          <motion.div
+            className="relative rounded-3xl overflow-hidden border border-border h-[480px] lg:h-[520px]"
+            initial={{ opacity: 0, x: -30 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
+          >
+            <Image
+              src={fabian.image}
+              alt={fabian.name}
+              fill
+              className="object-cover"
+              sizes="(max-width: 1024px) 100vw, 50vw"
+            />
+            {/* Gradient overlay */}
+            <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent" />
+            {/* Name + role at bottom */}
+            <div className="absolute bottom-0 left-0 right-0 p-8 flex flex-col gap-1">
+              <h3 className="text-lg font-medium text-heading">
+                {fabian.name}
+              </h3>
+              <span className="text-sm text-body">{fabian.role}</span>
+            </div>
+          </motion.div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-          {teamMembers.map((member, i) => (
+          {/* Right – text content */}
+          <motion.div
+            className="flex flex-col gap-5"
+            initial={{ opacity: 0, x: 30 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6, delay: 0.1 }}
+          >
+            <Badge text={t.badge} />
+            <h2 className="text-[32px] md:text-[44px] lg:text-[52px] font-medium leading-[1.1] tracking-[-0.02em] text-heading">
+              {t.heading}
+            </h2>
+            <p className="text-body text-base md:text-lg leading-relaxed">
+              {t.description}
+            </p>
+            <div className="pt-2">
+              <Button
+                href="https://w35pmime997.typeform.com/to/eqeeLQvb"
+                variant="primary"
+                size="large"
+                external
+              >
+                {t.cta} &nbsp;→
+              </Button>
+            </div>
+          </motion.div>
+        </div>
+
+        {/* ─── Other team members ─── */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          {otherMembers.map((member, i) => (
             <motion.div
               key={member.name}
               className="group relative rounded-3xl overflow-hidden border border-border h-[400px]"
@@ -52,15 +94,15 @@ export default function Team() {
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: i * 0.1 }}
             >
-              {/* Background image */}
-              <div
-                className="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-105"
-                style={{ backgroundImage: `url(${member.image})` }}
+              <Image
+                src={member.image}
+                alt={member.name}
+                fill
+                className="object-cover transition-transform duration-500 group-hover:scale-105"
+                sizes="(max-width: 640px) 100vw, 50vw"
               />
-              {/* Gradient overlay */}
               <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/30 to-transparent" />
-              {/* Content at bottom */}
-              <div className="absolute bottom-0 left-0 right-0 p-8 flex flex-col gap-3">
+              <div className="absolute bottom-0 left-0 right-0 p-8 flex flex-col gap-1">
                 <h3 className="text-base font-medium text-heading">
                   {member.name}
                 </h3>
@@ -69,22 +111,6 @@ export default function Team() {
             </motion.div>
           ))}
         </div>
-
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.5 }}
-        >
-          <Button
-            href="https://w35pmime997.typeform.com/to/eqeeLQvb"
-            variant="primary"
-            size="large"
-            external
-          >
-            {t.cta}
-          </Button>
-        </motion.div>
       </div>
     </SectionWrapper>
   );
