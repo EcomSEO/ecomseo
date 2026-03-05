@@ -231,6 +231,14 @@ export default function Navigation() {
     icon: hrefToIcon[s.href] || "",
   }));
 
+  const serviceTypeHrefs = new Set(["/link-building", "/keyword-research", "/amazon-seo", "/content-writing"]);
+  const platformHrefs = new Set(["/shopify-seo", "/adobe-commerce-seo", "/woocommerce-seo", "/bigcommerce-seo"]);
+  const industryHrefs = new Set(["/fashion-seo", "/beauty-seo", "/consumables-seo", "/toys-seo"]);
+
+  const serviceTypes = allServices.filter((s) => serviceTypeHrefs.has(s.href));
+  const platforms = allServices.filter((s) => platformHrefs.has(s.href));
+  const industries = allServices.filter((s) => industryHrefs.has(s.href));
+
   const handleMouseEnter = (label: string) => {
     if (closeTimeoutRef.current) {
       clearTimeout(closeTimeoutRef.current);
@@ -369,18 +377,100 @@ export default function Navigation() {
             </button>
           </div>
 
-          {/* ─── Ecommerce SEO Mega Dropdown (Grid with Icons) ─── */}
+          {/* ─── Ecommerce SEO Mega Dropdown (3-column) ─── */}
           {openDropdown === "ecommerce" && (
             <div
               className="hidden lg:block"
               onMouseEnter={() => handleMouseEnter("ecommerce")}
               onMouseLeave={handleMouseLeave}
             >
-              <div className="mx-auto max-w-[1200px] px-3 pb-8">
-                <div className="grid grid-cols-6 divide-x divide-white/[0.06]">
-                  {allServices.map((s) => (
-                    <ServiceGridTile key={s.href} {...s} />
-                  ))}
+              <div className="mx-auto max-w-[1200px] px-6 pb-8">
+                {/* Header row */}
+                <div className="flex items-center justify-between py-5 mb-2 border-b border-white/[0.06]">
+                  <div className="flex-1" />
+                  <p className="text-white text-[15px] font-medium tracking-[-0.01em]">
+                    {t.megaMenuHeading}
+                  </p>
+                  <div className="flex-1 flex justify-end">
+                    <LocaleLink
+                      href="/ecommerce-seo"
+                      className="text-sm text-white/40 hover:text-white transition-colors flex items-center gap-1"
+                    >
+                      {t.ourFramework}
+                      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                        <path d="M5 12h14M12 5l7 7-7 7" strokeLinecap="round" strokeLinejoin="round" />
+                      </svg>
+                    </LocaleLink>
+                  </div>
+                </div>
+
+                {/* Three columns */}
+                <div className="grid grid-cols-3 divide-x divide-white/[0.06]">
+                  {/* Col 1: By service type */}
+                  <div className="pr-8 py-4">
+                    <p className="text-white/30 text-[11px] font-medium uppercase tracking-widest mb-3">
+                      {t.byServiceType}
+                    </p>
+                    <div className="border-t border-white/[0.06] mb-3" />
+                    <div className="grid grid-cols-2">
+                      {serviceTypes.map((s) => (
+                        <ServiceGridTile key={s.href} {...s} />
+                      ))}
+                    </div>
+                    <LocaleLink
+                      href="/ecommerce-seo"
+                      className="mt-3 text-[13px] text-white/30 hover:text-white transition-colors flex items-center gap-1"
+                    >
+                      {t.seeMoreServices}
+                      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                        <path d="M5 12h14M12 5l7 7-7 7" strokeLinecap="round" strokeLinejoin="round" />
+                      </svg>
+                    </LocaleLink>
+                  </div>
+
+                  {/* Col 2: By platform */}
+                  <div className="px-8 py-4">
+                    <p className="text-white/30 text-[11px] font-medium uppercase tracking-widest mb-3">
+                      {t.byPlatform}
+                    </p>
+                    <div className="border-t border-white/[0.06] mb-3" />
+                    <div className="grid grid-cols-2">
+                      {platforms.map((s) => (
+                        <ServiceGridTile key={s.href} {...s} />
+                      ))}
+                    </div>
+                    <LocaleLink
+                      href="/ecommerce-seo"
+                      className="mt-3 text-[13px] text-white/30 hover:text-white transition-colors flex items-center gap-1"
+                    >
+                      {t.seeMorePlatforms}
+                      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                        <path d="M5 12h14M12 5l7 7-7 7" strokeLinecap="round" strokeLinejoin="round" />
+                      </svg>
+                    </LocaleLink>
+                  </div>
+
+                  {/* Col 3: By industry */}
+                  <div className="pl-8 py-4">
+                    <p className="text-white/30 text-[11px] font-medium uppercase tracking-widest mb-3">
+                      {t.byIndustry}
+                    </p>
+                    <div className="border-t border-white/[0.06] mb-3" />
+                    <div className="grid grid-cols-2">
+                      {industries.map((s) => (
+                        <ServiceGridTile key={s.href} {...s} />
+                      ))}
+                    </div>
+                    <LocaleLink
+                      href="/ecommerce-seo"
+                      className="mt-3 text-[13px] text-white/30 hover:text-white transition-colors flex items-center gap-1"
+                    >
+                      {t.seeMoreIndustries}
+                      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                        <path d="M5 12h14M12 5l7 7-7 7" strokeLinecap="round" strokeLinejoin="round" />
+                      </svg>
+                    </LocaleLink>
+                  </div>
                 </div>
               </div>
             </div>
@@ -434,26 +524,33 @@ export default function Navigation() {
                 </svg>
               </button>
               {mobileAccordion === "ecommerce" && (
-                <div className="pb-3 space-y-1">
-                  {allServices.map((s) => {
-                    const Icon = iconMap[s.icon];
-                    return (
-                      <LocaleLink
-                        key={s.href}
-                        href={s.href}
-                        className="flex items-center gap-3 py-2.5 px-2 rounded-lg text-sm text-white/50 hover:text-white hover:bg-white/[0.04] transition-colors"
-                        onClick={() => setMobileOpen(false)}
-                      >
-                        <div className="flex-shrink-0">
-                          {Icon && <Icon />}
-                        </div>
-                        <div>
-                          <div className="text-white/80 font-medium text-sm">{s.label}</div>
-                          <div className="text-white/30 text-xs">{s.desc}</div>
-                        </div>
-                      </LocaleLink>
-                    );
-                  })}
+                <div className="pb-3 space-y-4">
+                  {[
+                    { label: t.byServiceType, items: serviceTypes },
+                    { label: t.byPlatform, items: platforms },
+                    { label: t.byIndustry, items: industries },
+                  ].map((group) => (
+                    <div key={group.label}>
+                      <p className="text-white/30 text-[10px] uppercase tracking-widest px-2 mb-1">{group.label}</p>
+                      {group.items.map((s) => {
+                        const Icon = iconMap[s.icon];
+                        return (
+                          <LocaleLink
+                            key={s.href}
+                            href={s.href}
+                            className="flex items-center gap-3 py-2 px-2 rounded-lg text-sm text-white/50 hover:text-white hover:bg-white/[0.04] transition-colors"
+                            onClick={() => setMobileOpen(false)}
+                          >
+                            <div className="flex-shrink-0">{Icon && <Icon />}</div>
+                            <div>
+                              <div className="text-white/80 font-medium text-sm">{s.label}</div>
+                              <div className="text-white/30 text-xs">{s.desc}</div>
+                            </div>
+                          </LocaleLink>
+                        );
+                      })}
+                    </div>
+                  ))}
                 </div>
               )}
             </div>

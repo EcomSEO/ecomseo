@@ -7,6 +7,14 @@ export const navigationTranslations: Record<Locale, {
   blog: string;
   clientDashboard: string;
   getInTouch: string;
+  megaMenuHeading: string;
+  ourFramework: string;
+  byServiceType: string;
+  byPlatform: string;
+  byIndustry: string;
+  seeMoreServices: string;
+  seeMorePlatforms: string;
+  seeMoreIndustries: string;
   services: {
     label: string;
     desc: string;
@@ -25,6 +33,14 @@ export const navigationTranslations: Record<Locale, {
     blog: "Blog",
     clientDashboard: "Client Dashboard",
     getInTouch: "Get in Touch",
+    megaMenuHeading: "We do SEO for ecommerce sites",
+    ourFramework: "Our Framework",
+    byServiceType: "By service type",
+    byPlatform: "By platform",
+    byIndustry: "By industry",
+    seeMoreServices: "See more services",
+    seeMorePlatforms: "See more platforms",
+    seeMoreIndustries: "See more industries",
     services: [
       { label: "Link Building", desc: "Build real off-page authority for your site", href: "/link-building" },
       { label: "Keyword Research", desc: "Fundamentals of any SEO strategy", href: "/keyword-research" },
@@ -52,6 +68,14 @@ export const navigationTranslations: Record<Locale, {
     blog: "Blog",
     clientDashboard: "Kunden-Dashboard",
     getInTouch: "Kontakt aufnehmen",
+    megaMenuHeading: "Wir machen SEO für E-Commerce-Shops",
+    ourFramework: "Unser Framework",
+    byServiceType: "Nach Service-Typ",
+    byPlatform: "Nach Plattform",
+    byIndustry: "Nach Branche",
+    seeMoreServices: "Mehr Services",
+    seeMorePlatforms: "Mehr Plattformen",
+    seeMoreIndustries: "Mehr Branchen",
     services: [
       { label: "Linkaufbau", desc: "Echte Off-Page-Autorität für Ihre Website aufbauen", href: "/link-building" },
       { label: "Keyword-Recherche", desc: "Die Grundlage jeder SEO-Strategie", href: "/keyword-research" },
@@ -79,6 +103,14 @@ export const navigationTranslations: Record<Locale, {
     blog: "Blog",
     clientDashboard: "Tableau de bord client",
     getInTouch: "Nous contacter",
+    megaMenuHeading: "Nous faisons du SEO pour les e-commerces",
+    ourFramework: "Notre approche",
+    byServiceType: "Par type de service",
+    byPlatform: "Par plateforme",
+    byIndustry: "Par secteur",
+    seeMoreServices: "Voir plus de services",
+    seeMorePlatforms: "Voir plus de plateformes",
+    seeMoreIndustries: "Voir plus de secteurs",
     services: [
       { label: "Link Building", desc: "Construisez une vraie autorité off-page pour votre site", href: "/link-building" },
       { label: "Recherche de mots-clés", desc: "Les fondamentaux de toute stratégie SEO", href: "/keyword-research" },
@@ -106,6 +138,14 @@ export const navigationTranslations: Record<Locale, {
     blog: "Blog",
     clientDashboard: "Panel de cliente",
     getInTouch: "Contáctenos",
+    megaMenuHeading: "Hacemos SEO para tiendas e-commerce",
+    ourFramework: "Nuestro framework",
+    byServiceType: "Por tipo de servicio",
+    byPlatform: "Por plataforma",
+    byIndustry: "Por industria",
+    seeMoreServices: "Ver más servicios",
+    seeMorePlatforms: "Ver más plataformas",
+    seeMoreIndustries: "Ver más industrias",
     services: [
       { label: "Link Building", desc: "Construye autoridad off-page real para tu sitio", href: "/link-building" },
       { label: "Investigación de palabras clave", desc: "Los fundamentos de toda estrategia SEO", href: "/keyword-research" },
@@ -133,6 +173,14 @@ export const navigationTranslations: Record<Locale, {
     blog: "Blog",
     clientDashboard: "Dashboard cliente",
     getInTouch: "Contattaci",
+    megaMenuHeading: "Facciamo SEO per l'e-commerce",
+    ourFramework: "Il nostro framework",
+    byServiceType: "Per tipo di servizio",
+    byPlatform: "Per piattaforma",
+    byIndustry: "Per settore",
+    seeMoreServices: "Vedi altri servizi",
+    seeMorePlatforms: "Vedi altre piattaforme",
+    seeMoreIndustries: "Vedi altri settori",
     services: [
       { label: "Link Building", desc: "Costruisci vera autorità off-page per il tuo sito", href: "/link-building" },
       { label: "Ricerca parole chiave", desc: "Le basi di qualsiasi strategia SEO", href: "/keyword-research" },
@@ -160,6 +208,14 @@ export const navigationTranslations: Record<Locale, {
     blog: "Blog",
     clientDashboard: "Klanten Dashboard",
     getInTouch: "Neem contact op",
+    megaMenuHeading: "Wij doen SEO voor e-commerce winkels",
+    ourFramework: "Ons framework",
+    byServiceType: "Op servicetype",
+    byPlatform: "Op platform",
+    byIndustry: "Op sector",
+    seeMoreServices: "Meer services",
+    seeMorePlatforms: "Meer platformen",
+    seeMoreIndustries: "Meer sectoren",
     services: [
       { label: "Linkbuilding", desc: "Bouw echte off-page autoriteit voor je site", href: "/link-building" },
       { label: "Zoekwoordenonderzoek", desc: "De basis van elke SEO-strategie", href: "/keyword-research" },
