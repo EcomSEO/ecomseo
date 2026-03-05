@@ -11,8 +11,8 @@ const avatars = [
   "/images/framer/M30GCOkzDVYBvBJnuLVYhsnyGw.png",
   "/images/framer/80o2iODSsHPFqjC6aLCcDC1DMYQ.png",
   "/images/framer/IXaVr7HXZA5nSzm7giEQq6Bs.png",
-  "/images/framer/C23VbBxvj2kY5TMoXAJHXWVLaA.webp",
-  "/images/framer/LFHXY0nxSQzbhGYgd9g8reMSo.png",
+  "/images/framer/hero-avatar-hairdryer.png",
+  "/images/framer/hero-avatar-bottle.png",
 ];
 
 function SocialProof({ text }: { text: string }) {
