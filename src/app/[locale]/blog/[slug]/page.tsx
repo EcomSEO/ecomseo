@@ -78,6 +78,7 @@ export default async function BlogPostPage({
       "@type": "Person",
       name: article.author,
       jobTitle: article.authorRole,
+      url: `${BASE_URL}/${locale}/blog/author/${article.authorSlug}`,
     },
     publisher: {
       "@type": "Organization",
@@ -114,7 +115,13 @@ export default async function BlogPostPage({
               </p>
               <div className="flex items-center gap-4 text-sm text-body/60">
                 <span>
-                  {t.byAuthor} {article.author}
+                  {t.byAuthor}{" "}
+                  <LocaleLink
+                    href={`/blog/author/${article.authorSlug}`}
+                    className="text-body/60 hover:text-accent transition-colors underline underline-offset-2"
+                  >
+                    {article.author}
+                  </LocaleLink>
                 </span>
                 <span className="w-1 h-1 rounded-full bg-body/30" />
                 <span>{article.readingTime} {t.minRead}</span>

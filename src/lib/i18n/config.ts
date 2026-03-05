@@ -145,4 +145,5 @@ export const staticRoutes = [
   "/blog/ecommerce-seo-content",
   "/blog/ecommerce-seo-marketing",
   "/blog/enterprise-ecommerce-seo",
+  "/blog/author/fabian-van-til",
 ];

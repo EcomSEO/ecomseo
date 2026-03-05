@@ -9,6 +9,7 @@ export const ecommerceSeoMistakes: BlogArticle = {
   readingTime: 12,
   author: "Fabian van Til",
   authorRole: "CEO at EcomSEO",
+  authorSlug: "fabian-van-til",
   primaryKeyword: "ecommerce seo mistakes",
   secondaryKeywords: ["common ecommerce seo errors", "ecommerce seo problems", "seo mistakes online stores"],
   sections: [

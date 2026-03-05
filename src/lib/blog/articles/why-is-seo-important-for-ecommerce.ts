@@ -9,6 +9,7 @@ export const whyIsSeoImportantForEcommerce: BlogArticle = {
   readingTime: 10,
   author: "Fabian van Til",
   authorRole: "CEO at EcomSEO",
+  authorSlug: "fabian-van-til",
   primaryKeyword: "why is seo important for ecommerce",
   secondaryKeywords: ["importance of seo for ecommerce", "ecommerce seo benefits", "ecommerce seo roi"],
   sections: [

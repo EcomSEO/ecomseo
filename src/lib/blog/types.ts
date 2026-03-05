@@ -12,6 +12,7 @@ export type BlogArticle = {
   readingTime: number;
   author: string;
   authorRole: string;
+  authorSlug: string;
   primaryKeyword: string;
   secondaryKeywords: string[];
   sections: BlogSection[];

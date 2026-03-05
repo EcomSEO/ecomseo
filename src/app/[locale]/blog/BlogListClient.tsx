@@ -12,6 +12,7 @@ type ArticleCard = {
   publishDate: string;
   readingTime: number;
   author: string;
+  authorSlug: string;
 };
 
 export default function BlogListClient({
@@ -69,11 +70,16 @@ export default function BlogListClient({
       {/* Article grid */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {filtered.map((article) => (
-          <LocaleLink
+          <div
             key={article.slug}
-            href={`/blog/${article.slug}`}
-            className="group flex flex-col rounded-xl border border-border bg-white/[0.02] hover:bg-white/[0.04] hover:border-white/[0.12] transition-all p-6"
+            className="group relative flex flex-col rounded-xl border border-border bg-white/[0.02] hover:bg-white/[0.04] hover:border-white/[0.12] transition-all p-6"
           >
+            <LocaleLink
+              href={`/blog/${article.slug}`}
+              className="absolute inset-0 z-0"
+              aria-label={article.title}
+            />
+
             {/* Category tag */}
             <span className="text-xs font-medium text-accent uppercase tracking-wider mb-3">
               {categoryLabel(article.category)}
@@ -91,12 +97,21 @@ export default function BlogListClient({
 
             {/* Meta row */}
             <div className="flex items-center justify-between text-xs text-body/60 pt-4 border-t border-border">
-              <span>{article.readingTime} {minReadLabel}</span>
+              <div className="flex items-center gap-2">
+                <LocaleLink
+                  href={`/blog/author/${article.authorSlug}`}
+                  className="relative z-10 hover:text-accent transition-colors underline underline-offset-2"
+                >
+                  {article.author}
+                </LocaleLink>
+                <span className="w-1 h-1 rounded-full bg-body/30" />
+                <span>{article.readingTime} {minReadLabel}</span>
+              </div>
               <span className="text-accent group-hover:underline">
                 {readMoreLabel} &rarr;
               </span>
             </div>
-          </LocaleLink>
+          </div>
         ))}
       </div>
 

@@ -9,6 +9,7 @@ export const ecommerceSeoChecklist: BlogArticle = {
   readingTime: 13,
   author: "Fabian van Til",
   authorRole: "CEO at EcomSEO",
+  authorSlug: "fabian-van-til",
   primaryKeyword: "ecommerce seo checklist",
   secondaryKeywords: [
     "seo checklist for ecommerce",

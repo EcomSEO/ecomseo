@@ -10,6 +10,7 @@ export const internationalEcommerceSeo: BlogArticle = {
   readingTime: 12,
   author: "Fabian van Til",
   authorRole: "CEO at EcomSEO",
+  authorSlug: "fabian-van-til",
   primaryKeyword: "international ecommerce seo",
   secondaryKeywords: [
     "international seo for ecommerce",

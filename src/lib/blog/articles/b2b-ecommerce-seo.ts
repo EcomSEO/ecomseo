@@ -9,6 +9,7 @@ export const b2bEcommerceSeo: BlogArticle = {
   readingTime: 11,
   author: "Fabian van Til",
   authorRole: "CEO at EcomSEO",
+  authorSlug: "fabian-van-til",
   primaryKeyword: "b2b ecommerce seo",
   secondaryKeywords: ["b2b seo ecommerce", "wholesale ecommerce seo", "b2b online store seo"],
   sections: [

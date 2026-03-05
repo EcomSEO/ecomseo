@@ -10,6 +10,7 @@ export const shopifyEcommerceSeo: BlogArticle = {
   readingTime: 12,
   author: "Fabian van Til",
   authorRole: "CEO at EcomSEO",
+  authorSlug: "fabian-van-til",
   primaryKeyword: "shopify ecommerce seo",
   secondaryKeywords: [
     "shopify seo tips",

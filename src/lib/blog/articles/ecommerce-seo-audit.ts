@@ -9,6 +9,7 @@ export const ecommerceSeoAudit: BlogArticle = {
   readingTime: 14,
   author: "Fabian van Til",
   authorRole: "CEO at EcomSEO",
+  authorSlug: "fabian-van-til",
   primaryKeyword: "ecommerce seo audit",
   secondaryKeywords: ["seo audit for ecommerce", "ecommerce site audit", "ecommerce seo analysis"],
   sections: [

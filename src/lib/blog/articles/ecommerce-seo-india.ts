@@ -9,6 +9,7 @@ export const ecommerceSeoIndia: BlogArticle = {
   readingTime: 10,
   author: "Fabian van Til",
   authorRole: "CEO at EcomSEO",
+  authorSlug: "fabian-van-til",
   primaryKeyword: "ecommerce seo india",
   secondaryKeywords: ["seo for ecommerce in india", "india ecommerce seo", "ecommerce seo services india"],
   sections: [

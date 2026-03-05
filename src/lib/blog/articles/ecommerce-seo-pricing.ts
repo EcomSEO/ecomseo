@@ -9,6 +9,7 @@ export const ecommerceSeopricing: BlogArticle = {
   readingTime: 10,
   author: "Fabian van Til",
   authorRole: "CEO at EcomSEO",
+  authorSlug: "fabian-van-til",
   primaryKeyword: "ecommerce seo pricing",
   secondaryKeywords: [
     "ecommerce seo cost",

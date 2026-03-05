@@ -9,6 +9,7 @@ export const technicalSeoForEcommerce: BlogArticle = {
   readingTime: 14,
   author: "Fabian van Til",
   authorRole: "CEO at EcomSEO",
+  authorSlug: "fabian-van-til",
   primaryKeyword: "technical seo for ecommerce",
   secondaryKeywords: [
     "ecommerce technical seo",

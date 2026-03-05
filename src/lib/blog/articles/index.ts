@@ -82,4 +82,10 @@ export function getRelatedArticles(slug: string, limit = 3): BlogArticle[] {
     .slice(0, limit);
 }
 
+export function getArticlesByAuthor(authorSlug: string): BlogArticle[] {
+  return allArticles.filter((a) => a.authorSlug === authorSlug);
+}
+
+export const allAuthorSlugs = [...new Set(allArticles.map((a) => a.authorSlug))];
+
 export const allBlogSlugs = allArticles.map((a) => a.slug);

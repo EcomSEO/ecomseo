@@ -39,6 +39,7 @@ export default async function BlogPage({
     publishDate: a.publishDate,
     readingTime: a.readingTime,
     author: a.author,
+    authorSlug: a.authorSlug,
   }));
 
   return (
