@@ -8,21 +8,13 @@ import SectionWrapper from "@/components/ui/SectionWrapper";
 import { useLocale } from "@/lib/i18n/useTranslations";
 import { teamT } from "@/lib/i18n/translations/home";
 
-const teamImages = [
-  "/images/framer/C23VbBxvj2kY5TMoXAJHXWVLaA.webp",
-  "/images/framer/LFHXY0nxSQzbhGYgd9g8reMSo.png",
-  "/images/framer/7GK5DLrtqk7QeLTPR3zbV0jHZOw.webp",
-];
+const fabianImage = "/images/framer/C23VbBxvj2kY5TMoXAJHXWVLaA.webp";
 
 export default function Team() {
   const locale = useLocale();
   const t = teamT[locale];
 
-  const fabian = { ...t.members[0], image: teamImages[0] };
-  const otherMembers = t.members.slice(1).map((m, i) => ({
-    ...m,
-    image: teamImages[i + 1],
-  }));
+  const fabian = { ...t.members[0], image: fabianImage };
 
   return (
     <SectionWrapper className="py-24 md:py-32">
@@ -83,34 +75,6 @@ export default function Team() {
           </motion.div>
         </div>
 
-        {/* ─── Other team members ─── */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-          {otherMembers.map((member, i) => (
-            <motion.div
-              key={member.name}
-              className="group relative rounded-3xl overflow-hidden border border-border h-[400px]"
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.5, delay: i * 0.1 }}
-            >
-              <Image
-                src={member.image}
-                alt={member.name}
-                fill
-                className="object-cover transition-transform duration-500 group-hover:scale-105"
-                sizes="(max-width: 640px) 100vw, 50vw"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/30 to-transparent" />
-              <div className="absolute bottom-0 left-0 right-0 p-8 flex flex-col gap-1">
-                <h3 className="text-base font-medium text-heading">
-                  {member.name}
-                </h3>
-                <span className="text-sm text-body">{member.role}</span>
-              </div>
-            </motion.div>
-          ))}
-        </div>
       </div>
     </SectionWrapper>
   );
