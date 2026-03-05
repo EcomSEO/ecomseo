@@ -31,9 +31,9 @@ export default function AboutUs() {
 
   return (
     <SectionWrapper className="py-24 md:py-32">
-      <div className="flex flex-col gap-12">
+      <div className="flex flex-col items-center gap-12">
         <motion.div
-          className="flex flex-col gap-6 max-w-[800px]"
+          className="flex flex-col items-center text-center gap-6 max-w-[800px]"
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-100px" }}
