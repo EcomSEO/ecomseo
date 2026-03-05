@@ -183,5 +183,15 @@
     "title": "Vielen Dank f\u00fcr Ihre Zahlung | EcomSEO",
     "description": "Vielen Dank f\u00fcr Ihre Zahlung. Wir melden uns in K\u00fcrze, um mit Ihrem Ecommerce SEO Projekt zu starten.",
     "ogTitle": "Vielen Dank f\u00fcr Ihre Zahlung | EcomSEO"
+  },
+  "/privacy-policy": {
+    "title": "Datenschutzrichtlinie | EcomSEO",
+    "description": "Erfahren Sie, wie EcomSEO Ihre personenbezogenen Daten erhebt, verwendet und sch\u00fctzt. Lesen Sie unsere vollst\u00e4ndige Datenschutzrichtlinie.",
+    "ogTitle": "Datenschutzrichtlinie | EcomSEO"
+  },
+  "/terms-of-service": {
+    "title": "Nutzungsbedingungen | EcomSEO",
+    "description": "Lesen Sie die Nutzungsbedingungen f\u00fcr die Verwendung der Website und Dienste von EcomSEO.",
+    "ogTitle": "Nutzungsbedingungen | EcomSEO"
   }
 }

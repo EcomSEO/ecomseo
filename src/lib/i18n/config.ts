@@ -100,4 +100,6 @@ export const staticRoutes = [
   "/premium-on-page-seo-checklist",
   "/client-dashboard",
   "/thank-you-payment",
+  "/privacy-policy",
+  "/terms-of-service",
 ];

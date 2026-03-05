@@ -183,5 +183,15 @@
     "title": "Thank You for Your Payment | EcomSEO",
     "description": "Thank you for your payment. We'll be in touch shortly to get started on your ecommerce SEO project.",
     "ogTitle": "Thank You for Your Payment | EcomSEO"
+  },
+  "/privacy-policy": {
+    "title": "Privacy Policy | EcomSEO",
+    "description": "Learn how EcomSEO collects, uses, and protects your personal data. Read our full privacy policy.",
+    "ogTitle": "Privacy Policy | EcomSEO"
+  },
+  "/terms-of-service": {
+    "title": "Terms of Service | EcomSEO",
+    "description": "Read the terms and conditions for using EcomSEO's website and services.",
+    "ogTitle": "Terms of Service | EcomSEO"
   }
 }

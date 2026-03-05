@@ -183,5 +183,15 @@
     "title": "Bedankt voor je betaling | EcomSEO",
     "description": "Bedankt voor je betaling. We nemen binnenkort contact met je op om te beginnen met jouw ecommerce SEO-project.",
     "ogTitle": "Bedankt voor je betaling | EcomSEO"
+  },
+  "/privacy-policy": {
+    "title": "Privacybeleid | EcomSEO",
+    "description": "Ontdek hoe EcomSEO uw persoonsgegevens verzamelt, gebruikt en beschermt. Lees ons volledige privacybeleid.",
+    "ogTitle": "Privacybeleid | EcomSEO"
+  },
+  "/terms-of-service": {
+    "title": "Algemene Voorwaarden | EcomSEO",
+    "description": "Lees de algemene voorwaarden voor het gebruik van de website en diensten van EcomSEO.",
+    "ogTitle": "Algemene Voorwaarden | EcomSEO"
   }
 }
