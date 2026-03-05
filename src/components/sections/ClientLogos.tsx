@@ -4,6 +4,13 @@ import Badge from "@/components/ui/Badge";
 import { useLocale } from "@/lib/i18n/useTranslations";
 import { aboutUsT } from "@/lib/i18n/translations/home";
 
+const clientLogos = [
+  { src: "/images/clients/hike.svg", alt: "Hike" },
+  { src: "/images/clients/me-logo.png", alt: "Mother's Earth" },
+  { src: "/images/clients/tobios-logo.png", alt: "Tobio's" },
+  { src: "/images/clients/heyshape.svg", alt: "HEYSHAPE" },
+];
+
 export default function ClientLogos() {
   const locale = useLocale();
   const t = aboutUsT[locale];
@@ -20,13 +27,13 @@ export default function ClientLogos() {
               key={set}
               className="flex-shrink-0 flex items-center"
             >
-              {[0, 1, 2, 3].map((i) => (
-                <div key={i} className="flex-shrink-0 px-6 md:px-10">
+              {clientLogos.map((logo) => (
+                <div key={`${set}-${logo.alt}`} className="flex-shrink-0 px-8 md:px-12">
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
-                    src="/images/framer/5Ycaq506DKrp2lkcTnE0vEh0k.svg"
-                    alt="Client logos — Hike, Mother's Earth, Tobio's, HEYSHAPE"
-                    className="h-[70px] md:h-[90px] lg:h-[110px] w-auto object-contain opacity-50"
+                    src={logo.src}
+                    alt={logo.alt}
+                    className="h-[28px] md:h-[36px] lg:h-[44px] w-auto object-contain opacity-50"
                   />
                 </div>
               ))}
