@@ -33,14 +33,25 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // Static routes
   const filteredRoutes = staticRoutes.filter((r) => !excludedRoutes.has(r));
 
+  const guideRoutes = new Set([
+    "/guides", "/guides/fundamentals", "/guides/fundamentals-2",
+    "/guides/analytics-tracking", "/guides/beginner-to-hero",
+    "/guides/keyword-research", "/guides/competitor-analysis",
+    "/guides/technical-analysis", "/guides/on-page-audit",
+    "/guides/off-page-audit", "/guides/task-planning",
+    "/guides/link-building-tactics", "/guides/topical-authority",
+    "/guides/ranking-chatgpt", "/guides/serp-domination",
+  ]);
+
   for (const route of filteredRoutes) {
     for (const locale of locales) {
       const path = route === "/" ? "" : route;
+      const isGuide = guideRoutes.has(route);
       entries.push({
         url: `${BASE_URL}/${locale}${path}`,
         lastModified: new Date(),
-        changeFrequency: route === "/" ? "weekly" : "monthly",
-        priority: route === "/" ? 1.0 : 0.8,
+        changeFrequency: route === "/" || isGuide ? "weekly" : "monthly",
+        priority: route === "/" ? 1.0 : isGuide ? 0.9 : 0.8,
         alternates: buildAlternates(route),
       });
     }

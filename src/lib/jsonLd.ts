@@ -89,6 +89,36 @@ export function faqJsonLd(
   };
 }
 
+export function articleJsonLd(params: {
+  locale: Locale;
+  headline: string;
+  description: string;
+  path: string;
+}) {
+  const url = `${BASE_URL}/${params.locale}${params.path}`;
+  return {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: params.headline,
+    description: params.description,
+    url,
+    inLanguage: params.locale,
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": url,
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "EcomSEO",
+      url: BASE_URL,
+      logo: {
+        "@type": "ImageObject",
+        url: `${BASE_URL}/favicon.ico`,
+      },
+    },
+  };
+}
+
 export function personJsonLd(params: {
   name: string;
   jobTitle: string;

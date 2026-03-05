@@ -43,10 +43,13 @@ export async function buildPageMetadata(
   const cleanPath = path === "/" ? "" : path;
   const url = `${BASE_URL}/${locale}${cleanPath}`;
 
+  const alternates = generateAlternates(path);
+  alternates.canonical = url;
+
   return {
     title: entry.title,
     description: entry.description,
-    alternates: generateAlternates(path),
+    alternates,
     openGraph: {
       title: entry.ogTitle || entry.title,
       description: entry.description,

@@ -3,7 +3,7 @@ import Navigation from "@/components/sections/Navigation";
 import CTA from "@/components/sections/CTA";
 import Footer from "@/components/sections/Footer";
 import JsonLd from "@/components/JsonLd";
-import { breadcrumbJsonLd } from "@/lib/jsonLd";
+import { breadcrumbJsonLd, articleJsonLd } from "@/lib/jsonLd";
 import { guidesSidebarT } from "@/lib/i18n/translations/guidesSidebar";
 import type { Locale } from "@/lib/i18n/config";
 import Image from "next/image";
@@ -46,9 +46,8 @@ export default function GuidePageTemplate({ data }: { data: GuidePageData }) {
 
   return (
     <>
-      <JsonLd
-        data={breadcrumbJsonLd(locale, breadcrumbs)}
-      />
+      <JsonLd data={breadcrumbJsonLd(locale, breadcrumbs)} />
+      <JsonLd data={articleJsonLd({ locale, headline: heading, description: intro, path })} />
       <Navigation />
       <main className="min-h-screen bg-bg">
         <div className="flex">
