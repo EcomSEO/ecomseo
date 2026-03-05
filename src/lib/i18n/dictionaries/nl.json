@@ -253,5 +253,10 @@
     "title": "Algemene Voorwaarden | EcomSEO",
     "description": "Lees de algemene voorwaarden voor het gebruik van de website en diensten van EcomSEO.",
     "ogTitle": "Algemene Voorwaarden | EcomSEO"
+  },
+  "/blog": {
+    "title": "E-commerce SEO Blog | EcomSEO",
+    "description": "Praktische e-commerce SEO-artikelen, tips en strategieen van het EcomSEO-team. Geen onzin, alleen wat werkt.",
+    "ogTitle": "E-commerce SEO Blog | EcomSEO"
   }
 }

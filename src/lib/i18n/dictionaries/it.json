@@ -253,5 +253,10 @@
     "title": "Termini di Servizio | EcomSEO",
     "description": "Leggi i termini e le condizioni per l'utilizzo del sito web e dei servizi di EcomSEO.",
     "ogTitle": "Termini di Servizio | EcomSEO"
+  },
+  "/blog": {
+    "title": "Blog SEO E-commerce | EcomSEO",
+    "description": "Articoli, consigli e strategie SEO e-commerce pratici dal team EcomSEO. Niente fuffa, solo cio che funziona.",
+    "ogTitle": "Blog SEO E-commerce | EcomSEO"
   }
 }

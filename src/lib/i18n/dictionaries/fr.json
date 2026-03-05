@@ -253,5 +253,10 @@
     "title": "Conditions d'Utilisation | EcomSEO",
     "description": "Lisez les conditions d'utilisation du site web et des services d'EcomSEO.",
     "ogTitle": "Conditions d'Utilisation | EcomSEO"
+  },
+  "/blog": {
+    "title": "Blog SEO E-commerce | EcomSEO",
+    "description": "Articles, conseils et strat\u00e9gies SEO e-commerce pratiques de l'\u00e9quipe EcomSEO. Pas de blabla, juste ce qui fonctionne.",
+    "ogTitle": "Blog SEO E-commerce | EcomSEO"
   }
 }

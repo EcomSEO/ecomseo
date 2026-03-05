@@ -13,6 +13,7 @@ export type GuideBlock =
   | { type: "callout"; title: string; text: string }
   | { type: "tip"; text: string }
   | { type: "list"; items: string[] }
+  | { type: "numbered-list"; items: string[] }
   | { type: "checklist"; items: string[] }
   | { type: "image"; src: string; alt: string; caption?: string }
   | { type: "code"; language?: string; text: string };
@@ -204,6 +205,17 @@ function GuideBlockRenderer({ block }: { block: GuideBlock }) {
             </li>
           ))}
         </ul>
+      );
+    case "numbered-list":
+      return (
+        <ol className="flex flex-col gap-2">
+          {block.items.map((item, i) => (
+            <li key={i} className="flex items-start gap-3">
+              <span className="text-accent text-sm shrink-0 mt-0.5 font-medium">{i + 1}.</span>
+              <span className="text-body text-sm leading-relaxed">{item}</span>
+            </li>
+          ))}
+        </ol>
       );
     case "checklist":
       return (

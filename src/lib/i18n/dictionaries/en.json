@@ -253,5 +253,10 @@
     "title": "Terms of Service | EcomSEO",
     "description": "Read the terms and conditions for using EcomSEO's website and services.",
     "ogTitle": "Terms of Service | EcomSEO"
+  },
+  "/blog": {
+    "title": "Ecommerce SEO Blog | EcomSEO",
+    "description": "Practical ecommerce SEO articles, tips, and strategies from the EcomSEO team. No fluff, just what works for online stores.",
+    "ogTitle": "Ecommerce SEO Blog | EcomSEO"
   }
 }

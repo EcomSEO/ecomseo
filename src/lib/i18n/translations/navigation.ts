@@ -4,6 +4,7 @@ export const navigationTranslations: Record<Locale, {
   ecommerceSeo: string;
   resources: string;
   cases: string;
+  blog: string;
   clientDashboard: string;
   getInTouch: string;
   services: {
@@ -21,6 +22,7 @@ export const navigationTranslations: Record<Locale, {
     ecommerceSeo: "Ecommerce SEO",
     resources: "Resources",
     cases: "Cases",
+    blog: "Blog",
     clientDashboard: "Client Dashboard",
     getInTouch: "Get in Touch",
     services: [
@@ -47,6 +49,7 @@ export const navigationTranslations: Record<Locale, {
     ecommerceSeo: "E-Commerce SEO",
     resources: "Ressourcen",
     cases: "Referenzen",
+    blog: "Blog",
     clientDashboard: "Kunden-Dashboard",
     getInTouch: "Kontakt aufnehmen",
     services: [
@@ -73,6 +76,7 @@ export const navigationTranslations: Record<Locale, {
     ecommerceSeo: "SEO E-commerce",
     resources: "Ressources",
     cases: "Études de cas",
+    blog: "Blog",
     clientDashboard: "Tableau de bord client",
     getInTouch: "Nous contacter",
     services: [
@@ -99,6 +103,7 @@ export const navigationTranslations: Record<Locale, {
     ecommerceSeo: "SEO E-commerce",
     resources: "Recursos",
     cases: "Casos de éxito",
+    blog: "Blog",
     clientDashboard: "Panel de cliente",
     getInTouch: "Contáctenos",
     services: [
@@ -125,6 +130,7 @@ export const navigationTranslations: Record<Locale, {
     ecommerceSeo: "SEO E-commerce",
     resources: "Risorse",
     cases: "Casi studio",
+    blog: "Blog",
     clientDashboard: "Dashboard cliente",
     getInTouch: "Contattaci",
     services: [
@@ -151,6 +157,7 @@ export const navigationTranslations: Record<Locale, {
     ecommerceSeo: "E-commerce SEO",
     resources: "Bronnen",
     cases: "Cases",
+    blog: "Blog",
     clientDashboard: "Klanten Dashboard",
     getInTouch: "Neem contact op",
     services: [

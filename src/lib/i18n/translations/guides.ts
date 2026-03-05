@@ -1,44 +1,226 @@
 import type { Locale } from "../config";
 
-/* --- Sidebar & Navigation --- */
+/* ------------------------------------------------------------------ */
+/*  Full sidebar navigation (used by GuidesLayout)                     */
+/* ------------------------------------------------------------------ */
+
+export type GuideNavItem = { label: string; href: string };
+export type GuideNavCategory = { category: string; items: GuideNavItem[] };
+export type GuidesFullNav = { categories: GuideNavCategory[] };
+
+export const guidesFullNavT: Record<Locale, GuidesFullNav> = {
+  en: {
+    categories: [
+      {
+        category: "Ecommerce SEO basics",
+        items: [
+          { label: "Introduction", href: "/guides" },
+          { label: "SEO fundamentals checklist", href: "/guides/fundamentals" },
+        ],
+      },
+      {
+        category: "Keyword and content strategy",
+        items: [
+          { label: "Ecommerce keyword research", href: "/guides/keyword-research" },
+          { label: "Category page SEO", href: "/guides/category-page-seo" },
+          { label: "Product page SEO", href: "/guides/product-page-seo" },
+        ],
+      },
+      {
+        category: "Technical and link building",
+        items: [
+          { label: "Technical SEO for ecommerce", href: "/guides/technical-seo" },
+          { label: "Ecommerce link building", href: "/guides/link-building" },
+        ],
+      },
+      {
+        category: "Auditing",
+        items: [
+          { label: "Ecommerce SEO audit", href: "/guides/seo-audit" },
+        ],
+      },
+    ],
+  },
+  de: {
+    categories: [
+      {
+        category: "E-Commerce-SEO-Grundlagen",
+        items: [
+          { label: "Einfuhrung", href: "/guides" },
+          { label: "SEO-Grundlagen-Checkliste", href: "/guides/fundamentals" },
+        ],
+      },
+      {
+        category: "Keyword- und Content-Strategie",
+        items: [
+          { label: "E-Commerce-Keyword-Recherche", href: "/guides/keyword-research" },
+          { label: "Kategorieseiten-SEO", href: "/guides/category-page-seo" },
+          { label: "Produktseiten-SEO", href: "/guides/product-page-seo" },
+        ],
+      },
+      {
+        category: "Technik und Linkaufbau",
+        items: [
+          { label: "Technisches SEO fur E-Commerce", href: "/guides/technical-seo" },
+          { label: "E-Commerce-Linkaufbau", href: "/guides/link-building" },
+        ],
+      },
+      {
+        category: "Auditing",
+        items: [
+          { label: "E-Commerce-SEO-Audit", href: "/guides/seo-audit" },
+        ],
+      },
+    ],
+  },
+  fr: {
+    categories: [
+      {
+        category: "Bases du SEO e-commerce",
+        items: [
+          { label: "Introduction", href: "/guides" },
+          { label: "Checklist des fondamentaux SEO", href: "/guides/fundamentals" },
+        ],
+      },
+      {
+        category: "Strategie de mots-cles et contenu",
+        items: [
+          { label: "Recherche de mots-cles e-commerce", href: "/guides/keyword-research" },
+          { label: "SEO des pages categories", href: "/guides/category-page-seo" },
+          { label: "SEO des pages produits", href: "/guides/product-page-seo" },
+        ],
+      },
+      {
+        category: "Technique et netlinking",
+        items: [
+          { label: "SEO technique pour e-commerce", href: "/guides/technical-seo" },
+          { label: "Netlinking e-commerce", href: "/guides/link-building" },
+        ],
+      },
+      {
+        category: "Audit",
+        items: [
+          { label: "Audit SEO e-commerce", href: "/guides/seo-audit" },
+        ],
+      },
+    ],
+  },
+  es: {
+    categories: [
+      {
+        category: "Fundamentos de SEO e-commerce",
+        items: [
+          { label: "Introduccion", href: "/guides" },
+          { label: "Checklist de fundamentos SEO", href: "/guides/fundamentals" },
+        ],
+      },
+      {
+        category: "Estrategia de keywords y contenido",
+        items: [
+          { label: "Keyword research para e-commerce", href: "/guides/keyword-research" },
+          { label: "SEO de paginas de categoria", href: "/guides/category-page-seo" },
+          { label: "SEO de paginas de producto", href: "/guides/product-page-seo" },
+        ],
+      },
+      {
+        category: "Tecnico y link building",
+        items: [
+          { label: "SEO tecnico para e-commerce", href: "/guides/technical-seo" },
+          { label: "Link building para e-commerce", href: "/guides/link-building" },
+        ],
+      },
+      {
+        category: "Auditoria",
+        items: [
+          { label: "Auditoria SEO e-commerce", href: "/guides/seo-audit" },
+        ],
+      },
+    ],
+  },
+  it: {
+    categories: [
+      {
+        category: "Basi della SEO e-commerce",
+        items: [
+          { label: "Introduzione", href: "/guides" },
+          { label: "Checklist dei fondamentali SEO", href: "/guides/fundamentals" },
+        ],
+      },
+      {
+        category: "Strategia keyword e contenuti",
+        items: [
+          { label: "Keyword research per e-commerce", href: "/guides/keyword-research" },
+          { label: "SEO pagine categoria", href: "/guides/category-page-seo" },
+          { label: "SEO pagine prodotto", href: "/guides/product-page-seo" },
+        ],
+      },
+      {
+        category: "Tecnico e link building",
+        items: [
+          { label: "SEO tecnico per e-commerce", href: "/guides/technical-seo" },
+          { label: "Link building per e-commerce", href: "/guides/link-building" },
+        ],
+      },
+      {
+        category: "Audit",
+        items: [
+          { label: "Audit SEO e-commerce", href: "/guides/seo-audit" },
+        ],
+      },
+    ],
+  },
+  nl: {
+    categories: [
+      {
+        category: "E-commerce SEO-basiskennis",
+        items: [
+          { label: "Introductie", href: "/guides" },
+          { label: "SEO-basischecklist", href: "/guides/fundamentals" },
+        ],
+      },
+      {
+        category: "Keyword- en contentstrategie",
+        items: [
+          { label: "E-commerce keyword research", href: "/guides/keyword-research" },
+          { label: "SEO voor categoriepagina's", href: "/guides/category-page-seo" },
+          { label: "SEO voor productpagina's", href: "/guides/product-page-seo" },
+        ],
+      },
+      {
+        category: "Techniek en linkbuilding",
+        items: [
+          { label: "Technische SEO voor e-commerce", href: "/guides/technical-seo" },
+          { label: "E-commerce linkbuilding", href: "/guides/link-building" },
+        ],
+      },
+      {
+        category: "Auditing",
+        items: [
+          { label: "E-commerce SEO-audit", href: "/guides/seo-audit" },
+        ],
+      },
+    ],
+  },
+};
+
+/* ------------------------------------------------------------------ */
+/*  Legacy exports (still used by intro page)                          */
+/* ------------------------------------------------------------------ */
+
 export const guidesNavT: Record<Locale, {
   category: string;
   introLabel: string;
   fundamentalsLabel: string;
 }> = {
-  en: {
-    category: "Ecommerce SEO Basics",
-    introLabel: "Introduction",
-    fundamentalsLabel: "SEO Fundamentals Checklist",
-  },
-  de: {
-    category: "E-Commerce-SEO-Grundlagen",
-    introLabel: "Einführung",
-    fundamentalsLabel: "SEO-Grundlagen-Checkliste",
-  },
-  fr: {
-    category: "Bases du SEO e-commerce",
-    introLabel: "Introduction",
-    fundamentalsLabel: "Checklist des fondamentaux SEO",
-  },
-  es: {
-    category: "Fundamentos de SEO e-commerce",
-    introLabel: "Introduccion",
-    fundamentalsLabel: "Checklist de fundamentos SEO",
-  },
-  it: {
-    category: "Basi della SEO e-commerce",
-    introLabel: "Introduzione",
-    fundamentalsLabel: "Checklist dei fondamentali SEO",
-  },
-  nl: {
-    category: "E-commerce SEO-basiskennis",
-    introLabel: "Introductie",
-    fundamentalsLabel: "SEO-basischecklist",
-  },
+  en: { category: "Ecommerce SEO basics", introLabel: "Introduction", fundamentalsLabel: "SEO fundamentals checklist" },
+  de: { category: "E-Commerce-SEO-Grundlagen", introLabel: "Einfuhrung", fundamentalsLabel: "SEO-Grundlagen-Checkliste" },
+  fr: { category: "Bases du SEO e-commerce", introLabel: "Introduction", fundamentalsLabel: "Checklist des fondamentaux SEO" },
+  es: { category: "Fundamentos de SEO e-commerce", introLabel: "Introduccion", fundamentalsLabel: "Checklist de fundamentos SEO" },
+  it: { category: "Basi della SEO e-commerce", introLabel: "Introduzione", fundamentalsLabel: "Checklist dei fondamentali SEO" },
+  nl: { category: "E-commerce SEO-basiskennis", introLabel: "Introductie", fundamentalsLabel: "SEO-basischecklist" },
 };
 
-/* --- Main Content --- */
+/* --- Intro page content --- */
 export const guidesIntroT: Record<Locale, {
   breadcrumb: string;
   heading: string;
@@ -55,7 +237,7 @@ export const guidesIntroT: Record<Locale, {
   talkLink: string;
 }> = {
   en: {
-    breadcrumb: "Ecommerce SEO Basics",
+    breadcrumb: "Ecommerce SEO basics",
     heading: "Introduction",
     bodyParagraph: "We're excited to announce our guides are now publicly available since Q2 2025! We hope you learn deep and actionable insights that are of real value to your brand. If you have any suggestions, they are more than welcome on",
     expectHeading: "What you should be expecting",
@@ -68,8 +250,8 @@ export const guidesIntroT: Record<Locale, {
       "No gatekeeping \u2014 everything we know, shared openly",
     ],
     nextUp: "Next up",
-    nextCategory: "Ecommerce SEO Basics",
-    nextTitle: "SEO Fundamentals Checklist",
+    nextCategory: "Ecommerce SEO basics",
+    nextTitle: "SEO fundamentals checklist",
     crashCoursePrompt: "Want the crash course?",
     crashCourseLink: "Start here",
     talkPrompt: "Ready to talk?",
@@ -77,23 +259,23 @@ export const guidesIntroT: Record<Locale, {
   },
   de: {
     breadcrumb: "E-Commerce-SEO-Grundlagen",
-    heading: "Einführung",
-    bodyParagraph: "Wir freuen uns, mitteilen zu können, dass unsere Leitfäden seit Q2 2025 öffentlich verfügbar sind! Wir hoffen, dass Sie tiefgreifende und umsetzbare Erkenntnisse gewinnen, die echten Mehrwert für Ihre Marke bieten. Falls Sie Vorschläge haben, sind diese herzlich willkommen unter",
-    expectHeading: "Was Sie erwarten können",
-    expectBody: "Ein fairer Tausch. Wir geben Ihnen Wissen. Sie verbringen Zeit auf unserer Seite. Das signalisiert Google, dass Ihnen unsere Inhalte gefallen \u2192 wir ranken höher = SEO!",
+    heading: "Einfuhrung",
+    bodyParagraph: "Wir freuen uns, mitteilen zu konnen, dass unsere Leitfaden seit Q2 2025 offentlich verfugbar sind! Wir hoffen, dass Sie tiefgreifende und umsetzbare Erkenntnisse gewinnen, die echten Mehrwert fur Ihre Marke bieten. Falls Sie Vorschlage haben, sind diese herzlich willkommen unter",
+    expectHeading: "Was Sie erwarten konnen",
+    expectBody: "Ein fairer Tausch. Wir geben Ihnen Wissen. Sie verbringen Zeit auf unserer Seite. Das signalisiert Google, dass Ihnen unsere Inhalte gefallen \u2192 wir ranken hoher = SEO!",
     features: [
       "Tiefgehende, umsetzbare E-Commerce-SEO-Strategien",
-      "Schritt-für-Schritt-Workflows, die Sie sofort umsetzen können",
+      "Schritt-fur-Schritt-Workflows, die Sie sofort umsetzen konnen",
       "Echte Daten und Fallbeispiele aus unserer Kundenarbeit",
-      "Regelmäßig aktualisierte Inhalte, wenn sich SEO weiterentwickelt",
+      "Regelmasig aktualisierte Inhalte, wenn sich SEO weiterentwickelt",
       "Kein Gatekeeping \u2014 alles, was wir wissen, offen geteilt",
     ],
-    nextUp: "Als Nächstes",
+    nextUp: "Als Nachstes",
     nextCategory: "E-Commerce-SEO-Grundlagen",
     nextTitle: "SEO-Grundlagen-Checkliste",
-    crashCoursePrompt: "Sie möchten den Schnellkurs?",
+    crashCoursePrompt: "Sie mochten den Schnellkurs?",
     crashCourseLink: "Hier starten",
-    talkPrompt: "Bereit für ein Gespräch?",
+    talkPrompt: "Bereit fur ein Gesprach?",
     talkLink: "Kontakt aufnehmen",
   },
   fr: {
@@ -166,7 +348,7 @@ export const guidesIntroT: Record<Locale, {
     expectHeading: "Wat je kunt verwachten",
     expectBody: "Het is een eerlijke deal. Wij geven je kennis. Jij brengt tijd door op onze site. Dit signaleert aan Google dat je onze informatie waardeert \u2192 we ranken hoger = SEO!",
     features: [
-      "Diepgaande, bruikbare e-commerce SEO-strategieën",
+      "Diepgaande, bruikbare e-commerce SEO-strategieen",
       "Stapsgewijze workflows die je vandaag nog kunt toepassen",
       "Echte data en praktijkvoorbeelden uit ons klantenwerk",
       "Regelmatig bijgewerkte content naarmate SEO evolueert",

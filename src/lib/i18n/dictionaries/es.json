@@ -253,5 +253,10 @@
     "title": "T\u00e9rminos de Servicio | EcomSEO",
     "description": "Lea los t\u00e9rminos y condiciones de uso del sitio web y los servicios de EcomSEO.",
     "ogTitle": "T\u00e9rminos de Servicio | EcomSEO"
+  },
+  "/blog": {
+    "title": "Blog SEO E-commerce | EcomSEO",
+    "description": "Art\u00edculos, consejos y estrategias SEO e-commerce pr\u00e1cticos del equipo EcomSEO. Sin rodeos, solo lo que funciona.",
+    "ogTitle": "Blog SEO E-commerce | EcomSEO"
   }
 }

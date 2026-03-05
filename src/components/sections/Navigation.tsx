@@ -313,6 +313,14 @@ export default function Navigation() {
                 >
                   {t.cases}
                 </LocaleLink>
+
+                {/* Blog Link */}
+                <LocaleLink
+                  href="/blog"
+                  className="text-sm text-white/56 hover:text-white transition-colors"
+                >
+                  {t.blog}
+                </LocaleLink>
               </div>
             </div>
 
@@ -499,6 +507,15 @@ export default function Navigation() {
               onClick={() => setMobileOpen(false)}
             >
               {t.cases}
+            </LocaleLink>
+
+            {/* Blog Link */}
+            <LocaleLink
+              href="/blog"
+              className="block py-3 text-white/70 hover:text-white border-b border-white/[0.06]"
+              onClick={() => setMobileOpen(false)}
+            >
+              {t.blog}
             </LocaleLink>
 
             {/* Client Dashboard */}
