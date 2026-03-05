@@ -62,42 +62,42 @@ export const aboutUsT: Record<Locale, {
 }> = {
   en: {
     badge: "Top Clients Only",
-    heading: "We decline 70% of projects. Here\u2019s why.",
+    heading: "We decline 70% of projects. *Here\u2019s why.*",
     paragraph: "We create market leaders. We only take on projects we\u2019re 100% sure we can rank. And yes, we\u2019re very picky. But that\u2019s a good thing. We strongly believe SEO doesn\u2019t make sense in many markets.",
     cardText: "Here at EcomSEO, we run and scale brands without ads. We increase brand awareness and convert shoppers with trust.",
     cta: "Book a 15-min call",
   },
   de: {
     badge: "Nur Top-Kunden",
-    heading: "Wir lehnen 70 % der Projekte ab. Hier ist der Grund.",
+    heading: "Wir lehnen 70 % der Projekte ab. *Hier ist der Grund.*",
     paragraph: "Wir schaffen Marktführer. Wir übernehmen nur Projekte, bei denen wir zu 100 % sicher sind, dass wir ranken können. Ja, wir sind sehr wählerisch. Aber das ist gut so. Wir sind fest davon überzeugt, dass SEO in vielen Märkten keinen Sinn macht.",
     cardText: "Bei EcomSEO bauen und skalieren wir Marken ohne Werbung. Wir steigern die Markenbekanntheit und konvertieren Käufer durch Vertrauen.",
     cta: "15-Min-Gespräch buchen",
   },
   fr: {
     badge: "Clients premium uniquement",
-    heading: "Nous refusons 70 % des projets. Voici pourquoi.",
+    heading: "Nous refusons 70 % des projets. *Voici pourquoi.*",
     paragraph: "Nous créons des leaders du marché. Nous n\u2019acceptons que les projets pour lesquels nous sommes sûrs à 100 % de pouvoir positionner. Oui, nous sommes très sélectifs. Mais c\u2019est une bonne chose. Nous croyons fermement que le SEO n\u2019a pas de sens dans de nombreux marchés.",
     cardText: "Chez EcomSEO, nous développons et faisons croître des marques sans publicité. Nous augmentons la notoriété et convertissons les acheteurs par la confiance.",
     cta: "Réserver un appel de 15 min",
   },
   es: {
     badge: "Solo clientes premium",
-    heading: "Rechazamos el 70 % de los proyectos. He aquí por qué.",
+    heading: "Rechazamos el 70 % de los proyectos. *He aquí por qué.*",
     paragraph: "Creamos líderes del mercado. Solo aceptamos proyectos en los que estamos 100 % seguros de que podemos posicionar. Sí, somos muy selectivos. Pero eso es algo bueno. Creemos firmemente que el SEO no tiene sentido en muchos mercados.",
     cardText: "En EcomSEO, gestionamos y escalamos marcas sin anuncios. Aumentamos el reconocimiento de marca y convertimos compradores con confianza.",
     cta: "Reservar llamada de 15 min",
   },
   it: {
     badge: "Solo clienti premium",
-    heading: "Rifiutiamo il 70% dei progetti. Ecco perché.",
+    heading: "Rifiutiamo il 70% dei progetti. *Ecco perché.*",
     paragraph: "Creiamo leader di mercato. Accettiamo solo progetti per i quali siamo sicuri al 100% di poter posizionare. Sì, siamo molto selettivi. Ma è una cosa positiva. Crediamo fermamente che la SEO non abbia senso in molti mercati.",
     cardText: "In EcomSEO, gestiamo e scaliamo brand senza pubblicità. Aumentiamo la brand awareness e convertiamo gli acquirenti con la fiducia.",
     cta: "Prenota una chiamata di 15 min",
   },
   nl: {
     badge: "Alleen topklanten",
-    heading: "We weigeren 70% van de projecten. Dit is waarom.",
+    heading: "We weigeren 70% van de projecten. *Dit is waarom.*",
     paragraph: "We creëren marktleiders. We nemen alleen projecten aan waarvan we 100% zeker zijn dat we kunnen ranken. Ja, we zijn erg kieskeurig. Maar dat is goed. We geloven sterk dat SEO in veel markten geen zin heeft.",
     cardText: "Bij EcomSEO runnen en schalen we merken zonder advertenties. We vergroten merkbekendheid en converteren shoppers met vertrouwen.",
     cta: "Boek een 15-min gesprek",
@@ -114,7 +114,7 @@ export const resultsT: Record<Locale, {
 }> = {
   en: {
     badge: "Results",
-    heading: "Ecommerce SEO Results that speak for themselves.",
+    heading: "Ecommerce SEO Results that speak for *themselves.*",
     subtext: "Shopify, Magento, Lightspeed, Woocommerce. Name anything. We\u2019ve ranked it.",
     cta: "All Case Studies",
     cards: [
@@ -126,7 +126,7 @@ export const resultsT: Record<Locale, {
   },
   de: {
     badge: "Ergebnisse",
-    heading: "E-Commerce-SEO-Ergebnisse, die für sich sprechen.",
+    heading: "E-Commerce-SEO-Ergebnisse, die für *sich sprechen.*",
     subtext: "Shopify, Magento, Lightspeed, WooCommerce. Nennen Sie es. Wir haben es gerankt.",
     cta: "Alle Referenzen",
     cards: [
@@ -138,7 +138,7 @@ export const resultsT: Record<Locale, {
   },
   fr: {
     badge: "Résultats",
-    heading: "Des résultats SEO e-commerce qui parlent d\u2019eux-mêmes.",
+    heading: "Des résultats SEO e-commerce qui parlent *d\u2019eux-mêmes.*",
     subtext: "Shopify, Magento, Lightspeed, WooCommerce. Nommez-le. Nous l\u2019avons positionné.",
     cta: "Toutes les études de cas",
     cards: [
@@ -150,7 +150,7 @@ export const resultsT: Record<Locale, {
   },
   es: {
     badge: "Resultados",
-    heading: "Resultados de SEO E-commerce que hablan por sí mismos.",
+    heading: "Resultados de SEO E-commerce que hablan *por sí mismos.*",
     subtext: "Shopify, Magento, Lightspeed, WooCommerce. Lo que sea. Lo hemos posicionado.",
     cta: "Todos los casos de éxito",
     cards: [
@@ -162,7 +162,7 @@ export const resultsT: Record<Locale, {
   },
   it: {
     badge: "Risultati",
-    heading: "Risultati SEO e-commerce che parlano da soli.",
+    heading: "Risultati SEO e-commerce che parlano *da soli.*",
     subtext: "Shopify, Magento, Lightspeed, WooCommerce. Qualsiasi cosa. L\u2019abbiamo posizionata.",
     cta: "Tutti i casi studio",
     cards: [
@@ -174,7 +174,7 @@ export const resultsT: Record<Locale, {
   },
   nl: {
     badge: "Resultaten",
-    heading: "E-commerce SEO-resultaten die voor zichzelf spreken.",
+    heading: "E-commerce SEO-resultaten die voor *zichzelf spreken.*",
     subtext: "Shopify, Magento, Lightspeed, WooCommerce. Noem het maar. We hebben het gerankt.",
     cta: "Alle cases",
     cards: [
@@ -403,12 +403,12 @@ export const dataFeedsT: Record<Locale, {
   heading: string;
   subtext: string;
 }> = {
-  en: { badge: "SEO Impact", heading: "Want to be a market leader? Do SEO.", subtext: "Go back in time... When you were looking for your first competitors... where did you look? Google." },
-  de: { badge: "SEO-Wirkung", heading: "Marktführer werden? Mach SEO.", subtext: "Gehen Sie in der Zeit zurück... Als Sie nach Ihren ersten Wettbewerbern gesucht haben... wo haben Sie geschaut? Google." },
-  fr: { badge: "Impact SEO", heading: "Vous voulez être leader du marché ? Faites du SEO.", subtext: "Retournez dans le temps... Quand vous cherchiez vos premiers concurrents... où avez-vous regardé ? Google." },
-  es: { badge: "Impacto SEO", heading: "¿Quieres ser líder del mercado? Haz SEO.", subtext: "Retrocede en el tiempo... Cuando buscabas a tus primeros competidores... ¿dónde buscaste? Google." },
-  it: { badge: "Impatto SEO", heading: "Vuoi essere leader di mercato? Fai SEO.", subtext: "Torna indietro nel tempo... Quando cercavi i tuoi primi competitor... dove hai guardato? Google." },
-  nl: { badge: "SEO-impact", heading: "Wil je marktleider zijn? Doe SEO.", subtext: "Ga terug in de tijd... Toen je op zoek was naar je eerste concurrenten... waar keek je? Google." },
+  en: { badge: "SEO Impact", heading: "Want to be a market leader? *Do SEO.*", subtext: "Go back in time... When you were looking for your first competitors... where did you look? Google." },
+  de: { badge: "SEO-Wirkung", heading: "Marktführer werden? *Mach SEO.*", subtext: "Gehen Sie in der Zeit zurück... Als Sie nach Ihren ersten Wettbewerbern gesucht haben... wo haben Sie geschaut? Google." },
+  fr: { badge: "Impact SEO", heading: "Vous voulez être leader du marché ? *Faites du SEO.*", subtext: "Retournez dans le temps... Quand vous cherchiez vos premiers concurrents... où avez-vous regardé ? Google." },
+  es: { badge: "Impacto SEO", heading: "¿Quieres ser líder del mercado? *Haz SEO.*", subtext: "Retrocede en el tiempo... Cuando buscabas a tus primeros competidores... ¿dónde buscaste? Google." },
+  it: { badge: "Impatto SEO", heading: "Vuoi essere leader di mercato? *Fai SEO.*", subtext: "Torna indietro nel tempo... Quando cercavi i tuoi primi competitor... dove hai guardato? Google." },
+  nl: { badge: "SEO-impact", heading: "Wil je marktleider zijn? *Doe SEO.*", subtext: "Ga terug in de tijd... Toen je op zoek was naar je eerste concurrenten... waar keek je? Google." },
 };
 
 /* ─── CTA ─── */
@@ -417,12 +417,12 @@ export const ctaT: Record<Locale, {
   subtext: string;
   cta: string;
 }> = {
-  en: { heading: "Work Together With SEO Experts who understand ecommerce", subtext: "World\u2019s first Ecom-founded SEO agency", cta: "Get in touch" },
-  de: { heading: "Arbeiten Sie mit SEO-Experten zusammen, die E-Commerce verstehen", subtext: "Die weltweit erste von E-Com-Gründern aufgebaute SEO-Agentur", cta: "Kontakt aufnehmen" },
-  fr: { heading: "Travaillez avec des experts SEO qui comprennent l\u2019e-commerce", subtext: "La première agence SEO fondée par des e-commerçants", cta: "Nous contacter" },
-  es: { heading: "Trabaja con expertos SEO que entienden el e-commerce", subtext: "La primera agencia SEO del mundo fundada por e-commerce", cta: "Contáctenos" },
-  it: { heading: "Lavora con esperti SEO che capiscono l\u2019e-commerce", subtext: "La prima agenzia SEO al mondo fondata dall\u2019e-commerce", cta: "Contattaci" },
-  nl: { heading: "Werk samen met SEO-experts die e-commerce begrijpen", subtext: "Het eerste door e-commerce opgerichte SEO-bureau ter wereld", cta: "Neem contact op" },
+  en: { heading: "Work Together With SEO Experts *who understand ecommerce*", subtext: "World\u2019s first Ecom-founded SEO agency", cta: "Get in touch" },
+  de: { heading: "Arbeiten Sie mit SEO-Experten zusammen, *die E-Commerce verstehen*", subtext: "Die weltweit erste von E-Com-Gründern aufgebaute SEO-Agentur", cta: "Kontakt aufnehmen" },
+  fr: { heading: "Travaillez avec des experts SEO *qui comprennent l\u2019e-commerce*", subtext: "La première agence SEO fondée par des e-commerçants", cta: "Nous contacter" },
+  es: { heading: "Trabaja con expertos SEO *que entienden el e-commerce*", subtext: "La primera agencia SEO del mundo fundada por e-commerce", cta: "Contáctenos" },
+  it: { heading: "Lavora con esperti SEO *che capiscono l\u2019e-commerce*", subtext: "La prima agenzia SEO al mondo fondata dall\u2019e-commerce", cta: "Contattaci" },
+  nl: { heading: "Werk samen met SEO-experts *die e-commerce begrijpen*", subtext: "Het eerste door e-commerce opgerichte SEO-bureau ter wereld", cta: "Neem contact op" },
 };
 
 /* ─── Team ─── */
@@ -435,7 +435,7 @@ export const teamT: Record<Locale, {
 }> = {
   en: {
     badge: "Our natural habitat",
-    heading: "We speak the same language.",
+    heading: "We speak the same *language.*",
     description: "We breath and talk e-commerce (and Dutch). That\u2019s specialisation.",
     cta: "Get in Touch with Fabian",
     members: [
@@ -446,7 +446,7 @@ export const teamT: Record<Locale, {
   },
   de: {
     badge: "Unser natürliches Habitat",
-    heading: "Wir sprechen dieselbe Sprache.",
+    heading: "Wir sprechen dieselbe *Sprache.*",
     description: "Wir leben und atmen E-Commerce (und Niederländisch). Das ist Spezialisierung.",
     cta: "Mit Fabian in Kontakt treten",
     members: [
@@ -457,7 +457,7 @@ export const teamT: Record<Locale, {
   },
   fr: {
     badge: "Notre habitat naturel",
-    heading: "Nous parlons le même langage.",
+    heading: "Nous parlons le même *langage.*",
     description: "Nous respirons et parlons e-commerce (et néerlandais). C\u2019est ça la spécialisation.",
     cta: "Contacter Fabian",
     members: [
@@ -468,7 +468,7 @@ export const teamT: Record<Locale, {
   },
   es: {
     badge: "Nuestro hábitat natural",
-    heading: "Hablamos el mismo idioma.",
+    heading: "Hablamos el mismo *idioma.*",
     description: "Respiramos y hablamos e-commerce (y holandés). Eso es especialización.",
     cta: "Contactar con Fabian",
     members: [
@@ -479,7 +479,7 @@ export const teamT: Record<Locale, {
   },
   it: {
     badge: "Il nostro habitat naturale",
-    heading: "Parliamo la stessa lingua.",
+    heading: "Parliamo la stessa *lingua.*",
     description: "Respiriamo e parliamo di e-commerce (e olandese). Questa è specializzazione.",
     cta: "Contatta Fabian",
     members: [
@@ -490,7 +490,7 @@ export const teamT: Record<Locale, {
   },
   nl: {
     badge: "Ons natuurlijke habitat",
-    heading: "We spreken dezelfde taal.",
+    heading: "We spreken dezelfde *taal.*",
     description: "We ademen en praten e-commerce (en Nederlands). Dat is specialisatie.",
     cta: "Neem contact op met Fabian",
     members: [
@@ -510,7 +510,7 @@ export const homeFaqT: Record<Locale, {
 }> = {
   en: {
     badge: "Frequently asked questions",
-    heading: "Questions? We got you.",
+    heading: "Questions? *We got you.*",
     cta: "Check all FAQ",
     items: [
       { question: "What exactly does EcomSEO do?", answer: "We specialize in SEO for e-commerce brands. From technical SEO and product page optimization to link building and content strategy \u2014 everything we do is focused on driving organic revenue for online stores." },
@@ -523,7 +523,7 @@ export const homeFaqT: Record<Locale, {
   },
   de: {
     badge: "Häufig gestellte Fragen",
-    heading: "Fragen? Wir helfen.",
+    heading: "Fragen? *Wir helfen.*",
     cta: "Alle FAQ ansehen",
     items: [
       { question: "Was genau macht EcomSEO?", answer: "Wir sind auf SEO für E-Commerce-Marken spezialisiert. Von technischem SEO und Produktseitenoptimierung bis hin zu Linkaufbau und Content-Strategie \u2014 alles, was wir tun, ist darauf ausgerichtet, organischen Umsatz für Online-Shops zu generieren." },
@@ -536,7 +536,7 @@ export const homeFaqT: Record<Locale, {
   },
   fr: {
     badge: "Questions fréquentes",
-    heading: "Des questions ? On a les réponses.",
+    heading: "Des questions ? *On a les réponses.*",
     cta: "Voir toutes les FAQ",
     items: [
       { question: "Que fait exactement EcomSEO ?", answer: "Nous sommes spécialisés dans le SEO pour les marques e-commerce. Du SEO technique à l\u2019optimisation des pages produits, en passant par le link building et la stratégie de contenu \u2014 tout ce que nous faisons est axé sur la génération de revenus organiques pour les boutiques en ligne." },
@@ -549,7 +549,7 @@ export const homeFaqT: Record<Locale, {
   },
   es: {
     badge: "Preguntas frecuentes",
-    heading: "¿Preguntas? Te ayudamos.",
+    heading: "¿Preguntas? *Te ayudamos.*",
     cta: "Ver todas las FAQ",
     items: [
       { question: "¿Qué hace exactamente EcomSEO?", answer: "Nos especializamos en SEO para marcas de e-commerce. Desde SEO técnico y optimización de páginas de producto hasta link building y estrategia de contenido \u2014 todo lo que hacemos está enfocado en generar ingresos orgánicos para tiendas online." },
@@ -562,7 +562,7 @@ export const homeFaqT: Record<Locale, {
   },
   it: {
     badge: "Domande frequenti",
-    heading: "Domande? Ci pensiamo noi.",
+    heading: "Domande? *Ci pensiamo noi.*",
     cta: "Vedi tutte le FAQ",
     items: [
       { question: "Cosa fa esattamente EcomSEO?", answer: "Siamo specializzati in SEO per brand e-commerce. Dalla SEO tecnica e ottimizzazione delle pagine prodotto al link building e strategia dei contenuti \u2014 tutto ciò che facciamo è incentrato sulla generazione di ricavi organici per gli store online." },
@@ -575,7 +575,7 @@ export const homeFaqT: Record<Locale, {
   },
   nl: {
     badge: "Veelgestelde vragen",
-    heading: "Vragen? We helpen je.",
+    heading: "Vragen? *We helpen je.*",
     cta: "Bekijk alle FAQ",
     items: [
       { question: "Wat doet EcomSEO precies?", answer: "We zijn gespecialiseerd in SEO voor e-commercemerken. Van technische SEO en productpagina-optimalisatie tot linkbuilding en contentstrategie \u2014 alles wat we doen is gericht op het genereren van organische omzet voor webshops." },

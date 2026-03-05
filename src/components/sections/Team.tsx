@@ -8,6 +8,24 @@ import SectionWrapper from "@/components/ui/SectionWrapper";
 import { useLocale } from "@/lib/i18n/useTranslations";
 import { teamT } from "@/lib/i18n/translations/home";
 
+/** Parse *italic* markers inside a string */
+function renderHeading(text: string) {
+  const parts = text.split(/\*(.*?)\*/);
+  return parts.map((part, i) =>
+    i % 2 === 1 ? (
+      <em
+        key={i}
+        className="not-italic"
+        style={{ fontFamily: '"Georgia", "Times New Roman", serif', fontStyle: "italic" }}
+      >
+        {part}
+      </em>
+    ) : (
+      <span key={i}>{part}</span>
+    ),
+  );
+}
+
 const fabianImage = "/images/framer/C23VbBxvj2kY5TMoXAJHXWVLaA.webp";
 
 export default function Team() {
@@ -57,7 +75,7 @@ export default function Team() {
           >
             <Badge text={t.badge} />
             <h2 className="text-[32px] md:text-[44px] lg:text-[52px] font-medium leading-[1.1] tracking-[-0.02em] text-heading">
-              {t.heading}
+              {renderHeading(t.heading)}
             </h2>
             <p className="text-body text-base md:text-lg leading-relaxed">
               {t.description}

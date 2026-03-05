@@ -5,6 +5,24 @@ import Button from "@/components/ui/Button";
 import { useLocale } from "@/lib/i18n/useTranslations";
 import { ctaT } from "@/lib/i18n/translations/home";
 
+/** Parse *italic* markers inside a string */
+function renderHeading(text: string) {
+  const parts = text.split(/\*(.*?)\*/);
+  return parts.map((part, i) =>
+    i % 2 === 1 ? (
+      <em
+        key={i}
+        className="not-italic"
+        style={{ fontFamily: '"Georgia", "Times New Roman", serif', fontStyle: "italic" }}
+      >
+        {part}
+      </em>
+    ) : (
+      <span key={i}>{part}</span>
+    ),
+  );
+}
+
 export default function CTA() {
   const locale = useLocale();
   const t = ctaT[locale];
@@ -21,7 +39,7 @@ export default function CTA() {
         >
           <div className="relative z-10 flex flex-col items-center text-center gap-6 p-12 md:p-12">
             <h2 className="text-[32px] md:text-[48px] lg:text-[56px] font-medium leading-[1.1] tracking-[-0.02em] text-heading max-w-[521px]">
-              {t.heading}
+              {renderHeading(t.heading)}
             </h2>
             <p className="text-body text-base md:text-lg max-w-[589px]">
               {t.subtext}

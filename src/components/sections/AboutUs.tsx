@@ -7,6 +7,24 @@ import SectionWrapper from "@/components/ui/SectionWrapper";
 import { useLocale } from "@/lib/i18n/useTranslations";
 import { aboutUsT } from "@/lib/i18n/translations/home";
 
+/** Parse *italic* markers inside a string */
+function renderHeading(text: string) {
+  const parts = text.split(/\*(.*?)\*/);
+  return parts.map((part, i) =>
+    i % 2 === 1 ? (
+      <em
+        key={i}
+        className="not-italic"
+        style={{ fontFamily: '"Georgia", "Times New Roman", serif', fontStyle: "italic" }}
+      >
+        {part}
+      </em>
+    ) : (
+      <span key={i}>{part}</span>
+    ),
+  );
+}
+
 export default function AboutUs() {
   const locale = useLocale();
   const t = aboutUsT[locale];
@@ -23,7 +41,7 @@ export default function AboutUs() {
         >
           <Badge text={t.badge} />
           <h2 className="text-[32px] md:text-[48px] lg:text-[56px] font-medium leading-[1.1] tracking-[-0.02em] text-heading">
-            {t.heading}
+            {renderHeading(t.heading)}
           </h2>
           <p className="text-body text-base md:text-lg leading-relaxed">
             {t.paragraph}
