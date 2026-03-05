@@ -4,16 +4,16 @@ import Badge from "@/components/ui/Badge";
 import { useLocale } from "@/lib/i18n/useTranslations";
 import { aboutUsT } from "@/lib/i18n/translations/home";
 
+const clientLogos = [
+  { src: "/images/clients/hike.svg", alt: "Hike" },
+  { src: "/images/clients/me-logo.png", alt: "Mother's Earth" },
+  { src: "/images/clients/tobios-logo.png", alt: "Tobio's" },
+  { src: "/images/clients/heyshape.svg", alt: "HEYSHAPE" },
+];
+
 export default function ClientLogos() {
   const locale = useLocale();
   const t = aboutUsT[locale];
-
-  /*
-   * The composite PNG is 1100×434.  At h-[60px] each copy renders at
-   * roughly 152px wide, so we need ~10 copies per half to cover a
-   * 1920px viewport.  We use 8 copies × 2 sets = 16 total images.
-   */
-  const copies = Array.from({ length: 8 });
 
   return (
     <section className="w-full py-8 md:py-12">
@@ -28,13 +28,16 @@ export default function ClientLogos() {
         <div className="flex animate-ticker items-center">
           {[0, 1].map((set) => (
             <div key={set} className="flex-shrink-0 flex items-center">
-              {copies.map((_, i) => (
-                <div key={`${set}-${i}`} className="flex-shrink-0 px-6">
+              {clientLogos.map((logo, i) => (
+                <div
+                  key={`${set}-${i}`}
+                  className="flex-shrink-0 px-8 md:px-12 lg:px-16 flex items-center justify-center"
+                >
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
-                    src="/images/framer/PU4OfQ64OM3egFuRa8kRsZGpIwc.png"
-                    alt="Client logos — Hike, Mother's Earth, Tobio's, HEYSHAPE"
-                    className="h-[50px] md:h-[60px] lg:h-[70px] w-auto object-contain opacity-40"
+                    src={logo.src}
+                    alt={logo.alt}
+                    className="h-[28px] md:h-[34px] lg:h-[40px] w-auto object-contain opacity-40"
                   />
                 </div>
               ))}
