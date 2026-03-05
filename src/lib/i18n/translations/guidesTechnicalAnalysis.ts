@@ -1,5 +1,5 @@
 import type { Locale } from "../config";
-import type { GuideSection, GuideNav } from "../../components/guides/GuidePageTemplate";
+import type { GuideSection, GuideNav } from "@/components/guides/GuidePageTemplate";
 
 export const guidesTechnicalAnalysisT: Record<
   Locale,
