@@ -389,12 +389,12 @@ export const toolsT: Record<Locale, {
   heading: string;
   subtext: string;
 }> = {
-  en: { badge: "Tools & Software", heading: "Enterprise-grade SEO tools.", subtext: "We use the best tools in the industry to analyze, strategize, and execute. No shortcuts, no guesswork." },
-  de: { badge: "Tools & Software", heading: "SEO-Tools auf Enterprise-Niveau.", subtext: "Wir verwenden die besten Tools der Branche, um zu analysieren, Strategien zu entwickeln und umzusetzen. Keine Abkürzungen, kein Raten." },
-  fr: { badge: "Outils & logiciels", heading: "Outils SEO de niveau enterprise.", subtext: "Nous utilisons les meilleurs outils du secteur pour analyser, élaborer des stratégies et exécuter. Pas de raccourcis, pas de suppositions." },
-  es: { badge: "Herramientas y software", heading: "Herramientas SEO de nivel empresarial.", subtext: "Usamos las mejores herramientas de la industria para analizar, estrategizar y ejecutar. Sin atajos, sin adivinanzas." },
-  it: { badge: "Strumenti e software", heading: "Strumenti SEO di livello enterprise.", subtext: "Utilizziamo i migliori strumenti del settore per analizzare, pianificare ed eseguire. Nessuna scorciatoia, nessuna supposizione." },
-  nl: { badge: "Tools & software", heading: "SEO-tools op enterprise-niveau.", subtext: "We gebruiken de beste tools in de branche om te analyseren, strategieën te ontwikkelen en uit te voeren. Geen shortcuts, geen giswerk." },
+  en: { badge: "Tools & Software", heading: "Enterprise-grade *SEO tools.*", subtext: "We use the best tools in the industry to analyze, strategize, and execute. No shortcuts, no guesswork." },
+  de: { badge: "Tools & Software", heading: "SEO-Tools auf *Enterprise-Niveau.*", subtext: "Wir verwenden die besten Tools der Branche, um zu analysieren, Strategien zu entwickeln und umzusetzen. Keine Abkürzungen, kein Raten." },
+  fr: { badge: "Outils & logiciels", heading: "Outils SEO de niveau *enterprise.*", subtext: "Nous utilisons les meilleurs outils du secteur pour analyser, élaborer des stratégies et exécuter. Pas de raccourcis, pas de suppositions." },
+  es: { badge: "Herramientas y software", heading: "Herramientas SEO de nivel *empresarial.*", subtext: "Usamos las mejores herramientas de la industria para analizar, estrategizar y ejecutar. Sin atajos, sin adivinanzas." },
+  it: { badge: "Strumenti e software", heading: "Strumenti SEO di livello *enterprise.*", subtext: "Utilizziamo i migliori strumenti del settore per analizzare, pianificare ed eseguire. Nessuna scorciatoia, nessuna supposizione." },
+  nl: { badge: "Tools & software", heading: "SEO-tools op *enterprise-niveau.*", subtext: "We gebruiken de beste tools in de branche om te analyseren, strategieën te ontwikkelen en uit te voeren. Geen shortcuts, geen giswerk." },
 };
 
 /* ─── DataFeeds / SEO Impact ─── */
