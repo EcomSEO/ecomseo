@@ -1,0 +1,1063 @@
+import type { Locale } from "../config";
+import type { GuideSection, GuideNav } from "../../components/guides/GuidePageTemplate";
+
+export const guidesTechnicalAnalysisT: Record<
+  Locale,
+  { sections: GuideSection[]; nav: GuideNav }
+> = {
+  en: {
+    sections: [
+      {
+        id: "crawl-budget",
+        title: "Crawl Budget: Stop Wasting Google's Attention",
+        blocks: [
+          {
+            type: "p",
+            text: "Google doesn't crawl every page on your site every day. It allocates a crawl budget — a rough limit on how many pages Googlebot will fetch in a given period. For stores with a few hundred products this rarely matters. For stores with 10,000+ SKUs, it matters enormously.",
+          },
+          {
+            type: "p",
+            text: "The problem is that most ecommerce platforms generate enormous amounts of low-value URLs: paginated category pages (/shoes?page=47), sort and filter combinations (/shoes?sort=price&color=red&size=10), out-of-stock product pages, and internal search results. Google crawls all of these instead of your real content — and your important category and product pages get crawled less often as a result.",
+          },
+          {
+            type: "callout",
+            title: "What burns crawl budget on ecommerce sites",
+            text: "Pagination beyond page 2–3, faceted navigation filter URLs, session IDs in URLs, out-of-stock pages with no alternatives, internal search result pages (e.g. /search?q=red+shoes), and redirect chains. Block or noindex these aggressively.",
+          },
+          {
+            type: "p",
+            text: "Fix it at the source. In robots.txt, disallow Googlebot from crawling URL patterns that generate junk pages. For filter and sort parameters, either use canonical tags pointing to the base category page or add rel=\"nofollow\" to the pagination and filter links so Googlebot doesn't discover them in the first place. Check your GSC Coverage report regularly — it shows you exactly which URLs Google is wasting time on.",
+          },
+        ],
+      },
+      {
+        id: "faceted-navigation",
+        title: "Faceted Navigation: The #1 Technical Problem in Ecommerce",
+        blocks: [
+          {
+            type: "p",
+            text: "Faceted navigation — the filter sidebars shoppers use to narrow by size, colour, brand, and price — is one of the most useful UX features on any store. It is also, almost universally, an SEO disaster when left unconfigured.",
+          },
+          {
+            type: "p",
+            text: "Every filter combination generates a new URL. A category with 200 products, 5 colours, 8 sizes, and 3 price ranges can produce tens of thousands of unique URL combinations. Most contain no unique content. They are all thin duplicates of the base category page. Google indexes them, splits your link equity across them, and your category page ranking drops.",
+          },
+          {
+            type: "tip",
+            text: "The right solution depends on what you are filtering. Filters that represent meaningful search demand — like /running-shoes/womens or /sofas/grey — should have their own indexable pages with unique content. Pure UX filters (sort order, page number, in-stock toggle) should be blocked from indexing entirely.",
+          },
+          {
+            type: "p",
+            text: "In practice: add a canonical tag on every filter URL pointing back to the base category page. Or, if your platform supports it, use JavaScript-only URL updates so filters change the page state without creating new server-side URLs. Shopify handles this poorly out of the box — the default faceted search app creates fully indexable URLs for every filter. You need to add canonical handling manually or via a theme modification.",
+          },
+          {
+            type: "p",
+            text: "Use Screaming Frog to crawl your store and count URLs by template. If your category page has 12 real pages but Screaming Frog finds 4,000 URLs with that category in the path, you have a faceted navigation problem.",
+          },
+        ],
+      },
+      {
+        id: "duplicate-content-variants",
+        title: "Product Variants and Duplicate Content",
+        blocks: [
+          {
+            type: "image",
+            src: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1280&q=80",
+            alt: "Ecommerce product page code and technical SEO structure",
+            caption: "Product variant URLs are one of the most common sources of indexable duplicate content in ecommerce.",
+          },
+          {
+            type: "p",
+            text: "A product with 5 colour options should have one indexable page, not five. When each variant has its own URL — /blue-trainer, /red-trainer, /green-trainer — and each page has the same title, description, and content with only the colour name swapped, Google sees thin duplicate content across all five. None of them rank well.",
+          },
+          {
+            type: "p",
+            text: "The fix is canonical tags. Every variant URL should have a canonical pointing to the main product page. The main product page itself should be self-canonicalising. In Shopify, variant URLs are generated by default (?variant=12345). These are handled by Shopify's built-in canonical logic, but it's worth verifying — especially on themes that have been heavily customised — that the canonical tag on every variant URL actually resolves to the correct product URL.",
+          },
+          {
+            type: "checklist",
+            items: [
+              "Identify all product variant URL patterns with Screaming Frog",
+              "Confirm each variant URL has a canonical pointing to the main product page",
+              "Check that the main product URL has a self-referencing canonical",
+              "Verify in Google Search Console that only the main product URL is indexed",
+              "Remove or redirect any standalone variant pages that have been indexed without canonicals",
+            ],
+          },
+        ],
+      },
+      {
+        id: "core-web-vitals",
+        title: "Site Speed and Core Web Vitals for Ecommerce",
+        blocks: [
+          {
+            type: "p",
+            text: "Google uses Core Web Vitals as a ranking signal. The thresholds are: LCP (Largest Contentful Paint) under 2.5 seconds, CLS (Cumulative Layout Shift) under 0.1, and INP (Interaction to Next Paint) under 200ms. Most ecommerce sites fail at least one of these on mobile, and mobile is where Google measures them.",
+          },
+          {
+            type: "p",
+            text: "The biggest LCP culprits on ecommerce sites are unoptimised product images. A 3MB JPEG hero image on a product page will kill your LCP score. Serve WebP or AVIF, set explicit width and height attributes, use next/image or an equivalent image optimisation layer, and ensure the hero product image has fetchpriority=\"high\" so the browser loads it first. Ahrefs' Site Audit and PageSpeed Insights both flag LCP element issues clearly.",
+          },
+          {
+            type: "tip",
+            text: "CLS on ecommerce is usually caused by late-loading elements: a cookie banner that shifts content, a reviews widget that loads after the page paints, or dynamically injected promotional banners. Reserve space for these elements with min-height, or load them outside the main content flow.",
+          },
+          {
+            type: "p",
+            text: "INP is the newest metric and the hardest to fix. It measures how long the page takes to respond to user interactions. On ecommerce sites, heavy JavaScript — particularly third-party scripts for chat widgets, retargeting pixels, and recommendation engines — is usually the cause. Defer all non-critical third-party scripts. Use Chrome DevTools' Performance panel to identify which scripts are blocking the main thread after page load.",
+          },
+          {
+            type: "callout",
+            title: "Where to start with Core Web Vitals",
+            text: "Open PageSpeed Insights on your homepage, your most important category page, and one product page. Check the field data (real user data) rather than just the lab score — it is what Google actually uses. Then use Screaming Frog's integration with PageSpeed Insights to surface CWV issues across your whole site in one crawl.",
+          },
+        ],
+      },
+      {
+        id: "crawl-errors",
+        title: "Diagnosing Crawl Errors in Google Search Console",
+        blocks: [
+          {
+            type: "p",
+            text: "The Coverage report in Google Search Console is where crawl problems become visible. It categorises URLs into: Indexed, Not Indexed (with reasons), Error, and Valid with Warnings. Each category tells you something different.",
+          },
+          {
+            type: "list",
+            items: [
+              "Soft 404s: pages that return a 200 HTTP status but show a 'no results' or 'product unavailable' message. Google sees these as valid pages — they get indexed, they pass no value, and they can quietly hurt your domain quality signals.",
+              "Redirect chains: URL A redirects to URL B which redirects to URL C. Each hop dilutes PageRank and slows crawling. Fix: update all internal links to point directly to the final destination URL.",
+              "Crawled but not indexed: Google visited the page but chose not to index it. Usually a quality signal issue — thin content, duplicate, or near-duplicate pages.",
+              "Discovered but not crawled: Google found the URL (via sitemap or internal link) but hasn't fetched it yet. On large sites this indicates crawl budget exhaustion — Google is queuing URLs it never gets to.",
+            ],
+          },
+          {
+            type: "p",
+            text: "The most productive workflow: export your GSC Coverage data, run a full crawl with Screaming Frog, and cross-reference the two. GSC tells you what Google sees; Screaming Frog tells you what is actually on the site. Pages that GSC shows as soft 404s but Screaming Frog finds with real content usually have a content rendering problem — JavaScript that isn't loading for Googlebot.",
+          },
+        ],
+      },
+      {
+        id: "structured-data",
+        title: "Structured Data for Ecommerce",
+        blocks: [
+          {
+            type: "p",
+            text: "Structured data doesn't directly improve rankings, but it does influence how your pages appear in search results. For ecommerce, this matters more than in most niches — Product schema unlocks rich results with price, availability, and star ratings directly in the SERP. These increase click-through rates significantly, particularly in competitive shopping queries where organic results sit below a wall of Shopping ads.",
+          },
+          {
+            type: "p",
+            text: "Every product page needs Product schema with at minimum: name, image, description, sku, brand, offers (with price, priceCurrency, availability, and url). If you have reviews on the page, add AggregateRating. Without it, your review stars won't appear in search results even if the reviews are on the page.",
+          },
+          {
+            type: "callout",
+            title: "BreadcrumbList schema is underrated",
+            text: "Adding BreadcrumbList schema to every page tells Google your site structure and often causes breadcrumb paths to appear in search results instead of bare URLs. This improves CTR and helps Google understand the hierarchy between your category and product pages. It takes 30 minutes to implement site-wide and pays dividends for years.",
+          },
+          {
+            type: "checklist",
+            items: [
+              "Product schema on every product page (name, image, price, availability, sku, brand)",
+              "AggregateRating within Product schema on any page with reviews",
+              "BreadcrumbList on all category and product pages",
+              "Validate all structured data with Google's Rich Results Test",
+              "Monitor rich result performance in GSC under Enhancements",
+              "Check for structured data errors in GSC — missing required fields cause rich results to drop silently",
+            ],
+          },
+        ],
+      },
+    ],
+    nav: {
+      prev: {
+        href: "/guides/competitor-analysis",
+        category: "Research & Ideation",
+        title: "Competitor Analysis",
+      },
+      next: {
+        href: "/guides/on-page-audit",
+        category: "Research & Ideation",
+        title: "On-Page Audit",
+      },
+    },
+  },
+
+  de: {
+    sections: [
+      {
+        id: "crawl-budget",
+        title: "Crawl-Budget: Googles Aufmerksamkeit nicht verschwenden",
+        blocks: [
+          {
+            type: "p",
+            text: "Google crawlt nicht jeden Tag jede Seite deines Shops. Googlebot erhält ein Crawl-Budget — eine grobe Obergrenze, wie viele Seiten pro Zeitraum gecrawlt werden. Bei Shops mit einigen hundert Produkten ist das meist kein Problem. Bei Shops mit 10.000+ SKUs ist es entscheidend.",
+          },
+          {
+            type: "p",
+            text: "Das Problem: Die meisten E-Commerce-Plattformen erzeugen enorme Mengen wertloser URLs — paginierte Kategorieseiten (/schuhe?seite=47), Filter- und Sortierkombinationen (/schuhe?sort=preis&farbe=rot&groesse=42), vergriffene Produktseiten und interne Suchergebnisse. Google crawlt all das statt deiner wirklich wichtigen Inhalte.",
+          },
+          {
+            type: "callout",
+            title: "Was das Crawl-Budget in Onlineshops verbrennt",
+            text: "Paginierung ab Seite 3+, Facettennavigation-URLs, Session-IDs in URLs, ausverkaufte Seiten ohne Alternativen, interne Suchergebnisseiten (z. B. /suche?q=rote+schuhe) und Weiterleitungsketten. All das sollte konsequent blockiert oder mit noindex versehen werden.",
+          },
+          {
+            type: "p",
+            text: "Die Lösung beginnt an der Wurzel. Blockiere in der robots.txt URL-Muster, die Müllseiten erzeugen. Für Filter- und Sortierparameter: entweder Canonical-Tags setzen, die auf die Basis-Kategorieseite zeigen, oder rel=\"nofollow\" auf Paginierungs- und Filterlinks verwenden, damit Googlebot sie gar nicht erst entdeckt. Prüfe regelmäßig den Coverage-Bericht in der Google Search Console — er zeigt dir genau, welche URLs Google unnötig crawlt.",
+          },
+        ],
+      },
+      {
+        id: "faceted-navigation",
+        title: "Facettennavigation: Das größte technische Problem im E-Commerce",
+        blocks: [
+          {
+            type: "p",
+            text: "Facettennavigation — die Filtersidebars, mit denen Käufer nach Größe, Farbe, Marke und Preis eingrenzen — ist eines der nützlichsten UX-Features in Onlineshops. Gleichzeitig ist sie, wenn sie unkonfiguriert bleibt, fast immer eine SEO-Katastrophe.",
+          },
+          {
+            type: "p",
+            text: "Jede Filterkombination erzeugt eine neue URL. Eine Kategorie mit 200 Produkten, 5 Farben, 8 Größen und 3 Preisspannen kann Zehntausende einzigartiger URL-Kombinationen produzieren. Die meisten enthalten keine einzigartigen Inhalte — sie sind dünn duplizierte Varianten der Basis-Kategorieseite. Google indexiert sie, verteilt die Link-Equity darüber, und das Ranking der Kategorieseite leidet.",
+          },
+          {
+            type: "tip",
+            text: "Die richtige Lösung hängt davon ab, was gefiltert wird. Filter, die echte Suchanfragen repräsentieren — wie /laufschuhe/damen oder /sofas/grau — sollten eigene indexierbare Seiten mit einzigartigem Inhalt erhalten. Reine UX-Filter (Sortierreihenfolge, Seitenzahl, Verfügbarkeits-Toggle) sollten vollständig von der Indexierung ausgeschlossen werden.",
+          },
+          {
+            type: "p",
+            text: "In der Praxis: Füge auf jeder Filter-URL einen Canonical-Tag hinzu, der zur Basis-Kategorieseite zeigt. Oder nutze — wenn die Plattform es unterstützt — JavaScript-basierte URL-Updates, damit Filter den Seitenzustand ändern, ohne serverseitig neue URLs zu erzeugen. Shopify löst das von Haus aus schlecht: Die Standard-Facettensuche erstellt für jeden Filter vollständig indexierbare URLs. Das muss manuell oder über eine Theme-Anpassung behoben werden.",
+          },
+          {
+            type: "p",
+            text: "Nutze Screaming Frog, um deinen Shop zu crawlen und URLs nach Template zu zählen. Wenn deine Kategorieseite 12 echte Unterseiten hat, Screaming Frog aber 4.000 URLs mit diesem Kategoriepfad findet, liegt ein Facettennavigationsproblem vor.",
+          },
+        ],
+      },
+      {
+        id: "duplicate-content-variants",
+        title: "Produktvarianten und Duplicate Content",
+        blocks: [
+          {
+            type: "image",
+            src: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1280&q=80",
+            alt: "Code und technische SEO-Struktur einer E-Commerce-Produktseite",
+            caption: "Produktvarianten-URLs sind eine der häufigsten Quellen für indexierbaren Duplicate Content im E-Commerce.",
+          },
+          {
+            type: "p",
+            text: "Ein Produkt mit 5 Farboptionen sollte eine indexierbare Seite haben, nicht fünf. Wenn jede Variante ihre eigene URL hat — /blauer-sneaker, /roter-sneaker, /gruener-sneaker — und jede Seite denselben Titel, dieselbe Beschreibung und denselben Inhalt trägt, nur mit ausgetauschtem Farbnamen, sieht Google fünf dünne Duplikate. Keine davon rankt gut.",
+          },
+          {
+            type: "p",
+            text: "Die Lösung sind Canonical-Tags. Jede Varianten-URL sollte einen Canonical setzen, der auf die Haupt-Produktseite zeigt. Die Hauptseite selbst sollte self-canonicalisierend sein. In Shopify werden Varianten-URLs standardmäßig als ?variant=12345 generiert. Shopifys eingebaute Canonical-Logik behandelt das — aber es lohnt sich zu prüfen, insbesondere bei stark angepassten Themes, ob der Canonical-Tag auf jeder Varianten-URL tatsächlich zur korrekten Produkt-URL auflöst.",
+          },
+          {
+            type: "checklist",
+            items: [
+              "Alle Produktvarianten-URL-Muster mit Screaming Frog identifizieren",
+              "Bestätigen, dass jede Varianten-URL einen Canonical zur Haupt-Produktseite hat",
+              "Prüfen, dass die Haupt-Produkt-URL einen selbstreferenzierenden Canonical hat",
+              "In der Google Search Console verifizieren, dass nur die Haupt-Produkt-URL indexiert ist",
+              "Standalone-Variantenseiten, die ohne Canonicals indexiert wurden, entfernen oder weiterleiten",
+            ],
+          },
+        ],
+      },
+      {
+        id: "core-web-vitals",
+        title: "Ladegeschwindigkeit und Core Web Vitals für E-Commerce",
+        blocks: [
+          {
+            type: "p",
+            text: "Google nutzt Core Web Vitals als Rankingfaktor. Die Schwellenwerte: LCP (Largest Contentful Paint) unter 2,5 Sekunden, CLS (Cumulative Layout Shift) unter 0,1 und INP (Interaction to Next Paint) unter 200 ms. Die meisten Onlineshops scheitern auf Mobilgeräten an mindestens einem dieser Werte — und Google misst dort.",
+          },
+          {
+            type: "p",
+            text: "Die größten LCP-Verursacher in Onlineshops sind unoptimierte Produktbilder. Ein 3 MB schweres JPEG als Hero-Bild auf einer Produktseite zerstört den LCP-Score. Lösung: WebP oder AVIF ausliefern, explizite width- und height-Attribute setzen, next/image oder eine entsprechende Bildoptimierungsschicht verwenden, und sicherstellen, dass das Haupt-Produktbild fetchpriority=\"high\" trägt. Ahrefs Site Audit und PageSpeed Insights zeigen LCP-Elementprobleme klar auf.",
+          },
+          {
+            type: "tip",
+            text: "CLS in Onlineshops entsteht meist durch spät ladende Elemente: ein Cookie-Banner, der Inhalte verschiebt, ein Bewertungs-Widget, das erst nach dem initialen Render lädt, oder dynamisch eingefügte Werbebanner. Reserviere Platz für diese Elemente mit min-height oder lade sie außerhalb des Hauptinhaltsbereichs.",
+          },
+          {
+            type: "p",
+            text: "INP ist die neueste Metrik und die schwierigste zu beheben. Sie misst, wie lange die Seite braucht, um auf Nutzerinteraktionen zu reagieren. In Onlineshops ist schweres JavaScript — besonders Drittanbieter-Skripte für Chat-Widgets, Retargeting-Pixel und Empfehlungsmaschinen — meist der Schuldige. Verschiebe alle nicht kritischen Drittanbieter-Skripte mit defer. Nutze das Performance-Panel in Chrome DevTools, um herauszufinden, welche Skripte den Main Thread nach dem Seitenlade blockieren.",
+          },
+          {
+            type: "callout",
+            title: "Wo du mit Core Web Vitals anfangen solltest",
+            text: "Öffne PageSpeed Insights für deine Startseite, deine wichtigste Kategorieseite und eine Produktseite. Schaue auf die Field Data (echte Nutzerdaten) statt nur auf den Lab-Score — das ist das, was Google tatsächlich verwendet. Nutze dann Screaming Frogs Integration mit PageSpeed Insights, um CWV-Probleme in einem einzigen Crawl über die gesamte Website zu identifizieren.",
+          },
+        ],
+      },
+      {
+        id: "crawl-errors",
+        title: "Crawl-Fehler in der Google Search Console diagnostizieren",
+        blocks: [
+          {
+            type: "p",
+            text: "Der Coverage-Bericht in der Google Search Console macht Crawl-Probleme sichtbar. Er unterteilt URLs in: Indexiert, Nicht indexiert (mit Gründen), Fehler und Gültig mit Warnungen. Jede Kategorie sagt dir etwas anderes.",
+          },
+          {
+            type: "list",
+            items: [
+              "Soft 404s: Seiten, die einen HTTP-200-Status zurückgeben, aber eine 'keine Ergebnisse'- oder 'Produkt nicht verfügbar'-Meldung anzeigen. Google behandelt sie als gültige Seiten — sie werden indexiert, liefern keinen Mehrwert und können still die Domain-Qualitätssignale belasten.",
+              "Weiterleitungsketten: URL A leitet zu URL B weiter, die zu URL C weiterleitet. Jeder Hop verwässert PageRank und verlangsamt das Crawling. Lösung: Alle internen Links direkt auf die finale Ziel-URL aktualisieren.",
+              "Gecrawlt, aber nicht indexiert: Google hat die Seite besucht, aber entschieden, sie nicht zu indexieren. Meist ein Qualitätssignal-Problem — dünner Inhalt, doppelter oder nahezu doppelter Content.",
+              "Entdeckt, aber nicht gecrawlt: Google hat die URL gefunden (über Sitemap oder internen Link), aber noch nicht abgerufen. Bei großen Websites deutet das auf eine Erschöpfung des Crawl-Budgets hin — Google stellt URLs in eine Warteschlange, die nie abgearbeitet wird.",
+            ],
+          },
+          {
+            type: "p",
+            text: "Der produktivste Workflow: GSC-Coverage-Daten exportieren, einen vollständigen Crawl mit Screaming Frog durchführen und beide Quellen abgleichen. GSC zeigt, was Google sieht; Screaming Frog zeigt, was wirklich auf der Website ist. Seiten, die GSC als Soft 404 ausweist, aber Screaming Frog mit echtem Inhalt findet, haben meist ein Content-Rendering-Problem — JavaScript, das für Googlebot nicht geladen wird.",
+          },
+        ],
+      },
+      {
+        id: "structured-data",
+        title: "Strukturierte Daten für E-Commerce",
+        blocks: [
+          {
+            type: "p",
+            text: "Strukturierte Daten verbessern Rankings nicht direkt, beeinflussen aber, wie deine Seiten in den Suchergebnissen aussehen. Für E-Commerce ist das wichtiger als in den meisten anderen Bereichen — Product-Schema ermöglicht Rich Results mit Preis, Verfügbarkeit und Sternbewertungen direkt in der SERP. Das erhöht die Klickrate spürbar, besonders bei wettbewerbsintensiven Shopping-Suchanfragen, wo organische Ergebnisse unter einer Wand von Shopping-Anzeigen liegen.",
+          },
+          {
+            type: "p",
+            text: "Jede Produktseite braucht Product-Schema mit mindestens: name, image, description, sku, brand, offers (mit price, priceCurrency, availability und url). Wenn die Seite Bewertungen hat, kommt AggregateRating hinzu. Ohne es erscheinen deine Bewertungssterne nicht in den Suchergebnissen — selbst wenn die Bewertungen auf der Seite sind.",
+          },
+          {
+            type: "callout",
+            title: "BreadcrumbList-Schema wird unterschätzt",
+            text: "BreadcrumbList-Schema auf jeder Seite sagt Google deine Site-Struktur und sorgt oft dafür, dass Breadcrumb-Pfade in den Suchergebnissen statt nackter URLs erscheinen. Das verbessert die CTR und hilft Google, die Hierarchie zwischen Kategorie- und Produktseiten zu verstehen. Es dauert 30 Minuten, das site-weit zu implementieren, und zahlt sich jahrelang aus.",
+          },
+          {
+            type: "checklist",
+            items: [
+              "Product-Schema auf jeder Produktseite (Name, Bild, Preis, Verfügbarkeit, SKU, Marke)",
+              "AggregateRating innerhalb des Product-Schemas auf jeder Seite mit Bewertungen",
+              "BreadcrumbList auf allen Kategorie- und Produktseiten",
+              "Alle strukturierten Daten mit dem Rich Results Test von Google validieren",
+              "Rich-Result-Performance in der GSC unter Verbesserungen überwachen",
+              "Auf strukturierte Datenfehler in der GSC achten — fehlende Pflichtfelder lassen Rich Results still verschwinden",
+            ],
+          },
+        ],
+      },
+    ],
+    nav: {
+      prev: {
+        href: "/guides/competitor-analysis",
+        category: "Research & Ideation",
+        title: "Competitor Analysis",
+      },
+      next: {
+        href: "/guides/on-page-audit",
+        category: "Research & Ideation",
+        title: "On-Page Audit",
+      },
+    },
+  },
+
+  fr: {
+    sections: [
+      {
+        id: "crawl-budget",
+        title: "Budget de crawl : arrêtez de gaspiller l'attention de Google",
+        blocks: [
+          {
+            type: "p",
+            text: "Google ne crawle pas chaque page de votre site tous les jours. Il alloue un budget de crawl — une limite approximative sur le nombre de pages que Googlebot récupère sur une période donnée. Pour les boutiques avec quelques centaines de produits, cela importe rarement. Pour les boutiques avec 10 000+ SKU, c'est déterminant.",
+          },
+          {
+            type: "p",
+            text: "Le problème : la plupart des plateformes e-commerce génèrent des quantités massives d'URLs sans valeur — pages de catégories paginées (/chaussures?page=47), combinaisons de filtres et de tris (/chaussures?sort=prix&couleur=rouge&taille=40), pages de produits épuisés, résultats de recherche interne. Google crawle tout cela à la place de vos vrais contenus.",
+          },
+          {
+            type: "callout",
+            title: "Ce qui brûle le budget de crawl sur les sites e-commerce",
+            text: "La pagination au-delà de la page 2–3, les URLs de navigation à facettes, les identifiants de session dans les URLs, les pages en rupture de stock sans alternatives, les pages de résultats de recherche interne (ex. /recherche?q=chaussures+rouges) et les chaînes de redirections. Bloquez ou noindexez tout cela de façon systématique.",
+          },
+          {
+            type: "p",
+            text: "Corrigez le problème à la source. Dans robots.txt, désautorisez Googlebot à crawler les schémas d'URLs qui génèrent des pages inutiles. Pour les paramètres de filtre et de tri, utilisez soit des balises canonical pointant vers la page catégorie de base, soit rel=\"nofollow\" sur les liens de pagination et de filtre pour que Googlebot ne les découvre pas. Consultez régulièrement le rapport de couverture dans GSC — il vous montre exactement quelles URLs Google gaspille du temps à crawler.",
+          },
+        ],
+      },
+      {
+        id: "faceted-navigation",
+        title: "Navigation à facettes : le problème technique n°1 en e-commerce",
+        blocks: [
+          {
+            type: "p",
+            text: "La navigation à facettes — les barres de filtre latérales que les acheteurs utilisent pour affiner par taille, couleur, marque et prix — est l'une des fonctionnalités UX les plus utiles de n'importe quelle boutique. C'est aussi, presque systématiquement, un désastre SEO quand elle n'est pas configurée.",
+          },
+          {
+            type: "p",
+            text: "Chaque combinaison de filtres génère une nouvelle URL. Une catégorie avec 200 produits, 5 couleurs, 8 tailles et 3 tranches de prix peut produire des dizaines de milliers de combinaisons d'URLs uniques. La plupart ne contiennent aucun contenu unique — ce sont des doublons allégés de la page catégorie de base. Google les indexe, répartit le link equity entre elles, et le classement de votre page catégorie chute.",
+          },
+          {
+            type: "tip",
+            text: "La bonne solution dépend de ce que vous filtrez. Les filtres qui représentent une demande de recherche réelle — comme /chaussures-running/femmes ou /canapes/gris — devraient avoir leurs propres pages indexables avec du contenu unique. Les filtres purement UX (ordre de tri, numéro de page, bascule de disponibilité) doivent être entièrement exclus de l'indexation.",
+          },
+          {
+            type: "p",
+            text: "En pratique : ajoutez une balise canonical sur chaque URL de filtre pointant vers la page catégorie de base. Ou, si votre plateforme le supporte, utilisez des mises à jour d'URL en JavaScript uniquement pour que les filtres changent l'état de la page sans créer de nouvelles URLs côté serveur. Shopify gère cela mal par défaut — l'application de recherche à facettes standard crée des URLs entièrement indexables pour chaque filtre. Il faut gérer les canonicals manuellement ou via une modification du thème.",
+          },
+          {
+            type: "p",
+            text: "Utilisez Screaming Frog pour crawler votre boutique et compter les URLs par template. Si votre page catégorie a 12 vraies sous-pages mais que Screaming Frog trouve 4 000 URLs avec ce chemin de catégorie, vous avez un problème de navigation à facettes.",
+          },
+        ],
+      },
+      {
+        id: "duplicate-content-variants",
+        title: "Variantes de produits et contenu dupliqué",
+        blocks: [
+          {
+            type: "image",
+            src: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1280&q=80",
+            alt: "Code et structure technique SEO d'une page produit e-commerce",
+            caption: "Les URLs de variantes de produits sont l'une des sources les plus courantes de contenu dupliqué indexable en e-commerce.",
+          },
+          {
+            type: "p",
+            text: "Un produit avec 5 options de couleur devrait avoir une seule page indexable, pas cinq. Quand chaque variante a sa propre URL — /basket-bleue, /basket-rouge, /basket-verte — et que chaque page porte le même titre, la même description et le même contenu avec juste le nom de couleur changé, Google voit cinq contenus dupliqués allégés. Aucun ne se positionne bien.",
+          },
+          {
+            type: "p",
+            text: "La correction passe par les balises canonical. Chaque URL de variante doit avoir un canonical pointant vers la page produit principale. La page produit principale elle-même doit être auto-canonicalisée. Dans Shopify, les URLs de variantes sont générées par défaut en ?variant=12345. La logique canonical intégrée de Shopify s'en charge — mais il vaut la peine de vérifier, surtout sur des thèmes fortement personnalisés, que la balise canonical sur chaque URL de variante pointe bien vers la bonne URL produit.",
+          },
+          {
+            type: "checklist",
+            items: [
+              "Identifier tous les schémas d'URLs de variantes produit avec Screaming Frog",
+              "Confirmer que chaque URL de variante a un canonical pointant vers la page produit principale",
+              "Vérifier que la page produit principale a un canonical auto-référençant",
+              "Valider dans Google Search Console que seule la page produit principale est indexée",
+              "Supprimer ou rediriger toutes les pages de variantes indexées sans canonical",
+            ],
+          },
+        ],
+      },
+      {
+        id: "core-web-vitals",
+        title: "Vitesse du site et Core Web Vitals pour l'e-commerce",
+        blocks: [
+          {
+            type: "p",
+            text: "Google utilise les Core Web Vitals comme signal de classement. Les seuils : LCP (Largest Contentful Paint) sous 2,5 secondes, CLS (Cumulative Layout Shift) sous 0,1, et INP (Interaction to Next Paint) sous 200 ms. La plupart des sites e-commerce échouent sur au moins l'un d'eux sur mobile — et c'est là que Google les mesure.",
+          },
+          {
+            type: "p",
+            text: "Les principaux responsables d'un mauvais LCP sur les sites e-commerce sont les images produit non optimisées. Un JPEG de 3 Mo en image hero sur une page produit détruira votre score LCP. Servez du WebP ou de l'AVIF, définissez des attributs de largeur et hauteur explicites, utilisez next/image ou une couche d'optimisation d'image équivalente, et assurez-vous que l'image produit principale a fetchpriority=\"high\". Ahrefs Site Audit et PageSpeed Insights signalent clairement les problèmes d'élément LCP.",
+          },
+          {
+            type: "tip",
+            text: "Le CLS sur les sites e-commerce est généralement causé par des éléments à chargement tardif : une bannière de cookies qui décale le contenu, un widget d'avis qui se charge après le premier rendu, ou des bannières promotionnelles injectées dynamiquement. Réservez l'espace pour ces éléments avec min-height, ou chargez-les en dehors du flux de contenu principal.",
+          },
+          {
+            type: "p",
+            text: "L'INP est la métrique la plus récente et la plus difficile à corriger. Elle mesure le temps que met la page à répondre aux interactions utilisateur. Sur les sites e-commerce, le JavaScript lourd — notamment les scripts tiers pour les widgets de chat, les pixels de reciblage et les moteurs de recommandation — en est généralement la cause. Différez tous les scripts tiers non critiques. Utilisez le panneau Performance de Chrome DevTools pour identifier quels scripts bloquent le thread principal après le chargement de la page.",
+          },
+          {
+            type: "callout",
+            title: "Par où commencer avec les Core Web Vitals",
+            text: "Ouvrez PageSpeed Insights sur votre page d'accueil, votre page de catégorie la plus importante et une page produit. Regardez les field data (données utilisateurs réels) plutôt que juste le score lab — c'est ce que Google utilise réellement. Utilisez ensuite l'intégration de Screaming Frog avec PageSpeed Insights pour faire remonter les problèmes CWV sur l'ensemble du site en un seul crawl.",
+          },
+        ],
+      },
+      {
+        id: "crawl-errors",
+        title: "Diagnostiquer les erreurs de crawl dans Google Search Console",
+        blocks: [
+          {
+            type: "p",
+            text: "Le rapport de couverture dans Google Search Console rend les problèmes de crawl visibles. Il classe les URLs en : Indexées, Non indexées (avec les raisons), Erreurs, et Valides avec avertissements. Chaque catégorie vous dit quelque chose de différent.",
+          },
+          {
+            type: "list",
+            items: [
+              "Soft 404 : pages qui renvoient un statut HTTP 200 mais affichent un message 'aucun résultat' ou 'produit indisponible'. Google les traite comme des pages valides — elles sont indexées, ne transmettent aucune valeur, et peuvent silencieusement nuire aux signaux de qualité de domaine.",
+              "Chaînes de redirections : l'URL A redirige vers l'URL B qui redirige vers l'URL C. Chaque saut dilue le PageRank et ralentit le crawl. Correction : mettre à jour tous les liens internes pour pointer directement vers l'URL de destination finale.",
+              "Crawlé mais non indexé : Google a visité la page mais a décidé de ne pas l'indexer. Généralement un problème de signal qualité — contenu mince, dupliqué ou quasi-dupliqué.",
+              "Découvert mais non crawlé : Google a trouvé l'URL (via sitemap ou lien interne) mais ne l'a pas encore récupérée. Sur les grands sites, cela indique un épuisement du budget de crawl — Google met en file d'attente des URLs qu'il n'atteindra jamais.",
+            ],
+          },
+          {
+            type: "p",
+            text: "Le flux de travail le plus productif : exporter vos données de couverture GSC, effectuer un crawl complet avec Screaming Frog, et croiser les deux. GSC vous dit ce que Google voit ; Screaming Frog vous dit ce qui se trouve réellement sur le site. Les pages que GSC signale comme soft 404 mais que Screaming Frog trouve avec du vrai contenu ont généralement un problème de rendu du contenu — du JavaScript qui ne se charge pas pour Googlebot.",
+          },
+        ],
+      },
+      {
+        id: "structured-data",
+        title: "Données structurées pour l'e-commerce",
+        blocks: [
+          {
+            type: "p",
+            text: "Les données structurées n'améliorent pas directement les classements, mais elles influencent l'apparence de vos pages dans les résultats de recherche. Pour l'e-commerce, cela compte plus que dans la plupart des niches — le schéma Product débloque des rich results avec le prix, la disponibilité et les étoiles d'avis directement dans la SERP. Cela augmente significativement le taux de clics, particulièrement sur les requêtes shopping concurrentielles où les résultats organiques sont sous un mur d'annonces Shopping.",
+          },
+          {
+            type: "p",
+            text: "Chaque page produit a besoin du schéma Product avec au minimum : name, image, description, sku, brand, offers (avec price, priceCurrency, availability, et url). Si la page contient des avis, ajoutez AggregateRating. Sans lui, vos étoiles d'avis n'apparaîtront pas dans les résultats de recherche même si les avis sont sur la page.",
+          },
+          {
+            type: "callout",
+            title: "Le schéma BreadcrumbList est sous-estimé",
+            text: "Ajouter le schéma BreadcrumbList sur chaque page indique à Google la structure de votre site et provoque souvent l'affichage des chemins de fil d'Ariane dans les résultats de recherche à la place des URLs brutes. Cela améliore le CTR et aide Google à comprendre la hiérarchie entre vos pages catégorie et produit. Il faut 30 minutes pour l'implémenter sur tout le site et cela porte ses fruits pendant des années.",
+          },
+          {
+            type: "checklist",
+            items: [
+              "Schéma Product sur chaque page produit (name, image, price, availability, sku, brand)",
+              "AggregateRating dans le schéma Product sur chaque page avec des avis",
+              "BreadcrumbList sur toutes les pages catégorie et produit",
+              "Valider toutes les données structurées avec le Rich Results Test de Google",
+              "Surveiller la performance des rich results dans GSC sous Améliorations",
+              "Vérifier les erreurs de données structurées dans GSC — les champs obligatoires manquants font disparaître les rich results silencieusement",
+            ],
+          },
+        ],
+      },
+    ],
+    nav: {
+      prev: {
+        href: "/guides/competitor-analysis",
+        category: "Research & Ideation",
+        title: "Competitor Analysis",
+      },
+      next: {
+        href: "/guides/on-page-audit",
+        category: "Research & Ideation",
+        title: "On-Page Audit",
+      },
+    },
+  },
+
+  es: {
+    sections: [
+      {
+        id: "crawl-budget",
+        title: "Presupuesto de rastreo: deja de desperdiciar la atención de Google",
+        blocks: [
+          {
+            type: "p",
+            text: "Google no rastrea todas las páginas de tu sitio cada día. Asigna un presupuesto de rastreo — un límite aproximado sobre cuántas páginas rastreará Googlebot en un período determinado. Para tiendas con unos cientos de productos, esto rara vez importa. Para tiendas con más de 10.000 SKUs, importa enormemente.",
+          },
+          {
+            type: "p",
+            text: "El problema es que la mayoría de plataformas de ecommerce generan cantidades masivas de URLs de escaso valor: páginas de categoría paginadas (/zapatos?pagina=47), combinaciones de filtros y ordenaciones (/zapatos?sort=precio&color=rojo&talla=40), páginas de productos agotados y resultados de búsqueda interna. Google rastrea todo esto en lugar de tu contenido real.",
+          },
+          {
+            type: "callout",
+            title: "Qué quema el presupuesto de rastreo en sitios de ecommerce",
+            text: "La paginación más allá de la página 2–3, las URLs de navegación facetada, los IDs de sesión en URLs, las páginas sin stock sin alternativas, las páginas de resultados de búsqueda interna (ej. /buscar?q=zapatos+rojos) y las cadenas de redirecciones. Bloquea o añade noindex a todo esto de forma agresiva.",
+          },
+          {
+            type: "p",
+            text: "Corrígelo en la raíz. En robots.txt, desautoriza a Googlebot para rastrear patrones de URL que generan páginas sin valor. Para parámetros de filtro y ordenación, usa etiquetas canonical apuntando a la página de categoría base, o añade rel=\"nofollow\" en los enlaces de paginación y filtros para que Googlebot no los descubra. Revisa regularmente el informe de cobertura en GSC — te muestra exactamente en qué URLs Google está perdiendo tiempo.",
+          },
+        ],
+      },
+      {
+        id: "faceted-navigation",
+        title: "Navegación facetada: el problema técnico número 1 en ecommerce",
+        blocks: [
+          {
+            type: "p",
+            text: "La navegación facetada — las barras de filtros laterales que los compradores usan para filtrar por talla, color, marca y precio — es una de las funcionalidades UX más útiles de cualquier tienda. También es, casi universalmente, un desastre de SEO cuando no se configura.",
+          },
+          {
+            type: "p",
+            text: "Cada combinación de filtros genera una nueva URL. Una categoría con 200 productos, 5 colores, 8 tallas y 3 rangos de precio puede producir decenas de miles de combinaciones de URLs únicas. La mayoría no contiene contenido único — son duplicados delgados de la página de categoría base. Google las indexa, divide el link equity entre ellas, y el posicionamiento de tu página de categoría cae.",
+          },
+          {
+            type: "tip",
+            text: "La solución correcta depende de qué estás filtrando. Los filtros que representan demanda de búsqueda real — como /zapatillas-running/mujer o /sofas/gris — deberían tener sus propias páginas indexables con contenido único. Los filtros puramente UX (orden de clasificación, número de página, toggle de disponibilidad) deben excluirse completamente de la indexación.",
+          },
+          {
+            type: "p",
+            text: "En la práctica: añade una etiqueta canonical en cada URL de filtro apuntando a la página de categoría base. O, si tu plataforma lo soporta, usa actualizaciones de URL solo en JavaScript para que los filtros cambien el estado de la página sin crear nuevas URLs en el servidor. Shopify gestiona esto mal por defecto — la app de búsqueda facetada estándar crea URLs completamente indexables para cada filtro. Hay que gestionar los canonicals manualmente o mediante una modificación del tema.",
+          },
+          {
+            type: "p",
+            text: "Usa Screaming Frog para rastrear tu tienda y contar URLs por plantilla. Si tu página de categoría tiene 12 subpáginas reales pero Screaming Frog encuentra 4.000 URLs con esa ruta de categoría, tienes un problema de navegación facetada.",
+          },
+        ],
+      },
+      {
+        id: "duplicate-content-variants",
+        title: "Variantes de producto y contenido duplicado",
+        blocks: [
+          {
+            type: "image",
+            src: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1280&q=80",
+            alt: "Código y estructura técnica SEO de una página de producto de ecommerce",
+            caption: "Las URLs de variantes de producto son una de las fuentes más comunes de contenido duplicado indexable en ecommerce.",
+          },
+          {
+            type: "p",
+            text: "Un producto con 5 opciones de color debería tener una página indexable, no cinco. Cuando cada variante tiene su propia URL — /zapatilla-azul, /zapatilla-roja, /zapatilla-verde — y cada página tiene el mismo título, descripción y contenido con solo el nombre del color cambiado, Google ve cinco piezas de contenido duplicado delgado. Ninguna posiciona bien.",
+          },
+          {
+            type: "p",
+            text: "La solución son las etiquetas canonical. Cada URL de variante debe tener un canonical apuntando a la página de producto principal. La página de producto principal debe ser auto-canonicalizada. En Shopify, las URLs de variantes se generan por defecto como ?variant=12345. La lógica canonical integrada de Shopify lo gestiona — pero vale la pena verificar, especialmente en temas muy personalizados, que la etiqueta canonical en cada URL de variante realmente resuelve a la URL de producto correcta.",
+          },
+          {
+            type: "checklist",
+            items: [
+              "Identificar todos los patrones de URL de variantes de producto con Screaming Frog",
+              "Confirmar que cada URL de variante tiene un canonical apuntando a la página de producto principal",
+              "Verificar que la URL de producto principal tiene un canonical auto-referencial",
+              "Comprobar en Google Search Console que solo la URL de producto principal está indexada",
+              "Eliminar o redirigir cualquier página de variante independiente que haya sido indexada sin canonicals",
+            ],
+          },
+        ],
+      },
+      {
+        id: "core-web-vitals",
+        title: "Velocidad del sitio y Core Web Vitals para ecommerce",
+        blocks: [
+          {
+            type: "p",
+            text: "Google usa Core Web Vitals como señal de posicionamiento. Los umbrales: LCP (Largest Contentful Paint) bajo 2,5 segundos, CLS (Cumulative Layout Shift) bajo 0,1, e INP (Interaction to Next Paint) bajo 200 ms. La mayoría de sitios de ecommerce fallan al menos uno de estos en móvil — y es ahí donde Google los mide.",
+          },
+          {
+            type: "p",
+            text: "Los principales causantes de un LCP alto en ecommerce son las imágenes de producto no optimizadas. Un JPEG de 3 MB como imagen hero en una página de producto destruirá tu puntuación LCP. Sirve WebP o AVIF, establece atributos de ancho y alto explícitos, usa next/image o una capa de optimización de imágenes equivalente, y asegúrate de que la imagen principal del producto tenga fetchpriority=\"high\". Tanto Ahrefs Site Audit como PageSpeed Insights señalan claramente los problemas de elemento LCP.",
+          },
+          {
+            type: "tip",
+            text: "El CLS en ecommerce suele estar causado por elementos que cargan tarde: un banner de cookies que desplaza el contenido, un widget de reseñas que carga después del render inicial, o banners promocionales inyectados dinámicamente. Reserva espacio para estos elementos con min-height, o cárgalos fuera del flujo de contenido principal.",
+          },
+          {
+            type: "p",
+            text: "El INP es la métrica más nueva y la más difícil de corregir. Mide cuánto tarda la página en responder a las interacciones del usuario. En ecommerce, el JavaScript pesado — especialmente los scripts de terceros para widgets de chat, píxeles de retargeting y motores de recomendación — es generalmente la causa. Aplaza todos los scripts de terceros no críticos. Usa el panel Performance de Chrome DevTools para identificar qué scripts están bloqueando el hilo principal tras la carga de la página.",
+          },
+          {
+            type: "callout",
+            title: "Por dónde empezar con Core Web Vitals",
+            text: "Abre PageSpeed Insights en tu página de inicio, tu página de categoría más importante y una página de producto. Mira los field data (datos de usuarios reales) en lugar de solo la puntuación de laboratorio — es lo que Google usa realmente. Luego usa la integración de Screaming Frog con PageSpeed Insights para detectar problemas de CWV en todo el sitio en un solo rastreo.",
+          },
+        ],
+      },
+      {
+        id: "crawl-errors",
+        title: "Diagnosticar errores de rastreo en Google Search Console",
+        blocks: [
+          {
+            type: "p",
+            text: "El informe de cobertura en Google Search Console hace visibles los problemas de rastreo. Categoriza las URLs en: Indexadas, No indexadas (con razones), Error y Válidas con advertencias. Cada categoría te dice algo diferente.",
+          },
+          {
+            type: "list",
+            items: [
+              "Soft 404: páginas que devuelven un estado HTTP 200 pero muestran un mensaje de 'sin resultados' o 'producto no disponible'. Google las trata como páginas válidas — se indexan, no transmiten valor, y pueden deteriorar silenciosamente las señales de calidad del dominio.",
+              "Cadenas de redirecciones: la URL A redirige a la URL B que redirige a la URL C. Cada salto diluye el PageRank y ralentiza el rastreo. Solución: actualizar todos los enlaces internos para apuntar directamente a la URL de destino final.",
+              "Rastreado pero no indexado: Google visitó la página pero decidió no indexarla. Generalmente un problema de señal de calidad — contenido delgado, duplicado o casi duplicado.",
+              "Descubierto pero no rastreado: Google encontró la URL (via sitemap o enlace interno) pero aún no la ha obtenido. En sitios grandes esto indica agotamiento del presupuesto de rastreo — Google pone en cola URLs a las que nunca llega.",
+            ],
+          },
+          {
+            type: "p",
+            text: "El flujo de trabajo más productivo: exportar tus datos de cobertura de GSC, ejecutar un rastreo completo con Screaming Frog y cruzar ambos. GSC te dice lo que Google ve; Screaming Frog te dice lo que hay realmente en el sitio. Las páginas que GSC muestra como soft 404 pero Screaming Frog encuentra con contenido real suelen tener un problema de renderizado — JavaScript que no carga para Googlebot.",
+          },
+        ],
+      },
+      {
+        id: "structured-data",
+        title: "Datos estructurados para ecommerce",
+        blocks: [
+          {
+            type: "p",
+            text: "Los datos estructurados no mejoran directamente los posicionamientos, pero sí influyen en cómo aparecen tus páginas en los resultados de búsqueda. Para ecommerce esto importa más que en la mayoría de nichos — el esquema Product desbloquea rich results con precio, disponibilidad y estrellas de valoración directamente en la SERP. Esto aumenta significativamente la tasa de clics, especialmente en consultas de compra competitivas donde los resultados orgánicos quedan bajo un muro de anuncios de Shopping.",
+          },
+          {
+            type: "p",
+            text: "Cada página de producto necesita el esquema Product con como mínimo: name, image, description, sku, brand, offers (con price, priceCurrency, availability y url). Si la página tiene reseñas, añade AggregateRating. Sin él, tus estrellas de valoración no aparecerán en los resultados de búsqueda aunque las reseñas estén en la página.",
+          },
+          {
+            type: "callout",
+            title: "El esquema BreadcrumbList está subestimado",
+            text: "Añadir el esquema BreadcrumbList en cada página indica a Google la estructura de tu sitio y a menudo hace que aparezcan rutas de migas de pan en los resultados de búsqueda en lugar de URLs desnudas. Esto mejora el CTR y ayuda a Google a entender la jerarquía entre tus páginas de categoría y producto. Se tarda 30 minutos en implementarlo en todo el sitio y reporta beneficios durante años.",
+          },
+          {
+            type: "checklist",
+            items: [
+              "Esquema Product en cada página de producto (name, image, price, availability, sku, brand)",
+              "AggregateRating dentro del esquema Product en cualquier página con reseñas",
+              "BreadcrumbList en todas las páginas de categoría y producto",
+              "Validar todos los datos estructurados con el Rich Results Test de Google",
+              "Monitorizar el rendimiento de los rich results en GSC bajo Mejoras",
+              "Revisar los errores de datos estructurados en GSC — los campos obligatorios faltantes hacen desaparecer los rich results silenciosamente",
+            ],
+          },
+        ],
+      },
+    ],
+    nav: {
+      prev: {
+        href: "/guides/competitor-analysis",
+        category: "Research & Ideation",
+        title: "Competitor Analysis",
+      },
+      next: {
+        href: "/guides/on-page-audit",
+        category: "Research & Ideation",
+        title: "On-Page Audit",
+      },
+    },
+  },
+
+  it: {
+    sections: [
+      {
+        id: "crawl-budget",
+        title: "Crawl budget: smetti di sprecare l'attenzione di Google",
+        blocks: [
+          {
+            type: "p",
+            text: "Google non scansiona ogni pagina del tuo sito ogni giorno. Assegna un crawl budget — un limite approssimativo sul numero di pagine che Googlebot recupera in un dato periodo. Per i negozi con qualche centinaio di prodotti questo conta poco. Per i negozi con 10.000+ SKU è determinante.",
+          },
+          {
+            type: "p",
+            text: "Il problema: la maggior parte delle piattaforme ecommerce genera quantità enormi di URL di scarso valore — pagine di categoria paginate (/scarpe?pagina=47), combinazioni di filtri e ordinamenti (/scarpe?sort=prezzo&colore=rosso&taglia=40), pagine di prodotti esauriti, risultati di ricerca interna. Google scansiona tutto questo invece dei tuoi contenuti reali.",
+          },
+          {
+            type: "callout",
+            title: "Cosa brucia il crawl budget sui siti ecommerce",
+            text: "La paginazione oltre la pagina 2–3, gli URL di navigazione a faccette, gli ID di sessione negli URL, le pagine di prodotti esauriti senza alternative, le pagine di risultati di ricerca interna (es. /cerca?q=scarpe+rosse) e le catene di redirect. Blocca o aggiungi noindex a tutto questo in modo sistematico.",
+          },
+          {
+            type: "p",
+            text: "Correggi il problema alla radice. In robots.txt, non autorizzare Googlebot a scansionare i pattern di URL che generano pagine inutili. Per i parametri di filtro e ordinamento, usa tag canonical che puntano alla pagina categoria base, oppure aggiungi rel=\"nofollow\" sui link di paginazione e filtro perché Googlebot non li scopra. Controlla regolarmente il report di copertura in GSC — ti mostra esattamente quali URL Google sta perdendo tempo a scansionare.",
+          },
+        ],
+      },
+      {
+        id: "faceted-navigation",
+        title: "Navigazione a faccette: il problema tecnico numero 1 nell'ecommerce",
+        blocks: [
+          {
+            type: "p",
+            text: "La navigazione a faccette — le barre di filtro laterali che gli acquirenti usano per restringere per taglia, colore, marca e prezzo — è una delle funzionalità UX più utili di qualsiasi negozio. È anche, quasi universalmente, un disastro SEO quando non viene configurata.",
+          },
+          {
+            type: "p",
+            text: "Ogni combinazione di filtri genera un nuovo URL. Una categoria con 200 prodotti, 5 colori, 8 taglie e 3 fasce di prezzo può produrre decine di migliaia di combinazioni di URL uniche. La maggior parte non contiene contenuto unico — sono duplicati sottili della pagina categoria base. Google le indicizza, divide il link equity tra loro, e il posizionamento della tua pagina categoria cala.",
+          },
+          {
+            type: "tip",
+            text: "La soluzione giusta dipende da cosa stai filtrando. I filtri che rappresentano una domanda di ricerca reale — come /scarpe-running/donna o /divani/grigio — dovrebbero avere le proprie pagine indicizzabili con contenuto unico. I filtri puramente UX (ordinamento, numero di pagina, toggle disponibilità) devono essere esclusi completamente dall'indicizzazione.",
+          },
+          {
+            type: "p",
+            text: "In pratica: aggiungi un tag canonical su ogni URL di filtro che punta alla pagina categoria base. Oppure, se la tua piattaforma lo supporta, usa aggiornamenti URL solo in JavaScript così i filtri cambiano lo stato della pagina senza creare nuovi URL lato server. Shopify gestisce questo male di default — l'app di ricerca a faccette standard crea URL completamente indicizzabili per ogni filtro. È necessario gestire i canonical manualmente o tramite una modifica del tema.",
+          },
+          {
+            type: "p",
+            text: "Usa Screaming Frog per scansionare il tuo negozio e contare gli URL per template. Se la tua pagina categoria ha 12 sottopagine reali ma Screaming Frog trova 4.000 URL con quel percorso di categoria, hai un problema di navigazione a faccette.",
+          },
+        ],
+      },
+      {
+        id: "duplicate-content-variants",
+        title: "Varianti di prodotto e contenuto duplicato",
+        blocks: [
+          {
+            type: "image",
+            src: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1280&q=80",
+            alt: "Codice e struttura tecnica SEO di una pagina prodotto ecommerce",
+            caption: "Gli URL delle varianti di prodotto sono una delle fonti più comuni di contenuto duplicato indicizzabile nell'ecommerce.",
+          },
+          {
+            type: "p",
+            text: "Un prodotto con 5 opzioni di colore dovrebbe avere una sola pagina indicizzabile, non cinque. Quando ogni variante ha il proprio URL — /sneaker-blu, /sneaker-rossa, /sneaker-verde — e ogni pagina ha lo stesso titolo, la stessa descrizione e lo stesso contenuto con solo il nome del colore cambiato, Google vede cinque contenuti duplicati sottili. Nessuno posiziona bene.",
+          },
+          {
+            type: "p",
+            text: "La correzione passa dai tag canonical. Ogni URL di variante deve avere un canonical che punta alla pagina prodotto principale. La pagina prodotto principale stessa deve essere auto-canonicalizzata. In Shopify, gli URL di varianti vengono generati di default come ?variant=12345. La logica canonical integrata di Shopify lo gestisce — ma vale la pena verificare, specialmente su temi fortemente personalizzati, che il tag canonical su ogni URL di variante punti effettivamente all'URL prodotto corretto.",
+          },
+          {
+            type: "checklist",
+            items: [
+              "Identificare tutti i pattern di URL di varianti prodotto con Screaming Frog",
+              "Confermare che ogni URL di variante ha un canonical che punta alla pagina prodotto principale",
+              "Verificare che l'URL prodotto principale abbia un canonical auto-referenziale",
+              "Controllare in Google Search Console che solo l'URL prodotto principale sia indicizzato",
+              "Rimuovere o reindirizzare le pagine di varianti standalone indicizzate senza canonical",
+            ],
+          },
+        ],
+      },
+      {
+        id: "core-web-vitals",
+        title: "Velocità del sito e Core Web Vitals per l'ecommerce",
+        blocks: [
+          {
+            type: "p",
+            text: "Google usa i Core Web Vitals come segnale di ranking. Le soglie: LCP (Largest Contentful Paint) sotto 2,5 secondi, CLS (Cumulative Layout Shift) sotto 0,1, e INP (Interaction to Next Paint) sotto 200 ms. La maggior parte dei siti ecommerce ne fallisce almeno uno su mobile — ed è lì che Google li misura.",
+          },
+          {
+            type: "p",
+            text: "I principali responsabili di un LCP alto nei siti ecommerce sono le immagini prodotto non ottimizzate. Un JPEG da 3 MB come immagine hero su una pagina prodotto distruggerà il tuo punteggio LCP. Servi WebP o AVIF, imposta attributi di larghezza e altezza espliciti, usa next/image o uno strato di ottimizzazione immagini equivalente, e assicurati che l'immagine prodotto principale abbia fetchpriority=\"high\". Ahrefs Site Audit e PageSpeed Insights segnalano chiaramente i problemi di elemento LCP.",
+          },
+          {
+            type: "tip",
+            text: "Il CLS nell'ecommerce è di solito causato da elementi che caricano tardi: un banner di cookie che sposta i contenuti, un widget di recensioni che si carica dopo il primo render, o banner promozionali iniettati dinamicamente. Riserva spazio per questi elementi con min-height, o caricali fuori dal flusso di contenuto principale.",
+          },
+          {
+            type: "p",
+            text: "L'INP è la metrica più recente e la più difficile da correggere. Misura quanto tempo impiega la pagina a rispondere alle interazioni dell'utente. Nei siti ecommerce, il JavaScript pesante — in particolare gli script di terze parti per widget di chat, pixel di retargeting e motori di raccomandazione — è generalmente la causa. Differisci tutti gli script di terze parti non critici. Usa il pannello Performance di Chrome DevTools per identificare quali script bloccano il thread principale dopo il caricamento della pagina.",
+          },
+          {
+            type: "callout",
+            title: "Da dove iniziare con i Core Web Vitals",
+            text: "Apri PageSpeed Insights sulla tua homepage, sulla tua pagina categoria più importante e su una pagina prodotto. Guarda i field data (dati di utenti reali) invece che solo il punteggio di laboratorio — è quello che Google usa effettivamente. Poi usa l'integrazione di Screaming Frog con PageSpeed Insights per far emergere i problemi CWV su tutto il sito in un singolo crawl.",
+          },
+        ],
+      },
+      {
+        id: "crawl-errors",
+        title: "Diagnosticare gli errori di crawl in Google Search Console",
+        blocks: [
+          {
+            type: "p",
+            text: "Il report di copertura in Google Search Console rende visibili i problemi di crawl. Categorizza gli URL in: Indicizzati, Non indicizzati (con le ragioni), Errori e Validi con avvisi. Ogni categoria ti dice qualcosa di diverso.",
+          },
+          {
+            type: "list",
+            items: [
+              "Soft 404: pagine che restituiscono uno stato HTTP 200 ma mostrano un messaggio 'nessun risultato' o 'prodotto non disponibile'. Google le tratta come pagine valide — vengono indicizzate, non trasmettono valore, e possono silenziosa­mente danneggiare i segnali di qualità del dominio.",
+              "Catene di redirect: l'URL A reindirizza all'URL B che reindirizza all'URL C. Ogni salto diluisce il PageRank e rallenta il crawl. Soluzione: aggiornare tutti i link interni per puntare direttamente all'URL di destinazione finale.",
+              "Scansionato ma non indicizzato: Google ha visitato la pagina ma ha scelto di non indicizzarla. Di solito un problema di segnale di qualità — contenuto sottile, duplicato o quasi duplicato.",
+              "Scoperto ma non scansionato: Google ha trovato l'URL (via sitemap o link interno) ma non lo ha ancora recuperato. Sui siti grandi questo indica esaurimento del crawl budget — Google mette in coda URL che non raggiungerà mai.",
+            ],
+          },
+          {
+            type: "p",
+            text: "Il flusso di lavoro più produttivo: esportare i dati di copertura GSC, eseguire un crawl completo con Screaming Frog e incrociare i due. GSC ti dice cosa vede Google; Screaming Frog ti dice cosa c'è effettivamente sul sito. Le pagine che GSC mostra come soft 404 ma Screaming Frog trova con contenuto reale hanno di solito un problema di rendering — JavaScript che non si carica per Googlebot.",
+          },
+        ],
+      },
+      {
+        id: "structured-data",
+        title: "Dati strutturati per l'ecommerce",
+        blocks: [
+          {
+            type: "p",
+            text: "I dati strutturati non migliorano direttamente i posizionamenti, ma influenzano come le tue pagine appaiono nei risultati di ricerca. Per l'ecommerce questo conta più che nella maggior parte delle nicchie — lo schema Product sblocca i rich result con prezzo, disponibilità e stelle di recensione direttamente nella SERP. Questo aumenta significativamente il tasso di clic, specialmente nelle query di acquisto competitive dove i risultati organici si trovano sotto un muro di annunci Shopping.",
+          },
+          {
+            type: "p",
+            text: "Ogni pagina prodotto ha bisogno dello schema Product con almeno: name, image, description, sku, brand, offers (con price, priceCurrency, availability e url). Se la pagina ha recensioni, aggiungi AggregateRating. Senza di esso, le tue stelle di valutazione non appariranno nei risultati di ricerca anche se le recensioni sono sulla pagina.",
+          },
+          {
+            type: "callout",
+            title: "Lo schema BreadcrumbList è sottovalutato",
+            text: "Aggiungere lo schema BreadcrumbList su ogni pagina dice a Google la struttura del tuo sito e spesso fa apparire i percorsi breadcrumb nei risultati di ricerca al posto degli URL nudi. Questo migliora il CTR e aiuta Google a capire la gerarchia tra le tue pagine categoria e prodotto. Ci vogliono 30 minuti per implementarlo su tutto il sito e ripaga per anni.",
+          },
+          {
+            type: "checklist",
+            items: [
+              "Schema Product su ogni pagina prodotto (name, image, price, availability, sku, brand)",
+              "AggregateRating all'interno dello schema Product su ogni pagina con recensioni",
+              "BreadcrumbList su tutte le pagine categoria e prodotto",
+              "Validare tutti i dati strutturati con il Rich Results Test di Google",
+              "Monitorare le performance dei rich result in GSC sotto Miglioramenti",
+              "Controllare gli errori di dati strutturati in GSC — i campi obbligatori mancanti fanno scomparire silenziosamente i rich result",
+            ],
+          },
+        ],
+      },
+    ],
+    nav: {
+      prev: {
+        href: "/guides/competitor-analysis",
+        category: "Research & Ideation",
+        title: "Competitor Analysis",
+      },
+      next: {
+        href: "/guides/on-page-audit",
+        category: "Research & Ideation",
+        title: "On-Page Audit",
+      },
+    },
+  },
+
+  nl: {
+    sections: [
+      {
+        id: "crawl-budget",
+        title: "Crawlbudget: stop met het verspillen van Google's aandacht",
+        blocks: [
+          {
+            type: "p",
+            text: "Google crawlt niet elke dag elke pagina van je site. Het kent een crawlbudget toe — een ruwe limiet op hoeveel pagina's Googlebot in een bepaalde periode ophaalt. Voor shops met een paar honderd producten maakt dit zelden uit. Voor shops met 10.000+ SKU's is het enorm belangrijk.",
+          },
+          {
+            type: "p",
+            text: "Het probleem: de meeste e-commerceplatforms genereren enorme hoeveelheden URL's zonder waarde — gepagineerde categoriepagina's (/schoenen?pagina=47), filter- en sorteercombinaties (/schoenen?sort=prijs&kleur=rood&maat=40), pagina's van uitverkochte producten en interne zoekresultaten. Google crawlt dit allemaal in plaats van je echte content.",
+          },
+          {
+            type: "callout",
+            title: "Wat het crawlbudget verbrandt op e-commercesites",
+            text: "Paginering voorbij pagina 2–3, facetnavigatie-URL's, sessie-ID's in URL's, uitverkochte pagina's zonder alternatieven, interne zoekresultatenpagina's (bijv. /zoeken?q=rode+schoenen) en omleidingsketens. Blokkeer of noindex dit alles consequent.",
+          },
+          {
+            type: "p",
+            text: "Los het bij de bron op. In robots.txt scherm je Googlebot af van URL-patronen die waardeloze pagina's genereren. Voor filter- en sorteerparameters: gebruik canonical-tags die verwijzen naar de basis-categoriepagina, of voeg rel=\"nofollow\" toe aan paginering- en filterlinks zodat Googlebot ze niet ontdekt. Controleer regelmatig het dekkingsrapport in GSC — het laat je precies zien welke URL's Google onnodig crawlt.",
+          },
+        ],
+      },
+      {
+        id: "faceted-navigation",
+        title: "Facetnavigatie: het grootste technische probleem in e-commerce",
+        blocks: [
+          {
+            type: "p",
+            text: "Facetnavigatie — de filterzijbalken waarmee shoppers verfijnen op maat, kleur, merk en prijs — is een van de nuttigste UX-functies van elke webshop. Het is ook, bijna altijd, een SEO-ramp als het niet goed geconfigureerd is.",
+          },
+          {
+            type: "p",
+            text: "Elke filtercombinatie genereert een nieuwe URL. Een categorie met 200 producten, 5 kleuren, 8 maten en 3 prijsbereiken kan tienduizenden unieke URL-combinaties produceren. De meeste bevatten geen unieke content — het zijn dunne duplicaten van de basis-categoriepagina. Google indexeert ze, verdeelt het link-equity erover, en de ranking van je categoriepagina daalt.",
+          },
+          {
+            type: "tip",
+            text: "De juiste oplossing hangt af van wat je filtert. Filters die echte zoekvraag vertegenwoordigen — zoals /hardloopschoenen/dames of /banken/grijs — moeten hun eigen indexeerbare pagina's hebben met unieke content. Puur UX-filters (sorteervolgorde, paginanummer, beschikbaarheidstoggle) moeten volledig van indexering worden uitgesloten.",
+          },
+          {
+            type: "p",
+            text: "In de praktijk: voeg een canonical-tag toe op elke filter-URL die verwijst naar de basis-categoriepagina. Of gebruik — als je platform het ondersteunt — JavaScript-only URL-updates zodat filters de paginastatus wijzigen zonder nieuwe server-side URL's te maken. Shopify doet dit standaard slecht — de standaard facetzoekapp maakt volledig indexeerbare URL's voor elk filter. Je moet canonical-verwerking handmatig of via een thema-aanpassing regelen.",
+          },
+          {
+            type: "p",
+            text: "Gebruik Screaming Frog om je shop te crawlen en URL's per template te tellen. Als je categoriepagina 12 echte subpagina's heeft maar Screaming Frog 4.000 URL's met dat categoriepad vindt, heb je een facetnavigatie­probleem.",
+          },
+        ],
+      },
+      {
+        id: "duplicate-content-variants",
+        title: "Productvarianten en duplicate content",
+        blocks: [
+          {
+            type: "image",
+            src: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1280&q=80",
+            alt: "Code en technische SEO-structuur van een e-commerce productpagina",
+            caption: "Productvariant-URL's zijn een van de meest voorkomende bronnen van indexeerbare duplicate content in e-commerce.",
+          },
+          {
+            type: "p",
+            text: "Een product met 5 kleuropties hoort één indexeerbare pagina te hebben, niet vijf. Als elke variant zijn eigen URL heeft — /blauwe-sneaker, /rode-sneaker, /groene-sneaker — en elke pagina dezelfde titel, beschrijving en content heeft met alleen de kleurna­am verwisseld, ziet Google vijf dunne duplicaten. Geen ervan rankt goed.",
+          },
+          {
+            type: "p",
+            text: "De oplossing zijn canonical-tags. Elke variant-URL moet een canonical hebben die verwijst naar de hoofd-productpagina. De hoofd-productpagina zelf moet zelf-canonicali­serend zijn. In Shopify worden variant-URL's standaard gegenereerd als ?variant=12345. De ingebouwde canonical-logica van Shopify handelt dit af — maar het is de moeite waard te verifiëren, met name op sterk aangepaste thema's, of de canonical-tag op elke variant-URL daadwerkelijk verwijst naar de juiste product-URL.",
+          },
+          {
+            type: "checklist",
+            items: [
+              "Alle productvariant-URL-patronen identificeren met Screaming Frog",
+              "Bevestigen dat elke variant-URL een canonical heeft die verwijst naar de hoofd-productpagina",
+              "Controleren dat de hoofd-product-URL een zelf-referentiële canonical heeft",
+              "In Google Search Console verifiëren dat alleen de hoofd-product-URL is geïndexeerd",
+              "Zelfstandige variant­pagina's die zijn geïndexeerd zonder canonicals verwijderen of omleiden",
+            ],
+          },
+        ],
+      },
+      {
+        id: "core-web-vitals",
+        title: "Sitesnelheid en Core Web Vitals voor e-commerce",
+        blocks: [
+          {
+            type: "p",
+            text: "Google gebruikt Core Web Vitals als rankingsignaal. De drempelwaarden: LCP (Largest Contentful Paint) onder 2,5 seconden, CLS (Cumulative Layout Shift) onder 0,1, en INP (Interaction to Next Paint) onder 200 ms. De meeste e-commercesites zakken op mobiel voor minstens één ervan — en dat is waar Google ze meet.",
+          },
+          {
+            type: "p",
+            text: "De grootste LCP-boosdoeners op e-commercesites zijn niet-geoptimaliseerde productafbeeldingen. Een JPEG van 3 MB als hero-afbeelding op een productpagina vernietigt je LCP-score. Serveer WebP of AVIF, stel expliciete breedte- en hoogte-attributen in, gebruik next/image of een vergelijkbare beeldoptimalisatielaag, en zorg dat de hoofd­product­afbeelding fetchpriority=\"high\" heeft. Zowel Ahrefs Site Audit als PageSpeed Insights markeren LCP-element­problemen duidelijk.",
+          },
+          {
+            type: "tip",
+            text: "CLS op e-commercesites wordt doorgaans veroorzaakt door laat-ladende elementen: een cookiebanner die content verschuift, een reviewwidget die laadt na de eerste render, of dynamisch ingevoegde promotiebanners. Reserveer ruimte voor deze elementen met min-height, of laad ze buiten de hoofd­content­stroom.",
+          },
+          {
+            type: "p",
+            text: "INP is de nieuwste metric en de moeilijkste om te verbeteren. Het meet hoe lang de pagina erover doet om te reageren op gebruikers­interacties. Op e-commercesites is zwaar JavaScript — met name scripts van derden voor chatwidgets, retargetingpixels en aanbevelings­engines — doorgaans de oorzaak. Stel alle niet-kritieke scripts van derden uit. Gebruik het Performance-paneel in Chrome DevTools om te achterhalen welke scripts de main thread blokkeren na het laden van de pagina.",
+          },
+          {
+            type: "callout",
+            title: "Waar te beginnen met Core Web Vitals",
+            text: "Open PageSpeed Insights op je homepage, je belangrijkste categoriepagina en één productpagina. Bekijk de field data (echte gebruikersdata) in plaats van alleen de lab-score — dat is wat Google daadwerkelijk gebruikt. Gebruik daarna de integratie van Screaming Frog met PageSpeed Insights om CWV-problemen over de hele site in één crawl bloot te leggen.",
+          },
+        ],
+      },
+      {
+        id: "crawl-errors",
+        title: "Crawlfouten diagnosticeren in Google Search Console",
+        blocks: [
+          {
+            type: "p",
+            text: "Het dekkingsrapport in Google Search Console maakt crawlproblemen zichtbaar. Het deelt URL's in: Geïndexeerd, Niet geïndexeerd (met redenen), Fout en Geldig met waarschuwingen. Elke categorie vertelt je iets anders.",
+          },
+          {
+            type: "list",
+            items: [
+              "Soft 404's: pagina's die een HTTP-200-status retourneren maar een bericht 'geen resultaten' of 'product niet beschikbaar' tonen. Google behandelt ze als geldige pagina's — ze worden geïndexeerd, dragen geen waarde over, en kunnen stille­tjies de domein­kwaliteits­signalen beschadigen.",
+              "Omleidingsketens: URL A stuurt door naar URL B die doorstuurt naar URL C. Elke stap verdunt PageRank en vertraagt het crawlen. Oplossing: alle interne links bijwerken zodat ze rechtstreeks naar de uiteindelijke doel-URL verwijzen.",
+              "Gecrawld maar niet geïndexeerd: Google heeft de pagina bezocht maar gekozen deze niet te indexeren. Doorgaans een kwaliteits­signaalprobleem — dunne, duplicaat of bijna-duplicaat content.",
+              "Ontdekt maar niet gecrawld: Google heeft de URL gevonden (via sitemap of interne link) maar nog niet opgehaald. Op grote sites wijst dit op uitputting van het crawlbudget — Google zet URL's in een wachtrij die het nooit bereikt.",
+            ],
+          },
+          {
+            type: "p",
+            text: "De meest productieve workflow: GSC-dekkingsdata exporteren, een volledige crawl uitvoeren met Screaming Frog, en beide kruislings vergelijken. GSC vertelt je wat Google ziet; Screaming Frog vertelt je wat er echt op de site staat. Pagina's die GSC als soft 404 markeert maar Screaming Frog met echte content vindt, hebben doorgaans een content-rendering­probleem — JavaScript dat niet laadt voor Googlebot.",
+          },
+        ],
+      },
+      {
+        id: "structured-data",
+        title: "Gestructureerde data voor e-commerce",
+        blocks: [
+          {
+            type: "p",
+            text: "Gestructureerde data verbetert rankings niet direct, maar beïnvloedt wel hoe je pagina's in zoek­resultaten verschijnen. Voor e-commerce telt dit meer dan in de meeste niches — Product-schema ontgrendelt rich results met prijs, beschikbaarheid en sterrenbeoordelingen direct in de SERP. Dit verhoogt de klikratio aanzienlijk, met name bij competitieve shopping-zoekopdrachten waar organische resultaten onder een muur van Shopping-advertenties staan.",
+          },
+          {
+            type: "p",
+            text: "Elke productpagina heeft Product-schema nodig met minimaal: name, image, description, sku, brand, offers (met price, priceCurrency, availability en url). Als de pagina reviews heeft, voeg je AggregateRating toe. Zonder dit verschijnen je beoordelings­sterren niet in zoekresultaten — ook al staan de reviews op de pagina.",
+          },
+          {
+            type: "callout",
+            title: "BreadcrumbList-schema is ondergewaardeerd",
+            text: "BreadcrumbList-schema toevoegen op elke pagina vertelt Google de structuur van je site en zorgt er vaak voor dat breadcrumbpaden in zoekresultaten verschijnen in plaats van kale URL's. Dit verbetert de CTR en helpt Google de hiërarchie tussen je categorie- en product­pagina's te begrijpen. Het kost 30 minuten om site-breed te implementeren en levert jaren lang rendement op.",
+          },
+          {
+            type: "checklist",
+            items: [
+              "Product-schema op elke productpagina (name, image, price, availability, sku, brand)",
+              "AggregateRating binnen het Product-schema op elke pagina met reviews",
+              "BreadcrumbList op alle categorie- en productpagina's",
+              "Alle gestructureerde data valideren met de Rich Results Test van Google",
+              "Rich result-prestaties monitoren in GSC onder Verbeteringen",
+              "Controleren op gestructureerde data-fouten in GSC — ontbrekende verplichte velden laten rich results stilletjes verdwijnen",
+            ],
+          },
+        ],
+      },
+    ],
+    nav: {
+      prev: {
+        href: "/guides/competitor-analysis",
+        category: "Research & Ideation",
+        title: "Competitor Analysis",
+      },
+      next: {
+        href: "/guides/on-page-audit",
+        category: "Research & Ideation",
+        title: "On-Page Audit",
+      },
+    },
+  },
+};

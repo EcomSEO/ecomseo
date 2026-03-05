@@ -159,6 +159,66 @@
     "description": "Poursuivez votre maitrise des fondamentaux du SEO e-commerce avec des techniques et strategies d'optimisation avancees.",
     "ogTitle": "Fondamentaux SEO — Suite | Guides EcomSEO"
   },
+  "/guides/analytics-tracking": {
+    "title": "Analytics & Suivi pour le SEO E-commerce | Guides EcomSEO",
+    "description": "Configurer GA4 et Google Search Console pour votre boutique. Les métriques qui comptent vraiment et comment trouver des gains rapides dans vos données.",
+    "ogTitle": "Analytics & Suivi pour le SEO E-commerce | Guides EcomSEO"
+  },
+  "/guides/beginner-to-hero": {
+    "title": "Débutant à Expert : Parcours Complet SEO E-commerce | EcomSEO",
+    "description": "Un parcours structuré de 10 semaines de zéro connaissance SEO à la gestion d'un programme SEO e-commerce complet. Chaque étape expliquée.",
+    "ogTitle": "Débutant à Expert : Parcours SEO E-commerce Complet | EcomSEO"
+  },
+  "/guides/keyword-research": {
+    "title": "Guide de Recherche de Mots-clés E-commerce | Guides EcomSEO",
+    "description": "Comment trouver, évaluer et cartographier les mots-clés pour votre boutique e-commerce. Intention commerciale, stratégie longue traîne et scoring de priorité.",
+    "ogTitle": "Guide de Recherche de Mots-clés E-commerce | Guides EcomSEO"
+  },
+  "/guides/competitor-analysis": {
+    "title": "Analyse Concurrentielle SEO E-commerce | Guides EcomSEO",
+    "description": "Trouvez les lacunes de mots-clés, de contenu et d'opportunités de backlinks en analysant vos concurrents SEO. Un processus étape par étape.",
+    "ogTitle": "Analyse Concurrentielle SEO E-commerce | Guides EcomSEO"
+  },
+  "/guides/technical-analysis": {
+    "title": "SEO Technique pour E-commerce | Guides EcomSEO",
+    "description": "Corrigez les problèmes de budget de crawl, la navigation à facettes, la vitesse du site et les problèmes de données structurées qui freinent votre boutique.",
+    "ogTitle": "SEO Technique pour E-commerce | Guides EcomSEO"
+  },
+  "/guides/on-page-audit": {
+    "title": "Audit SEO On-Page pour E-commerce | Guides EcomSEO",
+    "description": "Auditez et corrigez les pages de catégories, les fiches produits, les balises title, les méta-descriptions et les liens internes de votre boutique.",
+    "ogTitle": "Audit SEO On-Page pour E-commerce | Guides EcomSEO"
+  },
+  "/guides/off-page-audit": {
+    "title": "Audit SEO Off-Page pour E-commerce | Guides EcomSEO",
+    "description": "Analysez votre profil de backlinks, identifiez les liens toxiques, auditez la distribution des ancres et trouvez les opportunités de backlinks concurrents.",
+    "ogTitle": "Audit SEO Off-Page pour E-commerce | Guides EcomSEO"
+  },
+  "/guides/task-planning": {
+    "title": "Planification des Tâches SEO pour E-commerce | Guides EcomSEO",
+    "description": "Comment prioriser les tâches SEO, gérer des sprints de 2 semaines et suivre les résultats. Le framework impact vs. effort pour le SEO e-commerce.",
+    "ogTitle": "Planification des Tâches SEO pour E-commerce | Guides EcomSEO"
+  },
+  "/guides/link-building-tactics": {
+    "title": "Tactiques de Link Building pour E-commerce | Guides EcomSEO",
+    "description": "Stratégies de link building éprouvées pour l'e-commerce : digital PR, guest posting, liens fournisseurs, pages de ressources et broken link building.",
+    "ogTitle": "Tactiques de Link Building pour E-commerce | Guides EcomSEO"
+  },
+  "/guides/topical-authority": {
+    "title": "Obtenir l'Autorité Thématique pour E-commerce | Guides EcomSEO",
+    "description": "Construisez l'autorité thématique avec des clusters de contenu, une architecture hub-and-spoke et un maillage interne stratégique pour votre boutique.",
+    "ogTitle": "Autorité Thématique pour E-commerce | Guides EcomSEO"
+  },
+  "/guides/ranking-chatgpt": {
+    "title": "Se Positionner sur ChatGPT & la Recherche IA | Guides EcomSEO",
+    "description": "Faites citer votre marque e-commerce dans ChatGPT, Perplexity et Google AI Overviews. Signaux E-E-A-T, contenu structuré et visibilité IA.",
+    "ogTitle": "Se Positionner sur ChatGPT & la Recherche IA | Guides EcomSEO"
+  },
+  "/guides/serp-domination": {
+    "title": "Domination des SERP pour E-commerce | Guides EcomSEO",
+    "description": "Occupez plus que la première position. Google Shopping, featured snippets, résultats images, sitelinks et People Also Ask pour l'e-commerce.",
+    "ogTitle": "Domination des SERP pour E-commerce | Guides EcomSEO"
+  },
   "/page": {
     "title": "Fabian van Til — Agence d'optimisation LLM | EcomSEO",
     "description": "Fabian van Til, fondateur d'EcomSEO. Nous aidons les marques e-commerce a etre decouvertes sur l'AI et les LLM comme ChatGPT.",

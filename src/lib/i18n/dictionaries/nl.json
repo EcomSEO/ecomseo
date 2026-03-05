@@ -159,6 +159,66 @@
     "description": "Ga verder met het beheersen van ecommerce SEO-basisprincipes met geavanceerde optimalisatietechnieken en strategieen.",
     "ogTitle": "SEO Basis Vervolg | EcomSEO Handleidingen"
   },
+  "/guides/analytics-tracking": {
+    "title": "Analytics & Tracking voor Ecommerce SEO | EcomSEO Handleidingen",
+    "description": "GA4 en Google Search Console instellen voor je winkel. Welke metrics er echt toe doen en hoe je snelle winsten uit je data haalt.",
+    "ogTitle": "Analytics & Tracking voor Ecommerce SEO | EcomSEO Handleidingen"
+  },
+  "/guides/beginner-to-hero": {
+    "title": "Beginner tot Expert: Volledig Ecommerce SEO Leerpad | EcomSEO",
+    "description": "Een gestructureerd 10-wekenpad van nul SEO-kennis naar het runnen van een volledig ecommerce SEO-programma. Elke fase stap voor stap uitgelegd.",
+    "ogTitle": "Beginner tot Expert: Ecommerce SEO Leerpad | EcomSEO"
+  },
+  "/guides/keyword-research": {
+    "title": "Ecommerce Zoekwoordenonderzoek Handleiding | EcomSEO Handleidingen",
+    "description": "Hoe je zoekwoorden vindt, evalueert en toewijst voor je ecommerce winkel. Commerciële intentie, long-tail strategie en prioriteitsscoring uitgelegd.",
+    "ogTitle": "Ecommerce Zoekwoordenonderzoek Handleiding | EcomSEO Handleidingen"
+  },
+  "/guides/competitor-analysis": {
+    "title": "Ecommerce SEO Concurrentieanalyse | EcomSEO Handleidingen",
+    "description": "Vind zoekwoord-, content- en backlinkgaten door je SEO-concurrenten te analyseren. Een stap-voor-stap proces.",
+    "ogTitle": "Ecommerce SEO Concurrentieanalyse | EcomSEO Handleidingen"
+  },
+  "/guides/technical-analysis": {
+    "title": "Technische SEO voor Ecommerce | EcomSEO Handleidingen",
+    "description": "Crawlbudgetproblemen, facetnavigatie, sitesnelheid en gestructureerde dataproblemen oplossen die je ecommerce winkel tegenhouden.",
+    "ogTitle": "Technische SEO voor Ecommerce | EcomSEO Handleidingen"
+  },
+  "/guides/on-page-audit": {
+    "title": "On-Page SEO Audit voor Ecommerce | EcomSEO Handleidingen",
+    "description": "Categoriepagina's, productpagina's, title-tags, meta-beschrijvingen en interne links voor je online winkel controleren en optimaliseren.",
+    "ogTitle": "On-Page SEO Audit voor Ecommerce | EcomSEO Handleidingen"
+  },
+  "/guides/off-page-audit": {
+    "title": "Off-Page SEO Audit voor Ecommerce | EcomSEO Handleidingen",
+    "description": "Je backlinkprofiel analyseren, toxische links identificeren, ankertekstverdeling controleren en backlinkopportuniteiten bij concurrenten vinden.",
+    "ogTitle": "Off-Page SEO Audit voor Ecommerce | EcomSEO Handleidingen"
+  },
+  "/guides/task-planning": {
+    "title": "SEO-Taakplanning voor Ecommerce | EcomSEO Handleidingen",
+    "description": "Hoe je SEO-taken prioriteert, 2-weekse sprints uitvoert en resultaten bijhoudt. Het impact-vs.-inspanning framework voor ecommerce SEO.",
+    "ogTitle": "SEO-Taakplanning voor Ecommerce | EcomSEO Handleidingen"
+  },
+  "/guides/link-building-tactics": {
+    "title": "Link Building Tactieken voor Ecommerce | EcomSEO Handleidingen",
+    "description": "Bewezen linkbuildingstrategieën voor ecommerce: digital PR, gastbijdragen, leverancierslinks, resourcepagina's en broken link building.",
+    "ogTitle": "Link Building Tactieken voor Ecommerce | EcomSEO Handleidingen"
+  },
+  "/guides/topical-authority": {
+    "title": "Topicale Autoriteit Opbouwen voor Ecommerce | EcomSEO Handleidingen",
+    "description": "Topicale autoriteit opbouwen met contentclusters, hub-and-spoke architectuur en strategische interne verlinking voor je ecommerce winkel.",
+    "ogTitle": "Topicale Autoriteit voor Ecommerce | EcomSEO Handleidingen"
+  },
+  "/guides/ranking-chatgpt": {
+    "title": "Ranken op ChatGPT & AI-Zoekmachines | EcomSEO Handleidingen",
+    "description": "Je ecommerce merk laten citeren in ChatGPT, Perplexity en Google AI Overviews. E-E-A-T-signalen, gestructureerde content en AI-zichtbaarheid.",
+    "ogTitle": "Ranken op ChatGPT & AI-Zoekmachines | EcomSEO Handleidingen"
+  },
+  "/guides/serp-domination": {
+    "title": "SERP-Dominantie voor Ecommerce | EcomSEO Handleidingen",
+    "description": "Meer dan alleen de #1 positie bezetten. Google Shopping, featured snippets, afbeeldingsresultaten, sitelinks en People Also Ask voor ecommerce.",
+    "ogTitle": "SERP-Dominantie voor Ecommerce | EcomSEO Handleidingen"
+  },
   "/page": {
     "title": "Fabian van Til — LLM Optimalisatie Bureau | EcomSEO",
     "description": "Fabian van Til, oprichter van EcomSEO. Wij helpen ecommerce merken vindbaar te worden op AI en LLMs zoals ChatGPT.",

@@ -159,6 +159,66 @@
     "description": "Continue mastering ecommerce SEO fundamentals with advanced optimization techniques and strategies.",
     "ogTitle": "SEO Fundamentals Continued | EcomSEO Guides"
   },
+  "/guides/analytics-tracking": {
+    "title": "Analytics & Tracking for Ecommerce SEO | EcomSEO Guides",
+    "description": "Set up GA4 and Google Search Console for your store. Learn which metrics actually matter and how to find quick wins from your data.",
+    "ogTitle": "Analytics & Tracking for Ecommerce SEO | EcomSEO Guides"
+  },
+  "/guides/beginner-to-hero": {
+    "title": "Beginner to Hero: Full Ecommerce SEO Learning Path | EcomSEO",
+    "description": "A structured 10-week path from zero SEO knowledge to running a complete ecommerce SEO program. Every stage explained step by step.",
+    "ogTitle": "Beginner to Hero: Full Ecommerce SEO Learning Path | EcomSEO"
+  },
+  "/guides/keyword-research": {
+    "title": "Ecommerce Keyword Research Guide | EcomSEO Guides",
+    "description": "How to find, evaluate, and map keywords for your ecommerce store. Commercial intent, long-tail strategy, and priority scoring explained.",
+    "ogTitle": "Ecommerce Keyword Research Guide | EcomSEO Guides"
+  },
+  "/guides/competitor-analysis": {
+    "title": "Ecommerce SEO Competitor Analysis | EcomSEO Guides",
+    "description": "Find keyword gaps, content gaps, and backlink opportunities by analysing your SEO competitors. A step-by-step process.",
+    "ogTitle": "Ecommerce SEO Competitor Analysis | EcomSEO Guides"
+  },
+  "/guides/technical-analysis": {
+    "title": "Technical SEO for Ecommerce | EcomSEO Guides",
+    "description": "Fix crawl budget issues, faceted navigation, site speed, and structured data problems holding your ecommerce store back.",
+    "ogTitle": "Technical SEO for Ecommerce | EcomSEO Guides"
+  },
+  "/guides/on-page-audit": {
+    "title": "On-Page SEO Audit for Ecommerce | EcomSEO Guides",
+    "description": "Audit and fix category pages, product pages, title tags, meta descriptions, and internal links for your online store.",
+    "ogTitle": "On-Page SEO Audit for Ecommerce | EcomSEO Guides"
+  },
+  "/guides/off-page-audit": {
+    "title": "Off-Page SEO Audit for Ecommerce | EcomSEO Guides",
+    "description": "Analyse your backlink profile, identify toxic links, audit anchor text distribution, and find competitor backlink opportunities.",
+    "ogTitle": "Off-Page SEO Audit for Ecommerce | EcomSEO Guides"
+  },
+  "/guides/task-planning": {
+    "title": "SEO Task Planning for Ecommerce | EcomSEO Guides",
+    "description": "How to prioritise SEO tasks, run 2-week sprints, and track outcomes. The impact vs. effort framework for ecommerce SEO.",
+    "ogTitle": "SEO Task Planning for Ecommerce | EcomSEO Guides"
+  },
+  "/guides/link-building-tactics": {
+    "title": "Link Building Tactics for Ecommerce | EcomSEO Guides",
+    "description": "Proven link building strategies for ecommerce: digital PR, guest posting, supplier links, resource pages, and broken link building.",
+    "ogTitle": "Link Building Tactics for Ecommerce | EcomSEO Guides"
+  },
+  "/guides/topical-authority": {
+    "title": "Getting Topical Authority for Ecommerce | EcomSEO Guides",
+    "description": "Build topical authority with content clusters, hub-and-spoke architecture, and strategic internal linking for your ecommerce store.",
+    "ogTitle": "Getting Topical Authority for Ecommerce | EcomSEO Guides"
+  },
+  "/guides/ranking-chatgpt": {
+    "title": "Ranking on ChatGPT & AI Search | EcomSEO Guides",
+    "description": "Get your ecommerce brand cited in ChatGPT, Perplexity, and Google AI Overviews. E-E-A-T signals, structured content, and AI visibility.",
+    "ogTitle": "Ranking on ChatGPT & AI Search | EcomSEO Guides"
+  },
+  "/guides/serp-domination": {
+    "title": "SERP Domination for Ecommerce | EcomSEO Guides",
+    "description": "Own more than just the #1 result. Google Shopping, featured snippets, image results, sitelinks, and People Also Ask for ecommerce.",
+    "ogTitle": "SERP Domination for Ecommerce | EcomSEO Guides"
+  },
   "/page": {
     "title": "Fabian van Til — LLM Optimisation Agency | EcomSEO",
     "description": "Fabian van Til, founder of EcomSEO. Helping ecommerce brands get discovered on AI and LLMs like ChatGPT.",

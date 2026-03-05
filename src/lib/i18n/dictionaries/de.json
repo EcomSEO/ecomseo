@@ -157,7 +157,67 @@
   "/guides/fundamentals-2": {
     "title": "SEO Grundlagen Fortsetzung | EcomSEO Leitf\u00e4den",
     "description": "Vertiefen Sie Ihr Wissen \u00fcber Ecommerce SEO Grundlagen mit fortgeschrittenen Optimierungstechniken und Strategien.",
-    "ogTitle": "SEO Grundlagen Fortsetzung | EcomSEO Leitf\u00e4den"
+    "ogTitle": "SEO Grundlagen Fortsetzung | EcomSEO Leitfäden"
+  },
+  "/guides/analytics-tracking": {
+    "title": "Analytics & Tracking für Ecommerce SEO | EcomSEO Leitfäden",
+    "description": "GA4 und Google Search Console für Ihren Shop einrichten. Welche Kennzahlen wirklich zählen und wie Sie schnelle Gewinne aus Ihren Daten ziehen.",
+    "ogTitle": "Analytics & Tracking für Ecommerce SEO | EcomSEO Leitfäden"
+  },
+  "/guides/beginner-to-hero": {
+    "title": "Einsteiger zum Experten: Vollständiger Ecommerce SEO Lernpfad | EcomSEO",
+    "description": "Ein strukturierter 10-Wochen-Pfad von null SEO-Kenntnissen bis zur Leitung eines vollständigen Ecommerce-SEO-Programms. Schritt für Schritt erklärt.",
+    "ogTitle": "Einsteiger zum Experten: Ecommerce SEO Lernpfad | EcomSEO"
+  },
+  "/guides/keyword-research": {
+    "title": "Ecommerce Keyword-Recherche Leitfaden | EcomSEO Leitfäden",
+    "description": "Keywords für Ihren Onlineshop finden, bewerten und zuordnen. Kaufabsicht, Long-Tail-Strategie und Priorisierung erklärt.",
+    "ogTitle": "Ecommerce Keyword-Recherche Leitfaden | EcomSEO Leitfäden"
+  },
+  "/guides/competitor-analysis": {
+    "title": "Ecommerce SEO Wettbewerbsanalyse | EcomSEO Leitfäden",
+    "description": "Keyword-Lücken, Content-Lücken und Backlink-Chancen durch Analyse Ihrer SEO-Wettbewerber finden. Schritt-für-Schritt-Prozess.",
+    "ogTitle": "Ecommerce SEO Wettbewerbsanalyse | EcomSEO Leitfäden"
+  },
+  "/guides/technical-analysis": {
+    "title": "Technisches SEO für Ecommerce | EcomSEO Leitfäden",
+    "description": "Crawl-Budget-Probleme, Facettennavigation, Seitengeschwindigkeit und strukturierte Daten beheben, die Ihren Shop zurückhalten.",
+    "ogTitle": "Technisches SEO für Ecommerce | EcomSEO Leitfäden"
+  },
+  "/guides/on-page-audit": {
+    "title": "On-Page SEO Audit für Ecommerce | EcomSEO Leitfäden",
+    "description": "Kategorieseiten, Produktseiten, Title-Tags, Meta-Beschreibungen und interne Links für Ihren Onlineshop prüfen und optimieren.",
+    "ogTitle": "On-Page SEO Audit für Ecommerce | EcomSEO Leitfäden"
+  },
+  "/guides/off-page-audit": {
+    "title": "Off-Page SEO Audit für Ecommerce | EcomSEO Leitfäden",
+    "description": "Ihr Backlink-Profil analysieren, toxische Links identifizieren, Ankertext-Verteilung prüfen und Backlink-Chancen bei Wettbewerbern finden.",
+    "ogTitle": "Off-Page SEO Audit für Ecommerce | EcomSEO Leitfäden"
+  },
+  "/guides/task-planning": {
+    "title": "SEO-Aufgabenplanung für Ecommerce | EcomSEO Leitfäden",
+    "description": "SEO-Aufgaben priorisieren, 2-Wochen-Sprints durchführen und Ergebnisse verfolgen. Das Impact-vs.-Aufwand-Framework für Ecommerce SEO.",
+    "ogTitle": "SEO-Aufgabenplanung für Ecommerce | EcomSEO Leitfäden"
+  },
+  "/guides/link-building-tactics": {
+    "title": "Linkaufbau-Taktiken für Ecommerce | EcomSEO Leitfäden",
+    "description": "Bewährte Linkaufbau-Strategien für Ecommerce: Digital PR, Gastbeiträge, Lieferanten-Links, Ressourcenseiten und Broken-Link-Building.",
+    "ogTitle": "Linkaufbau-Taktiken für Ecommerce | EcomSEO Leitfäden"
+  },
+  "/guides/topical-authority": {
+    "title": "Thematische Autorität für Ecommerce aufbauen | EcomSEO Leitfäden",
+    "description": "Thematische Autorität mit Content-Clustern, Hub-and-Spoke-Architektur und strategischer interner Verlinkung für Ihren Shop aufbauen.",
+    "ogTitle": "Thematische Autorität für Ecommerce | EcomSEO Leitfäden"
+  },
+  "/guides/ranking-chatgpt": {
+    "title": "Bei ChatGPT & KI-Suche ranken | EcomSEO Leitfäden",
+    "description": "Ihre Ecommerce-Marke in ChatGPT, Perplexity und Google KI-Übersichten zitieren lassen. E-E-A-T-Signale, strukturierter Content und KI-Sichtbarkeit.",
+    "ogTitle": "Bei ChatGPT & KI-Suche ranken | EcomSEO Leitfäden"
+  },
+  "/guides/serp-domination": {
+    "title": "SERP-Dominanz für Ecommerce | EcomSEO Leitfäden",
+    "description": "Mehr als nur Platz 1 beanspruchen. Google Shopping, Featured Snippets, Bildergebnisse, Sitelinks und People Also Ask für Ecommerce.",
+    "ogTitle": "SERP-Dominanz für Ecommerce | EcomSEO Leitfäden"
   },
   "/page": {
     "title": "Fabian van Til \u2014 LLM Optimisation Agency | EcomSEO",
