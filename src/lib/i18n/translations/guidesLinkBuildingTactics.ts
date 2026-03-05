@@ -28,12 +28,6 @@ export const guidesLinkBuildingTacticsT: Record<
             title: "The authority gap is real",
             text: "If the top 3 results for your target keyword have DR 55, 62, and 70, and your site is at DR 28, links are your bottleneck. Fix them before you do anything else. Use Ahrefs or Semrush to check this in under two minutes.",
           },
-          {
-            type: "image",
-            src: "https://images.unsplash.com/photo-1432888622747-4eb9a8f2c293?w=1280&q=80",
-            alt: "Link building for ecommerce SEO",
-            caption: "Building a strong backlink profile is the foundation of competitive ecommerce rankings.",
-          },
         ],
       },
       {
@@ -190,12 +184,6 @@ export const guidesLinkBuildingTacticsT: Record<
             type: "callout",
             title: "Das Autoritätsgefälle ist real",
             text: "Wenn die Top-3-Ergebnisse für dein Zielkeyword DR 55, 62 und 70 haben und deine Seite bei DR 28 liegt, sind Links dein Flaschenhals. Löse dieses Problem zuerst. Prüfe dies mit Ahrefs oder Semrush in unter zwei Minuten.",
-          },
-          {
-            type: "image",
-            src: "https://images.unsplash.com/photo-1432888622747-4eb9a8f2c293?w=1280&q=80",
-            alt: "Linkaufbau für E-Commerce-SEO",
-            caption: "Ein starkes Backlink-Profil aufzubauen ist die Grundlage für wettbewerbsfähige E-Commerce-Rankings.",
           },
         ],
       },
@@ -354,12 +342,6 @@ export const guidesLinkBuildingTacticsT: Record<
             title: "L'écart d'autorité est bien réel",
             text: "Si les 3 premiers résultats pour votre mot-clé cible ont un DR de 55, 62 et 70, et que votre site est à DR 28, les liens sont votre goulot d'étranglement. Réglez ce problème en priorité. Vérifiez-le avec Ahrefs ou Semrush en moins de deux minutes.",
           },
-          {
-            type: "image",
-            src: "https://images.unsplash.com/photo-1432888622747-4eb9a8f2c293?w=1280&q=80",
-            alt: "Création de liens pour le SEO e-commerce",
-            caption: "Construire un profil de backlinks solide est la base des classements e-commerce compétitifs.",
-          },
         ],
       },
       {
@@ -516,12 +498,6 @@ export const guidesLinkBuildingTacticsT: Record<
             type: "callout",
             title: "La brecha de autoridad es real",
             text: "Si los 3 primeros resultados para tu keyword objetivo tienen DR 55, 62 y 70, y tu sitio está en DR 28, los enlaces son tu cuello de botella. Resuélvelo antes que cualquier otra cosa. Compruébalo con Ahrefs o Semrush en menos de dos minutos.",
-          },
-          {
-            type: "image",
-            src: "https://images.unsplash.com/photo-1432888622747-4eb9a8f2c293?w=1280&q=80",
-            alt: "Construcción de enlaces para SEO en e-commerce",
-            caption: "Construir un perfil de backlinks sólido es la base de los rankings competitivos en e-commerce.",
           },
         ],
       },
@@ -680,12 +656,6 @@ export const guidesLinkBuildingTacticsT: Record<
             title: "Il divario di autorità è reale",
             text: "Se i 3 primi risultati per la tua keyword obiettivo hanno DR 55, 62 e 70, e il tuo sito è a DR 28, i link sono il tuo collo di bottiglia. Risolvilo prima di tutto il resto. Verifica con Ahrefs o Semrush in meno di due minuti.",
           },
-          {
-            type: "image",
-            src: "https://images.unsplash.com/photo-1432888622747-4eb9a8f2c293?w=1280&q=80",
-            alt: "Link building per SEO e-commerce",
-            caption: "Costruire un profilo di backlink solido è la base dei ranking competitivi nell'e-commerce.",
-          },
         ],
       },
       {
@@ -842,12 +812,6 @@ export const guidesLinkBuildingTacticsT: Record<
             type: "callout",
             title: "Het autoriteitsgat is echt",
             text: "Als de top 3 resultaten voor jouw doelzoekwoord DR 55, 62 en 70 hebben, en jouw site staat op DR 28, zijn links jouw knelpunt. Los dat als eerste op. Controleer het in Ahrefs of Semrush in minder dan twee minuten.",
-          },
-          {
-            type: "image",
-            src: "https://images.unsplash.com/photo-1432888622747-4eb9a8f2c293?w=1280&q=80",
-            alt: "Linkbuilding voor e-commerce SEO",
-            caption: "Een sterk backlinkprofiel opbouwen is de basis van competitieve e-commerce rankings.",
           },
         ],
       },

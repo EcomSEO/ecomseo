@@ -28,12 +28,6 @@ export const guidesTopicalAuthorityT: Record<
             title: "It's not just about blogging",
             text: "Topical authority for ecommerce is built through a mix of content types: product pages, category pages, buying guides, comparison pages, and FAQ content. A single well-structured blog post matters less than a complete content ecosystem around your category. Think in clusters, not individual articles.",
           },
-          {
-            type: "image",
-            src: "https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=1280&q=80",
-            alt: "Building topical authority through content strategy",
-            caption: "A complete content cluster around a category signals genuine expertise to search engines.",
-          },
         ],
       },
       {
@@ -202,12 +196,6 @@ export const guidesTopicalAuthorityT: Record<
             type: "callout",
             title: "Es geht nicht nur ums Bloggen",
             text: "Thematische Autorität im E-Commerce wird durch verschiedene Content-Typen aufgebaut: Produktseiten, Kategorieseiten, Kaufratgeber, Vergleichsseiten und FAQ-Inhalte. Ein einzelner Blog-Beitrag ist weniger relevant als ein vollständiges Content-Ökosystem rund um deine Kategorie. Denk in Clustern, nicht in einzelnen Artikeln.",
-          },
-          {
-            type: "image",
-            src: "https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=1280&q=80",
-            alt: "Thematische Autorität durch Content-Strategie aufbauen",
-            caption: "Ein vollständiges Content-Cluster rund um eine Kategorie signalisiert echte Expertise für Suchmaschinen.",
           },
         ],
       },
@@ -378,12 +366,6 @@ export const guidesTopicalAuthorityT: Record<
             title: "Ce n'est pas qu'une question de blogging",
             text: "L'autorité thématique pour l'e-commerce se construit à travers plusieurs types de contenu : pages produits, pages catégories, guides d'achat, pages de comparaison et contenu FAQ. Un seul article de blog bien structuré compte moins qu'un écosystème de contenu complet autour de votre catégorie. Pensez en clusters, pas en articles individuels.",
           },
-          {
-            type: "image",
-            src: "https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=1280&q=80",
-            alt: "Construire l'autorité thématique par la stratégie de contenu",
-            caption: "Un cluster de contenu complet autour d'une catégorie signale une véritable expertise aux moteurs de recherche.",
-          },
         ],
       },
       {
@@ -552,12 +534,6 @@ export const guidesTopicalAuthorityT: Record<
             type: "callout",
             title: "No es solo cuestión de blogging",
             text: "La autoridad temática para e-commerce se construye a través de varios tipos de contenido: páginas de producto, páginas de categoría, guías de compra, páginas de comparación y contenido FAQ. Un solo artículo de blog bien estructurado importa menos que un ecosistema de contenido completo alrededor de tu categoría. Piensa en clusters, no en artículos individuales.",
-          },
-          {
-            type: "image",
-            src: "https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=1280&q=80",
-            alt: "Construir autoridad temática a través de la estrategia de contenido",
-            caption: "Un cluster de contenido completo alrededor de una categoría señala experiencia genuina a los motores de búsqueda.",
           },
         ],
       },
@@ -728,12 +704,6 @@ export const guidesTopicalAuthorityT: Record<
             title: "Non si tratta solo di blogging",
             text: "L'autorità tematica per l'e-commerce si costruisce attraverso diversi tipi di contenuto: pagine prodotto, pagine categoria, guide all'acquisto, pagine di confronto e contenuto FAQ. Un singolo articolo di blog ben strutturato conta meno di un ecosistema di contenuti completo attorno alla tua categoria. Pensa per cluster, non per articoli singoli.",
           },
-          {
-            type: "image",
-            src: "https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=1280&q=80",
-            alt: "Costruire autorità tematica attraverso la strategia dei contenuti",
-            caption: "Un cluster di contenuti completo attorno a una categoria segnala vera competenza ai motori di ricerca.",
-          },
         ],
       },
       {
@@ -902,12 +872,6 @@ export const guidesTopicalAuthorityT: Record<
             type: "callout",
             title: "Het gaat niet alleen om bloggen",
             text: "Topicale autoriteit voor e-commerce wordt opgebouwd via meerdere contenttypes: productpagina's, categoriepagina's, aankoopgidsen, vergelijkingspagina's en FAQ-content. Één goed gestructureerd blogbericht telt minder dan een volledig content-ecosysteem rond jouw categorie. Denk in clusters, niet in losse artikelen.",
-          },
-          {
-            type: "image",
-            src: "https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=1280&q=80",
-            alt: "Topicale autoriteit opbouwen via contentstrategie",
-            caption: "Een volledig contentcluster rond een categorie signaleert echte expertise aan zoekmachines.",
           },
         ],
       },

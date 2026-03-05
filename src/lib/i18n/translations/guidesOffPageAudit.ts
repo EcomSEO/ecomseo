@@ -28,12 +28,6 @@ export const guidesOffPageAuditT: Record<
             title: "Start with the right scope",
             text: "Run your audit at the root domain level, not just for the homepage. Ecommerce sites earn and lose links across hundreds of product and category URLs. Auditing just the homepage gives you a misleading picture.",
           },
-          {
-            type: "image",
-            src: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1280&q=80",
-            alt: "Network of links connecting across a digital map",
-            caption: "Your backlink profile is a map of the web's trust in your domain.",
-          },
         ],
       },
       {
@@ -190,12 +184,6 @@ export const guidesOffPageAuditT: Record<
             type: "callout",
             title: "Mit dem richtigen Umfang starten",
             text: "Führe den Audit auf Root-Domain-Ebene durch, nicht nur für die Startseite. Ecommerce-Shops gewinnen und verlieren Links über Hunderte von Produkt- und Kategorie-URLs. Wer nur die Startseite auditiert, bekommt ein verzerrtes Bild.",
-          },
-          {
-            type: "image",
-            src: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1280&q=80",
-            alt: "Netzwerk von Links auf einer digitalen Karte",
-            caption: "Dein Backlink-Profil ist eine Karte des Vertrauens, das das Web deiner Domain entgegenbringt.",
           },
         ],
       },
@@ -354,12 +342,6 @@ export const guidesOffPageAuditT: Record<
             title: "Commencez avec le bon périmètre",
             text: "Effectuez votre audit au niveau du domaine racine, pas seulement pour la page d'accueil. Les sites e-commerce gagnent et perdent des liens sur des centaines d'URLs de produits et de catégories. Auditer uniquement la page d'accueil vous donne une image trompeuse.",
           },
-          {
-            type: "image",
-            src: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1280&q=80",
-            alt: "Réseau de liens connectés sur une carte numérique",
-            caption: "Votre profil de backlinks est une carte de la confiance que le web accorde à votre domaine.",
-          },
         ],
       },
       {
@@ -516,12 +498,6 @@ export const guidesOffPageAuditT: Record<
             type: "callout",
             title: "Comienza con el alcance correcto",
             text: "Ejecuta la auditoría a nivel de dominio raíz, no solo para la página de inicio. Las tiendas de ecommerce ganan y pierden enlaces en cientos de URLs de productos y categorías. Auditar solo la página de inicio te da una imagen engañosa.",
-          },
-          {
-            type: "image",
-            src: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1280&q=80",
-            alt: "Red de enlaces conectados en un mapa digital",
-            caption: "Tu perfil de backlinks es un mapa de la confianza que la web deposita en tu dominio.",
           },
         ],
       },
@@ -680,12 +656,6 @@ export const guidesOffPageAuditT: Record<
             title: "Inizia con il giusto perimetro",
             text: "Esegui l'audit a livello di dominio radice, non solo per la homepage. I siti ecommerce guadagnano e perdono link su centinaia di URL di prodotti e categorie. Auditare solo la homepage ti dà un'immagine fuorviante.",
           },
-          {
-            type: "image",
-            src: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1280&q=80",
-            alt: "Rete di link connessi su una mappa digitale",
-            caption: "Il tuo profilo di backlink è una mappa della fiducia che il web ripone nel tuo dominio.",
-          },
         ],
       },
       {
@@ -842,12 +812,6 @@ export const guidesOffPageAuditT: Record<
             type: "callout",
             title: "Begin met de juiste reikwijdte",
             text: "Voer de audit uit op rootdomeinniveau, niet alleen voor de homepage. Ecommercesites verdienen en verliezen links over honderden product- en categorie-URLs. Alleen de homepage auditeren geeft een misleidend beeld.",
-          },
-          {
-            type: "image",
-            src: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1280&q=80",
-            alt: "Netwerk van links verbonden op een digitale kaart",
-            caption: "Je backlinkprofiel is een kaart van het vertrouwen dat het web in jouw domein stelt.",
           },
         ],
       },

@@ -91,12 +91,6 @@ export const guideAnalyticsTrackingT: Record<
               "Pages per organic session: in GA4, this signals content depth. If organic visitors land and immediately leave, your landing pages are not matching search intent. A healthy benchmark for ecommerce category pages is 3-4 pages per session.",
             ],
           },
-          {
-            type: "image",
-            src: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1280&q=80",
-            alt: "Analytics dashboard showing ecommerce metrics on a laptop screen",
-            caption: "Tracking the right five metrics beats tracking fifty.",
-          },
         ],
       },
       {
@@ -245,12 +239,6 @@ export const guideAnalyticsTrackingT: Record<
               "CTR nach Seite: in GSC unter Seiten, nach Impressionen sortiert. Seiten mit hohen Impressionen und CTR unter 2\u00a0% haben schwache Title-Tags oder Meta-Beschreibungen \u2014 dort zuerst ansetzen.",
               "Seiten pro organischer Sitzung: in GA4, als Signal f\u00fcr die Inhaltstiefe. Wenn organische Besucher sofort abspringen, passen deine Landingpages nicht zur Suchabsicht. Ein realistischer Richtwert f\u00fcr E-Commerce-Kategorieseiten liegt bei 3-4 Seiten pro Sitzung.",
             ],
-          },
-          {
-            type: "image",
-            src: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1280&q=80",
-            alt: "Analytics-Dashboard mit E-Commerce-Kennzahlen auf einem Laptop-Bildschirm",
-            caption: "F\u00fcnf Kennzahlen konsequent zu verfolgen ist besser als f\u00fcnfzig oberfl\u00e4chlich zu beobachten.",
           },
         ],
       },
@@ -401,12 +389,6 @@ export const guideAnalyticsTrackingT: Record<
               "Pages par session organique : dans GA4, cet indicateur r\u00e9v\u00e8le la profondeur de l\u2019engagement. Si les visiteurs organiques partent imm\u00e9diatement, vos pages de destination ne correspondent pas \u00e0 l\u2019intention de recherche. Un bon rep\u00e8re pour les pages de cat\u00e9gorie e-commerce est 3-4 pages par session.",
             ],
           },
-          {
-            type: "image",
-            src: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1280&q=80",
-            alt: "Tableau de bord analytique affichant des indicateurs e-commerce sur un \u00e9cran d\u2019ordinateur portable",
-            caption: "Suivre cinq indicateurs avec rigueur vaut mieux que survoler cinquante.",
-          },
         ],
       },
       {
@@ -555,12 +537,6 @@ export const guideAnalyticsTrackingT: Record<
               "CTR por p\u00e1gina: en GSC bajo P\u00e1ginas, ordenado por impresiones. Las p\u00e1ginas con muchas impresiones y CTR inferior al 2\u00a0% tienen etiquetas de t\u00edtulo o meta descripciones d\u00e9biles \u2014 empieza por ah\u00ed.",
               "P\u00e1ginas por sesi\u00f3n org\u00e1nica: en GA4, esta m\u00e9trica indica la profundidad del contenido. Si los visitantes org\u00e1nicos se van inmediatamente, tus p\u00e1ginas de destino no coinciden con la intenci\u00f3n de b\u00fasqueda. Un buen punto de referencia para p\u00e1ginas de categor\u00eda e-commerce es 3-4 p\u00e1ginas por sesi\u00f3n.",
             ],
-          },
-          {
-            type: "image",
-            src: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1280&q=80",
-            alt: "Panel de analytics con m\u00e9tricas de e-commerce en la pantalla de un port\u00e1til",
-            caption: "Hacer seguimiento riguroso de cinco m\u00e9tricas es mejor que vigilar cincuenta superficialmente.",
           },
         ],
       },
@@ -711,12 +687,6 @@ export const guideAnalyticsTrackingT: Record<
               "Pagine per sessione organica: in GA4, questo indicatore segnala la profondit\u00e0 dei contenuti. Se i visitatori organici escono subito, le tue landing page non corrispondono all\u2019intento di ricerca. Un buon riferimento per le pagine di categoria e-commerce \u00e8 3-4 pagine per sessione.",
             ],
           },
-          {
-            type: "image",
-            src: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1280&q=80",
-            alt: "Dashboard di analytics con metriche e-commerce sullo schermo di un laptop",
-            caption: "Monitorare con costanza cinque metriche vale pi\u00f9 che osservare superficialmente cinquanta.",
-          },
         ],
       },
       {
@@ -865,12 +835,6 @@ export const guideAnalyticsTrackingT: Record<
               "CTR per pagina: in GSC onder Pagina's, gesorteerd op vertoningen. Pagina's met veel vertoningen en een CTR onder de 2\u00a0% hebben zwakke title-tags of metabeschrijvingen \u2014 begin daar.",
               "Pagina's per organische sessie: in GA4 signaleert dit de inhouddiepte. Als organische bezoekers meteen vertrekken, komen je landingspagina's niet overeen met de zoekintentie. Een realistisch ijkpunt voor e-commerce categoriepagina's is 3-4 pagina's per sessie.",
             ],
-          },
-          {
-            type: "image",
-            src: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1280&q=80",
-            alt: "Analyticsdashboard met e-commerce-metrics op een laptopscherm",
-            caption: "Vijf metrics nauwgezet bijhouden is beter dan vijftig oppervlakkig in de gaten houden.",
           },
         ],
       },

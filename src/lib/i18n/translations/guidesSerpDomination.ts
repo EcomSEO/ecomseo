@@ -27,12 +27,6 @@ export const guidesSerpDominationT: Record<
             text: "Most ecommerce teams optimize for one of these channels and ignore the others. The stores that dominate their category do all of them. The compound effect is significant: if a user sees your brand name three times on one results page, they're far more likely to click, and far more likely to associate your brand with authority in that category.",
           },
           {
-            type: "image",
-            src: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=1280&q=80",
-            alt: "Search results page showing multiple result types including shopping, organic, and images",
-            caption: "A single search query can trigger organic results, Shopping tiles, image results, and featured snippets — each is a chance to appear.",
-          },
-          {
             type: "callout",
             title: "Start with a SERP audit",
             text: "Search your top 10 category keywords right now. For each one, list every result type that appears: organic, Shopping, images, PAA boxes, featured snippets. Then ask: am I present in each of those? Your gaps are your priorities.",
@@ -197,12 +191,6 @@ export const guidesSerpDominationT: Record<
           {
             type: "p",
             text: "Die meisten E-Commerce-Teams optimieren für einen dieser Kanäle und ignorieren den Rest. Die Shops, die ihre Kategorie dominieren, tun alles davon. Der kumulative Effekt ist erheblich: Wenn ein Nutzer deinen Markennamen dreimal auf einer Ergebnisseite sieht, ist die Klickwahrscheinlichkeit viel höher und die Assoziation deiner Marke mit Autorität in dieser Kategorie deutlich stärker.",
-          },
-          {
-            type: "image",
-            src: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=1280&q=80",
-            alt: "Suchergebnisseite mit verschiedenen Ergebnistypen inklusive Shopping, organisch und Bilder",
-            caption: "Eine einzelne Suchanfrage kann organische Ergebnisse, Shopping-Kacheln, Bildergebnisse und Featured Snippets auslösen — jede ist eine Chance zu erscheinen.",
           },
           {
             type: "callout",
@@ -371,12 +359,6 @@ export const guidesSerpDominationT: Record<
             text: "La plupart des équipes e-commerce optimisent pour l'un de ces canaux et ignorent les autres. Les boutiques qui dominent leur catégorie font tout. L'effet cumulatif est significatif : si un utilisateur voit le nom de votre marque trois fois sur une page de résultats, il est beaucoup plus susceptible de cliquer, et beaucoup plus enclin à associer votre marque à une autorité dans cette catégorie.",
           },
           {
-            type: "image",
-            src: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=1280&q=80",
-            alt: "Page de résultats de recherche montrant plusieurs types de résultats dont Shopping, organique et images",
-            caption: "Une seule requête peut déclencher des résultats organiques, des tuiles Shopping, des résultats d'images et des featured snippets — chacun est une occasion d'apparaître.",
-          },
-          {
             type: "callout",
             title: "Commencez par un audit SERP",
             text: "Recherchez vos 10 mots-clés de catégorie principaux maintenant. Pour chacun, listez chaque type de résultat qui apparaît : organique, Shopping, images, boîtes PAA, featured snippets. Demandez-vous ensuite : suis-je présent dans chacun d'eux ? Vos lacunes sont vos priorités.",
@@ -541,12 +523,6 @@ export const guidesSerpDominationT: Record<
           {
             type: "p",
             text: "La mayoría de los equipos de ecommerce optimizan para uno de estos canales e ignoran el resto. Las tiendas que dominan su categoría los hacen todos. El efecto acumulativo es significativo: si un usuario ve el nombre de tu marca tres veces en una página de resultados, es mucho más probable que haga clic, y mucho más probable que asocie tu marca con autoridad en esa categoría.",
-          },
-          {
-            type: "image",
-            src: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=1280&q=80",
-            alt: "Página de resultados de búsqueda mostrando múltiples tipos de resultados incluyendo Shopping, orgánico e imágenes",
-            caption: "Una sola consulta puede generar resultados orgánicos, fichas de Shopping, resultados de imágenes y featured snippets — cada uno es una oportunidad de aparecer.",
           },
           {
             type: "callout",
@@ -715,12 +691,6 @@ export const guidesSerpDominationT: Record<
             text: "La maggior parte dei team ecommerce ottimizza per uno di questi canali e ignora gli altri. I negozi che dominano la loro categoria li fanno tutti. L'effetto combinato è significativo: se un utente vede il nome del tuo brand tre volte su una pagina di risultati, è molto più propenso a cliccare e molto più incline ad associare il tuo brand all'autorità in quella categoria.",
           },
           {
-            type: "image",
-            src: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=1280&q=80",
-            alt: "Pagina di risultati di ricerca che mostra più tipi di risultati tra cui Shopping, organico e immagini",
-            caption: "Una singola query può generare risultati organici, schede Shopping, risultati di immagini e featured snippet — ognuno è un'opportunità di apparire.",
-          },
-          {
             type: "callout",
             title: "Inizia con un audit SERP",
             text: "Cerca ora le tue 10 parole chiave di categoria principali. Per ognuna, elenca ogni tipo di risultato che appare: organico, Shopping, immagini, box PAA, featured snippet. Poi chiediti: sono presente in ognuno di essi? Le tue lacune sono le tue priorità.",
@@ -885,12 +855,6 @@ export const guidesSerpDominationT: Record<
           {
             type: "p",
             text: "De meeste e-commerceteams optimaliseren voor één van deze kanalen en negeren de rest. De webshops die hun categorie domineren doen ze allemaal. Het cumulatieve effect is aanzienlijk: als een gebruiker jouw merknaam drie keer op één resultatenpagina ziet, is de kans veel groter dat ze klikken en dat ze jouw merk associëren met autoriteit in die categorie.",
-          },
-          {
-            type: "image",
-            src: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=1280&q=80",
-            alt: "Zoekresultatenpagina met meerdere resultaattypen waaronder Shopping, organisch en afbeeldingen",
-            caption: "Eén zoekopdracht kan organische resultaten, Shopping-tegels, afbeeldingsresultaten en featured snippets genereren — elk is een kans om te verschijnen.",
           },
           {
             type: "callout",

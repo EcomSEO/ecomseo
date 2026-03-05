@@ -32,12 +32,6 @@ export const guidesRankingChatgptT: Record<
             text: "That's a fundamental shift. Keyword density doesn't get you cited. What gets you cited is being the clearest, most direct, most factual answer to a specific question in your niche. If a customer asks ChatGPT 'what's the best standing desk for tall people?' and your product page or buying guide is the most complete answer to that question, it gets pulled in.",
           },
           {
-            type: "image",
-            src: "https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=1280&q=80",
-            alt: "AI search interface showing synthesized answer with citations",
-            caption: "AI search tools synthesize answers and cite sources — getting cited is the new ranking.",
-          },
-          {
             type: "callout",
             title: "The mental model shift",
             text: "Stop optimizing purely for 'ranking' and start optimizing for 'being quoted.' Ask yourself: if an AI needed to answer the exact question my customer is asking, would it find my page and would it trust it?",
@@ -201,12 +195,6 @@ export const guidesRankingChatgptT: Record<
           {
             type: "p",
             text: "Das ist ein grundlegender Wandel. Keyword-Dichte bringt dir keine Zitierungen. Was dir Zitierungen einbringt, ist die klarste, direkteste und sachlichste Antwort auf eine konkrete Frage in deiner Nische. Wenn ein Kunde ChatGPT fragt 'Was ist der beste Stehschreibtisch für große Menschen?' und deine Produktseite oder dein Ratgeber die vollständigste Antwort liefert, wird sie herangezogen.",
-          },
-          {
-            type: "image",
-            src: "https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=1280&q=80",
-            alt: "KI-Suchoberfl\u00e4che mit synthetisierter Antwort und Quellenangaben",
-            caption: "KI-Suchtools synthetisieren Antworten und zitieren Quellen — zitiert zu werden ist das neue Ranking.",
           },
           {
             type: "callout",
@@ -374,12 +362,6 @@ export const guidesRankingChatgptT: Record<
             text: "C'est un changement fondamental. La densité de mots-clés ne vous vaudra pas de citations. Ce qui vous vaut des citations, c'est être la réponse la plus claire, la plus directe et la plus factuelle à une question précise dans votre niche. Si un client demande à ChatGPT 'quel est le meilleur bureau debout pour les grandes personnes ?' et que votre fiche produit ou votre guide d'achat est la réponse la plus complète, c'est elle qui sera reprise.",
           },
           {
-            type: "image",
-            src: "https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=1280&q=80",
-            alt: "Interface de recherche IA affichant une réponse synthétisée avec citations",
-            caption: "Les outils de recherche IA synthétisent les réponses et citent leurs sources — être cité est le nouveau classement.",
-          },
-          {
             type: "callout",
             title: "Le changement de modèle mental",
             text: "Arrêtez d'optimiser uniquement pour le 'classement' et commencez à optimiser pour 'être cité'. Demandez-vous : si une IA devait répondre exactement à la question que pose mon client, trouverait-elle ma page et lui ferait-elle confiance ?",
@@ -543,12 +525,6 @@ export const guidesRankingChatgptT: Record<
           {
             type: "p",
             text: "Ese es un cambio fundamental. La densidad de palabras clave no te consigue citas. Lo que te consigue citas es ser la respuesta más clara, directa y factual a una pregunta específica en tu nicho. Si un cliente le pregunta a ChatGPT '¿cuál es el mejor escritorio de pie para personas altas?' y tu ficha de producto o guía de compra es la respuesta más completa a esa pregunta, es la que se toma.",
-          },
-          {
-            type: "image",
-            src: "https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=1280&q=80",
-            alt: "Interfaz de búsqueda IA mostrando respuesta sintetizada con citas",
-            caption: "Las herramientas de búsqueda IA sintetizan respuestas y citan fuentes — ser citado es el nuevo posicionamiento.",
           },
           {
             type: "callout",
@@ -716,12 +692,6 @@ export const guidesRankingChatgptT: Record<
             text: "È un cambiamento fondamentale. La densità di parole chiave non ti porta citazioni. Ciò che ti porta citazioni è essere la risposta più chiara, diretta e fattuale a una domanda specifica nella tua nicchia. Se un cliente chiede a ChatGPT 'qual è la migliore scrivania in piedi per le persone alte?' e la tua scheda prodotto o guida all'acquisto è la risposta più completa a quella domanda, è quella che viene ripresa.",
           },
           {
-            type: "image",
-            src: "https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=1280&q=80",
-            alt: "Interfaccia di ricerca IA che mostra una risposta sintetizzata con citazioni",
-            caption: "Gli strumenti di ricerca IA sintetizzano le risposte e citano le fonti — essere citati è il nuovo posizionamento.",
-          },
-          {
             type: "callout",
             title: "Il cambio di modello mentale",
             text: "Smetti di ottimizzare puramente per il 'posizionamento' e inizia a ottimizzare per 'essere citato'. Chiediti: se un'IA dovesse rispondere esattamente alla domanda che fa il mio cliente, troverebbe la mia pagina e si fiderebbe di essa?",
@@ -885,12 +855,6 @@ export const guidesRankingChatgptT: Record<
           {
             type: "p",
             text: "Dat is een fundamentele verschuiving. Keyword-dichtheid levert je geen citaties op. Wat je citaties oplevert, is het duidelijkste, meest directe en meest feitelijke antwoord op een specifieke vraag in jouw niche. Als een klant ChatGPT vraagt 'wat is het beste zit-sta bureau voor lange mensen?' en jouw productpagina of koopgids het meest volledige antwoord op die vraag is, wordt die gebruikt.",
-          },
-          {
-            type: "image",
-            src: "https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=1280&q=80",
-            alt: "AI-zoekinterface met gesynthetiseerd antwoord en bronvermeldingen",
-            caption: "AI-zoektools synthetiseren antwoorden en citeren bronnen — geciteerd worden is de nieuwe ranking.",
           },
           {
             type: "callout",

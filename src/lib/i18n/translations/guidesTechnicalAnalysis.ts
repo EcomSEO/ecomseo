@@ -61,12 +61,6 @@ export const guidesTechnicalAnalysisT: Record<
         title: "Product Variants and Duplicate Content",
         blocks: [
           {
-            type: "image",
-            src: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1280&q=80",
-            alt: "Ecommerce product page code and technical SEO structure",
-            caption: "Product variant URLs are one of the most common sources of indexable duplicate content in ecommerce.",
-          },
-          {
             type: "p",
             text: "A product with 5 colour options should have one indexable page, not five. When each variant has its own URL — /blue-trainer, /red-trainer, /green-trainer — and each page has the same title, description, and content with only the colour name swapped, Google sees thin duplicate content across all five. None of them rank well.",
           },
@@ -236,12 +230,6 @@ export const guidesTechnicalAnalysisT: Record<
         id: "duplicate-content-variants",
         title: "Produktvarianten und Duplicate Content",
         blocks: [
-          {
-            type: "image",
-            src: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1280&q=80",
-            alt: "Code und technische SEO-Struktur einer E-Commerce-Produktseite",
-            caption: "Produktvarianten-URLs sind eine der häufigsten Quellen für indexierbaren Duplicate Content im E-Commerce.",
-          },
           {
             type: "p",
             text: "Ein Produkt mit 5 Farboptionen sollte eine indexierbare Seite haben, nicht fünf. Wenn jede Variante ihre eigene URL hat — /blauer-sneaker, /roter-sneaker, /gruener-sneaker — und jede Seite denselben Titel, dieselbe Beschreibung und denselben Inhalt trägt, nur mit ausgetauschtem Farbnamen, sieht Google fünf dünne Duplikate. Keine davon rankt gut.",
@@ -413,12 +401,6 @@ export const guidesTechnicalAnalysisT: Record<
         title: "Variantes de produits et contenu dupliqué",
         blocks: [
           {
-            type: "image",
-            src: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1280&q=80",
-            alt: "Code et structure technique SEO d'une page produit e-commerce",
-            caption: "Les URLs de variantes de produits sont l'une des sources les plus courantes de contenu dupliqué indexable en e-commerce.",
-          },
-          {
             type: "p",
             text: "Un produit avec 5 options de couleur devrait avoir une seule page indexable, pas cinq. Quand chaque variante a sa propre URL — /basket-bleue, /basket-rouge, /basket-verte — et que chaque page porte le même titre, la même description et le même contenu avec juste le nom de couleur changé, Google voit cinq contenus dupliqués allégés. Aucun ne se positionne bien.",
           },
@@ -588,12 +570,6 @@ export const guidesTechnicalAnalysisT: Record<
         id: "duplicate-content-variants",
         title: "Variantes de producto y contenido duplicado",
         blocks: [
-          {
-            type: "image",
-            src: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1280&q=80",
-            alt: "Código y estructura técnica SEO de una página de producto de ecommerce",
-            caption: "Las URLs de variantes de producto son una de las fuentes más comunes de contenido duplicado indexable en ecommerce.",
-          },
           {
             type: "p",
             text: "Un producto con 5 opciones de color debería tener una página indexable, no cinco. Cuando cada variante tiene su propia URL — /zapatilla-azul, /zapatilla-roja, /zapatilla-verde — y cada página tiene el mismo título, descripción y contenido con solo el nombre del color cambiado, Google ve cinco piezas de contenido duplicado delgado. Ninguna posiciona bien.",
@@ -765,12 +741,6 @@ export const guidesTechnicalAnalysisT: Record<
         title: "Varianti di prodotto e contenuto duplicato",
         blocks: [
           {
-            type: "image",
-            src: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1280&q=80",
-            alt: "Codice e struttura tecnica SEO di una pagina prodotto ecommerce",
-            caption: "Gli URL delle varianti di prodotto sono una delle fonti più comuni di contenuto duplicato indicizzabile nell'ecommerce.",
-          },
-          {
             type: "p",
             text: "Un prodotto con 5 opzioni di colore dovrebbe avere una sola pagina indicizzabile, non cinque. Quando ogni variante ha il proprio URL — /sneaker-blu, /sneaker-rossa, /sneaker-verde — e ogni pagina ha lo stesso titolo, la stessa descrizione e lo stesso contenuto con solo il nome del colore cambiato, Google vede cinque contenuti duplicati sottili. Nessuno posiziona bene.",
           },
@@ -940,12 +910,6 @@ export const guidesTechnicalAnalysisT: Record<
         id: "duplicate-content-variants",
         title: "Productvarianten en duplicate content",
         blocks: [
-          {
-            type: "image",
-            src: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1280&q=80",
-            alt: "Code en technische SEO-structuur van een e-commerce productpagina",
-            caption: "Productvariant-URL's zijn een van de meest voorkomende bronnen van indexeerbare duplicate content in e-commerce.",
-          },
           {
             type: "p",
             text: "Een product met 5 kleuropties hoort één indexeerbare pagina te hebben, niet vijf. Als elke variant zijn eigen URL heeft — /blauwe-sneaker, /rode-sneaker, /groene-sneaker — en elke pagina dezelfde titel, beschrijving en content heeft met alleen de kleurna­am verwisseld, ziet Google vijf dunne duplicaten. Geen ervan rankt goed.",

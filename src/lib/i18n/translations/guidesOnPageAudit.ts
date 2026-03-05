@@ -39,12 +39,6 @@ export const guidesOnPageAuditT: Record<
         title: "Product Page Audit: The Details That Separate Good from Great",
         blocks: [
           {
-            type: "image",
-            src: "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=1280&q=80",
-            alt: "Analytics dashboard showing product page performance metrics",
-            caption: "GSC performance data surfaces product pages with high impressions but poor CTR — the first signal that title tags need attention.",
-          },
-          {
             type: "p",
             text: "Product page SEO has four components that are consistently wrong on most stores: the title tag, the description, the H1, and the image alt text. Getting all four right on every product page is not glamorous work. It is also the single thing that most directly separates stores that rank from stores that don't.",
           },
@@ -209,12 +203,6 @@ export const guidesOnPageAuditT: Record<
         id: "product-page-audit",
         title: "Produktseiten-Audit: Die Details, die Gutes von Sehr Gutem trennen",
         blocks: [
-          {
-            type: "image",
-            src: "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=1280&q=80",
-            alt: "Analytics-Dashboard mit Performance-Metriken für Produktseiten",
-            caption: "GSC-Performance-Daten zeigen Produktseiten mit hohen Impressionen aber schwacher CTR — das erste Signal, dass Title-Tags Aufmerksamkeit brauchen.",
-          },
           {
             type: "p",
             text: "Produktseiten-SEO hat vier Komponenten, die bei den meisten Shops durchgehend falsch sind: Title-Tag, Description, H1 und Bild-Alt-Text. Alle vier auf jeder Produktseite richtig hinzubekommen ist keine glamouröse Arbeit. Es ist auch das Einzige, das am direktesten zwischen Rankings und Nicht-Rankings entscheidet.",
@@ -381,12 +369,6 @@ export const guidesOnPageAuditT: Record<
         title: "Audit des pages produit : les détails qui font la différence",
         blocks: [
           {
-            type: "image",
-            src: "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=1280&q=80",
-            alt: "Tableau de bord analytics affichant les métriques de performance des pages produit",
-            caption: "Les données de performance GSC font remonter les pages produit avec beaucoup d'impressions mais un CTR faible — premier signal que les title tags doivent être retravaillés.",
-          },
-          {
             type: "p",
             text: "Le SEO des pages produit repose sur quatre composants systématiquement mal configurés sur la plupart des boutiques : le title tag, la description, le H1 et le texte alternatif des images. Bien les gérer sur chaque page produit n'est pas du travail glamour. C'est pourtant ce qui différencie le plus directement les boutiques qui se positionnent de celles qui ne se positionnent pas.",
           },
@@ -551,12 +533,6 @@ export const guidesOnPageAuditT: Record<
         id: "product-page-audit",
         title: "Auditoría de páginas de producto: los detalles que separan lo bueno de lo excelente",
         blocks: [
-          {
-            type: "image",
-            src: "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=1280&q=80",
-            alt: "Panel de analytics mostrando métricas de rendimiento de páginas de producto",
-            caption: "Los datos de rendimiento de GSC sacan a la luz páginas de producto con muchas impresiones pero CTR bajo — la primera señal de que los title tags necesitan atención.",
-          },
           {
             type: "p",
             text: "El SEO de páginas de producto tiene cuatro componentes que están constantemente mal en la mayoría de tiendas: el title tag, la descripción, el H1 y el texto alternativo de las imágenes. Hacerlos bien en cada página de producto no es un trabajo glamuroso. También es lo que más directamente separa las tiendas que posicionan de las que no.",
@@ -723,12 +699,6 @@ export const guidesOnPageAuditT: Record<
         title: "Audit delle pagine prodotto: i dettagli che separano il buono dall'ottimo",
         blocks: [
           {
-            type: "image",
-            src: "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=1280&q=80",
-            alt: "Dashboard di analytics con metriche di performance delle pagine prodotto",
-            caption: "I dati di performance di GSC fanno emergere le pagine prodotto con molte impressioni ma CTR basso — il primo segnale che i title tag necessitano attenzione.",
-          },
-          {
             type: "p",
             text: "Il SEO delle pagine prodotto ha quattro componenti sistematicamente sbagliati nella maggior parte dei negozi: il title tag, la descrizione, l'H1 e il testo alternativo delle immagini. Farli bene su ogni pagina prodotto non è un lavoro glamour. È anche ciò che separa più direttamente i negozi che si posizionano da quelli che non lo fanno.",
           },
@@ -893,12 +863,6 @@ export const guidesOnPageAuditT: Record<
         id: "product-page-audit",
         title: "Audit van productpagina's: de details die goed van uitstekend scheiden",
         blocks: [
-          {
-            type: "image",
-            src: "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=1280&q=80",
-            alt: "Analytics-dashboard met prestatiegegevens van productpagina's",
-            caption: "GSC-prestatiedata brengt productpagina's met veel vertoningen maar lage CTR aan het licht — het eerste signaal dat title tags aandacht nodig hebben.",
-          },
           {
             type: "p",
             text: "SEO van productpagina's heeft vier onderdelen die op de meeste shops consequent fout gaan: de title tag, de beschrijving, de H1 en de alt-tekst van afbeeldingen. Ze allemaal goed hebben op elke productpagina is geen glamoureus werk. Het is ook hetgeen dat het meest direct onderscheidt of een shop rankt of niet.",

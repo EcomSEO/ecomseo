@@ -36,12 +36,6 @@ export const guidesBeginnerToHeroT: Record<
             type: "p",
             text: "The course runs over 9+ weeks. Each stage has specific deliverables. Weeks 1-2 are deliberately slow \u2014 understanding how Google works before touching anything is not optional. Stores that skip foundations and jump straight to tactics waste months chasing fixes that do not hold.",
           },
-          {
-            type: "image",
-            src: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=1280&q=80",
-            alt: "Person studying SEO course materials at a desk with a laptop and notebook",
-            caption: "A structured path beats a pile of random articles every time.",
-          },
         ],
       },
       {
@@ -235,12 +229,6 @@ export const guidesBeginnerToHeroT: Record<
           {
             type: "p",
             text: "Der Kurs l\u00e4uft \u00fcber 9+ Wochen. Jede Stufe hat konkrete Ergebnisse, die erarbeitet werden m\u00fcssen. Die Wochen 1-2 sind bewusst langsam gehalten \u2014 zu verstehen, wie Google funktioniert, bevor man irgend etwas anf\u00e4sst, ist kein optionales Vorwissen. Shops, die Grundlagen \u00fcberspringen und direkt zu Taktiken springen, verschwenden Monate damit, Korrekturen nachzujagen, die nicht halten.",
-          },
-          {
-            type: "image",
-            src: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=1280&q=80",
-            alt: "Person studiert SEO-Kursmaterialien an einem Schreibtisch mit Laptop und Notizbuch",
-            caption: "Ein strukturierter Pfad schl\u00e4gt einen zuf\u00e4lligen Stapel von Artikeln jedes Mal.",
           },
         ],
       },
@@ -436,12 +424,6 @@ export const guidesBeginnerToHeroT: Record<
             type: "p",
             text: "Le cours dure 9+ semaines. Chaque \u00e9tape a des livrables concrets. Les semaines 1 et 2 sont d\u00e9lib\u00e9r\u00e9ment lentes \u2014 comprendre le fonctionnement de Google avant de toucher quoi que ce soit n\u2019est pas une option. Les boutiques qui sautent les fondamentaux pour aller directement aux tactiques perdent des mois \u00e0 courir apr\u00e8s des corrections qui ne tiennent pas.",
           },
-          {
-            type: "image",
-            src: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=1280&q=80",
-            alt: "Personne \u00e9tudiant des mat\u00e9riaux de cours SEO \u00e0 un bureau avec un ordinateur portable et un carnet",
-            caption: "Un parcours structur\u00e9 bat \u00e0 chaque fois une pile d\u2019articles al\u00e9atoires.",
-          },
         ],
       },
       {
@@ -635,12 +617,6 @@ export const guidesBeginnerToHeroT: Record<
           {
             type: "p",
             text: "El curso dura 9+ semanas. Cada etapa tiene entregables espec\u00edficos. Las semanas 1-2 son deliberadamente lentas \u2014 entender c\u00f3mo funciona Google antes de tocar nada no es opcional. Las tiendas que se saltan los fundamentos y saltan directamente a las t\u00e1cticas desperdician meses persiguiendo correcciones que no se mantienen.",
-          },
-          {
-            type: "image",
-            src: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=1280&q=80",
-            alt: "Persona estudiando materiales del curso SEO en un escritorio con un port\u00e1til y un cuaderno",
-            caption: "Un camino estructurado supera siempre una pila de art\u00edculos aleatorios.",
           },
         ],
       },
@@ -836,12 +812,6 @@ export const guidesBeginnerToHeroT: Record<
             type: "p",
             text: "Il corso dura 9+ settimane. Ogni fase ha deliverable concreti. Le settimane 1-2 sono deliberatamente lente \u2014 capire come funziona Google prima di toccare qualsiasi cosa non \u00e8 opzionale. I negozi che saltano le fondamenta e vanno direttamente alle tattiche sprecano mesi a rincorrere correzioni che non reggono.",
           },
-          {
-            type: "image",
-            src: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=1280&q=80",
-            alt: "Persona che studia materiali del corso SEO a una scrivania con un laptop e un quaderno",
-            caption: "Un percorso strutturato batte sempre una pila di articoli casuali.",
-          },
         ],
       },
       {
@@ -1035,12 +1005,6 @@ export const guidesBeginnerToHeroT: Record<
           {
             type: "p",
             text: "De cursus loopt over 9+ weken. Elke fase heeft concrete deliverables. Weken 1-2 zijn bewust traag \u2014 begrijpen hoe Google werkt voordat je iets aanraakt is niet optioneel. Winkels die de basis overslaan en direct naar tactieken springen, verspillen maanden aan het najagen van fixes die niet standhouden.",
-          },
-          {
-            type: "image",
-            src: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=1280&q=80",
-            alt: "Persoon die SEO-cursusmateriaal bestudeert aan een bureau met een laptop en notitieboek",
-            caption: "Een gestructureerd pad wint het altijd van een stapel willekeurige artikelen.",
           },
         ],
       },

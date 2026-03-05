@@ -48,12 +48,6 @@ export const guidesTaskPlanningT: Record<
             ],
           },
           {
-            type: "image",
-            src: "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=1280&q=80",
-            alt: "Notebook with planning grid open on a desk",
-            caption: "A simple prioritization grid saves you from weeks of misdirected effort.",
-          },
-          {
             type: "tip",
             text: "Build your matrix in Google Sheets. One column per task, rows for Impact (1–5), Effort (1–5), and a calculated Priority Score (Impact divided by Effort). Sort by Priority Score descending. The top of the list is your sprint backlog.",
           },
@@ -202,12 +196,6 @@ export const guidesTaskPlanningT: Record<
               "Geringer Impact + geringer Aufwand: Bündeln und einmal im Monat einplanen. Bildkomprimierung, kleinere Schema-Ergänzungen, Bereinigung alter Weiterleitungen.",
               "Geringer Impact + hoher Aufwand: Vollständig streichen. Wenn eine Aufgabe 20 Stunden kostet und nichts bewegt, gehört sie nicht auf die Liste.",
             ],
-          },
-          {
-            type: "image",
-            src: "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=1280&q=80",
-            alt: "Notizbuch mit Planungsraster auf einem Schreibtisch",
-            caption: "Ein einfaches Priorisierungsraster bewahrt dich vor wochenlangem Aufwand in die falsche Richtung.",
           },
           {
             type: "tip",
@@ -360,12 +348,6 @@ export const guidesTaskPlanningT: Record<
             ],
           },
           {
-            type: "image",
-            src: "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=1280&q=80",
-            alt: "Carnet avec grille de planification ouvert sur un bureau",
-            caption: "Une simple grille de priorisation vous évite des semaines d'efforts mal dirigés.",
-          },
-          {
             type: "tip",
             text: "Construisez votre matrice dans Google Sheets. Une colonne par tâche, des lignes pour Impact (1–5), Effort (1–5), et un Score de Priorité calculé (Impact divisé par Effort). Triez par Score de Priorité décroissant. Le haut de la liste est votre backlog de sprint.",
           },
@@ -514,12 +496,6 @@ export const guidesTaskPlanningT: Record<
               "Bajo impacto + bajo esfuerzo: agrupar y planificar una vez al mes. Compresión de imágenes, adiciones menores de schema, limpieza de redireccionamientos antiguos.",
               "Bajo impacto + alto esfuerzo: eliminar por completo. Si una tarea toma 20 horas y no mueve nada, no pertenece a la lista.",
             ],
-          },
-          {
-            type: "image",
-            src: "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=1280&q=80",
-            alt: "Cuaderno con cuadrícula de planificación abierto sobre un escritorio",
-            caption: "Una simple cuadrícula de priorización te salva de semanas de esfuerzo mal dirigido.",
           },
           {
             type: "tip",
@@ -672,12 +648,6 @@ export const guidesTaskPlanningT: Record<
             ],
           },
           {
-            type: "image",
-            src: "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=1280&q=80",
-            alt: "Taccuino con griglia di pianificazione aperta su una scrivania",
-            caption: "Una semplice griglia di prioritizzazione ti salva da settimane di sforzo mal diretto.",
-          },
-          {
             type: "tip",
             text: "Costruisci la tua matrice in Google Sheets. Una colonna per attività, righe per Impatto (1–5), Sforzo (1–5) e un Punteggio di Priorità calcolato (Impatto diviso per Sforzo). Ordina per Punteggio di Priorità decrescente. La parte superiore della lista è il tuo backlog di sprint.",
           },
@@ -826,12 +796,6 @@ export const guidesTaskPlanningT: Record<
               "Lage impact + lage inspanning: bundelen en één keer per maand inplannen. Beeldcompressie, kleine schema-toevoegingen, opschonen van oude omleidingen.",
               "Lage impact + hoge inspanning: volledig schrappen. Als een taak 20 uur kost en niets beweegt, hoort het niet op de lijst.",
             ],
-          },
-          {
-            type: "image",
-            src: "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=1280&q=80",
-            alt: "Notitieboekje met planningsraster open op een bureau",
-            caption: "Een eenvoudig prioriteringsraster bespaart je weken van verkeerd gerichte inspanning.",
           },
           {
             type: "tip",

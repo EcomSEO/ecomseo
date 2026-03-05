@@ -70,12 +70,6 @@ export const guidesCompetitorAnalysisT: Record<
         title: "Keyword Gap Analysis",
         blocks: [
           {
-            type: "image",
-            src: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1280&q=80",
-            alt: "Spreadsheet showing keyword gap analysis between competing ecommerce domains",
-            caption: "The keyword gap is your clearest list of missed opportunities — treat it as a content roadmap.",
-          },
-          {
             type: "p",
             text: "A keyword gap analysis answers one question: what are your competitors ranking for that you're not? In Ahrefs, this is the \"Content Gap\" tool under Site Explorer — enter your domain plus 2–4 competitors and it shows keywords they rank for and you don't. In SEMrush it's the \"Keyword Gap\" tool. Run this at least quarterly.",
           },
@@ -271,12 +265,6 @@ export const guidesCompetitorAnalysisT: Record<
         id: "keyword-gap",
         title: "Keyword-Gap-Analyse",
         blocks: [
-          {
-            type: "image",
-            src: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1280&q=80",
-            alt: "Tabelle mit Keyword-Gap-Analyse zwischen konkurrierenden Ecommerce-Domains",
-            caption: "Der Keyword-Gap ist deine klarste Liste verpasster Chancen — behandle ihn als Content-Roadmap.",
-          },
           {
             type: "p",
             text: "Eine Keyword-Gap-Analyse beantwortet eine Frage: Für welche Keywords ranken deine Konkurrenten, du aber nicht? In Ahrefs ist das das \"Content Gap\"-Tool unter Site Explorer — gib deine Domain plus 2–4 Konkurrenten ein, und es zeigt Keywords, für die sie ranken und du nicht. In SEMrush heißt es \"Keyword Gap\". Führe das mindestens einmal pro Quartal durch.",
@@ -474,12 +462,6 @@ export const guidesCompetitorAnalysisT: Record<
         title: "Analyse de l'écart de mots-clés",
         blocks: [
           {
-            type: "image",
-            src: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1280&q=80",
-            alt: "Tableur montrant une analyse d'écart de mots-clés entre des domaines e-commerce concurrents",
-            caption: "L'écart de mots-clés est ta liste la plus claire d'opportunités manquées — traite-le comme une feuille de route de contenu.",
-          },
-          {
             type: "p",
             text: "Une analyse d'écart de mots-clés répond à une question : pour quels mots-clés tes concurrents rankent-ils et pas toi ? Dans Ahrefs, c'est l'outil \"Content Gap\" sous Site Explorer — entre ton domaine plus 2–4 concurrents et il montre les mots-clés pour lesquels ils rankent et toi non. Dans SEMrush c'est l'outil \"Keyword Gap\". Lance ça au moins chaque trimestre.",
           },
@@ -675,12 +657,6 @@ export const guidesCompetitorAnalysisT: Record<
         id: "keyword-gap",
         title: "Análisis de brecha de palabras clave",
         blocks: [
-          {
-            type: "image",
-            src: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1280&q=80",
-            alt: "Hoja de cálculo mostrando análisis de brecha de palabras clave entre dominios e-commerce competidores",
-            caption: "La brecha de palabras clave es tu lista más clara de oportunidades perdidas — trátala como una hoja de ruta de contenido.",
-          },
           {
             type: "p",
             text: "Un análisis de brecha de palabras clave responde a una pregunta: ¿para qué palabras clave rankean tus competidores y tú no? En Ahrefs, es la herramienta \"Content Gap\" en Site Explorer — introduce tu dominio más 2–4 competidores y muestra palabras clave para las que ellos rankean y tú no. En SEMrush es la herramienta \"Keyword Gap\". Ejecútalo al menos una vez por trimestre.",
@@ -878,12 +854,6 @@ export const guidesCompetitorAnalysisT: Record<
         title: "Analisi del keyword gap",
         blocks: [
           {
-            type: "image",
-            src: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1280&q=80",
-            alt: "Foglio di calcolo che mostra l'analisi del keyword gap tra domini e-commerce concorrenti",
-            caption: "Il keyword gap è la tua lista più chiara di opportunità mancate — trattala come una roadmap dei contenuti.",
-          },
-          {
             type: "p",
             text: "Un'analisi del keyword gap risponde a una domanda: per quali keyword rankano i tuoi concorrenti e tu no? In Ahrefs, è lo strumento \"Content Gap\" sotto Site Explorer — inserisci il tuo dominio più 2–4 concorrenti e mostra le keyword per cui loro rankano e tu no. In SEMrush è lo strumento \"Keyword Gap\". Eseguilo almeno ogni trimestre.",
           },
@@ -1079,12 +1049,6 @@ export const guidesCompetitorAnalysisT: Record<
         id: "keyword-gap",
         title: "Zoekwoordkloof-analyse",
         blocks: [
-          {
-            type: "image",
-            src: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1280&q=80",
-            alt: "Spreadsheet met zoekwoordkloof-analyse tussen concurrerende e-commerce domeinen",
-            caption: "De zoekwoordkloof is je duidelijkste lijst van gemiste kansen — behandel het als een contentroadmap.",
-          },
           {
             type: "p",
             text: "Een zoekwoordkloof-analyse beantwoordt één vraag: voor welke zoekwoorden ranken je concurrenten maar jij niet? In Ahrefs is dit de \"Content Gap\"-tool onder Site Explorer — vul je domein in plus 2–4 concurrenten en het toont zoekwoorden waarvoor zij ranken en jij niet. In SEMrush is het de \"Keyword Gap\"-tool. Voer dit minimaal elk kwartaal uit.",
