@@ -86,7 +86,7 @@
   },
   "/faq": {
     "title": "Domande Frequenti | EcomSEO",
-    "description": "Risposte alle domande pi\u00f9 comuni sui nostri servizi SEO ecommerce, prezzi, processo e cosa aspettarsi lavorando con EcomSEO.",
+    "description": "Risposte alle domande più comuni sui nostri servizi SEO ecommerce, prezzi, processo e cosa aspettarsi lavorando con EcomSEO.",
     "ogTitle": "Domande Frequenti | EcomSEO"
   },
   "/resources": {
@@ -100,9 +100,9 @@
     "ogTitle": "Da Principiante a Esperto — Corso Intensivo SEO Ecommerce | EcomSEO"
   },
   "/resources/crash-course/changelog-page": {
-    "title": "Miglioramenti Prestazioni e Nuove Funzionalit\u00e0 | Corso Intensivo SEO Ecommerce",
-    "description": "Ultimi aggiornamenti e nuove funzionalit\u00e0 aggiunte al Corso Intensivo SEO Ecommerce.",
-    "ogTitle": "Miglioramenti Prestazioni e Nuove Funzionalit\u00e0 | Corso Intensivo SEO Ecommerce"
+    "title": "Miglioramenti Prestazioni e Nuove Funzionalità | Corso Intensivo SEO Ecommerce",
+    "description": "Ultimi aggiornamenti e nuove funzionalità aggiunte al Corso Intensivo SEO Ecommerce.",
+    "ogTitle": "Miglioramenti Prestazioni e Nuove Funzionalità | Corso Intensivo SEO Ecommerce"
   },
   "/resources/library": {
     "title": "Libreria Risorse — Strumenti, Template e Guide | EcomSEO",
@@ -126,7 +126,7 @@
   },
   "/resources/search-product-discovery": {
     "title": "AI Shopping — Fai Trovare i Tuoi Prodotti su LLM come ChatGPT | EcomSEO",
-    "description": "I tuoi prodotti sono invisibili sull'AI. Puoi fare qualcosa a riguardo oggi. Forse la pi\u00f9 grande opportunit\u00e0 del 2025.",
+    "description": "I tuoi prodotti sono invisibili sull'AI. Puoi fare qualcosa a riguardo oggi. Forse la più grande opportunità del 2025.",
     "ogTitle": "AI Shopping — Fai Trovare i Tuoi Prodotti su LLM come ChatGPT | EcomSEO"
   },
   "/resources/shopify-on-page-checklist": {
@@ -140,9 +140,9 @@
     "ogTitle": "Soluzioni — Partner, Referenze e Raccomandazioni | EcomSEO"
   },
   "/resources/why-we-share": {
-    "title": "Perch\u00e9 Condividiamo Cos\u00ec Tanta Conoscenza | EcomSEO",
-    "description": "Scopri perch\u00e9 condividiamo cos\u00ec tante risorse e conoscenze gratuite con la comunit\u00e0 ecommerce.",
-    "ogTitle": "Perch\u00e9 Condividiamo Cos\u00ec Tanta Conoscenza | EcomSEO"
+    "title": "Perché Condividiamo Così Tanta Conoscenza | EcomSEO",
+    "description": "Scopri perché condividiamo così tante risorse e conoscenze gratuite con la comunità ecommerce.",
+    "ogTitle": "Perché Condividiamo Così Tanta Conoscenza | EcomSEO"
   },
   "/guides": {
     "title": "Guide SEO Ecommerce | EcomSEO",
@@ -231,7 +231,7 @@
   },
   "/premium-on-page-seo-checklist": {
     "title": "Checklist Premium SEO On-Page — Genera Milioni in Modo Organico | EcomSEO",
-    "description": "Proprietari di Ecommerce! Questa Checklist SEO On-Page \u00e8 tutto ci\u00f2 di cui hai bisogno per generare milioni in modo organico su Google.",
+    "description": "Proprietari di Ecommerce! Questa Checklist SEO On-Page è tutto ciò di cui hai bisogno per generare milioni in modo organico su Google.",
     "ogTitle": "Checklist Premium SEO On-Page | EcomSEO"
   },
   "/client-dashboard": {
@@ -258,5 +258,15 @@
     "title": "Blog SEO E-commerce | EcomSEO",
     "description": "Articoli, consigli e strategie SEO e-commerce pratici dal team EcomSEO. Niente fuffa, solo cio che funziona.",
     "ogTitle": "Blog SEO E-commerce | EcomSEO"
+  },
+  "/ecommerce-seo-platforms": {
+    "title": "SEO E-commerce per Piattaforma | Shopify, WooCommerce, BigCommerce | EcomSEO",
+    "description": "SEO e-commerce nativo per Shopify, WooCommerce, BigCommerce e Adobe Commerce. Sfruttiamo ogni vantaggio della piattaforma e correggiamo ogni collo di bottiglia SEO specifico.",
+    "ogTitle": "SEO E-commerce Nativo alla Piattaforma | EcomSEO"
+  },
+  "/ecommerce-seo-industries": {
+    "title": "SEO E-commerce per Settore | Moda, Bellezza, Consumabili, Giocattoli | EcomSEO",
+    "description": "SEO e-commerce specifico per settore per moda, bellezza, consumabili e giocattoli. Strategie di nicchia che catturano la domanda stagionale e l intenzione d acquisto nel tuo verticale.",
+    "ogTitle": "SEO E-commerce per Settore | EcomSEO"
   }
 }

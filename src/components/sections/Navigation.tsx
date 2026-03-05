@@ -440,7 +440,7 @@ export default function Navigation() {
                       ))}
                     </div>
                     <LocaleLink
-                      href="/ecommerce-seo"
+                      href="/ecommerce-seo-platforms"
                       className="mt-3 text-[13px] text-white/30 hover:text-white transition-colors flex items-center gap-1"
                     >
                       {t.seeMorePlatforms}
@@ -462,7 +462,7 @@ export default function Navigation() {
                       ))}
                     </div>
                     <LocaleLink
-                      href="/ecommerce-seo"
+                      href="/ecommerce-seo-industries"
                       className="mt-3 text-[13px] text-white/30 hover:text-white transition-colors flex items-center gap-1"
                     >
                       {t.seeMoreIndustries}

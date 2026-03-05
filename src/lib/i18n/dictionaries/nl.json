@@ -258,5 +258,15 @@
     "title": "E-commerce SEO Blog | EcomSEO",
     "description": "Praktische e-commerce SEO-artikelen, tips en strategieen van het EcomSEO-team. Geen onzin, alleen wat werkt.",
     "ogTitle": "E-commerce SEO Blog | EcomSEO"
+  },
+  "/ecommerce-seo-platforms": {
+    "title": "E-commerce SEO per Platform | Shopify, WooCommerce, BigCommerce | EcomSEO",
+    "description": "Platform-native e-commerce SEO voor Shopify, WooCommerce, BigCommerce en Adobe Commerce. We benutten elk platformvoordeel en lossen elk platformspecifiek SEO-knelpunt op.",
+    "ogTitle": "Platform-Native E-commerce SEO | EcomSEO"
+  },
+  "/ecommerce-seo-industries": {
+    "title": "E-commerce SEO per Sector | Mode, Beauty, Consumptiegoederen, Speelgoed | EcomSEO",
+    "description": "Sectorspecifieke e-commerce SEO voor mode, beauty, consumptiegoederen en speelgoed. Nichestrategieen die seizoensgebonden vraag en aankoopintentie vangen in jouw verticaal.",
+    "ogTitle": "Sectorspecifieke E-commerce SEO | EcomSEO"
   }
 }

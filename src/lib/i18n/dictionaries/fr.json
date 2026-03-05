@@ -245,9 +245,9 @@
     "ogTitle": "Merci pour votre paiement | EcomSEO"
   },
   "/privacy-policy": {
-    "title": "Politique de Confidentialit\u00e9 | EcomSEO",
-    "description": "D\u00e9couvrez comment EcomSEO collecte, utilise et prot\u00e8ge vos donn\u00e9es personnelles. Lisez notre politique de confidentialit\u00e9 compl\u00e8te.",
-    "ogTitle": "Politique de Confidentialit\u00e9 | EcomSEO"
+    "title": "Politique de Confidentialité | EcomSEO",
+    "description": "Découvrez comment EcomSEO collecte, utilise et protège vos données personnelles. Lisez notre politique de confidentialité complète.",
+    "ogTitle": "Politique de Confidentialité | EcomSEO"
   },
   "/terms-of-service": {
     "title": "Conditions d'Utilisation | EcomSEO",
@@ -256,7 +256,17 @@
   },
   "/blog": {
     "title": "Blog SEO E-commerce | EcomSEO",
-    "description": "Articles, conseils et strat\u00e9gies SEO e-commerce pratiques de l'\u00e9quipe EcomSEO. Pas de blabla, juste ce qui fonctionne.",
+    "description": "Articles, conseils et stratégies SEO e-commerce pratiques de l'équipe EcomSEO. Pas de blabla, juste ce qui fonctionne.",
     "ogTitle": "Blog SEO E-commerce | EcomSEO"
+  },
+  "/ecommerce-seo-platforms": {
+    "title": "SEO E-commerce par plateforme | Shopify, WooCommerce, BigCommerce | EcomSEO",
+    "description": "SEO e-commerce natif pour Shopify, WooCommerce, BigCommerce et Adobe Commerce. Nous exploitons chaque avantage de la plateforme et corrigeons chaque goulot d etranglement SEO specifique.",
+    "ogTitle": "SEO E-commerce Natif a la Plateforme | EcomSEO"
+  },
+  "/ecommerce-seo-industries": {
+    "title": "SEO E-commerce par secteur | Mode, Beaute, Consommables, Jouets | EcomSEO",
+    "description": "SEO e-commerce specifique au secteur pour la mode, la beaute, les consommables et les jouets. Strategies axees sur la demande saisonniere et l intention d achat dans votre verticale.",
+    "ogTitle": "SEO E-commerce Sectoriel | EcomSEO"
   }
 }

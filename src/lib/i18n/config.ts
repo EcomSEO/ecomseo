@@ -66,6 +66,8 @@ export const staticRoutes = [
   "/",
   "/shopify-seo",
   "/ecommerce-seo",
+  "/ecommerce-seo-platforms",
+  "/ecommerce-seo-industries",
   "/link-building",
   "/keyword-research",
   "/content-writing",

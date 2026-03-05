@@ -258,5 +258,15 @@
     "title": "Ecommerce SEO Blog | EcomSEO",
     "description": "Practical ecommerce SEO articles, tips, and strategies from the EcomSEO team. No fluff, just what works for online stores.",
     "ogTitle": "Ecommerce SEO Blog | EcomSEO"
+  },
+  "/ecommerce-seo-platforms": {
+    "title": "Ecommerce SEO by Platform | Shopify, WooCommerce, BigCommerce | EcomSEO",
+    "description": "Platform-native ecommerce SEO for Shopify, WooCommerce, BigCommerce and Adobe Commerce. We exploit every platform advantage and fix every platform-specific SEO bottleneck.",
+    "ogTitle": "Platform-Native Ecommerce SEO | EcomSEO"
+  },
+  "/ecommerce-seo-industries": {
+    "title": "Ecommerce SEO by Industry | Fashion, Beauty, Consumables, Toys | EcomSEO",
+    "description": "Industry-specific ecommerce SEO for fashion, beauty, consumables and toy brands. Niche-aware strategies that capture seasonal demand and buyer intent in your vertical.",
+    "ogTitle": "Industry-Specific Ecommerce SEO | EcomSEO"
   }
 }
