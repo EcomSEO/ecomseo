@@ -1,66 +1,35 @@
 "use client";
 
-import { motion } from "framer-motion";
-import Badge from "@/components/ui/Badge";
-import SectionWrapper from "@/components/ui/SectionWrapper";
-import { useLocale } from "@/lib/i18n/useTranslations";
-import { toolsT } from "@/lib/i18n/translations/home";
+import Image from "next/image";
 
-const tools = [
-  "Ahrefs",
-  "Semrush",
-  "Screaming Frog",
-  "Google Search Console",
-  "Google Analytics",
-  "Surfer SEO",
-  "ChatGPT",
-  "Clearscope",
-  "SE Ranking",
-  "Majestic",
-  "Moz",
-  "PageSpeed Insights",
-];
+const LOGO_STRIP = "/images/framer/5Ycaq506DKrp2lkcTnE0vEh0k.svg";
 
 export default function ToolsSoftware() {
-  const locale = useLocale();
-  const t = toolsT[locale];
-
   return (
-    <SectionWrapper className="py-24 md:py-32">
-      <div className="flex flex-col gap-12">
-        <motion.div
-          className="flex flex-col gap-4 max-w-[700px]"
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, margin: "-100px" }}
-          transition={{ duration: 0.6 }}
-        >
-          <Badge text={t.badge} />
-          <h2 className="text-[32px] md:text-[48px] lg:text-[56px] font-medium leading-[1.1] tracking-[-0.02em] text-heading">
-            {t.heading}
-          </h2>
-          <p className="text-body text-base md:text-lg">
-            {t.subtext}
-          </p>
-        </motion.div>
+    <section className="w-full py-12 overflow-hidden">
+      <div className="relative overflow-hidden">
+        {/* Edge fades */}
+        <div className="absolute left-0 top-0 bottom-0 w-24 z-10 bg-gradient-to-r from-bg to-transparent pointer-events-none" />
+        <div className="absolute right-0 top-0 bottom-0 w-24 z-10 bg-gradient-to-l from-bg to-transparent pointer-events-none" />
 
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
-          {tools.map((tool, i) => (
-            <motion.div
-              key={tool}
-              className="flex items-center justify-center px-6 py-4 rounded-2xl bg-bg-ui border border-border hover:border-border-strong transition-colors"
-              initial={{ opacity: 0, y: 10 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.3, delay: i * 0.05 }}
+        <div className="flex animate-ticker items-center">
+          {[0, 1].map((copy) => (
+            <div
+              key={copy}
+              className="flex-shrink-0 flex items-center px-8"
             >
-              <span className="text-sm font-medium text-white/60">
-                {tool}
-              </span>
-            </motion.div>
+              <Image
+                src={LOGO_STRIP}
+                alt="SEO Tools - Google Analytics, Screaming Frog, Majestic, Bing Partner, Google Partner, Looker Studio"
+                width={1345}
+                height={421}
+                className="h-[60px] w-auto opacity-70"
+                priority
+              />
+            </div>
           ))}
         </div>
       </div>
-    </SectionWrapper>
+    </section>
   );
 }
