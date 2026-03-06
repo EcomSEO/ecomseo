@@ -1,3 +1,8 @@
+"use client";
+
+import { motion, useInView } from "framer-motion";
+import { useRef } from "react";
+
 const toolLogos = [
   { src: "/images/framer/t0iElALIslZN0LoWiFvtHdqsKI.webp", alt: "Google Partner" },
   { src: "/images/framer/TlKNFSmHBRkkG6eJvlll5HbhEc.webp", alt: "Screaming Frog" },
@@ -10,19 +15,46 @@ const toolLogos = [
 ];
 
 export default function ToolsSoftware() {
+  const ref = useRef(null);
+  const isInView = useInView(ref, { once: true, margin: "-50px" });
+
   return (
     <section className="w-full pt-8 pb-16">
-      <div className="flex items-center justify-center flex-wrap gap-8 md:gap-12 lg:gap-14 px-6">
-        {toolLogos.map((tool) => (
-          <div key={tool.alt} className="flex items-center justify-center">
+      <div
+        ref={ref}
+        className="flex items-center justify-center flex-wrap gap-8 md:gap-12 lg:gap-14 px-6"
+      >
+        {toolLogos.map((tool, i) => (
+          <motion.div
+            key={tool.alt}
+            initial={{ opacity: 0, y: 20, scale: 0.8 }}
+            animate={
+              isInView
+                ? { opacity: 1, y: 0, scale: 1 }
+                : { opacity: 0, y: 20, scale: 0.8 }
+            }
+            transition={{
+              duration: 0.5,
+              delay: i * 0.08,
+              ease: [0.25, 0.46, 0.45, 0.94],
+            }}
+            whileHover={{
+              scale: 1.15,
+              transition: { duration: 0.25, ease: "easeOut" },
+            }}
+            className="group relative flex items-center justify-center"
+          >
+            {/* Purple glow on hover */}
+            <div className="absolute inset-0 rounded-full bg-accent/0 blur-xl transition-all duration-500 group-hover:bg-accent/20 group-hover:scale-150" />
+
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               src={tool.src}
               alt={tool.alt}
-              className="h-[24px] md:h-[30px] w-auto object-contain opacity-40 hover:opacity-70 transition-opacity"
+              className="relative h-[24px] md:h-[30px] w-auto object-contain opacity-30 transition-all duration-500 group-hover:opacity-90"
               style={{ filter: "brightness(0) invert(1)" }}
             />
-          </div>
+          </motion.div>
         ))}
       </div>
     </section>
