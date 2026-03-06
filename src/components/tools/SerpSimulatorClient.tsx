@@ -279,32 +279,51 @@ export default function SerpSimulatorClient({
           animate={{ opacity: 1, y: 0 }}
           exit={{ opacity: 0, y: -8 }}
           transition={{ duration: 0.2 }}
-          className={`rounded-2xl border border-border bg-[#202124] p-6 md:p-8 ${
+          className={`rounded-2xl bg-white p-6 md:p-8 shadow-sm ${
             isDesktop ? "max-w-[720px]" : "max-w-[400px] mx-auto"
           }`}
         >
           {/* Google-style search result */}
-          <div className="space-y-1">
+          <div>
             {/* Site info row */}
-            <div className="flex items-center gap-2">
-              <div className="w-[26px] h-[26px] rounded-full bg-[#303134] flex items-center justify-center shrink-0">
-                <span className="text-[11px] font-bold text-white/60">
-                  {(siteName || url || "E").charAt(0).toUpperCase()}
-                </span>
+            <div className="flex items-center gap-3 mb-1">
+              <div className="w-[28px] h-[28px] rounded-full bg-[#f1f3f4] flex items-center justify-center shrink-0 border border-[#ecedef]">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#70757a" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+                  <circle cx="12" cy="12" r="10" />
+                  <path d="M2 12h20" />
+                  <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10A15.3 15.3 0 0 1 12 2z" />
+                </svg>
               </div>
               <div className="min-w-0">
-                <p className="text-[14px] text-[#dadce0] truncate leading-tight">
+                <p
+                  className="text-[14px] text-[#202124] truncate leading-[1.3]"
+                  style={{ fontFamily: "arial, sans-serif" }}
+                >
                   {siteName || "Site Name"}
                 </p>
-                <p className="text-[12px] text-[#969ba1] truncate leading-tight">
-                  {breadcrumb}
+                <p
+                  className="text-[12px] text-[#4d5156] truncate leading-[1.3]"
+                  style={{ fontFamily: "arial, sans-serif" }}
+                >
+                  {url ? (url.startsWith("http") ? url : `https://${url}`) : "https://example.com"}{" "}
+                  <span className="text-[#70757a]">
+                    {(() => {
+                      try {
+                        const u = new URL(url.startsWith("http") ? url : `https://${url}`);
+                        const parts = u.pathname.split("/").filter(Boolean);
+                        return parts.length > 0 ? `› ${parts.join(" › ")}` : "";
+                      } catch {
+                        return "";
+                      }
+                    })()}
+                  </span>
                 </p>
               </div>
             </div>
 
             {/* Title */}
             <h3
-              className={`text-[#8ab4f8] hover:underline cursor-pointer leading-[1.3] ${
+              className={`text-[#1a0dab] hover:underline cursor-pointer leading-[1.3] mt-[5px] ${
                 isDesktop ? "text-[20px]" : "text-[18px]"
               }`}
               style={{ fontFamily: "arial, sans-serif" }}
@@ -314,7 +333,7 @@ export default function SerpSimulatorClient({
 
             {/* Description */}
             <p
-              className="text-[14px] text-[#bdc1c6] leading-[1.58]"
+              className="text-[14px] text-[#4d5156] leading-[1.58] mt-[3px]"
               style={{ fontFamily: "arial, sans-serif" }}
             >
               {boldKeyword(displayDesc, keyword)}
