@@ -283,5 +283,20 @@
     "title": "Free Robots.txt Analyzer & Tester | EcomSEO",
     "description": "Analyze your robots.txt file for crawl issues. Test if specific URLs are blocked or allowed by your robots.txt rules. Free, no signup required.",
     "ogTitle": "Free Robots.txt Analyzer - Test Your Crawl Rules | EcomSEO"
+  },
+  "/tools/meta-tags-checker": {
+    "title": "Free Bulk Meta Tags Checker - Title & Description | EcomSEO",
+    "description": "Check title tags and meta descriptions across multiple pages at once. Find missing, duplicate, and truncated meta tags. Free, no signup required.",
+    "ogTitle": "Free Bulk Meta Tags Checker - Audit Titles & Descriptions | EcomSEO"
+  },
+  "/tools/heading-checker": {
+    "title": "Free Heading Structure Checker - H1 to H6 | EcomSEO",
+    "description": "Analyze the H1-H6 heading hierarchy of any page. Find missing H1 tags, duplicate headings, skipped levels, and broken structures. Free SEO tool.",
+    "ogTitle": "Free Heading Structure Checker - Analyze H1-H6 Hierarchy | EcomSEO"
+  },
+  "/tools/canonical-checker": {
+    "title": "Free Canonical Tag Checker & Validator | EcomSEO",
+    "description": "Validate canonical tags across your pages. Detect missing canonicals, conflicts, HTTP/HTTPS mismatches, and duplicate content issues. Free SEO tool.",
+    "ogTitle": "Free Canonical Tag Checker - Find Duplicate Content Issues | EcomSEO"
   }
 }

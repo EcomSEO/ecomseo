@@ -283,5 +283,20 @@
     "title": "Kostenloser Robots.txt Analyzer & Tester | EcomSEO",
     "description": "Analysieren Sie Ihre robots.txt-Datei auf Crawl-Probleme. Testen Sie, ob bestimmte URLs blockiert oder erlaubt sind.",
     "ogTitle": "Kostenloser Robots.txt Analyzer - Crawl-Regeln testen | EcomSEO"
+  },
+  "/tools/meta-tags-checker": {
+    "title": "Kostenloser Bulk Meta-Tags Prüfer - Title & Description | EcomSEO",
+    "description": "Prüfen Sie Title-Tags und Meta-Beschreibungen über mehrere Seiten gleichzeitig. Finden Sie fehlende, doppelte und abgeschnittene Meta-Tags.",
+    "ogTitle": "Kostenloser Bulk Meta-Tags Prüfer | EcomSEO"
+  },
+  "/tools/heading-checker": {
+    "title": "Kostenloser Überschriften-Struktur Prüfer - H1 bis H6 | EcomSEO",
+    "description": "Analysieren Sie die H1-H6 Überschriften-Hierarchie jeder Seite. Finden Sie fehlende H1-Tags und fehlerhafte Strukturen.",
+    "ogTitle": "Kostenloser Überschriften-Prüfer - H1-H6 Analyse | EcomSEO"
+  },
+  "/tools/canonical-checker": {
+    "title": "Kostenloser Canonical-Tag Prüfer & Validator | EcomSEO",
+    "description": "Validieren Sie Canonical-Tags auf Ihren Seiten. Erkennen Sie fehlende Canonicals, Konflikte und HTTP/HTTPS-Unterschiede.",
+    "ogTitle": "Kostenloser Canonical-Tag Prüfer | EcomSEO"
   }
 }

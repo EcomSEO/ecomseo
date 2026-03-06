@@ -283,5 +283,20 @@
     "title": "Analizador de Robots.txt Gratuito & Tester | EcomSEO",
     "description": "Analiza tu archivo robots.txt en busca de problemas de rastreo. Prueba si URLs especificas estan bloqueadas o permitidas.",
     "ogTitle": "Analizador de Robots.txt Gratuito - Prueba Tus Reglas de Rastreo | EcomSEO"
+  },
+  "/tools/meta-tags-checker": {
+    "title": "Verificador Bulk Meta Tags Gratuito - Title & Description | EcomSEO",
+    "description": "Verifica title tags y meta descriptions en múltiples páginas. Encuentra meta tags faltantes, duplicados y truncados.",
+    "ogTitle": "Verificador Bulk Meta Tags Gratuito | EcomSEO"
+  },
+  "/tools/heading-checker": {
+    "title": "Verificador de Estructura de Encabezados Gratuito - H1 a H6 | EcomSEO",
+    "description": "Analiza la jerarquía H1-H6 de cualquier página. Encuentra H1 faltantes y estructuras rotas.",
+    "ogTitle": "Verificador de Encabezados Gratuito - Análisis H1-H6 | EcomSEO"
+  },
+  "/tools/canonical-checker": {
+    "title": "Verificador de Etiquetas Canonical Gratuito | EcomSEO",
+    "description": "Valida las etiquetas canonical de tus páginas. Detecta canonicals faltantes, conflictos y diferencias HTTP/HTTPS.",
+    "ogTitle": "Verificador Canonical Gratuito | EcomSEO"
   }
 }

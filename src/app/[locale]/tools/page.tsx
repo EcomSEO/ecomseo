@@ -149,6 +149,40 @@ export default async function ToolsHubPage({
                   </svg>
                 }
               />
+              <ToolCard
+                title={t.metaTagsChecker.title}
+                desc={t.metaTagsChecker.desc}
+                href="/tools/meta-tags-checker"
+                icon={
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+                    <path d="M4 7V4h16v3" />
+                    <path d="M9 20h6" />
+                    <path d="M12 4v16" />
+                  </svg>
+                }
+              />
+              <ToolCard
+                title={t.headingChecker.title}
+                desc={t.headingChecker.desc}
+                href="/tools/heading-checker"
+                icon={
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+                    <path d="M4 12h8M4 18V6M12 18V6" />
+                    <path d="M17 12l3-3 3 3M20 9v9" />
+                  </svg>
+                }
+              />
+              <ToolCard
+                title={t.canonicalChecker.title}
+                desc={t.canonicalChecker.desc}
+                href="/tools/canonical-checker"
+                icon={
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+                    <path d="M10 13a5 5 0 007.54.54l3-3a5 5 0 00-7.07-7.07l-1.72 1.71" />
+                    <path d="M14 11a5 5 0 00-7.54-.54l-3 3a5 5 0 007.07 7.07l1.71-1.71" />
+                  </svg>
+                }
+              />
             </div>
 
             {/* Coming soon */}

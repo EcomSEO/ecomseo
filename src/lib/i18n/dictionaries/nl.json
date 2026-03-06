@@ -283,5 +283,20 @@
     "title": "Gratis Robots.txt Analyzer & Tester | EcomSEO",
     "description": "Analyseer je robots.txt bestand op crawl-problemen. Test of specifieke URL's geblokkeerd of toegestaan zijn door je robots.txt regels.",
     "ogTitle": "Gratis Robots.txt Analyzer - Test Je Crawl-regels | EcomSEO"
+  },
+  "/tools/meta-tags-checker": {
+    "title": "Gratis Bulk Meta Tags Checker - Title & Description | EcomSEO",
+    "description": "Controleer title tags en meta descriptions over meerdere pagina's tegelijk. Vind ontbrekende, dubbele en afgekapte meta tags.",
+    "ogTitle": "Gratis Bulk Meta Tags Checker | EcomSEO"
+  },
+  "/tools/heading-checker": {
+    "title": "Gratis Heading Structuur Checker - H1 tot H6 | EcomSEO",
+    "description": "Analyseer de H1-H6 heading-hiërarchie van elke pagina. Vind ontbrekende H1-tags en gebroken structuren.",
+    "ogTitle": "Gratis Heading Checker - H1-H6 Analyse | EcomSEO"
+  },
+  "/tools/canonical-checker": {
+    "title": "Gratis Canonical Tag Checker & Validator | EcomSEO",
+    "description": "Valideer canonical tags op je pagina's. Detecteer ontbrekende canonicals, conflicten en HTTP/HTTPS-verschillen.",
+    "ogTitle": "Gratis Canonical Tag Checker | EcomSEO"
   }
 }
