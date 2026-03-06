@@ -51,7 +51,7 @@ export default function ToolsSoftware() {
             <img
               src={tool.src}
               alt={tool.alt}
-              className="relative h-[24px] md:h-[30px] w-auto object-contain opacity-30 transition-all duration-500 group-hover:opacity-90"
+              className="relative h-[32px] md:h-[40px] w-auto object-contain opacity-30 transition-all duration-500 group-hover:opacity-90"
               style={{ filter: "brightness(0) invert(1)" }}
             />
           </motion.div>
