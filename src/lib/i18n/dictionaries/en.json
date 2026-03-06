@@ -333,5 +333,35 @@
     "title": "Free Redirect Chain & Loop Checker | EcomSEO",
     "description": "Detect redirect chains, loops, and broken redirect paths across multiple URLs. See full redirect paths with HTTP status codes. Free SEO tool.",
     "ogTitle": "Free Redirect Chain Checker - Detect Loops & Chains | EcomSEO"
+  },
+  "/tools/hreflang-validator": {
+    "title": "Free Hreflang Tag Validator - Check International SEO | EcomSEO",
+    "description": "Validate hreflang annotations, return tags, and language/region codes across your pages. Detect missing or conflicting hreflang tags. Free SEO tool.",
+    "ogTitle": "Free Hreflang Tag Validator - International SEO Checker | EcomSEO"
+  },
+  "/tools/image-auditor": {
+    "title": "Free Image SEO Auditor - Alt Text & File Size Checker | EcomSEO",
+    "description": "Audit images on any page for missing alt text, oversized files, and optimization issues. Bulk check image SEO across multiple URLs. Free tool.",
+    "ogTitle": "Free Image SEO Auditor - Check Alt Text & Sizes | EcomSEO"
+  },
+  "/tools/duplicate-content": {
+    "title": "Free Duplicate Content Finder - Detect Similar Pages | EcomSEO",
+    "description": "Find near-duplicate content across multiple URLs using text similarity analysis. Detect cannibalization and thin content issues. Free SEO tool.",
+    "ogTitle": "Free Duplicate Content Finder - Check URL Similarity | EcomSEO"
+  },
+  "/tools/shopping-feed-validator": {
+    "title": "Free Google Shopping Feed Validator | EcomSEO",
+    "description": "Validate your product feed against Google Merchant Center requirements. Check for missing GTIN, price format errors, and required fields. Free tool.",
+    "ogTitle": "Free Shopping Feed Validator - Google Merchant Center | EcomSEO"
+  },
+  "/tools/internal-link-analyzer": {
+    "title": "Free Internal Link Analyzer - Find Orphan Pages | EcomSEO",
+    "description": "Map internal links on any page, find orphan pages, and analyze link depth. Identify broken internal links and linking opportunities. Free SEO tool.",
+    "ogTitle": "Free Internal Link Analyzer - Map Links & Find Issues | EcomSEO"
+  },
+  "/tools/site-speed-comparison": {
+    "title": "Free Site Speed Comparison Tool | EcomSEO",
+    "description": "Compare page speed performance across multiple websites side by side. Benchmark your site against competitors with Google PageSpeed data. Free tool.",
+    "ogTitle": "Free Site Speed Comparison - Benchmark vs Competitors | EcomSEO"
   }
 }

@@ -185,4 +185,10 @@ export const staticRoutes = [
   "/tools/core-web-vitals",
   "/tools/schema-validator",
   "/tools/redirect-checker",
+  "/tools/hreflang-validator",
+  "/tools/image-auditor",
+  "/tools/duplicate-content",
+  "/tools/shopping-feed-validator",
+  "/tools/internal-link-analyzer",
+  "/tools/site-speed-comparison",
 ];

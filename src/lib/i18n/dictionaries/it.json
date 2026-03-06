@@ -333,5 +333,35 @@
     "title": "Verificatore Catene di Redirect Gratuito | EcomSEO",
     "description": "Rileva catene di redirect, loop e percorsi di reindirizzamento interrotti. Percorsi completi con codici di stato HTTP. Strumento SEO gratuito.",
     "ogTitle": "Verificatore Catene di Redirect Gratuito | EcomSEO"
+  },
+  "/tools/hreflang-validator": {
+    "title": "Validatore Hreflang Gratuito | EcomSEO",
+    "description": "Valida annotazioni hreflang, tag di ritorno e codici lingua/regione. Rileva tag hreflang mancanti o in conflitto. Strumento SEO gratuito.",
+    "ogTitle": "Validatore Hreflang Gratuito | EcomSEO"
+  },
+  "/tools/image-auditor": {
+    "title": "Auditor SEO Immagini Gratuito | EcomSEO",
+    "description": "Audita le immagini per testi alt mancanti, file sovradimensionati e problemi di ottimizzazione. Strumento SEO gratuito.",
+    "ogTitle": "Auditor SEO Immagini Gratuito | EcomSEO"
+  },
+  "/tools/duplicate-content": {
+    "title": "Rilevatore Contenuto Duplicato Gratuito | EcomSEO",
+    "description": "Trova contenuti quasi duplicati su più URL tramite analisi di similarità testuale. Strumento SEO gratuito.",
+    "ogTitle": "Rilevatore Contenuto Duplicato Gratuito | EcomSEO"
+  },
+  "/tools/shopping-feed-validator": {
+    "title": "Validatore Feed Shopping Gratuito | EcomSEO",
+    "description": "Valida il tuo feed prodotti rispetto ai requisiti di Google Merchant Center. Strumento gratuito.",
+    "ogTitle": "Validatore Feed Shopping Gratuito | EcomSEO"
+  },
+  "/tools/internal-link-analyzer": {
+    "title": "Analizzatore Link Interni Gratuito | EcomSEO",
+    "description": "Mappa i link interni, trova pagine orfane e analizza la profondità dei link. Strumento SEO gratuito.",
+    "ogTitle": "Analizzatore Link Interni Gratuito | EcomSEO"
+  },
+  "/tools/site-speed-comparison": {
+    "title": "Confronto Velocità Sito Gratuito | EcomSEO",
+    "description": "Confronta le prestazioni di velocità tra più siti web fianco a fianco. Strumento gratuito.",
+    "ogTitle": "Confronto Velocità Sito Gratuito | EcomSEO"
   }
 }

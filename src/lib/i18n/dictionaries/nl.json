@@ -333,5 +333,35 @@
     "title": "Gratis Redirect Keten & Lus Checker | EcomSEO",
     "description": "Detecteer redirect-ketens, lussen en kapotte doorverwijzingspaden. Volledige redirect-paden met HTTP-statuscodes. Gratis SEO-tool.",
     "ogTitle": "Gratis Redirect Keten Checker | EcomSEO"
+  },
+  "/tools/hreflang-validator": {
+    "title": "Gratis Hreflang Tag Validator | EcomSEO",
+    "description": "Valideer hreflang-annotaties, terugverwijzingstags en taal-/regiocodes. Detecteer ontbrekende of conflicterende hreflang-tags. Gratis SEO-tool.",
+    "ogTitle": "Gratis Hreflang Tag Validator | EcomSEO"
+  },
+  "/tools/image-auditor": {
+    "title": "Gratis Afbeelding SEO Auditor | EcomSEO",
+    "description": "Audit afbeeldingen op ontbrekende alt-teksten, te grote bestanden en optimalisatieproblemen. Gratis SEO-tool.",
+    "ogTitle": "Gratis Afbeelding SEO Auditor | EcomSEO"
+  },
+  "/tools/duplicate-content": {
+    "title": "Gratis Dubbele Content Finder | EcomSEO",
+    "description": "Vind bijna identieke content op meerdere URL's via tekstgelijkheidsanalyse. Gratis SEO-tool.",
+    "ogTitle": "Gratis Dubbele Content Finder | EcomSEO"
+  },
+  "/tools/shopping-feed-validator": {
+    "title": "Gratis Shopping Feed Validator | EcomSEO",
+    "description": "Valideer je productfeed tegen Google Merchant Center vereisten. Gratis tool.",
+    "ogTitle": "Gratis Shopping Feed Validator | EcomSEO"
+  },
+  "/tools/internal-link-analyzer": {
+    "title": "Gratis Interne Link Analyse | EcomSEO",
+    "description": "Breng interne links in kaart, vind weespagina's en analyseer linkdiepte. Gratis SEO-tool.",
+    "ogTitle": "Gratis Interne Link Analyse | EcomSEO"
+  },
+  "/tools/site-speed-comparison": {
+    "title": "Gratis Sitesnelheid Vergelijking | EcomSEO",
+    "description": "Vergelijk paginasnelheidsprestaties tussen meerdere websites naast elkaar. Gratis tool.",
+    "ogTitle": "Gratis Sitesnelheid Vergelijking | EcomSEO"
   }
 }

@@ -333,5 +333,35 @@
     "title": "Kostenloser Redirect-Ketten & Schleifen Checker | EcomSEO",
     "description": "Redirect-Ketten, Schleifen und fehlerhafte Weiterleitungspfade erkennen. Vollständige Redirect-Pfade mit HTTP-Statuscodes. Kostenloses SEO-Tool.",
     "ogTitle": "Kostenloser Redirect-Ketten Checker | EcomSEO"
+  },
+  "/tools/hreflang-validator": {
+    "title": "Kostenloser Hreflang-Tag-Validator | EcomSEO",
+    "description": "Validieren Sie Hreflang-Annotationen, Rückverweise und Sprach-/Regionscodes. Erkennen Sie fehlende oder widersprüchliche Hreflang-Tags. Kostenloses SEO-Tool.",
+    "ogTitle": "Kostenloser Hreflang-Tag-Validator | EcomSEO"
+  },
+  "/tools/image-auditor": {
+    "title": "Kostenloser Bild-SEO-Auditor - Alt-Text & Dateigröße | EcomSEO",
+    "description": "Prüfen Sie Bilder auf fehlende Alt-Texte, zu große Dateien und Optimierungsprobleme. Kostenloses SEO-Tool.",
+    "ogTitle": "Kostenloser Bild-SEO-Auditor | EcomSEO"
+  },
+  "/tools/duplicate-content": {
+    "title": "Kostenloser Duplicate-Content-Finder | EcomSEO",
+    "description": "Finden Sie fast identische Inhalte auf mehreren URLs mittels Textähnlichkeitsanalyse. Kostenloses SEO-Tool.",
+    "ogTitle": "Kostenloser Duplicate-Content-Finder | EcomSEO"
+  },
+  "/tools/shopping-feed-validator": {
+    "title": "Kostenloser Google Shopping Feed Validator | EcomSEO",
+    "description": "Validieren Sie Ihren Produktfeed gegen Google Merchant Center Anforderungen. Kostenloses Tool.",
+    "ogTitle": "Kostenloser Shopping Feed Validator | EcomSEO"
+  },
+  "/tools/internal-link-analyzer": {
+    "title": "Kostenloser Interner-Link-Analysator | EcomSEO",
+    "description": "Kartieren Sie interne Links, finden Sie verwaiste Seiten und analysieren Sie die Linktiefe. Kostenloses SEO-Tool.",
+    "ogTitle": "Kostenloser Interner-Link-Analysator | EcomSEO"
+  },
+  "/tools/site-speed-comparison": {
+    "title": "Kostenloser Seitengeschwindigkeits-Vergleich | EcomSEO",
+    "description": "Vergleichen Sie die Seitengeschwindigkeit mehrerer Websites nebeneinander. Kostenloses Tool.",
+    "ogTitle": "Kostenloser Seitengeschwindigkeits-Vergleich | EcomSEO"
   }
 }

@@ -333,5 +333,35 @@
     "title": "Vérificateur de Chaînes de Redirection Gratuit | EcomSEO",
     "description": "Détectez les chaînes de redirection, boucles et chemins de redirection cassés. Chemins complets avec codes de statut HTTP. Outil SEO gratuit.",
     "ogTitle": "Vérificateur de Chaînes de Redirection Gratuit | EcomSEO"
+  },
+  "/tools/hreflang-validator": {
+    "title": "Validateur Hreflang Gratuit | EcomSEO",
+    "description": "Validez les annotations hreflang, balises retour et codes langue/région. Détectez les tags hreflang manquants ou conflictuels. Outil SEO gratuit.",
+    "ogTitle": "Validateur Hreflang Gratuit | EcomSEO"
+  },
+  "/tools/image-auditor": {
+    "title": "Auditeur SEO d'Images Gratuit | EcomSEO",
+    "description": "Auditez les images pour les textes alt manquants, fichiers surdimensionnés et problèmes d'optimisation. Outil SEO gratuit.",
+    "ogTitle": "Auditeur SEO d'Images Gratuit | EcomSEO"
+  },
+  "/tools/duplicate-content": {
+    "title": "Détecteur de Contenu Dupliqué Gratuit | EcomSEO",
+    "description": "Trouvez du contenu quasi-identique sur plusieurs URLs par analyse de similarité textuelle. Outil SEO gratuit.",
+    "ogTitle": "Détecteur de Contenu Dupliqué Gratuit | EcomSEO"
+  },
+  "/tools/shopping-feed-validator": {
+    "title": "Validateur de Flux Shopping Gratuit | EcomSEO",
+    "description": "Validez votre flux produit contre les exigences Google Merchant Center. Outil gratuit.",
+    "ogTitle": "Validateur de Flux Shopping Gratuit | EcomSEO"
+  },
+  "/tools/internal-link-analyzer": {
+    "title": "Analyseur de Liens Internes Gratuit | EcomSEO",
+    "description": "Cartographiez les liens internes, trouvez les pages orphelines et analysez la profondeur des liens. Outil SEO gratuit.",
+    "ogTitle": "Analyseur de Liens Internes Gratuit | EcomSEO"
+  },
+  "/tools/site-speed-comparison": {
+    "title": "Comparaison Vitesse de Site Gratuite | EcomSEO",
+    "description": "Comparez la vitesse de page entre plusieurs sites côte à côte. Outil gratuit.",
+    "ogTitle": "Comparaison Vitesse de Site Gratuite | EcomSEO"
   }
 }

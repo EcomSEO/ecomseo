@@ -333,5 +333,35 @@
     "title": "Verificador de Cadenas de Redirección Gratuito | EcomSEO",
     "description": "Detecta cadenas de redirección, bucles y rutas de redirección rotas. Rutas completas con códigos de estado HTTP. Herramienta SEO gratuita.",
     "ogTitle": "Verificador de Cadenas de Redirección Gratuito | EcomSEO"
+  },
+  "/tools/hreflang-validator": {
+    "title": "Validador Hreflang Gratuito | EcomSEO",
+    "description": "Valida anotaciones hreflang, etiquetas de retorno y códigos de idioma/región. Detecta tags hreflang faltantes o conflictivos. Herramienta SEO gratuita.",
+    "ogTitle": "Validador Hreflang Gratuito | EcomSEO"
+  },
+  "/tools/image-auditor": {
+    "title": "Auditor SEO de Imágenes Gratuito | EcomSEO",
+    "description": "Audita imágenes por textos alt faltantes, archivos sobredimensionados y problemas de optimización. Herramienta SEO gratuita.",
+    "ogTitle": "Auditor SEO de Imágenes Gratuito | EcomSEO"
+  },
+  "/tools/duplicate-content": {
+    "title": "Detector de Contenido Duplicado Gratuito | EcomSEO",
+    "description": "Encuentra contenido casi duplicado en múltiples URLs mediante análisis de similitud textual. Herramienta SEO gratuita.",
+    "ogTitle": "Detector de Contenido Duplicado Gratuito | EcomSEO"
+  },
+  "/tools/shopping-feed-validator": {
+    "title": "Validador de Feed Shopping Gratuito | EcomSEO",
+    "description": "Valida tu feed de productos contra los requisitos de Google Merchant Center. Herramienta gratuita.",
+    "ogTitle": "Validador de Feed Shopping Gratuito | EcomSEO"
+  },
+  "/tools/internal-link-analyzer": {
+    "title": "Analizador de Enlaces Internos Gratuito | EcomSEO",
+    "description": "Mapea enlaces internos, encuentra páginas huérfanas y analiza la profundidad de enlaces. Herramienta SEO gratuita.",
+    "ogTitle": "Analizador de Enlaces Internos Gratuito | EcomSEO"
+  },
+  "/tools/site-speed-comparison": {
+    "title": "Comparación de Velocidad de Sitio Gratuita | EcomSEO",
+    "description": "Compara el rendimiento de velocidad entre múltiples sitios web lado a lado. Herramienta gratuita.",
+    "ogTitle": "Comparación de Velocidad de Sitio Gratuita | EcomSEO"
   }
 }
