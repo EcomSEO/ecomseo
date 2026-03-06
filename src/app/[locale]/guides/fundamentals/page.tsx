@@ -7,8 +7,7 @@ import { breadcrumbJsonLd } from "@/lib/jsonLd";
 import { buildPageMetadata } from "@/lib/i18n/metadata";
 import type { Locale } from "@/lib/i18n/config";
 import { guidesFundamentalsT } from "@/lib/i18n/translations/guidesFundamentals";
-
-const sideNavHrefs = ["/guides", "/guides/fundamentals"] as const;
+import { guidesSidebarT } from "@/lib/i18n/translations/guidesSidebar";
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
@@ -18,6 +17,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 export default async function FundamentalsPage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   const t = guidesFundamentalsT[locale as Locale];
+  const sidebar = guidesSidebarT[locale as Locale];
   return (
     <>
       <JsonLd data={breadcrumbJsonLd(locale as Locale, [
@@ -31,26 +31,28 @@ export default async function FundamentalsPage({ params }: { params: Promise<{ l
           {/* Left sidebar navigation */}
           <aside className="hidden lg:flex flex-col w-[280px] shrink-0 border-r border-border pt-[120px] px-5 pb-8 sticky top-0 h-screen overflow-y-auto">
             <nav className="flex flex-col gap-6 mt-8">
-              <div>
-                <p className="text-body text-xs font-medium uppercase tracking-wider mb-3">
-                  {t.sideNav.category}
-                </p>
-                <div className="flex flex-col gap-0.5">
-                  {t.sideNav.items.map((item, i) => (
-                    <LocaleLink
-                      key={sideNavHrefs[i]}
-                      href={sideNavHrefs[i]}
-                      className={`px-3 py-2 rounded-lg text-sm transition-colors ${
-                        i === 1
-                          ? "text-heading bg-white-05 font-medium"
-                          : "text-body hover:text-heading hover:bg-white-05"
-                      }`}
-                    >
-                      {item.label}
-                    </LocaleLink>
-                  ))}
+              {sidebar.map((section) => (
+                <div key={section.category}>
+                  <p className="text-body text-xs font-medium uppercase tracking-wider mb-3">
+                    {section.category}
+                  </p>
+                  <div className="flex flex-col gap-0.5">
+                    {section.items.map((item) => (
+                      <LocaleLink
+                        key={item.href}
+                        href={item.href}
+                        className={`px-3 py-2 rounded-lg text-sm transition-colors ${
+                          item.href === "/guides/fundamentals"
+                            ? "text-heading bg-white-05 font-medium"
+                            : "text-body hover:text-heading hover:bg-white-05"
+                        }`}
+                      >
+                        {item.label}
+                      </LocaleLink>
+                    ))}
+                  </div>
                 </div>
-              </div>
+              ))}
             </nav>
           </aside>
 
