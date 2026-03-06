@@ -27,15 +27,17 @@ export default async function SerpSimulatorPage({
       <main className="min-h-screen bg-bg">
         {/* Hero + Tool */}
         <section className="relative overflow-hidden px-5 md:px-16 pt-[120px] md:pt-[160px] pb-20">
-          <div className="relative z-10 max-w-[1200px] mx-auto flex flex-col items-center text-center gap-8">
-            <Badge text={t.badge} />
-            <div className="space-y-4 max-w-[700px]">
-              <h1 className="text-[32px] md:text-[52px] font-medium leading-[1.1] tracking-[-0.02em] text-heading">
-                {t.heading}
-              </h1>
-              <p className="text-body text-lg max-w-[540px] mx-auto">
-                {t.subtitle}
-              </p>
+          <div className="relative z-10 max-w-[1300px] mx-auto">
+            <div className="flex flex-col items-center text-center gap-6 mb-10">
+              <Badge text={t.badge} />
+              <div className="space-y-4 max-w-[700px]">
+                <h1 className="text-[32px] md:text-[52px] font-medium leading-[1.1] tracking-[-0.02em] text-heading">
+                  {t.heading}
+                </h1>
+                <p className="text-body text-lg max-w-[540px] mx-auto">
+                  {t.subtitle}
+                </p>
+              </div>
             </div>
 
             <SerpSimulatorClient t={t} />
