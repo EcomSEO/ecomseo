@@ -323,5 +323,15 @@
     "title": "Gratis Core Web Vitals Checker - LCP, CLS & INP | EcomSEO",
     "description": "Controleer LCP-, CLS- en INP-scores voor mobiel en desktop op meerdere pagina's. Aangedreven door Google PageSpeed Insights.",
     "ogTitle": "Gratis Core Web Vitals Checker | EcomSEO"
+  },
+  "/tools/schema-validator": {
+    "title": "Gratis Schema Markup Validator - JSON-LD & Microdata | EcomSEO",
+    "description": "Valideer gestructureerde data op elke pagina. Controleer JSON-LD en Microdata op fouten en Schema.org-naleving. Gratis SEO-tool.",
+    "ogTitle": "Gratis Schema Markup Validator | EcomSEO"
+  },
+  "/tools/redirect-checker": {
+    "title": "Gratis Redirect Keten & Lus Checker | EcomSEO",
+    "description": "Detecteer redirect-ketens, lussen en kapotte doorverwijzingspaden. Volledige redirect-paden met HTTP-statuscodes. Gratis SEO-tool.",
+    "ogTitle": "Gratis Redirect Keten Checker | EcomSEO"
   }
 }

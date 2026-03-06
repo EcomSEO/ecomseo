@@ -323,5 +323,15 @@
     "title": "Kostenloser Core Web Vitals Prüfer - LCP, CLS & INP | EcomSEO",
     "description": "LCP-, CLS- und INP-Scores für Mobil und Desktop auf mehreren Seiten prüfen. Basiert auf Google PageSpeed Insights.",
     "ogTitle": "Kostenloser Core Web Vitals Prüfer | EcomSEO"
+  },
+  "/tools/schema-validator": {
+    "title": "Kostenloser Schema-Markup-Validator - JSON-LD & Mikrodata | EcomSEO",
+    "description": "Strukturierte Daten auf jeder Seite validieren. JSON-LD und Mikrodata auf Fehler und Schema.org-Konformität prüfen. Kostenloses SEO-Tool.",
+    "ogTitle": "Kostenloser Schema-Markup-Validator | EcomSEO"
+  },
+  "/tools/redirect-checker": {
+    "title": "Kostenloser Redirect-Ketten & Schleifen Checker | EcomSEO",
+    "description": "Redirect-Ketten, Schleifen und fehlerhafte Weiterleitungspfade erkennen. Vollständige Redirect-Pfade mit HTTP-Statuscodes. Kostenloses SEO-Tool.",
+    "ogTitle": "Kostenloser Redirect-Ketten Checker | EcomSEO"
   }
 }

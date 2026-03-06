@@ -989,6 +989,8 @@ export const seoToolsHubT: Record<Locale, {
   sitemapComparison: { title: string; desc: string };
   thinContentChecker: { title: string; desc: string };
   coreWebVitals: { title: string; desc: string };
+  schemaValidator: { title: string; desc: string };
+  redirectChecker: { title: string; desc: string };
   comingSoon: string;
 }> = {
   en: {
@@ -1009,6 +1011,8 @@ export const seoToolsHubT: Record<Locale, {
     sitemapComparison: { title: "Sitemap Comparison Tool", desc: "Compare two XML sitemaps to find missing and unique URLs" },
     thinContentChecker: { title: "Thin Content Checker", desc: "Detect pages with too little content that may hurt your rankings" },
     coreWebVitals: { title: "Core Web Vitals Checker", desc: "Check LCP, CLS, and INP scores for mobile and desktop" },
+    schemaValidator: { title: "Schema Markup Validator", desc: "Validate JSON-LD and Microdata structured data on any page" },
+    redirectChecker: { title: "Redirect Chain Checker", desc: "Detect redirect chains, loops, and broken redirect paths" },
     comingSoon: "More tools coming soon",
   },
   de: {
@@ -1029,6 +1033,8 @@ export const seoToolsHubT: Record<Locale, {
     sitemapComparison: { title: "Sitemap-Vergleichstool", desc: "Zwei XML-Sitemaps vergleichen, um fehlende und einzigartige URLs zu finden" },
     thinContentChecker: { title: "Thin Content Checker", desc: "Seiten mit zu wenig Inhalt erkennen, die Ihr Ranking beeinträchtigen könnten" },
     coreWebVitals: { title: "Core Web Vitals Checker", desc: "LCP-, CLS- und INP-Werte für Mobil und Desktop prüfen" },
+    schemaValidator: { title: "Schema-Markup-Validator", desc: "JSON-LD und Microdata strukturierte Daten auf jeder Seite validieren" },
+    redirectChecker: { title: "Redirect-Ketten-Checker", desc: "Redirect-Ketten, Schleifen und fehlerhafte Weiterleitungen erkennen" },
     comingSoon: "Weitere Tools folgen",
   },
   fr: {
@@ -1049,6 +1055,8 @@ export const seoToolsHubT: Record<Locale, {
     sitemapComparison: { title: "Comparateur de Sitemaps", desc: "Comparez deux sitemaps XML pour trouver les URLs manquantes et uniques" },
     thinContentChecker: { title: "Vérificateur de Contenu Mince", desc: "Détectez les pages avec trop peu de contenu qui nuisent à votre classement" },
     coreWebVitals: { title: "Vérificateur Core Web Vitals", desc: "Vérifiez les scores LCP, CLS et INP pour mobile et desktop" },
+    schemaValidator: { title: "Validateur Schema Markup", desc: "Validez les données structurées JSON-LD et Microdata sur n'importe quelle page" },
+    redirectChecker: { title: "Vérificateur de Redirections", desc: "Détectez les chaînes de redirection, boucles et chemins de redirection cassés" },
     comingSoon: "Plus d'outils à venir",
   },
   es: {
@@ -1069,6 +1077,8 @@ export const seoToolsHubT: Record<Locale, {
     sitemapComparison: { title: "Comparador de Sitemaps", desc: "Compara dos sitemaps XML para encontrar URLs faltantes y únicas" },
     thinContentChecker: { title: "Verificador de Contenido Escaso", desc: "Detecta páginas con poco contenido que pueden perjudicar tu posicionamiento" },
     coreWebVitals: { title: "Verificador Core Web Vitals", desc: "Comprueba puntuaciones LCP, CLS e INP para móvil y escritorio" },
+    schemaValidator: { title: "Validador de Schema Markup", desc: "Valida datos estructurados JSON-LD y Microdata en cualquier página" },
+    redirectChecker: { title: "Verificador de Cadenas de Redirección", desc: "Detecta cadenas de redirección, bucles y rutas de redirección rotas" },
     comingSoon: "Más herramientas próximamente",
   },
   it: {
@@ -1089,6 +1099,8 @@ export const seoToolsHubT: Record<Locale, {
     sitemapComparison: { title: "Strumento Confronto Sitemap", desc: "Confronta due sitemap XML per trovare URL mancanti e uniche" },
     thinContentChecker: { title: "Verificatore Contenuto Scarso", desc: "Rileva pagine con troppo poco contenuto che potrebbero danneggiare il ranking" },
     coreWebVitals: { title: "Verificatore Core Web Vitals", desc: "Controlla punteggi LCP, CLS e INP per mobile e desktop" },
+    schemaValidator: { title: "Validatore Schema Markup", desc: "Valida dati strutturati JSON-LD e Microdata su qualsiasi pagina" },
+    redirectChecker: { title: "Verificatore Catene di Redirect", desc: "Rileva catene di redirect, loop e percorsi di reindirizzamento interrotti" },
     comingSoon: "Altri strumenti in arrivo",
   },
   nl: {
@@ -1109,6 +1121,8 @@ export const seoToolsHubT: Record<Locale, {
     sitemapComparison: { title: "Sitemap Vergelijkingstool", desc: "Vergelijk twee XML-sitemaps om ontbrekende en unieke URL's te vinden" },
     thinContentChecker: { title: "Thin Content Checker", desc: "Detecteer pagina's met te weinig content die je ranking kunnen schaden" },
     coreWebVitals: { title: "Core Web Vitals Checker", desc: "Controleer LCP-, CLS- en INP-scores voor mobiel en desktop" },
+    schemaValidator: { title: "Schema Markup Validator", desc: "Valideer JSON-LD en Microdata gestructureerde data op elke pagina" },
+    redirectChecker: { title: "Redirect Keten Checker", desc: "Detecteer redirect-ketens, lussen en kapotte doorverwijzingspaden" },
     comingSoon: "Meer tools volgen binnenkort",
   },
 };
@@ -4930,5 +4944,622 @@ export const coreWebVitalsT: Record<Locale, CoreWebVitalsTranslation> = {
     ctaBottom: "Hulp nodig bij het verbeteren van je Core Web Vitals?",
     ctaBottomDesc: "Ons performance-team kan LCP-, CLS- en INP-problemen diagnosticeren en oplossen.",
     ctaBottomButton: "Gratis adviesgesprek",
+  },
+};
+
+/* ─────────────────────────── Schema Validator ─────────────────────────── */
+
+export interface SchemaValidatorTranslation {
+  badge: string;
+  heading: string;
+  subtitle: string;
+  urlLabel: string;
+  urlPlaceholder: string;
+  checkButton: string;
+  checkingButton: string;
+  typesFound: string;
+  errorsFound: string;
+  noSchemaFound: string;
+  jsonLdTitle: string;
+  microdataTitle: string;
+  fieldsLabel: string;
+  errorsLabel: string;
+  warningsLabel: string;
+  typeLabel: string;
+  errorEmpty: string;
+  errorInvalid: string;
+  errorFetch: string;
+  ctaBottom: string;
+  ctaBottomDesc: string;
+  ctaBottomButton: string;
+  features: string[];
+  howItWorksTitle: string;
+  howItWorksSteps: { title: string; desc: string }[];
+  faqTitle: string;
+  faqs: { q: string; a: string }[];
+}
+
+export const schemaValidatorT: Record<Locale, SchemaValidatorTranslation> = {
+  en: {
+    badge: "Free SEO Tool",
+    heading: "Schema Markup Validator",
+    subtitle: "Validate the structured data on any page. Check JSON-LD and Microdata for missing fields, errors, and best-practice warnings.",
+    urlLabel: "Page URL",
+    urlPlaceholder: "e.g. https://yourstore.com/products/example",
+    checkButton: "Validate Schema",
+    checkingButton: "Validating...",
+    typesFound: "Schema Types Found",
+    errorsFound: "Errors Found",
+    noSchemaFound: "No structured data found on this page. Consider adding JSON-LD schema markup to improve search visibility.",
+    jsonLdTitle: "JSON-LD Structured Data",
+    microdataTitle: "Microdata",
+    fieldsLabel: "Fields",
+    errorsLabel: "Errors",
+    warningsLabel: "Warnings",
+    typeLabel: "Type",
+    errorEmpty: "Please enter a URL.",
+    errorInvalid: "Please enter a valid URL.",
+    errorFetch: "Could not fetch the page. Please check the URL and try again.",
+    ctaBottom: "Need help with structured data?",
+    ctaBottomDesc: "Our team implements Product, Organization, FAQ, and Breadcrumb schema across your entire site — for rich snippets at scale.",
+    ctaBottomButton: "Get a Free Strategy Call",
+    features: [
+      "Validates JSON-LD structured data blocks",
+      "Detects Microdata (itemtype / itemprop) markup",
+      "Checks required fields for Product, Organization, Article & more",
+      "Warns about missing recommended fields",
+      "Shows all schema types found on the page",
+      "No login required",
+    ],
+    howItWorksTitle: "How It Works",
+    howItWorksSteps: [
+      { title: "Enter a URL", desc: "Paste the URL of the page you want to validate." },
+      { title: "Extract & validate", desc: "We fetch the page, extract all JSON-LD and Microdata, and validate against known schema types." },
+      { title: "Review results", desc: "See each schema type with its fields, errors, and warnings at a glance." },
+    ],
+    faqTitle: "Frequently Asked Questions",
+    faqs: [
+      { q: "What is JSON-LD?", a: "JSON-LD (JavaScript Object Notation for Linked Data) is the recommended format by Google for adding structured data to web pages. It lives inside a <script> tag and does not affect visible content." },
+      { q: "What is Microdata?", a: "Microdata uses HTML attributes (itemscope, itemtype, itemprop) to embed structured data directly into page content. It is an older format but still supported by search engines." },
+      { q: "Which schema types are validated?", a: "We validate common types including Product, Organization, LocalBusiness, Article, BlogPosting, FAQPage, BreadcrumbList, Event, Review, Recipe, VideoObject, HowTo, and more." },
+      { q: "Does valid schema guarantee rich snippets?", a: "Valid structured data increases your chances of rich snippets, but Google decides when and if to show them. Correct markup is a prerequisite." },
+    ],
+  },
+  de: {
+    badge: "Kostenloses SEO-Tool",
+    heading: "Schema-Markup-Validator",
+    subtitle: "Validieren Sie die strukturierten Daten auf jeder Seite. Pruefen Sie JSON-LD und Microdata auf fehlende Felder, Fehler und Best-Practice-Warnungen.",
+    urlLabel: "Seiten-URL",
+    urlPlaceholder: "z.B. https://ihrshop.de/produkte/beispiel",
+    checkButton: "Schema validieren",
+    checkingButton: "Wird validiert...",
+    typesFound: "Gefundene Schema-Typen",
+    errorsFound: "Gefundene Fehler",
+    noSchemaFound: "Keine strukturierten Daten auf dieser Seite gefunden. Erwaegen Sie das Hinzufuegen von JSON-LD-Schema-Markup, um die Sichtbarkeit in der Suche zu verbessern.",
+    jsonLdTitle: "JSON-LD Strukturierte Daten",
+    microdataTitle: "Microdata",
+    fieldsLabel: "Felder",
+    errorsLabel: "Fehler",
+    warningsLabel: "Warnungen",
+    typeLabel: "Typ",
+    errorEmpty: "Bitte geben Sie eine URL ein.",
+    errorInvalid: "Bitte geben Sie eine gueltige URL ein.",
+    errorFetch: "Die Seite konnte nicht abgerufen werden. Bitte ueberpruefen Sie die URL und versuchen Sie es erneut.",
+    ctaBottom: "Hilfe bei strukturierten Daten benoetigt?",
+    ctaBottomDesc: "Unser Team implementiert Produkt-, Organisations-, FAQ- und Breadcrumb-Schema auf Ihrer gesamten Website -- fuer Rich Snippets in grossem Massstab.",
+    ctaBottomButton: "Kostenloses Strategiegespraech",
+    features: [
+      "Validiert JSON-LD-Strukturdatenbloecke",
+      "Erkennt Microdata (itemtype / itemprop) Markup",
+      "Prueft erforderliche Felder fuer Product, Organization, Article & mehr",
+      "Warnt bei fehlenden empfohlenen Feldern",
+      "Zeigt alle auf der Seite gefundenen Schema-Typen",
+      "Keine Registrierung erforderlich",
+    ],
+    howItWorksTitle: "So funktioniert es",
+    howItWorksSteps: [
+      { title: "URL eingeben", desc: "Fuegen Sie die URL der zu validierenden Seite ein." },
+      { title: "Extrahieren & validieren", desc: "Wir rufen die Seite ab, extrahieren alle JSON-LD- und Microdata-Bloecke und validieren gegen bekannte Schema-Typen." },
+      { title: "Ergebnisse ansehen", desc: "Sehen Sie jeden Schema-Typ mit seinen Feldern, Fehlern und Warnungen auf einen Blick." },
+    ],
+    faqTitle: "Haeufig gestellte Fragen",
+    faqs: [
+      { q: "Was ist JSON-LD?", a: "JSON-LD (JavaScript Object Notation for Linked Data) ist das von Google empfohlene Format zum Hinzufuegen strukturierter Daten auf Webseiten. Es befindet sich in einem <script>-Tag und beeinflusst den sichtbaren Inhalt nicht." },
+      { q: "Was ist Microdata?", a: "Microdata verwendet HTML-Attribute (itemscope, itemtype, itemprop), um strukturierte Daten direkt in den Seiteninhalt einzubetten. Es ist ein aelteres Format, wird aber weiterhin von Suchmaschinen unterstuetzt." },
+      { q: "Welche Schema-Typen werden validiert?", a: "Wir validieren gaengige Typen wie Product, Organization, LocalBusiness, Article, BlogPosting, FAQPage, BreadcrumbList, Event, Review, Recipe, VideoObject, HowTo und mehr." },
+      { q: "Garantiert gueltiges Schema Rich Snippets?", a: "Gueltige strukturierte Daten erhoehen Ihre Chancen auf Rich Snippets, aber Google entscheidet, wann und ob diese angezeigt werden. Korrektes Markup ist eine Voraussetzung." },
+    ],
+  },
+  fr: {
+    badge: "Outil SEO gratuit",
+    heading: "Validateur de balisage Schema",
+    subtitle: "Validez les donnees structurees de n'importe quelle page. Verifiez le JSON-LD et les Microdata pour les champs manquants, les erreurs et les avertissements.",
+    urlLabel: "URL de la page",
+    urlPlaceholder: "ex. https://votreboutique.fr/produits/exemple",
+    checkButton: "Valider le Schema",
+    checkingButton: "Validation en cours...",
+    typesFound: "Types Schema trouves",
+    errorsFound: "Erreurs trouvees",
+    noSchemaFound: "Aucune donnee structuree trouvee sur cette page. Envisagez d'ajouter du balisage JSON-LD pour ameliorer la visibilite dans les recherches.",
+    jsonLdTitle: "Donnees structurees JSON-LD",
+    microdataTitle: "Microdata",
+    fieldsLabel: "Champs",
+    errorsLabel: "Erreurs",
+    warningsLabel: "Avertissements",
+    typeLabel: "Type",
+    errorEmpty: "Veuillez entrer une URL.",
+    errorInvalid: "Veuillez entrer une URL valide.",
+    errorFetch: "Impossible de recuperer la page. Verifiez l'URL et reessayez.",
+    ctaBottom: "Besoin d'aide avec les donnees structurees ?",
+    ctaBottomDesc: "Notre equipe implemente les schemas Product, Organization, FAQ et Breadcrumb sur l'ensemble de votre site -- pour des rich snippets a grande echelle.",
+    ctaBottomButton: "Appel strategique gratuit",
+    features: [
+      "Valide les blocs de donnees structurees JSON-LD",
+      "Detecte le balisage Microdata (itemtype / itemprop)",
+      "Verifie les champs obligatoires pour Product, Organization, Article et plus",
+      "Avertit des champs recommandes manquants",
+      "Affiche tous les types de schema trouves sur la page",
+      "Aucune inscription requise",
+    ],
+    howItWorksTitle: "Comment ca marche",
+    howItWorksSteps: [
+      { title: "Entrez une URL", desc: "Collez l'URL de la page que vous souhaitez valider." },
+      { title: "Extraction et validation", desc: "Nous recuperons la page, extrayons tous les JSON-LD et Microdata, et validons selon les types de schema connus." },
+      { title: "Consultez les resultats", desc: "Voyez chaque type de schema avec ses champs, erreurs et avertissements en un coup d'oeil." },
+    ],
+    faqTitle: "Questions frequemment posees",
+    faqs: [
+      { q: "Qu'est-ce que JSON-LD ?", a: "JSON-LD (JavaScript Object Notation for Linked Data) est le format recommande par Google pour ajouter des donnees structurees aux pages web. Il se place dans une balise <script> et n'affecte pas le contenu visible." },
+      { q: "Qu'est-ce que les Microdata ?", a: "Les Microdata utilisent des attributs HTML (itemscope, itemtype, itemprop) pour integrer des donnees structurees directement dans le contenu de la page. C'est un format plus ancien mais toujours supporte par les moteurs de recherche." },
+      { q: "Quels types de schema sont valides ?", a: "Nous validons les types courants : Product, Organization, LocalBusiness, Article, BlogPosting, FAQPage, BreadcrumbList, Event, Review, Recipe, VideoObject, HowTo et plus." },
+      { q: "Un schema valide garantit-il les rich snippets ?", a: "Des donnees structurees valides augmentent vos chances d'obtenir des rich snippets, mais Google decide quand et si les afficher. Un balisage correct est un prerequis." },
+    ],
+  },
+  es: {
+    badge: "Herramienta SEO gratuita",
+    heading: "Validador de Schema Markup",
+    subtitle: "Valida los datos estructurados de cualquier pagina. Comprueba JSON-LD y Microdata en busca de campos faltantes, errores y advertencias.",
+    urlLabel: "URL de la pagina",
+    urlPlaceholder: "ej. https://tutienda.es/productos/ejemplo",
+    checkButton: "Validar Schema",
+    checkingButton: "Validando...",
+    typesFound: "Tipos de Schema encontrados",
+    errorsFound: "Errores encontrados",
+    noSchemaFound: "No se encontraron datos estructurados en esta pagina. Considere agregar marcado JSON-LD para mejorar la visibilidad en busquedas.",
+    jsonLdTitle: "Datos estructurados JSON-LD",
+    microdataTitle: "Microdata",
+    fieldsLabel: "Campos",
+    errorsLabel: "Errores",
+    warningsLabel: "Advertencias",
+    typeLabel: "Tipo",
+    errorEmpty: "Por favor, introduzca una URL.",
+    errorInvalid: "Por favor, introduzca una URL valida.",
+    errorFetch: "No se pudo obtener la pagina. Verifique la URL e intentelo de nuevo.",
+    ctaBottom: "Necesita ayuda con datos estructurados?",
+    ctaBottomDesc: "Nuestro equipo implementa esquemas de Product, Organization, FAQ y Breadcrumb en todo su sitio, para rich snippets a escala.",
+    ctaBottomButton: "Llamada estrategica gratuita",
+    features: [
+      "Valida bloques de datos estructurados JSON-LD",
+      "Detecta marcado Microdata (itemtype / itemprop)",
+      "Verifica campos obligatorios para Product, Organization, Article y mas",
+      "Advierte sobre campos recomendados faltantes",
+      "Muestra todos los tipos de schema encontrados en la pagina",
+      "Sin registro necesario",
+    ],
+    howItWorksTitle: "Como funciona",
+    howItWorksSteps: [
+      { title: "Ingrese una URL", desc: "Pegue la URL de la pagina que desea validar." },
+      { title: "Extraer y validar", desc: "Obtenemos la pagina, extraemos todos los JSON-LD y Microdata, y validamos contra tipos de schema conocidos." },
+      { title: "Revise los resultados", desc: "Vea cada tipo de schema con sus campos, errores y advertencias de un vistazo." },
+    ],
+    faqTitle: "Preguntas frecuentes",
+    faqs: [
+      { q: "Que es JSON-LD?", a: "JSON-LD (JavaScript Object Notation for Linked Data) es el formato recomendado por Google para agregar datos estructurados a paginas web. Se coloca dentro de una etiqueta <script> y no afecta al contenido visible." },
+      { q: "Que es Microdata?", a: "Microdata utiliza atributos HTML (itemscope, itemtype, itemprop) para incrustar datos estructurados directamente en el contenido de la pagina. Es un formato mas antiguo pero sigue siendo compatible con los motores de busqueda." },
+      { q: "Que tipos de schema se validan?", a: "Validamos tipos comunes como Product, Organization, LocalBusiness, Article, BlogPosting, FAQPage, BreadcrumbList, Event, Review, Recipe, VideoObject, HowTo y mas." },
+      { q: "Un schema valido garantiza rich snippets?", a: "Los datos estructurados validos aumentan sus posibilidades de obtener rich snippets, pero Google decide cuando y si mostrarlos. Un marcado correcto es un requisito previo." },
+    ],
+  },
+  it: {
+    badge: "Strumento SEO gratuito",
+    heading: "Validatore Schema Markup",
+    subtitle: "Valida i dati strutturati di qualsiasi pagina. Controlla JSON-LD e Microdata per campi mancanti, errori e avvisi sulle best practice.",
+    urlLabel: "URL della pagina",
+    urlPlaceholder: "es. https://tuonegozio.it/prodotti/esempio",
+    checkButton: "Valida Schema",
+    checkingButton: "Validazione in corso...",
+    typesFound: "Tipi di Schema trovati",
+    errorsFound: "Errori trovati",
+    noSchemaFound: "Nessun dato strutturato trovato in questa pagina. Considera l'aggiunta di markup JSON-LD per migliorare la visibilita nella ricerca.",
+    jsonLdTitle: "Dati strutturati JSON-LD",
+    microdataTitle: "Microdata",
+    fieldsLabel: "Campi",
+    errorsLabel: "Errori",
+    warningsLabel: "Avvisi",
+    typeLabel: "Tipo",
+    errorEmpty: "Inserisci un URL.",
+    errorInvalid: "Inserisci un URL valido.",
+    errorFetch: "Impossibile recuperare la pagina. Controlla l'URL e riprova.",
+    ctaBottom: "Hai bisogno di aiuto con i dati strutturati?",
+    ctaBottomDesc: "Il nostro team implementa schema Product, Organization, FAQ e Breadcrumb in tutto il tuo sito -- per rich snippet su larga scala.",
+    ctaBottomButton: "Chiamata strategica gratuita",
+    features: [
+      "Valida i blocchi di dati strutturati JSON-LD",
+      "Rileva il markup Microdata (itemtype / itemprop)",
+      "Controlla i campi obbligatori per Product, Organization, Article e altri",
+      "Avvisa sui campi raccomandati mancanti",
+      "Mostra tutti i tipi di schema trovati nella pagina",
+      "Nessuna registrazione richiesta",
+    ],
+    howItWorksTitle: "Come funziona",
+    howItWorksSteps: [
+      { title: "Inserisci un URL", desc: "Incolla l'URL della pagina che vuoi validare." },
+      { title: "Estrai e valida", desc: "Recuperiamo la pagina, estraiamo tutti i JSON-LD e Microdata e validiamo rispetto ai tipi di schema conosciuti." },
+      { title: "Controlla i risultati", desc: "Visualizza ogni tipo di schema con i suoi campi, errori e avvisi a colpo d'occhio." },
+    ],
+    faqTitle: "Domande frequenti",
+    faqs: [
+      { q: "Cos'e il JSON-LD?", a: "JSON-LD (JavaScript Object Notation for Linked Data) e il formato raccomandato da Google per aggiungere dati strutturati alle pagine web. Si inserisce in un tag <script> e non influenza il contenuto visibile." },
+      { q: "Cosa sono i Microdata?", a: "I Microdata utilizzano attributi HTML (itemscope, itemtype, itemprop) per incorporare dati strutturati direttamente nel contenuto della pagina. E un formato piu vecchio ma ancora supportato dai motori di ricerca." },
+      { q: "Quali tipi di schema vengono validati?", a: "Validiamo tipi comuni come Product, Organization, LocalBusiness, Article, BlogPosting, FAQPage, BreadcrumbList, Event, Review, Recipe, VideoObject, HowTo e altri." },
+      { q: "Uno schema valido garantisce i rich snippet?", a: "I dati strutturati validi aumentano le possibilita di ottenere rich snippet, ma Google decide quando e se mostrarli. Un markup corretto e un prerequisito." },
+    ],
+  },
+  nl: {
+    badge: "Gratis SEO-tool",
+    heading: "Schema Markup Validator",
+    subtitle: "Valideer de gestructureerde data op elke pagina. Controleer JSON-LD en Microdata op ontbrekende velden, fouten en best-practice-waarschuwingen.",
+    urlLabel: "Pagina-URL",
+    urlPlaceholder: "bijv. https://jouwwinkel.nl/producten/voorbeeld",
+    checkButton: "Schema valideren",
+    checkingButton: "Wordt gevalideerd...",
+    typesFound: "Gevonden Schema-typen",
+    errorsFound: "Gevonden fouten",
+    noSchemaFound: "Geen gestructureerde data gevonden op deze pagina. Overweeg JSON-LD schema-markup toe te voegen om de zichtbaarheid in zoekmachines te verbeteren.",
+    jsonLdTitle: "JSON-LD Gestructureerde Data",
+    microdataTitle: "Microdata",
+    fieldsLabel: "Velden",
+    errorsLabel: "Fouten",
+    warningsLabel: "Waarschuwingen",
+    typeLabel: "Type",
+    errorEmpty: "Voer een URL in.",
+    errorInvalid: "Voer een geldige URL in.",
+    errorFetch: "Kon de pagina niet ophalen. Controleer de URL en probeer opnieuw.",
+    ctaBottom: "Hulp nodig met gestructureerde data?",
+    ctaBottomDesc: "Ons team implementeert Product-, Organisation-, FAQ- en Breadcrumb-schema op je hele website -- voor rich snippets op schaal.",
+    ctaBottomButton: "Gratis strategiegesprek",
+    features: [
+      "Valideert JSON-LD gestructureerde datablokken",
+      "Detecteert Microdata (itemtype / itemprop) markup",
+      "Controleert verplichte velden voor Product, Organization, Article en meer",
+      "Waarschuwt bij ontbrekende aanbevolen velden",
+      "Toont alle gevonden schema-typen op de pagina",
+      "Geen registratie vereist",
+    ],
+    howItWorksTitle: "Hoe het werkt",
+    howItWorksSteps: [
+      { title: "Voer een URL in", desc: "Plak de URL van de pagina die je wilt valideren." },
+      { title: "Extraheer en valideer", desc: "We halen de pagina op, extraheren alle JSON-LD en Microdata en valideren tegen bekende schema-typen." },
+      { title: "Bekijk resultaten", desc: "Bekijk elk schema-type met zijn velden, fouten en waarschuwingen in een oogopslag." },
+    ],
+    faqTitle: "Veelgestelde vragen",
+    faqs: [
+      { q: "Wat is JSON-LD?", a: "JSON-LD (JavaScript Object Notation for Linked Data) is het door Google aanbevolen formaat voor het toevoegen van gestructureerde data aan webpagina's. Het bevindt zich in een <script>-tag en beinvloedt de zichtbare inhoud niet." },
+      { q: "Wat zijn Microdata?", a: "Microdata gebruikt HTML-attributen (itemscope, itemtype, itemprop) om gestructureerde data direct in de pagina-inhoud in te bedden. Het is een ouder formaat maar wordt nog steeds ondersteund door zoekmachines." },
+      { q: "Welke schema-typen worden gevalideerd?", a: "We valideren veelgebruikte typen zoals Product, Organization, LocalBusiness, Article, BlogPosting, FAQPage, BreadcrumbList, Event, Review, Recipe, VideoObject, HowTo en meer." },
+      { q: "Garandeert geldig schema rich snippets?", a: "Geldige gestructureerde data vergroot je kansen op rich snippets, maar Google beslist wanneer en of ze worden weergegeven. Correcte markup is een vereiste." },
+    ],
+  },
+};
+
+/* ─────────────────────────── Redirect Checker ─────────────────────────── */
+
+export interface RedirectCheckerTranslation {
+  badge: string;
+  heading: string;
+  subtitle: string;
+  urlsLabel: string;
+  urlsPlaceholder: string;
+  checkButton: string;
+  checkingButton: string;
+  pagesChecked: string;
+  issuesFound: string;
+  noRedirects: string;
+  redirectChain: string;
+  redirectLoop: string;
+  fetchError: string;
+  statusCode: string;
+  finalDestination: string;
+  hops: string;
+  errorEmpty: string;
+  errorTooMany: string;
+  errorInvalid: string;
+  errorFetch: string;
+  ctaBottom: string;
+  ctaBottomDesc: string;
+  ctaBottomButton: string;
+  features: string[];
+  howItWorksTitle: string;
+  howItWorksSteps: { title: string; desc: string }[];
+  faqTitle: string;
+  faqs: { q: string; a: string }[];
+}
+
+export const redirectCheckerT: Record<Locale, RedirectCheckerTranslation> = {
+  en: {
+    badge: "Free Tool",
+    heading: "Redirect Chain Checker",
+    subtitle: "Detect redirect chains, loops, and broken redirect paths. See the full redirect path with HTTP status codes for each hop.",
+    urlsLabel: "Enter URLs (one per line, max 20)",
+    urlsPlaceholder: "https://example.com/old-page\nhttps://example.com/moved-page\nhttps://example.com/product-123",
+    checkButton: "Check Redirects",
+    checkingButton: "Checking...",
+    pagesChecked: "Pages Checked",
+    issuesFound: "Issues Found",
+    noRedirects: "No Redirect",
+    redirectChain: "Redirect Chain",
+    redirectLoop: "Redirect Loop",
+    fetchError: "Fetch Error",
+    statusCode: "Status",
+    finalDestination: "Final Destination",
+    hops: "hops",
+    errorEmpty: "Please enter at least one URL.",
+    errorTooMany: "Maximum 20 URLs at a time.",
+    errorInvalid: "One or more URLs are invalid.",
+    errorFetch: "Some pages could not be checked. Please try again.",
+    ctaBottom: "Need help fixing redirect issues?",
+    ctaBottomDesc: "Our team specializes in site migrations and redirect cleanup for ecommerce stores.",
+    ctaBottomButton: "Get a Free Consultation",
+    features: [
+      "Detects redirect chains that waste crawl budget",
+      "Identifies redirect loops that break pages",
+      "Shows full redirect path with HTTP status codes",
+      "Supports 301, 302, 307, and 308 redirects",
+      "Bulk check up to 20 URLs at once",
+      "No signup required — completely free",
+    ],
+    howItWorksTitle: "How It Works",
+    howItWorksSteps: [
+      { title: "Paste your URLs", desc: "Enter up to 20 URLs, one per line." },
+      { title: "We trace each redirect", desc: "We follow each redirect chain step by step, recording status codes." },
+      { title: "Review results", desc: "See chains, loops, and broken redirects at a glance with fix recommendations." },
+    ],
+    faqTitle: "Frequently Asked Questions",
+    faqs: [
+      { q: "What is a redirect chain?", a: "A redirect chain occurs when URL A redirects to URL B, which redirects to URL C. Each hop wastes crawl budget and dilutes link equity. Ideally, every redirect should go directly to the final destination." },
+      { q: "What is a redirect loop?", a: "A redirect loop is when redirects circle back to a previously visited URL, creating an infinite loop. Browsers will stop after a few attempts and show an error page." },
+      { q: "What's the difference between 301 and 302?", a: "A 301 is a permanent redirect that passes full link equity. A 302 is temporary and may not pass link equity. Use 301 for permanent URL changes." },
+      { q: "How many redirects are too many?", a: "Google recommends no more than 1 redirect hop. Each additional hop slows page load and can cause crawling issues. Fix chains by pointing directly to the final URL." },
+    ],
+  },
+  de: {
+    badge: "Kostenloses Tool",
+    heading: "Redirect-Ketten-Checker",
+    subtitle: "Erkennen Sie Redirect-Ketten, Schleifen und fehlerhafte Weiterleitungspfade. Sehen Sie den vollständigen Redirect-Pfad mit HTTP-Statuscodes.",
+    urlsLabel: "URLs eingeben (eine pro Zeile, max. 20)",
+    urlsPlaceholder: "https://beispiel.de/alte-seite\nhttps://beispiel.de/verschobene-seite",
+    checkButton: "Redirects prüfen",
+    checkingButton: "Prüfe...",
+    pagesChecked: "Geprüfte Seiten",
+    issuesFound: "Gefundene Probleme",
+    noRedirects: "Kein Redirect",
+    redirectChain: "Redirect-Kette",
+    redirectLoop: "Redirect-Schleife",
+    fetchError: "Abruffehler",
+    statusCode: "Status",
+    finalDestination: "Endziel",
+    hops: "Weiterleitungen",
+    errorEmpty: "Bitte geben Sie mindestens eine URL ein.",
+    errorTooMany: "Maximal 20 URLs gleichzeitig.",
+    errorInvalid: "Eine oder mehrere URLs sind ungültig.",
+    errorFetch: "Einige Seiten konnten nicht geprüft werden.",
+    ctaBottom: "Brauchen Sie Hilfe bei Redirect-Problemen?",
+    ctaBottomDesc: "Unser Team ist auf Website-Migrationen und Redirect-Bereinigung für E-Commerce-Shops spezialisiert.",
+    ctaBottomButton: "Kostenlose Beratung",
+    features: [
+      "Erkennt Redirect-Ketten, die Crawl-Budget verschwenden",
+      "Identifiziert Redirect-Schleifen, die Seiten beschädigen",
+      "Zeigt den vollständigen Redirect-Pfad mit HTTP-Statuscodes",
+      "Unterstützt 301-, 302-, 307- und 308-Redirects",
+      "Massenprüfung von bis zu 20 URLs gleichzeitig",
+      "Keine Registrierung erforderlich",
+    ],
+    howItWorksTitle: "So funktioniert es",
+    howItWorksSteps: [
+      { title: "URLs einfügen", desc: "Geben Sie bis zu 20 URLs ein, eine pro Zeile." },
+      { title: "Wir verfolgen jeden Redirect", desc: "Wir folgen jeder Redirect-Kette Schritt für Schritt." },
+      { title: "Ergebnisse prüfen", desc: "Sehen Sie Ketten, Schleifen und fehlerhafte Redirects auf einen Blick." },
+    ],
+    faqTitle: "Häufig gestellte Fragen",
+    faqs: [
+      { q: "Was ist eine Redirect-Kette?", a: "Eine Redirect-Kette entsteht, wenn URL A zu URL B weiterleitet, die zu URL C weiterleitet. Jeder Hop verschwendet Crawl-Budget. Idealerweise sollte jeder Redirect direkt zum Endziel führen." },
+      { q: "Was ist eine Redirect-Schleife?", a: "Eine Redirect-Schleife entsteht, wenn Weiterleitungen zu einer bereits besuchten URL zurückkehren. Browser stoppen nach einigen Versuchen und zeigen eine Fehlerseite." },
+      { q: "Was ist der Unterschied zwischen 301 und 302?", a: "Ein 301 ist eine permanente Weiterleitung, die Link-Equity weitergibt. Ein 302 ist temporär. Verwenden Sie 301 für dauerhafte URL-Änderungen." },
+      { q: "Wie viele Redirects sind zu viele?", a: "Google empfiehlt höchstens 1 Redirect-Hop. Jeder zusätzliche Hop verlangsamt die Seite. Beheben Sie Ketten, indem Sie direkt auf die End-URL verweisen." },
+    ],
+  },
+  fr: {
+    badge: "Outil Gratuit",
+    heading: "Vérificateur de Chaînes de Redirection",
+    subtitle: "Détectez les chaînes de redirection, boucles et chemins cassés. Voyez le chemin complet avec les codes de statut HTTP.",
+    urlsLabel: "Entrez les URLs (une par ligne, max 20)",
+    urlsPlaceholder: "https://exemple.fr/ancienne-page\nhttps://exemple.fr/page-deplacee",
+    checkButton: "Vérifier les redirections",
+    checkingButton: "Vérification...",
+    pagesChecked: "Pages vérifiées",
+    issuesFound: "Problèmes trouvés",
+    noRedirects: "Pas de redirection",
+    redirectChain: "Chaîne de redirection",
+    redirectLoop: "Boucle de redirection",
+    fetchError: "Erreur de récupération",
+    statusCode: "Statut",
+    finalDestination: "Destination finale",
+    hops: "sauts",
+    errorEmpty: "Veuillez entrer au moins une URL.",
+    errorTooMany: "Maximum 20 URLs à la fois.",
+    errorInvalid: "Une ou plusieurs URLs sont invalides.",
+    errorFetch: "Certaines pages n'ont pas pu être vérifiées.",
+    ctaBottom: "Besoin d'aide avec les redirections ?",
+    ctaBottomDesc: "Notre équipe est spécialisée dans les migrations de sites et le nettoyage des redirections pour les boutiques e-commerce.",
+    ctaBottomButton: "Consultation Gratuite",
+    features: [
+      "Détecte les chaînes de redirection qui gaspillent le budget de crawl",
+      "Identifie les boucles de redirection qui cassent les pages",
+      "Montre le chemin complet avec les codes HTTP",
+      "Supporte les redirections 301, 302, 307 et 308",
+      "Vérification en masse jusqu'à 20 URLs",
+      "Sans inscription — entièrement gratuit",
+    ],
+    howItWorksTitle: "Comment ça marche",
+    howItWorksSteps: [
+      { title: "Collez vos URLs", desc: "Entrez jusqu'à 20 URLs, une par ligne." },
+      { title: "Nous traçons chaque redirection", desc: "Nous suivons chaque chaîne de redirection étape par étape." },
+      { title: "Consultez les résultats", desc: "Voyez les chaînes, boucles et redirections cassées d'un coup d'œil." },
+    ],
+    faqTitle: "Questions Fréquentes",
+    faqs: [
+      { q: "Qu'est-ce qu'une chaîne de redirection ?", a: "Une chaîne de redirection se produit quand l'URL A redirige vers B, qui redirige vers C. Chaque saut gaspille du budget de crawl. Idéalement, chaque redirection devrait aller directement à la destination finale." },
+      { q: "Qu'est-ce qu'une boucle de redirection ?", a: "Une boucle de redirection se produit quand les redirections reviennent à une URL déjà visitée, créant une boucle infinie." },
+      { q: "Quelle différence entre 301 et 302 ?", a: "Un 301 est une redirection permanente qui transmet l'equity de lien. Un 302 est temporaire. Utilisez 301 pour les changements d'URL permanents." },
+      { q: "Combien de redirections sont trop ?", a: "Google recommande au maximum 1 saut de redirection. Chaque saut supplémentaire ralentit la page. Corrigez les chaînes en pointant directement vers l'URL finale." },
+    ],
+  },
+  es: {
+    badge: "Herramienta Gratuita",
+    heading: "Verificador de Cadenas de Redirección",
+    subtitle: "Detecta cadenas de redirección, bucles y rutas rotas. Ve la ruta completa con códigos de estado HTTP.",
+    urlsLabel: "Introduce URLs (una por línea, máx. 20)",
+    urlsPlaceholder: "https://ejemplo.es/pagina-antigua\nhttps://ejemplo.es/pagina-movida",
+    checkButton: "Verificar redirecciones",
+    checkingButton: "Verificando...",
+    pagesChecked: "Páginas verificadas",
+    issuesFound: "Problemas encontrados",
+    noRedirects: "Sin redirección",
+    redirectChain: "Cadena de redirección",
+    redirectLoop: "Bucle de redirección",
+    fetchError: "Error de obtención",
+    statusCode: "Estado",
+    finalDestination: "Destino final",
+    hops: "saltos",
+    errorEmpty: "Por favor, introduce al menos una URL.",
+    errorTooMany: "Máximo 20 URLs a la vez.",
+    errorInvalid: "Una o más URLs son inválidas.",
+    errorFetch: "Algunas páginas no pudieron ser verificadas.",
+    ctaBottom: "¿Necesitas ayuda con problemas de redirección?",
+    ctaBottomDesc: "Nuestro equipo se especializa en migraciones de sitios y limpieza de redirecciones para tiendas e-commerce.",
+    ctaBottomButton: "Consulta Gratuita",
+    features: [
+      "Detecta cadenas de redirección que desperdician presupuesto de rastreo",
+      "Identifica bucles de redirección que rompen páginas",
+      "Muestra la ruta completa con códigos HTTP",
+      "Soporta redirecciones 301, 302, 307 y 308",
+      "Verificación masiva de hasta 20 URLs",
+      "Sin registro — completamente gratuito",
+    ],
+    howItWorksTitle: "Cómo Funciona",
+    howItWorksSteps: [
+      { title: "Pega tus URLs", desc: "Introduce hasta 20 URLs, una por línea." },
+      { title: "Rastreamos cada redirección", desc: "Seguimos cada cadena de redirección paso a paso." },
+      { title: "Revisa resultados", desc: "Ve cadenas, bucles y redirecciones rotas de un vistazo." },
+    ],
+    faqTitle: "Preguntas Frecuentes",
+    faqs: [
+      { q: "¿Qué es una cadena de redirección?", a: "Una cadena se produce cuando la URL A redirige a B, que redirige a C. Cada salto desperdicia presupuesto de rastreo. Idealmente, cada redirección debería ir directamente al destino final." },
+      { q: "¿Qué es un bucle de redirección?", a: "Un bucle se produce cuando las redirecciones regresan a una URL ya visitada, creando un ciclo infinito." },
+      { q: "¿Cuál es la diferencia entre 301 y 302?", a: "Un 301 es permanente y pasa equity de enlace. Un 302 es temporal. Usa 301 para cambios de URL permanentes." },
+      { q: "¿Cuántas redirecciones son demasiadas?", a: "Google recomienda máximo 1 salto de redirección. Cada salto adicional ralentiza la página. Corrige las cadenas apuntando directamente a la URL final." },
+    ],
+  },
+  it: {
+    badge: "Strumento Gratuito",
+    heading: "Verificatore Catene di Redirect",
+    subtitle: "Rileva catene di redirect, loop e percorsi interrotti. Vedi il percorso completo con codici di stato HTTP.",
+    urlsLabel: "Inserisci URL (uno per riga, max 20)",
+    urlsPlaceholder: "https://esempio.it/vecchia-pagina\nhttps://esempio.it/pagina-spostata",
+    checkButton: "Verifica redirect",
+    checkingButton: "Verifica in corso...",
+    pagesChecked: "Pagine verificate",
+    issuesFound: "Problemi trovati",
+    noRedirects: "Nessun redirect",
+    redirectChain: "Catena di redirect",
+    redirectLoop: "Loop di redirect",
+    fetchError: "Errore di recupero",
+    statusCode: "Stato",
+    finalDestination: "Destinazione finale",
+    hops: "salti",
+    errorEmpty: "Inserisci almeno un URL.",
+    errorTooMany: "Massimo 20 URL alla volta.",
+    errorInvalid: "Uno o più URL non sono validi.",
+    errorFetch: "Alcune pagine non sono state verificate.",
+    ctaBottom: "Hai bisogno di aiuto con i redirect?",
+    ctaBottomDesc: "Il nostro team è specializzato in migrazioni di siti e pulizia dei redirect per negozi e-commerce.",
+    ctaBottomButton: "Consulenza Gratuita",
+    features: [
+      "Rileva catene di redirect che sprecano budget di crawl",
+      "Identifica loop di redirect che rompono le pagine",
+      "Mostra il percorso completo con codici HTTP",
+      "Supporta redirect 301, 302, 307 e 308",
+      "Verifica massiva fino a 20 URL",
+      "Senza registrazione — completamente gratuito",
+    ],
+    howItWorksTitle: "Come Funziona",
+    howItWorksSteps: [
+      { title: "Incolla i tuoi URL", desc: "Inserisci fino a 20 URL, uno per riga." },
+      { title: "Tracciamo ogni redirect", desc: "Seguiamo ogni catena di redirect passo dopo passo." },
+      { title: "Consulta i risultati", desc: "Vedi catene, loop e redirect interrotti a colpo d'occhio." },
+    ],
+    faqTitle: "Domande Frequenti",
+    faqs: [
+      { q: "Cos'è una catena di redirect?", a: "Una catena si verifica quando l'URL A reindirizza a B, che reindirizza a C. Ogni salto spreca budget di crawl. Idealmente, ogni redirect dovrebbe andare direttamente alla destinazione finale." },
+      { q: "Cos'è un loop di redirect?", a: "Un loop si verifica quando i redirect tornano a un URL già visitato, creando un ciclo infinito." },
+      { q: "Qual è la differenza tra 301 e 302?", a: "Un 301 è permanente e trasferisce l'equity del link. Un 302 è temporaneo. Usa 301 per cambiamenti permanenti di URL." },
+      { q: "Quanti redirect sono troppi?", a: "Google raccomanda massimo 1 salto di redirect. Ogni salto aggiuntivo rallenta la pagina. Correggi le catene puntando direttamente all'URL finale." },
+    ],
+  },
+  nl: {
+    badge: "Gratis Tool",
+    heading: "Redirect Keten Checker",
+    subtitle: "Detecteer redirect-ketens, lussen en kapotte doorverwijzingspaden. Bekijk het volledige redirect-pad met HTTP-statuscodes.",
+    urlsLabel: "Voer URL's in (één per regel, max 20)",
+    urlsPlaceholder: "https://voorbeeld.nl/oude-pagina\nhttps://voorbeeld.nl/verplaatste-pagina",
+    checkButton: "Redirects controleren",
+    checkingButton: "Controleren...",
+    pagesChecked: "Gecontroleerde pagina's",
+    issuesFound: "Gevonden problemen",
+    noRedirects: "Geen redirect",
+    redirectChain: "Redirect-keten",
+    redirectLoop: "Redirect-lus",
+    fetchError: "Ophaalfout",
+    statusCode: "Status",
+    finalDestination: "Eindbestemming",
+    hops: "sprongen",
+    errorEmpty: "Voer ten minste één URL in.",
+    errorTooMany: "Maximaal 20 URL's tegelijk.",
+    errorInvalid: "Een of meer URL's zijn ongeldig.",
+    errorFetch: "Sommige pagina's konden niet worden gecontroleerd.",
+    ctaBottom: "Hulp nodig bij redirect-problemen?",
+    ctaBottomDesc: "Ons team is gespecialiseerd in sitemigraties en redirect-opruiming voor e-commerce winkels.",
+    ctaBottomButton: "Gratis Adviesgesprek",
+    features: [
+      "Detecteert redirect-ketens die crawlbudget verspillen",
+      "Identificeert redirect-lussen die pagina's breken",
+      "Toont het volledige redirect-pad met HTTP-statuscodes",
+      "Ondersteunt 301-, 302-, 307- en 308-redirects",
+      "Bulkcontrole van maximaal 20 URL's",
+      "Geen registratie vereist — volledig gratis",
+    ],
+    howItWorksTitle: "Hoe het werkt",
+    howItWorksSteps: [
+      { title: "Plak je URL's", desc: "Voer maximaal 20 URL's in, één per regel." },
+      { title: "We volgen elke redirect", desc: "We volgen elke redirect-keten stap voor stap." },
+      { title: "Bekijk resultaten", desc: "Zie ketens, lussen en kapotte redirects in één oogopslag." },
+    ],
+    faqTitle: "Veelgestelde Vragen",
+    faqs: [
+      { q: "Wat is een redirect-keten?", a: "Een redirect-keten ontstaat wanneer URL A doorverwijst naar B, die doorverwijst naar C. Elke sprong verspilt crawlbudget. Idealiter gaat elke redirect direct naar de eindbestemming." },
+      { q: "Wat is een redirect-lus?", a: "Een redirect-lus ontstaat wanneer doorverwijzingen terugkeren naar een eerder bezochte URL, wat een oneindige lus creëert." },
+      { q: "Wat is het verschil tussen 301 en 302?", a: "Een 301 is permanent en geeft link-equity door. Een 302 is tijdelijk. Gebruik 301 voor permanente URL-wijzigingen." },
+      { q: "Hoeveel redirects zijn te veel?", a: "Google raadt maximaal 1 redirect-sprong aan. Elke extra sprong vertraagt de pagina. Los ketens op door direct naar de eind-URL te verwijzen." },
+    ],
   },
 };

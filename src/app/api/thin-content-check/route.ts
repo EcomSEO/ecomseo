@@ -10,7 +10,7 @@ interface ThinContentResult {
 
 function extractTextFromHtml(html: string): string {
   // Remove script, style, nav, header, footer, aside tags and their content
-  let text = html
+  const text = html
     .replace(/<script[^>]*>[\s\S]*?<\/script>/gi, " ")
     .replace(/<style[^>]*>[\s\S]*?<\/style>/gi, " ")
     .replace(/<nav[^>]*>[\s\S]*?<\/nav>/gi, " ")

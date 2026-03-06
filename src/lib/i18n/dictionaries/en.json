@@ -323,5 +323,15 @@
     "title": "Free Core Web Vitals Checker - LCP, CLS & INP | EcomSEO",
     "description": "Check LCP, CLS, and INP scores for mobile and desktop across multiple pages. Powered by Google PageSpeed Insights. Free bulk SEO performance tool.",
     "ogTitle": "Free Core Web Vitals Checker - LCP, CLS & INP Bulk Tool | EcomSEO"
+  },
+  "/tools/schema-validator": {
+    "title": "Free Schema Markup Validator - JSON-LD & Microdata | EcomSEO",
+    "description": "Validate structured data on any page. Check JSON-LD and Microdata for errors, missing fields, and Schema.org compliance. Free SEO tool.",
+    "ogTitle": "Free Schema Markup Validator - Check JSON-LD & Structured Data | EcomSEO"
+  },
+  "/tools/redirect-checker": {
+    "title": "Free Redirect Chain & Loop Checker | EcomSEO",
+    "description": "Detect redirect chains, loops, and broken redirect paths across multiple URLs. See full redirect paths with HTTP status codes. Free SEO tool.",
+    "ogTitle": "Free Redirect Chain Checker - Detect Loops & Chains | EcomSEO"
   }
 }

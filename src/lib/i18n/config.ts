@@ -183,4 +183,6 @@ export const staticRoutes = [
   "/tools/sitemap-comparison",
   "/tools/thin-content-checker",
   "/tools/core-web-vitals",
+  "/tools/schema-validator",
+  "/tools/redirect-checker",
 ];
