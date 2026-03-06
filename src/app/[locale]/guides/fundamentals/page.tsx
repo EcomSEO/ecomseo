@@ -142,7 +142,7 @@ export default async function FundamentalsPage({ params }: { params: Promise<{ l
                 <p className="text-body text-sm">
                   {t.nav.resourceLibrary}{" "}
                   <LocaleLink
-                    href="/resources/library"
+                    href="/guides"
                     className="text-accent hover:underline"
                   >
                     {t.nav.browseAll}

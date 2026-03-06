@@ -33,7 +33,7 @@ const articleImages = [
 const articleHrefs = [
   "/resources/shopify-on-page-checklist",
   "/resources/search-product-discovery",
-  "/resources/solutions",
+  "/resources/why-we-share",
 ];
 
 export default async function ResourcesPage({ params }: { params: Promise<{ locale: string }> }) {
@@ -200,7 +200,7 @@ export default async function ResourcesPage({ params }: { params: Promise<{ loca
               {library.body}
             </p>
             <div className="mt-2">
-              <Button href="/resources/library" variant="secondary" size="small">
+              <Button href="/guides" variant="secondary" size="small">
                 {library.cta}
               </Button>
             </div>

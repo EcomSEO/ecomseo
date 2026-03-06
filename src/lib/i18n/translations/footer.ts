@@ -26,7 +26,7 @@ export const footerTranslations: Record<Locale, {
     companyLinks: [
       { label: "Cases", href: "/cases" },
       { label: "Team", href: "/team" },
-      { label: "Resources", href: "/resources" },
+      { label: "Guides", href: "/guides" },
       { label: "Pricing", href: "/pricing" },
       { label: "FAQ", href: "/faq" },
     ],
@@ -52,7 +52,7 @@ export const footerTranslations: Record<Locale, {
     companyLinks: [
       { label: "Referenzen", href: "/cases" },
       { label: "Team", href: "/team" },
-      { label: "Ressourcen", href: "/resources" },
+      { label: "Leitfäden", href: "/guides" },
       { label: "Preise", href: "/pricing" },
       { label: "FAQ", href: "/faq" },
     ],
@@ -78,7 +78,7 @@ export const footerTranslations: Record<Locale, {
     companyLinks: [
       { label: "Études de cas", href: "/cases" },
       { label: "Équipe", href: "/team" },
-      { label: "Ressources", href: "/resources" },
+      { label: "Guides", href: "/guides" },
       { label: "Tarifs", href: "/pricing" },
       { label: "FAQ", href: "/faq" },
     ],
@@ -104,7 +104,7 @@ export const footerTranslations: Record<Locale, {
     companyLinks: [
       { label: "Casos de éxito", href: "/cases" },
       { label: "Equipo", href: "/team" },
-      { label: "Recursos", href: "/resources" },
+      { label: "Guías", href: "/guides" },
       { label: "Precios", href: "/pricing" },
       { label: "FAQ", href: "/faq" },
     ],
@@ -130,7 +130,7 @@ export const footerTranslations: Record<Locale, {
     companyLinks: [
       { label: "Casi studio", href: "/cases" },
       { label: "Team", href: "/team" },
-      { label: "Risorse", href: "/resources" },
+      { label: "Guide", href: "/guides" },
       { label: "Prezzi", href: "/pricing" },
       { label: "FAQ", href: "/faq" },
     ],
@@ -156,7 +156,7 @@ export const footerTranslations: Record<Locale, {
     companyLinks: [
       { label: "Cases", href: "/cases" },
       { label: "Team", href: "/team" },
-      { label: "Bronnen", href: "/resources" },
+      { label: "Gidsen", href: "/guides" },
       { label: "Prijzen", href: "/pricing" },
       { label: "FAQ", href: "/faq" },
     ],

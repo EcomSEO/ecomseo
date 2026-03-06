@@ -104,26 +104,6 @@
     "description": "Latest updates and new features added to the Ecommerce SEO Crash Course.",
     "ogTitle": "Performance Boost & New Features | Ecommerce SEO Crash Course"
   },
-  "/resources/library": {
-    "title": "Resource Library — Tools, Templates & Guides | EcomSEO",
-    "description": "The best ecommerce SEO resources on planet earth. Free tools, templates, and guides to audit and scale your organic presence.",
-    "ogTitle": "Resource Library — Tools, Templates & Guides | EcomSEO"
-  },
-  "/resources/library/on-page-checklist": {
-    "title": "On-Page SEO Fundamentals Checklist | EcomSEO Resource Library",
-    "description": "The absolute first thing we do when starting a new project. Free on-page SEO checklist for ecommerce stores.",
-    "ogTitle": "On-Page SEO Fundamentals Checklist | EcomSEO"
-  },
-  "/resources/library/roi-calculation-sheet": {
-    "title": "Ecommerce SEO ROI Calculation Sheet | EcomSEO Resource Library",
-    "description": "Free ROI calculation sheet to measure the impact of your ecommerce SEO efforts and forecast organic revenue growth.",
-    "ogTitle": "Ecommerce SEO ROI Calculation Sheet | EcomSEO"
-  },
-  "/resources/library/template": {
-    "title": "ABC Template | EcomSEO Resource Library",
-    "description": "Free ecommerce SEO template from EcomSEO. Download and use for your store's SEO optimization.",
-    "ogTitle": "ABC Template | EcomSEO Resource Library"
-  },
   "/resources/search-product-discovery": {
     "title": "AI Shopping — Get Your Products on LLMs Like ChatGPT | EcomSEO",
     "description": "Your products are invisible on AI. You can do something about it today. Perhaps the biggest opportunity in 2025.",
@@ -133,11 +113,6 @@
     "title": "Premium Shopify On-Page SEO Checklist | EcomSEO",
     "description": "We built a checklist for ecommerce brands on Shopify that want to rank higher in Google. This exact process helped our clients generate 8+ figures.",
     "ogTitle": "Premium Shopify On-Page SEO Checklist | EcomSEO"
-  },
-  "/resources/solutions": {
-    "title": "Solutions — Partners, References & Plugs | EcomSEO",
-    "description": "Partners, references and plugs that help you scale. We're building our network and are soon ready to make it publicly available.",
-    "ogTitle": "Solutions — Partners, References & Plugs | EcomSEO"
   },
   "/resources/why-we-share": {
     "title": "Why We Share So Much Knowledge | EcomSEO",

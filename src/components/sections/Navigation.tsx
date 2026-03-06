@@ -193,28 +193,6 @@ function ServiceGridTile({
   );
 }
 
-/* ─── Resource Tile ─── */
-
-function ResourceTile({
-  label,
-  desc,
-  href,
-}: {
-  label: string;
-  desc: string;
-  href: string;
-}) {
-  return (
-    <LocaleLink
-      href={href}
-      className="group flex flex-col gap-2 p-4 rounded-xl border border-white/[0.06] bg-white/[0.02] hover:bg-white/[0.05] hover:border-white/10 transition-all"
-    >
-      <span className="text-sm font-medium text-white">{label}</span>
-      <span className="text-xs text-white/40 leading-relaxed">{desc}</span>
-    </LocaleLink>
-  );
-}
-
 /* ─── Navigation ─── */
 
 export default function Navigation() {
@@ -297,22 +275,13 @@ export default function Navigation() {
                   </button>
                 </div>
 
-                {/* Resources Dropdown */}
-                <div
-                  className="relative"
-                  onMouseEnter={() => handleMouseEnter("resources")}
-                  onMouseLeave={handleMouseLeave}
+                {/* Guides Link */}
+                <LocaleLink
+                  href="/guides"
+                  className="text-sm text-white/56 hover:text-white transition-colors"
                 >
-                  <button className="flex items-center gap-1 text-sm text-white/56 hover:text-white transition-colors">
-                    {t.resources}
-                    <svg width="16" height="16" viewBox="0 0 256 256" fill="none">
-                      <path
-                        d="M213.66 101.66l-80 80a8 8 0 01-11.32 0l-80-80A8 8 0 0148 88h160a8 8 0 015.66 13.66z"
-                        fill="rgb(203, 213, 225)"
-                      />
-                    </svg>
-                  </button>
-                </div>
+                  {t.guides}
+                </LocaleLink>
 
                 {/* SEO Tools Link */}
                 <LocaleLink
@@ -484,22 +453,6 @@ export default function Navigation() {
             </div>
           )}
 
-          {/* ─── Resources Dropdown ─── */}
-          {openDropdown === "resources" && (
-            <div
-              className="hidden lg:block"
-              onMouseEnter={() => handleMouseEnter("resources")}
-              onMouseLeave={handleMouseLeave}
-            >
-              <div className="mx-auto max-w-[1200px] px-3 pb-8">
-                <div className="grid grid-cols-3 gap-5">
-                  {t.resourceLinks.map((r) => (
-                    <ResourceTile key={r.href} {...r} />
-                  ))}
-                </div>
-              </div>
-            </div>
-          )}
         </div>
 
         {/* ─── Mobile Menu ─── */}
@@ -563,47 +516,14 @@ export default function Navigation() {
               )}
             </div>
 
-            {/* Resources Accordion */}
-            <div className="border-b border-white/[0.06]">
-              <button
-                className="flex items-center justify-between w-full py-3 text-white/70"
-                onClick={() =>
-                  setMobileAccordion(
-                    mobileAccordion === "resources" ? null : "resources"
-                  )
-                }
-              >
-                <span>{t.resources}</span>
-                <svg
-                  width="16"
-                  height="16"
-                  viewBox="0 0 16 16"
-                  fill="none"
-                  className={`transition-transform ${mobileAccordion === "resources" ? "rotate-180" : ""}`}
-                >
-                  <path
-                    d="M4 6l4 4 4-4"
-                    stroke="currentColor"
-                    strokeWidth="1.5"
-                    strokeLinecap="round"
-                  />
-                </svg>
-              </button>
-              {mobileAccordion === "resources" && (
-                <div className="pl-4 pb-3 space-y-1">
-                  {t.resourceLinks.map((r) => (
-                    <LocaleLink
-                      key={r.href}
-                      href={r.href}
-                      className="block py-2 text-sm text-white/50 hover:text-white"
-                      onClick={() => setMobileOpen(false)}
-                    >
-                      {r.label}
-                    </LocaleLink>
-                  ))}
-                </div>
-              )}
-            </div>
+            {/* Guides Link */}
+            <LocaleLink
+              href="/guides"
+              className="block py-3 text-white/70 hover:text-white border-b border-white/[0.06]"
+              onClick={() => setMobileOpen(false)}
+            >
+              {t.guides}
+            </LocaleLink>
 
             {/* SEO Tools Link */}
             <LocaleLink

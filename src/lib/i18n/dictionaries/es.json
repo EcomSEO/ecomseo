@@ -104,26 +104,6 @@
     "description": "Ultimas actualizaciones y nuevas funciones anadidas al Curso Intensivo de SEO para Ecommerce.",
     "ogTitle": "Mejoras de Rendimiento y Nuevas Funciones | Curso Intensivo de SEO para Ecommerce"
   },
-  "/resources/library": {
-    "title": "Biblioteca de Recursos — Herramientas, Plantillas y Guias | EcomSEO",
-    "description": "Los mejores recursos de SEO para ecommerce del mundo. Herramientas, plantillas y guias gratuitas para auditar y escalar tu presencia organica.",
-    "ogTitle": "Biblioteca de Recursos — Herramientas, Plantillas y Guias | EcomSEO"
-  },
-  "/resources/library/on-page-checklist": {
-    "title": "Checklist de SEO On-Page Fundamental | Biblioteca de Recursos EcomSEO",
-    "description": "Lo primero que hacemos al comenzar un nuevo proyecto. Checklist gratuito de SEO on-page para tiendas de ecommerce.",
-    "ogTitle": "Checklist de SEO On-Page Fundamental | EcomSEO"
-  },
-  "/resources/library/roi-calculation-sheet": {
-    "title": "Hoja de Calculo de ROI para SEO en Ecommerce | Biblioteca de Recursos EcomSEO",
-    "description": "Hoja de calculo gratuita de ROI para medir el impacto de tus esfuerzos de SEO en ecommerce y proyectar el crecimiento de ingresos organicos.",
-    "ogTitle": "Hoja de Calculo de ROI para SEO en Ecommerce | EcomSEO"
-  },
-  "/resources/library/template": {
-    "title": "Plantilla ABC | Biblioteca de Recursos EcomSEO",
-    "description": "Plantilla gratuita de SEO para ecommerce de EcomSEO. Descargala y utilizala para optimizar el SEO de tu tienda.",
-    "ogTitle": "Plantilla ABC | Biblioteca de Recursos EcomSEO"
-  },
   "/resources/search-product-discovery": {
     "title": "AI Shopping — Haz que tus productos aparezcan en LLMs como ChatGPT | EcomSEO",
     "description": "Tus productos son invisibles en la AI. Puedes hacer algo al respecto hoy mismo. Posiblemente la mayor oportunidad de 2025.",
@@ -133,11 +113,6 @@
     "title": "Checklist Premium de SEO On-Page para Shopify | EcomSEO",
     "description": "Hemos creado un checklist para marcas de ecommerce en Shopify que quieren posicionarse mejor en Google. Este proceso exacto ha ayudado a nuestros clientes a generar mas de 8 cifras.",
     "ogTitle": "Checklist Premium de SEO On-Page para Shopify | EcomSEO"
-  },
-  "/resources/solutions": {
-    "title": "Soluciones — Partners, Referencias y Recomendaciones | EcomSEO",
-    "description": "Partners, referencias y recomendaciones que te ayudan a escalar. Estamos construyendo nuestra red y pronto estara disponible publicamente.",
-    "ogTitle": "Soluciones — Partners, Referencias y Recomendaciones | EcomSEO"
   },
   "/resources/why-we-share": {
     "title": "Por que compartimos tanto conocimiento | EcomSEO",
