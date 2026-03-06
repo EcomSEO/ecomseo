@@ -103,8 +103,6 @@ export default function Process() {
           transition={{ duration: 0.6 }}
         >
           <Badge text={t.badge} />
-          {/* Purple dot */}
-          <div className="w-2 h-2 rounded-full bg-accent -mb-1" />
           <h2 className="text-[32px] md:text-[48px] lg:text-[56px] font-medium leading-[1.1] tracking-[-0.02em] text-heading">
             {renderHeading(t.heading)}
           </h2>
