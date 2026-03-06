@@ -2,7 +2,7 @@
 
 import { useState, useRef, useEffect } from "react";
 import { useParams, usePathname, useRouter } from "next/navigation";
-import { locales, type Locale } from "@/lib/i18n/config";
+import { locales, defaultLocale, type Locale } from "@/lib/i18n/config";
 
 const localeConfig: Record<Locale, { code: string; label: string }> = {
   en: { code: "EN", label: "English" },
@@ -60,11 +60,22 @@ export default function LanguageSelector() {
     return () => document.removeEventListener("keydown", handleEscape);
   }, []);
 
-  function switchLocale(locale: Locale) {
-    const pathWithoutLocale = pathname.replace(/^\/(en|de|fr|es|it|nl)/, "");
-    const newPath = `/${locale}${pathWithoutLocale || "/"}`;
+  function switchLocale(newLocale: Locale) {
+    // Strip any existing locale prefix from the current path
+    // Use word-boundary check (locale must be followed by / or end of string)
+    const pathWithoutLocale =
+      pathname.replace(/^\/(en|de|fr|es|it|nl)(\/|$)/, "/") || "/";
+
+    if (newLocale === defaultLocale) {
+      // Default locale (en): root URL, no prefix
+      router.push(pathWithoutLocale);
+    } else {
+      // Other locales: add /{locale} prefix
+      const cleanPath =
+        pathWithoutLocale === "/" ? "" : pathWithoutLocale;
+      router.push(`/${newLocale}${cleanPath}`);
+    }
     setOpen(false);
-    router.push(newPath);
   }
 
   return (

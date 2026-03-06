@@ -1,4 +1,13 @@
-import { BASE_URL, type Locale } from "./i18n/config";
+import { BASE_URL, defaultLocale, type Locale } from "./i18n/config";
+
+/** Build public URL for a locale + path. Default locale → root, others → /{locale} prefix. */
+function localeUrl(locale: Locale, path: string): string {
+  const cleanPath = path === "/" ? "" : path;
+  if (locale === defaultLocale) {
+    return `${BASE_URL}${cleanPath}`;
+  }
+  return `${BASE_URL}/${locale}${cleanPath}`;
+}
 
 export function organizationJsonLd() {
   return {
@@ -16,7 +25,7 @@ export function organizationJsonLd() {
     contactPoint: {
       "@type": "ContactPoint",
       contactType: "sales",
-      url: `${BASE_URL}/en/contact`,
+      url: `${BASE_URL}/contact`,
     },
     areaServed: [
       { "@type": "Country", name: "United Kingdom" },
@@ -42,7 +51,7 @@ export function breadcrumbJsonLd(
       "@type": "ListItem",
       position: index + 1,
       name: item.name,
-      item: `${BASE_URL}/${locale}${item.path === "/" ? "" : item.path}`,
+      item: localeUrl(locale, item.path),
     })),
   };
 }
@@ -59,7 +68,7 @@ export function serviceJsonLd(params: {
     serviceType: "SEO Services",
     name: params.name,
     description: params.description,
-    url: `${BASE_URL}/${params.locale}${params.path}`,
+    url: localeUrl(params.locale, params.path),
     provider: {
       "@type": "Organization",
       name: "EcomSEO",
@@ -95,7 +104,7 @@ export function articleJsonLd(params: {
   description: string;
   path: string;
 }) {
-  const url = `${BASE_URL}/${params.locale}${params.path}`;
+  const url = localeUrl(params.locale, params.path);
   return {
     "@context": "https://schema.org",
     "@type": "Article",

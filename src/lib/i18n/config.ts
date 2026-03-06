@@ -61,6 +61,30 @@ export const htmlLangMap: Record<Locale, string> = {
   nl: "nl",
 };
 
+/**
+ * Build the public-facing URL for a locale + path combo.
+ * Default locale (en) lives at the root with no prefix;
+ * other locales get a /{locale} prefix.
+ */
+export function publicUrl(locale: Locale, path: string): string {
+  const cleanPath = path === "/" ? "" : path;
+  if (locale === defaultLocale) {
+    return `${BASE_URL}${cleanPath || "/"}`;
+  }
+  return `${BASE_URL}/${locale}${cleanPath}`;
+}
+
+/**
+ * Build an internal link path for a locale.
+ * Default locale → no prefix; other locales → /{locale} prefix.
+ */
+export function localePath(locale: Locale, path: string): string {
+  if (locale === defaultLocale) {
+    return path.startsWith("/") ? path : `/${path}`;
+  }
+  return `/${locale}${path.startsWith("/") ? path : `/${path}`}`;
+}
+
 /** All static routes (used by sitemap + generateStaticParams) */
 export const staticRoutes = [
   "/",

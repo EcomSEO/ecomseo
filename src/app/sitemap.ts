@@ -1,6 +1,7 @@
 import type { MetadataRoute } from "next";
 import {
   locales,
+  defaultLocale,
   BASE_URL,
   hreflangEntries,
   staticRoutes,
@@ -18,11 +19,19 @@ const teamSlugs = [
   "gjorgi-jovev",
 ];
 
-function buildAlternates(path: string): { languages: Record<string, string> } {
+/** Build public URL for a locale + path. Default locale → root, others → /{locale} prefix. */
+function localeUrl(locale: string, path: string): string {
   const cleanPath = path === "/" ? "" : path;
+  if (locale === defaultLocale) {
+    return `${BASE_URL}${cleanPath || "/"}`;
+  }
+  return `${BASE_URL}/${locale}${cleanPath}`;
+}
+
+function buildAlternates(path: string): { languages: Record<string, string> } {
   const languages: Record<string, string> = {};
   for (const { hreflang, locale } of hreflangEntries) {
-    languages[hreflang] = `${BASE_URL}/${locale}${cleanPath}`;
+    languages[hreflang] = localeUrl(locale, path);
   }
   return { languages };
 }
@@ -45,10 +54,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   for (const route of filteredRoutes) {
     for (const locale of locales) {
-      const path = route === "/" ? "" : route;
       const isGuide = guideRoutes.has(route);
       entries.push({
-        url: `${BASE_URL}/${locale}${path}`,
+        url: localeUrl(locale, route),
         lastModified: new Date(),
         changeFrequency: route === "/" || isGuide ? "weekly" : "monthly",
         priority: route === "/" ? 1.0 : isGuide ? 0.9 : 0.8,
@@ -62,7 +70,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   for (const slug of caseSlugs) {
     for (const locale of locales) {
       entries.push({
-        url: `${BASE_URL}/${locale}/cases/${slug}`,
+        url: localeUrl(locale, `/cases/${slug}`),
         lastModified: new Date(),
         changeFrequency: "monthly",
         priority: 0.7,
@@ -75,7 +83,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   for (const slug of teamSlugs) {
     for (const locale of locales) {
       entries.push({
-        url: `${BASE_URL}/${locale}/team/${slug}`,
+        url: localeUrl(locale, `/team/${slug}`),
         lastModified: new Date(),
         changeFrequency: "monthly",
         priority: 0.6,

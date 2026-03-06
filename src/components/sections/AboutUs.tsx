@@ -1,7 +1,6 @@
 "use client";
 
 import { motion } from "framer-motion";
-import Badge from "@/components/ui/Badge";
 import Button from "@/components/ui/Button";
 import SectionWrapper from "@/components/ui/SectionWrapper";
 import { useLocale } from "@/lib/i18n/useTranslations";

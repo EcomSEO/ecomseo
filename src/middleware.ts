@@ -1,36 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
-import { locales, defaultLocale, localeAliases } from "./lib/i18n/config";
+import { locales, defaultLocale } from "./lib/i18n/config";
 
 const PUBLIC_FILE = /\.(.*)$/;
-
-function getPreferredLocale(acceptLanguage: string | null): string {
-  if (!acceptLanguage) return defaultLocale;
-
-  const languages = acceptLanguage
-    .split(",")
-    .map((lang) => {
-      const [code, q] = lang.trim().split(";q=");
-      return { code: code.trim().toLowerCase(), q: q ? parseFloat(q) : 1 };
-    })
-    .sort((a, b) => b.q - a.q);
-
-  for (const { code } of languages) {
-    if (localeAliases[code]) return localeAliases[code];
-    const prefix = code.split("-")[0];
-    if (localeAliases[prefix]) return localeAliases[prefix];
-  }
-
-  return defaultLocale;
-}
-
-function getLocaleFromPathname(pathname: string): string {
-  const segments = pathname.split("/");
-  const maybeLocale = segments[1];
-  if (locales.includes(maybeLocale as (typeof locales)[number])) {
-    return maybeLocale;
-  }
-  return defaultLocale;
-}
 
 export function middleware(request: NextRequest) {
   const { pathname } = request.nextUrl;
@@ -47,27 +18,33 @@ export function middleware(request: NextRequest) {
     return NextResponse.next();
   }
 
-  // Check if the pathname already starts with a supported locale
-  const pathnameHasLocale = locales.some(
+  // Check if the pathname starts with a supported locale
+  const pathnameLocale = locales.find(
     (locale) => pathname.startsWith(`/${locale}/`) || pathname === `/${locale}`
   );
 
-  if (pathnameHasLocale) {
-    // Set locale header for the root layout to read
-    const locale = getLocaleFromPathname(pathname);
+  // If URL has /en (default locale) prefix → 301 redirect to root (remove /en)
+  if (pathnameLocale === defaultLocale) {
+    const pathWithoutLocale = pathname.slice(`/${defaultLocale}`.length) || "/";
+    const newUrl = request.nextUrl.clone();
+    newUrl.pathname = pathWithoutLocale;
+    return NextResponse.redirect(newUrl, 301);
+  }
+
+  // If URL has a non-default locale prefix (de, fr, es, it, nl) → pass through
+  if (pathnameLocale) {
     const response = NextResponse.next();
-    response.headers.set("x-locale", locale);
+    response.headers.set("x-locale", pathnameLocale);
     return response;
   }
 
-  // No locale prefix — detect and redirect
-  const acceptLanguage = request.headers.get("accept-language");
-  const detectedLocale = getPreferredLocale(acceptLanguage);
-
+  // No locale prefix → this is default-locale (English) content at root
+  // Rewrite internally to /en/... so the [locale] route matches
   const newUrl = request.nextUrl.clone();
-  newUrl.pathname = `/${detectedLocale}${pathname}`;
-
-  return NextResponse.redirect(newUrl, 308);
+  newUrl.pathname = `/${defaultLocale}${pathname}`;
+  const response = NextResponse.rewrite(newUrl);
+  response.headers.set("x-locale", defaultLocale);
+  return response;
 }
 
 export const config = {

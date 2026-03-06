@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import {
   type Locale,
   BASE_URL,
+  defaultLocale,
   hreflangEntries,
   ogLocaleMap,
 } from "./config";
@@ -13,11 +14,16 @@ export function generateAlternates(path: string) {
   const languages: Record<string, string> = {};
 
   for (const { hreflang, locale } of hreflangEntries) {
-    languages[hreflang] = `${BASE_URL}/${locale}${cleanPath}`;
+    if (locale === defaultLocale) {
+      // Default locale (en) → root URL, no /en/ prefix
+      languages[hreflang] = `${BASE_URL}${cleanPath || "/"}`;
+    } else {
+      languages[hreflang] = `${BASE_URL}/${locale}${cleanPath}`;
+    }
   }
 
   return {
-    canonical: undefined as string | undefined, // set per-page if needed
+    canonical: undefined as string | undefined,
     languages,
   };
 }
@@ -41,7 +47,12 @@ export async function buildPageMetadata(
   }
 
   const cleanPath = path === "/" ? "" : path;
-  const url = `${BASE_URL}/${locale}${cleanPath}`;
+
+  // Default locale (en) → root URL; other locales → /{locale} prefix
+  const url =
+    locale === defaultLocale
+      ? `${BASE_URL}${cleanPath || "/"}`
+      : `${BASE_URL}/${locale}${cleanPath}`;
 
   const alternates = generateAlternates(path);
   alternates.canonical = url;
