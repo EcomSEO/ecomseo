@@ -263,5 +263,10 @@
     "title": "Gratis E-commerce SEO Audit Tool | EcomSEO",
     "description": "Analyseer de SEO-gezondheid van je online winkel op elk platform. Krijg uitvoerbare aanbevelingen voor betere rankings.",
     "ogTitle": "Gratis E-commerce SEO Audit - Elk Platform | EcomSEO"
+  },
+  "/tools/serp-simulator": {
+    "title": "Gratis Google SERP-simulator - Zoekresultaten Voorbeeld | EcomSEO",
+    "description": "Bekijk hoe je pagina's eruitzien in de Google-zoekresultaten. Optimaliseer je title tags en meta descriptions voor maximale klikfrequentie.",
+    "ogTitle": "Gratis SERP-simulator - Bekijk Je Google-zoeksnippets | EcomSEO"
   }
 }

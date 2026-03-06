@@ -263,5 +263,10 @@
     "title": "Free Ecommerce SEO Audit Tool | EcomSEO",
     "description": "Analyze your online store's SEO health across any platform. Technical SEO, content quality, structured data, page speed, and mobile optimization checked.",
     "ogTitle": "Free Ecommerce SEO Audit - Any Platform | EcomSEO"
+  },
+  "/tools/serp-simulator": {
+    "title": "Free Google SERP Simulator - Preview Search Results | EcomSEO",
+    "description": "Preview how your pages appear in Google search results. Optimize title tags and meta descriptions for maximum click-through rate. Free, no signup required.",
+    "ogTitle": "Free SERP Simulator - Preview Your Google Search Snippets | EcomSEO"
   }
 }

@@ -263,5 +263,10 @@
     "title": "Herramienta Gratuita de Auditoria SEO E-commerce | EcomSEO",
     "description": "Analiza la salud SEO de tu tienda online en cualquier plataforma. Obtiene recomendaciones accionables para mejores rankings.",
     "ogTitle": "Auditoria SEO E-commerce Gratuita - Cualquier Plataforma | EcomSEO"
+  },
+  "/tools/serp-simulator": {
+    "title": "Simulador SERP de Google Gratuito - Vista Previa de Resultados | EcomSEO",
+    "description": "Previsualiza como se ven tus paginas en los resultados de busqueda de Google. Optimiza tus title tags y meta descriptions para maximizar el CTR.",
+    "ogTitle": "Simulador SERP Gratuito - Vista Previa de Tus Snippets en Google | EcomSEO"
   }
 }

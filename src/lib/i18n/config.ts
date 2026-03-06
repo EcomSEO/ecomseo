@@ -133,6 +133,7 @@ export const staticRoutes = [
   "/tools",
   "/tools/shopify-seo-audit",
   "/tools/ecommerce-seo-audit",
+  "/tools/serp-simulator",
   "/intent-matching-tool",
   "/premium-on-page-seo-checklist",
   "/client-dashboard",

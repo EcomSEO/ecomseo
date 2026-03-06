@@ -617,12 +617,297 @@ export const ecommerceSeoAuditT: Record<Locale, SeoToolTranslation> = {
   },
 };
 
+export interface SerpSimulatorTranslation {
+  badge: string;
+  heading: string;
+  subtitle: string;
+  urlLabel: string;
+  urlPlaceholder: string;
+  siteNameLabel: string;
+  siteNamePlaceholder: string;
+  titleLabel: string;
+  titlePlaceholder: string;
+  descriptionLabel: string;
+  descriptionPlaceholder: string;
+  keywordLabel: string;
+  keywordPlaceholder: string;
+  desktopLabel: string;
+  mobileLabel: string;
+  titleWarning: string;
+  descriptionWarning: string;
+  previewLabel: string;
+  ctaBottom: string;
+  ctaBottomDesc: string;
+  ctaBottomButton: string;
+  features: string[];
+  howItWorksTitle: string;
+  howItWorksSteps: { title: string; desc: string }[];
+  faqTitle: string;
+  faqs: { q: string; a: string }[];
+}
+
+export const serpSimulatorT: Record<Locale, SerpSimulatorTranslation> = {
+  en: {
+    badge: "Free SEO Tool",
+    heading: "Google SERP Simulator",
+    subtitle: "Preview how your page will look in Google search results. Optimize your title tags and meta descriptions for maximum click-through rate.",
+    urlLabel: "Page URL",
+    urlPlaceholder: "e.g. https://yourstore.com/products/example",
+    siteNameLabel: "Site Name",
+    siteNamePlaceholder: "e.g. Your Store",
+    titleLabel: "Title Tag",
+    titlePlaceholder: "e.g. Premium Running Shoes | Your Store",
+    descriptionLabel: "Meta Description",
+    descriptionPlaceholder: "e.g. Shop premium running shoes with free shipping. Browse our collection of top-rated athletic footwear for every runner.",
+    keywordLabel: "Target Keyword",
+    keywordPlaceholder: "e.g. running shoes",
+    desktopLabel: "Desktop",
+    mobileLabel: "Mobile",
+    titleWarning: "Title may be truncated in search results",
+    descriptionWarning: "Description may be truncated in search results",
+    previewLabel: "SERP Preview",
+    ctaBottom: "Want higher click-through rates?",
+    ctaBottomDesc: "Our team crafts title tags and meta descriptions that drive clicks and revenue. Multiple 8-figure ecommerce brands trust us.",
+    ctaBottomButton: "Get a Free Strategy Call",
+    features: [
+      "Real-time Google SERP preview",
+      "Character count with pixel-width estimates",
+      "Keyword highlighting in results",
+      "Desktop & mobile preview modes",
+    ],
+    howItWorksTitle: "How It Works",
+    howItWorksSteps: [
+      { title: "Enter your page details", desc: "Add your URL, title tag, meta description, and target keyword." },
+      { title: "Preview your snippet", desc: "See exactly how your page will appear in Google search results." },
+      { title: "Optimize & iterate", desc: "Tweak your title and description until they're perfect for CTR." },
+    ],
+    faqTitle: "Frequently Asked Questions",
+    faqs: [
+      { q: "Is this tool really free?", a: "Yes, 100% free with no signup required. Use it as many times as you want." },
+      { q: "How accurate is the preview?", a: "We match Google's current SERP layout including character limits, truncation behavior, and formatting." },
+      { q: "What's the ideal title tag length?", a: "Google typically displays 50-60 characters. We recommend staying under 60 characters or ~580 pixels wide." },
+      { q: "What's the ideal meta description length?", a: "Google shows approximately 155-160 characters on desktop. We recommend keeping it under 160 characters." },
+    ],
+  },
+  de: {
+    badge: "Kostenloses SEO-Tool",
+    heading: "Google SERP-Simulator",
+    subtitle: "Vorschau, wie Ihre Seite in den Google-Suchergebnissen angezeigt wird. Optimieren Sie Titel-Tags und Meta-Beschreibungen für maximale Klickrate.",
+    urlLabel: "Seiten-URL",
+    urlPlaceholder: "z.B. https://ihrshop.de/produkte/beispiel",
+    siteNameLabel: "Website-Name",
+    siteNamePlaceholder: "z.B. Ihr Shop",
+    titleLabel: "Titel-Tag",
+    titlePlaceholder: "z.B. Premium Laufschuhe | Ihr Shop",
+    descriptionLabel: "Meta-Beschreibung",
+    descriptionPlaceholder: "z.B. Premium Laufschuhe mit kostenlosem Versand. Entdecken Sie unsere Kollektion erstklassiger Sportschuhe.",
+    keywordLabel: "Ziel-Keyword",
+    keywordPlaceholder: "z.B. Laufschuhe",
+    desktopLabel: "Desktop",
+    mobileLabel: "Mobil",
+    titleWarning: "Titel wird möglicherweise in den Suchergebnissen abgeschnitten",
+    descriptionWarning: "Beschreibung wird möglicherweise in den Suchergebnissen abgeschnitten",
+    previewLabel: "SERP-Vorschau",
+    ctaBottom: "Möchten Sie höhere Klickraten?",
+    ctaBottomDesc: "Unser Team erstellt Titel-Tags und Meta-Beschreibungen, die Klicks und Umsatz bringen. Mehrere 8-stellige E-Commerce-Marken vertrauen uns.",
+    ctaBottomButton: "Kostenloses Strategiegespräch",
+    features: [
+      "Echtzeit-Google-SERP-Vorschau",
+      "Zeichenzählung mit Pixelbreiten-Schätzung",
+      "Keyword-Hervorhebung in Ergebnissen",
+      "Desktop- & Mobil-Vorschaumodus",
+    ],
+    howItWorksTitle: "So funktioniert es",
+    howItWorksSteps: [
+      { title: "Seitendetails eingeben", desc: "Fügen Sie URL, Titel-Tag, Meta-Beschreibung und Ziel-Keyword hinzu." },
+      { title: "Snippet-Vorschau", desc: "Sehen Sie genau, wie Ihre Seite in den Google-Suchergebnissen erscheint." },
+      { title: "Optimieren & iterieren", desc: "Passen Sie Titel und Beschreibung an, bis sie perfekt für die CTR sind." },
+    ],
+    faqTitle: "Häufig gestellte Fragen",
+    faqs: [
+      { q: "Ist dieses Tool wirklich kostenlos?", a: "Ja, 100% kostenlos ohne Registrierung. Nutzen Sie es so oft Sie möchten." },
+      { q: "Wie genau ist die Vorschau?", a: "Wir bilden das aktuelle Google-SERP-Layout nach, einschließlich Zeichenlimits und Abschneideverhalten." },
+      { q: "Was ist die ideale Titel-Tag-Länge?", a: "Google zeigt typischerweise 50-60 Zeichen an. Wir empfehlen, unter 60 Zeichen zu bleiben." },
+      { q: "Was ist die ideale Meta-Beschreibungslänge?", a: "Google zeigt auf dem Desktop etwa 155-160 Zeichen an. Wir empfehlen, unter 160 Zeichen zu bleiben." },
+    ],
+  },
+  fr: {
+    badge: "Outil SEO gratuit",
+    heading: "Simulateur SERP Google",
+    subtitle: "Visualisez comment votre page apparaitra dans les resultats de recherche Google. Optimisez vos balises titre et meta descriptions pour un taux de clics maximum.",
+    urlLabel: "URL de la page",
+    urlPlaceholder: "ex. https://votreboutique.fr/produits/exemple",
+    siteNameLabel: "Nom du site",
+    siteNamePlaceholder: "ex. Votre Boutique",
+    titleLabel: "Balise titre",
+    titlePlaceholder: "ex. Chaussures de course premium | Votre Boutique",
+    descriptionLabel: "Meta description",
+    descriptionPlaceholder: "ex. Achetez des chaussures de course premium avec livraison gratuite. Decouvrez notre collection de chaussures de sport.",
+    keywordLabel: "Mot-cle cible",
+    keywordPlaceholder: "ex. chaussures de course",
+    desktopLabel: "Bureau",
+    mobileLabel: "Mobile",
+    titleWarning: "Le titre pourrait etre tronque dans les resultats de recherche",
+    descriptionWarning: "La description pourrait etre tronquee dans les resultats de recherche",
+    previewLabel: "Apercu SERP",
+    ctaBottom: "Vous souhaitez un meilleur taux de clics ?",
+    ctaBottomDesc: "Notre equipe cree des balises titre et meta descriptions qui generent des clics et du chiffre d'affaires.",
+    ctaBottomButton: "Appel strategique gratuit",
+    features: [
+      "Apercu SERP Google en temps reel",
+      "Compteur de caracteres avec estimation en pixels",
+      "Mise en surbrillance des mots-cles",
+      "Modes apercu bureau et mobile",
+    ],
+    howItWorksTitle: "Comment ca marche",
+    howItWorksSteps: [
+      { title: "Entrez les details de la page", desc: "Ajoutez l'URL, la balise titre, la meta description et le mot-cle cible." },
+      { title: "Visualisez votre snippet", desc: "Voyez exactement comment votre page apparaitra dans les resultats Google." },
+      { title: "Optimisez et iterez", desc: "Ajustez le titre et la description jusqu'a obtenir un CTR optimal." },
+    ],
+    faqTitle: "Questions frequentes",
+    faqs: [
+      { q: "Cet outil est-il vraiment gratuit ?", a: "Oui, 100% gratuit sans inscription. Utilisez-le autant de fois que vous voulez." },
+      { q: "L'apercu est-il fidele ?", a: "Nous reproduisons la mise en page SERP actuelle de Google, y compris les limites de caracteres et le comportement de troncature." },
+      { q: "Quelle est la longueur ideale du titre ?", a: "Google affiche generalement 50 a 60 caracteres. Nous recommandons de rester sous 60 caracteres." },
+      { q: "Quelle est la longueur ideale de la meta description ?", a: "Google affiche environ 155 a 160 caracteres sur bureau. Nous recommandons de rester sous 160 caracteres." },
+    ],
+  },
+  es: {
+    badge: "Herramienta SEO gratuita",
+    heading: "Simulador SERP de Google",
+    subtitle: "Previsualiza como se vera tu pagina en los resultados de busqueda de Google. Optimiza tus title tags y meta descriptions para maximizar el CTR.",
+    urlLabel: "URL de la pagina",
+    urlPlaceholder: "ej. https://tutienda.com/productos/ejemplo",
+    siteNameLabel: "Nombre del sitio",
+    siteNamePlaceholder: "ej. Tu Tienda",
+    titleLabel: "Title tag",
+    titlePlaceholder: "ej. Zapatillas de running premium | Tu Tienda",
+    descriptionLabel: "Meta description",
+    descriptionPlaceholder: "ej. Compra zapatillas de running premium con envio gratis. Descubre nuestra coleccion de calzado deportivo.",
+    keywordLabel: "Keyword objetivo",
+    keywordPlaceholder: "ej. zapatillas de running",
+    desktopLabel: "Escritorio",
+    mobileLabel: "Movil",
+    titleWarning: "El titulo podria truncarse en los resultados de busqueda",
+    descriptionWarning: "La descripcion podria truncarse en los resultados de busqueda",
+    previewLabel: "Vista previa SERP",
+    ctaBottom: "Quieres un mejor CTR?",
+    ctaBottomDesc: "Nuestro equipo crea title tags y meta descriptions que generan clics e ingresos. Marcas de e-commerce de 8 cifras confian en nosotros.",
+    ctaBottomButton: "Llamada estrategica gratuita",
+    features: [
+      "Vista previa SERP de Google en tiempo real",
+      "Contador de caracteres con estimacion de pixeles",
+      "Resaltado de keywords en resultados",
+      "Modos de vista previa escritorio y movil",
+    ],
+    howItWorksTitle: "Como funciona",
+    howItWorksSteps: [
+      { title: "Ingresa los datos de la pagina", desc: "Agrega URL, title tag, meta description y keyword objetivo." },
+      { title: "Previsualiza tu snippet", desc: "Ve exactamente como aparecera tu pagina en los resultados de Google." },
+      { title: "Optimiza e itera", desc: "Ajusta el titulo y la descripcion hasta lograr el CTR perfecto." },
+    ],
+    faqTitle: "Preguntas frecuentes",
+    faqs: [
+      { q: "Es realmente gratis?", a: "Si, 100% gratis sin registro. Usalo todas las veces que quieras." },
+      { q: "Que tan precisa es la vista previa?", a: "Replicamos el diseno SERP actual de Google incluyendo limites de caracteres y comportamiento de truncamiento." },
+      { q: "Cual es la longitud ideal del title tag?", a: "Google muestra tipicamente 50-60 caracteres. Recomendamos no superar los 60 caracteres." },
+      { q: "Cual es la longitud ideal de la meta description?", a: "Google muestra aproximadamente 155-160 caracteres en escritorio. Recomendamos no superar los 160 caracteres." },
+    ],
+  },
+  it: {
+    badge: "Strumento SEO gratuito",
+    heading: "Simulatore SERP Google",
+    subtitle: "Anteprima di come la tua pagina apparira nei risultati di ricerca Google. Ottimizza i title tag e le meta description per massimizzare il CTR.",
+    urlLabel: "URL della pagina",
+    urlPlaceholder: "es. https://tuonegozio.it/prodotti/esempio",
+    siteNameLabel: "Nome del sito",
+    siteNamePlaceholder: "es. Il Tuo Negozio",
+    titleLabel: "Title tag",
+    titlePlaceholder: "es. Scarpe da corsa premium | Il Tuo Negozio",
+    descriptionLabel: "Meta description",
+    descriptionPlaceholder: "es. Acquista scarpe da corsa premium con spedizione gratuita. Scopri la nostra collezione di calzature sportive.",
+    keywordLabel: "Keyword obiettivo",
+    keywordPlaceholder: "es. scarpe da corsa",
+    desktopLabel: "Desktop",
+    mobileLabel: "Mobile",
+    titleWarning: "Il titolo potrebbe essere troncato nei risultati di ricerca",
+    descriptionWarning: "La descrizione potrebbe essere troncata nei risultati di ricerca",
+    previewLabel: "Anteprima SERP",
+    ctaBottom: "Vuoi un CTR piu alto?",
+    ctaBottomDesc: "Il nostro team crea title tag e meta description che generano clic e fatturato. Brand e-commerce a 8 cifre si fidano di noi.",
+    ctaBottomButton: "Chiamata strategica gratuita",
+    features: [
+      "Anteprima SERP Google in tempo reale",
+      "Contatore caratteri con stima larghezza pixel",
+      "Evidenziazione keyword nei risultati",
+      "Modalita anteprima desktop e mobile",
+    ],
+    howItWorksTitle: "Come funziona",
+    howItWorksSteps: [
+      { title: "Inserisci i dettagli della pagina", desc: "Aggiungi URL, title tag, meta description e keyword obiettivo." },
+      { title: "Anteprima dello snippet", desc: "Vedi esattamente come apparira la tua pagina nei risultati di Google." },
+      { title: "Ottimizza e itera", desc: "Modifica titolo e descrizione fino a raggiungere il CTR perfetto." },
+    ],
+    faqTitle: "Domande frequenti",
+    faqs: [
+      { q: "Questo strumento e davvero gratuito?", a: "Si, 100% gratuito senza registrazione. Usalo tutte le volte che vuoi." },
+      { q: "Quanto e accurata l'anteprima?", a: "Replichiamo il layout SERP attuale di Google inclusi limiti di caratteri e comportamento di troncamento." },
+      { q: "Qual e la lunghezza ideale del title tag?", a: "Google mostra tipicamente 50-60 caratteri. Raccomandiamo di restare sotto i 60 caratteri." },
+      { q: "Qual e la lunghezza ideale della meta description?", a: "Google mostra circa 155-160 caratteri su desktop. Raccomandiamo di restare sotto i 160 caratteri." },
+    ],
+  },
+  nl: {
+    badge: "Gratis SEO-tool",
+    heading: "Google SERP-simulator",
+    subtitle: "Bekijk hoe je pagina eruitziet in de Google-zoekresultaten. Optimaliseer je title tags en meta descriptions voor maximale klikfrequentie.",
+    urlLabel: "Pagina-URL",
+    urlPlaceholder: "bijv. https://jouwwinkel.nl/producten/voorbeeld",
+    siteNameLabel: "Sitenaam",
+    siteNamePlaceholder: "bijv. Jouw Winkel",
+    titleLabel: "Title tag",
+    titlePlaceholder: "bijv. Premium hardloopschoenen | Jouw Winkel",
+    descriptionLabel: "Meta description",
+    descriptionPlaceholder: "bijv. Shop premium hardloopschoenen met gratis verzending. Bekijk onze collectie sportschoenen.",
+    keywordLabel: "Doelzoekwoord",
+    keywordPlaceholder: "bijv. hardloopschoenen",
+    desktopLabel: "Desktop",
+    mobileLabel: "Mobiel",
+    titleWarning: "Titel wordt mogelijk afgekapt in zoekresultaten",
+    descriptionWarning: "Beschrijving wordt mogelijk afgekapt in zoekresultaten",
+    previewLabel: "SERP-voorbeeld",
+    ctaBottom: "Wil je een hogere klikfrequentie?",
+    ctaBottomDesc: "Ons team maakt title tags en meta descriptions die klikken en omzet genereren. Meerdere 8-cijferige e-commerce merken vertrouwen ons.",
+    ctaBottomButton: "Gratis strategiegesprek",
+    features: [
+      "Realtime Google SERP-voorbeeld",
+      "Tekenteller met pixelbreedte-schatting",
+      "Keyword-markering in resultaten",
+      "Desktop- en mobiel voorbeeldmodus",
+    ],
+    howItWorksTitle: "Zo werkt het",
+    howItWorksSteps: [
+      { title: "Voer paginagegevens in", desc: "Voeg URL, title tag, meta description en doelzoekwoord toe." },
+      { title: "Bekijk je snippet", desc: "Zie precies hoe je pagina eruitziet in de Google-zoekresultaten." },
+      { title: "Optimaliseer en herhaal", desc: "Pas titel en beschrijving aan tot ze perfect zijn voor CTR." },
+    ],
+    faqTitle: "Veelgestelde vragen",
+    faqs: [
+      { q: "Is deze tool echt gratis?", a: "Ja, 100% gratis zonder registratie. Gebruik het zo vaak als je wilt." },
+      { q: "Hoe nauwkeurig is het voorbeeld?", a: "We repliceren de huidige Google SERP-layout inclusief tekenlimieten en afkapgedrag." },
+      { q: "Wat is de ideale title tag-lengte?", a: "Google toont doorgaans 50-60 tekens. We raden aan om onder de 60 tekens te blijven." },
+      { q: "Wat is de ideale meta description-lengte?", a: "Google toont ongeveer 155-160 tekens op desktop. We raden aan om onder de 160 tekens te blijven." },
+    ],
+  },
+};
+
 export const seoToolsHubT: Record<Locale, {
   badge: string;
   heading: string;
   subtitle: string;
   shopifyAudit: { title: string; desc: string };
   ecommerceAudit: { title: string; desc: string };
+  serpSimulator: { title: string; desc: string };
   comingSoon: string;
 }> = {
   en: {
@@ -631,6 +916,7 @@ export const seoToolsHubT: Record<Locale, {
     subtitle: "Free, no-signup tools built by ecommerce SEO specialists. Run audits, validate schema, check meta tags, and more.",
     shopifyAudit: { title: "Shopify SEO Audit", desc: "Complete SEO health check for Shopify and Shopify Plus stores" },
     ecommerceAudit: { title: "Ecommerce SEO Audit", desc: "Platform-agnostic SEO audit for any online store" },
+    serpSimulator: { title: "SERP Simulator", desc: "Preview how your pages look in Google search results" },
     comingSoon: "More tools coming soon",
   },
   de: {
@@ -639,6 +925,7 @@ export const seoToolsHubT: Record<Locale, {
     subtitle: "Kostenlose Tools ohne Registrierung, entwickelt von E-Commerce-SEO-Spezialisten.",
     shopifyAudit: { title: "Shopify SEO-Audit", desc: "Vollständiger SEO-Gesundheitscheck für Shopify und Shopify Plus Shops" },
     ecommerceAudit: { title: "E-Commerce SEO-Audit", desc: "Plattformunabhängiges SEO-Audit für jeden Online-Shop" },
+    serpSimulator: { title: "SERP-Simulator", desc: "Vorschau, wie Ihre Seiten in den Google-Suchergebnissen aussehen" },
     comingSoon: "Weitere Tools folgen",
   },
   fr: {
@@ -647,6 +934,7 @@ export const seoToolsHubT: Record<Locale, {
     subtitle: "Outils gratuits sans inscription, conçus par des spécialistes SEO e-commerce.",
     shopifyAudit: { title: "Audit SEO Shopify", desc: "Bilan SEO complet pour les boutiques Shopify et Shopify Plus" },
     ecommerceAudit: { title: "Audit SEO E-commerce", desc: "Audit SEO indépendant de la plateforme pour toute boutique en ligne" },
+    serpSimulator: { title: "Simulateur SERP", desc: "Visualisez comment vos pages apparaissent dans les resultats Google" },
     comingSoon: "Plus d'outils à venir",
   },
   es: {
@@ -655,6 +943,7 @@ export const seoToolsHubT: Record<Locale, {
     subtitle: "Herramientas gratuitas sin registro, creadas por especialistas en SEO e-commerce.",
     shopifyAudit: { title: "Auditoría SEO Shopify", desc: "Chequeo SEO completo para tiendas Shopify y Shopify Plus" },
     ecommerceAudit: { title: "Auditoría SEO E-commerce", desc: "Auditoría SEO independiente de plataforma para cualquier tienda online" },
+    serpSimulator: { title: "Simulador SERP", desc: "Previsualiza como se ven tus paginas en los resultados de Google" },
     comingSoon: "Más herramientas próximamente",
   },
   it: {
@@ -663,6 +952,7 @@ export const seoToolsHubT: Record<Locale, {
     subtitle: "Strumenti gratuiti senza registrazione, creati da specialisti SEO e-commerce.",
     shopifyAudit: { title: "Audit SEO Shopify", desc: "Controllo SEO completo per negozi Shopify e Shopify Plus" },
     ecommerceAudit: { title: "Audit SEO E-commerce", desc: "Audit SEO indipendente dalla piattaforma per qualsiasi negozio online" },
+    serpSimulator: { title: "Simulatore SERP", desc: "Anteprima di come le tue pagine appaiono nei risultati Google" },
     comingSoon: "Altri strumenti in arrivo",
   },
   nl: {
@@ -671,6 +961,7 @@ export const seoToolsHubT: Record<Locale, {
     subtitle: "Gratis tools zonder registratie, gebouwd door e-commerce SEO-specialisten.",
     shopifyAudit: { title: "Shopify SEO-audit", desc: "Volledige SEO-gezondheidscheck voor Shopify en Shopify Plus winkels" },
     ecommerceAudit: { title: "E-commerce SEO-audit", desc: "Platformonafhankelijke SEO-audit voor elke webshop" },
+    serpSimulator: { title: "SERP-simulator", desc: "Bekijk hoe je pagina's eruitzien in de Google-zoekresultaten" },
     comingSoon: "Meer tools volgen binnenkort",
   },
 };
