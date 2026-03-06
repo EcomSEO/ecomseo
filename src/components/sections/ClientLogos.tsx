@@ -24,9 +24,15 @@ export default function ClientLogos() {
         <Badge text={t.badge} />
       </div>
       <div className="relative overflow-hidden">
-        {/* Edge fade masks */}
-        <div className="pointer-events-none absolute inset-y-0 left-0 z-10 w-24 bg-gradient-to-r from-bg to-transparent" />
-        <div className="pointer-events-none absolute inset-y-0 right-0 z-10 w-24 bg-gradient-to-l from-bg to-transparent" />
+        {/* Edge fade masks — inline styles guarantee the bg color renders */}
+        <div
+          className="pointer-events-none absolute inset-y-0 left-0 z-10 w-40"
+          style={{ background: "linear-gradient(to right, rgb(10,10,10), transparent)" }}
+        />
+        <div
+          className="pointer-events-none absolute inset-y-0 right-0 z-10 w-40"
+          style={{ background: "linear-gradient(to left, rgb(10,10,10), transparent)" }}
+        />
 
         <div className="flex animate-ticker items-center">
           {[0, 1].map((copy) => (
@@ -43,7 +49,7 @@ export default function ClientLogos() {
                   <img
                     src={logo.src}
                     alt={logo.alt}
-                    className="h-[28px] md:h-[36px] w-auto object-contain opacity-40 hover:opacity-70 transition-opacity"
+                    className="h-[28px] md:h-[36px] w-auto max-w-[140px] object-contain opacity-40 hover:opacity-70 transition-opacity"
                     style={{ filter: "brightness(0) invert(1)" }}
                   />
                 </div>

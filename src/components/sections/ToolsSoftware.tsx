@@ -16,8 +16,14 @@ export default function ToolsSoftware() {
     <section className="w-full pt-8 pb-16 overflow-hidden">
       <div className="relative overflow-hidden">
         {/* Edge fade masks */}
-        <div className="pointer-events-none absolute inset-y-0 left-0 z-10 w-24 bg-gradient-to-r from-background to-transparent" />
-        <div className="pointer-events-none absolute inset-y-0 right-0 z-10 w-24 bg-gradient-to-l from-background to-transparent" />
+        <div
+          className="pointer-events-none absolute inset-y-0 left-0 z-10 w-40"
+          style={{ background: "linear-gradient(to right, rgb(10,10,10), transparent)" }}
+        />
+        <div
+          className="pointer-events-none absolute inset-y-0 right-0 z-10 w-40"
+          style={{ background: "linear-gradient(to left, rgb(10,10,10), transparent)" }}
+        />
 
         <div className="flex animate-ticker items-center">
           {[0, 1].map((copy) => (
