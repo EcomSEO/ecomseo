@@ -1,5 +1,3 @@
-"use client";
-
 const toolLogos = [
   { src: "/images/framer/t0iElALIslZN0LoWiFvtHdqsKI.webp", alt: "Google Partner" },
   { src: "/images/framer/TlKNFSmHBRkkG6eJvlll5HbhEc.webp", alt: "Screaming Frog" },
@@ -13,41 +11,19 @@ const toolLogos = [
 
 export default function ToolsSoftware() {
   return (
-    <section className="w-full pt-8 pb-16 overflow-hidden">
-      <div className="relative overflow-hidden">
-        {/* Edge fade masks */}
-        <div
-          className="pointer-events-none absolute inset-y-0 left-0 z-10 w-40"
-          style={{ background: "linear-gradient(to right, rgb(10,10,10), transparent)" }}
-        />
-        <div
-          className="pointer-events-none absolute inset-y-0 right-0 z-10 w-40"
-          style={{ background: "linear-gradient(to left, rgb(10,10,10), transparent)" }}
-        />
-
-        <div className="flex animate-ticker items-center">
-          {[0, 1].map((copy) => (
-            <div
-              key={copy}
-              className="flex-shrink-0 flex items-center"
-            >
-              {toolLogos.map((tool) => (
-                <div
-                  key={`${copy}-${tool.alt}`}
-                  className="flex-shrink-0 flex items-center justify-center px-8 md:px-10"
-                >
-                  {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img
-                    src={tool.src}
-                    alt={tool.alt}
-                    className="h-[28px] md:h-[36px] w-auto object-contain opacity-40 hover:opacity-70 transition-opacity"
-                    style={{ filter: "brightness(0) invert(1)" }}
-                  />
-                </div>
-              ))}
-            </div>
-          ))}
-        </div>
+    <section className="w-full pt-8 pb-16">
+      <div className="flex items-center justify-center flex-wrap gap-8 md:gap-12 lg:gap-14 px-6">
+        {toolLogos.map((tool) => (
+          <div key={tool.alt} className="flex items-center justify-center">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src={tool.src}
+              alt={tool.alt}
+              className="h-[24px] md:h-[30px] w-auto object-contain opacity-40 hover:opacity-70 transition-opacity"
+              style={{ filter: "brightness(0) invert(1)" }}
+            />
+          </div>
+        ))}
       </div>
     </section>
   );
