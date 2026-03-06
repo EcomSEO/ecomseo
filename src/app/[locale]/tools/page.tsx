@@ -183,6 +183,61 @@ export default async function ToolsHubPage({
                   </svg>
                 }
               />
+              <ToolCard
+                title={t.indexabilityChecker.title}
+                desc={t.indexabilityChecker.desc}
+                href="/tools/indexability-checker"
+                icon={
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+                    <path d="M9 12l2 2 4-4" />
+                  </svg>
+                }
+              />
+              <ToolCard
+                title={t.pageTypeClassifier.title}
+                desc={t.pageTypeClassifier.desc}
+                href="/tools/page-type-classifier"
+                icon={
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+                    <rect x="3" y="3" width="7" height="7" rx="1" />
+                    <rect x="14" y="3" width="7" height="7" rx="1" />
+                    <rect x="3" y="14" width="7" height="7" rx="1" />
+                    <path d="M17.5 14v6M14.5 17h6" />
+                  </svg>
+                }
+              />
+              <ToolCard
+                title={t.sitemapComparison.title}
+                desc={t.sitemapComparison.desc}
+                href="/tools/sitemap-comparison"
+                icon={
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+                    <path d="M9 3H5a2 2 0 00-2 2v4m6-6h10a2 2 0 012 2v4M9 3v18m0 0h10a2 2 0 002-2V9M9 21H5a2 2 0 01-2-2V9m0 0h18" />
+                  </svg>
+                }
+              />
+              <ToolCard
+                title={t.thinContentChecker.title}
+                desc={t.thinContentChecker.desc}
+                href="/tools/thin-content-checker"
+                icon={
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+                    <path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z" />
+                    <path d="M14 2v6h6M16 13H8M16 17H8M10 9H8" />
+                  </svg>
+                }
+              />
+              <ToolCard
+                title={t.coreWebVitals.title}
+                desc={t.coreWebVitals.desc}
+                href="/tools/core-web-vitals"
+                icon={
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+                    <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" />
+                  </svg>
+                }
+              />
             </div>
 
             {/* Coming soon */}

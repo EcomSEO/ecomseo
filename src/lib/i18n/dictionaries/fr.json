@@ -298,5 +298,30 @@
     "title": "Vérificateur de Balises Canonical Gratuit | EcomSEO",
     "description": "Validez les balises canonical de vos pages. Détectez les canonicals manquants, conflits et différences HTTP/HTTPS.",
     "ogTitle": "Vérificateur Canonical Gratuit | EcomSEO"
+  },
+  "/tools/indexability-checker": {
+    "title": "Vérificateur d'Indexabilité en Masse Gratuit | EcomSEO",
+    "description": "Vérifiez si vos pages sont indexables. Détectez les balises noindex, X-Robots-Tag et les blocages robots.txt en masse.",
+    "ogTitle": "Vérificateur d'Indexabilité Gratuit | EcomSEO"
+  },
+  "/tools/page-type-classifier": {
+    "title": "Classificateur de Types de Pages E-commerce Gratuit | EcomSEO",
+    "description": "Classifiez automatiquement les URL en produit, catégorie, blog, accueil, panier et plus. Idéal pour les audits SEO e-commerce.",
+    "ogTitle": "Classificateur de Types de Pages Gratuit | EcomSEO"
+  },
+  "/tools/sitemap-comparison": {
+    "title": "Outil de Comparaison de Sitemaps Gratuit | EcomSEO",
+    "description": "Comparez deux sitemaps XML pour trouver les URL manquantes et les lacunes. Idéal pour l'analyse concurrentielle et les audits staging.",
+    "ogTitle": "Outil de Comparaison de Sitemaps Gratuit | EcomSEO"
+  },
+  "/tools/thin-content-checker": {
+    "title": "Vérificateur de Contenu Mince et Comptage de Mots Gratuit | EcomSEO",
+    "description": "Détectez les pages avec trop peu de contenu. Analyseur de nombre de mots en masse — vérifiez jusqu'à 20 URL à la fois.",
+    "ogTitle": "Vérificateur de Contenu Mince Gratuit | EcomSEO"
+  },
+  "/tools/core-web-vitals": {
+    "title": "Vérificateur Core Web Vitals Gratuit - LCP, CLS & INP | EcomSEO",
+    "description": "Vérifiez les scores LCP, CLS et INP pour mobile et bureau sur plusieurs pages. Alimenté par Google PageSpeed Insights.",
+    "ogTitle": "Vérificateur Core Web Vitals Gratuit | EcomSEO"
   }
 }

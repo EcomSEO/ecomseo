@@ -298,5 +298,30 @@
     "title": "Kostenloser Canonical-Tag Prüfer & Validator | EcomSEO",
     "description": "Validieren Sie Canonical-Tags auf Ihren Seiten. Erkennen Sie fehlende Canonicals, Konflikte und HTTP/HTTPS-Unterschiede.",
     "ogTitle": "Kostenloser Canonical-Tag Prüfer | EcomSEO"
+  },
+  "/tools/indexability-checker": {
+    "title": "Kostenloser Bulk Indexierbarkeits-Prüfer - Noindex & Robots.txt | EcomSEO",
+    "description": "Prüfen Sie, ob Ihre Seiten indexierbar sind. Erkennen Sie noindex-Meta-Tags, X-Robots-Tag-Header und robots.txt-Sperren in der Masse.",
+    "ogTitle": "Kostenloser Indexierbarkeits-Prüfer | EcomSEO"
+  },
+  "/tools/page-type-classifier": {
+    "title": "Kostenloser E-Commerce-Seitentyp-Klassifikator | EcomSEO",
+    "description": "URLs automatisch als Produkt, Kategorie, Blog, Startseite, Warenkorb und mehr klassifizieren. Ideal für E-Commerce-SEO-Audits.",
+    "ogTitle": "Kostenloser Seitentyp-Klassifikator | EcomSEO"
+  },
+  "/tools/sitemap-comparison": {
+    "title": "Kostenloser Sitemap-Vergleich - XML-Sitemaps vergleichen | EcomSEO",
+    "description": "Zwei XML-Sitemaps nebeneinander vergleichen, um fehlende URLs und Lücken zu finden. Ideal für Konkurrenzanalyse und Staging-Audits.",
+    "ogTitle": "Kostenloser Sitemap-Vergleich | EcomSEO"
+  },
+  "/tools/thin-content-checker": {
+    "title": "Kostenloser Thin-Content & Wortanzahl-Prüfer | EcomSEO",
+    "description": "Erkennen Sie Seiten mit zu wenig Inhalt, der Ihr Ranking schaden könnte. Bulk-Wortanzahl-Analyzer — bis zu 20 URLs gleichzeitig prüfen.",
+    "ogTitle": "Kostenloser Thin-Content-Prüfer | EcomSEO"
+  },
+  "/tools/core-web-vitals": {
+    "title": "Kostenloser Core Web Vitals Prüfer - LCP, CLS & INP | EcomSEO",
+    "description": "LCP-, CLS- und INP-Scores für Mobil und Desktop auf mehreren Seiten prüfen. Basiert auf Google PageSpeed Insights.",
+    "ogTitle": "Kostenloser Core Web Vitals Prüfer | EcomSEO"
   }
 }

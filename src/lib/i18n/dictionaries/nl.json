@@ -298,5 +298,30 @@
     "title": "Gratis Canonical Tag Checker & Validator | EcomSEO",
     "description": "Valideer canonical tags op je pagina's. Detecteer ontbrekende canonicals, conflicten en HTTP/HTTPS-verschillen.",
     "ogTitle": "Gratis Canonical Tag Checker | EcomSEO"
+  },
+  "/tools/indexability-checker": {
+    "title": "Gratis Bulk Indexeerbaarheids-Checker | EcomSEO",
+    "description": "Controleer of je pagina's indexeerbaar zijn. Detecteer noindex-tags, X-Robots-Tag-headers en robots.txt-blokkades in bulk.",
+    "ogTitle": "Gratis Indexeerbaarheids-Checker | EcomSEO"
+  },
+  "/tools/page-type-classifier": {
+    "title": "Gratis Ecommerce Paginatype Classifier | EcomSEO",
+    "description": "Classificeer URL's automatisch als product, categorie, blog, homepage, winkelwagen en meer. Ideaal voor ecommerce SEO-audits.",
+    "ogTitle": "Gratis Paginatype Classifier | EcomSEO"
+  },
+  "/tools/sitemap-comparison": {
+    "title": "Gratis Sitemap Vergelijkingstool | EcomSEO",
+    "description": "Vergelijk twee XML-sitemaps om ontbrekende URL's en hiaten te vinden. Ideaal voor concurrentieanalyse en staging-audits.",
+    "ogTitle": "Gratis Sitemap Vergelijkingstool | EcomSEO"
+  },
+  "/tools/thin-content-checker": {
+    "title": "Gratis Dunne Content & Woordteller Checker | EcomSEO",
+    "description": "Detecteer pagina's met te weinig inhoud. Bulk woordteller — controleer tot 20 URL's tegelijk.",
+    "ogTitle": "Gratis Dunne Content Checker | EcomSEO"
+  },
+  "/tools/core-web-vitals": {
+    "title": "Gratis Core Web Vitals Checker - LCP, CLS & INP | EcomSEO",
+    "description": "Controleer LCP-, CLS- en INP-scores voor mobiel en desktop op meerdere pagina's. Aangedreven door Google PageSpeed Insights.",
+    "ogTitle": "Gratis Core Web Vitals Checker | EcomSEO"
   }
 }

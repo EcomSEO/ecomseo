@@ -298,5 +298,30 @@
     "title": "Verificatore Tag Canonical Gratuito | EcomSEO",
     "description": "Valida i tag canonical delle tue pagine. Rileva canonical mancanti, conflitti e differenze HTTP/HTTPS.",
     "ogTitle": "Verificatore Canonical Gratuito | EcomSEO"
+  },
+  "/tools/indexability-checker": {
+    "title": "Checker Indicizzabilità in Blocco Gratuito | EcomSEO",
+    "description": "Controlla se le tue pagine sono indicizzabili. Rileva tag noindex, header X-Robots-Tag e blocchi robots.txt in blocco.",
+    "ogTitle": "Checker Indicizzabilità Gratuito | EcomSEO"
+  },
+  "/tools/page-type-classifier": {
+    "title": "Classificatore Tipi di Pagina Ecommerce Gratuito | EcomSEO",
+    "description": "Classifica automaticamente gli URL come prodotto, categoria, blog, homepage, carrello e altro. Ideale per audit SEO ecommerce.",
+    "ogTitle": "Classificatore Tipi di Pagina Gratuito | EcomSEO"
+  },
+  "/tools/sitemap-comparison": {
+    "title": "Strumento di Confronto Sitemap Gratuito | EcomSEO",
+    "description": "Confronta due sitemap XML per trovare URL mancanti e lacune di copertura. Ideale per analisi dei concorrenti e audit staging.",
+    "ogTitle": "Strumento di Confronto Sitemap Gratuito | EcomSEO"
+  },
+  "/tools/thin-content-checker": {
+    "title": "Checker Contenuto Sottile e Conteggio Parole Gratuito | EcomSEO",
+    "description": "Rileva le pagine con troppo poco contenuto. Analizzatore di parole in blocco — controlla fino a 20 URL alla volta.",
+    "ogTitle": "Checker Contenuto Sottile Gratuito | EcomSEO"
+  },
+  "/tools/core-web-vitals": {
+    "title": "Checker Core Web Vitals Gratuito - LCP, CLS e INP | EcomSEO",
+    "description": "Controlla i punteggi LCP, CLS e INP per mobile e desktop su più pagine. Basato su Google PageSpeed Insights.",
+    "ogTitle": "Checker Core Web Vitals Gratuito | EcomSEO"
   }
 }

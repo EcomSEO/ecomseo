@@ -178,4 +178,9 @@ export const staticRoutes = [
   "/blog/ecommerce-seo-marketing",
   "/blog/enterprise-ecommerce-seo",
   "/blog/author/fabian-van-til",
+  "/tools/indexability-checker",
+  "/tools/page-type-classifier",
+  "/tools/sitemap-comparison",
+  "/tools/thin-content-checker",
+  "/tools/core-web-vitals",
 ];

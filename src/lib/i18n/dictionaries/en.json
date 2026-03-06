@@ -298,5 +298,30 @@
     "title": "Free Canonical Tag Checker & Validator | EcomSEO",
     "description": "Validate canonical tags across your pages. Detect missing canonicals, conflicts, HTTP/HTTPS mismatches, and duplicate content issues. Free SEO tool.",
     "ogTitle": "Free Canonical Tag Checker - Find Duplicate Content Issues | EcomSEO"
+  },
+  "/tools/indexability-checker": {
+    "title": "Free Bulk Indexability Checker - Noindex & Robots.txt | EcomSEO",
+    "description": "Check if your pages are indexable. Detect noindex meta tags, X-Robots-Tag headers, robots.txt blocks and HTTP errors in bulk. Free SEO tool.",
+    "ogTitle": "Free Bulk Indexability Checker - Find Crawl & Index Issues | EcomSEO"
+  },
+  "/tools/page-type-classifier": {
+    "title": "Free Ecommerce Page Type Classifier | EcomSEO",
+    "description": "Auto-classify URLs as product, category, blog, homepage, cart, checkout, and more. Ideal for ecommerce SEO audits. Free, no signup required.",
+    "ogTitle": "Free Ecommerce Page Type Classifier - Identify Page Types | EcomSEO"
+  },
+  "/tools/sitemap-comparison": {
+    "title": "Free Sitemap Comparison Tool - Compare XML Sitemaps | EcomSEO",
+    "description": "Compare two XML sitemaps side-by-side to find missing URLs, new pages, and coverage gaps. Ideal for competitor analysis and staging audits.",
+    "ogTitle": "Free Sitemap Comparison Tool - Find Missing & New URLs | EcomSEO"
+  },
+  "/tools/thin-content-checker": {
+    "title": "Free Thin Content & Word Count Checker | EcomSEO",
+    "description": "Detect pages with too little content that may hurt your search rankings. Bulk word count analyzer — check up to 20 URLs at once. Free SEO tool.",
+    "ogTitle": "Free Thin Content Checker - Find Low Word Count Pages | EcomSEO"
+  },
+  "/tools/core-web-vitals": {
+    "title": "Free Core Web Vitals Checker - LCP, CLS & INP | EcomSEO",
+    "description": "Check LCP, CLS, and INP scores for mobile and desktop across multiple pages. Powered by Google PageSpeed Insights. Free bulk SEO performance tool.",
+    "ogTitle": "Free Core Web Vitals Checker - LCP, CLS & INP Bulk Tool | EcomSEO"
   }
 }
