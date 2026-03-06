@@ -4,7 +4,6 @@ import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import Image from "next/image";
 import Navigation from "@/components/sections/Navigation";
-import CTA from "@/components/sections/CTA";
 import Footer from "@/components/sections/Footer";
 import Badge from "@/components/ui/Badge";
 import Button from "@/components/ui/Button";
@@ -612,7 +611,6 @@ export default function ServicePageTemplate({
           }
         })}
         <FAQSection items={faqs.items} miniCta={faqs.miniCta} locale={locale} />
-        <CTA />
       </main>
       <Footer />
     </>
