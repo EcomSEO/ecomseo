@@ -7,7 +7,6 @@ import { useLocale } from "@/lib/i18n/useTranslations";
 import { aboutUsT } from "@/lib/i18n/translations/home";
 
 const clientLogos = [
-  { src: "/images/clients/hike.svg", alt: "Hike" },
   { src: "/images/clients/me-logo.png", alt: "Mother's Earth" },
   { src: "/images/clients/tobios-logo.png", alt: "Tobio's Kits" },
   { src: "/images/clients/heyshape.svg", alt: "HEYSHAPE" },
