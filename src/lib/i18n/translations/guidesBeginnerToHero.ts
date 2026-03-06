@@ -25,7 +25,7 @@ export const guidesBeginnerToHeroT: Record<
         blocks: [
           {
             type: "p",
-            text: "This is not a collection of tips. It is a linear learning path. The goal at the end is not to understand SEO in theory \u2014 it is to have a working SEO system for your specific store, with real keyword targets, a fixed audit schedule, and enough confidence to diagnose problems yourself when rankings drop.",
+            text: "This is not a collection of tips. It is a linear learning path. The goal at the end is not to understand SEO in theory. It is to have a working SEO system for your specific store, with real keyword targets, a fixed audit schedule, and enough confidence to diagnose problems yourself when rankings drop.",
           },
           {
             type: "callout",
@@ -103,7 +103,7 @@ export const guidesBeginnerToHeroT: Record<
         blocks: [
           {
             type: "p",
-            text: "With your 20 target keywords in hand, weeks 5-6 are about making sure the right pages are optimised for those keywords. This is not about stuffing keywords into titles \u2014 it is about making each page the most genuinely useful result for its target query.",
+            text: "With your 20 target keywords in hand, weeks 5-6 are about making sure the right pages are optimised for those keywords. Do not stuff keywords into titles. Instead, make each page the most genuinely useful result for its target query.",
           },
           {
             type: "list",
@@ -118,7 +118,7 @@ export const guidesBeginnerToHeroT: Record<
           {
             type: "callout",
             title: "The on-page priority order",
-            text: "Fix title tags first \u2014 they have the highest impact per hour of work. Then meta descriptions. Then content. Resist the urge to redesign pages or change URLs at this stage unless they are actively harming you. Stability helps rankings. Run a full on-page audit using the checklist at /guides/on-page-audit.",
+            text: "Fix title tags first. They have the highest impact per hour of work. Meta descriptions second, then content. Resist the urge to redesign pages or change URLs at this stage unless they are actively harming you. Stability helps rankings. Run a full on-page audit using the checklist at /guides/on-page-audit.",
           },
         ],
       },
@@ -152,16 +152,16 @@ export const guidesBeginnerToHeroT: Record<
         blocks: [
           {
             type: "p",
-            text: "Everything before this stage is table stakes. If your competitors have more links from more authoritative sites, they will outrank you on most competitive keywords even if your on-page and technical SEO is better. Authority building is a long game \u2014 do not expect results in 2 weeks. But without it, you will plateau.",
+            text: "Everything before this stage is table stakes. If your competitors have more links from more authoritative sites, they will outrank you on most competitive keywords even if your on-page and technical SEO is better. Authority building is a long game, so do not expect results in 2 weeks. But without it, you will plateau.",
           },
           {
             type: "list",
             items: [
               "Run the link gap analysis: find the domains that link to your top 3 competitors but not to you \u2014 these are your first outreach targets",
-              "Create content worth linking to: data studies, original research, buying guides, comparison pages \u2014 not thin product descriptions",
+              "Create content worth linking to: data studies, original research, buying guides, comparison pages. Not thin product descriptions.",
               "Build topical authority: publish a cluster of articles around your core product categories so Google sees your site as an authority on those topics \u2014 see /guides/topical-authority",
               "Digital PR: reach out to journalists and bloggers covering your niche with newsworthy angles (product launches, original data, trend pieces)",
-              "Supplier and partner links: often overlooked, these are easy wins \u2014 ask suppliers, distributors, and business partners to link to your store",
+              "Supplier and partner links: often overlooked but easy to get. Ask suppliers, distributors, and business partners to link to your store",
             ],
           },
           {
@@ -184,10 +184,10 @@ export const guidesBeginnerToHeroT: Record<
             items: [
               "Run a fresh crawl with Screaming Frog and compare against the previous quarter \u2014 look for new 4xx errors, new duplicate content, crawl budget waste",
               "Pull the GSC Search Results report for the full quarter: which keywords improved, which dropped? Investigate drops before assuming algorithm updates.",
-              "Export GA4 organic revenue for the quarter vs same quarter last year \u2014 if it is down, trace the drop to specific pages using the Landing Pages report",
+              "Export GA4 organic revenue for the quarter vs same quarter last year. If it is down, trace the drop to specific pages using the Landing Pages report",
               "Refresh the keyword list: add new keywords from GSC impressions data, remove keywords where you have hit page 1 and they are stable",
-              "Run the on-page checklist on the 10 most important pages \u2014 things drift over time as teams update content without SEO review",
-              "Check Core Web Vitals again \u2014 a platform update, new app install, or image size regression can silently tank page speed",
+              "Run the on-page checklist on the 10 most important pages. Things drift over time as teams update content without SEO review",
+              "Check Core Web Vitals again. A platform update, new app install, or image size regression can silently tank page speed",
               "Review the backlink profile: any new toxic links? Any lost links from important referring domains? Address both.",
             ],
           },
@@ -225,7 +225,7 @@ export const guidesBeginnerToHeroT: Record<
         blocks: [
           {
             type: "p",
-            text: "Das ist keine Sammlung von Tipps. Es ist ein linearer Lernpfad. Das Ziel am Ende ist nicht, SEO in der Theorie zu verstehen \u2014 sondern ein funktionierendes SEO-System f\u00fcr deinen spezifischen Shop aufzubauen, mit echten Keyword-Zielen, einem festen Audit-Rhythmus und gen\u00fcgend Sicherheit, um Probleme selbst zu diagnostizieren, wenn Rankings einbrechen.",
+            text: "Das ist keine Sammlung von Tipps. Es ist ein linearer Lernpfad. Das Ziel am Ende ist nicht, SEO in der Theorie zu verstehen, sondern ein funktionierendes SEO-System f\u00fcr deinen spezifischen Shop aufzubauen, mit echten Keyword-Zielen, einem festen Audit-Rhythmus und gen\u00fcgend Sicherheit, um Probleme selbst zu diagnostizieren, wenn Rankings einbrechen.",
           },
           {
             type: "callout",
@@ -303,7 +303,7 @@ export const guidesBeginnerToHeroT: Record<
         blocks: [
           {
             type: "p",
-            text: "Mit den 20 Ziel-Keywords in der Hand geht es in den Wochen 5-6 darum, sicherzustellen, dass die richtigen Seiten f\u00fcr diese Keywords optimiert sind. Das bedeutet nicht, Keywords in Titel zu stopfen \u2014 sondern jede Seite zum wirklich n\u00fctzlichsten Ergebnis f\u00fcr ihre Zielsuche zu machen.",
+            text: "Mit den 20 Ziel-Keywords in der Hand geht es in den Wochen 5-6 darum, sicherzustellen, dass die richtigen Seiten f\u00fcr diese Keywords optimiert sind. Keywords in Titel zu stopfen bringt nichts. Stattdessen sollte jede Seite das wirklich n\u00fctzlichste Ergebnis f\u00fcr ihre Zielsuche sein.",
           },
           {
             type: "list",
@@ -318,7 +318,7 @@ export const guidesBeginnerToHeroT: Record<
           {
             type: "callout",
             title: "Die richtige Reihenfolge bei On-Page-Korrekturen",
-            text: "Zuerst Title-Tags korrigieren \u2014 der h\u00f6chste Effekt pro Arbeitsstunde. Dann Meta-Beschreibungen. Dann Inhalte. Dem Drang widerstehen, Seiten umzugestalten oder URLs zu \u00e4ndern, es sei denn, sie schaden aktiv. Stabilit\u00e4t hilft Rankings. Einen vollst\u00e4ndigen On-Page-Audit mit der Checkliste unter /guides/on-page-audit durchf\u00fchren.",
+            text: "Zuerst Title-Tags korrigieren. Die haben den h\u00f6chsten Effekt pro Arbeitsstunde. Danach Meta-Beschreibungen, dann Inhalte. Dem Drang widerstehen, Seiten umzugestalten oder URLs zu \u00e4ndern, es sei denn, sie schaden aktiv. Stabilit\u00e4t hilft Rankings. Einen vollst\u00e4ndigen On-Page-Audit mit der Checkliste unter /guides/on-page-audit durchf\u00fchren.",
           },
         ],
       },
@@ -352,16 +352,16 @@ export const guidesBeginnerToHeroT: Record<
         blocks: [
           {
             type: "p",
-            text: "Alles vor dieser Stufe ist Voraussetzung. Wenn Konkurrenten mehr Links von autorit\u00e4tiveren Seiten haben, werden sie bei den meisten umk\u00e4mpften Keywords besser ranken \u2014 selbst wenn On-Page-SEO und Technik besser sind. Autorit\u00e4tsaufbau ist ein langes Spiel \u2014 in 2 Wochen keine Ergebnisse erwarten. Aber ohne ihn stagniert man.",
+            text: "Alles vor dieser Stufe ist Voraussetzung. Wenn Konkurrenten mehr Links von autorit\u00e4tiveren Seiten haben, werden sie bei den meisten umk\u00e4mpften Keywords besser ranken, selbst wenn On-Page-SEO und Technik besser sind. Autorit\u00e4tsaufbau ist ein langes Spiel. In 2 Wochen keine Ergebnisse erwarten. Aber ohne ihn stagniert man.",
           },
           {
             type: "list",
             items: [
               "Link-Gap-Analyse durchf\u00fchren: Domains finden, die auf die Top-3-Konkurrenten verlinken, aber nicht auf den eigenen Shop \u2014 das sind die ersten Outreach-Ziele",
-              "Verlinkungsw\u00fcrdige Inhalte erstellen: Datenstudien, eigene Recherchen, Kaufratgeber, Vergleichsseiten \u2014 keine d\u00fcnnen Produktbeschreibungen",
+              "Verlinkungsw\u00fcrdige Inhalte erstellen: Datenstudien, eigene Recherchen, Kaufratgeber, Vergleichsseiten. Keine d\u00fcnnen Produktbeschreibungen.",
               "Thematische Autorit\u00e4t aufbauen: ein Cluster von Artikeln rund um die Kernprodukt-Kategorien ver\u00f6ffentlichen, damit Google die Website als Autorit\u00e4t in diesen Themen wahrnimmt \u2014 siehe /guides/topical-authority",
               "Digital PR: Journalisten und Blogger, die \u00fcber die eigene Nische berichten, mit nachrichtentauglichen Winkeln ansprechen (Produkteinf\u00fchrungen, Originaldaten, Trendbeitr\u00e4ge)",
-              "Lieferanten- und Partnerlinks: oft \u00fcbersehen, aber einfache Gewinne \u2014 Lieferanten, Distributoren und Gesch\u00e4ftspartner um einen Link zum Shop bitten",
+              "Lieferanten- und Partnerlinks: oft \u00fcbersehen, aber leicht zu bekommen. Lieferanten, Distributoren und Gesch\u00e4ftspartner um einen Link zum Shop bitten",
             ],
           },
           {
@@ -384,10 +384,10 @@ export const guidesBeginnerToHeroT: Record<
             items: [
               "Neuen Crawl mit Screaming Frog durchf\u00fchren und mit dem Vorquartal vergleichen \u2014 auf neue 4xx-Fehler, neue Duplicate-Content-Probleme und Crawlbudget-Verschwendung achten",
               "GSC-Suchergebnis-Bericht f\u00fcr das gesamte Quartal ziehen: Welche Keywords haben sich verbessert, welche sind gefallen? Einbr\u00fcche untersuchen, bevor man Algorithmus-Updates annimmt.",
-              "GA4 organischen Umsatz f\u00fcr das Quartal vs. dasselbe Quartal des Vorjahres exportieren \u2014 bei R\u00fcckgang den Einbruch \u00fcber den Landing Pages-Bericht auf bestimmte Seiten zur\u00fcckverfolgen",
+              "GA4 organischen Umsatz f\u00fcr das Quartal vs. dasselbe Quartal des Vorjahres exportieren. Bei R\u00fcckgang den Einbruch \u00fcber den Landing Pages-Bericht auf bestimmte Seiten zur\u00fcckverfolgen",
               "Keyword-Liste auffrischen: neue Keywords aus GSC-Impressionsdaten hinzuf\u00fcgen, Keywords entfernen, bei denen man Seite 1 erreicht hat und stabil ist",
-              "On-Page-Checkliste auf den 10 wichtigsten Seiten durchf\u00fchren \u2014 Inhalte driften mit der Zeit, wenn Teams sie ohne SEO-Review aktualisieren",
-              "Core Web Vitals erneut pr\u00fcfen \u2014 ein Plattform-Update, eine neue App oder ein Bildgr\u00f6\u00dfen-Regression kann die Seitengeschwindigkeit still beeintr\u00e4chtigen",
+              "On-Page-Checkliste auf den 10 wichtigsten Seiten durchf\u00fchren. Inhalte driften mit der Zeit, wenn Teams sie ohne SEO-Review aktualisieren",
+              "Core Web Vitals erneut pr\u00fcfen. Ein Plattform-Update, eine neue App oder ein Bildgr\u00f6\u00dfen-Regression kann die Seitengeschwindigkeit still beeintr\u00e4chtigen",
               "Backlink-Profil \u00fcberpr\u00fcfen: Neue toxische Links? Verlorene Links von wichtigen verweisenden Domains? Beides ansprechen.",
             ],
           },
@@ -425,7 +425,7 @@ export const guidesBeginnerToHeroT: Record<
         blocks: [
           {
             type: "p",
-            text: "Ce n\u2019est pas une collection de conseils. C\u2019est un parcours d\u2019apprentissage lin\u00e9aire. L\u2019objectif final n\u2019est pas de comprendre le SEO en th\u00e9orie \u2014 c\u2019est d\u2019avoir un syst\u00e8me SEO op\u00e9rationnel pour votre boutique sp\u00e9cifique, avec de v\u00e9ritables objectifs de mots-cl\u00e9s, un calendrier d\u2019audit fixe, et suffisamment d\u2019assurance pour diagnostiquer les probl\u00e8mes vous-m\u00eame lorsque les positions chutent.",
+            text: "Ce n\u2019est pas une collection de conseils. C\u2019est un parcours d\u2019apprentissage lin\u00e9aire. L\u2019objectif final n\u2019est pas de comprendre le SEO en th\u00e9orie, mais d\u2019avoir un syst\u00e8me SEO op\u00e9rationnel pour votre boutique sp\u00e9cifique, avec de v\u00e9ritables objectifs de mots-cl\u00e9s, un calendrier d\u2019audit fixe, et suffisamment d\u2019assurance pour diagnostiquer les probl\u00e8mes vous-m\u00eame lorsque les positions chutent.",
           },
           {
             type: "callout",
@@ -503,7 +503,7 @@ export const guidesBeginnerToHeroT: Record<
         blocks: [
           {
             type: "p",
-            text: "Avec vos 20 mots-cl\u00e9s cibles en main, les semaines 5-6 consistent \u00e0 s\u2019assurer que les bonnes pages sont optimis\u00e9es pour ces mots-cl\u00e9s. Il ne s\u2019agit pas de bourrer des mots-cl\u00e9s dans des titres \u2014 mais de faire de chaque page le r\u00e9sultat le plus g\u00e9nuinement utile pour sa requ\u00eate cible.",
+            text: "Avec vos 20 mots-cl\u00e9s cibles en main, les semaines 5-6 consistent \u00e0 s\u2019assurer que les bonnes pages sont optimis\u00e9es pour ces mots-cl\u00e9s. Ne bourrez pas de mots-cl\u00e9s dans les titres. Faites plut\u00f4t de chaque page le r\u00e9sultat le plus g\u00e9nuinement utile pour sa requ\u00eate cible.",
           },
           {
             type: "list",
@@ -518,7 +518,7 @@ export const guidesBeginnerToHeroT: Record<
           {
             type: "callout",
             title: "L\u2019ordre de priorit\u00e9 pour les corrections on-page",
-            text: "Corrigez les balises title en premier \u2014 elles ont le plus grand impact par heure de travail. Puis les meta descriptions. Puis le contenu. R\u00e9sistez \u00e0 l\u2019envie de red\u00e9signer des pages ou de changer des URLs \u00e0 ce stade, sauf si elles vous nuisent activement. La stabilit\u00e9 aide les classements. Faites un audit on-page complet avec la checklist sur /guides/on-page-audit.",
+            text: "Corrigez les balises title en premier. Elles ont le plus grand impact par heure de travail. Ensuite les meta descriptions, puis le contenu. R\u00e9sistez \u00e0 l\u2019envie de red\u00e9signer des pages ou de changer des URLs \u00e0 ce stade, sauf si elles vous nuisent activement. La stabilit\u00e9 aide les classements. Faites un audit on-page complet avec la checklist sur /guides/on-page-audit.",
           },
         ],
       },
@@ -552,16 +552,16 @@ export const guidesBeginnerToHeroT: Record<
         blocks: [
           {
             type: "p",
-            text: "Tout ce qui pr\u00e9c\u00e8de cette \u00e9tape est un pr\u00e9requis. Si vos concurrents ont plus de liens provenant de sites plus autoritaires, ils vous surclasseront sur la plupart des mots-cl\u00e9s concurrentiels, m\u00eame si votre SEO on-page et technique est meilleur. La construction d\u2019autorit\u00e9 est un jeu long \u2014 n\u2019attendez pas de r\u00e9sultats en 2 semaines. Mais sans elle, vous plafonnerez.",
+            text: "Tout ce qui pr\u00e9c\u00e8de cette \u00e9tape est un pr\u00e9requis. Si vos concurrents ont plus de liens provenant de sites plus autoritaires, ils vous surclasseront sur la plupart des mots-cl\u00e9s concurrentiels, m\u00eame si votre SEO on-page et technique est meilleur. La construction d\u2019autorit\u00e9 est un jeu long, donc n\u2019attendez pas de r\u00e9sultats en 2 semaines. Mais sans elle, vous plafonnerez.",
           },
           {
             type: "list",
             items: [
               "Faire l\u2019analyse de gap de liens : trouver les domaines qui pointent vers vos 3 principaux concurrents mais pas vers vous \u2014 ce sont vos premi\u00e8res cibles d\u2019approche",
-              "Cr\u00e9er du contenu qui m\u00e9rite d\u2019\u00eatre li\u00e9 : \u00e9tudes de donn\u00e9es, recherches originales, guides d\u2019achat, pages de comparaison \u2014 pas des descriptions de produits effil\u00e9es",
+              "Cr\u00e9er du contenu qui m\u00e9rite d\u2019\u00eatre li\u00e9 : \u00e9tudes de donn\u00e9es, recherches originales, guides d\u2019achat, pages de comparaison. Pas des descriptions de produits effil\u00e9es.",
               "Construire l\u2019autorit\u00e9 th\u00e9matique : publier un cluster d\u2019articles autour de vos cat\u00e9gories produit principales pour que Google percoive votre site comme une autorit\u00e9 sur ces sujets \u2014 voir /guides/topical-authority",
               "RP digital : contacter les journalistes et blogueurs couvrant votre niche avec des angles newsworthy (lancements produit, donn\u00e9es originales, tendances)",
-              "Liens fournisseurs et partenaires : souvent n\u00e9glig\u00e9s, ce sont des gains faciles \u2014 demander aux fournisseurs, distributeurs et partenaires commerciaux de lier vers votre boutique",
+              "Liens fournisseurs et partenaires : souvent n\u00e9glig\u00e9s mais faciles \u00e0 obtenir. Demandez aux fournisseurs, distributeurs et partenaires commerciaux de lier vers votre boutique",
             ],
           },
           {
@@ -584,10 +584,10 @@ export const guidesBeginnerToHeroT: Record<
             items: [
               "Faire un nouveau crawl avec Screaming Frog et le comparer au trimestre pr\u00e9c\u00e9dent \u2014 chercher les nouvelles erreurs 4xx, les nouveaux contenus dupliqu\u00e9s, le gaspillage de budget de crawl",
               "Extraire le rapport de r\u00e9sultats de recherche GSC pour tout le trimestre : quels mots-cl\u00e9s ont progress\u00e9, lesquels ont chut\u00e9 ? Investiguer les baisses avant de supposer une mise \u00e0 jour d\u2019algorithme.",
-              "Exporter le CA organique GA4 pour le trimestre vs le m\u00eame trimestre l\u2019ann\u00e9e derni\u00e8re \u2014 en cas de baisse, retracer la chute vers des pages sp\u00e9cifiques via le rapport Pages de destination",
+              "Exporter le CA organique GA4 pour le trimestre vs le m\u00eame trimestre l\u2019ann\u00e9e derni\u00e8re. En cas de baisse, retracer la chute vers des pages sp\u00e9cifiques via le rapport Pages de destination",
               "Mettre \u00e0 jour la liste de mots-cl\u00e9s : ajouter de nouveaux mots-cl\u00e9s depuis les donn\u00e9es d\u2019impressions GSC, supprimer les mots-cl\u00e9s pour lesquels vous avez atteint la page 1 et qui sont stables",
-              "Faire la checklist on-page sur les 10 pages les plus importantes \u2014 les choses d\u00e9rivent avec le temps quand les \u00e9quipes mettent \u00e0 jour le contenu sans relecture SEO",
-              "Re-v\u00e9rifier les Core Web Vitals \u2014 une mise \u00e0 jour de plateforme, l\u2019installation d\u2019une nouvelle app ou une r\u00e9gression de taille d\u2019image peut silencieusement d\u00e9grader la vitesse de page",
+              "Faire la checklist on-page sur les 10 pages les plus importantes. Les choses d\u00e9rivent avec le temps quand les \u00e9quipes mettent \u00e0 jour le contenu sans relecture SEO",
+              "Re-v\u00e9rifier les Core Web Vitals. Une mise \u00e0 jour de plateforme, l\u2019installation d\u2019une nouvelle app ou une r\u00e9gression de taille d\u2019image peut silencieusement d\u00e9grader la vitesse de page",
               "Examiner le profil de backlinks : nouveaux liens toxiques ? Liens perdus depuis des domaines r\u00e9f\u00e9rents importants ? G\u00e9rez les deux.",
             ],
           },
@@ -625,7 +625,7 @@ export const guidesBeginnerToHeroT: Record<
         blocks: [
           {
             type: "p",
-            text: "Esto no es una colecci\u00f3n de consejos. Es un camino de aprendizaje lineal. El objetivo al final no es entender el SEO en teor\u00eda \u2014 es tener un sistema SEO funcionando para tu tienda concreta, con objetivos reales de palabras clave, un calendario de auditor\u00eda fijo, y suficiente confianza para diagnosticar problemas t\u00fa mismo cuando caigan las posiciones.",
+            text: "Esto no es una colecci\u00f3n de consejos. Es un camino de aprendizaje lineal. El objetivo al final no es entender el SEO en teor\u00eda, sino tener un sistema SEO funcionando para tu tienda concreta, con objetivos reales de palabras clave, un calendario de auditor\u00eda fijo, y suficiente confianza para diagnosticar problemas t\u00fa mismo cuando caigan las posiciones.",
           },
           {
             type: "callout",
@@ -703,7 +703,7 @@ export const guidesBeginnerToHeroT: Record<
         blocks: [
           {
             type: "p",
-            text: "Con tus 20 palabras clave objetivo en mano, las semanas 5-6 consisten en asegurarse de que las p\u00e1ginas correctas est\u00e1n optimizadas para esas palabras clave. No se trata de meter palabras clave a la fuerza en los t\u00edtulos \u2014 se trata de hacer que cada p\u00e1gina sea el resultado m\u00e1s genuinamente \u00fatil para su consulta objetivo.",
+            text: "Con tus 20 palabras clave objetivo en mano, las semanas 5-6 consisten en asegurarse de que las p\u00e1ginas correctas est\u00e1n optimizadas para esas palabras clave. No metas palabras clave a la fuerza en los t\u00edtulos. En su lugar, haz que cada p\u00e1gina sea el resultado m\u00e1s genuinamente \u00fatil para su consulta objetivo.",
           },
           {
             type: "list",
@@ -718,7 +718,7 @@ export const guidesBeginnerToHeroT: Record<
           {
             type: "callout",
             title: "El orden de prioridad en las correcciones on-page",
-            text: "Corrige las etiquetas de t\u00edtulo primero \u2014 tienen el mayor impacto por hora de trabajo. Luego las meta descripciones. Luego el contenido. Resiste el impulso de redise\u00f1ar p\u00e1ginas o cambiar URLs en esta etapa a menos que te est\u00e9n perjudicando activamente. La estabilidad ayuda a las posiciones. Ejecuta una auditor\u00eda on-page completa usando el checklist en /guides/on-page-audit.",
+            text: "Corrige las etiquetas de t\u00edtulo primero. Tienen el mayor impacto por hora de trabajo. Despu\u00e9s las meta descripciones, luego el contenido. Resiste el impulso de redise\u00f1ar p\u00e1ginas o cambiar URLs en esta etapa a menos que te est\u00e9n perjudicando activamente. La estabilidad ayuda a las posiciones. Ejecuta una auditor\u00eda on-page completa usando el checklist en /guides/on-page-audit.",
           },
         ],
       },
@@ -752,16 +752,16 @@ export const guidesBeginnerToHeroT: Record<
         blocks: [
           {
             type: "p",
-            text: "Todo lo anterior a esta etapa es el punto de partida m\u00ednimo. Si tus competidores tienen m\u00e1s enlaces de sitios m\u00e1s autoritativos, te superar\u00e1n en la mayor\u00eda de palabras clave competitivas aunque tu SEO on-page y t\u00e9cnico sea mejor. La construcci\u00f3n de autoridad es un juego largo \u2014 no esperes resultados en 2 semanas. Pero sin ella, llegar\u00e1s a un techo.",
+            text: "Todo lo anterior a esta etapa es el punto de partida m\u00ednimo. Si tus competidores tienen m\u00e1s enlaces de sitios m\u00e1s autoritativos, te superar\u00e1n en la mayor\u00eda de palabras clave competitivas aunque tu SEO on-page y t\u00e9cnico sea mejor. La construcci\u00f3n de autoridad es un juego largo, as\u00ed que no esperes resultados en 2 semanas. Pero sin ella, llegar\u00e1s a un techo.",
           },
           {
             type: "list",
             items: [
               "Hacer el an\u00e1lisis de gap de enlaces: encontrar los dominios que enlazan a tus 3 principales competidores pero no a ti \u2014 estos son tus primeros objetivos de outreach",
-              "Crear contenido que merezca ser enlazado: estudios de datos, investigaci\u00f3n original, gu\u00edas de compra, p\u00e1ginas de comparaci\u00f3n \u2014 no descripciones de productos escuetas",
+              "Crear contenido que merezca ser enlazado: estudios de datos, investigaci\u00f3n original, gu\u00edas de compra, p\u00e1ginas de comparaci\u00f3n. No descripciones de productos escuetas.",
               "Construir autoridad tem\u00e1tica: publicar un cluster de art\u00edculos en torno a tus categor\u00edas principales de producto para que Google perciba tu sitio como una autoridad en esos temas \u2014 ver /guides/topical-authority",
               "PR digital: contactar a periodistas y bloggers que cubren tu nicho con \u00e1ngulos con valor noticioso (lanzamientos de producto, datos originales, tendencias del sector)",
-              "Enlaces de proveedores y socios: a menudo ignorados, son ganancias f\u00e1ciles \u2014 pide a proveedores, distribuidores y socios comerciales que enlacen a tu tienda",
+              "Enlaces de proveedores y socios: a menudo ignorados pero f\u00e1ciles de conseguir. Pide a proveedores, distribuidores y socios comerciales que enlacen a tu tienda",
             ],
           },
           {
@@ -784,10 +784,10 @@ export const guidesBeginnerToHeroT: Record<
             items: [
               "Ejecutar un nuevo rastreo con Screaming Frog y comparar con el trimestre anterior \u2014 buscar nuevos errores 4xx, nuevo contenido duplicado, gasto de presupuesto de rastreo",
               "Extraer el informe de Resultados de b\u00fasqueda de GSC para todo el trimestre: \u00bfqu\u00e9 palabras clave han mejorado, cu\u00e1les han ca\u00eddo? Investigar las ca\u00eddas antes de asumir actualizaciones de algoritmo.",
-              "Exportar el revenue org\u00e1nico de GA4 para el trimestre vs el mismo trimestre del a\u00f1o anterior \u2014 si ha bajado, rastrear la ca\u00edda hasta p\u00e1ginas espec\u00edficas usando el informe de P\u00e1ginas de destino",
+              "Exportar el revenue org\u00e1nico de GA4 para el trimestre vs el mismo trimestre del a\u00f1o anterior. Si ha bajado, rastrear la ca\u00edda hasta p\u00e1ginas espec\u00edficas usando el informe de P\u00e1ginas de destino",
               "Actualizar la lista de palabras clave: a\u00f1adir nuevas palabras clave desde datos de impresiones de GSC, eliminar palabras clave donde ya se ha alcanzado la p\u00e1gina 1 y est\u00e1n estables",
-              "Ejecutar el checklist on-page en las 10 p\u00e1ginas m\u00e1s importantes \u2014 las cosas se desajustan con el tiempo cuando los equipos actualizan contenido sin revisi\u00f3n SEO",
-              "Comprobar de nuevo los Core Web Vitals \u2014 una actualizaci\u00f3n de plataforma, la instalaci\u00f3n de una nueva app o una regresi\u00f3n en el tama\u00f1o de im\u00e1genes puede deteriorar silenciosamente la velocidad de p\u00e1gina",
+              "Ejecutar el checklist on-page en las 10 p\u00e1ginas m\u00e1s importantes. Las cosas se desajustan con el tiempo cuando los equipos actualizan contenido sin revisi\u00f3n SEO",
+              "Comprobar de nuevo los Core Web Vitals. Una actualizaci\u00f3n de plataforma, la instalaci\u00f3n de una nueva app o una regresi\u00f3n en el tama\u00f1o de im\u00e1genes puede deteriorar silenciosamente la velocidad de p\u00e1gina",
               "Revisar el perfil de backlinks: \u00bfalguno nuevo enlace t\u00f3xico? \u00bfEnlaces perdidos de dominios de referencia importantes? Aborda ambas cosas.",
             ],
           },
@@ -825,7 +825,7 @@ export const guidesBeginnerToHeroT: Record<
         blocks: [
           {
             type: "p",
-            text: "Non \u00e8 una raccolta di consigli. \u00c8 un percorso di apprendimento lineare. L\u2019obiettivo finale non \u00e8 capire la SEO in teoria \u2014 ma avere un sistema SEO funzionante per il tuo negozio specifico, con obiettivi reali di keyword, un calendario di audit fisso, e abbastanza sicurezza per diagnosticare i problemi da solo quando le posizioni calano.",
+            text: "Non \u00e8 una raccolta di consigli. \u00c8 un percorso di apprendimento lineare. L\u2019obiettivo finale non \u00e8 capire la SEO in teoria, ma avere un sistema SEO funzionante per il tuo negozio specifico, con obiettivi reali di keyword, un calendario di audit fisso, e abbastanza sicurezza per diagnosticare i problemi da solo quando le posizioni calano.",
           },
           {
             type: "callout",
@@ -903,7 +903,7 @@ export const guidesBeginnerToHeroT: Record<
         blocks: [
           {
             type: "p",
-            text: "Con le 20 keyword target in mano, le settimane 5-6 consistono nell\u2019assicurarsi che le pagine giuste siano ottimizzate per quelle keyword. Non si tratta di infilare keyword nei titoli \u2014 ma di rendere ogni pagina il risultato genuinamente pi\u00f9 utile per la sua query target.",
+            text: "Con le 20 keyword target in mano, le settimane 5-6 consistono nell\u2019assicurarsi che le pagine giuste siano ottimizzate per quelle keyword. Non infilare keyword nei titoli. Piuttosto, rendi ogni pagina il risultato genuinamente pi\u00f9 utile per la sua query target.",
           },
           {
             type: "list",
@@ -918,7 +918,7 @@ export const guidesBeginnerToHeroT: Record<
           {
             type: "callout",
             title: "L\u2019ordine di priorit\u00e0 nelle correzioni on-page",
-            text: "Correggi prima i tag title \u2014 hanno il massimo impatto per ora di lavoro. Poi le meta description. Poi i contenuti. Resisti all\u2019impulso di ridisegnare le pagine o cambiare gli URL in questa fase, a meno che non ti stiano attivamente danneggiando. La stabilit\u00e0 aiuta le posizioni. Esegui un audit on-page completo usando la checklist su /guides/on-page-audit.",
+            text: "Correggi prima i tag title. Hanno il massimo impatto per ora di lavoro. Poi le meta description, poi i contenuti. Resisti all\u2019impulso di ridisegnare le pagine o cambiare gli URL in questa fase, a meno che non ti stiano attivamente danneggiando. La stabilit\u00e0 aiuta le posizioni. Esegui un audit on-page completo usando la checklist su /guides/on-page-audit.",
           },
         ],
       },
@@ -952,16 +952,16 @@ export const guidesBeginnerToHeroT: Record<
         blocks: [
           {
             type: "p",
-            text: "Tutto ci\u00f2 che precede questa fase \u00e8 il requisito minimo. Se i tuoi competitor hanno pi\u00f9 link da siti pi\u00f9 autorevoli, ti supereranno nella maggior parte delle keyword competitive anche se il tuo SEO on-page e tecnico \u00e8 migliore. Costruire autorit\u00e0 \u00e8 un gioco lungo \u2014 non aspettarti risultati in 2 settimane. Ma senza di essa, arriverai a un tetto.",
+            text: "Tutto ci\u00f2 che precede questa fase \u00e8 il requisito minimo. Se i tuoi competitor hanno pi\u00f9 link da siti pi\u00f9 autorevoli, ti supereranno nella maggior parte delle keyword competitive anche se il tuo SEO on-page e tecnico \u00e8 migliore. Costruire autorit\u00e0 \u00e8 un gioco lungo, quindi non aspettarti risultati in 2 settimane. Ma senza di essa, arriverai a un tetto.",
           },
           {
             type: "list",
             items: [
               "Fare l\u2019analisi del gap di link: trovare i domini che linkano ai tuoi 3 principali competitor ma non a te \u2014 questi sono i tuoi primi target di outreach",
-              "Creare contenuto che meriti di essere linkato: studi sui dati, ricerche originali, guide all\u2019acquisto, pagine di confronto \u2014 non descrizioni di prodotto scarne",
+              "Creare contenuto che meriti di essere linkato: studi sui dati, ricerche originali, guide all\u2019acquisto, pagine di confronto. Non descrizioni di prodotto scarne.",
               "Costruire autorit\u00e0 tematica: pubblicare un cluster di articoli intorno alle tue categorie prodotto principali perch\u00e9 Google percepisca il tuo sito come un\u2019autorit\u00e0 su quei temi \u2014 vedi /guides/topical-authority",
               "PR digitale: contattare giornalisti e blogger che coprono la tua nicchia con angolazioni degne di nota (lanci di prodotto, dati originali, articoli di tendenza)",
-              "Link da fornitori e partner: spesso ignorati, sono guadagni facili \u2014 chiedi a fornitori, distributori e partner commerciali di linkare al tuo negozio",
+              "Link da fornitori e partner: spesso ignorati ma facili da ottenere. Chiedi a fornitori, distributori e partner commerciali di linkare al tuo negozio",
             ],
           },
           {
@@ -984,10 +984,10 @@ export const guidesBeginnerToHeroT: Record<
             items: [
               "Eseguire una nuova scansione con Screaming Frog e confrontarla con il trimestre precedente \u2014 cercare nuovi errori 4xx, nuovi contenuti duplicati, spreco di budget di scansione",
               "Estrarre il report dei Risultati di ricerca GSC per l\u2019intero trimestre: quali keyword sono migliorate, quali sono calate? Indagare i cali prima di ipotizzare aggiornamenti algoritmo.",
-              "Esportare il fatturato organico GA4 per il trimestre vs lo stesso trimestre dell\u2019anno precedente \u2014 in caso di calo, risalire al calo verso pagine specifiche usando il report Pagine di destinazione",
+              "Esportare il fatturato organico GA4 per il trimestre vs lo stesso trimestre dell\u2019anno precedente. In caso di calo, risalire al calo verso pagine specifiche usando il report Pagine di destinazione",
               "Aggiornare la lista keyword: aggiungere nuove keyword dai dati di impressioni GSC, rimuovere keyword dove si \u00e8 raggiunta la prima pagina e sono stabili",
-              "Eseguire la checklist on-page sulle 10 pagine pi\u00f9 importanti \u2014 le cose si deteriorano nel tempo quando i team aggiornano i contenuti senza revisione SEO",
-              "Ricontrollare i Core Web Vitals \u2014 un aggiornamento di piattaforma, l\u2019installazione di una nuova app o una regressione nella dimensione delle immagini pu\u00f2 silenziosamente peggiorare la velocit\u00e0 della pagina",
+              "Eseguire la checklist on-page sulle 10 pagine pi\u00f9 importanti. Le cose si deteriorano nel tempo quando i team aggiornano i contenuti senza revisione SEO",
+              "Ricontrollare i Core Web Vitals. Un aggiornamento di piattaforma, l\u2019installazione di una nuova app o una regressione nella dimensione delle immagini pu\u00f2 silenziosamente peggiorare la velocit\u00e0 della pagina",
               "Esaminare il profilo di backlink: nuovi link tossici? Link persi da domini di riferimento importanti? Gestisci entrambe le situazioni.",
             ],
           },
@@ -1025,7 +1025,7 @@ export const guidesBeginnerToHeroT: Record<
         blocks: [
           {
             type: "p",
-            text: "Dit is geen verzameling tips. Het is een lineair leerpad. Het doel aan het einde is niet om SEO in theorie te begrijpen \u2014 maar om een werkend SEO-systeem te hebben voor jouw specifieke winkel, met echte zoekwoorddoelen, een vast auditschema, en genoeg vertrouwen om problemen zelf te diagnosticeren als posities dalen.",
+            text: "Dit is geen verzameling tips. Het is een lineair leerpad. Het doel aan het einde is niet om SEO in theorie te begrijpen, maar om een werkend SEO-systeem te hebben voor jouw specifieke winkel, met echte zoekwoorddoelen, een vast auditschema, en genoeg vertrouwen om problemen zelf te diagnosticeren als posities dalen.",
           },
           {
             type: "callout",
@@ -1103,7 +1103,7 @@ export const guidesBeginnerToHeroT: Record<
         blocks: [
           {
             type: "p",
-            text: "Met je 20 doelzoekwoorden in de hand gaan weken 5-6 over ervoor zorgen dat de juiste pagina's geoptimaliseerd zijn voor die zoekwoorden. Dit gaat niet over zoekwoorden in titels proppen \u2014 maar over het maken van elke pagina tot het meest genuinst nuttige resultaat voor zijn doelzoekopdracht.",
+            text: "Met je 20 doelzoekwoorden in de hand gaan weken 5-6 over ervoor zorgen dat de juiste pagina's geoptimaliseerd zijn voor die zoekwoorden. Prop geen zoekwoorden in titels. Maak in plaats daarvan elke pagina het meest oprecht nuttige resultaat voor zijn doelzoekopdracht.",
           },
           {
             type: "list",
@@ -1118,7 +1118,7 @@ export const guidesBeginnerToHeroT: Record<
           {
             type: "callout",
             title: "De prioriteitsvolgorde bij on-page correcties",
-            text: "Herstel title-tags als eerste \u2014 die hebben de grootste impact per uur werk. Dan metabeschrijvingen. Dan content. Weersta de drang om pagina's te herontwerpen of URL's te wijzigen in deze fase, tenzij ze je actief schaden. Stabiliteit helpt posities. Voer een volledige on-page-audit uit met de checklist op /guides/on-page-audit.",
+            text: "Herstel title-tags als eerste. Die hebben de grootste impact per uur werk. Daarna metabeschrijvingen, dan content. Weersta de drang om pagina's te herontwerpen of URL's te wijzigen in deze fase, tenzij ze je actief schaden. Stabiliteit helpt posities. Voer een volledige on-page-audit uit met de checklist op /guides/on-page-audit.",
           },
         ],
       },
@@ -1152,16 +1152,16 @@ export const guidesBeginnerToHeroT: Record<
         blocks: [
           {
             type: "p",
-            text: "Alles v\u00f3\u00f3r deze fase is het minimumvereiste. Als concurrenten meer links hebben van gezaghebbendere sites, zullen ze je bij de meeste competitieve zoekwoorden overtreffen, ook als je on-page en technische SEO beter is. Autoriteitsopbouw is een lang spel \u2014 verwacht geen resultaten in 2 weken. Maar zonder dit plateau je.",
+            text: "Alles v\u00f3\u00f3r deze fase is het minimumvereiste. Als concurrenten meer links hebben van gezaghebbendere sites, zullen ze je bij de meeste competitieve zoekwoorden overtreffen, ook als je on-page en technische SEO beter is. Autoriteitsopbouw is een lang spel, dus verwacht geen resultaten in 2 weken. Maar zonder dit plateau je.",
           },
           {
             type: "list",
             items: [
               "Voer de linkgapanalyse uit: zoek de domeinen die naar je 3 topcompetitoren linken maar niet naar jou \u2014 dit zijn je eerste outreachtargets",
-              "Maak content die het waard is om naar te linken: datastudies, origineel onderzoek, koopgidsen, vergelijkingspagina's \u2014 geen dunne productbeschrijvingen",
+              "Maak content die het waard is om naar te linken: datastudies, origineel onderzoek, koopgidsen, vergelijkingspagina's. Geen dunne productbeschrijvingen.",
               "Bouw thematische autoriteit op: publiceer een cluster van artikelen rond je kernproductcategorie\u00ebn zodat Google je site ziet als een autoriteit op die onderwerpen \u2014 zie /guides/topical-authority",
               "Digitale PR: benader journalisten en bloggers die jouw niche behandelen met nieuwswaardige invalshoeken (productlanceringen, originele data, trendartikelen)",
-              "Links van leveranciers en partners: vaak over het hoofd gezien maar makkelijke winsten \u2014 vraag leveranciers, distributeurs en zakenpartners om naar je winkel te linken",
+              "Links van leveranciers en partners: vaak over het hoofd gezien maar makkelijk te krijgen. Vraag leveranciers, distributeurs en zakenpartners om naar je winkel te linken",
             ],
           },
           {
@@ -1184,10 +1184,10 @@ export const guidesBeginnerToHeroT: Record<
             items: [
               "Voer een nieuwe crawl uit met Screaming Frog en vergelijk met het vorige kwartaal \u2014 zoek naar nieuwe 4xx-fouten, nieuwe dubbele content, verspilling van crawlbudget",
               "Haal het GSC-zoekresultatenrapport op voor het volledige kwartaal: welke zoekwoorden zijn verbeterd, welke zijn gedaald? Onderzoek dalingen voordat je algoritme-updates aanneemt.",
-              "Exporteer de organische omzet van GA4 voor het kwartaal vs hetzelfde kwartaal vorig jaar \u2014 als die is gedaald, traceer de daling naar specifieke pagina's via het rapport Bestemmingspagina's",
+              "Exporteer de organische omzet van GA4 voor het kwartaal vs hetzelfde kwartaal vorig jaar. Als die is gedaald, traceer de daling naar specifieke pagina's via het rapport Bestemmingspagina's",
               "Ververs de zoekwoordenlijst: voeg nieuwe zoekwoorden toe uit GSC-vertoningsdata, verwijder zoekwoorden waarbij je pagina 1 hebt bereikt en stabiel bent",
-              "Voer de on-page-checklist uit op de 10 belangrijkste pagina's \u2014 dingen verschuiven in de loop van de tijd als teams content bijwerken zonder SEO-review",
-              "Controleer Core Web Vitals opnieuw \u2014 een platformupdate, nieuwe app-installatie of regressie in afbeeldingsgrootte kan de paginasnelheid stilletjes schaden",
+              "Voer de on-page-checklist uit op de 10 belangrijkste pagina's. Dingen verschuiven in de loop van de tijd als teams content bijwerken zonder SEO-review",
+              "Controleer Core Web Vitals opnieuw. Een platformupdate, nieuwe app-installatie of regressie in afbeeldingsgrootte kan de paginasnelheid stilletjes schaden",
               "Bekijk het backlinkprofiel: nieuwe toxische links? Verloren links van belangrijke verwijzende domeinen? Pak beide aan.",
             ],
           },

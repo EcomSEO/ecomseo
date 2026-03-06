@@ -16,7 +16,7 @@ export const guidesCompetitorAnalysisT: Record<
     badge: "Research & Ideation",
     heading: "Competitor Analysis for Ecommerce SEO",
     intro:
-      "Your SEO competitors are not the same as your business competitors. Understanding that difference — and knowing how to systematically pull apart what's working for whoever ranks above you — is one of the highest-leverage activities in ecommerce SEO.",
+      "Your SEO competitors are not the same as your business competitors. Understanding that difference, and knowing how to pull apart what's working for whoever ranks above you, is one of the most productive things you can do in ecommerce SEO.",
     readTime: "15 min read",
     sections: [
       {
@@ -25,7 +25,7 @@ export const guidesCompetitorAnalysisT: Record<
         blocks: [
           {
             type: "p",
-            text: "Your business competitors are the brands you lose sales to. Your SEO competitors are whoever ranks for your keywords — and these are often completely different lists. A media publisher running a \"best [your product]\" roundup is an SEO competitor even if they sell nothing. An affiliate comparison site occupying three spots on page one for your category terms is an SEO competitor. You need to beat them in Google before worrying about beating them in revenue.",
+            text: "Your business competitors are the brands you lose sales to. Your SEO competitors are whoever ranks for your keywords, and these are often completely different lists. A media publisher running a \"best [your product]\" roundup is an SEO competitor even if they sell nothing. An affiliate comparison site occupying three spots on page one for your category terms is an SEO competitor. You need to beat them in Google before worrying about beating them in revenue.",
           },
           {
             type: "p",
@@ -34,13 +34,13 @@ export const guidesCompetitorAnalysisT: Record<
           {
             type: "callout",
             title: "Run a quick SEO competitor check",
-            text: "Search your five most important product-category keywords. Write down who appears in positions 1–5 for each. If the same three to four domains show up consistently, those are your real SEO competitors — regardless of whether you've ever thought of them as competition.",
+            text: "Search your five most important product-category keywords. Write down who appears in positions 1–5 for each. If the same three to four domains show up consistently, those are your real SEO competitors, regardless of whether you've ever thought of them as competition.",
           },
         ],
       },
       {
         id: "finding-seo-competitors",
-        title: "Finding Your SEO Competitors Systematically",
+        title: "Finding Your Real SEO Competitors",
         blocks: [
           {
             type: "p",
@@ -71,11 +71,11 @@ export const guidesCompetitorAnalysisT: Record<
         blocks: [
           {
             type: "p",
-            text: "A keyword gap analysis answers one question: what are your competitors ranking for that you're not? In Ahrefs, this is the \"Content Gap\" tool under Site Explorer — enter your domain plus 2–4 competitors and it shows keywords they rank for and you don't. In SEMrush it's the \"Keyword Gap\" tool. Run this at least quarterly.",
+            text: "A keyword gap analysis answers one question: what are your competitors ranking for that you're not? In Ahrefs, this is the \"Content Gap\" tool under Site Explorer. Enter your domain plus 2–4 competitors and it shows keywords they rank for and you don't. In SEMrush it's the \"Keyword Gap\" tool. Run this at least quarterly.",
           },
           {
             type: "p",
-            text: "Filter the output aggressively. You're not interested in every keyword a competitor ranks for — just the ones with buying intent and realistic traffic potential. Filter by search volume over 100, keyword difficulty under 40, and words containing commercial modifiers like \"buy\", \"shop\", \"cheap\", \"review\", or \"best\". What's left is your actual opportunity list.",
+            text: "Filter the output aggressively. You're not interested in every keyword a competitor ranks for, just the ones with buying intent and realistic traffic potential. Filter by search volume over 100, keyword difficulty under 40, and words containing commercial modifiers like \"buy\", \"shop\", \"cheap\", \"review\", or \"best\". What's left is your actual opportunity list.",
           },
           {
             type: "checklist",
@@ -108,7 +108,7 @@ export const guidesCompetitorAnalysisT: Record<
           },
           {
             type: "tip",
-            text: "When reviewing competitor top pages, also look at their internal linking. What do they link to from high-traffic pages? That tells you what they consider their money pages — and those are exactly the pages worth studying closely.",
+            text: "When reviewing competitor top pages, also look at their internal linking. What do they link to from high-traffic pages? That tells you what they consider their money pages, and those are exactly the pages worth studying closely.",
           },
         ],
       },
@@ -118,18 +118,18 @@ export const guidesCompetitorAnalysisT: Record<
         blocks: [
           {
             type: "p",
-            text: "Backlinks are still one of the strongest ranking factors for competitive ecommerce terms. The backlink gap is simply: which high-quality sites link to your competitors but not to you? Those sites have already shown they're willing to link to a business in your space — that's the warmest possible outreach target.",
+            text: "Backlinks are still one of the strongest ranking factors for competitive ecommerce terms. The backlink gap is simply: which high-quality sites link to your competitors but not to you? Those sites have already shown they're willing to link to a business in your space, so they're the best possible outreach targets.",
           },
           {
             type: "p",
-            text: "In Ahrefs, use the \"Link Intersect\" tool (under \"More\" in Site Explorer). Enter your domain and 3–5 competitors. The tool shows referring domains that link to competitors but not to you. Sort by domain rating (DR) descending. Focus on DR 40+ sites — these are the links that actually move rankings.",
+            text: "In Ahrefs, use the \"Link Intersect\" tool (under \"More\" in Site Explorer). Enter your domain and 3–5 competitors. The tool shows referring domains that link to competitors but not to you. Sort by domain rating (DR) descending. Focus on DR 40+ sites because those are the links that actually move rankings.",
           },
           {
             type: "list",
             items: [
               "Ahrefs Link Intersect: best tool for finding sites that link to competitors but not you",
               "SEMrush Backlink Gap: equivalent feature, slightly different interface",
-              "Prioritize DR 40+ referring domains — below that the link equity is marginal",
+              "Prioritize DR 40+ referring domains, since below that the link equity is marginal",
               "Group targets by type: editorial coverage, roundup posts, resource pages, industry directories",
               "For each target site, find the specific page that links to your competitor and understand why they linked",
             ],
@@ -137,7 +137,7 @@ export const guidesCompetitorAnalysisT: Record<
           {
             type: "callout",
             title: "Links without a reason won't happen",
-            text: "Before outreaching to any site that links to a competitor, answer: why would they link to you? You need a specific asset — a data study, a tool, a comprehensive guide, or a product worth featuring. Without one, your outreach gets ignored.",
+            text: "Before outreaching to any site that links to a competitor, answer: why would they link to you? You need a specific asset: a data study, a tool, a thorough guide, or a product worth featuring. Without one, your outreach gets ignored.",
           },
         ],
       },
@@ -147,11 +147,11 @@ export const guidesCompetitorAnalysisT: Record<
         blocks: [
           {
             type: "p",
-            text: "Google's search results pages have changed dramatically. Beyond the standard blue links, there are featured snippets, image carousels, shopping results, video boxes, People Also Ask, and local packs. Each of these is a ranking opportunity — and for most ecommerce stores, SERP features are largely unoptimized.",
+            text: "Google's search results pages look nothing like they did five years ago. Beyond the standard blue links, there are featured snippets, image carousels, shopping results, video boxes, People Also Ask, and local packs. Each of these is a ranking opportunity, and for most ecommerce stores, SERP features are barely touched.",
           },
           {
             type: "p",
-            text: "Check which SERP features your competitors own. If a competitor owns the featured snippet for \"how to clean hiking boots\" and you sell hiking boots, that snippet drives warm traffic to their content — and from there, potentially to their products. Featured snippets usually go to pages with clear, concise answers structured in lists or short paragraphs. Reformat your existing content to compete for these.",
+            text: "Check which SERP features your competitors own. If a competitor owns the featured snippet for \"how to clean hiking boots\" and you sell hiking boots, that snippet drives warm traffic to their content, and from there, potentially to their products. Featured snippets usually go to pages with clear, concise answers structured in lists or short paragraphs. Reformat your existing content to compete for these.",
           },
           {
             type: "list",
@@ -181,8 +181,8 @@ export const guidesCompetitorAnalysisT: Record<
             type: "checklist",
             items: [
               "Score every gap finding: traffic potential (1–3) × commercial intent (1–3) ÷ estimated effort (1–3)",
-              "Pick the top 3 content gaps — create those pages first",
-              "Pick the top 3 link targets — build a specific outreach asset for each",
+              "Pick the top 3 content gaps and create those pages first",
+              "Pick the top 3 link targets and build a specific outreach asset for each",
               "Schedule a full competitor analysis refresh every 90 days",
               "Track your position changes on the target keywords monthly in Google Search Console",
             ],
@@ -212,7 +212,7 @@ export const guidesCompetitorAnalysisT: Record<
     badge: "Recherche & Ideenfindung",
     heading: "Wettbewerbsanalyse für Ecommerce-SEO",
     intro:
-      "Deine SEO-Konkurrenten sind nicht dasselbe wie deine Geschäftskonkurrenten. Diesen Unterschied zu verstehen — und zu wissen, wie man systematisch analysiert, was bei denen funktioniert, die über dir ranken — ist eine der wirkungsvollsten Aktivitäten im Ecommerce-SEO.",
+      "Deine SEO-Konkurrenten sind nicht dasselbe wie deine Geschäftskonkurrenten. Diesen Unterschied zu verstehen, und zu wissen, wie man analysiert, was bei denen funktioniert, die über dir ranken, gehört zum Produktivsten, was du im Ecommerce-SEO tun kannst.",
     readTime: "15 Min. Lesezeit",
     sections: [
       {
@@ -221,7 +221,7 @@ export const guidesCompetitorAnalysisT: Record<
         blocks: [
           {
             type: "p",
-            text: "Deine Geschäftskonkurrenten sind die Marken, an die du Verkäufe verlierst. Deine SEO-Konkurrenten sind alle, die für deine Keywords ranken — und das sind oft völlig unterschiedliche Listen. Ein Medienverlag, der eine \"beste [dein Produkt]\"-Übersicht betreibt, ist ein SEO-Konkurrent, auch wenn er nichts verkauft. Eine Affiliate-Vergleichssite, die drei Plätze auf Seite eins für deine Kategoriebegriffe belegt, ist ein SEO-Konkurrent. Du musst sie bei Google schlagen, bevor du dir Sorgen machst, sie beim Umsatz zu übertreffen.",
+            text: "Deine Geschäftskonkurrenten sind die Marken, an die du Verkäufe verlierst. Deine SEO-Konkurrenten sind alle, die für deine Keywords ranken, und das sind oft völlig unterschiedliche Listen. Ein Medienverlag, der eine \"beste [dein Produkt]\"-Übersicht betreibt, ist ein SEO-Konkurrent, auch wenn er nichts verkauft. Eine Affiliate-Vergleichssite, die drei Plätze auf Seite eins für deine Kategoriebegriffe belegt, ist ein SEO-Konkurrent. Du musst sie bei Google schlagen, bevor du dir Sorgen machst, sie beim Umsatz zu übertreffen.",
           },
           {
             type: "p",
@@ -230,17 +230,17 @@ export const guidesCompetitorAnalysisT: Record<
           {
             type: "callout",
             title: "Schnelle SEO-Konkurrenten-Prüfung",
-            text: "Suche nach deinen fünf wichtigsten Produktkategorie-Keywords. Notiere, wer für jedes in den Positionen 1–5 erscheint. Wenn dieselben drei bis vier Domains konstant auftauchen, sind das deine echten SEO-Konkurrenten — unabhängig davon, ob du sie je als Konkurrenz betrachtet hast.",
+            text: "Suche nach deinen fünf wichtigsten Produktkategorie-Keywords. Notiere, wer für jedes in den Positionen 1–5 erscheint. Wenn dieselben drei bis vier Domains konstant auftauchen, sind das deine echten SEO-Konkurrenten, egal ob du sie je als Konkurrenz betrachtet hast.",
           },
         ],
       },
       {
         id: "finding-seo-competitors",
-        title: "SEO-Konkurrenten systematisch finden",
+        title: "SEO-Konkurrenten gezielt finden",
         blocks: [
           {
             type: "p",
-            text: "Manuelle SERP-Prüfungen eignen sich für eine erste Liste, skalieren aber nicht. Für eine umfassende Übersicht nutze den Ahrefs \"Competing Domains\"-Bericht (unter Site Explorer) oder SEMrush \"Organic Competitors\". Gib deine Domain ein, und beide Tools zeigen dir, welche anderen Seiten für dieselben Keywords ranken wie du — sortiert nach dem Grad der Überschneidung.",
+            text: "Manuelle SERP-Prüfungen eignen sich für eine erste Liste, skalieren aber nicht. Für ein vollständiges Bild nutze den Ahrefs \"Competing Domains\"-Bericht (unter Site Explorer) oder SEMrush \"Organic Competitors\". Gib deine Domain ein, und beide Tools zeigen dir, welche anderen Seiten für dieselben Keywords ranken wie du — sortiert nach dem Grad der Überschneidung.",
           },
           {
             type: "p",
@@ -267,11 +267,11 @@ export const guidesCompetitorAnalysisT: Record<
         blocks: [
           {
             type: "p",
-            text: "Eine Keyword-Gap-Analyse beantwortet eine Frage: Für welche Keywords ranken deine Konkurrenten, du aber nicht? In Ahrefs ist das das \"Content Gap\"-Tool unter Site Explorer — gib deine Domain plus 2–4 Konkurrenten ein, und es zeigt Keywords, für die sie ranken und du nicht. In SEMrush heißt es \"Keyword Gap\". Führe das mindestens einmal pro Quartal durch.",
+            text: "Eine Keyword-Gap-Analyse beantwortet eine Frage: Für welche Keywords ranken deine Konkurrenten, du aber nicht? In Ahrefs ist das das \"Content Gap\"-Tool unter Site Explorer. Gib deine Domain plus 2–4 Konkurrenten ein, und es zeigt Keywords, für die sie ranken und du nicht. In SEMrush heißt es \"Keyword Gap\". Führe das mindestens einmal pro Quartal durch.",
           },
           {
             type: "p",
-            text: "Filtere die Ausgabe konsequent. Dich interessiert nicht jedes Keyword, für das ein Konkurrent rankt — nur jene mit Kaufabsicht und realistischem Traffic-Potenzial. Filtere nach Suchvolumen über 100, Keyword-Schwierigkeit unter 40 und Wörtern mit kommerziellen Modifikatoren wie \"kaufen\", \"günstig\", \"Bewertung\" oder \"beste\". Was übrig bleibt, ist deine echte Chancenliste.",
+            text: "Filtere die Ausgabe konsequent. Dich interessiert nicht jedes Keyword, für das ein Konkurrent rankt, nur jene mit Kaufabsicht und realistischem Traffic-Potenzial. Filtere nach Suchvolumen über 100, Keyword-Schwierigkeit unter 40 und Wörtern mit kommerziellen Modifikatoren wie \"kaufen\", \"günstig\", \"Bewertung\" oder \"beste\". Was übrig bleibt, ist deine echte Chancenliste.",
           },
           {
             type: "checklist",
@@ -304,7 +304,7 @@ export const guidesCompetitorAnalysisT: Record<
           },
           {
             type: "tip",
-            text: "Schau dir beim Durchsehen der Top-Seiten von Konkurrenten auch deren interne Verlinkung an. Worauf verlinken sie von hoch-frequentierten Seiten? Das zeigt dir, was sie als ihre wichtigsten Seiten betrachten — und genau diese Seiten lohnt es sich, genau zu studieren.",
+            text: "Schau dir beim Durchsehen der Top-Seiten von Konkurrenten auch deren interne Verlinkung an. Worauf verlinken sie von hoch-frequentierten Seiten? Das zeigt dir, was sie als ihre wichtigsten Seiten betrachten, und genau diese Seiten lohnt es sich, genau zu studieren.",
           },
         ],
       },
@@ -314,18 +314,18 @@ export const guidesCompetitorAnalysisT: Record<
         blocks: [
           {
             type: "p",
-            text: "Backlinks sind nach wie vor einer der stärksten Ranking-Faktoren für kompetitive Ecommerce-Begriffe. Der Backlink-Gap ist einfach: Welche hochwertigen Seiten verlinken auf deine Konkurrenten, aber nicht auf dich? Diese Seiten haben bereits gezeigt, dass sie bereit sind, auf ein Unternehmen in deinem Bereich zu verlinken — das ist das warmste mögliche Outreach-Ziel.",
+            text: "Backlinks sind nach wie vor einer der stärksten Ranking-Faktoren für kompetitive Ecommerce-Begriffe. Der Backlink-Gap ist einfach: Welche hochwertigen Seiten verlinken auf deine Konkurrenten, aber nicht auf dich? Diese Seiten haben bereits gezeigt, dass sie bereit sind, auf ein Unternehmen in deinem Bereich zu verlinken. Bessere Outreach-Ziele gibt es nicht.",
           },
           {
             type: "p",
-            text: "In Ahrefs nutze das \"Link Intersect\"-Tool (unter \"Mehr\" in Site Explorer). Gib deine Domain und 3–5 Konkurrenten ein. Das Tool zeigt verweisende Domains, die auf Konkurrenten verlinken, aber nicht auf dich. Sortiere nach Domain Rating (DR) absteigend. Konzentriere dich auf Seiten mit DR 40+ — das sind die Links, die Rankings tatsächlich bewegen.",
+            text: "In Ahrefs nutze das \"Link Intersect\"-Tool (unter \"Mehr\" in Site Explorer). Gib deine Domain und 3–5 Konkurrenten ein. Das Tool zeigt verweisende Domains, die auf Konkurrenten verlinken, aber nicht auf dich. Sortiere nach Domain Rating (DR) absteigend. Konzentriere dich auf Seiten mit DR 40+, denn das sind die Links, die Rankings tatsächlich bewegen.",
           },
           {
             type: "list",
             items: [
               "Ahrefs Link Intersect: bestes Tool, um Seiten zu finden, die auf Konkurrenten, aber nicht auf dich verlinken",
               "SEMrush Backlink Gap: gleichwertiges Feature mit leicht anderem Interface",
-              "Priorisiere verweisende Domains mit DR 40+ — darunter ist die Link-Equity marginal",
+              "Priorisiere verweisende Domains mit DR 40+, denn darunter ist die Link-Equity marginal",
               "Gruppiere Ziele nach Typ: redaktionelle Coverage, Roundup-Beiträge, Ressourcenseiten, Branchenverzeichnisse",
               "Finde für jede Zielseite die spezifische Seite, die auf deinen Konkurrenten verlinkt, und verstehe warum",
             ],
@@ -333,7 +333,7 @@ export const guidesCompetitorAnalysisT: Record<
           {
             type: "callout",
             title: "Links ohne Grund passieren nicht",
-            text: "Bevor du eine Seite anschreibst, die auf einen Konkurrenten verlinkt, beantworte: Warum sollten sie auf dich verlinken? Du brauchst ein spezifisches Asset — eine Datenstudie, ein Tool, einen umfassenden Leitfaden oder ein vorstellungswürdiges Produkt. Ohne eines davon wird dein Outreach ignoriert.",
+            text: "Bevor du eine Seite anschreibst, die auf einen Konkurrenten verlinkt, beantworte: Warum sollten sie auf dich verlinken? Du brauchst ein spezifisches Asset: eine Datenstudie, ein Tool, einen gründlichen Leitfaden oder ein vorstellungswürdiges Produkt. Ohne eines davon wird dein Outreach ignoriert.",
           },
         ],
       },
@@ -343,11 +343,11 @@ export const guidesCompetitorAnalysisT: Record<
         blocks: [
           {
             type: "p",
-            text: "Googles Suchergebnisseiten haben sich dramatisch verändert. Neben den normalen blauen Links gibt es Featured Snippets, Bild-Karussells, Shopping-Ergebnisse, Video-Boxen, \"Andere Nutzer fragten auch\" und lokale Packs. Jedes davon ist eine Ranking-Chance — und für die meisten Ecommerce-Shops sind SERP-Features weitgehend unoptimiert.",
+            text: "Googles Suchergebnisseiten sehen ganz anders aus als noch vor fünf Jahren. Neben den normalen blauen Links gibt es Featured Snippets, Bild-Karussells, Shopping-Ergebnisse, Video-Boxen, \"Andere Nutzer fragten auch\" und lokale Packs. Jedes davon ist eine Ranking-Chance, und bei den meisten Ecommerce-Shops sind SERP-Features kaum optimiert.",
           },
           {
             type: "p",
-            text: "Prüfe, welche SERP-Features deine Konkurrenten besitzen. Wenn ein Konkurrent den Featured Snippet für \"wie reinige ich Wanderschuhe\" besitzt und du Wanderschuhe verkaufst, treibt dieser Snippet warmen Traffic auf seinen Content — und von dort potenziell auf seine Produkte. Featured Snippets gehen meist an Seiten mit klaren, prägnanten Antworten, die in Listen oder kurzen Absätzen strukturiert sind. Formatiere deinen bestehenden Content um, um um diese zu konkurrieren.",
+            text: "Prüfe, welche SERP-Features deine Konkurrenten besitzen. Wenn ein Konkurrent den Featured Snippet für \"wie reinige ich Wanderschuhe\" besitzt und du Wanderschuhe verkaufst, treibt dieser Snippet warmen Traffic auf seinen Content, und von dort potenziell auf seine Produkte. Featured Snippets gehen meist an Seiten mit klaren, prägnanten Antworten, die in Listen oder kurzen Absätzen strukturiert sind. Formatiere deinen bestehenden Content um, um um diese zu konkurrieren.",
           },
           {
             type: "list",
@@ -377,8 +377,8 @@ export const guidesCompetitorAnalysisT: Record<
             type: "checklist",
             items: [
               "Bewerte jede Gap-Erkenntnis: Traffic-Potenzial (1–3) × kommerzielle Absicht (1–3) ÷ geschätzter Aufwand (1–3)",
-              "Wähle die Top-3-Content-Gaps — erstelle diese Seiten zuerst",
-              "Wähle die Top-3-Link-Ziele — erstelle für jedes ein spezifisches Outreach-Asset",
+              "Wähle die Top-3-Content-Gaps und erstelle diese Seiten zuerst",
+              "Wähle die Top-3-Link-Ziele und erstelle für jedes ein spezifisches Outreach-Asset",
               "Plane alle 90 Tage eine vollständige Wettbewerbsanalyse-Auffrischung ein",
               "Verfolge deine Positionsveränderungen bei den Ziel-Keywords monatlich in Google Search Console",
             ],
@@ -408,7 +408,7 @@ export const guidesCompetitorAnalysisT: Record<
     badge: "Recherche & Idéation",
     heading: "Analyse de la concurrence pour le SEO e-commerce",
     intro:
-      "Tes concurrents SEO ne sont pas les mêmes que tes concurrents commerciaux. Comprendre cette différence — et savoir comment décomposer systématiquement ce qui fonctionne pour ceux qui rankent au-dessus de toi — est l'une des activités les plus rentables en SEO e-commerce.",
+      "Tes concurrents SEO ne sont pas les mêmes que tes concurrents commerciaux. Comprendre cette différence, et savoir comment décomposer ce qui fonctionne pour ceux qui rankent au-dessus de toi, fait partie des choses les plus productives en SEO e-commerce.",
     readTime: "15 min de lecture",
     sections: [
       {
@@ -417,7 +417,7 @@ export const guidesCompetitorAnalysisT: Record<
         blocks: [
           {
             type: "p",
-            text: "Tes concurrents commerciaux sont les marques auxquelles tu perds des ventes. Tes concurrents SEO sont tous ceux qui rankent pour tes mots-clés — et ce sont souvent des listes complètement différentes. Un éditeur de médias qui publie un comparatif \"meilleur [ton produit]\" est un concurrent SEO même s'il ne vend rien. Un site d'affiliation qui occupe trois positions sur la première page pour tes termes de catégorie est un concurrent SEO. Tu dois les battre sur Google avant de t'inquiéter de les battre en chiffre d'affaires.",
+            text: "Tes concurrents commerciaux sont les marques auxquelles tu perds des ventes. Tes concurrents SEO sont tous ceux qui rankent pour tes mots-clés, et ce sont souvent des listes complètement différentes. Un éditeur de médias qui publie un comparatif \"meilleur [ton produit]\" est un concurrent SEO même s'il ne vend rien. Un site d'affiliation qui occupe trois positions sur la première page pour tes termes de catégorie est un concurrent SEO. Tu dois les battre sur Google avant de t'inquiéter de les battre en chiffre d'affaires.",
           },
           {
             type: "p",
@@ -426,13 +426,13 @@ export const guidesCompetitorAnalysisT: Record<
           {
             type: "callout",
             title: "Vérification rapide des concurrents SEO",
-            text: "Recherche tes cinq mots-clés de catégorie de produits les plus importants. Note qui apparaît en positions 1–5 pour chacun. Si les mêmes trois à quatre domaines reviennent régulièrement, ce sont tes vrais concurrents SEO — que tu les aies jamais considérés comme concurrents ou non.",
+            text: "Recherche tes cinq mots-clés de catégorie de produits les plus importants. Note qui apparaît en positions 1–5 pour chacun. Si les mêmes trois à quatre domaines reviennent régulièrement, ce sont tes vrais concurrents SEO, que tu les aies jamais considérés comme concurrents ou non.",
           },
         ],
       },
       {
         id: "finding-seo-competitors",
-        title: "Trouver ses concurrents SEO de façon systématique",
+        title: "Trouver ses concurrents SEO de façon méthodique",
         blocks: [
           {
             type: "p",
@@ -463,11 +463,11 @@ export const guidesCompetitorAnalysisT: Record<
         blocks: [
           {
             type: "p",
-            text: "Une analyse d'écart de mots-clés répond à une question : pour quels mots-clés tes concurrents rankent-ils et pas toi ? Dans Ahrefs, c'est l'outil \"Content Gap\" sous Site Explorer — entre ton domaine plus 2–4 concurrents et il montre les mots-clés pour lesquels ils rankent et toi non. Dans SEMrush c'est l'outil \"Keyword Gap\". Lance ça au moins chaque trimestre.",
+            text: "Une analyse d'écart de mots-clés répond à une question : pour quels mots-clés tes concurrents rankent-ils et pas toi ? Dans Ahrefs, c'est l'outil \"Content Gap\" sous Site Explorer. Entre ton domaine plus 2–4 concurrents et il montre les mots-clés pour lesquels ils rankent et toi non. Dans SEMrush c'est l'outil \"Keyword Gap\". Lance ça au moins chaque trimestre.",
           },
           {
             type: "p",
-            text: "Filtre les résultats de manière agressive. Tu ne t'intéresses pas à chaque mot-clé pour lequel un concurrent ranke — seulement à ceux avec une intention d'achat et un potentiel de trafic réaliste. Filtre par volume de recherche supérieur à 100, difficulté de mot-clé inférieure à 40, et des mots contenant des modificateurs commerciaux comme \"acheter\", \"boutique\", \"pas cher\", \"avis\" ou \"meilleur\". Ce qui reste est ta vraie liste d'opportunités.",
+            text: "Filtre les résultats de manière agressive. Tu ne t'intéresses pas à chaque mot-clé pour lequel un concurrent ranke, seulement à ceux avec une intention d'achat et un potentiel de trafic réaliste. Filtre par volume de recherche supérieur à 100, difficulté de mot-clé inférieure à 40, et des mots contenant des modificateurs commerciaux comme \"acheter\", \"boutique\", \"pas cher\", \"avis\" ou \"meilleur\". Ce qui reste est ta vraie liste d'opportunités.",
           },
           {
             type: "checklist",
@@ -500,7 +500,7 @@ export const guidesCompetitorAnalysisT: Record<
           },
           {
             type: "tip",
-            text: "Quand tu examines les meilleures pages des concurrents, regarde aussi leurs liens internes. Vers quoi ils pointent depuis leurs pages à fort trafic ? Ça te dit ce qu'ils considèrent comme leurs pages monétaires — et ce sont exactement les pages qui méritent une étude approfondie.",
+            text: "Quand tu examines les meilleures pages des concurrents, regarde aussi leurs liens internes. Vers quoi ils pointent depuis leurs pages à fort trafic ? Ça te dit ce qu'ils considèrent comme leurs pages monétaires, et ce sont exactement les pages qui méritent une étude approfondie.",
           },
         ],
       },
@@ -510,18 +510,18 @@ export const guidesCompetitorAnalysisT: Record<
         blocks: [
           {
             type: "p",
-            text: "Les backlinks restent l'un des facteurs de classement les plus importants pour les termes e-commerce compétitifs. L'écart de backlinks est simplement : quels sites de qualité pointent vers tes concurrents mais pas vers toi ? Ces sites ont déjà montré qu'ils sont prêts à lier vers une entreprise de ton secteur — c'est la cible d'outreach la plus chaude possible.",
+            text: "Les backlinks restent l'un des facteurs de classement les plus importants pour les termes e-commerce compétitifs. L'écart de backlinks est simplement : quels sites de qualité pointent vers tes concurrents mais pas vers toi ? Ces sites ont déjà montré qu'ils sont prêts à lier vers une entreprise de ton secteur. Il n'y a pas de meilleure cible d'outreach.",
           },
           {
             type: "p",
-            text: "Dans Ahrefs, utilise l'outil \"Link Intersect\" (sous \"Plus\" dans Site Explorer). Entre ton domaine et 3–5 concurrents. L'outil montre les domaines référents qui pointent vers les concurrents mais pas vers toi. Trie par domain rating (DR) décroissant. Concentre-toi sur les sites DR 40+ — ce sont les liens qui font vraiment bouger les classements.",
+            text: "Dans Ahrefs, utilise l'outil \"Link Intersect\" (sous \"Plus\" dans Site Explorer). Entre ton domaine et 3–5 concurrents. L'outil montre les domaines référents qui pointent vers les concurrents mais pas vers toi. Trie par domain rating (DR) décroissant. Concentre-toi sur les sites DR 40+ parce que ce sont les liens qui font vraiment bouger les classements.",
           },
           {
             type: "list",
             items: [
               "Ahrefs Link Intersect : meilleur outil pour trouver des sites qui pointent vers des concurrents mais pas vers toi",
               "SEMrush Backlink Gap : fonctionnalité équivalente, interface légèrement différente",
-              "Priorise les domaines référents DR 40+ — en dessous, l'equity de lien est marginale",
+              "Priorise les domaines référents DR 40+, car en dessous l'equity de lien est marginale",
               "Regroupe les cibles par type : couverture éditoriale, articles récapitulatifs, pages de ressources, répertoires sectoriels",
               "Pour chaque site cible, trouve la page spécifique qui pointe vers ton concurrent et comprends pourquoi ils ont lié",
             ],
@@ -529,7 +529,7 @@ export const guidesCompetitorAnalysisT: Record<
           {
             type: "callout",
             title: "Des liens sans raison n'arrivent pas",
-            text: "Avant de contacter un site qui pointe vers un concurrent, réponds à cette question : pourquoi lieraient-ils vers toi ? Tu as besoin d'un asset spécifique — une étude de données, un outil, un guide complet ou un produit qui mérite d'être mis en avant. Sans ça, ton outreach sera ignoré.",
+            text: "Avant de contacter un site qui pointe vers un concurrent, réponds à cette question : pourquoi lieraient-ils vers toi ? Tu as besoin d'un asset spécifique : une étude de données, un outil, un guide détaillé ou un produit qui mérite d'être mis en avant. Sans ça, ton outreach sera ignoré.",
           },
         ],
       },
@@ -539,11 +539,11 @@ export const guidesCompetitorAnalysisT: Record<
         blocks: [
           {
             type: "p",
-            text: "Les pages de résultats de recherche de Google ont radicalement évolué. Au-delà des liens bleus classiques, il y a les featured snippets, les carrousels d'images, les résultats Shopping, les encadrés vidéo, \"Les gens demandent aussi\" et les packs locaux. Chacun est une opportunité de classement — et pour la plupart des boutiques e-commerce, les fonctionnalités SERP sont largement non optimisées.",
+            text: "Les pages de résultats de recherche de Google n'ont plus rien à voir avec celles d'il y a cinq ans. Au-delà des liens bleus classiques, il y a les featured snippets, les carrousels d'images, les résultats Shopping, les encadrés vidéo, \"Les gens demandent aussi\" et les packs locaux. Chacun est une opportunité de classement, et pour la plupart des boutiques e-commerce, les fonctionnalités SERP sont à peine exploitées.",
           },
           {
             type: "p",
-            text: "Vérifie quelles fonctionnalités SERP tes concurrents possèdent. Si un concurrent détient le featured snippet pour \"comment nettoyer des chaussures de randonnée\" et que tu vends des chaussures de randonnée, ce snippet génère du trafic qualifié vers son contenu — et de là, potentiellement vers ses produits. Les featured snippets vont généralement aux pages avec des réponses claires et concises structurées en listes ou courts paragraphes. Reformate ton contenu existant pour concourir.",
+            text: "Vérifie quelles fonctionnalités SERP tes concurrents possèdent. Si un concurrent détient le featured snippet pour \"comment nettoyer des chaussures de randonnée\" et que tu vends des chaussures de randonnée, ce snippet génère du trafic qualifié vers son contenu, et de là, potentiellement vers ses produits. Les featured snippets vont généralement aux pages avec des réponses claires et concises structurées en listes ou courts paragraphes. Reformate ton contenu existant pour concourir.",
           },
           {
             type: "list",
@@ -573,8 +573,8 @@ export const guidesCompetitorAnalysisT: Record<
             type: "checklist",
             items: [
               "Score chaque découverte de lacune : potentiel de trafic (1–3) × intention commerciale (1–3) ÷ effort estimé (1–3)",
-              "Choisis les 3 meilleures lacunes de contenu — crée ces pages en premier",
-              "Choisis les 3 meilleures cibles de liens — construis un asset d'outreach spécifique pour chacune",
+              "Choisis les 3 meilleures lacunes de contenu et crée ces pages en premier",
+              "Choisis les 3 meilleures cibles de liens et construis un asset d'outreach spécifique pour chacune",
               "Planifie une actualisation complète de l'analyse concurrentielle tous les 90 jours",
               "Suis tes évolutions de position sur les mots-clés cibles mensuellement dans Google Search Console",
             ],
@@ -604,7 +604,7 @@ export const guidesCompetitorAnalysisT: Record<
     badge: "Investigación e Ideación",
     heading: "Análisis de la competencia para SEO en e-commerce",
     intro:
-      "Tus competidores SEO no son los mismos que tus competidores de negocio. Entender esa diferencia — y saber cómo desmontar sistemáticamente lo que funciona para quienes rankean por encima de ti — es una de las actividades con mayor impacto en el SEO de e-commerce.",
+      "Tus competidores SEO no son los mismos que tus competidores de negocio. Entender esa diferencia, y saber cómo desmontar lo que funciona para quienes rankean por encima de ti, es de lo más productivo que puedes hacer en SEO de e-commerce.",
     readTime: "15 min de lectura",
     sections: [
       {
@@ -613,7 +613,7 @@ export const guidesCompetitorAnalysisT: Record<
         blocks: [
           {
             type: "p",
-            text: "Tus competidores de negocio son las marcas a las que pierdes ventas. Tus competidores SEO son todos los que rankean para tus palabras clave — y con frecuencia son listas completamente distintas. Un medio digital que publica un artículo \"los mejores [tu producto]\" es un competidor SEO aunque no venda nada. Un sitio de afiliados que ocupa tres posiciones en la primera página para los términos de tu categoría es un competidor SEO. Tienes que ganarles en Google antes de preocuparte por superarles en ingresos.",
+            text: "Tus competidores de negocio son las marcas a las que pierdes ventas. Tus competidores SEO son todos los que rankean para tus palabras clave, y con frecuencia son listas completamente distintas. Un medio digital que publica un artículo \"los mejores [tu producto]\" es un competidor SEO aunque no venda nada. Un sitio de afiliados que ocupa tres posiciones en la primera página para los términos de tu categoría es un competidor SEO. Tienes que ganarles en Google antes de preocuparte por superarles en ingresos.",
           },
           {
             type: "p",
@@ -622,13 +622,13 @@ export const guidesCompetitorAnalysisT: Record<
           {
             type: "callout",
             title: "Comprobación rápida de competidores SEO",
-            text: "Busca tus cinco palabras clave de categoría de producto más importantes. Anota quién aparece en posiciones 1–5 para cada una. Si los mismos tres o cuatro dominios aparecen de forma consistente, esos son tus verdaderos competidores SEO — independientemente de si los habías considerado competencia antes.",
+            text: "Busca tus cinco palabras clave de categoría de producto más importantes. Anota quién aparece en posiciones 1–5 para cada una. Si los mismos tres o cuatro dominios aparecen de forma consistente, esos son tus verdaderos competidores SEO, independientemente de si los habías considerado competencia antes.",
           },
         ],
       },
       {
         id: "finding-seo-competitors",
-        title: "Encontrar competidores SEO de forma sistemática",
+        title: "Encontrar competidores SEO de forma metódica",
         blocks: [
           {
             type: "p",
@@ -659,11 +659,11 @@ export const guidesCompetitorAnalysisT: Record<
         blocks: [
           {
             type: "p",
-            text: "Un análisis de brecha de palabras clave responde a una pregunta: ¿para qué palabras clave rankean tus competidores y tú no? En Ahrefs, es la herramienta \"Content Gap\" en Site Explorer — introduce tu dominio más 2–4 competidores y muestra palabras clave para las que ellos rankean y tú no. En SEMrush es la herramienta \"Keyword Gap\". Ejecútalo al menos una vez por trimestre.",
+            text: "Un análisis de brecha de palabras clave responde a una pregunta: ¿para qué palabras clave rankean tus competidores y tú no? En Ahrefs, es la herramienta \"Content Gap\" en Site Explorer. Introduce tu dominio más 2–4 competidores y muestra palabras clave para las que ellos rankean y tú no. En SEMrush es la herramienta \"Keyword Gap\". Ejecútalo al menos una vez por trimestre.",
           },
           {
             type: "p",
-            text: "Filtra el resultado de forma agresiva. No te interesan todas las palabras clave para las que rankea un competidor — solo las que tienen intención de compra y potencial de tráfico realista. Filtra por volumen de búsqueda superior a 100, dificultad de palabra clave inferior a 40, y palabras que contengan modificadores comerciales como \"comprar\", \"tienda\", \"barato\", \"opinión\" o \"mejor\". Lo que queda es tu lista real de oportunidades.",
+            text: "Filtra el resultado de forma agresiva. No te interesan todas las palabras clave para las que rankea un competidor, solo las que tienen intención de compra y potencial de tráfico realista. Filtra por volumen de búsqueda superior a 100, dificultad de palabra clave inferior a 40, y palabras que contengan modificadores comerciales como \"comprar\", \"tienda\", \"barato\", \"opinión\" o \"mejor\". Lo que queda es tu lista real de oportunidades.",
           },
           {
             type: "checklist",
@@ -696,7 +696,7 @@ export const guidesCompetitorAnalysisT: Record<
           },
           {
             type: "tip",
-            text: "Cuando revises las páginas principales de competidores, fíjate también en sus enlaces internos. ¿A qué enlazan desde páginas de alto tráfico? Eso te dice qué consideran sus páginas más importantes — y son exactamente las páginas que vale la pena estudiar en detalle.",
+            text: "Cuando revises las páginas principales de competidores, fíjate también en sus enlaces internos. ¿A qué enlazan desde páginas de alto tráfico? Eso te dice qué consideran sus páginas más importantes, y son exactamente las páginas que vale la pena estudiar en detalle.",
           },
         ],
       },
@@ -706,18 +706,18 @@ export const guidesCompetitorAnalysisT: Record<
         blocks: [
           {
             type: "p",
-            text: "Los backlinks siguen siendo uno de los factores de posicionamiento más fuertes para términos e-commerce competitivos. La brecha de backlinks es simplemente: ¿qué sitios de calidad enlazan a tus competidores pero no a ti? Esos sitios ya han demostrado que están dispuestos a enlazar a un negocio en tu sector — ese es el objetivo de outreach más cálido posible.",
+            text: "Los backlinks siguen siendo uno de los factores de posicionamiento más fuertes para términos e-commerce competitivos. La brecha de backlinks es simplemente: ¿qué sitios de calidad enlazan a tus competidores pero no a ti? Esos sitios ya han demostrado que están dispuestos a enlazar a un negocio en tu sector. No hay mejor objetivo de outreach.",
           },
           {
             type: "p",
-            text: "En Ahrefs, usa la herramienta \"Link Intersect\" (en \"Más\" de Site Explorer). Introduce tu dominio y 3–5 competidores. La herramienta muestra dominios de referencia que enlazan a competidores pero no a ti. Ordena por domain rating (DR) descendente. Concéntrate en sitios con DR 40+ — son los enlaces que realmente mueven rankings.",
+            text: "En Ahrefs, usa la herramienta \"Link Intersect\" (en \"Más\" de Site Explorer). Introduce tu dominio y 3–5 competidores. La herramienta muestra dominios de referencia que enlazan a competidores pero no a ti. Ordena por domain rating (DR) descendente. Concéntrate en sitios con DR 40+ porque son los enlaces que realmente mueven rankings.",
           },
           {
             type: "list",
             items: [
               "Ahrefs Link Intersect: mejor herramienta para encontrar sitios que enlazan a competidores pero no a ti",
               "SEMrush Backlink Gap: función equivalente, interfaz ligeramente diferente",
-              "Prioriza dominios de referencia con DR 40+ — por debajo, el equity de enlace es marginal",
+              "Prioriza dominios de referencia con DR 40+, ya que por debajo el equity de enlace es marginal",
               "Agrupa objetivos por tipo: cobertura editorial, artículos de resumen, páginas de recursos, directorios sectoriales",
               "Para cada sitio objetivo, encuentra la página específica que enlaza a tu competidor y entiende por qué enlazaron",
             ],
@@ -725,7 +725,7 @@ export const guidesCompetitorAnalysisT: Record<
           {
             type: "callout",
             title: "Los enlaces sin razón no ocurren",
-            text: "Antes de contactar a cualquier sitio que enlaza a un competidor, responde: ¿por qué te enlazarían a ti? Necesitas un activo específico — un estudio de datos, una herramienta, una guía exhaustiva o un producto que merezca ser destacado. Sin uno, tu outreach se ignorará.",
+            text: "Antes de contactar a cualquier sitio que enlaza a un competidor, responde: ¿por qué te enlazarían a ti? Necesitas un activo específico: un estudio de datos, una herramienta, una guía a fondo o un producto que merezca ser destacado. Sin uno, tu outreach se ignorará.",
           },
         ],
       },
@@ -735,11 +735,11 @@ export const guidesCompetitorAnalysisT: Record<
         blocks: [
           {
             type: "p",
-            text: "Las páginas de resultados de búsqueda de Google han cambiado radicalmente. Más allá de los enlaces azules estándar, hay featured snippets, carruseles de imágenes, resultados de Shopping, cuadros de video, \"La gente también pregunta\" y packs locales. Cada uno es una oportunidad de posicionamiento — y para la mayoría de tiendas e-commerce, las funcionalidades SERP están en gran medida sin optimizar.",
+            text: "Las páginas de resultados de Google no se parecen en nada a las de hace cinco años. Más allá de los enlaces azules estándar, hay featured snippets, carruseles de imágenes, resultados de Shopping, cuadros de video, \"La gente también pregunta\" y packs locales. Cada uno es una oportunidad de posicionamiento, y para la mayoría de tiendas e-commerce, las funcionalidades SERP apenas se trabajan.",
           },
           {
             type: "p",
-            text: "Comprueba qué funcionalidades SERP poseen tus competidores. Si un competidor tiene el featured snippet para \"cómo limpiar botas de senderismo\" y tú vendes botas de senderismo, ese snippet lleva tráfico cualificado a su contenido — y desde allí, potencialmente a sus productos. Los featured snippets suelen ir a páginas con respuestas claras y concisas estructuradas en listas o párrafos cortos. Reformatea tu contenido existente para competir por ellos.",
+            text: "Comprueba qué funcionalidades SERP poseen tus competidores. Si un competidor tiene el featured snippet para \"cómo limpiar botas de senderismo\" y tú vendes botas de senderismo, ese snippet lleva tráfico cualificado a su contenido, y desde allí, potencialmente a sus productos. Los featured snippets suelen ir a páginas con respuestas claras y concisas estructuradas en listas o párrafos cortos. Reformatea tu contenido existente para competir por ellos.",
           },
           {
             type: "list",
@@ -769,8 +769,8 @@ export const guidesCompetitorAnalysisT: Record<
             type: "checklist",
             items: [
               "Puntúa cada hallazgo de brecha: potencial de tráfico (1–3) × intención comercial (1–3) ÷ esfuerzo estimado (1–3)",
-              "Elige las 3 mejores brechas de contenido — crea esas páginas primero",
-              "Elige los 3 mejores objetivos de enlaces — construye un activo de outreach específico para cada uno",
+              "Elige las 3 mejores brechas de contenido y crea esas páginas primero",
+              "Elige los 3 mejores objetivos de enlaces y construye un activo de outreach específico para cada uno",
               "Programa una actualización completa del análisis de competidores cada 90 días",
               "Sigue tus cambios de posición en las palabras clave objetivo mensualmente en Google Search Console",
             ],
@@ -800,7 +800,7 @@ export const guidesCompetitorAnalysisT: Record<
     badge: "Ricerca & Ideazione",
     heading: "Analisi della concorrenza per il SEO e-commerce",
     intro:
-      "I tuoi concorrenti SEO non sono gli stessi dei tuoi concorrenti commerciali. Capire questa differenza — e saper smontare sistematicamente ciò che funziona per chi rankea sopra di te — è una delle attività a maggior impatto nel SEO e-commerce.",
+      "I tuoi concorrenti SEO non sono gli stessi dei tuoi concorrenti commerciali. Capire questa differenza, e saper smontare ciò che funziona per chi rankea sopra di te, è tra le cose più produttive che puoi fare nel SEO e-commerce.",
     readTime: "15 min di lettura",
     sections: [
       {
@@ -809,7 +809,7 @@ export const guidesCompetitorAnalysisT: Record<
         blocks: [
           {
             type: "p",
-            text: "I tuoi concorrenti commerciali sono i brand a cui perdi vendite. I tuoi concorrenti SEO sono chiunque ranki per le tue keyword — e spesso si tratta di liste completamente diverse. Un editore media che pubblica una rassegna \"migliori [tuo prodotto]\" è un concorrente SEO anche se non vende nulla. Un sito di affiliazione che occupa tre posizioni in prima pagina per i termini della tua categoria è un concorrente SEO. Devi batterli su Google prima di preoccuparti di batterli nelle entrate.",
+            text: "I tuoi concorrenti commerciali sono i brand a cui perdi vendite. I tuoi concorrenti SEO sono chiunque ranki per le tue keyword, e spesso si tratta di liste completamente diverse. Un editore media che pubblica una rassegna \"migliori [tuo prodotto]\" è un concorrente SEO anche se non vende nulla. Un sito di affiliazione che occupa tre posizioni in prima pagina per i termini della tua categoria è un concorrente SEO. Devi batterli su Google prima di preoccuparti di batterli nelle entrate.",
           },
           {
             type: "p",
@@ -818,13 +818,13 @@ export const guidesCompetitorAnalysisT: Record<
           {
             type: "callout",
             title: "Verifica rapida dei concorrenti SEO",
-            text: "Cerca le tue cinque keyword di categoria prodotto più importanti. Annota chi appare nelle posizioni 1–5 per ciascuna. Se gli stessi tre o quattro domini compaiono costantemente, quelli sono i tuoi veri concorrenti SEO — indipendentemente dal fatto che tu li abbia mai considerati come concorrenza.",
+            text: "Cerca le tue cinque keyword di categoria prodotto più importanti. Annota chi appare nelle posizioni 1–5 per ciascuna. Se gli stessi tre o quattro domini compaiono costantemente, quelli sono i tuoi veri concorrenti SEO, indipendentemente dal fatto che tu li abbia mai considerati come concorrenza.",
           },
         ],
       },
       {
         id: "finding-seo-competitors",
-        title: "Trovare i concorrenti SEO in modo sistematico",
+        title: "Trovare i concorrenti SEO in modo metodico",
         blocks: [
           {
             type: "p",
@@ -855,11 +855,11 @@ export const guidesCompetitorAnalysisT: Record<
         blocks: [
           {
             type: "p",
-            text: "Un'analisi del keyword gap risponde a una domanda: per quali keyword rankano i tuoi concorrenti e tu no? In Ahrefs, è lo strumento \"Content Gap\" sotto Site Explorer — inserisci il tuo dominio più 2–4 concorrenti e mostra le keyword per cui loro rankano e tu no. In SEMrush è lo strumento \"Keyword Gap\". Eseguilo almeno ogni trimestre.",
+            text: "Un'analisi del keyword gap risponde a una domanda: per quali keyword rankano i tuoi concorrenti e tu no? In Ahrefs, è lo strumento \"Content Gap\" sotto Site Explorer. Inserisci il tuo dominio più 2–4 concorrenti e mostra le keyword per cui loro rankano e tu no. In SEMrush è lo strumento \"Keyword Gap\". Eseguilo almeno ogni trimestre.",
           },
           {
             type: "p",
-            text: "Filtra l'output in modo aggressivo. Non ti interessano tutte le keyword per cui ranka un concorrente — solo quelle con intento d'acquisto e potenziale di traffico realistico. Filtra per volume di ricerca superiore a 100, difficoltà della keyword inferiore a 40, e parole contenenti modificatori commerciali come \"comprare\", \"shop\", \"economico\", \"recensione\" o \"migliore\". Ciò che rimane è la tua vera lista di opportunità.",
+            text: "Filtra l'output in modo aggressivo. Non ti interessano tutte le keyword per cui ranka un concorrente, solo quelle con intento d'acquisto e potenziale di traffico realistico. Filtra per volume di ricerca superiore a 100, difficoltà della keyword inferiore a 40, e parole contenenti modificatori commerciali come \"comprare\", \"shop\", \"economico\", \"recensione\" o \"migliore\". Ciò che rimane è la tua vera lista di opportunità.",
           },
           {
             type: "checklist",
@@ -892,7 +892,7 @@ export const guidesCompetitorAnalysisT: Record<
           },
           {
             type: "tip",
-            text: "Quando esamini le pagine principali dei concorrenti, guarda anche i loro link interni. A cosa linkano dalle pagine ad alto traffico? Questo ti dice cosa considerano le loro pagine di maggior valore — e sono esattamente le pagine che vale la pena studiare attentamente.",
+            text: "Quando esamini le pagine principali dei concorrenti, guarda anche i loro link interni. A cosa linkano dalle pagine ad alto traffico? Questo ti dice cosa considerano le loro pagine di maggior valore, e sono esattamente le pagine che vale la pena studiare attentamente.",
           },
         ],
       },
@@ -902,18 +902,18 @@ export const guidesCompetitorAnalysisT: Record<
         blocks: [
           {
             type: "p",
-            text: "I backlink rimangono uno dei fattori di ranking più forti per i termini e-commerce competitivi. Il backlink gap è semplicemente: quali siti di qualità linkano ai tuoi concorrenti ma non a te? Quei siti hanno già dimostrato di essere disposti a linkare a un'azienda nel tuo settore — questo è l'obiettivo di outreach più caldo possibile.",
+            text: "I backlink rimangono uno dei fattori di ranking più forti per i termini e-commerce competitivi. Il backlink gap è semplicemente: quali siti di qualità linkano ai tuoi concorrenti ma non a te? Quei siti hanno già dimostrato di essere disposti a linkare a un'azienda nel tuo settore. Non troverai obiettivi di outreach migliori.",
           },
           {
             type: "p",
-            text: "In Ahrefs, usa lo strumento \"Link Intersect\" (sotto \"Altro\" in Site Explorer). Inserisci il tuo dominio e 3–5 concorrenti. Lo strumento mostra i domini di riferimento che linkano ai concorrenti ma non a te. Ordina per domain rating (DR) decrescente. Concentrati sui siti con DR 40+ — sono i link che effettivamente spostano i ranking.",
+            text: "In Ahrefs, usa lo strumento \"Link Intersect\" (sotto \"Altro\" in Site Explorer). Inserisci il tuo dominio e 3–5 concorrenti. Lo strumento mostra i domini di riferimento che linkano ai concorrenti ma non a te. Ordina per domain rating (DR) decrescente. Concentrati sui siti con DR 40+ perché sono i link che effettivamente spostano i ranking.",
           },
           {
             type: "list",
             items: [
               "Ahrefs Link Intersect: miglior strumento per trovare siti che linkano ai concorrenti ma non a te",
               "SEMrush Backlink Gap: funzionalità equivalente, interfaccia leggermente diversa",
-              "Priorizza i domini di riferimento con DR 40+ — al di sotto, l'equity del link è marginale",
+              "Priorizza i domini di riferimento con DR 40+, perché al di sotto l'equity del link è marginale",
               "Raggruppa gli obiettivi per tipo: copertura editoriale, articoli di rassegna, pagine di risorse, directory di settore",
               "Per ogni sito obiettivo, trova la pagina specifica che linka al tuo concorrente e capisce perché hanno linkato",
             ],
@@ -921,7 +921,7 @@ export const guidesCompetitorAnalysisT: Record<
           {
             type: "callout",
             title: "I link senza una ragione non avvengono",
-            text: "Prima di contattare qualsiasi sito che linka a un concorrente, rispondi: perché dovrebbero linkarti? Hai bisogno di un asset specifico — uno studio dati, uno strumento, una guida esaustiva o un prodotto degno di essere menzionato. Senza uno di questi, il tuo outreach verrà ignorato.",
+            text: "Prima di contattare qualsiasi sito che linka a un concorrente, rispondi: perché dovrebbero linkarti? Hai bisogno di un asset specifico: uno studio dati, uno strumento, una guida approfondita o un prodotto degno di essere menzionato. Senza uno di questi, il tuo outreach verrà ignorato.",
           },
         ],
       },
@@ -931,11 +931,11 @@ export const guidesCompetitorAnalysisT: Record<
         blocks: [
           {
             type: "p",
-            text: "Le pagine dei risultati di ricerca di Google sono cambiate radicalmente. Oltre ai classici link blu, ci sono featured snippet, caroselli di immagini, risultati Shopping, riquadri video, \"Le persone chiedono anche\" e pack locali. Ognuno è un'opportunità di ranking — e per la maggior parte degli store e-commerce, le funzionalità SERP sono in larga parte non ottimizzate.",
+            text: "Le pagine dei risultati di ricerca di Google non assomigliano più a quelle di cinque anni fa. Oltre ai classici link blu, ci sono featured snippet, caroselli di immagini, risultati Shopping, riquadri video, \"Le persone chiedono anche\" e pack locali. Ognuno è un'opportunità di ranking, e per la maggior parte degli store e-commerce, le funzionalità SERP sono a malapena sfruttate.",
           },
           {
             type: "p",
-            text: "Controlla quali funzionalità SERP possiedono i tuoi concorrenti. Se un concorrente possiede il featured snippet per \"come pulire gli stivali da trekking\" e tu vendi stivali da trekking, quello snippet porta traffico qualificato verso i suoi contenuti — e da lì, potenzialmente verso i suoi prodotti. I featured snippet di solito vanno alle pagine con risposte chiare e concise strutturate in liste o paragrafi brevi. Riformatta il tuo contenuto esistente per competere per questi.",
+            text: "Controlla quali funzionalità SERP possiedono i tuoi concorrenti. Se un concorrente possiede il featured snippet per \"come pulire gli stivali da trekking\" e tu vendi stivali da trekking, quello snippet porta traffico qualificato verso i suoi contenuti, e da lì, potenzialmente verso i suoi prodotti. I featured snippet di solito vanno alle pagine con risposte chiare e concise strutturate in liste o paragrafi brevi. Riformatta il tuo contenuto esistente per competere per questi.",
           },
           {
             type: "list",
@@ -965,8 +965,8 @@ export const guidesCompetitorAnalysisT: Record<
             type: "checklist",
             items: [
               "Dai un punteggio a ogni scoperta di gap: potenziale di traffico (1–3) × intento commerciale (1–3) ÷ sforzo stimato (1–3)",
-              "Scegli i 3 migliori gap di contenuto — crea quelle pagine per prima cosa",
-              "Scegli i 3 migliori obiettivi di link — costruisci un asset di outreach specifico per ciascuno",
+              "Scegli i 3 migliori gap di contenuto e crea quelle pagine per prima cosa",
+              "Scegli i 3 migliori obiettivi di link e costruisci un asset di outreach specifico per ciascuno",
               "Pianifica un aggiornamento completo dell'analisi della concorrenza ogni 90 giorni",
               "Monitora le tue variazioni di posizione sulle keyword obiettivo mensilmente in Google Search Console",
             ],
@@ -996,7 +996,7 @@ export const guidesCompetitorAnalysisT: Record<
     badge: "Onderzoek & Ideeënvorming",
     heading: "Concurrentieanalyse voor e-commerce SEO",
     intro:
-      "Je SEO-concurrenten zijn niet dezelfde als je zakelijke concurrenten. Dat verschil begrijpen — en weten hoe je systematisch kunt ontrafelen wat werkt voor degenen die boven jou ranken — is een van de meest impactvolle activiteiten in e-commerce SEO.",
+      "Je SEO-concurrenten zijn niet dezelfde als je zakelijke concurrenten. Dat verschil begrijpen, en weten hoe je kunt ontrafelen wat werkt voor degenen die boven jou ranken, is een van de meest productieve dingen die je kunt doen in e-commerce SEO.",
     readTime: "15 min leestijd",
     sections: [
       {
@@ -1005,7 +1005,7 @@ export const guidesCompetitorAnalysisT: Record<
         blocks: [
           {
             type: "p",
-            text: "Je zakelijke concurrenten zijn de merken waar je verkopen aan verliest. Je SEO-concurrenten zijn iedereen die rankt voor jouw zoekwoorden — en dat zijn vaak compleet verschillende lijsten. Een mediapublisher die een \"beste [jouw product]\"-overzicht publiceert is een SEO-concurrent, ook al verkoopt die niets. Een affiliatesite die drie posities op de eerste pagina inneemt voor jouw categorietermen is een SEO-concurrent. Je moet hen verslaan op Google voordat je je zorgen maakt over het verslaan van hen in omzet.",
+            text: "Je zakelijke concurrenten zijn de merken waar je verkopen aan verliest. Je SEO-concurrenten zijn iedereen die rankt voor jouw zoekwoorden, en dat zijn vaak compleet verschillende lijsten. Een mediapublisher die een \"beste [jouw product]\"-overzicht publiceert is een SEO-concurrent, ook al verkoopt die niets. Een affiliatesite die drie posities op de eerste pagina inneemt voor jouw categorietermen is een SEO-concurrent. Je moet hen verslaan op Google voordat je je zorgen maakt over het verslaan van hen in omzet.",
           },
           {
             type: "p",
@@ -1014,13 +1014,13 @@ export const guidesCompetitorAnalysisT: Record<
           {
             type: "callout",
             title: "Snelle SEO-concurrentencheck",
-            text: "Zoek op je vijf belangrijkste productcategorie-zoekwoorden. Noteer wie voor elk op posities 1–5 verschijnt. Als dezelfde drie tot vier domeinen consistent opduiken, zijn dat je echte SEO-concurrenten — ongeacht of je hen ooit als concurrentie hebt beschouwd.",
+            text: "Zoek op je vijf belangrijkste productcategorie-zoekwoorden. Noteer wie voor elk op posities 1–5 verschijnt. Als dezelfde drie tot vier domeinen consistent opduiken, zijn dat je echte SEO-concurrenten, of je hen ooit als concurrentie hebt beschouwd of niet.",
           },
         ],
       },
       {
         id: "finding-seo-competitors",
-        title: "SEO-concurrenten systematisch vinden",
+        title: "SEO-concurrenten gericht vinden",
         blocks: [
           {
             type: "p",
@@ -1051,11 +1051,11 @@ export const guidesCompetitorAnalysisT: Record<
         blocks: [
           {
             type: "p",
-            text: "Een zoekwoordkloof-analyse beantwoordt één vraag: voor welke zoekwoorden ranken je concurrenten maar jij niet? In Ahrefs is dit de \"Content Gap\"-tool onder Site Explorer — vul je domein in plus 2–4 concurrenten en het toont zoekwoorden waarvoor zij ranken en jij niet. In SEMrush is het de \"Keyword Gap\"-tool. Voer dit minimaal elk kwartaal uit.",
+            text: "Een zoekwoordkloof-analyse beantwoordt één vraag: voor welke zoekwoorden ranken je concurrenten maar jij niet? In Ahrefs is dit de \"Content Gap\"-tool onder Site Explorer. Vul je domein in plus 2–4 concurrenten en het toont zoekwoorden waarvoor zij ranken en jij niet. In SEMrush is het de \"Keyword Gap\"-tool. Voer dit minimaal elk kwartaal uit.",
           },
           {
             type: "p",
-            text: "Filter de uitvoer agressief. Je bent niet geïnteresseerd in elk zoekwoord waarvoor een concurrent rankt — alleen die met koopintentie en realistisch verkeerspotentieel. Filter op zoekvolume boven 100, zoekwoordmoeilijkheid onder 40, en woorden met commerciële modifiers zoals \"kopen\", \"bestellen\", \"goedkoop\", \"review\" of \"beste\". Wat overblijft is je echte kanslijst.",
+            text: "Filter de uitvoer agressief. Je bent niet geïnteresseerd in elk zoekwoord waarvoor een concurrent rankt, alleen die met koopintentie en realistisch verkeerspotentieel. Filter op zoekvolume boven 100, zoekwoordmoeilijkheid onder 40, en woorden met commerciële modifiers zoals \"kopen\", \"bestellen\", \"goedkoop\", \"review\" of \"beste\". Wat overblijft is je echte kanslijst.",
           },
           {
             type: "checklist",
@@ -1088,7 +1088,7 @@ export const guidesCompetitorAnalysisT: Record<
           },
           {
             type: "tip",
-            text: "Kijk bij het bekijken van toppagina's van concurrenten ook naar hun interne linking. Waar linken zij naar toe vanuit pagina's met veel verkeer? Dat vertelt je wat zij als hun belangrijkste pagina's beschouwen — en dat zijn precies de pagina's die de moeite waard zijn om grondig te bestuderen.",
+            text: "Kijk bij het bekijken van toppagina's van concurrenten ook naar hun interne linking. Waar linken zij naar toe vanuit pagina's met veel verkeer? Dat vertelt je wat zij als hun belangrijkste pagina's beschouwen, en dat zijn precies de pagina's die de moeite waard zijn om grondig te bestuderen.",
           },
         ],
       },
@@ -1098,18 +1098,18 @@ export const guidesCompetitorAnalysisT: Record<
         blocks: [
           {
             type: "p",
-            text: "Backlinks zijn nog steeds een van de sterkste rankingfactoren voor competitieve e-commerce termen. De backlinkkloof is simpelweg: welke kwalitatieve sites linken naar je concurrenten maar niet naar jou? Die sites hebben al aangetoond bereid te zijn om te linken naar een bedrijf in jouw sector — dat is het warmste mogelijke outreach-doelwit.",
+            text: "Backlinks zijn nog steeds een van de sterkste rankingfactoren voor competitieve e-commerce termen. De backlinkkloof is simpelweg: welke kwalitatieve sites linken naar je concurrenten maar niet naar jou? Die sites hebben al aangetoond bereid te zijn om te linken naar een bedrijf in jouw sector. Betere outreach-doelwitten bestaan niet.",
           },
           {
             type: "p",
-            text: "Gebruik in Ahrefs de \"Link Intersect\"-tool (onder \"Meer\" in Site Explorer). Vul je domein en 3–5 concurrenten in. De tool toont verwijzende domeinen die naar concurrenten linken maar niet naar jou. Sorteer op domain rating (DR) aflopend. Concentreer je op DR 40+-sites — dit zijn de links die rankings daadwerkelijk bewegen.",
+            text: "Gebruik in Ahrefs de \"Link Intersect\"-tool (onder \"Meer\" in Site Explorer). Vul je domein en 3–5 concurrenten in. De tool toont verwijzende domeinen die naar concurrenten linken maar niet naar jou. Sorteer op domain rating (DR) aflopend. Concentreer je op DR 40+-sites, want dit zijn de links die rankings daadwerkelijk bewegen.",
           },
           {
             type: "list",
             items: [
               "Ahrefs Link Intersect: beste tool om sites te vinden die naar concurrenten linken maar niet naar jou",
               "SEMrush Backlink Gap: vergelijkbare functie, licht andere interface",
-              "Prioriteer verwijzende domeinen met DR 40+ — daaronder is de link-equity marginaal",
+              "Prioriteer verwijzende domeinen met DR 40+, want daaronder is de link-equity marginaal",
               "Groepeer doelen per type: redactionele coverage, overzichtsartikelen, resourcepagina's, branchedirectories",
               "Zoek voor elke doelsite de specifieke pagina die naar je concurrent linkt en begrijp waarom ze linkten",
             ],
@@ -1117,7 +1117,7 @@ export const guidesCompetitorAnalysisT: Record<
           {
             type: "callout",
             title: "Links zonder reden gebeuren niet",
-            text: "Beantwoord vóór het benaderen van een site die naar een concurrent linkt: waarom zouden zij naar jou linken? Je hebt een specifiek asset nodig — een datastudie, een tool, een uitgebreide gids of een product dat het waard is om te vermelden. Zonder dat wordt je outreach genegeerd.",
+            text: "Beantwoord vóór het benaderen van een site die naar een concurrent linkt: waarom zouden zij naar jou linken? Je hebt een specifiek asset nodig: een datastudie, een tool, een grondige gids of een product dat het waard is om te vermelden. Zonder dat wordt je outreach genegeerd.",
           },
         ],
       },
@@ -1127,11 +1127,11 @@ export const guidesCompetitorAnalysisT: Record<
         blocks: [
           {
             type: "p",
-            text: "Google's zoekresultatenpagina's zijn dramatisch veranderd. Naast de standaard blauwe links zijn er featured snippets, afbeeldingscarrousels, Shopping-resultaten, videovakken, \"Anderen zochten ook\" en lokale packs. Elk is een rankingkans — en voor de meeste e-commerce stores zijn SERP-functies grotendeels ongeoptimaliseerd.",
+            text: "Google's zoekresultatenpagina's lijken niet meer op die van vijf jaar geleden. Naast de standaard blauwe links zijn er featured snippets, afbeeldingscarrousels, Shopping-resultaten, videovakken, \"Anderen zochten ook\" en lokale packs. Elk is een rankingkans, en voor de meeste e-commerce stores zijn SERP-functies nauwelijks benut.",
           },
           {
             type: "p",
-            text: "Controleer welke SERP-functies je concurrenten bezitten. Als een concurrent de featured snippet bezit voor \"hoe reinig ik wandelschoenen\" en jij verkoopt wandelschoenen, stuurt die snippet warm verkeer naar hun content — en vandaar mogelijk naar hun producten. Featured snippets gaan meestal naar pagina's met duidelijke, beknopte antwoorden gestructureerd in lijsten of korte alinea's. Herformatteer je bestaande content om hiervoor te concurreren.",
+            text: "Controleer welke SERP-functies je concurrenten bezitten. Als een concurrent de featured snippet bezit voor \"hoe reinig ik wandelschoenen\" en jij verkoopt wandelschoenen, stuurt die snippet warm verkeer naar hun content, en vandaar mogelijk naar hun producten. Featured snippets gaan meestal naar pagina's met duidelijke, beknopte antwoorden gestructureerd in lijsten of korte alinea's. Herformatteer je bestaande content om hiervoor te concurreren.",
           },
           {
             type: "list",
@@ -1161,8 +1161,8 @@ export const guidesCompetitorAnalysisT: Record<
             type: "checklist",
             items: [
               "Score elke kloof-bevinding: verkeerspotentieel (1–3) × commerciële intentie (1–3) ÷ geschatte inspanning (1–3)",
-              "Kies de top 3 contentkloven — maak die pagina's eerst",
-              "Kies de top 3 linkdoelen — bouw voor elk een specifiek outreach-asset",
+              "Kies de top 3 contentkloven en maak die pagina's eerst",
+              "Kies de top 3 linkdoelen en bouw voor elk een specifiek outreach-asset",
               "Plan elke 90 dagen een volledige vernieuwing van de concurrentieanalyse",
               "Volg je positieveranderingen op de doelzoekwoorden maandelijks in Google Search Console",
             ],

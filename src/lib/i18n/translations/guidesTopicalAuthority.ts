@@ -17,7 +17,7 @@ export const guidesTopicalAuthorityT: Record<
         blocks: [
           {
             type: "p",
-            text: "Topical authority is Google's way of deciding whether a site genuinely knows what it's talking about. A site with deep, comprehensive coverage of a topic — product pages, category pages, buying guides, comparison content, FAQs — signals that it has expertise. A site with one category page and no supporting content looks thin, and Google increasingly treats thin sites as low-priority for competitive terms.",
+            text: "Topical authority is Google's way of deciding whether a site genuinely knows what it's talking about. A site with deep, thorough coverage of a topic (product pages, category pages, buying guides, comparison content, FAQs) signals that it has expertise. A site with one category page and no supporting content looks thin, and Google increasingly treats thin sites as low-priority for competitive terms.",
           },
           {
             type: "p",
@@ -36,7 +36,7 @@ export const guidesTopicalAuthorityT: Record<
         blocks: [
           {
             type: "p",
-            text: "The hub-and-spoke model is the most practical framework for ecommerce topical authority. The hub is your main category page — for example, /running-shoes. The spokes are supporting content pages that address specific questions, comparisons, and buying decisions that someone researching running shoes might have.",
+            text: "The hub-and-spoke model is the most practical framework for ecommerce topical authority. The hub is your main category page, for example /running-shoes. The spokes are supporting content pages that address specific questions, comparisons, and buying decisions that someone researching running shoes might have.",
           },
           {
             type: "p",
@@ -44,16 +44,16 @@ export const guidesTopicalAuthorityT: Record<
           },
           {
             type: "tip",
-            text: "The hub page benefits from the authority and relevance signals that flow from the spokes. When someone lands on a spoke page and then navigates to the hub, that's a behavioural signal Google notices. Build spokes that genuinely help people — not thin pages that just exist to pass link equity.",
+            text: "The hub page benefits from the authority and relevance signals that flow from the spokes. When someone lands on a spoke page and then navigates to the hub, that's a behavioural signal Google notices. Build spokes that genuinely help people, not thin pages that just exist to pass link equity.",
           },
           {
             type: "list",
             items: [
               "Hub page: your main category page, optimised for the primary head term",
-              "Buying guide spoke: 'how to choose [category]' — targets informational intent",
-              "Comparison spoke: '[option A] vs [option B]' — targets comparison intent",
-              "Specific intent spokes: 'best [category] for [specific need]' — targets long-tail transactional intent",
-              "Care/use spoke: 'how to [maintain/use] [product]' — builds trust and keeps users on site",
+              "Buying guide spoke: 'how to choose [category]', targets informational intent",
+              "Comparison spoke: '[option A] vs [option B]', targets comparison intent",
+              "Specific intent spokes: 'best [category] for [specific need]', targets long-tail transactional intent",
+              "Care/use spoke: 'how to [maintain/use] [product]', builds trust and keeps users on site",
               "FAQ spoke: answers to the top 10 questions people ask about your category",
             ],
           },
@@ -69,7 +69,7 @@ export const guidesTopicalAuthorityT: Record<
           },
           {
             type: "p",
-            text: "Every question in the 'People also ask' box is a content gap you could fill. Every related search that you don't have a page targeting is a potential spoke. Write them all down. Then open your competitor's sites and look at their blog and resource sections. If they have 20 articles on running shoe topics and you have 2, the gap is obvious — and Google's crawler notices it too.",
+            text: "Every question in the 'People also ask' box is a content gap you could fill. Every related search that you don't have a page targeting is a potential spoke. Write them all down. Then open your competitor's sites and look at their blog and resource sections. If they have 20 articles on running shoe topics and you have 2, the gap is obvious, and Google's crawler notices it too.",
           },
           {
             type: "tip",
@@ -82,7 +82,7 @@ export const guidesTopicalAuthorityT: Record<
               "Note every 'Related search' that you don't have a page targeting",
               "Run the Ahrefs Content Gap tool against your top 2-3 competitors",
               "Filter results by search volume (500+ per month) and informational or commercial intent",
-              "Prioritise gaps where competitors rank in positions 1-10 — those are proven topics",
+              "Prioritise gaps where competitors rank in positions 1-10 because those are proven topics",
               "Map each gap to a content type: buying guide, comparison page, FAQ, or specific intent page",
               "Build a content calendar with one spoke page per week for the next 3 months",
             ],
@@ -95,16 +95,16 @@ export const guidesTopicalAuthorityT: Record<
         blocks: [
           {
             type: "p",
-            text: "The instinct in ecommerce is to expand — more categories, more products, more verticals. That instinct is wrong when it comes to SEO, at least in the early and mid stages of building authority. A site that has shallow coverage across 10 categories will almost always underperform a site that has deep, comprehensive coverage of 2-3 categories.",
+            text: "The instinct in ecommerce is to expand: more categories, more products, more verticals. That instinct is wrong when it comes to SEO, at least in the early and mid stages of building authority. A site that has shallow coverage across 10 categories will almost always underperform a site that has deep, thorough coverage of 2-3 categories.",
           },
           {
             type: "p",
-            text: "If you sell running shoes, dominate running shoe content before you move into general athletic footwear. Build 15-20 high-quality pages about running shoes before you start writing about gym trainers or walking shoes. Google rewards depth. A site with 15 strong running shoe pages will outrank a site with 3 running shoe pages and 3 pages each for gym trainers, walking shoes, and hiking boots — even if the total page count is similar.",
+            text: "If you sell running shoes, dominate running shoe content before you move into general athletic footwear. Build 15-20 high-quality pages about running shoes before you start writing about gym trainers or walking shoes. Google rewards depth. A site with 15 strong running shoe pages will outrank a site with 3 running shoe pages and 3 pages each for gym trainers, walking shoes, and hiking boots, even if the total page count is similar.",
           },
           {
             type: "callout",
             title: "The depth test",
-            text: "Can you honestly say your site is the best resource on the internet for someone researching your category? If the answer is no, you haven't gone deep enough. Your competitor who ranks above you probably can say yes — or at least comes closer than you do.",
+            text: "Can you honestly say your site is the best resource on the internet for someone researching your category? If the answer is no, you haven't gone deep enough. Your competitor who ranks above you probably can say yes, or at least comes closer than you do.",
           },
           {
             type: "p",
@@ -118,11 +118,11 @@ export const guidesTopicalAuthorityT: Record<
         blocks: [
           {
             type: "p",
-            text: "Topical authority on its own — a bunch of good content — doesn't fully work without strong internal linking. The internal link structure is how Google understands the relationship between your pages and which pages are most important. It's also how link equity flows around your site.",
+            text: "Topical authority on its own, even a bunch of good content, doesn't fully work without strong internal linking. The internal link structure is how Google understands the relationship between your pages and which pages are most important. It's also how link equity flows around your site.",
           },
           {
             type: "p",
-            text: "The rule is simple: every spoke page should link to the hub. The hub should link to the most important spokes. New content — whether a blog post, a guide, or a new product page — should link to the most relevant category page it's connected to. If you publish a post about 'how to train for your first 5k', it should link to your running shoes category page. Every relevant page should be pulling the hub toward better rankings.",
+            text: "The rule is simple: every spoke page should link to the hub. The hub should link to the most important spokes. New content, whether a blog post, a guide, or a new product page, should link to the most relevant category page it's connected to. If you publish a post about 'how to train for your first 5k', it should link to your running shoes category page. Every relevant page should be pulling the hub toward better rankings.",
           },
           {
             type: "tip",
@@ -134,8 +134,8 @@ export const guidesTopicalAuthorityT: Record<
               "Hub pages should receive internal links from every relevant spoke, product page, and blog post",
               "Spoke pages should always link back to their hub with keyword-rich anchor text",
               "New content published anywhere on the site should link to the most relevant category page",
-              "Use descriptive anchor text — 'running shoes buying guide' not 'click here'",
-              "Avoid orphan pages — every page on the site should be reachable within 3 clicks from the homepage",
+              "Use descriptive anchor text, like 'running shoes buying guide' not 'click here'",
+              "Avoid orphan pages; every page on the site should be reachable within 3 clicks from the homepage",
               "Audit internal links quarterly using Screaming Frog to find broken or missing links",
             ],
           },
@@ -147,26 +147,26 @@ export const guidesTopicalAuthorityT: Record<
         blocks: [
           {
             type: "p",
-            text: "The primary signal that your topical authority strategy is working is movement in the hub page rankings. In most cases, building out 3-5 strong spoke pages around a category will lift the hub page's rankings within 4-8 weeks. The effect isn't always dramatic — a jump from position 12 to position 7 is significant even if it doesn't feel it. Track it.",
+            text: "The primary signal that your topical authority strategy is working is movement in the hub page rankings. In most cases, building out 3-5 strong spoke pages around a category will lift the hub page's rankings within 4-8 weeks. The effect isn't always dramatic. A jump from position 12 to position 7 is significant even if it doesn't feel it. Track it.",
           },
           {
             type: "p",
-            text: "Secondary signals to watch: organic clicks to the hub page (Google Search Console), crawl coverage (are all your spoke pages being indexed promptly?), and engagement metrics on spoke pages (time on page, bounce rate, pages per session). If spoke pages have high bounce rates, they're not serving their purpose — either the content is weak or the internal links to the hub are not compelling enough.",
+            text: "Secondary signals to watch: organic clicks to the hub page (Google Search Console), crawl coverage (are all your spoke pages being indexed promptly?), and engagement metrics on spoke pages (time on page, bounce rate, pages per session). If spoke pages have high bounce rates, they're not serving their purpose. Either the content is weak or the internal links to the hub are not compelling enough.",
           },
           {
             type: "callout",
             title: "When it doesn't work",
-            text: "If you've built 5+ spoke pages and the hub hasn't moved in 8 weeks, the issue is almost always link authority, not content. Your site probably doesn't have enough domain authority to rank for the hub term yet. This is when link building becomes the priority — see the Link Building Tactics guide. Content and links work together. Neither alone is sufficient for competitive categories.",
+            text: "If you've built 5+ spoke pages and the hub hasn't moved in 8 weeks, the issue is almost always link authority, not content. Your site probably doesn't have enough domain authority to rank for the hub term yet. This is when link building becomes the priority, so check out the Link Building Tactics guide. Content and links work together. Neither alone is sufficient for competitive categories.",
           },
           {
             type: "list",
             items: [
               "Track hub page position weekly in Ahrefs or Google Search Console",
-              "Set a baseline before you start publishing spoke pages — screenshot or export current rankings",
+              "Set a baseline before you start publishing spoke pages by screenshotting or exporting current rankings",
               "Measure organic clicks to hub page in GSC week over week",
               "Check index coverage for all spoke pages in Google Search Console after 7-10 days",
               "Review spoke page engagement in GA4: time on page and pages per session",
-              "After 8 weeks with no hub movement, run a link gap analysis — authority is the likely issue",
+              "After 8 weeks with no hub movement, run a link gap analysis because authority is the likely issue",
             ],
           },
         ],
@@ -186,7 +186,7 @@ export const guidesTopicalAuthorityT: Record<
         blocks: [
           {
             type: "p",
-            text: "Thematische Autorität ist Googles Methode, zu beurteilen, ob eine Website wirklich weiß, wovon sie spricht. Eine Website mit umfassender, tiefgehender Abdeckung eines Themas — Produktseiten, Kategorieseiten, Kaufratgeber, Vergleichsinhalte, FAQs — signalisiert echte Kompetenz. Eine Website mit einer einzigen Kategorieseite und keinen unterstützenden Inhalten wirkt dünn, und Google behandelt solche Seiten bei wettbewerbsintensiven Suchanfragen zunehmend als niedrigpriorisiert.",
+            text: "Thematische Autorität ist Googles Methode, zu beurteilen, ob eine Website wirklich weiß, wovon sie spricht. Eine Website mit gründlicher, tiefgehender Abdeckung eines Themas (Produktseiten, Kategorieseiten, Kaufratgeber, Vergleichsinhalte, FAQs) signalisiert echte Kompetenz. Eine Website mit einer einzigen Kategorieseite und keinen unterstützenden Inhalten wirkt dünn, und Google behandelt solche Seiten bei wettbewerbsintensiven Suchanfragen zunehmend als niedrigpriorisiert.",
           },
           {
             type: "p",
@@ -205,7 +205,7 @@ export const guidesTopicalAuthorityT: Record<
         blocks: [
           {
             type: "p",
-            text: "Das Hub-and-Spoke-Modell ist das praktischste Framework für thematische Autorität im E-Commerce. Der Hub ist deine Hauptkategorieseite — zum Beispiel /laufschuhe. Die Spokes sind unterstützende Content-Seiten, die spezifische Fragen, Vergleiche und Kaufentscheidungen ansprechen, die jemand bei der Recherche zu Laufschuhen haben könnte.",
+            text: "Das Hub-and-Spoke-Modell ist das praktischste Framework für thematische Autorität im E-Commerce. Der Hub ist deine Hauptkategorieseite, zum Beispiel /laufschuhe. Die Spokes sind unterstützende Content-Seiten, die spezifische Fragen, Vergleiche und Kaufentscheidungen ansprechen, die jemand bei der Recherche zu Laufschuhen haben könnte.",
           },
           {
             type: "p",
@@ -213,16 +213,16 @@ export const guidesTopicalAuthorityT: Record<
           },
           {
             type: "tip",
-            text: "Die Hub-Seite profitiert von den Autoritäts- und Relevanzsignalen, die von den Spokes fließen. Wenn jemand auf einer Spoke-Seite landet und dann zum Hub navigiert, ist das ein Verhaltenssignal, das Google registriert. Baue Spokes, die Menschen wirklich helfen — keine dünnen Seiten, die nur existieren, um Link Equity weiterzugeben.",
+            text: "Die Hub-Seite profitiert von den Autoritäts- und Relevanzsignalen, die von den Spokes fließen. Wenn jemand auf einer Spoke-Seite landet und dann zum Hub navigiert, ist das ein Verhaltenssignal, das Google registriert. Baue Spokes, die Menschen wirklich helfen, keine dünnen Seiten, die nur existieren, um Link Equity weiterzugeben.",
           },
           {
             type: "list",
             items: [
               "Hub-Seite: deine Hauptkategorieseite, optimiert für den primären Head-Term",
-              "Kaufratgeber-Spoke: 'Wie wähle ich [Kategorie]' — zielt auf informationale Suchabsicht",
-              "Vergleichs-Spoke: '[Option A] vs [Option B]' — zielt auf vergleichende Suchabsicht",
-              "Spezifische Intentionsspokes: 'Beste [Kategorie] für [spezifischen Bedarf]' — zielt auf Long-Tail-Transaktionsabsicht",
-              "Pflege/Nutzungs-Spoke: 'Wie [pflegt man/benutzt man] [Produkt]' — baut Vertrauen auf",
+              "Kaufratgeber-Spoke: 'Wie wähle ich [Kategorie]', zielt auf informationale Suchabsicht",
+              "Vergleichs-Spoke: '[Option A] vs [Option B]', zielt auf vergleichende Suchabsicht",
+              "Spezifische Intentionsspokes: 'Beste [Kategorie] für [spezifischen Bedarf]', zielt auf Long-Tail-Transaktionsabsicht",
+              "Pflege/Nutzungs-Spoke: 'Wie [pflegt man/benutzt man] [Produkt]', baut Vertrauen auf",
               "FAQ-Spoke: Antworten auf die Top-10-Fragen zu deiner Kategorie",
             ],
           },
@@ -238,7 +238,7 @@ export const guidesTopicalAuthorityT: Record<
           },
           {
             type: "p",
-            text: "Jede Frage in der 'Nutzer fragen auch'-Box ist eine Content-Lücke, die du füllen könntest. Jede verwandte Suche, für die du keine Seite hast, ist ein potenzieller Spoke. Schreibe sie alle auf. Öffne dann die Websites deiner Wettbewerber und schaue dir ihre Blog- und Ressourcenbereiche an. Wenn sie 20 Artikel zu Laufschuh-Themen haben und du 2, ist die Lücke offensichtlich — und Googles Crawler bemerkt sie auch.",
+            text: "Jede Frage in der 'Nutzer fragen auch'-Box ist eine Content-Lücke, die du füllen könntest. Jede verwandte Suche, für die du keine Seite hast, ist ein potenzieller Spoke. Schreibe sie alle auf. Öffne dann die Websites deiner Wettbewerber und schaue dir ihre Blog- und Ressourcenbereiche an. Wenn sie 20 Artikel zu Laufschuh-Themen haben und du 2, ist die Lücke offensichtlich, und Googles Crawler bemerkt sie auch.",
           },
           {
             type: "tip",
@@ -251,7 +251,7 @@ export const guidesTopicalAuthorityT: Record<
               "Alle 'Ähnliche Suchanfragen' notieren, für die keine Seite existiert",
               "Ahrefs Content Gap Tool gegen Top-2-3-Wettbewerber ausführen",
               "Ergebnisse nach Suchvolumen filtern (500+ pro Monat) und informationale/kommerzielle Absicht",
-              "Lücken priorisieren, bei denen Wettbewerber auf Positionen 1-10 ranken — das sind bewährte Themen",
+              "Lücken priorisieren, bei denen Wettbewerber auf Positionen 1-10 ranken, denn das sind bewährte Themen",
               "Jede Lücke einem Content-Typ zuordnen: Kaufratgeber, Vergleichsseite, FAQ oder spezifische Intentionsseite",
               "Einen Content-Kalender mit einer Spoke-Seite pro Woche für die nächsten 3 Monate erstellen",
             ],
@@ -264,16 +264,16 @@ export const guidesTopicalAuthorityT: Record<
         blocks: [
           {
             type: "p",
-            text: "Der Instinkt im E-Commerce ist Expansion — mehr Kategorien, mehr Produkte, mehr Verticals. Dieser Instinkt ist falsch, wenn es um SEO geht, zumindest in den frühen und mittleren Phasen des Autoritätsaufbaus. Eine Website mit oberflächlicher Abdeckung über 10 Kategorien wird fast immer schlechter abschneiden als eine Website mit tiefer, umfassender Abdeckung von 2-3 Kategorien.",
+            text: "Der Instinkt im E-Commerce ist Expansion: mehr Kategorien, mehr Produkte, mehr Verticals. Dieser Instinkt ist falsch, wenn es um SEO geht, zumindest in den frühen und mittleren Phasen des Autoritätsaufbaus. Eine Website mit oberflächlicher Abdeckung über 10 Kategorien wird fast immer schlechter abschneiden als eine Website mit tiefer, gründlicher Abdeckung von 2-3 Kategorien.",
           },
           {
             type: "p",
-            text: "Wenn du Laufschuhe verkaufst, dominiere Laufschuh-Content, bevor du zu allgemeinem Sportschuhwerk wechselst. Baue 15-20 hochwertige Seiten über Laufschuhe, bevor du mit dem Schreiben über Fitnesstrainer oder Walkingschuhe anfängst. Google belohnt Tiefe. Eine Website mit 15 starken Laufschuhseiten wird eine Website mit 3 Laufschuhseiten und 3 Seiten jeweils für Fitnesstrainer, Walkingschuhe und Wanderstiefel übertreffen — selbst wenn die Gesamtseitenzahl ähnlich ist.",
+            text: "Wenn du Laufschuhe verkaufst, dominiere Laufschuh-Content, bevor du zu allgemeinem Sportschuhwerk wechselst. Baue 15-20 hochwertige Seiten über Laufschuhe, bevor du mit dem Schreiben über Fitnesstrainer oder Walkingschuhe anfängst. Google belohnt Tiefe. Eine Website mit 15 starken Laufschuhseiten wird eine Website mit 3 Laufschuhseiten und 3 Seiten jeweils für Fitnesstrainer, Walkingschuhe und Wanderstiefel übertreffen, selbst wenn die Gesamtseitenzahl ähnlich ist.",
           },
           {
             type: "callout",
             title: "Der Tiefentest",
-            text: "Kannst du ehrlich sagen, dass deine Website die beste Ressource im Internet für jemanden ist, der deine Kategorie recherchiert? Wenn die Antwort nein ist, bist du noch nicht tief genug gegangen. Dein Wettbewerber, der über dir rankt, kann das wahrscheinlich sagen — oder kommt zumindest näher dran als du.",
+            text: "Kannst du ehrlich sagen, dass deine Website die beste Ressource im Internet für jemanden ist, der deine Kategorie recherchiert? Wenn die Antwort nein ist, bist du noch nicht tief genug gegangen. Dein Wettbewerber, der über dir rankt, kann das wahrscheinlich sagen, oder kommt zumindest näher dran als du.",
           },
           {
             type: "p",
@@ -287,11 +287,11 @@ export const guidesTopicalAuthorityT: Record<
         blocks: [
           {
             type: "p",
-            text: "Thematische Autorität allein — ein Haufen guter Inhalte — funktioniert ohne starke interne Verlinkung nicht vollständig. Die interne Linkstruktur ist das, womit Google die Beziehungen zwischen deinen Seiten versteht und welche Seiten am wichtigsten sind. Es ist auch der Weg, wie Link Equity auf deiner Website verteilt wird.",
+            text: "Thematische Autorität allein, also ein Haufen guter Inhalte, funktioniert ohne starke interne Verlinkung nicht vollständig. Die interne Linkstruktur ist das, womit Google die Beziehungen zwischen deinen Seiten versteht und welche Seiten am wichtigsten sind. Es ist auch der Weg, wie Link Equity auf deiner Website verteilt wird.",
           },
           {
             type: "p",
-            text: "Die Regel ist einfach: Jede Spoke-Seite sollte auf den Hub verlinken. Der Hub sollte auf die wichtigsten Spokes verlinken. Neue Inhalte — ob Blogbeitrag, Ratgeber oder neue Produktseite — sollten auf die relevanteste Kategorieseite verlinken, zu der sie gehören. Wenn du einen Beitrag über 'Wie trainierst du für deinen ersten 5km-Lauf' veröffentlichst, sollte er auf deine Laufschuh-Kategorieseite verlinken.",
+            text: "Die Regel ist einfach: Jede Spoke-Seite sollte auf den Hub verlinken. Der Hub sollte auf die wichtigsten Spokes verlinken. Neue Inhalte, ob Blogbeitrag, Ratgeber oder neue Produktseite, sollten auf die relevanteste Kategorieseite verlinken, zu der sie gehören. Wenn du einen Beitrag über 'Wie trainierst du für deinen ersten 5km-Lauf' veröffentlichst, sollte er auf deine Laufschuh-Kategorieseite verlinken.",
           },
           {
             type: "tip",
@@ -303,8 +303,8 @@ export const guidesTopicalAuthorityT: Record<
               "Hub-Seiten sollten interne Links von jedem relevanten Spoke, jeder Produktseite und jedem Blogbeitrag erhalten",
               "Spoke-Seiten sollten immer mit keyword-reichem Ankertext auf ihren Hub zurückverlinken",
               "Neue Inhalte auf der Website sollten auf die relevanteste Kategorieseite verlinken",
-              "Beschreibenden Ankertext verwenden — 'Kaufratgeber Laufschuhe' statt 'Hier klicken'",
-              "Verwaiste Seiten vermeiden — jede Seite sollte innerhalb von 3 Klicks von der Startseite erreichbar sein",
+              "Beschreibenden Ankertext verwenden, z.B. 'Kaufratgeber Laufschuhe' statt 'Hier klicken'",
+              "Verwaiste Seiten vermeiden; jede Seite sollte innerhalb von 3 Klicks von der Startseite erreichbar sein",
               "Interne Links vierteljährlich mit Screaming Frog auf defekte oder fehlende Links prüfen",
             ],
           },
@@ -316,7 +316,7 @@ export const guidesTopicalAuthorityT: Record<
         blocks: [
           {
             type: "p",
-            text: "Das primäre Signal, dass deine thematische Autoritätsstrategie funktioniert, ist eine Verbesserung der Hub-Seiten-Rankings. In den meisten Fällen wird das Aufbauen von 3-5 starken Spoke-Seiten rund um eine Kategorie die Rankings der Hub-Seite innerhalb von 4-8 Wochen verbessern. Der Effekt ist nicht immer dramatisch — ein Sprung von Position 12 auf Position 7 ist bedeutsam, auch wenn er sich nicht so anfühlt. Verfolge es.",
+            text: "Das primäre Signal, dass deine thematische Autoritätsstrategie funktioniert, ist eine Verbesserung der Hub-Seiten-Rankings. In den meisten Fällen wird das Aufbauen von 3-5 starken Spoke-Seiten rund um eine Kategorie die Rankings der Hub-Seite innerhalb von 4-8 Wochen verbessern. Der Effekt ist nicht immer dramatisch. Ein Sprung von Position 12 auf Position 7 ist bedeutsam, auch wenn er sich nicht so anfühlt. Verfolge es.",
           },
           {
             type: "p",
@@ -325,17 +325,17 @@ export const guidesTopicalAuthorityT: Record<
           {
             type: "callout",
             title: "Wenn es nicht funktioniert",
-            text: "Wenn du 5+ Spoke-Seiten aufgebaut hast und der Hub sich nach 8 Wochen nicht bewegt hat, ist das Problem fast immer Link-Autorität, nicht Inhalt. Deine Website hat wahrscheinlich noch nicht genug Domain-Autorität, um für den Hub-Begriff zu ranken. Das ist der Moment, in dem Linkaufbau zur Priorität wird — sieh dir den Linkaufbau-Taktiken-Ratgeber an. Content und Links arbeiten zusammen. Keines allein ist ausreichend für wettbewerbsintensive Kategorien.",
+            text: "Wenn du 5+ Spoke-Seiten aufgebaut hast und der Hub sich nach 8 Wochen nicht bewegt hat, ist das Problem fast immer Link-Autorität, nicht Inhalt. Deine Website hat wahrscheinlich noch nicht genug Domain-Autorität, um für den Hub-Begriff zu ranken. Das ist der Moment, in dem Linkaufbau zur Priorität wird. Sieh dir den Linkaufbau-Taktiken-Ratgeber an. Content und Links arbeiten zusammen. Keines allein ist ausreichend für wettbewerbsintensive Kategorien.",
           },
           {
             type: "list",
             items: [
               "Hub-Seitenposition wöchentlich in Ahrefs oder Google Search Console verfolgen",
-              "Vor dem Start eine Basislinie setzen — aktuelle Rankings aufzeichnen oder exportieren",
+              "Vor dem Start eine Basislinie setzen, also aktuelle Rankings aufzeichnen oder exportieren",
               "Organische Klicks zur Hub-Seite in GSC Woche für Woche messen",
               "Indexierungsabdeckung für alle Spoke-Seiten in Google Search Console nach 7-10 Tagen prüfen",
               "Spoke-Seiten-Engagement in GA4 überprüfen: Zeit auf der Seite und Seiten pro Sitzung",
-              "Nach 8 Wochen ohne Hub-Bewegung eine Link-Gap-Analyse durchführen — Autorität ist das wahrscheinliche Problem",
+              "Nach 8 Wochen ohne Hub-Bewegung eine Link-Gap-Analyse durchführen, denn Autorität ist das wahrscheinliche Problem",
             ],
           },
         ],
@@ -355,7 +355,7 @@ export const guidesTopicalAuthorityT: Record<
         blocks: [
           {
             type: "p",
-            text: "L'autorité thématique est la façon dont Google détermine si un site sait vraiment de quoi il parle. Un site avec une couverture profonde et complète d'un sujet — pages produits, pages catégories, guides d'achat, contenus comparatifs, FAQ — signale une expertise réelle. Un site avec une seule page catégorie et aucun contenu de support paraît creux, et Google traite de plus en plus ces sites comme basse priorité pour les requêtes compétitives.",
+            text: "L'autorité thématique est la façon dont Google détermine si un site sait vraiment de quoi il parle. Un site avec une couverture profonde et solide d'un sujet (pages produits, pages catégories, guides d'achat, contenus comparatifs, FAQ) signale une expertise réelle. Un site avec une seule page catégorie et aucun contenu de support paraît creux, et Google traite de plus en plus ces sites comme basse priorité pour les requêtes compétitives.",
           },
           {
             type: "p",
@@ -374,7 +374,7 @@ export const guidesTopicalAuthorityT: Record<
         blocks: [
           {
             type: "p",
-            text: "Le modèle hub-and-spoke est le cadre le plus pratique pour l'autorité thématique en e-commerce. Le hub est votre page catégorie principale — par exemple, /chaussures-running. Les spokes sont des pages de contenu de support qui répondent à des questions spécifiques, des comparaisons et des décisions d'achat que quelqu'un recherchant des chaussures de running pourrait avoir.",
+            text: "Le modèle hub-and-spoke est le cadre le plus pratique pour l'autorité thématique en e-commerce. Le hub est votre page catégorie principale, par exemple /chaussures-running. Les spokes sont des pages de contenu de support qui répondent à des questions spécifiques, des comparaisons et des décisions d'achat que quelqu'un recherchant des chaussures de running pourrait avoir.",
           },
           {
             type: "p",
@@ -382,16 +382,16 @@ export const guidesTopicalAuthorityT: Record<
           },
           {
             type: "tip",
-            text: "La page hub bénéficie des signaux d'autorité et de pertinence qui proviennent des spokes. Quand quelqu'un atterrit sur une page spoke puis navigue vers le hub, c'est un signal comportemental que Google remarque. Construisez des spokes qui aident vraiment les gens — pas des pages superficielles qui n'existent que pour transmettre du link equity.",
+            text: "La page hub bénéficie des signaux d'autorité et de pertinence qui proviennent des spokes. Quand quelqu'un atterrit sur une page spoke puis navigue vers le hub, c'est un signal comportemental que Google remarque. Construisez des spokes qui aident vraiment les gens, pas des pages superficielles qui n'existent que pour transmettre du link equity.",
           },
           {
             type: "list",
             items: [
               "Page hub : votre page catégorie principale, optimisée pour le terme head principal",
-              "Spoke guide d'achat : 'comment choisir [catégorie]' — cible l'intention informationnelle",
-              "Spoke comparaison : '[option A] vs [option B]' — cible l'intention comparative",
-              "Spokes d'intention spécifique : 'meilleur [catégorie] pour [besoin spécifique]' — cible l'intention transactionnelle longue traîne",
-              "Spoke entretien/utilisation : 'comment [entretenir/utiliser] [produit]' — renforce la confiance",
+              "Spoke guide d'achat : 'comment choisir [catégorie]', cible l'intention informationnelle",
+              "Spoke comparaison : '[option A] vs [option B]', cible l'intention comparative",
+              "Spokes d'intention spécifique : 'meilleur [catégorie] pour [besoin spécifique]', cible l'intention transactionnelle longue traîne",
+              "Spoke entretien/utilisation : 'comment [entretenir/utiliser] [produit]', renforce la confiance",
               "Spoke FAQ : réponses aux 10 questions les plus posées sur votre catégorie",
             ],
           },
@@ -407,7 +407,7 @@ export const guidesTopicalAuthorityT: Record<
           },
           {
             type: "p",
-            text: "Chaque question dans la boîte 'Autres questions posées' est une lacune de contenu que vous pourriez combler. Chaque recherche associée pour laquelle vous n'avez pas de page ciblée est un spoke potentiel. Notez-les toutes. Ouvrez ensuite les sites de vos concurrents et regardez leurs sections blog et ressources. S'ils ont 20 articles sur les chaussures de running et vous en avez 2, l'écart est évident — et le crawler de Google le remarque aussi.",
+            text: "Chaque question dans la boîte 'Autres questions posées' est une lacune de contenu que vous pourriez combler. Chaque recherche associée pour laquelle vous n'avez pas de page ciblée est un spoke potentiel. Notez-les toutes. Ouvrez ensuite les sites de vos concurrents et regardez leurs sections blog et ressources. S'ils ont 20 articles sur les chaussures de running et vous en avez 2, l'écart est évident, et le crawler de Google le remarque aussi.",
           },
           {
             type: "tip",
@@ -420,7 +420,7 @@ export const guidesTopicalAuthorityT: Record<
               "Noter toutes les 'Recherches associées' pour lesquelles vous n'avez pas de page ciblée",
               "Lancer l'outil Ahrefs Content Gap contre vos 2-3 principaux concurrents",
               "Filtrer les résultats par volume de recherche (500+ par mois) et intention informationnelle ou commerciale",
-              "Prioriser les lacunes où les concurrents se classent en positions 1-10 — ce sont des sujets éprouvés",
+              "Prioriser les lacunes où les concurrents se classent en positions 1-10, car ce sont des sujets éprouvés",
               "Associer chaque lacune à un type de contenu : guide d'achat, page de comparaison, FAQ ou page d'intention spécifique",
               "Établir un calendrier éditorial avec une page spoke par semaine pour les 3 prochains mois",
             ],
@@ -433,16 +433,16 @@ export const guidesTopicalAuthorityT: Record<
         blocks: [
           {
             type: "p",
-            text: "L'instinct en e-commerce est d'élargir — plus de catégories, plus de produits, plus de verticales. Cet instinct est mauvais pour le SEO, du moins dans les phases initiales et intermédiaires de construction de l'autorité. Un site avec une couverture superficielle sur 10 catégories sera presque toujours moins performant qu'un site avec une couverture profonde et complète de 2-3 catégories.",
+            text: "L'instinct en e-commerce est d'élargir : plus de catégories, plus de produits, plus de verticales. Cet instinct est mauvais pour le SEO, du moins dans les phases initiales et intermédiaires de construction de l'autorité. Un site avec une couverture superficielle sur 10 catégories sera presque toujours moins performant qu'un site avec une couverture profonde et solide de 2-3 catégories.",
           },
           {
             type: "p",
-            text: "Si vous vendez des chaussures de running, dominez le contenu sur les chaussures de running avant de passer à la chaussure sportive générale. Construisez 15 à 20 pages de qualité sur les chaussures de running avant de commencer à écrire sur les chaussures de gym ou les chaussures de marche. Google récompense la profondeur. Un site avec 15 pages solides sur les chaussures de running surclassera un site avec 3 pages running et 3 pages pour les chaussures de gym, de marche et de randonnée — même si le nombre total de pages est similaire.",
+            text: "Si vous vendez des chaussures de running, dominez le contenu sur les chaussures de running avant de passer à la chaussure sportive générale. Construisez 15 à 20 pages de qualité sur les chaussures de running avant de commencer à écrire sur les chaussures de gym ou les chaussures de marche. Google récompense la profondeur. Un site avec 15 pages solides sur les chaussures de running surclassera un site avec 3 pages running et 3 pages pour les chaussures de gym, de marche et de randonnée, même si le nombre total de pages est similaire.",
           },
           {
             type: "callout",
             title: "Le test de profondeur",
-            text: "Pouvez-vous honnêtement dire que votre site est la meilleure ressource sur internet pour quelqu'un qui recherche votre catégorie ? Si la réponse est non, vous n'avez pas encore assez approfondi. Votre concurrent qui se classe au-dessus de vous peut probablement répondre oui — ou s'en approche davantage.",
+            text: "Pouvez-vous honnêtement dire que votre site est la meilleure ressource sur internet pour quelqu'un qui recherche votre catégorie ? Si la réponse est non, vous n'avez pas encore assez approfondi. Votre concurrent qui se classe au-dessus de vous peut probablement répondre oui, ou s'en approche davantage.",
           },
           {
             type: "p",
@@ -456,11 +456,11 @@ export const guidesTopicalAuthorityT: Record<
         blocks: [
           {
             type: "p",
-            text: "L'autorité thématique seule — un ensemble de bon contenu — ne fonctionne pas pleinement sans un maillage interne solide. La structure de liens internes est ce qui permet à Google de comprendre les relations entre vos pages et lesquelles sont les plus importantes. C'est aussi le chemin par lequel le link equity circule sur votre site.",
+            text: "L'autorité thématique seule, même un ensemble de bon contenu, ne fonctionne pas pleinement sans un maillage interne solide. La structure de liens internes est ce qui permet à Google de comprendre les relations entre vos pages et lesquelles sont les plus importantes. C'est aussi le chemin par lequel le link equity circule sur votre site.",
           },
           {
             type: "p",
-            text: "La règle est simple : chaque page spoke doit renvoyer vers le hub. Le hub doit renvoyer vers les spokes les plus importants. Tout nouveau contenu — qu'il s'agisse d'un article de blog, d'un guide ou d'une nouvelle page produit — doit renvoyer vers la page catégorie la plus pertinente à laquelle il est associé. Si vous publiez un article sur 'comment s'entraîner pour votre premier 5km', il devrait renvoyer vers votre page catégorie chaussures de running.",
+            text: "La règle est simple : chaque page spoke doit renvoyer vers le hub. Le hub doit renvoyer vers les spokes les plus importants. Tout nouveau contenu, qu'il s'agisse d'un article de blog, d'un guide ou d'une nouvelle page produit, doit renvoyer vers la page catégorie la plus pertinente à laquelle il est associé. Si vous publiez un article sur 'comment s'entraîner pour votre premier 5km', il devrait renvoyer vers votre page catégorie chaussures de running.",
           },
           {
             type: "tip",
@@ -472,8 +472,8 @@ export const guidesTopicalAuthorityT: Record<
               "Les pages hub doivent recevoir des liens internes de chaque spoke, page produit et article de blog pertinents",
               "Les pages spoke doivent toujours renvoyer vers leur hub avec un ancre riche en mots-clés",
               "Tout nouveau contenu publié sur le site doit renvoyer vers la page catégorie la plus pertinente",
-              "Utiliser un ancre descriptif — 'guide d'achat chaussures running' pas 'cliquez ici'",
-              "Éviter les pages orphelines — chaque page doit être accessible en 3 clics depuis la page d'accueil",
+              "Utiliser un ancre descriptif, comme 'guide d'achat chaussures running' pas 'cliquez ici'",
+              "Éviter les pages orphelines; chaque page doit être accessible en 3 clics depuis la page d'accueil",
               "Auditer les liens internes trimestriellement avec Screaming Frog pour trouver les liens brisés ou manquants",
             ],
           },
@@ -485,7 +485,7 @@ export const guidesTopicalAuthorityT: Record<
         blocks: [
           {
             type: "p",
-            text: "Le signal principal que votre stratégie d'autorité thématique fonctionne est le mouvement dans les classements de la page hub. Dans la plupart des cas, construire 3 à 5 pages spoke solides autour d'une catégorie améliorera les classements de la page hub en 4 à 8 semaines. L'effet n'est pas toujours spectaculaire — un saut de la position 12 à la position 7 est significatif même si ça ne le semble pas. Suivez-le.",
+            text: "Le signal principal que votre stratégie d'autorité thématique fonctionne est le mouvement dans les classements de la page hub. Dans la plupart des cas, construire 3 à 5 pages spoke solides autour d'une catégorie améliorera les classements de la page hub en 4 à 8 semaines. L'effet n'est pas toujours spectaculaire. Un saut de la position 12 à la position 7 est significatif même si ça ne le semble pas. Suivez-le.",
           },
           {
             type: "p",
@@ -494,7 +494,7 @@ export const guidesTopicalAuthorityT: Record<
           {
             type: "callout",
             title: "Quand ça ne fonctionne pas",
-            text: "Si vous avez construit 5+ pages spoke et que le hub n'a pas bougé en 8 semaines, le problème est presque toujours l'autorité de liens, pas le contenu. Votre site n'a probablement pas encore assez d'autorité de domaine pour se classer sur le terme hub. C'est là que la création de liens devient prioritaire — consultez le guide Tactiques de création de liens. Contenu et liens fonctionnent ensemble. Ni l'un ni l'autre seul ne suffit pour les catégories compétitives.",
+            text: "Si vous avez construit 5+ pages spoke et que le hub n'a pas bougé en 8 semaines, le problème est presque toujours l'autorité de liens, pas le contenu. Votre site n'a probablement pas encore assez d'autorité de domaine pour se classer sur le terme hub. C'est là que la création de liens devient prioritaire, alors consultez le guide Tactiques de création de liens. Contenu et liens fonctionnent ensemble. Ni l'un ni l'autre seul ne suffit pour les catégories compétitives.",
           },
           {
             type: "list",
@@ -504,7 +504,7 @@ export const guidesTopicalAuthorityT: Record<
               "Mesurer les clics organiques vers la page hub dans GSC semaine après semaine",
               "Vérifier la couverture d'index pour toutes les pages spoke dans Google Search Console après 7-10 jours",
               "Examiner l'engagement des pages spoke dans GA4 : temps sur la page et pages par session",
-              "Après 8 semaines sans mouvement du hub, effectuer une analyse des lacunes de liens — l'autorité est probablement le problème",
+              "Après 8 semaines sans mouvement du hub, effectuer une analyse des lacunes de liens, car l'autorité est probablement le problème",
             ],
           },
         ],
@@ -524,7 +524,7 @@ export const guidesTopicalAuthorityT: Record<
         blocks: [
           {
             type: "p",
-            text: "La autoridad temática es la forma en que Google determina si un sitio realmente sabe de lo que habla. Un sitio con cobertura profunda y completa de un tema — páginas de producto, páginas de categoría, guías de compra, contenido comparativo, FAQs — señala experiencia real. Un sitio con una sola página de categoría y sin contenido de apoyo parece superficial, y Google trata cada vez más estos sitios como baja prioridad para términos competitivos.",
+            text: "La autoridad temática es la forma en que Google determina si un sitio realmente sabe de lo que habla. Un sitio con cobertura profunda y sólida de un tema (páginas de producto, páginas de categoría, guías de compra, contenido comparativo, FAQs) señala experiencia real. Un sitio con una sola página de categoría y sin contenido de apoyo parece superficial, y Google trata cada vez más estos sitios como baja prioridad para términos competitivos.",
           },
           {
             type: "p",
@@ -543,7 +543,7 @@ export const guidesTopicalAuthorityT: Record<
         blocks: [
           {
             type: "p",
-            text: "El modelo hub-and-spoke es el framework más práctico para la autoridad temática en e-commerce. El hub es tu página de categoría principal — por ejemplo, /zapatillas-running. Los spokes son páginas de contenido de apoyo que responden preguntas específicas, comparaciones y decisiones de compra que alguien investigando zapatillas de running podría tener.",
+            text: "El modelo hub-and-spoke es el framework más práctico para la autoridad temática en e-commerce. El hub es tu página de categoría principal, por ejemplo /zapatillas-running. Los spokes son páginas de contenido de apoyo que responden preguntas específicas, comparaciones y decisiones de compra que alguien investigando zapatillas de running podría tener.",
           },
           {
             type: "p",
@@ -551,16 +551,16 @@ export const guidesTopicalAuthorityT: Record<
           },
           {
             type: "tip",
-            text: "La página hub se beneficia de las señales de autoridad y relevancia que fluyen desde los spokes. Cuando alguien aterriza en una página spoke y luego navega al hub, es una señal de comportamiento que Google nota. Construye spokes que realmente ayuden a las personas — no páginas superficiales que solo existen para pasar link equity.",
+            text: "La página hub se beneficia de las señales de autoridad y relevancia que fluyen desde los spokes. Cuando alguien aterriza en una página spoke y luego navega al hub, es una señal de comportamiento que Google nota. Construye spokes que realmente ayuden a las personas, no páginas superficiales que solo existen para pasar link equity.",
           },
           {
             type: "list",
             items: [
               "Página hub: tu página de categoría principal, optimizada para el término head principal",
-              "Spoke guía de compra: 'cómo elegir [categoría]' — dirige a la intención informacional",
-              "Spoke comparación: '[opción A] vs [opción B]' — dirige a la intención comparativa",
-              "Spokes de intención específica: 'mejor [categoría] para [necesidad específica]' — dirige a la intención transaccional de cola larga",
-              "Spoke cuidado/uso: 'cómo [mantener/usar] [producto]' — genera confianza",
+              "Spoke guía de compra: 'cómo elegir [categoría]', dirige a la intención informacional",
+              "Spoke comparación: '[opción A] vs [opción B]', dirige a la intención comparativa",
+              "Spokes de intención específica: 'mejor [categoría] para [necesidad específica]', dirige a la intención transaccional de cola larga",
+              "Spoke cuidado/uso: 'cómo [mantener/usar] [producto]', genera confianza",
               "Spoke FAQ: respuestas a las 10 preguntas más frecuentes sobre tu categoría",
             ],
           },
@@ -576,7 +576,7 @@ export const guidesTopicalAuthorityT: Record<
           },
           {
             type: "p",
-            text: "Cada pregunta en el cuadro 'Las personas también preguntan' es una brecha de contenido que podrías llenar. Cada búsqueda relacionada para la que no tienes una página específica es un spoke potencial. Anótalas todas. Luego abre los sitios de tus competidores y mira sus secciones de blog y recursos. Si tienen 20 artículos sobre temas de zapatillas de running y tú tienes 2, la brecha es evidente — y el rastreador de Google también la nota.",
+            text: "Cada pregunta en el cuadro 'Las personas también preguntan' es una brecha de contenido que podrías llenar. Cada búsqueda relacionada para la que no tienes una página específica es un spoke potencial. Anótalas todas. Luego abre los sitios de tus competidores y mira sus secciones de blog y recursos. Si tienen 20 artículos sobre temas de zapatillas de running y tú tienes 2, la brecha es evidente, y el rastreador de Google también la nota.",
           },
           {
             type: "tip",
@@ -589,7 +589,7 @@ export const guidesTopicalAuthorityT: Record<
               "Anotar todas las 'Búsquedas relacionadas' para las que no tienes una página específica",
               "Ejecutar la herramienta Ahrefs Content Gap contra tus 2-3 principales competidores",
               "Filtrar resultados por volumen de búsqueda (500+ por mes) e intención informacional o comercial",
-              "Priorizar brechas donde los competidores se posicionan en posiciones 1-10 — esos son temas probados",
+              "Priorizar brechas donde los competidores se posicionan en posiciones 1-10, ya que esos son temas probados",
               "Asociar cada brecha a un tipo de contenido: guía de compra, página de comparación, FAQ o página de intención específica",
               "Crear un calendario de contenido con una página spoke por semana durante los próximos 3 meses",
             ],
@@ -602,16 +602,16 @@ export const guidesTopicalAuthorityT: Record<
         blocks: [
           {
             type: "p",
-            text: "El instinto en e-commerce es expandirse — más categorías, más productos, más verticales. Ese instinto es incorrecto para el SEO, al menos en las etapas iniciales e intermedias de construcción de autoridad. Un sitio con cobertura superficial en 10 categorías casi siempre tendrá peor rendimiento que un sitio con cobertura profunda y completa de 2-3 categorías.",
+            text: "El instinto en e-commerce es expandirse: más categorías, más productos, más verticales. Ese instinto es incorrecto para el SEO, al menos en las etapas iniciales e intermedias de construcción de autoridad. Un sitio con cobertura superficial en 10 categorías casi siempre tendrá peor rendimiento que un sitio con cobertura profunda y sólida de 2-3 categorías.",
           },
           {
             type: "p",
-            text: "Si vendes zapatillas de running, domina el contenido sobre zapatillas de running antes de expandirte al calzado deportivo general. Construye 15-20 páginas de alta calidad sobre zapatillas de running antes de empezar a escribir sobre zapatillas de gym o calzado para caminar. Google recompensa la profundidad. Un sitio con 15 páginas sólidas sobre zapatillas de running superará a un sitio con 3 páginas de running y 3 páginas cada una para zapatillas de gym, calzado para caminar y botas de senderismo — incluso si el número total de páginas es similar.",
+            text: "Si vendes zapatillas de running, domina el contenido sobre zapatillas de running antes de expandirte al calzado deportivo general. Construye 15-20 páginas de alta calidad sobre zapatillas de running antes de empezar a escribir sobre zapatillas de gym o calzado para caminar. Google recompensa la profundidad. Un sitio con 15 páginas sólidas sobre zapatillas de running superará a un sitio con 3 páginas de running y 3 páginas cada una para zapatillas de gym, calzado para caminar y botas de senderismo, incluso si el número total de páginas es similar.",
           },
           {
             type: "callout",
             title: "La prueba de profundidad",
-            text: "¿Puedes decir honestamente que tu sitio es el mejor recurso en internet para alguien que investiga tu categoría? Si la respuesta es no, todavía no has ido suficientemente en profundidad. Tu competidor que se posiciona por encima de ti probablemente puede decir que sí — o al menos se acerca más que tú.",
+            text: "¿Puedes decir honestamente que tu sitio es el mejor recurso en internet para alguien que investiga tu categoría? Si la respuesta es no, todavía no has ido suficientemente en profundidad. Tu competidor que se posiciona por encima de ti probablemente puede decir que sí, o al menos se acerca más que tú.",
           },
           {
             type: "p",
@@ -625,11 +625,11 @@ export const guidesTopicalAuthorityT: Record<
         blocks: [
           {
             type: "p",
-            text: "La autoridad temática por sí sola — un montón de buen contenido — no funciona completamente sin un sólido enlazado interno. La estructura de enlaces internos es lo que permite a Google entender las relaciones entre tus páginas y cuáles son las más importantes. También es el camino por el que fluye el link equity por tu sitio.",
+            text: "La autoridad temática por sí sola, incluso un montón de buen contenido, no funciona completamente sin un sólido enlazado interno. La estructura de enlaces internos es lo que permite a Google entender las relaciones entre tus páginas y cuáles son las más importantes. También es el camino por el que fluye el link equity por tu sitio.",
           },
           {
             type: "p",
-            text: "La regla es simple: cada página spoke debe enlazar al hub. El hub debe enlazar a los spokes más importantes. El nuevo contenido — ya sea un artículo de blog, una guía o una nueva página de producto — debe enlazar a la página de categoría más relevante con la que está conectado. Si publicas un post sobre 'cómo entrenar para tu primer 5k', debería enlazar a tu página de categoría de zapatillas de running.",
+            text: "La regla es simple: cada página spoke debe enlazar al hub. El hub debe enlazar a los spokes más importantes. El nuevo contenido, ya sea un artículo de blog, una guía o una nueva página de producto, debe enlazar a la página de categoría más relevante con la que está conectado. Si publicas un post sobre 'cómo entrenar para tu primer 5k', debería enlazar a tu página de categoría de zapatillas de running.",
           },
           {
             type: "tip",
@@ -641,8 +641,8 @@ export const guidesTopicalAuthorityT: Record<
               "Las páginas hub deben recibir enlaces internos de cada spoke, página de producto y artículo de blog relevante",
               "Las páginas spoke siempre deben enlazar de vuelta a su hub con texto ancla rico en keywords",
               "El nuevo contenido publicado en cualquier parte del sitio debe enlazar a la página de categoría más relevante",
-              "Usar texto ancla descriptivo — 'guía de compra zapatillas running' no 'haz clic aquí'",
-              "Evitar páginas huérfanas — cada página debe ser accesible en 3 clics desde la página de inicio",
+              "Usar texto ancla descriptivo, como 'guía de compra zapatillas running' no 'haz clic aquí'",
+              "Evitar páginas huérfanas; cada página debe ser accesible en 3 clics desde la página de inicio",
               "Auditar los enlaces internos trimestralmente con Screaming Frog para encontrar enlaces rotos o faltantes",
             ],
           },
@@ -654,7 +654,7 @@ export const guidesTopicalAuthorityT: Record<
         blocks: [
           {
             type: "p",
-            text: "La señal principal de que tu estrategia de autoridad temática está funcionando es el movimiento en los rankings de la página hub. En la mayoría de los casos, construir 3-5 páginas spoke sólidas alrededor de una categoría mejorará los rankings de la página hub en 4-8 semanas. El efecto no siempre es dramático — un salto de la posición 12 a la posición 7 es significativo aunque no lo parezca. Rastréalo.",
+            text: "La señal principal de que tu estrategia de autoridad temática está funcionando es el movimiento en los rankings de la página hub. En la mayoría de los casos, construir 3-5 páginas spoke sólidas alrededor de una categoría mejorará los rankings de la página hub en 4-8 semanas. El efecto no siempre es dramático. Un salto de la posición 12 a la posición 7 es significativo aunque no lo parezca. Rastréalo.",
           },
           {
             type: "p",
@@ -663,7 +663,7 @@ export const guidesTopicalAuthorityT: Record<
           {
             type: "callout",
             title: "Cuando no funciona",
-            text: "Si has construido 5+ páginas spoke y el hub no se ha movido en 8 semanas, el problema es casi siempre la autoridad de enlaces, no el contenido. Tu sitio probablemente no tiene suficiente autoridad de dominio para posicionarse en el término hub todavía. Es cuando el link building se convierte en la prioridad — consulta la guía de Tácticas de Link Building. Contenido y enlaces funcionan juntos. Ninguno por sí solo es suficiente para categorías competitivas.",
+            text: "Si has construido 5+ páginas spoke y el hub no se ha movido en 8 semanas, el problema es casi siempre la autoridad de enlaces, no el contenido. Tu sitio probablemente no tiene suficiente autoridad de dominio para posicionarse en el término hub todavía. Es cuando el link building se convierte en la prioridad, así que consulta la guía de Tácticas de Link Building. Contenido y enlaces funcionan juntos. Ninguno por sí solo es suficiente para categorías competitivas.",
           },
           {
             type: "list",
@@ -673,7 +673,7 @@ export const guidesTopicalAuthorityT: Record<
               "Medir los clics orgánicos a la página hub en GSC semana a semana",
               "Comprobar la cobertura de índice para todas las páginas spoke en Google Search Console después de 7-10 días",
               "Revisar el engagement de las páginas spoke en GA4: tiempo en página y páginas por sesión",
-              "Después de 8 semanas sin movimiento del hub, realizar un análisis de brechas de enlaces — la autoridad es probablemente el problema",
+              "Después de 8 semanas sin movimiento del hub, realizar un análisis de brechas de enlaces porque la autoridad es probablemente el problema",
             ],
           },
         ],
@@ -693,7 +693,7 @@ export const guidesTopicalAuthorityT: Record<
         blocks: [
           {
             type: "p",
-            text: "L'autorità tematica è il modo in cui Google determina se un sito sa davvero di cosa sta parlando. Un sito con copertura profonda e completa di un argomento — pagine prodotto, pagine categoria, guide all'acquisto, contenuti comparativi, FAQ — segnala una vera competenza. Un sito con una sola pagina categoria e nessun contenuto di supporto appare superficiale, e Google tratta sempre più questi siti come bassa priorità per i termini competitivi.",
+            text: "L'autorità tematica è il modo in cui Google determina se un sito sa davvero di cosa sta parlando. Un sito con copertura profonda e solida di un argomento (pagine prodotto, pagine categoria, guide all'acquisto, contenuti comparativi, FAQ) segnala una vera competenza. Un sito con una sola pagina categoria e nessun contenuto di supporto appare superficiale, e Google tratta sempre più questi siti come bassa priorità per i termini competitivi.",
           },
           {
             type: "p",
@@ -712,7 +712,7 @@ export const guidesTopicalAuthorityT: Record<
         blocks: [
           {
             type: "p",
-            text: "Il modello hub-and-spoke è il framework più pratico per l'autorità tematica nell'e-commerce. L'hub è la tua pagina categoria principale — ad esempio, /scarpe-running. Gli spoke sono pagine di contenuto di supporto che rispondono a domande specifiche, confronti e decisioni di acquisto che qualcuno che cerca scarpe da running potrebbe avere.",
+            text: "Il modello hub-and-spoke è il framework più pratico per l'autorità tematica nell'e-commerce. L'hub è la tua pagina categoria principale, ad esempio /scarpe-running. Gli spoke sono pagine di contenuto di supporto che rispondono a domande specifiche, confronti e decisioni di acquisto che qualcuno che cerca scarpe da running potrebbe avere.",
           },
           {
             type: "p",
@@ -720,16 +720,16 @@ export const guidesTopicalAuthorityT: Record<
           },
           {
             type: "tip",
-            text: "La pagina hub beneficia dei segnali di autorità e rilevanza che provengono dagli spoke. Quando qualcuno atterra su una pagina spoke e poi naviga verso l'hub, è un segnale comportamentale che Google nota. Costruisci spoke che aiutino davvero le persone — non pagine superficiali che esistono solo per passare link equity.",
+            text: "La pagina hub beneficia dei segnali di autorità e rilevanza che provengono dagli spoke. Quando qualcuno atterra su una pagina spoke e poi naviga verso l'hub, è un segnale comportamentale che Google nota. Costruisci spoke che aiutino davvero le persone, non pagine superficiali che esistono solo per passare link equity.",
           },
           {
             type: "list",
             items: [
               "Pagina hub: la tua pagina categoria principale, ottimizzata per il termine head principale",
-              "Spoke guida all'acquisto: 'come scegliere [categoria]' — si rivolge all'intento informazionale",
-              "Spoke confronto: '[opzione A] vs [opzione B]' — si rivolge all'intento comparativo",
-              "Spoke di intento specifico: 'migliore [categoria] per [bisogno specifico]' — si rivolge all'intento transazionale a coda lunga",
-              "Spoke cura/utilizzo: 'come [mantenere/usare] [prodotto]' — costruisce fiducia",
+              "Spoke guida all'acquisto: 'come scegliere [categoria]', si rivolge all'intento informazionale",
+              "Spoke confronto: '[opzione A] vs [opzione B]', si rivolge all'intento comparativo",
+              "Spoke di intento specifico: 'migliore [categoria] per [bisogno specifico]', si rivolge all'intento transazionale a coda lunga",
+              "Spoke cura/utilizzo: 'come [mantenere/usare] [prodotto]', costruisce fiducia",
               "Spoke FAQ: risposte alle 10 domande più frequenti sulla tua categoria",
             ],
           },
@@ -745,7 +745,7 @@ export const guidesTopicalAuthorityT: Record<
           },
           {
             type: "p",
-            text: "Ogni domanda nel riquadro 'Le persone hanno chiesto anche' è una lacuna di contenuto che potresti colmare. Ogni ricerca correlata per cui non hai una pagina specifica è un potenziale spoke. Annotale tutte. Poi apri i siti dei tuoi concorrenti e guarda le loro sezioni blog e risorse. Se hanno 20 articoli sulle scarpe da running e tu ne hai 2, il divario è evidente — e il crawler di Google lo nota anche.",
+            text: "Ogni domanda nel riquadro 'Le persone hanno chiesto anche' è una lacuna di contenuto che potresti colmare. Ogni ricerca correlata per cui non hai una pagina specifica è un potenziale spoke. Annotale tutte. Poi apri i siti dei tuoi concorrenti e guarda le loro sezioni blog e risorse. Se hanno 20 articoli sulle scarpe da running e tu ne hai 2, il divario è evidente, e il crawler di Google lo nota anche.",
           },
           {
             type: "tip",
@@ -758,7 +758,7 @@ export const guidesTopicalAuthorityT: Record<
               "Annotare tutte le 'Ricerche correlate' per cui non hai una pagina specifica",
               "Eseguire lo strumento Ahrefs Content Gap contro i tuoi 2-3 principali concorrenti",
               "Filtrare i risultati per volume di ricerca (500+ al mese) e intento informazionale o commerciale",
-              "Prioritizzare le lacune dove i concorrenti si posizionano in posizioni 1-10 — quelli sono argomenti provati",
+              "Prioritizzare le lacune dove i concorrenti si posizionano in posizioni 1-10, perché quelli sono argomenti provati",
               "Associare ogni lacuna a un tipo di contenuto: guida all'acquisto, pagina di confronto, FAQ o pagina di intento specifico",
               "Creare un calendario editoriale con una pagina spoke a settimana per i prossimi 3 mesi",
             ],

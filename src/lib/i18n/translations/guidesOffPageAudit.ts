@@ -21,7 +21,7 @@ export const guidesOffPageAuditT: Record<
           },
           {
             type: "p",
-            text: "Most ecommerce stores have a messy backlink profile — some strong editorial links, a pile of directory submissions from 2014, and a few random forums. The audit helps you see this clearly so you can make informed decisions rather than guessing.",
+            text: "Most ecommerce stores have a messy backlink profile: some strong editorial links, a pile of directory submissions from 2014, and a few random forums. The audit helps you see this clearly so you can make informed decisions rather than guessing.",
           },
           {
             type: "callout",
@@ -36,7 +36,7 @@ export const guidesOffPageAuditT: Record<
         blocks: [
           {
             type: "p",
-            text: "Use Ahrefs Site Explorer or SEMrush Backlink Analytics to pull your full referring domain list. Both tools give you similar data — go with whichever your team already has access to. Export the full referring domains list (not just backlinks — referring domains is the cleaner metric). Open it in Google Sheets.",
+            text: "Use Ahrefs Site Explorer or SEMrush Backlink Analytics to pull your full referring domain list. Both tools give you similar data, so go with whichever your team already has access to. Export the full referring domains list (not just backlinks; referring domains is the cleaner metric). Open it in Google Sheets.",
           },
           {
             type: "tip",
@@ -65,7 +65,7 @@ export const guidesOffPageAuditT: Record<
         blocks: [
           {
             type: "p",
-            text: "Not all links are equal. A single link from a major retail publication is worth more than 500 links from low-quality directories. When assessing quality, look at these signals in combination — no single metric tells the whole story.",
+            text: "Not all links are equal. A single link from a major retail publication is worth more than 500 links from low-quality directories. When assessing quality, look at these signals together, because no single metric tells the whole story.",
           },
           {
             type: "list",
@@ -94,7 +94,7 @@ export const guidesOffPageAuditT: Record<
           },
           {
             type: "p",
-            text: "Here is the honest answer: Google is much better at ignoring these than it used to be. You do not need to disavow every low-quality link. The disavow tool exists for genuine penalty situations — if you see a sudden, unexplained rankings drop that coincides with a spike in toxic link acquisition, then it's worth investigating and building a disavow file. Otherwise, do not spend hours on disavow work when you could be building good links instead.",
+            text: "Here is the honest answer: Google is much better at ignoring these than it used to be. You do not need to disavow every low-quality link. The disavow tool exists for genuine penalty situations. If you see a sudden, unexplained rankings drop that coincides with a spike in toxic link acquisition, then it's worth investigating and building a disavow file. Otherwise, do not spend hours on disavow work when you could be building good links instead.",
           },
           {
             type: "tip",
@@ -106,7 +106,7 @@ export const guidesOffPageAuditT: Record<
               "Check Google Search Console for any manual actions before assuming algorithmic penalty",
               "Cross-reference toxic domains with your traffic drop dates in Google Analytics",
               "Only disavow if you have clear evidence of harm, not just because a tool flagged links as 'toxic'",
-              "Keep a running disavow file — add to it over time rather than rebuilding from scratch",
+              "Keep a running disavow file and add to it over time rather than rebuilding from scratch",
             ],
           },
         ],
@@ -117,7 +117,7 @@ export const guidesOffPageAuditT: Record<
         blocks: [
           {
             type: "p",
-            text: "Anchor text is one of the clearest signals in your backlink profile. A natural profile has mostly branded anchors (your store name), naked URLs, and generic terms like 'click here' or 'visit site'. A small portion — typically under 10% — should be keyword-rich anchors. If you push past 30% exact-match keyword anchors, that is a red flag Google's algorithms will notice.",
+            text: "Anchor text is one of the clearest signals in your backlink profile. A natural profile has mostly branded anchors (your store name), naked URLs, and generic terms like 'click here' or 'visit site'. A small portion, typically under 10%, should be keyword-rich anchors. If you push past 30% exact-match keyword anchors, that is a red flag Google's algorithms will notice.",
           },
           {
             type: "list",
@@ -143,19 +143,19 @@ export const guidesOffPageAuditT: Record<
         blocks: [
           {
             type: "p",
-            text: "Pull the referring domains for your top 3 organic search competitors. In Ahrefs, use the Link Intersect tool — enter your domain and your competitors' domains, then filter for domains that link to them but not to you. This list is your best starting point for link building. These sites already link to businesses like yours. They are pre-qualified prospects.",
+            text: "Pull the referring domains for your top 3 organic search competitors. In Ahrefs, use the Link Intersect tool: enter your domain and your competitors' domains, then filter for domains that link to them but not to you. This list is your best starting point for link building. These sites already link to businesses like yours. They are pre-qualified prospects.",
           },
           {
             type: "p",
-            text: "Link velocity is how your referring domain count changes over time. A flat or growing count is healthy. A steady decline in referring domains — without corresponding new ones coming in — means you are losing ground. This is common with ecommerce stores that run a burst of link building, then stop. Links that came from blog posts get removed as those posts are updated or deleted. Without maintenance, your profile shrinks.",
+            text: "Link velocity is how your referring domain count changes over time. A flat or growing count is healthy. A steady decline in referring domains, without corresponding new ones coming in, means you are losing ground. This is common with ecommerce stores that run a burst of link building, then stop. Links that came from blog posts get removed as those posts are updated or deleted. Without maintenance, your profile shrinks.",
           },
           {
             type: "tip",
-            text: "In Ahrefs, check the 'New and Lost' referring domains chart under Site Explorer. If you're losing 10-20 domains per month and gaining 2-3, that's a net loss problem. Factor this into your link building targets — you need to outpace your attrition rate before you can actually grow.",
+            text: "In Ahrefs, check the 'New and Lost' referring domains chart under Site Explorer. If you're losing 10-20 domains per month and gaining 2-3, that's a net loss problem. Factor this into your link building targets, because you need to outpace your attrition rate before you can actually grow.",
           },
           {
             type: "p",
-            text: "Once your audit is complete, take your findings directly into your task planning process. The off-page audit tells you where you stand — the task plan decides what you do about it. See the guide on /guides/task-planning for how to structure that work, and /guides/link-building-tactics for specific tactics to close your competitor gap.",
+            text: "Once your audit is complete, take your findings directly into your task planning process. The off-page audit tells you where you stand. The task plan decides what you do about it. See the guide on /guides/task-planning for how to structure that work, and /guides/link-building-tactics for specific tactics to close your competitor gap.",
           },
         ],
       },
@@ -174,7 +174,7 @@ export const guidesOffPageAuditT: Record<
         blocks: [
           {
             type: "p",
-            text: "Ein Off-Page-Audit ist eine vollständige Analyse deines Backlink-Profils. Das bedeutet: Anzahl der Links zählen, einzigartige Domains ermitteln, die Qualität dieser Domains bewerten, die Anchor-Text-Verteilung prüfen und alles mit den stärksten Wettbewerbern vergleichen. Es geht nicht darum, einer Zahl hinterherzujagen — sondern zu verstehen, ob dein Link-Profil deine Rankings stützt oder schadet.",
+            text: "Ein Off-Page-Audit ist eine vollständige Analyse deines Backlink-Profils. Das bedeutet: Anzahl der Links zählen, einzigartige Domains ermitteln, die Qualität dieser Domains bewerten, die Anchor-Text-Verteilung prüfen und alles mit den stärksten Wettbewerbern vergleichen. Es geht nicht darum, einer Zahl hinterherzujagen, sondern zu verstehen, ob dein Link-Profil deine Rankings stützt oder schadet.",
           },
           {
             type: "p",
@@ -193,7 +193,7 @@ export const guidesOffPageAuditT: Record<
         blocks: [
           {
             type: "p",
-            text: "Nutze Ahrefs Site Explorer oder SEMrush Backlink Analytics, um deine vollständige Liste der verweisenden Domains abzurufen. Beide Tools liefern ähnliche Daten — nimm das, zu dem dein Team bereits Zugang hat. Exportiere die komplette Referring-Domains-Liste (nicht nur Backlinks — verweisende Domains sind die sauberere Kennzahl). Öffne die Datei in Google Sheets.",
+            text: "Nutze Ahrefs Site Explorer oder SEMrush Backlink Analytics, um deine vollständige Liste der verweisenden Domains abzurufen. Beide Tools liefern ähnliche Daten, nimm also das, zu dem dein Team bereits Zugang hat. Exportiere die komplette Referring-Domains-Liste (nicht nur Backlinks; verweisende Domains sind die sauberere Kennzahl). Öffne die Datei in Google Sheets.",
           },
           {
             type: "tip",
@@ -201,7 +201,7 @@ export const guidesOffPageAuditT: Record<
           },
           {
             type: "p",
-            text: "Suche im Export nach Mustern. Kommen die meisten Links von einer oder zwei Domains? Das ist Linkonzentrationsrisiko. Gibt es Cluster von Domains mit nahezu identischen Namen oder Strukturen? Das ist ein Footprint — oft von einem Private Blog Network oder einem einzelnen Linkverkäufer. Beides ist nicht gesund.",
+            text: "Suche im Export nach Mustern. Kommen die meisten Links von einer oder zwei Domains? Das ist Linkonzentrationsrisiko. Gibt es Cluster von Domains mit nahezu identischen Namen oder Strukturen? Das ist ein Footprint, oft von einem Private Blog Network oder einem einzelnen Linkverkäufer. Beides ist nicht gesund.",
           },
           {
             type: "list",
@@ -222,7 +222,7 @@ export const guidesOffPageAuditT: Record<
         blocks: [
           {
             type: "p",
-            text: "Nicht alle Links sind gleich. Ein einziger Link von einer großen Handelspublikation ist mehr wert als 500 Links aus minderwertigen Verzeichnissen. Bei der Qualitätsbewertung schau dir diese Signale in Kombination an — keine einzelne Kennzahl erzählt die ganze Geschichte.",
+            text: "Nicht alle Links sind gleich. Ein einziger Link von einer großen Handelspublikation ist mehr wert als 500 Links aus minderwertigen Verzeichnissen. Schau dir diese Signale zusammen an, denn keine einzelne Kennzahl erzählt die ganze Geschichte.",
           },
           {
             type: "list",
@@ -237,7 +237,7 @@ export const guidesOffPageAuditT: Record<
           {
             type: "callout",
             title: "Relevanz schlägt reinen DR-Wert",
-            text: "Ein DR-40-Link von einem spezialisierten Schuhblog ist für einen Schuhshop nützlicher als ein DR-70-Link von einem generischen Coupon-Aggregator. Googles Systeme verstehen thematischen Kontext. Baue Links dort auf, wo deine Zielgruppe tatsächlich liest — nicht nur, wo der DR hoch ist.",
+            text: "Ein DR-40-Link von einem spezialisierten Schuhblog ist für einen Schuhshop nützlicher als ein DR-70-Link von einem generischen Coupon-Aggregator. Googles Systeme verstehen thematischen Kontext. Baue Links dort auf, wo deine Zielgruppe tatsächlich liest, nicht nur dort, wo der DR hoch ist.",
           },
         ],
       },
@@ -247,11 +247,11 @@ export const guidesOffPageAuditT: Record<
         blocks: [
           {
             type: "p",
-            text: "Toxische Links kommen von offensichtlichen Spam-Domains — Link-Farmen, reinem Directory-Spam, irrelevanten Websites in fremden Sprachen, die en masse hinzugefügt wurden, oder Seiten, die ausschließlich Links verkaufen. Sie tauchen in deinem Profil als niedrig-DR, thematisch unpassend und oft mit keyword-overloadeten Anchors auf.",
+            text: "Toxische Links kommen von offensichtlichen Spam-Domains: Link-Farmen, reinem Directory-Spam, irrelevanten Websites in fremden Sprachen, die en masse hinzugefügt wurden, oder Seiten, die ausschließlich Links verkaufen. Sie tauchen in deinem Profil als niedrig-DR, thematisch unpassend und oft mit keyword-overloadeten Anchors auf.",
           },
           {
             type: "p",
-            text: "Hier die ehrliche Einschätzung: Google ignoriert diese Links viel besser als früher. Du musst nicht jeden minderwertigen Link disavowen. Das Disavow-Tool ist für echte Penalty-Situationen gedacht — wenn du einen plötzlichen, unerklärlichen Rankingverlust siehst, der mit einem Spike toxischer Link-Akquise zusammenfällt, lohnt sich die Untersuchung. Ansonsten: Stecke deine Stunden lieber in guten Linkaufbau, als sie im Disavow-Tool zu verschwenden.",
+            text: "Hier die ehrliche Einschätzung: Google ignoriert diese Links viel besser als früher. Du musst nicht jeden minderwertigen Link disavowen. Das Disavow-Tool ist für echte Penalty-Situationen gedacht. Wenn du einen plötzlichen, unerklärlichen Rankingverlust siehst, der mit einem Spike toxischer Link-Akquise zusammenfällt, lohnt sich die Untersuchung. Ansonsten: Stecke deine Stunden lieber in guten Linkaufbau, als sie im Disavow-Tool zu verschwenden.",
           },
           {
             type: "tip",
@@ -262,7 +262,7 @@ export const guidesOffPageAuditT: Record<
             items: [
               "Google Search Console auf manuelle Maßnahmen prüfen, bevor du von einer algorithmischen Penalty ausgehst",
               "Toxische Domains mit Traffic-Einbruch-Daten in Google Analytics abgleichen",
-              "Nur disavowen, wenn du klare Schadensbelege hast — nicht nur weil ein Tool Links als 'toxisch' markiert",
+              "Nur disavowen, wenn du klare Schadensbelege hast, nicht nur weil ein Tool Links als 'toxisch' markiert",
               "Eine laufende Disavow-Datei pflegen und ergänzen statt sie jedes Mal neu aufzubauen",
             ],
           },
@@ -274,7 +274,7 @@ export const guidesOffPageAuditT: Record<
         blocks: [
           {
             type: "p",
-            text: "Anchor-Text ist eines der deutlichsten Signale in deinem Backlink-Profil. Ein natürliches Profil enthält hauptsächlich Marken-Anchors (dein Shop-Name), nackte URLs und generische Begriffe wie 'hier klicken' oder 'zur Website'. Ein kleiner Anteil — typischerweise unter 10 % — sollten keyword-reiche Anchors sein. Wenn du über 30 % exakte Keyword-Anchors hinausgehst, ist das eine rote Flagge, die Googles Algorithmen bemerken werden.",
+            text: "Anchor-Text ist eines der deutlichsten Signale in deinem Backlink-Profil. Ein natürliches Profil enthält hauptsächlich Marken-Anchors (dein Shop-Name), nackte URLs und generische Begriffe wie 'hier klicken' oder 'zur Website'. Ein kleiner Anteil, typischerweise unter 10 %, sollten keyword-reiche Anchors sein. Wenn du über 30 % exakte Keyword-Anchors hinausgehst, ist das eine rote Flagge, die Googles Algorithmen bemerken werden.",
           },
           {
             type: "list",
@@ -300,7 +300,7 @@ export const guidesOffPageAuditT: Record<
         blocks: [
           {
             type: "p",
-            text: "Hole dir die verweisenden Domains deiner Top-3-Wettbewerber in der organischen Suche. In Ahrefs nutze das Link-Intersect-Tool — gib deine Domain und die deiner Wettbewerber ein, filtere dann nach Domains, die auf sie, aber nicht auf dich verlinken. Diese Liste ist dein bester Ausgangspunkt für Linkaufbau. Diese Seiten verlinken bereits auf Businesses wie deins. Das sind vorqualifizierte Prospects.",
+            text: "Hole dir die verweisenden Domains deiner Top-3-Wettbewerber in der organischen Suche. In Ahrefs nutze das Link-Intersect-Tool: gib deine Domain und die deiner Wettbewerber ein, filtere dann nach Domains, die auf sie, aber nicht auf dich verlinken. Diese Liste ist dein bester Ausgangspunkt für Linkaufbau. Diese Seiten verlinken bereits auf Businesses wie deins. Das sind vorqualifizierte Prospects.",
           },
           {
             type: "p",
@@ -308,11 +308,11 @@ export const guidesOffPageAuditT: Record<
           },
           {
             type: "tip",
-            text: "In Ahrefs: Unter Site Explorer das Chart 'New and Lost Referring Domains' prüfen. Verlierst du 10–20 Domains pro Monat und gewinnst 2–3 dazu, ist das ein Nettoverlust-Problem. Rechne das in deine Linkaufbau-Ziele ein — du musst erst schneller werden als dein Verlust, bevor du wachsen kannst.",
+            text: "In Ahrefs: Unter Site Explorer das Chart 'New and Lost Referring Domains' prüfen. Verlierst du 10–20 Domains pro Monat und gewinnst 2–3 dazu, ist das ein Nettoverlust-Problem. Rechne das in deine Linkaufbau-Ziele ein, denn du musst erst schneller werden als dein Verlust, bevor du wachsen kannst.",
           },
           {
             type: "p",
-            text: "Sobald dein Audit abgeschlossen ist, fließen die Erkenntnisse direkt in die Aufgabenplanung. Der Off-Page-Audit zeigt dir, wo du stehst — der Aufgabenplan entscheidet, was du dagegen tust. Wie du diese Arbeit strukturierst, erklärt /guides/task-planning. Konkrete Taktiken zum Schließen des Wettbewerberlücke findest du unter /guides/link-building-tactics.",
+            text: "Sobald dein Audit abgeschlossen ist, fließen die Erkenntnisse direkt in die Aufgabenplanung. Der Off-Page-Audit zeigt dir, wo du stehst. Der Aufgabenplan entscheidet, was du dagegen tust. Wie du diese Arbeit strukturierst, erklärt /guides/task-planning. Konkrete Taktiken zum Schließen der Wettbewerberlücke findest du unter /guides/link-building-tactics.",
           },
         ],
       },
@@ -331,11 +331,11 @@ export const guidesOffPageAuditT: Record<
         blocks: [
           {
             type: "p",
-            text: "Un audit off-page est une analyse complète de votre profil de backlinks. Cela comprend le comptage de vos liens, l'identification des domaines uniques pointant vers vous, l'évaluation de la qualité de ces domaines, la vérification de la distribution des textes d'ancrage et la comparaison de tout cela avec vos principaux concurrents. Il ne s'agit pas de courir après un chiffre — il s'agit de comprendre si votre profil de liens soutient ou nuit à vos classements.",
+            text: "Un audit off-page est une analyse complète de votre profil de backlinks. Cela comprend le comptage de vos liens, l'identification des domaines uniques pointant vers vous, l'évaluation de la qualité de ces domaines, la vérification de la distribution des textes d'ancrage et la comparaison de tout cela avec vos principaux concurrents. Il ne s'agit pas de courir après un chiffre, mais de comprendre si votre profil de liens soutient ou nuit à vos classements.",
           },
           {
             type: "p",
-            text: "La plupart des boutiques e-commerce ont un profil de backlinks désordonné — quelques liens éditoriaux solides, un tas de soumissions d'annuaires datant de 2014, et quelques forums aléatoires. L'audit vous permet de voir cela clairement pour prendre des décisions éclairées plutôt que de deviner.",
+            text: "La plupart des boutiques e-commerce ont un profil de backlinks désordonné : quelques liens éditoriaux solides, un tas de soumissions d'annuaires datant de 2014 et quelques forums aléatoires. L'audit vous permet de voir cela clairement pour prendre des décisions éclairées plutôt que de deviner.",
           },
           {
             type: "callout",
@@ -350,7 +350,7 @@ export const guidesOffPageAuditT: Record<
         blocks: [
           {
             type: "p",
-            text: "Utilisez Ahrefs Site Explorer ou SEMrush Backlink Analytics pour extraire votre liste complète de domaines référents. Les deux outils fournissent des données similaires — utilisez celui auquel votre équipe a déjà accès. Exportez la liste complète des domaines référents (pas seulement les backlinks — les domaines référents sont la métrique la plus propre). Ouvrez-la dans Google Sheets.",
+            text: "Utilisez Ahrefs Site Explorer ou SEMrush Backlink Analytics pour extraire votre liste complète de domaines référents. Les deux outils fournissent des données similaires, utilisez donc celui auquel votre équipe a déjà accès. Exportez la liste complète des domaines référents (pas seulement les backlinks ; les domaines référents sont la métrique la plus propre). Ouvrez-la dans Google Sheets.",
           },
           {
             type: "tip",
@@ -358,7 +358,7 @@ export const guidesOffPageAuditT: Record<
           },
           {
             type: "p",
-            text: "Cherchez des tendances dans l'export. La majorité de vos liens provient-elle d'un ou deux domaines ? C'est un risque de concentration de liens. Y a-t-il des clusters de domaines aux noms ou structures presque identiques ? C'est une empreinte — souvent issue d'un réseau de blogs privés ou d'un seul vendeur de liens. Aucun des deux n'est sain.",
+            text: "Cherchez des tendances dans l'export. La majorité de vos liens provient-elle d'un ou deux domaines ? C'est un risque de concentration de liens. Y a-t-il des clusters de domaines aux noms ou structures presque identiques ? C'est une empreinte, souvent issue d'un réseau de blogs privés ou d'un seul vendeur de liens. Aucun des deux n'est sain.",
           },
           {
             type: "list",
@@ -379,7 +379,7 @@ export const guidesOffPageAuditT: Record<
         blocks: [
           {
             type: "p",
-            text: "Tous les liens ne se valent pas. Un seul lien d'une grande publication de retail vaut plus que 500 liens d'annuaires de faible qualité. Pour évaluer la qualité, examinez ces signaux conjointement — aucune métrique prise isolément ne raconte toute l'histoire.",
+            text: "Tous les liens ne se valent pas. Un seul lien d'une grande publication de retail vaut plus que 500 liens d'annuaires de faible qualité. Examinez ces signaux ensemble, car aucune métrique prise isolément ne raconte toute l'histoire.",
           },
           {
             type: "list",
@@ -404,11 +404,11 @@ export const guidesOffPageAuditT: Record<
         blocks: [
           {
             type: "p",
-            text: "Les liens toxiques proviennent de domaines manifestement spam — fermes de liens, spam d'annuaires, sites en langue étrangère sans rapport ajoutés en masse, ou sites existant uniquement pour vendre des liens. Ils apparaissent dans votre profil avec un faible DR, sans rapport thématique, souvent avec des textes d'ancrage bourrés de mots-clés.",
+            text: "Les liens toxiques proviennent de domaines manifestement spam : fermes de liens, spam d'annuaires, sites en langue étrangère sans rapport ajoutés en masse, ou sites existant uniquement pour vendre des liens. Ils apparaissent dans votre profil avec un faible DR, sans rapport thématique, souvent avec des textes d'ancrage bourrés de mots-clés.",
           },
           {
             type: "p",
-            text: "Voici la réponse honnête : Google est bien meilleur qu'avant pour ignorer ces liens. Vous n'avez pas besoin de désavouer chaque lien de faible qualité. L'outil de désaveu existe pour les vraies situations de pénalité — si vous constatez une chute soudaine et inexpliquée des classements coïncidant avec un afflux de liens toxiques, cela vaut la peine d'investiguer. Sinon, ne passez pas des heures sur le désaveu alors que vous pourriez construire de bons liens.",
+            text: "Voici la réponse honnête : Google est bien meilleur qu'avant pour ignorer ces liens. Vous n'avez pas besoin de désavouer chaque lien de faible qualité. L'outil de désaveu existe pour les vraies situations de pénalité. Si vous constatez une chute soudaine et inexpliquée des classements coïncidant avec un afflux de liens toxiques, cela vaut la peine d'investiguer. Sinon, ne passez pas des heures sur le désaveu alors que vous pourriez construire de bons liens.",
           },
           {
             type: "tip",
@@ -420,7 +420,7 @@ export const guidesOffPageAuditT: Record<
               "Vérifier Google Search Console pour toute action manuelle avant de supposer une pénalité algorithmique",
               "Croiser les domaines toxiques avec les dates de chute de trafic dans Google Analytics",
               "Ne désavouer que si vous avez des preuves claires de préjudice, pas juste parce qu'un outil a signalé des liens comme 'toxiques'",
-              "Maintenir un fichier de désaveu à jour — l'enrichir progressivement plutôt que de le reconstruire de zéro",
+              "Maintenir un fichier de désaveu à jour en l'enrichissant progressivement plutôt que de le reconstruire de zéro",
             ],
           },
         ],
@@ -431,7 +431,7 @@ export const guidesOffPageAuditT: Record<
         blocks: [
           {
             type: "p",
-            text: "Le texte d'ancrage est l'un des signaux les plus clairs dans votre profil de backlinks. Un profil naturel comprend principalement des ancres de marque (nom de votre boutique), des URLs nues, et des termes génériques comme 'cliquez ici' ou 'visitez le site'. Une petite partie — généralement moins de 10 % — doit être des ancres riches en mots-clés. Si vous dépassez 30 % d'ancres exact-match, c'est un signal d'alarme que les algorithmes de Google vont détecter.",
+            text: "Le texte d'ancrage est l'un des signaux les plus clairs dans votre profil de backlinks. Un profil naturel comprend principalement des ancres de marque (nom de votre boutique), des URLs nues et des termes génériques comme 'cliquez ici' ou 'visitez le site'. Une petite partie, généralement moins de 10 %, doit être des ancres riches en mots-clés. Si vous dépassez 30 % d'ancres exact-match, c'est un signal d'alarme que les algorithmes de Google vont détecter.",
           },
           {
             type: "list",
@@ -457,7 +457,7 @@ export const guidesOffPageAuditT: Record<
         blocks: [
           {
             type: "p",
-            text: "Extrayez les domaines référents de vos 3 principaux concurrents en référencement organique. Dans Ahrefs, utilisez l'outil Link Intersect — entrez votre domaine et ceux de vos concurrents, puis filtrez pour les domaines qui les linkent mais pas vous. Cette liste est votre meilleur point de départ pour la création de liens. Ces sites linkent déjà des entreprises similaires à la vôtre. Ce sont des prospects pré-qualifiés.",
+            text: "Extrayez les domaines référents de vos 3 principaux concurrents en référencement organique. Dans Ahrefs, utilisez l'outil Link Intersect : entrez votre domaine et ceux de vos concurrents, puis filtrez pour les domaines qui les linkent mais pas vous. Cette liste est votre meilleur point de départ pour la création de liens. Ces sites linkent déjà des entreprises similaires à la vôtre. Ce sont des prospects pré-qualifiés.",
           },
           {
             type: "p",
@@ -465,11 +465,11 @@ export const guidesOffPageAuditT: Record<
           },
           {
             type: "tip",
-            text: "Dans Ahrefs : consultez le graphique 'New and Lost Referring Domains' sous Site Explorer. Si vous perdez 10 à 20 domaines par mois et en gagnez 2 à 3, vous avez un problème de perte nette. Intégrez cela dans vos objectifs de link building — vous devez d'abord dépasser votre taux d'attrition avant de pouvoir croître réellement.",
+            text: "Dans Ahrefs : consultez le graphique 'New and Lost Referring Domains' sous Site Explorer. Si vous perdez 10 à 20 domaines par mois et en gagnez 2 à 3, vous avez un problème de perte nette. Intégrez cela dans vos objectifs de link building, car vous devez d'abord dépasser votre taux d'attrition avant de pouvoir croître réellement.",
           },
           {
             type: "p",
-            text: "Une fois l'audit terminé, intégrez directement vos conclusions dans votre processus de planification des tâches. L'audit off-page vous dit où vous en êtes — le plan de tâches décide de ce que vous faites. Consultez /guides/task-planning pour structurer ce travail, et /guides/link-building-tactics pour des tactiques concrètes permettant de combler votre écart concurrentiel.",
+            text: "Une fois l'audit terminé, intégrez directement vos conclusions dans votre processus de planification des tâches. L'audit off-page vous dit où vous en êtes. Le plan de tâches décide de ce que vous faites. Consultez /guides/task-planning pour structurer ce travail, et /guides/link-building-tactics pour des tactiques concrètes permettant de combler votre écart concurrentiel.",
           },
         ],
       },
@@ -488,7 +488,7 @@ export const guidesOffPageAuditT: Record<
         blocks: [
           {
             type: "p",
-            text: "Una auditoría off-page es una revisión completa de tu perfil de backlinks. Eso significa contar cuántos enlaces tienes, de cuántos dominios únicos provienen, evaluar la calidad de esos dominios, revisar la distribución del texto de anclaje y comparar todo con tus principales competidores. No se trata de perseguir un número — se trata de entender si tu perfil de enlaces apoya u obstaculiza tus posicionamientos.",
+            text: "Una auditoría off-page es una revisión completa de tu perfil de backlinks. Eso significa contar cuántos enlaces tienes, de cuántos dominios únicos provienen, evaluar la calidad de esos dominios, revisar la distribución del texto de anclaje y comparar todo con tus principales competidores. No se trata de perseguir un número, sino de entender si tu perfil de enlaces apoya u obstaculiza tus posicionamientos.",
           },
           {
             type: "p",
@@ -507,7 +507,7 @@ export const guidesOffPageAuditT: Record<
         blocks: [
           {
             type: "p",
-            text: "Usa Ahrefs Site Explorer o SEMrush Backlink Analytics para extraer tu lista completa de dominios de referencia. Ambas herramientas ofrecen datos similares — usa la que tu equipo ya tenga disponible. Exporta la lista completa de dominios de referencia (no solo backlinks — los dominios de referencia son la métrica más limpia). Ábrela en Google Sheets.",
+            text: "Usa Ahrefs Site Explorer o SEMrush Backlink Analytics para extraer tu lista completa de dominios de referencia. Ambas herramientas ofrecen datos similares, así que usa la que tu equipo ya tenga disponible. Exporta la lista completa de dominios de referencia (no solo backlinks; los dominios de referencia son la métrica más limpia). Ábrela en Google Sheets.",
           },
           {
             type: "tip",
@@ -515,7 +515,7 @@ export const guidesOffPageAuditT: Record<
           },
           {
             type: "p",
-            text: "Busca patrones en el export. ¿La mayoría de tus enlaces vienen de uno o dos dominios? Es riesgo de concentración de enlaces. ¿Hay grupos de dominios con nombres o estructuras casi idénticas? Eso es un footprint — a menudo de una red de blogs privada o de un único vendedor de enlaces. Ninguno de los dos es saludable.",
+            text: "Busca patrones en el export. ¿La mayoría de tus enlaces vienen de uno o dos dominios? Es riesgo de concentración de enlaces. ¿Hay grupos de dominios con nombres o estructuras casi idénticas? Eso es un footprint, a menudo de una red de blogs privada o de un único vendedor de enlaces. Ninguno de los dos es saludable.",
           },
           {
             type: "list",
@@ -536,7 +536,7 @@ export const guidesOffPageAuditT: Record<
         blocks: [
           {
             type: "p",
-            text: "No todos los enlaces son iguales. Un solo enlace de una gran publicación de retail vale más que 500 enlaces de directorios de baja calidad. Al evaluar la calidad, analiza estas señales en combinación — ninguna métrica por sí sola cuenta toda la historia.",
+            text: "No todos los enlaces son iguales. Un solo enlace de una gran publicación de retail vale más que 500 enlaces de directorios de baja calidad. Analiza estas señales en conjunto, porque ninguna métrica por sí sola cuenta toda la historia.",
           },
           {
             type: "list",
@@ -561,11 +561,11 @@ export const guidesOffPageAuditT: Record<
         blocks: [
           {
             type: "p",
-            text: "Los enlaces tóxicos provienen de dominios obviamente spam — granjas de enlaces, spam de directorios, sitios en idiomas extranjeros irrelevantes añadidos en masa, o sitios que existen únicamente para vender enlaces. Aparecen en tu perfil con bajo DR, sin relación temática y a menudo con texto de anclaje saturado de palabras clave.",
+            text: "Los enlaces tóxicos provienen de dominios obviamente spam: granjas de enlaces, spam de directorios, sitios en idiomas extranjeros irrelevantes añadidos en masa, o sitios que existen únicamente para vender enlaces. Aparecen en tu perfil con bajo DR, sin relación temática y a menudo con texto de anclaje saturado de palabras clave.",
           },
           {
             type: "p",
-            text: "La respuesta honesta: Google es mucho mejor ignorando estos enlaces que antes. No necesitas desautorizar cada enlace de baja calidad. La herramienta de desautorización existe para situaciones de penalización real — si ves una caída repentina e inexplicable en los rankings que coincide con una avalancha de enlaces tóxicos, vale la pena investigar. De lo contrario, no desperdicies horas en el desautorizador cuando podrías estar construyendo buenos enlaces.",
+            text: "La respuesta honesta: Google es mucho mejor ignorando estos enlaces que antes. No necesitas desautorizar cada enlace de baja calidad. La herramienta de desautorización existe para situaciones de penalización real. Si ves una caída repentina e inexplicable en los rankings que coincide con una avalancha de enlaces tóxicos, vale la pena investigar. De lo contrario, no desperdicies horas en el desautorizador cuando podrías estar construyendo buenos enlaces.",
           },
           {
             type: "tip",
@@ -577,7 +577,7 @@ export const guidesOffPageAuditT: Record<
               "Revisar Google Search Console para detectar acciones manuales antes de asumir una penalización algorítmica",
               "Cruzar dominios tóxicos con fechas de caída de tráfico en Google Analytics",
               "Desautorizar solo si tienes evidencias claras de daño, no solo porque una herramienta marcó links como 'tóxicos'",
-              "Mantener un archivo de desautorización actualizado — añadir con el tiempo en lugar de reconstruirlo desde cero",
+              "Mantener un archivo de desautorización actualizado, añadiendo con el tiempo en lugar de reconstruirlo desde cero",
             ],
           },
         ],
@@ -588,7 +588,7 @@ export const guidesOffPageAuditT: Record<
         blocks: [
           {
             type: "p",
-            text: "El texto de anclaje es una de las señales más claras en tu perfil de backlinks. Un perfil natural tiene principalmente anclajes de marca (el nombre de tu tienda), URLs desnudas y términos genéricos como 'haz clic aquí' o 'visita el sitio'. Una pequeña parte — normalmente menos del 10 % — deben ser anclajes ricos en palabras clave. Si superas el 30 % de anclajes de coincidencia exacta, es una señal de alarma que los algoritmos de Google van a notar.",
+            text: "El texto de anclaje es una de las señales más claras en tu perfil de backlinks. Un perfil natural tiene principalmente anclajes de marca (el nombre de tu tienda), URLs desnudas y términos genéricos como 'haz clic aquí' o 'visita el sitio'. Una pequeña parte, normalmente menos del 10 %, deben ser anclajes ricos en palabras clave. Si superas el 30 % de anclajes de coincidencia exacta, es una señal de alarma que los algoritmos de Google van a notar.",
           },
           {
             type: "list",
@@ -614,7 +614,7 @@ export const guidesOffPageAuditT: Record<
         blocks: [
           {
             type: "p",
-            text: "Extrae los dominios de referencia de tus 3 principales competidores en búsqueda orgánica. En Ahrefs, usa la herramienta Link Intersect — introduce tu dominio y los de tus competidores, luego filtra por dominios que los enlazan a ellos pero no a ti. Esta lista es tu mejor punto de partida para el link building. Estos sitios ya enlazan a negocios como el tuyo. Son prospectos pre-cualificados.",
+            text: "Extrae los dominios de referencia de tus 3 principales competidores en búsqueda orgánica. En Ahrefs, usa la herramienta Link Intersect: introduce tu dominio y los de tus competidores, luego filtra por dominios que los enlazan a ellos pero no a ti. Esta lista es tu mejor punto de partida para el link building. Estos sitios ya enlazan a negocios como el tuyo. Son prospectos pre-cualificados.",
           },
           {
             type: "p",
@@ -622,11 +622,11 @@ export const guidesOffPageAuditT: Record<
           },
           {
             type: "tip",
-            text: "En Ahrefs: revisa el gráfico 'New and Lost Referring Domains' en Site Explorer. Si estás perdiendo 10–20 dominios al mes y ganando 2–3, tienes un problema de pérdida neta. Incorpora esto en tus objetivos de link building — necesitas superar tu tasa de desgaste antes de poder crecer realmente.",
+            text: "En Ahrefs: revisa el gráfico 'New and Lost Referring Domains' en Site Explorer. Si estás perdiendo 10–20 dominios al mes y ganando 2–3, tienes un problema de pérdida neta. Incorpora esto en tus objetivos de link building, porque necesitas superar tu tasa de desgaste antes de poder crecer realmente.",
           },
           {
             type: "p",
-            text: "Una vez completada la auditoría, lleva tus conclusiones directamente a tu proceso de planificación de tareas. La auditoría off-page te dice dónde estás — el plan de tareas decide qué haces al respecto. Consulta /guides/task-planning para estructurar ese trabajo, y /guides/link-building-tactics para tácticas específicas que cierren tu brecha con los competidores.",
+            text: "Una vez completada la auditoría, lleva tus conclusiones directamente a tu proceso de planificación de tareas. La auditoría off-page te dice dónde estás. El plan de tareas decide qué haces al respecto. Consulta /guides/task-planning para estructurar ese trabajo, y /guides/link-building-tactics para tácticas específicas que cierren tu brecha con los competidores.",
           },
         ],
       },
@@ -645,7 +645,7 @@ export const guidesOffPageAuditT: Record<
         blocks: [
           {
             type: "p",
-            text: "Un audit off-page è una revisione completa del tuo profilo di backlink. Significa contare quanti link hai, da quanti domini unici provengono, valutare la qualità di quei domini, controllare la distribuzione dei testi di ancoraggio e confrontare tutto questo con i tuoi principali concorrenti. Non si tratta di rincorrere un numero — si tratta di capire se il tuo profilo link supporta o danneggia i tuoi posizionamenti.",
+            text: "Un audit off-page è una revisione completa del tuo profilo di backlink. Significa contare quanti link hai, da quanti domini unici provengono, valutare la qualità di quei domini, controllare la distribuzione dei testi di ancoraggio e confrontare tutto questo con i tuoi principali concorrenti. Non si tratta di rincorrere un numero, ma di capire se il tuo profilo link supporta o danneggia i tuoi posizionamenti.",
           },
           {
             type: "p",
@@ -664,7 +664,7 @@ export const guidesOffPageAuditT: Record<
         blocks: [
           {
             type: "p",
-            text: "Usa Ahrefs Site Explorer o SEMrush Backlink Analytics per estrarre la tua lista completa di domini di riferimento. Entrambi gli strumenti forniscono dati simili — usa quello a cui il tuo team ha già accesso. Esporta la lista completa dei domini di riferimento (non solo i backlink — i domini di riferimento sono la metrica più pulita). Aprila in Google Sheets.",
+            text: "Usa Ahrefs Site Explorer o SEMrush Backlink Analytics per estrarre la tua lista completa di domini di riferimento. Entrambi gli strumenti forniscono dati simili, quindi usa quello a cui il tuo team ha già accesso. Esporta la lista completa dei domini di riferimento (non solo i backlink; i domini di riferimento sono la metrica più pulita). Aprila in Google Sheets.",
           },
           {
             type: "tip",
@@ -672,7 +672,7 @@ export const guidesOffPageAuditT: Record<
           },
           {
             type: "p",
-            text: "Cerca schemi nell'export. La maggior parte dei tuoi link proviene da uno o due domini? Questo è un rischio di concentrazione dei link. Ci sono cluster di domini con nomi o strutture quasi identiche? È un footprint — spesso da una rete di blog privati o da un unico venditore di link. Nessuno dei due è sano.",
+            text: "Cerca schemi nell'export. La maggior parte dei tuoi link proviene da uno o due domini? Questo è un rischio di concentrazione dei link. Ci sono cluster di domini con nomi o strutture quasi identiche? È un footprint, spesso da una rete di blog privati o da un unico venditore di link. Nessuno dei due è sano.",
           },
           {
             type: "list",
@@ -693,7 +693,7 @@ export const guidesOffPageAuditT: Record<
         blocks: [
           {
             type: "p",
-            text: "Non tutti i link sono uguali. Un singolo link da una grande pubblicazione retail vale più di 500 link da directory di bassa qualità. Nel valutare la qualità, esamina questi segnali in combinazione — nessuna singola metrica racconta l'intera storia.",
+            text: "Non tutti i link sono uguali. Un singolo link da una grande pubblicazione retail vale più di 500 link da directory di bassa qualità. Esamina questi segnali insieme, perché nessuna singola metrica racconta l'intera storia.",
           },
           {
             type: "list",
@@ -718,11 +718,11 @@ export const guidesOffPageAuditT: Record<
         blocks: [
           {
             type: "p",
-            text: "I link tossici provengono da domini palesemente spam — link farm, spam di directory, siti in lingue straniere irrilevanti aggiunti in massa, o siti che esistono solo per vendere link. Appaiono nel tuo profilo con DR basso, senza rilevanza tematica e spesso con testi di ancoraggio pieni di parole chiave.",
+            text: "I link tossici provengono da domini palesemente spam: link farm, spam di directory, siti in lingue straniere irrilevanti aggiunti in massa, o siti che esistono solo per vendere link. Appaiono nel tuo profilo con DR basso, senza rilevanza tematica e spesso con testi di ancoraggio pieni di parole chiave.",
           },
           {
             type: "p",
-            text: "Ecco la risposta onesta: Google è molto più bravo a ignorare questi link rispetto al passato. Non devi disavowire ogni link di bassa qualità. Lo strumento di disavow esiste per vere situazioni di penalità — se vedi un calo improvviso e inspiegabile dei posizionamenti che coincide con un'impennata di link tossici in entrata, vale la pena indagare. Altrimenti, non sprecare ore sul disavow quando potresti costruire buoni link.",
+            text: "Ecco la risposta onesta: Google è molto più bravo a ignorare questi link rispetto al passato. Non devi disavowire ogni link di bassa qualità. Lo strumento di disavow esiste per vere situazioni di penalità. Se vedi un calo improvviso e inspiegabile dei posizionamenti che coincide con un'impennata di link tossici in entrata, vale la pena indagare. Altrimenti, non sprecare ore sul disavow quando potresti costruire buoni link.",
           },
           {
             type: "tip",
@@ -734,7 +734,7 @@ export const guidesOffPageAuditT: Record<
               "Controllare Google Search Console per eventuali azioni manuali prima di ipotizzare una penalità algoritmica",
               "Incrociare i domini tossici con le date di calo del traffico in Google Analytics",
               "Disavowire solo se hai prove chiare di danno, non solo perché uno strumento ha segnalato link come 'tossici'",
-              "Mantenere un file di disavow aggiornato — aggiungere nel tempo anziché ricostruirlo da zero",
+              "Mantenere un file di disavow aggiornato, aggiungendo nel tempo anziché ricostruirlo da zero",
             ],
           },
         ],
@@ -745,7 +745,7 @@ export const guidesOffPageAuditT: Record<
         blocks: [
           {
             type: "p",
-            text: "Il testo di ancoraggio è uno dei segnali più chiari nel tuo profilo di backlink. Un profilo naturale ha principalmente ancoraggi di marca (il nome del tuo negozio), URL nude e termini generici come 'clicca qui' o 'visita il sito'. Una piccola parte — in genere meno del 10 % — devono essere ancoraggi ricchi di parole chiave. Se superi il 30 % di ancoraggi exact-match, è un segnale d'allarme che gli algoritmi di Google noteranno.",
+            text: "Il testo di ancoraggio è uno dei segnali più chiari nel tuo profilo di backlink. Un profilo naturale ha principalmente ancoraggi di marca (il nome del tuo negozio), URL nude e termini generici come 'clicca qui' o 'visita il sito'. Una piccola parte, in genere meno del 10 %, devono essere ancoraggi ricchi di parole chiave. Se superi il 30 % di ancoraggi exact-match, è un segnale d'allarme che gli algoritmi di Google noteranno.",
           },
           {
             type: "list",
@@ -771,7 +771,7 @@ export const guidesOffPageAuditT: Record<
         blocks: [
           {
             type: "p",
-            text: "Estrai i domini di riferimento dei tuoi 3 principali concorrenti nella ricerca organica. In Ahrefs, usa lo strumento Link Intersect — inserisci il tuo dominio e quelli dei concorrenti, poi filtra per i domini che linkano loro ma non te. Questa lista è il tuo miglior punto di partenza per il link building. Questi siti linkano già attività simili alla tua. Sono prospect pre-qualificati.",
+            text: "Estrai i domini di riferimento dei tuoi 3 principali concorrenti nella ricerca organica. In Ahrefs, usa lo strumento Link Intersect: inserisci il tuo dominio e quelli dei concorrenti, poi filtra per i domini che linkano loro ma non te. Questa lista è il tuo miglior punto di partenza per il link building. Questi siti linkano già attività simili alla tua. Sono prospect pre-qualificati.",
           },
           {
             type: "p",
@@ -779,11 +779,11 @@ export const guidesOffPageAuditT: Record<
           },
           {
             type: "tip",
-            text: "In Ahrefs: controlla il grafico 'New and Lost Referring Domains' in Site Explorer. Se stai perdendo 10–20 domini al mese e ne guadagni 2–3, hai un problema di perdita netta. Incorpora questo nei tuoi obiettivi di link building — devi superare il tuo tasso di attrito prima di poter crescere davvero.",
+            text: "In Ahrefs: controlla il grafico 'New and Lost Referring Domains' in Site Explorer. Se stai perdendo 10–20 domini al mese e ne guadagni 2–3, hai un problema di perdita netta. Incorpora questo nei tuoi obiettivi di link building, perché devi superare il tuo tasso di attrito prima di poter crescere davvero.",
           },
           {
             type: "p",
-            text: "Una volta completato l'audit, porta i risultati direttamente nel tuo processo di pianificazione delle attività. L'audit off-page ti dice dove sei — il piano delle attività decide cosa fai in proposito. Vedi /guides/task-planning per strutturare quel lavoro, e /guides/link-building-tactics per tattiche specifiche per colmare il gap con i concorrenti.",
+            text: "Una volta completato l'audit, porta i risultati direttamente nel tuo processo di pianificazione delle attività. L'audit off-page ti dice dove sei. Il piano delle attività decide cosa fai in proposito. Vedi /guides/task-planning per strutturare quel lavoro, e /guides/link-building-tactics per tattiche specifiche per colmare il gap con i concorrenti.",
           },
         ],
       },
@@ -802,11 +802,11 @@ export const guidesOffPageAuditT: Record<
         blocks: [
           {
             type: "p",
-            text: "Een off-page audit is een volledige review van je backlinkprofiel. Dat betekent tellen hoeveel links je hebt, van hoeveel unieke domeinen ze afkomstig zijn, de kwaliteit van die domeinen beoordelen, je ankertekstverdeling controleren en alles vergelijken met je grootste concurrenten. Het gaat niet om het najagen van een getal — het gaat om begrijpen of je linkprofiel je rankings ondersteunt of schaadt.",
+            text: "Een off-page audit is een volledige review van je backlinkprofiel. Dat betekent tellen hoeveel links je hebt, van hoeveel unieke domeinen ze afkomstig zijn, de kwaliteit van die domeinen beoordelen, je ankertekstverdeling controleren en alles vergelijken met je grootste concurrenten. Het gaat niet om het najagen van een getal, maar om begrijpen of je linkprofiel je rankings ondersteunt of schaadt.",
           },
           {
             type: "p",
-            text: "De meeste ecommercewinkels hebben een rommelig backlinkprofiel — een paar sterke redactionele links, een stapel directoryinzendingen uit 2014 en wat willekeurige forums. De audit helpt je dit helder te zien, zodat je weloverwogen beslissingen kunt nemen in plaats van te raden.",
+            text: "De meeste ecommercewinkels hebben een rommelig backlinkprofiel: een paar sterke redactionele links, een stapel directoryinzendingen uit 2014 en wat willekeurige forums. De audit helpt je dit helder te zien, zodat je weloverwogen beslissingen kunt nemen in plaats van te raden.",
           },
           {
             type: "callout",
@@ -821,7 +821,7 @@ export const guidesOffPageAuditT: Record<
         blocks: [
           {
             type: "p",
-            text: "Gebruik Ahrefs Site Explorer of SEMrush Backlink Analytics om je volledige lijst met verwijzende domeinen op te halen. Beide tools leveren vergelijkbare gegevens — gebruik wat je team al toegang toe heeft. Exporteer de volledige lijst van verwijzende domeinen (niet alleen backlinks — verwijzende domeinen zijn de schonere metriek). Open het in Google Sheets.",
+            text: "Gebruik Ahrefs Site Explorer of SEMrush Backlink Analytics om je volledige lijst met verwijzende domeinen op te halen. Beide tools leveren vergelijkbare gegevens, dus gebruik wat je team al toegang toe heeft. Exporteer de volledige lijst van verwijzende domeinen (niet alleen backlinks; verwijzende domeinen zijn de schonere metriek). Open het in Google Sheets.",
           },
           {
             type: "tip",
@@ -829,7 +829,7 @@ export const guidesOffPageAuditT: Record<
           },
           {
             type: "p",
-            text: "Zoek naar patronen in de export. Komen de meeste links van één of twee domeinen? Dat is een concentratierisico. Zijn er clusters van domeinen met bijna identieke namen of structuren? Dat is een footprint — vaak van een privéblognetwerk of een enkele linkverkoper. Geen van beide is gezond.",
+            text: "Zoek naar patronen in de export. Komen de meeste links van één of twee domeinen? Dat is een concentratierisico. Zijn er clusters van domeinen met bijna identieke namen of structuren? Dat is een footprint, vaak van een privéblognetwerk of een enkele linkverkoper. Geen van beide is gezond.",
           },
           {
             type: "list",
@@ -850,7 +850,7 @@ export const guidesOffPageAuditT: Record<
         blocks: [
           {
             type: "p",
-            text: "Niet alle links zijn gelijk. Eén link van een grote retailpublicatie is meer waard dan 500 links van lage-kwaliteitswebsites. Bekijk bij het beoordelen van kwaliteit deze signalen in combinatie — geen enkele metriek vertelt het hele verhaal.",
+            text: "Niet alle links zijn gelijk. Eén link van een grote retailpublicatie is meer waard dan 500 links van lage-kwaliteitswebsites. Bekijk deze signalen samen, want geen enkele metriek vertelt het hele verhaal.",
           },
           {
             type: "list",
@@ -875,11 +875,11 @@ export const guidesOffPageAuditT: Record<
         blocks: [
           {
             type: "p",
-            text: "Toxische links zijn links van voor de hand liggende spamdomeinen — linkfarms, pure directoryspam, irrelevante buitenlandse websites die in bulk zijn toegevoegd, of sites die alleen bestaan om links te verkopen. Ze verschijnen in je profiel met een lage DR, geen thematische aansluiting en vaak keyword-opgezwollen ankerteksten.",
+            text: "Toxische links zijn links van voor de hand liggende spamdomeinen: linkfarms, pure directoryspam, irrelevante buitenlandse websites die in bulk zijn toegevoegd, of sites die alleen bestaan om links te verkopen. Ze verschijnen in je profiel met een lage DR, geen thematische aansluiting en vaak keyword-opgezwollen ankerteksten.",
           },
           {
             type: "p",
-            text: "Het eerlijke antwoord: Google is veel beter geworden in het negeren van deze links dan vroeger. Je hoeft niet elke link van lage kwaliteit te disavowen. De disavow-tool bestaat voor echte penaltysituaties — als je een plotselinge, onverklaarbare rankingdaling ziet die samenvalt met een piek in toxische linkaanwinst, is onderzoek de moeite waard. Besteed anders geen uren aan disavowwerk terwijl je in plaats daarvan goede links zou kunnen bouwen.",
+            text: "Het eerlijke antwoord: Google is veel beter geworden in het negeren van deze links dan vroeger. Je hoeft niet elke link van lage kwaliteit te disavowen. De disavow-tool bestaat voor echte penaltysituaties. Als je een plotselinge, onverklaarbare rankingdaling ziet die samenvalt met een piek in toxische linkaanwinst, is onderzoek de moeite waard. Besteed anders geen uren aan disavowwerk terwijl je in plaats daarvan goede links zou kunnen bouwen.",
           },
           {
             type: "tip",
@@ -891,7 +891,7 @@ export const guidesOffPageAuditT: Record<
               "Controleer Google Search Console op handmatige acties voordat je een algoritmische penalty aanneemt",
               "Kruis toxische domeinen af met je verkeersdalingsdatums in Google Analytics",
               "Disavow alleen als je duidelijke bewijzen van schade hebt, niet alleen omdat een tool links als 'toxisch' heeft gemarkeerd",
-              "Houd een doorlopend disavow-bestand bij — voeg er in de loop van de tijd aan toe in plaats van het telkens opnieuw op te bouwen",
+              "Houd een doorlopend disavow-bestand bij en voeg er in de loop van de tijd aan toe in plaats van het telkens opnieuw op te bouwen",
             ],
           },
         ],
@@ -902,7 +902,7 @@ export const guidesOffPageAuditT: Record<
         blocks: [
           {
             type: "p",
-            text: "Ankertekst is een van de duidelijkste signalen in je backlinkprofiel. Een natuurlijk profiel heeft voornamelijk merkankers (de naam van je winkel), kale URL's en generieke termen zoals 'klik hier' of 'bezoek de site'. Een klein deel — doorgaans minder dan 10 % — moet zoekwoordrijke ankers zijn. Als je boven de 30 % exact-match zoekwoordankers komt, is dat een rood vlag die Googles algoritmen zullen opmerken.",
+            text: "Ankertekst is een van de duidelijkste signalen in je backlinkprofiel. Een natuurlijk profiel heeft voornamelijk merkankers (de naam van je winkel), kale URL's en generieke termen zoals 'klik hier' of 'bezoek de site'. Een klein deel, doorgaans minder dan 10 %, moet zoekwoordrijke ankers zijn. Als je boven de 30 % exact-match zoekwoordankers komt, is dat een rode vlag die Googles algoritmen zullen opmerken.",
           },
           {
             type: "list",
@@ -928,7 +928,7 @@ export const guidesOffPageAuditT: Record<
         blocks: [
           {
             type: "p",
-            text: "Haal de verwijzende domeinen op van je 3 grootste organische zoekconcurrenten. In Ahrefs gebruik je de Link Intersect-tool — voer jouw domein en die van je concurrenten in, filter dan op domeinen die naar hen linken maar niet naar jou. Deze lijst is je beste startpunt voor linkbuilding. Deze sites linken al naar bedrijven zoals het jouwe. Het zijn vooraf gekwalificeerde prospects.",
+            text: "Haal de verwijzende domeinen op van je 3 grootste organische zoekconcurrenten. In Ahrefs gebruik je de Link Intersect-tool: voer jouw domein en die van je concurrenten in, filter dan op domeinen die naar hen linken maar niet naar jou. Deze lijst is je beste startpunt voor linkbuilding. Deze sites linken al naar bedrijven zoals het jouwe. Het zijn vooraf gekwalificeerde prospects.",
           },
           {
             type: "p",
@@ -936,11 +936,11 @@ export const guidesOffPageAuditT: Record<
           },
           {
             type: "tip",
-            text: "In Ahrefs: bekijk de grafiek 'Nieuwe en verloren verwijzende domeinen' onder Site Explorer. Als je 10–20 domeinen per maand verliest en er 2–3 bijwint, heb je een nettoverliesprobleem. Verwerk dit in je linkbuildingdoelen — je moet eerst sneller gaan dan je verlooppercentage voordat je echt kunt groeien.",
+            text: "In Ahrefs: bekijk de grafiek 'Nieuwe en verloren verwijzende domeinen' onder Site Explorer. Als je 10–20 domeinen per maand verliest en er 2–3 bijwint, heb je een nettoverliesprobleem. Verwerk dit in je linkbuildingdoelen, want je moet eerst sneller gaan dan je verlooppercentage voordat je echt kunt groeien.",
           },
           {
             type: "p",
-            text: "Zodra je audit klaar is, neem je je bevindingen direct mee naar je taakplanningsproces. De off-page audit vertelt je waar je staat — het taakplan beslist wat je er aan doet. Zie /guides/task-planning voor hoe je dat werk structureert, en /guides/link-building-tactics voor specifieke tactieken om je concurrentgat te dichten.",
+            text: "Zodra je audit klaar is, neem je je bevindingen direct mee naar je taakplanningsproces. De off-page audit vertelt je waar je staat. Het taakplan beslist wat je eraan doet. Zie /guides/task-planning voor hoe je dat werk structureert, en /guides/link-building-tactics voor specifieke tactieken om je concurrentgat te dichten.",
           },
         ],
       },

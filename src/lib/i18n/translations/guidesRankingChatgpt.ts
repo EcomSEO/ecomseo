@@ -25,11 +25,11 @@ export const guidesRankingChatgptT: Record<
         blocks: [
           {
             type: "p",
-            text: "ChatGPT, Perplexity, and Google AI Overviews don't rank URLs the way traditional search does. They synthesize answers from multiple sources and then cite the ones they drew from. You're not competing for position 1 — you're competing to be the source the model quotes.",
+            text: "ChatGPT, Perplexity, and Google AI Overviews don't rank URLs the way traditional search does. They synthesize answers from multiple sources and then cite the ones they drew from. You're not competing for position 1. You're competing to be the source the model quotes.",
           },
           {
             type: "p",
-            text: "That's a fundamental shift. Keyword density doesn't get you cited. What gets you cited is being the clearest, most direct, most factual answer to a specific question in your niche. If a customer asks ChatGPT 'what's the best standing desk for tall people?' and your product page or buying guide is the most complete answer to that question, it gets pulled in.",
+            text: "That's a big shift. Keyword density doesn't get you cited. What gets you cited is being the clearest, most direct, most factual answer to a specific question in your niche. If a customer asks ChatGPT 'what's the best standing desk for tall people?' and your product page or buying guide is the most complete answer to that question, it gets pulled in.",
           },
           {
             type: "callout",
@@ -44,15 +44,15 @@ export const guidesRankingChatgptT: Record<
         blocks: [
           {
             type: "p",
-            text: "AI models are trained to recognize credible, structured, factual content. They favor pages that answer questions directly — not pages that bury the answer in three paragraphs of preamble. They also respond well to named entities: specific brand names, product names, model numbers, specifications, and prices.",
+            text: "AI models are trained to recognize credible, structured, factual content. They favor pages that answer questions directly, not pages that bury the answer in three paragraphs of preamble. They also respond well to named entities: specific brand names, product names, model numbers, specifications, and prices.",
           },
           {
             type: "list",
             items: [
-              "Direct answers at the top of sections — no lengthy wind-ups before getting to the point",
+              "Direct answers at the top of sections, no lengthy wind-ups before getting to the point",
               "Specific data: dimensions, weights, prices, compatibility details, test results",
               "Named comparisons: 'compared to the Ergotron LX, this arm has a longer reach'",
-              "Clear factual claims that can be verified — AI models avoid citing vague or hedging language",
+              "Clear factual claims that can be verified. AI models avoid citing vague or hedging language",
               "Content that matches what the model has already learned is authoritative in your niche",
             ],
           },
@@ -62,7 +62,7 @@ export const guidesRankingChatgptT: Record<
           },
           {
             type: "p",
-            text: "Structure matters as much as substance. Use H2 and H3 headings that match real question formats ('Which [product] works with [use case]?'). Write in short paragraphs. Use tables for comparisons. These aren't just good UX practices — they make your content easier for a language model to parse and quote accurately.",
+            text: "Structure matters as much as substance. Use H2 and H3 headings that match real question formats ('Which [product] works with [use case]?'). Write in short paragraphs. Use tables for comparisons. These aren't just good UX practices; they make your content easier for a language model to parse and quote accurately.",
           },
         ],
       },
@@ -77,11 +77,11 @@ export const guidesRankingChatgptT: Record<
           {
             type: "checklist",
             items: [
-              "Write one page or section per specific customer question — don't try to answer five questions in one vague article",
+              "Write one page or section per specific customer question. Don't try to answer five questions in one vague article",
               "Lead every answer with 1-3 sentences of direct response before any explanation",
               "Include at least one real data point (study, spec, test result) per major claim",
-              "Name your competitors honestly in comparison content — AI models trust balanced takes",
-              "Add a clear 'Last updated' date — AI tools weight recency",
+              "Name your competitors honestly in comparison content. AI models trust balanced takes",
+              "Add a clear 'Last updated' date. AI tools weight recency",
               "Avoid passive voice and hedging phrases like 'it could be argued' or 'some experts believe'",
             ],
           },
@@ -102,12 +102,12 @@ export const guidesRankingChatgptT: Record<
           {
             type: "list",
             items: [
-              "Add author bylines to blog posts and buying guides — include a brief credential ('10 years in outdoor gear retail')",
+              "Add author bylines to blog posts and buying guides with a brief credential ('10 years in outdoor gear retail')",
               "Build a detailed 'About Us' page that explains your team's actual expertise in the product category",
               "Get consistent brand mentions across third-party platforms: Trustpilot, G2, industry publications",
-              "Earn editorial backlinks from recognized publications in your niche — these are explicit authority signals",
+              "Earn editorial backlinks from recognized publications in your niche. These are explicit authority signals",
               "Display real customer reviews with photos and verified purchase tags on product pages",
-              "Cite your sources when you make factual claims — link to studies, manufacturer specs, test reports",
+              "Cite your sources when you make factual claims. Link to studies, manufacturer specs, test reports",
             ],
           },
           {
@@ -123,7 +123,7 @@ export const guidesRankingChatgptT: Record<
         blocks: [
           {
             type: "p",
-            text: "llms.txt is an emerging standard — similar in concept to robots.txt — that lets you tell AI crawlers which pages on your site are most important and which they're allowed to use. Add a plain-text file at yourdomain.com/llms.txt listing your key product pages, buying guides, and authoritative content. It's not universally adopted yet, but the cost of adding it is near zero and early adopters get an edge.",
+            text: "llms.txt is an emerging standard, similar in concept to robots.txt, that lets you tell AI crawlers which pages on your site are most important and which they're allowed to use. Add a plain-text file at yourdomain.com/llms.txt listing your top product pages, buying guides, and authoritative content. It's not universally adopted yet, but the cost of adding it is near zero and early adopters get an edge.",
           },
           {
             type: "p",
@@ -136,7 +136,7 @@ export const guidesRankingChatgptT: Record<
           {
             type: "callout",
             title: "What stays the same",
-            text: "Fast site. Clear content. Strong E-E-A-T. Good backlinks. AI search rewards exactly the same fundamentals as traditional SEO — it's just more explicit about wanting clean, direct answers. If your traditional SEO is solid, you're already partway there.",
+            text: "Fast site. Clear content. Strong E-E-A-T. Good backlinks. AI search rewards the same fundamentals as traditional SEO, but it's more explicit about wanting clean, direct answers. If your traditional SEO is solid, you're already partway there.",
           },
         ],
       },
@@ -146,14 +146,14 @@ export const guidesRankingChatgptT: Record<
         blocks: [
           {
             type: "p",
-            text: "Prioritize ruthlessly. You don't need to overhaul your entire site — you need to make your best 10-15 pages AI-citation-ready. These are your most-visited buying guides, your top category pages, and any content that already ranks on page 1 for informational queries.",
+            text: "Prioritize ruthlessly. You don't need to overhaul your entire site. You need to make your best 10-15 pages AI-citation-ready. These are your most-visited buying guides, your top category pages, and any content that already ranks on page 1 for informational queries.",
           },
           {
             type: "checklist",
             items: [
               "Audit your top 15 pages: do they answer a specific question directly in the first paragraph?",
               "Add or update author bylines on all blog posts with real credentials",
-              "Create or improve your About page to highlight team expertise",
+              "Create or improve your About page to show your team's expertise",
               "Add llms.txt to your domain root listing your 20-30 most important pages",
               "Run 10 customer queries in ChatGPT and Perplexity — note who gets cited",
               "Rewrite one buying guide per week using direct-answer structure",
@@ -163,7 +163,7 @@ export const guidesRankingChatgptT: Record<
           },
           {
             type: "p",
-            text: "AI search is not replacing traditional SEO — it's adding another layer on top of it. The ecommerce brands that will win are the ones that combine strong technical foundations with genuinely useful, clearly written content. The opportunity right now is real: most of your competitors haven't adapted yet.",
+            text: "AI search is not replacing traditional SEO. It's adding another layer on top of it. The ecommerce brands that will win are the ones that combine strong technical foundations with useful, clearly written content. The opportunity right now is real: most of your competitors haven't adapted yet.",
           },
         ],
       },
@@ -190,16 +190,16 @@ export const guidesRankingChatgptT: Record<
         blocks: [
           {
             type: "p",
-            text: "ChatGPT, Perplexity und Google AI Overviews ranken keine URLs wie die klassische Suche. Sie synthetisieren Antworten aus mehreren Quellen und zitieren dann die verwendeten. Du konkurrierst nicht um Position 1 — du konkurrierst darum, die Quelle zu sein, die das Modell zitiert.",
+            text: "ChatGPT, Perplexity und Google AI Overviews ranken keine URLs wie die klassische Suche. Sie synthetisieren Antworten aus mehreren Quellen und zitieren dann die verwendeten. Du konkurrierst nicht um Position 1, sondern darum, die Quelle zu sein, die das Modell zitiert.",
           },
           {
             type: "p",
-            text: "Das ist ein grundlegender Wandel. Keyword-Dichte bringt dir keine Zitierungen. Was dir Zitierungen einbringt, ist die klarste, direkteste und sachlichste Antwort auf eine konkrete Frage in deiner Nische. Wenn ein Kunde ChatGPT fragt 'Was ist der beste Stehschreibtisch für große Menschen?' und deine Produktseite oder dein Ratgeber die vollständigste Antwort liefert, wird sie herangezogen.",
+            text: "Das ist ein großer Wandel. Keyword-Dichte bringt dir keine Zitierungen. Was dir Zitierungen einbringt, ist die klarste, direkteste und sachlichste Antwort auf eine konkrete Frage in deiner Nische. Wenn ein Kunde ChatGPT fragt 'Was ist der beste Stehschreibtisch für große Menschen?' und deine Produktseite oder dein Ratgeber die vollständigste Antwort liefert, wird sie herangezogen.",
           },
           {
             type: "callout",
             title: "Der mentale Modellwechsel",
-            text: "Hör auf, rein für 'Rankings' zu optimieren, und fang an, für 'zitiert werden' zu optimieren. Frag dich: Wenn eine KI genau die Frage meines Kunden beantworten müsste — würde sie meine Seite finden, und würde sie ihr vertrauen?",
+            text: "Hör auf, rein für 'Rankings' zu optimieren, und fang an, für 'zitiert werden' zu optimieren. Frag dich: Wenn eine KI genau die Frage meines Kunden beantworten müsste, würde sie meine Seite finden und ihr vertrauen?",
           },
         ],
       },
@@ -209,15 +209,15 @@ export const guidesRankingChatgptT: Record<
         blocks: [
           {
             type: "p",
-            text: "KI-Modelle sind darauf trainiert, glaubwürdige, strukturierte und sachliche Inhalte zu erkennen. Sie bevorzugen Seiten, die Fragen direkt beantworten — keine Seiten, die die Antwort in drei Absätzen Einleitung verstecken. Sie reagieren auch gut auf Named Entities: konkrete Markennamen, Produktnamen, Modellnummern, Spezifikationen und Preise.",
+            text: "KI-Modelle sind darauf trainiert, glaubwürdige, strukturierte und sachliche Inhalte zu erkennen. Sie bevorzugen Seiten, die Fragen direkt beantworten, nicht Seiten, die die Antwort in drei Absätzen Einleitung verstecken. Sie reagieren auch gut auf Named Entities: konkrete Markennamen, Produktnamen, Modellnummern, Spezifikationen und Preise.",
           },
           {
             type: "list",
             items: [
-              "Direkte Antworten am Anfang jedes Abschnitts — kein langes Anlaufen vor dem eigentlichen Punkt",
+              "Direkte Antworten am Anfang jedes Abschnitts, kein langes Anlaufen vor dem eigentlichen Punkt",
               "Konkrete Daten: Maße, Gewichte, Preise, Kompatibilitätsdetails, Testergebnisse",
               "Namentliche Vergleiche: 'Im Vergleich zum Ergotron LX hat dieser Arm eine längere Reichweite'",
-              "Klare, überprüfbare Sachaussagen — KI-Modelle meiden vage oder ausweichende Formulierungen",
+              "Klare, überprüfbare Sachaussagen. KI-Modelle meiden vage oder ausweichende Formulierungen",
               "Inhalte, die dem entsprechen, was das Modell als autoritativ in deiner Nische gelernt hat",
             ],
           },
@@ -227,7 +227,7 @@ export const guidesRankingChatgptT: Record<
           },
           {
             type: "p",
-            text: "Struktur ist genauso wichtig wie Inhalt. Nutze H2- und H3-Überschriften, die echten Frageformaten entsprechen ('Welches [Produkt] funktioniert mit [Anwendungsfall]?'). Schreibe in kurzen Absätzen. Nutze Tabellen für Vergleiche. Das sind keine reinen UX-Praktiken — sie machen deine Inhalte für ein Sprachmodell leichter parsbar und zitierfähig.",
+            text: "Struktur ist genauso wichtig wie Inhalt. Nutze H2- und H3-Überschriften, die echten Frageformaten entsprechen ('Welches [Produkt] funktioniert mit [Anwendungsfall]?'). Schreibe in kurzen Absätzen. Nutze Tabellen für Vergleiche. Das sind keine reinen UX-Praktiken; sie machen deine Inhalte für ein Sprachmodell leichter parsbar und zitierfähig.",
           },
         ],
       },
@@ -242,11 +242,11 @@ export const guidesRankingChatgptT: Record<
           {
             type: "checklist",
             items: [
-              "Schreibe eine Seite oder einen Abschnitt pro spezifischer Kundenfrage — versuche nicht, fünf Fragen in einem vagen Artikel zu beantworten",
+              "Schreibe eine Seite oder einen Abschnitt pro spezifischer Kundenfrage. Versuche nicht, fünf Fragen in einem vagen Artikel zu beantworten",
               "Beginne jede Antwort mit 1–3 Sätzen direkter Reaktion vor jeder Erklärung",
               "Füge mindestens einen echten Datenpunkt (Studie, Spezifikation, Testergebnis) pro Hauptaussage ein",
-              "Nenne deine Mitbewerber ehrlich in Vergleichsartikeln — KI-Modelle vertrauen ausgewogenen Einschätzungen",
-              "Füge ein klares 'Zuletzt aktualisiert'-Datum hinzu — KI-Tools gewichten Aktualität",
+              "Nenne deine Mitbewerber ehrlich in Vergleichsartikeln. KI-Modelle vertrauen ausgewogenen Einschätzungen",
+              "Füge ein klares 'Zuletzt aktualisiert'-Datum hinzu. KI-Tools gewichten Aktualität",
               "Vermeide Passivkonstruktionen und ausweichende Formulierungen wie 'Es könnte argumentiert werden' oder 'Einige Experten glauben'",
             ],
           },
@@ -267,12 +267,12 @@ export const guidesRankingChatgptT: Record<
           {
             type: "list",
             items: [
-              "Füge Autorenangaben zu Blogbeiträgen und Ratgebern hinzu — inklusive kurzer Qualifikation ('10 Jahre im Outdoor-Fachhandel')",
+              "Füge Autorenangaben zu Blogbeiträgen und Ratgebern hinzu, inklusive kurzer Qualifikation ('10 Jahre im Outdoor-Fachhandel')",
               "Erstelle eine ausführliche 'Über uns'-Seite, die die echte Expertise deines Teams in der Produktkategorie erklärt",
               "Sorge für konsistente Markenerwähnungen auf Drittplattformen: Trustpilot, G2, Fachpublikationen",
-              "Gewinne redaktionelle Backlinks von anerkannten Publikationen in deiner Nische — das sind explizite Autoritätssignale",
+              "Gewinne redaktionelle Backlinks von anerkannten Publikationen in deiner Nische. Das sind explizite Autoritätssignale",
               "Zeige echte Kundenbewertungen mit Fotos und verifizierten Kaufnachweisen auf Produktseiten",
-              "Zitiere deine Quellen bei Sachaussagen — verlinke auf Studien, Herstellerspezifikationen, Testberichte",
+              "Zitiere deine Quellen bei Sachaussagen. Verlinke auf Studien, Herstellerspezifikationen, Testberichte",
             ],
           },
           {
@@ -288,7 +288,7 @@ export const guidesRankingChatgptT: Record<
         blocks: [
           {
             type: "p",
-            text: "llms.txt ist ein aufkommender Standard — konzeptionell ähnlich wie robots.txt — mit dem du KI-Crawlern mitteilen kannst, welche Seiten deiner Website am wichtigsten sind und welche sie verwenden dürfen. Füge eine Klartextdatei unter deinedomain.de/llms.txt hinzu, die deine wichtigsten Produktseiten, Ratgeber und autoritativen Inhalte auflistet. Noch nicht universell adoptiert, aber die Kosten sind nahezu null und frühe Nutzer verschaffen sich einen Vorteil.",
+            text: "llms.txt ist ein aufkommender Standard, konzeptionell ähnlich wie robots.txt, mit dem du KI-Crawlern mitteilen kannst, welche Seiten deiner Website am wichtigsten sind und welche sie verwenden dürfen. Füge eine Klartextdatei unter deinedomain.de/llms.txt hinzu, die deine wichtigsten Produktseiten, Ratgeber und autoritativen Inhalte auflistet. Noch nicht universell adoptiert, aber die Kosten sind nahezu null und frühe Nutzer verschaffen sich einen Vorteil.",
           },
           {
             type: "p",
@@ -301,7 +301,7 @@ export const guidesRankingChatgptT: Record<
           {
             type: "callout",
             title: "Was gleich bleibt",
-            text: "Schnelle Website. Klare Inhalte. Starkes E-E-A-T. Gute Backlinks. KI-Suche belohnt exakt dieselben Grundlagen wie klassisches SEO — sie ist nur expliziter darin, klare, direkte Antworten zu verlangen. Wer solides traditionelles SEO betreibt, ist bereits auf einem guten Weg.",
+            text: "Schnelle Website. Klare Inhalte. Starkes E-E-A-T. Gute Backlinks. KI-Suche belohnt dieselben Grundlagen wie klassisches SEO, ist aber expliziter darin, klare, direkte Antworten zu verlangen. Wer solides traditionelles SEO betreibt, ist bereits auf einem guten Weg.",
           },
         ],
       },
@@ -311,14 +311,14 @@ export const guidesRankingChatgptT: Record<
         blocks: [
           {
             type: "p",
-            text: "Priorisiere konsequent. Du musst nicht deine gesamte Website umbauen — du musst deine besten 10–15 Seiten KI-zitierbereit machen. Das sind deine meistbesuchten Ratgeber, deine Top-Kategorieseiten und alle Inhalte, die bereits auf Seite 1 für informationelle Anfragen ranken.",
+            text: "Priorisiere konsequent. Du musst nicht deine gesamte Website umbauen. Du musst deine besten 10–15 Seiten KI-zitierbereit machen. Das sind deine meistbesuchten Ratgeber, deine Top-Kategorieseiten und alle Inhalte, die bereits auf Seite 1 für informationelle Anfragen ranken.",
           },
           {
             type: "checklist",
             items: [
               "Überprüfe deine Top-15-Seiten: Beantworten sie eine konkrete Frage direkt im ersten Absatz?",
               "Füge allen Blogbeiträgen Autorenangaben mit echten Qualifikationen hinzu oder aktualisiere sie",
-              "Erstelle oder verbessere deine 'Über uns'-Seite, um die Expertise des Teams hervorzuheben",
+              "Erstelle oder verbessere deine 'Über uns'-Seite, um die Expertise des Teams zu zeigen",
               "Füge llms.txt in deinem Domain-Stammverzeichnis hinzu und liste deine 20–30 wichtigsten Seiten auf",
               "Führe 10 Kundenanfragen in ChatGPT und Perplexity aus — notiere, wer zitiert wird",
               "Überarbeite wöchentlich einen Ratgeber mit Direktantwort-Struktur",
@@ -328,7 +328,7 @@ export const guidesRankingChatgptT: Record<
           },
           {
             type: "p",
-            text: "KI-Suche ersetzt kein traditionelles SEO — sie fügt eine weitere Ebene darüber hinzu. Die E-Commerce-Marken, die gewinnen werden, kombinieren starke technische Grundlagen mit genuinen, klar geschriebenen Inhalten. Die Chance ist jetzt real: Die meisten deiner Mitbewerber haben sich noch nicht angepasst.",
+            text: "KI-Suche ersetzt kein traditionelles SEO. Sie fügt eine weitere Ebene darüber hinzu. Die E-Commerce-Marken, die gewinnen werden, kombinieren starke technische Grundlagen mit nützlichen, klar geschriebenen Inhalten. Die Chance ist jetzt real: Die meisten deiner Mitbewerber haben sich noch nicht angepasst.",
           },
         ],
       },
@@ -355,11 +355,11 @@ export const guidesRankingChatgptT: Record<
         blocks: [
           {
             type: "p",
-            text: "ChatGPT, Perplexity et les AI Overviews de Google ne classent pas les URL comme la recherche traditionnelle. Ils synthétisent des réponses à partir de plusieurs sources, puis citent celles dont ils se sont inspirés. Vous ne concurrencez pas pour la position 1 — vous concurrencez pour être la source que le modèle cite.",
+            text: "ChatGPT, Perplexity et les AI Overviews de Google ne classent pas les URL comme la recherche traditionnelle. Ils synthétisent des réponses à partir de plusieurs sources, puis citent celles dont ils se sont inspirés. Vous ne concurrencez pas pour la position 1, mais pour être la source que le modèle cite.",
           },
           {
             type: "p",
-            text: "C'est un changement fondamental. La densité de mots-clés ne vous vaudra pas de citations. Ce qui vous vaut des citations, c'est être la réponse la plus claire, la plus directe et la plus factuelle à une question précise dans votre niche. Si un client demande à ChatGPT 'quel est le meilleur bureau debout pour les grandes personnes ?' et que votre fiche produit ou votre guide d'achat est la réponse la plus complète, c'est elle qui sera reprise.",
+            text: "C'est un changement majeur. La densité de mots-clés ne vous vaudra pas de citations. Ce qui vous vaut des citations, c'est être la réponse la plus claire, la plus directe et la plus factuelle à une question précise dans votre niche. Si un client demande à ChatGPT 'quel est le meilleur bureau debout pour les grandes personnes ?' et que votre fiche produit ou votre guide d'achat est la réponse la plus complète, c'est elle qui sera reprise.",
           },
           {
             type: "callout",
@@ -374,15 +374,15 @@ export const guidesRankingChatgptT: Record<
         blocks: [
           {
             type: "p",
-            text: "Les modèles IA sont entraînés à reconnaître les contenus crédibles, structurés et factuels. Ils favorisent les pages qui répondent directement aux questions — pas celles qui noient la réponse dans trois paragraphes d'introduction. Ils répondent aussi bien aux entités nommées : marques précises, noms de produits, numéros de modèle, spécifications et prix.",
+            text: "Les modèles IA sont entraînés à reconnaître les contenus crédibles, structurés et factuels. Ils favorisent les pages qui répondent directement aux questions, pas celles qui noient la réponse dans trois paragraphes d'introduction. Ils répondent aussi bien aux entités nommées : marques précises, noms de produits, numéros de modèle, spécifications et prix.",
           },
           {
             type: "list",
             items: [
-              "Des réponses directes en début de section — pas de longue mise en contexte avant d'arriver au fait",
+              "Des réponses directes en début de section, pas de longue mise en contexte avant d'arriver au fait",
               "Des données précises : dimensions, poids, prix, détails de compatibilité, résultats de tests",
               "Des comparaisons nommées : 'par rapport à l'Ergotron LX, ce bras a une portée plus longue'",
-              "Des affirmations factuelles claires et vérifiables — les modèles IA évitent de citer des formulations vagues ou évasives",
+              "Des affirmations factuelles claires et vérifiables. Les modèles IA évitent de citer des formulations vagues ou évasives",
               "Des contenus qui correspondent à ce que le modèle a appris être autoritaire dans votre niche",
             ],
           },
@@ -392,7 +392,7 @@ export const guidesRankingChatgptT: Record<
           },
           {
             type: "p",
-            text: "La structure compte autant que le fond. Utilisez des titres H2 et H3 qui correspondent à de vrais formats de questions ('Quel [produit] fonctionne avec [cas d'usage] ?'). Rédigez en paragraphes courts. Utilisez des tableaux pour les comparaisons. Ce ne sont pas que de bonnes pratiques UX — elles rendent votre contenu plus facile à parser et à citer pour un modèle de langage.",
+            text: "La structure compte autant que le fond. Utilisez des titres H2 et H3 qui correspondent à de vrais formats de questions ('Quel [produit] fonctionne avec [cas d'usage] ?'). Rédigez en paragraphes courts. Utilisez des tableaux pour les comparaisons. Ce ne sont pas que de bonnes pratiques UX; elles rendent votre contenu plus facile à parser et à citer pour un modèle de langage.",
           },
         ],
       },
@@ -407,11 +407,11 @@ export const guidesRankingChatgptT: Record<
           {
             type: "checklist",
             items: [
-              "Écrivez une page ou une section par question client spécifique — ne tentez pas de répondre à cinq questions dans un article vague",
+              "Écrivez une page ou une section par question client spécifique. Ne tentez pas de répondre à cinq questions dans un article vague",
               "Commencez chaque réponse par 1 à 3 phrases de réponse directe avant toute explication",
               "Incluez au moins un vrai point de données (étude, spécification, résultat de test) par affirmation principale",
-              "Nommez honnêtement vos concurrents dans les comparatifs — les modèles IA font confiance aux évaluations équilibrées",
-              "Ajoutez une date claire 'Dernière mise à jour' — les outils IA pondèrent la fraîcheur du contenu",
+              "Nommez honnêtement vos concurrents dans les comparatifs. Les modèles IA font confiance aux évaluations équilibrées",
+              "Ajoutez une date claire 'Dernière mise à jour'. Les outils IA pondèrent la fraîcheur du contenu",
               "Évitez la voix passive et les formulations évasives comme 'on pourrait arguer que' ou 'certains experts pensent'",
             ],
           },
@@ -432,12 +432,12 @@ export const guidesRankingChatgptT: Record<
           {
             type: "list",
             items: [
-              "Ajoutez des signatures d'auteur aux articles de blog et guides d'achat — avec une brève accréditation ('10 ans dans le commerce de plein air')",
+              "Ajoutez des signatures d'auteur aux articles de blog et guides d'achat avec une brève accréditation ('10 ans dans le commerce de plein air')",
               "Créez une page 'À propos' détaillée qui explique l'expertise réelle de votre équipe dans la catégorie produit",
               "Obtenez des mentions cohérentes de votre marque sur des plateformes tierces : Trustpilot, G2, publications spécialisées",
-              "Gagnez des backlinks éditoriaux de publications reconnues dans votre niche — ce sont des signaux d'autorité explicites",
+              "Gagnez des backlinks éditoriaux de publications reconnues dans votre niche. Ce sont des signaux d'autorité explicites",
               "Affichez de vraies avis clients avec photos et mentions d'achat vérifié sur les fiches produits",
-              "Citez vos sources lorsque vous faites des affirmations factuelles — liez vers des études, spécifications fabricant, rapports de tests",
+              "Citez vos sources lorsque vous faites des affirmations factuelles. Liez vers des études, spécifications fabricant, rapports de tests",
             ],
           },
           {
@@ -453,7 +453,7 @@ export const guidesRankingChatgptT: Record<
         blocks: [
           {
             type: "p",
-            text: "llms.txt est un standard émergent — similaire dans le concept à robots.txt — qui vous permet d'indiquer aux crawlers IA quelles pages de votre site sont les plus importantes et lesquelles ils sont autorisés à utiliser. Ajoutez un fichier texte brut à votredomaine.fr/llms.txt listant vos pages produits clés, guides d'achat et contenus autoritaires. Pas encore adopté universellement, mais le coût d'ajout est quasi nul et les premiers adoptants ont un avantage.",
+            text: "llms.txt est un standard émergent, similaire dans le concept à robots.txt, qui vous permet d'indiquer aux crawlers IA quelles pages de votre site sont les plus importantes et lesquelles ils sont autorisés à utiliser. Ajoutez un fichier texte brut à votredomaine.fr/llms.txt listant vos pages produits principales, guides d'achat et contenus autoritaires. Pas encore adopté universellement, mais le coût d'ajout est quasi nul et les premiers adoptants ont un avantage.",
           },
           {
             type: "p",
@@ -466,7 +466,7 @@ export const guidesRankingChatgptT: Record<
           {
             type: "callout",
             title: "Ce qui reste identique",
-            text: "Site rapide. Contenu clair. E-E-A-T solide. Bons backlinks. La recherche IA récompense exactement les mêmes fondamentaux que le SEO traditionnel — elle est juste plus explicite dans sa demande de réponses claires et directes. Si votre SEO traditionnel est solide, vous êtes déjà à mi-chemin.",
+            text: "Site rapide. Contenu clair. E-E-A-T solide. Bons backlinks. La recherche IA récompense les mêmes fondamentaux que le SEO traditionnel, mais elle est plus explicite dans sa demande de réponses claires et directes. Si votre SEO traditionnel est solide, vous êtes déjà à mi-chemin.",
           },
         ],
       },
@@ -476,14 +476,14 @@ export const guidesRankingChatgptT: Record<
         blocks: [
           {
             type: "p",
-            text: "Priorisez sans pitié. Vous n'avez pas besoin de refondre tout votre site — vous devez rendre vos 10 à 15 meilleures pages prêtes pour les citations IA. Ce sont vos guides d'achat les plus visités, vos pages de catégorie phares et tout contenu qui se classe déjà en page 1 pour des requêtes informationnelles.",
+            text: "Priorisez sans pitié. Vous n'avez pas besoin de refondre tout votre site. Vous devez rendre vos 10 à 15 meilleures pages prêtes pour les citations IA. Ce sont vos guides d'achat les plus visités, vos pages de catégorie phares et tout contenu qui se classe déjà en page 1 pour des requêtes informationnelles.",
           },
           {
             type: "checklist",
             items: [
               "Auditez vos 15 meilleures pages : répondent-elles à une question précise directement dans le premier paragraphe ?",
               "Ajoutez ou mettez à jour les signatures d'auteur sur tous les articles de blog avec de vraies accréditations",
-              "Créez ou améliorez votre page 'À propos' pour mettre en valeur l'expertise de l'équipe",
+              "Créez ou améliorez votre page 'À propos' pour montrer l'expertise de l'équipe",
               "Ajoutez llms.txt à la racine de votre domaine en listant vos 20 à 30 pages les plus importantes",
               "Lancez 10 requêtes client dans ChatGPT et Perplexity — notez qui est cité",
               "Réécrivez un guide d'achat par semaine avec une structure de réponse directe",
@@ -493,7 +493,7 @@ export const guidesRankingChatgptT: Record<
           },
           {
             type: "p",
-            text: "La recherche IA ne remplace pas le SEO traditionnel — elle ajoute une couche supplémentaire par-dessus. Les marques e-commerce qui gagneront combinent des bases techniques solides avec un contenu genuinement utile et clairement rédigé. L'opportunité est réelle maintenant : la plupart de vos concurrents ne se sont pas encore adaptés.",
+            text: "La recherche IA ne remplace pas le SEO traditionnel. Elle ajoute une couche supplémentaire par-dessus. Les marques e-commerce qui gagneront combinent des bases techniques solides avec un contenu utile et clairement rédigé. L'opportunité est réelle maintenant : la plupart de vos concurrents ne se sont pas encore adaptés.",
           },
         ],
       },
@@ -520,11 +520,11 @@ export const guidesRankingChatgptT: Record<
         blocks: [
           {
             type: "p",
-            text: "ChatGPT, Perplexity y los AI Overviews de Google no clasifican URLs como la búsqueda tradicional. Sintetizan respuestas de múltiples fuentes y luego citan las que usaron. No compites por la posición 1 — compites por ser la fuente que el modelo cita.",
+            text: "ChatGPT, Perplexity y los AI Overviews de Google no clasifican URLs como la búsqueda tradicional. Sintetizan respuestas de múltiples fuentes y luego citan las que usaron. No compites por la posición 1, sino por ser la fuente que el modelo cita.",
           },
           {
             type: "p",
-            text: "Ese es un cambio fundamental. La densidad de palabras clave no te consigue citas. Lo que te consigue citas es ser la respuesta más clara, directa y factual a una pregunta específica en tu nicho. Si un cliente le pregunta a ChatGPT '¿cuál es el mejor escritorio de pie para personas altas?' y tu ficha de producto o guía de compra es la respuesta más completa a esa pregunta, es la que se toma.",
+            text: "Es un cambio grande. La densidad de palabras clave no te consigue citas. Lo que te consigue citas es ser la respuesta más clara, directa y factual a una pregunta específica en tu nicho. Si un cliente le pregunta a ChatGPT '¿cuál es el mejor escritorio de pie para personas altas?' y tu ficha de producto o guía de compra es la respuesta más completa a esa pregunta, es la que se toma.",
           },
           {
             type: "callout",
@@ -539,15 +539,15 @@ export const guidesRankingChatgptT: Record<
         blocks: [
           {
             type: "p",
-            text: "Los modelos de IA están entrenados para reconocer contenido creíble, estructurado y factual. Favorecen páginas que responden preguntas directamente — no páginas que entierran la respuesta en tres párrafos de preámbulo. También responden bien a entidades nombradas: nombres de marcas específicos, nombres de productos, números de modelo, especificaciones y precios.",
+            text: "Los modelos de IA están entrenados para reconocer contenido creíble, estructurado y factual. Favorecen páginas que responden preguntas directamente, no páginas que entierran la respuesta en tres párrafos de preámbulo. También responden bien a entidades nombradas: nombres de marcas específicos, nombres de productos, números de modelo, especificaciones y precios.",
           },
           {
             type: "list",
             items: [
-              "Respuestas directas al inicio de cada sección — sin largas introducciones antes de llegar al punto",
+              "Respuestas directas al inicio de cada sección, sin largas introducciones antes de llegar al punto",
               "Datos específicos: dimensiones, pesos, precios, detalles de compatibilidad, resultados de pruebas",
               "Comparaciones nombradas: 'en comparación con el Ergotron LX, este brazo tiene mayor alcance'",
-              "Afirmaciones factuales claras y verificables — los modelos de IA evitan citar lenguaje vago o evasivo",
+              "Afirmaciones factuales claras y verificables. Los modelos de IA evitan citar lenguaje vago o evasivo",
               "Contenido que coincide con lo que el modelo ha aprendido que es autoritativo en tu nicho",
             ],
           },
@@ -557,7 +557,7 @@ export const guidesRankingChatgptT: Record<
           },
           {
             type: "p",
-            text: "La estructura importa tanto como el contenido. Usa encabezados H2 y H3 que coincidan con formatos reales de preguntas ('¿Qué [producto] funciona con [caso de uso]?'). Escribe en párrafos cortos. Usa tablas para comparaciones. No son solo buenas prácticas de UX — hacen que tu contenido sea más fácil de parsear y citar para un modelo de lenguaje.",
+            text: "La estructura importa tanto como el contenido. Usa encabezados H2 y H3 que coincidan con formatos reales de preguntas ('¿Qué [producto] funciona con [caso de uso]?'). Escribe en párrafos cortos. Usa tablas para comparaciones. No son solo buenas prácticas de UX; hacen que tu contenido sea más fácil de parsear y citar para un modelo de lenguaje.",
           },
         ],
       },
@@ -572,11 +572,11 @@ export const guidesRankingChatgptT: Record<
           {
             type: "checklist",
             items: [
-              "Escribe una página o sección por pregunta específica del cliente — no intentes responder cinco preguntas en un artículo vago",
+              "Escribe una página o sección por pregunta específica del cliente. No intentes responder cinco preguntas en un artículo vago",
               "Comienza cada respuesta con 1-3 frases de respuesta directa antes de cualquier explicación",
               "Incluye al menos un dato real (estudio, especificación, resultado de prueba) por afirmación principal",
-              "Nombra a tus competidores honestamente en el contenido comparativo — los modelos de IA confían en los análisis equilibrados",
-              "Añade una fecha clara de 'Última actualización' — las herramientas de IA ponderan la actualidad",
+              "Nombra a tus competidores honestamente en el contenido comparativo. Los modelos de IA confían en los análisis equilibrados",
+              "Añade una fecha clara de 'Última actualización'. Las herramientas de IA ponderan la actualidad",
               "Evita la voz pasiva y las frases evasivas como 'podría argumentarse' o 'algunos expertos creen'",
             ],
           },
@@ -597,12 +597,12 @@ export const guidesRankingChatgptT: Record<
           {
             type: "list",
             items: [
-              "Añade firmas de autor a los artículos de blog y guías de compra — incluye una breve acreditación ('10 años en retail de equipamiento al aire libre')",
+              "Añade firmas de autor a los artículos de blog y guías de compra con una breve acreditación ('10 años en retail de equipamiento al aire libre')",
               "Crea una página 'Sobre nosotros' detallada que explique la verdadera experiencia de tu equipo en la categoría de producto",
               "Consigue menciones consistentes de tu marca en plataformas de terceros: Trustpilot, G2, publicaciones del sector",
-              "Gana backlinks editoriales de publicaciones reconocidas en tu nicho — son señales de autoridad explícitas",
+              "Gana backlinks editoriales de publicaciones reconocidas en tu nicho. Son señales de autoridad explícitas",
               "Muestra reseñas reales de clientes con fotos y etiquetas de compra verificada en las páginas de producto",
-              "Cita tus fuentes cuando hagas afirmaciones factuales — enlaza a estudios, especificaciones del fabricante, informes de pruebas",
+              "Cita tus fuentes cuando hagas afirmaciones factuales. Enlaza a estudios, especificaciones del fabricante, informes de pruebas",
             ],
           },
           {
@@ -618,7 +618,7 @@ export const guidesRankingChatgptT: Record<
         blocks: [
           {
             type: "p",
-            text: "llms.txt es un estándar emergente — similar en concepto a robots.txt — que te permite indicar a los crawlers de IA qué páginas de tu sitio son más importantes y cuáles pueden usar. Añade un archivo de texto plano en tudominio.com/llms.txt listando tus páginas de producto clave, guías de compra y contenido autoritativo. Aún no adoptado universalmente, pero el coste de añadirlo es casi nulo y los primeros en adoptarlo llevan ventaja.",
+            text: "llms.txt es un estándar emergente, similar en concepto a robots.txt, que te permite indicar a los crawlers de IA qué páginas de tu sitio son más importantes y cuáles pueden usar. Añade un archivo de texto plano en tudominio.com/llms.txt listando tus páginas de producto principales, guías de compra y contenido autoritativo. Aún no adoptado universalmente, pero el coste de añadirlo es casi nulo y los primeros en adoptarlo llevan ventaja.",
           },
           {
             type: "p",
@@ -631,7 +631,7 @@ export const guidesRankingChatgptT: Record<
           {
             type: "callout",
             title: "Lo que sigue igual",
-            text: "Sitio rápido. Contenido claro. E-E-A-T sólido. Buenos backlinks. La búsqueda IA premia exactamente los mismos fundamentos que el SEO tradicional — solo es más explícita en querer respuestas claras y directas. Si tu SEO tradicional es sólido, ya estás a mitad de camino.",
+            text: "Sitio rápido. Contenido claro. E-E-A-T sólido. Buenos backlinks. La búsqueda IA premia los mismos fundamentos que el SEO tradicional, solo que es más explícita en querer respuestas claras y directas. Si tu SEO tradicional es sólido, ya estás a mitad de camino.",
           },
         ],
       },
@@ -641,14 +641,14 @@ export const guidesRankingChatgptT: Record<
         blocks: [
           {
             type: "p",
-            text: "Prioriza sin piedad. No necesitas renovar todo tu sitio — necesitas hacer que tus mejores 10-15 páginas estén listas para citas de IA. Son tus guías de compra más visitadas, tus páginas de categoría principales y cualquier contenido que ya posiciona en página 1 para consultas informacionales.",
+            text: "Prioriza sin piedad. No necesitas renovar todo tu sitio. Necesitas hacer que tus mejores 10-15 páginas estén listas para citas de IA. Son tus guías de compra más visitadas, tus páginas de categoría principales y cualquier contenido que ya posiciona en página 1 para consultas informacionales.",
           },
           {
             type: "checklist",
             items: [
               "Audita tus 15 mejores páginas: ¿responden a una pregunta específica directamente en el primer párrafo?",
               "Añade o actualiza las firmas de autor en todos los artículos de blog con credenciales reales",
-              "Crea o mejora tu página 'Sobre nosotros' para destacar la experiencia del equipo",
+              "Crea o mejora tu página 'Sobre nosotros' para mostrar la experiencia del equipo",
               "Añade llms.txt en la raíz de tu dominio listando tus 20-30 páginas más importantes",
               "Ejecuta 10 consultas de cliente en ChatGPT y Perplexity — anota quién aparece citado",
               "Reescribe una guía de compra por semana usando estructura de respuesta directa",
@@ -658,7 +658,7 @@ export const guidesRankingChatgptT: Record<
           },
           {
             type: "p",
-            text: "La búsqueda IA no reemplaza el SEO tradicional — añade otra capa encima. Las marcas de ecommerce que ganarán son las que combinan bases técnicas sólidas con contenido genuinamente útil y claramente escrito. La oportunidad es real ahora: la mayoría de tus competidores aún no se han adaptado.",
+            text: "La búsqueda IA no reemplaza el SEO tradicional. Añade otra capa encima. Las marcas de ecommerce que ganarán son las que combinan bases técnicas sólidas con contenido útil y claramente escrito. La oportunidad es real ahora: la mayoría de tus competidores aún no se han adaptado.",
           },
         ],
       },
@@ -685,11 +685,11 @@ export const guidesRankingChatgptT: Record<
         blocks: [
           {
             type: "p",
-            text: "ChatGPT, Perplexity e i Google AI Overviews non classificano gli URL come fa la ricerca tradizionale. Sintetizzano risposte da più fonti e poi citano quelle da cui hanno attinto. Non stai competendo per la posizione 1 — stai competendo per essere la fonte che il modello cita.",
+            text: "ChatGPT, Perplexity e i Google AI Overviews non classificano gli URL come fa la ricerca tradizionale. Sintetizzano risposte da più fonti e poi citano quelle da cui hanno attinto. Non stai competendo per la posizione 1, ma per essere la fonte che il modello cita.",
           },
           {
             type: "p",
-            text: "È un cambiamento fondamentale. La densità di parole chiave non ti porta citazioni. Ciò che ti porta citazioni è essere la risposta più chiara, diretta e fattuale a una domanda specifica nella tua nicchia. Se un cliente chiede a ChatGPT 'qual è la migliore scrivania in piedi per le persone alte?' e la tua scheda prodotto o guida all'acquisto è la risposta più completa a quella domanda, è quella che viene ripresa.",
+            text: "È un cambiamento importante. La densità di parole chiave non ti porta citazioni. Ciò che ti porta citazioni è essere la risposta più chiara, diretta e fattuale a una domanda specifica nella tua nicchia. Se un cliente chiede a ChatGPT 'qual è la migliore scrivania in piedi per le persone alte?' e la tua scheda prodotto o guida all'acquisto è la risposta più completa a quella domanda, è quella che viene ripresa.",
           },
           {
             type: "callout",
@@ -704,15 +704,15 @@ export const guidesRankingChatgptT: Record<
         blocks: [
           {
             type: "p",
-            text: "I modelli IA sono addestrati a riconoscere contenuti credibili, strutturati e fattuali. Prediligono le pagine che rispondono direttamente alle domande — non quelle che nascondono la risposta in tre paragrafi di premessa. Rispondono bene anche alle entità denominate: nomi di marchi specifici, nomi di prodotti, numeri di modello, specifiche e prezzi.",
+            text: "I modelli IA sono addestrati a riconoscere contenuti credibili, strutturati e fattuali. Prediligono le pagine che rispondono direttamente alle domande, non quelle che nascondono la risposta in tre paragrafi di premessa. Rispondono bene anche alle entità denominate: nomi di marchi specifici, nomi di prodotti, numeri di modello, specifiche e prezzi.",
           },
           {
             type: "list",
             items: [
-              "Risposte dirette all'inizio di ogni sezione — nessun lungo preambolo prima di arrivare al punto",
+              "Risposte dirette all'inizio di ogni sezione, nessun lungo preambolo prima di arrivare al punto",
               "Dati specifici: dimensioni, pesi, prezzi, dettagli di compatibilità, risultati di test",
               "Confronti nominati: 'rispetto all'Ergotron LX, questo braccio ha una portata maggiore'",
-              "Affermazioni fattuali chiare e verificabili — i modelli IA evitano di citare linguaggio vago o evasivo",
+              "Affermazioni fattuali chiare e verificabili. I modelli IA evitano di citare linguaggio vago o evasivo",
               "Contenuti che corrispondono a ciò che il modello ha imparato essere autorevole nella tua nicchia",
             ],
           },
@@ -722,7 +722,7 @@ export const guidesRankingChatgptT: Record<
           },
           {
             type: "p",
-            text: "La struttura conta quanto la sostanza. Usa intestazioni H2 e H3 che corrispondano a formati di domande reali ('Quale [prodotto] funziona con [caso d'uso]?'). Scrivi in paragrafi brevi. Usa tabelle per i confronti. Non sono solo buone pratiche UX — rendono i tuoi contenuti più facili da analizzare e citare per un modello linguistico.",
+            text: "La struttura conta quanto la sostanza. Usa intestazioni H2 e H3 che corrispondano a formati di domande reali ('Quale [prodotto] funziona con [caso d'uso]?'). Scrivi in paragrafi brevi. Usa tabelle per i confronti. Non sono solo buone pratiche UX; rendono i tuoi contenuti più facili da analizzare e citare per un modello linguistico.",
           },
         ],
       },
@@ -737,11 +737,11 @@ export const guidesRankingChatgptT: Record<
           {
             type: "checklist",
             items: [
-              "Scrivi una pagina o sezione per ogni domanda specifica del cliente — non cercare di rispondere a cinque domande in un articolo vago",
+              "Scrivi una pagina o sezione per ogni domanda specifica del cliente. Non cercare di rispondere a cinque domande in un articolo vago",
               "Inizia ogni risposta con 1-3 frasi di risposta diretta prima di qualsiasi spiegazione",
               "Includi almeno un dato reale (studio, specifica, risultato di test) per ogni affermazione principale",
-              "Nomina i tuoi concorrenti onestamente nel contenuto comparativo — i modelli IA si fidano delle valutazioni equilibrate",
-              "Aggiungi una data chiara di 'Ultimo aggiornamento' — gli strumenti IA ponderano la freschezza",
+              "Nomina i tuoi concorrenti onestamente nel contenuto comparativo. I modelli IA si fidano delle valutazioni equilibrate",
+              "Aggiungi una data chiara di 'Ultimo aggiornamento'. Gli strumenti IA ponderano la freschezza",
               "Evita la forma passiva e le frasi evasive come 'si potrebbe sostenere' o 'alcuni esperti credono'",
             ],
           },
@@ -762,12 +762,12 @@ export const guidesRankingChatgptT: Record<
           {
             type: "list",
             items: [
-              "Aggiungi firme degli autori agli articoli del blog e alle guide all'acquisto — includi una breve credenziale ('10 anni nel retail di attrezzatura outdoor')",
+              "Aggiungi firme degli autori agli articoli del blog e alle guide all'acquisto con una breve credenziale ('10 anni nel retail di attrezzatura outdoor')",
               "Crea una pagina 'Chi siamo' dettagliata che spieghi la vera competenza del tuo team nella categoria di prodotto",
               "Ottieni menzioni coerenti del brand su piattaforme terze: Trustpilot, G2, pubblicazioni di settore",
-              "Guadagna backlink editoriali da pubblicazioni riconosciute nella tua nicchia — sono segnali di autorevolezza espliciti",
+              "Guadagna backlink editoriali da pubblicazioni riconosciute nella tua nicchia. Sono segnali di autorevolezza espliciti",
               "Mostra recensioni reali dei clienti con foto e tag di acquisto verificato nelle schede prodotto",
-              "Cita le tue fonti quando fai affermazioni fattuali — collega a studi, specifiche del produttore, rapporti di test",
+              "Cita le tue fonti quando fai affermazioni fattuali. Collega a studi, specifiche del produttore, rapporti di test",
             ],
           },
           {
@@ -783,7 +783,7 @@ export const guidesRankingChatgptT: Record<
         blocks: [
           {
             type: "p",
-            text: "llms.txt è uno standard emergente — simile nel concetto a robots.txt — che ti permette di indicare ai crawler IA quali pagine del tuo sito sono più importanti e quali possono usare. Aggiungi un file di testo semplice in tuodominio.it/llms.txt elencando le tue principali pagine prodotto, guide all'acquisto e contenuti autorevoli. Non ancora adottato universalmente, ma il costo di aggiungerlo è quasi zero e i primi ad adottarlo hanno un vantaggio.",
+            text: "llms.txt è uno standard emergente, simile nel concetto a robots.txt, che ti permette di indicare ai crawler IA quali pagine del tuo sito sono più importanti e quali possono usare. Aggiungi un file di testo semplice in tuodominio.it/llms.txt elencando le tue principali pagine prodotto, guide all'acquisto e contenuti autorevoli. Non ancora adottato universalmente, ma il costo di aggiungerlo è quasi zero e i primi ad adottarlo hanno un vantaggio.",
           },
           {
             type: "p",
@@ -796,7 +796,7 @@ export const guidesRankingChatgptT: Record<
           {
             type: "callout",
             title: "Cosa rimane uguale",
-            text: "Sito veloce. Contenuto chiaro. E-E-A-T solido. Buoni backlink. La ricerca IA premia esattamente gli stessi fondamentali del SEO tradizionale — è solo più esplicita nel volere risposte chiare e dirette. Se il tuo SEO tradizionale è solido, sei già a metà strada.",
+            text: "Sito veloce. Contenuto chiaro. E-E-A-T solido. Buoni backlink. La ricerca IA premia gli stessi fondamentali del SEO tradizionale, ma è più esplicita nel volere risposte chiare e dirette. Se il tuo SEO tradizionale è solido, sei già a metà strada.",
           },
         ],
       },

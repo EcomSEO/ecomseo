@@ -21,7 +21,7 @@ export const guidesTaskPlanningT: Record<
           },
           {
             type: "p",
-            text: "A technical fix that gets 30 category pages properly indexed will do more for your traffic than writing 15 blog posts that rank for nothing. A title tag fix on your top 10 product pages can move rankings within weeks. The output you should optimize for is ranking improvement per hour of effort — not number of tasks completed.",
+            text: "A technical fix that gets 30 category pages properly indexed will do more for your traffic than writing 15 blog posts that rank for nothing. A title tag fix on your top 10 product pages can move rankings within weeks. The metric you should optimize for is ranking improvement per hour of effort, not number of tasks completed.",
           },
           {
             type: "callout",
@@ -36,13 +36,13 @@ export const guidesTaskPlanningT: Record<
         blocks: [
           {
             type: "p",
-            text: "Map every SEO task you have on a simple 2x2 grid: impact on one axis, effort on the other. This is not a complex framework — it is a forcing function to stop you from defaulting to easy tasks that feel productive but aren't.",
+            text: "Map every SEO task you have on a simple 2x2 grid: impact on one axis, effort on the other. This is not a complex framework. It is a forcing function to stop you from defaulting to easy tasks that feel productive but aren't.",
           },
           {
             type: "list",
             items: [
               "High impact + low effort: do this week, no discussion. Examples: fixing broken canonical tags, adding missing title tags flagged in GSC, updating H1s on your best product pages.",
-              "High impact + high effort: schedule with proper resourcing. These are your big projects — site architecture changes, new category page creation, building out a topical content cluster.",
+              "High impact + high effort: schedule with proper resourcing. These are your big projects: site architecture changes, new category page creation, building out a topical content cluster.",
               "Low impact + low effort: batch and schedule once a month. Image compression, minor schema additions, cleaning up old redirects.",
               "Low impact + high effort: cut completely. If a task will take 20 hours and move nothing, it does not belong on the list.",
             ],
@@ -59,7 +59,7 @@ export const guidesTaskPlanningT: Record<
         blocks: [
           {
             type: "p",
-            text: "Quick wins are real. They are not shortcuts or tricks — they are tasks where the effort is low relative to the likely impact. Before you plan a full SEO program, spend one week only on quick wins. They move rankings, show stakeholders that SEO works, and give you data to inform your bigger decisions.",
+            text: "Quick wins are real. They are not shortcuts or tricks, just tasks where the effort is low relative to the likely impact. Before you plan a full SEO program, spend one week only on quick wins. They move rankings, show stakeholders that SEO works, and give you data to inform your bigger decisions.",
           },
           {
             type: "checklist",
@@ -84,15 +84,15 @@ export const guidesTaskPlanningT: Record<
         blocks: [
           {
             type: "p",
-            text: "Two-week sprints work well for ecommerce SEO. They are short enough to stay focused and long enough to complete meaningful work. At the start of each sprint, define 3–5 concrete deliverables — not vague goals like 'improve SEO', but specific outputs: 'fix canonical tags on 45 collection pages', 'write and publish 3 category page intros', 'build 5 internal links from homepage to top product pages'.",
+            text: "Two-week sprints work well for ecommerce SEO. They are short enough to stay focused and long enough to complete meaningful work. At the start of each sprint, define 3–5 concrete deliverables. Not vague goals like 'improve SEO', but specific outputs: 'fix canonical tags on 45 collection pages', 'write and publish 3 category page intros', 'build 5 internal links from homepage to top product pages'.",
           },
           {
             type: "p",
-            text: "At the end of the sprint, hold a 30-minute review. Did rankings move? Did traffic change on the targeted pages? What blocked you from completing planned tasks? The review is not about celebration or blame — it is about calibration. Your estimates of effort and impact will improve significantly after 3–4 sprints.",
+            text: "At the end of the sprint, hold a 30-minute review. Did rankings move? Did traffic change on the targeted pages? What blocked you from completing planned tasks? The review is not about celebration or blame. It is about calibration. Your estimates of effort and impact will improve significantly after 3–4 sprints.",
           },
           {
             type: "tip",
-            text: "Track your sprint deliverables in Notion or a shared Google Sheets doc. Keep a running log with four columns: Task, Hypothesis, Date Completed, and Outcome (checked 4–6 weeks later). This becomes your SEO evidence base — the thing you point to when stakeholders ask 'is SEO actually working?'",
+            text: "Track your sprint deliverables in Notion or a shared Google Sheets doc. Keep a running log with four columns: Task, Hypothesis, Date Completed, and Outcome (checked 4–6 weeks later). This becomes your SEO evidence base, the thing you point to when stakeholders ask 'is SEO actually working?'",
           },
           {
             type: "list",
@@ -112,11 +112,11 @@ export const guidesTaskPlanningT: Record<
         blocks: [
           {
             type: "p",
-            text: "Notion, Google Sheets, and Linear all work for tracking SEO tasks. Trello works too if your team is already in it. The tool matters less than the discipline of actually using it. What kills most SEO programs is not lack of ideas — it is doing tasks without recording the hypothesis, then having no idea four weeks later whether the work produced any result.",
+            text: "Notion, Google Sheets, and Linear all work for tracking SEO tasks. Trello works too if your team is already in it. The tool matters less than the discipline of actually using it. What kills most SEO programs is not lack of ideas. It is doing tasks without recording the hypothesis, then having no idea four weeks later whether the work produced any result.",
           },
           {
             type: "p",
-            text: "Keep it simple. A task log with five fields is enough: what you did, why you did it (the hypothesis), when you did it, what page or section it affected, and the outcome. The outcome field stays empty until 4–6 weeks after the task completes — that is when you go back and check whether rankings or traffic moved.",
+            text: "Keep it simple. A task log with five fields is enough: what you did, why you did it (the hypothesis), when you did it, what page or section it affected, and the outcome. The outcome field stays empty until 4–6 weeks after the task completes. That is when you go back and check whether rankings or traffic moved.",
           },
           {
             type: "callout",
@@ -131,20 +131,20 @@ export const guidesTaskPlanningT: Record<
         blocks: [
           {
             type: "p",
-            text: "Sequence matters in SEO. Technical fixes come first because they are foundational — they unblock everything else. If Google can't crawl and index your pages properly, no amount of content or link building will fix your rankings. After technical, work on on-page: title tags, headings, content quality, internal linking. Then content creation. Then link building. Doing link building without a clean technical foundation is money wasted.",
+            text: "Sequence matters in SEO. Technical fixes come first because they unblock everything else. If Google can't crawl and index your pages properly, no amount of content or link building will fix your rankings. After technical, work on on-page: title tags, headings, content quality, internal linking. Then content creation. Then link building. Doing link building without a clean technical base is money wasted.",
           },
           {
             type: "list",
             items: [
-              "Phase 1 — Technical: crawlability, indexation, site speed, canonical tags, structured data. Use Screaming Frog and GSC Coverage report.",
-              "Phase 2 — On-page: title tags, H1s, meta descriptions, internal linking structure, thin content. Reference your /guides/on-page-audit findings.",
-              "Phase 3 — Content: category page copy, buying guides, FAQ sections, blog content targeting informational queries.",
-              "Phase 4 — Link building: only after phases 1–3 are in reasonable shape. See /guides/link-building-tactics for where to start.",
+              "Phase 1, Technical: crawlability, indexation, site speed, canonical tags, structured data. Use Screaming Frog and GSC Coverage report.",
+              "Phase 2, On-page: title tags, H1s, meta descriptions, internal linking structure, thin content. Reference your /guides/on-page-audit findings.",
+              "Phase 3, Content: category page copy, buying guides, FAQ sections, blog content targeting informational queries.",
+              "Phase 4, Link building: only after phases 1–3 are in reasonable shape. See /guides/link-building-tactics for where to start.",
             ],
           },
           {
             type: "tip",
-            text: "Set a calendar reminder every 3 months for a mini audit. Pull fresh GSC data, check your top 20 ranking pages, re-run Screaming Frog, and check your backlink profile in Ahrefs. Rankings shift, competitors update their sites, algorithm updates happen. The full audit cycle from /guides/fundamentals through /guides/off-page-audit is never truly done — it loops. Build that into your planning from day one.",
+            text: "Set a calendar reminder every 3 months for a mini audit. Pull fresh GSC data, check your top 20 ranking pages, re-run Screaming Frog, and check your backlink profile in Ahrefs. Rankings shift, competitors update their sites, algorithm updates happen. The full audit cycle from /guides/fundamentals through /guides/off-page-audit is never truly done. It loops. Build that into your planning from day one.",
           },
           {
             type: "p",
@@ -163,7 +163,7 @@ export const guidesTaskPlanningT: Record<
     sections: [
       {
         id: "prioritization-beats-volume",
-        title: "Priorisierung schlägt Masse — immer",
+        title: "Priorisierung schlägt Masse, immer",
         blocks: [
           {
             type: "p",
@@ -171,7 +171,7 @@ export const guidesTaskPlanningT: Record<
           },
           {
             type: "p",
-            text: "Eine technische Korrektur, die 30 Kategorie-Seiten richtig indexiert, tut mehr für deinen Traffic als 15 Blogbeiträge, die für nichts ranken. Eine Title-Tag-Korrektur auf deinen Top-10-Produktseiten kann Rankings innerhalb von Wochen verschieben. Die Kennzahl, die du optimieren solltest, ist: Ranking-Verbesserung pro Arbeitsstunde — nicht Anzahl abgehakter Aufgaben.",
+            text: "Eine technische Korrektur, die 30 Kategorie-Seiten richtig indexiert, tut mehr für deinen Traffic als 15 Blogbeiträge, die für nichts ranken. Eine Title-Tag-Korrektur auf deinen Top-10-Produktseiten kann Rankings innerhalb von Wochen verschieben. Die Kennzahl, die du optimieren solltest, ist: Ranking-Verbesserung pro Arbeitsstunde, nicht Anzahl abgehakter Aufgaben.",
           },
           {
             type: "callout",
@@ -186,13 +186,13 @@ export const guidesTaskPlanningT: Record<
         blocks: [
           {
             type: "p",
-            text: "Trage jede SEO-Aufgabe in ein einfaches 2x2-Raster ein: Impact auf einer Achse, Aufwand auf der anderen. Das ist kein komplexes Framework — es ist ein Mechanismus, der dich davon abhält, standardmäßig leichte Aufgaben zu machen, die sich produktiv anfühlen, es aber nicht sind.",
+            text: "Trage jede SEO-Aufgabe in ein einfaches 2x2-Raster ein: Impact auf einer Achse, Aufwand auf der anderen. Das ist kein komplexes Framework. Es ist ein Mechanismus, der dich davon abhält, standardmäßig leichte Aufgaben zu machen, die sich produktiv anfühlen, es aber nicht sind.",
           },
           {
             type: "list",
             items: [
               "Hoher Impact + geringer Aufwand: Diese Woche erledigen, kein Diskurs. Beispiele: kaputte Canonical-Tags beheben, fehlende Title-Tags aus GSC ergänzen, H1s auf deinen besten Produktseiten aktualisieren.",
-              "Hoher Impact + hoher Aufwand: Einplanen und richtig resourcieren. Das sind deine großen Projekte — Änderungen der Site-Architektur, Erstellen neuer Kategorie-Seiten, Aufbau eines thematischen Content-Clusters.",
+              "Hoher Impact + hoher Aufwand: Einplanen und richtig resourcieren. Das sind deine großen Projekte: Änderungen der Site-Architektur, Erstellen neuer Kategorie-Seiten, Aufbau eines thematischen Content-Clusters.",
               "Geringer Impact + geringer Aufwand: Bündeln und einmal im Monat einplanen. Bildkomprimierung, kleinere Schema-Ergänzungen, Bereinigung alter Weiterleitungen.",
               "Geringer Impact + hoher Aufwand: Vollständig streichen. Wenn eine Aufgabe 20 Stunden kostet und nichts bewegt, gehört sie nicht auf die Liste.",
             ],
@@ -209,7 +209,7 @@ export const guidesTaskPlanningT: Record<
         blocks: [
           {
             type: "p",
-            text: "Quick Wins sind real. Es sind keine Abkürzungen oder Tricks — es sind Aufgaben, bei denen der Aufwand im Verhältnis zum wahrscheinlichen Impact gering ist. Bevor du ein vollständiges SEO-Programm planst, verbringe eine Woche ausschließlich mit Quick Wins. Sie bewegen Rankings, zeigen Stakeholdern, dass SEO funktioniert, und liefern Daten für deine größeren Entscheidungen.",
+            text: "Quick Wins sind real. Es sind keine Abkürzungen oder Tricks, sondern Aufgaben, bei denen der Aufwand im Verhältnis zum wahrscheinlichen Impact gering ist. Bevor du ein vollständiges SEO-Programm planst, verbringe eine Woche ausschließlich mit Quick Wins. Sie bewegen Rankings, zeigen Stakeholdern, dass SEO funktioniert, und liefern Daten für deine größeren Entscheidungen.",
           },
           {
             type: "checklist",
@@ -234,15 +234,15 @@ export const guidesTaskPlanningT: Record<
         blocks: [
           {
             type: "p",
-            text: "Zwei-Wochen-Sprints funktionieren gut für Ecommerce-SEO. Kurz genug, um fokussiert zu bleiben, lang genug, um bedeutungsvolle Arbeit abzuschließen. Zu Beginn jedes Sprints werden 3–5 konkrete Lieferergebnisse definiert — keine vagen Ziele wie 'SEO verbessern', sondern spezifische Outputs: 'Canonical-Tags auf 45 Kollektionsseiten beheben', '3 Kategorie-Seiten-Einleitungen schreiben und veröffentlichen', '5 interne Links von der Homepage zu Top-Produktseiten aufbauen'.",
+            text: "Zwei-Wochen-Sprints funktionieren gut für Ecommerce-SEO. Kurz genug, um fokussiert zu bleiben, lang genug, um bedeutungsvolle Arbeit abzuschließen. Zu Beginn jedes Sprints werden 3–5 konkrete Lieferergebnisse definiert. Keine vagen Ziele wie 'SEO verbessern', sondern spezifische Outputs: 'Canonical-Tags auf 45 Kollektionsseiten beheben', '3 Kategorie-Seiten-Einleitungen schreiben und veröffentlichen', '5 interne Links von der Homepage zu Top-Produktseiten aufbauen'.",
           },
           {
             type: "p",
-            text: "Am Ende des Sprints findet ein 30-minütiges Review statt. Haben sich Rankings bewegt? Hat sich der Traffic auf den Zielseiten verändert? Was hat dich daran gehindert, geplante Aufgaben abzuschließen? Das Review ist weder Feier noch Schuldzuweisung — es ist Kalibrierung. Deine Schätzungen von Aufwand und Impact werden nach 3–4 Sprints deutlich besser.",
+            text: "Am Ende des Sprints findet ein 30-minütiges Review statt. Haben sich Rankings bewegt? Hat sich der Traffic auf den Zielseiten verändert? Was hat dich daran gehindert, geplante Aufgaben abzuschließen? Das Review ist weder Feier noch Schuldzuweisung, sondern Kalibrierung. Deine Schätzungen von Aufwand und Impact werden nach 3–4 Sprints deutlich besser.",
           },
           {
             type: "tip",
-            text: "Verfolge deine Sprint-Lieferergebnisse in Notion oder einem geteilten Google-Sheets-Dokument. Halte ein laufendes Log mit vier Spalten: Aufgabe, Hypothese, Abschlussdatum und Ergebnis (4–6 Wochen später geprüft). Das wird deine SEO-Evidenzbasis — das, worauf du zeigst, wenn Stakeholder fragen: 'Funktioniert SEO eigentlich?'",
+            text: "Verfolge deine Sprint-Lieferergebnisse in Notion oder einem geteilten Google-Sheets-Dokument. Halte ein laufendes Log mit vier Spalten: Aufgabe, Hypothese, Abschlussdatum und Ergebnis (4–6 Wochen später geprüft). Das wird deine SEO-Evidenzbasis, also das, worauf du zeigst, wenn Stakeholder fragen: 'Funktioniert SEO eigentlich?'",
           },
           {
             type: "list",
@@ -262,11 +262,11 @@ export const guidesTaskPlanningT: Record<
         blocks: [
           {
             type: "p",
-            text: "Notion, Google Sheets und Linear eignen sich alle zum Tracken von SEO-Aufgaben. Trello funktioniert auch, wenn dein Team bereits darin arbeitet. Das Tool spielt eine kleinere Rolle als die Disziplin, es tatsächlich zu benutzen. Was die meisten SEO-Programme zum Scheitern bringt, ist nicht Mangel an Ideen — es ist, Aufgaben ohne dokumentierte Hypothese zu erledigen und vier Wochen später keine Ahnung zu haben, ob die Arbeit ein Ergebnis hatte.",
+            text: "Notion, Google Sheets und Linear eignen sich alle zum Tracken von SEO-Aufgaben. Trello funktioniert auch, wenn dein Team bereits darin arbeitet. Das Tool spielt eine kleinere Rolle als die Disziplin, es tatsächlich zu benutzen. Was die meisten SEO-Programme zum Scheitern bringt, ist nicht Mangel an Ideen. Es ist, Aufgaben ohne dokumentierte Hypothese zu erledigen und vier Wochen später keine Ahnung zu haben, ob die Arbeit ein Ergebnis hatte.",
           },
           {
             type: "p",
-            text: "Halte es einfach. Ein Aufgaben-Log mit fünf Feldern reicht: was du getan hast, warum du es getan hast (die Hypothese), wann du es getan hast, welche Seite oder welchen Bereich es betrifft, und das Ergebnis. Das Ergebnisfeld bleibt leer, bis 4–6 Wochen nach Abschluss der Aufgabe vergangen sind — dann gehst du zurück und prüfst, ob sich Rankings oder Traffic bewegt haben.",
+            text: "Halte es einfach. Ein Aufgaben-Log mit fünf Feldern reicht: was du getan hast, warum du es getan hast (die Hypothese), wann du es getan hast, welche Seite oder welchen Bereich es betrifft, und das Ergebnis. Das Ergebnisfeld bleibt leer, bis 4–6 Wochen nach Abschluss der Aufgabe vergangen sind. Dann gehst du zurück und prüfst, ob sich Rankings oder Traffic bewegt haben.",
           },
           {
             type: "callout",
@@ -281,20 +281,20 @@ export const guidesTaskPlanningT: Record<
         blocks: [
           {
             type: "p",
-            text: "Reihenfolge ist im SEO entscheidend. Technische Korrekturen kommen zuerst, weil sie fundamental sind — sie entsperren alles andere. Wenn Google deine Seiten nicht richtig crawlen und indexieren kann, wird keine Menge Content oder Linkaufbau deine Rankings verbessern. Nach dem Technischen: On-page — Title-Tags, Überschriften, Content-Qualität, interne Verlinkung. Dann Content-Erstellung. Dann Linkaufbau. Linkaufbau ohne saubere technische Basis ist verschwendetes Geld.",
+            text: "Reihenfolge ist im SEO wichtig. Technische Korrekturen kommen zuerst, weil sie alles andere entsperren. Wenn Google deine Seiten nicht richtig crawlen und indexieren kann, wird keine Menge Content oder Linkaufbau deine Rankings verbessern. Nach dem Technischen kommt On-page: Title-Tags, Überschriften, Content-Qualität, interne Verlinkung. Dann Content-Erstellung. Dann Linkaufbau. Linkaufbau ohne saubere technische Basis ist verschwendetes Geld.",
           },
           {
             type: "list",
             items: [
-              "Phase 1 — Technisch: Crawlbarkeit, Indexierung, Seitengeschwindigkeit, Canonical-Tags, strukturierte Daten. Screaming Frog und GSC-Abdeckungsbericht verwenden.",
-              "Phase 2 — On-page: Title-Tags, H1s, Meta-Beschreibungen, interne Verlinkungsstruktur, dünner Content. Erkenntnisse aus /guides/on-page-audit einfließen lassen.",
-              "Phase 3 — Content: Kategorieseiten-Text, Kaufratgeber, FAQ-Abschnitte, Blog-Content für informationelle Suchanfragen.",
-              "Phase 4 — Linkaufbau: Erst wenn Phasen 1–3 in einem ordentlichen Zustand sind. Startpunkt unter /guides/link-building-tactics.",
+              "Phase 1, Technisch: Crawlbarkeit, Indexierung, Seitengeschwindigkeit, Canonical-Tags, strukturierte Daten. Screaming Frog und GSC-Abdeckungsbericht verwenden.",
+              "Phase 2, On-page: Title-Tags, H1s, Meta-Beschreibungen, interne Verlinkungsstruktur, dünner Content. Erkenntnisse aus /guides/on-page-audit einfließen lassen.",
+              "Phase 3, Content: Kategorieseiten-Text, Kaufratgeber, FAQ-Abschnitte, Blog-Content für informationelle Suchanfragen.",
+              "Phase 4, Linkaufbau: Erst wenn Phasen 1–3 in einem ordentlichen Zustand sind. Startpunkt unter /guides/link-building-tactics.",
             ],
           },
           {
             type: "tip",
-            text: "Stelle alle 3 Monate eine Kalender-Erinnerung für einen Mini-Audit. Neue GSC-Daten abrufen, deine Top-20-Ranking-Seiten prüfen, Screaming Frog erneut laufen lassen und dein Backlink-Profil in Ahrefs prüfen. Rankings verschieben sich, Wettbewerber aktualisieren ihre Seiten, Algorithmus-Updates passieren. Der vollständige Audit-Zyklus von /guides/fundamentals bis /guides/off-page-audit ist nie wirklich abgeschlossen — er läuft im Kreis. Das von Anfang an in die Planung einbauen.",
+            text: "Stelle alle 3 Monate eine Kalender-Erinnerung für einen Mini-Audit. Neue GSC-Daten abrufen, deine Top-20-Ranking-Seiten prüfen, Screaming Frog erneut laufen lassen und dein Backlink-Profil in Ahrefs prüfen. Rankings verschieben sich, Wettbewerber aktualisieren ihre Seiten, Algorithmus-Updates passieren. Der vollständige Audit-Zyklus von /guides/fundamentals bis /guides/off-page-audit ist nie wirklich abgeschlossen. Er läuft im Kreis. Das von Anfang an in die Planung einbauen.",
           },
           {
             type: "p",
@@ -321,7 +321,7 @@ export const guidesTaskPlanningT: Record<
           },
           {
             type: "p",
-            text: "Un correctif technique qui indexe correctement 30 pages de catégorie fera plus pour votre trafic que 15 articles de blog qui ne se classent pour rien. Corriger les balises title de vos 10 meilleures pages produit peut faire bouger les classements en quelques semaines. La métrique à optimiser est : amélioration de classement par heure d'effort — pas le nombre de tâches cochées.",
+            text: "Un correctif technique qui indexe correctement 30 pages de catégorie fera plus pour votre trafic que 15 articles de blog qui ne se classent pour rien. Corriger les balises title de vos 10 meilleures pages produit peut faire bouger les classements en quelques semaines. La métrique à optimiser est : amélioration de classement par heure d'effort, pas le nombre de tâches cochées.",
           },
           {
             type: "callout",
@@ -336,13 +336,13 @@ export const guidesTaskPlanningT: Record<
         blocks: [
           {
             type: "p",
-            text: "Positionnez chaque tâche SEO sur une simple grille 2x2 : impact sur un axe, effort sur l'autre. Ce n'est pas un cadre complexe — c'est un mécanisme pour vous empêcher de vous rabattre sur des tâches faciles qui semblent productives mais ne le sont pas.",
+            text: "Positionnez chaque tâche SEO sur une simple grille 2x2 : impact sur un axe, effort sur l'autre. Ce n'est pas un cadre complexe. C'est un mécanisme pour vous empêcher de vous rabattre sur des tâches faciles qui semblent productives mais ne le sont pas.",
           },
           {
             type: "list",
             items: [
               "Impact élevé + effort faible : à faire cette semaine, sans discussion. Exemples : corriger les balises canoniques cassées, ajouter les balises title manquantes signalées dans la GSC, mettre à jour les H1 sur vos meilleures pages produit.",
-              "Impact élevé + effort élevé : planifier avec les ressources appropriées. Ce sont vos grands projets — modifications d'architecture de site, création de nouvelles pages de catégorie, construction d'un cluster de contenu thématique.",
+              "Impact élevé + effort élevé : planifier avec les ressources appropriées. Ce sont vos grands projets : modifications d'architecture de site, création de nouvelles pages de catégorie, construction d'un cluster de contenu thématique.",
               "Impact faible + effort faible : regrouper et planifier une fois par mois. Compression d'images, ajouts de schéma mineurs, nettoyage des anciennes redirections.",
               "Impact faible + effort élevé : supprimer complètement. Si une tâche prend 20 heures et ne déplace rien, elle n'a pas sa place sur la liste.",
             ],
@@ -359,7 +359,7 @@ export const guidesTaskPlanningT: Record<
         blocks: [
           {
             type: "p",
-            text: "Les quick wins sont réels. Ce ne sont pas des raccourcis ou des astuces — ce sont des tâches où l'effort est faible par rapport à l'impact probable. Avant de planifier un programme SEO complet, passez une semaine uniquement sur les quick wins. Ils font bouger les classements, montrent aux parties prenantes que le SEO fonctionne, et vous fournissent des données pour vos décisions plus importantes.",
+            text: "Les quick wins sont réels. Ce ne sont pas des raccourcis ou des astuces, mais des tâches où l'effort est faible par rapport à l'impact probable. Avant de planifier un programme SEO complet, passez une semaine uniquement sur les quick wins. Ils font bouger les classements, montrent aux parties prenantes que le SEO fonctionne, et vous fournissent des données pour vos décisions plus importantes.",
           },
           {
             type: "checklist",
@@ -384,15 +384,15 @@ export const guidesTaskPlanningT: Record<
         blocks: [
           {
             type: "p",
-            text: "Les sprints de deux semaines fonctionnent bien pour le SEO ecommerce. Assez courts pour rester concentré, assez longs pour réaliser un travail significatif. En début de sprint, définissez 3 à 5 livrables concrets — pas des objectifs vagues comme 'améliorer le SEO', mais des outputs spécifiques : 'corriger les balises canoniques sur 45 pages de collection', 'rédiger et publier 3 intros de pages de catégorie', 'construire 5 liens internes depuis la homepage vers les meilleures pages produit'.",
+            text: "Les sprints de deux semaines fonctionnent bien pour le SEO ecommerce. Assez courts pour rester concentré, assez longs pour réaliser un travail significatif. En début de sprint, définissez 3 à 5 livrables concrets. Pas des objectifs vagues comme 'améliorer le SEO', mais des outputs spécifiques : 'corriger les balises canoniques sur 45 pages de collection', 'rédiger et publier 3 intros de pages de catégorie', 'construire 5 liens internes depuis la homepage vers les meilleures pages produit'.",
           },
           {
             type: "p",
-            text: "En fin de sprint, tenez une revue de 30 minutes. Les classements ont-ils bougé ? Le trafic a-t-il changé sur les pages ciblées ? Qu'est-ce qui vous a empêché d'achever les tâches prévues ? La revue n'est pas une célébration ni une recherche de responsable — c'est une calibration. Vos estimations d'effort et d'impact s'amélioreront significativement après 3 à 4 sprints.",
+            text: "En fin de sprint, tenez une revue de 30 minutes. Les classements ont-ils bougé ? Le trafic a-t-il changé sur les pages ciblées ? Qu'est-ce qui vous a empêché d'achever les tâches prévues ? La revue n'est ni une célébration ni une recherche de responsable, c'est une calibration. Vos estimations d'effort et d'impact s'amélioreront significativement après 3 à 4 sprints.",
           },
           {
             type: "tip",
-            text: "Suivez vos livrables de sprint dans Notion ou un Google Sheets partagé. Gardez un journal avec quatre colonnes : Tâche, Hypothèse, Date de complétion et Résultat (vérifié 4 à 6 semaines plus tard). Cela devient votre base de preuves SEO — ce sur quoi vous pointez quand les parties prenantes demandent : 'le SEO fonctionne-t-il vraiment ?'",
+            text: "Suivez vos livrables de sprint dans Notion ou un Google Sheets partagé. Gardez un journal avec quatre colonnes : Tâche, Hypothèse, Date de complétion et Résultat (vérifié 4 à 6 semaines plus tard). Cela devient votre base de preuves SEO, ce sur quoi vous pointez quand les parties prenantes demandent : 'le SEO fonctionne-t-il vraiment ?'",
           },
           {
             type: "list",
@@ -412,11 +412,11 @@ export const guidesTaskPlanningT: Record<
         blocks: [
           {
             type: "p",
-            text: "Notion, Google Sheets et Linear fonctionnent tous pour suivre les tâches SEO. Trello fonctionne également si votre équipe l'utilise déjà. L'outil compte moins que la discipline de l'utiliser réellement. Ce qui fait échouer la plupart des programmes SEO, ce n'est pas le manque d'idées — c'est de réaliser des tâches sans noter l'hypothèse, puis de n'avoir aucune idée quatre semaines plus tard si le travail a produit un résultat.",
+            text: "Notion, Google Sheets et Linear fonctionnent tous pour suivre les tâches SEO. Trello fonctionne également si votre équipe l'utilise déjà. L'outil compte moins que la discipline de l'utiliser réellement. Ce qui fait échouer la plupart des programmes SEO, ce n'est pas le manque d'idées. C'est de réaliser des tâches sans noter l'hypothèse, puis de n'avoir aucune idée quatre semaines plus tard si le travail a produit un résultat.",
           },
           {
             type: "p",
-            text: "Restez simple. Un journal de tâches avec cinq champs suffit : ce que vous avez fait, pourquoi vous l'avez fait (l'hypothèse), quand vous l'avez fait, quelle page ou section cela a concerné, et le résultat. Le champ résultat reste vide jusqu'à 4 à 6 semaines après la complétion de la tâche — c'est alors que vous revenez vérifier si les classements ou le trafic ont bougé.",
+            text: "Restez simple. Un journal de tâches avec cinq champs suffit : ce que vous avez fait, pourquoi vous l'avez fait (l'hypothèse), quand vous l'avez fait, quelle page ou section cela a concerné, et le résultat. Le champ résultat reste vide jusqu'à 4 à 6 semaines après la complétion de la tâche. C'est alors que vous revenez vérifier si les classements ou le trafic ont bougé.",
           },
           {
             type: "callout",
@@ -431,20 +431,20 @@ export const guidesTaskPlanningT: Record<
         blocks: [
           {
             type: "p",
-            text: "La séquence compte en SEO. Les correctifs techniques passent en premier parce qu'ils sont fondamentaux — ils débloquent tout le reste. Si Google ne peut pas crawler et indexer correctement vos pages, aucun contenu ni link building ne sauvera vos classements. Après le technique : l'on-page — balises title, titres, qualité du contenu, maillage interne. Puis la création de contenu. Puis le link building. Faire du link building sans une base technique saine, c'est de l'argent gaspillé.",
+            text: "La séquence compte en SEO. Les correctifs techniques passent en premier parce qu'ils débloquent tout le reste. Si Google ne peut pas crawler et indexer correctement vos pages, aucun contenu ni link building ne sauvera vos classements. Après le technique, l'on-page : balises title, titres, qualité du contenu, maillage interne. Puis la création de contenu. Puis le link building. Faire du link building sans une base technique saine, c'est de l'argent gaspillé.",
           },
           {
             type: "list",
             items: [
-              "Phase 1 — Technique : crawlabilité, indexation, vitesse du site, balises canoniques, données structurées. Utiliser Screaming Frog et le rapport de couverture GSC.",
-              "Phase 2 — On-page : balises title, H1, méta-descriptions, structure de maillage interne, contenu pauvre. Se référer aux conclusions de /guides/on-page-audit.",
-              "Phase 3 — Contenu : textes de pages de catégorie, guides d'achat, sections FAQ, contenu de blog ciblant les requêtes informationnelles.",
-              "Phase 4 — Link building : seulement après que les phases 1–3 sont en bonne forme. Voir /guides/link-building-tactics pour savoir par où commencer.",
+              "Phase 1, Technique : crawlabilité, indexation, vitesse du site, balises canoniques, données structurées. Utiliser Screaming Frog et le rapport de couverture GSC.",
+              "Phase 2, On-page : balises title, H1, méta-descriptions, structure de maillage interne, contenu pauvre. Se référer aux conclusions de /guides/on-page-audit.",
+              "Phase 3, Contenu : textes de pages de catégorie, guides d'achat, sections FAQ, contenu de blog ciblant les requêtes informationnelles.",
+              "Phase 4, Link building : seulement après que les phases 1–3 sont en bonne forme. Voir /guides/link-building-tactics pour savoir par où commencer.",
             ],
           },
           {
             type: "tip",
-            text: "Programmez un rappel calendrier tous les 3 mois pour un mini audit. Extrayez des données GSC fraîches, vérifiez vos 20 meilleures pages en classement, relancez Screaming Frog et vérifiez votre profil de backlinks dans Ahrefs. Les classements bougent, les concurrents mettent à jour leurs sites, des mises à jour d'algorithme surviennent. Le cycle complet d'audit de /guides/fundamentals à /guides/off-page-audit n'est jamais vraiment terminé — il boucle. Intégrez cela dans votre planification dès le premier jour.",
+            text: "Programmez un rappel calendrier tous les 3 mois pour un mini audit. Extrayez des données GSC fraîches, vérifiez vos 20 meilleures pages en classement, relancez Screaming Frog et vérifiez votre profil de backlinks dans Ahrefs. Les classements bougent, les concurrents mettent à jour leurs sites, des mises à jour d'algorithme surviennent. Le cycle complet d'audit de /guides/fundamentals à /guides/off-page-audit n'est jamais vraiment terminé. Il boucle. Intégrez cela dans votre planification dès le premier jour.",
           },
           {
             type: "p",
@@ -471,7 +471,7 @@ export const guidesTaskPlanningT: Record<
           },
           {
             type: "p",
-            text: "Un arreglo técnico que indexa correctamente 30 páginas de categoría hará más por tu tráfico que 15 artículos de blog que no posicionan para nada. Un arreglo de etiquetas de título en tus 10 mejores páginas de producto puede mover rankings en semanas. La métrica que debes optimizar es: mejora de posicionamiento por hora de esfuerzo — no número de tareas completadas.",
+            text: "Un arreglo técnico que indexa correctamente 30 páginas de categoría hará más por tu tráfico que 15 artículos de blog que no posicionan para nada. Un arreglo de etiquetas de título en tus 10 mejores páginas de producto puede mover rankings en semanas. La métrica que debes optimizar es: mejora de posicionamiento por hora de esfuerzo, no número de tareas completadas.",
           },
           {
             type: "callout",
@@ -486,13 +486,13 @@ export const guidesTaskPlanningT: Record<
         blocks: [
           {
             type: "p",
-            text: "Coloca cada tarea SEO en una simple cuadrícula 2x2: impacto en un eje, esfuerzo en el otro. No es un framework complejo — es un mecanismo que te impide ir por defecto a tareas fáciles que parecen productivas pero no lo son.",
+            text: "Coloca cada tarea SEO en una simple cuadrícula 2x2: impacto en un eje, esfuerzo en el otro. No es un framework complejo. Es un mecanismo que te impide ir por defecto a tareas fáciles que parecen productivas pero no lo son.",
           },
           {
             type: "list",
             items: [
               "Alto impacto + bajo esfuerzo: hazlo esta semana, sin discusión. Ejemplos: arreglar etiquetas canónicas rotas, añadir etiquetas de título faltantes indicadas en GSC, actualizar H1s en tus mejores páginas de producto.",
-              "Alto impacto + alto esfuerzo: planificar con los recursos adecuados. Son tus grandes proyectos — cambios en la arquitectura del sitio, creación de nuevas páginas de categoría, construcción de un cluster de contenido temático.",
+              "Alto impacto + alto esfuerzo: planificar con los recursos adecuados. Son tus grandes proyectos: cambios en la arquitectura del sitio, creación de nuevas páginas de categoría, construcción de un cluster de contenido temático.",
               "Bajo impacto + bajo esfuerzo: agrupar y planificar una vez al mes. Compresión de imágenes, adiciones menores de schema, limpieza de redireccionamientos antiguos.",
               "Bajo impacto + alto esfuerzo: eliminar por completo. Si una tarea toma 20 horas y no mueve nada, no pertenece a la lista.",
             ],
@@ -509,7 +509,7 @@ export const guidesTaskPlanningT: Record<
         blocks: [
           {
             type: "p",
-            text: "Los quick wins son reales. No son atajos ni trucos — son tareas donde el esfuerzo es bajo en relación con el impacto probable. Antes de planificar un programa SEO completo, pasa una semana solo en quick wins. Mueven rankings, demuestran a los stakeholders que el SEO funciona y te dan datos para tus decisiones más grandes.",
+            text: "Los quick wins son reales. No son atajos ni trucos, sino tareas donde el esfuerzo es bajo en relación con el impacto probable. Antes de planificar un programa SEO completo, pasa una semana solo en quick wins. Mueven rankings, demuestran a los stakeholders que el SEO funciona y te dan datos para tus decisiones más grandes.",
           },
           {
             type: "checklist",
@@ -534,15 +534,15 @@ export const guidesTaskPlanningT: Record<
         blocks: [
           {
             type: "p",
-            text: "Los sprints de dos semanas funcionan bien para el SEO ecommerce. Lo suficientemente cortos para mantener el foco y lo suficientemente largos para completar trabajo significativo. Al comienzo de cada sprint, define 3–5 entregables concretos — no objetivos vagos como 'mejorar el SEO', sino outputs específicos: 'arreglar etiquetas canónicas en 45 páginas de colección', 'escribir y publicar 3 introducciones de páginas de categoría', 'construir 5 enlaces internos desde la homepage a las mejores páginas de producto'.",
+            text: "Los sprints de dos semanas funcionan bien para el SEO ecommerce. Lo suficientemente cortos para mantener el foco y lo suficientemente largos para completar trabajo significativo. Al comienzo de cada sprint, define 3–5 entregables concretos. No objetivos vagos como 'mejorar el SEO', sino outputs específicos: 'arreglar etiquetas canónicas en 45 páginas de colección', 'escribir y publicar 3 introducciones de páginas de categoría', 'construir 5 enlaces internos desde la homepage a las mejores páginas de producto'.",
           },
           {
             type: "p",
-            text: "Al final del sprint, realiza una revisión de 30 minutos. ¿Se movieron los rankings? ¿Cambió el tráfico en las páginas objetivo? ¿Qué te impidió completar las tareas planificadas? La revisión no es celebración ni asignación de culpa — es calibración. Tus estimaciones de esfuerzo e impacto mejorarán significativamente después de 3–4 sprints.",
+            text: "Al final del sprint, realiza una revisión de 30 minutos. ¿Se movieron los rankings? ¿Cambió el tráfico en las páginas objetivo? ¿Qué te impidió completar las tareas planificadas? La revisión no es celebración ni asignación de culpa, es calibración. Tus estimaciones de esfuerzo e impacto mejorarán significativamente después de 3–4 sprints.",
           },
           {
             type: "tip",
-            text: "Rastrea tus entregables de sprint en Notion o un Google Sheets compartido. Mantén un registro continuo con cuatro columnas: Tarea, Hipótesis, Fecha de Completación y Resultado (verificado 4–6 semanas después). Esto se convierte en tu base de evidencia SEO — lo que señalas cuando los stakeholders preguntan '¿el SEO está funcionando realmente?'",
+            text: "Rastrea tus entregables de sprint en Notion o un Google Sheets compartido. Mantén un registro continuo con cuatro columnas: Tarea, Hipótesis, Fecha de Completación y Resultado (verificado 4–6 semanas después). Esto se convierte en tu base de evidencia SEO, lo que señalas cuando los stakeholders preguntan '¿el SEO está funcionando realmente?'",
           },
           {
             type: "list",
@@ -562,11 +562,11 @@ export const guidesTaskPlanningT: Record<
         blocks: [
           {
             type: "p",
-            text: "Notion, Google Sheets y Linear funcionan todos para rastrear tareas SEO. Trello también funciona si tu equipo ya lo usa. La herramienta importa menos que la disciplina de usarla realmente. Lo que mata la mayoría de los programas SEO no es la falta de ideas — es hacer tareas sin registrar la hipótesis, y luego no tener idea cuatro semanas después de si el trabajo produjo algún resultado.",
+            text: "Notion, Google Sheets y Linear funcionan todos para rastrear tareas SEO. Trello también funciona si tu equipo ya lo usa. La herramienta importa menos que la disciplina de usarla realmente. Lo que mata la mayoría de los programas SEO no es la falta de ideas. Es hacer tareas sin registrar la hipótesis, y luego no tener idea cuatro semanas después de si el trabajo produjo algún resultado.",
           },
           {
             type: "p",
-            text: "Mantenlo simple. Un registro de tareas con cinco campos es suficiente: qué hiciste, por qué lo hiciste (la hipótesis), cuándo lo hiciste, qué página o sección afectó, y el resultado. El campo de resultado permanece vacío hasta 4–6 semanas después de que la tarea se completa — ese es el momento para volver y comprobar si los rankings o el tráfico se movieron.",
+            text: "Mantenlo simple. Un registro de tareas con cinco campos es suficiente: qué hiciste, por qué lo hiciste (la hipótesis), cuándo lo hiciste, qué página o sección afectó, y el resultado. El campo de resultado permanece vacío hasta 4–6 semanas después de que la tarea se completa. Ese es el momento para volver y comprobar si los rankings o el tráfico se movieron.",
           },
           {
             type: "callout",
@@ -581,20 +581,20 @@ export const guidesTaskPlanningT: Record<
         blocks: [
           {
             type: "p",
-            text: "La secuencia importa en SEO. Los arreglos técnicos van primero porque son fundamentales — desbloquean todo lo demás. Si Google no puede rastrear e indexar correctamente tus páginas, ninguna cantidad de contenido o link building arreglará tus rankings. Después de lo técnico: on-page — etiquetas de título, encabezados, calidad del contenido, enlazado interno. Luego creación de contenido. Luego link building. Hacer link building sin una base técnica limpia es dinero desperdiciado.",
+            text: "La secuencia importa en SEO. Los arreglos técnicos van primero porque desbloquean todo lo demás. Si Google no puede rastrear e indexar correctamente tus páginas, ninguna cantidad de contenido o link building arreglará tus rankings. Después de lo técnico viene on-page: etiquetas de título, encabezados, calidad del contenido, enlazado interno. Luego creación de contenido. Luego link building. Hacer link building sin una base técnica limpia es dinero desperdiciado.",
           },
           {
             type: "list",
             items: [
-              "Fase 1 — Técnico: rastreabilidad, indexación, velocidad del sitio, etiquetas canónicas, datos estructurados. Usar Screaming Frog y el informe de Cobertura de GSC.",
-              "Fase 2 — On-page: etiquetas de título, H1s, meta descripciones, estructura de enlazado interno, contenido escaso. Referenciar los hallazgos de /guides/on-page-audit.",
-              "Fase 3 — Contenido: texto de páginas de categoría, guías de compra, secciones de FAQ, contenido de blog dirigido a consultas informacionales.",
-              "Fase 4 — Link building: solo después de que las fases 1–3 estén en condiciones razonables. Ver /guides/link-building-tactics para saber por dónde empezar.",
+              "Fase 1, Técnico: rastreabilidad, indexación, velocidad del sitio, etiquetas canónicas, datos estructurados. Usar Screaming Frog y el informe de Cobertura de GSC.",
+              "Fase 2, On-page: etiquetas de título, H1s, meta descripciones, estructura de enlazado interno, contenido escaso. Referenciar los hallazgos de /guides/on-page-audit.",
+              "Fase 3, Contenido: texto de páginas de categoría, guías de compra, secciones de FAQ, contenido de blog dirigido a consultas informacionales.",
+              "Fase 4, Link building: solo después de que las fases 1–3 estén en condiciones razonables. Ver /guides/link-building-tactics para saber por dónde empezar.",
             ],
           },
           {
             type: "tip",
-            text: "Configura un recordatorio de calendario cada 3 meses para una mini auditoría. Extrae datos frescos de GSC, revisa tus 20 páginas mejor posicionadas, vuelve a ejecutar Screaming Frog y revisa tu perfil de backlinks en Ahrefs. Los rankings cambian, los competidores actualizan sus sitios, ocurren actualizaciones de algoritmo. El ciclo de auditoría completo desde /guides/fundamentals hasta /guides/off-page-audit nunca está verdaderamente terminado — es un bucle. Intégralo en tu planificación desde el primer día.",
+            text: "Configura un recordatorio de calendario cada 3 meses para una mini auditoría. Extrae datos frescos de GSC, revisa tus 20 páginas mejor posicionadas, vuelve a ejecutar Screaming Frog y revisa tu perfil de backlinks en Ahrefs. Los rankings cambian, los competidores actualizan sus sitios, ocurren actualizaciones de algoritmo. El ciclo de auditoría completo desde /guides/fundamentals hasta /guides/off-page-audit nunca está verdaderamente terminado. Es un bucle. Intégralo en tu planificación desde el primer día.",
           },
           {
             type: "p",
@@ -621,7 +621,7 @@ export const guidesTaskPlanningT: Record<
           },
           {
             type: "p",
-            text: "Un fix tecnico che indicizza correttamente 30 pagine di categoria farà più per il tuo traffico che 15 articoli di blog che non si posizionano per niente. Un fix dei tag title sulle tue 10 migliori pagine prodotto può muovere i ranking in poche settimane. La metrica da ottimizzare è: miglioramento del posizionamento per ora di lavoro — non numero di attività completate.",
+            text: "Un fix tecnico che indicizza correttamente 30 pagine di categoria farà più per il tuo traffico che 15 articoli di blog che non si posizionano per niente. Un fix dei tag title sulle tue 10 migliori pagine prodotto può muovere i ranking in poche settimane. La metrica da ottimizzare è: miglioramento del posizionamento per ora di lavoro, non numero di attività completate.",
           },
           {
             type: "callout",
@@ -636,13 +636,13 @@ export const guidesTaskPlanningT: Record<
         blocks: [
           {
             type: "p",
-            text: "Posiziona ogni attività SEO su una semplice griglia 2x2: impatto su un asse, sforzo sull'altro. Non è un framework complesso — è un meccanismo che ti impedisce di ricadere sulle attività facili che sembrano produttive ma non lo sono.",
+            text: "Posiziona ogni attività SEO su una semplice griglia 2x2: impatto su un asse, sforzo sull'altro. Non è un framework complesso. È un meccanismo che ti impedisce di ricadere sulle attività facili che sembrano produttive ma non lo sono.",
           },
           {
             type: "list",
             items: [
               "Alto impatto + basso sforzo: fallo questa settimana, senza discussioni. Esempi: correggere i tag canonici rotti, aggiungere i tag title mancanti segnalati in GSC, aggiornare gli H1 sulle tue migliori pagine prodotto.",
-              "Alto impatto + alto sforzo: pianificare con le risorse adeguate. Questi sono i tuoi grandi progetti — modifiche all'architettura del sito, creazione di nuove pagine di categoria, costruzione di un cluster di contenuto tematico.",
+              "Alto impatto + alto sforzo: pianificare con le risorse adeguate. Questi sono i tuoi grandi progetti: modifiche all'architettura del sito, creazione di nuove pagine di categoria, costruzione di un cluster di contenuto tematico.",
               "Basso impatto + basso sforzo: raggruppare e pianificare una volta al mese. Compressione delle immagini, aggiunte minori di schema, pulizia dei vecchi redirect.",
               "Basso impatto + alto sforzo: eliminare completamente. Se un'attività richiede 20 ore e non muove niente, non appartiene alla lista.",
             ],
@@ -659,7 +659,7 @@ export const guidesTaskPlanningT: Record<
         blocks: [
           {
             type: "p",
-            text: "I quick win sono reali. Non sono scorciatoie o trucchi — sono attività dove lo sforzo è basso rispetto all'impatto probabile. Prima di pianificare un programma SEO completo, passa una settimana solo sui quick win. Muovono i ranking, dimostrano agli stakeholder che il SEO funziona e ti danno dati per le decisioni più importanti.",
+            text: "I quick win sono reali. Non sono scorciatoie o trucchi, ma attività dove lo sforzo è basso rispetto all'impatto probabile. Prima di pianificare un programma SEO completo, passa una settimana solo sui quick win. Muovono i ranking, dimostrano agli stakeholder che il SEO funziona e ti danno dati per le decisioni più importanti.",
           },
           {
             type: "checklist",
@@ -684,15 +684,15 @@ export const guidesTaskPlanningT: Record<
         blocks: [
           {
             type: "p",
-            text: "Gli sprint di due settimane funzionano bene per il SEO ecommerce. Abbastanza brevi da restare concentrati e abbastanza lunghi da completare lavoro significativo. All'inizio di ogni sprint, definisci 3–5 deliverable concreti — non obiettivi vaghi come 'migliorare il SEO', ma output specifici: 'correggere i tag canonici su 45 pagine di collezione', 'scrivere e pubblicare 3 intro di pagine di categoria', 'costruire 5 link interni dall'homepage alle migliori pagine prodotto'.",
+            text: "Gli sprint di due settimane funzionano bene per il SEO ecommerce. Abbastanza brevi da restare concentrati e abbastanza lunghi da completare lavoro significativo. All'inizio di ogni sprint, definisci 3–5 deliverable concreti. Non obiettivi vaghi come 'migliorare il SEO', ma output specifici: 'correggere i tag canonici su 45 pagine di collezione', 'scrivere e pubblicare 3 intro di pagine di categoria', 'costruire 5 link interni dall'homepage alle migliori pagine prodotto'.",
           },
           {
             type: "p",
-            text: "Alla fine dello sprint, tieni una revisione di 30 minuti. Si sono mossi i ranking? Il traffico è cambiato sulle pagine obiettivo? Cosa ti ha impedito di completare le attività pianificate? La revisione non è celebrazione né attribuzione di colpe — è calibrazione. Le tue stime di sforzo e impatto migliorano significativamente dopo 3–4 sprint.",
+            text: "Alla fine dello sprint, tieni una revisione di 30 minuti. Si sono mossi i ranking? Il traffico è cambiato sulle pagine obiettivo? Cosa ti ha impedito di completare le attività pianificate? La revisione non è celebrazione né attribuzione di colpe, è calibrazione. Le tue stime di sforzo e impatto migliorano significativamente dopo 3–4 sprint.",
           },
           {
             type: "tip",
-            text: "Traccia i tuoi deliverable di sprint in Notion o un Google Sheets condiviso. Tieni un registro continuativo con quattro colonne: Attività, Ipotesi, Data di Completamento e Risultato (verificato 4–6 settimane dopo). Questo diventa la tua base di evidenze SEO — quello a cui punti quando gli stakeholder chiedono 'il SEO sta funzionando davvero?'",
+            text: "Traccia i tuoi deliverable di sprint in Notion o un Google Sheets condiviso. Tieni un registro continuativo con quattro colonne: Attività, Ipotesi, Data di Completamento e Risultato (verificato 4–6 settimane dopo). Questo diventa la tua base di evidenze SEO, quello a cui punti quando gli stakeholder chiedono 'il SEO sta funzionando davvero?'",
           },
           {
             type: "list",
@@ -712,11 +712,11 @@ export const guidesTaskPlanningT: Record<
         blocks: [
           {
             type: "p",
-            text: "Notion, Google Sheets e Linear funzionano tutti per tracciare le attività SEO. Trello funziona anche se il tuo team lo usa già. Lo strumento conta meno della disciplina di usarlo davvero. Ciò che uccide la maggior parte dei programmi SEO non è la mancanza di idee — è fare attività senza registrare l'ipotesi, per poi non avere idea quattro settimane dopo se il lavoro ha prodotto qualche risultato.",
+            text: "Notion, Google Sheets e Linear funzionano tutti per tracciare le attività SEO. Trello funziona anche se il tuo team lo usa già. Lo strumento conta meno della disciplina di usarlo davvero. Ciò che uccide la maggior parte dei programmi SEO non è la mancanza di idee. È fare attività senza registrare l'ipotesi, per poi non avere idea quattro settimane dopo se il lavoro ha prodotto qualche risultato.",
           },
           {
             type: "p",
-            text: "Mantienilo semplice. Un registro delle attività con cinque campi è sufficiente: cosa hai fatto, perché l'hai fatto (l'ipotesi), quando l'hai fatto, quale pagina o sezione ha riguardato, e il risultato. Il campo del risultato rimane vuoto fino a 4–6 settimane dopo il completamento dell'attività — è allora che torni a verificare se i ranking o il traffico si sono mossi.",
+            text: "Mantienilo semplice. Un registro delle attività con cinque campi è sufficiente: cosa hai fatto, perché l'hai fatto (l'ipotesi), quando l'hai fatto, quale pagina o sezione ha riguardato, e il risultato. Il campo del risultato rimane vuoto fino a 4–6 settimane dopo il completamento dell'attività. È allora che torni a verificare se i ranking o il traffico si sono mossi.",
           },
           {
             type: "callout",
@@ -731,20 +731,20 @@ export const guidesTaskPlanningT: Record<
         blocks: [
           {
             type: "p",
-            text: "La sequenza conta nel SEO. Le correzioni tecniche vengono prima perché sono fondamentali — sboccano tutto il resto. Se Google non riesce a scansionare e indicizzare correttamente le tue pagine, nessuna quantità di contenuto o link building migliorerà i tuoi posizionamenti. Dopo il tecnico: on-page — tag title, intestazioni, qualità del contenuto, link interni. Poi creazione di contenuto. Poi link building. Fare link building senza una base tecnica pulita è denaro sprecato.",
+            text: "La sequenza conta nel SEO. Le correzioni tecniche vengono prima perché sbloccano tutto il resto. Se Google non riesce a scansionare e indicizzare correttamente le tue pagine, nessuna quantità di contenuto o link building migliorerà i tuoi posizionamenti. Dopo il tecnico viene l'on-page: tag title, intestazioni, qualità del contenuto, link interni. Poi creazione di contenuto. Poi link building. Fare link building senza una base tecnica pulita è denaro sprecato.",
           },
           {
             type: "list",
             items: [
-              "Fase 1 — Tecnico: scansionabilità, indicizzazione, velocità del sito, tag canonici, dati strutturati. Usare Screaming Frog e il report di Copertura della GSC.",
-              "Fase 2 — On-page: tag title, H1, meta description, struttura di link interni, contenuto scarso. Fare riferimento ai risultati di /guides/on-page-audit.",
-              "Fase 3 — Contenuto: testi di pagine di categoria, guide all'acquisto, sezioni FAQ, contenuto del blog per query informazionali.",
-              "Fase 4 — Link building: solo dopo che le fasi 1–3 sono in buono stato. Vedi /guides/link-building-tactics per sapere da dove iniziare.",
+              "Fase 1, Tecnico: scansionabilità, indicizzazione, velocità del sito, tag canonici, dati strutturati. Usare Screaming Frog e il report di Copertura della GSC.",
+              "Fase 2, On-page: tag title, H1, meta description, struttura di link interni, contenuto scarso. Fare riferimento ai risultati di /guides/on-page-audit.",
+              "Fase 3, Contenuto: testi di pagine di categoria, guide all'acquisto, sezioni FAQ, contenuto del blog per query informazionali.",
+              "Fase 4, Link building: solo dopo che le fasi 1–3 sono in buono stato. Vedi /guides/link-building-tactics per sapere da dove iniziare.",
             ],
           },
           {
             type: "tip",
-            text: "Imposta un promemoria sul calendario ogni 3 mesi per un mini audit. Estrai dati GSC aggiornati, controlla le tue 20 pagine meglio posizionate, lancia di nuovo Screaming Frog e controlla il tuo profilo di backlink in Ahrefs. I ranking cambiano, i concorrenti aggiornano i loro siti, arrivano aggiornamenti dell'algoritmo. Il ciclo completo di audit da /guides/fundamentals a /guides/off-page-audit non è mai davvero finito — è un loop. Integralo nella tua pianificazione fin dal primo giorno.",
+            text: "Imposta un promemoria sul calendario ogni 3 mesi per un mini audit. Estrai dati GSC aggiornati, controlla le tue 20 pagine meglio posizionate, lancia di nuovo Screaming Frog e controlla il tuo profilo di backlink in Ahrefs. I ranking cambiano, i concorrenti aggiornano i loro siti, arrivano aggiornamenti dell'algoritmo. Il ciclo completo di audit da /guides/fundamentals a /guides/off-page-audit non è mai davvero finito. È un loop. Integralo nella tua pianificazione fin dal primo giorno.",
           },
           {
             type: "p",
@@ -771,7 +771,7 @@ export const guidesTaskPlanningT: Record<
           },
           {
             type: "p",
-            text: "Een technische fix die 30 categoriepagina's correct indexeert doet meer voor je traffic dan 15 blogartikelen die nergens op ranken. Een fix van titeltags op je 10 beste productpagina's kan rankings binnen weken verplaatsen. De metriek die je moet optimaliseren is: verbetering van ranking per uur inspanning — niet het aantal afgeronde taken.",
+            text: "Een technische fix die 30 categoriepagina's correct indexeert doet meer voor je traffic dan 15 blogartikelen die nergens op ranken. Een fix van titeltags op je 10 beste productpagina's kan rankings binnen weken verplaatsen. De metriek die je moet optimaliseren is: verbetering van ranking per uur inspanning, niet het aantal afgeronde taken.",
           },
           {
             type: "callout",
@@ -786,13 +786,13 @@ export const guidesTaskPlanningT: Record<
         blocks: [
           {
             type: "p",
-            text: "Zet elke SEO-taak in een eenvoudig 2x2-raster: impact op de ene as, inspanning op de andere. Dit is geen complex framework — het is een mechanisme dat je belet standaard te kiezen voor gemakkelijke taken die productief voelen maar het niet zijn.",
+            text: "Zet elke SEO-taak in een eenvoudig 2x2-raster: impact op de ene as, inspanning op de andere. Dit is geen complex framework. Het is een mechanisme dat je belet standaard te kiezen voor gemakkelijke taken die productief voelen maar het niet zijn.",
           },
           {
             type: "list",
             items: [
               "Hoge impact + lage inspanning: doe dit deze week, geen discussie. Voorbeelden: kapotte canonical-tags oplossen, ontbrekende titeltags toevoegen die in GSC zijn gemarkeerd, H1s bijwerken op je beste productpagina's.",
-              "Hoge impact + hoge inspanning: inplannen met de juiste middelen. Dit zijn je grote projecten — wijzigingen in de sitestructuur, nieuwe categoriepagina's aanmaken, een thematische contentcluster opbouwen.",
+              "Hoge impact + hoge inspanning: inplannen met de juiste middelen. Dit zijn je grote projecten: wijzigingen in de sitestructuur, nieuwe categoriepagina's aanmaken, een thematische contentcluster opbouwen.",
               "Lage impact + lage inspanning: bundelen en één keer per maand inplannen. Beeldcompressie, kleine schema-toevoegingen, opschonen van oude omleidingen.",
               "Lage impact + hoge inspanning: volledig schrappen. Als een taak 20 uur kost en niets beweegt, hoort het niet op de lijst.",
             ],
@@ -809,7 +809,7 @@ export const guidesTaskPlanningT: Record<
         blocks: [
           {
             type: "p",
-            text: "Quick wins zijn echt. Het zijn geen snelkoppelingen of trucs — het zijn taken waarbij de inspanning laag is ten opzichte van de waarschijnlijke impact. Voordat je een volledig SEO-programma plant, besteed dan één week uitsluitend aan quick wins. Ze bewegen rankings, laten stakeholders zien dat SEO werkt en geven je data voor je grotere beslissingen.",
+            text: "Quick wins zijn echt. Het zijn geen snelkoppelingen of trucs, maar taken waarbij de inspanning laag is ten opzichte van de waarschijnlijke impact. Voordat je een volledig SEO-programma plant, besteed dan één week uitsluitend aan quick wins. Ze bewegen rankings, laten stakeholders zien dat SEO werkt en geven je data voor je grotere beslissingen.",
           },
           {
             type: "checklist",
@@ -834,15 +834,15 @@ export const guidesTaskPlanningT: Record<
         blocks: [
           {
             type: "p",
-            text: "Sprints van twee weken werken goed voor ecommerce-SEO. Kort genoeg om gefocust te blijven en lang genoeg om zinvol werk af te ronden. Definieer aan het begin van elke sprint 3–5 concrete deliverables — geen vage doelen zoals 'SEO verbeteren', maar specifieke outputs: 'canonical-tags op 45 collectiepagina's oplossen', '3 categoriepagina-intro's schrijven en publiceren', '5 interne links bouwen van de homepage naar de beste productpagina's'.",
+            text: "Sprints van twee weken werken goed voor ecommerce-SEO. Kort genoeg om gefocust te blijven en lang genoeg om zinvol werk af te ronden. Definieer aan het begin van elke sprint 3–5 concrete deliverables. Geen vage doelen zoals 'SEO verbeteren', maar specifieke outputs: 'canonical-tags op 45 collectiepagina's oplossen', '3 categoriepagina-intro's schrijven en publiceren', '5 interne links bouwen van de homepage naar de beste productpagina's'.",
           },
           {
             type: "p",
-            text: "Houd aan het einde van de sprint een review van 30 minuten. Zijn de rankings bewogen? Is het verkeer op de doelgerichte pagina's veranderd? Wat heeft je belet de geplande taken te voltooien? De review is geen viering of schuldvraag — het is kalibratie. Je schattingen van inspanning en impact verbeteren aanzienlijk na 3–4 sprints.",
+            text: "Houd aan het einde van de sprint een review van 30 minuten. Zijn de rankings bewogen? Is het verkeer op de doelgerichte pagina's veranderd? Wat heeft je belet de geplande taken te voltooien? De review is geen viering of schuldvraag, het is kalibratie. Je schattingen van inspanning en impact verbeteren aanzienlijk na 3–4 sprints.",
           },
           {
             type: "tip",
-            text: "Houd je sprint-deliverables bij in Notion of een gedeeld Google Sheets-document. Houd een doorlopend logboek bij met vier kolommen: Taak, Hypothese, Datum Voltooid en Resultaat (4–6 weken later gecontroleerd). Dit wordt je SEO-bewijs-basis — hetgeen je aanwijst wanneer stakeholders vragen 'werkt SEO eigenlijk?'",
+            text: "Houd je sprint-deliverables bij in Notion of een gedeeld Google Sheets-document. Houd een doorlopend logboek bij met vier kolommen: Taak, Hypothese, Datum Voltooid en Resultaat (4–6 weken later gecontroleerd). Dit wordt je SEO-bewijsbasis, het ding dat je aanwijst wanneer stakeholders vragen 'werkt SEO eigenlijk?'",
           },
           {
             type: "list",
@@ -862,7 +862,7 @@ export const guidesTaskPlanningT: Record<
         blocks: [
           {
             type: "p",
-            text: "Notion, Google Sheets en Linear werken allemaal voor het bijhouden van SEO-taken. Trello werkt ook als je team het al gebruikt. Het gereedschap telt minder dan de discipline om het daadwerkelijk te gebruiken. Wat de meeste SEO-programma's om zeep helpt, is niet een gebrek aan ideeën — het is taken uitvoeren zonder de hypothese vast te leggen, en dan vier weken later geen idee hebben of het werk enig resultaat heeft opgeleverd.",
+            text: "Notion, Google Sheets en Linear werken allemaal voor het bijhouden van SEO-taken. Trello werkt ook als je team het al gebruikt. Het gereedschap telt minder dan de discipline om het daadwerkelijk te gebruiken. Wat de meeste SEO-programma's om zeep helpt, is niet een gebrek aan ideeën. Het is taken uitvoeren zonder de hypothese vast te leggen, en dan vier weken later geen idee hebben of het werk enig resultaat heeft opgeleverd.",
           },
           {
             type: "p",

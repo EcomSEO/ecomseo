@@ -9,11 +9,11 @@ export const guidesOnPageAuditT: Record<
     sections: [
       {
         id: "category-pages",
-        title: "Category Pages: Your Most Valuable Ranking Assets",
+        title: "Category Pages: The Ranking Assets That Actually Matter",
         blocks: [
           {
             type: "p",
-            text: "Most ecommerce SEO audits fixate on product pages. That's the wrong priority. Category pages rank for the high-volume, high-intent terms that actually move revenue — 'women's running shoes', 'leather sofas', 'gaming laptops under £1000'. A well-optimised category page is worth more than 50 well-optimised product pages.",
+            text: "Most ecommerce SEO audits fixate on product pages. That's the wrong priority. Category pages rank for the high-volume, high-intent terms that actually move revenue: 'women's running shoes', 'leather sofas', 'gaming laptops under £1000'. A well-optimised category page is worth more than 50 well-optimised product pages.",
           },
           {
             type: "p",
@@ -22,7 +22,7 @@ export const guidesOnPageAuditT: Record<
           {
             type: "callout",
             title: "The category page audit checklist",
-            text: "Every category page needs: a unique H1 containing the primary keyword, 150–300 words of genuine introductory content placed above the product grid (not buried below — Google often stops reading at the fold on paginated pages), a unique title tag with a primary keyword and modifier (e.g. 'Women's Running Shoes | Free Shipping & Returns'), and a meta description that differentiates the page from competitors.",
+            text: "Every category page needs: a unique H1 containing the primary keyword, 150–300 words of genuine introductory content placed above the product grid (not buried below, because Google often stops reading at the fold on paginated pages), a unique title tag with a primary keyword and modifier (e.g. 'Women's Running Shoes | Free Shipping & Returns'), and a meta description that differentiates the page from competitors.",
           },
           {
             type: "p",
@@ -30,13 +30,13 @@ export const guidesOnPageAuditT: Record<
           },
           {
             type: "tip",
-            text: "Run your category pages through Ahrefs' or Google Search Console's performance data. Sort by impressions, not clicks. Pages with high impressions and low CTR usually have weak title tags — they appear in results but don't attract clicks. Rewriting the title tag and meta description is often the fastest win in an on-page audit.",
+            text: "Run your category pages through Ahrefs' or Google Search Console's performance data. Sort by impressions, not clicks. Pages with high impressions and low CTR usually have weak title tags; they appear in results but don't attract clicks. Rewriting the title tag and meta description is often the fastest win in an on-page audit.",
           },
         ],
       },
       {
         id: "product-page-audit",
-        title: "Product Page Audit: The Details That Separate Good from Great",
+        title: "Product Page Audit: Getting the Basics Right",
         blocks: [
           {
             type: "p",
@@ -45,10 +45,10 @@ export const guidesOnPageAuditT: Record<
           {
             type: "list",
             items: [
-              "Title tag: [Product Name] + [Key Attribute] + [Brand] — keep it under 60 characters. Avoid generic titles like 'Blue Trainer | Our Store'. Prefer 'Nike Air Zoom Pegasus 41 | Men's Running Shoe'.",
+              "Title tag: [Product Name] + [Key Attribute] + [Brand], kept under 60 characters. Avoid generic titles like 'Blue Trainer | Our Store'. Prefer 'Nike Air Zoom Pegasus 41 | Men's Running Shoe'.",
               "Description: write it yourself. Manufacturer copy is used by every reseller on the internet. Google identifies it and filters your page to the supplemental index. Your description should cover fit, material, use case, and anything the product images don't show.",
               "H1: the product name, exactly as a customer would search for it. One H1 per page. Do not use the H1 for decorative headings like 'You may also like'.",
-              "Image alt text: product name + key attribute. Not 'image1.jpg'. Not 'product photo'. If the image shows a navy blue wool coat, the alt text is 'Navy Blue Wool Coat — Front View'.",
+              "Image alt text: product name + key attribute. Not 'image1.jpg'. Not 'product photo'. If the image shows a navy blue wool coat, the alt text is 'Navy Blue Wool Coat, Front View'.",
             ],
           },
           {
@@ -63,15 +63,15 @@ export const guidesOnPageAuditT: Record<
         blocks: [
           {
             type: "p",
-            text: "Heading hierarchy sounds trivial. On real ecommerce sites, it is almost always wrong. The most common pattern: the product or category name is in an H2 because a developer styled it that way, decorative sections like 'You May Also Like' use H2, and the page ends up with multiple H1s or none at all.",
+            text: "Heading hierarchy sounds trivial. On real ecommerce sites, it is almost always wrong. The most common pattern: the product or category name sits in an H2 because a developer styled it that way, decorative sections like 'You May Also Like' use H2, and the page ends up with multiple H1s or none at all.",
           },
           {
             type: "p",
-            text: "The rule is simple: one H1 per page, containing the primary keyword, matching what a user would type into Google. H2s are for main content sections — specifications, sizing information, materials, FAQ. H3s are for supporting points within those sections. Headings like 'Related Products', 'Customer Reviews', and 'Frequently Bought Together' should be styled as regular text or at most an H3 — they are navigation elements, not content structure.",
+            text: "The rule is simple: one H1 per page, containing the primary keyword, matching what a user would type into Google. H2s are for main content sections like specifications, sizing information, materials, and FAQ. H3s are for supporting points within those sections. Headings like 'Related Products', 'Customer Reviews', and 'Frequently Bought Together' should be styled as regular text or at most an H3, because they are navigation elements, not content structure.",
           },
           {
             type: "tip",
-            text: "Use Screaming Frog's 'H1' report to find pages with missing H1s, duplicate H1s, or H1s that don't match the page title. On most stores this surfaces 30–40% of pages with at least one heading issue. Fix the category and top product pages first — those have the most ranking impact.",
+            text: "Use Screaming Frog's 'H1' report to find pages with missing H1s, duplicate H1s, or H1s that don't match the page title. On most stores this surfaces 30–40% of pages with at least one heading issue. Fix the category and top product pages first, since those have the most ranking impact.",
           },
         ],
       },
@@ -81,11 +81,11 @@ export const guidesOnPageAuditT: Record<
         blocks: [
           {
             type: "p",
-            text: "A page with under 200 words of real content is thin. Not always a problem — a product page for a single commodity item with a clear image, accurate specs, and solid reviews can rank fine with minimal prose. But at scale, across hundreds or thousands of product pages, thin content degrades domain-level quality signals.",
+            text: "A page with under 200 words of real content is thin. That's not always a problem. A product page for a single commodity item with a clear image, accurate specs, and good reviews can rank fine with minimal prose. But at scale, across hundreds or thousands of product pages, thin content degrades domain-level quality signals.",
           },
           {
             type: "p",
-            text: "Google's quality algorithms evaluate sites holistically. If 60% of your indexed pages are thin product pages with no descriptions, duplicated titles, and no reviews, it pulls down the perceived quality of the entire domain — including your well-optimised category pages. The solution for large catalogs is not to write unique descriptions for 3,000 products overnight. It is to decide which pages deserve to be indexed at all.",
+            text: "Google's quality algorithms evaluate sites holistically. If 60% of your indexed pages are thin product pages with no descriptions, duplicated titles, and no reviews, that pulls down the perceived quality of the entire domain, including your well-optimised category pages. The solution for large catalogs is not to write unique descriptions for 3,000 products overnight. It is to decide which pages deserve to be indexed at all.",
           },
           {
             type: "callout",
@@ -94,13 +94,13 @@ export const guidesOnPageAuditT: Record<
           },
           {
             type: "p",
-            text: "For mid-tier products — products worth keeping indexed but currently thin — a structured template works better than trying to write fully bespoke descriptions. A consistent format covering: what it is, who it is for, key dimensions or specs, care instructions or compatibility, and one differentiated selling point. Three to four sentences per section. This turns a 0-word product page into a 150-word page that passes Google's quality threshold without requiring a copywriter for every SKU.",
+            text: "For mid-tier products (worth keeping indexed but currently thin), a structured template works better than trying to write fully bespoke descriptions. A consistent format covering: what it is, who it is for, key dimensions or specs, care instructions or compatibility, and one differentiated selling point. Three to four sentences per section. This turns a 0-word product page into a 150-word page that passes Google's quality threshold without requiring a copywriter for every SKU.",
           },
         ],
       },
       {
         id: "internal-linking",
-        title: "Internal Linking: The Architecture That Makes Rankings Flow",
+        title: "Internal Linking: How PageRank Moves Through Your Site",
         blocks: [
           {
             type: "p",
@@ -108,11 +108,11 @@ export const guidesOnPageAuditT: Record<
           },
           {
             type: "p",
-            text: "Most ecommerce sites have reasonable product-to-category linking built into the breadcrumb. The gaps are almost always: category pages that don't link to sub-categories, blog posts that link to nothing, and product pages that have no 'related products' anchor-text links — only image-based links that carry no keyword signal.",
+            text: "Most ecommerce sites have reasonable product-to-category linking built into the breadcrumb. The gaps are almost always: category pages that don't link to sub-categories, blog posts that link to nothing, and product pages that have no 'related products' anchor-text links, just image-based links that carry no keyword signal.",
           },
           {
             type: "tip",
-            text: "Run Screaming Frog on your full site and use the 'Inlinks' report to find pages with very few internal links pointing to them. These are orphaned or near-orphaned pages — Google sees them rarely, crawls them infrequently, and ranks them poorly even if the content is good. Add them to relevant category pages or blog posts with descriptive anchor text.",
+            text: "Run Screaming Frog on your full site and use the 'Inlinks' report to find pages with very few internal links pointing to them. These are orphaned or near-orphaned pages. Google sees them rarely, crawls them infrequently, and ranks them poorly even if the content is good. Add them to relevant category pages or blog posts with descriptive anchor text.",
           },
           {
             type: "list",
@@ -120,7 +120,7 @@ export const guidesOnPageAuditT: Record<
               "Category pages: link to at least 3–5 relevant sub-categories if they exist, and to 3–5 featured products with keyword-rich anchor text",
               "Product pages: breadcrumb link back to category (required), 3–5 related products with descriptive anchor text (not 'view similar')",
               "Blog posts: identify the 1–3 most relevant product or category pages and link to them naturally in the body text with specific anchor text",
-              "Homepage: link to your top 5–8 category pages with exact-match or near-match anchor text — this is the highest-PageRank page on the site",
+              "Homepage: link to your top 5–8 category pages with exact-match or near-match anchor text, since this is the highest-PageRank page on the site",
             ],
           },
         ],
@@ -135,19 +135,19 @@ export const guidesOnPageAuditT: Record<
           },
           {
             type: "p",
-            text: "Duplicate title tags tell Google the pages have the same content and purpose. Google will often canonicalize one version arbitrarily — not necessarily the version you want. The result is unpredictable ranking behavior and split link equity. For pages that should be indexed (category pages, key product pages), unique titles are non-negotiable.",
+            text: "Duplicate title tags tell Google the pages have the same content and purpose. Google will often canonicalize one version arbitrarily, and not necessarily the version you want. The result is unpredictable ranking behavior and split link equity. For pages that should be indexed (category pages, key product pages), unique titles are non-negotiable.",
           },
           {
             type: "callout",
             title: "Finding duplicates fast",
-            text: "Screaming Frog's 'Page Titles' report has a 'Duplicate' filter built in — it takes 5 minutes to run and surfaces every duplicated title across the site. Google Search Console's HTML improvements report catches many of the same issues. Cross-reference both. Pay particular attention to near-duplicates: titles that are identical except for a page number or a filter parameter appended to the end.",
+            text: "Screaming Frog's 'Page Titles' report has a built-in 'Duplicate' filter. It takes 5 minutes to run and surfaces every duplicated title across the site. Google Search Console's HTML improvements report catches many of the same issues. Cross-reference both. Pay particular attention to near-duplicates: titles that are identical except for a page number or a filter parameter appended to the end.",
           },
           {
             type: "checklist",
             items: [
               "Run Screaming Frog and filter the title report by 'Duplicate'",
               "Check GSC HTML improvements for duplicate titles and meta descriptions",
-              "Ensure paginated pages have unique titles (e.g. 'Women's Running Shoes — Page 2 | Brand') or use noindex on pages 2+",
+              "Ensure paginated pages have unique titles (e.g. 'Women's Running Shoes - Page 2 | Brand') or use noindex on pages 2+",
               "Ensure filter URLs either have unique titles or are canonicalized / noindexed",
               "Verify product variants have canonical tags so they don't compete with the main product URL on title",
               "After fixing, monitor GSC for improvements in impressions and average position over 60–90 days",
@@ -174,11 +174,11 @@ export const guidesOnPageAuditT: Record<
     sections: [
       {
         id: "category-pages",
-        title: "Kategorieseiten: Deine wertvollsten Ranking-Assets",
+        title: "Kategorieseiten: Die Ranking-Assets, die wirklich zählen",
         blocks: [
           {
             type: "p",
-            text: "Die meisten E-Commerce-SEO-Audits konzentrieren sich auf Produktseiten. Das ist die falsche Priorität. Kategorieseiten ranken für die suchvolumenstarken, kaufabsichtsklaren Keywords, die tatsächlich Umsatz bringen — 'Damen-Laufschuhe', 'Ledersofa', 'Gaming-Laptop unter 1000 Euro'. Eine gut optimierte Kategorieseite ist mehr wert als 50 gut optimierte Produktseiten.",
+            text: "Die meisten E-Commerce-SEO-Audits konzentrieren sich auf Produktseiten. Das ist die falsche Priorität. Kategorieseiten ranken für die suchvolumenstarken, kaufabsichtsklaren Keywords, die tatsächlich Umsatz bringen: 'Damen-Laufschuhe', 'Ledersofa', 'Gaming-Laptop unter 1000 Euro'. Eine gut optimierte Kategorieseite ist mehr wert als 50 gut optimierte Produktseiten.",
           },
           {
             type: "p",
@@ -187,7 +187,7 @@ export const guidesOnPageAuditT: Record<
           {
             type: "callout",
             title: "Die Kategorieseiten-Audit-Checkliste",
-            text: "Jede Kategorieseite braucht: ein einzigartiges H1 mit dem Haupt-Keyword, 150–300 Wörter echter Einleitungstext über dem Produktraster (nicht darunter — Google liest auf paginierten Seiten oft nur bis zum Fold), einen einzigartigen Title-Tag mit Haupt-Keyword und Modifier (z. B. 'Damen-Laufschuhe | Kostenloser Versand & Rückgabe') und eine Meta-Description, die die Seite von Konkurrenten abhebt.",
+            text: "Jede Kategorieseite braucht: ein einzigartiges H1 mit dem Haupt-Keyword, 150–300 Wörter echter Einleitungstext über dem Produktraster (nicht darunter, denn Google liest auf paginierten Seiten oft nur bis zum Fold), einen einzigartigen Title-Tag mit Haupt-Keyword und Modifier (z. B. 'Damen-Laufschuhe | Kostenloser Versand & Rückgabe') und eine Meta-Description, die die Seite von Konkurrenten abhebt.",
           },
           {
             type: "p",
@@ -195,13 +195,13 @@ export const guidesOnPageAuditT: Record<
           },
           {
             type: "tip",
-            text: "Prüfe deine Kategorieseiten in den Performance-Daten von Ahrefs oder der Google Search Console. Sortiere nach Impressionen, nicht nach Klicks. Seiten mit hohen Impressionen und niedriger CTR haben meist schwache Title-Tags — sie erscheinen in den Ergebnissen, ziehen aber keine Klicks an. Den Title-Tag und die Meta-Description zu überarbeiten ist oft der schnellste Gewinn in einem On-Page-Audit.",
+            text: "Prüfe deine Kategorieseiten in den Performance-Daten von Ahrefs oder der Google Search Console. Sortiere nach Impressionen, nicht nach Klicks. Seiten mit hohen Impressionen und niedriger CTR haben meist schwache Title-Tags; sie erscheinen in den Ergebnissen, ziehen aber keine Klicks an. Den Title-Tag und die Meta-Description zu überarbeiten ist oft der schnellste Gewinn in einem On-Page-Audit.",
           },
         ],
       },
       {
         id: "product-page-audit",
-        title: "Produktseiten-Audit: Die Details, die Gutes von Sehr Gutem trennen",
+        title: "Produktseiten-Audit: Die Grundlagen richtig umsetzen",
         blocks: [
           {
             type: "p",
@@ -210,10 +210,10 @@ export const guidesOnPageAuditT: Record<
           {
             type: "list",
             items: [
-              "Title-Tag: [Produktname] + [Schlüsselattribut] + [Marke] — unter 60 Zeichen. Vermeide generische Titel wie 'Blauer Sneaker | Unser Shop'. Besser: 'Nike Air Zoom Pegasus 41 | Herren-Laufschuh'.",
+              "Title-Tag: [Produktname] + [Schlüsselattribut] + [Marke], unter 60 Zeichen. Vermeide generische Titel wie 'Blauer Sneaker | Unser Shop'. Besser: 'Nike Air Zoom Pegasus 41 | Herren-Laufschuh'.",
               "Description: selbst schreiben. Hersteller-Texte werden von jedem Händler im Internet verwendet. Google erkennt das und filtert deine Seite heraus. Deine Description sollte Passform, Material, Anwendungsfall und Aspekte abdecken, die die Produktfotos nicht zeigen.",
               "H1: der Produktname, genau so wie ein Kunde danach suchen würde. Ein H1 pro Seite. Verwende das H1 nicht für dekorative Überschriften wie 'Das könnte dir gefallen'.",
-              "Bild-Alt-Text: Produktname + Schlüsselattribut. Nicht 'image1.jpg'. Nicht 'Produktfoto'. Wenn das Bild einen marine-blauen Wollmantel zeigt, lautet der Alt-Text 'Marineblauer Wollmantel — Vorderansicht'.",
+              "Bild-Alt-Text: Produktname + Schlüsselattribut. Nicht 'image1.jpg'. Nicht 'Produktfoto'. Wenn das Bild einen marine-blauen Wollmantel zeigt, lautet der Alt-Text 'Marineblauer Wollmantel, Vorderansicht'.",
             ],
           },
           {
@@ -232,11 +232,11 @@ export const guidesOnPageAuditT: Record<
           },
           {
             type: "p",
-            text: "Die Regel ist einfach: ein H1 pro Seite, mit dem Haupt-Keyword, das dem entspricht, was ein Nutzer in Google eintippen würde. H2s sind für Haupt-Content-Bereiche — Spezifikationen, Größeninfo, Materialien, FAQ. H3s für unterstützende Punkte innerhalb dieser Bereiche. Überschriften wie 'Ähnliche Produkte', 'Kundenbewertungen' und 'Häufig zusammen gekauft' sollten als normaler Text oder höchstens als H3 gestylt werden.",
+            text: "Die Regel ist einfach: ein H1 pro Seite, mit dem Haupt-Keyword, das dem entspricht, was ein Nutzer in Google eintippen würde. H2s sind für Haupt-Content-Bereiche wie Spezifikationen, Größeninfo, Materialien und FAQ. H3s für unterstützende Punkte innerhalb dieser Bereiche. Überschriften wie 'Ähnliche Produkte', 'Kundenbewertungen' und 'Häufig zusammen gekauft' sollten als normaler Text oder höchstens als H3 gestylt werden.",
           },
           {
             type: "tip",
-            text: "Nutze Screaming Frogs 'H1'-Bericht, um Seiten ohne H1, mit doppelten H1s oder mit H1s zu finden, die nicht mit dem Seitentitel übereinstimmen. Bei den meisten Shops zeigt das bei 30–40 % der Seiten mindestens ein Überschriften-Problem. Beginne mit Kategorie- und Top-Produktseiten — die haben den größten Ranking-Einfluss.",
+            text: "Nutze Screaming Frogs 'H1'-Bericht, um Seiten ohne H1, mit doppelten H1s oder mit H1s zu finden, die nicht mit dem Seitentitel übereinstimmen. Bei den meisten Shops zeigt das bei 30–40 % der Seiten mindestens ein Überschriften-Problem. Beginne mit Kategorie- und Top-Produktseiten, denn die haben den größten Ranking-Einfluss.",
           },
         ],
       },
@@ -246,11 +246,11 @@ export const guidesOnPageAuditT: Record<
         blocks: [
           {
             type: "p",
-            text: "Eine Seite mit unter 200 Wörtern echtem Content ist dünn. Das ist nicht immer ein Problem — eine Produktseite für ein einfaches Commodity-Produkt mit klarem Bild, korrekten Specs und soliden Bewertungen kann auch mit wenig Fließtext gut ranken. Aber im großen Maßstab, über Hunderte oder Tausende Produktseiten, verschlechtert dünner Content die Domain-weiten Qualitätssignale.",
+            text: "Eine Seite mit unter 200 Wörtern echtem Content ist dünn. Das ist nicht immer ein Problem. Eine Produktseite für ein einfaches Commodity-Produkt mit klarem Bild, korrekten Specs und guten Bewertungen kann auch mit wenig Fließtext gut ranken. Aber im großen Maßstab, über Hunderte oder Tausende Produktseiten, verschlechtert dünner Content die Domain-weiten Qualitätssignale.",
           },
           {
             type: "p",
-            text: "Googles Qualitätsalgorithmen bewerten Websites ganzheitlich. Wenn 60 % deiner indexierten Seiten dünne Produktseiten ohne Beschreibung, duplizierten Titeln und keinen Bewertungen sind, zieht das die wahrgenommene Qualität der gesamten Domain nach unten — einschließlich deiner gut optimierten Kategorieseiten. Die Lösung für große Kataloge ist nicht, über Nacht einzigartige Beschreibungen für 3.000 Produkte zu schreiben. Die Lösung ist zu entscheiden, welche Seiten überhaupt indexiert werden sollten.",
+            text: "Googles Qualitätsalgorithmen bewerten Websites ganzheitlich. Wenn 60 % deiner indexierten Seiten dünne Produktseiten ohne Beschreibung, duplizierten Titeln und keinen Bewertungen sind, zieht das die wahrgenommene Qualität der gesamten Domain nach unten, einschließlich deiner gut optimierten Kategorieseiten. Die Lösung für große Kataloge ist nicht, über Nacht einzigartige Beschreibungen für 3.000 Produkte zu schreiben. Die Lösung ist zu entscheiden, welche Seiten überhaupt indexiert werden sollten.",
           },
           {
             type: "callout",
@@ -259,13 +259,13 @@ export const guidesOnPageAuditT: Record<
           },
           {
             type: "p",
-            text: "Für mittlere Produkte — indexierungswürdig, aber aktuell dünn — funktioniert ein strukturiertes Template besser als der Versuch, vollständig individuelle Beschreibungen zu schreiben. Ein konsistentes Format: was es ist, für wen es geeignet ist, Schlüsselmaße oder Spezifikationen, Pflegehinweise oder Kompatibilität, und ein differenzierendes Verkaufsargument. Drei bis vier Sätze pro Abschnitt reichen, um eine 0-Wörter-Produktseite in eine 150-Wörter-Seite zu verwandeln, die Googles Qualitätsschwelle überschreitet.",
+            text: "Für mittlere Produkte (indexierungswürdig, aber aktuell dünn) funktioniert ein strukturiertes Template besser als der Versuch, vollständig individuelle Beschreibungen zu schreiben. Ein konsistentes Format: was es ist, für wen es geeignet ist, Schlüsselmaße oder Spezifikationen, Pflegehinweise oder Kompatibilität, und ein differenzierendes Verkaufsargument. Drei bis vier Sätze pro Abschnitt reichen, um eine 0-Wörter-Produktseite in eine 150-Wörter-Seite zu verwandeln, die Googles Qualitätsschwelle überschreitet.",
           },
         ],
       },
       {
         id: "internal-linking",
-        title: "Interne Verlinkung: Die Architektur, die Rankings fließen lässt",
+        title: "Interne Verlinkung: So verteilt sich PageRank auf deiner Website",
         blocks: [
           {
             type: "p",
@@ -273,11 +273,11 @@ export const guidesOnPageAuditT: Record<
           },
           {
             type: "p",
-            text: "Die meisten Onlineshops haben eine vernünftige Produkt-zu-Kategorie-Verlinkung in den Breadcrumbs. Die Lücken sind fast immer: Kategorieseiten, die nicht auf Unterkategorien verlinken, Blogartikel ohne jegliche Links, und Produktseiten ohne 'Ähnliche Produkte'-Ankertext-Links — nur bildbasierte Links ohne Keyword-Signal.",
+            text: "Die meisten Onlineshops haben eine vernünftige Produkt-zu-Kategorie-Verlinkung in den Breadcrumbs. Die Lücken sind fast immer: Kategorieseiten, die nicht auf Unterkategorien verlinken, Blogartikel ohne jegliche Links, und Produktseiten ohne 'Ähnliche Produkte'-Ankertext-Links, nur bildbasierte Links ohne Keyword-Signal.",
           },
           {
             type: "tip",
-            text: "Lass Screaming Frog deinen gesamten Shop crawlen und nutze den 'Inlinks'-Bericht, um Seiten mit sehr wenigen internen Links zu finden. Das sind verwaiste oder nahezu verwaiste Seiten — Google sieht sie selten, crawlt sie unregelmäßig und rankt sie schlecht, selbst wenn der Content gut ist. Füge sie zu relevanten Kategorieseiten oder Blogartikeln mit beschreibenden Ankertexten hinzu.",
+            text: "Lass Screaming Frog deinen gesamten Shop crawlen und nutze den 'Inlinks'-Bericht, um Seiten mit sehr wenigen internen Links zu finden. Das sind verwaiste oder nahezu verwaiste Seiten. Google sieht sie selten, crawlt sie unregelmäßig und rankt sie schlecht, selbst wenn der Content gut ist. Füge sie zu relevanten Kategorieseiten oder Blogartikeln mit beschreibenden Ankertexten hinzu.",
           },
           {
             type: "list",
@@ -285,7 +285,7 @@ export const guidesOnPageAuditT: Record<
               "Kategorieseiten: Verlinkung auf mindestens 3–5 relevante Unterkategorien (wenn vorhanden) und auf 3–5 Hauptprodukte mit keyword-reichem Ankertext",
               "Produktseiten: Breadcrumb-Link zur Kategorie (Pflicht), 3–5 verwandte Produkte mit beschreibendem Ankertext (nicht 'Ähnliche Produkte anzeigen')",
               "Blogartikel: die 1–3 relevantesten Produkt- oder Kategorieseiten identifizieren und im Fließtext mit spezifischem Ankertext natürlich verlinken",
-              "Startseite: auf deine Top-5–8-Kategorieseiten mit Exact-Match- oder Near-Match-Ankertext verlinken — das ist die PageRank-stärkste Seite der gesamten Website",
+              "Startseite: auf deine Top-5–8-Kategorieseiten mit Exact-Match- oder Near-Match-Ankertext verlinken, denn das ist die PageRank-stärkste Seite der gesamten Website",
             ],
           },
         ],
@@ -300,12 +300,12 @@ export const guidesOnPageAuditT: Record<
           },
           {
             type: "p",
-            text: "Doppelte Title-Tags signalisieren Google, dass die Seiten denselben Inhalt und Zweck haben. Google wird oft willkürlich eine Version kanonisieren — nicht notwendigerweise die, die du möchtest. Das Ergebnis ist unvorhersehbares Ranking-Verhalten und gespaltene Link-Equity. Für indexierungswürdige Seiten sind einzigartige Titel nicht verhandelbar.",
+            text: "Doppelte Title-Tags signalisieren Google, dass die Seiten denselben Inhalt und Zweck haben. Google wird oft willkürlich eine Version kanonisieren, und nicht unbedingt die, die du möchtest. Das Ergebnis ist unvorhersehbares Ranking-Verhalten und gespaltene Link-Equity. Für indexierungswürdige Seiten sind einzigartige Titel nicht verhandelbar.",
           },
           {
             type: "callout",
             title: "Duplikate schnell finden",
-            text: "Screaming Frogs 'Page Titles'-Bericht hat einen eingebauten 'Duplicate'-Filter — es dauert 5 Minuten, ihn auszuführen, und er zeigt jeden duplizierten Titel. Googles HTML-Verbesserungsbericht in der Search Console deckt viele derselben Probleme auf. Beide cross-referenzieren. Besonders auf Quasi-Duplikate achten: Titel, die identisch sind, außer einer angehängten Seitenzahl oder einem Filterparameter.",
+            text: "Screaming Frogs 'Page Titles'-Bericht hat einen eingebauten 'Duplicate'-Filter. Es dauert 5 Minuten, ihn auszuführen, und er zeigt jeden duplizierten Titel. Googles HTML-Verbesserungsbericht in der Search Console deckt viele derselben Probleme auf. Beide cross-referenzieren. Besonders auf Quasi-Duplikate achten: Titel, die identisch sind, außer einer angehängten Seitenzahl oder einem Filterparameter.",
           },
           {
             type: "checklist",
@@ -339,11 +339,11 @@ export const guidesOnPageAuditT: Record<
     sections: [
       {
         id: "category-pages",
-        title: "Pages de catégorie : vos atouts de classement les plus précieux",
+        title: "Pages de catégorie : les pages qui comptent vraiment pour le SEO",
         blocks: [
           {
             type: "p",
-            text: "La plupart des audits SEO e-commerce se focalisent sur les pages produit. C'est la mauvaise priorité. Les pages de catégorie se positionnent sur les termes à fort volume et forte intention d'achat qui génèrent réellement du chiffre d'affaires — 'chaussures de running femme', 'canapé cuir', 'laptop gaming moins de 1000 €'. Une page de catégorie bien optimisée vaut plus que 50 pages produit bien optimisées.",
+            text: "La plupart des audits SEO e-commerce se focalisent sur les pages produit. C'est la mauvaise priorité. Les pages de catégorie se positionnent sur les termes à fort volume et forte intention d'achat qui génèrent réellement du chiffre d'affaires : 'chaussures de running femme', 'canapé cuir', 'laptop gaming moins de 1000 €'. Une page de catégorie bien optimisée vaut plus que 50 pages produit bien optimisées.",
           },
           {
             type: "p",
@@ -352,7 +352,7 @@ export const guidesOnPageAuditT: Record<
           {
             type: "callout",
             title: "La checklist d'audit des pages de catégorie",
-            text: "Chaque page de catégorie doit avoir : un H1 unique contenant le mot-clé principal, 150–300 mots de contenu introductif réel placé au-dessus de la grille de produits (pas en dessous — Google s'arrête souvent de lire au pli sur les pages paginées), un title tag unique avec le mot-clé principal et un modificateur (ex. 'Chaussures de Running Femme | Livraison Gratuite & Retours'), et une meta description qui distingue la page des concurrents.",
+            text: "Chaque page de catégorie doit avoir : un H1 unique contenant le mot-clé principal, 150–300 mots de contenu introductif réel placé au-dessus de la grille de produits (pas en dessous, car Google s'arrête souvent de lire au pli sur les pages paginées), un title tag unique avec le mot-clé principal et un modificateur (ex. 'Chaussures de Running Femme | Livraison Gratuite & Retours'), et une meta description qui distingue la page des concurrents.",
           },
           {
             type: "p",
@@ -366,7 +366,7 @@ export const guidesOnPageAuditT: Record<
       },
       {
         id: "product-page-audit",
-        title: "Audit des pages produit : les détails qui font la différence",
+        title: "Audit des pages produit : bien régler les fondamentaux",
         blocks: [
           {
             type: "p",
@@ -378,7 +378,7 @@ export const guidesOnPageAuditT: Record<
               "Title tag : [Nom du produit] + [Attribut clé] + [Marque] — moins de 60 caractères. Évitez les titres génériques comme 'Basket Bleue | Notre Boutique'. Préférez 'Nike Air Zoom Pegasus 41 | Chaussure de Running Homme'.",
               "Description : rédigez-la vous-même. Les textes fabricant sont utilisés par tous les revendeurs sur internet. Google les identifie et filtre votre page vers l'index supplémentaire. Votre description doit couvrir la coupe, le matériau, le cas d'usage et tout ce que les photos produit ne montrent pas.",
               "H1 : le nom du produit, exactement tel qu'un client le rechercherait. Un H1 par page. N'utilisez pas le H1 pour des titres décoratifs comme 'Vous pourriez aussi aimer'.",
-              "Texte alternatif des images : nom du produit + attribut clé. Pas 'image1.jpg'. Pas 'photo produit'. Si l'image montre un manteau en laine bleu marine, le texte alternatif est 'Manteau en Laine Bleu Marine — Vue de Face'.",
+              "Texte alternatif des images : nom du produit + attribut clé. Pas 'image1.jpg'. Pas 'photo produit'. Si l'image montre un manteau en laine bleu marine, le texte alternatif est 'Manteau en Laine Bleu Marine, Vue de Face'.",
             ],
           },
           {
@@ -397,7 +397,7 @@ export const guidesOnPageAuditT: Record<
           },
           {
             type: "p",
-            text: "La règle est simple : un seul H1 par page, contenant le mot-clé principal, correspondant à ce qu'un utilisateur taperait dans Google. Les H2 sont pour les sections de contenu principal — spécifications, informations de taille, matériaux, FAQ. Les H3 sont pour les points de soutien au sein de ces sections. Les titres comme 'Produits similaires', 'Avis clients' et 'Souvent achetés ensemble' doivent être stylisés en texte normal ou au plus en H3 — ce sont des éléments de navigation, pas de la structure de contenu.",
+            text: "La règle est simple : un seul H1 par page, contenant le mot-clé principal, correspondant à ce qu'un utilisateur taperait dans Google. Les H2 sont pour les sections de contenu principal comme les spécifications, informations de taille, matériaux et FAQ. Les H3 sont pour les points de soutien au sein de ces sections. Les titres comme 'Produits similaires', 'Avis clients' et 'Souvent achetés ensemble' doivent être stylisés en texte normal ou au plus en H3, car ce sont des éléments de navigation, pas de la structure de contenu.",
           },
           {
             type: "tip",
@@ -411,11 +411,11 @@ export const guidesOnPageAuditT: Record<
         blocks: [
           {
             type: "p",
-            text: "Une page avec moins de 200 mots de contenu réel est mince. Ce n'est pas toujours un problème — une page produit pour un article basique avec une image claire, des specs précises et de bonnes évaluations peut très bien se positionner avec peu de texte. Mais à grande échelle, sur des centaines ou milliers de pages produit, le contenu mince dégrade les signaux de qualité au niveau du domaine.",
+            text: "Une page avec moins de 200 mots de contenu réel est mince. Ce n'est pas toujours un problème. Une page produit pour un article basique avec une image claire, des specs précises et de bonnes évaluations peut très bien se positionner avec peu de texte. Mais à grande échelle, sur des centaines ou milliers de pages produit, le contenu mince dégrade les signaux de qualité au niveau du domaine.",
           },
           {
             type: "p",
-            text: "Les algorithmes de qualité de Google évaluent les sites de manière holistique. Si 60 % de vos pages indexées sont des pages produit minces sans descriptions, avec des titres dupliqués et aucun avis, cela tire vers le bas la qualité perçue de l'ensemble du domaine — y compris vos pages de catégorie bien optimisées. La solution pour les grands catalogues n'est pas d'écrire des descriptions uniques pour 3 000 produits du jour au lendemain. C'est de décider quelles pages méritent d'être indexées.",
+            text: "Les algorithmes de qualité de Google évaluent les sites de manière holistique. Si 60 % de vos pages indexées sont des pages produit minces sans descriptions, avec des titres dupliqués et aucun avis, cela tire vers le bas la qualité perçue de l'ensemble du domaine, y compris vos pages de catégorie bien optimisées. La solution pour les grands catalogues n'est pas d'écrire des descriptions uniques pour 3 000 produits du jour au lendemain. C'est de décider quelles pages méritent d'être indexées.",
           },
           {
             type: "callout",
@@ -424,13 +424,13 @@ export const guidesOnPageAuditT: Record<
           },
           {
             type: "p",
-            text: "Pour les produits intermédiaires — méritant d'être indexés mais actuellement trop minces — un template structuré fonctionne mieux que d'essayer de rédiger des descriptions entièrement personnalisées. Un format cohérent couvrant : ce que c'est, à qui c'est destiné, les dimensions ou spécifications clés, les instructions d'entretien ou la compatibilité, et un argument de vente différenciant. Trois à quatre phrases par section. Cela transforme une page produit à 0 mots en une page à 150 mots qui passe le seuil de qualité de Google.",
+            text: "Pour les produits intermédiaires (méritant d'être indexés mais actuellement trop minces), un template structuré fonctionne mieux que d'essayer de rédiger des descriptions entièrement personnalisées. Un format cohérent couvrant : ce que c'est, à qui c'est destiné, les dimensions ou spécifications clés, les instructions d'entretien ou la compatibilité, et un argument de vente différenciant. Trois à quatre phrases par section. Cela transforme une page produit à 0 mots en une page à 150 mots qui passe le seuil de qualité de Google.",
           },
         ],
       },
       {
         id: "internal-linking",
-        title: "Maillage interne : l'architecture qui fait circuler les classements",
+        title: "Maillage interne : comment le PageRank circule dans votre site",
         blocks: [
           {
             type: "p",
@@ -438,11 +438,11 @@ export const guidesOnPageAuditT: Record<
           },
           {
             type: "p",
-            text: "La plupart des sites e-commerce ont un maillage produit-vers-catégorie correct dans le fil d'Ariane. Les lacunes sont presque toujours : les pages de catégorie qui ne pointent pas vers les sous-catégories, les articles de blog qui ne pointent nulle part, et les pages produit sans liens d'ancre 'produits similaires' — seulement des liens image sans signal de mot-clé.",
+            text: "La plupart des sites e-commerce ont un maillage produit-vers-catégorie correct dans le fil d'Ariane. Les lacunes sont presque toujours : les pages de catégorie qui ne pointent pas vers les sous-catégories, les articles de blog qui ne pointent nulle part, et les pages produit sans liens d'ancre 'produits similaires', seulement des liens image sans signal de mot-clé.",
           },
           {
             type: "tip",
-            text: "Lancez Screaming Frog sur l'intégralité de votre site et utilisez le rapport 'Inlinks' pour trouver les pages avec très peu de liens internes entrants. Ce sont des pages orphelines ou quasi-orphelines — Google les voit rarement, les crawle peu fréquemment et les positionne mal même si le contenu est bon. Ajoutez-les à des pages de catégorie ou articles de blog pertinents avec un texte d'ancre descriptif.",
+            text: "Lancez Screaming Frog sur l'intégralité de votre site et utilisez le rapport 'Inlinks' pour trouver les pages avec très peu de liens internes entrants. Ce sont des pages orphelines ou quasi-orphelines. Google les voit rarement, les crawle peu fréquemment et les positionne mal même si le contenu est bon. Ajoutez-les à des pages de catégorie ou articles de blog pertinents avec un texte d'ancre descriptif.",
           },
           {
             type: "list",
@@ -450,7 +450,7 @@ export const guidesOnPageAuditT: Record<
               "Pages de catégorie : lien vers au moins 3–5 sous-catégories pertinentes si elles existent, et vers 3–5 produits mis en avant avec un texte d'ancre riche en mots-clés",
               "Pages produit : lien de fil d'Ariane vers la catégorie (obligatoire), 3–5 produits liés avec un texte d'ancre descriptif (pas 'voir similaires')",
               "Articles de blog : identifier les 1–3 pages produit ou catégorie les plus pertinentes et les lier naturellement dans le corps du texte avec un texte d'ancre spécifique",
-              "Page d'accueil : lier vos 5–8 meilleures pages de catégorie avec un texte d'ancre exact-match ou near-match — c'est la page à plus fort PageRank de tout le site",
+              "Page d'accueil : lier vos 5–8 meilleures pages de catégorie avec un texte d'ancre exact-match ou near-match, car c'est la page à plus fort PageRank de tout le site",
             ],
           },
         ],
@@ -461,23 +461,23 @@ export const guidesOnPageAuditT: Record<
         blocks: [
           {
             type: "p",
-            text: "Chaque page de votre site a besoin d'un title tag unique et d'une meta description unique. C'est l'une des exigences SEO les plus fondamentales et l'une des plus fréquemment violées sur les sites e-commerce. La cause est presque toujours structurelle : les pages de filtre héritent du titre de la catégorie, les pages de résultats de recherche partagent un titre en template, et la pagination crée des variantes 'Page 2', 'Page 3' qui ont toutes le même titre que la page 1.",
+            text: "Chaque page de votre site a besoin d'un title tag unique et d'une meta description unique. C'est l'une des exigences SEO les plus élémentaires et l'une des plus fréquemment violées sur les sites e-commerce. La cause est presque toujours structurelle : les pages de filtre héritent du titre de la catégorie, les pages de résultats de recherche partagent un titre en template, et la pagination crée des variantes 'Page 2', 'Page 3' qui ont toutes le même titre que la page 1.",
           },
           {
             type: "p",
-            text: "Des title tags dupliqués indiquent à Google que les pages ont le même contenu et le même objectif. Google va souvent canonicaliser une version arbitrairement — pas nécessairement celle que vous souhaitez. Le résultat est un comportement de classement imprévisible et un link equity fragmenté. Pour les pages qui doivent être indexées, les titres uniques sont non négociables.",
+            text: "Des title tags dupliqués indiquent à Google que les pages ont le même contenu et le même objectif. Google va souvent canonicaliser une version arbitrairement, pas nécessairement celle que vous souhaitez. Le résultat est un comportement de classement imprévisible et un link equity fragmenté. Pour les pages qui doivent être indexées, les titres uniques sont non négociables.",
           },
           {
             type: "callout",
             title: "Trouver les doublons rapidement",
-            text: "Le rapport 'Page Titles' de Screaming Frog a un filtre 'Duplicate' intégré — il faut 5 minutes pour l'exécuter et il fait remonter chaque titre dupliqué sur le site. Le rapport Améliorations HTML de Google Search Console détecte beaucoup des mêmes problèmes. Croisez les deux. Faites particulièrement attention aux quasi-doublons : des titres identiques à l'exception d'un numéro de page ou d'un paramètre de filtre ajouté à la fin.",
+            text: "Le rapport 'Page Titles' de Screaming Frog a un filtre 'Duplicate' intégré. Il faut 5 minutes pour l'exécuter et il fait remonter chaque titre dupliqué sur le site. Le rapport Améliorations HTML de Google Search Console détecte beaucoup des mêmes problèmes. Croisez les deux. Faites particulièrement attention aux quasi-doublons : des titres identiques à l'exception d'un numéro de page ou d'un paramètre de filtre ajouté à la fin.",
           },
           {
             type: "checklist",
             items: [
               "Lancer Screaming Frog et filtrer le rapport de titres par 'Duplicate'",
               "Vérifier les améliorations HTML de GSC pour les titres et meta descriptions en double",
-              "S'assurer que les pages paginées ont des titres uniques (ex. 'Chaussures Running Femme — Page 2 | Marque') ou utiliser noindex sur les pages 2+",
+              "S'assurer que les pages paginées ont des titres uniques (ex. 'Chaussures Running Femme - Page 2 | Marque') ou utiliser noindex sur les pages 2+",
               "S'assurer que les URLs de filtre ont soit des titres uniques, soit sont canonicalisées / noindexées",
               "Vérifier que les variantes produit ont des balises canonical pour éviter la concurrence avec l'URL produit principale sur le titre",
               "Après correction, surveiller GSC sur 60–90 jours pour les améliorations en impressions et position moyenne",
@@ -504,11 +504,11 @@ export const guidesOnPageAuditT: Record<
     sections: [
       {
         id: "category-pages",
-        title: "Páginas de categoría: tus activos de posicionamiento más valiosos",
+        title: "Páginas de categoría: las páginas que realmente importan para el SEO",
         blocks: [
           {
             type: "p",
-            text: "La mayoría de auditorías de SEO para ecommerce se centran en las páginas de producto. Esa es la prioridad equivocada. Las páginas de categoría son las que posicionan para los términos de alto volumen y alta intención de compra que realmente mueven ingresos — 'zapatillas running mujer', 'sofá de cuero', 'portátil gaming menos de 1000€'. Una página de categoría bien optimizada vale más que 50 páginas de producto bien optimizadas.",
+            text: "La mayoría de auditorías de SEO para ecommerce se centran en las páginas de producto. Esa es la prioridad equivocada. Las páginas de categoría son las que posicionan para los términos de alto volumen y alta intención de compra que realmente mueven ingresos: 'zapatillas running mujer', 'sofá de cuero', 'portátil gaming menos de 1000€'. Una página de categoría bien optimizada vale más que 50 páginas de producto bien optimizadas.",
           },
           {
             type: "p",
@@ -517,7 +517,7 @@ export const guidesOnPageAuditT: Record<
           {
             type: "callout",
             title: "La checklist de auditoría de páginas de categoría",
-            text: "Cada página de categoría necesita: un H1 único con la keyword principal, 150–300 palabras de contenido introductorio genuino colocado por encima de la rejilla de productos (no debajo — Google a menudo deja de leer en el pliegue en páginas paginadas), un title tag único con la keyword principal y un modificador (ej. 'Zapatillas Running Mujer | Envío Gratis y Devoluciones'), y una meta descripción que diferencie la página de la competencia.",
+            text: "Cada página de categoría necesita: un H1 único con la keyword principal, 150–300 palabras de contenido introductorio genuino colocado por encima de la rejilla de productos (no debajo, porque Google a menudo deja de leer en el pliegue en páginas paginadas), un title tag único con la keyword principal y un modificador (ej. 'Zapatillas Running Mujer | Envío Gratis y Devoluciones'), y una meta descripción que diferencie la página de la competencia.",
           },
           {
             type: "p",
@@ -531,7 +531,7 @@ export const guidesOnPageAuditT: Record<
       },
       {
         id: "product-page-audit",
-        title: "Auditoría de páginas de producto: los detalles que separan lo bueno de lo excelente",
+        title: "Auditoría de páginas de producto: los fundamentos bien hechos",
         blocks: [
           {
             type: "p",
@@ -540,10 +540,10 @@ export const guidesOnPageAuditT: Record<
           {
             type: "list",
             items: [
-              "Title tag: [Nombre del producto] + [Atributo clave] + [Marca] — menos de 60 caracteres. Evita títulos genéricos como 'Zapatilla Azul | Nuestra Tienda'. Prefiere 'Nike Air Zoom Pegasus 41 | Zapatilla Running Hombre'.",
+              "Title tag: [Nombre del producto] + [Atributo clave] + [Marca], menos de 60 caracteres. Evita títulos genéricos como 'Zapatilla Azul | Nuestra Tienda'. Prefiere 'Nike Air Zoom Pegasus 41 | Zapatilla Running Hombre'.",
               "Descripción: escríbela tú mismo. Los textos del fabricante los usa cada revendedor en internet. Google los identifica y filtra tu página al índice suplementario. Tu descripción debe cubrir el ajuste, el material, el caso de uso y todo lo que las fotos del producto no muestran.",
               "H1: el nombre del producto, exactamente como lo buscaría un cliente. Un H1 por página. No uses el H1 para títulos decorativos como 'También te puede gustar'.",
-              "Texto alternativo de imágenes: nombre del producto + atributo clave. No 'imagen1.jpg'. No 'foto de producto'. Si la imagen muestra un abrigo de lana azul marino, el alt text es 'Abrigo de Lana Azul Marino — Vista Frontal'.",
+              "Texto alternativo de imágenes: nombre del producto + atributo clave. No 'imagen1.jpg'. No 'foto de producto'. Si la imagen muestra un abrigo de lana azul marino, el alt text es 'Abrigo de Lana Azul Marino, Vista Frontal'.",
             ],
           },
           {
@@ -562,11 +562,11 @@ export const guidesOnPageAuditT: Record<
           },
           {
             type: "p",
-            text: "La regla es sencilla: un H1 por página, con la keyword principal, coincidiendo con lo que un usuario escribiría en Google. Los H2 son para secciones de contenido principal — especificaciones, información de tallas, materiales, FAQ. Los H3 son para puntos de apoyo dentro de esas secciones. Encabezados como 'Productos relacionados', 'Reseñas de clientes' y 'Comprados juntos frecuentemente' deben estilizarse como texto normal o como máximo H3 — son elementos de navegación, no estructura de contenido.",
+            text: "La regla es sencilla: un H1 por página, con la keyword principal, coincidiendo con lo que un usuario escribiría en Google. Los H2 son para secciones de contenido principal como especificaciones, información de tallas, materiales y FAQ. Los H3 son para puntos de apoyo dentro de esas secciones. Encabezados como 'Productos relacionados', 'Reseñas de clientes' y 'Comprados juntos frecuentemente' deben estilizarse como texto normal o como máximo H3, ya que son elementos de navegación, no estructura de contenido.",
           },
           {
             type: "tip",
-            text: "Usa el informe 'H1' de Screaming Frog para encontrar páginas sin H1, con H1 duplicados o con H1 que no coinciden con el title de la página. En la mayoría de tiendas esto saca a la luz un 30–40% de páginas con al menos un problema de encabezado. Corrige primero las categorías y páginas de producto más importantes — son las que tienen más impacto en el posicionamiento.",
+            text: "Usa el informe 'H1' de Screaming Frog para encontrar páginas sin H1, con H1 duplicados o con H1 que no coinciden con el title de la página. En la mayoría de tiendas esto saca a la luz un 30–40% de páginas con al menos un problema de encabezado. Corrige primero las categorías y páginas de producto más importantes, ya que son las que tienen más impacto en el posicionamiento.",
           },
         ],
       },
@@ -576,11 +576,11 @@ export const guidesOnPageAuditT: Record<
         blocks: [
           {
             type: "p",
-            text: "Una página con menos de 200 palabras de contenido real es delgada. No siempre es un problema — una página de producto para un artículo básico con una imagen clara, especificaciones precisas y buenas reseñas puede posicionar bien con poco texto. Pero a gran escala, en cientos o miles de páginas de producto, el contenido delgado degrada las señales de calidad a nivel de dominio.",
+            text: "Una página con menos de 200 palabras de contenido real es delgada. No siempre es un problema. Una página de producto para un artículo básico con una imagen clara, especificaciones precisas y buenas reseñas puede posicionar bien con poco texto. Pero a gran escala, en cientos o miles de páginas de producto, el contenido delgado degrada las señales de calidad a nivel de dominio.",
           },
           {
             type: "p",
-            text: "Los algoritmos de calidad de Google evalúan los sitios de forma holística. Si el 60% de tus páginas indexadas son páginas de producto delgadas sin descripciones, con títulos duplicados y sin reseñas, esto arrastra hacia abajo la calidad percibida del dominio completo — incluyendo tus páginas de categoría bien optimizadas. La solución para catálogos grandes no es escribir descripciones únicas para 3.000 productos de la noche a la mañana. Es decidir qué páginas merecen estar indexadas.",
+            text: "Los algoritmos de calidad de Google evalúan los sitios de forma holística. Si el 60% de tus páginas indexadas son páginas de producto delgadas sin descripciones, con títulos duplicados y sin reseñas, esto arrastra hacia abajo la calidad percibida del dominio completo, incluyendo tus páginas de categoría bien optimizadas. La solución para catálogos grandes no es escribir descripciones únicas para 3.000 productos de la noche a la mañana. Es decidir qué páginas merecen estar indexadas.",
           },
           {
             type: "callout",
@@ -589,13 +589,13 @@ export const guidesOnPageAuditT: Record<
           },
           {
             type: "p",
-            text: "Para productos intermedios — que merecen estar indexados pero están delgados — una plantilla estructurada funciona mejor que intentar escribir descripciones completamente personalizadas. Un formato consistente cubriendo: qué es, para quién es, dimensiones o especificaciones clave, instrucciones de cuidado o compatibilidad, y un punto de venta diferenciador. Tres o cuatro frases por sección. Eso convierte una página de producto con 0 palabras en una página de 150 palabras que pasa el umbral de calidad de Google.",
+            text: "Para productos intermedios (que merecen estar indexados pero están delgados), una plantilla estructurada funciona mejor que intentar escribir descripciones completamente personalizadas. Un formato consistente cubriendo: qué es, para quién es, dimensiones o especificaciones clave, instrucciones de cuidado o compatibilidad, y un punto de venta diferenciador. Tres o cuatro frases por sección. Eso convierte una página de producto con 0 palabras en una página de 150 palabras que pasa el umbral de calidad de Google.",
           },
         ],
       },
       {
         id: "internal-linking",
-        title: "Enlazado interno: la arquitectura que hace fluir los posicionamientos",
+        title: "Enlazado interno: cómo fluye el PageRank por tu sitio",
         blocks: [
           {
             type: "p",
@@ -603,11 +603,11 @@ export const guidesOnPageAuditT: Record<
           },
           {
             type: "p",
-            text: "La mayoría de tiendas de ecommerce tienen un enlazado producto-a-categoría razonable en el breadcrumb. Las brechas son casi siempre: páginas de categoría que no enlazan a subcategorías, artículos de blog que no enlazan a nada, y páginas de producto sin enlaces de texto ancla a 'productos relacionados' — solo enlaces de imagen que no transmiten señal de keyword.",
+            text: "La mayoría de tiendas de ecommerce tienen un enlazado producto-a-categoría razonable en el breadcrumb. Las brechas son casi siempre: páginas de categoría que no enlazan a subcategorías, artículos de blog que no enlazan a nada, y páginas de producto sin enlaces de texto ancla a 'productos relacionados', solo enlaces de imagen que no transmiten señal de keyword.",
           },
           {
             type: "tip",
-            text: "Ejecuta Screaming Frog en todo tu sitio y usa el informe 'Inlinks' para encontrar páginas con muy pocos enlaces internos apuntando a ellas. Son páginas huérfanas o casi huérfanas — Google las ve raramente, las rastrea con poca frecuencia y las posiciona mal aunque el contenido sea bueno. Añádelas a páginas de categoría o artículos de blog relevantes con texto ancla descriptivo.",
+            text: "Ejecuta Screaming Frog en todo tu sitio y usa el informe 'Inlinks' para encontrar páginas con muy pocos enlaces internos apuntando a ellas. Son páginas huérfanas o casi huérfanas. Google las ve raramente, las rastrea con poca frecuencia y las posiciona mal aunque el contenido sea bueno. Añádelas a páginas de categoría o artículos de blog relevantes con texto ancla descriptivo.",
           },
           {
             type: "list",
@@ -615,7 +615,7 @@ export const guidesOnPageAuditT: Record<
               "Páginas de categoría: enlazar a al menos 3–5 subcategorías relevantes si existen, y a 3–5 productos destacados con texto ancla rico en keywords",
               "Páginas de producto: enlace breadcrumb a la categoría (obligatorio), 3–5 productos relacionados con texto ancla descriptivo (no 'ver similares')",
               "Artículos de blog: identificar las 1–3 páginas de producto o categoría más relevantes y enlazarlas de forma natural en el cuerpo del texto con texto ancla específico",
-              "Página de inicio: enlazar a tus 5–8 mejores páginas de categoría con texto ancla exact-match o near-match — es la página con más PageRank de todo el sitio",
+              "Página de inicio: enlazar a tus 5–8 mejores páginas de categoría con texto ancla exact-match o near-match, ya que es la página con más PageRank de todo el sitio",
             ],
           },
         ],
@@ -630,19 +630,19 @@ export const guidesOnPageAuditT: Record<
           },
           {
             type: "p",
-            text: "Los title tags duplicados le dicen a Google que las páginas tienen el mismo contenido y propósito. Google a menudo canonicalizará una versión arbitrariamente — no necesariamente la que tú quieres. El resultado es un comportamiento de posicionamiento impredecible y link equity fragmentada. Para páginas que deben estar indexadas, los títulos únicos son innegociables.",
+            text: "Los title tags duplicados le dicen a Google que las páginas tienen el mismo contenido y propósito. Google a menudo canonicalizará una versión arbitrariamente, y no necesariamente la que tú quieres. El resultado es un comportamiento de posicionamiento impredecible y link equity fragmentada. Para páginas que deben estar indexadas, los títulos únicos son innegociables.",
           },
           {
             type: "callout",
             title: "Encontrar duplicados rápidamente",
-            text: "El informe 'Page Titles' de Screaming Frog tiene un filtro 'Duplicate' integrado — tarda 5 minutos en ejecutarse y muestra todos los títulos duplicados del sitio. El informe de mejoras HTML de Google Search Console detecta muchos de los mismos problemas. Compara ambos. Presta especial atención a los casi-duplicados: títulos idénticos excepto por un número de página o un parámetro de filtro añadido al final.",
+            text: "El informe 'Page Titles' de Screaming Frog tiene un filtro 'Duplicate' integrado. Tarda 5 minutos en ejecutarse y muestra todos los títulos duplicados del sitio. El informe de mejoras HTML de Google Search Console detecta muchos de los mismos problemas. Compara ambos. Presta especial atención a los casi-duplicados: títulos idénticos excepto por un número de página o un parámetro de filtro añadido al final.",
           },
           {
             type: "checklist",
             items: [
               "Ejecutar Screaming Frog y filtrar el informe de títulos por 'Duplicate'",
               "Revisar las mejoras HTML de GSC en busca de títulos y meta descripciones duplicados",
-              "Asegurarse de que las páginas paginadas tienen títulos únicos (ej. 'Zapatillas Running Mujer — Página 2 | Marca') o usar noindex en páginas 2+",
+              "Asegurarse de que las páginas paginadas tienen títulos únicos (ej. 'Zapatillas Running Mujer - Página 2 | Marca') o usar noindex en páginas 2+",
               "Asegurarse de que las URLs de filtro tienen títulos únicos o están canonicalizadas / noindexadas",
               "Verificar que las variantes de producto tienen etiquetas canonical para no competir con la URL de producto principal en el título",
               "Tras corregir, monitorizar GSC durante 60–90 días en busca de mejoras en impresiones y posición media",
@@ -669,7 +669,7 @@ export const guidesOnPageAuditT: Record<
     sections: [
       {
         id: "category-pages",
-        title: "Pagine categoria: i tuoi asset di posizionamento più preziosi",
+        title: "Pagine categoria: le pagine che contano davvero per il SEO",
         blocks: [
           {
             type: "p",

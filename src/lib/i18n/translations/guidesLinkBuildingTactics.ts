@@ -17,11 +17,11 @@ export const guidesLinkBuildingTacticsT: Record<
         blocks: [
           {
             type: "p",
-            text: "Google has said publicly, repeatedly, that links are one of the top three ranking factors. For ecommerce specifically — where you're chasing transactional queries like 'buy running shoes' or 'best standing desk' — you're competing against sites that have been building authority for years. On-page optimisation is the entry fee. Links are what actually separate page one from page two.",
+            text: "Google has said publicly, repeatedly, that links are one of the top three ranking factors. For ecommerce specifically, where you're chasing transactional queries like 'buy running shoes' or 'best standing desk', you're competing against sites that have been building authority for years. On-page optimisation is the entry fee. Links are what actually separate page one from page two.",
           },
           {
             type: "p",
-            text: "Ranking factor studies from Ahrefs, Semrush, and Backlinko consistently show that Domain Rating (DR) and the number of unique referring domains correlate more strongly with rankings than almost any on-page variable. That doesn't mean on-page doesn't matter — it does — but for competitive ecommerce terms, you will not outrank a DR 70 site with a DR 20 site just by writing better product descriptions.",
+            text: "Ranking factor studies from Ahrefs, Semrush, and Backlinko consistently show that Domain Rating (DR) and the number of unique referring domains correlate more strongly with rankings than almost any on-page variable. That doesn't mean on-page doesn't matter (it does), but for competitive ecommerce terms, you will not outrank a DR 70 site with a DR 20 site just by writing better product descriptions.",
           },
           {
             type: "callout",
@@ -36,7 +36,7 @@ export const guidesLinkBuildingTacticsT: Record<
         blocks: [
           {
             type: "p",
-            text: "Journalists at publications like Wirecutter, The Strategist, Good Housekeeping, and vertical trade magazines write 'best [product category]' roundups constantly. A single dofollow link from Wirecutter can push your DR by 3-5 points and send referral traffic that converts. These links are not easy to get — but they are achievable with the right approach.",
+            text: "Journalists at publications like Wirecutter, The Strategist, Good Housekeeping, and vertical trade magazines write 'best [product category]' roundups constantly. A single dofollow link from Wirecutter can push your DR by 3-5 points and send referral traffic that converts. These links are not easy to get, but they are achievable with the right approach.",
           },
           {
             type: "p",
@@ -44,7 +44,7 @@ export const guidesLinkBuildingTacticsT: Record<
           },
           {
             type: "tip",
-            text: "Your pitch email should be three sentences maximum. Lead with what makes your product objectively different — a specific test result, a certifiable claim, a price point. Do not send a generic press release. Journalists delete those. Send a specific, human note that respects their time.",
+            text: "Your pitch email should be three sentences maximum. Lead with what makes your product objectively different: a specific test result, a certifiable claim, a price point. Do not send a generic press release. Journalists delete those. Send a specific, human note that respects their time.",
           },
           {
             type: "p",
@@ -58,7 +58,7 @@ export const guidesLinkBuildingTacticsT: Record<
         blocks: [
           {
             type: "p",
-            text: "Guest posting has a bad reputation because most people do it badly. They pitch generic content to any site that accepts guest posts, regardless of relevance, and the links they get are low-quality. Done properly — pitching genuinely useful content to relevant, high-authority publications — guest posting still works and produces links that move rankings.",
+            text: "Guest posting has a bad reputation because most people do it badly. They pitch generic content to any site that accepts guest posts, regardless of relevance, and the links they get are low-quality. Done properly, pitching genuinely useful content to relevant, high-authority publications, guest posting still works and produces links that move rankings.",
           },
           {
             type: "p",
@@ -67,7 +67,7 @@ export const guidesLinkBuildingTacticsT: Record<
           {
             type: "callout",
             title: "Vetting your targets",
-            text: "Before you pitch, check the site's DR in Ahrefs (aim for DR 35+), check that their content gets organic traffic (use Ahrefs Site Explorer — if they have zero organic traffic, Google may already be ignoring them), and check that they have published guest posts before. A publication that never runs guest content will not start for you.",
+            text: "Before you pitch, check the site's DR in Ahrefs (aim for DR 35+), check that their content gets organic traffic (use Ahrefs Site Explorer; if they have zero organic traffic, Google may already be ignoring them), and check that they have published guest posts before. A publication that never runs guest content will not start for you.",
           },
           {
             type: "list",
@@ -76,7 +76,7 @@ export const guidesLinkBuildingTacticsT: Record<
               "Read 3-4 recent articles on the site before pitching — match their tone and depth",
               "Pitch a specific article title and a 2-sentence summary, not a full draft",
               "Include a link to one writing sample that proves you can actually write",
-              "Negotiate a contextual link in the body — not just an author bio link",
+              "Negotiate a contextual link in the body, not just an author bio link",
               "Follow up once, after 10 days, then move on if there's no response",
             ],
           },
@@ -88,11 +88,11 @@ export const guidesLinkBuildingTacticsT: Record<
         blocks: [
           {
             type: "p",
-            text: "If you stock other brands' products, those brands often have a 'Where to Buy' or 'Authorised Retailers' page on their site. These are highly relevant links — same industry, often high DR — and most ecommerce stores never pursue them. Send a short email to each brand's marketing or partnership team and ask to be listed. The conversion rate on these requests is surprisingly high because you're already a customer.",
+            text: "If you stock other brands' products, those brands often have a 'Where to Buy' or 'Authorised Retailers' page on their site. These are highly relevant links, same industry, often high DR, and most ecommerce stores never pursue them. Send a short email to each brand's marketing or partnership team and ask to be listed. The conversion rate on these requests is surprisingly high because you're already a customer.",
           },
           {
             type: "p",
-            text: "The same logic applies to any formal partner relationship: payment processors that feature merchant case studies, fulfilment partners with customer spotlights, software vendors with integration directories. Every tool or service you use as a business is a potential link opportunity if they have any kind of partner or customer showcase.",
+            text: "The same logic applies to any formal partner relationship: payment processors that feature merchant case studies, fulfilment partners with customer spotlights, software vendors with integration directories. Every tool or service you use as a business is a potential link opportunity if they have any kind of partner or customer page.",
           },
           {
             type: "tip",
@@ -110,7 +110,7 @@ export const guidesLinkBuildingTacticsT: Record<
           },
           {
             type: "p",
-            text: "Broken link building is more time-intensive but produces high-quality links. The method: use Ahrefs to pull the broken outbound links from competitor sites or high-authority sites in your niche. When you find a broken link pointing to content similar to something you have (or could create), email the webmaster, tell them the link is broken, and offer your page as a replacement. Response rates are higher than cold outreach because you're providing real value.",
+            text: "Broken link building is more time-intensive but produces high-quality links. The method: use Ahrefs to pull the broken outbound links from competitor sites or high-authority sites in your niche. When you find a broken link pointing to content similar to something you have (or could create), email the webmaster, tell them the link is broken, and offer your page as a replacement. Response rates are higher than cold outreach because you're solving a real problem for them.",
           },
           {
             type: "checklist",
@@ -127,7 +127,7 @@ export const guidesLinkBuildingTacticsT: Record<
           {
             type: "callout",
             title: "What actually doesn't work",
-            text: "Buying links in bulk from link farms, comment spam, submissions to generic directories like DMOZ clones — these either do nothing or earn you a Google manual penalty. The Penguin algorithm update in 2012 was specifically designed to devalue link schemes. Fourteen years later, it is still doing its job. Build links that a human editor would choose to add.",
+            text: "Buying links in bulk from link farms, comment spam, submissions to generic directories like DMOZ clones: these either do nothing or earn you a Google manual penalty. The Penguin algorithm update in 2012 was specifically designed to devalue link schemes. Fourteen years later, it is still doing its job. Build links that a human editor would choose to add.",
           },
         ],
       },
@@ -141,7 +141,7 @@ export const guidesLinkBuildingTacticsT: Record<
           },
           {
             type: "p",
-            text: "Set a monthly target of 5-10 new referring domains — achievable for most ecommerce businesses without a full-time link builder. Assign ownership: one person tracks outreach, follows up, and reports results. Use a simple spreadsheet or a tool like Pitchbox or Hunter to manage it. Review your DR monthly in Ahrefs and track ranking positions for your target keywords. The feedback loop tells you whether your efforts are working.",
+            text: "Set a monthly target of 5-10 new referring domains, which is achievable for most ecommerce businesses without a full-time link builder. Assign ownership: one person tracks outreach, follows up, and reports results. Use a simple spreadsheet or a tool like Pitchbox or Hunter to manage it. Review your DR monthly in Ahrefs and track ranking positions for your target keywords. The feedback loop tells you whether your efforts are working.",
           },
           {
             type: "list",
@@ -150,12 +150,12 @@ export const guidesLinkBuildingTacticsT: Record<
               "Run one Digital PR campaign per quarter around a new product or original data",
               "Maintain a live prospect list in a spreadsheet — always have 20+ targets ready",
               "Check Ahrefs monthly: DR trend, referring domains count, new vs lost links",
-              "Kill tactics that aren't converting after 3 months — double down on what works",
+              "Kill tactics that aren't converting after 3 months and double down on what works",
             ],
           },
           {
             type: "tip",
-            text: "Your best link bait for ecommerce is original data. Run a survey, publish an industry report, or compile publicly available data into something useful and shareable. Original research consistently earns passive links from journalists and bloggers — often without any outreach at all.",
+            text: "Your best link bait for ecommerce is original data. Run a survey, publish an industry report, or compile publicly available data into something useful and shareable. Original research earns passive links from journalists and bloggers, often without any outreach at all.",
           },
         ],
       },
@@ -174,7 +174,7 @@ export const guidesLinkBuildingTacticsT: Record<
         blocks: [
           {
             type: "p",
-            text: "Google hat öffentlich und wiederholt bestätigt, dass Links zu den drei wichtigsten Rankingfaktoren gehören. Im E-Commerce — wo transaktionale Suchanfragen wie 'Laufschuhe kaufen' oder 'bester Stehschreibtisch' im Mittelpunkt stehen — konkurriert man mit Seiten, die seit Jahren Autorität aufbauen. Onpage-Optimierung ist die Grundvoraussetzung. Links sind es, was Seite eins von Seite zwei trennt.",
+            text: "Google hat öffentlich und wiederholt bestätigt, dass Links zu den drei wichtigsten Rankingfaktoren gehören. Im E-Commerce, wo transaktionale Suchanfragen wie 'Laufschuhe kaufen' oder 'bester Stehschreibtisch' im Mittelpunkt stehen, konkurriert man mit Seiten, die seit Jahren Autorität aufbauen. Onpage-Optimierung ist die Grundvoraussetzung. Links sind es, was Seite eins von Seite zwei trennt.",
           },
           {
             type: "p",
@@ -193,7 +193,7 @@ export const guidesLinkBuildingTacticsT: Record<
         blocks: [
           {
             type: "p",
-            text: "Journalisten bei Publikationen wie Wirecutter, Stiftung Warentest, CHIP und vertikalen Fachmagazinen schreiben ständig 'Beste [Produktkategorie]'-Roundups. Ein einziger Dofollow-Link von einer solchen Seite kann deinen DR um 3-5 Punkte anheben und Referral-Traffic bringen, der konvertiert. Diese Links sind nicht leicht zu bekommen — aber mit dem richtigen Ansatz erreichbar.",
+            text: "Journalisten bei Publikationen wie Wirecutter, Stiftung Warentest, CHIP und vertikalen Fachmagazinen schreiben ständig 'Beste [Produktkategorie]'-Roundups. Ein einziger Dofollow-Link von einer solchen Seite kann deinen DR um 3-5 Punkte anheben und Referral-Traffic bringen, der konvertiert. Diese Links sind nicht leicht zu bekommen, aber mit dem richtigen Ansatz erreichbar.",
           },
           {
             type: "p",
@@ -201,11 +201,11 @@ export const guidesLinkBuildingTacticsT: Record<
           },
           {
             type: "tip",
-            text: "Deine Pitch-E-Mail sollte maximal drei Sätze haben. Beginne damit, was dein Produkt objektiv unterscheidet — ein spezifisches Testergebnis, eine nachweisbare Behauptung, ein Preisvorteil. Schicke keine generische Pressemitteilung. Journalisten löschen diese. Schreibe eine konkrete, menschliche Nachricht, die ihre Zeit respektiert.",
+            text: "Deine Pitch-E-Mail sollte maximal drei Sätze haben. Beginne damit, was dein Produkt objektiv unterscheidet: ein spezifisches Testergebnis, eine nachweisbare Behauptung, ein Preisvorteil. Schicke keine generische Pressemitteilung. Journalisten löschen diese. Schreibe eine konkrete, menschliche Nachricht, die ihre Zeit respektiert.",
           },
           {
             type: "p",
-            text: "Schicke nach Möglichkeit Produktmuster. Ein Journalist, der dein Produkt physisch getestet hat, ist zehnmal wahrscheinlicher, es aufzunehmen, als jemand, der nur dein Datenblatt gelesen hat. Budgetiere Produktmuster als Marketingausgabe — es ist eines der Elemente mit dem höchsten ROI im Linkaufbau.",
+            text: "Schicke nach Möglichkeit Produktmuster. Ein Journalist, der dein Produkt physisch getestet hat, ist zehnmal wahrscheinlicher, es aufzunehmen, als jemand, der nur dein Datenblatt gelesen hat. Budgetiere Produktmuster als Marketingausgabe. Es ist eines der Elemente mit dem höchsten ROI im Linkaufbau.",
           },
         ],
       },
@@ -215,7 +215,7 @@ export const guidesLinkBuildingTacticsT: Record<
         blocks: [
           {
             type: "p",
-            text: "Gastbeiträge haben einen schlechten Ruf, weil die meisten sie schlecht umsetzen. Sie pitchen generische Inhalte an beliebige Seiten, die Gastbeiträge akzeptieren, unabhängig von der Relevanz. Die erhaltenen Links sind minderwertig. Richtig gemacht — genuinely nützliche Inhalte an relevante, hochwertige Publikationen zu pitchen — funktioniert Gastposting noch und erzeugt Links, die Rankings bewegen.",
+            text: "Gastbeiträge haben einen schlechten Ruf, weil die meisten sie schlecht umsetzen. Sie pitchen generische Inhalte an beliebige Seiten, die Gastbeiträge akzeptieren, unabhängig von der Relevanz. Die erhaltenen Links sind minderwertig. Richtig gemacht, also wirklich nützliche Inhalte an relevante, hochwertige Publikationen zu pitchen, funktioniert Gastposting noch und erzeugt Links, die Rankings bewegen.",
           },
           {
             type: "p",
@@ -224,7 +224,7 @@ export const guidesLinkBuildingTacticsT: Record<
           {
             type: "callout",
             title: "Ziele überprüfen",
-            text: "Überprüfe vor dem Pitch den DR der Seite in Ahrefs (Ziel: DR 35+), prüfe ob der Content organischen Traffic erhält (Ahrefs Site Explorer — null organischer Traffic bedeutet, Google ignoriert sie möglicherweise), und prüfe ob sie bereits Gastbeiträge veröffentlicht haben. Eine Publikation, die noch nie Gastinhalte veröffentlicht hat, wird damit nicht für dich beginnen.",
+            text: "Überprüfe vor dem Pitch den DR der Seite in Ahrefs (Ziel: DR 35+), prüfe ob der Content organischen Traffic erhält (Ahrefs Site Explorer; null organischer Traffic bedeutet, Google ignoriert sie möglicherweise), und prüfe ob sie bereits Gastbeiträge veröffentlicht haben. Eine Publikation, die noch nie Gastinhalte veröffentlicht hat, wird damit nicht für dich beginnen.",
           },
           {
             type: "list",
@@ -233,7 +233,7 @@ export const guidesLinkBuildingTacticsT: Record<
               "3-4 aktuelle Artikel auf der Seite lesen, bevor du pitchst — Ton und Tiefe anpassen",
               "Einen spezifischen Artikeltitel und eine 2-Satz-Zusammenfassung pitchen, keinen fertigen Entwurf",
               "Einen Link zu einem Schreibbeispiel einfügen, das beweist, dass du schreiben kannst",
-              "Einen kontextuellen Link im Fließtext aushandeln — nicht nur einen Autorenbiografie-Link",
+              "Einen kontextuellen Link im Fließtext aushandeln, nicht nur einen Autorenbiografie-Link",
               "Einmal nachfassen nach 10 Tagen, dann weitermachen wenn keine Antwort kommt",
             ],
           },
@@ -245,11 +245,11 @@ export const guidesLinkBuildingTacticsT: Record<
         blocks: [
           {
             type: "p",
-            text: "Wenn du Produkte anderer Marken verkaufst, haben diese Marken oft eine 'Wo kaufen'- oder 'Autorisierte Händler'-Seite auf ihrer Website. Das sind höchst relevante Links — gleiche Branche, oft hoher DR — und die meisten E-Commerce-Shops gehen sie nie an. Sende eine kurze E-Mail an das Marketing- oder Partnerschaftsteam jeder Marke und bitte darum, aufgelistet zu werden. Die Konversionsrate bei solchen Anfragen ist überraschend hoch, weil du bereits Kunde bist.",
+            text: "Wenn du Produkte anderer Marken verkaufst, haben diese Marken oft eine 'Wo kaufen'- oder 'Autorisierte Händler'-Seite auf ihrer Website. Das sind höchst relevante Links, gleiche Branche, oft hoher DR, und die meisten E-Commerce-Shops gehen sie nie an. Sende eine kurze E-Mail an das Marketing- oder Partnerschaftsteam jeder Marke und bitte darum, aufgelistet zu werden. Die Konversionsrate bei solchen Anfragen ist überraschend hoch, weil du bereits Kunde bist.",
           },
           {
             type: "p",
-            text: "Die gleiche Logik gilt für jede formelle Partnerschaft: Zahlungsdienstleister mit Händler-Fallstudien, Fulfillment-Partner mit Kundenspotlights, Softwareanbieter mit Integrationsdirektorien. Jedes Tool oder jede Dienstleistung, die du als Unternehmen nutzt, ist eine potenzielle Linkmöglichkeit, wenn sie irgendeine Art von Partner- oder Kundenpräsentation haben.",
+            text: "Die gleiche Logik gilt für jede formelle Partnerschaft: Zahlungsdienstleister mit Händler-Fallstudien, Fulfillment-Partner mit Kundenspotlights, Softwareanbieter mit Integrationsdirektorien. Jedes Tool oder jede Dienstleistung, die du als Unternehmen nutzt, ist eine potenzielle Linkmöglichkeit, wenn sie irgendeine Art von Partner- oder Kundenseite haben.",
           },
           {
             type: "tip",
@@ -284,7 +284,7 @@ export const guidesLinkBuildingTacticsT: Record<
           {
             type: "callout",
             title: "Was wirklich nicht funktioniert",
-            text: "Massenkauf von Links bei Linkfarmen, Kommentarspam, Eintragungen in generische Verzeichnisse — diese bringen entweder nichts oder ziehen dir eine manuelle Google-Penalty zu. Das Penguin-Algorithmus-Update von 2012 wurde speziell entwickelt, um Linkschemata abzuwerten. Vierzehn Jahre später erledigt es immer noch seinen Job. Baue Links auf, die ein menschlicher Redakteur freiwillig setzen würde.",
+            text: "Massenkauf von Links bei Linkfarmen, Kommentarspam, Eintragungen in generische Verzeichnisse: das bringt entweder nichts oder zieht dir eine manuelle Google-Penalty zu. Das Penguin-Algorithmus-Update von 2012 wurde speziell entwickelt, um Linkschemata abzuwerten. Vierzehn Jahre später erledigt es immer noch seinen Job. Baue Links auf, die ein menschlicher Redakteur freiwillig setzen würde.",
           },
         ],
       },
@@ -298,7 +298,7 @@ export const guidesLinkBuildingTacticsT: Record<
           },
           {
             type: "p",
-            text: "Setze ein monatliches Ziel von 5-10 neuen verweisenden Domains — für die meisten E-Commerce-Unternehmen ohne einen Vollzeit-Linkbuilder erreichbar. Weise Verantwortung zu: eine Person verfolgt Outreach, macht Nachfassaktionen und berichtet Ergebnisse. Nutze eine einfache Tabelle oder ein Tool wie Pitchbox oder Hunter. Überprüfe deinen DR monatlich in Ahrefs und verfolge Rankingpositionen für deine Zielkeywords.",
+            text: "Setze ein monatliches Ziel von 5-10 neuen verweisenden Domains, für die meisten E-Commerce-Unternehmen ohne einen Vollzeit-Linkbuilder erreichbar. Weise Verantwortung zu: eine Person verfolgt Outreach, macht Nachfassaktionen und berichtet Ergebnisse. Nutze eine einfache Tabelle oder ein Tool wie Pitchbox oder Hunter. Überprüfe deinen DR monatlich in Ahrefs und verfolge Rankingpositionen für deine Zielkeywords.",
           },
           {
             type: "list",
@@ -312,7 +312,7 @@ export const guidesLinkBuildingTacticsT: Record<
           },
           {
             type: "tip",
-            text: "Dein bester Link-Köder für E-Commerce sind Originaldaten. Führe eine Umfrage durch, veröffentliche einen Branchenbericht oder kompiliere öffentlich verfügbare Daten zu etwas Nützlichem und Teilbarem. Originalrecherchen gewinnen konsistent passive Links von Journalisten und Bloggern — oft ganz ohne Outreach.",
+            text: "Dein bester Link-Köder für E-Commerce sind Originaldaten. Führe eine Umfrage durch, veröffentliche einen Branchenbericht oder kompiliere öffentlich verfügbare Daten zu etwas Nützlichem und Teilbarem. Originalrecherchen gewinnen passive Links von Journalisten und Bloggern, oft ganz ohne Outreach.",
           },
         ],
       },
@@ -331,11 +331,11 @@ export const guidesLinkBuildingTacticsT: Record<
         blocks: [
           {
             type: "p",
-            text: "Google l'a dit publiquement, à plusieurs reprises : les liens font partie des trois premiers facteurs de classement. En e-commerce — où l'on cible des requêtes transactionnelles comme 'acheter des chaussures de running' ou 'meilleur bureau debout' — on est en concurrence avec des sites qui construisent leur autorité depuis des années. L'optimisation on-page est le ticket d'entrée. Les liens, eux, font la différence entre la première et la deuxième page.",
+            text: "Google l'a dit publiquement, à plusieurs reprises : les liens font partie des trois premiers facteurs de classement. En e-commerce, où l'on cible des requêtes transactionnelles comme 'acheter des chaussures de running' ou 'meilleur bureau debout', on est en concurrence avec des sites qui construisent leur autorité depuis des années. L'optimisation on-page est le ticket d'entrée. Les liens, eux, font la différence entre la première et la deuxième page.",
           },
           {
             type: "p",
-            text: "Les études sur les facteurs de classement menées par Ahrefs, Semrush et Backlinko montrent de façon constante que le Domain Rating (DR) et le nombre de domaines référents uniques corrèlent plus fortement avec les classements que presque n'importe quelle variable on-page. Cela ne veut pas dire que l'on-page est inutile — mais pour des termes e-commerce concurrentiels, un site à DR 20 ne dépassera pas un site à DR 70 grâce à de meilleures descriptions de produits.",
+            text: "Les études sur les facteurs de classement menées par Ahrefs, Semrush et Backlinko montrent de façon constante que le Domain Rating (DR) et le nombre de domaines référents uniques corrèlent plus fortement avec les classements que presque n'importe quelle variable on-page. Cela ne veut pas dire que l'on-page est inutile, mais pour des termes e-commerce concurrentiels, un site à DR 20 ne dépassera pas un site à DR 70 grâce à de meilleures descriptions de produits.",
           },
           {
             type: "callout",
@@ -350,7 +350,7 @@ export const guidesLinkBuildingTacticsT: Record<
         blocks: [
           {
             type: "p",
-            text: "Les journalistes de publications comme Le Monde, Les Numériques, 60 Millions de Consommateurs et les magazines spécialisés rédigent en permanence des sélections 'meilleurs [catégorie de produit]'. Un seul lien dofollow d'un site de référence peut augmenter votre DR de 3 à 5 points et générer un trafic référent qui convertit. Ces liens sont difficiles à obtenir — mais accessibles avec la bonne approche.",
+            text: "Les journalistes de publications comme Le Monde, Les Numériques, 60 Millions de Consommateurs et les magazines spécialisés rédigent en permanence des sélections 'meilleurs [catégorie de produit]'. Un seul lien dofollow d'un site de référence peut augmenter votre DR de 3 à 5 points et générer un trafic référent qui convertit. Ces liens sont difficiles à obtenir, mais accessibles avec la bonne approche.",
           },
           {
             type: "p",
@@ -358,7 +358,7 @@ export const guidesLinkBuildingTacticsT: Record<
           },
           {
             type: "tip",
-            text: "Votre e-mail de pitch ne doit pas dépasser trois phrases. Commencez par ce qui rend votre produit objectivement différent — un résultat de test spécifique, une affirmation vérifiable, un prix compétitif. N'envoyez pas un communiqué de presse générique. Les journalistes les suppriment. Envoyez un message court, précis, qui respecte leur temps.",
+            text: "Votre e-mail de pitch ne doit pas dépasser trois phrases. Commencez par ce qui rend votre produit objectivement différent : un résultat de test spécifique, une affirmation vérifiable, un prix compétitif. N'envoyez pas un communiqué de presse générique. Les journalistes les suppriment. Envoyez un message court, précis, qui respecte leur temps.",
           },
           {
             type: "p",
@@ -372,7 +372,7 @@ export const guidesLinkBuildingTacticsT: Record<
         blocks: [
           {
             type: "p",
-            text: "Les articles invités ont mauvaise réputation parce que la plupart des gens les font mal. Ils proposent du contenu générique à n'importe quel site acceptant des invités, sans tenir compte de la pertinence. Les liens obtenus sont médiocres. Bien fait — proposer un contenu vraiment utile à des publications pertinentes et de qualité — le guest posting fonctionne encore et produit des liens qui améliorent les classements.",
+            text: "Les articles invités ont mauvaise réputation parce que la plupart des gens les font mal. Ils proposent du contenu générique à n'importe quel site acceptant des invités, sans tenir compte de la pertinence. Les liens obtenus sont médiocres. Bien fait, c'est-à-dire proposer un contenu vraiment utile à des publications pertinentes et de qualité, le guest posting fonctionne encore et produit des liens qui améliorent les classements.",
           },
           {
             type: "p",
@@ -381,7 +381,7 @@ export const guidesLinkBuildingTacticsT: Record<
           {
             type: "callout",
             title: "Évaluer vos cibles",
-            text: "Avant de pitcher, vérifiez le DR du site dans Ahrefs (visez DR 35+), vérifiez que son contenu génère du trafic organique (Ahrefs Site Explorer — zéro trafic organique signifie que Google les ignore peut-être), et vérifiez qu'ils ont déjà publié des articles invités. Une publication qui n'en a jamais fait ne commencera pas pour vous.",
+            text: "Avant de pitcher, vérifiez le DR du site dans Ahrefs (visez DR 35+), vérifiez que son contenu génère du trafic organique (Ahrefs Site Explorer; zéro trafic organique signifie que Google les ignore peut-être), et vérifiez qu'ils ont déjà publié des articles invités. Une publication qui n'en a jamais fait ne commencera pas pour vous.",
           },
           {
             type: "list",
@@ -390,7 +390,7 @@ export const guidesLinkBuildingTacticsT: Record<
               "Lire 3-4 articles récents sur le site avant de pitcher — adapter le ton et la profondeur",
               "Proposer un titre d'article spécifique et un résumé en 2 phrases, pas un brouillon complet",
               "Inclure un lien vers un échantillon de rédaction prouvant votre qualité",
-              "Négocier un lien contextuel dans le corps de l'article — pas seulement dans la biographie de l'auteur",
+              "Négocier un lien contextuel dans le corps de l'article, pas seulement dans la biographie de l'auteur",
               "Relancer une fois après 10 jours, puis passer à autre chose sans réponse",
             ],
           },
@@ -402,11 +402,11 @@ export const guidesLinkBuildingTacticsT: Record<
         blocks: [
           {
             type: "p",
-            text: "Si vous vendez les produits d'autres marques, ces marques ont souvent une page 'Où acheter' ou 'Revendeurs agréés' sur leur site. Ce sont des liens hautement pertinents — même secteur, souvent DR élevé — et la plupart des boutiques e-commerce ne les poursuivent jamais. Envoyez un court e-mail à l'équipe marketing ou partenariats de chaque marque pour demander à être référencé. Le taux de conversion de ces demandes est étonnamment élevé car vous êtes déjà client.",
+            text: "Si vous vendez les produits d'autres marques, ces marques ont souvent une page 'Où acheter' ou 'Revendeurs agréés' sur leur site. Ce sont des liens très pertinents, même secteur, souvent DR élevé, et la plupart des boutiques e-commerce ne les poursuivent jamais. Envoyez un court e-mail à l'équipe marketing ou partenariats de chaque marque pour demander à être référencé. Le taux de conversion de ces demandes est étonnamment élevé car vous êtes déjà client.",
           },
           {
             type: "p",
-            text: "La même logique s'applique à toute relation partenariale formelle : prestataires de paiement avec études de cas marchands, partenaires logistiques avec vitrines clients, éditeurs de logiciels avec répertoires d'intégrations. Chaque outil ou service que vous utilisez en tant qu'entreprise est une opportunité de lien potentielle s'ils ont une quelconque présentation de partenaires ou de clients.",
+            text: "La même logique s'applique à toute relation partenariale formelle : prestataires de paiement avec études de cas marchands, partenaires logistiques avec vitrines clients, éditeurs de logiciels avec répertoires d'intégrations. Chaque outil ou service que vous utilisez en tant qu'entreprise est une opportunité de lien potentielle s'ils ont une page partenaires ou clients.",
           },
           {
             type: "tip",
@@ -441,7 +441,7 @@ export const guidesLinkBuildingTacticsT: Record<
           {
             type: "callout",
             title: "Ce qui ne fonctionne vraiment pas",
-            text: "Acheter des liens en masse auprès de fermes de liens, le spam de commentaires, les inscriptions dans des annuaires génériques — ces pratiques ne font rien bouger ou vous valent une pénalité manuelle Google. La mise à jour Penguin de 2012 a été conçue spécifiquement pour dévaluer les schémas de liens. Quatorze ans plus tard, elle fait toujours son travail. Construisez des liens qu'un éditeur humain choisirait d'ajouter.",
+            text: "Acheter des liens en masse auprès de fermes de liens, le spam de commentaires, les inscriptions dans des annuaires génériques : ces pratiques ne font rien bouger ou vous valent une pénalité manuelle Google. La mise à jour Penguin de 2012 a été conçue spécifiquement pour dévaluer les schémas de liens. Quatorze ans plus tard, elle fait toujours son travail. Construisez des liens qu'un éditeur humain choisirait d'ajouter.",
           },
         ],
       },
@@ -455,7 +455,7 @@ export const guidesLinkBuildingTacticsT: Record<
           },
           {
             type: "p",
-            text: "Fixez un objectif mensuel de 5 à 10 nouveaux domaines référents — réalisable pour la plupart des entreprises e-commerce sans un link builder à temps plein. Désignez un responsable : une personne suit les actions, relance et rend compte des résultats. Utilisez un simple tableur ou un outil comme Pitchbox ou Hunter. Vérifiez votre DR mensuellement dans Ahrefs et suivez les positions pour vos mots-clés cibles.",
+            text: "Fixez un objectif mensuel de 5 à 10 nouveaux domaines référents, réalisable pour la plupart des entreprises e-commerce sans un link builder à temps plein. Désignez un responsable : une personne suit les actions, relance et rend compte des résultats. Utilisez un simple tableur ou un outil comme Pitchbox ou Hunter. Vérifiez votre DR mensuellement dans Ahrefs et suivez les positions pour vos mots-clés cibles.",
           },
           {
             type: "list",
@@ -464,12 +464,12 @@ export const guidesLinkBuildingTacticsT: Record<
               "Mener une campagne Digital PR par trimestre autour d'un nouveau produit ou de données originales",
               "Maintenir une liste de prospects active dans un tableur — toujours avoir 20+ cibles prêtes",
               "Vérifier Ahrefs mensuellement : tendance DR, nombre de domaines référents, liens gagnés vs perdus",
-              "Arrêter les tactiques qui ne convertissent pas après 3 mois — doubler sur ce qui fonctionne",
+              "Arrêter les tactiques qui ne convertissent pas après 3 mois et doubler sur ce qui fonctionne",
             ],
           },
           {
             type: "tip",
-            text: "Votre meilleur appât à liens en e-commerce, ce sont les données originales. Réalisez une enquête, publiez un rapport sectoriel, ou compilez des données publiques en quelque chose d'utile et de partageable. La recherche originale génère systématiquement des liens passifs de la part des journalistes et blogueurs — souvent sans aucune démarche active.",
+            text: "Votre meilleur appât à liens en e-commerce, ce sont les données originales. Réalisez une enquête, publiez un rapport sectoriel, ou compilez des données publiques en quelque chose d'utile et de partageable. La recherche originale génère des liens passifs de la part des journalistes et blogueurs, souvent sans aucune démarche active.",
           },
         ],
       },
@@ -488,11 +488,11 @@ export const guidesLinkBuildingTacticsT: Record<
         blocks: [
           {
             type: "p",
-            text: "Google lo ha dicho públicamente y en repetidas ocasiones: los enlaces son uno de los tres principales factores de posicionamiento. En e-commerce — donde se persiguen consultas transaccionales como 'comprar zapatillas running' o 'mejor escritorio de pie' — se compite contra sitios que llevan años construyendo autoridad. La optimización on-page es el precio de entrada. Los enlaces son lo que realmente separa la primera página de la segunda.",
+            text: "Google lo ha dicho públicamente y en repetidas ocasiones: los enlaces son uno de los tres principales factores de posicionamiento. En e-commerce, donde se persiguen consultas transaccionales como 'comprar zapatillas running' o 'mejor escritorio de pie', se compite contra sitios que llevan años construyendo autoridad. La optimización on-page es el precio de entrada. Los enlaces son lo que realmente separa la primera página de la segunda.",
           },
           {
             type: "p",
-            text: "Los estudios sobre factores de posicionamiento de Ahrefs, Semrush y Backlinko muestran de forma consistente que el Domain Rating (DR) y el número de dominios de referencia únicos correlacionan más fuertemente con los rankings que casi cualquier variable on-page. Eso no significa que el on-page no importe — sí importa —, pero para términos de e-commerce competitivos, no superarás a un sitio con DR 70 solo con mejores descripciones de producto.",
+            text: "Los estudios sobre factores de posicionamiento de Ahrefs, Semrush y Backlinko muestran de forma consistente que el Domain Rating (DR) y el número de dominios de referencia únicos correlacionan más fuertemente con los rankings que casi cualquier variable on-page. Eso no significa que el on-page no importe (sí importa), pero para términos de e-commerce competitivos, no superarás a un sitio con DR 70 solo con mejores descripciones de producto.",
           },
           {
             type: "callout",
@@ -507,7 +507,7 @@ export const guidesLinkBuildingTacticsT: Record<
         blocks: [
           {
             type: "p",
-            text: "Los periodistas de publicaciones como El País, Xataka, Consumer o revistas especializadas del sector escriben constantemente selecciones de 'los mejores [categoría de producto]'. Un solo enlace dofollow de un sitio de referencia puede elevar tu DR 3-5 puntos y generar tráfico de referencia que convierte. Estos enlaces no son fáciles de conseguir — pero son alcanzables con el enfoque correcto.",
+            text: "Los periodistas de publicaciones como El País, Xataka, Consumer o revistas especializadas del sector escriben constantemente selecciones de 'los mejores [categoría de producto]'. Un solo enlace dofollow de un sitio de referencia puede elevar tu DR 3-5 puntos y generar tráfico de referencia que convierte. Estos enlaces no son fáciles de conseguir, pero son alcanzables con el enfoque correcto.",
           },
           {
             type: "p",
@@ -515,7 +515,7 @@ export const guidesLinkBuildingTacticsT: Record<
           },
           {
             type: "tip",
-            text: "Tu email de pitch debe tener un máximo de tres frases. Empieza con lo que hace a tu producto objetivamente diferente — un resultado de prueba específico, una afirmación verificable, un precio competitivo. No envíes un comunicado de prensa genérico. Los periodistas los borran. Envía una nota concreta y humana que respete su tiempo.",
+            text: "Tu email de pitch debe tener un máximo de tres frases. Empieza con lo que hace a tu producto objetivamente diferente: un resultado de prueba específico, una afirmación verificable, un precio competitivo. No envíes un comunicado de prensa genérico. Los periodistas los borran. Envía una nota concreta y humana que respete su tiempo.",
           },
           {
             type: "p",
@@ -529,7 +529,7 @@ export const guidesLinkBuildingTacticsT: Record<
         blocks: [
           {
             type: "p",
-            text: "Los artículos de invitado tienen mala reputación porque la mayoría los hace mal. Proponen contenido genérico a cualquier sitio que acepte invitados, sin importar la relevancia. Los enlaces obtenidos son de baja calidad. Bien hecho — proponer contenido genuinamente útil a publicaciones relevantes y de alta autoridad — el guest posting todavía funciona y produce enlaces que mueven rankings.",
+            text: "Los artículos de invitado tienen mala reputación porque la mayoría los hace mal. Proponen contenido genérico a cualquier sitio que acepte invitados, sin importar la relevancia. Los enlaces obtenidos son de baja calidad. Bien hecho, es decir, proponer contenido realmente útil a publicaciones relevantes y de alta autoridad, el guest posting todavía funciona y produce enlaces que mueven rankings.",
           },
           {
             type: "p",
@@ -538,7 +538,7 @@ export const guidesLinkBuildingTacticsT: Record<
           {
             type: "callout",
             title: "Evalúa tus objetivos",
-            text: "Antes de hacer el pitch, comprueba el DR del sitio en Ahrefs (apunta a DR 35+), verifica que su contenido recibe tráfico orgánico (Ahrefs Site Explorer — cero tráfico orgánico significa que Google podría estar ignorándolos), y confirma que han publicado artículos de invitado antes. Una publicación que nunca ha publicado contenido invitado no va a empezar contigo.",
+            text: "Antes de hacer el pitch, comprueba el DR del sitio en Ahrefs (apunta a DR 35+), verifica que su contenido recibe tráfico orgánico (Ahrefs Site Explorer; cero tráfico orgánico significa que Google podría estar ignorándolos), y confirma que han publicado artículos de invitado antes. Una publicación que nunca ha publicado contenido invitado no va a empezar contigo.",
           },
           {
             type: "list",
@@ -547,7 +547,7 @@ export const guidesLinkBuildingTacticsT: Record<
               "Leer 3-4 artículos recientes del sitio antes de hacer el pitch — adaptar el tono y la profundidad",
               "Proponer un título de artículo específico y un resumen de 2 frases, no un borrador completo",
               "Incluir un enlace a una muestra de escritura que demuestre que sabes escribir",
-              "Negociar un enlace contextual en el cuerpo del artículo — no solo en la biografía del autor",
+              "Negociar un enlace contextual en el cuerpo del artículo, no solo en la biografía del autor",
               "Hacer seguimiento una vez después de 10 días, luego pasar al siguiente si no hay respuesta",
             ],
           },
@@ -559,11 +559,11 @@ export const guidesLinkBuildingTacticsT: Record<
         blocks: [
           {
             type: "p",
-            text: "Si vendes productos de otras marcas, esas marcas suelen tener una página de 'Dónde comprar' o 'Distribuidores autorizados' en su sitio. Son enlaces altamente relevantes — mismo sector, DR a menudo alto — y la mayoría de las tiendas e-commerce nunca los persiguen. Envía un correo breve al equipo de marketing o de partnerships de cada marca y pide ser incluido. La tasa de conversión de estas solicitudes es sorprendentemente alta porque ya eres cliente.",
+            text: "Si vendes productos de otras marcas, esas marcas suelen tener una página de 'Dónde comprar' o 'Distribuidores autorizados' en su sitio. Son enlaces muy relevantes, mismo sector, DR a menudo alto, y la mayoría de las tiendas e-commerce nunca los persiguen. Envía un correo breve al equipo de marketing o de partnerships de cada marca y pide ser incluido. La tasa de conversión de estas solicitudes es sorprendentemente alta porque ya eres cliente.",
           },
           {
             type: "p",
-            text: "La misma lógica aplica a cualquier relación de partnership formal: proveedores de pago con estudios de caso de comerciantes, socios logísticos con escaparates de clientes, proveedores de software con directorios de integraciones. Cada herramienta o servicio que usas como empresa es una oportunidad de enlace potencial si tienen algún tipo de presentación de socios o clientes.",
+            text: "La misma lógica aplica a cualquier relación de partnership formal: proveedores de pago con estudios de caso de comerciantes, socios logísticos con páginas de clientes, proveedores de software con directorios de integraciones. Cada herramienta o servicio que usas como empresa es una oportunidad de enlace potencial si tienen algún tipo de página de socios o clientes.",
           },
           {
             type: "tip",
@@ -598,7 +598,7 @@ export const guidesLinkBuildingTacticsT: Record<
           {
             type: "callout",
             title: "Lo que realmente no funciona",
-            text: "Comprar enlaces en masa de granjas de enlaces, spam de comentarios, inscripciones en directorios genéricos — estas prácticas o no mueven nada o te ganan una penalización manual de Google. La actualización Penguin de 2012 fue diseñada específicamente para devaluar los esquemas de enlaces. Catorce años después, sigue haciendo su trabajo. Construye enlaces que un editor humano elegiría añadir.",
+            text: "Comprar enlaces en masa de granjas de enlaces, spam de comentarios, inscripciones en directorios genéricos: estas prácticas o no mueven nada o te ganan una penalización manual de Google. La actualización Penguin de 2012 fue diseñada específicamente para devaluar los esquemas de enlaces. Catorce años después, sigue haciendo su trabajo. Construye enlaces que un editor humano elegiría añadir.",
           },
         ],
       },
@@ -612,7 +612,7 @@ export const guidesLinkBuildingTacticsT: Record<
           },
           {
             type: "p",
-            text: "Fija un objetivo mensual de 5-10 nuevos dominios de referencia — alcanzable para la mayoría de negocios e-commerce sin un link builder a tiempo completo. Asigna responsabilidad: una persona hace seguimiento del outreach, hace seguimientos y reporta resultados. Usa una simple hoja de cálculo o una herramienta como Pitchbox o Hunter. Revisa tu DR mensualmente en Ahrefs y rastrea posiciones para tus keywords objetivo.",
+            text: "Fija un objetivo mensual de 5-10 nuevos dominios de referencia, alcanzable para la mayoría de negocios e-commerce sin un link builder a tiempo completo. Asigna responsabilidad: una persona hace seguimiento del outreach, hace seguimientos y reporta resultados. Usa una simple hoja de cálculo o una herramienta como Pitchbox o Hunter. Revisa tu DR mensualmente en Ahrefs y rastrea posiciones para tus keywords objetivo.",
           },
           {
             type: "list",
@@ -621,12 +621,12 @@ export const guidesLinkBuildingTacticsT: Record<
               "Ejecutar una campaña de Digital PR por trimestre alrededor de un nuevo producto o datos originales",
               "Mantener una lista de prospectos activa en una hoja de cálculo — tener siempre 20+ objetivos listos",
               "Revisar Ahrefs mensualmente: tendencia de DR, recuento de dominios referentes, enlaces ganados vs perdidos",
-              "Eliminar las tácticas que no convierten tras 3 meses — doblar la apuesta en lo que funciona",
+              "Eliminar las tácticas que no convierten tras 3 meses y doblar la apuesta en lo que funciona",
             ],
           },
           {
             type: "tip",
-            text: "Tu mejor cebo de enlaces en e-commerce son los datos originales. Realiza una encuesta, publica un informe del sector o compila datos disponibles públicamente en algo útil y compartible. La investigación original genera sistemáticamente enlaces pasivos de periodistas y bloggers — a menudo sin ningún tipo de outreach.",
+            text: "Tu mejor cebo de enlaces en e-commerce son los datos originales. Realiza una encuesta, publica un informe del sector o compila datos disponibles públicamente en algo útil y compartible. La investigación original genera enlaces pasivos de periodistas y bloggers, a menudo sin ningún tipo de outreach.",
           },
         ],
       },
@@ -645,11 +645,11 @@ export const guidesLinkBuildingTacticsT: Record<
         blocks: [
           {
             type: "p",
-            text: "Google lo ha dichiarato pubblicamente, più volte: i link sono uno dei tre principali fattori di ranking. Per l'e-commerce in particolare — dove si inseguono query transazionali come 'comprare scarpe da running' o 'migliore scrivania in piedi' — si è in competizione con siti che costruiscono autorità da anni. L'ottimizzazione on-page è il biglietto d'ingresso. I link sono ciò che separa davvero la prima dalla seconda pagina.",
+            text: "Google lo ha dichiarato pubblicamente, più volte: i link sono uno dei tre principali fattori di ranking. Per l'e-commerce in particolare, dove si inseguono query transazionali come 'comprare scarpe da running' o 'migliore scrivania in piedi', si è in competizione con siti che costruiscono autorità da anni. L'ottimizzazione on-page è il biglietto d'ingresso. I link sono ciò che separa davvero la prima dalla seconda pagina.",
           },
           {
             type: "p",
-            text: "Gli studi sui fattori di ranking di Ahrefs, Semrush e Backlinko mostrano costantemente che il Domain Rating (DR) e il numero di domini riferenti unici correlano con i ranking più fortemente di quasi qualsiasi variabile on-page. Questo non significa che l'on-page non conti — conta — ma per termini e-commerce competitivi, non si supera un sito DR 70 con un sito DR 20 solo scrivendo descrizioni prodotto migliori.",
+            text: "Gli studi sui fattori di ranking di Ahrefs, Semrush e Backlinko mostrano costantemente che il Domain Rating (DR) e il numero di domini riferenti unici correlano con i ranking più fortemente di quasi qualsiasi variabile on-page. Questo non significa che l'on-page non conti (conta), ma per termini e-commerce competitivi, non si supera un sito DR 70 con un sito DR 20 solo scrivendo descrizioni prodotto migliori.",
           },
           {
             type: "callout",
@@ -664,7 +664,7 @@ export const guidesLinkBuildingTacticsT: Record<
         blocks: [
           {
             type: "p",
-            text: "I giornalisti di pubblicazioni come Il Sole 24 Ore, Corriere della Sera, Tom's Hardware e riviste di settore specializzate scrivono costantemente selezioni 'migliori [categoria di prodotto]'. Un singolo link dofollow da un sito di riferimento può aumentare il tuo DR di 3-5 punti e generare traffico di referral che converte. Questi link non sono facili da ottenere — ma sono raggiungibili con l'approccio giusto.",
+            text: "I giornalisti di pubblicazioni come Il Sole 24 Ore, Corriere della Sera, Tom's Hardware e riviste di settore specializzate scrivono costantemente selezioni 'migliori [categoria di prodotto]'. Un singolo link dofollow da un sito di riferimento può aumentare il tuo DR di 3-5 punti e generare traffico di referral che converte. Questi link non sono facili da ottenere, ma sono raggiungibili con l'approccio giusto.",
           },
           {
             type: "p",
@@ -672,11 +672,11 @@ export const guidesLinkBuildingTacticsT: Record<
           },
           {
             type: "tip",
-            text: "La tua email di pitch deve avere al massimo tre frasi. Inizia con ciò che rende il tuo prodotto oggettivamente diverso — un risultato di test specifico, un'affermazione verificabile, un prezzo competitivo. Non inviare un comunicato stampa generico. I giornalisti li cancellano. Invia un messaggio breve, concreto, che rispetti il loro tempo.",
+            text: "La tua email di pitch deve avere al massimo tre frasi. Inizia con ciò che rende il tuo prodotto oggettivamente diverso: un risultato di test specifico, un'affermazione verificabile, un prezzo competitivo. Non inviare un comunicato stampa generico. I giornalisti li cancellano. Invia un messaggio breve, concreto, che rispetti il loro tempo.",
           },
           {
             type: "p",
-            text: "Invia campioni prodotto ogni volta che è possibile. Un giornalista che ha testato fisicamente il tuo prodotto è dieci volte più probabile che lo includa. Inserisci i campioni prodotto come spesa di marketing — è una delle voci con il ROI più alto nel link building.",
+            text: "Invia campioni prodotto ogni volta che è possibile. Un giornalista che ha testato fisicamente il tuo prodotto è dieci volte più probabile che lo includa. Inserisci i campioni prodotto come spesa di marketing. È una delle voci con il ROI più alto nel link building.",
           },
         ],
       },
@@ -686,7 +686,7 @@ export const guidesLinkBuildingTacticsT: Record<
         blocks: [
           {
             type: "p",
-            text: "Gli articoli ospiti hanno una cattiva reputazione perché la maggior parte delle persone li fa male. Propongono contenuto generico a qualsiasi sito che accetti ospiti, indipendentemente dalla rilevanza. I link ottenuti sono di scarsa qualità. Fatto bene — proporre contenuto genuinamente utile a pubblicazioni rilevanti e di alta autorità — il guest posting funziona ancora e produce link che muovono i ranking.",
+            text: "Gli articoli ospiti hanno una cattiva reputazione perché la maggior parte delle persone li fa male. Propongono contenuto generico a qualsiasi sito che accetti ospiti, indipendentemente dalla rilevanza. I link ottenuti sono di scarsa qualità. Fatto bene, cioè proporre contenuto davvero utile a pubblicazioni rilevanti e di alta autorità, il guest posting funziona ancora e produce link che muovono i ranking.",
           },
           {
             type: "p",
@@ -695,7 +695,7 @@ export const guidesLinkBuildingTacticsT: Record<
           {
             type: "callout",
             title: "Valutare i tuoi obiettivi",
-            text: "Prima di fare il pitch, controlla il DR del sito in Ahrefs (punta a DR 35+), verifica che il loro contenuto riceva traffico organico (Ahrefs Site Explorer — zero traffico organico significa che Google potrebbe già ignorarli), e verifica che abbiano già pubblicato articoli ospiti. Una pubblicazione che non ha mai pubblicato contenuto ospite non inizierà per te.",
+            text: "Prima di fare il pitch, controlla il DR del sito in Ahrefs (punta a DR 35+), verifica che il loro contenuto riceva traffico organico (Ahrefs Site Explorer; zero traffico organico significa che Google potrebbe già ignorarli), e verifica che abbiano già pubblicato articoli ospiti. Una pubblicazione che non ha mai pubblicato contenuto ospite non inizierà per te.",
           },
           {
             type: "list",
@@ -704,7 +704,7 @@ export const guidesLinkBuildingTacticsT: Record<
               "Leggere 3-4 articoli recenti del sito prima di fare il pitch — adattare tono e profondità",
               "Proporre un titolo specifico e un riassunto di 2 frasi, non una bozza completa",
               "Includere un link a un esempio di scrittura che dimostri che sai scrivere",
-              "Negoziare un link contestuale nel corpo dell'articolo — non solo nella biografia dell'autore",
+              "Negoziare un link contestuale nel corpo dell'articolo, non solo nella biografia dell'autore",
               "Fare un follow-up una volta dopo 10 giorni, poi passare oltre se non c'è risposta",
             ],
           },
@@ -716,11 +716,11 @@ export const guidesLinkBuildingTacticsT: Record<
         blocks: [
           {
             type: "p",
-            text: "Se vendi prodotti di altri marchi, quei marchi spesso hanno una pagina 'Dove comprare' o 'Rivenditori autorizzati' sul loro sito. Sono link altamente rilevanti — stesso settore, spesso DR alto — e la maggior parte dei negozi e-commerce non li persegue mai. Invia una breve email al team marketing o partnership di ogni marchio e chiedi di essere elencato. Il tasso di conversione di queste richieste è sorprendentemente alto perché sei già un cliente.",
+            text: "Se vendi prodotti di altri marchi, quei marchi spesso hanno una pagina 'Dove comprare' o 'Rivenditori autorizzati' sul loro sito. Sono link molto rilevanti, stesso settore, spesso DR alto, e la maggior parte dei negozi e-commerce non li persegue mai. Invia una breve email al team marketing o partnership di ogni marchio e chiedi di essere elencato. Il tasso di conversione di queste richieste è sorprendentemente alto perché sei già un cliente.",
           },
           {
             type: "p",
-            text: "La stessa logica si applica a qualsiasi relazione di partnership formale: provider di pagamento con case study di merchant, partner logistici con vetrine clienti, fornitori di software con directory di integrazioni. Ogni strumento o servizio che usi come azienda è una potenziale opportunità di link se hanno qualche tipo di presentazione di partner o clienti.",
+            text: "La stessa logica si applica a qualsiasi relazione di partnership formale: provider di pagamento con case study di merchant, partner logistici con pagine clienti, fornitori di software con directory di integrazioni. Ogni strumento o servizio che usi come azienda è una potenziale opportunità di link se hanno qualche tipo di pagina partner o clienti.",
           },
           {
             type: "tip",
@@ -755,7 +755,7 @@ export const guidesLinkBuildingTacticsT: Record<
           {
             type: "callout",
             title: "Cosa davvero non funziona",
-            text: "Comprare link in massa da link farm, spam nei commenti, iscrizioni a directory generiche — queste pratiche o non muovono nulla o ti valgono una penalità manuale di Google. L'aggiornamento Penguin del 2012 è stato progettato specificamente per svalutare gli schemi di link. Quattordici anni dopo, sta ancora facendo il suo lavoro. Costruisci link che un editore umano sceglierebbe di aggiungere.",
+            text: "Comprare link in massa da link farm, spam nei commenti, iscrizioni a directory generiche: queste pratiche o non muovono nulla o ti valgono una penalità manuale di Google. L'aggiornamento Penguin del 2012 è stato progettato specificamente per svalutare gli schemi di link. Quattordici anni dopo, sta ancora facendo il suo lavoro. Costruisci link che un editore umano sceglierebbe di aggiungere.",
           },
         ],
       },
@@ -769,7 +769,7 @@ export const guidesLinkBuildingTacticsT: Record<
           },
           {
             type: "p",
-            text: "Fissa un obiettivo mensile di 5-10 nuovi domini riferenti — raggiungibile per la maggior parte delle aziende e-commerce senza un link builder a tempo pieno. Assegna la responsabilità: una persona segue l'outreach, fa follow-up e riporta i risultati. Usa un semplice foglio di calcolo o uno strumento come Pitchbox o Hunter. Controlla il tuo DR mensilmente in Ahrefs e tieni traccia delle posizioni per le tue keyword obiettivo.",
+            text: "Fissa un obiettivo mensile di 5-10 nuovi domini riferenti, raggiungibile per la maggior parte delle aziende e-commerce senza un link builder a tempo pieno. Assegna la responsabilità: una persona segue l'outreach, fa follow-up e riporta i risultati. Usa un semplice foglio di calcolo o uno strumento come Pitchbox o Hunter. Controlla il tuo DR mensilmente in Ahrefs e tieni traccia delle posizioni per le tue keyword obiettivo.",
           },
           {
             type: "list",
@@ -778,12 +778,12 @@ export const guidesLinkBuildingTacticsT: Record<
               "Eseguire una campagna Digital PR per trimestre attorno a un nuovo prodotto o dati originali",
               "Mantenere una lista di prospect attiva in un foglio di calcolo — avere sempre 20+ obiettivi pronti",
               "Controllare Ahrefs mensilmente: tendenza DR, conteggio domini riferenti, link guadagnati vs persi",
-              "Abbandonare le tattiche che non convertono dopo 3 mesi — raddoppiare su ciò che funziona",
+              "Abbandonare le tattiche che non convertono dopo 3 mesi e raddoppiare su ciò che funziona",
             ],
           },
           {
             type: "tip",
-            text: "Il tuo miglior link bait nell'e-commerce sono i dati originali. Esegui un sondaggio, pubblica un report di settore o compila dati pubblicamente disponibili in qualcosa di utile e condivisibile. La ricerca originale genera sistematicamente link passivi da giornalisti e blogger — spesso senza alcun outreach.",
+            text: "Il tuo miglior link bait nell'e-commerce sono i dati originali. Esegui un sondaggio, pubblica un report di settore o compila dati pubblicamente disponibili in qualcosa di utile e condivisibile. La ricerca originale genera link passivi da giornalisti e blogger, spesso senza alcun outreach.",
           },
         ],
       },
@@ -802,11 +802,11 @@ export const guidesLinkBuildingTacticsT: Record<
         blocks: [
           {
             type: "p",
-            text: "Google heeft het publiekelijk en herhaaldelijk gezegd: links behoren tot de drie belangrijkste rankingfactoren. Voor e-commerce specifiek — waar je transactionele zoekopdrachten najaagt zoals 'hardloopschoenen kopen' of 'beste sta-bureau' — concurreer je met sites die al jaren autoriteit opbouwen. On-page optimalisatie is het toegangsbewijs. Links zijn wat pagina één van pagina twee scheidt.",
+            text: "Google heeft het publiekelijk en herhaaldelijk gezegd: links behoren tot de drie belangrijkste rankingfactoren. Voor e-commerce specifiek, waar je transactionele zoekopdrachten najaagt zoals 'hardloopschoenen kopen' of 'beste sta-bureau', concurreer je met sites die al jaren autoriteit opbouwen. On-page optimalisatie is het toegangsbewijs. Links zijn wat pagina één van pagina twee scheidt.",
           },
           {
             type: "p",
-            text: "Rankingfactorstudies van Ahrefs, Semrush en Backlinko tonen consistent aan dat Domain Rating (DR) en het aantal unieke verwijzende domeinen sterker correleren met rankings dan bijna elke on-page variabele. Dat betekent niet dat on-page er niet toe doet — dat doet het — maar voor competitieve e-commerce termen zul je een DR 70 site niet verslaan met een DR 20 site alleen door betere productbeschrijvingen te schrijven.",
+            text: "Rankingfactorstudies van Ahrefs, Semrush en Backlinko tonen consistent aan dat Domain Rating (DR) en het aantal unieke verwijzende domeinen sterker correleren met rankings dan bijna elke on-page variabele. Dat betekent niet dat on-page er niet toe doet (dat doet het), maar voor competitieve e-commerce termen zul je een DR 70 site niet verslaan met een DR 20 site alleen door betere productbeschrijvingen te schrijven.",
           },
           {
             type: "callout",
@@ -821,7 +821,7 @@ export const guidesLinkBuildingTacticsT: Record<
         blocks: [
           {
             type: "p",
-            text: "Journalisten bij publicaties zoals Tweakers, Consumentenbond, RTL Nieuws en verticale vakbladen schrijven voortdurend 'beste [productcategorie]'-roundups. Één enkele dofollow-link van een toonaangevende site kan je DR 3-5 punten verhogen en referral-verkeer genereren dat converteert. Deze links zijn niet gemakkelijk te krijgen — maar met de juiste aanpak zijn ze haalbaar.",
+            text: "Journalisten bij publicaties zoals Tweakers, Consumentenbond, RTL Nieuws en verticale vakbladen schrijven voortdurend 'beste [productcategorie]'-roundups. Één enkele dofollow-link van een toonaangevende site kan je DR 3-5 punten verhogen en referral-verkeer genereren dat converteert. Deze links zijn niet gemakkelijk te krijgen, maar met de juiste aanpak zijn ze haalbaar.",
           },
           {
             type: "p",
@@ -829,11 +829,11 @@ export const guidesLinkBuildingTacticsT: Record<
           },
           {
             type: "tip",
-            text: "Je pitch-e-mail mag maximaal drie zinnen hebben. Begin met wat jouw product objectief anders maakt — een specifiek testresultaat, een verifieerbare claim, een concurrerende prijs. Stuur geen generisch persbericht. Journalisten verwijderen die. Stuur een korte, concrete boodschap die hun tijd respecteert.",
+            text: "Je pitch-e-mail mag maximaal drie zinnen hebben. Begin met wat jouw product objectief anders maakt: een specifiek testresultaat, een verifieerbare claim, een concurrerende prijs. Stuur geen generisch persbericht. Journalisten verwijderen die. Stuur een korte, concrete boodschap die hun tijd respecteert.",
           },
           {
             type: "p",
-            text: "Stuur productsamples wanneer mogelijk. Een journalist die jouw product fysiek heeft getest, is tien keer zo waarschijnlijk om het op te nemen. Budgetteer productsamples als marketinguitgave — het is een van de posten met de hoogste ROI bij linkbuilding.",
+            text: "Stuur productsamples wanneer mogelijk. Een journalist die jouw product fysiek heeft getest, is tien keer zo waarschijnlijk om het op te nemen. Budgetteer productsamples als marketinguitgave. Het is een van de posten met de hoogste ROI bij linkbuilding.",
           },
         ],
       },
@@ -843,7 +843,7 @@ export const guidesLinkBuildingTacticsT: Record<
         blocks: [
           {
             type: "p",
-            text: "Gastartikelen hebben een slechte reputatie omdat de meeste mensen het verkeerd doen. Ze pitchen generieke content aan elke site die gastbijdragen accepteert, ongeacht de relevantie. De verkregen links zijn van lage kwaliteit. Goed gedaan — oprecht nuttige content pitchen aan relevante, hoogwaardige publicaties — werkt gastposting nog steeds en produceert links die rankings bewegen.",
+            text: "Gastartikelen hebben een slechte reputatie omdat de meeste mensen het verkeerd doen. Ze pitchen generieke content aan elke site die gastbijdragen accepteert, ongeacht de relevantie. De verkregen links zijn van lage kwaliteit. Goed gedaan, dus oprecht nuttige content pitchen aan relevante, hoogwaardige publicaties, werkt gastposting nog steeds en produceert links die rankings bewegen.",
           },
           {
             type: "p",
@@ -852,7 +852,7 @@ export const guidesLinkBuildingTacticsT: Record<
           {
             type: "callout",
             title: "Doelen beoordelen",
-            text: "Controleer voor het pitchen de DR van de site in Ahrefs (streef naar DR 35+), check dat hun content organisch verkeer krijgt (Ahrefs Site Explorer — nul organisch verkeer betekent dat Google ze mogelijk al negeert), en verifieer dat ze eerder gastartikelen hebben gepubliceerd. Een publicatie die nooit gastcontent heeft gepubliceerd, begint niet voor jou.",
+            text: "Controleer voor het pitchen de DR van de site in Ahrefs (streef naar DR 35+), check dat hun content organisch verkeer krijgt (Ahrefs Site Explorer; nul organisch verkeer betekent dat Google ze mogelijk al negeert), en verifieer dat ze eerder gastartikelen hebben gepubliceerd. Een publicatie die nooit gastcontent heeft gepubliceerd, begint niet voor jou.",
           },
           {
             type: "list",
@@ -861,7 +861,7 @@ export const guidesLinkBuildingTacticsT: Record<
               "3-4 recente artikelen op de site lezen voor het pitchen — toon en diepgang afstemmen",
               "Een specifieke artikeltitel en een samenvatting van 2 zinnen pitchen, geen volledig concept",
               "Een link naar een schrijfvoorbeeld bijvoegen dat bewijst dat je kunt schrijven",
-              "Onderhandelen over een contextuele link in de body — niet alleen in een auteursbio",
+              "Onderhandelen over een contextuele link in de body, niet alleen in een auteursbio",
               "Één keer follow-up na 10 dagen, dan doorgaan als er geen reactie komt",
             ],
           },
@@ -873,11 +873,11 @@ export const guidesLinkBuildingTacticsT: Record<
         blocks: [
           {
             type: "p",
-            text: "Als je producten van andere merken verkoopt, hebben die merken vaak een pagina 'Waar te koop' of 'Erkende dealers' op hun site. Dit zijn zeer relevante links — zelfde branche, vaak hoge DR — en de meeste e-commerce winkels gaan er nooit achteraan. Stuur een korte e-mail naar het marketing- of partnerschapsteam van elk merk en vraag om vermeld te worden. De conversieratio van deze verzoeken is verrassend hoog omdat je al klant bent.",
+            text: "Als je producten van andere merken verkoopt, hebben die merken vaak een pagina 'Waar te koop' of 'Erkende dealers' op hun site. Dit zijn zeer relevante links, zelfde branche, vaak hoge DR, en de meeste e-commerce winkels gaan er nooit achteraan. Stuur een korte e-mail naar het marketing- of partnerschapsteam van elk merk en vraag om vermeld te worden. De conversieratio van deze verzoeken is verrassend hoog omdat je al klant bent.",
           },
           {
             type: "p",
-            text: "Dezelfde logica geldt voor elke formele partnerrelatie: betalingsproviders met merchant-casestudies, fulfilmentpartners met klantvitines, softwareleveranciers met integratiemappen. Elke tool of dienst die je als bedrijf gebruikt, is een potentiële linkmogelijkheid als ze enige vorm van partner- of klantpresentatie hebben.",
+            text: "Dezelfde logica geldt voor elke formele partnerrelatie: betalingsproviders met merchant-casestudies, fulfilmentpartners met klantpagina's, softwareleveranciers met integratiemappen. Elke tool of dienst die je als bedrijf gebruikt, is een potentiële linkmogelijkheid als ze enige vorm van partner- of klantpagina hebben.",
           },
           {
             type: "tip",
