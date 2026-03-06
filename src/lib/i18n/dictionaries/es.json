@@ -273,5 +273,20 @@
     "title": "Todos los Servicios SEO E-commerce | EcomSEO",
     "description": "Todos los servicios SEO e-commerce que necesitas en un solo lugar. SEO tecnico, optimizacion on-page, construccion de enlaces, investigacion de palabras clave, redaccion de contenido y mas.",
     "ogTitle": "Todos los Servicios SEO E-commerce en Un Solo Lugar | EcomSEO"
+  },
+  "/tools": {
+    "title": "Herramientas SEO E-commerce Gratuitas | EcomSEO",
+    "description": "Herramientas SEO gratuitas creadas por especialistas en e-commerce. Comprueba la salud SEO de tu tienda y encuentra oportunidades de optimizacion.",
+    "ogTitle": "Herramientas SEO Gratuitas para Tiendas E-commerce | EcomSEO"
+  },
+  "/tools/shopify-seo-audit": {
+    "title": "Herramienta Gratuita de Auditoria SEO Shopify | EcomSEO",
+    "description": "Obtiene un chequeo completo de salud SEO para tu tienda Shopify. Analiza meta tags, velocidad de pagina, datos estructurados y mas.",
+    "ogTitle": "Auditoria SEO Shopify Gratuita - Comprueba la Salud SEO de Tu Tienda | EcomSEO"
+  },
+  "/tools/ecommerce-seo-audit": {
+    "title": "Herramienta Gratuita de Auditoria SEO E-commerce | EcomSEO",
+    "description": "Analiza la salud SEO de tu tienda online en cualquier plataforma. Obtiene recomendaciones accionables para mejores rankings.",
+    "ogTitle": "Auditoria SEO E-commerce Gratuita - Cualquier Plataforma | EcomSEO"
   }
 }

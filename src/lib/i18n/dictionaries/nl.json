@@ -273,5 +273,20 @@
     "title": "Alle E-commerce SEO Diensten | EcomSEO",
     "description": "Elke e-commerce SEO dienst die je nodig hebt op een plek. Technische SEO, on-page optimalisatie, linkbuilding, zoekwoordenonderzoek, contentschrijven en meer.",
     "ogTitle": "Alle E-commerce SEO Diensten op Een Plek | EcomSEO"
+  },
+  "/tools": {
+    "title": "Gratis E-commerce SEO Tools | EcomSEO",
+    "description": "Gratis SEO-tools gebouwd door e-commerce specialisten. Controleer de SEO-gezondheid van je winkel en vind optimalisatiekansen.",
+    "ogTitle": "Gratis SEO-tools voor E-commerce Winkels | EcomSEO"
+  },
+  "/tools/shopify-seo-audit": {
+    "title": "Gratis Shopify SEO Audit Tool | EcomSEO",
+    "description": "Krijg een volledige SEO-gezondheidscheck voor je Shopify winkel. Analyseer meta-tags, paginasnelheid, gestructureerde data en meer.",
+    "ogTitle": "Gratis Shopify SEO Audit - Controleer de SEO-Gezondheid van Je Winkel | EcomSEO"
+  },
+  "/tools/ecommerce-seo-audit": {
+    "title": "Gratis E-commerce SEO Audit Tool | EcomSEO",
+    "description": "Analyseer de SEO-gezondheid van je online winkel op elk platform. Krijg uitvoerbare aanbevelingen voor betere rankings.",
+    "ogTitle": "Gratis E-commerce SEO Audit - Elk Platform | EcomSEO"
   }
 }

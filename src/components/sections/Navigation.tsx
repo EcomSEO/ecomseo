@@ -314,6 +314,14 @@ export default function Navigation() {
                   </button>
                 </div>
 
+                {/* SEO Tools Link */}
+                <LocaleLink
+                  href="/tools"
+                  className="text-sm text-white/56 hover:text-white transition-colors"
+                >
+                  {t.seoTools}
+                </LocaleLink>
+
                 {/* Cases Link */}
                 <LocaleLink
                   href="/cases"
@@ -596,6 +604,15 @@ export default function Navigation() {
                 </div>
               )}
             </div>
+
+            {/* SEO Tools Link */}
+            <LocaleLink
+              href="/tools"
+              className="block py-3 text-white/70 hover:text-white border-b border-white/[0.06]"
+              onClick={() => setMobileOpen(false)}
+            >
+              {t.seoTools}
+            </LocaleLink>
 
             {/* Cases Link */}
             <LocaleLink

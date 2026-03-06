@@ -3,6 +3,7 @@ import type { Locale } from "../config";
 export const navigationTranslations: Record<Locale, {
   ecommerceSeo: string;
   resources: string;
+  seoTools: string;
   cases: string;
   blog: string;
   clientDashboard: string;
@@ -29,6 +30,7 @@ export const navigationTranslations: Record<Locale, {
   en: {
     ecommerceSeo: "Ecommerce SEO",
     resources: "Resources",
+    seoTools: "SEO Tools",
     cases: "Cases",
     blog: "Blog",
     clientDashboard: "Client Dashboard",
@@ -64,6 +66,7 @@ export const navigationTranslations: Record<Locale, {
   de: {
     ecommerceSeo: "E-Commerce SEO",
     resources: "Ressourcen",
+    seoTools: "SEO-Tools",
     cases: "Referenzen",
     blog: "Blog",
     clientDashboard: "Kunden-Dashboard",
@@ -99,6 +102,7 @@ export const navigationTranslations: Record<Locale, {
   fr: {
     ecommerceSeo: "SEO E-commerce",
     resources: "Ressources",
+    seoTools: "Outils SEO",
     cases: "Études de cas",
     blog: "Blog",
     clientDashboard: "Tableau de bord client",
@@ -134,6 +138,7 @@ export const navigationTranslations: Record<Locale, {
   es: {
     ecommerceSeo: "SEO E-commerce",
     resources: "Recursos",
+    seoTools: "Herramientas SEO",
     cases: "Casos de éxito",
     blog: "Blog",
     clientDashboard: "Panel de cliente",
@@ -169,6 +174,7 @@ export const navigationTranslations: Record<Locale, {
   it: {
     ecommerceSeo: "SEO E-commerce",
     resources: "Risorse",
+    seoTools: "Strumenti SEO",
     cases: "Casi studio",
     blog: "Blog",
     clientDashboard: "Dashboard cliente",
@@ -204,6 +210,7 @@ export const navigationTranslations: Record<Locale, {
   nl: {
     ecommerceSeo: "E-commerce SEO",
     resources: "Bronnen",
+    seoTools: "SEO-tools",
     cases: "Cases",
     blog: "Blog",
     clientDashboard: "Klanten Dashboard",

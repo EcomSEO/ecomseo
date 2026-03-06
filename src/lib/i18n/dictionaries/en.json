@@ -273,5 +273,20 @@
     "title": "All Ecommerce SEO Services | EcomSEO",
     "description": "Every ecommerce SEO service you need in one place. Technical SEO, on-page optimization, link building, keyword research, content writing, and more.",
     "ogTitle": "Every Ecommerce SEO Service You Need | EcomSEO"
+  },
+  "/tools": {
+    "title": "Free Ecommerce SEO Tools | EcomSEO",
+    "description": "Free SEO tools built by ecommerce specialists. Run SEO audits, validate schema, check meta tags, and uncover growth opportunities for your online store.",
+    "ogTitle": "Free SEO Tools for Ecommerce Stores | EcomSEO"
+  },
+  "/tools/shopify-seo-audit": {
+    "title": "Free Shopify SEO Audit Tool | EcomSEO",
+    "description": "Get a complete SEO health check for your Shopify store in under 30 seconds. Identify technical issues, content gaps, and ranking opportunities.",
+    "ogTitle": "Free Shopify SEO Audit - Check Your Store's SEO Health | EcomSEO"
+  },
+  "/tools/ecommerce-seo-audit": {
+    "title": "Free Ecommerce SEO Audit Tool | EcomSEO",
+    "description": "Analyze your online store's SEO health across any platform. Technical SEO, content quality, structured data, page speed, and mobile optimization checked.",
+    "ogTitle": "Free Ecommerce SEO Audit - Any Platform | EcomSEO"
   }
 }
