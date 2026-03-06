@@ -268,5 +268,20 @@
     "title": "Gratis Google SERP-simulator - Zoekresultaten Voorbeeld | EcomSEO",
     "description": "Bekijk hoe je pagina's eruitzien in de Google-zoekresultaten. Optimaliseer je title tags en meta descriptions voor maximale klikfrequentie.",
     "ogTitle": "Gratis SERP-simulator - Bekijk Je Google-zoeksnippets | EcomSEO"
+  },
+  "/tools/schema-generator": {
+    "title": "Gratis Product Schema Generator - JSON-LD Markup | EcomSEO",
+    "description": "Genereer geldige JSON-LD Product schema-markup voor je e-commerce pagina's. Krijg rich snippets met prijs, beschikbaarheid en reviews in Google.",
+    "ogTitle": "Gratis Product Schema Generator - Rich Snippets voor E-commerce | EcomSEO"
+  },
+  "/tools/og-checker": {
+    "title": "Gratis Open Graph Checker - Social Media Voorbeeld | EcomSEO",
+    "description": "Controleer hoe je pagina's eruitzien bij het delen op Facebook, Twitter/X en LinkedIn. Valideer Open Graph en Twitter Card meta-tags direct.",
+    "ogTitle": "Gratis Open Graph Checker - Bekijk Social Media Shares | EcomSEO"
+  },
+  "/tools/robots-txt-analyzer": {
+    "title": "Gratis Robots.txt Analyzer & Tester | EcomSEO",
+    "description": "Analyseer je robots.txt bestand op crawl-problemen. Test of specifieke URL's geblokkeerd of toegestaan zijn door je robots.txt regels.",
+    "ogTitle": "Gratis Robots.txt Analyzer - Test Je Crawl-regels | EcomSEO"
   }
 }

@@ -115,6 +115,40 @@ export default async function ToolsHubPage({
                   </svg>
                 }
               />
+              <ToolCard
+                title={t.schemaGenerator.title}
+                desc={t.schemaGenerator.desc}
+                href="/tools/schema-generator"
+                icon={
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+                    <path d="M16 18l6-6-6-6" /><path d="M8 6l-6 6 6 6" />
+                  </svg>
+                }
+              />
+              <ToolCard
+                title={t.ogChecker.title}
+                desc={t.ogChecker.desc}
+                href="/tools/og-checker"
+                icon={
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+                    <rect x="2" y="3" width="20" height="14" rx="2" />
+                    <path d="M8 21h8M12 17v4" />
+                    <path d="M7 8h4M7 11h6" />
+                  </svg>
+                }
+              />
+              <ToolCard
+                title={t.robotsAnalyzer.title}
+                desc={t.robotsAnalyzer.desc}
+                href="/tools/robots-txt-analyzer"
+                icon={
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+                    <rect x="3" y="11" width="18" height="10" rx="2" />
+                    <circle cx="12" cy="5" r="3" />
+                    <path d="M8 16h.01M16 16h.01M12 16h.01" />
+                  </svg>
+                }
+              />
             </div>
 
             {/* Coming soon */}

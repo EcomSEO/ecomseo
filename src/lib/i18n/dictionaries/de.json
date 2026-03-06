@@ -268,5 +268,20 @@
     "title": "Kostenloser Google SERP-Simulator - Suchergebnis-Vorschau | EcomSEO",
     "description": "Vorschau, wie Ihre Seiten in den Google-Suchergebnissen erscheinen. Optimieren Sie Titel-Tags und Meta-Beschreibungen fuer maximale Klickrate.",
     "ogTitle": "Kostenloser SERP-Simulator - Google-Snippet-Vorschau | EcomSEO"
+  },
+  "/tools/schema-generator": {
+    "title": "Kostenloser Produkt-Schema-Generator - JSON-LD Markup | EcomSEO",
+    "description": "Generieren Sie valides JSON-LD Product Schema-Markup fuer Ihre E-Commerce-Seiten. Erhalten Sie Rich Snippets mit Preis, Verfuegbarkeit und Bewertungen in Google.",
+    "ogTitle": "Kostenloser Produkt-Schema-Generator - Rich Snippets fuer E-Commerce | EcomSEO"
+  },
+  "/tools/og-checker": {
+    "title": "Kostenloser Open Graph Checker - Social Media Vorschau | EcomSEO",
+    "description": "Pruefen Sie, wie Ihre Seiten auf Facebook, Twitter/X und LinkedIn aussehen. Validieren Sie Open Graph und Twitter Card Meta-Tags sofort.",
+    "ogTitle": "Kostenloser Open Graph Checker - Social Media Vorschau | EcomSEO"
+  },
+  "/tools/robots-txt-analyzer": {
+    "title": "Kostenloser Robots.txt Analyzer & Tester | EcomSEO",
+    "description": "Analysieren Sie Ihre robots.txt-Datei auf Crawl-Probleme. Testen Sie, ob bestimmte URLs blockiert oder erlaubt sind.",
+    "ogTitle": "Kostenloser Robots.txt Analyzer - Crawl-Regeln testen | EcomSEO"
   }
 }

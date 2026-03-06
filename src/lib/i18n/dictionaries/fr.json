@@ -268,5 +268,20 @@
     "title": "Simulateur SERP Google Gratuit - Apercu des Resultats | EcomSEO",
     "description": "Visualisez comment vos pages apparaissent dans les resultats de recherche Google. Optimisez vos balises titre et meta descriptions pour un taux de clics maximum.",
     "ogTitle": "Simulateur SERP Gratuit - Apercu de Vos Snippets Google | EcomSEO"
+  },
+  "/tools/schema-generator": {
+    "title": "Generateur de Schema Produit Gratuit - Balisage JSON-LD | EcomSEO",
+    "description": "Generez du balisage JSON-LD Product valide pour vos pages e-commerce. Obtenez des rich snippets avec prix, disponibilite et avis dans Google.",
+    "ogTitle": "Generateur de Schema Produit Gratuit - Rich Snippets E-commerce | EcomSEO"
+  },
+  "/tools/og-checker": {
+    "title": "Verificateur Open Graph Gratuit - Apercu Reseaux Sociaux | EcomSEO",
+    "description": "Verifiez comment vos pages apparaissent sur Facebook, Twitter/X et LinkedIn. Validez les balises Open Graph et Twitter Card instantanement.",
+    "ogTitle": "Verificateur Open Graph Gratuit - Apercu des Partages Sociaux | EcomSEO"
+  },
+  "/tools/robots-txt-analyzer": {
+    "title": "Analyseur Robots.txt Gratuit & Testeur | EcomSEO",
+    "description": "Analysez votre fichier robots.txt pour les problemes de crawl. Testez si des URLs specifiques sont bloquees ou autorisees.",
+    "ogTitle": "Analyseur Robots.txt Gratuit - Testez Vos Regles de Crawl | EcomSEO"
   }
 }
