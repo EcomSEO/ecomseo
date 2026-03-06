@@ -40,11 +40,11 @@ export default function Services() {
   const t = servicesT[locale];
 
   return (
-    <SectionWrapper className="py-24 md:py-32">
-      <div className="flex flex-col items-center gap-12">
+    <SectionWrapper className="py-16">
+      <div className="flex flex-col items-center gap-16">
         {/* ─── Header (centered) ─── */}
         <motion.div
-          className="flex flex-col items-center gap-4 max-w-[700px] text-center"
+          className="flex flex-col items-center gap-6 max-w-[700px] text-center"
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-100px" }}

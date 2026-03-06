@@ -30,7 +30,7 @@ export default function AboutUs() {
   const t = aboutUsT[locale];
 
   return (
-    <SectionWrapper className="py-24 md:py-32">
+    <SectionWrapper className="py-16">
       <div className="flex flex-col items-center gap-12">
         <motion.div
           className="flex flex-col items-center text-center gap-6 max-w-[800px]"

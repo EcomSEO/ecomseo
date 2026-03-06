@@ -35,10 +35,10 @@ export default function Team() {
   const fabian = { ...t.members[0], image: fabianImage };
 
   return (
-    <SectionWrapper className="py-24 md:py-32">
-      <div className="flex flex-col gap-12">
+    <SectionWrapper className="py-16">
+      <div className="flex flex-col gap-16">
         {/* ─── Hero row: Fabian photo + text side by side ─── */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-center">
           {/* Left – Fabian photo card */}
           <motion.div
             className="relative rounded-3xl overflow-hidden border border-border h-[480px] lg:h-[520px]"

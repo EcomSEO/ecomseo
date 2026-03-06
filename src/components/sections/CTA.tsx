@@ -28,7 +28,7 @@ export default function CTA() {
   const t = ctaT[locale];
 
   return (
-    <section className="w-full px-5 md:px-16 pt-16 pb-24 md:pt-16 md:pb-24">
+    <section className="w-full px-6 md:px-8 lg:px-16 pt-16 pb-24">
       <div className="mx-auto max-w-[1000px] w-full">
         <motion.div
           className="relative rounded-3xl bg-bg-cta border border-border overflow-hidden"

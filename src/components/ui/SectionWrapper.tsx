@@ -10,7 +10,7 @@ export default function SectionWrapper({
   id,
 }: SectionWrapperProps) {
   return (
-    <section id={id} className={`w-full px-5 md:px-16 ${className}`}>
+    <section id={id} className={`w-full px-6 md:px-8 lg:px-16 ${className}`}>
       <div className="mx-auto max-w-[1200px] w-full">{children}</div>
     </section>
   );

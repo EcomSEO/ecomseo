@@ -88,8 +88,8 @@ export default function FAQ() {
   const [openIndex, setOpenIndex] = useState<number | null>(0);
 
   return (
-    <SectionWrapper id="faq" className="py-24 md:py-32">
-      <div className="flex flex-col items-center gap-12">
+    <SectionWrapper id="faq" className="py-16">
+      <div className="flex flex-col items-center gap-6">
         <motion.div
           className="flex flex-col items-center text-center gap-4 max-w-[700px]"
           initial={{ opacity: 0, y: 30 }}

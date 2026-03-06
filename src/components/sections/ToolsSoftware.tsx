@@ -13,7 +13,7 @@ const toolLogos = [
 
 export default function ToolsSoftware() {
   return (
-    <section className="w-full py-8 overflow-hidden">
+    <section className="w-full pt-8 pb-16 overflow-hidden">
       <div className="relative overflow-hidden">
         {/* Edge fade masks */}
         <div className="pointer-events-none absolute inset-y-0 left-0 z-10 w-24 bg-gradient-to-r from-background to-transparent" />

@@ -72,11 +72,11 @@ export default function DataFeeds() {
   const t = dataFeedsT[locale];
 
   return (
-    <SectionWrapper className="py-24 md:py-32">
+    <SectionWrapper className="py-0">
       <div className="flex flex-col items-center text-center gap-12">
         {/* ─── Header ─── */}
         <motion.div
-          className="flex flex-col items-center gap-4 max-w-[700px]"
+          className="flex flex-col items-center gap-6 max-w-[700px]"
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-100px" }}
