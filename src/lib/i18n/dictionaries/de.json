@@ -363,5 +363,10 @@
     "title": "Kostenloser Seitengeschwindigkeits-Vergleich | EcomSEO",
     "description": "Vergleichen Sie die Seitengeschwindigkeit mehrerer Websites nebeneinander. Kostenloses Tool.",
     "ogTitle": "Kostenloser Seitengeschwindigkeits-Vergleich | EcomSEO"
+  },
+  "/tools/sitemap-extractor": {
+    "title": "Kostenloser Sitemap URL Extractor | EcomSEO",
+    "description": "Extrahieren Sie alle URLs aus jeder XML-Sitemap oder Sitemap-Index-Datei. Lastmod-, Changefreq- und Prioritätsdaten anzeigen. CSV-Export. Kostenloses SEO-Tool.",
+    "ogTitle": "Kostenloser Sitemap URL Extractor | EcomSEO"
   }
 }

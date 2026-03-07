@@ -363,5 +363,10 @@
     "title": "Free Site Speed Comparison Tool | EcomSEO",
     "description": "Compare page speed performance across multiple websites side by side. Benchmark your site against competitors with Google PageSpeed data. Free tool.",
     "ogTitle": "Free Site Speed Comparison - Benchmark vs Competitors | EcomSEO"
+  },
+  "/tools/sitemap-extractor": {
+    "title": "Free Sitemap URL Extractor - Extract URLs from XML Sitemaps | EcomSEO",
+    "description": "Extract all URLs from any XML sitemap or sitemap index file. View lastmod, changefreq and priority data. Export to CSV. Free SEO tool.",
+    "ogTitle": "Free Sitemap URL Extractor - Parse & Export XML Sitemap URLs | EcomSEO"
   }
 }

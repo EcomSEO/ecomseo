@@ -191,4 +191,5 @@ export const staticRoutes = [
   "/tools/shopping-feed-validator",
   "/tools/internal-link-analyzer",
   "/tools/site-speed-comparison",
+  "/tools/sitemap-extractor",
 ];

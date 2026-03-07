@@ -363,5 +363,10 @@
     "title": "Gratis Sitesnelheid Vergelijking | EcomSEO",
     "description": "Vergelijk paginasnelheidsprestaties tussen meerdere websites naast elkaar. Gratis tool.",
     "ogTitle": "Gratis Sitesnelheid Vergelijking | EcomSEO"
+  },
+  "/tools/sitemap-extractor": {
+    "title": "Gratis Sitemap URL Extractor | EcomSEO",
+    "description": "Haal alle URL's op uit elke XML-sitemap of sitemap-indexbestand. Bekijk lastmod, changefreq en prioriteit. Exporteer naar CSV. Gratis SEO-tool.",
+    "ogTitle": "Gratis Sitemap URL Extractor | EcomSEO"
   }
 }

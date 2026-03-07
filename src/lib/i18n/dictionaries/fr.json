@@ -363,5 +363,10 @@
     "title": "Comparaison Vitesse de Site Gratuite | EcomSEO",
     "description": "Comparez la vitesse de page entre plusieurs sites côte à côte. Outil gratuit.",
     "ogTitle": "Comparaison Vitesse de Site Gratuite | EcomSEO"
+  },
+  "/tools/sitemap-extractor": {
+    "title": "Extracteur d'URLs Sitemap Gratuit | EcomSEO",
+    "description": "Extrayez toutes les URLs de n'importe quel sitemap XML ou fichier index. Visualisez lastmod, changefreq et priorité. Export CSV. Outil SEO gratuit.",
+    "ogTitle": "Extracteur d'URLs Sitemap Gratuit | EcomSEO"
   }
 }

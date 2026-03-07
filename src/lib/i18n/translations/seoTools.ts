@@ -975,6 +975,14 @@ export const seoToolsHubT: Record<Locale, {
   badge: string;
   heading: string;
   subtitle: string;
+  categories: {
+    siteAudits: string;
+    onPageContent: string;
+    technicalSeo: string;
+    structuredData: string;
+    sitemapsCrawling: string;
+    ecommerceInternational: string;
+  };
   shopifyAudit: { title: string; desc: string };
   ecommerceAudit: { title: string; desc: string };
   serpSimulator: { title: string; desc: string };
@@ -997,12 +1005,21 @@ export const seoToolsHubT: Record<Locale, {
   shoppingFeedValidator: { title: string; desc: string };
   internalLinkAnalyzer: { title: string; desc: string };
   siteSpeedComparison: { title: string; desc: string };
+  sitemapExtractor: { title: string; desc: string };
   comingSoon: string;
 }> = {
   en: {
     badge: "Free SEO Tools",
     heading: "Ecommerce SEO Tools",
     subtitle: "Free, no-signup tools built by ecommerce SEO specialists. Run audits, validate schema, check meta tags, and more.",
+    categories: {
+      siteAudits: "Site Audits",
+      onPageContent: "On-Page & Content",
+      technicalSeo: "Technical SEO",
+      structuredData: "Structured Data & Social",
+      sitemapsCrawling: "Sitemaps & Crawling",
+      ecommerceInternational: "Ecommerce & International",
+    },
     shopifyAudit: { title: "Shopify SEO Audit", desc: "Complete SEO health check for Shopify and Shopify Plus stores" },
     ecommerceAudit: { title: "Ecommerce SEO Audit", desc: "Platform-agnostic SEO audit for any online store" },
     serpSimulator: { title: "SERP Simulator", desc: "Preview how your pages look in Google search results" },
@@ -1025,12 +1042,21 @@ export const seoToolsHubT: Record<Locale, {
     shoppingFeedValidator: { title: "Shopping Feed Validator", desc: "Validate Google Merchant Center product feed data" },
     internalLinkAnalyzer: { title: "Internal Link Analyzer", desc: "Map internal links, find orphan pages, and check link depth" },
     siteSpeedComparison: { title: "Site Speed Comparison", desc: "Compare page speed performance across multiple sites" },
+    sitemapExtractor: { title: "Sitemap URL Extractor", desc: "Extract and export all URLs from any XML sitemap" },
     comingSoon: "More tools coming soon",
   },
   de: {
     badge: "Kostenlose SEO-Tools",
     heading: "E-Commerce SEO-Tools",
     subtitle: "Kostenlose Tools ohne Registrierung, entwickelt von E-Commerce-SEO-Spezialisten.",
+    categories: {
+      siteAudits: "Website-Audits",
+      onPageContent: "On-Page & Inhalte",
+      technicalSeo: "Technisches SEO",
+      structuredData: "Strukturierte Daten & Social",
+      sitemapsCrawling: "Sitemaps & Crawling",
+      ecommerceInternational: "E-Commerce & International",
+    },
     shopifyAudit: { title: "Shopify SEO-Audit", desc: "Vollständiger SEO-Gesundheitscheck für Shopify und Shopify Plus Shops" },
     ecommerceAudit: { title: "E-Commerce SEO-Audit", desc: "Plattformunabhängiges SEO-Audit für jeden Online-Shop" },
     serpSimulator: { title: "SERP-Simulator", desc: "Vorschau, wie Ihre Seiten in den Google-Suchergebnissen aussehen" },
@@ -1053,12 +1079,21 @@ export const seoToolsHubT: Record<Locale, {
     shoppingFeedValidator: { title: "Shopping-Feed-Validator", desc: "Google Merchant Center Produktfeed-Daten validieren" },
     internalLinkAnalyzer: { title: "Interne-Link-Analyse", desc: "Interne Links kartieren, verwaiste Seiten finden und Linktiefe prüfen" },
     siteSpeedComparison: { title: "Seitengeschwindigkeits-Vergleich", desc: "Page-Speed-Performance über mehrere Websites vergleichen" },
+    sitemapExtractor: { title: "Sitemap URL Extractor", desc: "Alle URLs aus einer XML-Sitemap extrahieren und exportieren" },
     comingSoon: "Weitere Tools folgen",
   },
   fr: {
     badge: "Outils SEO gratuits",
     heading: "Outils SEO E-commerce",
     subtitle: "Outils gratuits sans inscription, conçus par des spécialistes SEO e-commerce.",
+    categories: {
+      siteAudits: "Audits de Site",
+      onPageContent: "On-Page & Contenu",
+      technicalSeo: "SEO Technique",
+      structuredData: "Données Structurées & Social",
+      sitemapsCrawling: "Sitemaps & Exploration",
+      ecommerceInternational: "E-commerce & International",
+    },
     shopifyAudit: { title: "Audit SEO Shopify", desc: "Bilan SEO complet pour les boutiques Shopify et Shopify Plus" },
     ecommerceAudit: { title: "Audit SEO E-commerce", desc: "Audit SEO indépendant de la plateforme pour toute boutique en ligne" },
     serpSimulator: { title: "Simulateur SERP", desc: "Visualisez comment vos pages apparaissent dans les resultats Google" },
@@ -1081,12 +1116,21 @@ export const seoToolsHubT: Record<Locale, {
     shoppingFeedValidator: { title: "Validateur de Flux Shopping", desc: "Validez les données de flux produit Google Merchant Center" },
     internalLinkAnalyzer: { title: "Analyseur de Liens Internes", desc: "Cartographiez les liens internes, trouvez les pages orphelines" },
     siteSpeedComparison: { title: "Comparaison Vitesse de Site", desc: "Comparez la performance de vitesse entre plusieurs sites" },
+    sitemapExtractor: { title: "Extracteur d'URLs Sitemap", desc: "Extrayez et exportez toutes les URLs d'un sitemap XML" },
     comingSoon: "Plus d'outils à venir",
   },
   es: {
     badge: "Herramientas SEO gratuitas",
     heading: "Herramientas SEO E-commerce",
     subtitle: "Herramientas gratuitas sin registro, creadas por especialistas en SEO e-commerce.",
+    categories: {
+      siteAudits: "Auditorías de Sitio",
+      onPageContent: "On-Page & Contenido",
+      technicalSeo: "SEO Técnico",
+      structuredData: "Datos Estructurados & Social",
+      sitemapsCrawling: "Sitemaps & Rastreo",
+      ecommerceInternational: "E-commerce & Internacional",
+    },
     shopifyAudit: { title: "Auditoría SEO Shopify", desc: "Chequeo SEO completo para tiendas Shopify y Shopify Plus" },
     ecommerceAudit: { title: "Auditoría SEO E-commerce", desc: "Auditoría SEO independiente de plataforma para cualquier tienda online" },
     serpSimulator: { title: "Simulador SERP", desc: "Previsualiza como se ven tus paginas en los resultados de Google" },
@@ -1109,12 +1153,21 @@ export const seoToolsHubT: Record<Locale, {
     shoppingFeedValidator: { title: "Validador de Feed Shopping", desc: "Valida los datos del feed de productos de Google Merchant Center" },
     internalLinkAnalyzer: { title: "Analizador de Enlaces Internos", desc: "Mapea enlaces internos, encuentra páginas huérfanas y profundidad de enlaces" },
     siteSpeedComparison: { title: "Comparación de Velocidad", desc: "Compara el rendimiento de velocidad entre múltiples sitios" },
+    sitemapExtractor: { title: "Extractor de URLs de Sitemap", desc: "Extrae y exporta todas las URLs de un sitemap XML" },
     comingSoon: "Más herramientas próximamente",
   },
   it: {
     badge: "Strumenti SEO gratuiti",
     heading: "Strumenti SEO E-commerce",
     subtitle: "Strumenti gratuiti senza registrazione, creati da specialisti SEO e-commerce.",
+    categories: {
+      siteAudits: "Audit del Sito",
+      onPageContent: "On-Page & Contenuti",
+      technicalSeo: "SEO Tecnico",
+      structuredData: "Dati Strutturati & Social",
+      sitemapsCrawling: "Sitemaps & Scansione",
+      ecommerceInternational: "E-commerce & Internazionale",
+    },
     shopifyAudit: { title: "Audit SEO Shopify", desc: "Controllo SEO completo per negozi Shopify e Shopify Plus" },
     ecommerceAudit: { title: "Audit SEO E-commerce", desc: "Audit SEO indipendente dalla piattaforma per qualsiasi negozio online" },
     serpSimulator: { title: "Simulatore SERP", desc: "Anteprima di come le tue pagine appaiono nei risultati Google" },
@@ -1137,12 +1190,21 @@ export const seoToolsHubT: Record<Locale, {
     shoppingFeedValidator: { title: "Validatore Feed Shopping", desc: "Valida i dati del feed prodotti di Google Merchant Center" },
     internalLinkAnalyzer: { title: "Analizzatore Link Interni", desc: "Mappa i link interni, trova pagine orfane e profondità dei link" },
     siteSpeedComparison: { title: "Confronto Velocità Sito", desc: "Confronta le prestazioni di velocità tra più siti" },
+    sitemapExtractor: { title: "Estrattore URL Sitemap", desc: "Estrai ed esporta tutti gli URL da una sitemap XML" },
     comingSoon: "Altri strumenti in arrivo",
   },
   nl: {
     badge: "Gratis SEO-tools",
     heading: "E-commerce SEO-tools",
     subtitle: "Gratis tools zonder registratie, gebouwd door e-commerce SEO-specialisten.",
+    categories: {
+      siteAudits: "Website Audits",
+      onPageContent: "On-Page & Inhoud",
+      technicalSeo: "Technische SEO",
+      structuredData: "Gestructureerde Data & Social",
+      sitemapsCrawling: "Sitemaps & Crawling",
+      ecommerceInternational: "E-commerce & Internationaal",
+    },
     shopifyAudit: { title: "Shopify SEO-audit", desc: "Volledige SEO-gezondheidscheck voor Shopify en Shopify Plus winkels" },
     ecommerceAudit: { title: "E-commerce SEO-audit", desc: "Platformonafhankelijke SEO-audit voor elke webshop" },
     serpSimulator: { title: "SERP-simulator", desc: "Bekijk hoe je pagina's eruitzien in de Google-zoekresultaten" },
@@ -1165,6 +1227,7 @@ export const seoToolsHubT: Record<Locale, {
     shoppingFeedValidator: { title: "Shopping Feed Validator", desc: "Valideer Google Merchant Center productfeed-gegevens" },
     internalLinkAnalyzer: { title: "Interne Link Analyse", desc: "Breng interne links in kaart, vind wees-pagina's en controleer linkdiepte" },
     siteSpeedComparison: { title: "Sitesnelheid Vergelijking", desc: "Vergelijk paginasnelheidsprestaties tussen meerdere sites" },
+    sitemapExtractor: { title: "Sitemap URL Extractor", desc: "Haal alle URL's op en exporteer ze uit een XML-sitemap" },
     comingSoon: "Meer tools volgen binnenkort",
   },
 };
@@ -7532,6 +7595,327 @@ export const hreflangValidatorT: Record<Locale, HreflangValidatorTranslation> = 
       { q: "Waarom is zelfreferentie belangrijk?", a: "Elke pagina moet een hreflang-tag bevatten die naar zichzelf verwijst." },
       { q: "Wat is x-default?", a: "De x-default waarde dient als terugvaloptie voor gebruikers wier taal niet overeenkomt met een opgegeven hreflang." },
       { q: "Hebben hreflang-tags absolute URL's nodig?", a: "Ja. Google vereist volledig gekwalificeerde absolute URL's inclusief het protocol (https://)." },
+    ],
+  },
+};
+
+/* ─────────────────────────  Sitemap URL Extractor  ───────────────────────── */
+
+export interface SitemapExtractorTranslation {
+  badge: string;
+  heading: string;
+  subtitle: string;
+  urlLabel: string;
+  urlPlaceholder: string;
+  urlHint: string;
+  extractButton: string;
+  extracting: string;
+  errorEmpty: string;
+  errorInvalid: string;
+  errorFetch: string;
+  totalUrls: string;
+  sitemapsProcessed: string;
+  urlsWithLastmod: string;
+  urlsWithPriority: string;
+  searchPlaceholder: string;
+  exportCsv: string;
+  locHeader: string;
+  lastmodHeader: string;
+  changefreqHeader: string;
+  priorityHeader: string;
+  noUrls: string;
+  isSitemapIndexLabel: string;
+  ctaBottom: string;
+  ctaBottomDesc: string;
+  ctaBottomButton: string;
+  features: string[];
+  howItWorksTitle: string;
+  howItWorksSteps: { title: string; desc: string }[];
+  faqTitle: string;
+  faqs: { q: string; a: string }[];
+}
+
+export const sitemapExtractorT: Record<Locale, SitemapExtractorTranslation> = {
+  en: {
+    badge: "Free SEO Tool",
+    heading: "Sitemap URL Extractor",
+    subtitle: "Extract all URLs from any XML sitemap. Supports sitemap index files, shows lastmod and priority data, and lets you export everything to CSV.",
+    urlLabel: "Sitemap URL",
+    urlPlaceholder: "https://example.com/sitemap.xml",
+    urlHint: "Enter the full URL of an XML sitemap or sitemap index",
+    extractButton: "Extract URLs",
+    extracting: "Extracting...",
+    errorEmpty: "Please enter a sitemap URL.",
+    errorInvalid: "Please enter a valid URL starting with http:// or https://",
+    errorFetch: "Could not fetch or parse the sitemap. Check the URL and try again.",
+    totalUrls: "Total URLs",
+    sitemapsProcessed: "Sitemaps Processed",
+    urlsWithLastmod: "With Lastmod",
+    urlsWithPriority: "With Priority",
+    searchPlaceholder: "Filter URLs...",
+    exportCsv: "Export CSV",
+    locHeader: "URL",
+    lastmodHeader: "Last Modified",
+    changefreqHeader: "Change Freq",
+    priorityHeader: "Priority",
+    noUrls: "No URLs found in this sitemap.",
+    isSitemapIndexLabel: "Sitemap Index detected",
+    ctaBottom: "Need help with your sitemap strategy?",
+    ctaBottomDesc: "Our SEO experts can audit your sitemap structure and ensure all important pages are properly indexed.",
+    ctaBottomButton: "Get Expert Help",
+    features: [
+      "Parses both regular sitemaps and sitemap index files",
+      "Extracts lastmod, changefreq and priority metadata",
+      "Export all URLs to CSV with one click",
+      "Filter and search within extracted URLs",
+    ],
+    howItWorksTitle: "How It Works",
+    howItWorksSteps: [
+      { title: "Enter URL", desc: "Paste the URL of your XML sitemap or sitemap index file." },
+      { title: "Extract", desc: "We fetch and parse the sitemap, following sitemap index references automatically." },
+      { title: "Analyze & Export", desc: "View all URLs with metadata, filter results, and download as CSV." },
+    ],
+    faqTitle: "Frequently Asked Questions",
+    faqs: [
+      { q: "What is a sitemap index?", a: "A sitemap index is an XML file that references multiple individual sitemaps. This tool automatically detects and follows sitemap index files." },
+      { q: "How many URLs can be extracted?", a: "The tool can extract up to 10,000 URLs per request. For larger sitemaps, consider splitting them into smaller files." },
+      { q: "What metadata is extracted?", a: "The tool extracts the URL (loc), last modification date (lastmod), change frequency (changefreq), and priority for each entry." },
+      { q: "Does this work with compressed sitemaps?", a: "Currently this tool works with uncompressed XML sitemaps. For .gz compressed sitemaps, you will need to decompress them first." },
+    ],
+  },
+  de: {
+    badge: "Kostenloses SEO-Tool",
+    heading: "Sitemap URL Extractor",
+    subtitle: "Extrahieren Sie alle URLs aus jeder XML-Sitemap. Unterstützt Sitemap-Index-Dateien, zeigt Lastmod- und Prioritätsdaten an und ermöglicht den CSV-Export.",
+    urlLabel: "Sitemap-URL",
+    urlPlaceholder: "https://example.com/sitemap.xml",
+    urlHint: "Geben Sie die vollständige URL einer XML-Sitemap oder eines Sitemap-Index ein",
+    extractButton: "URLs extrahieren",
+    extracting: "Wird extrahiert...",
+    errorEmpty: "Bitte geben Sie eine Sitemap-URL ein.",
+    errorInvalid: "Bitte geben Sie eine gültige URL ein, die mit http:// oder https:// beginnt",
+    errorFetch: "Die Sitemap konnte nicht abgerufen oder analysiert werden. Prüfen Sie die URL und versuchen Sie es erneut.",
+    totalUrls: "URLs gesamt",
+    sitemapsProcessed: "Sitemaps verarbeitet",
+    urlsWithLastmod: "Mit Lastmod",
+    urlsWithPriority: "Mit Priorität",
+    searchPlaceholder: "URLs filtern...",
+    exportCsv: "CSV exportieren",
+    locHeader: "URL",
+    lastmodHeader: "Zuletzt geändert",
+    changefreqHeader: "Änderungsfreq.",
+    priorityHeader: "Priorität",
+    noUrls: "Keine URLs in dieser Sitemap gefunden.",
+    isSitemapIndexLabel: "Sitemap-Index erkannt",
+    ctaBottom: "Brauchen Sie Hilfe bei Ihrer Sitemap-Strategie?",
+    ctaBottomDesc: "Unsere SEO-Experten können Ihre Sitemap-Struktur prüfen und sicherstellen, dass alle wichtigen Seiten korrekt indexiert werden.",
+    ctaBottomButton: "Expertenrat einholen",
+    features: [
+      "Analysiert sowohl reguläre Sitemaps als auch Sitemap-Index-Dateien",
+      "Extrahiert Lastmod-, Changefreq- und Prioritäts-Metadaten",
+      "Exportieren Sie alle URLs mit einem Klick als CSV",
+      "Filtern und suchen Sie innerhalb der extrahierten URLs",
+    ],
+    howItWorksTitle: "So funktioniert es",
+    howItWorksSteps: [
+      { title: "URL eingeben", desc: "Fügen Sie die URL Ihrer XML-Sitemap oder Sitemap-Index-Datei ein." },
+      { title: "Extrahieren", desc: "Wir rufen die Sitemap ab und folgen automatisch Sitemap-Index-Verweisen." },
+      { title: "Analysieren & Exportieren", desc: "Sehen Sie alle URLs mit Metadaten, filtern Sie Ergebnisse und laden Sie sie als CSV herunter." },
+    ],
+    faqTitle: "Häufig gestellte Fragen",
+    faqs: [
+      { q: "Was ist ein Sitemap-Index?", a: "Ein Sitemap-Index ist eine XML-Datei, die auf mehrere einzelne Sitemaps verweist. Dieses Tool erkennt und folgt Sitemap-Index-Dateien automatisch." },
+      { q: "Wie viele URLs können extrahiert werden?", a: "Das Tool kann bis zu 10.000 URLs pro Anfrage extrahieren. Für größere Sitemaps empfehlen wir eine Aufteilung in kleinere Dateien." },
+      { q: "Welche Metadaten werden extrahiert?", a: "Das Tool extrahiert die URL (loc), das Datum der letzten Änderung (lastmod), die Änderungsfrequenz (changefreq) und die Priorität." },
+      { q: "Funktioniert dies mit komprimierten Sitemaps?", a: "Aktuell funktioniert das Tool mit unkomprimierten XML-Sitemaps. Für .gz-komprimierte Sitemaps müssen diese vorher entpackt werden." },
+    ],
+  },
+  fr: {
+    badge: "Outil SEO Gratuit",
+    heading: "Extracteur d'URLs Sitemap",
+    subtitle: "Extrayez toutes les URLs de n'importe quel sitemap XML. Prend en charge les fichiers index de sitemaps, affiche les données lastmod et priorité, et permet l'export CSV.",
+    urlLabel: "URL du Sitemap",
+    urlPlaceholder: "https://example.com/sitemap.xml",
+    urlHint: "Entrez l'URL complète d'un sitemap XML ou d'un index de sitemaps",
+    extractButton: "Extraire les URLs",
+    extracting: "Extraction en cours...",
+    errorEmpty: "Veuillez entrer une URL de sitemap.",
+    errorInvalid: "Veuillez entrer une URL valide commençant par http:// ou https://",
+    errorFetch: "Impossible de récupérer ou d'analyser le sitemap. Vérifiez l'URL et réessayez.",
+    totalUrls: "URLs totales",
+    sitemapsProcessed: "Sitemaps traités",
+    urlsWithLastmod: "Avec Lastmod",
+    urlsWithPriority: "Avec Priorité",
+    searchPlaceholder: "Filtrer les URLs...",
+    exportCsv: "Exporter CSV",
+    locHeader: "URL",
+    lastmodHeader: "Dernière modification",
+    changefreqHeader: "Fréq. modification",
+    priorityHeader: "Priorité",
+    noUrls: "Aucune URL trouvée dans ce sitemap.",
+    isSitemapIndexLabel: "Index de sitemaps détecté",
+    ctaBottom: "Besoin d'aide pour votre stratégie sitemap ?",
+    ctaBottomDesc: "Nos experts SEO peuvent auditer la structure de votre sitemap et garantir que toutes les pages importantes sont correctement indexées.",
+    ctaBottomButton: "Obtenir l'aide d'un expert",
+    features: [
+      "Analyse les sitemaps classiques et les fichiers index de sitemaps",
+      "Extrait les métadonnées lastmod, changefreq et priorité",
+      "Exportez toutes les URLs en CSV en un clic",
+      "Filtrez et recherchez parmi les URLs extraites",
+    ],
+    howItWorksTitle: "Comment ça fonctionne",
+    howItWorksSteps: [
+      { title: "Entrez l'URL", desc: "Collez l'URL de votre sitemap XML ou fichier index de sitemaps." },
+      { title: "Extraire", desc: "Nous récupérons et analysons le sitemap, en suivant automatiquement les références d'index." },
+      { title: "Analyser & Exporter", desc: "Visualisez toutes les URLs avec métadonnées, filtrez les résultats et téléchargez en CSV." },
+    ],
+    faqTitle: "Questions fréquemment posées",
+    faqs: [
+      { q: "Qu'est-ce qu'un index de sitemaps ?", a: "Un index de sitemaps est un fichier XML qui référence plusieurs sitemaps individuels. Cet outil détecte et suit automatiquement les fichiers index." },
+      { q: "Combien d'URLs peuvent être extraites ?", a: "L'outil peut extraire jusqu'à 10 000 URLs par requête. Pour les sitemaps plus volumineux, envisagez de les diviser en fichiers plus petits." },
+      { q: "Quelles métadonnées sont extraites ?", a: "L'outil extrait l'URL (loc), la date de dernière modification (lastmod), la fréquence de changement (changefreq) et la priorité." },
+      { q: "Cela fonctionne-t-il avec les sitemaps compressés ?", a: "Actuellement, l'outil fonctionne avec les sitemaps XML non compressés. Pour les sitemaps compressés en .gz, vous devez d'abord les décompresser." },
+    ],
+  },
+  es: {
+    badge: "Herramienta SEO Gratuita",
+    heading: "Extractor de URLs de Sitemap",
+    subtitle: "Extrae todas las URLs de cualquier sitemap XML. Soporta archivos de índice de sitemaps, muestra datos de lastmod y prioridad, y permite exportar a CSV.",
+    urlLabel: "URL del Sitemap",
+    urlPlaceholder: "https://example.com/sitemap.xml",
+    urlHint: "Introduce la URL completa de un sitemap XML o un índice de sitemaps",
+    extractButton: "Extraer URLs",
+    extracting: "Extrayendo...",
+    errorEmpty: "Por favor, introduce una URL de sitemap.",
+    errorInvalid: "Introduce una URL válida que comience con http:// o https://",
+    errorFetch: "No se pudo obtener o analizar el sitemap. Verifica la URL e intenta de nuevo.",
+    totalUrls: "URLs totales",
+    sitemapsProcessed: "Sitemaps procesados",
+    urlsWithLastmod: "Con Lastmod",
+    urlsWithPriority: "Con Prioridad",
+    searchPlaceholder: "Filtrar URLs...",
+    exportCsv: "Exportar CSV",
+    locHeader: "URL",
+    lastmodHeader: "Última modificación",
+    changefreqHeader: "Frec. cambio",
+    priorityHeader: "Prioridad",
+    noUrls: "No se encontraron URLs en este sitemap.",
+    isSitemapIndexLabel: "Índice de sitemaps detectado",
+    ctaBottom: "¿Necesitas ayuda con tu estrategia de sitemap?",
+    ctaBottomDesc: "Nuestros expertos en SEO pueden auditar la estructura de tu sitemap y garantizar que todas las páginas importantes estén correctamente indexadas.",
+    ctaBottomButton: "Obtener ayuda experta",
+    features: [
+      "Analiza sitemaps regulares y archivos de índice de sitemaps",
+      "Extrae metadatos de lastmod, changefreq y prioridad",
+      "Exporta todas las URLs a CSV con un clic",
+      "Filtra y busca dentro de las URLs extraídas",
+    ],
+    howItWorksTitle: "Cómo funciona",
+    howItWorksSteps: [
+      { title: "Introduce la URL", desc: "Pega la URL de tu sitemap XML o archivo de índice de sitemaps." },
+      { title: "Extraer", desc: "Obtenemos y analizamos el sitemap, siguiendo automáticamente las referencias del índice." },
+      { title: "Analizar y Exportar", desc: "Visualiza todas las URLs con metadatos, filtra resultados y descarga como CSV." },
+    ],
+    faqTitle: "Preguntas frecuentes",
+    faqs: [
+      { q: "¿Qué es un índice de sitemaps?", a: "Un índice de sitemaps es un archivo XML que hace referencia a múltiples sitemaps individuales. Esta herramienta lo detecta y sigue automáticamente." },
+      { q: "¿Cuántas URLs se pueden extraer?", a: "La herramienta puede extraer hasta 10.000 URLs por solicitud. Para sitemaps más grandes, considere dividirlos en archivos más pequeños." },
+      { q: "¿Qué metadatos se extraen?", a: "La herramienta extrae la URL (loc), la fecha de última modificación (lastmod), la frecuencia de cambio (changefreq) y la prioridad." },
+      { q: "¿Funciona con sitemaps comprimidos?", a: "Actualmente funciona con sitemaps XML sin comprimir. Para sitemaps comprimidos en .gz, primero debes descomprimirlos." },
+    ],
+  },
+  it: {
+    badge: "Strumento SEO Gratuito",
+    heading: "Estrattore URL Sitemap",
+    subtitle: "Estrai tutti gli URL da qualsiasi sitemap XML. Supporta file indice sitemap, mostra dati lastmod e priorità e consente l'esportazione in CSV.",
+    urlLabel: "URL della Sitemap",
+    urlPlaceholder: "https://example.com/sitemap.xml",
+    urlHint: "Inserisci l'URL completo di una sitemap XML o di un file indice sitemap",
+    extractButton: "Estrai URL",
+    extracting: "Estrazione in corso...",
+    errorEmpty: "Inserisci un URL di sitemap.",
+    errorInvalid: "Inserisci un URL valido che inizi con http:// o https://",
+    errorFetch: "Impossibile recuperare o analizzare la sitemap. Controlla l'URL e riprova.",
+    totalUrls: "URL totali",
+    sitemapsProcessed: "Sitemap elaborate",
+    urlsWithLastmod: "Con Lastmod",
+    urlsWithPriority: "Con Priorità",
+    searchPlaceholder: "Filtra URL...",
+    exportCsv: "Esporta CSV",
+    locHeader: "URL",
+    lastmodHeader: "Ultima modifica",
+    changefreqHeader: "Freq. modifica",
+    priorityHeader: "Priorità",
+    noUrls: "Nessun URL trovato in questa sitemap.",
+    isSitemapIndexLabel: "Indice sitemap rilevato",
+    ctaBottom: "Hai bisogno di aiuto con la tua strategia sitemap?",
+    ctaBottomDesc: "I nostri esperti SEO possono verificare la struttura della tua sitemap e garantire che tutte le pagine importanti siano correttamente indicizzate.",
+    ctaBottomButton: "Ottieni aiuto esperto",
+    features: [
+      "Analizza sia sitemap regolari che file indice sitemap",
+      "Estrae i metadati lastmod, changefreq e priorità",
+      "Esporta tutti gli URL in CSV con un clic",
+      "Filtra e cerca tra gli URL estratti",
+    ],
+    howItWorksTitle: "Come funziona",
+    howItWorksSteps: [
+      { title: "Inserisci l'URL", desc: "Incolla l'URL della tua sitemap XML o del file indice sitemap." },
+      { title: "Estrai", desc: "Recuperiamo e analizziamo la sitemap, seguendo automaticamente i riferimenti dell'indice." },
+      { title: "Analizza ed Esporta", desc: "Visualizza tutti gli URL con i metadati, filtra i risultati e scarica in CSV." },
+    ],
+    faqTitle: "Domande frequenti",
+    faqs: [
+      { q: "Cos'è un indice sitemap?", a: "Un indice sitemap è un file XML che fa riferimento a più sitemap individuali. Questo strumento lo rileva e lo segue automaticamente." },
+      { q: "Quanti URL possono essere estratti?", a: "Lo strumento può estrarre fino a 10.000 URL per richiesta. Per sitemap più grandi, considera di suddividerle in file più piccoli." },
+      { q: "Quali metadati vengono estratti?", a: "Lo strumento estrae l'URL (loc), la data di ultima modifica (lastmod), la frequenza di modifica (changefreq) e la priorità." },
+      { q: "Funziona con sitemap compresse?", a: "Attualmente lo strumento funziona con sitemap XML non compresse. Per sitemap compresse in .gz, è necessario prima decomprimerle." },
+    ],
+  },
+  nl: {
+    badge: "Gratis SEO Tool",
+    heading: "Sitemap URL Extractor",
+    subtitle: "Haal alle URL's op uit elke XML-sitemap. Ondersteunt sitemap-indexbestanden, toont lastmod- en prioriteitsgegevens en laat u alles exporteren naar CSV.",
+    urlLabel: "Sitemap URL",
+    urlPlaceholder: "https://example.com/sitemap.xml",
+    urlHint: "Voer de volledige URL in van een XML-sitemap of sitemap-index",
+    extractButton: "URL's extraheren",
+    extracting: "Bezig met extraheren...",
+    errorEmpty: "Voer een sitemap-URL in.",
+    errorInvalid: "Voer een geldige URL in die begint met http:// of https://",
+    errorFetch: "Kan de sitemap niet ophalen of analyseren. Controleer de URL en probeer het opnieuw.",
+    totalUrls: "Totaal URL's",
+    sitemapsProcessed: "Sitemaps verwerkt",
+    urlsWithLastmod: "Met Lastmod",
+    urlsWithPriority: "Met Prioriteit",
+    searchPlaceholder: "URL's filteren...",
+    exportCsv: "CSV exporteren",
+    locHeader: "URL",
+    lastmodHeader: "Laatst gewijzigd",
+    changefreqHeader: "Wijzigingsfreq.",
+    priorityHeader: "Prioriteit",
+    noUrls: "Geen URL's gevonden in deze sitemap.",
+    isSitemapIndexLabel: "Sitemap-index gedetecteerd",
+    ctaBottom: "Hulp nodig bij uw sitemap-strategie?",
+    ctaBottomDesc: "Onze SEO-experts kunnen uw sitemap-structuur controleren en ervoor zorgen dat alle belangrijke pagina's correct worden geïndexeerd.",
+    ctaBottomButton: "Deskundige hulp krijgen",
+    features: [
+      "Analyseert zowel reguliere sitemaps als sitemap-indexbestanden",
+      "Extraheert lastmod-, changefreq- en prioriteitsmetadata",
+      "Exporteer alle URL's met één klik naar CSV",
+      "Filter en zoek binnen de geëxtraheerde URL's",
+    ],
+    howItWorksTitle: "Hoe het werkt",
+    howItWorksSteps: [
+      { title: "URL invoeren", desc: "Plak de URL van uw XML-sitemap of sitemap-indexbestand." },
+      { title: "Extraheren", desc: "We halen de sitemap op en volgen automatisch sitemap-indexverwijzingen." },
+      { title: "Analyseren & Exporteren", desc: "Bekijk alle URL's met metadata, filter resultaten en download als CSV." },
+    ],
+    faqTitle: "Veelgestelde vragen",
+    faqs: [
+      { q: "Wat is een sitemap-index?", a: "Een sitemap-index is een XML-bestand dat verwijst naar meerdere individuele sitemaps. Deze tool detecteert en volgt sitemap-indexbestanden automatisch." },
+      { q: "Hoeveel URL's kunnen worden geëxtraheerd?", a: "De tool kan tot 10.000 URL's per verzoek extraheren. Voor grotere sitemaps kunt u deze opsplitsen in kleinere bestanden." },
+      { q: "Welke metadata wordt geëxtraheerd?", a: "De tool extraheert de URL (loc), de datum van laatste wijziging (lastmod), de wijzigingsfrequentie (changefreq) en de prioriteit." },
+      { q: "Werkt dit met gecomprimeerde sitemaps?", a: "Momenteel werkt de tool met ongecomprimeerde XML-sitemaps. Voor .gz-gecomprimeerde sitemaps moet u ze eerst decomprimeren." },
     ],
   },
 };
