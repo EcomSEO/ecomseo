@@ -368,5 +368,10 @@
     "title": "Estrattore URL Sitemap Gratuito | EcomSEO",
     "description": "Estrai tutti gli URL da qualsiasi sitemap XML o file indice. Visualizza lastmod, changefreq e priorità. Esporta in CSV. Strumento SEO gratuito.",
     "ogTitle": "Estrattore URL Sitemap Gratuito | EcomSEO"
+  },
+  "/academy": {
+    "title": "Accademia EcomSEO - Impara la SEO E-commerce dai Professionisti | EcomSEO",
+    "description": "Percorso di apprendimento SEO e-commerce strutturato da professionisti. 10 cluster su ricerca parole chiave, on-page, SEO tecnico e altro.",
+    "ogTitle": "Accademia EcomSEO - Impara la SEO E-commerce dai Professionisti"
   }
 }

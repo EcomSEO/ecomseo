@@ -368,5 +368,10 @@
     "title": "Gratis Sitemap URL Extractor | EcomSEO",
     "description": "Haal alle URL's op uit elke XML-sitemap of sitemap-indexbestand. Bekijk lastmod, changefreq en prioriteit. Exporteer naar CSV. Gratis SEO-tool.",
     "ogTitle": "Gratis Sitemap URL Extractor | EcomSEO"
+  },
+  "/academy": {
+    "title": "EcomSEO Academie - Leer E-commerce SEO van Professionals | EcomSEO",
+    "description": "Gestructureerd e-commerce SEO leerpad opgebouwd door professionals. 10 clusters over zoekwoordonderzoek, on-page, technische SEO, linkbuilding en meer.",
+    "ogTitle": "EcomSEO Academie - Leer E-commerce SEO van Professionals"
   }
 }

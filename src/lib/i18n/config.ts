@@ -192,4 +192,5 @@ export const staticRoutes = [
   "/tools/internal-link-analyzer",
   "/tools/site-speed-comparison",
   "/tools/sitemap-extractor",
+  "/academy",
 ];

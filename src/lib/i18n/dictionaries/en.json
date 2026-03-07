@@ -368,5 +368,10 @@
     "title": "Free Sitemap URL Extractor - Extract URLs from XML Sitemaps | EcomSEO",
     "description": "Extract all URLs from any XML sitemap or sitemap index file. View lastmod, changefreq and priority data. Export to CSV. Free SEO tool.",
     "ogTitle": "Free Sitemap URL Extractor - Parse & Export XML Sitemap URLs | EcomSEO"
+  },
+  "/academy": {
+    "title": "EcomSEO Academy - Learn Ecommerce SEO From Practitioners | EcomSEO",
+    "description": "Structured ecommerce SEO learning path built by practitioners. 10 clusters covering keyword research, on-page, technical SEO, link building, and more.",
+    "ogTitle": "EcomSEO Academy - Learn Ecommerce SEO From Practitioners"
   }
 }
