@@ -3,6 +3,7 @@ import type { AcademyTopic } from "../../types";
 export const javascriptSeoForEcommerce: AcademyTopic = {
   slug: "javascript-seo-for-ecommerce",
   cluster: 9,
+  resources: [{"label":"Google JavaScript SEO Guide","url":"https://developers.google.com/search/docs/crawling-indexing/javascript/javascript-seo-basics","type":"docs"},{"label":"Rich Results Test","url":"https://search.google.com/test/rich-results","type":"tool"},{"label":"Chrome DevTools","url":"https://developer.chrome.com/docs/devtools/","type":"tool"}],
   content: {
     en: {
       badge: "Advanced SEO",

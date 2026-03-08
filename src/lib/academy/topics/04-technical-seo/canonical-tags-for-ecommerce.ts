@@ -3,6 +3,7 @@ import type { AcademyTopic } from "../../types";
 export const canonicalTagsForEcommerce: AcademyTopic = {
   slug: "canonical-tags-for-ecommerce",
   cluster: 4,
+  resources: [{"label":"Google Canonical Documentation","url":"https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls","type":"docs"},{"label":"Screaming Frog SEO Spider","url":"https://www.screamingfrog.co.uk/seo-spider/","type":"tool"}],
   content: {
     en: {
       badge: "Technical SEO",

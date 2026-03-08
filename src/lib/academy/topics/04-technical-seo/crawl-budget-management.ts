@@ -3,6 +3,7 @@ import type { AcademyTopic } from "../../types";
 export const crawlBudgetManagement: AcademyTopic = {
   slug: "crawl-budget-management",
   cluster: 4,
+  resources: [{"label":"Google Crawl Budget Docs","url":"https://developers.google.com/search/docs/crawling-indexing/large-site-managing-crawl-budget","type":"docs"},{"label":"Screaming Frog Log File Analyser","url":"https://www.screamingfrog.co.uk/log-file-analyser/","type":"tool"},{"label":"Robots.txt Tester","url":"https://support.google.com/webmasters/answer/6062598","type":"tool"}],
   content: {
     en: {
       badge: "Technical SEO",

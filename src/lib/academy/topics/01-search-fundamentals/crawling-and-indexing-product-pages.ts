@@ -3,6 +3,7 @@ import type { AcademyTopic } from "../../types";
 export const crawlingAndIndexingProductPages: AcademyTopic = {
   slug: "crawling-and-indexing-product-pages",
   cluster: 1,
+  resources: [{"label":"Google Indexing Documentation","url":"https://developers.google.com/search/docs/crawling-indexing","type":"docs"},{"label":"Screaming Frog SEO Spider","url":"https://www.screamingfrog.co.uk/seo-spider/","type":"tool"},{"label":"Google Index Coverage Report","url":"https://support.google.com/webmasters/answer/7440203","type":"docs"},{"label":"Robots.txt Tester","url":"https://support.google.com/webmasters/answer/6062598","type":"tool"}],
   content: {
     en: {
       badge: "Search Fundamentals",

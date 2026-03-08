@@ -3,6 +3,7 @@ import type { AcademyTopic } from "../../types";
 export const emailOutreachForLinks: AcademyTopic = {
   slug: "email-outreach-for-links",
   cluster: 6,
+  resources: [{"label":"Hunter.io (Email Finder)","url":"https://hunter.io/","type":"tool"},{"label":"Mailtrack (Gmail Extension)","url":"https://mailtrack.io/","type":"tool"},{"label":"Ahrefs Free Backlink Checker","url":"https://ahrefs.com/backlink-checker","type":"tool"}],
   content: {
     en: {
       badge: "Link Building",

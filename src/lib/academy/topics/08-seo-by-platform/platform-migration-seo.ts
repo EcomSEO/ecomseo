@@ -3,6 +3,7 @@ import type { AcademyTopic } from "../../types";
 export const platformMigrationSeo: AcademyTopic = {
   slug: "platform-migration-seo",
   cluster: 8,
+  resources: [{"label":"Google Site Move Docs","url":"https://developers.google.com/search/docs/crawling-indexing/site-move-with-url-changes","type":"docs"},{"label":"Screaming Frog SEO Spider","url":"https://www.screamingfrog.co.uk/seo-spider/","type":"tool"},{"label":"Redirect Path (Chrome)","url":"https://chromewebstore.google.com/detail/redirect-path/aomidfkchockcldhbkggjokdkkebmdll","type":"tool"},{"label":"Wayback Machine","url":"https://web.archive.org/","type":"tool"}],
   content: {
     en: {
       badge: "Platform SEO",

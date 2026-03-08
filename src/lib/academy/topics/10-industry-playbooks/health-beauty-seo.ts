@@ -3,6 +3,7 @@ import type { AcademyTopic } from "../../types";
 export const healthBeautySeo: AcademyTopic = {
   slug: "health-beauty-seo",
   cluster: 10,
+  resources: [{"label":"Google YMYL/E-E-A-T Guidelines","url":"https://developers.google.com/search/docs/fundamentals/creating-helpful-content","type":"docs"},{"label":"Google Merchant Center","url":"https://merchants.google.com/","type":"tool"},{"label":"Google Product Structured Data","url":"https://developers.google.com/search/docs/appearance/structured-data/product","type":"docs"}],
   content: {
     en: {
       badge: "Industry Playbooks",

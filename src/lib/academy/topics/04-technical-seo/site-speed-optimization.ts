@@ -3,6 +3,7 @@ import type { AcademyTopic } from "../../types";
 export const siteSpeedOptimization: AcademyTopic = {
   slug: "site-speed-optimization",
   cluster: 4,
+  resources: [{"label":"Google PageSpeed Insights","url":"https://pagespeed.web.dev/","type":"tool"},{"label":"GTmetrix","url":"https://gtmetrix.com/","type":"tool"},{"label":"WebPageTest","url":"https://www.webpagetest.org/","type":"tool"},{"label":"Core Web Vitals Guide","url":"https://web.dev/articles/vitals","type":"docs"}],
   content: {
     en: {
       badge: "Technical SEO",

@@ -3,6 +3,7 @@ import type { AcademyTopic } from "../../types";
 export const robotsTxtAndXmlSitemaps: AcademyTopic = {
   slug: "robots-txt-and-xml-sitemaps",
   cluster: 4,
+  resources: [{"label":"Google Robots.txt Specification","url":"https://developers.google.com/search/docs/crawling-indexing/robots/intro","type":"docs"},{"label":"Google Sitemap Documentation","url":"https://developers.google.com/search/docs/crawling-indexing/sitemaps/overview","type":"docs"},{"label":"XML Sitemaps Generator","url":"https://www.xml-sitemaps.com/","type":"tool"}],
   content: {
     en: {
       badge: "Technical SEO",

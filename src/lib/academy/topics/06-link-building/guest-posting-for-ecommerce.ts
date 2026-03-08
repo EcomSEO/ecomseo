@@ -3,6 +3,7 @@ import type { AcademyTopic } from "../../types";
 export const guestPostingForEcommerce: AcademyTopic = {
   slug: "guest-posting-for-ecommerce",
   cluster: 6,
+  resources: [{"label":"Ahrefs Content Explorer","url":"https://ahrefs.com/content-explorer","type":"tool"},{"label":"Hunter.io (Email Finder)","url":"https://hunter.io/","type":"tool"},{"label":"Grammarly (Free)","url":"https://www.grammarly.com/","type":"tool"}],
   content: {
     en: {
       badge: "Link Building",

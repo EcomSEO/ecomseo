@@ -3,6 +3,7 @@ import type { AcademyTopic } from "../../types";
 export const contentPruningAndConsolidation: AcademyTopic = {
   slug: "content-pruning-and-consolidation",
   cluster: 5,
+  resources: [{"label":"Google Search Console","url":"https://search.google.com/search-console","type":"tool"},{"label":"Screaming Frog SEO Spider","url":"https://www.screamingfrog.co.uk/seo-spider/","type":"tool"},{"label":"Google Analytics 4","url":"https://analytics.google.com/","type":"tool"}],
   content: {
     en: {
       badge: "Content & Authority",

@@ -3,6 +3,7 @@ import type { AcademyTopic } from "../../types";
 export const facetedNavigationSeo: AcademyTopic = {
   slug: "faceted-navigation-seo",
   cluster: 4,
+  resources: [{"label":"Google Faceted Navigation Guide","url":"https://developers.google.com/search/docs/specialty/ecommerce/faceted-navigation","type":"docs"},{"label":"Screaming Frog SEO Spider","url":"https://www.screamingfrog.co.uk/seo-spider/","type":"tool"}],
   content: {
     en: {
       badge: "Technical SEO",

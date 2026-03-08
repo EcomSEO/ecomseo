@@ -3,6 +3,7 @@ import type { AcademyTopic } from "../../types";
 export const magentoSeoGuide: AcademyTopic = {
   slug: "magento-seo-guide",
   cluster: 8,
+  resources: [{"label":"Adobe Commerce SEO Docs","url":"https://experienceleague.adobe.com/docs/commerce-admin/marketing/seo/seo-overview.html","type":"docs"},{"label":"Google PageSpeed Insights","url":"https://pagespeed.web.dev/","type":"tool"},{"label":"Screaming Frog SEO Spider","url":"https://www.screamingfrog.co.uk/seo-spider/","type":"tool"}],
   content: {
     en: {
       badge: "Platform SEO",

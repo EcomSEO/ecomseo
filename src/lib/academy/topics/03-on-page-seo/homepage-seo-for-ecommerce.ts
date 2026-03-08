@@ -3,6 +3,7 @@ import type { AcademyTopic } from "../../types";
 export const homepageSeoForEcommerce: AcademyTopic = {
   slug: "homepage-seo-for-ecommerce",
   cluster: 3,
+  resources: [{"label":"Google PageSpeed Insights","url":"https://pagespeed.web.dev/","type":"tool"},{"label":"Rich Results Test","url":"https://search.google.com/test/rich-results","type":"tool"},{"label":"Schema.org Organization","url":"https://schema.org/Organization","type":"docs"}],
   content: {
     en: {
       badge: "On-Page SEO",

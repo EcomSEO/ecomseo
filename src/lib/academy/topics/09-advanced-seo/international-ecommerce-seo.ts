@@ -3,6 +3,7 @@ import type { AcademyTopic } from "../../types";
 export const internationalEcommerceSeo: AcademyTopic = {
   slug: "international-ecommerce-seo",
   cluster: 9,
+  resources: [{"label":"Google Hreflang Documentation","url":"https://developers.google.com/search/docs/specialty/international/localized-versions","type":"docs"},{"label":"Hreflang Tag Generator","url":"https://www.aleydasolis.com/english/international-seo-tools/hreflang-tags-generator/","type":"tool"},{"label":"Hreflang Testing Tool","url":"https://technicalseo.com/tools/hreflang/","type":"tool"}],
   content: {
     en: {
       badge: "Advanced SEO",

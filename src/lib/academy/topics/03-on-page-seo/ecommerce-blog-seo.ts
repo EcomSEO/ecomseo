@@ -3,6 +3,7 @@ import type { AcademyTopic } from "../../types";
 export const ecommerceBlogSeo: AcademyTopic = {
   slug: "ecommerce-blog-seo",
   cluster: 3,
+  resources: [{"label":"Google Search Central Blog","url":"https://developers.google.com/search/blog","type":"guide"},{"label":"AnswerThePublic","url":"https://answerthepublic.com/","type":"tool"},{"label":"Hemingway Editor","url":"https://hemingwayapp.com/","type":"tool"},{"label":"Google Trends","url":"https://trends.google.com/","type":"tool"}],
   content: {
     en: {
       badge: "On-Page SEO",

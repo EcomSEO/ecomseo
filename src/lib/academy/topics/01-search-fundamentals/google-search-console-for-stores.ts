@@ -3,6 +3,7 @@ import type { AcademyTopic } from "../../types";
 export const googleSearchConsoleForStores: AcademyTopic = {
   slug: "google-search-console-for-stores",
   cluster: 1,
+  resources: [{"label":"Google Search Console","url":"https://search.google.com/search-console","type":"tool"},{"label":"Search Console Help Center","url":"https://support.google.com/webmasters","type":"docs"},{"label":"Bing Webmaster Tools","url":"https://www.bing.com/webmasters/","type":"tool"}],
   content: {
     en: {
       badge: "Search Fundamentals",

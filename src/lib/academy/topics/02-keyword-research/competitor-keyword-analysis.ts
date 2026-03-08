@@ -3,6 +3,7 @@ import type { AcademyTopic } from "../../types";
 export const competitorKeywordAnalysis: AcademyTopic = {
   slug: "competitor-keyword-analysis",
   cluster: 2,
+  resources: [{"label":"Ahrefs Free SEO Tools","url":"https://ahrefs.com/free-seo-tools","type":"tool"},{"label":"Semrush (Free Tier)","url":"https://www.semrush.com/","type":"tool"},{"label":"SimilarWeb","url":"https://www.similarweb.com/","type":"tool"}],
   content: {
     en: {
       badge: "Keyword Research",

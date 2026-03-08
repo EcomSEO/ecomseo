@@ -3,6 +3,7 @@ import type { AcademyTopic } from "../../types";
 export const buyerIntentVsSearchVolume: AcademyTopic = {
   slug: "buyer-intent-vs-search-volume",
   cluster: 2,
+  resources: [{"label":"Google Keyword Planner","url":"https://ads.google.com/home/tools/keyword-planner/","type":"tool"},{"label":"Ahrefs Free SERP Checker","url":"https://ahrefs.com/serp-checker","type":"tool"}],
   content: {
     en: {
       badge: "Keyword Research",

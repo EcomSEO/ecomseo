@@ -3,6 +3,7 @@ import type { AcademyTopic } from "../../types";
 export const ecommerceSeoAutomation: AcademyTopic = {
   slug: "ecommerce-seo-automation",
   cluster: 9,
+  resources: [{"label":"Google Search Console API","url":"https://developers.google.com/webmaster-tools/v1/api_reference_index","type":"docs"},{"label":"Google Analytics Data API","url":"https://developers.google.com/analytics/devguides/reporting/data/v1","type":"docs"},{"label":"Google Apps Script","url":"https://developers.google.com/apps-script","type":"tool"},{"label":"Zapier (Free Tier)","url":"https://zapier.com/","type":"tool"}],
   content: {
     en: {
       badge: "Advanced SEO",

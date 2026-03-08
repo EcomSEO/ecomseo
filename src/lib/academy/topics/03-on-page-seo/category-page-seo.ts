@@ -3,6 +3,7 @@ import type { AcademyTopic } from "../../types";
 export const categoryPageSeo: AcademyTopic = {
   slug: "category-page-seo",
   cluster: 3,
+  resources: [{"label":"Google Ecommerce SEO Docs","url":"https://developers.google.com/search/docs/specialty/ecommerce","type":"docs"},{"label":"Screaming Frog SEO Spider","url":"https://www.screamingfrog.co.uk/seo-spider/","type":"tool"},{"label":"Google Search Console","url":"https://search.google.com/search-console","type":"tool"}],
   content: {
     en: {
       badge: "On-Page SEO",

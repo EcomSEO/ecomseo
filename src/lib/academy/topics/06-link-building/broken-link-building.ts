@@ -3,6 +3,7 @@ import type { AcademyTopic } from "../../types";
 export const brokenLinkBuilding: AcademyTopic = {
   slug: "broken-link-building",
   cluster: 6,
+  resources: [{"label":"Ahrefs Broken Link Checker","url":"https://ahrefs.com/broken-link-checker","type":"tool"},{"label":"Check My Links (Chrome)","url":"https://chromewebstore.google.com/detail/check-my-links/ojkcdipcgfaekbeaelaapakgnjflfglf","type":"tool"},{"label":"Wayback Machine","url":"https://web.archive.org/","type":"tool"}],
   content: {
     en: {
       badge: "Link Building",

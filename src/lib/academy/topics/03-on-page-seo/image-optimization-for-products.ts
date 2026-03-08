@@ -3,6 +3,7 @@ import type { AcademyTopic } from "../../types";
 export const imageOptimizationForProducts: AcademyTopic = {
   slug: "image-optimization-for-products",
   cluster: 3,
+  resources: [{"label":"Google Image SEO Best Practices","url":"https://developers.google.com/search/docs/appearance/google-images","type":"docs"},{"label":"Squoosh Image Compressor","url":"https://squoosh.app/","type":"tool"},{"label":"TinyPNG","url":"https://tinypng.com/","type":"tool"},{"label":"Google PageSpeed Insights","url":"https://pagespeed.web.dev/","type":"tool"}],
   content: {
     en: {
       badge: "On-Page SEO",

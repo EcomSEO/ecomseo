@@ -3,6 +3,7 @@ import type { AcademyTopic } from "../../types";
 export const howGoogleFindsOnlineStores: AcademyTopic = {
   slug: "how-google-finds-online-stores",
   cluster: 1,
+  resources: [{"label":"How Google Search Works","url":"https://www.google.com/search/howsearchworks/","type":"docs"},{"label":"Googlebot Overview","url":"https://developers.google.com/search/docs/crawling-indexing/googlebot","type":"docs"},{"label":"URL Inspection Tool","url":"https://support.google.com/webmasters/answer/9012289","type":"tool"},{"label":"Screaming Frog SEO Spider","url":"https://www.screamingfrog.co.uk/seo-spider/","type":"tool"}],
   content: {
     en: {
       badge: "Search Fundamentals",

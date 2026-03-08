@@ -3,6 +3,7 @@ import type { AcademyTopic } from "../../types";
 export const ecommerceRankingFactors: AcademyTopic = {
   slug: "ecommerce-ranking-factors",
   cluster: 1,
+  resources: [{"label":"Google Search Quality Guidelines","url":"https://static.googleusercontent.com/media/guidelines.raterhub.com/en//searchqualityevaluatorguidelines.pdf","type":"docs"},{"label":"Ahrefs Free Backlink Checker","url":"https://ahrefs.com/backlink-checker","type":"tool"},{"label":"Google PageSpeed Insights","url":"https://pagespeed.web.dev/","type":"tool"}],
   content: {
     en: {
       badge: "Search Fundamentals",

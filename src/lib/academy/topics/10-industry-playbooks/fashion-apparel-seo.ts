@@ -3,6 +3,7 @@ import type { AcademyTopic } from "../../types";
 export const fashionApparelSeo: AcademyTopic = {
   slug: "fashion-apparel-seo",
   cluster: 10,
+  resources: [{"label":"Google Merchant Center","url":"https://merchants.google.com/","type":"tool"},{"label":"Google Product Structured Data","url":"https://developers.google.com/search/docs/appearance/structured-data/product","type":"docs"},{"label":"Google Trends","url":"https://trends.google.com/","type":"tool"},{"label":"Pinterest Trends","url":"https://trends.pinterest.com/","type":"tool"}],
   content: {
     en: {
       badge: "Industry Playbooks",

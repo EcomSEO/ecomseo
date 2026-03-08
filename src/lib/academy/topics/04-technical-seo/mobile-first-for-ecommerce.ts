@@ -3,6 +3,7 @@ import type { AcademyTopic } from "../../types";
 export const mobileFirstForEcommerce: AcademyTopic = {
   slug: "mobile-first-for-ecommerce",
   cluster: 4,
+  resources: [{"label":"Google Mobile-First Indexing","url":"https://developers.google.com/search/docs/crawling-indexing/mobile/mobile-sites-mobile-first-indexing","type":"docs"},{"label":"Chrome DevTools Device Mode","url":"https://developer.chrome.com/docs/devtools/device-mode/","type":"tool"},{"label":"Google PageSpeed Insights","url":"https://pagespeed.web.dev/","type":"tool"}],
   content: {
     en: {
       badge: "Technical SEO",

@@ -3,6 +3,7 @@ import type { AcademyTopic } from "../../types";
 export const foodBeverageSeo: AcademyTopic = {
   slug: "food-beverage-seo",
   cluster: 10,
+  resources: [{"label":"Google Local Business Structured Data","url":"https://developers.google.com/search/docs/appearance/structured-data/local-business","type":"docs"},{"label":"Google Merchant Center","url":"https://merchants.google.com/","type":"tool"},{"label":"Schema.org Recipe Type","url":"https://schema.org/Recipe","type":"docs"},{"label":"Google Business Profile","url":"https://business.google.com/","type":"tool"}],
   content: {
     en: {
       badge: "Industry Playbooks",

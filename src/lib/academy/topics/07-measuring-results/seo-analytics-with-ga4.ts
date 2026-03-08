@@ -3,6 +3,7 @@ import type { AcademyTopic } from "../../types";
 export const seoAnalyticsWithGa4: AcademyTopic = {
   slug: "seo-analytics-with-ga4",
   cluster: 7,
+  resources: [{"label":"Google Analytics 4","url":"https://analytics.google.com/","type":"tool"},{"label":"GA4 Documentation","url":"https://support.google.com/analytics/answer/10089681","type":"docs"},{"label":"Google Tag Manager","url":"https://tagmanager.google.com/","type":"tool"},{"label":"Looker Studio","url":"https://lookerstudio.google.com/","type":"tool"}],
   content: {
     en: {
       badge: "Measuring Results",

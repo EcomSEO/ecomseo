@@ -3,6 +3,7 @@ import type { AcademyTopic } from "../../types";
 export const keywordResearchForEcommerce: AcademyTopic = {
   slug: "keyword-research-for-ecommerce",
   cluster: 2,
+  resources: [{"label":"Google Keyword Planner","url":"https://ads.google.com/home/tools/keyword-planner/","type":"tool"},{"label":"Ahrefs Free Keyword Generator","url":"https://ahrefs.com/keyword-generator","type":"tool"},{"label":"Ubersuggest","url":"https://neilpatel.com/ubersuggest/","type":"tool"},{"label":"Google Trends","url":"https://trends.google.com/","type":"tool"},{"label":"Keyword Surfer Extension","url":"https://surferseo.com/keyword-surfer-extension/","type":"tool"}],
   content: {
     en: {
       badge: "Keyword Research",

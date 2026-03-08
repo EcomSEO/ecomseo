@@ -3,6 +3,7 @@ import type { AcademyTopic } from "../../types";
 export const faqPagesForEcommerce: AcademyTopic = {
   slug: "faq-pages-for-ecommerce",
   cluster: 5,
+  resources: [{"label":"Google FAQ Structured Data","url":"https://developers.google.com/search/docs/appearance/structured-data/faqpage","type":"docs"},{"label":"Rich Results Test","url":"https://search.google.com/test/rich-results","type":"tool"},{"label":"AlsoAsked","url":"https://alsoasked.com/","type":"tool"}],
   content: {
     en: {
       badge: "Content & Authority",

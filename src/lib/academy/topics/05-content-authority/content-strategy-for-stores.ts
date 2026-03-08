@@ -3,6 +3,7 @@ import type { AcademyTopic } from "../../types";
 export const contentStrategyForStores: AcademyTopic = {
   slug: "content-strategy-for-stores",
   cluster: 5,
+  resources: [{"label":"Google Keyword Planner","url":"https://ads.google.com/home/tools/keyword-planner/","type":"tool"},{"label":"Google Search Console","url":"https://search.google.com/search-console","type":"tool"},{"label":"Trello (Free)","url":"https://trello.com/","type":"tool"}],
   content: {
     en: {
       badge: "Content & Authority",

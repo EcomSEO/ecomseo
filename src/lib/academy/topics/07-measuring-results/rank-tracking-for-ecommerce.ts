@@ -3,6 +3,7 @@ import type { AcademyTopic } from "../../types";
 export const rankTrackingForEcommerce: AcademyTopic = {
   slug: "rank-tracking-for-ecommerce",
   cluster: 7,
+  resources: [{"label":"Google Search Console","url":"https://search.google.com/search-console","type":"tool"},{"label":"Ahrefs Free SERP Checker","url":"https://ahrefs.com/serp-checker","type":"tool"},{"label":"SERPWatcher by Mangools","url":"https://mangools.com/serpwatcher","type":"tool"}],
   content: {
     en: {
       badge: "Measuring Results",

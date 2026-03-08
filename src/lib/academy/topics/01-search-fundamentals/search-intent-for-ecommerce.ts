@@ -3,6 +3,7 @@ import type { AcademyTopic } from "../../types";
 export const searchIntentForEcommerce: AcademyTopic = {
   slug: "search-intent-for-ecommerce",
   cluster: 1,
+  resources: [{"label":"Ahrefs Free Keyword Generator","url":"https://ahrefs.com/keyword-generator","type":"tool"},{"label":"Google Trends","url":"https://trends.google.com/","type":"tool"},{"label":"AnswerThePublic","url":"https://answerthepublic.com/","type":"tool"}],
   content: {
     en: {
       badge: "Search Fundamentals",

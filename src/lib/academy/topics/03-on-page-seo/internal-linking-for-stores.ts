@@ -3,6 +3,7 @@ import type { AcademyTopic } from "../../types";
 export const internalLinkingForStores: AcademyTopic = {
   slug: "internal-linking-for-stores",
   cluster: 3,
+  resources: [{"label":"Screaming Frog SEO Spider","url":"https://www.screamingfrog.co.uk/seo-spider/","type":"tool"},{"label":"Google Crawlable Links Docs","url":"https://developers.google.com/search/docs/crawling-indexing/links-crawlable","type":"docs"},{"label":"Link Whisper","url":"https://linkwhisper.com/","type":"tool"}],
   content: {
     en: {
       badge: "On-Page SEO",

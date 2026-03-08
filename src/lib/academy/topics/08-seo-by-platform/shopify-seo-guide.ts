@@ -3,6 +3,7 @@ import type { AcademyTopic } from "../../types";
 export const shopifySeoGuide: AcademyTopic = {
   slug: "shopify-seo-guide",
   cluster: 8,
+  resources: [{"label":"Shopify SEO Documentation","url":"https://help.shopify.com/en/manual/promoting-marketing/seo","type":"docs"},{"label":"Google PageSpeed Insights","url":"https://pagespeed.web.dev/","type":"tool"},{"label":"Shopify Community Forums","url":"https://community.shopify.com/","type":"guide"}],
   content: {
     en: {
       badge: "SEO by Platform",

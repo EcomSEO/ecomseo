@@ -3,6 +3,7 @@ import type { AcademyTopic } from "../../types";
 export const calculatingSeoRoi: AcademyTopic = {
   slug: "calculating-seo-roi",
   cluster: 7,
+  resources: [{"label":"Google Analytics 4","url":"https://analytics.google.com/","type":"tool"},{"label":"Google Keyword Planner (CPC Data)","url":"https://ads.google.com/home/tools/keyword-planner/","type":"tool"},{"label":"Looker Studio","url":"https://lookerstudio.google.com/","type":"tool"}],
   content: {
     en: {
       badge: "Analytics & Reporting",

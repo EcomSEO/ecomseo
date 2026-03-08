@@ -3,6 +3,7 @@ import type { AcademyTopic } from "../../types";
 export const bigcommerceSeoGuide: AcademyTopic = {
   slug: "bigcommerce-seo-guide",
   cluster: 8,
+  resources: [{"label":"BigCommerce SEO Guide","url":"https://support.bigcommerce.com/s/article/Search-Engine-Optimization","type":"docs"},{"label":"Google PageSpeed Insights","url":"https://pagespeed.web.dev/","type":"tool"},{"label":"Google Search Console","url":"https://search.google.com/search-console","type":"tool"}],
   content: {
     en: {
       badge: "Platform SEO",

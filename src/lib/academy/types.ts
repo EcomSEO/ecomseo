@@ -1,5 +1,11 @@
 import type { Locale } from "@/lib/i18n/config";
 
+export type AcademyResource = {
+  label: string;
+  url: string;
+  type: "tool" | "guide" | "docs" | "video";
+};
+
 export type AcademyTopicSection = {
   title: string;
   content: string; // paragraphs separated by \n\n
@@ -19,5 +25,6 @@ export type AcademyTopicContent = {
 export type AcademyTopic = {
   slug: string;
   cluster: number; // 1–10
+  resources?: AcademyResource[];
   content: Record<Locale, AcademyTopicContent>;
 };

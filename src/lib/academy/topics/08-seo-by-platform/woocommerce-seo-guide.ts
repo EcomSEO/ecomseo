@@ -3,6 +3,7 @@ import type { AcademyTopic } from "../../types";
 export const woocommerceSeoGuide: AcademyTopic = {
   slug: "woocommerce-seo-guide",
   cluster: 8,
+  resources: [{"label":"WooCommerce SEO Documentation","url":"https://woocommerce.com/document/woocommerce-seo/","type":"docs"},{"label":"Yoast WooCommerce SEO","url":"https://yoast.com/wordpress/plugins/yoast-woocommerce-seo/","type":"tool"},{"label":"Google PageSpeed Insights","url":"https://pagespeed.web.dev/","type":"tool"}],
   content: {
     en: {
       badge: "SEO by Platform",

@@ -3,6 +3,7 @@ import type { AcademyTopic } from "../../types";
 export const introductionToEcommerceSeo: AcademyTopic = {
   slug: "introduction-to-ecommerce-seo",
   cluster: 1,
+  resources: [{"label":"Google SEO Starter Guide","url":"https://developers.google.com/search/docs/fundamentals/seo-starter-guide","type":"docs"},{"label":"Google Search Central Blog","url":"https://developers.google.com/search/blog","type":"guide"},{"label":"Moz Beginner's Guide to SEO","url":"https://moz.com/beginners-guide-to-seo","type":"guide"},{"label":"Google Search Console","url":"https://search.google.com/search-console","type":"tool"}],
   content: {
     en: {
       badge: "Search Fundamentals",

@@ -3,6 +3,7 @@ import type { AcademyTopic } from "../../types";
 export const homeGardenSeo: AcademyTopic = {
   slug: "home-garden-seo",
   cluster: 10,
+  resources: [{"label":"Google Product Structured Data","url":"https://developers.google.com/search/docs/appearance/structured-data/product","type":"docs"},{"label":"Google Merchant Center","url":"https://merchants.google.com/","type":"tool"},{"label":"Google Trends","url":"https://trends.google.com/","type":"tool"},{"label":"Google Business Profile","url":"https://business.google.com/","type":"tool"}],
   content: {
     en: {
       badge: "Industry Playbooks",

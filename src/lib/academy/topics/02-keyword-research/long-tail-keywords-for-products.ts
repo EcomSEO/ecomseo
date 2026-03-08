@@ -3,6 +3,7 @@ import type { AcademyTopic } from "../../types";
 export const longTailKeywordsForProducts: AcademyTopic = {
   slug: "long-tail-keywords-for-products",
   cluster: 2,
+  resources: [{"label":"AnswerThePublic","url":"https://answerthepublic.com/","type":"tool"},{"label":"AlsoAsked","url":"https://alsoasked.com/","type":"tool"},{"label":"Keyword Surfer Extension","url":"https://surferseo.com/keyword-surfer-extension/","type":"tool"}],
   content: {
     en: {
       badge: "Keyword Research",

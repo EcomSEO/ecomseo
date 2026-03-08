@@ -3,6 +3,7 @@ import type { AcademyTopic } from "../../types";
 export const seasonalKeywordTrends: AcademyTopic = {
   slug: "seasonal-keyword-trends",
   cluster: 2,
+  resources: [{"label":"Google Trends","url":"https://trends.google.com/","type":"tool"},{"label":"Google Keyword Planner","url":"https://ads.google.com/home/tools/keyword-planner/","type":"tool"},{"label":"Exploding Topics","url":"https://explodingtopics.com/","type":"tool"}],
   content: {
     en: {
       badge: "Keyword Research",

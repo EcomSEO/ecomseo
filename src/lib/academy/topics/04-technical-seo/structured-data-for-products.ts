@@ -3,6 +3,7 @@ import type { AcademyTopic } from "../../types";
 export const structuredDataForProducts: AcademyTopic = {
   slug: "structured-data-for-products",
   cluster: 4,
+  resources: [{"label":"Google Product Structured Data","url":"https://developers.google.com/search/docs/appearance/structured-data/product","type":"docs"},{"label":"Rich Results Test","url":"https://search.google.com/test/rich-results","type":"tool"},{"label":"Schema Markup Validator","url":"https://validator.schema.org/","type":"tool"},{"label":"Schema.org Reference","url":"https://schema.org/","type":"docs"},{"label":"Google Merchant Center","url":"https://merchants.google.com/","type":"tool"}],
   content: {
     en: {
       badge: "Technical SEO",

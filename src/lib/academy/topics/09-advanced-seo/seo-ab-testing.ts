@@ -3,6 +3,7 @@ import type { AcademyTopic } from "../../types";
 export const seoAbTesting: AcademyTopic = {
   slug: "seo-ab-testing",
   cluster: 9,
+  resources: [{"label":"Google Search Console","url":"https://search.google.com/search-console","type":"tool"},{"label":"Google Analytics 4","url":"https://analytics.google.com/","type":"tool"},{"label":"Google Sheets","url":"https://sheets.google.com/","type":"tool"}],
   content: {
     en: {
       badge: "Advanced SEO",

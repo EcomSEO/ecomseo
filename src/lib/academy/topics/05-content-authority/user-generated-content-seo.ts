@@ -3,6 +3,7 @@ import type { AcademyTopic } from "../../types";
 export const userGeneratedContentSeo: AcademyTopic = {
   slug: "user-generated-content-seo",
   cluster: 5,
+  resources: [{"label":"Google Review Structured Data","url":"https://developers.google.com/search/docs/appearance/structured-data/review-snippet","type":"docs"},{"label":"Schema.org Review Type","url":"https://schema.org/Review","type":"docs"},{"label":"Google Spam Policies","url":"https://developers.google.com/search/docs/essentials/spam-policies","type":"docs"}],
   content: {
     en: {
       badge: "Content & Authority",

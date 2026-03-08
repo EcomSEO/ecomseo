@@ -3,6 +3,7 @@ import type { AcademyTopic } from "../../types";
 export const headingStructureForEcommerce: AcademyTopic = {
   slug: "heading-structure-for-ecommerce",
   cluster: 3,
+  resources: [{"label":"Google Headings Best Practices","url":"https://developers.google.com/search/docs/fundamentals/seo-starter-guide#use-heading-tags","type":"docs"},{"label":"WAVE Accessibility Tool","url":"https://wave.webaim.org/","type":"tool"}],
   content: {
     en: {
       badge: "On-Page SEO",

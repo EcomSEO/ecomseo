@@ -3,6 +3,7 @@ import type { AcademyTopic } from "../../types";
 export const electronicsTechSeo: AcademyTopic = {
   slug: "electronics-tech-seo",
   cluster: 10,
+  resources: [{"label":"Google Product Structured Data","url":"https://developers.google.com/search/docs/appearance/structured-data/product","type":"docs"},{"label":"Google Merchant Center","url":"https://merchants.google.com/","type":"tool"},{"label":"Rich Results Test","url":"https://search.google.com/test/rich-results","type":"tool"}],
   content: {
     en: {
       badge: "Industry Playbooks",

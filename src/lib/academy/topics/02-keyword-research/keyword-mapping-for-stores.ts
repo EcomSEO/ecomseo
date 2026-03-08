@@ -3,6 +3,7 @@ import type { AcademyTopic } from "../../types";
 export const keywordMappingForStores: AcademyTopic = {
   slug: "keyword-mapping-for-stores",
   cluster: 2,
+  resources: [{"label":"Google Sheets","url":"https://sheets.google.com/","type":"tool"},{"label":"Screaming Frog SEO Spider","url":"https://www.screamingfrog.co.uk/seo-spider/","type":"tool"},{"label":"Google Search Console","url":"https://search.google.com/search-console","type":"tool"}],
   content: {
     en: {
       badge: "Keyword Research",

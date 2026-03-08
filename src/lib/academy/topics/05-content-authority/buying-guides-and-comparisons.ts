@@ -3,6 +3,7 @@ import type { AcademyTopic } from "../../types";
 export const buyingGuidesAndComparisons: AcademyTopic = {
   slug: "buying-guides-and-comparisons",
   cluster: 5,
+  resources: [{"label":"AnswerThePublic","url":"https://answerthepublic.com/","type":"tool"},{"label":"AlsoAsked","url":"https://alsoasked.com/","type":"tool"},{"label":"Google Trends","url":"https://trends.google.com/","type":"tool"}],
   content: {
     en: {
       badge: "Content & Authority",

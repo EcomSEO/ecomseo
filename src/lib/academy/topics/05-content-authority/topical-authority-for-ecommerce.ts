@@ -3,6 +3,7 @@ import type { AcademyTopic } from "../../types";
 export const topicalAuthorityForEcommerce: AcademyTopic = {
   slug: "topical-authority-for-ecommerce",
   cluster: 5,
+  resources: [{"label":"Google Helpful Content Guidelines","url":"https://developers.google.com/search/docs/fundamentals/creating-helpful-content","type":"docs"},{"label":"Ahrefs Content Explorer","url":"https://ahrefs.com/content-explorer","type":"tool"},{"label":"MarketMuse (Free Tier)","url":"https://www.marketmuse.com/","type":"tool"}],
   content: {
     en: {
       badge: "Content & Authority",

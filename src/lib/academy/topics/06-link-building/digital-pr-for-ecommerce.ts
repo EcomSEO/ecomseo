@@ -3,6 +3,7 @@ import type { AcademyTopic } from "../../types";
 export const digitalPrForEcommerce: AcademyTopic = {
   slug: "digital-pr-for-ecommerce",
   cluster: 6,
+  resources: [{"label":"HARO (Help A Reporter Out)","url":"https://www.helpareporter.com/","type":"tool"},{"label":"Connectively","url":"https://www.connectively.us/","type":"tool"},{"label":"BuzzSumo (Free Tier)","url":"https://buzzsumo.com/","type":"tool"}],
   content: {
     en: {
       badge: "Link Building",

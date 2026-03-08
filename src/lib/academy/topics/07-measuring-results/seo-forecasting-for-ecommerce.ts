@@ -3,6 +3,7 @@ import type { AcademyTopic } from "../../types";
 export const seoForecastingForEcommerce: AcademyTopic = {
   slug: "seo-forecasting-for-ecommerce",
   cluster: 7,
+  resources: [{"label":"Google Trends","url":"https://trends.google.com/","type":"tool"},{"label":"Google Search Console","url":"https://search.google.com/search-console","type":"tool"},{"label":"Google Keyword Planner","url":"https://ads.google.com/home/tools/keyword-planner/","type":"tool"}],
   content: {
     en: {
       badge: "Analytics & Reporting",

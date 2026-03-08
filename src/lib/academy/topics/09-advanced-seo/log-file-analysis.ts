@@ -3,6 +3,7 @@ import type { AcademyTopic } from "../../types";
 export const logFileAnalysis: AcademyTopic = {
   slug: "log-file-analysis",
   cluster: 9,
+  resources: [{"label":"Screaming Frog Log File Analyser","url":"https://www.screamingfrog.co.uk/log-file-analyser/","type":"tool"},{"label":"Google Crawl Stats Report","url":"https://support.google.com/webmasters/answer/9679690","type":"docs"},{"label":"GoAccess (Free Log Analyzer)","url":"https://goaccess.io/","type":"tool"}],
   content: {
     en: {
       badge: "Advanced SEO",

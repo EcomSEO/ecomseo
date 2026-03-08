@@ -3,6 +3,7 @@ import type { AcademyTopic } from "../../types";
 export const siteArchitectureForEcommerce: AcademyTopic = {
   slug: "site-architecture-for-ecommerce",
   cluster: 4,
+  resources: [{"label":"Screaming Frog SEO Spider","url":"https://www.screamingfrog.co.uk/seo-spider/","type":"tool"},{"label":"Google Site Structure Guide","url":"https://developers.google.com/search/docs/specialty/ecommerce/site-structure","type":"docs"},{"label":"Sitebulb","url":"https://sitebulb.com/","type":"tool"}],
   content: {
     en: {
       badge: "Technical SEO",

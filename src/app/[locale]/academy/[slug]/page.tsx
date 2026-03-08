@@ -89,6 +89,15 @@ export default async function AcademyTopicPage({
       : undefined,
   };
 
+  const resourcesTitles: Record<Locale, string> = {
+    en: "Free Tools & Resources",
+    de: "Kostenlose Tools & Ressourcen",
+    fr: "Outils et ressources gratuits",
+    es: "Herramientas y recursos gratuitos",
+    it: "Strumenti e risorse gratuite",
+    nl: "Gratis tools & bronnen",
+  };
+
   const clusterNames: Record<number, string> = {
     1: "Search Fundamentals",
     2: "Keyword Research",
@@ -112,6 +121,9 @@ export default async function AcademyTopicPage({
         intro: t.intro,
         readTime: t.readTime,
         sections,
+        resources: topic.resources
+          ? { title: resourcesTitles[l], links: topic.resources }
+          : undefined,
         nav,
         breadcrumbs: [
           { name: "Home", path: "/" },

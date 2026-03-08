@@ -3,6 +3,7 @@ import type { AcademyTopic } from "../../types";
 export const productPageSeo: AcademyTopic = {
   slug: "product-page-seo",
   cluster: 3,
+  resources: [{"label":"Google Product Structured Data","url":"https://developers.google.com/search/docs/appearance/structured-data/product","type":"docs"},{"label":"Rich Results Test","url":"https://search.google.com/test/rich-results","type":"tool"},{"label":"Google PageSpeed Insights","url":"https://pagespeed.web.dev/","type":"tool"},{"label":"Schema.org Product Type","url":"https://schema.org/Product","type":"docs"}],
   content: {
     en: {
       badge: "On-Page SEO",

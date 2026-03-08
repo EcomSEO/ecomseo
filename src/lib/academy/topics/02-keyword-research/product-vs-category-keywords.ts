@@ -3,6 +3,7 @@ import type { AcademyTopic } from "../../types";
 export const productVsCategoryKeywords: AcademyTopic = {
   slug: "product-vs-category-keywords",
   cluster: 2,
+  resources: [{"label":"Google Keyword Planner","url":"https://ads.google.com/home/tools/keyword-planner/","type":"tool"},{"label":"Ahrefs Free Keyword Difficulty Checker","url":"https://ahrefs.com/keyword-difficulty","type":"tool"}],
   content: {
     en: {
       badge: "Keyword Research",

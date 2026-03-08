@@ -3,6 +3,7 @@ import type { AcademyTopic } from "../../types";
 export const programmaticSeoForEcommerce: AcademyTopic = {
   slug: "programmatic-seo-for-ecommerce",
   cluster: 9,
+  resources: [{"label":"Google Spam Policies","url":"https://developers.google.com/search/docs/essentials/spam-policies","type":"docs"},{"label":"Screaming Frog SEO Spider","url":"https://www.screamingfrog.co.uk/seo-spider/","type":"tool"},{"label":"Google Search Console","url":"https://search.google.com/search-console","type":"tool"}],
   content: {
     en: {
       badge: "Advanced SEO",

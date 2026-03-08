@@ -3,6 +3,7 @@ import type { AcademyTopic } from "../../types";
 export const aiSearchOptimization: AcademyTopic = {
   slug: "ai-search-optimization",
   cluster: 9,
+  resources: [{"label":"Google Helpful Content Guidelines","url":"https://developers.google.com/search/docs/fundamentals/creating-helpful-content","type":"docs"},{"label":"Schema.org","url":"https://schema.org/","type":"docs"},{"label":"Rich Results Test","url":"https://search.google.com/test/rich-results","type":"tool"}],
   content: {
     en: {
       badge: "Advanced SEO",

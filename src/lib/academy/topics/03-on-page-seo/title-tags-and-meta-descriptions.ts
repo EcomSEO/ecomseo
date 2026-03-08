@@ -3,6 +3,7 @@ import type { AcademyTopic } from "../../types";
 export const titleTagsAndMetaDescriptions: AcademyTopic = {
   slug: "title-tags-and-meta-descriptions",
   cluster: 3,
+  resources: [{"label":"Google Title Link Documentation","url":"https://developers.google.com/search/docs/appearance/title-link","type":"docs"},{"label":"Google Snippet Documentation","url":"https://developers.google.com/search/docs/appearance/snippet","type":"docs"},{"label":"SERP Simulator","url":"https://mangools.com/free-seo-tools/serp-simulator","type":"tool"}],
   content: {
     en: {
       badge: "On-Page SEO",

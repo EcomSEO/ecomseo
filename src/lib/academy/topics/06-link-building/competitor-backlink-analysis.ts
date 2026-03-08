@@ -3,6 +3,7 @@ import type { AcademyTopic } from "../../types";
 export const competitorBacklinkAnalysis: AcademyTopic = {
   slug: "competitor-backlink-analysis",
   cluster: 6,
+  resources: [{"label":"Ahrefs Free Backlink Checker","url":"https://ahrefs.com/backlink-checker","type":"tool"},{"label":"Moz Link Explorer (Free)","url":"https://moz.com/link-explorer","type":"tool"},{"label":"OpenLinkProfiler","url":"https://openlinkprofiler.org/","type":"tool"}],
   content: {
     en: {
       badge: "Link Building",
