@@ -155,27 +155,6 @@ export default async function AcademyPage({
           </div>
         </section>
 
-        {/* Bottom CTA */}
-        <section className="w-full px-5 md:px-16 pb-20">
-          <div className="mx-auto max-w-[800px] rounded-2xl bg-bg-card border border-border p-8 md:p-12 flex flex-col items-center text-center gap-6">
-            <h2 className="text-[24px] md:text-[36px] font-medium leading-[1.1] tracking-[-0.02em] text-heading max-w-[600px]">
-              {t.ctaHeading}
-            </h2>
-            <p className="text-body text-base leading-relaxed max-w-[480px]">
-              {t.ctaDesc}
-            </p>
-            <LocaleLink
-              href="/contact"
-              className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-primary hover:bg-primary-hover text-white text-sm font-medium transition-colors"
-            >
-              {t.ctaButton}
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                <path d="M5 12h14" /><path d="m12 5 7 7-7 7" />
-              </svg>
-            </LocaleLink>
-          </div>
-        </section>
-
         <CTA />
         <Footer />
       </main>
