@@ -123,7 +123,11 @@ export default async function AcademyPage({
                       </p>
                       <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
                         {cluster.topics.map((topic) => (
-                          <div key={topic} className="flex items-start gap-2.5">
+                          <LocaleLink
+                            key={typeof topic === "string" ? topic : topic.href}
+                            href={typeof topic === "string" ? "/academy" : topic.href}
+                            className="flex items-start gap-2.5 group"
+                          >
                             <svg
                               width="16"
                               height="16"
@@ -139,8 +143,10 @@ export default async function AcademyPage({
                                 strokeLinejoin="round"
                               />
                             </svg>
-                            <span className="text-body text-sm">{topic}</span>
-                          </div>
+                            <span className="text-body text-sm group-hover:text-heading transition-colors">
+                              {typeof topic === "string" ? topic : topic.label}
+                            </span>
+                          </LocaleLink>
                         ))}
                       </div>
                     </div>
