@@ -18,8 +18,12 @@ const figtree = Figtree({
 export const metadata: Metadata = {
   metadataBase: new URL("https://ecomseo.co"),
   icons: {
-    icon: "/favicon.ico",
-    apple: "/images/brand/ecomseo-icon.png",
+    icon: [
+      { url: "/favicon.ico", sizes: "48x48" },
+      { url: "/images/brand/favicon-32x32.png", sizes: "32x32", type: "image/png" },
+      { url: "/images/brand/favicon-16x16.png", sizes: "16x16", type: "image/png" },
+    ],
+    apple: "/images/brand/favicon-180x180.png",
   },
 };
 
