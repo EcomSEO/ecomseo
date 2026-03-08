@@ -81,7 +81,7 @@ function addPages(
 }
 
 /* ------------------------------------------------------------------ */
-/*  URL groups — ordered by importance                                 */
+/*  URL groups - ordered by importance                                 */
 /* ------------------------------------------------------------------ */
 
 const coreServices = ["/shopify-seo", "/ecommerce-seo"];
@@ -281,37 +281,37 @@ export async function GET() {
   const lastmod = new Date().toISOString();
   const entries: UrlEntry[] = [];
 
-  // 1. Homepages — priority 1.0 | weekly
+  // 1. Homepages - priority 1.0 | weekly
   addPages(entries, ["/"], { priority: 1.0, changefreq: "weekly", lastmod });
 
-  // 2. Core services — priority 0.9 | weekly
+  // 2. Core services - priority 0.9 | weekly
   addPages(entries, coreServices, { priority: 0.9, changefreq: "weekly", lastmod });
 
-  // 3. Service sub-pages — priority 0.8 | monthly
+  // 3. Service sub-pages - priority 0.8 | monthly
   addPages(entries, serviceSubPages, { priority: 0.8, changefreq: "monthly", lastmod });
 
-  // 4. Platform pages — priority 0.8 | monthly
+  // 4. Platform pages - priority 0.8 | monthly
   addPages(entries, platformPages, { priority: 0.8, changefreq: "monthly", lastmod });
 
-  // 5. Industry pages — priority 0.8 | monthly
+  // 5. Industry pages - priority 0.8 | monthly
   addPages(entries, industryPages, { priority: 0.8, changefreq: "monthly", lastmod });
 
-  // 6. Guides — priority 0.9 | weekly
+  // 6. Guides - priority 0.9 | weekly
   addPages(entries, guidePages, { priority: 0.9, changefreq: "weekly", lastmod });
 
-  // 7. Academy — priority 0.8 | monthly
+  // 7. Academy - priority 0.8 | monthly
   addPages(entries, academyPages, { priority: 0.8, changefreq: "monthly", lastmod });
 
-  // 8. Resources — priority 0.7 | monthly
+  // 8. Resources - priority 0.7 | monthly
   addPages(entries, resourcePages, { priority: 0.7, changefreq: "monthly", lastmod });
 
-  // 9. Tools — priority 0.7 | monthly
+  // 9. Tools - priority 0.7 | monthly
   addPages(entries, toolPages, { priority: 0.7, changefreq: "monthly", lastmod });
 
-  // 10. Blog — priority 0.7 | weekly
+  // 10. Blog - priority 0.7 | weekly
   addPages(entries, blogPages, { priority: 0.7, changefreq: "weekly", lastmod });
 
-  // 11. Case studies — priority 0.7 | monthly (with images)
+  // 11. Case studies - priority 0.7 | monthly (with images)
   addPages(entries, ["/cases"], { priority: 0.7, changefreq: "monthly", lastmod });
 
   for (const slug of getAllCaseSlugs()) {
@@ -332,16 +332,16 @@ export async function GET() {
     }
   }
 
-  // 12. Company pages — priority 0.8 | monthly
+  // 12. Company pages - priority 0.8 | monthly
   addPages(entries, companyPages, { priority: 0.8, changefreq: "monthly", lastmod });
 
-  // 13. Team — priority 0.6 | monthly
+  // 13. Team - priority 0.6 | monthly
   addPages(entries, ["/team"], { priority: 0.6, changefreq: "monthly", lastmod });
   for (const slug of teamSlugs) {
     addPages(entries, [`/team/${slug}`], { priority: 0.6, changefreq: "monthly", lastmod });
   }
 
-  // 13. Utility pages — priority 0.5 | yearly
+  // 13. Utility pages - priority 0.5 | yearly
   addPages(entries, utilityPages, { priority: 0.5, changefreq: "yearly", lastmod });
 
   // Build formatted XML

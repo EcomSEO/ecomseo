@@ -47,7 +47,7 @@
   "/amazon-seo": {
     "title": "Agenzia SEO Amazon | EcomSEO",
     "description": "Servizi SEO per Amazon. Porta il tuo brand in cima su Amazon con inserzioni ottimizzate, contenuti A+ e targeting strategico delle keyword.",
-    "ogTitle": "SEO Amazon — Porta il Tuo Brand in Cima su Amazon | EcomSEO"
+    "ogTitle": "SEO Amazon - Porta il Tuo Brand in Cima su Amazon | EcomSEO"
   },
   "/fashion-seo": {
     "title": "Agenzia SEO Moda | EcomSEO",
@@ -70,9 +70,9 @@
     "ogTitle": "SEO Giocattoli che Fa Decollare le Vendite | EcomSEO"
   },
   "/cases": {
-    "title": "Casi Studio — Risultati SEO Reali | EcomSEO",
+    "title": "Casi Studio - Risultati SEO Reali | EcomSEO",
     "description": "Scopri come abbiamo aiutato brand ecommerce a scalare traffico organico e fatturato. Risultati reali, numeri reali, storie di crescita reali.",
-    "ogTitle": "Casi Studio — Risultati SEO Reali | EcomSEO"
+    "ogTitle": "Casi Studio - Risultati SEO Reali | EcomSEO"
   },
   "/team": {
     "title": "Incontra il Team | EcomSEO",
@@ -95,9 +95,9 @@
     "ogTitle": "Risorse e Centro Formazione | EcomSEO"
   },
   "/resources/crash-course": {
-    "title": "Da Principiante a Esperto — Corso Intensivo SEO Ecommerce | EcomSEO",
+    "title": "Da Principiante a Esperto - Corso Intensivo SEO Ecommerce | EcomSEO",
     "description": "Corso intensivo completo di SEO ecommerce. Impara tutto quello che devi sapere per posizionarti meglio su Google e generare fatturato organico.",
-    "ogTitle": "Da Principiante a Esperto — Corso Intensivo SEO Ecommerce | EcomSEO"
+    "ogTitle": "Da Principiante a Esperto - Corso Intensivo SEO Ecommerce | EcomSEO"
   },
   "/resources/crash-course/changelog-page": {
     "title": "Miglioramenti Prestazioni e Nuove Funzionalità | Corso Intensivo SEO Ecommerce",
@@ -105,9 +105,9 @@
     "ogTitle": "Miglioramenti Prestazioni e Nuove Funzionalità | Corso Intensivo SEO Ecommerce"
   },
   "/resources/search-product-discovery": {
-    "title": "AI Shopping — Fai Trovare i Tuoi Prodotti su LLM come ChatGPT | EcomSEO",
+    "title": "AI Shopping - Fai Trovare i Tuoi Prodotti su LLM come ChatGPT | EcomSEO",
     "description": "I tuoi prodotti sono invisibili sull'AI. Puoi fare qualcosa a riguardo oggi. Forse la più grande opportunità del 2025.",
-    "ogTitle": "AI Shopping — Fai Trovare i Tuoi Prodotti su LLM come ChatGPT | EcomSEO"
+    "ogTitle": "AI Shopping - Fai Trovare i Tuoi Prodotti su LLM come ChatGPT | EcomSEO"
   },
   "/resources/shopify-on-page-checklist": {
     "title": "Checklist Premium SEO On-Page per Shopify | EcomSEO",
@@ -195,24 +195,24 @@
     "ogTitle": "Dominazione delle SERP per Ecommerce | Guide EcomSEO"
   },
   "/page": {
-    "title": "Fabian van Til — Agenzia di Ottimizzazione LLM | EcomSEO",
+    "title": "Fabian van Til - Agenzia di Ottimizzazione LLM | EcomSEO",
     "description": "Fabian van Til, fondatore di EcomSEO. Aiutiamo i brand ecommerce a farsi trovare su AI e LLM come ChatGPT.",
-    "ogTitle": "Fabian van Til — Agenzia di Ottimizzazione LLM | EcomSEO"
+    "ogTitle": "Fabian van Til - Agenzia di Ottimizzazione LLM | EcomSEO"
   },
   "/intent-matching-tool": {
-    "title": "Strumento di Intent Matching — Analizzatore di Keyword con AI | EcomSEO",
+    "title": "Strumento di Intent Matching - Analizzatore di Keyword con AI | EcomSEO",
     "description": "Analizza l'intento di ricerca per le tue keyword ecommerce. Comprendi cosa cercano i tuoi clienti e ottimizza i tuoi contenuti di conseguenza.",
-    "ogTitle": "Strumento di Intent Matching — Analizzatore di Keyword con AI | EcomSEO"
+    "ogTitle": "Strumento di Intent Matching - Analizzatore di Keyword con AI | EcomSEO"
   },
   "/premium-on-page-seo-checklist": {
-    "title": "Checklist Premium SEO On-Page — Genera Milioni in Modo Organico | EcomSEO",
+    "title": "Checklist Premium SEO On-Page - Genera Milioni in Modo Organico | EcomSEO",
     "description": "Proprietari di Ecommerce! Questa Checklist SEO On-Page è tutto ciò di cui hai bisogno per generare milioni in modo organico su Google.",
     "ogTitle": "Checklist Premium SEO On-Page | EcomSEO"
   },
   "/client-dashboard": {
-    "title": "Dashboard Clienti — Disponibile a Breve | EcomSEO",
+    "title": "Dashboard Clienti - Disponibile a Breve | EcomSEO",
     "description": "In arrivo: accedi ai tuoi dati sulle performance SEO, insight e raccomandazioni in un unico posto.",
-    "ogTitle": "Dashboard Clienti — Disponibile a Breve | EcomSEO"
+    "ogTitle": "Dashboard Clienti - Disponibile a Breve | EcomSEO"
   },
   "/thank-you-payment": {
     "title": "Grazie per il Tuo Pagamento | EcomSEO",
@@ -316,7 +316,7 @@
   },
   "/tools/thin-content-checker": {
     "title": "Checker Contenuto Sottile e Conteggio Parole Gratuito | EcomSEO",
-    "description": "Rileva le pagine con troppo poco contenuto. Analizzatore di parole in blocco — controlla fino a 20 URL alla volta.",
+    "description": "Rileva le pagine con troppo poco contenuto. Analizzatore di parole in blocco - controlla fino a 20 URL alla volta.",
     "ogTitle": "Checker Contenuto Sottile Gratuito | EcomSEO"
   },
   "/tools/core-web-vitals": {

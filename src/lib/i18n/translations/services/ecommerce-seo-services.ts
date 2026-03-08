@@ -7,7 +7,7 @@ export const ecommerceSeoServicesData: Record<Locale, ServicePageProps> = {
       badge: "All Ecommerce SEO Services",
       heading: "Every Ecommerce SEO Service You Need,\u200BIn One Place",
       subtitle:
-        "From technical foundations to authority building — browse every service we offer and find the right fit for your growth goals.",
+        "From technical foundations to authority building - browse every service we offer and find the right fit for your growth goals.",
       ctaText: "Book a Free Strategy Call",
     },
     trustBar:
@@ -18,13 +18,13 @@ export const ecommerceSeoServicesData: Record<Locale, ServicePageProps> = {
         badge: "The Full Stack",
         heading: "One Agency. Every Layer of Ecommerce SEO.",
         subtitle:
-          "Most SEO agencies cover one slice of the stack. We cover all of it — from server-level technical fixes to AI-optimised content to editorial link acquisition.",
+          "Most SEO agencies cover one slice of the stack. We cover all of it - from server-level technical fixes to AI-optimised content to editorial link acquisition.",
         process: [
           {
             number: "01",
             title: "Technical Foundation",
             description:
-              "Crawl budget optimisation, site speed, Core Web Vitals, structured data, canonical logic, and JavaScript rendering — the invisible infrastructure that makes everything else work.",
+              "Crawl budget optimisation, site speed, Core Web Vitals, structured data, canonical logic, and JavaScript rendering - the invisible infrastructure that makes everything else work.",
           },
           {
             number: "02",
@@ -36,7 +36,7 @@ export const ecommerceSeoServicesData: Record<Locale, ServicePageProps> = {
             number: "03",
             title: "Authority & Link Building",
             description:
-              "Real editorial backlinks from relevant publications in your industry. No PBNs, no link farms — just the domain authority that moves rankings in competitive markets.",
+              "Real editorial backlinks from relevant publications in your industry. No PBNs, no link farms - just the domain authority that moves rankings in competitive markets.",
           },
           {
             number: "04",
@@ -56,7 +56,7 @@ export const ecommerceSeoServicesData: Record<Locale, ServicePageProps> = {
           {
             title: "Ecommerce SEO",
             description:
-              "The complete commercial SEO strategy for online stores — from technical audit to revenue attribution.",
+              "The complete commercial SEO strategy for online stores - from technical audit to revenue attribution.",
             href: "/ecommerce-seo",
           },
           {
@@ -68,7 +68,7 @@ export const ecommerceSeoServicesData: Record<Locale, ServicePageProps> = {
           {
             title: "WooCommerce SEO",
             description:
-              "Technical and content SEO for WordPress/WooCommerce — plugin audits, URL structure, and database optimisation.",
+              "Technical and content SEO for WordPress/WooCommerce - plugin audits, URL structure, and database optimisation.",
             href: "/woocommerce-seo",
           },
           {
@@ -80,7 +80,7 @@ export const ecommerceSeoServicesData: Record<Locale, ServicePageProps> = {
           {
             title: "Adobe Commerce SEO",
             description:
-              "Enterprise-grade SEO for Magento/Adobe Commerce — crawl budget, multi-store configs, and JS rendering.",
+              "Enterprise-grade SEO for Magento/Adobe Commerce - crawl budget, multi-store configs, and JS rendering.",
             href: "/adobe-commerce-seo",
           },
           {
@@ -104,7 +104,7 @@ export const ecommerceSeoServicesData: Record<Locale, ServicePageProps> = {
           {
             title: "Content Writing",
             description:
-              "SEO-optimised content that ranks and converts — buying guides, category copy, product descriptions, and blog posts.",
+              "SEO-optimised content that ranks and converts - buying guides, category copy, product descriptions, and blog posts.",
             href: "/content-writing",
           },
         ],
@@ -119,13 +119,13 @@ export const ecommerceSeoServicesData: Record<Locale, ServicePageProps> = {
           {
             title: "SEO by Platform",
             description:
-              "Shopify, WooCommerce, BigCommerce, and Adobe Commerce — platform-native strategies for your exact tech stack.",
+              "Shopify, WooCommerce, BigCommerce, and Adobe Commerce - platform-native strategies for your exact tech stack.",
             href: "/ecommerce-seo-platforms",
           },
           {
             title: "SEO by Industry",
             description:
-              "Fashion, Beauty, Consumables, and Toys — industry-aware strategies that capture your vertical's unique buyer intent.",
+              "Fashion, Beauty, Consumables, and Toys - industry-aware strategies that capture your vertical's unique buyer intent.",
             href: "/ecommerce-seo-industries",
           },
         ],
@@ -148,12 +148,12 @@ export const ecommerceSeoServicesData: Record<Locale, ServicePageProps> = {
           {
             title: "Platform-Native Execution",
             description:
-              "Our implementation is tailored to your exact platform — Shopify, WooCommerce, BigCommerce, or Magento. No generic checklists applied to the wrong stack.",
+              "Our implementation is tailored to your exact platform - Shopify, WooCommerce, BigCommerce, or Magento. No generic checklists applied to the wrong stack.",
           },
           {
             title: "AI Search Ready",
             description:
-              "Beyond Google — we optimise your brand and products for AI Overviews, ChatGPT, and Perplexity so you're visible in the next generation of search.",
+              "Beyond Google - we optimise your brand and products for AI Overviews, ChatGPT, and Perplexity so you're visible in the next generation of search.",
           },
           {
             title: "Scalable Processes",
@@ -183,7 +183,7 @@ export const ecommerceSeoServicesData: Record<Locale, ServicePageProps> = {
         {
           question: "Can you work alongside my existing team?",
           answer:
-            "Absolutely. We frequently work as a specialist layer on top of in-house marketing teams — handling the technical or link-building work that requires deeper ecommerce SEO expertise.",
+            "Absolutely. We frequently work as a specialist layer on top of in-house marketing teams - handling the technical or link-building work that requires deeper ecommerce SEO expertise.",
         },
         {
           question: "What platforms do you support?",
@@ -198,13 +198,13 @@ export const ecommerceSeoServicesData: Record<Locale, ServicePageProps> = {
         {
           question: "Do you offer a free audit?",
           answer:
-            "Yes — a complimentary ecommerce SEO audit that identifies your biggest opportunities across technical, content, and authority. Book a call and we'll show you exactly where you're leaving revenue on the table.",
+            "Yes - a complimentary ecommerce SEO audit that identifies your biggest opportunities across technical, content, and authority. Book a call and we'll show you exactly where you're leaving revenue on the table.",
         },
       ],
       miniCta: {
         heading: "Not Sure Where to Start?",
         subtitle:
-          "Book a free strategy call and we'll map the exact services your store needs to grow — no generic pitches, no upselling.",
+          "Book a free strategy call and we'll map the exact services your store needs to grow - no generic pitches, no upselling.",
       },
     },
   },
@@ -215,7 +215,7 @@ export const ecommerceSeoServicesData: Record<Locale, ServicePageProps> = {
       heading:
         "Jeder E-Commerce SEO Service, den Sie brauchen,\u200Ban einem Ort",
       subtitle:
-        "Von technischen Grundlagen bis zum Linkaufbau — entdecken Sie alle unsere Services und finden Sie das Richtige für Ihre Wachstumsziele.",
+        "Von technischen Grundlagen bis zum Linkaufbau - entdecken Sie alle unsere Services und finden Sie das Richtige für Ihre Wachstumsziele.",
       ctaText: "Kostenloses Strategiegespräch buchen",
     },
     trustBar:
@@ -226,13 +226,13 @@ export const ecommerceSeoServicesData: Record<Locale, ServicePageProps> = {
         badge: "Der Full-Stack",
         heading: "Eine Agentur. Jede Ebene des E-Commerce SEO.",
         subtitle:
-          "Die meisten SEO-Agenturen decken nur einen Teil des Stacks ab. Wir decken alles ab — von technischen Server-Fixes bis zu KI-optimierten Inhalten und redaktionellem Linkaufbau.",
+          "Die meisten SEO-Agenturen decken nur einen Teil des Stacks ab. Wir decken alles ab - von technischen Server-Fixes bis zu KI-optimierten Inhalten und redaktionellem Linkaufbau.",
         process: [
           {
             number: "01",
             title: "Technisches Fundament",
             description:
-              "Crawl-Budget-Optimierung, Seitengeschwindigkeit, Core Web Vitals, strukturierte Daten, Canonical-Logik und JavaScript-Rendering — die unsichtbare Infrastruktur, die alles andere zum Funktionieren bringt.",
+              "Crawl-Budget-Optimierung, Seitengeschwindigkeit, Core Web Vitals, strukturierte Daten, Canonical-Logik und JavaScript-Rendering - die unsichtbare Infrastruktur, die alles andere zum Funktionieren bringt.",
           },
           {
             number: "02",
@@ -244,7 +244,7 @@ export const ecommerceSeoServicesData: Record<Locale, ServicePageProps> = {
             number: "03",
             title: "Autorität & Linkaufbau",
             description:
-              "Echte redaktionelle Backlinks von relevanten Publikationen in Ihrer Branche. Keine PBNs, keine Link-Farmen — nur die Domain-Autorität, die Rankings in wettbewerbsintensiven Märkten bewegt.",
+              "Echte redaktionelle Backlinks von relevanten Publikationen in Ihrer Branche. Keine PBNs, keine Link-Farmen - nur die Domain-Autorität, die Rankings in wettbewerbsintensiven Märkten bewegt.",
           },
           {
             number: "04",
@@ -264,7 +264,7 @@ export const ecommerceSeoServicesData: Record<Locale, ServicePageProps> = {
           {
             title: "E-Commerce SEO",
             description:
-              "Die vollständige kommerzielle SEO-Strategie für Online-Shops — vom technischen Audit bis zur Umsatzzuordnung.",
+              "Die vollständige kommerzielle SEO-Strategie für Online-Shops - vom technischen Audit bis zur Umsatzzuordnung.",
             href: "/ecommerce-seo",
           },
           {
@@ -276,7 +276,7 @@ export const ecommerceSeoServicesData: Record<Locale, ServicePageProps> = {
           {
             title: "WooCommerce SEO",
             description:
-              "Technisches und Content-SEO für WordPress/WooCommerce — Plugin-Audits, URL-Struktur und Datenbankoptimierung.",
+              "Technisches und Content-SEO für WordPress/WooCommerce - Plugin-Audits, URL-Struktur und Datenbankoptimierung.",
             href: "/woocommerce-seo",
           },
           {
@@ -288,13 +288,13 @@ export const ecommerceSeoServicesData: Record<Locale, ServicePageProps> = {
           {
             title: "Adobe Commerce SEO",
             description:
-              "Enterprise-Grade SEO für Magento/Adobe Commerce — Crawl-Budget, Multi-Store-Konfigurationen und JS-Rendering.",
+              "Enterprise-Grade SEO für Magento/Adobe Commerce - Crawl-Budget, Multi-Store-Konfigurationen und JS-Rendering.",
             href: "/adobe-commerce-seo",
           },
           {
             title: "Amazon SEO",
             description:
-              "Werden Sie auf dem weltgrößten Marktplatz gefunden — mit Listing-Optimierung, A+ Content und Such-Ranking-Strategien.",
+              "Werden Sie auf dem weltgrößten Marktplatz gefunden - mit Listing-Optimierung, A+ Content und Such-Ranking-Strategien.",
             href: "/amazon-seo",
           },
           {
@@ -312,7 +312,7 @@ export const ecommerceSeoServicesData: Record<Locale, ServicePageProps> = {
           {
             title: "Content-Erstellung",
             description:
-              "SEO-optimierte Inhalte, die ranken und konvertieren — Kaufratgeber, Kategorie-Texte, Produktbeschreibungen und Blog-Posts.",
+              "SEO-optimierte Inhalte, die ranken und konvertieren - Kaufratgeber, Kategorie-Texte, Produktbeschreibungen und Blog-Posts.",
             href: "/content-writing",
           },
         ],
@@ -327,13 +327,13 @@ export const ecommerceSeoServicesData: Record<Locale, ServicePageProps> = {
           {
             title: "SEO nach Plattform",
             description:
-              "Shopify, WooCommerce, BigCommerce und Adobe Commerce — plattformnative Strategien für Ihren genauen Tech-Stack.",
+              "Shopify, WooCommerce, BigCommerce und Adobe Commerce - plattformnative Strategien für Ihren genauen Tech-Stack.",
             href: "/ecommerce-seo-platforms",
           },
           {
             title: "SEO nach Branche",
             description:
-              "Mode, Beauty, Konsumgüter und Spielzeug — branchenorientierte Strategien für die einzigartige Käuferabsicht Ihres Marktes.",
+              "Mode, Beauty, Konsumgüter und Spielzeug - branchenorientierte Strategien für die einzigartige Käuferabsicht Ihres Marktes.",
             href: "/ecommerce-seo-industries",
           },
         ],
@@ -356,12 +356,12 @@ export const ecommerceSeoServicesData: Record<Locale, ServicePageProps> = {
           {
             title: "Plattformnative Umsetzung",
             description:
-              "Unsere Implementierung ist auf Ihre genaue Plattform zugeschnitten — Shopify, WooCommerce, BigCommerce oder Magento. Keine generischen Checklisten für den falschen Stack.",
+              "Unsere Implementierung ist auf Ihre genaue Plattform zugeschnitten - Shopify, WooCommerce, BigCommerce oder Magento. Keine generischen Checklisten für den falschen Stack.",
           },
           {
             title: "KI-Suche bereit",
             description:
-              "Über Google hinaus — wir optimieren Ihre Marke und Produkte für KI-Overviews, ChatGPT und Perplexity, damit Sie in der nächsten Suchgeneration sichtbar sind.",
+              "Über Google hinaus - wir optimieren Ihre Marke und Produkte für KI-Overviews, ChatGPT und Perplexity, damit Sie in der nächsten Suchgeneration sichtbar sind.",
           },
           {
             title: "Skalierbare Prozesse",
@@ -391,7 +391,7 @@ export const ecommerceSeoServicesData: Record<Locale, ServicePageProps> = {
         {
           question: "Können Sie neben meinem bestehenden Team arbeiten?",
           answer:
-            "Absolut. Wir arbeiten häufig als Spezialistenschicht über internen Marketingteams — und übernehmen die technische oder Linkaufbau-Arbeit, die tiefere E-Commerce-SEO-Expertise erfordert.",
+            "Absolut. Wir arbeiten häufig als Spezialistenschicht über internen Marketingteams - und übernehmen die technische oder Linkaufbau-Arbeit, die tiefere E-Commerce-SEO-Expertise erfordert.",
         },
         {
           question: "Welche Plattformen unterstützen Sie?",
@@ -406,13 +406,13 @@ export const ecommerceSeoServicesData: Record<Locale, ServicePageProps> = {
         {
           question: "Bieten Sie ein kostenloses Audit an?",
           answer:
-            "Ja — ein kostenloses E-Commerce-SEO-Audit, das Ihre größten Chancen in den Bereichen Technik, Content und Autorität identifiziert. Buchen Sie ein Gespräch, und wir zeigen Ihnen genau, wo Sie Umsatz liegen lassen.",
+            "Ja - ein kostenloses E-Commerce-SEO-Audit, das Ihre größten Chancen in den Bereichen Technik, Content und Autorität identifiziert. Buchen Sie ein Gespräch, und wir zeigen Ihnen genau, wo Sie Umsatz liegen lassen.",
         },
       ],
       miniCta: {
         heading: "Nicht sicher, wo Sie anfangen sollen?",
         subtitle:
-          "Buchen Sie ein kostenloses Strategiegespräch, und wir zeigen Ihnen genau, welche Services Ihr Shop braucht — keine generischen Pitches, kein Upselling.",
+          "Buchen Sie ein kostenloses Strategiegespräch, und wir zeigen Ihnen genau, welche Services Ihr Shop braucht - keine generischen Pitches, kein Upselling.",
       },
     },
   },
@@ -423,7 +423,7 @@ export const ecommerceSeoServicesData: Record<Locale, ServicePageProps> = {
       heading:
         "Tous les Services SEO E-Commerce dont Vous Avez Besoin,\u200BEn Un Seul Endroit",
       subtitle:
-        "Des fondations techniques à la création d'autorité — parcourez tous nos services et trouvez ce qui correspond à vos objectifs de croissance.",
+        "Des fondations techniques à la création d'autorité - parcourez tous nos services et trouvez ce qui correspond à vos objectifs de croissance.",
       ctaText: "Réserver un Appel Stratégique Gratuit",
     },
     trustBar:
@@ -434,13 +434,13 @@ export const ecommerceSeoServicesData: Record<Locale, ServicePageProps> = {
         badge: "La Stack Complète",
         heading: "Une Agence. Chaque Couche du SEO E-Commerce.",
         subtitle:
-          "La plupart des agences SEO ne couvrent qu'une tranche de la stack. Nous couvrons tout — des corrections techniques serveur au contenu optimisé IA en passant par l'acquisition de liens éditoriaux.",
+          "La plupart des agences SEO ne couvrent qu'une tranche de la stack. Nous couvrons tout - des corrections techniques serveur au contenu optimisé IA en passant par l'acquisition de liens éditoriaux.",
         process: [
           {
             number: "01",
             title: "Fondation Technique",
             description:
-              "Optimisation du budget crawl, vitesse du site, Core Web Vitals, données structurées, logique canonique et rendu JavaScript — l'infrastructure invisible qui fait fonctionner tout le reste.",
+              "Optimisation du budget crawl, vitesse du site, Core Web Vitals, données structurées, logique canonique et rendu JavaScript - l'infrastructure invisible qui fait fonctionner tout le reste.",
           },
           {
             number: "02",
@@ -452,7 +452,7 @@ export const ecommerceSeoServicesData: Record<Locale, ServicePageProps> = {
             number: "03",
             title: "Autorité & Netlinking",
             description:
-              "De vrais backlinks éditoriaux de publications pertinentes dans votre secteur. Pas de PBN, pas de fermes de liens — juste l'autorité de domaine qui déplace les classements sur les marchés compétitifs.",
+              "De vrais backlinks éditoriaux de publications pertinentes dans votre secteur. Pas de PBN, pas de fermes de liens - juste l'autorité de domaine qui déplace les classements sur les marchés compétitifs.",
           },
           {
             number: "04",
@@ -472,7 +472,7 @@ export const ecommerceSeoServicesData: Record<Locale, ServicePageProps> = {
           {
             title: "SEO E-Commerce",
             description:
-              "La stratégie SEO commerciale complète pour les boutiques en ligne — de l'audit technique à l'attribution des revenus.",
+              "La stratégie SEO commerciale complète pour les boutiques en ligne - de l'audit technique à l'attribution des revenus.",
             href: "/ecommerce-seo",
           },
           {
@@ -484,7 +484,7 @@ export const ecommerceSeoServicesData: Record<Locale, ServicePageProps> = {
           {
             title: "SEO WooCommerce",
             description:
-              "SEO technique et de contenu pour WordPress/WooCommerce — audits de plugins, structure d'URL et optimisation de base de données.",
+              "SEO technique et de contenu pour WordPress/WooCommerce - audits de plugins, structure d'URL et optimisation de base de données.",
             href: "/woocommerce-seo",
           },
           {
@@ -496,7 +496,7 @@ export const ecommerceSeoServicesData: Record<Locale, ServicePageProps> = {
           {
             title: "SEO Adobe Commerce",
             description:
-              "SEO de niveau entreprise pour Magento/Adobe Commerce — budget crawl, configurations multi-store et rendu JS.",
+              "SEO de niveau entreprise pour Magento/Adobe Commerce - budget crawl, configurations multi-store et rendu JS.",
             href: "/adobe-commerce-seo",
           },
           {
@@ -520,7 +520,7 @@ export const ecommerceSeoServicesData: Record<Locale, ServicePageProps> = {
           {
             title: "Rédaction de Contenu",
             description:
-              "Contenu optimisé SEO qui classe et convertit — guides d'achat, textes de catégories, descriptions de produits et articles de blog.",
+              "Contenu optimisé SEO qui classe et convertit - guides d'achat, textes de catégories, descriptions de produits et articles de blog.",
             href: "/content-writing",
           },
         ],
@@ -535,13 +535,13 @@ export const ecommerceSeoServicesData: Record<Locale, ServicePageProps> = {
           {
             title: "SEO par Plateforme",
             description:
-              "Shopify, WooCommerce, BigCommerce et Adobe Commerce — stratégies natives pour votre stack technologique exact.",
+              "Shopify, WooCommerce, BigCommerce et Adobe Commerce - stratégies natives pour votre stack technologique exact.",
             href: "/ecommerce-seo-platforms",
           },
           {
             title: "SEO par Secteur",
             description:
-              "Mode, Beauté, Consommables et Jouets — stratégies sectorielles qui captent l'intention d'achat unique de votre vertical.",
+              "Mode, Beauté, Consommables et Jouets - stratégies sectorielles qui captent l'intention d'achat unique de votre vertical.",
             href: "/ecommerce-seo-industries",
           },
         ],
@@ -564,12 +564,12 @@ export const ecommerceSeoServicesData: Record<Locale, ServicePageProps> = {
           {
             title: "Exécution Native à la Plateforme",
             description:
-              "Notre implémentation est adaptée à votre plateforme exacte — Shopify, WooCommerce, BigCommerce ou Magento. Pas de checklists génériques appliquées au mauvais stack.",
+              "Notre implémentation est adaptée à votre plateforme exacte - Shopify, WooCommerce, BigCommerce ou Magento. Pas de checklists génériques appliquées au mauvais stack.",
           },
           {
             title: "Prêt pour la Recherche IA",
             description:
-              "Au-delà de Google — nous optimisons votre marque et vos produits pour les AI Overviews, ChatGPT et Perplexity afin que vous soyez visible dans la prochaine génération de recherche.",
+              "Au-delà de Google - nous optimisons votre marque et vos produits pour les AI Overviews, ChatGPT et Perplexity afin que vous soyez visible dans la prochaine génération de recherche.",
           },
           {
             title: "Processus Évolutifs",
@@ -599,7 +599,7 @@ export const ecommerceSeoServicesData: Record<Locale, ServicePageProps> = {
         {
           question: "Pouvez-vous travailler avec mon équipe existante ?",
           answer:
-            "Absolument. Nous travaillons fréquemment comme couche spécialisée au-dessus des équipes marketing internes — prenant en charge le travail technique ou de netlinking qui nécessite une expertise SEO e-commerce plus approfondie.",
+            "Absolument. Nous travaillons fréquemment comme couche spécialisée au-dessus des équipes marketing internes - prenant en charge le travail technique ou de netlinking qui nécessite une expertise SEO e-commerce plus approfondie.",
         },
         {
           question: "Quelles plateformes supportez-vous ?",
@@ -614,13 +614,13 @@ export const ecommerceSeoServicesData: Record<Locale, ServicePageProps> = {
         {
           question: "Proposez-vous un audit gratuit ?",
           answer:
-            "Oui — un audit SEO e-commerce gratuit identifiant vos plus grandes opportunités en matière de technique, contenu et autorité. Réservez un appel et nous vous montrerons exactement où vous laissez du chiffre d'affaires sur la table.",
+            "Oui - un audit SEO e-commerce gratuit identifiant vos plus grandes opportunités en matière de technique, contenu et autorité. Réservez un appel et nous vous montrerons exactement où vous laissez du chiffre d'affaires sur la table.",
         },
       ],
       miniCta: {
         heading: "Vous ne savez pas par où commencer ?",
         subtitle:
-          "Réservez un appel stratégique gratuit et nous cartographierons les services exacts dont votre boutique a besoin — sans pitch générique, sans upselling.",
+          "Réservez un appel stratégique gratuit et nous cartographierons les services exacts dont votre boutique a besoin - sans pitch générique, sans upselling.",
       },
     },
   },
@@ -631,7 +631,7 @@ export const ecommerceSeoServicesData: Record<Locale, ServicePageProps> = {
       heading:
         "Todos los Servicios SEO Ecommerce que Necesita,\u200BEn Un Solo Lugar",
       subtitle:
-        "Desde los fundamentos técnicos hasta la construcción de autoridad — explore todos nuestros servicios y encuentre el adecuado para sus objetivos de crecimiento.",
+        "Desde los fundamentos técnicos hasta la construcción de autoridad - explore todos nuestros servicios y encuentre el adecuado para sus objetivos de crecimiento.",
       ctaText: "Reservar una Llamada Estratégica Gratuita",
     },
     trustBar:
@@ -642,13 +642,13 @@ export const ecommerceSeoServicesData: Record<Locale, ServicePageProps> = {
         badge: "El Stack Completo",
         heading: "Una Agencia. Cada Capa del SEO Ecommerce.",
         subtitle:
-          "La mayoría de las agencias SEO cubren solo una parte del stack. Nosotros cubrimos todo — desde correcciones técnicas a nivel de servidor hasta contenido optimizado para IA y adquisición de enlaces editoriales.",
+          "La mayoría de las agencias SEO cubren solo una parte del stack. Nosotros cubrimos todo - desde correcciones técnicas a nivel de servidor hasta contenido optimizado para IA y adquisición de enlaces editoriales.",
         process: [
           {
             number: "01",
             title: "Fundación Técnica",
             description:
-              "Optimización del presupuesto de rastreo, velocidad del sitio, Core Web Vitals, datos estructurados, lógica canónica y renderizado JavaScript — la infraestructura invisible que hace funcionar todo lo demás.",
+              "Optimización del presupuesto de rastreo, velocidad del sitio, Core Web Vitals, datos estructurados, lógica canónica y renderizado JavaScript - la infraestructura invisible que hace funcionar todo lo demás.",
           },
           {
             number: "02",
@@ -660,7 +660,7 @@ export const ecommerceSeoServicesData: Record<Locale, ServicePageProps> = {
             number: "03",
             title: "Autoridad y Link Building",
             description:
-              "Backlinks editoriales reales de publicaciones relevantes en su sector. Sin PBNs, sin granjas de enlaces — solo la autoridad de dominio que mueve rankings en mercados competitivos.",
+              "Backlinks editoriales reales de publicaciones relevantes en su sector. Sin PBNs, sin granjas de enlaces - solo la autoridad de dominio que mueve rankings en mercados competitivos.",
           },
           {
             number: "04",
@@ -680,7 +680,7 @@ export const ecommerceSeoServicesData: Record<Locale, ServicePageProps> = {
           {
             title: "SEO Ecommerce",
             description:
-              "La estrategia SEO comercial completa para tiendas online — desde la auditoría técnica hasta la atribución de ingresos.",
+              "La estrategia SEO comercial completa para tiendas online - desde la auditoría técnica hasta la atribución de ingresos.",
             href: "/ecommerce-seo",
           },
           {
@@ -692,7 +692,7 @@ export const ecommerceSeoServicesData: Record<Locale, ServicePageProps> = {
           {
             title: "SEO WooCommerce",
             description:
-              "SEO técnico y de contenido para WordPress/WooCommerce — auditorías de plugins, estructura de URLs y optimización de base de datos.",
+              "SEO técnico y de contenido para WordPress/WooCommerce - auditorías de plugins, estructura de URLs y optimización de base de datos.",
             href: "/woocommerce-seo",
           },
           {
@@ -704,7 +704,7 @@ export const ecommerceSeoServicesData: Record<Locale, ServicePageProps> = {
           {
             title: "SEO Adobe Commerce",
             description:
-              "SEO de nivel empresarial para Magento/Adobe Commerce — presupuesto de rastreo, configuraciones multi-tienda y renderizado JS.",
+              "SEO de nivel empresarial para Magento/Adobe Commerce - presupuesto de rastreo, configuraciones multi-tienda y renderizado JS.",
             href: "/adobe-commerce-seo",
           },
           {
@@ -728,7 +728,7 @@ export const ecommerceSeoServicesData: Record<Locale, ServicePageProps> = {
           {
             title: "Redacción de Contenido",
             description:
-              "Contenido optimizado para SEO que posiciona y convierte — guías de compra, textos de categoría, descripciones de productos y artículos de blog.",
+              "Contenido optimizado para SEO que posiciona y convierte - guías de compra, textos de categoría, descripciones de productos y artículos de blog.",
             href: "/content-writing",
           },
         ],
@@ -743,13 +743,13 @@ export const ecommerceSeoServicesData: Record<Locale, ServicePageProps> = {
           {
             title: "SEO por Plataforma",
             description:
-              "Shopify, WooCommerce, BigCommerce y Adobe Commerce — estrategias nativas para su stack tecnológico exacto.",
+              "Shopify, WooCommerce, BigCommerce y Adobe Commerce - estrategias nativas para su stack tecnológico exacto.",
             href: "/ecommerce-seo-platforms",
           },
           {
             title: "SEO por Sector",
             description:
-              "Moda, Belleza, Consumibles y Juguetes — estrategias sectoriales que captan la intención de compra única de su vertical.",
+              "Moda, Belleza, Consumibles y Juguetes - estrategias sectoriales que captan la intención de compra única de su vertical.",
             href: "/ecommerce-seo-industries",
           },
         ],
@@ -772,12 +772,12 @@ export const ecommerceSeoServicesData: Record<Locale, ServicePageProps> = {
           {
             title: "Ejecución Nativa de Plataforma",
             description:
-              "Nuestra implementación se adapta a su plataforma exacta — Shopify, WooCommerce, BigCommerce o Magento. Sin checklists genéricas aplicadas al stack equivocado.",
+              "Nuestra implementación se adapta a su plataforma exacta - Shopify, WooCommerce, BigCommerce o Magento. Sin checklists genéricas aplicadas al stack equivocado.",
           },
           {
             title: "Listo para Búsqueda IA",
             description:
-              "Más allá de Google — optimizamos su marca y productos para AI Overviews, ChatGPT y Perplexity para que sea visible en la próxima generación de búsqueda.",
+              "Más allá de Google - optimizamos su marca y productos para AI Overviews, ChatGPT y Perplexity para que sea visible en la próxima generación de búsqueda.",
           },
           {
             title: "Procesos Escalables",
@@ -807,7 +807,7 @@ export const ecommerceSeoServicesData: Record<Locale, ServicePageProps> = {
         {
           question: "¿Pueden trabajar junto a mi equipo existente?",
           answer:
-            "Absolutamente. Trabajamos frecuentemente como capa especialista sobre equipos de marketing internos — manejando el trabajo técnico o de link building que requiere mayor experiencia en SEO ecommerce.",
+            "Absolutamente. Trabajamos frecuentemente como capa especialista sobre equipos de marketing internos - manejando el trabajo técnico o de link building que requiere mayor experiencia en SEO ecommerce.",
         },
         {
           question: "¿Qué plataformas soportan?",
@@ -822,13 +822,13 @@ export const ecommerceSeoServicesData: Record<Locale, ServicePageProps> = {
         {
           question: "¿Ofrecen una auditoría gratuita?",
           answer:
-            "Sí — una auditoría SEO ecommerce gratuita que identifica sus mayores oportunidades en técnica, contenido y autoridad. Reserve una llamada y le mostraremos exactamente dónde está dejando ingresos sobre la mesa.",
+            "Sí - una auditoría SEO ecommerce gratuita que identifica sus mayores oportunidades en técnica, contenido y autoridad. Reserve una llamada y le mostraremos exactamente dónde está dejando ingresos sobre la mesa.",
         },
       ],
       miniCta: {
         heading: "¿No sabe por dónde empezar?",
         subtitle:
-          "Reserve una llamada estratégica gratuita y mapearemos los servicios exactos que su tienda necesita — sin pitches genéricos, sin upselling.",
+          "Reserve una llamada estratégica gratuita y mapearemos los servicios exactos que su tienda necesita - sin pitches genéricos, sin upselling.",
       },
     },
   },
@@ -839,7 +839,7 @@ export const ecommerceSeoServicesData: Record<Locale, ServicePageProps> = {
       heading:
         "Tutti i Servizi SEO Ecommerce di cui Hai Bisogno,\u200BIn Un Solo Posto",
       subtitle:
-        "Dalle fondamenta tecniche alla costruzione di autorità — esplora tutti i nostri servizi e trova quello giusto per i tuoi obiettivi di crescita.",
+        "Dalle fondamenta tecniche alla costruzione di autorità - esplora tutti i nostri servizi e trova quello giusto per i tuoi obiettivi di crescita.",
       ctaText: "Prenota una Chiamata Strategica Gratuita",
     },
     trustBar:
@@ -850,13 +850,13 @@ export const ecommerceSeoServicesData: Record<Locale, ServicePageProps> = {
         badge: "Lo Stack Completo",
         heading: "Un'Agenzia. Ogni Livello del SEO Ecommerce.",
         subtitle:
-          "La maggior parte delle agenzie SEO copre solo una fetta dello stack. Noi copriamo tutto — dalle correzioni tecniche a livello server ai contenuti ottimizzati IA all'acquisizione di link editoriali.",
+          "La maggior parte delle agenzie SEO copre solo una fetta dello stack. Noi copriamo tutto - dalle correzioni tecniche a livello server ai contenuti ottimizzati IA all'acquisizione di link editoriali.",
         process: [
           {
             number: "01",
             title: "Fondazione Tecnica",
             description:
-              "Ottimizzazione del budget di scansione, velocità del sito, Core Web Vitals, dati strutturati, logica canonica e rendering JavaScript — l'infrastruttura invisibile che fa funzionare tutto il resto.",
+              "Ottimizzazione del budget di scansione, velocità del sito, Core Web Vitals, dati strutturati, logica canonica e rendering JavaScript - l'infrastruttura invisibile che fa funzionare tutto il resto.",
           },
           {
             number: "02",
@@ -868,7 +868,7 @@ export const ecommerceSeoServicesData: Record<Locale, ServicePageProps> = {
             number: "03",
             title: "Autorità e Link Building",
             description:
-              "Veri backlink editoriali da pubblicazioni rilevanti nel tuo settore. Nessun PBN, nessuna link farm — solo l'autorità di dominio che muove i ranking nei mercati competitivi.",
+              "Veri backlink editoriali da pubblicazioni rilevanti nel tuo settore. Nessun PBN, nessuna link farm - solo l'autorità di dominio che muove i ranking nei mercati competitivi.",
           },
           {
             number: "04",
@@ -888,7 +888,7 @@ export const ecommerceSeoServicesData: Record<Locale, ServicePageProps> = {
           {
             title: "SEO Ecommerce",
             description:
-              "La strategia SEO commerciale completa per i negozi online — dall'audit tecnico all'attribuzione dei ricavi.",
+              "La strategia SEO commerciale completa per i negozi online - dall'audit tecnico all'attribuzione dei ricavi.",
             href: "/ecommerce-seo",
           },
           {
@@ -900,7 +900,7 @@ export const ecommerceSeoServicesData: Record<Locale, ServicePageProps> = {
           {
             title: "SEO WooCommerce",
             description:
-              "SEO tecnico e di contenuto per WordPress/WooCommerce — audit dei plugin, struttura URL e ottimizzazione del database.",
+              "SEO tecnico e di contenuto per WordPress/WooCommerce - audit dei plugin, struttura URL e ottimizzazione del database.",
             href: "/woocommerce-seo",
           },
           {
@@ -912,7 +912,7 @@ export const ecommerceSeoServicesData: Record<Locale, ServicePageProps> = {
           {
             title: "SEO Adobe Commerce",
             description:
-              "SEO di livello enterprise per Magento/Adobe Commerce — budget di scansione, configurazioni multi-store e rendering JS.",
+              "SEO di livello enterprise per Magento/Adobe Commerce - budget di scansione, configurazioni multi-store e rendering JS.",
             href: "/adobe-commerce-seo",
           },
           {
@@ -936,7 +936,7 @@ export const ecommerceSeoServicesData: Record<Locale, ServicePageProps> = {
           {
             title: "Scrittura di Contenuti",
             description:
-              "Contenuto ottimizzato per SEO che posiziona e converte — guide agli acquisti, testi di categoria, descrizioni di prodotti e articoli di blog.",
+              "Contenuto ottimizzato per SEO che posiziona e converte - guide agli acquisti, testi di categoria, descrizioni di prodotti e articoli di blog.",
             href: "/content-writing",
           },
         ],
@@ -951,13 +951,13 @@ export const ecommerceSeoServicesData: Record<Locale, ServicePageProps> = {
           {
             title: "SEO per Piattaforma",
             description:
-              "Shopify, WooCommerce, BigCommerce e Adobe Commerce — strategie native per il tuo stack tecnologico esatto.",
+              "Shopify, WooCommerce, BigCommerce e Adobe Commerce - strategie native per il tuo stack tecnologico esatto.",
             href: "/ecommerce-seo-platforms",
           },
           {
             title: "SEO per Settore",
             description:
-              "Moda, Bellezza, Consumabili e Giocattoli — strategie settoriali che catturano l'intento d'acquisto unico del tuo verticale.",
+              "Moda, Bellezza, Consumabili e Giocattoli - strategie settoriali che catturano l'intento d'acquisto unico del tuo verticale.",
             href: "/ecommerce-seo-industries",
           },
         ],
@@ -980,12 +980,12 @@ export const ecommerceSeoServicesData: Record<Locale, ServicePageProps> = {
           {
             title: "Esecuzione Nativa della Piattaforma",
             description:
-              "La nostra implementazione è adattata alla tua piattaforma esatta — Shopify, WooCommerce, BigCommerce o Magento. Nessuna checklist generica applicata allo stack sbagliato.",
+              "La nostra implementazione è adattata alla tua piattaforma esatta - Shopify, WooCommerce, BigCommerce o Magento. Nessuna checklist generica applicata allo stack sbagliato.",
           },
           {
             title: "Pronto per la Ricerca IA",
             description:
-              "Oltre Google — ottimizziamo il tuo brand e i tuoi prodotti per AI Overviews, ChatGPT e Perplexity in modo che tu sia visibile nella prossima generazione di ricerca.",
+              "Oltre Google - ottimizziamo il tuo brand e i tuoi prodotti per AI Overviews, ChatGPT e Perplexity in modo che tu sia visibile nella prossima generazione di ricerca.",
           },
           {
             title: "Processi Scalabili",
@@ -1015,7 +1015,7 @@ export const ecommerceSeoServicesData: Record<Locale, ServicePageProps> = {
         {
           question: "Potete lavorare insieme al mio team esistente?",
           answer:
-            "Assolutamente. Lavoriamo frequentemente come strato specialista sopra i team di marketing interni — gestendo il lavoro tecnico o di link building che richiede una più profonda esperienza in SEO ecommerce.",
+            "Assolutamente. Lavoriamo frequentemente come strato specialista sopra i team di marketing interni - gestendo il lavoro tecnico o di link building che richiede una più profonda esperienza in SEO ecommerce.",
         },
         {
           question: "Quali piattaforme supportate?",
@@ -1030,13 +1030,13 @@ export const ecommerceSeoServicesData: Record<Locale, ServicePageProps> = {
         {
           question: "Offrite un audit gratuito?",
           answer:
-            "Sì — un audit SEO ecommerce gratuito che identifica le tue maggiori opportunità in termini di tecnica, contenuto e autorità. Prenota una chiamata e ti mostreremo esattamente dove stai lasciando ricavi sul tavolo.",
+            "Sì - un audit SEO ecommerce gratuito che identifica le tue maggiori opportunità in termini di tecnica, contenuto e autorità. Prenota una chiamata e ti mostreremo esattamente dove stai lasciando ricavi sul tavolo.",
         },
       ],
       miniCta: {
         heading: "Non sai da dove iniziare?",
         subtitle:
-          "Prenota una chiamata strategica gratuita e mapperemo i servizi esatti di cui il tuo negozio ha bisogno — nessun pitch generico, nessun upselling.",
+          "Prenota una chiamata strategica gratuita e mapperemo i servizi esatti di cui il tuo negozio ha bisogno - nessun pitch generico, nessun upselling.",
       },
     },
   },
@@ -1047,7 +1047,7 @@ export const ecommerceSeoServicesData: Record<Locale, ServicePageProps> = {
       heading:
         "Elke Ecommerce SEO Service die U Nodig Heeft,\u200BOp Één Plek",
       subtitle:
-        "Van technische fundamenten tot gezagsopbouw — blader door al onze services en vind de juiste match voor uw groeidoelstellingen.",
+        "Van technische fundamenten tot gezagsopbouw - blader door al onze services en vind de juiste match voor uw groeidoelstellingen.",
       ctaText: "Gratis Strategiegesprek Boeken",
     },
     trustBar:
@@ -1058,13 +1058,13 @@ export const ecommerceSeoServicesData: Record<Locale, ServicePageProps> = {
         badge: "De Volledige Stack",
         heading: "Eén Bureau. Elke Laag van Ecommerce SEO.",
         subtitle:
-          "De meeste SEO-bureaus dekken slechts één deel van de stack. Wij dekken alles — van technische serverfixes tot AI-geoptimaliseerde content tot redactionele linkacquisitie.",
+          "De meeste SEO-bureaus dekken slechts één deel van de stack. Wij dekken alles - van technische serverfixes tot AI-geoptimaliseerde content tot redactionele linkacquisitie.",
         process: [
           {
             number: "01",
             title: "Technisch Fundament",
             description:
-              "Crawlbudgetoptimalisatie, sitesnelheid, Core Web Vitals, gestructureerde data, canonieke logica en JavaScript-rendering — de onzichtbare infrastructuur die alles else laat werken.",
+              "Crawlbudgetoptimalisatie, sitesnelheid, Core Web Vitals, gestructureerde data, canonieke logica en JavaScript-rendering - de onzichtbare infrastructuur die alles else laat werken.",
           },
           {
             number: "02",
@@ -1076,7 +1076,7 @@ export const ecommerceSeoServicesData: Record<Locale, ServicePageProps> = {
             number: "03",
             title: "Autoriteit & Linkbuilding",
             description:
-              "Echte redactionele backlinks van relevante publicaties in uw sector. Geen PBN's, geen linkfarms — alleen de domeinautoriteit die rankings beweegt in competitieve markten.",
+              "Echte redactionele backlinks van relevante publicaties in uw sector. Geen PBN's, geen linkfarms - alleen de domeinautoriteit die rankings beweegt in competitieve markten.",
           },
           {
             number: "04",
@@ -1096,7 +1096,7 @@ export const ecommerceSeoServicesData: Record<Locale, ServicePageProps> = {
           {
             title: "Ecommerce SEO",
             description:
-              "De volledige commerciële SEO-strategie voor webshops — van technische audit tot omzetattributie.",
+              "De volledige commerciële SEO-strategie voor webshops - van technische audit tot omzetattributie.",
             href: "/ecommerce-seo",
           },
           {
@@ -1108,7 +1108,7 @@ export const ecommerceSeoServicesData: Record<Locale, ServicePageProps> = {
           {
             title: "WooCommerce SEO",
             description:
-              "Technische en content-SEO voor WordPress/WooCommerce — plugin-audits, URL-structuur en database-optimalisatie.",
+              "Technische en content-SEO voor WordPress/WooCommerce - plugin-audits, URL-structuur en database-optimalisatie.",
             href: "/woocommerce-seo",
           },
           {
@@ -1120,7 +1120,7 @@ export const ecommerceSeoServicesData: Record<Locale, ServicePageProps> = {
           {
             title: "Adobe Commerce SEO",
             description:
-              "Enterprise-grade SEO voor Magento/Adobe Commerce — crawlbudget, multi-store-configuraties en JS-rendering.",
+              "Enterprise-grade SEO voor Magento/Adobe Commerce - crawlbudget, multi-store-configuraties en JS-rendering.",
             href: "/adobe-commerce-seo",
           },
           {
@@ -1144,7 +1144,7 @@ export const ecommerceSeoServicesData: Record<Locale, ServicePageProps> = {
           {
             title: "Contentschrijven",
             description:
-              "SEO-geoptimaliseerde content die rankt en converteert — koopgidsen, categorieteksten, productbeschrijvingen en blogartikelen.",
+              "SEO-geoptimaliseerde content die rankt en converteert - koopgidsen, categorieteksten, productbeschrijvingen en blogartikelen.",
             href: "/content-writing",
           },
         ],
@@ -1159,13 +1159,13 @@ export const ecommerceSeoServicesData: Record<Locale, ServicePageProps> = {
           {
             title: "SEO per Platform",
             description:
-              "Shopify, WooCommerce, BigCommerce en Adobe Commerce — platform-native strategieën voor uw exacte techstack.",
+              "Shopify, WooCommerce, BigCommerce en Adobe Commerce - platform-native strategieën voor uw exacte techstack.",
             href: "/ecommerce-seo-platforms",
           },
           {
             title: "SEO per Sector",
             description:
-              "Mode, Beauty, Consumabelen en Speelgoed — sectorgerichte strategieën die de unieke koopintentie van uw vertical vastleggen.",
+              "Mode, Beauty, Consumabelen en Speelgoed - sectorgerichte strategieën die de unieke koopintentie van uw vertical vastleggen.",
             href: "/ecommerce-seo-industries",
           },
         ],
@@ -1188,12 +1188,12 @@ export const ecommerceSeoServicesData: Record<Locale, ServicePageProps> = {
           {
             title: "Platform-native Uitvoering",
             description:
-              "Onze implementatie is afgestemd op uw exacte platform — Shopify, WooCommerce, BigCommerce of Magento. Geen generieke checklists toegepast op de verkeerde stack.",
+              "Onze implementatie is afgestemd op uw exacte platform - Shopify, WooCommerce, BigCommerce of Magento. Geen generieke checklists toegepast op de verkeerde stack.",
           },
           {
             title: "Klaar voor AI-zoekopdrachten",
             description:
-              "Verder dan Google — we optimaliseren uw merk en producten voor AI Overviews, ChatGPT en Perplexity zodat u zichtbaar bent in de volgende generatie zoekopdrachten.",
+              "Verder dan Google - we optimaliseren uw merk en producten voor AI Overviews, ChatGPT en Perplexity zodat u zichtbaar bent in de volgende generatie zoekopdrachten.",
           },
           {
             title: "Schaalbare Processen",
@@ -1223,7 +1223,7 @@ export const ecommerceSeoServicesData: Record<Locale, ServicePageProps> = {
         {
           question: "Kunt u naast mijn bestaande team werken?",
           answer:
-            "Absoluut. We werken vaak als specialistische laag bovenop interne marketingteams — waarbij we het technische of linkbuilding werk overnemen dat diepere ecommerce SEO-expertise vereist.",
+            "Absoluut. We werken vaak als specialistische laag bovenop interne marketingteams - waarbij we het technische of linkbuilding werk overnemen dat diepere ecommerce SEO-expertise vereist.",
         },
         {
           question: "Welke platforms ondersteunen jullie?",
@@ -1238,13 +1238,13 @@ export const ecommerceSeoServicesData: Record<Locale, ServicePageProps> = {
         {
           question: "Biedt u een gratis audit aan?",
           answer:
-            "Ja — een gratis ecommerce SEO-audit die uw grootste kansen op het gebied van techniek, content en autoriteit identificeert. Boek een gesprek en we laten u precies zien waar u omzet laat liggen.",
+            "Ja - een gratis ecommerce SEO-audit die uw grootste kansen op het gebied van techniek, content en autoriteit identificeert. Boek een gesprek en we laten u precies zien waar u omzet laat liggen.",
         },
       ],
       miniCta: {
         heading: "Weet u niet waar u moet beginnen?",
         subtitle:
-          "Boek een gratis strategiegesprek en we brengen in kaart welke services uw winkel precies nodig heeft — geen generieke pitches, geen upselling.",
+          "Boek een gratis strategiegesprek en we brengen in kaart welke services uw winkel precies nodig heeft - geen generieke pitches, geen upselling.",
       },
     },
   },

@@ -47,7 +47,7 @@
   "/amazon-seo": {
     "title": "Amazon SEO Agency | EcomSEO",
     "description": "Amazon SEO services. Get on top of Amazon with your brand through optimized listings, A+ content, and strategic keyword targeting.",
-    "ogTitle": "Amazon SEO — Get on Top of Amazon With Your Brand | EcomSEO"
+    "ogTitle": "Amazon SEO - Get on Top of Amazon With Your Brand | EcomSEO"
   },
   "/fashion-seo": {
     "title": "Fashion SEO Agency | EcomSEO",
@@ -70,9 +70,9 @@
     "ogTitle": "Toys SEO That Makes Sales Soar | EcomSEO"
   },
   "/cases": {
-    "title": "Case Studies — Real SEO Results | EcomSEO",
+    "title": "Case Studies - Real SEO Results | EcomSEO",
     "description": "See how we've helped ecommerce brands scale organic traffic and revenue. Real results, real numbers, real growth stories.",
-    "ogTitle": "Case Studies — Real SEO Results | EcomSEO"
+    "ogTitle": "Case Studies - Real SEO Results | EcomSEO"
   },
   "/team": {
     "title": "Meet the Team | EcomSEO",
@@ -95,9 +95,9 @@
     "ogTitle": "Resources & Learning Centre | EcomSEO"
   },
   "/resources/crash-course": {
-    "title": "Beginner to Hero — Ecommerce SEO Crash Course | EcomSEO",
+    "title": "Beginner to Hero - Ecommerce SEO Crash Course | EcomSEO",
     "description": "Complete ecommerce SEO crash course. Learn everything you need to know about ranking higher on Google and driving organic revenue.",
-    "ogTitle": "Beginner to Hero — Ecommerce SEO Crash Course | EcomSEO"
+    "ogTitle": "Beginner to Hero - Ecommerce SEO Crash Course | EcomSEO"
   },
   "/resources/crash-course/changelog-page": {
     "title": "Performance Boost & New Features | Ecommerce SEO Crash Course",
@@ -105,9 +105,9 @@
     "ogTitle": "Performance Boost & New Features | Ecommerce SEO Crash Course"
   },
   "/resources/search-product-discovery": {
-    "title": "AI Shopping — Get Your Products on LLMs Like ChatGPT | EcomSEO",
+    "title": "AI Shopping - Get Your Products on LLMs Like ChatGPT | EcomSEO",
     "description": "Your products are invisible on AI. You can do something about it today. Perhaps the biggest opportunity in 2025.",
-    "ogTitle": "AI Shopping — Get Your Products on LLMs Like ChatGPT | EcomSEO"
+    "ogTitle": "AI Shopping - Get Your Products on LLMs Like ChatGPT | EcomSEO"
   },
   "/resources/shopify-on-page-checklist": {
     "title": "Premium Shopify On-Page SEO Checklist | EcomSEO",
@@ -195,24 +195,24 @@
     "ogTitle": "SERP Domination for Ecommerce | EcomSEO Guides"
   },
   "/page": {
-    "title": "Fabian van Til — LLM Optimisation Agency | EcomSEO",
+    "title": "Fabian van Til - LLM Optimisation Agency | EcomSEO",
     "description": "Fabian van Til, founder of EcomSEO. Helping ecommerce brands get discovered on AI and LLMs like ChatGPT.",
-    "ogTitle": "Fabian van Til — LLM Optimisation Agency | EcomSEO"
+    "ogTitle": "Fabian van Til - LLM Optimisation Agency | EcomSEO"
   },
   "/intent-matching-tool": {
-    "title": "Intent Matching Tool — AI Keyword Analyzer | EcomSEO",
+    "title": "Intent Matching Tool - AI Keyword Analyzer | EcomSEO",
     "description": "Analyze search intent for your ecommerce keywords. Understand what your customers are looking for and optimize your content accordingly.",
-    "ogTitle": "Intent Matching Tool — AI Keyword Analyzer | EcomSEO"
+    "ogTitle": "Intent Matching Tool - AI Keyword Analyzer | EcomSEO"
   },
   "/premium-on-page-seo-checklist": {
-    "title": "Premium On-Page SEO Checklist — Generate Millions Organically | EcomSEO",
+    "title": "Premium On-Page SEO Checklist - Generate Millions Organically | EcomSEO",
     "description": "Ecom Owners! This On-Page SEO Checklist is all you need to generate millions organically on Google.",
     "ogTitle": "Premium On-Page SEO Checklist | EcomSEO"
   },
   "/client-dashboard": {
-    "title": "Client Dashboard — Launching Soon | EcomSEO",
+    "title": "Client Dashboard - Launching Soon | EcomSEO",
     "description": "Coming soon: Access your SEO performance data, insights, and recommendations in one place.",
-    "ogTitle": "Client Dashboard — Launching Soon | EcomSEO"
+    "ogTitle": "Client Dashboard - Launching Soon | EcomSEO"
   },
   "/thank-you-payment": {
     "title": "Thank You for Your Payment | EcomSEO",
@@ -316,7 +316,7 @@
   },
   "/tools/thin-content-checker": {
     "title": "Free Thin Content & Word Count Checker | EcomSEO",
-    "description": "Detect pages with too little content that may hurt your search rankings. Bulk word count analyzer — check up to 20 URLs at once. Free SEO tool.",
+    "description": "Detect pages with too little content that may hurt your search rankings. Bulk word count analyzer - check up to 20 URLs at once. Free SEO tool.",
     "ogTitle": "Free Thin Content Checker - Find Low Word Count Pages | EcomSEO"
   },
   "/tools/core-web-vitals": {

@@ -507,7 +507,7 @@ export default function SerpSimulatorClient({
                   {/* Description */}
                   <p className="text-[14px] text-[#4d5156] leading-[1.58] mt-[3px]">
                     {showDate && (
-                      <span className="text-[#70757a]">{todayDate} — </span>
+                      <span className="text-[#70757a]">{todayDate} - </span>
                     )}
                     {boldKeywords(displayDesc, keyword)}
                   </p>

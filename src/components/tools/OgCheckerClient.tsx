@@ -232,7 +232,7 @@ export default function OgCheckerClient({ t }: { t: OgCheckerTranslation }) {
                           <path d="M7.5 7.5l5 5M12.5 7.5l-5 5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
                         </svg>
                         <span className="text-red-400 font-mono">{tag}</span>
-                        <span className="text-white/30 text-xs">— {t.missingTag}</span>
+                        <span className="text-white/30 text-xs">- {t.missingTag}</span>
                       </div>
                     ))}
                   </div>

@@ -36,7 +36,7 @@ function IssueBadge({ label }: { label: string }) {
 }
 
 function truncate(text: string | null, max: number) {
-  if (!text) return <span className="text-white/20 italic">—</span>;
+  if (!text) return <span className="text-white/20 italic">-</span>;
   return text.length > max ? text.slice(0, max) + "…" : text;
 }
 

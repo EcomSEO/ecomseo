@@ -56,17 +56,17 @@ export const ecommerceSeoPlatformsData: Record<Locale, ServicePageProps> = {
         links: [
           {
             title: "All Ecommerce SEO Services",
-            description: "See every service we offer — from technical audits to content writing to authority building.",
+            description: "See every service we offer - from technical audits to content writing to authority building.",
             href: "/ecommerce-seo-services",
           },
           {
             title: "SEO by Industry",
-            description: "Fashion, Beauty, Consumables, Toys — industry-native strategies for your specific vertical.",
+            description: "Fashion, Beauty, Consumables, Toys - industry-native strategies for your specific vertical.",
             href: "/ecommerce-seo-industries",
           },
           {
             title: "Ecommerce SEO",
-            description: "The full commercial SEO strategy for online stores — platform-agnostic and revenue-focused.",
+            description: "The full commercial SEO strategy for online stores - platform-agnostic and revenue-focused.",
             href: "/ecommerce-seo",
           },
         ],
@@ -141,17 +141,17 @@ export const ecommerceSeoPlatformsData: Record<Locale, ServicePageProps> = {
         links: [
           {
             title: "Alle E-Commerce SEO Services",
-            description: "Sehen Sie jeden Service, den wir anbieten — von technischen Audits bis zu Content-Erstellung und Autoritätsaufbau.",
+            description: "Sehen Sie jeden Service, den wir anbieten - von technischen Audits bis zu Content-Erstellung und Autoritätsaufbau.",
             href: "/ecommerce-seo-services",
           },
           {
             title: "SEO nach Branche",
-            description: "Mode, Beauty, Konsumgüter, Spielzeug — branchenorientierte Strategien für Ihre spezifische Nische.",
+            description: "Mode, Beauty, Konsumgüter, Spielzeug - branchenorientierte Strategien für Ihre spezifische Nische.",
             href: "/ecommerce-seo-industries",
           },
           {
             title: "E-Commerce SEO",
-            description: "Die vollständige kommerzielle SEO-Strategie für Online-Shops — plattformunabhängig und umsatzorientiert.",
+            description: "Die vollständige kommerzielle SEO-Strategie für Online-Shops - plattformunabhängig und umsatzorientiert.",
             href: "/ecommerce-seo",
           },
         ],
@@ -226,17 +226,17 @@ export const ecommerceSeoPlatformsData: Record<Locale, ServicePageProps> = {
         links: [
           {
             title: "Tous les Services SEO E-Commerce",
-            description: "Découvrez chaque service que nous proposons — des audits techniques à la rédaction de contenu en passant par la construction d'autorité.",
+            description: "Découvrez chaque service que nous proposons - des audits techniques à la rédaction de contenu en passant par la construction d'autorité.",
             href: "/ecommerce-seo-services",
           },
           {
             title: "SEO par Secteur",
-            description: "Mode, Beauté, Consommables, Jouets — stratégies sectorielles pour votre vertical spécifique.",
+            description: "Mode, Beauté, Consommables, Jouets - stratégies sectorielles pour votre vertical spécifique.",
             href: "/ecommerce-seo-industries",
           },
           {
             title: "SEO E-Commerce",
-            description: "La stratégie SEO commerciale complète pour les boutiques en ligne — indépendante de la plateforme et axée sur le chiffre d'affaires.",
+            description: "La stratégie SEO commerciale complète pour les boutiques en ligne - indépendante de la plateforme et axée sur le chiffre d'affaires.",
             href: "/ecommerce-seo",
           },
         ],
@@ -311,17 +311,17 @@ export const ecommerceSeoPlatformsData: Record<Locale, ServicePageProps> = {
         links: [
           {
             title: "Todos los Servicios SEO Ecommerce",
-            description: "Vea cada servicio que ofrecemos — desde auditorías técnicas hasta redacción de contenido y construcción de autoridad.",
+            description: "Vea cada servicio que ofrecemos - desde auditorías técnicas hasta redacción de contenido y construcción de autoridad.",
             href: "/ecommerce-seo-services",
           },
           {
             title: "SEO por Sector",
-            description: "Moda, Belleza, Consumibles, Juguetes — estrategias sectoriales para su vertical específico.",
+            description: "Moda, Belleza, Consumibles, Juguetes - estrategias sectoriales para su vertical específico.",
             href: "/ecommerce-seo-industries",
           },
           {
             title: "SEO Ecommerce",
-            description: "La estrategia SEO comercial completa para tiendas online — independiente de la plataforma y orientada a ingresos.",
+            description: "La estrategia SEO comercial completa para tiendas online - independiente de la plataforma y orientada a ingresos.",
             href: "/ecommerce-seo",
           },
         ],
@@ -396,17 +396,17 @@ export const ecommerceSeoPlatformsData: Record<Locale, ServicePageProps> = {
         links: [
           {
             title: "Tutti i Servizi SEO Ecommerce",
-            description: "Scopri ogni servizio che offriamo — dagli audit tecnici alla scrittura di contenuti alla costruzione di autorità.",
+            description: "Scopri ogni servizio che offriamo - dagli audit tecnici alla scrittura di contenuti alla costruzione di autorità.",
             href: "/ecommerce-seo-services",
           },
           {
             title: "SEO per Settore",
-            description: "Moda, Bellezza, Consumabili, Giocattoli — strategie settoriali per il tuo verticale specifico.",
+            description: "Moda, Bellezza, Consumabili, Giocattoli - strategie settoriali per il tuo verticale specifico.",
             href: "/ecommerce-seo-industries",
           },
           {
             title: "SEO Ecommerce",
-            description: "La strategia SEO commerciale completa per i negozi online — indipendente dalla piattaforma e orientata ai ricavi.",
+            description: "La strategia SEO commerciale completa per i negozi online - indipendente dalla piattaforma e orientata ai ricavi.",
             href: "/ecommerce-seo",
           },
         ],
@@ -481,17 +481,17 @@ export const ecommerceSeoPlatformsData: Record<Locale, ServicePageProps> = {
         links: [
           {
             title: "Alle Ecommerce SEO Services",
-            description: "Bekijk elke service die we aanbieden — van technische audits tot contentschrijven tot gezagsopbouw.",
+            description: "Bekijk elke service die we aanbieden - van technische audits tot contentschrijven tot gezagsopbouw.",
             href: "/ecommerce-seo-services",
           },
           {
             title: "SEO per Sector",
-            description: "Mode, Beauty, Consumabelen, Speelgoed — sectorstrategieën voor uw specifieke vertical.",
+            description: "Mode, Beauty, Consumabelen, Speelgoed - sectorstrategieën voor uw specifieke vertical.",
             href: "/ecommerce-seo-industries",
           },
           {
             title: "Ecommerce SEO",
-            description: "De volledige commerciële SEO-strategie voor webshops — platformonafhankelijk en omzetgericht.",
+            description: "De volledige commerciële SEO-strategie voor webshops - platformonafhankelijk en omzetgericht.",
             href: "/ecommerce-seo",
           },
         ],

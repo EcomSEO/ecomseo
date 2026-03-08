@@ -200,7 +200,7 @@ function GuideBlockRenderer({ block }: { block: GuideBlock }) {
         <ul className="flex flex-col gap-2">
           {block.items.map((item, i) => (
             <li key={i} className="flex items-start gap-3">
-              <span className="text-accent text-sm shrink-0 mt-0.5">—</span>
+              <span className="text-accent text-sm shrink-0 mt-0.5">-</span>
               <span className="text-body text-sm leading-relaxed">{item}</span>
             </li>
           ))}

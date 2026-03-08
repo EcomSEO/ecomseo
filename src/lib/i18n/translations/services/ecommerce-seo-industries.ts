@@ -56,17 +56,17 @@ export const ecommerceSeoIndustriesData: Record<Locale, ServicePageProps> = {
         links: [
           {
             title: "All Ecommerce SEO Services",
-            description: "See every service we offer — from technical audits to content writing to authority building.",
+            description: "See every service we offer - from technical audits to content writing to authority building.",
             href: "/ecommerce-seo-services",
           },
           {
             title: "SEO by Platform",
-            description: "Shopify, WooCommerce, BigCommerce, Adobe Commerce — platform-native strategies for your exact tech stack.",
+            description: "Shopify, WooCommerce, BigCommerce, Adobe Commerce - platform-native strategies for your exact tech stack.",
             href: "/ecommerce-seo-platforms",
           },
           {
             title: "Ecommerce SEO",
-            description: "The full commercial SEO strategy for online stores — industry-agnostic and revenue-focused.",
+            description: "The full commercial SEO strategy for online stores - industry-agnostic and revenue-focused.",
             href: "/ecommerce-seo",
           },
         ],
@@ -141,17 +141,17 @@ export const ecommerceSeoIndustriesData: Record<Locale, ServicePageProps> = {
         links: [
           {
             title: "Alle E-Commerce SEO Services",
-            description: "Sehen Sie jeden Service, den wir anbieten — von technischen Audits bis zu Content-Erstellung und Autoritätsaufbau.",
+            description: "Sehen Sie jeden Service, den wir anbieten - von technischen Audits bis zu Content-Erstellung und Autoritätsaufbau.",
             href: "/ecommerce-seo-services",
           },
           {
             title: "SEO nach Plattform",
-            description: "Shopify, WooCommerce, BigCommerce, Adobe Commerce — plattformnative Strategien für Ihren genauen Tech-Stack.",
+            description: "Shopify, WooCommerce, BigCommerce, Adobe Commerce - plattformnative Strategien für Ihren genauen Tech-Stack.",
             href: "/ecommerce-seo-platforms",
           },
           {
             title: "E-Commerce SEO",
-            description: "Die vollständige kommerzielle SEO-Strategie für Online-Shops — branchenunabhängig und umsatzorientiert.",
+            description: "Die vollständige kommerzielle SEO-Strategie für Online-Shops - branchenunabhängig und umsatzorientiert.",
             href: "/ecommerce-seo",
           },
         ],
@@ -226,17 +226,17 @@ export const ecommerceSeoIndustriesData: Record<Locale, ServicePageProps> = {
         links: [
           {
             title: "Tous les Services SEO E-Commerce",
-            description: "Découvrez chaque service que nous proposons — des audits techniques à la rédaction de contenu en passant par la construction d'autorité.",
+            description: "Découvrez chaque service que nous proposons - des audits techniques à la rédaction de contenu en passant par la construction d'autorité.",
             href: "/ecommerce-seo-services",
           },
           {
             title: "SEO par Plateforme",
-            description: "Shopify, WooCommerce, BigCommerce, Adobe Commerce — stratégies natives pour votre stack technologique exact.",
+            description: "Shopify, WooCommerce, BigCommerce, Adobe Commerce - stratégies natives pour votre stack technologique exact.",
             href: "/ecommerce-seo-platforms",
           },
           {
             title: "SEO E-Commerce",
-            description: "La stratégie SEO commerciale complète pour les boutiques en ligne — indépendante du secteur et axée sur le chiffre d'affaires.",
+            description: "La stratégie SEO commerciale complète pour les boutiques en ligne - indépendante du secteur et axée sur le chiffre d'affaires.",
             href: "/ecommerce-seo",
           },
         ],
@@ -311,17 +311,17 @@ export const ecommerceSeoIndustriesData: Record<Locale, ServicePageProps> = {
         links: [
           {
             title: "Todos los Servicios SEO Ecommerce",
-            description: "Vea cada servicio que ofrecemos — desde auditorías técnicas hasta redacción de contenido y construcción de autoridad.",
+            description: "Vea cada servicio que ofrecemos - desde auditorías técnicas hasta redacción de contenido y construcción de autoridad.",
             href: "/ecommerce-seo-services",
           },
           {
             title: "SEO por Plataforma",
-            description: "Shopify, WooCommerce, BigCommerce, Adobe Commerce — estrategias nativas para su stack tecnológico exacto.",
+            description: "Shopify, WooCommerce, BigCommerce, Adobe Commerce - estrategias nativas para su stack tecnológico exacto.",
             href: "/ecommerce-seo-platforms",
           },
           {
             title: "SEO Ecommerce",
-            description: "La estrategia SEO comercial completa para tiendas online — independiente del sector y orientada a ingresos.",
+            description: "La estrategia SEO comercial completa para tiendas online - independiente del sector y orientada a ingresos.",
             href: "/ecommerce-seo",
           },
         ],
@@ -396,17 +396,17 @@ export const ecommerceSeoIndustriesData: Record<Locale, ServicePageProps> = {
         links: [
           {
             title: "Tutti i Servizi SEO Ecommerce",
-            description: "Scopri ogni servizio che offriamo — dagli audit tecnici alla scrittura di contenuti alla costruzione di autorità.",
+            description: "Scopri ogni servizio che offriamo - dagli audit tecnici alla scrittura di contenuti alla costruzione di autorità.",
             href: "/ecommerce-seo-services",
           },
           {
             title: "SEO per Piattaforma",
-            description: "Shopify, WooCommerce, BigCommerce, Adobe Commerce — strategie native per il tuo stack tecnologico esatto.",
+            description: "Shopify, WooCommerce, BigCommerce, Adobe Commerce - strategie native per il tuo stack tecnologico esatto.",
             href: "/ecommerce-seo-platforms",
           },
           {
             title: "SEO Ecommerce",
-            description: "La strategia SEO commerciale completa per i negozi online — indipendente dal settore e orientata ai ricavi.",
+            description: "La strategia SEO commerciale completa per i negozi online - indipendente dal settore e orientata ai ricavi.",
             href: "/ecommerce-seo",
           },
         ],
@@ -481,17 +481,17 @@ export const ecommerceSeoIndustriesData: Record<Locale, ServicePageProps> = {
         links: [
           {
             title: "Alle Ecommerce SEO Services",
-            description: "Bekijk elke service die we aanbieden — van technische audits tot contentschrijven tot gezagsopbouw.",
+            description: "Bekijk elke service die we aanbieden - van technische audits tot contentschrijven tot gezagsopbouw.",
             href: "/ecommerce-seo-services",
           },
           {
             title: "SEO per Platform",
-            description: "Shopify, WooCommerce, BigCommerce, Adobe Commerce — platform-native strategieën voor uw exacte techstack.",
+            description: "Shopify, WooCommerce, BigCommerce, Adobe Commerce - platform-native strategieën voor uw exacte techstack.",
             href: "/ecommerce-seo-platforms",
           },
           {
             title: "Ecommerce SEO",
-            description: "De volledige commerciële SEO-strategie voor webshops — sectoronafhankelijk en omzetgericht.",
+            description: "De volledige commerciële SEO-strategie voor webshops - sectoronafhankelijk en omzetgericht.",
             href: "/ecommerce-seo",
           },
         ],

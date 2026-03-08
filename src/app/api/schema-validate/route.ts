@@ -75,7 +75,7 @@ function validateJsonLd(raw: string): JsonLdResult {
   try {
     parsed = JSON.parse(raw);
   } catch {
-    return { raw, type: "Invalid JSON", fields: [], errors: ["Invalid JSON — could not parse"], warnings: [] };
+    return { raw, type: "Invalid JSON", fields: [], errors: ["Invalid JSON - could not parse"], warnings: [] };
   }
 
   /* Handle @graph arrays */

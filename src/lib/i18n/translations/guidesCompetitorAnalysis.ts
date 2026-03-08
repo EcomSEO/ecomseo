@@ -56,7 +56,7 @@ export const guidesCompetitorAnalysisT: Record<
               "Ahrefs Site Explorer → Competing Domains: shows overlap by shared keyword count",
               "SEMrush Organic Research → Competitors: similar view with position distribution",
               "Manual SERP checks for your 10 most important keywords: fast, free, tells you who's actually there today",
-              "Look beyond direct retail competitors — publishers, affiliate sites, and marketplaces often dominate category terms",
+              "Look beyond direct retail competitors - publishers, affiliate sites, and marketplaces often dominate category terms",
             ],
           },
           {
@@ -240,11 +240,11 @@ export const guidesCompetitorAnalysisT: Record<
         blocks: [
           {
             type: "p",
-            text: "Manuelle SERP-Prüfungen eignen sich für eine erste Liste, skalieren aber nicht. Für ein vollständiges Bild nutze den Ahrefs \"Competing Domains\"-Bericht (unter Site Explorer) oder SEMrush \"Organic Competitors\". Gib deine Domain ein, und beide Tools zeigen dir, welche anderen Seiten für dieselben Keywords ranken wie du — sortiert nach dem Grad der Überschneidung.",
+            text: "Manuelle SERP-Prüfungen eignen sich für eine erste Liste, skalieren aber nicht. Für ein vollständiges Bild nutze den Ahrefs \"Competing Domains\"-Bericht (unter Site Explorer) oder SEMrush \"Organic Competitors\". Gib deine Domain ein, und beide Tools zeigen dir, welche anderen Seiten für dieselben Keywords ranken wie du - sortiert nach dem Grad der Überschneidung.",
           },
           {
             type: "p",
-            text: "Was du suchst: Domains mit hoher Keyword-Überschneidung und organischem Traffic deutlich über deinem. Das sind die Seiten, deren Strategien es sich lohnt zu reverse-engineern. Eine Domain, die für 80% deiner Keywords rankt, aber das 3-fache deines Traffics generiert, macht irgendetwas anders — bei Content, Links oder beidem.",
+            text: "Was du suchst: Domains mit hoher Keyword-Überschneidung und organischem Traffic deutlich über deinem. Das sind die Seiten, deren Strategien es sich lohnt zu reverse-engineern. Eine Domain, die für 80% deiner Keywords rankt, aber das 3-fache deines Traffics generiert, macht irgendetwas anders - bei Content, Links oder beidem.",
           },
           {
             type: "list",
@@ -252,7 +252,7 @@ export const guidesCompetitorAnalysisT: Record<
               "Ahrefs Site Explorer → Competing Domains: zeigt Überschneidung nach gemeinsamer Keyword-Anzahl",
               "SEMrush Organic Research → Competitors: ähnliche Ansicht mit Positionsverteilung",
               "Manuelle SERP-Prüfungen für deine 10 wichtigsten Keywords: schnell, kostenlos, zeigt wer heute tatsächlich dort ist",
-              "Über direkte Retailer hinausschauen — Publisher, Affiliate-Sites und Marktplätze dominieren oft Kategoriebegriffe",
+              "Über direkte Retailer hinausschauen - Publisher, Affiliate-Sites und Marktplätze dominieren oft Kategoriebegriffe",
             ],
           },
           {
@@ -448,7 +448,7 @@ export const guidesCompetitorAnalysisT: Record<
               "Ahrefs Site Explorer → Competing Domains : montre le chevauchement par nombre de mots-clés partagés",
               "SEMrush Organic Research → Competitors : vue similaire avec distribution des positions",
               "Vérifications manuelles des SERP pour tes 10 mots-clés les plus importants : rapide, gratuit, montre qui est là aujourd'hui",
-              "Regarder au-delà des concurrents retailers directs — les éditeurs, sites d'affiliation et marketplaces dominent souvent les termes de catégorie",
+              "Regarder au-delà des concurrents retailers directs - les éditeurs, sites d'affiliation et marketplaces dominent souvent les termes de catégorie",
             ],
           },
           {
@@ -644,7 +644,7 @@ export const guidesCompetitorAnalysisT: Record<
               "Ahrefs Site Explorer → Competing Domains: muestra el solapamiento por número de palabras clave compartidas",
               "SEMrush Organic Research → Competitors: vista similar con distribución de posiciones",
               "Comprobaciones manuales de SERPs para tus 10 palabras clave más importantes: rápido, gratuito, te dice quién está allí hoy",
-              "Mirar más allá de los competidores retailers directos — editores, sitios de afiliados y marketplaces suelen dominar los términos de categoría",
+              "Mirar más allá de los competidores retailers directos - editores, sitios de afiliados y marketplaces suelen dominar los términos de categoría",
             ],
           },
           {
@@ -840,7 +840,7 @@ export const guidesCompetitorAnalysisT: Record<
               "Ahrefs Site Explorer → Competing Domains: mostra la sovrapposizione per numero di keyword condivise",
               "SEMrush Organic Research → Competitors: vista simile con distribuzione delle posizioni",
               "Verifiche manuali delle SERP per le tue 10 keyword più importanti: veloce, gratuito, ti dice chi c'è oggi",
-              "Guardare oltre i concorrenti retailer diretti — editori, siti di affiliazione e marketplace spesso dominano i termini di categoria",
+              "Guardare oltre i concorrenti retailer diretti - editori, siti di affiliazione e marketplace spesso dominano i termini di categoria",
             ],
           },
           {
@@ -1036,7 +1036,7 @@ export const guidesCompetitorAnalysisT: Record<
               "Ahrefs Site Explorer → Competing Domains: toont overlap op aantal gedeelde zoekwoorden",
               "SEMrush Organic Research → Competitors: vergelijkbare weergave met positieverdeling",
               "Handmatige SERP-controles voor je 10 belangrijkste zoekwoorden: snel, gratis, laat zien wie er vandaag staat",
-              "Verder kijken dan directe retail concurrenten — publishers, affiliatesites en marketplaces domineren vaak categorietermen",
+              "Verder kijken dan directe retail concurrenten - publishers, affiliatesites en marketplaces domineren vaak categorietermen",
             ],
           },
           {

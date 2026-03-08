@@ -100,7 +100,7 @@ export default function SchemaGeneratorClient({ t }: { t: SchemaGeneratorTransla
 
   return (
     <div className="space-y-8">
-      {/* Main Tool — two-column layout */}
+      {/* Main Tool - two-column layout */}
       <div className="grid grid-cols-1 lg:grid-cols-[420px_1fr] gap-6 items-start">
         {/* Left: Form */}
         <div className="rounded-2xl border border-border bg-bg-card p-6 space-y-4">

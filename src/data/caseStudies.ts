@@ -34,17 +34,17 @@ export const caseStudies: CaseStudy[] = [
     heroImage:
       "/images/framer/kUlwbX2H8cHGVxTAaP727WFutj0.png",
     description:
-      "This Norwegian health brand came to us with just 19 keywords ranking in Google. They had solid products and a loyal customer base — but their organic visibility was virtually nonexistent. Our task was to build a sustainable SEO engine from scratch.",
+      "This Norwegian health brand came to us with just 19 keywords ranking in Google. They had solid products and a loyal customer base - but their organic visibility was virtually nonexistent. Our task was to build a sustainable SEO engine from scratch.",
     topProjectDescription:
       "Within months, our keyword strategy exploded their visibility across Google. We targeted both informational and commercial intent keywords in Norwegian, building out comprehensive topical clusters that aligned with their product categories.",
     image1:
       "/images/framer/BImQCbWuM0cBXzU7QlnAD9bjBgc.png",
     textAfterImage1:
-      "By deploying a full-funnel content strategy paired with aggressive on-page optimization and structured data implementation, the brand went from 19 to over 380 keywords — a +1,900% increase. Page 1 rankings multiplied, and SERP feature appearances (FAQs, snippets) surged, driving qualified traffic directly to product pages.",
+      "By deploying a full-funnel content strategy paired with aggressive on-page optimization and structured data implementation, the brand went from 19 to over 380 keywords - a +1,900% increase. Page 1 rankings multiplied, and SERP feature appearances (FAQs, snippets) surged, driving qualified traffic directly to product pages.",
     image2:
       "/images/framer/dsId62uNnnWBWAr5Vi1Z5UqiQ.png",
     textAfterImage2:
-      "Technical SEO improvements — including sitemap optimization, internal linking restructuring, and crawl efficiency upgrades — ensured that every new page was indexed and ranking within weeks. The combination of content velocity and technical precision created compounding returns.",
+      "Technical SEO improvements - including sitemap optimization, internal linking restructuring, and crawl efficiency upgrades - ensured that every new page was indexed and ranking within weeks. The combination of content velocity and technical precision created compounding returns.",
     bottomProjectDescription:
       "The brand now dominates Page 1 for dozens of high-intent Norwegian health keywords and continues to grow month over month. This project is a blueprint for how niche ecommerce stores can win big in local markets with the right SEO approach.",
   },
@@ -68,13 +68,13 @@ export const caseStudies: CaseStudy[] = [
     image1:
       "/images/framer/NPCIdO7pC8YfeI9fXt2tozsr0.png",
     textAfterImage1:
-      "Within 90 days, clicks jumped from 295 to 2,160 — a 7x increase. This was achieved through strategic content optimization, improved internal linking, and targeted on-page SEO. No new pages were created; we maximized what already existed.",
+      "Within 90 days, clicks jumped from 295 to 2,160 - a 7x increase. This was achieved through strategic content optimization, improved internal linking, and targeted on-page SEO. No new pages were created; we maximized what already existed.",
     image2:
       "/images/framer/dsId62uNnnWBWAr5Vi1Z5UqiQ.png",
     textAfterImage2:
       "The key insight was that the site had untapped potential in its existing content. By restructuring metadata, adding FAQ schema, and improving keyword targeting on product and category pages, we unlocked traffic that was already within reach.",
     bottomProjectDescription:
-      "This case proves that you don\u2019t always need more content — sometimes you just need smarter optimization. The brand continues to grow organically, with a strong foundation now in place for long-term SEO success.",
+      "This case proves that you don\u2019t always need more content - sometimes you just need smarter optimization. The brand continues to grow organically, with a strong foundation now in place for long-term SEO success.",
   },
   {
     slug: "skyrocket-ecom-site",
@@ -167,7 +167,7 @@ export const caseStudies: CaseStudy[] = [
     description:
       "This health-focused ecommerce site had zero keyword rankings when they came to us. Operating in the English-language market, they faced stiff competition from established health brands. Our challenge was to build organic visibility from absolute zero.",
     topProjectDescription:
-      "We launched an aggressive content and SEO strategy targeting health-related keywords with clear commercial intent. Within just 27 days, the site went from zero to 1,323 tracked keywords — a testament to the power of our proven SEO frameworks.",
+      "We launched an aggressive content and SEO strategy targeting health-related keywords with clear commercial intent. Within just 27 days, the site went from zero to 1,323 tracked keywords - a testament to the power of our proven SEO frameworks.",
     image1:
       "/images/framer/giRKTAJ5PgIKCjbCr9jgZG9ClNk.png",
     textAfterImage1:

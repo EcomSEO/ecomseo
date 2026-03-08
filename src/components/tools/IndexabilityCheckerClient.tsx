@@ -153,7 +153,7 @@ export default function IndexabilityCheckerClient({ t }: { t: IndexabilityChecke
                         {r.details ? (
                           <span className="text-xs font-mono text-body break-all">{r.details}</span>
                         ) : (
-                          <span className="text-xs text-white/20 italic">—</span>
+                          <span className="text-xs text-white/20 italic">-</span>
                         )}
                       </td>
                     </tr>

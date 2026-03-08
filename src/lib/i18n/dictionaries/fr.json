@@ -47,7 +47,7 @@
   "/amazon-seo": {
     "title": "Agence SEO Amazon | EcomSEO",
     "description": "Services SEO Amazon. Positionnez votre marque en tete sur Amazon grace a des fiches optimisees, du contenu A+ et un ciblage strategique de mots-cles.",
-    "ogTitle": "SEO Amazon — Placez votre marque en tete sur Amazon | EcomSEO"
+    "ogTitle": "SEO Amazon - Placez votre marque en tete sur Amazon | EcomSEO"
   },
   "/fashion-seo": {
     "title": "Agence SEO Mode | EcomSEO",
@@ -70,9 +70,9 @@
     "ogTitle": "SEO Jouets qui fait decoller les ventes | EcomSEO"
   },
   "/cases": {
-    "title": "Etudes de cas — Des resultats SEO concrets | EcomSEO",
+    "title": "Etudes de cas - Des resultats SEO concrets | EcomSEO",
     "description": "Decouvrez comment nous avons aide des marques e-commerce a developper leur trafic organique et leur chiffre d'affaires. Des resultats reels, des chiffres concrets, de vraies reussites.",
-    "ogTitle": "Etudes de cas — Des resultats SEO concrets | EcomSEO"
+    "ogTitle": "Etudes de cas - Des resultats SEO concrets | EcomSEO"
   },
   "/team": {
     "title": "Notre Equipe | EcomSEO",
@@ -95,9 +95,9 @@
     "ogTitle": "Ressources et Centre de Formation | EcomSEO"
   },
   "/resources/crash-course": {
-    "title": "De debutant a expert — Formation acceleree SEO E-commerce | EcomSEO",
+    "title": "De debutant a expert - Formation acceleree SEO E-commerce | EcomSEO",
     "description": "Formation acceleree complete en SEO e-commerce. Apprenez tout ce qu'il faut savoir pour mieux vous positionner sur Google et generer du chiffre d'affaires organique.",
-    "ogTitle": "De debutant a expert — Formation acceleree SEO E-commerce | EcomSEO"
+    "ogTitle": "De debutant a expert - Formation acceleree SEO E-commerce | EcomSEO"
   },
   "/resources/crash-course/changelog-page": {
     "title": "Ameliorations et nouvelles fonctionnalites | Formation SEO E-commerce",
@@ -105,9 +105,9 @@
     "ogTitle": "Ameliorations et nouvelles fonctionnalites | Formation SEO E-commerce"
   },
   "/resources/search-product-discovery": {
-    "title": "Shopping AI — Rendez vos produits visibles sur les LLM comme ChatGPT | EcomSEO",
+    "title": "Shopping AI - Rendez vos produits visibles sur les LLM comme ChatGPT | EcomSEO",
     "description": "Vos produits sont invisibles sur l'AI. Vous pouvez y remedier des aujourd'hui. C'est peut-etre la plus grande opportunite de 2025.",
-    "ogTitle": "Shopping AI — Rendez vos produits visibles sur les LLM comme ChatGPT | EcomSEO"
+    "ogTitle": "Shopping AI - Rendez vos produits visibles sur les LLM comme ChatGPT | EcomSEO"
   },
   "/resources/shopify-on-page-checklist": {
     "title": "Checklist SEO On-Page Premium pour Shopify | EcomSEO",
@@ -130,9 +130,9 @@
     "ogTitle": "Checklist des fondamentaux SEO | Guides EcomSEO"
   },
   "/guides/fundamentals-2": {
-    "title": "Fondamentaux SEO — Suite | Guides EcomSEO",
+    "title": "Fondamentaux SEO - Suite | Guides EcomSEO",
     "description": "Poursuivez votre maitrise des fondamentaux du SEO e-commerce avec des techniques et strategies d'optimisation avancees.",
-    "ogTitle": "Fondamentaux SEO — Suite | Guides EcomSEO"
+    "ogTitle": "Fondamentaux SEO - Suite | Guides EcomSEO"
   },
   "/guides/analytics-tracking": {
     "title": "Analytics & Suivi pour le SEO E-commerce | Guides EcomSEO",
@@ -195,24 +195,24 @@
     "ogTitle": "Domination des SERP pour E-commerce | Guides EcomSEO"
   },
   "/page": {
-    "title": "Fabian van Til — Agence d'optimisation LLM | EcomSEO",
+    "title": "Fabian van Til - Agence d'optimisation LLM | EcomSEO",
     "description": "Fabian van Til, fondateur d'EcomSEO. Nous aidons les marques e-commerce a etre decouvertes sur l'AI et les LLM comme ChatGPT.",
-    "ogTitle": "Fabian van Til — Agence d'optimisation LLM | EcomSEO"
+    "ogTitle": "Fabian van Til - Agence d'optimisation LLM | EcomSEO"
   },
   "/intent-matching-tool": {
-    "title": "Outil d'analyse d'intention — Analyseur de mots-cles AI | EcomSEO",
+    "title": "Outil d'analyse d'intention - Analyseur de mots-cles AI | EcomSEO",
     "description": "Analysez l'intention de recherche de vos mots-cles e-commerce. Comprenez ce que vos clients recherchent et optimisez votre contenu en consequence.",
-    "ogTitle": "Outil d'analyse d'intention — Analyseur de mots-cles AI | EcomSEO"
+    "ogTitle": "Outil d'analyse d'intention - Analyseur de mots-cles AI | EcomSEO"
   },
   "/premium-on-page-seo-checklist": {
-    "title": "Checklist SEO On-Page Premium — Generez des millions en organique | EcomSEO",
+    "title": "Checklist SEO On-Page Premium - Generez des millions en organique | EcomSEO",
     "description": "E-commercants ! Cette checklist SEO on-page est tout ce dont vous avez besoin pour generer des millions en trafic organique sur Google.",
     "ogTitle": "Checklist SEO On-Page Premium | EcomSEO"
   },
   "/client-dashboard": {
-    "title": "Tableau de bord client — Bientot disponible | EcomSEO",
+    "title": "Tableau de bord client - Bientot disponible | EcomSEO",
     "description": "Bientot disponible : accedez a vos donnees de performance SEO, vos analyses et vos recommandations au meme endroit.",
-    "ogTitle": "Tableau de bord client — Bientot disponible | EcomSEO"
+    "ogTitle": "Tableau de bord client - Bientot disponible | EcomSEO"
   },
   "/thank-you-payment": {
     "title": "Merci pour votre paiement | EcomSEO",
@@ -316,7 +316,7 @@
   },
   "/tools/thin-content-checker": {
     "title": "Vérificateur de Contenu Mince et Comptage de Mots Gratuit | EcomSEO",
-    "description": "Détectez les pages avec trop peu de contenu. Analyseur de nombre de mots en masse — vérifiez jusqu'à 20 URL à la fois.",
+    "description": "Détectez les pages avec trop peu de contenu. Analyseur de nombre de mots en masse - vérifiez jusqu'à 20 URL à la fois.",
     "ogTitle": "Vérificateur de Contenu Mince Gratuit | EcomSEO"
   },
   "/tools/core-web-vitals": {

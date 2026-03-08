@@ -182,14 +182,14 @@ export const staticRoutes = [
   "/tools/site-speed-comparison",
   "/tools/sitemap-extractor",
   "/academy",
-  // Academy topics — Cluster 1: Search Fundamentals
+  // Academy topics - Cluster 1: Search Fundamentals
   "/academy/introduction-to-ecommerce-seo",
   "/academy/how-google-finds-online-stores",
   "/academy/crawling-and-indexing-product-pages",
   "/academy/ecommerce-ranking-factors",
   "/academy/search-intent-for-ecommerce",
   "/academy/google-search-console-for-stores",
-  // Academy topics — Cluster 2: Keyword Research
+  // Academy topics - Cluster 2: Keyword Research
   "/academy/keyword-research-for-ecommerce",
   "/academy/buyer-intent-vs-search-volume",
   "/academy/product-vs-category-keywords",
@@ -197,7 +197,7 @@ export const staticRoutes = [
   "/academy/competitor-keyword-analysis",
   "/academy/keyword-mapping-for-stores",
   "/academy/seasonal-keyword-trends",
-  // Academy topics — Cluster 3: On-Page SEO
+  // Academy topics - Cluster 3: On-Page SEO
   "/academy/product-page-seo",
   "/academy/category-page-seo",
   "/academy/homepage-seo-for-ecommerce",
@@ -206,7 +206,7 @@ export const staticRoutes = [
   "/academy/internal-linking-for-stores",
   "/academy/image-optimization-for-products",
   "/academy/ecommerce-blog-seo",
-  // Academy topics — Cluster 4: Technical SEO
+  // Academy topics - Cluster 4: Technical SEO
   "/academy/site-architecture-for-ecommerce",
   "/academy/crawl-budget-management",
   "/academy/site-speed-optimization",
@@ -215,33 +215,33 @@ export const staticRoutes = [
   "/academy/canonical-tags-for-ecommerce",
   "/academy/robots-txt-and-xml-sitemaps",
   "/academy/faceted-navigation-seo",
-  // Academy topics — Cluster 5: Content & Authority
+  // Academy topics - Cluster 5: Content & Authority
   "/academy/topical-authority-for-ecommerce",
   "/academy/buying-guides-and-comparisons",
   "/academy/faq-pages-for-ecommerce",
   "/academy/content-strategy-for-stores",
   "/academy/content-pruning-and-consolidation",
   "/academy/user-generated-content-seo",
-  // Academy topics — Cluster 6: Link Building
+  // Academy topics - Cluster 6: Link Building
   "/academy/backlink-fundamentals-for-ecommerce",
   "/academy/competitor-backlink-analysis",
   "/academy/digital-pr-for-ecommerce",
   "/academy/email-outreach-for-links",
   "/academy/guest-posting-for-ecommerce",
   "/academy/broken-link-building",
-  // Academy topics — Cluster 7: Measuring Results
+  // Academy topics - Cluster 7: Measuring Results
   "/academy/seo-analytics-with-ga4",
   "/academy/rank-tracking-for-ecommerce",
   "/academy/seo-reporting-for-stakeholders",
   "/academy/calculating-seo-roi",
   "/academy/seo-forecasting-for-ecommerce",
-  // Academy topics — Cluster 8: SEO by Platform
+  // Academy topics - Cluster 8: SEO by Platform
   "/academy/shopify-seo-guide",
   "/academy/woocommerce-seo-guide",
   "/academy/magento-seo-guide",
   "/academy/bigcommerce-seo-guide",
   "/academy/platform-migration-seo",
-  // Academy topics — Cluster 9: Advanced SEO
+  // Academy topics - Cluster 9: Advanced SEO
   "/academy/international-ecommerce-seo",
   "/academy/programmatic-seo-for-ecommerce",
   "/academy/ai-search-optimization",
@@ -249,7 +249,7 @@ export const staticRoutes = [
   "/academy/log-file-analysis",
   "/academy/seo-ab-testing",
   "/academy/ecommerce-seo-automation",
-  // Academy topics — Cluster 10: Industry Playbooks
+  // Academy topics - Cluster 10: Industry Playbooks
   "/academy/fashion-apparel-seo",
   "/academy/health-beauty-seo",
   "/academy/food-beverage-seo",

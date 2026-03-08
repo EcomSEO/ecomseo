@@ -771,16 +771,16 @@ export const guidesTopicalAuthorityT: Record<
         blocks: [
           {
             type: "p",
-            text: "L'istinto nell'e-commerce è espandersi — più categorie, più prodotti, più verticali. Quell'istinto è sbagliato per la SEO, almeno nelle fasi iniziali e intermedie di costruzione dell'autorità. Un sito con copertura superficiale su 10 categorie quasi sempre avrà prestazioni inferiori rispetto a un sito con copertura profonda e completa di 2-3 categorie.",
+            text: "L'istinto nell'e-commerce è espandersi - più categorie, più prodotti, più verticali. Quell'istinto è sbagliato per la SEO, almeno nelle fasi iniziali e intermedie di costruzione dell'autorità. Un sito con copertura superficiale su 10 categorie quasi sempre avrà prestazioni inferiori rispetto a un sito con copertura profonda e completa di 2-3 categorie.",
           },
           {
             type: "p",
-            text: "Se vendi scarpe da running, domina il contenuto sulle scarpe da running prima di passare alle calzature sportive in generale. Costruisci 15-20 pagine di alta qualità sulle scarpe da running prima di iniziare a scrivere di scarpe da palestra o da camminata. Google premia la profondità. Un sito con 15 pagine solide sulle scarpe da running supererà un sito con 3 pagine running e 3 pagine per scarpe da palestra, camminata e trekking — anche se il numero totale di pagine è simile.",
+            text: "Se vendi scarpe da running, domina il contenuto sulle scarpe da running prima di passare alle calzature sportive in generale. Costruisci 15-20 pagine di alta qualità sulle scarpe da running prima di iniziare a scrivere di scarpe da palestra o da camminata. Google premia la profondità. Un sito con 15 pagine solide sulle scarpe da running supererà un sito con 3 pagine running e 3 pagine per scarpe da palestra, camminata e trekking - anche se il numero totale di pagine è simile.",
           },
           {
             type: "callout",
             title: "Il test della profondità",
-            text: "Puoi dire onestamente che il tuo sito è la migliore risorsa su internet per qualcuno che ricerca la tua categoria? Se la risposta è no, non sei ancora andato abbastanza in profondità. Il tuo concorrente che si posiziona sopra di te probabilmente può dirlo — o ci si avvicina di più.",
+            text: "Puoi dire onestamente che il tuo sito è la migliore risorsa su internet per qualcuno che ricerca la tua categoria? Se la risposta è no, non sei ancora andato abbastanza in profondità. Il tuo concorrente che si posiziona sopra di te probabilmente può dirlo - o ci si avvicina di più.",
           },
           {
             type: "p",
@@ -794,11 +794,11 @@ export const guidesTopicalAuthorityT: Record<
         blocks: [
           {
             type: "p",
-            text: "L'autorità tematica da sola — un insieme di buoni contenuti — non funziona completamente senza una solida struttura di link interni. La struttura di link interni è ciò che permette a Google di capire le relazioni tra le tue pagine e quali sono le più importanti. È anche il percorso attraverso cui scorre il link equity nel tuo sito.",
+            text: "L'autorità tematica da sola - un insieme di buoni contenuti - non funziona completamente senza una solida struttura di link interni. La struttura di link interni è ciò che permette a Google di capire le relazioni tra le tue pagine e quali sono le più importanti. È anche il percorso attraverso cui scorre il link equity nel tuo sito.",
           },
           {
             type: "p",
-            text: "La regola è semplice: ogni pagina spoke dovrebbe rimandare all'hub. L'hub dovrebbe rimandare agli spoke più importanti. Ogni nuovo contenuto — che sia un articolo di blog, una guida o una nuova pagina prodotto — dovrebbe rimandare alla pagina categoria più rilevante a cui è collegato. Se pubblichi un post su 'come allenarsi per la tua prima 5km', dovrebbe rimandare alla tua pagina categoria scarpe da running.",
+            text: "La regola è semplice: ogni pagina spoke dovrebbe rimandare all'hub. L'hub dovrebbe rimandare agli spoke più importanti. Ogni nuovo contenuto - che sia un articolo di blog, una guida o una nuova pagina prodotto - dovrebbe rimandare alla pagina categoria più rilevante a cui è collegato. Se pubblichi un post su 'come allenarsi per la tua prima 5km', dovrebbe rimandare alla tua pagina categoria scarpe da running.",
           },
           {
             type: "tip",
@@ -810,8 +810,8 @@ export const guidesTopicalAuthorityT: Record<
               "Le pagine hub devono ricevere link interni da ogni spoke, pagina prodotto e articolo di blog rilevante",
               "Le pagine spoke dovrebbero sempre rimandare al loro hub con anchor text ricco di keyword",
               "Ogni nuovo contenuto pubblicato sul sito dovrebbe rimandare alla pagina categoria più rilevante",
-              "Usare anchor text descrittivo — 'guida all'acquisto scarpe running' non 'clicca qui'",
-              "Evitare pagine orfane — ogni pagina deve essere raggiungibile entro 3 clic dalla homepage",
+              "Usare anchor text descrittivo - 'guida all'acquisto scarpe running' non 'clicca qui'",
+              "Evitare pagine orfane - ogni pagina deve essere raggiungibile entro 3 clic dalla homepage",
               "Verificare i link interni trimestralmente con Screaming Frog per trovare link rotti o mancanti",
             ],
           },
@@ -823,7 +823,7 @@ export const guidesTopicalAuthorityT: Record<
         blocks: [
           {
             type: "p",
-            text: "Il segnale principale che la tua strategia di autorità tematica sta funzionando è il movimento nei ranking della pagina hub. Nella maggior parte dei casi, costruire 3-5 pagine spoke solide attorno a una categoria migliorerà i ranking della pagina hub entro 4-8 settimane. L'effetto non è sempre drammatico — un salto dalla posizione 12 alla posizione 7 è significativo anche se non sembra. Tienilo sotto controllo.",
+            text: "Il segnale principale che la tua strategia di autorità tematica sta funzionando è il movimento nei ranking della pagina hub. Nella maggior parte dei casi, costruire 3-5 pagine spoke solide attorno a una categoria migliorerà i ranking della pagina hub entro 4-8 settimane. L'effetto non è sempre drammatico - un salto dalla posizione 12 alla posizione 7 è significativo anche se non sembra. Tienilo sotto controllo.",
           },
           {
             type: "p",
@@ -832,7 +832,7 @@ export const guidesTopicalAuthorityT: Record<
           {
             type: "callout",
             title: "Quando non funziona",
-            text: "Se hai costruito 5+ pagine spoke e l'hub non si è mosso in 8 settimane, il problema è quasi sempre l'autorità dei link, non il contenuto. Il tuo sito probabilmente non ha ancora sufficiente autorità di dominio per posizionarsi sul termine hub. È quando il link building diventa la priorità — vedi la guida Tattiche di Link Building. Contenuto e link funzionano insieme. Nessuno dei due da solo è sufficiente per categorie competitive.",
+            text: "Se hai costruito 5+ pagine spoke e l'hub non si è mosso in 8 settimane, il problema è quasi sempre l'autorità dei link, non il contenuto. Il tuo sito probabilmente non ha ancora sufficiente autorità di dominio per posizionarsi sul termine hub. È quando il link building diventa la priorità - vedi la guida Tattiche di Link Building. Contenuto e link funzionano insieme. Nessuno dei due da solo è sufficiente per categorie competitive.",
           },
           {
             type: "list",
@@ -842,7 +842,7 @@ export const guidesTopicalAuthorityT: Record<
               "Misurare i clic organici alla pagina hub in GSC settimana per settimana",
               "Controllare la copertura dell'indice per tutte le pagine spoke in Google Search Console dopo 7-10 giorni",
               "Esaminare l'engagement delle pagine spoke in GA4: tempo sulla pagina e pagine per sessione",
-              "Dopo 8 settimane senza movimenti dell'hub, eseguire un'analisi del gap di link — l'autorità è probabilmente il problema",
+              "Dopo 8 settimane senza movimenti dell'hub, eseguire un'analisi del gap di link - l'autorità è probabilmente il problema",
             ],
           },
         ],
@@ -862,7 +862,7 @@ export const guidesTopicalAuthorityT: Record<
         blocks: [
           {
             type: "p",
-            text: "Topicale autoriteit is de manier waarop Google bepaalt of een site echt weet waar het over praat. Een site met diepe, uitgebreide dekking van een onderwerp — productpagina's, categoriepagina's, aankoopgidsen, vergelijkende content, FAQ's — signaleert echte expertise. Een site met één categoriepagina en geen ondersteunende content ziet er dun uit, en Google behandelt zulke sites steeds vaker als lage prioriteit voor competitieve termen.",
+            text: "Topicale autoriteit is de manier waarop Google bepaalt of een site echt weet waar het over praat. Een site met diepe, uitgebreide dekking van een onderwerp - productpagina's, categoriepagina's, aankoopgidsen, vergelijkende content, FAQ's - signaleert echte expertise. Een site met één categoriepagina en geen ondersteunende content ziet er dun uit, en Google behandelt zulke sites steeds vaker als lage prioriteit voor competitieve termen.",
           },
           {
             type: "p",
@@ -881,7 +881,7 @@ export const guidesTopicalAuthorityT: Record<
         blocks: [
           {
             type: "p",
-            text: "Het hub-and-spoke-model is het meest praktische framework voor topicale autoriteit in e-commerce. De hub is je hoofdcategoriepagina — bijvoorbeeld /hardloopschoenen. De spokes zijn ondersteunende contentpagina's die specifieke vragen, vergelijkingen en aankoopbeslissingen beantwoorden die iemand die hardloopschoenen onderzoekt zou kunnen hebben.",
+            text: "Het hub-and-spoke-model is het meest praktische framework voor topicale autoriteit in e-commerce. De hub is je hoofdcategoriepagina - bijvoorbeeld /hardloopschoenen. De spokes zijn ondersteunende contentpagina's die specifieke vragen, vergelijkingen en aankoopbeslissingen beantwoorden die iemand die hardloopschoenen onderzoekt zou kunnen hebben.",
           },
           {
             type: "p",
@@ -889,16 +889,16 @@ export const guidesTopicalAuthorityT: Record<
           },
           {
             type: "tip",
-            text: "De hubpagina profiteert van de autoriteits- en relevantsignalen die vanuit de spokes stromen. Wanneer iemand op een spoke-pagina landt en vervolgens naar de hub navigeert, is dat een gedragssignaal dat Google opmerkt. Bouw spokes die mensen echt helpen — geen dunne pagina's die alleen bestaan om link equity door te geven.",
+            text: "De hubpagina profiteert van de autoriteits- en relevantsignalen die vanuit de spokes stromen. Wanneer iemand op een spoke-pagina landt en vervolgens naar de hub navigeert, is dat een gedragssignaal dat Google opmerkt. Bouw spokes die mensen echt helpen - geen dunne pagina's die alleen bestaan om link equity door te geven.",
           },
           {
             type: "list",
             items: [
               "Hubpagina: je hoofdcategoriepagina, geoptimaliseerd voor de primaire head-term",
-              "Aankoopgids-spoke: 'hoe kies je [categorie]' — richt zich op informatieve zoekintentie",
-              "Vergelijkings-spoke: '[optie A] vs [optie B]' — richt zich op vergelijkende zoekintentie",
-              "Specifieke intentie-spokes: 'beste [categorie] voor [specifieke behoefte]' — richt zich op long-tail transactionele intentie",
-              "Verzorging/gebruik-spoke: 'hoe [onderhoud/gebruik] je [product]' — bouwt vertrouwen op",
+              "Aankoopgids-spoke: 'hoe kies je [categorie]' - richt zich op informatieve zoekintentie",
+              "Vergelijkings-spoke: '[optie A] vs [optie B]' - richt zich op vergelijkende zoekintentie",
+              "Specifieke intentie-spokes: 'beste [categorie] voor [specifieke behoefte]' - richt zich op long-tail transactionele intentie",
+              "Verzorging/gebruik-spoke: 'hoe [onderhoud/gebruik] je [product]' - bouwt vertrouwen op",
               "FAQ-spoke: antwoorden op de 10 meest gestelde vragen over jouw categorie",
             ],
           },
@@ -914,7 +914,7 @@ export const guidesTopicalAuthorityT: Record<
           },
           {
             type: "p",
-            text: "Elke vraag in het vak 'Anderen zochten ook' is een contentgat dat je kunt vullen. Elke gerelateerde zoekopdracht waarvoor je geen gerichte pagina hebt, is een potentiële spoke. Schrijf ze allemaal op. Open vervolgens de sites van je concurrenten en kijk naar hun blog- en resourcesecties. Als zij 20 artikelen hebben over hardloopschoen-onderwerpen en jij 2, is het gat duidelijk — en Google's crawler merkt het ook.",
+            text: "Elke vraag in het vak 'Anderen zochten ook' is een contentgat dat je kunt vullen. Elke gerelateerde zoekopdracht waarvoor je geen gerichte pagina hebt, is een potentiële spoke. Schrijf ze allemaal op. Open vervolgens de sites van je concurrenten en kijk naar hun blog- en resourcesecties. Als zij 20 artikelen hebben over hardloopschoen-onderwerpen en jij 2, is het gat duidelijk - en Google's crawler merkt het ook.",
           },
           {
             type: "tip",
@@ -927,7 +927,7 @@ export const guidesTopicalAuthorityT: Record<
               "Alle 'Gerelateerde zoekopdrachten' noteren waarvoor je geen gerichte pagina hebt",
               "De Ahrefs Content Gap-tool uitvoeren tegen je top 2-3 concurrenten",
               "Resultaten filteren op zoekvolume (500+ per maand) en informatieve of commerciële intentie",
-              "Gaten prioriteren waar concurrenten op posities 1-10 ranken — dat zijn bewezen onderwerpen",
+              "Gaten prioriteren waar concurrenten op posities 1-10 ranken - dat zijn bewezen onderwerpen",
               "Elk gat koppelen aan een contenttype: aankoopgids, vergelijkingspagina, FAQ of specifieke intentiepagina",
               "Een contentkalender maken met één spoke-pagina per week voor de komende 3 maanden",
             ],
@@ -940,16 +940,16 @@ export const guidesTopicalAuthorityT: Record<
         blocks: [
           {
             type: "p",
-            text: "Het instinct in e-commerce is uitbreiden — meer categorieën, meer producten, meer verticalen. Dat instinct is fout voor SEO, in elk geval in de vroege en middenfasen van autoriteitsontwikkeling. Een site met oppervlakkige dekking over 10 categorieën zal bijna altijd slechter presteren dan een site met diepe, uitgebreide dekking van 2-3 categorieën.",
+            text: "Het instinct in e-commerce is uitbreiden - meer categorieën, meer producten, meer verticalen. Dat instinct is fout voor SEO, in elk geval in de vroege en middenfasen van autoriteitsontwikkeling. Een site met oppervlakkige dekking over 10 categorieën zal bijna altijd slechter presteren dan een site met diepe, uitgebreide dekking van 2-3 categorieën.",
           },
           {
             type: "p",
-            text: "Als je hardloopschoenen verkoopt, domineer dan hardloopschoen-content voordat je naar algemeen sportschoeisel uitbreidt. Bouw 15-20 kwalitatief hoogwaardige pagina's over hardloopschoenen voordat je begint te schrijven over gymschoenen of wandelschoenen. Google beloont diepte. Een site met 15 sterke hardloopschoenpagina's zal een site met 3 hardloopschoenpagina's en 3 pagina's voor gymschoenen, wandelschoenen en wandelschoenen overtreffen — zelfs als het totale aantal pagina's vergelijkbaar is.",
+            text: "Als je hardloopschoenen verkoopt, domineer dan hardloopschoen-content voordat je naar algemeen sportschoeisel uitbreidt. Bouw 15-20 kwalitatief hoogwaardige pagina's over hardloopschoenen voordat je begint te schrijven over gymschoenen of wandelschoenen. Google beloont diepte. Een site met 15 sterke hardloopschoenpagina's zal een site met 3 hardloopschoenpagina's en 3 pagina's voor gymschoenen, wandelschoenen en wandelschoenen overtreffen - zelfs als het totale aantal pagina's vergelijkbaar is.",
           },
           {
             type: "callout",
             title: "De dieptetest",
-            text: "Kun je eerlijk zeggen dat jouw site de beste bron op internet is voor iemand die jouw categorie onderzoekt? Als het antwoord nee is, ben je nog niet diep genoeg gegaan. Jouw concurrent die boven je rankt, kan dat waarschijnlijk wel zeggen — of komt er in elk geval dichter bij.",
+            text: "Kun je eerlijk zeggen dat jouw site de beste bron op internet is voor iemand die jouw categorie onderzoekt? Als het antwoord nee is, ben je nog niet diep genoeg gegaan. Jouw concurrent die boven je rankt, kan dat waarschijnlijk wel zeggen - of komt er in elk geval dichter bij.",
           },
           {
             type: "p",
@@ -963,11 +963,11 @@ export const guidesTopicalAuthorityT: Record<
         blocks: [
           {
             type: "p",
-            text: "Topicale autoriteit alleen — een hoop goede content — werkt niet volledig zonder sterke interne linking. De interne linkstructuur is hoe Google de relaties tussen jouw pagina's begrijpt en welke pagina's het belangrijkst zijn. Het is ook hoe link equity door jouw site stroomt.",
+            text: "Topicale autoriteit alleen - een hoop goede content - werkt niet volledig zonder sterke interne linking. De interne linkstructuur is hoe Google de relaties tussen jouw pagina's begrijpt en welke pagina's het belangrijkst zijn. Het is ook hoe link equity door jouw site stroomt.",
           },
           {
             type: "p",
-            text: "De regel is eenvoudig: elke spoke-pagina moet naar de hub linken. De hub moet naar de belangrijkste spokes linken. Nieuwe content — of het nu een blogbericht, een gids of een nieuwe productpagina is — moet linken naar de meest relevante categoriepagina waarmee het verbonden is. Als je een post publiceert over 'hoe train je voor je eerste 5km', moet dat linken naar je hardloopschoenen-categoriepagina.",
+            text: "De regel is eenvoudig: elke spoke-pagina moet naar de hub linken. De hub moet naar de belangrijkste spokes linken. Nieuwe content - of het nu een blogbericht, een gids of een nieuwe productpagina is - moet linken naar de meest relevante categoriepagina waarmee het verbonden is. Als je een post publiceert over 'hoe train je voor je eerste 5km', moet dat linken naar je hardloopschoenen-categoriepagina.",
           },
           {
             type: "tip",
@@ -979,8 +979,8 @@ export const guidesTopicalAuthorityT: Record<
               "Hubpagina's moeten interne links ontvangen van elke relevante spoke, productpagina en blogbericht",
               "Spoke-pagina's moeten altijd teruglinken naar hun hub met keyword-rijke ankertekst",
               "Nieuwe content die ergens op de site wordt gepubliceerd, moet linken naar de meest relevante categoriepagina",
-              "Beschrijvende ankertekst gebruiken — 'aankoopgids hardloopschoenen' niet 'klik hier'",
-              "Vermijd wezenpagina's — elke pagina moet binnen 3 klikken vanaf de homepage bereikbaar zijn",
+              "Beschrijvende ankertekst gebruiken - 'aankoopgids hardloopschoenen' niet 'klik hier'",
+              "Vermijd wezenpagina's - elke pagina moet binnen 3 klikken vanaf de homepage bereikbaar zijn",
               "Interne links elk kwartaal controleren met Screaming Frog op gebroken of ontbrekende links",
             ],
           },
@@ -992,7 +992,7 @@ export const guidesTopicalAuthorityT: Record<
         blocks: [
           {
             type: "p",
-            text: "Het primaire signaal dat je topicale autoriteitsstrategie werkt, is beweging in de rankings van de hubpagina. In de meeste gevallen zal het opbouwen van 3-5 sterke spoke-pagina's rond een categorie de rankings van de hubpagina binnen 4-8 weken verbeteren. Het effect is niet altijd dramatisch — een sprong van positie 12 naar positie 7 is significant ook al voelt het dat niet. Houd het bij.",
+            text: "Het primaire signaal dat je topicale autoriteitsstrategie werkt, is beweging in de rankings van de hubpagina. In de meeste gevallen zal het opbouwen van 3-5 sterke spoke-pagina's rond een categorie de rankings van de hubpagina binnen 4-8 weken verbeteren. Het effect is niet altijd dramatisch - een sprong van positie 12 naar positie 7 is significant ook al voelt het dat niet. Houd het bij.",
           },
           {
             type: "p",
@@ -1001,7 +1001,7 @@ export const guidesTopicalAuthorityT: Record<
           {
             type: "callout",
             title: "Wanneer het niet werkt",
-            text: "Als je 5+ spoke-pagina's hebt gebouwd en de hub is na 8 weken niet bewogen, is het probleem bijna altijd linkautoriteit, niet content. Jouw site heeft waarschijnlijk nog niet genoeg domeinautoriteit om te ranken voor de hub-term. Dit is wanneer linkbuilding de prioriteit wordt — zie de gids Linkbuilding-tactieken. Content en links werken samen. Geen van beide is voldoende op zichzelf voor competitieve categorieën.",
+            text: "Als je 5+ spoke-pagina's hebt gebouwd en de hub is na 8 weken niet bewogen, is het probleem bijna altijd linkautoriteit, niet content. Jouw site heeft waarschijnlijk nog niet genoeg domeinautoriteit om te ranken voor de hub-term. Dit is wanneer linkbuilding de prioriteit wordt - zie de gids Linkbuilding-tactieken. Content en links werken samen. Geen van beide is voldoende op zichzelf voor competitieve categorieën.",
           },
           {
             type: "list",
@@ -1011,7 +1011,7 @@ export const guidesTopicalAuthorityT: Record<
               "Organische klikken naar de hubpagina in GSC week voor week meten",
               "Indexdekking voor alle spoke-pagina's in Google Search Console na 7-10 dagen controleren",
               "Spoke-pagina-engagement in GA4 bekijken: tijd op pagina en pagina's per sessie",
-              "Na 8 weken zonder hubbeweging een linkgat-analyse uitvoeren — autoriteit is waarschijnlijk het probleem",
+              "Na 8 weken zonder hubbeweging een linkgat-analyse uitvoeren - autoriteit is waarschijnlijk het probleem",
             ],
           },
         ],

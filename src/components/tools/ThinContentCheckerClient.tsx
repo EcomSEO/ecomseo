@@ -143,7 +143,7 @@ export default function ThinContentCheckerClient({ t }: { t: ThinContentCheckerT
                             {r.wordCount.toLocaleString()}
                           </span>
                         ) : (
-                          <span className="text-xs text-white/20 italic">—</span>
+                          <span className="text-xs text-white/20 italic">-</span>
                         )}
                       </td>
                       <td className="px-4 py-3">

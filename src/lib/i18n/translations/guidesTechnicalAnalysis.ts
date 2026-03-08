@@ -366,7 +366,7 @@ export const guidesTechnicalAnalysisT: Record<
           },
           {
             type: "p",
-            text: "Corrigez le problème à la source. Dans robots.txt, désautorisez Googlebot à crawler les schémas d'URLs qui génèrent des pages inutiles. Pour les paramètres de filtre et de tri, utilisez soit des balises canonical pointant vers la page catégorie de base, soit rel=\"nofollow\" sur les liens de pagination et de filtre pour que Googlebot ne les découvre pas. Consultez régulièrement le rapport de couverture dans GSC — il vous montre exactement quelles URLs Google gaspille du temps à crawler.",
+            text: "Corrigez le problème à la source. Dans robots.txt, désautorisez Googlebot à crawler les schémas d'URLs qui génèrent des pages inutiles. Pour les paramètres de filtre et de tri, utilisez soit des balises canonical pointant vers la page catégorie de base, soit rel=\"nofollow\" sur les liens de pagination et de filtre pour que Googlebot ne les découvre pas. Consultez régulièrement le rapport de couverture dans GSC - il vous montre exactement quelles URLs Google gaspille du temps à crawler.",
           },
         ],
       },
@@ -388,7 +388,7 @@ export const guidesTechnicalAnalysisT: Record<
           },
           {
             type: "p",
-            text: "En pratique : ajoutez une balise canonical sur chaque URL de filtre pointant vers la page catégorie de base. Ou, si votre plateforme le supporte, utilisez des mises à jour d'URL en JavaScript uniquement pour que les filtres changent l'état de la page sans créer de nouvelles URLs côté serveur. Shopify gère cela mal par défaut — l'application de recherche à facettes standard crée des URLs entièrement indexables pour chaque filtre. Il faut gérer les canonicals manuellement ou via une modification du thème.",
+            text: "En pratique : ajoutez une balise canonical sur chaque URL de filtre pointant vers la page catégorie de base. Ou, si votre plateforme le supporte, utilisez des mises à jour d'URL en JavaScript uniquement pour que les filtres changent l'état de la page sans créer de nouvelles URLs côté serveur. Shopify gère cela mal par défaut - l'application de recherche à facettes standard crée des URLs entièrement indexables pour chaque filtre. Il faut gérer les canonicals manuellement ou via une modification du thème.",
           },
           {
             type: "p",
@@ -536,7 +536,7 @@ export const guidesTechnicalAnalysisT: Record<
           },
           {
             type: "p",
-            text: "Corrígelo en la raíz. En robots.txt, desautoriza a Googlebot para rastrear patrones de URL que generan páginas sin valor. Para parámetros de filtro y ordenación, usa etiquetas canonical apuntando a la página de categoría base, o añade rel=\"nofollow\" en los enlaces de paginación y filtros para que Googlebot no los descubra. Revisa regularmente el informe de cobertura en GSC — te muestra exactamente en qué URLs Google está perdiendo tiempo.",
+            text: "Corrígelo en la raíz. En robots.txt, desautoriza a Googlebot para rastrear patrones de URL que generan páginas sin valor. Para parámetros de filtro y ordenación, usa etiquetas canonical apuntando a la página de categoría base, o añade rel=\"nofollow\" en los enlaces de paginación y filtros para que Googlebot no los descubra. Revisa regularmente el informe de cobertura en GSC - te muestra exactamente en qué URLs Google está perdiendo tiempo.",
           },
         ],
       },
@@ -558,7 +558,7 @@ export const guidesTechnicalAnalysisT: Record<
           },
           {
             type: "p",
-            text: "En la práctica: añade una etiqueta canonical en cada URL de filtro apuntando a la página de categoría base. O, si tu plataforma lo soporta, usa actualizaciones de URL solo en JavaScript para que los filtros cambien el estado de la página sin crear nuevas URLs en el servidor. Shopify gestiona esto mal por defecto — la app de búsqueda facetada estándar crea URLs completamente indexables para cada filtro. Hay que gestionar los canonicals manualmente o mediante una modificación del tema.",
+            text: "En la práctica: añade una etiqueta canonical en cada URL de filtro apuntando a la página de categoría base. O, si tu plataforma lo soporta, usa actualizaciones de URL solo en JavaScript para que los filtros cambien el estado de la página sin crear nuevas URLs en el servidor. Shopify gestiona esto mal por defecto - la app de búsqueda facetada estándar crea URLs completamente indexables para cada filtro. Hay que gestionar los canonicals manualmente o mediante una modificación del tema.",
           },
           {
             type: "p",
@@ -706,7 +706,7 @@ export const guidesTechnicalAnalysisT: Record<
           },
           {
             type: "p",
-            text: "Correggi il problema alla radice. In robots.txt, non autorizzare Googlebot a scansionare i pattern di URL che generano pagine inutili. Per i parametri di filtro e ordinamento, usa tag canonical che puntano alla pagina categoria base, oppure aggiungi rel=\"nofollow\" sui link di paginazione e filtro perché Googlebot non li scopra. Controlla regolarmente il report di copertura in GSC — ti mostra esattamente quali URL Google sta perdendo tempo a scansionare.",
+            text: "Correggi il problema alla radice. In robots.txt, non autorizzare Googlebot a scansionare i pattern di URL che generano pagine inutili. Per i parametri di filtro e ordinamento, usa tag canonical che puntano alla pagina categoria base, oppure aggiungi rel=\"nofollow\" sui link di paginazione e filtro perché Googlebot non li scopra. Controlla regolarmente il report di copertura in GSC - ti mostra esattamente quali URL Google sta perdendo tempo a scansionare.",
           },
         ],
       },
@@ -728,7 +728,7 @@ export const guidesTechnicalAnalysisT: Record<
           },
           {
             type: "p",
-            text: "In pratica: aggiungi un tag canonical su ogni URL di filtro che punta alla pagina categoria base. Oppure, se la tua piattaforma lo supporta, usa aggiornamenti URL solo in JavaScript così i filtri cambiano lo stato della pagina senza creare nuovi URL lato server. Shopify gestisce questo male di default — l'app di ricerca a faccette standard crea URL completamente indicizzabili per ogni filtro. È necessario gestire i canonical manualmente o tramite una modifica del tema.",
+            text: "In pratica: aggiungi un tag canonical su ogni URL di filtro che punta alla pagina categoria base. Oppure, se la tua piattaforma lo supporta, usa aggiornamenti URL solo in JavaScript così i filtri cambiano lo stato della pagina senza creare nuovi URL lato server. Shopify gestisce questo male di default - l'app di ricerca a faccette standard crea URL completamente indicizzabili per ogni filtro. È necessario gestire i canonical manualmente o tramite una modifica del tema.",
           },
           {
             type: "p",
@@ -742,11 +742,11 @@ export const guidesTechnicalAnalysisT: Record<
         blocks: [
           {
             type: "p",
-            text: "Un prodotto con 5 opzioni di colore dovrebbe avere una sola pagina indicizzabile, non cinque. Quando ogni variante ha il proprio URL — /sneaker-blu, /sneaker-rossa, /sneaker-verde — e ogni pagina ha lo stesso titolo, la stessa descrizione e lo stesso contenuto con solo il nome del colore cambiato, Google vede cinque contenuti duplicati sottili. Nessuno posiziona bene.",
+            text: "Un prodotto con 5 opzioni di colore dovrebbe avere una sola pagina indicizzabile, non cinque. Quando ogni variante ha il proprio URL - /sneaker-blu, /sneaker-rossa, /sneaker-verde - e ogni pagina ha lo stesso titolo, la stessa descrizione e lo stesso contenuto con solo il nome del colore cambiato, Google vede cinque contenuti duplicati sottili. Nessuno posiziona bene.",
           },
           {
             type: "p",
-            text: "La correzione passa dai tag canonical. Ogni URL di variante deve avere un canonical che punta alla pagina prodotto principale. La pagina prodotto principale stessa deve essere auto-canonicalizzata. In Shopify, gli URL di varianti vengono generati di default come ?variant=12345. La logica canonical integrata di Shopify lo gestisce — ma vale la pena verificare, specialmente su temi fortemente personalizzati, che il tag canonical su ogni URL di variante punti effettivamente all'URL prodotto corretto.",
+            text: "La correzione passa dai tag canonical. Ogni URL di variante deve avere un canonical che punta alla pagina prodotto principale. La pagina prodotto principale stessa deve essere auto-canonicalizzata. In Shopify, gli URL di varianti vengono generati di default come ?variant=12345. La logica canonical integrata di Shopify lo gestisce - ma vale la pena verificare, specialmente su temi fortemente personalizzati, che il tag canonical su ogni URL di variante punti effettivamente all'URL prodotto corretto.",
           },
           {
             type: "checklist",
@@ -766,7 +766,7 @@ export const guidesTechnicalAnalysisT: Record<
         blocks: [
           {
             type: "p",
-            text: "Google usa i Core Web Vitals come segnale di ranking. Le soglie: LCP (Largest Contentful Paint) sotto 2,5 secondi, CLS (Cumulative Layout Shift) sotto 0,1, e INP (Interaction to Next Paint) sotto 200 ms. La maggior parte dei siti ecommerce ne fallisce almeno uno su mobile — ed è lì che Google li misura.",
+            text: "Google usa i Core Web Vitals come segnale di ranking. Le soglie: LCP (Largest Contentful Paint) sotto 2,5 secondi, CLS (Cumulative Layout Shift) sotto 0,1, e INP (Interaction to Next Paint) sotto 200 ms. La maggior parte dei siti ecommerce ne fallisce almeno uno su mobile - ed è lì che Google li misura.",
           },
           {
             type: "p",
@@ -778,12 +778,12 @@ export const guidesTechnicalAnalysisT: Record<
           },
           {
             type: "p",
-            text: "L'INP è la metrica più recente e la più difficile da correggere. Misura quanto tempo impiega la pagina a rispondere alle interazioni dell'utente. Nei siti ecommerce, il JavaScript pesante — in particolare gli script di terze parti per widget di chat, pixel di retargeting e motori di raccomandazione — è generalmente la causa. Differisci tutti gli script di terze parti non critici. Usa il pannello Performance di Chrome DevTools per identificare quali script bloccano il thread principale dopo il caricamento della pagina.",
+            text: "L'INP è la metrica più recente e la più difficile da correggere. Misura quanto tempo impiega la pagina a rispondere alle interazioni dell'utente. Nei siti ecommerce, il JavaScript pesante - in particolare gli script di terze parti per widget di chat, pixel di retargeting e motori di raccomandazione - è generalmente la causa. Differisci tutti gli script di terze parti non critici. Usa il pannello Performance di Chrome DevTools per identificare quali script bloccano il thread principale dopo il caricamento della pagina.",
           },
           {
             type: "callout",
             title: "Da dove iniziare con i Core Web Vitals",
-            text: "Apri PageSpeed Insights sulla tua homepage, sulla tua pagina categoria più importante e su una pagina prodotto. Guarda i field data (dati di utenti reali) invece che solo il punteggio di laboratorio — è quello che Google usa effettivamente. Poi usa l'integrazione di Screaming Frog con PageSpeed Insights per far emergere i problemi CWV su tutto il sito in un singolo crawl.",
+            text: "Apri PageSpeed Insights sulla tua homepage, sulla tua pagina categoria più importante e su una pagina prodotto. Guarda i field data (dati di utenti reali) invece che solo il punteggio di laboratorio - è quello che Google usa effettivamente. Poi usa l'integrazione di Screaming Frog con PageSpeed Insights per far emergere i problemi CWV su tutto il sito in un singolo crawl.",
           },
         ],
       },
@@ -798,15 +798,15 @@ export const guidesTechnicalAnalysisT: Record<
           {
             type: "list",
             items: [
-              "Soft 404: pagine che restituiscono uno stato HTTP 200 ma mostrano un messaggio 'nessun risultato' o 'prodotto non disponibile'. Google le tratta come pagine valide — vengono indicizzate, non trasmettono valore, e possono silenziosa­mente danneggiare i segnali di qualità del dominio.",
+              "Soft 404: pagine che restituiscono uno stato HTTP 200 ma mostrano un messaggio 'nessun risultato' o 'prodotto non disponibile'. Google le tratta come pagine valide - vengono indicizzate, non trasmettono valore, e possono silenziosa­mente danneggiare i segnali di qualità del dominio.",
               "Catene di redirect: l'URL A reindirizza all'URL B che reindirizza all'URL C. Ogni salto diluisce il PageRank e rallenta il crawl. Soluzione: aggiornare tutti i link interni per puntare direttamente all'URL di destinazione finale.",
-              "Scansionato ma non indicizzato: Google ha visitato la pagina ma ha scelto di non indicizzarla. Di solito un problema di segnale di qualità — contenuto sottile, duplicato o quasi duplicato.",
-              "Scoperto ma non scansionato: Google ha trovato l'URL (via sitemap o link interno) ma non lo ha ancora recuperato. Sui siti grandi questo indica esaurimento del crawl budget — Google mette in coda URL che non raggiungerà mai.",
+              "Scansionato ma non indicizzato: Google ha visitato la pagina ma ha scelto di non indicizzarla. Di solito un problema di segnale di qualità - contenuto sottile, duplicato o quasi duplicato.",
+              "Scoperto ma non scansionato: Google ha trovato l'URL (via sitemap o link interno) ma non lo ha ancora recuperato. Sui siti grandi questo indica esaurimento del crawl budget - Google mette in coda URL che non raggiungerà mai.",
             ],
           },
           {
             type: "p",
-            text: "Il flusso di lavoro più produttivo: esportare i dati di copertura GSC, eseguire un crawl completo con Screaming Frog e incrociare i due. GSC ti dice cosa vede Google; Screaming Frog ti dice cosa c'è effettivamente sul sito. Le pagine che GSC mostra come soft 404 ma Screaming Frog trova con contenuto reale hanno di solito un problema di rendering — JavaScript che non si carica per Googlebot.",
+            text: "Il flusso di lavoro più produttivo: esportare i dati di copertura GSC, eseguire un crawl completo con Screaming Frog e incrociare i due. GSC ti dice cosa vede Google; Screaming Frog ti dice cosa c'è effettivamente sul sito. Le pagine che GSC mostra come soft 404 ma Screaming Frog trova con contenuto reale hanno di solito un problema di rendering - JavaScript che non si carica per Googlebot.",
           },
         ],
       },
@@ -816,7 +816,7 @@ export const guidesTechnicalAnalysisT: Record<
         blocks: [
           {
             type: "p",
-            text: "I dati strutturati non migliorano direttamente i posizionamenti, ma influenzano come le tue pagine appaiono nei risultati di ricerca. Per l'ecommerce questo conta più che nella maggior parte delle nicchie — lo schema Product sblocca i rich result con prezzo, disponibilità e stelle di recensione direttamente nella SERP. Questo aumenta significativamente il tasso di clic, specialmente nelle query di acquisto competitive dove i risultati organici si trovano sotto un muro di annunci Shopping.",
+            text: "I dati strutturati non migliorano direttamente i posizionamenti, ma influenzano come le tue pagine appaiono nei risultati di ricerca. Per l'ecommerce questo conta più che nella maggior parte delle nicchie - lo schema Product sblocca i rich result con prezzo, disponibilità e stelle di recensione direttamente nella SERP. Questo aumenta significativamente il tasso di clic, specialmente nelle query di acquisto competitive dove i risultati organici si trovano sotto un muro di annunci Shopping.",
           },
           {
             type: "p",
@@ -835,7 +835,7 @@ export const guidesTechnicalAnalysisT: Record<
               "BreadcrumbList su tutte le pagine categoria e prodotto",
               "Validare tutti i dati strutturati con il Rich Results Test di Google",
               "Monitorare le performance dei rich result in GSC sotto Miglioramenti",
-              "Controllare gli errori di dati strutturati in GSC — i campi obbligatori mancanti fanno scomparire silenziosamente i rich result",
+              "Controllare gli errori di dati strutturati in GSC - i campi obbligatori mancanti fanno scomparire silenziosamente i rich result",
             ],
           },
         ],
@@ -863,11 +863,11 @@ export const guidesTechnicalAnalysisT: Record<
         blocks: [
           {
             type: "p",
-            text: "Google crawlt niet elke dag elke pagina van je site. Het kent een crawlbudget toe — een ruwe limiet op hoeveel pagina's Googlebot in een bepaalde periode ophaalt. Voor shops met een paar honderd producten maakt dit zelden uit. Voor shops met 10.000+ SKU's is het enorm belangrijk.",
+            text: "Google crawlt niet elke dag elke pagina van je site. Het kent een crawlbudget toe - een ruwe limiet op hoeveel pagina's Googlebot in een bepaalde periode ophaalt. Voor shops met een paar honderd producten maakt dit zelden uit. Voor shops met 10.000+ SKU's is het enorm belangrijk.",
           },
           {
             type: "p",
-            text: "Het probleem: de meeste e-commerceplatforms genereren enorme hoeveelheden URL's zonder waarde — gepagineerde categoriepagina's (/schoenen?pagina=47), filter- en sorteercombinaties (/schoenen?sort=prijs&kleur=rood&maat=40), pagina's van uitverkochte producten en interne zoekresultaten. Google crawlt dit allemaal in plaats van je echte content.",
+            text: "Het probleem: de meeste e-commerceplatforms genereren enorme hoeveelheden URL's zonder waarde - gepagineerde categoriepagina's (/schoenen?pagina=47), filter- en sorteercombinaties (/schoenen?sort=prijs&kleur=rood&maat=40), pagina's van uitverkochte producten en interne zoekresultaten. Google crawlt dit allemaal in plaats van je echte content.",
           },
           {
             type: "callout",
@@ -876,7 +876,7 @@ export const guidesTechnicalAnalysisT: Record<
           },
           {
             type: "p",
-            text: "Los het bij de bron op. In robots.txt scherm je Googlebot af van URL-patronen die waardeloze pagina's genereren. Voor filter- en sorteerparameters: gebruik canonical-tags die verwijzen naar de basis-categoriepagina, of voeg rel=\"nofollow\" toe aan paginering- en filterlinks zodat Googlebot ze niet ontdekt. Controleer regelmatig het dekkingsrapport in GSC — het laat je precies zien welke URL's Google onnodig crawlt.",
+            text: "Los het bij de bron op. In robots.txt scherm je Googlebot af van URL-patronen die waardeloze pagina's genereren. Voor filter- en sorteerparameters: gebruik canonical-tags die verwijzen naar de basis-categoriepagina, of voeg rel=\"nofollow\" toe aan paginering- en filterlinks zodat Googlebot ze niet ontdekt. Controleer regelmatig het dekkingsrapport in GSC - het laat je precies zien welke URL's Google onnodig crawlt.",
           },
         ],
       },
@@ -886,19 +886,19 @@ export const guidesTechnicalAnalysisT: Record<
         blocks: [
           {
             type: "p",
-            text: "Facetnavigatie — de filterzijbalken waarmee shoppers verfijnen op maat, kleur, merk en prijs — is een van de nuttigste UX-functies van elke webshop. Het is ook, bijna altijd, een SEO-ramp als het niet goed geconfigureerd is.",
+            text: "Facetnavigatie - de filterzijbalken waarmee shoppers verfijnen op maat, kleur, merk en prijs - is een van de nuttigste UX-functies van elke webshop. Het is ook, bijna altijd, een SEO-ramp als het niet goed geconfigureerd is.",
           },
           {
             type: "p",
-            text: "Elke filtercombinatie genereert een nieuwe URL. Een categorie met 200 producten, 5 kleuren, 8 maten en 3 prijsbereiken kan tienduizenden unieke URL-combinaties produceren. De meeste bevatten geen unieke content — het zijn dunne duplicaten van de basis-categoriepagina. Google indexeert ze, verdeelt het link-equity erover, en de ranking van je categoriepagina daalt.",
+            text: "Elke filtercombinatie genereert een nieuwe URL. Een categorie met 200 producten, 5 kleuren, 8 maten en 3 prijsbereiken kan tienduizenden unieke URL-combinaties produceren. De meeste bevatten geen unieke content - het zijn dunne duplicaten van de basis-categoriepagina. Google indexeert ze, verdeelt het link-equity erover, en de ranking van je categoriepagina daalt.",
           },
           {
             type: "tip",
-            text: "De juiste oplossing hangt af van wat je filtert. Filters die echte zoekvraag vertegenwoordigen — zoals /hardloopschoenen/dames of /banken/grijs — moeten hun eigen indexeerbare pagina's hebben met unieke content. Puur UX-filters (sorteervolgorde, paginanummer, beschikbaarheidstoggle) moeten volledig van indexering worden uitgesloten.",
+            text: "De juiste oplossing hangt af van wat je filtert. Filters die echte zoekvraag vertegenwoordigen - zoals /hardloopschoenen/dames of /banken/grijs - moeten hun eigen indexeerbare pagina's hebben met unieke content. Puur UX-filters (sorteervolgorde, paginanummer, beschikbaarheidstoggle) moeten volledig van indexering worden uitgesloten.",
           },
           {
             type: "p",
-            text: "In de praktijk: voeg een canonical-tag toe op elke filter-URL die verwijst naar de basis-categoriepagina. Of gebruik — als je platform het ondersteunt — JavaScript-only URL-updates zodat filters de paginastatus wijzigen zonder nieuwe server-side URL's te maken. Shopify doet dit standaard slecht — de standaard facetzoekapp maakt volledig indexeerbare URL's voor elk filter. Je moet canonical-verwerking handmatig of via een thema-aanpassing regelen.",
+            text: "In de praktijk: voeg een canonical-tag toe op elke filter-URL die verwijst naar de basis-categoriepagina. Of gebruik - als je platform het ondersteunt - JavaScript-only URL-updates zodat filters de paginastatus wijzigen zonder nieuwe server-side URL's te maken. Shopify doet dit standaard slecht - de standaard facetzoekapp maakt volledig indexeerbare URL's voor elk filter. Je moet canonical-verwerking handmatig of via een thema-aanpassing regelen.",
           },
           {
             type: "p",
@@ -912,11 +912,11 @@ export const guidesTechnicalAnalysisT: Record<
         blocks: [
           {
             type: "p",
-            text: "Een product met 5 kleuropties hoort één indexeerbare pagina te hebben, niet vijf. Als elke variant zijn eigen URL heeft — /blauwe-sneaker, /rode-sneaker, /groene-sneaker — en elke pagina dezelfde titel, beschrijving en content heeft met alleen de kleurna­am verwisseld, ziet Google vijf dunne duplicaten. Geen ervan rankt goed.",
+            text: "Een product met 5 kleuropties hoort één indexeerbare pagina te hebben, niet vijf. Als elke variant zijn eigen URL heeft - /blauwe-sneaker, /rode-sneaker, /groene-sneaker - en elke pagina dezelfde titel, beschrijving en content heeft met alleen de kleurna­am verwisseld, ziet Google vijf dunne duplicaten. Geen ervan rankt goed.",
           },
           {
             type: "p",
-            text: "De oplossing zijn canonical-tags. Elke variant-URL moet een canonical hebben die verwijst naar de hoofd-productpagina. De hoofd-productpagina zelf moet zelf-canonicali­serend zijn. In Shopify worden variant-URL's standaard gegenereerd als ?variant=12345. De ingebouwde canonical-logica van Shopify handelt dit af — maar het is de moeite waard te verifiëren, met name op sterk aangepaste thema's, of de canonical-tag op elke variant-URL daadwerkelijk verwijst naar de juiste product-URL.",
+            text: "De oplossing zijn canonical-tags. Elke variant-URL moet een canonical hebben die verwijst naar de hoofd-productpagina. De hoofd-productpagina zelf moet zelf-canonicali­serend zijn. In Shopify worden variant-URL's standaard gegenereerd als ?variant=12345. De ingebouwde canonical-logica van Shopify handelt dit af - maar het is de moeite waard te verifiëren, met name op sterk aangepaste thema's, of de canonical-tag op elke variant-URL daadwerkelijk verwijst naar de juiste product-URL.",
           },
           {
             type: "checklist",
@@ -936,7 +936,7 @@ export const guidesTechnicalAnalysisT: Record<
         blocks: [
           {
             type: "p",
-            text: "Google gebruikt Core Web Vitals als rankingsignaal. De drempelwaarden: LCP (Largest Contentful Paint) onder 2,5 seconden, CLS (Cumulative Layout Shift) onder 0,1, en INP (Interaction to Next Paint) onder 200 ms. De meeste e-commercesites zakken op mobiel voor minstens één ervan — en dat is waar Google ze meet.",
+            text: "Google gebruikt Core Web Vitals als rankingsignaal. De drempelwaarden: LCP (Largest Contentful Paint) onder 2,5 seconden, CLS (Cumulative Layout Shift) onder 0,1, en INP (Interaction to Next Paint) onder 200 ms. De meeste e-commercesites zakken op mobiel voor minstens één ervan - en dat is waar Google ze meet.",
           },
           {
             type: "p",
@@ -948,12 +948,12 @@ export const guidesTechnicalAnalysisT: Record<
           },
           {
             type: "p",
-            text: "INP is de nieuwste metric en de moeilijkste om te verbeteren. Het meet hoe lang de pagina erover doet om te reageren op gebruikers­interacties. Op e-commercesites is zwaar JavaScript — met name scripts van derden voor chatwidgets, retargetingpixels en aanbevelings­engines — doorgaans de oorzaak. Stel alle niet-kritieke scripts van derden uit. Gebruik het Performance-paneel in Chrome DevTools om te achterhalen welke scripts de main thread blokkeren na het laden van de pagina.",
+            text: "INP is de nieuwste metric en de moeilijkste om te verbeteren. Het meet hoe lang de pagina erover doet om te reageren op gebruikers­interacties. Op e-commercesites is zwaar JavaScript - met name scripts van derden voor chatwidgets, retargetingpixels en aanbevelings­engines - doorgaans de oorzaak. Stel alle niet-kritieke scripts van derden uit. Gebruik het Performance-paneel in Chrome DevTools om te achterhalen welke scripts de main thread blokkeren na het laden van de pagina.",
           },
           {
             type: "callout",
             title: "Waar te beginnen met Core Web Vitals",
-            text: "Open PageSpeed Insights op je homepage, je belangrijkste categoriepagina en één productpagina. Bekijk de field data (echte gebruikersdata) in plaats van alleen de lab-score — dat is wat Google daadwerkelijk gebruikt. Gebruik daarna de integratie van Screaming Frog met PageSpeed Insights om CWV-problemen over de hele site in één crawl bloot te leggen.",
+            text: "Open PageSpeed Insights op je homepage, je belangrijkste categoriepagina en één productpagina. Bekijk de field data (echte gebruikersdata) in plaats van alleen de lab-score - dat is wat Google daadwerkelijk gebruikt. Gebruik daarna de integratie van Screaming Frog met PageSpeed Insights om CWV-problemen over de hele site in één crawl bloot te leggen.",
           },
         ],
       },
@@ -968,15 +968,15 @@ export const guidesTechnicalAnalysisT: Record<
           {
             type: "list",
             items: [
-              "Soft 404's: pagina's die een HTTP-200-status retourneren maar een bericht 'geen resultaten' of 'product niet beschikbaar' tonen. Google behandelt ze als geldige pagina's — ze worden geïndexeerd, dragen geen waarde over, en kunnen stille­tjies de domein­kwaliteits­signalen beschadigen.",
+              "Soft 404's: pagina's die een HTTP-200-status retourneren maar een bericht 'geen resultaten' of 'product niet beschikbaar' tonen. Google behandelt ze als geldige pagina's - ze worden geïndexeerd, dragen geen waarde over, en kunnen stille­tjies de domein­kwaliteits­signalen beschadigen.",
               "Omleidingsketens: URL A stuurt door naar URL B die doorstuurt naar URL C. Elke stap verdunt PageRank en vertraagt het crawlen. Oplossing: alle interne links bijwerken zodat ze rechtstreeks naar de uiteindelijke doel-URL verwijzen.",
-              "Gecrawld maar niet geïndexeerd: Google heeft de pagina bezocht maar gekozen deze niet te indexeren. Doorgaans een kwaliteits­signaalprobleem — dunne, duplicaat of bijna-duplicaat content.",
-              "Ontdekt maar niet gecrawld: Google heeft de URL gevonden (via sitemap of interne link) maar nog niet opgehaald. Op grote sites wijst dit op uitputting van het crawlbudget — Google zet URL's in een wachtrij die het nooit bereikt.",
+              "Gecrawld maar niet geïndexeerd: Google heeft de pagina bezocht maar gekozen deze niet te indexeren. Doorgaans een kwaliteits­signaalprobleem - dunne, duplicaat of bijna-duplicaat content.",
+              "Ontdekt maar niet gecrawld: Google heeft de URL gevonden (via sitemap of interne link) maar nog niet opgehaald. Op grote sites wijst dit op uitputting van het crawlbudget - Google zet URL's in een wachtrij die het nooit bereikt.",
             ],
           },
           {
             type: "p",
-            text: "De meest productieve workflow: GSC-dekkingsdata exporteren, een volledige crawl uitvoeren met Screaming Frog, en beide kruislings vergelijken. GSC vertelt je wat Google ziet; Screaming Frog vertelt je wat er echt op de site staat. Pagina's die GSC als soft 404 markeert maar Screaming Frog met echte content vindt, hebben doorgaans een content-rendering­probleem — JavaScript dat niet laadt voor Googlebot.",
+            text: "De meest productieve workflow: GSC-dekkingsdata exporteren, een volledige crawl uitvoeren met Screaming Frog, en beide kruislings vergelijken. GSC vertelt je wat Google ziet; Screaming Frog vertelt je wat er echt op de site staat. Pagina's die GSC als soft 404 markeert maar Screaming Frog met echte content vindt, hebben doorgaans een content-rendering­probleem - JavaScript dat niet laadt voor Googlebot.",
           },
         ],
       },
@@ -986,11 +986,11 @@ export const guidesTechnicalAnalysisT: Record<
         blocks: [
           {
             type: "p",
-            text: "Gestructureerde data verbetert rankings niet direct, maar beïnvloedt wel hoe je pagina's in zoek­resultaten verschijnen. Voor e-commerce telt dit meer dan in de meeste niches — Product-schema ontgrendelt rich results met prijs, beschikbaarheid en sterrenbeoordelingen direct in de SERP. Dit verhoogt de klikratio aanzienlijk, met name bij competitieve shopping-zoekopdrachten waar organische resultaten onder een muur van Shopping-advertenties staan.",
+            text: "Gestructureerde data verbetert rankings niet direct, maar beïnvloedt wel hoe je pagina's in zoek­resultaten verschijnen. Voor e-commerce telt dit meer dan in de meeste niches - Product-schema ontgrendelt rich results met prijs, beschikbaarheid en sterrenbeoordelingen direct in de SERP. Dit verhoogt de klikratio aanzienlijk, met name bij competitieve shopping-zoekopdrachten waar organische resultaten onder een muur van Shopping-advertenties staan.",
           },
           {
             type: "p",
-            text: "Elke productpagina heeft Product-schema nodig met minimaal: name, image, description, sku, brand, offers (met price, priceCurrency, availability en url). Als de pagina reviews heeft, voeg je AggregateRating toe. Zonder dit verschijnen je beoordelings­sterren niet in zoekresultaten — ook al staan de reviews op de pagina.",
+            text: "Elke productpagina heeft Product-schema nodig met minimaal: name, image, description, sku, brand, offers (met price, priceCurrency, availability en url). Als de pagina reviews heeft, voeg je AggregateRating toe. Zonder dit verschijnen je beoordelings­sterren niet in zoekresultaten - ook al staan de reviews op de pagina.",
           },
           {
             type: "callout",
@@ -1005,7 +1005,7 @@ export const guidesTechnicalAnalysisT: Record<
               "BreadcrumbList op alle categorie- en productpagina's",
               "Alle gestructureerde data valideren met de Rich Results Test van Google",
               "Rich result-prestaties monitoren in GSC onder Verbeteringen",
-              "Controleren op gestructureerde data-fouten in GSC — ontbrekende verplichte velden laten rich results stilletjes verdwijnen",
+              "Controleren op gestructureerde data-fouten in GSC - ontbrekende verplichte velden laten rich results stilletjes verdwijnen",
             ],
           },
         ],

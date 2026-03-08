@@ -188,7 +188,7 @@ export default function HeadingCheckerClient({ t }: { t: HeadingCheckerTranslati
                 <div className="p-5">
                   {(activeTab[i] || "tree") === "tree" ? (
                     r.headings.length === 0 ? (
-                      <p className="text-xs text-body/60 italic">—</p>
+                      <p className="text-xs text-body/60 italic">-</p>
                     ) : (
                       <ul className="space-y-1.5">
                         {r.headings.map((h, j) => (

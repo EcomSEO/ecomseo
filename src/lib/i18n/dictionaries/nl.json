@@ -47,7 +47,7 @@
   "/amazon-seo": {
     "title": "Amazon SEO Bureau | EcomSEO",
     "description": "Amazon SEO-diensten. Bereik de top op Amazon met je merk door geoptimaliseerde listings, A+ content en strategische zoekwoordtargeting.",
-    "ogTitle": "Amazon SEO — Bereik de top op Amazon met je merk | EcomSEO"
+    "ogTitle": "Amazon SEO - Bereik de top op Amazon met je merk | EcomSEO"
   },
   "/fashion-seo": {
     "title": "Fashion SEO Bureau | EcomSEO",
@@ -70,9 +70,9 @@
     "ogTitle": "Speelgoed SEO die de verkoop laat stijgen | EcomSEO"
   },
   "/cases": {
-    "title": "Casestudies — Echte SEO-resultaten | EcomSEO",
+    "title": "Casestudies - Echte SEO-resultaten | EcomSEO",
     "description": "Bekijk hoe wij ecommerce merken hebben geholpen organisch verkeer en omzet te schalen. Echte resultaten, echte cijfers, echte groeiverhalen.",
-    "ogTitle": "Casestudies — Echte SEO-resultaten | EcomSEO"
+    "ogTitle": "Casestudies - Echte SEO-resultaten | EcomSEO"
   },
   "/team": {
     "title": "Maak kennis met het team | EcomSEO",
@@ -95,9 +95,9 @@
     "ogTitle": "Kenniscentrum & Hulpbronnen | EcomSEO"
   },
   "/resources/crash-course": {
-    "title": "Van beginner tot expert — Ecommerce SEO Cursus | EcomSEO",
+    "title": "Van beginner tot expert - Ecommerce SEO Cursus | EcomSEO",
     "description": "Complete ecommerce SEO-cursus. Leer alles wat je moet weten over hoger ranken op Google en het genereren van organische omzet.",
-    "ogTitle": "Van beginner tot expert — Ecommerce SEO Cursus | EcomSEO"
+    "ogTitle": "Van beginner tot expert - Ecommerce SEO Cursus | EcomSEO"
   },
   "/resources/crash-course/changelog-page": {
     "title": "Prestatieverbeteringen & Nieuwe functies | Ecommerce SEO Cursus",
@@ -105,9 +105,9 @@
     "ogTitle": "Prestatieverbeteringen & Nieuwe functies | Ecommerce SEO Cursus"
   },
   "/resources/search-product-discovery": {
-    "title": "AI Shopping — Krijg je producten op LLMs zoals ChatGPT | EcomSEO",
+    "title": "AI Shopping - Krijg je producten op LLMs zoals ChatGPT | EcomSEO",
     "description": "Je producten zijn onzichtbaar op AI. Daar kun je vandaag nog iets aan doen. Misschien wel de grootste kans van 2025.",
-    "ogTitle": "AI Shopping — Krijg je producten op LLMs zoals ChatGPT | EcomSEO"
+    "ogTitle": "AI Shopping - Krijg je producten op LLMs zoals ChatGPT | EcomSEO"
   },
   "/resources/shopify-on-page-checklist": {
     "title": "Premium Shopify On-Page SEO Checklist | EcomSEO",
@@ -195,24 +195,24 @@
     "ogTitle": "SERP-Dominantie voor Ecommerce | EcomSEO Handleidingen"
   },
   "/page": {
-    "title": "Fabian van Til — LLM Optimalisatie Bureau | EcomSEO",
+    "title": "Fabian van Til - LLM Optimalisatie Bureau | EcomSEO",
     "description": "Fabian van Til, oprichter van EcomSEO. Wij helpen ecommerce merken vindbaar te worden op AI en LLMs zoals ChatGPT.",
-    "ogTitle": "Fabian van Til — LLM Optimalisatie Bureau | EcomSEO"
+    "ogTitle": "Fabian van Til - LLM Optimalisatie Bureau | EcomSEO"
   },
   "/intent-matching-tool": {
-    "title": "Intent Matching Tool — AI Zoekwoordanalyse | EcomSEO",
+    "title": "Intent Matching Tool - AI Zoekwoordanalyse | EcomSEO",
     "description": "Analyseer de zoekintentie van je ecommerce zoekwoorden. Begrijp waar je klanten naar zoeken en optimaliseer je content op basis daarvan.",
-    "ogTitle": "Intent Matching Tool — AI Zoekwoordanalyse | EcomSEO"
+    "ogTitle": "Intent Matching Tool - AI Zoekwoordanalyse | EcomSEO"
   },
   "/premium-on-page-seo-checklist": {
-    "title": "Premium On-Page SEO Checklist — Genereer miljoenen organisch | EcomSEO",
+    "title": "Premium On-Page SEO Checklist - Genereer miljoenen organisch | EcomSEO",
     "description": "Ecom-eigenaren! Deze On-Page SEO Checklist is alles wat je nodig hebt om miljoenen aan organische omzet te genereren via Google.",
     "ogTitle": "Premium On-Page SEO Checklist | EcomSEO"
   },
   "/client-dashboard": {
-    "title": "Klantdashboard — Binnenkort beschikbaar | EcomSEO",
+    "title": "Klantdashboard - Binnenkort beschikbaar | EcomSEO",
     "description": "Binnenkort beschikbaar: krijg toegang tot je SEO-prestatiedata, inzichten en aanbevelingen op een plek.",
-    "ogTitle": "Klantdashboard — Binnenkort beschikbaar | EcomSEO"
+    "ogTitle": "Klantdashboard - Binnenkort beschikbaar | EcomSEO"
   },
   "/thank-you-payment": {
     "title": "Bedankt voor je betaling | EcomSEO",
@@ -316,7 +316,7 @@
   },
   "/tools/thin-content-checker": {
     "title": "Gratis Dunne Content & Woordteller Checker | EcomSEO",
-    "description": "Detecteer pagina's met te weinig inhoud. Bulk woordteller — controleer tot 20 URL's tegelijk.",
+    "description": "Detecteer pagina's met te weinig inhoud. Bulk woordteller - controleer tot 20 URL's tegelijk.",
     "ogTitle": "Gratis Dunne Content Checker | EcomSEO"
   },
   "/tools/core-web-vitals": {

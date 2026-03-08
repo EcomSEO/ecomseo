@@ -151,7 +151,7 @@ export default function CanonicalCheckerClient({ t }: { t: CanonicalCheckerTrans
                             {r.canonical.replace(/^https?:\/\//, "").slice(0, 60)}{r.canonical.length > 60 ? "…" : ""}
                           </span>
                         ) : (
-                          <span className="text-xs text-white/20 italic">—</span>
+                          <span className="text-xs text-white/20 italic">-</span>
                         )}
                       </td>
                       <td className="px-4 py-3">

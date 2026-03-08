@@ -25,11 +25,11 @@ export async function generateMetadata({
   const url = `${BASE_URL}/${locale}/academy/${slug}`;
 
   return {
-    title: `${t.heading} — EcomSEO Academy | EcomSEO`,
+    title: `${t.heading} - EcomSEO Academy | EcomSEO`,
     description: t.intro.slice(0, 160),
     alternates: generateAlternates(`/academy/${slug}`),
     openGraph: {
-      title: `${t.heading} — EcomSEO Academy`,
+      title: `${t.heading} - EcomSEO Academy`,
       description: t.intro.slice(0, 160),
       url,
       siteName: "EcomSEO",
@@ -37,7 +37,7 @@ export async function generateMetadata({
     },
     twitter: {
       card: "summary_large_image",
-      title: `${t.heading} — EcomSEO Academy`,
+      title: `${t.heading} - EcomSEO Academy`,
       description: t.intro.slice(0, 160),
     },
   };

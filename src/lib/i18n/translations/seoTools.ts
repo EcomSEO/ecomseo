@@ -1029,7 +1029,7 @@ export const seoToolsHubT: Record<Locale, {
     metaTagsChecker: { title: "Meta Tags Checker", desc: "Bulk check title tags and meta descriptions across multiple pages" },
     headingChecker: { title: "Heading Structure Checker", desc: "Analyze H1–H6 heading hierarchy for SEO best practices" },
     canonicalChecker: { title: "Canonical Tag Checker", desc: "Validate canonical tags and detect conflicts across your site" },
-    indexabilityChecker: { title: "Indexability Checker", desc: "Check if your pages are indexable — noindex, robots.txt, and HTTP status" },
+    indexabilityChecker: { title: "Indexability Checker", desc: "Check if your pages are indexable - noindex, robots.txt, and HTTP status" },
     pageTypeClassifier: { title: "Page Type Classifier", desc: "Auto-classify URLs as product, category, blog, homepage, and more" },
     sitemapComparison: { title: "Sitemap Comparison Tool", desc: "Compare two XML sitemaps to find missing and unique URLs" },
     thinContentChecker: { title: "Thin Content Checker", desc: "Detect pages with too little content that may hurt your rankings" },
@@ -1066,7 +1066,7 @@ export const seoToolsHubT: Record<Locale, {
     metaTagsChecker: { title: "Meta-Tags Prüfer", desc: "Massenprüfung von Title-Tags und Meta-Beschreibungen über mehrere Seiten" },
     headingChecker: { title: "Überschriften-Prüfer", desc: "H1–H6 Überschriften-Hierarchie auf SEO-Best-Practices analysieren" },
     canonicalChecker: { title: "Canonical-Tag Prüfer", desc: "Canonical-Tags validieren und Konflikte auf Ihrer Website erkennen" },
-    indexabilityChecker: { title: "Indexierbarkeits-Checker", desc: "Prüfen Sie, ob Ihre Seiten indexierbar sind — noindex, robots.txt und HTTP-Status" },
+    indexabilityChecker: { title: "Indexierbarkeits-Checker", desc: "Prüfen Sie, ob Ihre Seiten indexierbar sind - noindex, robots.txt und HTTP-Status" },
     pageTypeClassifier: { title: "Seitentyp-Klassifikator", desc: "URLs automatisch als Produkt, Kategorie, Blog, Homepage usw. klassifizieren" },
     sitemapComparison: { title: "Sitemap-Vergleichstool", desc: "Zwei XML-Sitemaps vergleichen, um fehlende und einzigartige URLs zu finden" },
     thinContentChecker: { title: "Thin Content Checker", desc: "Seiten mit zu wenig Inhalt erkennen, die Ihr Ranking beeinträchtigen könnten" },
@@ -1103,7 +1103,7 @@ export const seoToolsHubT: Record<Locale, {
     metaTagsChecker: { title: "Vérificateur Meta Tags", desc: "Vérification en masse des balises title et meta descriptions sur plusieurs pages" },
     headingChecker: { title: "Vérificateur de Titres", desc: "Analysez la hiérarchie H1–H6 selon les bonnes pratiques SEO" },
     canonicalChecker: { title: "Vérificateur Canonical", desc: "Validez les balises canonical et détectez les conflits sur votre site" },
-    indexabilityChecker: { title: "Vérificateur d'Indexabilité", desc: "Vérifiez si vos pages sont indexables — noindex, robots.txt et statut HTTP" },
+    indexabilityChecker: { title: "Vérificateur d'Indexabilité", desc: "Vérifiez si vos pages sont indexables - noindex, robots.txt et statut HTTP" },
     pageTypeClassifier: { title: "Classifieur de Type de Page", desc: "Classifiez automatiquement les URLs en produit, catégorie, blog, page d'accueil, etc." },
     sitemapComparison: { title: "Comparateur de Sitemaps", desc: "Comparez deux sitemaps XML pour trouver les URLs manquantes et uniques" },
     thinContentChecker: { title: "Vérificateur de Contenu Mince", desc: "Détectez les pages avec trop peu de contenu qui nuisent à votre classement" },
@@ -1140,7 +1140,7 @@ export const seoToolsHubT: Record<Locale, {
     metaTagsChecker: { title: "Verificador de Meta Tags", desc: "Verificación masiva de title tags y meta descriptions en múltiples páginas" },
     headingChecker: { title: "Verificador de Encabezados", desc: "Analiza la jerarquía H1–H6 según las mejores prácticas SEO" },
     canonicalChecker: { title: "Verificador Canonical", desc: "Valida las etiquetas canonical y detecta conflictos en tu sitio" },
-    indexabilityChecker: { title: "Verificador de Indexabilidad", desc: "Comprueba si tus páginas son indexables — noindex, robots.txt y estado HTTP" },
+    indexabilityChecker: { title: "Verificador de Indexabilidad", desc: "Comprueba si tus páginas son indexables - noindex, robots.txt y estado HTTP" },
     pageTypeClassifier: { title: "Clasificador de Tipo de Página", desc: "Clasifica automáticamente las URLs como producto, categoría, blog, inicio, etc." },
     sitemapComparison: { title: "Comparador de Sitemaps", desc: "Compara dos sitemaps XML para encontrar URLs faltantes y únicas" },
     thinContentChecker: { title: "Verificador de Contenido Escaso", desc: "Detecta páginas con poco contenido que pueden perjudicar tu posicionamiento" },
@@ -1177,7 +1177,7 @@ export const seoToolsHubT: Record<Locale, {
     metaTagsChecker: { title: "Verificatore Meta Tag", desc: "Controllo massivo di title tag e meta description su più pagine" },
     headingChecker: { title: "Verificatore Intestazioni", desc: "Analizza la gerarchia H1–H6 per le best practice SEO" },
     canonicalChecker: { title: "Verificatore Canonical", desc: "Valida i tag canonical e rileva conflitti sul tuo sito" },
-    indexabilityChecker: { title: "Verificatore Indicizzabilità", desc: "Controlla se le tue pagine sono indicizzabili — noindex, robots.txt e stato HTTP" },
+    indexabilityChecker: { title: "Verificatore Indicizzabilità", desc: "Controlla se le tue pagine sono indicizzabili - noindex, robots.txt e stato HTTP" },
     pageTypeClassifier: { title: "Classificatore Tipo di Pagina", desc: "Classifica automaticamente le URL come prodotto, categoria, blog, homepage, ecc." },
     sitemapComparison: { title: "Strumento Confronto Sitemap", desc: "Confronta due sitemap XML per trovare URL mancanti e uniche" },
     thinContentChecker: { title: "Verificatore Contenuto Scarso", desc: "Rileva pagine con troppo poco contenuto che potrebbero danneggiare il ranking" },
@@ -1214,7 +1214,7 @@ export const seoToolsHubT: Record<Locale, {
     metaTagsChecker: { title: "Meta Tags Checker", desc: "Bulk controle van title tags en meta descriptions over meerdere pagina's" },
     headingChecker: { title: "Heading Checker", desc: "Analyseer de H1–H6 heading-hiërarchie op SEO-best practices" },
     canonicalChecker: { title: "Canonical Tag Checker", desc: "Valideer canonical tags en detecteer conflicten op je website" },
-    indexabilityChecker: { title: "Indexeerbaarheid Checker", desc: "Controleer of je pagina's indexeerbaar zijn — noindex, robots.txt en HTTP-status" },
+    indexabilityChecker: { title: "Indexeerbaarheid Checker", desc: "Controleer of je pagina's indexeerbaar zijn - noindex, robots.txt en HTTP-status" },
     pageTypeClassifier: { title: "Paginatype Classifier", desc: "Classificeer URL's automatisch als product, categorie, blog, homepage, etc." },
     sitemapComparison: { title: "Sitemap Vergelijkingstool", desc: "Vergelijk twee XML-sitemaps om ontbrekende en unieke URL's te vinden" },
     thinContentChecker: { title: "Thin Content Checker", desc: "Detecteer pagina's met te weinig content die je ranking kunnen schaden" },
@@ -1317,7 +1317,7 @@ export const schemaGeneratorT: Record<Locale, SchemaGeneratorTranslation> = {
     validLabel: "Valid",
     warningLabel: "Missing recommended field",
     ctaBottom: "Need structured data for your entire catalog?",
-    ctaBottomDesc: "Our team implements product, collection, and organization schema across your store — driving rich snippets at scale.",
+    ctaBottomDesc: "Our team implements product, collection, and organization schema across your store - driving rich snippets at scale.",
     ctaBottomButton: "Get a Free Strategy Call",
     features: [
       "Valid JSON-LD Product schema output",
@@ -1378,7 +1378,7 @@ export const schemaGeneratorT: Record<Locale, SchemaGeneratorTranslation> = {
     validLabel: "Gueltig",
     warningLabel: "Empfohlenes Feld fehlt",
     ctaBottom: "Brauchen Sie strukturierte Daten fuer Ihren gesamten Katalog?",
-    ctaBottomDesc: "Unser Team implementiert Produkt-, Kollektion- und Organisations-Schema in Ihrem gesamten Shop — fuer Rich Snippets im grossen Stil.",
+    ctaBottomDesc: "Unser Team implementiert Produkt-, Kollektion- und Organisations-Schema in Ihrem gesamten Shop - fuer Rich Snippets im grossen Stil.",
     ctaBottomButton: "Kostenloses Strategiegespraech",
     features: [
       "Valide JSON-LD Product Schema-Ausgabe",
@@ -1439,7 +1439,7 @@ export const schemaGeneratorT: Record<Locale, SchemaGeneratorTranslation> = {
     validLabel: "Valide",
     warningLabel: "Champ recommande manquant",
     ctaBottom: "Besoin de donnees structurees pour tout votre catalogue ?",
-    ctaBottomDesc: "Notre equipe implemente les schemas produit, collection et organisation sur toute votre boutique — pour des rich snippets a grande echelle.",
+    ctaBottomDesc: "Notre equipe implemente les schemas produit, collection et organisation sur toute votre boutique - pour des rich snippets a grande echelle.",
     ctaBottomButton: "Appel strategique gratuit",
     features: [
       "Schema Product JSON-LD valide en sortie",
@@ -1500,7 +1500,7 @@ export const schemaGeneratorT: Record<Locale, SchemaGeneratorTranslation> = {
     validLabel: "Valido",
     warningLabel: "Campo recomendado faltante",
     ctaBottom: "Necesitas datos estructurados para todo tu catalogo?",
-    ctaBottomDesc: "Nuestro equipo implementa schema de producto, coleccion y organizacion en toda tu tienda — generando rich snippets a escala.",
+    ctaBottomDesc: "Nuestro equipo implementa schema de producto, coleccion y organizacion en toda tu tienda - generando rich snippets a escala.",
     ctaBottomButton: "Llamada estrategica gratuita",
     features: [
       "Schema Product JSON-LD valido",
@@ -1561,7 +1561,7 @@ export const schemaGeneratorT: Record<Locale, SchemaGeneratorTranslation> = {
     validLabel: "Valido",
     warningLabel: "Campo raccomandato mancante",
     ctaBottom: "Hai bisogno di dati strutturati per tutto il catalogo?",
-    ctaBottomDesc: "Il nostro team implementa schema prodotto, collezione e organizzazione in tutto il tuo negozio — generando rich snippet su larga scala.",
+    ctaBottomDesc: "Il nostro team implementa schema prodotto, collezione e organizzazione in tutto il tuo negozio - generando rich snippet su larga scala.",
     ctaBottomButton: "Chiamata strategica gratuita",
     features: [
       "Output Schema Product JSON-LD valido",
@@ -1622,7 +1622,7 @@ export const schemaGeneratorT: Record<Locale, SchemaGeneratorTranslation> = {
     validLabel: "Geldig",
     warningLabel: "Aanbevolen veld ontbreekt",
     ctaBottom: "Gestructureerde data nodig voor je hele catalogus?",
-    ctaBottomDesc: "Ons team implementeert product-, collectie- en organisatie-schema in je hele winkel — voor rich snippets op schaal.",
+    ctaBottomDesc: "Ons team implementeert product-, collectie- en organisatie-schema in je hele winkel - voor rich snippets op schaal.",
     ctaBottomButton: "Gratis strategiegesprek",
     features: [
       "Geldige JSON-LD Product Schema output",
@@ -3452,7 +3452,7 @@ export const indexabilityCheckerT: Record<Locale, IndexabilityCheckerTranslation
   en: {
     badge: "Free SEO Tool",
     heading: "Bulk Indexability Checker",
-    subtitle: "Check if your pages are indexable — noindex tags, robots.txt blocking, and HTTP status in one scan.",
+    subtitle: "Check if your pages are indexable - noindex tags, robots.txt blocking, and HTTP status in one scan.",
     urlsLabel: "Enter URLs to check (one per line, max 20)",
     urlsPlaceholder: "https://example.com/page-1\nhttps://example.com/page-2",
     checkButton: "Check Indexability",
@@ -3501,7 +3501,7 @@ export const indexabilityCheckerT: Record<Locale, IndexabilityCheckerTranslation
   de: {
     badge: "Kostenloses SEO-Tool",
     heading: "Bulk Indexierbarkeits-Checker",
-    subtitle: "Prüfe, ob deine Seiten indexierbar sind — noindex-Tags, robots.txt-Blocking und HTTP-Status auf einen Blick.",
+    subtitle: "Prüfe, ob deine Seiten indexierbar sind - noindex-Tags, robots.txt-Blocking und HTTP-Status auf einen Blick.",
     urlsLabel: "URLs zum Prüfen eingeben (eine pro Zeile, max. 20)",
     urlsPlaceholder: "https://example.com/seite-1\nhttps://example.com/seite-2",
     checkButton: "Indexierbarkeit prüfen",
@@ -3550,7 +3550,7 @@ export const indexabilityCheckerT: Record<Locale, IndexabilityCheckerTranslation
   fr: {
     badge: "Outil SEO Gratuit",
     heading: "Vérificateur d'indexabilité en masse",
-    subtitle: "Vérifiez si vos pages sont indexables — balises noindex, blocage robots.txt et statut HTTP en une seule analyse.",
+    subtitle: "Vérifiez si vos pages sont indexables - balises noindex, blocage robots.txt et statut HTTP en une seule analyse.",
     urlsLabel: "Entrez les URL à vérifier (une par ligne, max 20)",
     urlsPlaceholder: "https://example.com/page-1\nhttps://example.com/page-2",
     checkButton: "Vérifier l'indexabilité",
@@ -3599,7 +3599,7 @@ export const indexabilityCheckerT: Record<Locale, IndexabilityCheckerTranslation
   es: {
     badge: "Herramienta SEO Gratuita",
     heading: "Verificador de Indexabilidad Masivo",
-    subtitle: "Comprueba si tus páginas son indexables — etiquetas noindex, bloqueos de robots.txt y estado HTTP de un vistazo.",
+    subtitle: "Comprueba si tus páginas son indexables - etiquetas noindex, bloqueos de robots.txt y estado HTTP de un vistazo.",
     urlsLabel: "Introduce URLs a verificar (una por línea, máx. 20)",
     urlsPlaceholder: "https://example.com/pagina-1\nhttps://example.com/pagina-2",
     checkButton: "Verificar indexabilidad",
@@ -3648,7 +3648,7 @@ export const indexabilityCheckerT: Record<Locale, IndexabilityCheckerTranslation
   it: {
     badge: "Strumento SEO Gratuito",
     heading: "Checker di Indicizzabilità in Blocco",
-    subtitle: "Controlla se le tue pagine sono indicizzabili — tag noindex, blocchi robots.txt e stato HTTP in un'unica scansione.",
+    subtitle: "Controlla se le tue pagine sono indicizzabili - tag noindex, blocchi robots.txt e stato HTTP in un'unica scansione.",
     urlsLabel: "Inserisci gli URL da controllare (uno per riga, max 20)",
     urlsPlaceholder: "https://example.com/pagina-1\nhttps://example.com/pagina-2",
     checkButton: "Controlla indicizzabilità",
@@ -3697,7 +3697,7 @@ export const indexabilityCheckerT: Record<Locale, IndexabilityCheckerTranslation
   nl: {
     badge: "Gratis SEO-tool",
     heading: "Bulk Indexeerbaarheids-Checker",
-    subtitle: "Controleer of je pagina's indexeerbaar zijn — noindex-tags, robots.txt-blokkades en HTTP-status in één scan.",
+    subtitle: "Controleer of je pagina's indexeerbaar zijn - noindex-tags, robots.txt-blokkades en HTTP-status in één scan.",
     urlsLabel: "Voer URLs in om te controleren (één per regel, max. 20)",
     urlsPlaceholder: "https://example.com/pagina-1\nhttps://example.com/pagina-2",
     checkButton: "Indexeerbaarheid controleren",
@@ -3785,7 +3785,7 @@ export const pageTypeClassifierT: Record<Locale, PageTypeClassifierTranslation> 
   en: {
     badge: "Free SEO Tool",
     heading: "Ecommerce Page Type Classifier",
-    subtitle: "Automatically classify URLs as product, category, blog, homepage, cart, and more — instantly.",
+    subtitle: "Automatically classify URLs as product, category, blog, homepage, cart, and more - instantly.",
     urlsLabel: "Enter URLs to classify (one per line, max 20)",
     urlsPlaceholder: "https://example.com/\nhttps://example.com/products/shoes\nhttps://example.com/blog/post",
     checkButton: "Classify Pages",
@@ -4424,7 +4424,7 @@ export const thinContentCheckerT: Record<Locale, ThinContentCheckerTranslation> 
   en: {
     badge: "Free SEO Tool",
     heading: "Thin Content & Word Count Analyzer",
-    subtitle: "Detect pages with too little content that may hurt your search rankings — bulk check up to 20 URLs.",
+    subtitle: "Detect pages with too little content that may hurt your search rankings - bulk check up to 20 URLs.",
     urlsLabel: "Enter URLs to analyze (one per line, max 20)",
     urlsPlaceholder: "https://example.com/page-1\nhttps://example.com/page-2",
     checkButton: "Analyze Content",
@@ -4458,9 +4458,9 @@ export const thinContentCheckerT: Record<Locale, ThinContentCheckerTranslation> 
     ],
     faqTitle: "Frequently Asked Questions",
     faqs: [
-      { q: "What is thin content?", a: "Thin content refers to pages with very little unique, valuable text — typically under 300 words. Google may rank these pages lower or exclude them from the index." },
+      { q: "What is thin content?", a: "Thin content refers to pages with very little unique, valuable text - typically under 300 words. Google may rank these pages lower or exclude them from the index." },
       { q: "How many words does a page need?", a: "There's no universal minimum, but most SEO best practices recommend at least 300 words for informational pages and 500+ for competitive topics." },
-      { q: "Does word count alone determine quality?", a: "No — quality, relevance, and user intent matter more than word count. But thin pages are a common signal of low-quality content." },
+      { q: "Does word count alone determine quality?", a: "No - quality, relevance, and user intent matter more than word count. But thin pages are a common signal of low-quality content." },
       { q: "What should I do with thin pages?", a: "You can expand the content, merge thin pages into a richer page, or add a noindex tag if the page serves a functional purpose but doesn't need to rank." },
     ],
     ctaBottom: "Need help improving your content depth?",
@@ -4470,7 +4470,7 @@ export const thinContentCheckerT: Record<Locale, ThinContentCheckerTranslation> 
   de: {
     badge: "Kostenloses SEO-Tool",
     heading: "Thin-Content- & Wortanzahl-Analysator",
-    subtitle: "Erkenne Seiten mit zu wenig Inhalt, der dein Ranking schaden könnte — Bulk-Prüfung bis zu 20 URLs.",
+    subtitle: "Erkenne Seiten mit zu wenig Inhalt, der dein Ranking schaden könnte - Bulk-Prüfung bis zu 20 URLs.",
     urlsLabel: "URLs zur Analyse eingeben (eine pro Zeile, max. 20)",
     urlsPlaceholder: "https://example.com/seite-1\nhttps://example.com/seite-2",
     checkButton: "Inhalt analysieren",
@@ -4504,9 +4504,9 @@ export const thinContentCheckerT: Record<Locale, ThinContentCheckerTranslation> 
     ],
     faqTitle: "Häufig gestellte Fragen",
     faqs: [
-      { q: "Was ist Thin Content?", a: "Thin Content bezeichnet Seiten mit sehr wenig einzigartigem, wertvollem Text — typischerweise unter 300 Wörtern. Google kann solche Seiten niedriger eingestufen oder aus dem Index ausschließen." },
+      { q: "Was ist Thin Content?", a: "Thin Content bezeichnet Seiten mit sehr wenig einzigartigem, wertvollem Text - typischerweise unter 300 Wörtern. Google kann solche Seiten niedriger eingestufen oder aus dem Index ausschließen." },
       { q: "Wie viele Wörter braucht eine Seite?", a: "Es gibt kein universelles Minimum, aber die meisten SEO-Best-Practices empfehlen mindestens 300 Wörter für informative Seiten und 500+ für wettbewerbsintensive Themen." },
-      { q: "Bestimmt die Wortanzahl allein die Qualität?", a: "Nein — Qualität, Relevanz und Nutzerabsicht sind wichtiger als die Wortanzahl. Aber dünne Seiten sind ein häufiges Signal für minderwertigen Inhalt." },
+      { q: "Bestimmt die Wortanzahl allein die Qualität?", a: "Nein - Qualität, Relevanz und Nutzerabsicht sind wichtiger als die Wortanzahl. Aber dünne Seiten sind ein häufiges Signal für minderwertigen Inhalt." },
       { q: "Was soll ich mit dünnen Seiten tun?", a: "Du kannst den Inhalt erweitern, dünne Seiten in eine reichhaltigere Seite zusammenführen oder einen noindex-Tag hinzufügen, wenn die Seite eine funktionale Rolle hat, aber nicht ranken muss." },
     ],
     ctaBottom: "Hilfe bei der Verbesserung deiner Content-Tiefe?",
@@ -4516,7 +4516,7 @@ export const thinContentCheckerT: Record<Locale, ThinContentCheckerTranslation> 
   fr: {
     badge: "Outil SEO Gratuit",
     heading: "Analyseur de contenu mince et comptage de mots",
-    subtitle: "Détectez les pages avec trop peu de contenu qui pourraient nuire à votre classement — analyse en masse jusqu'à 20 URL.",
+    subtitle: "Détectez les pages avec trop peu de contenu qui pourraient nuire à votre classement - analyse en masse jusqu'à 20 URL.",
     urlsLabel: "Entrez les URL à analyser (une par ligne, max 20)",
     urlsPlaceholder: "https://example.com/page-1\nhttps://example.com/page-2",
     checkButton: "Analyser le contenu",
@@ -4550,9 +4550,9 @@ export const thinContentCheckerT: Record<Locale, ThinContentCheckerTranslation> 
     ],
     faqTitle: "Questions fréquentes",
     faqs: [
-      { q: "Qu'est-ce que le contenu mince ?", a: "Le contenu mince désigne les pages avec très peu de texte unique et précieux — généralement moins de 300 mots. Google peut classer ces pages plus bas." },
+      { q: "Qu'est-ce que le contenu mince ?", a: "Le contenu mince désigne les pages avec très peu de texte unique et précieux - généralement moins de 300 mots. Google peut classer ces pages plus bas." },
       { q: "Combien de mots une page doit-elle avoir ?", a: "Il n'y a pas de minimum universel, mais les bonnes pratiques SEO recommandent au moins 300 mots pour les pages informatives." },
-      { q: "Le nombre de mots détermine-t-il seul la qualité ?", a: "Non — la qualité, la pertinence et l'intention de l'utilisateur comptent plus que le nombre de mots." },
+      { q: "Le nombre de mots détermine-t-il seul la qualité ?", a: "Non - la qualité, la pertinence et l'intention de l'utilisateur comptent plus que le nombre de mots." },
       { q: "Que faire avec les pages minces ?", a: "Vous pouvez développer le contenu, fusionner des pages minces ou ajouter une balise noindex si la page a un rôle fonctionnel sans besoin de se classer." },
     ],
     ctaBottom: "Besoin d'aide pour améliorer la profondeur de votre contenu ?",
@@ -4562,7 +4562,7 @@ export const thinContentCheckerT: Record<Locale, ThinContentCheckerTranslation> 
   es: {
     badge: "Herramienta SEO Gratuita",
     heading: "Analizador de Contenido Escaso y Conteo de Palabras",
-    subtitle: "Detecta páginas con muy poco contenido que pueden perjudicar tu posicionamiento — análisis masivo de hasta 20 URLs.",
+    subtitle: "Detecta páginas con muy poco contenido que pueden perjudicar tu posicionamiento - análisis masivo de hasta 20 URLs.",
     urlsLabel: "Introduce URLs a analizar (una por línea, máx. 20)",
     urlsPlaceholder: "https://example.com/pagina-1\nhttps://example.com/pagina-2",
     checkButton: "Analizar contenido",
@@ -4596,9 +4596,9 @@ export const thinContentCheckerT: Record<Locale, ThinContentCheckerTranslation> 
     ],
     faqTitle: "Preguntas frecuentes",
     faqs: [
-      { q: "¿Qué es el contenido escaso?", a: "El contenido escaso se refiere a páginas con muy poco texto único y valioso — generalmente menos de 300 palabras. Google puede posicionar estas páginas más abajo." },
+      { q: "¿Qué es el contenido escaso?", a: "El contenido escaso se refiere a páginas con muy poco texto único y valioso - generalmente menos de 300 palabras. Google puede posicionar estas páginas más abajo." },
       { q: "¿Cuántas palabras necesita una página?", a: "No hay un mínimo universal, pero las mejores prácticas de SEO recomiendan al menos 300 palabras para páginas informativas." },
-      { q: "¿El conteo de palabras determina solo la calidad?", a: "No — la calidad, relevancia e intención del usuario importan más que el conteo de palabras." },
+      { q: "¿El conteo de palabras determina solo la calidad?", a: "No - la calidad, relevancia e intención del usuario importan más que el conteo de palabras." },
       { q: "¿Qué debo hacer con las páginas de contenido escaso?", a: "Puedes ampliar el contenido, fusionar páginas escasas en una más rica, o añadir una etiqueta noindex si la página tiene un propósito funcional." },
     ],
     ctaBottom: "¿Necesitas ayuda para mejorar la profundidad de tu contenido?",
@@ -4608,7 +4608,7 @@ export const thinContentCheckerT: Record<Locale, ThinContentCheckerTranslation> 
   it: {
     badge: "Strumento SEO Gratuito",
     heading: "Analizzatore di Contenuto Sottile e Conteggio Parole",
-    subtitle: "Rileva le pagine con troppo poco contenuto che potrebbero danneggiare il tuo posizionamento — analisi in blocco fino a 20 URL.",
+    subtitle: "Rileva le pagine con troppo poco contenuto che potrebbero danneggiare il tuo posizionamento - analisi in blocco fino a 20 URL.",
     urlsLabel: "Inserisci gli URL da analizzare (uno per riga, max 20)",
     urlsPlaceholder: "https://example.com/pagina-1\nhttps://example.com/pagina-2",
     checkButton: "Analizza contenuto",
@@ -4642,9 +4642,9 @@ export const thinContentCheckerT: Record<Locale, ThinContentCheckerTranslation> 
     ],
     faqTitle: "Domande frequenti",
     faqs: [
-      { q: "Cos'è il contenuto sottile?", a: "Il contenuto sottile indica pagine con molto poco testo unico e prezioso — tipicamente meno di 300 parole. Google potrebbe classificare queste pagine più in basso." },
+      { q: "Cos'è il contenuto sottile?", a: "Il contenuto sottile indica pagine con molto poco testo unico e prezioso - tipicamente meno di 300 parole. Google potrebbe classificare queste pagine più in basso." },
       { q: "Quante parole deve avere una pagina?", a: "Non esiste un minimo universale, ma le best practice SEO raccomandano almeno 300 parole per le pagine informative." },
-      { q: "Il conteggio delle parole determina da solo la qualità?", a: "No — qualità, rilevanza e intento dell'utente contano più del conteggio delle parole." },
+      { q: "Il conteggio delle parole determina da solo la qualità?", a: "No - qualità, rilevanza e intento dell'utente contano più del conteggio delle parole." },
       { q: "Cosa fare con le pagine sottili?", a: "Puoi espandere il contenuto, unire pagine sottili in una più ricca, o aggiungere un tag noindex se la pagina ha uno scopo funzionale." },
     ],
     ctaBottom: "Hai bisogno di aiuto per migliorare la profondità dei contenuti?",
@@ -4654,7 +4654,7 @@ export const thinContentCheckerT: Record<Locale, ThinContentCheckerTranslation> 
   nl: {
     badge: "Gratis SEO-tool",
     heading: "Dunne Content & Woordteller Analyzer",
-    subtitle: "Detecteer pagina's met te weinig inhoud die je zoekrangschikking kunnen schaden — bulk analyse van tot 20 URL's.",
+    subtitle: "Detecteer pagina's met te weinig inhoud die je zoekrangschikking kunnen schaden - bulk analyse van tot 20 URL's.",
     urlsLabel: "Voer URLs in om te analyseren (één per regel, max. 20)",
     urlsPlaceholder: "https://example.com/pagina-1\nhttps://example.com/pagina-2",
     checkButton: "Inhoud analyseren",
@@ -4688,9 +4688,9 @@ export const thinContentCheckerT: Record<Locale, ThinContentCheckerTranslation> 
     ],
     faqTitle: "Veelgestelde vragen",
     faqs: [
-      { q: "Wat is dunne inhoud?", a: "Dunne inhoud verwijst naar pagina's met weinig unieke, waardevolle tekst — doorgaans minder dan 300 woorden. Google kan deze pagina's lager rangschikken." },
+      { q: "Wat is dunne inhoud?", a: "Dunne inhoud verwijst naar pagina's met weinig unieke, waardevolle tekst - doorgaans minder dan 300 woorden. Google kan deze pagina's lager rangschikken." },
       { q: "Hoeveel woorden heeft een pagina nodig?", a: "Er is geen universeel minimum, maar de meeste SEO best practices bevelen minimaal 300 woorden aan voor informatieve pagina's." },
-      { q: "Bepaalt het woordtelling alleen de kwaliteit?", a: "Nee — kwaliteit, relevantie en gebruikersintentie zijn belangrijker dan het woordtelling." },
+      { q: "Bepaalt het woordtelling alleen de kwaliteit?", a: "Nee - kwaliteit, relevantie en gebruikersintentie zijn belangrijker dan het woordtelling." },
       { q: "Wat moet ik doen met dunne pagina's?", a: "Je kunt de inhoud uitbreiden, dunne pagina's samenvoegen tot een rijkere pagina, of een noindex-tag toevoegen als de pagina een functioneel doel heeft." },
     ],
     ctaBottom: "Hulp nodig bij het verbeteren van je contentdiepte?",
@@ -5106,7 +5106,7 @@ export const schemaValidatorT: Record<Locale, SchemaValidatorTranslation> = {
     errorInvalid: "Please enter a valid URL.",
     errorFetch: "Could not fetch the page. Please check the URL and try again.",
     ctaBottom: "Need help with structured data?",
-    ctaBottomDesc: "Our team implements Product, Organization, FAQ, and Breadcrumb schema across your entire site — for rich snippets at scale.",
+    ctaBottomDesc: "Our team implements Product, Organization, FAQ, and Breadcrumb schema across your entire site - for rich snippets at scale.",
     ctaBottomButton: "Get a Free Strategy Call",
     features: [
       "Validates JSON-LD structured data blocks",
@@ -5421,7 +5421,7 @@ export const redirectCheckerT: Record<Locale, RedirectCheckerTranslation> = {
       "Shows full redirect path with HTTP status codes",
       "Supports 301, 302, 307, and 308 redirects",
       "Bulk check up to 20 URLs at once",
-      "No signup required — completely free",
+      "No signup required - completely free",
     ],
     howItWorksTitle: "How It Works",
     howItWorksSteps: [
@@ -5513,7 +5513,7 @@ export const redirectCheckerT: Record<Locale, RedirectCheckerTranslation> = {
       "Montre le chemin complet avec les codes HTTP",
       "Supporte les redirections 301, 302, 307 et 308",
       "Vérification en masse jusqu'à 20 URLs",
-      "Sans inscription — entièrement gratuit",
+      "Sans inscription - entièrement gratuit",
     ],
     howItWorksTitle: "Comment ça marche",
     howItWorksSteps: [
@@ -5559,7 +5559,7 @@ export const redirectCheckerT: Record<Locale, RedirectCheckerTranslation> = {
       "Muestra la ruta completa con códigos HTTP",
       "Soporta redirecciones 301, 302, 307 y 308",
       "Verificación masiva de hasta 20 URLs",
-      "Sin registro — completamente gratuito",
+      "Sin registro - completamente gratuito",
     ],
     howItWorksTitle: "Cómo Funciona",
     howItWorksSteps: [
@@ -5605,7 +5605,7 @@ export const redirectCheckerT: Record<Locale, RedirectCheckerTranslation> = {
       "Mostra il percorso completo con codici HTTP",
       "Supporta redirect 301, 302, 307 e 308",
       "Verifica massiva fino a 20 URL",
-      "Senza registrazione — completamente gratuito",
+      "Senza registrazione - completamente gratuito",
     ],
     howItWorksTitle: "Come Funziona",
     howItWorksSteps: [
@@ -5651,7 +5651,7 @@ export const redirectCheckerT: Record<Locale, RedirectCheckerTranslation> = {
       "Toont het volledige redirect-pad met HTTP-statuscodes",
       "Ondersteunt 301-, 302-, 307- en 308-redirects",
       "Bulkcontrole van maximaal 20 URL's",
-      "Geen registratie vereist — volledig gratis",
+      "Geen registratie vereist - volledig gratis",
     ],
     howItWorksTitle: "Hoe het werkt",
     howItWorksSteps: [
@@ -5736,7 +5736,7 @@ export const imageAuditorT: Record<Locale, ImageAuditorTranslation> = {
       "Checks for missing width and height attributes",
       "Identifies images over 200 KB via HEAD requests",
       "Flags legacy formats (JPG, PNG, GIF) not using WebP/AVIF",
-      "Bulk audit up to 20 URLs — no signup required",
+      "Bulk audit up to 20 URLs - no signup required",
     ],
     howItWorksTitle: "How It Works",
     howItWorksSteps: [
@@ -5836,7 +5836,7 @@ export const imageAuditorT: Record<Locale, ImageAuditorTranslation> = {
       "Verifie les attributs width et height manquants",
       "Identifie les images de plus de 200 Ko via requetes HEAD",
       "Signale les formats obsoletes (JPG, PNG, GIF) sans WebP/AVIF",
-      "Audit en masse jusqu'a 20 URLs — sans inscription",
+      "Audit en masse jusqu'a 20 URLs - sans inscription",
     ],
     howItWorksTitle: "Comment ca marche",
     howItWorksSteps: [
@@ -6068,7 +6068,7 @@ export const internalLinkAnalyzerT: Record<Locale, InternalLinkAnalyzerTranslati
       "Shows anchor text distribution for every link",
       "Identifies internal vs external link ratio",
       "Checks up to 30 internal links for status codes",
-      "No sign-up required — completely free",
+      "No sign-up required - completely free",
     ],
     howItWorksTitle: "How It Works",
     howItWorksSteps: [
@@ -6115,7 +6115,7 @@ export const internalLinkAnalyzerT: Record<Locale, InternalLinkAnalyzerTranslati
       "Zeigt die Ankertextverteilung fuer jeden Link",
       "Identifiziert das Verhaeltnis interner zu externer Links",
       "Prueft bis zu 30 interne Links auf Statuscodes",
-      "Keine Anmeldung erforderlich — komplett kostenlos",
+      "Keine Anmeldung erforderlich - komplett kostenlos",
     ],
     howItWorksTitle: "So funktioniert es",
     howItWorksSteps: [
@@ -6162,7 +6162,7 @@ export const internalLinkAnalyzerT: Record<Locale, InternalLinkAnalyzerTranslati
       "Affiche la distribution des textes d'ancrage pour chaque lien",
       "Identifie le ratio liens internes vs externes",
       "Verifie jusqu'a 30 liens internes pour les codes de statut",
-      "Aucune inscription requise — entierement gratuit",
+      "Aucune inscription requise - entierement gratuit",
     ],
     howItWorksTitle: "Comment ca marche",
     howItWorksSteps: [
@@ -6209,7 +6209,7 @@ export const internalLinkAnalyzerT: Record<Locale, InternalLinkAnalyzerTranslati
       "Muestra la distribucion de textos ancla para cada enlace",
       "Identifica la proporcion de enlaces internos vs externos",
       "Verifica hasta 30 enlaces internos por codigos de estado",
-      "Sin registro necesario — completamente gratis",
+      "Sin registro necesario - completamente gratis",
     ],
     howItWorksTitle: "Como funciona",
     howItWorksSteps: [
@@ -6256,7 +6256,7 @@ export const internalLinkAnalyzerT: Record<Locale, InternalLinkAnalyzerTranslati
       "Mostra la distribuzione dei testi ancora per ogni link",
       "Identifica il rapporto link interni vs esterni",
       "Controlla fino a 30 link interni per codici di stato",
-      "Nessuna registrazione richiesta — completamente gratuito",
+      "Nessuna registrazione richiesta - completamente gratuito",
     ],
     howItWorksTitle: "Come Funziona",
     howItWorksSteps: [
@@ -6303,7 +6303,7 @@ export const internalLinkAnalyzerT: Record<Locale, InternalLinkAnalyzerTranslati
       "Toont de ankertekstverdeling voor elke link",
       "Identificeert de verhouding interne vs externe links",
       "Controleert tot 30 interne links op statuscodes",
-      "Geen registratie vereist — volledig gratis",
+      "Geen registratie vereist - volledig gratis",
     ],
     howItWorksTitle: "Hoe het werkt",
     howItWorksSteps: [
@@ -6381,7 +6381,7 @@ export const shoppingFeedValidatorT: Record<Locale, ShoppingFeedValidatorTransla
       "Detects missing product identifiers (GTIN, MPN, brand)",
       "Supports RSS, Atom, and XML feed formats",
       "Validates up to 50 products per scan",
-      "No signup required — completely free",
+      "No signup required - completely free",
     ],
     howItWorksTitle: "How It Works",
     howItWorksSteps: [
@@ -6426,7 +6426,7 @@ export const shoppingFeedValidatorT: Record<Locale, ShoppingFeedValidatorTransla
       "Erkennt fehlende Produktkennungen (GTIN, MPN, Marke)",
       "Unterstuetzt RSS-, Atom- und XML-Feed-Formate",
       "Validiert bis zu 50 Produkte pro Scan",
-      "Keine Registrierung erforderlich — voellig kostenlos",
+      "Keine Registrierung erforderlich - voellig kostenlos",
     ],
     howItWorksTitle: "So funktioniert es",
     howItWorksSteps: [
@@ -6471,7 +6471,7 @@ export const shoppingFeedValidatorT: Record<Locale, ShoppingFeedValidatorTransla
       "Detecte les identifiants produit manquants (GTIN, MPN, marque)",
       "Prend en charge les formats de flux RSS, Atom et XML",
       "Valide jusqu'a 50 produits par scan",
-      "Aucune inscription requise — entierement gratuit",
+      "Aucune inscription requise - entierement gratuit",
     ],
     howItWorksTitle: "Comment ca marche",
     howItWorksSteps: [
@@ -6516,7 +6516,7 @@ export const shoppingFeedValidatorT: Record<Locale, ShoppingFeedValidatorTransla
       "Detecta identificadores de producto faltantes (GTIN, MPN, marca)",
       "Soporta formatos de feed RSS, Atom y XML",
       "Valida hasta 50 productos por escaneo",
-      "Sin registro requerido — completamente gratis",
+      "Sin registro requerido - completamente gratis",
     ],
     howItWorksTitle: "Como funciona",
     howItWorksSteps: [
@@ -6561,7 +6561,7 @@ export const shoppingFeedValidatorT: Record<Locale, ShoppingFeedValidatorTransla
       "Rileva identificatori prodotto mancanti (GTIN, MPN, marca)",
       "Supporta formati feed RSS, Atom e XML",
       "Valida fino a 50 prodotti per scansione",
-      "Nessuna registrazione richiesta — completamente gratuito",
+      "Nessuna registrazione richiesta - completamente gratuito",
     ],
     howItWorksTitle: "Come funziona",
     howItWorksSteps: [
@@ -6606,7 +6606,7 @@ export const shoppingFeedValidatorT: Record<Locale, ShoppingFeedValidatorTransla
       "Detecteert ontbrekende productidentificatoren (GTIN, MPN, merk)",
       "Ondersteunt RSS-, Atom- en XML-feedformaten",
       "Valideert tot 50 producten per scan",
-      "Geen registratie vereist — volledig gratis",
+      "Geen registratie vereist - volledig gratis",
     ],
     howItWorksTitle: "Hoe het werkt",
     howItWorksSteps: [
@@ -6689,7 +6689,7 @@ export const duplicateContentT: Record<Locale, DuplicateContentTranslation> = {
       "Bulk check up to 20 URLs in one go",
       "Shows word count per page",
       "Color-coded similarity scores",
-      "No signup required — completely free",
+      "No signup required - completely free",
     ],
     howItWorksTitle: "How It Works",
     howItWorksSteps: [
@@ -6736,7 +6736,7 @@ export const duplicateContentT: Record<Locale, DuplicateContentTranslation> = {
       "Massenprüfung von bis zu 20 URLs auf einmal",
       "Zeigt die Wortzahl pro Seite",
       "Farbcodierte Ähnlichkeitswerte",
-      "Keine Registrierung erforderlich — komplett kostenlos",
+      "Keine Registrierung erforderlich - komplett kostenlos",
     ],
     howItWorksTitle: "So funktioniert es",
     howItWorksSteps: [
@@ -6783,7 +6783,7 @@ export const duplicateContentT: Record<Locale, DuplicateContentTranslation> = {
       "Vérification en masse de jusqu'à 20 URLs",
       "Affiche le nombre de mots par page",
       "Scores de similarité avec code couleur",
-      "Aucune inscription requise — entièrement gratuit",
+      "Aucune inscription requise - entièrement gratuit",
     ],
     howItWorksTitle: "Comment ça marche",
     howItWorksSteps: [
@@ -6830,7 +6830,7 @@ export const duplicateContentT: Record<Locale, DuplicateContentTranslation> = {
       "Verificación masiva de hasta 20 URLs",
       "Muestra el recuento de palabras por página",
       "Puntuaciones de similitud codificadas por color",
-      "Sin registro necesario — completamente gratuito",
+      "Sin registro necesario - completamente gratuito",
     ],
     howItWorksTitle: "Cómo funciona",
     howItWorksSteps: [
@@ -6877,7 +6877,7 @@ export const duplicateContentT: Record<Locale, DuplicateContentTranslation> = {
       "Controllo massivo di fino a 20 URL",
       "Mostra il conteggio parole per pagina",
       "Punteggi di similarità con codice colore",
-      "Nessuna registrazione richiesta — completamente gratuito",
+      "Nessuna registrazione richiesta - completamente gratuito",
     ],
     howItWorksTitle: "Come funziona",
     howItWorksSteps: [
@@ -6924,7 +6924,7 @@ export const duplicateContentT: Record<Locale, DuplicateContentTranslation> = {
       "Bulkcontrole van maximaal 20 URL's in één keer",
       "Toont het aantal woorden per pagina",
       "Kleurgecodeerde gelijkenis-scores",
-      "Geen registratie vereist — volledig gratis",
+      "Geen registratie vereist - volledig gratis",
     ],
     howItWorksTitle: "Hoe het werkt",
     howItWorksSteps: [
@@ -7008,7 +7008,7 @@ export const siteSpeedComparisonT: Record<Locale, SiteSpeedComparisonTranslation
       "Key metrics: FCP, LCP, TBT, CLS, Speed Index",
       "Color-coded scores for instant insights",
       "Best value per metric highlighted automatically",
-      "No sign-up required — completely free",
+      "No sign-up required - completely free",
     ],
     howItWorksTitle: "How It Works",
     howItWorksSteps: [
@@ -7057,7 +7057,7 @@ export const siteSpeedComparisonT: Record<Locale, SiteSpeedComparisonTranslation
       "Wichtige Metriken: FCP, LCP, TBT, CLS, Speed Index",
       "Farbcodierte Scores fur sofortige Einblicke",
       "Bester Wert pro Metrik automatisch hervorgehoben",
-      "Keine Anmeldung erforderlich — komplett kostenlos",
+      "Keine Anmeldung erforderlich - komplett kostenlos",
     ],
     howItWorksTitle: "So funktioniert es",
     howItWorksSteps: [
@@ -7106,7 +7106,7 @@ export const siteSpeedComparisonT: Record<Locale, SiteSpeedComparisonTranslation
       "Metriques cles : FCP, LCP, TBT, CLS, Speed Index",
       "Scores colores pour des insights instantanes",
       "Meilleure valeur par metrique surlignee automatiquement",
-      "Aucune inscription requise — entierement gratuit",
+      "Aucune inscription requise - entierement gratuit",
     ],
     howItWorksTitle: "Comment ca marche",
     howItWorksSteps: [
@@ -7155,7 +7155,7 @@ export const siteSpeedComparisonT: Record<Locale, SiteSpeedComparisonTranslation
       "Metricas clave: FCP, LCP, TBT, CLS, Speed Index",
       "Puntuaciones con codigo de colores para insights instantaneos",
       "Mejor valor por metrica resaltado automaticamente",
-      "Sin registro necesario — completamente gratis",
+      "Sin registro necesario - completamente gratis",
     ],
     howItWorksTitle: "Como funciona",
     howItWorksSteps: [
@@ -7204,7 +7204,7 @@ export const siteSpeedComparisonT: Record<Locale, SiteSpeedComparisonTranslation
       "Metriche chiave: FCP, LCP, TBT, CLS, Speed Index",
       "Punteggi con codice colore per insights immediati",
       "Miglior valore per metrica evidenziato automaticamente",
-      "Nessuna registrazione richiesta — completamente gratuito",
+      "Nessuna registrazione richiesta - completamente gratuito",
     ],
     howItWorksTitle: "Come funziona",
     howItWorksSteps: [
@@ -7253,7 +7253,7 @@ export const siteSpeedComparisonT: Record<Locale, SiteSpeedComparisonTranslation
       "Belangrijkste statistieken: FCP, LCP, TBT, CLS, Speed Index",
       "Kleurgecodeerde scores voor directe inzichten",
       "Beste waarde per statistiek automatisch gemarkeerd",
-      "Geen registratie vereist — volledig gratis",
+      "Geen registratie vereist - volledig gratis",
     ],
     howItWorksTitle: "Hoe het werkt",
     howItWorksSteps: [

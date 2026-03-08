@@ -44,7 +44,7 @@ export const guidesOffPageAuditT: Record<
           },
           {
             type: "p",
-            text: "Look for patterns in the export. Are most of your links from one or two domains? That's link concentration risk. Are there clusters of domains with nearly identical names or structures? That's a footprint — often from a private blog network or a single link seller. Neither is healthy.",
+            text: "Look for patterns in the export. Are most of your links from one or two domains? That's link concentration risk. Are there clusters of domains with nearly identical names or structures? That's a footprint - often from a private blog network or a single link seller. Neither is healthy.",
           },
           {
             type: "list",
@@ -90,7 +90,7 @@ export const guidesOffPageAuditT: Record<
         blocks: [
           {
             type: "p",
-            text: "Toxic links are links from obvious spam domains — link farms, pure directory spam, irrelevant foreign-language sites added in bulk, or sites that exist only to sell links. They show up in your profile as low-DR, unrelated, often with keyword-stuffed anchor text.",
+            text: "Toxic links are links from obvious spam domains - link farms, pure directory spam, irrelevant foreign-language sites added in bulk, or sites that exist only to sell links. They show up in your profile as low-DR, unrelated, often with keyword-stuffed anchor text.",
           },
           {
             type: "p",

@@ -33,7 +33,7 @@ async function fetchSitemapUrls(sitemapUrl: string): Promise<string[]> {
     return allUrls;
   }
 
-  // Regular sitemap — extract <loc> URLs
+  // Regular sitemap - extract <loc> URLs
   const urlMatches = [...text.matchAll(/<loc>\s*(https?:\/\/[^\s<]+)\s*<\/loc>/gi)];
   return urlMatches.map((m) => m[1].trim());
 }

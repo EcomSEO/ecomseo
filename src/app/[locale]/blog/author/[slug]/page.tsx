@@ -54,7 +54,7 @@ export async function generateMetadata({
   if (!author) return {};
 
   const articles = getArticlesByAuthor(slug);
-  const title = `${author.name} — ${author.role} | EcomSEO`;
+  const title = `${author.name} - ${author.role} | EcomSEO`;
   const description = `${author.name} has published ${articles.length} articles on ecommerce SEO. ${author.tagline}`;
 
   return {

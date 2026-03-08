@@ -87,7 +87,7 @@ export const guidesRankingChatgptT: Record<
           },
           {
             type: "tip",
-            text: "Run your own product queries in Perplexity right now. If competitors show up and you don't, open their cited pages and analyze what they do differently structurally. It's usually simpler than you expect — direct headings, clean formatting, specific claims.",
+            text: "Run your own product queries in Perplexity right now. If competitors show up and you don't, open their cited pages and analyze what they do differently structurally. It's usually simpler than you expect - direct headings, clean formatting, specific claims.",
           },
         ],
       },
@@ -127,11 +127,11 @@ export const guidesRankingChatgptT: Record<
           },
           {
             type: "p",
-            text: "Tracking AI citations takes manual effort today, but it's worth doing monthly. Search '[your brand] recommended for [category]' in both ChatGPT and Perplexity. Note which pages get cited and which competitors appear instead. Tools like Profound and Brandwatch are building automated AI mention tracking — worth evaluating if your brand spends on SEO tooling. Google Alerts still works for picking up text mentions across the web.",
+            text: "Tracking AI citations takes manual effort today, but it's worth doing monthly. Search '[your brand] recommended for [category]' in both ChatGPT and Perplexity. Note which pages get cited and which competitors appear instead. Tools like Profound and Brandwatch are building automated AI mention tracking - worth evaluating if your brand spends on SEO tooling. Google Alerts still works for picking up text mentions across the web.",
           },
           {
             type: "tip",
-            text: "Keep a simple spreadsheet: query, AI tool, cited URL, competitor URLs cited. Update it monthly. You'll spot patterns fast — usually it's a small number of well-structured pages doing most of the citing work, and a handful of competitors who've figured this out before you.",
+            text: "Keep a simple spreadsheet: query, AI tool, cited URL, competitor URLs cited. Update it monthly. You'll spot patterns fast - usually it's a small number of well-structured pages doing most of the citing work, and a handful of competitors who've figured this out before you.",
           },
           {
             type: "callout",
@@ -155,7 +155,7 @@ export const guidesRankingChatgptT: Record<
               "Add or update author bylines on all blog posts with real credentials",
               "Create or improve your About page to show your team's expertise",
               "Add llms.txt to your domain root listing your 20-30 most important pages",
-              "Run 10 customer queries in ChatGPT and Perplexity — note who gets cited",
+              "Run 10 customer queries in ChatGPT and Perplexity - note who gets cited",
               "Rewrite one buying guide per week using direct-answer structure",
               "Set up Google Alerts for your brand name and top product category terms",
               "Review and update 'last modified' dates on all evergreen content",
@@ -252,7 +252,7 @@ export const guidesRankingChatgptT: Record<
           },
           {
             type: "tip",
-            text: "Gib jetzt deine eigenen Produktanfragen in Perplexity ein. Wenn Mitbewerber erscheinen und du nicht, öffne deren zitierte Seiten und analysiere, was sie strukturell anders machen. Es ist meist einfacher als erwartet — direkte Überschriften, saubere Formatierung, konkrete Aussagen.",
+            text: "Gib jetzt deine eigenen Produktanfragen in Perplexity ein. Wenn Mitbewerber erscheinen und du nicht, öffne deren zitierte Seiten und analysiere, was sie strukturell anders machen. Es ist meist einfacher als erwartet - direkte Überschriften, saubere Formatierung, konkrete Aussagen.",
           },
         ],
       },
@@ -292,11 +292,11 @@ export const guidesRankingChatgptT: Record<
           },
           {
             type: "p",
-            text: "Das Tracking von KI-Zitierungen erfordert heute noch manuellen Aufwand, lohnt sich aber monatlich. Suche '[deine Marke] empfohlen für [Kategorie]' sowohl in ChatGPT als auch in Perplexity. Notiere, welche Seiten zitiert werden und welche Mitbewerber stattdessen erscheinen. Tools wie Profound und Brandwatch bauen automatisiertes KI-Erwähnungs-Tracking auf — eine Evaluierung wert, wenn deine Marke in SEO-Tools investiert. Google Alerts funktioniert weiterhin gut für Texterwähnungen im Netz.",
+            text: "Das Tracking von KI-Zitierungen erfordert heute noch manuellen Aufwand, lohnt sich aber monatlich. Suche '[deine Marke] empfohlen für [Kategorie]' sowohl in ChatGPT als auch in Perplexity. Notiere, welche Seiten zitiert werden und welche Mitbewerber stattdessen erscheinen. Tools wie Profound und Brandwatch bauen automatisiertes KI-Erwähnungs-Tracking auf - eine Evaluierung wert, wenn deine Marke in SEO-Tools investiert. Google Alerts funktioniert weiterhin gut für Texterwähnungen im Netz.",
           },
           {
             type: "tip",
-            text: "Führe eine einfache Tabelle: Anfrage, KI-Tool, zitierte URL, zitierte Mitbewerber-URLs. Monatlich aktualisieren. Du erkennst Muster schnell — meist leisten wenige gut strukturierte Seiten den Großteil der Zitierarbeit, und eine Handvoll Mitbewerber hat das bereits vor dir herausgefunden.",
+            text: "Führe eine einfache Tabelle: Anfrage, KI-Tool, zitierte URL, zitierte Mitbewerber-URLs. Monatlich aktualisieren. Du erkennst Muster schnell - meist leisten wenige gut strukturierte Seiten den Großteil der Zitierarbeit, und eine Handvoll Mitbewerber hat das bereits vor dir herausgefunden.",
           },
           {
             type: "callout",
@@ -320,7 +320,7 @@ export const guidesRankingChatgptT: Record<
               "Füge allen Blogbeiträgen Autorenangaben mit echten Qualifikationen hinzu oder aktualisiere sie",
               "Erstelle oder verbessere deine 'Über uns'-Seite, um die Expertise des Teams zu zeigen",
               "Füge llms.txt in deinem Domain-Stammverzeichnis hinzu und liste deine 20–30 wichtigsten Seiten auf",
-              "Führe 10 Kundenanfragen in ChatGPT und Perplexity aus — notiere, wer zitiert wird",
+              "Führe 10 Kundenanfragen in ChatGPT und Perplexity aus - notiere, wer zitiert wird",
               "Überarbeite wöchentlich einen Ratgeber mit Direktantwort-Struktur",
               "Richte Google Alerts für deinen Markennamen und deine wichtigsten Produktkategorie-Begriffe ein",
               "Prüfe und aktualisiere 'Zuletzt geändert'-Daten für alle Evergreen-Inhalte",
@@ -417,7 +417,7 @@ export const guidesRankingChatgptT: Record<
           },
           {
             type: "tip",
-            text: "Lancez vos propres requêtes produits dans Perplexity maintenant. Si vos concurrents apparaissent et pas vous, ouvrez leurs pages citées et analysez ce qu'ils font différemment structurellement. C'est généralement plus simple que prévu — titres directs, formatage propre, affirmations précises.",
+            text: "Lancez vos propres requêtes produits dans Perplexity maintenant. Si vos concurrents apparaissent et pas vous, ouvrez leurs pages citées et analysez ce qu'ils font différemment structurellement. C'est généralement plus simple que prévu - titres directs, formatage propre, affirmations précises.",
           },
         ],
       },
@@ -457,11 +457,11 @@ export const guidesRankingChatgptT: Record<
           },
           {
             type: "p",
-            text: "Le suivi des citations IA demande encore un effort manuel aujourd'hui, mais vaut la peine d'être fait mensuellement. Recherchez '[votre marque] recommandé pour [catégorie]' dans ChatGPT et Perplexity. Notez quelles pages sont citées et quels concurrents apparaissent à la place. Des outils comme Profound et Brandwatch développent un suivi automatisé des mentions IA — à évaluer si votre marque investit dans des outils SEO. Google Alerts fonctionne toujours bien pour détecter les mentions textuelles sur le web.",
+            text: "Le suivi des citations IA demande encore un effort manuel aujourd'hui, mais vaut la peine d'être fait mensuellement. Recherchez '[votre marque] recommandé pour [catégorie]' dans ChatGPT et Perplexity. Notez quelles pages sont citées et quels concurrents apparaissent à la place. Des outils comme Profound et Brandwatch développent un suivi automatisé des mentions IA - à évaluer si votre marque investit dans des outils SEO. Google Alerts fonctionne toujours bien pour détecter les mentions textuelles sur le web.",
           },
           {
             type: "tip",
-            text: "Tenez un tableau simple : requête, outil IA, URL citée, URL concurrents cités. Mettez à jour mensuellement. Vous identifierez vite des patterns — généralement, un petit nombre de pages bien structurées fait la majorité du travail de citation, et quelques concurrents ont déjà compris cela avant vous.",
+            text: "Tenez un tableau simple : requête, outil IA, URL citée, URL concurrents cités. Mettez à jour mensuellement. Vous identifierez vite des patterns - généralement, un petit nombre de pages bien structurées fait la majorité du travail de citation, et quelques concurrents ont déjà compris cela avant vous.",
           },
           {
             type: "callout",
@@ -485,7 +485,7 @@ export const guidesRankingChatgptT: Record<
               "Ajoutez ou mettez à jour les signatures d'auteur sur tous les articles de blog avec de vraies accréditations",
               "Créez ou améliorez votre page 'À propos' pour montrer l'expertise de l'équipe",
               "Ajoutez llms.txt à la racine de votre domaine en listant vos 20 à 30 pages les plus importantes",
-              "Lancez 10 requêtes client dans ChatGPT et Perplexity — notez qui est cité",
+              "Lancez 10 requêtes client dans ChatGPT et Perplexity - notez qui est cité",
               "Réécrivez un guide d'achat par semaine avec une structure de réponse directe",
               "Configurez Google Alerts pour le nom de votre marque et vos principaux termes de catégorie produit",
               "Vérifiez et mettez à jour les dates 'Dernière modification' sur tous les contenus evergreen",
@@ -582,7 +582,7 @@ export const guidesRankingChatgptT: Record<
           },
           {
             type: "tip",
-            text: "Ejecuta tus propias consultas de producto en Perplexity ahora mismo. Si los competidores aparecen y tú no, abre sus páginas citadas y analiza qué hacen diferente estructuralmente. Suele ser más simple de lo que esperas — encabezados directos, formato limpio, afirmaciones específicas.",
+            text: "Ejecuta tus propias consultas de producto en Perplexity ahora mismo. Si los competidores aparecen y tú no, abre sus páginas citadas y analiza qué hacen diferente estructuralmente. Suele ser más simple de lo que esperas - encabezados directos, formato limpio, afirmaciones específicas.",
           },
         ],
       },
@@ -622,11 +622,11 @@ export const guidesRankingChatgptT: Record<
           },
           {
             type: "p",
-            text: "El seguimiento de citas de IA requiere esfuerzo manual hoy en día, pero vale la pena hacerlo mensualmente. Busca '[tu marca] recomendado para [categoría]' tanto en ChatGPT como en Perplexity. Anota qué páginas se citan y qué competidores aparecen en su lugar. Herramientas como Profound y Brandwatch están desarrollando seguimiento automatizado de menciones de IA — vale la pena evaluar si tu marca invierte en herramientas SEO. Google Alerts sigue funcionando bien para detectar menciones de texto en la web.",
+            text: "El seguimiento de citas de IA requiere esfuerzo manual hoy en día, pero vale la pena hacerlo mensualmente. Busca '[tu marca] recomendado para [categoría]' tanto en ChatGPT como en Perplexity. Anota qué páginas se citan y qué competidores aparecen en su lugar. Herramientas como Profound y Brandwatch están desarrollando seguimiento automatizado de menciones de IA - vale la pena evaluar si tu marca invierte en herramientas SEO. Google Alerts sigue funcionando bien para detectar menciones de texto en la web.",
           },
           {
             type: "tip",
-            text: "Lleva una hoja de cálculo simple: consulta, herramienta IA, URL citada, URLs de competidores citados. Actualiza mensualmente. Identificarás patrones rápido — normalmente un pequeño número de páginas bien estructuradas hace la mayor parte del trabajo de citación, y un puñado de competidores ya lo han descubierto antes que tú.",
+            text: "Lleva una hoja de cálculo simple: consulta, herramienta IA, URL citada, URLs de competidores citados. Actualiza mensualmente. Identificarás patrones rápido - normalmente un pequeño número de páginas bien estructuradas hace la mayor parte del trabajo de citación, y un puñado de competidores ya lo han descubierto antes que tú.",
           },
           {
             type: "callout",
@@ -650,7 +650,7 @@ export const guidesRankingChatgptT: Record<
               "Añade o actualiza las firmas de autor en todos los artículos de blog con credenciales reales",
               "Crea o mejora tu página 'Sobre nosotros' para mostrar la experiencia del equipo",
               "Añade llms.txt en la raíz de tu dominio listando tus 20-30 páginas más importantes",
-              "Ejecuta 10 consultas de cliente en ChatGPT y Perplexity — anota quién aparece citado",
+              "Ejecuta 10 consultas de cliente en ChatGPT y Perplexity - anota quién aparece citado",
               "Reescribe una guía de compra por semana usando estructura de respuesta directa",
               "Configura Google Alerts para el nombre de tu marca y tus principales términos de categoría de producto",
               "Revisa y actualiza las fechas de 'última modificación' en todo el contenido evergreen",
@@ -747,7 +747,7 @@ export const guidesRankingChatgptT: Record<
           },
           {
             type: "tip",
-            text: "Esegui le tue query di prodotto in Perplexity adesso. Se i concorrenti appaiono e tu no, apri le loro pagine citate e analizza cosa fanno di diverso strutturalmente. Di solito è più semplice del previsto — intestazioni dirette, formattazione pulita, affermazioni specifiche.",
+            text: "Esegui le tue query di prodotto in Perplexity adesso. Se i concorrenti appaiono e tu no, apri le loro pagine citate e analizza cosa fanno di diverso strutturalmente. Di solito è più semplice del previsto - intestazioni dirette, formattazione pulita, affermazioni specifiche.",
           },
         ],
       },
@@ -787,11 +787,11 @@ export const guidesRankingChatgptT: Record<
           },
           {
             type: "p",
-            text: "Il tracciamento delle citazioni IA richiede ancora sforzo manuale oggi, ma vale la pena farlo mensilmente. Cerca '[il tuo brand] consigliato per [categoria]' sia in ChatGPT che in Perplexity. Annota quali pagine vengono citate e quali concorrenti appaiono al loro posto. Strumenti come Profound e Brandwatch stanno sviluppando il tracciamento automatizzato delle menzioni IA — vale la pena valutarli se il tuo brand investe in strumenti SEO. Google Alerts funziona ancora bene per rilevare menzioni di testo sul web.",
+            text: "Il tracciamento delle citazioni IA richiede ancora sforzo manuale oggi, ma vale la pena farlo mensilmente. Cerca '[il tuo brand] consigliato per [categoria]' sia in ChatGPT che in Perplexity. Annota quali pagine vengono citate e quali concorrenti appaiono al loro posto. Strumenti come Profound e Brandwatch stanno sviluppando il tracciamento automatizzato delle menzioni IA - vale la pena valutarli se il tuo brand investe in strumenti SEO. Google Alerts funziona ancora bene per rilevare menzioni di testo sul web.",
           },
           {
             type: "tip",
-            text: "Tieni un foglio di calcolo semplice: query, strumento IA, URL citato, URL concorrenti citati. Aggiorna mensilmente. Identificherai rapidamente i pattern — di solito un piccolo numero di pagine ben strutturate fa la maggior parte del lavoro di citazione, e una manciata di concorrenti l'ha già capito prima di te.",
+            text: "Tieni un foglio di calcolo semplice: query, strumento IA, URL citato, URL concorrenti citati. Aggiorna mensilmente. Identificherai rapidamente i pattern - di solito un piccolo numero di pagine ben strutturate fa la maggior parte del lavoro di citazione, e una manciata di concorrenti l'ha già capito prima di te.",
           },
           {
             type: "callout",
@@ -806,7 +806,7 @@ export const guidesRankingChatgptT: Record<
         blocks: [
           {
             type: "p",
-            text: "Dai priorità senza pietà. Non devi rinnovare tutto il sito — devi rendere le tue migliori 10-15 pagine pronte per le citazioni IA. Sono le tue guide all'acquisto più visitate, le tue pagine di categoria principali e qualsiasi contenuto che già si posiziona in prima pagina per query informazionali.",
+            text: "Dai priorità senza pietà. Non devi rinnovare tutto il sito - devi rendere le tue migliori 10-15 pagine pronte per le citazioni IA. Sono le tue guide all'acquisto più visitate, le tue pagine di categoria principali e qualsiasi contenuto che già si posiziona in prima pagina per query informazionali.",
           },
           {
             type: "checklist",
@@ -815,7 +815,7 @@ export const guidesRankingChatgptT: Record<
               "Aggiungi o aggiorna le firme degli autori su tutti gli articoli del blog con credenziali reali",
               "Crea o migliora la tua pagina 'Chi siamo' per mettere in evidenza la competenza del team",
               "Aggiungi llms.txt alla radice del tuo dominio elencando le tue 20-30 pagine più importanti",
-              "Esegui 10 query di cliente in ChatGPT e Perplexity — annota chi viene citato",
+              "Esegui 10 query di cliente in ChatGPT e Perplexity - annota chi viene citato",
               "Riscrivi una guida all'acquisto alla settimana usando la struttura di risposta diretta",
               "Configura Google Alerts per il nome del tuo brand e i tuoi principali termini di categoria prodotto",
               "Controlla e aggiorna le date di 'ultima modifica' su tutti i contenuti evergreen",
@@ -823,7 +823,7 @@ export const guidesRankingChatgptT: Record<
           },
           {
             type: "p",
-            text: "La ricerca IA non sostituisce il SEO tradizionale — aggiunge un altro livello sopra di esso. I brand ecommerce che vinceranno sono quelli che combinano basi tecniche solide con contenuti genuinamente utili e scritti in modo chiaro. L'opportunità è reale adesso: la maggior parte dei tuoi concorrenti non si è ancora adattata.",
+            text: "La ricerca IA non sostituisce il SEO tradizionale - aggiunge un altro livello sopra di esso. I brand ecommerce che vinceranno sono quelli che combinano basi tecniche solide con contenuti genuinamente utili e scritti in modo chiaro. L'opportunità è reale adesso: la maggior parte dei tuoi concorrenti non si è ancora adattata.",
           },
         ],
       },
@@ -850,7 +850,7 @@ export const guidesRankingChatgptT: Record<
         blocks: [
           {
             type: "p",
-            text: "ChatGPT, Perplexity en Google AI Overviews rangschikken geen URL's zoals traditionele zoekmachines dat doen. Ze synthetiseren antwoorden uit meerdere bronnen en citeren vervolgens de bronnen die ze hebben gebruikt. Je concurreert niet om positie 1 — je concurreert om de bron te zijn die het model citeert.",
+            text: "ChatGPT, Perplexity en Google AI Overviews rangschikken geen URL's zoals traditionele zoekmachines dat doen. Ze synthetiseren antwoorden uit meerdere bronnen en citeren vervolgens de bronnen die ze hebben gebruikt. Je concurreert niet om positie 1 - je concurreert om de bron te zijn die het model citeert.",
           },
           {
             type: "p",
@@ -869,15 +869,15 @@ export const guidesRankingChatgptT: Record<
         blocks: [
           {
             type: "p",
-            text: "AI-modellen zijn getraind om geloofwaardige, gestructureerde en feitelijke inhoud te herkennen. Ze geven de voorkeur aan pagina's die vragen direct beantwoorden — niet aan pagina's die het antwoord begraven onder drie alinea's inleiding. Ze reageren ook goed op named entities: specifieke merknamen, productnamen, modelnummers, specificaties en prijzen.",
+            text: "AI-modellen zijn getraind om geloofwaardige, gestructureerde en feitelijke inhoud te herkennen. Ze geven de voorkeur aan pagina's die vragen direct beantwoorden - niet aan pagina's die het antwoord begraven onder drie alinea's inleiding. Ze reageren ook goed op named entities: specifieke merknamen, productnamen, modelnummers, specificaties en prijzen.",
           },
           {
             type: "list",
             items: [
-              "Directe antwoorden aan het begin van elke sectie — geen lange aanlooptijd voordat je tot de kern komt",
+              "Directe antwoorden aan het begin van elke sectie - geen lange aanlooptijd voordat je tot de kern komt",
               "Specifieke data: afmetingen, gewichten, prijzen, compatibiliteitsdetails, testresultaten",
               "Benoemde vergelijkingen: 'vergeleken met de Ergotron LX heeft deze arm een langere reikwijdte'",
-              "Duidelijke, controleerbare feitelijke uitspraken — AI-modellen vermijden het citeren van vage of ontwijkende taal",
+              "Duidelijke, controleerbare feitelijke uitspraken - AI-modellen vermijden het citeren van vage of ontwijkende taal",
               "Inhoud die overeenkomt met wat het model heeft geleerd gezaghebbend te zijn in jouw niche",
             ],
           },
@@ -887,7 +887,7 @@ export const guidesRankingChatgptT: Record<
           },
           {
             type: "p",
-            text: "Structuur telt net zo zwaar als inhoud. Gebruik H2- en H3-koppen die overeenkomen met echte vraagformaten ('Welk [product] werkt met [gebruikssituatie]?'). Schrijf in korte alinea's. Gebruik tabellen voor vergelijkingen. Dit zijn niet alleen goede UX-praktijken — ze maken jouw inhoud makkelijker te parsen en te citeren voor een taalmodel.",
+            text: "Structuur telt net zo zwaar als inhoud. Gebruik H2- en H3-koppen die overeenkomen met echte vraagformaten ('Welk [product] werkt met [gebruikssituatie]?'). Schrijf in korte alinea's. Gebruik tabellen voor vergelijkingen. Dit zijn niet alleen goede UX-praktijken - ze maken jouw inhoud makkelijker te parsen en te citeren voor een taalmodel.",
           },
         ],
       },
@@ -902,17 +902,17 @@ export const guidesRankingChatgptT: Record<
           {
             type: "checklist",
             items: [
-              "Schrijf één pagina of sectie per specifieke klantenvraag — probeer niet vijf vragen in één vaag artikel te beantwoorden",
+              "Schrijf één pagina of sectie per specifieke klantenvraag - probeer niet vijf vragen in één vaag artikel te beantwoorden",
               "Begin elk antwoord met 1-3 zinnen van direct antwoord vóór enige uitleg",
               "Voeg minimaal één echt datapunt toe (studie, specificatie, testresultaat) per hoofdbewering",
-              "Noem concurrenten eerlijk in vergelijkende content — AI-modellen vertrouwen op gebalanceerde beoordelingen",
-              "Voeg een duidelijke 'Laatst bijgewerkt'-datum toe — AI-tools wegen actualiteit mee",
+              "Noem concurrenten eerlijk in vergelijkende content - AI-modellen vertrouwen op gebalanceerde beoordelingen",
+              "Voeg een duidelijke 'Laatst bijgewerkt'-datum toe - AI-tools wegen actualiteit mee",
               "Vermijd passieve zinnen en ontwijkende formuleringen zoals 'er zou kunnen worden gesteld' of 'sommige experts geloven'",
             ],
           },
           {
             type: "tip",
-            text: "Voer je eigen productqueries nu in Perplexity uit. Als concurrenten verschijnen en jij niet, open dan hun geciteerde pagina's en analyseer wat ze structureel anders doen. Het is meestal eenvoudiger dan verwacht — directe koppen, schone opmaak, specifieke uitspraken.",
+            text: "Voer je eigen productqueries nu in Perplexity uit. Als concurrenten verschijnen en jij niet, open dan hun geciteerde pagina's en analyseer wat ze structureel anders doen. Het is meestal eenvoudiger dan verwacht - directe koppen, schone opmaak, specifieke uitspraken.",
           },
         ],
       },
@@ -927,12 +927,12 @@ export const guidesRankingChatgptT: Record<
           {
             type: "list",
             items: [
-              "Voeg auteursvermeldingen toe aan blogposts en koopgidsen — inclusief een korte kwalificatie ('10 jaar in outdoor retail')",
+              "Voeg auteursvermeldingen toe aan blogposts en koopgidsen - inclusief een korte kwalificatie ('10 jaar in outdoor retail')",
               "Maak een gedetailleerde 'Over ons'-pagina die de echte expertise van je team in de productcategorie uitlegt",
               "Zorg voor consistente merkvermeldingen op externe platforms: Trustpilot, G2, branchebladen",
-              "Verdien redactionele backlinks van erkende publicaties in jouw niche — dit zijn expliciete autoriteitssignalen",
+              "Verdien redactionele backlinks van erkende publicaties in jouw niche - dit zijn expliciete autoriteitssignalen",
               "Toon echte klantbeoordelingen met foto's en geverifieerde aankoop-tags op productpagina's",
-              "Citeer je bronnen bij feitelijke uitspraken — link naar studies, fabrieksspecificaties, testrapporten",
+              "Citeer je bronnen bij feitelijke uitspraken - link naar studies, fabrieksspecificaties, testrapporten",
             ],
           },
           {
@@ -948,20 +948,20 @@ export const guidesRankingChatgptT: Record<
         blocks: [
           {
             type: "p",
-            text: "llms.txt is een opkomende standaard — conceptueel vergelijkbaar met robots.txt — waarmee je AI-crawlers kunt vertellen welke pagina's op jouw site het belangrijkst zijn en welke ze mogen gebruiken. Voeg een gewoon tekstbestand toe op jouwdomein.nl/llms.txt met een lijst van je belangrijkste productpagina's, koopgidsen en gezaghebbende content. Nog niet universeel geadopteerd, maar de kosten om het toe te voegen zijn vrijwel nul en vroege gebruikers hebben een voorsprong.",
+            text: "llms.txt is een opkomende standaard - conceptueel vergelijkbaar met robots.txt - waarmee je AI-crawlers kunt vertellen welke pagina's op jouw site het belangrijkst zijn en welke ze mogen gebruiken. Voeg een gewoon tekstbestand toe op jouwdomein.nl/llms.txt met een lijst van je belangrijkste productpagina's, koopgidsen en gezaghebbende content. Nog niet universeel geadopteerd, maar de kosten om het toe te voegen zijn vrijwel nul en vroege gebruikers hebben een voorsprong.",
           },
           {
             type: "p",
-            text: "Het bijhouden van AI-citaties kost vandaag de dag nog handmatige moeite, maar is de moeite waard om maandelijks te doen. Zoek '[jouw merk] aanbevolen voor [categorie]' in zowel ChatGPT als Perplexity. Noteer welke pagina's worden geciteerd en welke concurrenten in plaats daarvan verschijnen. Tools zoals Profound en Brandwatch bouwen geautomatiseerde AI-vermeldingtracking — de moeite waard om te evalueren als je merk investeert in SEO-tooling. Google Alerts werkt nog steeds goed voor het oppikken van tekstvermeldingen op het web.",
+            text: "Het bijhouden van AI-citaties kost vandaag de dag nog handmatige moeite, maar is de moeite waard om maandelijks te doen. Zoek '[jouw merk] aanbevolen voor [categorie]' in zowel ChatGPT als Perplexity. Noteer welke pagina's worden geciteerd en welke concurrenten in plaats daarvan verschijnen. Tools zoals Profound en Brandwatch bouwen geautomatiseerde AI-vermeldingtracking - de moeite waard om te evalueren als je merk investeert in SEO-tooling. Google Alerts werkt nog steeds goed voor het oppikken van tekstvermeldingen op het web.",
           },
           {
             type: "tip",
-            text: "Houd een eenvoudige spreadsheet bij: zoekopdracht, AI-tool, geciteerde URL, geciteerde concurrenten-URL's. Maandelijks bijwerken. Je herkent snel patronen — meestal doet een klein aantal goed gestructureerde pagina's het meeste citatiewerk, en een handvol concurrenten heeft dit al voor jou uitgevogeld.",
+            text: "Houd een eenvoudige spreadsheet bij: zoekopdracht, AI-tool, geciteerde URL, geciteerde concurrenten-URL's. Maandelijks bijwerken. Je herkent snel patronen - meestal doet een klein aantal goed gestructureerde pagina's het meeste citatiewerk, en een handvol concurrenten heeft dit al voor jou uitgevogeld.",
           },
           {
             type: "callout",
             title: "Wat hetzelfde blijft",
-            text: "Snelle site. Duidelijke content. Sterk E-E-A-T. Goede backlinks. AI-zoekopdrachten belonen precies dezelfde fundamenten als traditionele SEO — het is alleen explicieter in het willen van duidelijke, directe antwoorden. Als je traditionele SEO solide is, ben je al halverwege.",
+            text: "Snelle site. Duidelijke content. Sterk E-E-A-T. Goede backlinks. AI-zoekopdrachten belonen precies dezelfde fundamenten als traditionele SEO - het is alleen explicieter in het willen van duidelijke, directe antwoorden. Als je traditionele SEO solide is, ben je al halverwege.",
           },
         ],
       },
@@ -971,7 +971,7 @@ export const guidesRankingChatgptT: Record<
         blocks: [
           {
             type: "p",
-            text: "Prioriteer meedogenloos. Je hoeft niet je hele site te vernieuwen — je moet je beste 10-15 pagina's klaar maken voor AI-citaties. Dat zijn je meest bezochte koopgidsen, je top-categoriepagina's en alle content die al op pagina 1 staat voor informatieve zoekopdrachten.",
+            text: "Prioriteer meedogenloos. Je hoeft niet je hele site te vernieuwen - je moet je beste 10-15 pagina's klaar maken voor AI-citaties. Dat zijn je meest bezochte koopgidsen, je top-categoriepagina's en alle content die al op pagina 1 staat voor informatieve zoekopdrachten.",
           },
           {
             type: "checklist",
@@ -980,7 +980,7 @@ export const guidesRankingChatgptT: Record<
               "Voeg auteursvermeldingen toe aan alle blogposts of werk ze bij met echte kwalificaties",
               "Maak of verbeter je 'Over ons'-pagina om teamexpertise te benadrukken",
               "Voeg llms.txt toe aan de root van je domein met een lijst van je 20-30 belangrijkste pagina's",
-              "Voer 10 klantqueries uit in ChatGPT en Perplexity — noteer wie er geciteerd wordt",
+              "Voer 10 klantqueries uit in ChatGPT en Perplexity - noteer wie er geciteerd wordt",
               "Herschrijf wekelijks één koopgids met directe-antwoordstructuur",
               "Stel Google Alerts in voor je merknaam en je belangrijkste productcategorietermen",
               "Bekijk en update 'Laatst gewijzigd'-datums op alle evergreen-content",
@@ -988,7 +988,7 @@ export const guidesRankingChatgptT: Record<
           },
           {
             type: "p",
-            text: "AI-zoekopdrachten vervangen traditionele SEO niet — ze voegen er een laag bovenop toe. De e-commercemerken die zullen winnen, combineren sterke technische fundamenten met genuïne, duidelijk geschreven content. De kans is nu reëel: de meeste concurrenten hebben zich nog niet aangepast.",
+            text: "AI-zoekopdrachten vervangen traditionele SEO niet - ze voegen er een laag bovenop toe. De e-commercemerken die zullen winnen, combineren sterke technische fundamenten met genuïne, duidelijk geschreven content. De kans is nu reëel: de meeste concurrenten hebben zich nog niet aangepast.",
           },
         ],
       },

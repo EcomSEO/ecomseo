@@ -39,7 +39,7 @@ export async function buildPageMetadata(
   const entry = dict[key];
 
   if (!entry) {
-    // fallback — shouldn't happen if dictionaries are complete
+    // fallback - shouldn't happen if dictionaries are complete
     return {
       alternates: generateAlternates(path),
       ...overrides,

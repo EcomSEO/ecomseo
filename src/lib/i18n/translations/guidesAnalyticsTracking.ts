@@ -69,7 +69,7 @@ export const guideAnalyticsTrackingT: Record<
           {
             type: "callout",
             title: "Why the GSC + GA4 link matters",
-            text: "Once linked, you can see organic search queries inside GA4 under Reports > Acquisition > Search Console. More importantly, you can build custom reports that cross-reference queries with revenue — so you know which keywords are actually making you money, not just driving traffic.",
+            text: "Once linked, you can see organic search queries inside GA4 under Reports > Acquisition > Search Console. More importantly, you can build custom reports that cross-reference queries with revenue - so you know which keywords are actually making you money, not just driving traffic.",
           },
         ],
       },

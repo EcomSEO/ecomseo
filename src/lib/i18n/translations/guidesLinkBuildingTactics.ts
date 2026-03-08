@@ -48,7 +48,7 @@ export const guidesLinkBuildingTacticsT: Record<
           },
           {
             type: "p",
-            text: "Send product samples whenever possible. A journalist who has physically tested your product is ten times more likely to include it than one who only read your spec sheet. Budget product samples as a marketing expense — it is one of the highest-ROI line items in link building.",
+            text: "Send product samples whenever possible. A journalist who has physically tested your product is ten times more likely to include it than one who only read your spec sheet. Budget product samples as a marketing expense - it is one of the highest-ROI line items in link building.",
           },
         ],
       },
@@ -73,7 +73,7 @@ export const guidesLinkBuildingTacticsT: Record<
             type: "list",
             items: [
               "Find target publications using Ahrefs Content Explorer filtered by DR and traffic",
-              "Read 3-4 recent articles on the site before pitching — match their tone and depth",
+              "Read 3-4 recent articles on the site before pitching - match their tone and depth",
               "Pitch a specific article title and a 2-sentence summary, not a full draft",
               "Include a link to one writing sample that proves you can actually write",
               "Negotiate a contextual link in the body, not just an author bio link",
@@ -106,7 +106,7 @@ export const guidesLinkBuildingTacticsT: Record<
         blocks: [
           {
             type: "p",
-            text: "Resource pages are curated lists of links that someone in your niche maintains for their audience — 'Best Resources for Home Bakers', 'Recommended Gear for Cyclists', and so on. They exist in almost every niche and they actively want to link to quality sites. Find them using Google searches: intitle:\"resources\" \"your niche\", or intitle:\"useful links\" \"your niche\". Filter by checking DR in Ahrefs and only pitch sites with DR 30 or above.",
+            text: "Resource pages are curated lists of links that someone in your niche maintains for their audience - 'Best Resources for Home Bakers', 'Recommended Gear for Cyclists', and so on. They exist in almost every niche and they actively want to link to quality sites. Find them using Google searches: intitle:\"resources\" \"your niche\", or intitle:\"useful links\" \"your niche\". Filter by checking DR in Ahrefs and only pitch sites with DR 30 or above.",
           },
           {
             type: "p",
@@ -116,7 +116,7 @@ export const guidesLinkBuildingTacticsT: Record<
             type: "checklist",
             items: [
               "Run intitle:\"resources\" searches for your niche in Google",
-              "Check each result's DR in Ahrefs — skip anything under DR 30",
+              "Check each result's DR in Ahrefs - skip anything under DR 30",
               "Confirm they accept external links and that your site fits their list",
               "Pull competitor domains into Ahrefs and run the Broken Outlinks report",
               "For each broken link, check if you have matching or superior content",
@@ -148,7 +148,7 @@ export const guidesLinkBuildingTacticsT: Record<
             items: [
               "Set a monthly goal: 5-10 new referring domains minimum",
               "Run one Digital PR campaign per quarter around a new product or original data",
-              "Maintain a live prospect list in a spreadsheet — always have 20+ targets ready",
+              "Maintain a live prospect list in a spreadsheet - always have 20+ targets ready",
               "Check Ahrefs monthly: DR trend, referring domains count, new vs lost links",
               "Kill tactics that aren't converting after 3 months and double down on what works",
             ],
@@ -178,7 +178,7 @@ export const guidesLinkBuildingTacticsT: Record<
           },
           {
             type: "p",
-            text: "Rankingfaktor-Studien von Ahrefs, Semrush und Backlinko zeigen durchgängig, dass Domain Rating (DR) und die Anzahl einzigartiger verweisender Domains stärker mit Rankings korrelieren als fast jede andere Onpage-Variable. Das bedeutet nicht, dass Onpage unwichtig ist — aber für wettbewerbsintensive E-Commerce-Begriffe wirst du eine DR-20-Seite nicht allein durch bessere Produktbeschreibungen gegen eine DR-70-Seite ranken lassen.",
+            text: "Rankingfaktor-Studien von Ahrefs, Semrush und Backlinko zeigen durchgängig, dass Domain Rating (DR) und die Anzahl einzigartiger verweisender Domains stärker mit Rankings korrelieren als fast jede andere Onpage-Variable. Das bedeutet nicht, dass Onpage unwichtig ist - aber für wettbewerbsintensive E-Commerce-Begriffe wirst du eine DR-20-Seite nicht allein durch bessere Produktbeschreibungen gegen eine DR-70-Seite ranken lassen.",
           },
           {
             type: "callout",
@@ -230,7 +230,7 @@ export const guidesLinkBuildingTacticsT: Record<
             type: "list",
             items: [
               "Zielpublikationen mit Ahrefs Content Explorer nach DR und Traffic filtern",
-              "3-4 aktuelle Artikel auf der Seite lesen, bevor du pitchst — Ton und Tiefe anpassen",
+              "3-4 aktuelle Artikel auf der Seite lesen, bevor du pitchst - Ton und Tiefe anpassen",
               "Einen spezifischen Artikeltitel und eine 2-Satz-Zusammenfassung pitchen, keinen fertigen Entwurf",
               "Einen Link zu einem Schreibbeispiel einfügen, das beweist, dass du schreiben kannst",
               "Einen kontextuellen Link im Fließtext aushandeln, nicht nur einen Autorenbiografie-Link",
@@ -263,7 +263,7 @@ export const guidesLinkBuildingTacticsT: Record<
         blocks: [
           {
             type: "p",
-            text: "Ressourcenseiten sind kuratierte Linklisten, die jemand in deiner Nische für sein Publikum pflegt — 'Beste Ressourcen für Hobbybäcker', 'Empfohlene Ausrüstung für Radfahrer' und so weiter. Sie existieren in fast jeder Nische und sind aktiv daran interessiert, auf qualitativ hochwertige Seiten zu verlinken. Finde sie mit Google-Suchen: intitle:\"Ressourcen\" \"deine Nische\" oder intitle:\"nützliche Links\" \"deine Nische\". Filtere, indem du DR in Ahrefs überprüfst, und pitche nur Seiten mit DR 30 oder höher.",
+            text: "Ressourcenseiten sind kuratierte Linklisten, die jemand in deiner Nische für sein Publikum pflegt - 'Beste Ressourcen für Hobbybäcker', 'Empfohlene Ausrüstung für Radfahrer' und so weiter. Sie existieren in fast jeder Nische und sind aktiv daran interessiert, auf qualitativ hochwertige Seiten zu verlinken. Finde sie mit Google-Suchen: intitle:\"Ressourcen\" \"deine Nische\" oder intitle:\"nützliche Links\" \"deine Nische\". Filtere, indem du DR in Ahrefs überprüfst, und pitche nur Seiten mit DR 30 oder höher.",
           },
           {
             type: "p",
@@ -273,7 +273,7 @@ export const guidesLinkBuildingTacticsT: Record<
             type: "checklist",
             items: [
               "intitle:\"Ressourcen\"-Suchen für deine Nische in Google durchführen",
-              "Den DR jedes Ergebnisses in Ahrefs prüfen — alles unter DR 30 überspringen",
+              "Den DR jedes Ergebnisses in Ahrefs prüfen - alles unter DR 30 überspringen",
               "Bestätigen, dass sie externe Links akzeptieren und deine Seite zu ihrer Liste passt",
               "Wettbewerbsdomains in Ahrefs eingeben und den Broken Outlinks-Bericht ausführen",
               "Für jeden kaputten Link prüfen, ob du passende oder überlegene Inhalte hast",
@@ -305,9 +305,9 @@ export const guidesLinkBuildingTacticsT: Record<
             items: [
               "Monatliches Ziel setzen: mindestens 5-10 neue verweisende Domains",
               "Einmal pro Quartal eine Digital-PR-Kampagne rund um ein neues Produkt oder Originaldaten durchführen",
-              "Eine aktuelle Interessentenliste in einer Tabelle pflegen — immer 20+ Ziele bereithalten",
+              "Eine aktuelle Interessentenliste in einer Tabelle pflegen - immer 20+ Ziele bereithalten",
               "Ahrefs monatlich prüfen: DR-Trend, Anzahl verweisender Domains, neue vs. verlorene Links",
-              "Taktiken, die nach 3 Monaten nicht konvertieren, einstellen — verdoppeln, was funktioniert",
+              "Taktiken, die nach 3 Monaten nicht konvertieren, einstellen - verdoppeln, was funktioniert",
             ],
           },
           {
@@ -362,7 +362,7 @@ export const guidesLinkBuildingTacticsT: Record<
           },
           {
             type: "p",
-            text: "Envoyez des échantillons produits chaque fois que c'est possible. Un journaliste qui a testé physiquement votre produit est dix fois plus susceptible de l'inclure dans sa sélection. Intégrez les échantillons produits comme dépense marketing — c'est l'un des postes à meilleur ROI dans la création de liens.",
+            text: "Envoyez des échantillons produits chaque fois que c'est possible. Un journaliste qui a testé physiquement votre produit est dix fois plus susceptible de l'inclure dans sa sélection. Intégrez les échantillons produits comme dépense marketing - c'est l'un des postes à meilleur ROI dans la création de liens.",
           },
         ],
       },
@@ -387,7 +387,7 @@ export const guidesLinkBuildingTacticsT: Record<
             type: "list",
             items: [
               "Trouver des publications cibles via Ahrefs Content Explorer filtré par DR et trafic",
-              "Lire 3-4 articles récents sur le site avant de pitcher — adapter le ton et la profondeur",
+              "Lire 3-4 articles récents sur le site avant de pitcher - adapter le ton et la profondeur",
               "Proposer un titre d'article spécifique et un résumé en 2 phrases, pas un brouillon complet",
               "Inclure un lien vers un échantillon de rédaction prouvant votre qualité",
               "Négocier un lien contextuel dans le corps de l'article, pas seulement dans la biographie de l'auteur",
@@ -420,7 +420,7 @@ export const guidesLinkBuildingTacticsT: Record<
         blocks: [
           {
             type: "p",
-            text: "Les pages de ressources sont des listes de liens curatées qu'une personne de votre niche maintient pour son audience — 'Meilleures ressources pour les boulangers', 'Équipements recommandés pour cyclistes', etc. Elles existent dans presque toutes les niches et cherchent activement à pointer vers des sites de qualité. Trouvez-les via des recherches Google : intitle:\"ressources\" \"votre niche\", ou intitle:\"liens utiles\" \"votre niche\". Filtrez en vérifiant le DR dans Ahrefs et ne pitchez que les sites DR 30 et plus.",
+            text: "Les pages de ressources sont des listes de liens curatées qu'une personne de votre niche maintient pour son audience - 'Meilleures ressources pour les boulangers', 'Équipements recommandés pour cyclistes', etc. Elles existent dans presque toutes les niches et cherchent activement à pointer vers des sites de qualité. Trouvez-les via des recherches Google : intitle:\"ressources\" \"votre niche\", ou intitle:\"liens utiles\" \"votre niche\". Filtrez en vérifiant le DR dans Ahrefs et ne pitchez que les sites DR 30 et plus.",
           },
           {
             type: "p",
@@ -430,7 +430,7 @@ export const guidesLinkBuildingTacticsT: Record<
             type: "checklist",
             items: [
               "Effectuer des recherches intitle:\"ressources\" pour votre niche sur Google",
-              "Vérifier le DR de chaque résultat dans Ahrefs — ignorer tout ce qui est sous DR 30",
+              "Vérifier le DR de chaque résultat dans Ahrefs - ignorer tout ce qui est sous DR 30",
               "Confirmer qu'ils acceptent les liens externes et que votre site correspond à leur liste",
               "Entrer les domaines concurrents dans Ahrefs et lancer le rapport Broken Outlinks",
               "Pour chaque lien brisé, vérifier si vous disposez d'un contenu correspondant ou supérieur",
@@ -462,7 +462,7 @@ export const guidesLinkBuildingTacticsT: Record<
             items: [
               "Fixer un objectif mensuel : au minimum 5-10 nouveaux domaines référents",
               "Mener une campagne Digital PR par trimestre autour d'un nouveau produit ou de données originales",
-              "Maintenir une liste de prospects active dans un tableur — toujours avoir 20+ cibles prêtes",
+              "Maintenir une liste de prospects active dans un tableur - toujours avoir 20+ cibles prêtes",
               "Vérifier Ahrefs mensuellement : tendance DR, nombre de domaines référents, liens gagnés vs perdus",
               "Arrêter les tactiques qui ne convertissent pas après 3 mois et doubler sur ce qui fonctionne",
             ],
@@ -519,7 +519,7 @@ export const guidesLinkBuildingTacticsT: Record<
           },
           {
             type: "p",
-            text: "Envía muestras del producto siempre que sea posible. Un periodista que ha probado físicamente tu producto es diez veces más probable que lo incluya. Presupuesta las muestras de producto como gasto de marketing — es una de las partidas con mayor ROI en la construcción de enlaces.",
+            text: "Envía muestras del producto siempre que sea posible. Un periodista que ha probado físicamente tu producto es diez veces más probable que lo incluya. Presupuesta las muestras de producto como gasto de marketing - es una de las partidas con mayor ROI en la construcción de enlaces.",
           },
         ],
       },
@@ -544,7 +544,7 @@ export const guidesLinkBuildingTacticsT: Record<
             type: "list",
             items: [
               "Encontrar publicaciones objetivo con Ahrefs Content Explorer filtrado por DR y tráfico",
-              "Leer 3-4 artículos recientes del sitio antes de hacer el pitch — adaptar el tono y la profundidad",
+              "Leer 3-4 artículos recientes del sitio antes de hacer el pitch - adaptar el tono y la profundidad",
               "Proponer un título de artículo específico y un resumen de 2 frases, no un borrador completo",
               "Incluir un enlace a una muestra de escritura que demuestre que sabes escribir",
               "Negociar un enlace contextual en el cuerpo del artículo, no solo en la biografía del autor",
@@ -577,7 +577,7 @@ export const guidesLinkBuildingTacticsT: Record<
         blocks: [
           {
             type: "p",
-            text: "Las páginas de recursos son listas de enlaces curadas que alguien en tu nicho mantiene para su audiencia — 'Mejores recursos para reposteros', 'Equipamiento recomendado para ciclistas', etc. Existen en casi todos los nichos y buscan activamente enlazar a sitios de calidad. Encuéntralas con búsquedas en Google: intitle:\"recursos\" \"tu nicho\", o intitle:\"enlaces útiles\" \"tu nicho\". Filtra comprobando el DR en Ahrefs y haz pitch solo a sitios con DR 30 o superior.",
+            text: "Las páginas de recursos son listas de enlaces curadas que alguien en tu nicho mantiene para su audiencia - 'Mejores recursos para reposteros', 'Equipamiento recomendado para ciclistas', etc. Existen en casi todos los nichos y buscan activamente enlazar a sitios de calidad. Encuéntralas con búsquedas en Google: intitle:\"recursos\" \"tu nicho\", o intitle:\"enlaces útiles\" \"tu nicho\". Filtra comprobando el DR en Ahrefs y haz pitch solo a sitios con DR 30 o superior.",
           },
           {
             type: "p",
@@ -587,7 +587,7 @@ export const guidesLinkBuildingTacticsT: Record<
             type: "checklist",
             items: [
               "Realizar búsquedas intitle:\"recursos\" para tu nicho en Google",
-              "Comprobar el DR de cada resultado en Ahrefs — ignorar todo lo que esté por debajo de DR 30",
+              "Comprobar el DR de cada resultado en Ahrefs - ignorar todo lo que esté por debajo de DR 30",
               "Confirmar que aceptan enlaces externos y que tu sitio encaja en su lista",
               "Introducir dominios competidores en Ahrefs y ejecutar el informe Broken Outlinks",
               "Para cada enlace roto, verificar si tienes contenido equivalente o superior",
@@ -619,7 +619,7 @@ export const guidesLinkBuildingTacticsT: Record<
             items: [
               "Establecer un objetivo mensual: mínimo 5-10 nuevos dominios de referencia",
               "Ejecutar una campaña de Digital PR por trimestre alrededor de un nuevo producto o datos originales",
-              "Mantener una lista de prospectos activa en una hoja de cálculo — tener siempre 20+ objetivos listos",
+              "Mantener una lista de prospectos activa en una hoja de cálculo - tener siempre 20+ objetivos listos",
               "Revisar Ahrefs mensualmente: tendencia de DR, recuento de dominios referentes, enlaces ganados vs perdidos",
               "Eliminar las tácticas que no convierten tras 3 meses y doblar la apuesta en lo que funciona",
             ],
@@ -701,7 +701,7 @@ export const guidesLinkBuildingTacticsT: Record<
             type: "list",
             items: [
               "Trovare pubblicazioni obiettivo con Ahrefs Content Explorer filtrato per DR e traffico",
-              "Leggere 3-4 articoli recenti del sito prima di fare il pitch — adattare tono e profondità",
+              "Leggere 3-4 articoli recenti del sito prima di fare il pitch - adattare tono e profondità",
               "Proporre un titolo specifico e un riassunto di 2 frasi, non una bozza completa",
               "Includere un link a un esempio di scrittura che dimostri che sai scrivere",
               "Negoziare un link contestuale nel corpo dell'articolo, non solo nella biografia dell'autore",
@@ -734,7 +734,7 @@ export const guidesLinkBuildingTacticsT: Record<
         blocks: [
           {
             type: "p",
-            text: "Le pagine di risorse sono elenchi curati di link che qualcuno nella tua nicchia mantiene per il proprio pubblico — 'Migliori risorse per panettieri', 'Attrezzatura consigliata per ciclisti', ecc. Esistono in quasi tutte le nicchie e sono attivamente alla ricerca di siti di qualità a cui collegarsi. Trovale con ricerche Google: intitle:\"risorse\" \"la tua nicchia\", o intitle:\"link utili\" \"la tua nicchia\". Filtra controllando il DR in Ahrefs e fai pitch solo a siti con DR 30 o superiore.",
+            text: "Le pagine di risorse sono elenchi curati di link che qualcuno nella tua nicchia mantiene per il proprio pubblico - 'Migliori risorse per panettieri', 'Attrezzatura consigliata per ciclisti', ecc. Esistono in quasi tutte le nicchie e sono attivamente alla ricerca di siti di qualità a cui collegarsi. Trovale con ricerche Google: intitle:\"risorse\" \"la tua nicchia\", o intitle:\"link utili\" \"la tua nicchia\". Filtra controllando il DR in Ahrefs e fai pitch solo a siti con DR 30 o superiore.",
           },
           {
             type: "p",
@@ -744,7 +744,7 @@ export const guidesLinkBuildingTacticsT: Record<
             type: "checklist",
             items: [
               "Eseguire ricerche intitle:\"risorse\" per la tua nicchia su Google",
-              "Controllare il DR di ogni risultato in Ahrefs — saltare tutto ciò che è sotto DR 30",
+              "Controllare il DR di ogni risultato in Ahrefs - saltare tutto ciò che è sotto DR 30",
               "Confermare che accettano link esterni e che il tuo sito si adatta alla loro lista",
               "Inserire domini competitor in Ahrefs ed eseguire il report Broken Outlinks",
               "Per ogni link rotto, verificare se hai contenuto equivalente o superiore",
@@ -776,7 +776,7 @@ export const guidesLinkBuildingTacticsT: Record<
             items: [
               "Stabilire un obiettivo mensile: minimo 5-10 nuovi domini riferenti",
               "Eseguire una campagna Digital PR per trimestre attorno a un nuovo prodotto o dati originali",
-              "Mantenere una lista di prospect attiva in un foglio di calcolo — avere sempre 20+ obiettivi pronti",
+              "Mantenere una lista di prospect attiva in un foglio di calcolo - avere sempre 20+ obiettivi pronti",
               "Controllare Ahrefs mensilmente: tendenza DR, conteggio domini riferenti, link guadagnati vs persi",
               "Abbandonare le tattiche che non convertono dopo 3 mesi e raddoppiare su ciò che funziona",
             ],
@@ -858,7 +858,7 @@ export const guidesLinkBuildingTacticsT: Record<
             type: "list",
             items: [
               "Doelpublicaties vinden via Ahrefs Content Explorer gefilterd op DR en verkeer",
-              "3-4 recente artikelen op de site lezen voor het pitchen — toon en diepgang afstemmen",
+              "3-4 recente artikelen op de site lezen voor het pitchen - toon en diepgang afstemmen",
               "Een specifieke artikeltitel en een samenvatting van 2 zinnen pitchen, geen volledig concept",
               "Een link naar een schrijfvoorbeeld bijvoegen dat bewijst dat je kunt schrijven",
               "Onderhandelen over een contextuele link in de body, niet alleen in een auteursbio",
@@ -891,7 +891,7 @@ export const guidesLinkBuildingTacticsT: Record<
         blocks: [
           {
             type: "p",
-            text: "Resourcepagina's zijn gecureerde lijsten met links die iemand in jouw niche bijhoudt voor hun publiek — 'Beste bronnen voor bakkers', 'Aanbevolen uitrusting voor fietsers', enzovoort. Ze bestaan in bijna elke niche en willen actief linken naar kwalitatieve sites. Vind ze via Google-zoekopdrachten: intitle:\"bronnen\" \"jouw niche\", of intitle:\"nuttige links\" \"jouw niche\". Filter door DR te controleren in Ahrefs en pitch alleen sites met DR 30 of hoger.",
+            text: "Resourcepagina's zijn gecureerde lijsten met links die iemand in jouw niche bijhoudt voor hun publiek - 'Beste bronnen voor bakkers', 'Aanbevolen uitrusting voor fietsers', enzovoort. Ze bestaan in bijna elke niche en willen actief linken naar kwalitatieve sites. Vind ze via Google-zoekopdrachten: intitle:\"bronnen\" \"jouw niche\", of intitle:\"nuttige links\" \"jouw niche\". Filter door DR te controleren in Ahrefs en pitch alleen sites met DR 30 of hoger.",
           },
           {
             type: "p",
@@ -901,7 +901,7 @@ export const guidesLinkBuildingTacticsT: Record<
             type: "checklist",
             items: [
               "intitle:\"bronnen\"-zoekopdrachten voor jouw niche uitvoeren in Google",
-              "De DR van elk resultaat controleren in Ahrefs — alles onder DR 30 overslaan",
+              "De DR van elk resultaat controleren in Ahrefs - alles onder DR 30 overslaan",
               "Bevestigen dat ze externe links accepteren en dat jouw site bij hun lijst past",
               "Concurrerende domeinen in Ahrefs invoeren en het Broken Outlinks-rapport uitvoeren",
               "Voor elke gebroken link controleren of je overeenkomende of superieure content hebt",
@@ -912,7 +912,7 @@ export const guidesLinkBuildingTacticsT: Record<
           {
             type: "callout",
             title: "Wat echt niet werkt",
-            text: "Links in bulk kopen van linkfarms, commentaarspam, inschrijvingen bij generieke directories — deze praktijken leveren niets op of bezorgen je een handmatige Google-penalty. De Penguin-algoritme-update van 2012 was specifiek ontworpen om linkschema's te devalueren. Veertien jaar later doet het nog steeds zijn werk. Bouw links die een menselijke redacteur zou kiezen toe te voegen.",
+            text: "Links in bulk kopen van linkfarms, commentaarspam, inschrijvingen bij generieke directories - deze praktijken leveren niets op of bezorgen je een handmatige Google-penalty. De Penguin-algoritme-update van 2012 was specifiek ontworpen om linkschema's te devalueren. Veertien jaar later doet het nog steeds zijn werk. Bouw links die een menselijke redacteur zou kiezen toe te voegen.",
           },
         ],
       },
@@ -926,21 +926,21 @@ export const guidesLinkBuildingTacticsT: Record<
           },
           {
             type: "p",
-            text: "Stel een maandelijks doel van 5-10 nieuwe verwijzende domeinen — haalbaar voor de meeste e-commerce bedrijven zonder een fulltime linkbuilder. Wijs eigenaarschap toe: één persoon houdt outreach bij, doet follow-ups en rapporteert resultaten. Gebruik een eenvoudige spreadsheet of een tool zoals Pitchbox of Hunter. Controleer je DR maandelijks in Ahrefs en volg rankingposities voor je doelzoekwoorden.",
+            text: "Stel een maandelijks doel van 5-10 nieuwe verwijzende domeinen - haalbaar voor de meeste e-commerce bedrijven zonder een fulltime linkbuilder. Wijs eigenaarschap toe: één persoon houdt outreach bij, doet follow-ups en rapporteert resultaten. Gebruik een eenvoudige spreadsheet of een tool zoals Pitchbox of Hunter. Controleer je DR maandelijks in Ahrefs en volg rankingposities voor je doelzoekwoorden.",
           },
           {
             type: "list",
             items: [
               "Een maandelijks doel stellen: minimaal 5-10 nieuwe verwijzende domeinen",
               "Elk kwartaal een Digital PR-campagne uitvoeren rondom een nieuw product of originele data",
-              "Een actieve prospectlijst bijhouden in een spreadsheet — altijd 20+ doelen klaar hebben",
+              "Een actieve prospectlijst bijhouden in een spreadsheet - altijd 20+ doelen klaar hebben",
               "Ahrefs maandelijks controleren: DR-trend, aantal verwijzende domeinen, gewonnen vs verloren links",
-              "Tactieken die na 3 maanden niet converteren stopzetten — verdubbelen op wat werkt",
+              "Tactieken die na 3 maanden niet converteren stopzetten - verdubbelen op wat werkt",
             ],
           },
           {
             type: "tip",
-            text: "Je beste linklokaas voor e-commerce zijn originele data. Voer een enquête uit, publiceer een brancherapport of compileer publiek beschikbare data in iets nuttigs en deelbaars. Origineel onderzoek genereert systematisch passieve links van journalisten en bloggers — vaak zonder enige outreach.",
+            text: "Je beste linklokaas voor e-commerce zijn originele data. Voer een enquête uit, publiceer een brancherapport of compileer publiek beschikbare data in iets nuttigs en deelbaars. Origineel onderzoek genereert systematisch passieve links van journalisten en bloggers - vaak zonder enige outreach.",
           },
         ],
       },

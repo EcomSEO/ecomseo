@@ -162,7 +162,7 @@ export default function SitemapComparisonClient({ t }: { t: SitemapComparisonTra
               </div>
               <div className="divide-y divide-border max-h-[400px] overflow-y-auto">
                 {activeUrls.length === 0 ? (
-                  <p className="px-4 py-8 text-sm text-body text-center italic">—</p>
+                  <p className="px-4 py-8 text-sm text-body text-center italic">-</p>
                 ) : (
                   activeUrls.map((url, i) => (
                     <div key={i} className="px-4 py-2.5">

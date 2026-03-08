@@ -116,7 +116,7 @@ export default function Comparison() {
 
         {/* ─── Comparison cards ─── */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 w-full -mt-4">
-          {/* Left column — Just Paid Ads */}
+          {/* Left column - Just Paid Ads */}
           <motion.div
             className="bg-bg-ui border border-border rounded-3xl p-8 overflow-hidden"
             initial={{ opacity: 0, x: -20 }}
@@ -131,7 +131,7 @@ export default function Comparison() {
             </div>
           </motion.div>
 
-          {/* Right column — EcomSEO */}
+          {/* Right column - EcomSEO */}
           <motion.div
             className="relative border border-accent/30 rounded-3xl p-8 overflow-hidden"
             style={{

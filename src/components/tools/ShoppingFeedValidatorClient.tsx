@@ -146,7 +146,7 @@ export default function ShoppingFeedValidatorClient({ t }: { t: ShoppingFeedVali
 
                   return (
                     <div key={i} className="rounded-2xl border border-border bg-bg-card overflow-hidden">
-                      {/* Header — always visible, clickable */}
+                      {/* Header - always visible, clickable */}
                       <button
                         onClick={() => toggleProduct(i)}
                         className="w-full flex items-center gap-3 p-5 text-left hover:bg-white/[0.02] transition-colors"

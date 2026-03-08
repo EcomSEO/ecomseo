@@ -219,9 +219,9 @@ export default function SitemapExtractorClient({ t }: { t: SitemapExtractorTrans
                               {entry.loc}
                             </a>
                           </td>
-                          <td className="py-2 px-4 text-body font-mono">{entry.lastmod || "—"}</td>
-                          <td className="py-2 px-4 text-body">{entry.changefreq || "—"}</td>
-                          <td className="py-2 px-4 text-body font-mono">{entry.priority || "—"}</td>
+                          <td className="py-2 px-4 text-body font-mono">{entry.lastmod || "-"}</td>
+                          <td className="py-2 px-4 text-body">{entry.changefreq || "-"}</td>
+                          <td className="py-2 px-4 text-body font-mono">{entry.priority || "-"}</td>
                         </tr>
                       ))}
                     </tbody>

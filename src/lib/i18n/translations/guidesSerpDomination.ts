@@ -136,7 +136,7 @@ export const guidesSerpDominationT: Record<
           {
             type: "callout",
             title: "Sitelinks in Search Console",
-            text: "In Google Search Console, you can see which pages Google has chosen as sitelink candidates for your branded queries under 'Search results'. If the wrong pages are appearing as sitelinks, improve internal linking to the pages you want shown — more internal links = stronger signal for Google to show that page.",
+            text: "In Google Search Console, you can see which pages Google has chosen as sitelink candidates for your branded queries under 'Search results'. If the wrong pages are appearing as sitelinks, improve internal linking to the pages you want shown - more internal links = stronger signal for Google to show that page.",
           },
         ],
       },
@@ -214,7 +214,7 @@ export const guidesSerpDominationT: Record<
           {
             type: "checklist",
             items: [
-              "Reiche einen vollständigen Produktfeed bei Google Merchant Center ein — Titel, Beschreibung, Preis, Verfügbarkeit, Bildlink, GTIN/MPN",
+              "Reiche einen vollständigen Produktfeed bei Google Merchant Center ein - Titel, Beschreibung, Preis, Verfügbarkeit, Bildlink, GTIN/MPN",
               "Verwende beschreibende Produkttitel: '[Marke] [Produktname] [Hauptattribut] [Größe/Farbe]'",
               "Halte Verfügbarkeitsdaten aktuell. Ausverkaufte Artikel, die als verfügbar angezeigt werden, führen zu Kontosperrungen",
               "Füge Product-Schema-Markup zu jeder Produktseite hinzu (Preis, Verfügbarkeit, Bewertungen, GTIN)",
@@ -291,7 +291,7 @@ export const guidesSerpDominationT: Record<
           {
             type: "checklist",
             items: [
-              "Verlinke deine Top-6-8-Kategorieseiten direkt aus der Homepage-Navigation — das sind Sitelink-Kandidaten",
+              "Verlinke deine Top-6-8-Kategorieseiten direkt aus der Homepage-Navigation - das sind Sitelink-Kandidaten",
               "Verwende konsistenten, beschreibenden Ankertext für alle internen Links zu Kategorieseiten",
               "Füge einen FAQ-Abschnitt zu jedem Kaufratgeber und jeder wichtigen Kategorieseite hinzu",
               "Markiere FAQ-Inhalte mit FAQ-Schema (Question/Answer Structured Data)",
@@ -302,7 +302,7 @@ export const guidesSerpDominationT: Record<
           {
             type: "callout",
             title: "Sitelinks in der Search Console",
-            text: "In der Google Search Console kannst du unter 'Suchergebnisse' sehen, welche Seiten Google als Sitelink-Kandidaten für deine Markensuchen ausgewählt hat. Wenn die falschen Seiten als Sitelinks erscheinen, verbessere die interne Verlinkung zu den Seiten, die du gezeigt haben möchtest — mehr interne Links = stärkeres Signal für Google, diese Seite anzuzeigen.",
+            text: "In der Google Search Console kannst du unter 'Suchergebnisse' sehen, welche Seiten Google als Sitelink-Kandidaten für deine Markensuchen ausgewählt hat. Wenn die falschen Seiten als Sitelinks erscheinen, verbessere die interne Verlinkung zu den Seiten, die du gezeigt haben möchtest - mehr interne Links = stärkeres Signal für Google, diese Seite anzuzeigen.",
           },
         ],
       },
@@ -380,9 +380,9 @@ export const guidesSerpDominationT: Record<
           {
             type: "checklist",
             items: [
-              "Soumettez un flux produit complet à Google Merchant Center — titre, description, prix, disponibilité, lien image, GTIN/MPN",
+              "Soumettez un flux produit complet à Google Merchant Center - titre, description, prix, disponibilité, lien image, GTIN/MPN",
               "Utilisez des titres de produits descriptifs : '[Marque] [Nom du produit] [Attribut clé] [Taille/Couleur]'",
-              "Gardez les données de disponibilité exactes — les articles en rupture de stock affichés comme disponibles entraîneront le signalement de votre compte",
+              "Gardez les données de disponibilité exactes - les articles en rupture de stock affichés comme disponibles entraîneront le signalement de votre compte",
               "Ajoutez le balisage schema Product à chaque fiche produit (prix, disponibilité, avis, GTIN)",
               "Configurez des mises à jour automatiques du flux via le flux de page Merchant Center ou un outil de flux de données comme DataFeedWatch ou Channable",
               "Vérifiez les diagnostics Merchant Center au moins mensuellement pour détecter les produits supprimés",
@@ -468,7 +468,7 @@ export const guidesSerpDominationT: Record<
           {
             type: "callout",
             title: "Les sitelinks dans Search Console",
-            text: "Dans Google Search Console, vous pouvez voir quelles pages Google a choisies comme candidates aux sitelinks pour vos recherches de marque sous 'Résultats de recherche'. Si les mauvaises pages apparaissent comme sitelinks, améliorez les liens internes vers les pages que vous souhaitez afficher — plus de liens internes = signal plus fort pour que Google affiche cette page.",
+            text: "Dans Google Search Console, vous pouvez voir quelles pages Google a choisies comme candidates aux sitelinks pour vos recherches de marque sous 'Résultats de recherche'. Si les mauvaises pages apparaissent comme sitelinks, améliorez les liens internes vers les pages que vous souhaitez afficher - plus de liens internes = signal plus fort pour que Google affiche cette page.",
           },
         ],
       },
@@ -546,9 +546,9 @@ export const guidesSerpDominationT: Record<
           {
             type: "checklist",
             items: [
-              "Envía un feed de productos completo a Google Merchant Center — título, descripción, precio, disponibilidad, enlace de imagen, GTIN/MPN",
+              "Envía un feed de productos completo a Google Merchant Center - título, descripción, precio, disponibilidad, enlace de imagen, GTIN/MPN",
               "Usa títulos de productos descriptivos: '[Marca] [Nombre del producto] [Atributo clave] [Talla/Color]'",
-              "Mantén los datos de disponibilidad precisos — los artículos sin stock que aparezcan como disponibles harán que tu cuenta sea marcada",
+              "Mantén los datos de disponibilidad precisos - los artículos sin stock que aparezcan como disponibles harán que tu cuenta sea marcada",
               "Añade el marcado de schema de Product a cada página de producto (precio, disponibilidad, reseñas, GTIN)",
               "Configura actualizaciones automáticas del feed a través del feed de páginas de Merchant Center o una herramienta de feed de datos como DataFeedWatch o Channable",
               "Revisa los diagnósticos de Merchant Center al menos mensualmente para detectar productos suprimidos",
@@ -634,7 +634,7 @@ export const guidesSerpDominationT: Record<
           {
             type: "callout",
             title: "Sitelinks en Search Console",
-            text: "En Google Search Console, puedes ver qué páginas ha elegido Google como candidatas a sitelinks para tus búsquedas de marca en 'Resultados de búsqueda'. Si las páginas equivocadas aparecen como sitelinks, mejora los enlaces internos a las páginas que quieres mostrar — más enlaces internos = señal más fuerte para que Google muestre esa página.",
+            text: "En Google Search Console, puedes ver qué páginas ha elegido Google como candidatas a sitelinks para tus búsquedas de marca en 'Resultados de búsqueda'. Si las páginas equivocadas aparecen como sitelinks, mejora los enlaces internos a las páginas que quieres mostrar - más enlaces internos = señal más fuerte para que Google muestre esa página.",
           },
         ],
       },
@@ -712,9 +712,9 @@ export const guidesSerpDominationT: Record<
           {
             type: "checklist",
             items: [
-              "Invia un feed prodotti completo a Google Merchant Center — titolo, descrizione, prezzo, disponibilità, link immagine, GTIN/MPN",
+              "Invia un feed prodotti completo a Google Merchant Center - titolo, descrizione, prezzo, disponibilità, link immagine, GTIN/MPN",
               "Usa titoli di prodotto descrittivi: '[Marca] [Nome prodotto] [Attributo chiave] [Taglia/Colore]'",
-              "Mantieni accurati i dati di disponibilità — gli articoli esauriti mostrati come disponibili faranno segnalare il tuo account",
+              "Mantieni accurati i dati di disponibilità - gli articoli esauriti mostrati come disponibili faranno segnalare il tuo account",
               "Aggiungi il markup schema Product a ogni pagina prodotto (prezzo, disponibilità, recensioni, GTIN)",
               "Configura aggiornamenti automatici del feed tramite il feed di pagine Merchant Center o uno strumento di feed dati come DataFeedWatch o Channable",
               "Rivedi la diagnostica Merchant Center almeno mensilmente per individuare i prodotti soppressi",
@@ -780,7 +780,7 @@ export const guidesSerpDominationT: Record<
         blocks: [
           {
             type: "p",
-            text: "I sitelink sono i link aggiuntivi che appaiono sotto il tuo risultato principale per le ricerche di brand — mostrano le tue principali pagine di categoria o sezione direttamente nella SERP. Google li genera automaticamente quando l'architettura del tuo sito è chiara e ben collegata internamente. Non puoi forzarli, ma puoi renderli più probabili: collega le tue categorie principali chiaramente dalla homepage, usa etichette di navigazione coerenti e assicurati che le tue pagine più importanti ricevano il maggior numero di link interni.",
+            text: "I sitelink sono i link aggiuntivi che appaiono sotto il tuo risultato principale per le ricerche di brand - mostrano le tue principali pagine di categoria o sezione direttamente nella SERP. Google li genera automaticamente quando l'architettura del tuo sito è chiara e ben collegata internamente. Non puoi forzarli, ma puoi renderli più probabili: collega le tue categorie principali chiaramente dalla homepage, usa etichette di navigazione coerenti e assicurati che le tue pagine più importanti ricevano il maggior numero di link interni.",
           },
           {
             type: "p",
@@ -789,18 +789,18 @@ export const guidesSerpDominationT: Record<
           {
             type: "checklist",
             items: [
-              "Collega le tue migliori 6-8 pagine di categoria direttamente dalla navigazione della homepage — sono candidate ai sitelink",
+              "Collega le tue migliori 6-8 pagine di categoria direttamente dalla navigazione della homepage - sono candidate ai sitelink",
               "Usa testo di ancoraggio coerente e descrittivo per tutti i link interni alle pagine di categoria",
               "Aggiungi una sezione FAQ a ogni guida all'acquisto e a ogni pagina di categoria principale",
               "Marca il contenuto FAQ con lo schema FAQ (dati strutturati Domanda/Risposta)",
               "Usa AnswerThePublic o AlsoAsked.com per trovare le vere domande PAA nella tua categoria",
-              "Mantieni le risposte FAQ a 40-80 parole — abbastanza concise per l'estrazione PAA, abbastanza complete per essere utili",
+              "Mantieni le risposte FAQ a 40-80 parole - abbastanza concise per l'estrazione PAA, abbastanza complete per essere utili",
             ],
           },
           {
             type: "callout",
             title: "Sitelink in Search Console",
-            text: "In Google Search Console, puoi vedere quali pagine Google ha scelto come candidate ai sitelink per le tue ricerche di brand sotto 'Risultati di ricerca'. Se le pagine sbagliate appaiono come sitelink, migliora i link interni verso le pagine che vuoi mostrare — più link interni = segnale più forte per Google di mostrare quella pagina.",
+            text: "In Google Search Console, puoi vedere quali pagine Google ha scelto come candidate ai sitelink per le tue ricerche di brand sotto 'Risultati di ricerca'. Se le pagine sbagliate appaiono come sitelink, migliora i link interni verso le pagine che vuoi mostrare - più link interni = segnale più forte per Google di mostrare quella pagina.",
           },
         ],
       },
@@ -810,7 +810,7 @@ export const guidesSerpDominationT: Record<
         blocks: [
           {
             type: "p",
-            text: "La maggior parte dei team traccia le posizioni delle parole chiave. Quasi nessuno traccia la presenza SERP completa — in quali tipi di risultati appare, con quale frequenza e rispetto ai concorrenti. Quel punto cieco significa che probabilmente stai perdendo opportunità che hai proprio davanti a te.",
+            text: "La maggior parte dei team traccia le posizioni delle parole chiave. Quasi nessuno traccia la presenza SERP completa - in quali tipi di risultati appare, con quale frequenza e rispetto ai concorrenti. Quel punto cieco significa che probabilmente stai perdendo opportunità che hai proprio davanti a te.",
           },
           {
             type: "p",
@@ -850,7 +850,7 @@ export const guidesSerpDominationT: Record<
         blocks: [
           {
             type: "p",
-            text: "SERP-dominantie gaat niet over de #1-positie. Het gaat over het innemen van zoveel mogelijk zichtbare ruimte op een zoekresultatenpagina. Een goed geoptimaliseerde e-commercesite kan verschijnen in organische resultaten, Google Shopping-vermeldingen, afbeeldingsresultaten, featured snippets, sitelinks en het kennispaneel — soms alles voor één enkele zoekopdracht. Dat zijn vijf of zes contactpunten waar jouw merk verschijnt voordat een concurrent ook maar een kans krijgt.",
+            text: "SERP-dominantie gaat niet over de #1-positie. Het gaat over het innemen van zoveel mogelijk zichtbare ruimte op een zoekresultatenpagina. Een goed geoptimaliseerde e-commercesite kan verschijnen in organische resultaten, Google Shopping-vermeldingen, afbeeldingsresultaten, featured snippets, sitelinks en het kennispaneel - soms alles voor één enkele zoekopdracht. Dat zijn vijf of zes contactpunten waar jouw merk verschijnt voordat een concurrent ook maar een kans krijgt.",
           },
           {
             type: "p",
@@ -873,14 +873,14 @@ export const guidesSerpDominationT: Record<
           },
           {
             type: "p",
-            text: "Voor organische Shopping-resultaten is de kwaliteit van je productfeed allesbepalend. Google trekt Product-schema van je pagina's als secundair signaal, maar de Merchant Center-feed heeft prioriteit. Zorg ervoor dat elk product heeft: een duidelijke, beschrijvende titel (inclusief merk, productnaam, kernattribuut en maat/kleur indien relevant), nauwkeurige prijs en beschikbaarheid, GTIN of MPN indien beschikbaar, en afbeeldingen met hoge resolutie. Feeds met fouten worden onderdrukt — voer maandelijks Merchant Center-diagnostics uit.",
+            text: "Voor organische Shopping-resultaten is de kwaliteit van je productfeed allesbepalend. Google trekt Product-schema van je pagina's als secundair signaal, maar de Merchant Center-feed heeft prioriteit. Zorg ervoor dat elk product heeft: een duidelijke, beschrijvende titel (inclusief merk, productnaam, kernattribuut en maat/kleur indien relevant), nauwkeurige prijs en beschikbaarheid, GTIN of MPN indien beschikbaar, en afbeeldingen met hoge resolutie. Feeds met fouten worden onderdrukt - voer maandelijks Merchant Center-diagnostics uit.",
           },
           {
             type: "checklist",
             items: [
-              "Dien een volledig productfeed in bij Google Merchant Center — titel, beschrijving, prijs, beschikbaarheid, afbeeldingslink, GTIN/MPN",
+              "Dien een volledig productfeed in bij Google Merchant Center - titel, beschrijving, prijs, beschikbaarheid, afbeeldingslink, GTIN/MPN",
               "Gebruik beschrijvende producttitels: '[Merk] [Productnaam] [Kernattribuut] [Maat/Kleur]'",
-              "Houd beschikbaarheidsgegevens nauwkeurig — uitverkochte artikelen die als beschikbaar worden weergegeven, laten je account markeren",
+              "Houd beschikbaarheidsgegevens nauwkeurig - uitverkochte artikelen die als beschikbaar worden weergegeven, laten je account markeren",
               "Voeg Product-schema-opmaak toe aan elke productpagina (prijs, beschikbaarheid, beoordelingen, GTIN)",
               "Stel automatische feedupdates in via de paginafeed van Merchant Center of een datafeed-tool zoals DataFeedWatch of Channable",
               "Bekijk Merchant Center-diagnostics minstens maandelijks om onderdrukte producten te vinden",
@@ -888,7 +888,7 @@ export const guidesSerpDominationT: Record<
           },
           {
             type: "tip",
-            text: "Je productpagina-titeltag beïnvloedt direct je Shopping-advertentietitel wanneer Google feeds automatisch vult vanuit je site. Formatteer productpagina-titeltags als: [Productnaam] — [Merk] | [Winkelnaam]. Begraaf de productnaam niet aan het einde.",
+            text: "Je productpagina-titeltag beïnvloedt direct je Shopping-advertentietitel wanneer Google feeds automatisch vult vanuit je site. Formatteer productpagina-titeltags als: [Productnaam] - [Merk] | [Winkelnaam]. Begraaf de productnaam niet aan het einde.",
           },
         ],
       },
@@ -898,7 +898,7 @@ export const guidesSerpDominationT: Record<
         blocks: [
           {
             type: "p",
-            text: "Featured snippets verschijnen boven alle organische resultaten voor informatieve zoekopdrachten — en veel product-gerelateerde informatieve zoekopdrachten activeren ze. Zoekopdrachten als 'beste zit-sta bureau onder 500 euro', 'hoe kies ik de juiste matrassteefheid' of 'wat is een HEPA-filter' produceren vaak featured snippets. Als de content van je koopgids er een kan winnen, verschijn je boven elke concurrent op de posities 1 tot 10.",
+            text: "Featured snippets verschijnen boven alle organische resultaten voor informatieve zoekopdrachten - en veel product-gerelateerde informatieve zoekopdrachten activeren ze. Zoekopdrachten als 'beste zit-sta bureau onder 500 euro', 'hoe kies ik de juiste matrassteefheid' of 'wat is een HEPA-filter' produceren vaak featured snippets. Als de content van je koopgids er een kan winnen, verschijn je boven elke concurrent op de posities 1 tot 10.",
           },
           {
             type: "p",
@@ -906,7 +906,7 @@ export const guidesSerpDominationT: Record<
           },
           {
             type: "tip",
-            text: "Gebruik Google Search Console om zoekopdrachten te vinden waar je op posities 5-15 staat en de SERP een featured snippet toont. Dit zijn je beste kansen — je bent dicht genoeg bij het ranken en de snippet is al beschikbaar. Herformatteer die pagina's zodat ze overeenkomen met de snippetstructuur.",
+            text: "Gebruik Google Search Console om zoekopdrachten te vinden waar je op posities 5-15 staat en de SERP een featured snippet toont. Dit zijn je beste kansen - je bent dicht genoeg bij het ranken en de snippet is al beschikbaar. Herformatteer die pagina's zodat ze overeenkomen met de snippetstructuur.",
           },
           {
             type: "callout",
@@ -921,15 +921,15 @@ export const guidesSerpDominationT: Record<
         blocks: [
           {
             type: "p",
-            text: "Voor visuele productcategorieën — mode, meubels, woondecoratie, kunst, planten, voedsel — is beeldzoeken een echt verkeerskanaal, geen bijzaak. Google Afbeeldingen krijgt miljarden zoekopdrachten per maand. De integratie van Google Lens betekent dat een gebruiker een product in de echte wereld kan fotograferen en kan vinden waar hij het kan kopen. Als je productafbeeldingen niet zijn geoptimaliseerd, besta je niet in die workflow.",
+            text: "Voor visuele productcategorieën - mode, meubels, woondecoratie, kunst, planten, voedsel - is beeldzoeken een echt verkeerskanaal, geen bijzaak. Google Afbeeldingen krijgt miljarden zoekopdrachten per maand. De integratie van Google Lens betekent dat een gebruiker een product in de echte wereld kan fotograferen en kan vinden waar hij het kan kopen. Als je productafbeeldingen niet zijn geoptimaliseerd, besta je niet in die workflow.",
           },
           {
             type: "list",
             items: [
               "Bestandsnamen: gebruik beschrijvende slugs, niet 'IMG_4392.jpg'. Gebruik 'eiken-eettafel-180cm-naturel.webp'",
-              "Alt-tekst: voeg de productnaam en één kernattribuut toe — 'Massief eiken eettafel 180cm, naturele afwerking'. Geen keyword-stuffing",
+              "Alt-tekst: voeg de productnaam en één kernattribuut toe - 'Massief eiken eettafel 180cm, naturele afwerking'. Geen keyword-stuffing",
               "Formaat: converteer alle productafbeeldingen naar WebP. Het is sneller en Google geeft er de voorkeur aan",
-              "Afmetingen: gebruik consistente vierkante of portretformaten voor productfotografie — deze presteren beter in afbeeldingsrasters",
+              "Afmetingen: gebruik consistente vierkante of portretformaten voor productfotografie - deze presteren beter in afbeeldingsrasters",
               "Gestructureerde data: ImageObject-schema op productpagina's helpt Google de context van je afbeeldingen te begrijpen",
               "Unieke afbeeldingen: als je fabrikantenfoto's gebruikt, kan Google ze lager prioriteren. Eigen fotografie wint in afbeeldingsresultaten",
             ],
@@ -946,7 +946,7 @@ export const guidesSerpDominationT: Record<
         blocks: [
           {
             type: "p",
-            text: "Sitelinks zijn de aanvullende links die onder je hoofdresultaat verschijnen voor merksearches — ze tonen je belangrijkste categorie- of sectiepagina's direct in de SERP. Google genereert ze automatisch wanneer je sitestructuur duidelijk en intern goed gelinkt is. Je kunt ze niet forceren, maar je kunt ze waarschijnlijker maken: link je hoofdcategorieën duidelijk vanaf de homepage, gebruik consistente navigatielabels en zorg ervoor dat je belangrijkste pagina's de meeste interne links ontvangen.",
+            text: "Sitelinks zijn de aanvullende links die onder je hoofdresultaat verschijnen voor merksearches - ze tonen je belangrijkste categorie- of sectiepagina's direct in de SERP. Google genereert ze automatisch wanneer je sitestructuur duidelijk en intern goed gelinkt is. Je kunt ze niet forceren, maar je kunt ze waarschijnlijker maken: link je hoofdcategorieën duidelijk vanaf de homepage, gebruik consistente navigatielabels en zorg ervoor dat je belangrijkste pagina's de meeste interne links ontvangen.",
           },
           {
             type: "p",
@@ -955,18 +955,18 @@ export const guidesSerpDominationT: Record<
           {
             type: "checklist",
             items: [
-              "Link je top 6-8 categoriepagina's direct vanuit de homepagenavigatie — dit zijn sitelink-kandidaten",
+              "Link je top 6-8 categoriepagina's direct vanuit de homepagenavigatie - dit zijn sitelink-kandidaten",
               "Gebruik consistente, beschrijvende ankertekst voor alle interne links naar categoriepagina's",
               "Voeg een FAQ-sectie toe aan elke koopgids en aan elke grote categoriepagina",
               "Markeer FAQ-content met FAQ-schema (gestructureerde data Vraag/Antwoord)",
               "Gebruik AnswerThePublic of AlsoAsked.com om echte PAA-vragen in jouw categorie te vinden",
-              "Houd FAQ-antwoorden op 40-80 woorden — beknopt genoeg voor PAA-extractie, volledig genoeg om nuttig te zijn",
+              "Houd FAQ-antwoorden op 40-80 woorden - beknopt genoeg voor PAA-extractie, volledig genoeg om nuttig te zijn",
             ],
           },
           {
             type: "callout",
             title: "Sitelinks in Search Console",
-            text: "In Google Search Console kun je onder 'Zoekresultaten' zien welke pagina's Google heeft gekozen als sitelink-kandidaten voor je merksearches. Als de verkeerde pagina's als sitelinks verschijnen, verbeter dan de interne links naar de pagina's die je wilt tonen — meer interne links = sterker signaal voor Google om die pagina te tonen.",
+            text: "In Google Search Console kun je onder 'Zoekresultaten' zien welke pagina's Google heeft gekozen als sitelink-kandidaten voor je merksearches. Als de verkeerde pagina's als sitelinks verschijnen, verbeter dan de interne links naar de pagina's die je wilt tonen - meer interne links = sterker signaal voor Google om die pagina te tonen.",
           },
         ],
       },
@@ -976,7 +976,7 @@ export const guidesSerpDominationT: Record<
         blocks: [
           {
             type: "p",
-            text: "De meeste teams volgen zoekwoordposities. Vrijwel niemand volgt de volledige SERP-aanwezigheid — in welke resultaattypen ze verschijnen, hoe vaak, en vergeleken met concurrenten. Dat blinde vlak betekent dat je waarschijnlijk kansen mist die recht voor je neus liggen.",
+            text: "De meeste teams volgen zoekwoordposities. Vrijwel niemand volgt de volledige SERP-aanwezigheid - in welke resultaattypen ze verschijnen, hoe vaak, en vergeleken met concurrenten. Dat blinde vlak betekent dat je waarschijnlijk kansen mist die recht voor je neus liggen.",
           },
           {
             type: "p",

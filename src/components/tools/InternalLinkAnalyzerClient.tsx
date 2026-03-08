@@ -32,7 +32,7 @@ function StatusBadge({ status }: { status: number | null }) {
   if (status === null) {
     return (
       <span className="inline-block px-2 py-0.5 rounded-lg text-[10px] border font-medium bg-white/10 text-body border-white/10">
-        —
+        -
       </span>
     );
   }
@@ -234,7 +234,7 @@ export default function InternalLinkAnalyzerClient({ t }: { t: InternalLinkAnaly
                         </td>
                         <td className="px-4 py-3 max-w-[180px]">
                           <span className="text-xs text-body truncate block">
-                            {link.anchor || "—"}
+                            {link.anchor || "-"}
                           </span>
                         </td>
                         <td className="px-4 py-3">

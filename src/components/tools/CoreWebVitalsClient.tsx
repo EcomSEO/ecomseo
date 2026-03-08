@@ -42,7 +42,7 @@ function RatingBadge({ rating, t }: { rating: CWVRating; t: CoreWebVitalsTransla
 }
 
 function MetricCell({ metric, t }: { metric: CWVMetric | undefined; t: CoreWebVitalsTranslation }) {
-  if (!metric) return <span className="text-xs text-white/20 italic">—</span>;
+  if (!metric) return <span className="text-xs text-white/20 italic">-</span>;
   const ratingCls: Record<CWVRating, string> = {
     good: "text-green-400",
     needs_improvement: "text-yellow-400",

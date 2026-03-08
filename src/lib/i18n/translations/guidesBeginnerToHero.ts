@@ -21,7 +21,7 @@ export const guidesBeginnerToHeroT: Record<
     sections: [
       {
         id: "what-this-course-is",
-        title: "What this course is — and what it is not",
+        title: "What this course is - and what it is not",
         blocks: [
           {
             type: "p",

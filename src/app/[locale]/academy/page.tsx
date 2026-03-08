@@ -145,7 +145,7 @@ export default async function AcademyPage({
                       </div>
                     </div>
 
-                    {/* Topic links — table-like rows */}
+                    {/* Topic links - table-like rows */}
                     <div className="md:ml-[64px] rounded-xl border border-border overflow-hidden bg-bg-card">
                       {cluster.topics.map((topic, j) => {
                         const href = typeof topic === "string" ? "/academy" : topic.href;

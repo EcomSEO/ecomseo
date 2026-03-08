@@ -61,7 +61,7 @@ async function followRedirects(startUrl: string): Promise<RedirectResult> {
           break;
         }
       } else {
-        // Not a redirect — we've reached the final destination
+        // Not a redirect - we've reached the final destination
         break;
       }
     }

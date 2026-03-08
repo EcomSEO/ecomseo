@@ -74,7 +74,7 @@ export const guidesTaskPlanningT: Record<
           {
             type: "callout",
             title: "GSC data has a 2–3 day delay",
-            text: "When you pull position data from Google Search Console to find your page 2 opportunities, remember the data is 2–3 days old. Rankings fluctuate. Sort by average position and look at the impressions column too — a page at position 14 with 5,000 impressions per month is a much better target than one at position 12 with 40 impressions.",
+            text: "When you pull position data from Google Search Console to find your page 2 opportunities, remember the data is 2–3 days old. Rankings fluctuate. Sort by average position and look at the impressions column too - a page at position 14 with 5,000 impressions per month is a much better target than one at position 12 with 40 impressions.",
           },
         ],
       },
@@ -121,13 +121,13 @@ export const guidesTaskPlanningT: Record<
           {
             type: "callout",
             title: "Separate your task log from your ideas backlog",
-            text: "Ideas are not tasks. When you think of something to try, it goes into an ideas list — unrefined, unestimated. At the start of each sprint, you pull from the ideas list, estimate impact and effort, and promote it to the task log. Mixing ideas and tasks in the same list creates chaos and analysis paralysis.",
+            text: "Ideas are not tasks. When you think of something to try, it goes into an ideas list - unrefined, unestimated. At the start of each sprint, you pull from the ideas list, estimate impact and effort, and promote it to the task log. Mixing ideas and tasks in the same list creates chaos and analysis paralysis.",
           },
         ],
       },
       {
         id: "sequence-and-quarterly-loop",
-        title: "When to Do What — and the Quarterly Audit Loop",
+        title: "When to Do What - and the Quarterly Audit Loop",
         blocks: [
           {
             type: "p",
@@ -224,7 +224,7 @@ export const guidesTaskPlanningT: Record<
           {
             type: "callout",
             title: "GSC-Daten haben 2–3 Tage Verzögerung",
-            text: "Wenn du Positionsdaten aus der Google Search Console abrufst, um deine Seite-2-Chancen zu finden, denke daran: Die Daten sind 2–3 Tage alt. Rankings schwanken. Sortiere nach durchschnittlicher Position und schaue auch auf die Impressionen-Spalte — eine Seite auf Position 14 mit 5.000 Impressionen pro Monat ist ein viel besseres Ziel als eine auf Position 12 mit 40 Impressionen.",
+            text: "Wenn du Positionsdaten aus der Google Search Console abrufst, um deine Seite-2-Chancen zu finden, denke daran: Die Daten sind 2–3 Tage alt. Rankings schwanken. Sortiere nach durchschnittlicher Position und schaue auch auf die Impressionen-Spalte - eine Seite auf Position 14 mit 5.000 Impressionen pro Monat ist ein viel besseres Ziel als eine auf Position 12 mit 40 Impressionen.",
           },
         ],
       },
@@ -271,13 +271,13 @@ export const guidesTaskPlanningT: Record<
           {
             type: "callout",
             title: "Aufgaben-Log und Ideen-Backlog trennen",
-            text: "Ideen sind keine Aufgaben. Wenn dir etwas einfällt, das du ausprobieren möchtest, kommt es auf eine Ideenliste — unverfeinert, ohne Schätzung. Zu Beginn jedes Sprints greifst du aus der Ideenliste, schätzt Impact und Aufwand und befördest die Idee ins Aufgaben-Log. Ideen und Aufgaben in derselben Liste zu mischen schafft Chaos und Entscheidungsparalyse.",
+            text: "Ideen sind keine Aufgaben. Wenn dir etwas einfällt, das du ausprobieren möchtest, kommt es auf eine Ideenliste - unverfeinert, ohne Schätzung. Zu Beginn jedes Sprints greifst du aus der Ideenliste, schätzt Impact und Aufwand und befördest die Idee ins Aufgaben-Log. Ideen und Aufgaben in derselben Liste zu mischen schafft Chaos und Entscheidungsparalyse.",
           },
         ],
       },
       {
         id: "sequence-and-quarterly-loop",
-        title: "Wann was tun — und der vierteljährliche Audit-Zyklus",
+        title: "Wann was tun - und der vierteljährliche Audit-Zyklus",
         blocks: [
           {
             type: "p",
@@ -374,7 +374,7 @@ export const guidesTaskPlanningT: Record<
           {
             type: "callout",
             title: "Les données GSC ont un délai de 2–3 jours",
-            text: "Lorsque vous extrayez des données de position de la Google Search Console pour trouver vos opportunités de page 2, rappelez-vous que les données ont 2–3 jours de retard. Les classements fluctuent. Triez par position moyenne et regardez aussi la colonne impressions — une page en position 14 avec 5 000 impressions par mois est une cible bien meilleure qu'une page en position 12 avec 40 impressions.",
+            text: "Lorsque vous extrayez des données de position de la Google Search Console pour trouver vos opportunités de page 2, rappelez-vous que les données ont 2–3 jours de retard. Les classements fluctuent. Triez par position moyenne et regardez aussi la colonne impressions - une page en position 14 avec 5 000 impressions par mois est une cible bien meilleure qu'une page en position 12 avec 40 impressions.",
           },
         ],
       },
@@ -421,13 +421,13 @@ export const guidesTaskPlanningT: Record<
           {
             type: "callout",
             title: "Séparez votre journal de tâches de votre backlog d'idées",
-            text: "Les idées ne sont pas des tâches. Quand vous pensez à quelque chose à essayer, ça va sur une liste d'idées — non raffinée, non estimée. En début de sprint, vous puisez dans la liste d'idées, estimez l'impact et l'effort, et le faites passer dans le journal de tâches. Mélanger idées et tâches dans la même liste crée du chaos et une paralysie de l'analyse.",
+            text: "Les idées ne sont pas des tâches. Quand vous pensez à quelque chose à essayer, ça va sur une liste d'idées - non raffinée, non estimée. En début de sprint, vous puisez dans la liste d'idées, estimez l'impact et l'effort, et le faites passer dans le journal de tâches. Mélanger idées et tâches dans la même liste crée du chaos et une paralysie de l'analyse.",
           },
         ],
       },
       {
         id: "sequence-and-quarterly-loop",
-        title: "Quand faire quoi — et la boucle d'audit trimestrielle",
+        title: "Quand faire quoi - et la boucle d'audit trimestrielle",
         blocks: [
           {
             type: "p",
@@ -524,7 +524,7 @@ export const guidesTaskPlanningT: Record<
           {
             type: "callout",
             title: "Los datos de GSC tienen un retraso de 2–3 días",
-            text: "Cuando extraes datos de posición de Google Search Console para encontrar tus oportunidades de página 2, recuerda que los datos tienen 2–3 días de antigüedad. Los rankings fluctúan. Ordena por posición media y mira también la columna de impresiones — una página en posición 14 con 5.000 impresiones al mes es un objetivo mucho mejor que una en posición 12 con 40 impresiones.",
+            text: "Cuando extraes datos de posición de Google Search Console para encontrar tus oportunidades de página 2, recuerda que los datos tienen 2–3 días de antigüedad. Los rankings fluctúan. Ordena por posición media y mira también la columna de impresiones - una página en posición 14 con 5.000 impresiones al mes es un objetivo mucho mejor que una en posición 12 con 40 impresiones.",
           },
         ],
       },
@@ -571,13 +571,13 @@ export const guidesTaskPlanningT: Record<
           {
             type: "callout",
             title: "Separa tu registro de tareas de tu backlog de ideas",
-            text: "Las ideas no son tareas. Cuando pienses en algo que probar, va a una lista de ideas — sin refinar, sin estimar. Al comienzo de cada sprint, sacas de la lista de ideas, estimas impacto y esfuerzo, y lo promueves al registro de tareas. Mezclar ideas y tareas en la misma lista crea caos y parálisis de análisis.",
+            text: "Las ideas no son tareas. Cuando pienses en algo que probar, va a una lista de ideas - sin refinar, sin estimar. Al comienzo de cada sprint, sacas de la lista de ideas, estimas impacto y esfuerzo, y lo promueves al registro de tareas. Mezclar ideas y tareas en la misma lista crea caos y parálisis de análisis.",
           },
         ],
       },
       {
         id: "sequence-and-quarterly-loop",
-        title: "Cuándo hacer qué — y el ciclo de auditoría trimestral",
+        title: "Cuándo hacer qué - y el ciclo de auditoría trimestral",
         blocks: [
           {
             type: "p",
@@ -674,7 +674,7 @@ export const guidesTaskPlanningT: Record<
           {
             type: "callout",
             title: "I dati GSC hanno un ritardo di 2–3 giorni",
-            text: "Quando estrai dati di posizione da Google Search Console per trovare le opportunità di pagina 2, ricorda che i dati hanno 2–3 giorni di ritardo. I ranking fluttuano. Ordina per posizione media e guarda anche la colonna delle impressioni — una pagina in posizione 14 con 5.000 impressioni al mese è un target molto migliore di una in posizione 12 con 40 impressioni.",
+            text: "Quando estrai dati di posizione da Google Search Console per trovare le opportunità di pagina 2, ricorda che i dati hanno 2–3 giorni di ritardo. I ranking fluttuano. Ordina per posizione media e guarda anche la colonna delle impressioni - una pagina in posizione 14 con 5.000 impressioni al mese è un target molto migliore di una in posizione 12 con 40 impressioni.",
           },
         ],
       },
@@ -721,13 +721,13 @@ export const guidesTaskPlanningT: Record<
           {
             type: "callout",
             title: "Separa il registro delle attività dal backlog di idee",
-            text: "Le idee non sono attività. Quando pensi a qualcosa da provare, va in una lista di idee — non raffinata, non stimata. All'inizio di ogni sprint, attingi dalla lista di idee, stimi impatto e sforzo e la promuovi al registro delle attività. Mescolare idee e attività nella stessa lista crea caos e paralisi da analisi.",
+            text: "Le idee non sono attività. Quando pensi a qualcosa da provare, va in una lista di idee - non raffinata, non stimata. All'inizio di ogni sprint, attingi dalla lista di idee, stimi impatto e sforzo e la promuovi al registro delle attività. Mescolare idee e attività nella stessa lista crea caos e paralisi da analisi.",
           },
         ],
       },
       {
         id: "sequence-and-quarterly-loop",
-        title: "Quando fare cosa — e il ciclo di audit trimestrale",
+        title: "Quando fare cosa - e il ciclo di audit trimestrale",
         blocks: [
           {
             type: "p",
@@ -824,7 +824,7 @@ export const guidesTaskPlanningT: Record<
           {
             type: "callout",
             title: "GSC-gegevens hebben een vertraging van 2–3 dagen",
-            text: "Wanneer je positiegegevens uit Google Search Console haalt om je pagina 2-kansen te vinden, onthoud dan dat de gegevens 2–3 dagen oud zijn. Rankings fluctueren. Sorteer op gemiddelde positie en kijk ook naar de impressieskolom — een pagina op positie 14 met 5.000 impressies per maand is een veel beter doelwit dan één op positie 12 met 40 impressies.",
+            text: "Wanneer je positiegegevens uit Google Search Console haalt om je pagina 2-kansen te vinden, onthoud dan dat de gegevens 2–3 dagen oud zijn. Rankings fluctueren. Sorteer op gemiddelde positie en kijk ook naar de impressieskolom - een pagina op positie 14 met 5.000 impressies per maand is een veel beter doelwit dan één op positie 12 met 40 impressies.",
           },
         ],
       },
@@ -866,35 +866,35 @@ export const guidesTaskPlanningT: Record<
           },
           {
             type: "p",
-            text: "Houd het eenvoudig. Een takenlogboek met vijf velden is genoeg: wat je hebt gedaan, waarom je het hebt gedaan (de hypothese), wanneer je het hebt gedaan, welke pagina of sectie het betrof, en het resultaat. Het resultaatveld blijft leeg tot 4–6 weken na het voltooien van de taak — dan ga je terug om te controleren of rankings of verkeer zijn bewogen.",
+            text: "Houd het eenvoudig. Een takenlogboek met vijf velden is genoeg: wat je hebt gedaan, waarom je het hebt gedaan (de hypothese), wanneer je het hebt gedaan, welke pagina of sectie het betrof, en het resultaat. Het resultaatveld blijft leeg tot 4–6 weken na het voltooien van de taak - dan ga je terug om te controleren of rankings of verkeer zijn bewogen.",
           },
           {
             type: "callout",
             title: "Scheid je takenlogboek van je ideeënbacklog",
-            text: "Ideeën zijn geen taken. Wanneer je aan iets denkt om uit te proberen, gaat het op een ideeënlijst — onverfijnd, ongeschat. Aan het begin van elke sprint put je uit de ideeënlijst, schat je impact en inspanning en promoveer je het naar het takenlogboek. Ideeën en taken in dezelfde lijst mengen creëert chaos en analyseverlamming.",
+            text: "Ideeën zijn geen taken. Wanneer je aan iets denkt om uit te proberen, gaat het op een ideeënlijst - onverfijnd, ongeschat. Aan het begin van elke sprint put je uit de ideeënlijst, schat je impact en inspanning en promoveer je het naar het takenlogboek. Ideeën en taken in dezelfde lijst mengen creëert chaos en analyseverlamming.",
           },
         ],
       },
       {
         id: "sequence-and-quarterly-loop",
-        title: "Wanneer doe je wat — en de kwartaalse auditlus",
+        title: "Wanneer doe je wat - en de kwartaalse auditlus",
         blocks: [
           {
             type: "p",
-            text: "Volgorde doet ertoe in SEO. Technische fixes komen eerst omdat ze fundamenteel zijn — ze deblokkeren al het andere. Als Google je pagina's niet goed kan crawlen en indexeren, zal geen hoeveelheid content of linkbuilding je rankings verbeteren. Na het technische: on-page — titeltags, koppen, contentkwaliteit, interne linking. Dan contentcreatie. Dan linkbuilding. Linkbuilding doen zonder een schone technische basis is weggegooid geld.",
+            text: "Volgorde doet ertoe in SEO. Technische fixes komen eerst omdat ze fundamenteel zijn - ze deblokkeren al het andere. Als Google je pagina's niet goed kan crawlen en indexeren, zal geen hoeveelheid content of linkbuilding je rankings verbeteren. Na het technische: on-page - titeltags, koppen, contentkwaliteit, interne linking. Dan contentcreatie. Dan linkbuilding. Linkbuilding doen zonder een schone technische basis is weggegooid geld.",
           },
           {
             type: "list",
             items: [
-              "Fase 1 — Technisch: crawlbaarheid, indexatie, sitesnelheid, canonical-tags, gestructureerde gegevens. Screaming Frog en het GSC-dekkingsrapport gebruiken.",
-              "Fase 2 — On-page: titeltags, H1's, meta-descriptions, interne linkstructuur, dunne content. Bevindingen van /guides/on-page-audit als referentie gebruiken.",
-              "Fase 3 — Content: tekst voor categoriepagina's, koopgidsen, FAQ-secties, blogcontent gericht op informatieve zoekopdrachten.",
-              "Fase 4 — Linkbuilding: alleen nadat fase 1–3 in redelijke staat zijn. Zie /guides/link-building-tactics voor waar te beginnen.",
+              "Fase 1 - Technisch: crawlbaarheid, indexatie, sitesnelheid, canonical-tags, gestructureerde gegevens. Screaming Frog en het GSC-dekkingsrapport gebruiken.",
+              "Fase 2 - On-page: titeltags, H1's, meta-descriptions, interne linkstructuur, dunne content. Bevindingen van /guides/on-page-audit als referentie gebruiken.",
+              "Fase 3 - Content: tekst voor categoriepagina's, koopgidsen, FAQ-secties, blogcontent gericht op informatieve zoekopdrachten.",
+              "Fase 4 - Linkbuilding: alleen nadat fase 1–3 in redelijke staat zijn. Zie /guides/link-building-tactics voor waar te beginnen.",
             ],
           },
           {
             type: "tip",
-            text: "Stel elke 3 maanden een agenda-herinnering in voor een mini-audit. Haal verse GSC-gegevens op, controleer je top 20 rankingpagina's, voer Screaming Frog opnieuw uit en controleer je backlinkprofiel in Ahrefs. Rankings verschuiven, concurrenten updaten hun sites, algoritme-updates vinden plaats. De volledige auditcyclus van /guides/fundamentals tot /guides/off-page-audit is nooit echt klaar — het is een lus. Bouw dat vanaf dag één in je planning in.",
+            text: "Stel elke 3 maanden een agenda-herinnering in voor een mini-audit. Haal verse GSC-gegevens op, controleer je top 20 rankingpagina's, voer Screaming Frog opnieuw uit en controleer je backlinkprofiel in Ahrefs. Rankings verschuiven, concurrenten updaten hun sites, algoritme-updates vinden plaats. De volledige auditcyclus van /guides/fundamentals tot /guides/off-page-audit is nooit echt klaar - het is een lus. Bouw dat vanaf dag één in je planning in.",
           },
           {
             type: "p",

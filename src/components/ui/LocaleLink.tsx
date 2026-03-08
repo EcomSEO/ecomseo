@@ -32,7 +32,7 @@ export default function LocaleLink({ href, ...props }: LocaleLinkProps) {
     return <Link href={href} {...props} />;
   }
 
-  // Default locale (en): no prefix — links go to root
+  // Default locale (en): no prefix - links go to root
   if (locale === defaultLocale) {
     return <Link href={href} {...props} />;
   }
