@@ -106,6 +106,7 @@ export const staticRoutes = [
   "/toys-seo",
   "/cases",
   "/team",
+  "/pricing",
   "/contact",
   "/faq",
   "/resources",

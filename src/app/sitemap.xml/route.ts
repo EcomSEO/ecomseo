@@ -259,6 +259,10 @@ const teamSlugs = [
   "gjorgi-jovev",
 ];
 
+const companyPages = [
+  "/pricing",
+];
+
 const utilityPages = [
   "/contact",
   "/faq",
@@ -328,7 +332,10 @@ export async function GET() {
     }
   }
 
-  // 12. Team — priority 0.6 | monthly
+  // 12. Company pages — priority 0.8 | monthly
+  addPages(entries, companyPages, { priority: 0.8, changefreq: "monthly", lastmod });
+
+  // 13. Team — priority 0.6 | monthly
   addPages(entries, ["/team"], { priority: 0.6, changefreq: "monthly", lastmod });
   for (const slug of teamSlugs) {
     addPages(entries, [`/team/${slug}`], { priority: 0.6, changefreq: "monthly", lastmod });
