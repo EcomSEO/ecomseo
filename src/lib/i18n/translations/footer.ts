@@ -26,7 +26,6 @@ export const footerTranslations: Record<Locale, {
     companyLinks: [
       { label: "Cases", href: "/cases" },
       { label: "Team", href: "/team" },
-      { label: "Guides", href: "/guides" },
       { label: "Academy", href: "/academy" },
       { label: "Pricing", href: "/pricing" },
       { label: "FAQ", href: "/faq" },
@@ -53,7 +52,6 @@ export const footerTranslations: Record<Locale, {
     companyLinks: [
       { label: "Referenzen", href: "/cases" },
       { label: "Team", href: "/team" },
-      { label: "Leitfäden", href: "/guides" },
       { label: "Akademie", href: "/academy" },
       { label: "Preise", href: "/pricing" },
       { label: "FAQ", href: "/faq" },
@@ -80,7 +78,6 @@ export const footerTranslations: Record<Locale, {
     companyLinks: [
       { label: "Études de cas", href: "/cases" },
       { label: "Équipe", href: "/team" },
-      { label: "Guides", href: "/guides" },
       { label: "Académie", href: "/academy" },
       { label: "Tarifs", href: "/pricing" },
       { label: "FAQ", href: "/faq" },
@@ -107,7 +104,6 @@ export const footerTranslations: Record<Locale, {
     companyLinks: [
       { label: "Casos de éxito", href: "/cases" },
       { label: "Equipo", href: "/team" },
-      { label: "Guías", href: "/guides" },
       { label: "Academia", href: "/academy" },
       { label: "Precios", href: "/pricing" },
       { label: "FAQ", href: "/faq" },
@@ -134,7 +130,6 @@ export const footerTranslations: Record<Locale, {
     companyLinks: [
       { label: "Casi studio", href: "/cases" },
       { label: "Team", href: "/team" },
-      { label: "Guide", href: "/guides" },
       { label: "Accademia", href: "/academy" },
       { label: "Prezzi", href: "/pricing" },
       { label: "FAQ", href: "/faq" },
@@ -161,7 +156,6 @@ export const footerTranslations: Record<Locale, {
     companyLinks: [
       { label: "Cases", href: "/cases" },
       { label: "Team", href: "/team" },
-      { label: "Gidsen", href: "/guides" },
       { label: "Academie", href: "/academy" },
       { label: "Prijzen", href: "/pricing" },
       { label: "FAQ", href: "/faq" },

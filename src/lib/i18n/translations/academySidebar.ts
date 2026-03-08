@@ -16,6 +16,7 @@ export const academySidebarT: Record<Locale, SidebarCategory[]> = {
         { label: "Ecommerce Ranking Factors", href: "/academy/ecommerce-ranking-factors" },
         { label: "Search Intent for Ecommerce", href: "/academy/search-intent-for-ecommerce" },
         { label: "Google Search Console for Stores", href: "/academy/google-search-console-for-stores" },
+      { label: "SEO Learning Roadmap", href: "/academy/seo-learning-roadmap" },
       ],
     },
     {
@@ -86,6 +87,7 @@ export const academySidebarT: Record<Locale, SidebarCategory[]> = {
         { label: "SEO Reporting for Stakeholders", href: "/academy/seo-reporting-for-stakeholders" },
         { label: "Calculating SEO ROI", href: "/academy/calculating-seo-roi" },
         { label: "SEO Forecasting for Ecommerce", href: "/academy/seo-forecasting-for-ecommerce" },
+      { label: "SEO Task Planning", href: "/academy/seo-task-planning" },
       ],
     },
     {
@@ -108,6 +110,7 @@ export const academySidebarT: Record<Locale, SidebarCategory[]> = {
         { label: "Log File Analysis", href: "/academy/log-file-analysis" },
         { label: "SEO A/B Testing", href: "/academy/seo-ab-testing" },
         { label: "Ecommerce SEO Automation", href: "/academy/ecommerce-seo-automation" },
+      { label: "SERP Domination Strategy", href: "/academy/serp-domination-strategy" },
       ],
     },
     {
@@ -131,6 +134,7 @@ export const academySidebarT: Record<Locale, SidebarCategory[]> = {
         { label: "E-Commerce-Rankingfaktoren", href: "/academy/ecommerce-ranking-factors" },
         { label: "Suchintention im E-Commerce", href: "/academy/search-intent-for-ecommerce" },
         { label: "Google Search Console für Shops", href: "/academy/google-search-console-for-stores" },
+      { label: "SEO Learning Roadmap", href: "/academy/seo-learning-roadmap" },
       ],
     },
     {
@@ -201,6 +205,7 @@ export const academySidebarT: Record<Locale, SidebarCategory[]> = {
         { label: "SEO-Reporting für Stakeholder", href: "/academy/seo-reporting-for-stakeholders" },
         { label: "SEO-ROI berechnen", href: "/academy/calculating-seo-roi" },
         { label: "SEO-Prognosen für E-Commerce", href: "/academy/seo-forecasting-for-ecommerce" },
+      { label: "SEO Task Planning", href: "/academy/seo-task-planning" },
       ],
     },
     {
@@ -223,6 +228,7 @@ export const academySidebarT: Record<Locale, SidebarCategory[]> = {
         { label: "Logfile-Analyse", href: "/academy/log-file-analysis" },
         { label: "SEO A/B-Tests", href: "/academy/seo-ab-testing" },
         { label: "E-Commerce-SEO-Automatisierung", href: "/academy/ecommerce-seo-automation" },
+      { label: "SERP Domination Strategy", href: "/academy/serp-domination-strategy" },
       ],
     },
     {
@@ -246,6 +252,7 @@ export const academySidebarT: Record<Locale, SidebarCategory[]> = {
         { label: "Facteurs de classement e-commerce", href: "/academy/ecommerce-ranking-factors" },
         { label: "Intention de recherche pour le e-commerce", href: "/academy/search-intent-for-ecommerce" },
         { label: "Google Search Console pour les boutiques", href: "/academy/google-search-console-for-stores" },
+      { label: "SEO Learning Roadmap", href: "/academy/seo-learning-roadmap" },
       ],
     },
     {
@@ -316,6 +323,7 @@ export const academySidebarT: Record<Locale, SidebarCategory[]> = {
         { label: "Rapports SEO pour les d\u00e9cideurs", href: "/academy/seo-reporting-for-stakeholders" },
         { label: "Calculer le ROI du SEO", href: "/academy/calculating-seo-roi" },
         { label: "Pr\u00e9visions SEO pour le e-commerce", href: "/academy/seo-forecasting-for-ecommerce" },
+      { label: "SEO Task Planning", href: "/academy/seo-task-planning" },
       ],
     },
     {
@@ -338,6 +346,7 @@ export const academySidebarT: Record<Locale, SidebarCategory[]> = {
         { label: "Analyse des fichiers log", href: "/academy/log-file-analysis" },
         { label: "A/B testing SEO", href: "/academy/seo-ab-testing" },
         { label: "Automatisation SEO e-commerce", href: "/academy/ecommerce-seo-automation" },
+      { label: "SERP Domination Strategy", href: "/academy/serp-domination-strategy" },
       ],
     },
     {
@@ -361,6 +370,7 @@ export const academySidebarT: Record<Locale, SidebarCategory[]> = {
         { label: "Factores de posicionamiento en e-commerce", href: "/academy/ecommerce-ranking-factors" },
         { label: "Intenci\u00f3n de b\u00fasqueda para e-commerce", href: "/academy/search-intent-for-ecommerce" },
         { label: "Google Search Console para tiendas", href: "/academy/google-search-console-for-stores" },
+      { label: "SEO Learning Roadmap", href: "/academy/seo-learning-roadmap" },
       ],
     },
     {
@@ -431,6 +441,7 @@ export const academySidebarT: Record<Locale, SidebarCategory[]> = {
         { label: "Reportes SEO para stakeholders", href: "/academy/seo-reporting-for-stakeholders" },
         { label: "Calcular el ROI del SEO", href: "/academy/calculating-seo-roi" },
         { label: "Previsiones SEO para e-commerce", href: "/academy/seo-forecasting-for-ecommerce" },
+      { label: "SEO Task Planning", href: "/academy/seo-task-planning" },
       ],
     },
     {
@@ -453,6 +464,7 @@ export const academySidebarT: Record<Locale, SidebarCategory[]> = {
         { label: "An\u00e1lisis de archivos log", href: "/academy/log-file-analysis" },
         { label: "A/B testing SEO", href: "/academy/seo-ab-testing" },
         { label: "Automatizaci\u00f3n SEO para e-commerce", href: "/academy/ecommerce-seo-automation" },
+      { label: "SERP Domination Strategy", href: "/academy/serp-domination-strategy" },
       ],
     },
     {
@@ -476,6 +488,7 @@ export const academySidebarT: Record<Locale, SidebarCategory[]> = {
         { label: "Fattori di ranking per e-commerce", href: "/academy/ecommerce-ranking-factors" },
         { label: "Intento di ricerca per e-commerce", href: "/academy/search-intent-for-ecommerce" },
         { label: "Google Search Console per i negozi", href: "/academy/google-search-console-for-stores" },
+      { label: "SEO Learning Roadmap", href: "/academy/seo-learning-roadmap" },
       ],
     },
     {
@@ -546,6 +559,7 @@ export const academySidebarT: Record<Locale, SidebarCategory[]> = {
         { label: "Report SEO per gli stakeholder", href: "/academy/seo-reporting-for-stakeholders" },
         { label: "Calcolare il ROI della SEO", href: "/academy/calculating-seo-roi" },
         { label: "Previsioni SEO per e-commerce", href: "/academy/seo-forecasting-for-ecommerce" },
+      { label: "SEO Task Planning", href: "/academy/seo-task-planning" },
       ],
     },
     {
@@ -568,6 +582,7 @@ export const academySidebarT: Record<Locale, SidebarCategory[]> = {
         { label: "Analisi dei file di log", href: "/academy/log-file-analysis" },
         { label: "A/B testing SEO", href: "/academy/seo-ab-testing" },
         { label: "Automazione SEO per e-commerce", href: "/academy/ecommerce-seo-automation" },
+      { label: "SERP Domination Strategy", href: "/academy/serp-domination-strategy" },
       ],
     },
     {
@@ -591,6 +606,7 @@ export const academySidebarT: Record<Locale, SidebarCategory[]> = {
         { label: "Rankingfactoren voor e-commerce", href: "/academy/ecommerce-ranking-factors" },
         { label: "Zoekintentie voor e-commerce", href: "/academy/search-intent-for-ecommerce" },
         { label: "Google Search Console voor webshops", href: "/academy/google-search-console-for-stores" },
+      { label: "SEO Learning Roadmap", href: "/academy/seo-learning-roadmap" },
       ],
     },
     {
@@ -661,6 +677,7 @@ export const academySidebarT: Record<Locale, SidebarCategory[]> = {
         { label: "SEO-rapportage voor stakeholders", href: "/academy/seo-reporting-for-stakeholders" },
         { label: "SEO-ROI berekenen", href: "/academy/calculating-seo-roi" },
         { label: "SEO-prognoses voor e-commerce", href: "/academy/seo-forecasting-for-ecommerce" },
+      { label: "SEO Task Planning", href: "/academy/seo-task-planning" },
       ],
     },
     {
@@ -683,6 +700,7 @@ export const academySidebarT: Record<Locale, SidebarCategory[]> = {
         { label: "Logbestandsanalyse", href: "/academy/log-file-analysis" },
         { label: "SEO A/B-testen", href: "/academy/seo-ab-testing" },
         { label: "E-commerce SEO-automatisering", href: "/academy/ecommerce-seo-automation" },
+      { label: "SERP Domination Strategy", href: "/academy/serp-domination-strategy" },
       ],
     },
     {

@@ -109,23 +109,7 @@ const industryPages = [
   "/toys-seo",
 ];
 
-const guidePages = [
-  "/guides",
-  "/guides/fundamentals",
-  "/guides/fundamentals-2",
-  "/guides/analytics-tracking",
-  "/guides/beginner-to-hero",
-  "/guides/keyword-research",
-  "/guides/competitor-analysis",
-  "/guides/technical-analysis",
-  "/guides/on-page-audit",
-  "/guides/off-page-audit",
-  "/guides/task-planning",
-  "/guides/link-building-tactics",
-  "/guides/topical-authority",
-  "/guides/ranking-chatgpt",
-  "/guides/serp-domination",
-];
+const guidePages: string[] = []; // Guides merged into Academy
 
 const academyPages = [
   "/academy",
@@ -192,6 +176,9 @@ const academyPages = [
   "/academy/food-beverage-seo",
   "/academy/electronics-tech-seo",
   "/academy/home-garden-seo",
+  "/academy/seo-learning-roadmap",
+  "/academy/seo-task-planning",
+  "/academy/serp-domination-strategy",
 ];
 
 const resourcePages = [

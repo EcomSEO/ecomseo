@@ -7,6 +7,7 @@ import { crawlingAndIndexingProductPages } from "./topics/01-search-fundamentals
 import { ecommerceRankingFactors } from "./topics/01-search-fundamentals/ecommerce-ranking-factors";
 import { searchIntentForEcommerce } from "./topics/01-search-fundamentals/search-intent-for-ecommerce";
 import { googleSearchConsoleForStores } from "./topics/01-search-fundamentals/google-search-console-for-stores";
+import { seoLearningRoadmap } from "./topics/01-search-fundamentals/seo-learning-roadmap";
 
 // Cluster 2: Finding Keywords That Drive Revenue
 import { keywordResearchForEcommerce } from "./topics/02-keyword-research/keyword-research-for-ecommerce";
@@ -59,6 +60,7 @@ import { rankTrackingForEcommerce } from "./topics/07-measuring-results/rank-tra
 import { seoReportingForStakeholders } from "./topics/07-measuring-results/seo-reporting-for-stakeholders";
 import { calculatingSeoRoi } from "./topics/07-measuring-results/calculating-seo-roi";
 import { seoForecastingForEcommerce } from "./topics/07-measuring-results/seo-forecasting-for-ecommerce";
+import { seoTaskPlanning } from "./topics/07-measuring-results/seo-task-planning";
 
 // Cluster 8: SEO by Platform
 import { shopifySeoGuide } from "./topics/08-seo-by-platform/shopify-seo-guide";
@@ -75,6 +77,7 @@ import { javascriptSeoForEcommerce } from "./topics/09-advanced-seo/javascript-s
 import { logFileAnalysis } from "./topics/09-advanced-seo/log-file-analysis";
 import { seoAbTesting } from "./topics/09-advanced-seo/seo-ab-testing";
 import { ecommerceSeoAutomation } from "./topics/09-advanced-seo/ecommerce-seo-automation";
+import { serpDominationStrategy } from "./topics/09-advanced-seo/serp-domination-strategy";
 
 // Cluster 10: Industry Playbooks
 import { fashionApparelSeo } from "./topics/10-industry-playbooks/fashion-apparel-seo";
@@ -91,6 +94,7 @@ export const allTopics: AcademyTopic[] = [
   ecommerceRankingFactors,
   searchIntentForEcommerce,
   googleSearchConsoleForStores,
+  seoLearningRoadmap,
   // Cluster 2
   keywordResearchForEcommerce,
   buyerIntentVsSearchVolume,
@@ -137,6 +141,7 @@ export const allTopics: AcademyTopic[] = [
   seoReportingForStakeholders,
   calculatingSeoRoi,
   seoForecastingForEcommerce,
+  seoTaskPlanning,
   // Cluster 8
   shopifySeoGuide,
   woocommerceSeoGuide,
@@ -151,6 +156,7 @@ export const allTopics: AcademyTopic[] = [
   logFileAnalysis,
   seoAbTesting,
   ecommerceSeoAutomation,
+  serpDominationStrategy,
   // Cluster 10
   fashionApparelSeo,
   healthBeautySeo,

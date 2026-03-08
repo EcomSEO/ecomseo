@@ -2,7 +2,7 @@ import type { Locale } from "../config";
 
 export const navigationTranslations: Record<Locale, {
   ecommerceSeo: string;
-  guides: string;
+  academy: string;
   seoTools: string;
   cases: string;
   blog: string;
@@ -24,7 +24,7 @@ export const navigationTranslations: Record<Locale, {
 }> = {
   en: {
     ecommerceSeo: "Ecommerce SEO",
-    guides: "Guides",
+    academy: "Academy",
     seoTools: "SEO Tools",
     cases: "Cases",
     blog: "Blog",
@@ -55,7 +55,7 @@ export const navigationTranslations: Record<Locale, {
   },
   de: {
     ecommerceSeo: "E-Commerce SEO",
-    guides: "Leitfäden",
+    academy: "Akademie",
     seoTools: "SEO-Tools",
     cases: "Referenzen",
     blog: "Blog",
@@ -86,7 +86,7 @@ export const navigationTranslations: Record<Locale, {
   },
   fr: {
     ecommerceSeo: "SEO E-commerce",
-    guides: "Guides",
+    academy: "Académie",
     seoTools: "Outils SEO",
     cases: "Études de cas",
     blog: "Blog",
@@ -117,7 +117,7 @@ export const navigationTranslations: Record<Locale, {
   },
   es: {
     ecommerceSeo: "SEO E-commerce",
-    guides: "Guías",
+    academy: "Academia",
     seoTools: "Herramientas SEO",
     cases: "Casos de éxito",
     blog: "Blog",
@@ -148,7 +148,7 @@ export const navigationTranslations: Record<Locale, {
   },
   it: {
     ecommerceSeo: "SEO E-commerce",
-    guides: "Guide",
+    academy: "Accademia",
     seoTools: "Strumenti SEO",
     cases: "Casi studio",
     blog: "Blog",
@@ -179,7 +179,7 @@ export const navigationTranslations: Record<Locale, {
   },
   nl: {
     ecommerceSeo: "E-commerce SEO",
-    guides: "Gidsen",
+    academy: "Academie",
     seoTools: "SEO-tools",
     cases: "Cases",
     blog: "Blog",

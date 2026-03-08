@@ -54,6 +54,7 @@ export const academyT: Record<Locale, AcademyTranslation> = {
           { label: "Ecommerce Ranking Factors", href: "/academy/ecommerce-ranking-factors" },
           { label: "Search Intent for Ecommerce", href: "/academy/search-intent-for-ecommerce" },
           { label: "Google Search Console for Stores", href: "/academy/google-search-console-for-stores" },
+          { label: "The Ecommerce SEO Learning Roadmap", href: "/academy/seo-learning-roadmap" },
         ],
       },
       {
@@ -136,6 +137,7 @@ export const academyT: Record<Locale, AcademyTranslation> = {
           { label: "SEO Reporting for Stakeholders", href: "/academy/seo-reporting-for-stakeholders" },
           { label: "Calculating SEO ROI", href: "/academy/calculating-seo-roi" },
           { label: "SEO Forecasting for Ecommerce", href: "/academy/seo-forecasting-for-ecommerce" },
+          { label: "SEO Task Planning for Ecommerce", href: "/academy/seo-task-planning" },
         ],
       },
       {
@@ -162,6 +164,7 @@ export const academyT: Record<Locale, AcademyTranslation> = {
           { label: "Log File Analysis", href: "/academy/log-file-analysis" },
           { label: "SEO A/B Testing", href: "/academy/seo-ab-testing" },
           { label: "Ecommerce SEO Automation", href: "/academy/ecommerce-seo-automation" },
+          { label: "SERP Domination Strategy", href: "/academy/serp-domination-strategy" },
         ],
       },
       {
@@ -289,6 +292,7 @@ export const academyT: Record<Locale, AcademyTranslation> = {
           { label: "SEO-Berichte fur Stakeholder", href: "/academy/seo-reporting-for-stakeholders" },
           { label: "SEO-ROI berechnen", href: "/academy/calculating-seo-roi" },
           { label: "SEO-Prognosen fur E-Commerce", href: "/academy/seo-forecasting-for-ecommerce" },
+          { label: "SEO-Aufgabenplanung fur E-Commerce", href: "/academy/seo-task-planning" },
         ],
       },
       {
@@ -315,6 +319,7 @@ export const academyT: Record<Locale, AcademyTranslation> = {
           { label: "Logfile-Analyse", href: "/academy/log-file-analysis" },
           { label: "SEO A/B-Tests", href: "/academy/seo-ab-testing" },
           { label: "E-Commerce-SEO-Automatisierung", href: "/academy/ecommerce-seo-automation" },
+          { label: "SERP-Dominanzstrategie", href: "/academy/serp-domination-strategy" },
         ],
       },
       {
@@ -360,6 +365,7 @@ export const academyT: Record<Locale, AcademyTranslation> = {
           { label: "Facteurs de classement e-commerce", href: "/academy/ecommerce-ranking-factors" },
           { label: "Intention de recherche pour l'e-commerce", href: "/academy/search-intent-for-ecommerce" },
           { label: "Google Search Console pour les boutiques", href: "/academy/google-search-console-for-stores" },
+          { label: "Le parcours d'apprentissage SEO e-commerce", href: "/academy/seo-learning-roadmap" },
         ],
       },
       {
@@ -442,6 +448,7 @@ export const academyT: Record<Locale, AcademyTranslation> = {
           { label: "Rapports SEO pour les parties prenantes", href: "/academy/seo-reporting-for-stakeholders" },
           { label: "Calculer le ROI du SEO", href: "/academy/calculating-seo-roi" },
           { label: "Previsions SEO pour l'e-commerce", href: "/academy/seo-forecasting-for-ecommerce" },
+          { label: "Planification des taches SEO e-commerce", href: "/academy/seo-task-planning" },
         ],
       },
       {
@@ -468,6 +475,7 @@ export const academyT: Record<Locale, AcademyTranslation> = {
           { label: "Analyse de fichiers log", href: "/academy/log-file-analysis" },
           { label: "Tests A/B SEO", href: "/academy/seo-ab-testing" },
           { label: "Automatisation SEO e-commerce", href: "/academy/ecommerce-seo-automation" },
+          { label: "Strategie de domination SERP", href: "/academy/serp-domination-strategy" },
         ],
       },
       {
@@ -513,6 +521,7 @@ export const academyT: Record<Locale, AcademyTranslation> = {
           { label: "Factores de ranking en e-commerce", href: "/academy/ecommerce-ranking-factors" },
           { label: "Intencion de busqueda para e-commerce", href: "/academy/search-intent-for-ecommerce" },
           { label: "Google Search Console para tiendas", href: "/academy/google-search-console-for-stores" },
+          { label: "Hoja de ruta de aprendizaje SEO para e-commerce", href: "/academy/seo-learning-roadmap" },
         ],
       },
       {
@@ -595,6 +604,7 @@ export const academyT: Record<Locale, AcademyTranslation> = {
           { label: "Reportes SEO para stakeholders", href: "/academy/seo-reporting-for-stakeholders" },
           { label: "Calcular el ROI del SEO", href: "/academy/calculating-seo-roi" },
           { label: "Pronosticos SEO para e-commerce", href: "/academy/seo-forecasting-for-ecommerce" },
+          { label: "Planificacion de tareas SEO para e-commerce", href: "/academy/seo-task-planning" },
         ],
       },
       {
@@ -621,6 +631,7 @@ export const academyT: Record<Locale, AcademyTranslation> = {
           { label: "Analisis de archivos log", href: "/academy/log-file-analysis" },
           { label: "Tests A/B de SEO", href: "/academy/seo-ab-testing" },
           { label: "Automatizacion SEO e-commerce", href: "/academy/ecommerce-seo-automation" },
+          { label: "Estrategia de dominacion SERP", href: "/academy/serp-domination-strategy" },
         ],
       },
       {
@@ -748,6 +759,7 @@ export const academyT: Record<Locale, AcademyTranslation> = {
           { label: "Report SEO per gli stakeholder", href: "/academy/seo-reporting-for-stakeholders" },
           { label: "Calcolare il ROI della SEO", href: "/academy/calculating-seo-roi" },
           { label: "Previsioni SEO per l'e-commerce", href: "/academy/seo-forecasting-for-ecommerce" },
+          { label: "Pianificazione delle attivita SEO e-commerce", href: "/academy/seo-task-planning" },
         ],
       },
       {
@@ -774,6 +786,7 @@ export const academyT: Record<Locale, AcademyTranslation> = {
           { label: "Analisi dei file di log", href: "/academy/log-file-analysis" },
           { label: "Test A/B SEO", href: "/academy/seo-ab-testing" },
           { label: "Automazione SEO e-commerce", href: "/academy/ecommerce-seo-automation" },
+          { label: "Strategia di dominazione SERP", href: "/academy/serp-domination-strategy" },
         ],
       },
       {
@@ -819,6 +832,7 @@ export const academyT: Record<Locale, AcademyTranslation> = {
           { label: "E-commerce rankingfactoren", href: "/academy/ecommerce-ranking-factors" },
           { label: "Zoekintentie voor e-commerce", href: "/academy/search-intent-for-ecommerce" },
           { label: "Google Search Console voor webshops", href: "/academy/google-search-console-for-stores" },
+          { label: "Het e-commerce SEO-leerpad", href: "/academy/seo-learning-roadmap" },
         ],
       },
       {
@@ -901,6 +915,7 @@ export const academyT: Record<Locale, AcademyTranslation> = {
           { label: "SEO-rapportages voor stakeholders", href: "/academy/seo-reporting-for-stakeholders" },
           { label: "SEO ROI berekenen", href: "/academy/calculating-seo-roi" },
           { label: "SEO-prognoses voor e-commerce", href: "/academy/seo-forecasting-for-ecommerce" },
+          { label: "SEO-taakplanning voor e-commerce", href: "/academy/seo-task-planning" },
         ],
       },
       {
@@ -927,6 +942,7 @@ export const academyT: Record<Locale, AcademyTranslation> = {
           { label: "Logbestandanalyse", href: "/academy/log-file-analysis" },
           { label: "SEO A/B-tests", href: "/academy/seo-ab-testing" },
           { label: "E-commerce SEO-automatisering", href: "/academy/ecommerce-seo-automation" },
+          { label: "SERP-dominantiestrategie", href: "/academy/serp-domination-strategy" },
         ],
       },
       {

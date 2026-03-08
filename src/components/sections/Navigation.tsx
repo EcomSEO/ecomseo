@@ -275,12 +275,12 @@ export default function Navigation() {
                   </button>
                 </div>
 
-                {/* Guides Link */}
+                {/* Academy Link */}
                 <LocaleLink
-                  href="/guides"
+                  href="/academy"
                   className="text-sm text-white/56 hover:text-white transition-colors"
                 >
-                  {t.guides}
+                  {t.academy}
                 </LocaleLink>
 
                 {/* SEO Tools Link */}
@@ -516,13 +516,13 @@ export default function Navigation() {
               )}
             </div>
 
-            {/* Guides Link */}
+            {/* Academy Link */}
             <LocaleLink
-              href="/guides"
+              href="/academy"
               className="block py-3 text-white/70 hover:text-white border-b border-white/[0.06]"
               onClick={() => setMobileOpen(false)}
             >
-              {t.guides}
+              {t.academy}
             </LocaleLink>
 
             {/* SEO Tools Link */}
