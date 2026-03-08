@@ -116,36 +116,34 @@ export default async function AcademyPage({
                       {cluster.description}
                     </p>
 
-                    {/* Topics */}
+                    {/* Lessons */}
                     <div className="mb-1">
                       <p className="text-heading text-xs font-medium uppercase tracking-wider mb-3">
                         {t.whatYouLearn}
                       </p>
                       <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
-                        {cluster.topics.map((topic) => (
+                        {cluster.topics.map((topic, j) => (
                           <LocaleLink
                             key={typeof topic === "string" ? topic : topic.href}
                             href={typeof topic === "string" ? "/academy" : topic.href}
-                            className="flex items-start gap-2.5 group"
+                            className="flex items-center gap-3 group rounded-lg border border-transparent hover:border-border hover:bg-white/[0.03] px-3 py-2.5 -mx-3 transition-all"
                           >
-                            <svg
-                              width="16"
-                              height="16"
-                              viewBox="0 0 24 24"
-                              fill="none"
-                              className="text-accent shrink-0 mt-0.5"
-                            >
-                              <path
-                                d="M20 6L9 17l-5-5"
-                                stroke="currentColor"
-                                strokeWidth="2"
-                                strokeLinecap="round"
-                                strokeLinejoin="round"
-                              />
-                            </svg>
-                            <span className="text-body text-sm group-hover:text-heading transition-colors">
+                            <span className="flex items-center justify-center w-6 h-6 rounded-md bg-accent/10 text-accent text-xs font-medium shrink-0">
+                              {j + 1}
+                            </span>
+                            <span className="text-body text-sm group-hover:text-heading transition-colors flex-1">
                               {typeof topic === "string" ? topic : topic.label}
                             </span>
+                            <svg
+                              width="14"
+                              height="14"
+                              viewBox="0 0 24 24"
+                              fill="none"
+                              className="text-body/0 group-hover:text-accent shrink-0 transition-all opacity-0 group-hover:opacity-100 -translate-x-1 group-hover:translate-x-0"
+                            >
+                              <path d="M5 12h14" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                              <path d="m12 5 7 7-7 7" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                            </svg>
                           </LocaleLink>
                         ))}
                       </div>
