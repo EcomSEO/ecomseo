@@ -1,4 +1,4 @@
-import type { MetadataRoute } from "next";
+import { NextResponse } from "next/server";
 import {
   locales,
   defaultLocale,
@@ -7,19 +7,20 @@ import {
 import { caseStudies, getAllCaseSlugs } from "@/data/caseStudies";
 
 /**
- * Sitemap organized to match clean reference structure:
- * - No hreflang alternates (handled in HTML <head> via Next.js metadata)
+ * Custom sitemap route that outputs properly formatted XML.
+ *
+ * Structure matches the hike-footwear.com reference:
+ * - Clean indented XML with proper line breaks
+ * - image:image namespace for case study images
+ * - No hreflang alternates (handled in HTML <head>)
  * - Logical grouping by content type
  * - Granular priority tiers
- * - Image sitemap support for case studies
- * - Appropriate changeFrequency per content type
  */
 
 /* ------------------------------------------------------------------ */
 /*  Helpers                                                            */
 /* ------------------------------------------------------------------ */
 
-/** Build public URL for a locale + path. Default locale -> root. */
 function localeUrl(locale: string, path: string): string {
   const cleanPath = path === "/" ? "" : path;
   if (locale === defaultLocale) {
@@ -28,47 +29,63 @@ function localeUrl(locale: string, path: string): string {
   return `${BASE_URL}/${locale}${cleanPath}`;
 }
 
-/** Push entries for a page across all locales */
-function addPage(
-  entries: MetadataRoute.Sitemap,
-  path: string,
-  opts: {
-    priority: number;
-    changeFrequency: "always" | "hourly" | "daily" | "weekly" | "monthly" | "yearly" | "never";
-    images?: string[];
-  },
+function escapeXml(str: string): string {
+  return str
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&apos;");
+}
+
+interface UrlEntry {
+  loc: string;
+  lastmod: string;
+  changefreq: string;
+  priority: string;
+  images?: string[];
+}
+
+function urlBlock(entry: UrlEntry): string {
+  let block = `  <url>\n`;
+  block += `    <loc>${escapeXml(entry.loc)}</loc>\n`;
+  if (entry.images?.length) {
+    for (const img of entry.images) {
+      block += `    <image:image>\n`;
+      block += `      <image:loc>${escapeXml(img)}</image:loc>\n`;
+      block += `    </image:image>\n`;
+    }
+  }
+  block += `    <lastmod>${entry.lastmod}</lastmod>\n`;
+  block += `    <changefreq>${entry.changefreq}</changefreq>\n`;
+  block += `    <priority>${entry.priority}</priority>\n`;
+  block += `  </url>\n`;
+  return block;
+}
+
+function addPages(
+  entries: UrlEntry[],
+  paths: string[],
+  opts: { priority: number; changefreq: string; lastmod: string },
 ) {
-  for (const locale of locales) {
-    entries.push({
-      url: localeUrl(locale, path),
-      lastModified: new Date(),
-      changeFrequency: opts.changeFrequency,
-      priority: opts.priority,
-      ...(opts.images?.length ? { images: opts.images } : {}),
-    });
+  for (const path of paths) {
+    for (const locale of locales) {
+      entries.push({
+        loc: localeUrl(locale, path),
+        lastmod: opts.lastmod,
+        changefreq: opts.changefreq,
+        priority: opts.priority.toFixed(1),
+      });
+    }
   }
 }
 
 /* ------------------------------------------------------------------ */
-/*  Excluded routes                                                    */
+/*  URL groups — ordered by importance                                 */
 /* ------------------------------------------------------------------ */
 
-const excludedRoutes = new Set(["/thank-you-payment", "/client-dashboard"]);
+const coreServices = ["/shopify-seo", "/ecommerce-seo"];
 
-/* ------------------------------------------------------------------ */
-/*  URL groups — ordered by importance (top = highest priority)        */
-/* ------------------------------------------------------------------ */
-
-// Group 1: Homepages
-const homepages = ["/"];
-
-// Group 2: Core service pages (top money pages)
-const coreServices = [
-  "/shopify-seo",
-  "/ecommerce-seo",
-];
-
-// Group 3: Service sub-pages
 const serviceSubPages = [
   "/ecommerce-seo-platforms",
   "/ecommerce-seo-industries",
@@ -78,7 +95,6 @@ const serviceSubPages = [
   "/content-writing",
 ];
 
-// Group 4: Platform-specific pages
 const platformPages = [
   "/adobe-commerce-seo",
   "/woocommerce-seo",
@@ -86,7 +102,6 @@ const platformPages = [
   "/amazon-seo",
 ];
 
-// Group 5: Industry pages
 const industryPages = [
   "/fashion-seo",
   "/beauty-seo",
@@ -94,7 +109,6 @@ const industryPages = [
   "/toys-seo",
 ];
 
-// Group 6: Guides (educational hub)
 const guidePages = [
   "/guides",
   "/guides/fundamentals",
@@ -113,17 +127,14 @@ const guidePages = [
   "/guides/serp-domination",
 ];
 
-// Group 7: Academy (learning hub)
 const academyPages = [
   "/academy",
-  // Cluster 1: Search Fundamentals
   "/academy/introduction-to-ecommerce-seo",
   "/academy/how-google-finds-online-stores",
   "/academy/crawling-and-indexing-product-pages",
   "/academy/ecommerce-ranking-factors",
   "/academy/search-intent-for-ecommerce",
   "/academy/google-search-console-for-stores",
-  // Cluster 2: Keyword Research
   "/academy/keyword-research-for-ecommerce",
   "/academy/buyer-intent-vs-search-volume",
   "/academy/product-vs-category-keywords",
@@ -131,7 +142,6 @@ const academyPages = [
   "/academy/competitor-keyword-analysis",
   "/academy/keyword-mapping-for-stores",
   "/academy/seasonal-keyword-trends",
-  // Cluster 3: On-Page SEO
   "/academy/product-page-seo",
   "/academy/category-page-seo",
   "/academy/homepage-seo-for-ecommerce",
@@ -140,7 +150,6 @@ const academyPages = [
   "/academy/internal-linking-for-stores",
   "/academy/image-optimization-for-products",
   "/academy/ecommerce-blog-seo",
-  // Cluster 4: Technical SEO
   "/academy/site-architecture-for-ecommerce",
   "/academy/crawl-budget-management",
   "/academy/site-speed-optimization",
@@ -149,33 +158,28 @@ const academyPages = [
   "/academy/canonical-tags-for-ecommerce",
   "/academy/robots-txt-and-xml-sitemaps",
   "/academy/faceted-navigation-seo",
-  // Cluster 5: Content & Authority
   "/academy/topical-authority-for-ecommerce",
   "/academy/buying-guides-and-comparisons",
   "/academy/faq-pages-for-ecommerce",
   "/academy/content-strategy-for-stores",
   "/academy/content-pruning-and-consolidation",
   "/academy/user-generated-content-seo",
-  // Cluster 6: Link Building
   "/academy/backlink-fundamentals-for-ecommerce",
   "/academy/competitor-backlink-analysis",
   "/academy/digital-pr-for-ecommerce",
   "/academy/email-outreach-for-links",
   "/academy/guest-posting-for-ecommerce",
   "/academy/broken-link-building",
-  // Cluster 7: Measuring Results
   "/academy/seo-analytics-with-ga4",
   "/academy/rank-tracking-for-ecommerce",
   "/academy/seo-reporting-for-stakeholders",
   "/academy/calculating-seo-roi",
   "/academy/seo-forecasting-for-ecommerce",
-  // Cluster 8: SEO by Platform
   "/academy/shopify-seo-guide",
   "/academy/woocommerce-seo-guide",
   "/academy/magento-seo-guide",
   "/academy/bigcommerce-seo-guide",
   "/academy/platform-migration-seo",
-  // Cluster 9: Advanced SEO
   "/academy/international-ecommerce-seo",
   "/academy/programmatic-seo-for-ecommerce",
   "/academy/ai-search-optimization",
@@ -183,7 +187,6 @@ const academyPages = [
   "/academy/log-file-analysis",
   "/academy/seo-ab-testing",
   "/academy/ecommerce-seo-automation",
-  // Cluster 10: Industry Playbooks
   "/academy/fashion-apparel-seo",
   "/academy/health-beauty-seo",
   "/academy/food-beverage-seo",
@@ -191,7 +194,6 @@ const academyPages = [
   "/academy/home-garden-seo",
 ];
 
-// Group 8: Resources
 const resourcePages = [
   "/resources",
   "/resources/crash-course",
@@ -201,7 +203,6 @@ const resourcePages = [
   "/resources/why-we-share",
 ];
 
-// Group 9: Tools
 const toolPages = [
   "/tools",
   "/tools/shopify-seo-audit",
@@ -229,7 +230,6 @@ const toolPages = [
   "/tools/sitemap-extractor",
 ];
 
-// Group 10: Blog
 const blogPages = [
   "/blog",
   "/blog/ecommerce-seo",
@@ -265,7 +265,6 @@ const blogPages = [
   "/blog/author/fabian-van-til",
 ];
 
-// Group 11: Team
 const teamSlugs = [
   "fabian-van-til",
   "martinijan-trajkovski",
@@ -273,7 +272,6 @@ const teamSlugs = [
   "gjorgi-jovev",
 ];
 
-// Group 12: Utility pages
 const utilityPages = [
   "/contact",
   "/faq",
@@ -285,64 +283,45 @@ const utilityPages = [
 ];
 
 /* ------------------------------------------------------------------ */
-/*  Build sitemap                                                      */
+/*  GET /sitemap.xml                                                   */
 /* ------------------------------------------------------------------ */
 
-export default function sitemap(): MetadataRoute.Sitemap {
-  const entries: MetadataRoute.Sitemap = [];
+export async function GET() {
+  const lastmod = new Date().toISOString();
+  const entries: UrlEntry[] = [];
 
-  // ── 1. Homepages ── priority 1.0 | weekly
-  for (const path of homepages) {
-    addPage(entries, path, { priority: 1.0, changeFrequency: "weekly" });
-  }
+  // 1. Homepages — priority 1.0 | weekly
+  addPages(entries, ["/"], { priority: 1.0, changefreq: "weekly", lastmod });
 
-  // ── 2. Core services ── priority 0.9 | weekly
-  for (const path of coreServices) {
-    addPage(entries, path, { priority: 0.9, changeFrequency: "weekly" });
-  }
+  // 2. Core services — priority 0.9 | weekly
+  addPages(entries, coreServices, { priority: 0.9, changefreq: "weekly", lastmod });
 
-  // ── 3. Service sub-pages ── priority 0.85 | monthly
-  for (const path of serviceSubPages) {
-    addPage(entries, path, { priority: 0.85, changeFrequency: "monthly" });
-  }
+  // 3. Service sub-pages — priority 0.8 | monthly
+  addPages(entries, serviceSubPages, { priority: 0.8, changefreq: "monthly", lastmod });
 
-  // ── 4. Platform pages ── priority 0.8 | monthly
-  for (const path of platformPages) {
-    addPage(entries, path, { priority: 0.8, changeFrequency: "monthly" });
-  }
+  // 4. Platform pages — priority 0.8 | monthly
+  addPages(entries, platformPages, { priority: 0.8, changefreq: "monthly", lastmod });
 
-  // ── 5. Industry pages ── priority 0.8 | monthly
-  for (const path of industryPages) {
-    addPage(entries, path, { priority: 0.8, changeFrequency: "monthly" });
-  }
+  // 5. Industry pages — priority 0.8 | monthly
+  addPages(entries, industryPages, { priority: 0.8, changefreq: "monthly", lastmod });
 
-  // ── 6. Guides ── priority 0.85 | weekly
-  for (const path of guidePages) {
-    addPage(entries, path, { priority: 0.85, changeFrequency: "weekly" });
-  }
+  // 6. Guides — priority 0.9 | weekly
+  addPages(entries, guidePages, { priority: 0.9, changefreq: "weekly", lastmod });
 
-  // ── 7. Academy ── priority 0.75 | monthly
-  for (const path of academyPages) {
-    addPage(entries, path, { priority: 0.75, changeFrequency: "monthly" });
-  }
+  // 7. Academy — priority 0.8 | monthly
+  addPages(entries, academyPages, { priority: 0.8, changefreq: "monthly", lastmod });
 
-  // ── 8. Resources ── priority 0.7 | monthly
-  for (const path of resourcePages) {
-    addPage(entries, path, { priority: 0.7, changeFrequency: "monthly" });
-  }
+  // 8. Resources — priority 0.7 | monthly
+  addPages(entries, resourcePages, { priority: 0.7, changefreq: "monthly", lastmod });
 
-  // ── 9. Tools ── priority 0.7 | monthly
-  for (const path of toolPages) {
-    addPage(entries, path, { priority: 0.7, changeFrequency: "monthly" });
-  }
+  // 9. Tools — priority 0.7 | monthly
+  addPages(entries, toolPages, { priority: 0.7, changefreq: "monthly", lastmod });
 
-  // ── 10. Blog ── priority 0.7 | weekly
-  for (const path of blogPages) {
-    addPage(entries, path, { priority: 0.7, changeFrequency: "weekly" });
-  }
+  // 10. Blog — priority 0.7 | weekly
+  addPages(entries, blogPages, { priority: 0.7, changefreq: "weekly", lastmod });
 
-  // ── 11. Case studies ── priority 0.7 | monthly (with images)
-  addPage(entries, "/cases", { priority: 0.7, changeFrequency: "monthly" });
+  // 11. Case studies — priority 0.7 | monthly (with images)
+  addPages(entries, ["/cases"], { priority: 0.7, changefreq: "monthly", lastmod });
 
   for (const slug of getAllCaseSlugs()) {
     const study = caseStudies.find((cs) => cs.slug === slug);
@@ -351,27 +330,42 @@ export default function sitemap(): MetadataRoute.Sitemap {
     if (study?.image1) images.push(`${BASE_URL}${study.image1}`);
     if (study?.image2) images.push(`${BASE_URL}${study.image2}`);
 
-    addPage(entries, `/cases/${slug}`, {
-      priority: 0.7,
-      changeFrequency: "monthly",
-      images: images.length > 0 ? images : undefined,
-    });
+    for (const locale of locales) {
+      entries.push({
+        loc: localeUrl(locale, `/cases/${slug}`),
+        lastmod,
+        changefreq: "monthly",
+        priority: "0.7",
+        ...(images.length > 0 ? { images } : {}),
+      });
+    }
   }
 
-  // ── 12. Team ── priority 0.6 | monthly
-  addPage(entries, "/team", { priority: 0.6, changeFrequency: "monthly" });
-
+  // 12. Team — priority 0.6 | monthly
+  addPages(entries, ["/team"], { priority: 0.6, changefreq: "monthly", lastmod });
   for (const slug of teamSlugs) {
-    addPage(entries, `/team/${slug}`, {
-      priority: 0.6,
-      changeFrequency: "monthly",
-    });
+    addPages(entries, [`/team/${slug}`], { priority: 0.6, changefreq: "monthly", lastmod });
   }
 
-  // ── 13. Utility pages ── priority 0.5 | yearly
-  for (const path of utilityPages) {
-    addPage(entries, path, { priority: 0.5, changeFrequency: "yearly" });
+  // 13. Utility pages — priority 0.5 | yearly
+  addPages(entries, utilityPages, { priority: 0.5, changefreq: "yearly", lastmod });
+
+  // Build formatted XML
+  let xml = `<?xml version="1.0" encoding="UTF-8"?>\n`;
+  xml += `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"\n`;
+  xml += `        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">\n`;
+
+  for (const entry of entries) {
+    xml += urlBlock(entry);
   }
 
-  return entries;
+  xml += `</urlset>\n`;
+
+  return new NextResponse(xml, {
+    status: 200,
+    headers: {
+      "Content-Type": "application/xml",
+      "Cache-Control": "public, max-age=3600, s-maxage=3600",
+    },
+  });
 }
