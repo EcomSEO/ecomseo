@@ -92,12 +92,13 @@ export default async function CaseStudyPage({
             </div>
 
             {/* Hero Image */}
-            <div className="w-full max-w-[1040px] relative rounded-3xl overflow-hidden aspect-[1040/650]">
+            <div className="w-full max-w-[1040px]">
               <Image
                 src={cs.heroImage}
                 alt={cs.title}
-                fill
-                className="object-cover"
+                width={1040}
+                height={650}
+                className="w-full h-auto rounded-3xl"
                 priority
               />
             </div>
@@ -110,12 +111,13 @@ export default async function CaseStudyPage({
             </div>
 
             {/* Image 1 */}
-            <div className="w-full max-w-[1040px] relative rounded-3xl overflow-hidden aspect-[1040/300]">
+            <div className="w-full max-w-[1040px]">
               <Image
                 src={cs.image1}
                 alt={t.imageAlt1}
-                fill
-                className="object-cover"
+                width={1040}
+                height={400}
+                className="w-full h-auto rounded-3xl"
               />
             </div>
 
@@ -128,12 +130,13 @@ export default async function CaseStudyPage({
 
             {/* Image 2 (optional) */}
             {cs.image2 && (
-              <div className="w-full max-w-[1040px] relative rounded-3xl overflow-hidden aspect-[1040/650]">
+              <div className="w-full max-w-[1040px]">
                 <Image
                   src={cs.image2}
                   alt={t.imageAlt2}
-                  fill
-                  className="object-cover"
+                  width={1040}
+                  height={650}
+                  className="w-full h-auto rounded-3xl"
                 />
               </div>
             )}
