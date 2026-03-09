@@ -77,8 +77,14 @@ export function addPages(
 /* ------------------------------------------------------------------ */
 
 export function wrapUrlset(entries: UrlEntry[]): string {
+  const hasImages = entries.some((e) => e.images && e.images.length > 0);
+
   let xml = `<?xml version="1.0" encoding="UTF-8"?>\n`;
-  xml += `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">\n`;
+  if (hasImages) {
+    xml += `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">\n`;
+  } else {
+    xml += `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n`;
+  }
 
   for (const entry of entries) {
     xml += urlBlock(entry);
@@ -92,7 +98,7 @@ export function sitemapResponse(xml: string): NextResponse {
   return new NextResponse(xml, {
     status: 200,
     headers: {
-      "Content-Type": "application/xml",
+      "Content-Type": "text/xml; charset=UTF-8",
       "Cache-Control": "public, max-age=3600, s-maxage=3600",
     },
   });
