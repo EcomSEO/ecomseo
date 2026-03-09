@@ -8,22 +8,28 @@ import {
 } from "./config";
 import { getDictionary } from "./getDictionary";
 
-/** Build hreflang alternates for a given path (e.g. "/shopify-seo") */
-export function generateAlternates(path: string) {
+/** Build hreflang alternates + canonical for a given path (e.g. "/shopify-seo") */
+export function generateAlternates(path: string, locale?: Locale) {
   const cleanPath = path === "/" ? "" : path;
   const languages: Record<string, string> = {};
 
-  for (const { hreflang, locale } of hreflangEntries) {
-    if (locale === defaultLocale) {
+  for (const { hreflang, locale: loc } of hreflangEntries) {
+    if (loc === defaultLocale) {
       // Default locale (en) → root URL, no /en/ prefix
       languages[hreflang] = `${BASE_URL}${cleanPath || "/"}`;
     } else {
-      languages[hreflang] = `${BASE_URL}/${locale}${cleanPath}`;
+      languages[hreflang] = `${BASE_URL}/${loc}${cleanPath}`;
     }
   }
 
+  const canonical = locale
+    ? locale === defaultLocale
+      ? `${BASE_URL}${cleanPath || "/"}`
+      : `${BASE_URL}/${locale}${cleanPath}`
+    : undefined;
+
   return {
-    canonical: undefined as string | undefined,
+    canonical: canonical as string | undefined,
     languages,
   };
 }
@@ -41,7 +47,7 @@ export async function buildPageMetadata(
   if (!entry) {
     // fallback - shouldn't happen if dictionaries are complete
     return {
-      alternates: generateAlternates(path),
+      alternates: generateAlternates(path, locale),
       ...overrides,
     };
   }
@@ -54,8 +60,7 @@ export async function buildPageMetadata(
       ? `${BASE_URL}${cleanPath || "/"}`
       : `${BASE_URL}/${locale}${cleanPath}`;
 
-  const alternates = generateAlternates(path);
-  alternates.canonical = url;
+  const alternates = generateAlternates(path, locale);
 
   return {
     title: entry.title,

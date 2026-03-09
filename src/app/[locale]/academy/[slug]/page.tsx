@@ -27,7 +27,7 @@ export async function generateMetadata({
   return {
     title: `${t.heading} - EcomSEO Academy | EcomSEO`,
     description: t.intro.slice(0, 160),
-    alternates: generateAlternates(`/academy/${slug}`),
+    alternates: generateAlternates(`/academy/${slug}`, locale as Locale),
     openGraph: {
       title: `${t.heading} - EcomSEO Academy`,
       description: t.intro.slice(0, 160),

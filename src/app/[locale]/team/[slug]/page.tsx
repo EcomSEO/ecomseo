@@ -223,7 +223,7 @@ export async function generateMetadata({
   return {
     title: `${member.name} \u2014 ${member.role} | EcomSEO`,
     description: member.tagline,
-    alternates: generateAlternates(`/team/${slug}`),
+    alternates: generateAlternates(`/team/${slug}`, locale as Locale),
     openGraph: {
       title: `${member.name} \u2014 ${member.role} | EcomSEO`,
       description: member.tagline,

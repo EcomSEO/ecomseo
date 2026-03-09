@@ -29,7 +29,7 @@ export async function generateMetadata({
   return {
     title: `${article.title} | EcomSEO`,
     description: article.description,
-    alternates: generateAlternates(`/blog/${slug}`),
+    alternates: generateAlternates(`/blog/${slug}`, locale),
     openGraph: {
       title: article.title,
       description: article.description,

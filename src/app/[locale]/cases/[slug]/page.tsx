@@ -24,7 +24,7 @@ export async function generateMetadata({
   return {
     title: `${cs.title} | EcomSEO`,
     description: cs.description.slice(0, 155),
-    alternates: generateAlternates(`/cases/${slug}`),
+    alternates: generateAlternates(`/cases/${slug}`, locale as Locale),
     openGraph: {
       title: cs.title,
       description: cs.description.slice(0, 155),

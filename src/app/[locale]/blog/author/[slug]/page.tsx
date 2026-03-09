@@ -60,7 +60,7 @@ export async function generateMetadata({
   return {
     title,
     description,
-    alternates: generateAlternates(`/blog/author/${slug}`),
+    alternates: generateAlternates(`/blog/author/${slug}`, locale),
     openGraph: {
       title,
       description,

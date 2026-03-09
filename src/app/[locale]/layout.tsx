@@ -18,7 +18,7 @@ export async function generateMetadata({
 
   return {
     metadataBase: new URL(BASE_URL),
-    alternates: generateAlternates("/"),
+    alternates: generateAlternates("/", loc),
     openGraph: {
       siteName: "EcomSEO",
       locale: ogLocaleMap[loc] || "en_GB",
