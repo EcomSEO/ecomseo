@@ -2,8 +2,8 @@ import type { BlogArticle } from "../types";
 
 export const b2bEcommerceSeo: BlogArticle = {
   slug: "b2b-ecommerce-seo",
-  title: "B2B ecommerce SEO: strategies for wholesale success",
-  description: "B2B ecommerce SEO differs from B2C in fundamental ways. Learn how to optimize your wholesale store for longer sales cycles, complex catalogs, and buyer intent.",
+  title: "B2B Ecommerce SEO: Wholesale Store Strategies",
+  description: "B2B ecommerce SEO differs from B2C in fundamental ways. Optimize your wholesale store for longer sales cycles, complex catalogs, and buyer intent.",
   category: "industry",
   publishDate: "2025-07-10",
   readingTime: 11,

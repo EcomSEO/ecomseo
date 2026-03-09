@@ -2,8 +2,8 @@ import type { BlogArticle } from "../types";
 
 export const ecommerceSeoMistakes: BlogArticle = {
   slug: "ecommerce-seo-mistakes",
-  title: "Ecommerce SEO mistakes: 10 common pitfalls and how to fix them",
-  description: "We audit ecommerce stores every week. These are the 10 SEO mistakes we find most often, why they happen, what damage they cause, and exactly how to fix them.",
+  title: "10 Ecommerce SEO Mistakes and How to Fix Them",
+  description: "We audit ecommerce stores every week. These are the 10 SEO mistakes we find most often, why they happen, the damage they cause, and how to fix them.",
   category: "strategy",
   publishDate: "2025-07-10",
   readingTime: 12,

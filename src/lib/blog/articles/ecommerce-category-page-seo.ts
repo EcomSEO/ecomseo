@@ -2,7 +2,7 @@ import type { BlogArticle } from "../types";
 
 export const ecommerceCategoryPageSeo: BlogArticle = {
   slug: "ecommerce-category-page-seo",
-  title: "Ecommerce category page SEO: drive traffic to collections",
+  title: "Category Page SEO: Drive Ecommerce Traffic",
   description: "Optimize ecommerce category pages for SEO. Learn how to write descriptions, handle faceted navigation, fix pagination, and build internal links.",
   category: "on-page",
   publishDate: "2025-06-22",

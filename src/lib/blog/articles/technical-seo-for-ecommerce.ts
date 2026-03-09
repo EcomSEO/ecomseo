@@ -2,7 +2,7 @@ import type { BlogArticle } from "../types";
 
 export const technicalSeoForEcommerce: BlogArticle = {
   slug: "technical-seo-for-ecommerce",
-  title: "Technical SEO for ecommerce: fix issues that kill rankings",
+  title: "Technical SEO for Ecommerce: Fix Key Issues",
   description: "Fix the technical SEO issues that prevent ecommerce stores from ranking. Covers crawl budget, site speed, canonicals, sitemaps, and Core Web Vitals.",
   category: "technical",
   publishDate: "2025-06-22",

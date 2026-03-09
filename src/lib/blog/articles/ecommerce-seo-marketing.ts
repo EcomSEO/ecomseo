@@ -2,7 +2,7 @@ import type { BlogArticle } from "../types";
 
 export const ecommerceSeoMarketing: BlogArticle = {
   slug: "ecommerce-seo-marketing",
-  title: "Ecommerce SEO marketing: integrate for maximum growth",
+  title: "Ecommerce SEO Marketing: Integrate for Growth",
   description: "Learn how to integrate SEO with PPC, email, and social media for ecommerce growth. Practical strategies for cross-channel marketing and budget allocation.",
   category: "strategy",
   publishDate: "2025-07-18",

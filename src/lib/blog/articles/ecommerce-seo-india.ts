@@ -2,8 +2,8 @@ import type { BlogArticle } from "../types";
 
 export const ecommerceSeoIndia: BlogArticle = {
   slug: "ecommerce-seo-india",
-  title: "Ecommerce SEO in India: trends and best practices",
-  description: "India's ecommerce market demands a mobile-first, multilingual SEO approach. Learn how to optimize for Indian shoppers, compete with marketplaces, and grow organic traffic.",
+  title: "Ecommerce SEO in India: Trends and Practices",
+  description: "India's ecommerce market demands a mobile-first, multilingual SEO approach. Optimize for Indian shoppers, compete with marketplaces, and grow organic.",
   category: "industry",
   publishDate: "2025-07-10",
   readingTime: 10,

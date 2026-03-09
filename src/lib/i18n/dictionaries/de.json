@@ -1,27 +1,27 @@
 {
   "/": {
     "title": "EcomSEO - Gewinnorientierte Ecommerce SEO Agentur",
-    "description": "Wir helfen Ecommerce-Marken, organischen Umsatz mit datengetriebenen SEO-Strategien zu skalieren. Spezialisiert auf Shopify, WooCommerce, BigCommerce & mehr.",
+    "description": "Wir helfen Ecommerce-Marken, organischen Umsatz mit datengetriebenen SEO-Strategien zu skalieren. Shopify, WooCommerce, BigCommerce & mehr.",
     "ogTitle": "EcomSEO - Gewinnorientierte Ecommerce SEO Agentur"
   },
   "/shopify-seo": {
     "title": "Shopify SEO Agentur | EcomSEO",
-    "description": "Wir analysieren, optimieren und skalieren den organischen Traffic für Shopify und Shopify Plus Shops. Verlieren Sie keinen Umsatz mehr an Ihre Wettbewerber mit unseren spezialisierten Shopify SEO Leistungen.",
+    "description": "Wir analysieren, optimieren und skalieren den organischen Traffic fuer Shopify und Shopify Plus Shops. Spezialisierte Shopify SEO Leistungen.",
     "ogTitle": "Shopify SEO, das wirklich Umsatz bringt | EcomSEO"
   },
   "/ecommerce-seo": {
     "title": "Ecommerce SEO Agentur | EcomSEO",
-    "description": "Ecommerce SEO Agentur, die organischen Traffic für Online-Shops analysiert, optimiert und skaliert. Wir haben unseren Kunden geholfen, 8-stellige organische Umsätze zu erzielen.",
+    "description": "Ecommerce SEO Agentur, die organischen Traffic fuer Online-Shops analysiert, optimiert und skaliert. Unsere Kunden erzielen 8-stellige Umsaetze.",
     "ogTitle": "Ecommerce SEO Leistungen, die Ihren Umsatz steigern | EcomSEO"
   },
   "/link-building": {
     "title": "Ecommerce Linkaufbau Agentur | EcomSEO",
-    "description": "Professioneller Linkaufbau für Ecommerce-Shops. Wir sichern hochwertige Backlinks, die organischen Traffic steigern und Ihre Suchmaschinen-Rankings verbessern.",
+    "description": "Professioneller Linkaufbau fuer Ecommerce-Shops. Wir sichern hochwertige Backlinks, die organischen Traffic und Ihre Rankings verbessern.",
     "ogTitle": "Linkaufbau, der Ecommerce wirklich voranbringt | EcomSEO"
   },
   "/keyword-research": {
     "title": "Ecommerce Keyword-Recherche | EcomSEO",
-    "description": "Umsatzorientierte Keyword-Recherche für Ecommerce-Marken. Wir identifizieren hochkonvertierende Keywords, die qualifizierten Traffic und echten Umsatz bringen.",
+    "description": "Umsatzorientierte Keyword-Recherche fuer Ecommerce-Marken. Wir identifizieren Keywords, die qualifizierten Traffic und echten Umsatz bringen.",
     "ogTitle": "Umsatzorientierte Keyword-Recherche für Ecommerce-Marken | EcomSEO"
   },
   "/content-writing": {
@@ -31,7 +31,7 @@
   },
   "/adobe-commerce-seo": {
     "title": "Adobe Commerce SEO Agentur | EcomSEO",
-    "description": "Adobe Commerce (Magento) SEO Leistungen für Enterprise Ecommerce. Wir analysieren, optimieren und skalieren den organischen Traffic für Adobe Commerce Shops.",
+    "description": "Adobe Commerce (Magento) SEO fuer Enterprise Ecommerce. Wir analysieren, optimieren und skalieren den organischen Traffic fuer Ihre Shops.",
     "ogTitle": "Adobe Commerce SEO für Enterprise Ecommerce | EcomSEO"
   },
   "/woocommerce-seo": {
@@ -61,7 +61,7 @@
   },
   "/consumables-seo": {
     "title": "Verbrauchsgüter SEO Agentur | EcomSEO",
-    "description": "Verbrauchsgüter Ecommerce SEO, das wiederkehrenden Umsatz antreibt. Wir helfen Lebensmittel-, Supplement- und Verbrauchsgütermarken, organischen Traffic zu skalieren.",
+    "description": "Verbrauchsgueter Ecommerce SEO, das wiederkehrenden Umsatz antreibt. Wir helfen Lebensmittel- und Supplement-Marken, organisch zu skalieren.",
     "ogTitle": "Verbrauchsgüter SEO, das wiederkehrenden Umsatz antreibt | EcomSEO"
   },
   "/toys-seo": {
@@ -71,12 +71,12 @@
   },
   "/cases": {
     "title": "Fallstudien - Echte SEO-Ergebnisse | EcomSEO",
-    "description": "Sehen Sie, wie wir Ecommerce-Marken geholfen haben, organischen Traffic und Umsatz zu skalieren. Echte Ergebnisse, echte Zahlen, echte Wachstumsgeschichten.",
+    "description": "Sehen Sie, wie wir Ecommerce-Marken geholfen haben, organischen Traffic und Umsatz zu skalieren. Echte Ergebnisse, echte Wachstumsgeschichten.",
     "ogTitle": "Fallstudien - Echte SEO-Ergebnisse | EcomSEO"
   },
   "/team": {
     "title": "Unser Team | EcomSEO",
-    "description": "Lernen Sie die Menschen hinter EcomSEO kennen. Ein Team von Ecommerce SEO Spezialisten, das sich der Skalierung Ihres organischen Umsatzes verschrieben hat.",
+    "description": "Lernen Sie die Menschen hinter EcomSEO kennen. Ein Team von Ecommerce SEO Spezialisten, das Ihren organischen Umsatz skaliert.",
     "ogTitle": "Unser Team | EcomSEO"
   },
   "/contact": {
@@ -100,18 +100,18 @@
     "ogTitle": "Vom Anfänger zum Profi - Ecommerce SEO Crashkurs | EcomSEO"
   },
   "/resources/crash-course/changelog-page": {
-    "title": "Performance-Updates & neue Funktionen | Ecommerce SEO Crashkurs",
+    "title": "Performance-Updates & Neues | Ecommerce SEO Kurs",
     "description": "Neueste Updates und neue Funktionen im Ecommerce SEO Crashkurs.",
-    "ogTitle": "Performance-Updates & neue Funktionen | Ecommerce SEO Crashkurs"
+    "ogTitle": "Performance-Updates & Neues | Ecommerce SEO Kurs"
   },
   "/resources/search-product-discovery": {
-    "title": "AI Shopping - Bringen Sie Ihre Produkte auf LLMs wie ChatGPT | EcomSEO",
+    "title": "AI Shopping - Produkte auf LLMs wie ChatGPT",
     "description": "Ihre Produkte sind auf AI unsichtbar. Sie können noch heute etwas dagegen tun. Vielleicht die größte Chance in 2025.",
-    "ogTitle": "AI Shopping - Bringen Sie Ihre Produkte auf LLMs wie ChatGPT | EcomSEO"
+    "ogTitle": "AI Shopping - Produkte auf LLMs wie ChatGPT"
   },
   "/resources/shopify-on-page-checklist": {
     "title": "Premium Shopify On-Page SEO Checkliste | EcomSEO",
-    "description": "Wir haben eine Checkliste für Ecommerce-Marken auf Shopify erstellt, die bei Google höher ranken wollen. Genau dieser Prozess hat unseren Kunden 8-stellige Umsätze ermöglicht.",
+    "description": "Eine Checkliste fuer Ecommerce-Marken auf Shopify, die bei Google hoeher ranken wollen. Dieser Prozess hat unseren Kunden 8-stellige Umsaetze gebracht.",
     "ogTitle": "Premium Shopify On-Page SEO Checkliste | EcomSEO"
   },
   "/resources/why-we-share": {
@@ -140,9 +140,9 @@
     "ogTitle": "Analytics & Tracking für Ecommerce SEO | EcomSEO Leitfäden"
   },
   "/guides/beginner-to-hero": {
-    "title": "Einsteiger zum Experten: Vollständiger Ecommerce SEO Lernpfad | EcomSEO",
+    "title": "Einsteiger zum Experten: Ecommerce SEO Lernpfad",
     "description": "Ein strukturierter 10-Wochen-Pfad von null SEO-Kenntnissen bis zur Leitung eines vollständigen Ecommerce-SEO-Programms. Schritt für Schritt erklärt.",
-    "ogTitle": "Einsteiger zum Experten: Ecommerce SEO Lernpfad | EcomSEO"
+    "ogTitle": "Einsteiger zum Experten: Ecommerce SEO Lernpfad"
   },
   "/guides/keyword-research": {
     "title": "Ecommerce Keyword-Recherche Leitfaden | EcomSEO Leitfäden",
@@ -180,9 +180,9 @@
     "ogTitle": "Linkaufbau-Taktiken für Ecommerce | EcomSEO Leitfäden"
   },
   "/guides/topical-authority": {
-    "title": "Thematische Autorität für Ecommerce aufbauen | EcomSEO Leitfäden",
+    "title": "Thematische Autoritaet fuer Ecommerce | EcomSEO",
     "description": "Thematische Autorität mit Content-Clustern, Hub-and-Spoke-Architektur und strategischer interner Verlinkung für Ihren Shop aufbauen.",
-    "ogTitle": "Thematische Autorität für Ecommerce | EcomSEO Leitfäden"
+    "ogTitle": "Thematische Autoritaet fuer Ecommerce | EcomSEO"
   },
   "/guides/ranking-chatgpt": {
     "title": "Bei ChatGPT & KI-Suche ranken | EcomSEO Leitfäden",
@@ -205,7 +205,7 @@
     "ogTitle": "Intent-Matching-Tool - AI Keyword-Analyse | EcomSEO"
   },
   "/premium-on-page-seo-checklist": {
-    "title": "Premium On-Page SEO Checkliste - Millionen-Umsätze organisch generieren | EcomSEO",
+    "title": "Premium On-Page SEO Checkliste | EcomSEO",
     "description": "Ecom-Betreiber aufgepasst! Diese On-Page SEO Checkliste ist alles, was Sie brauchen, um Millionen organisch über Google zu generieren.",
     "ogTitle": "Premium On-Page SEO Checkliste | EcomSEO"
   },
@@ -235,18 +235,18 @@
     "ogTitle": "E-Commerce SEO Blog | EcomSEO"
   },
   "/ecommerce-seo-platforms": {
-    "title": "E-Commerce SEO nach Plattform | Shopify, WooCommerce, BigCommerce | EcomSEO",
-    "description": "Plattform-natives E-Commerce SEO fuer Shopify, WooCommerce, BigCommerce und Adobe Commerce. Wir nutzen jeden Plattformvorteil und beheben jeden plattformspezifischen SEO-Engpass.",
-    "ogTitle": "Plattform-Natives E-Commerce SEO | EcomSEO"
+    "title": "E-Commerce SEO nach Plattform | EcomSEO",
+    "description": "Plattform-natives E-Commerce SEO fuer Shopify, WooCommerce, BigCommerce und Adobe Commerce. Wir beheben plattformspezifische SEO-Engpaesse.",
+    "ogTitle": "E-Commerce SEO nach Plattform | EcomSEO"
   },
   "/ecommerce-seo-industries": {
-    "title": "E-Commerce SEO nach Branche | Mode, Beauty, Konsumgueter, Spielzeug | EcomSEO",
-    "description": "Branchenspezifisches E-Commerce SEO fuer Mode, Beauty, Konsumgueter und Spielzeug. Nischenbewusste Strategien fuer saisonale Nachfrage und Kaufintention in Ihrer Vertikale.",
-    "ogTitle": "Branchenspezifisches E-Commerce SEO | EcomSEO"
+    "title": "E-Commerce SEO nach Branche | EcomSEO",
+    "description": "Branchenspezifisches E-Commerce SEO fuer Mode, Beauty, Konsumgueter und Spielzeug. Strategien fuer saisonale Nachfrage und Kaufintention.",
+    "ogTitle": "E-Commerce SEO nach Branche | EcomSEO"
   },
   "/ecommerce-seo-services": {
     "title": "Alle E-Commerce SEO Dienstleistungen | EcomSEO",
-    "description": "Jede E-Commerce SEO Dienstleistung, die Sie benoetigen, an einem Ort. Technisches SEO, On-Page-Optimierung, Linkaufbau, Keyword-Recherche, Content-Writing und mehr.",
+    "description": "Jede E-Commerce SEO Dienstleistung an einem Ort. Technisches SEO, On-Page, Linkaufbau, Keyword-Recherche, Content-Writing und mehr.",
     "ogTitle": "Alle E-Commerce SEO Dienstleistungen an Einem Ort | EcomSEO"
   },
   "/tools": {
@@ -256,7 +256,7 @@
   },
   "/tools/shopify-seo-audit": {
     "title": "Kostenloses Shopify SEO Audit Tool | EcomSEO",
-    "description": "Erhalten Sie einen vollstaendigen SEO-Gesundheitscheck fuer Ihren Shopify Shop. Analysieren Sie Meta-Tags, Seitengeschwindigkeit, strukturierte Daten und mehr.",
+    "description": "Vollstaendiger SEO-Gesundheitscheck fuer Ihren Shopify Shop. Analysieren Sie Meta-Tags, Seitengeschwindigkeit, strukturierte Daten und mehr.",
     "ogTitle": "Kostenloses Shopify SEO Audit - Pruefen Sie die SEO-Gesundheit Ihres Shops | EcomSEO"
   },
   "/tools/ecommerce-seo-audit": {
@@ -265,19 +265,19 @@
     "ogTitle": "Kostenloses E-Commerce SEO Audit - Jede Plattform | EcomSEO"
   },
   "/tools/serp-simulator": {
-    "title": "Kostenloser Google SERP-Simulator - Suchergebnis-Vorschau | EcomSEO",
+    "title": "Google SERP-Simulator - Suchergebnis-Vorschau",
     "description": "Vorschau, wie Ihre Seiten in den Google-Suchergebnissen erscheinen. Optimieren Sie Titel-Tags und Meta-Beschreibungen fuer maximale Klickrate.",
-    "ogTitle": "Kostenloser SERP-Simulator - Google-Snippet-Vorschau | EcomSEO"
+    "ogTitle": "Google SERP-Simulator - Suchergebnis-Vorschau"
   },
   "/tools/schema-generator": {
-    "title": "Kostenloser Produkt-Schema-Generator - JSON-LD Markup | EcomSEO",
-    "description": "Generieren Sie valides JSON-LD Product Schema-Markup fuer Ihre E-Commerce-Seiten. Erhalten Sie Rich Snippets mit Preis, Verfuegbarkeit und Bewertungen in Google.",
-    "ogTitle": "Kostenloser Produkt-Schema-Generator - Rich Snippets fuer E-Commerce | EcomSEO"
+    "title": "Produkt-Schema-Generator - JSON-LD | EcomSEO",
+    "description": "Generieren Sie valides JSON-LD Product Schema-Markup. Erhalten Sie Rich Snippets mit Preis, Verfuegbarkeit und Bewertungen in Google.",
+    "ogTitle": "Produkt-Schema-Generator - JSON-LD | EcomSEO"
   },
   "/tools/og-checker": {
-    "title": "Kostenloser Open Graph Checker - Social Media Vorschau | EcomSEO",
+    "title": "Open Graph Checker - Social Media Vorschau",
     "description": "Pruefen Sie, wie Ihre Seiten auf Facebook, Twitter/X und LinkedIn aussehen. Validieren Sie Open Graph und Twitter Card Meta-Tags sofort.",
-    "ogTitle": "Kostenloser Open Graph Checker - Social Media Vorschau | EcomSEO"
+    "ogTitle": "Open Graph Checker - Social Media Vorschau"
   },
   "/tools/robots-txt-analyzer": {
     "title": "Kostenloser Robots.txt Analyzer & Tester | EcomSEO",
@@ -285,14 +285,14 @@
     "ogTitle": "Kostenloser Robots.txt Analyzer - Crawl-Regeln testen | EcomSEO"
   },
   "/tools/meta-tags-checker": {
-    "title": "Kostenloser Bulk Meta-Tags Prüfer - Title & Description | EcomSEO",
+    "title": "Bulk Meta-Tags Pruefer - Title & Desc | EcomSEO",
     "description": "Prüfen Sie Title-Tags und Meta-Beschreibungen über mehrere Seiten gleichzeitig. Finden Sie fehlende, doppelte und abgeschnittene Meta-Tags.",
-    "ogTitle": "Kostenloser Bulk Meta-Tags Prüfer | EcomSEO"
+    "ogTitle": "Bulk Meta-Tags Pruefer - Title & Desc | EcomSEO"
   },
   "/tools/heading-checker": {
-    "title": "Kostenloser Überschriften-Struktur Prüfer - H1 bis H6 | EcomSEO",
+    "title": "Ueberschriften-Struktur Pruefer - H1 bis H6",
     "description": "Analysieren Sie die H1-H6 Überschriften-Hierarchie jeder Seite. Finden Sie fehlende H1-Tags und fehlerhafte Strukturen.",
-    "ogTitle": "Kostenloser Überschriften-Prüfer - H1-H6 Analyse | EcomSEO"
+    "ogTitle": "Ueberschriften-Struktur Pruefer - H1 bis H6"
   },
   "/tools/canonical-checker": {
     "title": "Kostenloser Canonical-Tag Prüfer & Validator | EcomSEO",
@@ -300,9 +300,9 @@
     "ogTitle": "Kostenloser Canonical-Tag Prüfer | EcomSEO"
   },
   "/tools/indexability-checker": {
-    "title": "Kostenloser Bulk Indexierbarkeits-Prüfer - Noindex & Robots.txt | EcomSEO",
+    "title": "Bulk Indexierbarkeits-Pruefer | EcomSEO",
     "description": "Prüfen Sie, ob Ihre Seiten indexierbar sind. Erkennen Sie noindex-Meta-Tags, X-Robots-Tag-Header und robots.txt-Sperren in der Masse.",
-    "ogTitle": "Kostenloser Indexierbarkeits-Prüfer | EcomSEO"
+    "ogTitle": "Bulk Indexierbarkeits-Pruefer | EcomSEO"
   },
   "/tools/page-type-classifier": {
     "title": "Kostenloser E-Commerce-Seitentyp-Klassifikator | EcomSEO",
@@ -310,9 +310,9 @@
     "ogTitle": "Kostenloser Seitentyp-Klassifikator | EcomSEO"
   },
   "/tools/sitemap-comparison": {
-    "title": "Kostenloser Sitemap-Vergleich - XML-Sitemaps vergleichen | EcomSEO",
+    "title": "Sitemap-Vergleich - XML-Sitemaps | EcomSEO",
     "description": "Zwei XML-Sitemaps nebeneinander vergleichen, um fehlende URLs und Lücken zu finden. Ideal für Konkurrenzanalyse und Staging-Audits.",
-    "ogTitle": "Kostenloser Sitemap-Vergleich | EcomSEO"
+    "ogTitle": "Sitemap-Vergleich - XML-Sitemaps | EcomSEO"
   },
   "/tools/thin-content-checker": {
     "title": "Kostenloser Thin-Content & Wortanzahl-Prüfer | EcomSEO",
@@ -320,14 +320,14 @@
     "ogTitle": "Kostenloser Thin-Content-Prüfer | EcomSEO"
   },
   "/tools/core-web-vitals": {
-    "title": "Kostenloser Core Web Vitals Prüfer - LCP, CLS & INP | EcomSEO",
+    "title": "Core Web Vitals Pruefer - LCP, CLS & INP",
     "description": "LCP-, CLS- und INP-Scores für Mobil und Desktop auf mehreren Seiten prüfen. Basiert auf Google PageSpeed Insights.",
-    "ogTitle": "Kostenloser Core Web Vitals Prüfer | EcomSEO"
+    "ogTitle": "Core Web Vitals Pruefer - LCP, CLS & INP"
   },
   "/tools/schema-validator": {
-    "title": "Kostenloser Schema-Markup-Validator - JSON-LD & Mikrodata | EcomSEO",
+    "title": "Schema-Markup-Validator - JSON-LD | EcomSEO",
     "description": "Strukturierte Daten auf jeder Seite validieren. JSON-LD und Mikrodata auf Fehler und Schema.org-Konformität prüfen. Kostenloses SEO-Tool.",
-    "ogTitle": "Kostenloser Schema-Markup-Validator | EcomSEO"
+    "ogTitle": "Schema-Markup-Validator - JSON-LD | EcomSEO"
   },
   "/tools/redirect-checker": {
     "title": "Kostenloser Redirect-Ketten & Schleifen Checker | EcomSEO",
@@ -336,13 +336,13 @@
   },
   "/tools/hreflang-validator": {
     "title": "Kostenloser Hreflang-Tag-Validator | EcomSEO",
-    "description": "Validieren Sie Hreflang-Annotationen, Rückverweise und Sprach-/Regionscodes. Erkennen Sie fehlende oder widersprüchliche Hreflang-Tags. Kostenloses SEO-Tool.",
+    "description": "Validieren Sie Hreflang-Annotationen, Rueckverweise und Sprach-/Regionscodes. Erkennen Sie fehlende Hreflang-Tags. Kostenloses SEO-Tool.",
     "ogTitle": "Kostenloser Hreflang-Tag-Validator | EcomSEO"
   },
   "/tools/image-auditor": {
-    "title": "Kostenloser Bild-SEO-Auditor - Alt-Text & Dateigröße | EcomSEO",
+    "title": "Bild-SEO-Auditor - Alt-Text & Dateigroesse",
     "description": "Prüfen Sie Bilder auf fehlende Alt-Texte, zu große Dateien und Optimierungsprobleme. Kostenloses SEO-Tool.",
-    "ogTitle": "Kostenloser Bild-SEO-Auditor | EcomSEO"
+    "ogTitle": "Bild-SEO-Auditor - Alt-Text & Dateigroesse"
   },
   "/tools/duplicate-content": {
     "title": "Kostenloser Duplicate-Content-Finder | EcomSEO",
@@ -366,13 +366,13 @@
   },
   "/tools/sitemap-extractor": {
     "title": "Kostenloser Sitemap URL Extractor | EcomSEO",
-    "description": "Extrahieren Sie alle URLs aus jeder XML-Sitemap oder Sitemap-Index-Datei. Lastmod-, Changefreq- und Prioritätsdaten anzeigen. CSV-Export. Kostenloses SEO-Tool.",
+    "description": "Extrahieren Sie alle URLs aus XML-Sitemaps oder Sitemap-Index-Dateien. Lastmod- und Prioritaetsdaten anzeigen. CSV-Export. Kostenloses Tool.",
     "ogTitle": "Kostenloser Sitemap URL Extractor | EcomSEO"
   },
   "/academy": {
-    "title": "EcomSEO Akademie - E-Commerce SEO von Praktikern lernen | EcomSEO",
+    "title": "EcomSEO Akademie - E-Commerce SEO lernen | EcomSEO",
     "description": "Strukturierter E-Commerce-SEO-Lernpfad von Praktikern erstellt. 10 Cluster zu Keyword-Recherche, On-Page, technisches SEO, Linkaufbau und mehr.",
-    "ogTitle": "EcomSEO Akademie - E-Commerce SEO von Praktikern lernen"
+    "ogTitle": "EcomSEO Akademie - E-Commerce SEO lernen | EcomSEO"
   },
   "/pricing": {
     "title": "Preise - E-Commerce SEO Pakete | EcomSEO",

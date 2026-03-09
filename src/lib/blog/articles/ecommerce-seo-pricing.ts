@@ -2,8 +2,8 @@ import type { BlogArticle } from "../types";
 
 export const ecommerceSeopricing: BlogArticle = {
   slug: "ecommerce-seo-pricing",
-  title: "Ecommerce SEO pricing: what influences costs and value",
-  description: "Understand ecommerce SEO pricing models, typical cost ranges, and what drives value. Learn how to evaluate proposals and avoid overpaying for underdelivery.",
+  title: "Ecommerce SEO Pricing: Costs, Value, and ROI",
+  description: "Understand ecommerce SEO pricing models, typical cost ranges, and what drives value. Evaluate proposals and avoid overpaying for underdelivery.",
   category: "services",
   publishDate: "2025-07-18",
   readingTime: 10,

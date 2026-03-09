@@ -2,7 +2,7 @@ import type { BlogArticle } from "../types";
 
 export const ecommerceSeoTools: BlogArticle = {
   slug: "ecommerce-seo-tools",
-  title: "Ecommerce SEO tools: top software for better rankings",
+  title: "Ecommerce SEO Tools: Top Ranking Software",
   description: "Discover the best ecommerce SEO tools for crawling, keyword research, rank tracking, and more. Our recommended tool stack with free and paid options.",
   category: "strategy",
   publishDate: "2025-07-18",

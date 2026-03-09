@@ -2,9 +2,9 @@ import type { BlogArticle } from "../types";
 
 export const ecommerceSeoKeywords: BlogArticle = {
   slug: "ecommerce-seo-keywords",
-  title: "Ecommerce SEO keywords: research and target for growth",
+  title: "Ecommerce SEO Keywords: Research for Growth",
   description:
-    "Learn how ecommerce keyword research differs from standard SEO. Find buyer-intent keywords, map them to your funnel, and build a keyword strategy that drives revenue.",
+    "Learn how ecommerce keyword research differs from standard SEO. Find buyer-intent keywords, map them to your funnel, and build a revenue strategy.",
   category: "strategy",
   publishDate: "2025-07-01",
   readingTime: 12,

@@ -2,9 +2,9 @@ import type { BlogArticle } from "../types";
 
 export const offPageSeoForEcommerce: BlogArticle = {
   slug: "off-page-seo-for-ecommerce",
-  title: "Off-page SEO for ecommerce: build links that matter",
+  title: "Off-Page SEO for Ecommerce: Link Building Tips",
   description:
-    "Practical off-page SEO strategies for ecommerce stores. Learn link building tactics that work for online shops, from product reviews to digital PR and supplier links.",
+    "Practical off-page SEO strategies for ecommerce stores. Link building tactics that work for online shops, from product reviews to digital PR campaigns.",
   category: "link-building",
   publishDate: "2025-07-01",
   readingTime: 11,

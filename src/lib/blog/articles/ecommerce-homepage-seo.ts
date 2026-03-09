@@ -2,8 +2,8 @@ import type { BlogArticle } from "../types";
 
 export const ecommerceHomepageSeo: BlogArticle = {
   slug: "ecommerce-homepage-seo",
-  title: "Ecommerce homepage SEO: optimize for traffic and sales",
-  description: "Learn how to optimize your ecommerce homepage for SEO with actionable tips on title tags, internal linking, schema markup, speed, and common mistakes to avoid.",
+  title: "Ecommerce Homepage SEO: Traffic and Sales Tips",
+  description: "Optimize your ecommerce homepage for SEO with tips on title tags, internal linking, schema markup, speed improvements, and common mistakes to avoid.",
   category: "on-page",
   publishDate: "2025-07-18",
   readingTime: 10,

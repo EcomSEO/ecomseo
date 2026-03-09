@@ -3,7 +3,7 @@ import type { BlogArticle } from "../types";
 export const ecommerceSeoAgencies: BlogArticle = {
   slug: "ecommerce-seo-agencies",
   title: "How to choose the best ecommerce SEO agency",
-  description: "A practical guide to evaluating ecommerce SEO agencies. What makes agencies good at ecommerce specifically, vetting questions, and how to measure performance.",
+  description: "A practical guide to evaluating ecommerce SEO agencies. What makes them great at ecommerce, vetting questions, and how to measure performance.",
   category: "services",
   publishDate: "2025-06-15",
   readingTime: 11,

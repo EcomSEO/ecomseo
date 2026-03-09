@@ -2,7 +2,7 @@ import type { BlogArticle } from "../types";
 
 export const ecommerceSeoChecklist: BlogArticle = {
   slug: "ecommerce-seo-checklist",
-  title: "Ecommerce SEO checklist: optimize your store in 2026",
+  title: "Ecommerce SEO Checklist: Optimize Your Store",
   description: "A complete ecommerce SEO checklist for 2026. Covers technical setup, on-page optimization, product pages, content, link building, and analytics.",
   category: "strategy",
   publishDate: "2025-06-22",

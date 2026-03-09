@@ -3,7 +3,7 @@ import type { BlogArticle } from "../types";
 export const fashionEcommerceSeo: BlogArticle = {
   slug: "fashion-ecommerce-seo",
   title: "Fashion ecommerce SEO: rank your apparel store",
-  description: "Fashion ecommerce SEO requires handling seasonality, visual search, size variants, and trend cycles. Here is how to rank your clothing store in organic search.",
+  description: "Fashion ecommerce SEO requires handling seasonality, visual search, size variants, and trend cycles. Rank your clothing store in organic search.",
   category: "industry",
   publishDate: "2025-07-10",
   readingTime: 11,

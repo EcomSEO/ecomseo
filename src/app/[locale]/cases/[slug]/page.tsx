@@ -22,12 +22,12 @@ export async function generateMetadata({
   const cs = getCaseStudy(slug);
   if (!cs) return {};
   return {
-    title: `${cs.title} | EcomSEO Case Study`,
-    description: cs.description.slice(0, 160),
+    title: `${cs.title} | EcomSEO`,
+    description: cs.description.slice(0, 155),
     alternates: generateAlternates(`/cases/${slug}`),
     openGraph: {
       title: cs.title,
-      description: cs.description.slice(0, 160),
+      description: cs.description.slice(0, 155),
       images: [{ url: cs.heroImage }],
       locale: ogLocaleMap[locale as Locale] || "en_GB",
     },

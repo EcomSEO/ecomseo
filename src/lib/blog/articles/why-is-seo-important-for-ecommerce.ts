@@ -2,7 +2,7 @@ import type { BlogArticle } from "../types";
 
 export const whyIsSeoImportantForEcommerce: BlogArticle = {
   slug: "why-is-seo-important-for-ecommerce",
-  title: "Why is SEO important for ecommerce: benefits and ROI",
+  title: "Why SEO Is Important for Ecommerce: The ROI",
   description: "SEO is the highest-ROI marketing channel for most ecommerce stores. Here are the actual numbers, benchmarks, and calculations that prove the business case.",
   category: "strategy",
   publishDate: "2025-07-10",

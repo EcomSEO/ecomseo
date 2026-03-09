@@ -2,8 +2,8 @@ import type { BlogArticle } from "../types";
 
 export const ecommerceSeoPackages: BlogArticle = {
   slug: "ecommerce-seo-packages",
-  title: "Understanding ecommerce SEO packages: what they include and why",
-  description: "What ecommerce SEO packages typically include at each price point. One-time vs ongoing packages, deliverables to expect, and red flags in package offerings.",
+  title: "Ecommerce SEO Packages: What They Include",
+  description: "What ecommerce SEO packages typically include at each price point. One-time vs ongoing, deliverables to expect, and red flags in package offerings.",
   category: "services",
   publishDate: "2025-06-15",
   readingTime: 10,

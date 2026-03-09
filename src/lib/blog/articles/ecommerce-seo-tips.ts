@@ -2,7 +2,7 @@ import type { BlogArticle } from "../types";
 
 export const ecommerceSeoTips: BlogArticle = {
   slug: "ecommerce-seo-tips",
-  title: "Ecommerce SEO tips: 20 quick wins to boost your rankings",
+  title: "20 Ecommerce SEO Tips to Boost Your Rankings",
   description: "20 actionable ecommerce SEO tips organized by category with implementation steps, expected impact, and difficulty ratings. Things you can do this week.",
   category: "strategy",
   publishDate: "2025-06-15",

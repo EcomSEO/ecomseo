@@ -2,9 +2,9 @@ import type { BlogArticle } from "../types";
 
 export const ecommerceSeoMigration: BlogArticle = {
   slug: "ecommerce-seo-migration",
-  title: "Ecommerce SEO migration: avoid ranking drops during switches",
+  title: "Ecommerce SEO Migration: Keep Your Rankings",
   description:
-    "Plan your ecommerce platform migration without losing organic traffic. URL mapping, redirect strategy, content preservation, and post-migration monitoring steps.",
+    "Plan your ecommerce platform migration without losing organic traffic. URL mapping, redirect strategy, content preservation, and monitoring steps.",
   category: "technical",
   publishDate: "2025-07-01",
   readingTime: 12,

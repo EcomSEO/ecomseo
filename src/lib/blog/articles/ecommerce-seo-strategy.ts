@@ -2,7 +2,7 @@ import type { BlogArticle } from "../types";
 
 export const ecommerceSeoStrategy: BlogArticle = {
   slug: "ecommerce-seo-strategy",
-  title: "Ecommerce SEO strategy: build a plan that drives revenue",
+  title: "Ecommerce SEO Strategy: A Revenue-First Plan",
   description: "Learn how to build an ecommerce SEO strategy that actually drives revenue. From goal setting and keyword mapping to content planning and link building.",
   category: "strategy",
   publishDate: "2025-06-22",

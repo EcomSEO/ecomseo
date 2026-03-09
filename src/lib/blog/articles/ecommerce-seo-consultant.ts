@@ -3,7 +3,7 @@ import type { BlogArticle } from "../types";
 export const ecommerceSeoConsultant: BlogArticle = {
   slug: "ecommerce-seo-consultant",
   title: "What to look for in an ecommerce SEO consultant",
-  description: "How to find and evaluate an ecommerce SEO consultant. Red flags to avoid, questions to ask, pricing expectations, and what good consultants actually deliver.",
+  description: "How to find and evaluate an ecommerce SEO consultant. Red flags to avoid, questions to ask, pricing, and what good consultants actually deliver.",
   category: "services",
   publishDate: "2025-06-15",
   readingTime: 10,

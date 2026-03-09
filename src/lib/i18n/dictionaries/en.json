@@ -6,7 +6,7 @@
   },
   "/shopify-seo": {
     "title": "Shopify SEO Agency | EcomSEO",
-    "description": "We audit, fix, and scale organic traffic for Shopify and Shopify Plus stores. Stop bleeding revenue to competitors with our specialized Shopify SEO services.",
+    "description": "We audit, fix, and scale organic traffic for Shopify and Shopify Plus stores. Stop losing revenue to competitors with our Shopify SEO.",
     "ogTitle": "Shopify SEO That Actually Drives Revenue | EcomSEO"
   },
   "/ecommerce-seo": {
@@ -100,14 +100,14 @@
     "ogTitle": "Beginner to Hero - Ecommerce SEO Crash Course | EcomSEO"
   },
   "/resources/crash-course/changelog-page": {
-    "title": "Performance Boost & New Features | Ecommerce SEO Crash Course",
+    "title": "Updates & New Features | Ecommerce SEO Course",
     "description": "Latest updates and new features added to the Ecommerce SEO Crash Course.",
-    "ogTitle": "Performance Boost & New Features | Ecommerce SEO Crash Course"
+    "ogTitle": "Updates & New Features | Ecommerce SEO Course"
   },
   "/resources/search-product-discovery": {
-    "title": "AI Shopping - Get Your Products on LLMs Like ChatGPT | EcomSEO",
+    "title": "AI Shopping - Get Products on LLMs | EcomSEO",
     "description": "Your products are invisible on AI. You can do something about it today. Perhaps the biggest opportunity in 2025.",
-    "ogTitle": "AI Shopping - Get Your Products on LLMs Like ChatGPT | EcomSEO"
+    "ogTitle": "AI Shopping - Get Products on LLMs | EcomSEO"
   },
   "/resources/shopify-on-page-checklist": {
     "title": "Premium Shopify On-Page SEO Checklist | EcomSEO",
@@ -140,9 +140,9 @@
     "ogTitle": "Analytics & Tracking for Ecommerce SEO | EcomSEO Guides"
   },
   "/guides/beginner-to-hero": {
-    "title": "Beginner to Hero: Full Ecommerce SEO Learning Path | EcomSEO",
+    "title": "Beginner to Hero: Ecommerce SEO Learning Path",
     "description": "A structured 10-week path from zero SEO knowledge to running a complete ecommerce SEO program. Every stage explained step by step.",
-    "ogTitle": "Beginner to Hero: Full Ecommerce SEO Learning Path | EcomSEO"
+    "ogTitle": "Beginner to Hero: Ecommerce SEO Learning Path"
   },
   "/guides/keyword-research": {
     "title": "Ecommerce Keyword Research Guide | EcomSEO Guides",
@@ -205,7 +205,7 @@
     "ogTitle": "Intent Matching Tool - AI Keyword Analyzer | EcomSEO"
   },
   "/premium-on-page-seo-checklist": {
-    "title": "Premium On-Page SEO Checklist - Generate Millions Organically | EcomSEO",
+    "title": "Premium On-Page SEO Checklist | EcomSEO",
     "description": "Ecom Owners! This On-Page SEO Checklist is all you need to generate millions organically on Google.",
     "ogTitle": "Premium On-Page SEO Checklist | EcomSEO"
   },
@@ -235,14 +235,14 @@
     "ogTitle": "Ecommerce SEO Blog | EcomSEO"
   },
   "/ecommerce-seo-platforms": {
-    "title": "Ecommerce SEO by Platform | Shopify, WooCommerce, BigCommerce | EcomSEO",
-    "description": "Platform-native ecommerce SEO for Shopify, WooCommerce, BigCommerce and Adobe Commerce. We exploit every platform advantage and fix every platform-specific SEO bottleneck.",
-    "ogTitle": "Platform-Native Ecommerce SEO | EcomSEO"
+    "title": "Ecommerce SEO by Platform | Shopify & WooCommerce",
+    "description": "Platform-native ecommerce SEO for Shopify, WooCommerce, BigCommerce and Adobe Commerce. We fix every platform-specific SEO bottleneck.",
+    "ogTitle": "Ecommerce SEO by Platform | Shopify & WooCommerce"
   },
   "/ecommerce-seo-industries": {
-    "title": "Ecommerce SEO by Industry | Fashion, Beauty, Consumables, Toys | EcomSEO",
-    "description": "Industry-specific ecommerce SEO for fashion, beauty, consumables and toy brands. Niche-aware strategies that capture seasonal demand and buyer intent in your vertical.",
-    "ogTitle": "Industry-Specific Ecommerce SEO | EcomSEO"
+    "title": "Ecommerce SEO by Industry | Fashion, Beauty & More",
+    "description": "Industry-specific ecommerce SEO for fashion, beauty, consumables and toys. Niche-aware strategies for seasonal demand and buyer intent.",
+    "ogTitle": "Ecommerce SEO by Industry | Fashion, Beauty & More"
   },
   "/ecommerce-seo-services": {
     "title": "All Ecommerce SEO Services | EcomSEO",
@@ -265,9 +265,9 @@
     "ogTitle": "Free Ecommerce SEO Audit - Any Platform | EcomSEO"
   },
   "/tools/serp-simulator": {
-    "title": "Free Google SERP Simulator - Preview Search Results | EcomSEO",
+    "title": "Free Google SERP Simulator | EcomSEO",
     "description": "Preview how your pages appear in Google search results. Optimize title tags and meta descriptions for maximum click-through rate. Free, no signup required.",
-    "ogTitle": "Free SERP Simulator - Preview Your Google Search Snippets | EcomSEO"
+    "ogTitle": "Free Google SERP Simulator | EcomSEO"
   },
   "/tools/schema-generator": {
     "title": "Free Product Schema Generator - JSON-LD Markup | EcomSEO",
@@ -285,9 +285,9 @@
     "ogTitle": "Free Robots.txt Analyzer - Test Your Crawl Rules | EcomSEO"
   },
   "/tools/meta-tags-checker": {
-    "title": "Free Bulk Meta Tags Checker - Title & Description | EcomSEO",
+    "title": "Free Bulk Meta Tags Checker | EcomSEO",
     "description": "Check title tags and meta descriptions across multiple pages at once. Find missing, duplicate, and truncated meta tags. Free, no signup required.",
-    "ogTitle": "Free Bulk Meta Tags Checker - Audit Titles & Descriptions | EcomSEO"
+    "ogTitle": "Free Bulk Meta Tags Checker | EcomSEO"
   },
   "/tools/heading-checker": {
     "title": "Free Heading Structure Checker - H1 to H6 | EcomSEO",
@@ -300,9 +300,9 @@
     "ogTitle": "Free Canonical Tag Checker - Find Duplicate Content Issues | EcomSEO"
   },
   "/tools/indexability-checker": {
-    "title": "Free Bulk Indexability Checker - Noindex & Robots.txt | EcomSEO",
+    "title": "Free Bulk Indexability Checker | EcomSEO",
     "description": "Check if your pages are indexable. Detect noindex meta tags, X-Robots-Tag headers, robots.txt blocks and HTTP errors in bulk. Free SEO tool.",
-    "ogTitle": "Free Bulk Indexability Checker - Find Crawl & Index Issues | EcomSEO"
+    "ogTitle": "Free Bulk Indexability Checker | EcomSEO"
   },
   "/tools/page-type-classifier": {
     "title": "Free Ecommerce Page Type Classifier | EcomSEO",
@@ -310,9 +310,9 @@
     "ogTitle": "Free Ecommerce Page Type Classifier - Identify Page Types | EcomSEO"
   },
   "/tools/sitemap-comparison": {
-    "title": "Free Sitemap Comparison Tool - Compare XML Sitemaps | EcomSEO",
+    "title": "Free Sitemap Comparison Tool | EcomSEO",
     "description": "Compare two XML sitemaps side-by-side to find missing URLs, new pages, and coverage gaps. Ideal for competitor analysis and staging audits.",
-    "ogTitle": "Free Sitemap Comparison Tool - Find Missing & New URLs | EcomSEO"
+    "ogTitle": "Free Sitemap Comparison Tool | EcomSEO"
   },
   "/tools/thin-content-checker": {
     "title": "Free Thin Content & Word Count Checker | EcomSEO",
@@ -325,9 +325,9 @@
     "ogTitle": "Free Core Web Vitals Checker - LCP, CLS & INP Bulk Tool | EcomSEO"
   },
   "/tools/schema-validator": {
-    "title": "Free Schema Markup Validator - JSON-LD & Microdata | EcomSEO",
+    "title": "Free Schema Markup Validator | EcomSEO",
     "description": "Validate structured data on any page. Check JSON-LD and Microdata for errors, missing fields, and Schema.org compliance. Free SEO tool.",
-    "ogTitle": "Free Schema Markup Validator - Check JSON-LD & Structured Data | EcomSEO"
+    "ogTitle": "Free Schema Markup Validator | EcomSEO"
   },
   "/tools/redirect-checker": {
     "title": "Free Redirect Chain & Loop Checker | EcomSEO",
@@ -335,19 +335,19 @@
     "ogTitle": "Free Redirect Chain Checker - Detect Loops & Chains | EcomSEO"
   },
   "/tools/hreflang-validator": {
-    "title": "Free Hreflang Tag Validator - Check International SEO | EcomSEO",
+    "title": "Free Hreflang Validator - International SEO",
     "description": "Validate hreflang annotations, return tags, and language/region codes across your pages. Detect missing or conflicting hreflang tags. Free SEO tool.",
-    "ogTitle": "Free Hreflang Tag Validator - International SEO Checker | EcomSEO"
+    "ogTitle": "Free Hreflang Validator - International SEO"
   },
   "/tools/image-auditor": {
-    "title": "Free Image SEO Auditor - Alt Text & File Size Checker | EcomSEO",
+    "title": "Free Image SEO Auditor - Alt Text Checker",
     "description": "Audit images on any page for missing alt text, oversized files, and optimization issues. Bulk check image SEO across multiple URLs. Free tool.",
-    "ogTitle": "Free Image SEO Auditor - Check Alt Text & Sizes | EcomSEO"
+    "ogTitle": "Free Image SEO Auditor - Alt Text Checker"
   },
   "/tools/duplicate-content": {
-    "title": "Free Duplicate Content Finder - Detect Similar Pages | EcomSEO",
+    "title": "Free Duplicate Content Finder | EcomSEO",
     "description": "Find near-duplicate content across multiple URLs using text similarity analysis. Detect cannibalization and thin content issues. Free SEO tool.",
-    "ogTitle": "Free Duplicate Content Finder - Check URL Similarity | EcomSEO"
+    "ogTitle": "Free Duplicate Content Finder | EcomSEO"
   },
   "/tools/shopping-feed-validator": {
     "title": "Free Google Shopping Feed Validator | EcomSEO",
@@ -365,14 +365,14 @@
     "ogTitle": "Free Site Speed Comparison - Benchmark vs Competitors | EcomSEO"
   },
   "/tools/sitemap-extractor": {
-    "title": "Free Sitemap URL Extractor - Extract URLs from XML Sitemaps | EcomSEO",
+    "title": "Free Sitemap URL Extractor | EcomSEO",
     "description": "Extract all URLs from any XML sitemap or sitemap index file. View lastmod, changefreq and priority data. Export to CSV. Free SEO tool.",
-    "ogTitle": "Free Sitemap URL Extractor - Parse & Export XML Sitemap URLs | EcomSEO"
+    "ogTitle": "Free Sitemap URL Extractor | EcomSEO"
   },
   "/academy": {
-    "title": "EcomSEO Academy - Learn Ecommerce SEO From Practitioners | EcomSEO",
+    "title": "EcomSEO Academy - Learn Ecommerce SEO | EcomSEO",
     "description": "Structured ecommerce SEO learning path built by practitioners. 10 clusters covering keyword research, on-page, technical SEO, link building, and more.",
-    "ogTitle": "EcomSEO Academy - Learn Ecommerce SEO From Practitioners"
+    "ogTitle": "EcomSEO Academy - Learn Ecommerce SEO | EcomSEO"
   },
   "/pricing": {
     "title": "Pricing - Ecommerce SEO Packages | EcomSEO",

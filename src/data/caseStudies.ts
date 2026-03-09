@@ -78,7 +78,7 @@ export const caseStudies: CaseStudy[] = [
   },
   {
     slug: "skyrocket-ecom-site",
-    title: "From 55 to 794 Clicks: How We Boosted Traffic by 1,343%",
+    title: "From 55 to 794 Clicks: +1,343% Organic Traffic",
     subtitle: "Without Touching Ads",
     category: "Content Creation",
     listingImage:
@@ -263,7 +263,7 @@ export const caseStudies: CaseStudy[] = [
   },
   {
     slug: "jewelry-dutch-brand-ecom",
-    title: "How 100+ Jewelry Collections Became a Search Magnet",
+    title: "100+ Jewelry Collections Became a Search Magnet",
     subtitle: "Without Paid Ads",
     category: "Category Architecture",
     listingImage:

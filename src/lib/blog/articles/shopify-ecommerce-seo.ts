@@ -4,7 +4,7 @@ export const shopifyEcommerceSeo: BlogArticle = {
   slug: "shopify-ecommerce-seo",
   title: "Shopify ecommerce SEO: tips to rank your shop",
   description:
-    "Work around Shopify's SEO limitations and make the most of what it offers. URL structure fixes, speed optimization, collection page SEO, and duplicate content solutions.",
+    "Work around Shopify's SEO limitations and make the most of what it offers. URL structure fixes, speed optimization, collection page SEO, and top solutions.",
   category: "platforms",
   publishDate: "2025-07-01",
   readingTime: 12,

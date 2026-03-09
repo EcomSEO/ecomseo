@@ -2,7 +2,7 @@ import type { BlogArticle } from "../types";
 
 export const ecommerceSeoAudit: BlogArticle = {
   slug: "ecommerce-seo-audit",
-  title: "Ecommerce SEO audit: step-by-step checklist for more visibility",
+  title: "Ecommerce SEO Audit: Your Step-by-Step Guide",
   description: "A practical ecommerce SEO audit checklist covering crawlability, indexation, site speed, on-page elements, and backlinks. Based on 100+ real store audits.",
   category: "strategy",
   publishDate: "2025-06-15",

@@ -2,9 +2,9 @@ import type { BlogArticle } from "../types";
 
 export const internationalEcommerceSeo: BlogArticle = {
   slug: "international-ecommerce-seo",
-  title: "International ecommerce SEO: go global without losing traffic",
+  title: "International Ecommerce SEO: Go Global Right",
   description:
-    "Set up international SEO for your ecommerce store with proper hreflang, domain structure, content localization, and geo-targeting. Avoid common multi-market mistakes.",
+    "Set up international SEO for your ecommerce store with proper hreflang, domain structure, content localization, and geo-targeting for new markets.",
   category: "industry",
   publishDate: "2025-07-01",
   readingTime: 12,

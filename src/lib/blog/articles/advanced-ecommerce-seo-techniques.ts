@@ -2,7 +2,7 @@ import type { BlogArticle } from "../types";
 
 export const advancedEcommerceSeoTechniques: BlogArticle = {
   slug: "advanced-ecommerce-seo-techniques",
-  title: "Advanced ecommerce SEO techniques: level up your game",
+  title: "Advanced Ecommerce SEO Techniques for Growth",
   description: "Move beyond basic ecommerce SEO with programmatic content, log file analysis, entity-based SEO, advanced schema, and API-driven automation techniques.",
   category: "strategy",
   publishDate: "2025-07-10",

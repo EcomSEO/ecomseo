@@ -2,7 +2,7 @@ import type { BlogArticle } from "../types";
 
 export const enterpriseEcommerceSeo: BlogArticle = {
   slug: "enterprise-ecommerce-seo",
-  title: "Enterprise ecommerce SEO: scale strategies for big stores",
+  title: "Enterprise Ecommerce SEO: Strategies at Scale",
   description: "Learn how to manage SEO for enterprise ecommerce stores with 100K+ pages. Covers crawl budget, automation, cross-team workflows, and governance at scale.",
   category: "industry",
   publishDate: "2025-07-18",

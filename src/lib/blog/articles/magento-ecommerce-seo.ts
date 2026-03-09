@@ -2,7 +2,7 @@ import type { BlogArticle } from "../types";
 
 export const magentoEcommerceSeo: BlogArticle = {
   slug: "magento-ecommerce-seo",
-  title: "Magento ecommerce SEO: optimize your store for search",
+  title: "Magento Ecommerce SEO: Store Optimization Tips",
   description:
     "Fix common Magento SEO problems including layered navigation, URL rewrites, and site speed. Platform-specific tips for Magento 2 and Adobe Commerce stores.",
   category: "platforms",

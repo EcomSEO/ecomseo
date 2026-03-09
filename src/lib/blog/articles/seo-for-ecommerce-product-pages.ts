@@ -2,7 +2,7 @@ import type { BlogArticle } from "../types";
 
 export const seoForEcommerceProductPages: BlogArticle = {
   slug: "seo-for-ecommerce-product-pages",
-  title: "SEO for ecommerce product pages: rank higher and sell more",
+  title: "SEO for Ecommerce Product Pages: Rank Higher",
   description: "Optimize ecommerce product pages for SEO with actionable tips on titles, descriptions, images, schema, reviews, variants, and out-of-stock handling.",
   category: "on-page",
   publishDate: "2025-06-22",

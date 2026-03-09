@@ -2,8 +2,8 @@ import type { BlogArticle } from "../types";
 
 export const ecommerceSeo: BlogArticle = {
   slug: "ecommerce-seo",
-  title: "Ecommerce SEO: the complete guide to ranking your online store",
-  description: "Learn how ecommerce SEO works, from technical foundations to category page optimization. A practical guide based on real store results and tested strategies.",
+  title: "Ecommerce SEO: The Complete Ranking Guide",
+  description: "Learn how ecommerce SEO works, from technical foundations to category page optimization. A practical guide based on real store results and strategies.",
   category: "strategy",
   publishDate: "2025-06-15",
   readingTime: 18,
