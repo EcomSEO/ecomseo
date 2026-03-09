@@ -32,7 +32,7 @@ const teamMembersData = [
   {
     name: "Gjorgi Jovev",
     image:
-      "/images/framer/LFHXY0nxSQzbhGYgd9g8reMSo.png",
+      "/images/framer/gjorgi-jovev.png",
     href: "/team/gjorgi-jovev",
   },
 ];

@@ -166,7 +166,7 @@ const teamMembers: Record<string, TeamMember> = {
     tagline:
       "An SEO Expert, specialising in e-commerce growth and visibility.",
     image:
-      "/images/framer/mwZY3GOpimv2aB41YxuZegw3ZNc.png",
+      "/images/framer/gjorgi-jovev.png",
     bio: "Gjorgi entered the e-commerce space in 2022. With a background in digital marketing, he quickly carved out a niche in SEO, focusing on performance-driven strategies for online stores. Over the next two years, he honed his skills in technical SEO, content optimization, keyword strategy, and high-quality backlink building. Known for his tenacity and results-first mindset, Gjorgi continues to help businesses scale through transparent, data-led SEO.",
     skills: [
       "Link Building",
