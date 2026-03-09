@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { locales, type Locale, BASE_URL, ogLocaleMap } from "@/lib/i18n/config";
 import { generateAlternates } from "@/lib/i18n/metadata";
-import { organizationJsonLd } from "@/lib/jsonLd";
+import { organizationJsonLd, websiteJsonLd } from "@/lib/jsonLd";
 import JsonLd from "@/components/JsonLd";
 
 export function generateStaticParams() {
@@ -35,6 +35,7 @@ export default async function LocaleLayout({
   return (
     <>
       <JsonLd data={organizationJsonLd()} />
+      <JsonLd data={websiteJsonLd()} />
       {children}
     </>
   );

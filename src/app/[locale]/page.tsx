@@ -1,5 +1,8 @@
 import { buildPageMetadata } from "@/lib/i18n/metadata";
 import type { Locale } from "@/lib/i18n/config";
+import { faqJsonLd } from "@/lib/jsonLd";
+import { faqItems } from "@/data/faqData";
+import JsonLd from "@/components/JsonLd";
 import Navigation from "@/components/sections/Navigation";
 import Hero from "@/components/sections/Hero";
 import ClientLogos from "@/components/sections/ClientLogos";
@@ -27,6 +30,7 @@ export async function generateMetadata({
 export default function Home() {
   return (
     <>
+      <JsonLd data={faqJsonLd(faqItems)} />
       <Navigation />
       <main>
         <Hero />

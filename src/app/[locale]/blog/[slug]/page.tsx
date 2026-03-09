@@ -4,7 +4,8 @@ import { BASE_URL } from "@/lib/i18n/config";
 import { generateAlternates } from "@/lib/i18n/metadata";
 import { blogTranslations } from "@/lib/i18n/translations/blog";
 import { allArticles, getArticleBySlug, getRelatedArticles } from "@/lib/blog/articles";
-import { breadcrumbJsonLd } from "@/lib/jsonLd";
+import { breadcrumbJsonLd, articleJsonLd as articleJsonLdFn } from "@/lib/jsonLd";
+import JsonLd from "@/components/JsonLd";
 import Navigation from "@/components/sections/Navigation";
 import CTA from "@/components/sections/CTA";
 import Footer from "@/components/sections/Footer";
@@ -68,25 +69,23 @@ export default async function BlogPostPage({
     { name: article.title, path: `/blog/${slug}` },
   ]);
 
-  const articleJsonLd = {
-    "@context": "https://schema.org",
-    "@type": "Article",
+  const wordCount = article.sections
+    .flatMap((s) => s.body)
+    .join(" ")
+    .split(/\s+/).length;
+
+  const articleSchema = articleJsonLdFn({
+    locale,
     headline: article.title,
     description: article.description,
+    path: `/blog/${slug}`,
     datePublished: article.publishDate,
-    author: {
-      "@type": "Person",
-      name: article.author,
-      jobTitle: article.authorRole,
-      url: `${BASE_URL}/${locale}/blog/author/${article.authorSlug}`,
-    },
-    publisher: {
-      "@type": "Organization",
-      name: "EcomSEO",
-      url: BASE_URL,
-    },
-    mainEntityOfPage: `${BASE_URL}/${locale}/blog/${slug}`,
-  };
+    dateModified: article.publishDate,
+    authorName: article.author,
+    authorUrl: `${BASE_URL}/${locale}/blog/author/${article.authorSlug}`,
+    image: `${BASE_URL}/images/brand/og-image.png`,
+    wordCount,
+  });
 
   return (
     <>
@@ -213,14 +212,8 @@ export default async function BlogPostPage({
         <CTA />
         <Footer />
       </main>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumb) }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }}
-      />
+      <JsonLd data={breadcrumb} />
+      <JsonLd data={articleSchema} />
     </>
   );
 }

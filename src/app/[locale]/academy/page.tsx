@@ -4,7 +4,8 @@ import Footer from "@/components/sections/Footer";
 import Badge from "@/components/ui/Badge";
 import LocaleLink from "@/components/ui/LocaleLink";
 import JsonLd from "@/components/JsonLd";
-import { breadcrumbJsonLd } from "@/lib/jsonLd";
+import { breadcrumbJsonLd, courseJsonLd } from "@/lib/jsonLd";
+import { BASE_URL } from "@/lib/i18n/config";
 import { buildPageMetadata } from "@/lib/i18n/metadata";
 import type { Locale } from "@/lib/i18n/config";
 import { academyT, type AcademyCluster } from "@/lib/i18n/translations/academy";
@@ -52,6 +53,16 @@ export default async function AcademyPage({
         { name: "Home", path: "/" },
         { name: t.badge, path: "/academy" },
       ])} />
+      {t.clusters.map((cluster, i) => (
+        <JsonLd
+          key={`course-${i}`}
+          data={courseJsonLd({
+            name: cluster.title,
+            description: cluster.description,
+            url: `${BASE_URL}/${l === "en" ? "" : l + "/"}academy`,
+          })}
+        />
+      ))}
       <Navigation />
       <main className="min-h-screen bg-bg">
         {/* Hero */}

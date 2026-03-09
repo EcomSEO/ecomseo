@@ -4,6 +4,8 @@ import type { Metadata } from "next";
 import Navigation from "@/components/sections/Navigation";
 import CTA from "@/components/sections/CTA";
 import Footer from "@/components/sections/Footer";
+import JsonLd from "@/components/JsonLd";
+import { caseStudyJsonLd, breadcrumbJsonLd } from "@/lib/jsonLd";
 import { getCaseStudy, getAllCaseSlugs } from "@/data/caseStudies";
 import { generateAlternates } from "@/lib/i18n/metadata";
 import { type Locale, ogLocaleMap } from "@/lib/i18n/config";
@@ -47,6 +49,25 @@ export default async function CaseStudyPage({
 
   return (
     <>
+      <JsonLd
+        data={caseStudyJsonLd({
+          locale: locale as Locale,
+          headline: cs.title,
+          description: cs.description,
+          slug,
+          date: cs.date,
+          niche: cs.niche,
+          focus: cs.focus,
+          images: [cs.heroImage, cs.image1, ...(cs.image2 ? [cs.image2] : [])],
+        })}
+      />
+      <JsonLd
+        data={breadcrumbJsonLd(locale as Locale, [
+          { name: "Home", path: "/" },
+          { name: "Cases", path: "/cases" },
+          { name: cs.title, path: `/cases/${slug}` },
+        ])}
+      />
       <Navigation />
       <main>
         <div className="mx-auto max-w-[1400px] px-5 md:px-20 pt-[120px] md:pt-[140px] pb-10">

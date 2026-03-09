@@ -251,6 +251,7 @@ export default async function Page({
           description: member.tagline,
           url: `${BASE_URL}/${locale}/team/${slug}`,
           image: member.image,
+          sameAs: member.socials.map((s) => s.href),
         })}
       />
       <JsonLd
