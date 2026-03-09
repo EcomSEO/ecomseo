@@ -57,7 +57,7 @@ const nextConfig: NextConfig = {
         },
         {
           source:
-            "/:path((?!en|de|fr|es|it|nl|_next|api|favicon\\.ico|sitemap\\.xml|robots\\.txt|images|fonts).*)",
+            "/:path((?!en|de|fr|es|it|nl|_next|api|favicon\\.ico|sitemap|robots\\.txt|images|fonts).*)",
           destination: "/en/:path",
         },
       ],
