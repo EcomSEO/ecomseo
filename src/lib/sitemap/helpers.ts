@@ -3,7 +3,6 @@ import {
   locales,
   defaultLocale,
   BASE_URL,
-  hreflangEntries,
 } from "@/lib/i18n/config";
 
 /* ------------------------------------------------------------------ */
@@ -12,7 +11,6 @@ import {
 
 export interface UrlEntry {
   loc: string;
-  path: string; // original path (e.g. "/shopify-seo") for hreflang generation
   lastmod: string;
   changefreq: string;
   priority: string;
@@ -41,26 +39,19 @@ export function escapeXml(str: string): string {
 }
 
 export function urlBlock(entry: UrlEntry): string {
-  let block = `  <url>\n`;
-  block += `    <loc>${escapeXml(entry.loc)}</loc>\n`;
-
-  // hreflang alternates for every locale variant of this path
-  for (const { hreflang, locale } of hreflangEntries) {
-    const href = localeUrl(locale, entry.path);
-    block += `    <xhtml:link rel="alternate" hreflang="${hreflang}" href="${escapeXml(href)}"/>\n`;
-  }
-
+  let block = `<url>\n`;
+  block += `<loc>${escapeXml(entry.loc)}</loc>\n`;
   if (entry.images?.length) {
     for (const img of entry.images) {
-      block += `    <image:image>\n`;
-      block += `      <image:loc>${escapeXml(img)}</image:loc>\n`;
-      block += `    </image:image>\n`;
+      block += `<image:image>\n`;
+      block += `<image:loc>${escapeXml(img)}</image:loc>\n`;
+      block += `</image:image>\n`;
     }
   }
-  block += `    <lastmod>${entry.lastmod}</lastmod>\n`;
-  block += `    <changefreq>${entry.changefreq}</changefreq>\n`;
-  block += `    <priority>${entry.priority}</priority>\n`;
-  block += `  </url>\n`;
+  block += `<lastmod>${entry.lastmod}</lastmod>\n`;
+  block += `<changefreq>${entry.changefreq}</changefreq>\n`;
+  block += `<priority>${entry.priority}</priority>\n`;
+  block += `</url>\n`;
   return block;
 }
 
@@ -73,7 +64,6 @@ export function addPages(
     for (const locale of locales) {
       entries.push({
         loc: localeUrl(locale, path),
-        path,
         lastmod: opts.lastmod,
         changefreq: opts.changefreq,
         priority: opts.priority.toFixed(1),
@@ -88,9 +78,7 @@ export function addPages(
 
 export function wrapUrlset(entries: UrlEntry[]): string {
   let xml = `<?xml version="1.0" encoding="UTF-8"?>\n`;
-  xml += `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"\n`;
-  xml += `        xmlns:xhtml="http://www.w3.org/1999/xhtml"\n`;
-  xml += `        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">\n`;
+  xml += `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">\n`;
 
   for (const entry of entries) {
     xml += urlBlock(entry);

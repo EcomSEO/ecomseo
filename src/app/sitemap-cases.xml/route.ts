@@ -31,7 +31,6 @@ export async function GET() {
     for (const locale of locales) {
       entries.push({
         loc: localeUrl(locale, `/cases/${slug}`),
-        path: `/cases/${slug}`,
         lastmod,
         changefreq: "monthly",
         priority: "0.7",
