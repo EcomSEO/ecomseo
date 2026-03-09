@@ -3,6 +3,7 @@ import {
   locales,
   defaultLocale,
   BASE_URL,
+  hreflangEntries,
 } from "@/lib/i18n/config";
 import { caseStudies, getAllCaseSlugs } from "@/data/caseStudies";
 
@@ -12,7 +13,7 @@ import { caseStudies, getAllCaseSlugs } from "@/data/caseStudies";
  * Structure matches the hike-footwear.com reference:
  * - Clean indented XML with proper line breaks
  * - image:image namespace for case study images
- * - No hreflang alternates (handled in HTML <head>)
+ * - xhtml:link hreflang alternates in every <url> block
  * - Logical grouping by content type
  * - Granular priority tiers
  */
@@ -40,6 +41,7 @@ function escapeXml(str: string): string {
 
 interface UrlEntry {
   loc: string;
+  path: string; // original path (e.g. "/shopify-seo") for hreflang generation
   lastmod: string;
   changefreq: string;
   priority: string;
@@ -49,6 +51,13 @@ interface UrlEntry {
 function urlBlock(entry: UrlEntry): string {
   let block = `  <url>\n`;
   block += `    <loc>${escapeXml(entry.loc)}</loc>\n`;
+
+  // hreflang alternates for every locale variant of this path
+  for (const { hreflang, locale } of hreflangEntries) {
+    const href = localeUrl(locale, entry.path);
+    block += `    <xhtml:link rel="alternate" hreflang="${hreflang}" href="${escapeXml(href)}"/>\n`;
+  }
+
   if (entry.images?.length) {
     for (const img of entry.images) {
       block += `    <image:image>\n`;
@@ -72,6 +81,7 @@ function addPages(
     for (const locale of locales) {
       entries.push({
         loc: localeUrl(locale, path),
+        path,
         lastmod: opts.lastmod,
         changefreq: opts.changefreq,
         priority: opts.priority.toFixed(1),
@@ -324,6 +334,7 @@ export async function GET() {
     for (const locale of locales) {
       entries.push({
         loc: localeUrl(locale, `/cases/${slug}`),
+        path: `/cases/${slug}`,
         lastmod,
         changefreq: "monthly",
         priority: "0.7",
@@ -347,6 +358,7 @@ export async function GET() {
   // Build formatted XML
   let xml = `<?xml version="1.0" encoding="UTF-8"?>\n`;
   xml += `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"\n`;
+  xml += `        xmlns:xhtml="http://www.w3.org/1999/xhtml"\n`;
   xml += `        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">\n`;
 
   for (const entry of entries) {
