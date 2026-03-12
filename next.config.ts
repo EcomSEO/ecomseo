@@ -44,6 +44,13 @@ const nextConfig: NextConfig = {
       { source: "/:locale(en|de|fr|es|it|nl)/guides/topical-authority", destination: "/:locale/academy/topical-authority-for-ecommerce", permanent: true },
       { source: "/:locale(en|de|fr|es|it|nl)/guides/ranking-chatgpt", destination: "/:locale/academy/ai-search-optimization", permanent: true },
       { source: "/:locale(en|de|fr|es|it|nl)/guides/serp-domination", destination: "/:locale/academy/serp-domination-strategy", permanent: true },
+      // Page redirects
+      { source: "/resources", destination: "/academy", permanent: true },
+      { source: "/:locale(en|de|fr|es|it|nl)/resources", destination: "/:locale/academy", permanent: true },
+      { source: "/author/:slug", destination: "/blog/author/:slug", permanent: true },
+      { source: "/:locale(en|de|fr|es|it|nl)/author/:slug", destination: "/:locale/blog/author/:slug", permanent: true },
+      { source: "/meet-our-team", destination: "/team", permanent: true },
+      { source: "/:locale(en|de|fr|es|it|nl)/meet-our-team", destination: "/:locale/team", permanent: true },
     ];
   },
   async rewrites() {
