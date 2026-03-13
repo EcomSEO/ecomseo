@@ -99,17 +99,17 @@ export default function Certifications() {
                 scale: 1.05,
                 transition: { duration: 0.25, ease: "easeOut" },
               }}
-              className="group relative flex items-center justify-center rounded-2xl border border-border bg-bg-card aspect-square overflow-hidden backdrop-blur-sm"
+              className="group relative flex items-center justify-center rounded-2xl bg-white aspect-square overflow-hidden"
             >
               {/* Subtle glow on hover */}
-              <div className="absolute inset-0 rounded-2xl bg-accent/0 blur-2xl transition-all duration-500 group-hover:bg-accent/10 group-hover:scale-125 pointer-events-none" />
+              <div className="absolute inset-0 rounded-2xl bg-accent/0 blur-2xl transition-all duration-500 group-hover:bg-accent/15 group-hover:scale-125 pointer-events-none" />
 
               <Image
                 src={cert.src}
                 alt={cert.alt}
                 width={cert.width}
                 height={cert.height}
-                className="relative w-[75%] h-auto object-contain"
+                className="relative w-[80%] h-[80%] object-contain"
               />
             </motion.div>
           ))}
