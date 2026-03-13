@@ -1,12 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 140" fill="none">
-  <!-- White background card -->
-  <rect width="400" height="140" rx="4" fill="#F8F9FA"/>
-  <!-- Blue left accent bar -->
-  <rect x="0" y="0" width="12" height="140" fill="#4285F4"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 60" fill="none">
   <!-- Google text -->
-  <text x="60" y="58" font-family="'Product Sans', 'Google Sans', Arial, sans-serif" font-size="28" font-weight="400">
+  <text x="0" y="28" font-family="'Product Sans', 'Google Sans', Arial, sans-serif" font-size="24" font-weight="400">
     <tspan fill="#4285F4">G</tspan><tspan fill="#EA4335">o</tspan><tspan fill="#FBBC05">o</tspan><tspan fill="#4285F4">g</tspan><tspan fill="#34A853">l</tspan><tspan fill="#EA4335">e</tspan>
   </text>
   <!-- Partner text -->
-  <text x="60" y="108" font-family="'Product Sans', 'Google Sans', Arial, sans-serif" font-size="52" font-weight="400" fill="#757575">Partner</text>
+  <text x="0" y="52" font-family="'Product Sans', 'Google Sans', Arial, sans-serif" font-size="30" font-weight="400" fill="rgba(255,255,255,0.8)">Partner</text>
 </svg>

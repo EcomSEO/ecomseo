@@ -139,7 +139,7 @@ export default function Footer() {
               </svg>
             </a>
             <a
-              href="https://www.instagram.com/fabianvantil/"
+              href="https://www.instagram.com/ecomseo.co/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-white/30 hover:text-white transition-colors"
