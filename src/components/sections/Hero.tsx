@@ -19,7 +19,7 @@ function SocialProof({ text }: { text: string }) {
   return (
     <LocaleLink
       href="/#projects"
-      className="inline-flex items-center gap-3 max-w-[300px]"
+      className="inline-flex items-center gap-3"
     >
       {/* Overlapping avatars */}
       <div className="relative flex-shrink-0" style={{ width: 134, height: 36 }}>
@@ -44,9 +44,9 @@ function SocialProof({ text }: { text: string }) {
           </div>
         ))}
       </div>
-      <div className="flex flex-col gap-0.5">
+      <div className="flex flex-col items-start gap-0.5">
         {/* Stars */}
-        <div className="flex gap-0.5">
+        <div className="flex items-center gap-0.5">
           {[...Array(5)].map((_, i) => (
             <svg
               key={i}
