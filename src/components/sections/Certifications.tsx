@@ -9,22 +9,28 @@ import { certificationsT } from "@/lib/i18n/translations/home";
 
 const certifications = [
   {
-    src: "/images/partners/shopify-partners.svg",
-    alt: "Shopify Partners",
-    width: 160,
-    height: 60,
+    src: "/images/partners/shopify-partner.svg",
+    alt: "Shopify Partner",
+    width: 400,
+    height: 120,
   },
   {
     src: "/images/partners/google-partner.svg",
     alt: "Google Partner",
-    width: 180,
-    height: 60,
+    width: 400,
+    height: 140,
   },
   {
     src: "/images/partners/semrush-partner.svg",
-    alt: "Semrush Academy Certificate",
-    width: 180,
-    height: 60,
+    alt: "Semrush Certified Agency Partner",
+    width: 400,
+    height: 400,
+  },
+  {
+    src: "/images/partners/woocommerce-expert.svg",
+    alt: "Verified WooExpert",
+    width: 400,
+    height: 400,
   },
 ];
 
@@ -36,7 +42,7 @@ export default function Certifications() {
 
   return (
     <section className="w-full px-6 md:px-8 lg:px-16 py-20">
-      <div className="mx-auto max-w-[1000px] w-full">
+      <div className="mx-auto max-w-[1100px] w-full">
         {/* Badge */}
         <motion.div
           className="flex justify-center mb-4"
@@ -70,10 +76,10 @@ export default function Certifications() {
           {t.subtext}
         </motion.p>
 
-        {/* Partner logos */}
+        {/* Partner logos — uniform card grid */}
         <div
           ref={ref}
-          className="flex items-center justify-center flex-wrap gap-10 md:gap-16 lg:gap-20"
+          className="grid grid-cols-2 md:grid-cols-4 gap-5 md:gap-6"
         >
           {certifications.map((cert, i) => (
             <motion.div
@@ -90,10 +96,10 @@ export default function Certifications() {
                 ease: [0.25, 0.46, 0.45, 0.94],
               }}
               whileHover={{
-                scale: 1.08,
+                scale: 1.05,
                 transition: { duration: 0.25, ease: "easeOut" },
               }}
-              className="group relative flex items-center justify-center rounded-2xl border border-border bg-bg-card px-8 py-6 backdrop-blur-sm"
+              className="group relative flex items-center justify-center rounded-2xl border border-border bg-bg-card aspect-square overflow-hidden backdrop-blur-sm"
             >
               {/* Subtle glow on hover */}
               <div className="absolute inset-0 rounded-2xl bg-accent/0 blur-2xl transition-all duration-500 group-hover:bg-accent/10 group-hover:scale-125 pointer-events-none" />
@@ -103,7 +109,7 @@ export default function Certifications() {
                 alt={cert.alt}
                 width={cert.width}
                 height={cert.height}
-                className="relative h-[40px] md:h-[48px] w-auto object-contain"
+                className="relative w-[75%] h-auto object-contain"
               />
             </motion.div>
           ))}

@@ -1,6 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60" fill="none">
-  <text x="100" y="38" text-anchor="middle" font-family="Product Sans, Google Sans, Arial, sans-serif" font-size="22" font-weight="500">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 140" fill="none">
+  <!-- White background card -->
+  <rect width="400" height="140" rx="4" fill="#F8F9FA"/>
+  <!-- Blue left accent bar -->
+  <rect x="0" y="0" width="12" height="140" fill="#4285F4"/>
+  <!-- Google text -->
+  <text x="60" y="58" font-family="'Product Sans', 'Google Sans', Arial, sans-serif" font-size="28" font-weight="400">
     <tspan fill="#4285F4">G</tspan><tspan fill="#EA4335">o</tspan><tspan fill="#FBBC05">o</tspan><tspan fill="#4285F4">g</tspan><tspan fill="#34A853">l</tspan><tspan fill="#EA4335">e</tspan>
-    <tspan fill="#5F6368" dx="6">Partner</tspan>
   </text>
+  <!-- Partner text -->
+  <text x="60" y="108" font-family="'Product Sans', 'Google Sans', Arial, sans-serif" font-size="52" font-weight="400" fill="#757575">Partner</text>
 </svg>
