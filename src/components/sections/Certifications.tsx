@@ -97,7 +97,7 @@ export default function Certifications() {
                 alt={cert.alt}
                 width={cert.width}
                 height={cert.height}
-                className="relative h-[48px] md:h-[56px] w-auto object-contain opacity-60 transition-all duration-500 group-hover:opacity-100"
+                className="relative h-[40px] md:h-[50px] w-auto object-contain opacity-60 transition-all duration-500 group-hover:opacity-100"
               />
             </motion.div>
           ))}
