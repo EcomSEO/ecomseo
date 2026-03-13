@@ -10,9 +10,9 @@ import { certificationsT } from "@/lib/i18n/translations/home";
 const certifications = [
   {
     src: "/images/partners/shopify-partner.svg",
-    alt: "Shopify Partner",
-    width: 280,
-    height: 60,
+    alt: "Shopify Partners",
+    width: 520,
+    height: 80,
   },
   {
     src: "/images/partners/google-partner.svg",
