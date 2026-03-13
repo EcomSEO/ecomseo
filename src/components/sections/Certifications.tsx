@@ -11,26 +11,14 @@ const certifications = [
   {
     src: "/images/partners/shopify-partner.svg",
     alt: "Shopify Partner",
-    width: 400,
-    height: 120,
+    width: 280,
+    height: 60,
   },
   {
     src: "/images/partners/google-partner.svg",
     alt: "Google Partner",
-    width: 400,
-    height: 140,
-  },
-  {
-    src: "/images/partners/semrush-partner.svg",
-    alt: "Semrush Certified Agency Partner",
-    width: 400,
-    height: 400,
-  },
-  {
-    src: "/images/partners/woocommerce-expert.svg",
-    alt: "Verified WooExpert",
-    width: 400,
-    height: 400,
+    width: 220,
+    height: 60,
   },
 ];
 
@@ -76,40 +64,40 @@ export default function Certifications() {
           {t.subtext}
         </motion.p>
 
-        {/* Partner logos — uniform card grid */}
+        {/* Partner logos — horizontal row */}
         <div
           ref={ref}
-          className="grid grid-cols-2 md:grid-cols-4 gap-5 md:gap-6"
+          className="flex items-center justify-center flex-wrap gap-10 md:gap-14 lg:gap-16"
         >
           {certifications.map((cert, i) => (
             <motion.div
               key={cert.alt}
-              initial={{ opacity: 0, y: 24, scale: 0.85 }}
+              initial={{ opacity: 0, y: 20, scale: 0.8 }}
               animate={
                 isInView
                   ? { opacity: 1, y: 0, scale: 1 }
-                  : { opacity: 0, y: 24, scale: 0.85 }
+                  : { opacity: 0, y: 20, scale: 0.8 }
               }
               transition={{
-                duration: 0.6,
-                delay: i * 0.12,
+                duration: 0.5,
+                delay: i * 0.1,
                 ease: [0.25, 0.46, 0.45, 0.94],
               }}
               whileHover={{
-                scale: 1.05,
+                scale: 1.12,
                 transition: { duration: 0.25, ease: "easeOut" },
               }}
-              className="group relative flex items-center justify-center rounded-2xl border border-border bg-bg-card aspect-square overflow-hidden backdrop-blur-sm"
+              className="group relative flex items-center justify-center"
             >
-              {/* Subtle glow on hover */}
-              <div className="absolute inset-0 rounded-2xl bg-accent/0 blur-2xl transition-all duration-500 group-hover:bg-accent/15 group-hover:scale-125 pointer-events-none" />
+              {/* Purple glow on hover */}
+              <div className="absolute inset-0 rounded-full bg-accent/0 blur-xl transition-all duration-500 group-hover:bg-accent/20 group-hover:scale-150 pointer-events-none" />
 
               <Image
                 src={cert.src}
                 alt={cert.alt}
                 width={cert.width}
                 height={cert.height}
-                className="relative w-[80%] h-[80%] object-contain"
+                className="relative h-[48px] md:h-[56px] w-auto object-contain opacity-60 transition-all duration-500 group-hover:opacity-100"
               />
             </motion.div>
           ))}
