@@ -81,7 +81,7 @@ export const consumablesSeoData: Record<Locale, ServicePageProps> = {
         {
           question: "Do you specialize in consumables ecommerce?",
           answer:
-            "Yes. We work exclusively with ecommerce brands, and consumables is one of our core verticals. We understand the unique challenges of food, supplement, and CPG brands \u2014 from ingredient-driven searches to subscription optimization.",
+            "Yes. We work exclusively with ecommerce brands, and consumables is one of our core verticals. We understand the unique challenges of food, supplement, and CPG brands \u2014 from ingredient-driven searches to subscription optimization. Explore our [food & beverage SEO guide](/academy/food-beverage-seo) for industry-specific strategies.",
         },
         {
           question: "How do you handle supplement and health claims in SEO?",
@@ -96,7 +96,7 @@ export const consumablesSeoData: Record<Locale, ServicePageProps> = {
         {
           question: "How important is content for consumables SEO?",
           answer:
-            "Critical. Consumable shoppers research ingredients, compare products, and read reviews before purchasing. Educational content builds trust and captures top-of-funnel traffic that converts into loyal customers.",
+            "Critical. Consumable shoppers research ingredients, compare products, and read reviews before purchasing. Educational content builds trust and captures top-of-funnel traffic that converts into loyal customers. Our [ecommerce SEO content](/blog/ecommerce-seo-content) article explains how to build a content strategy that drives revenue.",
         },
         {
           question: "How do you measure success for consumable brands?",

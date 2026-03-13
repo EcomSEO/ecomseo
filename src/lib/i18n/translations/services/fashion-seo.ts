@@ -173,12 +173,12 @@ export const fashionSeoData: Record<Locale, ServicePageProps> = {
         {
           question: "Do you specialize in fashion ecommerce specifically?",
           answer:
-            "Yes. We work exclusively with ecommerce brands, and fashion is one of our core verticals. We understand seasonal inventory cycles, variant management, and the visual nature of fashion search.",
+            "Yes. We work exclusively with ecommerce brands, and fashion is one of our core verticals. We understand seasonal inventory cycles, variant management, and the visual nature of fashion search. Read our [fashion ecommerce SEO guide](/blog/fashion-ecommerce-seo) for more on our approach.",
         },
         {
           question: "How do you handle seasonal content for fashion brands?",
           answer:
-            "We plan content 3\u20136 months ahead of each season. Collection pages, trend guides, and style content are prepared and optimized before search demand peaks \u2014 so you\u2019re already ranking when shoppers start searching.",
+            "We plan content 3\u20136 months ahead of each season. [Collection pages](/academy/category-page-seo), trend guides, and style content are prepared and optimized before search demand peaks \u2014 so you\u2019re already ranking when shoppers start searching.",
         },
         {
           question: "Can you help with international fashion SEO?",
@@ -188,7 +188,7 @@ export const fashionSeoData: Record<Locale, ServicePageProps> = {
         {
           question: "How do you deal with product variants in SEO?",
           answer:
-            "We implement proper canonicalization for size and color variants, manage URL parameters, and ensure Google focuses on your main product pages rather than wasting crawl budget on variant URLs.",
+            "We implement proper canonicalization for size and color variants, manage URL parameters, and ensure Google focuses on your main product pages rather than wasting crawl budget on variant URLs. Our [product page SEO guide](/academy/product-page-seo) covers variant handling in detail.",
         },
         {
           question: "How do you measure success for fashion brands?",

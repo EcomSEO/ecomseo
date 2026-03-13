@@ -9,6 +9,7 @@ import Badge from "@/components/ui/Badge";
 import Button from "@/components/ui/Button";
 import LocaleLink from "@/components/ui/LocaleLink";
 import { serviceTemplateStrings } from "@/lib/i18n/translations/services";
+import { parseInlineLinks } from "@/lib/parseInlineLinks";
 import type { Locale } from "@/lib/i18n/config";
 
 /* ─── Types ─── */
@@ -244,7 +245,7 @@ function BenefitsSection({
                   </svg>
                 </div>
                 <p className="text-sm text-body leading-relaxed">
-                  {item.description}
+                  {parseInlineLinks(item.description)}
                 </p>
               </LocaleLink>
             ) : (
@@ -260,7 +261,7 @@ function BenefitsSection({
                   {item.title}
                 </h3>
                 <p className="text-sm text-body leading-relaxed">
-                  {item.description}
+                  {parseInlineLinks(item.description)}
                 </p>
               </motion.div>
             )
@@ -311,7 +312,7 @@ function ProcessSection({
               </span>
               <h3 className={`text-lg font-medium text-heading${item.href ? " group-hover:text-accent transition-colors" : ""}`}>{item.title}</h3>
               <p className="text-sm text-body leading-relaxed">
-                {item.description}
+                {parseInlineLinks(item.description)}
               </p>
               {item.href && (
                 <LocaleLink
@@ -508,7 +509,7 @@ function FAQSection({
                     className="overflow-hidden"
                   >
                     <p className="text-body text-sm leading-relaxed pb-5">
-                      {faq.answer}
+                      {parseInlineLinks(faq.answer)}
                     </p>
                   </motion.div>
                 )}

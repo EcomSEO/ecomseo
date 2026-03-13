@@ -10,6 +10,7 @@ import Navigation from "@/components/sections/Navigation";
 import CTA from "@/components/sections/CTA";
 import Footer from "@/components/sections/Footer";
 import LocaleLink from "@/components/ui/LocaleLink";
+import { parseInlineLinks } from "@/lib/parseInlineLinks";
 import { notFound } from "next/navigation";
 
 export async function generateStaticParams() {
@@ -166,7 +167,7 @@ export default async function BlogPostPage({
                       key={j}
                       className="text-body leading-relaxed mb-4"
                     >
-                      {paragraph}
+                      {parseInlineLinks(paragraph)}
                     </p>
                   ))}
                 </section>

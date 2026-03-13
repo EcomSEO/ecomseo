@@ -109,7 +109,7 @@ export const bigcommerceSeoData: Record<Locale, ServicePageProps> = {
         {
           question: "How long does BigCommerce SEO take to show results?",
           answer:
-            "Most BigCommerce stores see measurable improvements within 3-6 months. Technical fixes like faceted navigation cleanup and URL optimization can show results within weeks.",
+            "Most BigCommerce stores see measurable improvements within 3-6 months. Technical fixes like faceted navigation cleanup and URL optimization can show results within weeks. See our [BigCommerce SEO guide](/academy/bigcommerce-seo-guide) for platform-specific tactics.",
         },
         {
           question: "Do you work with BigCommerce Enterprise?",
@@ -129,7 +129,7 @@ export const bigcommerceSeoData: Record<Locale, ServicePageProps> = {
         {
           question: "How do you handle BigCommerce faceted navigation?",
           answer:
-            "We audit your faceted navigation for duplicate content and crawl waste, then implement proper canonical tags, robots directives, and URL parameter handling to keep Google focused on your best pages.",
+            "We audit your faceted navigation for duplicate content and crawl waste, then implement proper canonical tags, robots directives, and URL parameter handling to keep Google focused on your best pages. Our [technical SEO for ecommerce](/blog/technical-seo-for-ecommerce) article dives deeper into these fixes.",
         },
         {
           question: "Do you provide ongoing BigCommerce SEO support?",

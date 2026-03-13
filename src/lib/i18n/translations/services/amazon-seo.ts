@@ -120,12 +120,12 @@ export const amazonSeoData: Record<Locale, ServicePageProps> = {
         {
           question: "How is Amazon SEO different from Google SEO?",
           answer:
-            "Amazon\u2019s A9 algorithm prioritizes purchase intent, conversion rate, and sales velocity \u2014 not backlinks or domain authority. Our Amazon SEO strategy is built specifically for Amazon\u2019s ranking factors.",
+            "Amazon\u2019s A9 algorithm prioritizes purchase intent, conversion rate, and sales velocity \u2014 not backlinks or domain authority. Our Amazon SEO strategy is built specifically for Amazon\u2019s ranking factors. Read more about [ecommerce SEO keywords](/blog/ecommerce-seo-keywords) and how they differ across platforms.",
         },
         {
           question: "How long until we see results on Amazon?",
           answer:
-            "Most brands see measurable ranking improvements within 2\u20134 weeks of listing optimization. Significant traffic and revenue gains typically follow within 6\u201312 weeks.",
+            "Most brands see measurable ranking improvements within 2\u20134 weeks of listing optimization. Significant traffic and revenue gains typically follow within 6\u201312 weeks. Our [keyword research for ecommerce](/academy/keyword-research-for-ecommerce) guide explains the methodology behind these results.",
         },
         {
           question: "Do you manage Amazon PPC as well?",

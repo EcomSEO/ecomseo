@@ -178,7 +178,7 @@ export const ecommerceSeoServicesData: Record<Locale, ServicePageProps> = {
         {
           question: "Which service should I start with?",
           answer:
-            "It depends on your current situation. Stores with indexation or speed issues start with technical SEO. Stores with rankings but no conversions need on-page and content work. Stores competing in tough markets need authority building. Book a free audit and we'll tell you exactly where to focus first.",
+            "It depends on your current situation. Stores with indexation or speed issues start with technical SEO. Stores with rankings but no conversions need on-page and content work. Stores competing in tough markets need authority building. Read our [ecommerce SEO strategy](/blog/ecommerce-seo-strategy) guide or book a [free SEO audit](/seo-audit) and we'll tell you exactly where to focus first.",
         },
         {
           question: "Can you work alongside my existing team?",
@@ -198,7 +198,7 @@ export const ecommerceSeoServicesData: Record<Locale, ServicePageProps> = {
         {
           question: "Do you offer a free audit?",
           answer:
-            "Yes - a complimentary ecommerce SEO audit that identifies your biggest opportunities across technical, content, and authority. Book a call and we'll show you exactly where you're leaving revenue on the table.",
+            "Yes - a complimentary ecommerce SEO audit that identifies your biggest opportunities across technical, content, and authority. Start with our [complete ecommerce SEO](/blog/ecommerce-seo) overview, then book a call and we'll show you exactly where you're leaving revenue on the table.",
         },
       ],
       miniCta: {

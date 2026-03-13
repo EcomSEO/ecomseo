@@ -63,12 +63,12 @@ export const keywordResearchData: Record<Locale, ServicePageProps> = {
     ],
     faqs: {
       items: [
-        { question: "What makes your keyword research different from using a tool myself?", answer: "Tools give you data. We give you strategy. We classify every keyword by intent, map it to your catalog, and prioritize by revenue impact \u2014 not just search volume." },
+        { question: "What makes your keyword research different from using a tool myself?", answer: "Tools give you data. We give you strategy. We classify every keyword by intent, map it to your catalog, and prioritize by revenue impact \u2014 not just search volume. Our [ecommerce SEO keywords guide](/blog/ecommerce-seo-keywords) explains the methodology behind our approach." },
         { question: "How long does the keyword research process take?", answer: "A full keyword strategy typically takes 2\u20133 weeks. This includes catalog analysis, competitor research, intent classification, and roadmap creation. Rush timelines are available for time-sensitive projects." },
-        { question: "Do you also implement the keyword strategy?", answer: "Yes. We can handle end-to-end implementation including on-page optimization, content creation, and technical SEO. Or we can hand off the strategy to your internal team with detailed implementation guides." },
+        { question: "Do you also implement the keyword strategy?", answer: "Yes. We can handle end-to-end implementation including [on-page optimization](/blog/on-page-seo-for-ecommerce), content creation, and technical SEO. Or we can hand off the strategy to your internal team with detailed implementation guides." },
         { question: "How do you handle keyword cannibalization?", answer: "We audit your existing content for cannibalization issues as part of every engagement. When multiple pages compete for the same keyword, we consolidate, redirect, or differentiate them to maximize ranking potential." },
         { question: "What tools and data sources do you use?", answer: "We use a combination of Ahrefs, SEMrush, Google Search Console, DataForSEO, and proprietary tools. But tools are just inputs \u2014 the strategy comes from our ecommerce expertise and revenue-first methodology." },
-        { question: "How do you factor in AI Overviews and LLM-powered search?", answer: "We identify keywords where AI Overviews appear, analyze which sources get cited, and optimize your content structure for both traditional rankings and AI-powered search results." },
+        { question: "How do you factor in AI Overviews and LLM-powered search?", answer: "We identify keywords where AI Overviews appear, analyze which sources get cited, and optimize your content structure for both traditional rankings and AI-powered search results. Dive deeper in our [keyword research for ecommerce academy module](/academy/keyword-research-for-ecommerce)." },
       ],
       miniCta: {
         heading: "Ready to Find the Keywords That Actually Drive Revenue?",

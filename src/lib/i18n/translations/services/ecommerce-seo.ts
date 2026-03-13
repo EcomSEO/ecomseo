@@ -62,12 +62,12 @@ export const ecommerceSeoData: Record<Locale, ServicePageProps> = {
     ],
     faqs: {
       items: [
-        { question: "How can I improve the SEO of my ecommerce website?", answer: "Focus on the technical foundation first \u2014 site speed, crawlability, and structured data. Then optimize category pages for commercial intent keywords, create revenue-driving content, and build authoritative backlinks." },
+        { question: "How can I improve the SEO of my ecommerce website?", answer: "Focus on the technical foundation first \u2014 site speed, crawlability, and structured data. Then optimize category pages for commercial intent keywords, create revenue-driving content, and build authoritative backlinks. Read our [complete ecommerce SEO guide](/blog/ecommerce-seo) for a detailed breakdown of each step." },
         { question: "Why should I invest in SEO services for ecommerce?", answer: "SEO is an investment in equity, whereas PPC is an expense (rent). If you stop paying for ads, your traffic drops to zero instantly. With SEO, you\u2019re building a digital asset that continues to drive revenue, lowering your blended Customer Acquisition Cost and increasing profitability." },
         { question: "How long does it take to see results?", answer: "3\u20136 months for measurable uplifts. 6\u201312 months for market dominance. Technical fixes can show impact within weeks, while content and authority building compound over time." },
         { question: "What platforms do you work with?", answer: "Shopify, WooCommerce, Magento, BigCommerce, Lightspeed, Adobe Commerce \u2014 we\u2019ve ranked stores on every major ecommerce platform. Our strategies are platform-agnostic but our implementation is platform-specific." },
-        { question: "What makes your approach different from other SEO agencies?", answer: "We only work with ecommerce. Every playbook, every template, every audit is built for product catalogs and revenue \u2014 not blog traffic. We measure success in revenue attribution, not just keyword rankings." },
-        { question: "Do you offer a free audit?", answer: "Yes. We offer a complimentary ecommerce SEO audit that identifies your biggest opportunities and technical issues. Book a call and we\u2019ll show you exactly what\u2019s holding your store back." },
+        { question: "What makes your approach different from other SEO agencies?", answer: "We only work with ecommerce. Every playbook, every template, every audit is built for product catalogs and revenue \u2014 not blog traffic. We measure success in revenue attribution, not just keyword rankings. See our [ecommerce SEO strategy framework](/blog/ecommerce-seo-strategy) for more on our methodology." },
+        { question: "Do you offer a free audit?", answer: "Yes. We offer a complimentary ecommerce SEO audit that identifies your biggest opportunities and technical issues. Learn more about [what an ecommerce SEO audit covers](/blog/ecommerce-seo-audit), then book a call and we\u2019ll show you exactly what\u2019s holding your store back." },
       ],
       miniCta: {
         heading: "Ready to 2\u20134\u00D7 Your Ecommerce Revenue?",

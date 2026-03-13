@@ -109,7 +109,7 @@ export const adobeCommerceSeoData: Record<Locale, ServicePageProps> = {
         {
           question: "Do you work with both Magento and Adobe Commerce?",
           answer:
-            "Yes. Adobe Commerce is the enterprise version of Magento. We work with both Magento Open Source and Adobe Commerce, handling the unique SEO challenges of each platform version.",
+            "Yes. Adobe Commerce is the enterprise version of Magento. We work with both Magento Open Source and Adobe Commerce, handling the unique SEO challenges of each platform version. Learn more in our [Magento ecommerce SEO guide](/blog/magento-ecommerce-seo).",
         },
         {
           question: "How do you handle multi-store SEO for Adobe Commerce?",
@@ -119,7 +119,7 @@ export const adobeCommerceSeoData: Record<Locale, ServicePageProps> = {
         {
           question: "Can you help with Magento 1 to Adobe Commerce 2 migration?",
           answer:
-            "Absolutely. We create comprehensive redirect maps, preserve URL equity, and monitor traffic during the migration to minimize organic traffic loss.",
+            "Absolutely. We create comprehensive redirect maps, preserve URL equity, and monitor traffic during the migration to minimize organic traffic loss. Our [Magento SEO guide](/academy/magento-seo-guide) covers what to watch for during a migration.",
         },
         {
           question: "How long does an Adobe Commerce SEO audit take?",

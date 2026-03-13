@@ -86,7 +86,7 @@ export const toysSeoData: Record<Locale, ServicePageProps> = {
         {
           question: "How do you handle seasonal SEO for toys?",
           answer:
-            "We plan content 3\u20136 months ahead of peak seasons. Gift guides, trending toy roundups, and seasonal collection pages are prepared and optimized before search demand spikes \u2014 so you\u2019re already ranking when shoppers start searching.",
+            "We plan content 3\u20136 months ahead of peak seasons. Gift guides, trending toy roundups, and seasonal collection pages are prepared and optimized before search demand spikes \u2014 so you\u2019re already ranking when shoppers start searching. Our [seasonal keyword trends](/academy/seasonal-keyword-trends) guide explains this approach in detail.",
         },
         {
           question: "Can you help with international toy SEO?",
@@ -96,7 +96,7 @@ export const toysSeoData: Record<Locale, ServicePageProps> = {
         {
           question: "How important is content for toy SEO?",
           answer:
-            "Critical. Parents research extensively before buying toys. Gift guides, age-appropriate recommendations, safety information, and educational value content are essential for capturing top-of-funnel traffic.",
+            "Critical. Parents research extensively before buying toys. Gift guides, age-appropriate recommendations, safety information, and educational value content are essential for capturing top-of-funnel traffic. Learn more about content-driven SEO in our [ecommerce SEO](/blog/ecommerce-seo) guide.",
         },
         {
           question: "How do you measure success for toy brands?",

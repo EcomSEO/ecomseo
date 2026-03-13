@@ -86,7 +86,7 @@ export const contentWritingData: Record<Locale, ServicePageProps> = {
         {
           question: "What type of content do you write?",
           answer:
-            "We write product descriptions, category page content, blog posts, buying guides, comparison articles, and any other content type that drives organic traffic and conversions for ecommerce stores.",
+            "We write product descriptions, category page content, blog posts, buying guides, comparison articles, and any other content type that drives organic traffic and conversions for ecommerce stores. See our [ecommerce SEO content guide](/blog/ecommerce-seo-content) for examples of content that performs.",
         },
         {
           question: "Do you write in languages other than English?",
@@ -96,7 +96,7 @@ export const contentWritingData: Record<Locale, ServicePageProps> = {
         {
           question: "How do you ensure content quality?",
           answer:
-            "Every piece goes through keyword research, competitor analysis, expert writing, editorial review, and SEO optimization before delivery. We focus on E-E-A-T signals and genuine value for the reader.",
+            "Every piece goes through [keyword research](/keyword-research), competitor analysis, expert writing, editorial review, and SEO optimization before delivery. We focus on E-E-A-T signals and genuine value for the reader.",
         },
         {
           question: "How many pieces of content do you deliver per month?",
@@ -106,7 +106,7 @@ export const contentWritingData: Record<Locale, ServicePageProps> = {
         {
           question: "Can you optimize existing content?",
           answer:
-            "Absolutely. We audit your existing content, identify quick wins, and optimize underperforming pages before creating new content. Often the fastest ROI comes from improving what you already have.",
+            "Absolutely. We audit your existing content, identify quick wins, and optimize underperforming pages before creating new content. Often the fastest ROI comes from improving what you already have. Our [SEO audit service](/seo-audit) includes a full content gap analysis.",
         },
         {
           question: "How long until content starts ranking?",

@@ -18,7 +18,7 @@ export const ecommerceSeoPackages: BlogArticle = {
       body: [
         "SEO agencies and consultants sell packages for a practical reason: ecommerce SEO involves many moving parts that need to work together. Technical fixes alone will not drive revenue. Content without proper on-page optimization will not rank. Link building on a technically broken site is a waste of money. Packages bundle these interconnected services so they are executed in the right order with the right balance.",
         "The downside of packages is that they can be opaque. A package labeled 'Premium Ecommerce SEO Plan' at $5,000 per month could mean almost anything. Some agencies use packages as a way to standardize and streamline their work, which benefits you. Others use them to mask what they are actually doing, which does not.",
-        "This guide breaks down what ecommerce SEO packages typically include, what each component is worth, and how to tell a legitimate offering from a bad deal. We sell packages ourselves, so we know the economics from the inside."
+        "This guide breaks down what ecommerce SEO packages typically include, what each component is worth, and how to tell a legitimate offering from a bad deal. We sell packages ourselves, so we know the economics from the inside. For a detailed breakdown of costs at each tier, see our guide to [ecommerce SEO pricing](/blog/ecommerce-seo-pricing)."
       ],
     },
     {
@@ -28,7 +28,7 @@ export const ecommerceSeoPackages: BlogArticle = {
         "One-time packages cover a specific scope of work with a defined start and end date. The most common one-time package is an SEO audit. You pay a fixed fee (typically $2,000 to $10,000 depending on store size and depth), receive a deliverable (the audit report with recommendations), and the engagement ends. Other one-time packages include site migration support, initial technical optimization, and content strategy development.",
         "One-time packages make sense when you have internal resources to implement recommendations but need expert direction. If your team can execute the work but does not know what to prioritize, an audit package gives you the roadmap.",
         "Ongoing retainers cover continuous work month after month. This is where most ecommerce SEO results come from, because SEO is not a one-time fix. Rankings need monitoring, new content needs publishing, technical issues pop up with every platform update, and link building requires sustained effort. Monthly retainers for ecommerce range from $1,500 to $15,000 depending on the scope and the agency.",
-        "In our experience, stores that treat SEO as a project (do it once and move on) see results plateau or decline within 6 to 12 months. Stores that invest in ongoing retainers see compounding returns because organic traffic builds on itself over time."
+        "In our experience, stores that treat SEO as a project (do it once and move on) see results plateau or decline within 6 to 12 months. Stores that invest in ongoing retainers see compounding returns because organic traffic builds on itself over time. For help deciding which package fits your goals, review our [ecommerce SEO strategy guide](/blog/ecommerce-seo-strategy)."
       ],
     },
     {
@@ -80,7 +80,7 @@ export const ecommerceSeoPackages: BlogArticle = {
         "Look at who will do the work. Junior team members or offshore contractors doing the execution is not inherently bad, but you should know. If you are paying premium rates, you should expect senior-level involvement in strategy and quality control. Ask specifically: who will write the content? Who will do the technical SEO work? Who will run link building outreach?",
         "Check the contract terms. Month-to-month contracts favor you because the agency has to earn your continued business. Agencies that require 12-month commitments upfront are shifting risk from themselves to you. Some initial commitment (3 months) is reasonable because SEO results take time. A year-long lock-in with no performance benchmarks is not.",
         "Ask about what happens when something goes wrong. If a Google algorithm update tanks your traffic, what is the agency's response plan? If a technical issue breaks indexation, how quickly do they respond? The best agencies have incident response processes and do not charge extra for emergency support.",
-        "Finally, ask about exclusivity. Some agencies refuse to work with competing businesses in the same niche. Others will happily take your money and your competitor's money simultaneously. Know what you are getting into."
+        "Finally, ask about exclusivity. Some agencies refuse to work with competing businesses in the same niche. Others will happily take your money and your competitor's money simultaneously. Know what you are getting into. Before committing, consider requesting a standalone [SEO audit](/seo-audit) so you have an independent baseline to measure progress against."
       ],
     },
     {
@@ -92,7 +92,7 @@ export const ecommerceSeoPackages: BlogArticle = {
         "Extremely cheap packages for large stores are a warning sign. If an agency offers to do full-service SEO for a 50,000-product store at $999 per month, the math does not work. Either they are using automated tools with no human oversight, outsourcing to the cheapest labor they can find, or they plan to upsell you constantly once you sign.",
         "Packages that do not include reporting or limit your access to data are hiding something. If you cannot see what is happening with your own website's SEO, you have no way to hold the agency accountable.",
         "Watch out for packages that lock you into proprietary tools or platforms. Some agencies build your SEO workflow on their own systems, which means you lose everything if you leave. Your content, your data, and your work product should belong to you. Period.",
-        "Packages that include link building but refuse to disclose the sources are a major red flag. You need to know where your backlinks come from. If the agency is building links from spammy or irrelevant sites, it could result in a Google penalty that damages your store for years."
+        "Packages that include link building but refuse to disclose the sources are a major red flag. You need to know where your backlinks come from. If the agency is building links from spammy or irrelevant sites, it could result in a Google penalty that damages your store for years. To compare how leading providers structure their offerings, read our roundup of [ecommerce SEO agencies](/blog/ecommerce-seo-agencies)."
       ],
     },
   ],

@@ -125,7 +125,7 @@ export const linkBuildingData: Record<Locale, ServicePageProps> = {
         {
           question: "What is SEO Link Building exactly?",
           answer:
-            "SEO link building is the practice of getting relevant, high-quality websites to link to your pages in a way that helps you rank higher for target keywords, earn more organic traffic, and build trust \u2014 all without putting your domain at risk. It\u2019s focused, intentional, and aligned with your overall SEO strategy.",
+            "SEO link building is the practice of getting relevant, high-quality websites to link to your pages in a way that helps you rank higher for target keywords, earn more organic traffic, and build trust \u2014 all without putting your domain at risk. It\u2019s focused, intentional, and aligned with your overall SEO strategy. Our [off-page SEO for ecommerce guide](/blog/off-page-seo-for-ecommerce) covers the fundamentals in detail.",
         },
         {
           question: "What are the main methods of link building you use?",
@@ -135,7 +135,7 @@ export const linkBuildingData: Record<Locale, ServicePageProps> = {
         {
           question: "How fast will we see results?",
           answer:
-            "It depends on your starting authority, competitiveness, and technical SEO. Typically, clients start seeing meaningful movement on priority terms within a few months, with compounding gains as links and content snowball. We\u2019ll set realistic expectations before we start.",
+            "It depends on your starting authority, competitiveness, and [technical SEO](/technical-seo). Typically, clients start seeing meaningful movement on priority terms within a few months, with compounding gains as links and content snowball. We\u2019ll set realistic expectations before we start.",
         },
         {
           question: "Do you guarantee specific DR or DA scores?",
@@ -150,7 +150,7 @@ export const linkBuildingData: Record<Locale, ServicePageProps> = {
         {
           question: "Can link building work for ecommerce specifically?",
           answer:
-            "Absolutely. Ecommerce link building requires a different approach than SaaS or local business. We build links to category pages, product pages, and supporting content that directly impacts commercial rankings and revenue.",
+            "Absolutely. Ecommerce link building requires a different approach than SaaS or local business. We build links to category pages, product pages, and supporting content that directly impacts commercial rankings and revenue. Explore our [backlink fundamentals for ecommerce](/academy/backlink-fundamentals-for-ecommerce) to learn how we approach it.",
         },
       ],
       miniCta: {

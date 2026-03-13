@@ -126,7 +126,7 @@ export const shopifySeoData: Record<Locale, ServicePageProps> = {
         {
           question: "Why does my Shopify store need specialized SEO?",
           answer:
-            "Shopify has unique technical SEO challenges that generic agencies miss \u2014 duplicate content from collections and tags, auto-generated URL structures, limited control over canonical tags, and theme-level speed issues. We specialize in solving these platform-specific problems so your store ranks higher and converts more organic traffic.",
+            "Shopify has unique technical SEO challenges that generic agencies miss \u2014 duplicate content from collections and tags, auto-generated URL structures, limited control over canonical tags, and theme-level speed issues. We specialize in solving these platform-specific problems so your store ranks higher and converts more organic traffic. Our [Shopify ecommerce SEO guide](/blog/shopify-ecommerce-seo) covers the most common issues in detail.",
         },
         {
           question: "How long until I see results from Shopify SEO?",
@@ -141,7 +141,7 @@ export const shopifySeoData: Record<Locale, ServicePageProps> = {
         {
           question: "What does a Shopify SEO audit include?",
           answer:
-            "Our audit covers crawlability and indexation issues, duplicate content from collections/tags/vendors, canonical tag implementation, structured data gaps, Core Web Vitals and theme speed, URL architecture, internal linking structure, and content gaps vs. your top competitors.",
+            "Our audit covers crawlability and indexation issues, duplicate content from collections/tags/vendors, canonical tag implementation, [structured data gaps](/academy/structured-data-for-products), Core Web Vitals and theme speed, URL architecture, internal linking structure, and content gaps vs. your top competitors.",
         },
         {
           question: "Will you make changes directly to my Shopify store?",
@@ -152,7 +152,7 @@ export const shopifySeoData: Record<Locale, ServicePageProps> = {
           question:
             "How is EcomSEO different from other Shopify SEO agencies?",
           answer:
-            "We only work with ecommerce brands, so we understand the revenue impact of every SEO decision. We focus on profit metrics (not vanity rankings), provide radical transparency in reporting, and bring an operator mindset \u2014 we have built and scaled ecommerce brands ourselves, not just optimized them from the outside.",
+            "We only work with ecommerce brands, so we understand the revenue impact of every SEO decision. We focus on profit metrics (not vanity rankings), provide radical transparency in reporting, and bring an operator mindset \u2014 we have built and scaled ecommerce brands ourselves, not just optimized them from the outside. Learn more about our [technical SEO methodology](/technical-seo).",
         },
       ],
       miniCta: {

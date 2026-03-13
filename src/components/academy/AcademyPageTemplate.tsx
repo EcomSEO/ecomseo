@@ -1,4 +1,5 @@
 import LocaleLink from "@/components/ui/LocaleLink";
+import { parseInlineLinks } from "@/lib/parseInlineLinks";
 import Navigation from "@/components/sections/Navigation";
 import CTA from "@/components/sections/CTA";
 import Footer from "@/components/sections/Footer";
@@ -227,20 +228,20 @@ function AcademyBlockRenderer({ block }: { block: AcademyBlock }) {
   switch (block.type) {
     case "p":
       return (
-        <p className="text-body text-base leading-relaxed">{block.text}</p>
+        <p className="text-body text-base leading-relaxed">{parseInlineLinks(block.text)}</p>
       );
     case "callout":
       return (
         <div className="bg-accent/10 border border-accent/20 rounded-xl p-5">
           <p className="text-accent text-sm font-semibold mb-1">{block.title}</p>
-          <p className="text-body text-sm leading-relaxed">{block.text}</p>
+          <p className="text-body text-sm leading-relaxed">{parseInlineLinks(block.text)}</p>
         </div>
       );
     case "tip":
       return (
         <div className="bg-bg-card border border-border rounded-xl p-4 flex gap-3">
           <span className="text-accent text-sm shrink-0 font-medium">Tip</span>
-          <p className="text-body text-sm leading-relaxed">{block.text}</p>
+          <p className="text-body text-sm leading-relaxed">{parseInlineLinks(block.text)}</p>
         </div>
       );
     case "list":
@@ -249,7 +250,7 @@ function AcademyBlockRenderer({ block }: { block: AcademyBlock }) {
           {block.items.map((item, i) => (
             <li key={i} className="flex items-start gap-3">
               <span className="text-accent text-sm shrink-0 mt-0.5">-</span>
-              <span className="text-body text-sm leading-relaxed">{item}</span>
+              <span className="text-body text-sm leading-relaxed">{parseInlineLinks(item)}</span>
             </li>
           ))}
         </ul>
@@ -260,7 +261,7 @@ function AcademyBlockRenderer({ block }: { block: AcademyBlock }) {
           {block.items.map((item, i) => (
             <li key={i} className="flex items-start gap-3">
               <span className="text-accent text-sm shrink-0 mt-0.5 font-medium">{i + 1}.</span>
-              <span className="text-body text-sm leading-relaxed">{item}</span>
+              <span className="text-body text-sm leading-relaxed">{parseInlineLinks(item)}</span>
             </li>
           ))}
         </ol>
@@ -275,7 +276,7 @@ function AcademyBlockRenderer({ block }: { block: AcademyBlock }) {
                   <path d="M20 6L9 17l-5-5" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" />
                 </svg>
               </div>
-              <span className="text-body text-sm leading-relaxed">{item}</span>
+              <span className="text-body text-sm leading-relaxed">{parseInlineLinks(item)}</span>
             </div>
           ))}
         </div>
