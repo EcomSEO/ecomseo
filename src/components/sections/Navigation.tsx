@@ -240,38 +240,11 @@ export default function Navigation() {
   return (
     <nav className="fixed top-0 left-0 right-0 z-50">
       {/* ─── Top announcement bar ─── */}
-      <div className="w-full bg-[#1a3a5c]">
-        <div className="mx-auto max-w-[1400px] flex items-center justify-between px-4 md:px-6 py-1.5">
-          {/* Left: case studies link (hidden on mobile) */}
-          <div className="hidden md:flex items-center gap-2">
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-white/70">
-              <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4" />
-              <polyline points="17 8 12 3 7 8" />
-              <line x1="12" y1="3" x2="12" y2="15" />
-            </svg>
-            <LocaleLink href="/cases" className="text-[12px] font-medium text-white/80 hover:text-white transition-colors tracking-wide">
-              <span className="underline decoration-white/30 underline-offset-2 hover:decoration-white/60">{t.topBarCaseStudies}</span>
-              {" "}Proving Our Results-driven Approach
-            </LocaleLink>
-          </div>
-
-          {/* Center: headline */}
-          <span className="text-[11px] md:text-[12px] font-bold tracking-[0.15em] uppercase text-white/90 text-center flex-1 md:flex-none">
+      <div className="w-full bg-[rgb(10,10,10)] border-b border-white/[0.06]">
+        <div className="mx-auto max-w-[1400px] flex items-center justify-center px-4 py-1.5">
+          <span className="text-[11px] font-medium tracking-[0.2em] uppercase text-white/40">
             {t.topBarHeadline}
           </span>
-
-          {/* Right: CTA (hidden on mobile) */}
-          <div className="hidden md:flex items-center gap-5">
-            <LocaleLink
-              href="/contact"
-              className="flex items-center gap-1.5 text-[12px] font-bold tracking-wide text-white hover:text-white/80 transition-colors"
-            >
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" className="text-white/70">
-                <path d="M15.05 5A5 5 0 0119 8.95M15.05 1A9 9 0 0123 8.94m-1 7.98v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-              </svg>
-              {t.topBarCta}
-            </LocaleLink>
-          </div>
         </div>
       </div>
 

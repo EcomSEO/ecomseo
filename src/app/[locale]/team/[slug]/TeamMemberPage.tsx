@@ -114,7 +114,7 @@ export default function TeamMemberPage({ member }: { member: TeamMember }) {
       <main>
         {/* Hero / Profile Section */}
         <section className="relative w-full overflow-hidden">
-          <div className="relative px-5 md:px-16 pt-[110px] pb-16">
+          <div className="relative px-5 md:px-16 pt-[105px] pb-16">
             <div className="relative z-[1] mx-auto max-w-[1000px] w-full">
               <motion.div
                 className="flex flex-col lg:flex-row gap-8 items-start"
