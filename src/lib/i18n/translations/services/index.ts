@@ -37,7 +37,7 @@ import { ecommerceSeoServicesData } from "./ecommerce-seo-services";
 
 /**
  * Template-level strings used by ServicePageTemplate itself
- * (FAQs badge, FAQs heading, "Get in touch" button)
+ * (FAQs badge, FAQs heading, "Get a Free Proposal" button)
  */
 export const serviceTemplateStrings: Record<
   Locale,
@@ -46,7 +46,7 @@ export const serviceTemplateStrings: Record<
   en: {
     faqBadge: "FAQs",
     faqHeading: "Frequently Asked Questions",
-    getInTouch: "Get in touch",
+    getInTouch: "Get a Free Proposal",
   },
   de: {
     faqBadge: "FAQ",

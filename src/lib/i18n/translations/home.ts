@@ -12,7 +12,7 @@ export const heroT: Record<Locale, {
     socialProof: "Backed by 19+ brand owners",
     heading: "We build and scale brands with Ecommerce SEO",
     subtitle: "Solving SEO for ecommerce brands with a profit-focused approach. Multiple 8 figures+ generated through our frameworks.",
-    ctaPrimary: "Get in Touch",
+    ctaPrimary: "Get a Free Proposal",
     ctaSecondary: "Learn More",
   },
   de: {
@@ -198,7 +198,7 @@ export const servicesT: Record<Locale, {
     badge: "Services",
     heading: "How can we help *you*?",
     subtext: "Our team is focused on growing your brand exponentially through SEO. All of our offers are tailor made.",
-    cta: "Get in touch",
+    cta: "Get a Free Proposal",
     cards: [
       { title: "AI Infrastructures", description: "Leverage our expertise and become a digital pioneer in the world of AI. Invest in your team by partnering up with EcomSEO and take our custom AI infrastructure." },
       { title: "Acquisitions & Scaling", description: "E-commerce is in our nature. SEO is our craft. Therefore we acquire and partner with brands. Because of this, we understand e-commerce like no other SEO agency." },
@@ -417,7 +417,7 @@ export const ctaT: Record<Locale, {
   subtext: string;
   cta: string;
 }> = {
-  en: { heading: "Work Together With SEO Experts *who understand ecommerce*", subtext: "World\u2019s first Ecom-founded SEO agency", cta: "Get in touch" },
+  en: { heading: "Work Together With SEO Experts *who understand ecommerce*", subtext: "World\u2019s first Ecom-founded SEO agency", cta: "Get a Free Proposal" },
   de: { heading: "Arbeiten Sie mit SEO-Experten zusammen, *die E-Commerce verstehen*", subtext: "Die weltweit erste von E-Com-Gründern aufgebaute SEO-Agentur", cta: "Kontakt aufnehmen" },
   fr: { heading: "Travaillez avec des experts SEO *qui comprennent l\u2019e-commerce*", subtext: "La première agence SEO fondée par des e-commerçants", cta: "Nous contacter" },
   es: { heading: "Trabaja con expertos SEO *que entienden el e-commerce*", subtext: "La primera agencia SEO del mundo fundada por e-commerce", cta: "Contáctenos" },
@@ -437,7 +437,7 @@ export const teamT: Record<Locale, {
     badge: "Our natural habitat",
     heading: "We speak the same *language.*",
     description: "We breath and talk e-commerce (and Dutch). That\u2019s specialisation.",
-    cta: "Get in Touch with Fabian",
+    cta: "Get a Free Proposal from Fabian",
     members: [
       { name: "Fabian van Til", role: "CEO at EcomSEO, Brand Owner" },
       { name: "Gjorgi Jovev", role: "Outreach & SEO Expert" },

@@ -69,7 +69,7 @@ export const contactPageT: Record<Locale, {
       heading: "We speak the same language.",
       description: "We breath and talk e-commerce (and Dutch). That's specialisation.",
       fabianRole: "CEO at EcomSEO, Brand Owner",
-      fabianCta: "Get in Touch with Fabian",
+      fabianCta: "Get a Free Proposal from Fabian",
     },
     faqItems: [
       {

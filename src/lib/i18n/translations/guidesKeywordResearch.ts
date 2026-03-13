@@ -83,7 +83,7 @@ export const guidesKeywordResearchT: Record<Locale, GuidePageContent> = {
       resourceLibrary: "Want the full resource library?",
       browseAll: "Browse all resources",
       needHelp: "Need help with keyword research?",
-      getInTouch: "Get in touch",
+      getInTouch: "Get a Free Proposal",
     },
   },
   de: {

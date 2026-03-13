@@ -21,7 +21,7 @@ export const thankYouPaymentT: Record<Locale, {
     subtitle: "We appreciate you as our client.",
     whatsapp: "Whatsapp",
     book30min: "Book 30 min",
-    getInTouch: "Get in touch",
+    getInTouch: "Get a Free Proposal",
     firstName: "First Name",
     lastName: "Last Name",
     email: "Email",

@@ -255,7 +255,7 @@ export const guidesIntroT: Record<Locale, {
     crashCoursePrompt: "Want the crash course?",
     crashCourseLink: "Start here",
     talkPrompt: "Ready to talk?",
-    talkLink: "Get in touch",
+    talkLink: "Get a Free Proposal",
   },
   de: {
     breadcrumb: "E-Commerce-SEO-Grundlagen",

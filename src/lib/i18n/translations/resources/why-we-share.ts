@@ -34,7 +34,7 @@ export const whyWeShareT: Record<Locale, {
       badge: "Why we share",
       heading: "Why share so much knowledge? Goodwill's why.",
       subtitle: "We believe in goodwill. We know we're the best in the game. We develop industry-leading tactics.",
-      cta: "Get in Touch",
+      cta: "Get a Free Proposal",
       learnMore: "Learn More",
     },
     transparency: {

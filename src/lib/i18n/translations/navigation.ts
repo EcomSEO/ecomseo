@@ -29,7 +29,7 @@ export const navigationTranslations: Record<Locale, {
     cases: "Cases",
     blog: "Blog",
     clientDashboard: "Client Dashboard",
-    getInTouch: "Get in Touch",
+    getInTouch: "Get a Free Proposal",
     megaMenuHeading: "We do SEO for ecommerce sites",
     ourFramework: "Our Framework",
     byServiceType: "By service type",
