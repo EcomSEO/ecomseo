@@ -1,6 +1,9 @@
 import type { Locale } from "../config";
 
 export const navigationTranslations: Record<Locale, {
+  topBarHeadline: string;
+  topBarCaseStudies: string;
+  topBarCta: string;
   ecommerceSeo: string;
   academy: string;
   seoTools: string;
@@ -23,6 +26,9 @@ export const navigationTranslations: Record<Locale, {
   }[];
 }> = {
   en: {
+    topBarHeadline: "#1 Ecommerce SEO Agency",
+    topBarCaseStudies: "Client Case Studies",
+    topBarCta: "GET A FREE PROPOSAL",
     ecommerceSeo: "Ecommerce SEO",
     academy: "Academy",
     seoTools: "SEO Tools",
@@ -54,6 +60,9 @@ export const navigationTranslations: Record<Locale, {
     ],
   },
   de: {
+    topBarHeadline: "#1 E-Commerce SEO Agentur",
+    topBarCaseStudies: "Kunden-Fallstudien",
+    topBarCta: "KOSTENLOSES ANGEBOT",
     ecommerceSeo: "E-Commerce SEO",
     academy: "Akademie",
     seoTools: "SEO-Tools",
@@ -85,6 +94,9 @@ export const navigationTranslations: Record<Locale, {
     ],
   },
   fr: {
+    topBarHeadline: "#1 Agence SEO E-commerce",
+    topBarCaseStudies: "Études de cas clients",
+    topBarCta: "DEVIS GRATUIT",
     ecommerceSeo: "SEO E-commerce",
     academy: "Académie",
     seoTools: "Outils SEO",
@@ -116,6 +128,9 @@ export const navigationTranslations: Record<Locale, {
     ],
   },
   es: {
+    topBarHeadline: "#1 Agencia SEO E-commerce",
+    topBarCaseStudies: "Casos de éxito de clientes",
+    topBarCta: "PROPUESTA GRATIS",
     ecommerceSeo: "SEO E-commerce",
     academy: "Academia",
     seoTools: "Herramientas SEO",
@@ -147,6 +162,9 @@ export const navigationTranslations: Record<Locale, {
     ],
   },
   it: {
+    topBarHeadline: "#1 Agenzia SEO E-commerce",
+    topBarCaseStudies: "Casi studio clienti",
+    topBarCta: "PREVENTIVO GRATUITO",
     ecommerceSeo: "SEO E-commerce",
     academy: "Accademia",
     seoTools: "Strumenti SEO",
@@ -178,6 +196,9 @@ export const navigationTranslations: Record<Locale, {
     ],
   },
   nl: {
+    topBarHeadline: "#1 E-commerce SEO Bureau",
+    topBarCaseStudies: "Klant casestudies",
+    topBarCta: "GRATIS VOORSTEL",
     ecommerceSeo: "E-commerce SEO",
     academy: "Academie",
     seoTools: "SEO-tools",

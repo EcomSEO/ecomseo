@@ -90,7 +90,7 @@ function ServiceHero({
   heroImage,
 }: ServicePageProps["hero"]) {
   return (
-    <section className="w-full px-5 md:px-10 pt-[80px] pb-12">
+    <section className="w-full px-5 md:px-10 pt-[112px] pb-12">
       <div className="mx-auto max-w-[1120px] flex flex-col items-center text-center gap-7">
         <motion.div
           initial={{ opacity: 0, y: 20 }}

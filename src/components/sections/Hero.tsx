@@ -73,7 +73,7 @@ export default function Hero() {
 
   return (
     <section className="relative w-full overflow-hidden">
-      <div className="relative px-6 md:px-8 lg:px-16 pt-[78px] pb-[104px]">
+      <div className="relative px-6 md:px-8 lg:px-16 pt-[110px] pb-[104px]">
         <div className="relative z-[1] mx-auto max-w-[1200px] w-full flex flex-col items-center text-center gap-4">
           {/* Content outer - gap 7px */}
           <div className="flex flex-col items-center gap-[7px]">

@@ -65,7 +65,7 @@ export default function ContactPage() {
       <main>
         {/* Hero */}
         <section className="relative w-full overflow-hidden">
-          <div className="relative px-5 md:px-16 pt-[78px] pb-[250px]">
+          <div className="relative px-5 md:px-16 pt-[110px] pb-[250px]">
             <div className="relative z-[1] mx-auto max-w-[1200px] w-full flex flex-col items-center text-center gap-4">
               <div className="flex flex-col items-center gap-[7px]">
                 <motion.div
