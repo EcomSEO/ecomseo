@@ -240,11 +240,17 @@ export default function Navigation() {
   return (
     <nav className="fixed top-0 left-0 right-0 z-50">
       {/* ─── Top announcement bar ─── */}
-      <div className="w-full bg-[rgb(10,10,10)] border-b border-white/[0.06]">
-        <div className="mx-auto max-w-[1400px] flex items-center justify-center px-4 py-1.5">
-          <span className="text-[11px] font-medium tracking-[0.2em] uppercase text-white/40">
+      <div className="w-full bg-gradient-to-r from-[rgb(10,10,10)] via-[#1a1025] to-[rgb(10,10,10)] border-b border-purple-500/[0.08]">
+        <div className="mx-auto max-w-[1400px] flex items-center justify-center gap-2 px-4 py-1.5">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" className="text-purple-400/70 flex-shrink-0">
+            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" fill="currentColor" />
+          </svg>
+          <span className="text-[11px] font-semibold tracking-[0.2em] uppercase bg-gradient-to-r from-white/50 via-white/70 to-white/50 bg-clip-text text-transparent">
             {t.topBarHeadline}
           </span>
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" className="text-purple-400/70 flex-shrink-0">
+            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" fill="currentColor" />
+          </svg>
         </div>
       </div>
 
