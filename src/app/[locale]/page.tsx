@@ -15,6 +15,7 @@ import Process from "@/components/sections/Process";
 import DataFeeds from "@/components/sections/DataFeeds";
 import FAQ from "@/components/sections/FAQ";
 import Team from "@/components/sections/Team";
+import Certifications from "@/components/sections/Certifications";
 import CTA from "@/components/sections/CTA";
 import Footer from "@/components/sections/Footer";
 
@@ -44,6 +45,7 @@ export default function Home() {
         <DataFeeds />
         <FAQ />
         <Team />
+        <Certifications />
         <CTA />
       </main>
       <Footer />

@@ -587,3 +587,41 @@ export const homeFaqT: Record<Locale, {
     ],
   },
 };
+
+/* ─── Certifications ─── */
+export const certificationsT: Record<Locale, {
+  badge: string;
+  heading: string;
+  subtext: string;
+}> = {
+  en: {
+    badge: "Certifications",
+    heading: "Certified Partners",
+    subtext: "We are officially certified by the platforms and tools we work with every day.",
+  },
+  de: {
+    badge: "Zertifizierungen",
+    heading: "Zertifizierte Partner",
+    subtext: "Wir sind offiziell zertifiziert von den Plattformen und Tools, mit denen wir täglich arbeiten.",
+  },
+  fr: {
+    badge: "Certifications",
+    heading: "Partenaires certifiés",
+    subtext: "Nous sommes officiellement certifiés par les plateformes et outils que nous utilisons au quotidien.",
+  },
+  es: {
+    badge: "Certificaciones",
+    heading: "Socios certificados",
+    subtext: "Estamos oficialmente certificados por las plataformas y herramientas con las que trabajamos cada día.",
+  },
+  it: {
+    badge: "Certificazioni",
+    heading: "Partner certificati",
+    subtext: "Siamo ufficialmente certificati dalle piattaforme e dagli strumenti che utilizziamo ogni giorno.",
+  },
+  nl: {
+    badge: "Certificeringen",
+    heading: "Gecertificeerde partners",
+    subtext: "We zijn officieel gecertificeerd door de platformen en tools waarmee we dagelijks werken.",
+  },
+};
