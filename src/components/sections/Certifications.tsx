@@ -99,7 +99,7 @@ export default function Certifications() {
                 scale: 1.05,
                 transition: { duration: 0.25, ease: "easeOut" },
               }}
-              className="group relative flex items-center justify-center rounded-2xl bg-white aspect-square overflow-hidden"
+              className="group relative flex items-center justify-center rounded-2xl border border-border bg-bg-card aspect-square overflow-hidden backdrop-blur-sm"
             >
               {/* Subtle glow on hover */}
               <div className="absolute inset-0 rounded-2xl bg-accent/0 blur-2xl transition-all duration-500 group-hover:bg-accent/15 group-hover:scale-125 pointer-events-none" />
