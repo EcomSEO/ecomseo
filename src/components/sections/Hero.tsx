@@ -59,7 +59,7 @@ function SocialProof({ text }: { text: string }) {
             </svg>
           ))}
         </div>
-        <span className="text-xs font-medium text-body">
+        <span className="text-xs font-medium text-body whitespace-nowrap">
           {text}
         </span>
       </div>
