@@ -25,6 +25,9 @@ export const metadata: Metadata = {
     ],
     apple: "/images/brand/favicon-180x180.png",
   },
+  verification: {
+    google: "5ghH4Yw3BL_EbnSv9o-SSir-6_1qaFcCbOaTDr1JzKY",
+  },
 };
 
 export default async function RootLayout({
