@@ -25,6 +25,7 @@ const certifications = [
     alt: "Bing Partner Agency",
     width: 400,
     height: 199,
+    className: "relative h-[55px] md:h-[70px] w-auto object-contain opacity-60 transition-all duration-500 group-hover:opacity-100",
   },
 ];
 
@@ -103,7 +104,7 @@ export default function Certifications() {
                 alt={cert.alt}
                 width={cert.width}
                 height={cert.height}
-                className="relative h-[40px] md:h-[50px] w-auto object-contain opacity-60 transition-all duration-500 group-hover:opacity-100"
+                className={cert.className || "relative h-[40px] md:h-[50px] w-auto object-contain opacity-60 transition-all duration-500 group-hover:opacity-100"}
               />
             </motion.div>
           ))}
