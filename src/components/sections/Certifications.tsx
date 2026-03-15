@@ -15,10 +15,10 @@ const certifications = [
     height: 250,
   },
   {
-    src: "/images/partners/google-partner.svg",
+    src: "/images/partners/google-partner.png",
     alt: "Google Partner",
-    width: 220,
-    height: 60,
+    width: 573,
+    height: 208,
   },
 ];
 
