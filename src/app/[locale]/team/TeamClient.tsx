@@ -86,13 +86,14 @@ function TeamCard({
 }) {
   return (
     <motion.div
+      className="flex flex-col"
       initial={{ opacity: 0, y: 30 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.6, delay: 0.1 + index * 0.1 }}
     >
       <LocaleLink
         href={member.href}
-        className="group block rounded-2xl border border-border bg-[#12121a] overflow-hidden transition-all duration-400 hover:border-[rgba(168,85,247,0.35)] hover:bg-[#1a1a28] hover:-translate-y-1.5 hover:shadow-[0_20px_60px_rgba(147,51,234,0.1),0_0_0_1px_rgba(147,51,234,0.15)]"
+        className="group flex flex-col flex-1 rounded-2xl border border-border bg-[#12121a] overflow-hidden transition-all duration-400 hover:border-[rgba(168,85,247,0.35)] hover:bg-[#1a1a28] hover:-translate-y-1.5 hover:shadow-[0_20px_60px_rgba(147,51,234,0.1),0_0_0_1px_rgba(147,51,234,0.15)]"
       >
         <div className="relative w-full aspect-[3/3.5] overflow-hidden bg-gradient-to-br from-[#1a1a2e] to-[#16162a]">
           <Image
@@ -103,7 +104,7 @@ function TeamCard({
           />
           <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-[rgba(10,10,15,0.95)]" style={{ background: 'linear-gradient(180deg, transparent 50%, rgba(10,10,15,0.6) 80%, rgba(10,10,15,0.95) 100%)' }} />
         </div>
-        <div className="p-6">
+        <div className="p-6 flex flex-col flex-1">
           <h3 className="text-lg md:text-xl font-bold text-heading tracking-[-0.01em]">
             {member.name}
           </h3>
@@ -113,7 +114,7 @@ function TeamCard({
           <p className="text-sm text-body leading-relaxed hidden md:block">
             {member.description}
           </p>
-          <div className="flex gap-2.5 mt-5 pt-5 border-t border-border">
+          <div className="flex gap-2.5 mt-auto pt-5 border-t border-border">
             <span
               onClick={(e) => {
                 e.preventDefault();
