@@ -20,6 +20,12 @@ const certifications = [
     width: 573,
     height: 208,
   },
+  {
+    src: "/images/partners/bing-partner-agency.webp",
+    alt: "Bing Partner Agency",
+    width: 400,
+    height: 199,
+  },
 ];
 
 export default function Certifications() {
