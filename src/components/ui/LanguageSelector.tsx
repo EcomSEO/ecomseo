@@ -32,7 +32,7 @@ function GlobeIcon() {
   );
 }
 
-export default function LanguageSelector() {
+export default function LanguageSelector({ dropUp = false }: { dropUp?: boolean } = {}) {
   const [open, setOpen] = useState(false);
   const ref = useRef<HTMLDivElement>(null);
   const params = useParams();
@@ -133,8 +133,9 @@ export default function LanguageSelector() {
           style={{
             position: "absolute",
             right: 0,
-            top: "100%",
-            marginTop: "8px",
+            ...(dropUp
+              ? { bottom: "100%", marginBottom: "8px" }
+              : { top: "100%", marginTop: "8px" }),
             width: "180px",
             padding: "6px 0",
             background: "rgb(18,18,18)",

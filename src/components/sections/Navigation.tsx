@@ -603,12 +603,8 @@ export default function Navigation() {
               </div>
             </a>
 
-            {/* Language Selector */}
-            <div className="py-3 border-b border-white/[0.06]">
-              <LanguageSelector />
-            </div>
-
-            <div className="mt-4">
+            {/* CTA first, then Language Selector below */}
+            <div className="mt-4 mb-3">
               <Button
                 href="https://w35pmime997.typeform.com/to/eqeeLQvb"
                 variant="primary"
@@ -619,6 +615,12 @@ export default function Navigation() {
                 {t.getInTouch}
               </Button>
             </div>
+
+            {/* Language Selector at bottom — opens upward on mobile */}
+            <div className="relative z-[70] py-3 border-t border-white/[0.06]">
+              <LanguageSelector dropUp />
+            </div>
+
           </div>
         )}
       </div>
