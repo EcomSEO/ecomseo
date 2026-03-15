@@ -31,16 +31,19 @@ export default async function BlogPage({
     { name: t.breadcrumbBlog, path: "/blog" },
   ]);
 
-  const articles = allArticles.map((a) => ({
-    slug: a.slug,
-    title: a.title,
-    description: a.description,
-    category: a.category,
-    publishDate: a.publishDate,
-    readingTime: a.readingTime,
-    author: a.author,
-    authorSlug: a.authorSlug,
-  }));
+  const articles = allArticles.map((a) => {
+    const c = a.content[locale] || a.content.en;
+    return {
+      slug: a.slug,
+      title: c.title,
+      description: c.description,
+      category: a.category,
+      publishDate: a.publishDate,
+      readingTime: a.readingTime,
+      author: a.author,
+      authorSlug: a.authorSlug,
+    };
+  });
 
   return (
     <>

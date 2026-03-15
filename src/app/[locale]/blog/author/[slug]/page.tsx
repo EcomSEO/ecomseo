@@ -183,8 +183,9 @@ export default async function AuthorPage({
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               {articles.map((article) => {
+                const ac = article.content[locale] || article.content.en;
                 const categoryLabel =
-                  t.categories.find((c) => c.id === article.category)?.label ||
+                  t.categories.find((cat) => cat.id === article.category)?.label ||
                   article.category;
 
                 return (
@@ -197,10 +198,10 @@ export default async function AuthorPage({
                       {categoryLabel}
                     </span>
                     <h3 className="text-lg font-semibold text-heading group-hover:text-white mb-2 leading-snug">
-                      {article.title}
+                      {ac.title}
                     </h3>
                     <p className="text-sm text-body leading-relaxed mb-4 line-clamp-3 flex-1">
-                      {article.description}
+                      {ac.description}
                     </p>
                     <div className="flex items-center justify-between text-xs text-body/60 pt-4 border-t border-border">
                       <span>{article.readingTime} {t.minRead}</span>

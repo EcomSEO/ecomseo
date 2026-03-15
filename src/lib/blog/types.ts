@@ -1,12 +1,18 @@
+import type { Locale } from "@/lib/i18n/config";
+
 export type BlogSection = {
   heading: string;
   body: string[];
 };
 
-export type BlogArticle = {
-  slug: string;
+export type BlogArticleContent = {
   title: string;
   description: string;
+  sections: BlogSection[];
+};
+
+export type BlogArticle = {
+  slug: string;
   category: string;
   publishDate: string;
   readingTime: number;
@@ -15,7 +21,7 @@ export type BlogArticle = {
   authorSlug: string;
   primaryKeyword: string;
   secondaryKeywords: string[];
-  sections: BlogSection[];
+  content: { en: BlogArticleContent } & Partial<Record<Locale, BlogArticleContent>>;
 };
 
 export type BlogCategory = {

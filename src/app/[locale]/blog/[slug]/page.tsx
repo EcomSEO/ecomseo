@@ -28,13 +28,15 @@ export async function generateMetadata({
 
   const url = `${BASE_URL}/${locale}/blog/${slug}`;
 
+  const c = article.content[locale] || article.content.en;
+
   return {
-    title: `${article.title} | EcomSEO`,
-    description: article.description,
+    title: `${c.title} | EcomSEO`,
+    description: c.description,
     alternates: generateAlternates(`/blog/${slug}`, locale),
     openGraph: {
-      title: article.title,
-      description: article.description,
+      title: c.title,
+      description: c.description,
       url,
       siteName: "EcomSEO",
       type: "article",
@@ -43,8 +45,8 @@ export async function generateMetadata({
     },
     twitter: {
       card: "summary_large_image",
-      title: article.title,
-      description: article.description,
+      title: c.title,
+      description: c.description,
     },
   };
 }
@@ -59,26 +61,27 @@ export default async function BlogPostPage({
   if (!article) notFound();
 
   const t = blogTranslations[locale];
+  const c = article.content[locale] || article.content.en;
   const related = getRelatedArticles(slug, 3);
   const categoryLabel =
-    t.categories.find((c) => c.id === article.category)?.label ||
+    t.categories.find((cat) => cat.id === article.category)?.label ||
     article.category;
 
   const breadcrumb = breadcrumbJsonLd(locale, [
     { name: t.breadcrumbHome, path: "/" },
     { name: t.breadcrumbBlog, path: "/blog" },
-    { name: article.title, path: `/blog/${slug}` },
+    { name: c.title, path: `/blog/${slug}` },
   ]);
 
-  const wordCount = article.sections
+  const wordCount = c.sections
     .flatMap((s) => s.body)
     .join(" ")
     .split(/\s+/).length;
 
   const articleSchema = articleJsonLdFn({
     locale,
-    headline: article.title,
-    description: article.description,
+    headline: c.title,
+    description: c.description,
     path: `/blog/${slug}`,
     datePublished: article.publishDate,
     dateModified: article.publishDate,
@@ -108,10 +111,10 @@ export default async function BlogPostPage({
                 {categoryLabel}
               </span>
               <h1 className="text-3xl md:text-4xl font-bold text-heading mt-3 mb-4 leading-tight">
-                {article.title}
+                {c.title}
               </h1>
               <p className="text-body text-lg leading-relaxed mb-6">
-                {article.description}
+                {c.description}
               </p>
               <div className="flex items-center gap-4 text-sm text-body/60">
                 <span>
@@ -142,7 +145,7 @@ export default async function BlogPostPage({
                 {t.tableOfContents}
               </p>
               <ul className="space-y-2">
-                {article.sections.map((section, i) => (
+                {c.sections.map((section, i) => (
                   <li key={i}>
                     <a
                       href={`#section-${i}`}
@@ -157,7 +160,7 @@ export default async function BlogPostPage({
 
             {/* Article body */}
             <div className="prose-custom">
-              {article.sections.map((section, i) => (
+              {c.sections.map((section, i) => (
                 <section key={i} id={`section-${i}`} className="mb-10">
                   <h2 className="text-xl md:text-2xl font-semibold text-heading mb-4">
                     {section.heading}
@@ -184,27 +187,30 @@ export default async function BlogPostPage({
                 {t.relatedArticles}
               </h2>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                {related.map((rel) => (
-                  <LocaleLink
-                    key={rel.slug}
-                    href={`/blog/${rel.slug}`}
-                    className="group flex flex-col rounded-xl border border-border bg-white/[0.02] hover:bg-white/[0.04] hover:border-white/[0.12] transition-all p-6"
-                  >
-                    <span className="text-xs font-medium text-accent uppercase tracking-wider mb-2">
-                      {t.categories.find((c) => c.id === rel.category)?.label ||
-                        rel.category}
-                    </span>
-                    <h3 className="text-base font-semibold text-heading group-hover:text-white mb-2 leading-snug">
-                      {rel.title}
-                    </h3>
-                    <p className="text-sm text-body line-clamp-2 flex-1">
-                      {rel.description}
-                    </p>
-                    <span className="text-xs text-body/60 mt-3">
-                      {rel.readingTime} {t.minRead}
-                    </span>
-                  </LocaleLink>
-                ))}
+                {related.map((rel) => {
+                  const rc = rel.content[locale] || rel.content.en;
+                  return (
+                    <LocaleLink
+                      key={rel.slug}
+                      href={`/blog/${rel.slug}`}
+                      className="group flex flex-col rounded-xl border border-border bg-white/[0.02] hover:bg-white/[0.04] hover:border-white/[0.12] transition-all p-6"
+                    >
+                      <span className="text-xs font-medium text-accent uppercase tracking-wider mb-2">
+                        {t.categories.find((cat) => cat.id === rel.category)?.label ||
+                          rel.category}
+                      </span>
+                      <h3 className="text-base font-semibold text-heading group-hover:text-white mb-2 leading-snug">
+                        {rc.title}
+                      </h3>
+                      <p className="text-sm text-body line-clamp-2 flex-1">
+                        {rc.description}
+                      </p>
+                      <span className="text-xs text-body/60 mt-3">
+                        {rel.readingTime} {t.minRead}
+                      </span>
+                    </LocaleLink>
+                  );
+                })}
               </div>
             </div>
           </section>
