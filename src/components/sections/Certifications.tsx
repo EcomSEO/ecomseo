@@ -25,7 +25,7 @@ const certifications = [
     alt: "Bing Partner Agency",
     width: 400,
     height: 199,
-    className: "relative h-[55px] md:h-[70px] w-auto object-contain opacity-60 transition-all duration-500 group-hover:opacity-100",
+    className: "relative h-[50px] md:h-[65px] w-auto object-contain opacity-60 transition-all duration-500 group-hover:opacity-100",
   },
 ];
 
