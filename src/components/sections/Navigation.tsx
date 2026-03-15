@@ -1,12 +1,23 @@
 "use client";
 
 import { useState, useRef, useEffect } from "react";
+import { useParams, usePathname, useRouter } from "next/navigation";
 import LocaleLink from "@/components/ui/LocaleLink";
 import Image from "next/image";
 import Button from "@/components/ui/Button";
 import LanguageSelector from "@/components/ui/LanguageSelector";
 import { useLocale } from "@/lib/i18n/useTranslations";
 import { navigationTranslations } from "@/lib/i18n/translations/navigation";
+import { locales, defaultLocale, type Locale } from "@/lib/i18n/config";
+
+const mobileLocaleConfig: Record<Locale, { code: string; label: string }> = {
+  en: { code: "EN", label: "English" },
+  de: { code: "DE", label: "Deutsch" },
+  fr: { code: "FR", label: "Français" },
+  es: { code: "ES", label: "Español" },
+  it: { code: "IT", label: "Italiano" },
+  nl: { code: "NL", label: "Nederlands" },
+};
 
 /* ─── Icon components (pink outlined style matching original Framer site) ─── */
 
@@ -190,6 +201,76 @@ function ServiceGridTile({
         </span>
       </div>
     </LocaleLink>
+  );
+}
+
+/* ─── Mobile Language Picker (inline, no overlay) ─── */
+
+function MobileLanguagePicker() {
+  const [expanded, setExpanded] = useState(false);
+  const params = useParams();
+  const pathname = usePathname();
+  const router = useRouter();
+  const currentLocale = (params?.locale as Locale) || "en";
+
+  function switchLocale(newLocale: Locale) {
+    const pathWithoutLocale =
+      pathname.replace(/^\/(en|de|fr|es|it|nl)(\/|$)/, "/") || "/";
+    if (newLocale === defaultLocale) {
+      router.push(pathWithoutLocale);
+    } else {
+      const cleanPath = pathWithoutLocale === "/" ? "" : pathWithoutLocale;
+      router.push(`/${newLocale}${cleanPath}`);
+    }
+    setExpanded(false);
+  }
+
+  return (
+    <div className="border-b border-white/[0.06]">
+      <button
+        className="flex items-center justify-between w-full py-3 text-white/70"
+        onClick={() => setExpanded(!expanded)}
+      >
+        <div className="flex items-center gap-2">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" className="opacity-60">
+            <circle cx="12" cy="12" r="10" />
+            <path d="M2 12h20" />
+            <path d="M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z" />
+          </svg>
+          <span>{mobileLocaleConfig[currentLocale].label}</span>
+        </div>
+        <svg
+          width="16"
+          height="16"
+          viewBox="0 0 16 16"
+          fill="none"
+          className={`transition-transform ${expanded ? "rotate-180" : ""}`}
+        >
+          <path d="M4 6l4 4 4-4" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
+        </svg>
+      </button>
+      {expanded && (
+        <div className="grid grid-cols-3 gap-1 pb-3">
+          {locales.map((loc) => {
+            const isActive = loc === currentLocale;
+            return (
+              <button
+                key={loc}
+                onClick={() => switchLocale(loc)}
+                className={`flex items-center justify-center gap-1.5 py-2.5 rounded-lg text-sm transition-colors ${
+                  isActive
+                    ? "bg-white/[0.08] text-white font-medium"
+                    : "text-white/50 hover:text-white hover:bg-white/[0.04]"
+                }`}
+              >
+                <span className="text-[11px] opacity-50">{mobileLocaleConfig[loc].code}</span>
+                <span className="text-[13px]">{mobileLocaleConfig[loc].label}</span>
+              </button>
+            );
+          })}
+        </div>
+      )}
+    </div>
   );
 }
 
@@ -603,8 +684,11 @@ export default function Navigation() {
               </div>
             </a>
 
-            {/* CTA first, then Language Selector below */}
-            <div className="mt-4 mb-3">
+            {/* Mobile Language Selector — inline accordion style */}
+            <MobileLanguagePicker />
+
+            {/* CTA */}
+            <div className="mt-4">
               <Button
                 href="https://w35pmime997.typeform.com/to/eqeeLQvb"
                 variant="primary"
@@ -614,11 +698,6 @@ export default function Navigation() {
               >
                 {t.getInTouch}
               </Button>
-            </div>
-
-            {/* Language Selector at bottom — opens upward on mobile */}
-            <div className="relative z-[70] py-3 border-t border-white/[0.06]">
-              <LanguageSelector dropUp />
             </div>
 
           </div>
