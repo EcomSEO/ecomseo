@@ -63,7 +63,7 @@ export const programmaticSeoForEcommerce: AcademyTopic = {
       badge: "Fortgeschrittenes SEO",
       heading: "Programmatisches SEO fur E-Commerce",
       intro:
-        "Programmatisches SEO nutzt Templates und strukturierte Daten, um gro?e Mengen suchmaschinenoptimierter Seiten skalierbar zu generieren. Fur E-Commerce-Shops mit umfangreichen Produktkatalogen kann dieser Ansatz Tausende von Long-Tail-Anfragen erfassen, birgt aber auch Risiken bei dunnen Inhalten und Index-Aufblahung.",
+        "Programmatisches SEO nutzt Templates und strukturierte Daten, um gro?e Mengen suchmaschinenoptimierter Seiten skalierbar zu generieren. Fur E-Commerce-Shops mit umfangreichen Produktkatalogen kann dieser Ansatz Tausende von Long-Tail-Anfragen erfassen, birgt aber auch Risiken bei dunnen Inhalten und Index-Aufblahung. Die Beherrschung dieser [fortgeschrittene Ecommerce-SEO-Techniken](/blog/advanced-ecommerce-seo-techniques) ist vor der Skalierung unerl\u00e4sslich.",
       readTime: "11 Min. Lesezeit",
       sections: [
         {
@@ -86,7 +86,7 @@ export const programmaticSeoForEcommerce: AcademyTopic = {
         {
           title: "Index-Management im gro?en Ma?stab",
           content:
-            "50.000 programmatische Seiten zu generieren bedeutet nichts, wenn 40.000 davon unindexiert bleiben oder in einem Qualitatsfilter hangen bleiben. Index-Management ist die operative Herausforderung, die erfolgreiches programmatisches SEO von verschwendetem Engineering-Aufwand trennt.\n\nBeginnen Sie mit einer Crawl-First-Strategie. Reichen Sie programmatische Seiten uber XML-Sitemaps ein, die nach Kategorie oder Template-Typ organisiert sind. Uberwachen Sie den Indexabdeckungsbericht in der Google Search Console.\n\nSetzen Sie das Robots-Meta-Tag und Canonical-Tags strategisch ein. Seiten mit unzureichenden Daten sollten ein noindex-Tag tragen, bis sie angereichert sind. Near-Duplicate-Seiten sollten Canonical-Tags verwenden.\n\nImplementieren Sie ein Lifecycle-Management-System fur programmatische Seiten. Wenn Produkte dauerhaft ausverkauft sind, sollten die entsprechenden Seiten entweder weiterleiten, Einstellungsinformationen anzeigen oder mit 410-Statuscodes entfernt werden.",
+            "50.000 programmatische Seiten zu generieren bedeutet nichts, wenn 40.000 davon unindexiert bleiben oder in einem Qualitatsfilter hangen bleiben. Index-Management ist die operative Herausforderung, die erfolgreiches programmatisches SEO von verschwendetem Engineering-Aufwand trennt.\n\nBeginnen Sie mit einer Crawl-First-Strategie. Reichen Sie programmatische Seiten uber XML-Sitemaps ein, die nach Kategorie oder Template-Typ organisiert sind. Uberwachen Sie den Indexabdeckungsbericht in der Google Search Console. Das Verst\u00e4ndnis von [Crawl-Budget-Management](/academy/crawl-budget-management) ist bei der Ver\u00f6ffentlichung in diesem Umfang entscheidend.\n\nSetzen Sie das Robots-Meta-Tag und [Canonical-Tags](/academy/canonical-tags-for-ecommerce) strategisch ein. Seiten mit unzureichenden Daten sollten ein noindex-Tag tragen, bis sie angereichert sind. Near-Duplicate-Seiten sollten Canonical-Tags verwenden.\n\nImplementieren Sie ein Lifecycle-Management-System fur programmatische Seiten. Wenn Produkte dauerhaft ausverkauft sind, sollten die entsprechenden Seiten entweder weiterleiten, Einstellungsinformationen anzeigen oder mit 410-Statuscodes entfernt werden.",
         },
         {
           title: "Thin-Content-Strafen vermeiden",
@@ -117,7 +117,7 @@ export const programmaticSeoForEcommerce: AcademyTopic = {
       badge: "SEO Avance",
       heading: "SEO Programmatique pour E-commerce",
       intro:
-        "Le SEO programmatique utilise des templates et des donnees structurees pour generer un grand nombre de pages optimisees pour la recherche a grande echelle. Pour les boutiques e-commerce avec des catalogues produits etendus, cette approche peut capturer des milliers de requetes longue traine, mais elle comporte aussi des risques reels autour du contenu mince et du gonflement de l'index.",
+        "Le SEO programmatique utilise des templates et des donnees structurees pour generer un grand nombre de pages optimisees pour la recherche a grande echelle. Pour les boutiques e-commerce avec des catalogues produits etendus, cette approche peut capturer des milliers de requetes longue traine, mais elle comporte aussi des risques reels autour du contenu mince et du gonflement de l'index. Maîtriser ces [techniques SEO e-commerce avancées](/blog/advanced-ecommerce-seo-techniques) est essentiel avant de déployer à grande échelle.",
       readTime: "11 min de lecture",
       sections: [
         {
@@ -140,7 +140,7 @@ export const programmaticSeoForEcommerce: AcademyTopic = {
         {
           title: "Gestion de l'index a grande echelle",
           content:
-            "Generer 50 000 pages programmatiques ne signifie rien si 40 000 d'entre elles restent non indexees ou sont prises dans un filtre de qualite. La gestion de l'index est le defi operationnel qui separe le SEO programmatique reussi de l'effort d'ingenierie gaspille.\n\nCommencez par une strategie crawl-first. Soumettez les pages programmatiques via des sitemaps XML organisees par categorie ou type de template. Surveillez le rapport de couverture d'index dans Google Search Console.\n\nUtilisez le meta tag robots et les balises canoniques strategiquement. Les pages avec des donnees insuffisantes doivent porter une balise noindex jusqu'a enrichissement. Les pages quasi-dupliquees doivent utiliser des balises canoniques.\n\nImplementez un systeme de gestion du cycle de vie pour les pages programmatiques. Quand les produits sont definitivement en rupture de stock, les pages correspondantes doivent rediriger, mettre a jour ou etre supprimees avec des codes 410.",
+            "Generer 50 000 pages programmatiques ne signifie rien si 40 000 d'entre elles restent non indexees ou sont prises dans un filtre de qualite. La gestion de l'index est le defi operationnel qui separe le SEO programmatique reussi de l'effort d'ingenierie gaspille.\n\nCommencez par une strategie crawl-first. Soumettez les pages programmatiques via des sitemaps XML organisees par categorie ou type de template. Surveillez le rapport de couverture d'index dans Google Search Console.\n\nUtilisez le meta tag robots et les balises canoniques strategiquement. Les pages avec des donnees insuffisantes doivent porter une balise noindex jusqu'a enrichissement. Les pages quasi-dupliquees doivent utiliser des balises canoniques.\n\nImplementez un systeme de gestion du cycle de vie pour les pages programmatiques. Quand les produits sont definitivement en rupture de stock, les pages correspondantes doivent rediriger, mettre a jour ou etre supprimees avec des codes 410. Comprendre la [gestion du budget de crawl](/academy/crawl-budget-management) est crucial lors de la publication de pages à ce volume. Les pages quasi-dupliquées (comme le même produit dans des configurations légèrement différentes) devraient utiliser des [balises canoniques](/academy/canonical-tags-for-ecommerce) pointant vers la variante principale.",
         },
         {
           title: "Eviter les penalites de contenu mince",
@@ -171,7 +171,7 @@ export const programmaticSeoForEcommerce: AcademyTopic = {
       badge: "SEO Avanzado",
       heading: "SEO Programatico para Ecommerce",
       intro:
-        "El SEO programatico utiliza plantillas y datos estructurados para generar grandes cantidades de paginas optimizadas para busqueda a escala. Para tiendas ecommerce con catalogos extensos, este enfoque puede capturar miles de consultas long-tail, pero tambien conlleva riesgos reales relacionados con contenido delgado e inflacion del indice.",
+        "El SEO programatico utiliza plantillas y datos estructurados para generar grandes cantidades de paginas optimizadas para busqueda a escala. Para tiendas ecommerce con catalogos extensos, este enfoque puede capturar miles de consultas long-tail, pero tambien conlleva riesgos reales relacionados con contenido delgado e inflacion del indice. Dominar estas [tecnicas avanzadas de SEO para ecommerce](/blog/advanced-ecommerce-seo-techniques) es esencial antes de desplegar a escala.",
       readTime: "11 min de lectura",
       sections: [
         {
@@ -194,7 +194,7 @@ export const programmaticSeoForEcommerce: AcademyTopic = {
         {
           title: "Gestion del indice a escala",
           content:
-            "Generar 50.000 paginas programaticas no significa nada si 40.000 de ellas quedan sin indexar o atrapadas en un filtro de calidad. La gestion del indice es el desafio operativo que separa el SEO programatico exitoso del esfuerzo de ingenieria desperdiciado.\n\nComienza con una estrategia crawl-first. Enviar paginas programaticas a traves de sitemaps XML organizadas por categoria o tipo de plantilla. Monitorizar el informe de cobertura del indice en Google Search Console.\n\nUsa las etiquetas meta robots y canonicas estrategicamente. Las paginas con datos insuficientes deben llevar una etiqueta noindex hasta que se enriquezcan. Las paginas casi duplicadas deben usar etiquetas canonicas.\n\nImplementa un sistema de gestion del ciclo de vida para paginas programaticas. Cuando los productos se agotan permanentemente, las paginas correspondientes deben redirigir, actualizar o eliminarse con codigos 410.",
+            "Generar 50.000 paginas programaticas no significa nada si 40.000 de ellas quedan sin indexar o atrapadas en un filtro de calidad. La gestion del indice es el desafio operativo que separa el SEO programatico exitoso del esfuerzo de ingenieria desperdiciado.\n\nComienza con una estrategia crawl-first. Enviar paginas programaticas a traves de sitemaps XML organizadas por categoria o tipo de plantilla. Monitorizar el informe de cobertura del indice en Google Search Console.\n\nUsa las etiquetas meta robots y canonicas estrategicamente. Las paginas con datos insuficientes deben llevar una etiqueta noindex hasta que se enriquezcan. Las paginas casi duplicadas deben usar [etiquetas canonicas](/academy/canonical-tags-for-ecommerce).\n\nImplementa un sistema de gestion del ciclo de vida para paginas programaticas. Cuando los productos se agotan permanentemente, las paginas correspondientes deben redirigir, actualizar o eliminarse con codigos 410. Comprender la [gestion del presupuesto de rastreo](/academy/crawl-budget-management) es critico al publicar paginas a este volumen.",
         },
         {
           title: "Evitar penalizaciones por contenido delgado",
@@ -225,7 +225,7 @@ export const programmaticSeoForEcommerce: AcademyTopic = {
       badge: "SEO Avanzato",
       heading: "SEO Programmatico per Ecommerce",
       intro:
-        "Il SEO programmatico utilizza template e dati strutturati per generare grandi numeri di pagine ottimizzate per la ricerca su larga scala. Per negozi ecommerce con cataloghi prodotti estesi, questo approccio puo catturare migliaia di query long-tail, ma comporta anche rischi reali legati a contenuti sottili e gonfiamento dell'indice.",
+        "Il SEO programmatico utilizza template e dati strutturati per generare grandi numeri di pagine ottimizzate per la ricerca su larga scala. Per negozi ecommerce con cataloghi prodotti estesi, questo approccio puo catturare migliaia di query long-tail, ma comporta anche rischi reali legati a contenuti sottili e gonfiamento dell'indice. Approfondisci con la nostra guida sulle [tecniche SEO avanzate per ecommerce](/blog/advanced-ecommerce-seo-techniques).",
       readTime: "11 min di lettura",
       sections: [
         {
@@ -248,7 +248,7 @@ export const programmaticSeoForEcommerce: AcademyTopic = {
         {
           title: "Gestione dell'indice su larga scala",
           content:
-            "Generare 50.000 pagine programmatiche non significa nulla se 40.000 di esse rimangono non indicizzate o vengono catturate in un filtro di qualita. La gestione dell'indice e la sfida operativa che separa il SEO programmatico di successo dallo sforzo ingegneristico sprecato.\n\nInizia con una strategia crawl-first. Invia le pagine programmatiche tramite sitemap XML organizzate per categoria o tipo di template. Monitora il rapporto di copertura dell'indice in Google Search Console.\n\nUsa il meta tag robots e i tag canonici strategicamente. Le pagine con dati insufficienti dovrebbero portare un tag noindex fino all'arricchimento. Le pagine quasi-duplicate dovrebbero usare tag canonici.\n\nImplementa un sistema di gestione del ciclo di vita per le pagine programmatiche. Quando i prodotti esauriscono definitivamente, le pagine corrispondenti dovrebbero reindirizzare, aggiornare o essere rimosse con codici di stato 410.",
+            "Generare 50.000 pagine programmatiche non significa nulla se 40.000 di esse rimangono non indicizzate o vengono catturate in un filtro di qualita. La gestione dell'indice e la sfida operativa che separa il SEO programmatico di successo dallo sforzo ingegneristico sprecato.\n\nInizia con una strategia crawl-first. Invia le pagine programmatiche tramite sitemap XML organizzate per categoria o tipo di template. Monitora il rapporto di copertura dell'indice in Google Search Console. Approfondisci con la nostra guida sulla [gestione del budget di crawl](/academy/crawl-budget-management).\n\nUsa il meta tag robots e i tag canonici strategicamente. Le pagine con dati insufficienti dovrebbero portare un tag noindex fino all'arricchimento. Le pagine quasi-duplicate dovrebbero usare tag canonici. Approfondisci con la nostra guida sui [tag canonical](/academy/canonical-tags-for-ecommerce).\n\nImplementa un sistema di gestione del ciclo di vita per le pagine programmatiche. Quando i prodotti esauriscono definitivamente, le pagine corrispondenti dovrebbero reindirizzare, aggiornare o essere rimosse con codici di stato 410.",
         },
         {
           title: "Evitare penalizzazioni per contenuto sottile",
@@ -279,7 +279,7 @@ export const programmaticSeoForEcommerce: AcademyTopic = {
       badge: "Geavanceerde SEO",
       heading: "Programmatische SEO voor E-commerce",
       intro:
-        "Programmatische SEO gebruikt templates en gestructureerde data om grote aantallen zoekgeoptimaliseerde pagina's op schaal te genereren. Voor e-commerce winkels met uitgebreide productcatalogi kan deze aanpak duizenden long-tail zoekopdrachten vastleggen, maar het brengt ook reele risico's met zich mee rond dunne content en indexopblazing.",
+        "Programmatische SEO gebruikt templates en gestructureerde data om grote aantallen zoekgeoptimaliseerde pagina's op schaal te genereren. Voor e-commerce winkels met uitgebreide productcatalogi kan deze aanpak duizenden long-tail zoekopdrachten vastleggen, maar het brengt ook reele risico's met zich mee rond dunne content en indexopblazing.\n\nOnze gids over [geavanceerde ecommerce-SEO-technieken](/blog/advanced-ecommerce-seo-techniques) behandelt deze methoden.",
       readTime: "11 min leestijd",
       sections: [
         {
@@ -302,7 +302,7 @@ export const programmaticSeoForEcommerce: AcademyTopic = {
         {
           title: "Indexbeheer op schaal",
           content:
-            "50.000 programmatische pagina's genereren betekent niets als 40.000 ervan niet-geindexeerd blijven of vastzitten in een kwaliteitsfilter. Indexbeheer is de operationele uitdaging die succesvolle programmatische SEO scheidt van verspilde engineering-inspanning.\n\nBegin met een crawl-first strategie. Dien programmatische pagina's in via XML-sitemaps georganiseerd per categorie of templatetype. Monitor het indexdekkingsrapport in Google Search Console.\n\nGebruik de robots meta-tag en canonical tags strategisch. Pagina's met onvoldoende data moeten een noindex-tag dragen tot ze verrijkt zijn. Bijna-duplicaatpagina's moeten canonical tags gebruiken.\n\nImplementeer een lifecycle-managementsysteem voor programmatische pagina's. Wanneer producten permanent uitverkocht raken, moeten de bijbehorende pagina's doorverwijzen, bijwerken of verwijderd worden met 410 statuscodes.",
+            "50.000 programmatische pagina's genereren betekent niets als 40.000 ervan niet-geindexeerd blijven of vastzitten in een kwaliteitsfilter. Indexbeheer is de operationele uitdaging die succesvolle programmatische SEO scheidt van verspilde engineering-inspanning.\n\nBegin met een crawl-first strategie. Dien programmatische pagina's in via XML-sitemaps georganiseerd per categorie of templatetype. Monitor het indexdekkingsrapport in Google Search Console.\n\nGebruik de robots meta-tag en [canonical tags](/academy/canonical-tags-for-ecommerce) strategisch. Pagina's met onvoldoende data moeten een noindex-tag dragen tot ze verrijkt zijn. Bijna-duplicaatpagina's moeten canonical tags gebruiken.\n\nImplementeer een lifecycle-managementsysteem voor programmatische pagina's. Wanneer producten permanent uitverkocht raken, moeten de bijbehorende pagina's doorverwijzen, bijwerken of verwijderd worden met 410 statuscodes.\n\nEffectief [crawlbudgetbeheer](/academy/crawl-budget-management) helpt je de aandacht van Google te richten op je meest waardevolle pagina's.",
         },
         {
           title: "Dunne content-sancties vermijden",

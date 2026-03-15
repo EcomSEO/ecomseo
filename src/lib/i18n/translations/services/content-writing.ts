@@ -205,7 +205,7 @@ export const contentWritingData: Record<Locale, ServicePageProps> = {
         {
           question: "Welche Art von Content schreiben Sie?",
           answer:
-            "Wir schreiben Produktbeschreibungen, Kategorieseiten-Content, Blogartikel, Kaufratgeber, Vergleichsartikel und alle anderen Content-Formate, die organischen Traffic und Conversions f\u00fcr E-Commerce-Shops steigern.",
+            "Wir schreiben Produktbeschreibungen, Kategorieseiten-Content, Blogartikel, Kaufratgeber, Vergleichsartikel und alle anderen Content-Formate, die organischen Traffic und Conversions f\u00fcr E-Commerce-Shops steigern. Sehen Sie unseren [E-Commerce-SEO-Content-Leitfaden](/blog/ecommerce-seo-content) f\u00fcr Beispiele von Content, der performt.",
         },
         {
           question: "Schreiben Sie auch in anderen Sprachen als Englisch?",
@@ -215,7 +215,7 @@ export const contentWritingData: Record<Locale, ServicePageProps> = {
         {
           question: "Wie stellen Sie die Content-Qualit\u00e4t sicher?",
           answer:
-            "Jedes St\u00fcck durchl\u00e4uft Keyword-Recherche, Wettbewerbsanalyse, Expertenerstellung, redaktionelle Pr\u00fcfung und SEO-Optimierung. Wir setzen auf E-E-A-T-Signale und echten Mehrwert f\u00fcr den Leser.",
+            "Jedes St\u00fcck durchl\u00e4uft [Keyword-Recherche](/keyword-research), Wettbewerbsanalyse, Expertenerstellung, redaktionelle Pr\u00fcfung und SEO-Optimierung. Wir setzen auf E-E-A-T-Signale und echten Mehrwert f\u00fcr den Leser.",
         },
         {
           question: "Wie viele Content-St\u00fccke liefern Sie pro Monat?",
@@ -225,7 +225,7 @@ export const contentWritingData: Record<Locale, ServicePageProps> = {
         {
           question: "K\u00f6nnen Sie bestehenden Content optimieren?",
           answer:
-            "Absolut. Wir pr\u00fcfen Ihren bestehenden Content, identifizieren Quick Wins und optimieren unterperformende Seiten, bevor wir neuen Content erstellen. Oft kommt der schnellste ROI durch Verbesserung des Vorhandenen.",
+            "Absolut. Wir pr\u00fcfen Ihren bestehenden Content, identifizieren Quick Wins und optimieren unterperformende Seiten, bevor wir neuen Content erstellen. Oft kommt der schnellste ROI durch Verbesserung des Vorhandenen. Unser [SEO-Audit-Service](/seo-audit) beinhaltet eine vollst\u00e4ndige Content-Gap-Analyse.",
         },
         {
           question: "Wie lange dauert es, bis Content rankt?",
@@ -324,7 +324,7 @@ export const contentWritingData: Record<Locale, ServicePageProps> = {
         {
           question: "Quel type de contenu r\u00e9digez-vous ?",
           answer:
-            "Nous r\u00e9digeons des fiches produits, du contenu de pages cat\u00e9gories, des articles de blog, des guides d\u2019achat, des comparatifs et tout autre type de contenu g\u00e9n\u00e9rant du trafic organique et des conversions pour les boutiques e-commerce.",
+            "Nous r\u00e9digeons des fiches produits, du contenu de pages cat\u00e9gories, des articles de blog, des guides d\u2019achat, des comparatifs et tout autre type de contenu g\u00e9n\u00e9rant du trafic organique et des conversions pour les boutiques e-commerce. Consultez notre [guide de contenu SEO e-commerce](/blog/ecommerce-seo-content) pour des exemples de contenu performant.",
         },
         {
           question: "R\u00e9digez-vous dans d\u2019autres langues que l\u2019anglais ?",
@@ -334,7 +334,7 @@ export const contentWritingData: Record<Locale, ServicePageProps> = {
         {
           question: "Comment garantissez-vous la qualit\u00e9 du contenu ?",
           answer:
-            "Chaque contenu passe par la recherche de mots-cl\u00e9s, l\u2019analyse concurrentielle, la r\u00e9daction experte, la r\u00e9vision \u00e9ditoriale et l\u2019optimisation SEO. Nous privil\u00e9gions les signaux E-E-A-T et la valeur r\u00e9elle pour le lecteur.",
+            "Chaque contenu passe par la [recherche de mots-cl\u00e9s](/keyword-research), l\u2019analyse concurrentielle, la r\u00e9daction experte, la r\u00e9vision \u00e9ditoriale et l\u2019optimisation SEO. Nous privil\u00e9gions les signaux E-E-A-T et la valeur r\u00e9elle pour le lecteur.",
         },
         {
           question: "Combien de contenus livrez-vous par mois ?",
@@ -344,7 +344,7 @@ export const contentWritingData: Record<Locale, ServicePageProps> = {
         {
           question: "Pouvez-vous optimiser du contenu existant ?",
           answer:
-            "Absolument. Nous auditons votre contenu existant, identifions les gains rapides et optimisons les pages sous-performantes avant de cr\u00e9er du nouveau contenu. Souvent, le ROI le plus rapide vient de l\u2019am\u00e9lioration de l\u2019existant.",
+            "Absolument. Nous auditons votre contenu existant, identifions les gains rapides et optimisons les pages sous-performantes avant de cr\u00e9er du nouveau contenu. Souvent, le ROI le plus rapide vient de l\u2019am\u00e9lioration de l\u2019existant. Notre [service d\u2019audit SEO](/seo-audit) comprend une analyse compl\u00e8te des lacunes de contenu.",
         },
         {
           question: "Combien de temps avant que le contenu se positionne ?",
@@ -443,7 +443,7 @@ export const contentWritingData: Record<Locale, ServicePageProps> = {
         {
           question: "\u00bfQu\u00e9 tipo de contenido escriben?",
           answer:
-            "Escribimos descripciones de productos, contenido de p\u00e1ginas de categor\u00eda, art\u00edculos de blog, gu\u00edas de compra, comparativas y cualquier otro tipo de contenido que genere tr\u00e1fico org\u00e1nico y conversiones para tiendas online.",
+            "Escribimos descripciones de productos, contenido de p\u00e1ginas de categor\u00eda, art\u00edculos de blog, gu\u00edas de compra, comparativas y cualquier otro tipo de contenido que genere tr\u00e1fico org\u00e1nico y conversiones para tiendas online. Consulta nuestra [gu\u00eda de contenido SEO e-commerce](/blog/ecommerce-seo-content) para ejemplos de contenido que funciona.",
         },
         {
           question: "\u00bfEscriben en idiomas distintos al ingl\u00e9s?",
@@ -453,7 +453,7 @@ export const contentWritingData: Record<Locale, ServicePageProps> = {
         {
           question: "\u00bfC\u00f3mo aseguran la calidad del contenido?",
           answer:
-            "Cada pieza pasa por investigaci\u00f3n de palabras clave, an\u00e1lisis competitivo, redacci\u00f3n experta, revisi\u00f3n editorial y optimizaci\u00f3n SEO. Nos enfocamos en se\u00f1ales E-E-A-T y valor real para el lector.",
+            "Cada pieza pasa por [investigaci\u00f3n de palabras clave](/keyword-research), an\u00e1lisis competitivo, redacci\u00f3n experta, revisi\u00f3n editorial y optimizaci\u00f3n SEO. Nos enfocamos en se\u00f1ales E-E-A-T y valor real para el lector.",
         },
         {
           question: "\u00bfCu\u00e1ntas piezas de contenido entregan al mes?",
@@ -463,7 +463,7 @@ export const contentWritingData: Record<Locale, ServicePageProps> = {
         {
           question: "\u00bfPueden optimizar contenido existente?",
           answer:
-            "Por supuesto. Auditamos tu contenido existente, identificamos victorias r\u00e1pidas y optimizamos p\u00e1ginas con bajo rendimiento antes de crear contenido nuevo. A menudo el ROI m\u00e1s r\u00e1pido viene de mejorar lo que ya tienes.",
+            "Por supuesto. Auditamos tu contenido existente, identificamos victorias r\u00e1pidas y optimizamos p\u00e1ginas con bajo rendimiento antes de crear contenido nuevo. A menudo el ROI m\u00e1s r\u00e1pido viene de mejorar lo que ya tienes. Nuestro [servicio de auditor\u00eda SEO](/seo-audit) incluye un an\u00e1lisis completo de brechas de contenido.",
         },
         {
           question: "\u00bfCu\u00e1nto tarda el contenido en posicionarse?",
@@ -562,7 +562,7 @@ export const contentWritingData: Record<Locale, ServicePageProps> = {
         {
           question: "Che tipo di contenuti scrivete?",
           answer:
-            "Scriviamo descrizioni prodotto, contenuti per pagine categoria, articoli blog, guide all\u2019acquisto, articoli comparativi e qualsiasi altro tipo di contenuto che generi traffico organico e conversioni per e-commerce.",
+            "Scriviamo descrizioni prodotto, contenuti per pagine categoria, articoli blog, guide all\u2019acquisto, articoli comparativi e qualsiasi altro tipo di contenuto che generi traffico organico e conversioni per e-commerce. Consulta la nostra [guida ai contenuti SEO e-commerce](/blog/ecommerce-seo-content) per esempi di contenuti che performano.",
         },
         {
           question: "Scrivete anche in lingue diverse dall\u2019inglese?",
@@ -572,7 +572,7 @@ export const contentWritingData: Record<Locale, ServicePageProps> = {
         {
           question: "Come garantite la qualit\u00e0 dei contenuti?",
           answer:
-            "Ogni pezzo passa attraverso ricerca keyword, analisi competitiva, scrittura esperta, revisione editoriale e ottimizzazione SEO. Ci concentriamo sui segnali E-E-A-T e sul valore reale per il lettore.",
+            "Ogni pezzo passa attraverso [ricerca keyword](/keyword-research), analisi competitiva, scrittura esperta, revisione editoriale e ottimizzazione SEO. Ci concentriamo sui segnali E-E-A-T e sul valore reale per il lettore.",
         },
         {
           question: "Quanti contenuti consegnate al mese?",
@@ -582,7 +582,7 @@ export const contentWritingData: Record<Locale, ServicePageProps> = {
         {
           question: "Potete ottimizzare contenuti esistenti?",
           answer:
-            "Assolutamente. Auditiamo i tuoi contenuti esistenti, identifichiamo le vittorie rapide e ottimizziamo le pagine sotto-performanti prima di creare nuovi contenuti. Spesso il ROI pi\u00f9 veloce viene dal miglioramento di ci\u00f2 che hai gi\u00e0.",
+            "Assolutamente. Auditiamo i tuoi contenuti esistenti, identifichiamo le vittorie rapide e ottimizziamo le pagine sotto-performanti prima di creare nuovi contenuti. Spesso il ROI pi\u00f9 veloce viene dal miglioramento di ci\u00f2 che hai gi\u00e0. Il nostro [servizio di audit SEO](/seo-audit) include un\u2019analisi completa dei gap di contenuto.",
         },
         {
           question: "Quanto tempo prima che i contenuti si posizionino?",
@@ -681,7 +681,7 @@ export const contentWritingData: Record<Locale, ServicePageProps> = {
         {
           question: "Welk type content schrijven jullie?",
           answer:
-            "Wij schrijven productbeschrijvingen, categoriepagina-content, blogartikelen, koopgidsen, vergelijkingsartikelen en elk ander contenttype dat organisch verkeer en conversies genereert voor webshops.",
+            "Wij schrijven productbeschrijvingen, categoriepagina-content, blogartikelen, koopgidsen, vergelijkingsartikelen en elk ander contenttype dat organisch verkeer en conversies genereert voor webshops. Bekijk onze [e-commerce SEO-contentgids](/blog/ecommerce-seo-content) voor voorbeelden van content die presteert.",
         },
         {
           question: "Schrijven jullie ook in andere talen dan Engels?",
@@ -691,7 +691,7 @@ export const contentWritingData: Record<Locale, ServicePageProps> = {
         {
           question: "Hoe waarborgen jullie de contentkwaliteit?",
           answer:
-            "Elk stuk doorloopt zoekwoordonderzoek, concurrentieanalyse, expertschrijven, redactionele review en SEO-optimalisatie. Wij focussen op E-E-A-T-signalen en echte waarde voor de lezer.",
+            "Elk stuk doorloopt [zoekwoordonderzoek](/keyword-research), concurrentieanalyse, expertschrijven, redactionele review en SEO-optimalisatie. Wij focussen op E-E-A-T-signalen en echte waarde voor de lezer.",
         },
         {
           question: "Hoeveel content leveren jullie per maand?",
@@ -701,7 +701,7 @@ export const contentWritingData: Record<Locale, ServicePageProps> = {
         {
           question: "Kunnen jullie bestaande content optimaliseren?",
           answer:
-            "Absoluut. Wij auditen je bestaande content, identificeren quick wins en optimaliseren onderpresterende pagina\u2019s voordat we nieuwe content cre\u00ebren. Vaak komt de snelste ROI uit het verbeteren van wat je al hebt.",
+            "Absoluut. Wij auditen je bestaande content, identificeren quick wins en optimaliseren onderpresterende pagina\u2019s voordat we nieuwe content cre\u00ebren. Vaak komt de snelste ROI uit het verbeteren van wat je al hebt. Onze [SEO-auditdienst](/seo-audit) bevat een volledige contentgap-analyse.",
         },
         {
           question: "Hoe lang duurt het voordat content gaat ranken?",

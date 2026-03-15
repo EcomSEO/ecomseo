@@ -386,7 +386,7 @@ export const ecommerceSeoServicesData: Record<Locale, ServicePageProps> = {
         {
           question: "Mit welchem Service soll ich anfangen?",
           answer:
-            "Das hängt von Ihrer aktuellen Situation ab. Shops mit Indexierungs- oder Geschwindigkeitsproblemen beginnen mit technischem SEO. Shops mit Rankings, aber ohne Conversions benötigen OnPage- und Content-Arbeit. Shops in schwierigen Märkten benötigen Autoritätsaufbau. Buchen Sie ein kostenloses Audit, und wir sagen Ihnen genau, worauf Sie sich zuerst konzentrieren sollen.",
+            "Das hängt von Ihrer aktuellen Situation ab. Shops mit Indexierungs- oder Geschwindigkeitsproblemen beginnen mit technischem SEO. Shops mit Rankings, aber ohne Conversions benötigen OnPage- und Content-Arbeit. Shops in schwierigen Märkten benötigen Autoritätsaufbau. Lesen Sie unseren Leitfaden zur [E-Commerce-SEO-Strategie](/blog/ecommerce-seo-strategy) oder buchen Sie ein [kostenloses SEO-Audit](/seo-audit), und wir sagen Ihnen genau, worauf Sie sich zuerst konzentrieren sollen.",
         },
         {
           question: "Können Sie neben meinem bestehenden Team arbeiten?",
@@ -406,7 +406,7 @@ export const ecommerceSeoServicesData: Record<Locale, ServicePageProps> = {
         {
           question: "Bieten Sie ein kostenloses Audit an?",
           answer:
-            "Ja - ein kostenloses E-Commerce-SEO-Audit, das Ihre größten Chancen in den Bereichen Technik, Content und Autorität identifiziert. Buchen Sie ein Gespräch, und wir zeigen Ihnen genau, wo Sie Umsatz liegen lassen.",
+            "Ja - ein kostenloses E-Commerce-SEO-Audit, das Ihre größten Chancen in den Bereichen Technik, Content und Autorität identifiziert. Beginnen Sie mit unserem Überblick zum [kompletten E-Commerce-SEO](/blog/ecommerce-seo) und buchen Sie dann ein Gespräch — wir zeigen Ihnen genau, wo Sie Umsatz liegen lassen.",
         },
       ],
       miniCta: {
@@ -594,7 +594,7 @@ export const ecommerceSeoServicesData: Record<Locale, ServicePageProps> = {
         {
           question: "Par quel service commencer ?",
           answer:
-            "Cela dépend de votre situation actuelle. Les boutiques avec des problèmes d'indexation ou de vitesse commencent par le SEO technique. Celles avec des classements mais pas de conversions ont besoin de travail on-page et de contenu. Réservez un audit gratuit et nous vous dirons exactement où concentrer vos efforts en premier.",
+            "Cela dépend de votre situation actuelle. Les boutiques avec des problèmes d'indexation ou de vitesse commencent par le SEO technique. Celles avec des classements mais pas de conversions ont besoin de travail on-page et de contenu. Lisez notre guide de [stratégie SEO e-commerce](/blog/ecommerce-seo-strategy) ou réservez un [audit SEO gratuit](/seo-audit) et nous vous dirons exactement où concentrer vos efforts en premier.",
         },
         {
           question: "Pouvez-vous travailler avec mon équipe existante ?",
@@ -614,7 +614,7 @@ export const ecommerceSeoServicesData: Record<Locale, ServicePageProps> = {
         {
           question: "Proposez-vous un audit gratuit ?",
           answer:
-            "Oui - un audit SEO e-commerce gratuit identifiant vos plus grandes opportunités en matière de technique, contenu et autorité. Réservez un appel et nous vous montrerons exactement où vous laissez du chiffre d'affaires sur la table.",
+            "Oui - un audit SEO e-commerce gratuit identifiant vos plus grandes opportunités en matière de technique, contenu et autorité. Commencez par notre aperçu du [SEO e-commerce complet](/blog/ecommerce-seo), puis réservez un appel et nous vous montrerons exactement où vous laissez du chiffre d'affaires sur la table.",
         },
       ],
       miniCta: {
@@ -802,7 +802,7 @@ export const ecommerceSeoServicesData: Record<Locale, ServicePageProps> = {
         {
           question: "¿Por qué servicio debería empezar?",
           answer:
-            "Depende de su situación actual. Las tiendas con problemas de indexación o velocidad empiezan con SEO técnico. Las que tienen rankings pero sin conversiones necesitan trabajo on-page y de contenido. Reserve una auditoría gratuita y le diremos exactamente dónde enfocarse primero.",
+            "Depende de su situación actual. Las tiendas con problemas de indexación o velocidad empiezan con SEO técnico. Las que tienen rankings pero sin conversiones necesitan trabajo on-page y de contenido. Lea nuestra guía de [estrategia SEO e-commerce](/blog/ecommerce-seo-strategy) o reserve una [auditoría SEO gratuita](/seo-audit) y le diremos exactamente dónde enfocarse primero.",
         },
         {
           question: "¿Pueden trabajar junto a mi equipo existente?",
@@ -822,7 +822,7 @@ export const ecommerceSeoServicesData: Record<Locale, ServicePageProps> = {
         {
           question: "¿Ofrecen una auditoría gratuita?",
           answer:
-            "Sí - una auditoría SEO ecommerce gratuita que identifica sus mayores oportunidades en técnica, contenido y autoridad. Reserve una llamada y le mostraremos exactamente dónde está dejando ingresos sobre la mesa.",
+            "Sí - una auditoría SEO ecommerce gratuita que identifica sus mayores oportunidades en técnica, contenido y autoridad. Comience con nuestra visión general del [SEO e-commerce completo](/blog/ecommerce-seo), luego reserve una llamada y le mostraremos exactamente dónde está dejando ingresos sobre la mesa.",
         },
       ],
       miniCta: {
@@ -1010,7 +1010,7 @@ export const ecommerceSeoServicesData: Record<Locale, ServicePageProps> = {
         {
           question: "Da quale servizio dovrei iniziare?",
           answer:
-            "Dipende dalla tua situazione attuale. I negozi con problemi di indicizzazione o velocità iniziano con SEO tecnico. Quelli con ranking ma senza conversioni hanno bisogno di lavoro on-page e di contenuto. Prenota un audit gratuito e ti diremo esattamente dove concentrarti prima.",
+            "Dipende dalla tua situazione attuale. I negozi con problemi di indicizzazione o velocità iniziano con SEO tecnico. Quelli con ranking ma senza conversioni hanno bisogno di lavoro on-page e di contenuto. Leggi la nostra guida alla [strategia SEO e-commerce](/blog/ecommerce-seo-strategy) o prenota un [audit SEO gratuito](/seo-audit) e ti diremo esattamente dove concentrarti prima.",
         },
         {
           question: "Potete lavorare insieme al mio team esistente?",
@@ -1030,7 +1030,7 @@ export const ecommerceSeoServicesData: Record<Locale, ServicePageProps> = {
         {
           question: "Offrite un audit gratuito?",
           answer:
-            "Sì - un audit SEO ecommerce gratuito che identifica le tue maggiori opportunità in termini di tecnica, contenuto e autorità. Prenota una chiamata e ti mostreremo esattamente dove stai lasciando ricavi sul tavolo.",
+            "Sì - un audit SEO ecommerce gratuito che identifica le tue maggiori opportunità in termini di tecnica, contenuto e autorità. Inizia con la nostra panoramica del [SEO e-commerce completo](/blog/ecommerce-seo), poi prenota una chiamata e ti mostreremo esattamente dove stai lasciando ricavi sul tavolo.",
         },
       ],
       miniCta: {
@@ -1218,7 +1218,7 @@ export const ecommerceSeoServicesData: Record<Locale, ServicePageProps> = {
         {
           question: "Met welke service moet ik beginnen?",
           answer:
-            "Dat hangt af van uw huidige situatie. Winkels met indexerings- of snelheidsproblemen beginnen met technische SEO. Winkels met rankings maar zonder conversies hebben on-page en content werk nodig. Boek een gratis audit en we vertellen u precies waar u eerst op moet focussen.",
+            "Dat hangt af van uw huidige situatie. Winkels met indexerings- of snelheidsproblemen beginnen met technische SEO. Winkels met rankings maar zonder conversies hebben on-page en content werk nodig. Lees onze gids over [e-commerce SEO-strategie](/blog/ecommerce-seo-strategy) of boek een [gratis SEO-audit](/seo-audit) en we vertellen u precies waar u eerst op moet focussen.",
         },
         {
           question: "Kunt u naast mijn bestaande team werken?",
@@ -1238,7 +1238,7 @@ export const ecommerceSeoServicesData: Record<Locale, ServicePageProps> = {
         {
           question: "Biedt u een gratis audit aan?",
           answer:
-            "Ja - een gratis ecommerce SEO-audit die uw grootste kansen op het gebied van techniek, content en autoriteit identificeert. Boek een gesprek en we laten u precies zien waar u omzet laat liggen.",
+            "Ja - een gratis ecommerce SEO-audit die uw grootste kansen op het gebied van techniek, content en autoriteit identificeert. Begin met ons overzicht van [complete e-commerce SEO](/blog/ecommerce-seo), boek dan een gesprek en we laten u precies zien waar u omzet laat liggen.",
         },
       ],
       miniCta: {

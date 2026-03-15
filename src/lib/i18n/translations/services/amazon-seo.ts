@@ -273,12 +273,12 @@ export const amazonSeoData: Record<Locale, ServicePageProps> = {
         {
           question: "Wie unterscheidet sich Amazon SEO von Google SEO?",
           answer:
-            "Der Amazon A9-Algorithmus priorisiert Kaufabsicht, Konversionsrate und Verkaufsgeschwindigkeit \u2014 nicht Backlinks oder Domain-Autorit\u00e4t. Unsere Amazon-SEO-Strategie ist speziell auf Amazons Ranking-Faktoren ausgerichtet.",
+            "Der Amazon A9-Algorithmus priorisiert Kaufabsicht, Konversionsrate und Verkaufsgeschwindigkeit \u2014 nicht Backlinks oder Domain-Autorit\u00e4t. Unsere Amazon-SEO-Strategie ist speziell auf Amazons Ranking-Faktoren ausgerichtet. Lesen Sie mehr \u00fcber [E-Commerce-SEO-Keywords](/blog/ecommerce-seo-keywords).",
         },
         {
           question: "Wie lange dauert es, bis wir Ergebnisse auf Amazon sehen?",
           answer:
-            "Die meisten Marken sehen messbare Ranking-Verbesserungen innerhalb von 2\u20134 Wochen nach der Listing-Optimierung. Signifikante Traffic- und Umsatzsteigerungen folgen typischerweise innerhalb von 6\u201312 Wochen.",
+            "Die meisten Marken sehen messbare Ranking-Verbesserungen innerhalb von 2\u20134 Wochen nach der Listing-Optimierung. Signifikante Traffic- und Umsatzsteigerungen folgen typischerweise innerhalb von 6\u201312 Wochen. Unser Modul [Keyword-Recherche f\u00fcr E-Commerce](/academy/keyword-research-for-ecommerce) bietet zus\u00e4tzliche Einblicke.",
         },
         {
           question: "Verwalten Sie auch Amazon PPC?",
@@ -426,12 +426,12 @@ export const amazonSeoData: Record<Locale, ServicePageProps> = {
         {
           question: "En quoi le SEO Amazon diff\u00e8re-t-il du SEO Google ?",
           answer:
-            "L\u2019algorithme A9 d\u2019Amazon privil\u00e9gie l\u2019intention d\u2019achat, le taux de conversion et la v\u00e9locit\u00e9 des ventes \u2014 pas les backlinks ou l\u2019autorit\u00e9 de domaine. Notre strat\u00e9gie SEO Amazon est sp\u00e9cifiquement con\u00e7ue pour les facteurs de classement Amazon.",
+            "L\u2019algorithme A9 d\u2019Amazon privil\u00e9gie l\u2019intention d\u2019achat, le taux de conversion et la v\u00e9locit\u00e9 des ventes \u2014 pas les backlinks ou l\u2019autorit\u00e9 de domaine. Notre strat\u00e9gie SEO Amazon est sp\u00e9cifiquement con\u00e7ue pour les facteurs de classement Amazon. En savoir plus sur les [mots-cl\u00e9s SEO e-commerce](/blog/ecommerce-seo-keywords).",
         },
         {
           question: "Combien de temps avant de voir des r\u00e9sultats sur Amazon ?",
           answer:
-            "La plupart des marques constatent des am\u00e9liorations de classement mesurables dans les 2 \u00e0 4 semaines suivant l\u2019optimisation des fiches. Les gains significatifs en trafic et en revenus suivent g\u00e9n\u00e9ralement sous 6 \u00e0 12 semaines.",
+            "La plupart des marques constatent des am\u00e9liorations de classement mesurables dans les 2 \u00e0 4 semaines suivant l\u2019optimisation des fiches. Les gains significatifs en trafic et en revenus suivent g\u00e9n\u00e9ralement sous 6 \u00e0 12 semaines. Notre module [recherche de mots-cl\u00e9s pour e-commerce](/academy/keyword-research-for-ecommerce) offre des perspectives suppl\u00e9mentaires.",
         },
         {
           question: "G\u00e9rez-vous aussi le PPC Amazon ?",
@@ -579,12 +579,12 @@ export const amazonSeoData: Record<Locale, ServicePageProps> = {
         {
           question: "\u00bfEn qu\u00e9 se diferencia el SEO Amazon del SEO en Google?",
           answer:
-            "El algoritmo A9 de Amazon prioriza la intenci\u00f3n de compra, la tasa de conversi\u00f3n y la velocidad de ventas \u2014 no los backlinks o la autoridad de dominio. Nuestra estrategia SEO Amazon est\u00e1 dise\u00f1ada espec\u00edficamente para los factores de clasificaci\u00f3n de Amazon.",
+            "El algoritmo A9 de Amazon prioriza la intenci\u00f3n de compra, la tasa de conversi\u00f3n y la velocidad de ventas \u2014 no los backlinks o la autoridad de dominio. Nuestra estrategia SEO Amazon est\u00e1 dise\u00f1ada espec\u00edficamente para los factores de clasificaci\u00f3n de Amazon. Lee m\u00e1s sobre [keywords SEO para e-commerce](/blog/ecommerce-seo-keywords).",
         },
         {
           question: "\u00bfCu\u00e1nto tiempo hasta ver resultados en Amazon?",
           answer:
-            "La mayor\u00eda de las marcas ven mejoras medibles en rankings dentro de 2 a 4 semanas tras la optimizaci\u00f3n de listings. Los aumentos significativos en tr\u00e1fico e ingresos suelen seguir en 6 a 12 semanas.",
+            "La mayor\u00eda de las marcas ven mejoras medibles en rankings dentro de 2 a 4 semanas tras la optimizaci\u00f3n de listings. Los aumentos significativos en tr\u00e1fico e ingresos suelen seguir en 6 a 12 semanas. Nuestro m\u00f3dulo de [investigaci\u00f3n de palabras clave para e-commerce](/academy/keyword-research-for-ecommerce) ofrece perspectivas adicionales.",
         },
         {
           question: "\u00bfTambi\u00e9n gestionan el PPC de Amazon?",
@@ -732,12 +732,12 @@ export const amazonSeoData: Record<Locale, ServicePageProps> = {
         {
           question: "In cosa si differenzia la SEO Amazon dalla SEO su Google?",
           answer:
-            "L\u2019algoritmo A9 di Amazon d\u00e0 priorit\u00e0 all\u2019intenzione di acquisto, al tasso di conversione e alla velocit\u00e0 di vendita \u2014 non ai backlink o all\u2019autorit\u00e0 del dominio. La nostra strategia SEO Amazon \u00e8 costruita specificamente per i fattori di ranking di Amazon.",
+            "L\u2019algoritmo A9 di Amazon d\u00e0 priorit\u00e0 all\u2019intenzione di acquisto, al tasso di conversione e alla velocit\u00e0 di vendita \u2014 non ai backlink o all\u2019autorit\u00e0 del dominio. La nostra strategia SEO Amazon \u00e8 costruita specificamente per i fattori di ranking di Amazon. Scopri di pi\u00f9 sulle [keyword SEO per e-commerce](/blog/ecommerce-seo-keywords).",
         },
         {
           question: "Quanto tempo prima di vedere risultati su Amazon?",
           answer:
-            "La maggior parte dei brand vede miglioramenti misurabili nei posizionamenti entro 2-4 settimane dall\u2019ottimizzazione delle inserzioni. Aumenti significativi di traffico e ricavi seguono tipicamente entro 6-12 settimane.",
+            "La maggior parte dei brand vede miglioramenti misurabili nei posizionamenti entro 2-4 settimane dall\u2019ottimizzazione delle inserzioni. Aumenti significativi di traffico e ricavi seguono tipicamente entro 6-12 settimane. Il nostro modulo [ricerca keyword per e-commerce](/academy/keyword-research-for-ecommerce) offre approfondimenti aggiuntivi.",
         },
         {
           question: "Gestite anche il PPC Amazon?",
@@ -885,12 +885,12 @@ export const amazonSeoData: Record<Locale, ServicePageProps> = {
         {
           question: "Hoe verschilt Amazon SEO van Google SEO?",
           answer:
-            "Het Amazon A9-algoritme geeft prioriteit aan koopintentie, conversieratio en verkoopsnelheid \u2014 niet aan backlinks of domeinautoriteit. Onze Amazon SEO-strategie is specifiek gebouwd voor de rankingfactoren van Amazon.",
+            "Het Amazon A9-algoritme geeft prioriteit aan koopintentie, conversieratio en verkoopsnelheid \u2014 niet aan backlinks of domeinautoriteit. Onze Amazon SEO-strategie is specifiek gebouwd voor de rankingfactoren van Amazon. Lees meer over [e-commerce SEO-zoekwoorden](/blog/ecommerce-seo-keywords).",
         },
         {
           question: "Hoe lang duurt het voordat we resultaten zien op Amazon?",
           answer:
-            "De meeste merken zien meetbare rankingverbeteringen binnen 2 tot 4 weken na listingoptimalisatie. Significante verkeer- en omzetgroei volgt doorgaans binnen 6 tot 12 weken.",
+            "De meeste merken zien meetbare rankingverbeteringen binnen 2 tot 4 weken na listingoptimalisatie. Significante verkeer- en omzetgroei volgt doorgaans binnen 6 tot 12 weken. Onze module [zoekwoordenonderzoek voor e-commerce](/academy/keyword-research-for-ecommerce) biedt aanvullende inzichten.",
         },
         {
           question: "Beheren jullie ook Amazon PPC?",

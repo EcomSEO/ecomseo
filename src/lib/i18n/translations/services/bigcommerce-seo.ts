@@ -251,7 +251,7 @@ export const bigcommerceSeoData: Record<Locale, ServicePageProps> = {
         {
           question: "Wie lange dauert es, bis BigCommerce SEO Ergebnisse zeigt?",
           answer:
-            "Die meisten BigCommerce-Shops sehen messbare Verbesserungen innerhalb von 3\u20136 Monaten. Technische Ma\u00dfnahmen wie die Bereinigung der Facettennavigation und URL-Optimierung k\u00f6nnen bereits nach Wochen wirken.",
+            "Die meisten BigCommerce-Shops sehen messbare Verbesserungen innerhalb von 3\u20136 Monaten. Technische Ma\u00dfnahmen wie die Bereinigung der Facettennavigation und URL-Optimierung k\u00f6nnen bereits nach Wochen wirken. Lesen Sie unseren [BigCommerce-SEO-Leitfaden](/academy/bigcommerce-seo-guide) f\u00fcr plattformspezifische Taktiken.",
         },
         {
           question: "Arbeiten Sie mit BigCommerce Enterprise?",
@@ -271,7 +271,7 @@ export const bigcommerceSeoData: Record<Locale, ServicePageProps> = {
         {
           question: "Wie gehen Sie mit der BigCommerce-Facettennavigation um?",
           answer:
-            "Wir pr\u00fcfen Ihre Facettennavigation auf doppelten Content und Crawl-Verschwendung und implementieren dann korrekte Canonical-Tags, Robots-Direktiven und URL-Parameter-Steuerung, damit Google sich auf Ihre besten Seiten konzentriert.",
+            "Wir pr\u00fcfen Ihre Facettennavigation auf doppelten Content und Crawl-Verschwendung und implementieren dann korrekte Canonical-Tags, Robots-Direktiven und URL-Parameter-Steuerung, damit Google sich auf Ihre besten Seiten konzentriert. Unser Artikel \u00fcber [technisches SEO f\u00fcr E-Commerce](/blog/technical-seo-for-ecommerce) geht tiefer auf diese Korrekturen ein.",
         },
         {
           question: "Bieten Sie laufende BigCommerce SEO-Betreuung an?",
@@ -393,7 +393,7 @@ export const bigcommerceSeoData: Record<Locale, ServicePageProps> = {
         {
           question: "Combien de temps faut-il pour voir les r\u00e9sultats du SEO BigCommerce ?",
           answer:
-            "La plupart des boutiques BigCommerce constatent des am\u00e9liorations mesurables en 3 \u00e0 6 mois. Les corrections techniques comme le nettoyage de la navigation \u00e0 facettes et l\u2019optimisation des URL peuvent montrer des r\u00e9sultats en quelques semaines.",
+            "La plupart des boutiques BigCommerce constatent des am\u00e9liorations mesurables en 3 \u00e0 6 mois. Les corrections techniques comme le nettoyage de la navigation \u00e0 facettes et l\u2019optimisation des URL peuvent montrer des r\u00e9sultats en quelques semaines. Consultez notre [guide SEO BigCommerce](/academy/bigcommerce-seo-guide) pour des tactiques sp\u00e9cifiques \u00e0 la plateforme.",
         },
         {
           question: "Travaillez-vous avec BigCommerce Enterprise ?",
@@ -413,7 +413,7 @@ export const bigcommerceSeoData: Record<Locale, ServicePageProps> = {
         {
           question: "Comment g\u00e9rez-vous la navigation \u00e0 facettes BigCommerce ?",
           answer:
-            "Nous auditons votre navigation \u00e0 facettes pour d\u00e9tecter le contenu duplliqu\u00e9 et le gaspillage de crawl, puis nous impl\u00e9mentons des balises canoniques, des directives robots et une gestion des param\u00e8tres d\u2019URL pour concentrer Google sur vos meilleures pages.",
+            "Nous auditons votre navigation \u00e0 facettes pour d\u00e9tecter le contenu duplliqu\u00e9 et le gaspillage de crawl, puis nous impl\u00e9mentons des balises canoniques, des directives robots et une gestion des param\u00e8tres d\u2019URL pour concentrer Google sur vos meilleures pages. Notre article sur le [SEO technique pour l\u2019ecommerce](/blog/technical-seo-for-ecommerce) approfondit ces corrections.",
         },
         {
           question: "Proposez-vous un accompagnement SEO BigCommerce continu ?",
@@ -535,7 +535,7 @@ export const bigcommerceSeoData: Record<Locale, ServicePageProps> = {
         {
           question: "\u00bfCu\u00e1nto tarda el SEO de BigCommerce en mostrar resultados?",
           answer:
-            "La mayor\u00eda de las tiendas BigCommerce ven mejoras medibles en 3 a 6 meses. Las correcciones t\u00e9cnicas como la limpieza de la navegaci\u00f3n facetada y la optimizaci\u00f3n de URL pueden mostrar resultados en semanas.",
+            "La mayor\u00eda de las tiendas BigCommerce ven mejoras medibles en 3 a 6 meses. Las correcciones t\u00e9cnicas como la limpieza de la navegaci\u00f3n facetada y la optimizaci\u00f3n de URL pueden mostrar resultados en semanas. Consulta nuestra [gu\u00eda SEO para BigCommerce](/academy/bigcommerce-seo-guide) para t\u00e1cticas espec\u00edficas de la plataforma.",
         },
         {
           question: "\u00bfTrabajan con BigCommerce Enterprise?",
@@ -555,7 +555,7 @@ export const bigcommerceSeoData: Record<Locale, ServicePageProps> = {
         {
           question: "\u00bfC\u00f3mo manejan la navegaci\u00f3n facetada de BigCommerce?",
           answer:
-            "Auditamos tu navegaci\u00f3n facetada en busca de contenido duplicado y desperdicio de rastreo, luego implementamos etiquetas canonical, directivas robots y gesti\u00f3n de par\u00e1metros de URL para que Google se concentre en tus mejores p\u00e1ginas.",
+            "Auditamos tu navegaci\u00f3n facetada en busca de contenido duplicado y desperdicio de rastreo, luego implementamos etiquetas canonical, directivas robots y gesti\u00f3n de par\u00e1metros de URL para que Google se concentre en tus mejores p\u00e1ginas. Nuestro art\u00edculo sobre [SEO t\u00e9cnico para ecommerce](/blog/technical-seo-for-ecommerce) profundiza en estas correcciones.",
         },
         {
           question: "\u00bfOfrecen soporte SEO continuo para BigCommerce?",
@@ -677,7 +677,7 @@ export const bigcommerceSeoData: Record<Locale, ServicePageProps> = {
         {
           question: "Quanto tempo ci vuole per vedere risultati dalla SEO BigCommerce?",
           answer:
-            "La maggior parte dei negozi BigCommerce vede miglioramenti misurabili entro 3-6 mesi. Le correzioni tecniche come la pulizia della navigazione a faccette e l\u2019ottimizzazione degli URL possono mostrare risultati in poche settimane.",
+            "La maggior parte dei negozi BigCommerce vede miglioramenti misurabili entro 3-6 mesi. Le correzioni tecniche come la pulizia della navigazione a faccette e l\u2019ottimizzazione degli URL possono mostrare risultati in poche settimane. Consulta la nostra [guida SEO per BigCommerce](/academy/bigcommerce-seo-guide) per tattiche specifiche della piattaforma.",
         },
         {
           question: "Lavorate con BigCommerce Enterprise?",
@@ -697,7 +697,7 @@ export const bigcommerceSeoData: Record<Locale, ServicePageProps> = {
         {
           question: "Come gestite la navigazione a faccette di BigCommerce?",
           answer:
-            "Auditiamo la vostra navigazione a faccette per individuare contenuto duplicato e spreco di crawl, poi implementiamo tag canonical, direttive robots e gestione dei parametri URL per concentrare Google sulle vostre pagine migliori.",
+            "Auditiamo la vostra navigazione a faccette per individuare contenuto duplicato e spreco di crawl, poi implementiamo tag canonical, direttive robots e gestione dei parametri URL per concentrare Google sulle vostre pagine migliori. Il nostro articolo sul [SEO tecnico per l\u2019ecommerce](/blog/technical-seo-for-ecommerce) approfondisce queste correzioni.",
         },
         {
           question: "Offrite supporto SEO continuativo per BigCommerce?",
@@ -819,7 +819,7 @@ export const bigcommerceSeoData: Record<Locale, ServicePageProps> = {
         {
           question: "Hoe lang duurt het voordat BigCommerce SEO resultaten laat zien?",
           answer:
-            "De meeste BigCommerce-winkels zien meetbare verbeteringen binnen 3 tot 6 maanden. Technische fixes zoals het opschonen van facetnavigatie en URL-optimalisatie kunnen al na weken resultaat opleveren.",
+            "De meeste BigCommerce-winkels zien meetbare verbeteringen binnen 3 tot 6 maanden. Technische fixes zoals het opschonen van facetnavigatie en URL-optimalisatie kunnen al na weken resultaat opleveren. Bekijk onze [BigCommerce SEO-gids](/academy/bigcommerce-seo-guide) voor platformspecifieke tactieken.",
         },
         {
           question: "Werken jullie met BigCommerce Enterprise?",
@@ -839,7 +839,7 @@ export const bigcommerceSeoData: Record<Locale, ServicePageProps> = {
         {
           question: "Hoe pakken jullie BigCommerce-facetnavigatie aan?",
           answer:
-            "Wij auditen uw facetnavigatie op dubbele content en crawlverspilling en implementeren vervolgens correcte canonical-tags, robotsrichtlijnen en URL-parameterbeheer zodat Google zich op uw beste pagina\u2019s richt.",
+            "Wij auditen uw facetnavigatie op dubbele content en crawlverspilling en implementeren vervolgens correcte canonical-tags, robotsrichtlijnen en URL-parameterbeheer zodat Google zich op uw beste pagina\u2019s richt. Ons artikel over [technische SEO voor ecommerce](/blog/technical-seo-for-ecommerce) gaat dieper in op deze fixes.",
         },
         {
           question: "Bieden jullie doorlopende BigCommerce SEO-ondersteuning?",

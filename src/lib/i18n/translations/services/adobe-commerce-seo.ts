@@ -251,7 +251,7 @@ export const adobeCommerceSeoData: Record<Locale, ServicePageProps> = {
         {
           question: "Arbeiten Sie sowohl mit Magento als auch mit Adobe Commerce?",
           answer:
-            "Ja. Adobe Commerce ist die Enterprise-Version von Magento. Wir arbeiten sowohl mit Magento Open Source als auch mit Adobe Commerce und bew\u00e4ltigen die spezifischen SEO-Herausforderungen jeder Plattformversion.",
+            "Ja. Adobe Commerce ist die Enterprise-Version von Magento. Wir arbeiten sowohl mit Magento Open Source als auch mit Adobe Commerce und bew\u00e4ltigen die spezifischen SEO-Herausforderungen jeder Plattformversion. Erfahren Sie mehr in unserem [Magento-E-Commerce-SEO-Leitfaden](/blog/magento-ecommerce-seo).",
         },
         {
           question: "Wie handhaben Sie Multi-Store-SEO f\u00fcr Adobe Commerce?",
@@ -261,7 +261,7 @@ export const adobeCommerceSeoData: Record<Locale, ServicePageProps> = {
         {
           question: "K\u00f6nnen Sie bei der Migration von Magento 1 zu Adobe Commerce 2 helfen?",
           answer:
-            "Absolut. Wir erstellen umfassende Redirect-Maps, bewahren URL-Equity und \u00fcberwachen den Traffic w\u00e4hrend der Migration, um organische Traffic-Verluste zu minimieren.",
+            "Absolut. Wir erstellen umfassende Redirect-Maps, bewahren URL-Equity und \u00fcberwachen den Traffic w\u00e4hrend der Migration, um organische Traffic-Verluste zu minimieren. Unser [Magento-SEO-Leitfaden](/academy/magento-seo-guide) behandelt Best Practices f\u00fcr Migrationen.",
         },
         {
           question: "Wie lange dauert ein Adobe Commerce SEO-Audit?",
@@ -393,7 +393,7 @@ export const adobeCommerceSeoData: Record<Locale, ServicePageProps> = {
         {
           question: "Travaillez-vous avec Magento et Adobe Commerce ?",
           answer:
-            "Oui. Adobe Commerce est la version entreprise de Magento. Nous travaillons avec Magento Open Source et Adobe Commerce, en g\u00e9rant les d\u00e9fis SEO sp\u00e9cifiques \u00e0 chaque version de la plateforme.",
+            "Oui. Adobe Commerce est la version entreprise de Magento. Nous travaillons avec Magento Open Source et Adobe Commerce, en g\u00e9rant les d\u00e9fis SEO sp\u00e9cifiques \u00e0 chaque version de la plateforme. D\u00e9couvrez notre [guide SEO e-commerce Magento](/blog/magento-ecommerce-seo).",
         },
         {
           question: "Comment g\u00e9rez-vous le SEO multi-boutiques pour Adobe Commerce ?",
@@ -403,7 +403,7 @@ export const adobeCommerceSeoData: Record<Locale, ServicePageProps> = {
         {
           question: "Pouvez-vous aider \u00e0 la migration de Magento 1 vers Adobe Commerce 2 ?",
           answer:
-            "Absolument. Nous cr\u00e9ons des cartes de redirections compl\u00e8tes, pr\u00e9servons l\u2019\u00e9quit\u00e9 URL et surveillons le trafic pendant la migration pour minimiser les pertes de trafic organique.",
+            "Absolument. Nous cr\u00e9ons des cartes de redirections compl\u00e8tes, pr\u00e9servons l\u2019\u00e9quit\u00e9 URL et surveillons le trafic pendant la migration pour minimiser les pertes de trafic organique. Notre [guide SEO Magento](/academy/magento-seo-guide) couvre les bonnes pratiques de migration.",
         },
         {
           question: "Combien de temps dure un audit SEO Adobe Commerce ?",
@@ -535,7 +535,7 @@ export const adobeCommerceSeoData: Record<Locale, ServicePageProps> = {
         {
           question: "\u00bfTrabajan tanto con Magento como con Adobe Commerce?",
           answer:
-            "S\u00ed. Adobe Commerce es la versi\u00f3n enterprise de Magento. Trabajamos tanto con Magento Open Source como con Adobe Commerce, gestionando los desaf\u00edos SEO \u00fanicos de cada versi\u00f3n de la plataforma.",
+            "S\u00ed. Adobe Commerce es la versi\u00f3n enterprise de Magento. Trabajamos tanto con Magento Open Source como con Adobe Commerce, gestionando los desaf\u00edos SEO \u00fanicos de cada versi\u00f3n de la plataforma. Conoce m\u00e1s en nuestra [gu\u00eda SEO e-commerce para Magento](/blog/magento-ecommerce-seo).",
         },
         {
           question: "\u00bfC\u00f3mo gestionan el SEO multi-tienda para Adobe Commerce?",
@@ -545,7 +545,7 @@ export const adobeCommerceSeoData: Record<Locale, ServicePageProps> = {
         {
           question: "\u00bfPueden ayudar con la migraci\u00f3n de Magento 1 a Adobe Commerce 2?",
           answer:
-            "Por supuesto. Creamos mapas de redirecciones completos, preservamos la equidad de URLs y monitorizamos el tr\u00e1fico durante la migraci\u00f3n para minimizar la p\u00e9rdida de tr\u00e1fico org\u00e1nico.",
+            "Por supuesto. Creamos mapas de redirecciones completos, preservamos la equidad de URLs y monitorizamos el tr\u00e1fico durante la migraci\u00f3n para minimizar la p\u00e9rdida de tr\u00e1fico org\u00e1nico. Nuestra [gu\u00eda SEO de Magento](/academy/magento-seo-guide) cubre las mejores pr\u00e1cticas de migraci\u00f3n.",
         },
         {
           question: "\u00bfCu\u00e1nto tarda una auditor\u00eda SEO de Adobe Commerce?",
@@ -677,7 +677,7 @@ export const adobeCommerceSeoData: Record<Locale, ServicePageProps> = {
         {
           question: "Lavorate sia con Magento che con Adobe Commerce?",
           answer:
-            "S\u00ec. Adobe Commerce \u00e8 la versione enterprise di Magento. Lavoriamo sia con Magento Open Source che con Adobe Commerce, gestendo le sfide SEO uniche di ogni versione della piattaforma.",
+            "S\u00ec. Adobe Commerce \u00e8 la versione enterprise di Magento. Lavoriamo sia con Magento Open Source che con Adobe Commerce, gestendo le sfide SEO uniche di ogni versione della piattaforma. Scopri di pi\u00f9 nella nostra [guida SEO e-commerce Magento](/blog/magento-ecommerce-seo).",
         },
         {
           question: "Come gestite il SEO multi-store per Adobe Commerce?",
@@ -687,7 +687,7 @@ export const adobeCommerceSeoData: Record<Locale, ServicePageProps> = {
         {
           question: "Potete aiutare con la migrazione da Magento 1 ad Adobe Commerce 2?",
           answer:
-            "Assolutamente. Creiamo mappe di redirect complete, preserviamo l\u2019equity degli URL e monitoriamo il traffico durante la migrazione per minimizzare le perdite di traffico organico.",
+            "Assolutamente. Creiamo mappe di redirect complete, preserviamo l\u2019equity degli URL e monitoriamo il traffico durante la migrazione per minimizzare le perdite di traffico organico. La nostra [guida SEO Magento](/academy/magento-seo-guide) copre le best practice per le migrazioni.",
         },
         {
           question: "Quanto tempo richiede un audit SEO Adobe Commerce?",
@@ -819,7 +819,7 @@ export const adobeCommerceSeoData: Record<Locale, ServicePageProps> = {
         {
           question: "Werken jullie met zowel Magento als Adobe Commerce?",
           answer:
-            "Ja. Adobe Commerce is de enterprise-versie van Magento. We werken met zowel Magento Open Source als Adobe Commerce en pakken de unieke SEO-uitdagingen van elke platformversie aan.",
+            "Ja. Adobe Commerce is de enterprise-versie van Magento. We werken met zowel Magento Open Source als Adobe Commerce en pakken de unieke SEO-uitdagingen van elke platformversie aan. Lees meer in onze [Magento e-commerce SEO-gids](/blog/magento-ecommerce-seo).",
         },
         {
           question: "Hoe pakken jullie multi-store SEO aan voor Adobe Commerce?",
@@ -829,7 +829,7 @@ export const adobeCommerceSeoData: Record<Locale, ServicePageProps> = {
         {
           question: "Kunnen jullie helpen bij de migratie van Magento 1 naar Adobe Commerce 2?",
           answer:
-            "Absoluut. We maken uitgebreide redirect-maps, behouden URL-equity en monitoren verkeer tijdens de migratie om verlies van organisch verkeer te minimaliseren.",
+            "Absoluut. We maken uitgebreide redirect-maps, behouden URL-equity en monitoren verkeer tijdens de migratie om verlies van organisch verkeer te minimaliseren. Onze [Magento SEO-gids](/academy/magento-seo-guide) behandelt best practices voor migraties.",
         },
         {
           question: "Hoe lang duurt een Adobe Commerce SEO-audit?",

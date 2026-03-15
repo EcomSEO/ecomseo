@@ -286,7 +286,7 @@ export const shopifySeoData: Record<Locale, ServicePageProps> = {
         {
           question: "Warum braucht mein Shopify-Shop spezialisiertes SEO?",
           answer:
-            "Shopify hat einzigartige technische SEO-Herausforderungen, die generische Agenturen \u00fcbersehen \u2014 Duplicate Content durch Kollektionen und Tags, automatisch generierte URL-Strukturen, begrenzte Kontrolle \u00fcber Canonical-Tags und Theme-bedingte Speed-Probleme. Wir sind auf die L\u00f6sung dieser plattformspezifischen Probleme spezialisiert.",
+            "Shopify hat einzigartige technische SEO-Herausforderungen, die generische Agenturen \u00fcbersehen \u2014 Duplicate Content durch Kollektionen und Tags, automatisch generierte URL-Strukturen, begrenzte Kontrolle \u00fcber Canonical-Tags und Theme-bedingte Speed-Probleme. Wir sind auf die L\u00f6sung dieser plattformspezifischen Probleme spezialisiert. Unser [Shopify-E-Commerce-SEO-Leitfaden](/blog/shopify-ecommerce-seo) behandelt die h\u00e4ufigsten Probleme im Detail.",
         },
         {
           question: "Wie schnell sehe ich Ergebnisse bei Shopify-SEO?",
@@ -301,7 +301,7 @@ export const shopifySeoData: Record<Locale, ServicePageProps> = {
         {
           question: "Was beinhaltet ein Shopify-SEO-Audit?",
           answer:
-            "Unser Audit umfasst Crawlbarkeits- und Indexierungsprobleme, Duplicate Content durch Kollektionen/Tags/Hersteller, Canonical-Tag-Implementierung, strukturierte-Daten-L\u00fccken, Core Web Vitals und Theme-Speed, URL-Architektur, interne Verlinkungsstruktur und Content-L\u00fccken im Vergleich zu Ihren Top-Wettbewerbern.",
+            "Unser Audit umfasst Crawlbarkeits- und Indexierungsprobleme, Duplicate Content durch Kollektionen/Tags/Hersteller, Canonical-Tag-Implementierung, [L\u00fccken bei strukturierten Daten](/academy/structured-data-for-products), Core Web Vitals und Theme-Speed, URL-Architektur, interne Verlinkungsstruktur und Content-L\u00fccken im Vergleich zu Ihren Top-Wettbewerbern.",
         },
         {
           question: "Nehmen Sie \u00c4nderungen direkt an meinem Shopify-Shop vor?",
@@ -312,7 +312,7 @@ export const shopifySeoData: Record<Locale, ServicePageProps> = {
           question:
             "Was unterscheidet EcomSEO von anderen Shopify-SEO-Agenturen?",
           answer:
-            "Wir arbeiten ausschlie\u00dflich mit E-Commerce-Marken und verstehen daher die Umsatzauswirkung jeder SEO-Entscheidung. Wir konzentrieren uns auf Profit-Metriken (nicht Eitelkeits-Rankings), bieten radikale Transparenz im Reporting und denken als Unternehmer \u2014 wir haben selbst E-Commerce-Marken aufgebaut und skaliert.",
+            "Wir arbeiten ausschlie\u00dflich mit E-Commerce-Marken und verstehen daher die Umsatzauswirkung jeder SEO-Entscheidung. Wir konzentrieren uns auf Profit-Metriken (nicht Eitelkeits-Rankings), bieten radikale Transparenz im Reporting und denken als Unternehmer \u2014 wir haben selbst E-Commerce-Marken aufgebaut und skaliert. Erfahren Sie mehr über unsere [technische SEO-Methodik](/technical-seo).",
         },
       ],
       miniCta: {
@@ -446,7 +446,7 @@ export const shopifySeoData: Record<Locale, ServicePageProps> = {
         {
           question: "Pourquoi ma boutique Shopify a-t-elle besoin d\u2019un SEO sp\u00e9cialis\u00e9\u00a0?",
           answer:
-            "Shopify pr\u00e9sente des d\u00e9fis techniques SEO uniques que les agences g\u00e9n\u00e9ralistes ne voient pas \u2014 contenu dupliq\u00e9 par les collections et tags, structures d\u2019URL auto-g\u00e9n\u00e9r\u00e9es, contr\u00f4le limit\u00e9 des canonical tags et probl\u00e8mes de vitesse li\u00e9s au th\u00e8me. Nous sommes sp\u00e9cialis\u00e9s dans la r\u00e9solution de ces probl\u00e8mes sp\u00e9cifiques \u00e0 la plateforme.",
+            "Shopify pr\u00e9sente des d\u00e9fis techniques SEO uniques que les agences g\u00e9n\u00e9ralistes ne voient pas \u2014 contenu dupliq\u00e9 par les collections et tags, structures d\u2019URL auto-g\u00e9n\u00e9r\u00e9es, contr\u00f4le limit\u00e9 des canonical tags et probl\u00e8mes de vitesse li\u00e9s au th\u00e8me. Nous sommes sp\u00e9cialis\u00e9s dans la r\u00e9solution de ces probl\u00e8mes sp\u00e9cifiques \u00e0 la plateforme. Notre [guide SEO e-commerce Shopify](/blog/shopify-ecommerce-seo) couvre les probl\u00e8mes les plus courants en d\u00e9tail.",
         },
         {
           question: "En combien de temps vais-je voir des r\u00e9sultats avec le SEO Shopify\u00a0?",
@@ -461,7 +461,7 @@ export const shopifySeoData: Record<Locale, ServicePageProps> = {
         {
           question: "Que comprend un audit SEO Shopify\u00a0?",
           answer:
-            "Notre audit couvre les probl\u00e8mes de crawlabilit\u00e9 et d\u2019indexation, le contenu dupliq\u00e9 des collections/tags/fournisseurs, l\u2019impl\u00e9mentation des canonical tags, les lacunes en donn\u00e9es structur\u00e9es, les Core Web Vitals et la vitesse du th\u00e8me, l\u2019architecture des URL, le maillage interne et les lacunes de contenu par rapport \u00e0 vos concurrents.",
+            "Notre audit couvre les probl\u00e8mes de crawlabilit\u00e9 et d\u2019indexation, le contenu dupliq\u00e9 des collections/tags/fournisseurs, l\u2019impl\u00e9mentation des canonical tags, les [lacunes en donn\u00e9es structur\u00e9es](/academy/structured-data-for-products), les Core Web Vitals et la vitesse du th\u00e8me, l\u2019architecture des URL, le maillage interne et les lacunes de contenu par rapport \u00e0 vos concurrents.",
         },
         {
           question: "Ferez-vous des modifications directement sur ma boutique Shopify\u00a0?",
@@ -472,7 +472,7 @@ export const shopifySeoData: Record<Locale, ServicePageProps> = {
           question:
             "En quoi EcomSEO se distingue-t-il des autres agences SEO Shopify\u00a0?",
           answer:
-            "Nous travaillons exclusivement avec des marques e-commerce et comprenons l\u2019impact sur le CA de chaque d\u00e9cision SEO. Nous nous concentrons sur les m\u00e9triques de profit (pas les classements de vanit\u00e9), offrons une transparence totale dans nos rapports et apportons un \u00e9tat d\u2019esprit d\u2019op\u00e9rateur \u2014 nous avons nous-m\u00eames construit et d\u00e9velopp\u00e9 des marques e-commerce.",
+            "Nous travaillons exclusivement avec des marques e-commerce et comprenons l\u2019impact sur le CA de chaque d\u00e9cision SEO. Nous nous concentrons sur les m\u00e9triques de profit (pas les classements de vanit\u00e9), offrons une transparence totale dans nos rapports et apportons un \u00e9tat d\u2019esprit d\u2019op\u00e9rateur \u2014 nous avons nous-m\u00eames construit et d\u00e9velopp\u00e9 des marques e-commerce. D\u00e9couvrez notre [m\u00e9thodologie SEO technique](/technical-seo).",
         },
       ],
       miniCta: {
@@ -606,7 +606,7 @@ export const shopifySeoData: Record<Locale, ServicePageProps> = {
         {
           question: "\u00bfPor qu\u00e9 mi tienda Shopify necesita SEO especializado?",
           answer:
-            "Shopify tiene desaf\u00edos t\u00e9cnicos SEO \u00fanicos que las agencias generalistas pasan por alto: contenido duplicado por colecciones y etiquetas, estructuras de URL autogeneradas, control limitado de canonical tags y problemas de velocidad del tema. Nos especializamos en resolver estos problemas espec\u00edficos de la plataforma.",
+            "Shopify tiene desaf\u00edos t\u00e9cnicos SEO \u00fanicos que las agencias generalistas pasan por alto: contenido duplicado por colecciones y etiquetas, estructuras de URL autogeneradas, control limitado de canonical tags y problemas de velocidad del tema. Nos especializamos en resolver estos problemas espec\u00edficos de la plataforma. Nuestra [gu\u00eda SEO e-commerce para Shopify](/blog/shopify-ecommerce-seo) cubre los problemas m\u00e1s comunes en detalle.",
         },
         {
           question: "\u00bfCu\u00e1nto tarda en verse resultados con el SEO de Shopify?",
@@ -621,7 +621,7 @@ export const shopifySeoData: Record<Locale, ServicePageProps> = {
         {
           question: "\u00bfQu\u00e9 incluye una auditor\u00eda SEO de Shopify?",
           answer:
-            "Nuestra auditor\u00eda cubre problemas de rastreabilidad e indexaci\u00f3n, contenido duplicado de colecciones/etiquetas/proveedores, implementaci\u00f3n de canonical tags, carencias en datos estructurados, Core Web Vitals y velocidad del tema, arquitectura de URLs, estructura de enlazado interno y brechas de contenido frente a tus principales competidores.",
+            "Nuestra auditor\u00eda cubre problemas de rastreabilidad e indexaci\u00f3n, contenido duplicado de colecciones/etiquetas/proveedores, implementaci\u00f3n de canonical tags, [carencias en datos estructurados](/academy/structured-data-for-products), Core Web Vitals y velocidad del tema, arquitectura de URLs, estructura de enlazado interno y brechas de contenido frente a tus principales competidores.",
         },
         {
           question: "\u00bfHar\u00e9is cambios directamente en mi tienda Shopify?",
@@ -632,7 +632,7 @@ export const shopifySeoData: Record<Locale, ServicePageProps> = {
           question:
             "\u00bfEn qu\u00e9 se diferencia EcomSEO de otras agencias SEO para Shopify?",
           answer:
-            "Solo trabajamos con marcas de e-commerce, as\u00ed que entendemos el impacto en ingresos de cada decisi\u00f3n SEO. Nos centramos en m\u00e9tricas de rentabilidad (no rankings de vanidad), ofrecemos total transparencia en los informes y pensamos como operadores: hemos construido y escalado marcas de e-commerce nosotros mismos.",
+            "Solo trabajamos con marcas de e-commerce, as\u00ed que entendemos el impacto en ingresos de cada decisi\u00f3n SEO. Nos centramos en m\u00e9tricas de rentabilidad (no rankings de vanidad), ofrecemos total transparencia en los informes y pensamos como operadores: hemos construido y escalado marcas de e-commerce nosotros mismos. Conoce m\u00e1s sobre nuestra [metodolog\u00eda de SEO t\u00e9cnico](/technical-seo).",
         },
       ],
       miniCta: {
@@ -766,7 +766,7 @@ export const shopifySeoData: Record<Locale, ServicePageProps> = {
         {
           question: "Perch\u00e9 il mio negozio Shopify ha bisogno di un SEO specializzato?",
           answer:
-            "Shopify presenta sfide SEO tecniche uniche che le agenzie generaliste non colgono \u2014 contenuti duplicati da collezioni e tag, strutture URL generate automaticamente, controllo limitato sui tag canonical e problemi di velocit\u00e0 del tema. Siamo specializzati nel risolvere questi problemi specifici della piattaforma.",
+            "Shopify presenta sfide SEO tecniche uniche che le agenzie generaliste non colgono \u2014 contenuti duplicati da collezioni e tag, strutture URL generate automaticamente, controllo limitato sui tag canonical e problemi di velocit\u00e0 del tema. Siamo specializzati nel risolvere questi problemi specifici della piattaforma. La nostra [guida SEO e-commerce Shopify](/blog/shopify-ecommerce-seo) copre i problemi pi\u00f9 comuni in dettaglio.",
         },
         {
           question: "Quanto tempo ci vuole per vedere risultati con il SEO Shopify?",
@@ -781,7 +781,7 @@ export const shopifySeoData: Record<Locale, ServicePageProps> = {
         {
           question: "Cosa include un audit SEO Shopify?",
           answer:
-            "Il nostro audit copre problemi di scansionabilit\u00e0 e indicizzazione, contenuti duplicati da collezioni/tag/fornitori, implementazione dei tag canonical, lacune nei dati strutturati, Core Web Vitals e velocit\u00e0 del tema, architettura degli URL, struttura dei link interni e gap di contenuto rispetto ai tuoi principali concorrenti.",
+            "Il nostro audit copre problemi di scansionabilit\u00e0 e indicizzazione, contenuti duplicati da collezioni/tag/fornitori, implementazione dei tag canonical, [lacune nei dati strutturati](/academy/structured-data-for-products), Core Web Vitals e velocit\u00e0 del tema, architettura degli URL, struttura dei link interni e gap di contenuto rispetto ai tuoi principali concorrenti.",
         },
         {
           question: "Apporterete modifiche direttamente al mio negozio Shopify?",
@@ -792,7 +792,7 @@ export const shopifySeoData: Record<Locale, ServicePageProps> = {
           question:
             "In cosa si differenzia EcomSEO dalle altre agenzie SEO Shopify?",
           answer:
-            "Lavoriamo esclusivamente con brand e-commerce, quindi comprendiamo l\u2019impatto sul fatturato di ogni decisione SEO. Ci concentriamo su metriche di profitto (non ranking di vanit\u00e0), offriamo totale trasparenza nel reporting e ragioniamo da operatori \u2014 abbiamo costruito e scalato brand e-commerce noi stessi.",
+            "Lavoriamo esclusivamente con brand e-commerce, quindi comprendiamo l\u2019impatto sul fatturato di ogni decisione SEO. Ci concentriamo su metriche di profitto (non ranking di vanit\u00e0), offriamo totale trasparenza nel reporting e ragioniamo da operatori \u2014 abbiamo costruito e scalato brand e-commerce noi stessi. Scopri di pi\u00f9 sulla nostra [metodologia SEO tecnica](/technical-seo).",
         },
       ],
       miniCta: {
@@ -926,7 +926,7 @@ export const shopifySeoData: Record<Locale, ServicePageProps> = {
         {
           question: "Waarom heeft mijn Shopify-winkel gespecialiseerde SEO nodig?",
           answer:
-            "Shopify heeft unieke technische SEO-uitdagingen die generieke bureaus missen \u2014 dubbele content door collecties en tags, automatisch gegenereerde URL-structuren, beperkte controle over canonical tags en thema-gerelateerde snelheidsproblemen. Wij zijn gespecialiseerd in het oplossen van deze platformspecifieke problemen.",
+            "Shopify heeft unieke technische SEO-uitdagingen die generieke bureaus missen \u2014 dubbele content door collecties en tags, automatisch gegenereerde URL-structuren, beperkte controle over canonical tags en thema-gerelateerde snelheidsproblemen. Wij zijn gespecialiseerd in het oplossen van deze platformspecifieke problemen. Onze [Shopify e-commerce SEO-gids](/blog/shopify-ecommerce-seo) behandelt de meest voorkomende problemen in detail.",
         },
         {
           question: "Hoe snel zie ik resultaten van Shopify-SEO?",
@@ -941,7 +941,7 @@ export const shopifySeoData: Record<Locale, ServicePageProps> = {
         {
           question: "Wat omvat een Shopify SEO-audit?",
           answer:
-            "Onze audit dekt crawlbaarheids- en indexatieproblemen, dubbele content van collecties/tags/leveranciers, canonical tag-implementatie, hiaten in gestructureerde data, Core Web Vitals en themasnelheid, URL-architectuur, interne linkstructuur en contentgaten ten opzichte van je belangrijkste concurrenten.",
+            "Onze audit dekt crawlbaarheids- en indexatieproblemen, dubbele content van collecties/tags/leveranciers, canonical tag-implementatie, [hiaten in gestructureerde data](/academy/structured-data-for-products), Core Web Vitals en themasnelheid, URL-architectuur, interne linkstructuur en contentgaten ten opzichte van je belangrijkste concurrenten.",
         },
         {
           question: "Brengen jullie wijzigingen direct aan in mijn Shopify-winkel?",
@@ -952,7 +952,7 @@ export const shopifySeoData: Record<Locale, ServicePageProps> = {
           question:
             "Wat onderscheidt EcomSEO van andere Shopify SEO-bureaus?",
           answer:
-            "We werken uitsluitend met e-commercemerken, dus begrijpen we de omzetimpact van elke SEO-beslissing. We focussen op winstmetrics (niet ijdelheidsrankings), bieden radicale transparantie in rapportages en denken als operators \u2014 we hebben zelf e-commercemerken gebouwd en opgeschaald.",
+            "We werken uitsluitend met e-commercemerken, dus begrijpen we de omzetimpact van elke SEO-beslissing. We focussen op winstmetrics (niet ijdelheidsrankings), bieden radicale transparantie in rapportages en denken als operators \u2014 we hebben zelf e-commercemerken gebouwd en opgeschaald. Lees meer over onze [technische SEO-methodologie](/technical-seo).",
         },
       ],
       miniCta: {
