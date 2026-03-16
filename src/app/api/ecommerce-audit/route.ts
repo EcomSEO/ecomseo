@@ -771,10 +771,10 @@ function checkEcommerce(html: string, finalUrl: string, headers: Headers): Audit
 
   // Out-of-stock product handling
   const blocks = extractJsonLdBlocks(html);
-  const productBlock = blocks.find((b) => schemaType(b) === "Product") as Record<string, any> | undefined;
+  const productBlock = blocks.find((b) => schemaType(b) === "Product") as Record<string, unknown> | undefined;
   if (productBlock) {
     const offers = Array.isArray(productBlock.offers) ? productBlock.offers : productBlock.offers ? [productBlock.offers] : [];
-    const outOfStock = offers.some((o: any) =>
+    const outOfStock = offers.some((o: Record<string, unknown>) =>
       o?.availability && /OutOfStock|Discontinued/i.test(String(o.availability))
     );
 
@@ -794,8 +794,8 @@ function checkEcommerce(html: string, finalUrl: string, headers: Headers): Audit
   // Price in schema
   if (productBlock) {
     const offers = Array.isArray(productBlock.offers) ? productBlock.offers : productBlock.offers ? [productBlock.offers] : [];
-    const hasPrice = offers.some((o: any) => o && ("price" in o || "lowPrice" in o));
-    const hasCurrency = offers.some((o: any) => o && "priceCurrency" in o);
+    const hasPrice = offers.some((o: Record<string, unknown>) => o && ("price" in o || "lowPrice" in o));
+    const hasCurrency = offers.some((o: Record<string, unknown>) => o && "priceCurrency" in o);
 
     checks.push({
       label: "Price in schema",
@@ -809,7 +809,7 @@ function checkEcommerce(html: string, finalUrl: string, headers: Headers): Audit
   }
 
   // Review schema presence
-  const hasReview = blocks.some((b: any) =>
+  const hasReview = blocks.some((b: Record<string, unknown>) =>
     schemaType(b) === "Review" || b.aggregateRating || schemaType(b) === "AggregateRating"
   );
   checks.push({
@@ -976,8 +976,8 @@ export async function POST(req: Request) {
     let result: AuditResult;
     try {
       result = await runEcommerceAudit(targetUrl);
-    } catch (e: any) {
-      return NextResponse.json({ error: e.message || "Could not audit the URL" }, { status: 502 });
+    } catch (e: unknown) {
+      return NextResponse.json({ error: e instanceof Error ? e.message : "Could not audit the URL" }, { status: 502 });
     }
 
     // Run comparison audit if compareUrl is provided

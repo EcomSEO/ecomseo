@@ -26,6 +26,7 @@ interface AuditResult {
   comparisonResult?: AuditResult;
 }
 
+
 /* ------------------------------------------------------------------ */
 /*  Helpers                                                            */
 /* ------------------------------------------------------------------ */
@@ -378,8 +379,8 @@ function countThirdPartyScripts(html: string, storeHost: string): AuditCheck {
 
 /* -- Structured Data -- */
 
-function extractJsonLd(html: string): object[] {
-  const results: object[] = [];
+function extractJsonLd(html: string): Record<string, unknown>[] {
+  const results: Record<string, unknown>[] = [];
   const re = /<script[^>]+type=["']application\/ld\+json["'][^>]*>([\s\S]*?)<\/script>/gi;
   let m;
   while ((m = re.exec(html)) !== null) {
@@ -394,10 +395,10 @@ function extractJsonLd(html: string): object[] {
   return results;
 }
 
-function checkProductSchema(jsonLd: object[]): AuditCheck {
+function checkProductSchema(jsonLd: Record<string, unknown>[]): AuditCheck {
   const product = jsonLd.find(
-    (item: any) => item["@type"] === "Product"
-  ) as any;
+    (item) => item["@type"] === "Product"
+  );
   if (!product) {
     return {
       label: "Product schema (JSON-LD)",
@@ -408,9 +409,12 @@ function checkProductSchema(jsonLd: object[]): AuditCheck {
   }
   const fields = ["name", "image", "description"];
   const missing = fields.filter((f) => !product[f]);
+  const offers = product.offers as Record<string, unknown> | Record<string, unknown>[] | undefined;
+  const singleOffer = Array.isArray(offers) ? undefined : offers;
+  const firstOffer = Array.isArray(offers) ? (offers[0] as Record<string, unknown> | undefined) : undefined;
   const hasPrice =
-    product.offers?.price || product.offers?.lowPrice || product.offers?.[0]?.price;
-  const hasAvailability = product.offers?.availability || product.offers?.[0]?.availability;
+    singleOffer?.price || singleOffer?.lowPrice || firstOffer?.price;
+  const hasAvailability = singleOffer?.availability || firstOffer?.availability;
 
   if (!hasPrice) missing.push("offers.price");
   if (!hasAvailability) missing.push("offers.availability");
@@ -430,9 +434,9 @@ function checkProductSchema(jsonLd: object[]): AuditCheck {
   };
 }
 
-function checkBreadcrumbSchema(jsonLd: object[]): AuditCheck {
+function checkBreadcrumbSchema(jsonLd: Record<string, unknown>[]): AuditCheck {
   const bc = jsonLd.find(
-    (item: any) => item["@type"] === "BreadcrumbList"
+    (item) => item["@type"] === "BreadcrumbList"
   );
   if (!bc) {
     return {
@@ -449,11 +453,11 @@ function checkBreadcrumbSchema(jsonLd: object[]): AuditCheck {
   };
 }
 
-function checkOrganizationSchema(jsonLd: object[]): AuditCheck {
+function checkOrganizationSchema(jsonLd: Record<string, unknown>[]): AuditCheck {
   const org = jsonLd.find(
-    (item: any) =>
+    (item) =>
       item["@type"] === "Organization" || item["@type"] === "Store"
-  ) as any;
+  );
   if (!org) {
     return {
       label: "Organization schema",
@@ -463,10 +467,10 @@ function checkOrganizationSchema(jsonLd: object[]): AuditCheck {
     };
   }
   const has = [];
-  if (org.logo) has.push("logo");
-  if (org.name) has.push("name");
-  if (org.url) has.push("url");
-  if (org.contactPoint) has.push("contactPoint");
+  if (org["logo"]) has.push("logo");
+  if (org["name"]) has.push("name");
+  if (org["url"]) has.push("url");
+  if (org["contactPoint"]) has.push("contactPoint");
   return {
     label: "Organization schema",
     status: "pass",
@@ -474,10 +478,10 @@ function checkOrganizationSchema(jsonLd: object[]): AuditCheck {
   };
 }
 
-function checkAggregateRating(jsonLd: object[]): AuditCheck {
+function checkAggregateRating(jsonLd: Record<string, unknown>[]): AuditCheck {
   const hasRating = jsonLd.some(
-    (item: any) =>
-      item.aggregateRating || item["@type"] === "AggregateRating"
+    (item) =>
+      item["aggregateRating"] || item["@type"] === "AggregateRating"
   );
   if (!hasRating) {
     return {
@@ -1281,9 +1285,9 @@ export async function POST(req: Request) {
     let result: AuditResult;
     try {
       result = await runShopifyAudit(url);
-    } catch (e: any) {
+    } catch (e: unknown) {
       return NextResponse.json(
-        { error: e.message || "Could not audit the URL" },
+        { error: e instanceof Error ? e.message : "Could not audit the URL" },
         { status: 422 }
       );
     }

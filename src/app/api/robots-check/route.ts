@@ -254,7 +254,7 @@ function generateFixedRobotsTxt(
   const issueMessages = issues.map((i) => i.message);
 
   // Check if we have a wildcard block
-  let hasWildcard = userAgents.some((ua) => ua.name === "*");
+  const hasWildcard = userAgents.some((ua) => ua.name === "*");
 
   // Build existing blocks (cleaned up)
   for (const ua of userAgents) {

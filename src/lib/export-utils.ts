@@ -6,7 +6,7 @@
  * Export an array of objects as a CSV file download.
  */
 export function exportToCSV(
-  data: Record<string, any>[],
+  data: Record<string, unknown>[],
   filename: string
 ): void {
   if (!data.length) return;
@@ -41,7 +41,7 @@ export async function copyToClipboard(text: string): Promise<boolean> {
 /**
  * Download a JSON file.
  */
-export function downloadAsJSON(data: any, filename: string): void {
+export function downloadAsJSON(data: unknown, filename: string): void {
   const json = JSON.stringify(data, null, 2);
   downloadBlob(json, filename.endsWith(".json") ? filename : `${filename}.json`, "application/json");
 }
@@ -51,7 +51,7 @@ export function downloadAsJSON(data: any, filename: string): void {
  */
 export function exportResultsAsText(
   title: string,
-  data: Record<string, any>[]
+  data: Record<string, unknown>[]
 ): string {
   if (!data.length) return `${title}\n\nNo results.`;
 
@@ -85,7 +85,7 @@ export function exportToPDF(options: {
   subtitle?: string;
   score?: number;
   grade?: string;
-  data: Record<string, any>[];
+  data: Record<string, unknown>[];
   columns?: string[];
   url?: string;
 }): void {

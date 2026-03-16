@@ -32,6 +32,7 @@ interface OgData {
   results?: OgResult[];
   issues?: string[];
   score?: number;
+  imageSize?: number | null;
 }
 
 type PreviewTab = "facebook" | "twitter" | "linkedin" | "whatsapp" | "slack" | "raw";
@@ -493,7 +494,7 @@ export default function OgCheckerClient({ t }: { t: OgCheckerTranslation }) {
                 <h3 className="text-xs font-medium text-heading mb-2">OG Image Check</h3>
                 <p className="text-xs text-body">
                   Recommended OG image dimensions: <span className="text-accent font-medium">1200 x 630 pixels</span> (1.91:1 aspect ratio).
-                  {data.imageSize !== null ? ` Image file size: ${data.imageSize < 1024 * 1024 ? `${(data.imageSize / 1024).toFixed(0)} KB` : `${(data.imageSize / 1024 / 1024).toFixed(1)} MB`}` : ""}
+                  {data.imageSize != null ? ` Image file size: ${data.imageSize < 1024 * 1024 ? `${(data.imageSize / 1024).toFixed(0)} KB` : `${(data.imageSize / 1024 / 1024).toFixed(1)} MB`}` : ""}
                 </p>
               </div>
             )}

@@ -204,8 +204,8 @@ export function extractHreflangTags(
   return results;
 }
 
-export function extractSchemaMarkup(html: string): any[] {
-  const results: any[] = [];
+export function extractSchemaMarkup(html: string): Record<string, unknown>[] {
+  const results: Record<string, unknown>[] = [];
   const re = /<script[^>]+type=["']application\/ld\+json["'][^>]*>([\s\S]*?)<\/script>/gi;
   let m: RegExpExecArray | null;
 
