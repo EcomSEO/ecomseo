@@ -348,20 +348,36 @@ function generateFixedRobotsTxt(
 
 /* ── Ecommerce Checks ────────────────────────────────────────────────── */
 
+function escapeRegexExceptStar(str: string): string {
+  // Escape all regex special chars EXCEPT *, which we handle separately
+  return str.replace(/[.+?^${}()|[\]\\]/g, "\\$&");
+}
+
+function patternToRegex(pattern: string, anchor: "prefix" | "full"): RegExp {
+  // Split on *, escape each segment, join with .*
+  const segments = pattern.split("*").map(escapeRegexExceptStar);
+  const joined = segments.join(".*");
+  return new RegExp("^" + joined + (anchor === "full" ? "$" : ""));
+}
+
 function matchesRulePath(path: string, pattern: string): boolean {
   if (!pattern) return false;
   if (pattern === "/") return true;
-  if (pattern.endsWith("$")) {
-    const p = pattern.slice(0, -1);
-    if (p.includes("*")) {
-      const regex = new RegExp("^" + p.replace(/\*/g, ".*") + "$");
-      return regex.test(path);
+
+  try {
+    if (pattern.endsWith("$")) {
+      const p = pattern.slice(0, -1);
+      if (p.includes("*")) {
+        return patternToRegex(p, "full").test(path);
+      }
+      return path === p;
     }
-    return path === p;
-  }
-  if (pattern.includes("*")) {
-    const regex = new RegExp("^" + pattern.replace(/\*/g, ".*"));
-    return regex.test(path);
+    if (pattern.includes("*")) {
+      return patternToRegex(pattern, "prefix").test(path);
+    }
+  } catch {
+    // If regex still fails for any reason, fall back to simple prefix match
+    return path.startsWith(pattern.replace(/\*/g, ""));
   }
   return path.startsWith(pattern);
 }
@@ -446,13 +462,35 @@ export async function POST(req: Request) {
     const controller = new AbortController();
     const timeout = setTimeout(() => controller.abort(), 10000);
 
-    const res = await fetch(robotsUrl, {
-      headers: {
-        "User-Agent": "Mozilla/5.0 (compatible; EcomSEO Robots Analyzer/1.0)",
-      },
-      signal: controller.signal,
-      redirect: "follow",
-    });
+    // Try HTTPS first, fall back to HTTP
+    let res: Response | null = null;
+    let fetchError: unknown = null;
+
+    for (const protocol of ["https", "http"]) {
+      const url = `${protocol}://${domain}/robots.txt`;
+      try {
+        res = await fetch(url, {
+          headers: {
+            "User-Agent":
+              "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            Accept: "text/plain, text/html, */*",
+            "Accept-Language": "en-US,en;q=0.9",
+          },
+          signal: controller.signal,
+          redirect: "follow",
+          cache: "no-store",
+        });
+        if (res.ok) break;
+      } catch (e) {
+        fetchError = e;
+        res = null;
+      }
+    }
+
+    if (!res) {
+      clearTimeout(timeout);
+      throw fetchError || new Error("Fetch failed");
+    }
     clearTimeout(timeout);
 
     if (!res.ok) {

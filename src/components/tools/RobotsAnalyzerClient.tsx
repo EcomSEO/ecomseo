@@ -44,24 +44,36 @@ interface RobotsData {
 
 /* ── Helpers ──────────────────────────────────────────────────────────── */
 
+function escapeRegexExceptStar(str: string): string {
+  return str.replace(/[.+?^${}()|[\]\\]/g, "\\$&");
+}
+
+function patternToRegex(pattern: string, anchor: "prefix" | "full"): RegExp {
+  const segments = pattern.split("*").map(escapeRegexExceptStar);
+  const joined = segments.join(".*");
+  return new RegExp("^" + joined + (anchor === "full" ? "$" : ""));
+}
+
 function matchesRule(path: string, pattern: string): boolean {
   if (!pattern) return false;
   if (pattern === "/") return true;
 
-  // Handle $ anchor
-  if (pattern.endsWith("$")) {
-    const p = pattern.slice(0, -1);
-    if (p.includes("*")) {
-      const regex = new RegExp("^" + p.replace(/\*/g, ".*") + "$");
-      return regex.test(path);
+  try {
+    // Handle $ anchor
+    if (pattern.endsWith("$")) {
+      const p = pattern.slice(0, -1);
+      if (p.includes("*")) {
+        return patternToRegex(p, "full").test(path);
+      }
+      return path === p;
     }
-    return path === p;
-  }
 
-  // Handle * wildcard
-  if (pattern.includes("*")) {
-    const regex = new RegExp("^" + pattern.replace(/\*/g, ".*"));
-    return regex.test(path);
+    // Handle * wildcard
+    if (pattern.includes("*")) {
+      return patternToRegex(pattern, "prefix").test(path);
+    }
+  } catch {
+    return path.startsWith(pattern.replace(/\*/g, ""));
   }
 
   return path.startsWith(pattern);
