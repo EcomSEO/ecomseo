@@ -1300,17 +1300,14 @@ export default function CoreWebVitalsClient({ t }: { t: CoreWebVitalsTranslation
   );
 
   const handleCheck = async () => {
-    const lines = urls
-      .split("\n")
-      .map((l) => l.trim())
-      .filter(Boolean);
+    const lines = [urls.trim()].filter(Boolean);
 
     if (lines.length === 0) {
       setError(t.errorEmpty);
       return;
     }
-    if (lines.length > 5) {
-      setError(t.errorTooMany);
+    if (lines.length > 1) {
+      setError("Please enter only one domain.");
       return;
     }
 
@@ -1333,10 +1330,7 @@ export default function CoreWebVitalsClient({ t }: { t: CoreWebVitalsTranslation
     // Compare mode validation
     let compareNormalized: string[] = [];
     if (tabMode === "compare") {
-      const cLines = compareUrl
-        .split("\n")
-        .map((l) => l.trim())
-        .filter(Boolean);
+      const cLines = [compareUrl.trim()].filter(Boolean);
       if (cLines.length === 0) {
         setError("Please enter a competitor URL to compare.");
         return;
@@ -1552,14 +1546,14 @@ export default function CoreWebVitalsClient({ t }: { t: CoreWebVitalsTranslation
         <div className={tabMode === "compare" ? "grid md:grid-cols-2 gap-4" : ""}>
           <div>
             <label className="block text-sm font-medium text-heading mb-2">
-              {tabMode === "compare" ? "Your Domain" : "Enter domains to check (one per line, max 5)"}
+              {tabMode === "compare" ? "Your Domain" : "Enter domain to check"}
             </label>
-            <textarea
+            <input
+              type="text"
               value={urls}
               onChange={(e) => setUrls(e.target.value)}
-              placeholder={tabMode === "compare" ? "yourstore.com" : "example.com\nshop.example.com/products"}
-              rows={tabMode === "compare" ? 2 : 4}
-              className="w-full rounded-xl border border-border bg-bg px-4 py-3 text-sm text-body placeholder:text-white/20 focus:outline-none focus:border-accent/50 font-mono resize-y"
+              placeholder={tabMode === "compare" ? "yourstore.com" : "example.com"}
+              className="w-full rounded-xl border border-border bg-bg px-4 py-3 text-sm text-body placeholder:text-white/20 focus:outline-none focus:border-accent/50 font-mono"
             />
           </div>
           {tabMode === "compare" && (
@@ -1567,12 +1561,12 @@ export default function CoreWebVitalsClient({ t }: { t: CoreWebVitalsTranslation
               <label className="block text-sm font-medium text-heading mb-2">
                 Competitor Domain
               </label>
-              <textarea
+              <input
+                type="text"
                 value={compareUrl}
                 onChange={(e) => setCompareUrl(e.target.value)}
                 placeholder="competitor.com"
-                rows={2}
-                className="w-full rounded-xl border border-border bg-bg px-4 py-3 text-sm text-body placeholder:text-white/20 focus:outline-none focus:border-accent/50 font-mono resize-y"
+                className="w-full rounded-xl border border-border bg-bg px-4 py-3 text-sm text-body placeholder:text-white/20 focus:outline-none focus:border-accent/50 font-mono"
               />
             </div>
           )}

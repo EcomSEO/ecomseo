@@ -602,8 +602,8 @@ export async function POST(req: Request) {
     if (!Array.isArray(urls) || urls.length === 0) {
       return NextResponse.json({ error: "No URLs provided" }, { status: 400 });
     }
-    if (urls.length > 5) {
-      return NextResponse.json({ error: "Maximum 5 URLs at a time" }, { status: 400 });
+    if (urls.length > 1) {
+      return NextResponse.json({ error: "Maximum 1 URL at a time" }, { status: 400 });
     }
 
     const strat: "mobile" | "desktop" = strategy === "desktop" ? "desktop" : "mobile";

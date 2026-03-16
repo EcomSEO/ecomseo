@@ -1,5 +1,7 @@
 import { NextResponse } from "next/server";
 
+export const maxDuration = 60;
+
 /* ------------------------------------------------------------------ */
 /*  Types                                                              */
 /* ------------------------------------------------------------------ */
@@ -18,6 +20,29 @@ interface AuditCategory {
   checks: AuditCheck[];
 }
 
+interface CwvMetric {
+  value: number;
+  rating: string;
+  displayValue: string;
+}
+
+interface FieldMetric {
+  p75: number;
+  rating: string;
+  displayValue: string;
+}
+
+interface ResourceBreakdown {
+  totalBytes: number;
+  totalRequests: number;
+  jsBytes: number;
+  cssBytes: number;
+  imageBytes: number;
+  fontBytes: number;
+  otherBytes: number;
+  thirdPartyBytes: number;
+}
+
 interface AuditResult {
   score: number;
   grade: string;
@@ -30,23 +55,44 @@ interface AuditResult {
   responseTimeMs: number;
   url: string;
   comparisonResult?: AuditResult;
+  performanceScore: number | null;
+  coreWebVitals: {
+    lcp: CwvMetric | null;
+    fcp: CwvMetric | null;
+    cls: CwvMetric | null;
+    tbt: CwvMetric | null;
+    si: CwvMetric | null;
+    ttfb: CwvMetric | null;
+  } | null;
+  fieldData: {
+    lcp: FieldMetric | null;
+    inp: FieldMetric | null;
+    cls: FieldMetric | null;
+    fcp: FieldMetric | null;
+    ttfb: FieldMetric | null;
+  } | null;
+  lcpElement: string | null;
+  opportunities: { title: string; savings: string }[];
+  resourceBreakdown: ResourceBreakdown | null;
 }
 
 /* ------------------------------------------------------------------ */
-/*  Category weights (inspired by SEOmator's 20-category model)        */
+/*  Category weights                                                   */
 /* ------------------------------------------------------------------ */
 
 const CATEGORY_WEIGHTS: Record<string, number> = {
-  meta: 15,
-  "shopify-technical": 12,
+  meta: 14,
+  "shopify-technical": 11,
   performance: 15,
   "structured-data": 8,
-  content: 12,
-  security: 10,
-  mobile: 8,
-  links: 10,
-  social: 5,
-  accessibility: 5,
+  content: 11,
+  security: 8,
+  mobile: 7,
+  links: 8,
+  social: 4,
+  accessibility: 4,
+  international: 5,
+  images: 5,
 };
 
 function letterGrade(score: number): string {
@@ -87,6 +133,175 @@ async function safeFetch(
 }
 
 /* ------------------------------------------------------------------ */
+/*  PSI fetch & extraction                                             */
+/* ------------------------------------------------------------------ */
+
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+type PsiData = Record<string, any>;
+
+async function fetchPSI(url: string): Promise<PsiData> {
+  const apiUrl = `https://www.googleapis.com/pagespeedonline/v5/runPagespeed?url=${encodeURIComponent(url)}&strategy=mobile&category=performance`;
+  const controller = new AbortController();
+  const timeout = setTimeout(() => controller.abort(), 45000);
+  try {
+    const res = await fetch(apiUrl, { signal: controller.signal });
+    clearTimeout(timeout);
+    if (!res.ok) throw new Error(`PSI API returned ${res.status}`);
+    return (await res.json()) as PsiData;
+  } catch (e) {
+    clearTimeout(timeout);
+    throw e;
+  }
+}
+
+function rateLcp(ms: number): string { if (ms <= 2500) return "good"; if (ms <= 4000) return "needs-improvement"; return "poor"; }
+function rateFcp(ms: number): string { if (ms <= 1800) return "good"; if (ms <= 3000) return "needs-improvement"; return "poor"; }
+function rateCls(val: number): string { if (val <= 0.1) return "good"; if (val <= 0.25) return "needs-improvement"; return "poor"; }
+function rateTbt(ms: number): string { if (ms <= 200) return "good"; if (ms <= 600) return "needs-improvement"; return "poor"; }
+function rateSi(ms: number): string { if (ms <= 3400) return "good"; if (ms <= 5800) return "needs-improvement"; return "poor"; }
+function rateTtfb(ms: number): string { if (ms <= 800) return "good"; if (ms <= 1800) return "needs-improvement"; return "poor"; }
+function rateInp(ms: number): string { if (ms <= 200) return "good"; if (ms <= 500) return "needs-improvement"; return "poor"; }
+
+function formatMs(ms: number): string {
+  if (ms >= 1000) return `${(ms / 1000).toFixed(1)}s`;
+  return `${Math.round(ms)}ms`;
+}
+
+function formatBytes(bytes: number): string {
+  if (bytes >= 1048576) return `${(bytes / 1048576).toFixed(1)} MB`;
+  if (bytes >= 1024) return `${(bytes / 1024).toFixed(0)} KB`;
+  return `${bytes} B`;
+}
+
+interface PsiExtracted {
+  performanceScore: number | null;
+  coreWebVitals: AuditResult["coreWebVitals"];
+  fieldData: AuditResult["fieldData"];
+  lcpElement: string | null;
+  opportunities: { title: string; savings: string }[];
+  resourceBreakdown: ResourceBreakdown | null;
+}
+
+function extractPsiData(psi: PsiData): PsiExtracted {
+  const lighthouse = psi.lighthouseResult;
+  if (!lighthouse) {
+    return { performanceScore: null, coreWebVitals: null, fieldData: null, lcpElement: null, opportunities: [], resourceBreakdown: null };
+  }
+
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const audits: Record<string, any> = lighthouse.audits ?? {};
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const categories: Record<string, any> = lighthouse.categories ?? {};
+
+  // Performance score
+  const perfScore = categories.performance?.score;
+  const performanceScore = typeof perfScore === "number" ? Math.round(perfScore * 100) : null;
+
+  // Lab metrics
+  function labMetric(auditId: string, rateFn: (v: number) => string, unit: "ms" | "raw"): CwvMetric | null {
+    const audit = audits[auditId];
+    if (!audit || audit.numericValue == null) return null;
+    const val = audit.numericValue as number;
+    const displayValue = (audit.displayValue as string) ?? (unit === "ms" ? formatMs(val) : val.toFixed(3));
+    return { value: val, rating: rateFn(val), displayValue };
+  }
+
+  const coreWebVitals: AuditResult["coreWebVitals"] = {
+    lcp: labMetric("largest-contentful-paint", rateLcp, "ms"),
+    fcp: labMetric("first-contentful-paint", rateFcp, "ms"),
+    cls: labMetric("cumulative-layout-shift", rateCls, "raw"),
+    tbt: labMetric("total-blocking-time", rateTbt, "ms"),
+    si: labMetric("speed-index", rateSi, "ms"),
+    ttfb: labMetric("server-response-time", rateTtfb, "ms"),
+  };
+
+  // CrUX field data
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const crux = psi.loadingExperience as Record<string, any> | undefined;
+  let fieldData: AuditResult["fieldData"] = null;
+
+  if (crux?.metrics) {
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    const metrics = crux.metrics as Record<string, any>;
+
+    function fieldMetric(key: string, rateFn: (v: number) => string, unit: "ms" | "raw"): FieldMetric | null {
+      const m = metrics[key];
+      if (!m?.percentile) return null;
+      const p75 = m.percentile as number;
+      const displayValue = unit === "ms" ? formatMs(p75) : p75.toFixed(3);
+      return { p75, rating: rateFn(p75), displayValue };
+    }
+
+    const lcp = fieldMetric("LARGEST_CONTENTFUL_PAINT_MS", rateLcp, "ms");
+    const inp = fieldMetric("INTERACTION_TO_NEXT_PAINT", rateInp, "ms");
+    const cls = fieldMetric("CUMULATIVE_LAYOUT_SHIFT_SCORE", (v) => rateCls(v / 100), "raw");
+    const fcp = fieldMetric("FIRST_CONTENTFUL_PAINT_MS", rateFcp, "ms");
+    const ttfb = fieldMetric("EXPERIMENTAL_TIME_TO_FIRST_BYTE", rateTtfb, "ms");
+
+    if (lcp || inp || cls || fcp || ttfb) {
+      // Fix CLS display for field data (CrUX reports as integer, e.g. 10 = 0.10)
+      const clsFixed = cls ? { ...cls, displayValue: (cls.p75 / 100).toFixed(2) } : null;
+      fieldData = { lcp, inp, cls: clsFixed, fcp, ttfb };
+    }
+  }
+
+  // LCP element
+  const lcpAudit = audits["largest-contentful-paint-element"];
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const lcpFirstItem = lcpAudit?.details?.items?.[0] as Record<string, any> | undefined;
+  const lcpElement = lcpFirstItem?.node?.snippet ?? lcpFirstItem?.node?.nodeLabel ?? null;
+
+  // Opportunities
+  const opportunities: { title: string; savings: string }[] = [];
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const oppRefs = (categories.performance?.auditRefs as Array<Record<string, any>>)?.filter(
+    (ref) => ref.group === "load-opportunities"
+  ) ?? [];
+  for (const ref of oppRefs) {
+    const audit = audits[ref.id as string];
+    if (audit && audit.score !== null && (audit.score as number) < 1 && audit.details?.overallSavingsMs) {
+      opportunities.push({
+        title: (audit.title as string) ?? (ref.id as string),
+        savings: formatMs(audit.details.overallSavingsMs as number) + " potential savings",
+      });
+    }
+  }
+
+  // Resource breakdown
+  let resourceBreakdown: ResourceBreakdown | null = null;
+  const resourceSummary = audits["resource-summary"];
+  if (resourceSummary?.details?.items) {
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    const items = resourceSummary.details.items as Array<Record<string, any>>;
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    const find = (type: string): Record<string, any> | undefined => items.find((i) => i.resourceType === type);
+    const total = find("total");
+    const script = find("script");
+    const stylesheet = find("stylesheet");
+    const image = find("image");
+    const font = find("font");
+    const thirdParty = find("third-party");
+    const jsB = (script?.transferSize as number) ?? 0;
+    const cssB = (stylesheet?.transferSize as number) ?? 0;
+    const imgB = (image?.transferSize as number) ?? 0;
+    const fontB = (font?.transferSize as number) ?? 0;
+    const totalB = (total?.transferSize as number) ?? 0;
+    resourceBreakdown = {
+      totalBytes: totalB,
+      totalRequests: (total?.requestCount as number) ?? 0,
+      jsBytes: jsB,
+      cssBytes: cssB,
+      imageBytes: imgB,
+      fontBytes: fontB,
+      otherBytes: Math.max(0, totalB - jsB - cssB - imgB - fontB),
+      thirdPartyBytes: (thirdParty?.transferSize as number) ?? 0,
+    };
+  }
+
+  return { performanceScore, coreWebVitals, fieldData, lcpElement, opportunities, resourceBreakdown };
+}
+
+/* ------------------------------------------------------------------ */
 /*  Shopify detection                                                  */
 /* ------------------------------------------------------------------ */
 
@@ -119,16 +334,16 @@ function extractJsonLd(html: string): Record<string, unknown>[] {
   let m;
   while ((m = re.exec(html)) !== null) {
     try {
-      const parsed = JSON.parse(m[1]);
-      if (Array.isArray(parsed)) results.push(...parsed);
-      else results.push(parsed);
+      const parsed = JSON.parse(m[1]) as unknown;
+      if (Array.isArray(parsed)) results.push(...(parsed as Record<string, unknown>[]));
+      else results.push(parsed as Record<string, unknown>);
     } catch { /* skip malformed */ }
   }
   return results;
 }
 
 /* ================================================================== */
-/*  CATEGORY 1: Meta Tags & On-Page (weight: 15%)                     */
+/*  CATEGORY 1: Meta Tags & On-Page (weight: 14%)                     */
 /* ================================================================== */
 
 function checkMeta(html: string, pageUrl: string): AuditCheck[] {
@@ -180,7 +395,7 @@ function checkMeta(html: string, pageUrl: string): AuditCheck[] {
       const canonUrl = new URL(canMatch[1].trim());
       const reqUrl = new URL(pageUrl);
       if (canonUrl.pathname === reqUrl.pathname && canonUrl.hostname === reqUrl.hostname) {
-        checks.push({ label: "Canonical tag", status: "pass", detail: `Self-referencing canonical properly set.` });
+        checks.push({ label: "Canonical tag", status: "pass", detail: "Self-referencing canonical properly set." });
       } else {
         checks.push({ label: "Canonical tag", status: "warning", detail: `Canonical points to different URL: ${canMatch[1]}. Verify this is intentional.`, priority: "medium" });
       }
@@ -195,9 +410,9 @@ function checkMeta(html: string, pageUrl: string): AuditCheck[] {
   if (robotsMatch) {
     const content = robotsMatch[1].toLowerCase();
     if (content.includes("noindex")) {
-      checks.push({ label: "Meta robots", status: "fail", detail: `Page is set to noindex. It will NOT appear in search results.`, priority: "critical", howToFix: "Remove noindex from meta robots unless you intentionally want to hide this page from search." });
+      checks.push({ label: "Meta robots", status: "fail", detail: "Page is set to noindex. It will NOT appear in search results.", priority: "critical", howToFix: "Remove noindex from meta robots unless you intentionally want to hide this page from search." });
     } else if (content.includes("nofollow")) {
-      checks.push({ label: "Meta robots", status: "warning", detail: `Page has nofollow. Links won't pass SEO value.`, priority: "high" });
+      checks.push({ label: "Meta robots", status: "warning", detail: "Page has nofollow. Links won't pass SEO value.", priority: "high" });
     } else {
       checks.push({ label: "Meta robots", status: "pass", detail: `Meta robots: "${robotsMatch[1]}" — page is indexable.` });
     }
@@ -236,11 +451,55 @@ function checkMeta(html: string, pageUrl: string): AuditCheck[] {
     checks.push({ label: "Favicon", status: "pass", detail: "Favicon is configured." });
   }
 
+  // URL structure check
+  try {
+    const parsed = new URL(pageUrl);
+    const path = parsed.pathname;
+    const hasUglyParams = parsed.search.length > 50 || /[&?](utm_|gclid|fbclid|ref=)/i.test(parsed.search);
+    const hasCleanSlug = /^\/[a-z0-9\-\/]*$/i.test(path) && path.length < 120;
+    if (hasUglyParams) {
+      checks.push({ label: "URL structure", status: "warning", detail: `URL has tracking or excessive parameters: ${parsed.search.slice(0, 60)}`, priority: "medium", howToFix: "Use canonical tags to point to clean URLs. Strip tracking parameters from canonical URLs." });
+    } else if (!hasCleanSlug && path !== "/") {
+      checks.push({ label: "URL structure", status: "warning", detail: `URL slug contains uppercase, underscores, or special characters: ${path.slice(0, 80)}`, priority: "low", howToFix: "Use lowercase, hyphen-separated slugs (e.g., /collections/summer-sale) for better SEO." });
+    } else {
+      checks.push({ label: "URL structure", status: "pass", detail: `Clean, descriptive URL structure: ${path}` });
+    }
+  } catch {
+    // skip if URL can't be parsed
+  }
+
+  // Meta viewport content validation
+  const viewportMatch = html.match(/<meta[^>]+name=["']viewport["'][^>]*content=["']([^"']*)["']/i)
+    || html.match(/<meta[^>]+content=["']([^"']*)["'][^>]*name=["']viewport["']/i);
+  if (viewportMatch) {
+    const vpContent = viewportMatch[1].toLowerCase();
+    const hasWidth = vpContent.includes("width=device-width");
+    const hasInitialScale = /initial-scale\s*=\s*1/i.test(vpContent);
+    if (hasWidth && hasInitialScale) {
+      checks.push({ label: "Viewport content", status: "pass", detail: "Viewport properly set to width=device-width, initial-scale=1." });
+    } else {
+      const missing = [];
+      if (!hasWidth) missing.push("width=device-width");
+      if (!hasInitialScale) missing.push("initial-scale=1");
+      checks.push({ label: "Viewport content", status: "warning", detail: `Viewport meta tag missing: ${missing.join(", ")}.`, priority: "medium", howToFix: "Set viewport content to 'width=device-width, initial-scale=1' for proper mobile rendering." });
+    }
+  }
+
+  // Duplicate meta tag detection
+  const descTags = [...html.matchAll(/<meta[^>]+name=["']description["']/gi)].length;
+  const titleTags = [...html.matchAll(/<title[^>]*>/gi)].length;
+  if (descTags > 1) {
+    checks.push({ label: "Duplicate meta description", status: "warning", detail: `Found ${descTags} meta description tags. Only the first will be used.`, priority: "high", howToFix: "Remove duplicate meta description tags. Keep only one in your theme's <head>." });
+  }
+  if (titleTags > 1) {
+    checks.push({ label: "Duplicate title tag", status: "warning", detail: `Found ${titleTags} title tags. Only the first will be used.`, priority: "high", howToFix: "Remove duplicate title tags. Ensure only one <title> exists in your theme." });
+  }
+
   return checks;
 }
 
 /* ================================================================== */
-/*  CATEGORY 2: Shopify Technical SEO (weight: 12%)                    */
+/*  CATEGORY 2: Shopify Technical SEO (weight: 11%)                    */
 /* ================================================================== */
 
 function checkShopifyTechnical(
@@ -260,6 +519,17 @@ function checkShopifyTechnical(
     status: "pass",
     detail: shopifyTheme ? `Shopify detected — Theme: "${shopifyTheme}"` : "Shopify detected.",
   });
+
+  // Theme OS 2.0 detection
+  const hasSectionClasses = /class=["'][^"']*section-[a-z]/i.test(html);
+  const hasJsonTemplates = /data-template-type/i.test(html) || /class=["'][^"']*template-/i.test(html);
+  const hasSectionEverywhere = /shopify-section--/i.test(html);
+  const isOs2 = hasSectionClasses || hasJsonTemplates || hasSectionEverywhere;
+  if (isOs2) {
+    checks.push({ label: "Theme OS 2.0", status: "pass", detail: "Online Store 2.0 theme detected — supports sections everywhere and JSON templates." });
+  } else {
+    checks.push({ label: "Theme OS 2.0", status: "warning", detail: "Theme may not be OS 2.0. Consider upgrading for sections everywhere, app blocks, and better performance.", priority: "medium", howToFix: "Migrate to an Online Store 2.0 theme (Dawn, Refresh, etc.) for better flexibility and performance." });
+  }
 
   // Robots.txt
   if (!robotsTxt) {
@@ -293,7 +563,6 @@ function checkShopifyTechnical(
       checks.push({ label: "Sitemap in robots.txt", status: "pass", detail: "Sitemap directive found." });
     }
 
-    // Advanced robots.txt optimization
     const hasFilterRules = /Disallow:\s*\/collections\/.*[?&]/im.test(robotsTxt) || /Disallow:\s*\/\*[?&]/im.test(robotsTxt);
     if (!hasFilterRules) {
       checks.push({ label: "Robots.txt optimization", status: "warning", detail: "Default Shopify robots.txt. Add rules for filter URLs (/collections/*?filter) to prevent crawl waste.", priority: "medium", howToFix: "Customize robots.txt.liquid to block URL parameters like ?sort_by, ?filter, etc." });
@@ -321,7 +590,7 @@ function checkShopifyTechnical(
     }
 
     const hasLastmod = /<lastmod>/i.test(sitemapText);
-    checks.push({ label: "Sitemap lastmod dates", status: hasLastmod ? "pass" : "warning", detail: hasLastmod ? "Sitemap includes lastmod dates." : "Sitemap missing lastmod dates — add them to help crawl prioritization.", priority: hasLastmod ? undefined : "low" });
+    checks.push({ label: "Sitemap lastmod dates", status: hasLastmod ? "pass" : "warning", detail: hasLastmod ? "Sitemap includes lastmod dates." : "Sitemap missing lastmod dates — add them to help crawl prioritization.", ...(hasLastmod ? {} : { priority: "low" as const }) });
   }
 
   // Collections
@@ -363,36 +632,208 @@ function checkShopifyTechnical(
     checks.push({ label: "CDN preconnect", status: "pass", detail: "Preconnect to Shopify CDN is configured." });
   }
 
+  // Shopify app count estimate
+  const scriptSrcs = [...html.matchAll(/<script[^>]+src=["']([^"']+)["']/gi)].map(m => m[1]);
+  const appDomains = new Set<string>();
+  for (const src of scriptSrcs) {
+    try {
+      const u = new URL(src, `https://${storeHost}`);
+      if (u.hostname !== storeHost && !u.hostname.includes("cdn.shopify.com") && !u.hostname.includes("shopify.com")) {
+        appDomains.add(u.hostname);
+      }
+    } catch { /* skip */ }
+  }
+  const appCount = appDomains.size;
+  if (appCount > 8) {
+    checks.push({ label: "Shopify app count (estimated)", status: "fail", detail: `~${appCount} third-party app domains detected. Excessive apps degrade performance.`, priority: "critical", howToFix: "Audit installed apps in Shopify Admin. Remove any app you're not actively using — each adds JS overhead." });
+  } else if (appCount > 4) {
+    checks.push({ label: "Shopify app count (estimated)", status: "warning", detail: `~${appCount} third-party app domains detected. Review for unused apps.`, priority: "high", howToFix: "Go to Shopify Admin → Apps and uninstall apps you no longer need." });
+  } else {
+    checks.push({ label: "Shopify app count (estimated)", status: "pass", detail: `~${appCount} third-party app domains — reasonable.` });
+  }
+
+  // URL parameter handling
+  const hasSortBy = /[?&]sort_by=/i.test(html);
+  const hasVariantParam = /[?&]variant=/i.test(html);
+  const hasFilterParam = /[?&]filter\./i.test(html) || /[?&]q=/i.test(html);
+  const paramIssues: string[] = [];
+  if (hasSortBy) paramIssues.push("?sort_by=");
+  if (hasVariantParam && !hasCanonical) paramIssues.push("?variant= (no canonical)");
+  if (hasFilterParam) paramIssues.push("?filter/q=");
+  if (paramIssues.length > 0) {
+    checks.push({ label: "URL parameter handling", status: "warning", detail: `Crawlable parameter URLs found: ${paramIssues.join(", ")}. These can cause crawl waste.`, priority: "medium", howToFix: "Block parameter URLs in robots.txt or add canonical tags pointing to the parameterless version." });
+  } else {
+    checks.push({ label: "URL parameter handling", status: "pass", detail: "No problematic URL parameters detected in page links." });
+  }
+
   return checks;
 }
 
 /* ================================================================== */
-/*  CATEGORY 3: Page Speed & Performance (weight: 15%)                 */
+/*  CATEGORY 3: Performance (weight: 15%) — PSI-powered                */
 /* ================================================================== */
 
-function checkPerformance(html: string, storeHost: string, responseTimeMs: number): AuditCheck[] {
+function checkPerformancePsi(
+  html: string,
+  storeHost: string,
+  responseTimeMs: number,
+  psiData: PsiExtracted | null
+): AuditCheck[] {
   const checks: AuditCheck[] = [];
+  const hasPsi = psiData !== null && psiData.performanceScore !== null;
 
-  // Response time
-  if (responseTimeMs > 3000) {
-    checks.push({ label: "Server response time (TTFB)", status: "fail", detail: `Response time is ${(responseTimeMs / 1000).toFixed(1)}s — very slow.`, priority: "critical", howToFix: "Reduce server response time. Use Shopify's CDN, minimize app redirects, and reduce liquid template complexity." });
-  } else if (responseTimeMs > 1000) {
-    checks.push({ label: "Server response time (TTFB)", status: "warning", detail: `Response time is ${(responseTimeMs / 1000).toFixed(1)}s. Aim for under 1s.`, priority: "high", howToFix: "Optimize Liquid templates and reduce installed apps to lower TTFB." });
-  } else {
-    checks.push({ label: "Server response time (TTFB)", status: "pass", detail: `Response time is ${(responseTimeMs / 1000).toFixed(1)}s — good.` });
+  if (!hasPsi) {
+    checks.push({ label: "PageSpeed Insights", status: "warning", detail: "PSI data unavailable (timeout or rate limit). Performance checks use HTML analysis only.", priority: "medium" });
   }
 
-  // HTML page size
-  const sizeKB = Math.round(html.length / 1024);
-  if (sizeKB > 500) {
-    checks.push({ label: "HTML document size", status: "fail", detail: `HTML is ${sizeKB}KB — very large. Common cause: excessive Shopify app inline JS.`, priority: "critical", howToFix: "Remove unused Shopify apps, reduce inline scripts, and minimize Liquid output." });
-  } else if (sizeKB > 200) {
-    checks.push({ label: "HTML document size", status: "warning", detail: `HTML is ${sizeKB}KB. Consider reducing inline content.`, priority: "high", howToFix: "Audit your theme for inline CSS/JS and move them to external files." });
-  } else {
-    checks.push({ label: "HTML document size", status: "pass", detail: `HTML is ${sizeKB}KB — acceptable.` });
+  // Lighthouse Performance Score
+  if (hasPsi && psiData!.performanceScore !== null) {
+    const score = psiData!.performanceScore!;
+    if (score >= 90) {
+      checks.push({ label: "Lighthouse Performance Score", status: "pass", detail: `Performance score: ${score}/100 — excellent.` });
+    } else if (score >= 50) {
+      checks.push({ label: "Lighthouse Performance Score", status: "warning", detail: `Performance score: ${score}/100 — needs improvement.`, priority: "high", howToFix: "Improve Core Web Vitals by optimizing images, reducing JS, and fixing render-blocking resources." });
+    } else {
+      checks.push({ label: "Lighthouse Performance Score", status: "fail", detail: `Performance score: ${score}/100 — poor.`, priority: "critical", howToFix: "Your site is significantly slow. Focus on reducing JavaScript, optimizing images, and improving server response time." });
+    }
   }
 
-  // DOM size estimation
+  // CWV metrics from PSI
+  if (hasPsi && psiData!.coreWebVitals) {
+    const cwv = psiData!.coreWebVitals!;
+
+    // LCP
+    if (cwv.lcp) {
+      const status = cwv.lcp.rating === "good" ? "pass" : cwv.lcp.rating === "needs-improvement" ? "warning" : "fail";
+      checks.push({
+        label: "Largest Contentful Paint (LCP)",
+        status,
+        detail: `LCP: ${cwv.lcp.displayValue} (${cwv.lcp.rating}). Good ≤2.5s, Poor >4s.`,
+        ...(status !== "pass" ? { priority: status === "fail" ? "critical" as const : "high" as const, howToFix: "Optimize the LCP element: compress hero images, preload critical resources, reduce server response time." } : {}),
+      });
+    }
+
+    // FCP
+    if (cwv.fcp) {
+      const status = cwv.fcp.rating === "good" ? "pass" : cwv.fcp.rating === "needs-improvement" ? "warning" : "fail";
+      checks.push({
+        label: "First Contentful Paint (FCP)",
+        status,
+        detail: `FCP: ${cwv.fcp.displayValue} (${cwv.fcp.rating}). Good ≤1.8s, Poor >3s.`,
+        ...(status !== "pass" ? { priority: status === "fail" ? "critical" as const : "high" as const, howToFix: "Remove render-blocking resources, inline critical CSS, and preconnect to required origins." } : {}),
+      });
+    }
+
+    // CLS
+    if (cwv.cls) {
+      const status = cwv.cls.rating === "good" ? "pass" : cwv.cls.rating === "needs-improvement" ? "warning" : "fail";
+      checks.push({
+        label: "Cumulative Layout Shift (CLS)",
+        status,
+        detail: `CLS: ${cwv.cls.displayValue} (${cwv.cls.rating}). Good ≤0.1, Poor >0.25.`,
+        ...(status !== "pass" ? { priority: status === "fail" ? "critical" as const : "high" as const, howToFix: "Set explicit width/height on images and videos. Avoid inserting content above existing content." } : {}),
+      });
+    }
+
+    // TBT
+    if (cwv.tbt) {
+      const status = cwv.tbt.rating === "good" ? "pass" : cwv.tbt.rating === "needs-improvement" ? "warning" : "fail";
+      checks.push({
+        label: "Total Blocking Time (TBT)",
+        status,
+        detail: `TBT: ${cwv.tbt.displayValue} (${cwv.tbt.rating}). Good ≤200ms, Poor >600ms.`,
+        ...(status !== "pass" ? { priority: status === "fail" ? "critical" as const : "high" as const, howToFix: "Reduce JavaScript execution time. Split long tasks, defer non-critical JS, and remove unused code." } : {}),
+      });
+    }
+
+    // Speed Index
+    if (cwv.si) {
+      const status = cwv.si.rating === "good" ? "pass" : cwv.si.rating === "needs-improvement" ? "warning" : "fail";
+      checks.push({
+        label: "Speed Index",
+        status,
+        detail: `Speed Index: ${cwv.si.displayValue} (${cwv.si.rating}). Good ≤3.4s, Poor >5.8s.`,
+        ...(status !== "pass" ? { priority: status === "fail" ? "high" as const : "medium" as const, howToFix: "Improve how quickly content is visually rendered. Optimize critical rendering path." } : {}),
+      });
+    }
+
+    // TTFB from PSI
+    if (cwv.ttfb) {
+      const status = cwv.ttfb.rating === "good" ? "pass" : cwv.ttfb.rating === "needs-improvement" ? "warning" : "fail";
+      checks.push({
+        label: "Time to First Byte (TTFB)",
+        status,
+        detail: `TTFB: ${cwv.ttfb.displayValue} (${cwv.ttfb.rating}). Good ≤800ms, Poor >1800ms.`,
+        ...(status !== "pass" ? { priority: status === "fail" ? "critical" as const : "high" as const, howToFix: "Reduce server response time. Minimize Liquid template complexity, reduce installed apps, and leverage Shopify CDN." } : {}),
+      });
+    }
+  } else {
+    // Fallback TTFB from our own fetch
+    if (responseTimeMs > 3000) {
+      checks.push({ label: "Server response time (TTFB)", status: "fail", detail: `Response time is ${(responseTimeMs / 1000).toFixed(1)}s — very slow.`, priority: "critical", howToFix: "Reduce server response time. Use Shopify's CDN, minimize app redirects, and reduce liquid template complexity." });
+    } else if (responseTimeMs > 1000) {
+      checks.push({ label: "Server response time (TTFB)", status: "warning", detail: `Response time is ${(responseTimeMs / 1000).toFixed(1)}s. Aim for under 1s.`, priority: "high", howToFix: "Optimize Liquid templates and reduce installed apps to lower TTFB." });
+    } else {
+      checks.push({ label: "Server response time (TTFB)", status: "pass", detail: `Response time is ${(responseTimeMs / 1000).toFixed(1)}s — good.` });
+    }
+  }
+
+  // CrUX field data summary
+  if (hasPsi && psiData!.fieldData) {
+    const fd = psiData!.fieldData!;
+    const fieldMetrics: string[] = [];
+    if (fd.lcp) fieldMetrics.push(`LCP ${fd.lcp.displayValue}`);
+    if (fd.inp) fieldMetrics.push(`INP ${fd.inp.displayValue}`);
+    if (fd.cls) fieldMetrics.push(`CLS ${fd.cls.displayValue}`);
+    if (fd.fcp) fieldMetrics.push(`FCP ${fd.fcp.displayValue}`);
+    if (fd.ttfb) fieldMetrics.push(`TTFB ${fd.ttfb.displayValue}`);
+    const poorCount = [fd.lcp, fd.inp, fd.cls, fd.fcp, fd.ttfb].filter(m => m?.rating === "poor").length;
+    if (poorCount > 0) {
+      checks.push({ label: "CrUX field data", status: "warning", detail: `Real-user data: ${fieldMetrics.join(", ")}. ${poorCount} metric(s) rated poor.`, priority: "high", howToFix: "Focus on improving the poor field metrics — these reflect actual user experience." });
+    } else {
+      checks.push({ label: "CrUX field data", status: "pass", detail: `Real-user data available: ${fieldMetrics.join(", ")}.` });
+    }
+  }
+
+  // LCP element identification
+  if (hasPsi && psiData!.lcpElement) {
+    checks.push({ label: "LCP element", status: "pass", detail: `LCP element: ${psiData!.lcpElement.slice(0, 120)}` });
+  }
+
+  // Resource total weight
+  if (hasPsi && psiData!.resourceBreakdown) {
+    const rb = psiData!.resourceBreakdown!;
+    if (rb.totalBytes > 5 * 1048576) {
+      checks.push({ label: "Total page weight", status: "fail", detail: `Total page weight: ${formatBytes(rb.totalBytes)} (${rb.totalRequests} requests) — very heavy.`, priority: "critical", howToFix: "Reduce total page weight below 3MB. Compress images, remove unused CSS/JS, and minimize third-party resources." });
+    } else if (rb.totalBytes > 3 * 1048576) {
+      checks.push({ label: "Total page weight", status: "warning", detail: `Total page weight: ${formatBytes(rb.totalBytes)} (${rb.totalRequests} requests). Aim for under 3MB.`, priority: "high", howToFix: "Optimize images, defer non-critical scripts, and audit third-party resources." });
+    } else {
+      checks.push({ label: "Total page weight", status: "pass", detail: `Total page weight: ${formatBytes(rb.totalBytes)} (${rb.totalRequests} requests) — good.` });
+    }
+
+    // JS transfer size
+    if (rb.jsBytes > 1.5 * 1048576) {
+      checks.push({ label: "JavaScript transfer size", status: "fail", detail: `JavaScript: ${formatBytes(rb.jsBytes)} — excessive JS payload.`, priority: "critical", howToFix: "Remove unused Shopify apps, code-split large bundles, and defer non-critical scripts." });
+    } else if (rb.jsBytes > 800 * 1024) {
+      checks.push({ label: "JavaScript transfer size", status: "warning", detail: `JavaScript: ${formatBytes(rb.jsBytes)}. Aim for under 800KB.`, priority: "high", howToFix: "Audit Shopify apps and remove unused ones. Each app adds significant JavaScript overhead." });
+    } else {
+      checks.push({ label: "JavaScript transfer size", status: "pass", detail: `JavaScript: ${formatBytes(rb.jsBytes)} — acceptable.` });
+    }
+
+    // Third-party size + percentage
+    if (rb.thirdPartyBytes > 0 && rb.totalBytes > 0) {
+      const tpPct = Math.round((rb.thirdPartyBytes / rb.totalBytes) * 100);
+      if (rb.thirdPartyBytes > 1 * 1048576 || tpPct > 60) {
+        checks.push({ label: "Third-party transfer size", status: "fail", detail: `Third-party resources: ${formatBytes(rb.thirdPartyBytes)} (${tpPct}% of total) — dominates page weight.`, priority: "critical", howToFix: "Reduce third-party scripts. Remove unused apps and load remaining ones asynchronously." });
+      } else if (rb.thirdPartyBytes > 500 * 1024 || tpPct > 40) {
+        checks.push({ label: "Third-party transfer size", status: "warning", detail: `Third-party resources: ${formatBytes(rb.thirdPartyBytes)} (${tpPct}% of total).`, priority: "high", howToFix: "Review third-party scripts for necessity. Lazy-load non-critical third-party resources." });
+      } else {
+        checks.push({ label: "Third-party transfer size", status: "pass", detail: `Third-party resources: ${formatBytes(rb.thirdPartyBytes)} (${tpPct}% of total).` });
+      }
+    }
+  }
+
+  // DOM size estimation (kept from original)
   const tagCount = (html.match(/<[a-z][^>]*>/gi) || []).length;
   if (tagCount > 2000) {
     checks.push({ label: "DOM size", status: "fail", detail: `Estimated ${tagCount} DOM nodes — too large (recommended: <800).`, priority: "high", howToFix: "Simplify your theme templates. Remove unused sections and reduce nesting depth." });
@@ -402,7 +843,7 @@ function checkPerformance(html: string, storeHost: string, responseTimeMs: numbe
     checks.push({ label: "DOM size", status: "pass", detail: `Estimated ${tagCount} DOM nodes — reasonable.` });
   }
 
-  // External JS
+  // External JS count (kept)
   const scripts = html.match(/<script[^>]+src=["'][^"']+["']/gi) || [];
   const jsCount = scripts.length;
   if (jsCount > 25) {
@@ -413,7 +854,7 @@ function checkPerformance(html: string, storeHost: string, responseTimeMs: numbe
     checks.push({ label: "External JavaScript files", status: "pass", detail: `${jsCount} external JS files — reasonable.` });
   }
 
-  // Third-party script analysis
+  // Third-party script domains analysis (kept)
   const scriptSrcs = [...html.matchAll(/<script[^>]+src=["']([^"']+)["']/gi)].map(m => m[1]);
   const thirdParty = scriptSrcs.filter(src => {
     try {
@@ -422,48 +863,16 @@ function checkPerformance(html: string, storeHost: string, responseTimeMs: numbe
     } catch { return false; }
   });
   const tpCount = thirdParty.length;
-  const estKB = tpCount * 45;
-  const estMs = tpCount * 120;
-  if (tpCount > 10) {
-    checks.push({ label: "Third-party scripts (app bloat)", status: "fail", detail: `${tpCount} third-party scripts (~${estKB}KB, ~${(estMs / 1000).toFixed(1)}s estimated impact). Excessive app bloat.`, priority: "critical", howToFix: "Go to Shopify Admin → Apps and remove any apps you're not actively using." });
-  } else if (tpCount > 5) {
-    checks.push({ label: "Third-party scripts (app bloat)", status: "warning", detail: `${tpCount} third-party scripts (~${estKB}KB, ~${(estMs / 1000).toFixed(1)}s). Review installed apps.`, priority: "high" });
-  } else {
-    checks.push({ label: "Third-party scripts (app bloat)", status: "pass", detail: `${tpCount} third-party scripts — acceptable.` });
-  }
-
-  // Identify top script domains
   const domainCounts: Record<string, number> = {};
   for (const src of thirdParty) {
-    try { domainCounts[new URL(src, `https://${storeHost}`).hostname] = (domainCounts[new URL(src, `https://${storeHost}`).hostname] || 0) + 1; } catch { /* skip */ }
+    try { const h = new URL(src, `https://${storeHost}`).hostname; domainCounts[h] = (domainCounts[h] || 0) + 1; } catch { /* skip */ }
   }
   const topDomains = Object.entries(domainCounts).sort((a, b) => b[1] - a[1]).slice(0, 5);
   if (topDomains.length > 0) {
-    checks.push({ label: "App script sources", status: tpCount > 8 ? "warning" : "pass", detail: `Top script domains: ${topDomains.map(([d, c]) => `${d} (${c})`).join(", ")}` });
+    checks.push({ label: "App script sources", status: tpCount > 8 ? "warning" : "pass", detail: `Top script domains: ${topDomains.map(([d, c]) => `${d} (${c})`).join(", ")}`, ...(tpCount > 8 ? { priority: "medium" as const } : {}) });
   }
 
-  // Image WebP
-  const allImgs = html.match(/<img[^>]+src=["'][^"']+["']/gi) || [];
-  const webpCount = allImgs.filter(img => /\.webp/i.test(img) || /format=webp/i.test(img)).length;
-  const totalImgs = allImgs.length;
-  if (totalImgs > 0) {
-    const pct = Math.round((webpCount / totalImgs) * 100);
-    if (pct < 50) {
-      checks.push({ label: "Image format (WebP)", status: "warning", detail: `Only ${webpCount}/${totalImgs} images use WebP (${pct}%).`, priority: "medium", howToFix: "Shopify CDN supports WebP. Ensure your theme uses .webp format or Shopify's image_url filter with format:'webp'." });
-    } else {
-      checks.push({ label: "Image format (WebP)", status: "pass", detail: `${webpCount}/${totalImgs} images use WebP (${pct}%).` });
-    }
-  }
-
-  // Image lazy loading
-  const lazyCount = (html.match(/loading=["']lazy["']/gi) || []).length;
-  if (totalImgs > 3 && lazyCount < totalImgs / 2) {
-    checks.push({ label: "Image lazy loading", status: "warning", detail: `Only ${lazyCount}/${totalImgs} images use lazy loading.`, priority: "medium", howToFix: "Add loading='lazy' to below-the-fold images. Don't lazy-load the hero/LCP image." });
-  } else {
-    checks.push({ label: "Image lazy loading", status: "pass", detail: `${lazyCount}/${totalImgs} images use lazy loading.` });
-  }
-
-  // Render-blocking resources
+  // Render-blocking resources (kept)
   const headMatch = html.match(/<head[^>]*>([\s\S]*?)<\/head>/i);
   if (headMatch) {
     const head = headMatch[1];
@@ -483,13 +892,34 @@ function checkPerformance(html: string, storeHost: string, responseTimeMs: numbe
     }
   }
 
-  // Inline CSS size
+  // Inline CSS size (kept)
   const inlineStyles = html.match(/<style[^>]*>([\s\S]*?)<\/style>/gi) || [];
   const inlineCssKB = Math.round(inlineStyles.reduce((sum, s) => sum + s.length, 0) / 1024);
   if (inlineCssKB > 50) {
     checks.push({ label: "Inline CSS size", status: "warning", detail: `${inlineCssKB}KB of inline CSS. Consider extracting to external stylesheets for caching.`, priority: "medium", howToFix: "Move large inline <style> blocks to external CSS files that can be cached by the browser." });
   } else {
     checks.push({ label: "Inline CSS size", status: "pass", detail: `${inlineCssKB}KB inline CSS — acceptable.` });
+  }
+
+  // Image format WebP check
+  const allImgs = html.match(/<img[^>]+src=["'][^"']+["']/gi) || [];
+  const webpCount = allImgs.filter(img => /\.webp/i.test(img) || /format=webp/i.test(img) || /format%3Dwebp/i.test(img)).length;
+  const totalImgs = allImgs.length;
+  if (totalImgs > 0) {
+    const pct = Math.round((webpCount / totalImgs) * 100);
+    if (pct < 50) {
+      checks.push({ label: "Image format (WebP)", status: "warning", detail: `Only ${webpCount}/${totalImgs} images use WebP (${pct}%).`, priority: "medium", howToFix: "Shopify CDN supports WebP. Ensure your theme uses .webp format or Shopify's image_url filter with format:'webp'." });
+    } else {
+      checks.push({ label: "Image format (WebP)", status: "pass", detail: `${webpCount}/${totalImgs} images use WebP (${pct}%).` });
+    }
+  }
+
+  // Image lazy loading check
+  const lazyCount = (html.match(/loading=["']lazy["']/gi) || []).length;
+  if (totalImgs > 3 && lazyCount < totalImgs / 2) {
+    checks.push({ label: "Image lazy loading", status: "warning", detail: `Only ${lazyCount}/${totalImgs} images use lazy loading.`, priority: "medium", howToFix: "Add loading='lazy' to below-the-fold images. Don't lazy-load the hero/LCP image." });
+  } else {
+    checks.push({ label: "Image lazy loading", status: "pass", detail: `${lazyCount}/${totalImgs} images use lazy loading.` });
   }
 
   return checks;
@@ -502,30 +932,79 @@ function checkPerformance(html: string, storeHost: string, responseTimeMs: numbe
 function checkStructuredData(jsonLd: Record<string, unknown>[], html: string): AuditCheck[] {
   const checks: AuditCheck[] = [];
 
+  // JSON-LD syntax validation — check for malformed blocks
+  const jsonLdBlocks = [...html.matchAll(/<script[^>]+type=["']application\/ld\+json["'][^>]*>([\s\S]*?)<\/script>/gi)];
+  let malformedCount = 0;
+  for (const block of jsonLdBlocks) {
+    try { JSON.parse(block[1]); } catch { malformedCount++; }
+  }
+  if (malformedCount > 0) {
+    checks.push({ label: "JSON-LD syntax validation", status: "fail", detail: `${malformedCount} JSON-LD block(s) have invalid JSON syntax.`, priority: "critical", howToFix: "Fix the malformed JSON-LD. Use Google's Rich Results Test to validate your structured data." });
+  } else if (jsonLdBlocks.length > 0) {
+    checks.push({ label: "JSON-LD syntax validation", status: "pass", detail: `${jsonLdBlocks.length} JSON-LD block(s) all have valid syntax.` });
+  }
+
   if (jsonLd.length === 0) {
     checks.push({ label: "JSON-LD presence", status: "warning", detail: "No JSON-LD structured data found.", priority: "high", howToFix: "Add JSON-LD structured data for Product, Organization, and BreadcrumbList schemas." });
   } else {
     checks.push({ label: "JSON-LD presence", status: "pass", detail: `${jsonLd.length} JSON-LD block(s) found.` });
   }
 
-  // Product schema
+  // Product schema — rich result eligibility
   const product = jsonLd.find(item => item["@type"] === "Product");
   if (!product) {
     checks.push({ label: "Product schema", status: "warning", detail: "No Product schema found. Expected on product pages for rich results.", priority: "high", howToFix: "Add Product schema with name, image, description, price, availability. Most Shopify themes include this." });
   } else {
-    const fields = ["name", "image", "description"];
+    // Google-required fields for rich results: name, image, offers.price, offers.priceCurrency, offers.availability
     const offers = product.offers as Record<string, unknown> | Record<string, unknown>[] | undefined;
     const singleOffer = Array.isArray(offers) ? undefined : offers;
     const firstOffer = Array.isArray(offers) ? (offers[0] as Record<string, unknown> | undefined) : undefined;
-    const missing = fields.filter(f => !product[f]);
-    if (!(singleOffer?.price || singleOffer?.lowPrice || firstOffer?.price)) missing.push("offers.price");
-    if (!(singleOffer?.availability || firstOffer?.availability)) missing.push("offers.availability");
+    const activeOffer = singleOffer ?? firstOffer;
 
-    if (missing.length === 0) {
-      checks.push({ label: "Product schema", status: "pass", detail: "Product schema has all key fields: name, image, description, price, availability." });
+    const richResultMissing: string[] = [];
+    if (!product.name) richResultMissing.push("name");
+    if (!product.image) richResultMissing.push("image");
+    if (!(activeOffer?.price || activeOffer?.lowPrice)) richResultMissing.push("offers.price");
+    if (!activeOffer?.priceCurrency) richResultMissing.push("offers.priceCurrency");
+    if (!activeOffer?.availability) richResultMissing.push("offers.availability");
+
+    if (richResultMissing.length === 0) {
+      checks.push({ label: "Product rich result eligibility", status: "pass", detail: "Product schema has all Google-required fields: name, image, price, currency, availability." });
     } else {
-      checks.push({ label: "Product schema", status: "warning", detail: `Product schema missing: ${missing.join(", ")}.`, priority: "high", howToFix: `Add the missing fields (${missing.join(", ")}) to your Product JSON-LD for rich result eligibility.` });
+      checks.push({ label: "Product rich result eligibility", status: "warning", detail: `Product schema missing required fields for rich results: ${richResultMissing.join(", ")}.`, priority: "high", howToFix: `Add the missing fields (${richResultMissing.join(", ")}) to your Product JSON-LD for Google rich result eligibility.` });
     }
+
+    // Merchant listing check (brand + GTIN/MPN/SKU)
+    const hasBrand = !!product.brand;
+    const hasGtin = !!(product.gtin || product.gtin13 || product.gtin12 || product.gtin8 || product.gtin14 || product.isbn);
+    const hasMpn = !!product.mpn;
+    const hasSku = !!product.sku;
+    const hasIdentifier = hasGtin || hasMpn || hasSku;
+    if (hasBrand && hasIdentifier) {
+      checks.push({ label: "Product merchant listing", status: "pass", detail: "Product has brand and identifier (GTIN/MPN/SKU) — eligible for merchant listings." });
+    } else {
+      const missing = [];
+      if (!hasBrand) missing.push("brand");
+      if (!hasIdentifier) missing.push("GTIN/MPN/SKU");
+      checks.push({ label: "Product merchant listing", status: "warning", detail: `Product missing ${missing.join(" and ")} for merchant listing eligibility.`, priority: "medium", howToFix: "Add brand and at least one product identifier (GTIN, MPN, or SKU) to your Product schema." });
+    }
+
+    // Offers price format validation
+    if (activeOffer?.price) {
+      const price = String(activeOffer.price);
+      const validFormat = /^\d+(\.\d{1,2})?$/.test(price);
+      if (!validFormat) {
+        checks.push({ label: "Offers price format", status: "warning", detail: `Price format may be invalid: "${price}". Use numeric format like "29.99".`, priority: "medium", howToFix: "Ensure offers.price is a numeric value without currency symbols (e.g., '29.99', not '$29.99')." });
+      } else {
+        checks.push({ label: "Offers price format", status: "pass", detail: `Price format is valid: ${price}${activeOffer.priceCurrency ? ` ${activeOffer.priceCurrency}` : ""}.` });
+      }
+    }
+  }
+
+  // Multiple JSON-LD conflict detection — multiple Product schemas
+  const productSchemas = jsonLd.filter(item => item["@type"] === "Product");
+  if (productSchemas.length > 1) {
+    checks.push({ label: "Multiple Product schemas", status: "warning", detail: `${productSchemas.length} Product JSON-LD blocks found. This may confuse search engines.`, priority: "high", howToFix: "Consolidate to a single Product JSON-LD block per page. Remove duplicates from theme and apps." });
   }
 
   // BreadcrumbList
@@ -573,17 +1052,33 @@ function checkStructuredData(jsonLd: Record<string, unknown>[], html: string): A
     checks.push({ label: "FAQ schema", status: "pass", detail: "FAQPage schema found." });
   }
 
+  // ItemList schema for collections
+  const hasItemList = jsonLd.some(item => item["@type"] === "ItemList");
+  const isCollectionPage = /\/collections\//i.test(html) || /class=["'][^"']*collection/i.test(html);
+  if (isCollectionPage && !hasItemList) {
+    checks.push({ label: "ItemList schema", status: "warning", detail: "Collection page detected but no ItemList schema. Add it for rich carousel results.", priority: "low", howToFix: "Add ItemList JSON-LD with ListItem entries for products in the collection." });
+  } else if (hasItemList) {
+    checks.push({ label: "ItemList schema", status: "pass", detail: "ItemList schema found for collection/list content." });
+  }
+
+  // Microdata detection (warn to prefer JSON-LD)
+  const hasMicrodata = /itemscope\s+itemtype/i.test(html);
+  if (hasMicrodata && jsonLd.length > 0) {
+    checks.push({ label: "Microdata vs JSON-LD", status: "warning", detail: "Both Microdata and JSON-LD detected. Prefer JSON-LD only to avoid conflicts.", priority: "low", howToFix: "Remove Microdata attributes (itemscope, itemtype, itemprop) and use JSON-LD exclusively." });
+  } else if (hasMicrodata && jsonLd.length === 0) {
+    checks.push({ label: "Microdata vs JSON-LD", status: "warning", detail: "Using Microdata instead of JSON-LD. Google recommends JSON-LD for structured data.", priority: "medium", howToFix: "Migrate from Microdata to JSON-LD format. JSON-LD is easier to maintain and is Google's preferred format." });
+  }
+
   return checks;
 }
 
 /* ================================================================== */
-/*  CATEGORY 5: Content Quality (weight: 12%) — NEW                    */
+/*  CATEGORY 5: Content Quality (weight: 11%)                          */
 /* ================================================================== */
 
 function checkContent(html: string): AuditCheck[] {
   const checks: AuditCheck[] = [];
 
-  // Strip HTML to get text content
   const textContent = html.replace(/<script[^>]*>[\s\S]*?<\/script>/gi, "")
     .replace(/<style[^>]*>[\s\S]*?<\/style>/gi, "")
     .replace(/<[^>]+>/g, " ")
@@ -592,7 +1087,6 @@ function checkContent(html: string): AuditCheck[] {
   const words = textContent.split(/\s+/).filter(w => w.length > 1);
   const wordCount = words.length;
 
-  // Word count
   if (wordCount < 100) {
     checks.push({ label: "Word count", status: "fail", detail: `Very little content (${wordCount} words). Thin content hurts rankings.`, priority: "critical", howToFix: "Add substantive content — at least 300 words for product pages, 500+ for collection pages." });
   } else if (wordCount < 300) {
@@ -601,7 +1095,6 @@ function checkContent(html: string): AuditCheck[] {
     checks.push({ label: "Word count", status: "pass", detail: `Page has ${wordCount} words — good content depth.` });
   }
 
-  // Text-to-HTML ratio
   const textBytes = textContent.length;
   const htmlBytes = html.length;
   const ratio = Math.round((textBytes / htmlBytes) * 100);
@@ -613,7 +1106,6 @@ function checkContent(html: string): AuditCheck[] {
     checks.push({ label: "Text-to-HTML ratio", status: "pass", detail: `Text-to-HTML ratio: ${ratio}% — good.` });
   }
 
-  // Internal links
   const allLinks = [...html.matchAll(/<a[^>]+href=["']([^"']+)["']/gi)];
   const internalLinks = allLinks.filter(m => {
     const href = m[1];
@@ -625,14 +1117,12 @@ function checkContent(html: string): AuditCheck[] {
     checks.push({ label: "Internal links", status: "pass", detail: `${internalLinks} internal links found — good for navigation and SEO.` });
   }
 
-  // External links
   const externalLinks = allLinks.filter(m => {
     const href = m[1];
     return /^https?:\/\//i.test(href) && !href.startsWith("#");
   }).length;
   checks.push({ label: "External links", status: "pass", detail: `${externalLinks} external links found.` });
 
-  // Link density
   const linksPer100 = wordCount > 0 ? Math.round((allLinks.length / wordCount) * 10000) / 100 : 0;
   if (linksPer100 > 5) {
     checks.push({ label: "Link density", status: "warning", detail: `High link density: ${linksPer100} links per 100 words (max 5). May appear spammy.`, priority: "medium", howToFix: "Reduce the number of links or increase content to lower the link-to-text ratio." });
@@ -640,7 +1130,6 @@ function checkContent(html: string): AuditCheck[] {
     checks.push({ label: "Link density", status: "pass", detail: `Link density: ${linksPer100} per 100 words — acceptable.` });
   }
 
-  // Image alt texts
   const imgs = html.match(/<img[^>]*>/gi) || [];
   const totalImgCount = imgs.length;
   if (totalImgCount > 0) {
@@ -655,7 +1144,6 @@ function checkContent(html: string): AuditCheck[] {
     }
   }
 
-  // Heading count
   const headingCount = (html.match(/<h[2-6][^>]*>/gi) || []).length;
   if (headingCount === 0 && wordCount > 200) {
     checks.push({ label: "Content structure", status: "warning", detail: "No subheadings (H2-H6) found. Add headings to structure your content.", priority: "medium", howToFix: "Break your content into sections with H2 and H3 subheadings containing relevant keywords." });
@@ -667,7 +1155,7 @@ function checkContent(html: string): AuditCheck[] {
 }
 
 /* ================================================================== */
-/*  CATEGORY 6: Security & Headers (weight: 10%) — NEW                 */
+/*  CATEGORY 6: Security & Headers (weight: 8%)                        */
 /* ================================================================== */
 
 function checkSecurity(headers: Headers, html: string, pageUrl: string): AuditCheck[] {
@@ -730,24 +1218,38 @@ function checkSecurity(headers: Headers, html: string, pageUrl: string): AuditCh
     checks.push({ label: "Mixed content", status: "pass", detail: "No mixed content issues detected." });
   }
 
+  // Permissions-Policy header
+  const permPolicy = headers.get("permissions-policy");
+  if (!permPolicy) {
+    checks.push({ label: "Permissions-Policy header", status: "warning", detail: "No Permissions-Policy header. Consider restricting browser features (camera, microphone, geolocation).", priority: "low", howToFix: "Add a Permissions-Policy header to control which browser features third-party scripts can access." });
+  } else {
+    checks.push({ label: "Permissions-Policy header", status: "pass", detail: "Permissions-Policy header is configured." });
+  }
+
+  // Referrer-Policy header
+  const referrerPolicy = headers.get("referrer-policy");
+  if (!referrerPolicy) {
+    checks.push({ label: "Referrer-Policy header", status: "warning", detail: "No Referrer-Policy header. Browser will use default (may leak URLs to third parties).", priority: "low", howToFix: "Add 'Referrer-Policy: strict-origin-when-cross-origin' for a good balance of privacy and analytics." });
+  } else {
+    checks.push({ label: "Referrer-Policy header", status: "pass", detail: `Referrer-Policy: ${referrerPolicy}` });
+  }
+
   return checks;
 }
 
 /* ================================================================== */
-/*  CATEGORY 7: Mobile Optimization (weight: 8%)                       */
+/*  CATEGORY 7: Mobile Optimization (weight: 7%)                       */
 /* ================================================================== */
 
 function checkMobile(html: string): AuditCheck[] {
   const checks: AuditCheck[] = [];
 
-  // Viewport
   const hasViewport = /<meta[^>]+name=["']viewport["']/i.test(html);
   checks.push(hasViewport
     ? { label: "Viewport meta tag", status: "pass", detail: "Viewport meta tag is properly configured." }
     : { label: "Viewport meta tag", status: "fail", detail: "No viewport meta tag. Page won't render properly on mobile.", priority: "critical", howToFix: "Add <meta name='viewport' content='width=device-width, initial-scale=1'> in <head>." }
   );
 
-  // Touch target sizing (basic check)
   const smallButtons = html.match(/(?:padding|height):\s*(?:0|[1-9]|1[0-5])px/gi) || [];
   if (smallButtons.length > 5) {
     checks.push({ label: "Touch target sizing", status: "warning", detail: "Multiple elements with small dimensions detected. Ensure tap targets are at least 44x44px.", priority: "medium", howToFix: "Set minimum padding and height on buttons, links, and form elements for mobile touch targets." });
@@ -755,7 +1257,6 @@ function checkMobile(html: string): AuditCheck[] {
     checks.push({ label: "Touch target sizing", status: "pass", detail: "No obvious touch target issues detected." });
   }
 
-  // Font size check
   const smallFonts = html.match(/font-size:\s*(?:[0-9]|1[01])px/gi) || [];
   if (smallFonts.length > 3) {
     checks.push({ label: "Mobile font sizes", status: "warning", detail: `${smallFonts.length} CSS rules with fonts under 12px. Use 16px+ for body text.`, priority: "medium", howToFix: "Increase base font size to 16px minimum. Use relative units (rem, em) instead of px." });
@@ -763,7 +1264,6 @@ function checkMobile(html: string): AuditCheck[] {
     checks.push({ label: "Mobile font sizes", status: "pass", detail: "Font sizes appear mobile-friendly." });
   }
 
-  // Responsive images
   const imgsWithSrcset = (html.match(/srcset=/gi) || []).length;
   const totalImgs = (html.match(/<img[^>]*>/gi) || []).length;
   if (totalImgs > 5 && imgsWithSrcset < totalImgs * 0.3) {
@@ -776,23 +1276,22 @@ function checkMobile(html: string): AuditCheck[] {
 }
 
 /* ================================================================== */
-/*  CATEGORY 8: Links & Navigation (weight: 10%) — NEW                */
+/*  CATEGORY 8: Links & Navigation (weight: 8%)                        */
 /* ================================================================== */
 
 function checkLinks(html: string, storeHost: string): AuditCheck[] {
   const checks: AuditCheck[] = [];
+  void storeHost; // used for context only
 
   const allLinks = [...html.matchAll(/<a[^>]+href=["']([^"']+)["']/gi)];
   const totalLinks = allLinks.length;
 
-  // Total link count
   if (totalLinks > 150) {
     checks.push({ label: "Total link count", status: "warning", detail: `${totalLinks} links on page — excessive. May dilute PageRank.`, priority: "medium", howToFix: "Reduce the number of links in navigation, footer, and content to under 100." });
   } else {
     checks.push({ label: "Total link count", status: "pass", detail: `${totalLinks} links on page.` });
   }
 
-  // Nofollow analysis
   const nofollowLinks = [...html.matchAll(/<a[^>]+rel=["'][^"']*nofollow[^"']*["']/gi)].length;
   if (nofollowLinks > totalLinks * 0.3 && totalLinks > 10) {
     checks.push({ label: "Nofollow links", status: "warning", detail: `${nofollowLinks}/${totalLinks} links are nofollow (${Math.round(nofollowLinks / totalLinks * 100)}%). Too many nofollows may waste link equity.`, priority: "low" });
@@ -800,7 +1299,6 @@ function checkLinks(html: string, storeHost: string): AuditCheck[] {
     checks.push({ label: "Nofollow links", status: "pass", detail: `${nofollowLinks} nofollow links — appropriate.` });
   }
 
-  // Empty/invalid href
   const emptyHrefs = allLinks.filter(m => m[1] === "#" || m[1] === "" || m[1] === "javascript:void(0)").length;
   if (emptyHrefs > 5) {
     checks.push({ label: "Invalid link hrefs", status: "warning", detail: `${emptyHrefs} links with empty or # href values.`, priority: "medium", howToFix: "Replace '#' and 'javascript:void(0)' links with proper URLs or use <button> elements." });
@@ -808,7 +1306,6 @@ function checkLinks(html: string, storeHost: string): AuditCheck[] {
     checks.push({ label: "Invalid link hrefs", status: "pass", detail: `${emptyHrefs} empty/placeholder links — acceptable.` });
   }
 
-  // Anchor text quality
   const genericAnchors = allLinks.filter(m => {
     const tag = m[0];
     const textMatch = tag.match(/>([^<]*)</);
@@ -821,7 +1318,6 @@ function checkLinks(html: string, storeHost: string): AuditCheck[] {
     checks.push({ label: "Anchor text quality", status: "pass", detail: "Anchor text is generally descriptive." });
   }
 
-  // Navigation structure
   const hasNav = /<nav/i.test(html);
   const hasBreadcrumb = /breadcrumb/i.test(html);
   if (!hasNav) {
@@ -839,13 +1335,12 @@ function checkLinks(html: string, storeHost: string): AuditCheck[] {
 }
 
 /* ================================================================== */
-/*  CATEGORY 9: Social & Sharing (weight: 5%) — NEW                    */
+/*  CATEGORY 9: Social & Sharing (weight: 4%)                          */
 /* ================================================================== */
 
 function checkSocial(html: string): AuditCheck[] {
   const checks: AuditCheck[] = [];
 
-  // Open Graph
   const ogTitle = /<meta[^>]+property=["']og:title["']/i.test(html);
   const ogDesc = /<meta[^>]+property=["']og:description["']/i.test(html);
   const ogImage = /<meta[^>]+property=["']og:image["']/i.test(html);
@@ -859,14 +1354,12 @@ function checkSocial(html: string): AuditCheck[] {
     checks.push({ label: "Open Graph tags", status: "fail", detail: `Missing ${missing.length} OG tags: ${missing.join(", ")}. Social sharing will look broken.`, priority: "high", howToFix: "Add all Open Graph meta tags (og:title, og:description, og:image, og:type) to your Shopify theme." });
   }
 
-  // Twitter Card
   const twitterCard = /<meta[^>]+name=["']twitter:card["']/i.test(html);
   checks.push(twitterCard
     ? { label: "Twitter Card", status: "pass", detail: "Twitter Card meta tag found." }
     : { label: "Twitter Card", status: "warning", detail: "No twitter:card meta tag. Add one for better Twitter/X sharing.", priority: "low", howToFix: "Add <meta name='twitter:card' content='summary_large_image'> to your theme." }
   );
 
-  // Social profiles in page
   const socialPlatforms = ["facebook", "instagram", "twitter", "tiktok", "pinterest", "youtube", "linkedin"].filter(
     platform => new RegExp(`(${platform}\\.com|${platform}\\.co)`, "i").test(html)
   );
@@ -880,13 +1373,12 @@ function checkSocial(html: string): AuditCheck[] {
 }
 
 /* ================================================================== */
-/*  CATEGORY 10: Accessibility (weight: 5%) — NEW                      */
+/*  CATEGORY 10: Accessibility (weight: 4%)                            */
 /* ================================================================== */
 
 function checkAccessibility(html: string): AuditCheck[] {
   const checks: AuditCheck[] = [];
 
-  // ARIA landmarks
   const hasMain = /<main/i.test(html);
   const hasHeader = /<header/i.test(html);
   const hasFooter = /<footer/i.test(html);
@@ -897,14 +1389,12 @@ function checkAccessibility(html: string): AuditCheck[] {
     checks.push({ label: "ARIA landmarks", status: "pass", detail: "All key landmark elements found (main, header, footer)." });
   }
 
-  // Skip navigation
   const hasSkipNav = /skip[- ]?(to[- ]?)?(main|content|nav)/i.test(html);
   checks.push(hasSkipNav
     ? { label: "Skip navigation link", status: "pass", detail: "Skip-to-content link found." }
     : { label: "Skip navigation link", status: "warning", detail: "No skip-to-content link found. Important for keyboard navigation.", priority: "low", howToFix: "Add a visually hidden 'Skip to content' link as the first element inside <body>." }
   );
 
-  // Form labels
   const inputs = html.match(/<input[^>]+type=["'](?:text|email|tel|password|search|number)["'][^>]*>/gi) || [];
   const unlabeled = inputs.filter(input => {
     const hasAriaLabel = /aria-label/i.test(input);
@@ -918,12 +1408,166 @@ function checkAccessibility(html: string): AuditCheck[] {
     checks.push({ label: "Form input labels", status: "pass", detail: "All form inputs have labels." });
   }
 
-  // Color contrast (basic heuristic)
   const hasLightOnLight = /color:\s*#(?:f[0-9a-f]{5}|e[0-9a-f]{5}|d[0-9a-f]{5}).*background(?:-color)?:\s*#(?:f[0-9a-f]{5}|e[0-9a-f]{5})/i.test(html);
   if (hasLightOnLight) {
     checks.push({ label: "Color contrast", status: "warning", detail: "Possible low-contrast text detected (light text on light background).", priority: "low", howToFix: "Ensure text has at least 4.5:1 contrast ratio against its background (WCAG AA)." });
   } else {
     checks.push({ label: "Color contrast", status: "pass", detail: "No obvious contrast issues detected (basic check only)." });
+  }
+
+  return checks;
+}
+
+/* ================================================================== */
+/*  CATEGORY 11: International SEO (weight: 5%)                        */
+/* ================================================================== */
+
+function checkInternational(html: string): AuditCheck[] {
+  const checks: AuditCheck[] = [];
+
+  // Hreflang tags presence
+  const hreflangTags = [...html.matchAll(/<link[^>]+hreflang=["']([^"']+)["'][^>]*href=["']([^"']+)["']/gi)];
+  const hreflangCount = hreflangTags.length;
+
+  if (hreflangCount === 0) {
+    checks.push({ label: "Hreflang tags", status: "warning", detail: "No hreflang tags found. Add them if you target multiple languages or regions.", priority: "medium", howToFix: "Add <link rel='alternate' hreflang='en' href='...'> for each language/region version of your store." });
+  } else {
+    checks.push({ label: "Hreflang tags", status: "pass", detail: `${hreflangCount} hreflang tag(s) found for multi-language/region targeting.` });
+
+    // Hreflang self-reference check
+    const hreflangs = hreflangTags.map(m => ({ lang: m[1], href: m[2] }));
+    const canonicalMatch = html.match(/<link[^>]+rel=["']canonical["'][^>]*href=["']([^"']+)["']/i)
+      || html.match(/<link[^>]+href=["']([^"']+)["'][^>]*rel=["']canonical["']/i);
+    if (canonicalMatch) {
+      const canonUrl = canonicalMatch[1].trim();
+      const hasSelfRef = hreflangs.some(h => h.href.trim() === canonUrl);
+      if (!hasSelfRef) {
+        checks.push({ label: "Hreflang self-reference", status: "warning", detail: "Hreflang tags present but no self-referencing hreflang for the current page URL.", priority: "medium", howToFix: "Include a hreflang tag pointing to the current page's canonical URL for its language." });
+      } else {
+        checks.push({ label: "Hreflang self-reference", status: "pass", detail: "Hreflang self-reference correctly set." });
+      }
+    }
+
+    // Hreflang x-default check
+    const hasXDefault = hreflangs.some(h => h.lang.toLowerCase() === "x-default");
+    if (!hasXDefault) {
+      checks.push({ label: "Hreflang x-default", status: "warning", detail: "No hreflang x-default tag. Add one as fallback for users with no matching locale.", priority: "low", howToFix: "Add <link rel='alternate' hreflang='x-default' href='...'> pointing to your primary/default store URL." });
+    } else {
+      checks.push({ label: "Hreflang x-default", status: "pass", detail: "Hreflang x-default fallback is configured." });
+    }
+  }
+
+  // Multi-currency detection (Shopify Markets)
+  const hasMultiCurrency = /Shopify\.currency/i.test(html) || /data-currency/i.test(html) || /currency[_-]?selector/i.test(html) || /shopify-markets/i.test(html);
+  const hasCountrySelector = /country[_-]?selector/i.test(html) || /locale[_-]?selector/i.test(html) || /market[_-]?selector/i.test(html);
+  if (hasMultiCurrency || hasCountrySelector) {
+    checks.push({ label: "Multi-currency / Markets", status: "pass", detail: `${hasMultiCurrency ? "Multi-currency" : ""}${hasMultiCurrency && hasCountrySelector ? " and " : ""}${hasCountrySelector ? "locale selector" : ""} detected — Shopify Markets likely active.` });
+  } else {
+    checks.push({ label: "Multi-currency / Markets", status: "warning", detail: "No multi-currency or locale selector detected. If you sell internationally, enable Shopify Markets.", priority: "low", howToFix: "Enable Shopify Markets in Admin → Settings → Markets to serve localized content and currencies." });
+  }
+
+  // Language meta tags
+  const langMatch = html.match(/<html[^>]+lang=["']([^"']+)["']/i);
+  const contentLang = html.match(/<meta[^>]+http-equiv=["']content-language["'][^>]*content=["']([^"']+)["']/i)
+    || html.match(/<meta[^>]+content=["']([^"']+)["'][^>]*http-equiv=["']content-language["']/i);
+  if (langMatch && contentLang) {
+    checks.push({ label: "Language meta tags", status: "pass", detail: `HTML lang="${langMatch[1]}" and content-language="${contentLang[1]}" both set.` });
+  } else if (langMatch) {
+    checks.push({ label: "Language meta tags", status: "pass", detail: `HTML lang="${langMatch[1]}" is set. Content-Language meta tag is optional.` });
+  } else {
+    checks.push({ label: "Language meta tags", status: "warning", detail: "No HTML lang attribute found. Specify the page language.", priority: "medium", howToFix: "Add lang='en' (or your language) to the <html> element." });
+  }
+
+  return checks;
+}
+
+/* ================================================================== */
+/*  CATEGORY 12: Image Optimization (weight: 5%)                       */
+/* ================================================================== */
+
+function checkImages(html: string): AuditCheck[] {
+  const checks: AuditCheck[] = [];
+
+  const imgs = html.match(/<img[^>]*>/gi) || [];
+  const totalImgCount = imgs.length;
+
+  // Total image count
+  checks.push({ label: "Total image count", status: "pass", detail: `${totalImgCount} images found on page.` });
+
+  if (totalImgCount === 0) return checks;
+
+  // WebP/AVIF format usage
+  const modernFormatCount = imgs.filter(img =>
+    /\.webp/i.test(img) || /format=webp/i.test(img) || /format%3Dwebp/i.test(img) ||
+    /\.avif/i.test(img) || /format=avif/i.test(img)
+  ).length;
+  const modernPct = Math.round((modernFormatCount / totalImgCount) * 100);
+  if (modernPct < 30) {
+    checks.push({ label: "Modern image formats (WebP/AVIF)", status: "warning", detail: `Only ${modernFormatCount}/${totalImgCount} images (${modernPct}%) use WebP or AVIF.`, priority: "high", howToFix: "Use Shopify's image_url filter with format:'webp' to serve next-gen image formats automatically." });
+  } else if (modernPct < 70) {
+    checks.push({ label: "Modern image formats (WebP/AVIF)", status: "warning", detail: `${modernFormatCount}/${totalImgCount} images (${modernPct}%) use WebP or AVIF. Aim for 70%+.`, priority: "medium", howToFix: "Ensure all theme images use Shopify's image_url filter with format:'webp'." });
+  } else {
+    checks.push({ label: "Modern image formats (WebP/AVIF)", status: "pass", detail: `${modernFormatCount}/${totalImgCount} images (${modernPct}%) use modern formats.` });
+  }
+
+  // Lazy loading coverage
+  const lazyCount = imgs.filter(img => /loading=["']lazy["']/i.test(img)).length;
+  // Hero image should NOT be lazy-loaded, so ideal is (total - 1) or more
+  const expectedLazy = Math.max(0, totalImgCount - 2); // allow 1-2 above-fold images
+  if (totalImgCount > 3) {
+    if (lazyCount < expectedLazy * 0.5) {
+      checks.push({ label: "Image lazy loading coverage", status: "warning", detail: `Only ${lazyCount}/${totalImgCount} images use loading='lazy'. Most below-fold images should be lazy-loaded.`, priority: "medium", howToFix: "Add loading='lazy' to all below-the-fold images. Keep loading='eager' or omit it for the hero/LCP image." });
+    } else {
+      checks.push({ label: "Image lazy loading coverage", status: "pass", detail: `${lazyCount}/${totalImgCount} images use lazy loading — good coverage.` });
+    }
+  } else {
+    checks.push({ label: "Image lazy loading coverage", status: "pass", detail: `${lazyCount}/${totalImgCount} images use lazy loading. Few images on page.` });
+  }
+
+  // Missing alt text percentage
+  const missingAlt = imgs.filter(img => !/alt=/i.test(img) || /alt=["']\s*["']/i.test(img)).length;
+  const missingAltPct = Math.round((missingAlt / totalImgCount) * 100);
+  if (missingAlt > 0) {
+    if (missingAltPct > 50) {
+      checks.push({ label: "Missing alt text", status: "fail", detail: `${missingAlt}/${totalImgCount} images (${missingAltPct}%) have no alt text. Critical for accessibility and image SEO.`, priority: "high", howToFix: "Add descriptive alt text to every image. In Shopify Admin, edit product/collection images to add alt text." });
+    } else {
+      checks.push({ label: "Missing alt text", status: "warning", detail: `${missingAlt}/${totalImgCount} images (${missingAltPct}%) missing alt text.`, priority: "medium", howToFix: "Add descriptive alt text to all images for accessibility and SEO." });
+    }
+  } else {
+    checks.push({ label: "Missing alt text", status: "pass", detail: `All ${totalImgCount} images have alt text.` });
+  }
+
+  // Image dimension attributes (width/height for CLS prevention)
+  const missingDimensions = imgs.filter(img => {
+    const hasWidth = /width=/i.test(img);
+    const hasHeight = /height=/i.test(img);
+    return !hasWidth || !hasHeight;
+  }).length;
+  const dimPct = Math.round((missingDimensions / totalImgCount) * 100);
+  if (missingDimensions > totalImgCount * 0.5 && totalImgCount > 2) {
+    checks.push({ label: "Image dimensions (CLS prevention)", status: "warning", detail: `${missingDimensions}/${totalImgCount} images (${dimPct}%) missing width/height attributes — causes layout shifts.`, priority: "high", howToFix: "Add explicit width and height attributes to all <img> tags to prevent CLS. Shopify's image_tag helper does this automatically." });
+  } else {
+    checks.push({ label: "Image dimensions (CLS prevention)", status: "pass", detail: `${totalImgCount - missingDimensions}/${totalImgCount} images have width/height attributes.` });
+  }
+
+  // Srcset/responsive images usage
+  const srcsetCount = imgs.filter(img => /srcset=/i.test(img)).length;
+  const srcsetPct = Math.round((srcsetCount / totalImgCount) * 100);
+  if (totalImgCount > 3 && srcsetPct < 30) {
+    checks.push({ label: "Responsive images (srcset)", status: "warning", detail: `Only ${srcsetCount}/${totalImgCount} images (${srcsetPct}%) use srcset for responsive delivery.`, priority: "medium", howToFix: "Use Shopify's image_url filter with width param and srcset to serve appropriately sized images per device." });
+  } else {
+    checks.push({ label: "Responsive images (srcset)", status: "pass", detail: `${srcsetCount}/${totalImgCount} images (${srcsetPct}%) use srcset.` });
+  }
+
+  // Hero image preload check
+  const headMatch = html.match(/<head[^>]*>([\s\S]*?)<\/head>/i);
+  if (headMatch) {
+    const hasPreloadImg = /<link[^>]+rel=["']preload["'][^>]+as=["']image["']/i.test(headMatch[1]);
+    if (!hasPreloadImg) {
+      checks.push({ label: "Hero image preload", status: "warning", detail: "No <link rel='preload' as='image'> found. Preload the hero/LCP image for faster rendering.", priority: "medium", howToFix: "Add <link rel='preload' as='image' href='hero-image-url'> in <head> for the above-fold hero image." });
+    } else {
+      checks.push({ label: "Hero image preload", status: "pass", detail: "Hero image preload hint found in <head>." });
+    }
   }
 
   return checks;
@@ -952,7 +1596,7 @@ function calculateWeightedScore(categories: AuditCategory[]): number {
 /*  Run full Shopify audit                                             */
 /* ================================================================== */
 
-async function runShopifyAudit(rawUrl: string): Promise<AuditResult> {
+async function runShopifyAudit(rawUrl: string, skipPsi = false): Promise<AuditResult> {
   let url = rawUrl.trim();
   if (!/^https?:\/\//i.test(url)) url = `https://${url}`;
   const parsedUrl = new URL(url);
@@ -961,7 +1605,10 @@ async function runShopifyAudit(rawUrl: string): Promise<AuditResult> {
 
   const auditStart = Date.now();
 
-  const [mainRes, robotsRes, collectionsRes, collectionsAllRes, sitemapRes, cartJsRes] =
+  // Run all fetches in parallel, including PSI
+  const psiPromise = skipPsi ? Promise.resolve(null) : fetchPSI(url).catch(() => null);
+
+  const [mainRes, robotsRes, collectionsRes, collectionsAllRes, sitemapRes, cartJsRes, psiRaw] =
     await Promise.all([
       safeFetch(url),
       safeFetch(`${origin}/robots.txt`, 8000),
@@ -969,6 +1616,7 @@ async function runShopifyAudit(rawUrl: string): Promise<AuditResult> {
       safeFetch(`${origin}/collections/all`, 8000),
       safeFetch(`${origin}/sitemap.xml`, 8000),
       safeFetch(`${origin}/cart.js`, 5000),
+      psiPromise,
     ]);
 
   if (!mainRes.ok) {
@@ -980,11 +1628,16 @@ async function runShopifyAudit(rawUrl: string): Promise<AuditResult> {
   const isShopify = detectShopify(html, mainRes.headers) || cartJsIsShopify;
   const shopifyTheme = isShopify ? detectTheme(html) : null;
 
+  // Extract PSI data
+  const psiData = psiRaw ? extractPsiData(psiRaw as PsiData) : null;
+
   if (!isShopify) {
     return {
       score: 0, grade: "F", passed: 0, warnings: 0, critical: 0,
       isShopify: false, shopifyTheme: null, categories: [],
       responseTimeMs: Date.now() - auditStart, url,
+      performanceScore: null, coreWebVitals: null, fieldData: null,
+      lcpElement: null, opportunities: [], resourceBreakdown: null,
     };
   }
 
@@ -994,7 +1647,7 @@ async function runShopifyAudit(rawUrl: string): Promise<AuditResult> {
   const categories: AuditCategory[] = [
     { name: "meta", weight: CATEGORY_WEIGHTS.meta, checks: checkMeta(html, url) },
     { name: "shopify-technical", weight: CATEGORY_WEIGHTS["shopify-technical"], checks: checkShopifyTechnical(html, robotsRes.ok ? robotsRes.text : "", sitemapRes.ok ? sitemapRes.text : "", collectionsAllRes.ok && collectionsAllRes.status === 200, collectionsRes.ok && collectionsRes.status === 200, host, shopifyTheme) },
-    { name: "performance", weight: CATEGORY_WEIGHTS.performance, checks: checkPerformance(html, host, responseTimeMs) },
+    { name: "performance", weight: CATEGORY_WEIGHTS.performance, checks: checkPerformancePsi(html, host, responseTimeMs, psiData) },
     { name: "structured-data", weight: CATEGORY_WEIGHTS["structured-data"], checks: checkStructuredData(jsonLd, html) },
     { name: "content", weight: CATEGORY_WEIGHTS.content, checks: checkContent(html) },
     { name: "security", weight: CATEGORY_WEIGHTS.security, checks: checkSecurity(mainRes.headers, html, url) },
@@ -1002,6 +1655,8 @@ async function runShopifyAudit(rawUrl: string): Promise<AuditResult> {
     { name: "links", weight: CATEGORY_WEIGHTS.links, checks: checkLinks(html, host) },
     { name: "social", weight: CATEGORY_WEIGHTS.social, checks: checkSocial(html) },
     { name: "accessibility", weight: CATEGORY_WEIGHTS.accessibility, checks: checkAccessibility(html) },
+    { name: "international", weight: CATEGORY_WEIGHTS.international, checks: checkInternational(html) },
+    { name: "images", weight: CATEGORY_WEIGHTS.images, checks: checkImages(html) },
   ];
 
   const allChecks = categories.flatMap(c => c.checks);
@@ -1021,6 +1676,12 @@ async function runShopifyAudit(rawUrl: string): Promise<AuditResult> {
     categories,
     responseTimeMs: Date.now() - auditStart,
     url,
+    performanceScore: psiData?.performanceScore ?? null,
+    coreWebVitals: psiData?.coreWebVitals ?? null,
+    fieldData: psiData?.fieldData ?? null,
+    lcpElement: psiData?.lcpElement ?? null,
+    opportunities: psiData?.opportunities ?? [],
+    resourceBreakdown: psiData?.resourceBreakdown ?? null,
   };
 }
 
@@ -1030,9 +1691,9 @@ async function runShopifyAudit(rawUrl: string): Promise<AuditResult> {
 
 export async function POST(req: Request) {
   try {
-    const body = await req.json();
-    const rawUrl: string = body.url || "";
-    const compareUrl: string = body.compareUrl || "";
+    const body = (await req.json()) as Record<string, unknown>;
+    const rawUrl: string = (body.url as string) || "";
+    const compareUrl: string = (body.compareUrl as string) || "";
 
     if (!rawUrl.trim()) {
       return NextResponse.json({ error: "Missing URL" }, { status: 400 });
@@ -1051,7 +1712,8 @@ export async function POST(req: Request) {
       if (!/^https?:\/\//i.test(compUrl)) compUrl = `https://${compUrl}`;
       try {
         new URL(compUrl);
-        const compResult = await runShopifyAudit(compUrl);
+        // Skip PSI for comparison URL (too slow to run twice)
+        const compResult = await runShopifyAudit(compUrl, true);
         result.comparisonResult = compResult;
       } catch { /* comparison failed, continue without */ }
     }
