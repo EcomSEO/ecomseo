@@ -202,20 +202,20 @@ function extractFullMeta(html: string, fetchedUrl: string): Omit<MetaTagResult, 
 function detectIssues(result: Omit<MetaTagResult, "issues" | "score">, fetchedUrl: string): string[] {
   const issues: string[] = [];
 
-  // Title issues
+  // Title issues — flag if over 60 chars OR over 600px
   if (!result.title) {
     issues.push("missing_title");
   } else {
-    if (result.titlePixelWidth > 600) issues.push("title_too_long");
-    else if (result.titlePixelWidth < 200) issues.push("title_too_short");
+    if (result.titleLength > 60 || result.titlePixelWidth > 600) issues.push("title_too_long");
+    else if (result.titleLength < 30 || result.titlePixelWidth < 200) issues.push("title_too_short");
   }
 
-  // Description issues
+  // Description issues — flag if over 158 chars OR over 960px
   if (!result.description) {
     issues.push("missing_description");
   } else {
-    if (result.descPixelWidth > 960) issues.push("desc_too_long");
-    else if (result.descPixelWidth < 400) issues.push("desc_too_short");
+    if (result.descLength > 158 || result.descPixelWidth > 960) issues.push("desc_too_long");
+    else if (result.descLength < 70 || result.descPixelWidth < 400) issues.push("desc_too_short");
   }
 
   // Canonical issues

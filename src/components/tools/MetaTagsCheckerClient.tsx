@@ -89,12 +89,14 @@ function PixelProgressBar({
   optimalMin,
   optimalMax,
   label,
+  unit = "px",
 }: {
   value: number;
   max: number;
   optimalMin: number;
   optimalMax: number;
   label: string;
+  unit?: string;
 }) {
   const pct = Math.min((value / max) * 100, 100);
   const optMinPct = (optimalMin / max) * 100;
@@ -107,7 +109,7 @@ function PixelProgressBar({
       <div className="flex items-center justify-between text-[10px]">
         <span className="text-body/60">{label}</span>
         <span className={`font-mono ${value === 0 ? "text-red-400" : isOptimal ? "text-green-400" : "text-yellow-400"}`}>
-          {value}px
+          {value}{unit}
         </span>
       </div>
       <div className="relative h-2 bg-white/5 rounded-full overflow-hidden">
@@ -167,8 +169,9 @@ function generateSuggestions(r: MetaTagResult): string[] {
   if (!r.title) {
     suggestions.push("Add a title tag to this page");
   } else {
-    if (r.titlePixelWidth < 200) suggestions.push("Title is very short - consider making it more descriptive");
-    if (r.titlePixelWidth > 600) suggestions.push("Title exceeds Google's display limit (~600px) and will be truncated in SERPs");
+    if (r.titleLength > 60) suggestions.push(`Title is ${r.titleLength} chars — keep it under 60 characters to avoid truncation`);
+    if (r.titlePixelWidth > 600) suggestions.push(`Title is ${r.titlePixelWidth}px wide — exceeds Google's ~600px display limit and will be truncated in SERPs`);
+    if (r.titlePixelWidth < 200) suggestions.push("Title is very short — consider making it more descriptive");
     if (r.title && !r.title.includes("|") && !r.title.includes(" - ") && !r.title.includes(" \u2014 ")) {
       suggestions.push("Title doesn't appear to contain a brand name separator (| or -)");
     }
@@ -176,8 +179,9 @@ function generateSuggestions(r: MetaTagResult): string[] {
   if (!r.description) {
     suggestions.push("Add a meta description to improve click-through rates");
   } else {
+    if (r.descLength > 158) suggestions.push(`Description is ${r.descLength} chars — keep it under 158 characters to avoid truncation`);
+    if (r.descPixelWidth > 960) suggestions.push(`Description is ${r.descPixelWidth}px wide — exceeds Google's ~960px display limit`);
     if (r.descPixelWidth < 400) suggestions.push("Description is too short to be compelling in SERPs");
-    if (r.descPixelWidth > 960) suggestions.push("Description exceeds Google's display limit (~960px) and will be truncated");
   }
   if (!r.ogImage) suggestions.push("Add an OG image for better social media sharing previews");
   if (!r.ogTitle) suggestions.push("Add OG title for social sharing optimization");
@@ -364,12 +368,14 @@ export default function MetaTagsCheckerClient({ t }: { t: MetaTagsCheckerTransla
         className="border-t border-border bg-white/[0.02]"
       >
         <div className="p-5 space-y-5">
-          {/* Top row: Score + Pixel bars */}
+          {/* Top row: Score + Pixel & Char bars */}
           <div className="flex items-start gap-5">
             <ScoreBadge score={r.score} />
             <div className="flex-1 space-y-3">
-              <PixelProgressBar value={r.titlePixelWidth} max={800} optimalMin={200} optimalMax={600} label={`${t.titleColumn} ${t.pixelWidth}`} />
-              <PixelProgressBar value={r.descPixelWidth} max={1200} optimalMin={400} optimalMax={960} label={`${t.descriptionColumn} ${t.pixelWidth}`} />
+              <PixelProgressBar value={r.titleLength} max={70} optimalMin={30} optimalMax={60} label={`${t.titleColumn} Characters (max 60)`} />
+              <PixelProgressBar value={r.titlePixelWidth} max={700} optimalMin={200} optimalMax={600} label={`${t.titleColumn} ${t.pixelWidth} (max 600px)`} />
+              <PixelProgressBar value={r.descLength} max={180} optimalMin={70} optimalMax={158} label={`${t.descriptionColumn} Characters (max 158)`} />
+              <PixelProgressBar value={r.descPixelWidth} max={1100} optimalMin={400} optimalMax={960} label={`${t.descriptionColumn} ${t.pixelWidth} (max 960px)`} />
             </div>
           </div>
 
@@ -378,12 +384,16 @@ export default function MetaTagsCheckerClient({ t }: { t: MetaTagsCheckerTransla
             <div className="rounded-xl border border-border bg-white/[0.02] p-3">
               <div className="text-[10px] font-medium text-body/50 mb-1">{t.titleColumn}</div>
               <div className="text-xs text-heading break-all">{r.title || <span className="text-red-400/60 italic">missing</span>}</div>
-              <div className="text-[10px] text-body/40 mt-1">{r.titleLength} chars / {r.titlePixelWidth}px</div>
+              <div className={`text-[10px] mt-1 font-mono ${r.titleLength > 60 ? "text-yellow-400" : "text-body/40"}`}>
+                {r.titleLength}/60 chars &middot; {r.titlePixelWidth}/600px
+              </div>
             </div>
             <div className="rounded-xl border border-border bg-white/[0.02] p-3">
               <div className="text-[10px] font-medium text-body/50 mb-1">{t.descriptionColumn}</div>
               <div className="text-xs text-body break-all">{r.description || <span className="text-red-400/60 italic">missing</span>}</div>
-              <div className="text-[10px] text-body/40 mt-1">{r.descLength} chars / {r.descPixelWidth}px</div>
+              <div className={`text-[10px] mt-1 font-mono ${r.descLength > 158 ? "text-yellow-400" : "text-body/40"}`}>
+                {r.descLength}/158 chars &middot; {r.descPixelWidth}/960px
+              </div>
             </div>
           </div>
 
@@ -478,8 +488,10 @@ export default function MetaTagsCheckerClient({ t }: { t: MetaTagsCheckerTransla
             <div className="text-[10px] text-body/40 mt-0.5">{t.httpStatus}: {r.status}</div>
           </div>
         </div>
-        <PixelProgressBar value={r.titlePixelWidth} max={800} optimalMin={200} optimalMax={600} label={`${t.titleColumn} ${t.pixelWidth}`} />
-        <PixelProgressBar value={r.descPixelWidth} max={1200} optimalMin={400} optimalMax={960} label={`${t.descriptionColumn} ${t.pixelWidth}`} />
+        <PixelProgressBar value={r.titleLength} max={70} optimalMin={30} optimalMax={60} label={`${t.titleColumn} (${r.titleLength}/60ch)`} />
+        <PixelProgressBar value={r.titlePixelWidth} max={700} optimalMin={200} optimalMax={600} label={`${t.titleColumn} (${r.titlePixelWidth}/600px)`} />
+        <PixelProgressBar value={r.descLength} max={180} optimalMin={70} optimalMax={158} label={`${t.descriptionColumn} (${r.descLength}/158ch)`} />
+        <PixelProgressBar value={r.descPixelWidth} max={1100} optimalMin={400} optimalMax={960} label={`${t.descriptionColumn} (${r.descPixelWidth}/960px)`} />
         <div className="space-y-1 text-xs">
           <div><span className="text-body/50">{t.titleColumn}:</span> <span className="text-heading">{r.title || "-"}</span></div>
           <div><span className="text-body/50">{t.descriptionColumn}:</span> <span className="text-body">{truncate(r.description, 120)}</span></div>
@@ -656,10 +668,10 @@ export default function MetaTagsCheckerClient({ t }: { t: MetaTagsCheckerTransla
                         {t.scoreColumn}<SortIcon active={sortField === "score"} dir={sortDir} />
                       </th>
                       <th className="px-3 py-3 text-[11px] font-medium text-body cursor-pointer select-none whitespace-nowrap" onClick={() => handleSort("titleLength")}>
-                        {t.titleColumn}<SortIcon active={sortField === "titleLength"} dir={sortDir} />
+                        {t.titleColumn} <span className="text-body/40 font-normal">(ch/px)</span><SortIcon active={sortField === "titleLength"} dir={sortDir} />
                       </th>
                       <th className="px-3 py-3 text-[11px] font-medium text-body cursor-pointer select-none whitespace-nowrap" onClick={() => handleSort("descLength")}>
-                        {t.descriptionColumn}<SortIcon active={sortField === "descLength"} dir={sortDir} />
+                        {t.descriptionColumn} <span className="text-body/40 font-normal">(ch/px)</span><SortIcon active={sortField === "descLength"} dir={sortDir} />
                       </th>
                       <th className="px-3 py-3 text-[11px] font-medium text-body text-center cursor-pointer select-none" onClick={() => handleSort("issues")}>
                         {t.issuesColumn}<SortIcon active={sortField === "issues"} dir={sortDir} />
@@ -702,32 +714,70 @@ export default function MetaTagsCheckerClient({ t }: { t: MetaTagsCheckerTransla
                                 <td className="px-3 py-3 text-center">
                                   <span className={`text-sm font-semibold ${getScoreColor(r.score)}`}>{r.score}</span>
                                 </td>
-                                <td className="px-3 py-3 max-w-[180px]">
+                                <td className="px-3 py-3 max-w-[220px]">
                                   <div className="space-y-1">
                                     <span className="text-xs text-heading truncate block">{truncate(r.title, 40)}</span>
-                                    <div className="h-1.5 bg-white/5 rounded-full overflow-hidden w-full max-w-[120px]">
-                                      <div
-                                        className={`h-full rounded-full ${
-                                          r.titlePixelWidth === 0 ? "bg-red-500" : r.titlePixelWidth <= 600 && r.titlePixelWidth >= 200 ? "bg-green-500" : "bg-yellow-500"
-                                        }`}
-                                        style={{ width: `${Math.min((r.titlePixelWidth / 800) * 100, 100)}%` }}
-                                      />
+                                    {/* Char bar */}
+                                    <div className="flex items-center gap-1.5">
+                                      <div className="h-1.5 bg-white/5 rounded-full overflow-hidden flex-1 max-w-[100px]">
+                                        <div
+                                          className={`h-full rounded-full ${
+                                            r.titleLength === 0 ? "bg-red-500" : r.titleLength <= 60 && r.titleLength >= 30 ? "bg-green-500" : "bg-yellow-500"
+                                          }`}
+                                          style={{ width: `${Math.min((r.titleLength / 70) * 100, 100)}%` }}
+                                        />
+                                      </div>
+                                      <span className={`text-[10px] font-mono whitespace-nowrap ${r.titleLength === 0 ? "text-red-400" : r.titleLength <= 60 ? "text-green-400" : "text-yellow-400"}`}>
+                                        {r.titleLength}<span className="text-body/30">/60ch</span>
+                                      </span>
                                     </div>
-                                    <span className="text-[10px] text-body/40 font-mono">{r.titlePixelWidth}px</span>
+                                    {/* Pixel bar */}
+                                    <div className="flex items-center gap-1.5">
+                                      <div className="h-1.5 bg-white/5 rounded-full overflow-hidden flex-1 max-w-[100px]">
+                                        <div
+                                          className={`h-full rounded-full ${
+                                            r.titlePixelWidth === 0 ? "bg-red-500" : r.titlePixelWidth <= 600 && r.titlePixelWidth >= 200 ? "bg-green-500" : "bg-yellow-500"
+                                          }`}
+                                          style={{ width: `${Math.min((r.titlePixelWidth / 700) * 100, 100)}%` }}
+                                        />
+                                      </div>
+                                      <span className={`text-[10px] font-mono whitespace-nowrap ${r.titlePixelWidth === 0 ? "text-red-400" : r.titlePixelWidth <= 600 ? "text-green-400" : "text-yellow-400"}`}>
+                                        {r.titlePixelWidth}<span className="text-body/30">/600px</span>
+                                      </span>
+                                    </div>
                                   </div>
                                 </td>
-                                <td className="px-3 py-3 max-w-[180px]">
+                                <td className="px-3 py-3 max-w-[220px]">
                                   <div className="space-y-1">
                                     <span className="text-xs text-body truncate block">{truncate(r.description, 50)}</span>
-                                    <div className="h-1.5 bg-white/5 rounded-full overflow-hidden w-full max-w-[120px]">
-                                      <div
-                                        className={`h-full rounded-full ${
-                                          r.descPixelWidth === 0 ? "bg-red-500" : r.descPixelWidth <= 960 && r.descPixelWidth >= 400 ? "bg-green-500" : "bg-yellow-500"
-                                        }`}
-                                        style={{ width: `${Math.min((r.descPixelWidth / 1200) * 100, 100)}%` }}
-                                      />
+                                    {/* Char bar */}
+                                    <div className="flex items-center gap-1.5">
+                                      <div className="h-1.5 bg-white/5 rounded-full overflow-hidden flex-1 max-w-[100px]">
+                                        <div
+                                          className={`h-full rounded-full ${
+                                            r.descLength === 0 ? "bg-red-500" : r.descLength <= 158 && r.descLength >= 70 ? "bg-green-500" : "bg-yellow-500"
+                                          }`}
+                                          style={{ width: `${Math.min((r.descLength / 180) * 100, 100)}%` }}
+                                        />
+                                      </div>
+                                      <span className={`text-[10px] font-mono whitespace-nowrap ${r.descLength === 0 ? "text-red-400" : r.descLength <= 158 ? "text-green-400" : "text-yellow-400"}`}>
+                                        {r.descLength}<span className="text-body/30">/158ch</span>
+                                      </span>
                                     </div>
-                                    <span className="text-[10px] text-body/40 font-mono">{r.descPixelWidth}px</span>
+                                    {/* Pixel bar */}
+                                    <div className="flex items-center gap-1.5">
+                                      <div className="h-1.5 bg-white/5 rounded-full overflow-hidden flex-1 max-w-[100px]">
+                                        <div
+                                          className={`h-full rounded-full ${
+                                            r.descPixelWidth === 0 ? "bg-red-500" : r.descPixelWidth <= 960 && r.descPixelWidth >= 400 ? "bg-green-500" : "bg-yellow-500"
+                                          }`}
+                                          style={{ width: `${Math.min((r.descPixelWidth / 1100) * 100, 100)}%` }}
+                                        />
+                                      </div>
+                                      <span className={`text-[10px] font-mono whitespace-nowrap ${r.descPixelWidth === 0 ? "text-red-400" : r.descPixelWidth <= 960 ? "text-green-400" : "text-yellow-400"}`}>
+                                        {r.descPixelWidth}<span className="text-body/30">/960px</span>
+                                      </span>
+                                    </div>
                                   </div>
                                 </td>
                                 <td className="px-3 py-3 text-center">
