@@ -5,12 +5,12 @@ export const shopifySeoData: Record<Locale, ServicePageProps> = {
   en: {
     hero: {
       badge: "Shopify SEO Experts",
-      heading: "Shopify SEO That Actually Drives Revenue",
+      heading: "The Shopify SEO Agency That Drives Revenue, Not Rankings",
       subtitle:
-        "Our Chef\u2019s Special. We audit, fix, and scale organic traffic for Shopify and Shopify Plus stores \u2014 so you can stop bleeding revenue to competitors.",
-      ctaText: "Book a Shopify SEO Audit",
+        "We audit, fix, and scale organic traffic for Shopify and Shopify Plus stores. While other agencies chase vanity metrics, we engineer the technical foundations that turn search visibility into revenue.",
+      ctaText: "Book a Free Shopify SEO Audit",
     },
-    trustBar: "Trusted by 20+ Shopify stores scaling organic revenue",
+    trustBar: "Trusted by 50+ Shopify stores across Europe and the US",
     sections: [
       {
         type: "stats",
@@ -33,32 +33,76 @@ export const shopifySeoData: Record<Locale, ServicePageProps> = {
           {
             title: "Duplicate Content",
             description:
-              "Collection filters and tags create thousands of duplicate URLs that dilute your crawl budget.",
+              "Collection filters, tags, and product-in-collection URL variants generate thousands of duplicate pages. A single store with 200 products and 30 collections can create 6,000+ duplicate URLs that compete against each other, diluting crawl budget and splitting link equity. We implement strategic canonical tags and [robots.txt directives](/academy/robots-txt-and-xml-sitemaps) to resolve this at the source.",
           },
           {
             title: "Slow Theme Speed",
             description:
-              "Bloated Liquid templates, unoptimized images, and excessive app scripts tank your Core Web Vitals.",
+              "Bloated Liquid templates, unoptimized images, and excessive app scripts tank your Core Web Vitals. We've seen stores with 6-8 apps adding 1-2MB of extra JavaScript per page load. Our clients typically see a 30-40% improvement in initial load time after our [speed optimization](/tools/core-web-vitals).",
           },
           {
             title: "Broken Canonical Tags",
             description:
-              "Shopify default canonicals often point to the wrong URL variant, confusing Google about your preferred pages.",
+              "Shopify's default canonical tags often point to the wrong URL variant. When a product appears in multiple collections, Shopify creates a URL for each — but the canonical doesn't always resolve correctly. We audit every canonical tag using our [canonical checker](/tools/canonical-checker) and fix conflicts at the template level.",
           },
           {
             title: "Pagination Indexation",
             description:
-              "Paginated collection pages get indexed as separate URLs, splitting authority across dozens of thin pages.",
+              "Paginated collection pages get indexed as separate URLs, splitting authority across dozens of thin pages. When your collection has 15 pages, Google may index all 15 as separate ranking candidates. We implement proper pagination markup and [restructure collection architecture](/academy/crawl-budget-management) to consolidate authority.",
           },
           {
             title: "Missing Structured Data",
             description:
-              "Product, review, and breadcrumb schema are absent or broken \u2014 costing you rich snippet visibility.",
+              "Product schema, review markup, and breadcrumb structured data are absent or incorrectly implemented in most Shopify themes. Without valid structured data, your products won't display rich results in Google. We implement custom JSON-LD using our [schema validator](/tools/schema-validator) and follow [structured data best practices](/academy/structured-data-for-products).",
           },
           {
             title: "URL Structure Limits",
             description:
-              "Shopify enforces /collections/ and /products/ prefixes. We work within these constraints for optimal crawlability.",
+              "Shopify enforces /collections/ and /products/ prefixes in all URLs. We work within these constraints to build the most SEO-friendly [site architecture](/academy/site-architecture-for-ecommerce) possible through strategic collection naming, handle optimization, and internal linking patterns.",
+          },
+        ],
+      },
+      {
+        type: "benefits",
+        badge: "Shopify SEO Services",
+        heading: "What's Included in Our Shopify SEO Services",
+        subtitle:
+          "A full-stack Shopify SEO engagement — not a checklist, but a system built around your store's specific revenue goals.",
+        benefits: [
+          {
+            title: "Technical SEO Audit",
+            description:
+              "Full crawl analysis of your Shopify store covering indexation issues, canonical conflicts, speed bottlenecks, and structured data gaps. We don't just hand you a report — we implement every fix.",
+            href: "/tools/shopify-seo-audit",
+          },
+          {
+            title: "Collection Architecture",
+            description:
+              "Your collection structure IS your site architecture on Shopify. We restructure collections, subcollections, and internal linking to create a clear topical hierarchy that Google can understand and reward.",
+            href: "/academy/category-page-seo",
+          },
+          {
+            title: "Keyword Research & Strategy",
+            description:
+              "We identify the keywords your customers actually use at every stage of the buying journey and map them to specific pages on your store. Full keyword universe mapping with [buyer intent classification](/academy/buyer-intent-vs-search-volume).",
+            href: "/academy/keyword-research-for-ecommerce",
+          },
+          {
+            title: "On-Page Optimization",
+            description:
+              "Every product page, collection page, and blog post optimized for maximum search visibility. Meta titles, descriptions, heading structures, and product descriptions that rank and sell. [Check your meta tags](/tools/meta-tags-checker).",
+            href: "/academy/product-page-seo",
+          },
+          {
+            title: "Link Building & Digital PR",
+            description:
+              "Backlinks remain one of Google's strongest ranking signals. We build high-quality, relevant links from authoritative sites through digital PR, guest content, and strategic outreach.",
+            href: "/academy/backlink-fundamentals-for-ecommerce",
+          },
+          {
+            title: "Monthly Reporting",
+            description:
+              "Transparent monthly reports that connect SEO activity directly to revenue impact. Keyword rankings, organic traffic, revenue attribution, and a next-month action plan with priorities.",
           },
         ],
       },
@@ -67,31 +111,194 @@ export const shopifySeoData: Record<Locale, ServicePageProps> = {
         badge: "Our Playbook",
         heading: "How We Scale Shopify Organic Traffic",
         subtitle:
-          "A proven four-step process refined across 50+ Shopify stores.",
+          "A proven four-phase process refined across 50+ Shopify stores. Every engagement follows this framework, adapted to your store's specific challenges.",
         process: [
           {
             number: "01",
-            title: "Technical Audit",
+            title: "Discovery & Audit",
             description:
-              "Full crawl analysis of your Shopify store. We map every indexation issue, canonical conflict, and speed bottleneck.",
+              "Full crawl analysis of your Shopify store — every URL, every canonical tag, every speed metric. We deliver a 50+ page technical audit with a prioritized roadmap. Timeline: Week 1-2.",
           },
           {
             number: "02",
-            title: "Theme Optimization",
+            title: "Foundation & Quick Wins",
             description:
-              "Speed fixes at the Liquid template level. We optimize render-blocking resources, images, and third-party scripts.",
+              "We implement all technical fixes: canonical corrections, speed optimization, schema markup, sitemap configuration. Most stores see measurable improvements within 60-90 days. Timeline: Week 3-6.",
+            href: "/tools/core-web-vitals",
           },
           {
             number: "03",
-            title: "Collection Architecture",
+            title: "Growth & Expansion",
             description:
-              "Restructure collections, tags, and internal linking to create a clear hierarchy Google can understand and reward.",
+              "With the technical foundation solid, we focus on collection architecture optimization, content creation, and [link building](/link-building). This is where organic traffic starts compounding. Timeline: Month 2-4.",
           },
           {
             number: "04",
-            title: "Ongoing Monitoring",
+            title: "Scale & Compound",
             description:
-              "Monthly reporting, rank tracking, and iterative improvements. We catch issues before they cost you traffic.",
+              "SEO is a compounding channel. We scale what's working, expand into new keyword territories, and optimize based on performance data. Monthly strategy calls keep us aligned. Timeline: Month 4+.",
+          },
+        ],
+      },
+      {
+        type: "caseStudies",
+        badge: "Proven Results",
+        heading: "What Happens When Shopify SEO Is Done Right",
+        subtitle:
+          "Real stores, real numbers. Here's what our Shopify SEO work looks like in practice.",
+        caseStudies: [
+          {
+            badge: "Health & Wellness · Shopify Plus",
+            title: "Norwegian Health Store",
+            metrics: [
+              { value: "+1,900%", label: "Keyword Growth" },
+              { value: "Top 3", label: "Ranking Positions" },
+              { value: "12 mo", label: "Timeframe" },
+            ],
+            quote:
+              "EcomSEO transformed our organic visibility from near-zero to dominating our category.",
+            quoteAuthor:
+              "Marketing Director, Health & Wellness Brand",
+            href: "/cases/norwegian-health-store",
+          },
+          {
+            badge: "Ecommerce · On-Page",
+            title: "7x Traffic in 90 Days",
+            metrics: [
+              { value: "7x", label: "Traffic Increase" },
+              { value: "90 days", label: "To Results" },
+              { value: "+632%", label: "Revenue Growth" },
+            ],
+            href: "/cases/ecommerce-brand",
+          },
+          {
+            badge: "Swedish Market · Link Building",
+            title: "From 37 to 1,529 Keywords",
+            metrics: [
+              { value: "1,529", label: "Ranking Keywords" },
+              { value: "446K+", label: "Monthly Impressions" },
+              { value: "6 mo", label: "Timeframe" },
+            ],
+            href: "/cases/skyrocket-ecom-site",
+          },
+        ],
+        ctaText: "View All Case Studies",
+        ctaHref: "/cases",
+      },
+      {
+        type: "tips",
+        badge: "Expert Insights",
+        heading: "7 Shopify SEO Tips From Our Team",
+        subtitle:
+          "After optimizing 50+ Shopify stores, these are the highest-impact actions we recommend to every store owner.",
+        tips: [
+          {
+            number: "01",
+            title: "Fix Your Collection Page Content First",
+            body: "Most Shopify stores have zero unique content on collection pages — just a grid of products. Google sees these as thin pages with no topical relevance. Add 200-500 words of unique, keyword-optimized content above or below the product grid on your top collections. This single change can dramatically improve rankings.",
+            href: "/academy/category-page-seo",
+            hrefLabel: "Collection page SEO guide",
+          },
+          {
+            number: "02",
+            title: "Audit Your Canonical Tags Monthly",
+            body: "Shopify themes, app installations, and product changes can break canonical tags silently. Use our free canonical checker or Google Search Console's coverage report to catch issues before they impact your rankings.",
+            href: "/tools/canonical-checker",
+            hrefLabel: "Free canonical checker",
+          },
+          {
+            number: "03",
+            title: "Check App Script Impact Before Installing",
+            body: "Every Shopify app adds JavaScript to your storefront. Before installing, test your page speed, install the app, then test again. If an app adds more than 100KB of scripts, evaluate whether the functionality justifies the speed cost. We've seen single apps increase load time by 2+ seconds.",
+            href: "/tools/core-web-vitals",
+            hrefLabel: "Check your site speed",
+          },
+          {
+            number: "04",
+            title: "Implement Product Schema Manually",
+            body: "Don't rely on your theme's built-in schema — most themes implement it incorrectly or incompletely. Use a dedicated schema app or implement custom JSON-LD in your theme's product.liquid template. Include: name, image, description, SKU, price, currency, availability, and review ratings.",
+            href: "/tools/schema-generator",
+            hrefLabel: "Generate product schema",
+          },
+          {
+            number: "05",
+            title: "Build Internal Links Between Products and Blog",
+            body: "Shopify's default internal linking is weak. Create explicit links from blog posts to relevant products, from products to related buying guides, and from collection descriptions to supporting content. This builds topical authority and helps Google understand your catalog.",
+            href: "/academy/internal-linking-for-stores",
+            hrefLabel: "Internal linking guide",
+          },
+          {
+            number: "06",
+            title: "Use Metafields for Unique Product Content",
+            body: "Instead of cramming everything into the main description, use Shopify metafields for structured content blocks: ingredient lists, size guides, care instructions, FAQ sections. More content surface area for keywords and better user experience.",
+            href: "/academy/product-page-seo",
+            hrefLabel: "Product page SEO guide",
+          },
+          {
+            number: "07",
+            title: "Monitor Google Search Console Weekly",
+            body: "GSC is your single most valuable SEO tool — and it's free. Check Coverage for indexation issues, Performance for keyword opportunities, and Core Web Vitals for speed regressions. Most Shopify SEO issues appear in GSC before they affect your traffic.",
+            href: "/academy/google-search-console-for-stores",
+            hrefLabel: "GSC setup guide",
+          },
+        ],
+      },
+      {
+        type: "richText",
+        badge: "Shopify Plus SEO",
+        heading: "Shopify Plus SEO — Enterprise-Grade Optimization",
+        subtitle:
+          "Shopify Plus stores face unique SEO challenges that standard Shopify doesn't.",
+        richTextBlocks: [
+          {
+            body: "Multi-currency storefronts, international domains, larger catalogs with 10,000+ SKUs, custom checkout scripts, and headless commerce configurations all require specialized SEO expertise. We've optimized Shopify Plus stores across 8 markets including the UK, Germany, Austria, France, Belgium, Spain, Italy, and the Netherlands.",
+          },
+          {
+            heading: "What's Different About Plus SEO",
+            body: "Hreflang implementation across international domains, multi-currency structured data handling, larger crawl budget optimization for 10,000+ pages, custom Liquid section and app extension SEO, and headless Hydrogen SEO for custom storefronts. Our [hreflang validator](/tools/hreflang-validator) helps us catch implementation errors across all your market variations.",
+          },
+        ],
+      },
+      {
+        type: "richText",
+        badge: "Why EcomSEO",
+        heading: "Why Your Shopify Store Needs a Specialized SEO Agency",
+        subtitle:
+          "Generic SEO agencies treat Shopify the same way they treat WordPress or Squarespace. That works for basic websites — but Shopify stores have platform-specific technical debt that requires platform-specific expertise.",
+        richTextBlocks: [
+          {
+            heading: "What Generic Agencies Miss",
+            body: "Collection filter duplicate URLs that need blocking, product-in-collection URL variants that split authority, Liquid template speed optimization they've never worked with, app script overhead that makes your site slower, and Shopify's URL constraints that can't be changed. We only work with ecommerce brands. Every member of our team has hands-on experience inside Shopify stores — not just advising from the outside, but actually building, configuring, and scaling them.",
+          },
+        ],
+      },
+      {
+        type: "team",
+        badge: "The Team",
+        heading: "The Shopify SEO Specialists Behind Your Growth",
+        teamLead: {
+          name: "Fabian van Til",
+          role: "Strategy & Innovation",
+          bio: "Leads the strategic direction for all client engagements. 8+ years of ecommerce SEO experience across fashion, health, beauty, and home goods verticals. Blends growth strategy with technical SEO innovation.",
+          image: "/images/framer/C23VbBxvj2kY5TMoXAJHXWVLaA.webp",
+          linkedin: "https://www.linkedin.com/in/fabianvantil/",
+        },
+        teamMembers: [
+          {
+            name: "Dimitar Georgiev",
+            role: "Technical SEO Lead",
+            bio: "Architects the technical SEO foundations. Specializes in Shopify theme optimization, structured data, and site architecture. Builds the free SEO tools on this site.",
+            linkedin: "https://www.linkedin.com/in/dimitar-georgiev-seo/",
+          },
+          {
+            name: "Martinijan Trajkovski",
+            role: "Off-Page & Link Building",
+            bio: "Masters link acquisition and digital PR at scale. Builds backlink profiles that move the needle for competitive ecommerce keywords across European and US markets.",
+          },
+          {
+            name: "Gjorgi Jovev",
+            role: "On-Page & Content Strategy",
+            bio: "Crafts content strategies and on-page optimizations that rank and convert. Specializes in product and collection page optimization, keyword research, and editorial planning.",
           },
         ],
       },
@@ -100,23 +307,47 @@ export const shopifySeoData: Record<Locale, ServicePageProps> = {
         badge: "Deliverables",
         heading: "What You Get Every Month",
         subtitle:
-          "Transparent reporting and tangible outputs \u2014 no fluff, no vanity metrics.",
+          "Transparent reporting and tangible outputs — no fluff, no vanity metrics. Everything is tied to your revenue goals.",
         deliverables: [
           {
-            title: "Technical Audit Report",
-            description: "Full crawl + prioritized fix list",
+            title: "Technical Audit",
+            description:
+              "Full crawl + prioritized fix list with implementation tracking",
           },
           {
-            title: "Schema Implementation",
-            description: "Product + breadcrumb JSON-LD",
+            title: "Schema Markup",
+            description:
+              "Product, breadcrumb, and organization JSON-LD — validated and monitored",
           },
           {
             title: "Speed Optimization",
-            description: "Core Web Vitals improvements",
+            description:
+              "Core Web Vitals improvements with before/after benchmarks",
           },
           {
-            title: "Monthly Reporting",
-            description: "Rankings, traffic, revenue impact",
+            title: "Keyword Research",
+            description:
+              "Monthly keyword opportunity analysis with buyer intent classification",
+          },
+          {
+            title: "Content Creation",
+            description:
+              "SEO-optimized product descriptions, collection content, and blog posts",
+          },
+          {
+            title: "Link Building",
+            description:
+              "Quality backlink acquisition with full transparency on methods",
+          },
+          {
+            title: "Monthly Report",
+            description:
+              "Rankings, organic traffic, revenue attribution, and action plan",
+          },
+          {
+            title: "Strategy Call",
+            description:
+              "Monthly 30-min call to review progress and align on priorities",
           },
         ],
       },
@@ -126,39 +357,60 @@ export const shopifySeoData: Record<Locale, ServicePageProps> = {
         {
           question: "Why does my Shopify store need specialized SEO?",
           answer:
-            "Shopify has unique technical SEO challenges that generic agencies miss \u2014 duplicate content from collections and tags, auto-generated URL structures, limited control over canonical tags, and theme-level speed issues. We specialize in solving these platform-specific problems so your store ranks higher and converts more organic traffic. Our [Shopify ecommerce SEO guide](/blog/shopify-ecommerce-seo) covers the most common issues in detail.",
+            "Shopify has unique technical SEO challenges that generic agencies miss — duplicate content from collections and tags, auto-generated URL structures, limited control over canonical tags, and theme-level speed issues. We specialize in solving these platform-specific problems so your store ranks higher and converts more organic traffic. Our [Shopify ecommerce SEO guide](/blog/shopify-ecommerce-seo) covers the most common issues in detail.",
         },
         {
           question: "How long until I see results from Shopify SEO?",
           answer:
-            "Most stores see measurable improvements in organic traffic within 60\u201390 days after our technical fixes are implemented. Significant revenue impact typically follows within 4\u20136 months, depending on your niche competitiveness and current site health.",
+            "Most stores see measurable improvements in organic traffic within 60–90 days after our technical fixes are implemented. This is the foundation phase where we resolve issues actively suppressing your rankings. Significant revenue impact typically follows within 4–6 months as content and link building compound. SEO is a compounding channel — the earlier you start, the more it pays off.",
         },
         {
           question: "Do you work with Shopify Plus stores?",
           answer:
-            "Absolutely. We work with both standard Shopify and Shopify Plus stores. Plus stores often have more complex catalog structures, international storefronts, and custom theme code \u2014 all areas where our technical SEO expertise delivers the most value.",
+            "Yes. We work with both standard Shopify and Shopify Plus stores across Europe and the US. Plus stores often have more complex catalog structures, international storefronts with [hreflang requirements](/tools/hreflang-validator), and custom theme code — all areas where our technical SEO expertise delivers the most value. We've optimized Plus stores across 8 international markets.",
         },
         {
           question: "What does a Shopify SEO audit include?",
           answer:
-            "Our audit covers crawlability and indexation issues, duplicate content from collections/tags/vendors, canonical tag implementation, [structured data gaps](/academy/structured-data-for-products), Core Web Vitals and theme speed, URL architecture, internal linking structure, and content gaps vs. your top competitors.",
+            "Our audit covers: crawlability and indexation issues, duplicate content from collections/tags/vendors, canonical tag implementation across all page types, [structured data validation](/academy/structured-data-for-products) and gaps, Core Web Vitals and theme speed analysis, URL architecture assessment, [internal linking structure](/academy/internal-linking-for-stores) mapping, image optimization audit, and content gap analysis vs. your top organic competitors. You can [run a free preliminary audit](/tools/shopify-seo-audit) right now.",
         },
         {
           question: "Will you make changes directly to my Shopify store?",
           answer:
-            "Yes, with your approval. We handle all technical implementations \u2014 theme code optimizations, schema markup, meta tag templates, redirect management, and sitemap configuration. You review and approve every change before it goes live.",
+            "Yes, with your approval. We handle all technical implementations — theme code optimizations, schema markup, meta tag templates, redirect management, robots.txt configuration, and sitemap setup. You review and approve every change before it goes live. We work in a duplicate theme environment so nothing touches your live store until you're confident.",
         },
         {
           question:
             "How is EcomSEO different from other Shopify SEO agencies?",
           answer:
-            "We only work with ecommerce brands, so we understand the revenue impact of every SEO decision. We focus on profit metrics (not vanity rankings), provide radical transparency in reporting, and bring an operator mindset \u2014 we have built and scaled ecommerce brands ourselves, not just optimized them from the outside. Learn more about our [technical SEO methodology](/technical-seo).",
+            "Three things set us apart. First, we only work with ecommerce brands — deeper platform expertise. Second, we focus on revenue metrics, not vanity rankings — every report connects SEO activity to actual revenue impact. Third, we practice radical transparency — you see exactly what we're doing, why, and how it's performing. Learn more about our [technical SEO methodology](/technical-seo).",
+        },
+        {
+          question: "How much does Shopify SEO cost?",
+          answer:
+            "Our Shopify SEO engagements typically range from €2,000 to €5,000 per month depending on store size, catalog complexity, number of markets, and competitive landscape. We offer a free audit call where we assess your store and provide a custom proposal based on what your store actually needs — not a one-size-fits-all package.",
+        },
+        {
+          question: "Is Shopify good for SEO?",
+          answer:
+            "Shopify handles roughly 80% of technical SEO automatically — it generates sitemaps, manages robots.txt, creates canonical tags, and provides SSL. However, the remaining 20% includes platform-specific issues that can seriously limit growth: duplicate content, rigid URL structures, limited heading tag control, and theme speed variability. With proper optimization, Shopify stores can absolutely compete with stores on any other platform.",
+        },
+        {
+          question: "Do I need a Shopify SEO app?",
+          answer:
+            "For structured data, a dedicated app like JSON-LD for SEO (~€10/month) is worth the investment since most themes implement product schema incorrectly. For redirects, apps like Yoast SEO for Shopify can help. But be careful: every app adds JavaScript. We've seen stores where SEO apps themselves were the biggest speed problem. When you work with us, we implement most optimizations at the theme level — faster and more reliable than apps.",
+        },
+        {
+          question:
+            "What if I'm migrating to Shopify from another platform?",
+          answer:
+            "Platform migrations are one of the highest-risk SEO events for any ecommerce store. A poorly planned migration can wipe out years of organic equity overnight. We handle migration SEO as a specialized project: full URL mapping, 301 redirect planning, structured data migration, and post-launch monitoring. We've managed migrations from WooCommerce, Magento, BigCommerce, and custom platforms to Shopify. Learn about [platform migration SEO](/academy/platform-migration-seo).",
         },
       ],
       miniCta: {
         heading: "Ready to Fix Your Shopify SEO?",
         subtitle:
-          "Book a free audit call and we will show you exactly what is holding your store back.",
+          "Book a free audit call. We'll crawl your store, identify the biggest opportunities, and show you exactly what's holding you back — no pitch deck, just data.",
       },
     },
   },
@@ -167,7 +419,7 @@ export const shopifySeoData: Record<Locale, ServicePageProps> = {
       badge: "Shopify-SEO-Experten",
       heading: "Shopify-SEO, das wirklich Umsatz bringt",
       subtitle:
-        "Unser Spezialgebiet. Wir pr\u00fcfen, reparieren und skalieren den organischen Traffic f\u00fcr Shopify- und Shopify-Plus-Shops \u2014 damit Sie aufh\u00f6ren, Umsatz an die Konkurrenz zu verlieren.",
+        "Unser Spezialgebiet. Wir prüfen, reparieren und skalieren den organischen Traffic für Shopify- und Shopify-Plus-Shops — damit Sie aufhören, Umsatz an die Konkurrenz zu verlieren.",
       ctaText: "Shopify-SEO-Audit buchen",
     },
     trustBar: "Mehr als 20 Shopify-Shops vertrauen uns beim organischen Wachstum",
@@ -175,50 +427,50 @@ export const shopifySeoData: Record<Locale, ServicePageProps> = {
       {
         type: "stats",
         badge: "Erfolgsbilanz",
-        heading: "Zahlen, die f\u00fcr sich sprechen",
+        heading: "Zahlen, die für sich sprechen",
         stats: [
           { value: "8+", label: "Jahre Shopify-SEO" },
-          { value: "12\u00a0Mio.\u00a0\u20ac+", label: "generierter Umsatz" },
+          { value: "12\u00a0Mio.\u00a0€+", label: "generierter Umsatz" },
           { value: "50+", label: "optimierte Shopify-Shops" },
           { value: "140\u00a0%", label: "durchschn. Traffic-Steigerung" },
         ],
       },
       {
         type: "benefits",
-        badge: "H\u00e4ufige Shopify-SEO-Probleme",
-        heading: "Die Shopify-SEO-Probleme, die wir t\u00e4glich l\u00f6sen",
+        badge: "Häufige Shopify-SEO-Probleme",
+        heading: "Die Shopify-SEO-Probleme, die wir täglich lösen",
         subtitle:
-          "Die meisten Shopify-Shops haben dieselben technischen SEO-Altlasten. Wir wissen genau, wo wir suchen m\u00fcssen.",
+          "Die meisten Shopify-Shops haben dieselben technischen SEO-Altlasten. Wir wissen genau, wo wir suchen müssen.",
         benefits: [
           {
             title: "Duplicate Content",
             description:
-              "Kollektionsfilter und Tags erzeugen Tausende doppelte URLs, die Ihr Crawl-Budget verw\u00e4ssern.",
+              "Kollektionsfilter und Tags erzeugen Tausende doppelte URLs, die Ihr Crawl-Budget verwässern.",
           },
           {
             title: "Langsame Themes",
             description:
-              "Aufgebl\u00e4hte Liquid-Templates, nicht optimierte Bilder und zu viele App-Skripte verschlechtern Ihre Core Web Vitals.",
+              "Aufgeblähte Liquid-Templates, nicht optimierte Bilder und zu viele App-Skripte verschlechtern Ihre Core Web Vitals.",
           },
           {
             title: "Fehlerhafte Canonical-Tags",
             description:
-              "Shopifys Standard-Canonicals verweisen oft auf die falsche URL-Variante und verwirren Google \u00fcber Ihre bevorzugten Seiten.",
+              "Shopifys Standard-Canonicals verweisen oft auf die falsche URL-Variante und verwirren Google über Ihre bevorzugten Seiten.",
           },
           {
             title: "Paginierungs-Indexierung",
             description:
-              "Paginierte Kollektionsseiten werden als einzelne URLs indexiert und verteilen die Autorit\u00e4t auf Dutzende d\u00fcnner Seiten.",
+              "Paginierte Kollektionsseiten werden als einzelne URLs indexiert und verteilen die Autorität auf Dutzende dünner Seiten.",
           },
           {
             title: "Fehlende strukturierte Daten",
             description:
-              "Produkt-, Bewertungs- und Breadcrumb-Schema fehlen oder sind fehlerhaft \u2014 das kostet Sie Rich-Snippet-Sichtbarkeit.",
+              "Produkt-, Bewertungs- und Breadcrumb-Schema fehlen oder sind fehlerhaft — das kostet Sie Rich-Snippet-Sichtbarkeit.",
           },
           {
-            title: "URL-Struktur-Einschr\u00e4nkungen",
+            title: "URL-Struktur-Einschränkungen",
             description:
-              "Shopify erzwingt /collections/- und /products/-Pr\u00e4fixe. Wir arbeiten innerhalb dieser Grenzen f\u00fcr optimale Crawlbarkeit.",
+              "Shopify erzwingt /collections/- und /products/-Präfixe. Wir arbeiten innerhalb dieser Grenzen für optimale Crawlbarkeit.",
           },
         ],
       },
@@ -227,13 +479,13 @@ export const shopifySeoData: Record<Locale, ServicePageProps> = {
         badge: "Unser Playbook",
         heading: "So skalieren wir Shopify-organischen Traffic",
         subtitle:
-          "Ein bew\u00e4hrter Vier-Schritte-Prozess, verfeinert an \u00fcber 50 Shopify-Shops.",
+          "Ein bewährter Vier-Schritte-Prozess, verfeinert an über 50 Shopify-Shops.",
         process: [
           {
             number: "01",
             title: "Technisches Audit",
             description:
-              "Vollst\u00e4ndige Crawl-Analyse Ihres Shopify-Shops. Wir identifizieren jedes Indexierungsproblem, jeden Canonical-Konflikt und jeden Speed-Engpass.",
+              "Vollständige Crawl-Analyse Ihres Shopify-Shops. Wir identifizieren jedes Indexierungsproblem, jeden Canonical-Konflikt und jeden Speed-Engpass.",
           },
           {
             number: "02",
@@ -260,11 +512,11 @@ export const shopifySeoData: Record<Locale, ServicePageProps> = {
         badge: "Lieferumfang",
         heading: "Was Sie jeden Monat erhalten",
         subtitle:
-          "Transparente Berichte und greifbare Ergebnisse \u2014 kein Blabla, keine Eitelkeitskennzahlen.",
+          "Transparente Berichte und greifbare Ergebnisse — kein Blabla, keine Eitelkeitskennzahlen.",
         deliverables: [
           {
             title: "Technischer Audit-Bericht",
-            description: "Vollst\u00e4ndiger Crawl + priorisierte Fix-Liste",
+            description: "Vollständiger Crawl + priorisierte Fix-Liste",
           },
           {
             title: "Schema-Implementierung",
@@ -286,118 +538,118 @@ export const shopifySeoData: Record<Locale, ServicePageProps> = {
         {
           question: "Warum braucht mein Shopify-Shop spezialisiertes SEO?",
           answer:
-            "Shopify hat einzigartige technische SEO-Herausforderungen, die generische Agenturen \u00fcbersehen \u2014 Duplicate Content durch Kollektionen und Tags, automatisch generierte URL-Strukturen, begrenzte Kontrolle \u00fcber Canonical-Tags und Theme-bedingte Speed-Probleme. Wir sind auf die L\u00f6sung dieser plattformspezifischen Probleme spezialisiert. Unser [Shopify-E-Commerce-SEO-Leitfaden](/blog/shopify-ecommerce-seo) behandelt die h\u00e4ufigsten Probleme im Detail.",
+            "Shopify hat einzigartige technische SEO-Herausforderungen, die generische Agenturen übersehen — Duplicate Content durch Kollektionen und Tags, automatisch generierte URL-Strukturen, begrenzte Kontrolle über Canonical-Tags und Theme-bedingte Speed-Probleme. Wir sind auf die Lösung dieser plattformspezifischen Probleme spezialisiert. Unser [Shopify-E-Commerce-SEO-Leitfaden](/blog/shopify-ecommerce-seo) behandelt die häufigsten Probleme im Detail.",
         },
         {
           question: "Wie schnell sehe ich Ergebnisse bei Shopify-SEO?",
           answer:
-            "Die meisten Shops verzeichnen innerhalb von 60\u201390 Tagen nach Umsetzung unserer technischen Fixes messbare Verbesserungen beim organischen Traffic. Signifikante Umsatzauswirkungen folgen typischerweise innerhalb von 4\u20136 Monaten.",
+            "Die meisten Shops verzeichnen innerhalb von 60–90 Tagen nach Umsetzung unserer technischen Fixes messbare Verbesserungen beim organischen Traffic. Signifikante Umsatzauswirkungen folgen typischerweise innerhalb von 4–6 Monaten.",
         },
         {
           question: "Arbeiten Sie auch mit Shopify-Plus-Shops?",
           answer:
-            "Absolut. Wir arbeiten sowohl mit Standard-Shopify als auch mit Shopify-Plus-Shops. Plus-Shops haben oft komplexere Katalogstrukturen, internationale Storefronts und individuellen Theme-Code \u2014 genau dort liefert unsere technische SEO-Expertise den gr\u00f6\u00dften Mehrwert.",
+            "Absolut. Wir arbeiten sowohl mit Standard-Shopify als auch mit Shopify-Plus-Shops. Plus-Shops haben oft komplexere Katalogstrukturen, internationale Storefronts und individuellen Theme-Code — genau dort liefert unsere technische SEO-Expertise den größten Mehrwert.",
         },
         {
           question: "Was beinhaltet ein Shopify-SEO-Audit?",
           answer:
-            "Unser Audit umfasst Crawlbarkeits- und Indexierungsprobleme, Duplicate Content durch Kollektionen/Tags/Hersteller, Canonical-Tag-Implementierung, [L\u00fccken bei strukturierten Daten](/academy/structured-data-for-products), Core Web Vitals und Theme-Speed, URL-Architektur, interne Verlinkungsstruktur und Content-L\u00fccken im Vergleich zu Ihren Top-Wettbewerbern.",
+            "Unser Audit umfasst Crawlbarkeits- und Indexierungsprobleme, Duplicate Content durch Kollektionen/Tags/Hersteller, Canonical-Tag-Implementierung, [Lücken bei strukturierten Daten](/academy/structured-data-for-products), Core Web Vitals und Theme-Speed, URL-Architektur, interne Verlinkungsstruktur und Content-Lücken im Vergleich zu Ihren Top-Wettbewerbern.",
         },
         {
-          question: "Nehmen Sie \u00c4nderungen direkt an meinem Shopify-Shop vor?",
+          question: "Nehmen Sie Änderungen direkt an meinem Shopify-Shop vor?",
           answer:
-            "Ja, mit Ihrer Genehmigung. Wir \u00fcbernehmen alle technischen Implementierungen \u2014 Theme-Code-Optimierungen, Schema-Markup, Meta-Tag-Templates, Redirect-Management und Sitemap-Konfiguration. Sie pr\u00fcfen und genehmigen jede \u00c4nderung, bevor sie live geht.",
+            "Ja, mit Ihrer Genehmigung. Wir übernehmen alle technischen Implementierungen — Theme-Code-Optimierungen, Schema-Markup, Meta-Tag-Templates, Redirect-Management und Sitemap-Konfiguration. Sie prüfen und genehmigen jede Änderung, bevor sie live geht.",
         },
         {
           question:
             "Was unterscheidet EcomSEO von anderen Shopify-SEO-Agenturen?",
           answer:
-            "Wir arbeiten ausschlie\u00dflich mit E-Commerce-Marken und verstehen daher die Umsatzauswirkung jeder SEO-Entscheidung. Wir konzentrieren uns auf Profit-Metriken (nicht Eitelkeits-Rankings), bieten radikale Transparenz im Reporting und denken als Unternehmer \u2014 wir haben selbst E-Commerce-Marken aufgebaut und skaliert. Erfahren Sie mehr über unsere [technische SEO-Methodik](/technical-seo).",
+            "Wir arbeiten ausschließlich mit E-Commerce-Marken und verstehen daher die Umsatzauswirkung jeder SEO-Entscheidung. Wir konzentrieren uns auf Profit-Metriken (nicht Eitelkeits-Rankings), bieten radikale Transparenz im Reporting und denken als Unternehmer — wir haben selbst E-Commerce-Marken aufgebaut und skaliert. Erfahren Sie mehr über unsere [technische SEO-Methodik](/technical-seo).",
         },
       ],
       miniCta: {
         heading: "Bereit, Ihr Shopify-SEO zu reparieren?",
         subtitle:
-          "Buchen Sie ein kostenloses Audit-Gespr\u00e4ch und wir zeigen Ihnen genau, was Ihren Shop zur\u00fckh\u00e4lt.",
+          "Buchen Sie ein kostenloses Audit-Gespräch und wir zeigen Ihnen genau, was Ihren Shop zurückhält.",
       },
     },
   },
   fr: {
     hero: {
       badge: "Experts SEO Shopify",
-      heading: "SEO Shopify qui g\u00e9n\u00e8re vraiment du chiffre d\u2019affaires",
+      heading: "SEO Shopify qui génère vraiment du chiffre d\u2019affaires",
       subtitle:
-        "Notre sp\u00e9cialit\u00e9. Nous auditons, corrigeons et d\u00e9veloppons le trafic organique des boutiques Shopify et Shopify Plus \u2014 pour que vous arr\u00eatiez de perdre du chiffre d\u2019affaires au profit de vos concurrents.",
-      ctaText: "R\u00e9server un audit SEO Shopify",
+        "Notre spécialité. Nous auditons, corrigeons et développons le trafic organique des boutiques Shopify et Shopify Plus — pour que vous arrêtiez de perdre du chiffre d\u2019affaires au profit de vos concurrents.",
+      ctaText: "Réserver un audit SEO Shopify",
     },
     trustBar: "Plus de 20 boutiques Shopify nous font confiance pour leur croissance organique",
     sections: [
       {
         type: "stats",
         badge: "Bilan",
-        heading: "Des chiffres qui parlent d\u2019eux-m\u00eames",
+        heading: "Des chiffres qui parlent d\u2019eux-mêmes",
         stats: [
-          { value: "8+", label: "ann\u00e9es de SEO Shopify" },
-          { value: "12\u00a0M\u00a0\u20ac+", label: "de CA g\u00e9n\u00e9r\u00e9" },
-          { value: "50+", label: "boutiques Shopify optimis\u00e9es" },
+          { value: "8+", label: "années de SEO Shopify" },
+          { value: "12\u00a0M\u00a0€+", label: "de CA généré" },
+          { value: "50+", label: "boutiques Shopify optimisées" },
           { value: "140\u00a0%", label: "hausse de trafic moyenne" },
         ],
       },
       {
         type: "benefits",
-        badge: "Probl\u00e8mes SEO Shopify courants",
-        heading: "Les probl\u00e8mes SEO Shopify que nous r\u00e9solvons chaque jour",
+        badge: "Problèmes SEO Shopify courants",
+        heading: "Les problèmes SEO Shopify que nous résolvons chaque jour",
         subtitle:
-          "La plupart des boutiques Shopify partagent les m\u00eames dettes techniques SEO. Nous savons exactement o\u00f9 chercher.",
+          "La plupart des boutiques Shopify partagent les mêmes dettes techniques SEO. Nous savons exactement où chercher.",
         benefits: [
           {
-            title: "Contenu dupliq\u00e9",
+            title: "Contenu dupliqué",
             description:
-              "Les filtres et tags de collections cr\u00e9ent des milliers d\u2019URL dupliq\u00e9es qui diluent votre budget de crawl.",
+              "Les filtres et tags de collections créent des milliers d\u2019URL dupliquées qui diluent votre budget de crawl.",
           },
           {
-            title: "Th\u00e8me lent",
+            title: "Thème lent",
             description:
-              "Des templates Liquid surcharg\u00e9s, des images non optimis\u00e9es et des scripts d\u2019apps excessifs plombent vos Core Web Vitals.",
+              "Des templates Liquid surchargés, des images non optimisées et des scripts d\u2019apps excessifs plombent vos Core Web Vitals.",
           },
           {
-            title: "Tags canonical cass\u00e9s",
+            title: "Tags canonical cassés",
             description:
-              "Les canonicals par d\u00e9faut de Shopify pointent souvent vers la mauvaise variante d\u2019URL, cr\u00e9ant de la confusion pour Google.",
+              "Les canonicals par défaut de Shopify pointent souvent vers la mauvaise variante d\u2019URL, créant de la confusion pour Google.",
           },
           {
             title: "Indexation de la pagination",
             description:
-              "Les pages de collection pagin\u00e9es sont index\u00e9es s\u00e9par\u00e9ment, dispersant l\u2019autorit\u00e9 sur des dizaines de pages \u00e0 faible contenu.",
+              "Les pages de collection paginées sont indexées séparément, dispersant l\u2019autorité sur des dizaines de pages à faible contenu.",
           },
           {
-            title: "Donn\u00e9es structur\u00e9es manquantes",
+            title: "Données structurées manquantes",
             description:
-              "Les sch\u00e9mas produit, avis et fil d\u2019Ariane sont absents ou cass\u00e9s \u2014 vous co\u00fbtant en visibilit\u00e9 de rich snippets.",
+              "Les schémas produit, avis et fil d\u2019Ariane sont absents ou cassés — vous coûtant en visibilité de rich snippets.",
           },
           {
             title: "Limites de structure d\u2019URL",
             description:
-              "Shopify impose les pr\u00e9fixes /collections/ et /products/. Nous travaillons dans ces contraintes pour une crawlabilit\u00e9 optimale.",
+              "Shopify impose les préfixes /collections/ et /products/. Nous travaillons dans ces contraintes pour une crawlabilité optimale.",
           },
         ],
       },
       {
         type: "process",
-        badge: "Notre m\u00e9thode",
-        heading: "Comment nous d\u00e9veloppons le trafic organique Shopify",
+        badge: "Notre méthode",
+        heading: "Comment nous développons le trafic organique Shopify",
         subtitle:
-          "Un processus en quatre \u00e9tapes affin\u00e9 sur plus de 50 boutiques Shopify.",
+          "Un processus en quatre étapes affiné sur plus de 50 boutiques Shopify.",
         process: [
           {
             number: "01",
             title: "Audit technique",
             description:
-              "Analyse compl\u00e8te du crawl de votre boutique Shopify. Nous identifions chaque probl\u00e8me d\u2019indexation, conflit canonical et goulot d\u2019\u00e9tranglement.",
+              "Analyse complète du crawl de votre boutique Shopify. Nous identifions chaque problème d\u2019indexation, conflit canonical et goulot d\u2019étranglement.",
           },
           {
             number: "02",
-            title: "Optimisation du th\u00e8me",
+            title: "Optimisation du thème",
             description:
               "Corrections de vitesse au niveau des templates Liquid. Nous optimisons les ressources bloquantes, les images et les scripts tiers.",
           },
@@ -405,13 +657,13 @@ export const shopifySeoData: Record<Locale, ServicePageProps> = {
             number: "03",
             title: "Architecture des collections",
             description:
-              "Restructuration des collections, tags et maillage interne pour cr\u00e9er une hi\u00e9rarchie claire que Google peut comprendre et r\u00e9compenser.",
+              "Restructuration des collections, tags et maillage interne pour créer une hiérarchie claire que Google peut comprendre et récompenser.",
           },
           {
             number: "04",
             title: "Suivi continu",
             description:
-              "Rapports mensuels, suivi des positions et am\u00e9liorations it\u00e9ratives. Nous d\u00e9tectons les probl\u00e8mes avant qu\u2019ils ne co\u00fbtent du trafic.",
+              "Rapports mensuels, suivi des positions et améliorations itératives. Nous détectons les problèmes avant qu\u2019ils ne coûtent du trafic.",
           },
         ],
       },
@@ -420,19 +672,19 @@ export const shopifySeoData: Record<Locale, ServicePageProps> = {
         badge: "Livrables",
         heading: "Ce que vous recevez chaque mois",
         subtitle:
-          "Des rapports transparents et des r\u00e9sultats concrets \u2014 pas de baratin, pas de m\u00e9triques de vanit\u00e9.",
+          "Des rapports transparents et des résultats concrets — pas de baratin, pas de métriques de vanité.",
         deliverables: [
           {
             title: "Rapport d\u2019audit technique",
-            description: "Crawl complet + liste de corrections prioris\u00e9es",
+            description: "Crawl complet + liste de corrections priorisées",
           },
           {
-            title: "Impl\u00e9mentation de sch\u00e9mas",
+            title: "Implémentation de schémas",
             description: "JSON-LD produit + fil d\u2019Ariane",
           },
           {
             title: "Optimisation de la vitesse",
-            description: "Am\u00e9liorations des Core Web Vitals",
+            description: "Améliorations des Core Web Vitals",
           },
           {
             title: "Rapport mensuel",
@@ -444,41 +696,41 @@ export const shopifySeoData: Record<Locale, ServicePageProps> = {
     faqs: {
       items: [
         {
-          question: "Pourquoi ma boutique Shopify a-t-elle besoin d\u2019un SEO sp\u00e9cialis\u00e9\u00a0?",
+          question: "Pourquoi ma boutique Shopify a-t-elle besoin d\u2019un SEO spécialisé\u00a0?",
           answer:
-            "Shopify pr\u00e9sente des d\u00e9fis techniques SEO uniques que les agences g\u00e9n\u00e9ralistes ne voient pas \u2014 contenu dupliq\u00e9 par les collections et tags, structures d\u2019URL auto-g\u00e9n\u00e9r\u00e9es, contr\u00f4le limit\u00e9 des canonical tags et probl\u00e8mes de vitesse li\u00e9s au th\u00e8me. Nous sommes sp\u00e9cialis\u00e9s dans la r\u00e9solution de ces probl\u00e8mes sp\u00e9cifiques \u00e0 la plateforme. Notre [guide SEO e-commerce Shopify](/blog/shopify-ecommerce-seo) couvre les probl\u00e8mes les plus courants en d\u00e9tail.",
+            "Shopify présente des défis techniques SEO uniques que les agences généralistes ne voient pas — contenu dupliqué par les collections et tags, structures d\u2019URL auto-générées, contrôle limité des canonical tags et problèmes de vitesse liés au thème. Nous sommes spécialisés dans la résolution de ces problèmes spécifiques à la plateforme. Notre [guide SEO e-commerce Shopify](/blog/shopify-ecommerce-seo) couvre les problèmes les plus courants en détail.",
         },
         {
-          question: "En combien de temps vais-je voir des r\u00e9sultats avec le SEO Shopify\u00a0?",
+          question: "En combien de temps vais-je voir des résultats avec le SEO Shopify\u00a0?",
           answer:
-            "La plupart des boutiques constatent des am\u00e9liorations mesurables du trafic organique dans les 60\u00a0\u00e0\u00a090\u00a0jours suivant nos corrections techniques. L\u2019impact significatif sur le chiffre d\u2019affaires suit g\u00e9n\u00e9ralement dans les 4\u00a0\u00e0\u00a06\u00a0mois.",
+            "La plupart des boutiques constatent des améliorations mesurables du trafic organique dans les 60\u00a0à\u00a090\u00a0jours suivant nos corrections techniques. L\u2019impact significatif sur le chiffre d\u2019affaires suit généralement dans les 4\u00a0à\u00a06\u00a0mois.",
         },
         {
           question: "Travaillez-vous avec les boutiques Shopify Plus\u00a0?",
           answer:
-            "Absolument. Nous travaillons avec les boutiques Shopify standard et Shopify Plus. Les boutiques Plus ont souvent des structures de catalogue plus complexes, des vitrines internationales et du code de th\u00e8me personnalis\u00e9 \u2014 autant de domaines o\u00f9 notre expertise SEO technique apporte le plus de valeur.",
+            "Absolument. Nous travaillons avec les boutiques Shopify standard et Shopify Plus. Les boutiques Plus ont souvent des structures de catalogue plus complexes, des vitrines internationales et du code de thème personnalisé — autant de domaines où notre expertise SEO technique apporte le plus de valeur.",
         },
         {
           question: "Que comprend un audit SEO Shopify\u00a0?",
           answer:
-            "Notre audit couvre les probl\u00e8mes de crawlabilit\u00e9 et d\u2019indexation, le contenu dupliq\u00e9 des collections/tags/fournisseurs, l\u2019impl\u00e9mentation des canonical tags, les [lacunes en donn\u00e9es structur\u00e9es](/academy/structured-data-for-products), les Core Web Vitals et la vitesse du th\u00e8me, l\u2019architecture des URL, le maillage interne et les lacunes de contenu par rapport \u00e0 vos concurrents.",
+            "Notre audit couvre les problèmes de crawlabilité et d\u2019indexation, le contenu dupliqué des collections/tags/fournisseurs, l\u2019implémentation des canonical tags, les [lacunes en données structurées](/academy/structured-data-for-products), les Core Web Vitals et la vitesse du thème, l\u2019architecture des URL, le maillage interne et les lacunes de contenu par rapport à vos concurrents.",
         },
         {
           question: "Ferez-vous des modifications directement sur ma boutique Shopify\u00a0?",
           answer:
-            "Oui, avec votre accord. Nous g\u00e9rons toutes les impl\u00e9mentations techniques \u2014 optimisations du code du th\u00e8me, balisage schema, templates de balises meta, gestion des redirections et configuration du sitemap. Vous validez chaque modification avant sa mise en ligne.",
+            "Oui, avec votre accord. Nous gérons toutes les implémentations techniques — optimisations du code du thème, balisage schema, templates de balises meta, gestion des redirections et configuration du sitemap. Vous validez chaque modification avant sa mise en ligne.",
         },
         {
           question:
             "En quoi EcomSEO se distingue-t-il des autres agences SEO Shopify\u00a0?",
           answer:
-            "Nous travaillons exclusivement avec des marques e-commerce et comprenons l\u2019impact sur le CA de chaque d\u00e9cision SEO. Nous nous concentrons sur les m\u00e9triques de profit (pas les classements de vanit\u00e9), offrons une transparence totale dans nos rapports et apportons un \u00e9tat d\u2019esprit d\u2019op\u00e9rateur \u2014 nous avons nous-m\u00eames construit et d\u00e9velopp\u00e9 des marques e-commerce. D\u00e9couvrez notre [m\u00e9thodologie SEO technique](/technical-seo).",
+            "Nous travaillons exclusivement avec des marques e-commerce et comprenons l\u2019impact sur le CA de chaque décision SEO. Nous nous concentrons sur les métriques de profit (pas les classements de vanité), offrons une transparence totale dans nos rapports et apportons un état d\u2019esprit d\u2019opérateur — nous avons nous-mêmes construit et développé des marques e-commerce. Découvrez notre [méthodologie SEO technique](/technical-seo).",
         },
       ],
       miniCta: {
-        heading: "Pr\u00eat \u00e0 corriger votre SEO Shopify\u00a0?",
+        heading: "Prêt à corriger votre SEO Shopify\u00a0?",
         subtitle:
-          "R\u00e9servez un appel d\u2019audit gratuit et nous vous montrerons exactement ce qui freine votre boutique.",
+          "Réservez un appel d\u2019audit gratuit et nous vous montrerons exactement ce qui freine votre boutique.",
       },
     },
   },
@@ -487,28 +739,28 @@ export const shopifySeoData: Record<Locale, ServicePageProps> = {
       badge: "Expertos en SEO para Shopify",
       heading: "SEO para Shopify que realmente genera ingresos",
       subtitle:
-        "Nuestra especialidad. Auditamos, reparamos y escalamos el tr\u00e1fico org\u00e1nico de tiendas Shopify y Shopify Plus, para que dejes de perder ingresos frente a la competencia.",
-      ctaText: "Reserva una auditor\u00eda SEO Shopify",
+        "Nuestra especialidad. Auditamos, reparamos y escalamos el tráfico orgánico de tiendas Shopify y Shopify Plus, para que dejes de perder ingresos frente a la competencia.",
+      ctaText: "Reserva una auditoría SEO Shopify",
     },
-    trustBar: "M\u00e1s de 20 tiendas Shopify conf\u00edan en nosotros para crecer org\u00e1nicamente",
+    trustBar: "Más de 20 tiendas Shopify confían en nosotros para crecer orgánicamente",
     sections: [
       {
         type: "stats",
         badge: "Trayectoria",
-        heading: "N\u00fameros que hablan por s\u00ed solos",
+        heading: "Números que hablan por sí solos",
         stats: [
-          { value: "8+", label: "a\u00f1os de SEO Shopify" },
-          { value: "12\u00a0M\u00a0\u20ac+", label: "ingresos generados" },
+          { value: "8+", label: "años de SEO Shopify" },
+          { value: "12\u00a0M\u00a0€+", label: "ingresos generados" },
           { value: "50+", label: "tiendas Shopify optimizadas" },
-          { value: "140\u00a0%", label: "aumento medio de tr\u00e1fico" },
+          { value: "140\u00a0%", label: "aumento medio de tráfico" },
         ],
       },
       {
         type: "benefits",
         badge: "Problemas SEO comunes en Shopify",
-        heading: "Los problemas de SEO Shopify que resolvemos cada d\u00eda",
+        heading: "Los problemas de SEO Shopify que resolvemos cada día",
         subtitle:
-          "La mayor\u00eda de las tiendas Shopify comparten la misma deuda t\u00e9cnica SEO. Sabemos exactamente d\u00f3nde mirar.",
+          "La mayoría de las tiendas Shopify comparten la misma deuda técnica SEO. Sabemos exactamente dónde mirar.",
         benefits: [
           {
             title: "Contenido duplicado",
@@ -518,60 +770,60 @@ export const shopifySeoData: Record<Locale, ServicePageProps> = {
           {
             title: "Tema lento",
             description:
-              "Plantillas Liquid sobrecargadas, im\u00e1genes sin optimizar y scripts excesivos de apps hunden tus Core Web Vitals.",
+              "Plantillas Liquid sobrecargadas, imágenes sin optimizar y scripts excesivos de apps hunden tus Core Web Vitals.",
           },
           {
             title: "Etiquetas canonical rotas",
             description:
-              "Los canonicals por defecto de Shopify a menudo apuntan a la variante de URL incorrecta, confundiendo a Google sobre tus p\u00e1ginas preferidas.",
+              "Los canonicals por defecto de Shopify a menudo apuntan a la variante de URL incorrecta, confundiendo a Google sobre tus páginas preferidas.",
           },
           {
-            title: "Indexaci\u00f3n de paginaci\u00f3n",
+            title: "Indexación de paginación",
             description:
-              "Las p\u00e1ginas de colecci\u00f3n paginadas se indexan como URLs independientes, dividiendo la autoridad en decenas de p\u00e1ginas d\u00e9biles.",
+              "Las páginas de colección paginadas se indexan como URLs independientes, dividiendo la autoridad en decenas de páginas débiles.",
           },
           {
             title: "Datos estructurados ausentes",
             description:
-              "Los esquemas de producto, rese\u00f1as y breadcrumbs est\u00e1n ausentes o rotos, cost\u00e1ndote visibilidad en rich snippets.",
+              "Los esquemas de producto, reseñas y breadcrumbs están ausentes o rotos, costándote visibilidad en rich snippets.",
           },
           {
             title: "Limitaciones de estructura de URL",
             description:
-              "Shopify impone los prefijos /collections/ y /products/. Trabajamos dentro de estas restricciones para una rastreabilidad \u00f3ptima.",
+              "Shopify impone los prefijos /collections/ y /products/. Trabajamos dentro de estas restricciones para una rastreabilidad óptima.",
           },
         ],
       },
       {
         type: "process",
-        badge: "Nuestro m\u00e9todo",
-        heading: "C\u00f3mo escalamos el tr\u00e1fico org\u00e1nico en Shopify",
+        badge: "Nuestro método",
+        heading: "Cómo escalamos el tráfico orgánico en Shopify",
         subtitle:
-          "Un proceso probado en cuatro pasos, perfeccionado en m\u00e1s de 50 tiendas Shopify.",
+          "Un proceso probado en cuatro pasos, perfeccionado en más de 50 tiendas Shopify.",
         process: [
           {
             number: "01",
-            title: "Auditor\u00eda t\u00e9cnica",
+            title: "Auditoría técnica",
             description:
-              "An\u00e1lisis completo de rastreo de tu tienda Shopify. Mapeamos cada problema de indexaci\u00f3n, conflicto canonical y cuello de botella de velocidad.",
+              "Análisis completo de rastreo de tu tienda Shopify. Mapeamos cada problema de indexación, conflicto canonical y cuello de botella de velocidad.",
           },
           {
             number: "02",
-            title: "Optimizaci\u00f3n del tema",
+            title: "Optimización del tema",
             description:
-              "Correcciones de velocidad a nivel de plantilla Liquid. Optimizamos recursos que bloquean el renderizado, im\u00e1genes y scripts de terceros.",
+              "Correcciones de velocidad a nivel de plantilla Liquid. Optimizamos recursos que bloquean el renderizado, imágenes y scripts de terceros.",
           },
           {
             number: "03",
             title: "Arquitectura de colecciones",
             description:
-              "Reestructuramos colecciones, etiquetas y enlaces internos para crear una jerarqu\u00eda clara que Google entienda y recompense.",
+              "Reestructuramos colecciones, etiquetas y enlaces internos para crear una jerarquía clara que Google entienda y recompense.",
           },
           {
             number: "04",
-            title: "Monitorizaci\u00f3n continua",
+            title: "Monitorización continua",
             description:
-              "Informes mensuales, seguimiento de rankings y mejoras iterativas. Detectamos problemas antes de que te cuesten tr\u00e1fico.",
+              "Informes mensuales, seguimiento de rankings y mejoras iterativas. Detectamos problemas antes de que te cuesten tráfico.",
           },
         ],
       },
@@ -580,23 +832,23 @@ export const shopifySeoData: Record<Locale, ServicePageProps> = {
         badge: "Entregables",
         heading: "Lo que recibes cada mes",
         subtitle:
-          "Informes transparentes y resultados tangibles \u2014 sin relleno, sin m\u00e9tricas de vanidad.",
+          "Informes transparentes y resultados tangibles — sin relleno, sin métricas de vanidad.",
         deliverables: [
           {
-            title: "Informe de auditor\u00eda t\u00e9cnica",
+            title: "Informe de auditoría técnica",
             description: "Crawl completo + lista de correcciones priorizada",
           },
           {
-            title: "Implementaci\u00f3n de schema",
+            title: "Implementación de schema",
             description: "JSON-LD de producto + breadcrumbs",
           },
           {
-            title: "Optimizaci\u00f3n de velocidad",
+            title: "Optimización de velocidad",
             description: "Mejoras en Core Web Vitals",
           },
           {
             title: "Informe mensual",
-            description: "Rankings, tr\u00e1fico, impacto en ingresos",
+            description: "Rankings, tráfico, impacto en ingresos",
           },
         ],
       },
@@ -604,41 +856,41 @@ export const shopifySeoData: Record<Locale, ServicePageProps> = {
     faqs: {
       items: [
         {
-          question: "\u00bfPor qu\u00e9 mi tienda Shopify necesita SEO especializado?",
+          question: "¿Por qué mi tienda Shopify necesita SEO especializado?",
           answer:
-            "Shopify tiene desaf\u00edos t\u00e9cnicos SEO \u00fanicos que las agencias generalistas pasan por alto: contenido duplicado por colecciones y etiquetas, estructuras de URL autogeneradas, control limitado de canonical tags y problemas de velocidad del tema. Nos especializamos en resolver estos problemas espec\u00edficos de la plataforma. Nuestra [gu\u00eda SEO e-commerce para Shopify](/blog/shopify-ecommerce-seo) cubre los problemas m\u00e1s comunes en detalle.",
+            "Shopify tiene desafíos técnicos SEO únicos que las agencias generalistas pasan por alto: contenido duplicado por colecciones y etiquetas, estructuras de URL autogeneradas, control limitado de canonical tags y problemas de velocidad del tema. Nos especializamos en resolver estos problemas específicos de la plataforma. Nuestra [guía SEO e-commerce para Shopify](/blog/shopify-ecommerce-seo) cubre los problemas más comunes en detalle.",
         },
         {
-          question: "\u00bfCu\u00e1nto tarda en verse resultados con el SEO de Shopify?",
+          question: "¿Cuánto tarda en verse resultados con el SEO de Shopify?",
           answer:
-            "La mayor\u00eda de tiendas ven mejoras medibles en tr\u00e1fico org\u00e1nico en 60\u201390 d\u00edas tras implementar nuestras correcciones t\u00e9cnicas. El impacto significativo en ingresos suele llegar en 4\u20136 meses.",
+            "La mayoría de tiendas ven mejoras medibles en tráfico orgánico en 60–90 días tras implementar nuestras correcciones técnicas. El impacto significativo en ingresos suele llegar en 4–6 meses.",
         },
         {
-          question: "\u00bfTrabajan con tiendas Shopify Plus?",
+          question: "¿Trabajan con tiendas Shopify Plus?",
           answer:
-            "Por supuesto. Trabajamos con tiendas Shopify est\u00e1ndar y Shopify Plus. Las tiendas Plus suelen tener estructuras de cat\u00e1logo m\u00e1s complejas, escaparates internacionales y c\u00f3digo de tema personalizado, \u00e1reas donde nuestra experiencia t\u00e9cnica SEO aporta m\u00e1s valor.",
+            "Por supuesto. Trabajamos con tiendas Shopify estándar y Shopify Plus. Las tiendas Plus suelen tener estructuras de catálogo más complejas, escaparates internacionales y código de tema personalizado, áreas donde nuestra experiencia técnica SEO aporta más valor.",
         },
         {
-          question: "\u00bfQu\u00e9 incluye una auditor\u00eda SEO de Shopify?",
+          question: "¿Qué incluye una auditoría SEO de Shopify?",
           answer:
-            "Nuestra auditor\u00eda cubre problemas de rastreabilidad e indexaci\u00f3n, contenido duplicado de colecciones/etiquetas/proveedores, implementaci\u00f3n de canonical tags, [carencias en datos estructurados](/academy/structured-data-for-products), Core Web Vitals y velocidad del tema, arquitectura de URLs, estructura de enlazado interno y brechas de contenido frente a tus principales competidores.",
+            "Nuestra auditoría cubre problemas de rastreabilidad e indexación, contenido duplicado de colecciones/etiquetas/proveedores, implementación de canonical tags, [carencias en datos estructurados](/academy/structured-data-for-products), Core Web Vitals y velocidad del tema, arquitectura de URLs, estructura de enlazado interno y brechas de contenido frente a tus principales competidores.",
         },
         {
-          question: "\u00bfHar\u00e9is cambios directamente en mi tienda Shopify?",
+          question: "¿Haréis cambios directamente en mi tienda Shopify?",
           answer:
-            "S\u00ed, con tu aprobaci\u00f3n. Nos encargamos de todas las implementaciones t\u00e9cnicas: optimizaciones del c\u00f3digo del tema, marcado schema, plantillas de meta tags, gesti\u00f3n de redirecciones y configuraci\u00f3n de sitemap. T\u00fa revisas y apruebas cada cambio antes de que se publique.",
+            "Sí, con tu aprobación. Nos encargamos de todas las implementaciones técnicas: optimizaciones del código del tema, marcado schema, plantillas de meta tags, gestión de redirecciones y configuración de sitemap. Tú revisas y apruebas cada cambio antes de que se publique.",
         },
         {
           question:
-            "\u00bfEn qu\u00e9 se diferencia EcomSEO de otras agencias SEO para Shopify?",
+            "¿En qué se diferencia EcomSEO de otras agencias SEO para Shopify?",
           answer:
-            "Solo trabajamos con marcas de e-commerce, as\u00ed que entendemos el impacto en ingresos de cada decisi\u00f3n SEO. Nos centramos en m\u00e9tricas de rentabilidad (no rankings de vanidad), ofrecemos total transparencia en los informes y pensamos como operadores: hemos construido y escalado marcas de e-commerce nosotros mismos. Conoce m\u00e1s sobre nuestra [metodolog\u00eda de SEO t\u00e9cnico](/technical-seo).",
+            "Solo trabajamos con marcas de e-commerce, así que entendemos el impacto en ingresos de cada decisión SEO. Nos centramos en métricas de rentabilidad (no rankings de vanidad), ofrecemos total transparencia en los informes y pensamos como operadores: hemos construido y escalado marcas de e-commerce nosotros mismos. Conoce más sobre nuestra [metodología de SEO técnico](/technical-seo).",
         },
       ],
       miniCta: {
-        heading: "\u00bfListo para arreglar tu SEO en Shopify?",
+        heading: "¿Listo para arreglar tu SEO en Shopify?",
         subtitle:
-          "Reserva una llamada de auditor\u00eda gratuita y te mostraremos exactamente qu\u00e9 est\u00e1 frenando tu tienda.",
+          "Reserva una llamada de auditoría gratuita y te mostraremos exactamente qué está frenando tu tienda.",
       },
     },
   },
@@ -647,7 +899,7 @@ export const shopifySeoData: Record<Locale, ServicePageProps> = {
       badge: "Esperti SEO Shopify",
       heading: "SEO Shopify che genera davvero fatturato",
       subtitle:
-        "La nostra specialit\u00e0. Analizziamo, correggiamo e facciamo crescere il traffico organico per negozi Shopify e Shopify Plus \u2014 cos\u00ec smetti di perdere fatturato a favore dei concorrenti.",
+        "La nostra specialità. Analizziamo, correggiamo e facciamo crescere il traffico organico per negozi Shopify e Shopify Plus — così smetti di perdere fatturato a favore dei concorrenti.",
       ctaText: "Prenota un audit SEO Shopify",
     },
     trustBar: "Oltre 20 negozi Shopify si affidano a noi per la crescita organica",
@@ -658,7 +910,7 @@ export const shopifySeoData: Record<Locale, ServicePageProps> = {
         heading: "Numeri che parlano da soli",
         stats: [
           { value: "8+", label: "anni di SEO Shopify" },
-          { value: "12\u00a0Mln\u00a0\u20ac+", label: "fatturato generato" },
+          { value: "12\u00a0Mln\u00a0€+", label: "fatturato generato" },
           { value: "50+", label: "negozi Shopify ottimizzati" },
           { value: "140\u00a0%", label: "aumento medio del traffico" },
         ],
@@ -688,17 +940,17 @@ export const shopifySeoData: Record<Locale, ServicePageProps> = {
           {
             title: "Indicizzazione della paginazione",
             description:
-              "Le pagine di collezione paginate vengono indicizzate come URL separate, disperdendo l\u2019autorit\u00e0 su decine di pagine deboli.",
+              "Le pagine di collezione paginate vengono indicizzate come URL separate, disperdendo l\u2019autorità su decine di pagine deboli.",
           },
           {
             title: "Dati strutturati mancanti",
             description:
-              "Gli schema prodotto, recensioni e breadcrumb sono assenti o rotti \u2014 ti costano visibilit\u00e0 nei rich snippet.",
+              "Gli schema prodotto, recensioni e breadcrumb sono assenti o rotti — ti costano visibilità nei rich snippet.",
           },
           {
             title: "Limiti della struttura URL",
             description:
-              "Shopify impone i prefissi /collections/ e /products/. Lavoriamo all\u2019interno di questi vincoli per una scansionabilit\u00e0 ottimale.",
+              "Shopify impone i prefissi /collections/ e /products/. Lavoriamo all\u2019interno di questi vincoli per una scansionabilità ottimale.",
           },
         ],
       },
@@ -713,13 +965,13 @@ export const shopifySeoData: Record<Locale, ServicePageProps> = {
             number: "01",
             title: "Audit tecnico",
             description:
-              "Analisi completa del crawl del tuo negozio Shopify. Mappiamo ogni problema di indicizzazione, conflitto canonical e collo di bottiglia della velocit\u00e0.",
+              "Analisi completa del crawl del tuo negozio Shopify. Mappiamo ogni problema di indicizzazione, conflitto canonical e collo di bottiglia della velocità.",
           },
           {
             number: "02",
             title: "Ottimizzazione del tema",
             description:
-              "Correzioni di velocit\u00e0 a livello di template Liquid. Ottimizziamo risorse bloccanti, immagini e script di terze parti.",
+              "Correzioni di velocità a livello di template Liquid. Ottimizziamo risorse bloccanti, immagini e script di terze parti.",
           },
           {
             number: "03",
@@ -740,7 +992,7 @@ export const shopifySeoData: Record<Locale, ServicePageProps> = {
         badge: "Deliverable",
         heading: "Cosa ricevi ogni mese",
         subtitle:
-          "Report trasparenti e risultati concreti \u2014 niente fuffa, niente metriche di vanit\u00e0.",
+          "Report trasparenti e risultati concreti — niente fuffa, niente metriche di vanità.",
         deliverables: [
           {
             title: "Report audit tecnico",
@@ -751,7 +1003,7 @@ export const shopifySeoData: Record<Locale, ServicePageProps> = {
             description: "JSON-LD prodotto + breadcrumb",
           },
           {
-            title: "Ottimizzazione velocit\u00e0",
+            title: "Ottimizzazione velocità",
             description: "Miglioramenti Core Web Vitals",
           },
           {
@@ -764,35 +1016,35 @@ export const shopifySeoData: Record<Locale, ServicePageProps> = {
     faqs: {
       items: [
         {
-          question: "Perch\u00e9 il mio negozio Shopify ha bisogno di un SEO specializzato?",
+          question: "Perché il mio negozio Shopify ha bisogno di un SEO specializzato?",
           answer:
-            "Shopify presenta sfide SEO tecniche uniche che le agenzie generaliste non colgono \u2014 contenuti duplicati da collezioni e tag, strutture URL generate automaticamente, controllo limitato sui tag canonical e problemi di velocit\u00e0 del tema. Siamo specializzati nel risolvere questi problemi specifici della piattaforma. La nostra [guida SEO e-commerce Shopify](/blog/shopify-ecommerce-seo) copre i problemi pi\u00f9 comuni in dettaglio.",
+            "Shopify presenta sfide SEO tecniche uniche che le agenzie generaliste non colgono — contenuti duplicati da collezioni e tag, strutture URL generate automaticamente, controllo limitato sui tag canonical e problemi di velocità del tema. Siamo specializzati nel risolvere questi problemi specifici della piattaforma. La nostra [guida SEO e-commerce Shopify](/blog/shopify-ecommerce-seo) copre i problemi più comuni in dettaglio.",
         },
         {
           question: "Quanto tempo ci vuole per vedere risultati con il SEO Shopify?",
           answer:
-            "La maggior parte dei negozi registra miglioramenti misurabili nel traffico organico entro 60\u201390 giorni dall\u2019implementazione dei nostri fix tecnici. L\u2019impatto significativo sul fatturato segue tipicamente entro 4\u20136 mesi.",
+            "La maggior parte dei negozi registra miglioramenti misurabili nel traffico organico entro 60–90 giorni dall\u2019implementazione dei nostri fix tecnici. L\u2019impatto significativo sul fatturato segue tipicamente entro 4–6 mesi.",
         },
         {
           question: "Lavorate anche con negozi Shopify Plus?",
           answer:
-            "Assolutamente. Lavoriamo sia con Shopify standard che con Shopify Plus. I negozi Plus spesso hanno strutture di catalogo pi\u00f9 complesse, vetrine internazionali e codice tema personalizzato \u2014 tutte aree in cui la nostra competenza SEO tecnica offre il massimo valore.",
+            "Assolutamente. Lavoriamo sia con Shopify standard che con Shopify Plus. I negozi Plus spesso hanno strutture di catalogo più complesse, vetrine internazionali e codice tema personalizzato — tutte aree in cui la nostra competenza SEO tecnica offre il massimo valore.",
         },
         {
           question: "Cosa include un audit SEO Shopify?",
           answer:
-            "Il nostro audit copre problemi di scansionabilit\u00e0 e indicizzazione, contenuti duplicati da collezioni/tag/fornitori, implementazione dei tag canonical, [lacune nei dati strutturati](/academy/structured-data-for-products), Core Web Vitals e velocit\u00e0 del tema, architettura degli URL, struttura dei link interni e gap di contenuto rispetto ai tuoi principali concorrenti.",
+            "Il nostro audit copre problemi di scansionabilità e indicizzazione, contenuti duplicati da collezioni/tag/fornitori, implementazione dei tag canonical, [lacune nei dati strutturati](/academy/structured-data-for-products), Core Web Vitals e velocità del tema, architettura degli URL, struttura dei link interni e gap di contenuto rispetto ai tuoi principali concorrenti.",
         },
         {
           question: "Apporterete modifiche direttamente al mio negozio Shopify?",
           answer:
-            "S\u00ec, con la tua approvazione. Gestiamo tutte le implementazioni tecniche \u2014 ottimizzazioni del codice del tema, markup schema, template dei meta tag, gestione dei redirect e configurazione della sitemap. Tu rivedi e approvi ogni modifica prima che vada live.",
+            "Sì, con la tua approvazione. Gestiamo tutte le implementazioni tecniche — ottimizzazioni del codice del tema, markup schema, template dei meta tag, gestione dei redirect e configurazione della sitemap. Tu rivedi e approvi ogni modifica prima che vada live.",
         },
         {
           question:
             "In cosa si differenzia EcomSEO dalle altre agenzie SEO Shopify?",
           answer:
-            "Lavoriamo esclusivamente con brand e-commerce, quindi comprendiamo l\u2019impatto sul fatturato di ogni decisione SEO. Ci concentriamo su metriche di profitto (non ranking di vanit\u00e0), offriamo totale trasparenza nel reporting e ragioniamo da operatori \u2014 abbiamo costruito e scalato brand e-commerce noi stessi. Scopri di pi\u00f9 sulla nostra [metodologia SEO tecnica](/technical-seo).",
+            "Lavoriamo esclusivamente con brand e-commerce, quindi comprendiamo l\u2019impatto sul fatturato di ogni decisione SEO. Ci concentriamo su metriche di profitto (non ranking di vanità), offriamo totale trasparenza nel reporting e ragioniamo da operatori — abbiamo costruito e scalato brand e-commerce noi stessi. Scopri di più sulla nostra [metodologia SEO tecnica](/technical-seo).",
         },
       ],
       miniCta: {
@@ -805,9 +1057,9 @@ export const shopifySeoData: Record<Locale, ServicePageProps> = {
   nl: {
     hero: {
       badge: "Shopify SEO-experts",
-      heading: "Shopify-SEO die \u00e9cht omzet oplevert",
+      heading: "Shopify-SEO die écht omzet oplevert",
       subtitle:
-        "Ons paradepaardje. We auditen, fixen en schalen organisch verkeer voor Shopify- en Shopify Plus-winkels \u2014 zodat je stopt met omzet verliezen aan de concurrentie.",
+        "Ons paradepaardje. We auditen, fixen en schalen organisch verkeer voor Shopify- en Shopify Plus-winkels — zodat je stopt met omzet verliezen aan de concurrentie.",
       ctaText: "Boek een Shopify SEO-audit",
     },
     trustBar: "Meer dan 20 Shopify-winkels vertrouwen op ons voor organische groei",
@@ -818,7 +1070,7 @@ export const shopifySeoData: Record<Locale, ServicePageProps> = {
         heading: "Cijfers die voor zich spreken",
         stats: [
           { value: "8+", label: "jaar Shopify-SEO" },
-          { value: "\u20ac\u00a012\u00a0M+", label: "gegenereerde omzet" },
+          { value: "€\u00a012\u00a0M+", label: "gegenereerde omzet" },
           { value: "50+", label: "Shopify-winkels geoptimaliseerd" },
           { value: "140\u00a0%", label: "gem. verkeerstoename" },
         ],
@@ -833,7 +1085,7 @@ export const shopifySeoData: Record<Locale, ServicePageProps> = {
           {
             title: "Dubbele content",
             description:
-              "Collectiefilters en tags cre\u00ebren duizenden dubbele URL\u2019s die je crawlbudget verdunnen.",
+              "Collectiefilters en tags creëren duizenden dubbele URL\u2019s die je crawlbudget verdunnen.",
           },
           {
             title: "Traag thema",
@@ -843,17 +1095,17 @@ export const shopifySeoData: Record<Locale, ServicePageProps> = {
           {
             title: "Foutieve canonical-tags",
             description:
-              "Shopify\u2019s standaard canonicals verwijzen vaak naar de verkeerde URL-variant, wat Google in verwarring brengt over je voorkeurspagin\u2019s.",
+              "Shopify\u2019s standaard canonicals verwijzen vaak naar de verkeerde URL-variant, wat Google in verwarring brengt over je voorkeurspagina\u2019s.",
           },
           {
             title: "Paginering-indexatie",
             description:
-              "Gepagineerde collectiepagina\u2019s worden als afzonderlijke URL\u2019s ge\u00efndexeerd, waardoor autoriteit verdeeld raakt over tientallen dunne pagina\u2019s.",
+              "Gepagineerde collectiepagina\u2019s worden als afzonderlijke URL\u2019s geïndexeerd, waardoor autoriteit verdeeld raakt over tientallen dunne pagina\u2019s.",
           },
           {
             title: "Ontbrekende gestructureerde data",
             description:
-              "Product-, review- en breadcrumb-schema\u2019s ontbreken of zijn defect \u2014 dat kost je rich snippet-zichtbaarheid.",
+              "Product-, review- en breadcrumb-schema\u2019s ontbreken of zijn defect — dat kost je rich snippet-zichtbaarheid.",
           },
           {
             title: "URL-structuurbeperkingen",
@@ -885,7 +1137,7 @@ export const shopifySeoData: Record<Locale, ServicePageProps> = {
             number: "03",
             title: "Collectie-architectuur",
             description:
-              "Collecties, tags en interne links herstructureren om een duidelijke hi\u00ebrarchie te cre\u00ebren die Google begrijpt en beloont.",
+              "Collecties, tags en interne links herstructureren om een duidelijke hiërarchie te creëren die Google begrijpt en beloont.",
           },
           {
             number: "04",
@@ -900,7 +1152,7 @@ export const shopifySeoData: Record<Locale, ServicePageProps> = {
         badge: "Deliverables",
         heading: "Wat je elke maand ontvangt",
         subtitle:
-          "Transparante rapportages en tastbare resultaten \u2014 geen opvulling, geen ijdelheidsmetrics.",
+          "Transparante rapportages en tastbare resultaten — geen opvulling, geen ijdelheidsmetrics.",
         deliverables: [
           {
             title: "Technisch auditrapport",
@@ -926,17 +1178,17 @@ export const shopifySeoData: Record<Locale, ServicePageProps> = {
         {
           question: "Waarom heeft mijn Shopify-winkel gespecialiseerde SEO nodig?",
           answer:
-            "Shopify heeft unieke technische SEO-uitdagingen die generieke bureaus missen \u2014 dubbele content door collecties en tags, automatisch gegenereerde URL-structuren, beperkte controle over canonical tags en thema-gerelateerde snelheidsproblemen. Wij zijn gespecialiseerd in het oplossen van deze platformspecifieke problemen. Onze [Shopify e-commerce SEO-gids](/blog/shopify-ecommerce-seo) behandelt de meest voorkomende problemen in detail.",
+            "Shopify heeft unieke technische SEO-uitdagingen die generieke bureaus missen — dubbele content door collecties en tags, automatisch gegenereerde URL-structuren, beperkte controle over canonical tags en thema-gerelateerde snelheidsproblemen. Wij zijn gespecialiseerd in het oplossen van deze platformspecifieke problemen. Onze [Shopify e-commerce SEO-gids](/blog/shopify-ecommerce-seo) behandelt de meest voorkomende problemen in detail.",
         },
         {
           question: "Hoe snel zie ik resultaten van Shopify-SEO?",
           answer:
-            "De meeste winkels zien meetbare verbeteringen in organisch verkeer binnen 60\u201390 dagen na implementatie van onze technische fixes. Significante omzetimpact volgt doorgaans binnen 4\u20136 maanden.",
+            "De meeste winkels zien meetbare verbeteringen in organisch verkeer binnen 60–90 dagen na implementatie van onze technische fixes. Significante omzetimpact volgt doorgaans binnen 4–6 maanden.",
         },
         {
           question: "Werken jullie ook met Shopify Plus-winkels?",
           answer:
-            "Absoluut. We werken met zowel standaard Shopify als Shopify Plus-winkels. Plus-winkels hebben vaak complexere catalogusstructuren, internationale storefronts en aangepaste themacode \u2014 precies de gebieden waar onze technische SEO-expertise het meeste waarde oplevert.",
+            "Absoluut. We werken met zowel standaard Shopify als Shopify Plus-winkels. Plus-winkels hebben vaak complexere catalogusstructuren, internationale storefronts en aangepaste themacode — precies de gebieden waar onze technische SEO-expertise het meeste waarde oplevert.",
         },
         {
           question: "Wat omvat een Shopify SEO-audit?",
@@ -946,13 +1198,13 @@ export const shopifySeoData: Record<Locale, ServicePageProps> = {
         {
           question: "Brengen jullie wijzigingen direct aan in mijn Shopify-winkel?",
           answer:
-            "Ja, met jouw goedkeuring. We verzorgen alle technische implementaties \u2014 themacode-optimalisaties, schema-markup, meta-tag-templates, redirectbeheer en sitemapconfiguratie. Jij reviewt en keurt elke wijziging goed voordat deze live gaat.",
+            "Ja, met jouw goedkeuring. We verzorgen alle technische implementaties — themacode-optimalisaties, schema-markup, meta-tag-templates, redirectbeheer en sitemapconfiguratie. Jij reviewt en keurt elke wijziging goed voordat deze live gaat.",
         },
         {
           question:
             "Wat onderscheidt EcomSEO van andere Shopify SEO-bureaus?",
           answer:
-            "We werken uitsluitend met e-commercemerken, dus begrijpen we de omzetimpact van elke SEO-beslissing. We focussen op winstmetrics (niet ijdelheidsrankings), bieden radicale transparantie in rapportages en denken als operators \u2014 we hebben zelf e-commercemerken gebouwd en opgeschaald. Lees meer over onze [technische SEO-methodologie](/technical-seo).",
+            "We werken uitsluitend met e-commercemerken, dus begrijpen we de omzetimpact van elke SEO-beslissing. We focussen op winstmetrics (niet ijdelheidsrankings), bieden radicale transparantie in rapportages en denken als operators — we hebben zelf e-commercemerken gebouwd en opgeschaald. Lees meer over onze [technische SEO-methodologie](/technical-seo).",
         },
       ],
       miniCta: {
