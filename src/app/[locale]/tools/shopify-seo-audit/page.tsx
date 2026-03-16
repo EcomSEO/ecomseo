@@ -2,7 +2,7 @@ import Navigation from "@/components/sections/Navigation";
 import Footer from "@/components/sections/Footer";
 import Badge from "@/components/ui/Badge";
 import GlowEffect from "@/components/ui/GlowEffect";
-import SeoAuditClient from "@/components/tools/SeoAuditClient";
+import ShopifySeoAuditClient from "@/components/tools/ShopifySeoAuditClient";
 import { buildPageMetadata } from "@/lib/i18n/metadata";
 import type { Locale } from "@/lib/i18n/config";
 import { shopifySeoAuditT } from "@/lib/i18n/translations/seoTools";
@@ -38,7 +38,7 @@ export default async function ShopifySeoAuditPage({
               </p>
             </div>
 
-            <SeoAuditClient t={t} />
+            <ShopifySeoAuditClient t={t} />
           </div>
 
           {/* Glow */}

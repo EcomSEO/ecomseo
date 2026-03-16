@@ -2,6 +2,8 @@
 
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import ExportButtons from "./ExportButtons";
+import { exportToPDF } from "@/lib/export-utils";
 import type { SchemaValidatorTranslation } from "@/lib/i18n/translations/seoTools";
 import LocaleLink from "@/components/ui/LocaleLink";
 
@@ -92,6 +94,35 @@ export default function SchemaValidatorClient({ t }: { t: SchemaValidatorTransla
             animate={{ opacity: 1, y: 0 }}
             className="space-y-6"
           >
+            {/* Export */}
+            <div className="flex justify-end">
+              <ExportButtons
+                onExportPDF={() => {
+                  if (!data) return;
+                  exportToPDF({
+                    title: "Schema Validation Report",
+                    data: [
+                      ...data.jsonLd.map((item) => ({
+                        Source: "JSON-LD",
+                        Type: item.type,
+                        Fields: item.fields.join(", "),
+                        Errors: item.errors.join("; ") || "None",
+                        Warnings: item.warnings.join("; ") || "None",
+                      })),
+                      ...data.microdata.map((item) => ({
+                        Source: "Microdata",
+                        Type: item.type,
+                        Fields: item.properties.join(", "),
+                        Errors: "-",
+                        Warnings: "-",
+                      })),
+                    ],
+                    url: url.startsWith("http") ? url : `https://${url}`,
+                  });
+                }}
+              />
+            </div>
+
             {/* Summary boxes */}
             <div className="grid grid-cols-2 gap-4">
               <div className="rounded-xl border border-border bg-bg-card p-4 text-center">

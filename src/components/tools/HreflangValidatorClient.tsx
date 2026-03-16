@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useMemo } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import type { HreflangValidatorTranslation } from "@/lib/i18n/translations/seoTools";
 
@@ -15,12 +15,22 @@ interface HreflangIssue {
   tag?: HreflangTag;
 }
 
+type ImplementationMethod = "html_head" | "http_header" | "sitemap" | "none";
+
+interface ReturnTagResult {
+  hreflang: string;
+  href: string;
+  hasReturn: boolean | null;
+}
+
 interface PageResult {
   url: string;
   tags: HreflangTag[];
   issues: HreflangIssue[];
   hasSelfRef: boolean;
   hasXDefault: boolean;
+  implementationMethod: ImplementationMethod;
+  returnTagResults: ReturnTagResult[];
 }
 
 function IssueBadge({ count, color }: { count: number; color: "red" | "yellow" | "green" }) {
@@ -33,6 +43,79 @@ function IssueBadge({ count, color }: { count: number; color: "red" | "yellow" |
     <span className={`inline-flex items-center px-2 py-0.5 rounded-md border text-xs font-medium ${colors[color]}`}>
       {count}
     </span>
+  );
+}
+
+function MethodBadge({ method }: { method: ImplementationMethod }) {
+  const config: Record<ImplementationMethod, { label: string; cls: string }> = {
+    html_head: { label: "HTML <head>", cls: "bg-blue-500/15 text-blue-400 border-blue-500/20" },
+    http_header: { label: "HTTP Header", cls: "bg-purple-500/15 text-purple-400 border-purple-500/20" },
+    sitemap: { label: "Sitemap", cls: "bg-green-500/15 text-green-400 border-green-500/20" },
+    none: { label: "None", cls: "bg-white/10 text-body border-white/10" },
+  };
+  const { label, cls } = config[method];
+  return (
+    <span className={`inline-block px-2 py-0.5 rounded text-[10px] border font-medium ${cls}`}>
+      {label}
+    </span>
+  );
+}
+
+function LanguageMatrix({ results }: { results: PageResult[] }) {
+  // Collect all unique languages across pages
+  const allLangs = useMemo(() => {
+    const langs = new Set<string>();
+    for (const r of results) {
+      for (const t of r.tags) {
+        langs.add(t.hreflang.toLowerCase());
+      }
+    }
+    return [...langs].sort();
+  }, [results]);
+
+  if (allLangs.length === 0) return null;
+
+  return (
+    <div className="rounded-2xl border border-border bg-bg-card p-5 overflow-x-auto">
+      <h3 className="text-sm font-medium text-heading mb-4">Language Matrix</h3>
+      <table className="text-xs">
+        <thead>
+          <tr>
+            <th className="text-left py-2 px-3 text-body font-medium">Page</th>
+            {allLangs.map((lang) => (
+              <th key={lang} className="text-center py-2 px-2 text-body font-mono font-medium">
+                {lang}
+              </th>
+            ))}
+          </tr>
+        </thead>
+        <tbody>
+          {results.map((r, i) => (
+            <tr key={i} className="border-t border-border/50">
+              <td className="py-2 px-3 text-body font-mono max-w-[200px] truncate" title={r.url}>
+                {r.url.replace(/^https?:\/\//, "").slice(0, 30)}
+              </td>
+              {allLangs.map((lang) => {
+                const tag = r.tags.find((t) => t.hreflang.toLowerCase() === lang);
+                return (
+                  <td key={lang} className="text-center py-2 px-2">
+                    {tag ? (
+                      <span className="inline-block w-5 h-5 rounded bg-green-500/20 text-green-400 text-[10px] leading-5 font-medium" title={tag.href}>
+                        &#10003;
+                      </span>
+                    ) : (
+                      <span className="inline-block w-5 h-5 rounded bg-white/5 text-white/15 text-[10px] leading-5">
+                        -
+                      </span>
+                    )}
+                  </td>
+                );
+              })}
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
   );
 }
 
@@ -53,24 +136,13 @@ export default function HreflangValidatorClient({ t }: { t: HreflangValidatorTra
       .map((l) => l.trim())
       .filter(Boolean);
 
-    if (lines.length === 0) {
-      setError(t.errorEmpty);
-      return;
-    }
-    if (lines.length > 20) {
-      setError(t.errorTooMany);
-      return;
-    }
+    if (lines.length === 0) { setError(t.errorEmpty); return; }
+    if (lines.length > 20) { setError(t.errorTooMany); return; }
 
     const urls: string[] = [];
     for (const line of lines) {
-      try {
-        new URL(line);
-        urls.push(line);
-      } catch {
-        setError(t.errorInvalid);
-        return;
-      }
+      const normalized = /^https?:\/\//i.test(line) ? line : "https://" + line;
+      try { new URL(normalized); urls.push(normalized); } catch { setError(t.errorInvalid); return; }
     }
 
     setLoading(true);
@@ -90,8 +162,18 @@ export default function HreflangValidatorClient({ t }: { t: HreflangValidatorTra
     }
   }
 
+  const conflictCount = useMemo(() => {
+    if (!results) return 0;
+    return results.reduce((s, r) => s + r.issues.filter((i) => i.type === "conflict").length, 0);
+  }, [results]);
+
+  const missingReturnCount = useMemo(() => {
+    if (!results) return 0;
+    return results.reduce((s, r) => s + r.returnTagResults.filter((rt) => rt.hasReturn === false).length, 0);
+  }, [results]);
+
   return (
-    <div className="space-y-6 max-w-[900px] mx-auto">
+    <div className="space-y-6 max-w-[960px] mx-auto">
       {/* Input */}
       <div className="rounded-2xl border border-border bg-bg-card p-6 space-y-4">
         <label className="block text-sm font-medium text-heading">{t.urlsLabel}</label>
@@ -131,7 +213,7 @@ export default function HreflangValidatorClient({ t }: { t: HreflangValidatorTra
             className="space-y-4"
           >
             {/* Summary */}
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
+            <div className="grid grid-cols-2 md:grid-cols-6 gap-3">
               <div className="rounded-xl border border-border bg-bg-card p-4 text-center">
                 <div className="text-2xl font-semibold text-heading">{results.length}</div>
                 <div className="text-xs text-body mt-1">{t.pagesChecked}</div>
@@ -154,7 +236,22 @@ export default function HreflangValidatorClient({ t }: { t: HreflangValidatorTra
                 </div>
                 <div className="text-xs text-body mt-1">{t.issuesFound}</div>
               </div>
+              <div className="rounded-xl border border-border bg-bg-card p-4 text-center">
+                <div className={`text-2xl font-semibold ${missingReturnCount > 0 ? "text-yellow-400" : "text-emerald-400"}`}>
+                  {missingReturnCount}
+                </div>
+                <div className="text-xs text-body mt-1">Missing Returns</div>
+              </div>
+              <div className="rounded-xl border border-border bg-bg-card p-4 text-center">
+                <div className={`text-2xl font-semibold ${conflictCount > 0 ? "text-red-400" : "text-emerald-400"}`}>
+                  {conflictCount}
+                </div>
+                <div className="text-xs text-body mt-1">Conflicts</div>
+              </div>
             </div>
+
+            {/* Language Matrix */}
+            <LanguageMatrix results={results} />
 
             {/* Per page */}
             {results.map((r, idx) => {
@@ -170,6 +267,7 @@ export default function HreflangValidatorClient({ t }: { t: HreflangValidatorTra
                     <div className={`w-2 h-2 rounded-full shrink-0 ${hasIssues ? "bg-red-400" : "bg-emerald-400"}`} />
                     <span className="text-sm text-heading font-medium truncate flex-1">{r.url}</span>
                     <div className="flex items-center gap-2 shrink-0">
+                      <MethodBadge method={r.implementationMethod} />
                       <span className="text-xs text-body">{r.tags.length} tags</span>
                       {hasIssues ? (
                         <IssueBadge count={r.issues.length} color="red" />
@@ -204,6 +302,7 @@ export default function HreflangValidatorClient({ t }: { t: HreflangValidatorTra
                             <span className={`text-xs px-2.5 py-1 rounded-lg border ${r.hasXDefault ? "bg-emerald-500/10 border-emerald-500/20 text-emerald-400" : "bg-yellow-500/10 border-yellow-500/20 text-yellow-400"}`}>
                               {r.hasXDefault ? `\u2713 x-default` : `\u2717 x-default`}
                             </span>
+                            <MethodBadge method={r.implementationMethod} />
                           </div>
 
                           {/* Issues */}
@@ -211,14 +310,44 @@ export default function HreflangValidatorClient({ t }: { t: HreflangValidatorTra
                             <div className="space-y-2">
                               <h4 className="text-xs font-medium text-heading uppercase tracking-wider">{t.issuesLabel}</h4>
                               {r.issues.map((issue, j) => (
-                                <div key={j} className="flex items-start gap-2 p-3 rounded-lg bg-red-500/5 border border-red-500/10">
-                                  <svg className="w-4 h-4 text-red-400 shrink-0 mt-0.5" viewBox="0 0 20 20" fill="none">
+                                <div key={j} className={`flex items-start gap-2 p-3 rounded-lg border ${
+                                  issue.type === "conflict" ? "bg-orange-500/5 border-orange-500/10" :
+                                  issue.type === "missing_return" ? "bg-yellow-500/5 border-yellow-500/10" :
+                                  "bg-red-500/5 border-red-500/10"
+                                }`}>
+                                  <svg className={`w-4 h-4 shrink-0 mt-0.5 ${
+                                    issue.type === "conflict" ? "text-orange-400" :
+                                    issue.type === "missing_return" ? "text-yellow-400" :
+                                    "text-red-400"
+                                  }`} viewBox="0 0 20 20" fill="none">
                                     <circle cx="10" cy="10" r="8" stroke="currentColor" strokeWidth="1.5" />
                                     <path d="M10 6v5M10 13.5v.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
                                   </svg>
                                   <span className="text-xs text-body-strong">{issue.message}</span>
                                 </div>
                               ))}
+                            </div>
+                          )}
+
+                          {/* Return tag validation */}
+                          {r.returnTagResults.length > 0 && (
+                            <div className="space-y-2">
+                              <h4 className="text-xs font-medium text-heading uppercase tracking-wider">Return Tag Validation</h4>
+                              <div className="space-y-1">
+                                {r.returnTagResults.map((rt, k) => (
+                                  <div key={k} className="flex items-center gap-2 text-xs">
+                                    <span className={`w-4 h-4 rounded flex items-center justify-center text-[10px] ${
+                                      rt.hasReturn === true ? "bg-green-500/15 text-green-400" :
+                                      rt.hasReturn === false ? "bg-red-500/15 text-red-400" :
+                                      "bg-white/5 text-white/20"
+                                    }`}>
+                                      {rt.hasReturn === true ? "\u2713" : rt.hasReturn === false ? "\u2717" : "?"}
+                                    </span>
+                                    <span className="font-mono text-body">{rt.hreflang}</span>
+                                    <span className="text-white/20 truncate">{rt.href.slice(0, 60)}</span>
+                                  </div>
+                                ))}
+                              </div>
                             </div>
                           )}
 

@@ -1,19 +1,32 @@
 import { NextResponse } from "next/server";
 
-type IndexabilityStatus =
-  | "indexable"
-  | "noindex_meta"
-  | "noindex_header"
-  | "blocked_robots"
-  | "http_error"
-  | "redirected"
-  | "fetch_error";
+type IndexabilityVerdict = "indexable" | "mixed_signals" | "not_indexable";
 
 interface IndexabilityResult {
   url: string;
-  status: IndexabilityStatus;
   httpStatus: number | null;
-  details: string | null;
+  metaRobots: string | null;
+  xRobotsTag: string | null;
+  canonical: string | null;
+  canonicalPointsElsewhere: boolean;
+  robotsTxtBlocked: boolean;
+  verdict: IndexabilityVerdict;
+  reasons: string[];
+  score: number;
+}
+
+function extractMetaRobots(html: string): string | null {
+  const match =
+    html.match(/<meta[^>]+name=["']robots["'][^>]*content=["']([^"']+)["']/i) ||
+    html.match(/<meta[^>]+content=["']([^"']+)["'][^>]*name=["']robots["']/i);
+  return match ? match[1].trim() : null;
+}
+
+function extractCanonical(html: string): string | null {
+  const match =
+    html.match(/<link[^>]+rel=["']canonical["'][^>]*href=["']([^"']*)["']/i) ||
+    html.match(/<link[^>]+href=["']([^"']*)["'][^>]+rel=["']canonical["']/i);
+  return match ? match[1].trim() : null;
 }
 
 async function checkRobotsTxt(pageUrl: string): Promise<boolean> {
@@ -23,7 +36,7 @@ async function checkRobotsTxt(pageUrl: string): Promise<boolean> {
     const controller = new AbortController();
     const timeout = setTimeout(() => controller.abort(), 5000);
     const res = await fetch(robotsUrl, {
-      headers: { "User-Agent": "Mozilla/5.0 (compatible; EcomSEO/1.0)" },
+      headers: { "User-Agent": "Mozilla/5.0 (compatible; EcomSEO/2.0)" },
       signal: controller.signal,
     });
     clearTimeout(timeout);
@@ -34,17 +47,166 @@ async function checkRobotsTxt(pageUrl: string): Promise<boolean> {
     let applies = false;
     for (const line of lines) {
       if (line.toLowerCase().startsWith("user-agent:")) {
-        const agent = line.split(":")[1].trim();
+        const agent = line.split(":").slice(1).join(":").trim();
         applies = agent === "*" || agent.toLowerCase().includes("googlebot");
       }
       if (applies && line.toLowerCase().startsWith("disallow:")) {
-        const disallowed = line.split(":")[1].trim();
+        const disallowed = line.split(":").slice(1).join(":").trim();
         if (disallowed && path.startsWith(disallowed)) return true;
       }
     }
     return false;
   } catch {
     return false;
+  }
+}
+
+async function checkUrl(url: string): Promise<IndexabilityResult> {
+  const reasons: string[] = [];
+  let metaRobots: string | null = null;
+  let xRobotsTag: string | null = null;
+  let canonical: string | null = null;
+  let canonicalPointsElsewhere = false;
+  let robotsTxtBlocked = false;
+  let httpStatus: number | null = null;
+
+  try {
+    const controller = new AbortController();
+    const timeout = setTimeout(() => controller.abort(), 10000);
+
+    const res = await fetch(url, {
+      headers: {
+        "User-Agent": "Mozilla/5.0 (compatible; EcomSEO Indexability Checker/2.0; +https://ecomseo.com)",
+      },
+      signal: controller.signal,
+      redirect: "follow",
+    });
+    clearTimeout(timeout);
+
+    httpStatus = res.status;
+
+    // Check HTTP status
+    if (res.status >= 500) {
+      reasons.push(`Server error (HTTP ${res.status})`);
+    } else if (res.status === 404) {
+      reasons.push("Page not found (404)");
+    } else if (res.status === 410) {
+      reasons.push("Page gone (410) - permanently removed");
+    } else if (res.status === 301 || res.status === 302) {
+      reasons.push(`Redirect (${res.status}) - final URL may differ`);
+    } else if (res.status >= 400) {
+      reasons.push(`Client error (HTTP ${res.status})`);
+    }
+
+    // Check X-Robots-Tag header
+    const xrt = res.headers.get("x-robots-tag");
+    if (xrt) {
+      xRobotsTag = xrt;
+      const lower = xrt.toLowerCase();
+      if (lower.includes("noindex")) {
+        reasons.push(`X-Robots-Tag header contains 'noindex': ${xrt}`);
+      }
+      if (lower.includes("nofollow")) {
+        reasons.push(`X-Robots-Tag header contains 'nofollow': ${xrt}`);
+      }
+    }
+
+    // Parse HTML
+    const html = await res.text();
+
+    // Check meta robots
+    metaRobots = extractMetaRobots(html);
+    if (metaRobots) {
+      const lower = metaRobots.toLowerCase();
+      if (lower.includes("noindex")) {
+        reasons.push(`Meta robots tag contains 'noindex': ${metaRobots}`);
+      }
+      if (lower.includes("nofollow")) {
+        reasons.push(`Meta robots tag contains 'nofollow': ${metaRobots}`);
+      }
+    }
+
+    // Check canonical
+    canonical = extractCanonical(html);
+    if (canonical) {
+      try {
+        const canonParsed = new URL(canonical, url);
+        const pageParsed = new URL(url);
+        const pageNorm = pageParsed.host.toLowerCase() + pageParsed.pathname.replace(/\/$/, "") + pageParsed.search;
+        const canonNorm = canonParsed.host.toLowerCase() + canonParsed.pathname.replace(/\/$/, "") + canonParsed.search;
+        if (pageNorm !== canonNorm) {
+          canonicalPointsElsewhere = true;
+          reasons.push(`Canonical points elsewhere: ${canonical}`);
+        }
+      } catch {
+        reasons.push(`Invalid canonical URL: ${canonical}`);
+      }
+    }
+
+    // Check robots.txt
+    robotsTxtBlocked = await checkRobotsTxt(url);
+    if (robotsTxtBlocked) {
+      reasons.push("URL path is disallowed in robots.txt");
+    }
+
+    // Determine verdict and score
+    const hasNoindex =
+      (metaRobots && metaRobots.toLowerCase().includes("noindex")) ||
+      (xRobotsTag && xRobotsTag.toLowerCase().includes("noindex"));
+    const hasHttpError = httpStatus >= 400;
+    const hasBlock = robotsTxtBlocked;
+    const hasCanonicalElsewhere = canonicalPointsElsewhere;
+
+    // Count blocking signals
+    const blockingSignals = [hasNoindex, hasHttpError, hasBlock].filter(Boolean).length;
+    // Count soft signals
+    const softSignals = [hasCanonicalElsewhere, httpStatus === 301 || httpStatus === 302].filter(Boolean).length;
+
+    let verdict: IndexabilityVerdict;
+    let score: number;
+
+    if (blockingSignals > 0 && softSignals > 0) {
+      verdict = "mixed_signals";
+      score = 30;
+    } else if (blockingSignals > 0) {
+      verdict = "not_indexable";
+      score = Math.max(0, 20 - blockingSignals * 10);
+    } else if (softSignals > 0 && reasons.length > 0) {
+      verdict = "mixed_signals";
+      score = 60 - softSignals * 10;
+    } else if (reasons.length === 0) {
+      verdict = "indexable";
+      score = 100;
+    } else {
+      verdict = "mixed_signals";
+      score = 50;
+    }
+
+    return {
+      url,
+      httpStatus,
+      metaRobots,
+      xRobotsTag,
+      canonical,
+      canonicalPointsElsewhere,
+      robotsTxtBlocked,
+      verdict,
+      reasons,
+      score,
+    };
+  } catch {
+    return {
+      url,
+      httpStatus: null,
+      metaRobots: null,
+      xRobotsTag: null,
+      canonical: null,
+      canonicalPointsElsewhere: false,
+      robotsTxtBlocked: false,
+      verdict: "not_indexable",
+      reasons: ["Could not fetch the URL"],
+      score: 0,
+    };
   }
 }
 
@@ -56,66 +218,12 @@ export async function POST(req: Request) {
     if (!Array.isArray(urls) || urls.length === 0) {
       return NextResponse.json({ error: "No URLs provided" }, { status: 400 });
     }
-    if (urls.length > 20) {
-      return NextResponse.json({ error: "Too many URLs" }, { status: 400 });
+    if (urls.length > 50) {
+      return NextResponse.json({ error: "Too many URLs (max 50)" }, { status: 400 });
     }
 
     const results: IndexabilityResult[] = await Promise.all(
-      urls.map(async (url: string): Promise<IndexabilityResult> => {
-        try {
-          const controller = new AbortController();
-          const timeout = setTimeout(() => controller.abort(), 10000);
-
-          const res = await fetch(url, {
-            headers: {
-              "User-Agent": "Mozilla/5.0 (compatible; EcomSEO/1.0; +https://ecomseo.com)",
-            },
-            signal: controller.signal,
-            redirect: "follow",
-          });
-          clearTimeout(timeout);
-
-          const finalUrl = res.url || url;
-          const wasRedirected = finalUrl !== url && !finalUrl.includes(new URL(url).pathname);
-
-          // Check X-Robots-Tag header
-          const xRobotsTag = res.headers.get("x-robots-tag") || "";
-          if (xRobotsTag.toLowerCase().includes("noindex")) {
-            return { url, status: "noindex_header", httpStatus: res.status, details: `X-Robots-Tag: ${xRobotsTag}` };
-          }
-
-          // HTTP errors
-          if (res.status >= 400) {
-            return { url, status: "http_error", httpStatus: res.status, details: `HTTP ${res.status}` };
-          }
-
-          // Redirected (3xx that wasn't followed, or significant URL change)
-          if (wasRedirected) {
-            return { url, status: "redirected", httpStatus: res.status, details: `→ ${finalUrl}` };
-          }
-
-          // Check robots.txt
-          const blockedByRobots = await checkRobotsTxt(url);
-          if (blockedByRobots) {
-            return { url, status: "blocked_robots", httpStatus: res.status, details: "Blocked by robots.txt" };
-          }
-
-          // Check meta noindex
-          const html = await res.text();
-          const metaRobotsMatch = html.match(/<meta[^>]+name=["']robots["'][^>]*content=["']([^"']+)["']/i)
-            || html.match(/<meta[^>]+content=["']([^"']+)["'][^>]*name=["']robots["']/i);
-          if (metaRobotsMatch) {
-            const content = metaRobotsMatch[1].toLowerCase();
-            if (content.includes("noindex")) {
-              return { url, status: "noindex_meta", httpStatus: res.status, details: `robots: ${metaRobotsMatch[1]}` };
-            }
-          }
-
-          return { url, status: "indexable", httpStatus: res.status, details: null };
-        } catch {
-          return { url, status: "fetch_error", httpStatus: null, details: null };
-        }
-      })
+      urls.map((url: string) => checkUrl(url))
     );
 
     return NextResponse.json({ results });

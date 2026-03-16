@@ -6,10 +6,12 @@ interface HreflangTag {
 }
 
 interface HreflangIssue {
-  type: "missing_self" | "missing_return" | "invalid_lang" | "duplicate" | "relative_url" | "missing_xdefault";
+  type: "missing_self" | "missing_return" | "invalid_lang" | "duplicate" | "relative_url" | "missing_xdefault" | "conflict";
   message: string;
   tag?: HreflangTag;
 }
+
+type ImplementationMethod = "html_head" | "http_header" | "sitemap" | "none";
 
 interface PageResult {
   url: string;
@@ -17,6 +19,8 @@ interface PageResult {
   issues: HreflangIssue[];
   hasSelfRef: boolean;
   hasXDefault: boolean;
+  implementationMethod: ImplementationMethod;
+  returnTagResults: { hreflang: string; href: string; hasReturn: boolean | null }[];
 }
 
 const VALID_LANG_REGEX = /^(x-default|[a-z]{2,3}(-[A-Za-z]{2,4})?)$/;
@@ -40,6 +44,33 @@ function parseHreflangTags(html: string): HreflangTag[] {
   }
 
   return tags;
+}
+
+function parseHreflangFromHeader(headers: Headers): HreflangTag[] {
+  const tags: HreflangTag[] = [];
+  const linkHeader = headers.get("link");
+  if (!linkHeader) return tags;
+
+  // Parse Link: <url>; rel="alternate"; hreflang="xx"
+  const parts = linkHeader.split(",");
+  for (const part of parts) {
+    const urlMatch = part.match(/<([^>]+)>/);
+    const hreflangMatch = part.match(/hreflang=["']?([^"';\s]+)/i);
+    const relMatch = part.match(/rel=["']?alternate/i);
+    if (urlMatch && hreflangMatch && relMatch) {
+      tags.push({ hreflang: hreflangMatch[1], href: urlMatch[1] });
+    }
+  }
+  return tags;
+}
+
+function detectImplementationMethod(html: string, headers: Headers): ImplementationMethod {
+  const hasHtmlTags = /<link[^>]*rel=["']alternate["'][^>]*hreflang/i.test(html);
+  const hasHeaderTags = parseHreflangFromHeader(headers).length > 0;
+
+  if (hasHtmlTags) return "html_head";
+  if (hasHeaderTags) return "http_header";
+  return "none";
 }
 
 function validateTags(pageUrl: string, tags: HreflangTag[]): HreflangIssue[] {
@@ -87,7 +118,7 @@ function validateTags(pageUrl: string, tags: HreflangTag[]): HreflangIssue[] {
         hasSelf = true;
       }
     } catch {
-      // URL parse failed, already caught by relative URL check
+      // URL parse failed
     }
 
     if (key === "x-default") {
@@ -112,11 +143,53 @@ function validateTags(pageUrl: string, tags: HreflangTag[]): HreflangIssue[] {
   return issues;
 }
 
+async function checkReturnTags(pageUrl: string, tags: HreflangTag[]): Promise<{ hreflang: string; href: string; hasReturn: boolean | null }[]> {
+  const results: { hreflang: string; href: string; hasReturn: boolean | null }[] = [];
+
+  // Only check up to 10 external URLs
+  const externalTags = tags.filter((t) => {
+    try {
+      const tu = new URL(t.href);
+      const pu = new URL(pageUrl);
+      return tu.origin + tu.pathname !== pu.origin + pu.pathname;
+    } catch { return false; }
+  }).slice(0, 10);
+
+  await Promise.all(
+    externalTags.map(async (tag) => {
+      try {
+        const controller = new AbortController();
+        const timeout = setTimeout(() => controller.abort(), 8000);
+        const res = await fetch(tag.href, {
+          signal: controller.signal,
+          headers: { "User-Agent": "Mozilla/5.0 (compatible; EcomSEO Hreflang Validator/1.0)" },
+        });
+        clearTimeout(timeout);
+        const html = await res.text();
+        const remoteTags = parseHreflangTags(html);
+        const hasReturn = remoteTags.some((rt) => {
+          try {
+            const rtUrl = new URL(rt.href);
+            const origUrl = new URL(pageUrl);
+            return rtUrl.origin + rtUrl.pathname === origUrl.origin + origUrl.pathname;
+          } catch { return false; }
+        });
+        results.push({ hreflang: tag.hreflang, href: tag.href, hasReturn });
+      } catch {
+        results.push({ hreflang: tag.hreflang, href: tag.href, hasReturn: null });
+      }
+    })
+  );
+
+  return results;
+}
+
 async function checkPage(pageUrl: string): Promise<PageResult> {
   const controller = new AbortController();
   const timeout = setTimeout(() => controller.abort(), 10000);
 
   let html: string;
+  let headers: Headers;
   try {
     const res = await fetch(pageUrl, {
       signal: controller.signal,
@@ -124,13 +197,44 @@ async function checkPage(pageUrl: string): Promise<PageResult> {
         "User-Agent": "Mozilla/5.0 (compatible; EcomSEO Hreflang Validator/1.0)",
       },
     });
+    headers = res.headers;
     html = await res.text();
   } finally {
     clearTimeout(timeout);
   }
 
-  const tags = parseHreflangTags(html);
+  const implementationMethod = detectImplementationMethod(html, headers!);
+  let tags = parseHreflangTags(html);
+
+  // Also check HTTP headers
+  const headerTags = parseHreflangFromHeader(headers!);
+  if (headerTags.length > 0 && tags.length === 0) {
+    tags = headerTags;
+  }
+
+  // Check for conflicting implementations
   const issues = validateTags(pageUrl, tags);
+
+  if (headerTags.length > 0 && parseHreflangTags(html).length > 0) {
+    issues.push({
+      type: "conflict",
+      message: "Hreflang tags found in both HTML <head> and HTTP headers. Use only one method to avoid conflicts.",
+    });
+  }
+
+  // Check return tags
+  const returnTagResults = await checkReturnTags(pageUrl, tags);
+
+  // Add missing return tag issues
+  for (const rt of returnTagResults) {
+    if (rt.hasReturn === false) {
+      issues.push({
+        type: "missing_return",
+        message: `Page ${rt.href} (hreflang="${rt.hreflang}") does not have a return tag pointing back to this page.`,
+        tag: { hreflang: rt.hreflang, href: rt.href },
+      });
+    }
+  }
 
   return {
     url: pageUrl,
@@ -141,11 +245,11 @@ async function checkPage(pageUrl: string): Promise<PageResult> {
         const tu = new URL(t.href);
         const pu = new URL(pageUrl);
         return tu.origin + tu.pathname === pu.origin + pu.pathname;
-      } catch {
-        return false;
-      }
+      } catch { return false; }
     }),
     hasXDefault: tags.some((t) => t.hreflang.toLowerCase() === "x-default"),
+    implementationMethod,
+    returnTagResults,
   };
 }
 
@@ -169,6 +273,8 @@ export async function POST(req: Request) {
           issues: [{ type: "missing_self" as const, message: "Failed to fetch page" }],
           hasSelfRef: false,
           hasXDefault: false,
+          implementationMethod: "none" as const,
+          returnTagResults: [],
         }))
       )
     );

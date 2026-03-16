@@ -5,6 +5,7 @@ interface PageData {
   wordCount: number;
   title: string;
   text: string;
+  canonical: string;
 }
 
 interface PairResult {
@@ -12,11 +13,22 @@ interface PairResult {
   urlB: string;
   similarity: number;
   verdict: "duplicate" | "similar" | "unique";
+  sharedShingles: number;
+  totalShingles: number;
+  diffSnippetA: string;
+  diffSnippetB: string;
 }
 
 function extractTitle(html: string): string {
   const match = html.match(/<title[^>]*>([\s\S]*?)<\/title>/i);
   return match ? match[1].replace(/\s+/g, " ").trim() : "";
+}
+
+function extractCanonical(html: string): string {
+  const match = html.match(/<link[^>]*rel=["']canonical["'][^>]*href=["']([^"']+)["'][^>]*>/i);
+  if (match) return match[1].trim();
+  const match2 = html.match(/<link[^>]*href=["']([^"']+)["'][^>]*rel=["']canonical["'][^>]*>/i);
+  return match2 ? match2[1].trim() : "";
 }
 
 function extractTextFromHtml(html: string): string {
@@ -49,8 +61,8 @@ function getWordTrigrams(text: string): Set<string> {
   return trigrams;
 }
 
-function jaccardSimilarity(setA: Set<string>, setB: Set<string>): number {
-  if (setA.size === 0 && setB.size === 0) return 0;
+function jaccardSimilarity(setA: Set<string>, setB: Set<string>): { similarity: number; shared: number; total: number } {
+  if (setA.size === 0 && setB.size === 0) return { similarity: 0, shared: 0, total: 0 };
 
   let intersectionSize = 0;
   const smaller = setA.size <= setB.size ? setA : setB;
@@ -61,9 +73,26 @@ function jaccardSimilarity(setA: Set<string>, setB: Set<string>): number {
   }
 
   const unionSize = setA.size + setB.size - intersectionSize;
-  if (unionSize === 0) return 0;
+  if (unionSize === 0) return { similarity: 0, shared: 0, total: 0 };
 
-  return intersectionSize / unionSize;
+  return { similarity: intersectionSize / unionSize, shared: intersectionSize, total: unionSize };
+}
+
+function getDiffSnippet(textA: string, textB: string): { snippetA: string; snippetB: string } {
+  const wordsA = textA.split(/\s+/).slice(0, 200);
+  const wordsB = textB.split(/\s+/).slice(0, 200);
+
+  // Find first divergence point
+  let divergeIdx = 0;
+  while (divergeIdx < wordsA.length && divergeIdx < wordsB.length && wordsA[divergeIdx]?.toLowerCase() === wordsB[divergeIdx]?.toLowerCase()) {
+    divergeIdx++;
+  }
+
+  const start = Math.max(0, divergeIdx - 3);
+  const snippetA = wordsA.slice(start, start + 20).join(" ");
+  const snippetB = wordsB.slice(start, start + 20).join(" ");
+
+  return { snippetA: snippetA.slice(0, 200), snippetB: snippetB.slice(0, 200) };
 }
 
 export async function POST(req: Request) {
@@ -89,8 +118,7 @@ export async function POST(req: Request) {
 
           const res = await fetch(url, {
             headers: {
-              "User-Agent":
-                "Mozilla/5.0 (compatible; EcomSEO Duplicate Content/1.0)",
+              "User-Agent": "Mozilla/5.0 (compatible; EcomSEO Duplicate Content/1.0)",
               Accept: "text/html",
             },
             signal: controller.signal,
@@ -98,43 +126,54 @@ export async function POST(req: Request) {
           clearTimeout(timeout);
 
           if (!res.ok) {
-            return { url, wordCount: 0, title: "", text: "" };
+            return { url, wordCount: 0, title: "", text: "", canonical: "" };
           }
 
           const html = await res.text();
           const title = extractTitle(html);
           const text = extractTextFromHtml(html);
           const wordCount = countWords(text);
+          const canonical = extractCanonical(html);
 
-          return { url, wordCount, title, text };
+          return { url, wordCount, title, text, canonical };
         } catch {
-          return { url, wordCount: 0, title: "", text: "" };
+          return { url, wordCount: 0, title: "", text: "", canonical: "" };
         }
       })
     );
 
-    // Compare every pair
+    // Build similarity matrix and pairs
     const pairs: PairResult[] = [];
+    const matrix: number[][] = Array.from({ length: pages.length }, () =>
+      Array(pages.length).fill(0)
+    );
+
+    // Precompute trigrams
+    const trigramSets = pages.map((p) => getWordTrigrams(p.text));
+
     for (let i = 0; i < pages.length; i++) {
-      const trigramsA = getWordTrigrams(pages[i].text);
+      matrix[i][i] = 1;
       for (let j = i + 1; j < pages.length; j++) {
-        const trigramsB = getWordTrigrams(pages[j].text);
-        const similarity = jaccardSimilarity(trigramsA, trigramsB);
+        const { similarity, shared, total } = jaccardSimilarity(trigramSets[i], trigramSets[j]);
+        matrix[i][j] = similarity;
+        matrix[j][i] = similarity;
 
         let verdict: PairResult["verdict"];
-        if (similarity >= 0.7) {
-          verdict = "duplicate";
-        } else if (similarity >= 0.4) {
-          verdict = "similar";
-        } else {
-          verdict = "unique";
-        }
+        if (similarity >= 0.7) verdict = "duplicate";
+        else if (similarity >= 0.4) verdict = "similar";
+        else verdict = "unique";
+
+        const { snippetA, snippetB } = getDiffSnippet(pages[i].text, pages[j].text);
 
         pairs.push({
           urlA: pages[i].url,
           urlB: pages[j].url,
           similarity: Math.round(similarity * 1000) / 1000,
           verdict,
+          sharedShingles: shared,
+          totalShingles: total,
+          diffSnippetA: snippetA,
+          diffSnippetB: snippetB,
         });
       }
     }
@@ -142,13 +181,54 @@ export async function POST(req: Request) {
     // Sort pairs by similarity descending
     pairs.sort((a, b) => b.similarity - a.similarity);
 
+    // Build clusters of near-duplicates
+    const clusters: { urls: string[]; canonical: string }[] = [];
+    const assigned = new Set<string>();
+
+    for (const pair of pairs) {
+      if (pair.similarity < 0.4) continue;
+      const existingCluster = clusters.find(
+        (c) => c.urls.includes(pair.urlA) || c.urls.includes(pair.urlB)
+      );
+      if (existingCluster) {
+        if (!existingCluster.urls.includes(pair.urlA)) existingCluster.urls.push(pair.urlA);
+        if (!existingCluster.urls.includes(pair.urlB)) existingCluster.urls.push(pair.urlB);
+        assigned.add(pair.urlA);
+        assigned.add(pair.urlB);
+      } else {
+        clusters.push({
+          urls: [pair.urlA, pair.urlB],
+          canonical: "",
+        });
+        assigned.add(pair.urlA);
+        assigned.add(pair.urlB);
+      }
+    }
+
+    // Suggest canonical for each cluster (prefer the one already set, or the one with most words)
+    for (const cluster of clusters) {
+      const clusterPages = cluster.urls.map((u) => pages.find((p) => p.url === u)!).filter(Boolean);
+      // Check if any has a canonical pointing to another in the cluster
+      const withCanonical = clusterPages.find((p) => p.canonical && cluster.urls.includes(p.canonical));
+      if (withCanonical) {
+        cluster.canonical = withCanonical.canonical;
+      } else {
+        // Suggest the one with most words
+        const best = clusterPages.sort((a, b) => b.wordCount - a.wordCount)[0];
+        cluster.canonical = best?.url ?? cluster.urls[0];
+      }
+    }
+
     return NextResponse.json({
-      pages: pages.map(({ url, wordCount, title }) => ({
+      pages: pages.map(({ url, wordCount, title, canonical }) => ({
         url,
         wordCount,
         title,
+        canonical,
       })),
       pairs,
+      matrix: matrix.map((row) => row.map((v) => Math.round(v * 100))),
+      clusters,
     });
   } catch {
     return NextResponse.json(

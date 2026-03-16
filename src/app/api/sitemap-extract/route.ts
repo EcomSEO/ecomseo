@@ -34,49 +34,57 @@ function parseUrlEntries(xml: string): SitemapEntry[] {
   return entries;
 }
 
-async function fetchSitemap(
-  sitemapUrl: string
-): Promise<{ entries: SitemapEntry[]; sitemapCount: number; isSitemapIndex: boolean }> {
+function getDirectory(url: string): string {
+  try {
+    const parsed = new URL(url);
+    const pathParts = parsed.pathname.split("/").filter(Boolean);
+    if (pathParts.length <= 1) return "/";
+    return "/" + pathParts.slice(0, -1).join("/");
+  } catch {
+    return "/";
+  }
+}
+
+async function fetchXml(url: string): Promise<string> {
   const controller = new AbortController();
   const timeout = setTimeout(() => controller.abort(), 15000);
-
-  let text: string;
   try {
-    const res = await fetch(sitemapUrl, {
+    const res = await fetch(url, {
       headers: { "User-Agent": "Mozilla/5.0 (compatible; EcomSEO/1.0)" },
       signal: controller.signal,
     });
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
-    text = await res.text();
+    return await res.text();
   } finally {
     clearTimeout(timeout);
   }
+}
 
+async function fetchSitemap(
+  sitemapUrl: string
+): Promise<{
+  entries: SitemapEntry[];
+  sitemapCount: number;
+  isSitemapIndex: boolean;
+  childSitemaps: string[];
+}> {
+  const text = await fetchXml(sitemapUrl);
   const isSitemapIndex = text.includes("<sitemapindex");
 
   if (isSitemapIndex) {
     const sitemapLocs = [...text.matchAll(/<loc>\s*(https?:\/\/[^\s<]+)\s*<\/loc>/gi)];
     const childUrls = sitemapLocs.map((m) => m[1].trim());
+    const childSitemaps = childUrls.slice(0, 10);
 
     const allEntries: SitemapEntry[] = [];
-    const childSitemaps = childUrls.slice(0, 10);
     let sitemapCount = 0;
 
     for (const childUrl of childSitemaps) {
       try {
-        const childController = new AbortController();
-        const childTimeout = setTimeout(() => childController.abort(), 15000);
-        const childRes = await fetch(childUrl, {
-          headers: { "User-Agent": "Mozilla/5.0 (compatible; EcomSEO/1.0)" },
-          signal: childController.signal,
-        });
-        clearTimeout(childTimeout);
-        if (!childRes.ok) continue;
-        const childText = await childRes.text();
+        const childText = await fetchXml(childUrl);
         const childEntries = parseUrlEntries(childText);
         allEntries.push(...childEntries);
         sitemapCount++;
-
         if (allEntries.length >= 10000) break;
       } catch {
         // Skip failed child sitemaps
@@ -87,39 +95,58 @@ async function fetchSitemap(
       entries: allEntries.slice(0, 10000),
       sitemapCount,
       isSitemapIndex: true,
+      childSitemaps,
     };
   }
 
-  // Regular sitemap
   const entries = parseUrlEntries(text);
   return {
     entries: entries.slice(0, 10000),
     sitemapCount: 1,
     isSitemapIndex: false,
+    childSitemaps: [],
   };
 }
 
 export async function POST(req: Request) {
   try {
     const body = await req.json();
-    const { url } = body;
+    let { url } = body;
 
     if (!url || typeof url !== "string") {
       return NextResponse.json({ error: "No URL provided" }, { status: 400 });
     }
 
+    // Auto-detect: if user enters a domain without /sitemap.xml, append it
     try {
-      new URL(url);
+      const parsed = new URL(url);
+      if (
+        parsed.pathname === "/" ||
+        parsed.pathname === ""
+      ) {
+        url = parsed.origin + "/sitemap.xml";
+      }
     } catch {
       return NextResponse.json({ error: "Invalid URL" }, { status: 400 });
     }
 
     const result = await fetchSitemap(url);
 
+    // Compute stats by directory
+    const byDirectory: Record<string, number> = {};
+    for (const entry of result.entries) {
+      const dir = getDirectory(entry.loc);
+      byDirectory[dir] = (byDirectory[dir] || 0) + 1;
+    }
+
     return NextResponse.json({
+      sitemapUrl: url,
+      isIndex: result.isSitemapIndex,
+      childSitemaps: result.childSitemaps,
       urls: result.entries,
+      totalUrls: result.entries.length,
       sitemapCount: result.sitemapCount,
-      isSitemapIndex: result.isSitemapIndex,
+      stats: { byDirectory },
     });
   } catch {
     return NextResponse.json({ error: "Internal server error" }, { status: 500 });

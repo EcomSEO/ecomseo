@@ -1,108 +1,447 @@
 import { NextResponse } from "next/server";
 
-type CWVRating = "good" | "needs_improvement" | "poor" | "n/a";
+type CWVRating = "good" | "needs-improvement" | "poor" | "n/a";
 
-interface CWVMetric {
+interface MetricResult {
   value: number | null;
+  unit: string;
   rating: CWVRating;
   displayValue: string;
 }
 
+interface FieldMetric {
+  p75: number | null;
+  rating: CWVRating;
+  displayValue: string;
+  distributions: { min: number; max: number; proportion: number }[];
+}
+
+interface Opportunity {
+  title: string;
+  description: string;
+  savings: string;
+}
+
+interface Diagnostic {
+  title: string;
+  description: string;
+}
+
+interface LcpBreakdown {
+  element: string | null;
+  elementType: string | null;
+  url: string | null;
+  loadTime: number | null;
+  renderDelay: number | null;
+  resourceLoadDelay: number | null;
+  ttfb: number | null;
+}
+
+interface ClsElement {
+  node: string;
+  score: number;
+}
+
+interface ResourceBreakdown {
+  totalBytes: number;
+  totalRequests: number;
+  jsBytes: number;
+  cssBytes: number;
+  imageBytes: number;
+  fontBytes: number;
+  otherBytes: number;
+  thirdPartyBytes: number;
+}
+
 interface CWVResult {
   url: string;
-  mobile: {
-    lcp: CWVMetric;
-    cls: CWVMetric;
-    inp: CWVMetric;
-    overall: CWVRating;
+  strategy: "mobile" | "desktop";
+  performanceScore: number | null;
+  lcp: MetricResult;
+  fid: MetricResult;
+  cls: MetricResult;
+  fcp: MetricResult;
+  ttfb: MetricResult;
+  si: MetricResult;
+  tbt: MetricResult;
+  fieldData: {
+    lcp: FieldMetric | null;
+    inp: FieldMetric | null;
+    cls: FieldMetric | null;
+    fcp: FieldMetric | null;
+    ttfb: FieldMetric | null;
   } | null;
-  desktop: {
-    lcp: CWVMetric;
-    cls: CWVMetric;
-    inp: CWVMetric;
-    overall: CWVRating;
-  } | null;
+  lcpBreakdown: LcpBreakdown | null;
+  clsElements: ClsElement[];
+  resourceBreakdown: ResourceBreakdown | null;
+  opportunities: Opportunity[];
+  diagnostics: Diagnostic[];
   error?: string;
 }
 
-function rateLcp(value: number): CWVRating {
-  if (value <= 2500) return "good";
-  if (value <= 4000) return "needs_improvement";
+function rateLcp(ms: number): CWVRating {
+  if (ms <= 2500) return "good";
+  if (ms <= 4000) return "needs-improvement";
   return "poor";
 }
 
-function rateCls(value: number): CWVRating {
-  if (value <= 0.1) return "good";
-  if (value <= 0.25) return "needs_improvement";
+function rateCls(val: number): CWVRating {
+  if (val <= 0.1) return "good";
+  if (val <= 0.25) return "needs-improvement";
   return "poor";
 }
 
-function rateInp(value: number): CWVRating {
-  if (value <= 200) return "good";
-  if (value <= 500) return "needs_improvement";
+function rateInp(ms: number): CWVRating {
+  if (ms <= 200) return "good";
+  if (ms <= 500) return "needs-improvement";
   return "poor";
 }
 
-function getOverall(ratings: CWVRating[]): CWVRating {
-  if (ratings.every((r) => r === "good")) return "good";
-  if (ratings.some((r) => r === "poor")) return "poor";
-  if (ratings.some((r) => r === "needs_improvement")) return "needs_improvement";
-  return "n/a";
+function rateFcp(ms: number): CWVRating {
+  if (ms <= 1800) return "good";
+  if (ms <= 3000) return "needs-improvement";
+  return "poor";
+}
+
+function rateTtfb(ms: number): CWVRating {
+  if (ms <= 800) return "good";
+  if (ms <= 1800) return "needs-improvement";
+  return "poor";
+}
+
+function rateSi(ms: number): CWVRating {
+  if (ms <= 3400) return "good";
+  if (ms <= 5800) return "needs-improvement";
+  return "poor";
+}
+
+function rateTbt(ms: number): CWVRating {
+  if (ms <= 200) return "good";
+  if (ms <= 600) return "needs-improvement";
+  return "poor";
+}
+
+function formatMs(ms: number): string {
+  if (ms >= 1000) return `${(ms / 1000).toFixed(1)} s`;
+  return `${Math.round(ms)} ms`;
+}
+
+function extractMetric(
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  audits: Record<string, any>,
+  key: string,
+  rateFn: (v: number) => CWVRating,
+  isCls = false
+): MetricResult {
+  const audit = audits[key];
+  const raw = audit?.numericValue ?? null;
+  if (raw === null) {
+    return { value: null, unit: "", rating: "n/a", displayValue: "N/A" };
+  }
+  return {
+    value: raw,
+    unit: isCls ? "" : "ms",
+    rating: rateFn(raw),
+    displayValue: isCls ? raw.toFixed(3) : formatMs(raw),
+  };
 }
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
-function parseMetrics(audits: Record<string, any>): {
-  lcp: CWVMetric;
-  cls: CWVMetric;
-  inp: CWVMetric;
-  overall: CWVRating;
-} {
-  const lcpAudit = audits["largest-contentful-paint"];
-  const clsAudit = audits["cumulative-layout-shift"];
-  const inpAudit = audits["interaction-to-next-paint"] || audits["total-blocking-time"];
+function extractFieldMetric(cruxMetric: any, isCls = false): FieldMetric | null {
+  if (!cruxMetric) return null;
+  const p75 = cruxMetric.percentile ?? null;
+  if (p75 === null) return null;
 
-  const lcpValue = lcpAudit?.numericValue ?? null;
-  const clsValue = clsAudit?.numericValue ?? null;
-  const inpValue = inpAudit?.numericValue ?? null;
+  const distributions = (cruxMetric.distributions ?? []).map(
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    (d: any) => ({
+      min: d.min ?? 0,
+      max: d.max ?? 0,
+      proportion: d.proportion ?? 0,
+    })
+  );
 
-  const lcp: CWVMetric = {
-    value: lcpValue,
-    rating: lcpValue !== null ? rateLcp(lcpValue) : "n/a",
-    displayValue: lcpAudit?.displayValue ?? "N/A",
+  let rating: CWVRating = "n/a";
+  let displayValue = "N/A";
+
+  if (isCls) {
+    const val = p75 / 100; // CrUX CLS comes as hundredths
+    rating = rateCls(val);
+    displayValue = val.toFixed(3);
+  } else {
+    rating = distributions.length > 0 ? "n/a" : "n/a";
+    displayValue = formatMs(p75);
+  }
+
+  return { p75, rating, displayValue, distributions };
+}
+
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+function extractFieldData(data: any) {
+  const crux = data?.loadingExperience?.metrics;
+  if (!crux) return null;
+
+  const extractField = (
+    key: string,
+    rateFn: (v: number) => CWVRating,
+    isCls = false
+  ): FieldMetric | null => {
+    const metric = crux[key];
+    if (!metric) return null;
+    const p75 = metric.percentile ?? null;
+    if (p75 === null) return null;
+
+    const distributions = (metric.distributions ?? []).map(
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+      (d: any) => ({
+        min: d.min ?? 0,
+        max: d.max ?? 0,
+        proportion: d.proportion ?? 0,
+      })
+    );
+
+    const numericP75 = isCls ? p75 / 100 : p75;
+    const rating = rateFn(numericP75);
+    const displayValue = isCls ? numericP75.toFixed(3) : formatMs(p75);
+
+    return { p75, rating, displayValue, distributions };
   };
-  const cls: CWVMetric = {
-    value: clsValue,
-    rating: clsValue !== null ? rateCls(clsValue) : "n/a",
-    displayValue: clsAudit?.displayValue ?? "N/A",
-  };
-  const inp: CWVMetric = {
-    value: inpValue,
-    rating: inpValue !== null ? rateInp(inpValue) : "n/a",
-    displayValue: inpAudit?.displayValue ?? "N/A",
-  };
 
-  const overall = getOverall([lcp.rating, cls.rating, inp.rating].filter((r) => r !== "n/a") as CWVRating[]);
+  const lcp = extractField("LARGEST_CONTENTFUL_PAINT_MS", rateLcp);
+  const inp = extractField("INTERACTION_TO_NEXT_PAINT", rateInp);
+  const cls = extractField("CUMULATIVE_LAYOUT_SHIFT_SCORE", rateCls, true);
+  const fcp = extractField("FIRST_CONTENTFUL_PAINT_MS", rateFcp);
+  const ttfb = extractField("EXPERIMENTAL_TIME_TO_FIRST_BYTE", rateTtfb);
 
-  return { lcp, cls, inp, overall };
+  if (!lcp && !inp && !cls && !fcp && !ttfb) return null;
+
+  return { lcp, inp, cls, fcp, ttfb };
+}
+
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+function extractLcpBreakdown(audits: Record<string, any>): LcpBreakdown | null {
+  const lcpAudit = audits["largest-contentful-paint-element"];
+  const lcpItems = lcpAudit?.details?.items;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const firstItem = lcpItems?.[0] as any;
+
+  const lcpBreakdownAudit = audits["lcp-lazy-loaded"];
+
+  let element: string | null = null;
+  let elementType: string | null = null;
+  let url: string | null = null;
+
+  if (firstItem) {
+    element = firstItem.node?.snippet ?? firstItem.node?.nodeLabel ?? null;
+    elementType = firstItem.node?.type ?? null;
+    url = firstItem.node?.path ?? null;
+  }
+
+  // Try to get from the LCP element audit
+  if (!element && audits["largest-contentful-paint"]?.details?.items?.[0]) {
+    const item = audits["largest-contentful-paint"].details.items[0];
+    element = item.node?.snippet ?? item.node?.nodeLabel ?? null;
+  }
+
+  const lcpValue = audits["largest-contentful-paint"]?.numericValue ?? null;
+  const ttfbValue = audits["server-response-time"]?.numericValue ?? null;
+
+  if (!element && !lcpValue) return null;
+
+  return {
+    element,
+    elementType,
+    url,
+    loadTime: lcpValue,
+    renderDelay: null,
+    resourceLoadDelay: null,
+    ttfb: ttfbValue,
+  };
+}
+
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+function extractClsElements(audits: Record<string, any>): ClsElement[] {
+  const clsAudit = audits["layout-shift-elements"];
+  if (!clsAudit?.details?.items) return [];
+
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  return clsAudit.details.items.slice(0, 5).map((item: any) => ({
+    node: item.node?.snippet ?? item.node?.nodeLabel ?? "Unknown element",
+    score: item.score ?? 0,
+  }));
+}
+
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+function extractResourceBreakdown(audits: Record<string, any>): ResourceBreakdown | null {
+  const resourceSummary = audits["resource-summary"];
+  if (!resourceSummary?.details?.items) return null;
+
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const items = resourceSummary.details.items as any[];
+  const find = (type: string) =>
+    items.find((i) => i.resourceType === type);
+
+  const total = find("total");
+  const script = find("script");
+  const stylesheet = find("stylesheet");
+  const image = find("image");
+  const font = find("font");
+  const thirdParty = find("third-party");
+
+  const totalBytes = total?.transferSize ?? 0;
+
+  return {
+    totalBytes,
+    totalRequests: total?.requestCount ?? 0,
+    jsBytes: script?.transferSize ?? 0,
+    cssBytes: stylesheet?.transferSize ?? 0,
+    imageBytes: image?.transferSize ?? 0,
+    fontBytes: font?.transferSize ?? 0,
+    otherBytes: Math.max(
+      0,
+      totalBytes -
+        (script?.transferSize ?? 0) -
+        (stylesheet?.transferSize ?? 0) -
+        (image?.transferSize ?? 0) -
+        (font?.transferSize ?? 0)
+    ),
+    thirdPartyBytes: thirdParty?.transferSize ?? 0,
+  };
+}
+
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+function parseResult(data: any, url: string, strategy: "mobile" | "desktop"): CWVResult {
+  const lhr = data?.lighthouseResult;
+  const audits = lhr?.audits ?? {};
+  const categories = lhr?.categories ?? {};
+
+  const performanceScore =
+    categories.performance?.score != null
+      ? Math.round(categories.performance.score * 100)
+      : null;
+
+  const lcp = extractMetric(audits, "largest-contentful-paint", rateLcp);
+  const fid = extractMetric(
+    audits,
+    "interaction-to-next-paint",
+    rateInp
+  );
+  // Fallback: if INP not available, try max-potential-fid or total-blocking-time
+  if (fid.value === null) {
+    const fallback = extractMetric(audits, "max-potential-fid", rateInp);
+    if (fallback.value !== null) {
+      fid.value = fallback.value;
+      fid.rating = fallback.rating;
+      fid.displayValue = fallback.displayValue;
+      fid.unit = fallback.unit;
+    }
+  }
+
+  const cls = extractMetric(audits, "cumulative-layout-shift", rateCls, true);
+  const fcp = extractMetric(audits, "first-contentful-paint", rateFcp);
+  const ttfb = extractMetric(audits, "server-response-time", rateTtfb);
+  const si = extractMetric(audits, "speed-index", rateSi);
+  const tbt = extractMetric(audits, "total-blocking-time", rateTbt);
+
+  // Field data (CrUX)
+  const fieldData = extractFieldData(data);
+
+  // LCP breakdown
+  const lcpBreakdown = extractLcpBreakdown(audits);
+
+  // CLS shifting elements
+  const clsElements = extractClsElements(audits);
+
+  // Resource breakdown
+  const resourceBreakdown = extractResourceBreakdown(audits);
+
+  // Extract opportunities
+  const opportunities: Opportunity[] = [];
+  const oppRefs = categories.performance?.auditRefs?.filter(
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    (ref: any) => ref.group === "load-opportunities"
+  ) ?? [];
+  for (const ref of oppRefs) {
+    const audit = audits[ref.id];
+    if (audit && audit.score !== null && audit.score < 1 && audit.details?.overallSavingsMs) {
+      opportunities.push({
+        title: audit.title ?? ref.id,
+        description: audit.description ?? "",
+        savings: formatMs(audit.details.overallSavingsMs) + " potential savings",
+      });
+    }
+  }
+  // Sort by largest savings first
+  opportunities.sort((a, b) => {
+    const aNum = parseFloat(a.savings);
+    const bNum = parseFloat(b.savings);
+    return bNum - aNum;
+  });
+
+  // Extract diagnostics
+  const diagnostics: Diagnostic[] = [];
+  const diagRefs = categories.performance?.auditRefs?.filter(
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    (ref: any) => ref.group === "diagnostics"
+  ) ?? [];
+  for (const ref of diagRefs) {
+    const audit = audits[ref.id];
+    if (audit && audit.score !== null && audit.score < 1) {
+      diagnostics.push({
+        title: audit.title ?? ref.id,
+        description: audit.description ?? "",
+      });
+    }
+  }
+
+  return {
+    url,
+    strategy,
+    performanceScore,
+    lcp,
+    fid,
+    cls,
+    fcp,
+    ttfb,
+    si,
+    tbt,
+    fieldData,
+    lcpBreakdown,
+    clsElements,
+    resourceBreakdown,
+    opportunities,
+    diagnostics,
+  };
 }
 
 async function fetchPSI(url: string, strategy: "mobile" | "desktop") {
-  const apiUrl = `https://www.googleapis.com/pagespeedonline/v5/runPagespeed?url=${encodeURIComponent(url)}&strategy=${strategy}`;
+  const apiUrl = `https://www.googleapis.com/pagespeedonline/v5/runPagespeed?url=${encodeURIComponent(url)}&strategy=${strategy}&category=performance`;
 
   const controller = new AbortController();
-  const timeout = setTimeout(() => controller.abort(), 30000);
+  const timeout = setTimeout(() => controller.abort(), 45000);
 
-  const res = await fetch(apiUrl, { signal: controller.signal });
-  clearTimeout(timeout);
-
-  if (!res.ok) throw new Error(`PSI API returned ${res.status}`);
-  return await res.json();
+  try {
+    const res = await fetch(apiUrl, { signal: controller.signal });
+    clearTimeout(timeout);
+    if (!res.ok) throw new Error(`PSI API returned ${res.status}`);
+    return await res.json();
+  } catch (e) {
+    clearTimeout(timeout);
+    throw e;
+  }
 }
+
+const emptyMetric = (unit: string): MetricResult => ({
+  value: null,
+  unit,
+  rating: "n/a",
+  displayValue: "N/A",
+});
 
 export async function POST(req: Request) {
   try {
     const body = await req.json();
-    const { urls } = body;
+    const { urls, strategy } = body;
 
     if (!Array.isArray(urls) || urls.length === 0) {
       return NextResponse.json({ error: "No URLs provided" }, { status: 400 });
@@ -111,29 +450,33 @@ export async function POST(req: Request) {
       return NextResponse.json({ error: "Maximum 5 URLs at a time" }, { status: 400 });
     }
 
+    const strat: "mobile" | "desktop" = strategy === "desktop" ? "desktop" : "mobile";
+
     const results: CWVResult[] = await Promise.all(
       urls.map(async (url: string): Promise<CWVResult> => {
         try {
-          const [mobileData, desktopData] = await Promise.all([
-            fetchPSI(url, "mobile").catch(() => null),
-            fetchPSI(url, "desktop").catch(() => null),
-          ]);
-
-          const mobile = mobileData?.lighthouseResult?.audits
-            ? parseMetrics(mobileData.lighthouseResult.audits)
-            : null;
-
-          const desktop = desktopData?.lighthouseResult?.audits
-            ? parseMetrics(desktopData.lighthouseResult.audits)
-            : null;
-
-          if (!mobile && !desktop) {
-            return { url, mobile: null, desktop: null, error: "Could not retrieve data" };
-          }
-
-          return { url, mobile, desktop };
+          const data = await fetchPSI(url, strat);
+          return parseResult(data, url, strat);
         } catch (e) {
-          return { url, mobile: null, desktop: null, error: String(e) };
+          return {
+            url,
+            strategy: strat,
+            performanceScore: null,
+            lcp: emptyMetric("ms"),
+            fid: emptyMetric("ms"),
+            cls: emptyMetric(""),
+            fcp: emptyMetric("ms"),
+            ttfb: emptyMetric("ms"),
+            si: emptyMetric("ms"),
+            tbt: emptyMetric("ms"),
+            fieldData: null,
+            lcpBreakdown: null,
+            clsElements: [],
+            resourceBreakdown: null,
+            opportunities: [],
+            diagnostics: [],
+            error: e instanceof Error ? e.message : String(e),
+          };
         }
       })
     );

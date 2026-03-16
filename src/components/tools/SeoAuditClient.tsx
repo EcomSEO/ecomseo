@@ -1,7 +1,8 @@
 "use client";
 
-import { useState, useRef } from "react";
+import { useState, useRef, useCallback } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import { exportToPDF } from "@/lib/export-utils";
 import type { SeoToolTranslation } from "@/lib/i18n/translations/seoTools";
 
 interface AuditCheck {
@@ -21,6 +22,9 @@ interface AuditResult {
   warnings: number;
   critical: number;
   categories: AuditCategory[];
+  responseTimeMs: number;
+  platform: string | null;
+  comparisonResult?: AuditResult;
 }
 
 function normalizeUrl(raw: string): string {
@@ -46,6 +50,22 @@ function scoreBg(score: number) {
   return "bg-red-400/10 border-red-400/20";
 }
 
+function letterGrade(score: number): string {
+  if (score >= 90) return "A";
+  if (score >= 80) return "B";
+  if (score >= 70) return "C";
+  if (score >= 60) return "D";
+  return "F";
+}
+
+function gradeColor(score: number): string {
+  if (score >= 90) return "text-emerald-400";
+  if (score >= 80) return "text-emerald-400";
+  if (score >= 70) return "text-amber-400";
+  if (score >= 60) return "text-amber-400";
+  return "text-red-400";
+}
+
 function statusIcon(status: "pass" | "warning" | "fail") {
   if (status === "pass")
     return (
@@ -68,102 +88,124 @@ function statusIcon(status: "pass" | "warning" | "fail") {
   );
 }
 
-async function runAudit(url: string): Promise<AuditResult> {
-  const resp = await fetch(url, { mode: "no-cors" }).catch(() => null);
-
-  // Since we can't actually parse cross-origin HTML, we simulate realistic checks
-  // based on a lightweight probe. In production, this would call a backend API.
-  const passed = 28 + Math.floor(Math.random() * 10);
-  const warnings = 3 + Math.floor(Math.random() * 5);
-  const critical = 1 + Math.floor(Math.random() * 3);
-  const total = passed + warnings + critical;
-  const score = Math.round((passed / total) * 100);
-
-  const makeChecks = (items: { label: string; pass: string; warn: string; fail: string }[]): AuditCheck[] =>
-    items.map((item) => {
-      const r = Math.random();
-      if (r > 0.3)
-        return { label: item.label, status: "pass" as const, detail: item.pass };
-      if (r > 0.1)
-        return { label: item.label, status: "warning" as const, detail: item.warn };
-      return { label: item.label, status: "fail" as const, detail: item.fail };
-    });
-
-  return {
-    score,
-    passed,
-    warnings,
-    critical,
-    categories: [
-      {
-        name: "meta",
-        checks: makeChecks([
-          { label: "Title tag", pass: "Title tag is present and within optimal length (50-60 chars)", warn: "Title tag is slightly long (65 chars). Consider trimming to under 60.", fail: "Title tag is missing or empty" },
-          { label: "Meta description", pass: "Meta description is present and well-optimized (155 chars)", warn: "Meta description is too short (89 chars). Aim for 150-160 characters.", fail: "Meta description is missing" },
-          { label: "H1 tag", pass: "Single H1 tag found with relevant keywords", warn: "Multiple H1 tags detected. Use a single H1 per page.", fail: "No H1 tag found on the page" },
-          { label: "Heading hierarchy", pass: "Heading structure follows logical H1 > H2 > H3 order", warn: "Heading levels are skipped (H1 to H3, no H2)", fail: "No heading structure found" },
-          { label: "Open Graph tags", pass: "OG title, description, and image are properly set", warn: "OG image is missing. Social shares won't display a preview.", fail: "No Open Graph tags found" },
-          { label: "Canonical tag", pass: "Self-referencing canonical tag is properly configured", warn: "Canonical points to a different URL. Verify this is intentional.", fail: "No canonical tag found" },
-        ]),
-      },
-      {
-        name: "content",
-        checks: makeChecks([
-          { label: "Word count", pass: "Page has sufficient content (1,240 words)", warn: "Content may be thin (320 words). Consider adding more detail.", fail: "Very little content detected (under 100 words)" },
-          { label: "Keyword presence", pass: "Primary keyword found in title, H1, and body content", warn: "Keyword missing from H1 tag", fail: "No target keyword pattern detected" },
-          { label: "Image alt texts", pass: "All images have descriptive alt attributes", warn: "3 images are missing alt text", fail: "Most images lack alt text" },
-          { label: "Internal links", pass: "Good internal linking structure (15+ internal links)", warn: "Only 2 internal links found. Add more cross-links.", fail: "No internal links detected on the page" },
-          { label: "Duplicate content", pass: "No duplicate content issues detected", warn: "Some content sections appear similar to other pages", fail: "Significant duplicate content detected" },
-        ]),
-      },
-      {
-        name: "technical",
-        checks: makeChecks([
-          { label: "SSL certificate", pass: "Valid SSL certificate (HTTPS enabled)", warn: "SSL certificate expires within 30 days", fail: "No SSL certificate. Site loads over HTTP." },
-          { label: "Robots.txt", pass: "Robots.txt is properly configured", warn: "Robots.txt is blocking some important paths", fail: "No robots.txt found" },
-          { label: "XML sitemap", pass: "Sitemap.xml found and properly formatted", warn: "Sitemap contains URLs returning 404 errors", fail: "No XML sitemap found" },
-          { label: "404 errors", pass: "No broken links detected", warn: "3 internal links return 404 errors", fail: "Multiple broken links detected on the page" },
-          { label: "Redirect chains", pass: "No redirect chains detected", warn: "1 redirect chain found (3 hops)", fail: "Multiple redirect chains detected" },
-          { label: "Hreflang tags", pass: "Hreflang tags properly implemented for all locales", warn: "Hreflang tags found but missing return links", fail: "No hreflang tags on an international site" },
-        ]),
-      },
-      {
-        name: "performance",
-        checks: makeChecks([
-          { label: "Page load time", pass: "Page loads in 1.8s (good)", warn: "Page load time is 3.2s. Aim for under 2.5s.", fail: "Page load time exceeds 5 seconds" },
-          { label: "Largest Contentful Paint", pass: "LCP is 1.9s (good)", warn: "LCP is 3.1s. Optimize hero images.", fail: "LCP exceeds 4 seconds" },
-          { label: "Cumulative Layout Shift", pass: "CLS is 0.02 (excellent)", warn: "CLS is 0.18. Add dimensions to images and embeds.", fail: "CLS is 0.35 (poor)" },
-          { label: "Image optimization", pass: "Images are properly compressed and use modern formats", warn: "Some images are over 500KB. Consider WebP.", fail: "Large uncompressed images detected" },
-        ]),
-      },
-      {
-        name: "structured-data",
-        checks: makeChecks([
-          { label: "Product schema", pass: "Valid Product schema with price, availability, and reviews", warn: "Product schema is missing review/rating data", fail: "No Product schema found on product pages" },
-          { label: "Breadcrumb schema", pass: "BreadcrumbList schema properly implemented", warn: "Breadcrumb schema has minor validation warnings", fail: "No breadcrumb structured data" },
-          { label: "Organization schema", pass: "Organization schema with logo and contact info", warn: "Organization schema is incomplete (missing logo)", fail: "No Organization schema found" },
-          { label: "FAQ schema", pass: "FAQ schema detected and valid", warn: "FAQ schema has too few questions (under 3)", fail: "FAQ content exists but no FAQ schema" },
-        ]),
-      },
-      {
-        name: "mobile",
-        checks: makeChecks([
-          { label: "Viewport meta tag", pass: "Viewport meta tag properly configured", warn: "Viewport meta tag has fixed width set", fail: "No viewport meta tag found" },
-          { label: "Tap target sizing", pass: "All interactive elements are properly sized for touch", warn: "Some buttons are too close together on mobile", fail: "Multiple tap targets are too small" },
-          { label: "Font readability", pass: "Font sizes are readable on mobile (16px+ base)", warn: "Base font size is 14px. Consider increasing to 16px.", fail: "Text is too small on mobile devices" },
-          { label: "Responsive images", pass: "Images use srcset for responsive delivery", warn: "Some images don't have responsive variants", fail: "Fixed-width images cause horizontal scrolling" },
-        ]),
-      },
-    ],
-  };
+function scoreRingColor(score: number) {
+  if (score >= 80) return "#34d399";
+  if (score >= 50) return "#fbbf24";
+  return "#f87171";
 }
+
+function ScoreRing({ score, size = 120 }: { score: number; size?: number }) {
+  const strokeWidth = 8;
+  const radius = (size - strokeWidth) / 2;
+  const circumference = 2 * Math.PI * radius;
+  const offset = circumference - (score / 100) * circumference;
+  const color = scoreRingColor(score);
+
+  return (
+    <div className="relative" style={{ width: size, height: size }}>
+      <svg width={size} height={size} className="-rotate-90">
+        <circle cx={size / 2} cy={size / 2} r={radius} fill="none" stroke="currentColor" strokeWidth={strokeWidth} className="text-white/5" />
+        <circle cx={size / 2} cy={size / 2} r={radius} fill="none" stroke={color} strokeWidth={strokeWidth} strokeDasharray={circumference} strokeDashoffset={offset} strokeLinecap="round" className="transition-all duration-1000" />
+      </svg>
+      <div className="absolute inset-0 flex flex-col items-center justify-center">
+        <span className="text-[28px] font-bold" style={{ color }}>{score}</span>
+        <span className="text-[10px] text-white/30">/100</span>
+      </div>
+    </div>
+  );
+}
+
+function platformColor(platform: string | null): string {
+  switch (platform) {
+    case "Shopify": return "text-emerald-400 bg-emerald-400/10 border-emerald-400/20";
+    case "WooCommerce": return "text-purple-400 bg-purple-400/10 border-purple-400/20";
+    case "Magento": return "text-orange-400 bg-orange-400/10 border-orange-400/20";
+    case "BigCommerce": return "text-blue-400 bg-blue-400/10 border-blue-400/20";
+    case "PrestaShop": return "text-pink-400 bg-pink-400/10 border-pink-400/20";
+    case "Wix": return "text-yellow-400 bg-yellow-400/10 border-yellow-400/20";
+    case "Squarespace": return "text-white bg-white/10 border-white/20";
+    default: return "text-body bg-white/5 border-border";
+  }
+}
+
+/* ── Loading Skeleton ────────────────────────────────────── */
+
+function LoadingSkeleton() {
+  return (
+    <div className="w-full max-w-[900px] mx-auto space-y-8 animate-pulse">
+      {/* Score skeleton */}
+      <div className="rounded-2xl border border-border bg-bg-card p-8">
+        <div className="h-5 w-48 bg-white/10 rounded mb-6" />
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+          {[...Array(4)].map((_, i) => (
+            <div key={i} className="rounded-xl border border-white/5 bg-white/[0.03] p-5 flex flex-col items-center gap-2">
+              <div className="h-3 w-16 bg-white/10 rounded" />
+              <div className="h-9 w-14 bg-white/10 rounded" />
+            </div>
+          ))}
+        </div>
+      </div>
+      {/* Category skeletons */}
+      {[...Array(6)].map((_, i) => (
+        <div key={i} className="rounded-xl border border-border bg-bg-card p-5 flex items-center gap-4">
+          <div className="w-5 h-5 bg-white/10 rounded" />
+          <div className="flex-1 h-4 bg-white/10 rounded w-40" />
+          <div className="h-4 w-10 bg-white/10 rounded" />
+        </div>
+      ))}
+    </div>
+  );
+}
+
+/* ── Export Helpers ───────────────────────────────────────── */
+
+function resultsToCsv(result: AuditResult): string {
+  const rows = [["Category", "Check", "Status", "Detail"].join(",")];
+  for (const cat of result.categories) {
+    for (const check of cat.checks) {
+      rows.push(
+        [
+          `"${cat.name}"`,
+          `"${check.label}"`,
+          check.status,
+          `"${check.detail.replace(/"/g, '""')}"`,
+        ].join(",")
+      );
+    }
+  }
+  return rows.join("\n");
+}
+
+function resultsToText(result: AuditResult): string {
+  const lines: string[] = [
+    `SEO Audit Results - Score: ${result.score}/100 (${letterGrade(result.score)})`,
+    `Passed: ${result.passed} | Warnings: ${result.warnings} | Critical: ${result.critical}`,
+    "",
+  ];
+  for (const cat of result.categories) {
+    lines.push(`--- ${cat.name.toUpperCase()} ---`);
+    for (const check of cat.checks) {
+      const icon = check.status === "pass" ? "[PASS]" : check.status === "warning" ? "[WARN]" : "[FAIL]";
+      lines.push(`  ${icon} ${check.label}: ${check.detail}`);
+    }
+    lines.push("");
+  }
+  return lines.join("\n");
+}
+
+/* ── Main Component ──────────────────────────────────────── */
 
 export default function SeoAuditClient({ t }: { t: SeoToolTranslation }) {
   const [url, setUrl] = useState("");
+  const [compareUrl, setCompareUrl] = useState("");
+  const [showCompare, setShowCompare] = useState(false);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
   const [result, setResult] = useState<AuditResult | null>(null);
-  const [expandedCat, setExpandedCat] = useState<string | null>(null);
+  const [expandedCats, setExpandedCats] = useState<Set<string>>(new Set());
+  const [showOnlyIssues, setShowOnlyIssues] = useState(false);
+  const [copied, setCopied] = useState(false);
+  const [activeTab, setActiveTab] = useState<"primary" | "comparison">("primary");
   const resultsRef = useRef<HTMLDivElement>(null);
 
   const categoryLabels: Record<string, string> = {
@@ -173,6 +215,7 @@ export default function SeoAuditClient({ t }: { t: SeoToolTranslation }) {
     performance: t.categoryPerformance,
     "structured-data": t.categoryStructuredData,
     mobile: t.categoryMobile,
+    ecommerce: "Ecommerce SEO",
   };
 
   const categoryIcons: Record<string, React.ReactNode> = {
@@ -206,7 +249,42 @@ export default function SeoAuditClient({ t }: { t: SeoToolTranslation }) {
         <rect x="5" y="2" width="14" height="20" rx="2" ry="2" /><path d="M12 18h.01" />
       </svg>
     ),
+    ecommerce: (
+      <svg className="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+        <circle cx="9" cy="21" r="1" /><circle cx="20" cy="21" r="1" />
+        <path d="M1 1h4l2.68 13.39a2 2 0 002 1.61h9.72a2 2 0 002-1.61L23 6H6" />
+      </svg>
+    ),
   };
+
+  const toggleCategory = useCallback((name: string) => {
+    setExpandedCats((prev) => {
+      const next = new Set(prev);
+      if (next.has(name)) next.delete(name);
+      else next.add(name);
+      return next;
+    });
+  }, []);
+
+  const handleCopyToClipboard = useCallback(() => {
+    if (!result) return;
+    navigator.clipboard.writeText(resultsToText(result)).then(() => {
+      setCopied(true);
+      setTimeout(() => setCopied(false), 2000);
+    });
+  }, [result]);
+
+  const handleExportCsv = useCallback(() => {
+    if (!result) return;
+    const csv = resultsToCsv(result);
+    const blob = new Blob([csv], { type: "text/csv;charset=utf-8;" });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement("a");
+    a.href = url;
+    a.download = "seo-audit-results.csv";
+    a.click();
+    URL.revokeObjectURL(url);
+  }, [result]);
 
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
@@ -226,9 +304,30 @@ export default function SeoAuditClient({ t }: { t: SeoToolTranslation }) {
 
     setLoading(true);
     try {
-      const res = await runAudit(normalized);
-      setResult(res);
-      setExpandedCat(res.categories[0]?.name || null);
+      const bodyPayload: Record<string, string> = { url: normalized };
+      if (showCompare && compareUrl.trim()) {
+        const normalizedComp = normalizeUrl(compareUrl);
+        if (normalizedComp) bodyPayload.compareUrl = normalizedComp;
+      }
+
+      const res = await fetch("/api/ecommerce-audit", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(bodyPayload),
+      });
+
+      if (!res.ok) {
+        const data = await res.json().catch(() => ({}));
+        setError(data.error || t.errorFetch);
+        return;
+      }
+
+      const data: AuditResult = await res.json();
+      setResult(data);
+      // Expand all categories initially
+      setExpandedCats(new Set(data.categories.map((c) => c.name)));
+      setShowOnlyIssues(false);
+      setActiveTab("primary");
       setTimeout(() => {
         resultsRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });
       }, 100);
@@ -274,6 +373,47 @@ export default function SeoAuditClient({ t }: { t: SeoToolTranslation }) {
             </div>
           </div>
 
+          {/* Compare toggle */}
+          <div>
+            <button
+              type="button"
+              onClick={() => setShowCompare(!showCompare)}
+              className={`flex items-center gap-2 text-xs font-medium transition-colors ${
+                showCompare ? "text-accent" : "text-body hover:text-heading"
+              }`}
+            >
+              <svg className="w-3.5 h-3.5" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.2">
+                <path d="M8 1v14M1 8h14" strokeLinecap="round" />
+              </svg>
+              Compare with a competitor
+            </button>
+
+            <AnimatePresence>
+              {showCompare && (
+                <motion.div
+                  initial={{ height: 0, opacity: 0 }}
+                  animate={{ height: "auto", opacity: 1 }}
+                  exit={{ height: 0, opacity: 0 }}
+                  transition={{ duration: 0.2 }}
+                  className="overflow-hidden"
+                >
+                  <div className="pt-3">
+                    <input
+                      type="text"
+                      value={compareUrl}
+                      onChange={(e) => setCompareUrl(e.target.value)}
+                      placeholder="e.g. competitor-store.com"
+                      className="w-full px-4 py-3 rounded-xl bg-bg border border-border text-heading text-sm placeholder:text-body/50 focus:outline-none focus:border-accent transition-colors"
+                    />
+                    <p className="text-[11px] text-white/30 mt-1.5">
+                      Enter a competitor URL for side-by-side SEO comparison
+                    </p>
+                  </div>
+                </motion.div>
+              )}
+            </AnimatePresence>
+          </div>
+
           {error && (
             <p className="text-red-400 text-sm">{error}</p>
           )}
@@ -302,9 +442,12 @@ export default function SeoAuditClient({ t }: { t: SeoToolTranslation }) {
         </form>
       </div>
 
+      {/* Loading Skeleton */}
+      {loading && <LoadingSkeleton />}
+
       {/* Results */}
       <AnimatePresence>
-        {result && (
+        {result && !loading && (
           <motion.div
             ref={resultsRef}
             initial={{ opacity: 0, y: 20 }}
@@ -313,47 +456,264 @@ export default function SeoAuditClient({ t }: { t: SeoToolTranslation }) {
             transition={{ duration: 0.4 }}
             className="w-full max-w-[900px] mx-auto space-y-8"
           >
-            {/* Score Overview */}
-            <div className="rounded-2xl border border-border bg-bg-card p-8">
-              <h2 className="text-[20px] font-medium text-heading mb-6">{t.resultsTitle}</h2>
-              <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-                {/* Overall Score */}
-                <div className={`rounded-xl border p-5 text-center ${scoreBg(result.score)}`}>
-                  <p className="text-xs text-white/40 mb-1">{t.overallScore}</p>
-                  <p className={`text-[36px] font-bold ${scoreColor(result.score)}`}>{result.score}</p>
-                  <p className="text-xs text-white/30">/100</p>
+            {/* Platform Badge */}
+            {result.platform && (
+              <div className="flex flex-wrap items-center justify-center gap-3">
+                <span className={`inline-flex items-center gap-2 px-4 py-2 rounded-full border text-sm font-medium ${platformColor(result.platform)}`}>
+                  <svg className="w-4 h-4" viewBox="0 0 16 16" fill="none">
+                    <path d="M3 8.5l3.5 3.5 6.5-8" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                  </svg>
+                  {result.platform} Detected
+                </span>
+              </div>
+            )}
+
+            {/* Comparison Tab Switcher */}
+            {result.comparisonResult && (
+              <div className="flex items-center justify-center gap-2">
+                <button
+                  onClick={() => { setActiveTab("primary"); setExpandedCats(new Set(result.categories.map((c) => c.name))); }}
+                  className={`px-4 py-2 rounded-lg text-sm font-medium transition-colors ${
+                    activeTab === "primary"
+                      ? "bg-accent/10 border border-accent/30 text-accent"
+                      : "border border-border text-body hover:text-heading"
+                  }`}
+                >
+                  Your Site
+                </button>
+                <span className="text-white/20 text-sm px-2">vs</span>
+                <button
+                  onClick={() => { setActiveTab("comparison"); setExpandedCats(new Set(result.comparisonResult!.categories.map((c) => c.name))); }}
+                  className={`px-4 py-2 rounded-lg text-sm font-medium transition-colors ${
+                    activeTab === "comparison"
+                      ? "bg-accent/10 border border-accent/30 text-accent"
+                      : "border border-border text-body hover:text-heading"
+                  }`}
+                >
+                  Competitor
+                </button>
+              </div>
+            )}
+
+            {/* Side-by-side score comparison */}
+            {result.comparisonResult && (
+              <div className="rounded-2xl border border-border bg-bg-card p-8">
+                <h3 className="text-center text-sm font-medium text-white/40 mb-6">Score Comparison</h3>
+                <div className="flex items-center justify-center gap-8 md:gap-16">
+                  <div className="flex flex-col items-center gap-2">
+                    <ScoreRing score={result.score} size={100} />
+                    <span className="text-xs text-white/50">Your Site</span>
+                    <span className={`text-lg font-bold ${gradeColor(result.score)}`}>
+                      {letterGrade(result.score)}
+                    </span>
+                    {result.platform && (
+                      <span className="text-[10px] text-white/30">{result.platform}</span>
+                    )}
+                  </div>
+                  <div className="text-white/20 text-2xl font-light">vs</div>
+                  <div className="flex flex-col items-center gap-2">
+                    <ScoreRing score={result.comparisonResult.score} size={100} />
+                    <span className="text-xs text-white/50">Competitor</span>
+                    <span className={`text-lg font-bold ${gradeColor(result.comparisonResult.score)}`}>
+                      {letterGrade(result.comparisonResult.score)}
+                    </span>
+                    {result.comparisonResult.platform && (
+                      <span className="text-[10px] text-white/30">{result.comparisonResult.platform}</span>
+                    )}
+                  </div>
                 </div>
-                <div className="rounded-xl border border-emerald-400/20 bg-emerald-400/5 p-5 text-center">
-                  <p className="text-xs text-white/40 mb-1">{t.passedChecks}</p>
-                  <p className="text-[28px] font-bold text-emerald-400">{result.passed}</p>
-                </div>
-                <div className="rounded-xl border border-amber-400/20 bg-amber-400/5 p-5 text-center">
-                  <p className="text-xs text-white/40 mb-1">{t.warnings}</p>
-                  <p className="text-[28px] font-bold text-amber-400">{result.warnings}</p>
-                </div>
-                <div className="rounded-xl border border-red-400/20 bg-red-400/5 p-5 text-center">
-                  <p className="text-xs text-white/40 mb-1">{t.criticalIssues}</p>
-                  <p className="text-[28px] font-bold text-red-400">{result.critical}</p>
+                <div className="mt-6 grid grid-cols-3 gap-4 text-center text-xs">
+                  <div>
+                    <span className="text-white/30">Passed</span>
+                    <div className="flex items-center justify-center gap-3 mt-1">
+                      <span className="text-emerald-400 font-bold">{result.passed}</span>
+                      <span className="text-white/20">vs</span>
+                      <span className="text-emerald-400 font-bold">{result.comparisonResult.passed}</span>
+                    </div>
+                  </div>
+                  <div>
+                    <span className="text-white/30">Warnings</span>
+                    <div className="flex items-center justify-center gap-3 mt-1">
+                      <span className="text-amber-400 font-bold">{result.warnings}</span>
+                      <span className="text-white/20">vs</span>
+                      <span className="text-amber-400 font-bold">{result.comparisonResult.warnings}</span>
+                    </div>
+                  </div>
+                  <div>
+                    <span className="text-white/30">Critical</span>
+                    <div className="flex items-center justify-center gap-3 mt-1">
+                      <span className="text-red-400 font-bold">{result.critical}</span>
+                      <span className="text-white/20">vs</span>
+                      <span className="text-red-400 font-bold">{result.comparisonResult.critical}</span>
+                    </div>
+                  </div>
                 </div>
               </div>
+            )}
+
+            {/* Score Overview */}
+            <div className="rounded-2xl border border-border bg-bg-card p-8">
+              <div className="flex items-center justify-between mb-6">
+                <h2 className="text-[20px] font-medium text-heading">{t.resultsTitle}</h2>
+                <div className="flex items-center gap-2">
+                  <button
+                    onClick={handleCopyToClipboard}
+                    className="px-3 py-1.5 rounded-lg border border-border text-xs text-body hover:text-heading hover:border-white/20 transition-colors flex items-center gap-1.5"
+                  >
+                    {copied ? (
+                      <>
+                        <svg className="w-3.5 h-3.5 text-emerald-400" viewBox="0 0 16 16" fill="none">
+                          <path d="M3 8.5l3.5 3.5 6.5-8" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                        </svg>
+                        Copied
+                      </>
+                    ) : (
+                      <>
+                        <svg className="w-3.5 h-3.5" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.2">
+                          <rect x="5" y="5" width="8" height="8" rx="1" />
+                          <path d="M3 11V3h8" strokeLinecap="round" />
+                        </svg>
+                        Copy
+                      </>
+                    )}
+                  </button>
+                  <button
+                    onClick={handleExportCsv}
+                    className="px-3 py-1.5 rounded-lg border border-border text-xs text-body hover:text-heading hover:border-white/20 transition-colors flex items-center gap-1.5"
+                  >
+                    <svg className="w-3.5 h-3.5" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.2">
+                      <path d="M8 2v8M5 7l3 3 3-3" strokeLinecap="round" strokeLinejoin="round" />
+                      <path d="M2 11v2a1 1 0 001 1h10a1 1 0 001-1v-2" strokeLinecap="round" />
+                    </svg>
+                    CSV
+                  </button>
+                  <button
+                    onClick={() => {
+                      if (!result) return;
+                      exportToPDF({
+                        title: "SEO Audit Report",
+                        score: result.score,
+                        grade: letterGrade(result.score),
+                        data: result.categories.flatMap((cat) =>
+                          cat.checks.map((check) => ({
+                            Category: cat.name,
+                            Check: check.label,
+                            Status: check.status,
+                            Detail: check.detail,
+                          }))
+                        ),
+                        url: url.startsWith("http") ? url : `https://${url}`,
+                      });
+                    }}
+                    className="px-3 py-1.5 rounded-lg border border-border text-xs text-body hover:text-heading hover:border-white/20 transition-colors flex items-center gap-1.5"
+                  >
+                    <svg className="w-3.5 h-3.5" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.2">
+                      <path d="M10 1H4a1 1 0 00-1 1v12a1 1 0 001 1h8a1 1 0 001-1V4z" strokeLinecap="round" strokeLinejoin="round" />
+                      <path d="M10 1v3h3M7 8h2M7 10.5h4" strokeLinecap="round" />
+                    </svg>
+                    PDF
+                  </button>
+                </div>
+              </div>
+              {(() => {
+                const dr = activeTab === "comparison" && result.comparisonResult ? result.comparisonResult : result;
+                return (
+                  <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
+                    <div className={`rounded-xl border p-5 text-center ${scoreBg(dr.score)}`}>
+                      <p className="text-xs text-white/40 mb-1">{t.overallScore}</p>
+                      <p className={`text-[36px] font-bold ${scoreColor(dr.score)}`}>{dr.score}</p>
+                      <p className="text-xs text-white/30">/100</p>
+                    </div>
+                    <div className={`rounded-xl border p-5 text-center ${scoreBg(dr.score)}`}>
+                      <p className="text-xs text-white/40 mb-1">Grade</p>
+                      <p className={`text-[36px] font-bold ${gradeColor(dr.score)}`}>{letterGrade(dr.score)}</p>
+                    </div>
+                    <div className="rounded-xl border border-emerald-400/20 bg-emerald-400/5 p-5 text-center">
+                      <p className="text-xs text-white/40 mb-1">{t.passedChecks}</p>
+                      <p className="text-[28px] font-bold text-emerald-400">{dr.passed}</p>
+                    </div>
+                    <div className="rounded-xl border border-amber-400/20 bg-amber-400/5 p-5 text-center">
+                      <p className="text-xs text-white/40 mb-1">{t.warnings}</p>
+                      <p className="text-[28px] font-bold text-amber-400">{dr.warnings}</p>
+                    </div>
+                    <div className="rounded-xl border border-red-400/20 bg-red-400/5 p-5 text-center">
+                      <p className="text-xs text-white/40 mb-1">{t.criticalIssues}</p>
+                      <p className="text-[28px] font-bold text-red-400">{dr.critical}</p>
+                    </div>
+                  </div>
+                );
+              })()}
+            </div>
+
+            {/* Toolbar: filter toggle */}
+            <div className="flex items-center justify-between">
+              <p className="text-xs text-body">
+                {(activeTab === "comparison" && result.comparisonResult ? result.comparisonResult : result).passed + (activeTab === "comparison" && result.comparisonResult ? result.comparisonResult : result).warnings + (activeTab === "comparison" && result.comparisonResult ? result.comparisonResult : result).critical} checks across {(activeTab === "comparison" && result.comparisonResult ? result.comparisonResult : result).categories.length} categories
+                {(activeTab === "comparison" && result.comparisonResult ? result.comparisonResult : result).responseTimeMs ? ` (analyzed in ${((activeTab === "comparison" && result.comparisonResult ? result.comparisonResult : result).responseTimeMs / 1000).toFixed(1)}s)` : ""}
+              </p>
+              <label className="flex items-center gap-2 cursor-pointer select-none">
+                <span className="text-xs text-body">Show only issues</span>
+                <button
+                  type="button"
+                  role="switch"
+                  aria-checked={showOnlyIssues}
+                  onClick={() => setShowOnlyIssues((v) => !v)}
+                  className={`relative inline-flex h-5 w-9 items-center rounded-full transition-colors ${showOnlyIssues ? "bg-accent" : "bg-white/10"}`}
+                >
+                  <span
+                    className={`inline-block h-3.5 w-3.5 rounded-full bg-white transition-transform ${showOnlyIssues ? "translate-x-[18px]" : "translate-x-[3px]"}`}
+                  />
+                </button>
+              </label>
             </div>
 
             {/* Category Breakdown */}
             <div className="space-y-3">
-              {result.categories.map((cat) => {
+              {(activeTab === "comparison" && result.comparisonResult ? result.comparisonResult : result).categories.map((cat) => {
                 const passCount = cat.checks.filter((c) => c.status === "pass").length;
                 const catScore = Math.round((passCount / cat.checks.length) * 100);
-                const isExpanded = expandedCat === cat.name;
+                const isExpanded = expandedCats.has(cat.name);
+
+                const visibleChecks = showOnlyIssues
+                  ? cat.checks.filter((c) => c.status !== "pass")
+                  : cat.checks;
+
+                const warnCount = cat.checks.filter((c) => c.status === "warning").length;
+                const failCount = cat.checks.filter((c) => c.status === "fail").length;
+
+                // If filtering and no issues, still show the category header but collapsed
+                if (showOnlyIssues && visibleChecks.length === 0) {
+                  return (
+                    <div key={cat.name} className="rounded-xl border border-border bg-bg-card overflow-hidden opacity-50">
+                      <div className="w-full flex items-center gap-4 p-5 text-left">
+                        <span className="text-accent">{categoryIcons[cat.name]}</span>
+                        <span className="flex-1 text-sm font-medium text-heading">
+                          {categoryLabels[cat.name] || cat.name}
+                        </span>
+                        <span className="text-xs text-emerald-400/70">All passed</span>
+                        <span className={`text-sm font-bold ${scoreColor(catScore)}`}>
+                          {catScore}%
+                        </span>
+                      </div>
+                    </div>
+                  );
+                }
 
                 return (
                   <div key={cat.name} className="rounded-xl border border-border bg-bg-card overflow-hidden">
                     <button
-                      onClick={() => setExpandedCat(isExpanded ? null : cat.name)}
+                      onClick={() => toggleCategory(cat.name)}
                       className="w-full flex items-center gap-4 p-5 hover:bg-white/[0.02] transition-colors text-left"
                     >
                       <span className="text-accent">{categoryIcons[cat.name]}</span>
                       <span className="flex-1 text-sm font-medium text-heading">
                         {categoryLabels[cat.name] || cat.name}
+                      </span>
+                      {/* Mini stats */}
+                      <span className="hidden sm:flex items-center gap-2 text-[11px]">
+                        {passCount > 0 && <span className="text-emerald-400/70">{passCount} passed</span>}
+                        {warnCount > 0 && <span className="text-amber-400/70">{warnCount} warn</span>}
+                        {failCount > 0 && <span className="text-red-400/70">{failCount} fail</span>}
                       </span>
                       <span className={`text-sm font-bold ${scoreColor(catScore)}`}>
                         {catScore}%
@@ -377,7 +737,7 @@ export default function SeoAuditClient({ t }: { t: SeoToolTranslation }) {
                           className="overflow-hidden"
                         >
                           <div className="px-5 pb-5 space-y-2 border-t border-border pt-4">
-                            {cat.checks.map((check, idx) => (
+                            {visibleChecks.map((check, idx) => (
                               <div
                                 key={idx}
                                 className="flex items-start gap-3 p-3 rounded-lg bg-white/[0.02]"

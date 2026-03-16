@@ -1,5 +1,15 @@
 import { NextResponse } from "next/server";
 
+interface ResourceBreakdown {
+  scripts: number;
+  stylesheets: number;
+  images: number;
+  fonts: number;
+  other: number;
+  totalSize: number;
+  totalRequests: number;
+}
+
 interface SpeedResult {
   url: string;
   score: number;
@@ -7,7 +17,9 @@ interface SpeedResult {
   lcp: number;
   tbt: number;
   cls: number;
+  ttfb: number;
   speedIndex: number;
+  resources: ResourceBreakdown;
   error?: boolean;
 }
 
@@ -37,11 +49,37 @@ async function fetchPSI(url: string): Promise<SpeedResult> {
     const tbt = lighthouse.audits["total-blocking-time"]?.numericValue ?? 0;
     const cls = lighthouse.audits["cumulative-layout-shift"]?.numericValue ?? 0;
     const speedIndex = lighthouse.audits["speed-index"]?.numericValue ?? 0;
+    const ttfb = lighthouse.audits["server-response-time"]?.numericValue ?? 0;
 
-    return { url, score, fcp, lcp, tbt, cls, speedIndex };
+    // Resource breakdown from diagnostics
+    const resources: ResourceBreakdown = {
+      scripts: 0, stylesheets: 0, images: 0, fonts: 0, other: 0, totalSize: 0, totalRequests: 0,
+    };
+
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    const networkRequests = lighthouse.audits["network-requests"]?.details?.items as any[] | undefined;
+    if (networkRequests) {
+      for (const item of networkRequests) {
+        const type = (item.resourceType || "").toLowerCase();
+        const size = item.transferSize || 0;
+        resources.totalSize += size;
+        resources.totalRequests++;
+        if (type === "script") resources.scripts++;
+        else if (type === "stylesheet") resources.stylesheets++;
+        else if (type === "image") resources.images++;
+        else if (type === "font") resources.fonts++;
+        else resources.other++;
+      }
+    }
+
+    return { url, score, fcp, lcp, tbt, cls, ttfb, speedIndex, resources };
   } catch {
     clearTimeout(timeout);
-    return { url, score: 0, fcp: 0, lcp: 0, tbt: 0, cls: 0, speedIndex: 0, error: true };
+    return {
+      url, score: 0, fcp: 0, lcp: 0, tbt: 0, cls: 0, ttfb: 0, speedIndex: 0,
+      resources: { scripts: 0, stylesheets: 0, images: 0, fonts: 0, other: 0, totalSize: 0, totalRequests: 0 },
+      error: true,
+    };
   }
 }
 
