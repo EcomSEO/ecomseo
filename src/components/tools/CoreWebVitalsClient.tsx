@@ -1256,66 +1256,45 @@ export default function CoreWebVitalsClient({ t }: { t: CoreWebVitalsTranslation
 
   const fetchCWV = useCallback(
     async (urlList: string[], strat: Strategy, signal?: AbortSignal): Promise<CWVResult[]> => {
-      // Try direct PSI API from browser first (avoids server IP rate limits)
-      // Fall back to our API route if direct call fails
-      const results: CWVResult[] = [];
-      for (const url of urlList) {
-        try {
-          const categories = "&category=performance&category=accessibility&category=seo";
-          const psiUrl = `https://www.googleapis.com/pagespeedonline/v5/runPagespeed?url=${encodeURIComponent(url)}&strategy=${strat}${categories}`;
-          const psiRes = await fetch(psiUrl, { signal });
-          if (!psiRes.ok) throw new Error(`PSI ${psiRes.status}`);
-          const psiData = await psiRes.json();
-          // Send to our API for parsing
-          const parseRes = await fetch("/api/core-web-vitals", {
-            method: "POST",
-            headers: { "Content-Type": "application/json" },
-            body: JSON.stringify({ urls: [url], strategy: strat, psiData: [psiData] }),
-            signal,
-          });
-          if (!parseRes.ok) throw new Error("Parse error");
-          const parsed = await parseRes.json();
-          results.push(...parsed.results);
-        } catch {
-          // Fallback: let server fetch
-          try {
-            const res = await fetch("/api/core-web-vitals", {
-              method: "POST",
-              headers: { "Content-Type": "application/json" },
-              body: JSON.stringify({ urls: [url], strategy: strat }),
-              signal,
-            });
-            if (!res.ok) throw new Error("API error");
-            const data = await res.json();
-            results.push(...data.results);
-          } catch {
-            results.push({
-              url,
-              strategy: strat,
-              performanceScore: null,
-              accessibilityScore: null,
-              seoScore: null,
-              lcp: { value: null, unit: "ms", rating: "n/a", displayValue: "N/A" },
-              fid: { value: null, unit: "ms", rating: "n/a", displayValue: "N/A" },
-              cls: { value: null, unit: "", rating: "n/a", displayValue: "N/A" },
-              fcp: { value: null, unit: "ms", rating: "n/a", displayValue: "N/A" },
-              ttfb: { value: null, unit: "ms", rating: "n/a", displayValue: "N/A" },
-              si: { value: null, unit: "ms", rating: "n/a", displayValue: "N/A" },
-              tbt: { value: null, unit: "ms", rating: "n/a", displayValue: "N/A" },
-              fieldData: null,
-              lcpBreakdown: null,
-              clsElements: [],
-              resourceBreakdown: null,
-              opportunities: [],
-              diagnostics: [],
-              actionItems: [],
-              passesCWV: false,
-              error: "Failed to analyze. Please try again.",
-            });
-          }
+      try {
+        const res = await fetch("/api/core-web-vitals", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ urls: urlList, strategy: strat }),
+          signal,
+        });
+        if (!res.ok) {
+          const errData = await res.json().catch(() => ({}));
+          throw new Error(errData.error || `API error ${res.status}`);
         }
+        const data = await res.json();
+        return data.results;
+      } catch (e) {
+        if (e instanceof Error && e.name === "AbortError") throw e;
+        return urlList.map((url) => ({
+          url,
+          strategy: strat,
+          performanceScore: null,
+          accessibilityScore: null,
+          seoScore: null,
+          lcp: { value: null, unit: "ms", rating: "n/a" as Rating, displayValue: "N/A" },
+          fid: { value: null, unit: "ms", rating: "n/a" as Rating, displayValue: "N/A" },
+          cls: { value: null, unit: "", rating: "n/a" as Rating, displayValue: "N/A" },
+          fcp: { value: null, unit: "ms", rating: "n/a" as Rating, displayValue: "N/A" },
+          ttfb: { value: null, unit: "ms", rating: "n/a" as Rating, displayValue: "N/A" },
+          si: { value: null, unit: "ms", rating: "n/a" as Rating, displayValue: "N/A" },
+          tbt: { value: null, unit: "ms", rating: "n/a" as Rating, displayValue: "N/A" },
+          fieldData: null,
+          lcpBreakdown: null,
+          clsElements: [],
+          resourceBreakdown: null,
+          opportunities: [],
+          diagnostics: [],
+          actionItems: [],
+          passesCWV: false,
+          error: e instanceof Error ? e.message : "Failed to analyze. Please try again.",
+        }));
       }
-      return results;
     },
     []
   );

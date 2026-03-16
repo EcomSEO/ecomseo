@@ -597,7 +597,7 @@ const emptyMetric = (unit: string): MetricResult => ({
 export async function POST(req: Request) {
   try {
     const body = await req.json();
-    const { urls, strategy, psiData } = body;
+    const { urls, strategy } = body;
 
     if (!Array.isArray(urls) || urls.length === 0) {
       return NextResponse.json({ error: "No URLs provided" }, { status: 400 });
@@ -608,14 +608,11 @@ export async function POST(req: Request) {
 
     const strat: "mobile" | "desktop" = strategy === "desktop" ? "desktop" : "mobile";
 
-    // If client sent pre-fetched PSI data, just parse it (no server-side fetch needed)
-    const hasPsiData = Array.isArray(psiData) && psiData.length === urls.length;
-
     const results: CWVResult[] = [];
     for (let i = 0; i < urls.length; i++) {
       const url = urls[i] as string;
       try {
-        const data = hasPsiData ? psiData[i] : await fetchPSI(url, strat);
+        const data = await fetchPSI(url, strat);
         results.push(parseResult(data, url, strat));
       } catch (e) {
         results.push({
@@ -642,8 +639,8 @@ export async function POST(req: Request) {
           error: e instanceof Error ? e.message : String(e),
         });
       }
-      // Add delay between server-side requests to avoid rate limiting
-      if (!hasPsiData && i < urls.length - 1) {
+      // Add delay between requests to avoid rate limiting
+      if (i < urls.length - 1) {
         await delay(1500);
       }
     }
