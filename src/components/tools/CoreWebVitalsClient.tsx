@@ -60,10 +60,21 @@ interface ResourceBreakdown {
   thirdPartyBytes: number;
 }
 
+interface ActionItem {
+  severity: "critical" | "warning" | "info";
+  title: string;
+  description: string;
+  metric: string;
+  currentValue: string;
+  targetValue: string;
+}
+
 interface CWVResult {
   url: string;
   strategy: "mobile" | "desktop";
   performanceScore: number | null;
+  accessibilityScore: number | null;
+  seoScore: number | null;
   lcp: MetricResult;
   fid: MetricResult;
   cls: MetricResult;
@@ -83,6 +94,8 @@ interface CWVResult {
   resourceBreakdown: ResourceBreakdown | null;
   opportunities: Opportunity[];
   diagnostics: Diagnostic[];
+  actionItems: ActionItem[];
+  passesCWV: boolean;
   error?: string;
 }
 
@@ -394,6 +407,241 @@ function PerformanceScoreRing({ score }: { score: number | null }) {
       <span className="text-xs text-body font-semibold uppercase tracking-wider">
         Performance Score
       </span>
+    </motion.div>
+  );
+}
+
+/* ─── Mini Score Ring (for Accessibility / SEO) ─── */
+
+function MiniScoreRing({ score, label, size = 70 }: { score: number | null; label: string; size?: number }) {
+  const strokeWidth = 5;
+  const radius = (size - strokeWidth) / 2;
+  const circumference = 2 * Math.PI * radius;
+  const pct = score !== null ? score / 100 : 0;
+  const offset = circumference - pct * circumference;
+  const color = score !== null ? scoreColor(score) : "rgba(255,255,255,0.1)";
+  const [animated, setAnimated] = useState(false);
+
+  useEffect(() => {
+    const id = requestAnimationFrame(() => setAnimated(true));
+    return () => cancelAnimationFrame(id);
+  }, []);
+
+  return (
+    <div className="flex flex-col items-center gap-1.5">
+      <div className="relative" style={{ width: size, height: size }}>
+        <svg width={size} height={size} className="-rotate-90">
+          <circle cx={size / 2} cy={size / 2} r={radius} fill="none" stroke="rgba(255,255,255,0.04)" strokeWidth={strokeWidth} />
+          <circle
+            cx={size / 2} cy={size / 2} r={radius} fill="none"
+            stroke={color} strokeWidth={strokeWidth}
+            strokeDasharray={circumference}
+            strokeDashoffset={animated ? offset : circumference}
+            strokeLinecap="round"
+            style={{ transition: "stroke-dashoffset 1.2s cubic-bezier(0.4, 0, 0.2, 1)", filter: `drop-shadow(0 0 6px ${color}40)` }}
+          />
+        </svg>
+        <div className="absolute inset-0 flex items-center justify-center">
+          <span className="text-base font-bold" style={{ color }}>{score !== null ? score : "--"}</span>
+        </div>
+      </div>
+      <span className="text-[10px] text-body font-medium uppercase tracking-wider">{label}</span>
+    </div>
+  );
+}
+
+/* ─── Core Web Vitals Assessment Badge ─── */
+
+function CWVAssessmentBadge({ passes, result }: { passes: boolean; result: CWVResult }) {
+  const lcpPass = result.lcp.rating === "good";
+  const clsPass = result.cls.rating === "good";
+  const inpPass = result.fid.rating === "good" || (result.tbt.value !== null && result.tbt.value <= 200);
+
+  return (
+    <motion.div
+      initial={{ opacity: 0, scale: 0.95 }}
+      animate={{ opacity: 1, scale: 1 }}
+      transition={{ delay: 0.15 }}
+      className={`rounded-xl border p-5 ${
+        passes
+          ? "border-green-500/30 bg-green-500/5"
+          : "border-red-500/30 bg-red-500/5"
+      }`}
+    >
+      <div className="flex items-center gap-4">
+        <div className={`w-14 h-14 rounded-full flex items-center justify-center shrink-0 ${
+          passes ? "bg-green-500/15 border-2 border-green-500/40" : "bg-red-500/15 border-2 border-red-500/40"
+        }`}>
+          {passes ? (
+            <svg className="w-7 h-7 text-green-400" viewBox="0 0 24 24" fill="none">
+              <path d="M5 13l4 4L19 7" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
+            </svg>
+          ) : (
+            <svg className="w-7 h-7 text-red-400" viewBox="0 0 24 24" fill="none">
+              <path d="M6 18L18 6M6 6l12 12" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
+            </svg>
+          )}
+        </div>
+        <div className="flex-1">
+          <div className={`text-lg font-bold ${passes ? "text-green-400" : "text-red-400"}`}>
+            {passes ? "PASSES Core Web Vitals" : "FAILS Core Web Vitals"}
+          </div>
+          <p className="text-xs text-body mt-1">
+            {passes
+              ? "All three Core Web Vitals metrics meet Google's thresholds. This page is eligible for the ranking boost."
+              : "One or more Core Web Vitals fail Google's thresholds. Fix the issues below to improve rankings."}
+          </p>
+        </div>
+      </div>
+      <div className="mt-4 grid grid-cols-3 gap-3">
+        {[
+          { label: "LCP", pass: lcpPass, value: result.lcp.displayValue, target: "< 2.5s" },
+          { label: "CLS", pass: clsPass, value: result.cls.displayValue, target: "< 0.1" },
+          { label: "INP/TBT", pass: inpPass, value: result.fid.displayValue !== "N/A" ? result.fid.displayValue : result.tbt.displayValue, target: "< 200ms" },
+        ].map((m) => (
+          <div key={m.label} className={`rounded-lg p-3 text-center border ${
+            m.pass ? "bg-green-500/5 border-green-500/20" : "bg-red-500/5 border-red-500/20"
+          }`}>
+            <div className="text-[10px] text-body uppercase tracking-wider mb-1">{m.label}</div>
+            <div className={`text-sm font-semibold ${m.pass ? "text-green-400" : "text-red-400"}`}>{m.value}</div>
+            <div className="text-[9px] text-body/50 mt-0.5">Target: {m.target}</div>
+          </div>
+        ))}
+      </div>
+    </motion.div>
+  );
+}
+
+/* ─── Priority Action Items ─── */
+
+function ActionItemsPanel({ items }: { items: ActionItem[] }) {
+  if (items.length === 0) return null;
+
+  const severityStyles = {
+    critical: { border: "border-red-500/30", bg: "bg-red-500/5", icon: "text-red-400", badge: "bg-red-500/15 text-red-400 border-red-500/30" },
+    warning: { border: "border-yellow-500/30", bg: "bg-yellow-500/5", icon: "text-yellow-400", badge: "bg-yellow-500/15 text-yellow-400 border-yellow-500/30" },
+    info: { border: "border-blue-500/30", bg: "bg-blue-500/5", icon: "text-blue-400", badge: "bg-blue-500/15 text-blue-400 border-blue-500/30" },
+  };
+
+  return (
+    <motion.div
+      initial={{ opacity: 0, y: 10 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ delay: 0.25 }}
+      className="rounded-2xl border border-border bg-bg-card overflow-hidden"
+    >
+      <div className="px-5 py-4 border-b border-border bg-white/[0.02] flex items-center gap-2.5">
+        <svg className="w-5 h-5 text-accent" viewBox="0 0 20 20" fill="none">
+          <path d="M10 2l2.5 5 5.5.8-4 3.9.9 5.3L10 14.5 5.1 17l.9-5.3-4-3.9 5.5-.8L10 2z" stroke="currentColor" strokeWidth="1.3" strokeLinejoin="round" />
+        </svg>
+        <span className="text-sm font-semibold text-heading">Priority Action Items</span>
+        <span className="ml-auto text-xs text-body bg-white/5 px-2 py-0.5 rounded-md">{items.length} items</span>
+      </div>
+      <div className="divide-y divide-border">
+        {items.map((item, i) => {
+          const s = severityStyles[item.severity];
+          return (
+            <motion.div
+              key={i}
+              initial={{ opacity: 0, x: -10 }}
+              animate={{ opacity: 1, x: 0 }}
+              transition={{ delay: 0.3 + i * 0.07 }}
+              className={`px-5 py-4 ${s.bg}`}
+            >
+              <div className="flex items-start gap-3">
+                <div className={`mt-0.5 shrink-0 ${s.icon}`}>
+                  {item.severity === "critical" ? (
+                    <svg className="w-5 h-5" viewBox="0 0 20 20" fill="none">
+                      <path d="M10 2L2 18h16L10 2z" stroke="currentColor" strokeWidth="1.3" strokeLinejoin="round" />
+                      <path d="M10 8v4M10 14v1" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
+                    </svg>
+                  ) : (
+                    <svg className="w-5 h-5" viewBox="0 0 20 20" fill="none">
+                      <circle cx="10" cy="10" r="8" stroke="currentColor" strokeWidth="1.3" />
+                      <path d="M10 7v4M10 13v1" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
+                    </svg>
+                  )}
+                </div>
+                <div className="flex-1 min-w-0">
+                  <div className="flex items-center gap-2 flex-wrap">
+                    <span className="text-sm font-medium text-heading">{item.title}</span>
+                    <span className={`text-[10px] px-1.5 py-0.5 rounded border font-medium ${s.badge}`}>
+                      {item.severity.toUpperCase()}
+                    </span>
+                  </div>
+                  <p className="text-xs text-body mt-1.5 leading-relaxed">{item.description}</p>
+                  <div className="flex items-center gap-4 mt-2.5">
+                    <span className="text-[10px] text-body/60">
+                      Current: <span className="text-red-400 font-medium">{item.currentValue}</span>
+                    </span>
+                    <span className="text-body/20">→</span>
+                    <span className="text-[10px] text-body/60">
+                      Target: <span className="text-green-400 font-medium">{item.targetValue}</span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </motion.div>
+          );
+        })}
+      </div>
+    </motion.div>
+  );
+}
+
+/* ─── Revenue Impact Calculator ─── */
+
+function RevenueImpactCard({ result }: { result: CWVResult }) {
+  const lcpMs = result.lcp.value;
+  if (lcpMs === null) return null;
+
+  const lcpSec = lcpMs / 1000;
+  // Google data: bounce rate increase based on load time
+  let bounceIncrease = 0;
+  let conversionLoss = 0;
+  if (lcpSec <= 1) { bounceIncrease = 0; conversionLoss = 0; }
+  else if (lcpSec <= 3) { bounceIncrease = 32; conversionLoss = Math.round((lcpSec - 1) * 5); }
+  else if (lcpSec <= 5) { bounceIncrease = 90; conversionLoss = Math.round((lcpSec - 1) * 7); }
+  else if (lcpSec <= 6) { bounceIncrease = 106; conversionLoss = Math.round((lcpSec - 1) * 8); }
+  else { bounceIncrease = 123; conversionLoss = Math.round(Math.min((lcpSec - 1) * 9, 70)); }
+
+  // Potential savings from improving to 2.5s
+  const potentialConversionGain = lcpSec > 2.5 ? Math.round((lcpSec - 2.5) * 7) : 0;
+
+  return (
+    <motion.div
+      initial={{ opacity: 0, y: 10 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ delay: 0.35 }}
+      className="rounded-xl border border-accent/20 bg-gradient-to-br from-accent/5 to-transparent p-5"
+    >
+      <div className="flex items-center gap-2.5 mb-4">
+        <svg className="w-5 h-5 text-accent" viewBox="0 0 20 20" fill="none">
+          <path d="M10 2v16M6 6l4-4 4 4M4 10h12" stroke="currentColor" strokeWidth="1.3" strokeLinecap="round" strokeLinejoin="round" />
+        </svg>
+        <span className="text-sm font-semibold text-heading">Revenue Impact Estimate</span>
+      </div>
+      <div className="grid grid-cols-3 gap-3">
+        <div className="rounded-lg bg-white/[0.03] border border-border p-3 text-center">
+          <div className="text-xl font-bold text-red-400">+{bounceIncrease}%</div>
+          <div className="text-[10px] text-body mt-1 uppercase tracking-wide">Bounce Rate Increase</div>
+          <div className="text-[9px] text-body/40 mt-0.5">vs 1s load time</div>
+        </div>
+        <div className="rounded-lg bg-white/[0.03] border border-border p-3 text-center">
+          <div className="text-xl font-bold text-yellow-400">-{conversionLoss}%</div>
+          <div className="text-[10px] text-body mt-1 uppercase tracking-wide">Est. Conv. Loss</div>
+          <div className="text-[9px] text-body/40 mt-0.5">from slow loading</div>
+        </div>
+        <div className="rounded-lg bg-white/[0.03] border border-border p-3 text-center">
+          <div className="text-xl font-bold text-green-400">+{potentialConversionGain}%</div>
+          <div className="text-[10px] text-body mt-1 uppercase tracking-wide">Potential Conv. Gain</div>
+          <div className="text-[9px] text-body/40 mt-0.5">if LCP hits 2.5s</div>
+        </div>
+      </div>
+      <p className="text-[10px] text-body/50 mt-3">
+        Based on Google research. Each 100ms of LCP improvement = ~1% conversion increase for ecommerce.
+        A {lcpSec.toFixed(1)}s load time means {bounceIncrease}% more visitors leave before seeing your page.
+      </p>
     </motion.div>
   );
 }
@@ -815,7 +1063,20 @@ function ResultPanel({
         </div>
 
         <div className="flex flex-col lg:flex-row items-center gap-8 lg:gap-12">
-          <PerformanceScoreRing score={result.performanceScore} />
+          <div className="flex flex-col items-center gap-4">
+            <PerformanceScoreRing score={result.performanceScore} />
+            {/* Accessibility & SEO mini rings */}
+            {(result.accessibilityScore !== null || result.seoScore !== null) && (
+              <div className="flex items-center gap-4">
+                {result.accessibilityScore !== null && (
+                  <MiniScoreRing score={result.accessibilityScore} label="A11Y" />
+                )}
+                {result.seoScore !== null && (
+                  <MiniScoreRing score={result.seoScore} label="SEO" />
+                )}
+              </div>
+            )}
+          </div>
           <div className="flex-1 grid grid-cols-3 gap-6 md:gap-8 w-full">
             <SpeedometerGauge
               value={result.lcp.value}
@@ -844,6 +1105,9 @@ function ResultPanel({
           </div>
         </div>
       </div>
+
+      {/* Core Web Vitals Assessment */}
+      <CWVAssessmentBadge passes={result.passesCWV} result={result} />
 
       {/* Field Data (CrUX) */}
       {hasFieldData && (
@@ -992,15 +1256,66 @@ export default function CoreWebVitalsClient({ t }: { t: CoreWebVitalsTranslation
 
   const fetchCWV = useCallback(
     async (urlList: string[], strat: Strategy, signal?: AbortSignal): Promise<CWVResult[]> => {
-      const res = await fetch("/api/core-web-vitals", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ urls: urlList, strategy: strat }),
-        signal,
-      });
-      if (!res.ok) throw new Error("API error");
-      const data = await res.json();
-      return data.results;
+      // Try direct PSI API from browser first (avoids server IP rate limits)
+      // Fall back to our API route if direct call fails
+      const results: CWVResult[] = [];
+      for (const url of urlList) {
+        try {
+          const categories = "&category=performance&category=accessibility&category=seo";
+          const psiUrl = `https://www.googleapis.com/pagespeedonline/v5/runPagespeed?url=${encodeURIComponent(url)}&strategy=${strat}${categories}`;
+          const psiRes = await fetch(psiUrl, { signal });
+          if (!psiRes.ok) throw new Error(`PSI ${psiRes.status}`);
+          const psiData = await psiRes.json();
+          // Send to our API for parsing
+          const parseRes = await fetch("/api/core-web-vitals", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ urls: [url], strategy: strat, psiData: [psiData] }),
+            signal,
+          });
+          if (!parseRes.ok) throw new Error("Parse error");
+          const parsed = await parseRes.json();
+          results.push(...parsed.results);
+        } catch {
+          // Fallback: let server fetch
+          try {
+            const res = await fetch("/api/core-web-vitals", {
+              method: "POST",
+              headers: { "Content-Type": "application/json" },
+              body: JSON.stringify({ urls: [url], strategy: strat }),
+              signal,
+            });
+            if (!res.ok) throw new Error("API error");
+            const data = await res.json();
+            results.push(...data.results);
+          } catch {
+            results.push({
+              url,
+              strategy: strat,
+              performanceScore: null,
+              accessibilityScore: null,
+              seoScore: null,
+              lcp: { value: null, unit: "ms", rating: "n/a", displayValue: "N/A" },
+              fid: { value: null, unit: "ms", rating: "n/a", displayValue: "N/A" },
+              cls: { value: null, unit: "", rating: "n/a", displayValue: "N/A" },
+              fcp: { value: null, unit: "ms", rating: "n/a", displayValue: "N/A" },
+              ttfb: { value: null, unit: "ms", rating: "n/a", displayValue: "N/A" },
+              si: { value: null, unit: "ms", rating: "n/a", displayValue: "N/A" },
+              tbt: { value: null, unit: "ms", rating: "n/a", displayValue: "N/A" },
+              fieldData: null,
+              lcpBreakdown: null,
+              clsElements: [],
+              resourceBreakdown: null,
+              opportunities: [],
+              diagnostics: [],
+              actionItems: [],
+              passesCWV: false,
+              error: "Failed to analyze. Please try again.",
+            });
+          }
+        }
+      }
+      return results;
     },
     []
   );
@@ -1020,9 +1335,13 @@ export default function CoreWebVitalsClient({ t }: { t: CoreWebVitalsTranslation
       return;
     }
 
-    const normalized = lines.map((l) =>
-      /^https?:\/\//i.test(l) ? l : "https://" + l
-    );
+    const normalized = lines.map((l) => {
+      // Strip protocol and trailing path if user enters just a domain
+      let cleaned = l.replace(/^https?:\/\//i, "").replace(/\/+$/, "");
+      // If it looks like a domain (no path), add trailing slash for homepage
+      if (!cleaned.includes("/")) cleaned = cleaned + "/";
+      return "https://" + cleaned;
+    });
     for (const u of normalized) {
       try {
         new URL(u);
@@ -1043,9 +1362,11 @@ export default function CoreWebVitalsClient({ t }: { t: CoreWebVitalsTranslation
         setError("Please enter a competitor URL to compare.");
         return;
       }
-      compareNormalized = cLines.map((l) =>
-        /^https?:\/\//i.test(l) ? l : "https://" + l
-      );
+      compareNormalized = cLines.map((l) => {
+        let cleaned = l.replace(/^https?:\/\//i, "").replace(/\/+$/, "");
+        if (!cleaned.includes("/")) cleaned = cleaned + "/";
+        return "https://" + cleaned;
+      });
       for (const u of compareNormalized) {
         try {
           new URL(u);
@@ -1130,7 +1451,7 @@ export default function CoreWebVitalsClient({ t }: { t: CoreWebVitalsTranslation
   const exportCSV = useCallback(() => {
     if (!results) return;
     const all = [...results, ...(compareResults ?? [])];
-    const headers = ["URL", "Strategy", "Score", "Grade", "LCP", "LCP Rating", "INP", "INP Rating", "CLS", "CLS Rating", "FCP", "TTFB", "SI", "TBT"];
+    const headers = ["URL", "Strategy", "Performance", "Grade", "Accessibility", "SEO", "CWV Pass", "LCP", "LCP Rating", "INP", "INP Rating", "CLS", "CLS Rating", "FCP", "TTFB", "SI", "TBT"];
     const rows = all.map((r) => {
       const grade = r.performanceScore !== null ? letterGrade(r.performanceScore).letter : "N/A";
       return [
@@ -1138,6 +1459,9 @@ export default function CoreWebVitalsClient({ t }: { t: CoreWebVitalsTranslation
         r.strategy,
         r.performanceScore ?? "",
         grade,
+        r.accessibilityScore ?? "",
+        r.seoScore ?? "",
+        r.passesCWV ? "PASS" : "FAIL",
         r.lcp.displayValue,
         r.lcp.rating,
         r.fid.displayValue,
@@ -1166,7 +1490,7 @@ export default function CoreWebVitalsClient({ t }: { t: CoreWebVitalsTranslation
     const text = all
       .map((r) => {
         const grade = r.performanceScore !== null ? letterGrade(r.performanceScore).letter : "N/A";
-        return `${r.url} (${r.strategy}): Score ${r.performanceScore ?? "N/A"} (${grade}) | LCP ${r.lcp.displayValue} (${r.lcp.rating}) | INP ${r.fid.displayValue} (${r.fid.rating}) | CLS ${r.cls.displayValue} (${r.cls.rating})`;
+        return `${r.url} (${r.strategy}): Perf ${r.performanceScore ?? "N/A"} (${grade}) | A11Y ${r.accessibilityScore ?? "N/A"} | SEO ${r.seoScore ?? "N/A"} | CWV ${r.passesCWV ? "PASS" : "FAIL"} | LCP ${r.lcp.displayValue} (${r.lcp.rating}) | INP ${r.fid.displayValue} (${r.fid.rating}) | CLS ${r.cls.displayValue} (${r.cls.rating})`;
       })
       .join("\n");
     navigator.clipboard.writeText(text);
@@ -1249,12 +1573,12 @@ export default function CoreWebVitalsClient({ t }: { t: CoreWebVitalsTranslation
         <div className={tabMode === "compare" ? "grid md:grid-cols-2 gap-4" : ""}>
           <div>
             <label className="block text-sm font-medium text-heading mb-2">
-              {tabMode === "compare" ? "Your URL" : t.urlsLabel}
+              {tabMode === "compare" ? "Your Domain" : "Enter domains to check (one per line, max 5)"}
             </label>
             <textarea
               value={urls}
               onChange={(e) => setUrls(e.target.value)}
-              placeholder={tabMode === "compare" ? "https://yoursite.com/" : t.urlsPlaceholder}
+              placeholder={tabMode === "compare" ? "yourstore.com" : "example.com\nshop.example.com/products"}
               rows={tabMode === "compare" ? 2 : 4}
               className="w-full rounded-xl border border-border bg-bg px-4 py-3 text-sm text-body placeholder:text-white/20 focus:outline-none focus:border-accent/50 font-mono resize-y"
             />
@@ -1262,12 +1586,12 @@ export default function CoreWebVitalsClient({ t }: { t: CoreWebVitalsTranslation
           {tabMode === "compare" && (
             <div>
               <label className="block text-sm font-medium text-heading mb-2">
-                Competitor URL
+                Competitor Domain
               </label>
               <textarea
                 value={compareUrl}
                 onChange={(e) => setCompareUrl(e.target.value)}
-                placeholder="https://competitor.com/"
+                placeholder="competitor.com"
                 rows={2}
                 className="w-full rounded-xl border border-border bg-bg px-4 py-3 text-sm text-body placeholder:text-white/20 focus:outline-none focus:border-accent/50 font-mono resize-y"
               />
@@ -1311,6 +1635,16 @@ export default function CoreWebVitalsClient({ t }: { t: CoreWebVitalsTranslation
             animate={{ opacity: 1, y: 0 }}
             className="space-y-6"
           >
+            {/* Priority Action Items */}
+            {results[0]?.actionItems && results[0].actionItems.length > 0 && (
+              <ActionItemsPanel items={results[0].actionItems} />
+            )}
+
+            {/* Revenue Impact */}
+            {results[0]?.lcp?.value !== null && results[0]?.lcp?.value > 2500 && (
+              <RevenueImpactCard result={results[0]} />
+            )}
+
             {/* Ecommerce Impact Callout */}
             <motion.div
               initial={{ opacity: 0, x: -20 }}

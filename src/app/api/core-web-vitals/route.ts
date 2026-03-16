@@ -53,10 +53,21 @@ interface ResourceBreakdown {
   thirdPartyBytes: number;
 }
 
+interface ActionItem {
+  severity: "critical" | "warning" | "info";
+  title: string;
+  description: string;
+  metric: string;
+  currentValue: string;
+  targetValue: string;
+}
+
 interface CWVResult {
   url: string;
   strategy: "mobile" | "desktop";
   performanceScore: number | null;
+  accessibilityScore: number | null;
+  seoScore: number | null;
   lcp: MetricResult;
   fid: MetricResult;
   cls: MetricResult;
@@ -76,6 +87,8 @@ interface CWVResult {
   resourceBreakdown: ResourceBreakdown | null;
   opportunities: Opportunity[];
   diagnostics: Diagnostic[];
+  actionItems: ActionItem[];
+  passesCWV: boolean;
   error?: string;
 }
 
@@ -147,36 +160,6 @@ function extractMetric(
 }
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
-function extractFieldMetric(cruxMetric: any, isCls = false): FieldMetric | null {
-  if (!cruxMetric) return null;
-  const p75 = cruxMetric.percentile ?? null;
-  if (p75 === null) return null;
-
-  const distributions = (cruxMetric.distributions ?? []).map(
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    (d: any) => ({
-      min: d.min ?? 0,
-      max: d.max ?? 0,
-      proportion: d.proportion ?? 0,
-    })
-  );
-
-  let rating: CWVRating = "n/a";
-  let displayValue = "N/A";
-
-  if (isCls) {
-    const val = p75 / 100; // CrUX CLS comes as hundredths
-    rating = rateCls(val);
-    displayValue = val.toFixed(3);
-  } else {
-    rating = distributions.length > 0 ? "n/a" : "n/a";
-    displayValue = formatMs(p75);
-  }
-
-  return { p75, rating, displayValue, distributions };
-}
-
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
 function extractFieldData(data: any) {
   const crux = data?.loadingExperience?.metrics;
   if (!crux) return null;
@@ -225,8 +208,6 @@ function extractLcpBreakdown(audits: Record<string, any>): LcpBreakdown | null {
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const firstItem = lcpItems?.[0] as any;
 
-  const lcpBreakdownAudit = audits["lcp-lazy-loaded"];
-
   let element: string | null = null;
   let elementType: string | null = null;
   let url: string | null = null;
@@ -237,7 +218,6 @@ function extractLcpBreakdown(audits: Record<string, any>): LcpBreakdown | null {
     url = firstItem.node?.path ?? null;
   }
 
-  // Try to get from the LCP element audit
   if (!element && audits["largest-contentful-paint"]?.details?.items?.[0]) {
     const item = audits["largest-contentful-paint"].details.items[0];
     element = item.node?.snippet ?? item.node?.nodeLabel ?? null;
@@ -309,6 +289,128 @@ function extractResourceBreakdown(audits: Record<string, any>): ResourceBreakdow
   };
 }
 
+/* ── Generate priority action items based on actual metrics ── */
+function generateActionItems(result: Omit<CWVResult, "actionItems" | "passesCWV">): ActionItem[] {
+  const items: ActionItem[] = [];
+
+  // LCP
+  if (result.lcp.value !== null && result.lcp.value > 2500) {
+    const severity = result.lcp.value > 4000 ? "critical" : "warning";
+    const lcpSec = (result.lcp.value / 1000).toFixed(1);
+    items.push({
+      severity,
+      title: result.lcp.value > 4000
+        ? "Critical: Largest Contentful Paint is extremely slow"
+        : "Improve Largest Contentful Paint (LCP)",
+      description: result.lcpBreakdown?.element
+        ? `Your LCP element (${result.lcpBreakdown.element.substring(0, 80)}) takes ${lcpSec}s to render. Optimize it by using next-gen formats (WebP/AVIF), adding explicit width/height, and preloading the resource with <link rel="preload">.`
+        : `Your page takes ${lcpSec}s to show its main content. Preload hero images, inline critical CSS, and reduce server response time.`,
+      metric: "LCP",
+      currentValue: `${lcpSec}s`,
+      targetValue: "< 2.5s",
+    });
+  }
+
+  // CLS
+  if (result.cls.value !== null && result.cls.value > 0.1) {
+    const severity = result.cls.value > 0.25 ? "critical" : "warning";
+    items.push({
+      severity,
+      title: "Fix Layout Shift Issues (CLS)",
+      description: result.clsElements.length > 0
+        ? `${result.clsElements.length} element(s) are causing layout shifts. Add explicit width and height attributes to images, embeds, and dynamically injected content. Reserve space for ads and lazy-loaded elements.`
+        : "Elements are moving after page load. Add width/height to images and embeds, use CSS aspect-ratio, and avoid inserting content above existing content.",
+      metric: "CLS",
+      currentValue: result.cls.value.toFixed(3),
+      targetValue: "< 0.1",
+    });
+  }
+
+  // TBT / INP (interactivity)
+  if (result.tbt.value !== null && result.tbt.value > 200) {
+    const severity = result.tbt.value > 600 ? "critical" : "warning";
+    items.push({
+      severity,
+      title: "Reduce JavaScript Blocking Time",
+      description: `Total Blocking Time is ${formatMs(result.tbt.value)}. Split large JavaScript bundles, defer non-critical scripts, and remove unused code. ${
+        result.resourceBreakdown && result.resourceBreakdown.thirdPartyBytes > 100000
+          ? `Third-party scripts account for ${(result.resourceBreakdown.thirdPartyBytes / 1024).toFixed(0)} KB -- audit and remove unnecessary ones.`
+          : ""
+      }`,
+      metric: "TBT",
+      currentValue: formatMs(result.tbt.value),
+      targetValue: "< 200 ms",
+    });
+  }
+
+  // TTFB
+  if (result.ttfb.value !== null && result.ttfb.value > 800) {
+    const severity = result.ttfb.value > 1800 ? "critical" : "warning";
+    items.push({
+      severity,
+      title: "Improve Server Response Time (TTFB)",
+      description: `Server takes ${formatMs(result.ttfb.value)} to respond. Use a CDN, enable server-side caching, optimize database queries, and consider upgrading to faster hosting. For Shopify: ensure you're not using excessive app scripts that slow down server processing.`,
+      metric: "TTFB",
+      currentValue: formatMs(result.ttfb.value),
+      targetValue: "< 800 ms",
+    });
+  }
+
+  // FCP
+  if (result.fcp.value !== null && result.fcp.value > 1800) {
+    items.push({
+      severity: result.fcp.value > 3000 ? "critical" : "warning",
+      title: "Speed Up First Contentful Paint",
+      description: "Users see blank screen for too long. Eliminate render-blocking resources, inline critical CSS, and preconnect to required origins.",
+      metric: "FCP",
+      currentValue: formatMs(result.fcp.value),
+      targetValue: "< 1.8s",
+    });
+  }
+
+  // Large JS bundle
+  if (result.resourceBreakdown && result.resourceBreakdown.jsBytes > 500 * 1024) {
+    items.push({
+      severity: result.resourceBreakdown.jsBytes > 1024 * 1024 ? "critical" : "warning",
+      title: "Reduce JavaScript Bundle Size",
+      description: `${(result.resourceBreakdown.jsBytes / 1024).toFixed(0)} KB of JavaScript shipped. Use code splitting, tree-shaking, and remove unused dependencies. For ecommerce: audit apps/plugins adding JS bloat.`,
+      metric: "JS Size",
+      currentValue: `${(result.resourceBreakdown.jsBytes / 1024).toFixed(0)} KB`,
+      targetValue: "< 300 KB",
+    });
+  }
+
+  // Large images
+  if (result.resourceBreakdown && result.resourceBreakdown.imageBytes > 1024 * 1024) {
+    items.push({
+      severity: "warning",
+      title: "Optimize Image Sizes",
+      description: `${(result.resourceBreakdown.imageBytes / (1024 * 1024)).toFixed(1)} MB of images. Convert to WebP/AVIF, implement responsive images with srcset, and lazy-load below-fold images.`,
+      metric: "Images",
+      currentValue: `${(result.resourceBreakdown.imageBytes / (1024 * 1024)).toFixed(1)} MB`,
+      targetValue: "< 500 KB",
+    });
+  }
+
+  // Low performance score
+  if (result.performanceScore !== null && result.performanceScore < 50 && items.length === 0) {
+    items.push({
+      severity: "critical",
+      title: "Critical Performance Issues Detected",
+      description: "Your performance score is below 50. This significantly impacts user experience and search rankings. Focus on the opportunities listed below to improve.",
+      metric: "Score",
+      currentValue: String(result.performanceScore),
+      targetValue: "> 90",
+    });
+  }
+
+  // Sort: critical first, then warning, then info
+  const severityOrder = { critical: 0, warning: 1, info: 2 };
+  items.sort((a, b) => severityOrder[a.severity] - severityOrder[b.severity]);
+
+  return items.slice(0, 6);
+}
+
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 function parseResult(data: any, url: string, strategy: "mobile" | "desktop"): CWVResult {
   const lhr = data?.lighthouseResult;
@@ -320,13 +422,22 @@ function parseResult(data: any, url: string, strategy: "mobile" | "desktop"): CW
       ? Math.round(categories.performance.score * 100)
       : null;
 
+  const accessibilityScore =
+    categories.accessibility?.score != null
+      ? Math.round(categories.accessibility.score * 100)
+      : null;
+
+  const seoScore =
+    categories.seo?.score != null
+      ? Math.round(categories.seo.score * 100)
+      : null;
+
   const lcp = extractMetric(audits, "largest-contentful-paint", rateLcp);
   const fid = extractMetric(
     audits,
     "interaction-to-next-paint",
     rateInp
   );
-  // Fallback: if INP not available, try max-potential-fid or total-blocking-time
   if (fid.value === null) {
     const fallback = extractMetric(audits, "max-potential-fid", rateInp);
     if (fallback.value !== null) {
@@ -343,16 +454,9 @@ function parseResult(data: any, url: string, strategy: "mobile" | "desktop"): CW
   const si = extractMetric(audits, "speed-index", rateSi);
   const tbt = extractMetric(audits, "total-blocking-time", rateTbt);
 
-  // Field data (CrUX)
   const fieldData = extractFieldData(data);
-
-  // LCP breakdown
   const lcpBreakdown = extractLcpBreakdown(audits);
-
-  // CLS shifting elements
   const clsElements = extractClsElements(audits);
-
-  // Resource breakdown
   const resourceBreakdown = extractResourceBreakdown(audits);
 
   // Extract opportunities
@@ -371,7 +475,6 @@ function parseResult(data: any, url: string, strategy: "mobile" | "desktop"): CW
       });
     }
   }
-  // Sort by largest savings first
   opportunities.sort((a, b) => {
     const aNum = parseFloat(a.savings);
     const bNum = parseFloat(b.savings);
@@ -394,10 +497,13 @@ function parseResult(data: any, url: string, strategy: "mobile" | "desktop"): CW
     }
   }
 
-  return {
+  // Build partial result for action item generation
+  const partial = {
     url,
     strategy,
     performanceScore,
+    accessibilityScore,
+    seoScore,
     lcp,
     fid,
     cls,
@@ -411,24 +517,74 @@ function parseResult(data: any, url: string, strategy: "mobile" | "desktop"): CW
     resourceBreakdown,
     opportunities,
     diagnostics,
+    error: undefined,
+  };
+
+  const actionItems = generateActionItems(partial);
+
+  // Core Web Vitals pass/fail: LCP, CLS, and INP/TBT must all be "good"
+  const lcpPass = lcp.rating === "good";
+  const clsPass = cls.rating === "good";
+  const inpPass = fid.rating === "good" || (tbt.value !== null && tbt.value <= 200);
+  const passesCWV = lcpPass && clsPass && inpPass;
+
+  return {
+    ...partial,
+    actionItems,
+    passesCWV,
   };
 }
 
-async function fetchPSI(url: string, strategy: "mobile" | "desktop") {
-  const apiUrl = `https://www.googleapis.com/pagespeedonline/v5/runPagespeed?url=${encodeURIComponent(url)}&strategy=${strategy}&category=performance`;
+/* ── Fetch PSI with retry + backoff for 429 errors ── */
 
-  const controller = new AbortController();
-  const timeout = setTimeout(() => controller.abort(), 45000);
+const delay = (ms: number) => new Promise((r) => setTimeout(r, ms));
 
-  try {
-    const res = await fetch(apiUrl, { signal: controller.signal });
-    clearTimeout(timeout);
-    if (!res.ok) throw new Error(`PSI API returned ${res.status}`);
-    return await res.json();
-  } catch (e) {
-    clearTimeout(timeout);
-    throw e;
+async function fetchPSI(url: string, strategy: "mobile" | "desktop"): Promise<Record<string, unknown>> {
+  const apiKey = process.env.GOOGLE_PSI_API_KEY || "";
+  const keyParam = apiKey ? `&key=${apiKey}` : "";
+  const categories = "&category=performance&category=accessibility&category=seo";
+  const apiUrl = `https://www.googleapis.com/pagespeedonline/v5/runPagespeed?url=${encodeURIComponent(url)}&strategy=${strategy}${categories}${keyParam}`;
+
+  const maxRetries = 3;
+  const baseDelay = 3000;
+
+  for (let attempt = 0; attempt <= maxRetries; attempt++) {
+    const controller = new AbortController();
+    const timeout = setTimeout(() => controller.abort(), 60000);
+
+    try {
+      const res = await fetch(apiUrl, { signal: controller.signal });
+      clearTimeout(timeout);
+
+      if (res.status === 429) {
+        if (attempt < maxRetries) {
+          const waitMs = baseDelay * Math.pow(2, attempt);
+          await delay(waitMs);
+          continue;
+        }
+        throw new Error("Rate limited by Google PageSpeed API. Please wait a moment and try again.");
+      }
+
+      if (!res.ok) {
+        const errorText = await res.text().catch(() => "");
+        throw new Error(`PSI API returned ${res.status}${errorText ? `: ${errorText.substring(0, 100)}` : ""}`);
+      }
+
+      return await res.json();
+    } catch (e) {
+      clearTimeout(timeout);
+      if (e instanceof Error && e.name === "AbortError") {
+        throw new Error("PageSpeed analysis timed out. The target site may be slow or unreachable.");
+      }
+      if (attempt < maxRetries && e instanceof Error && e.message.includes("429")) {
+        await delay(baseDelay * Math.pow(2, attempt));
+        continue;
+      }
+      throw e;
+    }
   }
+
+  throw new Error("Failed after retries");
 }
 
 const emptyMetric = (unit: string): MetricResult => ({
@@ -441,7 +597,7 @@ const emptyMetric = (unit: string): MetricResult => ({
 export async function POST(req: Request) {
   try {
     const body = await req.json();
-    const { urls, strategy } = body;
+    const { urls, strategy, psiData } = body;
 
     if (!Array.isArray(urls) || urls.length === 0) {
       return NextResponse.json({ error: "No URLs provided" }, { status: 400 });
@@ -452,34 +608,45 @@ export async function POST(req: Request) {
 
     const strat: "mobile" | "desktop" = strategy === "desktop" ? "desktop" : "mobile";
 
-    const results: CWVResult[] = await Promise.all(
-      urls.map(async (url: string): Promise<CWVResult> => {
-        try {
-          const data = await fetchPSI(url, strat);
-          return parseResult(data, url, strat);
-        } catch (e) {
-          return {
-            url,
-            strategy: strat,
-            performanceScore: null,
-            lcp: emptyMetric("ms"),
-            fid: emptyMetric("ms"),
-            cls: emptyMetric(""),
-            fcp: emptyMetric("ms"),
-            ttfb: emptyMetric("ms"),
-            si: emptyMetric("ms"),
-            tbt: emptyMetric("ms"),
-            fieldData: null,
-            lcpBreakdown: null,
-            clsElements: [],
-            resourceBreakdown: null,
-            opportunities: [],
-            diagnostics: [],
-            error: e instanceof Error ? e.message : String(e),
-          };
-        }
-      })
-    );
+    // If client sent pre-fetched PSI data, just parse it (no server-side fetch needed)
+    const hasPsiData = Array.isArray(psiData) && psiData.length === urls.length;
+
+    const results: CWVResult[] = [];
+    for (let i = 0; i < urls.length; i++) {
+      const url = urls[i] as string;
+      try {
+        const data = hasPsiData ? psiData[i] : await fetchPSI(url, strat);
+        results.push(parseResult(data, url, strat));
+      } catch (e) {
+        results.push({
+          url,
+          strategy: strat,
+          performanceScore: null,
+          accessibilityScore: null,
+          seoScore: null,
+          lcp: emptyMetric("ms"),
+          fid: emptyMetric("ms"),
+          cls: emptyMetric(""),
+          fcp: emptyMetric("ms"),
+          ttfb: emptyMetric("ms"),
+          si: emptyMetric("ms"),
+          tbt: emptyMetric("ms"),
+          fieldData: null,
+          lcpBreakdown: null,
+          clsElements: [],
+          resourceBreakdown: null,
+          opportunities: [],
+          diagnostics: [],
+          actionItems: [],
+          passesCWV: false,
+          error: e instanceof Error ? e.message : String(e),
+        });
+      }
+      // Add delay between server-side requests to avoid rate limiting
+      if (!hasPsiData && i < urls.length - 1) {
+        await delay(1500);
+      }
+    }
 
     return NextResponse.json({ results });
   } catch {
