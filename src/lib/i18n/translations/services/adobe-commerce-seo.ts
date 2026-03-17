@@ -199,16 +199,10 @@ export const adobeCommerceSeoData: Record<Locale, ServicePageProps> = {
         },
         teamMembers: [
           {
-            name: "Maria Petrova",
-            role: "Technical SEO Lead",
+            name: "Fabian Van Til",
+            role: "Ecommerce SEO Specialist",
             bio: "Specializes in Adobe Commerce technical SEO, including Varnish optimization, layered navigation indexation control, and multi-store canonical strategies.",
-            image: "/images/team/maria.webp",
-          },
-          {
-            name: "Stefan Ivanov",
-            role: "Platform Specialist",
-            bio: "Deep expertise in Adobe Commerce architecture, extension auditing, and migration planning from Magento 1 to Adobe Commerce 2.",
-            image: "/images/team/stefan.webp",
+            image: "/images/framer/C23VbBxvj2kY5TMoXAJHXWVLaA.webp",
           },
         ],
       },
@@ -492,16 +486,10 @@ export const adobeCommerceSeoData: Record<Locale, ServicePageProps> = {
         },
         teamMembers: [
           {
-            name: "Maria Petrova",
-            role: "Technical SEO Lead",
+            name: "Fabian Van Til",
+            role: "Ecommerce SEO Specialist",
             bio: "Spezialisiert auf technisches Adobe Commerce SEO, einschlie\u00dflich Varnish-Optimierung, Facettennavigation-Indexierungskontrolle und Multi-Store-Canonical-Strategien.",
-            image: "/images/team/maria.webp",
-          },
-          {
-            name: "Stefan Ivanov",
-            role: "Plattform-Spezialist",
-            bio: "Tiefe Expertise in Adobe Commerce Architektur, Extension-Auditing und Migrationsplanung von Magento 1 zu Adobe Commerce 2.",
-            image: "/images/team/stefan.webp",
+            image: "/images/framer/C23VbBxvj2kY5TMoXAJHXWVLaA.webp",
           },
         ],
       },
@@ -789,16 +777,10 @@ export const adobeCommerceSeoData: Record<Locale, ServicePageProps> = {
         },
         teamMembers: [
           {
-            name: "Maria Petrova",
-            role: "Responsable SEO technique",
+            name: "Fabian Van Til",
+            role: "Ecommerce SEO Specialist",
             bio: "Sp\u00e9cialis\u00e9e dans le SEO technique Adobe Commerce, y compris l\u2019optimisation Varnish, le contr\u00f4le de l\u2019indexation de la navigation \u00e0 facettes et les strat\u00e9gies canoniques multi-boutiques.",
-            image: "/images/team/maria.webp",
-          },
-          {
-            name: "Stefan Ivanov",
-            role: "Sp\u00e9cialiste plateforme",
-            bio: "Expertise approfondie en architecture Adobe Commerce, audit d\u2019extensions et planification de migration de Magento 1 vers Adobe Commerce 2.",
-            image: "/images/team/stefan.webp",
+            image: "/images/framer/C23VbBxvj2kY5TMoXAJHXWVLaA.webp",
           },
         ],
       },
@@ -1084,16 +1066,10 @@ export const adobeCommerceSeoData: Record<Locale, ServicePageProps> = {
         },
         teamMembers: [
           {
-            name: "Maria Petrova",
-            role: "L\u00edder de SEO t\u00e9cnico",
+            name: "Fabian Van Til",
+            role: "Ecommerce SEO Specialist",
             bio: "Especializada en SEO t\u00e9cnico de Adobe Commerce, incluyendo optimizaci\u00f3n de Varnish, control de indexaci\u00f3n de navegaci\u00f3n por facetas y estrategias canonicals multi-tienda.",
-            image: "/images/team/maria.webp",
-          },
-          {
-            name: "Stefan Ivanov",
-            role: "Especialista de plataforma",
-            bio: "Profunda experiencia en arquitectura Adobe Commerce, auditor\u00eda de extensiones y planificaci\u00f3n de migraciones de Magento 1 a Adobe Commerce 2.",
-            image: "/images/team/stefan.webp",
+            image: "/images/framer/C23VbBxvj2kY5TMoXAJHXWVLaA.webp",
           },
         ],
       },
@@ -1381,16 +1357,10 @@ export const adobeCommerceSeoData: Record<Locale, ServicePageProps> = {
         },
         teamMembers: [
           {
-            name: "Maria Petrova",
-            role: "Responsabile SEO tecnico",
+            name: "Fabian Van Til",
+            role: "Ecommerce SEO Specialist",
             bio: "Specializzata nel SEO tecnico di Adobe Commerce, inclusa l\u2019ottimizzazione Varnish, il controllo dell\u2019indicizzazione della navigazione a faccette e le strategie canonical multi-store.",
-            image: "/images/team/maria.webp",
-          },
-          {
-            name: "Stefan Ivanov",
-            role: "Specialista di piattaforma",
-            bio: "Profonda esperienza nell\u2019architettura Adobe Commerce, auditing delle estensioni e pianificazione delle migrazioni da Magento 1 ad Adobe Commerce 2.",
-            image: "/images/team/stefan.webp",
+            image: "/images/framer/C23VbBxvj2kY5TMoXAJHXWVLaA.webp",
           },
         ],
       },
@@ -1675,16 +1645,10 @@ export const adobeCommerceSeoData: Record<Locale, ServicePageProps> = {
         },
         teamMembers: [
           {
-            name: "Maria Petrova",
-            role: "Technisch SEO Lead",
+            name: "Fabian Van Til",
+            role: "Ecommerce SEO Specialist",
             bio: "Gespecialiseerd in Adobe Commerce technische SEO, waaronder Varnish-optimalisatie, controle van gefacetteerde navigatie-indexering en multi-store canonical-strategie\u00ebn.",
-            image: "/images/team/maria.webp",
-          },
-          {
-            name: "Stefan Ivanov",
-            role: "Platformspecialist",
-            bio: "Diepgaande expertise in Adobe Commerce architectuur, extensie-auditing en migratieplanning van Magento 1 naar Adobe Commerce 2.",
-            image: "/images/team/stefan.webp",
+            image: "/images/framer/C23VbBxvj2kY5TMoXAJHXWVLaA.webp",
           },
         ],
       },
