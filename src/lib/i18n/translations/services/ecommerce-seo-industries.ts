@@ -29,11 +29,11 @@ export const ecommerceSeoIndustriesData: Record<Locale, ServicePageProps> = {
         type: "links",
         badge: "Industries We Specialize In",
         heading: "Store Types We Work With",
-        process: [
-          { number: "01", title: "Fashion SEO", href: "/fashion-seo", description: "Seasonal trend content, size & style facet optimization, trend-driven category pages, and lookbook-style content that earns natural editorial links from fashion publishers." },
-          { number: "02", title: "Beauty SEO", href: "/beauty-seo", description: "Ingredient keyword clusters, how-to & tutorial content, product comparison pages, and skin type / concern-based navigation that matches how beauty buyers actually search." },
-          { number: "03", title: "Consumables SEO", href: "/consumables-seo", description: "Subscription and repurchase intent optimization, loyalty content, and topical authority in product benefit categories. We increase LTV through organic search - not just first-purchase traffic." },
-          { number: "04", title: "Toys SEO", href: "/toys-seo", description: "Age-range and developmental category optimization, safety-focused content that builds trust, gift guide content for peak seasonal capture, and compliance-aware copy." },
+        links: [
+          { title: "Fashion SEO", href: "/fashion-seo", description: "Seasonal trend content, size & style facet optimization, trend-driven category pages, and lookbook-style content that earns natural editorial links from fashion publishers." },
+          { title: "Beauty SEO", href: "/beauty-seo", description: "Ingredient keyword clusters, how-to & tutorial content, product comparison pages, and skin type / concern-based navigation that matches how beauty buyers actually search." },
+          { title: "Consumables SEO", href: "/consumables-seo", description: "Subscription and repurchase intent optimization, loyalty content, and topical authority in product benefit categories. We increase LTV through organic search - not just first-purchase traffic." },
+          { title: "Toys SEO", href: "/toys-seo", description: "Age-range and developmental category optimization, safety-focused content that builds trust, gift guide content for peak seasonal capture, and compliance-aware copy." },
         ],
       },
       {
@@ -114,11 +114,11 @@ export const ecommerceSeoIndustriesData: Record<Locale, ServicePageProps> = {
         type: "links",
         badge: "Unsere Spezialgebiete",
         heading: "Branchen, mit denen wir arbeiten",
-        process: [
-          { number: "01", title: "Mode SEO", href: "/fashion-seo", description: "Saisonaler Trend-Content, Gr\u00f6\u00dfen- & Stil-Facettenoptimierung, trend-getriebene Kategorieseiten und Lookbook-artiger Content, der nat\u00fcrliche redaktionelle Links von Mode-Publishern generiert." },
-          { number: "02", title: "Beauty SEO", href: "/beauty-seo", description: "Inhaltsstoff-Keyword-Cluster, How-to- & Tutorial-Content, Produktvergleichsseiten und hauttyp-/problembasierte Navigation, die der tats\u00e4chlichen Suchweise von Beauty-K\u00e4ufern entspricht." },
-          { number: "03", title: "Konsumg\u00fcter SEO", href: "/consumables-seo", description: "Abo- und Wiederkaufintentions-Optimierung, Loyalty-Content und Themenauthorit\u00e4t in Produktnutzen-Kategorien. Wir steigern den LTV durch organische Suche - nicht nur Erst-Kauf-Traffic." },
-          { number: "04", title: "Spielzeug SEO", href: "/toys-seo", description: "Altersgruppen- und Entwicklungskategorien-Optimierung, sicherheitsfokussierter Content, der Vertrauen aufbaut, Geschenkf\u00fchrer-Content f\u00fcr saisonale H\u00f6chstleistung und compliance-bewusstes Texten." },
+        links: [
+          { title: "Mode SEO", href: "/fashion-seo", description: "Saisonaler Trend-Content, Gr\u00f6\u00dfen- & Stil-Facettenoptimierung, trend-getriebene Kategorieseiten und Lookbook-artiger Content, der nat\u00fcrliche redaktionelle Links von Mode-Publishern generiert." },
+          { title: "Beauty SEO", href: "/beauty-seo", description: "Inhaltsstoff-Keyword-Cluster, How-to- & Tutorial-Content, Produktvergleichsseiten und hauttyp-/problembasierte Navigation, die der tats\u00e4chlichen Suchweise von Beauty-K\u00e4ufern entspricht." },
+          { title: "Konsumg\u00fcter SEO", href: "/consumables-seo", description: "Abo- und Wiederkaufintentions-Optimierung, Loyalty-Content und Themenauthorit\u00e4t in Produktnutzen-Kategorien. Wir steigern den LTV durch organische Suche - nicht nur Erst-Kauf-Traffic." },
+          { title: "Spielzeug SEO", href: "/toys-seo", description: "Altersgruppen- und Entwicklungskategorien-Optimierung, sicherheitsfokussierter Content, der Vertrauen aufbaut, Geschenkf\u00fchrer-Content f\u00fcr saisonale H\u00f6chstleistung und compliance-bewusstes Texten." },
         ],
       },
       {
@@ -199,11 +199,11 @@ export const ecommerceSeoIndustriesData: Record<Locale, ServicePageProps> = {
         type: "links",
         badge: "Secteurs de sp\u00e9cialisation",
         heading: "Types de boutiques avec lesquels nous travaillons",
-        process: [
-          { number: "01", title: "SEO Mode", href: "/fashion-seo", description: "Contenu tendance saisonnier, optimisation des facettes taille & style, pages de cat\u00e9gories ax\u00e9es sur les tendances et contenu de type lookbook qui g\u00e9n\u00e8re des liens \u00e9ditoriaux naturels de la part des \u00e9diteurs de mode." },
-          { number: "02", title: "SEO Beaut\u00e9", href: "/beauty-seo", description: "Clusters de mots-cl\u00e9s d\u2019ingr\u00e9dients, contenu how-to & tutoriels, pages de comparaison de produits et navigation bas\u00e9e sur le type de peau / probl\u00e8matique qui correspond \u00e0 la fa\u00e7on dont les acheteurs de beaut\u00e9 recherchent vraiment." },
-          { number: "03", title: "SEO Consommables", href: "/consumables-seo", description: "Optimisation de l\u2019intention d\u2019abonnement et de rachat, contenu de fid\u00e9lit\u00e9 et autorit\u00e9 th\u00e9matique dans les cat\u00e9gories de b\u00e9n\u00e9fices produits. Nous augmentons le LTV par la recherche organique - pas seulement le trafic de premier achat." },
-          { number: "04", title: "SEO Jouets", href: "/toys-seo", description: "Optimisation des cat\u00e9gories par tranche d\u2019\u00e2ge et d\u00e9veloppementale, contenu ax\u00e9 s\u00e9curit\u00e9 qui renforce la confiance, contenu de guide cadeaux pour la capture saisonni\u00e8re et textes respectueux des r\u00e9glementations." },
+        links: [
+          { title: "SEO Mode", href: "/fashion-seo", description: "Contenu tendance saisonnier, optimisation des facettes taille & style, pages de cat\u00e9gories ax\u00e9es sur les tendances et contenu de type lookbook qui g\u00e9n\u00e8re des liens \u00e9ditoriaux naturels de la part des \u00e9diteurs de mode." },
+          { title: "SEO Beaut\u00e9", href: "/beauty-seo", description: "Clusters de mots-cl\u00e9s d\u2019ingr\u00e9dients, contenu how-to & tutoriels, pages de comparaison de produits et navigation bas\u00e9e sur le type de peau / probl\u00e8matique qui correspond \u00e0 la fa\u00e7on dont les acheteurs de beaut\u00e9 recherchent vraiment." },
+          { title: "SEO Consommables", href: "/consumables-seo", description: "Optimisation de l\u2019intention d\u2019abonnement et de rachat, contenu de fid\u00e9lit\u00e9 et autorit\u00e9 th\u00e9matique dans les cat\u00e9gories de b\u00e9n\u00e9fices produits. Nous augmentons le LTV par la recherche organique - pas seulement le trafic de premier achat." },
+          { title: "SEO Jouets", href: "/toys-seo", description: "Optimisation des cat\u00e9gories par tranche d\u2019\u00e2ge et d\u00e9veloppementale, contenu ax\u00e9 s\u00e9curit\u00e9 qui renforce la confiance, contenu de guide cadeaux pour la capture saisonni\u00e8re et textes respectueux des r\u00e9glementations." },
         ],
       },
       {
@@ -284,11 +284,11 @@ export const ecommerceSeoIndustriesData: Record<Locale, ServicePageProps> = {
         type: "links",
         badge: "Industrias en las que nos especializamos",
         heading: "Tipos de tiendas con los que trabajamos",
-        process: [
-          { number: "01", title: "SEO de Moda", href: "/fashion-seo", description: "Contenido de tendencias estacionales, optimizaci\u00f3n de facetas de talla y estilo, p\u00e1ginas de categor\u00edas impulsadas por tendencias y contenido estilo lookbook que genera enlaces editoriales naturales de publicaciones de moda." },
-          { number: "02", title: "SEO de Belleza", href: "/beauty-seo", description: "Clusters de keywords de ingredientes, contenido how-to y tutoriales, p\u00e1ginas de comparaci\u00f3n de productos y navegaci\u00f3n basada en tipo de piel / preocupaci\u00f3n que coincide con c\u00f3mo los compradores de belleza realmente buscan." },
-          { number: "03", title: "SEO de Consumibles", href: "/consumables-seo", description: "Optimizaci\u00f3n de intenci\u00f3n de suscripci\u00f3n y recompra, contenido de fidelidad y autoridad tem\u00e1tica en categor\u00edas de beneficios de productos. Aumentamos el LTV a trav\u00e9s de b\u00fasqueda org\u00e1nica - no solo tr\u00e1fico de primera compra." },
-          { number: "04", title: "SEO de Juguetes", href: "/toys-seo", description: "Optimizaci\u00f3n de categor\u00edas por rango de edad y desarrollo, contenido enfocado en seguridad que genera confianza, contenido de gu\u00eda de regalos para captura estacional pico y textos conscientes del cumplimiento." },
+        links: [
+          { title: "SEO de Moda", href: "/fashion-seo", description: "Contenido de tendencias estacionales, optimizaci\u00f3n de facetas de talla y estilo, p\u00e1ginas de categor\u00edas impulsadas por tendencias y contenido estilo lookbook que genera enlaces editoriales naturales de publicaciones de moda." },
+          { title: "SEO de Belleza", href: "/beauty-seo", description: "Clusters de keywords de ingredientes, contenido how-to y tutoriales, p\u00e1ginas de comparaci\u00f3n de productos y navegaci\u00f3n basada en tipo de piel / preocupaci\u00f3n que coincide con c\u00f3mo los compradores de belleza realmente buscan." },
+          { title: "SEO de Consumibles", href: "/consumables-seo", description: "Optimizaci\u00f3n de intenci\u00f3n de suscripci\u00f3n y recompra, contenido de fidelidad y autoridad tem\u00e1tica en categor\u00edas de beneficios de productos. Aumentamos el LTV a trav\u00e9s de b\u00fasqueda org\u00e1nica - no solo tr\u00e1fico de primera compra." },
+          { title: "SEO de Juguetes", href: "/toys-seo", description: "Optimizaci\u00f3n de categor\u00edas por rango de edad y desarrollo, contenido enfocado en seguridad que genera confianza, contenido de gu\u00eda de regalos para captura estacional pico y textos conscientes del cumplimiento." },
         ],
       },
       {
@@ -369,11 +369,11 @@ export const ecommerceSeoIndustriesData: Record<Locale, ServicePageProps> = {
         type: "links",
         badge: "Settori in cui ci specializziamo",
         heading: "Tipi di store con cui lavoriamo",
-        process: [
-          { number: "01", title: "SEO Moda", href: "/fashion-seo", description: "Contenuto di tendenze stagionali, ottimizzazione delle faccette taglia e stile, pagine di categoria guidate dalle tendenze e contenuto in stile lookbook che guadagna link editoriali naturali dagli editori di moda." },
-          { number: "02", title: "SEO Bellezza", href: "/beauty-seo", description: "Cluster di keyword di ingredienti, contenuto how-to e tutorial, pagine di confronto dei prodotti e navigazione basata sul tipo di pelle / problematica che corrisponde a come gli acquirenti di bellezza cercano davvero." },
-          { number: "03", title: "SEO Consumabili", href: "/consumables-seo", description: "Ottimizzazione dell\u2019intenzione di abbonamento e riacquisto, contenuto di fidelizzazione e autorit\u00e0 tematica nelle categorie dei benefici dei prodotti. Aumentiamo il LTV attraverso la ricerca organica - non solo il traffico di primo acquisto." },
-          { number: "04", title: "SEO Giocattoli", href: "/toys-seo", description: "Ottimizzazione delle categorie per fascia d\u2019et\u00e0 e sviluppo, contenuto focalizzato sulla sicurezza che costruisce fiducia, contenuto di guida regali per la cattura stagionale di punta e testi consapevoli delle normative." },
+        links: [
+          { title: "SEO Moda", href: "/fashion-seo", description: "Contenuto di tendenze stagionali, ottimizzazione delle faccette taglia e stile, pagine di categoria guidate dalle tendenze e contenuto in stile lookbook che guadagna link editoriali naturali dagli editori di moda." },
+          { title: "SEO Bellezza", href: "/beauty-seo", description: "Cluster di keyword di ingredienti, contenuto how-to e tutorial, pagine di confronto dei prodotti e navigazione basata sul tipo di pelle / problematica che corrisponde a come gli acquirenti di bellezza cercano davvero." },
+          { title: "SEO Consumabili", href: "/consumables-seo", description: "Ottimizzazione dell\u2019intenzione di abbonamento e riacquisto, contenuto di fidelizzazione e autorit\u00e0 tematica nelle categorie dei benefici dei prodotti. Aumentiamo il LTV attraverso la ricerca organica - non solo il traffico di primo acquisto." },
+          { title: "SEO Giocattoli", href: "/toys-seo", description: "Ottimizzazione delle categorie per fascia d\u2019et\u00e0 e sviluppo, contenuto focalizzato sulla sicurezza che costruisce fiducia, contenuto di guida regali per la cattura stagionale di punta e testi consapevoli delle normative." },
         ],
       },
       {
@@ -454,11 +454,11 @@ export const ecommerceSeoIndustriesData: Record<Locale, ServicePageProps> = {
         type: "links",
         badge: "Sectoren waar we in gespecialiseerd zijn",
         heading: "Winkeltypes waar we mee werken",
-        process: [
-          { number: "01", title: "Mode SEO", href: "/fashion-seo", description: "Seizoensgebonde trendcontent, grootte & stijl facetoptimalisatie, trendgedreven categoriepagina\u2019s en lookbook-stijl content die natuurlijke redactionele links verdient van mode-uitgevers." },
-          { number: "02", title: "Beauty SEO", href: "/beauty-seo", description: "Ingredi\u00ebntkeyword-clusters, how-to & tutorial content, productvergelijkingspagina\u2019s en navigatie op basis van huidtype / concern die overeenkomt met hoe beauty-kopers werkelijk zoeken." },
-          { number: "03", title: "Consumptiegoederen SEO", href: "/consumables-seo", description: "Abonnement- en herkoopintentieoptimalisatie, loyaliteitscontent en topicale autoriteit in productvoordeel-categorie\u00ebn. We verhogen LTV via organisch zoeken - niet alleen eerste-aankoopverkeer." },
-          { number: "04", title: "Speelgoed SEO", href: "/toys-seo", description: "Leeftijdsgroep- en ontwikkelingsgerichte categorieoptimalisatie, veiligheidsgericht content dat vertrouwen opbouwt, cadeau-gids content voor seizoenspiekopvang en nalevingsbewuste teksten." },
+        links: [
+          { title: "Mode SEO", href: "/fashion-seo", description: "Seizoensgebonde trendcontent, grootte & stijl facetoptimalisatie, trendgedreven categoriepagina\u2019s en lookbook-stijl content die natuurlijke redactionele links verdient van mode-uitgevers." },
+          { title: "Beauty SEO", href: "/beauty-seo", description: "Ingredi\u00ebntkeyword-clusters, how-to & tutorial content, productvergelijkingspagina\u2019s en navigatie op basis van huidtype / concern die overeenkomt met hoe beauty-kopers werkelijk zoeken." },
+          { title: "Consumptiegoederen SEO", href: "/consumables-seo", description: "Abonnement- en herkoopintentieoptimalisatie, loyaliteitscontent en topicale autoriteit in productvoordeel-categorie\u00ebn. We verhogen LTV via organisch zoeken - niet alleen eerste-aankoopverkeer." },
+          { title: "Speelgoed SEO", href: "/toys-seo", description: "Leeftijdsgroep- en ontwikkelingsgerichte categorieoptimalisatie, veiligheidsgericht content dat vertrouwen opbouwt, cadeau-gids content voor seizoenspiekopvang en nalevingsbewuste teksten." },
         ],
       },
       {
