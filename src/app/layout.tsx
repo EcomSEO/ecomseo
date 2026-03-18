@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Script from "next/script";
 import { headers } from "next/headers";
 import { DM_Sans, Figtree } from "next/font/google";
 import "./globals.css";
@@ -41,15 +42,24 @@ export default async function RootLayout({
   return (
     <html lang={locale} className={`${dmSans.variable} ${figtree.variable}`}>
       <head>
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-PWFC4VSN');`,
-          }}
+        {/* Preload critical Satoshi fonts */}
+        <link
+          rel="preload"
+          href="/fonts/Satoshi-Medium.woff2"
+          as="font"
+          type="font/woff2"
+          crossOrigin="anonymous"
         />
+        <link
+          rel="preload"
+          href="/fonts/Satoshi-Bold.woff2"
+          as="font"
+          type="font/woff2"
+          crossOrigin="anonymous"
+        />
+        {/* Preconnect to GTM */}
+        <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
+        <link rel="preconnect" href="https://www.googletagmanager.com" crossOrigin="anonymous" />
       </head>
       <body>
         <noscript>
@@ -61,6 +71,18 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           />
         </noscript>
         {children}
+        {/* GTM loaded after page interactive - not render-blocking */}
+        <Script
+          id="gtm"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PWFC4VSN');`,
+          }}
+        />
       </body>
     </html>
   );

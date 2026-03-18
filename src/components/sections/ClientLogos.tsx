@@ -2,6 +2,7 @@
 
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
+import Image from "next/image";
 import Badge from "@/components/ui/Badge";
 import { useLocale } from "@/lib/i18n/useTranslations";
 import { aboutUsT } from "@/lib/i18n/translations/home";
@@ -51,12 +52,14 @@ export default function ClientLogos() {
             {/* Purple glow on hover */}
             <div className="absolute inset-0 rounded-full bg-accent/0 blur-xl transition-all duration-500 group-hover:bg-accent/20 group-hover:scale-150" />
 
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img
+            <Image
               src={logo.src}
               alt={logo.alt}
+              width={120}
+              height={40}
               className="relative h-[32px] md:h-[40px] w-auto object-contain opacity-30 transition-all duration-500 group-hover:opacity-90"
               style={{ filter: "brightness(0) invert(1)" }}
+              loading="lazy"
             />
           </motion.div>
         ))}

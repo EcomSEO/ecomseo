@@ -1,7 +1,12 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  compress: true,
+  experimental: {
+    optimizePackageImports: ["framer-motion"],
+  },
   images: {
+    formats: ["image/webp", "image/avif"],
     remotePatterns: [
       {
         protocol: "https",

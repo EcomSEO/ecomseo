@@ -2,6 +2,7 @@
 
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
+import Image from "next/image";
 
 const toolLogos = [
   { src: "/images/framer/TlKNFSmHBRkkG6eJvlll5HbhEc.webp", alt: "Screaming Frog" },
@@ -46,12 +47,14 @@ export default function ToolsSoftware() {
             {/* Purple glow on hover */}
             <div className="absolute inset-0 rounded-full bg-accent/0 blur-xl transition-all duration-500 group-hover:bg-accent/20 group-hover:scale-150" />
 
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img
+            <Image
               src={tool.src}
               alt={tool.alt}
+              width={120}
+              height={40}
               className="relative h-[32px] md:h-[40px] w-auto object-contain opacity-30 transition-all duration-500 group-hover:opacity-90"
               style={{ filter: "brightness(0) invert(1)" }}
+              loading="lazy"
             />
           </motion.div>
         ))}
