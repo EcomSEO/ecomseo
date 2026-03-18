@@ -96,7 +96,7 @@ export const caseStudies: CaseStudy[] = [
     image1:
       "/images/framer/NPCIdO7pC8YfeI9fXt2tozsr0.png",
     textAfterImage1:
-      "In just a few months, organic clicks surged from 55 to 794 \u2014 a 1,343% increase. This was driven by a combination of new content creation, technical SEO fixes, and strategic internal linking that distributed authority across the site.",
+      "In just a few months, organic clicks surged from 55 to 794 - a 1,343% increase. This was driven by a combination of new content creation, technical SEO fixes, and strategic internal linking that distributed authority across the site.",
     bottomProjectDescription:
       "The brand has now shifted significant budget from paid ads to organic, recognizing the compounding ROI of SEO. With a solid content foundation in place, we\u2019re scaling to target even more competitive keywords.",
   },
@@ -195,15 +195,15 @@ export const caseStudies: CaseStudy[] = [
     image1:
       "/images/framer/ZMRXxOQXaPPlksb8wJrCxtDjcbY.png",
     textAfterImage1:
-      "Over the course of 12 months, we helped transform their presence in search. The brand\u2019s tracked keywords surged from 159 to 1,729 \u2014 a +987% increase. Page 1 rankings (positions 4\u201310) grew by 715%, while Page 2 rankings exploded by 1,450%. Mid-tier (21\u201350) and longtail (51\u2013100) rankings increased by 2,788% and 687%, respectively. SERP feature appearances jumped from 11 to 285 \u2014 up by over 2,490%.",
+      "Over the course of 12 months, we helped transform their presence in search. The brand\u2019s tracked keywords surged from 159 to 1,729 - a +987% increase. Page 1 rankings (positions 4-10) grew by 715%, while Page 2 rankings exploded by 1,450%. Mid-tier (21-50) and longtail (51-100) rankings increased by 2,788% and 687%, respectively. SERP feature appearances jumped from 11 to 285 - up by over 2,490%.",
     image2:
       "/images/framer/QtPNuhsKVZNt3klckPPtQzUuW0.png",
     textAfterImage2:
-      "We achieved this through our Topical Authority Boost (TAB) strategy. First, we developed comprehensive content clusters targeting hundreds of health-related mid- and long-tail keywords. Then, we tackled the technical side \u2014 optimizing internal linking, fixing broken tags, and improving crawlability and indexation.",
+      "We achieved this through our Topical Authority Boost (TAB) strategy. First, we developed comprehensive content clusters targeting hundreds of health-related mid- and long-tail keywords. Then, we tackled the technical side - optimizing internal linking, fixing broken tags, and improving crawlability and indexation.",
     textAfterImage3:
       "On-page SEO was overhauled through precise optimization of meta titles, headers, and semantic structure. Structured data was implemented for products, FAQs, breadcrumbs, and reviews to unlock rich results. Finally, we built high-quality backlinks from health-focused domains via guest posts and strategic partnerships to boost authority and trust.",
     bottomProjectDescription:
-      "The website experienced nearly 11x growth in keyword presence, a 715% increase in Page 1 rankings, and a 2,490% increase in SERP feature coverage, including rich snippets and FAQs \u2014 all within 12 months. This created a steady influx of qualified, high-intent organic traffic with strong conversion potential.",
+      "The website experienced nearly 11x growth in keyword presence, a 715% increase in Page 1 rankings, and a 2,490% increase in SERP feature coverage, including rich snippets and FAQs - all within 12 months. This created a steady influx of qualified, high-intent organic traffic with strong conversion potential.",
   },
   {
     slug: "swedish-seo-explosion",
@@ -219,9 +219,9 @@ export const caseStudies: CaseStudy[] = [
     heroImage:
       "/images/framer/Xf1HGUb7jShO1KPmiiSSN4749ZU.png",
     description:
-      "This ecommerce brand launched into the Swedish health market in August 2024 with virtually no SEO visibility \u2014 only 23 organic keywords and no Page 1 rankings. Our mission was to build a sustainable SEO engine from scratch and drive traffic growth organically in a competitive niche.",
+      "This ecommerce brand launched into the Swedish health market in August 2024 with virtually no SEO visibility - only 23 organic keywords and no Page 1 rankings. Our mission was to build a sustainable SEO engine from scratch and drive traffic growth organically in a competitive niche.",
     topProjectDescription:
-      "By April 2025, organic keyword rankings had exploded by over 1,060%. The brand went from 0 to 28 keywords on Page 1, 36 on Page 2, and 105 in mid-tier rankings (positions 21\u201350). Even longtail visibility improved dramatically, with 66 keywords ranking between positions 51\u2013100. In addition, SERP feature appearances (such as FAQs and snippets) increased from 1 to 32 \u2014 expanding visibility across the results page.",
+      "By April 2025, organic keyword rankings had exploded by over 1,060%. The brand went from 0 to 28 keywords on Page 1, 36 on Page 2, and 105 in mid-tier rankings (positions 21-50). Even longtail visibility improved dramatically, with 66 keywords ranking between positions 51-100. In addition, SERP feature appearances (such as FAQs and snippets) increased from 1 to 32 - expanding visibility across the results page.",
     image1:
       "/images/framer/GR8HujXonhuGbMdpDyze8EJSNJU.png",
     textAfterImage1:
@@ -229,7 +229,7 @@ export const caseStudies: CaseStudy[] = [
     image2:
       "/images/framer/6dEoP51kE51ZPZ2sOd0wwzjoxsE.png",
     textAfterImage2:
-      "On-page SEO, internal linking, and clean technical optimization ensured that every page was indexable, relevant, and built to rank. Structured data was deployed to win SERP features, while strategic link-building from Nordic wellness domains helped raise domain authority and trust signals. As a result, the brand now owns visibility across the entire funnel \u2014 from informational searches to high-intent queries \u2014 setting the stage for continued growth, traffic, and conversions in the months ahead.",
+      "On-page SEO, internal linking, and clean technical optimization ensured that every page was indexable, relevant, and built to rank. Structured data was deployed to win SERP features, while strategic link-building from Nordic wellness domains helped raise domain authority and trust signals. As a result, the brand now owns visibility across the entire funnel - from informational searches to high-intent queries - setting the stage for continued growth, traffic, and conversions in the months ahead.",
     bottomProjectDescription:
       "Many of the Page 2 and 3 keywords are now poised for quick wins. We\u2019re doubling down on internal linking and building FAQ content to further accelerate entry into the Top 10.",
   },
@@ -247,17 +247,17 @@ export const caseStudies: CaseStudy[] = [
     heroImage:
       "/images/framer/b3NuyQhNm8p8Jet5t6s4j4uQRHs.png",
     description:
-      "Most websites expect their homepage to lead the pack in terms of organic traffic. But in this case, a strategic content page built around a targeted keyword and user intent drastically outperformed the homepage \u2014 delivering over 7X more clicks and 6X more impressions. This result didn\u2019t happen by accident. It was the outcome of precise keyword targeting, topical authority, and SEO-focused content design.",
+      "Most websites expect their homepage to lead the pack in terms of organic traffic. But in this case, a strategic content page built around a targeted keyword and user intent drastically outperformed the homepage - delivering over 7X more clicks and 6X more impressions. This result didn\u2019t happen by accident. It was the outcome of precise keyword targeting, topical authority, and SEO-focused content design.",
     topProjectDescription:
-      "Most ecommerce stores rely on their homepage to be the primary driver of organic traffic. But for this beauty and nails brand, one strategically designed landing page changed everything. By focusing on a high-intent keyword and crafting content around user intent, the page delivered 3,895 clicks compared to just 463 on the homepage \u2014 a 740% increase. Impressions followed a similar trend, growing by 634% over the homepage. This wasn\u2019t just a small win \u2014 the landing page completely dominated.",
+      "Most ecommerce stores rely on their homepage to be the primary driver of organic traffic. But for this beauty and nails brand, one strategically designed landing page changed everything. By focusing on a high-intent keyword and crafting content around user intent, the page delivered 3,895 clicks compared to just 463 on the homepage - a 740% increase. Impressions followed a similar trend, growing by 634% over the homepage. This wasn\u2019t just a small win - the landing page completely dominated.",
     image1:
       "/images/framer/NZW07WrJngD5CyDcjBNtNoUlo.png",
     textAfterImage1:
-      "We created a dedicated SEO landing page targeting the high-intent keyword \u201crandiga naglar\u201d (striped nails). The page was tailored to match the user\u2019s intent with relevant visuals, concise copy, and product listings directly tied to the search. We optimized every on-page element \u2014 from headers to image alt text and meta descriptions \u2014 and added semantically related terms to improve topical depth. Internal links from key product and category pages were added to support discoverability and authority. Finally, we ensured a clean technical foundation, with fast mobile performance, schema markup, and optimized URL structure to help the page index and rank fast.",
+      "We created a dedicated SEO landing page targeting the high-intent keyword \u201crandiga naglar\u201d (striped nails). The page was tailored to match the user\u2019s intent with relevant visuals, concise copy, and product listings directly tied to the search. We optimized every on-page element - from headers to image alt text and meta descriptions - and added semantically related terms to improve topical depth. Internal links from key product and category pages were added to support discoverability and authority. Finally, we ensured a clean technical foundation, with fast mobile performance, schema markup, and optimized URL structure to help the page index and rank fast.",
     image2:
       "/images/framer/NRLNJlmz2DFf1v1TS6ES8PDNEu4.png",
     textAfterImage2:
-      "Unlike the broad focus of a homepage, this page was laser-focused on one trending, visual, and high-converting keyword. It aligned with user intent, delivered real value, and was technically sound \u2014 the perfect SEO trifecta.",
+      "Unlike the broad focus of a homepage, this page was laser-focused on one trending, visual, and high-converting keyword. It aligned with user intent, delivered real value, and was technically sound - the perfect SEO trifecta.",
     bottomProjectDescription:
       "We\u2019re rolling out a similar strategy across other high-intent beauty topics, applying the same EcomSEO framework to replicate this success across the client\u2019s product catalog.",
   },
@@ -275,9 +275,9 @@ export const caseStudies: CaseStudy[] = [
     heroImage:
       "/images/framer/WYv0LM3JIOM7VqQPWR5PSWRpPWk.png",
     description:
-      "This Dutch online jewelry store had strong branding and a loyal customer base, but its organic traffic was not reflective of its potential. The site suffered from a flat architecture, missing internal linking logic, and unclear navigation \u2014 especially when it came to thematic and seasonal collections. We restructured the entire category system and launched over 100 clearly defined collections to align with user intent, seasonal trends, and search demand.",
+      "This Dutch online jewelry store had strong branding and a loyal customer base, but its organic traffic was not reflective of its potential. The site suffered from a flat architecture, missing internal linking logic, and unclear navigation - especially when it came to thematic and seasonal collections. We restructured the entire category system and launched over 100 clearly defined collections to align with user intent, seasonal trends, and search demand.",
     topProjectDescription:
-      "We transformed the site\u2019s architecture by launching over 100 targeted collection pages \u2014 organized around product style, theme, and search behavior. These new pages captured both evergreen and seasonal intent, resulting in a significant increase in indexed pages and keyword coverage. As a result, the site now ranks on Page 1 for dozens of high-intent terms and shows improved engagement across the board.",
+      "We transformed the site\u2019s architecture by launching over 100 targeted collection pages - organized around product style, theme, and search behavior. These new pages captured both evergreen and seasonal intent, resulting in a significant increase in indexed pages and keyword coverage. As a result, the site now ranks on Page 1 for dozens of high-intent terms and shows improved engagement across the board.",
     image1:
       "/images/framer/gyRmy5K001Wwpq2CejOLpA6Qi0.png",
     textAfterImage1:
@@ -285,7 +285,7 @@ export const caseStudies: CaseStudy[] = [
     image2:
       "/images/framer/HnlZ0KRfnEL41sycz9vZb9TITE4.png",
     textAfterImage2:
-      "Technical SEO was also cleaned up \u2014 from canonical tags to sitemap improvements and mobile speed optimizations. We added structured data for reviews, breadcrumbs, and filters to improve visibility in SERPs and help users navigate seamlessly.",
+      "Technical SEO was also cleaned up - from canonical tags to sitemap improvements and mobile speed optimizations. We added structured data for reviews, breadcrumbs, and filters to improve visibility in SERPs and help users navigate seamlessly.",
     textAfterImage3:
       "By April 2025, the site was ranking broadly for both generic and niche terms like \u201czilveren armband dames\u201d and \u201cverlovingsring vintage,\u201d proving that deep category SEO combined with structured content can outperform paid channels.",
   },
@@ -303,15 +303,15 @@ export const caseStudies: CaseStudy[] = [
     heroImage:
       "/images/framer/u8bMMkKCS2CzeAeFlmCHEMBFMmI.png",
     description:
-      "This brand started with no organic presence at all \u2014 completely reliant on paid advertising for traffic and sales. The homepage, product pages, and category sections had virtually zero traction on Google. That changed with a single, strategic move.",
+      "This brand started with no organic presence at all - completely reliant on paid advertising for traffic and sales. The homepage, product pages, and category sections had virtually zero traction on Google. That changed with a single, strategic move.",
     topProjectDescription:
-      "We created one SEO landing page targeting a high-intent nail care search term specific to the Dutch market. The page was designed with a clean SEO structure, fast indexing, and user-focused content optimized to answer real search behavior. With the right internal linking, clear headings, and a conversion-friendly layout, the results came fast \u2014 and stuck.",
+      "We created one SEO landing page targeting a high-intent nail care search term specific to the Dutch market. The page was designed with a clean SEO structure, fast indexing, and user-focused content optimized to answer real search behavior. With the right internal linking, clear headings, and a conversion-friendly layout, the results came fast - and stuck.",
     image1:
       "/images/framer/8aOboYR3AbkXAk7Jgpk9PoVIKqo.png",
     textAfterImage1:
-      "In just six months, this one page went from zero to 2,710 clicks and 48,700 impressions. Today, it generates 84 clicks and 609 impressions daily \u2014 outperforming the homepage, product pages, and every collection page on the site. It has become the brand\u2019s #1 source of organic traffic.",
+      "In just six months, this one page went from zero to 2,710 clicks and 48,700 impressions. Today, it generates 84 clicks and 609 impressions daily - outperforming the homepage, product pages, and every collection page on the site. It has become the brand\u2019s #1 source of organic traffic.",
     textAfterImage3:
-      "What makes this success powerful is its simplicity: no hacks, no full-site overhaul \u2014 just one perfectly executed page. It now stands as one of the brand\u2019s highest-ROI assets, proving that with the right intent and execution, SEO can drive long-term value from a single page.",
+      "What makes this success powerful is its simplicity: no hacks, no full-site overhaul - just one perfectly executed page. It now stands as one of the brand\u2019s highest-ROI assets, proving that with the right intent and execution, SEO can drive long-term value from a single page.",
   },
   {
     slug: "dutch-lighting-store",
@@ -337,7 +337,7 @@ export const caseStudies: CaseStudy[] = [
     textAfterImage2:
       "Technical SEO upgrades included sitemap improvements, cleaned crawl paths, canonical tags, and a restructured internal linking strategy. To top it off, we built high-quality backlinks from trusted Dutch interior and lighting sites to strengthen domain and category authority.",
     textAfterImage3:
-      "The result? A significant jump in impressions, Page 1 keyword rankings, crawl efficiency, and topical relevance \u2014 all contributing to long-term growth and visibility in one of the most competitive retail categories.",
+      "The result? A significant jump in impressions, Page 1 keyword rankings, crawl efficiency, and topical relevance - all contributing to long-term growth and visibility in one of the most competitive retail categories.",
   },
   {
     slug: "ecom-swedish-brand",
@@ -354,17 +354,17 @@ export const caseStudies: CaseStudy[] = [
     heroImage:
       "/images/framer/2UsLOcISObv7iq3htlOjILlw0c.png",
     description:
-      "When this mid-sized Swedish e-commerce brand reached out to us in late 2024, their organic visibility was almost non-existent \u2014 with only branded keywords ranking and no content strategy in place. Despite having a well-built Shopify store and decent product pages, they lacked informational content, an internal linking structure, and backlinks from relevant sites.",
+      "When this mid-sized Swedish e-commerce brand reached out to us in late 2024, their organic visibility was almost non-existent - with only branded keywords ranking and no content strategy in place. Despite having a well-built Shopify store and decent product pages, they lacked informational content, an internal linking structure, and backlinks from relevant sites.",
     topProjectDescription:
-      "Our team executed a 3-phase strategy to turn that around. We began by clustering high-potential Swedish-language keywords based on search intent. Using these clusters, we launched 100 new informational pages \u2014 blogs and guides that not only attracted long-tail traffic but also internally linked to product and category pages, reinforcing topical authority. At the same time, we improved technical SEO by fixing meta tag duplication, optimizing sitemap structure, and enhancing site navigation and schema setup.",
+      "Our team executed a 3-phase strategy to turn that around. We began by clustering high-potential Swedish-language keywords based on search intent. Using these clusters, we launched 100 new informational pages - blogs and guides that not only attracted long-tail traffic but also internally linked to product and category pages, reinforcing topical authority. At the same time, we improved technical SEO by fixing meta tag duplication, optimizing sitemap structure, and enhancing site navigation and schema setup.",
     image1:
       "/images/framer/lCkxhauV9ut0MT6UYs97cWxC8c.png",
     textAfterImage1:
-      "Within just six months, the results were dramatic. Impressions jumped from 119,000 to 446,000 (+275%), while clicks rose from 8,410 to 15,400 (+83%). As the content hub gained traction, internal authority flowed naturally to key product pages \u2014 giving them visibility they had never achieved before.",
+      "Within just six months, the results were dramatic. Impressions jumped from 119,000 to 446,000 (+275%), while clicks rose from 8,410 to 15,400 (+83%). As the content hub gained traction, internal authority flowed naturally to key product pages - giving them visibility they had never achieved before.",
     image2:
       "/images/framer/NXqrtjIPSjhtl3APX2rH5LNwVrM.png",
     textAfterImage3:
-      "We\u2019re now entering Phase 2, focused on optimizing every product page for on-page SEO and launching a backlink campaign to solidify the site\u2019s authority. With this foundation in place, the brand is forecasted to 3\u20134\u00d7 its traffic again over the next six months \u2014 setting the stage to dominate its niche in Sweden.",
+      "We\u2019re now entering Phase 2, focused on optimizing every product page for on-page SEO and launching a backlink campaign to solidify the site\u2019s authority. With this foundation in place, the brand is forecasted to 3-4\u00d7 its traffic again over the next six months - setting the stage to dominate its niche in Sweden.",
   },
   {
     slug: "swedish-ecom-site",
@@ -380,9 +380,9 @@ export const caseStudies: CaseStudy[] = [
     heroImage:
       "/images/framer/jvTl07BOCRR2tTf2ANh32XdfEt4.png",
     description:
-      "Back in May 2024, this Swedish ecommerce brand had minimal organic visibility. With just 37 keywords ranking \u2014 and only one in the top 10 \u2014 growth was flat. They had no content hub, no internal linking structure, and no backlink strategy. Our mission was to change that in under six months.",
+      "Back in May 2024, this Swedish ecommerce brand had minimal organic visibility. With just 37 keywords ranking - and only one in the top 10 - growth was flat. They had no content hub, no internal linking structure, and no backlink strategy. Our mission was to change that in under six months.",
     topProjectDescription:
-      "We began with a deep Swedish keyword clustering strategy, mapping over 250 search terms into five high-intent thematic clusters like h\u00e5llbar sk\u00f6nhet and ekologisk kosttillskott. From there, we launched 100+ well-researched articles targeting long-tail queries. These were tied together using over 300 contextual internal links pointing to relevant product and category pages \u2014 reinforcing authority site-wide.",
+      "We began with a deep Swedish keyword clustering strategy, mapping over 250 search terms into five high-intent thematic clusters like h\u00e5llbar sk\u00f6nhet and ekologisk kosttillskott. From there, we launched 100+ well-researched articles targeting long-tail queries. These were tied together using over 300 contextual internal links pointing to relevant product and category pages - reinforcing authority site-wide.",
     image1:
       "/images/framer/fyAPXyjHaJjly5rybkvJY6xZQkQ.png",
     textAfterImage1:
@@ -390,7 +390,7 @@ export const caseStudies: CaseStudy[] = [
     textAfterImage2:
       "In just six months, the brand jumped from 37 to 1,529 total keywords (+4,035%). Page 1 rankings increased from just 1 to 87, and 53 keywords now appear in SERP features. Clicks rose from 8.4K to 15.4K (+83%) and impressions from 119K to 446K (+275%).",
     textAfterImage3:
-      "By moving from 37 to over 1,500 ranked keywords in just six months\u2014and locking in 87 top-10 positions\u2014this Swedish e-commerce brand has cemented its place in the market. With our next on-page and link-building push, we expect organic traffic to truly skyrocket.",
+      "By moving from 37 to over 1,500 ranked keywords in just six months-and locking in 87 top-10 positions-this Swedish e-commerce brand has cemented its place in the market. With our next on-page and link-building push, we expect organic traffic to truly skyrocket.",
   },
 ];
 

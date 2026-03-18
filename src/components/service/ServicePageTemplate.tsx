@@ -79,6 +79,7 @@ export interface CaseStudyItem {
   quote?: string;
   quoteAuthor?: string;
   href?: string;
+  image?: string;
 }
 
 export interface ContentSection {
@@ -109,6 +110,7 @@ export interface ServicePageProps {
     heroImage?: string;
   };
   trustBar: string;
+  trustBarIcon?: "shopify" | "woocommerce" | "bigcommerce" | "adobe";
   sections: ContentSection[];
   faqs: {
     items: FAQItem[];
@@ -285,7 +287,44 @@ function ServiceHero({
   );
 }
 
-function TrustBar({ text }: { text: string }) {
+/* ─── Platform trust-bar icons ─── */
+const platformIcons: Record<string, React.ReactNode> = {
+  shopify: (
+    <span className="inline-flex items-center justify-center w-7 h-7 rounded-lg bg-[#95BF47]/10 flex-shrink-0">
+      <svg width="16" height="18" viewBox="0 0 256 292" xmlns="http://www.w3.org/2000/svg">
+        <path d="M223.774 57.34c-.201-1.46-1.48-2.268-2.537-2.357-1.055-.088-23.383-1.743-23.383-1.743s-15.507-15.395-17.209-17.099c-1.703-1.703-5.029-1.185-6.32-.834-.183.05-3.37 1.042-8.633 2.666-5.18-14.906-14.322-28.604-30.37-28.604-.444 0-.901.018-1.358.044C129.31 3.407 123.937.001 119.36.001 78.625.001 59.12 50.878 52.71 76.725c-16.842 5.217-28.798 8.92-30.222 9.39-9.332 2.94-9.638 3.232-10.872 12.085C10.448 105.752 0 186.027 0 186.027l166.867 31.265 76.633-19.263s-19.526-139.228-19.726-140.689z" fill="#95BF47"/>
+        <path d="M221.237 54.983c-1.055-.088-23.383-1.743-23.383-1.743s-15.507-15.395-17.209-17.099c-.637-.634-1.496-.96-2.394-1.062l-11.384 232.45 76.633-19.263S224 56.443 223.774 54.983z" fill="#5E8E3E"/>
+        <path d="M135.291 104.585l-11.04 32.789s-9.703-5.161-21.555-5.161c-17.417 0-18.293 10.932-18.293 13.692 0 15.038 39.2 20.799 39.2 56.024 0 27.713-17.575 45.558-41.277 45.558-28.44 0-42.984-17.7-42.984-17.7l7.615-25.16s14.95 12.835 27.565 12.835c8.243 0 11.596-6.49 11.596-11.232 0-19.616-32.16-20.491-32.16-52.724 0-27.129 19.472-53.382 58.778-53.382 15.145 0 22.555 4.461 22.555 4.461z" fill="#FFF"/>
+      </svg>
+    </span>
+  ),
+  woocommerce: (
+    <span className="inline-flex items-center justify-center w-7 h-7 rounded-lg bg-[#96588A]/10 flex-shrink-0">
+      <svg width="16" height="10" viewBox="0 0 120 68" xmlns="http://www.w3.org/2000/svg">
+        <path d="M10.94 0h98.12C115.1 0 120 4.9 120 10.94v36.84c0 6.04-4.9 10.94-10.94 10.94H73.64l5.12 9.28-18.96-9.28H10.94C4.9 48.72 0 43.82 0 37.78V10.94C0 4.9 4.9 0 10.94 0z" fill="#96588A"/>
+        <path d="M14.73 12.47c.64-.78 1.49-1.2 2.57-1.27 1.95-.12 3.1.94 3.45 3.18l4.22 23.59 9.27-17.76c.85-1.6 1.91-2.44 3.18-2.5 1.83-.1 2.96 1.08 3.38 3.54.8 4.66 1.85 8.6 3.16 11.81 .87-8.77 2.93-15.13 6.19-19.12.64-.78 1.47-1.2 2.52-1.27.8-.05 1.54.2 2.23.74.69.55 1.08 1.23 1.17 2.04.07.63-.02 1.17-.28 1.64-2.05 3.14-3.73 8.42-5.06 15.84-.53 2.9-.64 5.12-.33 6.66.31 1.55-.02 2.79-.98 3.72a3.08 3.08 0 01-2.17 1c-1.02.06-2.08-.52-3.16-1.72-3.75-4.2-6.72-10.47-8.91-18.82-2.83 5.6-4.89 9.91-6.19 12.92-2.54 5.07-4.7 7.67-6.49 7.78-1.15.07-2.13-.93-2.94-3L13.14 16c-.23-.97-.14-1.82.28-2.56.42-.74 1-.16 1.31-.97z" fill="#FFF"/>
+        <path d="M76.5 15.08c-1.48 1.19-2.48 2.88-3.01 5.07-.53 2.2-.49 4.19.12 5.97.73 2.11 1.94 3.1 3.62 2.97 1.7-.13 3.15-1.32 4.33-3.58.99-1.93 1.47-3.94 1.43-6.03-.04-1.62-.4-2.91-1.08-3.88-.88-1.25-2.09-1.79-3.62-1.62-.68.08-1.26.38-1.79 1.1zm10.1-5.48c1.61 2.07 2.42 4.72 2.42 7.94 0 4.32-1.18 8.26-3.55 11.83-2.77 4.18-6.28 6.47-10.52 6.88-2.98.28-5.47-.56-7.49-2.53-1.76-1.74-2.87-4.1-3.31-7.08-.41-2.72-.15-5.38.78-7.98 1.14-3.22 2.99-5.85 5.56-7.89 2.86-2.3 5.88-3.61 9.04-3.9 2.65-.25 4.87.47 6.07 2.73z" fill="#FFF"/>
+        <path d="M101.38 15.08c-1.48 1.19-2.48 2.88-3.01 5.07-.53 2.2-.49 4.19.12 5.97.73 2.11 1.94 3.1 3.62 2.97 1.7-.13 3.15-1.32 4.33-3.58.99-1.93 1.47-3.94 1.43-6.03-.04-1.62-.4-2.91-1.08-3.88-.88-1.25-2.09-1.79-3.62-1.62-.68.08-1.26.38-1.79 1.1zm10.1-5.48c1.61 2.07 2.42 4.72 2.42 7.94 0 4.32-1.18 8.26-3.55 11.83-2.77 4.18-6.28 6.47-10.52 6.88-2.98.28-5.47-.56-7.49-2.53-1.76-1.74-2.87-4.1-3.31-7.08-.41-2.72-.15-5.38.78-7.98 1.14-3.22 2.99-5.85 5.56-7.89 2.86-2.3 5.88-3.61 9.04-3.9 2.65-.25 4.87.47 6.07 2.73z" fill="#FFF"/>
+      </svg>
+    </span>
+  ),
+  bigcommerce: (
+    <span className="inline-flex items-center justify-center w-7 h-7 rounded-lg bg-[#34313F]/20 flex-shrink-0">
+      <svg width="14" height="14" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <path d="M5.768 14.496l6.252 6.252 6.252-6.252-6.252-6.264zm0-4.992L12.02 3.252 18.272 9.504l-6.252 6.252z" fill="#FFF"/>
+      </svg>
+    </span>
+  ),
+  adobe: (
+    <span className="inline-flex items-center justify-center w-7 h-7 rounded-lg bg-[#E03C31]/10 flex-shrink-0">
+      <svg width="14" height="14" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <path d="M9.5 2L2 22h4.5l2.1-5.5h5.4L9.5 2zm4.5 0L22 22h-4.5l-2.1-5.5h-1.6L14 2z" fill="#E03C31"/>
+      </svg>
+    </span>
+  ),
+};
+
+function TrustBar({ text, icon }: { text: string; icon?: "shopify" | "woocommerce" | "bigcommerce" | "adobe" }) {
   return (
     <motion.section
       className="w-full px-5 md:px-10 py-6"
@@ -294,7 +333,10 @@ function TrustBar({ text }: { text: string }) {
       transition={{ duration: 0.6, delay: 0.4 }}
     >
       <div className="mx-auto max-w-[1120px] flex justify-center">
-        <p className="text-body-strong text-sm md:text-base text-center font-medium">{text}</p>
+        <span className="text-body-strong text-sm md:text-base text-center font-medium inline-flex items-center gap-2.5">
+          {icon && platformIcons[icon]}
+          {text}
+        </span>
       </div>
     </motion.section>
   );
@@ -650,32 +692,41 @@ function RichTextSection({
     <section className="w-full px-5 md:px-10 py-20">
       <div className="mx-auto max-w-[1120px] flex flex-col items-center gap-12">
         <SectionHeader badge={badge} heading={heading} subtitle={subtitle} />
-        <div className="w-full max-w-[800px] mx-auto flex flex-col gap-1">
-          {items.map((block, i) => (
-            <motion.div
-              key={i}
-              className={`relative flex flex-col gap-4 py-8 px-6 rounded-2xl${i < items.length - 1 ? " border-b border-border/20" : ""}`}
-              {...cardAnim(i)}
-            >
-              {block.heading && (
-                <h3 className="text-lg md:text-xl font-medium text-heading">
-                  {block.heading}
-                </h3>
-              )}
-              <p className="text-body text-sm md:text-base leading-relaxed">
-                {parseInlineLinks(block.body)}
-              </p>
-              {block.href && (
-                <LocaleLink
-                  href={block.href}
-                  className="inline-flex items-center gap-1.5 text-sm font-medium text-accent hover:underline mt-1"
-                >
-                  {block.hrefLabel || "Learn more"}
-                  <ArrowIcon className="w-3 h-3" />
-                </LocaleLink>
-              )}
-            </motion.div>
-          ))}
+        <div className="w-full max-w-[860px] mx-auto relative rounded-3xl border border-border overflow-hidden">
+          <div className="absolute inset-0 bg-bg-card" />
+          <div
+            className="absolute inset-0"
+            style={{
+              background: "radial-gradient(ellipse at 0% 0%, rgba(123, 45, 233, 0.12) 0%, transparent 50%)",
+            }}
+          />
+          <div className="relative z-10 divide-y divide-border/30">
+            {items.map((block, i) => (
+              <motion.div
+                key={i}
+                className="flex flex-col gap-4 p-8 md:p-10"
+                {...cardAnim(i)}
+              >
+                {block.heading && (
+                  <h3 className="text-lg md:text-xl font-medium text-heading">
+                    {block.heading}
+                  </h3>
+                )}
+                <p className="text-body text-sm md:text-base leading-relaxed">
+                  {parseInlineLinks(block.body)}
+                </p>
+                {block.href && (
+                  <LocaleLink
+                    href={block.href}
+                    className="inline-flex items-center gap-1.5 text-sm font-medium text-accent hover:underline mt-1"
+                  >
+                    {block.hrefLabel || "Learn more"}
+                    <ArrowIcon className="w-3 h-3" />
+                  </LocaleLink>
+                )}
+              </motion.div>
+            ))}
+          </div>
         </div>
       </div>
     </section>
@@ -818,163 +869,84 @@ function TeamSection({
   subtitle,
   lead,
   members,
+  locale = "en",
 }: {
   badge?: string;
   heading: string;
   subtitle?: string;
   lead?: TeamMember;
   members?: TeamMember[];
+  locale?: Locale;
 }) {
+  const tpl = serviceTemplateStrings[locale];
+  /* Combine lead + members into one unified list for the grid */
+  const allMembers = [
+    ...(lead ? [lead] : []),
+    ...(members || []),
+  ];
+
   return (
     <section className="w-full px-5 md:px-10 py-20">
       <div className="mx-auto max-w-[1120px] flex flex-col items-center gap-16">
         <SectionHeader badge={badge} heading={heading} subtitle={subtitle} />
 
-        {/* ─── Featured lead ─── */}
-        {lead && (
-          <motion.div
-            className="w-full grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-10 items-center"
-            {...sectionAnim}
-          >
-            {/* Lead photo */}
-            <div className="relative rounded-3xl overflow-hidden border border-border group h-[420px] lg:h-[480px]">
-              {lead.image ? (
-                <>
-                  <Image
-                    src={lead.image}
-                    alt={lead.name}
-                    fill
-                    className="object-cover transition-transform duration-700 group-hover:scale-105"
-                    sizes="(max-width: 1024px) 100vw, 50vw"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/30 to-transparent" />
-                  {/* Accent glow at bottom */}
-                  <div
-                    className="absolute bottom-0 left-0 right-0 h-[200px] pointer-events-none"
-                    style={{
-                      background: "radial-gradient(ellipse at 50% 100%, rgba(123, 45, 233, 0.15) 0%, transparent 70%)",
-                    }}
-                  />
-                </>
+        {/* ─── 4-column team grid (like homepage Results) ─── */}
+        <div className="w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+          {allMembers.map((member, i) => (
+            <motion.div
+              key={i}
+              className="group relative rounded-3xl overflow-hidden border border-border hover:border-accent/30 transition-all duration-300 h-[380px]"
+              {...cardAnim(i)}
+            >
+              {/* Photo */}
+              {member.image ? (
+                <Image
+                  src={member.image}
+                  alt={member.name}
+                  fill
+                  className="object-cover object-top transition-transform duration-500 group-hover:scale-105"
+                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
+                />
               ) : (
                 <div className="absolute inset-0 bg-bg-card" />
               )}
-              <div className="absolute bottom-0 left-0 right-0 p-7 flex flex-col gap-1">
-                <h3 className="text-xl font-medium text-white">{lead.name}</h3>
-                <span className="text-sm font-medium text-accent">{lead.role}</span>
-              </div>
-            </div>
-
-            {/* Lead bio + details */}
-            <div className="flex flex-col gap-6">
-              <div className="flex items-center gap-3">
-                <div className="w-10 h-10 rounded-xl bg-accent/10 border border-accent/20 flex items-center justify-center">
-                  {getTeamRoleIcon(lead.role)}
-                </div>
-                <div>
-                  <p className="text-lg font-medium text-heading">{lead.name}</p>
-                  <p className="text-sm text-accent">{lead.role}</p>
-                </div>
-              </div>
-              <p className="text-body text-base leading-relaxed">{lead.bio}</p>
-              {lead.linkedin && (
-                <a
-                  href={lead.linkedin}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 text-sm font-medium text-accent hover:text-white transition-colors group/link"
-                >
-                  <div className="w-8 h-8 rounded-lg bg-accent/10 border border-accent/20 flex items-center justify-center group-hover/link:bg-accent/20 transition-colors">
-                    <LinkedInIcon size={14} />
+              {/* Gradient overlay */}
+              <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/30 to-transparent" />
+              {/* Content at bottom */}
+              <div className="absolute bottom-0 left-0 right-0 p-5 flex flex-col gap-1.5">
+                <div className="flex items-center justify-between">
+                  <div>
+                    <h3 className="text-base font-medium text-heading">{member.name}</h3>
+                    <span className="text-xs font-medium text-accent">{member.role}</span>
                   </div>
-                  Connect on LinkedIn
-                </a>
-              )}
-            </div>
-          </motion.div>
-        )}
-
-        {/* ─── Team member cards ─── */}
-        {members && members.length > 0 && (
-          <div className="w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
-            {members.map((member, i) => (
-              <motion.div
-                key={i}
-                className="relative rounded-3xl overflow-hidden border border-border group hover:border-accent/30 transition-all duration-500"
-                {...cardAnim(i)}
-              >
-                {/* Photo area */}
-                <div className="relative h-[280px] overflow-hidden">
-                  {member.image ? (
-                    <>
-                      <Image
-                        src={member.image}
-                        alt={member.name}
-                        fill
-                        className="object-cover object-top transition-transform duration-700 group-hover:scale-105"
-                        sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                      />
-                      <div className="absolute inset-0 bg-gradient-to-t from-[rgb(13,13,13)] via-black/40 to-transparent" />
-                      {/* Accent glow on hover */}
-                      <div
-                        className="absolute bottom-0 left-0 right-0 h-[120px] opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"
-                        style={{
-                          background: "radial-gradient(ellipse at 50% 100%, rgba(123, 45, 233, 0.2) 0%, transparent 70%)",
-                        }}
-                      />
-                    </>
-                  ) : (
-                    <>
-                      <div className="absolute inset-0 bg-bg-card" />
-                      <div className="absolute inset-0" style={{ background: benefitCardGradients[i % benefitCardGradients.length] }} />
-                      <div className="absolute inset-0 flex items-center justify-center">
-                        <div className="w-20 h-20 rounded-full bg-accent/10 border border-accent/20 flex items-center justify-center">
-                          <span className="text-3xl font-medium text-accent">{member.name.charAt(0)}</span>
-                        </div>
-                      </div>
-                    </>
+                  {member.linkedin && (
+                    <a
+                      href={member.linkedin}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex-shrink-0 w-8 h-8 rounded-lg bg-[rgba(13,13,13,0.56)] border border-border backdrop-blur-sm flex items-center justify-center text-accent hover:bg-accent/20 transition-colors"
+                    >
+                      <LinkedInIcon size={12} />
+                    </a>
                   )}
                 </div>
+                <p className="text-xs text-white/60 leading-relaxed line-clamp-2">{member.bio}</p>
+              </div>
+            </motion.div>
+          ))}
+        </div>
 
-                {/* Info area */}
-                <div className="relative p-5 flex flex-col gap-2 bg-[rgb(13,13,13)]">
-                  <div className="flex items-start justify-between gap-3">
-                    <div className="flex-1">
-                      <p className="text-base font-medium text-heading">{member.name}</p>
-                      <div className="flex items-center gap-2 mt-1">
-                        <span className="text-accent">{getTeamRoleIcon(member.role)}</span>
-                        <p className="text-xs font-medium text-accent">{member.role}</p>
-                      </div>
-                    </div>
-                    {member.linkedin && (
-                      <a
-                        href={member.linkedin}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="flex-shrink-0 w-8 h-8 rounded-lg bg-accent/10 border border-accent/20 flex items-center justify-center text-accent hover:bg-accent/20 transition-colors"
-                      >
-                        <LinkedInIcon size={12} />
-                      </a>
-                    )}
-                  </div>
-                  <p className="text-xs text-body leading-relaxed mt-1">{member.bio}</p>
-                </div>
-              </motion.div>
-            ))}
-          </div>
-        )}
+        <motion.div {...sectionAnim}>
+          <Button href="/team" variant="secondary" size="large">
+            {tpl.teamCta} &nbsp;&rarr;
+          </Button>
+        </motion.div>
       </div>
     </section>
   );
 }
 
-/* Case studies with glassmorphic badges & aurora gradients */
-const caseStudyGradients = [
-  "radial-gradient(ellipse at 0% 0%, rgba(123, 45, 233, 0.25) 0%, rgba(123, 45, 233, 0.04) 50%, transparent 70%)",
-  "radial-gradient(ellipse at 100% 100%, rgba(0, 170, 255, 0.2) 0%, rgba(80, 120, 255, 0.06) 50%, transparent 70%)",
-  "radial-gradient(ellipse at 100% 0%, rgba(193, 100, 230, 0.22) 0%, rgba(123, 45, 233, 0.04) 50%, transparent 70%)",
-];
-
+/* Case studies with image cards like homepage Results section */
 function CaseStudiesSection({
   badge,
   heading,
@@ -994,64 +966,87 @@ function CaseStudiesSection({
     <section className="w-full px-5 md:px-10 py-20">
       <div className="mx-auto max-w-[1120px] flex flex-col items-center gap-16">
         <SectionHeader badge={badge} heading={heading} subtitle={subtitle} />
-        <div className="w-full grid grid-cols-1 lg:grid-cols-3 gap-4">
-          {items.map((study, i) => (
-            <motion.div
-              key={i}
-              className="relative flex flex-col gap-5 p-8 rounded-3xl border border-border overflow-hidden group hover:border-accent/30 transition-all duration-300"
-              {...cardAnim(i)}
-            >
-              <div className="absolute inset-0 bg-bg-card" />
-              <div className="absolute inset-0" style={{ background: caseStudyGradients[i % caseStudyGradients.length] }} />
-              {/* Aurora glow on hover */}
-              <div
-                className="absolute -bottom-12 -right-12 w-[200px] h-[200px] rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"
-                style={{
-                  background: "radial-gradient(circle, rgba(193, 100, 230, 0.25) 0%, rgba(123, 45, 233, 0.1) 60%, transparent 100%)",
-                  filter: "blur(60px)",
-                }}
-              />
 
-              <span className="relative z-10 inline-flex self-start px-3 py-1.5 rounded-xl text-xs font-medium text-white/80 bg-[rgba(13,13,13,0.56)] border border-border backdrop-blur-sm">
-                {study.badge}
-              </span>
-              <h3 className="relative z-10 text-lg font-medium text-heading">{study.title}</h3>
-              <div className="relative z-10 flex gap-6">
-                {study.metrics.map((metric, j) => (
-                  <div key={j} className="flex flex-col gap-1">
-                    <span className="font-[family-name:var(--font-figtree)] text-[22px] md:text-[26px] font-medium text-heading">
-                      {metric.value}
-                    </span>
-                    <span className="text-xs text-body">{metric.label}</span>
-                  </div>
-                ))}
-              </div>
-              {study.quote && (
-                <blockquote className="relative z-10 text-sm text-body leading-relaxed italic border-l-2 border-accent/40 pl-4">
-                  &ldquo;{study.quote}&rdquo;
-                  {study.quoteAuthor && (
-                    <span className="block mt-2 text-xs text-body-strong not-italic font-medium">
-                      &mdash; {study.quoteAuthor}
-                    </span>
-                  )}
-                </blockquote>
-              )}
-              {study.href && (
-                <LocaleLink
-                  href={study.href}
-                  className="relative z-10 inline-flex items-center gap-1.5 text-sm font-medium text-accent hover:underline mt-auto"
+        <div className="w-full grid grid-cols-1 lg:grid-cols-3 gap-4">
+          {items.map((study, i) => {
+            const Wrapper = study.href ? LocaleLink : "div";
+            const wrapperProps = study.href ? { href: study.href } : {};
+
+            return (
+              <motion.div key={i} {...cardAnim(i)}>
+                {/* @ts-expect-error - dynamic component */}
+                <Wrapper
+                  {...wrapperProps}
+                  className="group relative flex flex-col rounded-3xl overflow-hidden border border-border hover:border-accent/30 transition-all duration-300 h-full"
                 >
-                  View case study
-                  <ArrowIcon className="w-3 h-3" />
-                </LocaleLink>
-              )}
-            </motion.div>
-          ))}
+                  {/* Image area */}
+                  {study.image && (
+                    <div className="relative h-[200px] overflow-hidden bg-white rounded-t-3xl">
+                      <Image
+                        src={study.image}
+                        alt={study.title}
+                        fill
+                        className="object-contain p-2 transition-transform duration-500 group-hover:scale-105"
+                        sizes="(max-width: 1024px) 100vw, 33vw"
+                      />
+                      {/* Badge overlay */}
+                      <div className="absolute top-3 left-3 z-10">
+                        <span className="inline-flex px-3 py-1.5 rounded-xl text-xs font-medium text-white/90 bg-[rgba(13,13,13,0.72)] border border-border backdrop-blur-sm">
+                          {study.badge}
+                        </span>
+                      </div>
+                    </div>
+                  )}
+
+                  {/* Content area */}
+                  <div className="relative flex flex-col gap-4 p-6 flex-1 bg-[rgb(13,13,13)]">
+                    {!study.image && (
+                      <span className="inline-flex self-start px-3 py-1.5 rounded-xl text-xs font-medium text-white/80 bg-[rgba(13,13,13,0.56)] border border-border backdrop-blur-sm">
+                        {study.badge}
+                      </span>
+                    )}
+                    <h3 className="text-lg font-medium text-heading">{study.title}</h3>
+
+                    {/* Metrics row */}
+                    <div className="flex flex-wrap gap-x-5 gap-y-3">
+                      {study.metrics.map((metric, j) => (
+                        <div key={j} className="flex flex-col gap-0.5">
+                          <span className="font-[family-name:var(--font-figtree)] text-[22px] md:text-[26px] font-medium text-heading">
+                            {metric.value}
+                          </span>
+                          <span className="text-xs text-body">{metric.label}</span>
+                        </div>
+                      ))}
+                    </div>
+
+                    {study.quote && (
+                      <blockquote className="text-sm text-body leading-relaxed italic border-l-2 border-accent/40 pl-4">
+                        &ldquo;{study.quote}&rdquo;
+                        {study.quoteAuthor && (
+                          <span className="block mt-2 text-xs text-body-strong not-italic font-medium">
+                            &mdash; {study.quoteAuthor}
+                          </span>
+                        )}
+                      </blockquote>
+                    )}
+
+                    {study.href && (
+                      <span className="inline-flex items-center gap-1.5 text-sm font-medium text-accent group-hover:underline mt-auto pt-2">
+                        View case study
+                        <ArrowIcon className="w-3 h-3" />
+                      </span>
+                    )}
+                  </div>
+                </Wrapper>
+              </motion.div>
+            );
+          })}
         </div>
+
         {ctaHref && (
           <motion.div {...sectionAnim}>
-            <Button href={ctaHref} variant="primary" size="large">
-              {ctaText || "View All Case Studies"}
+            <Button href={ctaHref} variant="secondary" size="large">
+              {ctaText || "View All Case Studies"} &nbsp;→
             </Button>
           </motion.div>
         )}
@@ -1164,6 +1159,7 @@ function FAQSection({
 export default function ServicePageTemplate({
   hero,
   trustBar,
+  trustBarIcon,
   sections,
   faqs,
   locale,
@@ -1173,7 +1169,7 @@ export default function ServicePageTemplate({
       <Navigation />
       <main>
         <ServiceHero {...hero} />
-        <TrustBar text={trustBar} />
+        <TrustBar text={trustBar} icon={trustBarIcon} />
         {sections.map((section, i) => {
           switch (section.type) {
             case "stats":
@@ -1255,6 +1251,7 @@ export default function ServicePageTemplate({
                   subtitle={section.subtitle}
                   lead={section.teamLead}
                   members={section.teamMembers}
+                  locale={locale}
                 />
               );
             case "caseStudies":

@@ -41,37 +41,43 @@ import { ecommerceSeoServicesData } from "./ecommerce-seo-services";
  */
 export const serviceTemplateStrings: Record<
   Locale,
-  { faqBadge: string; faqHeading: string; getInTouch: string }
+  { faqBadge: string; faqHeading: string; getInTouch: string; teamCta: string }
 > = {
   en: {
     faqBadge: "FAQs",
     faqHeading: "Frequently Asked Questions",
     getInTouch: "Get a Free Proposal",
+    teamCta: "Meet the Full Team",
   },
   de: {
     faqBadge: "FAQ",
     faqHeading: "H\u00e4ufig gestellte Fragen",
     getInTouch: "Kontakt aufnehmen",
+    teamCta: "Das gesamte Team kennenlernen",
   },
   fr: {
     faqBadge: "FAQ",
     faqHeading: "Questions fr\u00e9quemment pos\u00e9es",
     getInTouch: "Nous contacter",
+    teamCta: "D\u00e9couvrir toute l\u2019\u00e9quipe",
   },
   es: {
     faqBadge: "FAQ",
     faqHeading: "Preguntas frecuentes",
     getInTouch: "Cont\u00e1ctanos",
+    teamCta: "Conoce al equipo completo",
   },
   it: {
     faqBadge: "FAQ",
     faqHeading: "Domande frequenti",
     getInTouch: "Contattaci",
+    teamCta: "Scopri tutto il team",
   },
   nl: {
     faqBadge: "FAQ",
     faqHeading: "Veelgestelde vragen",
     getInTouch: "Neem contact op",
+    teamCta: "Ontmoet het volledige team",
   },
 };
 

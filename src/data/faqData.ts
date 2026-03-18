@@ -42,7 +42,7 @@ export const faqItems: FAQItem[] = [
   {
     question: "Is your link building safe and Google-compliant?",
     answer:
-      "We place contextual links on real publications\u2014no PBNs, no spam. Every URL appears in your sheet so you can verify quality and anchor diversity, addressing the trust gap caused by agencies that hide their link sources.",
+      "We place contextual links on real publications-no PBNs, no spam. Every URL appears in your sheet so you can verify quality and anchor diversity, addressing the trust gap caused by agencies that hide their link sources.",
   },
   {
     question: "Do I need to write content myself?",

@@ -5,21 +5,33 @@ export const ecommerceSeoData: Record<Locale, ServicePageProps> = {
   en: {
     hero: {
       badge: "Ecommerce SEO",
-      heading: "Ecommerce SEO Services That\u200BGrow Revenue \u2014 Not Just Traffic",
-      subtitle: "Most agencies chase vanity metrics. We chase sales. If your store gets visitors but not buyers, you don\u2019t have an SEO problem \u2014 you have a growth strategy problem. We fix both.",
+      heading: "Ecommerce SEO Services That\u200BGrow Revenue - Not Just Traffic",
+      subtitle: "Most agencies chase vanity metrics. We chase sales. If your store gets visitors but not buyers, you don\u2019t have an SEO problem - you have a growth strategy problem. We fix both.",
       ctaText: "Book a Free Strategy Call",
     },
     trustBar: "Trusted platforms & 7-figure results",
     sections: [
       {
+        type: "stats",
+        badge: "Track Record",
+        heading: "Ecommerce SEO Results Across 50+ Stores",
+        subtitle: "Aggregate metrics across our ecommerce SEO clients. Revenue-focused. No vanity metrics.",
+        stats: [
+          { value: "$12M+", label: "Revenue Generated for Clients" },
+          { value: "50+", label: "Ecommerce Stores Optimized" },
+          { value: "140%", label: "Avg. Organic Traffic Increase" },
+          { value: "8+", label: "Years Ecommerce-Only Focus" },
+        ],
+      },
+      {
         type: "process",
         badge: "Why Most Stores Fail",
         heading: "Most Agencies Chase Vanity Metrics. We Chase Sales.",
         process: [
-          { number: "01", title: "Wrong Intent", description: "Most agencies optimize for informational keywords (low value). We rank for transactional intent \u2014 capturing buyers exactly when they are ready to purchase." },
+          { number: "01", title: "Wrong Intent", description: "Most agencies optimize for informational keywords (low value). We rank for transactional intent, capturing buyers exactly when they are ready to purchase." },
           { number: "02", title: "Generic Categories", description: "Most category pages are just product grids. Yours should behave like landing pages built for persuasion." },
           { number: "03", title: "Technical Debt", description: "Slow load times. Crawl waste. JS rendering issues. These invisible issues quietly kill your rankings." },
-          { number: "04", title: "No CRO Layer", description: "Traffic without conversion is money left on the table. We fix both \u2014 simultaneously." },
+          { number: "04", title: "No CRO Layer", description: "Traffic without conversion is money left on the table. We fix both, simultaneously." },
         ],
       },
       {
@@ -29,7 +41,7 @@ export const ecommerceSeoData: Record<Locale, ServicePageProps> = {
         subtitle: "Most agencies apply \u201Cblog strategies\u201D to online stores. We don\u2019t. We engineer site architecture and technical foundations specifically for high-volume ecommerce.",
         benefits: [
           { title: "The Technical Foundation", description: "Faster load times, crawl waste elimination for stores with 500+ SKUs, and multi-channel synchronization with Google Merchant Center and Search Console." },
-          { title: "Category Pages That Sell", description: "Your category pages should behave like landing pages, sales pages, and SEO hubs \u2014 all at once. We build them to rank and convert." },
+          { title: "Category Pages That Sell", description: "Your category pages should behave like landing pages, sales pages, and SEO hubs - all at once. We build them to rank and convert." },
           { title: "AI & LLM Optimization", description: "Search is evolving. We ensure your brand and products are recommended by the next generation of search engines: AI Overviews, ChatGPT, and AI Agents." },
           { title: "Revenue-First Content", description: "Every piece of content we create targets commercial intent. Buying guides, comparison pages, and product content that drives revenue, not just traffic." },
           { title: "Scalable Processes", description: "With thousands of SKUs, manual optimization is impossible. We build automated workflows for title tags, meta descriptions, and structured data at scale." },
@@ -56,21 +68,185 @@ export const ecommerceSeoData: Record<Locale, ServicePageProps> = {
           { number: "01", title: "Foundation", description: "Technical audit, crawl optimization, speed fixes, and structured data. The boring stuff that makes everything else work." },
           { number: "02", title: "Growth", description: "Category page optimization, content strategy, and internal linking architecture. Building the engine that drives organic revenue." },
           { number: "03", title: "Scale", description: "Authority building, competitive gap targeting, and AI search optimization. Compounding growth that makes you the market leader." },
-          { number: "04", title: "Dominate", description: "Continuous optimization, new market expansion, and defensive SEO. Protecting and extending your organic market share." },
+          { number: "04", title: "Defend & Expand", description: "Continuous optimization, new market expansion, and defensive SEO. Protecting and extending your organic market share." },
+        ],
+      },
+      {
+        type: "caseStudies",
+        badge: "Case Studies",
+        heading: "Ecommerce Brands We've Scaled With SEO",
+        subtitle: "Recent client results from our ecommerce SEO work.",
+        caseStudies: [
+          {
+            badge: "Fashion · Shopify",
+            title: "Fashion Brand, 3x Organic Revenue in 12 Months",
+            image: "/images/framer/QtPNuhsKVZNt3klckPPtQzUuW0.png",
+            metrics: [
+              { value: "3x", label: "Organic Revenue" },
+              { value: "+210%", label: "Organic Traffic" },
+              { value: "12 mo", label: "Timeframe" },
+            ],
+            quote: "EcomSEO understood that rankings mean nothing without conversions. They optimized our category pages, fixed our technical debt, and tripled our organic revenue in a year.",
+            quoteAuthor: "Head of Digital, Fashion Ecommerce Brand",
+            href: "/cases",
+          },
+          {
+            badge: "Health & Wellness · WooCommerce",
+            title: "Health Brand, From Page 3 to Page 1 for Core Keywords",
+            image: "/images/framer/dsId62uNnnWBWAr5Vi1Z5UqiQ.png",
+            metrics: [
+              { value: "Page 1", label: "Core Commercial Keywords" },
+              { value: "+340%", label: "Organic Revenue" },
+              { value: "9 mo", label: "Timeframe" },
+            ],
+            quote: "We went from invisible to dominating our category. The revenue impact was immediate once rankings moved, because they targeted buyer intent, not vanity keywords.",
+            quoteAuthor: "Founder, DTC Health Brand",
+            href: "/cases",
+          },
+        ],
+        ctaText: "View All Case Studies",
+        ctaHref: "/cases",
+      },
+      {
+        type: "tips",
+        badge: "Expert Insights",
+        heading: "7 Ecommerce SEO Tips That Actually Drive Revenue",
+        subtitle: "After optimizing 50+ online stores, these are the highest-impact actions we recommend, starting with the ones most agencies ignore.",
+        tips: [
+          {
+            number: "01",
+            title: "Treat Category Pages Like Landing Pages",
+            body: "Your category pages drive the majority of ecommerce organic revenue, not blog posts, not product pages. Add 300-500 words of unique, keyword-targeted content above and below the product grid. Include buying guidance, key differentiators, and internal links to subcategories. According to our data, category pages with optimized content rank for 3-5x more keywords than product-grid-only pages.",
+            href: "/academy/category-page-seo",
+            hrefLabel: "Category page SEO guide",
+          },
+          {
+            number: "02",
+            title: "Fix Crawl Waste Before Adding Content",
+            body: "Most ecommerce stores waste 40-60% of their crawl budget on faceted navigation, parameterized URLs, and out-of-stock product pages. Before investing in content, audit your crawl logs. Block low-value URLs, consolidate variants with canonicals, and ensure Google spends its crawl budget on your money pages.",
+          },
+          {
+            number: "03",
+            title: "Target Commercial Intent, Not Informational",
+            body: "Stop chasing 'what is [product type]' keywords. Target 'best [product type]', 'buy [product type] online', and '[product type] for [use case]', these are the queries from people ready to purchase. Match your content format to the SERP intent: if Google shows product grids, optimize your category page, not a blog post.",
+            href: "/keyword-research",
+            hrefLabel: "Keyword research services",
+          },
+          {
+            number: "04",
+            title: "Implement Complete Product Schema",
+            body: "Product schema with price, availability, aggregate ratings, and review count is table stakes for ecommerce. Go further: add brand, SKU, GTIN, and offers markup. Rich results with star ratings and price increase click-through rates by 20-30% compared to plain blue links.",
+            href: "/tools/schema-validator",
+            hrefLabel: "Validate your schema",
+          },
+          {
+            number: "05",
+            title: "Build Internal Linking Architecture Around Revenue",
+            body: "Link from high-authority pages (homepage, popular blog posts) to your highest-revenue category pages. Create content hubs that funnel authority to commercial pages. The goal is simple: your money pages should be the most internally-linked pages on your site.",
+          },
+          {
+            number: "06",
+            title: "Optimize for AI Overviews and LLM Search",
+            body: "Google's AI Overviews now appear on 30%+ of commercial queries. Structure your content for AI citation: use clear headings, numbered lists, definition paragraphs, and FAQ schema. Ensure your brand is mentioned in the context AI models pull from, this is the new battleground for ecommerce visibility.",
+          },
+          {
+            number: "07",
+            title: "Measure Revenue Attribution, Not Just Rankings",
+            body: "Rankings are a leading indicator, not the goal. Set up proper revenue attribution: track organic revenue by landing page, monitor assisted conversions from SEO content, and calculate organic customer lifetime value. This data drives smarter optimization decisions and proves ROI to stakeholders.",
+          },
+        ],
+      },
+      {
+        type: "richText",
+        badge: "Ecommerce SEO Strategy",
+        heading: "Why Ecommerce SEO Is Different From Everything Else",
+        subtitle: "The strategies that work for blogs, SaaS, and local businesses don't work for online stores. Here's why ecommerce needs a specialist.",
+        richTextBlocks: [
+          {
+            heading: "Scale Changes Everything",
+            body: "An ecommerce store with 5,000 products faces fundamentally different SEO challenges than a 50-page SaaS website. Crawl budget management, faceted navigation, product variant canonicalization, seasonal inventory changes, and structured data at scale all require specialized expertise. Generic SEO playbooks break down at ecommerce scale, you need systems and automation built for catalogs, not content sites.",
+          },
+          {
+            heading: "Revenue Is the Only Metric That Matters",
+            body: "Most SEO agencies report on traffic and rankings. We report on revenue. Every optimization we make is tied to a revenue goal, from the category pages we prioritize to the keywords we target. We've seen stores with 100,000 monthly organic visitors generating less revenue than stores with 20,000 visitors targeting the right commercial intent. Traffic without purchase intent is just expensive server load.",
+          },
+        ],
+      },
+      {
+        type: "richText",
+        badge: "AI & Future",
+        heading: "Ecommerce SEO in the Age of AI Search",
+        subtitle: "Search is evolving. Here's how we future-proof your organic revenue.",
+        richTextBlocks: [
+          {
+            heading: "AI Overviews, ChatGPT, and LLM Search",
+            body: "Google's AI Overviews, ChatGPT web search, and Perplexity are changing how consumers discover products. We optimize your store for both traditional rankings and AI citation, ensuring your products appear in AI-generated recommendations, shopping comparisons, and answer boxes. This includes structured data optimization, content formatting for AI extraction, and brand authority signals that make LLMs recommend your products.",
+          },
+        ],
+      },
+      {
+        type: "team",
+        badge: "The Team",
+        heading: "Who Does the Work",
+        teamLead: {
+          name: "Fabian van Til",
+          role: "Strategy & Innovation",
+          bio: "Fabian runs the SEO strategy for every client. 8 years of ecommerce-only SEO across fashion, health, beauty, toys, and electronics. He built the Commerce Growth Framework\u2122 that has driven $12M+ in organic revenue for clients.",
+          image: "/images/framer/C23VbBxvj2kY5TMoXAJHXWVLaA.webp",
+          linkedin: "https://www.linkedin.com/in/fabianvantil/",
+        },
+        teamMembers: [
+          {
+            name: "Dimitar Georgiev",
+            role: "Technical & On-Page SEO",
+            bio: "Dimitar handles technical and on-page SEO for ecommerce stores of all sizes. He works on crawl optimization for large catalogs, structured data at scale, Core Web Vitals, and site architecture for stores with 500-100,000+ SKUs. He also builds the free SEO tools on this site.",
+            image: "/images/framer/Q3tfuu2ytPAotONsFoP1ouyPZic.png",
+            linkedin: "https://www.linkedin.com/in/dimitar-georgiev-seo/",
+          },
+          {
+            name: "Martinijan Trajkovski",
+            role: "Off-Page & Link Building",
+            bio: "Martinijan runs link acquisition and digital PR for ecommerce brands. He earns authority through product review placements, industry publication outreach, and partnerships that drive both referral traffic and domain authority.",
+            image: "/images/framer/CBAq5E76Hb1mj6ehAOixPYBjN1w.png",
+            linkedin: "https://mk.linkedin.com/in/martinijan-trajkovski-7678b6bb",
+          },
+          {
+            name: "Gjorgi Jovev",
+            role: "Content, Link Building & PR",
+            bio: "Gjorgi writes the content and runs link building and PR campaigns. He handles category page optimization, buying guides, comparison content, editorial calendars timed to seasonal demand, and outreach to earn backlinks from relevant publications.",
+            image: "/images/framer/gjorgi-jovev.png",
+            linkedin: "https://www.linkedin.com/in/gjorgi-jovev/",
+          },
+        ],
+      },
+      {
+        type: "deliverables",
+        badge: "Deliverables",
+        heading: "What We Deliver Every Month",
+        subtitle: "Transparent reporting and tangible outputs tied directly to your revenue goals. No fluff. No vanity metrics.",
+        deliverables: [
+          { title: "Technical Audit & Fixes", description: "Full crawl analysis, Core Web Vitals optimization, and structured data implementation" },
+          { title: "Category Page Optimization", description: "Revenue-driving category pages with unique content, internal links, and conversion elements" },
+          { title: "Content Strategy & Creation", description: "Buying guides, comparison content, and product pages targeting commercial intent keywords" },
+          { title: "Schema Markup", description: "Product, FAQ, breadcrumb, and organization JSON-LD, validated and monitored" },
+          { title: "Link Building", description: "Quality backlinks from industry publications, product review sites, and relevant domains" },
+          { title: "AI Search Optimization", description: "Content structured for AI Overviews, ChatGPT, and LLM citation" },
+          { title: "Monthly Revenue Report", description: "Organic revenue attribution, rankings, traffic quality metrics, and strategic recommendations" },
+          { title: "Strategy Call", description: "Monthly 30-min call to review progress, align priorities, and plan next moves" },
         ],
       },
     ],
     faqs: {
       items: [
-        { question: "How can I improve the SEO of my ecommerce website?", answer: "Focus on the technical foundation first \u2014 site speed, crawlability, and structured data. Then optimize category pages for commercial intent keywords, create revenue-driving content, and build authoritative backlinks. Read our [complete ecommerce SEO guide](/blog/ecommerce-seo) for a detailed breakdown of each step." },
+        { question: "How can I improve the SEO of my ecommerce website?", answer: "Focus on the technical foundation first - site speed, crawlability, and structured data. Then optimize category pages for commercial intent keywords, create revenue-driving content, and build authoritative backlinks. Read our [complete ecommerce SEO guide](/blog/ecommerce-seo) for a detailed breakdown of each step." },
         { question: "Why should I invest in SEO services for ecommerce?", answer: "SEO is an investment in equity, whereas PPC is an expense (rent). If you stop paying for ads, your traffic drops to zero instantly. With SEO, you\u2019re building a digital asset that continues to drive revenue, lowering your blended Customer Acquisition Cost and increasing profitability." },
-        { question: "How long does it take to see results?", answer: "3\u20136 months for measurable uplifts. 6\u201312 months for market dominance. Technical fixes can show impact within weeks, while content and authority building compound over time." },
-        { question: "What platforms do you work with?", answer: "Shopify, WooCommerce, Magento, BigCommerce, Lightspeed, Adobe Commerce \u2014 we\u2019ve ranked stores on every major ecommerce platform. Our strategies are platform-agnostic but our implementation is platform-specific." },
-        { question: "What makes your approach different from other SEO agencies?", answer: "We only work with ecommerce. Every playbook, every template, every audit is built for product catalogs and revenue \u2014 not blog traffic. We measure success in revenue attribution, not just keyword rankings. See our [ecommerce SEO strategy framework](/blog/ecommerce-seo-strategy) for more on our methodology." },
+        { question: "How long does it take to see results?", answer: "3-6 months for measurable uplifts. 6-12 months for market dominance. Technical fixes can show impact within weeks, while content and authority building compound over time." },
+        { question: "What platforms do you work with?", answer: "Shopify, WooCommerce, Magento, BigCommerce, Lightspeed, Adobe Commerce - we\u2019ve ranked stores on every major ecommerce platform. Our strategies are platform-agnostic but our implementation is platform-specific." },
+        { question: "What makes your approach different from other SEO agencies?", answer: "We only work with ecommerce. Every playbook, every template, every audit is built for product catalogs and revenue - not blog traffic. We measure success in revenue attribution, not just keyword rankings. See our [ecommerce SEO strategy framework](/blog/ecommerce-seo-strategy) for more on our methodology." },
         { question: "Do you offer a free audit?", answer: "Yes. We offer a complimentary ecommerce SEO audit that identifies your biggest opportunities and technical issues. Learn more about [what an ecommerce SEO audit covers](/blog/ecommerce-seo-audit), then book a call and we\u2019ll show you exactly what\u2019s holding your store back." },
       ],
       miniCta: {
-        heading: "Ready to 2\u20134\u00D7 Your Ecommerce Revenue?",
+        heading: "Ready to 2-4\u00D7 Your Ecommerce Revenue?",
         subtitle: "Book a call today and start growing. We\u2019ll show you exactly where you\u2019re leaving money on the table.",
       },
     },
@@ -78,8 +254,8 @@ export const ecommerceSeoData: Record<Locale, ServicePageProps> = {
   de: {
     hero: {
       badge: "E-Commerce SEO",
-      heading: "E-Commerce SEO, das Umsatz steigert \u2014 nicht nur Traffic",
-      subtitle: "Die meisten Agenturen jagen Eitelkeitskennzahlen hinterher. Wir jagen Umsatz. Wenn Ihr Shop Besucher bekommt, aber keine K\u00e4ufer, haben Sie kein SEO-Problem \u2014 Sie haben ein Wachstumsproblem. Wir l\u00f6sen beides.",
+      heading: "E-Commerce SEO, das Umsatz steigert - nicht nur Traffic",
+      subtitle: "Die meisten Agenturen jagen Eitelkeitskennzahlen hinterher. Wir jagen Umsatz. Wenn Ihr Shop Besucher bekommt, aber keine K\u00e4ufer, haben Sie kein SEO-Problem - Sie haben ein Wachstumsproblem. Wir l\u00f6sen beides.",
       ctaText: "Kostenloses Strategiegespr\u00e4ch buchen",
     },
     trustBar: "Vertrauensw\u00fcrdige Plattformen & 7-stellige Ergebnisse",
@@ -89,10 +265,10 @@ export const ecommerceSeoData: Record<Locale, ServicePageProps> = {
         badge: "Warum die meisten Shops scheitern",
         heading: "Die meisten Agenturen jagen Eitelkeitskennzahlen. Wir jagen Umsatz.",
         process: [
-          { number: "01", title: "Falsche Suchintention", description: "Die meisten Agenturen optimieren f\u00fcr informationelle Keywords (geringer Wert). Wir ranken f\u00fcr transaktionale Suchintention \u2014 und erreichen K\u00e4ufer genau dann, wenn sie bereit sind zu kaufen." },
+          { number: "01", title: "Falsche Suchintention", description: "Die meisten Agenturen optimieren f\u00fcr informationelle Keywords (geringer Wert). Wir ranken f\u00fcr transaktionale Suchintention - und erreichen K\u00e4ufer genau dann, wenn sie bereit sind zu kaufen." },
           { number: "02", title: "Generische Kategorien", description: "Die meisten Kategorieseiten sind nur Produktraster. Ihre sollten sich wie Landingpages verhalten, die zum Kauf \u00fcberzeugen." },
           { number: "03", title: "Technische Schulden", description: "Langsame Ladezeiten. Verschwendetes Crawl-Budget. JS-Rendering-Probleme. Diese unsichtbaren Probleme zerst\u00f6ren leise Ihre Rankings." },
-          { number: "04", title: "Keine CRO-Ebene", description: "Traffic ohne Conversion ist verschenktes Geld. Wir optimieren beides \u2014 gleichzeitig." },
+          { number: "04", title: "Keine CRO-Ebene", description: "Traffic ohne Conversion ist verschenktes Geld. Wir optimieren beides - gleichzeitig." },
         ],
       },
       {
@@ -104,7 +280,7 @@ export const ecommerceSeoData: Record<Locale, ServicePageProps> = {
           { title: "Das technische Fundament", description: "Schnellere Ladezeiten, Crawl-Budget-Optimierung f\u00fcr Shops mit 500+ SKUs und Multi-Channel-Synchronisation mit Google Merchant Center und Search Console." },
           { title: "Kategorieseiten, die verkaufen", description: "Ihre Kategorieseiten sollten gleichzeitig als Landingpages, Verkaufsseiten und SEO-Hubs funktionieren. Wir bauen sie so, dass sie ranken und konvertieren." },
           { title: "KI- & LLM-Optimierung", description: "Suche entwickelt sich weiter. Wir stellen sicher, dass Ihre Marke und Produkte von der n\u00e4chsten Generation der Suchmaschinen empfohlen werden: AI Overviews, ChatGPT und KI-Agenten." },
-          { title: "Umsatzorientierter Content", description: "Jeder Content, den wir erstellen, zielt auf kommerzielle Suchintention ab. Kaufratgeber, Vergleichsseiten und Produktcontent, der Umsatz treibt \u2014 nicht nur Traffic." },
+          { title: "Umsatzorientierter Content", description: "Jeder Content, den wir erstellen, zielt auf kommerzielle Suchintention ab. Kaufratgeber, Vergleichsseiten und Produktcontent, der Umsatz treibt - nicht nur Traffic." },
           { title: "Skalierbare Prozesse", description: "Bei Tausenden von SKUs ist manuelle Optimierung unm\u00f6glich. Wir bauen automatisierte Workflows f\u00fcr Title-Tags, Meta-Beschreibungen und strukturierte Daten im gro\u00dfen Ma\u00dfstab." },
           { title: "Conversion-Optimierung", description: "Rankings bedeuten nichts, wenn Besucher nicht kaufen. Wir optimieren von Google bis zum Checkout und verbessern sowohl Traffic-Qualit\u00e4t als auch Conversion-Raten." },
         ],
@@ -135,11 +311,11 @@ export const ecommerceSeoData: Record<Locale, ServicePageProps> = {
     ],
     faqs: {
       items: [
-        { question: "Wie kann ich die SEO meines E-Commerce-Shops verbessern?", answer: "Konzentrieren Sie sich zuerst auf das technische Fundament \u2014 Seitengeschwindigkeit, Crawlbarkeit und strukturierte Daten. Dann optimieren Sie Kategorieseiten f\u00fcr kommerzielle Keywords, erstellen umsatzorientierten Content und bauen autorit\u00e4re Backlinks auf. Lesen Sie unseren [vollst\u00e4ndigen E-Commerce-SEO-Leitfaden](/blog/ecommerce-seo) f\u00fcr eine detaillierte Aufschl\u00fcsselung jedes Schritts." },
+        { question: "Wie kann ich die SEO meines E-Commerce-Shops verbessern?", answer: "Konzentrieren Sie sich zuerst auf das technische Fundament - Seitengeschwindigkeit, Crawlbarkeit und strukturierte Daten. Dann optimieren Sie Kategorieseiten f\u00fcr kommerzielle Keywords, erstellen umsatzorientierten Content und bauen autorit\u00e4re Backlinks auf. Lesen Sie unseren [vollst\u00e4ndigen E-Commerce-SEO-Leitfaden](/blog/ecommerce-seo) f\u00fcr eine detaillierte Aufschl\u00fcsselung jedes Schritts." },
         { question: "Warum sollte ich in SEO-Dienstleistungen f\u00fcr E-Commerce investieren?", answer: "SEO ist eine Investition in Eigenkapital, w\u00e4hrend PPC eine Ausgabe (Miete) ist. Wenn Sie aufh\u00f6ren, f\u00fcr Anzeigen zu zahlen, f\u00e4llt Ihr Traffic sofort auf null. Mit SEO bauen Sie ein digitales Asset auf, das weiterhin Umsatz generiert und Ihre Kundenakquisitionskosten senkt." },
-        { question: "Wie lange dauert es, bis man Ergebnisse sieht?", answer: "3\u20136 Monate f\u00fcr messbare Verbesserungen. 6\u201312 Monate f\u00fcr Marktdominanz. Technische Fixes k\u00f6nnen innerhalb von Wochen Wirkung zeigen, w\u00e4hrend Content und Autorit\u00e4tsaufbau sich \u00fcber die Zeit potenzieren." },
-        { question: "Mit welchen Plattformen arbeiten Sie?", answer: "Shopify, WooCommerce, Magento, BigCommerce, Lightspeed, Adobe Commerce \u2014 wir haben Shops auf jeder gro\u00dfen E-Commerce-Plattform gerankt. Unsere Strategien sind plattformunabh\u00e4ngig, aber unsere Umsetzung ist plattformspezifisch." },
-        { question: "Was unterscheidet Ihren Ansatz von anderen SEO-Agenturen?", answer: "Wir arbeiten ausschlie\u00dflich mit E-Commerce. Jedes Playbook, jede Vorlage, jedes Audit ist f\u00fcr Produktkataloge und Umsatz gebaut \u2014 nicht f\u00fcr Blog-Traffic. Wir messen Erfolg an Umsatzzuordnung, nicht nur an Keyword-Rankings. Sehen Sie unser [E-Commerce-SEO-Strategie-Framework](/blog/ecommerce-seo-strategy) f\u00fcr mehr zu unserer Methodik." },
+        { question: "Wie lange dauert es, bis man Ergebnisse sieht?", answer: "3-6 Monate f\u00fcr messbare Verbesserungen. 6-12 Monate f\u00fcr Marktdominanz. Technische Fixes k\u00f6nnen innerhalb von Wochen Wirkung zeigen, w\u00e4hrend Content und Autorit\u00e4tsaufbau sich \u00fcber die Zeit potenzieren." },
+        { question: "Mit welchen Plattformen arbeiten Sie?", answer: "Shopify, WooCommerce, Magento, BigCommerce, Lightspeed, Adobe Commerce - wir haben Shops auf jeder gro\u00dfen E-Commerce-Plattform gerankt. Unsere Strategien sind plattformunabh\u00e4ngig, aber unsere Umsetzung ist plattformspezifisch." },
+        { question: "Was unterscheidet Ihren Ansatz von anderen SEO-Agenturen?", answer: "Wir arbeiten ausschlie\u00dflich mit E-Commerce. Jedes Playbook, jede Vorlage, jedes Audit ist f\u00fcr Produktkataloge und Umsatz gebaut - nicht f\u00fcr Blog-Traffic. Wir messen Erfolg an Umsatzzuordnung, nicht nur an Keyword-Rankings. Sehen Sie unser [E-Commerce-SEO-Strategie-Framework](/blog/ecommerce-seo-strategy) f\u00fcr mehr zu unserer Methodik." },
         { question: "Bieten Sie ein kostenloses Audit an?", answer: "Ja. Wir bieten ein kostenloses E-Commerce-SEO-Audit, das Ihre gr\u00f6\u00dften Chancen und technischen Probleme identifiziert. Erfahren Sie mehr dar\u00fcber, [was ein E-Commerce-SEO-Audit umfasst](/blog/ecommerce-seo-audit), dann buchen Sie ein Gespr\u00e4ch und wir zeigen Ihnen genau, was Ihren Shop zur\u00fckh\u00e4lt." },
       ],
       miniCta: {
@@ -151,8 +327,8 @@ export const ecommerceSeoData: Record<Locale, ServicePageProps> = {
   fr: {
     hero: {
       badge: "SEO E-commerce",
-      heading: "SEO E-commerce qui g\u00e9n\u00e8re du chiffre d\u2019affaires \u2014 pas juste du trafic",
-      subtitle: "La plupart des agences courent apr\u00e8s des m\u00e9triques de vanit\u00e9. Nous courons apr\u00e8s les ventes. Si votre boutique attire des visiteurs mais pas des acheteurs, vous n\u2019avez pas un probl\u00e8me SEO \u2014 vous avez un probl\u00e8me de strat\u00e9gie de croissance. Nous r\u00e9solvons les deux.",
+      heading: "SEO E-commerce qui g\u00e9n\u00e8re du chiffre d\u2019affaires - pas juste du trafic",
+      subtitle: "La plupart des agences courent apr\u00e8s des m\u00e9triques de vanit\u00e9. Nous courons apr\u00e8s les ventes. Si votre boutique attire des visiteurs mais pas des acheteurs, vous n\u2019avez pas un probl\u00e8me SEO - vous avez un probl\u00e8me de strat\u00e9gie de croissance. Nous r\u00e9solvons les deux.",
       ctaText: "R\u00e9server un appel strat\u00e9gique gratuit",
     },
     trustBar: "Plateformes de confiance & r\u00e9sultats \u00e0 7 chiffres",
@@ -162,10 +338,10 @@ export const ecommerceSeoData: Record<Locale, ServicePageProps> = {
         badge: "Pourquoi la plupart des boutiques \u00e9chouent",
         heading: "La plupart des agences courent apr\u00e8s les m\u00e9triques de vanit\u00e9. Nous courons apr\u00e8s les ventes.",
         process: [
-          { number: "01", title: "Mauvaise intention", description: "La plupart des agences optimisent pour des mots-cl\u00e9s informationnels (faible valeur). Nous positionnons sur l\u2019intention transactionnelle \u2014 en captant les acheteurs au moment exact o\u00f9 ils sont pr\u00eats \u00e0 acheter." },
+          { number: "01", title: "Mauvaise intention", description: "La plupart des agences optimisent pour des mots-cl\u00e9s informationnels (faible valeur). Nous positionnons sur l\u2019intention transactionnelle - en captant les acheteurs au moment exact o\u00f9 ils sont pr\u00eats \u00e0 acheter." },
           { number: "02", title: "Cat\u00e9gories g\u00e9n\u00e9riques", description: "La plupart des pages cat\u00e9gories ne sont que des grilles de produits. Les v\u00f4tres devraient fonctionner comme des pages de vente con\u00e7ues pour convertir." },
           { number: "03", title: "Dette technique", description: "Temps de chargement lents. Gaspillage de crawl. Probl\u00e8mes de rendu JS. Ces probl\u00e8mes invisibles tuent silencieusement vos classements." },
-          { number: "04", title: "Pas de couche CRO", description: "Du trafic sans conversion, c\u2019est de l\u2019argent laiss\u00e9 sur la table. Nous optimisons les deux \u2014 simultan\u00e9ment." },
+          { number: "04", title: "Pas de couche CRO", description: "Du trafic sans conversion, c\u2019est de l\u2019argent laiss\u00e9 sur la table. Nous optimisons les deux - simultan\u00e9ment." },
         ],
       },
       {
@@ -175,7 +351,7 @@ export const ecommerceSeoData: Record<Locale, ServicePageProps> = {
         subtitle: "La plupart des agences appliquent des \u00ab strat\u00e9gies de blog \u00bb aux boutiques en ligne. Pas nous. Nous concevons l\u2019architecture et les fondations techniques sp\u00e9cifiquement pour le e-commerce \u00e0 fort volume.",
         benefits: [
           { title: "Les fondations techniques", description: "Temps de chargement plus rapides, \u00e9limination du gaspillage de crawl pour les boutiques avec 500+ r\u00e9f\u00e9rences, et synchronisation multi-canal avec Google Merchant Center et Search Console." },
-          { title: "Des pages cat\u00e9gories qui vendent", description: "Vos pages cat\u00e9gories doivent fonctionner comme des landing pages, des pages de vente et des hubs SEO \u2014 en m\u00eame temps. Nous les construisons pour ranker et convertir." },
+          { title: "Des pages cat\u00e9gories qui vendent", description: "Vos pages cat\u00e9gories doivent fonctionner comme des landing pages, des pages de vente et des hubs SEO - en m\u00eame temps. Nous les construisons pour ranker et convertir." },
           { title: "Optimisation IA & LLM", description: "La recherche \u00e9volue. Nous veillons \u00e0 ce que votre marque et vos produits soient recommand\u00e9s par la nouvelle g\u00e9n\u00e9ration de moteurs de recherche : AI Overviews, ChatGPT et agents IA." },
           { title: "Contenu orient\u00e9 revenus", description: "Chaque contenu que nous cr\u00e9ons cible l\u2019intention commerciale. Guides d\u2019achat, pages de comparaison et contenu produit qui g\u00e9n\u00e8re du chiffre d\u2019affaires, pas juste du trafic." },
           { title: "Processus scalables", description: "Avec des milliers de r\u00e9f\u00e9rences, l\u2019optimisation manuelle est impossible. Nous construisons des workflows automatis\u00e9s pour les title tags, m\u00e9ta-descriptions et donn\u00e9es structur\u00e9es \u00e0 grande \u00e9chelle." },
@@ -208,11 +384,11 @@ export const ecommerceSeoData: Record<Locale, ServicePageProps> = {
     ],
     faqs: {
       items: [
-        { question: "Comment am\u00e9liorer le SEO de mon site e-commerce ?", answer: "Concentrez-vous d\u2019abord sur les fondations techniques \u2014 vitesse du site, crawlabilit\u00e9 et donn\u00e9es structur\u00e9es. Ensuite, optimisez les pages cat\u00e9gories pour les mots-cl\u00e9s \u00e0 intention commerciale, cr\u00e9ez du contenu qui g\u00e9n\u00e8re des revenus et construisez des backlinks de qualit\u00e9. Consultez notre [guide complet du SEO ecommerce](/blog/ecommerce-seo) pour un d\u00e9coupage d\u00e9taill\u00e9 de chaque \u00e9tape." },
+        { question: "Comment am\u00e9liorer le SEO de mon site e-commerce ?", answer: "Concentrez-vous d\u2019abord sur les fondations techniques - vitesse du site, crawlabilit\u00e9 et donn\u00e9es structur\u00e9es. Ensuite, optimisez les pages cat\u00e9gories pour les mots-cl\u00e9s \u00e0 intention commerciale, cr\u00e9ez du contenu qui g\u00e9n\u00e8re des revenus et construisez des backlinks de qualit\u00e9. Consultez notre [guide complet du SEO ecommerce](/blog/ecommerce-seo) pour un d\u00e9coupage d\u00e9taill\u00e9 de chaque \u00e9tape." },
         { question: "Pourquoi investir dans des services SEO pour le e-commerce ?", answer: "Le SEO est un investissement dans un actif, alors que le PPC est une d\u00e9pense (un loyer). Si vous arr\u00eatez de payer pour les publicit\u00e9s, votre trafic tombe \u00e0 z\u00e9ro imm\u00e9diatement. Avec le SEO, vous construisez un actif digital qui continue \u00e0 g\u00e9n\u00e9rer des revenus et r\u00e9duit votre co\u00fbt d\u2019acquisition client." },
         { question: "Combien de temps faut-il pour voir des r\u00e9sultats ?", answer: "3 \u00e0 6 mois pour des am\u00e9liorations mesurables. 6 \u00e0 12 mois pour la domination du march\u00e9. Les corrections techniques peuvent montrer leur impact en quelques semaines, tandis que le contenu et la construction d\u2019autorit\u00e9 se composent au fil du temps." },
-        { question: "Avec quelles plateformes travaillez-vous ?", answer: "Shopify, WooCommerce, Magento, BigCommerce, Lightspeed, Adobe Commerce \u2014 nous avons positionn\u00e9 des boutiques sur toutes les grandes plateformes e-commerce. Nos strat\u00e9gies sont agnostiques de plateforme, mais notre mise en \u0153uvre est sp\u00e9cifique \u00e0 chaque plateforme." },
-        { question: "Qu\u2019est-ce qui diff\u00e9rencie votre approche des autres agences SEO ?", answer: "Nous travaillons exclusivement avec le e-commerce. Chaque playbook, chaque template, chaque audit est con\u00e7u pour les catalogues produits et le chiffre d\u2019affaires \u2014 pas pour le trafic de blog. Nous mesurons le succ\u00e8s en attribution de revenus, pas seulement en classements de mots-cl\u00e9s. Consultez notre [framework de strat\u00e9gie SEO ecommerce](/blog/ecommerce-seo-strategy) pour en savoir plus sur notre m\u00e9thodologie." },
+        { question: "Avec quelles plateformes travaillez-vous ?", answer: "Shopify, WooCommerce, Magento, BigCommerce, Lightspeed, Adobe Commerce - nous avons positionn\u00e9 des boutiques sur toutes les grandes plateformes e-commerce. Nos strat\u00e9gies sont agnostiques de plateforme, mais notre mise en \u0153uvre est sp\u00e9cifique \u00e0 chaque plateforme." },
+        { question: "Qu\u2019est-ce qui diff\u00e9rencie votre approche des autres agences SEO ?", answer: "Nous travaillons exclusivement avec le e-commerce. Chaque playbook, chaque template, chaque audit est con\u00e7u pour les catalogues produits et le chiffre d\u2019affaires - pas pour le trafic de blog. Nous mesurons le succ\u00e8s en attribution de revenus, pas seulement en classements de mots-cl\u00e9s. Consultez notre [framework de strat\u00e9gie SEO ecommerce](/blog/ecommerce-seo-strategy) pour en savoir plus sur notre m\u00e9thodologie." },
         { question: "Proposez-vous un audit gratuit ?", answer: "Oui. Nous proposons un audit SEO e-commerce gratuit qui identifie vos plus grandes opportunit\u00e9s et probl\u00e8mes techniques. D\u00e9couvrez [ce que couvre un audit SEO ecommerce](/blog/ecommerce-seo-audit), puis r\u00e9servez un appel et nous vous montrerons exactement ce qui freine votre boutique." },
       ],
       miniCta: {
@@ -224,8 +400,8 @@ export const ecommerceSeoData: Record<Locale, ServicePageProps> = {
   es: {
     hero: {
       badge: "SEO E-commerce",
-      heading: "SEO E-commerce que genera ingresos \u2014 no solo tr\u00e1fico",
-      subtitle: "La mayor\u00eda de agencias persiguen m\u00e9tricas de vanidad. Nosotros perseguimos ventas. Si tu tienda recibe visitantes pero no compradores, no tienes un problema de SEO \u2014 tienes un problema de estrategia de crecimiento. Solucionamos ambos.",
+      heading: "SEO E-commerce que genera ingresos - no solo tr\u00e1fico",
+      subtitle: "La mayor\u00eda de agencias persiguen m\u00e9tricas de vanidad. Nosotros perseguimos ventas. Si tu tienda recibe visitantes pero no compradores, no tienes un problema de SEO - tienes un problema de estrategia de crecimiento. Solucionamos ambos.",
       ctaText: "Reservar llamada estrat\u00e9gica gratuita",
     },
     trustBar: "Plataformas de confianza y resultados de 7 cifras",
@@ -235,10 +411,10 @@ export const ecommerceSeoData: Record<Locale, ServicePageProps> = {
         badge: "Por qu\u00e9 la mayor\u00eda fracasa",
         heading: "La mayor\u00eda de agencias persiguen m\u00e9tricas de vanidad. Nosotros perseguimos ventas.",
         process: [
-          { number: "01", title: "Intenci\u00f3n equivocada", description: "La mayor\u00eda de agencias optimizan para palabras clave informativas (bajo valor). Nosotros posicionamos para intenci\u00f3n transaccional \u2014 captando compradores justo cuando est\u00e1n listos para comprar." },
+          { number: "01", title: "Intenci\u00f3n equivocada", description: "La mayor\u00eda de agencias optimizan para palabras clave informativas (bajo valor). Nosotros posicionamos para intenci\u00f3n transaccional - captando compradores justo cuando est\u00e1n listos para comprar." },
           { number: "02", title: "Categor\u00edas gen\u00e9ricas", description: "La mayor\u00eda de p\u00e1ginas de categor\u00eda son solo cuadr\u00edculas de productos. Las tuyas deber\u00edan funcionar como p\u00e1ginas de aterrizaje dise\u00f1adas para persuadir." },
           { number: "03", title: "Deuda t\u00e9cnica", description: "Tiempos de carga lentos. Desperdicio de rastreo. Problemas de renderizado JS. Estos problemas invisibles destruyen tus rankings silenciosamente." },
-          { number: "04", title: "Sin capa CRO", description: "Tr\u00e1fico sin conversi\u00f3n es dinero dejado sobre la mesa. Optimizamos ambos \u2014 simult\u00e1neamente." },
+          { number: "04", title: "Sin capa CRO", description: "Tr\u00e1fico sin conversi\u00f3n es dinero dejado sobre la mesa. Optimizamos ambos - simult\u00e1neamente." },
         ],
       },
       {
@@ -248,7 +424,7 @@ export const ecommerceSeoData: Record<Locale, ServicePageProps> = {
         subtitle: "La mayor\u00eda de agencias aplican \u201Cestrategias de blog\u201D a tiendas online. Nosotros no. Dise\u00f1amos la arquitectura del sitio y los fundamentos t\u00e9cnicos espec\u00edficamente para e-commerce de alto volumen.",
         benefits: [
           { title: "Los cimientos t\u00e9cnicos", description: "Tiempos de carga m\u00e1s r\u00e1pidos, eliminaci\u00f3n del desperdicio de rastreo para tiendas con m\u00e1s de 500 SKUs, y sincronizaci\u00f3n multicanal con Google Merchant Center y Search Console." },
-          { title: "P\u00e1ginas de categor\u00eda que venden", description: "Tus p\u00e1ginas de categor\u00eda deben funcionar como landing pages, p\u00e1ginas de venta y hubs de SEO \u2014 todo a la vez. Las construimos para posicionar y convertir." },
+          { title: "P\u00e1ginas de categor\u00eda que venden", description: "Tus p\u00e1ginas de categor\u00eda deben funcionar como landing pages, p\u00e1ginas de venta y hubs de SEO - todo a la vez. Las construimos para posicionar y convertir." },
           { title: "Optimizaci\u00f3n IA & LLM", description: "La b\u00fasqueda est\u00e1 evolucionando. Nos aseguramos de que tu marca y productos sean recomendados por la siguiente generaci\u00f3n de motores de b\u00fasqueda: AI Overviews, ChatGPT y agentes de IA." },
           { title: "Contenido orientado a ingresos", description: "Cada pieza de contenido que creamos apunta a intenci\u00f3n comercial. Gu\u00edas de compra, p\u00e1ginas de comparaci\u00f3n y contenido de producto que genera ingresos, no solo tr\u00e1fico." },
           { title: "Procesos escalables", description: "Con miles de SKUs, la optimizaci\u00f3n manual es imposible. Construimos flujos de trabajo automatizados para etiquetas de t\u00edtulo, meta descripciones y datos estructurados a escala." },
@@ -281,15 +457,15 @@ export const ecommerceSeoData: Record<Locale, ServicePageProps> = {
     ],
     faqs: {
       items: [
-        { question: "\u00bfC\u00f3mo puedo mejorar el SEO de mi tienda online?", answer: "Conc\u00e9ntrate primero en los cimientos t\u00e9cnicos \u2014 velocidad del sitio, rastreabilidad y datos estructurados. Luego optimiza las p\u00e1ginas de categor\u00eda para palabras clave con intenci\u00f3n comercial, crea contenido que genere ingresos y construye backlinks de autoridad. Lee nuestra [gu\u00eda completa de SEO ecommerce](/blog/ecommerce-seo) para un desglose detallado de cada paso." },
+        { question: "\u00bfC\u00f3mo puedo mejorar el SEO de mi tienda online?", answer: "Conc\u00e9ntrate primero en los cimientos t\u00e9cnicos - velocidad del sitio, rastreabilidad y datos estructurados. Luego optimiza las p\u00e1ginas de categor\u00eda para palabras clave con intenci\u00f3n comercial, crea contenido que genere ingresos y construye backlinks de autoridad. Lee nuestra [gu\u00eda completa de SEO ecommerce](/blog/ecommerce-seo) para un desglose detallado de cada paso." },
         { question: "\u00bfPor qu\u00e9 deber\u00eda invertir en servicios SEO para e-commerce?", answer: "El SEO es una inversi\u00f3n en patrimonio, mientras que el PPC es un gasto (alquiler). Si dejas de pagar por los anuncios, tu tr\u00e1fico cae a cero instant\u00e1neamente. Con SEO, est\u00e1s construyendo un activo digital que contin\u00faa generando ingresos y reduce tu coste de adquisici\u00f3n de clientes." },
-        { question: "\u00bfCu\u00e1nto tiempo se tarda en ver resultados?", answer: "3 a 6 meses para mejoras medibles. 6 a 12 meses para dominar el mercado. Las correcciones t\u00e9cnicas pueden mostrar impacto en semanas, mientras que el contenido y la construcci\u00f3n de autoridad se componen con el tiempo." },
-        { question: "\u00bfCon qu\u00e9 plataformas trabajan?", answer: "Shopify, WooCommerce, Magento, BigCommerce, Lightspeed, Adobe Commerce \u2014 hemos posicionado tiendas en todas las grandes plataformas de e-commerce. Nuestras estrategias son agn\u00f3sticas de plataforma, pero nuestra implementaci\u00f3n es espec\u00edfica para cada una." },
-        { question: "\u00bfQu\u00e9 diferencia su enfoque de otras agencias SEO?", answer: "Solo trabajamos con e-commerce. Cada playbook, cada plantilla, cada auditor\u00eda est\u00e1 dise\u00f1ada para cat\u00e1logos de productos e ingresos \u2014 no para tr\u00e1fico de blog. Medimos el \u00e9xito en atribuci\u00f3n de ingresos, no solo en rankings de palabras clave. Consulta nuestro [framework de estrategia SEO ecommerce](/blog/ecommerce-seo-strategy) para m\u00e1s sobre nuestra metodolog\u00eda." },
+        { question: "\u00bfCu\u00e1nto tiempo se tarda en ver resultados?", answer: "3 a 6 meses para mejoras medibles. 6 a 12 meses para liderar tu mercado. Las correcciones t\u00e9cnicas pueden mostrar impacto en semanas, mientras que el contenido y la construcci\u00f3n de autoridad se componen con el tiempo." },
+        { question: "\u00bfCon qu\u00e9 plataformas trabajan?", answer: "Shopify, WooCommerce, Magento, BigCommerce, Lightspeed, Adobe Commerce - hemos posicionado tiendas en todas las grandes plataformas de e-commerce. Nuestras estrategias son agn\u00f3sticas de plataforma, pero nuestra implementaci\u00f3n es espec\u00edfica para cada una." },
+        { question: "\u00bfQu\u00e9 diferencia su enfoque de otras agencias SEO?", answer: "Solo trabajamos con e-commerce. Cada playbook, cada plantilla, cada auditor\u00eda est\u00e1 dise\u00f1ada para cat\u00e1logos de productos e ingresos - no para tr\u00e1fico de blog. Medimos el \u00e9xito en atribuci\u00f3n de ingresos, no solo en rankings de palabras clave. Consulta nuestro [framework de estrategia SEO ecommerce](/blog/ecommerce-seo-strategy) para m\u00e1s sobre nuestra metodolog\u00eda." },
         { question: "\u00bfOfrecen una auditor\u00eda gratuita?", answer: "S\u00ed. Ofrecemos una auditor\u00eda SEO e-commerce gratuita que identifica tus mayores oportunidades y problemas t\u00e9cnicos. Descubre [qu\u00e9 cubre una auditor\u00eda SEO ecommerce](/blog/ecommerce-seo-audit), luego reserva una llamada y te mostraremos exactamente qu\u00e9 est\u00e1 frenando tu tienda." },
       ],
       miniCta: {
-        heading: "\u00bfListo para multiplicar por 2\u20134x tus ingresos e-commerce?",
+        heading: "\u00bfListo para multiplicar por 2-4x tus ingresos e-commerce?",
         subtitle: "Reserva una llamada hoy y empieza a crecer. Te mostraremos exactamente d\u00f3nde est\u00e1s dejando dinero sobre la mesa.",
       },
     },
@@ -297,8 +473,8 @@ export const ecommerceSeoData: Record<Locale, ServicePageProps> = {
   it: {
     hero: {
       badge: "SEO E-commerce",
-      heading: "SEO E-commerce che genera fatturato \u2014 non solo traffico",
-      subtitle: "La maggior parte delle agenzie insegue metriche di vanit\u00e0. Noi inseguiamo le vendite. Se il tuo negozio riceve visitatori ma non acquirenti, non hai un problema SEO \u2014 hai un problema di strategia di crescita. Risolviamo entrambi.",
+      heading: "SEO E-commerce che genera fatturato - non solo traffico",
+      subtitle: "La maggior parte delle agenzie insegue metriche di vanit\u00e0. Noi inseguiamo le vendite. Se il tuo negozio riceve visitatori ma non acquirenti, non hai un problema SEO - hai un problema di strategia di crescita. Risolviamo entrambi.",
       ctaText: "Prenota una consulenza gratuita",
     },
     trustBar: "Piattaforme affidabili e risultati a 7 cifre",
@@ -308,10 +484,10 @@ export const ecommerceSeoData: Record<Locale, ServicePageProps> = {
         badge: "Perch\u00e9 la maggior parte fallisce",
         heading: "La maggior parte delle agenzie insegue metriche di vanit\u00e0. Noi inseguiamo le vendite.",
         process: [
-          { number: "01", title: "Intento sbagliato", description: "La maggior parte delle agenzie ottimizza per keyword informative (basso valore). Noi posizioniamo per intento transazionale \u2014 intercettando gli acquirenti nel momento esatto in cui sono pronti ad acquistare." },
+          { number: "01", title: "Intento sbagliato", description: "La maggior parte delle agenzie ottimizza per keyword informative (basso valore). Noi posizioniamo per intento transazionale - intercettando gli acquirenti nel momento esatto in cui sono pronti ad acquistare." },
           { number: "02", title: "Categorie generiche", description: "La maggior parte delle pagine categoria sono solo griglie di prodotti. Le tue dovrebbero funzionare come landing page progettate per la conversione." },
           { number: "03", title: "Debito tecnico", description: "Tempi di caricamento lenti. Spreco di crawl budget. Problemi di rendering JS. Questi problemi invisibili uccidono silenziosamente i tuoi posizionamenti." },
-          { number: "04", title: "Nessun livello CRO", description: "Traffico senza conversione \u00e8 denaro lasciato sul tavolo. Ottimizziamo entrambi \u2014 simultaneamente." },
+          { number: "04", title: "Nessun livello CRO", description: "Traffico senza conversione \u00e8 denaro lasciato sul tavolo. Ottimizziamo entrambi - simultaneamente." },
         ],
       },
       {
@@ -321,7 +497,7 @@ export const ecommerceSeoData: Record<Locale, ServicePageProps> = {
         subtitle: "La maggior parte delle agenzie applica \u201Cstrategie da blog\u201D ai negozi online. Noi no. Progettiamo architettura del sito e fondamenta tecniche specificamente per l\u2019e-commerce ad alto volume.",
         benefits: [
           { title: "Le fondamenta tecniche", description: "Tempi di caricamento pi\u00f9 rapidi, eliminazione dello spreco di crawl per negozi con oltre 500 SKU e sincronizzazione multicanale con Google Merchant Center e Search Console." },
-          { title: "Pagine categoria che vendono", description: "Le tue pagine categoria dovrebbero funzionare come landing page, pagine di vendita e hub SEO \u2014 tutto contemporaneamente. Le costruiamo per posizionarsi e convertire." },
+          { title: "Pagine categoria che vendono", description: "Le tue pagine categoria dovrebbero funzionare come landing page, pagine di vendita e hub SEO - tutto contemporaneamente. Le costruiamo per posizionarsi e convertire." },
           { title: "Ottimizzazione IA & LLM", description: "La ricerca si evolve. Ci assicuriamo che il tuo brand e i tuoi prodotti vengano raccomandati dalla prossima generazione di motori di ricerca: AI Overviews, ChatGPT e agenti IA." },
           { title: "Contenuti orientati al fatturato", description: "Ogni contenuto che creiamo punta all\u2019intento commerciale. Guide all\u2019acquisto, pagine di confronto e contenuti prodotto che generano fatturato, non solo traffico." },
           { title: "Processi scalabili", description: "Con migliaia di SKU, l\u2019ottimizzazione manuale \u00e8 impossibile. Costruiamo workflow automatizzati per title tag, meta description e dati strutturati su larga scala." },
@@ -348,21 +524,21 @@ export const ecommerceSeoData: Record<Locale, ServicePageProps> = {
           { number: "01", title: "Fondamenta", description: "Audit tecnico, ottimizzazione del crawl, correzioni di velocit\u00e0 e dati strutturati. Il lavoro noioso che fa funzionare tutto il resto." },
           { number: "02", title: "Crescita", description: "Ottimizzazione delle pagine categoria, strategia di contenuto e architettura di link interni. Costruire il motore che genera fatturato organico." },
           { number: "03", title: "Scala", description: "Costruzione di autorit\u00e0, analisi dei gap competitivi e ottimizzazione per la ricerca IA. Crescita composta che ti rende leader di mercato." },
-          { number: "04", title: "Dominio", description: "Ottimizzazione continua, espansione in nuovi mercati e SEO difensivo. Proteggere ed estendere la tua quota di mercato organica." },
+          { number: "04", title: "Consolidamento", description: "Ottimizzazione continua, espansione in nuovi mercati e SEO difensivo. Proteggere ed estendere la tua quota di mercato organica." },
         ],
       },
     ],
     faqs: {
       items: [
-        { question: "Come posso migliorare la SEO del mio e-commerce?", answer: "Concentrati prima sulle fondamenta tecniche \u2014 velocit\u00e0 del sito, crawlabilit\u00e0 e dati strutturati. Poi ottimizza le pagine categoria per keyword a intento commerciale, crea contenuti che generino fatturato e costruisci backlink autorevoli. Leggi la nostra [guida completa al SEO ecommerce](/blog/ecommerce-seo) per un\u2019analisi dettagliata di ogni passaggio." },
+        { question: "Come posso migliorare la SEO del mio e-commerce?", answer: "Concentrati prima sulle fondamenta tecniche - velocit\u00e0 del sito, crawlabilit\u00e0 e dati strutturati. Poi ottimizza le pagine categoria per keyword a intento commerciale, crea contenuti che generino fatturato e costruisci backlink autorevoli. Leggi la nostra [guida completa al SEO ecommerce](/blog/ecommerce-seo) per un\u2019analisi dettagliata di ogni passaggio." },
         { question: "Perch\u00e9 dovrei investire in servizi SEO per l\u2019e-commerce?", answer: "La SEO \u00e8 un investimento in patrimonio, mentre il PPC \u00e8 una spesa (un affitto). Se smetti di pagare per gli annunci, il tuo traffico crolla a zero istantaneamente. Con la SEO, stai costruendo un asset digitale che continua a generare fatturato e riduce il tuo costo di acquisizione clienti." },
-        { question: "Quanto tempo ci vuole per vedere i risultati?", answer: "3\u20136 mesi per miglioramenti misurabili. 6\u201312 mesi per il dominio del mercato. Le correzioni tecniche possono mostrare impatto in poche settimane, mentre il contenuto e la costruzione di autorit\u00e0 si compongono nel tempo." },
-        { question: "Con quali piattaforme lavorate?", answer: "Shopify, WooCommerce, Magento, BigCommerce, Lightspeed, Adobe Commerce \u2014 abbiamo posizionato negozi su ogni grande piattaforma e-commerce. Le nostre strategie sono agnostiche rispetto alla piattaforma, ma la nostra implementazione \u00e8 specifica per ciascuna." },
-        { question: "Cosa rende il vostro approccio diverso dalle altre agenzie SEO?", answer: "Lavoriamo esclusivamente con l\u2019e-commerce. Ogni playbook, ogni template, ogni audit \u00e8 costruito per cataloghi prodotto e fatturato \u2014 non per traffico da blog. Misuriamo il successo in attribuzione di fatturato, non solo in posizionamenti di keyword. Consulta il nostro [framework di strategia SEO ecommerce](/blog/ecommerce-seo-strategy) per saperne di pi\u00f9 sulla nostra metodologia." },
+        { question: "Quanto tempo ci vuole per vedere i risultati?", answer: "3-6 mesi per miglioramenti misurabili. 6-12 mesi per una posizione di leadership nel mercato. Le correzioni tecniche possono mostrare impatto in poche settimane, mentre il contenuto e la costruzione di autorit\u00e0 si compongono nel tempo." },
+        { question: "Con quali piattaforme lavorate?", answer: "Shopify, WooCommerce, Magento, BigCommerce, Lightspeed, Adobe Commerce - abbiamo posizionato negozi su ogni grande piattaforma e-commerce. Le nostre strategie sono agnostiche rispetto alla piattaforma, ma la nostra implementazione \u00e8 specifica per ciascuna." },
+        { question: "Cosa rende il vostro approccio diverso dalle altre agenzie SEO?", answer: "Lavoriamo esclusivamente con l\u2019e-commerce. Ogni playbook, ogni template, ogni audit \u00e8 costruito per cataloghi prodotto e fatturato - non per traffico da blog. Misuriamo il successo in attribuzione di fatturato, non solo in posizionamenti di keyword. Consulta il nostro [framework di strategia SEO ecommerce](/blog/ecommerce-seo-strategy) per saperne di pi\u00f9 sulla nostra metodologia." },
         { question: "Offrite un audit gratuito?", answer: "S\u00ec. Offriamo un audit SEO e-commerce gratuito che identifica le tue pi\u00f9 grandi opportunit\u00e0 e i problemi tecnici. Scopri [cosa copre un audit SEO ecommerce](/blog/ecommerce-seo-audit), poi prenota una call e ti mostreremo esattamente cosa sta frenando il tuo negozio." },
       ],
       miniCta: {
-        heading: "Pronto a moltiplicare per 2\u20134x il tuo fatturato e-commerce?",
+        heading: "Pronto a moltiplicare per 2-4x il tuo fatturato e-commerce?",
         subtitle: "Prenota una call oggi e inizia a crescere. Ti mostreremo esattamente dove stai lasciando soldi sul tavolo.",
       },
     },
@@ -370,8 +546,8 @@ export const ecommerceSeoData: Record<Locale, ServicePageProps> = {
   nl: {
     hero: {
       badge: "E-commerce SEO",
-      heading: "E-commerce SEO die omzet genereert \u2014 niet alleen verkeer",
-      subtitle: "De meeste bureaus jagen op ijdelheidsmetrieken. Wij jagen op verkoop. Als je webshop bezoekers krijgt maar geen kopers, heb je geen SEO-probleem \u2014 je hebt een groeistrategie-probleem. Wij lossen beide op.",
+      heading: "E-commerce SEO die omzet genereert - niet alleen verkeer",
+      subtitle: "De meeste bureaus jagen op ijdelheidsmetrieken. Wij jagen op verkoop. Als je webshop bezoekers krijgt maar geen kopers, heb je geen SEO-probleem - je hebt een groeistrategie-probleem. Wij lossen beide op.",
       ctaText: "Boek een gratis strategiegesprek",
     },
     trustBar: "Vertrouwde platforms & 7-cijferige resultaten",
@@ -381,10 +557,10 @@ export const ecommerceSeoData: Record<Locale, ServicePageProps> = {
         badge: "Waarom de meeste webshops falen",
         heading: "De meeste bureaus jagen op ijdelheidsmetrieken. Wij jagen op verkoop.",
         process: [
-          { number: "01", title: "Verkeerde intentie", description: "De meeste bureaus optimaliseren voor informatieve zoekwoorden (lage waarde). Wij ranken voor transactionele intentie \u2014 en bereiken kopers precies wanneer ze klaar zijn om te kopen." },
+          { number: "01", title: "Verkeerde intentie", description: "De meeste bureaus optimaliseren voor informatieve zoekwoorden (lage waarde). Wij ranken voor transactionele intentie - en bereiken kopers precies wanneer ze klaar zijn om te kopen." },
           { number: "02", title: "Generieke categorie\u00ebn", description: "De meeste categoriepagina\u2019s zijn slechts productrasters. De jouwe zouden moeten functioneren als landingspagina\u2019s die overtuigen tot aankoop." },
           { number: "03", title: "Technische schuld", description: "Trage laadtijden. Verspild crawlbudget. JS-renderingproblemen. Deze onzichtbare problemen vernietigen stilletjes je rankings." },
-          { number: "04", title: "Geen CRO-laag", description: "Verkeer zonder conversie is geld dat je laat liggen. Wij optimaliseren beide \u2014 tegelijkertijd." },
+          { number: "04", title: "Geen CRO-laag", description: "Verkeer zonder conversie is geld dat je laat liggen. Wij optimaliseren beide - tegelijkertijd." },
         ],
       },
       {
@@ -394,7 +570,7 @@ export const ecommerceSeoData: Record<Locale, ServicePageProps> = {
         subtitle: "De meeste bureaus passen \u201Cblogstrategie\u00ebn\u201D toe op webshops. Wij niet. Wij ontwerpen site-architectuur en technische fundamenten specifiek voor high-volume e-commerce.",
         benefits: [
           { title: "Het technische fundament", description: "Snellere laadtijden, eliminatie van crawlverspilling voor webshops met 500+ SKU\u2019s, en multichannel-synchronisatie met Google Merchant Center en Search Console." },
-          { title: "Categoriepagina\u2019s die verkopen", description: "Je categoriepagina\u2019s moeten functioneren als landingspagina\u2019s, verkooppagina\u2019s en SEO-hubs \u2014 alles tegelijk. Wij bouwen ze om te ranken \u00e9n te converteren." },
+          { title: "Categoriepagina\u2019s die verkopen", description: "Je categoriepagina\u2019s moeten functioneren als landingspagina\u2019s, verkooppagina\u2019s en SEO-hubs - alles tegelijk. Wij bouwen ze om te ranken \u00e9n te converteren." },
           { title: "AI & LLM-optimalisatie", description: "Zoeken evolueert. Wij zorgen ervoor dat je merk en producten worden aanbevolen door de volgende generatie zoekmachines: AI Overviews, ChatGPT en AI-agents." },
           { title: "Omzetgerichte content", description: "Elk stuk content dat we cre\u00ebren richt zich op commerci\u00eble intentie. Koopgidsen, vergelijkingspagina\u2019s en productcontent die omzet genereert, niet alleen verkeer." },
           { title: "Schaalbare processen", description: "Met duizenden SKU\u2019s is handmatige optimalisatie onmogelijk. Wij bouwen geautomatiseerde workflows voor title tags, meta-omschrijvingen en gestructureerde data op schaal." },
@@ -421,17 +597,17 @@ export const ecommerceSeoData: Record<Locale, ServicePageProps> = {
           { number: "01", title: "Fundament", description: "Technische audit, crawl-optimalisatie, snelheidsverbeteringen en gestructureerde data. Het saaie werk dat al het andere mogelijk maakt." },
           { number: "02", title: "Groei", description: "Optimalisatie van categoriepagina\u2019s, contentstrategie en interne linkarchitectuur. De motor bouwen die organische omzet aandrijft." },
           { number: "03", title: "Schaal", description: "Autoriteitsopbouw, competitieve gap-analyse en AI-zoekoptimalisatie. Samengestelde groei die je tot marktleider maakt." },
-          { number: "04", title: "Domineer", description: "Continue optimalisatie, uitbreiding naar nieuwe markten en defensieve SEO. Je organische marktaandeel beschermen en uitbreiden." },
+          { number: "04", title: "Groei door", description: "Continue optimalisatie, uitbreiding naar nieuwe markten en defensieve SEO. Je organische marktaandeel beschermen en uitbreiden." },
         ],
       },
     ],
     faqs: {
       items: [
-        { question: "Hoe kan ik de SEO van mijn webshop verbeteren?", answer: "Focus eerst op het technische fundament \u2014 sitesnelheid, crawlbaarheid en gestructureerde data. Optimaliseer vervolgens categoriepagina\u2019s voor commerci\u00eble zoekwoorden, cre\u00eber omzetgenererende content en bouw gezaghebbende backlinks. Lees onze [complete e-commerce SEO-gids](/blog/ecommerce-seo) voor een gedetailleerde uitleg van elke stap." },
+        { question: "Hoe kan ik de SEO van mijn webshop verbeteren?", answer: "Focus eerst op het technische fundament - sitesnelheid, crawlbaarheid en gestructureerde data. Optimaliseer vervolgens categoriepagina\u2019s voor commerci\u00eble zoekwoorden, cre\u00eber omzetgenererende content en bouw gezaghebbende backlinks. Lees onze [complete e-commerce SEO-gids](/blog/ecommerce-seo) voor een gedetailleerde uitleg van elke stap." },
         { question: "Waarom zou ik investeren in SEO-diensten voor e-commerce?", answer: "SEO is een investering in eigendom, terwijl PPC een uitgave (huur) is. Als je stopt met betalen voor advertenties, daalt je verkeer direct naar nul. Met SEO bouw je een digitaal bezit dat blijft renderen en je klantacquisitiekosten verlaagt." },
-        { question: "Hoe lang duurt het voordat ik resultaten zie?", answer: "3\u20136 maanden voor meetbare verbeteringen. 6\u201312 maanden voor marktdominantie. Technische fixes kunnen binnen weken impact tonen, terwijl content en autoriteitsopbouw zich in de loop van de tijd versterken." },
-        { question: "Met welke platforms werken jullie?", answer: "Shopify, WooCommerce, Magento, BigCommerce, Lightspeed, Adobe Commerce \u2014 we hebben webshops op elk groot e-commerce-platform laten ranken. Onze strategie\u00ebn zijn platformonafhankelijk, maar onze implementatie is platformspecifiek." },
-        { question: "Wat maakt jullie aanpak anders dan andere SEO-bureaus?", answer: "Wij werken uitsluitend met e-commerce. Elk playbook, elk template, elke audit is gebouwd voor productcatalogi en omzet \u2014 niet voor blogverkeer. We meten succes in omzetattributie, niet alleen in keyword-rankings. Bekijk ons [e-commerce SEO-strategieframework](/blog/ecommerce-seo-strategy) voor meer over onze methodiek." },
+        { question: "Hoe lang duurt het voordat ik resultaten zie?", answer: "3-6 maanden voor meetbare verbeteringen. 6-12 maanden voor marktdominantie. Technische fixes kunnen binnen weken impact tonen, terwijl content en autoriteitsopbouw zich in de loop van de tijd versterken." },
+        { question: "Met welke platforms werken jullie?", answer: "Shopify, WooCommerce, Magento, BigCommerce, Lightspeed, Adobe Commerce - we hebben webshops op elk groot e-commerce-platform laten ranken. Onze strategie\u00ebn zijn platformonafhankelijk, maar onze implementatie is platformspecifiek." },
+        { question: "Wat maakt jullie aanpak anders dan andere SEO-bureaus?", answer: "Wij werken uitsluitend met e-commerce. Elk playbook, elk template, elke audit is gebouwd voor productcatalogi en omzet - niet voor blogverkeer. We meten succes in omzetattributie, niet alleen in keyword-rankings. Bekijk ons [e-commerce SEO-strategieframework](/blog/ecommerce-seo-strategy) voor meer over onze methodiek." },
         { question: "Bieden jullie een gratis audit aan?", answer: "Ja. We bieden een gratis e-commerce SEO-audit die je grootste kansen en technische problemen identificeert. Lees meer over [wat een e-commerce SEO-audit omvat](/blog/ecommerce-seo-audit), boek dan een gesprek en we laten je precies zien wat je webshop tegenhoudt." },
       ],
       miniCta: {

@@ -34,7 +34,7 @@ export const guidesBeginnerToHeroT: Record<
           },
           {
             type: "p",
-            text: "The course runs over 9+ weeks. Each stage has specific deliverables. Weeks 1-2 are deliberately slow \u2014 understanding how Google works before touching anything is not optional. Stores that skip foundations and jump straight to tactics waste months chasing fixes that do not hold.",
+            text: "The course runs over 9+ weeks. Each stage has specific deliverables. Weeks 1-2 are deliberately slow - understanding how Google works before touching anything is not optional. Stores that skip foundations and jump straight to tactics waste months chasing fixes that do not hold.",
           },
           {
             type: "image",
@@ -46,7 +46,7 @@ export const guidesBeginnerToHeroT: Record<
       },
       {
         id: "stage-1-foundations",
-        title: "Stage 1 \u2014 Foundations (Weeks 1\u20132)",
+        title: "Stage 1 - Foundations (Weeks 1-2)",
         blocks: [
           {
             type: "p",
@@ -57,20 +57,20 @@ export const guidesBeginnerToHeroT: Record<
             items: [
               "Read Google's own documentation on how search works (search.google.com/search/howsearchworks)",
               "Set up Google Search Console: verify your domain property, submit your sitemap, check the Coverage report for crawl errors",
-              "Set up GA4 with Enhanced Ecommerce enabled \u2014 follow the steps in the Analytics & Tracking guide at /guides/analytics-tracking",
+              "Set up GA4 with Enhanced Ecommerce enabled - follow the steps in the Analytics & Tracking guide at /guides/analytics-tracking",
               "Read the SEO Fundamentals Checklist at /guides/fundamentals and score your own store against each item",
-              "Use the URL Inspection tool in GSC on your homepage and 3 product pages \u2014 confirm Google can crawl and index them",
+              "Use the URL Inspection tool in GSC on your homepage and 3 product pages - confirm Google can crawl and index them",
             ],
           },
           {
             type: "tip",
-            text: "Week 2 deliverable: a scored copy of the fundamentals checklist with notes on which items your store fails. This becomes your first priority list. Do not fix anything yet \u2014 just audit.",
+            text: "Week 2 deliverable: a scored copy of the fundamentals checklist with notes on which items your store fails. This becomes your first priority list. Do not fix anything yet - just audit.",
           },
         ],
       },
       {
         id: "stage-2-research",
-        title: "Stage 2 \u2014 Research (Weeks 3\u20134)",
+        title: "Stage 2 - Research (Weeks 3-4)",
         blocks: [
           {
             type: "p",
@@ -79,15 +79,15 @@ export const guidesBeginnerToHeroT: Record<
           {
             type: "callout",
             title: "Your 20 most valuable keywords",
-            text: "By the end of week 4, you need a prioritised list of 20 keywords. These are not vanity terms \u2014 they are the specific product and category queries where ranking on page 1 would directly drive revenue. Use tools like Ahrefs, Semrush, or Google Keyword Planner. Cross-reference with GSC data to see which keywords you already rank for at position 11-50.",
+            text: "By the end of week 4, you need a prioritised list of 20 keywords. These are not vanity terms - they are the specific product and category queries where ranking on page 1 would directly drive revenue. Use tools like Ahrefs, Semrush, or Google Keyword Planner. Cross-reference with GSC data to see which keywords you already rank for at position 11-50.",
           },
           {
             type: "list",
             items: [
               "Map your full product catalog: every product category needs at least one primary keyword",
-              "Run competitor gap analysis: identify 3 direct competitors and find the keywords they rank for that you do not \u2014 see the Competitor Analysis guide at /guides/competitor-analysis",
+              "Run competitor gap analysis: identify 3 direct competitors and find the keywords they rank for that you do not - see the Competitor Analysis guide at /guides/competitor-analysis",
               "Research buying-intent keywords for your top 10 product categories (these typically have modifiers: 'buy', 'shop', 'best', price-comparison terms)",
-              "Research informational keywords for content opportunities (buyers research before purchasing \u2014 ranking for those articles builds trust and links)",
+              "Research informational keywords for content opportunities (buyers research before purchasing - ranking for those articles builds trust and links)",
               "Build a simple spreadsheet: keyword, monthly search volume, your current position, target page URL",
             ],
           },
@@ -99,7 +99,7 @@ export const guidesBeginnerToHeroT: Record<
       },
       {
         id: "stage-3-on-page",
-        title: "Stage 3 \u2014 On-Page (Weeks 5\u20136)",
+        title: "Stage 3 - On-Page (Weeks 5-6)",
         blocks: [
           {
             type: "p",
@@ -111,7 +111,7 @@ export const guidesBeginnerToHeroT: Record<
               "Audit title tags for all pages targeting your 20 keywords: include the primary keyword near the start, keep under 60 characters, add the brand name at the end",
               "Audit meta descriptions: each should read like a useful summary, include the keyword naturally, and stay under 155 characters",
               "Audit product page content: does each product page have at least 200 words of original copy? Generic manufacturer descriptions hurt rankings.",
-              "Audit category page content: Google needs text to understand what a category page is about \u2014 a short intro paragraph (100-200 words) above the product grid makes a measurable difference",
+              "Audit category page content: Google needs text to understand what a category page is about - a short intro paragraph (100-200 words) above the product grid makes a measurable difference",
               "Fix heading structure: one H1 per page containing the primary keyword, logical H2/H3 hierarchy covering subtopics",
             ],
           },
@@ -124,7 +124,7 @@ export const guidesBeginnerToHeroT: Record<
       },
       {
         id: "stage-4-technical",
-        title: "Stage 4 \u2014 Technical (Weeks 7\u20138)",
+        title: "Stage 4 - Technical (Weeks 7-8)",
         blocks: [
           {
             type: "p",
@@ -133,9 +133,9 @@ export const guidesBeginnerToHeroT: Record<
           {
             type: "list",
             items: [
-              "Run a full crawl with Screaming Frog (free up to 500 URLs) or Ahrefs Site Audit \u2014 look for 4xx errors, redirect chains, duplicate title tags, missing canonical tags",
+              "Run a full crawl with Screaming Frog (free up to 500 URLs) or Ahrefs Site Audit - look for 4xx errors, redirect chains, duplicate title tags, missing canonical tags",
               "Check Core Web Vitals in GSC under Experience > Core Web Vitals. LCP should be under 2.5 seconds, CLS under 0.1, INP under 200ms",
-              "Compress and convert images to WebP format \u2014 on Shopify use an app like TinyIMG; on WooCommerce use Imagify or ShortPixel",
+              "Compress and convert images to WebP format - on Shopify use an app like TinyIMG; on WooCommerce use Imagify or ShortPixel",
               "Add structured data: Product schema on all product pages, BreadcrumbList on all pages, Organization on homepage",
               "Fix duplicate content: ensure canonical tags point to the preferred version of each page, especially for filtered/sorted category URLs",
             ],
@@ -148,7 +148,7 @@ export const guidesBeginnerToHeroT: Record<
       },
       {
         id: "stage-5-authority",
-        title: "Stage 5 \u2014 Authority (Weeks 9+)",
+        title: "Stage 5 - Authority (Weeks 9+)",
         blocks: [
           {
             type: "p",
@@ -157,9 +157,9 @@ export const guidesBeginnerToHeroT: Record<
           {
             type: "list",
             items: [
-              "Run the link gap analysis: find the domains that link to your top 3 competitors but not to you \u2014 these are your first outreach targets",
+              "Run the link gap analysis: find the domains that link to your top 3 competitors but not to you - these are your first outreach targets",
               "Create content worth linking to: data studies, original research, buying guides, comparison pages. Not thin product descriptions.",
-              "Build topical authority: publish a cluster of articles around your core product categories so Google sees your site as an authority on those topics \u2014 see /guides/topical-authority",
+              "Build topical authority: publish a cluster of articles around your core product categories so Google sees your site as an authority on those topics - see /guides/topical-authority",
               "Digital PR: reach out to journalists and bloggers covering your niche with newsworthy angles (product launches, original data, trend pieces)",
               "Supplier and partner links: often overlooked but easy to get. Ask suppliers, distributors, and business partners to link to your store",
             ],
@@ -182,7 +182,7 @@ export const guidesBeginnerToHeroT: Record<
           {
             type: "checklist",
             items: [
-              "Run a fresh crawl with Screaming Frog and compare against the previous quarter \u2014 look for new 4xx errors, new duplicate content, crawl budget waste",
+              "Run a fresh crawl with Screaming Frog and compare against the previous quarter - look for new 4xx errors, new duplicate content, crawl budget waste",
               "Pull the GSC Search Results report for the full quarter: which keywords improved, which dropped? Investigate drops before assuming algorithm updates.",
               "Export GA4 organic revenue for the quarter vs same quarter last year. If it is down, trace the drop to specific pages using the Landing Pages report",
               "Refresh the keyword list: add new keywords from GSC impressions data, remove keywords where you have hit page 1 and they are stable",
@@ -216,12 +216,12 @@ export const guidesBeginnerToHeroT: Record<
     badge: "E-Commerce-SEO-Grundlagen",
     heading: "Von Anf\u00e4nger zum Profi",
     intro:
-      "Die meisten SEO-Inhalte f\u00fcr E-Commerce setzen entweder voraus, dass du gar nichts wei\u00dft \u2014 oder alles. Dieser Kurs ist anders. Es ist ein strukturiertes 9-Wochen-Programm, das dich von null SEO-Erfahrung bis hin zur Durchf\u00fchrung eines wiederholbaren, datengetriebenen SEO-Programms f\u00fcr deinen Shop bringt. Jede Stufe baut auf der vorherigen auf. Wer Stufen \u00fcberspringt, st\u00f6\u00dft unweigerlich an W\u00e4nde.",
+      "Die meisten SEO-Inhalte f\u00fcr E-Commerce setzen entweder voraus, dass du gar nichts wei\u00dft - oder alles. Dieser Kurs ist anders. Es ist ein strukturiertes 9-Wochen-Programm, das dich von null SEO-Erfahrung bis hin zur Durchf\u00fchrung eines wiederholbaren, datengetriebenen SEO-Programms f\u00fcr deinen Shop bringt. Jede Stufe baut auf der vorherigen auf. Wer Stufen \u00fcberspringt, st\u00f6\u00dft unweigerlich an W\u00e4nde.",
     readTime: "12 Min. Lesezeit",
     sections: [
       {
         id: "what-this-course-is",
-        title: "Was dieser Kurs ist \u2014 und was nicht",
+        title: "Was dieser Kurs ist - und was nicht",
         blocks: [
           {
             type: "p",
@@ -234,7 +234,7 @@ export const guidesBeginnerToHeroT: Record<
           },
           {
             type: "p",
-            text: "Der Kurs l\u00e4uft \u00fcber 9+ Wochen. Jede Stufe hat konkrete Ergebnisse, die erarbeitet werden m\u00fcssen. Die Wochen 1-2 sind bewusst langsam gehalten \u2014 zu verstehen, wie Google funktioniert, bevor man irgend etwas anf\u00e4sst, ist kein optionales Vorwissen. Shops, die Grundlagen \u00fcberspringen und direkt zu Taktiken springen, verschwenden Monate damit, Korrekturen nachzujagen, die nicht halten.",
+            text: "Der Kurs l\u00e4uft \u00fcber 9+ Wochen. Jede Stufe hat konkrete Ergebnisse, die erarbeitet werden m\u00fcssen. Die Wochen 1-2 sind bewusst langsam gehalten - zu verstehen, wie Google funktioniert, bevor man irgend etwas anf\u00e4sst, ist kein optionales Vorwissen. Shops, die Grundlagen \u00fcberspringen und direkt zu Taktiken springen, verschwenden Monate damit, Korrekturen nachzujagen, die nicht halten.",
           },
           {
             type: "image",
@@ -246,7 +246,7 @@ export const guidesBeginnerToHeroT: Record<
       },
       {
         id: "stage-1-foundations",
-        title: "Stufe 1 \u2014 Grundlagen (Wochen 1\u20132)",
+        title: "Stufe 1 - Grundlagen (Wochen 1-2)",
         blocks: [
           {
             type: "p",
@@ -257,37 +257,37 @@ export const guidesBeginnerToHeroT: Record<
             items: [
               "Googles eigene Dokumentation \u00fcber die Funktionsweise der Suche lesen (search.google.com/search/howsearchworks)",
               "Google Search Console einrichten: Domain-Property verifizieren, Sitemap einreichen, Coverage-Bericht auf Crawling-Fehler pr\u00fcfen",
-              "GA4 mit aktiviertem Enhanced Ecommerce einrichten \u2014 die Schritte im Analytics-Leitfaden unter /guides/analytics-tracking befolgen",
+              "GA4 mit aktiviertem Enhanced Ecommerce einrichten - die Schritte im Analytics-Leitfaden unter /guides/analytics-tracking befolgen",
               "Die SEO-Grundlagen-Checkliste unter /guides/fundamentals lesen und den eigenen Shop gegen jeden Punkt bewerten",
-              "URL-Inspektionstool in GSC auf der Startseite und 3 Produktseiten verwenden \u2014 best\u00e4tigen, dass Google sie crawlen und indexieren kann",
+              "URL-Inspektionstool in GSC auf der Startseite und 3 Produktseiten verwenden - best\u00e4tigen, dass Google sie crawlen und indexieren kann",
             ],
           },
           {
             type: "tip",
-            text: "Ergebnis Woche 2: eine bewertete Kopie der Grundlagen-Checkliste mit Notizen dazu, welche Punkte der Shop nicht erf\u00fcllt. Das wird die erste Priorit\u00e4tenliste. Noch nichts beheben \u2014 nur auditen.",
+            text: "Ergebnis Woche 2: eine bewertete Kopie der Grundlagen-Checkliste mit Notizen dazu, welche Punkte der Shop nicht erf\u00fcllt. Das wird die erste Priorit\u00e4tenliste. Noch nichts beheben - nur auditen.",
           },
         ],
       },
       {
         id: "stage-2-research",
-        title: "Stufe 2 \u2014 Recherche (Wochen 3\u20134)",
+        title: "Stufe 2 - Recherche (Wochen 3-4)",
         blocks: [
           {
             type: "p",
-            text: "Die meisten Shops machen in dieser Phase denselben Fehler: Sie recherchieren Keywords f\u00fcr Produkte, die sie verkaufen wollen \u2014 statt f\u00fcr Produkte, nach denen Menschen suchen. Das ist nicht dasselbe. Die Recherchephase zwingt dazu, reale Suchdaten zu betrachten, bevor man eine Seite anr\u00fchrt.",
+            text: "Die meisten Shops machen in dieser Phase denselben Fehler: Sie recherchieren Keywords f\u00fcr Produkte, die sie verkaufen wollen - statt f\u00fcr Produkte, nach denen Menschen suchen. Das ist nicht dasselbe. Die Recherchephase zwingt dazu, reale Suchdaten zu betrachten, bevor man eine Seite anr\u00fchrt.",
           },
           {
             type: "callout",
             title: "Die 20 wertvollsten Keywords",
-            text: "Bis Ende Woche 4 braucht man eine priorisierte Liste von 20 Keywords. Keine Vanity-Begriffe \u2014 sondern spezifische Produkt- und Kategoriesuchen, bei denen eine Platzierung auf Seite 1 direkt Umsatz bringe w\u00fcrde. Tools wie Ahrefs, Semrush oder den Google Keyword Planner nutzen. Mit GSC-Daten abgleichen, um zu sehen, f\u00fcr welche Keywords man bereits auf Position 11-50 rankt.",
+            text: "Bis Ende Woche 4 braucht man eine priorisierte Liste von 20 Keywords. Keine Vanity-Begriffe - sondern spezifische Produkt- und Kategoriesuchen, bei denen eine Platzierung auf Seite 1 direkt Umsatz bringe w\u00fcrde. Tools wie Ahrefs, Semrush oder den Google Keyword Planner nutzen. Mit GSC-Daten abgleichen, um zu sehen, f\u00fcr welche Keywords man bereits auf Position 11-50 rankt.",
           },
           {
             type: "list",
             items: [
               "Den gesamten Produktkatalog kartieren: jede Produktkategorie braucht mindestens ein Haupt-Keyword",
-              "Wettbewerber-Gap-Analyse durchf\u00fchren: 3 direkte Konkurrenten identifizieren und Keywords finden, f\u00fcr die sie ranken, aber man selbst nicht \u2014 siehe Wettbewerber-Analyse-Leitfaden unter /guides/competitor-analysis",
+              "Wettbewerber-Gap-Analyse durchf\u00fchren: 3 direkte Konkurrenten identifizieren und Keywords finden, f\u00fcr die sie ranken, aber man selbst nicht - siehe Wettbewerber-Analyse-Leitfaden unter /guides/competitor-analysis",
               "Kaufintent-Keywords f\u00fcr die Top-10-Produktkategorien recherchieren (diese haben typischerweise Modifier: 'kaufen', 'bestes', 'g\u00fcnstig', Preisvergleich-Begriffe)",
-              "Informationskeywords f\u00fcr Content-M\u00f6glichkeiten recherchieren (K\u00e4ufer recherchieren vor dem Kauf \u2014 Ranking f\u00fcr diese Artikel baut Vertrauen und Links auf)",
+              "Informationskeywords f\u00fcr Content-M\u00f6glichkeiten recherchieren (K\u00e4ufer recherchieren vor dem Kauf - Ranking f\u00fcr diese Artikel baut Vertrauen und Links auf)",
               "Einfaches Spreadsheet aufbauen: Keyword, monatliches Suchvolumen, aktuelle Position, Ziel-URL",
             ],
           },
@@ -299,7 +299,7 @@ export const guidesBeginnerToHeroT: Record<
       },
       {
         id: "stage-3-on-page",
-        title: "Stufe 3 \u2014 On-Page (Wochen 5\u20136)",
+        title: "Stufe 3 - On-Page (Wochen 5-6)",
         blocks: [
           {
             type: "p",
@@ -311,7 +311,7 @@ export const guidesBeginnerToHeroT: Record<
               "Title-Tags aller Seiten, die auf die 20 Keywords abzielen, auditen: Haupt-Keyword m\u00f6glichst am Anfang, unter 60 Zeichen, Markenname am Ende",
               "Meta-Beschreibungen auditen: jede sollte wie eine n\u00fctzliche Zusammenfassung klingen, das Keyword nat\u00fcrlich enthalten und unter 155 Zeichen bleiben",
               "Produktseiteninhalte auditen: Hat jede Produktseite mindestens 200 W\u00f6rter originalen Text? Generische Hersteller-Beschreibungen schaden dem Ranking.",
-              "Kategorieseitentexte auditen: Google braucht Text, um zu verstehen, worum es auf einer Kategorieseite geht \u2014 ein kurzer Einleitungsabsatz (100-200 W\u00f6rter) \u00fcber dem Produktraster macht einen messbaren Unterschied",
+              "Kategorieseitentexte auditen: Google braucht Text, um zu verstehen, worum es auf einer Kategorieseite geht - ein kurzer Einleitungsabsatz (100-200 W\u00f6rter) \u00fcber dem Produktraster macht einen messbaren Unterschied",
               "\u00dcberschriftenstruktur korrigieren: ein H1 pro Seite mit dem Haupt-Keyword, logische H2/H3-Hierarchie f\u00fcr Unterthemen",
             ],
           },
@@ -324,7 +324,7 @@ export const guidesBeginnerToHeroT: Record<
       },
       {
         id: "stage-4-technical",
-        title: "Stufe 4 \u2014 Technik (Wochen 7\u20138)",
+        title: "Stufe 4 - Technik (Wochen 7-8)",
         blocks: [
           {
             type: "p",
@@ -333,9 +333,9 @@ export const guidesBeginnerToHeroT: Record<
           {
             type: "list",
             items: [
-              "Vollst\u00e4ndigen Crawl mit Screaming Frog (kostenlos bis 500 URLs) oder Ahrefs Site Audit durchf\u00fchren \u2014 4xx-Fehler, Weiterleitungsketten, doppelte Title-Tags, fehlende Canonical-Tags suchen",
+              "Vollst\u00e4ndigen Crawl mit Screaming Frog (kostenlos bis 500 URLs) oder Ahrefs Site Audit durchf\u00fchren - 4xx-Fehler, Weiterleitungsketten, doppelte Title-Tags, fehlende Canonical-Tags suchen",
               "Core Web Vitals in GSC unter Erfahrung > Core Web Vitals pr\u00fcfen. LCP unter 2,5 Sekunden, CLS unter 0,1, INP unter 200\u00a0ms",
-              "Bilder komprimieren und in WebP konvertieren \u2014 bei Shopify eine App wie TinyIMG verwenden; bei WooCommerce Imagify oder ShortPixel",
+              "Bilder komprimieren und in WebP konvertieren - bei Shopify eine App wie TinyIMG verwenden; bei WooCommerce Imagify oder ShortPixel",
               "Strukturierte Daten erg\u00e4nzen: Produkt-Schema auf allen Produktseiten, BreadcrumbList auf allen Seiten, Organization auf der Startseite",
               "Duplicate Content bereinigen: sicherstellen, dass Canonical-Tags auf die bevorzugte Version jeder Seite zeigen, insbesondere f\u00fcr gefilterte/sortierte Kategorie-URLs",
             ],
@@ -348,7 +348,7 @@ export const guidesBeginnerToHeroT: Record<
       },
       {
         id: "stage-5-authority",
-        title: "Stufe 5 \u2014 Autorit\u00e4t (Wochen 9+)",
+        title: "Stufe 5 - Autorit\u00e4t (Wochen 9+)",
         blocks: [
           {
             type: "p",
@@ -357,9 +357,9 @@ export const guidesBeginnerToHeroT: Record<
           {
             type: "list",
             items: [
-              "Link-Gap-Analyse durchf\u00fchren: Domains finden, die auf die Top-3-Konkurrenten verlinken, aber nicht auf den eigenen Shop \u2014 das sind die ersten Outreach-Ziele",
+              "Link-Gap-Analyse durchf\u00fchren: Domains finden, die auf die Top-3-Konkurrenten verlinken, aber nicht auf den eigenen Shop - das sind die ersten Outreach-Ziele",
               "Verlinkungsw\u00fcrdige Inhalte erstellen: Datenstudien, eigene Recherchen, Kaufratgeber, Vergleichsseiten. Keine d\u00fcnnen Produktbeschreibungen.",
-              "Thematische Autorit\u00e4t aufbauen: ein Cluster von Artikeln rund um die Kernprodukt-Kategorien ver\u00f6ffentlichen, damit Google die Website als Autorit\u00e4t in diesen Themen wahrnimmt \u2014 siehe /guides/topical-authority",
+              "Thematische Autorit\u00e4t aufbauen: ein Cluster von Artikeln rund um die Kernprodukt-Kategorien ver\u00f6ffentlichen, damit Google die Website als Autorit\u00e4t in diesen Themen wahrnimmt - siehe /guides/topical-authority",
               "Digital PR: Journalisten und Blogger, die \u00fcber die eigene Nische berichten, mit nachrichtentauglichen Winkeln ansprechen (Produkteinf\u00fchrungen, Originaldaten, Trendbeitr\u00e4ge)",
               "Lieferanten- und Partnerlinks: oft \u00fcbersehen, aber leicht zu bekommen. Lieferanten, Distributoren und Gesch\u00e4ftspartner um einen Link zum Shop bitten",
             ],
@@ -382,7 +382,7 @@ export const guidesBeginnerToHeroT: Record<
           {
             type: "checklist",
             items: [
-              "Neuen Crawl mit Screaming Frog durchf\u00fchren und mit dem Vorquartal vergleichen \u2014 auf neue 4xx-Fehler, neue Duplicate-Content-Probleme und Crawlbudget-Verschwendung achten",
+              "Neuen Crawl mit Screaming Frog durchf\u00fchren und mit dem Vorquartal vergleichen - auf neue 4xx-Fehler, neue Duplicate-Content-Probleme und Crawlbudget-Verschwendung achten",
               "GSC-Suchergebnis-Bericht f\u00fcr das gesamte Quartal ziehen: Welche Keywords haben sich verbessert, welche sind gefallen? Einbr\u00fcche untersuchen, bevor man Algorithmus-Updates annimmt.",
               "GA4 organischen Umsatz f\u00fcr das Quartal vs. dasselbe Quartal des Vorjahres exportieren. Bei R\u00fcckgang den Einbruch \u00fcber den Landing Pages-Bericht auf bestimmte Seiten zur\u00fcckverfolgen",
               "Keyword-Liste auffrischen: neue Keywords aus GSC-Impressionsdaten hinzuf\u00fcgen, Keywords entfernen, bei denen man Seite 1 erreicht hat und stabil ist",
@@ -421,7 +421,7 @@ export const guidesBeginnerToHeroT: Record<
     sections: [
       {
         id: "what-this-course-is",
-        title: "Ce qu\u2019est ce cours \u2014 et ce qu\u2019il n\u2019est pas",
+        title: "Ce qu\u2019est ce cours - et ce qu\u2019il n\u2019est pas",
         blocks: [
           {
             type: "p",
@@ -434,7 +434,7 @@ export const guidesBeginnerToHeroT: Record<
           },
           {
             type: "p",
-            text: "Le cours dure 9+ semaines. Chaque \u00e9tape a des livrables concrets. Les semaines 1 et 2 sont d\u00e9lib\u00e9r\u00e9ment lentes \u2014 comprendre le fonctionnement de Google avant de toucher quoi que ce soit n\u2019est pas une option. Les boutiques qui sautent les fondamentaux pour aller directement aux tactiques perdent des mois \u00e0 courir apr\u00e8s des corrections qui ne tiennent pas.",
+            text: "Le cours dure 9+ semaines. Chaque \u00e9tape a des livrables concrets. Les semaines 1 et 2 sont d\u00e9lib\u00e9r\u00e9ment lentes - comprendre le fonctionnement de Google avant de toucher quoi que ce soit n\u2019est pas une option. Les boutiques qui sautent les fondamentaux pour aller directement aux tactiques perdent des mois \u00e0 courir apr\u00e8s des corrections qui ne tiennent pas.",
           },
           {
             type: "image",
@@ -446,7 +446,7 @@ export const guidesBeginnerToHeroT: Record<
       },
       {
         id: "stage-1-foundations",
-        title: "\u00c9tape 1 \u2014 Fondations (Semaines 1\u20132)",
+        title: "\u00c9tape 1 - Fondations (Semaines 1-2)",
         blocks: [
           {
             type: "p",
@@ -457,20 +457,20 @@ export const guidesBeginnerToHeroT: Record<
             items: [
               "Lire la documentation officielle de Google sur le fonctionnement de la recherche (search.google.com/search/howsearchworks)",
               "Configurer Google Search Console : v\u00e9rifier la propri\u00e9t\u00e9 de domaine, soumettre le sitemap, v\u00e9rifier le rapport de couverture pour les erreurs d\u2019exploration",
-              "Configurer GA4 avec Enhanced Ecommerce activ\u00e9 \u2014 suivre les \u00e9tapes du guide Analytics sur /guides/analytics-tracking",
+              "Configurer GA4 avec Enhanced Ecommerce activ\u00e9 - suivre les \u00e9tapes du guide Analytics sur /guides/analytics-tracking",
               "Lire la checklist des fondamentaux SEO sur /guides/fundamentals et \u00e9valuer sa propre boutique sur chaque point",
-              "Utiliser l\u2019outil d\u2019inspection d\u2019URL dans GSC sur la page d\u2019accueil et 3 pages produit \u2014 confirmer que Google peut les explorer et les indexer",
+              "Utiliser l\u2019outil d\u2019inspection d\u2019URL dans GSC sur la page d\u2019accueil et 3 pages produit - confirmer que Google peut les explorer et les indexer",
             ],
           },
           {
             type: "tip",
-            text: "Livrable semaine 2 : une copie not\u00e9e de la checklist des fondamentaux avec des notes sur les points que votre boutique ne respecte pas. C\u2019est votre premi\u00e8re liste de priorit\u00e9s. Ne corrigez rien encore \u2014 auditez seulement.",
+            text: "Livrable semaine 2 : une copie not\u00e9e de la checklist des fondamentaux avec des notes sur les points que votre boutique ne respecte pas. C\u2019est votre premi\u00e8re liste de priorit\u00e9s. Ne corrigez rien encore - auditez seulement.",
           },
         ],
       },
       {
         id: "stage-2-research",
-        title: "\u00c9tape 2 \u2014 Recherche (Semaines 3\u20134)",
+        title: "\u00c9tape 2 - Recherche (Semaines 3-4)",
         blocks: [
           {
             type: "p",
@@ -479,15 +479,15 @@ export const guidesBeginnerToHeroT: Record<
           {
             type: "callout",
             title: "Vos 20 mots-cl\u00e9s les plus pr\u00e9cieux",
-            text: "D\u2019ici la fin de la semaine 4, vous avez besoin d\u2019une liste prioris\u00e9e de 20 mots-cl\u00e9s. Pas des termes de vanit\u00e9 \u2014 des requ\u00eates sp\u00e9cifiques de produits et de cat\u00e9gories o\u00f9 un classement en page 1 g\u00e9n\u00e9rerait directement du CA. Utilisez des outils comme Ahrefs, Semrush ou Google Keyword Planner. Croisez avec les donn\u00e9es GSC pour voir pour quels mots-cl\u00e9s vous \u00eates d\u00e9j\u00e0 en position 11-50.",
+            text: "D\u2019ici la fin de la semaine 4, vous avez besoin d\u2019une liste prioris\u00e9e de 20 mots-cl\u00e9s. Pas des termes de vanit\u00e9 - des requ\u00eates sp\u00e9cifiques de produits et de cat\u00e9gories o\u00f9 un classement en page 1 g\u00e9n\u00e9rerait directement du CA. Utilisez des outils comme Ahrefs, Semrush ou Google Keyword Planner. Croisez avec les donn\u00e9es GSC pour voir pour quels mots-cl\u00e9s vous \u00eates d\u00e9j\u00e0 en position 11-50.",
           },
           {
             type: "list",
             items: [
               "Cartographier l\u2019ensemble du catalogue produit : chaque cat\u00e9gorie produit a besoin d\u2019au moins un mot-cl\u00e9 principal",
-              "Faire une analyse de gap concurrentiel : identifier 3 concurrents directs et trouver les mots-cl\u00e9s pour lesquels ils se classent mais pas vous \u2014 voir le guide d\u2019analyse concurrentielle sur /guides/competitor-analysis",
+              "Faire une analyse de gap concurrentiel : identifier 3 concurrents directs et trouver les mots-cl\u00e9s pour lesquels ils se classent mais pas vous - voir le guide d\u2019analyse concurrentielle sur /guides/competitor-analysis",
               "Rechercher des mots-cl\u00e9s \u00e0 intention d\u2019achat pour les 10 principales cat\u00e9gories produit (ils ont typiquement des modificateurs : 'acheter', 'meilleur', 'pas cher', termes de comparaison de prix)",
-              "Rechercher des mots-cl\u00e9s informationnels pour des opportunit\u00e9s de contenu (les acheteurs font des recherches avant d\u2019acheter \u2014 se classer pour ces articles build de la confiance et des liens)",
+              "Rechercher des mots-cl\u00e9s informationnels pour des opportunit\u00e9s de contenu (les acheteurs font des recherches avant d\u2019acheter - se classer pour ces articles build de la confiance et des liens)",
               "Construire un tableur simple : mot-cl\u00e9, volume de recherche mensuel, position actuelle, URL de la page cible",
             ],
           },
@@ -499,7 +499,7 @@ export const guidesBeginnerToHeroT: Record<
       },
       {
         id: "stage-3-on-page",
-        title: "\u00c9tape 3 \u2014 On-Page (Semaines 5\u20136)",
+        title: "\u00c9tape 3 - On-Page (Semaines 5-6)",
         blocks: [
           {
             type: "p",
@@ -511,7 +511,7 @@ export const guidesBeginnerToHeroT: Record<
               "Auditer les balises title de toutes les pages ciblant vos 20 mots-cl\u00e9s : mot-cl\u00e9 principal pr\u00e8s du d\u00e9but, sous 60 caract\u00e8res, nom de marque \u00e0 la fin",
               "Auditer les meta descriptions : chacune doit ressembler \u00e0 un r\u00e9sum\u00e9 utile, inclure le mot-cl\u00e9 naturellement et rester sous 155 caract\u00e8res",
               "Auditer le contenu des pages produit : chaque page produit a-t-elle au moins 200 mots de texte original ? Les descriptions g\u00e9n\u00e9riques des fabricants p\u00e9nalisent les positions.",
-              "Auditer le contenu des pages cat\u00e9gorie : Google a besoin de texte pour comprendre une page cat\u00e9gorie \u2014 un court paragraphe d\u2019introduction (100-200 mots) au-dessus de la grille produit fait une diff\u00e9rence mesurable",
+              "Auditer le contenu des pages cat\u00e9gorie : Google a besoin de texte pour comprendre une page cat\u00e9gorie - un court paragraphe d\u2019introduction (100-200 mots) au-dessus de la grille produit fait une diff\u00e9rence mesurable",
               "Corriger la structure des titres : un H1 par page contenant le mot-cl\u00e9 principal, hi\u00e9rarchie logique H2/H3 couvrant les sous-th\u00e8mes",
             ],
           },
@@ -524,7 +524,7 @@ export const guidesBeginnerToHeroT: Record<
       },
       {
         id: "stage-4-technical",
-        title: "\u00c9tape 4 \u2014 Technique (Semaines 7\u20138)",
+        title: "\u00c9tape 4 - Technique (Semaines 7-8)",
         blocks: [
           {
             type: "p",
@@ -533,9 +533,9 @@ export const guidesBeginnerToHeroT: Record<
           {
             type: "list",
             items: [
-              "Faire un crawl complet avec Screaming Frog (gratuit jusqu\u2019\u00e0 500 URLs) ou Ahrefs Site Audit \u2014 chercher les erreurs 4xx, les cha\u00eenes de redirections, les balises title dupliqu\u00e9es, les canonical manquantes",
+              "Faire un crawl complet avec Screaming Frog (gratuit jusqu\u2019\u00e0 500 URLs) ou Ahrefs Site Audit - chercher les erreurs 4xx, les cha\u00eenes de redirections, les balises title dupliqu\u00e9es, les canonical manquantes",
               "V\u00e9rifier les Core Web Vitals dans GSC sous Exp\u00e9rience > Core Web Vitals. LCP sous 2,5 secondes, CLS sous 0,1, INP sous 200 ms",
-              "Compresser et convertir les images au format WebP \u2014 sur Shopify utiliser une app comme TinyIMG ; sur WooCommerce utiliser Imagify ou ShortPixel",
+              "Compresser et convertir les images au format WebP - sur Shopify utiliser une app comme TinyIMG ; sur WooCommerce utiliser Imagify ou ShortPixel",
               "Ajouter les donn\u00e9es structur\u00e9es : schema Product sur toutes les pages produit, BreadcrumbList sur toutes les pages, Organization sur la page d\u2019accueil",
               "Corriger le contenu dupliqu\u00e9 : s\u2019assurer que les balises canonical pointent vers la version pr\u00e9f\u00e9r\u00e9e de chaque page, notamment pour les URLs de cat\u00e9gorie filtr\u00e9es/tri\u00e9es",
             ],
@@ -548,7 +548,7 @@ export const guidesBeginnerToHeroT: Record<
       },
       {
         id: "stage-5-authority",
-        title: "\u00c9tape 5 \u2014 Autorit\u00e9 (Semaines 9+)",
+        title: "\u00c9tape 5 - Autorit\u00e9 (Semaines 9+)",
         blocks: [
           {
             type: "p",
@@ -557,9 +557,9 @@ export const guidesBeginnerToHeroT: Record<
           {
             type: "list",
             items: [
-              "Faire l\u2019analyse de gap de liens : trouver les domaines qui pointent vers vos 3 principaux concurrents mais pas vers vous \u2014 ce sont vos premi\u00e8res cibles d\u2019approche",
+              "Faire l\u2019analyse de gap de liens : trouver les domaines qui pointent vers vos 3 principaux concurrents mais pas vers vous - ce sont vos premi\u00e8res cibles d\u2019approche",
               "Cr\u00e9er du contenu qui m\u00e9rite d\u2019\u00eatre li\u00e9 : \u00e9tudes de donn\u00e9es, recherches originales, guides d\u2019achat, pages de comparaison. Pas des descriptions de produits effil\u00e9es.",
-              "Construire l\u2019autorit\u00e9 th\u00e9matique : publier un cluster d\u2019articles autour de vos cat\u00e9gories produit principales pour que Google percoive votre site comme une autorit\u00e9 sur ces sujets \u2014 voir /guides/topical-authority",
+              "Construire l\u2019autorit\u00e9 th\u00e9matique : publier un cluster d\u2019articles autour de vos cat\u00e9gories produit principales pour que Google percoive votre site comme une autorit\u00e9 sur ces sujets - voir /guides/topical-authority",
               "RP digital : contacter les journalistes et blogueurs couvrant votre niche avec des angles newsworthy (lancements produit, donn\u00e9es originales, tendances)",
               "Liens fournisseurs et partenaires : souvent n\u00e9glig\u00e9s mais faciles \u00e0 obtenir. Demandez aux fournisseurs, distributeurs et partenaires commerciaux de lier vers votre boutique",
             ],
@@ -582,7 +582,7 @@ export const guidesBeginnerToHeroT: Record<
           {
             type: "checklist",
             items: [
-              "Faire un nouveau crawl avec Screaming Frog et le comparer au trimestre pr\u00e9c\u00e9dent \u2014 chercher les nouvelles erreurs 4xx, les nouveaux contenus dupliqu\u00e9s, le gaspillage de budget de crawl",
+              "Faire un nouveau crawl avec Screaming Frog et le comparer au trimestre pr\u00e9c\u00e9dent - chercher les nouvelles erreurs 4xx, les nouveaux contenus dupliqu\u00e9s, le gaspillage de budget de crawl",
               "Extraire le rapport de r\u00e9sultats de recherche GSC pour tout le trimestre : quels mots-cl\u00e9s ont progress\u00e9, lesquels ont chut\u00e9 ? Investiguer les baisses avant de supposer une mise \u00e0 jour d\u2019algorithme.",
               "Exporter le CA organique GA4 pour le trimestre vs le m\u00eame trimestre l\u2019ann\u00e9e derni\u00e8re. En cas de baisse, retracer la chute vers des pages sp\u00e9cifiques via le rapport Pages de destination",
               "Mettre \u00e0 jour la liste de mots-cl\u00e9s : ajouter de nouveaux mots-cl\u00e9s depuis les donn\u00e9es d\u2019impressions GSC, supprimer les mots-cl\u00e9s pour lesquels vous avez atteint la page 1 et qui sont stables",
@@ -621,7 +621,7 @@ export const guidesBeginnerToHeroT: Record<
     sections: [
       {
         id: "what-this-course-is",
-        title: "Qu\u00e9 es este curso \u2014 y qu\u00e9 no es",
+        title: "Qu\u00e9 es este curso - y qu\u00e9 no es",
         blocks: [
           {
             type: "p",
@@ -634,7 +634,7 @@ export const guidesBeginnerToHeroT: Record<
           },
           {
             type: "p",
-            text: "El curso dura 9+ semanas. Cada etapa tiene entregables espec\u00edficos. Las semanas 1-2 son deliberadamente lentas \u2014 entender c\u00f3mo funciona Google antes de tocar nada no es opcional. Las tiendas que se saltan los fundamentos y saltan directamente a las t\u00e1cticas desperdician meses persiguiendo correcciones que no se mantienen.",
+            text: "El curso dura 9+ semanas. Cada etapa tiene entregables espec\u00edficos. Las semanas 1-2 son deliberadamente lentas - entender c\u00f3mo funciona Google antes de tocar nada no es opcional. Las tiendas que se saltan los fundamentos y saltan directamente a las t\u00e1cticas desperdician meses persiguiendo correcciones que no se mantienen.",
           },
           {
             type: "image",
@@ -646,7 +646,7 @@ export const guidesBeginnerToHeroT: Record<
       },
       {
         id: "stage-1-foundations",
-        title: "Etapa 1 \u2014 Fundamentos (Semanas 1\u20132)",
+        title: "Etapa 1 - Fundamentos (Semanas 1-2)",
         blocks: [
           {
             type: "p",
@@ -657,20 +657,20 @@ export const guidesBeginnerToHeroT: Record<
             items: [
               "Leer la documentaci\u00f3n oficial de Google sobre c\u00f3mo funciona la b\u00fasqueda (search.google.com/search/howsearchworks)",
               "Configurar Google Search Console: verificar la propiedad de dominio, enviar el sitemap, revisar el informe de Cobertura para detectar errores de rastreo",
-              "Configurar GA4 con Enhanced Ecommerce activado \u2014 seguir los pasos de la gu\u00eda de Analytics en /guides/analytics-tracking",
+              "Configurar GA4 con Enhanced Ecommerce activado - seguir los pasos de la gu\u00eda de Analytics en /guides/analytics-tracking",
               "Leer el checklist de fundamentos SEO en /guides/fundamentals y valorar tu propia tienda en cada punto",
-              "Usar la herramienta de Inspecci\u00f3n de URLs en GSC en tu p\u00e1gina de inicio y 3 p\u00e1ginas de producto \u2014 confirmar que Google puede rastrearlas e indexarlas",
+              "Usar la herramienta de Inspecci\u00f3n de URLs en GSC en tu p\u00e1gina de inicio y 3 p\u00e1ginas de producto - confirmar que Google puede rastrearlas e indexarlas",
             ],
           },
           {
             type: "tip",
-            text: "Entregable semana 2: una copia puntuada del checklist de fundamentos con notas sobre qu\u00e9 puntos no cumple tu tienda. Esto se convierte en tu primera lista de prioridades. No corrijas nada todav\u00eda \u2014 solo audita.",
+            text: "Entregable semana 2: una copia puntuada del checklist de fundamentos con notas sobre qu\u00e9 puntos no cumple tu tienda. Esto se convierte en tu primera lista de prioridades. No corrijas nada todav\u00eda - solo audita.",
           },
         ],
       },
       {
         id: "stage-2-research",
-        title: "Etapa 2 \u2014 Investigaci\u00f3n (Semanas 3\u20134)",
+        title: "Etapa 2 - Investigaci\u00f3n (Semanas 3-4)",
         blocks: [
           {
             type: "p",
@@ -679,15 +679,15 @@ export const guidesBeginnerToHeroT: Record<
           {
             type: "callout",
             title: "Tus 20 palabras clave m\u00e1s valiosas",
-            text: "Para el final de la semana 4, necesitas una lista priorizada de 20 palabras clave. No t\u00e9rminos de vanidad \u2014 sino consultas espec\u00edficas de productos y categor\u00edas donde posicionarse en la p\u00e1gina 1 generar\u00eda revenue directamente. Usa herramientas como Ahrefs, Semrush o Google Keyword Planner. Cruza con datos de GSC para ver para qu\u00e9 palabras clave ya rankeas en posici\u00f3n 11-50.",
+            text: "Para el final de la semana 4, necesitas una lista priorizada de 20 palabras clave. No t\u00e9rminos de vanidad - sino consultas espec\u00edficas de productos y categor\u00edas donde posicionarse en la p\u00e1gina 1 generar\u00eda revenue directamente. Usa herramientas como Ahrefs, Semrush o Google Keyword Planner. Cruza con datos de GSC para ver para qu\u00e9 palabras clave ya rankeas en posici\u00f3n 11-50.",
           },
           {
             type: "list",
             items: [
               "Mapear todo el cat\u00e1logo de productos: cada categor\u00eda de producto necesita al menos una palabra clave principal",
-              "Hacer an\u00e1lisis de gap de competidores: identificar 3 competidores directos y encontrar las palabras clave para las que rankean ellos pero t\u00fa no \u2014 ver la gu\u00eda de an\u00e1lisis de competidores en /guides/competitor-analysis",
+              "Hacer an\u00e1lisis de gap de competidores: identificar 3 competidores directos y encontrar las palabras clave para las que rankean ellos pero t\u00fa no - ver la gu\u00eda de an\u00e1lisis de competidores en /guides/competitor-analysis",
               "Investigar palabras clave con intenci\u00f3n de compra para las 10 principales categor\u00edas de productos (suelen tener modificadores: 'comprar', 'mejor', 'barato', t\u00e9rminos de comparaci\u00f3n de precios)",
-              "Investigar palabras clave informacionales para oportunidades de contenido (los compradores investigan antes de comprar \u2014 rankear para esos art\u00edculos genera confianza y enlaces)",
+              "Investigar palabras clave informacionales para oportunidades de contenido (los compradores investigan antes de comprar - rankear para esos art\u00edculos genera confianza y enlaces)",
               "Construir una hoja de c\u00e1lculo simple: palabra clave, volumen de b\u00fasqueda mensual, posici\u00f3n actual, URL de la p\u00e1gina objetivo",
             ],
           },
@@ -699,7 +699,7 @@ export const guidesBeginnerToHeroT: Record<
       },
       {
         id: "stage-3-on-page",
-        title: "Etapa 3 \u2014 On-Page (Semanas 5\u20136)",
+        title: "Etapa 3 - On-Page (Semanas 5-6)",
         blocks: [
           {
             type: "p",
@@ -711,7 +711,7 @@ export const guidesBeginnerToHeroT: Record<
               "Auditar las etiquetas de t\u00edtulo de todas las p\u00e1ginas que apuntan a tus 20 palabras clave: palabra clave principal cerca del inicio, menos de 60 caracteres, nombre de marca al final",
               "Auditar las meta descripciones: cada una debe leerse como un resumen \u00fatil, incluir la palabra clave de forma natural y tener menos de 155 caracteres",
               "Auditar el contenido de las p\u00e1ginas de producto: \u00bftiene cada p\u00e1gina de producto al menos 200 palabras de texto original? Las descripciones gen\u00e9ricas del fabricante perjudican las posiciones.",
-              "Auditar el contenido de las p\u00e1ginas de categor\u00eda: Google necesita texto para entender de qu\u00e9 trata una p\u00e1gina de categor\u00eda \u2014 un breve p\u00e1rrafo introductorio (100-200 palabras) encima de la cuadr\u00edcula de productos marca una diferencia medible",
+              "Auditar el contenido de las p\u00e1ginas de categor\u00eda: Google necesita texto para entender de qu\u00e9 trata una p\u00e1gina de categor\u00eda - un breve p\u00e1rrafo introductorio (100-200 palabras) encima de la cuadr\u00edcula de productos marca una diferencia medible",
               "Corregir la estructura de encabezados: un H1 por p\u00e1gina que contenga la palabra clave principal, jerarqu\u00eda l\u00f3gica H2/H3 cubriendo los subtemas",
             ],
           },
@@ -724,7 +724,7 @@ export const guidesBeginnerToHeroT: Record<
       },
       {
         id: "stage-4-technical",
-        title: "Etapa 4 \u2014 T\u00e9cnico (Semanas 7\u20138)",
+        title: "Etapa 4 - T\u00e9cnico (Semanas 7-8)",
         blocks: [
           {
             type: "p",
@@ -733,9 +733,9 @@ export const guidesBeginnerToHeroT: Record<
           {
             type: "list",
             items: [
-              "Ejecutar un rastreo completo con Screaming Frog (gratuito hasta 500 URLs) o Ahrefs Site Audit \u2014 buscar errores 4xx, cadenas de redirecci\u00f3n, etiquetas de t\u00edtulo duplicadas, canonical tags faltantes",
+              "Ejecutar un rastreo completo con Screaming Frog (gratuito hasta 500 URLs) o Ahrefs Site Audit - buscar errores 4xx, cadenas de redirecci\u00f3n, etiquetas de t\u00edtulo duplicadas, canonical tags faltantes",
               "Comprobar Core Web Vitals en GSC bajo Experiencia > Core Web Vitals. LCP por debajo de 2,5 segundos, CLS por debajo de 0,1, INP por debajo de 200 ms",
-              "Comprimir y convertir im\u00e1genes al formato WebP \u2014 en Shopify usar una app como TinyIMG; en WooCommerce usar Imagify o ShortPixel",
+              "Comprimir y convertir im\u00e1genes al formato WebP - en Shopify usar una app como TinyIMG; en WooCommerce usar Imagify o ShortPixel",
               "A\u00f1adir datos estructurados: schema Product en todas las p\u00e1ginas de producto, BreadcrumbList en todas las p\u00e1ginas, Organization en la p\u00e1gina de inicio",
               "Corregir el contenido duplicado: asegurarse de que los canonical tags apunten a la versi\u00f3n preferida de cada p\u00e1gina, especialmente para URLs de categor\u00eda filtradas/ordenadas",
             ],
@@ -748,7 +748,7 @@ export const guidesBeginnerToHeroT: Record<
       },
       {
         id: "stage-5-authority",
-        title: "Etapa 5 \u2014 Autoridad (Semanas 9+)",
+        title: "Etapa 5 - Autoridad (Semanas 9+)",
         blocks: [
           {
             type: "p",
@@ -757,9 +757,9 @@ export const guidesBeginnerToHeroT: Record<
           {
             type: "list",
             items: [
-              "Hacer el an\u00e1lisis de gap de enlaces: encontrar los dominios que enlazan a tus 3 principales competidores pero no a ti \u2014 estos son tus primeros objetivos de outreach",
+              "Hacer el an\u00e1lisis de gap de enlaces: encontrar los dominios que enlazan a tus 3 principales competidores pero no a ti - estos son tus primeros objetivos de outreach",
               "Crear contenido que merezca ser enlazado: estudios de datos, investigaci\u00f3n original, gu\u00edas de compra, p\u00e1ginas de comparaci\u00f3n. No descripciones de productos escuetas.",
-              "Construir autoridad tem\u00e1tica: publicar un cluster de art\u00edculos en torno a tus categor\u00edas principales de producto para que Google perciba tu sitio como una autoridad en esos temas \u2014 ver /guides/topical-authority",
+              "Construir autoridad tem\u00e1tica: publicar un cluster de art\u00edculos en torno a tus categor\u00edas principales de producto para que Google perciba tu sitio como una autoridad en esos temas - ver /guides/topical-authority",
               "PR digital: contactar a periodistas y bloggers que cubren tu nicho con \u00e1ngulos con valor noticioso (lanzamientos de producto, datos originales, tendencias del sector)",
               "Enlaces de proveedores y socios: a menudo ignorados pero f\u00e1ciles de conseguir. Pide a proveedores, distribuidores y socios comerciales que enlacen a tu tienda",
             ],
@@ -782,7 +782,7 @@ export const guidesBeginnerToHeroT: Record<
           {
             type: "checklist",
             items: [
-              "Ejecutar un nuevo rastreo con Screaming Frog y comparar con el trimestre anterior \u2014 buscar nuevos errores 4xx, nuevo contenido duplicado, gasto de presupuesto de rastreo",
+              "Ejecutar un nuevo rastreo con Screaming Frog y comparar con el trimestre anterior - buscar nuevos errores 4xx, nuevo contenido duplicado, gasto de presupuesto de rastreo",
               "Extraer el informe de Resultados de b\u00fasqueda de GSC para todo el trimestre: \u00bfqu\u00e9 palabras clave han mejorado, cu\u00e1les han ca\u00eddo? Investigar las ca\u00eddas antes de asumir actualizaciones de algoritmo.",
               "Exportar el revenue org\u00e1nico de GA4 para el trimestre vs el mismo trimestre del a\u00f1o anterior. Si ha bajado, rastrear la ca\u00edda hasta p\u00e1ginas espec\u00edficas usando el informe de P\u00e1ginas de destino",
               "Actualizar la lista de palabras clave: a\u00f1adir nuevas palabras clave desde datos de impresiones de GSC, eliminar palabras clave donde ya se ha alcanzado la p\u00e1gina 1 y est\u00e1n estables",
@@ -821,7 +821,7 @@ export const guidesBeginnerToHeroT: Record<
     sections: [
       {
         id: "what-this-course-is",
-        title: "Cos\u2019\u00e8 questo corso \u2014 e cosa non \u00e8",
+        title: "Cos\u2019\u00e8 questo corso - e cosa non \u00e8",
         blocks: [
           {
             type: "p",
@@ -834,7 +834,7 @@ export const guidesBeginnerToHeroT: Record<
           },
           {
             type: "p",
-            text: "Il corso dura 9+ settimane. Ogni fase ha deliverable concreti. Le settimane 1-2 sono deliberatamente lente \u2014 capire come funziona Google prima di toccare qualsiasi cosa non \u00e8 opzionale. I negozi che saltano le fondamenta e vanno direttamente alle tattiche sprecano mesi a rincorrere correzioni che non reggono.",
+            text: "Il corso dura 9+ settimane. Ogni fase ha deliverable concreti. Le settimane 1-2 sono deliberatamente lente - capire come funziona Google prima di toccare qualsiasi cosa non \u00e8 opzionale. I negozi che saltano le fondamenta e vanno direttamente alle tattiche sprecano mesi a rincorrere correzioni che non reggono.",
           },
           {
             type: "image",
@@ -846,7 +846,7 @@ export const guidesBeginnerToHeroT: Record<
       },
       {
         id: "stage-1-foundations",
-        title: "Fase 1 \u2014 Fondamenta (Settimane 1\u20132)",
+        title: "Fase 1 - Fondamenta (Settimane 1-2)",
         blocks: [
           {
             type: "p",
@@ -857,20 +857,20 @@ export const guidesBeginnerToHeroT: Record<
             items: [
               "Leggere la documentazione ufficiale di Google su come funziona la ricerca (search.google.com/search/howsearchworks)",
               "Configurare Google Search Console: verificare la propriet\u00e0 di dominio, inviare la sitemap, controllare il report di Copertura per gli errori di scansione",
-              "Configurare GA4 con l\u2019e-commerce avanzato attivo \u2014 seguire i passaggi nella guida Analytics su /guides/analytics-tracking",
+              "Configurare GA4 con l\u2019e-commerce avanzato attivo - seguire i passaggi nella guida Analytics su /guides/analytics-tracking",
               "Leggere la checklist dei fondamentali SEO su /guides/fundamentals e valutare il proprio negozio su ogni punto",
-              "Usare lo strumento di Controllo URL in GSC sulla homepage e su 3 pagine prodotto \u2014 confermare che Google possa eseguire la scansione e indicizzarle",
+              "Usare lo strumento di Controllo URL in GSC sulla homepage e su 3 pagine prodotto - confermare che Google possa eseguire la scansione e indicizzarle",
             ],
           },
           {
             type: "tip",
-            text: "Deliverable settimana 2: una copia valutata della checklist dei fondamentali con note su quali punti il negozio non soddisfa. Questa diventa la tua prima lista di priorit\u00e0. Non correggere ancora niente \u2014 solo auditare.",
+            text: "Deliverable settimana 2: una copia valutata della checklist dei fondamentali con note su quali punti il negozio non soddisfa. Questa diventa la tua prima lista di priorit\u00e0. Non correggere ancora niente - solo auditare.",
           },
         ],
       },
       {
         id: "stage-2-research",
-        title: "Fase 2 \u2014 Ricerca (Settimane 3\u20134)",
+        title: "Fase 2 - Ricerca (Settimane 3-4)",
         blocks: [
           {
             type: "p",
@@ -879,15 +879,15 @@ export const guidesBeginnerToHeroT: Record<
           {
             type: "callout",
             title: "Le tue 20 keyword pi\u00f9 preziose",
-            text: "Entro la fine della settimana 4 hai bisogno di una lista prioritizzata di 20 keyword. Non termini di vanit\u00e0 \u2014 ma query specifiche di prodotto e categoria dove posizionarsi in prima pagina genererebbe direttamente fatturato. Usa strumenti come Ahrefs, Semrush o Google Keyword Planner. Incrocia con i dati GSC per vedere per quali keyword sei gi\u00e0 in posizione 11-50.",
+            text: "Entro la fine della settimana 4 hai bisogno di una lista prioritizzata di 20 keyword. Non termini di vanit\u00e0 - ma query specifiche di prodotto e categoria dove posizionarsi in prima pagina genererebbe direttamente fatturato. Usa strumenti come Ahrefs, Semrush o Google Keyword Planner. Incrocia con i dati GSC per vedere per quali keyword sei gi\u00e0 in posizione 11-50.",
           },
           {
             type: "list",
             items: [
               "Mappare l\u2019intero catalogo prodotti: ogni categoria prodotto ha bisogno di almeno una keyword principale",
-              "Fare un\u2019analisi del gap dei competitor: identificare 3 concorrenti diretti e trovare le keyword per cui si posizionano loro ma non tu \u2014 vedi la guida di analisi competitiva su /guides/competitor-analysis",
+              "Fare un\u2019analisi del gap dei competitor: identificare 3 concorrenti diretti e trovare le keyword per cui si posizionano loro ma non tu - vedi la guida di analisi competitiva su /guides/competitor-analysis",
               "Ricercare keyword con intento di acquisto per le 10 principali categorie di prodotto (solitamente hanno modificatori: 'acquistare', 'migliore', 'economico', termini di confronto prezzi)",
-              "Ricercare keyword informazionali per opportunit\u00e0 di contenuto (i compratori ricercano prima di acquistare \u2014 posizionarsi per quegli articoli costruisce fiducia e link)",
+              "Ricercare keyword informazionali per opportunit\u00e0 di contenuto (i compratori ricercano prima di acquistare - posizionarsi per quegli articoli costruisce fiducia e link)",
               "Costruire un semplice foglio di calcolo: keyword, volume di ricerca mensile, posizione attuale, URL della pagina target",
             ],
           },
@@ -899,7 +899,7 @@ export const guidesBeginnerToHeroT: Record<
       },
       {
         id: "stage-3-on-page",
-        title: "Fase 3 \u2014 On-Page (Settimane 5\u20136)",
+        title: "Fase 3 - On-Page (Settimane 5-6)",
         blocks: [
           {
             type: "p",
@@ -911,7 +911,7 @@ export const guidesBeginnerToHeroT: Record<
               "Auditare i tag title di tutte le pagine che puntano alle 20 keyword: keyword principale vicino all\u2019inizio, sotto i 60 caratteri, nome del brand alla fine",
               "Auditare le meta description: ognuna dovrebbe sembrare un riassunto utile, includere la keyword in modo naturale e restare sotto i 155 caratteri",
               "Auditare i contenuti delle pagine prodotto: ogni pagina prodotto ha almeno 200 parole di testo originale? Le descrizioni generiche del produttore penalizzano le posizioni.",
-              "Auditare i contenuti delle pagine categoria: Google ha bisogno di testo per capire di cosa tratta una pagina categoria \u2014 un breve paragrafo introduttivo (100-200 parole) sopra la griglia prodotti fa una differenza misurabile",
+              "Auditare i contenuti delle pagine categoria: Google ha bisogno di testo per capire di cosa tratta una pagina categoria - un breve paragrafo introduttivo (100-200 parole) sopra la griglia prodotti fa una differenza misurabile",
               "Correggere la struttura dei titoli: un H1 per pagina contenente la keyword principale, gerarchia logica H2/H3 che copre i sottotemi",
             ],
           },
@@ -924,7 +924,7 @@ export const guidesBeginnerToHeroT: Record<
       },
       {
         id: "stage-4-technical",
-        title: "Fase 4 \u2014 Tecnica (Settimane 7\u20138)",
+        title: "Fase 4 - Tecnica (Settimane 7-8)",
         blocks: [
           {
             type: "p",
@@ -933,9 +933,9 @@ export const guidesBeginnerToHeroT: Record<
           {
             type: "list",
             items: [
-              "Eseguire una scansione completa con Screaming Frog (gratuito fino a 500 URL) o Ahrefs Site Audit \u2014 cercare errori 4xx, catene di redirect, tag title duplicati, tag canonical mancanti",
+              "Eseguire una scansione completa con Screaming Frog (gratuito fino a 500 URL) o Ahrefs Site Audit - cercare errori 4xx, catene di redirect, tag title duplicati, tag canonical mancanti",
               "Controllare i Core Web Vitals in GSC sotto Esperienza > Core Web Vitals. LCP sotto 2,5 secondi, CLS sotto 0,1, INP sotto 200 ms",
-              "Comprimere e convertire le immagini in formato WebP \u2014 su Shopify usa un\u2019app come TinyIMG; su WooCommerce usa Imagify o ShortPixel",
+              "Comprimere e convertire le immagini in formato WebP - su Shopify usa un\u2019app come TinyIMG; su WooCommerce usa Imagify o ShortPixel",
               "Aggiungere dati strutturati: schema Product su tutte le pagine prodotto, BreadcrumbList su tutte le pagine, Organization sulla homepage",
               "Correggere i contenuti duplicati: assicurarsi che i tag canonical puntino alla versione preferita di ogni pagina, specialmente per URL di categoria filtrate/ordinate",
             ],
@@ -948,7 +948,7 @@ export const guidesBeginnerToHeroT: Record<
       },
       {
         id: "stage-5-authority",
-        title: "Fase 5 \u2014 Autorit\u00e0 (Settimane 9+)",
+        title: "Fase 5 - Autorit\u00e0 (Settimane 9+)",
         blocks: [
           {
             type: "p",
@@ -957,9 +957,9 @@ export const guidesBeginnerToHeroT: Record<
           {
             type: "list",
             items: [
-              "Fare l\u2019analisi del gap di link: trovare i domini che linkano ai tuoi 3 principali competitor ma non a te \u2014 questi sono i tuoi primi target di outreach",
+              "Fare l\u2019analisi del gap di link: trovare i domini che linkano ai tuoi 3 principali competitor ma non a te - questi sono i tuoi primi target di outreach",
               "Creare contenuto che meriti di essere linkato: studi sui dati, ricerche originali, guide all\u2019acquisto, pagine di confronto. Non descrizioni di prodotto scarne.",
-              "Costruire autorit\u00e0 tematica: pubblicare un cluster di articoli intorno alle tue categorie prodotto principali perch\u00e9 Google percepisca il tuo sito come un\u2019autorit\u00e0 su quei temi \u2014 vedi /guides/topical-authority",
+              "Costruire autorit\u00e0 tematica: pubblicare un cluster di articoli intorno alle tue categorie prodotto principali perch\u00e9 Google percepisca il tuo sito come un\u2019autorit\u00e0 su quei temi - vedi /guides/topical-authority",
               "PR digitale: contattare giornalisti e blogger che coprono la tua nicchia con angolazioni degne di nota (lanci di prodotto, dati originali, articoli di tendenza)",
               "Link da fornitori e partner: spesso ignorati ma facili da ottenere. Chiedi a fornitori, distributori e partner commerciali di linkare al tuo negozio",
             ],
@@ -982,7 +982,7 @@ export const guidesBeginnerToHeroT: Record<
           {
             type: "checklist",
             items: [
-              "Eseguire una nuova scansione con Screaming Frog e confrontarla con il trimestre precedente \u2014 cercare nuovi errori 4xx, nuovi contenuti duplicati, spreco di budget di scansione",
+              "Eseguire una nuova scansione con Screaming Frog e confrontarla con il trimestre precedente - cercare nuovi errori 4xx, nuovi contenuti duplicati, spreco di budget di scansione",
               "Estrarre il report dei Risultati di ricerca GSC per l\u2019intero trimestre: quali keyword sono migliorate, quali sono calate? Indagare i cali prima di ipotizzare aggiornamenti algoritmo.",
               "Esportare il fatturato organico GA4 per il trimestre vs lo stesso trimestre dell\u2019anno precedente. In caso di calo, risalire al calo verso pagine specifiche usando il report Pagine di destinazione",
               "Aggiornare la lista keyword: aggiungere nuove keyword dai dati di impressioni GSC, rimuovere keyword dove si \u00e8 raggiunta la prima pagina e sono stabili",
@@ -1021,7 +1021,7 @@ export const guidesBeginnerToHeroT: Record<
     sections: [
       {
         id: "what-this-course-is",
-        title: "Wat deze cursus is \u2014 en wat niet",
+        title: "Wat deze cursus is - en wat niet",
         blocks: [
           {
             type: "p",
@@ -1034,7 +1034,7 @@ export const guidesBeginnerToHeroT: Record<
           },
           {
             type: "p",
-            text: "De cursus loopt over 9+ weken. Elke fase heeft concrete deliverables. Weken 1-2 zijn bewust traag \u2014 begrijpen hoe Google werkt voordat je iets aanraakt is niet optioneel. Winkels die de basis overslaan en direct naar tactieken springen, verspillen maanden aan het najagen van fixes die niet standhouden.",
+            text: "De cursus loopt over 9+ weken. Elke fase heeft concrete deliverables. Weken 1-2 zijn bewust traag - begrijpen hoe Google werkt voordat je iets aanraakt is niet optioneel. Winkels die de basis overslaan en direct naar tactieken springen, verspillen maanden aan het najagen van fixes die niet standhouden.",
           },
           {
             type: "image",
@@ -1046,7 +1046,7 @@ export const guidesBeginnerToHeroT: Record<
       },
       {
         id: "stage-1-foundations",
-        title: "Fase 1 \u2014 Fundament (Weken 1\u20132)",
+        title: "Fase 1 - Fundament (Weken 1-2)",
         blocks: [
           {
             type: "p",
@@ -1057,20 +1057,20 @@ export const guidesBeginnerToHeroT: Record<
             items: [
               "Lees Google's eigen documentatie over hoe zoeken werkt (search.google.com/search/howsearchworks)",
               "Stel Google Search Console in: verifieer de domeinproperty, dien de sitemap in, controleer het dekkingsrapport op crawlfouten",
-              "Stel GA4 in met Enhanced Ecommerce ingeschakeld \u2014 volg de stappen in de Analytics-gids op /guides/analytics-tracking",
+              "Stel GA4 in met Enhanced Ecommerce ingeschakeld - volg de stappen in de Analytics-gids op /guides/analytics-tracking",
               "Lees de SEO-basischecklist op /guides/fundamentals en beoordeel je eigen winkel op elk punt",
-              "Gebruik de URL-inspectietool in GSC op je homepage en 3 productpagina's \u2014 bevestig dat Google ze kan crawlen en indexeren",
+              "Gebruik de URL-inspectietool in GSC op je homepage en 3 productpagina's - bevestig dat Google ze kan crawlen en indexeren",
             ],
           },
           {
             type: "tip",
-            text: "Deliverable week 2: een beoordeelde kopie van de basischecklist met notities over welke punten je winkel niet haalt. Dit wordt je eerste prioriteitenlijst. Herstel nog niets \u2014 alleen auditeren.",
+            text: "Deliverable week 2: een beoordeelde kopie van de basischecklist met notities over welke punten je winkel niet haalt. Dit wordt je eerste prioriteitenlijst. Herstel nog niets - alleen auditeren.",
           },
         ],
       },
       {
         id: "stage-2-research",
-        title: "Fase 2 \u2014 Onderzoek (Weken 3\u20134)",
+        title: "Fase 2 - Onderzoek (Weken 3-4)",
         blocks: [
           {
             type: "p",
@@ -1079,15 +1079,15 @@ export const guidesBeginnerToHeroT: Record<
           {
             type: "callout",
             title: "Jouw 20 meest waardevolle zoekwoorden",
-            text: "Aan het einde van week 4 heb je een geprioriteerde lijst van 20 zoekwoorden nodig. Geen vanity-termen \u2014 maar specifieke product- en categoriezoekopdrachten waarbij een ranking op pagina 1 direct omzet zou genereren. Gebruik tools zoals Ahrefs, Semrush of Google Keyword Planner. Kruisverwijzen met GSC-data om te zien voor welke zoekwoorden je al op positie 11-50 staat.",
+            text: "Aan het einde van week 4 heb je een geprioriteerde lijst van 20 zoekwoorden nodig. Geen vanity-termen - maar specifieke product- en categoriezoekopdrachten waarbij een ranking op pagina 1 direct omzet zou genereren. Gebruik tools zoals Ahrefs, Semrush of Google Keyword Planner. Kruisverwijzen met GSC-data om te zien voor welke zoekwoorden je al op positie 11-50 staat.",
           },
           {
             type: "list",
             items: [
               "Breng de volledige productcatalogus in kaart: elke productcategorie heeft minimaal \u00e9\u00e9n primair zoekwoord nodig",
-              "Voer een concurrentie-gapanalyse uit: identificeer 3 directe concurrenten en vind de zoekwoorden waarvoor zij ranken maar jij niet \u2014 zie de concurrentieanalysegids op /guides/competitor-analysis",
+              "Voer een concurrentie-gapanalyse uit: identificeer 3 directe concurrenten en vind de zoekwoorden waarvoor zij ranken maar jij niet - zie de concurrentieanalysegids op /guides/competitor-analysis",
               "Onderzoek zoekwoorden met koopintentie voor je 10 beste productcategorie\u00ebn (deze hebben doorgaans modifiers: 'kopen', 'beste', 'goedkoop', prijsvergelijkingstermen)",
-              "Onderzoek informatieve zoekwoorden voor contentmogelijkheden (kopers doen onderzoek v\u00f3\u00f3r de aankoop \u2014 rankeren voor die artikelen bouwt vertrouwen en links)",
+              "Onderzoek informatieve zoekwoorden voor contentmogelijkheden (kopers doen onderzoek v\u00f3\u00f3r de aankoop - rankeren voor die artikelen bouwt vertrouwen en links)",
               "Maak een eenvoudige spreadsheet: zoekwoord, maandelijks zoekvolume, huidige positie, doel-URL",
             ],
           },
@@ -1099,7 +1099,7 @@ export const guidesBeginnerToHeroT: Record<
       },
       {
         id: "stage-3-on-page",
-        title: "Fase 3 \u2014 On-Page (Weken 5\u20136)",
+        title: "Fase 3 - On-Page (Weken 5-6)",
         blocks: [
           {
             type: "p",
@@ -1111,7 +1111,7 @@ export const guidesBeginnerToHeroT: Record<
               "Controleer de title-tags van alle pagina's die je 20 zoekwoorden targeten: primair zoekwoord dichtbij het begin, onder 60 tekens, merknaam aan het einde",
               "Controleer de metabeschrijvingen: elke beschrijving moet lezen als een nuttige samenvatting, het zoekwoord op een natuurlijke manier bevatten en onder de 155 tekens blijven",
               "Controleer de content van productpagina's: heeft elke productpagina minimaal 200 woorden originele tekst? Generieke fabrikantbeschrijvingen schaden de posities.",
-              "Controleer de content van categoriepagina's: Google heeft tekst nodig om te begrijpen waar een categoriepagina over gaat \u2014 een korte inleidende alinea (100-200 woorden) boven het productgrid maakt een meetbaar verschil",
+              "Controleer de content van categoriepagina's: Google heeft tekst nodig om te begrijpen waar een categoriepagina over gaat - een korte inleidende alinea (100-200 woorden) boven het productgrid maakt een meetbaar verschil",
               "Herstel de koppenstructuur: \u00e9\u00e9n H1 per pagina met het primaire zoekwoord, logische H2/H3-hi\u00ebrarchie die subtopics dekt",
             ],
           },
@@ -1124,7 +1124,7 @@ export const guidesBeginnerToHeroT: Record<
       },
       {
         id: "stage-4-technical",
-        title: "Fase 4 \u2014 Technisch (Weken 7\u20138)",
+        title: "Fase 4 - Technisch (Weken 7-8)",
         blocks: [
           {
             type: "p",
@@ -1133,9 +1133,9 @@ export const guidesBeginnerToHeroT: Record<
           {
             type: "list",
             items: [
-              "Voer een volledige crawl uit met Screaming Frog (gratis tot 500 URL's) of Ahrefs Site Audit \u2014 zoek naar 4xx-fouten, omleidingsketens, dubbele title-tags, ontbrekende canonical-tags",
+              "Voer een volledige crawl uit met Screaming Frog (gratis tot 500 URL's) of Ahrefs Site Audit - zoek naar 4xx-fouten, omleidingsketens, dubbele title-tags, ontbrekende canonical-tags",
               "Controleer Core Web Vitals in GSC onder Ervaring > Core Web Vitals. LCP onder 2,5 seconden, CLS onder 0,1, INP onder 200 ms",
-              "Comprimeer en converteer afbeeldingen naar WebP-formaat \u2014 gebruik op Shopify een app als TinyIMG; op WooCommerce Imagify of ShortPixel",
+              "Comprimeer en converteer afbeeldingen naar WebP-formaat - gebruik op Shopify een app als TinyIMG; op WooCommerce Imagify of ShortPixel",
               "Voeg gestructureerde data toe: Product-schema op alle productpagina's, BreadcrumbList op alle pagina's, Organization op de homepage",
               "Herstel dubbele content: zorg dat canonical-tags verwijzen naar de gewenste versie van elke pagina, met name voor gefilterde/gesorteerde categorie-URL's",
             ],
@@ -1148,7 +1148,7 @@ export const guidesBeginnerToHeroT: Record<
       },
       {
         id: "stage-5-authority",
-        title: "Fase 5 \u2014 Autoriteit (Weken 9+)",
+        title: "Fase 5 - Autoriteit (Weken 9+)",
         blocks: [
           {
             type: "p",
@@ -1157,9 +1157,9 @@ export const guidesBeginnerToHeroT: Record<
           {
             type: "list",
             items: [
-              "Voer de linkgapanalyse uit: zoek de domeinen die naar je 3 topcompetitoren linken maar niet naar jou \u2014 dit zijn je eerste outreachtargets",
+              "Voer de linkgapanalyse uit: zoek de domeinen die naar je 3 topcompetitoren linken maar niet naar jou - dit zijn je eerste outreachtargets",
               "Maak content die het waard is om naar te linken: datastudies, origineel onderzoek, koopgidsen, vergelijkingspagina's. Geen dunne productbeschrijvingen.",
-              "Bouw thematische autoriteit op: publiceer een cluster van artikelen rond je kernproductcategorie\u00ebn zodat Google je site ziet als een autoriteit op die onderwerpen \u2014 zie /guides/topical-authority",
+              "Bouw thematische autoriteit op: publiceer een cluster van artikelen rond je kernproductcategorie\u00ebn zodat Google je site ziet als een autoriteit op die onderwerpen - zie /guides/topical-authority",
               "Digitale PR: benader journalisten en bloggers die jouw niche behandelen met nieuwswaardige invalshoeken (productlanceringen, originele data, trendartikelen)",
               "Links van leveranciers en partners: vaak over het hoofd gezien maar makkelijk te krijgen. Vraag leveranciers, distributeurs en zakenpartners om naar je winkel te linken",
             ],
@@ -1182,7 +1182,7 @@ export const guidesBeginnerToHeroT: Record<
           {
             type: "checklist",
             items: [
-              "Voer een nieuwe crawl uit met Screaming Frog en vergelijk met het vorige kwartaal \u2014 zoek naar nieuwe 4xx-fouten, nieuwe dubbele content, verspilling van crawlbudget",
+              "Voer een nieuwe crawl uit met Screaming Frog en vergelijk met het vorige kwartaal - zoek naar nieuwe 4xx-fouten, nieuwe dubbele content, verspilling van crawlbudget",
               "Haal het GSC-zoekresultatenrapport op voor het volledige kwartaal: welke zoekwoorden zijn verbeterd, welke zijn gedaald? Onderzoek dalingen voordat je algoritme-updates aanneemt.",
               "Exporteer de organische omzet van GA4 voor het kwartaal vs hetzelfde kwartaal vorig jaar. Als die is gedaald, traceer de daling naar specifieke pagina's via het rapport Bestemmingspagina's",
               "Ververs de zoekwoordenlijst: voeg nieuwe zoekwoorden toe uit GSC-vertoningsdata, verwijder zoekwoorden waarbij je pagina 1 hebt bereikt en stabiel bent",

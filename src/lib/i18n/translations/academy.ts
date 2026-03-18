@@ -116,7 +116,7 @@ export const academyT: Record<Locale, AcademyTranslation> = {
       },
       {
         title: "Link Building for Ecommerce",
-        description: "Links still decide which stores get page one. The problem: nobody links to product pages naturally. We cover what actually works for ecommerce \u2014 digital PR, outreach, broken link building, and the gaps your competitors left open.",
+        description: "Links still decide which stores get page one. The problem: nobody links to product pages naturally. We cover what actually works for ecommerce - digital PR, outreach, broken link building, and the gaps your competitors left open.",
         difficulty: "intermediate",
         topics: [
           { label: "Backlink Fundamentals for Ecommerce", href: "/academy/backlink-fundamentals-for-ecommerce" },
@@ -271,7 +271,7 @@ export const academyT: Record<Locale, AcademyTranslation> = {
       },
       {
         title: "Linkaufbau fur E-Commerce",
-        description: "Links entscheiden immer noch, wer auf Seite eins kommt. Das Problem: niemand verlinkt naturlich auf Produktseiten. Wir zeigen dir, was fur E-Commerce wirklich funktioniert \u2014 digitale PR, Outreach, Broken Link Building und Lucken, die deine Konkurrenten ubersehen haben.",
+        description: "Links entscheiden immer noch, wer auf Seite eins kommt. Das Problem: niemand verlinkt naturlich auf Produktseiten. Wir zeigen dir, was fur E-Commerce wirklich funktioniert - digitale PR, Outreach, Broken Link Building und Lucken, die deine Konkurrenten ubersehen haben.",
         difficulty: "intermediate",
         topics: [
           { label: "Backlink-Grundlagen fur E-Commerce", href: "/academy/backlink-fundamentals-for-ecommerce" },
@@ -336,7 +336,7 @@ export const academyT: Record<Locale, AcademyTranslation> = {
       },
     ],
     ctaHeading: "Sollen wir das fur dich ubernehmen?",
-    ctaDesc: "Wenn du lieber Spezialisten mit SEO beauftragen mochtest, wahrend du dein Geschaft fuhrst \u2014 genau das machen wir. Wir arbeiten mit E-Commerce-Marken im sieben- und achtstelligen Umsatzbereich.",
+    ctaDesc: "Wenn du lieber Spezialisten mit SEO beauftragen mochtest, wahrend du dein Geschaft fuhrst - genau das machen wir. Wir arbeiten mit E-Commerce-Marken im sieben- und achtstelligen Umsatzbereich.",
     ctaButton: "Kontakt aufnehmen",
   },
   fr: {
@@ -427,7 +427,7 @@ export const academyT: Record<Locale, AcademyTranslation> = {
       },
       {
         title: "Link building pour l'e-commerce",
-        description: "Les liens decident toujours qui obtient la premiere page. Le probleme : personne ne lie naturellement aux pages produit. On couvre ce qui marche vraiment pour l'e-commerce \u2014 RP digitales, outreach, broken link building et les opportunites que vos concurrents ont ratees.",
+        description: "Les liens decident toujours qui obtient la premiere page. Le probleme : personne ne lie naturellement aux pages produit. On couvre ce qui marche vraiment pour l'e-commerce - RP digitales, outreach, broken link building et les opportunites que vos concurrents ont ratees.",
         difficulty: "intermediate",
         topics: [
           { label: "Fondamentaux des backlinks pour l'e-commerce", href: "/academy/backlink-fundamentals-for-ecommerce" },
@@ -583,7 +583,7 @@ export const academyT: Record<Locale, AcademyTranslation> = {
       },
       {
         title: "Link building para e-commerce",
-        description: "Los enlaces siguen decidiendo quien obtiene la primera pagina. El problema: nadie enlaza naturalmente a paginas de producto. Cubrimos lo que realmente funciona para e-commerce \u2014 PR digital, outreach, broken link building y las oportunidades que tu competencia ha dejado pasar.",
+        description: "Los enlaces siguen decidiendo quien obtiene la primera pagina. El problema: nadie enlaza naturalmente a paginas de producto. Cubrimos lo que realmente funciona para e-commerce - PR digital, outreach, broken link building y las oportunidades que tu competencia ha dejado pasar.",
         difficulty: "intermediate",
         topics: [
           { label: "Fundamentos de backlinks para e-commerce", href: "/academy/backlink-fundamentals-for-ecommerce" },
@@ -738,7 +738,7 @@ export const academyT: Record<Locale, AcademyTranslation> = {
       },
       {
         title: "Link building per l'e-commerce",
-        description: "I link decidono ancora chi ottiene la prima pagina. Il problema: nessuno linka naturalmente alle pagine prodotto. Copriamo quello che funziona davvero per l'e-commerce \u2014 digital PR, outreach, broken link building e le opportunita che i tuoi concorrenti si sono persi.",
+        description: "I link decidono ancora chi ottiene la prima pagina. Il problema: nessuno linka naturalmente alle pagine prodotto. Copriamo quello che funziona davvero per l'e-commerce - digital PR, outreach, broken link building e le opportunita che i tuoi concorrenti si sono persi.",
         difficulty: "intermediate",
         topics: [
           { label: "Fondamenti di backlink per l'e-commerce", href: "/academy/backlink-fundamentals-for-ecommerce" },
@@ -894,7 +894,7 @@ export const academyT: Record<Locale, AcademyTranslation> = {
       },
       {
         title: "Linkbuilding voor e-commerce",
-        description: "Links beslissen nog steeds wie pagina een krijgt. Het probleem: niemand linkt natuurlijk naar productpagina's. We behandelen wat echt werkt voor e-commerce \u2014 digitale PR, outreach, broken link building en de kansen die je concurrenten hebben laten liggen.",
+        description: "Links beslissen nog steeds wie pagina een krijgt. Het probleem: niemand linkt natuurlijk naar productpagina's. We behandelen wat echt werkt voor e-commerce - digitale PR, outreach, broken link building en de kansen die je concurrenten hebben laten liggen.",
         difficulty: "intermediate",
         topics: [
           { label: "Backlink-basisprincipes voor e-commerce", href: "/academy/backlink-fundamentals-for-ecommerce" },

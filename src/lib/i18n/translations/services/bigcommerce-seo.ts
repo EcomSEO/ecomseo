@@ -5,17 +5,18 @@ export const bigcommerceSeoData: Record<Locale, ServicePageProps> = {
   en: {
     hero: {
       badge: "BigCommerce Experts",
-      heading: "BigCommerce SEO for High-SKU Catalogs",
+      heading: "The BigCommerce SEO Agency for High-SKU Catalogs",
       subtitle:
         "Many SKUs? No worries, we got it covered. We optimize BigCommerce stores for crawlability, speed, and organic revenue growth.",
       ctaText: "Book a BigCommerce SEO Audit",
     },
     trustBar: "Trusted by 20+ BigCommerce stores scaling organic revenue",
+    trustBarIcon: "bigcommerce" as const,
     sections: [
       {
         type: "stats",
         badge: "Track Record",
-        heading: "Numbers That Speak for Themselves",
+        heading: "Our BigCommerce SEO Track Record",
         stats: [
           { value: "8+", label: "Years of Ecommerce SEO" },
           { value: "$12M+", label: "Revenue Generated" },
@@ -93,9 +94,9 @@ export const bigcommerceSeoData: Record<Locale, ServicePageProps> = {
       },
       {
         type: "caseStudies",
-        badge: "Proven Results",
-        heading: "What Happens When BigCommerce SEO Is Done Right",
-        subtitle: "Real stores, real numbers. Here's what our ecommerce SEO work looks like in practice.",
+        badge: "Case Studies",
+        heading: "Client Results From Our BigCommerce SEO Work",
+        subtitle: "Recent examples from our BigCommerce engagements.",
         caseStudies: [
           {
             badge: "Health & Wellness · Ecommerce",
@@ -187,7 +188,7 @@ export const bigcommerceSeoData: Record<Locale, ServicePageProps> = {
       {
         type: "richText",
         badge: "BigCommerce Enterprise",
-        heading: "BigCommerce Enterprise SEO — Built for Scale",
+        heading: "BigCommerce Enterprise SEO, Built for Scale",
         subtitle: "BigCommerce Enterprise stores face unique SEO challenges that standard plans don't encounter.",
         richTextBlocks: [
           {
@@ -204,41 +205,42 @@ export const bigcommerceSeoData: Record<Locale, ServicePageProps> = {
         richTextBlocks: [
           {
             heading: "What Generic Agencies Miss",
-            body: "BigCommerce's URL structure limitations compared to open-source platforms, faceted navigation that creates thousands of duplicate URLs, Stencil theme optimization for speed and crawlability, built-in features that conflict with third-party SEO tools, multi-storefront canonical management, and BigCommerce API integration for bulk product optimization. We only work with ecommerce brands — every team member has hands-on experience inside BigCommerce stores.",
+            body: "BigCommerce's URL structure limitations compared to open-source platforms, faceted navigation that creates thousands of duplicate URLs, Stencil theme optimization for speed and crawlability, built-in features that conflict with third-party SEO tools, multi-storefront canonical management, and BigCommerce API integration for bulk product optimization. We only work with ecommerce brands, every team member has hands-on experience inside BigCommerce stores.",
           },
         ],
       },
       {
         type: "team",
         badge: "The Team",
-        heading: "The BigCommerce SEO Specialists Behind Your Growth",
+        heading: "Meet the Team",
         teamLead: {
           name: "Fabian van Til",
           role: "Strategy & Innovation",
-          bio: "Leads the strategic direction for all client engagements. 8+ years of ecommerce SEO experience across fashion, health, beauty, and home goods verticals. Blends growth strategy with technical SEO innovation.",
+          bio: "Fabian runs the SEO strategy for every BigCommerce client. 8 years focused exclusively on ecommerce SEO. He owns the roadmap and decides what gets prioritized.",
           image: "/images/framer/C23VbBxvj2kY5TMoXAJHXWVLaA.webp",
           linkedin: "https://www.linkedin.com/in/fabianvantil/",
         },
         teamMembers: [
           {
             name: "Dimitar Georgiev",
-            role: "Technical SEO Lead",
-            bio: "Architects the technical SEO foundations. Specializes in ecommerce platform optimization, structured data, and site architecture. Builds the free SEO tools on this site.",
+            role: "Technical & On-Page SEO",
+            bio: "Dimitar handles the technical and on-page SEO. He works on platform optimization, structured data, and site architecture. He also builds the free SEO tools on this site.",
             image: "/images/framer/Q3tfuu2ytPAotONsFoP1ouyPZic.png",
             linkedin: "https://www.linkedin.com/in/dimitar-georgiev-seo/",
           },
           {
             name: "Martinijan Trajkovski",
             role: "Off-Page & Link Building",
-            bio: "Masters link acquisition and digital PR at scale. Builds backlink profiles that move the needle for competitive ecommerce keywords across European and US markets.",
+            bio: "Martinijan runs outreach and digital PR. He builds the backlink profiles that help ecommerce stores rank for competitive keywords across European and US markets.",
             image: "/images/framer/CBAq5E76Hb1mj6ehAOixPYBjN1w.png",
             linkedin: "https://mk.linkedin.com/in/martinijan-trajkovski-7678b6bb",
           },
           {
             name: "Gjorgi Jovev",
-            role: "On-Page & Content Strategy",
-            bio: "Crafts content strategies and on-page optimizations that rank and convert. Specializes in product and collection page optimization, keyword research, and editorial planning.",
+            role: "Content, Link Building & PR",
+            bio: "Gjorgi writes the content, handles on-page optimization for product and collection pages, and runs link building and PR campaigns. He also does keyword research, editorial planning, and outreach to earn backlinks.",
             image: "/images/framer/gjorgi-jovev.png",
+            linkedin: "https://www.linkedin.com/in/gjorgi-jovev/",
           },
         ],
       },
@@ -246,10 +248,10 @@ export const bigcommerceSeoData: Record<Locale, ServicePageProps> = {
         type: "deliverables",
         badge: "Deliverables",
         heading: "What You Get Every Month",
-        subtitle: "Transparent reporting and tangible outputs — no fluff, no vanity metrics. Everything is tied to your revenue goals.",
+        subtitle: "Transparent reporting and tangible outputs, no fluff, no vanity metrics. Everything is tied to your revenue goals.",
         deliverables: [
           { title: "Technical Audit", description: "Full crawl + prioritized fix list with implementation tracking" },
-          { title: "Schema Markup", description: "Product, breadcrumb, and organization JSON-LD — validated and monitored" },
+          { title: "Schema Markup", description: "Product, breadcrumb, and organization JSON-LD, validated and monitored" },
           { title: "Speed Optimization", description: "Core Web Vitals improvements with before/after benchmarks" },
           { title: "Keyword Research", description: "Monthly keyword opportunity analysis with buyer intent classification" },
           { title: "Content Creation", description: "SEO-optimized product descriptions, category content, and blog posts" },
@@ -302,17 +304,18 @@ export const bigcommerceSeoData: Record<Locale, ServicePageProps> = {
   de: {
     hero: {
       badge: "BigCommerce-Experten",
-      heading: "BigCommerce SEO f\u00fcr umfangreiche Produktkataloge",
+      heading: "Die BigCommerce-SEO-Agentur f\u00fcr umfangreiche Produktkataloge",
       subtitle:
-        "Viele SKUs? Kein Problem \u2014 wir k\u00fcmmern uns darum. Wir optimieren BigCommerce-Shops f\u00fcr Crawlbarkeit, Geschwindigkeit und organisches Umsatzwachstum.",
+        "Viele SKUs? Kein Problem - wir k\u00fcmmern uns darum. Wir optimieren BigCommerce-Shops f\u00fcr Crawlbarkeit, Geschwindigkeit und organisches Umsatzwachstum.",
       ctaText: "BigCommerce SEO-Audit buchen",
     },
     trustBar: "Mehr als 20 BigCommerce-Shops vertrauen auf unser organisches Wachstum",
+    trustBarIcon: "bigcommerce" as const,
     sections: [
       {
         type: "stats",
         badge: "Erfolgsbilanz",
-        heading: "Zahlen, die für sich sprechen",
+        heading: "Unsere BigCommerce-SEO-Kennzahlen",
         stats: [
           { value: "8+", label: "Jahre E-Commerce-SEO" },
           { value: "$12M+", label: "Generierter Umsatz" },
@@ -390,9 +393,9 @@ export const bigcommerceSeoData: Record<Locale, ServicePageProps> = {
       },
       {
         type: "caseStudies",
-        badge: "Nachgewiesene Ergebnisse",
-        heading: "Was passiert, wenn BigCommerce SEO richtig gemacht wird",
-        subtitle: "Echte Shops, echte Zahlen. So sieht unsere E-Commerce-SEO-Arbeit in der Praxis aus.",
+        badge: "Fallstudien",
+        heading: "BigCommerce-SEO in der Praxis: Kundenprojekte",
+        subtitle: "Konkrete Ergebnisse aus BigCommerce-Optimierungsprojekten verschiedener Branchen.",
         caseStudies: [
           {
             badge: "Gesundheit & Wellness · E-Commerce",
@@ -439,14 +442,14 @@ export const bigcommerceSeoData: Record<Locale, ServicePageProps> = {
           {
             number: "01",
             title: "Facettennavigation zuerst beheben",
-            body: "Die Facettensuche von BigCommerce erzeugt standardmäßig Hunderte indexierbarer Filter-URLs. Nutzen Sie robots.txt und Canonical-Tags, um Filterkombinationen von der Indexierung auszuschließen. Diese einzelne Maßnahme kann 30–50 % des verschwendeten Crawl-Budgets zurückgewinnen.",
+            body: "Die Facettensuche von BigCommerce erzeugt standardmäßig Hunderte indexierbarer Filter-URLs. Nutzen Sie robots.txt und Canonical-Tags, um Filterkombinationen von der Indexierung auszuschließen. Diese einzelne Maßnahme kann 30-50 % des verschwendeten Crawl-Budgets zurückgewinnen.",
             href: "/academy/crawl-budget-management",
             hrefLabel: "Crawl-Budget-Leitfaden",
           },
           {
             number: "02",
             title: "Kategorie-Seiten-Content optimieren",
-            body: "BigCommerce-Kategorieseiten zeigen standardmäßig nur ein Produktraster. Fügen Sie 200–500 Wörter einzigartigen, keyword-reichen Content über oder unter dem Raster hinzu. Nutzen Sie das integrierte Beschreibungsfeld und Template-Anpassungen, damit Kategorien ranken.",
+            body: "BigCommerce-Kategorieseiten zeigen standardmäßig nur ein Produktraster. Fügen Sie 200-500 Wörter einzigartigen, keyword-reichen Content über oder unter dem Raster hinzu. Nutzen Sie das integrierte Beschreibungsfeld und Template-Anpassungen, damit Kategorien ranken.",
             href: "/academy/category-page-seo",
             hrefLabel: "Kategorieseiten-SEO-Leitfaden",
           },
@@ -484,7 +487,7 @@ export const bigcommerceSeoData: Record<Locale, ServicePageProps> = {
       {
         type: "richText",
         badge: "BigCommerce Enterprise",
-        heading: "BigCommerce Enterprise SEO — für Wachstum konzipiert",
+        heading: "BigCommerce Enterprise SEO, für Wachstum konzipiert",
         subtitle: "BigCommerce-Enterprise-Shops stehen vor einzigartigen SEO-Herausforderungen, die Standardtarife nicht kennen.",
         richTextBlocks: [
           {
@@ -501,41 +504,42 @@ export const bigcommerceSeoData: Record<Locale, ServicePageProps> = {
         richTextBlocks: [
           {
             heading: "Was generische Agenturen übersehen",
-            body: "Die URL-Strukturbeschränkungen von BigCommerce im Vergleich zu Open-Source-Plattformen, Facettennavigation, die Tausende doppelter URLs erzeugt, Stencil-Theme-Optimierung für Geschwindigkeit und Crawlbarkeit, integrierte Funktionen, die mit SEO-Tools von Drittanbietern in Konflikt stehen, Multi-Storefront-Canonical-Management und BigCommerce-API-Integration für Massenproduktoptimierung. Wir arbeiten ausschließlich mit E-Commerce-Marken — jedes Teammitglied hat praktische Erfahrung in BigCommerce-Shops.",
+            body: "Die URL-Strukturbeschränkungen von BigCommerce im Vergleich zu Open-Source-Plattformen, Facettennavigation, die Tausende doppelter URLs erzeugt, Stencil-Theme-Optimierung für Geschwindigkeit und Crawlbarkeit, integrierte Funktionen, die mit SEO-Tools von Drittanbietern in Konflikt stehen, Multi-Storefront-Canonical-Management und BigCommerce-API-Integration für Massenproduktoptimierung. Wir arbeiten ausschließlich mit E-Commerce-Marken, jedes Teammitglied hat praktische Erfahrung in BigCommerce-Shops.",
           },
         ],
       },
       {
         type: "team",
         badge: "Das Team",
-        heading: "Die BigCommerce-SEO-Spezialisten hinter Ihrem Wachstum",
+        heading: "Wer die Arbeit macht",
         teamLead: {
           name: "Fabian van Til",
           role: "Strategie & Innovation",
-          bio: "Leitet die strategische Ausrichtung aller Kundenprojekte. Über 8 Jahre E-Commerce-SEO-Erfahrung in den Bereichen Mode, Gesundheit, Beauty und Wohnaccessoires. Verbindet Wachstumsstrategie mit technischer SEO-Innovation.",
+          bio: "Fabian verantwortet die strategische Ausrichtung aller BigCommerce-Projekte. Über 8 Jahre E-Commerce-SEO-Erfahrung in Mode, Gesundheit, Beauty und Wohnaccessoires. Er verbindet Wachstumsstrategie mit technischer SEO-Innovation.",
           image: "/images/framer/C23VbBxvj2kY5TMoXAJHXWVLaA.webp",
           linkedin: "https://www.linkedin.com/in/fabianvantil/",
         },
         teamMembers: [
           {
             name: "Dimitar Georgiev",
-            role: "Technical SEO Lead",
-            bio: "Entwirft die technischen SEO-Grundlagen. Spezialisiert auf E-Commerce-Plattform-Optimierung, strukturierte Daten und Website-Architektur. Entwickelt die kostenlosen SEO-Tools auf dieser Website.",
+            role: "Technical & On-Page SEO",
+            bio: "Entwirft die technischen SEO-Grundlagen und On-Page-Optimierungen. Spezialisiert auf E-Commerce-Plattform-Optimierung, strukturierte Daten und Website-Architektur. Entwickelt die kostenlosen SEO-Tools auf dieser Website.",
             image: "/images/framer/Q3tfuu2ytPAotONsFoP1ouyPZic.png",
             linkedin: "https://www.linkedin.com/in/dimitar-georgiev-seo/",
           },
           {
             name: "Martinijan Trajkovski",
             role: "Off-Page & Linkaufbau",
-            bio: "Meistert Linkakquise und digitale PR im großen Maßstab. Baut Backlink-Profile auf, die bei wettbewerbsfähigen E-Commerce-Keywords auf europäischen und US-Märkten den Unterschied machen.",
+            bio: "Martinijan leitet Linkakquise und digitale PR im großen Maßstab. Er baut Backlink-Profile auf, die bei wettbewerbsfähigen E-Commerce-Keywords auf europäischen und US-Märkten den Unterschied machen.",
             image: "/images/framer/CBAq5E76Hb1mj6ehAOixPYBjN1w.png",
             linkedin: "https://mk.linkedin.com/in/martinijan-trajkovski-7678b6bb",
           },
           {
             name: "Gjorgi Jovev",
-            role: "On-Page & Content-Strategie",
-            bio: "Entwickelt Content-Strategien und On-Page-Optimierungen, die ranken und konvertieren. Spezialisiert auf Produkt- und Kategorieseiten-Optimierung, Keyword-Recherche und redaktionelle Planung.",
+            role: "Content, Linkaufbau & PR",
+            bio: "Entwickelt Content-Strategien, On-Page-Optimierungen, Linkaufbau und PR. Spezialisiert auf Produkt- und Kategorieseiten-Optimierung, Keyword-Recherche, redaktionelle Planung und Outreach-Kampagnen.",
             image: "/images/framer/gjorgi-jovev.png",
+            linkedin: "https://www.linkedin.com/in/gjorgi-jovev/",
           },
         ],
       },
@@ -543,10 +547,10 @@ export const bigcommerceSeoData: Record<Locale, ServicePageProps> = {
         type: "deliverables",
         badge: "Leistungen",
         heading: "Was Sie jeden Monat erhalten",
-        subtitle: "Transparente Berichte und greifbare Ergebnisse — kein Füllmaterial, keine Eitelkeitskennzahlen. Alles ist an Ihre Umsatzziele geknüpft.",
+        subtitle: "Transparente Berichte und greifbare Ergebnisse, kein Füllmaterial, keine Eitelkeitskennzahlen. Alles ist an Ihre Umsatzziele geknüpft.",
         deliverables: [
           { title: "Technisches Audit", description: "Vollständiger Crawl + priorisierte Maßnahmenliste mit Umsetzungstracking" },
-          { title: "Schema-Markup", description: "Produkt-, Breadcrumb- und Organisations-JSON-LD — validiert und überwacht" },
+          { title: "Schema-Markup", description: "Produkt-, Breadcrumb- und Organisations-JSON-LD, validiert und überwacht" },
           { title: "Geschwindigkeitsoptimierung", description: "Core-Web-Vitals-Verbesserungen mit Vorher/Nachher-Benchmarks" },
           { title: "Keyword-Recherche", description: "Monatliche Keyword-Chancenanalyse mit Kaufabsichts-Klassifizierung" },
           { title: "Content-Erstellung", description: "SEO-optimierte Produktbeschreibungen, Kategorie-Content und Blogbeiträge" },
@@ -561,7 +565,7 @@ export const bigcommerceSeoData: Record<Locale, ServicePageProps> = {
         {
           question: "Wie lange dauert es, bis BigCommerce SEO Ergebnisse zeigt?",
           answer:
-            "Die meisten BigCommerce-Shops sehen messbare Verbesserungen innerhalb von 3\u20136 Monaten. Technische Ma\u00dfnahmen wie die Bereinigung der Facettennavigation und URL-Optimierung k\u00f6nnen bereits nach Wochen wirken. Lesen Sie unseren [BigCommerce-SEO-Leitfaden](/academy/bigcommerce-seo-guide) f\u00fcr plattformspezifische Taktiken.",
+            "Die meisten BigCommerce-Shops sehen messbare Verbesserungen innerhalb von 3-6 Monaten. Technische Ma\u00dfnahmen wie die Bereinigung der Facettennavigation und URL-Optimierung k\u00f6nnen bereits nach Wochen wirken. Lesen Sie unseren [BigCommerce-SEO-Leitfaden](/academy/bigcommerce-seo-guide) f\u00fcr plattformspezifische Taktiken.",
         },
         {
           question: "Arbeiten Sie mit BigCommerce Enterprise?",
@@ -599,17 +603,18 @@ export const bigcommerceSeoData: Record<Locale, ServicePageProps> = {
   fr: {
     hero: {
       badge: "Experts BigCommerce",
-      heading: "SEO BigCommerce pour catalogues volumineux",
+      heading: "L\u2019agence SEO BigCommerce pour catalogues volumineux",
       subtitle:
         "Des milliers de r\u00e9f\u00e9rences ? Aucun probl\u00e8me. Nous optimisons les boutiques BigCommerce pour la crawlabilit\u00e9, la vitesse et la croissance du chiffre d\u2019affaires organique.",
       ctaText: "R\u00e9server un audit SEO BigCommerce",
     },
     trustBar: "Plus de 20 boutiques BigCommerce nous font confiance pour leur croissance organique",
+    trustBarIcon: "bigcommerce" as const,
     sections: [
       {
         type: "stats",
         badge: "Bilan",
-        heading: "Des chiffres qui parlent d\u2019eux-mêmes",
+        heading: "Nos r\u00e9sultats en SEO BigCommerce",
         stats: [
           { value: "8+", label: "Années de SEO e-commerce" },
           { value: "$12M+", label: "Chiffre d\u2019affaires généré" },
@@ -687,9 +692,9 @@ export const bigcommerceSeoData: Record<Locale, ServicePageProps> = {
       },
       {
         type: "caseStudies",
-        badge: "Résultats prouvés",
-        heading: "Ce qui se passe quand le SEO BigCommerce est bien fait",
-        subtitle: "De vraies boutiques, de vrais chiffres. Voici à quoi ressemble notre travail SEO e-commerce en pratique.",
+        badge: "Études de cas",
+        heading: "Résultats clients de notre travail en SEO BigCommerce",
+        subtitle: "Boutiques réelles, chiffres vérifiés. Voici notre travail SEO BigCommerce en action.",
         caseStudies: [
           {
             badge: "Santé & Bien-être · E-commerce",
@@ -781,7 +786,7 @@ export const bigcommerceSeoData: Record<Locale, ServicePageProps> = {
       {
         type: "richText",
         badge: "BigCommerce Enterprise",
-        heading: "SEO BigCommerce Enterprise — conçu pour la croissance",
+        heading: "SEO BigCommerce Enterprise, conçu pour la croissance",
         subtitle: "Les boutiques BigCommerce Enterprise font face à des défis SEO uniques que les plans standard ne rencontrent pas.",
         richTextBlocks: [
           {
@@ -798,26 +803,26 @@ export const bigcommerceSeoData: Record<Locale, ServicePageProps> = {
         richTextBlocks: [
           {
             heading: "Ce que les agences généralistes manquent",
-            body: "Les limitations de la structure URL de BigCommerce par rapport aux plateformes open source, la navigation à facettes qui crée des milliers d\u2019URL dupliquées, l\u2019optimisation du thème Stencil pour la vitesse et la crawlabilité, les fonctionnalités intégrées en conflit avec les outils SEO tiers, la gestion des canonical multi-boutiques, et l\u2019intégration de l\u2019API BigCommerce pour l\u2019optimisation produit en masse. Nous travaillons exclusivement avec des marques e-commerce — chaque membre de l\u2019équipe a une expérience pratique dans les boutiques BigCommerce.",
+            body: "Les limitations de la structure URL de BigCommerce par rapport aux plateformes open source, la navigation à facettes qui crée des milliers d\u2019URL dupliquées, l\u2019optimisation du thème Stencil pour la vitesse et la crawlabilité, les fonctionnalités intégrées en conflit avec les outils SEO tiers, la gestion des canonical multi-boutiques, et l\u2019intégration de l\u2019API BigCommerce pour l\u2019optimisation produit en masse. Nous travaillons exclusivement avec des marques e-commerce, chaque membre de l\u2019équipe a une expérience pratique dans les boutiques BigCommerce.",
           },
         ],
       },
       {
         type: "team",
         badge: "L\u2019équipe",
-        heading: "Les spécialistes SEO BigCommerce derrière votre croissance",
+        heading: "Qui fait le travail",
         teamLead: {
           name: "Fabian van Til",
           role: "Stratégie & Innovation",
-          bio: "Dirige l\u2019orientation stratégique de tous les projets clients. Plus de 8 ans d\u2019expérience en SEO e-commerce dans la mode, la santé, la beauté et la décoration. Allie stratégie de croissance et innovation SEO technique.",
+          bio: "Fabian dirige tous les projets clients. Plus de 8 ans d\u2019expérience en SEO e-commerce dans la mode, la santé, la beauté et la décoration. Il allie stratégie de croissance et innovation SEO technique.",
           image: "/images/framer/C23VbBxvj2kY5TMoXAJHXWVLaA.webp",
           linkedin: "https://www.linkedin.com/in/fabianvantil/",
         },
         teamMembers: [
           {
             name: "Dimitar Georgiev",
-            role: "Technical SEO Lead",
-            bio: "Architecte des fondations SEO techniques. Spécialisé dans l\u2019optimisation des plateformes e-commerce, les données structurées et l\u2019architecture de site. Développe les outils SEO gratuits de ce site.",
+            role: "Technical & On-Page SEO",
+            bio: "Architecte des fondations SEO techniques et on-page. Spécialisé dans l\u2019optimisation des plateformes e-commerce, les données structurées et l\u2019architecture de site. Développe les outils SEO gratuits de ce site.",
             image: "/images/framer/Q3tfuu2ytPAotONsFoP1ouyPZic.png",
             linkedin: "https://www.linkedin.com/in/dimitar-georgiev-seo/",
           },
@@ -830,9 +835,10 @@ export const bigcommerceSeoData: Record<Locale, ServicePageProps> = {
           },
           {
             name: "Gjorgi Jovev",
-            role: "On-Page & Stratégie de contenu",
-            bio: "Élabore des stratégies de contenu et des optimisations on-page qui rankent et convertissent. Spécialisé dans l\u2019optimisation des pages produits et collections, la recherche de mots-clés et la planification éditoriale.",
+            role: "Contenu, Link Building & PR",
+            bio: "Élabore des stratégies de contenu et des optimisations on-page qui rankent et convertissent. Spécialisé dans l\u2019optimisation des pages produits et collections, la recherche de mots-clés et la planification éditoriale et les campagnes de link building et PR.",
             image: "/images/framer/gjorgi-jovev.png",
+            linkedin: "https://www.linkedin.com/in/gjorgi-jovev/",
           },
         ],
       },
@@ -840,10 +846,10 @@ export const bigcommerceSeoData: Record<Locale, ServicePageProps> = {
         type: "deliverables",
         badge: "Livrables",
         heading: "Ce que vous recevez chaque mois",
-        subtitle: "Des rapports transparents et des livrables concrets — pas de superflu, pas de métriques de vanité. Tout est lié à vos objectifs de revenus.",
+        subtitle: "Des rapports transparents et des livrables concrets, pas de superflu, pas de métriques de vanité. Tout est lié à vos objectifs de revenus.",
         deliverables: [
           { title: "Audit technique", description: "Crawl complet + liste de corrections priorisée avec suivi de mise en œuvre" },
-          { title: "Balisage Schema", description: "JSON-LD produit, fil d\u2019Ariane et organisation — validé et surveillé" },
+          { title: "Balisage Schema", description: "JSON-LD produit, fil d\u2019Ariane et organisation, validé et surveillé" },
           { title: "Optimisation de la vitesse", description: "Améliorations des Core Web Vitals avec benchmarks avant/après" },
           { title: "Recherche de mots-clés", description: "Analyse mensuelle des opportunités de mots-clés avec classification par intention d\u2019achat" },
           { title: "Création de contenu", description: "Descriptions produits, contenu catégoriel et articles de blog optimisés pour le SEO" },
@@ -896,17 +902,18 @@ export const bigcommerceSeoData: Record<Locale, ServicePageProps> = {
   es: {
     hero: {
       badge: "Expertos en BigCommerce",
-      heading: "SEO BigCommerce para cat\u00e1logos con muchos SKU",
+      heading: "La agencia SEO BigCommerce para cat\u00e1logos con muchos SKU",
       subtitle:
         "\u00bfMuchos SKU? Sin problema, nos encargamos. Optimizamos tiendas BigCommerce para rastreabilidad, velocidad y crecimiento de ingresos org\u00e1nicos.",
       ctaText: "Reservar una auditor\u00eda SEO BigCommerce",
     },
     trustBar: "M\u00e1s de 20 tiendas BigCommerce conf\u00edan en nosotros para escalar sus ingresos org\u00e1nicos",
+    trustBarIcon: "bigcommerce" as const,
     sections: [
       {
         type: "stats",
         badge: "Trayectoria",
-        heading: "Números que hablan por sí solos",
+        heading: "Nuestros n\u00fameros en SEO e-commerce",
         stats: [
           { value: "8+", label: "Años de SEO e-commerce" },
           { value: "$12M+", label: "Ingresos generados" },
@@ -984,9 +991,9 @@ export const bigcommerceSeoData: Record<Locale, ServicePageProps> = {
       },
       {
         type: "caseStudies",
-        badge: "Resultados probados",
-        heading: "Qué ocurre cuando el SEO de BigCommerce se hace bien",
-        subtitle: "Tiendas reales, números reales. Así es nuestro trabajo de SEO e-commerce en la práctica.",
+        badge: "Casos de estudio",
+        heading: "Resultados de clientes de nuestro trabajo en SEO BigCommerce",
+        subtitle: "Ejemplos reales de c\u00f3mo hemos mejorado el rendimiento org\u00e1nico en tiendas BigCommerce.",
         caseStudies: [
           {
             badge: "Salud y Bienestar · E-commerce",
@@ -996,7 +1003,7 @@ export const bigcommerceSeoData: Record<Locale, ServicePageProps> = {
               { value: "Top 3", label: "Posiciones de ranking" },
               { value: "12 meses", label: "Plazo" },
             ],
-            quote: "EcomSEO transformó nuestra visibilidad orgánica de casi cero a dominar nuestra categoría.",
+            quote: "EcomSEO transform\u00f3 nuestra visibilidad org\u00e1nica de casi cero a liderar nuestra categor\u00eda.",
             quoteAuthor: "Director de Marketing, Marca de Salud y Bienestar",
             href: "/cases/norwegian-health-store",
           },
@@ -1078,7 +1085,7 @@ export const bigcommerceSeoData: Record<Locale, ServicePageProps> = {
       {
         type: "richText",
         badge: "BigCommerce Enterprise",
-        heading: "SEO BigCommerce Enterprise — diseñado para escalar",
+        heading: "SEO BigCommerce Enterprise, diseñado para escalar",
         subtitle: "Las tiendas BigCommerce Enterprise enfrentan desafíos SEO únicos que los planes estándar no encuentran.",
         richTextBlocks: [
           {
@@ -1095,41 +1102,42 @@ export const bigcommerceSeoData: Record<Locale, ServicePageProps> = {
         richTextBlocks: [
           {
             heading: "Lo que las agencias genéricas pasan por alto",
-            body: "Las limitaciones de la estructura URL de BigCommerce frente a plataformas open source, la navegación facetada que crea miles de URL duplicadas, la optimización del tema Stencil para velocidad y rastreabilidad, las funciones integradas que entran en conflicto con herramientas SEO de terceros, la gestión canonical multi-tienda, y la integración de la API de BigCommerce para optimización masiva de productos. Solo trabajamos con marcas de e-commerce — cada miembro del equipo tiene experiencia práctica dentro de tiendas BigCommerce.",
+            body: "Las limitaciones de la estructura URL de BigCommerce frente a plataformas open source, la navegación facetada que crea miles de URL duplicadas, la optimización del tema Stencil para velocidad y rastreabilidad, las funciones integradas que entran en conflicto con herramientas SEO de terceros, la gestión canonical multi-tienda, y la integración de la API de BigCommerce para optimización masiva de productos. Solo trabajamos con marcas de e-commerce, cada miembro del equipo tiene experiencia práctica dentro de tiendas BigCommerce.",
           },
         ],
       },
       {
         type: "team",
         badge: "El equipo",
-        heading: "Los especialistas SEO BigCommerce detrás de tu crecimiento",
+        heading: "El equipo",
         teamLead: {
           name: "Fabian van Til",
           role: "Estrategia e Innovación",
-          bio: "Dirige la orientación estratégica de todos los proyectos con clientes. Más de 8 años de experiencia en SEO e-commerce en moda, salud, belleza y hogar. Combina estrategia de crecimiento con innovación técnica en SEO.",
+          bio: "Fabian dirige la estrategia de todos los proyectos con clientes. M\u00e1s de 8 a\u00f1os de experiencia en SEO e-commerce en moda, salud, belleza y hogar. Combina estrategia de crecimiento con innovaci\u00f3n t\u00e9cnica en SEO.",
           image: "/images/framer/C23VbBxvj2kY5TMoXAJHXWVLaA.webp",
           linkedin: "https://www.linkedin.com/in/fabianvantil/",
         },
         teamMembers: [
           {
             name: "Dimitar Georgiev",
-            role: "Technical SEO Lead",
-            bio: "Diseña las bases técnicas de SEO. Especializado en optimización de plataformas e-commerce, datos estructurados y arquitectura de sitios. Desarrolla las herramientas SEO gratuitas de este sitio.",
+            role: "Technical & On-Page SEO",
+            bio: "Diseña las bases técnicas de SEO y on-page. Especializado en optimización de plataformas e-commerce, datos estructurados y arquitectura de sitios. Desarrolla las herramientas SEO gratuitas de este sitio.",
             image: "/images/framer/Q3tfuu2ytPAotONsFoP1ouyPZic.png",
             linkedin: "https://www.linkedin.com/in/dimitar-georgiev-seo/",
           },
           {
             name: "Martinijan Trajkovski",
             role: "Off-Page & Link Building",
-            bio: "Domina la adquisición de enlaces y las relaciones públicas digitales a escala. Construye perfiles de backlinks que marcan la diferencia en keywords competitivos de e-commerce en mercados europeos y estadounidenses.",
+            bio: "Martinijan lidera la adquisici\u00f3n de enlaces y las relaciones p\u00fablicas digitales a escala. Construye perfiles de backlinks que marcan la diferencia en keywords competitivos de e-commerce en mercados europeos y estadounidenses.",
             image: "/images/framer/CBAq5E76Hb1mj6ehAOixPYBjN1w.png",
             linkedin: "https://mk.linkedin.com/in/martinijan-trajkovski-7678b6bb",
           },
           {
             name: "Gjorgi Jovev",
-            role: "On-Page & Estrategia de contenido",
-            bio: "Diseña estrategias de contenido y optimizaciones on-page que posicionan y convierten. Especializado en optimización de páginas de producto y colecciones, investigación de keywords y planificación editorial.",
+            role: "Contenido, Link Building y PR",
+            bio: "Diseña estrategias de contenido, optimizaciones on-page y campañas de link building y PR. Especializado en optimización de páginas de producto y colecciones, investigación de keywords, planificación editorial y outreach.",
             image: "/images/framer/gjorgi-jovev.png",
+            linkedin: "https://www.linkedin.com/in/gjorgi-jovev/",
           },
         ],
       },
@@ -1137,10 +1145,10 @@ export const bigcommerceSeoData: Record<Locale, ServicePageProps> = {
         type: "deliverables",
         badge: "Entregables",
         heading: "Lo que recibes cada mes",
-        subtitle: "Informes transparentes y resultados tangibles — sin relleno, sin métricas de vanidad. Todo está vinculado a tus objetivos de ingresos.",
+        subtitle: "Informes transparentes y resultados tangibles, sin relleno, sin métricas de vanidad. Todo está vinculado a tus objetivos de ingresos.",
         deliverables: [
           { title: "Auditoría técnica", description: "Crawl completo + lista priorizada de correcciones con seguimiento de implementación" },
-          { title: "Marcado Schema", description: "JSON-LD de producto, breadcrumb y organización — validado y monitorizado" },
+          { title: "Marcado Schema", description: "JSON-LD de producto, breadcrumb y organización, validado y monitorizado" },
           { title: "Optimización de velocidad", description: "Mejoras de Core Web Vitals con benchmarks antes/después" },
           { title: "Investigación de keywords", description: "Análisis mensual de oportunidades de keywords con clasificación por intención de compra" },
           { title: "Creación de contenido", description: "Descripciones de producto, contenido de categoría y artículos de blog optimizados para SEO" },
@@ -1193,17 +1201,18 @@ export const bigcommerceSeoData: Record<Locale, ServicePageProps> = {
   it: {
     hero: {
       badge: "Esperti BigCommerce",
-      heading: "SEO BigCommerce per cataloghi con molti SKU",
+      heading: "L\u2019agenzia SEO BigCommerce per cataloghi con molti SKU",
       subtitle:
         "Tanti SKU? Nessun problema, ci pensiamo noi. Ottimizziamo i negozi BigCommerce per crawlabilit\u00e0, velocit\u00e0 e crescita del fatturato organico.",
       ctaText: "Prenota un audit SEO BigCommerce",
     },
     trustBar: "Oltre 20 negozi BigCommerce si affidano a noi per la crescita organica",
+    trustBarIcon: "bigcommerce" as const,
     sections: [
       {
         type: "stats",
         badge: "Track Record",
-        heading: "Numeri che parlano da soli",
+        heading: "Il nostro track record nell\u2019e-commerce",
         stats: [
           { value: "8+", label: "Anni di SEO e-commerce" },
           { value: "$12M+", label: "Fatturato generato" },
@@ -1281,9 +1290,9 @@ export const bigcommerceSeoData: Record<Locale, ServicePageProps> = {
       },
       {
         type: "caseStudies",
-        badge: "Risultati dimostrati",
-        heading: "Cosa succede quando la SEO BigCommerce viene fatta bene",
-        subtitle: "Negozi reali, numeri reali. Ecco come si presenta il nostro lavoro SEO e-commerce nella pratica.",
+        badge: "Risultati clienti",
+        heading: "Risultati clienti dal nostro lavoro in SEO BigCommerce",
+        subtitle: "Esempi concreti di come il nostro lavoro SEO e-commerce ha generato crescita per i clienti.",
         caseStudies: [
           {
             badge: "Salute e Benessere · E-commerce",
@@ -1293,7 +1302,7 @@ export const bigcommerceSeoData: Record<Locale, ServicePageProps> = {
               { value: "Top 3", label: "Posizioni di ranking" },
               { value: "12 mesi", label: "Periodo" },
             ],
-            quote: "EcomSEO ha trasformato la nostra visibilità organica da quasi zero a dominare la nostra categoria.",
+            quote: "EcomSEO ha trasformato la nostra visibilit\u00e0 organica da quasi zero a leader nella nostra categoria.",
             quoteAuthor: "Direttore Marketing, Brand Salute e Benessere",
             href: "/cases/norwegian-health-store",
           },
@@ -1375,7 +1384,7 @@ export const bigcommerceSeoData: Record<Locale, ServicePageProps> = {
       {
         type: "richText",
         badge: "BigCommerce Enterprise",
-        heading: "SEO BigCommerce Enterprise — progettato per scalare",
+        heading: "SEO BigCommerce Enterprise, progettato per scalare",
         subtitle: "I negozi BigCommerce Enterprise affrontano sfide SEO uniche che i piani standard non incontrano.",
         richTextBlocks: [
           {
@@ -1392,41 +1401,42 @@ export const bigcommerceSeoData: Record<Locale, ServicePageProps> = {
         richTextBlocks: [
           {
             heading: "Cosa le agenzie generiche non vedono",
-            body: "Le limitazioni della struttura URL di BigCommerce rispetto alle piattaforme open source, la navigazione a faccette che crea migliaia di URL duplicati, l\u2019ottimizzazione del tema Stencil per velocità e crawlabilità, le funzionalità integrate in conflitto con strumenti SEO di terze parti, la gestione canonical multi-storefront, e l\u2019integrazione dell\u2019API BigCommerce per l\u2019ottimizzazione massiva dei prodotti. Lavoriamo esclusivamente con brand e-commerce — ogni membro del team ha esperienza pratica all\u2019interno di negozi BigCommerce.",
+            body: "Le limitazioni della struttura URL di BigCommerce rispetto alle piattaforme open source, la navigazione a faccette che crea migliaia di URL duplicati, l\u2019ottimizzazione del tema Stencil per velocità e crawlabilità, le funzionalità integrate in conflitto con strumenti SEO di terze parti, la gestione canonical multi-storefront, e l\u2019integrazione dell\u2019API BigCommerce per l\u2019ottimizzazione massiva dei prodotti. Lavoriamo esclusivamente con brand e-commerce, ogni membro del team ha esperienza pratica all\u2019interno di negozi BigCommerce.",
           },
         ],
       },
       {
         type: "team",
         badge: "Il Team",
-        heading: "Gli specialisti SEO BigCommerce dietro la tua crescita",
+        heading: "Il team",
         teamLead: {
           name: "Fabian van Til",
           role: "Strategia e Innovazione",
-          bio: "Dirige l\u2019orientamento strategico di tutti i progetti clienti. Oltre 8 anni di esperienza SEO e-commerce in moda, salute, beauty e arredamento. Unisce strategia di crescita e innovazione SEO tecnica.",
+          bio: "Fabian definisce la strategia di ogni progetto cliente. Oltre 8 anni di esperienza SEO e-commerce in moda, salute, beauty e arredamento. Unisce strategia di crescita e innovazione SEO tecnica.",
           image: "/images/framer/C23VbBxvj2kY5TMoXAJHXWVLaA.webp",
           linkedin: "https://www.linkedin.com/in/fabianvantil/",
         },
         teamMembers: [
           {
             name: "Dimitar Georgiev",
-            role: "Technical SEO Lead",
-            bio: "Progetta le fondamenta tecniche della SEO. Specializzato nell\u2019ottimizzazione delle piattaforme e-commerce, nei dati strutturati e nell\u2019architettura dei siti. Sviluppa gli strumenti SEO gratuiti di questo sito.",
+            role: "Technical & On-Page SEO",
+            bio: "Dimitar progetta le fondamenta tecniche e on-page della SEO. Specializzato nell\u2019ottimizzazione delle piattaforme e-commerce, nei dati strutturati e nell\u2019architettura dei siti. Sviluppa gli strumenti SEO gratuiti di questo sito.",
             image: "/images/framer/Q3tfuu2ytPAotONsFoP1ouyPZic.png",
             linkedin: "https://www.linkedin.com/in/dimitar-georgiev-seo/",
           },
           {
             name: "Martinijan Trajkovski",
             role: "Off-Page & Link Building",
-            bio: "Padroneggia l\u2019acquisizione di link e le digital PR su larga scala. Costruisce profili di backlink che fanno la differenza per keyword e-commerce competitive nei mercati europei e statunitensi.",
+            bio: "Martinijan gestisce l\u2019acquisizione di link e le digital PR su larga scala. Costruisce profili di backlink che fanno la differenza per keyword e-commerce competitive nei mercati europei e statunitensi.",
             image: "/images/framer/CBAq5E76Hb1mj6ehAOixPYBjN1w.png",
             linkedin: "https://mk.linkedin.com/in/martinijan-trajkovski-7678b6bb",
           },
           {
             name: "Gjorgi Jovev",
-            role: "On-Page & Strategia dei contenuti",
-            bio: "Elabora strategie di contenuto e ottimizzazioni on-page che posizionano e convertono. Specializzato nell\u2019ottimizzazione delle pagine prodotto e collezione, nella ricerca keyword e nella pianificazione editoriale.",
+            role: "Contenuti, Link Building & PR",
+            bio: "Gjorgi elabora strategie di contenuto e ottimizzazioni on-page che posizionano e convertono. Specializzato nell\u2019ottimizzazione delle pagine prodotto e collezione, nella ricerca keyword e nella pianificazione editoriale e campagne di link building e PR.",
             image: "/images/framer/gjorgi-jovev.png",
+            linkedin: "https://www.linkedin.com/in/gjorgi-jovev/",
           },
         ],
       },
@@ -1434,10 +1444,10 @@ export const bigcommerceSeoData: Record<Locale, ServicePageProps> = {
         type: "deliverables",
         badge: "Deliverable",
         heading: "Cosa ricevi ogni mese",
-        subtitle: "Report trasparenti e risultati tangibili — niente fronzoli, niente metriche di vanità. Tutto è legato ai tuoi obiettivi di fatturato.",
+        subtitle: "Report trasparenti e risultati tangibili, niente fronzoli, niente metriche di vanità. Tutto è legato ai tuoi obiettivi di fatturato.",
         deliverables: [
           { title: "Audit tecnico", description: "Crawl completo + lista prioritizzata di correzioni con tracciamento dell\u2019implementazione" },
-          { title: "Markup Schema", description: "JSON-LD prodotto, breadcrumb e organizzazione — validato e monitorato" },
+          { title: "Markup Schema", description: "JSON-LD prodotto, breadcrumb e organizzazione, validato e monitorato" },
           { title: "Ottimizzazione velocità", description: "Miglioramenti dei Core Web Vitals con benchmark prima/dopo" },
           { title: "Ricerca keyword", description: "Analisi mensile delle opportunità keyword con classificazione per intento d\u2019acquisto" },
           { title: "Creazione contenuti", description: "Descrizioni prodotto, contenuto categorie e articoli blog ottimizzati per la SEO" },
@@ -1490,12 +1500,13 @@ export const bigcommerceSeoData: Record<Locale, ServicePageProps> = {
   nl: {
     hero: {
       badge: "BigCommerce-experts",
-      heading: "BigCommerce SEO voor uitgebreide productcatalogi",
+      heading: "Het BigCommerce-SEO-bureau voor uitgebreide productcatalogi",
       subtitle:
         "Veel SKU\u2019s? Geen probleem, wij regelen het. Wij optimaliseren BigCommerce-winkels voor crawlbaarheid, snelheid en organische omzetgroei.",
       ctaText: "BigCommerce SEO-audit boeken",
     },
     trustBar: "Meer dan 20 BigCommerce-winkels vertrouwen op ons voor organische groei",
+    trustBarIcon: "bigcommerce" as const,
     sections: [
       {
         type: "stats",
@@ -1578,9 +1589,9 @@ export const bigcommerceSeoData: Record<Locale, ServicePageProps> = {
       },
       {
         type: "caseStudies",
-        badge: "Bewezen resultaten",
-        heading: "Wat er gebeurt als BigCommerce SEO goed wordt gedaan",
-        subtitle: "Echte winkels, echte cijfers. Zo ziet ons e-commerce-SEO-werk er in de praktijk uit.",
+        badge: "Casestudies",
+        heading: "Klantresultaten van ons BigCommerce SEO-werk",
+        subtitle: "Concrete resultaten van onze BigCommerce SEO-projecten.",
         caseStudies: [
           {
             badge: "Gezondheid & Welzijn · E-commerce",
@@ -1672,7 +1683,7 @@ export const bigcommerceSeoData: Record<Locale, ServicePageProps> = {
       {
         type: "richText",
         badge: "BigCommerce Enterprise",
-        heading: "BigCommerce Enterprise SEO — gebouwd om te schalen",
+        heading: "BigCommerce Enterprise SEO, gebouwd om te schalen",
         subtitle: "BigCommerce Enterprise-winkels staan voor unieke SEO-uitdagingen die standaardplannen niet tegenkomen.",
         richTextBlocks: [
           {
@@ -1689,41 +1700,42 @@ export const bigcommerceSeoData: Record<Locale, ServicePageProps> = {
         richTextBlocks: [
           {
             heading: "Wat generieke bureaus missen",
-            body: "De URL-structuurbeperkingen van BigCommerce vergeleken met open-source platforms, facetnavigatie die duizenden dubbele URL\u2019s creëert, Stencil-thema-optimalisatie voor snelheid en crawlbaarheid, ingebouwde functies die conflicteren met SEO-tools van derden, multi-storefront canonical-beheer, en BigCommerce API-integratie voor bulkproductoptimalisatie. Wij werken uitsluitend met e-commercemerken — elk teamlid heeft praktijkervaring binnen BigCommerce-winkels.",
+            body: "De URL-structuurbeperkingen van BigCommerce vergeleken met open-source platforms, facetnavigatie die duizenden dubbele URL\u2019s creëert, Stencil-thema-optimalisatie voor snelheid en crawlbaarheid, ingebouwde functies die conflicteren met SEO-tools van derden, multi-storefront canonical-beheer, en BigCommerce API-integratie voor bulkproductoptimalisatie. Wij werken uitsluitend met e-commercemerken, elk teamlid heeft praktijkervaring binnen BigCommerce-winkels.",
           },
         ],
       },
       {
         type: "team",
         badge: "Het Team",
-        heading: "De BigCommerce SEO-specialisten achter uw groei",
+        heading: "Het team",
         teamLead: {
           name: "Fabian van Til",
           role: "Strategie & Innovatie",
-          bio: "Leidt de strategische richting van alle klantprojecten. Meer dan 8 jaar e-commerce-SEO-ervaring in mode, gezondheid, beauty en woondecoratie. Combineert groeistrategie met technische SEO-innovatie.",
+          bio: "Fabian leidt de strategische richting van alle klantprojecten. Met meer dan 8 jaar e-commerce-SEO-ervaring in mode, gezondheid, beauty en woondecoratie combineert hij groeistrategie met technische SEO-innovatie.",
           image: "/images/framer/C23VbBxvj2kY5TMoXAJHXWVLaA.webp",
           linkedin: "https://www.linkedin.com/in/fabianvantil/",
         },
         teamMembers: [
           {
             name: "Dimitar Georgiev",
-            role: "Technical SEO Lead",
-            bio: "Ontwerpt de technische SEO-fundamenten. Gespecialiseerd in e-commerceplatform-optimalisatie, gestructureerde data en site-architectuur. Bouwt de gratis SEO-tools op deze website.",
+            role: "Technical & On-Page SEO",
+            bio: "Dimitar ontwerpt de technische SEO-fundamenten en on-page optimalisaties. Hij is gespecialiseerd in e-commerceplatform-optimalisatie, gestructureerde data en site-architectuur, en bouwt de gratis SEO-tools op deze website.",
             image: "/images/framer/Q3tfuu2ytPAotONsFoP1ouyPZic.png",
             linkedin: "https://www.linkedin.com/in/dimitar-georgiev-seo/",
           },
           {
             name: "Martinijan Trajkovski",
             role: "Off-Page & Linkbuilding",
-            bio: "Beheerst linkacquisitie en digitale PR op schaal. Bouwt backlinkprofielen die het verschil maken voor concurrerende e-commerce-keywords op Europese en Amerikaanse markten.",
+            bio: "Martinijan beheerst linkacquisitie en digitale PR op schaal. Hij bouwt backlinkprofielen die het verschil maken voor concurrerende e-commerce-keywords op Europese en Amerikaanse markten.",
             image: "/images/framer/CBAq5E76Hb1mj6ehAOixPYBjN1w.png",
             linkedin: "https://mk.linkedin.com/in/martinijan-trajkovski-7678b6bb",
           },
           {
             name: "Gjorgi Jovev",
-            role: "On-Page & Contentstrategie",
-            bio: "Ontwikkelt contentstrategieën en on-page optimalisaties die ranken en converteren. Gespecialiseerd in product- en collectiepagina-optimalisatie, keywordonderzoek en redactionele planning.",
+            role: "Content, Linkbuilding & PR",
+            bio: "Gjorgi ontwikkelt contentstrategieën, on-page optimalisaties en linkbuilding- en PR-campagnes. Hij is gespecialiseerd in product- en collectiepagina-optimalisatie, keywordonderzoek, redactionele planning en outreach.",
             image: "/images/framer/gjorgi-jovev.png",
+            linkedin: "https://www.linkedin.com/in/gjorgi-jovev/",
           },
         ],
       },
@@ -1731,10 +1743,10 @@ export const bigcommerceSeoData: Record<Locale, ServicePageProps> = {
         type: "deliverables",
         badge: "Deliverables",
         heading: "Wat u elke maand ontvangt",
-        subtitle: "Transparante rapportages en tastbare resultaten — geen opvulling, geen ijdelheidsstatistieken. Alles is gekoppeld aan uw omzetdoelen.",
+        subtitle: "Transparante rapportages en tastbare resultaten, geen opvulling, geen ijdelheidsstatistieken. Alles is gekoppeld aan uw omzetdoelen.",
         deliverables: [
           { title: "Technische audit", description: "Volledige crawl + geprioriteerde actielijst met implementatietracking" },
-          { title: "Schema-markup", description: "Product-, breadcrumb- en organisatie-JSON-LD — gevalideerd en gemonitord" },
+          { title: "Schema-markup", description: "Product-, breadcrumb- en organisatie-JSON-LD, gevalideerd en gemonitord" },
           { title: "Snelheidsoptimalisatie", description: "Core Web Vitals-verbeteringen met voor/na benchmarks" },
           { title: "Keywordonderzoek", description: "Maandelijkse keyword-kansanalyse met koopintentieclassificatie" },
           { title: "Contentcreatie", description: "SEO-geoptimaliseerde productbeschrijvingen, categorie-content en blogposts" },

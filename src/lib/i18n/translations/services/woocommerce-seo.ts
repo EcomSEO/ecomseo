@@ -5,11 +5,12 @@ export const woocommerceSeoData: Record<Locale, ServicePageProps> = {
   en: {
     hero: {
       badge: "WooCommerce SEO",
-      heading: "WooCommerce SEO That Actually Moves Revenue",
+      heading: "The WooCommerce SEO Agency That Actually Moves Revenue",
       subtitle: "Most agencies don\u2019t understand WooCommerce. We run stores on it. Big difference.",
       ctaText: "Book a WooCommerce SEO Call",
     },
     trustBar: "20+ WooCommerce stores \u00B7 97% client retention \u00B7 6+ years in ecom SEO \u00B7 4.9\u2605 client rating",
+    trustBarIcon: "woocommerce" as const,
     sections: [
       {
         type: "stats",
@@ -52,10 +53,10 @@ export const woocommerceSeoData: Record<Locale, ServicePageProps> = {
         type: "benefits",
         badge: "Built for WooCommerce",
         heading: "We Don\u2019t Just Know WooCommerce. We\u2019ve Rebuilt Stores From the Inside Out.",
-        subtitle: "Most SEO agencies treat WooCommerce like WordPress with a cart. We know it\u2019s a full commerce engine \u2014 with its own indexation quirks, performance bottlenecks, and structural advantages.",
+        subtitle: "Most SEO agencies treat WooCommerce like WordPress with a cart. We know it\u2019s a full commerce engine - with its own indexation quirks, performance bottlenecks, and structural advantages.",
         benefits: [
-          { title: "The Plugin Problem Nobody Talks About", description: "Yoast, RankMath, AIOSEO \u2014 they all promise SEO out of the box. But plugin conflicts break canonical tags, bloat sitemaps, and create contradicting schema. We fix what plugins can\u2019t." },
-          { title: "Performance Is a Ranking Factor", description: "WooCommerce stores average 4\u20138 second load times. Google expects under 2.5s for LCP. We optimize database queries, image pipelines, and caching \u2014 often cutting load times by 60%+." },
+          { title: "The Plugin Problem Nobody Talks About", description: "Yoast, RankMath, AIOSEO - they all promise SEO out of the box. But plugin conflicts break canonical tags, bloat sitemaps, and create contradicting schema. We fix what plugins can\u2019t." },
+          { title: "Performance Is a Ranking Factor", description: "WooCommerce stores average 4-8 second load times. Google expects under 2.5s for LCP. We optimize database queries, image pipelines, and caching - often cutting load times by 60%+." },
           { title: "We Speak REST API and WP-CLI", description: "While other agencies submit tickets and wait, we SSH into staging and fix issues directly. Custom hooks for structured data. Programmatic redirects. Automated feed optimization." },
         ],
       },
@@ -72,9 +73,9 @@ export const woocommerceSeoData: Record<Locale, ServicePageProps> = {
       },
       {
         type: "caseStudies",
-        badge: "Proven Results",
-        heading: "What Happens When WooCommerce SEO Is Done Right",
-        subtitle: "Real stores, real numbers. Here\u2019s what our WooCommerce SEO work looks like in practice.",
+        badge: "Case Studies",
+        heading: "Client Results From Our WooCommerce SEO Work",
+        subtitle: "Recent examples from our WooCommerce engagements.",
         caseStudies: [
           {
             badge: "Health & Wellness \u00B7 WooCommerce",
@@ -140,7 +141,7 @@ export const woocommerceSeoData: Record<Locale, ServicePageProps> = {
           {
             number: "04",
             title: "Implement Product Schema Properly",
-            body: "WooCommerce\u2019s default schema is often incomplete \u2014 missing reviews, availability, or price currency. Use a dedicated schema plugin or custom JSON-LD to ensure Google displays rich results for your products.",
+            body: "WooCommerce\u2019s default schema is often incomplete - missing reviews, availability, or price currency. Use a dedicated schema plugin or custom JSON-LD to ensure Google displays rich results for your products.",
             href: "/tools/schema-validator",
             hrefLabel: "Validate your schema",
           },
@@ -168,7 +169,7 @@ export const woocommerceSeoData: Record<Locale, ServicePageProps> = {
       {
         type: "richText",
         badge: "WooCommerce Plus",
-        heading: "WooCommerce SEO vs Shopify SEO \u2014 Key Differences",
+        heading: "WooCommerce SEO vs Shopify SEO - Key Differences",
         subtitle: "WooCommerce gives you more control than Shopify, but that control comes with more responsibility.",
         richTextBlocks: [
           {
@@ -177,7 +178,7 @@ export const woocommerceSeoData: Record<Locale, ServicePageProps> = {
           },
           {
             heading: "Where WooCommerce Needs Extra Attention",
-            body: "Plugin conflicts that break canonical tags, hosting quality that directly impacts Core Web Vitals, security vulnerabilities from outdated plugins, database bloat from revisions and transients, and the need for regular maintenance updates. Unlike managed platforms, WooCommerce puts you in the driver\u2019s seat \u2014 which means you need someone who knows how to drive.",
+            body: "Plugin conflicts that break canonical tags, hosting quality that directly impacts Core Web Vitals, security vulnerabilities from outdated plugins, database bloat from revisions and transients, and the need for regular maintenance updates. Unlike managed platforms, WooCommerce puts you in the driver\u2019s seat - which means you need someone who knows how to drive.",
           },
         ],
       },
@@ -189,7 +190,7 @@ export const woocommerceSeoData: Record<Locale, ServicePageProps> = {
         richTextBlocks: [
           {
             heading: "What Generic Agencies Miss",
-            body: "Product variation URL handling that creates duplicate content, REST API performance issues that slow down the admin and frontend, cart and checkout page indexation, WooCommerce-specific structured data requirements, plugin compatibility testing for SEO impact, and database query optimization for large catalogs. We only work with ecommerce brands and understand WooCommerce inside and out \u2014 from wp_postmeta queries to custom product taxonomies.",
+            body: "Product variation URL handling that creates duplicate content, REST API performance issues that slow down the admin and frontend, cart and checkout page indexation, WooCommerce-specific structured data requirements, plugin compatibility testing for SEO impact, and database query optimization for large catalogs. We only work with ecommerce brands and understand WooCommerce inside and out - from wp_postmeta queries to custom product taxonomies.",
           },
         ],
       },
@@ -210,34 +211,35 @@ export const woocommerceSeoData: Record<Locale, ServicePageProps> = {
       {
         type: "team",
         badge: "The Team",
-        heading: "The WooCommerce SEO Specialists Behind Your Growth",
+        heading: "Who Does the Work",
         teamLead: {
           name: "Fabian van Til",
           role: "Strategy & Innovation",
-          bio: "Leads the strategic direction for all client engagements. 8+ years of ecommerce SEO experience across fashion, health, beauty, and home goods verticals. Blends growth strategy with technical SEO innovation.",
+          bio: "Fabian owns the WooCommerce SEO strategy. 8 years of ecommerce-only experience. He actually runs WooCommerce stores himself, which is why he knows where the problems hide.",
           image: "/images/framer/C23VbBxvj2kY5TMoXAJHXWVLaA.webp",
           linkedin: "https://www.linkedin.com/in/fabianvantil/",
         },
         teamMembers: [
           {
             name: "Dimitar Georgiev",
-            role: "Technical SEO Lead",
-            bio: "Architects the technical SEO foundations. Specializes in WooCommerce theme optimization, structured data, and site architecture. Builds the free SEO tools on this site.",
+            role: "Technical & On-Page SEO",
+            bio: "Dimitar does the technical and on-page SEO work. He handles WooCommerce theme optimization, structured data, page-level optimization, and site architecture. He also builds the free SEO tools on this site.",
             image: "/images/framer/Q3tfuu2ytPAotONsFoP1ouyPZic.png",
             linkedin: "https://www.linkedin.com/in/dimitar-georgiev-seo/",
           },
           {
             name: "Martinijan Trajkovski",
             role: "Off-Page & Link Building",
-            bio: "Masters link acquisition and digital PR at scale. Builds backlink profiles that move the needle for competitive ecommerce keywords across European and US markets.",
+            bio: "Martinijan handles outreach and digital PR. He earns backlinks from real publications that help WooCommerce stores rank for competitive ecommerce keywords.",
             image: "/images/framer/CBAq5E76Hb1mj6ehAOixPYBjN1w.png",
             linkedin: "https://mk.linkedin.com/in/martinijan-trajkovski-7678b6bb",
           },
           {
             name: "Gjorgi Jovev",
-            role: "On-Page & Content Strategy",
-            bio: "Crafts content strategies and on-page optimizations that rank and convert. Specializes in product and collection page optimization, keyword research, and editorial planning.",
+            role: "Content, Link Building & PR",
+            bio: "Gjorgi writes content and does on-page optimization. Product pages, category content, keyword research, editorial planning - he covers content, link building, and PR.",
             image: "/images/framer/gjorgi-jovev.png",
+            linkedin: "https://www.linkedin.com/in/gjorgi-jovev/",
           },
         ],
       },
@@ -245,10 +247,10 @@ export const woocommerceSeoData: Record<Locale, ServicePageProps> = {
         type: "deliverables",
         badge: "Deliverables",
         heading: "What You Get Every Month",
-        subtitle: "Transparent reporting and tangible outputs \u2014 no fluff, no vanity metrics. Everything is tied to your revenue goals.",
+        subtitle: "Transparent reporting and tangible outputs - no fluff, no vanity metrics. Everything is tied to your revenue goals.",
         deliverables: [
           { title: "Technical Audit", description: "Full crawl + prioritized fix list with implementation tracking" },
-          { title: "Schema Markup", description: "Product, breadcrumb, and organization JSON-LD \u2014 validated and monitored" },
+          { title: "Schema Markup", description: "Product, breadcrumb, and organization JSON-LD - validated and monitored" },
           { title: "Speed Optimization", description: "Core Web Vitals improvements with before/after benchmarks" },
           { title: "Keyword Research", description: "Monthly keyword opportunity analysis with buyer intent classification" },
           { title: "Content Creation", description: "SEO-optimized product descriptions, category content, and blog posts" },
@@ -260,12 +262,12 @@ export const woocommerceSeoData: Record<Locale, ServicePageProps> = {
     ],
     faqs: {
       items: [
-        { question: "How fast will I see results?", answer: "Technical fixes like [speed optimization](/academy/site-speed-optimization) and schema markup can show impact within weeks. Meaningful ranking improvements typically take 3\u20136 months. Market dominance takes 6\u201312 months of consistent work." },
-        { question: "What size WooCommerce stores do you work with?", answer: "We work with stores doing \u20AC500K+ in annual revenue, typically with 200\u20135,000+ SKUs. Our sweet spot is growth-stage and enterprise WooCommerce stores that need serious technical SEO expertise." },
+        { question: "How fast will I see results?", answer: "Technical fixes like [speed optimization](/academy/site-speed-optimization) and schema markup can show impact within weeks. Meaningful ranking improvements typically take 3-6 months. Market dominance takes 6-12 months of consistent work." },
+        { question: "What size WooCommerce stores do you work with?", answer: "We work with stores doing \u20AC500K+ in annual revenue, typically with 200-5,000+ SKUs. Our sweet spot is growth-stage and enterprise WooCommerce stores that need serious technical SEO expertise." },
         { question: "Why is WooCommerce SEO different from Shopify or BigCommerce?", answer: "WooCommerce runs on WordPress, which means more flexibility but also more complexity. Plugin conflicts, server-side performance, database optimization, and custom theme issues all require deep platform knowledge. Our [technical SEO for ecommerce guide](/blog/technical-seo-for-ecommerce) explains the key differences across platforms." },
         { question: "Do you need access to our WordPress admin?", answer: "Yes, we\u2019ll need staging access to implement technical fixes. We work on staging first, then deploy to production after your approval. We never make changes to your live store without sign-off." },
         { question: "What about our product variations? We have thousands.", answer: "Product variations are one of the biggest WooCommerce SEO challenges. We implement proper canonicalization, manage variant URLs, and ensure Google focuses on your main [product pages](/academy/product-page-seo) instead of wasting crawl budget on variations." },
-        { question: "What does reporting look like?", answer: "Monthly reports showing exactly what we did, what moved, and what revenue came from organic. Rankings, traffic, technical health, and revenue attribution. No vanity dashboards \u2014 just the numbers that matter." },
+        { question: "What does reporting look like?", answer: "Monthly reports showing exactly what we did, what moved, and what revenue came from organic. Rankings, traffic, technical health, and revenue attribution. No vanity dashboards - just the numbers that matter." },
       ],
       miniCta: {
         heading: "Ready to Fix Your WooCommerce Store?",
@@ -276,11 +278,12 @@ export const woocommerceSeoData: Record<Locale, ServicePageProps> = {
   de: {
     hero: {
       badge: "WooCommerce SEO",
-      heading: "WooCommerce SEO, das wirklich Umsatz bewegt",
+      heading: "Die WooCommerce-SEO-Agentur, die wirklich Umsatz bewegt",
       subtitle: "Die meisten Agenturen verstehen WooCommerce nicht. Wir betreiben Shops damit. Gro\u00dfer Unterschied.",
       ctaText: "WooCommerce SEO-Gespr\u00e4ch buchen",
     },
     trustBar: "20+ WooCommerce-Shops \u00B7 97% Kundenbindung \u00B7 6+ Jahre E-Com SEO \u00B7 4,9\u2605 Kundenbewertung",
+    trustBarIcon: "woocommerce" as const,
     sections: [
       {
         type: "stats",
@@ -323,10 +326,10 @@ export const woocommerceSeoData: Record<Locale, ServicePageProps> = {
         type: "benefits",
         badge: "Gebaut f\u00fcr WooCommerce",
         heading: "Wir kennen WooCommerce nicht nur. Wir haben Shops von innen heraus neu aufgebaut.",
-        subtitle: "Die meisten SEO-Agenturen behandeln WooCommerce wie WordPress mit Warenkorb. Wir wissen, dass es eine vollst\u00e4ndige Commerce-Engine ist \u2014 mit eigenen Indexierungs-Eigenheiten, Performance-Engp\u00e4ssen und strukturellen Vorteilen.",
+        subtitle: "Die meisten SEO-Agenturen behandeln WooCommerce wie WordPress mit Warenkorb. Wir wissen, dass es eine vollst\u00e4ndige Commerce-Engine ist - mit eigenen Indexierungs-Eigenheiten, Performance-Engp\u00e4ssen und strukturellen Vorteilen.",
         benefits: [
-          { title: "Das Plugin-Problem, \u00fcber das niemand spricht", description: "Yoast, RankMath, AIOSEO \u2014 alle versprechen SEO out-of-the-box. Aber Plugin-Konflikte brechen Canonical-Tags, bl\u00e4hen Sitemaps auf und erzeugen widerspr\u00fcchliches Schema. Wir fixen, was Plugins nicht k\u00f6nnen." },
-          { title: "Performance ist ein Ranking-Faktor", description: "WooCommerce-Shops haben durchschnittlich 4\u20138 Sekunden Ladezeit. Google erwartet unter 2,5s f\u00fcr LCP. Wir optimieren Datenbankabfragen, Bild-Pipelines und Caching \u2014 oft mit 60%+ schnelleren Ladezeiten." },
+          { title: "Das Plugin-Problem, \u00fcber das niemand spricht", description: "Yoast, RankMath, AIOSEO - alle versprechen SEO out-of-the-box. Aber Plugin-Konflikte brechen Canonical-Tags, bl\u00e4hen Sitemaps auf und erzeugen widerspr\u00fcchliches Schema. Wir fixen, was Plugins nicht k\u00f6nnen." },
+          { title: "Performance ist ein Ranking-Faktor", description: "WooCommerce-Shops haben durchschnittlich 4-8 Sekunden Ladezeit. Google erwartet unter 2,5s f\u00fcr LCP. Wir optimieren Datenbankabfragen, Bild-Pipelines und Caching - oft mit 60%+ schnelleren Ladezeiten." },
           { title: "Wir sprechen REST API und WP-CLI", description: "W\u00e4hrend andere Agenturen Tickets einreichen und warten, verbinden wir uns per SSH auf Staging und beheben Probleme direkt. Custom Hooks f\u00fcr Structured Data. Programmatische Redirects. Automatisierte Feed-Optimierung." },
         ],
       },
@@ -343,9 +346,9 @@ export const woocommerceSeoData: Record<Locale, ServicePageProps> = {
       },
       {
         type: "caseStudies",
-        badge: "Bewiesene Ergebnisse",
-        heading: "Was passiert, wenn WooCommerce SEO richtig gemacht wird",
-        subtitle: "Echte Shops, echte Zahlen. So sieht unsere WooCommerce SEO-Arbeit in der Praxis aus.",
+        badge: "Fallstudien",
+        heading: "WooCommerce-SEO-Projekte aus der Praxis",
+        subtitle: "Ausgewählte WooCommerce-Shops, die wir mit gezielter SEO-Arbeit nach vorne gebracht haben.",
         caseStudies: [
           {
             badge: "Gesundheit & Wellness \u00B7 WooCommerce",
@@ -411,7 +414,7 @@ export const woocommerceSeoData: Record<Locale, ServicePageProps> = {
           {
             number: "04",
             title: "Implementieren Sie Produkt-Schema korrekt",
-            body: "Das Standard-Schema von WooCommerce ist oft unvollst\u00e4ndig \u2014 fehlende Bewertungen, Verf\u00fcgbarkeit oder Preisw\u00e4hrung. Verwenden Sie ein dediziertes Schema-Plugin oder benutzerdefiniertes JSON-LD, damit Google Rich Results f\u00fcr Ihre Produkte anzeigt.",
+            body: "Das Standard-Schema von WooCommerce ist oft unvollst\u00e4ndig - fehlende Bewertungen, Verf\u00fcgbarkeit oder Preisw\u00e4hrung. Verwenden Sie ein dediziertes Schema-Plugin oder benutzerdefiniertes JSON-LD, damit Google Rich Results f\u00fcr Ihre Produkte anzeigt.",
             href: "/tools/schema-validator",
             hrefLabel: "Schema validieren",
           },
@@ -439,7 +442,7 @@ export const woocommerceSeoData: Record<Locale, ServicePageProps> = {
       {
         type: "richText",
         badge: "WooCommerce Plus",
-        heading: "WooCommerce SEO vs. Shopify SEO \u2014 Die wichtigsten Unterschiede",
+        heading: "WooCommerce SEO vs. Shopify SEO - Die wichtigsten Unterschiede",
         subtitle: "WooCommerce gibt Ihnen mehr Kontrolle als Shopify, aber diese Kontrolle bringt mehr Verantwortung mit sich.",
         richTextBlocks: [
           {
@@ -448,7 +451,7 @@ export const woocommerceSeoData: Record<Locale, ServicePageProps> = {
           },
           {
             heading: "Wo WooCommerce besondere Aufmerksamkeit braucht",
-            body: "Plugin-Konflikte, die Canonical-Tags brechen, Hosting-Qualit\u00e4t, die Core Web Vitals direkt beeinflusst, Sicherheitsl\u00fccken durch veraltete Plugins, Datenbank-Bloat durch Revisionen und Transients sowie die Notwendigkeit regelm\u00e4\u00dfiger Wartungsupdates. Anders als bei verwalteten Plattformen sitzen Sie bei WooCommerce am Steuer \u2014 das hei\u00dft, Sie brauchen jemanden, der wei\u00df, wie man f\u00e4hrt.",
+            body: "Plugin-Konflikte, die Canonical-Tags brechen, Hosting-Qualit\u00e4t, die Core Web Vitals direkt beeinflusst, Sicherheitsl\u00fccken durch veraltete Plugins, Datenbank-Bloat durch Revisionen und Transients sowie die Notwendigkeit regelm\u00e4\u00dfiger Wartungsupdates. Anders als bei verwalteten Plattformen sitzen Sie bei WooCommerce am Steuer - das hei\u00dft, Sie brauchen jemanden, der wei\u00df, wie man f\u00e4hrt.",
           },
         ],
       },
@@ -460,7 +463,7 @@ export const woocommerceSeoData: Record<Locale, ServicePageProps> = {
         richTextBlocks: [
           {
             heading: "Was generische Agenturen \u00fcbersehen",
-            body: "Produktvarianten-URL-Handling, das Duplicate Content erzeugt, REST API Performance-Probleme, die Admin und Frontend verlangsamen, Warenkorb- und Checkout-Seiten-Indexierung, WooCommerce-spezifische Structured-Data-Anforderungen, Plugin-Kompatibilit\u00e4tstests f\u00fcr SEO-Auswirkungen und Datenbankabfrage-Optimierung f\u00fcr gro\u00dfe Kataloge. Wir arbeiten ausschlie\u00dflich mit E-Commerce-Marken und verstehen WooCommerce in- und auswendig \u2014 von wp_postmeta-Abfragen bis zu benutzerdefinierten Produkt-Taxonomien.",
+            body: "Produktvarianten-URL-Handling, das Duplicate Content erzeugt, REST API Performance-Probleme, die Admin und Frontend verlangsamen, Warenkorb- und Checkout-Seiten-Indexierung, WooCommerce-spezifische Structured-Data-Anforderungen, Plugin-Kompatibilit\u00e4tstests f\u00fcr SEO-Auswirkungen und Datenbankabfrage-Optimierung f\u00fcr gro\u00dfe Kataloge. Wir arbeiten ausschlie\u00dflich mit E-Commerce-Marken und verstehen WooCommerce in- und auswendig - von wp_postmeta-Abfragen bis zu benutzerdefinierten Produkt-Taxonomien.",
           },
         ],
       },
@@ -481,34 +484,35 @@ export const woocommerceSeoData: Record<Locale, ServicePageProps> = {
       {
         type: "team",
         badge: "Das Team",
-        heading: "Die WooCommerce SEO-Spezialisten hinter Ihrem Wachstum",
+        heading: "Das Team hinter Ihrem WooCommerce-SEO",
         teamLead: {
           name: "Fabian van Til",
           role: "Strategie & Innovation",
-          bio: "Leitet die strategische Ausrichtung aller Kundenengagements. 8+ Jahre E-Commerce SEO-Erfahrung in den Bereichen Mode, Gesundheit, Beauty und Wohnen. Verbindet Wachstumsstrategie mit technischer SEO-Innovation.",
+          bio: "Fabian leitet alle WooCommerce-SEO-Projekte strategisch. Mit 8+ Jahren E-Commerce-SEO-Erfahrung in Mode, Gesundheit, Beauty und Wohnen verbindet er Wachstumsstrategie mit technischer SEO-Innovation.",
           image: "/images/framer/C23VbBxvj2kY5TMoXAJHXWVLaA.webp",
           linkedin: "https://www.linkedin.com/in/fabianvantil/",
         },
         teamMembers: [
           {
             name: "Dimitar Georgiev",
-            role: "Technischer SEO-Leiter",
-            bio: "Entwickelt die technischen SEO-Grundlagen. Spezialisiert auf WooCommerce-Theme-Optimierung, Structured Data und Website-Architektur. Baut die kostenlosen SEO-Tools auf dieser Seite.",
+            role: "Technisches & On-Page SEO",
+            bio: "Entwickelt die technischen SEO-Grundlagen und On-Page-Optimierungen. Spezialisiert auf WooCommerce-Theme-Optimierung, Structured Data und Website-Architektur. Baut die kostenlosen SEO-Tools auf dieser Seite.",
             image: "/images/framer/Q3tfuu2ytPAotONsFoP1ouyPZic.png",
             linkedin: "https://www.linkedin.com/in/dimitar-georgiev-seo/",
           },
           {
             name: "Martinijan Trajkovski",
             role: "Off-Page & Linkaufbau",
-            bio: "Meistert Linkakquise und digitale PR im gro\u00dfen Stil. Baut Backlink-Profile auf, die bei wettbewerbsintensiven E-Commerce-Keywords in europ\u00e4ischen und US-M\u00e4rkten den Unterschied machen.",
+            bio: "Martinijan verantwortet Linkakquise und digitale PR im gro\u00dfen Stil. Er baut Backlink-Profile auf, die bei wettbewerbsintensiven E-Commerce-Keywords in europ\u00e4ischen und US-M\u00e4rkten den Unterschied machen.",
             image: "/images/framer/CBAq5E76Hb1mj6ehAOixPYBjN1w.png",
             linkedin: "https://mk.linkedin.com/in/martinijan-trajkovski-7678b6bb",
           },
           {
             name: "Gjorgi Jovev",
-            role: "On-Page & Content-Strategie",
-            bio: "Entwickelt Content-Strategien und On-Page-Optimierungen, die ranken und konvertieren. Spezialisiert auf Produkt- und Kategorieseiten-Optimierung, Keyword-Recherche und redaktionelle Planung.",
+            role: "Content, Linkaufbau & PR",
+            bio: "Entwickelt Content-Strategien, On-Page-Optimierungen, Linkaufbau und PR. Spezialisiert auf Produkt- und Kategorieseiten-Optimierung, Keyword-Recherche, redaktionelle Planung und Outreach-Kampagnen.",
             image: "/images/framer/gjorgi-jovev.png",
+            linkedin: "https://www.linkedin.com/in/gjorgi-jovev/",
           },
         ],
       },
@@ -516,10 +520,10 @@ export const woocommerceSeoData: Record<Locale, ServicePageProps> = {
         type: "deliverables",
         badge: "Leistungen",
         heading: "Was Sie jeden Monat erhalten",
-        subtitle: "Transparentes Reporting und greifbare Ergebnisse \u2014 kein Bl\u00e4hwerk, keine Vanity-Metriken. Alles ist an Ihre Umsatzziele gekn\u00fcpft.",
+        subtitle: "Transparentes Reporting und greifbare Ergebnisse - kein Bl\u00e4hwerk, keine Vanity-Metriken. Alles ist an Ihre Umsatzziele gekn\u00fcpft.",
         deliverables: [
           { title: "Technisches Audit", description: "Vollst\u00e4ndiger Crawl + priorisierte Fix-Liste mit Implementierungs-Tracking" },
-          { title: "Schema Markup", description: "Produkt-, Breadcrumb- und Organisations-JSON-LD \u2014 validiert und \u00fcberwacht" },
+          { title: "Schema Markup", description: "Produkt-, Breadcrumb- und Organisations-JSON-LD - validiert und \u00fcberwacht" },
           { title: "Speed-Optimierung", description: "Core Web Vitals-Verbesserungen mit Vorher/Nachher-Benchmarks" },
           { title: "Keyword-Recherche", description: "Monatliche Keyword-Chancen-Analyse mit K\u00e4uferabsicht-Klassifizierung" },
           { title: "Content-Erstellung", description: "SEO-optimierte Produktbeschreibungen, Kategorie-Content und Blogbeitr\u00e4ge" },
@@ -531,9 +535,9 @@ export const woocommerceSeoData: Record<Locale, ServicePageProps> = {
     ],
     faqs: {
       items: [
-        { question: "Wie schnell sehe ich Ergebnisse?", answer: "Technische Fixes wie [Speed-Optimierung](/academy/site-speed-optimization) und Schema-Markup k\u00f6nnen innerhalb von Wochen wirken. Sp\u00fcrbare Ranking-Verbesserungen dauern typischerweise 3\u20136 Monate. Marktdominanz erfordert 6\u201312 Monate konsequenter Arbeit." },
-        { question: "Mit welcher Gr\u00f6\u00dfe von WooCommerce-Shops arbeiten Sie?", answer: "Wir arbeiten mit Shops ab \u20AC500K Jahresumsatz, typischerweise mit 200\u20135.000+ SKUs. Unser Sweet Spot sind wachsende und Enterprise WooCommerce-Shops, die ernsthafte technische SEO-Expertise brauchen." },
-        { question: "Warum unterscheidet sich WooCommerce SEO von Shopify oder BigCommerce?", answer: "WooCommerce l\u00e4uft auf WordPress \u2014 mehr Flexibilit\u00e4t, aber auch mehr Komplexit\u00e4t. Plugin-Konflikte, serverseitige Performance, Datenbankoptimierung und Custom-Theme-Probleme erfordern tiefes Plattformwissen. Unser [technischer SEO-Leitfaden f\u00fcr E-Commerce](/blog/technical-seo-for-ecommerce) erkl\u00e4rt die wichtigsten Unterschiede zwischen den Plattformen." },
+        { question: "Wie schnell sehe ich Ergebnisse?", answer: "Technische Fixes wie [Speed-Optimierung](/academy/site-speed-optimization) und Schema-Markup k\u00f6nnen innerhalb von Wochen wirken. Sp\u00fcrbare Ranking-Verbesserungen dauern typischerweise 3-6 Monate. Marktdominanz erfordert 6-12 Monate konsequenter Arbeit." },
+        { question: "Mit welcher Gr\u00f6\u00dfe von WooCommerce-Shops arbeiten Sie?", answer: "Wir arbeiten mit Shops ab \u20AC500K Jahresumsatz, typischerweise mit 200-5.000+ SKUs. Unser Sweet Spot sind wachsende und Enterprise WooCommerce-Shops, die ernsthafte technische SEO-Expertise brauchen." },
+        { question: "Warum unterscheidet sich WooCommerce SEO von Shopify oder BigCommerce?", answer: "WooCommerce l\u00e4uft auf WordPress - mehr Flexibilit\u00e4t, aber auch mehr Komplexit\u00e4t. Plugin-Konflikte, serverseitige Performance, Datenbankoptimierung und Custom-Theme-Probleme erfordern tiefes Plattformwissen. Unser [technischer SEO-Leitfaden f\u00fcr E-Commerce](/blog/technical-seo-for-ecommerce) erkl\u00e4rt die wichtigsten Unterschiede zwischen den Plattformen." },
         { question: "Brauchen Sie Zugang zu unserem WordPress-Admin?", answer: "Ja, wir brauchen Staging-Zugang f\u00fcr technische Fixes. Wir arbeiten zuerst auf Staging und deployen erst nach Ihrer Freigabe auf Production. Wir \u00e4ndern nie etwas an Ihrem Live-Shop ohne Genehmigung." },
         { question: "Was ist mit unseren Produktvarianten? Wir haben Tausende.", answer: "Produktvarianten sind eine der gr\u00f6\u00dften WooCommerce SEO-Herausforderungen. Wir implementieren korrekte Canonicalization, verwalten Varianten-URLs und stellen sicher, dass Google sich auf Ihre [Hauptproduktseiten](/academy/product-page-seo) konzentriert." },
         { question: "Wie sieht das Reporting aus?", answer: "Monatliche Reports, die genau zeigen, was wir getan haben, was sich bewegt hat und welcher Umsatz aus Organic kam. Rankings, Traffic, technische Gesundheit und Revenue Attribution. Keine Vanity-Dashboards." },
@@ -547,11 +551,12 @@ export const woocommerceSeoData: Record<Locale, ServicePageProps> = {
   fr: {
     hero: {
       badge: "WooCommerce SEO",
-      heading: "WooCommerce SEO qui g\u00e9n\u00e8re vraiment du chiffre d\u2019affaires",
+      heading: "L\u2019agence SEO WooCommerce qui g\u00e9n\u00e8re vraiment du chiffre d\u2019affaires",
       subtitle: "La plupart des agences ne comprennent pas WooCommerce. Nous g\u00e9rons des boutiques dessus. Grande diff\u00e9rence.",
       ctaText: "R\u00e9server un appel WooCommerce SEO",
     },
     trustBar: "20+ boutiques WooCommerce \u00B7 97% de r\u00e9tention client \u00B7 6+ ans en SEO ecom \u00B7 4,9\u2605 note client",
+    trustBarIcon: "woocommerce" as const,
     sections: [
       {
         type: "stats",
@@ -594,10 +599,10 @@ export const woocommerceSeoData: Record<Locale, ServicePageProps> = {
         type: "benefits",
         badge: "Con\u00e7u pour WooCommerce",
         heading: "Nous ne connaissons pas simplement WooCommerce. Nous avons reconstruit des boutiques de l\u2019int\u00e9rieur.",
-        subtitle: "La plupart des agences SEO traitent WooCommerce comme WordPress avec un panier. Nous savons que c\u2019est un moteur commerce complet \u2014 avec ses propres particularit\u00e9s d\u2019indexation, goulots de performance et avantages structurels.",
+        subtitle: "La plupart des agences SEO traitent WooCommerce comme WordPress avec un panier. Nous savons que c\u2019est un moteur commerce complet - avec ses propres particularit\u00e9s d\u2019indexation, goulots de performance et avantages structurels.",
         benefits: [
-          { title: "Le probl\u00e8me des plugins dont personne ne parle", description: "Yoast, RankMath, AIOSEO \u2014 tous promettent le SEO cl\u00e9 en main. Mais les conflits de plugins cassent les canonicals, gonflent les sitemaps et cr\u00e9ent du schema contradictoire. Nous r\u00e9parons ce que les plugins ne peuvent pas." },
-          { title: "La performance est un facteur de classement", description: "Les boutiques WooCommerce affichent en moyenne 4 \u00e0 8 secondes de chargement. Google attend moins de 2,5s pour le LCP. Nous optimisons les requ\u00eates BDD, les pipelines d\u2019images et le cache \u2014 r\u00e9duisant souvent les temps de 60%+." },
+          { title: "Le probl\u00e8me des plugins dont personne ne parle", description: "Yoast, RankMath, AIOSEO - tous promettent le SEO cl\u00e9 en main. Mais les conflits de plugins cassent les canonicals, gonflent les sitemaps et cr\u00e9ent du schema contradictoire. Nous r\u00e9parons ce que les plugins ne peuvent pas." },
+          { title: "La performance est un facteur de classement", description: "Les boutiques WooCommerce affichent en moyenne 4 \u00e0 8 secondes de chargement. Google attend moins de 2,5s pour le LCP. Nous optimisons les requ\u00eates BDD, les pipelines d\u2019images et le cache - r\u00e9duisant souvent les temps de 60%+." },
           { title: "Nous parlons REST API et WP-CLI", description: "Pendant que d\u2019autres agences soumettent des tickets et attendent, nous nous connectons en SSH sur le staging pour corriger directement. Hooks custom pour les donn\u00e9es structur\u00e9es. Redirections programmatiques. Optimisation automatis\u00e9e des flux." },
         ],
       },
@@ -614,9 +619,9 @@ export const woocommerceSeoData: Record<Locale, ServicePageProps> = {
       },
       {
         type: "caseStudies",
-        badge: "R\u00e9sultats prouv\u00e9s",
-        heading: "Ce qui se passe quand le SEO WooCommerce est bien fait",
-        subtitle: "De vraies boutiques, de vrais chiffres. Voici \u00e0 quoi ressemble notre travail SEO WooCommerce en pratique.",
+        badge: "R\u00e9sultats clients",
+        heading: "R\u00e9sultats clients de notre travail en SEO WooCommerce",
+        subtitle: "Boutiques r\u00e9elles, chiffres v\u00e9rifi\u00e9s. Voici notre travail SEO WooCommerce en action.",
         caseStudies: [
           {
             badge: "Sant\u00e9 & Bien-\u00eatre \u00B7 WooCommerce",
@@ -682,7 +687,7 @@ export const woocommerceSeoData: Record<Locale, ServicePageProps> = {
           {
             number: "04",
             title: "Impl\u00e9mentez correctement le schema produit",
-            body: "Le schema par d\u00e9faut de WooCommerce est souvent incomplet \u2014 avis, disponibilit\u00e9 ou devise manquants. Utilisez un plugin schema d\u00e9di\u00e9 ou du JSON-LD personnalis\u00e9 pour que Google affiche des r\u00e9sultats enrichis pour vos produits.",
+            body: "Le schema par d\u00e9faut de WooCommerce est souvent incomplet - avis, disponibilit\u00e9 ou devise manquants. Utilisez un plugin schema d\u00e9di\u00e9 ou du JSON-LD personnalis\u00e9 pour que Google affiche des r\u00e9sultats enrichis pour vos produits.",
             href: "/tools/schema-validator",
             hrefLabel: "Validez votre schema",
           },
@@ -710,7 +715,7 @@ export const woocommerceSeoData: Record<Locale, ServicePageProps> = {
       {
         type: "richText",
         badge: "WooCommerce Plus",
-        heading: "SEO WooCommerce vs SEO Shopify \u2014 Les diff\u00e9rences cl\u00e9s",
+        heading: "SEO WooCommerce vs SEO Shopify - Les diff\u00e9rences cl\u00e9s",
         subtitle: "WooCommerce vous donne plus de contr\u00f4le que Shopify, mais ce contr\u00f4le s\u2019accompagne de plus de responsabilit\u00e9s.",
         richTextBlocks: [
           {
@@ -719,7 +724,7 @@ export const woocommerceSeoData: Record<Locale, ServicePageProps> = {
           },
           {
             heading: "L\u00e0 o\u00f9 WooCommerce demande une attention suppl\u00e9mentaire",
-            body: "Les conflits de plugins qui cassent les canonicals, la qualit\u00e9 de l\u2019h\u00e9bergement qui impacte directement les Core Web Vitals, les vuln\u00e9rabilit\u00e9s de s\u00e9curit\u00e9 li\u00e9es aux plugins obsol\u00e8tes, le bloat de base de donn\u00e9es d\u00fb aux r\u00e9visions et transients, et la n\u00e9cessit\u00e9 de mises \u00e0 jour de maintenance r\u00e9guli\u00e8res. Contrairement aux plateformes h\u00e9berg\u00e9es, WooCommerce vous met aux commandes \u2014 ce qui signifie que vous avez besoin de quelqu\u2019un qui sait conduire.",
+            body: "Les conflits de plugins qui cassent les canonicals, la qualit\u00e9 de l\u2019h\u00e9bergement qui impacte directement les Core Web Vitals, les vuln\u00e9rabilit\u00e9s de s\u00e9curit\u00e9 li\u00e9es aux plugins obsol\u00e8tes, le bloat de base de donn\u00e9es d\u00fb aux r\u00e9visions et transients, et la n\u00e9cessit\u00e9 de mises \u00e0 jour de maintenance r\u00e9guli\u00e8res. Contrairement aux plateformes h\u00e9berg\u00e9es, WooCommerce vous met aux commandes - ce qui signifie que vous avez besoin de quelqu\u2019un qui sait conduire.",
           },
         ],
       },
@@ -731,7 +736,7 @@ export const woocommerceSeoData: Record<Locale, ServicePageProps> = {
         richTextBlocks: [
           {
             heading: "Ce que les agences g\u00e9n\u00e9ralistes ratent",
-            body: "La gestion des URLs de variations produits qui cr\u00e9e du contenu dupliqu\u00e9, les probl\u00e8mes de performance de l\u2019API REST qui ralentissent l\u2019admin et le frontend, l\u2019indexation des pages panier et checkout, les exigences de donn\u00e9es structur\u00e9es sp\u00e9cifiques \u00e0 WooCommerce, les tests de compatibilit\u00e9 des plugins pour l\u2019impact SEO, et l\u2019optimisation des requ\u00eates de base de donn\u00e9es pour les gros catalogues. Nous travaillons exclusivement avec des marques e-commerce et comprenons WooCommerce de fond en comble \u2014 des requ\u00eates wp_postmeta aux taxonomies produits personnalis\u00e9es.",
+            body: "La gestion des URLs de variations produits qui cr\u00e9e du contenu dupliqu\u00e9, les probl\u00e8mes de performance de l\u2019API REST qui ralentissent l\u2019admin et le frontend, l\u2019indexation des pages panier et checkout, les exigences de donn\u00e9es structur\u00e9es sp\u00e9cifiques \u00e0 WooCommerce, les tests de compatibilit\u00e9 des plugins pour l\u2019impact SEO, et l\u2019optimisation des requ\u00eates de base de donn\u00e9es pour les gros catalogues. Nous travaillons exclusivement avec des marques e-commerce et comprenons WooCommerce de fond en comble - des requ\u00eates wp_postmeta aux taxonomies produits personnalis\u00e9es.",
           },
         ],
       },
@@ -752,19 +757,19 @@ export const woocommerceSeoData: Record<Locale, ServicePageProps> = {
       {
         type: "team",
         badge: "L\u2019\u00e9quipe",
-        heading: "Les sp\u00e9cialistes SEO WooCommerce derri\u00e8re votre croissance",
+        heading: "Qui fait le travail",
         teamLead: {
           name: "Fabian van Til",
           role: "Strat\u00e9gie & Innovation",
-          bio: "Dirige l\u2019orientation strat\u00e9gique de tous les engagements clients. 8+ ans d\u2019exp\u00e9rience en SEO e-commerce dans les secteurs mode, sant\u00e9, beaut\u00e9 et maison. Allie strat\u00e9gie de croissance et innovation SEO technique.",
+          bio: "Fabian supervise tous les engagements clients. 8+ ans d\u2019exp\u00e9rience en SEO e-commerce dans les secteurs mode, sant\u00e9, beaut\u00e9 et maison. Il allie strat\u00e9gie de croissance et innovation SEO technique.",
           image: "/images/framer/C23VbBxvj2kY5TMoXAJHXWVLaA.webp",
           linkedin: "https://www.linkedin.com/in/fabianvantil/",
         },
         teamMembers: [
           {
             name: "Dimitar Georgiev",
-            role: "Responsable SEO technique",
-            bio: "Con\u00e7oit les fondations SEO techniques. Sp\u00e9cialis\u00e9 dans l\u2019optimisation de th\u00e8mes WooCommerce, les donn\u00e9es structur\u00e9es et l\u2019architecture de site. D\u00e9veloppe les outils SEO gratuits de ce site.",
+            role: "SEO technique & On-Page",
+            bio: "Con\u00e7oit les fondations SEO techniques et on-page. Sp\u00e9cialis\u00e9 dans l\u2019optimisation de th\u00e8mes WooCommerce, les donn\u00e9es structur\u00e9es et l\u2019architecture de site. D\u00e9veloppe les outils SEO gratuits de ce site.",
             image: "/images/framer/Q3tfuu2ytPAotONsFoP1ouyPZic.png",
             linkedin: "https://www.linkedin.com/in/dimitar-georgiev-seo/",
           },
@@ -777,9 +782,10 @@ export const woocommerceSeoData: Record<Locale, ServicePageProps> = {
           },
           {
             name: "Gjorgi Jovev",
-            role: "On-Page & Strat\u00e9gie de contenu",
-            bio: "\u00c9labore des strat\u00e9gies de contenu et des optimisations on-page qui se positionnent et convertissent. Sp\u00e9cialis\u00e9 dans l\u2019optimisation des pages produits et cat\u00e9gories, la recherche de mots-cl\u00e9s et la planification \u00e9ditoriale.",
+            role: "Contenu, Link Building & PR",
+            bio: "\u00c9labore des strat\u00e9gies de contenu et des optimisations on-page qui se positionnent et convertissent. Sp\u00e9cialis\u00e9 dans l\u2019optimisation des pages produits et cat\u00e9gories, la recherche de mots-cl\u00e9s et la planification \u00e9ditoriale et les campagnes de link building et PR.",
             image: "/images/framer/gjorgi-jovev.png",
+            linkedin: "https://www.linkedin.com/in/gjorgi-jovev/",
           },
         ],
       },
@@ -787,10 +793,10 @@ export const woocommerceSeoData: Record<Locale, ServicePageProps> = {
         type: "deliverables",
         badge: "Livrables",
         heading: "Ce que vous recevez chaque mois",
-        subtitle: "Reporting transparent et livrables concrets \u2014 pas de superflu, pas de m\u00e9triques de vanit\u00e9. Tout est li\u00e9 \u00e0 vos objectifs de chiffre d\u2019affaires.",
+        subtitle: "Reporting transparent et livrables concrets - pas de superflu, pas de m\u00e9triques de vanit\u00e9. Tout est li\u00e9 \u00e0 vos objectifs de chiffre d\u2019affaires.",
         deliverables: [
           { title: "Audit technique", description: "Crawl complet + liste de corrections prioris\u00e9e avec suivi d\u2019impl\u00e9mentation" },
-          { title: "Schema Markup", description: "JSON-LD produit, fil d\u2019Ariane et organisation \u2014 valid\u00e9 et surveill\u00e9" },
+          { title: "Schema Markup", description: "JSON-LD produit, fil d\u2019Ariane et organisation - valid\u00e9 et surveill\u00e9" },
           { title: "Optimisation de la vitesse", description: "Am\u00e9liorations des Core Web Vitals avec benchmarks avant/apr\u00e8s" },
           { title: "Recherche de mots-cl\u00e9s", description: "Analyse mensuelle des opportunit\u00e9s de mots-cl\u00e9s avec classification d\u2019intention d\u2019achat" },
           { title: "Cr\u00e9ation de contenu", description: "Descriptions produits, contenu cat\u00e9gories et articles de blog optimis\u00e9s SEO" },
@@ -804,7 +810,7 @@ export const woocommerceSeoData: Record<Locale, ServicePageProps> = {
       items: [
         { question: "\u00c0 quelle vitesse verrai-je des r\u00e9sultats ?", answer: "Les corrections techniques comme l\u2019[optimisation de vitesse](/academy/site-speed-optimization) et le schema markup peuvent montrer un impact en quelques semaines. Les am\u00e9liorations de classement significatives prennent g\u00e9n\u00e9ralement 3 \u00e0 6 mois. La domination du march\u00e9 prend 6 \u00e0 12 mois de travail constant." },
         { question: "Quelle taille de boutiques WooCommerce accompagnez-vous ?", answer: "Nous travaillons avec des boutiques r\u00e9alisant 500K\u20AC+ de CA annuel, g\u00e9n\u00e9ralement avec 200 \u00e0 5\u00A0000+ r\u00e9f\u00e9rences. Notre point fort : les boutiques WooCommerce en croissance et enterprise ayant besoin d\u2019une expertise SEO technique s\u00e9rieuse." },
-        { question: "Pourquoi le SEO WooCommerce diff\u00e8re-t-il de Shopify ou BigCommerce ?", answer: "WooCommerce tourne sur WordPress \u2014 plus de flexibilit\u00e9, mais aussi plus de complexit\u00e9. Conflits de plugins, performance c\u00f4t\u00e9 serveur, optimisation de base de donn\u00e9es et probl\u00e8mes de th\u00e8mes custom n\u00e9cessitent une connaissance approfondie de la plateforme. Notre [guide SEO technique pour e-commerce](/blog/technical-seo-for-ecommerce) explique les diff\u00e9rences cl\u00e9s entre les plateformes." },
+        { question: "Pourquoi le SEO WooCommerce diff\u00e8re-t-il de Shopify ou BigCommerce ?", answer: "WooCommerce tourne sur WordPress - plus de flexibilit\u00e9, mais aussi plus de complexit\u00e9. Conflits de plugins, performance c\u00f4t\u00e9 serveur, optimisation de base de donn\u00e9es et probl\u00e8mes de th\u00e8mes custom n\u00e9cessitent une connaissance approfondie de la plateforme. Notre [guide SEO technique pour e-commerce](/blog/technical-seo-for-ecommerce) explique les diff\u00e9rences cl\u00e9s entre les plateformes." },
         { question: "Avez-vous besoin d\u2019acc\u00e8s \u00e0 notre admin WordPress ?", answer: "Oui, nous aurons besoin d\u2019un acc\u00e8s staging. Nous travaillons d\u2019abord sur le staging, puis d\u00e9ployons en production apr\u00e8s votre validation. Nous ne modifions jamais votre boutique live sans accord." },
         { question: "Et nos variations produits ? Nous en avons des milliers.", answer: "Les variations produits sont l\u2019un des plus grands d\u00e9fis SEO WooCommerce. Nous impl\u00e9mentons une canonicalisation correcte, g\u00e9rons les URLs de variantes et assurons que Google se concentre sur vos [pages produits](/academy/product-page-seo) principales." },
         { question: "\u00c0 quoi ressemble le reporting ?", answer: "Des rapports mensuels montrant exactement ce que nous avons fait, ce qui a boug\u00e9 et quel CA est venu de l\u2019organique. Classements, trafic, sant\u00e9 technique et attribution du CA. Pas de dashboards de vanit\u00e9." },
@@ -818,11 +824,12 @@ export const woocommerceSeoData: Record<Locale, ServicePageProps> = {
   es: {
     hero: {
       badge: "WooCommerce SEO",
-      heading: "WooCommerce SEO que realmente mueve ingresos",
+      heading: "La agencia SEO WooCommerce que realmente mueve ingresos",
       subtitle: "La mayor\u00eda de agencias no entienden WooCommerce. Nosotros gestionamos tiendas con \u00e9l. Gran diferencia.",
       ctaText: "Reservar llamada WooCommerce SEO",
     },
     trustBar: "20+ tiendas WooCommerce \u00B7 97% retenci\u00f3n de clientes \u00B7 6+ a\u00f1os en SEO ecom \u00B7 4,9\u2605 valoraci\u00f3n",
+    trustBarIcon: "woocommerce" as const,
     sections: [
       {
         type: "stats",
@@ -865,10 +872,10 @@ export const woocommerceSeoData: Record<Locale, ServicePageProps> = {
         type: "benefits",
         badge: "Hecho para WooCommerce",
         heading: "No solo conocemos WooCommerce. Hemos reconstruido tiendas desde cero.",
-        subtitle: "La mayor\u00eda de agencias SEO tratan WooCommerce como WordPress con carrito. Sabemos que es un motor de comercio completo \u2014 con sus propias peculiaridades de indexaci\u00f3n, cuellos de botella de rendimiento y ventajas estructurales.",
+        subtitle: "La mayor\u00eda de agencias SEO tratan WooCommerce como WordPress con carrito. Sabemos que es un motor de comercio completo - con sus propias peculiaridades de indexaci\u00f3n, cuellos de botella de rendimiento y ventajas estructurales.",
         benefits: [
-          { title: "El problema de plugins del que nadie habla", description: "Yoast, RankMath, AIOSEO \u2014 todos prometen SEO listo para usar. Pero los conflictos de plugins rompen canonicals, inflan sitemaps y crean schema contradictorio. Nosotros arreglamos lo que los plugins no pueden." },
-          { title: "El rendimiento es un factor de ranking", description: "Las tiendas WooCommerce promedian 4-8 segundos de carga. Google espera menos de 2,5s para LCP. Optimizamos consultas de base de datos, pipelines de im\u00e1genes y cach\u00e9 \u2014 reduciendo tiempos de carga en un 60%+." },
+          { title: "El problema de plugins del que nadie habla", description: "Yoast, RankMath, AIOSEO - todos prometen SEO listo para usar. Pero los conflictos de plugins rompen canonicals, inflan sitemaps y crean schema contradictorio. Nosotros arreglamos lo que los plugins no pueden." },
+          { title: "El rendimiento es un factor de ranking", description: "Las tiendas WooCommerce promedian 4-8 segundos de carga. Google espera menos de 2,5s para LCP. Optimizamos consultas de base de datos, pipelines de im\u00e1genes y cach\u00e9 - reduciendo tiempos de carga en un 60%+." },
           { title: "Hablamos REST API y WP-CLI", description: "Mientras otras agencias env\u00edan tickets y esperan, nosotros nos conectamos por SSH al staging y arreglamos directamente. Hooks custom para datos estructurados. Redirecciones program\u00e1ticas. Optimizaci\u00f3n automatizada de feeds." },
         ],
       },
@@ -885,9 +892,9 @@ export const woocommerceSeoData: Record<Locale, ServicePageProps> = {
       },
       {
         type: "caseStudies",
-        badge: "Resultados probados",
-        heading: "Qu\u00e9 pasa cuando el SEO de WooCommerce se hace bien",
-        subtitle: "Tiendas reales, n\u00fameros reales. As\u00ed es como se ve nuestro trabajo de SEO WooCommerce en la pr\u00e1ctica.",
+        badge: "Casos de estudio",
+        heading: "Resultados de clientes de nuestro trabajo en SEO WooCommerce",
+        subtitle: "Ejemplos reales de c\u00f3mo hemos mejorado el rendimiento org\u00e1nico en tiendas WooCommerce.",
         caseStudies: [
           {
             badge: "Salud y Bienestar \u00B7 WooCommerce",
@@ -897,7 +904,7 @@ export const woocommerceSeoData: Record<Locale, ServicePageProps> = {
               { value: "Top 3", label: "Posiciones de ranking" },
               { value: "12 meses", label: "Plazo" },
             ],
-            quote: "EcomSEO transform\u00f3 nuestra visibilidad org\u00e1nica de casi cero a dominar nuestra categor\u00eda.",
+            quote: "EcomSEO transform\u00f3 nuestra visibilidad org\u00e1nica de casi cero a liderar nuestra categor\u00eda.",
             quoteAuthor: "Director de Marketing, Marca de Salud y Bienestar",
             href: "/cases/norwegian-health-store",
           },
@@ -953,7 +960,7 @@ export const woocommerceSeoData: Record<Locale, ServicePageProps> = {
           {
             number: "04",
             title: "Implementa correctamente el schema de producto",
-            body: "El schema por defecto de WooCommerce a menudo est\u00e1 incompleto \u2014 faltan rese\u00f1as, disponibilidad o moneda del precio. Usa un plugin de schema dedicado o JSON-LD personalizado para asegurar que Google muestre rich results para tus productos.",
+            body: "El schema por defecto de WooCommerce a menudo est\u00e1 incompleto - faltan rese\u00f1as, disponibilidad o moneda del precio. Usa un plugin de schema dedicado o JSON-LD personalizado para asegurar que Google muestre rich results para tus productos.",
             href: "/tools/schema-validator",
             hrefLabel: "Valida tu schema",
           },
@@ -981,7 +988,7 @@ export const woocommerceSeoData: Record<Locale, ServicePageProps> = {
       {
         type: "richText",
         badge: "WooCommerce Plus",
-        heading: "SEO WooCommerce vs SEO Shopify \u2014 Diferencias clave",
+        heading: "SEO WooCommerce vs SEO Shopify - Diferencias clave",
         subtitle: "WooCommerce te da m\u00e1s control que Shopify, pero ese control viene con m\u00e1s responsabilidad.",
         richTextBlocks: [
           {
@@ -990,7 +997,7 @@ export const woocommerceSeoData: Record<Locale, ServicePageProps> = {
           },
           {
             heading: "Donde WooCommerce necesita atenci\u00f3n extra",
-            body: "Conflictos de plugins que rompen etiquetas canonical, calidad del hosting que impacta directamente los Core Web Vitals, vulnerabilidades de seguridad por plugins desactualizados, bloat de base de datos por revisiones y transients, y la necesidad de actualizaciones de mantenimiento regulares. A diferencia de plataformas gestionadas, WooCommerce te pone al volante \u2014 lo que significa que necesitas a alguien que sepa conducir.",
+            body: "Conflictos de plugins que rompen etiquetas canonical, calidad del hosting que impacta directamente los Core Web Vitals, vulnerabilidades de seguridad por plugins desactualizados, bloat de base de datos por revisiones y transients, y la necesidad de actualizaciones de mantenimiento regulares. A diferencia de plataformas gestionadas, WooCommerce te pone al volante - lo que significa que necesitas a alguien que sepa conducir.",
           },
         ],
       },
@@ -1002,7 +1009,7 @@ export const woocommerceSeoData: Record<Locale, ServicePageProps> = {
         richTextBlocks: [
           {
             heading: "Lo que las agencias gen\u00e9ricas pasan por alto",
-            body: "Manejo de URLs de variaciones de producto que crea contenido duplicado, problemas de rendimiento de la API REST que ralentizan el admin y el frontend, indexaci\u00f3n de p\u00e1ginas de carrito y checkout, requisitos de datos estructurados espec\u00edficos de WooCommerce, pruebas de compatibilidad de plugins para impacto SEO, y optimizaci\u00f3n de consultas de base de datos para cat\u00e1logos grandes. Solo trabajamos con marcas de ecommerce y entendemos WooCommerce por dentro y por fuera \u2014 desde consultas wp_postmeta hasta taxonom\u00edas de producto personalizadas.",
+            body: "Manejo de URLs de variaciones de producto que crea contenido duplicado, problemas de rendimiento de la API REST que ralentizan el admin y el frontend, indexaci\u00f3n de p\u00e1ginas de carrito y checkout, requisitos de datos estructurados espec\u00edficos de WooCommerce, pruebas de compatibilidad de plugins para impacto SEO, y optimizaci\u00f3n de consultas de base de datos para cat\u00e1logos grandes. Solo trabajamos con marcas de ecommerce y entendemos WooCommerce por dentro y por fuera - desde consultas wp_postmeta hasta taxonom\u00edas de producto personalizadas.",
           },
         ],
       },
@@ -1023,34 +1030,35 @@ export const woocommerceSeoData: Record<Locale, ServicePageProps> = {
       {
         type: "team",
         badge: "El equipo",
-        heading: "Los especialistas en SEO WooCommerce detr\u00e1s de tu crecimiento",
+        heading: "Qui\u00e9n hace el trabajo",
         teamLead: {
           name: "Fabian van Til",
           role: "Estrategia e Innovaci\u00f3n",
-          bio: "Dirige la direcci\u00f3n estrat\u00e9gica de todos los proyectos con clientes. 8+ a\u00f1os de experiencia en SEO ecommerce en los sectores de moda, salud, belleza y hogar. Combina estrategia de crecimiento con innovaci\u00f3n en SEO t\u00e9cnico.",
+          bio: "Fabian dirige la estrategia de todos los proyectos con clientes. 8+ a\u00f1os de experiencia en SEO ecommerce en los sectores de moda, salud, belleza y hogar. Combina estrategia de crecimiento con innovaci\u00f3n en SEO t\u00e9cnico.",
           image: "/images/framer/C23VbBxvj2kY5TMoXAJHXWVLaA.webp",
           linkedin: "https://www.linkedin.com/in/fabianvantil/",
         },
         teamMembers: [
           {
             name: "Dimitar Georgiev",
-            role: "L\u00edder de SEO T\u00e9cnico",
-            bio: "Dise\u00f1a las bases del SEO t\u00e9cnico. Especializado en optimizaci\u00f3n de temas WooCommerce, datos estructurados y arquitectura web. Desarrolla las herramientas SEO gratuitas de este sitio.",
+            role: "SEO T\u00e9cnico & On-Page",
+            bio: "Dimitar dise\u00f1a las bases del SEO t\u00e9cnico y on-page. Especializado en optimizaci\u00f3n de temas WooCommerce, datos estructurados y arquitectura web. Desarrolla las herramientas SEO gratuitas de este sitio.",
             image: "/images/framer/Q3tfuu2ytPAotONsFoP1ouyPZic.png",
             linkedin: "https://www.linkedin.com/in/dimitar-georgiev-seo/",
           },
           {
             name: "Martinijan Trajkovski",
             role: "Off-Page y Link Building",
-            bio: "Domina la adquisici\u00f3n de enlaces y las RP digitales a escala. Construye perfiles de backlinks que marcan la diferencia para keywords competitivas de ecommerce en mercados europeos y estadounidenses.",
+            bio: "Martinijan lidera la adquisici\u00f3n de enlaces y las RP digitales a escala. Construye perfiles de backlinks que marcan la diferencia para keywords competitivas de ecommerce en mercados europeos y estadounidenses.",
             image: "/images/framer/CBAq5E76Hb1mj6ehAOixPYBjN1w.png",
             linkedin: "https://mk.linkedin.com/in/martinijan-trajkovski-7678b6bb",
           },
           {
             name: "Gjorgi Jovev",
-            role: "On-Page y Estrategia de Contenidos",
-            bio: "Crea estrategias de contenido y optimizaciones on-page que posicionan y convierten. Especializado en optimizaci\u00f3n de p\u00e1ginas de producto y categor\u00eda, investigaci\u00f3n de keywords y planificaci\u00f3n editorial.",
+            role: "Contenido, Link Building y PR",
+            bio: "Crea estrategias de contenido y optimizaciones on-page que posicionan y convierten. Especializado en optimizaci\u00f3n de p\u00e1ginas de producto y categor\u00eda, investigaci\u00f3n de keywords y planificaci\u00f3n editorial y campa\u00f1as de link building y PR.",
             image: "/images/framer/gjorgi-jovev.png",
+            linkedin: "https://www.linkedin.com/in/gjorgi-jovev/",
           },
         ],
       },
@@ -1058,10 +1066,10 @@ export const woocommerceSeoData: Record<Locale, ServicePageProps> = {
         type: "deliverables",
         badge: "Entregables",
         heading: "Lo que recibes cada mes",
-        subtitle: "Reporting transparente y resultados tangibles \u2014 sin relleno, sin m\u00e9tricas de vanidad. Todo est\u00e1 vinculado a tus objetivos de ingresos.",
+        subtitle: "Reporting transparente y resultados tangibles - sin relleno, sin m\u00e9tricas de vanidad. Todo est\u00e1 vinculado a tus objetivos de ingresos.",
         deliverables: [
           { title: "Auditor\u00eda t\u00e9cnica", description: "Crawl completo + lista de correcciones priorizada con seguimiento de implementaci\u00f3n" },
-          { title: "Schema Markup", description: "JSON-LD de producto, breadcrumb y organizaci\u00f3n \u2014 validado y monitorizado" },
+          { title: "Schema Markup", description: "JSON-LD de producto, breadcrumb y organizaci\u00f3n - validado y monitorizado" },
           { title: "Optimizaci\u00f3n de velocidad", description: "Mejoras de Core Web Vitals con benchmarks antes/despu\u00e9s" },
           { title: "Investigaci\u00f3n de keywords", description: "An\u00e1lisis mensual de oportunidades de keywords con clasificaci\u00f3n de intenci\u00f3n de compra" },
           { title: "Creaci\u00f3n de contenido", description: "Descripciones de producto, contenido de categor\u00edas y posts de blog optimizados para SEO" },
@@ -1075,7 +1083,7 @@ export const woocommerceSeoData: Record<Locale, ServicePageProps> = {
       items: [
         { question: "\u00bfQu\u00e9 tan r\u00e1pido ver\u00e9 resultados?", answer: "Las correcciones t\u00e9cnicas como [optimizaci\u00f3n de velocidad](/academy/site-speed-optimization) y schema markup pueden mostrar impacto en semanas. Las mejoras significativas de posicionamiento suelen tardar 3-6 meses. La dominaci\u00f3n del mercado requiere 6-12 meses de trabajo constante." },
         { question: "\u00bfCon qu\u00e9 tama\u00f1o de tiendas WooCommerce trabajan?", answer: "Trabajamos con tiendas de \u20AC500K+ de facturaci\u00f3n anual, t\u00edpicamente con 200-5.000+ SKUs. Nuestro punto fuerte son tiendas WooCommerce en crecimiento y enterprise que necesitan experiencia SEO t\u00e9cnica seria." },
-        { question: "\u00bfPor qu\u00e9 el SEO de WooCommerce es diferente al de Shopify o BigCommerce?", answer: "WooCommerce funciona sobre WordPress \u2014 m\u00e1s flexibilidad, pero tambi\u00e9n m\u00e1s complejidad. Conflictos de plugins, rendimiento del servidor, optimizaci\u00f3n de base de datos y problemas de temas custom requieren conocimiento profundo de la plataforma. Nuestra [gu\u00eda de SEO t\u00e9cnico para e-commerce](/blog/technical-seo-for-ecommerce) explica las diferencias clave entre plataformas." },
+        { question: "\u00bfPor qu\u00e9 el SEO de WooCommerce es diferente al de Shopify o BigCommerce?", answer: "WooCommerce funciona sobre WordPress - m\u00e1s flexibilidad, pero tambi\u00e9n m\u00e1s complejidad. Conflictos de plugins, rendimiento del servidor, optimizaci\u00f3n de base de datos y problemas de temas custom requieren conocimiento profundo de la plataforma. Nuestra [gu\u00eda de SEO t\u00e9cnico para e-commerce](/blog/technical-seo-for-ecommerce) explica las diferencias clave entre plataformas." },
         { question: "\u00bfNecesitan acceso a nuestro admin de WordPress?", answer: "S\u00ed, necesitaremos acceso al staging. Trabajamos primero en staging y luego desplegamos en producci\u00f3n tras tu aprobaci\u00f3n. Nunca hacemos cambios en tu tienda live sin autorizaci\u00f3n." },
         { question: "\u00bfQu\u00e9 pasa con nuestras variaciones de producto? Tenemos miles.", answer: "Las variaciones de producto son uno de los mayores desaf\u00edos SEO de WooCommerce. Implementamos canonicalizaci\u00f3n correcta, gestionamos URLs de variantes y aseguramos que Google se enfoque en tus [p\u00e1ginas de producto](/academy/product-page-seo) principales." },
         { question: "\u00bfC\u00f3mo es el reporting?", answer: "Informes mensuales que muestran exactamente qu\u00e9 hicimos, qu\u00e9 se movi\u00f3 y qu\u00e9 ingresos vinieron de org\u00e1nico. Rankings, tr\u00e1fico, salud t\u00e9cnica y atribuci\u00f3n de ingresos. Sin dashboards de vanidad." },
@@ -1089,11 +1097,12 @@ export const woocommerceSeoData: Record<Locale, ServicePageProps> = {
   it: {
     hero: {
       badge: "WooCommerce SEO",
-      heading: "WooCommerce SEO che muove davvero il fatturato",
+      heading: "L\u2019agenzia SEO WooCommerce che muove davvero il fatturato",
       subtitle: "La maggior parte delle agenzie non capisce WooCommerce. Noi ci gestiamo store. Grande differenza.",
       ctaText: "Prenota una call WooCommerce SEO",
     },
     trustBar: "20+ store WooCommerce \u00B7 97% retention clienti \u00B7 6+ anni in ecom SEO \u00B7 4,9\u2605 valutazione clienti",
+    trustBarIcon: "woocommerce" as const,
     sections: [
       {
         type: "stats",
@@ -1136,10 +1145,10 @@ export const woocommerceSeoData: Record<Locale, ServicePageProps> = {
         type: "benefits",
         badge: "Costruito per WooCommerce",
         heading: "Non conosciamo solo WooCommerce. Abbiamo ricostruito store da zero.",
-        subtitle: "La maggior parte delle agenzie SEO tratta WooCommerce come WordPress con un carrello. Noi sappiamo che \u00e8 un motore commerce completo \u2014 con le sue particolarit\u00e0 di indicizzazione, colli di bottiglia di performance e vantaggi strutturali.",
+        subtitle: "La maggior parte delle agenzie SEO tratta WooCommerce come WordPress con un carrello. Noi sappiamo che \u00e8 un motore commerce completo - con le sue particolarit\u00e0 di indicizzazione, colli di bottiglia di performance e vantaggi strutturali.",
         benefits: [
-          { title: "Il problema dei plugin di cui nessuno parla", description: "Yoast, RankMath, AIOSEO \u2014 tutti promettono SEO pronto all\u2019uso. Ma i conflitti tra plugin rompono i canonical, gonfiano le sitemap e creano schema contraddittorio. Noi correggiamo ci\u00f2 che i plugin non possono." },
-          { title: "La performance \u00e8 un fattore di ranking", description: "Gli store WooCommerce hanno in media 4-8 secondi di caricamento. Google si aspetta meno di 2,5s per LCP. Ottimizziamo query database, pipeline immagini e caching \u2014 spesso riducendo i tempi del 60%+." },
+          { title: "Il problema dei plugin di cui nessuno parla", description: "Yoast, RankMath, AIOSEO - tutti promettono SEO pronto all\u2019uso. Ma i conflitti tra plugin rompono i canonical, gonfiano le sitemap e creano schema contraddittorio. Noi correggiamo ci\u00f2 che i plugin non possono." },
+          { title: "La performance \u00e8 un fattore di ranking", description: "Gli store WooCommerce hanno in media 4-8 secondi di caricamento. Google si aspetta meno di 2,5s per LCP. Ottimizziamo query database, pipeline immagini e caching - spesso riducendo i tempi del 60%+." },
           { title: "Parliamo REST API e WP-CLI", description: "Mentre altre agenzie aprono ticket e aspettano, noi ci connettiamo via SSH allo staging e correggiamo direttamente. Hook custom per dati strutturati. Redirect programmatici. Ottimizzazione automatizzata dei feed." },
         ],
       },
@@ -1156,9 +1165,9 @@ export const woocommerceSeoData: Record<Locale, ServicePageProps> = {
       },
       {
         type: "caseStudies",
-        badge: "Risultati comprovati",
-        heading: "Cosa succede quando il SEO WooCommerce viene fatto bene",
-        subtitle: "Store reali, numeri reali. Ecco come appare il nostro lavoro SEO WooCommerce nella pratica.",
+        badge: "Casi studio",
+        heading: "Risultati clienti dal nostro lavoro in SEO WooCommerce",
+        subtitle: "Esempi concreti di come il nostro lavoro SEO WooCommerce ha generato crescita per i clienti.",
         caseStudies: [
           {
             badge: "Salute & Benessere \u00B7 WooCommerce",
@@ -1168,7 +1177,7 @@ export const woocommerceSeoData: Record<Locale, ServicePageProps> = {
               { value: "Top 3", label: "Posizioni di ranking" },
               { value: "12 mesi", label: "Tempistica" },
             ],
-            quote: "EcomSEO ha trasformato la nostra visibilit\u00e0 organica da quasi zero a dominare la nostra categoria.",
+            quote: "EcomSEO ha trasformato la nostra visibilit\u00e0 organica da quasi zero a leader nella nostra categoria.",
             quoteAuthor: "Direttore Marketing, Brand Salute & Benessere",
             href: "/cases/norwegian-health-store",
           },
@@ -1224,7 +1233,7 @@ export const woocommerceSeoData: Record<Locale, ServicePageProps> = {
           {
             number: "04",
             title: "Implementa correttamente lo schema prodotto",
-            body: "Lo schema di default di WooCommerce \u00e8 spesso incompleto \u2014 mancano recensioni, disponibilit\u00e0 o valuta del prezzo. Usa un plugin schema dedicato o JSON-LD personalizzato per assicurarti che Google mostri rich result per i tuoi prodotti.",
+            body: "Lo schema di default di WooCommerce \u00e8 spesso incompleto - mancano recensioni, disponibilit\u00e0 o valuta del prezzo. Usa un plugin schema dedicato o JSON-LD personalizzato per assicurarti che Google mostri rich result per i tuoi prodotti.",
             href: "/tools/schema-validator",
             hrefLabel: "Valida il tuo schema",
           },
@@ -1252,7 +1261,7 @@ export const woocommerceSeoData: Record<Locale, ServicePageProps> = {
       {
         type: "richText",
         badge: "WooCommerce Plus",
-        heading: "SEO WooCommerce vs SEO Shopify \u2014 Differenze chiave",
+        heading: "SEO WooCommerce vs SEO Shopify - Differenze chiave",
         subtitle: "WooCommerce ti d\u00e0 pi\u00f9 controllo di Shopify, ma quel controllo comporta pi\u00f9 responsabilit\u00e0.",
         richTextBlocks: [
           {
@@ -1261,7 +1270,7 @@ export const woocommerceSeoData: Record<Locale, ServicePageProps> = {
           },
           {
             heading: "Dove WooCommerce richiede attenzione extra",
-            body: "Conflitti di plugin che rompono i tag canonical, qualit\u00e0 dell\u2019hosting che impatta direttamente i Core Web Vitals, vulnerabilit\u00e0 di sicurezza da plugin obsoleti, bloat del database da revisioni e transient, e la necessit\u00e0 di aggiornamenti di manutenzione regolari. A differenza delle piattaforme gestite, WooCommerce ti mette al volante \u2014 il che significa che hai bisogno di qualcuno che sappia guidare.",
+            body: "Conflitti di plugin che rompono i tag canonical, qualit\u00e0 dell\u2019hosting che impatta direttamente i Core Web Vitals, vulnerabilit\u00e0 di sicurezza da plugin obsoleti, bloat del database da revisioni e transient, e la necessit\u00e0 di aggiornamenti di manutenzione regolari. A differenza delle piattaforme gestite, WooCommerce ti mette al volante - il che significa che hai bisogno di qualcuno che sappia guidare.",
           },
         ],
       },
@@ -1273,7 +1282,7 @@ export const woocommerceSeoData: Record<Locale, ServicePageProps> = {
         richTextBlocks: [
           {
             heading: "Cosa le agenzie generiche non vedono",
-            body: "Gestione degli URL delle variazioni prodotto che crea contenuto duplicato, problemi di performance dell\u2019API REST che rallentano admin e frontend, indicizzazione delle pagine carrello e checkout, requisiti di dati strutturati specifici di WooCommerce, test di compatibilit\u00e0 dei plugin per l\u2019impatto SEO e ottimizzazione delle query database per cataloghi grandi. Lavoriamo esclusivamente con brand e-commerce e capiamo WooCommerce dentro e fuori \u2014 dalle query wp_postmeta alle tassonomie prodotto personalizzate.",
+            body: "Gestione degli URL delle variazioni prodotto che crea contenuto duplicato, problemi di performance dell\u2019API REST che rallentano admin e frontend, indicizzazione delle pagine carrello e checkout, requisiti di dati strutturati specifici di WooCommerce, test di compatibilit\u00e0 dei plugin per l\u2019impatto SEO e ottimizzazione delle query database per cataloghi grandi. Lavoriamo esclusivamente con brand e-commerce e capiamo WooCommerce dentro e fuori - dalle query wp_postmeta alle tassonomie prodotto personalizzate.",
           },
         ],
       },
@@ -1294,34 +1303,35 @@ export const woocommerceSeoData: Record<Locale, ServicePageProps> = {
       {
         type: "team",
         badge: "Il team",
-        heading: "Gli specialisti SEO WooCommerce dietro la tua crescita",
+        heading: "Chi fa il lavoro",
         teamLead: {
           name: "Fabian van Til",
           role: "Strategia & Innovazione",
-          bio: "Guida la direzione strategica di tutti i progetti con i clienti. 8+ anni di esperienza in SEO e-commerce nei settori moda, salute, beauty e arredamento. Unisce strategia di crescita e innovazione SEO tecnica.",
+          bio: "Fabian definisce la strategia di ogni progetto cliente. 8+ anni di esperienza in SEO e-commerce nei settori moda, salute, beauty e arredamento. Unisce strategia di crescita e innovazione SEO tecnica.",
           image: "/images/framer/C23VbBxvj2kY5TMoXAJHXWVLaA.webp",
           linkedin: "https://www.linkedin.com/in/fabianvantil/",
         },
         teamMembers: [
           {
             name: "Dimitar Georgiev",
-            role: "Responsabile SEO tecnico",
-            bio: "Progetta le fondamenta SEO tecniche. Specializzato in ottimizzazione temi WooCommerce, dati strutturati e architettura del sito. Sviluppa gli strumenti SEO gratuiti di questo sito.",
+            role: "SEO tecnico & On-Page",
+            bio: "Dimitar progetta le fondamenta SEO tecniche e on-page. Specializzato in ottimizzazione temi WooCommerce, dati strutturati e architettura del sito. Sviluppa gli strumenti SEO gratuiti di questo sito.",
             image: "/images/framer/Q3tfuu2ytPAotONsFoP1ouyPZic.png",
             linkedin: "https://www.linkedin.com/in/dimitar-georgiev-seo/",
           },
           {
             name: "Martinijan Trajkovski",
             role: "Off-Page & Link Building",
-            bio: "Padroneggia l\u2019acquisizione di link e le digital PR su larga scala. Costruisce profili di backlink che fanno la differenza per keyword e-commerce competitive nei mercati europei e statunitensi.",
+            bio: "Martinijan gestisce l\u2019acquisizione di link e le digital PR su larga scala. Costruisce profili di backlink che fanno la differenza per keyword e-commerce competitive nei mercati europei e statunitensi.",
             image: "/images/framer/CBAq5E76Hb1mj6ehAOixPYBjN1w.png",
             linkedin: "https://mk.linkedin.com/in/martinijan-trajkovski-7678b6bb",
           },
           {
             name: "Gjorgi Jovev",
-            role: "On-Page & Strategia dei contenuti",
-            bio: "Elabora strategie di contenuto e ottimizzazioni on-page che si posizionano e convertono. Specializzato in ottimizzazione di pagine prodotto e categoria, ricerca keyword e pianificazione editoriale.",
+            role: "Contenuti, Link Building & PR",
+            bio: "Gjorgi elabora strategie di contenuto, ottimizzazioni on-page e campagne di link building e PR. Specializzato in ottimizzazione di pagine prodotto e categoria, ricerca keyword, pianificazione editoriale e campagne di outreach.",
             image: "/images/framer/gjorgi-jovev.png",
+            linkedin: "https://www.linkedin.com/in/gjorgi-jovev/",
           },
         ],
       },
@@ -1329,10 +1339,10 @@ export const woocommerceSeoData: Record<Locale, ServicePageProps> = {
         type: "deliverables",
         badge: "Deliverable",
         heading: "Cosa ricevi ogni mese",
-        subtitle: "Reporting trasparente e risultati tangibili \u2014 niente fronzoli, niente metriche di vanit\u00e0. Tutto \u00e8 legato ai tuoi obiettivi di fatturato.",
+        subtitle: "Reporting trasparente e risultati tangibili - niente fronzoli, niente metriche di vanit\u00e0. Tutto \u00e8 legato ai tuoi obiettivi di fatturato.",
         deliverables: [
           { title: "Audit tecnico", description: "Crawl completo + lista di correzioni prioritizzata con tracking dell\u2019implementazione" },
-          { title: "Schema Markup", description: "JSON-LD prodotto, breadcrumb e organizzazione \u2014 validato e monitorato" },
+          { title: "Schema Markup", description: "JSON-LD prodotto, breadcrumb e organizzazione - validato e monitorato" },
           { title: "Ottimizzazione della velocit\u00e0", description: "Miglioramenti Core Web Vitals con benchmark prima/dopo" },
           { title: "Ricerca keyword", description: "Analisi mensile delle opportunit\u00e0 di keyword con classificazione dell\u2019intento d\u2019acquisto" },
           { title: "Creazione contenuti", description: "Descrizioni prodotto, contenuti categoria e post blog ottimizzati SEO" },
@@ -1346,7 +1356,7 @@ export const woocommerceSeoData: Record<Locale, ServicePageProps> = {
       items: [
         { question: "Quanto velocemente vedr\u00f2 i risultati?", answer: "Le correzioni tecniche come [ottimizzazione della velocit\u00e0](/academy/site-speed-optimization) e schema markup possono mostrare impatto in settimane. Miglioramenti significativi nei posizionamenti richiedono tipicamente 3-6 mesi. La dominanza di mercato richiede 6-12 mesi di lavoro costante." },
         { question: "Con quali dimensioni di store WooCommerce lavorate?", answer: "Lavoriamo con store che fatturano \u20AC500K+ annui, tipicamente con 200-5.000+ SKU. Il nostro punto forte sono store WooCommerce in crescita ed enterprise che necessitano di seria competenza SEO tecnica." },
-        { question: "Perch\u00e9 il SEO WooCommerce \u00e8 diverso da Shopify o BigCommerce?", answer: "WooCommerce gira su WordPress \u2014 pi\u00f9 flessibilit\u00e0, ma anche pi\u00f9 complessit\u00e0. Conflitti di plugin, performance lato server, ottimizzazione database e problemi di temi custom richiedono conoscenza approfondita della piattaforma. La nostra [guida SEO tecnica per e-commerce](/blog/technical-seo-for-ecommerce) spiega le differenze chiave tra le piattaforme." },
+        { question: "Perch\u00e9 il SEO WooCommerce \u00e8 diverso da Shopify o BigCommerce?", answer: "WooCommerce gira su WordPress - pi\u00f9 flessibilit\u00e0, ma anche pi\u00f9 complessit\u00e0. Conflitti di plugin, performance lato server, ottimizzazione database e problemi di temi custom richiedono conoscenza approfondita della piattaforma. La nostra [guida SEO tecnica per e-commerce](/blog/technical-seo-for-ecommerce) spiega le differenze chiave tra le piattaforme." },
         { question: "Avete bisogno di accesso al nostro admin WordPress?", answer: "S\u00ec, avremo bisogno di accesso allo staging. Lavoriamo prima sullo staging, poi deployamo in produzione dopo la tua approvazione. Non modifichiamo mai il tuo store live senza autorizzazione." },
         { question: "E le nostre variazioni prodotto? Ne abbiamo migliaia.", answer: "Le variazioni prodotto sono una delle sfide SEO WooCommerce pi\u00f9 grandi. Implementiamo canonicalizzazione corretta, gestiamo gli URL delle varianti e assicuriamo che Google si concentri sulle tue [pagine prodotto](/academy/product-page-seo) principali." },
         { question: "Come si presenta il reporting?", answer: "Report mensili che mostrano esattamente cosa abbiamo fatto, cosa si \u00e8 mosso e quale fatturato \u00e8 arrivato dall\u2019organico. Posizionamenti, traffico, salute tecnica e attribuzione del fatturato. Niente dashboard di vanit\u00e0." },
@@ -1360,11 +1370,12 @@ export const woocommerceSeoData: Record<Locale, ServicePageProps> = {
   nl: {
     hero: {
       badge: "WooCommerce SEO",
-      heading: "WooCommerce SEO die daadwerkelijk omzet beweegt",
+      heading: "Het WooCommerce-SEO-bureau dat daadwerkelijk omzet beweegt",
       subtitle: "De meeste bureaus begrijpen WooCommerce niet. Wij draaien er webshops op. Groot verschil.",
       ctaText: "Boek een WooCommerce SEO-gesprek",
     },
     trustBar: "20+ WooCommerce-webshops \u00B7 97% klantretentie \u00B7 6+ jaar ecom SEO \u00B7 4,9\u2605 klantbeoordeling",
+    trustBarIcon: "woocommerce" as const,
     sections: [
       {
         type: "stats",
@@ -1407,10 +1418,10 @@ export const woocommerceSeoData: Record<Locale, ServicePageProps> = {
         type: "benefits",
         badge: "Gebouwd voor WooCommerce",
         heading: "We kennen niet alleen WooCommerce. We hebben webshops van binnenuit herbouwd.",
-        subtitle: "De meeste SEO-bureaus behandelen WooCommerce als WordPress met een winkelwagen. Wij weten dat het een complete commerce-engine is \u2014 met eigen indexatie-eigenaardigheden, prestatie-knelpunten en structurele voordelen.",
+        subtitle: "De meeste SEO-bureaus behandelen WooCommerce als WordPress met een winkelwagen. Wij weten dat het een complete commerce-engine is - met eigen indexatie-eigenaardigheden, prestatie-knelpunten en structurele voordelen.",
         benefits: [
-          { title: "Het pluginprobleem waar niemand over praat", description: "Yoast, RankMath, AIOSEO \u2014 ze beloven allemaal SEO out-of-the-box. Maar pluginconflicten breken canonicals, blazen sitemaps op en cre\u00ebren tegenstrijdig schema. Wij fixen wat plugins niet kunnen." },
-          { title: "Prestatie is een rankingfactor", description: "WooCommerce-webshops laden gemiddeld in 4-8 seconden. Google verwacht minder dan 2,5s voor LCP. Wij optimaliseren databasequeries, afbeeldingspipelines en caching \u2014 vaak met 60%+ snellere laadtijden." },
+          { title: "Het pluginprobleem waar niemand over praat", description: "Yoast, RankMath, AIOSEO - ze beloven allemaal SEO out-of-the-box. Maar pluginconflicten breken canonicals, blazen sitemaps op en cre\u00ebren tegenstrijdig schema. Wij fixen wat plugins niet kunnen." },
+          { title: "Prestatie is een rankingfactor", description: "WooCommerce-webshops laden gemiddeld in 4-8 seconden. Google verwacht minder dan 2,5s voor LCP. Wij optimaliseren databasequeries, afbeeldingspipelines en caching - vaak met 60%+ snellere laadtijden." },
           { title: "Wij spreken REST API en WP-CLI", description: "Terwijl andere bureaus tickets indienen en wachten, SSH\u2019en wij naar staging en fixen problemen direct. Custom hooks voor structured data. Programmatische redirects. Geautomatiseerde feedoptimalisatie." },
         ],
       },
@@ -1427,9 +1438,9 @@ export const woocommerceSeoData: Record<Locale, ServicePageProps> = {
       },
       {
         type: "caseStudies",
-        badge: "Bewezen resultaten",
-        heading: "Wat er gebeurt als WooCommerce SEO goed wordt gedaan",
-        subtitle: "Echte webshops, echte cijfers. Zo ziet ons WooCommerce SEO-werk er in de praktijk uit.",
+        badge: "Casestudies",
+        heading: "Klantresultaten van ons WooCommerce SEO-werk",
+        subtitle: "Concrete resultaten van onze WooCommerce SEO-projecten.",
         caseStudies: [
           {
             badge: "Gezondheid & Welzijn \u00B7 WooCommerce",
@@ -1495,7 +1506,7 @@ export const woocommerceSeoData: Record<Locale, ServicePageProps> = {
           {
             number: "04",
             title: "Implementeer productschema correct",
-            body: "Het standaard schema van WooCommerce is vaak onvolledig \u2014 ontbrekende reviews, beschikbaarheid of prijsvaluta. Gebruik een dedicated schema-plugin of aangepast JSON-LD om ervoor te zorgen dat Google rich results toont voor je producten.",
+            body: "Het standaard schema van WooCommerce is vaak onvolledig - ontbrekende reviews, beschikbaarheid of prijsvaluta. Gebruik een dedicated schema-plugin of aangepast JSON-LD om ervoor te zorgen dat Google rich results toont voor je producten.",
             href: "/tools/schema-validator",
             hrefLabel: "Valideer je schema",
           },
@@ -1523,7 +1534,7 @@ export const woocommerceSeoData: Record<Locale, ServicePageProps> = {
       {
         type: "richText",
         badge: "WooCommerce Plus",
-        heading: "WooCommerce SEO vs Shopify SEO \u2014 De belangrijkste verschillen",
+        heading: "WooCommerce SEO vs Shopify SEO - De belangrijkste verschillen",
         subtitle: "WooCommerce geeft je meer controle dan Shopify, maar die controle brengt meer verantwoordelijkheid met zich mee.",
         richTextBlocks: [
           {
@@ -1532,7 +1543,7 @@ export const woocommerceSeoData: Record<Locale, ServicePageProps> = {
           },
           {
             heading: "Waar WooCommerce extra aandacht nodig heeft",
-            body: "Pluginconflicten die canonical tags breken, hostingkwaliteit die direct impact heeft op Core Web Vitals, beveiligingskwetsbaarheden door verouderde plugins, database-bloat door revisies en transients, en de noodzaak van regelmatige onderhoudsupdates. In tegenstelling tot beheerde platforms zet WooCommerce jou achter het stuur \u2014 wat betekent dat je iemand nodig hebt die weet hoe je moet rijden.",
+            body: "Pluginconflicten die canonical tags breken, hostingkwaliteit die direct impact heeft op Core Web Vitals, beveiligingskwetsbaarheden door verouderde plugins, database-bloat door revisies en transients, en de noodzaak van regelmatige onderhoudsupdates. In tegenstelling tot beheerde platforms zet WooCommerce jou achter het stuur - wat betekent dat je iemand nodig hebt die weet hoe je moet rijden.",
           },
         ],
       },
@@ -1544,7 +1555,7 @@ export const woocommerceSeoData: Record<Locale, ServicePageProps> = {
         richTextBlocks: [
           {
             heading: "Wat generieke bureaus missen",
-            body: "Productvariant-URL-afhandeling die duplicate content cre\u00ebert, REST API-prestatieproblemen die admin en frontend vertragen, winkelwagen- en afrekenpagina-indexatie, WooCommerce-specifieke structured data-vereisten, plugincompatibiliteitstests voor SEO-impact en databasequery-optimalisatie voor grote catalogi. Wij werken uitsluitend met e-commercemerken en begrijpen WooCommerce van binnen en van buiten \u2014 van wp_postmeta-queries tot aangepaste producttaxonomie\u00ebn.",
+            body: "Productvariant-URL-afhandeling die duplicate content cre\u00ebert, REST API-prestatieproblemen die admin en frontend vertragen, winkelwagen- en afrekenpagina-indexatie, WooCommerce-specifieke structured data-vereisten, plugincompatibiliteitstests voor SEO-impact en databasequery-optimalisatie voor grote catalogi. Wij werken uitsluitend met e-commercemerken en begrijpen WooCommerce van binnen en van buiten - van wp_postmeta-queries tot aangepaste producttaxonomie\u00ebn.",
           },
         ],
       },
@@ -1565,34 +1576,35 @@ export const woocommerceSeoData: Record<Locale, ServicePageProps> = {
       {
         type: "team",
         badge: "Het team",
-        heading: "De WooCommerce SEO-specialisten achter jouw groei",
+        heading: "Wie doet het werk",
         teamLead: {
           name: "Fabian van Til",
           role: "Strategie & Innovatie",
-          bio: "Leidt de strategische richting van alle klantprojecten. 8+ jaar e-commerce SEO-ervaring in de sectoren mode, gezondheid, beauty en wonen. Combineert groeistrategie met technische SEO-innovatie.",
+          bio: "Fabian leidt de strategische richting van alle klantprojecten. Met 8+ jaar e-commerce SEO-ervaring in de sectoren mode, gezondheid, beauty en wonen combineert hij groeistrategie met technische SEO-innovatie.",
           image: "/images/framer/C23VbBxvj2kY5TMoXAJHXWVLaA.webp",
           linkedin: "https://www.linkedin.com/in/fabianvantil/",
         },
         teamMembers: [
           {
             name: "Dimitar Georgiev",
-            role: "Technisch SEO-leider",
-            bio: "Ontwerpt de technische SEO-fundamenten. Gespecialiseerd in WooCommerce-thema-optimalisatie, structured data en site-architectuur. Bouwt de gratis SEO-tools op deze site.",
+            role: "Technisch & On-Page SEO",
+            bio: "Dimitar ontwerpt de technische SEO-fundamenten en on-page optimalisaties. Hij is gespecialiseerd in WooCommerce-thema-optimalisatie, structured data en site-architectuur, en bouwt de gratis SEO-tools op deze site.",
             image: "/images/framer/Q3tfuu2ytPAotONsFoP1ouyPZic.png",
             linkedin: "https://www.linkedin.com/in/dimitar-georgiev-seo/",
           },
           {
             name: "Martinijan Trajkovski",
             role: "Off-Page & Linkbuilding",
-            bio: "Beheerst linkacquisitie en digitale PR op schaal. Bouwt backlinkprofielen die het verschil maken voor competitieve e-commerce zoekwoorden op Europese en Amerikaanse markten.",
+            bio: "Martinijan beheerst linkacquisitie en digitale PR op schaal. Hij bouwt backlinkprofielen die het verschil maken voor competitieve e-commerce zoekwoorden op Europese en Amerikaanse markten.",
             image: "/images/framer/CBAq5E76Hb1mj6ehAOixPYBjN1w.png",
             linkedin: "https://mk.linkedin.com/in/martinijan-trajkovski-7678b6bb",
           },
           {
             name: "Gjorgi Jovev",
-            role: "On-Page & Contentstrategie",
-            bio: "Ontwikkelt contentstrategieën en on-page optimalisaties die ranken en converteren. Gespecialiseerd in product- en categoriepagina-optimalisatie, zoekwoordonderzoek en redactionele planning.",
+            role: "Content, Linkbuilding & PR",
+            bio: "Gjorgi ontwikkelt contentstrategieën, on-page optimalisaties en linkbuilding- en PR-campagnes. Hij is gespecialiseerd in product- en categoriepagina-optimalisatie, zoekwoordonderzoek, redactionele planning en outreach.",
             image: "/images/framer/gjorgi-jovev.png",
+            linkedin: "https://www.linkedin.com/in/gjorgi-jovev/",
           },
         ],
       },
@@ -1600,10 +1612,10 @@ export const woocommerceSeoData: Record<Locale, ServicePageProps> = {
         type: "deliverables",
         badge: "Deliverables",
         heading: "Wat je elke maand ontvangt",
-        subtitle: "Transparante rapportage en tastbare resultaten \u2014 geen opvulling, geen ijdelheidsstatistieken. Alles is gekoppeld aan je omzetdoelen.",
+        subtitle: "Transparante rapportage en tastbare resultaten - geen opvulling, geen ijdelheidsstatistieken. Alles is gekoppeld aan je omzetdoelen.",
         deliverables: [
           { title: "Technische audit", description: "Volledige crawl + geprioriteerde fixlijst met implementatietracking" },
-          { title: "Schema Markup", description: "Product-, breadcrumb- en organisatie-JSON-LD \u2014 gevalideerd en gemonitord" },
+          { title: "Schema Markup", description: "Product-, breadcrumb- en organisatie-JSON-LD - gevalideerd en gemonitord" },
           { title: "Snelheidsoptimalisatie", description: "Core Web Vitals-verbeteringen met voor/na-benchmarks" },
           { title: "Zoekwoordonderzoek", description: "Maandelijkse zoekwoordkansen-analyse met koopintentieclassificatie" },
           { title: "Contentcreatie", description: "SEO-geoptimaliseerde productbeschrijvingen, categoriecontent en blogposts" },
@@ -1617,7 +1629,7 @@ export const woocommerceSeoData: Record<Locale, ServicePageProps> = {
       items: [
         { question: "Hoe snel zie ik resultaten?", answer: "Technische fixes zoals [snelheidsoptimalisatie](/academy/site-speed-optimization) en schema markup kunnen binnen weken impact tonen. Betekenisvolle rankingverbeteringen duren doorgaans 3-6 maanden. Marktdominantie vergt 6-12 maanden consistent werk." },
         { question: "Met welke grootte WooCommerce-webshops werken jullie?", answer: "We werken met webshops die \u20AC500K+ jaaromzet draaien, doorgaans met 200-5.000+ SKU\u2019s. Onze sweet spot zijn groeiende en enterprise WooCommerce-webshops die serieuze technische SEO-expertise nodig hebben." },
-        { question: "Waarom is WooCommerce SEO anders dan Shopify of BigCommerce?", answer: "WooCommerce draait op WordPress \u2014 meer flexibiliteit, maar ook meer complexiteit. Pluginconflicten, server-side prestaties, database-optimalisatie en custom thema-problemen vereisen diepe platformkennis. Onze [technische SEO-gids voor e-commerce](/blog/technical-seo-for-ecommerce) legt de belangrijkste verschillen tussen platformen uit." },
+        { question: "Waarom is WooCommerce SEO anders dan Shopify of BigCommerce?", answer: "WooCommerce draait op WordPress - meer flexibiliteit, maar ook meer complexiteit. Pluginconflicten, server-side prestaties, database-optimalisatie en custom thema-problemen vereisen diepe platformkennis. Onze [technische SEO-gids voor e-commerce](/blog/technical-seo-for-ecommerce) legt de belangrijkste verschillen tussen platformen uit." },
         { question: "Hebben jullie toegang nodig tot ons WordPress-admin?", answer: "Ja, we hebben stagingtoegang nodig. We werken eerst op staging en deployen daarna naar productie na jouw goedkeuring. We brengen nooit wijzigingen aan op je live webshop zonder akkoord." },
         { question: "Hoe zit het met onze productvarianten? We hebben er duizenden.", answer: "Productvarianten zijn een van de grootste WooCommerce SEO-uitdagingen. We implementeren correcte canonicalisatie, beheren variant-URL\u2019s en zorgen dat Google zich richt op je [hoofdproductpagina\u2019s](/academy/product-page-seo)." },
         { question: "Hoe ziet de rapportage eruit?", answer: "Maandelijkse rapporten die precies tonen wat we hebben gedaan, wat er is veranderd en welke omzet uit organisch kwam. Rankings, verkeer, technische gezondheid en omzetattributie. Geen ijdelheidsdashboards." },

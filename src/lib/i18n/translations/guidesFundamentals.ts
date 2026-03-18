@@ -32,7 +32,7 @@ export const guidesFundamentalsT: Record<Locale, {
     },
     badge: "Ecommerce SEO Basics",
     heading: "SEO Fundamentals Checklist",
-    intro: "This is the absolute first thing we do when starting a new project. Before content strategy, before link building, before anything \u2014 we make sure the fundamentals are locked in. Use this checklist to audit your own store.",
+    intro: "This is the absolute first thing we do when starting a new project. Before content strategy, before link building, before anything - we make sure the fundamentals are locked in. Use this checklist to audit your own store.",
     sections: [
       {
         title: "1. Title Tags",
@@ -136,7 +136,7 @@ export const guidesFundamentalsT: Record<Locale, {
     },
     badge: "E-Commerce-SEO-Grundlagen",
     heading: "SEO-Grundlagen-Checkliste",
-    intro: "Das ist das Allererste, was wir bei einem neuen Projekt tun. Vor der Content-Strategie, vor dem Linkaufbau, vor allem anderen \u2014 wir stellen sicher, dass die Grundlagen stehen. Nutzen Sie diese Checkliste, um Ihren eigenen Shop zu pr\u00fcfen.",
+    intro: "Das ist das Allererste, was wir bei einem neuen Projekt tun. Vor der Content-Strategie, vor dem Linkaufbau, vor allem anderen - wir stellen sicher, dass die Grundlagen stehen. Nutzen Sie diese Checkliste, um Ihren eigenen Shop zu pr\u00fcfen.",
     sections: [
       {
         title: "1. Title-Tags",
@@ -240,7 +240,7 @@ export const guidesFundamentalsT: Record<Locale, {
     },
     badge: "Bases du SEO e-commerce",
     heading: "Checklist des fondamentaux SEO",
-    intro: "C'est la toute premiere chose que nous faisons au demarrage d'un nouveau projet. Avant la strategie de contenu, avant le netlinking, avant tout \u2014 nous verrouillons les fondamentaux. Utilisez cette checklist pour auditer votre propre boutique.",
+    intro: "C'est la toute premiere chose que nous faisons au demarrage d'un nouveau projet. Avant la strategie de contenu, avant le netlinking, avant tout - nous verrouillons les fondamentaux. Utilisez cette checklist pour auditer votre propre boutique.",
     sections: [
       {
         title: "1. Balises title",
@@ -344,7 +344,7 @@ export const guidesFundamentalsT: Record<Locale, {
     },
     badge: "Fundamentos de SEO e-commerce",
     heading: "Checklist de fundamentos SEO",
-    intro: "Esto es lo primero que hacemos al iniciar un nuevo proyecto. Antes de la estrategia de contenidos, antes del link building, antes de cualquier otra cosa \u2014 nos aseguramos de que los fundamentos estan bien establecidos. Usa esta checklist para auditar tu propia tienda.",
+    intro: "Esto es lo primero que hacemos al iniciar un nuevo proyecto. Antes de la estrategia de contenidos, antes del link building, antes de cualquier otra cosa - nos aseguramos de que los fundamentos estan bien establecidos. Usa esta checklist para auditar tu propia tienda.",
     sections: [
       {
         title: "1. Etiquetas de titulo",
@@ -448,7 +448,7 @@ export const guidesFundamentalsT: Record<Locale, {
     },
     badge: "Basi della SEO e-commerce",
     heading: "Checklist dei fondamentali SEO",
-    intro: "Questa e la primissima cosa che facciamo quando iniziamo un nuovo progetto. Prima della strategia dei contenuti, prima della link building, prima di qualsiasi altra cosa \u2014 ci assicuriamo che i fondamentali siano solidi. Usa questa checklist per verificare il tuo negozio.",
+    intro: "Questa e la primissima cosa che facciamo quando iniziamo un nuovo progetto. Prima della strategia dei contenuti, prima della link building, prima di qualsiasi altra cosa - ci assicuriamo che i fondamentali siano solidi. Usa questa checklist per verificare il tuo negozio.",
     sections: [
       {
         title: "1. Tag title",
@@ -552,7 +552,7 @@ export const guidesFundamentalsT: Record<Locale, {
     },
     badge: "E-commerce SEO-basiskennis",
     heading: "SEO-basischecklist",
-    intro: "Dit is het allereerste wat we doen bij een nieuw project. Voor de contentstrategie, voor de linkbuilding, voor alles \u2014 we zorgen dat de basis op orde is. Gebruik deze checklist om je eigen webshop te auditen.",
+    intro: "Dit is het allereerste wat we doen bij een nieuw project. Voor de contentstrategie, voor de linkbuilding, voor alles - we zorgen dat de basis op orde is. Gebruik deze checklist om je eigen webshop te auditen.",
     sections: [
       {
         title: "1. Title-tags",

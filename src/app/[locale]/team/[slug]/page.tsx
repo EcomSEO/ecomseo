@@ -72,7 +72,7 @@ const teamMembers: Record<string, TeamMember> = {
       "A Passionate Entrepreneur, specialising in ecommerce marketing.",
     image:
       "/images/framer/CBAq5E76Hb1mj6ehAOixPYBjN1w.png",
-    bio: "Martinijan Trajkovski is a data-driven SEO strategist with 9+ years of experience \u2014 four dedicated to skyrocketing ecommerce brands. Since joining EcomSEO in 2023, he\u2019s fused deep market research, competitor intel, white-hat link building, affiliate growth and digital PR to turn organic search into profit. Away from the SERPs he\u2019s usually devouring marketing books, lifting at the gym or chasing drop-shots on the tennis court.",
+    bio: "Martinijan Trajkovski is a data-driven SEO strategist with 9+ years of experience - four dedicated to skyrocketing ecommerce brands. Since joining EcomSEO in 2023, he\u2019s fused deep market research, competitor intel, white-hat link building, affiliate growth and digital PR to turn organic search into profit. Away from the SERPs he\u2019s usually devouring marketing books, lifting at the gym or chasing drop-shots on the tennis court.",
     skills: [
       "Market Research",
       "Branding",
@@ -124,7 +124,7 @@ const teamMembers: Record<string, TeamMember> = {
       "SEO specialist focused on eCommerce, with over 5 years of experience.",
     image:
       "/images/framer/Q3tfuu2ytPAotONsFoP1ouyPZic.png",
-    bio: "Dimitar joined EcomSEO in 2024, bringing over five years of hands-on experience in SEO for both e-commerce and affiliate websites. With a strong foundation in on-page optimization, technical audits, content strategy, and off-page SEO, he plays a key role in driving client growth through sustainable rankings and targeted traffic. Dimitar\u2019s approach combines precision with creativity, helping brands stand out in competitive niches. Outside of work, he\u2019s committed to the gym and enjoys traveling to new destinations \u2014 always seeking the next challenge, both in fitness and digital marketing.",
+    bio: "Dimitar joined EcomSEO in 2024, bringing over five years of hands-on experience in SEO for both e-commerce and affiliate websites. With a strong foundation in on-page optimization, technical audits, content strategy, and off-page SEO, he plays a key role in driving client growth through sustainable rankings and targeted traffic. Dimitar\u2019s approach combines precision with creativity, helping brands stand out in competitive niches. Outside of work, he\u2019s committed to the gym and enjoys traveling to new destinations - always seeking the next challenge, both in fitness and digital marketing.",
     skills: [
       "Keyword Research",
       "Off-page SEO",
@@ -221,11 +221,11 @@ export async function generateMetadata({
   if (!member) return {};
 
   return {
-    title: `${member.name} \u2014 ${member.role} | EcomSEO`,
+    title: `${member.name} - ${member.role} | EcomSEO`,
     description: member.tagline,
     alternates: generateAlternates(`/team/${slug}`, locale as Locale),
     openGraph: {
-      title: `${member.name} \u2014 ${member.role} | EcomSEO`,
+      title: `${member.name} - ${member.role} | EcomSEO`,
       description: member.tagline,
       images: [{ url: member.image }],
       locale: ogLocaleMap[locale as Locale] || "en_GB",

@@ -167,6 +167,93 @@ export const ecommerceSeoServicesData: Record<Locale, ServicePageProps> = {
           },
         ],
       },
+      {
+        type: "stats",
+        badge: "Client Results",
+        heading: "The Numbers Behind Our Ecommerce SEO Services",
+        subtitle:
+          "Aggregate metrics across every service we deliver. Revenue-focused, not vanity-metric driven.",
+        stats: [
+          { value: "$12M+", label: "Revenue Generated for Clients" },
+          { value: "50+", label: "Ecommerce Stores Optimized" },
+          { value: "140%", label: "Avg. Organic Traffic Increase" },
+          { value: "8+", label: "Years Ecommerce-Only Focus" },
+        ],
+      },
+      {
+        type: "caseStudies",
+        badge: "Case Studies",
+        heading: "Real Stores. Real Revenue. Real SEO Results.",
+        subtitle:
+          "Every service we offer is built to drive measurable revenue. Here are stores that prove it.",
+        caseStudies: [
+          {
+            badge: "Fashion · Shopify",
+            title: "Fashion Brand, 3x Organic Revenue in 12 Months",
+            image: "/images/framer/QtPNuhsKVZNt3klckPPtQzUuW0.png",
+            metrics: [
+              { value: "3x", label: "Organic Revenue" },
+              { value: "+210%", label: "Organic Traffic" },
+              { value: "12 mo", label: "Timeframe" },
+            ],
+            quote:
+              "EcomSEO understood that rankings mean nothing without conversions. They optimized our category pages, fixed our technical debt, and tripled our organic revenue in a year.",
+            quoteAuthor: "Head of Digital, Fashion Ecommerce Brand",
+            href: "/cases",
+          },
+          {
+            badge: "Health & Wellness · WooCommerce",
+            title: "Health Brand, From Page 3 to Page 1 for Core Keywords",
+            image: "/images/framer/dsId62uNnnWBWAr5Vi1Z5UqiQ.png",
+            metrics: [
+              { value: "Page 1", label: "Core Commercial Keywords" },
+              { value: "+340%", label: "Organic Revenue" },
+              { value: "9 mo", label: "Timeframe" },
+            ],
+            quote:
+              "We went from invisible to dominating our category. The revenue impact was immediate once rankings moved, because they targeted buyer intent, not vanity keywords.",
+            quoteAuthor: "Founder, DTC Health Brand",
+            href: "/cases",
+          },
+        ],
+        ctaText: "View All Case Studies",
+        ctaHref: "/cases",
+      },
+      {
+        type: "team",
+        badge: "The Team",
+        heading: "Who Does the Work",
+        teamLead: {
+          name: "Fabian van Til",
+          role: "Strategy & Innovation",
+          bio: "Fabian owns the SEO strategy for every client. 8 years of ecommerce-only experience across fashion, health, beauty, toys, and electronics. He built the Commerce Growth Framework\u2122 that has driven $12M+ in organic revenue.",
+          image: "/images/framer/C23VbBxvj2kY5TMoXAJHXWVLaA.webp",
+          linkedin: "https://www.linkedin.com/in/fabianvantil/",
+        },
+        teamMembers: [
+          {
+            name: "Dimitar Georgiev",
+            role: "Technical & On-Page SEO",
+            bio: "Dimitar handles the technical and on-page SEO. He works on crawl optimization for large catalogs, structured data at scale, Core Web Vitals, and site architecture for stores with 500-100,000+ SKUs.",
+            image: "/images/framer/Q3tfuu2ytPAotONsFoP1ouyPZic.png",
+            linkedin: "https://www.linkedin.com/in/dimitar-georgiev-seo/",
+          },
+          {
+            name: "Martinijan Trajkovski",
+            role: "Off-Page & Link Building",
+            bio: "Martinijan runs link acquisition and digital PR. He earns authority through product review placements, industry publication outreach, and partnerships. 9,000+ links secured across all clients.",
+            image: "/images/framer/CBAq5E76Hb1mj6ehAOixPYBjN1w.png",
+            linkedin: "https://mk.linkedin.com/in/martinijan-trajkovski-7678b6bb",
+          },
+          {
+            name: "Gjorgi Jovev",
+            role: "Content, Link Building & PR",
+            bio: "Gjorgi writes the content and runs link building and PR campaigns. He handles category page copy, buying guides, editorial calendars timed to seasonal demand, and outreach to earn backlinks from relevant publications.",
+            image: "/images/framer/gjorgi-jovev.png",
+            linkedin: "https://www.linkedin.com/in/gjorgi-jovev/",
+          },
+        ],
+      },
     ],
     faqs: {
       items: [
@@ -193,7 +280,7 @@ export const ecommerceSeoServicesData: Record<Locale, ServicePageProps> = {
         {
           question: "How quickly will I see results?",
           answer:
-            "Technical fixes can show measurable impact within weeks. Content and category optimisation typically compounds over 3–6 months. Authority and link building compounds over 6–12 months. We'll set realistic timelines based on your specific situation.",
+            "Technical fixes can show measurable impact within weeks. Content and category optimisation typically compounds over 3-6 months. Authority and link building compounds over 6-12 months. We'll set realistic timelines based on your specific situation.",
         },
         {
           question: "Do you offer a free audit?",
@@ -375,6 +462,93 @@ export const ecommerceSeoServicesData: Record<Locale, ServicePageProps> = {
           },
         ],
       },
+      {
+        type: "stats",
+        badge: "Kennzahlen",
+        heading: "Die Zahlen hinter unseren E-Commerce SEO Services",
+        subtitle:
+          "Aggregierte Kennzahlen über alle Services, die wir liefern. Umsatzorientiert, nicht auf Vanity-Metriken ausgerichtet.",
+        stats: [
+          { value: "$12M+", label: "Generierter Umsatz für Kunden" },
+          { value: "50+", label: "Optimierte E-Commerce Shops" },
+          { value: "140%", label: "Durchschn. organisches Trafficwachstum" },
+          { value: "8+", label: "Jahre reiner E-Commerce-Fokus" },
+        ],
+      },
+      {
+        type: "caseStudies",
+        badge: "Fallstudien",
+        heading: "Echte Shops. Echter Umsatz. Echte SEO-Ergebnisse.",
+        subtitle:
+          "Jeder Service, den wir anbieten, ist darauf ausgelegt, messbaren Umsatz zu erzielen. Hier sind Shops, die es beweisen.",
+        caseStudies: [
+          {
+            badge: "Fashion · Shopify",
+            title: "Modemarke, 3x organischer Umsatz in 12 Monaten",
+            image: "/images/framer/QtPNuhsKVZNt3klckPPtQzUuW0.png",
+            metrics: [
+              { value: "3x", label: "Organischer Umsatz" },
+              { value: "+210%", label: "Organischer Traffic" },
+              { value: "12 Mo", label: "Zeitraum" },
+            ],
+            quote:
+              "EcomSEO hat verstanden, dass Rankings ohne Conversions nichts bedeuten. Sie haben unsere Kategorieseiten optimiert, unsere technischen Schulden behoben und unseren organischen Umsatz in einem Jahr verdreifacht.",
+            quoteAuthor: "Head of Digital, Fashion E-Commerce Marke",
+            href: "/cases",
+          },
+          {
+            badge: "Gesundheit & Wellness · WooCommerce",
+            title: "Gesundheitsmarke, Von Seite 3 auf Seite 1 für Kern-Keywords",
+            image: "/images/framer/dsId62uNnnWBWAr5Vi1Z5UqiQ.png",
+            metrics: [
+              { value: "Seite 1", label: "Kommerzielle Kern-Keywords" },
+              { value: "+340%", label: "Organischer Umsatz" },
+              { value: "9 Mo", label: "Zeitraum" },
+            ],
+            quote:
+              "Wir sind von unsichtbar zur Spitze unserer Kategorie aufgestiegen. Der Umsatzeffekt war sofort spürbar, als die Rankings stiegen, weil sie Kaufabsichten anvisiert haben, keine Vanity-Keywords.",
+            quoteAuthor: "Gründer, DTC Gesundheitsmarke",
+            href: "/cases",
+          },
+        ],
+        ctaText: "Alle Fallstudien ansehen",
+        ctaHref: "/cases",
+      },
+      {
+        type: "team",
+        badge: "Das Team",
+        heading: "Das Team hinter unseren E-Commerce-SEO-Services",
+        teamLead: {
+          name: "Fabian van Til",
+          role: "Strategie & Innovation",
+          bio: "Fabian leitet die strategische Ausrichtung aller Kundenprojekte. Mit 8+ Jahren reiner E-Commerce-SEO-Erfahrung in Mode, Gesundheit, Beauty, Spielzeug und Elektronik hat er das Commerce Growth Framework™ entwickelt, das über $12M an organischem Umsatz generiert hat.",
+          image: "/images/framer/C23VbBxvj2kY5TMoXAJHXWVLaA.webp",
+          linkedin: "https://www.linkedin.com/in/fabianvantil/",
+        },
+        teamMembers: [
+          {
+            name: "Dimitar Georgiev",
+            role: "Technisches & On-Page SEO",
+            bio: "Entwickelt die technischen SEO-Grundlagen und On-Page-Optimierungen für E-Commerce-Shops jeder Größe. Spezialisiert auf Crawl-Optimierung großer Kataloge, strukturierte Daten im großen Maßstab und Core Web Vitals.",
+            image: "/images/framer/Q3tfuu2ytPAotONsFoP1ouyPZic.png",
+            linkedin: "https://www.linkedin.com/in/dimitar-georgiev-seo/",
+          },
+          {
+            name: "Martinijan Trajkovski",
+            role: "Off-Page & Linkaufbau",
+            bio: "Martinijan verantwortet Linkakquise und digitale PR für E-Commerce-Marken. Er baut Autorität durch Produktbewertungen, Branchenpublikationen und strategische Partnerschaften auf. Über 9.000 gesicherte Links.",
+            image: "/images/framer/CBAq5E76Hb1mj6ehAOixPYBjN1w.png",
+            linkedin: "https://mk.linkedin.com/in/martinijan-trajkovski-7678b6bb",
+          },
+          {
+            name: "Gjorgi Jovev",
+            role: "Content, Linkaufbau & PR",
+            bio: "Entwickelt Content-Strategien, Linkaufbau und PR für E-Commerce-Marken. Spezialisiert auf Kategorieseiten-Optimierung, Kaufratgeber, redaktionelle Kalender und Outreach-Kampagnen.",
+            image: "/images/framer/gjorgi-jovev.png",
+            linkedin: "https://www.linkedin.com/in/gjorgi-jovev/",
+          },
+        ],
+      },
     ],
     faqs: {
       items: [
@@ -401,12 +575,12 @@ export const ecommerceSeoServicesData: Record<Locale, ServicePageProps> = {
         {
           question: "Wie schnell werde ich Ergebnisse sehen?",
           answer:
-            "Technische Fixes können messbare Auswirkungen innerhalb von Wochen zeigen. Content- und Kategorieoptimierung verstärkt sich typischerweise über 3–6 Monate. Autorität und Linkaufbau summieren sich über 6–12 Monate.",
+            "Technische Fixes können messbare Auswirkungen innerhalb von Wochen zeigen. Content- und Kategorieoptimierung verstärkt sich typischerweise über 3-6 Monate. Autorität und Linkaufbau summieren sich über 6-12 Monate.",
         },
         {
           question: "Bieten Sie ein kostenloses Audit an?",
           answer:
-            "Ja - ein kostenloses E-Commerce-SEO-Audit, das Ihre größten Chancen in den Bereichen Technik, Content und Autorität identifiziert. Beginnen Sie mit unserem Überblick zum [kompletten E-Commerce-SEO](/blog/ecommerce-seo) und buchen Sie dann ein Gespräch — wir zeigen Ihnen genau, wo Sie Umsatz liegen lassen.",
+            "Ja - ein kostenloses E-Commerce-SEO-Audit, das Ihre größten Chancen in den Bereichen Technik, Content und Autorität identifiziert. Beginnen Sie mit unserem Überblick zum [kompletten E-Commerce-SEO](/blog/ecommerce-seo) und buchen Sie dann ein Gespräch, wir zeigen Ihnen genau, wo Sie Umsatz liegen lassen.",
         },
       ],
       miniCta: {
@@ -580,6 +754,93 @@ export const ecommerceSeoServicesData: Record<Locale, ServicePageProps> = {
             title: "Reporting Transparent",
             description:
               "Rapports mensuels montrant exactement ce qui a été fait, ce qui a bougé et quel est l'impact sur le chiffre d'affaires. Pas de fumée ni de miroirs.",
+          },
+        ],
+      },
+      {
+        type: "stats",
+        badge: "Résultats Prouvés",
+        heading: "Les chiffres derrière nos services SEO e-commerce",
+        subtitle:
+          "Métriques agrégées sur tous les services que nous fournissons. Orientés revenus, pas métriques de vanité.",
+        stats: [
+          { value: "$12M+", label: "Revenus générés pour nos clients" },
+          { value: "50+", label: "Boutiques e-commerce optimisées" },
+          { value: "140%", label: "Augmentation moy. du trafic organique" },
+          { value: "8+", label: "Années de focus e-commerce exclusif" },
+        ],
+      },
+      {
+        type: "caseStudies",
+        badge: "Études de cas",
+        heading: "Résultats clients de nos services SEO e-commerce",
+        subtitle:
+          "Chaque service que nous offrons est conçu pour générer des revenus mesurables. Voici des boutiques qui le prouvent.",
+        caseStudies: [
+          {
+            badge: "Mode · Shopify",
+            title: "Marque de mode, 3x le revenu organique en 12 mois",
+            image: "/images/framer/QtPNuhsKVZNt3klckPPtQzUuW0.png",
+            metrics: [
+              { value: "3x", label: "Revenu organique" },
+              { value: "+210%", label: "Trafic organique" },
+              { value: "12 mois", label: "Durée" },
+            ],
+            quote:
+              "EcomSEO a compris que les classements ne signifient rien sans conversions. Ils ont optimisé nos pages catégories, corrigé notre dette technique et triplé notre revenu organique en un an.",
+            quoteAuthor: "Directeur Digital, Marque de mode e-commerce",
+            href: "/cases",
+          },
+          {
+            badge: "Santé & Bien-être · WooCommerce",
+            title: "Marque santé, De la page 3 à la page 1 pour les mots-clés principaux",
+            image: "/images/framer/dsId62uNnnWBWAr5Vi1Z5UqiQ.png",
+            metrics: [
+              { value: "Page 1", label: "Mots-clés commerciaux principaux" },
+              { value: "+340%", label: "Revenu organique" },
+              { value: "9 mois", label: "Durée" },
+            ],
+            quote:
+              "Nous sommes passés d'invisibles à dominants dans notre catégorie. L'impact sur le chiffre d'affaires a été immédiat une fois les classements améliorés.",
+            quoteAuthor: "Fondateur, Marque DTC Santé",
+            href: "/cases",
+          },
+        ],
+        ctaText: "Voir toutes les études de cas",
+        ctaHref: "/cases",
+      },
+      {
+        type: "team",
+        badge: "L'Équipe",
+        heading: "L'équipe",
+        teamLead: {
+          name: "Fabian van Til",
+          role: "Stratégie & Innovation",
+          bio: "Fabian pilote tous les engagements clients. 8+ ans d'expérience SEO exclusivement e-commerce dans la mode, la santé, la beauté, les jouets et l'électronique. Architecte du Commerce Growth Framework™ ayant généré plus de $12M de revenus organiques.",
+          image: "/images/framer/C23VbBxvj2kY5TMoXAJHXWVLaA.webp",
+          linkedin: "https://www.linkedin.com/in/fabianvantil/",
+        },
+        teamMembers: [
+          {
+            name: "Dimitar Georgiev",
+            role: "SEO technique & On-Page",
+            bio: "Conçoit les fondations SEO techniques et on-page pour les boutiques e-commerce de toutes tailles. Spécialisé dans l'optimisation du crawl pour les grands catalogues, les données structurées à grande échelle et les Core Web Vitals.",
+            image: "/images/framer/Q3tfuu2ytPAotONsFoP1ouyPZic.png",
+            linkedin: "https://www.linkedin.com/in/dimitar-georgiev-seo/",
+          },
+          {
+            name: "Martinijan Trajkovski",
+            role: "Off-Page & Netlinking",
+            bio: "Maîtrise l'acquisition de liens et les RP digitales pour les marques e-commerce. Construit l'autorité par les placements de critiques produits et les partenariats stratégiques. Plus de 9 000 liens obtenus.",
+            image: "/images/framer/CBAq5E76Hb1mj6ehAOixPYBjN1w.png",
+            linkedin: "https://mk.linkedin.com/in/martinijan-trajkovski-7678b6bb",
+          },
+          {
+            name: "Gjorgi Jovev",
+            role: "Contenu, Link Building & PR",
+            bio: "Crée des stratégies de contenu, du link building et des RP pour les marques e-commerce. Spécialisé dans l'optimisation des pages catégories, les guides d'achat, les calendriers éditoriaux et les campagnes d'outreach.",
+            image: "/images/framer/gjorgi-jovev.png",
+            linkedin: "https://www.linkedin.com/in/gjorgi-jovev/",
           },
         ],
       },
@@ -791,6 +1052,93 @@ export const ecommerceSeoServicesData: Record<Locale, ServicePageProps> = {
           },
         ],
       },
+      {
+        type: "stats",
+        badge: "Resultados Probados",
+        heading: "Los números detrás de nuestros servicios SEO para ecommerce",
+        subtitle:
+          "Métricas agregadas de todos los servicios que ofrecemos. Enfocados en ingresos, no en métricas de vanidad.",
+        stats: [
+          { value: "$12M+", label: "Ingresos generados para clientes" },
+          { value: "50+", label: "Tiendas ecommerce optimizadas" },
+          { value: "140%", label: "Aumento prom. de tráfico orgánico" },
+          { value: "8+", label: "Años de enfoque exclusivo en ecommerce" },
+        ],
+      },
+      {
+        type: "caseStudies",
+        badge: "Casos de Éxito",
+        heading: "Resultados de clientes de nuestros servicios SEO ecommerce",
+        subtitle:
+          "Cada servicio que ofrecemos está diseñado para generar ingresos medibles. Aquí están las tiendas que lo demuestran.",
+        caseStudies: [
+          {
+            badge: "Moda · Shopify",
+            title: "Marca de moda, 3x ingresos orgánicos en 12 meses",
+            image: "/images/framer/QtPNuhsKVZNt3klckPPtQzUuW0.png",
+            metrics: [
+              { value: "3x", label: "Ingresos orgánicos" },
+              { value: "+210%", label: "Tráfico orgánico" },
+              { value: "12 meses", label: "Periodo" },
+            ],
+            quote:
+              "EcomSEO entendió que los rankings no significan nada sin conversiones. Optimizaron nuestras páginas de categoría, arreglaron nuestra deuda técnica y triplicaron nuestros ingresos orgánicos en un año.",
+            quoteAuthor: "Director Digital, Marca de moda ecommerce",
+            href: "/cases",
+          },
+          {
+            badge: "Salud y Bienestar · WooCommerce",
+            title: "Marca de salud, De la página 3 a la página 1 para keywords principales",
+            image: "/images/framer/dsId62uNnnWBWAr5Vi1Z5UqiQ.png",
+            metrics: [
+              { value: "Página 1", label: "Keywords comerciales principales" },
+              { value: "+340%", label: "Ingresos orgánicos" },
+              { value: "9 meses", label: "Periodo" },
+            ],
+            quote:
+              "Pasamos de invisibles a liderar nuestra categor\u00eda. El impacto en ingresos fue inmediato una vez que los rankings subieron - porque apuntaron a intenci\u00f3n de compra, no a keywords de vanidad.",
+            quoteAuthor: "Fundador, Marca DTC de Salud",
+            href: "/cases",
+          },
+        ],
+        ctaText: "Ver todos los casos de éxito",
+        ctaHref: "/cases",
+      },
+      {
+        type: "team",
+        badge: "El Equipo",
+        heading: "El equipo",
+        teamLead: {
+          name: "Fabian van Til",
+          role: "Estrategia e Innovación",
+          bio: "Fabian dirige la estrategia de todos los proyectos. 8+ a\u00f1os de experiencia SEO exclusivamente en ecommerce en moda, salud, belleza, juguetes y electr\u00f3nica. Arquitecto del Commerce Growth Framework\u2122 que ha generado m\u00e1s de $12M en ingresos org\u00e1nicos.",
+          image: "/images/framer/C23VbBxvj2kY5TMoXAJHXWVLaA.webp",
+          linkedin: "https://www.linkedin.com/in/fabianvantil/",
+        },
+        teamMembers: [
+          {
+            name: "Dimitar Georgiev",
+            role: "SEO Técnico & On-Page",
+            bio: "Diseña las bases técnicas de SEO y on-page para tiendas ecommerce de todos los tamaños. Especializado en optimización de rastreo para catálogos grandes, datos estructurados a escala y Core Web Vitals.",
+            image: "/images/framer/Q3tfuu2ytPAotONsFoP1ouyPZic.png",
+            linkedin: "https://www.linkedin.com/in/dimitar-georgiev-seo/",
+          },
+          {
+            name: "Martinijan Trajkovski",
+            role: "Off-Page y Link Building",
+            bio: "Martinijan lidera la adquisici\u00f3n de enlaces y las RP digitales para marcas ecommerce. Construye autoridad a trav\u00e9s de rese\u00f1as de productos y asociaciones estrat\u00e9gicas. M\u00e1s de 9.000 enlaces conseguidos.",
+            image: "/images/framer/CBAq5E76Hb1mj6ehAOixPYBjN1w.png",
+            linkedin: "https://mk.linkedin.com/in/martinijan-trajkovski-7678b6bb",
+          },
+          {
+            name: "Gjorgi Jovev",
+            role: "Contenido, Link Building y PR",
+            bio: "Crea estrategias de contenido, link building y PR para marcas ecommerce. Especializado en optimización de páginas de categoría, guías de compra, calendarios editoriales y campañas de outreach.",
+            image: "/images/framer/gjorgi-jovev.png",
+            linkedin: "https://www.linkedin.com/in/gjorgi-jovev/",
+          },
+        ],
+      },
     ],
     faqs: {
       items: [
@@ -817,7 +1165,7 @@ export const ecommerceSeoServicesData: Record<Locale, ServicePageProps> = {
         {
           question: "¿Cuánto tiempo tardará en ver resultados?",
           answer:
-            "Las correcciones técnicas pueden mostrar impacto medible en semanas. La optimización de contenido y categorías generalmente se acumula durante 3–6 meses. La autoridad y el link building se acumulan durante 6–12 meses.",
+            "Las correcciones técnicas pueden mostrar impacto medible en semanas. La optimización de contenido y categorías generalmente se acumula durante 3-6 meses. La autoridad y el link building se acumulan durante 6-12 meses.",
         },
         {
           question: "¿Ofrecen una auditoría gratuita?",
@@ -999,6 +1347,93 @@ export const ecommerceSeoServicesData: Record<Locale, ServicePageProps> = {
           },
         ],
       },
+      {
+        type: "stats",
+        badge: "Track Record",
+        heading: "I numeri dietro i nostri servizi SEO e-commerce",
+        subtitle:
+          "Metriche aggregate su tutti i servizi che forniamo. Orientati ai ricavi, non alle metriche di vanità.",
+        stats: [
+          { value: "$12M+", label: "Ricavi generati per i clienti" },
+          { value: "50+", label: "Negozi e-commerce ottimizzati" },
+          { value: "140%", label: "Aumento medio del traffico organico" },
+          { value: "8+", label: "Anni di focus esclusivo sull'e-commerce" },
+        ],
+      },
+      {
+        type: "caseStudies",
+        badge: "Casi di Studio",
+        heading: "Risultati clienti dai nostri servizi SEO e-commerce",
+        subtitle:
+          "Ogni servizio che offriamo \u00e8 progettato per generare ricavi misurabili. Ecco i risultati ottenuti.",
+        caseStudies: [
+          {
+            badge: "Moda · Shopify",
+            title: "Brand di moda, 3x ricavi organici in 12 mesi",
+            image: "/images/framer/QtPNuhsKVZNt3klckPPtQzUuW0.png",
+            metrics: [
+              { value: "3x", label: "Ricavi organici" },
+              { value: "+210%", label: "Traffico organico" },
+              { value: "12 mesi", label: "Periodo" },
+            ],
+            quote:
+              "EcomSEO ha capito che i posizionamenti non significano nulla senza conversioni. Hanno ottimizzato le nostre pagine di categoria, risolto il nostro debito tecnico e triplicato i nostri ricavi organici in un anno.",
+            quoteAuthor: "Direttore Digitale, Brand di moda e-commerce",
+            href: "/cases",
+          },
+          {
+            badge: "Salute & Benessere · WooCommerce",
+            title: "Brand salute, Da pagina 3 a pagina 1 per le keyword principali",
+            image: "/images/framer/dsId62uNnnWBWAr5Vi1Z5UqiQ.png",
+            metrics: [
+              { value: "Pagina 1", label: "Keyword commerciali principali" },
+              { value: "+340%", label: "Ricavi organici" },
+              { value: "9 mesi", label: "Periodo" },
+            ],
+            quote:
+              "Siamo passati dall'essere invisibili a leader nella nostra categoria. L'impatto sui ricavi \u00e8 stato immediato una volta che i posizionamenti sono saliti.",
+            quoteAuthor: "Fondatore, Brand DTC Salute",
+            href: "/cases",
+          },
+        ],
+        ctaText: "Vedi tutti i casi di studio",
+        ctaHref: "/cases",
+      },
+      {
+        type: "team",
+        badge: "Il Team",
+        heading: "Chi fa il lavoro",
+        teamLead: {
+          name: "Fabian van Til",
+          role: "Strategia e Innovazione",
+          bio: "Fabian definisce la strategia di ogni progetto cliente. 8+ anni di esperienza SEO esclusivamente e-commerce nella moda, salute, beauty, giocattoli ed elettronica. Architetto del Commerce Growth Framework\u2122 che ha generato oltre $12M di ricavi organici.",
+          image: "/images/framer/C23VbBxvj2kY5TMoXAJHXWVLaA.webp",
+          linkedin: "https://www.linkedin.com/in/fabianvantil/",
+        },
+        teamMembers: [
+          {
+            name: "Dimitar Georgiev",
+            role: "SEO tecnico & On-Page",
+            bio: "Dimitar progetta le fondamenta SEO tecniche e on-page per negozi e-commerce di ogni dimensione. Specializzato in ottimizzazione del crawl per cataloghi grandi, dati strutturati su larga scala e Core Web Vitals.",
+            image: "/images/framer/Q3tfuu2ytPAotONsFoP1ouyPZic.png",
+            linkedin: "https://www.linkedin.com/in/dimitar-georgiev-seo/",
+          },
+          {
+            name: "Martinijan Trajkovski",
+            role: "Off-Page & Link Building",
+            bio: "Martinijan gestisce l'acquisizione di link e le digital PR per brand e-commerce. Costruisce autorit\u00e0 attraverso recensioni prodotto e partnership strategiche. Oltre 9.000 link ottenuti.",
+            image: "/images/framer/CBAq5E76Hb1mj6ehAOixPYBjN1w.png",
+            linkedin: "https://mk.linkedin.com/in/martinijan-trajkovski-7678b6bb",
+          },
+          {
+            name: "Gjorgi Jovev",
+            role: "Contenuti, Link Building & PR",
+            bio: "Gjorgi crea strategie di contenuto per brand e-commerce che si posizionano e convertono. Specializzato in ottimizzazione delle pagine categoria, guide all'acquisto e calendari editoriali e campagne di link building e PR.",
+            image: "/images/framer/gjorgi-jovev.png",
+            linkedin: "https://www.linkedin.com/in/gjorgi-jovev/",
+          },
+        ],
+      },
     ],
     faqs: {
       items: [
@@ -1025,7 +1460,7 @@ export const ecommerceSeoServicesData: Record<Locale, ServicePageProps> = {
         {
           question: "Quanto tempo ci vorrà per vedere risultati?",
           answer:
-            "Le correzioni tecniche possono mostrare un impatto misurabile in settimane. L'ottimizzazione dei contenuti e delle categorie tipicamente si accumula nel corso di 3–6 mesi. Autorità e link building si accumulano nel corso di 6–12 mesi.",
+            "Le correzioni tecniche possono mostrare un impatto misurabile in settimane. L'ottimizzazione dei contenuti e delle categorie tipicamente si accumula nel corso di 3-6 mesi. Autorità e link building si accumulano nel corso di 6-12 mesi.",
         },
         {
           question: "Offrite un audit gratuito?",
@@ -1207,6 +1642,93 @@ export const ecommerceSeoServicesData: Record<Locale, ServicePageProps> = {
           },
         ],
       },
+      {
+        type: "stats",
+        badge: "Bewezen Resultaten",
+        heading: "De cijfers achter onze e-commerce SEO services",
+        subtitle:
+          "Geaggregeerde metrics over alle services die we leveren. Omzetgericht, niet gericht op vanity metrics.",
+        stats: [
+          { value: "$12M+", label: "Omzet gegenereerd voor klanten" },
+          { value: "50+", label: "E-commerce winkels geoptimaliseerd" },
+          { value: "140%", label: "Gem. organische trafficgroei" },
+          { value: "8+", label: "Jaar exclusieve e-commerce focus" },
+        ],
+      },
+      {
+        type: "caseStudies",
+        badge: "Cases",
+        heading: "Echte winkels. Echte omzet. Echte SEO-resultaten.",
+        subtitle:
+          "Elke service die we aanbieden is ontworpen om meetbare omzet te genereren. Hier zijn winkels die het bewijzen.",
+        caseStudies: [
+          {
+            badge: "Mode · Shopify",
+            title: "Modemerk, 3x organische omzet in 12 maanden",
+            image: "/images/framer/QtPNuhsKVZNt3klckPPtQzUuW0.png",
+            metrics: [
+              { value: "3x", label: "Organische omzet" },
+              { value: "+210%", label: "Organisch verkeer" },
+              { value: "12 mnd", label: "Tijdsbestek" },
+            ],
+            quote:
+              "EcomSEO begreep dat rankings niets betekenen zonder conversies. Ze optimaliseerden onze categoriepagina's, losten onze technische schuld op en verdrievoudigden onze organische omzet in een jaar.",
+            quoteAuthor: "Head of Digital, Mode E-commerce Merk",
+            href: "/cases",
+          },
+          {
+            badge: "Gezondheid & Welzijn · WooCommerce",
+            title: "Gezondheidsmerk, Van pagina 3 naar pagina 1 voor kernzoekwoorden",
+            image: "/images/framer/dsId62uNnnWBWAr5Vi1Z5UqiQ.png",
+            metrics: [
+              { value: "Pagina 1", label: "Commerciële kernzoekwoorden" },
+              { value: "+340%", label: "Organische omzet" },
+              { value: "9 mnd", label: "Tijdsbestek" },
+            ],
+            quote:
+              "We gingen van onzichtbaar naar dominant in onze categorie. De omzetimpact was onmiddellijk zodra de rankings stegen, omdat ze op koopintentie richtten, niet op vanity zoekwoorden.",
+            quoteAuthor: "Oprichter, DTC Gezondheidsmerk",
+            href: "/cases",
+          },
+        ],
+        ctaText: "Bekijk alle cases",
+        ctaHref: "/cases",
+      },
+      {
+        type: "team",
+        badge: "Het Team",
+        heading: "Het team",
+        teamLead: {
+          name: "Fabian van Til",
+          role: "Strategie & Innovatie",
+          bio: "Fabian leidt de strategische richting van alle klantprojecten. Met 8+ jaar pure e-commerce SEO-ervaring in mode, gezondheid, beauty, speelgoed en elektronica is hij de architect van het Commerce Growth Framework™ dat meer dan $12M aan organische omzet heeft gegenereerd.",
+          image: "/images/framer/C23VbBxvj2kY5TMoXAJHXWVLaA.webp",
+          linkedin: "https://www.linkedin.com/in/fabianvantil/",
+        },
+        teamMembers: [
+          {
+            name: "Dimitar Georgiev",
+            role: "Technisch & On-Page SEO",
+            bio: "Dimitar ontwerpt de technische SEO-fundamenten en on-page optimalisaties voor e-commerce winkels van elke omvang. Hij is gespecialiseerd in crawl-optimalisatie voor grote catalogi, gestructureerde data op schaal en Core Web Vitals.",
+            image: "/images/framer/Q3tfuu2ytPAotONsFoP1ouyPZic.png",
+            linkedin: "https://www.linkedin.com/in/dimitar-georgiev-seo/",
+          },
+          {
+            name: "Martinijan Trajkovski",
+            role: "Off-Page & Linkbuilding",
+            bio: "Martinijan beheerst linkacquisitie en digitale PR voor e-commerce merken. Hij bouwt autoriteit op via productrecensies en strategische partnerschappen. Meer dan 9.000 links verkregen.",
+            image: "/images/framer/CBAq5E76Hb1mj6ehAOixPYBjN1w.png",
+            linkedin: "https://mk.linkedin.com/in/martinijan-trajkovski-7678b6bb",
+          },
+          {
+            name: "Gjorgi Jovev",
+            role: "Content, Linkbuilding & PR",
+            bio: "Gjorgi creëert contentstrategieën, linkbuilding en PR voor e-commerce merken. Hij is gespecialiseerd in categoriepagina-optimalisatie, koopgidsen, redactionele kalenders en outreach-campagnes.",
+            image: "/images/framer/gjorgi-jovev.png",
+            linkedin: "https://www.linkedin.com/in/gjorgi-jovev/",
+          },
+        ],
+      },
     ],
     faqs: {
       items: [
@@ -1233,7 +1755,7 @@ export const ecommerceSeoServicesData: Record<Locale, ServicePageProps> = {
         {
           question: "Hoe snel zie ik resultaten?",
           answer:
-            "Technische fixes kunnen meetbare impact tonen binnen enkele weken. Content- en categorieoptimalisatie accumuleert doorgaans over 3–6 maanden. Autoriteit en linkbuilding accumuleert over 6–12 maanden.",
+            "Technische fixes kunnen meetbare impact tonen binnen enkele weken. Content- en categorieoptimalisatie accumuleert doorgaans over 3-6 maanden. Autoriteit en linkbuilding accumuleert over 6-12 maanden.",
         },
         {
           question: "Biedt u een gratis audit aan?",

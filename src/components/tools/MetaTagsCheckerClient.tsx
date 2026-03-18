@@ -172,7 +172,7 @@ function generateSuggestions(r: MetaTagResult): string[] {
     if (r.titleLength > 60) suggestions.push(`Title is ${r.titleLength} chars — keep it under 60 characters to avoid truncation`);
     if (r.titlePixelWidth > 600) suggestions.push(`Title is ${r.titlePixelWidth}px wide — exceeds Google's ~600px display limit and will be truncated in SERPs`);
     if (r.titlePixelWidth < 200) suggestions.push("Title is very short — consider making it more descriptive");
-    if (r.title && !r.title.includes("|") && !r.title.includes(" - ") && !r.title.includes(" \u2014 ")) {
+    if (r.title && !r.title.includes("|") && !r.title.includes(" - ") && !r.title.includes(" - ")) {
       suggestions.push("Title doesn't appear to contain a brand name separator (| or -)");
     }
   }

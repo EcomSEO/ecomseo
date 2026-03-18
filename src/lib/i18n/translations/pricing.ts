@@ -56,7 +56,7 @@ export const pricingTiersT: Record<Locale, PricingTier[]> = {
       name: "Growth",
       price: "Custom",
       priceSubtext: "/ month",
-      description: "For ecommerce brands that don\u2019t have their SEO basics in place yet. If you\u2019re doing \u20ac500K\u20132M/year, this gets organic working as a real revenue channel.",
+      description: "For ecommerce brands that don\u2019t have their SEO basics in place yet. If you\u2019re doing \u20ac500K-2M/year, this gets organic working as a real revenue channel.",
       features: [
         "Full technical SEO audit & fixes",
         "Keyword research & mapping",
@@ -74,7 +74,7 @@ export const pricingTiersT: Record<Locale, PricingTier[]> = {
       name: "Scale",
       price: "Custom",
       priceSubtext: "/ month",
-      description: "For brands that want to be the first organic result in their category. Most of our clients at \u20ac2M\u201310M/year end up here.",
+      description: "For brands that want to be the first organic result in their category. Most of our clients at \u20ac2M-10M/year end up here.",
       features: [
         "Everything in Growth",
         "Content strategy & production",
@@ -113,7 +113,7 @@ export const pricingTiersT: Record<Locale, PricingTier[]> = {
       name: "Growth",
       price: "Individuell",
       priceSubtext: "/ Monat",
-      description: "F\u00fcr E-Commerce-Marken, die ihr SEO noch nicht im Griff haben. Bei \u20ac500K\u20132M Jahresumsatz bringt das organischen Traffic als echten Umsatzkanal ins Laufen.",
+      description: "F\u00fcr E-Commerce-Marken, die ihr SEO noch nicht im Griff haben. Bei \u20ac500K-2M Jahresumsatz bringt das organischen Traffic als echten Umsatzkanal ins Laufen.",
       features: [
         "Vollst\u00e4ndiges technisches SEO-Audit & Fixes",
         "Keyword-Recherche & Mapping",
@@ -131,7 +131,7 @@ export const pricingTiersT: Record<Locale, PricingTier[]> = {
       name: "Scale",
       price: "Individuell",
       priceSubtext: "/ Monat",
-      description: "F\u00fcr Marken, die in ihrer Kategorie das erste organische Ergebnis sein wollen. Die meisten unserer Kunden mit \u20ac2M\u201310M Jahresumsatz landen hier.",
+      description: "F\u00fcr Marken, die in ihrer Kategorie das erste organische Ergebnis sein wollen. Die meisten unserer Kunden mit \u20ac2M-10M Jahresumsatz landen hier.",
       features: [
         "Alles aus Growth",
         "Content-Strategie & Produktion",
@@ -170,7 +170,7 @@ export const pricingTiersT: Record<Locale, PricingTier[]> = {
       name: "Growth",
       price: "Sur mesure",
       priceSubtext: "/ mois",
-      description: "Pour les marques e-commerce qui n\u2019ont pas encore leurs bases SEO en place. Si vous faites 500K\u20132M\u20ac/an, on transforme l\u2019organique en vrai canal de revenus.",
+      description: "Pour les marques e-commerce qui n\u2019ont pas encore leurs bases SEO en place. Si vous faites 500K-2M\u20ac/an, on transforme l\u2019organique en vrai canal de revenus.",
       features: [
         "Audit technique SEO complet & corrections",
         "Recherche de mots-cl\u00e9s & mapping",
@@ -188,7 +188,7 @@ export const pricingTiersT: Record<Locale, PricingTier[]> = {
       name: "Scale",
       price: "Sur mesure",
       priceSubtext: "/ mois",
-      description: "Pour les marques qui veulent \u00eatre le premier r\u00e9sultat organique dans leur cat\u00e9gorie. La plupart de nos clients \u00e0 2M\u201310M\u20ac/an choisissent cette formule.",
+      description: "Pour les marques qui veulent \u00eatre le premier r\u00e9sultat organique dans leur cat\u00e9gorie. La plupart de nos clients \u00e0 2M-10M\u20ac/an choisissent cette formule.",
       features: [
         "Tout ce qui est inclus dans Growth",
         "Strat\u00e9gie de contenu & production",
@@ -227,7 +227,7 @@ export const pricingTiersT: Record<Locale, PricingTier[]> = {
       name: "Growth",
       price: "Personalizado",
       priceSubtext: "/ mes",
-      description: "Para marcas e-commerce que a\u00fan no tienen sus bases SEO en orden. Si facturas 500K\u20132M\u20ac/a\u00f1o, esto convierte el tr\u00e1fico org\u00e1nico en un canal de ingresos real.",
+      description: "Para marcas e-commerce que a\u00fan no tienen sus bases SEO en orden. Si facturas 500K-2M\u20ac/a\u00f1o, esto convierte el tr\u00e1fico org\u00e1nico en un canal de ingresos real.",
       features: [
         "Auditor\u00eda t\u00e9cnica SEO completa y correcciones",
         "Investigaci\u00f3n de palabras clave y mapeo",
@@ -245,7 +245,7 @@ export const pricingTiersT: Record<Locale, PricingTier[]> = {
       name: "Scale",
       price: "Personalizado",
       priceSubtext: "/ mes",
-      description: "Para marcas que quieren ser el primer resultado org\u00e1nico en su categor\u00eda. La mayor\u00eda de nuestros clientes con 2M\u201310M\u20ac/a\u00f1o eligen este plan.",
+      description: "Para marcas que quieren ser el primer resultado org\u00e1nico en su categor\u00eda. La mayor\u00eda de nuestros clientes con 2M-10M\u20ac/a\u00f1o eligen este plan.",
       features: [
         "Todo lo incluido en Growth",
         "Estrategia de contenido y producci\u00f3n",
@@ -284,7 +284,7 @@ export const pricingTiersT: Record<Locale, PricingTier[]> = {
       name: "Growth",
       price: "Personalizzato",
       priceSubtext: "/ mese",
-      description: "Per brand e-commerce che non hanno ancora le basi SEO a posto. Se fatturi \u20ac500K\u20132M/anno, questo trasforma l\u2019organico in un canale di ricavi concreto.",
+      description: "Per brand e-commerce che non hanno ancora le basi SEO a posto. Se fatturi \u20ac500K-2M/anno, questo trasforma l\u2019organico in un canale di ricavi concreto.",
       features: [
         "Audit tecnico SEO completo e correzioni",
         "Ricerca keyword e mappatura",
@@ -302,7 +302,7 @@ export const pricingTiersT: Record<Locale, PricingTier[]> = {
       name: "Scale",
       price: "Personalizzato",
       priceSubtext: "/ mese",
-      description: "Per brand che vogliono essere il primo risultato organico nella loro categoria. La maggior parte dei nostri clienti con \u20ac2M\u201310M/anno sceglie questo piano.",
+      description: "Per brand che vogliono essere il primo risultato organico nella loro categoria. La maggior parte dei nostri clienti con \u20ac2M-10M/anno sceglie questo piano.",
       features: [
         "Tutto ci\u00f2 che \u00e8 incluso in Growth",
         "Strategia e produzione di contenuti",
@@ -341,7 +341,7 @@ export const pricingTiersT: Record<Locale, PricingTier[]> = {
       name: "Growth",
       price: "Op maat",
       priceSubtext: "/ maand",
-      description: "Voor e-commercemerken die hun SEO-basis nog niet op orde hebben. Bij \u20ac500K\u20132M/jaar omzet zorgt dit ervoor dat organisch verkeer echt geld oplevert.",
+      description: "Voor e-commercemerken die hun SEO-basis nog niet op orde hebben. Bij \u20ac500K-2M/jaar omzet zorgt dit ervoor dat organisch verkeer echt geld oplevert.",
       features: [
         "Volledige technische SEO-audit & fixes",
         "Zoekwoordenonderzoek & mapping",
@@ -359,7 +359,7 @@ export const pricingTiersT: Record<Locale, PricingTier[]> = {
       name: "Scale",
       price: "Op maat",
       priceSubtext: "/ maand",
-      description: "Voor merken die het eerste organische resultaat in hun categorie willen zijn. De meeste van onze klanten met \u20ac2M\u201310M/jaar kiezen dit pakket.",
+      description: "Voor merken die het eerste organische resultaat in hun categorie willen zijn. De meeste van onze klanten met \u20ac2M-10M/jaar kiezen dit pakket.",
       features: [
         "Alles uit Growth",
         "Contentstrategie & productie",
@@ -568,8 +568,8 @@ export const pricingProcessT: Record<Locale, {
     phases: [
       { title: "Foundation", description: "Technical audit, crawl optimization, speed fixes, and structured data. Nothing else matters if Google can\u2019t properly crawl and index your site." },
       { title: "Growth", description: "Category page optimization, content strategy, and internal linking. This is where organic traffic starts turning into actual orders." },
-      { title: "Scale", description: "Authority building, competitive gap targeting, and conversion optimization. Traffic is coming in \u2014 now we make it compound month over month." },
-      { title: "Dominate", description: "AI search optimization, new market expansion, and defensive SEO. You\u2019re the one to beat \u2014 we keep it that way." },
+      { title: "Scale", description: "Authority building, competitive gap targeting, and conversion optimization. Traffic is coming in - now we make it compound month over month." },
+      { title: "Dominate", description: "AI search optimization, new market expansion, and defensive SEO. You\u2019re the one to beat - we keep it that way." },
     ],
   },
   de: {
@@ -579,8 +579,8 @@ export const pricingProcessT: Record<Locale, {
     phases: [
       { title: "Foundation", description: "Technisches Audit, Crawl-Optimierung, Speed-Fixes und strukturierte Daten. Nichts funktioniert, wenn Google Ihre Seite nicht richtig crawlen und indexieren kann." },
       { title: "Growth", description: "Kategorie-Optimierung, Content-Strategie und interne Verlinkung. Hier wird organischer Traffic zu echten Bestellungen." },
-      { title: "Scale", description: "Autorit\u00e4tsaufbau, Wettbewerber-L\u00fccken schlie\u00dfen und Conversion-Optimierung. Der Traffic kommt \u2014 jetzt sorgen wir daf\u00fcr, dass er Monat f\u00fcr Monat w\u00e4chst." },
-      { title: "Dominate", description: "KI-Suchoptimierung, Expansion in neue M\u00e4rkte und defensives SEO. Sie sind die Nummer eins \u2014 wir sorgen daf\u00fcr, dass das so bleibt." },
+      { title: "Scale", description: "Autorit\u00e4tsaufbau, Wettbewerber-L\u00fccken schlie\u00dfen und Conversion-Optimierung. Der Traffic kommt - jetzt sorgen wir daf\u00fcr, dass er Monat f\u00fcr Monat w\u00e4chst." },
+      { title: "Dominate", description: "KI-Suchoptimierung, Expansion in neue M\u00e4rkte und defensives SEO. Sie sind die Nummer eins - wir sorgen daf\u00fcr, dass das so bleibt." },
     ],
   },
   fr: {
@@ -590,8 +590,8 @@ export const pricingProcessT: Record<Locale, {
     phases: [
       { title: "Foundation", description: "Audit technique, optimisation du crawl, am\u00e9lioration de la vitesse et donn\u00e9es structur\u00e9es. Rien ne fonctionne si Google ne peut pas explorer et indexer correctement votre site." },
       { title: "Growth", description: "Optimisation des pages cat\u00e9gories, strat\u00e9gie de contenu et liens internes. C\u2019est l\u00e0 que le trafic organique commence \u00e0 g\u00e9n\u00e9rer de vraies commandes." },
-      { title: "Scale", description: "Construction d\u2019autorit\u00e9, ciblage des lacunes concurrentielles et optimisation des conversions. Le trafic arrive \u2014 maintenant on le fait cro\u00eetre mois apr\u00e8s mois." },
-      { title: "Dominate", description: "Optimisation pour la recherche IA, expansion sur de nouveaux march\u00e9s et SEO d\u00e9fensif. Vous \u00eates le num\u00e9ro un \u2014 on fait en sorte que \u00e7a dure." },
+      { title: "Scale", description: "Construction d\u2019autorit\u00e9, ciblage des lacunes concurrentielles et optimisation des conversions. Le trafic arrive - maintenant on le fait cro\u00eetre mois apr\u00e8s mois." },
+      { title: "Dominate", description: "Optimisation pour la recherche IA, expansion sur de nouveaux march\u00e9s et SEO d\u00e9fensif. Vous \u00eates le num\u00e9ro un - on fait en sorte que \u00e7a dure." },
     ],
   },
   es: {
@@ -601,8 +601,8 @@ export const pricingProcessT: Record<Locale, {
     phases: [
       { title: "Foundation", description: "Auditor\u00eda t\u00e9cnica, optimizaci\u00f3n de rastreo, mejoras de velocidad y datos estructurados. Nada funciona si Google no puede rastrear e indexar tu sitio correctamente." },
       { title: "Growth", description: "Optimizaci\u00f3n de p\u00e1ginas de categor\u00eda, estrategia de contenido y enlaces internos. Aqu\u00ed es donde el tr\u00e1fico org\u00e1nico empieza a convertirse en pedidos reales." },
-      { title: "Scale", description: "Construcci\u00f3n de autoridad, cierre de brechas competitivas y optimizaci\u00f3n de conversiones. El tr\u00e1fico llega \u2014 ahora hacemos que crezca mes tras mes." },
-      { title: "Dominate", description: "Optimizaci\u00f3n para b\u00fasqueda IA, expansi\u00f3n a nuevos mercados y SEO defensivo. Eres el n\u00famero uno \u2014 nos aseguramos de que siga as\u00ed." },
+      { title: "Scale", description: "Construcci\u00f3n de autoridad, cierre de brechas competitivas y optimizaci\u00f3n de conversiones. El tr\u00e1fico llega - ahora hacemos que crezca mes tras mes." },
+      { title: "Dominate", description: "Optimizaci\u00f3n para b\u00fasqueda IA, expansi\u00f3n a nuevos mercados y SEO defensivo. Eres el n\u00famero uno - nos aseguramos de que siga as\u00ed." },
     ],
   },
   it: {
@@ -612,8 +612,8 @@ export const pricingProcessT: Record<Locale, {
     phases: [
       { title: "Foundation", description: "Audit tecnico, ottimizzazione del crawl, miglioramenti di velocit\u00e0 e dati strutturati. Niente funziona se Google non riesce a scansionare e indicizzare il tuo sito correttamente." },
       { title: "Growth", description: "Ottimizzazione delle pagine categoria, strategia di contenuti e linking interno. Qui il traffico organico inizia a trasformarsi in ordini veri." },
-      { title: "Scale", description: "Costruzione di autorit\u00e0, copertura dei gap competitivi e ottimizzazione delle conversioni. Il traffico arriva \u2014 ora lo facciamo crescere mese dopo mese." },
-      { title: "Dominate", description: "Ottimizzazione per la ricerca IA, espansione in nuovi mercati e SEO difensiva. Sei il numero uno \u2014 ci assicuriamo che resti cos\u00ec." },
+      { title: "Scale", description: "Costruzione di autorit\u00e0, copertura dei gap competitivi e ottimizzazione delle conversioni. Il traffico arriva - ora lo facciamo crescere mese dopo mese." },
+      { title: "Dominate", description: "Ottimizzazione per la ricerca IA, espansione in nuovi mercati e SEO difensiva. Sei il numero uno - ci assicuriamo che resti cos\u00ec." },
     ],
   },
   nl: {
@@ -623,8 +623,8 @@ export const pricingProcessT: Record<Locale, {
     phases: [
       { title: "Foundation", description: "Technisch audit, crawloptimalisatie, snelheidsverbeteringen en gestructureerde data. Niets werkt als Google je site niet goed kan crawlen en indexeren." },
       { title: "Growth", description: "Categoriepagina-optimalisatie, contentstrategie en interne links. Hier begint organisch verkeer zich om te zetten in echte bestellingen." },
-      { title: "Scale", description: "Autoriteitopbouw, concurrentiegaps dichten en conversie-optimalisatie. Het verkeer komt binnen \u2014 nu laten we het maand na maand groeien." },
-      { title: "Dominate", description: "AI-zoekoptimalisatie, uitbreiding naar nieuwe markten en defensieve SEO. Je bent nummer \u00e9\u00e9n \u2014 wij zorgen dat dat zo blijft." },
+      { title: "Scale", description: "Autoriteitopbouw, concurrentiegaps dichten en conversie-optimalisatie. Het verkeer komt binnen - nu laten we het maand na maand groeien." },
+      { title: "Dominate", description: "AI-zoekoptimalisatie, uitbreiding naar nieuwe markten en defensieve SEO. Je bent nummer \u00e9\u00e9n - wij zorgen dat dat zo blijft." },
     ],
   },
 };
@@ -659,7 +659,7 @@ export const pricingFaqItemsT: Record<Locale, { question: string; answer: string
     { question: "Was ist die minimale monatliche Investition?", answer: "Growth startet ab \u20ac2.500/Monat. Der genaue Betrag h\u00e4ngt davon ab, wie gro\u00df Ihr Shop ist und in wie vielen M\u00e4rkten Sie aktiv sind." },
     { question: "Gibt es eine Mindestvertragslaufzeit?", answer: "Wir empfehlen 6 Monate, weil SEO ungef\u00e4hr so lange braucht, um echte Umsatzeffekte zu zeigen. Aber wir binden Sie nicht an lange Vertr\u00e4ge." },
     { question: "Bezahle ich f\u00fcr Backlinks separat?", answer: "Wenn Ihr Paket Linkaufbau enth\u00e4lt, zahlen Sie unsere monatliche Geb\u00fchr plus die tats\u00e4chlichen Platzierungskosten. Wir zeigen Ihnen jeden Betrag vorab, bevor etwas ver\u00f6ffentlicht wird." },
-    { question: "Wie messen Sie den ROI?", answer: "\u00dcber GA4-Umsatzzuordnung, nicht \u00fcber Eitelkeitsmetriken. Sie sehen genau, wie viel Geld organischer Traffic jeden Monat eingebracht hat \u2014 nicht nur Ranking-Positionen." },
+    { question: "Wie messen Sie den ROI?", answer: "\u00dcber GA4-Umsatzzuordnung, nicht \u00fcber Eitelkeitsmetriken. Sie sehen genau, wie viel Geld organischer Traffic jeden Monat eingebracht hat - nicht nur Ranking-Positionen." },
     { question: "Kann ich sp\u00e4ter das Paket wechseln?", answer: "Ja. Viele Kunden starten mit Growth und wechseln zu Scale, sobald es l\u00e4uft. Wir sagen Ihnen, wann der richtige Zeitpunkt ist." },
     { question: "Was passiert im ersten Monat?", answer: "Wir f\u00fchren das vollst\u00e4ndige technische Audit durch, machen Keyword-Recherche, analysieren Ihre Wettbewerber und erstellen eine Roadmap. Am Tag 30 haben Sie einen klaren Plan und die ersten Optimierungen sind live." },
     { question: "Arbeiten Sie auch mit Marken au\u00dferhalb Europas?", answer: "Ja. Die meisten unserer Kunden sind europ\u00e4ische E-Commerce-Marken, aber wir arbeiten weltweit. Wenn Sie in neue M\u00e4rkte expandieren, ist das tats\u00e4chlich unsere St\u00e4rke." },

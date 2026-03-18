@@ -5,17 +5,18 @@ export const adobeCommerceSeoData: Record<Locale, ServicePageProps> = {
   en: {
     hero: {
       badge: "Adobe Commerce Experts",
-      heading: "Adobe Commerce SEO for Enterprise Ecommerce",
+      heading: "The Adobe Commerce SEO Agency for Enterprise Ecommerce",
       subtitle:
-        "We optimize Adobe Commerce (Magento) stores for maximum organic visibility. From complex multi-store setups to layered navigation — we handle the technical debt so you can scale.",
+        "We optimize Adobe Commerce (Magento) stores for maximum organic visibility. From complex multi-store setups to layered navigation, we handle the technical debt so you can scale.",
       ctaText: "Book an Adobe Commerce SEO Audit",
     },
     trustBar: "Trusted by 20+ Adobe Commerce stores scaling organic revenue",
+    trustBarIcon: "adobe" as const,
     sections: [
       {
         type: "stats",
         badge: "Track Record",
-        heading: "Numbers That Speak for Themselves",
+        heading: "Our Adobe Commerce SEO Track Record",
         stats: [
           { value: "8+", label: "Years of Ecommerce SEO" },
           { value: "$12M+", label: "Revenue Generated" },
@@ -155,7 +156,7 @@ export const adobeCommerceSeoData: Record<Locale, ServicePageProps> = {
           {
             number: "06",
             title: "Optimize Category Page Content",
-            body: "Add unique, keyword-rich descriptions to category pages. Adobe Commerce supports category descriptions \u2014 use them to differentiate from competitors and improve rankings.",
+            body: "Add unique, keyword-rich descriptions to category pages. Adobe Commerce supports category descriptions - use them to differentiate from competitors and improve rankings.",
           },
           {
             number: "07",
@@ -171,7 +172,7 @@ export const adobeCommerceSeoData: Record<Locale, ServicePageProps> = {
         richTextBlocks: [
           {
             heading: "Full Control vs. Simplicity",
-            body: "Adobe Commerce (formerly Magento) gives you full control over every SEO element \u2014 from URL structure and canonical tags to server-level caching with Varnish. Unlike Shopify Plus, you own your hosting environment, which means you can optimize Core Web Vitals at the infrastructure level.\n\nThe trade-off is complexity. Adobe Commerce requires dedicated development resources to maintain, and SEO misconfigurations in multi-store setups can compound quickly. That\u2019s where specialized Adobe Commerce SEO expertise becomes critical \u2014 the platform\u2019s power is only valuable if it\u2019s configured correctly.\n\nFor enterprise brands with complex catalogs, multiple store views, and B2B requirements, Adobe Commerce remains the most flexible ecommerce platform for SEO. But that flexibility needs expert management to deliver results.",
+            body: "Adobe Commerce (formerly Magento) gives you full control over every SEO element - from URL structure and canonical tags to server-level caching with Varnish. Unlike Shopify Plus, you own your hosting environment, which means you can optimize Core Web Vitals at the infrastructure level.\n\nThe trade-off is complexity. Adobe Commerce requires dedicated development resources to maintain, and SEO misconfigurations in multi-store setups can compound quickly. That\u2019s where specialized Adobe Commerce SEO expertise becomes critical - the platform\u2019s power is only valuable if it\u2019s configured correctly.\n\nFor enterprise brands with complex catalogs, multiple store views, and B2B requirements, Adobe Commerce remains the most flexible ecommerce platform for SEO. But that flexibility needs expert management to deliver results.",
           },
         ],
       },
@@ -183,41 +184,42 @@ export const adobeCommerceSeoData: Record<Locale, ServicePageProps> = {
         richTextBlocks: [
           {
             heading: "Beyond Generic SEO",
-            body: "Adobe Commerce is not a plug-and-play platform. Every SEO improvement requires coordination between your marketing team, developers, and hosting environment. Generic SEO agencies lack the technical depth to work with Varnish caching, layered navigation indexation, and multi-store canonical strategies.\n\nAt EcomSEO, we speak both languages \u2014 we understand the revenue impact of SEO decisions and can communicate technical requirements directly to your development team. We\u2019ve migrated stores from Magento 1, optimized multi-store setups across continents, and fixed enterprise-scale indexation issues that other agencies couldn\u2019t diagnose.\n\nOur team includes specialists who have worked inside Adobe Commerce development teams. We don\u2019t just audit \u2014 we provide implementation-ready specifications that your developers can execute immediately.",
+            body: "Adobe Commerce is not a plug-and-play platform. Every SEO improvement requires coordination between your marketing team, developers, and hosting environment. Generic SEO agencies lack the technical depth to work with Varnish caching, layered navigation indexation, and multi-store canonical strategies.\n\nAt EcomSEO, we speak both languages - we understand the revenue impact of SEO decisions and can communicate technical requirements directly to your development team. We\u2019ve migrated stores from Magento 1, optimized multi-store setups across continents, and fixed enterprise-scale indexation issues that other agencies couldn\u2019t diagnose.\n\nOur team includes specialists who have worked inside Adobe Commerce development teams. We don\u2019t just audit - we provide implementation-ready specifications that your developers can execute immediately.",
           },
         ],
       },
       {
         type: "team",
         badge: "The Team",
-        heading: "The Adobe Commerce SEO Specialists Behind Your Growth",
+        heading: "Meet the Team",
         teamLead: {
           name: "Fabian van Til",
           role: "Strategy & Innovation",
-          bio: "Leads the strategic direction for all client engagements. 8+ years of ecommerce SEO experience across fashion, health, beauty, and home goods verticals. Blends growth strategy with technical SEO innovation.",
+          bio: "Fabian leads SEO strategy for Adobe Commerce clients. 8 years of ecommerce-only SEO experience. He knows the Magento stack well enough to prioritize what actually matters for your store.",
           image: "/images/framer/C23VbBxvj2kY5TMoXAJHXWVLaA.webp",
           linkedin: "https://www.linkedin.com/in/fabianvantil/",
         },
         teamMembers: [
           {
             name: "Dimitar Georgiev",
-            role: "Technical SEO Lead",
-            bio: "Architects the technical SEO foundations. Specializes in Adobe Commerce multi-store optimization, structured data, and site architecture. Builds the free SEO tools on this site.",
+            role: "Technical & On-Page SEO",
+            bio: "Dimitar handles the technical and on-page SEO side. He works on Adobe Commerce multi-store optimization, structured data, and site architecture. He also builds the free SEO tools on this site.",
             image: "/images/framer/Q3tfuu2ytPAotONsFoP1ouyPZic.png",
             linkedin: "https://www.linkedin.com/in/dimitar-georgiev-seo/",
           },
           {
             name: "Martinijan Trajkovski",
             role: "Off-Page & Link Building",
-            bio: "Masters link acquisition and digital PR at scale. Builds backlink profiles that move the needle for competitive ecommerce keywords across European and US markets.",
+            bio: "Martinijan runs outreach and digital PR. He builds the backlink authority that helps enterprise ecommerce stores rank for competitive keywords.",
             image: "/images/framer/CBAq5E76Hb1mj6ehAOixPYBjN1w.png",
             linkedin: "https://mk.linkedin.com/in/martinijan-trajkovski-7678b6bb",
           },
           {
             name: "Gjorgi Jovev",
-            role: "On-Page & Content Strategy",
-            bio: "Crafts content strategies and on-page optimizations that rank and convert. Specializes in product and collection page optimization, keyword research, and editorial planning.",
+            role: "Content, Link Building & PR",
+            bio: "Gjorgi writes the content, handles on-page optimization, and runs link building and PR campaigns. He works on product pages, category content, keyword research, editorial planning, and outreach to earn backlinks.",
             image: "/images/framer/gjorgi-jovev.png",
+            linkedin: "https://www.linkedin.com/in/gjorgi-jovev/",
           },
         ],
       },
@@ -282,7 +284,7 @@ export const adobeCommerceSeoData: Record<Locale, ServicePageProps> = {
         {
           question: "How long does an Adobe Commerce SEO audit take?",
           answer:
-            "Enterprise audits typically take 2\u20133 weeks depending on the complexity of your multi-store setup, number of store views, and catalog size.",
+            "Enterprise audits typically take 2-3 weeks depending on the complexity of your multi-store setup, number of store views, and catalog size.",
         },
         {
           question: "Will you work directly with our development team?",
@@ -306,18 +308,19 @@ export const adobeCommerceSeoData: Record<Locale, ServicePageProps> = {
   de: {
     hero: {
       badge: "Adobe Commerce Experten",
-      heading: "Adobe Commerce SEO f\u00fcr Enterprise E-Commerce",
+      heading: "Die Adobe-Commerce-SEO-Agentur f\u00fcr Enterprise E-Commerce",
       subtitle:
-        "Wir optimieren Adobe Commerce (Magento) Shops f\u00fcr maximale organische Sichtbarkeit. Von komplexen Multi-Store-Setups bis zur Facettennavigation \u2014 wir beseitigen technische Altlasten, damit Sie skalieren k\u00f6nnen.",
+        "Wir optimieren Adobe Commerce (Magento) Shops f\u00fcr maximale organische Sichtbarkeit. Von komplexen Multi-Store-Setups bis zur Facettennavigation - wir beseitigen technische Altlasten, damit Sie skalieren k\u00f6nnen.",
       ctaText: "Adobe Commerce SEO-Audit buchen",
     },
     trustBar:
       "20+ Adobe Commerce Shops vertrauen uns f\u00fcr organisches Umsatzwachstum",
+    trustBarIcon: "adobe" as const,
     sections: [
       {
         type: "stats",
         badge: "Erfolgsbilanz",
-        heading: "Zahlen, die f\u00fcr sich sprechen",
+        heading: "Unsere Adobe Commerce SEO-Ergebnisse",
         stats: [
           { value: "8+", label: "Jahre E-Commerce-SEO" },
           { value: "12 Mio.+", label: "Umsatz generiert" },
@@ -457,7 +460,7 @@ export const adobeCommerceSeoData: Record<Locale, ServicePageProps> = {
           {
             number: "06",
             title: "Kategorieseiten-Content optimieren",
-            body: "F\u00fcgen Sie einzigartige, keyword-reiche Beschreibungen zu Kategorieseiten hinzu. Adobe Commerce unterst\u00fctzt Kategoriebeschreibungen \u2014 nutzen Sie diese, um sich von Wettbewerbern abzuheben und Rankings zu verbessern.",
+            body: "F\u00fcgen Sie einzigartige, keyword-reiche Beschreibungen zu Kategorieseiten hinzu. Adobe Commerce unterst\u00fctzt Kategoriebeschreibungen - nutzen Sie diese, um sich von Wettbewerbern abzuheben und Rankings zu verbessern.",
           },
           {
             number: "07",
@@ -473,7 +476,7 @@ export const adobeCommerceSeoData: Record<Locale, ServicePageProps> = {
         richTextBlocks: [
           {
             heading: "Volle Kontrolle vs. Einfachheit",
-            body: "Adobe Commerce (ehemals Magento) gibt Ihnen die volle Kontrolle \u00fcber jedes SEO-Element \u2014 von der URL-Struktur und Canonical-Tags bis zum Server-Level-Caching mit Varnish. Im Gegensatz zu Shopify Plus besitzen Sie Ihre Hosting-Umgebung, was bedeutet, dass Sie Core Web Vitals auf Infrastrukturebene optimieren k\u00f6nnen.\n\nDer Trade-off ist Komplexit\u00e4t. Adobe Commerce erfordert dedizierte Entwicklungsressourcen f\u00fcr die Wartung, und SEO-Fehlkonfigurationen in Multi-Store-Setups k\u00f6nnen sich schnell vervielfachen. Hier wird spezialisierte Adobe Commerce SEO-Expertise entscheidend \u2014 die Leistungsf\u00e4higkeit der Plattform ist nur wertvoll, wenn sie korrekt konfiguriert ist.\n\nF\u00fcr Enterprise-Marken mit komplexen Katalogen, mehreren Store-Views und B2B-Anforderungen bleibt Adobe Commerce die flexibelste E-Commerce-Plattform f\u00fcr SEO. Aber diese Flexibilit\u00e4t braucht Expertenmanagement, um Ergebnisse zu liefern.",
+            body: "Adobe Commerce (ehemals Magento) gibt Ihnen die volle Kontrolle \u00fcber jedes SEO-Element - von der URL-Struktur und Canonical-Tags bis zum Server-Level-Caching mit Varnish. Im Gegensatz zu Shopify Plus besitzen Sie Ihre Hosting-Umgebung, was bedeutet, dass Sie Core Web Vitals auf Infrastrukturebene optimieren k\u00f6nnen.\n\nDer Trade-off ist Komplexit\u00e4t. Adobe Commerce erfordert dedizierte Entwicklungsressourcen f\u00fcr die Wartung, und SEO-Fehlkonfigurationen in Multi-Store-Setups k\u00f6nnen sich schnell vervielfachen. Hier wird spezialisierte Adobe Commerce SEO-Expertise entscheidend - die Leistungsf\u00e4higkeit der Plattform ist nur wertvoll, wenn sie korrekt konfiguriert ist.\n\nF\u00fcr Enterprise-Marken mit komplexen Katalogen, mehreren Store-Views und B2B-Anforderungen bleibt Adobe Commerce die flexibelste E-Commerce-Plattform f\u00fcr SEO. Aber diese Flexibilit\u00e4t braucht Expertenmanagement, um Ergebnisse zu liefern.",
           },
         ],
       },
@@ -485,41 +488,42 @@ export const adobeCommerceSeoData: Record<Locale, ServicePageProps> = {
         richTextBlocks: [
           {
             heading: "Jenseits von generischem SEO",
-            body: "Adobe Commerce ist keine Plug-and-Play-Plattform. Jede SEO-Verbesserung erfordert Koordination zwischen Ihrem Marketing-Team, Entwicklern und der Hosting-Umgebung. Generische SEO-Agenturen fehlt die technische Tiefe f\u00fcr die Arbeit mit Varnish-Caching, Facettennavigation-Indexierung und Multi-Store-Canonical-Strategien.\n\nBei EcomSEO sprechen wir beide Sprachen \u2014 wir verstehen die Umsatzauswirkung von SEO-Entscheidungen und k\u00f6nnen technische Anforderungen direkt an Ihr Entwicklungsteam kommunizieren. Wir haben Shops von Magento 1 migriert, Multi-Store-Setups \u00fcber Kontinente hinweg optimiert und Enterprise-Scale-Indexierungsprobleme behoben, die andere Agenturen nicht diagnostizieren konnten.\n\nUnser Team umfasst Spezialisten, die in Adobe Commerce Entwicklungsteams gearbeitet haben. Wir auditieren nicht nur \u2014 wir liefern implementierungsfertige Spezifikationen, die Ihre Entwickler sofort umsetzen k\u00f6nnen.",
+            body: "Adobe Commerce ist keine Plug-and-Play-Plattform. Jede SEO-Verbesserung erfordert Koordination zwischen Ihrem Marketing-Team, Entwicklern und der Hosting-Umgebung. Generische SEO-Agenturen fehlt die technische Tiefe f\u00fcr die Arbeit mit Varnish-Caching, Facettennavigation-Indexierung und Multi-Store-Canonical-Strategien.\n\nBei EcomSEO sprechen wir beide Sprachen - wir verstehen die Umsatzauswirkung von SEO-Entscheidungen und k\u00f6nnen technische Anforderungen direkt an Ihr Entwicklungsteam kommunizieren. Wir haben Shops von Magento 1 migriert, Multi-Store-Setups \u00fcber Kontinente hinweg optimiert und Enterprise-Scale-Indexierungsprobleme behoben, die andere Agenturen nicht diagnostizieren konnten.\n\nUnser Team umfasst Spezialisten, die in Adobe Commerce Entwicklungsteams gearbeitet haben. Wir auditieren nicht nur - wir liefern implementierungsfertige Spezifikationen, die Ihre Entwickler sofort umsetzen k\u00f6nnen.",
           },
         ],
       },
       {
         type: "team",
         badge: "Das Team",
-        heading: "Die Adobe Commerce SEO-Spezialisten hinter Ihrem Wachstum",
+        heading: "Das Team",
         teamLead: {
           name: "Fabian van Til",
           role: "Strategie & Innovation",
-          bio: "Leitet die strategische Ausrichtung aller Kundenengagements. 8+ Jahre E-Commerce SEO-Erfahrung in den Bereichen Mode, Gesundheit, Beauty und Wohnen. Verbindet Wachstumsstrategie mit technischer SEO-Innovation.",
+          bio: "Fabian steuert die strategische Ausrichtung aller Adobe Commerce-Projekte. Mit 8+ Jahren E-Commerce-SEO-Erfahrung in Mode, Gesundheit, Beauty und Wohnen verbindet er Wachstumsstrategie mit technischer SEO-Innovation.",
           image: "/images/framer/C23VbBxvj2kY5TMoXAJHXWVLaA.webp",
           linkedin: "https://www.linkedin.com/in/fabianvantil/",
         },
         teamMembers: [
           {
             name: "Dimitar Georgiev",
-            role: "Technischer SEO-Leiter",
-            bio: "Entwickelt die technischen SEO-Grundlagen. Spezialisiert auf Adobe Commerce Multi-Store-Optimierung, Structured Data und Website-Architektur. Baut die kostenlosen SEO-Tools auf dieser Seite.",
+            role: "Technisches & On-Page SEO",
+            bio: "Entwickelt die technischen SEO-Grundlagen und On-Page-Optimierungen. Spezialisiert auf Adobe Commerce Multi-Store-Optimierung, Structured Data und Website-Architektur. Baut die kostenlosen SEO-Tools auf dieser Seite.",
             image: "/images/framer/Q3tfuu2ytPAotONsFoP1ouyPZic.png",
             linkedin: "https://www.linkedin.com/in/dimitar-georgiev-seo/",
           },
           {
             name: "Martinijan Trajkovski",
             role: "Off-Page & Linkaufbau",
-            bio: "Meistert Linkakquise und digitale PR im gro\u00dfen Stil. Baut Backlink-Profile auf, die bei wettbewerbsintensiven E-Commerce-Keywords in europ\u00e4ischen und US-M\u00e4rkten den Unterschied machen.",
+            bio: "Martinijan \u00fcbernimmt Linkakquise und digitale PR im gro\u00dfen Stil. Er baut Backlink-Profile auf, die bei wettbewerbsintensiven E-Commerce-Keywords in europ\u00e4ischen und US-M\u00e4rkten den Unterschied machen.",
             image: "/images/framer/CBAq5E76Hb1mj6ehAOixPYBjN1w.png",
             linkedin: "https://mk.linkedin.com/in/martinijan-trajkovski-7678b6bb",
           },
           {
             name: "Gjorgi Jovev",
-            role: "On-Page & Content-Strategie",
-            bio: "Entwickelt Content-Strategien und On-Page-Optimierungen, die ranken und konvertieren. Spezialisiert auf Produkt- und Kategorieseiten-Optimierung, Keyword-Recherche und redaktionelle Planung.",
+            role: "Content, Linkaufbau & PR",
+            bio: "Entwickelt Content-Strategien, On-Page-Optimierungen, Linkaufbau und PR. Spezialisiert auf Produkt- und Kategorieseiten-Optimierung, Keyword-Recherche, redaktionelle Planung und Outreach-Kampagnen.",
             image: "/images/framer/gjorgi-jovev.png",
+            linkedin: "https://www.linkedin.com/in/gjorgi-jovev/",
           },
         ],
       },
@@ -586,7 +590,7 @@ export const adobeCommerceSeoData: Record<Locale, ServicePageProps> = {
         {
           question: "Wie lange dauert ein Adobe Commerce SEO-Audit?",
           answer:
-            "Enterprise-Audits dauern typischerweise 2\u20133 Wochen, abh\u00e4ngig von der Komplexit\u00e4t Ihres Multi-Store-Setups, der Anzahl der Store-Views und der Kataloggr\u00f6\u00dfe.",
+            "Enterprise-Audits dauern typischerweise 2-3 Wochen, abh\u00e4ngig von der Komplexit\u00e4t Ihres Multi-Store-Setups, der Anzahl der Store-Views und der Kataloggr\u00f6\u00dfe.",
         },
         {
           question:
@@ -611,18 +615,19 @@ export const adobeCommerceSeoData: Record<Locale, ServicePageProps> = {
   fr: {
     hero: {
       badge: "Experts Adobe Commerce",
-      heading: "SEO Adobe Commerce pour l\u2019e-commerce entreprise",
+      heading: "L\u2019agence SEO Adobe Commerce pour l\u2019e-commerce entreprise",
       subtitle:
-        "Nous optimisons les boutiques Adobe Commerce (Magento) pour une visibilit\u00e9 organique maximale. Des configurations multi-boutiques complexes \u00e0 la navigation \u00e0 facettes \u2014 nous g\u00e9rons la dette technique pour vous permettre de scaler.",
+        "Nous optimisons les boutiques Adobe Commerce (Magento) pour une visibilit\u00e9 organique maximale. Des configurations multi-boutiques complexes \u00e0 la navigation \u00e0 facettes - nous g\u00e9rons la dette technique pour vous permettre de scaler.",
       ctaText: "R\u00e9server un audit SEO Adobe Commerce",
     },
     trustBar:
       "Plus de 20 boutiques Adobe Commerce nous font confiance pour leur croissance organique",
+    trustBarIcon: "adobe" as const,
     sections: [
       {
         type: "stats",
         badge: "Bilan",
-        heading: "Des chiffres qui parlent d\u2019eux-m\u00eames",
+        heading: "Nos r\u00e9sultats en SEO Adobe Commerce",
         stats: [
           { value: "8+", label: "Ann\u00e9es de SEO e-commerce" },
           { value: "12M\u20ac+", label: "Chiffre d\u2019affaires g\u00e9n\u00e9r\u00e9" },
@@ -763,7 +768,7 @@ export const adobeCommerceSeoData: Record<Locale, ServicePageProps> = {
           {
             number: "06",
             title: "Optimiser le contenu des pages cat\u00e9gories",
-            body: "Ajoutez des descriptions uniques et riches en mots-cl\u00e9s aux pages de cat\u00e9gories. Adobe Commerce supporte les descriptions de cat\u00e9gories \u2014 utilisez-les pour vous diff\u00e9rencier de la concurrence et am\u00e9liorer vos classements.",
+            body: "Ajoutez des descriptions uniques et riches en mots-cl\u00e9s aux pages de cat\u00e9gories. Adobe Commerce supporte les descriptions de cat\u00e9gories - utilisez-les pour vous diff\u00e9rencier de la concurrence et am\u00e9liorer vos classements.",
           },
           {
             number: "07",
@@ -779,7 +784,7 @@ export const adobeCommerceSeoData: Record<Locale, ServicePageProps> = {
         richTextBlocks: [
           {
             heading: "Contr\u00f4le total vs. simplicit\u00e9",
-            body: "Adobe Commerce (anciennement Magento) vous donne un contr\u00f4le total sur chaque \u00e9l\u00e9ment SEO \u2014 de la structure des URLs et des balises canoniques au caching au niveau serveur avec Varnish. Contrairement \u00e0 Shopify Plus, vous poss\u00e9dez votre environnement d\u2019h\u00e9bergement, ce qui signifie que vous pouvez optimiser les Core Web Vitals au niveau de l\u2019infrastructure.\n\nLa contrepartie est la complexit\u00e9. Adobe Commerce n\u00e9cessite des ressources de d\u00e9veloppement d\u00e9di\u00e9es pour la maintenance, et les erreurs de configuration SEO dans les setups multi-boutiques peuvent se multiplier rapidement. C\u2019est l\u00e0 que l\u2019expertise SEO sp\u00e9cialis\u00e9e Adobe Commerce devient critique \u2014 la puissance de la plateforme n\u2019a de valeur que si elle est correctement configur\u00e9e.\n\nPour les marques entreprise avec des catalogues complexes, plusieurs vues boutique et des exigences B2B, Adobe Commerce reste la plateforme e-commerce la plus flexible pour le SEO. Mais cette flexibilit\u00e9 n\u00e9cessite une gestion experte pour produire des r\u00e9sultats.",
+            body: "Adobe Commerce (anciennement Magento) vous donne un contr\u00f4le total sur chaque \u00e9l\u00e9ment SEO - de la structure des URLs et des balises canoniques au caching au niveau serveur avec Varnish. Contrairement \u00e0 Shopify Plus, vous poss\u00e9dez votre environnement d\u2019h\u00e9bergement, ce qui signifie que vous pouvez optimiser les Core Web Vitals au niveau de l\u2019infrastructure.\n\nLa contrepartie est la complexit\u00e9. Adobe Commerce n\u00e9cessite des ressources de d\u00e9veloppement d\u00e9di\u00e9es pour la maintenance, et les erreurs de configuration SEO dans les setups multi-boutiques peuvent se multiplier rapidement. C\u2019est l\u00e0 que l\u2019expertise SEO sp\u00e9cialis\u00e9e Adobe Commerce devient critique - la puissance de la plateforme n\u2019a de valeur que si elle est correctement configur\u00e9e.\n\nPour les marques entreprise avec des catalogues complexes, plusieurs vues boutique et des exigences B2B, Adobe Commerce reste la plateforme e-commerce la plus flexible pour le SEO. Mais cette flexibilit\u00e9 n\u00e9cessite une gestion experte pour produire des r\u00e9sultats.",
           },
         ],
       },
@@ -791,26 +796,26 @@ export const adobeCommerceSeoData: Record<Locale, ServicePageProps> = {
         richTextBlocks: [
           {
             heading: "Au-del\u00e0 du SEO g\u00e9n\u00e9rique",
-            body: "Adobe Commerce n\u2019est pas une plateforme plug-and-play. Chaque am\u00e9lioration SEO n\u00e9cessite une coordination entre votre \u00e9quipe marketing, vos d\u00e9veloppeurs et votre environnement d\u2019h\u00e9bergement. Les agences SEO g\u00e9n\u00e9ralistes manquent de la profondeur technique pour travailler avec le caching Varnish, l\u2019indexation de la navigation \u00e0 facettes et les strat\u00e9gies canoniques multi-boutiques.\n\nChez EcomSEO, nous parlons les deux langages \u2014 nous comprenons l\u2019impact sur le chiffre d\u2019affaires des d\u00e9cisions SEO et pouvons communiquer les exigences techniques directement \u00e0 votre \u00e9quipe de d\u00e9veloppement. Nous avons migr\u00e9 des boutiques depuis Magento 1, optimis\u00e9 des setups multi-boutiques sur plusieurs continents, et r\u00e9solu des probl\u00e8mes d\u2019indexation \u00e0 l\u2019\u00e9chelle entreprise que d\u2019autres agences n\u2019arrivaient pas \u00e0 diagnostiquer.\n\nNotre \u00e9quipe comprend des sp\u00e9cialistes qui ont travaill\u00e9 au sein d\u2019\u00e9quipes de d\u00e9veloppement Adobe Commerce. Nous ne faisons pas que des audits \u2014 nous fournissons des sp\u00e9cifications pr\u00eates \u00e0 impl\u00e9menter que vos d\u00e9veloppeurs peuvent ex\u00e9cuter imm\u00e9diatement.",
+            body: "Adobe Commerce n\u2019est pas une plateforme plug-and-play. Chaque am\u00e9lioration SEO n\u00e9cessite une coordination entre votre \u00e9quipe marketing, vos d\u00e9veloppeurs et votre environnement d\u2019h\u00e9bergement. Les agences SEO g\u00e9n\u00e9ralistes manquent de la profondeur technique pour travailler avec le caching Varnish, l\u2019indexation de la navigation \u00e0 facettes et les strat\u00e9gies canoniques multi-boutiques.\n\nChez EcomSEO, nous parlons les deux langages - nous comprenons l\u2019impact sur le chiffre d\u2019affaires des d\u00e9cisions SEO et pouvons communiquer les exigences techniques directement \u00e0 votre \u00e9quipe de d\u00e9veloppement. Nous avons migr\u00e9 des boutiques depuis Magento 1, optimis\u00e9 des setups multi-boutiques sur plusieurs continents, et r\u00e9solu des probl\u00e8mes d\u2019indexation \u00e0 l\u2019\u00e9chelle entreprise que d\u2019autres agences n\u2019arrivaient pas \u00e0 diagnostiquer.\n\nNotre \u00e9quipe comprend des sp\u00e9cialistes qui ont travaill\u00e9 au sein d\u2019\u00e9quipes de d\u00e9veloppement Adobe Commerce. Nous ne faisons pas que des audits - nous fournissons des sp\u00e9cifications pr\u00eates \u00e0 impl\u00e9menter que vos d\u00e9veloppeurs peuvent ex\u00e9cuter imm\u00e9diatement.",
           },
         ],
       },
       {
         type: "team",
         badge: "L\u2019\u00e9quipe",
-        heading: "Les sp\u00e9cialistes SEO Adobe Commerce derri\u00e8re votre croissance",
+        heading: "L\u2019\u00e9quipe",
         teamLead: {
           name: "Fabian van Til",
           role: "Strat\u00e9gie & Innovation",
-          bio: "Dirige l\u2019orientation strat\u00e9gique de tous les engagements clients. 8+ ans d\u2019exp\u00e9rience en SEO e-commerce dans la mode, la sant\u00e9, la beaut\u00e9 et la maison. Allie strat\u00e9gie de croissance et innovation SEO technique.",
+          bio: "Fabian pilote tous les engagements clients. 8+ ans d\u2019exp\u00e9rience en SEO e-commerce dans la mode, la sant\u00e9, la beaut\u00e9 et la maison. Il allie strat\u00e9gie de croissance et innovation SEO technique.",
           image: "/images/framer/C23VbBxvj2kY5TMoXAJHXWVLaA.webp",
           linkedin: "https://www.linkedin.com/in/fabianvantil/",
         },
         teamMembers: [
           {
             name: "Dimitar Georgiev",
-            role: "Responsable SEO technique",
-            bio: "Architecte les fondations SEO techniques. Sp\u00e9cialis\u00e9 dans l\u2019optimisation multi-boutiques Adobe Commerce, les donn\u00e9es structur\u00e9es et l\u2019architecture de site. D\u00e9veloppe les outils SEO gratuits de ce site.",
+            role: "SEO technique & On-Page",
+            bio: "Architecte les fondations SEO techniques et on-page. Sp\u00e9cialis\u00e9 dans l\u2019optimisation multi-boutiques Adobe Commerce, les donn\u00e9es structur\u00e9es et l\u2019architecture de site. D\u00e9veloppe les outils SEO gratuits de ce site.",
             image: "/images/framer/Q3tfuu2ytPAotONsFoP1ouyPZic.png",
             linkedin: "https://www.linkedin.com/in/dimitar-georgiev-seo/",
           },
@@ -823,9 +828,10 @@ export const adobeCommerceSeoData: Record<Locale, ServicePageProps> = {
           },
           {
             name: "Gjorgi Jovev",
-            role: "On-Page & Strat\u00e9gie de contenu",
-            bio: "\u00c9labore des strat\u00e9gies de contenu et des optimisations on-page qui se positionnent et convertissent. Sp\u00e9cialis\u00e9 dans l\u2019optimisation des pages produits et collections, la recherche de mots-cl\u00e9s et la planification \u00e9ditoriale.",
+            role: "Contenu, Link Building & PR",
+            bio: "\u00c9labore des strat\u00e9gies de contenu et des optimisations on-page qui se positionnent et convertissent. Sp\u00e9cialis\u00e9 dans l\u2019optimisation des pages produits et collections, la recherche de mots-cl\u00e9s et la planification \u00e9ditoriale et les campagnes de link building et PR.",
             image: "/images/framer/gjorgi-jovev.png",
+            linkedin: "https://www.linkedin.com/in/gjorgi-jovev/",
           },
         ],
       },
@@ -916,13 +922,14 @@ export const adobeCommerceSeoData: Record<Locale, ServicePageProps> = {
   es: {
     hero: {
       badge: "Expertos en Adobe Commerce",
-      heading: "SEO para Adobe Commerce empresarial",
+      heading: "La agencia SEO Adobe Commerce para e-commerce empresarial",
       subtitle:
-        "Optimizamos tiendas Adobe Commerce (Magento) para m\u00e1xima visibilidad org\u00e1nica. Desde configuraciones multi-tienda complejas hasta navegaci\u00f3n por facetas \u2014 gestionamos la deuda t\u00e9cnica para que puedas escalar.",
+        "Optimizamos tiendas Adobe Commerce (Magento) para m\u00e1xima visibilidad org\u00e1nica. Desde configuraciones multi-tienda complejas hasta navegaci\u00f3n por facetas - gestionamos la deuda t\u00e9cnica para que puedas escalar.",
       ctaText: "Reservar auditor\u00eda SEO Adobe Commerce",
     },
     trustBar:
       "M\u00e1s de 20 tiendas Adobe Commerce conf\u00edan en nosotros para crecer en ingresos org\u00e1nicos",
+    trustBarIcon: "adobe" as const,
     sections: [
       {
         type: "stats",
@@ -1067,7 +1074,7 @@ export const adobeCommerceSeoData: Record<Locale, ServicePageProps> = {
           {
             number: "06",
             title: "Optimizar el contenido de p\u00e1ginas de categor\u00edas",
-            body: "A\u00f1ade descripciones \u00fanicas y ricas en palabras clave a las p\u00e1ginas de categor\u00edas. Adobe Commerce soporta descripciones de categor\u00edas \u2014 \u00fasalas para diferenciarte de la competencia y mejorar los rankings.",
+            body: "A\u00f1ade descripciones \u00fanicas y ricas en palabras clave a las p\u00e1ginas de categor\u00edas. Adobe Commerce soporta descripciones de categor\u00edas - \u00fasalas para diferenciarte de la competencia y mejorar los rankings.",
           },
           {
             number: "07",
@@ -1083,7 +1090,7 @@ export const adobeCommerceSeoData: Record<Locale, ServicePageProps> = {
         richTextBlocks: [
           {
             heading: "Control total vs. simplicidad",
-            body: "Adobe Commerce (anteriormente Magento) te da control total sobre cada elemento SEO \u2014 desde la estructura de URLs y etiquetas canonicals hasta el caching a nivel de servidor con Varnish. A diferencia de Shopify Plus, eres due\u00f1o de tu entorno de hosting, lo que significa que puedes optimizar los Core Web Vitals a nivel de infraestructura.\n\nLa contrapartida es la complejidad. Adobe Commerce requiere recursos de desarrollo dedicados para el mantenimiento, y las configuraciones err\u00f3neas de SEO en setups multi-tienda pueden multiplicarse r\u00e1pidamente. Ah\u00ed es donde la experiencia SEO especializada en Adobe Commerce se vuelve cr\u00edtica \u2014 el poder de la plataforma solo es valioso si est\u00e1 configurado correctamente.\n\nPara marcas enterprise con cat\u00e1logos complejos, m\u00faltiples vistas de tienda y requisitos B2B, Adobe Commerce sigue siendo la plataforma e-commerce m\u00e1s flexible para SEO. Pero esa flexibilidad necesita gesti\u00f3n experta para dar resultados.",
+            body: "Adobe Commerce (anteriormente Magento) te da control total sobre cada elemento SEO - desde la estructura de URLs y etiquetas canonicals hasta el caching a nivel de servidor con Varnish. A diferencia de Shopify Plus, eres due\u00f1o de tu entorno de hosting, lo que significa que puedes optimizar los Core Web Vitals a nivel de infraestructura.\n\nLa contrapartida es la complejidad. Adobe Commerce requiere recursos de desarrollo dedicados para el mantenimiento, y las configuraciones err\u00f3neas de SEO en setups multi-tienda pueden multiplicarse r\u00e1pidamente. Ah\u00ed es donde la experiencia SEO especializada en Adobe Commerce se vuelve cr\u00edtica - el poder de la plataforma solo es valioso si est\u00e1 configurado correctamente.\n\nPara marcas enterprise con cat\u00e1logos complejos, m\u00faltiples vistas de tienda y requisitos B2B, Adobe Commerce sigue siendo la plataforma e-commerce m\u00e1s flexible para SEO. Pero esa flexibilidad necesita gesti\u00f3n experta para dar resultados.",
           },
         ],
       },
@@ -1095,41 +1102,42 @@ export const adobeCommerceSeoData: Record<Locale, ServicePageProps> = {
         richTextBlocks: [
           {
             heading: "M\u00e1s all\u00e1 del SEO gen\u00e9rico",
-            body: "Adobe Commerce no es una plataforma plug-and-play. Cada mejora SEO requiere coordinaci\u00f3n entre tu equipo de marketing, desarrolladores y entorno de hosting. Las agencias SEO gen\u00e9ricas carecen de la profundidad t\u00e9cnica para trabajar con caching Varnish, indexaci\u00f3n de navegaci\u00f3n por facetas y estrategias canonicals multi-tienda.\n\nEn EcomSEO, hablamos ambos idiomas \u2014 entendemos el impacto en ingresos de las decisiones SEO y podemos comunicar requisitos t\u00e9cnicos directamente a tu equipo de desarrollo. Hemos migrado tiendas desde Magento 1, optimizado setups multi-tienda en varios continentes y resuelto problemas de indexaci\u00f3n a escala enterprise que otras agencias no pod\u00edan diagnosticar.\n\nNuestro equipo incluye especialistas que han trabajado dentro de equipos de desarrollo de Adobe Commerce. No solo auditamos \u2014 proporcionamos especificaciones listas para implementar que tus desarrolladores pueden ejecutar inmediatamente.",
+            body: "Adobe Commerce no es una plataforma plug-and-play. Cada mejora SEO requiere coordinaci\u00f3n entre tu equipo de marketing, desarrolladores y entorno de hosting. Las agencias SEO gen\u00e9ricas carecen de la profundidad t\u00e9cnica para trabajar con caching Varnish, indexaci\u00f3n de navegaci\u00f3n por facetas y estrategias canonicals multi-tienda.\n\nEn EcomSEO, hablamos ambos idiomas - entendemos el impacto en ingresos de las decisiones SEO y podemos comunicar requisitos t\u00e9cnicos directamente a tu equipo de desarrollo. Hemos migrado tiendas desde Magento 1, optimizado setups multi-tienda en varios continentes y resuelto problemas de indexaci\u00f3n a escala enterprise que otras agencias no pod\u00edan diagnosticar.\n\nNuestro equipo incluye especialistas que han trabajado dentro de equipos de desarrollo de Adobe Commerce. No solo auditamos - proporcionamos especificaciones listas para implementar que tus desarrolladores pueden ejecutar inmediatamente.",
           },
         ],
       },
       {
         type: "team",
         badge: "El equipo",
-        heading: "Los especialistas SEO en Adobe Commerce detr\u00e1s de tu crecimiento",
+        heading: "Qui\u00e9n hace el trabajo",
         teamLead: {
           name: "Fabian van Til",
           role: "Estrategia e Innovaci\u00f3n",
-          bio: "Dirige la orientaci\u00f3n estrat\u00e9gica de todos los proyectos. 8+ a\u00f1os de experiencia en SEO para e-commerce en moda, salud, belleza y hogar. Combina estrategia de crecimiento con innovaci\u00f3n SEO t\u00e9cnica.",
+          bio: "Fabian dirige la estrategia de todos los proyectos. 8+ a\u00f1os de experiencia en SEO para e-commerce en moda, salud, belleza y hogar. Combina estrategia de crecimiento con innovaci\u00f3n SEO t\u00e9cnica.",
           image: "/images/framer/C23VbBxvj2kY5TMoXAJHXWVLaA.webp",
           linkedin: "https://www.linkedin.com/in/fabianvantil/",
         },
         teamMembers: [
           {
             name: "Dimitar Georgiev",
-            role: "L\u00edder de SEO T\u00e9cnico",
-            bio: "Arquitecta las bases del SEO t\u00e9cnico. Especializado en optimizaci\u00f3n multi-tienda Adobe Commerce, datos estructurados y arquitectura web. Desarrolla las herramientas SEO gratuitas de este sitio.",
+            role: "SEO T\u00e9cnico & On-Page",
+            bio: "Arquitecta las bases del SEO t\u00e9cnico y on-page. Especializado en optimizaci\u00f3n multi-tienda Adobe Commerce, datos estructurados y arquitectura web. Desarrolla las herramientas SEO gratuitas de este sitio.",
             image: "/images/framer/Q3tfuu2ytPAotONsFoP1ouyPZic.png",
             linkedin: "https://www.linkedin.com/in/dimitar-georgiev-seo/",
           },
           {
             name: "Martinijan Trajkovski",
             role: "Off-Page & Link Building",
-            bio: "Domina la adquisici\u00f3n de enlaces y las RP digitales a gran escala. Construye perfiles de backlinks que marcan la diferencia en keywords e-commerce competitivos en mercados europeos y estadounidenses.",
+            bio: "Martinijan lidera la adquisici\u00f3n de enlaces y las RP digitales a gran escala. Construye perfiles de backlinks que marcan la diferencia en keywords e-commerce competitivos en mercados europeos y estadounidenses.",
             image: "/images/framer/CBAq5E76Hb1mj6ehAOixPYBjN1w.png",
             linkedin: "https://mk.linkedin.com/in/martinijan-trajkovski-7678b6bb",
           },
           {
             name: "Gjorgi Jovev",
-            role: "On-Page & Estrategia de contenido",
-            bio: "Dise\u00f1a estrategias de contenido y optimizaciones on-page que posicionan y convierten. Especializado en optimizaci\u00f3n de p\u00e1ginas de producto y colecci\u00f3n, investigaci\u00f3n de palabras clave y planificaci\u00f3n editorial.",
+            role: "Contenido, Link Building y PR",
+            bio: "Dise\u00f1a estrategias de contenido y optimizaciones on-page que posicionan y convierten. Especializado en optimizaci\u00f3n de p\u00e1ginas de producto y colecci\u00f3n, investigaci\u00f3n de palabras clave y planificaci\u00f3n editorial y campa\u00f1as de link building y PR.",
             image: "/images/framer/gjorgi-jovev.png",
+            linkedin: "https://www.linkedin.com/in/gjorgi-jovev/",
           },
         ],
       },
@@ -1221,18 +1229,19 @@ export const adobeCommerceSeoData: Record<Locale, ServicePageProps> = {
   it: {
     hero: {
       badge: "Esperti Adobe Commerce",
-      heading: "SEO Adobe Commerce per e-commerce enterprise",
+      heading: "L\u2019agenzia SEO Adobe Commerce per e-commerce enterprise",
       subtitle:
-        "Ottimizziamo gli store Adobe Commerce (Magento) per la massima visibilit\u00e0 organica. Dai setup multi-store complessi alla navigazione a faccette \u2014 gestiamo il debito tecnico per permetterti di scalare.",
+        "Ottimizziamo gli store Adobe Commerce (Magento) per la massima visibilit\u00e0 organica. Dai setup multi-store complessi alla navigazione a faccette - gestiamo il debito tecnico per permetterti di scalare.",
       ctaText: "Prenota un audit SEO Adobe Commerce",
     },
     trustBar:
       "Oltre 20 store Adobe Commerce si affidano a noi per la crescita organica del fatturato",
+    trustBarIcon: "adobe" as const,
     sections: [
       {
         type: "stats",
         badge: "Track Record",
-        heading: "Numeri che parlano da soli",
+        heading: "Il nostro track record nell\u2019e-commerce",
         stats: [
           { value: "8+", label: "Anni di SEO e-commerce" },
           { value: "12M\u20ac+", label: "Fatturato generato" },
@@ -1373,7 +1382,7 @@ export const adobeCommerceSeoData: Record<Locale, ServicePageProps> = {
           {
             number: "06",
             title: "Ottimizzare il contenuto delle pagine categoria",
-            body: "Aggiungi descrizioni uniche e ricche di parole chiave alle pagine di categoria. Adobe Commerce supporta le descrizioni delle categorie \u2014 usale per differenziarti dalla concorrenza e migliorare i posizionamenti.",
+            body: "Aggiungi descrizioni uniche e ricche di parole chiave alle pagine di categoria. Adobe Commerce supporta le descrizioni delle categorie - usale per differenziarti dalla concorrenza e migliorare i posizionamenti.",
           },
           {
             number: "07",
@@ -1389,7 +1398,7 @@ export const adobeCommerceSeoData: Record<Locale, ServicePageProps> = {
         richTextBlocks: [
           {
             heading: "Controllo totale vs. semplicit\u00e0",
-            body: "Adobe Commerce (ex Magento) ti d\u00e0 il controllo totale su ogni elemento SEO \u2014 dalla struttura degli URL e tag canonical al caching a livello server con Varnish. A differenza di Shopify Plus, possiedi il tuo ambiente di hosting, il che significa che puoi ottimizzare i Core Web Vitals a livello di infrastruttura.\n\nIl compromesso \u00e8 la complessit\u00e0. Adobe Commerce richiede risorse di sviluppo dedicate per la manutenzione, e le misconfigurazioni SEO nei setup multi-store possono moltiplicarsi rapidamente. \u00c8 qui che l\u2019esperienza SEO specializzata in Adobe Commerce diventa critica \u2014 la potenza della piattaforma ha valore solo se configurata correttamente.\n\nPer i brand enterprise con cataloghi complessi, multiple store view e requisiti B2B, Adobe Commerce rimane la piattaforma e-commerce pi\u00f9 flessibile per il SEO. Ma quella flessibilit\u00e0 necessita di gestione esperta per produrre risultati.",
+            body: "Adobe Commerce (ex Magento) ti d\u00e0 il controllo totale su ogni elemento SEO - dalla struttura degli URL e tag canonical al caching a livello server con Varnish. A differenza di Shopify Plus, possiedi il tuo ambiente di hosting, il che significa che puoi ottimizzare i Core Web Vitals a livello di infrastruttura.\n\nIl compromesso \u00e8 la complessit\u00e0. Adobe Commerce richiede risorse di sviluppo dedicate per la manutenzione, e le misconfigurazioni SEO nei setup multi-store possono moltiplicarsi rapidamente. \u00c8 qui che l\u2019esperienza SEO specializzata in Adobe Commerce diventa critica - la potenza della piattaforma ha valore solo se configurata correttamente.\n\nPer i brand enterprise con cataloghi complessi, multiple store view e requisiti B2B, Adobe Commerce rimane la piattaforma e-commerce pi\u00f9 flessibile per il SEO. Ma quella flessibilit\u00e0 necessita di gestione esperta per produrre risultati.",
           },
         ],
       },
@@ -1401,41 +1410,42 @@ export const adobeCommerceSeoData: Record<Locale, ServicePageProps> = {
         richTextBlocks: [
           {
             heading: "Oltre il SEO generico",
-            body: "Adobe Commerce non \u00e8 una piattaforma plug-and-play. Ogni miglioramento SEO richiede coordinamento tra il tuo team marketing, gli sviluppatori e l\u2019ambiente di hosting. Le agenzie SEO generiche mancano della profondit\u00e0 tecnica per lavorare con il caching Varnish, l\u2019indicizzazione della navigazione a faccette e le strategie canonical multi-store.\n\nIn EcomSEO, parliamo entrambi i linguaggi \u2014 comprendiamo l\u2019impatto sul fatturato delle decisioni SEO e possiamo comunicare i requisiti tecnici direttamente al tuo team di sviluppo. Abbiamo migrato store da Magento 1, ottimizzato setup multi-store su pi\u00f9 continenti e risolto problemi di indicizzazione su scala enterprise che altre agenzie non riuscivano a diagnosticare.\n\nIl nostro team include specialisti che hanno lavorato all\u2019interno di team di sviluppo Adobe Commerce. Non ci limitiamo agli audit \u2014 forniamo specifiche pronte per l\u2019implementazione che i tuoi sviluppatori possono eseguire immediatamente.",
+            body: "Adobe Commerce non \u00e8 una piattaforma plug-and-play. Ogni miglioramento SEO richiede coordinamento tra il tuo team marketing, gli sviluppatori e l\u2019ambiente di hosting. Le agenzie SEO generiche mancano della profondit\u00e0 tecnica per lavorare con il caching Varnish, l\u2019indicizzazione della navigazione a faccette e le strategie canonical multi-store.\n\nIn EcomSEO, parliamo entrambi i linguaggi - comprendiamo l\u2019impatto sul fatturato delle decisioni SEO e possiamo comunicare i requisiti tecnici direttamente al tuo team di sviluppo. Abbiamo migrato store da Magento 1, ottimizzato setup multi-store su pi\u00f9 continenti e risolto problemi di indicizzazione su scala enterprise che altre agenzie non riuscivano a diagnosticare.\n\nIl nostro team include specialisti che hanno lavorato all\u2019interno di team di sviluppo Adobe Commerce. Non ci limitiamo agli audit - forniamo specifiche pronte per l\u2019implementazione che i tuoi sviluppatori possono eseguire immediatamente.",
           },
         ],
       },
       {
         type: "team",
         badge: "Il team",
-        heading: "Gli specialisti SEO Adobe Commerce dietro la tua crescita",
+        heading: "Chi fa il lavoro",
         teamLead: {
           name: "Fabian van Til",
           role: "Strategia & Innovazione",
-          bio: "Guida la direzione strategica di tutti gli incarichi. 8+ anni di esperienza SEO e-commerce nei settori moda, salute, bellezza e casa. Unisce strategia di crescita e innovazione SEO tecnica.",
+          bio: "Fabian definisce la strategia di ogni incarico. 8+ anni di esperienza SEO e-commerce nei settori moda, salute, bellezza e casa. Unisce strategia di crescita e innovazione SEO tecnica.",
           image: "/images/framer/C23VbBxvj2kY5TMoXAJHXWVLaA.webp",
           linkedin: "https://www.linkedin.com/in/fabianvantil/",
         },
         teamMembers: [
           {
             name: "Dimitar Georgiev",
-            role: "Responsabile SEO tecnico",
-            bio: "Progetta le fondamenta del SEO tecnico. Specializzato in ottimizzazione multi-store Adobe Commerce, dati strutturati e architettura del sito. Sviluppa gli strumenti SEO gratuiti su questo sito.",
+            role: "SEO tecnico & On-Page",
+            bio: "Dimitar progetta le fondamenta del SEO tecnico e on-page. Specializzato in ottimizzazione multi-store Adobe Commerce, dati strutturati e architettura del sito. Sviluppa gli strumenti SEO gratuiti su questo sito.",
             image: "/images/framer/Q3tfuu2ytPAotONsFoP1ouyPZic.png",
             linkedin: "https://www.linkedin.com/in/dimitar-georgiev-seo/",
           },
           {
             name: "Martinijan Trajkovski",
             role: "Off-Page & Link Building",
-            bio: "Padroneggia l\u2019acquisizione di link e le PR digitali su larga scala. Costruisce profili di backlink che fanno la differenza per keyword e-commerce competitive nei mercati europei e statunitensi.",
+            bio: "Martinijan gestisce l\u2019acquisizione di link e le PR digitali su larga scala. Costruisce profili di backlink che fanno la differenza per keyword e-commerce competitive nei mercati europei e statunitensi.",
             image: "/images/framer/CBAq5E76Hb1mj6ehAOixPYBjN1w.png",
             linkedin: "https://mk.linkedin.com/in/martinijan-trajkovski-7678b6bb",
           },
           {
             name: "Gjorgi Jovev",
-            role: "On-Page & Strategia contenuti",
-            bio: "Crea strategie di contenuto e ottimizzazioni on-page che si posizionano e convertono. Specializzato in ottimizzazione di pagine prodotto e collezione, ricerca keyword e pianificazione editoriale.",
+            role: "Contenuti, Link Building & PR",
+            bio: "Gjorgi crea strategie di contenuto, ottimizzazioni on-page e campagne di link building e PR. Specializzato in ottimizzazione di pagine prodotto e collezione, ricerca keyword, pianificazione editoriale e campagne di outreach.",
             image: "/images/framer/gjorgi-jovev.png",
+            linkedin: "https://www.linkedin.com/in/gjorgi-jovev/",
           },
         ],
       },
@@ -1525,13 +1535,14 @@ export const adobeCommerceSeoData: Record<Locale, ServicePageProps> = {
   nl: {
     hero: {
       badge: "Adobe Commerce experts",
-      heading: "Adobe Commerce SEO voor enterprise e-commerce",
+      heading: "Het Adobe-Commerce-SEO-bureau voor enterprise e-commerce",
       subtitle:
-        "Wij optimaliseren Adobe Commerce (Magento) webshops voor maximale organische zichtbaarheid. Van complexe multi-store setups tot gefacetteerde navigatie \u2014 wij lossen de technische schuld op zodat jij kunt schalen.",
+        "Wij optimaliseren Adobe Commerce (Magento) webshops voor maximale organische zichtbaarheid. Van complexe multi-store setups tot gefacetteerde navigatie - wij lossen de technische schuld op zodat jij kunt schalen.",
       ctaText: "Boek een Adobe Commerce SEO-audit",
     },
     trustBar:
       "20+ Adobe Commerce webshops vertrouwen op ons voor organische omzetgroei",
+    trustBarIcon: "adobe" as const,
     sections: [
       {
         type: "stats",
@@ -1676,7 +1687,7 @@ export const adobeCommerceSeoData: Record<Locale, ServicePageProps> = {
           {
             number: "06",
             title: "Categoriepagina-content optimaliseren",
-            body: "Voeg unieke, zoekwoordrijke beschrijvingen toe aan categoriepagina\u2019s. Adobe Commerce ondersteunt categoriebeschrijvingen \u2014 gebruik ze om je te onderscheiden van concurrenten en rankings te verbeteren.",
+            body: "Voeg unieke, zoekwoordrijke beschrijvingen toe aan categoriepagina\u2019s. Adobe Commerce ondersteunt categoriebeschrijvingen - gebruik ze om je te onderscheiden van concurrenten en rankings te verbeteren.",
           },
           {
             number: "07",
@@ -1692,7 +1703,7 @@ export const adobeCommerceSeoData: Record<Locale, ServicePageProps> = {
         richTextBlocks: [
           {
             heading: "Volledige controle vs. eenvoud",
-            body: "Adobe Commerce (voorheen Magento) geeft je volledige controle over elk SEO-element \u2014 van URL-structuur en canonical tags tot server-level caching met Varnish. In tegenstelling tot Shopify Plus ben je eigenaar van je hostingomgeving, wat betekent dat je Core Web Vitals op infrastructuurniveau kunt optimaliseren.\n\nDe afweging is complexiteit. Adobe Commerce vereist dedicated ontwikkelresources voor onderhoud, en SEO-misconfiguraties in multi-store setups kunnen snel escaleren. Daar wordt gespecialiseerde Adobe Commerce SEO-expertise cruciaal \u2014 de kracht van het platform is alleen waardevol als het correct geconfigureerd is.\n\nVoor enterprise merken met complexe catalogi, meerdere store views en B2B-vereisten blijft Adobe Commerce het meest flexibele e-commerce platform voor SEO. Maar die flexibiliteit heeft expertmanagement nodig om resultaten te leveren.",
+            body: "Adobe Commerce (voorheen Magento) geeft je volledige controle over elk SEO-element - van URL-structuur en canonical tags tot server-level caching met Varnish. In tegenstelling tot Shopify Plus ben je eigenaar van je hostingomgeving, wat betekent dat je Core Web Vitals op infrastructuurniveau kunt optimaliseren.\n\nDe afweging is complexiteit. Adobe Commerce vereist dedicated ontwikkelresources voor onderhoud, en SEO-misconfiguraties in multi-store setups kunnen snel escaleren. Daar wordt gespecialiseerde Adobe Commerce SEO-expertise cruciaal - de kracht van het platform is alleen waardevol als het correct geconfigureerd is.\n\nVoor enterprise merken met complexe catalogi, meerdere store views en B2B-vereisten blijft Adobe Commerce het meest flexibele e-commerce platform voor SEO. Maar die flexibiliteit heeft expertmanagement nodig om resultaten te leveren.",
           },
         ],
       },
@@ -1704,41 +1715,42 @@ export const adobeCommerceSeoData: Record<Locale, ServicePageProps> = {
         richTextBlocks: [
           {
             heading: "Verder dan generieke SEO",
-            body: "Adobe Commerce is geen plug-and-play platform. Elke SEO-verbetering vereist co\u00f6rdinatie tussen je marketingteam, ontwikkelaars en hostingomgeving. Generieke SEO-bureaus missen de technische diepgang om met Varnish-caching, gefacetteerde navigatie-indexering en multi-store canonical-strategie\u00ebn te werken.\n\nBij EcomSEO spreken we beide talen \u2014 we begrijpen de omzetimpact van SEO-beslissingen en kunnen technische vereisten direct communiceren met je ontwikkelteam. We hebben shops gemigreerd van Magento 1, multi-store setups over continenten geoptimaliseerd en enterprise-schaal indexatieproblemen opgelost die andere bureaus niet konden diagnosticeren.\n\nOns team bevat specialisten die binnen Adobe Commerce ontwikkelteams hebben gewerkt. We auditen niet alleen \u2014 we leveren implementatieklare specificaties die je ontwikkelaars direct kunnen uitvoeren.",
+            body: "Adobe Commerce is geen plug-and-play platform. Elke SEO-verbetering vereist co\u00f6rdinatie tussen je marketingteam, ontwikkelaars en hostingomgeving. Generieke SEO-bureaus missen de technische diepgang om met Varnish-caching, gefacetteerde navigatie-indexering en multi-store canonical-strategie\u00ebn te werken.\n\nBij EcomSEO spreken we beide talen - we begrijpen de omzetimpact van SEO-beslissingen en kunnen technische vereisten direct communiceren met je ontwikkelteam. We hebben shops gemigreerd van Magento 1, multi-store setups over continenten geoptimaliseerd en enterprise-schaal indexatieproblemen opgelost die andere bureaus niet konden diagnosticeren.\n\nOns team bevat specialisten die binnen Adobe Commerce ontwikkelteams hebben gewerkt. We auditen niet alleen - we leveren implementatieklare specificaties die je ontwikkelaars direct kunnen uitvoeren.",
           },
         ],
       },
       {
         type: "team",
         badge: "Het team",
-        heading: "De Adobe Commerce SEO-specialisten achter jouw groei",
+        heading: "Wie doet het werk",
         teamLead: {
           name: "Fabian van Til",
           role: "Strategie & Innovatie",
-          bio: "Leidt de strategische richting voor alle klantprojecten. 8+ jaar e-commerce SEO-ervaring in mode, gezondheid, beauty en wonen. Combineert groeistrategie met technische SEO-innovatie.",
+          bio: "Fabian leidt de strategische richting voor alle klantprojecten. Met 8+ jaar e-commerce SEO-ervaring in mode, gezondheid, beauty en wonen combineert hij groeistrategie met technische SEO-innovatie.",
           image: "/images/framer/C23VbBxvj2kY5TMoXAJHXWVLaA.webp",
           linkedin: "https://www.linkedin.com/in/fabianvantil/",
         },
         teamMembers: [
           {
             name: "Dimitar Georgiev",
-            role: "Technisch SEO-leider",
-            bio: "Ontwerpt de technische SEO-fundamenten. Gespecialiseerd in Adobe Commerce multi-store optimalisatie, gestructureerde data en site-architectuur. Bouwt de gratis SEO-tools op deze site.",
+            role: "Technisch & On-Page SEO",
+            bio: "Dimitar ontwerpt de technische SEO-fundamenten en on-page optimalisaties. Hij is gespecialiseerd in Adobe Commerce multi-store optimalisatie, gestructureerde data en site-architectuur, en bouwt de gratis SEO-tools op deze site.",
             image: "/images/framer/Q3tfuu2ytPAotONsFoP1ouyPZic.png",
             linkedin: "https://www.linkedin.com/in/dimitar-georgiev-seo/",
           },
           {
             name: "Martinijan Trajkovski",
             role: "Off-Page & Linkbuilding",
-            bio: "Beheerst linkacquisitie en digitale PR op grote schaal. Bouwt backlinkprofielen die het verschil maken voor competitieve e-commerce zoekwoorden in Europese en Amerikaanse markten.",
+            bio: "Martinijan beheerst linkacquisitie en digitale PR op grote schaal. Hij bouwt backlinkprofielen die het verschil maken voor competitieve e-commerce zoekwoorden in Europese en Amerikaanse markten.",
             image: "/images/framer/CBAq5E76Hb1mj6ehAOixPYBjN1w.png",
             linkedin: "https://mk.linkedin.com/in/martinijan-trajkovski-7678b6bb",
           },
           {
             name: "Gjorgi Jovev",
-            role: "On-Page & Contentstrategie",
-            bio: "Ontwikkelt contentstrategieën en on-page optimalisaties die ranken en converteren. Gespecialiseerd in product- en collectiepagina-optimalisatie, zoekwoordenonderzoek en redactionele planning.",
+            role: "Content, Linkbuilding & PR",
+            bio: "Gjorgi ontwikkelt contentstrategieën, on-page optimalisaties en linkbuilding- en PR-campagnes. Hij is gespecialiseerd in product- en collectiepagina-optimalisatie, zoekwoordenonderzoek, redactionele planning en outreach.",
             image: "/images/framer/gjorgi-jovev.png",
+            linkedin: "https://www.linkedin.com/in/gjorgi-jovev/",
           },
         ],
       },

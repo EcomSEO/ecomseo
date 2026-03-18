@@ -51,6 +51,9 @@ const nextConfig: NextConfig = {
       { source: "/:locale(en|de|fr|es|it|nl)/author/:slug", destination: "/:locale/blog/author/:slug", permanent: true },
       { source: "/meet-our-team", destination: "/team", permanent: true },
       { source: "/:locale(en|de|fr|es|it|nl)/meet-our-team", destination: "/:locale/team", permanent: true },
+      // Fix 404s from external links / crawlers
+      { source: "/Home", destination: "/", permanent: true },
+      { source: "/mens-running-shoes/:path*", destination: "/ecommerce-seo", permanent: true },
     ];
   },
   async rewrites() {
