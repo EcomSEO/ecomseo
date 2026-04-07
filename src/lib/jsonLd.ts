@@ -1,16 +1,12 @@
-import { BASE_URL, defaultLocale, type Locale } from "./i18n/config";
+import { BASE_URL, publicLocalizedUrl, type Locale } from "./i18n/config";
 
 /* ------------------------------------------------------------------ */
 /*  Helpers                                                            */
 /* ------------------------------------------------------------------ */
 
-/** Build public URL for a locale + path. Default locale → root, others → /{locale} prefix. */
+/** Build public URL for a locale + path (uses translated slugs). */
 function localeUrl(locale: Locale, path: string): string {
-  const cleanPath = path === "/" ? "" : path;
-  if (locale === defaultLocale) {
-    return `${BASE_URL}${cleanPath}`;
-  }
-  return `${BASE_URL}/${locale}${cleanPath}`;
+  return publicLocalizedUrl(locale, path);
 }
 
 const ORG_ID = `${BASE_URL}/#organization`;
@@ -40,7 +36,7 @@ export function organizationJsonLd() {
     foundingDate: "2023",
     email: "info@ecomseo.co",
     sameAs: [
-      "https://www.linkedin.com/company/ecomseo",
+      "https://nl.linkedin.com/company/ecommerceseo",
       "https://x.com/fabianecomseo",
       "https://www.youtube.com/@fabian-ecomseo",
       "https://www.instagram.com/fabianvantil/",
@@ -94,6 +90,14 @@ export function websiteJsonLd() {
     url: BASE_URL,
     publisher: { "@id": ORG_ID },
     inLanguage: ["en", "de", "fr", "es", "it", "nl"],
+    potentialAction: {
+      "@type": "SearchAction",
+      target: {
+        "@type": "EntryPoint",
+        urlTemplate: `${BASE_URL}/tools?q={search_term_string}`,
+      },
+      "query-input": "required name=search_term_string",
+    },
   };
 }
 
@@ -180,6 +184,13 @@ export function articleJsonLd(params: {
   wordCount?: number;
 }) {
   const url = localeUrl(params.locale, params.path);
+  // Provide sensible defaults so Article schema always has required fields
+  const authorName = params.authorName || "Fabian van Til";
+  const authorUrl = params.authorUrl || `${BASE_URL}/team/fabian-van-til`;
+  const datePublished = params.datePublished || "2025-01-15";
+  const dateModified = params.dateModified || new Date().toISOString().split("T")[0];
+  const image = params.image || LOGO_URL;
+
   return {
     "@context": "https://schema.org",
     "@type": "Article",
@@ -191,19 +202,15 @@ export function articleJsonLd(params: {
       "@type": "WebPage",
       "@id": url,
     },
-    ...(params.datePublished ? { datePublished: params.datePublished } : {}),
-    ...(params.dateModified ? { dateModified: params.dateModified } : {}),
-    ...(params.image ? { image: params.image } : {}),
+    datePublished,
+    dateModified,
+    image,
     ...(params.wordCount ? { wordCount: params.wordCount } : {}),
-    ...(params.authorName
-      ? {
-          author: {
-            "@type": "Person",
-            name: params.authorName,
-            ...(params.authorUrl ? { url: params.authorUrl } : {}),
-          },
-        }
-      : {}),
+    author: {
+      "@type": "Person",
+      name: authorName,
+      url: authorUrl,
+    },
     publisher: {
       "@type": "Organization",
       "@id": ORG_ID,
@@ -232,6 +239,16 @@ export function caseStudyJsonLd(params: {
   images: string[];
 }) {
   const url = localeUrl(params.locale, `/cases/${params.slug}`);
+  const PERSON_ID = `${BASE_URL}/team/fabian-van-til#person`;
+  // Convert human-readable dates to ISO 8601 for schema
+  const isoDate = (() => {
+    const d = new Date(params.date);
+    if (!isNaN(d.getTime())) return d.toISOString().split("T")[0];
+    // Try extracting a year-month from common patterns
+    const yearMatch = params.date.match(/(\d{4})/);
+    return yearMatch ? `${yearMatch[1]}-01-01` : "2024-01-01";
+  })();
+  const today = new Date().toISOString().split("T")[0];
   return {
     "@context": "https://schema.org",
     "@type": "Article",
@@ -239,7 +256,9 @@ export function caseStudyJsonLd(params: {
     description: params.description,
     url,
     inLanguage: params.locale,
-    datePublished: params.date,
+    datePublished: isoDate,
+    dateModified: today,
+    wordCount: Math.round(params.description.split(/\s+/).length * 6),
     mainEntityOfPage: {
       "@type": "WebPage",
       "@id": url,
@@ -248,10 +267,20 @@ export function caseStudyJsonLd(params: {
       img.startsWith("http") ? img : `${BASE_URL}${img}`
     ),
     about: [
+      { "@type": "Thing", name: "Ecommerce SEO" },
       { "@type": "Thing", name: params.niche },
       { "@type": "Thing", name: params.focus },
     ],
-    author: { "@id": ORG_ID },
+    keywords: `${params.niche}, ${params.focus}, ecommerce SEO case study, SEO results`,
+    author: {
+      "@type": "Person",
+      "@id": PERSON_ID,
+      name: "Fabian van Til",
+      url: `${BASE_URL}/team/fabian-van-til`,
+      image: `${BASE_URL}/images/framer/fabian-van-til-new.jpeg`,
+      jobTitle: "Founder & SEO Strategist",
+      worksFor: { "@id": ORG_ID },
+    },
     publisher: {
       "@type": "Organization",
       "@id": ORG_ID,

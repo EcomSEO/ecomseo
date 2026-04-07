@@ -118,10 +118,10 @@ export const resultsT: Record<Locale, {
     subtext: "Shopify, Magento, Lightspeed, Woocommerce. Name anything. We\u2019ve ranked it.",
     cta: "All Case Studies",
     cards: [
-      { title: "Narcotics store", badges: ["Exited for 7 figures+", "In 2 years"] },
-      { title: "Biking Brand", badges: ["8 weeks", "19% higher CVR"] },
-      { title: "Superfoods Brand", badges: ["479% more clicks", "1 week"] },
-      { title: "Health Brand", badges: ["57% Increase in CTR", "69% Reduction in CPR"] },
+      { title: "Norwegian Health & Supplements Store", badges: ["19 → 1,200+ keywords", "Shopify"] },
+      { title: "UK Fashion E-commerce Brand", badges: ["7x traffic in 90 days", "WooCommerce"] },
+      { title: "Home & Living Store", badges: ["+1,343% organic traffic", "Shopify Plus"] },
+      { title: "Norwegian DTC Lifestyle Brand", badges: ["+556% clicks", "Magento 2"] },
     ],
   },
   de: {
@@ -130,10 +130,10 @@ export const resultsT: Record<Locale, {
     subtext: "Shopify, Magento, Lightspeed, WooCommerce. Nennen Sie es. Wir haben es gerankt.",
     cta: "Alle Referenzen",
     cards: [
-      { title: "Narcotics Store", badges: ["Für 7-stelligen Betrag+ verkauft", "In 2 Jahren"] },
-      { title: "Fahrrad-Marke", badges: ["8 Wochen", "19 % höhere CVR"] },
-      { title: "Superfoods-Marke", badges: ["479 % mehr Klicks", "1 Woche"] },
-      { title: "Gesundheitsmarke", badges: ["57 % Steigerung der CTR", "69 % Reduktion der CPR"] },
+      { title: "Norwegischer Health & Supplements Store", badges: ["19 → 1.200+ Keywords", "Shopify"] },
+      { title: "UK Fashion E-Commerce-Marke", badges: ["7x Traffic in 90 Tagen", "WooCommerce"] },
+      { title: "Home & Living Store", badges: ["+1.343 % organischer Traffic", "Shopify Plus"] },
+      { title: "Norwegische DTC-Lifestyle-Marke", badges: ["+556 % Klicks", "Magento 2"] },
     ],
   },
   fr: {
@@ -142,10 +142,10 @@ export const resultsT: Record<Locale, {
     subtext: "Shopify, Magento, Lightspeed, WooCommerce. Nommez-le. Nous l\u2019avons positionné.",
     cta: "Toutes les études de cas",
     cards: [
-      { title: "Boutique Narcotics", badges: ["Vendu pour 7 chiffres+", "En 2 ans"] },
-      { title: "Marque de vélo", badges: ["8 semaines", "19 % de CVR en plus"] },
-      { title: "Marque de superaliments", badges: ["479 % de clics en plus", "1 semaine"] },
-      { title: "Marque de santé", badges: ["57 % d\u2019augmentation du CTR", "69 % de réduction du CPR"] },
+      { title: "Health & Supplements Store norvégien", badges: ["19 → 1 200+ mots-clés", "Shopify"] },
+      { title: "Marque mode UK", badges: ["7x le trafic en 90 jours", "WooCommerce"] },
+      { title: "Boutique Home & Living", badges: ["+1 343 % de trafic organique", "Shopify Plus"] },
+      { title: "Marque DTC lifestyle norvégienne", badges: ["+556 % de clics", "Magento 2"] },
     ],
   },
   es: {
@@ -154,10 +154,10 @@ export const resultsT: Record<Locale, {
     subtext: "Shopify, Magento, Lightspeed, WooCommerce. Lo que sea. Lo hemos posicionado.",
     cta: "Todos los casos de éxito",
     cards: [
-      { title: "Tienda Narcotics", badges: ["Vendida por 7 cifras+", "En 2 años"] },
-      { title: "Marca de ciclismo", badges: ["8 semanas", "19 % más CVR"] },
-      { title: "Marca de superalimentos", badges: ["479 % más clics", "1 semana"] },
-      { title: "Marca de salud", badges: ["57 % de aumento en CTR", "69 % de reducción en CPR"] },
+      { title: "Tienda noruega de salud y suplementos", badges: ["19 → 1.200+ keywords", "Shopify"] },
+      { title: "Marca de moda UK", badges: ["7x tráfico en 90 días", "WooCommerce"] },
+      { title: "Tienda Home & Living", badges: ["+1.343 % tráfico orgánico", "Shopify Plus"] },
+      { title: "Marca DTC lifestyle noruega", badges: ["+556 % clics", "Magento 2"] },
     ],
   },
   it: {
@@ -166,10 +166,10 @@ export const resultsT: Record<Locale, {
     subtext: "Shopify, Magento, Lightspeed, WooCommerce. Qualsiasi cosa. L\u2019abbiamo posizionata.",
     cta: "Tutti i casi studio",
     cards: [
-      { title: "Negozio Narcotics", badges: ["Venduto per 7 cifre+", "In 2 anni"] },
-      { title: "Brand di ciclismo", badges: ["8 settimane", "19 % in più di CVR"] },
-      { title: "Brand di superfood", badges: ["479 % di clic in più", "1 settimana"] },
-      { title: "Brand di salute", badges: ["57 % di aumento del CTR", "69 % di riduzione del CPR"] },
+      { title: "Health & Supplements Store norvegese", badges: ["19 → 1.200+ keyword", "Shopify"] },
+      { title: "Brand moda UK", badges: ["7x traffico in 90 giorni", "WooCommerce"] },
+      { title: "Store Home & Living", badges: ["+1.343 % traffico organico", "Shopify Plus"] },
+      { title: "Brand DTC lifestyle norvegese", badges: ["+556 % clic", "Magento 2"] },
     ],
   },
   nl: {
@@ -178,10 +178,10 @@ export const resultsT: Record<Locale, {
     subtext: "Shopify, Magento, Lightspeed, WooCommerce. Noem het maar. We hebben het gerankt.",
     cta: "Alle cases",
     cards: [
-      { title: "Narcotics winkel", badges: ["Verkocht voor 7 cijfers+", "In 2 jaar"] },
-      { title: "Fietsmerk", badges: ["8 weken", "19% hogere CVR"] },
-      { title: "Superfoods merk", badges: ["479% meer klikken", "1 week"] },
-      { title: "Gezondheidsmerk", badges: ["57% stijging in CTR", "69% verlaging van CPR"] },
+      { title: "Noorse Health & Supplements Store", badges: ["19 → 1.200+ zoekwoorden", "Shopify"] },
+      { title: "UK Fashion E-commerce merk", badges: ["7x verkeer in 90 dagen", "WooCommerce"] },
+      { title: "Home & Living winkel", badges: ["+1.343% organisch verkeer", "Shopify Plus"] },
+      { title: "Noors DTC-lifestyle merk", badges: ["+556% klikken", "Magento 2"] },
     ],
   },
 };
