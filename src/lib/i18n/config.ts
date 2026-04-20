@@ -1,3 +1,5 @@
+import { getLocalizedSlug } from "./slugs";
+
 export const locales = ["en", "de", "fr", "es", "it", "nl"] as const;
 export type Locale = (typeof locales)[number];
 
@@ -7,6 +9,7 @@ export const BASE_URL = "https://ecomseo.co";
 
 /** Map every hreflang tag → its serving locale */
 export const hreflangEntries: { hreflang: string; locale: Locale }[] = [
+  { hreflang: "en", locale: "en" },
   { hreflang: "en-GB", locale: "en" },
   { hreflang: "x-default", locale: "en" },
   { hreflang: "de-DE", locale: "de" },
@@ -65,9 +68,25 @@ export const htmlLangMap: Record<Locale, string> = {
  * Build the public-facing URL for a locale + path combo.
  * Default locale (en) lives at the root with no prefix;
  * other locales get a /{locale} prefix.
+ *
+ * NOTE: This uses the raw English path. For localized URLs, use
+ * publicLocalizedUrl() instead.
  */
 export function publicUrl(locale: Locale, path: string): string {
   const cleanPath = path === "/" ? "" : path;
+  if (locale === defaultLocale) {
+    return `${BASE_URL}${cleanPath || "/"}`;
+  }
+  return `${BASE_URL}/${locale}${cleanPath}`;
+}
+
+/**
+ * Build the public-facing URL with localized slug.
+ * Uses the slug translation map to produce SEO-optimized URLs.
+ */
+export function publicLocalizedUrl(locale: Locale, path: string): string {
+  const localizedPath = getLocalizedSlug(path, locale);
+  const cleanPath = localizedPath === "/" ? "" : localizedPath;
   if (locale === defaultLocale) {
     return `${BASE_URL}${cleanPath || "/"}`;
   }
@@ -83,6 +102,18 @@ export function localePath(locale: Locale, path: string): string {
     return path.startsWith("/") ? path : `/${path}`;
   }
   return `/${locale}${path.startsWith("/") ? path : `/${path}`}`;
+}
+
+/**
+ * Build a localized link path for a locale (uses translated slugs).
+ * This is what should be used in navigation links and internal hrefs.
+ */
+export function localizedPath(locale: Locale, path: string): string {
+  const translatedPath = getLocalizedSlug(path, locale);
+  if (locale === defaultLocale) {
+    return translatedPath.startsWith("/") ? translatedPath : `/${translatedPath}`;
+  }
+  return `/${locale}${translatedPath.startsWith("/") ? translatedPath : `/${translatedPath}`}`;
 }
 
 /** All static routes (used by sitemap + generateStaticParams) */
@@ -129,7 +160,7 @@ export const staticRoutes = [
   "/tools/meta-tags-checker",
   "/tools/heading-checker",
   "/tools/canonical-checker",
-  "/intent-matching-tool",
+  "/tools/intent-matching-tool",
   "/premium-on-page-seo-checklist",
   "/client-dashboard",
   "/thank-you-payment",
@@ -137,7 +168,7 @@ export const staticRoutes = [
   "/terms-of-service",
   "/blog",
   "/blog/ecommerce-seo",
-  "/blog/ecommerce-seo-audit",
+  "/blog/how-to-make-ecommerce-seo-audit",
   "/blog/ecommerce-seo-consultant",
   "/blog/ecommerce-seo-packages",
   "/blog/ecommerce-seo-agencies",
