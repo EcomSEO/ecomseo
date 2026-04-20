@@ -253,10 +253,16 @@ function buildToolsSection(locale: Locale): ResourceSection {
   const s = sectionLabels[locale];
 
   const buildGroup = (groupLabel: string, slugs: string[]): ResourceGroup => {
-    const allItems: ResourceLink[] = slugs.map((slug) => ({
-      label: (t[toolTitleKeys[slug]] as { title: string }).title,
-      href: `/tools/${slug}`,
-    }));
+    // Skip tools whose translation is missing for this locale so a single
+    // missing key can't crash the whole nav at runtime.
+    const allItems: ResourceLink[] = slugs
+      .map((slug) => {
+        const key = toolTitleKeys[slug];
+        const entry = key ? (t[key] as { title?: string } | undefined) : undefined;
+        if (!entry?.title) return null;
+        return { label: entry.title, href: `/tools/${slug}` };
+      })
+      .filter((x): x is ResourceLink => x !== null);
     return {
       label: groupLabel,
       items: allItems.slice(0, MAX_ITEMS_PER_GROUP),
