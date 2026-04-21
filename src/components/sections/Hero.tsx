@@ -125,27 +125,6 @@ export default function Hero() {
                   Get a Free Proposal from Fabian
                 </Button>
               </motion.div>
-
-              {/* Stats bar */}
-              {t.stats && (
-                <motion.div
-                  className="flex flex-wrap items-center justify-center lg:justify-start gap-8 md:gap-12 pt-4"
-                  initial={{ opacity: 0, y: 20 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.5, delay: 0.4 }}
-                >
-                  {t.stats.map((stat) => (
-                    <div key={stat.label} className="flex flex-col items-center lg:items-start gap-0.5">
-                      <span className="text-[24px] md:text-[32px] font-semibold text-heading">
-                        {stat.value}
-                      </span>
-                      <span className="text-xs text-body font-medium uppercase tracking-wider">
-                        {stat.label}
-                      </span>
-                    </div>
-                  ))}
-                </motion.div>
-              )}
             </div>
           </div>
 
