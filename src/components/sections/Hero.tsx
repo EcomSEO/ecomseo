@@ -109,9 +109,9 @@ export default function Hero() {
                 {t.subtitle}
               </motion.p>
 
-              {/* CTAs */}
+              {/* CTA — single, Fabian-branded */}
               <motion.div
-                className="flex flex-col sm:flex-row items-center lg:items-start gap-6 py-4"
+                className="flex items-center lg:items-start py-4"
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: 0.3 }}
@@ -122,10 +122,7 @@ export default function Hero() {
                   size="large"
                   external
                 >
-                  {t.ctaPrimary}
-                </Button>
-                <Button href="/#projects" variant="secondary" size="large">
-                  {t.ctaSecondary}
+                  Get a Free Proposal from Fabian
                 </Button>
               </motion.div>
 
