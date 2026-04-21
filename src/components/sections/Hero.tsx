@@ -36,7 +36,8 @@ function SocialProof({ text }: { text: string }) {
           >
             <Image
               src={src}
-              alt=""
+              alt={`EcomSEO client ${i + 1}`}
+              title={`EcomSEO client ${i + 1}`}
               width={36}
               height={36}
               className="object-cover"
@@ -74,9 +75,9 @@ export default function Hero() {
   return (
     <section className="relative w-full overflow-hidden">
       <div className="relative px-6 md:px-8 lg:px-16 pt-[105px] pb-[104px]">
-        <div className="relative z-[1] mx-auto max-w-[1200px] w-full flex flex-col items-center text-center gap-4">
-          {/* Content outer - gap 7px */}
-          <div className="flex flex-col items-center gap-[7px]">
+        <div className="relative z-[1] mx-auto max-w-[1200px] w-full grid grid-cols-1 lg:grid-cols-[minmax(0,1fr)_minmax(0,420px)] gap-10 lg:gap-16 items-center">
+          {/* ─── Left column: headline + CTAs ─── */}
+          <div className="flex flex-col items-center lg:items-start text-center lg:text-left gap-[7px]">
             {/* Social proof */}
             <motion.div
               initial={{ opacity: 0, y: 20 }}
@@ -87,10 +88,10 @@ export default function Hero() {
             </motion.div>
 
             {/* Content inner - gap 24px */}
-            <div className="flex flex-col items-center gap-6">
+            <div className="flex flex-col items-center lg:items-start gap-6">
               {/* Main heading */}
               <motion.h1
-                className="text-[40px] md:text-[64px] lg:text-[80px] font-medium leading-[1.05] tracking-[-0.03em] text-heading max-w-[796px]"
+                className="text-[40px] md:text-[64px] lg:text-[72px] font-medium leading-[1.05] tracking-[-0.03em] text-heading max-w-[640px]"
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: 0.1 }}
@@ -100,7 +101,7 @@ export default function Hero() {
 
               {/* Subtitle */}
               <motion.p
-                className="text-body text-base md:text-lg font-medium max-w-[619px]"
+                className="text-body text-base md:text-lg font-medium max-w-[560px]"
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: 0.2 }}
@@ -110,7 +111,7 @@ export default function Hero() {
 
               {/* CTAs */}
               <motion.div
-                className="flex flex-col sm:flex-row items-center gap-6 py-4"
+                className="flex flex-col sm:flex-row items-center lg:items-start gap-6 py-4"
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: 0.3 }}
@@ -127,8 +128,71 @@ export default function Hero() {
                   {t.ctaSecondary}
                 </Button>
               </motion.div>
+
+              {/* Stats bar */}
+              {t.stats && (
+                <motion.div
+                  className="flex flex-wrap items-center justify-center lg:justify-start gap-8 md:gap-12 pt-4"
+                  initial={{ opacity: 0, y: 20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.5, delay: 0.4 }}
+                >
+                  {t.stats.map((stat) => (
+                    <div key={stat.label} className="flex flex-col items-center lg:items-start gap-0.5">
+                      <span className="text-[24px] md:text-[32px] font-semibold text-heading">
+                        {stat.value}
+                      </span>
+                      <span className="text-xs text-body font-medium uppercase tracking-wider">
+                        {stat.label}
+                      </span>
+                    </div>
+                  ))}
+                </motion.div>
+              )}
             </div>
           </div>
+
+          {/* ─── Right column: Fabian portrait card ─── */}
+          <motion.div
+            className="relative w-full max-w-[420px] mx-auto lg:mx-0 aspect-[4/5] rounded-3xl overflow-hidden border border-border/60 shadow-[0_30px_80px_-20px_rgba(0,0,0,0.7)]"
+            initial={{ opacity: 0, x: 30 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.6, delay: 0.2 }}
+          >
+            <Image
+              src="/images/framer/fabian-van-til-new.jpeg"
+              alt="Fabian van Til, CEO at EcomSEO"
+              title="Fabian van Til"
+              fill
+              className="object-cover"
+              sizes="(max-width: 1024px) 420px, 420px"
+              priority
+            />
+            {/* Dark gradient overlay bottom */}
+            <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/20 to-transparent" />
+            {/* Name + role overlay */}
+            <div className="absolute bottom-0 left-0 right-0 p-6 flex flex-col gap-1">
+              <h3 className="text-[17px] font-medium text-heading leading-tight">
+                Fabian van Til
+              </h3>
+              <span className="text-[13px] text-body/90">
+                CEO at EcomSEO, Brand Owner
+              </span>
+            </div>
+            {/* Subtle purple glow behind corner */}
+            <div
+              className="absolute pointer-events-none"
+              style={{
+                width: 240,
+                height: 240,
+                top: -40,
+                right: -40,
+                background: "radial-gradient(circle, rgba(193,100,230,0.25) 0%, transparent 60%)",
+                filter: "blur(30px)",
+              }}
+              aria-hidden
+            />
+          </motion.div>
         </div>
 
         {/* Glow effect at bottom */}
