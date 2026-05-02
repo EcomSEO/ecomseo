@@ -16,23 +16,41 @@ export const bigcommerceSeoGuide: AcademyTopic = {
           title: "BigCommerce URL Structure and Clean Permalink Control",
           content:
             "BigCommerce offers one of the most SEO-friendly URL structures among hosted ecommerce platforms. Unlike Shopify, which forces /products/ and /collections/ prefixes, BigCommerce lets you configure fully customizable URL paths. Product URLs can sit directly off the root domain (e.g., /blue-running-shoes/) without mandatory category or folder prefixes.\n\nThe platform provides three URL format options in the store settings: SEO-optimized URLs, short URLs, and category-pathed URLs. The SEO-optimized format is the default and recommended choice, as it creates clean, keyword-rich slugs without unnecessary nesting. Category-pathed URLs (/shoes/running/blue-running-shoes/) can be useful for topical authority but create longer URLs and potential duplicate content issues when products belong to multiple categories.\n\nBigCommerce automatically generates canonical tags for product pages to handle scenarios where the same product is accessible through different category paths. However, you should audit these canonical tags regularly, especially after reorganizing your category structure. Use the URL Inspection tool in Google Search Console to verify that the canonical URL matches your preferred version.\n\nCustom URL redirects can be managed through the BigCommerce admin panel or via the API for bulk operations. The platform supports 301 and 302 redirects natively, which is essential during product lifecycle management and catalog restructuring.",
+          image: {
+            src: "/images/academy/bigcommerce-url-formats.svg",
+            alt: "Comparison of BigCommerce URL format options: SEO-optimized flat URLs versus category-pathed URLs",
+            caption: "BigCommerce offers three URL formats. The SEO-optimized flat structure avoids the forced prefixes seen on Shopify.",
+          },
           items: [
             "Configure SEO-optimized URLs in store settings for clean, flat URL structures",
             "Audit canonical tags after any category reorganization to prevent indexation conflicts",
             "Use the BigCommerce API for bulk redirect management during large catalog changes",
             "Avoid category-pathed URLs unless your site architecture specifically benefits from hierarchical paths",
           ],
+          callout: {
+            title: "No Forced Prefixes",
+            text: "Unlike Shopify's mandatory /products/ and /collections/ paths, BigCommerce lets products sit at the root domain. A URL like /blue-shoes/ is shorter, cleaner, and earns slightly higher CTR in search results.",
+          },
           tip: "When migrating to BigCommerce from another platform, use the 301 redirect CSV import feature to map all old URLs before launching. Test each redirect category with a crawler to catch redirect chains or loops before they affect rankings.",
         },
         {
           title: "Built-In SEO Features and Configuration",
           content:
             "BigCommerce ships with a robust set of native SEO tools that reduce dependency on third-party apps. Every product, category, and content page exposes editable fields for page titles, meta descriptions, and URL slugs directly in the admin panel. The platform also auto-generates a comprehensive XML sitemap that updates as you add or remove pages.\n\nThe built-in sitemap includes product pages, category pages, brand pages, and content pages. Unlike some platforms, BigCommerce allows you to control sitemap inclusion at the page level by toggling visibility settings. Pages set to hidden are automatically excluded from the sitemap, which helps keep your sitemap lean and focused on indexable content.\n\nBigCommerce provides automatic image optimization through its Akamai CDN, converting images to WebP format and serving appropriately sized versions based on the requesting device. This native image optimization directly impacts Core Web Vitals scores without requiring manual intervention or third-party image compression apps.\n\nRobots.txt customization is available through the admin panel, letting you block specific paths from crawling. This is particularly useful for filtering out internal search result pages, customer account pages, and other low-value URLs that consume crawl budget without contributing to organic visibility.",
+          image: {
+            src: "/images/academy/bigcommerce-seo-features.svg",
+            alt: "Grid showing BigCommerce built-in SEO features including meta tags, sitemap, CDN, schema, robots.txt, and canonical tags",
+            caption: "BigCommerce ships with six core SEO features natively, reducing the need for third-party apps.",
+          },
           items: [
             "Edit page titles, meta descriptions, and slugs for every product and category page",
             "Review the auto-generated XML sitemap monthly to ensure it reflects your current catalog",
             "Use the robots.txt editor to block faceted navigation URLs and internal search pages",
           ],
+          callout: {
+            title: "Native Image CDN",
+            text: "BigCommerce's Akamai CDN auto-converts images to WebP and serves device-appropriate sizes. This handles image optimization that Shopify and WooCommerce require manual setup or plugins to achieve.",
+          },
           tip: "BigCommerce auto-generates meta descriptions from the first few sentences of your product description if you leave the field blank. Always write custom meta descriptions for your top-revenue products to maximize click-through rates from search results.",
         },
         {
@@ -90,23 +108,41 @@ export const bigcommerceSeoGuide: AcademyTopic = {
           title: "BigCommerce URL-Struktur und saubere Permalink-Kontrolle",
           content:
             "BigCommerce bietet eine der SEO-freundlichsten URL-Strukturen unter den gehosteten E-Commerce-Plattformen. Anders als Shopify, das /products/- und /collections/-Praefixe erzwingt, ermoeglicht BigCommerce vollstaendig anpassbare URL-Pfade. Produkt-URLs koennen direkt unter der Root-Domain liegen (z.B. /blaue-laufschuhe/) ohne obligatorische Kategorie- oder Ordner-Praefixe.\n\nDie Plattform bietet drei URL-Formatoptionen in den Shop-Einstellungen: SEO-optimierte URLs, kurze URLs und kategoriepfadbasierte URLs. Das SEO-optimierte Format ist die Standard- und empfohlene Wahl, da es saubere, keyword-reiche Slugs ohne unnoetige Verschachtelung erstellt. Kategoriepfad-URLs koennen fuer thematische Autoritaet nuetzlich sein, erzeugen aber laengere URLs und potenzielle Duplicate-Content-Probleme.\n\nBigCommerce generiert automatisch Canonical Tags fuer Produktseiten, um Szenarien zu behandeln, in denen dasselbe Produkt ueber verschiedene Kategoriepfade erreichbar ist. Sie sollten diese Canonical Tags regelmaessig ueberpruefen, insbesondere nach einer Umstrukturierung Ihrer Kategorien. Verwenden Sie das URL-Inspektionstool in der Google Search Console, um zu verifizieren, dass die kanonische URL mit Ihrer bevorzugten Version uebereinstimmt.\n\nBenutzerdefinierte URL-Weiterleitungen koennen ueber das BigCommerce Admin-Panel oder per API fuer Massenvorgaenge verwaltet werden. Die Plattform unterstuetzt nativ 301- und 302-Weiterleitungen, was bei der Produkt-Lifecycle-Verwaltung und Katalogumstrukturierung unverzichtbar ist.",
-          items: [
+                    image: {
+            src: "/images/academy/de/bigcommerce-url-formats.svg",
+            alt: "BigCommerce URL-Format-Optionen: SEO-optimiert, kurze URLs und Kategoriepfade mit Empfehlungen",
+            caption: "Waehlen Sie SEO-optimierte URLs in BigCommerce fuer flache, saubere URL-Strukturen ohne Duplikatrisiko.",
+          },
+items: [
             "SEO-optimierte URLs in den Shop-Einstellungen konfigurieren fuer saubere, flache URL-Strukturen",
             "Canonical Tags nach jeder Kategorie-Reorganisation ueberpruefen, um Indexierungskonflikte zu vermeiden",
             "Die BigCommerce-API fuer die Massenverwaltung von Weiterleitungen bei grossen Katalogaenderungen nutzen",
             "Kategoriepfad-URLs vermeiden, es sei denn, Ihre Seitenarchitektur profitiert speziell von hierarchischen Pfaden",
           ],
+          callout: {
+            title: "URL-Format-Warnung",
+            text: "Aendern Sie das URL-Format nicht nach dem Launch, ohne eine vollstaendige Redirect-Strategie. Eine nachtraegliche URL-Umstellung ohne 301-Redirects kann 30-50% des organischen Traffics kosten.",
+          },
           tip: "Verwenden Sie bei der Migration zu BigCommerce von einer anderen Plattform die CSV-Importfunktion fuer 301-Weiterleitungen, um alle alten URLs vor dem Launch zuzuordnen. Testen Sie jede Redirect-Kategorie mit einem Crawler, um Weiterleitungsketten oder -schleifen zu erkennen.",
         },
         {
           title: "Integrierte SEO-Funktionen und Konfiguration",
           content:
             "BigCommerce liefert ein robustes Set an nativen SEO-Tools, die die Abhaengigkeit von Drittanbieter-Apps reduzieren. Jede Produkt-, Kategorie- und Inhaltsseite bietet bearbeitbare Felder fuer Seitentitel, Meta-Beschreibungen und URL-Slugs direkt im Admin-Panel. Die Plattform generiert ausserdem automatisch eine umfassende XML-Sitemap, die sich beim Hinzufuegen oder Entfernen von Seiten aktualisiert.\n\nDie integrierte Sitemap umfasst Produktseiten, Kategorieseiten, Markenseiten und Inhaltsseiten. Anders als bei einigen Plattformen koennen Sie bei BigCommerce die Sitemap-Aufnahme auf Seitenebene steuern, indem Sie die Sichtbarkeitseinstellungen umschalten. Als verborgen markierte Seiten werden automatisch aus der Sitemap ausgeschlossen.\n\nBigCommerce bietet automatische Bildoptimierung ueber sein Akamai-CDN, konvertiert Bilder in das WebP-Format und liefert passend dimensionierte Versionen basierend auf dem anfragenden Geraet. Diese native Bildoptimierung wirkt sich direkt auf die Core-Web-Vitals-Werte aus, ohne dass manueller Eingriff oder Drittanbieter-Apps fuer Bildkomprimierung erforderlich sind.\n\nDie Robots.txt-Anpassung ist ueber das Admin-Panel verfuegbar und ermoeglicht es Ihnen, bestimmte Pfade vom Crawling zu blockieren. Dies ist besonders nuetzlich, um interne Suchergebnisseiten, Kundenkontoseiten und andere URLs mit geringem Wert auszuschliessen, die Crawl-Budget verbrauchen.",
-          items: [
+                    image: {
+            src: "/images/academy/de/bigcommerce-seo-features.svg",
+            alt: "BigCommerce integrierte SEO-Funktionen einschliesslich Sitemaps, URLs, Redirects und Schema-Markup",
+            caption: "BigCommerce bietet solide SEO-Grundfunktionen ab Werk, aber erweiterte Features erfordern Apps oder manuelle Konfiguration.",
+          },
+items: [
             "Seitentitel, Meta-Beschreibungen und Slugs fuer jede Produkt- und Kategorieseite bearbeiten",
             "Die automatisch generierte XML-Sitemap monatlich ueberpruefen, um sicherzustellen, dass sie den aktuellen Katalog widerspiegelt",
             "Den Robots.txt-Editor verwenden, um Facettennavigation-URLs und interne Suchseiten zu blockieren",
           ],
+          callout: {
+            title: "Feature-Luecken",
+            text: "BigCommerce generiert automatisch grundlegendes Schema-Markup, aber fuer erweiterte Produktschemata mit Bewertungen, FAQ und Verfuegbarkeit benoetigen Sie eine App oder benutzerdefinierte Implementierung.",
+          },
           tip: "BigCommerce generiert automatisch Meta-Beschreibungen aus den ersten Saetzen Ihrer Produktbeschreibung, wenn Sie das Feld leer lassen. Schreiben Sie immer individuelle Meta-Beschreibungen fuer Ihre umsatzstaerksten Produkte, um die Klickraten aus Suchergebnissen zu maximieren.",
         },
         {
@@ -171,6 +207,15 @@ export const bigcommerceSeoGuide: AcademyTopic = {
             "Eviter les URLs avec chemin de categorie sauf si votre architecture de site beneficie specifiquement de chemins hierarchiques",
           ],
           tip: "Lors de la migration vers BigCommerce depuis une autre plateforme, utilisez la fonction d'importation CSV de redirections 301 pour mapper toutes les anciennes URLs avant le lancement. Testez chaque categorie de redirection avec un crawler pour detecter les chaines ou boucles de redirection.",
+          image: {
+            src: "/images/academy/fr/bigcommerce-url-formats.svg",
+            alt: "BigCommerce URL-Format-Optionen: SEO-optimiert, kurze URLs und Kategoriepfade mit Empfehlungen",
+            caption: "Waehlen Sie SEO-optimierte URLs in BigCommerce fuer flache, saubere URL-Strukturen ohne Duplikatrisiko.",
+          },
+          callout: {
+            title: "URL-Format-Warnung",
+            text: "Aendern Sie das URL-Format nicht nach dem Launch, ohne eine vollstaendige Redirect-Strategie. Eine nachtraegliche URL-Umstellung ohne 301-Redirects kann 30-50% des organischen Traffics kosten.",
+          },
         },
         {
           title: "Fonctionnalites SEO integrees et configuration",
@@ -182,6 +227,15 @@ export const bigcommerceSeoGuide: AcademyTopic = {
             "Utiliser l'editeur robots.txt pour bloquer les URLs de navigation a facettes et les pages de recherche interne",
           ],
           tip: "BigCommerce genere automatiquement des meta descriptions a partir des premieres phrases de votre description produit si vous laissez le champ vide. Redigez toujours des meta descriptions personnalisees pour vos produits a plus fort revenu afin de maximiser les taux de clics.",
+          image: {
+            src: "/images/academy/fr/bigcommerce-seo-features.svg",
+            alt: "BigCommerce integrierte SEO-Funktionen einschliesslich Sitemaps, URLs, Redirects und Schema-Markup",
+            caption: "BigCommerce bietet solide SEO-Grundfunktionen ab Werk, aber erweiterte Features erfordern Apps oder manuelle Konfiguration.",
+          },
+          callout: {
+            title: "Feature-Luecken",
+            text: "BigCommerce generiert automatisch grundlegendes Schema-Markup, aber fuer erweiterte Produktschemata mit Bewertungen, FAQ und Verfuegbarkeit benoetigen Sie eine App oder benutzerdefinierte Implementierung.",
+          },
         },
         {
           title: "Personnalisation du theme et [donnees structurees](/academy/structured-data-for-products)",
@@ -245,6 +299,15 @@ export const bigcommerceSeoGuide: AcademyTopic = {
             "Evitar URLs con ruta de categoria a menos que tu arquitectura de sitio se beneficie especificamente de rutas jerarquicas",
           ],
           tip: "Al migrar a BigCommerce desde otra plataforma, usa la funcion de importacion CSV de redirecciones 301 para mapear todas las URLs antiguas antes del lanzamiento. Prueba cada categoria de redireccion con un crawler para detectar cadenas o bucles de redireccion.",
+          image: {
+            src: "/images/academy/es/bigcommerce-url-formats.svg",
+            alt: "BigCommerce URL-Format-Optionen: SEO-optimiert, kurze URLs und Kategoriepfade mit Empfehlungen",
+            caption: "Waehlen Sie SEO-optimierte URLs in BigCommerce fuer flache, saubere URL-Strukturen ohne Duplikatrisiko.",
+          },
+          callout: {
+            title: "URL-Format-Warnung",
+            text: "Aendern Sie das URL-Format nicht nach dem Launch, ohne eine vollstaendige Redirect-Strategie. Eine nachtraegliche URL-Umstellung ohne 301-Redirects kann 30-50% des organischen Traffics kosten.",
+          },
         },
         {
           title: "Funciones SEO integradas y configuracion",
@@ -256,6 +319,15 @@ export const bigcommerceSeoGuide: AcademyTopic = {
             "Usar el editor de robots.txt para bloquear URLs de navegacion facetada y paginas de busqueda interna",
           ],
           tip: "BigCommerce genera automaticamente meta descripciones a partir de las primeras oraciones de tu descripcion de producto si dejas el campo vacio. Escribe siempre meta descripciones personalizadas para tus productos de mayor ingreso para maximizar las tasas de clics.",
+          image: {
+            src: "/images/academy/es/bigcommerce-seo-features.svg",
+            alt: "BigCommerce integrierte SEO-Funktionen einschliesslich Sitemaps, URLs, Redirects und Schema-Markup",
+            caption: "BigCommerce bietet solide SEO-Grundfunktionen ab Werk, aber erweiterte Features erfordern Apps oder manuelle Konfiguration.",
+          },
+          callout: {
+            title: "Feature-Luecken",
+            text: "BigCommerce generiert automatisch grundlegendes Schema-Markup, aber fuer erweiterte Produktschemata mit Bewertungen, FAQ und Verfuegbarkeit benoetigen Sie eine App oder benutzerdefinierte Implementierung.",
+          },
         },
         {
           title: "Personalizacion del tema y datos estructurados",
@@ -319,6 +391,15 @@ export const bigcommerceSeoGuide: AcademyTopic = {
             "Evitare URL con percorso di categoria a meno che l'architettura del sito non tragga specifico beneficio da percorsi gerarchici",
           ],
           tip: "Quando migri a BigCommerce da un'altra piattaforma, usa la funzione di importazione CSV per redirect 301 per mappare tutti i vecchi URL prima del lancio. Testa ogni categoria di redirect con un crawler per individuare catene o loop di redirect.",
+          image: {
+            src: "/images/academy/it/bigcommerce-url-formats.svg",
+            alt: "BigCommerce URL-Format-Optionen: SEO-optimiert, kurze URLs und Kategoriepfade mit Empfehlungen",
+            caption: "Waehlen Sie SEO-optimierte URLs in BigCommerce fuer flache, saubere URL-Strukturen ohne Duplikatrisiko.",
+          },
+          callout: {
+            title: "URL-Format-Warnung",
+            text: "Aendern Sie das URL-Format nicht nach dem Launch, ohne eine vollstaendige Redirect-Strategie. Eine nachtraegliche URL-Umstellung ohne 301-Redirects kann 30-50% des organischen Traffics kosten.",
+          },
         },
         {
           title: "Funzionalita SEO integrate e configurazione",
@@ -330,6 +411,15 @@ export const bigcommerceSeoGuide: AcademyTopic = {
             "Usare l'editor robots.txt per bloccare URL di navigazione a faccette e pagine di ricerca interna",
           ],
           tip: "BigCommerce genera automaticamente le meta description dalle prime frasi della descrizione del prodotto se lasci il campo vuoto. Scrivi sempre meta description personalizzate per i tuoi prodotti a maggior fatturato per massimizzare i tassi di clic dai risultati di ricerca.",
+          image: {
+            src: "/images/academy/it/bigcommerce-seo-features.svg",
+            alt: "BigCommerce integrierte SEO-Funktionen einschliesslich Sitemaps, URLs, Redirects und Schema-Markup",
+            caption: "BigCommerce bietet solide SEO-Grundfunktionen ab Werk, aber erweiterte Features erfordern Apps oder manuelle Konfiguration.",
+          },
+          callout: {
+            title: "Feature-Luecken",
+            text: "BigCommerce generiert automatisch grundlegendes Schema-Markup, aber fuer erweiterte Produktschemata mit Bewertungen, FAQ und Verfuegbarkeit benoetigen Sie eine App oder benutzerdefinierte Implementierung.",
+          },
         },
         {
           title: "Personalizzazione del tema e [dati strutturati](/academy/structured-data-for-products)",
@@ -393,6 +483,15 @@ export const bigcommerceSeoGuide: AcademyTopic = {
             "URL's met categoriepad vermijden tenzij je sitearchitectuur specifiek baat heeft bij hierarchische paden",
           ],
           tip: "Gebruik bij migratie naar BigCommerce vanaf een ander platform de CSV-importfunctie voor 301-redirects om alle oude URL's te mappen voor de lancering. Test elke redirectcategorie met een crawler om redirectketens of -lussen te detecteren.",
+          image: {
+            src: "/images/academy/nl/bigcommerce-url-formats.svg",
+            alt: "BigCommerce URL-Format-Optionen: SEO-optimiert, kurze URLs und Kategoriepfade mit Empfehlungen",
+            caption: "Waehlen Sie SEO-optimierte URLs in BigCommerce fuer flache, saubere URL-Strukturen ohne Duplikatrisiko.",
+          },
+          callout: {
+            title: "URL-Format-Warnung",
+            text: "Aendern Sie das URL-Format nicht nach dem Launch, ohne eine vollstaendige Redirect-Strategie. Eine nachtraegliche URL-Umstellung ohne 301-Redirects kann 30-50% des organischen Traffics kosten.",
+          },
         },
         {
           title: "Ingebouwde SEO-functies en configuratie",
@@ -404,6 +503,15 @@ export const bigcommerceSeoGuide: AcademyTopic = {
             "De robots.txt-editor gebruiken om facetnavigatie-URL's en interne zoekpagina's te blokkeren",
           ],
           tip: "BigCommerce genereert automatisch metabeschrijvingen uit de eerste zinnen van je productbeschrijving als je het veld leeg laat. Schrijf altijd aangepaste metabeschrijvingen voor je producten met de hoogste omzet om de klikfrequentie vanuit zoekresultaten te maximaliseren.",
+          image: {
+            src: "/images/academy/nl/bigcommerce-seo-features.svg",
+            alt: "BigCommerce integrierte SEO-Funktionen einschliesslich Sitemaps, URLs, Redirects und Schema-Markup",
+            caption: "BigCommerce bietet solide SEO-Grundfunktionen ab Werk, aber erweiterte Features erfordern Apps oder manuelle Konfiguration.",
+          },
+          callout: {
+            title: "Feature-Luecken",
+            text: "BigCommerce generiert automatisch grundlegendes Schema-Markup, aber fuer erweiterte Produktschemata mit Bewertungen, FAQ und Verfuegbarkeit benoetigen Sie eine App oder benutzerdefinierte Implementierung.",
+          },
         },
         {
           title: "Thema-aanpassing en gestructureerde data",

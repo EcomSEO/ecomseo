@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import type { Locale } from "@/lib/i18n/config";
-import { BASE_URL } from "@/lib/i18n/config";
+import { BASE_URL, publicLocalizedUrl } from "@/lib/i18n/config";
 import { generateAlternates } from "@/lib/i18n/metadata";
 import { blogTranslations } from "@/lib/i18n/translations/blog";
 import { allArticles, getArticleBySlug, getRelatedArticles } from "@/lib/blog/articles";
@@ -13,9 +13,18 @@ import LocaleLink from "@/components/ui/LocaleLink";
 import { parseInlineLinks } from "@/lib/parseInlineLinks";
 import { notFound } from "next/navigation";
 
+export const revalidate = 86400;
+
+
 export async function generateStaticParams() {
   return allArticles.map((a) => ({ slug: a.slug }));
 }
+
+// Blog posts that cannibalize academy pages → canonical to academy
+const blogCanonicalOverrides: Record<string, string> = {
+  "ecommerce-homepage-seo": "/academy/homepage-seo-for-ecommerce",
+  "ecommerce-seo-migration": "/academy/platform-migration-seo",
+};
 
 export async function generateMetadata({
   params,
@@ -26,27 +35,47 @@ export async function generateMetadata({
   const article = getArticleBySlug(slug);
   if (!article) return {};
 
-  const url = `${BASE_URL}/${locale}/blog/${slug}`;
+  const url = publicLocalizedUrl(locale, `/blog/${slug}`);
 
   const c = article.content[locale] || article.content.en;
+
+  // If this blog post cannibalizes an academy page, set canonical to academy
+  const canonicalOverride = blogCanonicalOverrides[slug];
+  const alternates = canonicalOverride
+    ? {
+        ...generateAlternates(`/blog/${slug}`, locale),
+        canonical: publicLocalizedUrl(locale, canonicalOverride),
+      }
+    : generateAlternates(`/blog/${slug}`, locale);
 
   return {
     title: `${c.title} | EcomSEO`,
     description: c.description,
-    alternates: generateAlternates(`/blog/${slug}`, locale),
+    alternates,
     openGraph: {
       title: c.title,
       description: c.description,
       url,
       siteName: "EcomSEO",
       type: "article",
+      locale: locale === "en" ? "en_GB" : `${locale}_${locale.toUpperCase()}`,
       publishedTime: article.publishDate,
       authors: [article.author],
+      images: [
+        {
+          url: `${BASE_URL}/images/brand/og-image.png`,
+          width: 1200,
+          height: 630,
+          alt: c.title,
+        },
+      ],
     },
     twitter: {
       card: "summary_large_image",
+      site: "@ecomseo_co",
       title: c.title,
       description: c.description,
+      images: [`${BASE_URL}/images/brand/og-image.png`],
     },
   };
 }
@@ -86,7 +115,7 @@ export default async function BlogPostPage({
     datePublished: article.publishDate,
     dateModified: article.publishDate,
     authorName: article.author,
-    authorUrl: `${BASE_URL}/${locale}/blog/author/${article.authorSlug}`,
+    authorUrl: publicLocalizedUrl(locale, `/blog/author/${article.authorSlug}`),
     image: `${BASE_URL}/images/brand/og-image.png`,
     wordCount,
   });
@@ -173,6 +202,23 @@ export default async function BlogPostPage({
                       {parseInlineLinks(paragraph)}
                     </p>
                   ))}
+                  {section.image && (
+                    <figure className="rounded-xl overflow-hidden border border-border my-6">
+                      <div className="relative w-full p-3 md:p-4 bg-[#0a0a1a] overflow-x-auto">
+                        {/* eslint-disable-next-line @next/next/no-img-element */}
+                        <img src={section.image.src} alt={section.image.alt} className="w-full h-auto min-h-[150px] md:min-h-[120px] min-w-[500px] md:min-w-0" />
+                      </div>
+                      {section.image.caption && (
+                        <figcaption className="px-4 py-2 text-body text-xs text-center bg-bg-card">{section.image.caption}</figcaption>
+                      )}
+                    </figure>
+                  )}
+                  {section.callout && (
+                    <div className="bg-accent/10 border border-accent/20 rounded-xl p-5 my-6">
+                      <p className="text-accent text-sm font-semibold mb-1">{section.callout.title}</p>
+                      <p className="text-body text-sm leading-relaxed">{parseInlineLinks(section.callout.text)}</p>
+                    </div>
+                  )}
                 </section>
               ))}
             </div>

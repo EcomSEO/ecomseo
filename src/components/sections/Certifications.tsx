@@ -19,6 +19,7 @@ const certifications = [
     alt: "Google Partner",
     width: 573,
     height: 208,
+    href: "https://www.google.com/partners/agency?id=6774382013",
   },
   {
     src: "/images/partners/bing-partner-agency.webp",
@@ -99,13 +100,25 @@ export default function Certifications() {
               {/* Purple glow on hover */}
               <div className="absolute inset-0 rounded-full bg-accent/0 blur-xl transition-all duration-500 group-hover:bg-accent/20 group-hover:scale-150 pointer-events-none" />
 
-              <Image
-                src={cert.src}
-                alt={cert.alt}
-                width={cert.width}
-                height={cert.height}
-                className={cert.className || "relative h-[40px] md:h-[50px] w-auto object-contain opacity-60 transition-all duration-500 group-hover:opacity-100"}
-              />
+              {cert.href ? (
+                <a href={cert.href} target="_blank" rel="nofollow noopener noreferrer">
+                  <Image
+                    src={cert.src}
+                    alt={cert.alt}
+                    width={cert.width}
+                    height={cert.height}
+                    className={cert.className || "relative h-[40px] md:h-[50px] w-auto object-contain opacity-60 transition-all duration-500 group-hover:opacity-100"}
+                  />
+                </a>
+              ) : (
+                <Image
+                  src={cert.src}
+                  alt={cert.alt}
+                  width={cert.width}
+                  height={cert.height}
+                  className={cert.className || "relative h-[40px] md:h-[50px] w-auto object-contain opacity-60 transition-all duration-500 group-hover:opacity-100"}
+                />
+              )}
             </motion.div>
           ))}
         </div>

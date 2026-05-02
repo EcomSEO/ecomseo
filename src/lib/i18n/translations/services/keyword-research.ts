@@ -168,7 +168,7 @@ export const keywordResearchData: Record<Locale, ServicePageProps> = {
           name: "Fabian van Til",
           role: "Strategy & Innovation",
           bio: "Fabian owns the keyword strategy for every engagement. 8 years of ecommerce-only SEO means he knows which keywords actually drive purchases vs. which just look good in a report.",
-          image: "/images/framer/C23VbBxvj2kY5TMoXAJHXWVLaA.webp",
+          image: "/images/framer/fabian-van-til-new.jpeg",
           linkedin: "https://www.linkedin.com/in/fabianvantil/",
         },
         teamMembers: [
@@ -177,7 +177,7 @@ export const keywordResearchData: Record<Locale, ServicePageProps> = {
             role: "Technical & On-Page SEO",
             bio: "Dimitar builds the technical SEO foundations that make keyword strategies work. He handles site architecture, internal linking, on-page optimization, and page structures so your target keywords have the right pages to rank.",
             image: "/images/framer/Q3tfuu2ytPAotONsFoP1ouyPZic.png",
-            linkedin: "https://www.linkedin.com/in/dimitar-georgiev-seo/",
+            linkedin: "https://bg.linkedin.com/in/dimitar-georgiev-seo-expert",
           },
           {
             name: "Martinijan Trajkovski",
@@ -392,7 +392,7 @@ export const keywordResearchData: Record<Locale, ServicePageProps> = {
           name: "Fabian van Til",
           role: "Strategie & Innovation",
           bio: "Fabian verantwortet die strategische Ausrichtung aller Keyword-Projekte. Mit 8+ Jahren E-Commerce-SEO-Erfahrung entwickelt er Keyword-Strategien, die auf Umsatzziele und Marktpositionierung einzahlen.",
-          image: "/images/framer/C23VbBxvj2kY5TMoXAJHXWVLaA.webp",
+          image: "/images/framer/fabian-van-til-new.jpeg",
           linkedin: "https://www.linkedin.com/in/fabianvantil/",
         },
         teamMembers: [
@@ -401,7 +401,7 @@ export const keywordResearchData: Record<Locale, ServicePageProps> = {
             role: "Technisches & On-Page SEO",
             bio: "Entwickelt die technischen SEO-Grundlagen und On-Page-Optimierungen, die Keyword-Strategien umsetzbar machen. Stellt sicher, dass Seitenarchitektur, interne Verlinkung und Seitenstrukturen für Ziel-Keyword-Cluster optimiert sind.",
             image: "/images/framer/Q3tfuu2ytPAotONsFoP1ouyPZic.png",
-            linkedin: "https://www.linkedin.com/in/dimitar-georgiev-seo/",
+            linkedin: "https://bg.linkedin.com/in/dimitar-georgiev-seo-expert",
           },
           {
             name: "Martinijan Trajkovski",
@@ -616,7 +616,7 @@ export const keywordResearchData: Record<Locale, ServicePageProps> = {
           name: "Fabian van Til",
           role: "Stratégie & Innovation",
           bio: "Fabian pilote la stratégie mots-clés de chaque client. 8+ ans d\u2019expérience en SEO e-commerce. Il conçoit des stratégies de mots-clés alignées sur les objectifs de CA et le positionnement marché.",
-          image: "/images/framer/C23VbBxvj2kY5TMoXAJHXWVLaA.webp",
+          image: "/images/framer/fabian-van-til-new.jpeg",
           linkedin: "https://www.linkedin.com/in/fabianvantil/",
         },
         teamMembers: [
@@ -625,7 +625,7 @@ export const keywordResearchData: Record<Locale, ServicePageProps> = {
             role: "SEO technique & On-Page",
             bio: "Conçoit les fondations SEO techniques et on-page qui rendent les stratégies de mots-clés opérationnelles. Assure que l\u2019architecture du site, le maillage interne et les structures de pages sont optimisés pour les clusters de mots-clés cibles.",
             image: "/images/framer/Q3tfuu2ytPAotONsFoP1ouyPZic.png",
-            linkedin: "https://www.linkedin.com/in/dimitar-georgiev-seo/",
+            linkedin: "https://bg.linkedin.com/in/dimitar-georgiev-seo-expert",
           },
           {
             name: "Martinijan Trajkovski",
@@ -840,7 +840,7 @@ export const keywordResearchData: Record<Locale, ServicePageProps> = {
           name: "Fabian van Til",
           role: "Estrategia e Innovación",
           bio: "Fabian dirige la estrategia de todos los proyectos. 8+ a\u00f1os de experiencia en SEO ecommerce. Dise\u00f1a estrategias de keywords alineadas con objetivos de ingresos y posicionamiento de mercado.",
-          image: "/images/framer/C23VbBxvj2kY5TMoXAJHXWVLaA.webp",
+          image: "/images/framer/fabian-van-til-new.jpeg",
           linkedin: "https://www.linkedin.com/in/fabianvantil/",
         },
         teamMembers: [
@@ -849,7 +849,7 @@ export const keywordResearchData: Record<Locale, ServicePageProps> = {
             role: "SEO Técnico & On-Page",
             bio: "Diseña las bases de SEO técnico y on-page que hacen las estrategias de keywords ejecutables. Asegura que la arquitectura del sitio, el enlazado interno y las estructuras de páginas estén optimizados para los clusters de keywords objetivo.",
             image: "/images/framer/Q3tfuu2ytPAotONsFoP1ouyPZic.png",
-            linkedin: "https://www.linkedin.com/in/dimitar-georgiev-seo/",
+            linkedin: "https://bg.linkedin.com/in/dimitar-georgiev-seo-expert",
           },
           {
             name: "Martinijan Trajkovski",
@@ -1064,7 +1064,7 @@ export const keywordResearchData: Record<Locale, ServicePageProps> = {
           name: "Fabian van Til",
           role: "Strategia & Innovazione",
           bio: "Fabian definisce la strategia di ogni progetto. 8+ anni di esperienza in SEO e-commerce. Progetta strategie keyword allineate agli obiettivi di fatturato e posizionamento di mercato.",
-          image: "/images/framer/C23VbBxvj2kY5TMoXAJHXWVLaA.webp",
+          image: "/images/framer/fabian-van-til-new.jpeg",
           linkedin: "https://www.linkedin.com/in/fabianvantil/",
         },
         teamMembers: [
@@ -1073,7 +1073,7 @@ export const keywordResearchData: Record<Locale, ServicePageProps> = {
             role: "SEO tecnico & On-Page",
             bio: "Dimitar progetta le fondamenta SEO tecniche e on-page che rendono le strategie keyword attuabili. Si assicura che l\u2019architettura del sito, il linking interno e le strutture delle pagine siano ottimizzati per i cluster di keyword target.",
             image: "/images/framer/Q3tfuu2ytPAotONsFoP1ouyPZic.png",
-            linkedin: "https://www.linkedin.com/in/dimitar-georgiev-seo/",
+            linkedin: "https://bg.linkedin.com/in/dimitar-georgiev-seo-expert",
           },
           {
             name: "Martinijan Trajkovski",
@@ -1288,7 +1288,7 @@ export const keywordResearchData: Record<Locale, ServicePageProps> = {
           name: "Fabian van Til",
           role: "Strategie & Innovatie",
           bio: "Fabian leidt de strategische richting van alle klantprojecten. Met 8+ jaar e-commerce SEO-ervaring ontwerpt hij zoekwoordstrategieën die aansluiten bij omzetdoelen en marktpositionering.",
-          image: "/images/framer/C23VbBxvj2kY5TMoXAJHXWVLaA.webp",
+          image: "/images/framer/fabian-van-til-new.jpeg",
           linkedin: "https://www.linkedin.com/in/fabianvantil/",
         },
         teamMembers: [
@@ -1297,7 +1297,7 @@ export const keywordResearchData: Record<Locale, ServicePageProps> = {
             role: "Technisch & On-Page SEO",
             bio: "Dimitar ontwerpt de technische SEO-fundamenten en on-page optimalisaties die zoekwoordstrategieën uitvoerbaar maken. Hij zorgt ervoor dat site-architectuur, interne linking en paginastructuren zijn geoptimaliseerd voor doelzoekwoord-clusters.",
             image: "/images/framer/Q3tfuu2ytPAotONsFoP1ouyPZic.png",
-            linkedin: "https://www.linkedin.com/in/dimitar-georgiev-seo/",
+            linkedin: "https://bg.linkedin.com/in/dimitar-georgiev-seo-expert",
           },
           {
             name: "Martinijan Trajkovski",

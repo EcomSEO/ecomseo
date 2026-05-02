@@ -22,9 +22,18 @@ export const seoLearningRoadmap: AcademyTopic = {
             "Junior SEOs transitioning into the ecommerce vertical",
             "Anyone tired of fragmented SEO advice that never connects into a system",
           ],
+          callout: {
+            title: "Key Prerequisite",
+            text: "You need access to your store's backend, the ability to install tracking tools, and a few hours per week for implementation. Reading about SEO without doing the work produces nothing.",
+          },
         },
         {
           title: "Stages 1 to 3: Building Your Foundation",
+          image: {
+            src: "/images/academy/seo-learning-roadmap-stages.svg",
+            alt: "Timeline diagram showing the 9-stage ecommerce SEO learning path from search mechanics through measurement, with time estimates for each phase",
+            caption: "The full roadmap spans 6+ months. Stages 1-3 build your foundation. Stages 8-9 are ongoing processes that never stop.",
+          },
           content:
             "Stage 1 is understanding how Google actually works for ecommerce. Not the simplified version, but how Googlebot discovers product pages, why crawl budget matters when you have 50,000 URLs, and what the rendering queue means for JavaScript-heavy storefronts. You cannot make good SEO decisions without understanding the mechanics. Most stores we audit have technical problems rooted in a fundamental misunderstanding of how search engines process their pages.\n\nStage 2 is setting up your measurement infrastructure. That means Google Search Console verified and connected, Google Analytics 4 configured with ecommerce tracking, and a proper site audit using a crawler like Screaming Frog or Sitebulb. We have walked into stores that had been running for three years without Search Console access. They had no idea which pages were indexed, which queries drove traffic, or whether Google was even finding half their catalog.\n\nStage 3 is your first technical audit. You run the crawler, export the data, and identify the top issues: broken pages, missing titles, duplicate meta descriptions, orphan pages with no internal links, and crawl depth problems where products sit five or more clicks from the homepage. This audit becomes your project backlog for the next several months.",
           items: [
@@ -48,6 +57,10 @@ export const seoLearningRoadmap: AcademyTopic = {
             "Audit title tags and meta descriptions across your top 50 revenue pages",
           ],
           tip: "Map one primary keyword per page. When two pages target the same term, Google has to choose which one to rank, and it often picks neither. Cannibalization is one of the most common problems we see in store audits.",
+          callout: {
+            title: "Revenue Over Volume",
+            text: "A keyword with 200 monthly searches and 4 EUR CPC is often worth more than one with 5,000 searches and 0.10 EUR CPC. Sort your keyword list by revenue potential, not raw search volume.",
+          },
         },
         {
           title: "Stages 6 and 7: Technical SEO and Content Strategy",
@@ -76,6 +89,11 @@ export const seoLearningRoadmap: AcademyTopic = {
         },
         {
           title: "Making This Roadmap Work in Practice",
+          image: {
+            src: "/images/academy/seo-roadmap-priority.svg",
+            alt: "Decision tree showing how to prioritize SEO work based on audit findings: fix technical issues first, then optimize page-two rankings, then build content for authority",
+            caption: "Let your audit data guide the sequence. Fix the biggest blockers first, not the easiest tasks.",
+          },
           content:
             "The biggest mistake teams make with a roadmap like this is trying to do everything at once. Stages 1 through 3 should take four to six weeks. Stages 4 and 5 need another four to six weeks. Stages 6 and 7 run in parallel over two to three months. Stages 8 and 9 are ongoing and never really finish. If you try to compress all of this into a single month, you will cut corners on the foundation and spend the next year fixing the consequences.\n\nPrioritize based on impact. If your site audit reveals that 40% of your product pages return 404 errors, fixing that comes before keyword research. If your category pages already rank on page two for valuable terms, on-page optimization will move the needle faster than starting a blog. Let the data guide the sequence, not a generic checklist.\n\nFinally, accept that SEO results take time. You will not see meaningful organic revenue growth for three to six months after starting. That is normal. The stores that succeed are the ones that commit to the process, execute consistently, and resist the temptation to abandon the plan when results are not immediate. After twelve months of disciplined execution, organic search typically becomes the highest-ROI channel in the marketing mix.",
         },
@@ -102,6 +120,10 @@ export const seoLearningRoadmap: AcademyTopic = {
             "Junior-SEOs, die in den Ecommerce-Bereich wechseln",
             "Alle, die fragmentierte SEO-Ratschlaege satt haben, die nie ein System ergeben",
           ],
+          callout: {
+            title: "Wichtige Voraussetzung",
+            text: "Sie benötigen Zugang zum Backend Ihres Shops, zur Google Search Console und zu Google Analytics. Ohne diese können Sie weder diagnostizieren noch messen.",
+          },
         },
         {
           title: "Stufe 1 bis 3: Das Fundament aufbauen",
@@ -114,6 +136,11 @@ export const seoLearningRoadmap: AcademyTopic = {
             "Fuehren Sie einen vollstaendigen Site-Crawl durch und exportieren Sie Ihren ersten Audit-Bericht",
             "Identifizieren und priorisieren Sie die 20 wichtigsten technischen Probleme aus dem Audit",
           ],
+          image: {
+            src: "/images/academy/de/seo-learning-roadmap-stages.svg",
+            alt: "Zeitstrahldiagramm mit dem 9-stufigen Ecommerce-SEO-Lernpfad von der Suchmechanik bis zur Messung, mit Zeitschätzungen für jede Phase",
+            caption: "Die gesamte Roadmap erstreckt sich über 6+ Monate. Stufen 1-3 bilden Ihr Fundament. Stufen 8-9 sind fortlaufende Prozesse.",
+          },
           tip: "Ueberspringen Sie das Audit nicht. Wir haben Teams erlebt, die direkt zur Keyword-Recherche gesprungen sind und Monate damit verbracht haben, Seiten zu optimieren, die Google nicht einmal indexiert hat. Reparieren Sie die Leitungen, bevor Sie renovieren.",
         },
         {
@@ -127,6 +154,10 @@ export const seoLearningRoadmap: AcademyTopic = {
             "Optimieren Sie Kategorieseiten-Titel, Einleitungen und Ueberschriftenstrukturen",
             "Ueberpruefen Sie Title-Tags und Meta-Beschreibungen Ihrer Top-50-Umsatzseiten",
           ],
+          callout: {
+            title: "Umsatz vor Volumen",
+            text: "Ein Keyword mit 200 monatlichen Suchen und 4\u00a0EUR CPC ist oft wertvoller als eines mit 5.000 Suchen und 0,10\u00a0EUR CPC. Sortieren Sie Ihre Keyword-Liste nach Umsatzpotenzial, nicht nach reinem Suchvolumen.",
+          },
           tip: "Weisen Sie ein primaeres Keyword pro Seite zu. Wenn zwei Seiten auf denselben Begriff abzielen, muss Google entscheiden, welche ranken soll, und waehlt oft keine. Kannibalisierung ist eines der haeufigsten Probleme, die wir in Shop-Audits sehen.",
         },
         {
@@ -158,6 +189,11 @@ export const seoLearningRoadmap: AcademyTopic = {
           title: "Diese Roadmap in der Praxis umsetzen",
           content:
             "Der groesste Fehler, den Teams mit einer solchen Roadmap machen, ist, alles gleichzeitig tun zu wollen. Stufe 1 bis 3 sollten vier bis sechs Wochen dauern. Stufe 4 und 5 brauchen weitere vier bis sechs Wochen. Stufe 6 und 7 laufen parallel ueber zwei bis drei Monate. Stufe 8 und 9 sind fortlaufend und hoeren eigentlich nie auf. Wenn Sie versuchen, all das in einen einzigen Monat zu pressen, werden Sie beim Fundament Abstriche machen und das naechste Jahr damit verbringen, die Konsequenzen zu beheben.\n\nPriorisieren Sie nach Wirkung. Wenn Ihr Site-Audit zeigt, dass 40 % Ihrer Produktseiten 404-Fehler zurueckgeben, hat das Vorrang vor der Keyword-Recherche. Wenn Ihre Kategorieseiten bereits auf Seite zwei fuer wertvolle Begriffe ranken, wird On-Page-Optimierung schneller Ergebnisse bringen als einen Blog zu starten. Lassen Sie die Daten die Reihenfolge bestimmen, nicht eine generische Checkliste.\n\nAkzeptieren Sie schliesslich, dass SEO-Ergebnisse Zeit brauchen. Sie werden drei bis sechs Monate nach dem Start kein bedeutendes organisches Umsatzwachstum sehen. Das ist normal. Die Shops, die erfolgreich sind, sind diejenigen, die sich dem Prozess verpflichten, konsequent umsetzen und der Versuchung widerstehen, den Plan aufzugeben, wenn Ergebnisse nicht sofort kommen. Nach zwoelf Monaten disziplinierter Umsetzung wird organische Suche typischerweise zum Kanal mit dem hoechsten ROI im Marketing-Mix.",
+          image: {
+            src: "/images/academy/de/seo-roadmap-priority.svg",
+            alt: "Entscheidungsbaum zur Priorisierung von SEO-Arbeit basierend auf Audit-Ergebnissen",
+            caption: "Lassen Sie Ihre Audit-Daten die Reihenfolge bestimmen. Beheben Sie die größten Blocker zuerst.",
+          },
         },
       ],
       navLabels: {
@@ -182,6 +218,10 @@ export const seoLearningRoadmap: AcademyTopic = {
             "SEO juniors en transition vers le secteur ecommerce",
             "Tous ceux qui en ont assez des conseils SEO fragmentes qui ne forment jamais un systeme",
           ],
+          callout: {
+            title: "Wichtige Voraussetzung",
+            text: "Sie benötigen Zugang zum Backend Ihres Shops, zur Google Search Console und zu Google Analytics. Ohne diese können Sie weder diagnostizieren noch messen.",
+          },
         },
         {
           title: "Etapes 1 a 3 : Construire les fondations",
@@ -195,6 +235,11 @@ export const seoLearningRoadmap: AcademyTopic = {
             "Identifiez et priorisez les 20 principaux problemes techniques de l'audit",
           ],
           tip: "Ne sautez pas l'audit. Nous avons vu des equipes passer directement a la [recherche de mots-cles](/academy/keyword-research-for-ecommerce) et passer des mois a optimiser des pages que Google n'indexait meme pas. Reparez la plomberie avant de redecorer.",
+          image: {
+            src: "/images/academy/fr/seo-learning-roadmap-stages.svg",
+            alt: "Zeitstrahldiagramm mit dem 9-stufigen Ecommerce-SEO-Lernpfad von der Suchmechanik bis zur Messung, mit Zeitschätzungen für jede Phase",
+            caption: "Die gesamte Roadmap erstreckt sich über 6+ Monate. Stufen 1-3 bilden Ihr Fundament. Stufen 8-9 sind fortlaufende Prozesse.",
+          },
         },
         {
           title: "Etapes 4 et 5 : Mots-cles et optimisation on-page",
@@ -208,6 +253,10 @@ export const seoLearningRoadmap: AcademyTopic = {
             "Auditez les title tags et meta descriptions de vos 50 pages a plus fort revenu",
           ],
           tip: "Assignez un mot-cle principal par page. Quand deux pages ciblent le meme terme, Google doit choisir laquelle positionner, et il ne choisit souvent aucune des deux. La cannibalisation est l'un des problemes les plus courants que nous voyons dans les audits de boutiques.",
+          callout: {
+            title: "Umsatz vor Volumen",
+            text: "Ein Keyword mit 200 monatlichen Suchen und 4\u00a0EUR CPC ist oft wertvoller als eines mit 5.000 Suchen und 0,10\u00a0EUR CPC. Sortieren Sie Ihre Keyword-Liste nach Umsatzpotenzial, nicht nach reinem Suchvolumen.",
+          },
         },
         {
           title: "Etapes 6 et 7 : SEO technique et strategie de contenu",
@@ -238,6 +287,11 @@ export const seoLearningRoadmap: AcademyTopic = {
           title: "Faire fonctionner cette feuille de route en pratique",
           content:
             "La plus grande erreur des equipes avec une feuille de route comme celle-ci est d'essayer de tout faire en meme temps. Les etapes 1 a 3 devraient prendre quatre a six semaines. Les etapes 4 et 5 necessitent quatre a six semaines supplementaires. Les etapes 6 et 7 se deroulent en parallele sur deux a trois mois. Les etapes 8 et 9 sont continues et ne finissent jamais vraiment. Si vous essayez de tout compresser en un seul mois, vous couperez les coins sur les fondations et passerez l'annee suivante a corriger les consequences.\n\nPriorisez selon l'impact. Si votre audit de site revele que 40 % de vos pages produits retournent des erreurs 404, corriger cela passe avant la recherche de mots-cles. Si vos pages categories se positionnent deja en page deux pour des termes precieux, l'optimisation on-page fera bouger les choses plus vite que de lancer un blog. Laissez les donnees guider la sequence, pas une checklist generique.\n\nEnfin, acceptez que les resultats SEO prennent du temps. Vous ne verrez pas de croissance significative du chiffre d'affaires organique avant trois a six mois apres le demarrage. C'est normal. Les boutiques qui reussissent sont celles qui s'engagent dans le processus, executent de maniere constante et resistent a la tentation d'abandonner le plan quand les resultats ne sont pas immediats. Apres douze mois d'execution disciplinee, la recherche organique devient typiquement le canal au meilleur ROI du mix marketing.",
+          image: {
+            src: "/images/academy/fr/seo-roadmap-priority.svg",
+            alt: "Entscheidungsbaum zur Priorisierung von SEO-Arbeit basierend auf Audit-Ergebnissen",
+            caption: "Lassen Sie Ihre Audit-Daten die Reihenfolge bestimmen. Beheben Sie die größten Blocker zuerst.",
+          },
         },
       ],
       navLabels: {
@@ -262,6 +316,10 @@ export const seoLearningRoadmap: AcademyTopic = {
             "SEOs junior en transicion al sector ecommerce",
             "Cualquiera cansado de consejos SEO fragmentados que nunca forman un sistema",
           ],
+          callout: {
+            title: "Wichtige Voraussetzung",
+            text: "Sie benötigen Zugang zum Backend Ihres Shops, zur Google Search Console und zu Google Analytics. Ohne diese können Sie weder diagnostizieren noch messen.",
+          },
         },
         {
           title: "Etapas 1 a 3: Construir los cimientos",
@@ -275,6 +333,11 @@ export const seoLearningRoadmap: AcademyTopic = {
             "Identifica y prioriza los 20 problemas tecnicos principales de la auditoria",
           ],
           tip: "No te saltes la auditoria. Hemos visto equipos saltar directamente a la investigacion de palabras clave y pasar meses optimizando paginas que Google ni siquiera estaba indexando. Arregla las tuberias antes de redecorar.",
+          image: {
+            src: "/images/academy/es/seo-learning-roadmap-stages.svg",
+            alt: "Zeitstrahldiagramm mit dem 9-stufigen Ecommerce-SEO-Lernpfad von der Suchmechanik bis zur Messung, mit Zeitschätzungen für jede Phase",
+            caption: "Die gesamte Roadmap erstreckt sich über 6+ Monate. Stufen 1-3 bilden Ihr Fundament. Stufen 8-9 sind fortlaufende Prozesse.",
+          },
         },
         {
           title: "Etapas 4 y 5: Palabras clave y optimizacion on-page",
@@ -288,6 +351,10 @@ export const seoLearningRoadmap: AcademyTopic = {
             "Audita title tags y meta descripciones en tus 50 paginas de mayor ingreso",
           ],
           tip: "Asigna una palabra clave principal por pagina. Cuando dos paginas apuntan al mismo termino, Google tiene que elegir cual posicionar, y a menudo no elige ninguna. La canibalizacion es uno de los problemas mas comunes que vemos en auditorias de tiendas.",
+          callout: {
+            title: "Umsatz vor Volumen",
+            text: "Ein Keyword mit 200 monatlichen Suchen und 4\u00a0EUR CPC ist oft wertvoller als eines mit 5.000 Suchen und 0,10\u00a0EUR CPC. Sortieren Sie Ihre Keyword-Liste nach Umsatzpotenzial, nicht nach reinem Suchvolumen.",
+          },
         },
         {
           title: "Etapas 6 y 7: SEO tecnico y estrategia de contenido",
@@ -318,6 +385,11 @@ export const seoLearningRoadmap: AcademyTopic = {
           title: "Hacer funcionar esta hoja de ruta en la practica",
           content:
             "El mayor error que cometen los equipos con una hoja de ruta como esta es intentar hacerlo todo a la vez. Las etapas 1 a 3 deberian llevar de cuatro a seis semanas. Las etapas 4 y 5 necesitan otras cuatro a seis semanas. Las etapas 6 y 7 se ejecutan en paralelo durante dos a tres meses. Las etapas 8 y 9 son continuas y nunca terminan realmente. Si intentas comprimir todo esto en un solo mes, recortaras en los cimientos y pasaras el proximo ano arreglando las consecuencias.\n\nPrioriza segun el impacto. Si tu auditoria de sitio revela que el 40 % de tus paginas de producto devuelven errores 404, arreglar eso va antes que la investigacion de palabras clave. Si tus paginas de categoria ya se posicionan en la segunda pagina para terminos valiosos, la optimizacion on-page movera la aguja mas rapido que empezar un blog. Deja que los datos guien la secuencia, no una checklist generica.\n\nFinalmente, acepta que los resultados SEO llevan tiempo. No veras crecimiento significativo de ingresos organicos durante tres a seis meses despues de empezar. Eso es normal. Las tiendas que tienen exito son las que se comprometen con el proceso, ejecutan de forma consistente y resisten la tentacion de abandonar el plan cuando los resultados no son inmediatos. Despues de doce meses de ejecucion disciplinada, la busqueda organica se convierte tipicamente en el canal con mayor ROI del mix de marketing.",
+          image: {
+            src: "/images/academy/es/seo-roadmap-priority.svg",
+            alt: "Entscheidungsbaum zur Priorisierung von SEO-Arbeit basierend auf Audit-Ergebnissen",
+            caption: "Lassen Sie Ihre Audit-Daten die Reihenfolge bestimmen. Beheben Sie die größten Blocker zuerst.",
+          },
         },
       ],
       navLabels: {
@@ -342,6 +414,10 @@ export const seoLearningRoadmap: AcademyTopic = {
             "SEO junior in transizione verso il settore ecommerce",
             "Chiunque sia stanco di consigli SEO frammentati che non formano mai un sistema",
           ],
+          callout: {
+            title: "Wichtige Voraussetzung",
+            text: "Sie benötigen Zugang zum Backend Ihres Shops, zur Google Search Console und zu Google Analytics. Ohne diese können Sie weder diagnostizieren noch messen.",
+          },
         },
         {
           title: "Fasi 1 a 3: Costruire le fondamenta",
@@ -355,6 +431,11 @@ export const seoLearningRoadmap: AcademyTopic = {
             "Identifica e dai priorita ai 20 principali problemi tecnici dall'audit",
           ],
           tip: "Non saltare l'audit. Abbiamo visto team passare direttamente alla [ricerca keyword](/academy/keyword-research-for-ecommerce) e passare mesi a ottimizzare pagine che Google non stava nemmeno indicizzando. Ripara l'impianto prima di ridecorare.",
+          image: {
+            src: "/images/academy/it/seo-learning-roadmap-stages.svg",
+            alt: "Zeitstrahldiagramm mit dem 9-stufigen Ecommerce-SEO-Lernpfad von der Suchmechanik bis zur Messung, mit Zeitschätzungen für jede Phase",
+            caption: "Die gesamte Roadmap erstreckt sich über 6+ Monate. Stufen 1-3 bilden Ihr Fundament. Stufen 8-9 sind fortlaufende Prozesse.",
+          },
         },
         {
           title: "Fasi 4 e 5: Keyword e ottimizzazione on-page",
@@ -368,6 +449,10 @@ export const seoLearningRoadmap: AcademyTopic = {
             "Audita title tag e meta description sulle tue 50 pagine con maggior fatturato",
           ],
           tip: "Assegna una keyword principale per pagina. Quando due pagine puntano allo stesso termine, Google deve scegliere quale posizionare, e spesso non sceglie nessuna delle due. La cannibalizzazione e uno dei problemi piu comuni che vediamo negli audit dei negozi.",
+          callout: {
+            title: "Umsatz vor Volumen",
+            text: "Ein Keyword mit 200 monatlichen Suchen und 4\u00a0EUR CPC ist oft wertvoller als eines mit 5.000 Suchen und 0,10\u00a0EUR CPC. Sortieren Sie Ihre Keyword-Liste nach Umsatzpotenzial, nicht nach reinem Suchvolumen.",
+          },
         },
         {
           title: "Fasi 6 e 7: SEO tecnica e strategia dei contenuti",
@@ -398,6 +483,11 @@ export const seoLearningRoadmap: AcademyTopic = {
           title: "Far funzionare questa roadmap nella pratica",
           content:
             "L'errore piu grande che i team commettono con una roadmap come questa e cercare di fare tutto contemporaneamente. Le fasi 1-3 dovrebbero richiedere da quattro a sei settimane. Le fasi 4 e 5 necessitano di altre quattro-sei settimane. Le fasi 6 e 7 si svolgono in parallelo per due-tre mesi. Le fasi 8 e 9 sono continue e non finiscono mai davvero. Se provi a comprimere tutto questo in un singolo mese, taglierai le fondamenta e passerai l'anno successivo a correggere le conseguenze.\n\nDai priorita in base all'impatto. Se il tuo audit del sito rivela che il 40% delle tue pagine prodotto restituisce errori 404, correggere quello viene prima della ricerca keyword. Se le tue pagine categoria si posizionano gia in seconda pagina per termini di valore, l'ottimizzazione on-page fara muovere l'ago piu velocemente che avviare un blog. Lascia che i dati guidino la sequenza, non una checklist generica.\n\nInfine, accetta che i risultati SEO richiedono tempo. Non vedrai una crescita significativa del fatturato organico per tre-sei mesi dopo l'inizio. E normale. I negozi che hanno successo sono quelli che si impegnano nel processo, eseguono con costanza e resistono alla tentazione di abbandonare il piano quando i risultati non sono immediati. Dopo dodici mesi di esecuzione disciplinata, la ricerca organica diventa tipicamente il canale con il miglior ROI nel marketing mix.",
+          image: {
+            src: "/images/academy/it/seo-roadmap-priority.svg",
+            alt: "Entscheidungsbaum zur Priorisierung von SEO-Arbeit basierend auf Audit-Ergebnissen",
+            caption: "Lassen Sie Ihre Audit-Daten die Reihenfolge bestimmen. Beheben Sie die größten Blocker zuerst.",
+          },
         },
       ],
       navLabels: {
@@ -422,6 +512,10 @@ export const seoLearningRoadmap: AcademyTopic = {
             "Junior SEO's die overstappen naar de ecommerce-sector",
             "Iedereen die gefragmenteerde SEO-adviezen zat is die nooit een systeem vormen",
           ],
+          callout: {
+            title: "Wichtige Voraussetzung",
+            text: "Sie benötigen Zugang zum Backend Ihres Shops, zur Google Search Console und zu Google Analytics. Ohne diese können Sie weder diagnostizieren noch messen.",
+          },
         },
         {
           title: "Fase 1 tot 3: Het fundament bouwen",
@@ -435,6 +529,11 @@ export const seoLearningRoadmap: AcademyTopic = {
             "Identificeer en prioriteer de top 20 technische problemen uit de audit",
           ],
           tip: "Sla de audit niet over. We hebben teams gezien die direct naar zoekwoordonderzoek sprongen en maanden besteedden aan het optimaliseren van pagina's die Google niet eens indexeerde. Repareer de leidingen voor je gaat verven.",
+          image: {
+            src: "/images/academy/nl/seo-learning-roadmap-stages.svg",
+            alt: "Zeitstrahldiagramm mit dem 9-stufigen Ecommerce-SEO-Lernpfad von der Suchmechanik bis zur Messung, mit Zeitschätzungen für jede Phase",
+            caption: "Die gesamte Roadmap erstreckt sich über 6+ Monate. Stufen 1-3 bilden Ihr Fundament. Stufen 8-9 sind fortlaufende Prozesse.",
+          },
         },
         {
           title: "Fase 4 en 5: Zoekwoorden en on-page optimalisatie",
@@ -448,6 +547,10 @@ export const seoLearningRoadmap: AcademyTopic = {
             "Audit title tags en meta-beschrijvingen op je top 50 omzetpagina's",
           ],
           tip: "Wijs een primair zoekwoord per pagina toe. Wanneer twee pagina's op dezelfde term mikken, moet Google kiezen welke moet ranken, en kiest het vaak geen van beide. Kannibalisatie is een van de meest voorkomende problemen die we zien in webshop-audits.",
+          callout: {
+            title: "Umsatz vor Volumen",
+            text: "Ein Keyword mit 200 monatlichen Suchen und 4\u00a0EUR CPC ist oft wertvoller als eines mit 5.000 Suchen und 0,10\u00a0EUR CPC. Sortieren Sie Ihre Keyword-Liste nach Umsatzpotenzial, nicht nach reinem Suchvolumen.",
+          },
         },
         {
           title: "Fase 6 en 7: Technische SEO en contentstrategie",
@@ -478,6 +581,11 @@ export const seoLearningRoadmap: AcademyTopic = {
           title: "Deze roadmap laten werken in de praktijk",
           content:
             "De grootste fout die teams maken met een roadmap als deze is alles tegelijk proberen te doen. Fase 1 tot 3 zou vier tot zes weken moeten duren. Fase 4 en 5 hebben nog eens vier tot zes weken nodig. Fase 6 en 7 lopen parallel over twee tot drie maanden. Fase 8 en 9 zijn doorlopend en stoppen eigenlijk nooit. Als je probeert dit alles in een enkele maand te persen, bezuinig je op het fundament en besteed je het volgende jaar aan het herstellen van de gevolgen.\n\nPrioriteer op basis van impact. Als je site-audit onthult dat 40% van je productpagina's 404-fouten retourneren, heeft dat voorrang boven zoekwoordonderzoek. Als je categoriepagina's al op pagina twee staan voor waardevolle termen, zal on-page optimalisatie sneller resultaat opleveren dan een blog starten. Laat de data de volgorde bepalen, niet een generieke checklist.\n\nTot slot, accepteer dat SEO-resultaten tijd kosten. Je zult drie tot zes maanden na de start geen betekenisvolle organische omzetgroei zien. Dat is normaal. De webshops die slagen zijn degenen die zich aan het proces committeren, consistent uitvoeren en de verleiding weerstaan om het plan op te geven wanneer resultaten niet onmiddellijk komen. Na twaalf maanden gedisciplineerde uitvoering wordt organisch zoeken doorgaans het kanaal met het hoogste ROI in de marketingmix.",
+          image: {
+            src: "/images/academy/nl/seo-roadmap-priority.svg",
+            alt: "Entscheidungsbaum zur Priorisierung von SEO-Arbeit basierend auf Audit-Ergebnissen",
+            caption: "Lassen Sie Ihre Audit-Daten die Reihenfolge bestimmen. Beheben Sie die größten Blocker zuerst.",
+          },
         },
       ],
       navLabels: {

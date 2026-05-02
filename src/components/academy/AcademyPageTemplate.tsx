@@ -284,13 +284,12 @@ function AcademyBlockRenderer({ block }: { block: AcademyBlock }) {
     case "image":
       return (
         <figure className="rounded-xl overflow-hidden border border-border">
-          <div className="relative w-full" style={{ aspectRatio: "16/9" }}>
-            <Image
+          <div className="relative w-full p-4 bg-[#0a0a1a]">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
               src={block.src}
               alt={block.alt}
-              fill
-              className="object-cover"
-              sizes="(max-width: 768px) 100vw, 720px"
+              className="w-full h-auto min-h-[120px]"
             />
           </div>
           {block.caption && (

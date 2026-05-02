@@ -6,6 +6,10 @@ import GlowEffect from "@/components/ui/GlowEffect";
 import { buildPageMetadata } from "@/lib/i18n/metadata";
 import type { Locale } from "@/lib/i18n/config";
 import { clientDashboardT } from "@/lib/i18n/translations/clientDashboard";
+
+export const dynamic = 'force-dynamic';
+
+
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   return buildPageMetadata(locale as Locale, "/client-dashboard");

@@ -217,7 +217,7 @@ export const bigcommerceSeoData: Record<Locale, ServicePageProps> = {
           name: "Fabian van Til",
           role: "Strategy & Innovation",
           bio: "Fabian runs the SEO strategy for every BigCommerce client. 8 years focused exclusively on ecommerce SEO. He owns the roadmap and decides what gets prioritized.",
-          image: "/images/framer/C23VbBxvj2kY5TMoXAJHXWVLaA.webp",
+          image: "/images/framer/fabian-van-til-new.jpeg",
           linkedin: "https://www.linkedin.com/in/fabianvantil/",
         },
         teamMembers: [
@@ -226,7 +226,7 @@ export const bigcommerceSeoData: Record<Locale, ServicePageProps> = {
             role: "Technical & On-Page SEO",
             bio: "Dimitar handles the technical and on-page SEO. He works on platform optimization, structured data, and site architecture. He also builds the free SEO tools on this site.",
             image: "/images/framer/Q3tfuu2ytPAotONsFoP1ouyPZic.png",
-            linkedin: "https://www.linkedin.com/in/dimitar-georgiev-seo/",
+            linkedin: "https://bg.linkedin.com/in/dimitar-georgiev-seo-expert",
           },
           {
             name: "Martinijan Trajkovski",
@@ -516,7 +516,7 @@ export const bigcommerceSeoData: Record<Locale, ServicePageProps> = {
           name: "Fabian van Til",
           role: "Strategie & Innovation",
           bio: "Fabian verantwortet die strategische Ausrichtung aller BigCommerce-Projekte. Über 8 Jahre E-Commerce-SEO-Erfahrung in Mode, Gesundheit, Beauty und Wohnaccessoires. Er verbindet Wachstumsstrategie mit technischer SEO-Innovation.",
-          image: "/images/framer/C23VbBxvj2kY5TMoXAJHXWVLaA.webp",
+          image: "/images/framer/fabian-van-til-new.jpeg",
           linkedin: "https://www.linkedin.com/in/fabianvantil/",
         },
         teamMembers: [
@@ -525,7 +525,7 @@ export const bigcommerceSeoData: Record<Locale, ServicePageProps> = {
             role: "Technical & On-Page SEO",
             bio: "Entwirft die technischen SEO-Grundlagen und On-Page-Optimierungen. Spezialisiert auf E-Commerce-Plattform-Optimierung, strukturierte Daten und Website-Architektur. Entwickelt die kostenlosen SEO-Tools auf dieser Website.",
             image: "/images/framer/Q3tfuu2ytPAotONsFoP1ouyPZic.png",
-            linkedin: "https://www.linkedin.com/in/dimitar-georgiev-seo/",
+            linkedin: "https://bg.linkedin.com/in/dimitar-georgiev-seo-expert",
           },
           {
             name: "Martinijan Trajkovski",
@@ -815,7 +815,7 @@ export const bigcommerceSeoData: Record<Locale, ServicePageProps> = {
           name: "Fabian van Til",
           role: "Stratégie & Innovation",
           bio: "Fabian dirige tous les projets clients. Plus de 8 ans d\u2019expérience en SEO e-commerce dans la mode, la santé, la beauté et la décoration. Il allie stratégie de croissance et innovation SEO technique.",
-          image: "/images/framer/C23VbBxvj2kY5TMoXAJHXWVLaA.webp",
+          image: "/images/framer/fabian-van-til-new.jpeg",
           linkedin: "https://www.linkedin.com/in/fabianvantil/",
         },
         teamMembers: [
@@ -824,7 +824,7 @@ export const bigcommerceSeoData: Record<Locale, ServicePageProps> = {
             role: "Technical & On-Page SEO",
             bio: "Architecte des fondations SEO techniques et on-page. Spécialisé dans l\u2019optimisation des plateformes e-commerce, les données structurées et l\u2019architecture de site. Développe les outils SEO gratuits de ce site.",
             image: "/images/framer/Q3tfuu2ytPAotONsFoP1ouyPZic.png",
-            linkedin: "https://www.linkedin.com/in/dimitar-georgiev-seo/",
+            linkedin: "https://bg.linkedin.com/in/dimitar-georgiev-seo-expert",
           },
           {
             name: "Martinijan Trajkovski",
@@ -1114,7 +1114,7 @@ export const bigcommerceSeoData: Record<Locale, ServicePageProps> = {
           name: "Fabian van Til",
           role: "Estrategia e Innovación",
           bio: "Fabian dirige la estrategia de todos los proyectos con clientes. M\u00e1s de 8 a\u00f1os de experiencia en SEO e-commerce en moda, salud, belleza y hogar. Combina estrategia de crecimiento con innovaci\u00f3n t\u00e9cnica en SEO.",
-          image: "/images/framer/C23VbBxvj2kY5TMoXAJHXWVLaA.webp",
+          image: "/images/framer/fabian-van-til-new.jpeg",
           linkedin: "https://www.linkedin.com/in/fabianvantil/",
         },
         teamMembers: [
@@ -1123,7 +1123,7 @@ export const bigcommerceSeoData: Record<Locale, ServicePageProps> = {
             role: "Technical & On-Page SEO",
             bio: "Diseña las bases técnicas de SEO y on-page. Especializado en optimización de plataformas e-commerce, datos estructurados y arquitectura de sitios. Desarrolla las herramientas SEO gratuitas de este sitio.",
             image: "/images/framer/Q3tfuu2ytPAotONsFoP1ouyPZic.png",
-            linkedin: "https://www.linkedin.com/in/dimitar-georgiev-seo/",
+            linkedin: "https://bg.linkedin.com/in/dimitar-georgiev-seo-expert",
           },
           {
             name: "Martinijan Trajkovski",
@@ -1413,7 +1413,7 @@ export const bigcommerceSeoData: Record<Locale, ServicePageProps> = {
           name: "Fabian van Til",
           role: "Strategia e Innovazione",
           bio: "Fabian definisce la strategia di ogni progetto cliente. Oltre 8 anni di esperienza SEO e-commerce in moda, salute, beauty e arredamento. Unisce strategia di crescita e innovazione SEO tecnica.",
-          image: "/images/framer/C23VbBxvj2kY5TMoXAJHXWVLaA.webp",
+          image: "/images/framer/fabian-van-til-new.jpeg",
           linkedin: "https://www.linkedin.com/in/fabianvantil/",
         },
         teamMembers: [
@@ -1422,7 +1422,7 @@ export const bigcommerceSeoData: Record<Locale, ServicePageProps> = {
             role: "Technical & On-Page SEO",
             bio: "Dimitar progetta le fondamenta tecniche e on-page della SEO. Specializzato nell\u2019ottimizzazione delle piattaforme e-commerce, nei dati strutturati e nell\u2019architettura dei siti. Sviluppa gli strumenti SEO gratuiti di questo sito.",
             image: "/images/framer/Q3tfuu2ytPAotONsFoP1ouyPZic.png",
-            linkedin: "https://www.linkedin.com/in/dimitar-georgiev-seo/",
+            linkedin: "https://bg.linkedin.com/in/dimitar-georgiev-seo-expert",
           },
           {
             name: "Martinijan Trajkovski",
@@ -1712,7 +1712,7 @@ export const bigcommerceSeoData: Record<Locale, ServicePageProps> = {
           name: "Fabian van Til",
           role: "Strategie & Innovatie",
           bio: "Fabian leidt de strategische richting van alle klantprojecten. Met meer dan 8 jaar e-commerce-SEO-ervaring in mode, gezondheid, beauty en woondecoratie combineert hij groeistrategie met technische SEO-innovatie.",
-          image: "/images/framer/C23VbBxvj2kY5TMoXAJHXWVLaA.webp",
+          image: "/images/framer/fabian-van-til-new.jpeg",
           linkedin: "https://www.linkedin.com/in/fabianvantil/",
         },
         teamMembers: [
@@ -1721,7 +1721,7 @@ export const bigcommerceSeoData: Record<Locale, ServicePageProps> = {
             role: "Technical & On-Page SEO",
             bio: "Dimitar ontwerpt de technische SEO-fundamenten en on-page optimalisaties. Hij is gespecialiseerd in e-commerceplatform-optimalisatie, gestructureerde data en site-architectuur, en bouwt de gratis SEO-tools op deze website.",
             image: "/images/framer/Q3tfuu2ytPAotONsFoP1ouyPZic.png",
-            linkedin: "https://www.linkedin.com/in/dimitar-georgiev-seo/",
+            linkedin: "https://bg.linkedin.com/in/dimitar-georgiev-seo-expert",
           },
           {
             name: "Martinijan Trajkovski",

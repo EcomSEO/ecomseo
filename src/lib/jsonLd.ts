@@ -208,8 +208,9 @@ export function articleJsonLd(params: {
     ...(params.wordCount ? { wordCount: params.wordCount } : {}),
     author: {
       "@type": "Person",
+      "@id": `${BASE_URL}/team/fabian-van-til#person`,
       name: authorName,
-      url: authorUrl,
+      url: `${BASE_URL}/team/fabian-van-til`,
     },
     publisher: {
       "@type": "Organization",
@@ -342,14 +343,22 @@ export function personJsonLd(params: {
   image?: string;
   sameAs?: string[];
 }) {
+  // Ensure image is always an absolute URL
+  const absoluteImage = params.image
+    ? params.image.startsWith("http")
+      ? params.image
+      : `${BASE_URL}${params.image}`
+    : undefined;
+
   return {
     "@context": "https://schema.org",
     "@type": "Person",
+    "@id": `${params.url}#person`,
     name: params.name,
     jobTitle: params.jobTitle,
     description: params.description,
     url: params.url,
-    ...(params.image ? { image: params.image } : {}),
+    ...(absoluteImage ? { image: absoluteImage } : {}),
     ...(params.sameAs && params.sameAs.length > 0
       ? { sameAs: params.sameAs }
       : {}),

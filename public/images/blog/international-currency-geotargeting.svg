@@ -1,0 +1,30 @@
+<svg viewBox="0 0 680 280" xmlns="http://www.w3.org/2000/svg" fill="none" font-family="Arial,sans-serif">
+  <text x="340" y="28" text-anchor="middle" fill="#a78bfa" font-size="14" font-weight="bold">Currency, Pricing, and Geo-Targeting Setup</text>
+  <!-- Three pillars -->
+  <rect x="20" y="52" width="200" height="100" rx="8" stroke="#4ade80" stroke-width="2"/>
+  <text x="120" y="72" text-anchor="middle" fill="#4ade80" font-size="11" font-weight="bold">Currency Display</text>
+  <text x="120" y="90" text-anchor="middle" fill="#e2e8f0" font-size="9">Show local currency to users</text>
+  <text x="120" y="106" text-anchor="middle" fill="#e2e8f0" font-size="9">Include currency in schema</text>
+  <text x="120" y="122" text-anchor="middle" fill="#e2e8f0" font-size="9">priceCurrency: "EUR", "GBP"</text>
+  <text x="120" y="140" text-anchor="middle" fill="#4ade80" font-size="8">Never auto-redirect by IP</text>
+  <rect x="240" y="52" width="200" height="100" rx="8" stroke="#60a5fa" stroke-width="2"/>
+  <text x="340" y="72" text-anchor="middle" fill="#60a5fa" font-size="11" font-weight="bold">Geo-Targeting</text>
+  <text x="340" y="90" text-anchor="middle" fill="#e2e8f0" font-size="9">GSC international targeting</text>
+  <text x="340" y="106" text-anchor="middle" fill="#e2e8f0" font-size="9">Hreflang for language+country</text>
+  <text x="340" y="122" text-anchor="middle" fill="#e2e8f0" font-size="9">Server location near market</text>
+  <text x="340" y="140" text-anchor="middle" fill="#60a5fa" font-size="8">Suggest language via banner</text>
+  <rect x="460" y="52" width="200" height="100" rx="8" stroke="#f97316" stroke-width="2"/>
+  <text x="560" y="72" text-anchor="middle" fill="#f97316" font-size="11" font-weight="bold">Local Pricing</text>
+  <text x="560" y="90" text-anchor="middle" fill="#e2e8f0" font-size="9">Market-adjusted prices</text>
+  <text x="560" y="106" text-anchor="middle" fill="#e2e8f0" font-size="9">Include VAT where expected</text>
+  <text x="560" y="122" text-anchor="middle" fill="#e2e8f0" font-size="9">Local payment methods</text>
+  <text x="560" y="140" text-anchor="middle" fill="#f97316" font-size="8">iDEAL in NL, Klarna in DE</text>
+  <!-- Critical warning -->
+  <rect x="40" y="172" width="600" height="48" rx="8" stroke="#ef4444" stroke-width="2"/>
+  <text x="340" y="192" text-anchor="middle" fill="#ef4444" font-size="11" font-weight="bold">Never auto-redirect users by IP or location</text>
+  <text x="340" y="210" text-anchor="middle" fill="#e2e8f0" font-size="9">Googlebot crawls from the US -- IP redirects send it to the wrong version. Use a language suggestion banner instead.</text>
+  <!-- Flow -->
+  <text x="340" y="244" text-anchor="middle" fill="#e2e8f0" font-size="10">User visits example.com/de/ from France</text>
+  <text x="200" y="264" text-anchor="middle" fill="#4ade80" font-size="9">Correct: Show banner "Visit our French store?"</text>
+  <text x="520" y="264" text-anchor="middle" fill="#ef4444" font-size="9">Wrong: Force redirect to example.com/fr/</text>
+</svg>

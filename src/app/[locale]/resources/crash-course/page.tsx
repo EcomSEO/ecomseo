@@ -9,9 +9,16 @@ import { buildPageMetadata } from "@/lib/i18n/metadata";
 import type { Locale } from "@/lib/i18n/config";
 import { crashCoursePageT } from "@/lib/i18n/translations/resources/crash-course";
 
+export const revalidate = 86400;
+
+
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
-  return buildPageMetadata(locale as Locale, "/resources/crash-course");
+  const meta = await buildPageMetadata(locale as Locale, "/resources/crash-course");
+  return {
+    ...meta,
+    robots: { index: false, follow: true },
+  };
 }
 
 

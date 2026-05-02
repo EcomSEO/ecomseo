@@ -3,7 +3,7 @@ import type { BlogArticle } from "../types";
 export const internationalEcommerceSeo: BlogArticle = {
   slug: "international-ecommerce-seo",
   category: "industry",
-  publishDate: "2025-07-01",
+  publishDate: "2026-03-02",
   readingTime: 12,
   author: "Fabian van Til",
   authorRole: "CEO at EcomSEO",
@@ -38,6 +38,7 @@ export const internationalEcommerceSeo: BlogArticle = {
             "Subfolders (example.com/de/, example.com/fr/) keep all markets under one domain and one authority pool. Every link you earn for any market benefits the entire domain. This is the approach we recommend for most ecommerce stores, especially those expanding for the first time. A fashion brand we moved from ccTLDs to a subfolder structure saw their German market traffic increase by 34% within four months because the subfolders inherited the authority of the main domain.",
             "The right choice depends on your resources and goals. If you have the budget to build and maintain separate link profiles for each country, ccTLDs provide the strongest local signal. If you want to maximize the value of your existing domain authority and minimize maintenance overhead, subfolders are the way to go. We rarely recommend subdomains for ecommerce because they combine the disadvantages of both approaches without the full benefits of either. The technical side of this setup is covered in our [technical SEO for ecommerce](/blog/technical-seo-for-ecommerce) guide.",
           ],
+          image: { src: "/images/blog/international-domain-structure.svg", alt: "Comparison of ccTLD, subdomain, and subfolder approaches for international ecommerce SEO", caption: "Subfolders consolidate link equity on a single domain while hreflang handles geo-targeting signals." },
         },
         {
           heading: "Hreflang implementation that actually works",
@@ -49,6 +50,7 @@ export const internationalEcommerceSeo: BlogArticle = {
             "For large stores, we implement hreflang through XML sitemaps rather than on-page tags. Each market gets its own sitemap, and each sitemap entry includes the alternate language URLs. This approach scales better because updating a sitemap is easier than modifying HTML templates, and it keeps page size down (on-page hreflang tags on a page serving 15 markets can add several KB of HTML).",
             "Validate your hreflang using Ahrefs' Site Audit, Screaming Frog's hreflang report, or our free [hreflang validator](/tools/hreflang-validator). Run these checks monthly because new products, deleted pages, and URL changes can break hreflang relationships silently. We caught a client's broken implementation three weeks after a developer changed URLs on their French store without updating hreflang on the other five markets.",
           ],
+          image: { src: "/images/blog/international-hreflang-flow.svg", alt: "Hreflang implementation diagram showing bidirectional relationships between language versions with common failures and best practices", caption: "Every hreflang relationship must be bidirectional -- missing reciprocal tags are the most common failure." },
         },
         {
           heading: "Content localization vs translation",
@@ -60,6 +62,8 @@ export const internationalEcommerceSeo: BlogArticle = {
             "Category naming needs localization too. A UK store might have a category called 'Trainers.' The US equivalent is 'Sneakers.' The German might be 'Sportschuhe' or 'Sneaker' depending on the product. We do keyword research for every market independently to find the terms with the most search demand, not just the literal translation.",
             "Product descriptions should be rewritten, not translated, for each market. Invest in native speakers who understand ecommerce copywriting. The upfront cost is higher than machine translation, but the ranking and conversion improvements justify it. One client switched from translated to locally written product descriptions for their German market and saw conversion rate increase from 1.1% to 2.4% on organic traffic within two months.",
           ],
+          image: { src: "/images/blog/international-localization-vs-translation.svg", alt: "Side-by-side comparison of translation only versus full localization showing conversion rate difference of 1.1% vs 2.4%", caption: "Full localization with native-speaker copywriting more than doubles conversion rates compared to translation alone." },
+          callout: { title: "Localize, Not Translate", text: "A store switching from translated to locally written German product descriptions saw organic conversion rates jump from 1.1% to 2.4%. German consumers search for 'Sneaker' (English loanword), not always the translated 'Turnschuhe'." },
         },
         {
           heading: "International keyword research for ecommerce",
@@ -71,6 +75,8 @@ export const internationalEcommerceSeo: BlogArticle = {
             "Long-tail keyword patterns also vary by language. German compound words create unique keyword opportunities. 'Gartenmoebelset' (garden furniture set) is one word in German and functions as a long-tail keyword. French ecommerce searches often include more qualifiers than English equivalents. Spanish searches in Spain use different terminology than Spanish searches in Mexico.",
             "We build separate keyword maps for each market, even when the products are identical. The investment in market-specific keyword research pays for itself many times over compared to the alternative of ranking for translated terms that nobody actually searches for. Our [ecommerce SEO strategy guide](/blog/ecommerce-seo-strategy) covers how to structure this kind of multi-market keyword planning.",
           ],
+          image: { src: "/images/blog/international-keyword-research.svg", alt: "International keyword research comparison showing different search terms, volumes, and competitors across US, Germany, Netherlands, and UK markets", caption: "Never translate keyword lists -- research each market independently with local keyword tools." },
+          callout: { title: "Loanwords Matter", text: "German consumers search for 'Sneaker' (the English loanword) more than the translated 'Turnschuhe'. Compound words like 'Gartenmoebelset' function as long-tail keywords in German. Every market needs independent research." },
         },
         {
           heading: "Handling currency, pricing, and geo-targeting",
@@ -81,6 +87,8 @@ export const internationalEcommerceSeo: BlogArticle = {
             "IP-based redirects (automatically sending German visitors to the German version) seem helpful but cause SEO problems. If Googlebot crawls from US IP addresses and gets redirected to the English version every time, it may never see your German pages. Instead of redirects, use a banner or popup suggesting the local version while letting all users (and bots) access any version they want.",
             "Pricing differences between markets can create issues with product structured data. If you sell the same product for 50 euros in Germany and 55 euros in France, and Google sees both prices, it may display one or the other unpredictably in rich results. Make sure each market version's structured data only includes the price for that specific market.",
           ],
+          image: { src: "/images/blog/international-currency-geotargeting.svg", alt: "Currency display, geo-targeting, and local pricing setup with critical warning against IP-based auto-redirects", caption: "Never auto-redirect by IP -- Googlebot crawls from the US and will be sent to the wrong version." },
+          callout: { title: "No IP Redirects", text: "Googlebot crawls from US IP addresses. IP-based redirects prevent it from seeing your German, French, or Dutch pages. Use a language suggestion banner instead of forced redirects." },
         },
         {
           heading: "Building links in international markets",
@@ -103,6 +111,7 @@ export const internationalEcommerceSeo: BlogArticle = {
             "Ignoring local payment methods and shipping information affects conversion but also indirectly affects SEO through user engagement signals. If a German visitor lands on your page but bounces because you do not accept PayPal or offer reasonable shipping to Germany, that behavioral signal works against your rankings over time.",
             "International ecommerce SEO takes patience, investment in local content, and consistent technical maintenance. But for stores that execute it properly, each new market becomes an additional source of organic revenue that compounds as your international authority grows. For Shopify-based stores expanding internationally, our [Shopify ecommerce SEO guide](/blog/shopify-ecommerce-seo) covers platform-specific implementation details.",
           ],
+          callout: { title: "One Market at a Time", text: "A Dutch electronics store launched DE, FR, and BE simultaneously. After 6 months none performed. Focusing entirely on Germany for 4 months achieved profitability before reopening other markets." },
         },
       ],
     },
@@ -129,6 +138,7 @@ export const internationalEcommerceSeo: BlogArticle = {
             "Unterverzeichnisse (example.com/de/, example.com/fr/) halten alle Märkte unter einer Domain und einem Autoritätspool. Jeder Link, den Sie für einen Markt aufbauen, kommt der gesamten Domain zugute. Das ist der Ansatz, den wir für die meisten Onlineshops empfehlen, besonders für diejenigen, die zum ersten Mal expandieren. Eine Modemarke, die wir von ccTLDs auf eine Unterverzeichnisstruktur umgestellt haben, verzeichnete innerhalb von vier Monaten einen Anstieg des deutschen Markttraffics um 34 %, weil die Unterverzeichnisse die Autorität der Hauptdomain erbten.",
             "Die richtige Wahl hängt von Ihren Ressourcen und Zielen ab. Wenn Sie das Budget haben, um separate Linkprofile für jedes Land aufzubauen und zu pflegen, bieten ccTLDs das stärkste lokale Signal. Wenn Sie den Wert Ihrer bestehenden Domain-Autorität maximieren und den Wartungsaufwand minimieren möchten, sind Unterverzeichnisse der richtige Weg. Wir empfehlen Subdomains für Ecommerce selten, da sie die Nachteile beider Ansätze kombinieren, ohne die vollen Vorteile eines der beiden zu bieten. Die technische Seite dieser Einrichtung wird in unserem [technischen SEO für Ecommerce](/blog/technical-seo-for-ecommerce)-Leitfaden behandelt.",
           ],
+          image: { src: "/images/blog/de/international-domain-structure.svg", alt: "Comparison of ccTLD, subdomain, and subfolder approaches for international ecommerce SEO", caption: "Subfolders consolidate link equity on a single domain while hreflang handles geo-targeting signals." },
         },
         {
           heading: "Hreflang-Implementierung, die tatsächlich funktioniert",
@@ -140,6 +150,7 @@ export const internationalEcommerceSeo: BlogArticle = {
             "Für große Shops implementieren wir hreflang über XML-Sitemaps statt über On-Page-Tags. Jeder Markt erhält seine eigene Sitemap, und jeder Sitemap-Eintrag enthält die alternativen Sprach-URLs. Dieser Ansatz skaliert besser, weil das Aktualisieren einer Sitemap einfacher ist als das Ändern von HTML-Templates, und es hält die Seitengröße klein (On-Page-Hreflang-Tags auf einer Seite, die 15 Märkte bedient, können mehrere KB HTML hinzufügen).",
             "Validieren Sie Ihr hreflang mit dem Site Audit von Ahrefs, dem Hreflang-Bericht von Screaming Frog oder unserem kostenlosen [hreflang-Validator](/tools/hreflang-validator). Führen Sie diese Prüfungen monatlich durch, denn neue Produkte, gelöschte Seiten und URL-Änderungen können Hreflang-Beziehungen im Stillen unterbrechen. Wir haben drei Wochen nach einer URL-Änderung eines Entwicklers im französischen Shop die fehlerhafte Implementierung eines Kunden entdeckt, ohne dass die Hreflang-Tags der anderen fünf Märkte aktualisiert wurden.",
           ],
+          image: { src: "/images/blog/de/international-hreflang-flow.svg", alt: "Hreflang implementation diagram showing bidirectional relationships between language versions with common failures and best practices", caption: "Every hreflang relationship must be bidirectional -- missing reciprocal tags are the most common failure." },
         },
         {
           heading: "Content-Lokalisierung vs. Übersetzung",
@@ -151,6 +162,8 @@ export const internationalEcommerceSeo: BlogArticle = {
             "Auch die Kategoriebenennung muss lokalisiert werden. Ein britischer Shop könnte eine Kategorie namens 'Trainers' haben. Das US-Äquivalent ist 'Sneakers'. Das Deutsche könnte 'Sportschuhe' oder 'Sneaker' sein, je nach Produkt. Wir führen die Keyword-Recherche für jeden Markt unabhängig durch, um die Begriffe mit dem höchsten Suchvolumen zu finden, nicht nur die wörtliche Übersetzung.",
             "Produktbeschreibungen sollten für jeden Markt neu geschrieben, nicht übersetzt werden. Investieren Sie in Muttersprachler, die Ecommerce-Copywriting verstehen. Die Vorabkosten sind höher als bei maschineller Übersetzung, aber die Ranking- und Konversionsverbesserungen rechtfertigen die Investition. Ein Kunde wechselte für seinen deutschen Markt von übersetzten zu lokal geschriebenen Produktbeschreibungen und verzeichnete innerhalb von zwei Monaten einen Anstieg der Konversionsrate von 1,1 % auf 2,4 % beim organischen Traffic.",
           ],
+          image: { src: "/images/blog/de/international-localization-vs-translation.svg", alt: "Side-by-side comparison of translation only versus full localization showing conversion rate difference of 1.1% vs 2.4%", caption: "Full localization with native-speaker copywriting more than doubles conversion rates compared to translation alone." },
+          callout: { title: "Localize, Not Translate", text: "A store switching from translated to locally written German product descriptions saw organic conversion rates jump from 1.1% to 2.4%. German consumers search for 'Sneaker' (English loanword), not always the translated 'Turnschuhe'." },
         },
         {
           heading: "Internationale Keyword-Recherche für Ecommerce",
@@ -162,6 +175,8 @@ export const internationalEcommerceSeo: BlogArticle = {
             "Long-Tail-Keyword-Muster variieren ebenfalls je nach Sprache. Deutsche Komposita schaffen einzigartige Keyword-Möglichkeiten. 'Gartenmöbelset' ist ein Wort im Deutschen und fungiert als Long-Tail-Keyword. Französische Ecommerce-Suchen enthalten oft mehr Qualifizierer als englische Äquivalente. Spanische Suchen in Spanien verwenden andere Begriffe als spanische Suchen in Mexiko.",
             "Wir erstellen separate Keyword-Maps für jeden Markt, selbst wenn die Produkte identisch sind. Die Investition in marktspezifische Keyword-Recherche zahlt sich vielfach aus im Vergleich zur Alternative, für übersetzte Begriffe zu ranken, nach denen niemand tatsächlich sucht. Unser [Ecommerce SEO-Strategieleitfaden](/blog/ecommerce-seo-strategy) behandelt, wie man diese Art der Multi-Markt-Keyword-Planung strukturiert.",
           ],
+          image: { src: "/images/blog/de/international-keyword-research.svg", alt: "International keyword research comparison showing different search terms, volumes, and competitors across US, Germany, Netherlands, and UK markets", caption: "Never translate keyword lists -- research each market independently with local keyword tools." },
+          callout: { title: "Loanwords Matter", text: "German consumers search for 'Sneaker' (the English loanword) more than the translated 'Turnschuhe'. Compound words like 'Gartenmoebelset' function as long-tail keywords in German. Every market needs independent research." },
         },
         {
           heading: "Umgang mit Währung, Preisgestaltung und Geo-Targeting",
@@ -172,6 +187,8 @@ export const internationalEcommerceSeo: BlogArticle = {
             "IP-basierte Weiterleitungen (automatische Weiterleitung deutscher Besucher zur deutschen Version) scheinen hilfreich, verursachen aber SEO-Probleme. Wenn Googlebot von US-IP-Adressen aus crawlt und jedes Mal zur englischen Version weitergeleitet wird, sieht er möglicherweise nie Ihre deutschen Seiten. Statt Weiterleitungen verwenden Sie ein Banner oder Popup, das die lokale Version vorschlägt, während alle Nutzer (und Bots) auf jede Version zugreifen können.",
             "Preisunterschiede zwischen Märkten können Probleme mit Produkt-Structured-Data verursachen. Wenn Sie dasselbe Produkt für 50 Euro in Deutschland und 55 Euro in Frankreich verkaufen und Google beide Preise sieht, kann es in Rich Results den einen oder anderen unvorhersehbar anzeigen. Stellen Sie sicher, dass die Structured Data jeder Marktversion nur den Preis für diesen spezifischen Markt enthält.",
           ],
+          image: { src: "/images/blog/de/international-currency-geotargeting.svg", alt: "Currency display, geo-targeting, and local pricing setup with critical warning against IP-based auto-redirects", caption: "Never auto-redirect by IP -- Googlebot crawls from the US and will be sent to the wrong version." },
+          callout: { title: "No IP Redirects", text: "Googlebot crawls from US IP addresses. IP-based redirects prevent it from seeing your German, French, or Dutch pages. Use a language suggestion banner instead of forced redirects." },
         },
         {
           heading: "Linkaufbau in internationalen Märkten",
@@ -194,6 +211,7 @@ export const internationalEcommerceSeo: BlogArticle = {
             "Lokale Zahlungsmethoden und Versandinformationen zu ignorieren, beeinflusst die Konversion, aber auch indirekt SEO durch Nutzerengagement-Signale. Wenn ein deutscher Besucher auf Ihrer Seite landet, aber abspringt, weil Sie PayPal nicht akzeptieren oder keinen angemessenen Versand nach Deutschland anbieten, wirkt dieses Verhaltenssignal langfristig gegen Ihre Rankings.",
             "Internationales Ecommerce SEO erfordert Geduld, Investition in lokalen Content und konsequente technische Wartung. Aber für Shops, die es richtig umsetzen, wird jeder neue Markt zu einer zusätzlichen Quelle organischen Umsatzes, der sich mit wachsender internationaler Autorität potenziert. Für Shopify-basierte Shops, die international expandieren, behandelt unser [Shopify Ecommerce SEO-Leitfaden](/blog/shopify-ecommerce-seo) plattformspezifische Implementierungsdetails.",
           ],
+          callout: { title: "One Market at a Time", text: "A Dutch electronics store launched DE, FR, and BE simultaneously. After 6 months none performed. Focusing entirely on Germany for 4 months achieved profitability before reopening other markets." },
         },
       ],
     },
@@ -220,6 +238,7 @@ export const internationalEcommerceSeo: BlogArticle = {
             "Les sous-répertoires (example.com/de/, example.com/fr/) gardent tous les marchés sous un seul domaine et un seul pool d'autorité. Chaque lien que vous gagnez pour n'importe quel marché profite à l'ensemble du domaine. C'est l'approche que nous recommandons pour la plupart des boutiques en ligne, surtout celles qui s'étendent pour la première fois. Une marque de mode que nous avons fait passer de ccTLD à une structure en sous-répertoires a vu son trafic sur le marché allemand augmenter de 34 % en quatre mois parce que les sous-répertoires ont hérité de l'autorité du domaine principal.",
             "Le bon choix dépend de vos ressources et objectifs. Si vous avez le budget pour construire et maintenir des profils de liens séparés pour chaque pays, les ccTLD fournissent le signal local le plus fort. Si vous voulez maximiser la valeur de votre autorité de domaine existante et minimiser les frais de maintenance, les sous-répertoires sont la voie à suivre. Nous recommandons rarement les sous-domaines pour l'ecommerce car ils combinent les inconvénients des deux approches sans les avantages complets de l'une ou l'autre. Le côté technique de cette configuration est couvert dans notre guide [SEO technique pour l'ecommerce](/blog/technical-seo-for-ecommerce).",
           ],
+          image: { src: "/images/blog/fr/international-domain-structure.svg", alt: "Comparison of ccTLD, subdomain, and subfolder approaches for international ecommerce SEO", caption: "Subfolders consolidate link equity on a single domain while hreflang handles geo-targeting signals." },
         },
         {
           heading: "Une implémentation hreflang qui fonctionne vraiment",
@@ -231,6 +250,7 @@ export const internationalEcommerceSeo: BlogArticle = {
             "Pour les grandes boutiques, nous implémentons hreflang via des sitemaps XML plutôt que des balises sur la page. Chaque marché obtient sa propre sitemap, et chaque entrée de sitemap inclut les URL de langues alternatives. Cette approche est plus évolutive car la mise à jour d'une sitemap est plus facile que la modification de templates HTML, et cela réduit la taille des pages (les balises hreflang sur une page desservant 15 marchés peuvent ajouter plusieurs Ko de HTML).",
             "Validez votre hreflang en utilisant l'audit de site d'Ahrefs, le rapport hreflang de Screaming Frog ou notre [validateur hreflang](/tools/hreflang-validator) gratuit. Effectuez ces vérifications mensuellement car de nouveaux produits, des pages supprimées et des changements d'URL peuvent silencieusement casser les relations hreflang. Nous avons découvert l'implémentation cassée d'un client trois semaines après qu'un développeur ait changé les URL de leur boutique française sans mettre à jour les hreflang des cinq autres marchés.",
           ],
+          image: { src: "/images/blog/fr/international-hreflang-flow.svg", alt: "Hreflang implementation diagram showing bidirectional relationships between language versions with common failures and best practices", caption: "Every hreflang relationship must be bidirectional -- missing reciprocal tags are the most common failure." },
         },
         {
           heading: "Localisation du contenu vs traduction",
@@ -242,6 +262,8 @@ export const internationalEcommerceSeo: BlogArticle = {
             "Le nommage des catégories nécessite aussi une localisation. Une boutique britannique pourrait avoir une catégorie appelée 'Trainers'. L'équivalent américain est 'Sneakers'. L'allemand pourrait être 'Sportschuhe' ou 'Sneaker' selon le produit. Nous effectuons la recherche de mots-clés pour chaque marché indépendamment afin de trouver les termes avec le plus de demande de recherche, pas simplement la traduction littérale.",
             "Les descriptions de produits doivent être réécrites, pas traduites, pour chaque marché. Investissez dans des locuteurs natifs qui comprennent la rédaction ecommerce. Le coût initial est plus élevé que la traduction automatique, mais les améliorations en termes de classement et de conversion le justifient. Un client est passé de descriptions de produits traduites à des descriptions rédigées localement pour son marché allemand et a vu son taux de conversion passer de 1,1 % à 2,4 % sur le trafic organique en deux mois.",
           ],
+          image: { src: "/images/blog/fr/international-localization-vs-translation.svg", alt: "Side-by-side comparison of translation only versus full localization showing conversion rate difference of 1.1% vs 2.4%", caption: "Full localization with native-speaker copywriting more than doubles conversion rates compared to translation alone." },
+          callout: { title: "Localize, Not Translate", text: "A store switching from translated to locally written German product descriptions saw organic conversion rates jump from 1.1% to 2.4%. German consumers search for 'Sneaker' (English loanword), not always the translated 'Turnschuhe'." },
         },
         {
           heading: "Recherche de mots-clés internationale pour l'ecommerce",
@@ -253,6 +275,8 @@ export const internationalEcommerceSeo: BlogArticle = {
             "Les modèles de mots-clés de longue traîne varient aussi selon la langue. Les mots composés allemands créent des opportunités de mots-clés uniques. 'Gartenmöbelset' (ensemble de mobilier de jardin) est un seul mot en allemand et fonctionne comme un mot-clé de longue traîne. Les recherches ecommerce françaises incluent souvent plus de qualificateurs que les équivalents anglais. Les recherches espagnoles en Espagne utilisent une terminologie différente de celles en espagnol au Mexique.",
             "Nous construisons des cartes de mots-clés séparées pour chaque marché, même lorsque les produits sont identiques. L'investissement dans la recherche de mots-clés spécifique à chaque marché se rentabilise largement par rapport à l'alternative de se positionner sur des termes traduits que personne ne recherche réellement. Notre [guide de stratégie SEO ecommerce](/blog/ecommerce-seo-strategy) explique comment structurer ce type de planification de mots-clés multi-marchés.",
           ],
+          image: { src: "/images/blog/fr/international-keyword-research.svg", alt: "International keyword research comparison showing different search terms, volumes, and competitors across US, Germany, Netherlands, and UK markets", caption: "Never translate keyword lists -- research each market independently with local keyword tools." },
+          callout: { title: "Loanwords Matter", text: "German consumers search for 'Sneaker' (the English loanword) more than the translated 'Turnschuhe'. Compound words like 'Gartenmoebelset' function as long-tail keywords in German. Every market needs independent research." },
         },
         {
           heading: "Gestion des devises, des prix et du géo-ciblage",
@@ -263,6 +287,8 @@ export const internationalEcommerceSeo: BlogArticle = {
             "Les redirections basées sur l'IP (envoyer automatiquement les visiteurs allemands vers la version allemande) semblent utiles mais causent des problèmes SEO. Si Googlebot explore depuis des adresses IP américaines et est redirigé vers la version anglaise à chaque fois, il pourrait ne jamais voir vos pages allemandes. Au lieu de redirections, utilisez un bandeau ou une popup suggérant la version locale tout en laissant tous les utilisateurs (et les robots) accéder à toute version.",
             "Les différences de prix entre marchés peuvent créer des problèmes avec les données structurées produit. Si vous vendez le même produit à 50 euros en Allemagne et 55 euros en France, et que Google voit les deux prix, il peut afficher l'un ou l'autre de manière imprévisible dans les résultats enrichis. Assurez-vous que les données structurées de chaque version de marché ne contiennent que le prix pour ce marché spécifique.",
           ],
+          image: { src: "/images/blog/fr/international-currency-geotargeting.svg", alt: "Currency display, geo-targeting, and local pricing setup with critical warning against IP-based auto-redirects", caption: "Never auto-redirect by IP -- Googlebot crawls from the US and will be sent to the wrong version." },
+          callout: { title: "No IP Redirects", text: "Googlebot crawls from US IP addresses. IP-based redirects prevent it from seeing your German, French, or Dutch pages. Use a language suggestion banner instead of forced redirects." },
         },
         {
           heading: "Construire des liens sur les marchés internationaux",
@@ -285,6 +311,7 @@ export const internationalEcommerceSeo: BlogArticle = {
             "Ignorer les méthodes de paiement locales et les informations de livraison affecte la conversion mais aussi indirectement le SEO via les signaux d'engagement utilisateur. Si un visiteur allemand atterrit sur votre page mais rebondit parce que vous n'acceptez pas PayPal ou n'offrez pas de livraison raisonnable vers l'Allemagne, ce signal comportemental joue contre vos classements au fil du temps.",
             "Le SEO ecommerce international demande de la patience, un investissement dans du contenu local et une maintenance technique constante. Mais pour les boutiques qui l'exécutent correctement, chaque nouveau marché devient une source supplémentaire de revenus organiques qui se compose à mesure que votre autorité internationale grandit. Pour les boutiques basées sur Shopify qui s'étendent à l'international, notre [guide SEO ecommerce Shopify](/blog/shopify-ecommerce-seo) couvre les détails d'implémentation spécifiques à la plateforme.",
           ],
+          callout: { title: "One Market at a Time", text: "A Dutch electronics store launched DE, FR, and BE simultaneously. After 6 months none performed. Focusing entirely on Germany for 4 months achieved profitability before reopening other markets." },
         },
       ],
     },
@@ -311,6 +338,7 @@ export const internationalEcommerceSeo: BlogArticle = {
             "Las subcarpetas (example.com/de/, example.com/fr/) mantienen todos los mercados bajo un dominio y un pool de autoridad. Cada enlace que ganas para cualquier mercado beneficia a todo el dominio. Este es el enfoque que recomendamos para la mayoría de tiendas online, especialmente las que se expanden por primera vez. Una marca de moda que pasamos de ccTLD a estructura de subcarpetas vio aumentar el tráfico de su mercado alemán un 34 % en cuatro meses porque las subcarpetas heredaron la autoridad del dominio principal.",
             "La elección correcta depende de tus recursos y objetivos. Si tienes presupuesto para construir y mantener perfiles de enlaces separados para cada país, los ccTLD proporcionan la señal local más fuerte. Si quieres maximizar el valor de tu autoridad de dominio existente y minimizar la carga de mantenimiento, las subcarpetas son el camino a seguir. Raramente recomendamos subdominios para ecommerce porque combinan las desventajas de ambos enfoques sin los beneficios completos de ninguno. El lado técnico de esta configuración se cubre en nuestra guía de [SEO técnico para ecommerce](/blog/technical-seo-for-ecommerce).",
           ],
+          image: { src: "/images/blog/es/international-domain-structure.svg", alt: "Comparison of ccTLD, subdomain, and subfolder approaches for international ecommerce SEO", caption: "Subfolders consolidate link equity on a single domain while hreflang handles geo-targeting signals." },
         },
         {
           heading: "Implementación de hreflang que realmente funciona",
@@ -322,6 +350,7 @@ export const internationalEcommerceSeo: BlogArticle = {
             "Para tiendas grandes, implementamos hreflang mediante sitemaps XML en lugar de etiquetas en la página. Cada mercado obtiene su propio sitemap, y cada entrada del sitemap incluye las URLs de idiomas alternativos. Este enfoque escala mejor porque actualizar un sitemap es más fácil que modificar plantillas HTML, y mantiene el tamaño de la página reducido (las etiquetas hreflang en una página que sirve a 15 mercados pueden añadir varios KB de HTML).",
             "Valida tu hreflang usando la auditoría de sitio de Ahrefs, el informe de hreflang de Screaming Frog o nuestro [validador de hreflang](/tools/hreflang-validator) gratuito. Ejecuta estas comprobaciones mensualmente porque nuevos productos, páginas eliminadas y cambios de URL pueden romper silenciosamente las relaciones hreflang. Detectamos la implementación rota de un cliente tres semanas después de que un desarrollador cambiara URLs en su tienda francesa sin actualizar hreflang en los otros cinco mercados.",
           ],
+          image: { src: "/images/blog/es/international-hreflang-flow.svg", alt: "Hreflang implementation diagram showing bidirectional relationships between language versions with common failures and best practices", caption: "Every hreflang relationship must be bidirectional -- missing reciprocal tags are the most common failure." },
         },
         {
           heading: "Localización de contenido vs traducción",
@@ -333,6 +362,8 @@ export const internationalEcommerceSeo: BlogArticle = {
             "Los nombres de categorías también necesitan localización. Una tienda británica podría tener una categoría llamada 'Trainers'. El equivalente estadounidense es 'Sneakers'. En alemán podría ser 'Sportschuhe' o 'Sneaker' dependiendo del producto. Hacemos investigación de palabras clave para cada mercado de forma independiente para encontrar los términos con mayor demanda de búsqueda, no solo la traducción literal.",
             "Las descripciones de productos deben reescribirse, no traducirse, para cada mercado. Invierte en hablantes nativos que entiendan la redacción para ecommerce. El coste inicial es mayor que la traducción automática, pero las mejoras en posicionamiento y conversión lo justifican. Un cliente cambió de descripciones de producto traducidas a redactadas localmente para su mercado alemán y vio su tasa de conversión aumentar del 1,1 % al 2,4 % en tráfico orgánico en dos meses.",
           ],
+          image: { src: "/images/blog/es/international-localization-vs-translation.svg", alt: "Side-by-side comparison of translation only versus full localization showing conversion rate difference of 1.1% vs 2.4%", caption: "Full localization with native-speaker copywriting more than doubles conversion rates compared to translation alone." },
+          callout: { title: "Localize, Not Translate", text: "A store switching from translated to locally written German product descriptions saw organic conversion rates jump from 1.1% to 2.4%. German consumers search for 'Sneaker' (English loanword), not always the translated 'Turnschuhe'." },
         },
         {
           heading: "Investigación de palabras clave internacional para ecommerce",
@@ -344,6 +375,8 @@ export const internationalEcommerceSeo: BlogArticle = {
             "Los patrones de palabras clave de cola larga también varían según el idioma. Las palabras compuestas alemanas crean oportunidades únicas de palabras clave. 'Gartenmöbelset' (conjunto de muebles de jardín) es una sola palabra en alemán y funciona como palabra clave de cola larga. Las búsquedas de ecommerce en francés suelen incluir más calificadores que los equivalentes en inglés. Las búsquedas en español de España usan terminología diferente que las búsquedas en español de México.",
             "Construimos mapas de palabras clave separados para cada mercado, incluso cuando los productos son idénticos. La inversión en investigación de palabras clave específica por mercado se amortiza con creces en comparación con la alternativa de posicionarse para términos traducidos que nadie busca realmente. Nuestra [guía de estrategia SEO ecommerce](/blog/ecommerce-seo-strategy) cubre cómo estructurar este tipo de planificación de palabras clave multi-mercado.",
           ],
+          image: { src: "/images/blog/es/international-keyword-research.svg", alt: "International keyword research comparison showing different search terms, volumes, and competitors across US, Germany, Netherlands, and UK markets", caption: "Never translate keyword lists -- research each market independently with local keyword tools." },
+          callout: { title: "Loanwords Matter", text: "German consumers search for 'Sneaker' (the English loanword) more than the translated 'Turnschuhe'. Compound words like 'Gartenmoebelset' function as long-tail keywords in German. Every market needs independent research." },
         },
         {
           heading: "Gestión de divisas, precios y segmentación geográfica",
@@ -354,6 +387,8 @@ export const internationalEcommerceSeo: BlogArticle = {
             "Las redirecciones basadas en IP (enviar automáticamente a los visitantes alemanes a la versión alemana) parecen útiles pero causan problemas de SEO. Si Googlebot rastrea desde direcciones IP de EE. UU. y es redirigido a la versión en inglés cada vez, puede que nunca vea tus páginas en alemán. En lugar de redirecciones, usa un banner o popup sugiriendo la versión local mientras permites que todos los usuarios (y bots) accedan a cualquier versión.",
             "Las diferencias de precios entre mercados pueden crear problemas con los datos estructurados de producto. Si vendes el mismo producto a 50 euros en Alemania y 55 euros en Francia, y Google ve ambos precios, puede mostrar uno u otro de forma impredecible en los resultados enriquecidos. Asegúrate de que los datos estructurados de cada versión de mercado solo incluyan el precio para ese mercado específico.",
           ],
+          image: { src: "/images/blog/es/international-currency-geotargeting.svg", alt: "Currency display, geo-targeting, and local pricing setup with critical warning against IP-based auto-redirects", caption: "Never auto-redirect by IP -- Googlebot crawls from the US and will be sent to the wrong version." },
+          callout: { title: "No IP Redirects", text: "Googlebot crawls from US IP addresses. IP-based redirects prevent it from seeing your German, French, or Dutch pages. Use a language suggestion banner instead of forced redirects." },
         },
         {
           heading: "Construir enlaces en mercados internacionales",
@@ -376,6 +411,7 @@ export const internationalEcommerceSeo: BlogArticle = {
             "Ignorar los métodos de pago locales y la información de envío afecta la conversión pero también indirectamente el SEO a través de señales de engagement del usuario. Si un visitante alemán llega a tu página pero rebota porque no aceptas PayPal u no ofreces envío razonable a Alemania, esa señal de comportamiento trabaja contra tus rankings con el tiempo.",
             "El SEO ecommerce internacional requiere paciencia, inversión en contenido local y mantenimiento técnico constante. Pero para las tiendas que lo ejecutan correctamente, cada nuevo mercado se convierte en una fuente adicional de ingresos orgánicos que se compone a medida que tu autoridad internacional crece. Para tiendas basadas en Shopify que se expanden internacionalmente, nuestra [guía de SEO ecommerce Shopify](/blog/shopify-ecommerce-seo) cubre los detalles de implementación específicos de la plataforma.",
           ],
+          callout: { title: "One Market at a Time", text: "A Dutch electronics store launched DE, FR, and BE simultaneously. After 6 months none performed. Focusing entirely on Germany for 4 months achieved profitability before reopening other markets." },
         },
       ],
     },
@@ -402,6 +438,7 @@ export const internationalEcommerceSeo: BlogArticle = {
             "Le sottocartelle (example.com/de/, example.com/fr/) mantengono tutti i mercati sotto un unico dominio e un unico pool di autorità. Ogni link che guadagni per qualsiasi mercato beneficia l'intero dominio. Questo è l'approccio che raccomandiamo per la maggior parte dei negozi online, specialmente quelli che si espandono per la prima volta. Un brand di moda che abbiamo spostato da ccTLD a una struttura a sottocartelle ha visto il traffico del mercato tedesco aumentare del 34% entro quattro mesi perché le sottocartelle hanno ereditato l'autorità del dominio principale.",
             "La scelta giusta dipende dalle tue risorse e dai tuoi obiettivi. Se hai il budget per costruire e mantenere profili di link separati per ogni paese, i ccTLD forniscono il segnale locale più forte. Se vuoi massimizzare il valore della tua autorità di dominio esistente e minimizzare il carico di manutenzione, le sottocartelle sono la strada da seguire. Raramente raccomandiamo i sottodomini per l'ecommerce perché combinano gli svantaggi di entrambi gli approcci senza i benefici completi di nessuno dei due. Il lato tecnico di questa configurazione è trattato nella nostra guida [SEO tecnica per ecommerce](/blog/technical-seo-for-ecommerce).",
           ],
+          image: { src: "/images/blog/it/international-domain-structure.svg", alt: "Comparison of ccTLD, subdomain, and subfolder approaches for international ecommerce SEO", caption: "Subfolders consolidate link equity on a single domain while hreflang handles geo-targeting signals." },
         },
         {
           heading: "Implementazione hreflang che funziona davvero",
@@ -413,6 +450,7 @@ export const internationalEcommerceSeo: BlogArticle = {
             "Per i negozi grandi, implementiamo hreflang tramite sitemap XML invece che con tag sulla pagina. Ogni mercato ottiene la propria sitemap, e ogni voce della sitemap include le URL delle lingue alternative. Questo approccio scala meglio perché aggiornare una sitemap è più facile che modificare i template HTML, e mantiene ridotte le dimensioni della pagina (i tag hreflang su una pagina che serve 15 mercati possono aggiungere diversi KB di HTML).",
             "Valida il tuo hreflang usando l'Audit del sito di Ahrefs, il report hreflang di Screaming Frog o il nostro [validatore hreflang](/tools/hreflang-validator) gratuito. Esegui questi controlli mensilmente perché nuovi prodotti, pagine eliminate e cambiamenti di URL possono silenziosamente rompere le relazioni hreflang. Abbiamo individuato l'implementazione rotta di un cliente tre settimane dopo che uno sviluppatore aveva cambiato le URL del loro negozio francese senza aggiornare gli hreflang degli altri cinque mercati.",
           ],
+          image: { src: "/images/blog/it/international-hreflang-flow.svg", alt: "Hreflang implementation diagram showing bidirectional relationships between language versions with common failures and best practices", caption: "Every hreflang relationship must be bidirectional -- missing reciprocal tags are the most common failure." },
         },
         {
           heading: "Localizzazione dei contenuti vs traduzione",
@@ -424,6 +462,8 @@ export const internationalEcommerceSeo: BlogArticle = {
             "Anche i nomi delle categorie necessitano di localizzazione. Un negozio britannico potrebbe avere una categoria chiamata 'Trainers'. L'equivalente americano è 'Sneakers'. In tedesco potrebbe essere 'Sportschuhe' o 'Sneaker' a seconda del prodotto. Facciamo ricerca di parole chiave per ogni mercato in modo indipendente per trovare i termini con la maggiore domanda di ricerca, non solo la traduzione letterale.",
             "Le descrizioni dei prodotti dovrebbero essere riscritte, non tradotte, per ogni mercato. Investi in madrelingua che capiscano il copywriting per ecommerce. Il costo iniziale è più alto della traduzione automatica, ma i miglioramenti nel posizionamento e nella conversione lo giustificano. Un cliente è passato da descrizioni di prodotto tradotte a scritte localmente per il mercato tedesco e ha visto il tasso di conversione aumentare dall'1,1% al 2,4% sul traffico organico entro due mesi.",
           ],
+          image: { src: "/images/blog/it/international-localization-vs-translation.svg", alt: "Side-by-side comparison of translation only versus full localization showing conversion rate difference of 1.1% vs 2.4%", caption: "Full localization with native-speaker copywriting more than doubles conversion rates compared to translation alone." },
+          callout: { title: "Localize, Not Translate", text: "A store switching from translated to locally written German product descriptions saw organic conversion rates jump from 1.1% to 2.4%. German consumers search for 'Sneaker' (English loanword), not always the translated 'Turnschuhe'." },
         },
         {
           heading: "Ricerca di parole chiave internazionale per l'ecommerce",
@@ -435,6 +475,8 @@ export const internationalEcommerceSeo: BlogArticle = {
             "I pattern delle parole chiave a coda lunga variano anche in base alla lingua. Le parole composte tedesche creano opportunità uniche di parole chiave. 'Gartenmöbelset' (set di mobili da giardino) è una sola parola in tedesco e funziona come parola chiave a coda lunga. Le ricerche ecommerce francesi spesso includono più qualificatori degli equivalenti inglesi. Le ricerche in spagnolo dalla Spagna usano una terminologia diversa dalle ricerche in spagnolo dal Messico.",
             "Creiamo mappe di parole chiave separate per ogni mercato, anche quando i prodotti sono identici. L'investimento in ricerca di parole chiave specifica per mercato si ripaga ampiamente rispetto all'alternativa di posizionarsi per termini tradotti che nessuno cerca effettivamente. La nostra [guida alla strategia SEO ecommerce](/blog/ecommerce-seo-strategy) spiega come strutturare questo tipo di pianificazione di parole chiave multi-mercato.",
           ],
+          image: { src: "/images/blog/it/international-keyword-research.svg", alt: "International keyword research comparison showing different search terms, volumes, and competitors across US, Germany, Netherlands, and UK markets", caption: "Never translate keyword lists -- research each market independently with local keyword tools." },
+          callout: { title: "Loanwords Matter", text: "German consumers search for 'Sneaker' (the English loanword) more than the translated 'Turnschuhe'. Compound words like 'Gartenmoebelset' function as long-tail keywords in German. Every market needs independent research." },
         },
         {
           heading: "Gestione di valute, prezzi e geo-targeting",
@@ -445,6 +487,8 @@ export const internationalEcommerceSeo: BlogArticle = {
             "I reindirizzamenti basati su IP (inviare automaticamente i visitatori tedeschi alla versione tedesca) sembrano utili ma causano problemi SEO. Se Googlebot esegue la scansione da indirizzi IP statunitensi e viene reindirizzato alla versione inglese ogni volta, potrebbe non vedere mai le tue pagine tedesche. Invece dei reindirizzamenti, usa un banner o un popup che suggerisca la versione locale permettendo a tutti gli utenti (e ai bot) di accedere a qualsiasi versione.",
             "Le differenze di prezzo tra i mercati possono creare problemi con i dati strutturati dei prodotti. Se vendi lo stesso prodotto a 50 euro in Germania e 55 euro in Francia, e Google vede entrambi i prezzi, potrebbe mostrare l'uno o l'altro in modo imprevedibile nei risultati arricchiti. Assicurati che i dati strutturati di ogni versione di mercato includano solo il prezzo per quel mercato specifico.",
           ],
+          image: { src: "/images/blog/it/international-currency-geotargeting.svg", alt: "Currency display, geo-targeting, and local pricing setup with critical warning against IP-based auto-redirects", caption: "Never auto-redirect by IP -- Googlebot crawls from the US and will be sent to the wrong version." },
+          callout: { title: "No IP Redirects", text: "Googlebot crawls from US IP addresses. IP-based redirects prevent it from seeing your German, French, or Dutch pages. Use a language suggestion banner instead of forced redirects." },
         },
         {
           heading: "Costruire link nei mercati internazionali",
@@ -467,6 +511,7 @@ export const internationalEcommerceSeo: BlogArticle = {
             "Ignorare i metodi di pagamento locali e le informazioni di spedizione influenza la conversione ma anche indirettamente la SEO attraverso i segnali di coinvolgimento degli utenti. Se un visitatore tedesco atterra sulla tua pagina ma rimbalza perché non accetti PayPal o non offri spedizioni ragionevoli verso la Germania, quel segnale comportamentale lavora contro i tuoi posizionamenti nel tempo.",
             "Il SEO ecommerce internazionale richiede pazienza, investimento in contenuti locali e manutenzione tecnica costante. Ma per i negozi che lo eseguono correttamente, ogni nuovo mercato diventa una fonte aggiuntiva di fatturato organico che si compone man mano che la tua autorità internazionale cresce. Per i negozi basati su Shopify che si espandono a livello internazionale, la nostra [guida SEO ecommerce Shopify](/blog/shopify-ecommerce-seo) copre i dettagli di implementazione specifici della piattaforma.",
           ],
+          callout: { title: "One Market at a Time", text: "A Dutch electronics store launched DE, FR, and BE simultaneously. After 6 months none performed. Focusing entirely on Germany for 4 months achieved profitability before reopening other markets." },
         },
       ],
     },
@@ -493,6 +538,7 @@ export const internationalEcommerceSeo: BlogArticle = {
             "Submappen (example.com/de/, example.com/fr/) houden alle markten onder één domein en één autoriteitspool. Elke link die je verdient voor welke markt dan ook komt het hele domein ten goede. Dit is de aanpak die we aanbevelen voor de meeste webshops, vooral degene die voor het eerst uitbreiden. Een modemerk dat we van ccTLD's naar een submapstructuur hebben verplaatst zag hun Duitse marktverkeer met 34% toenemen binnen vier maanden, omdat de submappen de autoriteit van het hoofddomein erfden.",
             "De juiste keuze hangt af van je middelen en doelen. Als je het budget hebt om aparte linkprofielen voor elk land op te bouwen en te onderhouden, bieden ccTLD's het sterkste lokale signaal. Als je de waarde van je bestaande domeinautoriteit wilt maximaliseren en de onderhoudskosten wilt minimaliseren, zijn submappen de beste keuze. We raden subdomeinen voor ecommerce zelden aan omdat ze de nadelen van beide benaderingen combineren zonder de volledige voordelen van een van beide. De technische kant van deze setup wordt behandeld in onze gids over [technisch SEO voor ecommerce](/blog/technical-seo-for-ecommerce).",
           ],
+          image: { src: "/images/blog/nl/international-domain-structure.svg", alt: "Comparison of ccTLD, subdomain, and subfolder approaches for international ecommerce SEO", caption: "Subfolders consolidate link equity on a single domain while hreflang handles geo-targeting signals." },
         },
         {
           heading: "Hreflang-implementatie die daadwerkelijk werkt",
@@ -504,6 +550,7 @@ export const internationalEcommerceSeo: BlogArticle = {
             "Voor grote webshops implementeren we hreflang via XML-sitemaps in plaats van tags op de pagina. Elke markt krijgt zijn eigen sitemap, en elke sitemap-vermelding bevat de alternatieve taal-URL's. Deze aanpak schaalt beter omdat het bijwerken van een sitemap makkelijker is dan het aanpassen van HTML-templates, en het houdt de paginagrootte beperkt (hreflang-tags op een pagina die 15 markten bedient kunnen meerdere KB HTML toevoegen).",
             "Valideer je hreflang met de Site Audit van Ahrefs, het hreflang-rapport van Screaming Frog, of onze gratis [hreflang-validator](/tools/hreflang-validator). Voer deze controles maandelijks uit, want nieuwe producten, verwijderde pagina's en URL-wijzigingen kunnen hreflang-relaties stilletjes verbreken. We ontdekten de defecte implementatie van een klant drie weken nadat een ontwikkelaar URL's in hun Franse webshop had gewijzigd zonder de hreflang van de andere vijf markten bij te werken.",
           ],
+          image: { src: "/images/blog/nl/international-hreflang-flow.svg", alt: "Hreflang implementation diagram showing bidirectional relationships between language versions with common failures and best practices", caption: "Every hreflang relationship must be bidirectional -- missing reciprocal tags are the most common failure." },
         },
         {
           heading: "Contentlokalisatie vs vertaling",
@@ -515,6 +562,8 @@ export const internationalEcommerceSeo: BlogArticle = {
             "Categorienamen moeten ook gelokaliseerd worden. Een Britse webshop heeft misschien een categorie genaamd 'Trainers'. Het Amerikaanse equivalent is 'Sneakers'. Het Duits kan 'Sportschuhe' of 'Sneaker' zijn, afhankelijk van het product. Wij doen keyword-onderzoek voor elke markt onafhankelijk om de termen met de meeste zoekvraag te vinden, niet alleen de letterlijke vertaling.",
             "Productbeschrijvingen moeten herschreven worden, niet vertaald, voor elke markt. Investeer in native speakers die ecommerce-copywriting begrijpen. De initiële kosten zijn hoger dan machinevertaling, maar de verbeteringen in ranking en conversie rechtvaardigen het. Een klant schakelde over van vertaalde naar lokaal geschreven productbeschrijvingen voor hun Duitse markt en zag de conversieratio stijgen van 1,1% naar 2,4% op organisch verkeer binnen twee maanden.",
           ],
+          image: { src: "/images/blog/nl/international-localization-vs-translation.svg", alt: "Side-by-side comparison of translation only versus full localization showing conversion rate difference of 1.1% vs 2.4%", caption: "Full localization with native-speaker copywriting more than doubles conversion rates compared to translation alone." },
+          callout: { title: "Localize, Not Translate", text: "A store switching from translated to locally written German product descriptions saw organic conversion rates jump from 1.1% to 2.4%. German consumers search for 'Sneaker' (English loanword), not always the translated 'Turnschuhe'." },
         },
         {
           heading: "Internationaal keyword-onderzoek voor ecommerce",
@@ -526,6 +575,8 @@ export const internationalEcommerceSeo: BlogArticle = {
             "Long-tail keyword-patronen variëren ook per taal. Duitse samenstellingen creëren unieke keyword-mogelijkheden. 'Gartenmöbelset' (tuinmeubelset) is één woord in het Duits en functioneert als een long-tail keyword. Franse ecommerce-zoekopdrachten bevatten vaak meer kwalificaties dan Engelse equivalenten. Spaanse zoekopdrachten in Spanje gebruiken andere terminologie dan Spaanse zoekopdrachten in Mexico.",
             "We bouwen aparte keyword-maps voor elke markt, zelfs wanneer de producten identiek zijn. De investering in marktspecifiek keyword-onderzoek verdient zichzelf vele malen terug vergeleken met het alternatief van ranken voor vertaalde termen waar niemand daadwerkelijk naar zoekt. Onze [ecommerce SEO-strategiegids](/blog/ecommerce-seo-strategy) behandelt hoe je dit soort multi-markt keyword-planning structureert.",
           ],
+          image: { src: "/images/blog/nl/international-keyword-research.svg", alt: "International keyword research comparison showing different search terms, volumes, and competitors across US, Germany, Netherlands, and UK markets", caption: "Never translate keyword lists -- research each market independently with local keyword tools." },
+          callout: { title: "Loanwords Matter", text: "German consumers search for 'Sneaker' (the English loanword) more than the translated 'Turnschuhe'. Compound words like 'Gartenmoebelset' function as long-tail keywords in German. Every market needs independent research." },
         },
         {
           heading: "Omgaan met valuta, prijzen en geo-targeting",
@@ -536,6 +587,8 @@ export const internationalEcommerceSeo: BlogArticle = {
             "IP-gebaseerde redirects (automatisch Duitse bezoekers naar de Duitse versie sturen) lijken handig maar veroorzaken SEO-problemen. Als Googlebot vanuit Amerikaanse IP-adressen crawlt en elke keer naar de Engelse versie wordt doorgestuurd, ziet het mogelijk nooit je Duitse pagina's. Gebruik in plaats van redirects een banner of popup die de lokale versie suggereert, terwijl alle gebruikers (en bots) toegang hebben tot elke versie.",
             "Prijsverschillen tussen markten kunnen problemen veroorzaken met product structured data. Als je hetzelfde product verkoopt voor 50 euro in Duitsland en 55 euro in Frankrijk, en Google beide prijzen ziet, kan het onvoorspelbaar de ene of de andere tonen in rich results. Zorg ervoor dat de structured data van elke marktversie alleen de prijs voor die specifieke markt bevat.",
           ],
+          image: { src: "/images/blog/nl/international-currency-geotargeting.svg", alt: "Currency display, geo-targeting, and local pricing setup with critical warning against IP-based auto-redirects", caption: "Never auto-redirect by IP -- Googlebot crawls from the US and will be sent to the wrong version." },
+          callout: { title: "No IP Redirects", text: "Googlebot crawls from US IP addresses. IP-based redirects prevent it from seeing your German, French, or Dutch pages. Use a language suggestion banner instead of forced redirects." },
         },
         {
           heading: "Linkbuilding in internationale markten",
@@ -558,6 +611,7 @@ export const internationalEcommerceSeo: BlogArticle = {
             "Het negeren van lokale betaalmethoden en verzendinformatie beïnvloedt de conversie maar ook indirect SEO via signalen van gebruikersbetrokkenheid. Als een Duitse bezoeker op je pagina landt maar bounced omdat je geen PayPal accepteert of geen redelijke verzending naar Duitsland aanbiedt, werkt dat gedragssignaal na verloop van tijd tegen je rankings.",
             "Internationaal ecommerce SEO vereist geduld, investering in lokale content en consistent technisch onderhoud. Maar voor webshops die het goed uitvoeren, wordt elke nieuwe markt een extra bron van organische omzet die zich opstapelt naarmate je internationale autoriteit groeit. Voor Shopify-gebaseerde webshops die internationaal uitbreiden, behandelt onze [Shopify ecommerce SEO-gids](/blog/shopify-ecommerce-seo) platformspecifieke implementatiedetails.",
           ],
+          callout: { title: "One Market at a Time", text: "A Dutch electronics store launched DE, FR, and BE simultaneously. After 6 months none performed. Focusing entirely on Germany for 4 months achieved profitability before reopening other markets." },
         },
       ],
     },

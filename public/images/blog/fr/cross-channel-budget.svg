@@ -1,0 +1,42 @@
+<svg viewBox="0 0 680 300" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <text x="340" y="28" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#a78bfa">Recommended Budget Allocation by Growth Stage</text>
+  <!-- Bars - Early stage -->
+  <text x="50" y="70" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#e2e8f0">Early Stage</text>
+  <rect x="150" y="55" width="200" height="22" rx="4" fill="#60a5fa" opacity="0.3" stroke="#60a5fa" stroke-width="1"/>
+  <text x="250" y="70" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">PPC 40%</text>
+  <rect x="350" y="55" width="150" height="22" rx="4" fill="#a78bfa" opacity="0.3" stroke="#a78bfa" stroke-width="1"/>
+  <text x="425" y="70" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">SEO 30%</text>
+  <rect x="500" y="55" width="100" height="22" rx="4" fill="#f97316" opacity="0.3" stroke="#f97316" stroke-width="1"/>
+  <text x="550" y="70" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Email 20%</text>
+  <rect x="600" y="55" width="50" height="22" rx="4" fill="#4ade80" opacity="0.3" stroke="#4ade80" stroke-width="1"/>
+  <text x="625" y="70" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">10%</text>
+  <!-- Bars - Growth stage -->
+  <text x="50" y="130" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#e2e8f0">Growth</text>
+  <rect x="150" y="115" width="150" height="22" rx="4" fill="#60a5fa" opacity="0.3" stroke="#60a5fa" stroke-width="1"/>
+  <text x="225" y="130" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">PPC 30%</text>
+  <rect x="300" y="115" width="175" height="22" rx="4" fill="#a78bfa" opacity="0.3" stroke="#a78bfa" stroke-width="1"/>
+  <text x="388" y="130" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">SEO 35%</text>
+  <rect x="475" y="115" width="100" height="22" rx="4" fill="#f97316" opacity="0.3" stroke="#f97316" stroke-width="1"/>
+  <text x="525" y="130" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Email 20%</text>
+  <rect x="575" y="115" width="75" height="22" rx="4" fill="#4ade80" opacity="0.3" stroke="#4ade80" stroke-width="1"/>
+  <text x="612" y="130" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">15%</text>
+  <!-- Bars - Mature stage -->
+  <text x="50" y="190" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#e2e8f0">Mature</text>
+  <rect x="150" y="175" width="100" height="22" rx="4" fill="#60a5fa" opacity="0.3" stroke="#60a5fa" stroke-width="1"/>
+  <text x="200" y="190" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">PPC 20%</text>
+  <rect x="250" y="175" width="200" height="22" rx="4" fill="#a78bfa" opacity="0.3" stroke="#a78bfa" stroke-width="1"/>
+  <text x="350" y="190" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">SEO 40%</text>
+  <rect x="450" y="175" width="100" height="22" rx="4" fill="#f97316" opacity="0.3" stroke="#f97316" stroke-width="1"/>
+  <text x="500" y="190" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Email 20%</text>
+  <rect x="550" y="175" width="100" height="22" rx="4" fill="#4ade80" opacity="0.3" stroke="#4ade80" stroke-width="1"/>
+  <text x="600" y="190" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Social 20%</text>
+  <!-- Legend -->
+  <rect x="200" y="240" width="12" height="12" rx="2" fill="#60a5fa" opacity="0.4"/>
+  <text x="218" y="250" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">PPC</text>
+  <rect x="270" y="240" width="12" height="12" rx="2" fill="#a78bfa" opacity="0.4"/>
+  <text x="288" y="250" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">SEO</text>
+  <rect x="330" y="240" width="12" height="12" rx="2" fill="#f97316" opacity="0.4"/>
+  <text x="348" y="250" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Email</text>
+  <rect x="400" y="240" width="12" height="12" rx="2" fill="#4ade80" opacity="0.4"/>
+  <text x="418" y="250" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Social</text>
+</svg>

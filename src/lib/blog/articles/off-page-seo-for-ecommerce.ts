@@ -3,7 +3,7 @@ import type { BlogArticle } from "../types";
 export const offPageSeoForEcommerce: BlogArticle = {
   slug: "off-page-seo-for-ecommerce",
   category: "link-building",
-  publishDate: "2025-07-01",
+  publishDate: "2026-02-28",
   readingTime: 11,
   author: "Fabian van Til",
   authorRole: "CEO at EcomSEO",
@@ -22,6 +22,7 @@ export const offPageSeoForEcommerce: BlogArticle = {
       sections: [
         {
           heading: "Why off-page SEO still moves the needle for ecommerce",
+          callout: { title: "Authority Impact", text: "One client improved their domain rating from 28 to 47 over eight months through focused link building. Organic revenue increased 215% during the same period with minimal on-page changes." },
           body: [
             "On-page optimization gets your store indexed and understood by search engines. Off-page SEO is what makes Google trust your store enough to rank it above competitors. For ecommerce specifically, that trust signal is hard to earn because product and category pages rarely attract links naturally. Before investing in link building, make sure your technical foundation is solid — read our guide to [technical SEO for ecommerce](/blog/technical-seo-for-ecommerce).",
             "Think about it. Nobody bookmarks a product page to share with friends the way they might share a blog post or news article. Nobody writes a blog linking to your category page for 'men's leather wallets.' That is the core challenge of ecommerce link building: the pages you need to rank are the pages that are hardest to get links to.",
@@ -38,9 +39,11 @@ export const offPageSeoForEcommerce: BlogArticle = {
             "We build lists of target review sites by searching for '[category] + review,' '[category] + best,' and '[competitor product name] + review.' Then we check each site's domain authority, traffic estimates, and whether their existing reviews include dofollow links to product pages. This filtering narrows 500 prospects down to about 40-60 worth pursuing.",
             "Product seeding works well for physical goods. Send the product for free, let the blogger use it, and ask for an honest review. Some will link to your product page. Some will link to your homepage. Either is valuable. Do not ask for specific anchor text or link placement. That turns a natural editorial link into something that looks manipulative to Google.",
           ],
+          image: { src: "/images/blog/offpage-review-outreach.svg", alt: "Product review outreach funnel showing progression from 500 prospects to 50 qualified to 11 replies to 8-10 links", caption: "A targeted review outreach campaign converts at 22% response rate when you filter for quality first." },
         },
         {
           heading: "Supplier and manufacturer link opportunities",
+          callout: { title: "60-70% Success Rate", text: "Manufacturer outreach for retailer listings has a 60-70% success rate. One outdoor equipment client secured 21 listings from 34 brands with an average referring domain rating of 52, improving category page rankings by 8 positions on average." },
           body: [
             "If you sell products from other brands, those manufacturers often have 'where to buy' or 'authorized retailers' pages on their websites. Getting listed there is one of the easiest and most valuable link building tactics for ecommerce.",
             "These links are powerful for two reasons. First, manufacturer websites typically have high domain authority. Second, the links come from pages that are directly relevant to your product categories. A link from a 'where to buy' page on a DR 70 brand website is worth more than a guest post link on a generic business blog.",
@@ -68,6 +71,7 @@ export const offPageSeoForEcommerce: BlogArticle = {
             "Expert commentary is the easiest digital PR tactic to execute. Sign up for journalist request services like HARO (now Connectively), Qwoted, or Source of Sources. Journalists post requests for expert quotes, and if your response gets selected, you earn a link from their publication. We respond to 10-15 relevant requests per week for each client and land about 2-4 placements per month.",
             "Product launch announcements can earn links if the product is genuinely interesting. A standard product launch will not get coverage. But a product with an unusual backstory, a unique feature, or a connection to a current trend has a chance. Frame the pitch around the story, not the product.",
           ],
+          image: { src: "/images/blog/offpage-digital-pr-tactics.svg", alt: "Four digital PR tactics for ecommerce: data studies, seasonal angles, expert quotes, and product stories with monthly cadence", caption: "A consistent digital PR cadence combines high-effort data studies with low-effort HARO responses." },
         },
         {
           heading: "Broken link building and link reclamation",
@@ -92,6 +96,7 @@ export const offPageSeoForEcommerce: BlogArticle = {
         },
         {
           heading: "Building a sustainable ecommerce link building program",
+          image: { src: "/images/blog/link-building-tactics.svg", alt: "Bubble chart plotting ecommerce link building tactics by impact versus effort, with supplier links and brand mentions as easy wins", caption: "Link building tactics mapped by impact and effort -- start with the easy wins" },
           body: [
             "Link building for ecommerce is not something you do once and forget about. Your competitors are building links too. The sites that rank consistently are the ones that earn links consistently.",
             "We recommend allocating specific effort to each tactic on a monthly basis. Product review outreach is ongoing because new bloggers enter every niche constantly. Manufacturer link requests should happen every time you add a new brand. Digital PR should produce at least one pitch per month. Broken link building is a periodic sweep, maybe once per quarter.",
@@ -115,6 +120,7 @@ export const offPageSeoForEcommerce: BlogArticle = {
             "Wir haben Linkprofile für über 80 Onlineshops aufgebaut. Die Daten zeigen durchgehend, dass Shops mit starkem Off-Page SEO besser abschneiden als Shops mit besserer On-Page-Optimierung, aber schwachem Backlink-Profil. Ein Kunde verbesserte sein Domain-Rating innerhalb von acht Monaten durch gezielten Linkaufbau von 28 auf 47. Der organische Umsatz stieg im gleichen Zeitraum um 215 %, obwohl wir nur minimale On-Page-Änderungen vorgenommen haben.",
             "Dieser Leitfaden behandelt die Linkaufbau-Strategien, die im Ecommerce tatsächlich funktionieren, zusammen mit Hinweisen, wie Sie Linkqualität messen und Taktiken vermeiden, die zu einer Abstrafung führen können.",
           ],
+          callout: { title: "Authority Impact", text: "One client improved their domain rating from 28 to 47 over eight months through focused link building. Organic revenue increased 215% during the same period with minimal on-page changes." },
         },
         {
           heading: "Produktbewertungen und redaktionelle Erwähnungen",
@@ -125,6 +131,7 @@ export const offPageSeoForEcommerce: BlogArticle = {
             "Wir erstellen Listen von Ziel-Bewertungsseiten, indem wir nach ‚[Kategorie] + Test', ‚[Kategorie] + beste' und ‚[Konkurrenzprodukt] + Bewertung' suchen. Dann prüfen wir bei jeder Seite die Domain Authority, geschätzten Traffic und ob die bestehenden Bewertungen dofollow-Links zu Produktseiten enthalten. Dieses Filtern reduziert 500 Interessenten auf etwa 40–60, die es wert sind, kontaktiert zu werden.",
             "Produktseeding funktioniert gut bei physischen Gütern. Senden Sie das Produkt kostenlos, lassen Sie den Blogger es verwenden, und bitten Sie um eine ehrliche Bewertung. Einige werden auf Ihre Produktseite verlinken. Andere werden auf Ihre Startseite verlinken. Beides ist wertvoll. Bitten Sie nicht um bestimmte Ankertexte oder Link-Platzierungen. Das verwandelt einen natürlichen redaktionellen Link in etwas, das für Google manipulativ aussieht.",
           ],
+          image: { src: "/images/blog/de/offpage-review-outreach.svg", alt: "Product review outreach funnel showing progression from 500 prospects to 50 qualified to 11 replies to 8-10 links", caption: "A targeted review outreach campaign converts at 22% response rate when you filter for quality first." },
         },
         {
           heading: "Linkmöglichkeiten bei Lieferanten und Herstellern",
@@ -135,6 +142,7 @@ export const offPageSeoForEcommerce: BlogArticle = {
             "Für einen Kunden, der Outdoor-Ausrüstung verkauft, haben wir 34 Marken identifiziert, die er führte. Innerhalb von drei Monaten haben wir ‚Wo kaufen'-Einträge auf 21 Hersteller-Websites gesichert. Diese 21 Links hatten ein durchschnittliches Referring-Domain-Rating von 52. Die Kategorieseiten des Kunden für diese Marken verbesserten sich im Durchschnitt um 8 Ranking-Positionen.",
             "Diese Taktik skaliert mit Ihrem Produktkatalog. Jede neue Marke, die Sie aufnehmen, ist ein potenzieller Link von deren Website. Wir integrieren die Herstelleransprache als Standardschritt, wann immer ein Kunde neue Marken in seinen Shop aufnimmt.",
           ],
+          callout: { title: "60-70% Success Rate", text: "Manufacturer outreach for retailer listings has a 60-70% success rate. One outdoor equipment client secured 21 listings from 34 brands with an average referring domain rating of 52, improving category page rankings by 8 positions on average." },
         },
         {
           heading: "Linkaufbau über Ressourcenseiten für Onlineshops",
@@ -155,6 +163,7 @@ export const offPageSeoForEcommerce: BlogArticle = {
             "Expertenkommentare sind die am einfachsten umzusetzende digitale PR-Taktik. Melden Sie sich bei Journalistenanfrage-Diensten wie HARO (jetzt Connectively), Qwoted oder Source of Sources an. Journalisten veröffentlichen Anfragen nach Expertenzitaten, und wenn Ihre Antwort ausgewählt wird, erhalten Sie einen Link von deren Publikation. Wir beantworten 10–15 relevante Anfragen pro Woche für jeden Kunden und erzielen etwa 2–4 Platzierungen pro Monat.",
             "Produktlaunch-Ankündigungen können Links verdienen, wenn das Produkt wirklich interessant ist. Ein Standard-Produktlaunch wird keine Berichterstattung bekommen. Aber ein Produkt mit einer ungewöhnlichen Entstehungsgeschichte, einem einzigartigen Feature oder einem Bezug zu einem aktuellen Trend hat eine Chance. Gestalten Sie den Pitch um die Geschichte herum, nicht um das Produkt.",
           ],
+          image: { src: "/images/blog/de/offpage-digital-pr-tactics.svg", alt: "Four digital PR tactics for ecommerce: data studies, seasonal angles, expert quotes, and product stories with monthly cadence", caption: "A consistent digital PR cadence combines high-effort data studies with low-effort HARO responses." },
         },
         {
           heading: "Broken Link Building und Link Reclamation",
@@ -186,6 +195,7 @@ export const offPageSeoForEcommerce: BlogArticle = {
             "Vermeiden Sie Abkürzungen. Linkkauf, PBN-Links und Massenverzeichniseinträge zeigen möglicherweise kurzfristige Erfolge, schaffen aber langfristiges Risiko. Wir haben Kunden übernommen, die zuvor Black-Hat-Linkaufbau betrieben haben, und Monate damit verbracht, den Schaden zu bereinigen. Ein Shop hatte eine manuelle Abstrafung, deren Aufhebung sechs Monate dauerte und geschätzte 400.000 Euro an entgangenem Umsatz in diesem Zeitraum kostete. Für einen ganzheitlichen Blick darauf, wie Off-Page-Arbeit in Ihren Gesamtplan passt, lesen Sie unseren [Ecommerce-SEO-Strategie-Leitfaden](/blog/ecommerce-seo-strategy).",
             "Die beste Off-Page-SEO-Strategie für Ecommerce kombiniert mehrere Taktiken, setzt auf Relevanz statt Volumen und behandelt Linkaufbau als laufende Investition statt als einmaliges Projekt. Beginnen Sie mit den einfachsten Erfolgen (Herstellerlinks und Markenerwähnungs-Reclamation), arbeiten Sie sich zu komplexeren Taktiken vor (digitale PR und Ressourcenseiten-Aufbau) und messen Sie kontinuierlich die Auswirkung auf die umsatztreibenden Seiten. Sehen Sie unsere [Linkaufbau-Ergebnisse](/cases) in Kundenfallstudien. Wenn Sie Expertenunterstützung bei der Umsetzung dieser Strategien wünschen, entdecken Sie unsere [Ecommerce-Linkaufbau-Dienstleistungen](/link-building).",
           ],
+          image: { src: "/images/blog/de/link-building-tactics.svg", alt: "Bubble chart plotting ecommerce link building tactics by impact versus effort, with supplier links and brand mentions as easy wins", caption: "Link building tactics mapped by impact and effort -- start with the easy wins" },
         },
       ],
     },
@@ -202,6 +212,7 @@ export const offPageSeoForEcommerce: BlogArticle = {
             "Nous avons construit des profils de liens pour plus de 80 boutiques en ligne. Les données montrent systématiquement que les boutiques avec un SEO off-page solide surpassent celles qui ont une meilleure optimisation on-page mais un profil de backlinks faible. Un client a amélioré son domain rating de 28 à 47 en huit mois grâce à un link building ciblé. Le chiffre d'affaires organique a augmenté de 215 % durant la même période, bien que nous n'ayons apporté que des modifications on-page minimales.",
             "Ce guide couvre les stratégies de link building qui fonctionnent réellement pour le ecommerce, ainsi que la manière de mesurer la qualité des liens et d'éviter les tactiques qui vous vaudront une pénalité.",
           ],
+          callout: { title: "Authority Impact", text: "One client improved their domain rating from 28 to 47 over eight months through focused link building. Organic revenue increased 215% during the same period with minimal on-page changes." },
         },
         {
           heading: "Avis produits et mentions éditoriales",
@@ -212,6 +223,7 @@ export const offPageSeoForEcommerce: BlogArticle = {
             "Nous construisons des listes de sites d'avis cibles en recherchant « [catégorie] + avis », « [catégorie] + meilleur » et « [nom du produit concurrent] + test ». Ensuite, nous vérifions pour chaque site l'autorité de domaine, les estimations de trafic et si les avis existants incluent des liens dofollow vers les pages produits. Ce filtrage réduit 500 prospects à environ 40 à 60 qui méritent d'être contactés.",
             "Le product seeding fonctionne bien pour les produits physiques. Envoyez le produit gratuitement, laissez le blogueur l'utiliser et demandez un avis honnête. Certains feront un lien vers votre page produit. D'autres vers votre page d'accueil. Les deux sont précieux. Ne demandez pas de texte d'ancrage spécifique ni de placement de lien. Cela transforme un lien éditorial naturel en quelque chose qui paraît manipulatoire pour Google.",
           ],
+          image: { src: "/images/blog/fr/offpage-review-outreach.svg", alt: "Product review outreach funnel showing progression from 500 prospects to 50 qualified to 11 replies to 8-10 links", caption: "A targeted review outreach campaign converts at 22% response rate when you filter for quality first." },
         },
         {
           heading: "Opportunités de liens auprès des fournisseurs et fabricants",
@@ -222,6 +234,7 @@ export const offPageSeoForEcommerce: BlogArticle = {
             "Pour un client vendant du matériel de plein air, nous avons identifié 34 marques qu'il distribuait. En trois mois, nous avons obtenu des inscriptions « où acheter » sur 21 sites web de fabricants. Ces 21 liens avaient un domain rating moyen de 52. Les pages catégories du client pour ces marques ont connu une amélioration moyenne de 8 positions dans les classements.",
             "Cette tactique évolue avec votre catalogue produits. Chaque nouvelle marque que vous ajoutez est un lien potentiel depuis leur site web. Nous intégrons la sollicitation des fabricants comme étape standard chaque fois qu'un client ajoute de nouvelles marques à sa boutique.",
           ],
+          callout: { title: "60-70% Success Rate", text: "Manufacturer outreach for retailer listings has a 60-70% success rate. One outdoor equipment client secured 21 listings from 34 brands with an average referring domain rating of 52, improving category page rankings by 8 positions on average." },
         },
         {
           heading: "Link building via les pages de ressources pour les boutiques en ligne",
@@ -242,6 +255,7 @@ export const offPageSeoForEcommerce: BlogArticle = {
             "Les commentaires d'experts sont la tactique de PR digitale la plus facile à mettre en œuvre. Inscrivez-vous à des services de demandes de journalistes comme HARO (désormais Connectively), Qwoted ou Source of Sources. Les journalistes publient des demandes de citations d'experts, et si votre réponse est sélectionnée, vous obtenez un lien depuis leur publication. Nous répondons à 10 à 15 demandes pertinentes par semaine pour chaque client et obtenons environ 2 à 4 placements par mois.",
             "Les annonces de lancement de produits peuvent générer des liens si le produit est réellement intéressant. Un lancement standard ne sera pas couvert. Mais un produit avec une histoire originale, une caractéristique unique ou un lien avec une tendance actuelle a ses chances. Articulez le pitch autour de l'histoire, pas du produit.",
           ],
+          image: { src: "/images/blog/fr/offpage-digital-pr-tactics.svg", alt: "Four digital PR tactics for ecommerce: data studies, seasonal angles, expert quotes, and product stories with monthly cadence", caption: "A consistent digital PR cadence combines high-effort data studies with low-effort HARO responses." },
         },
         {
           heading: "Broken link building et récupération de liens",
@@ -273,6 +287,7 @@ export const offPageSeoForEcommerce: BlogArticle = {
             "Évitez les raccourcis. L'achat de liens, les liens PBN et les soumissions massives dans les annuaires peuvent montrer des gains à court terme, mais ils créent un risque à long terme. Nous avons repris des clients qui avaient auparavant utilisé du link building black-hat et passé des mois à réparer les dégâts. Une boutique avait une pénalité manuelle dont la résolution a pris six mois et coûté un manque à gagner estimé à 400 000 euros pendant cette période. Pour une vision globale de la façon dont le travail off-page s'intègre dans votre plan d'ensemble, lisez notre [guide de stratégie SEO ecommerce](/blog/ecommerce-seo-strategy).",
             "La meilleure stratégie de SEO off-page pour le ecommerce combine plusieurs tactiques, privilégie la pertinence au volume et traite le link building comme un investissement continu plutôt qu'un projet ponctuel. Commencez par les victoires les plus faciles (liens fabricants et récupération de mentions de marque), progressez vers des tactiques plus complexes (PR digitale et link building via les pages de ressources) et mesurez continuellement l'impact sur les pages qui génèrent du chiffre d'affaires. Consultez nos [résultats de link building](/cases) dans nos études de cas clients. Si vous souhaitez un accompagnement expert pour mettre en œuvre ces stratégies, découvrez nos [services de link building ecommerce](/link-building).",
           ],
+          image: { src: "/images/blog/fr/link-building-tactics.svg", alt: "Bubble chart plotting ecommerce link building tactics by impact versus effort, with supplier links and brand mentions as easy wins", caption: "Link building tactics mapped by impact and effort -- start with the easy wins" },
         },
       ],
     },
@@ -289,6 +304,7 @@ export const offPageSeoForEcommerce: BlogArticle = {
             "Hemos construido perfiles de enlaces para más de 80 tiendas online. Los datos muestran de forma consistente que las tiendas con un SEO off-page sólido superan a las tiendas con mejor optimización on-page pero perfiles de backlinks débiles. Un cliente mejoró su domain rating de 28 a 47 en ocho meses mediante link building enfocado. Los ingresos orgánicos aumentaron un 215 % durante ese mismo periodo, aunque apenas realizamos cambios on-page.",
             "Esta guía cubre las estrategias de link building que realmente funcionan para el ecommerce, junto con cómo medir la calidad de los enlaces y evitar las tácticas que pueden acarrear penalizaciones.",
           ],
+          callout: { title: "Authority Impact", text: "One client improved their domain rating from 28 to 47 over eight months through focused link building. Organic revenue increased 215% during the same period with minimal on-page changes." },
         },
         {
           heading: "Reseñas de productos y menciones editoriales",
@@ -299,6 +315,7 @@ export const offPageSeoForEcommerce: BlogArticle = {
             "Creamos listas de sitios de reseñas objetivo buscando « [categoría] + opiniones », « [categoría] + mejores » y « [nombre del producto competidor] + reseña ». Luego verificamos en cada sitio la autoridad de dominio, estimaciones de tráfico y si las reseñas existentes incluyen enlaces dofollow a páginas de productos. Este filtrado reduce 500 prospectos a unos 40-60 que vale la pena contactar.",
             "El product seeding funciona bien para productos físicos. Envía el producto gratis, deja que el blogger lo use y pide una reseña honesta. Algunos enlazarán a tu página de producto. Otros enlazarán a tu página de inicio. Ambos son valiosos. No pidas un texto ancla específico ni una ubicación determinada del enlace. Eso convierte un enlace editorial natural en algo que parece manipulador para Google.",
           ],
+          image: { src: "/images/blog/es/offpage-review-outreach.svg", alt: "Product review outreach funnel showing progression from 500 prospects to 50 qualified to 11 replies to 8-10 links", caption: "A targeted review outreach campaign converts at 22% response rate when you filter for quality first." },
         },
         {
           heading: "Oportunidades de enlaces con proveedores y fabricantes",
@@ -309,6 +326,7 @@ export const offPageSeoForEcommerce: BlogArticle = {
             "Para un cliente que vendía equipamiento outdoor, identificamos 34 marcas que distribuía. En tres meses, conseguimos listados de « dónde comprar » en 21 sitios web de fabricantes. Esos 21 enlaces tenían un domain rating medio de 52. Las páginas de categoría del cliente para esas marcas mejoraron una media de 8 posiciones en los rankings.",
             "Esta táctica escala con tu catálogo de productos. Cada nueva marca que añades es un enlace potencial desde su sitio web. Incluimos la solicitud a fabricantes como paso estándar cada vez que un cliente añade nuevas marcas a su tienda.",
           ],
+          callout: { title: "60-70% Success Rate", text: "Manufacturer outreach for retailer listings has a 60-70% success rate. One outdoor equipment client secured 21 listings from 34 brands with an average referring domain rating of 52, improving category page rankings by 8 positions on average." },
         },
         {
           heading: "Link building con páginas de recursos para tiendas online",
@@ -329,6 +347,7 @@ export const offPageSeoForEcommerce: BlogArticle = {
             "Los comentarios de expertos son la táctica de PR digital más fácil de ejecutar. Regístrate en servicios de solicitudes de periodistas como HARO (ahora Connectively), Qwoted o Source of Sources. Los periodistas publican solicitudes de citas de expertos y, si tu respuesta es seleccionada, obtienes un enlace desde su publicación. Respondemos a 10-15 solicitudes relevantes por semana para cada cliente y conseguimos aproximadamente 2-4 menciones al mes.",
             "Los anuncios de lanzamiento de productos pueden generar enlaces si el producto es genuinamente interesante. Un lanzamiento de producto estándar no obtendrá cobertura. Pero un producto con una historia inusual, una característica única o una conexión con una tendencia actual tiene posibilidades. Enfoca el pitch en la historia, no en el producto.",
           ],
+          image: { src: "/images/blog/es/offpage-digital-pr-tactics.svg", alt: "Four digital PR tactics for ecommerce: data studies, seasonal angles, expert quotes, and product stories with monthly cadence", caption: "A consistent digital PR cadence combines high-effort data studies with low-effort HARO responses." },
         },
         {
           heading: "Broken link building y recuperación de enlaces",
@@ -360,6 +379,7 @@ export const offPageSeoForEcommerce: BlogArticle = {
             "Evita los atajos. La compra de enlaces, los enlaces PBN y las presentaciones masivas en directorios pueden mostrar ganancias a corto plazo, pero crean riesgo a largo plazo. Hemos asumido clientes que anteriormente usaron link building black-hat y pasamos meses limpiando el daño. Una tienda tuvo una penalización manual que tardó seis meses en resolverse y les costó unos 400.000 euros estimados en ingresos perdidos durante ese periodo. Para una visión integral de cómo el trabajo off-page encaja en tu plan general, lee nuestra [guía de estrategia SEO para ecommerce](/blog/ecommerce-seo-strategy).",
             "La mejor estrategia de SEO off-page para ecommerce combina múltiples tácticas, se centra en la relevancia sobre el volumen y trata el link building como una inversión continua en lugar de un proyecto puntual. Empieza con las victorias más fáciles (enlaces de fabricantes y recuperación de menciones de marca), avanza hacia tácticas más complejas (PR digital y link building con páginas de recursos) y sigue midiendo el impacto en las páginas que generan ingresos. Consulta nuestros [resultados de link building](/cases) en estudios de caso de clientes. Si quieres apoyo experto para ejecutar estas estrategias, explora nuestros [servicios de link building para ecommerce](/link-building).",
           ],
+          image: { src: "/images/blog/es/link-building-tactics.svg", alt: "Bubble chart plotting ecommerce link building tactics by impact versus effort, with supplier links and brand mentions as easy wins", caption: "Link building tactics mapped by impact and effort -- start with the easy wins" },
         },
       ],
     },
@@ -376,6 +396,7 @@ export const offPageSeoForEcommerce: BlogArticle = {
             "Abbiamo costruito profili di link per oltre 80 negozi online. I dati mostrano costantemente che i negozi con un forte SEO off-page superano quelli con una migliore ottimizzazione on-page ma profili di backlink deboli. Un cliente ha migliorato il suo domain rating da 28 a 47 in otto mesi attraverso un link building mirato. Il fatturato organico è aumentato del 215% nello stesso periodo, nonostante abbiamo apportato modifiche on-page minime.",
             "Questa guida copre le strategie di link building che funzionano davvero per l'ecommerce, insieme a come misurare la qualità dei link ed evitare le tattiche che possono portare a penalizzazioni.",
           ],
+          callout: { title: "Authority Impact", text: "One client improved their domain rating from 28 to 47 over eight months through focused link building. Organic revenue increased 215% during the same period with minimal on-page changes." },
         },
         {
           heading: "Recensioni di prodotti e menzioni editoriali",
@@ -386,6 +407,7 @@ export const offPageSeoForEcommerce: BlogArticle = {
             "Costruiamo liste di siti di recensione target cercando « [categoria] + recensione », « [categoria] + migliori » e « [nome prodotto concorrente] + recensione ». Poi verifichiamo per ogni sito la domain authority, le stime di traffico e se le recensioni esistenti includono link dofollow alle pagine prodotto. Questo filtraggio riduce 500 prospect a circa 40-60 che vale la pena contattare.",
             "Il product seeding funziona bene per i beni fisici. Invia il prodotto gratuitamente, lascia che il blogger lo usi e chiedi una recensione onesta. Alcuni faranno un link alla tua pagina prodotto. Altri alla tua homepage. Entrambi sono preziosi. Non chiedere testo di ancoraggio specifico o posizionamento del link. Questo trasforma un link editoriale naturale in qualcosa che sembra manipolativo per Google.",
           ],
+          image: { src: "/images/blog/it/offpage-review-outreach.svg", alt: "Product review outreach funnel showing progression from 500 prospects to 50 qualified to 11 replies to 8-10 links", caption: "A targeted review outreach campaign converts at 22% response rate when you filter for quality first." },
         },
         {
           heading: "Opportunità di link da fornitori e produttori",
@@ -396,6 +418,7 @@ export const offPageSeoForEcommerce: BlogArticle = {
             "Per un cliente che vendeva attrezzatura outdoor, abbiamo identificato 34 brand che distribuiva. In tre mesi, abbiamo ottenuto inserimenti « dove acquistare » su 21 siti web di produttori. Quei 21 link avevano un domain rating medio di 52. Le pagine di categoria del cliente per quei brand hanno visto un miglioramento medio di 8 posizioni nel ranking.",
             "Questa tattica scala con il tuo catalogo prodotti. Ogni nuovo brand che aggiungi è un potenziale link dal loro sito web. Includiamo il contatto con i produttori come passaggio standard ogni volta che un cliente aggiunge nuovi brand al proprio negozio.",
           ],
+          callout: { title: "60-70% Success Rate", text: "Manufacturer outreach for retailer listings has a 60-70% success rate. One outdoor equipment client secured 21 listings from 34 brands with an average referring domain rating of 52, improving category page rankings by 8 positions on average." },
         },
         {
           heading: "Link building tramite pagine di risorse per negozi online",
@@ -416,6 +439,7 @@ export const offPageSeoForEcommerce: BlogArticle = {
             "I commenti degli esperti sono la tattica di digital PR più facile da eseguire. Iscriviti a servizi di richieste di giornalisti come HARO (ora Connectively), Qwoted o Source of Sources. I giornalisti pubblicano richieste di citazioni di esperti, e se la tua risposta viene selezionata, ottieni un link dalla loro pubblicazione. Rispondiamo a 10-15 richieste pertinenti a settimana per ogni cliente e otteniamo circa 2-4 pubblicazioni al mese.",
             "Gli annunci di lancio di prodotti possono ottenere link se il prodotto è genuinamente interessante. Un lancio di prodotto standard non otterrà copertura. Ma un prodotto con una storia insolita, una caratteristica unica o un collegamento a una tendenza attuale ha delle possibilità. Costruisci il pitch attorno alla storia, non al prodotto.",
           ],
+          image: { src: "/images/blog/it/offpage-digital-pr-tactics.svg", alt: "Four digital PR tactics for ecommerce: data studies, seasonal angles, expert quotes, and product stories with monthly cadence", caption: "A consistent digital PR cadence combines high-effort data studies with low-effort HARO responses." },
         },
         {
           heading: "Broken link building e recupero dei link",
@@ -447,6 +471,7 @@ export const offPageSeoForEcommerce: BlogArticle = {
             "Evita le scorciatoie. L'acquisto di link, i link PBN e le iscrizioni di massa alle directory possono mostrare guadagni a breve termine, ma creano rischi a lungo termine. Abbiamo preso in carico clienti che in precedenza avevano usato link building black-hat e abbiamo impiegato mesi per riparare i danni. Un negozio ha avuto una penalizzazione manuale la cui risoluzione ha richiesto sei mesi ed è costata una perdita stimata di 400.000 euro di fatturato in quel periodo. Per una visione olistica di come il lavoro off-page si integra nel tuo piano complessivo, leggi la nostra [guida alla strategia SEO ecommerce](/blog/ecommerce-seo-strategy).",
             "La migliore strategia di SEO off-page per l'ecommerce combina più tattiche, si concentra sulla rilevanza piuttosto che sul volume e tratta il link building come un investimento continuo piuttosto che un progetto una tantum. Inizia con le vittorie più facili (link dai produttori e recupero delle menzioni del brand), passa a tattiche più complesse (digital PR e link building tramite pagine di risorse) e continua a misurare l'impatto sulle pagine che generano fatturato. Consulta i nostri [risultati di link building](/cases) nei case study dei clienti. Se desideri supporto esperto nell'esecuzione di queste strategie, scopri i nostri [servizi di link building per ecommerce](/link-building).",
           ],
+          image: { src: "/images/blog/it/link-building-tactics.svg", alt: "Bubble chart plotting ecommerce link building tactics by impact versus effort, with supplier links and brand mentions as easy wins", caption: "Link building tactics mapped by impact and effort -- start with the easy wins" },
         },
       ],
     },
@@ -463,6 +488,7 @@ export const offPageSeoForEcommerce: BlogArticle = {
             "We hebben linkprofielen opgebouwd voor meer dan 80 webshops. De data laat consequent zien dat webshops met sterke off-page SEO beter presteren dan webshops met betere on-page optimalisatie maar zwakke backlinkprofielen. Eén klant verbeterde zijn domain rating van 28 naar 47 in acht maanden door gerichte linkbuilding. De organische omzet steeg 215% in diezelfde periode, hoewel we minimale on-page wijzigingen doorvoerden.",
             "Deze gids behandelt de linkbuildingstrategieën die daadwerkelijk werken voor ecommerce, samen met hoe je linkkwaliteit meet en de tactieken vermijdt die tot een penalty kunnen leiden.",
           ],
+          callout: { title: "Authority Impact", text: "One client improved their domain rating from 28 to 47 over eight months through focused link building. Organic revenue increased 215% during the same period with minimal on-page changes." },
         },
         {
           heading: "Productreviews en redactionele vermeldingen",
@@ -473,6 +499,7 @@ export const offPageSeoForEcommerce: BlogArticle = {
             "We bouwen lijsten van doelreviewsites door te zoeken op '[categorie] + review', '[categorie] + beste' en '[naam concurrerend product] + review'. Vervolgens controleren we bij elke site de domain authority, geschatte traffic en of de bestaande reviews dofollow-links naar productpagina's bevatten. Dit filteren reduceert 500 prospects tot ongeveer 40-60 die het waard zijn om te benaderen.",
             "Product seeding werkt goed voor fysieke producten. Stuur het product gratis op, laat de blogger het gebruiken en vraag om een eerlijke review. Sommigen zullen linken naar je productpagina. Anderen naar je homepage. Beide zijn waardevol. Vraag niet om specifieke ankertekst of linkplaatsing. Dat verandert een natuurlijke redactionele link in iets dat er manipulatief uitziet voor Google.",
           ],
+          image: { src: "/images/blog/nl/offpage-review-outreach.svg", alt: "Product review outreach funnel showing progression from 500 prospects to 50 qualified to 11 replies to 8-10 links", caption: "A targeted review outreach campaign converts at 22% response rate when you filter for quality first." },
         },
         {
           heading: "Linkmogelijkheden bij leveranciers en fabrikanten",
@@ -483,6 +510,7 @@ export const offPageSeoForEcommerce: BlogArticle = {
             "Voor een klant die outdooruitrusting verkocht, identificeerden we 34 merken die hij voerde. Binnen drie maanden hebben we 'waar te koop'-vermeldingen op 21 fabrikantwebsites veiliggesteld. Die 21 links hadden een gemiddeld referring domain rating van 52. De categoriepagina's van de klant voor die merken zagen een gemiddelde verbetering van 8 posities in de rankings.",
             "Deze tactiek schaalt mee met je productcatalogus. Elk nieuw merk dat je toevoegt is een potentiële link van hun website. We nemen fabrikantbenadering op als standaardstap wanneer een klant nieuwe merken aan zijn webshop toevoegt.",
           ],
+          callout: { title: "60-70% Success Rate", text: "Manufacturer outreach for retailer listings has a 60-70% success rate. One outdoor equipment client secured 21 listings from 34 brands with an average referring domain rating of 52, improving category page rankings by 8 positions on average." },
         },
         {
           heading: "Linkbuilding via resourcepagina's voor webshops",
@@ -503,6 +531,7 @@ export const offPageSeoForEcommerce: BlogArticle = {
             "Expertcommentaar is de makkelijkste digitale PR-tactiek om uit te voeren. Meld je aan bij journalistenverzoekdiensten zoals HARO (nu Connectively), Qwoted of Source of Sources. Journalisten plaatsen verzoeken om expertcitaten, en als jouw reactie wordt geselecteerd, verdien je een link van hun publicatie. We reageren op 10-15 relevante verzoeken per week voor elke klant en landen ongeveer 2-4 plaatsingen per maand.",
             "Productlanceringsaankondigingen kunnen links opleveren als het product echt interessant is. Een standaard productlancering krijgt geen aandacht. Maar een product met een ongewoon achtergrondverhaal, een unieke eigenschap of een connectie met een actuele trend maakt kans. Frame de pitch rond het verhaal, niet het product.",
           ],
+          image: { src: "/images/blog/nl/offpage-digital-pr-tactics.svg", alt: "Four digital PR tactics for ecommerce: data studies, seasonal angles, expert quotes, and product stories with monthly cadence", caption: "A consistent digital PR cadence combines high-effort data studies with low-effort HARO responses." },
         },
         {
           heading: "Broken link building en linkreclamatie",
@@ -534,6 +563,7 @@ export const offPageSeoForEcommerce: BlogArticle = {
             "Vermijd shortcuts. Linkskopen, PBN-links en massale directoryaanmeldingen laten misschien kortetermijnwinst zien, maar creëren langetermijnrisico. We hebben klanten overgenomen die eerder black-hat linkbuilding gebruikten en maanden besteed aan het opruimen van de schade. Eén webshop had een handmatige penalty waarvan het oplossen zes maanden duurde en naar schatting 400.000 euro aan gederfde omzet kostte in die periode. Voor een holistisch beeld van hoe off-page werk past in je bredere plan, lees onze [ecommerce SEO-strategiegids](/blog/ecommerce-seo-strategy).",
             "De beste off-page SEO-strategie voor ecommerce combineert meerdere tactieken, focust op relevantie boven volume en behandelt linkbuilding als een doorlopende investering in plaats van een eenmalig project. Begin met de makkelijkste successen (fabrikantenlinks en merkvermeldingsreclamatie), bouw op naar complexere tactieken (digitale PR en resourcepagina-linkbuilding) en blijf de impact meten op de pagina's die omzet genereren. Bekijk onze [linkbuildingresultaten](/cases) in klantverhalen. Als je expertondersteuning wilt bij het uitvoeren van deze strategieën, bekijk dan onze [ecommerce linkbuildingdiensten](/link-building).",
           ],
+          image: { src: "/images/blog/nl/link-building-tactics.svg", alt: "Bubble chart plotting ecommerce link building tactics by impact versus effort, with supplier links and brand mentions as easy wins", caption: "Link building tactics mapped by impact and effort -- start with the easy wins" },
         },
       ],
     },

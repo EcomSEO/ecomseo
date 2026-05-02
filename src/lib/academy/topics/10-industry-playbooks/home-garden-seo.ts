@@ -16,6 +16,11 @@ export const homeGardenSeo: AcademyTopic = {
           title: "Project-Based and Problem-Solving Keyword Strategy",
           content:
             "Home and garden shoppers frequently search with a project or problem in mind rather than a specific product. Queries like \"how to organize a small kitchen,\" \"best plants for shade garden,\" \"bathroom renovation ideas on a budget,\" and \"how to build a raised garden bed\" reveal intent that is one or two steps removed from a purchase. Capturing this research-phase traffic and guiding it toward your products is the foundation of home and garden SEO.\n\nBuild keyword clusters around common home improvement projects: kitchen renovation, bathroom remodel, patio design, garden landscaping, home office setup, closet organization. For each project, map the full search journey, from inspirational queries (\"modern kitchen ideas\") through planning queries (\"kitchen cabinet dimensions guide\") to purchase queries (\"buy white shaker cabinets\"). Your content strategy should address every stage.\n\nCreate room-by-room and space-by-space category structures. Shoppers often browse by room: living room, bedroom, bathroom, kitchen, outdoor, garage. This mirrors how people think about their homes and aligns with natural search patterns. Each room-based landing page should feature relevant product categories, project inspiration, and buying guides.\n\nTarget [seasonal project keywords](/academy/seasonal-keyword-trends) aggressively. \"Spring garden preparation,\" \"winter weatherproofing supplies,\" \"summer patio furniture\", these queries spike predictably each year. Have optimized content live and indexed well before the seasonal surge.\n\nDo not ignore long-tail dimensional queries. Home and garden shoppers frequently search with specific measurements: \"60-inch bathroom vanity,\" \"8x10 area rug,\" \"36-inch wide bookcase.\" Including exact dimensions in your product titles and category filters captures this high-intent traffic that generic titles miss entirely.",
+          image: {
+            src: "/images/academy/home-project-search-journey.svg",
+            alt: "Diagram showing the home project search journey from inspiration through planning to purchase, with room-based category structure below",
+            caption: "Home shoppers follow a 3-stage journey from inspiration to planning to purchase. Your content strategy should address every stage with appropriate page types.",
+          },
           items: [
             "Build keyword clusters around home improvement projects: renovation, landscaping, organization",
             "Map the full search journey from inspiration through planning to purchase for each project type",
@@ -23,6 +28,10 @@ export const homeGardenSeo: AcademyTopic = {
             "Target seasonal project keywords 8-10 weeks before each seasonal surge",
             "Include exact dimensions in product titles to capture measurement-specific searches",
           ],
+          callout: {
+            title: "Dimension Queries",
+            text: "Home shoppers frequently search with exact measurements: \"60-inch bathroom vanity,\" \"8x10 area rug,\" \"36-inch wide bookcase.\" Including exact dimensions in product titles captures high-intent traffic that generic titles miss entirely.",
+          },
         },
         {
           title: "Product Page Optimization for Furniture and Home Goods",
@@ -59,6 +68,11 @@ export const homeGardenSeo: AcademyTopic = {
           title: "Category Architecture for Large Home Catalogs",
           content:
             "Home and garden stores often carry tens of thousands of SKUs spanning wildly different product categories, from tiny drawer knobs to full dining room sets, from seed packets to ride-on mowers. A thoughtful category architecture helps both search engines and shoppers navigate this breadth without becoming overwhelmed.\n\nOrganize your primary navigation around how shoppers think about their homes: by room (Living Room, Bedroom, Kitchen, Bathroom, Outdoor), by project type (Renovation, Decoration, Organization, Gardening), and by product category (Furniture, Lighting, Textiles, Tools, Plants). Allow shoppers to enter your catalog from any of these angles, with cross-linking between them.\n\nCreate subcategory depth that matches search specificity. Under Outdoor Furniture, create distinct pages for Patio Dining Sets, Outdoor Lounge Chairs, Garden Benches, Outdoor Storage, and Outdoor Cushions. Each should target its own keyword cluster and contain unique introductory content describing the subcategory.\n\nImplement BreadcrumbList schema on every page so Google understands your hierarchy. Breadcrumbs like Home > Outdoor > Patio Furniture > Dining Sets improve both search visibility and user navigation.\n\nBuild cross-category collection pages for common shopping missions. A page for \"Complete Patio Setup\" might pull products from outdoor furniture, outdoor lighting, planters, and outdoor textiles. A \"Home Office Essentials\" page combines desks, chairs, lighting, and storage from different categories. These mission-based pages target composite queries that single-category pages cannot capture.\n\nAdd rich category descriptions (150-300 words) that describe the collection, mention key product attributes shoppers care about (materials, styles, size ranges, price ranges), and naturally incorporate target keywords. Avoid thin category pages that show only a product grid with no supporting content.\n\nImplement smart internal linking within and between categories. A dining table product page should link to matching dining chairs. A power drill page should link to drill bit sets and workbenches. This ecosystem-based linking improves crawl efficiency, distributes authority, and drives cross-selling.",
+          image: {
+            src: "/images/academy/home-category-architecture.svg",
+            alt: "Diagram showing multi-angle category architecture organized by room, project, and product category with cross-category mission pages and breadcrumb schema",
+            caption: "Allow shoppers to enter your catalog from multiple angles, by room, project, or product category, with cross-links and mission-based collection pages.",
+          },
           items: [
             "Organize navigation by room, project type, and product category with cross-linking between angles",
             "Create subcategory pages matching search specificity with unique introductory content each",
@@ -67,6 +81,10 @@ export const homeGardenSeo: AcademyTopic = {
             "Add 150-300 word rich category descriptions with key attributes and target keywords",
             "Implement ecosystem-based internal linking between complementary products across categories",
           ],
+          callout: {
+            title: "Mission Pages Win",
+            text: "Cross-category pages like \"Complete Patio Setup\" or \"Home Office Essentials\" pull products from multiple categories and target composite queries that single-category pages cannot capture alone. These mission-based pages often rank for competitive multi-product terms.",
+          },
         },
         {
           title: "Link Building and Authority for Home and Garden Retailers",
@@ -98,13 +116,22 @@ export const homeGardenSeo: AcademyTopic = {
           title: "Projektbasierte und problemloesende Keyword-Strategie",
           content:
             "Haus- und Gartenkaeufer suchen haeufig mit einem Projekt oder Problem im Kopf statt nach einem bestimmten Produkt. Suchanfragen wie \"kleine Kueche organisieren,\" \"beste Pflanzen fuer Schattengarten,\" \"Badezimmer-Renovierung Ideen guenstig\" und \"Hochbeet selber bauen\" zeigen eine Absicht, die ein bis zwei Schritte vom Kauf entfernt ist. Diesen Recherche-Traffic zu erfassen und zu Ihren Produkten zu fuehren ist das Fundament von Haus- und Garten-SEO.\n\nBauen Sie Keyword-Cluster um gaengige Heimwerkerprojekte auf: Kuechenrenovierung, Badezimmerumbau, Terrassengestaltung, Gartenlandschaftsbau, Homeoffice-Einrichtung, Schrankorganisation. Fuer jedes Projekt kartieren Sie die komplette Suchreise, von inspirierenden Anfragen ueber Planungsanfragen bis zu Kaufanfragen.\n\nErstellen Sie Raum-fuer-Raum-Kategoriestrukturen. Kaeufer durchstoebern oft nach Raum: Wohnzimmer, Schlafzimmer, Badezimmer, Kueche, Outdoor, Garage. Dies spiegelt wider, wie Menschen ueber ihr Zuhause denken, und stimmt mit natuerlichen Suchmustern ueberein.\n\nZielen Sie aggressiv auf saisonale Projekt-Keywords. \"Fruehjahrsgartenvorbereitung,\" \"Winterwetterschutz-Zubehoer,\" \"Sommer-Terrassenmoebel\", diese Anfragen steigen vorhersagbar jedes Jahr. Weitere Informationen finden Sie in unserem Leitfaden zu [saisonale Projekt-Keywords](/academy/seasonal-keyword-trends).\n\nIgnorieren Sie Long-Tail-Abmessungsanfragen nicht. Haus- und Gartenkaeufer suchen haeufig mit spezifischen Massen: \"60 cm Badunterschrank,\" \"200x300 Teppich,\" \"80 cm breites Buecherregal.\" Exakte Abmessungen in Ihren Produkttiteln und Kategoriefiltern erfassen diesen kaufbereiten Traffic.",
-          items: [
+                    image: {
+            src: "/images/academy/de/home-project-search-journey.svg",
+            alt: "Haus und Garten Projekt-Suchreise: Von Problembewusstsein ueber Recherche und Vergleich zum Kauf",
+            caption: "Projektbasierte Keywords treiben engagierten Traffic mit langem Ueberlegungszyklus und vielen Touchpoints.",
+          },
+items: [
             "Keyword-Cluster um Heimwerkerprojekte aufbauen: Renovierung, Landschaftsbau, Organisation",
             "Die komplette Suchreise von Inspiration ueber Planung bis Kauf fuer jeden Projekttyp kartieren",
             "Raum-fuer-Raum-Kategoriestrukturen erstellen, die dem Denkverhalten der Kaeufer entsprechen",
             "Saisonale Projekt-Keywords 8-10 Wochen vor jedem saisonalen Anstieg ansprechen",
             "Exakte Abmessungen in Produkttitel aufnehmen, um massspezifische Suchen zu erfassen",
           ],
+          callout: {
+            title: "Projektbasierte Keywords",
+            text: "Haus- und Gartenkaeufer recherchieren 2-4 Wochen vor dem Kauf. Anleitungs-Content fuer die fruehe Problemphase generiert 5x mehr Touchpoints als reine Produkt-Keywords.",
+          },
         },
         {
           title: "Produktseitenoptimierung fuer Moebel und Haushaltswaren",
@@ -141,7 +168,12 @@ export const homeGardenSeo: AcademyTopic = {
           title: "Kategoriearchitektur fuer grosse Haus-Kataloge",
           content:
             "Haus- und Garten-Shops fuehren oft Zehntausende von SKUs ueber voellig unterschiedliche Produktkategorien, von kleinen Schrankknöpfen bis zu kompletten Esszimmergarnituren, von Saatguttueten bis zu Aufsitz-Rasenmähern. Eine durchdachte Kategoriearchitektur hilft sowohl Suchmaschinen als auch Kaeufern, diese Breite zu navigieren.\n\nOrganisieren Sie Ihre Hauptnavigation danach, wie Kaeufer ueber ihr Zuhause denken: nach Raum (Wohnzimmer, Schlafzimmer, Kueche, Badezimmer, Outdoor), nach Projekttyp (Renovierung, Dekoration, Organisation, Gartenarbeit) und nach Produktkategorie (Moebel, Beleuchtung, Textilien, Werkzeuge, Pflanzen). Ermoeglichen Sie Kaeufern den Einstieg aus jedem dieser Blickwinkel.\n\nSchaffen Sie Unterkategorie-Tiefe, die der Suchspezifitaet entspricht. Unter Gartenmoebel erstellen Sie eigene Seiten fuer Terrassen-Essgruppen, Outdoor-Loungestuehle, Gartenbaenke, Outdoor-Aufbewahrung und Outdoor-Kissen.\n\nImplementieren Sie BreadcrumbList-Schema auf jeder Seite, damit Google Ihre Hierarchie versteht.\n\nBauen Sie kategorieuebergreifende Sammlungsseiten fuer gaengige Einkaufsmissionen. Eine Seite fuer \"Komplette Terrassenausstattung\" koennte Produkte aus Gartenmoebeln, Aussenbeleuchtung, Pflanzgefaessen und Outdoor-Textilien zusammenfuehren.\n\nFuegen Sie reichhaltige Kategoriebeschreibungen (150-300 Woerter) hinzu und implementieren Sie intelligente interne Verlinkung innerhalb und zwischen Kategorien.",
-          items: [
+                    image: {
+            src: "/images/academy/de/home-category-architecture.svg",
+            alt: "Haus und Garten Kategorie-Architektur mit raumbasierter Navigation und kategorieuebergreifenden Projekt-Hubs",
+            caption: "Raumbasierte Navigation hilft Nutzern, Produkte intuitiv zu finden. Ergaenzen Sie mit kategorieuebergreifenden Projekt-Hubs.",
+          },
+items: [
             "Navigation nach Raum, Projekttyp und Produktkategorie mit Querverlinkung zwischen den Perspektiven organisieren",
             "Unterkategorieseiten passend zur Suchspezifitaet mit jeweils einzigartigem Einfuehrungstext erstellen",
             "BreadcrumbList-Schema auf jeder Seite fuer klare Hierarchie-Kommunikation implementieren",
@@ -149,6 +181,10 @@ export const homeGardenSeo: AcademyTopic = {
             "Reichhaltige Kategoriebeschreibungen mit 150-300 Woertern, Schluesselattributen und Ziel-Keywords hinzufuegen",
             "Oekosystembasierte interne Verlinkung zwischen ergaenzenden Produkten ueber Kategorien hinweg implementieren",
           ],
+          callout: {
+            title: "Navigationsstruktur",
+            text: "Haus-und-Garten-Shops mit raumbasierter Navigation (Kueche, Bad, Garten) konvertieren 25-35% besser als markenbasierte Navigation, weil Kaeufer nach Projekten und nicht nach Marken suchen.",
+          },
         },
         {
           title: "Linkaufbau und Autoritaet fuer Haus- und Garten-Haendler",
@@ -187,6 +223,15 @@ export const homeGardenSeo: AcademyTopic = {
             "Cibler les mots-cles de projets saisonniers 8-10 semaines avant chaque pic saisonnier",
             "Inclure les dimensions exactes dans les titres de produits pour capturer les recherches specifiques par mesure",
           ],
+          image: {
+            src: "/images/academy/fr/home-project-search-journey.svg",
+            alt: "Haus und Garten Projekt-Suchreise: Von Problembewusstsein ueber Recherche und Vergleich zum Kauf",
+            caption: "Projektbasierte Keywords treiben engagierten Traffic mit langem Ueberlegungszyklus und vielen Touchpoints.",
+          },
+          callout: {
+            title: "Projektbasierte Keywords",
+            text: "Haus- und Gartenkaeufer recherchieren 2-4 Wochen vor dem Kauf. Anleitungs-Content fuer die fruehe Problemphase generiert 5x mehr Touchpoints als reine Produkt-Keywords.",
+          },
         },
         {
           title: "Optimisation des pages produit pour le mobilier et l'equipement de maison",
@@ -231,6 +276,15 @@ export const homeGardenSeo: AcademyTopic = {
             "Ajouter des descriptions de categorie riches de 150-300 mots avec attributs cles et mots-cles cibles",
             "Implementer un maillage interne base sur l'ecosysteme entre produits complementaires a travers les categories",
           ],
+          image: {
+            src: "/images/academy/fr/home-category-architecture.svg",
+            alt: "Haus und Garten Kategorie-Architektur mit raumbasierter Navigation und kategorieuebergreifenden Projekt-Hubs",
+            caption: "Raumbasierte Navigation hilft Nutzern, Produkte intuitiv zu finden. Ergaenzen Sie mit kategorieuebergreifenden Projekt-Hubs.",
+          },
+          callout: {
+            title: "Navigationsstruktur",
+            text: "Haus-und-Garten-Shops mit raumbasierter Navigation (Kueche, Bad, Garten) konvertieren 25-35% besser als markenbasierte Navigation, weil Kaeufer nach Projekten und nicht nach Marken suchen.",
+          },
         },
         {
           title: "Link building et autorite pour les detaillants maison et jardin",
@@ -269,6 +323,15 @@ export const homeGardenSeo: AcademyTopic = {
             "Apuntar a palabras clave de proyectos estacionales 8-10 semanas antes de cada pico estacional",
             "Incluir dimensiones exactas en los titulos de producto para capturar busquedas especificas por medida",
           ],
+          image: {
+            src: "/images/academy/es/home-project-search-journey.svg",
+            alt: "Haus und Garten Projekt-Suchreise: Von Problembewusstsein ueber Recherche und Vergleich zum Kauf",
+            caption: "Projektbasierte Keywords treiben engagierten Traffic mit langem Ueberlegungszyklus und vielen Touchpoints.",
+          },
+          callout: {
+            title: "Projektbasierte Keywords",
+            text: "Haus- und Gartenkaeufer recherchieren 2-4 Wochen vor dem Kauf. Anleitungs-Content fuer die fruehe Problemphase generiert 5x mehr Touchpoints als reine Produkt-Keywords.",
+          },
         },
         {
           title: "Optimizacion de paginas de producto para muebles y articulos del hogar",
@@ -313,6 +376,15 @@ export const homeGardenSeo: AcademyTopic = {
             "Anadir descripciones de categoria ricas de 150-300 palabras con atributos clave y palabras clave objetivo",
             "Implementar enlazado interno basado en ecosistemas entre productos complementarios a traves de categorias",
           ],
+          image: {
+            src: "/images/academy/es/home-category-architecture.svg",
+            alt: "Haus und Garten Kategorie-Architektur mit raumbasierter Navigation und kategorieuebergreifenden Projekt-Hubs",
+            caption: "Raumbasierte Navigation hilft Nutzern, Produkte intuitiv zu finden. Ergaenzen Sie mit kategorieuebergreifenden Projekt-Hubs.",
+          },
+          callout: {
+            title: "Navigationsstruktur",
+            text: "Haus-und-Garten-Shops mit raumbasierter Navigation (Kueche, Bad, Garten) konvertieren 25-35% besser als markenbasierte Navigation, weil Kaeufer nach Projekten und nicht nach Marken suchen.",
+          },
         },
         {
           title: "Link building y autoridad para retailers de hogar y jardin",
@@ -351,6 +423,15 @@ export const homeGardenSeo: AcademyTopic = {
             "Mirare alle parole chiave di progetti stagionali 8-10 settimane prima di ogni picco stagionale",
             "Includere dimensioni esatte nei titoli prodotto per catturare ricerche specifiche per misura",
           ],
+          image: {
+            src: "/images/academy/it/home-project-search-journey.svg",
+            alt: "Haus und Garten Projekt-Suchreise: Von Problembewusstsein ueber Recherche und Vergleich zum Kauf",
+            caption: "Projektbasierte Keywords treiben engagierten Traffic mit langem Ueberlegungszyklus und vielen Touchpoints.",
+          },
+          callout: {
+            title: "Projektbasierte Keywords",
+            text: "Haus- und Gartenkaeufer recherchieren 2-4 Wochen vor dem Kauf. Anleitungs-Content fuer die fruehe Problemphase generiert 5x mehr Touchpoints als reine Produkt-Keywords.",
+          },
         },
         {
           title: "Ottimizzazione delle pagine prodotto per mobili e articoli per la casa",
@@ -395,6 +476,15 @@ export const homeGardenSeo: AcademyTopic = {
             "Aggiungere descrizioni di categoria ricche di 150-300 parole con attributi chiave e parole chiave target",
             "Implementare linking interno basato sull'ecosistema tra prodotti complementari attraverso le categorie",
           ],
+          image: {
+            src: "/images/academy/it/home-category-architecture.svg",
+            alt: "Haus und Garten Kategorie-Architektur mit raumbasierter Navigation und kategorieuebergreifenden Projekt-Hubs",
+            caption: "Raumbasierte Navigation hilft Nutzern, Produkte intuitiv zu finden. Ergaenzen Sie mit kategorieuebergreifenden Projekt-Hubs.",
+          },
+          callout: {
+            title: "Navigationsstruktur",
+            text: "Haus-und-Garten-Shops mit raumbasierter Navigation (Kueche, Bad, Garten) konvertieren 25-35% besser als markenbasierte Navigation, weil Kaeufer nach Projekten und nicht nach Marken suchen.",
+          },
         },
         {
           title: "Link building e autorita per retailer casa e giardino",
@@ -433,6 +523,15 @@ export const homeGardenSeo: AcademyTopic = {
             "Seizoensgebonden projectzoekwoorden 8-10 weken voor elk seizoenspiek targeten",
             "Exacte afmetingen in producttitels opnemen om maatspecifieke zoekopdrachten te vangen",
           ],
+          image: {
+            src: "/images/academy/nl/home-project-search-journey.svg",
+            alt: "Haus und Garten Projekt-Suchreise: Von Problembewusstsein ueber Recherche und Vergleich zum Kauf",
+            caption: "Projektbasierte Keywords treiben engagierten Traffic mit langem Ueberlegungszyklus und vielen Touchpoints.",
+          },
+          callout: {
+            title: "Projektbasierte Keywords",
+            text: "Haus- und Gartenkaeufer recherchieren 2-4 Wochen vor dem Kauf. Anleitungs-Content fuer die fruehe Problemphase generiert 5x mehr Touchpoints als reine Produkt-Keywords.",
+          },
         },
         {
           title: "Productpagina-optimalisatie voor meubels en huishoudelijke artikelen",
@@ -477,6 +576,15 @@ export const homeGardenSeo: AcademyTopic = {
             "Rijke categoriebeschrijvingen van 150-300 woorden toevoegen met sleutelattributen en doelzoekwoorden",
             "Ecosysteemgebaseerde interne linking implementeren tussen complementaire producten over categorieen heen",
           ],
+          image: {
+            src: "/images/academy/nl/home-category-architecture.svg",
+            alt: "Haus und Garten Kategorie-Architektur mit raumbasierter Navigation und kategorieuebergreifenden Projekt-Hubs",
+            caption: "Raumbasierte Navigation hilft Nutzern, Produkte intuitiv zu finden. Ergaenzen Sie mit kategorieuebergreifenden Projekt-Hubs.",
+          },
+          callout: {
+            title: "Navigationsstruktur",
+            text: "Haus-und-Garten-Shops mit raumbasierter Navigation (Kueche, Bad, Garten) konvertieren 25-35% besser als markenbasierte Navigation, weil Kaeufer nach Projekten und nicht nach Marken suchen.",
+          },
         },
         {
           title: "Linkbuilding en autoriteit voor huis-en-tuinretailers",

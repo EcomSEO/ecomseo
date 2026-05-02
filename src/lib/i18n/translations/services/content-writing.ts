@@ -167,7 +167,7 @@ export const contentWritingData: Record<Locale, ServicePageProps> = {
             number: "06",
             title: "Optimize Existing Content Before Writing New Pieces",
             body: "Audit your existing content for underperforming pages that are close to page one. Updating titles, adding sections, improving internal links, and refreshing outdated information can deliver faster results than creating net-new content.",
-            href: "/seo-audit",
+            href: "/tools/ecommerce-seo-audit",
             hrefLabel: "Get a content audit",
           },
           {
@@ -217,7 +217,7 @@ export const contentWritingData: Record<Locale, ServicePageProps> = {
           name: "Fabian van Til",
           role: "Strategy & Innovation",
           bio: "Fabian sets the content strategy for every engagement. After 8 years of ecommerce SEO across fashion, health, beauty, and home goods, he knows what kind of content actually ranks and sells.",
-          image: "/images/framer/C23VbBxvj2kY5TMoXAJHXWVLaA.webp",
+          image: "/images/framer/fabian-van-til-new.jpeg",
           linkedin: "https://www.linkedin.com/in/fabianvantil/",
         },
         teamMembers: [
@@ -226,7 +226,7 @@ export const contentWritingData: Record<Locale, ServicePageProps> = {
             role: "Technical & On-Page SEO",
             bio: "Dimitar handles the technical and on-page side - site architecture, structured data, and internal linking. He makes sure the content you publish has the technical foundation to actually rank.",
             image: "/images/framer/Q3tfuu2ytPAotONsFoP1ouyPZic.png",
-            linkedin: "https://www.linkedin.com/in/dimitar-georgiev-seo/",
+            linkedin: "https://bg.linkedin.com/in/dimitar-georgiev-seo-expert",
           },
           {
             name: "Martinijan Trajkovski",
@@ -286,7 +286,7 @@ export const contentWritingData: Record<Locale, ServicePageProps> = {
         {
           question: "Can you optimize existing content?",
           answer:
-            "Absolutely. We audit your existing content, identify quick wins, and optimize underperforming pages before creating new content. Often the fastest ROI comes from improving what you already have. Our [SEO audit service](/seo-audit) includes a full content gap analysis.",
+            "Absolutely. We audit your existing content, identify quick wins, and optimize underperforming pages before creating new content. Often the fastest ROI comes from improving what you already have. Our [SEO audit service](/tools/ecommerce-seo-audit) includes a full content gap analysis.",
         },
         {
           question: "How long until content starts ranking?",
@@ -466,7 +466,7 @@ export const contentWritingData: Record<Locale, ServicePageProps> = {
             number: "06",
             title: "Bestehenden Content optimieren, bevor Sie Neues erstellen",
             body: "Pr\u00fcfen Sie bestehende Inhalte auf unterperformende Seiten nahe Seite eins. Titel-Updates, zus\u00e4tzliche Abschnitte und verbesserte interne Links liefern oft schnellere Ergebnisse als v\u00f6llig neuer Content.",
-            href: "/seo-audit",
+            href: "/tools/ecommerce-seo-audit",
             hrefLabel: "Content-Audit erhalten",
           },
           {
@@ -516,7 +516,7 @@ export const contentWritingData: Record<Locale, ServicePageProps> = {
           name: "Fabian van Til",
           role: "Strategie & Innovation",
           bio: "Fabian steuert die strategische Ausrichtung aller Content-Projekte. Mit 8+ Jahren E-Commerce-SEO-Erfahrung in Mode, Gesundheit, Beauty und Wohnen verbindet er Wachstumsstrategie mit content-getriebener SEO-Innovation.",
-          image: "/images/framer/C23VbBxvj2kY5TMoXAJHXWVLaA.webp",
+          image: "/images/framer/fabian-van-til-new.jpeg",
           linkedin: "https://www.linkedin.com/in/fabianvantil/",
         },
         teamMembers: [
@@ -525,7 +525,7 @@ export const contentWritingData: Record<Locale, ServicePageProps> = {
             role: "Technisches & On-Page SEO",
             bio: "Entwickelt die technischen Grundlagen und On-Page-Optimierungen, die Content zum Ranken bringen. Spezialisiert auf Website-Architektur, Structured Data und interne Verlinkungsstrategien, die Content-Performance verst\u00e4rken.",
             image: "/images/framer/Q3tfuu2ytPAotONsFoP1ouyPZic.png",
-            linkedin: "https://www.linkedin.com/in/dimitar-georgiev-seo/",
+            linkedin: "https://bg.linkedin.com/in/dimitar-georgiev-seo-expert",
           },
           {
             name: "Martinijan Trajkovski",
@@ -585,7 +585,7 @@ export const contentWritingData: Record<Locale, ServicePageProps> = {
         {
           question: "K\u00f6nnen Sie bestehenden Content optimieren?",
           answer:
-            "Absolut. Wir pr\u00fcfen Ihren bestehenden Content, identifizieren Quick Wins und optimieren unterperformende Seiten, bevor wir neuen Content erstellen. Oft kommt der schnellste ROI durch Verbesserung des Vorhandenen. Unser [SEO-Audit-Service](/seo-audit) beinhaltet eine vollst\u00e4ndige Content-Gap-Analyse.",
+            "Absolut. Wir pr\u00fcfen Ihren bestehenden Content, identifizieren Quick Wins und optimieren unterperformende Seiten, bevor wir neuen Content erstellen. Oft kommt der schnellste ROI durch Verbesserung des Vorhandenen. Unser [SEO-Audit-Service](/tools/ecommerce-seo-audit) beinhaltet eine vollst\u00e4ndige Content-Gap-Analyse.",
         },
         {
           question: "Wie lange dauert es, bis Content rankt?",
@@ -765,7 +765,7 @@ export const contentWritingData: Record<Locale, ServicePageProps> = {
             number: "06",
             title: "Optimisez le contenu existant avant d\u2019en cr\u00e9er du nouveau",
             body: "Auditez votre contenu existant pour trouver des pages sous-performantes proches de la premi\u00e8re page. Mettre \u00e0 jour les titres, ajouter des sections et am\u00e9liorer les liens internes donne souvent des r\u00e9sultats plus rapides.",
-            href: "/seo-audit",
+            href: "/tools/ecommerce-seo-audit",
             hrefLabel: "Obtenir un audit de contenu",
           },
           {
@@ -815,7 +815,7 @@ export const contentWritingData: Record<Locale, ServicePageProps> = {
           name: "Fabian van Til",
           role: "Strat\u00e9gie & Innovation",
           bio: "Fabian supervise la strat\u00e9gie de chaque mission contenu. 8+ ans d\u2019exp\u00e9rience en SEO e-commerce dans les secteurs mode, sant\u00e9, beaut\u00e9 et maison. Il allie strat\u00e9gie de croissance et innovation SEO orient\u00e9e contenu.",
-          image: "/images/framer/C23VbBxvj2kY5TMoXAJHXWVLaA.webp",
+          image: "/images/framer/fabian-van-til-new.jpeg",
           linkedin: "https://www.linkedin.com/in/fabianvantil/",
         },
         teamMembers: [
@@ -824,7 +824,7 @@ export const contentWritingData: Record<Locale, ServicePageProps> = {
             role: "SEO technique & On-Page",
             bio: "Con\u00e7oit les fondations techniques et on-page qui font ranker le contenu. Sp\u00e9cialis\u00e9 dans l\u2019architecture de site, les donn\u00e9es structur\u00e9es et les strat\u00e9gies de liens internes qui amplifient la performance du contenu.",
             image: "/images/framer/Q3tfuu2ytPAotONsFoP1ouyPZic.png",
-            linkedin: "https://www.linkedin.com/in/dimitar-georgiev-seo/",
+            linkedin: "https://bg.linkedin.com/in/dimitar-georgiev-seo-expert",
           },
           {
             name: "Martinijan Trajkovski",
@@ -884,7 +884,7 @@ export const contentWritingData: Record<Locale, ServicePageProps> = {
         {
           question: "Pouvez-vous optimiser du contenu existant ?",
           answer:
-            "Absolument. Nous auditons votre contenu existant, identifions les gains rapides et optimisons les pages sous-performantes avant de cr\u00e9er du nouveau contenu. Souvent, le ROI le plus rapide vient de l\u2019am\u00e9lioration de l\u2019existant. Notre [service d\u2019audit SEO](/seo-audit) comprend une analyse compl\u00e8te des lacunes de contenu.",
+            "Absolument. Nous auditons votre contenu existant, identifions les gains rapides et optimisons les pages sous-performantes avant de cr\u00e9er du nouveau contenu. Souvent, le ROI le plus rapide vient de l\u2019am\u00e9lioration de l\u2019existant. Notre [service d\u2019audit SEO](/tools/ecommerce-seo-audit) comprend une analyse compl\u00e8te des lacunes de contenu.",
         },
         {
           question: "Combien de temps avant que le contenu se positionne ?",
@@ -1064,7 +1064,7 @@ export const contentWritingData: Record<Locale, ServicePageProps> = {
             number: "06",
             title: "Optimiza contenido existente antes de crear nuevo",
             body: "Audita tu contenido existente en busca de p\u00e1ginas bajo rendimiento cerca de la primera p\u00e1gina. Actualizar t\u00edtulos, a\u00f1adir secciones y mejorar enlaces internos a menudo entrega resultados m\u00e1s r\u00e1pidos que crear contenido nuevo.",
-            href: "/seo-audit",
+            href: "/tools/ecommerce-seo-audit",
             hrefLabel: "Obt\u00e9n una auditor\u00eda de contenido",
           },
           {
@@ -1114,7 +1114,7 @@ export const contentWritingData: Record<Locale, ServicePageProps> = {
           name: "Fabian van Til",
           role: "Estrategia e Innovaci\u00f3n",
           bio: "Fabian dirige la estrategia de todos los proyectos de contenido. 8+ a\u00f1os de experiencia en SEO ecommerce en los sectores de moda, salud, belleza y hogar. Combina estrategia de crecimiento con innovaci\u00f3n SEO orientada al contenido.",
-          image: "/images/framer/C23VbBxvj2kY5TMoXAJHXWVLaA.webp",
+          image: "/images/framer/fabian-van-til-new.jpeg",
           linkedin: "https://www.linkedin.com/in/fabianvantil/",
         },
         teamMembers: [
@@ -1123,7 +1123,7 @@ export const contentWritingData: Record<Locale, ServicePageProps> = {
             role: "SEO T\u00e9cnico & On-Page",
             bio: "Dise\u00f1a las bases t\u00e9cnicas y on-page que hacen que el contenido posicione. Especializado en arquitectura web, datos estructurados y estrategias de enlazado interno que amplifican el rendimiento del contenido.",
             image: "/images/framer/Q3tfuu2ytPAotONsFoP1ouyPZic.png",
-            linkedin: "https://www.linkedin.com/in/dimitar-georgiev-seo/",
+            linkedin: "https://bg.linkedin.com/in/dimitar-georgiev-seo-expert",
           },
           {
             name: "Martinijan Trajkovski",
@@ -1183,7 +1183,7 @@ export const contentWritingData: Record<Locale, ServicePageProps> = {
         {
           question: "\u00bfPueden optimizar contenido existente?",
           answer:
-            "Por supuesto. Auditamos tu contenido existente, identificamos victorias r\u00e1pidas y optimizamos p\u00e1ginas con bajo rendimiento antes de crear contenido nuevo. A menudo el ROI m\u00e1s r\u00e1pido viene de mejorar lo que ya tienes. Nuestro [servicio de auditor\u00eda SEO](/seo-audit) incluye un an\u00e1lisis completo de brechas de contenido.",
+            "Por supuesto. Auditamos tu contenido existente, identificamos victorias r\u00e1pidas y optimizamos p\u00e1ginas con bajo rendimiento antes de crear contenido nuevo. A menudo el ROI m\u00e1s r\u00e1pido viene de mejorar lo que ya tienes. Nuestro [servicio de auditor\u00eda SEO](/tools/ecommerce-seo-audit) incluye un an\u00e1lisis completo de brechas de contenido.",
         },
         {
           question: "\u00bfCu\u00e1nto tarda el contenido en posicionarse?",
@@ -1363,7 +1363,7 @@ export const contentWritingData: Record<Locale, ServicePageProps> = {
             number: "06",
             title: "Ottimizza i contenuti esistenti prima di crearne di nuovi",
             body: "Audita i contenuti esistenti per pagine sotto-performanti vicine alla prima pagina. Aggiornare titoli, aggiungere sezioni e migliorare i link interni spesso porta risultati pi\u00f9 rapidi della creazione di nuovi contenuti.",
-            href: "/seo-audit",
+            href: "/tools/ecommerce-seo-audit",
             hrefLabel: "Ottieni un audit dei contenuti",
           },
           {
@@ -1413,7 +1413,7 @@ export const contentWritingData: Record<Locale, ServicePageProps> = {
           name: "Fabian van Til",
           role: "Strategia & Innovazione",
           bio: "Fabian definisce la strategia di ogni progetto di contenuto. 8+ anni di esperienza in SEO e-commerce nei settori moda, salute, beauty e arredamento. Unisce strategia di crescita e innovazione SEO orientata ai contenuti.",
-          image: "/images/framer/C23VbBxvj2kY5TMoXAJHXWVLaA.webp",
+          image: "/images/framer/fabian-van-til-new.jpeg",
           linkedin: "https://www.linkedin.com/in/fabianvantil/",
         },
         teamMembers: [
@@ -1422,7 +1422,7 @@ export const contentWritingData: Record<Locale, ServicePageProps> = {
             role: "SEO tecnico & On-Page",
             bio: "Dimitar progetta le fondamenta tecniche e on-page che fanno posizionare i contenuti. Specializzato in architettura del sito, dati strutturati e strategie di link interni che amplificano le performance dei contenuti.",
             image: "/images/framer/Q3tfuu2ytPAotONsFoP1ouyPZic.png",
-            linkedin: "https://www.linkedin.com/in/dimitar-georgiev-seo/",
+            linkedin: "https://bg.linkedin.com/in/dimitar-georgiev-seo-expert",
           },
           {
             name: "Martinijan Trajkovski",
@@ -1482,7 +1482,7 @@ export const contentWritingData: Record<Locale, ServicePageProps> = {
         {
           question: "Potete ottimizzare contenuti esistenti?",
           answer:
-            "Assolutamente. Auditiamo i tuoi contenuti esistenti, identifichiamo le vittorie rapide e ottimizziamo le pagine sotto-performanti prima di creare nuovi contenuti. Spesso il ROI pi\u00f9 veloce viene dal miglioramento di ci\u00f2 che hai gi\u00e0. Il nostro [servizio di audit SEO](/seo-audit) include un\u2019analisi completa dei gap di contenuto.",
+            "Assolutamente. Auditiamo i tuoi contenuti esistenti, identifichiamo le vittorie rapide e ottimizziamo le pagine sotto-performanti prima di creare nuovi contenuti. Spesso il ROI pi\u00f9 veloce viene dal miglioramento di ci\u00f2 che hai gi\u00e0. Il nostro [servizio di audit SEO](/tools/ecommerce-seo-audit) include un\u2019analisi completa dei gap di contenuto.",
         },
         {
           question: "Quanto tempo prima che i contenuti si posizionino?",
@@ -1662,7 +1662,7 @@ export const contentWritingData: Record<Locale, ServicePageProps> = {
             number: "06",
             title: "Optimaliseer bestaande content voordat je nieuwe maakt",
             body: "Audit je bestaande content op onderpresterende pagina\u2019s dicht bij pagina \u00e9\u00e9n. Titels updaten, secties toevoegen en interne links verbeteren levert vaak snellere resultaten dan volledig nieuwe content.",
-            href: "/seo-audit",
+            href: "/tools/ecommerce-seo-audit",
             hrefLabel: "Krijg een content-audit",
           },
           {
@@ -1712,7 +1712,7 @@ export const contentWritingData: Record<Locale, ServicePageProps> = {
           name: "Fabian van Til",
           role: "Strategie & Innovatie",
           bio: "Fabian leidt de strategische richting van alle contentprojecten. Met 8+ jaar e-commerce SEO-ervaring in de sectoren mode, gezondheid, beauty en wonen combineert hij groeistrategie met contentgedreven SEO-innovatie.",
-          image: "/images/framer/C23VbBxvj2kY5TMoXAJHXWVLaA.webp",
+          image: "/images/framer/fabian-van-til-new.jpeg",
           linkedin: "https://www.linkedin.com/in/fabianvantil/",
         },
         teamMembers: [
@@ -1721,7 +1721,7 @@ export const contentWritingData: Record<Locale, ServicePageProps> = {
             role: "Technisch & On-Page SEO",
             bio: "Dimitar ontwerpt de technische fundamenten en on-page optimalisaties die content laten ranken. Hij is gespecialiseerd in site-architectuur, structured data en interne linkstrategieën die contentprestaties versterken.",
             image: "/images/framer/Q3tfuu2ytPAotONsFoP1ouyPZic.png",
-            linkedin: "https://www.linkedin.com/in/dimitar-georgiev-seo/",
+            linkedin: "https://bg.linkedin.com/in/dimitar-georgiev-seo-expert",
           },
           {
             name: "Martinijan Trajkovski",
@@ -1781,7 +1781,7 @@ export const contentWritingData: Record<Locale, ServicePageProps> = {
         {
           question: "Kunnen jullie bestaande content optimaliseren?",
           answer:
-            "Absoluut. Wij auditen je bestaande content, identificeren quick wins en optimaliseren onderpresterende pagina\u2019s voordat we nieuwe content cre\u00ebren. Vaak komt de snelste ROI uit het verbeteren van wat je al hebt. Onze [SEO-auditdienst](/seo-audit) bevat een volledige contentgap-analyse.",
+            "Absoluut. Wij auditen je bestaande content, identificeren quick wins en optimaliseren onderpresterende pagina\u2019s voordat we nieuwe content cre\u00ebren. Vaak komt de snelste ROI uit het verbeteren van wat je al hebt. Onze [SEO-auditdienst](/tools/ecommerce-seo-audit) bevat een volledige contentgap-analyse.",
         },
         {
           question: "Hoe lang duurt het voordat content gaat ranken?",

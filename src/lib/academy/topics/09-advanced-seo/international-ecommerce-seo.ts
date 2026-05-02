@@ -22,12 +22,30 @@ export const internationalEcommerceSeo: AcademyTopic = {
             "Subdomains: semi-separate in Google's eyes, worst of both worlds for most stores",
             "Use Google Search Console international targeting to associate subdirectories with countries",
           ],
+          image: {
+            src: "/images/academy/international-domain-structures.svg",
+            alt: "Comparison diagram of ccTLD, subdirectory, and subdomain approaches showing pros and cons of each for international ecommerce SEO",
+            caption: "Subdirectories consolidate all link equity under a single domain and are the preferred choice for most ecommerce operations. ccTLDs provide stronger geo-targeting but split authority.",
+          },
+          callout: {
+            title: "Authority Consolidation",
+            text: "A single domain with strong authority lifts all regional subdirectories. ccTLDs start with zero domain authority per market and require separate link building investment in each country.",
+          },
         },
         {
           title: "Hreflang Implementation",
           content:
             "Hreflang tags tell search engines which language and regional version of a page to serve for a given query. Without them, Google might show your English product page to French users, or worse, flag your regional variations as duplicate content and suppress them entirely. Proper [canonical tag configuration](/academy/canonical-tags-for-ecommerce) works hand-in-hand with hreflang to prevent these issues.\n\nThe hreflang attribute uses ISO 639-1 language codes and optional ISO 3166-1 Alpha-2 country codes. A page targeting French speakers in Canada would use hreflang=\"fr-CA\", while a page for French speakers in France uses hreflang=\"fr-FR\". You must also include an x-default tag that points to your fallback page, typically the English version or a language-selector landing page.\n\nHreflang can be implemented via HTML link elements in the <head>, HTTP headers (necessary for PDFs and non-HTML resources), or XML sitemaps. For stores with thousands of products across multiple languages, XML sitemap implementation is the most maintainable approach. Each sitemap entry lists all language/region alternates for that URL, which avoids bloating your HTML head section.\n\nThe most common hreflang error is missing return tags. If page A references page B as its German alternate, page B must reference page A back. Asymmetric hreflang annotations are ignored by Google entirely. Use a validation tool like Aleyda Solis's hreflang tag generator or Screaming Frog's hreflang audit to catch these issues before they reach production.",
           tip: "Always include a self-referencing hreflang tag on every page. The English page should declare itself as the en alternate. Missing self-references cause validation failures across the entire hreflang cluster.",
+          image: {
+            src: "/images/academy/hreflang-implementation.svg",
+            alt: "Diagram showing bidirectional hreflang links between English and German page variants with x-default fallback",
+            caption: "If page A references page B as its German alternate, page B must reference page A back. Asymmetric hreflang annotations are ignored by Google entirely.",
+          },
+          callout: {
+            title: "Return Tag Rule",
+            text: "The most common hreflang error is missing return tags. Use XML sitemap implementation for stores with thousands of products across multiple languages to keep annotations maintainable.",
+          },
         },
         {
           title: "Content Localization vs. Translation",
@@ -70,18 +88,36 @@ export const internationalEcommerceSeo: AcademyTopic = {
           title: "Domain-Struktur: ccTLDs vs. Unterverzeichnisse vs. Subdomains",
           content:
             "Die Wahl zwischen landesspezifischen Top-Level-Domains (ccTLDs wie .de, .fr), Unterverzeichnissen (/de/, /fr/) und Subdomains (de.example.com) hat langfristige Auswirkungen auf die Verteilung der Link-Autoritat, die Crawl-Effizienz und die Markenwahrnehmung. Jeder Ansatz bringt unterschiedliche Kompromisse mit sich.\n\nccTLDs liefern das starkste Geo-Targeting-Signal und schaffen lokales Vertrauen. Deutsche Kaufer, die eine .de-Domain sehen, fuhlen sich sicher, dass der Shop ihren Markt bedient. Allerdings startet jede ccTLD ohne Domain-Autoritat, erfordert separate Search-Console-Properties und teilt Ihr Backlink-Profil auf mehrere Domains auf.\n\nUnterverzeichnisse (example.com/de/) bundeln die gesamte Link-Autoritat unter einer einzigen Domain und sind daher fur die meisten E-Commerce-Betriebe die bevorzugte Wahl. Eine einzelne Domain mit starker Autoritat hebt alle regionalen Unterverzeichnisse. Google kann Unterverzeichnisse uber die Search Console geo-targeten.\n\nSubdomains (de.example.com) befinden sich in einem ungustigen Mittelfeld. Google behandelt sie als teilweise separate Einheiten, sodass Link-Autoritat nicht frei zwischen Subdomains flie?t.",
-          items: [
+                    image: {
+            src: "/images/academy/de/international-domain-structures.svg",
+            alt: "Internationale Domain-Struktur-Optionen: ccTLD, Unterverzeichnis und Subdomain mit Vor- und Nachteilen",
+            caption: "Unterverzeichnisse (beispiel.com/de/) bieten fuer die meisten E-Commerce-Shops das beste Verhaeltnis aus SEO-Signal und Verwaltbarkeit.",
+          },
+items: [
             "ccTLDs: starkstes Geo-Signal, hochste Kosten, geteilte Autoritat",
             "Unterverzeichnisse: konsolidierte Autoritat, ein Crawl-Budget, flexibles Geo-Targeting",
             "Subdomains: teilweise separat in Googles Augen, fur die meisten Shops die schlechteste Option",
             "Google Search Console International Targeting nutzen, um Unterverzeichnisse Landern zuzuordnen",
           ],
+          callout: {
+            title: "Domain-Strategie-Entscheidung",
+            text: "Unterverzeichnisse buendeln die gesamte Domain-Autoritaet an einem Ort, waehrend ccTLDs (beispiel.de) das staerkste Geo-Signal senden, aber separate Autoritaet aufbauen muessen. Fuer die meisten E-Commerce-Shops sind Unterverzeichnisse die beste Wahl.",
+          },
         },
         {
           title: "Hreflang-Implementierung",
           content:
             "Hreflang-Tags teilen Suchmaschinen mit, welche Sprach- und Regionalversion einer Seite fur eine bestimmte Anfrage angezeigt werden soll. Ohne sie konnte Google Ihre englische Produktseite franzosischen Nutzern anzeigen oder Ihre regionalen Varianten als Duplicate Content einstufen. Eine korrekte [Canonical-Tag-Konfiguration](/academy/canonical-tags-for-ecommerce) arbeitet Hand in Hand mit Hreflang, um diese Probleme zu vermeiden.\n\nDas Hreflang-Attribut verwendet ISO 639-1 Sprachcodes und optionale ISO 3166-1 Alpha-2 Landercodes. Eine Seite fur franzosischsprachige Kanadier verwendet hreflang=\"fr-CA\", wahrend eine Seite fur Franzosen hreflang=\"fr-FR\" nutzt. Sie mussen auch ein x-default-Tag einbinden, das auf Ihre Fallback-Seite verweist.\n\nHreflang kann uber HTML-Link-Elemente im <head>, HTTP-Header oder XML-Sitemaps implementiert werden. Fur Shops mit Tausenden von Produkten in mehreren Sprachen ist die XML-Sitemap-Implementierung der wartbarste Ansatz.\n\nDer haufigste Hreflang-Fehler sind fehlende Ruckverweise. Wenn Seite A auf Seite B als deutsche Alternative verweist, muss Seite B auf Seite A zuruckverweisen. Asymmetrische Hreflang-Annotationen werden von Google vollstandig ignoriert.",
+          image: {
+            src: "/images/academy/de/hreflang-implementation.svg",
+            alt: "Hreflang-Implementierungsablauf mit Selbstreferenzierung, bidirektionalen Verweisen und drei Implementierungsmethoden",
+            caption: "Jede Seite muss alle Sprachversionen referenzieren, einschliesslich sich selbst. Waehlen Sie eine Methode und bleiben Sie konsistent.",
+          },
           tip: "Fugen Sie auf jeder Seite immer ein selbstreferenzierendes Hreflang-Tag ein. Die englische Seite sollte sich selbst als en-Alternative deklarieren. Fehlende Selbstreferenzen verursachen Validierungsfehler im gesamten Hreflang-Cluster.",
+          callout: {
+            title: "Haeufigster Hreflang-Fehler",
+            text: "Fehlende Selbstreferenzierung ist der haeufigste Hreflang-Fehler. Jede Seite muss sich selbst UND alle anderen Sprachversionen referenzieren. Fehlende bidirektionale Verweise werden von Google ignoriert.",
+          },
         },
         {
           title: "Content-Lokalisierung vs. Ubersetzung",
@@ -130,12 +166,30 @@ export const internationalEcommerceSeo: AcademyTopic = {
             "Sous-domaines : semi-separes aux yeux de Google, le pire des deux mondes pour la plupart des boutiques",
             "Utiliser le ciblage international de Google Search Console pour associer les sous-repertoires aux pays",
           ],
+          image: {
+            src: "/images/academy/fr/international-domain-structures.svg",
+            alt: "Internationale Domain-Struktur-Optionen: ccTLD, Unterverzeichnis und Subdomain mit Vor- und Nachteilen",
+            caption: "Unterverzeichnisse (beispiel.com/de/) bieten fuer die meisten E-Commerce-Shops das beste Verhaeltnis aus SEO-Signal und Verwaltbarkeit.",
+          },
+          callout: {
+            title: "Domain-Strategie-Entscheidung",
+            text: "Unterverzeichnisse buendeln die gesamte Domain-Autoritaet an einem Ort, waehrend ccTLDs (beispiel.de) das staerkste Geo-Signal senden, aber separate Autoritaet aufbauen muessen. Fuer die meisten E-Commerce-Shops sind Unterverzeichnisse die beste Wahl.",
+          },
         },
         {
           title: "Implementation du Hreflang",
           content:
             "Les balises hreflang indiquent aux moteurs de recherche quelle version linguistique et regionale d'une page servir pour une requete donnee. Sans elles, Google pourrait afficher votre page produit anglaise aux utilisateurs francais, ou pire, signaler vos variations regionales comme contenu duplique.\n\nL'attribut hreflang utilise les codes de langue ISO 639-1 et les codes de pays ISO 3166-1 Alpha-2 optionnels. Une page ciblant les francophones au Canada utiliserait hreflang=\"fr-CA\". Vous devez egalement inclure une balise x-default pointant vers votre page de repli.\n\nLe hreflang peut etre implemente via des elements link HTML dans le <head>, des en-tetes HTTP ou des sitemaps XML. Pour les boutiques avec des milliers de produits dans plusieurs langues, l'implementation via sitemap XML est l'approche la plus maintenable.\n\nL'erreur hreflang la plus courante est l'absence de balises retour. Si la page A reference la page B comme son alternative allemande, la page B doit referencer la page A en retour. Les annotations hreflang asymetriques sont completement ignorees par Google. Une bonne [configuration des balises canoniques](/academy/canonical-tags-for-ecommerce) fonctionne main dans la main avec hreflang pour prévenir ces problèmes.",
           tip: "Incluez toujours une balise hreflang auto-referencante sur chaque page. La page anglaise doit se declarer elle-meme comme alternative en. Les auto-references manquantes causent des echecs de validation dans tout le cluster hreflang.",
+          image: {
+            src: "/images/academy/fr/hreflang-implementation.svg",
+            alt: "Hreflang-Implementierungsablauf mit Selbstreferenzierung, bidirektionalen Verweisen und drei Implementierungsmethoden",
+            caption: "Jede Seite muss alle Sprachversionen referenzieren, einschliesslich sich selbst. Waehlen Sie eine Methode und bleiben Sie konsistent.",
+          },
+          callout: {
+            title: "Haeufigster Hreflang-Fehler",
+            text: "Fehlende Selbstreferenzierung ist der haeufigste Hreflang-Fehler. Jede Seite muss sich selbst UND alle anderen Sprachversionen referenzieren. Fehlende bidirektionale Verweise werden von Google ignoriert.",
+          },
         },
         {
           title: "Localisation du contenu vs. traduction",
@@ -184,12 +238,30 @@ export const internationalEcommerceSeo: AcademyTopic = {
             "Subdominios: semi-separados a ojos de Google, lo peor de ambos mundos para la mayoria de tiendas",
             "Usar el targeting internacional de Google Search Console para asociar subdirectorios con paises",
           ],
+          image: {
+            src: "/images/academy/es/international-domain-structures.svg",
+            alt: "Internationale Domain-Struktur-Optionen: ccTLD, Unterverzeichnis und Subdomain mit Vor- und Nachteilen",
+            caption: "Unterverzeichnisse (beispiel.com/de/) bieten fuer die meisten E-Commerce-Shops das beste Verhaeltnis aus SEO-Signal und Verwaltbarkeit.",
+          },
+          callout: {
+            title: "Domain-Strategie-Entscheidung",
+            text: "Unterverzeichnisse buendeln die gesamte Domain-Autoritaet an einem Ort, waehrend ccTLDs (beispiel.de) das staerkste Geo-Signal senden, aber separate Autoritaet aufbauen muessen. Fuer die meisten E-Commerce-Shops sind Unterverzeichnisse die beste Wahl.",
+          },
         },
         {
           title: "Implementacion de Hreflang",
           content:
             "Las [etiquetas hreflang](/academy/canonical-tags-for-ecommerce) indican a los motores de busqueda que version de idioma y region de una pagina servir para una consulta determinada. Sin ellas, Google podria mostrar tu pagina de producto en ingles a usuarios franceses, o peor, marcar tus variaciones regionales como contenido duplicado.\n\nEl atributo hreflang utiliza codigos de idioma ISO 639-1 y codigos de pais ISO 3166-1 Alpha-2 opcionales. Una pagina dirigida a hispanohablantes en Mexico usaria hreflang=\"es-MX\". Tambien debes incluir una etiqueta x-default que apunte a tu pagina de respaldo.\n\nHreflang puede implementarse via elementos link HTML en el <head>, cabeceras HTTP o sitemaps XML. Para tiendas con miles de productos en multiples idiomas, la implementacion via sitemap XML es el enfoque mas mantenible.\n\nEl error hreflang mas comun es la falta de etiquetas de retorno. Si la pagina A referencia a la pagina B como su alternativa alemana, la pagina B debe referenciar a la pagina A de vuelta. Las anotaciones hreflang asimetricas son ignoradas completamente por Google.",
           tip: "Incluye siempre una etiqueta hreflang autorreferencial en cada pagina. La pagina en ingles debe declararse a si misma como la alternativa en. Las autorreferencias faltantes causan fallos de validacion en todo el cluster hreflang.",
+          image: {
+            src: "/images/academy/es/hreflang-implementation.svg",
+            alt: "Hreflang-Implementierungsablauf mit Selbstreferenzierung, bidirektionalen Verweisen und drei Implementierungsmethoden",
+            caption: "Jede Seite muss alle Sprachversionen referenzieren, einschliesslich sich selbst. Waehlen Sie eine Methode und bleiben Sie konsistent.",
+          },
+          callout: {
+            title: "Haeufigster Hreflang-Fehler",
+            text: "Fehlende Selbstreferenzierung ist der haeufigste Hreflang-Fehler. Jede Seite muss sich selbst UND alle anderen Sprachversionen referenzieren. Fehlende bidirektionale Verweise werden von Google ignoriert.",
+          },
         },
         {
           title: "Localizacion de contenido vs. traduccion",
@@ -238,12 +310,30 @@ export const internationalEcommerceSeo: AcademyTopic = {
             "Sottodomini: semi-separati agli occhi di Google, il peggiore dei due mondi per la maggior parte dei negozi",
             "Usare il targeting internazionale di Google Search Console per associare le sottodirectory ai paesi",
           ],
+          image: {
+            src: "/images/academy/it/international-domain-structures.svg",
+            alt: "Internationale Domain-Struktur-Optionen: ccTLD, Unterverzeichnis und Subdomain mit Vor- und Nachteilen",
+            caption: "Unterverzeichnisse (beispiel.com/de/) bieten fuer die meisten E-Commerce-Shops das beste Verhaeltnis aus SEO-Signal und Verwaltbarkeit.",
+          },
+          callout: {
+            title: "Domain-Strategie-Entscheidung",
+            text: "Unterverzeichnisse buendeln die gesamte Domain-Autoritaet an einem Ort, waehrend ccTLDs (beispiel.de) das staerkste Geo-Signal senden, aber separate Autoritaet aufbauen muessen. Fuer die meisten E-Commerce-Shops sind Unterverzeichnisse die beste Wahl.",
+          },
         },
         {
           title: "Implementazione Hreflang",
           content:
             "I tag hreflang indicano ai motori di ricerca quale versione linguistica e regionale di una pagina servire per una determinata query. Senza di essi, Google potrebbe mostrare la tua pagina prodotto inglese agli utenti francesi, o peggio, segnalare le tue variazioni regionali come contenuto duplicato. Approfondisci con la nostra guida sulla [configurazione dei tag canonical](/academy/canonical-tags-for-ecommerce).\n\nL'attributo hreflang utilizza codici lingua ISO 639-1 e codici paese ISO 3166-1 Alpha-2 opzionali. Una pagina rivolta ai francofoni in Canada userebbe hreflang=\"fr-CA\". Devi anche includere un tag x-default che punti alla tua pagina di fallback.\n\nHreflang puo essere implementato tramite elementi link HTML nel <head>, header HTTP o sitemap XML. Per negozi con migliaia di prodotti in piu lingue, l'implementazione via sitemap XML e l'approccio piu manutenibile.\n\nL'errore hreflang piu comune sono i tag di ritorno mancanti. Se la pagina A referenzia la pagina B come la sua alternativa tedesca, la pagina B deve referenziare la pagina A di ritorno. Le annotazioni hreflang asimmetriche vengono completamente ignorate da Google.",
           tip: "Includi sempre un tag hreflang autoreferenziale su ogni pagina. La pagina inglese dovrebbe dichiarare se stessa come alternativa en. Le autoreferenze mancanti causano fallimenti di validazione nell'intero cluster hreflang.",
+          image: {
+            src: "/images/academy/it/hreflang-implementation.svg",
+            alt: "Hreflang-Implementierungsablauf mit Selbstreferenzierung, bidirektionalen Verweisen und drei Implementierungsmethoden",
+            caption: "Jede Seite muss alle Sprachversionen referenzieren, einschliesslich sich selbst. Waehlen Sie eine Methode und bleiben Sie konsistent.",
+          },
+          callout: {
+            title: "Haeufigster Hreflang-Fehler",
+            text: "Fehlende Selbstreferenzierung ist der haeufigste Hreflang-Fehler. Jede Seite muss sich selbst UND alle anderen Sprachversionen referenzieren. Fehlende bidirektionale Verweise werden von Google ignoriert.",
+          },
         },
         {
           title: "Localizzazione dei contenuti vs. traduzione",
@@ -292,12 +382,30 @@ export const internationalEcommerceSeo: AcademyTopic = {
             "Subdomeinen: semi-gescheiden in Google's ogen, slechtste optie voor de meeste winkels",
             "Google Search Console internationale targeting gebruiken om submappen aan landen te koppelen",
           ],
+          image: {
+            src: "/images/academy/nl/international-domain-structures.svg",
+            alt: "Internationale Domain-Struktur-Optionen: ccTLD, Unterverzeichnis und Subdomain mit Vor- und Nachteilen",
+            caption: "Unterverzeichnisse (beispiel.com/de/) bieten fuer die meisten E-Commerce-Shops das beste Verhaeltnis aus SEO-Signal und Verwaltbarkeit.",
+          },
+          callout: {
+            title: "Domain-Strategie-Entscheidung",
+            text: "Unterverzeichnisse buendeln die gesamte Domain-Autoritaet an einem Ort, waehrend ccTLDs (beispiel.de) das staerkste Geo-Signal senden, aber separate Autoritaet aufbauen muessen. Fuer die meisten E-Commerce-Shops sind Unterverzeichnisse die beste Wahl.",
+          },
         },
         {
           title: "Hreflang-implementatie",
           content:
             "Hreflang-tags vertellen zoekmachines welke taal- en regioversie van een pagina moet worden weergegeven voor een bepaalde zoekopdracht. Zonder deze tags zou Google je Engelse productpagina aan Franse gebruikers kunnen tonen, of erger, je regionale variaties als dubbele content markeren.\n\nHet hreflang-attribuut gebruikt ISO 639-1 taalcodes en optionele ISO 3166-1 Alpha-2 landcodes. Een pagina gericht op Franstaligen in Canada zou hreflang=\"fr-CA\" gebruiken. Je moet ook een x-default tag opnemen die naar je terugvalpagina verwijst.\n\nHreflang kan worden geimplementeerd via HTML-linkelementen in de <head>, HTTP-headers of XML-sitemaps. Voor winkels met duizenden producten in meerdere talen is de XML-sitemap-implementatie de meest onderhoudbare aanpak.\n\nDe meest voorkomende hreflang-fout is het ontbreken van retour-tags. Als pagina A naar pagina B verwijst als zijn Duitse alternatief, moet pagina B terug naar pagina A verwijzen. Asymmetrische hreflang-annotaties worden volledig genegeerd door Google.\n\nLees meer over [canonical tags voor ecommerce](/academy/canonical-tags-for-ecommerce) in ons gedetailleerde onderwerp.",
           tip: "Voeg altijd een zelfverwijzende hreflang-tag toe op elke pagina. De Engelse pagina moet zichzelf declareren als het en-alternatief. Ontbrekende zelfverwijzingen veroorzaken validatiefouten in het hele hreflang-cluster.",
+          image: {
+            src: "/images/academy/nl/hreflang-implementation.svg",
+            alt: "Hreflang-Implementierungsablauf mit Selbstreferenzierung, bidirektionalen Verweisen und drei Implementierungsmethoden",
+            caption: "Jede Seite muss alle Sprachversionen referenzieren, einschliesslich sich selbst. Waehlen Sie eine Methode und bleiben Sie konsistent.",
+          },
+          callout: {
+            title: "Haeufigster Hreflang-Fehler",
+            text: "Fehlende Selbstreferenzierung ist der haeufigste Hreflang-Fehler. Jede Seite muss sich selbst UND alle anderen Sprachversionen referenzieren. Fehlende bidirektionale Verweise werden von Google ignoriert.",
+          },
         },
         {
           title: "Contentlocalisatie vs. vertaling",

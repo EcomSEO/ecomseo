@@ -22,7 +22,16 @@ export const javascriptSeoForEcommerce: AcademyTopic = {
             "Googlebot does not interact with pages: no clicks, scrolls, or form submissions",
             "Rendering timeout is approximately 5 seconds for initial meaningful content paint",
           ],
-          tip: "Use Google Search Console's URL Inspection tool with the 'View Tested Page' option to see exactly what Googlebot renders. Compare the rendered HTML to your live page to identify content that fails to load during Googlebot's rendering pass.",
+          tip: "Use Google Search Console\'s URL Inspection tool with the \'View Tested Page\' option to see exactly what Googlebot renders. Compare the rendered HTML to your live page to identify content that fails to load during Googlebot\'s rendering pass.",
+          image: {
+            src: "/images/academy/googlebot-js-two-phase.svg",
+            alt: "Diagram showing Googlebot two-phase indexing process with HTML fetch phase and JavaScript rendering phase separated by a variable delay",
+            caption: "Phase 1 fetches raw HTML instantly. Phase 2 renders JavaScript but can be delayed by days or weeks depending on crawl budget.",
+          },
+          callout: {
+            title: "Rendering Timeout",
+            text: "Googlebot allows approximately 5 seconds for initial meaningful paint. Pages with large JS bundles or cascading API calls risk incomplete rendering and missing content in the index.",
+          },
         },
         {
           title: "Rendering Strategies: CSR, SSR, and SSG",
@@ -35,6 +44,15 @@ export const javascriptSeoForEcommerce: AcademyTopic = {
             "ISR combines static performance with periodic data freshness without full rebuilds",
             "Hybrid strategies assign different rendering methods to different page types based on indexing needs",
           ],
+          image: {
+            src: "/images/academy/js-rendering-strategies.svg",
+            alt: "Comparison diagram of CSR, SSR, SSG, and ISR rendering strategies showing their SEO tradeoffs for ecommerce stores",
+            caption: "Use a hybrid approach: SSG for category pages, SSR for product detail pages with dynamic pricing, and CSR only for user-specific features like cart and wishlist.",
+          },
+          callout: {
+            title: "Hybrid Rendering",
+            text: "Pure CSR leaves product titles, prices, and structured data invisible until Googlebot renders JavaScript. SSR delivers complete HTML on every request, enabling first-pass indexing without delay.",
+          },
         },
         {
           title: "Critical SEO Elements in JavaScript Frameworks",
@@ -74,7 +92,7 @@ export const javascriptSeoForEcommerce: AcademyTopic = {
         {
           title: "Testing and Monitoring JavaScript SEO",
           content:
-            "Continuous monitoring of your JavaScript rendering pipeline is essential because framework updates, third-party script changes, and content management system modifications can break server-side rendering without obvious user-facing symptoms. A [technical SEO audit](/technical-seo) should always include JavaScript rendering checks. A page that works perfectly for users in a browser may be completely blank to Googlebot if SSR fails silently.\n\nGoogle Search Console's Coverage report is your primary monitoring tool. Watch for spikes in 'Discovered - currently not indexed' or 'Crawled - currently not indexed' categories, which often indicate rendering failures. The URL Inspection tool lets you check individual pages by requesting a live test that shows Googlebot's rendered HTML, loaded resources, and any JavaScript errors encountered.\n\nSet up automated rendering tests using headless Chrome or Puppeteer scripts that simulate Googlebot's behavior. These tests should disable JavaScript, capture the server-rendered HTML, then re-enable JavaScript and compare the rendered DOM. Critical SEO elements like product titles, prices, meta tags, canonical URLs, and structured data should be present in both versions for SSR sites.\n\nMonitor your JavaScript error rates in production using error tracking services like Sentry or Datadog. JavaScript errors that prevent rendering in Googlebot's environment may not manifest in regular browsers due to differences in user agent, viewport size, or absence of user interaction. Filter for errors that occur in headless browser contexts or under Googlebot's user agent.\n\nTrack your page's rendering performance specifically from the server-side rendering perspective. If your SSR response time degrades due to API latency, database bottlenecks, or memory leaks, Googlebot may receive timeout errors or incomplete HTML. Monitor SSR response times separately from client-side performance metrics and set alerts for SSR response times exceeding 1-2 seconds.",
+            "Continuous monitoring of your JavaScript rendering pipeline is essential because framework updates, third-party script changes, and content management system modifications can break server-side rendering without obvious user-facing symptoms. A [technical SEO audit](/ecommerce-seo-services) should always include JavaScript rendering checks. A page that works perfectly for users in a browser may be completely blank to Googlebot if SSR fails silently.\n\nGoogle Search Console's Coverage report is your primary monitoring tool. Watch for spikes in 'Discovered - currently not indexed' or 'Crawled - currently not indexed' categories, which often indicate rendering failures. The URL Inspection tool lets you check individual pages by requesting a live test that shows Googlebot's rendered HTML, loaded resources, and any JavaScript errors encountered.\n\nSet up automated rendering tests using headless Chrome or Puppeteer scripts that simulate Googlebot's behavior. These tests should disable JavaScript, capture the server-rendered HTML, then re-enable JavaScript and compare the rendered DOM. Critical SEO elements like product titles, prices, meta tags, canonical URLs, and structured data should be present in both versions for SSR sites.\n\nMonitor your JavaScript error rates in production using error tracking services like Sentry or Datadog. JavaScript errors that prevent rendering in Googlebot's environment may not manifest in regular browsers due to differences in user agent, viewport size, or absence of user interaction. Filter for errors that occur in headless browser contexts or under Googlebot's user agent.\n\nTrack your page's rendering performance specifically from the server-side rendering perspective. If your SSR response time degrades due to API latency, database bottlenecks, or memory leaks, Googlebot may receive timeout errors or incomplete HTML. Monitor SSR response times separately from client-side performance metrics and set alerts for SSR response times exceeding 1-2 seconds.",
           items: [
             "Monitor Search Console Coverage for spikes in not-indexed or rendering-error pages",
             "Automate rendering comparisons between server HTML and JavaScript-rendered DOM",
@@ -96,25 +114,43 @@ export const javascriptSeoForEcommerce: AcademyTopic = {
           title: "Wie Googlebot JavaScript verarbeitet",
           content:
             "Googlebot verwendet einen zweiphasigen Indexierungsprozess fur JavaScript-lastige Seiten. In der ersten Phase crawlt er die rohe HTML-Antwort und indexiert den Inhalt, der in der initialen Serverantwort vorhanden ist. In der zweiten Phase reiht er die Seite zum Rendern mit einem Headless-Chromium-Browser ein, fuhrt das JavaScript aus und indexiert dann den vollstandig gerenderten Inhalt. Das kritische Problem ist die Lucke zwischen diesen beiden Phasen.\n\nDie Rendering-Warteschlange kann je nach Googles [Crawl-Budget](/academy/crawling-and-indexing-product-pages)-Zuweisung fur Ihre Domain zwischen Sekunden und Wochen dauern. Wahrend dieser Verzogerung bleibt jeder Inhalt, der von der JavaScript-Ausfuhrung abhangt, fur Google unsichtbar. Fur einen E-Commerce-Shop mit Tausenden von Produktseiten bedeutet dies, dass neue Produkte, Preisaktualisierungen und saisonale Inhalte moglicherweise tagelang nicht in den Suchergebnissen erscheinen.\n\nDie Rendering-Engine von Googlebot verwendet eine relativ aktuelle Version von Chromium, sodass moderne JavaScript-APIs generell unterstutzt werden. Es gibt jedoch wichtige Einschrankungen: Es interagiert nicht mit Seiten (kein Klicken, Scrollen oder Formularubermittlung), hat ein Rendering-Timeout von etwa 5 Sekunden und blockiert bestimmte Ressourcentypen. Produktinhalte, die Benutzerinteraktion zum Laden erfordern, werden moglicherweise nie indexiert.",
-          items: [
+                    image: {
+            src: "/images/academy/de/googlebot-js-two-phase.svg",
+            alt: "Googlebot JavaScript-Verarbeitung in zwei Phasen: Crawlen (Sekunden) und Rendern (Minuten bis Tage)",
+            caption: "Googlebots Zwei-Phasen-Verarbeitung bedeutet: Content, der JavaScript zum Rendern benoetigt, wird moeglicherweise erst Tage spaeter indexiert.",
+          },
+items: [
             "Googlebot crawlt zuerst rohes HTML, dann werden Seiten separat fur JavaScript-Rendering eingereiht",
             "Die Verzogerung der Rendering-Warteschlange kann von Sekunden bis Wochen reichen",
             "Googlebot interagiert nicht mit Seiten: keine Klicks, kein Scrollen, keine Formularubermittlungen",
             "Das Rendering-Timeout betragt etwa 5 Sekunden fur den ersten bedeutungsvollen Content-Paint",
           ],
+          callout: {
+            title: "Rendering-Verzoegerung",
+            text: "Die Wartezeit in der Render-Warteschlange kann Minuten bis Tage betragen. Fuer E-Commerce-Shops mit haeufigen Preis- oder Verfuegbarkeitsaenderungen ist serverseitiges Rendering kritisch, damit Google aktuelle Daten indexiert.",
+          },
           tip: "Verwenden Sie das URL-Prufungstool der Google Search Console mit der Option 'Getestete Seite anzeigen', um genau zu sehen, was Googlebot rendert. Vergleichen Sie das gerenderte HTML mit Ihrer Live-Seite, um Inhalte zu identifizieren, die beim Rendering-Durchlauf nicht geladen werden.",
         },
         {
           title: "Rendering-Strategien: CSR, SSR und SSG",
           content:
             "Client-seitiges Rendering (CSR) ist der Standard fur die meisten Single-Page-Application-Frameworks. Der Server sendet eine minimale HTML-Hulle und ein JavaScript-Bundle, das die gesamte Seite im Browser aufbaut. Fur E-Commerce-SEO ist reines CSR die schlechteste Wahl. Produkttitel, Beschreibungen, Preise und strukturierte Daten fehlen im initialen HTML.\n\nServer-seitiges Rendering (SSR) generiert das vollstandige HTML auf dem Server fur jede Anfrage und liefert sofort vollstandige Produktinhalte an Benutzer und Suchmaschinen-Crawler. Frameworks wie Next.js, Nuxt.js und Angular Universal bieten SSR-Fahigkeiten. Googlebot kann diese Inhalte in der ersten Crawl-Phase ohne Warten auf das Rendering indexieren.\n\nStatische Seitengenerierung (SSG) pre-rendert Seiten zur Build-Zeit und erzeugt statische HTML-Dateien, die direkt von einem CDN bereitgestellt werden. Fur E-Commerce-Kataloge mit stabilen Produktdaten liefert SSG die schnellsten Ladezeiten und garantierte Crawlbarkeit.\n\nInkrementelle statische Regenerierung (ISR) bietet einen Mittelweg. Seiten werden statisch generiert, konnen aber nach einem definierten Zeitplan oder on-demand neu validiert und regeneriert werden.\n\nHybrides Rendering, bei dem verschiedene Seitentypen verschiedene Strategien verwenden, ist der pragmatische Ansatz fur die meisten E-Commerce-Shops.",
-          items: [
+                    image: {
+            src: "/images/academy/de/js-rendering-strategies.svg",
+            alt: "Vergleich der Rendering-Strategien: CSR, SSR, SSG und ISR mit SEO-Bewertung",
+            caption: "SSR ist fuer die meisten E-Commerce-Shops am besten geeignet. CSR ist fuer SEO nicht zu empfehlen.",
+          },
+items: [
             "Reines CSR lasst kritische Produktinhalte unsichtbar, bis Googlebot JavaScript rendert",
             "SSR liefert vollstandiges HTML bei jeder Anfrage und ermoglicht First-Pass-Indexierung",
             "SSG pre-rendert Seiten zur Build-Zeit fur maximale Geschwindigkeit und garantierte Crawlbarkeit",
             "ISR kombiniert statische Performance mit periodischer Datenaktualitat ohne vollstandige Rebuilds",
             "Hybride Strategien weisen verschiedenen Seitentypen je nach Indexierungsbedarf unterschiedliche Rendering-Methoden zu",
           ],
+          callout: {
+            title: "Rendering-Empfehlung",
+            text: "Fuer E-Commerce-Shops mit mehr als 1.000 Produkten ist SSR die beste Wahl. SSG funktioniert nur fuer kleine Kataloge, und ISR bietet das Beste aus beiden Welten, erfordert aber mehr technisches Setup.",
+          },
         },
         {
           title: "Kritische SEO-Elemente in JavaScript-Frameworks",
@@ -154,7 +190,7 @@ export const javascriptSeoForEcommerce: AcademyTopic = {
         {
           title: "JavaScript-SEO testen und uberwachen",
           content:
-            "Kontinuierliche Uberwachung Ihrer JavaScript-Rendering-Pipeline ist essenziell, da Framework-Updates, Drittanbieter-Skript-Anderungen und CMS-Modifikationen das Server-seitige Rendering brechen konnen, ohne offensichtliche benutzerseitige Symptome. Eine Seite, die fur Benutzer im Browser perfekt funktioniert, kann fur Googlebot komplett leer sein, wenn SSR still fehlschlagt. Weitere Informationen finden Sie in unserem Leitfaden zu [technisches SEO-Audit](/technical-seo).\n\nDer Coverage-Bericht der Google Search Console ist Ihr primares Uberwachungstool. Achten Sie auf Anstiege in den Kategorien 'Gefunden - derzeit nicht indexiert' oder 'Gecrawlt - derzeit nicht indexiert', die oft auf Rendering-Fehler hinweisen.\n\nRichten Sie automatisierte Rendering-Tests mit Headless Chrome oder Puppeteer-Skripten ein, die das Verhalten von Googlebot simulieren. Diese Tests sollten JavaScript deaktivieren, das server-gerenderte HTML erfassen, dann JavaScript reaktivieren und das gerenderte DOM vergleichen.\n\nUberwachen Sie Ihre JavaScript-Fehlerraten in der Produktion mit Fehlerverfolgungs-Diensten wie Sentry oder Datadog. JavaScript-Fehler, die das Rendering in Googlebots Umgebung verhindern, manifestieren sich moglicherweise nicht in regularen Browsern.\n\nVerfolgen Sie die Rendering-Performance Ihrer Seite speziell aus der SSR-Perspektive. Uberwachen Sie SSR-Antwortzeiten separat und setzen Sie Alarme fur Antwortzeiten uber 1-2 Sekunden.",
+            "Kontinuierliche Uberwachung Ihrer JavaScript-Rendering-Pipeline ist essenziell, da Framework-Updates, Drittanbieter-Skript-Anderungen und CMS-Modifikationen das Server-seitige Rendering brechen konnen, ohne offensichtliche benutzerseitige Symptome. Eine Seite, die fur Benutzer im Browser perfekt funktioniert, kann fur Googlebot komplett leer sein, wenn SSR still fehlschlagt. Weitere Informationen finden Sie in unserem Leitfaden zu [technisches SEO-Audit](/ecommerce-seo-services).\n\nDer Coverage-Bericht der Google Search Console ist Ihr primares Uberwachungstool. Achten Sie auf Anstiege in den Kategorien 'Gefunden - derzeit nicht indexiert' oder 'Gecrawlt - derzeit nicht indexiert', die oft auf Rendering-Fehler hinweisen.\n\nRichten Sie automatisierte Rendering-Tests mit Headless Chrome oder Puppeteer-Skripten ein, die das Verhalten von Googlebot simulieren. Diese Tests sollten JavaScript deaktivieren, das server-gerenderte HTML erfassen, dann JavaScript reaktivieren und das gerenderte DOM vergleichen.\n\nUberwachen Sie Ihre JavaScript-Fehlerraten in der Produktion mit Fehlerverfolgungs-Diensten wie Sentry oder Datadog. JavaScript-Fehler, die das Rendering in Googlebots Umgebung verhindern, manifestieren sich moglicherweise nicht in regularen Browsern.\n\nVerfolgen Sie die Rendering-Performance Ihrer Seite speziell aus der SSR-Perspektive. Uberwachen Sie SSR-Antwortzeiten separat und setzen Sie Alarme fur Antwortzeiten uber 1-2 Sekunden.",
           items: [
             "Search Console Coverage auf Anstiege bei nicht-indexierten oder Rendering-Fehler-Seiten uberwachen",
             "Rendering-Vergleiche zwischen Server-HTML und JavaScript-gerendertem DOM automatisieren",
@@ -183,6 +219,15 @@ export const javascriptSeoForEcommerce: AcademyTopic = {
             "Le delai d'expiration du rendu est d'environ 5 secondes pour le premier affichage significatif",
           ],
           tip: "Utilisez l'outil d'inspection d'URL de Google Search Console avec l'option 'Afficher la page testee' pour voir exactement ce que Googlebot rend. Comparez le HTML rendu a votre page en direct pour identifier le contenu qui ne se charge pas lors du passage de rendu.",
+          image: {
+            src: "/images/academy/fr/googlebot-js-two-phase.svg",
+            alt: "Googlebot JavaScript-Verarbeitung in zwei Phasen: Crawlen (Sekunden) und Rendern (Minuten bis Tage)",
+            caption: "Googlebots Zwei-Phasen-Verarbeitung bedeutet: Content, der JavaScript zum Rendern benoetigt, wird moeglicherweise erst Tage spaeter indexiert.",
+          },
+          callout: {
+            title: "Rendering-Verzoegerung",
+            text: "Die Wartezeit in der Render-Warteschlange kann Minuten bis Tage betragen. Fuer E-Commerce-Shops mit haeufigen Preis- oder Verfuegbarkeitsaenderungen ist serverseitiges Rendering kritisch, damit Google aktuelle Daten indexiert.",
+          },
         },
         {
           title: "Strategies de rendu : CSR, SSR et SSG",
@@ -195,6 +240,15 @@ export const javascriptSeoForEcommerce: AcademyTopic = {
             "L'ISR combine la performance statique avec une fraicheur periodique des donnees sans rebuilds complets",
             "Les strategies hybrides attribuent differentes methodes de rendu a differents types de pages selon les besoins d'indexation",
           ],
+          image: {
+            src: "/images/academy/fr/js-rendering-strategies.svg",
+            alt: "Vergleich der Rendering-Strategien: CSR, SSR, SSG und ISR mit SEO-Bewertung",
+            caption: "SSR ist fuer die meisten E-Commerce-Shops am besten geeignet. CSR ist fuer SEO nicht zu empfehlen.",
+          },
+          callout: {
+            title: "Rendering-Empfehlung",
+            text: "Fuer E-Commerce-Shops mit mehr als 1.000 Produkten ist SSR die beste Wahl. SSG funktioniert nur fuer kleine Kataloge, und ISR bietet das Beste aus beiden Welten, erfordert aber mehr technisches Setup.",
+          },
         },
         {
           title: "Elements SEO critiques dans les frameworks JavaScript",
@@ -234,7 +288,7 @@ export const javascriptSeoForEcommerce: AcademyTopic = {
         {
           title: "Test et surveillance du JavaScript SEO",
           content:
-            "La surveillance continue de votre pipeline de rendu JavaScript est essentielle car les mises a jour de framework, les changements de scripts tiers et les modifications du CMS peuvent casser le rendu cote serveur sans symptomes visibles pour l'utilisateur. Une page qui fonctionne parfaitement pour les utilisateurs peut etre completement vide pour Googlebot si le SSR echoue silencieusement.\n\nLe rapport de couverture de Google Search Console est votre outil de surveillance principal. Surveillez les pics dans les categories 'Decouverte - actuellement non indexee' ou 'Crawlee - actuellement non indexee', qui indiquent souvent des echecs de rendu.\n\nMettez en place des tests de rendu automatises utilisant des scripts Chrome headless ou Puppeteer qui simulent le comportement de Googlebot. Ces tests devraient desactiver JavaScript, capturer le HTML rendu cote serveur, puis reactiver JavaScript et comparer le DOM rendu.\n\nSurveillez vos taux d'erreurs JavaScript en production avec des services de suivi d'erreurs comme Sentry ou Datadog. Les erreurs qui empechent le rendu dans l'environnement de Googlebot peuvent ne pas se manifester dans les navigateurs classiques.\n\nSuivez la performance de rendu de votre page specifiquement du point de vue SSR. Surveillez les temps de reponse SSR separement et configurez des alertes pour les temps de reponse depassant 1-2 secondes. Un [audit SEO technique](/technical-seo) devrait toujours inclure des vérifications du rendu JavaScript.",
+            "La surveillance continue de votre pipeline de rendu JavaScript est essentielle car les mises a jour de framework, les changements de scripts tiers et les modifications du CMS peuvent casser le rendu cote serveur sans symptomes visibles pour l'utilisateur. Une page qui fonctionne parfaitement pour les utilisateurs peut etre completement vide pour Googlebot si le SSR echoue silencieusement.\n\nLe rapport de couverture de Google Search Console est votre outil de surveillance principal. Surveillez les pics dans les categories 'Decouverte - actuellement non indexee' ou 'Crawlee - actuellement non indexee', qui indiquent souvent des echecs de rendu.\n\nMettez en place des tests de rendu automatises utilisant des scripts Chrome headless ou Puppeteer qui simulent le comportement de Googlebot. Ces tests devraient desactiver JavaScript, capturer le HTML rendu cote serveur, puis reactiver JavaScript et comparer le DOM rendu.\n\nSurveillez vos taux d'erreurs JavaScript en production avec des services de suivi d'erreurs comme Sentry ou Datadog. Les erreurs qui empechent le rendu dans l'environnement de Googlebot peuvent ne pas se manifester dans les navigateurs classiques.\n\nSuivez la performance de rendu de votre page specifiquement du point de vue SSR. Surveillez les temps de reponse SSR separement et configurez des alertes pour les temps de reponse depassant 1-2 secondes. Un [audit SEO technique](/ecommerce-seo-services) devrait toujours inclure des vérifications du rendu JavaScript.",
           items: [
             "Surveiller la couverture Search Console pour les pics de pages non indexees ou d'erreurs de rendu",
             "Automatiser les comparaisons de rendu entre le HTML serveur et le DOM rendu par JavaScript",
@@ -263,6 +317,15 @@ export const javascriptSeoForEcommerce: AcademyTopic = {
             "El tiempo de espera de renderizado es de aproximadamente 5 segundos para el primer pintado significativo",
           ],
           tip: "Use la herramienta de inspeccion de URL de Google Search Console con la opcion 'Ver pagina probada' para ver exactamente lo que Googlebot renderiza. Compare el HTML renderizado con su pagina en vivo para identificar el contenido que no se carga durante el paso de renderizado.",
+          image: {
+            src: "/images/academy/es/googlebot-js-two-phase.svg",
+            alt: "Googlebot JavaScript-Verarbeitung in zwei Phasen: Crawlen (Sekunden) und Rendern (Minuten bis Tage)",
+            caption: "Googlebots Zwei-Phasen-Verarbeitung bedeutet: Content, der JavaScript zum Rendern benoetigt, wird moeglicherweise erst Tage spaeter indexiert.",
+          },
+          callout: {
+            title: "Rendering-Verzoegerung",
+            text: "Die Wartezeit in der Render-Warteschlange kann Minuten bis Tage betragen. Fuer E-Commerce-Shops mit haeufigen Preis- oder Verfuegbarkeitsaenderungen ist serverseitiges Rendering kritisch, damit Google aktuelle Daten indexiert.",
+          },
         },
         {
           title: "Estrategias de renderizado: CSR, SSR y SSG",
@@ -275,6 +338,15 @@ export const javascriptSeoForEcommerce: AcademyTopic = {
             "ISR combina rendimiento estatico con frescura periodica de datos sin reconstrucciones completas",
             "Las estrategias hibridas asignan diferentes metodos de renderizado a diferentes tipos de pagina segun las necesidades de indexacion",
           ],
+          image: {
+            src: "/images/academy/es/js-rendering-strategies.svg",
+            alt: "Vergleich der Rendering-Strategien: CSR, SSR, SSG und ISR mit SEO-Bewertung",
+            caption: "SSR ist fuer die meisten E-Commerce-Shops am besten geeignet. CSR ist fuer SEO nicht zu empfehlen.",
+          },
+          callout: {
+            title: "Rendering-Empfehlung",
+            text: "Fuer E-Commerce-Shops mit mehr als 1.000 Produkten ist SSR die beste Wahl. SSG funktioniert nur fuer kleine Kataloge, und ISR bietet das Beste aus beiden Welten, erfordert aber mehr technisches Setup.",
+          },
         },
         {
           title: "Elementos SEO criticos en frameworks JavaScript",
@@ -314,7 +386,7 @@ export const javascriptSeoForEcommerce: AcademyTopic = {
         {
           title: "Pruebas y monitoreo de JavaScript SEO",
           content:
-            "El monitoreo continuo de su pipeline de renderizado JavaScript es esencial porque las actualizaciones de framework, los cambios en scripts de terceros y las modificaciones del CMS pueden romper el renderizado del servidor sin sintomas visibles para el usuario. Una pagina que funciona perfectamente para los usuarios puede estar completamente vacia para Googlebot si SSR falla silenciosamente.\n\nEl informe de Cobertura de Google Search Console es su herramienta de monitoreo principal. Vigile los picos en las categorias 'Descubierta - actualmente no indexada' o 'Rastreada - actualmente no indexada', que a menudo indican fallos de renderizado.\n\nConfigure pruebas de renderizado automatizadas usando scripts de Chrome headless o Puppeteer que simulen el comportamiento de Googlebot. Estas pruebas deben deshabilitar JavaScript, capturar el HTML renderizado del servidor, luego rehabilitar JavaScript y comparar el DOM renderizado.\n\nMonitorice sus tasas de error JavaScript en produccion con servicios de seguimiento de errores como Sentry o Datadog. Los errores que previenen el renderizado en el entorno de Googlebot pueden no manifestarse en navegadores regulares.\n\nRastree el rendimiento de renderizado de su pagina especificamente desde la perspectiva SSR. Monitorice los tiempos de respuesta SSR por separado y configure alertas para tiempos de respuesta que excedan 1-2 segundos. Una [auditoria de SEO tecnico](/technical-seo) siempre debe incluir verificaciones de renderizado JavaScript.",
+            "El monitoreo continuo de su pipeline de renderizado JavaScript es esencial porque las actualizaciones de framework, los cambios en scripts de terceros y las modificaciones del CMS pueden romper el renderizado del servidor sin sintomas visibles para el usuario. Una pagina que funciona perfectamente para los usuarios puede estar completamente vacia para Googlebot si SSR falla silenciosamente.\n\nEl informe de Cobertura de Google Search Console es su herramienta de monitoreo principal. Vigile los picos en las categorias 'Descubierta - actualmente no indexada' o 'Rastreada - actualmente no indexada', que a menudo indican fallos de renderizado.\n\nConfigure pruebas de renderizado automatizadas usando scripts de Chrome headless o Puppeteer que simulen el comportamiento de Googlebot. Estas pruebas deben deshabilitar JavaScript, capturar el HTML renderizado del servidor, luego rehabilitar JavaScript y comparar el DOM renderizado.\n\nMonitorice sus tasas de error JavaScript en produccion con servicios de seguimiento de errores como Sentry o Datadog. Los errores que previenen el renderizado en el entorno de Googlebot pueden no manifestarse en navegadores regulares.\n\nRastree el rendimiento de renderizado de su pagina especificamente desde la perspectiva SSR. Monitorice los tiempos de respuesta SSR por separado y configure alertas para tiempos de respuesta que excedan 1-2 segundos. Una [auditoria de SEO tecnico](/ecommerce-seo-services) siempre debe incluir verificaciones de renderizado JavaScript.",
           items: [
             "Monitorear Cobertura de Search Console para picos en paginas no indexadas o errores de renderizado",
             "Automatizar comparaciones de renderizado entre HTML del servidor y DOM renderizado por JavaScript",
@@ -343,6 +415,15 @@ export const javascriptSeoForEcommerce: AcademyTopic = {
             "Il timeout di rendering e di circa 5 secondi per il primo paint significativo del contenuto",
           ],
           tip: "Utilizzate lo strumento di ispezione URL di Google Search Console con l'opzione 'Visualizza pagina testata' per vedere esattamente cosa renderizza Googlebot. Confrontate l'HTML renderizzato con la vostra pagina live per identificare il contenuto che non si carica durante il passaggio di rendering.",
+          image: {
+            src: "/images/academy/it/googlebot-js-two-phase.svg",
+            alt: "Googlebot JavaScript-Verarbeitung in zwei Phasen: Crawlen (Sekunden) und Rendern (Minuten bis Tage)",
+            caption: "Googlebots Zwei-Phasen-Verarbeitung bedeutet: Content, der JavaScript zum Rendern benoetigt, wird moeglicherweise erst Tage spaeter indexiert.",
+          },
+          callout: {
+            title: "Rendering-Verzoegerung",
+            text: "Die Wartezeit in der Render-Warteschlange kann Minuten bis Tage betragen. Fuer E-Commerce-Shops mit haeufigen Preis- oder Verfuegbarkeitsaenderungen ist serverseitiges Rendering kritisch, damit Google aktuelle Daten indexiert.",
+          },
         },
         {
           title: "Strategie di rendering: CSR, SSR e SSG",
@@ -355,6 +436,15 @@ export const javascriptSeoForEcommerce: AcademyTopic = {
             "ISR combina le prestazioni statiche con la freschezza periodica dei dati senza rebuild completi",
             "Le strategie ibride assegnano metodi di rendering diversi a tipi di pagina diversi in base alle esigenze di indicizzazione",
           ],
+          image: {
+            src: "/images/academy/it/js-rendering-strategies.svg",
+            alt: "Vergleich der Rendering-Strategien: CSR, SSR, SSG und ISR mit SEO-Bewertung",
+            caption: "SSR ist fuer die meisten E-Commerce-Shops am besten geeignet. CSR ist fuer SEO nicht zu empfehlen.",
+          },
+          callout: {
+            title: "Rendering-Empfehlung",
+            text: "Fuer E-Commerce-Shops mit mehr als 1.000 Produkten ist SSR die beste Wahl. SSG funktioniert nur fuer kleine Kataloge, und ISR bietet das Beste aus beiden Welten, erfordert aber mehr technisches Setup.",
+          },
         },
         {
           title: "Elementi SEO critici nei framework JavaScript",
@@ -394,7 +484,7 @@ export const javascriptSeoForEcommerce: AcademyTopic = {
         {
           title: "Test e monitoraggio del JavaScript SEO",
           content:
-            "Il monitoraggio continuo della pipeline di rendering JavaScript e essenziale perche gli aggiornamenti del framework, le modifiche agli script di terze parti e le modifiche del CMS possono rompere il rendering lato server senza sintomi visibili all'utente. Una pagina che funziona perfettamente per gli utenti puo essere completamente vuota per Googlebot se SSR fallisce silenziosamente. Approfondisci con la nostra guida sull'[audit SEO tecnico](/technical-seo).\n\nIl rapporto Copertura di Google Search Console e il vostro strumento di monitoraggio principale. Osservate i picchi nelle categorie 'Scoperta - attualmente non indicizzata' o 'Scansionata - attualmente non indicizzata', che spesso indicano fallimenti di rendering.\n\nImpostate test di rendering automatizzati usando script Chrome headless o Puppeteer che simulano il comportamento di Googlebot. Questi test dovrebbero disabilitare JavaScript, catturare l'HTML renderizzato dal server, poi riabilitare JavaScript e confrontare il DOM renderizzato.\n\nMonitorate i tassi di errore JavaScript in produzione con servizi di tracciamento errori come Sentry o Datadog. Gli errori che impediscono il rendering nell'ambiente di Googlebot potrebbero non manifestarsi nei browser regolari.\n\nTracciate le prestazioni di rendering della pagina specificamente dalla prospettiva SSR. Monitorate i tempi di risposta SSR separatamente e impostate avvisi per tempi di risposta che superano 1-2 secondi.",
+            "Il monitoraggio continuo della pipeline di rendering JavaScript e essenziale perche gli aggiornamenti del framework, le modifiche agli script di terze parti e le modifiche del CMS possono rompere il rendering lato server senza sintomi visibili all'utente. Una pagina che funziona perfettamente per gli utenti puo essere completamente vuota per Googlebot se SSR fallisce silenziosamente. Approfondisci con la nostra guida sull'[audit SEO tecnico](/ecommerce-seo-services).\n\nIl rapporto Copertura di Google Search Console e il vostro strumento di monitoraggio principale. Osservate i picchi nelle categorie 'Scoperta - attualmente non indicizzata' o 'Scansionata - attualmente non indicizzata', che spesso indicano fallimenti di rendering.\n\nImpostate test di rendering automatizzati usando script Chrome headless o Puppeteer che simulano il comportamento di Googlebot. Questi test dovrebbero disabilitare JavaScript, catturare l'HTML renderizzato dal server, poi riabilitare JavaScript e confrontare il DOM renderizzato.\n\nMonitorate i tassi di errore JavaScript in produzione con servizi di tracciamento errori come Sentry o Datadog. Gli errori che impediscono il rendering nell'ambiente di Googlebot potrebbero non manifestarsi nei browser regolari.\n\nTracciate le prestazioni di rendering della pagina specificamente dalla prospettiva SSR. Monitorate i tempi di risposta SSR separatamente e impostate avvisi per tempi di risposta che superano 1-2 secondi.",
           items: [
             "Monitorare la Copertura di Search Console per picchi di pagine non indicizzate o errori di rendering",
             "Automatizzare confronti di rendering tra HTML del server e DOM renderizzato da JavaScript",
@@ -423,6 +513,15 @@ export const javascriptSeoForEcommerce: AcademyTopic = {
             "De renderingtimeout is ongeveer 5 seconden voor de eerste betekenisvolle content-paint",
           ],
           tip: "Gebruik de URL-inspectietool van Google Search Console met de optie 'Geteste pagina bekijken' om precies te zien wat Googlebot rendert. Vergelijk de gerenderde HTML met uw live pagina om content te identificeren die niet laadt tijdens de renderingpass.",
+          image: {
+            src: "/images/academy/nl/googlebot-js-two-phase.svg",
+            alt: "Googlebot JavaScript-Verarbeitung in zwei Phasen: Crawlen (Sekunden) und Rendern (Minuten bis Tage)",
+            caption: "Googlebots Zwei-Phasen-Verarbeitung bedeutet: Content, der JavaScript zum Rendern benoetigt, wird moeglicherweise erst Tage spaeter indexiert.",
+          },
+          callout: {
+            title: "Rendering-Verzoegerung",
+            text: "Die Wartezeit in der Render-Warteschlange kann Minuten bis Tage betragen. Fuer E-Commerce-Shops mit haeufigen Preis- oder Verfuegbarkeitsaenderungen ist serverseitiges Rendering kritisch, damit Google aktuelle Daten indexiert.",
+          },
         },
         {
           title: "Renderingstrategieen: CSR, SSR en SSG",
@@ -435,6 +534,15 @@ export const javascriptSeoForEcommerce: AcademyTopic = {
             "ISR combineert statische prestaties met periodieke dataversheid zonder volledige rebuilds",
             "Hybride strategieen wijzen verschillende renderingmethoden toe aan verschillende paginatypen op basis van indexeringsbehoeften",
           ],
+          image: {
+            src: "/images/academy/nl/js-rendering-strategies.svg",
+            alt: "Vergleich der Rendering-Strategien: CSR, SSR, SSG und ISR mit SEO-Bewertung",
+            caption: "SSR ist fuer die meisten E-Commerce-Shops am besten geeignet. CSR ist fuer SEO nicht zu empfehlen.",
+          },
+          callout: {
+            title: "Rendering-Empfehlung",
+            text: "Fuer E-Commerce-Shops mit mehr als 1.000 Produkten ist SSR die beste Wahl. SSG funktioniert nur fuer kleine Kataloge, und ISR bietet das Beste aus beiden Welten, erfordert aber mehr technisches Setup.",
+          },
         },
         {
           title: "Kritieke SEO-elementen in JavaScript-frameworks",
@@ -474,7 +582,7 @@ export const javascriptSeoForEcommerce: AcademyTopic = {
         {
           title: "JavaScript SEO testen en monitoren",
           content:
-            "Continue monitoring van uw JavaScript-renderingpipeline is essentieel omdat framework-updates, wijzigingen in scripts van derden en CMS-aanpassingen server-side rendering kunnen breken zonder zichtbare symptomen voor de gebruiker. Een pagina die perfect werkt voor gebruikers kan volledig leeg zijn voor Googlebot als SSR stilletjes faalt.\n\nHet Dekkingsrapport van Google Search Console is uw primaire monitoringtool. Let op pieken in de categorieen 'Ontdekt - momenteel niet geindexeerd' of 'Gecrawld - momenteel niet geindexeerd', die vaak wijzen op renderingfouten.\n\nStel geautomatiseerde renderingtests op met headless Chrome of Puppeteer-scripts die het gedrag van Googlebot simuleren. Deze tests moeten JavaScript uitschakelen, de server-gerenderde HTML vastleggen, JavaScript weer inschakelen en de gerenderde DOM vergelijken.\n\nMonitor uw JavaScript-foutpercentages in productie met foutopsporingsdiensten zoals Sentry of Datadog. JavaScript-fouten die rendering in Googlebot's omgeving voorkomen, manifesteren zich mogelijk niet in reguliere browsers.\n\nVolg de renderingprestaties van uw pagina specifiek vanuit het SSR-perspectief. Monitor SSR-responstijden apart en stel waarschuwingen in voor responstijden die 1-2 seconden overschrijden.\n\nBekijk onze [technische SEO](/technical-seo)-diensten voor professionele ondersteuning.",
+            "Continue monitoring van uw JavaScript-renderingpipeline is essentieel omdat framework-updates, wijzigingen in scripts van derden en CMS-aanpassingen server-side rendering kunnen breken zonder zichtbare symptomen voor de gebruiker. Een pagina die perfect werkt voor gebruikers kan volledig leeg zijn voor Googlebot als SSR stilletjes faalt.\n\nHet Dekkingsrapport van Google Search Console is uw primaire monitoringtool. Let op pieken in de categorieen 'Ontdekt - momenteel niet geindexeerd' of 'Gecrawld - momenteel niet geindexeerd', die vaak wijzen op renderingfouten.\n\nStel geautomatiseerde renderingtests op met headless Chrome of Puppeteer-scripts die het gedrag van Googlebot simuleren. Deze tests moeten JavaScript uitschakelen, de server-gerenderde HTML vastleggen, JavaScript weer inschakelen en de gerenderde DOM vergelijken.\n\nMonitor uw JavaScript-foutpercentages in productie met foutopsporingsdiensten zoals Sentry of Datadog. JavaScript-fouten die rendering in Googlebot's omgeving voorkomen, manifesteren zich mogelijk niet in reguliere browsers.\n\nVolg de renderingprestaties van uw pagina specifiek vanuit het SSR-perspectief. Monitor SSR-responstijden apart en stel waarschuwingen in voor responstijden die 1-2 seconden overschrijden.\n\nBekijk onze [technische SEO](/ecommerce-seo-services)-diensten voor professionele ondersteuning.",
           items: [
             "Search Console Dekking monitoren op pieken in niet-geindexeerde of renderingfout-pagina's",
             "Renderingvergelijkingen automatiseren tussen server-HTML en JavaScript-gerenderde DOM",

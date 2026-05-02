@@ -5,6 +5,9 @@ import JsonLd from "@/components/JsonLd";
 import { breadcrumbJsonLd, faqJsonLd } from "@/lib/jsonLd";
 import { pricingFaqItemsT } from "@/lib/i18n/translations/pricing";
 
+export const revalidate = 3600;
+
+
 export async function generateMetadata({
   params,
 }: {

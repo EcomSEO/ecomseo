@@ -21,6 +21,10 @@ export const keywordResearchForEcommerce: AcademyTopic = {
             "Export your site search queries, these are unprompted demand signals from real shoppers",
             "Check Google Search Console for queries already driving impressions to product and category pages",
           ],
+          callout: {
+            title: "The 15/70 Rule",
+            text: "In a typical store with 200+ products, 15-20% of pages generate 70-80% of organic revenue. Identify these pages first and build your keyword strategy outward from this proven core.",
+          },
         },
         {
           title: "Starting With Revenue, Not Volume",
@@ -32,12 +36,21 @@ export const keywordResearchForEcommerce: AcademyTopic = {
           title: "The Ecommerce Keyword Research Workflow",
           content:
             "Step one: audit your existing organic performance. Pull all pages with organic traffic from GSC and tag each as product, category, blog, or other. Calculate revenue per organic session for each page type.\n\nStep two: build your seed list from three sources, your site search data, your GSC query report, and competitor keyword exports. Deduplicate and tag each keyword with its likely page type ([product vs category keywords](/academy/product-vs-category-keywords) is covered in our next topic).\n\nStep three: expand your seed list using keyword tools. For each seed, pull related terms, questions, and long-tail variants. But filter ruthlessly, keep only terms with clear commercial or transactional intent. Understanding [buyer intent vs search volume](/academy/buyer-intent-vs-search-volume) will help you make this distinction.\n\nStep four: prioritize. Score each keyword on three axes: revenue potential (search volume multiplied by estimated conversion rate multiplied by average order value), current ranking position, and content gap (do you have a page for this term or not). The keywords that score highest across all three get worked on first.",
+          image: {
+            src: "/images/academy/ecommerce-kw-research-workflow.svg",
+            alt: "Flowchart showing the four-step ecommerce keyword research workflow from auditing performance through seed list building, expansion, and revenue-based prioritization",
+            caption: "The four-step workflow starts with revenue data and ends with a prioritized keyword list scored by revenue potential, not just search volume.",
+          },
           items: [
             "Tag every keyword with its target page type: product, category, or content",
             "Filter out purely informational keywords unless they map to a clear purchase funnel",
             "Score keywords by revenue potential, not just volume or difficulty",
             "Identify content gaps where you have no page targeting a high-potential keyword",
           ],
+          callout: {
+            title: "Revenue Score Formula",
+            text: "Volume x CTR x Conversion Rate x AOV = Revenue Potential. A keyword with 500 searches and 5% conversion at $80 AOV beats one with 10,000 searches and 0.2% conversion at the same AOV by 2x.",
+          },
         },
         {
           title: "Tools and Data Sources",
@@ -83,6 +96,10 @@ export const keywordResearchForEcommerce: AcademyTopic = {
             "Exportieren Sie Ihre internen Suchanfragen, das sind unaufgeforderte Nachfragesignale von echten Kaefern",
             "Pruefen Sie die Google Search Console auf Suchanfragen, die bereits Impressionen auf Produkt- und Kategorieseiten erzeugen",
           ],
+          callout: {
+            title: "Die 15/70-Regel",
+            text: "In einem typischen Shop mit 200+ Produkten generieren 15-20\u00a0% der Seiten 70-80\u00a0% des organischen Umsatzes.",
+          },
         },
         {
           title: "Mit Umsatz beginnen, nicht mit Volumen",
@@ -100,6 +117,15 @@ export const keywordResearchForEcommerce: AcademyTopic = {
             "Bewerten Sie Keywords nach Umsatzpotenzial, nicht nur nach Volumen oder Schwierigkeit",
             "Identifizieren Sie Content-Luecken, wo keine Seite ein hochpotenziales Keyword abdeckt",
           ],
+          image: {
+            src: "/images/academy/de/ecommerce-kw-research-workflow.svg",
+            alt: "Flussdiagramm des vierstufigen Ecommerce Keyword-Recherche-Workflows",
+            caption: "Der vierstufige Workflow beginnt mit Umsatzdaten und endet mit einer priorisierten Keyword-Liste.",
+          },
+          callout: {
+            title: "Umsatz-Score-Formel",
+            text: "Volumen x CTR x Conversion-Rate x AOV = Umsatzpotenzial. Ein Keyword mit 500 Suchen und 5\u00a0% Conversion bei 80\u00a0EUR AOV schl\u00e4gt eines mit 10.000 Suchen und 0,2\u00a0% Conversion.",
+          },
         },
         {
           title: "Tools und Datenquellen",
@@ -145,6 +171,10 @@ export const keywordResearchForEcommerce: AcademyTopic = {
             "Exportez vos requetes de recherche interne, ce sont des signaux de demande spontanes de vrais acheteurs",
             "Consultez Google Search Console pour les requetes generant deja des impressions sur vos pages produits et categories",
           ],
+          callout: {
+            title: "Die 15/70-Regel",
+            text: "In einem typischen Shop mit 200+ Produkten generieren 15-20\u00a0% der Seiten 70-80\u00a0% des organischen Umsatzes.",
+          },
         },
         {
           title: "Commencer par le chiffre d'affaires, pas le volume",
@@ -162,6 +192,15 @@ export const keywordResearchForEcommerce: AcademyTopic = {
             "Evaluez les mots-cles par potentiel de revenus, pas seulement par volume ou difficulte",
             "Identifiez les lacunes de contenu ou aucune page ne cible un mot-cle a fort potentiel",
           ],
+          image: {
+            src: "/images/academy/fr/ecommerce-kw-research-workflow.svg",
+            alt: "Flussdiagramm des vierstufigen Ecommerce Keyword-Recherche-Workflows",
+            caption: "Der vierstufige Workflow beginnt mit Umsatzdaten und endet mit einer priorisierten Keyword-Liste.",
+          },
+          callout: {
+            title: "Umsatz-Score-Formel",
+            text: "Volumen x CTR x Conversion-Rate x AOV = Umsatzpotenzial. Ein Keyword mit 500 Suchen und 5\u00a0% Conversion bei 80\u00a0EUR AOV schl\u00e4gt eines mit 10.000 Suchen und 0,2\u00a0% Conversion.",
+          },
         },
         {
           title: "Outils et sources de donnees",
@@ -207,6 +246,10 @@ export const keywordResearchForEcommerce: AcademyTopic = {
             "Exporta las consultas de busqueda interna de tu sitio, son senales de demanda espontaneas de compradores reales",
             "Revisa Google Search Console para consultas que ya generan impresiones en paginas de productos y categorias",
           ],
+          callout: {
+            title: "Die 15/70-Regel",
+            text: "In einem typischen Shop mit 200+ Produkten generieren 15-20\u00a0% der Seiten 70-80\u00a0% des organischen Umsatzes.",
+          },
         },
         {
           title: "Empezar con ingresos, no con volumen",
@@ -224,6 +267,15 @@ export const keywordResearchForEcommerce: AcademyTopic = {
             "Puntua las palabras clave por potencial de ingresos, no solo por volumen o dificultad",
             "Identifica brechas de contenido donde no tienes pagina apuntando a una palabra clave de alto potencial",
           ],
+          image: {
+            src: "/images/academy/es/ecommerce-kw-research-workflow.svg",
+            alt: "Flussdiagramm des vierstufigen Ecommerce Keyword-Recherche-Workflows",
+            caption: "Der vierstufige Workflow beginnt mit Umsatzdaten und endet mit einer priorisierten Keyword-Liste.",
+          },
+          callout: {
+            title: "Umsatz-Score-Formel",
+            text: "Volumen x CTR x Conversion-Rate x AOV = Umsatzpotenzial. Ein Keyword mit 500 Suchen und 5\u00a0% Conversion bei 80\u00a0EUR AOV schl\u00e4gt eines mit 10.000 Suchen und 0,2\u00a0% Conversion.",
+          },
         },
         {
           title: "Herramientas y fuentes de datos",
@@ -269,6 +321,10 @@ export const keywordResearchForEcommerce: AcademyTopic = {
             "Esportate le query di ricerca interna del sito, sono segnali di domanda spontanei da acquirenti reali",
             "Controllate Google Search Console per le query che generano gia impressioni sulle pagine prodotto e categoria",
           ],
+          callout: {
+            title: "Die 15/70-Regel",
+            text: "In einem typischen Shop mit 200+ Produkten generieren 15-20\u00a0% der Seiten 70-80\u00a0% des organischen Umsatzes.",
+          },
         },
         {
           title: "Partire dal fatturato, non dal volume",
@@ -286,6 +342,15 @@ export const keywordResearchForEcommerce: AcademyTopic = {
             "Valutate le parole chiave per potenziale di fatturato, non solo per volume o difficolta",
             "Identificate i gap di contenuto dove non avete nessuna pagina che punti a una parola chiave ad alto potenziale",
           ],
+          image: {
+            src: "/images/academy/it/ecommerce-kw-research-workflow.svg",
+            alt: "Flussdiagramm des vierstufigen Ecommerce Keyword-Recherche-Workflows",
+            caption: "Der vierstufige Workflow beginnt mit Umsatzdaten und endet mit einer priorisierten Keyword-Liste.",
+          },
+          callout: {
+            title: "Umsatz-Score-Formel",
+            text: "Volumen x CTR x Conversion-Rate x AOV = Umsatzpotenzial. Ein Keyword mit 500 Suchen und 5\u00a0% Conversion bei 80\u00a0EUR AOV schl\u00e4gt eines mit 10.000 Suchen und 0,2\u00a0% Conversion.",
+          },
         },
         {
           title: "Strumenti e fonti di dati",
@@ -331,6 +396,10 @@ export const keywordResearchForEcommerce: AcademyTopic = {
             "Exporteer je interne zoekqueries, dit zijn spontane vraagsignalen van echte kopers",
             "Controleer Google Search Console voor queries die al impressies genereren op product- en categoriepagina's",
           ],
+          callout: {
+            title: "Die 15/70-Regel",
+            text: "In einem typischen Shop mit 200+ Produkten generieren 15-20\u00a0% der Seiten 70-80\u00a0% des organischen Umsatzes.",
+          },
         },
         {
           title: "Begin met omzet, niet met volume",
@@ -348,6 +417,15 @@ export const keywordResearchForEcommerce: AcademyTopic = {
             "Beoordeel zoekwoorden op omzetpotentieel, niet alleen op volume of moeilijkheidsgraad",
             "Identificeer contentgaps waar geen pagina een zoekwoord met hoog potentieel target",
           ],
+          image: {
+            src: "/images/academy/nl/ecommerce-kw-research-workflow.svg",
+            alt: "Flussdiagramm des vierstufigen Ecommerce Keyword-Recherche-Workflows",
+            caption: "Der vierstufige Workflow beginnt mit Umsatzdaten und endet mit einer priorisierten Keyword-Liste.",
+          },
+          callout: {
+            title: "Umsatz-Score-Formel",
+            text: "Volumen x CTR x Conversion-Rate x AOV = Umsatzpotenzial. Ein Keyword mit 500 Suchen und 5\u00a0% Conversion bei 80\u00a0EUR AOV schl\u00e4gt eines mit 10.000 Suchen und 0,2\u00a0% Conversion.",
+          },
         },
         {
           title: "Tools en databronnen",

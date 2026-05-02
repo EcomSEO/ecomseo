@@ -1,0 +1,42 @@
+<svg viewBox="0 0 680 320" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <text x="340" y="28" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#a78bfa">Enterprise Crawl Budget Allocation</text>
+  <g transform="translate(40,50)">
+    <rect x="0" y="0" width="120" height="240" rx="6" stroke="#f97316" stroke-width="2" fill="none"/>
+    <text x="60" y="25" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#f97316">Before Cleanup</text>
+    <rect x="15" y="40" width="90" height="180" rx="4" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="4" fill="none"/>
+    <rect x="15" y="40" width="90" height="135" rx="4" fill="#f9731622"/>
+    <text x="60" y="100" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#f97316">75% wasted</text>
+    <text x="60" y="115" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Filter URLs</text>
+    <text x="60" y="128" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Params + dupes</text>
+    <rect x="15" y="175" width="90" height="45" rx="4" fill="#4ade8022"/>
+    <text x="60" y="202" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#4ade80">25% useful</text>
+  </g>
+  <g transform="translate(200,140)">
+    <line x1="0" y1="0" x2="60" y2="0" stroke="#a78bfa" stroke-width="2" stroke-dasharray="4"/>
+    <polygon points="55,-5 65,0 55,5" fill="#a78bfa"/>
+    <text x="30" y="-10" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#a78bfa">Optimize</text>
+  </g>
+  <g transform="translate(280,50)">
+    <rect x="0" y="0" width="120" height="240" rx="6" stroke="#4ade80" stroke-width="2" fill="none"/>
+    <text x="60" y="25" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#4ade80">After Cleanup</text>
+    <rect x="15" y="40" width="90" height="180" rx="4" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="4" fill="none"/>
+    <rect x="15" y="40" width="90" height="27" rx="4" fill="#f9731622"/>
+    <text x="60" y="58" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#f97316">15% low-value</text>
+    <rect x="15" y="67" width="90" height="153" rx="4" fill="#4ade8022"/>
+    <text x="60" y="140" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#4ade80">85% valuable</text>
+    <text x="60" y="155" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Products + categories</text>
+  </g>
+  <g transform="translate(440,60)">
+    <rect x="0" y="0" width="200" height="220" rx="6" stroke="#60a5fa" stroke-width="2" fill="none"/>
+    <text x="100" y="25" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#60a5fa">Key Actions</text>
+    <text x="15" y="52" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">1. Audit crawlable URLs</text>
+    <text x="15" y="72" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">2. Block filter combos</text>
+    <text x="15" y="92" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">3. Noindex thin pages</text>
+    <text x="15" y="112" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">4. Segment sitemaps</text>
+    <text x="15" y="132" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">5. Remove stale URLs</text>
+    <text x="15" y="152" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">6. Monitor log files</text>
+    <line x1="15" y1="170" x2="185" y2="170" stroke="#60a5fa" stroke-width="1" stroke-dasharray="4"/>
+    <text x="100" y="192" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#4ade80">Result: 3x crawl freq.</text>
+    <text x="100" y="208" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">on valuable pages</text>
+  </g>
+</svg>

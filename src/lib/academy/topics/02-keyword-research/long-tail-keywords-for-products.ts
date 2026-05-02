@@ -16,12 +16,21 @@ export const longTailKeywordsForProducts: AcademyTopic = {
           title: "Long-Tail Math for Ecommerce",
           content:
             "Most store owners fixate on a handful of high-volume keywords. Meanwhile, the real revenue opportunity sits in aggregate long-tail traffic. Let's look at realistic numbers.\n\nA store with 500 product pages can reasonably target 2-5 long-tail keywords per page. That's 1,000-2,500 keyword targets. Each long-tail keyword might get only 20-200 searches per month, but with a position 1-3 ranking, you can capture 15-30% of that traffic. And because long-tail searches are highly specific, conversion rates run 4-8% compared to 0.5-1% for head terms.\n\nRun the math: 1,500 long-tail keywords averaging 80 searches per month, with a 20% click-through rate at positions 1-3, yields 24,000 monthly visits. At a 5% conversion rate and a $75 average order value, that's $90,000 in monthly revenue, from terms that most competitors ignore entirely.\n\nThe compounding effect is what makes this strategy powerful. Each new product page you add captures more long-tail terms. As your domain authority grows, those pages rank faster and for more variations. Our broader guide to [keyword research for ecommerce](/academy/keyword-research-for-ecommerce) explains how to build this foundation. A store that systematically optimizes product pages for long-tail keywords builds an organic traffic asset that competitors can't easily replicate.",
+          image: {
+            src: "/images/academy/long-tail-revenue-distribution.svg",
+            alt: "Chart showing the long-tail keyword revenue distribution curve with head terms on the left converting at 0.5-1% and the long tail on the right converting at 4-8%",
+            caption: "The long tail makes up 70-80% of all search queries. Each term is small individually, but 1,500 keywords at 80 searches each equals 24,000 monthly visits.",
+          },
           items: [
             "Target 2-5 long-tail keywords per product page across your entire catalog",
             "Long-tail conversion rates typically run 4-8%, versus 0.5-1% for generic head terms",
             "500 well-optimized product pages can generate 20,000-30,000 monthly organic visits",
             "Each new product page compounds the long-tail effect, building a durable traffic asset",
           ],
+          callout: {
+            title: "Compounding Revenue",
+            text: "A home goods store optimized 800 products over 6 months using wave-based rollout. Month-over-month organic revenue grew 12% on average, and by month 8 organic search was their second-largest revenue channel.",
+          },
         },
         {
           title: "Finding Long-Tail Opportunities in Product Attributes",
@@ -86,6 +95,15 @@ export const longTailKeywordsForProducts: AcademyTopic = {
             "500 gut optimierte Produktseiten koennen 20.000-30.000 monatliche organische Besuche generieren",
             "Jede neue Produktseite verstaerkt den Long-Tail-Effekt und baut ein dauerhaftes Traffic-Asset auf",
           ],
+          image: {
+            src: "/images/academy/de/long-tail-revenue-distribution.svg",
+            alt: "Diagramm der Long-Tail-Keyword-Umsatzverteilungskurve",
+            caption: "Der Long Tail macht 70-80\u00a0% aller Suchanfragen aus. 1.500 Keywords mit je 80 Suchen ergeben 24.000 monatliche Besuche.",
+          },
+          callout: {
+            title: "Kumulierender Umsatz",
+            text: "Ein Einrichtungsshop optimierte 800 Produkte über 6 Monate. Der organische Monatsumsatz wuchs durchschnittlich um 12\u00a0%, und ab Monat 8 war die organische Suche der zweitgrößte Umsatzkanal.",
+          },
         },
         {
           title: "Long-Tail-Chancen in Produktattributen finden",
@@ -150,6 +168,15 @@ export const longTailKeywordsForProducts: AcademyTopic = {
             "500 pages produits bien optimisees peuvent generer 20 000-30 000 visites organiques mensuelles",
             "Chaque nouvelle page produit compose l'effet longue traine, construisant un actif de trafic durable",
           ],
+          image: {
+            src: "/images/academy/fr/long-tail-revenue-distribution.svg",
+            alt: "Diagramm der Long-Tail-Keyword-Umsatzverteilungskurve",
+            caption: "Der Long Tail macht 70-80\u00a0% aller Suchanfragen aus. 1.500 Keywords mit je 80 Suchen ergeben 24.000 monatliche Besuche.",
+          },
+          callout: {
+            title: "Kumulierender Umsatz",
+            text: "Ein Einrichtungsshop optimierte 800 Produkte über 6 Monate. Der organische Monatsumsatz wuchs durchschnittlich um 12\u00a0%, und ab Monat 8 war die organische Suche der zweitgrößte Umsatzkanal.",
+          },
         },
         {
           title: "Trouver des opportunites longue traine dans les attributs produits",
@@ -214,6 +241,15 @@ export const longTailKeywordsForProducts: AcademyTopic = {
             "500 paginas de producto bien optimizadas pueden generar 20.000-30.000 visitas organicas mensuales",
             "Cada nueva pagina de producto compone el efecto de cola larga, construyendo un activo de trafico duradero",
           ],
+          image: {
+            src: "/images/academy/es/long-tail-revenue-distribution.svg",
+            alt: "Diagramm der Long-Tail-Keyword-Umsatzverteilungskurve",
+            caption: "Der Long Tail macht 70-80\u00a0% aller Suchanfragen aus. 1.500 Keywords mit je 80 Suchen ergeben 24.000 monatliche Besuche.",
+          },
+          callout: {
+            title: "Kumulierender Umsatz",
+            text: "Ein Einrichtungsshop optimierte 800 Produkte über 6 Monate. Der organische Monatsumsatz wuchs durchschnittlich um 12\u00a0%, und ab Monat 8 war die organische Suche der zweitgrößte Umsatzkanal.",
+          },
         },
         {
           title: "Encontrar oportunidades de cola larga en atributos de producto",
@@ -278,6 +314,15 @@ export const longTailKeywordsForProducts: AcademyTopic = {
             "500 pagine prodotto ben ottimizzate possono generare 20.000-30.000 visite organiche mensili",
             "Ogni nuova pagina prodotto compone l'effetto long-tail, costruendo un asset di traffico duraturo",
           ],
+          image: {
+            src: "/images/academy/it/long-tail-revenue-distribution.svg",
+            alt: "Diagramm der Long-Tail-Keyword-Umsatzverteilungskurve",
+            caption: "Der Long Tail macht 70-80\u00a0% aller Suchanfragen aus. 1.500 Keywords mit je 80 Suchen ergeben 24.000 monatliche Besuche.",
+          },
+          callout: {
+            title: "Kumulierender Umsatz",
+            text: "Ein Einrichtungsshop optimierte 800 Produkte über 6 Monate. Der organische Monatsumsatz wuchs durchschnittlich um 12\u00a0%, und ab Monat 8 war die organische Suche der zweitgrößte Umsatzkanal.",
+          },
         },
         {
           title: "Trovare opportunita long-tail negli attributi prodotto",
@@ -342,6 +387,15 @@ export const longTailKeywordsForProducts: AcademyTopic = {
             "500 goed geoptimaliseerde productpagina's kunnen 20.000-30.000 maandelijkse organische bezoeken genereren",
             "Elke nieuwe productpagina versterkt het long-tail effect en bouwt een duurzaam verkeersasset",
           ],
+          image: {
+            src: "/images/academy/nl/long-tail-revenue-distribution.svg",
+            alt: "Diagramm der Long-Tail-Keyword-Umsatzverteilungskurve",
+            caption: "Der Long Tail macht 70-80\u00a0% aller Suchanfragen aus. 1.500 Keywords mit je 80 Suchen ergeben 24.000 monatliche Besuche.",
+          },
+          callout: {
+            title: "Kumulierender Umsatz",
+            text: "Ein Einrichtungsshop optimierte 800 Produkte über 6 Monate. Der organische Monatsumsatz wuchs durchschnittlich um 12\u00a0%, und ab Monat 8 war die organische Suche der zweitgrößte Umsatzkanal.",
+          },
         },
         {
           title: "Long-tail kansen vinden in productattributen",

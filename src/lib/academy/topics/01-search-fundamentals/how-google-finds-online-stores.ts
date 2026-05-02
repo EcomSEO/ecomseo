@@ -16,12 +16,21 @@ export const howGoogleFindsOnlineStores: AcademyTopic = {
           title: "How Googlebot Crawls Ecommerce Sites",
           content:
             "Googlebot is the software Google uses to fetch web pages. It works by following links from one page to the next, much like a shopper clicking through your store. When it lands on a page, it reads the HTML, follows links it finds there, and adds newly discovered URLs to its crawl queue.\n\nFor ecommerce sites, this crawling process hits complications fast. A homepage might link to 15 category pages, each linking to 20 subcategories, each listing 40 products. That is already 12,000 product pages discovered from a single crawl path. But Googlebot does not have unlimited resources. Google assigns each site a crawl budget based on the site's authority and server capacity.\n\nA mid-sized store with moderate domain authority might see Googlebot request 5,000 to 15,000 pages per day. If your store has 80,000 URLs including filtered views and pagination, it could take weeks for Googlebot to visit every page once. That is why crawl efficiency matters so much for ecommerce. Every URL Googlebot wastes on a low-value filtered page is a URL it did not spend on a product page you actually want ranked. Learn more about how this process continues in our guide to [crawling and indexing product pages](/academy/crawling-and-indexing-product-pages).",
+          image: {
+            src: "/images/academy/googlebot-crawl-flow.svg",
+            alt: "Diagram showing how Googlebot crawls an ecommerce store from homepage through categories to product pages",
+            caption: "Googlebot follows links from homepage to categories to products. Pages deeper in the hierarchy get crawled less often.",
+          },
           items: [
             "Googlebot follows links from page to page to discover URLs",
             "Each site gets a crawl budget based on authority and server speed",
             "Large stores may take weeks for full crawl coverage",
             "Low-value pages consume budget that could go to product pages",
           ],
+          callout: {
+            title: "Crawl Budget Math",
+            text: "15 categories x 20 subcategories x 40 products = 12,000 product pages from one crawl path. Add filtered views and pagination, and a 50,000-SKU store can easily generate 200,000+ crawlable URLs.",
+          },
         },
         {
           title: "The Crawl Queue and Priority System",
@@ -33,6 +42,11 @@ export const howGoogleFindsOnlineStores: AcademyTopic = {
           title: "JavaScript Rendering and Ecommerce Platforms",
           content:
             "Many modern ecommerce platforms use JavaScript to load product information, pricing, and reviews. Shopify themes, React-based headless stores, and some WooCommerce setups rely heavily on client-side rendering. This creates a challenge because Googlebot crawls in two phases.\n\nIn the first phase, Googlebot fetches the raw HTML. If your product title, description, and price are loaded via JavaScript after the page renders, that initial HTML fetch returns an empty shell. Google then queues the page for a second rendering phase where it executes JavaScript. This rendering queue can add days or even weeks of delay before Google sees your actual content.\n\nShopify stores using the standard Liquid templating system generally avoid this problem because product data is rendered server-side. But stores using headless commerce setups with frameworks like Next.js or Nuxt need to implement server-side rendering (SSR) or static site generation (SSG) to ensure Googlebot sees product content on the first fetch.\n\nWe have audited stores where 30% of product pages were not indexed because the product schema markup, reviews, and even the product title were all loaded via JavaScript that Googlebot failed to render. Switching to server-side rendering fixed the indexation within three weeks. Our [technical SEO for ecommerce](/blog/technical-seo-for-ecommerce) guide covers rendering issues in more detail.",
+          image: {
+            src: "/images/academy/js-rendering-phases.svg",
+            alt: "Diagram showing Google's two-phase rendering process for JavaScript-heavy pages",
+            caption: "Phase 1 fetches raw HTML (often empty for JS sites). Phase 2 renders JavaScript but can be delayed by days or weeks.",
+          },
           items: [
             "Googlebot crawls in two phases: HTML fetch, then JavaScript rendering",
             "The rendering queue can delay content discovery by days or weeks",
@@ -40,12 +54,20 @@ export const howGoogleFindsOnlineStores: AcademyTopic = {
             "Headless setups need SSR or SSG for reliable indexation",
             "Test your pages with the URL Inspection tool to see what Google renders",
           ],
+          callout: {
+            title: "Real Case",
+            text: "We audited a store where 30% of product pages were not indexed. The product title, schema markup, and reviews were all loaded via JavaScript. Switching to server-side rendering fixed indexation within 3 weeks.",
+          },
         },
         {
           title: "XML Sitemaps for Product Discovery",
           content:
             "An XML sitemap is a file that lists the URLs you want Google to know about. For ecommerce sites, sitemaps serve as a direct channel to tell Google which pages exist, when they were last updated, and how frequently they change.\n\nA well-structured ecommerce sitemap strategy uses multiple sitemap files. One sitemap for product pages, another for category pages, one for blog content, and one for static pages like your about page and shipping policy. This separation lets you monitor indexation by page type in Search Console.\n\nWe typically recommend including only canonical, indexable pages in your sitemaps. Filtered URLs, out-of-stock product pages you have set to noindex, and paginated listing pages beyond page one should be excluded. A sitemap that lists 200,000 URLs when only 30,000 are indexable sends a confusing signal to Google about your site's quality.\n\nMost ecommerce platforms generate sitemaps automatically. Shopify creates a sitemap.xml that includes products, collections, pages, and blog posts. WooCommerce with Yoast SEO or RankMath generates sitemaps with more configuration options. Regardless of platform, review your sitemap monthly to ensure it reflects your current site structure.",
           tip: "Submit your sitemaps in Google Search Console and check the coverage report after two weeks. If the ratio of indexed to submitted pages is below 70%, investigate why Google is choosing not to index a significant portion of your submitted URLs.",
+          callout: {
+            title: "Sitemap Structure Example",
+            text: "sitemap-products.xml (30,000 URLs) + sitemap-categories.xml (200 URLs) + sitemap-blog.xml (150 URLs) + sitemap-pages.xml (20 URLs). Separate files let you track indexation by content type in Search Console.",
+          },
         },
         {
           title: "Internal Links as Discovery Paths",
@@ -69,6 +91,17 @@ export const howGoogleFindsOnlineStores: AcademyTopic = {
             "Consider loading more products per page to reduce pagination depth",
           ],
         },
+        {
+          title: "Inside Google's Indexing Pipeline: Trawler, Alexandria and Mustang",
+          content:
+            "The 2024 Content Warehouse leak named the systems that move your store from URL to ranked result. Trawler crawls and fetches pages. Alexandria indexes them. Mustang then runs initial scoring (the Ascorer) using hundreds of features, before twiddlers rerank the results. Every product page on your store passes through every stage.\n\nFor stores, the pipeline implication is that crawl-priority signals (link equity, freshness, internal-link depth) decide how often Trawler revisits a URL. Pages buried 4+ clicks deep, with no inbound internal links and stale lastmod dates, get crawled rarely \u2014 and changes you make to them take much longer to show up in rankings. The leak's hostAge attribute also confirms the long-rumoured \"sandbox\": new domains under ~12 months see capped visibility regardless of optimisation.\n\nIndexing is also not binary. Alexandria can index a URL without showing it (Google Search Console marks these \"Crawled \u2014 currently not indexed\"), and the choice is influenced by quality signals already computed at index time. The takeaway for ecommerce: treat crawl architecture and the technical baseline as load-bearing \u2014 they decide which of your pages even make it to the scoring stage.",
+          items: [
+            "Trawler \u2192 Alexandria \u2192 Mustang \u2192 twiddlers is the actual ranking chain disclosed in the leak",
+            "Trawler revisit frequency depends on link equity, freshness, and internal link depth \u2014 bury a PDP and updates take weeks to land",
+            "Alexandria can index without serving; quality signals computed at index time decide what's eligible to show",
+            "hostAge confirms the sandbox effect: domains under ~12 months see capped visibility",
+          ],
+        },
       ],
       navLabels: {
         previous: "Introduction to Ecommerce SEO",
@@ -86,12 +119,21 @@ export const howGoogleFindsOnlineStores: AcademyTopic = {
           title: "Wie Googlebot Ecommerce-Seiten crawlt",
           content:
             "Googlebot ist die Software, die Google zum Abrufen von Webseiten verwendet. Sie funktioniert, indem sie Links von einer Seite zur n\u00e4chsten folgt, \u00e4hnlich wie ein K\u00e4ufer, der durch Ihren Shop klickt. Wenn sie auf einer Seite landet, liest sie das HTML, folgt den gefundenen Links und f\u00fcgt neu entdeckte URLs zu ihrer Crawl-Warteschlange hinzu.\n\nF\u00fcr Ecommerce-Seiten st\u00f6\u00dft dieser Crawling-Prozess schnell auf Komplikationen. Eine Startseite verlinkt m\u00f6glicherweise auf 15 Kategorieseiten, von denen jede auf 20 Unterkategorien verlinkt, die jeweils 40 Produkte auflisten. Das sind bereits 12.000 Produktseiten, die \u00fcber einen einzigen Crawl-Pfad entdeckt werden. Aber Googlebot hat keine unbegrenzten Ressourcen. Google weist jeder Website ein Crawl-Budget basierend auf der Autorit\u00e4t und Serverkapazit\u00e4t der Website zu.\n\nEin mittelgro\u00dfer Shop mit moderater Domain-Autorit\u00e4t sieht m\u00f6glicherweise, dass Googlebot 5.000 bis 15.000 Seiten pro Tag abruft. Wenn Ihr Shop 80.000 URLs inklusive gefilterter Ansichten und Paginierung hat, kann es Wochen dauern, bis Googlebot jede Seite einmal besucht hat. Deshalb ist Crawl-Effizienz f\u00fcr Ecommerce so wichtig. Jede URL, die Googlebot f\u00fcr eine wertlose Filterseite verschwendet, ist eine URL, die nicht f\u00fcr eine Produktseite verwendet wurde, die Sie tats\u00e4chlich ranken lassen m\u00f6chten. Erfahren Sie mehr in unserem Leitfaden zu [Crawling und Indexierung von Produktseiten](/academy/crawling-and-indexing-product-pages).",
+          image: {
+            src: "/images/academy/de/googlebot-crawl-flow.svg",
+            alt: "Diagramm das zeigt, wie Googlebot einen Ecommerce-Shop von der Startseite \u00fcber Kategorien zu Produktseiten crawlt",
+            caption: "Googlebot folgt Links von der Startseite zu Kategorien zu Produkten. Seiten tiefer in der Hierarchie werden seltener gecrawlt.",
+          },
           items: [
             "Googlebot folgt Links von Seite zu Seite, um URLs zu entdecken",
             "Jede Website bekommt ein Crawl-Budget basierend auf Autorit\u00e4t und Servergeschwindigkeit",
             "Gro\u00dfe Shops ben\u00f6tigen m\u00f6glicherweise Wochen f\u00fcr vollst\u00e4ndige Crawl-Abdeckung",
             "Wertlose Seiten verbrauchen Budget, das f\u00fcr Produktseiten genutzt werden k\u00f6nnte",
           ],
+          callout: {
+            title: "Crawl-Budget-Mathematik",
+            text: "15 Kategorien \u00d7 20 Unterkategorien \u00d7 40 Produkte = 12.000 Produktseiten \u00fcber einen Crawl-Pfad. F\u00fcgt man gefilterte Ansichten und Paginierung hinzu, kann ein Shop mit 50.000 SKUs leicht 200.000+ crawlbare URLs erzeugen.",
+          },
         },
         {
           title: "Die Crawl-Warteschlange und das Priorit\u00e4tssystem",
@@ -103,6 +145,11 @@ export const howGoogleFindsOnlineStores: AcademyTopic = {
           title: "JavaScript-Rendering und Ecommerce-Plattformen",
           content:
             "Viele moderne Ecommerce-Plattformen verwenden JavaScript, um Produktinformationen, Preise und Bewertungen zu laden. Shopify-Themes, React-basierte Headless-Shops und einige WooCommerce-Setups verlassen sich stark auf clientseitiges Rendering. Das schafft eine Herausforderung, weil Googlebot in zwei Phasen crawlt.\n\nIn der ersten Phase ruft Googlebot das rohe HTML ab. Wenn Ihr Produkttitel, Ihre Beschreibung und Ihr Preis \u00fcber JavaScript nach dem Seitenrendering geladen werden, liefert dieser erste HTML-Abruf eine leere H\u00fclle. Google reiht die Seite dann f\u00fcr eine zweite Rendering-Phase ein, in der JavaScript ausgef\u00fchrt wird. Diese Rendering-Warteschlange kann Tage oder sogar Wochen Verz\u00f6gerung hinzuf\u00fcgen, bevor Google Ihren tats\u00e4chlichen Inhalt sieht.\n\nShopify-Shops, die das Standard-Liquid-Templating-System verwenden, vermeiden dieses Problem generell, da Produktdaten serverseitig gerendert werden. Aber Shops, die Headless-Commerce-Setups mit Frameworks wie Next.js oder Nuxt verwenden, m\u00fcssen serverseitiges Rendering (SSR) oder statische Seitengenerierung (SSG) implementieren, um sicherzustellen, dass Googlebot den Produktinhalt beim ersten Abruf sieht.\n\nWir haben Shops auditiert, bei denen 30 % der Produktseiten nicht indexiert waren, weil das Produkt-Schema-Markup, die Bewertungen und sogar der Produkttitel alle \u00fcber JavaScript geladen wurden, das Googlebot nicht rendern konnte. Der Wechsel zu serverseitigem Rendering hat die Indexierung innerhalb von drei Wochen korrigiert. Unser Leitfaden zu [technische SEO f\u00fcr Ecommerce](/blog/technical-seo-for-ecommerce) behandelt dies im Detail.",
+          image: {
+            src: "/images/academy/de/js-rendering-phases.svg",
+            alt: "Diagramm das Googles zweiphasigen Rendering-Prozess f\u00fcr JavaScript-lastige Seiten zeigt",
+            caption: "Phase 1 ruft rohes HTML ab (oft leer f\u00fcr JS-Seiten). Phase 2 rendert JavaScript, kann aber um Tage oder Wochen verz\u00f6gert sein.",
+          },
           items: [
             "Googlebot crawlt in zwei Phasen: HTML-Abruf, dann JavaScript-Rendering",
             "Die Rendering-Warteschlange kann die Inhaltsentdeckung um Tage oder Wochen verz\u00f6gern",
@@ -110,12 +157,20 @@ export const howGoogleFindsOnlineStores: AcademyTopic = {
             "Headless-Setups ben\u00f6tigen SSR oder SSG f\u00fcr zuverl\u00e4ssige Indexierung",
             "Testen Sie Ihre Seiten mit dem URL-Pr\u00fcftool, um zu sehen, was Google rendert",
           ],
+          callout: {
+            title: "Praxisfall",
+            text: "Wir auditierten einen Shop, bei dem 30\u00a0% der Produktseiten nicht indexiert waren. Produkttitel, Schema-Markup und Bewertungen wurden alle \u00fcber JavaScript geladen. Wechsel zu serverseitigem Rendering hat die Indexierung innerhalb von 3 Wochen behoben.",
+          },
         },
         {
           title: "XML-Sitemaps f\u00fcr die Produktentdeckung",
           content:
             "Eine XML-Sitemap ist eine Datei, die die URLs auflistet, die Google kennen soll. F\u00fcr Ecommerce-Seiten dienen Sitemaps als direkter Kanal, um Google mitzuteilen, welche Seiten existieren, wann sie zuletzt aktualisiert wurden und wie h\u00e4ufig sie sich \u00e4ndern.\n\nEine gut strukturierte Ecommerce-Sitemap-Strategie verwendet mehrere Sitemap-Dateien. Eine Sitemap f\u00fcr Produktseiten, eine weitere f\u00fcr Kategorieseiten, eine f\u00fcr Blog-Inhalte und eine f\u00fcr statische Seiten wie Ihre \u00dcber-uns-Seite und Versandrichtlinie. Diese Trennung erm\u00f6glicht es Ihnen, die Indexierung nach Seitentyp in der Search Console zu \u00fcberwachen.\n\nWir empfehlen typischerweise, nur kanonische, indexierbare Seiten in Ihre Sitemaps aufzunehmen. Gefilterte URLs, nicht vorr\u00e4tige Produktseiten, die auf noindex gesetzt sind, und paginierte Listenseiten jenseits von Seite eins sollten ausgeschlossen werden. Eine Sitemap, die 200.000 URLs auflistet, obwohl nur 30.000 indexierbar sind, sendet ein verwirrendes Signal an Google \u00fcber die Qualit\u00e4t Ihrer Website.\n\nDie meisten Ecommerce-Plattformen generieren Sitemaps automatisch. Shopify erstellt eine sitemap.xml, die Produkte, Kollektionen, Seiten und Blogbeitr\u00e4ge enth\u00e4lt. WooCommerce mit Yoast SEO oder RankMath generiert Sitemaps mit mehr Konfigurationsoptionen. Unabh\u00e4ngig von der Plattform sollten Sie Ihre Sitemap monatlich \u00fcberpr\u00fcfen, um sicherzustellen, dass sie Ihre aktuelle Seitenstruktur widerspiegelt.",
           tip: "Reichen Sie Ihre Sitemaps in der Google Search Console ein und pr\u00fcfen Sie den Abdeckungsbericht nach zwei Wochen. Wenn das Verh\u00e4ltnis von indexierten zu eingereichten Seiten unter 70 % liegt, untersuchen Sie, warum Google sich entscheidet, einen erheblichen Teil Ihrer eingereichten URLs nicht zu indexieren.",
+          callout: {
+            title: "Sitemap-Struktur Beispiel",
+            text: "sitemap-produkte.xml (30.000 URLs) + sitemap-kategorien.xml (200 URLs) + sitemap-blog.xml (150 URLs) + sitemap-seiten.xml (20 URLs). Separate Dateien erm\u00f6glichen das Tracking der Indexierung nach Content-Typ in der Search Console.",
+          },
         },
         {
           title: "Interne Links als Entdeckungspfade",
@@ -137,6 +192,17 @@ export const howGoogleFindsOnlineStores: AcademyTopic = {
             "Implementieren Sie Kontrollen f\u00fcr facettierte Navigation, um Crawl-Fallen zu verhindern",
             "Verwenden Sie Canonical-Tags f\u00fcr Session-IDs und Tracking-Parameter",
             "Erw\u00e4gen Sie, mehr Produkte pro Seite zu laden, um die Paginierungstiefe zu reduzieren",
+          ],
+        },
+        {
+          title: "In Googles Indexierungs-Pipeline: Trawler, Alexandria und Mustang",
+          content:
+            "Das Content Warehouse Leak 2024 hat die Systeme benannt, die Ihren Shop von der URL zum gerankten Ergebnis fuehren. Trawler crawlt und holt Seiten ab. Alexandria indexiert sie. Mustang fuehrt dann initiales Scoring (den Ascorer) mit Hunderten von Features durch, bevor Twiddler die Ergebnisse neu ranken. Jede Produktseite Ihres Shops durchlaeuft jede Stufe.\n\nFuer Shops bedeutet die Pipeline-Implikation, dass Crawl-Prioritaets-Signale (Link-Equity, Frische, interne Link-Tiefe) entscheiden, wie oft Trawler eine URL erneut besucht. Seiten, die mehr als 4 Klicks tief vergraben sind, ohne eingehende interne Links und mit veralteten lastmod-Daten, werden selten gecrawlt - und Aenderungen, die Sie an ihnen vornehmen, brauchen viel laenger, um in den Rankings sichtbar zu werden. Das hostAge-Attribut im Leak bestaetigt auch die lange vermutete \"Sandbox\": Neue Domains unter ~12 Monaten sehen begrenzte Sichtbarkeit unabhaengig von der Optimierung.\n\nIndexierung ist auch nicht binaer. Alexandria kann eine URL indexieren, ohne sie anzuzeigen (Google Search Console markiert diese als \"Gecrawlt - derzeit nicht indexiert\"), und die Wahl wird durch Qualitaetssignale beeinflusst, die bereits zur Indexierungszeit berechnet werden. Die Erkenntnis fuer E-Commerce: Behandeln Sie Crawl-Architektur und die technische Basis als tragend - sie entscheiden, welche Ihrer Seiten ueberhaupt zur Scoring-Stufe gelangen.",
+          items: [
+            "Trawler -> Alexandria -> Mustang -> Twiddler ist die tatsaechliche im Leak offengelegte Ranking-Kette",
+            "Trawler-Revisit-Frequenz haengt von Link-Equity, Frische und interner Link-Tiefe ab - PDPs vergraben und Updates landen Wochen spaeter",
+            "Alexandria kann ohne Auslieferung indexieren; Qualitaetssignale zur Indexierungszeit entscheiden, was angezeigt werden darf",
+            "hostAge bestaetigt den Sandbox-Effekt: Domains unter ~12 Monaten sehen begrenzte Sichtbarkeit",
           ],
         },
       ],
@@ -162,6 +228,15 @@ export const howGoogleFindsOnlineStores: AcademyTopic = {
             "Les grandes boutiques peuvent n\u00e9cessiter des semaines pour une couverture compl\u00e8te",
             "Les pages sans valeur consomment du budget qui pourrait aller aux pages produits",
           ],
+          image: {
+            src: "/images/academy/fr/googlebot-crawl-flow.svg",
+            alt: "Diagramm das zeigt, wie Googlebot einen Ecommerce-Shop von der Startseite \u00fcber Kategorien zu Produktseiten crawlt",
+            caption: "Googlebot folgt Links von der Startseite zu Kategorien zu Produkten. Seiten tiefer in der Hierarchie werden seltener gecrawlt.",
+          },
+          callout: {
+            title: "Crawl-Budget-Mathematik",
+            text: "15 Kategorien \u00d7 20 Unterkategorien \u00d7 40 Produkte = 12.000 Produktseiten \u00fcber einen Crawl-Pfad. F\u00fcgt man gefilterte Ansichten und Paginierung hinzu, kann ein Shop mit 50.000 SKUs leicht 200.000+ crawlbare URLs erzeugen.",
+          },
         },
         {
           title: "La file d'attente de crawl et le syst\u00e8me de priorit\u00e9",
@@ -180,12 +255,25 @@ export const howGoogleFindsOnlineStores: AcademyTopic = {
             "Les configurations headless n\u00e9cessitent SSR ou SSG pour une indexation fiable",
             "Testez vos pages avec l'outil d'inspection d'URL pour voir ce que Google rend",
           ],
+          image: {
+            src: "/images/academy/fr/js-rendering-phases.svg",
+            alt: "Diagramm das Googles zweiphasigen Rendering-Prozess f\u00fcr JavaScript-lastige Seiten zeigt",
+            caption: "Phase 1 ruft rohes HTML ab (oft leer f\u00fcr JS-Seiten). Phase 2 rendert JavaScript, kann aber um Tage oder Wochen verz\u00f6gert sein.",
+          },
+          callout: {
+            title: "Praxisfall",
+            text: "Wir auditierten einen Shop, bei dem 30\u00a0% der Produktseiten nicht indexiert waren. Produkttitel, Schema-Markup und Bewertungen wurden alle \u00fcber JavaScript geladen. Wechsel zu serverseitigem Rendering hat die Indexierung innerhalb von 3 Wochen behoben.",
+          },
         },
         {
           title: "Sitemaps XML pour la d\u00e9couverte des produits",
           content:
             "Un sitemap XML est un fichier qui liste les URLs dont vous voulez que Google ait connaissance. Pour les sites e-commerce, les sitemaps servent de canal direct pour indiquer \u00e0 Google quelles pages existent, quand elles ont \u00e9t\u00e9 mises \u00e0 jour pour la derni\u00e8re fois et \u00e0 quelle fr\u00e9quence elles changent.\n\nUne strat\u00e9gie de sitemap e-commerce bien structur\u00e9e utilise plusieurs fichiers de sitemap. Un sitemap pour les pages produits, un autre pour les pages cat\u00e9gories, un pour le contenu du blog et un pour les pages statiques comme votre page \u00e0 propos et votre politique de livraison. Cette s\u00e9paration vous permet de surveiller l'indexation par type de page dans la Search Console.\n\nNous recommandons g\u00e9n\u00e9ralement de n'inclure que les pages canoniques et indexables dans vos sitemaps. Les URLs filtr\u00e9es, les pages de produits en rupture de stock que vous avez mises en noindex et les pages de listing pagin\u00e9es au-del\u00e0 de la page un devraient \u00eatre exclues. Un sitemap qui liste 200 000 URLs alors que seulement 30 000 sont indexables envoie un signal confus \u00e0 Google sur la qualit\u00e9 de votre site.\n\nLa plupart des plateformes e-commerce g\u00e9n\u00e8rent des sitemaps automatiquement. Shopify cr\u00e9e un sitemap.xml qui inclut les produits, collections, pages et articles de blog. WooCommerce avec Yoast SEO ou RankMath g\u00e9n\u00e8re des sitemaps avec plus d'options de configuration. Quelle que soit la plateforme, passez en revue votre sitemap mensuellement pour vous assurer qu'il refl\u00e8te la structure actuelle de votre site.",
           tip: "Soumettez vos sitemaps dans Google Search Console et v\u00e9rifiez le rapport de couverture apr\u00e8s deux semaines. Si le ratio de pages index\u00e9es par rapport aux pages soumises est inf\u00e9rieur \u00e0 70 %, recherchez pourquoi Google choisit de ne pas indexer une partie significative de vos URLs soumises.",
+          callout: {
+            title: "Sitemap-Struktur Beispiel",
+            text: "sitemap-produkte.xml (30.000 URLs) + sitemap-kategorien.xml (200 URLs) + sitemap-blog.xml (150 URLs) + sitemap-seiten.xml (20 URLs). Separate Dateien erm\u00f6glichen das Tracking der Indexierung nach Content-Typ in der Search Console.",
+          },
         },
         {
           title: "Les liens internes comme chemins de d\u00e9couverte",
@@ -207,6 +295,17 @@ export const howGoogleFindsOnlineStores: AcademyTopic = {
             "Mettez en place des contr\u00f4les sur la navigation \u00e0 facettes pour pr\u00e9venir les pi\u00e8ges de crawl",
             "Utilisez des balises canonical pour g\u00e9rer les IDs de session et les param\u00e8tres de tracking",
             "Envisagez de charger plus de produits par page pour r\u00e9duire la profondeur de pagination",
+          ],
+        },
+        {
+          title: "Dans la pipeline d'indexation Google : Trawler, Alexandria et Mustang",
+          content:
+            "Le leak Content Warehouse 2024 a nomme les systemes qui transferent votre boutique de l'URL au resultat classe. Trawler crawle et recupere les pages. Alexandria les indexe. Mustang execute ensuite le scoring initial (l'Ascorer) avec des centaines de features, avant que les twiddlers reclassent les resultats. Chaque page produit de votre boutique passe par chaque etape.\n\nPour les boutiques, l'implication de la pipeline est que les signaux de priorite de crawl (link equity, fraicheur, profondeur de liens internes) decident a quelle frequence Trawler revisite une URL. Les pages enterrees a 4+ clics, sans liens internes entrants et avec des dates lastmod obsoletes, sont rarement crawlees - et les changements que vous y apportez prennent beaucoup plus longtemps a apparaitre dans les rankings. L'attribut hostAge du leak confirme aussi le \"sandbox\" longtemps soupconne : les nouveaux domaines de moins de ~12 mois voient une visibilite plafonnee independamment de l'optimisation.\n\nL'indexation n'est pas non plus binaire. Alexandria peut indexer une URL sans l'afficher (Google Search Console marque celles-ci \"Explorees - actuellement non indexees\"), et le choix est influence par des signaux de qualite deja calcules au moment de l'indexation. La conclusion pour l'ecommerce : traitez l'architecture de crawl et la base technique comme porteuses - elles decident quelles de vos pages atteignent meme l'etape de scoring.",
+          items: [
+            "Trawler -> Alexandria -> Mustang -> twiddlers est la vraie chaine de ranking divulguee dans le leak",
+            "La frequence de revisite Trawler depend du link equity, de la fraicheur et de la profondeur des liens internes - une PDP enterree, les mises a jour atterrissent en semaines",
+            "Alexandria peut indexer sans servir ; les signaux de qualite calcules a l'indexation decident ce qui peut s'afficher",
+            "hostAge confirme l'effet sandbox : les domaines de moins de ~12 mois voient une visibilite plafonnee",
           ],
         },
       ],
@@ -232,6 +331,15 @@ export const howGoogleFindsOnlineStores: AcademyTopic = {
             "Las tiendas grandes pueden necesitar semanas para cobertura completa",
             "Las p\u00e1ginas sin valor consumen presupuesto que podr\u00eda ir a p\u00e1ginas de producto",
           ],
+          image: {
+            src: "/images/academy/es/googlebot-crawl-flow.svg",
+            alt: "Diagramm das zeigt, wie Googlebot einen Ecommerce-Shop von der Startseite \u00fcber Kategorien zu Produktseiten crawlt",
+            caption: "Googlebot folgt Links von der Startseite zu Kategorien zu Produkten. Seiten tiefer in der Hierarchie werden seltener gecrawlt.",
+          },
+          callout: {
+            title: "Crawl-Budget-Mathematik",
+            text: "15 Kategorien \u00d7 20 Unterkategorien \u00d7 40 Produkte = 12.000 Produktseiten \u00fcber einen Crawl-Pfad. F\u00fcgt man gefilterte Ansichten und Paginierung hinzu, kann ein Shop mit 50.000 SKUs leicht 200.000+ crawlbare URLs erzeugen.",
+          },
         },
         {
           title: "La cola de rastreo y el sistema de prioridades",
@@ -250,12 +358,25 @@ export const howGoogleFindsOnlineStores: AcademyTopic = {
             "Las configuraciones headless necesitan SSR o SSG para indexaci\u00f3n fiable",
             "Prueba tus p\u00e1ginas con la herramienta de inspecci\u00f3n de URLs para ver qu\u00e9 renderiza Google",
           ],
+          image: {
+            src: "/images/academy/es/js-rendering-phases.svg",
+            alt: "Diagramm das Googles zweiphasigen Rendering-Prozess f\u00fcr JavaScript-lastige Seiten zeigt",
+            caption: "Phase 1 ruft rohes HTML ab (oft leer f\u00fcr JS-Seiten). Phase 2 rendert JavaScript, kann aber um Tage oder Wochen verz\u00f6gert sein.",
+          },
+          callout: {
+            title: "Praxisfall",
+            text: "Wir auditierten einen Shop, bei dem 30\u00a0% der Produktseiten nicht indexiert waren. Produkttitel, Schema-Markup und Bewertungen wurden alle \u00fcber JavaScript geladen. Wechsel zu serverseitigem Rendering hat die Indexierung innerhalb von 3 Wochen behoben.",
+          },
         },
         {
           title: "Sitemaps XML para el descubrimiento de productos",
           content:
             "Un sitemap XML es un archivo que lista las URLs que quieres que Google conozca. Para sitios de ecommerce, los sitemaps sirven como canal directo para decirle a Google qu\u00e9 p\u00e1ginas existen, cu\u00e1ndo se actualizaron por \u00faltima vez y con qu\u00e9 frecuencia cambian.\n\nUna estrategia de sitemaps bien estructurada para ecommerce usa m\u00faltiples archivos de sitemap. Un sitemap para p\u00e1ginas de producto, otro para p\u00e1ginas de categor\u00eda, uno para contenido del blog y uno para p\u00e1ginas est\u00e1ticas como tu p\u00e1gina sobre nosotros y pol\u00edtica de env\u00edos. Esta separaci\u00f3n te permite monitorear la indexaci\u00f3n por tipo de p\u00e1gina en Search Console.\n\nGeneralmente recomendamos incluir solo p\u00e1ginas can\u00f3nicas e indexables en tus sitemaps. Las URLs filtradas, las p\u00e1ginas de productos agotados que has configurado como noindex, y las p\u00e1ginas de listado paginadas m\u00e1s all\u00e1 de la p\u00e1gina uno deber\u00edan excluirse. Un sitemap que lista 200.000 URLs cuando solo 30.000 son indexables env\u00eda una se\u00f1al confusa a Google sobre la calidad de tu sitio.\n\nLa mayor\u00eda de las plataformas de ecommerce generan sitemaps autom\u00e1ticamente. Shopify crea un sitemap.xml que incluye productos, colecciones, p\u00e1ginas y publicaciones del blog. WooCommerce con Yoast SEO o RankMath genera sitemaps con m\u00e1s opciones de configuraci\u00f3n. Independientemente de la plataforma, revisa tu sitemap mensualmente para asegurar que refleje la estructura actual de tu sitio.",
           tip: "Env\u00eda tus sitemaps en Google Search Console y revisa el informe de cobertura despu\u00e9s de dos semanas. Si la proporci\u00f3n de p\u00e1ginas indexadas respecto a las enviadas est\u00e1 por debajo del 70 %, investiga por qu\u00e9 Google est\u00e1 eligiendo no indexar una parte significativa de tus URLs enviadas.",
+          callout: {
+            title: "Sitemap-Struktur Beispiel",
+            text: "sitemap-produkte.xml (30.000 URLs) + sitemap-kategorien.xml (200 URLs) + sitemap-blog.xml (150 URLs) + sitemap-seiten.xml (20 URLs). Separate Dateien erm\u00f6glichen das Tracking der Indexierung nach Content-Typ in der Search Console.",
+          },
         },
         {
           title: "Los enlaces internos como caminos de descubrimiento",
@@ -277,6 +398,17 @@ export const howGoogleFindsOnlineStores: AcademyTopic = {
             "Implementa controles en la navegaci\u00f3n facetada para prevenir trampas de rastreo",
             "Usa etiquetas canonical para gestionar IDs de sesi\u00f3n y par\u00e1metros de seguimiento",
             "Considera cargar m\u00e1s productos por p\u00e1gina para reducir la profundidad de paginaci\u00f3n",
+          ],
+        },
+        {
+          title: "Dentro de la pipeline de indexacion de Google: Trawler, Alexandria y Mustang",
+          content:
+            "El leak Content Warehouse 2024 nombro los sistemas que mueven tu tienda desde URL hasta resultado rankeado. Trawler rastrea y obtiene paginas. Alexandria las indexa. Mustang luego ejecuta scoring inicial (el Ascorer) usando cientos de features, antes de que los twiddlers reordenen los resultados. Cada pagina de producto en tu tienda pasa por cada etapa.\n\nPara las tiendas, la implicacion de la pipeline es que las senales de prioridad de crawl (link equity, frescura, profundidad de enlaces internos) deciden con que frecuencia Trawler revisita una URL. Las paginas enterradas a 4+ clics, sin enlaces internos entrantes y con fechas lastmod obsoletas, se crawlean raramente - y los cambios que les hagas tardan mucho mas en mostrarse en los rankings. El atributo hostAge del leak tambien confirma el \"sandbox\" largamente rumoreado: dominios nuevos de menos de ~12 meses ven visibilidad limitada independientemente de la optimizacion.\n\nLa indexacion tampoco es binaria. Alexandria puede indexar una URL sin mostrarla (Google Search Console las marca como \"Rastreadas - actualmente no indexadas\"), y la eleccion esta influenciada por senales de calidad ya calculadas al momento de indexacion. La conclusion para ecommerce: trata la arquitectura de crawl y la base tecnica como cargas portantes - deciden cuales de tus paginas siquiera llegan a la etapa de scoring.",
+          items: [
+            "Trawler -> Alexandria -> Mustang -> twiddlers es la cadena real de ranking divulgada en el leak",
+            "La frecuencia de revisita de Trawler depende de link equity, frescura y profundidad de enlaces internos - entierra una PDP y los updates aterrizan en semanas",
+            "Alexandria puede indexar sin servir; las senales de calidad computadas en indexacion deciden que puede mostrarse",
+            "hostAge confirma el efecto sandbox: dominios con menos de ~12 meses ven visibilidad limitada",
           ],
         },
       ],
@@ -302,6 +434,15 @@ export const howGoogleFindsOnlineStores: AcademyTopic = {
             "I grandi negozi possono necessitare settimane per una copertura completa",
             "Le pagine senza valore consumano budget che potrebbe andare alle pagine prodotto",
           ],
+          image: {
+            src: "/images/academy/it/googlebot-crawl-flow.svg",
+            alt: "Diagramm das zeigt, wie Googlebot einen Ecommerce-Shop von der Startseite \u00fcber Kategorien zu Produktseiten crawlt",
+            caption: "Googlebot folgt Links von der Startseite zu Kategorien zu Produkten. Seiten tiefer in der Hierarchie werden seltener gecrawlt.",
+          },
+          callout: {
+            title: "Crawl-Budget-Mathematik",
+            text: "15 Kategorien \u00d7 20 Unterkategorien \u00d7 40 Produkte = 12.000 Produktseiten \u00fcber einen Crawl-Pfad. F\u00fcgt man gefilterte Ansichten und Paginierung hinzu, kann ein Shop mit 50.000 SKUs leicht 200.000+ crawlbare URLs erzeugen.",
+          },
         },
         {
           title: "La coda di scansione e il sistema di priorit\u00e0",
@@ -320,12 +461,25 @@ export const howGoogleFindsOnlineStores: AcademyTopic = {
             "Le configurazioni headless necessitano SSR o SSG per un'indicizzazione affidabile",
             "Testa le tue pagine con lo strumento Controllo URL per vedere cosa renderizza Google",
           ],
+          image: {
+            src: "/images/academy/it/js-rendering-phases.svg",
+            alt: "Diagramm das Googles zweiphasigen Rendering-Prozess f\u00fcr JavaScript-lastige Seiten zeigt",
+            caption: "Phase 1 ruft rohes HTML ab (oft leer f\u00fcr JS-Seiten). Phase 2 rendert JavaScript, kann aber um Tage oder Wochen verz\u00f6gert sein.",
+          },
+          callout: {
+            title: "Praxisfall",
+            text: "Wir auditierten einen Shop, bei dem 30\u00a0% der Produktseiten nicht indexiert waren. Produkttitel, Schema-Markup und Bewertungen wurden alle \u00fcber JavaScript geladen. Wechsel zu serverseitigem Rendering hat die Indexierung innerhalb von 3 Wochen behoben.",
+          },
         },
         {
           title: "Sitemap XML per la scoperta dei prodotti",
           content:
             "Una sitemap XML \u00e8 un file che elenca le URL di cui vuoi che Google sia a conoscenza. Per i siti ecommerce, le sitemap servono come canale diretto per dire a Google quali pagine esistono, quando sono state aggiornate l'ultima volta e con quale frequenza cambiano.\n\nUna strategia di sitemap ecommerce ben strutturata usa file sitemap multipli. Una sitemap per le pagine prodotto, un'altra per le pagine di categoria, una per i contenuti del blog e una per le pagine statiche come la pagina chi siamo e la politica di spedizione. Questa separazione ti permette di monitorare l'indicizzazione per tipo di pagina nella Search Console.\n\nGeneralmente raccomandiamo di includere solo pagine canoniche e indicizzabili nelle sitemap. Le URL filtrate, le pagine di prodotti esauriti impostate su noindex e le pagine di listing paginate oltre la pagina uno dovrebbero essere escluse. Una sitemap che elenca 200.000 URL quando solo 30.000 sono indicizzabili invia un segnale confuso a Google sulla qualit\u00e0 del tuo sito.\n\nLa maggior parte delle piattaforme ecommerce genera sitemap automaticamente. Shopify crea un sitemap.xml che include prodotti, collezioni, pagine e articoli del blog. WooCommerce con Yoast SEO o RankMath genera sitemap con pi\u00f9 opzioni di configurazione. Indipendentemente dalla piattaforma, rivedi la tua sitemap mensilmente per assicurarti che rifletta la struttura attuale del tuo sito.",
           tip: "Invia le tue sitemap in Google Search Console e controlla il rapporto di copertura dopo due settimane. Se il rapporto tra pagine indicizzate e inviate \u00e8 inferiore al 70 %, indaga perch\u00e9 Google sta scegliendo di non indicizzare una parte significativa delle tue URL inviate.",
+          callout: {
+            title: "Sitemap-Struktur Beispiel",
+            text: "sitemap-produkte.xml (30.000 URLs) + sitemap-kategorien.xml (200 URLs) + sitemap-blog.xml (150 URLs) + sitemap-seiten.xml (20 URLs). Separate Dateien erm\u00f6glichen das Tracking der Indexierung nach Content-Typ in der Search Console.",
+          },
         },
         {
           title: "I link interni come percorsi di scoperta",
@@ -347,6 +501,17 @@ export const howGoogleFindsOnlineStores: AcademyTopic = {
             "Implementa controlli sulla navigazione a faccette per prevenire trappole di crawl",
             "Usa tag canonical per gestire ID di sessione e parametri di tracciamento",
             "Considera di caricare pi\u00f9 prodotti per pagina per ridurre la profondit\u00e0 di paginazione",
+          ],
+        },
+        {
+          title: "Dentro la pipeline di indicizzazione Google: Trawler, Alexandria e Mustang",
+          content:
+            "Il leak Content Warehouse 2024 ha nominato i sistemi che spostano il tuo negozio da URL a risultato in classifica. Trawler effettua il crawl e recupera le pagine. Alexandria le indicizza. Mustang esegue poi lo scoring iniziale (l'Ascorer) usando centinaia di feature, prima che i twiddlers rerankino i risultati. Ogni pagina prodotto del tuo negozio passa per ogni fase.\n\nPer i negozi, l'implicazione della pipeline e che i segnali di priorita di crawl (link equity, freschezza, profondita di link interni) decidono quanto spesso Trawler rivisita un URL. Le pagine sepolte a 4+ click, senza link interni in entrata e con date lastmod obsolete, vengono crawlate raramente - e le modifiche che vi apporti impiegano molto piu tempo a comparire nei ranking. L'attributo hostAge del leak conferma anche il \"sandbox\" a lungo sospettato: i nuovi domini sotto ~12 mesi vedono visibilita limitata indipendentemente dall'ottimizzazione.\n\nNeppure l'indicizzazione e binaria. Alexandria puo indicizzare un URL senza mostrarlo (Google Search Console le marca \"Sottoposte a scansione - attualmente non indicizzate\"), e la scelta e influenzata da segnali di qualita gia calcolati al momento dell'indicizzazione. La conclusione per l'ecommerce: tratta l'architettura di crawl e la base tecnica come portanti - decidono quali tue pagine raggiungono persino la fase di scoring.",
+          items: [
+            "Trawler -> Alexandria -> Mustang -> twiddlers e la vera catena di ranking divulgata nel leak",
+            "La frequenza di rivisita di Trawler dipende da link equity, freschezza e profondita di link interni - seppellisci una PDP e gli update atterrano in settimane",
+            "Alexandria puo indicizzare senza servire; segnali di qualita calcolati all'indicizzazione decidono cosa puo mostrarsi",
+            "hostAge conferma l'effetto sandbox: domini sotto ~12 mesi vedono visibilita limitata",
           ],
         },
       ],
@@ -372,6 +537,15 @@ export const howGoogleFindsOnlineStores: AcademyTopic = {
             "Grote webshops hebben mogelijk weken nodig voor volledige crawl-dekking",
             "Waardeloze pagina's verbruiken budget dat naar productpagina's zou kunnen gaan",
           ],
+          image: {
+            src: "/images/academy/nl/googlebot-crawl-flow.svg",
+            alt: "Diagramm das zeigt, wie Googlebot einen Ecommerce-Shop von der Startseite \u00fcber Kategorien zu Produktseiten crawlt",
+            caption: "Googlebot folgt Links von der Startseite zu Kategorien zu Produkten. Seiten tiefer in der Hierarchie werden seltener gecrawlt.",
+          },
+          callout: {
+            title: "Crawl-Budget-Mathematik",
+            text: "15 Kategorien \u00d7 20 Unterkategorien \u00d7 40 Produkte = 12.000 Produktseiten \u00fcber einen Crawl-Pfad. F\u00fcgt man gefilterte Ansichten und Paginierung hinzu, kann ein Shop mit 50.000 SKUs leicht 200.000+ crawlbare URLs erzeugen.",
+          },
         },
         {
           title: "De crawl-wachtrij en het prioriteitssysteem",
@@ -390,12 +564,25 @@ export const howGoogleFindsOnlineStores: AcademyTopic = {
             "Headless setups hebben SSR of SSG nodig voor betrouwbare indexering",
             "Test je pagina's met de URL-inspectietool om te zien wat Google rendert",
           ],
+          image: {
+            src: "/images/academy/nl/js-rendering-phases.svg",
+            alt: "Diagramm das Googles zweiphasigen Rendering-Prozess f\u00fcr JavaScript-lastige Seiten zeigt",
+            caption: "Phase 1 ruft rohes HTML ab (oft leer f\u00fcr JS-Seiten). Phase 2 rendert JavaScript, kann aber um Tage oder Wochen verz\u00f6gert sein.",
+          },
+          callout: {
+            title: "Praxisfall",
+            text: "Wir auditierten einen Shop, bei dem 30\u00a0% der Produktseiten nicht indexiert waren. Produkttitel, Schema-Markup und Bewertungen wurden alle \u00fcber JavaScript geladen. Wechsel zu serverseitigem Rendering hat die Indexierung innerhalb von 3 Wochen behoben.",
+          },
         },
         {
           title: "XML-sitemaps voor productontdekking",
           content:
             "Een XML-sitemap is een bestand dat de URL's vermeldt waarvan je wilt dat Google ze kent. Voor ecommerce-sites dienen sitemaps als een direct kanaal om Google te vertellen welke pagina's bestaan, wanneer ze voor het laatst zijn bijgewerkt en hoe vaak ze veranderen.\n\nEen goed gestructureerde ecommerce-sitemapstrategie gebruikt meerdere sitemapbestanden. E\u00e9n sitemap voor productpagina's, een andere voor categoriepagina's, een voor blogcontent en een voor statische pagina's zoals je over-ons-pagina en verzendbeleid. Deze scheiding laat je indexering per paginatype monitoren in Search Console.\n\nWe raden doorgaans aan om alleen canonieke, indexeerbare pagina's in je sitemaps op te nemen. Gefilterde URL's, uitverkochte productpagina's die je op noindex hebt gezet, en gepagineerde lijstpagina's voorbij pagina \u00e9\u00e9n moeten worden uitgesloten. Een sitemap die 200.000 URL's vermeldt terwijl slechts 30.000 indexeerbaar zijn, stuurt een verwarrend signaal naar Google over de kwaliteit van je site.\n\nDe meeste ecommerce-platforms genereren sitemaps automatisch. Shopify maakt een sitemap.xml aan die producten, collecties, pagina's en blogposts bevat. WooCommerce met Yoast SEO of RankMath genereert sitemaps met meer configuratieopties. Ongeacht het platform, bekijk je sitemap maandelijks om ervoor te zorgen dat het je huidige sitestructuur weerspiegelt.",
           tip: "Dien je sitemaps in bij Google Search Console en controleer het dekkingsrapport na twee weken. Als de verhouding van ge\u00efndexeerde tot ingediende pagina's onder de 70 % ligt, onderzoek dan waarom Google ervoor kiest een aanzienlijk deel van je ingediende URL's niet te indexeren.",
+          callout: {
+            title: "Sitemap-Struktur Beispiel",
+            text: "sitemap-produkte.xml (30.000 URLs) + sitemap-kategorien.xml (200 URLs) + sitemap-blog.xml (150 URLs) + sitemap-seiten.xml (20 URLs). Separate Dateien erm\u00f6glichen das Tracking der Indexierung nach Content-Typ in der Search Console.",
+          },
         },
         {
           title: "Interne links als ontdekkingspaden",
@@ -417,6 +604,17 @@ export const howGoogleFindsOnlineStores: AcademyTopic = {
             "Implementeer controles op gefacetteerde navigatie om crawl-vallen te voorkomen",
             "Gebruik canonical tags om sessie-ID's en trackingparameters af te handelen",
             "Overweeg meer producten per pagina te laden om pagineringsdiepte te verminderen",
+          ],
+        },
+        {
+          title: "In Googles indexatie-pipeline: Trawler, Alexandria en Mustang",
+          content:
+            "Het Content Warehouse Leak 2024 noemde de systemen die jouw winkel van URL naar gerankt resultaat brengen. Trawler crawlt en haalt pagina's op. Alexandria indexeert ze. Mustang voert vervolgens initial scoring uit (de Ascorer) met honderden features, voordat twiddlers de resultaten herrangschikken. Elke productpagina van je winkel passeert elke fase.\n\nVoor winkels is de pipeline-implicatie dat crawl-prioriteit-signalen (link equity, versheid, interne linkdiepte) beslissen hoe vaak Trawler een URL opnieuw bezoekt. Pagina's die 4+ klikken diep zijn begraven, zonder inkomende interne links en met verouderde lastmod-datums, worden zelden gecrawld - en wijzigingen die je daar maakt duren veel langer om in de rankings te verschijnen. Het hostAge-attribuut van het leak bevestigt ook het lang veronderstelde \"sandbox\"-effect: nieuwe domeinen onder ~12 maanden zien beperkte zichtbaarheid ongeacht optimalisatie.\n\nIndexatie is ook niet binair. Alexandria kan een URL indexeren zonder die te tonen (Google Search Console markeert deze als \"Gecrawld - momenteel niet geindexeerd\"), en de keuze wordt beinvloed door kwaliteitssignalen die al bij indexatie zijn berekend. De conclusie voor ecommerce: behandel crawlarchitectuur en de technische basis als dragend - ze bepalen welke van je pagina's uberhaupt de scoring-fase bereiken.",
+          items: [
+            "Trawler -> Alexandria -> Mustang -> twiddlers is de werkelijke ranking-keten onthuld in het leak",
+            "Trawler-revisitfrequentie hangt af van link equity, versheid en interne linkdiepte - begraaf een PDP en updates landen pas na weken",
+            "Alexandria kan indexeren zonder serveren; kwaliteitssignalen berekend bij indexatie bepalen wat getoond mag worden",
+            "hostAge bevestigt het sandbox-effect: domeinen onder ~12 maanden zien beperkte zichtbaarheid",
           ],
         },
       ],

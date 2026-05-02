@@ -1,0 +1,39 @@
+<svg viewBox="0 0 680 300" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <text x="340" y="28" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#a78bfa">Keyword-to-Page Type Mapping</text>
+  <!-- Category -->
+  <rect x="40" y="55" width="140" height="50" rx="8" fill="#a78bfa" opacity="0.15" stroke="#a78bfa" stroke-width="1.5"/>
+  <text x="110" y="76" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#a78bfa">Category Pages</text>
+  <text x="110" y="93" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">1-2 primary + 4-6 secondary</text>
+  <!-- Subcategory -->
+  <rect x="40" y="120" width="140" height="50" rx="8" fill="#60a5fa" opacity="0.15" stroke="#60a5fa" stroke-width="1.5"/>
+  <text x="110" y="141" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#60a5fa">Subcategory</text>
+  <text x="110" y="158" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Specific browsing intent</text>
+  <!-- Product -->
+  <rect x="40" y="185" width="140" height="50" rx="8" fill="#4ade80" opacity="0.15" stroke="#4ade80" stroke-width="1.5"/>
+  <text x="110" y="206" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#4ade80">Product Pages</text>
+  <text x="110" y="223" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">SKU-level terms</text>
+  <!-- Blog -->
+  <rect x="40" y="250" width="140" height="50" rx="8" fill="#f97316" opacity="0.15" stroke="#f97316" stroke-width="1.5"/>
+  <text x="110" y="271" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#f97316">Blog / Guides</text>
+  <text x="110" y="288" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Informational intent</text>
+  <!-- Arrows and example keywords -->
+  <line x1="185" y1="80" x2="240" y2="80" stroke="#a78bfa" stroke-width="1.5" marker-end="url(#arrowP)"/>
+  <line x1="185" y1="145" x2="240" y2="145" stroke="#60a5fa" stroke-width="1.5" marker-end="url(#arrowB)"/>
+  <line x1="185" y1="210" x2="240" y2="210" stroke="#4ade80" stroke-width="1.5" marker-end="url(#arrowG)"/>
+  <line x1="185" y1="275" x2="240" y2="275" stroke="#f97316" stroke-width="1.5" marker-end="url(#arrowO)"/>
+  <defs>
+    <marker id="arrowP" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6" fill="#a78bfa"/></marker>
+    <marker id="arrowB" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6" fill="#60a5fa"/></marker>
+    <marker id="arrowG" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6" fill="#4ade80"/></marker>
+    <marker id="arrowO" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6" fill="#f97316"/></marker>
+  </defs>
+  <!-- Example keywords -->
+  <text x="250" y="76" font-family="Arial,sans-serif" font-size="11" fill="#e2e8f0">"women's running shoes"</text>
+  <text x="250" y="91" font-family="Arial,sans-serif" font-size="11" fill="#e2e8f0">"organic dog food"</text>
+  <text x="250" y="141" font-family="Arial,sans-serif" font-size="11" fill="#e2e8f0">"women's trail running shoes"</text>
+  <text x="250" y="156" font-family="Arial,sans-serif" font-size="11" fill="#e2e8f0">"grain-free organic dog food"</text>
+  <text x="250" y="206" font-family="Arial,sans-serif" font-size="11" fill="#e2e8f0">"Brooks Ghost 15 women's black size 8"</text>
+  <text x="250" y="221" font-family="Arial,sans-serif" font-size="11" fill="#e2e8f0">"Nike Air Max 270 men's white"</text>
+  <text x="250" y="271" font-family="Arial,sans-serif" font-size="11" fill="#e2e8f0">"how to choose running shoes for flat feet"</text>
+  <text x="250" y="286" font-family="Arial,sans-serif" font-size="11" fill="#e2e8f0">"best dog food for sensitive stomachs"</text>
+</svg>

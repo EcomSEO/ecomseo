@@ -1,0 +1,55 @@
+<svg viewBox="0 0 680 300" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <text x="340" y="28" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#a78bfa">Content Optimization Tool Workflow</text>
+  <g transform="translate(20,55)">
+    <rect x="0" y="0" width="145" height="80" rx="8" stroke="#60a5fa" stroke-width="2" fill="none"/>
+    <text x="72" y="25" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#60a5fa">Research</text>
+    <text x="72" y="48" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Keyword gap analysis</text>
+    <text x="72" y="64" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">SERP analysis</text>
+  </g>
+  <line x1="165" y1="95" x2="190" y2="95" stroke="#60a5fa" stroke-width="1.5" stroke-dasharray="4"/>
+  <polygon points="188,91 196,95 188,99" fill="#60a5fa"/>
+  <g transform="translate(196,55)">
+    <rect x="0" y="0" width="145" height="80" rx="8" stroke="#f97316" stroke-width="2" fill="none"/>
+    <text x="72" y="25" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#f97316">Optimize</text>
+    <text x="72" y="48" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Content scoring</text>
+    <text x="72" y="64" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Topic coverage</text>
+  </g>
+  <line x1="341" y1="95" x2="366" y2="95" stroke="#f97316" stroke-width="1.5" stroke-dasharray="4"/>
+  <polygon points="364,91 372,95 364,99" fill="#f97316"/>
+  <g transform="translate(372,55)">
+    <rect x="0" y="0" width="145" height="80" rx="8" stroke="#4ade80" stroke-width="2" fill="none"/>
+    <text x="72" y="25" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#4ade80">Publish</text>
+    <text x="72" y="48" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Schema markup</text>
+    <text x="72" y="64" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Internal links</text>
+  </g>
+  <line x1="517" y1="95" x2="542" y2="95" stroke="#4ade80" stroke-width="1.5" stroke-dasharray="4"/>
+  <polygon points="540,91 548,95 540,99" fill="#4ade80"/>
+  <g transform="translate(548,55)">
+    <rect x="0" y="0" width="110" height="80" rx="8" stroke="#f472b6" stroke-width="2" fill="none"/>
+    <text x="55" y="25" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#f472b6">Track</text>
+    <text x="55" y="48" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Rankings</text>
+    <text x="55" y="64" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Traffic</text>
+  </g>
+  <g transform="translate(20,165)">
+    <rect x="0" y="0" width="145" height="50" rx="6" stroke="#60a5fa" stroke-width="1" fill="none"/>
+    <text x="72" y="20" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#60a5fa">Ahrefs, Semrush</text>
+    <text x="72" y="36" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#60a5fa">DataForSEO</text>
+  </g>
+  <g transform="translate(196,165)">
+    <rect x="0" y="0" width="145" height="50" rx="6" stroke="#f97316" stroke-width="1" fill="none"/>
+    <text x="72" y="20" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#f97316">Surfer, Clearscope</text>
+    <text x="72" y="36" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#f97316">MarketMuse</text>
+  </g>
+  <g transform="translate(372,165)">
+    <rect x="0" y="0" width="145" height="50" rx="6" stroke="#4ade80" stroke-width="1" fill="none"/>
+    <text x="72" y="20" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#4ade80">Yoast, RankMath</text>
+    <text x="72" y="36" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#4ade80">Schema generators</text>
+  </g>
+  <g transform="translate(548,165)">
+    <rect x="0" y="0" width="110" height="50" rx="6" stroke="#f472b6" stroke-width="1" fill="none"/>
+    <text x="55" y="20" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#f472b6">GSC, GA4</text>
+    <text x="55" y="36" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#f472b6">Rank trackers</text>
+  </g>
+  <line x1="20" y1="245" x2="660" y2="245" stroke="#a78bfa" stroke-width="1" stroke-dasharray="4"/>
+  <text x="340" y="268" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#a78bfa">Each stage needs a dedicated tool -- no single tool covers the full workflow</text>
+</svg>

@@ -266,7 +266,7 @@ export const fashionSeoData: Record<Locale, ServicePageProps> = {
           name: "Fabian van Til",
           role: "Strategy & Innovation",
           bio: "Fabian leads SEO strategy for our fashion clients. 8 years of ecommerce SEO with deep experience in fashion, luxury, and apparel. He builds the seasonal and evergreen strategies that drive organic revenue for fashion brands.",
-          image: "/images/framer/C23VbBxvj2kY5TMoXAJHXWVLaA.webp",
+          image: "/images/framer/fabian-van-til-new.jpeg",
           linkedin: "https://www.linkedin.com/in/fabianvantil/",
         },
         teamMembers: [
@@ -275,7 +275,7 @@ export const fashionSeoData: Record<Locale, ServicePageProps> = {
             role: "Technical & On-Page SEO",
             bio: "Dimitar handles the technical and on-page SEO for fashion stores. He works on variant canonicalization, image optimization, structured data for product catalogs, and site architecture that scales with seasonal collections.",
             image: "/images/framer/Q3tfuu2ytPAotONsFoP1ouyPZic.png",
-            linkedin: "https://www.linkedin.com/in/dimitar-georgiev-seo/",
+            linkedin: "https://bg.linkedin.com/in/dimitar-georgiev-seo-expert",
           },
           {
             name: "Martinijan Trajkovski",
@@ -598,7 +598,7 @@ export const fashionSeoData: Record<Locale, ServicePageProps> = {
           name: "Fabian van Til",
           role: "Strategie & Innovation",
           bio: "Fabian leitet alle Fashion-SEO-Projekte strategisch. Mit \u00fcber 8 Jahren E-Commerce-SEO-Erfahrung und tiefem Know-how in Mode, Luxus und Bekleidung verbindet er Wachstumsstrategie mit technischer SEO-Innovation f\u00fcr saisonalen und Evergreen-organischen Umsatz.",
-          image: "/images/framer/C23VbBxvj2kY5TMoXAJHXWVLaA.webp",
+          image: "/images/framer/fabian-van-til-new.jpeg",
           linkedin: "https://www.linkedin.com/in/fabianvantil/",
         },
         teamMembers: [
@@ -607,7 +607,7 @@ export const fashionSeoData: Record<Locale, ServicePageProps> = {
             role: "Technical & On-Page SEO",
             bio: "Baut die technischen SEO-Grundlagen und On-Page-Optimierungen f\u00fcr Mode-Shops. Spezialisiert auf Varianten-Kanonisierung, Bildoptimierung, strukturierte Daten f\u00fcr Produktkataloge und Seitenarchitektur, die mit saisonalen Kollektionen skaliert.",
             image: "/images/framer/Q3tfuu2ytPAotONsFoP1ouyPZic.png",
-            linkedin: "https://www.linkedin.com/in/dimitar-georgiev-seo/",
+            linkedin: "https://bg.linkedin.com/in/dimitar-georgiev-seo-expert",
           },
           {
             name: "Martinijan Trajkovski",
@@ -826,7 +826,7 @@ export const fashionSeoData: Record<Locale, ServicePageProps> = {
           name: "Fabian van Til",
           role: "Strat\u00e9gie & Innovation",
           bio: "Fabian supervise tous les projets clients. Plus de 8 ans d\u2019exp\u00e9rience en SEO e-commerce avec une expertise approfondie dans la mode, le luxe et l\u2019habillement. Il allie strat\u00e9gie de croissance et innovation SEO technique pour g\u00e9n\u00e9rer du CA organique saisonnier et evergreen.",
-          image: "/images/framer/C23VbBxvj2kY5TMoXAJHXWVLaA.webp",
+          image: "/images/framer/fabian-van-til-new.jpeg",
           linkedin: "https://www.linkedin.com/in/fabianvantil/",
         },
         teamMembers: [
@@ -835,7 +835,7 @@ export const fashionSeoData: Record<Locale, ServicePageProps> = {
             role: "SEO technique & On-Page",
             bio: "Construit les fondations SEO techniques et on-page des boutiques mode. Sp\u00e9cialis\u00e9 dans la canonicalisation des variantes, l\u2019optimisation des images, les donn\u00e9es structur\u00e9es pour les catalogues produits et l\u2019architecture de site qui \u00e9volue avec les collections saisonni\u00e8res.",
             image: "/images/framer/Q3tfuu2ytPAotONsFoP1ouyPZic.png",
-            linkedin: "https://www.linkedin.com/in/dimitar-georgiev-seo/",
+            linkedin: "https://bg.linkedin.com/in/dimitar-georgiev-seo-expert",
           },
           {
             name: "Martinijan Trajkovski",
@@ -1027,7 +1027,7 @@ export const fashionSeoData: Record<Locale, ServicePageProps> = {
           name: "Fabian van Til",
           role: "Estrategia e Innovaci\u00f3n",
           bio: "Fabian dirige la estrategia de todos los proyectos con clientes. M\u00e1s de 8 a\u00f1os de experiencia en SEO e-commerce con profunda experiencia en moda, lujo y ropa. Combina estrategia de crecimiento con innovaci\u00f3n SEO t\u00e9cnica para generar ingresos org\u00e1nicos estacionales y evergreen.",
-          image: "/images/framer/C23VbBxvj2kY5TMoXAJHXWVLaA.webp",
+          image: "/images/framer/fabian-van-til-new.jpeg",
           linkedin: "https://www.linkedin.com/in/fabianvantil/",
         },
         teamMembers: [
@@ -1036,7 +1036,7 @@ export const fashionSeoData: Record<Locale, ServicePageProps> = {
             role: "SEO T\u00e9cnico & On-Page",
             bio: "Construye las bases t\u00e9cnicas de SEO y on-page para tiendas de moda. Especializado en canonicalizaci\u00f3n de variantes, optimizaci\u00f3n de im\u00e1genes, datos estructurados para cat\u00e1logos de productos y arquitectura de sitio que escala con colecciones estacionales.",
             image: "/images/framer/Q3tfuu2ytPAotONsFoP1ouyPZic.png",
-            linkedin: "https://www.linkedin.com/in/dimitar-georgiev-seo/",
+            linkedin: "https://bg.linkedin.com/in/dimitar-georgiev-seo-expert",
           },
           {
             name: "Martinijan Trajkovski",
@@ -1228,7 +1228,7 @@ export const fashionSeoData: Record<Locale, ServicePageProps> = {
           name: "Fabian van Til",
           role: "Strategia e Innovazione",
           bio: "Fabian definisce la strategia di ogni progetto cliente. Oltre 8 anni di esperienza in SEO e-commerce con profonda expertise nella moda, lusso e abbigliamento. Unisce strategia di crescita e innovazione SEO tecnica per generare fatturato organico stagionale ed evergreen.",
-          image: "/images/framer/C23VbBxvj2kY5TMoXAJHXWVLaA.webp",
+          image: "/images/framer/fabian-van-til-new.jpeg",
           linkedin: "https://www.linkedin.com/in/fabianvantil/",
         },
         teamMembers: [
@@ -1237,7 +1237,7 @@ export const fashionSeoData: Record<Locale, ServicePageProps> = {
             role: "SEO tecnico & On-Page",
             bio: "Dimitar costruisce le fondamenta SEO tecniche e on-page per i negozi di moda. Specializzato in canonicalizzazione delle varianti, ottimizzazione delle immagini, dati strutturati per cataloghi prodotto e architettura del sito che scala con le collezioni stagionali.",
             image: "/images/framer/Q3tfuu2ytPAotONsFoP1ouyPZic.png",
-            linkedin: "https://www.linkedin.com/in/dimitar-georgiev-seo/",
+            linkedin: "https://bg.linkedin.com/in/dimitar-georgiev-seo-expert",
           },
           {
             name: "Martinijan Trajkovski",
@@ -1429,7 +1429,7 @@ export const fashionSeoData: Record<Locale, ServicePageProps> = {
           name: "Fabian van Til",
           role: "Strategie & Innovatie",
           bio: "Fabian stuurt de strategische richting van alle klantprojecten. Met meer dan 8 jaar e-commerce SEO-ervaring en diepgaande expertise in mode, luxe en kleding combineert hij groeistrategie met technische SEO-innovatie voor seizoensgebonden en evergreen organische omzet.",
-          image: "/images/framer/C23VbBxvj2kY5TMoXAJHXWVLaA.webp",
+          image: "/images/framer/fabian-van-til-new.jpeg",
           linkedin: "https://www.linkedin.com/in/fabianvantil/",
         },
         teamMembers: [
@@ -1438,7 +1438,7 @@ export const fashionSeoData: Record<Locale, ServicePageProps> = {
             role: "Technical & On-Page SEO",
             bio: "Dimitar bouwt de technische SEO-fundamenten en on-page optimalisaties voor modewinkels. Hij is gespecialiseerd in variantcanonicalisatie, beeldoptimalisatie, gestructureerde data voor productcatalogi en sitearchitectuur die meeschaalt met seizoenscollecties.",
             image: "/images/framer/Q3tfuu2ytPAotONsFoP1ouyPZic.png",
-            linkedin: "https://www.linkedin.com/in/dimitar-georgiev-seo/",
+            linkedin: "https://bg.linkedin.com/in/dimitar-georgiev-seo-expert",
           },
           {
             name: "Martinijan Trajkovski",

@@ -1,0 +1,21 @@
+<svg viewBox="0 0 680 340" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <text x="340" y="28" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#a78bfa">Crawl Budget Waste on Ecommerce Sites</text>
+  <g transform="translate(60,55)">
+    <polygon points="0,0 560,0 460,60 100,60" stroke="#60a5fa" stroke-width="1.5" fill="none"/>
+    <text x="280" y="20" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#e2e8f0">Total URLs discovered: 50,000</text>
+    <text x="280" y="40" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#60a5fa">Sitemaps + internal links + external links</text>
+    <polygon points="100,70 460,70 400,130 160,130" stroke="#f97316" stroke-width="1.5" fill="none"/>
+    <text x="280" y="90" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#e2e8f0">Crawled daily: 2,000-5,000</text>
+    <text x="280" y="110" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#f97316">Limited by crawl budget</text>
+    <polygon points="160,140 400,140 350,200 210,200" stroke="#4ade80" stroke-width="1.5" fill="none"/>
+    <text x="280" y="160" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#e2e8f0">Actually indexed: ~5,000</text>
+    <text x="280" y="180" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#4ade80">Pages Google deems worth indexing</text>
+  </g>
+  <g transform="translate(80,280)">
+    <rect x="0" y="0" width="16" height="16" rx="3" stroke="#ef4444" stroke-width="1.5" fill="none"/>
+    <text x="22" y="13" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Filter URLs, search pages, parameters</text>
+    <rect x="240" y="0" width="16" height="16" rx="3" stroke="#4ade80" stroke-width="1.5" fill="none"/>
+    <text x="262" y="13" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Products + categories (what matters)</text>
+  </g>
+  <text x="340" y="320" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#ef4444">45,000 junk URLs steal budget from 5,000 valuable pages</text>
+</svg>

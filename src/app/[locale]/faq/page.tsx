@@ -5,6 +5,9 @@ import JsonLd from "@/components/JsonLd";
 import { faqJsonLd, breadcrumbJsonLd } from "@/lib/jsonLd";
 import { faqItems } from "@/data/faqData";
 
+export const revalidate = 3600;
+
+
 export async function generateMetadata({
   params,
 }: {

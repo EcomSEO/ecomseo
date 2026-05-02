@@ -1,0 +1,33 @@
+<svg viewBox="0 0 700 310" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <text x="350" y="28" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#a78bfa">Content Preservation During Migration</text>
+  <!-- Content types to preserve -->
+  <text x="350" y="60" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#e2e8f0">Critical Content to Migrate</text>
+  <rect x="30" y="72" width="130" height="45" rx="6" stroke="#a78bfa" stroke-width="1.5"/>
+  <text x="95" y="100" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Product</text>
+  <text x="95" y="112" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#a78bfa">descriptions</text>
+  <rect x="175" y="72" width="130" height="45" rx="6" stroke="#60a5fa" stroke-width="1.5"/>
+  <text x="240" y="100" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Category</text>
+  <text x="240" y="112" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#60a5fa">intro content</text>
+  <rect x="320" y="72" width="130" height="45" rx="6" stroke="#4ade80" stroke-width="1.5"/>
+  <text x="385" y="100" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Reviews</text>
+  <text x="385" y="112" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#4ade80">+ Q&amp;A</text>
+  <rect x="465" y="72" width="100" height="45" rx="6" stroke="#f97316" stroke-width="1.5"/>
+  <text x="515" y="100" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Blog</text>
+  <text x="515" y="112" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#f97316">posts</text>
+  <rect x="580" y="72" width="100" height="45" rx="6" stroke="#ef4444" stroke-width="1.5"/>
+  <text x="630" y="100" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Meta</text>
+  <text x="630" y="112" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#ef4444">tags</text>
+  <!-- Warning zone -->
+  <rect x="60" y="140" width="580" height="70" rx="8" stroke="#ef4444" stroke-width="1.5"/>
+  <text x="350" y="165" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#ef4444">Common Losses During Migration</text>
+  <text x="150" y="190" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Category descriptions</text>
+  <text x="150" y="202" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#ef4444">often dropped</text>
+  <text x="350" y="190" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Customer reviews</text>
+  <text x="350" y="202" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#ef4444">not migrated</text>
+  <text x="540" y="190" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Custom meta tags</text>
+  <text x="540" y="202" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#ef4444">overwritten by defaults</text>
+  <!-- Solution -->
+  <rect x="120" y="230" width="460" height="50" rx="8" stroke="#4ade80" stroke-width="2"/>
+  <text x="350" y="252" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#4ade80">Solution: Export all content BEFORE migration</text>
+  <text x="350" y="270" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Crawl + export every page. Compare word counts post-launch. Audit at 30 + 90 days.</text>
+</svg>

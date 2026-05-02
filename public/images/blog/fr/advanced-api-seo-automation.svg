@@ -1,0 +1,56 @@
+<svg viewBox="0 0 680 300" xmlns="http://www.w3.org/2000/svg" fill="none" font-family="Arial,sans-serif">
+  <text x="340" y="28" text-anchor="middle" fill="#a78bfa" font-size="14" font-weight="bold">API-Driven SEO Automation Pipeline</text>
+  <!-- Step boxes -->
+  <rect x="20" y="56" width="120" height="56" rx="8" stroke="#60a5fa" stroke-width="2"/>
+  <text x="80" y="76" text-anchor="middle" fill="#60a5fa" font-size="11" font-weight="bold">Data APIs</text>
+  <text x="80" y="92" text-anchor="middle" fill="#e2e8f0" font-size="9">GSC, Ahrefs,</text>
+  <text x="80" y="104" text-anchor="middle" fill="#e2e8f0" font-size="9">Analytics</text>
+  <line x1="140" y1="84" x2="168" y2="84" stroke="#60a5fa" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <rect x="168" y="56" width="120" height="56" rx="8" stroke="#a78bfa" stroke-width="2"/>
+  <text x="228" y="76" text-anchor="middle" fill="#a78bfa" font-size="11" font-weight="bold">Processing</text>
+  <text x="228" y="92" text-anchor="middle" fill="#e2e8f0" font-size="9">Detect issues,</text>
+  <text x="228" y="104" text-anchor="middle" fill="#e2e8f0" font-size="9">classify pages</text>
+  <line x1="288" y1="84" x2="316" y2="84" stroke="#a78bfa" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <rect x="316" y="56" width="120" height="56" rx="8" stroke="#4ade80" stroke-width="2"/>
+  <text x="376" y="76" text-anchor="middle" fill="#4ade80" font-size="11" font-weight="bold">Auto-Fix</text>
+  <text x="376" y="92" text-anchor="middle" fill="#e2e8f0" font-size="9">Update meta tags,</text>
+  <text x="376" y="104" text-anchor="middle" fill="#e2e8f0" font-size="9">schema, sitemaps</text>
+  <line x1="436" y1="84" x2="464" y2="84" stroke="#4ade80" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <rect x="464" y="56" width="120" height="56" rx="8" stroke="#f97316" stroke-width="2"/>
+  <text x="524" y="76" text-anchor="middle" fill="#f97316" font-size="11" font-weight="bold">Deploy</text>
+  <text x="524" y="92" text-anchor="middle" fill="#e2e8f0" font-size="9">Push via CMS</text>
+  <text x="524" y="104" text-anchor="middle" fill="#e2e8f0" font-size="9">API or CI/CD</text>
+  <line x1="584" y1="84" x2="612" y2="84" stroke="#f97316" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <rect x="612" y="56" width="52" height="56" rx="8" stroke="#4ade80" stroke-width="2"/>
+  <text x="638" y="80" text-anchor="middle" fill="#4ade80" font-size="10" font-weight="bold">Live</text>
+  <text x="638" y="96" text-anchor="middle" fill="#e2e8f0" font-size="9">Site</text>
+  <!-- Monitoring feedback loop -->
+  <path d="M638 112 L638 140 L80 140 L80 112" stroke="#ef4444" stroke-width="1.5" stroke-dasharray="6 3" marker-end="url(#arrowRed)"/>
+  <text x="360" y="156" text-anchor="middle" fill="#ef4444" font-size="10">Continuous monitoring loop -- detect regressions automatically</text>
+  <!-- Use cases -->
+  <text x="340" y="190" text-anchor="middle" fill="#a78bfa" font-size="12" font-weight="bold">Common Automation Use Cases</text>
+  <rect x="20" y="206" width="200" height="40" rx="6" stroke="#60a5fa" stroke-width="1.5"/>
+  <text x="120" y="222" text-anchor="middle" fill="#60a5fa" font-size="10" font-weight="bold">Bulk Meta Tag Updates</text>
+  <text x="120" y="238" text-anchor="middle" fill="#e2e8f0" font-size="9">Rewrite thousands via template rules</text>
+  <rect x="240" y="206" width="200" height="40" rx="6" stroke="#4ade80" stroke-width="1.5"/>
+  <text x="340" y="222" text-anchor="middle" fill="#4ade80" font-size="10" font-weight="bold">Indexation Control</text>
+  <text x="340" y="238" text-anchor="middle" fill="#e2e8f0" font-size="9">Auto-noindex thin or duplicate pages</text>
+  <rect x="460" y="206" width="200" height="40" rx="6" stroke="#f97316" stroke-width="1.5"/>
+  <text x="560" y="222" text-anchor="middle" fill="#f97316" font-size="10" font-weight="bold">Schema Generation</text>
+  <text x="560" y="238" text-anchor="middle" fill="#e2e8f0" font-size="9">Dynamic JSON-LD from product data</text>
+  <rect x="130" y="260" width="200" height="40" rx="6" stroke="#a78bfa" stroke-width="1.5"/>
+  <text x="230" y="276" text-anchor="middle" fill="#a78bfa" font-size="10" font-weight="bold">Redirect Management</text>
+  <text x="230" y="292" text-anchor="middle" fill="#e2e8f0" font-size="9">Auto-redirect discontinued products</text>
+  <rect x="350" y="260" width="200" height="40" rx="6" stroke="#ef4444" stroke-width="1.5"/>
+  <text x="450" y="276" text-anchor="middle" fill="#ef4444" font-size="10" font-weight="bold">Alert Systems</text>
+  <text x="450" y="292" text-anchor="middle" fill="#e2e8f0" font-size="9">Traffic drops, crawl errors, rank shifts</text>
+  <!-- Arrow markers -->
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <path d="M0 0 L8 3 L0 6" fill="none" stroke="#60a5fa" stroke-width="1"/>
+    </marker>
+    <marker id="arrowRed" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <path d="M0 0 L8 3 L0 6" fill="none" stroke="#ef4444" stroke-width="1"/>
+    </marker>
+  </defs>
+</svg>

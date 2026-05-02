@@ -1,0 +1,29 @@
+<svg viewBox="0 0 700 300" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <text x="350" y="28" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#a78bfa">Hidden Costs of Cheap SEO</text>
+  <!-- Timeline -->
+  <line x1="80" y1="80" x2="620" y2="80" stroke="#e2e8f0" stroke-width="1" opacity="0.4"/>
+  <!-- Phase 1 -->
+  <circle cx="120" cy="80" r="6" fill="#4ade80"/>
+  <text x="120" y="105" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#4ade80">Months 1-6</text>
+  <text x="120" y="120" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">$500-1K/mo</text>
+  <text x="120" y="135" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">"Rankings rising"</text>
+  <!-- Phase 2 -->
+  <circle cx="300" cy="80" r="6" fill="#f97316"/>
+  <text x="300" y="105" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#f97316">Months 7-9</text>
+  <text x="300" y="120" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Penalty detected</text>
+  <text x="300" y="135" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Spammy backlinks</text>
+  <!-- Phase 3 -->
+  <circle cx="480" cy="80" r="6" fill="#ef4444"/>
+  <text x="480" y="105" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#ef4444">Months 10-15</text>
+  <text x="480" y="120" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">$12K cleanup cost</text>
+  <text x="480" y="135" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">6 months lost revenue</text>
+  <!-- Cost breakdown -->
+  <rect x="80" y="160" width="540" height="100" rx="8" stroke="#ef4444" stroke-width="1.5"/>
+  <text x="350" y="185" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#ef4444">Total True Cost of "Cheap" SEO</text>
+  <text x="150" y="210" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Agency fees: $6K</text>
+  <text x="300" y="210" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Cleanup: $12K</text>
+  <text x="450" y="210" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Lost revenue: $80K+</text>
+  <text x="350" y="245" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#ef4444">Total: $100,000+ damage</text>
+  <!-- Comparison -->
+  <text x="350" y="285" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#4ade80">Quality SEO at $5K/mo for 12 months = $60K with potential $1.2M+ in customer value</text>
+</svg>

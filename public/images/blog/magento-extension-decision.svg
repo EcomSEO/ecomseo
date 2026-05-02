@@ -1,0 +1,30 @@
+<svg viewBox="0 0 680 280" xmlns="http://www.w3.org/2000/svg" fill="none" font-family="Arial,sans-serif">
+  <text x="340" y="28" text-anchor="middle" fill="#a78bfa" font-size="14" font-weight="bold">Magento SEO Extension Decision Guide</text>
+  <!-- Primary suites -->
+  <text x="340" y="56" text-anchor="middle" fill="#e2e8f0" font-size="11" font-weight="bold">Pick One Primary SEO Suite</text>
+  <rect x="40" y="68" width="280" height="72" rx="8" stroke="#4ade80" stroke-width="2"/>
+  <text x="180" y="88" text-anchor="middle" fill="#4ade80" font-size="11" font-weight="bold">Mirasvit SEO Suite</text>
+  <text x="180" y="106" text-anchor="middle" fill="#e2e8f0" font-size="9">Canonicals, sitemaps, schema, SEO templates</text>
+  <text x="180" y="120" text-anchor="middle" fill="#e2e8f0" font-size="9">Used on 60% of our Magento projects</text>
+  <text x="180" y="134" text-anchor="middle" fill="#4ade80" font-size="8">Best overall feature coverage</text>
+  <text x="340" y="104" text-anchor="middle" fill="#e2e8f0" font-size="12" font-weight="bold">OR</text>
+  <rect x="360" y="68" width="280" height="72" rx="8" stroke="#60a5fa" stroke-width="2"/>
+  <text x="500" y="88" text-anchor="middle" fill="#60a5fa" font-size="11" font-weight="bold">Amasty SEO Toolkit</text>
+  <text x="500" y="106" text-anchor="middle" fill="#e2e8f0" font-size="9">Canonical handling, duplicate prevention</text>
+  <text x="500" y="120" text-anchor="middle" fill="#e2e8f0" font-size="9">Strong filtering and redirect management</text>
+  <text x="500" y="134" text-anchor="middle" fill="#60a5fa" font-size="8">Best for duplicate content focus</text>
+  <!-- Supplementary extensions -->
+  <text x="340" y="168" text-anchor="middle" fill="#e2e8f0" font-size="11" font-weight="bold">Add Only If Suite Gaps Exist</text>
+  <rect x="40" y="180" width="190" height="44" rx="6" stroke="#f97316" stroke-width="1.5"/>
+  <text x="135" y="198" text-anchor="middle" fill="#f97316" font-size="10" font-weight="bold">Structured Data</text>
+  <text x="135" y="214" text-anchor="middle" fill="#e2e8f0" font-size="8">Magefan or Amasty Product Schema</text>
+  <rect x="250" y="180" width="190" height="44" rx="6" stroke="#a78bfa" stroke-width="1.5"/>
+  <text x="345" y="198" text-anchor="middle" fill="#a78bfa" font-size="10" font-weight="bold">XML Sitemaps</text>
+  <text x="345" y="214" text-anchor="middle" fill="#e2e8f0" font-size="8">Split by type, exclude junk URLs</text>
+  <rect x="460" y="180" width="180" height="44" rx="6" stroke="#4ade80" stroke-width="1.5"/>
+  <text x="550" y="198" text-anchor="middle" fill="#4ade80" font-size="10" font-weight="bold">Layered Nav</text>
+  <text x="550" y="214" text-anchor="middle" fill="#e2e8f0" font-size="8">Amasty or Mirasvit AJAX filter</text>
+  <!-- Warning -->
+  <rect x="100" y="240" width="480" height="32" rx="6" stroke="#ef4444" stroke-width="1.5"/>
+  <text x="340" y="260" text-anchor="middle" fill="#ef4444" font-size="10">Never install two extensions that manage the same feature -- canonical conflicts are common</text>
+</svg>

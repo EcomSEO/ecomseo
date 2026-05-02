@@ -1,0 +1,44 @@
+<svg viewBox="0 0 680 260" xmlns="http://www.w3.org/2000/svg" fill="none" font-family="Arial,sans-serif">
+  <text x="340" y="24" text-anchor="middle" fill="#a78bfa" font-size="14" font-weight="bold">Enterprise SEO Automation Pipeline</text>
+  <!-- Pipeline steps -->
+  <rect x="30" y="50" width="120" height="52" rx="8" fill="#a78bfa" opacity="0.15" stroke="#a78bfa" stroke-width="1"/>
+  <text x="90" y="70" text-anchor="middle" fill="#a78bfa" font-size="10" font-weight="bold">New Product</text>
+  <text x="90" y="84" text-anchor="middle" fill="#e2e8f0" font-size="9">Added to DB</text>
+  <line x1="150" y1="76" x2="176" y2="76" stroke="#a78bfa" stroke-width="1"/>
+  <polygon points="176,76 171,73 171,79" fill="#a78bfa"/>
+  <rect x="180" y="50" width="120" height="52" rx="8" fill="#60a5fa" opacity="0.15" stroke="#60a5fa" stroke-width="1"/>
+  <text x="240" y="66" text-anchor="middle" fill="#60a5fa" font-size="10" font-weight="bold">Auto-Generate</text>
+  <text x="240" y="80" text-anchor="middle" fill="#e2e8f0" font-size="8">Title, meta, schema</text>
+  <text x="240" y="92" text-anchor="middle" fill="#e2e8f0" font-size="8">from attributes</text>
+  <line x1="300" y1="76" x2="326" y2="76" stroke="#60a5fa" stroke-width="1"/>
+  <polygon points="326,76 321,73 321,79" fill="#60a5fa"/>
+  <rect x="330" y="50" width="120" height="52" rx="8" fill="#4ade80" opacity="0.15" stroke="#4ade80" stroke-width="1"/>
+  <text x="390" y="66" text-anchor="middle" fill="#4ade80" font-size="10" font-weight="bold">CI/CD Check</text>
+  <text x="390" y="80" text-anchor="middle" fill="#e2e8f0" font-size="8">Validate SEO</text>
+  <text x="390" y="92" text-anchor="middle" fill="#e2e8f0" font-size="8">requirements</text>
+  <line x1="450" y1="76" x2="476" y2="76" stroke="#4ade80" stroke-width="1"/>
+  <polygon points="476,76 471,73 471,79" fill="#4ade80"/>
+  <rect x="480" y="50" width="120" height="52" rx="8" fill="#f97316" opacity="0.15" stroke="#f97316" stroke-width="1"/>
+  <text x="540" y="66" text-anchor="middle" fill="#f97316" font-size="10" font-weight="bold">Deploy + Index</text>
+  <text x="540" y="80" text-anchor="middle" fill="#e2e8f0" font-size="8">Submit to Google</text>
+  <text x="540" y="92" text-anchor="middle" fill="#e2e8f0" font-size="8">Update sitemap</text>
+  <!-- Monitoring loop -->
+  <rect x="180" y="130" width="420" height="52" rx="8" fill="#1e1e2e" stroke="#334155" stroke-width="1"/>
+  <text x="390" y="150" text-anchor="middle" fill="#a78bfa" font-size="11" font-weight="bold">Automated Monitoring Loop</text>
+  <text x="220" y="170" fill="#e2e8f0" font-size="9">Ranking drops > 5 pos</text>
+  <text x="380" y="170" fill="#e2e8f0" font-size="9">Crawl error spikes</text>
+  <text x="520" y="170" fill="#e2e8f0" font-size="9">Schema validation</text>
+  <circle cx="207" cy="168" r="4" fill="#ef4444"/>
+  <circle cx="367" cy="168" r="4" fill="#f97316"/>
+  <circle cx="507" cy="168" r="4" fill="#60a5fa"/>
+  <!-- Scale metrics -->
+  <rect x="80" y="202" width="160" height="44" rx="6" fill="#1e1e2e" stroke="#334155" stroke-width="1"/>
+  <text x="160" y="220" text-anchor="middle" fill="#e2e8f0" font-size="10">500+ products/week</text>
+  <text x="160" y="236" text-anchor="middle" fill="#94a3b8" font-size="9">automated SEO setup</text>
+  <rect x="260" y="202" width="160" height="44" rx="6" fill="#1e1e2e" stroke="#334155" stroke-width="1"/>
+  <text x="340" y="220" text-anchor="middle" fill="#e2e8f0" font-size="10">5-8 title templates</text>
+  <text x="340" y="236" text-anchor="middle" fill="#94a3b8" font-size="9">per product category</text>
+  <rect x="440" y="202" width="160" height="44" rx="6" fill="#1e1e2e" stroke="#334155" stroke-width="1"/>
+  <text x="520" y="220" text-anchor="middle" fill="#e2e8f0" font-size="10">Pre-deploy SEO gate</text>
+  <text x="520" y="236" text-anchor="middle" fill="#94a3b8" font-size="9">in CI/CD pipeline</text>
+</svg>

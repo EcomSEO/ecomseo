@@ -1,0 +1,41 @@
+<svg viewBox="0 0 700 340" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <text x="350" y="28" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#a78bfa">Ecommerce Keyword Research Tool Stack</text>
+  <!-- Row 1: Primary tools -->
+  <text x="50" y="60" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#a78bfa">PRIMARY</text>
+  <rect x="130" y="45" width="160" height="55" rx="8" stroke="#a78bfa" stroke-width="1.5"/>
+  <text x="210" y="68" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#e2e8f0">Ahrefs</text>
+  <text x="210" y="84" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#a78bfa">Discovery + Competitor + Tracking</text>
+  <rect x="310" y="45" width="160" height="55" rx="8" stroke="#a78bfa" stroke-width="1.5"/>
+  <text x="390" y="68" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#e2e8f0">Search Console</text>
+  <text x="390" y="84" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#a78bfa">Current Rankings + Quick Wins</text>
+  <!-- Row 2: Secondary tools -->
+  <text x="50" y="140" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#60a5fa">SECONDARY</text>
+  <rect x="130" y="118" width="160" height="55" rx="8" stroke="#60a5fa" stroke-width="1.5"/>
+  <text x="210" y="141" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#e2e8f0">Keyword Planner</text>
+  <text x="210" y="157" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#60a5fa">CPC + Intent Validation</text>
+  <rect x="310" y="118" width="160" height="55" rx="8" stroke="#60a5fa" stroke-width="1.5"/>
+  <text x="390" y="141" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#e2e8f0">Screaming Frog</text>
+  <text x="390" y="157" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#60a5fa">Keyword Mapping + Gaps</text>
+  <rect x="490" y="118" width="160" height="55" rx="8" stroke="#60a5fa" stroke-width="1.5"/>
+  <text x="570" y="141" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#e2e8f0">Helium 10</text>
+  <text x="570" y="157" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#60a5fa">Amazon Keyword Ideas</text>
+  <!-- Method flow -->
+  <text x="350" y="210" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#4ade80">Recommended Method Order</text>
+  <rect x="40" y="225" width="120" height="40" rx="6" stroke="#4ade80" stroke-width="1.5"/>
+  <text x="100" y="250" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Own Data First</text>
+  <line x1="162" y1="245" x2="190" y2="245" stroke="#e2e8f0" stroke-width="1" marker-end="url(#arr2)"/>
+  <rect x="192" y="225" width="120" height="40" rx="6" stroke="#4ade80" stroke-width="1.5"/>
+  <text x="252" y="250" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Competitor Analysis</text>
+  <line x1="314" y1="245" x2="342" y2="245" stroke="#e2e8f0" stroke-width="1" marker-end="url(#arr2)"/>
+  <rect x="344" y="225" width="120" height="40" rx="6" stroke="#4ade80" stroke-width="1.5"/>
+  <text x="404" y="250" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Tool Discovery</text>
+  <line x1="466" y1="245" x2="494" y2="245" stroke="#e2e8f0" stroke-width="1" marker-end="url(#arr2)"/>
+  <rect x="496" y="225" width="140" height="40" rx="6" stroke="#a78bfa" stroke-width="1.5"/>
+  <text x="566" y="250" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Validate + Map</text>
+  <text x="350" y="300" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0" opacity="0.7">This order prevents chasing vanity metrics instead of revenue-driving keywords</text>
+  <defs>
+    <marker id="arr2" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6" fill="#e2e8f0"/>
+    </marker>
+  </defs>
+</svg>

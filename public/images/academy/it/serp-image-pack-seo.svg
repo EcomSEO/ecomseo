@@ -1,0 +1,28 @@
+<svg viewBox="0 0 400 180" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <text x="200" y="20" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#a78bfa">Image Pack SEO Checklist</text>
+  <!-- Image element -->
+  <rect x="20" y="38" width="170" height="90" rx="6" stroke="#60a5fa" stroke-width="1.5"/>
+  <text x="105" y="55" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#60a5fa">Product Image</text>
+  <text x="30" y="72" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">File: red-leather-bag-front.jpg</text>
+  <text x="30" y="84" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">Alt: "Red leather crossbody bag"</text>
+  <text x="30" y="96" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">Size: 1200px+ longest edge</text>
+  <text x="30" y="108" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">Format: WebP + srcset</text>
+  <text x="30" y="120" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">Position: above the fold</text>
+  <!-- Connection arrow -->
+  <path d="M195 82 L215 82" stroke="#a78bfa" stroke-width="1.5" marker-end="url(#arI)"/>
+  <!-- Schema connection -->
+  <rect x="220" y="38" width="165" height="90" rx="6" stroke="#a78bfa" stroke-width="1.5"/>
+  <text x="302" y="55" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#a78bfa">Product Schema Link</text>
+  <text x="230" y="72" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">"image": "url-to-image"</text>
+  <text x="230" y="84" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">"name": "Red Leather Bag"</text>
+  <text x="230" y="96" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">"price": "$149"</text>
+  <text x="230" y="108" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">"aggregateRating": 4.8</text>
+  <text x="230" y="120" font-family="Arial,sans-serif" font-size="8" fill="#4ade80">Schema + image = 2x visibility</text>
+  <!-- Appears in -->
+  <text x="200" y="148" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Appears in 30-40% of product searches</text>
+  <!-- Tips -->
+  <text x="200" y="168" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#f97316">Multiple angles per product = more image pack opportunities</text>
+  <defs>
+    <marker id="arI" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6" fill="#a78bfa"/></marker>
+  </defs>
+</svg>

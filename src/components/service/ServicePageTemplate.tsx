@@ -10,6 +10,8 @@ import Button from "@/components/ui/Button";
 import LocaleLink from "@/components/ui/LocaleLink";
 import { serviceTemplateStrings } from "@/lib/i18n/translations/services";
 import { parseInlineLinks } from "@/lib/parseInlineLinks";
+import VidalyticsEmbed from "@/components/ui/VidalyticsEmbed";
+import IClosedEmbed from "@/components/ui/IClosedEmbed";
 import type { Locale } from "@/lib/i18n/config";
 
 /* ─── Types ─── */
@@ -67,7 +69,7 @@ export interface TipItem {
 export interface TeamMember {
   name: string;
   role: string;
-  bio: string;
+  bio?: string;
   image?: string;
   linkedin?: string;
 }
@@ -82,8 +84,31 @@ export interface CaseStudyItem {
   image?: string;
 }
 
+/* Maison-style revenue win — big number, screenshot, gray context.
+ * Mirrors the homepage Results section so commercial-intent visitors
+ * see proof in dollars/euros, not vanity stats. */
+export interface RevenueWin {
+  amount: string;       // e.g. "+$53,000,000"
+  label: string;        // e.g. "yearly revenue (+118%)"
+  client: string;       // e.g. "for this Home & Living brand"
+  condition: string;    // e.g. "after 12 months with us"
+  screenshot: string;
+  href?: string;
+}
+
 export interface ContentSection {
-  type: "stats" | "benefits" | "process" | "deliverables" | "links" | "richText" | "tips" | "team" | "caseStudies";
+  type:
+    | "stats"
+    | "benefits"
+    | "process"
+    | "deliverables"
+    | "links"
+    | "richText"
+    | "tips"
+    | "team"
+    | "caseStudies"
+    | "revenueWins"
+    | "bookingWidget";
   badge?: string;
   heading: string;
   subtitle?: string;
@@ -93,10 +118,15 @@ export interface ContentSection {
   deliverables?: DeliverableItem[];
   links?: LinkItem[];
   richTextBlocks?: RichTextBlock[];
+  /** Optional hero image for richText sections (e.g. localised map for
+   *  location/agency pages). Rendered above the heading, full-width. */
+  image?: string;
+  imageAlt?: string;
   tips?: TipItem[];
   teamMembers?: TeamMember[];
   teamLead?: TeamMember;
   caseStudies?: CaseStudyItem[];
+  revenueWins?: RevenueWin[];
   ctaText?: string;
   ctaHref?: string;
 }
@@ -108,15 +138,37 @@ export interface ServicePageProps {
     subtitle: string;
     ctaText: string;
     heroImage?: string;
+    /** Vidalytics embed ID for an intro video shown under the hero copy.
+     *  When set, renders the same Fabian-intro player used on the homepage. */
+    videoEmbedId?: string;
+    /** Override for the hero CTA destination. Defaults to the Typeform URL.
+     *  For commercial-intent pages (location/agency pages) we point this at
+     *  /demo so the visitor lands on the audit booking flow. */
+    ctaHref?: string;
+    /** Optional small line shown under the CTA, e.g. "Watch the 2-min intro". */
+    ctaSubtext?: string;
   };
   trustBar: string;
   trustBarIcon?: "shopify" | "woocommerce" | "bigcommerce" | "adobe";
+  /** Optional client-logo wall, rendered above the trust-bar text.
+   *  Mirrors the /demo (audit) page logo strip. When set, the trust-bar
+   *  text becomes the eyebrow (uppercase) and an optional "+ many more
+   *  brands" italic caption can be appended. */
+  trustBarLogos?: Array<{ src: string; alt: string; noFilter?: boolean }>;
+  /** Italic caption appended after the logo wall, e.g. "+ 50 marques au total" */
+  trustBarMoreBrands?: string;
   sections: ContentSection[];
   faqs: {
     items: FAQItem[];
     miniCta: {
       heading: string;
       subtitle: string;
+      /** Override the bottom-of-FAQ CTA destination. Defaults to the
+       *  Typeform contact form. For commercial-intent pages we point this at
+       *  /demo so we don't split traffic away from the booking flow. */
+      ctaHref?: string;
+      /** Override CTA button label. Defaults to the locale's "Get in touch". */
+      ctaText?: string;
     };
   };
   locale?: Locale;
@@ -219,7 +271,12 @@ function ServiceHero({
   subtitle,
   ctaText,
   heroImage,
+  videoEmbedId,
+  ctaHref,
+  ctaSubtext,
 }: ServicePageProps["hero"]) {
+  const resolvedCtaHref = ctaHref || "https://w35pmime997.typeform.com/to/eqeeLQvb";
+  const isExternal = /^https?:\/\//.test(resolvedCtaHref);
   return (
     <section className="relative w-full overflow-hidden">
       {/* Glow orbs background */}
@@ -235,7 +292,7 @@ function ServiceHero({
             <Badge text={badge} />
           </motion.div>
           <motion.h1
-            className="text-[36px] md:text-[56px] lg:text-[68px] font-medium leading-[1.05] tracking-[-0.03em] text-heading max-w-[823px]"
+            className="text-[36px] md:text-[56px] lg:text-[68px] font-medium leading-[1.05] tracking-[-0.03em] text-heading max-w-[823px] break-words"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.1 }}
@@ -250,20 +307,49 @@ function ServiceHero({
           >
             {subtitle}
           </motion.p>
+          {/* Fabian intro video — optional. Mirrors the homepage Vidalytics
+              embed so commercial-intent visitors see a face + 2-minute pitch
+              before being asked to book. */}
+          {videoEmbedId && (
+            <motion.div
+              className="relative w-full max-w-[860px] rounded-3xl overflow-hidden border border-border/60 bg-black shadow-[0_30px_80px_-20px_rgba(0,0,0,0.7)] mt-2"
+              initial={{ opacity: 0, y: 30 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: 0.25 }}
+            >
+              <VidalyticsEmbed embedId={videoEmbedId} />
+              <div
+                className="absolute pointer-events-none"
+                style={{
+                  width: 380,
+                  height: 380,
+                  top: -110,
+                  right: -110,
+                  background:
+                    "radial-gradient(circle, rgba(193,100,230,0.22) 0%, transparent 60%)",
+                  filter: "blur(40px)",
+                }}
+                aria-hidden
+              />
+            </motion.div>
+          )}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.3 }}
-            className="pt-2"
+            className={`flex flex-col items-center gap-2 ${videoEmbedId ? "pt-3" : "pt-2"}`}
           >
             <Button
-              href="https://w35pmime997.typeform.com/to/eqeeLQvb"
+              href={resolvedCtaHref}
               variant="primary"
               size="large"
-              external
+              external={isExternal}
             >
               {ctaText}
             </Button>
+            {ctaSubtext && (
+              <span className="text-[13px] text-body/60">{ctaSubtext}</span>
+            )}
           </motion.div>
           {heroImage && (
             <motion.div
@@ -274,7 +360,7 @@ function ServiceHero({
             >
               <Image
                 src={heroImage}
-                alt=""
+                alt={heading}
                 width={500}
                 height={500}
                 className="w-full h-auto rounded-3xl"
@@ -324,7 +410,57 @@ const platformIcons: Record<string, React.ReactNode> = {
   ),
 };
 
-function TrustBar({ text, icon }: { text: string; icon?: "shopify" | "woocommerce" | "bigcommerce" | "adobe" }) {
+function TrustBar({
+  text,
+  icon,
+  logos,
+  moreBrands,
+}: {
+  text: string;
+  icon?: "shopify" | "woocommerce" | "bigcommerce" | "adobe";
+  logos?: Array<{ src: string; alt: string; noFilter?: boolean }>;
+  moreBrands?: string;
+}) {
+  // Logo-wall variant — mirrors the /demo audit page strip exactly.
+  // Used by commercial-intent location pages where logos > word count.
+  if (logos && logos.length > 0) {
+    return (
+      <motion.section
+        className="w-full"
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 0.6, delay: 0.4 }}
+      >
+        <div className="px-6 md:px-8 lg:px-16 py-12 border-t border-border">
+          <div className="mx-auto max-w-[1100px] w-full flex flex-col items-center gap-6">
+            <p className="text-[12px] tracking-[0.18em] text-body/60 uppercase text-center">
+              {text}
+            </p>
+            <div className="flex flex-wrap items-center justify-center gap-x-10 md:gap-x-14 gap-y-6 opacity-70">
+              {logos.map((logo) => (
+                <Image
+                  key={logo.src + logo.alt}
+                  src={logo.src}
+                  alt={logo.alt}
+                  width={140}
+                  height={40}
+                  className="h-6 md:h-7 w-auto max-w-[140px] object-contain"
+                  // White-out non-color logos so they sit consistently on
+                  // the dark page; flag noFilter on already-white assets.
+                  style={logo.noFilter ? undefined : { filter: "brightness(0) invert(1)" }}
+                />
+              ))}
+              {moreBrands && (
+                <span className="text-body/40 text-[13px] italic">{moreBrands}</span>
+              )}
+            </div>
+          </div>
+        </div>
+      </motion.section>
+    );
+  }
+
+  // Default text-only trust bar (every other service/location page).
   return (
     <motion.section
       className="w-full px-5 md:px-10 py-6"
@@ -682,12 +818,142 @@ function RichTextSection({
   heading,
   subtitle,
   items,
+  image,
+  imageAlt,
 }: {
   badge?: string;
   heading: string;
   subtitle?: string;
   items: RichTextBlock[];
+  image?: string;
+  imageAlt?: string;
 }) {
+  // Editorial layout — map renders as a wide hero header at the top of
+  // the card, with the section badge + heading floated over its lower-left
+  // on a soft dark gradient (depth + dimension). The 4 text blocks then
+  // read out below as a clean 2×2 grid with hairline dividers.
+  // Mirrors the "feature card" pattern from Stripe Atlas / Vercel docs:
+  // image becomes the visual anchor, content reads like a magazine spread.
+  if (image) {
+    return (
+      <section className="w-full px-5 md:px-10 py-20">
+        <div className="mx-auto max-w-[1180px]">
+          <motion.div
+            className="relative rounded-[28px] border border-border/80 overflow-hidden"
+            initial={{ opacity: 0, y: 24 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, margin: "-80px" }}
+            transition={{ duration: 0.6 }}
+          >
+            {/* Card backdrop — matches Stats/CaseStudy cards */}
+            <div className="absolute inset-0 bg-bg-card" />
+            <div
+              className="pointer-events-none absolute inset-0"
+              style={{
+                background:
+                  "radial-gradient(ellipse at 0% 0%, rgba(123,45,233,0.14) 0%, transparent 55%), radial-gradient(ellipse at 100% 100%, rgba(78,123,255,0.10) 0%, transparent 55%)",
+              }}
+              aria-hidden
+            />
+
+            <div className="relative z-10">
+              {/* ── Hero map header — full-width, native 16:9 ── */}
+              <div
+                className="relative w-full overflow-hidden"
+                style={{ aspectRatio: "1344 / 600" }}
+              >
+                <Image
+                  src={image}
+                  alt={imageAlt || heading}
+                  fill
+                  sizes="(max-width: 1180px) 100vw, 1180px"
+                  className="object-cover"
+                  priority={false}
+                />
+
+                {/* Bottom gradient — fades the map into the card bg so the
+                    overlaid text reads cleanly without a hard image edge */}
+                <div
+                  className="pointer-events-none absolute inset-x-0 bottom-0 h-3/4"
+                  style={{
+                    background:
+                      "linear-gradient(to top, rgba(13,15,28,0.95) 0%, rgba(13,15,28,0.55) 50%, transparent 100%)",
+                  }}
+                  aria-hidden
+                />
+                {/* Top corner accent — re-uses the page glow language */}
+                <div
+                  className="pointer-events-none absolute top-0 right-0 w-2/3 h-1/2"
+                  style={{
+                    background:
+                      "radial-gradient(ellipse at 80% 0%, rgba(193,100,230,0.20), transparent 60%)",
+                  }}
+                  aria-hidden
+                />
+
+                {/* Section header — overlaid on the lower-left of the map
+                    for editorial / magazine-cover feel */}
+                <div className="absolute inset-x-0 bottom-0 px-6 md:px-12 lg:px-16 pb-8 md:pb-12 flex flex-col items-start gap-4 max-w-[820px]">
+                  {badge && <Badge text={badge} />}
+                  <h2 className="text-[28px] md:text-[40px] lg:text-[48px] font-medium leading-[1.08] tracking-[-0.02em] text-heading">
+                    {heading}
+                  </h2>
+                  {subtitle && (
+                    <p className="text-body text-sm md:text-base max-w-[560px]">
+                      {subtitle}
+                    </p>
+                  )}
+                </div>
+              </div>
+
+              {/* ── Text blocks — clean 2-up grid, magazine columns ── */}
+              <div className="grid grid-cols-1 md:grid-cols-2 divide-y md:divide-y-0 md:divide-x divide-border/30 border-t border-border/40">
+                {items.map((block, i) => {
+                  const isLastRow = i >= items.length - 2;
+                  const showRowDivider = !isLastRow;
+                  return (
+                    <motion.div
+                      key={i}
+                      className={`relative flex flex-col gap-3 p-7 md:p-9 ${
+                        showRowDivider ? "md:border-b md:border-border/30" : ""
+                      }`}
+                      {...cardAnim(i)}
+                    >
+                      <span
+                        className="text-[11px] tracking-[0.18em] text-accent/70 uppercase font-medium"
+                        aria-hidden
+                      >
+                        {String(i + 1).padStart(2, "0")}
+                      </span>
+                      {block.heading && (
+                        <h3 className="text-[17px] md:text-[19px] font-medium text-heading leading-snug">
+                          {block.heading}
+                        </h3>
+                      )}
+                      <p className="text-body text-[14.5px] md:text-[15px] leading-relaxed">
+                        {parseInlineLinks(block.body)}
+                      </p>
+                      {block.href && (
+                        <LocaleLink
+                          href={block.href}
+                          className="inline-flex items-center gap-1.5 text-sm font-medium text-accent hover:underline mt-1"
+                        >
+                          {block.hrefLabel || "Learn more"}
+                          <ArrowIcon className="w-3 h-3" />
+                        </LocaleLink>
+                      )}
+                    </motion.div>
+                  );
+                })}
+              </div>
+            </div>
+          </motion.div>
+        </div>
+      </section>
+    );
+  }
+
+  // Default (no image) — original single-column card layout.
   return (
     <section className="w-full px-5 md:px-10 py-20">
       <div className="mx-auto max-w-[1120px] flex flex-col items-center gap-12">
@@ -879,58 +1145,206 @@ function TeamSection({
   locale?: Locale;
 }) {
   const tpl = serviceTemplateStrings[locale];
-  /* Combine lead + members into one unified list for the grid */
   const allMembers = [
     ...(lead ? [lead] : []),
     ...(members || []),
   ];
+  const isSoloLead = lead && (!members || members.length === 0);
 
-  return (
-    <section className="w-full px-5 md:px-10 py-20">
-      <div className="mx-auto max-w-[1120px] flex flex-col items-center gap-16">
-        <SectionHeader badge={badge} heading={heading} subtitle={subtitle} />
-
-        {/* ─── 4-column team grid (like homepage Results) ─── */}
-        <div className="w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-          {allMembers.map((member, i) => (
+  /* ─── Solo lead: homepage-style side-by-side layout ─── */
+  if (isSoloLead) {
+    return (
+      <section className="w-full px-5 md:px-10 py-20">
+        <div className="mx-auto max-w-[1120px]">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-center">
+            {/* Left: large photo card */}
             <motion.div
-              key={i}
-              className="group relative rounded-3xl overflow-hidden border border-border hover:border-accent/30 transition-all duration-300 h-[380px]"
-              {...cardAnim(i)}
+              className="group/photo relative rounded-3xl overflow-hidden border border-border h-[480px] lg:h-[520px] transition-all duration-500 hover:border-[rgba(168,85,247,0.35)] hover:shadow-[0_25px_60px_rgba(147,51,234,0.15)]"
+              style={{ perspective: "800px" }}
+              initial={{ opacity: 0, x: -30 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6 }}
             >
-              {/* Photo */}
-              {member.image ? (
+              {lead.image && (
                 <Image
-                  src={member.image}
-                  alt={member.name}
+                  src={lead.image}
+                  alt={lead.name}
                   fill
-                  className="object-cover object-top transition-transform duration-500 group-hover:scale-105"
-                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
+                  className="object-cover transition-all duration-500 group-hover/photo:scale-[1.03] group-hover/photo:brightness-110"
+                  sizes="(max-width: 1024px) 100vw, 50vw"
                 />
-              ) : (
-                <div className="absolute inset-0 bg-bg-card" />
               )}
-              {/* Gradient overlay */}
-              <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/30 to-transparent" />
-              {/* Content at bottom */}
-              <div className="absolute bottom-0 left-0 right-0 p-5 flex flex-col gap-1.5">
+              {/* Shine overlay on hover */}
+              <div className="absolute inset-0 opacity-0 group-hover/photo:opacity-100 transition-opacity duration-700 pointer-events-none" style={{ background: 'linear-gradient(135deg, rgba(255,255,255,0.05) 0%, transparent 50%, rgba(147,51,234,0.08) 100%)' }} />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent" />
+              <div className="absolute bottom-0 left-0 right-0 p-8 flex flex-col gap-1">
                 <div className="flex items-center justify-between">
                   <div>
-                    <h3 className="text-base font-medium text-heading">{member.name}</h3>
-                    <span className="text-xs font-medium text-accent">{member.role}</span>
+                    <h3 className="text-lg font-medium text-heading">{lead.name}</h3>
+                    <span className="text-sm text-body">{lead.role}</span>
                   </div>
-                  {member.linkedin && (
+                  {lead.linkedin && (
                     <a
-                      href={member.linkedin}
+                      href={lead.linkedin}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="flex-shrink-0 w-8 h-8 rounded-lg bg-[rgba(13,13,13,0.56)] border border-border backdrop-blur-sm flex items-center justify-center text-accent hover:bg-accent/20 transition-colors"
+                      className="flex-shrink-0 w-10 h-10 rounded-lg bg-[rgba(13,13,13,0.56)] border border-border backdrop-blur-sm flex items-center justify-center text-accent hover:bg-accent/20 transition-colors"
                     >
-                      <LinkedInIcon size={12} />
+                      <LinkedInIcon size={14} />
                     </a>
                   )}
                 </div>
-                <p className="text-xs text-white/60 leading-relaxed line-clamp-2">{member.bio}</p>
+              </div>
+            </motion.div>
+
+            {/* Right: text content */}
+            <motion.div
+              className="flex flex-col gap-5"
+              initial={{ opacity: 0, x: 30 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6, delay: 0.1 }}
+            >
+              {badge && <Badge text={badge} />}
+              <h2 className="text-[32px] md:text-[44px] lg:text-[52px] font-medium leading-[1.1] tracking-[-0.02em] text-heading">
+                {heading}
+              </h2>
+              {subtitle && (
+                <p className="text-body text-base md:text-lg leading-relaxed">
+                  {subtitle}
+                </p>
+              )}
+              {lead.bio && (
+                <p className="text-white/60 text-sm md:text-base leading-relaxed">
+                  {lead.bio}
+                </p>
+              )}
+              <div className="pt-2 flex flex-col sm:flex-row gap-3">
+                <Button href="/contact" variant="primary" size="large">
+                  {tpl.getInTouch} &nbsp;&rarr;
+                </Button>
+                <Button href="/team" variant="secondary" size="large">
+                  {tpl.teamCta} &nbsp;&rarr;
+                </Button>
+              </div>
+            </motion.div>
+          </div>
+        </div>
+      </section>
+    );
+  }
+
+  /* ─── Multiple members: modern card grid with glow + hover effects ─── */
+  return (
+    <section className="relative w-full px-5 md:px-10 py-20 overflow-hidden">
+      {/* Background glow */}
+      <div className="absolute inset-0 pointer-events-none">
+        <div
+          className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[400px] rounded-full opacity-20 blur-[100px]"
+          style={{
+            background: "radial-gradient(ellipse at center, rgba(168, 85, 247, 0.4) 0%, transparent 70%)",
+          }}
+        />
+      </div>
+
+      <div className="relative mx-auto max-w-[1120px] flex flex-col items-center gap-16">
+        <SectionHeader badge={badge} heading={heading} subtitle={subtitle} />
+
+        <div
+          className={`w-full grid gap-5 justify-center ${
+            allMembers.length === 1
+              ? "grid-cols-1 max-w-[320px]"
+              : allMembers.length === 2
+              ? "grid-cols-1 sm:grid-cols-2 max-w-[660px]"
+              : allMembers.length === 3
+              ? "grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 max-w-[1000px]"
+              : "grid-cols-1 sm:grid-cols-2 lg:grid-cols-4"
+          } mx-auto`}
+        >
+          {allMembers.map((member, i) => (
+            <motion.div
+              key={i}
+              className="group relative h-[420px]"
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6, delay: i * 0.1, ease: [0.25, 0.46, 0.45, 0.94] }}
+              whileHover={{ y: -8 }}
+            >
+              {/* Outer glow on hover */}
+              <div
+                className="absolute -inset-0.5 rounded-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-500 blur-xl"
+                style={{
+                  background: "linear-gradient(135deg, rgba(168, 85, 247, 0.5), rgba(59, 130, 246, 0.3), rgba(168, 85, 247, 0.5))",
+                }}
+              />
+
+              {/* Gradient border */}
+              <div className="relative h-full rounded-3xl p-[1px] overflow-hidden bg-gradient-to-br from-white/10 via-white/5 to-transparent group-hover:from-accent/40 group-hover:via-white/10 group-hover:to-accent/20 transition-all duration-500">
+                <div className="relative h-full rounded-3xl overflow-hidden bg-bg-card">
+                  {/* Number badge */}
+                  <div className="absolute top-4 left-4 z-20 flex items-center justify-center w-8 h-8 rounded-full bg-black/60 backdrop-blur-sm border border-white/10">
+                    <span className="text-xs font-mono text-white/70">0{i + 1}</span>
+                  </div>
+
+                  {/* Image */}
+                  {member.image ? (
+                    <Image
+                      src={member.image}
+                      alt={member.name}
+                      fill
+                      className="object-cover object-top transition-all duration-700 group-hover:scale-110 group-hover:brightness-110"
+                      sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
+                    />
+                  ) : (
+                    <div className="absolute inset-0 bg-gradient-to-br from-accent/20 to-transparent" />
+                  )}
+
+                  {/* Shine overlay on hover */}
+                  <div
+                    className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none"
+                    style={{
+                      background: "linear-gradient(135deg, rgba(255,255,255,0.08) 0%, transparent 40%, transparent 60%, rgba(168,85,247,0.12) 100%)",
+                    }}
+                  />
+
+                  {/* Gradient overlay */}
+                  <div className="absolute inset-0 bg-gradient-to-t from-black via-black/60 via-40% to-transparent" />
+
+                  {/* Accent line at bottom */}
+                  <div
+                    className="absolute left-5 right-5 bottom-[140px] h-px bg-gradient-to-r from-transparent via-accent/60 to-transparent opacity-0 group-hover:opacity-100 transition-all duration-500"
+                  />
+
+                  {/* Content */}
+                  <div className="absolute bottom-0 left-0 right-0 p-5 flex flex-col gap-2.5">
+                    <div className="flex items-start justify-between gap-3">
+                      <div className="flex-1 min-w-0">
+                        <h3 className="text-[17px] font-semibold text-white leading-tight tracking-[-0.01em]">
+                          {member.name}
+                        </h3>
+                        <span className="text-[11px] font-semibold text-accent uppercase tracking-wider mt-1 block">
+                          {member.role}
+                        </span>
+                      </div>
+                      {member.linkedin && (
+                        <a
+                          href={member.linkedin}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="flex-shrink-0 w-9 h-9 rounded-xl bg-white/5 border border-white/10 backdrop-blur-md flex items-center justify-center text-white/70 hover:text-white hover:bg-accent/20 hover:border-accent/40 hover:scale-110 transition-all duration-300"
+                          aria-label={`${member.name} LinkedIn`}
+                        >
+                          <LinkedInIcon size={13} />
+                        </a>
+                      )}
+                    </div>
+                    <p className="text-[12px] text-white/70 leading-relaxed line-clamp-2 group-hover:text-white/90 transition-colors duration-300">
+                      {member.bio}
+                    </p>
+                  </div>
+                </div>
               </div>
             </motion.div>
           ))}
@@ -1061,11 +1475,17 @@ function FAQSection({
   locale = "en",
 }: {
   items: FAQItem[];
-  miniCta: { heading: string; subtitle: string };
+  miniCta: { heading: string; subtitle: string; ctaHref?: string; ctaText?: string };
   locale?: Locale;
 }) {
   const tpl = serviceTemplateStrings[locale];
   const [openIndex, setOpenIndex] = useState<number | null>(0);
+  // CTA destination defaults to the legacy Typeform contact form, but
+  // commercial-intent pages (location/agency landing pages) override this
+  // to point at /demo so all CTAs on the page funnel to one booking flow.
+  const ctaHref = miniCta.ctaHref || "https://w35pmime997.typeform.com/to/eqeeLQvb";
+  const ctaText = miniCta.ctaText || tpl.getInTouch;
+  const ctaIsExternal = /^https?:\/\//.test(ctaHref);
 
   return (
     <section className="w-full px-5 md:px-10 py-24">
@@ -1139,14 +1559,131 @@ function FAQSection({
             <p className="text-body text-sm md:text-base max-w-[500px]">{miniCta.subtitle}</p>
             <div className="mt-2">
               <Button
-                href="https://w35pmime997.typeform.com/to/eqeeLQvb"
+                href={ctaHref}
                 variant="primary"
                 size="large"
-                external
+                external={ctaIsExternal}
               >
-                {tpl.getInTouch}
+                {ctaText}
               </Button>
             </div>
+          </div>
+        </motion.div>
+      </div>
+    </section>
+  );
+}
+
+/* ─── Revenue wins (Maison-style cards, mirrors homepage Results) ─── */
+
+function RevenueWinsSection({
+  badge,
+  heading,
+  subtitle,
+  items,
+}: {
+  badge?: string;
+  heading: string;
+  subtitle?: string;
+  items: RevenueWin[];
+}) {
+  return (
+    <section className="relative w-full px-5 md:px-10 py-16 md:py-20">
+      <div className="mx-auto max-w-[1200px] flex flex-col items-center gap-12">
+        <motion.div className="flex flex-col items-center text-center gap-4 max-w-[760px]" {...sectionAnim}>
+          {badge && <Badge text={badge} />}
+          <h2 className="text-[28px] md:text-[40px] lg:text-[48px] font-medium leading-[1.12] tracking-[-0.02em] text-heading">
+            {heading}
+          </h2>
+          {subtitle && (
+            <p className="text-body text-base md:text-lg max-w-[640px]">{subtitle}</p>
+          )}
+        </motion.div>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-7 w-full max-w-[1100px]">
+          {items.map((r, i) => {
+            const card = (
+              <>
+                <div className="relative aspect-[4/3] w-full rounded-3xl bg-[rgb(242,242,243)] overflow-hidden flex items-center justify-center px-6 py-8 transition-transform duration-300 group-hover:-translate-y-0.5">
+                  <div className="relative w-full h-full">
+                    <Image
+                      src={r.screenshot}
+                      alt={`${r.amount} ${r.label} ${r.client}`}
+                      fill
+                      sizes="(max-width: 768px) 100vw, 50vw"
+                      className="object-contain"
+                    />
+                  </div>
+                </div>
+                <div className="mt-6 flex flex-col gap-1.5 text-center">
+                  <h3 className="text-[26px] md:text-[34px] font-semibold text-heading leading-tight tracking-tight">
+                    {r.amount}
+                  </h3>
+                  <p className="text-[16px] md:text-[18px] font-semibold text-heading leading-snug">
+                    {r.label}
+                  </p>
+                  <p className="text-[13.5px] text-body/60 mt-1 leading-snug">
+                    {r.client}
+                    <br />
+                    {r.condition}
+                  </p>
+                </div>
+              </>
+            );
+            return (
+              <motion.div
+                key={i}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.5, delay: (i % 2) * 0.08 }}
+              >
+                {r.href ? (
+                  <LocaleLink href={r.href} className="group block">
+                    {card}
+                  </LocaleLink>
+                ) : (
+                  <div className="group block">{card}</div>
+                )}
+              </motion.div>
+            );
+          })}
+        </div>
+      </div>
+    </section>
+  );
+}
+
+/* ─── Booking widget section (replaces team block on commercial pages) ─── */
+
+function BookingWidgetSection({
+  badge,
+  heading,
+  subtitle,
+}: {
+  badge?: string;
+  heading: string;
+  subtitle?: string;
+}) {
+  return (
+    <section className="relative w-full px-5 md:px-10 py-16 md:py-20">
+      <div className="mx-auto max-w-[1100px] flex flex-col items-center gap-10">
+        <motion.div className="flex flex-col items-center text-center gap-4 max-w-[720px]" {...sectionAnim}>
+          {badge && <Badge text={badge} />}
+          <h2 className="text-[28px] md:text-[40px] lg:text-[48px] font-medium leading-[1.12] tracking-[-0.02em] text-heading">
+            {heading}
+          </h2>
+          {subtitle && (
+            <p className="text-body text-base md:text-lg max-w-[620px]">{subtitle}</p>
+          )}
+        </motion.div>
+
+        <motion.div
+          className="w-full max-w-[920px] rounded-3xl border border-border/60 bg-bg-cta/40 p-2 md:p-3 shadow-[0_30px_80px_-20px_rgba(0,0,0,0.5)]"
+          {...sectionAnim}
+        >
+          <div className="rounded-[20px] overflow-hidden bg-white">
+            <IClosedEmbed minHeight={680} />
           </div>
         </motion.div>
       </div>
@@ -1160,6 +1697,8 @@ export default function ServicePageTemplate({
   hero,
   trustBar,
   trustBarIcon,
+  trustBarLogos,
+  trustBarMoreBrands,
   sections,
   faqs,
   locale,
@@ -1169,7 +1708,12 @@ export default function ServicePageTemplate({
       <Navigation />
       <main>
         <ServiceHero {...hero} />
-        <TrustBar text={trustBar} icon={trustBarIcon} />
+        <TrustBar
+          text={trustBar}
+          icon={trustBarIcon}
+          logos={trustBarLogos}
+          moreBrands={trustBarMoreBrands}
+        />
         {sections.map((section, i) => {
           switch (section.type) {
             case "stats":
@@ -1230,6 +1774,8 @@ export default function ServicePageTemplate({
                   heading={section.heading}
                   subtitle={section.subtitle}
                   items={section.richTextBlocks!}
+                  image={section.image}
+                  imageAlt={section.imageAlt}
                 />
               );
             case "tips":
@@ -1264,6 +1810,25 @@ export default function ServicePageTemplate({
                   items={section.caseStudies!}
                   ctaText={section.ctaText}
                   ctaHref={section.ctaHref}
+                />
+              );
+            case "revenueWins":
+              return (
+                <RevenueWinsSection
+                  key={i}
+                  badge={section.badge}
+                  heading={section.heading}
+                  subtitle={section.subtitle}
+                  items={section.revenueWins!}
+                />
+              );
+            case "bookingWidget":
+              return (
+                <BookingWidgetSection
+                  key={i}
+                  badge={section.badge}
+                  heading={section.heading}
+                  subtitle={section.subtitle}
                 />
               );
             default:

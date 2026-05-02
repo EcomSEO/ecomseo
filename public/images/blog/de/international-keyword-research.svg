@@ -1,0 +1,37 @@
+<svg viewBox="0 0 680 280" xmlns="http://www.w3.org/2000/svg" fill="none" font-family="Arial,sans-serif">
+  <text x="340" y="28" text-anchor="middle" fill="#a78bfa" font-size="14" font-weight="bold">International Keyword Research by Market</text>
+  <!-- Market comparison table -->
+  <text x="340" y="56" text-anchor="middle" fill="#e2e8f0" font-size="11" font-weight="bold">Same Product, Different Search Behavior</text>
+  <!-- Headers -->
+  <text x="80" y="80" text-anchor="middle" fill="#a78bfa" font-size="10" font-weight="bold">Market</text>
+  <text x="220" y="80" text-anchor="middle" fill="#a78bfa" font-size="10" font-weight="bold">Search Term</text>
+  <text x="380" y="80" text-anchor="middle" fill="#a78bfa" font-size="10" font-weight="bold">Volume/mo</text>
+  <text x="520" y="80" text-anchor="middle" fill="#a78bfa" font-size="10" font-weight="bold">Competitors</text>
+  <line x1="20" y1="88" x2="660" y2="88" stroke="#e2e8f0" stroke-width="0.5" opacity="0.3"/>
+  <!-- US -->
+  <text x="80" y="108" text-anchor="middle" fill="#60a5fa" font-size="10">US</text>
+  <text x="220" y="108" text-anchor="middle" fill="#e2e8f0" font-size="10">"yoga mat"</text>
+  <text x="380" y="108" text-anchor="middle" fill="#4ade80" font-size="10" font-weight="bold">40,000</text>
+  <text x="520" y="108" text-anchor="middle" fill="#e2e8f0" font-size="9">Amazon, Lululemon</text>
+  <!-- DE -->
+  <text x="80" y="130" text-anchor="middle" fill="#f97316" font-size="10">Germany</text>
+  <text x="220" y="130" text-anchor="middle" fill="#e2e8f0" font-size="10">"Yogamatte"</text>
+  <text x="380" y="130" text-anchor="middle" fill="#4ade80" font-size="10" font-weight="bold">12,000</text>
+  <text x="520" y="130" text-anchor="middle" fill="#e2e8f0" font-size="9">Otto, Amazon.de</text>
+  <!-- NL -->
+  <text x="80" y="152" text-anchor="middle" fill="#4ade80" font-size="10">Netherlands</text>
+  <text x="220" y="152" text-anchor="middle" fill="#e2e8f0" font-size="10">"yogamat"</text>
+  <text x="380" y="152" text-anchor="middle" fill="#4ade80" font-size="10" font-weight="bold">6,000</text>
+  <text x="520" y="152" text-anchor="middle" fill="#e2e8f0" font-size="9">Bol.com, Decathlon</text>
+  <!-- UK -->
+  <text x="80" y="174" text-anchor="middle" fill="#a78bfa" font-size="10">UK</text>
+  <text x="220" y="174" text-anchor="middle" fill="#e2e8f0" font-size="10">"yoga mat"</text>
+  <text x="380" y="174" text-anchor="middle" fill="#4ade80" font-size="10" font-weight="bold">22,000</text>
+  <text x="520" y="174" text-anchor="middle" fill="#e2e8f0" font-size="9">John Lewis, Argos</text>
+  <!-- Key insight -->
+  <rect x="40" y="196" width="600" height="44" rx="8" stroke="#f97316" stroke-width="1.5"/>
+  <text x="340" y="214" text-anchor="middle" fill="#f97316" font-size="10" font-weight="bold">Sneakers vs Trainers vs Turnschuhe vs Sneaker</text>
+  <text x="340" y="230" text-anchor="middle" fill="#e2e8f0" font-size="9">US = "sneakers" | UK = "trainers" | DE = "Sneaker" (loanword) NOT "Turnschuhe" | NL = "sneakers"</text>
+  <!-- Bottom tip -->
+  <text x="340" y="262" text-anchor="middle" fill="#e2e8f0" font-size="9" opacity="0.7">Never translate keyword lists -- research each market independently with local keyword tools</text>
+</svg>

@@ -3,7 +3,7 @@ import type { BlogArticle } from "../types";
 export const ecommerceSeoConsultant: BlogArticle = {
   slug: "ecommerce-seo-consultant",
   category: "services",
-  publishDate: "2025-06-15",
+  publishDate: "2026-03-17",
   readingTime: 10,
   author: "Fabian van Til",
   authorRole: "CEO at EcomSEO",
@@ -32,6 +32,7 @@ export const ecommerceSeoConsultant: BlogArticle = {
             "An in-house SEO hire makes sense when you need someone embedded in your business full-time. A mid-level ecommerce SEO specialist costs $60,000 to $90,000 per year in salary. A senior hire with real ecommerce experience can run $100,000 to $140,000. The advantage is full-time dedication and deep understanding of your business. The disadvantage is that one person rarely has top-tier skills across every area of SEO.",
             "Our honest recommendation: start with a consultant or agency to build the foundation and strategy. Once you see results and know exactly what ongoing work looks like, consider bringing someone in-house and keeping the consultant or agency for specialized projects and oversight."
           ],
+          image: { src: "/images/blog/consultant-vs-agency.svg", alt: "Comparison table of consultant, agency, and in-house SEO across cost, specialization, scalability, and flexibility", caption: "How consultants, agencies, and in-house hires compare across key factors" },
         },
         {
           heading: "Red flags that should disqualify a consultant immediately",
@@ -42,6 +43,8 @@ export const ecommerceSeoConsultant: BlogArticle = {
             "Other red flags to watch for: they focus exclusively on vanity metrics like domain authority or total traffic without connecting to revenue. They want to build links using tactics that sound questionable (PBNs, link exchanges, directory submissions to irrelevant sites). They have no experience with your ecommerce platform or refuse to get access to your analytics. They have no case studies or references from ecommerce clients. They require long-term contracts with no performance benchmarks.",
             "One subtle red flag: consultants who never push back on your ideas. A good ecommerce SEO consultant should challenge you when you are wrong. If you say 'I want to rank number one for shoes' and they nod and take your money instead of explaining that the keyword is too broad and competitive, they are not looking out for your interests."
           ],
+          image: { src: "/images/blog/consultant-red-flags.svg", alt: "Red flags versus green flags when evaluating SEO consultants", caption: "Use these signals to quickly filter qualified consultants from pretenders" },
+          callout: { title: "Ranking Guarantees", text: "No honest SEO professional guarantees specific rankings. Google's algorithm changes 500-600 times per year. Consultants who promise page 1 positions are either lying or planning to use risky tactics." },
         },
         {
           heading: "Questions to ask before hiring",
@@ -60,11 +63,13 @@ export const ecommerceSeoConsultant: BlogArticle = {
           body: [
             "Knowing what to expect helps you evaluate proposals and hold your consultant accountable.",
             "A good engagement typically starts with an audit. For an ecommerce site, this should take one to two weeks and result in a prioritized list of issues and opportunities. The audit should cover technical SEO, on-page optimization, content gaps, backlink profile, and competitive positioning. Expect a document of 15 to 30 pages with specific, actionable recommendations.",
-            "After the audit, the consultant should present a strategy document outlining what to tackle first, what resources are needed, and what results to expect over 6 to 12 months. Good consultants set realistic expectations. If they promise 100% traffic growth in 3 months, they are either lying or planning to use risky tactics. Before the engagement begins, a dedicated [ecommerce SEO audit](/seo-audit) gives both sides a shared baseline to work from.",
+            "After the audit, the consultant should present a strategy document outlining what to tackle first, what resources are needed, and what results to expect over 6 to 12 months. Good consultants set realistic expectations. If they promise 100% traffic growth in 3 months, they are either lying or planning to use risky tactics. Before the engagement begins, a dedicated [ecommerce SEO audit](/tools/ecommerce-seo-audit) gives both sides a shared baseline to work from.",
             "Ongoing work depends on the scope of the engagement. Monthly deliverables might include technical SEO implementation or oversight, keyword research and content briefs for new pages, optimization of existing category and product pages, link building outreach and management, and monthly reporting with analysis and next steps.",
             "The key difference between a good consultant and a mediocre one is proactivity. A good consultant spots problems before they become emergencies, identifies opportunities you did not know existed, and adjusts strategy based on data. They do not just execute a playbook and send a monthly report.",
             "We worked with a consultant early in our agency's history who spotted that a client's Shopify theme update had removed structured data from product pages. It was caught within two days of the update going live, before it affected rankings. That kind of vigilance is what you are paying for."
           ],
+          image: { src: "/images/blog/consultant-deliverables-timeline.svg", alt: "SEO consultant engagement timeline showing audit, strategy, and ongoing execution phases with proactivity as key differentiator", caption: "Good consultants deliver audits in 1-2 weeks, strategy by week 4, and ongoing execution monthly" },
+          callout: { title: "Proactivity Is the Difference", text: "A good consultant spots problems before they become emergencies and finds opportunities you did not know existed. One caught a Shopify theme update that removed structured data within 2 days -- before rankings were affected." },
         },
         {
           heading: "Evaluating track record and references",
@@ -87,6 +92,7 @@ export const ecommerceSeoConsultant: BlogArticle = {
             "Performance-based pricing exists but is rare and complicated. Some consultants offer a lower base fee plus a percentage of revenue growth attributed to organic search. This aligns incentives well but requires clean attribution data and agreement on measurement methodology. We have seen performance-based arrangements work well when both sides are honest, but they can create conflicts when attribution is murky.",
             "Whatever the pricing model, get everything in writing. The contract should specify deliverables, timelines, reporting cadence, termination terms, and who owns the work product (it should be you)."
           ],
+          image: { src: "/images/blog/consultant-pricing-models.svg", alt: "Comparison of three SEO consultant pricing models: hourly, project-based, and monthly retainer with pros and cons", caption: "Choose the pricing model that matches your engagement scope and budget predictability" },
         },
         {
           heading: "Making the most of your consultant relationship",
@@ -98,6 +104,8 @@ export const ecommerceSeoConsultant: BlogArticle = {
             "Be patient but set milestones. SEO results take time, typically 4 to 6 months before significant changes show up in traffic and revenue. But you should see leading indicators sooner: improved indexation within weeks, better rankings for long-tail keywords within 2 to 3 months, and improved technical health scores almost immediately. A good consultant will set these milestones with you upfront. If your store goes through a platform change during the engagement, make sure your consultant has a clear process — our guide on [ecommerce SEO migration](/blog/ecommerce-seo-migration) shows what careful migration planning looks like.",
             "Finally, communicate your business context. Your consultant is better when they understand your margins, your best-selling categories, your seasonal patterns, and your growth plans. The more context they have, the better they can prioritize work that moves the needle for your specific business."
           ],
+          image: { src: "/images/blog/consultant-relationship-tips.svg", alt: "Two-column comparison of your role versus consultant role in a successful SEO engagement", caption: "Best results come from partnership, not a vendor-client dynamic" },
+          callout: { title: "Implementation Is Everything", text: "The #1 reason consultant engagements fail is that recommendations never get implemented. We have delivered audits with 40 prioritized action items only to find 3 months later that just 2 were done." },
         },
       ],
     },
@@ -122,6 +130,7 @@ export const ecommerceSeoConsultant: BlogArticle = {
             "Eine Inhouse-SEO-Einstellung macht Sinn, wenn Sie jemanden brauchen, der Vollzeit in Ihr Geschaeft eingebettet ist. Ein SEO-Spezialist auf mittlerem Niveau fuer Ecommerce kostet 60.000 bis 90.000 Dollar Jahresgehalt. Eine Senior-Einstellung mit echter Ecommerce-Erfahrung kann 100.000 bis 140.000 Dollar kosten. Der Vorteil ist Vollzeit-Widmung und tiefes Verstaendnis Ihres Geschaefts. Der Nachteil ist, dass eine einzelne Person selten Top-Faehigkeiten ueber jeden SEO-Bereich hinweg hat.",
             "Unsere ehrliche Empfehlung: Beginnen Sie mit einem Consultant oder einer Agentur, um die Grundlagen und Strategie aufzubauen. Sobald Sie Ergebnisse sehen und genau wissen, wie die laufende Arbeit aussieht, erwaegen Sie, jemanden intern einzustellen und den Consultant oder die Agentur fuer spezialisierte Projekte und Aufsicht zu behalten."
           ],
+          image: { src: "/images/blog/de/consultant-vs-agency.svg", alt: "Comparison table of consultant, agency, and in-house SEO across cost, specialization, scalability, and flexibility", caption: "How consultants, agencies, and in-house hires compare across key factors" },
         },
         {
           heading: "Warnsignale, die einen Consultant sofort disqualifizieren sollten",
@@ -132,6 +141,8 @@ export const ecommerceSeoConsultant: BlogArticle = {
             "Weitere Warnsignale: Sie konzentrieren sich ausschliesslich auf Eitelkeitsmetriken wie Domain Authority oder Gesamttraffic, ohne den Bezug zum Umsatz herzustellen. Sie wollen Links mit fragwuerdigen Taktiken aufbauen (PBNs, Link-Tausch, Verzeichniseintraege auf irrelevanten Seiten). Sie haben keine Erfahrung mit Ihrer Ecommerce-Plattform oder weigern sich, Zugang zu Ihren Analytics zu erhalten. Sie haben keine Fallstudien oder Referenzen von Ecommerce-Kunden. Sie verlangen Langzeitvertraege ohne Leistungsbenchmarks.",
             "Ein subtiles Warnsignal: Consultants, die Ihren Ideen nie widersprechen. Ein guter Ecommerce SEO Consultant sollte Sie herausfordern, wenn Sie falsch liegen. Wenn Sie sagen 'Ich will fuer Schuhe auf Nummer eins ranken' und sie nicken und Ihr Geld nehmen, anstatt zu erklaeren, dass das Keyword zu breit und wettbewerbsintensiv ist, schauen sie nicht nach Ihren Interessen."
           ],
+          image: { src: "/images/blog/de/consultant-red-flags.svg", alt: "Red flags versus green flags when evaluating SEO consultants", caption: "Use these signals to quickly filter qualified consultants from pretenders" },
+          callout: { title: "Ranking Guarantees", text: "No honest SEO professional guarantees specific rankings. Google's algorithm changes 500-600 times per year. Consultants who promise page 1 positions are either lying or planning to use risky tactics." },
         },
         {
           heading: "Fragen, die Sie vor der Einstellung stellen sollten",
@@ -150,11 +161,13 @@ export const ecommerceSeoConsultant: BlogArticle = {
           body: [
             "Zu wissen, was Sie erwarten koennen, hilft Ihnen, Angebote zu bewerten und Ihren Consultant zur Rechenschaft zu ziehen.",
             "Ein gutes Engagement beginnt typischerweise mit einem Audit. Fuer eine Ecommerce-Seite sollte dies ein bis zwei Wochen dauern und in einer priorisierten Liste von Problemen und Chancen resultieren. Das Audit sollte technisches SEO, On-Page-Optimierung, Content-Luecken, Backlink-Profil und Wettbewerbspositionierung abdecken. Erwarten Sie ein Dokument von 15 bis 30 Seiten mit konkreten, umsetzbaren Empfehlungen.",
-            "Nach dem Audit sollte der Consultant ein Strategiedokument vorlegen, das beschreibt, was zuerst angegangen werden soll, welche Ressourcen benoetigt werden und welche Ergebnisse ueber 6 bis 12 Monate zu erwarten sind. Gute Consultants setzen realistische Erwartungen. Wenn sie 100% Traffic-Wachstum in 3 Monaten versprechen, luegen sie entweder oder planen riskante Taktiken. Bevor das Engagement beginnt, gibt ein dediziertes [Ecommerce SEO Audit](/seo-audit) beiden Seiten eine gemeinsame Baseline.",
+            "Nach dem Audit sollte der Consultant ein Strategiedokument vorlegen, das beschreibt, was zuerst angegangen werden soll, welche Ressourcen benoetigt werden und welche Ergebnisse ueber 6 bis 12 Monate zu erwarten sind. Gute Consultants setzen realistische Erwartungen. Wenn sie 100% Traffic-Wachstum in 3 Monaten versprechen, luegen sie entweder oder planen riskante Taktiken. Bevor das Engagement beginnt, gibt ein dediziertes [Ecommerce SEO Audit](/tools/ecommerce-seo-audit) beiden Seiten eine gemeinsame Baseline.",
             "Laufende Arbeit haengt vom Umfang des Engagements ab. Monatliche Lieferleistungen koennten umfassen: technische SEO-Implementierung oder -Aufsicht, Keyword-Recherche und Content-Briefings fuer neue Seiten, Optimierung bestehender Kategorie- und Produktseiten, Linkaufbau-Outreach und -Management sowie monatliches Reporting mit Analyse und naechsten Schritten.",
             "Der entscheidende Unterschied zwischen einem guten und einem mittelmassigen Consultant ist Proaktivitaet. Ein guter Consultant erkennt Probleme, bevor sie zu Notfaellen werden, identifiziert Chancen, von denen Sie nicht wussten, dass sie existieren, und passt die Strategie auf Basis von Daten an. Sie fuehren nicht einfach ein Playbook aus und senden einen Monatsbericht.",
             "Wir haben in der fruehen Geschichte unserer Agentur mit einem Consultant zusammengearbeitet, der bemerkte, dass ein Shopify-Theme-Update strukturierte Daten von Produktseiten entfernt hatte. Es wurde innerhalb von zwei Tagen nach dem Go-live des Updates erkannt, bevor es sich auf Rankings auswirkte. Diese Art von Wachsamkeit ist es, wofuer Sie bezahlen."
           ],
+          image: { src: "/images/blog/de/consultant-deliverables-timeline.svg", alt: "SEO consultant engagement timeline showing audit, strategy, and ongoing execution phases with proactivity as key differentiator", caption: "Good consultants deliver audits in 1-2 weeks, strategy by week 4, and ongoing execution monthly" },
+          callout: { title: "Proactivity Is the Difference", text: "A good consultant spots problems before they become emergencies and finds opportunities you did not know existed. One caught a Shopify theme update that removed structured data within 2 days -- before rankings were affected." },
         },
         {
           heading: "Track Record und Referenzen bewerten",
@@ -177,6 +190,7 @@ export const ecommerceSeoConsultant: BlogArticle = {
             "Leistungsbasierte Preise existieren, sind aber selten und kompliziert. Einige Consultants bieten eine niedrigere Grundgebuehr plus einen Prozentsatz des Umsatzwachstums an, das der organischen Suche zugeordnet wird. Das richtet die Anreize gut aus, erfordert aber saubere Zuordnungsdaten und Einigung ueber die Messmethodik. Wir haben gesehen, dass leistungsbasierte Vereinbarungen gut funktionieren, wenn beide Seiten ehrlich sind, aber sie koennen Konflikte erzeugen, wenn die Zuordnung unklar ist.",
             "Egal welches Preismodell: Halten Sie alles schriftlich fest. Der Vertrag sollte Lieferleistungen, Zeitplaene, Reporting-Frequenz, Kuendigungsbedingungen und wer das Arbeitsergebnis besitzt (das sollten Sie sein) spezifizieren."
           ],
+          image: { src: "/images/blog/de/consultant-pricing-models.svg", alt: "Comparison of three SEO consultant pricing models: hourly, project-based, and monthly retainer with pros and cons", caption: "Choose the pricing model that matches your engagement scope and budget predictability" },
         },
         {
           heading: "Das Beste aus Ihrer Consultant-Beziehung herausholen",
@@ -212,6 +226,7 @@ export const ecommerceSeoConsultant: BlogArticle = {
             "Un recrutement SEO interne a du sens quand vous avez besoin de quelqu'un intégré à votre entreprise à temps plein. Un spécialiste SEO ecommerce de niveau intermédiaire coûte 45 000 à 70 000 € par an en salaire. Un profil senior avec une vraie expérience ecommerce peut atteindre 80 000 à 110 000 €. L'avantage est la dédicace à temps plein et la compréhension approfondie de votre business. L'inconvénient est qu'une seule personne a rarement des compétences de haut niveau dans tous les domaines du SEO.",
             "Notre recommandation honnête : commencez avec un consultant ou une agence pour construire les fondations et la stratégie. Une fois que vous voyez des résultats et savez exactement à quoi ressemble le travail continu, envisagez de recruter en interne et de garder le consultant ou l'agence pour des projets spécialisés et la supervision."
           ],
+          image: { src: "/images/blog/fr/consultant-vs-agency.svg", alt: "Comparison table of consultant, agency, and in-house SEO across cost, specialization, scalability, and flexibility", caption: "How consultants, agencies, and in-house hires compare across key factors" },
         },
         {
           heading: "Signaux d'alerte qui devraient disqualifier immédiatement un consultant",
@@ -222,6 +237,8 @@ export const ecommerceSeoConsultant: BlogArticle = {
             "Autres signaux d'alerte à surveiller : ils se concentrent exclusivement sur des métriques de vanité comme l'autorité de domaine ou le trafic total sans lien avec le chiffre d'affaires. Ils veulent construire des liens avec des tactiques qui semblent douteuses (PBN, échanges de liens, soumissions à des répertoires non pertinents). Ils n'ont aucune expérience avec votre plateforme ecommerce ou refusent d'accéder à vos analytics. Ils n'ont pas d'études de cas ni de références de clients ecommerce. Ils exigent des contrats à long terme sans benchmarks de performance.",
             "Un signal d'alerte subtil : les consultants qui ne contestent jamais vos idées. Un bon consultant SEO ecommerce devrait vous challenger quand vous avez tort. Si vous dites « Je veux me classer numéro un pour chaussures » et qu'il acquiesce et prend votre argent au lieu d'expliquer que le mot-clé est trop large et concurrentiel, il ne défend pas vos intérêts."
           ],
+          image: { src: "/images/blog/fr/consultant-red-flags.svg", alt: "Red flags versus green flags when evaluating SEO consultants", caption: "Use these signals to quickly filter qualified consultants from pretenders" },
+          callout: { title: "Ranking Guarantees", text: "No honest SEO professional guarantees specific rankings. Google's algorithm changes 500-600 times per year. Consultants who promise page 1 positions are either lying or planning to use risky tactics." },
         },
         {
           heading: "Questions à poser avant d'embaucher",
@@ -240,11 +257,13 @@ export const ecommerceSeoConsultant: BlogArticle = {
           body: [
             "Savoir ce à quoi s'attendre vous aide à évaluer les propositions et à responsabiliser votre consultant.",
             "Un bon engagement commence généralement par un audit. Pour un site ecommerce, cela devrait prendre une à deux semaines et aboutir à une liste priorisée de problèmes et d'opportunités. L'audit devrait couvrir le SEO technique, l'optimisation on-page, les lacunes de contenu, le profil de backlinks et le positionnement concurrentiel. Attendez un document de 15 à 30 pages avec des recommandations spécifiques et actionnables.",
-            "Après l'audit, le consultant devrait présenter un document de stratégie décrivant ce qu'il faut traiter en premier, quelles ressources sont nécessaires et quels résultats attendre sur 6 à 12 mois. Les bons consultants fixent des attentes réalistes. S'ils promettent 100 % de croissance du trafic en 3 mois, ils mentent ou prévoient d'utiliser des tactiques risquées. Avant le début de l'engagement, un [audit SEO ecommerce](/seo-audit) dédié donne aux deux parties une base de référence commune.",
+            "Après l'audit, le consultant devrait présenter un document de stratégie décrivant ce qu'il faut traiter en premier, quelles ressources sont nécessaires et quels résultats attendre sur 6 à 12 mois. Les bons consultants fixent des attentes réalistes. S'ils promettent 100 % de croissance du trafic en 3 mois, ils mentent ou prévoient d'utiliser des tactiques risquées. Avant le début de l'engagement, un [audit SEO ecommerce](/tools/ecommerce-seo-audit) dédié donne aux deux parties une base de référence commune.",
             "Le travail continu dépend du périmètre de l'engagement. Les livrables mensuels peuvent inclure l'implémentation ou la supervision du SEO technique, la recherche de mots-clés et les briefs de contenu pour de nouvelles pages, l'optimisation des pages catégories et produits existantes, la prospection et la gestion du link building, et le reporting mensuel avec analyse et prochaines étapes.",
             "La différence clé entre un bon consultant et un médiocre est la proactivité. Un bon consultant repère les problèmes avant qu'ils ne deviennent des urgences, identifie des opportunités que vous ne connaissiez pas et ajuste la stratégie en fonction des données. Il n'exécute pas simplement un plan de bataille et n'envoie pas un rapport mensuel.",
             "Nous avons travaillé avec un consultant au début de l'histoire de notre agence qui a repéré qu'une mise à jour du thème Shopify d'un client avait supprimé les données structurées des pages produits. C'a été détecté dans les deux jours suivant la mise en ligne de la mise à jour, avant que cela n'affecte les classements. Ce genre de vigilance est ce pour quoi vous payez."
           ],
+          image: { src: "/images/blog/fr/consultant-deliverables-timeline.svg", alt: "SEO consultant engagement timeline showing audit, strategy, and ongoing execution phases with proactivity as key differentiator", caption: "Good consultants deliver audits in 1-2 weeks, strategy by week 4, and ongoing execution monthly" },
+          callout: { title: "Proactivity Is the Difference", text: "A good consultant spots problems before they become emergencies and finds opportunities you did not know existed. One caught a Shopify theme update that removed structured data within 2 days -- before rankings were affected." },
         },
         {
           heading: "Évaluer le parcours et les références",
@@ -267,6 +286,7 @@ export const ecommerceSeoConsultant: BlogArticle = {
             "La tarification basée sur la performance existe mais est rare et compliquée. Certains consultants proposent un forfait de base inférieur plus un pourcentage de la croissance du chiffre d'affaires attribué à la recherche organique. Cela aligne bien les incitations mais nécessite des données d'attribution propres et un accord sur la méthodologie de mesure. Nous avons vu des arrangements basés sur la performance bien fonctionner quand les deux parties sont honnêtes, mais ils peuvent créer des conflits quand l'attribution est floue.",
             "Quel que soit le modèle de tarification, mettez tout par écrit. Le contrat devrait spécifier les livrables, les délais, la cadence de reporting, les conditions de résiliation et qui possède les livrables (cela devrait être vous)."
           ],
+          image: { src: "/images/blog/fr/consultant-pricing-models.svg", alt: "Comparison of three SEO consultant pricing models: hourly, project-based, and monthly retainer with pros and cons", caption: "Choose the pricing model that matches your engagement scope and budget predictability" },
         },
         {
           heading: "Tirer le meilleur parti de votre relation avec le consultant",
@@ -302,6 +322,7 @@ export const ecommerceSeoConsultant: BlogArticle = {
             "Una contratación interna de SEO tiene sentido cuando necesitas a alguien integrado en tu negocio a tiempo completo. Un especialista de SEO para ecommerce de nivel medio cuesta de 60.000 a 90.000 dólares anuales en salario. Una contratación sénior con experiencia real en ecommerce puede costar de 100.000 a 140.000 dólares. La ventaja es la dedicación a tiempo completo y un entendimiento profundo de tu negocio. La desventaja es que una sola persona rara vez tiene habilidades de primer nivel en todas las áreas del SEO.",
             "Nuestra recomendación honesta: empieza con un consultor o agencia para construir la base y la estrategia. Una vez que veas resultados y sepas exactamente cómo es el trabajo continuo, considera incorporar a alguien internamente y mantener al consultor o agencia para proyectos especializados y supervisión."
           ],
+          image: { src: "/images/blog/es/consultant-vs-agency.svg", alt: "Comparison table of consultant, agency, and in-house SEO across cost, specialization, scalability, and flexibility", caption: "How consultants, agencies, and in-house hires compare across key factors" },
         },
         {
           heading: "Señales de alerta que deberían descalificar a un consultor inmediatamente",
@@ -312,6 +333,8 @@ export const ecommerceSeoConsultant: BlogArticle = {
             "Otras señales de alerta a vigilar: se enfocan exclusivamente en métricas de vanidad como la autoridad de dominio o el tráfico total sin conectarlas con los ingresos. Quieren construir enlaces usando tácticas que suenan cuestionables (PBNs, intercambio de enlaces, envíos a directorios irrelevantes). No tienen experiencia con tu plataforma de ecommerce o se niegan a acceder a tu analítica. No tienen casos de estudio ni referencias de clientes de ecommerce. Requieren contratos a largo plazo sin referencias de rendimiento.",
             "Una señal de alerta sutil: consultores que nunca cuestionan tus ideas. Un buen consultor de SEO para ecommerce debería desafiarte cuando estás equivocado. Si dices 'quiero posicionarme número uno para zapatos' y asienten y toman tu dinero en lugar de explicar que la keyword es demasiado amplia y competitiva, no están velando por tus intereses."
           ],
+          image: { src: "/images/blog/es/consultant-red-flags.svg", alt: "Red flags versus green flags when evaluating SEO consultants", caption: "Use these signals to quickly filter qualified consultants from pretenders" },
+          callout: { title: "Ranking Guarantees", text: "No honest SEO professional guarantees specific rankings. Google's algorithm changes 500-600 times per year. Consultants who promise page 1 positions are either lying or planning to use risky tactics." },
         },
         {
           heading: "Preguntas que hacer antes de contratar",
@@ -330,11 +353,13 @@ export const ecommerceSeoConsultant: BlogArticle = {
           body: [
             "Saber qué esperar te ayuda a evaluar propuestas y responsabilizar a tu consultor.",
             "Un buen compromiso típicamente comienza con una auditoría. Para un sitio de ecommerce, esto debería tomar de una a dos semanas y resultar en una lista priorizada de problemas y oportunidades. La auditoría debe cubrir SEO técnico, optimización on-page, brechas de contenido, perfil de backlinks y posicionamiento competitivo. Espera un documento de 15 a 30 páginas con recomendaciones específicas y accionables.",
-            "Después de la auditoría, el consultor debe presentar un documento de estrategia que describa qué abordar primero, qué recursos se necesitan y qué resultados esperar en 6 a 12 meses. Los buenos consultores establecen expectativas realistas. Si prometen un crecimiento del 100% en tráfico en 3 meses, están mintiendo o planean usar tácticas arriesgadas. Antes de que comience el compromiso, una [auditoría SEO para ecommerce](/seo-audit) dedicada le da a ambas partes una línea base compartida desde la cual trabajar.",
+            "Después de la auditoría, el consultor debe presentar un documento de estrategia que describa qué abordar primero, qué recursos se necesitan y qué resultados esperar en 6 a 12 meses. Los buenos consultores establecen expectativas realistas. Si prometen un crecimiento del 100% en tráfico en 3 meses, están mintiendo o planean usar tácticas arriesgadas. Antes de que comience el compromiso, una [auditoría SEO para ecommerce](/tools/ecommerce-seo-audit) dedicada le da a ambas partes una línea base compartida desde la cual trabajar.",
             "El trabajo continuo depende del alcance del compromiso. Los entregables mensuales pueden incluir implementación o supervisión de SEO técnico, investigación de keywords y briefs de contenido para nuevas páginas, optimización de páginas existentes de categorías y productos, alcance y gestión de link building, e informes mensuales con análisis y próximos pasos.",
             "La diferencia clave entre un buen consultor y uno mediocre es la proactividad. Un buen consultor detecta problemas antes de que se conviertan en emergencias, identifica oportunidades que no sabías que existían y ajusta la estrategia basándose en datos. No se limitan a ejecutar un playbook y enviar un informe mensual.",
             "Trabajamos con un consultor en los inicios de nuestra agencia que detectó que una actualización del tema de Shopify de un cliente había eliminado los datos estructurados de las páginas de productos. Se detectó en dos días después de que la actualización se activara, antes de que afectara los rankings. Ese tipo de vigilancia es por lo que estás pagando."
           ],
+          image: { src: "/images/blog/es/consultant-deliverables-timeline.svg", alt: "SEO consultant engagement timeline showing audit, strategy, and ongoing execution phases with proactivity as key differentiator", caption: "Good consultants deliver audits in 1-2 weeks, strategy by week 4, and ongoing execution monthly" },
+          callout: { title: "Proactivity Is the Difference", text: "A good consultant spots problems before they become emergencies and finds opportunities you did not know existed. One caught a Shopify theme update that removed structured data within 2 days -- before rankings were affected." },
         },
         {
           heading: "Evaluación del historial y referencias",
@@ -357,6 +382,7 @@ export const ecommerceSeoConsultant: BlogArticle = {
             "Los precios basados en rendimiento existen pero son raros y complicados. Algunos consultores ofrecen una tarifa base más baja más un porcentaje del crecimiento de ingresos atribuido a la búsqueda orgánica. Esto alinea bien los incentivos pero requiere datos de atribución limpios y acuerdo sobre la metodología de medición. Hemos visto que los acuerdos basados en rendimiento funcionan bien cuando ambas partes son honestas, pero pueden crear conflictos cuando la atribución es turbia.",
             "Sea cual sea el modelo de precios, ponlo todo por escrito. El contrato debe especificar entregables, plazos, cadencia de informes, términos de rescisión y quién es propietario del trabajo producido (deberías ser tú)."
           ],
+          image: { src: "/images/blog/es/consultant-pricing-models.svg", alt: "Comparison of three SEO consultant pricing models: hourly, project-based, and monthly retainer with pros and cons", caption: "Choose the pricing model that matches your engagement scope and budget predictability" },
         },
         {
           heading: "Sacando el máximo partido a la relación con tu consultor",
@@ -392,6 +418,7 @@ export const ecommerceSeoConsultant: BlogArticle = {
             "Un assunto SEO interno ha senso quando hai bisogno di qualcuno integrato nel tuo business a tempo pieno. Uno specialista SEO ecommerce di livello medio costa da 60.000 a 90.000 dollari l'anno di stipendio. Un assunto senior con vera esperienza ecommerce può costare da 100.000 a 140.000 dollari. Il vantaggio è la dedizione a tempo pieno e la comprensione profonda del tuo business. Lo svantaggio è che una sola persona raramente ha competenze di alto livello in ogni area della SEO.",
             "La nostra raccomandazione onesta: inizia con un consulente o un'agenzia per costruire le fondamenta e la strategia. Una volta che vedi i risultati e sai esattamente come appare il lavoro continuo, considera di assumere qualcuno internamente e mantenere il consulente o l'agenzia per progetti specializzati e supervisione."
           ],
+          image: { src: "/images/blog/it/consultant-vs-agency.svg", alt: "Comparison table of consultant, agency, and in-house SEO across cost, specialization, scalability, and flexibility", caption: "How consultants, agencies, and in-house hires compare across key factors" },
         },
         {
           heading: "Segnali d'allarme che dovrebbero squalificare immediatamente un consulente",
@@ -402,6 +429,8 @@ export const ecommerceSeoConsultant: BlogArticle = {
             "Altri segnali d'allarme da osservare: si concentrano esclusivamente su metriche di vanità come l'autorità del dominio o il traffico totale senza collegarsi al fatturato. Vogliono costruire link usando tattiche discutibili (PBN, scambio di link, invii a directory irrilevanti). Non hanno esperienza con la tua piattaforma ecommerce o rifiutano di accedere ai tuoi analytics. Non hanno case study o referenze da clienti ecommerce. Richiedono contratti a lungo termine senza benchmark di prestazione.",
             "Un segnale d'allarme sottile: consulenti che non respingono mai le tue idee. Un buon consulente SEO ecommerce dovrebbe sfidarti quando hai torto. Se dici 'Voglio posizionarmi numero uno per scarpe' e annuiscono e prendono i tuoi soldi invece di spiegarti che la parola chiave è troppo ampia e competitiva, non stanno guardando ai tuoi interessi."
           ],
+          image: { src: "/images/blog/it/consultant-red-flags.svg", alt: "Red flags versus green flags when evaluating SEO consultants", caption: "Use these signals to quickly filter qualified consultants from pretenders" },
+          callout: { title: "Ranking Guarantees", text: "No honest SEO professional guarantees specific rankings. Google's algorithm changes 500-600 times per year. Consultants who promise page 1 positions are either lying or planning to use risky tactics." },
         },
         {
           heading: "Domande da porre prima di assumere",
@@ -420,11 +449,13 @@ export const ecommerceSeoConsultant: BlogArticle = {
           body: [
             "Sapere cosa aspettarsi ti aiuta a valutare le proposte e a responsabilizzare il tuo consulente.",
             "Un buon ingaggio tipicamente inizia con un audit. Per un sito ecommerce, questo dovrebbe richiedere da una a due settimane e risultare in una lista prioritizzata di problemi e opportunità. L'audit dovrebbe coprire SEO tecnica, ottimizzazione on-page, gap nei contenuti, profilo backlink e posizionamento competitivo. Aspettati un documento di 15-30 pagine con raccomandazioni specifiche e azionabili.",
-            "Dopo l'audit, il consulente dovrebbe presentare un documento strategico che delinea cosa affrontare per primo, quali risorse sono necessarie e quali risultati aspettarsi in 6-12 mesi. I buoni consulenti stabiliscono aspettative realistiche. Se promettono una crescita del traffico del 100% in 3 mesi, stanno mentendo o pianificano di usare tattiche rischiose. Prima che l'ingaggio inizi, un [audit SEO ecommerce](/seo-audit) dedicato dà a entrambe le parti una baseline condivisa da cui partire.",
+            "Dopo l'audit, il consulente dovrebbe presentare un documento strategico che delinea cosa affrontare per primo, quali risorse sono necessarie e quali risultati aspettarsi in 6-12 mesi. I buoni consulenti stabiliscono aspettative realistiche. Se promettono una crescita del traffico del 100% in 3 mesi, stanno mentendo o pianificano di usare tattiche rischiose. Prima che l'ingaggio inizi, un [audit SEO ecommerce](/tools/ecommerce-seo-audit) dedicato dà a entrambe le parti una baseline condivisa da cui partire.",
             "Il lavoro continuo dipende dall'ambito dell'ingaggio. I deliverable mensili potrebbero includere implementazione o supervisione della SEO tecnica, ricerca di parole chiave e brief dei contenuti per nuove pagine, ottimizzazione delle pagine di categoria e prodotto esistenti, outreach e gestione del link building, e reportistica mensile con analisi e prossimi passi.",
             "La differenza chiave tra un buon consulente e uno mediocre è la proattività. Un buon consulente individua i problemi prima che diventino emergenze, identifica opportunità che non sapevi esistessero e adatta la strategia basandosi sui dati. Non si limitano a eseguire un playbook e inviare un report mensile.",
             "Abbiamo lavorato con un consulente nella fase iniziale della nostra agenzia che ha notato che un aggiornamento del tema Shopify di un cliente aveva rimosso i dati strutturati dalle pagine prodotto. È stato individuato entro due giorni dall'aggiornamento andato in produzione, prima che influenzasse le classifiche. Quel tipo di vigilanza è ciò per cui stai pagando."
           ],
+          image: { src: "/images/blog/it/consultant-deliverables-timeline.svg", alt: "SEO consultant engagement timeline showing audit, strategy, and ongoing execution phases with proactivity as key differentiator", caption: "Good consultants deliver audits in 1-2 weeks, strategy by week 4, and ongoing execution monthly" },
+          callout: { title: "Proactivity Is the Difference", text: "A good consultant spots problems before they become emergencies and finds opportunities you did not know existed. One caught a Shopify theme update that removed structured data within 2 days -- before rankings were affected." },
         },
         {
           heading: "Valutare il track record e le referenze",
@@ -447,6 +478,7 @@ export const ecommerceSeoConsultant: BlogArticle = {
             "I prezzi basati sulle prestazioni esistono ma sono rari e complicati. Alcuni consulenti offrono un canone base più basso più una percentuale della crescita del fatturato attribuita alla ricerca organica. Questo allinea bene gli incentivi ma richiede dati di attribuzione puliti e accordo sulla metodologia di misurazione. Abbiamo visto accordi basati sulle prestazioni funzionare bene quando entrambe le parti sono oneste, ma possono creare conflitti quando l'attribuzione è opaca.",
             "Qualunque sia il modello di prezzo, metti tutto per iscritto. Il contratto dovrebbe specificare deliverable, tempistiche, cadenza della reportistica, termini di rescissione e chi possiede il lavoro prodotto (dovresti essere tu)."
           ],
+          image: { src: "/images/blog/it/consultant-pricing-models.svg", alt: "Comparison of three SEO consultant pricing models: hourly, project-based, and monthly retainer with pros and cons", caption: "Choose the pricing model that matches your engagement scope and budget predictability" },
         },
         {
           heading: "Ottenere il massimo dalla relazione con il tuo consulente",
@@ -482,6 +514,7 @@ export const ecommerceSeoConsultant: BlogArticle = {
             "Een in-house SEO medewerker is zinvol wanneer je iemand nodig hebt die fulltime in je bedrijf is ingebed. Een mid-level ecommerce SEO specialist kost 60.000 tot 90.000 euro per jaar aan salaris. Een senior medewerker met echte ecommerce ervaring kan 100.000 tot 140.000 euro kosten. Het voordeel is fulltime toewijding en diep begrip van je bedrijf. Het nadeel is dat een persoon zelden topvaardigheden heeft in elk gebied van SEO.",
             "Onze eerlijke aanbeveling: begin met een consultant of bureau om het fundament en de strategie te bouwen. Zodra je resultaten ziet en precies weet hoe doorlopend werk eruitziet, overweeg iemand in-house te halen en de consultant of het bureau te behouden voor gespecialiseerde projecten en toezicht.",
           ],
+          image: { src: "/images/blog/nl/consultant-vs-agency.svg", alt: "Comparison table of consultant, agency, and in-house SEO across cost, specialization, scalability, and flexibility", caption: "How consultants, agencies, and in-house hires compare across key factors" },
         },
         {
           heading: "Red flags die een consultant onmiddellijk moeten diskwalificeren",
@@ -492,6 +525,8 @@ export const ecommerceSeoConsultant: BlogArticle = {
             "Andere red flags om op te letten: ze richten zich uitsluitend op ijdelheidsmetrics zoals domeinautoriteit of totaal verkeer zonder koppeling aan omzet. Ze willen links bouwen met tactieken die twijfelachtig klinken (PBN's, linkruil, directoryinschrijvingen bij irrelevante sites). Ze hebben geen ervaring met je ecommerce platform of weigeren toegang tot je analytics. Ze hebben geen casestudy's of referenties van ecommerce klanten. Ze eisen langetermijncontracten zonder prestatiebenchmarks.",
             "Een subtiele red flag: consultants die nooit tegengas geven op je ideeen. Een goede ecommerce SEO consultant moet je uitdagen wanneer je fout zit. Als je zegt 'Ik wil nummer een ranken voor schoenen' en ze knikken en nemen je geld aan in plaats van uit te leggen dat het zoekwoord te breed en concurrerend is, hebben ze je belangen niet op het oog.",
           ],
+          image: { src: "/images/blog/nl/consultant-red-flags.svg", alt: "Red flags versus green flags when evaluating SEO consultants", caption: "Use these signals to quickly filter qualified consultants from pretenders" },
+          callout: { title: "Ranking Guarantees", text: "No honest SEO professional guarantees specific rankings. Google's algorithm changes 500-600 times per year. Consultants who promise page 1 positions are either lying or planning to use risky tactics." },
         },
         {
           heading: "Vragen om te stellen voor het inhuren",
@@ -510,11 +545,13 @@ export const ecommerceSeoConsultant: BlogArticle = {
           body: [
             "Weten wat je kunt verwachten helpt je voorstellen te evalueren en je consultant verantwoordelijk te houden.",
             "Een goed traject begint doorgaans met een audit. Voor een webwinkel zou dit een tot twee weken moeten duren en resulteren in een geprioriteerde lijst van problemen en kansen. De audit moet technische SEO, on-page optimalisatie, contentlacunes, backlinkprofiel en concurrentiepositie dekken. Verwacht een document van 15 tot 30 pagina's met specifieke, actionable aanbevelingen.",
-            "Na de audit moet de consultant een strategiedocument presenteren dat beschrijft wat eerst aan te pakken, welke resources nodig zijn en welke resultaten te verwachten over 6 tot 12 maanden. Goede consultants stellen realistische verwachtingen. Als ze 100% verkeersgroei beloven in 3 maanden, liegen ze ofwel of zijn ze van plan risicovolle tactieken te gebruiken. Voordat het traject begint, geeft een toegewijde [ecommerce SEO audit](/seo-audit) beide partijen een gedeelde basislijn om vanuit te werken.",
+            "Na de audit moet de consultant een strategiedocument presenteren dat beschrijft wat eerst aan te pakken, welke resources nodig zijn en welke resultaten te verwachten over 6 tot 12 maanden. Goede consultants stellen realistische verwachtingen. Als ze 100% verkeersgroei beloven in 3 maanden, liegen ze ofwel of zijn ze van plan risicovolle tactieken te gebruiken. Voordat het traject begint, geeft een toegewijde [ecommerce SEO audit](/tools/ecommerce-seo-audit) beide partijen een gedeelde basislijn om vanuit te werken.",
             "Doorlopend werk hangt af van de scope van het traject. Maandelijkse deliverables kunnen technische SEO implementatie of toezicht omvatten, zoekwoordonderzoek en contentbriefings voor nieuwe pagina's, optimalisatie van bestaande categorie- en productpagina's, linkbuilding outreach en management, en maandelijkse rapportage met analyse en volgende stappen.",
             "Het belangrijkste verschil tussen een goede consultant en een middelmatige is proactiviteit. Een goede consultant signaleert problemen voordat ze noodgevallen worden, identificeert kansen die je niet wist dat bestonden, en past strategie aan op basis van data. Ze voeren niet gewoon een draaiboek uit en sturen een maandrapport.",
             "We werkten met een consultant vroeg in de geschiedenis van ons bureau die opmerkte dat de thema-update van een klant structured data had verwijderd van productpagina's. Het werd binnen twee dagen na de live-update ontdekt, voordat het rankings beinvloedde. Dat soort waakzaamheid is waar je voor betaalt.",
           ],
+          image: { src: "/images/blog/nl/consultant-deliverables-timeline.svg", alt: "SEO consultant engagement timeline showing audit, strategy, and ongoing execution phases with proactivity as key differentiator", caption: "Good consultants deliver audits in 1-2 weeks, strategy by week 4, and ongoing execution monthly" },
+          callout: { title: "Proactivity Is the Difference", text: "A good consultant spots problems before they become emergencies and finds opportunities you did not know existed. One caught a Shopify theme update that removed structured data within 2 days -- before rankings were affected." },
         },
         {
           heading: "Track record en referenties evalueren",
@@ -537,6 +574,7 @@ export const ecommerceSeoConsultant: BlogArticle = {
             "Prestatiegebaseerde prijzen bestaan maar zijn zeldzaam en gecompliceerd. Sommige consultants bieden een lagere basisfee plus een percentage van omzetgroei toegeschreven aan organisch zoeken. Dit stemt incentives goed af maar vereist schone attributiedata en overeenstemming over meetmethodologie. We hebben gezien dat prestatiegebaseerde afspraken goed werken wanneer beide partijen eerlijk zijn, maar ze kunnen conflicten veroorzaken wanneer attributie onduidelijk is.",
             "Welk prijsmodel ook, zet alles op papier. Het contract moet deliverables, tijdlijnen, rapportagecadans, opzegvoorwaarden en wie eigenaar is van het werkproduct specificeren (dat zou jij moeten zijn).",
           ],
+          image: { src: "/images/blog/nl/consultant-pricing-models.svg", alt: "Comparison of three SEO consultant pricing models: hourly, project-based, and monthly retainer with pros and cons", caption: "Choose the pricing model that matches your engagement scope and budget predictability" },
         },
         {
           heading: "Het meeste halen uit je consultantrelatie",
@@ -548,6 +586,8 @@ export const ecommerceSeoConsultant: BlogArticle = {
             "Wees geduldig maar stel mijlpalen. SEO resultaten kosten tijd, doorgaans 4 tot 6 maanden voordat significante veranderingen verschijnen in verkeer en omzet. Maar je zou eerder leidende indicatoren moeten zien: verbeterde indexatie binnen weken, betere rankings voor long-tail zoekwoorden binnen 2 tot 3 maanden, en verbeterde technische gezondheidsscores bijna onmiddellijk. Een goede consultant stelt deze mijlpalen vooraf met je in. Als je winkel een platformwisseling doorgaat tijdens het traject, zorg er dan voor dat je consultant een duidelijk proces heeft — onze gids over [ecommerce SEO migratie](/blog/ecommerce-seo-migration) toont hoe zorgvuldige migratieplanning eruitziet.",
             "Communiceer tot slot je bedrijfscontext. Je consultant is beter wanneer ze je marges begrijpen, je bestverkopende categorieen, je seizoenspatronen en je groeiplannen. Hoe meer context ze hebben, hoe beter ze werk kunnen prioriteren dat het verschil maakt voor jouw specifieke bedrijf.",
           ],
+          image: { src: "/images/blog/nl/consultant-relationship-tips.svg", alt: "Two-column comparison of your role versus consultant role in a successful SEO engagement", caption: "Best results come from partnership, not a vendor-client dynamic" },
+          callout: { title: "Implementation Is Everything", text: "The #1 reason consultant engagements fail is that recommendations never get implemented. We have delivered audits with 40 prioritized action items only to find 3 months later that just 2 were done." },
         },
       ],
     },

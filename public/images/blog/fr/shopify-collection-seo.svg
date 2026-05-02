@@ -1,0 +1,33 @@
+<svg viewBox="0 0 680 300" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <text x="340" y="28" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#a78bfa">Shopify Collection Page SEO Structure</text>
+  <g transform="translate(40,50)">
+    <rect x="0" y="0" width="600" height="230" rx="6" stroke="#a78bfa" stroke-width="2" fill="none"/>
+    <text x="300" y="22" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#a78bfa">/collections/women-running-shoes</text>
+    <g transform="translate(15,35)">
+      <rect x="0" y="0" width="570" height="35" rx="4" stroke="#60a5fa" stroke-width="1" fill="none"/>
+      <text x="10" y="14" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#60a5fa">Title Tag</text>
+      <text x="10" y="28" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Women's Running Shoes - Free Shipping Over $75 | ShoeStore (under 60 chars)</text>
+    </g>
+    <g transform="translate(15,80)">
+      <rect x="0" y="0" width="570" height="35" rx="4" stroke="#4ade80" stroke-width="1" fill="none"/>
+      <text x="10" y="14" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#4ade80">Intro (2-3 sentences above product grid)</text>
+      <text x="10" y="28" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Short, keyword-rich intro paragraph -- keeps products visible on mobile</text>
+    </g>
+    <g transform="translate(15,125)">
+      <rect x="0" y="0" width="570" height="30" rx="4" stroke="#f97316" stroke-width="1" fill="none"/>
+      <text x="285" y="20" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#f97316">Product Grid (filterable, paginated with self-canonicals)</text>
+    </g>
+    <g transform="translate(15,165)">
+      <rect x="0" y="0" width="270" height="50" rx="4" stroke="#f472b6" stroke-width="1" fill="none"/>
+      <text x="10" y="15" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#f472b6">Extended Content (below grid)</text>
+      <text x="10" y="32" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">200-500 words buying guide</text>
+      <text x="10" y="44" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Keyword variations + internal links</text>
+    </g>
+    <g transform="translate(300,165)">
+      <rect x="0" y="0" width="270" height="50" rx="4" stroke="#60a5fa" stroke-width="1" fill="none"/>
+      <text x="10" y="15" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#60a5fa">Related Collections</text>
+      <text x="10" y="32" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">4-6 links to related collections</text>
+      <text x="10" y="44" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Builds topical authority</text>
+    </g>
+  </g>
+</svg>

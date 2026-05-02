@@ -1,12 +1,13 @@
-import { locales, BASE_URL } from "@/lib/i18n/config";
+import { locales, BASE_URL, publicLocalizedUrl } from "@/lib/i18n/config";
 import { caseStudies, getAllCaseSlugs } from "@/data/caseStudies";
 import {
   type UrlEntry,
-  localeUrl,
   addPages,
   wrapUrlset,
   sitemapResponse,
 } from "@/lib/sitemap/helpers";
+
+export const revalidate = 3600;
 
 /**
  * sitemap-cases.xml
@@ -14,13 +15,12 @@ import {
  */
 
 export async function GET() {
-  const lastmod = new Date().toISOString();
   const entries: UrlEntry[] = [];
 
   // Cases index page
-  addPages(entries, ["/cases"], { priority: 0.7, changefreq: "monthly", lastmod });
+  addPages(entries, ["/cases"], { priority: 0.7, changefreq: "monthly", lastmod: "2026-03-10T00:00:00.000Z" });
 
-  // Individual case studies with images
+  // Individual case studies with images — use each study's real date
   for (const slug of getAllCaseSlugs()) {
     const study = caseStudies.find((cs) => cs.slug === slug);
     const images: string[] = [];
@@ -28,9 +28,16 @@ export async function GET() {
     if (study?.image1) images.push(`${BASE_URL}${study.image1}`);
     if (study?.image2) images.push(`${BASE_URL}${study.image2}`);
 
+    // Parse real date from case study data
+    const dateStr = study?.date || "2026-03-10";
+    const parsed = new Date(dateStr);
+    const lastmod = !isNaN(parsed.getTime())
+      ? parsed.toISOString().split("T")[0] + "T00:00:00.000Z"
+      : "2026-03-10T00:00:00.000Z";
+
     for (const locale of locales) {
       entries.push({
-        loc: localeUrl(locale, `/cases/${slug}`),
+        loc: publicLocalizedUrl(locale, `/cases/${slug}`),
         lastmod,
         changefreq: "monthly",
         priority: "0.7",

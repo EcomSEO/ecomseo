@@ -22,6 +22,15 @@ export const crawlBudgetManagement: AcademyTopic = {
             "Stores under 5,000 pages rarely need to worry about crawl budget",
             "Stores over 10,000 URLs (including parameters) should actively manage crawl budget",
           ],
+          image: {
+            src: "/images/academy/crawl-budget-components.svg",
+            alt: "Diagram showing crawl budget as the combination of crawl rate limit (server capacity) and crawl demand (Google's interest)",
+            caption: "Crawl budget is determined by two factors: how fast your server can respond and how interested Google is in your content.",
+          },
+          callout: {
+            title: "Real Audit Finding",
+            text: "A mid-size fashion store had 8,000 products but 340,000 crawlable URLs. Googlebot spent 85% of crawl budget on parameter pages while 30% of product pages went unrecrawled for 90+ days.",
+          },
         },
         {
           title: "Identifying Crawl Waste in Your Store",
@@ -41,6 +50,15 @@ export const crawlBudgetManagement: AcademyTopic = {
           content:
             "The primary tool for preventing crawl waste is [robots.txt](/academy/robots-txt-and-xml-sitemaps). By disallowing specific URL patterns, you tell Googlebot not to bother crawling those pages. For ecommerce, this typically means blocking faceted filter parameters, sort orders, internal search results, and cart/checkout pages.\n\nA practical robots.txt for an ecommerce store might include rules like Disallow: /*?sort=, Disallow: /*?filter=, Disallow: /search, and Disallow: /cart. These rules prevent Googlebot from wasting crawl budget on pages that should never appear in search results.\n\nBe careful with robots.txt blocking. It prevents crawling, not indexing. If other pages link to a blocked URL, Google may still index it based on anchor text and link context, even without crawling the page itself. For pages you want completely excluded from the index, combine robots.txt blocking with noindex meta tags or canonical tags.\n\nAnother approach is using the URL Parameters tool in Google Search Console (when available) to tell Google how specific parameters affect page content. You can indicate whether a parameter like \"sort\" changes content, and whether Google should crawl all, some, or no URLs with that parameter. This gives you granular control without modifying your robots.txt.",
           tip: "After updating your robots.txt, monitor the Crawl Stats report in Google Search Console for two to four weeks. You should see the total pages crawled decrease while the crawl frequency of your important pages increases.",
+          image: {
+            src: "/images/academy/crawl-budget-allocation.svg",
+            alt: "Before and after comparison showing crawl budget shifting from 85% filter pages to 55% product pages after optimization",
+            caption: "After blocking low-value URLs, crawl budget shifts dramatically toward revenue-generating product and category pages.",
+          },
+          callout: {
+            title: "Budget Reallocation",
+            text: "Blocking filter and sort parameters via robots.txt typically shifts 15-25% of crawl budget back to product pages within 2-4 weeks, increasing product crawl frequency by 40% or more.",
+          },
         },
         {
           title: "Monitoring Crawl Stats in Google Search Console",
@@ -70,6 +88,17 @@ export const crawlBudgetManagement: AcademyTopic = {
           ],
           tip: "Create a \"priority pages\" list of your top 100 revenue-generating product and category pages. Ensure these pages have the most internal links, appear in your sitemap, and get updated lastmod dates whenever content changes.",
         },
+        {
+          title: "Trawler's Crawl Scheduler: What the Leak Tells Us About How Google Budgets",
+          content:
+            "The leak named the crawl system Trawler and exposed the inputs that drive its scheduling. URLs that earn frequent updates from \"crawl-worthy\" signals \u2014 link equity, lastmod accuracy, internal link depth, recent content changes \u2014 get revisited often. URLs that don't, slip into infrequent crawl tiers regardless of how important they are commercially.\n\nFor large catalogues, the scheduler's behaviour explains why some PDPs go weeks without re-crawl. The fix is rarely \"raise crawl budget via robots.txt or sitemaps\" \u2014 it's making important PDPs crawl-worthy. Internal links from frequently-crawled pages (homepage, category hubs, recent blog posts) pull deeper PDPs into more frequent tiers. Accurate lastmod values in XML sitemaps tell Trawler when a re-crawl is justified.\n\nThe inverse matters too. Faceted-navigation URLs and parameterised duplicates burn the crawl budget Trawler allocates to your domain, leaving fewer cycles for the URLs you want indexed. Aggressive parameter handling, rel=canonical, and disallow rules on truly redundant URLs free up Trawler cycles for revenue pages.",
+          items: [
+            "Trawler scheduling depends on link equity, lastmod accuracy, internal link depth, and change frequency",
+            "Important PDPs need internal links from frequently-crawled pages to land in faster crawl tiers",
+            "Accurate lastmod in XML sitemaps signals \"this URL is worth re-crawling\"",
+            "Faceted-nav and parameter URLs waste Trawler cycles \u2014 block or canonicalise the redundant ones",
+          ],
+        },
       ],
       navLabels: {
         previous: "Site Architecture for Ecommerce",
@@ -93,6 +122,15 @@ export const crawlBudgetManagement: AcademyTopic = {
             "Shops unter 5.000 Seiten müssen sich selten um das Crawl-Budget sorgen",
             "Shops über 10.000 URLs (einschließlich Parameter) sollten das Crawl-Budget aktiv verwalten",
           ],
+          image: {
+            src: "/images/academy/de/crawl-budget-components.svg",
+            alt: "Diagramm das Crawl-Budget als Kombination von Crawl-Rate-Limit (Serverkapazitaet) und Crawl-Nachfrage (Googles Interesse) zeigt",
+            caption: "Crawl-Budget wird durch zwei Faktoren bestimmt: wie schnell Ihr Server antworten kann und wie stark Google an Ihren Inhalten interessiert ist.",
+          },
+          callout: {
+            title: "Echtes Audit-Ergebnis",
+            text: "Ein mittelgrosser Modeshop hatte 8.000 Produkte aber 340.000 crawlbare URLs. Googlebot verbrachte 85% des Crawl-Budgets fuer Parameterseiten waehrend 30% der Produktseiten ueber 90 Tage lang nicht erneut gecrawlt wurden.",
+          },
         },
         {
           title: "Crawl-Verschwendung in Ihrem Shop identifizieren",
@@ -123,6 +161,15 @@ export const crawlBudgetManagement: AcademyTopic = {
             "Crawl-Zweck-Aufteilung überwachen: Entdeckung neuer vs. Aktualisierung bestehender Seiten",
             "Trends monatlich verfolgen: plötzliche Rückgänge oder Anstiege weisen auf Konfigurationsänderungen hin",
           ],
+          image: {
+            src: "/images/academy/de/crawl-budget-allocation.svg",
+            alt: "Vorher-Nachher-Vergleich der zeigt wie sich das Crawl-Budget von 85% Filterseiten auf 55% Produktseiten nach der Optimierung verschiebt",
+            caption: "Nach dem Blockieren minderwertiger URLs verschiebt sich das Crawl-Budget dramatisch hin zu umsatzgenerierenden Produkt- und Kategorieseiten.",
+          },
+          callout: {
+            title: "Budget-Umverteilung",
+            text: "Das Blockieren von Filter- und Sortierparametern via robots.txt verschiebt typischerweise 15-25% des Crawl-Budgets zurueck zu Produktseiten innerhalb von 2-4 Wochen und erhoeht die Crawl-Frequenz fuer Produkte um 40% oder mehr.",
+          },
         },
         {
           title: "Server-seitiges Rendering und Crawl-Effizienz",
@@ -140,6 +187,17 @@ export const crawlBudgetManagement: AcademyTopic = {
             "Indexierung für dringende Änderungen manuell über GSC URL-Inspektion anfordern",
           ],
           tip: "Erstellen Sie eine Liste Ihrer 100 wichtigsten umsatzgenerierenden Produkt- und Kategorieseiten. Stellen Sie sicher, dass diese Seiten die meisten internen Links haben, in Ihrer Sitemap erscheinen und aktualisierte lastmod-Daten erhalten, wenn sich der Inhalt ändert.",
+        },
+        {
+          title: "Trawlers Crawl-Scheduler: Was das Leak ueber Googles Budgetierung verraet",
+          content:
+            "Das Leak nannte das Crawl-System Trawler und legte die Inputs offen, die seine Scheduling-Entscheidungen treiben. URLs, die haeufige Updates von \"crawl-wuerdigen\" Signalen verdienen - Link-Equity, lastmod-Genauigkeit, interne Link-Tiefe, juengste Content-Aenderungen - werden oft erneut besucht. URLs, die das nicht tun, rutschen unabhaengig davon, wie kommerziell wichtig sie sind, in seltene Crawl-Stufen.\n\nFuer grosse Kataloge erklaert das Verhalten des Schedulers, warum manche PDPs wochenlang ohne Re-Crawl bleiben. Der Fix ist selten \"Crawl-Budget via robots.txt oder Sitemaps erhoehen\" - er ist, wichtige PDPs crawl-wuerdig zu machen. Interne Links von haeufig gecrawlten Seiten (Homepage, Kategorien-Hubs, juengste Blog-Posts) ziehen tiefere PDPs in haeufigere Stufen. Akkurate lastmod-Werte in XML-Sitemaps sagen Trawler, wann ein Re-Crawl gerechtfertigt ist.\n\nDas Inverse zaehlt auch. Faceted-Navigation-URLs und parametrisierte Duplikate verbrennen das Crawl-Budget, das Trawler Ihrer Domain zuweist, und lassen weniger Zyklen fuer die URLs, die Sie indexiert haben wollen. Aggressives Parameter-Handling, rel=canonical und Disallow-Regeln auf wirklich redundanten URLs befreien Trawler-Zyklen fuer Umsatz-Seiten.",
+          items: [
+            "Trawler-Scheduling haengt von Link-Equity, lastmod-Genauigkeit, interner Link-Tiefe und Aenderungsfrequenz ab",
+            "Wichtige PDPs brauchen interne Links von haeufig gecrawlten Seiten, um in schnellere Crawl-Stufen zu landen",
+            "Akkurates lastmod in XML-Sitemaps signalisiert \"diese URL ist Re-Crawlen wert\"",
+            "Faceted-Nav- und Parameter-URLs verschwenden Trawler-Zyklen - blockieren oder kanonisieren Sie die redundanten",
+          ],
         },
       ],
       navLabels: {
@@ -164,6 +222,15 @@ export const crawlBudgetManagement: AcademyTopic = {
             "Les boutiques de moins de 5 000 pages ont rarement a se soucier du budget de crawl",
             "Les boutiques de plus de 10 000 URLs (parametres inclus) doivent gerer activement le budget de crawl",
           ],
+          image: {
+            src: "/images/academy/fr/crawl-budget-components.svg",
+            alt: "Diagramm das Crawl-Budget als Kombination von Crawl-Rate-Limit (Serverkapazitaet) und Crawl-Nachfrage (Googles Interesse) zeigt",
+            caption: "Crawl-Budget wird durch zwei Faktoren bestimmt: wie schnell Ihr Server antworten kann und wie stark Google an Ihren Inhalten interessiert ist.",
+          },
+          callout: {
+            title: "Echtes Audit-Ergebnis",
+            text: "Ein mittelgrosser Modeshop hatte 8.000 Produkte aber 340.000 crawlbare URLs. Googlebot verbrachte 85% des Crawl-Budgets fuer Parameterseiten waehrend 30% der Produktseiten ueber 90 Tage lang nicht erneut gecrawlt wurden.",
+          },
         },
         {
           title: "Identifier le gaspillage de crawl dans votre boutique",
@@ -194,6 +261,15 @@ export const crawlBudgetManagement: AcademyTopic = {
             "Surveiller la repartition des objectifs de crawl : decouverte de nouvelles pages vs. rafraichissement",
             "Suivre les tendances mensuellement : les chutes ou pics soudains indiquent des changements de configuration",
           ],
+          image: {
+            src: "/images/academy/fr/crawl-budget-allocation.svg",
+            alt: "Vorher-Nachher-Vergleich der zeigt wie sich das Crawl-Budget von 85% Filterseiten auf 55% Produktseiten nach der Optimierung verschiebt",
+            caption: "Nach dem Blockieren minderwertiger URLs verschiebt sich das Crawl-Budget dramatisch hin zu umsatzgenerierenden Produkt- und Kategorieseiten.",
+          },
+          callout: {
+            title: "Budget-Umverteilung",
+            text: "Das Blockieren von Filter- und Sortierparametern via robots.txt verschiebt typischerweise 15-25% des Crawl-Budgets zurueck zu Produktseiten innerhalb von 2-4 Wochen und erhoeht die Crawl-Frequenz fuer Produkte um 40% oder mehr.",
+          },
         },
         {
           title: "Rendu cote serveur et efficacite du crawl",
@@ -211,6 +287,17 @@ export const crawlBudgetManagement: AcademyTopic = {
             "Demander l'indexation manuellement pour les changements urgents via l'inspection d'URL GSC",
           ],
           tip: "Creez une liste de vos 100 pages produits et categories les plus generatrices de revenus. Assurez-vous que ces pages ont le plus de liens internes, apparaissent dans votre sitemap et recoivent des dates lastmod mises a jour a chaque changement de contenu.",
+        },
+        {
+          title: "Le scheduler de crawl de Trawler : Ce que le leak nous dit sur le budget de Google",
+          content:
+            "Le leak a nomme le systeme de crawl Trawler et a expose les entrees qui pilotent ses decisions de planification. Les URLs qui meritent des mises a jour frequentes a partir de signaux \"dignes du crawl\" - link equity, exactitude lastmod, profondeur de liens internes, changements de contenu recents - sont revisitees souvent. Les URLs qui ne le font pas glissent dans des paliers de crawl peu frequents independamment de leur importance commerciale.\n\nPour les gros catalogues, le comportement du scheduler explique pourquoi certaines PDP restent des semaines sans re-crawl. Le correctif est rarement \"augmenter le crawl budget via robots.txt ou sitemaps\" - c'est rendre les PDP importantes dignes du crawl. Les liens internes provenant de pages frequemment crawlees (homepage, hubs de categorie, posts de blog recents) tirent les PDP plus profondes dans des paliers plus frequents. Des valeurs lastmod exactes dans les sitemaps XML disent a Trawler quand un re-crawl est justifie.\n\nL'inverse compte aussi. Les URLs de navigation a facettes et les doublons parametres brulent le crawl budget que Trawler alloue a votre domaine, laissant moins de cycles pour les URLs que vous voulez indexees. Une gestion agressive des parametres, rel=canonical et des regles disallow sur les URLs vraiment redondantes liberent des cycles Trawler pour les pages de revenu.",
+          items: [
+            "Le scheduling Trawler depend du link equity, de l'exactitude lastmod, de la profondeur des liens internes et de la frequence de changement",
+            "Les PDP importantes ont besoin de liens internes de pages frequemment crawlees pour atterrir dans des paliers de crawl plus rapides",
+            "Un lastmod exact dans les sitemaps XML signale \"cette URL merite d'etre re-crawlee\"",
+            "Les URLs de nav a facettes et de parametres gaspillent les cycles Trawler - bloquez ou canonicalisez les redondantes",
+          ],
         },
       ],
       navLabels: {
@@ -235,6 +322,15 @@ export const crawlBudgetManagement: AcademyTopic = {
             "Tiendas con menos de 5.000 paginas raramente necesitan preocuparse por el presupuesto de rastreo",
             "Tiendas con mas de 10.000 URLs (incluyendo parametros) deben gestionar activamente el presupuesto",
           ],
+          image: {
+            src: "/images/academy/es/crawl-budget-components.svg",
+            alt: "Diagramm das Crawl-Budget als Kombination von Crawl-Rate-Limit (Serverkapazitaet) und Crawl-Nachfrage (Googles Interesse) zeigt",
+            caption: "Crawl-Budget wird durch zwei Faktoren bestimmt: wie schnell Ihr Server antworten kann und wie stark Google an Ihren Inhalten interessiert ist.",
+          },
+          callout: {
+            title: "Echtes Audit-Ergebnis",
+            text: "Ein mittelgrosser Modeshop hatte 8.000 Produkte aber 340.000 crawlbare URLs. Googlebot verbrachte 85% des Crawl-Budgets fuer Parameterseiten waehrend 30% der Produktseiten ueber 90 Tage lang nicht erneut gecrawlt wurden.",
+          },
         },
         {
           title: "Identificar el desperdicio de rastreo en tu tienda",
@@ -265,6 +361,15 @@ export const crawlBudgetManagement: AcademyTopic = {
             "Monitorear division del proposito de rastreo: descubrimiento de nuevas paginas vs. actualizacion",
             "Seguir tendencias mensualmente: caidas o picos repentinos indican cambios de configuracion",
           ],
+          image: {
+            src: "/images/academy/es/crawl-budget-allocation.svg",
+            alt: "Vorher-Nachher-Vergleich der zeigt wie sich das Crawl-Budget von 85% Filterseiten auf 55% Produktseiten nach der Optimierung verschiebt",
+            caption: "Nach dem Blockieren minderwertiger URLs verschiebt sich das Crawl-Budget dramatisch hin zu umsatzgenerierenden Produkt- und Kategorieseiten.",
+          },
+          callout: {
+            title: "Budget-Umverteilung",
+            text: "Das Blockieren von Filter- und Sortierparametern via robots.txt verschiebt typischerweise 15-25% des Crawl-Budgets zurueck zu Produktseiten innerhalb von 2-4 Wochen und erhoeht die Crawl-Frequenz fuer Produkte um 40% oder mehr.",
+          },
         },
         {
           title: "Renderizado del lado del servidor y eficiencia de rastreo",
@@ -282,6 +387,17 @@ export const crawlBudgetManagement: AcademyTopic = {
             "Solicitar indexacion manualmente para cambios urgentes via Inspeccion de URL de GSC",
           ],
           tip: "Crea una lista de tus 100 paginas de productos y categorias que mas ingresos generan. Asegurate de que estas paginas tengan la mayor cantidad de enlaces internos, aparezcan en tu sitemap y reciban fechas lastmod actualizadas cuando el contenido cambie.",
+        },
+        {
+          title: "El scheduler de crawl de Trawler: Lo que el leak nos dice sobre el presupuesto de Google",
+          content:
+            "El leak nombro el sistema de crawl Trawler y expuso las entradas que conducen sus decisiones de scheduling. Las URLs que ganan actualizaciones frecuentes de senales \"dignas de crawl\" - link equity, precision lastmod, profundidad de enlaces internos, cambios de contenido recientes - son revisitadas con frecuencia. Las URLs que no lo hacen se deslizan a niveles de crawl poco frecuentes independientemente de cuan importantes sean comercialmente.\n\nPara catalogos grandes, el comportamiento del scheduler explica por que algunas PDPs pasan semanas sin re-crawl. El fix raramente es \"subir el crawl budget via robots.txt o sitemaps\" - es hacer las PDPs importantes dignas de crawl. Enlaces internos de paginas frecuentemente crawleadas (homepage, hubs de categoria, posts de blog recientes) tiran las PDPs mas profundas a niveles mas frecuentes. Valores lastmod precisos en sitemaps XML le dicen a Trawler cuando un re-crawl esta justificado.\n\nLo inverso tambien importa. Las URLs de navegacion facetada y duplicados parametrizados queman el crawl budget que Trawler asigna a tu dominio, dejando menos ciclos para las URLs que quieres indexadas. Manejo agresivo de parametros, rel=canonical y reglas disallow en URLs verdaderamente redundantes liberan ciclos Trawler para paginas de ingresos.",
+          items: [
+            "El scheduling de Trawler depende de link equity, precision lastmod, profundidad de enlaces internos y frecuencia de cambio",
+            "Las PDPs importantes necesitan enlaces internos de paginas frecuentemente crawleadas para aterrizar en niveles de crawl mas rapidos",
+            "Lastmod preciso en sitemaps XML senala \"esta URL vale la pena re-crawlear\"",
+            "Las URLs de nav facetada y parametros gastan ciclos Trawler - bloquea o canonicaliza las redundantes",
+          ],
         },
       ],
       navLabels: {
@@ -306,6 +422,15 @@ export const crawlBudgetManagement: AcademyTopic = {
             "Negozi sotto le 5.000 pagine raramente devono preoccuparsi del budget di crawl",
             "Negozi oltre le 10.000 URL (parametri inclusi) dovrebbero gestire attivamente il budget di crawl",
           ],
+          image: {
+            src: "/images/academy/it/crawl-budget-components.svg",
+            alt: "Diagramm das Crawl-Budget als Kombination von Crawl-Rate-Limit (Serverkapazitaet) und Crawl-Nachfrage (Googles Interesse) zeigt",
+            caption: "Crawl-Budget wird durch zwei Faktoren bestimmt: wie schnell Ihr Server antworten kann und wie stark Google an Ihren Inhalten interessiert ist.",
+          },
+          callout: {
+            title: "Echtes Audit-Ergebnis",
+            text: "Ein mittelgrosser Modeshop hatte 8.000 Produkte aber 340.000 crawlbare URLs. Googlebot verbrachte 85% des Crawl-Budgets fuer Parameterseiten waehrend 30% der Produktseiten ueber 90 Tage lang nicht erneut gecrawlt wurden.",
+          },
         },
         {
           title: "Identificare lo spreco di crawl nel tuo negozio",
@@ -336,6 +461,15 @@ export const crawlBudgetManagement: AcademyTopic = {
             "Monitorare la divisione dello scopo del crawl: scoperta di nuove pagine vs. aggiornamento",
             "Tracciare le tendenze mensilmente: cali o picchi improvvisi indicano cambiamenti di configurazione",
           ],
+          image: {
+            src: "/images/academy/it/crawl-budget-allocation.svg",
+            alt: "Vorher-Nachher-Vergleich der zeigt wie sich das Crawl-Budget von 85% Filterseiten auf 55% Produktseiten nach der Optimierung verschiebt",
+            caption: "Nach dem Blockieren minderwertiger URLs verschiebt sich das Crawl-Budget dramatisch hin zu umsatzgenerierenden Produkt- und Kategorieseiten.",
+          },
+          callout: {
+            title: "Budget-Umverteilung",
+            text: "Das Blockieren von Filter- und Sortierparametern via robots.txt verschiebt typischerweise 15-25% des Crawl-Budgets zurueck zu Produktseiten innerhalb von 2-4 Wochen und erhoeht die Crawl-Frequenz fuer Produkte um 40% oder mehr.",
+          },
         },
         {
           title: "Rendering lato server ed efficienza del crawl",
@@ -353,6 +487,17 @@ export const crawlBudgetManagement: AcademyTopic = {
             "Richiedere l'indicizzazione manualmente per cambiamenti urgenti tramite Ispezione URL GSC",
           ],
           tip: "Crea una lista delle tue 100 pagine prodotto e categoria che generano piu ricavi. Assicurati che queste pagine abbiano il maggior numero di link interni, appaiano nella tua sitemap e ricevano date lastmod aggiornate ogni volta che il contenuto cambia.",
+        },
+        {
+          title: "Lo scheduler di crawl di Trawler: Cosa ci dice il leak sul budget di Google",
+          content:
+            "Il leak ha nominato il sistema di crawl Trawler e ha esposto gli input che guidano le sue decisioni di scheduling. Gli URL che guadagnano aggiornamenti frequenti da segnali \"degni di crawl\" - link equity, precisione lastmod, profondita di link interni, modifiche di contenuto recenti - vengono rivisitati spesso. Gli URL che non lo fanno scivolano in livelli di crawl poco frequenti indipendentemente da quanto siano importanti commercialmente.\n\nPer cataloghi grandi, il comportamento dello scheduler spiega perche alcune PDP passano settimane senza re-crawl. La correzione raramente e \"alzare il crawl budget via robots.txt o sitemap\" - e rendere le PDP importanti degne di crawl. Link interni da pagine frequentemente crawlate (homepage, hub di categoria, post di blog recenti) tirano le PDP piu profonde in livelli piu frequenti. Valori lastmod accurati nelle sitemap XML dicono a Trawler quando un re-crawl e giustificato.\n\nL'inverso conta anche. Gli URL di navigazione faccettata e i duplicati parametrizzati bruciano il crawl budget che Trawler alloca al tuo dominio, lasciando meno cicli per gli URL che vuoi indicizzati. Gestione aggressiva dei parametri, rel=canonical e regole disallow su URL veramente ridondanti liberano cicli Trawler per pagine di ricavi.",
+          items: [
+            "Lo scheduling di Trawler dipende da link equity, precisione lastmod, profondita di link interni e frequenza di cambiamento",
+            "Le PDP importanti hanno bisogno di link interni da pagine frequentemente crawlate per atterrare in livelli di crawl piu veloci",
+            "Lastmod accurato nelle sitemap XML segnala \"questo URL vale la pena ri-crawlare\"",
+            "Gli URL di nav faccettata e parametri sprecano cicli Trawler - blocca o canonicalizza i ridondanti",
+          ],
         },
       ],
       navLabels: {
@@ -377,6 +522,15 @@ export const crawlBudgetManagement: AcademyTopic = {
             "Webshops onder 5.000 pagina's hoeven zich zelden zorgen te maken over crawlbudget",
             "Webshops boven 10.000 URL's (inclusief parameters) moeten het crawlbudget actief beheren",
           ],
+          image: {
+            src: "/images/academy/nl/crawl-budget-components.svg",
+            alt: "Diagramm das Crawl-Budget als Kombination von Crawl-Rate-Limit (Serverkapazitaet) und Crawl-Nachfrage (Googles Interesse) zeigt",
+            caption: "Crawl-Budget wird durch zwei Faktoren bestimmt: wie schnell Ihr Server antworten kann und wie stark Google an Ihren Inhalten interessiert ist.",
+          },
+          callout: {
+            title: "Echtes Audit-Ergebnis",
+            text: "Ein mittelgrosser Modeshop hatte 8.000 Produkte aber 340.000 crawlbare URLs. Googlebot verbrachte 85% des Crawl-Budgets fuer Parameterseiten waehrend 30% der Produktseiten ueber 90 Tage lang nicht erneut gecrawlt wurden.",
+          },
         },
         {
           title: "Crawlverspilling in je webshop identificeren",
@@ -407,6 +561,15 @@ export const crawlBudgetManagement: AcademyTopic = {
             "Verdeling van crawldoel monitoren: ontdekking van nieuwe pagina's vs. verversing",
             "Trends maandelijks volgen: plotselinge dalingen of pieken wijzen op configuratiewijzigingen",
           ],
+          image: {
+            src: "/images/academy/nl/crawl-budget-allocation.svg",
+            alt: "Vorher-Nachher-Vergleich der zeigt wie sich das Crawl-Budget von 85% Filterseiten auf 55% Produktseiten nach der Optimierung verschiebt",
+            caption: "Nach dem Blockieren minderwertiger URLs verschiebt sich das Crawl-Budget dramatisch hin zu umsatzgenerierenden Produkt- und Kategorieseiten.",
+          },
+          callout: {
+            title: "Budget-Umverteilung",
+            text: "Das Blockieren von Filter- und Sortierparametern via robots.txt verschiebt typischerweise 15-25% des Crawl-Budgets zurueck zu Produktseiten innerhalb von 2-4 Wochen und erhoeht die Crawl-Frequenz fuer Produkte um 40% oder mehr.",
+          },
         },
         {
           title: "Server-side rendering en crawlefficiency",
@@ -424,6 +587,17 @@ export const crawlBudgetManagement: AcademyTopic = {
             "Handmatig indexering aanvragen voor dringende wijzigingen via GSC URL-inspectie",
           ],
           tip: "Maak een lijst van je top 100 omzetgenererende product- en categoriepagina's. Zorg ervoor dat deze pagina's de meeste interne links hebben, in je sitemap verschijnen en bijgewerkte lastmod-datums krijgen wanneer de content verandert.",
+        },
+        {
+          title: "Trawlers crawl-scheduler: Wat het leak ons vertelt over Googles budgettering",
+          content:
+            "Het leak noemde het crawl-systeem Trawler en legde de invoer bloot die zijn schedulingbeslissingen aandrijft. URLs die frequente updates verdienen van \"crawl-waardige\" signalen - link equity, lastmod-nauwkeurigheid, interne linkdiepte, recente inhoudsveranderingen - worden vaak opnieuw bezocht. URLs die dat niet doen, glippen in zeldzame crawl-niveaus ongeacht hoe commercieel belangrijk ze zijn.\n\nVoor grote catalogi verklaart het gedrag van de scheduler waarom sommige PDP's wekenlang zonder re-crawl gaan. De fix is zelden \"crawl budget verhogen via robots.txt of sitemaps\" - het is belangrijke PDP's crawl-waardig maken. Interne links van vaak gecrawlde pagina's (homepage, categoriehubs, recente blogposts) trekken diepere PDP's naar frequentere niveaus. Accurate lastmod-waarden in XML-sitemaps vertellen Trawler wanneer een re-crawl gerechtvaardigd is.\n\nHet omgekeerde telt ook. Faceted-navigatie URLs en geparametriseerde duplicaten verbranden het crawl budget dat Trawler aan je domein toewijst, wat minder cycli laat voor de URLs die je geindexeerd wilt hebben. Agressieve parameterafhandeling, rel=canonical en disallow-regels op werkelijk overbodige URLs maken Trawler-cycli vrij voor omzet-pagina's.",
+          items: [
+            "Trawler-scheduling hangt af van link equity, lastmod-nauwkeurigheid, interne linkdiepte en wijzigingsfrequentie",
+            "Belangrijke PDP's hebben interne links van vaak gecrawlde pagina's nodig om in snellere crawl-niveaus te landen",
+            "Accurate lastmod in XML-sitemaps signaleert \"deze URL is een re-crawl waard\"",
+            "Faceted-nav en parameter URLs verspillen Trawler-cycli - blokkeer of canonicaliseer de redundante",
+          ],
         },
       ],
       navLabels: {

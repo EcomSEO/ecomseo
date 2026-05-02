@@ -3,7 +3,7 @@ import type { BlogArticle } from "../types";
 export const ecommerceSeoPackages: BlogArticle = {
   slug: "ecommerce-seo-packages",
   category: "services",
-  publishDate: "2025-06-15",
+  publishDate: "2026-03-10",
   readingTime: 10,
   author: "Fabian van Til",
   authorRole: "CEO at EcomSEO",
@@ -32,6 +32,7 @@ export const ecommerceSeoPackages: BlogArticle = {
             "Ongoing retainers cover continuous work month after month. This is where most ecommerce SEO results come from, because SEO is not a one-time fix. Rankings need monitoring, new content needs publishing, technical issues pop up with every platform update, and link building requires sustained effort. Monthly retainers for ecommerce range from $1,500 to $15,000 depending on the scope and the agency.",
             "In our experience, stores that treat SEO as a project (do it once and move on) see results plateau or decline within 6 to 12 months. Stores that invest in ongoing retainers see compounding returns because organic traffic builds on itself over time. For help deciding which package fits your goals, review our [ecommerce SEO strategy guide](/blog/ecommerce-seo-strategy)."
           ],
+          image: { src: "/images/blog/packages-onetime-vs-retainer.svg", alt: "Comparison of one-time SEO packages versus ongoing retainers showing scope, pricing, and best use cases", caption: "Most ecommerce stores benefit more from retainers -- SEO compounds over time." },
         },
         {
           heading: "What entry-level packages include ($1,500 to $3,000 per month)",
@@ -42,6 +43,7 @@ export const ecommerceSeoPackages: BlogArticle = {
             "Entry-level packages work best for smaller stores with fewer than 2,000 products that already have a reasonably solid technical foundation. If your site has serious technical debt, you need a larger initial investment to fix the foundation before ongoing optimization makes sense.",
             "Expect to see measurable progress in 4 to 6 months. Within the first year, a well-executed entry-level package should deliver 20 to 40% growth in organic traffic to optimized pages. That is a realistic expectation for this investment level."
           ],
+          image: { src: "/images/blog/seo-package-tiers.svg", alt: "Three SEO package tiers compared: entry level, mid tier, and premium with included services and pricing", caption: "What each SEO package tier includes and the store sizes they serve" },
         },
         {
           heading: "What mid-tier packages include ($3,000 to $7,000 per month)",
@@ -52,6 +54,7 @@ export const ecommerceSeoPackages: BlogArticle = {
             "At this price point, you should expect dedicated account management. You should have a specific person you can reach with questions and who knows your account inside and out. If you are being shuffled between different people every month, the agency is spreading itself too thin.",
             "Results expectations: within 12 months, a mid-tier package for a store with 2,000 to 20,000 products should deliver 40 to 80% growth in organic traffic and a noticeable increase in organic revenue. We have seen clients at this investment level go from $30,000 to $65,000 per month in organic revenue within a year."
           ],
+          callout: { title: "Mid-Tier Sweet Spot", text: "The $3K-$7K/month range is where meaningful ecommerce SEO happens. Clients at this level have gone from $30,000 to $65,000/month in organic revenue within a year -- a clear ROI on the investment." },
         },
         {
           heading: "What premium packages include ($7,000 to $15,000 per month)",
@@ -62,6 +65,8 @@ export const ecommerceSeoPackages: BlogArticle = {
             "We run premium packages for several multi-brand ecommerce companies. The work involves coordinating across multiple storefronts, managing different SEO strategies for different brands, and aligning with their paid media and email marketing teams. This level of integration requires senior-level talent, which is reflected in the cost.",
             "Results expectations: within 12 to 18 months, premium packages should deliver significant organic revenue growth, often 80 to 150%. For one client operating five storefronts, organic revenue grew from $220,000 to $510,000 per month over 14 months. That kind of return justifies the investment many times over."
           ],
+          image: { src: "/images/blog/premium-package-deliverables.svg", alt: "Premium SEO package scope showing six service areas and expected results of 80-150% organic revenue growth", caption: "Premium packages should function as an extension of your marketing team" },
+          callout: { title: "Premium ROI", text: "One client operating five storefronts saw organic revenue grow from $220,000 to $510,000 per month over 14 months with a premium package. The agency coordinated across multiple brands, paid media, and email teams." },
         },
         {
           heading: "What deliverables to expect and what to demand",
@@ -73,6 +78,8 @@ export const ecommerceSeoPackages: BlogArticle = {
             "Access to tools and data should be included. Your agency should give you access to or reports from the tools they use, including crawl data, rank tracking, and backlink monitoring. You should be able to verify their work independently if you choose to.",
             "Regular communication beyond monthly reports is expected at mid-tier and above. Biweekly calls, Slack or email availability for questions, and proactive alerts about issues or opportunities should all be part of the service."
           ],
+          image: { src: "/images/blog/seo-package-deliverables-checklist.svg", alt: "Non-negotiable SEO package deliverables checklist showing must-have and mid-tier requirements", caption: "Demand these deliverables regardless of which package tier you choose" },
+          callout: { title: "Demand Transparency", text: "Every SEO package should include monthly reporting with YoY data, an implementation log showing exactly what was done, a strategy document updated quarterly, and access to the tools and data behind the work." },
         },
         {
           heading: "How to compare packages across agencies",
@@ -82,7 +89,7 @@ export const ecommerceSeoPackages: BlogArticle = {
             "Look at who will do the work. Junior team members or offshore contractors doing the execution is not inherently bad, but you should know. If you are paying premium rates, you should expect senior-level involvement in strategy and quality control. Ask specifically: who will write the content? Who will do the technical SEO work? Who will run link building outreach?",
             "Check the contract terms. Month-to-month contracts favor you because the agency has to earn your continued business. Agencies that require 12-month commitments upfront are shifting risk from themselves to you. Some initial commitment (3 months) is reasonable because SEO results take time. A year-long lock-in with no performance benchmarks is not.",
             "Ask about what happens when something goes wrong. If a Google algorithm update tanks your traffic, what is the agency's response plan? If a technical issue breaks indexation, how quickly do they respond? The best agencies have incident response processes and do not charge extra for emergency support.",
-            "Finally, ask about exclusivity. Some agencies refuse to work with competing businesses in the same niche. Others will happily take your money and your competitor's money simultaneously. Know what you are getting into. Before committing, consider requesting a standalone [SEO audit](/seo-audit) so you have an independent baseline to measure progress against."
+            "Finally, ask about exclusivity. Some agencies refuse to work with competing businesses in the same niche. Others will happily take your money and your competitor's money simultaneously. Know what you are getting into. Before committing, consider requesting a standalone [SEO audit](/tools/ecommerce-seo-audit) so you have an independent baseline to measure progress against."
           ],
         },
         {
@@ -96,6 +103,7 @@ export const ecommerceSeoPackages: BlogArticle = {
             "Watch out for packages that lock you into proprietary tools or platforms. Some agencies build your SEO workflow on their own systems, which means you lose everything if you leave. Your content, your data, and your work product should belong to you. Period.",
             "Packages that include link building but refuse to disclose the sources are a major red flag. You need to know where your backlinks come from. If the agency is building links from spammy or irrelevant sites, it could result in a Google penalty that damages your store for years. To compare how leading providers structure their offerings, read our roundup of [ecommerce SEO agencies](/blog/ecommerce-seo-agencies)."
           ],
+          image: { src: "/images/blog/packages-red-flags.svg", alt: "SEO package red flags versus green flags comparison showing warning signs and positive signals", caption: "If a package has more red flags than green, keep looking." },
         },
       ],
     },
@@ -120,6 +128,7 @@ export const ecommerceSeoPackages: BlogArticle = {
             "Los retainers continuos cubren trabajo continuo mes a mes. Aquí es donde provienen la mayoría de los resultados de SEO para ecommerce, porque el SEO no es una corrección de una sola vez. Los rankings necesitan monitoreo, se necesita publicar nuevo contenido, los problemas técnicos aparecen con cada actualización de la plataforma, y el link building requiere esfuerzo sostenido. Los retainers mensuales para ecommerce van de 1.500 a 15.000 dólares dependiendo del alcance y la agencia.",
             "En nuestra experiencia, las tiendas que tratan el SEO como un proyecto (hacerlo una vez y seguir adelante) ven los resultados estancarse o declinar en 6 a 12 meses. Las tiendas que invierten en retainers continuos ven retornos acumulativos porque el tráfico orgánico se construye sobre sí mismo con el tiempo. Para ayuda decidiendo qué paquete se adapta a tus objetivos, revisa nuestra [guía de estrategia SEO para ecommerce](/blog/ecommerce-seo-strategy)."
           ],
+          image: { src: "/images/blog/es/packages-onetime-vs-retainer.svg", alt: "Comparison of one-time SEO packages versus ongoing retainers showing scope, pricing, and best use cases", caption: "Most ecommerce stores benefit more from retainers -- SEO compounds over time." },
         },
         {
           heading: "Qué incluyen los paquetes de nivel inicial (1.500 a 3.000 dólares al mes)",
@@ -130,6 +139,7 @@ export const ecommerceSeoPackages: BlogArticle = {
             "Los paquetes de nivel inicial funcionan mejor para tiendas más pequeñas con menos de 2.000 productos que ya tienen una base técnica razonablemente sólida. Si tu sitio tiene una deuda técnica seria, necesitas una inversión inicial mayor para arreglar la base antes de que la optimización continua tenga sentido.",
             "Espera ver progreso medible en 4 a 6 meses. En el primer año, un paquete de nivel inicial bien ejecutado debería entregar un crecimiento del 20 al 40% en el tráfico orgánico a las páginas optimizadas. Esa es una expectativa realista para este nivel de inversión."
           ],
+          image: { src: "/images/blog/es/seo-package-tiers.svg", alt: "Three SEO package tiers compared: entry level, mid tier, and premium with included services and pricing", caption: "What each SEO package tier includes and the store sizes they serve" },
         },
         {
           heading: "Qué incluyen los paquetes de nivel medio (3.000 a 7.000 dólares al mes)",
@@ -140,6 +150,7 @@ export const ecommerceSeoPackages: BlogArticle = {
             "A este rango de precio, deberías esperar gestión de cuenta dedicada. Deberías tener una persona específica a la que puedas contactar con preguntas y que conozca tu cuenta de principio a fin. Si te están pasando entre diferentes personas cada mes, la agencia se está dispersando demasiado.",
             "Expectativas de resultados: en 12 meses, un paquete de nivel medio para una tienda con 2.000 a 20.000 productos debería entregar un crecimiento del 40 al 80% en tráfico orgánico y un aumento notable en ingresos orgánicos. Hemos visto clientes a este nivel de inversión pasar de 30.000 a 65.000 dólares al mes en ingresos orgánicos en un año."
           ],
+          callout: { title: "Mid-Tier Sweet Spot", text: "The $3K-$7K/month range is where meaningful ecommerce SEO happens. Clients at this level have gone from $30,000 to $65,000/month in organic revenue within a year -- a clear ROI on the investment." },
         },
         {
           heading: "Qué incluyen los paquetes premium (7.000 a 15.000 dólares al mes)",
@@ -150,6 +161,8 @@ export const ecommerceSeoPackages: BlogArticle = {
             "Ejecutamos paquetes premium para varias empresas de ecommerce multi-marca. El trabajo implica coordinar a través de múltiples escaparates, gestionar diferentes estrategias de SEO para diferentes marcas, y alinearse con sus equipos de medios de pago y email marketing. Este nivel de integración requiere talento de nivel senior, lo cual se refleja en el coste.",
             "Expectativas de resultados: en 12 a 18 meses, los paquetes premium deberían entregar un crecimiento significativo en ingresos orgánicos, a menudo del 80 al 150%. Para un cliente que opera cinco escaparates, los ingresos orgánicos crecieron de 220.000 a 510.000 dólares al mes en 14 meses. Ese tipo de retorno justifica la inversión muchas veces."
           ],
+          image: { src: "/images/blog/es/premium-package-deliverables.svg", alt: "Premium SEO package scope showing six service areas and expected results of 80-150% organic revenue growth", caption: "Premium packages should function as an extension of your marketing team" },
+          callout: { title: "Premium ROI", text: "One client operating five storefronts saw organic revenue grow from $220,000 to $510,000 per month over 14 months with a premium package. The agency coordinated across multiple brands, paid media, and email teams." },
         },
         {
           heading: "Qué entregables esperar y qué exigir",
@@ -161,6 +174,8 @@ export const ecommerceSeoPackages: BlogArticle = {
             "El acceso a herramientas y datos debería estar incluido. Tu agencia debería darte acceso o informes de las herramientas que usan, incluyendo datos de rastreo, seguimiento de rankings y monitoreo de backlinks. Deberías poder verificar su trabajo independientemente si lo deseas.",
             "La comunicación regular más allá de los informes mensuales se espera en nivel medio y superior. Llamadas quincenales, disponibilidad por Slack o email para preguntas, y alertas proactivas sobre problemas u oportunidades deberían ser parte del servicio."
           ],
+          image: { src: "/images/blog/es/seo-package-deliverables-checklist.svg", alt: "Non-negotiable SEO package deliverables checklist showing must-have and mid-tier requirements", caption: "Demand these deliverables regardless of which package tier you choose" },
+          callout: { title: "Demand Transparency", text: "Every SEO package should include monthly reporting with YoY data, an implementation log showing exactly what was done, a strategy document updated quarterly, and access to the tools and data behind the work." },
         },
         {
           heading: "Cómo comparar paquetes entre agencias",
@@ -170,7 +185,7 @@ export const ecommerceSeoPackages: BlogArticle = {
             "Mira quién hará el trabajo. Que miembros júnior del equipo o contratistas offshore hagan la ejecución no es inherentemente malo, pero deberías saberlo. Si estás pagando tarifas premium, deberías esperar la participación de nivel senior en la estrategia y el control de calidad. Pregunta específicamente: ¿quién escribirá el contenido? ¿Quién hará el trabajo de SEO técnico? ¿Quién ejecutará el alcance de link building?",
             "Revisa los términos del contrato. Los contratos mes a mes te favorecen porque la agencia tiene que ganarse tu negocio continuado. Las agencias que requieren compromisos de 12 meses por adelantado están trasladando el riesgo de ellos hacia ti. Algún compromiso inicial (3 meses) es razonable porque los resultados de SEO toman tiempo. Un bloqueo de un año sin referencias de rendimiento no lo es.",
             "Pregunta sobre qué pasa cuando algo sale mal. Si una actualización de algoritmo de Google hunde tu tráfico, ¿cuál es el plan de respuesta de la agencia? Si un problema técnico rompe la indexación, ¿qué tan rápido responden? Las mejores agencias tienen procesos de respuesta a incidentes y no cobran extra por soporte de emergencia.",
-            "Finalmente, pregunta sobre exclusividad. Algunas agencias se niegan a trabajar con negocios competidores en el mismo nicho. Otras felizmente tomarán tu dinero y el de tu competidor simultáneamente. Sabe en qué te estás metiendo. Antes de comprometerte, considera solicitar una [auditoría SEO](/seo-audit) independiente para que tengas una línea base independiente contra la cual medir el progreso."
+            "Finalmente, pregunta sobre exclusividad. Algunas agencias se niegan a trabajar con negocios competidores en el mismo nicho. Otras felizmente tomarán tu dinero y el de tu competidor simultáneamente. Sabe en qué te estás metiendo. Antes de comprometerte, considera solicitar una [auditoría SEO](/tools/ecommerce-seo-audit) independiente para que tengas una línea base independiente contra la cual medir el progreso."
           ],
         },
         {
@@ -208,6 +223,7 @@ export const ecommerceSeoPackages: BlogArticle = {
             "Les accompagnements mensuels couvrent un travail continu mois après mois. C'est là que la plupart des résultats SEO ecommerce se produisent, car le SEO n'est pas une correction ponctuelle. Les classements doivent être surveillés, du nouveau contenu doit être publié, des problèmes techniques surgissent à chaque mise à jour de plateforme, et le link building nécessite un effort soutenu. Les accompagnements mensuels pour le ecommerce vont de 1 500 à 15 000 € selon le périmètre et l'agence.",
             "D'après notre expérience, les boutiques qui traitent le SEO comme un projet (le faire une fois et passer à autre chose) voient leurs résultats plafonner ou décliner dans les 6 à 12 mois. Les boutiques qui investissent dans un accompagnement continu voient des rendements cumulatifs car le trafic organique se construit sur lui-même au fil du temps. Pour vous aider à décider quel forfait correspond à vos objectifs, consultez notre [guide de stratégie SEO ecommerce](/blog/ecommerce-seo-strategy)."
           ],
+          image: { src: "/images/blog/fr/packages-onetime-vs-retainer.svg", alt: "Comparison of one-time SEO packages versus ongoing retainers showing scope, pricing, and best use cases", caption: "Most ecommerce stores benefit more from retainers -- SEO compounds over time." },
         },
         {
           heading: "Ce qu'incluent les forfaits d'entrée de gamme (1 500 à 3 000 € par mois)",
@@ -218,6 +234,7 @@ export const ecommerceSeoPackages: BlogArticle = {
             "Les forfaits d'entrée de gamme conviennent mieux aux petites boutiques avec moins de 2 000 produits qui ont déjà une base technique raisonnablement solide. Si votre site a une dette technique importante, vous avez besoin d'un investissement initial plus conséquent pour corriger les fondations avant que l'optimisation continue ait du sens.",
             "Attendez-vous à voir des progrès mesurables en 4 à 6 mois. Au cours de la première année, un forfait d'entrée de gamme bien exécuté devrait générer une croissance de 20 à 40 % du trafic organique vers les pages optimisées. C'est une attente réaliste pour ce niveau d'investissement."
           ],
+          image: { src: "/images/blog/fr/seo-package-tiers.svg", alt: "Three SEO package tiers compared: entry level, mid tier, and premium with included services and pricing", caption: "What each SEO package tier includes and the store sizes they serve" },
         },
         {
           heading: "Ce qu'incluent les forfaits intermédiaires (3 000 à 7 000 € par mois)",
@@ -228,6 +245,7 @@ export const ecommerceSeoPackages: BlogArticle = {
             "À ce niveau de prix, vous devriez avoir un responsable de compte dédié. Vous devriez avoir une personne spécifique que vous pouvez contacter pour vos questions et qui connaît votre compte dans les moindres détails. Si vous êtes renvoyé entre différentes personnes chaque mois, l'agence s'éparpille trop.",
             "Attentes en termes de résultats : dans les 12 mois, un forfait intermédiaire pour une boutique avec 2 000 à 20 000 produits devrait générer une croissance de 40 à 80 % du trafic organique et une augmentation notable du chiffre d'affaires organique. Nous avons vu des clients à ce niveau d'investissement passer de 30 000 à 65 000 € par mois de chiffre d'affaires organique en un an."
           ],
+          callout: { title: "Mid-Tier Sweet Spot", text: "The $3K-$7K/month range is where meaningful ecommerce SEO happens. Clients at this level have gone from $30,000 to $65,000/month in organic revenue within a year -- a clear ROI on the investment." },
         },
         {
           heading: "Ce qu'incluent les forfaits premium (7 000 à 15 000 € par mois)",
@@ -238,6 +256,8 @@ export const ecommerceSeoPackages: BlogArticle = {
             "Nous gérons des forfaits premium pour plusieurs entreprises ecommerce multi-marques. Le travail implique la coordination entre plusieurs vitrines, la gestion de différentes stratégies SEO pour différentes marques, et l'alignement avec leurs équipes de médias payants et d'email marketing. Ce niveau d'intégration nécessite des talents de niveau senior, ce qui se reflète dans le coût.",
             "Attentes en termes de résultats : dans les 12 à 18 mois, les forfaits premium devraient générer une croissance significative du chiffre d'affaires organique, souvent de 80 à 150 %. Pour un client opérant cinq vitrines, le chiffre d'affaires organique est passé de 220 000 à 510 000 € par mois sur 14 mois. Ce type de retour justifie l'investissement de nombreuses fois."
           ],
+          image: { src: "/images/blog/fr/premium-package-deliverables.svg", alt: "Premium SEO package scope showing six service areas and expected results of 80-150% organic revenue growth", caption: "Premium packages should function as an extension of your marketing team" },
+          callout: { title: "Premium ROI", text: "One client operating five storefronts saw organic revenue grow from $220,000 to $510,000 per month over 14 months with a premium package. The agency coordinated across multiple brands, paid media, and email teams." },
         },
         {
           heading: "Quels livrables attendre et quoi exiger",
@@ -249,6 +269,8 @@ export const ecommerceSeoPackages: BlogArticle = {
             "L'accès aux outils et aux données devrait être inclus. Votre agence devrait vous donner accès ou des rapports des outils qu'elle utilise, y compris les données de crawl, le suivi des classements et le monitoring des backlinks. Vous devriez pouvoir vérifier leur travail de manière indépendante si vous le souhaitez.",
             "Une communication régulière au-delà des rapports mensuels est attendue au niveau intermédiaire et au-dessus. Des appels bimensuels, une disponibilité par Slack ou email pour les questions, et des alertes proactives sur les problèmes ou opportunités devraient tous faire partie du service."
           ],
+          image: { src: "/images/blog/fr/seo-package-deliverables-checklist.svg", alt: "Non-negotiable SEO package deliverables checklist showing must-have and mid-tier requirements", caption: "Demand these deliverables regardless of which package tier you choose" },
+          callout: { title: "Demand Transparency", text: "Every SEO package should include monthly reporting with YoY data, an implementation log showing exactly what was done, a strategy document updated quarterly, and access to the tools and data behind the work." },
         },
         {
           heading: "Comment comparer les forfaits entre agences",
@@ -258,7 +280,7 @@ export const ecommerceSeoPackages: BlogArticle = {
             "Regardez qui fera le travail. Des membres juniors ou des sous-traitants offshore qui font l'exécution n'est pas intrinsèquement mauvais, mais vous devriez le savoir. Si vous payez des tarifs premium, vous devriez attendre une implication de niveau senior dans la stratégie et le contrôle qualité. Demandez spécifiquement : qui écrira le contenu ? Qui fera le travail de SEO technique ? Qui mènera la prospection de link building ?",
             "Vérifiez les conditions contractuelles. Les contrats sans engagement mensuel vous avantagent car l'agence doit mériter votre confiance continue. Les agences qui exigent un engagement de 12 mois d'emblée transfèrent le risque d'elles-mêmes vers vous. Un engagement initial (3 mois) est raisonnable car les résultats SEO prennent du temps. Un engagement d'un an sans indicateurs de performance n'est pas acceptable.",
             "Demandez ce qui se passe quand quelque chose va mal. Si une mise à jour de l'algorithme de Google fait chuter votre trafic, quel est le plan de réponse de l'agence ? Si un problème technique casse l'indexation, à quelle vitesse réagissent-ils ? Les meilleures agences ont des processus de réponse aux incidents et ne facturent pas de supplément pour le support d'urgence.",
-            "Enfin, renseignez-vous sur l'exclusivité. Certaines agences refusent de travailler avec des entreprises concurrentes dans le même créneau. D'autres prendront volontiers votre argent et celui de votre concurrent simultanément. Sachez dans quoi vous vous engagez. Avant de vous engager, envisagez de demander un [audit SEO](/seo-audit) autonome pour avoir une base indépendante permettant de mesurer les progrès."
+            "Enfin, renseignez-vous sur l'exclusivité. Certaines agences refusent de travailler avec des entreprises concurrentes dans le même créneau. D'autres prendront volontiers votre argent et celui de votre concurrent simultanément. Sachez dans quoi vous vous engagez. Avant de vous engager, envisagez de demander un [audit SEO](/tools/ecommerce-seo-audit) autonome pour avoir une base indépendante permettant de mesurer les progrès."
           ],
         },
         {
@@ -296,6 +318,7 @@ export const ecommerceSeoPackages: BlogArticle = {
             "Fortlaufende Retainer decken kontinuierliche Arbeit Monat fuer Monat ab. Hier kommen die meisten Ecommerce-SEO-Ergebnisse her, weil SEO keine einmalige Korrektur ist. Rankings muessen ueberwacht, neuer Content veroeffentlicht, technische Probleme bei jedem Plattform-Update behoben und Linkaufbau nachhaltig betrieben werden. Monatliche Retainer fuer Ecommerce reichen von 1.500 bis 15.000 Dollar je nach Umfang und Agentur.",
             "Nach unserer Erfahrung sehen Shops, die SEO als Projekt behandeln (einmal machen und weitergehen), Ergebnisse innerhalb von 6 bis 12 Monaten stagnieren oder abnehmen. Shops, die in fortlaufende Retainer investieren, sehen sich akkumulierende Renditen, weil organischer Traffic sich ueber die Zeit selbst aufbaut. Fuer Hilfe bei der Entscheidung, welches Paket zu Ihren Zielen passt, lesen Sie unseren [Ecommerce SEO Strategie-Leitfaden](/blog/ecommerce-seo-strategy)."
           ],
+          image: { src: "/images/blog/de/packages-onetime-vs-retainer.svg", alt: "Comparison of one-time SEO packages versus ongoing retainers showing scope, pricing, and best use cases", caption: "Most ecommerce stores benefit more from retainers -- SEO compounds over time." },
         },
         {
           heading: "Was Einstiegspakete enthalten (1.500 bis 3.000 Dollar pro Monat)",
@@ -306,6 +329,7 @@ export const ecommerceSeoPackages: BlogArticle = {
             "Einstiegspakete funktionieren am besten fuer kleinere Shops mit weniger als 2.000 Produkten, die bereits eine vernuenftig solide technische Grundlage haben. Wenn Ihre Seite ernsthafte technische Schulden hat, brauchen Sie eine groessere Anfangsinvestition, um die Grundlagen zu reparieren, bevor fortlaufende Optimierung Sinn macht.",
             "Erwarten Sie messbare Fortschritte in 4 bis 6 Monaten. Innerhalb des ersten Jahres sollte ein gut ausgefuehrtes Einstiegspaket 20 bis 40% Wachstum des organischen Traffics auf optimierten Seiten liefern. Das ist eine realistische Erwartung fuer dieses Investitionsniveau."
           ],
+          image: { src: "/images/blog/de/seo-package-tiers.svg", alt: "Three SEO package tiers compared: entry level, mid tier, and premium with included services and pricing", caption: "What each SEO package tier includes and the store sizes they serve" },
         },
         {
           heading: "Was Mittelklasse-Pakete enthalten (3.000 bis 7.000 Dollar pro Monat)",
@@ -316,6 +340,7 @@ export const ecommerceSeoPackages: BlogArticle = {
             "In dieser Preisklasse sollten Sie dediziertes Account Management erwarten. Sie sollten eine bestimmte Person haben, die Sie mit Fragen erreichen koennen und die Ihr Konto in- und auswendig kennt. Wenn Sie jeden Monat zwischen verschiedenen Personen hin- und hergeschoben werden, verteilt sich die Agentur zu duenn.",
             "Ergebnis-Erwartungen: Innerhalb von 12 Monaten sollte ein Mittelklasse-Paket fuer einen Shop mit 2.000 bis 20.000 Produkten 40 bis 80% Wachstum des organischen Traffics und einen spuerbaren Anstieg des organischen Umsatzes liefern. Wir haben Kunden auf diesem Investitionsniveau gesehen, die innerhalb eines Jahres von 30.000 auf 65.000 Dollar monatlichen organischen Umsatz stiegen."
           ],
+          callout: { title: "Mid-Tier Sweet Spot", text: "The $3K-$7K/month range is where meaningful ecommerce SEO happens. Clients at this level have gone from $30,000 to $65,000/month in organic revenue within a year -- a clear ROI on the investment." },
         },
         {
           heading: "Was Premium-Pakete enthalten (7.000 bis 15.000 Dollar pro Monat)",
@@ -326,6 +351,8 @@ export const ecommerceSeoPackages: BlogArticle = {
             "Wir fuehren Premium-Pakete fuer mehrere Multimarken-Ecommerce-Unternehmen durch. Die Arbeit beinhaltet die Koordination ueber mehrere Storefronts, die Verwaltung verschiedener SEO-Strategien fuer verschiedene Marken und die Abstimmung mit deren Paid-Media- und E-Mail-Marketing-Teams. Dieses Niveau an Integration erfordert Talent auf Senior-Level, was sich in den Kosten widerspiegelt.",
             "Ergebnis-Erwartungen: Innerhalb von 12 bis 18 Monaten sollten Premium-Pakete signifikantes organisches Umsatzwachstum liefern, oft 80 bis 150%. Fuer einen Kunden, der fuenf Storefronts betreibt, wuchs der organische Umsatz ueber 14 Monate von 220.000 auf 510.000 Dollar pro Monat. Diese Art von Rendite rechtfertigt die Investition um ein Vielfaches."
           ],
+          image: { src: "/images/blog/de/premium-package-deliverables.svg", alt: "Premium SEO package scope showing six service areas and expected results of 80-150% organic revenue growth", caption: "Premium packages should function as an extension of your marketing team" },
+          callout: { title: "Premium ROI", text: "One client operating five storefronts saw organic revenue grow from $220,000 to $510,000 per month over 14 months with a premium package. The agency coordinated across multiple brands, paid media, and email teams." },
         },
         {
           heading: "Welche Deliverables Sie erwarten und einfordern sollten",
@@ -337,6 +364,8 @@ export const ecommerceSeoPackages: BlogArticle = {
             "Zugang zu Tools und Daten sollte inbegriffen sein. Ihre Agentur sollte Ihnen Zugang zu oder Berichte aus den verwendeten Tools geben, einschliesslich Crawl-Daten, Rank-Tracking und Backlink-Monitoring. Sie sollten deren Arbeit unabhaengig verifizieren koennen, wenn Sie moechten.",
             "Regelmaessige Kommunikation ueber monatliche Berichte hinaus wird auf der Mittel- und Premium-Stufe erwartet. Zweiwoechentliche Gespraeche, Slack- oder E-Mail-Verfuegbarkeit fuer Fragen und proaktive Warnungen ueber Probleme oder Chancen sollten alle Teil des Services sein."
           ],
+          image: { src: "/images/blog/de/seo-package-deliverables-checklist.svg", alt: "Non-negotiable SEO package deliverables checklist showing must-have and mid-tier requirements", caption: "Demand these deliverables regardless of which package tier you choose" },
+          callout: { title: "Demand Transparency", text: "Every SEO package should include monthly reporting with YoY data, an implementation log showing exactly what was done, a strategy document updated quarterly, and access to the tools and data behind the work." },
         },
         {
           heading: "Pakete verschiedener Agenturen vergleichen",
@@ -346,7 +375,7 @@ export const ecommerceSeoPackages: BlogArticle = {
             "Schauen Sie, wer die Arbeit macht. Junior-Teammitglieder oder Offshore-Auftragnehmer, die die Ausfuehrung uebernehmen, sind nicht grundsaetzlich schlecht, aber Sie sollten es wissen. Wenn Sie Premium-Saetze zahlen, sollten Sie Senior-Level-Beteiligung an Strategie und Qualitaetskontrolle erwarten. Fragen Sie konkret: Wer wird den Content schreiben? Wer wird die technische SEO-Arbeit machen? Wer wird den Linkaufbau-Outreach durchfuehren?",
             "Pruefen Sie die Vertragsbedingungen. Monatlich kuendbare Vertraege sind zu Ihrem Vorteil, weil die Agentur sich Ihr fortgesetztes Geschaeft verdienen muss. Agenturen, die vorab 12-monatige Bindungen verlangen, verlagern das Risiko von sich auf Sie. Eine gewisse Anfangsbindung (3 Monate) ist vernuenftig, weil SEO-Ergebnisse Zeit brauchen. Eine einjährige Bindung ohne Leistungsbenchmarks ist es nicht.",
             "Fragen Sie, was passiert, wenn etwas schiefgeht. Wenn ein Google-Algorithmus-Update Ihren Traffic einbrechen laesst, was ist der Reaktionsplan der Agentur? Wenn ein technisches Problem die Indexierung kaputt macht, wie schnell reagieren sie? Die besten Agenturen haben Incident-Response-Prozesse und berechnen fuer Notfall-Support nichts extra.",
-            "Fragen Sie schliesslich nach Exklusivitaet. Einige Agenturen weigern sich, mit konkurrierenden Unternehmen in derselben Nische zu arbeiten. Andere nehmen gerne gleichzeitig Ihr Geld und das Ihres Wettbewerbers. Wissen Sie, worauf Sie sich einlassen. Erwaegen Sie vor der Festlegung, ein eigenstaendiges [SEO Audit](/seo-audit) anzufordern, damit Sie eine unabhaengige Baseline haben, an der Sie den Fortschritt messen koennen."
+            "Fragen Sie schliesslich nach Exklusivitaet. Einige Agenturen weigern sich, mit konkurrierenden Unternehmen in derselben Nische zu arbeiten. Andere nehmen gerne gleichzeitig Ihr Geld und das Ihres Wettbewerbers. Wissen Sie, worauf Sie sich einlassen. Erwaegen Sie vor der Festlegung, ein eigenstaendiges [SEO Audit](/tools/ecommerce-seo-audit) anzufordern, damit Sie eine unabhaengige Baseline haben, an der Sie den Fortschritt messen koennen."
           ],
         },
         {
@@ -384,6 +413,7 @@ export const ecommerceSeoPackages: BlogArticle = {
             "I retainer continuativi coprono un lavoro continuativo mese dopo mese. È qui che si ottengono la maggior parte dei risultati SEO per ecommerce, perché la SEO non è una correzione una tantum. I posizionamenti vanno monitorati, nuovi contenuti vanno pubblicati, i problemi tecnici emergono a ogni aggiornamento della piattaforma e il link building richiede uno sforzo costante. I retainer mensili per ecommerce vanno da 1.500 a 15.000 dollari a seconda dell'ambito e dell'agenzia.",
             "Dalla nostra esperienza, i negozi che trattano la SEO come un progetto (farlo una volta e andare avanti) vedono i risultati ristagnare o calare in 6-12 mesi. I negozi che investono in retainer continuativi vedono rendimenti cumulativi perché il traffico organico si costruisce su se stesso nel tempo. Per aiuto nel decidere quale pacchetto si adatta ai tuoi obiettivi, consulta la nostra [guida alla strategia SEO per ecommerce](/blog/ecommerce-seo-strategy)."
           ],
+          image: { src: "/images/blog/it/packages-onetime-vs-retainer.svg", alt: "Comparison of one-time SEO packages versus ongoing retainers showing scope, pricing, and best use cases", caption: "Most ecommerce stores benefit more from retainers -- SEO compounds over time." },
         },
         {
           heading: "Cosa includono i pacchetti entry-level (1.500-3.000 dollari al mese)",
@@ -394,6 +424,7 @@ export const ecommerceSeoPackages: BlogArticle = {
             "I pacchetti entry-level funzionano meglio per negozi più piccoli con meno di 2.000 prodotti che hanno già una base tecnica ragionevolmente solida. Se il tuo sito ha un debito tecnico serio, hai bisogno di un investimento iniziale maggiore per sistemare le fondamenta prima che l'ottimizzazione continuativa abbia senso.",
             "Aspettati progressi misurabili in 4-6 mesi. Nel primo anno, un pacchetto entry-level ben eseguito dovrebbe produrre una crescita del 20-40% nel traffico organico verso le pagine ottimizzate. Questa è un'aspettativa realistica per questo livello di investimento."
           ],
+          image: { src: "/images/blog/it/seo-package-tiers.svg", alt: "Three SEO package tiers compared: entry level, mid tier, and premium with included services and pricing", caption: "What each SEO package tier includes and the store sizes they serve" },
         },
         {
           heading: "Cosa includono i pacchetti di fascia media (3.000-7.000 dollari al mese)",
@@ -404,6 +435,7 @@ export const ecommerceSeoPackages: BlogArticle = {
             "In questa fascia di prezzo, dovresti aspettarti un account manager dedicato. Dovresti avere una persona specifica che puoi contattare per le domande e che conosce il tuo account a fondo. Se vieni passato tra persone diverse ogni mese, l'agenzia si sta disperdendo troppo.",
             "Aspettative sui risultati: in 12 mesi, un pacchetto di fascia media per un negozio con 2.000-20.000 prodotti dovrebbe produrre una crescita del 40-80% nel traffico organico e un aumento apprezzabile dei ricavi organici. Abbiamo visto clienti a questo livello di investimento passare da 30.000 a 65.000 dollari al mese di ricavi organici in un anno."
           ],
+          callout: { title: "Mid-Tier Sweet Spot", text: "The $3K-$7K/month range is where meaningful ecommerce SEO happens. Clients at this level have gone from $30,000 to $65,000/month in organic revenue within a year -- a clear ROI on the investment." },
         },
         {
           heading: "Cosa includono i pacchetti premium (7.000-15.000 dollari al mese)",
@@ -414,6 +446,8 @@ export const ecommerceSeoPackages: BlogArticle = {
             "Gestiamo pacchetti premium per diverse aziende ecommerce multi-brand. Il lavoro implica il coordinamento tra più storefront, la gestione di diverse strategie SEO per diversi marchi e l'allineamento con i loro team di paid media ed email marketing. Questo livello di integrazione richiede talenti di livello senior, il che si riflette nel costo.",
             "Aspettative sui risultati: in 12-18 mesi, i pacchetti premium dovrebbero produrre una crescita significativa dei ricavi organici, spesso dell'80-150%. Per un cliente che gestisce cinque storefront, i ricavi organici sono cresciuti da 220.000 a 510.000 dollari al mese in 14 mesi. Questo tipo di ritorno giustifica l'investimento molte volte."
           ],
+          image: { src: "/images/blog/it/premium-package-deliverables.svg", alt: "Premium SEO package scope showing six service areas and expected results of 80-150% organic revenue growth", caption: "Premium packages should function as an extension of your marketing team" },
+          callout: { title: "Premium ROI", text: "One client operating five storefronts saw organic revenue grow from $220,000 to $510,000 per month over 14 months with a premium package. The agency coordinated across multiple brands, paid media, and email teams." },
         },
         {
           heading: "Quali deliverable aspettarsi e cosa pretendere",
@@ -425,6 +459,8 @@ export const ecommerceSeoPackages: BlogArticle = {
             "L'accesso a strumenti e dati dovrebbe essere incluso. La tua agenzia dovrebbe darti accesso o report dagli strumenti che usa, inclusi dati di crawl, monitoraggio dei posizionamenti e monitoraggio dei backlink. Dovresti poter verificare il loro lavoro in modo indipendente se lo desideri.",
             "Una comunicazione regolare oltre ai report mensili è attesa a livello medio e superiore. Call bisettimanali, disponibilità via Slack o email per le domande e avvisi proattivi su problemi o opportunità dovrebbero tutti essere parte del servizio."
           ],
+          image: { src: "/images/blog/it/seo-package-deliverables-checklist.svg", alt: "Non-negotiable SEO package deliverables checklist showing must-have and mid-tier requirements", caption: "Demand these deliverables regardless of which package tier you choose" },
+          callout: { title: "Demand Transparency", text: "Every SEO package should include monthly reporting with YoY data, an implementation log showing exactly what was done, a strategy document updated quarterly, and access to the tools and data behind the work." },
         },
         {
           heading: "Come confrontare i pacchetti tra diverse agenzie",
@@ -434,7 +470,7 @@ export const ecommerceSeoPackages: BlogArticle = {
             "Guarda chi farà il lavoro. Che membri junior del team o contractor offshore facciano l'esecuzione non è intrinsecamente negativo, ma dovresti saperlo. Se stai pagando tariffe premium, dovresti aspettarti il coinvolgimento di profili senior nella strategia e nel controllo qualità. Chiedi specificamente: chi scriverà i contenuti? Chi farà il lavoro di SEO tecnica? Chi gestirà l'outreach per il link building?",
             "Verifica i termini contrattuali. I contratti mese per mese ti favoriscono perché l'agenzia deve guadagnarsi la tua fiducia continuata. Le agenzie che richiedono impegni di 12 mesi in anticipo stanno trasferendo il rischio da loro a te. Un certo impegno iniziale (3 mesi) è ragionevole perché i risultati SEO richiedono tempo. Un vincolo annuale senza benchmark di performance non lo è.",
             "Chiedi cosa succede quando qualcosa va storto. Se un aggiornamento dell'algoritmo di Google fa crollare il tuo traffico, qual è il piano di risposta dell'agenzia? Se un problema tecnico interrompe l'indicizzazione, quanto velocemente rispondono? Le migliori agenzie hanno processi di risposta agli incidenti e non addebitano extra per il supporto di emergenza.",
-            "Infine, chiedi dell'esclusività. Alcune agenzie si rifiutano di lavorare con aziende competitor nella stessa nicchia. Altre prendono volentieri i tuoi soldi e quelli del tuo competitor contemporaneamente. Sappi in cosa ti stai impegnando. Prima di impegnarti, considera di richiedere un [audit SEO](/seo-audit) indipendente per avere una baseline indipendente contro cui misurare i progressi."
+            "Infine, chiedi dell'esclusività. Alcune agenzie si rifiutano di lavorare con aziende competitor nella stessa nicchia. Altre prendono volentieri i tuoi soldi e quelli del tuo competitor contemporaneamente. Sappi in cosa ti stai impegnando. Prima di impegnarti, considera di richiedere un [audit SEO](/tools/ecommerce-seo-audit) indipendente per avere una baseline indipendente contro cui misurare i progressi."
           ],
         },
         {
@@ -448,6 +484,7 @@ export const ecommerceSeoPackages: BlogArticle = {
             "Fai attenzione ai pacchetti che ti vincolano a strumenti o piattaforme proprietarie. Alcune agenzie costruiscono il tuo workflow SEO sui propri sistemi, il che significa che perdi tutto se te ne vai. I tuoi contenuti, i tuoi dati e il tuo lavoro dovrebbero appartenere a te. Punto.",
             "I pacchetti che includono link building ma si rifiutano di rivelare le fonti sono un segnale d'allarme importante. Devi sapere da dove provengono i tuoi backlink. Se l'agenzia sta costruendo link da siti spam o irrilevanti, potrebbe risultare in una penalizzazione di Google che danneggia il tuo negozio per anni. Per confrontare come i principali provider strutturano le loro offerte, leggi la nostra rassegna delle [agenzie SEO per ecommerce](/blog/ecommerce-seo-agencies)."
           ],
+          image: { src: "/images/blog/it/packages-red-flags.svg", alt: "SEO package red flags versus green flags comparison showing warning signs and positive signals", caption: "If a package has more red flags than green, keep looking." },
         },
       ],
     },
@@ -472,6 +509,7 @@ export const ecommerceSeoPackages: BlogArticle = {
             "Doorlopende retainers dekken continu werk maand na maand. Hier komen de meeste ecommerce SEO-resultaten vandaan, omdat SEO geen eenmalige fix is. Rankings moeten worden gemonitord, nieuwe content moet worden gepubliceerd, technische problemen duiken op bij elke platformupdate en linkbuilding vereist aanhoudende inspanning. Maandelijkse retainers voor ecommerce variëren van 1.500 tot 15.000 dollar afhankelijk van het bereik en het bureau.",
             "In onze ervaring zien winkels die SEO als een project behandelen (één keer doen en verder gaan) resultaten stagneren of afnemen binnen 6 tot 12 maanden. Winkels die investeren in doorlopende retainers zien cumulatieve rendementen omdat organisch verkeer op zichzelf voortbouwt over de tijd. Voor hulp bij het kiezen welk pakket past bij je doelen, bekijk onze [ecommerce SEO-strategiegids](/blog/ecommerce-seo-strategy)."
           ],
+          image: { src: "/images/blog/nl/packages-onetime-vs-retainer.svg", alt: "Comparison of one-time SEO packages versus ongoing retainers showing scope, pricing, and best use cases", caption: "Most ecommerce stores benefit more from retainers -- SEO compounds over time." },
         },
         {
           heading: "Wat instappakketten bevatten (1.500 tot 3.000 dollar per maand)",
@@ -482,6 +520,7 @@ export const ecommerceSeoPackages: BlogArticle = {
             "Instappakketten werken het best voor kleinere winkels met minder dan 2.000 producten die al een redelijk solide technische basis hebben. Als je site serieuze technische schuld heeft, heb je een grotere initiële investering nodig om de basis te repareren voordat doorlopende optimalisatie zin heeft.",
             "Verwacht meetbare vooruitgang in 4 tot 6 maanden. In het eerste jaar zou een goed uitgevoerd instappakket een groei van 20 tot 40% in organisch verkeer naar geoptimaliseerde pagina's moeten opleveren. Dat is een realistische verwachting voor dit investeringsniveau."
           ],
+          image: { src: "/images/blog/nl/seo-package-tiers.svg", alt: "Three SEO package tiers compared: entry level, mid tier, and premium with included services and pricing", caption: "What each SEO package tier includes and the store sizes they serve" },
         },
         {
           heading: "Wat middensegment-pakketten bevatten (3.000 tot 7.000 dollar per maand)",
@@ -492,6 +531,7 @@ export const ecommerceSeoPackages: BlogArticle = {
             "In dit prijsbereik zou je een toegewijd accountmanager moeten verwachten. Je zou één specifiek persoon moeten hebben die je kunt bereiken met vragen en die je account door en door kent. Als je elke maand tussen verschillende mensen wordt doorgeschoven, spreidt het bureau zich te dun.",
             "Resultaatverwachtingen: binnen 12 maanden zou een middensegment-pakket voor een winkel met 2.000 tot 20.000 producten een groei van 40 tot 80% in organisch verkeer en een merkbare stijging in organische omzet moeten opleveren. We hebben klanten op dit investeringsniveau zien groeien van 30.000 naar 65.000 dollar per maand aan organische omzet in één jaar."
           ],
+          callout: { title: "Mid-Tier Sweet Spot", text: "The $3K-$7K/month range is where meaningful ecommerce SEO happens. Clients at this level have gone from $30,000 to $65,000/month in organic revenue within a year -- a clear ROI on the investment." },
         },
         {
           heading: "Wat premium pakketten bevatten (7.000 tot 15.000 dollar per maand)",
@@ -502,6 +542,8 @@ export const ecommerceSeoPackages: BlogArticle = {
             "We voeren premium pakketten uit voor meerdere multi-merk ecommerce-bedrijven. Het werk omvat coördinatie over meerdere webwinkels, het beheren van verschillende SEO-strategieën voor verschillende merken, en afstemming met hun paid media- en e-mailmarketingteams. Dit niveau van integratie vereist talent op seniorniveau, wat zich weerspiegelt in de kosten.",
             "Resultaatverwachtingen: binnen 12 tot 18 maanden zouden premium pakketten een significante groei in organische omzet moeten opleveren, vaak 80 tot 150%. Voor een klant die vijf webwinkels exploiteert, groeide de organische omzet van 220.000 naar 510.000 dollar per maand over 14 maanden. Dat soort rendement rechtvaardigt de investering vele malen."
           ],
+          image: { src: "/images/blog/nl/premium-package-deliverables.svg", alt: "Premium SEO package scope showing six service areas and expected results of 80-150% organic revenue growth", caption: "Premium packages should function as an extension of your marketing team" },
+          callout: { title: "Premium ROI", text: "One client operating five storefronts saw organic revenue grow from $220,000 to $510,000 per month over 14 months with a premium package. The agency coordinated across multiple brands, paid media, and email teams." },
         },
         {
           heading: "Welke deliverables te verwachten en te eisen",
@@ -513,6 +555,8 @@ export const ecommerceSeoPackages: BlogArticle = {
             "Toegang tot tools en data zou inbegrepen moeten zijn. Je bureau zou je toegang of rapporten moeten geven van de tools die ze gebruiken, inclusief crawldata, rankingtracking en backlinkmonitoring. Je zou hun werk onafhankelijk moeten kunnen verifiëren als je dat wilt.",
             "Regelmatige communicatie buiten de maandelijkse rapporten wordt verwacht op midden- en premiumniveau. Tweewekelijkse gesprekken, beschikbaarheid via Slack of e-mail voor vragen, en proactieve waarschuwingen over problemen of kansen zouden allemaal deel van de dienst moeten zijn."
           ],
+          image: { src: "/images/blog/nl/seo-package-deliverables-checklist.svg", alt: "Non-negotiable SEO package deliverables checklist showing must-have and mid-tier requirements", caption: "Demand these deliverables regardless of which package tier you choose" },
+          callout: { title: "Demand Transparency", text: "Every SEO package should include monthly reporting with YoY data, an implementation log showing exactly what was done, a strategy document updated quarterly, and access to the tools and data behind the work." },
         },
         {
           heading: "Hoe pakketten van verschillende bureaus te vergelijken",
@@ -522,7 +566,7 @@ export const ecommerceSeoPackages: BlogArticle = {
             "Kijk wie het werk doet. Dat junior teamleden of offshore contractors de uitvoering doen is niet inherent slecht, maar je zou het moeten weten. Als je premiumtarieven betaalt, zou je betrokkenheid op seniorniveau bij strategie en kwaliteitscontrole moeten verwachten. Vraag specifiek: wie schrijft de content? Wie doet het technische SEO-werk? Wie voert de linkbuilding-outreach uit?",
             "Controleer de contractvoorwaarden. Maand-tot-maand contracten zijn in jouw voordeel omdat het bureau je voortdurende vertrouwen moet verdienen. Bureaus die vooraf 12 maanden binding eisen verschuiven het risico van hen naar jou. Enige initiële binding (3 maanden) is redelijk omdat SEO-resultaten tijd nodig hebben. Een jaarlijkse binding zonder prestatiebenchmarks niet.",
             "Vraag wat er gebeurt als er iets misgaat. Als een Google-algoritme-update je verkeer laat kelderen, wat is het responsplan van het bureau? Als een technisch probleem de indexering breekt, hoe snel reageren ze? De beste bureaus hebben incident-responsprocessen en rekenen niet extra voor noodondersteuning.",
-            "Vraag ten slotte naar exclusiviteit. Sommige bureaus weigeren samen te werken met concurrerende bedrijven in dezelfde niche. Andere nemen graag jouw geld en dat van je concurrent tegelijkertijd aan. Weet waar je aan begint. Overweeg voordat je je vastlegt om een zelfstandig [SEO-audit](/seo-audit) aan te vragen zodat je een onafhankelijke baseline hebt om voortgang tegen af te meten."
+            "Vraag ten slotte naar exclusiviteit. Sommige bureaus weigeren samen te werken met concurrerende bedrijven in dezelfde niche. Andere nemen graag jouw geld en dat van je concurrent tegelijkertijd aan. Weet waar je aan begint. Overweeg voordat je je vastlegt om een zelfstandig [SEO-audit](/tools/ecommerce-seo-audit) aan te vragen zodat je een onafhankelijke baseline hebt om voortgang tegen af te meten."
           ],
         },
         {
@@ -536,6 +580,7 @@ export const ecommerceSeoPackages: BlogArticle = {
             "Pas op voor pakketten die je vastzetten aan eigen tools of platformen. Sommige bureaus bouwen je SEO-workflow op hun eigen systemen, wat betekent dat je alles kwijtraakt als je vertrekt. Je content, je data en je werkproduct zouden van jou moeten zijn. Punt.",
             "Pakketten die linkbuilding bevatten maar weigeren de bronnen te onthullen zijn een belangrijk waarschuwingssignaal. Je moet weten waar je backlinks vandaan komen. Als het bureau links bouwt van spam- of irrelevante sites, kan dit resulteren in een Google-penalty die je winkel jarenlang schaadt. Om te vergelijken hoe toonaangevende aanbieders hun aanbod structureren, lees onze samenvatting van [ecommerce SEO-bureaus](/blog/ecommerce-seo-agencies)."
           ],
+          image: { src: "/images/blog/nl/packages-red-flags.svg", alt: "SEO package red flags versus green flags comparison showing warning signs and positive signals", caption: "If a package has more red flags than green, keep looking." },
         },
       ],
     },

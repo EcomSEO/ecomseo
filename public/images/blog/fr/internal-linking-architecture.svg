@@ -1,0 +1,41 @@
+<svg viewBox="0 0 680 320" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <text x="340" y="28" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#a78bfa">Ecommerce Internal Linking Architecture</text>
+  <rect x="270" y="50" width="140" height="40" rx="8" stroke="#a78bfa" stroke-width="2" fill="none"/>
+  <text x="340" y="75" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#a78bfa">Homepage</text>
+  <line x1="300" y1="90" x2="160" y2="120" stroke="#e2e8f0" stroke-width="1.5" stroke-dasharray="4"/>
+  <line x1="340" y1="90" x2="340" y2="120" stroke="#e2e8f0" stroke-width="1.5" stroke-dasharray="4"/>
+  <line x1="380" y1="90" x2="520" y2="120" stroke="#e2e8f0" stroke-width="1.5" stroke-dasharray="4"/>
+  <rect x="80" y="120" width="160" height="36" rx="6" stroke="#60a5fa" stroke-width="2" fill="none"/>
+  <text x="160" y="143" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#60a5fa">Category A</text>
+  <rect x="260" y="120" width="160" height="36" rx="6" stroke="#60a5fa" stroke-width="2" fill="none"/>
+  <text x="340" y="143" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#60a5fa">Category B</text>
+  <rect x="440" y="120" width="160" height="36" rx="6" stroke="#60a5fa" stroke-width="2" fill="none"/>
+  <text x="520" y="143" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#60a5fa">Category C</text>
+  <line x1="130" y1="156" x2="100" y2="180" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="4"/>
+  <line x1="190" y1="156" x2="220" y2="180" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="4"/>
+  <rect x="50" y="180" width="110" height="30" rx="5" stroke="#4ade80" stroke-width="1.5" fill="none"/>
+  <text x="105" y="200" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#4ade80">Products</text>
+  <rect x="175" y="180" width="110" height="30" rx="5" stroke="#4ade80" stroke-width="1.5" fill="none"/>
+  <text x="230" y="200" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#4ade80">Products</text>
+  <line x1="310" y1="156" x2="310" y2="180" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="4"/>
+  <line x1="370" y1="156" x2="370" y2="180" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="4"/>
+  <rect x="260" y="180" width="60" height="30" rx="5" stroke="#4ade80" stroke-width="1.5" fill="none"/>
+  <text x="290" y="200" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#4ade80">Prod.</text>
+  <rect x="340" y="180" width="60" height="30" rx="5" stroke="#4ade80" stroke-width="1.5" fill="none"/>
+  <text x="370" y="200" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#4ade80">Prod.</text>
+  <rect x="460" y="180" width="120" height="30" rx="5" stroke="#4ade80" stroke-width="1.5" fill="none"/>
+  <text x="520" y="200" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#4ade80">Products</text>
+  <line x1="520" y1="156" x2="520" y2="180" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="4"/>
+  <rect x="50" y="235" width="170" height="36" rx="6" stroke="#f97316" stroke-width="2" fill="none"/>
+  <text x="135" y="258" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#f97316">Buying Guides</text>
+  <rect x="255" y="235" width="170" height="36" rx="6" stroke="#f97316" stroke-width="2" fill="none"/>
+  <text x="340" y="258" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#f97316">Comparisons</text>
+  <rect x="460" y="235" width="170" height="36" rx="6" stroke="#f97316" stroke-width="2" fill="none"/>
+  <text x="545" y="258" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#f97316">How-To Articles</text>
+  <line x1="135" y1="235" x2="160" y2="210" stroke="#f97316" stroke-width="1" stroke-dasharray="3"/>
+  <line x1="340" y1="235" x2="340" y2="210" stroke="#f97316" stroke-width="1" stroke-dasharray="3"/>
+  <line x1="545" y1="235" x2="520" y2="210" stroke="#f97316" stroke-width="1" stroke-dasharray="3"/>
+  <line x1="135" y1="235" x2="230" y2="210" stroke="#f97316" stroke-width="1" stroke-dasharray="3"/>
+  <line x1="30" y1="290" x2="650" y2="290" stroke="#a78bfa" stroke-width="1" stroke-dasharray="4"/>
+  <text x="340" y="310" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#a78bfa">Content hubs link to products -- 20-40% of product pages have fewer than 3 internal links</text>
+</svg>

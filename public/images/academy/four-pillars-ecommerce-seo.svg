@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 300" fill="none">
+  <!-- Title -->
+  <text x="340" y="24" text-anchor="middle" fill="#a78bfa" font-family="Arial,sans-serif" font-size="14" font-weight="700">The Four Pillars of Ecommerce SEO</text>
+
+  <!-- Foundation bar -->
+  <rect x="60" y="230" width="560" height="36" rx="6" fill="#1a1a2e" stroke="#a78bfa" stroke-width="1.5"/>
+  <text x="340" y="252" text-anchor="middle" fill="#a78bfa" font-family="Arial,sans-serif" font-size="12" font-weight="600">Revenue Growth Through Organic Search</text>
+
+  <!-- Pillar 1 -->
+  <rect x="72" y="80" width="120" height="146" rx="6" fill="#1a1a2e" stroke="#4ade80" stroke-width="1.5"/>
+  <text x="132" y="104" text-anchor="middle" fill="#4ade80" font-family="Arial,sans-serif" font-size="11" font-weight="600">Technical</text>
+  <text x="132" y="118" text-anchor="middle" fill="#4ade80" font-family="Arial,sans-serif" font-size="11" font-weight="600">SEO</text>
+  <text x="132" y="140" text-anchor="middle" fill="#94a3b8" font-family="Arial,sans-serif" font-size="8">Crawlability</text>
+  <text x="132" y="154" text-anchor="middle" fill="#94a3b8" font-family="Arial,sans-serif" font-size="8">Page speed</text>
+  <text x="132" y="168" text-anchor="middle" fill="#94a3b8" font-family="Arial,sans-serif" font-size="8">Structured data</text>
+  <text x="132" y="182" text-anchor="middle" fill="#94a3b8" font-family="Arial,sans-serif" font-size="8">Indexation</text>
+  <text x="132" y="210" text-anchor="middle" fill="#334155" font-family="Arial,sans-serif" font-size="7">FOUNDATION</text>
+
+  <!-- Pillar 2 -->
+  <rect x="206" y="80" width="120" height="146" rx="6" fill="#1a1a2e" stroke="#60a5fa" stroke-width="1.5"/>
+  <text x="266" y="104" text-anchor="middle" fill="#60a5fa" font-family="Arial,sans-serif" font-size="11" font-weight="600">On-Page</text>
+  <text x="266" y="118" text-anchor="middle" fill="#60a5fa" font-family="Arial,sans-serif" font-size="11" font-weight="600">SEO</text>
+  <text x="266" y="140" text-anchor="middle" fill="#94a3b8" font-family="Arial,sans-serif" font-size="8">Keywords</text>
+  <text x="266" y="154" text-anchor="middle" fill="#94a3b8" font-family="Arial,sans-serif" font-size="8">Title tags</text>
+  <text x="266" y="168" text-anchor="middle" fill="#94a3b8" font-family="Arial,sans-serif" font-size="8">Descriptions</text>
+  <text x="266" y="182" text-anchor="middle" fill="#94a3b8" font-family="Arial,sans-serif" font-size="8">Headings</text>
+
+  <!-- Pillar 3 -->
+  <rect x="340" y="80" width="120" height="146" rx="6" fill="#1a1a2e" stroke="#f97316" stroke-width="1.5"/>
+  <text x="400" y="104" text-anchor="middle" fill="#f97316" font-family="Arial,sans-serif" font-size="11" font-weight="600">Content</text>
+  <text x="400" y="118" text-anchor="middle" fill="#f97316" font-family="Arial,sans-serif" font-size="11" font-weight="600">Strategy</text>
+  <text x="400" y="140" text-anchor="middle" fill="#94a3b8" font-family="Arial,sans-serif" font-size="8">Buying guides</text>
+  <text x="400" y="154" text-anchor="middle" fill="#94a3b8" font-family="Arial,sans-serif" font-size="8">Comparisons</text>
+  <text x="400" y="168" text-anchor="middle" fill="#94a3b8" font-family="Arial,sans-serif" font-size="8">Blog posts</text>
+  <text x="400" y="182" text-anchor="middle" fill="#94a3b8" font-family="Arial,sans-serif" font-size="8">Internal linking</text>
+
+  <!-- Pillar 4 -->
+  <rect x="474" y="80" width="120" height="146" rx="6" fill="#1a1a2e" stroke="#ef4444" stroke-width="1.5"/>
+  <text x="534" y="104" text-anchor="middle" fill="#ef4444" font-family="Arial,sans-serif" font-size="11" font-weight="600">Off-Page</text>
+  <text x="534" y="118" text-anchor="middle" fill="#ef4444" font-family="Arial,sans-serif" font-size="11" font-weight="600">SEO</text>
+  <text x="534" y="140" text-anchor="middle" fill="#94a3b8" font-family="Arial,sans-serif" font-size="8">Backlinks</text>
+  <text x="534" y="154" text-anchor="middle" fill="#94a3b8" font-family="Arial,sans-serif" font-size="8">Digital PR</text>
+  <text x="534" y="168" text-anchor="middle" fill="#94a3b8" font-family="Arial,sans-serif" font-size="8">Brand mentions</text>
+  <text x="534" y="182" text-anchor="middle" fill="#94a3b8" font-family="Arial,sans-serif" font-size="8">Authority</text>
+
+  <!-- Top label -->
+  <text x="132" y="65" text-anchor="middle" fill="#4ade80" font-family="Arial,sans-serif" font-size="8" font-weight="600">Start here</text>
+  <line x1="132" y1="68" x2="132" y2="78" stroke="#4ade80" stroke-width="1"/>
+  <polygon points="128,76 132,82 136,76" fill="#4ade80"/>
+
+  <text x="340" y="286" text-anchor="middle" fill="#64748b" font-family="Arial,sans-serif" font-size="8">All four pillars work together. Start with Technical SEO to unblock everything else.</text>
+</svg>

@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 250" fill="none">
+  <text x="210" y="22" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#a78bfa">Funciones SEO integradas en BigCommerce</text>
+  <!-- Grid of features -->
+  <!-- Row 1 -->
+  <rect x="25" y="42" width="115" height="50" rx="6" stroke="#4ade80" stroke-width="1.5" fill="none"/>
+  <text x="82" y="62" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#4ade80">Meta Tags</text>
+  <text x="82" y="78" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">Title, desc, slug</text>
+  <text x="82" y="88" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">per page in admin</text>
+
+  <rect x="152" y="42" width="115" height="50" rx="6" stroke="#4ade80" stroke-width="1.5" fill="none"/>
+  <text x="210" y="62" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#4ade80">Sitemap XML</text>
+  <text x="210" y="78" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">Auto-generated</text>
+  <text x="210" y="88" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">per-page control</text>
+
+  <rect x="279" y="42" width="115" height="50" rx="6" stroke="#4ade80" stroke-width="1.5" fill="none"/>
+  <text x="337" y="62" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#4ade80">Akamai CDN</text>
+  <text x="337" y="78" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">WebP auto-convert</text>
+  <text x="337" y="88" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">responsive images</text>
+
+  <!-- Row 2 -->
+  <rect x="25" y="104" width="115" height="50" rx="6" stroke="#60a5fa" stroke-width="1.5" fill="none"/>
+  <text x="82" y="124" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#60a5fa">Producto Schema</text>
+  <text x="82" y="140" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">JSON-LD with price,</text>
+  <text x="82" y="150" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">reviews, availability</text>
+
+  <rect x="152" y="104" width="115" height="50" rx="6" stroke="#60a5fa" stroke-width="1.5" fill="none"/>
+  <text x="210" y="124" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#60a5fa">Robots.txt</text>
+  <text x="210" y="140" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">Editable via</text>
+  <text x="210" y="150" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">admin panel</text>
+
+  <rect x="279" y="104" width="115" height="50" rx="6" stroke="#60a5fa" stroke-width="1.5" fill="none"/>
+  <text x="337" y="124" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#60a5fa">Canonical Tags</text>
+  <text x="337" y="140" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">Auto-generated</text>
+  <text x="337" y="150" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">for all products</text>
+
+  <!-- Comparison bar -->
+  <rect x="25" y="175" width="369" height="32" rx="6" stroke="#a78bfa" stroke-width="1" fill="none"/>
+  <text x="210" y="190" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#a78bfa">All native -- no third-party apps required for core SEO</text>
+  <text x="210" y="202" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">Missing: breadcrumb schema, FAQ schema, hreflang (add manually in Stencil)</text>
+
+  <!-- Legend -->
+  <rect x="110" y="225" width="8" height="8" rx="2" fill="#4ade80"/>
+  <text x="123" y="233" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">Content controls</text>
+  <rect x="220" y="225" width="8" height="8" rx="2" fill="#60a5fa"/>
+  <text x="233" y="233" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">SEO técnico</text>
+</svg>

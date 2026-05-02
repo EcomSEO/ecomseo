@@ -3,7 +3,7 @@ import type { BlogArticle } from "../types";
 export const magentoEcommerceSeo: BlogArticle = {
   slug: "magento-ecommerce-seo",
   category: "platforms",
-  publishDate: "2025-07-01",
+  publishDate: "2026-03-01",
   readingTime: 11,
   author: "Fabian van Til",
   authorRole: "CEO at EcomSEO",
@@ -39,6 +39,8 @@ export const magentoEcommerceSeo: BlogArticle = {
             "In Magento 2, go to Stores > Configuration > Catalog > Catalog > Layered Navigation. Set 'Use In Search Results Layered Navigation' carefully. Then use robots meta tags to noindex filter combinations that lack search demand. We typically add a custom module that applies noindex,follow to any URL containing more than one filter parameter, while keeping single meaningful filter pages indexable.",
             "Another approach is using AJAX-based filtering that does not change the URL at all. This keeps all the filtering functionality for users while presenting a single, clean URL to search engines. Magento extensions like Amasty Improved Layered Navigation and Mirasvit Layered Navigation handle this well.",
           ],
+          image: { src: "/images/blog/magento-layered-nav-fix.svg", alt: "Flowchart showing how to fix Magento layered navigation index bloat with decision logic and two implementation options", caption: "Unconfigured layered navigation can generate 340,000+ junk URLs from just 200 categories." },
+          callout: { title: "Index Bloat Alert", text: "A Magento store with 200 categories had 340,000 indexable filter URLs from unconfigured layered navigation. Most were thin duplicates of parent categories, wasting crawl budget and diluting ranking signals." },
         },
         {
           heading: "URL rewrites and the Magento URL problem",
@@ -49,6 +51,8 @@ export const magentoEcommerceSeo: BlogArticle = {
             "Clean up the url_rewrite table periodically. Old redirects from products that no longer exist, rewrites for deleted categories, and duplicate entries all accumulate. We run a cleanup script quarterly that removes orphaned rewrites. On one client's store, clearing 1.8 million stale url_rewrite entries reduced the database table size by 94% and improved admin page load times noticeably.",
             "For URL suffixes, Magento defaults to '.html' on both category and product URLs. There is no SEO reason to keep or remove this suffix, but be consistent. If you decide to remove it, do so during a migration or redesign, not as an isolated change, because every existing URL will need a redirect.",
           ],
+          image: { src: "/images/blog/magento-url-rewrite-cleanup.svg", alt: "Magento URL rewrite cleanup strategy showing the multi-URL problem, the fix of removing category paths, and quarterly cleanup process", caption: "Clearing 1.8M stale url_rewrite entries reduced the database table by 94%." },
+          callout: { title: "Remove Category Paths", text: "Set 'Use Categories Path for Product URLs' to No in Magento 2 config. This gives each product a single clean URL instead of multiple category-path variants. Run in staging first and set up redirects." },
         },
         {
           heading: "Site speed on Magento requires real investment",
@@ -60,6 +64,7 @@ export const magentoEcommerceSeo: BlogArticle = {
             "Hosting infrastructure matters more for Magento than for simpler platforms. A shared hosting plan will not cut it. At minimum, you need a VPS or dedicated server with SSD storage, PHP 8.1+, Redis for session and cache storage, Elasticsearch or OpenSearch for catalog search, and Varnish for full page caching. For stores doing over 10,000 monthly visits, we recommend managed Magento hosting providers who specialize in performance tuning.",
             "We benchmark every Magento project against Core Web Vitals targets: LCP under 2.5 seconds, FID under 100ms, and CLS under 0.1. Meeting these thresholds on Magento is possible but requires deliberate optimization at every layer of the stack.",
           ],
+          image: { src: "/images/blog/magento-seo-stack.svg", alt: "Magento performance stack showing hosting, cache, Varnish, CDN, and frontend layers with Core Web Vitals targets", caption: "A properly configured Magento stack with Varnish, Redis, and CDN drops load times from 4-6s to under 1s." },
         },
         {
           heading: "Magento SEO extensions worth installing",
@@ -71,6 +76,7 @@ export const magentoEcommerceSeo: BlogArticle = {
             "Avoid installing multiple SEO extensions that overlap in functionality. Two extensions both trying to manage canonical tags will conflict and cause unpredictable results. Pick one primary SEO suite and supplement it with specialized extensions only where needed.",
             "XML sitemap generation in Magento's default implementation is basic. It dumps all URLs into one file with no priority differentiation and no intelligent change frequency settings. An extension like Amasty XML Sitemap or Mirasvit SEO Suite lets you split sitemaps by type (products, categories, CMS pages), exclude specific URLs, and set priorities based on actual page importance.",
           ],
+          image: { src: "/images/blog/magento-extension-decision.svg", alt: "Magento SEO extension decision guide showing choice between Mirasvit and Amasty suites with supplementary extension options", caption: "Pick one primary SEO suite -- never install two extensions that manage the same feature." },
         },
         {
           heading: "Magento vs headless architecture for SEO",
@@ -92,17 +98,19 @@ export const magentoEcommerceSeo: BlogArticle = {
             "CMS pages created for promotions and campaigns get forgotten after the event ends. These abandoned pages accumulate over time. One Magento store we audited had 450 CMS pages, of which 280 were empty or outdated promotional pages that still appeared in the sitemap. Either redirect them to relevant category pages or delete them and return proper 410 status codes.",
             "Magento's default robots.txt is too permissive. It allows crawling of customer account pages, checkout pages, wishlist pages, and comparison pages. None of these should be crawled. Update robots.txt to disallow /customer/, /checkout/, /wishlist/, /catalog/product_compare/, and any other paths that lead to user-specific or non-content pages.",
           ],
+          image: { src: "/images/blog/magento-common-mistakes.svg", alt: "Four common Magento SEO mistakes with fixes: duplicate store views, bloated titles, junk sitemaps, and permissive robots.txt", caption: "These four Magento SEO mistakes appear on nearly every store we audit." },
         },
         {
           heading: "Planning a Magento SEO project from start to finish",
           body: [
             "Magento SEO is not something you configure once and forget. The platform's complexity means ongoing maintenance is necessary. Here is how we structure a Magento SEO project.",
-            "Phase one is the technical audit. We crawl the entire site with Screaming Frog, analyze the url_rewrite table, check layered navigation indexation, test page speed across device types, and validate structured data. This typically takes 2-3 weeks for a store with over 5,000 products and produces a prioritized list of fixes. A professional [ecommerce SEO audit](/seo-audit) at this stage gives you a complete picture of what needs fixing before any work begins.",
+            "Phase one is the technical audit. We crawl the entire site with Screaming Frog, analyze the url_rewrite table, check layered navigation indexation, test page speed across device types, and validate structured data. This typically takes 2-3 weeks for a store with over 5,000 products and produces a prioritized list of fixes. A professional [ecommerce SEO audit](/tools/ecommerce-seo-audit) at this stage gives you a complete picture of what needs fixing before any work begins.",
             "Phase two is fixing the infrastructure issues. URL structure changes, canonical tag fixes, robots.txt updates, sitemap cleanup, and speed optimizations happen here. This phase usually takes 4-6 weeks because many changes require development work and staging environment testing before deployment.",
             "Phase three is on-page optimization. With the technical foundation solid, we optimize title tags, meta descriptions, H1s, and content across category and product pages. Keyword mapping drives this phase. We often use Magento's SEO extension templates to apply optimizations at scale, then manually refine the highest-priority pages.",
             "Phase four is monitoring and iteration. We track crawl stats in Google Search Console, monitor Core Web Vitals, watch for new indexation issues after Magento updates, and adjust the strategy based on ranking and traffic data. Magento updates sometimes reintroduce SEO problems that were previously fixed, so post-update audits are part of the routine.",
             "Magento is a powerful platform for stores with large catalogs and complex requirements. But it demands SEO attention that simpler platforms do not. If you are on Magento and your organic traffic is not growing, the platform configuration is almost certainly part of the problem. If you are evaluating Shopify as an alternative, our [Shopify ecommerce SEO guide](/blog/shopify-ecommerce-seo) is a useful benchmark for comparing platform capabilities.",
           ],
+          callout: { title: "Four-Phase Approach", text: "Structure Magento SEO as: technical audit (2-3 weeks), infrastructure fixes (4-6 weeks), on-page optimization at scale, then ongoing monitoring. Post-update audits are essential since Magento updates often reintroduce fixed issues." },
         },
       ],
     },
@@ -130,6 +138,8 @@ export const magentoEcommerceSeo: BlogArticle = {
             "Gehen Sie in Magento 2 zu Stores > Configuration > Catalog > Catalog > Layered Navigation. Stellen Sie 'Use In Search Results Layered Navigation' sorgfältig ein. Verwenden Sie dann robots-Meta-Tags, um Filterkombinationen ohne Suchbedarf auf noindex zu setzen. Wir fügen typischerweise ein benutzerdefiniertes Modul hinzu, das noindex,follow auf jede URL mit mehr als einem Filterparameter anwendet, während einzelne bedeutungsvolle Filterseiten indexierbar bleiben.",
             "Ein anderer Ansatz ist die Verwendung von AJAX-basierter Filterung, die die URL überhaupt nicht ändert. Dies behält die gesamte Filterfunktionalität für Benutzer bei und präsentiert Suchmaschinen eine einzige, saubere URL. Magento-Erweiterungen wie Amasty Improved Layered Navigation und Mirasvit Layered Navigation handhaben dies gut.",
           ],
+          image: { src: "/images/blog/de/magento-layered-nav-fix.svg", alt: "Flowchart showing how to fix Magento layered navigation index bloat with decision logic and two implementation options", caption: "Unconfigured layered navigation can generate 340,000+ junk URLs from just 200 categories." },
+          callout: { title: "Index Bloat Alert", text: "A Magento store with 200 categories had 340,000 indexable filter URLs from unconfigured layered navigation. Most were thin duplicates of parent categories, wasting crawl budget and diluting ranking signals." },
         },
         {
           heading: "URL-Rewrites und das Magento-URL-Problem",
@@ -140,6 +150,8 @@ export const magentoEcommerceSeo: BlogArticle = {
             "Bereinigen Sie die url_rewrite-Tabelle regelmäßig. Alte Weiterleitungen von nicht mehr existierenden Produkten, Rewrites für gelöschte Kategorien und doppelte Einträge häufen sich an. Wir führen vierteljährlich ein Bereinigungsskript aus, das verwaiste Rewrites entfernt. Bei einem Kunden-Shop reduzierte das Löschen von 1,8 Millionen veralteten url_rewrite-Einträgen die Datenbanktabellengröße um 94% und verbesserte die Ladezeiten im Admin-Bereich spürbar.",
             "Bei URL-Suffixen verwendet Magento standardmäßig '.html' sowohl für Kategorie- als auch Produkt-URLs. Es gibt keinen SEO-Grund, dieses Suffix beizubehalten oder zu entfernen, aber seien Sie konsistent. Wenn Sie sich entscheiden, es zu entfernen, tun Sie dies während einer Migration oder eines Redesigns, nicht als isolierte Änderung, da jede bestehende URL eine Weiterleitung benötigt.",
           ],
+          image: { src: "/images/blog/de/magento-url-rewrite-cleanup.svg", alt: "Magento URL rewrite cleanup strategy showing the multi-URL problem, the fix of removing category paths, and quarterly cleanup process", caption: "Clearing 1.8M stale url_rewrite entries reduced the database table by 94%." },
+          callout: { title: "Remove Category Paths", text: "Set 'Use Categories Path for Product URLs' to No in Magento 2 config. This gives each product a single clean URL instead of multiple category-path variants. Run in staging first and set up redirects." },
         },
         {
           heading: "Seitengeschwindigkeit bei Magento erfordert echte Investition",
@@ -151,6 +163,7 @@ export const magentoEcommerceSeo: BlogArticle = {
             "Die Hosting-Infrastruktur ist bei Magento wichtiger als bei einfacheren Plattformen. Ein Shared-Hosting-Plan reicht nicht aus. Sie benötigen mindestens einen VPS oder dedizierten Server mit SSD-Speicher, PHP 8.1+, Redis für Session- und Cache-Speicherung, Elasticsearch oder OpenSearch für die Katalogsuche und Varnish für Full Page Caching. Für Shops mit über 10.000 monatlichen Besuchen empfehlen wir verwaltete Magento-Hosting-Anbieter, die auf Performance-Tuning spezialisiert sind.",
             "Wir messen jedes Magento-Projekt an den Core Web Vitals-Zielen: LCP unter 2,5 Sekunden, FID unter 100ms und CLS unter 0,1. Diese Schwellenwerte bei Magento zu erreichen ist möglich, erfordert aber bewusste Optimierung auf jeder Ebene des Stacks.",
           ],
+          image: { src: "/images/blog/de/magento-seo-stack.svg", alt: "Magento performance stack showing hosting, cache, Varnish, CDN, and frontend layers with Core Web Vitals targets", caption: "A properly configured Magento stack with Varnish, Redis, and CDN drops load times from 4-6s to under 1s." },
         },
         {
           heading: "Magento SEO-Erweiterungen, die sich lohnen",
@@ -162,6 +175,7 @@ export const magentoEcommerceSeo: BlogArticle = {
             "Vermeiden Sie die Installation mehrerer SEO-Erweiterungen mit überlappender Funktionalität. Zwei Erweiterungen, die beide versuchen, Canonical Tags zu verwalten, führen zu Konflikten und unvorhersehbaren Ergebnissen. Wählen Sie eine primäre SEO-Suite und ergänzen Sie sie nur bei Bedarf mit spezialisierten Erweiterungen.",
             "Die XML-Sitemap-Generierung in Magentos Standardimplementierung ist grundlegend. Sie legt alle URLs in eine Datei ohne Prioritätsunterscheidung und ohne intelligente Änderungsfrequenz-Einstellungen. Eine Erweiterung wie Amasty XML Sitemap oder Mirasvit SEO Suite ermöglicht es Ihnen, Sitemaps nach Typ aufzuteilen (Produkte, Kategorien, CMS-Seiten), bestimmte URLs auszuschließen und Prioritäten basierend auf der tatsächlichen Seitenwichtigkeit festzulegen.",
           ],
+          image: { src: "/images/blog/de/magento-extension-decision.svg", alt: "Magento SEO extension decision guide showing choice between Mirasvit and Amasty suites with supplementary extension options", caption: "Pick one primary SEO suite -- never install two extensions that manage the same feature." },
         },
         {
           heading: "Magento vs. Headless-Architektur für SEO",
@@ -183,17 +197,19 @@ export const magentoEcommerceSeo: BlogArticle = {
             "CMS-Seiten, die für Promotions und Kampagnen erstellt wurden, werden nach Ende der Aktion vergessen. Diese verlassenen Seiten häufen sich im Laufe der Zeit an. Ein Magento-Shop, den wir geprüft haben, hatte 450 CMS-Seiten, von denen 280 leere oder veraltete Promotionsseiten waren, die noch in der Sitemap erschienen. Leiten Sie sie entweder auf relevante Kategorieseiten um oder löschen Sie sie und geben Sie korrekte 410-Statuscodes zurück.",
             "Magentos Standard-robots.txt ist zu permissiv. Es erlaubt das Crawlen von Kundenkonten, Checkout-Seiten, Wunschlisten-Seiten und Vergleichsseiten. Keine davon sollte gecrawlt werden. Aktualisieren Sie die robots.txt, um /customer/, /checkout/, /wishlist/, /catalog/product_compare/ und alle anderen Pfade zu blockieren, die zu benutzerspezifischen oder inhaltslosen Seiten führen.",
           ],
+          image: { src: "/images/blog/de/magento-common-mistakes.svg", alt: "Four common Magento SEO mistakes with fixes: duplicate store views, bloated titles, junk sitemaps, and permissive robots.txt", caption: "These four Magento SEO mistakes appear on nearly every store we audit." },
         },
         {
           heading: "Ein Magento-SEO-Projekt von Anfang bis Ende planen",
           body: [
             "Magento SEO ist nichts, das man einmal konfiguriert und dann vergisst. Die Komplexität der Plattform erfordert laufende Wartung. So strukturieren wir ein Magento-SEO-Projekt.",
-            "Phase eins ist das technische Audit. Wir crawlen die gesamte Website mit Screaming Frog, analysieren die url_rewrite-Tabelle, prüfen die Layered-Navigation-Indexierung, testen die Seitengeschwindigkeit auf verschiedenen Gerätetypen und validieren Structured Data. Dies dauert typischerweise 2-3 Wochen für einen Shop mit über 5.000 Produkten und liefert eine priorisierte Liste von Korrekturen. Ein professionelles [E-Commerce-SEO-Audit](/seo-audit) in dieser Phase gibt Ihnen ein vollständiges Bild dessen, was behoben werden muss, bevor die Arbeit beginnt.",
+            "Phase eins ist das technische Audit. Wir crawlen die gesamte Website mit Screaming Frog, analysieren die url_rewrite-Tabelle, prüfen die Layered-Navigation-Indexierung, testen die Seitengeschwindigkeit auf verschiedenen Gerätetypen und validieren Structured Data. Dies dauert typischerweise 2-3 Wochen für einen Shop mit über 5.000 Produkten und liefert eine priorisierte Liste von Korrekturen. Ein professionelles [E-Commerce-SEO-Audit](/tools/ecommerce-seo-audit) in dieser Phase gibt Ihnen ein vollständiges Bild dessen, was behoben werden muss, bevor die Arbeit beginnt.",
             "Phase zwei ist die Behebung der Infrastrukturprobleme. URL-Strukturänderungen, Canonical-Tag-Korrekturen, robots.txt-Updates, Sitemap-Bereinigung und Geschwindigkeitsoptimierungen finden hier statt. Diese Phase dauert normalerweise 4-6 Wochen, da viele Änderungen Entwicklungsarbeit und Tests in der Staging-Umgebung vor der Bereitstellung erfordern.",
             "Phase drei ist die On-Page-Optimierung. Mit einer soliden technischen Grundlage optimieren wir Title Tags, Meta Descriptions, H1s und Inhalte auf Kategorie- und Produktseiten. Keyword-Mapping steuert diese Phase. Wir verwenden oft Magentos SEO-Erweiterungs-Templates, um Optimierungen in großem Maßstab anzuwenden, und verfeinern dann die Seiten mit der höchsten Priorität manuell.",
             "Phase vier ist Monitoring und Iteration. Wir verfolgen Crawl-Statistiken in Google Search Console, überwachen Core Web Vitals, achten auf neue Indexierungsprobleme nach Magento-Updates und passen die Strategie basierend auf Ranking- und Traffic-Daten an. Magento-Updates führen manchmal SEO-Probleme wieder ein, die zuvor behoben wurden, daher gehören Post-Update-Audits zur Routine.",
             "Magento ist eine leistungsstarke Plattform für Shops mit großen Katalogen und komplexen Anforderungen. Aber es erfordert SEO-Aufmerksamkeit, die einfachere Plattformen nicht benötigen. Wenn Sie Magento nutzen und Ihr organischer Traffic nicht wächst, ist die Plattformkonfiguration fast sicher Teil des Problems. Wenn Sie Shopify als Alternative evaluieren, ist unser [Shopify E-Commerce SEO-Leitfaden](/blog/shopify-ecommerce-seo) ein nützlicher Vergleichsmaßstab für Plattformfähigkeiten.",
           ],
+          callout: { title: "Four-Phase Approach", text: "Structure Magento SEO as: technical audit (2-3 weeks), infrastructure fixes (4-6 weeks), on-page optimization at scale, then ongoing monitoring. Post-update audits are essential since Magento updates often reintroduce fixed issues." },
         },
       ],
     },
@@ -221,6 +237,8 @@ export const magentoEcommerceSeo: BlogArticle = {
             "Dans Magento 2, allez dans Stores > Configuration > Catalog > Catalog > Layered Navigation. Configurez 'Use In Search Results Layered Navigation' soigneusement. Ensuite, utilisez les balises meta robots pour mettre en noindex les combinaisons de filtres sans demande de recherche. Nous ajoutons typiquement un module personnalisé qui applique noindex,follow à toute URL contenant plus d'un paramètre de filtre, tout en gardant les pages de filtres simples et pertinentes indexables.",
             "Une autre approche consiste à utiliser un filtrage basé sur AJAX qui ne modifie pas du tout l'URL. Cela conserve toute la fonctionnalité de filtrage pour les utilisateurs tout en présentant une URL unique et propre aux moteurs de recherche. Les extensions Magento comme Amasty Improved Layered Navigation et Mirasvit Layered Navigation gèrent cela efficacement.",
           ],
+          image: { src: "/images/blog/fr/magento-layered-nav-fix.svg", alt: "Flowchart showing how to fix Magento layered navigation index bloat with decision logic and two implementation options", caption: "Unconfigured layered navigation can generate 340,000+ junk URLs from just 200 categories." },
+          callout: { title: "Index Bloat Alert", text: "A Magento store with 200 categories had 340,000 indexable filter URLs from unconfigured layered navigation. Most were thin duplicates of parent categories, wasting crawl budget and diluting ranking signals." },
         },
         {
           heading: "Les réécritures d'URL et le problème d'URL de Magento",
@@ -231,6 +249,8 @@ export const magentoEcommerceSeo: BlogArticle = {
             "Nettoyez régulièrement la table url_rewrite. Les anciennes redirections de produits qui n'existent plus, les réécritures pour les catégories supprimées et les entrées en double s'accumulent. Nous exécutons un script de nettoyage trimestriel qui supprime les réécritures orphelines. Sur la boutique d'un client, la suppression de 1,8 million d'entrées url_rewrite obsolètes a réduit la taille de la table de 94% et amélioré sensiblement les temps de chargement de l'administration.",
             "Pour les suffixes d'URL, Magento utilise par défaut '.html' pour les URLs de catégories et de produits. Il n'y a aucune raison SEO de garder ou supprimer ce suffixe, mais soyez cohérent. Si vous décidez de le supprimer, faites-le lors d'une migration ou d'une refonte, pas comme un changement isolé, car chaque URL existante aura besoin d'une redirection.",
           ],
+          image: { src: "/images/blog/fr/magento-url-rewrite-cleanup.svg", alt: "Magento URL rewrite cleanup strategy showing the multi-URL problem, the fix of removing category paths, and quarterly cleanup process", caption: "Clearing 1.8M stale url_rewrite entries reduced the database table by 94%." },
+          callout: { title: "Remove Category Paths", text: "Set 'Use Categories Path for Product URLs' to No in Magento 2 config. This gives each product a single clean URL instead of multiple category-path variants. Run in staging first and set up redirects." },
         },
         {
           heading: "La vitesse du site sur Magento nécessite un vrai investissement",
@@ -242,6 +262,7 @@ export const magentoEcommerceSeo: BlogArticle = {
             "L'infrastructure d'hébergement compte davantage pour Magento que pour des plateformes plus simples. Un plan d'hébergement mutualisé ne suffira pas. Au minimum, vous avez besoin d'un VPS ou d'un serveur dédié avec stockage SSD, PHP 8.1+, Redis pour le stockage des sessions et du cache, Elasticsearch ou OpenSearch pour la recherche catalogue, et Varnish pour le Full Page Caching. Pour les boutiques dépassant 10 000 visites mensuelles, nous recommandons des hébergeurs Magento managés spécialisés dans l'optimisation des performances.",
             "Nous mesurons chaque projet Magento par rapport aux objectifs Core Web Vitals : LCP inférieur à 2,5 secondes, FID inférieur à 100ms et CLS inférieur à 0,1. Atteindre ces seuils sur Magento est possible mais nécessite une optimisation délibérée à chaque couche de la stack.",
           ],
+          image: { src: "/images/blog/fr/magento-seo-stack.svg", alt: "Magento performance stack showing hosting, cache, Varnish, CDN, and frontend layers with Core Web Vitals targets", caption: "A properly configured Magento stack with Varnish, Redis, and CDN drops load times from 4-6s to under 1s." },
         },
         {
           heading: "Extensions SEO Magento qui valent la peine d'être installées",
@@ -253,6 +274,7 @@ export const magentoEcommerceSeo: BlogArticle = {
             "Évitez d'installer plusieurs extensions SEO aux fonctionnalités qui se chevauchent. Deux extensions essayant toutes deux de gérer les balises canonical entreront en conflit et produiront des résultats imprévisibles. Choisissez une suite SEO principale et complétez-la avec des extensions spécialisées uniquement là où c'est nécessaire.",
             "La génération de sitemaps XML dans l'implémentation par défaut de Magento est basique. Elle regroupe toutes les URLs dans un seul fichier sans différenciation de priorité et sans paramètres intelligents de fréquence de modification. Une extension comme Amasty XML Sitemap ou Mirasvit SEO Suite vous permet de diviser les sitemaps par type (produits, catégories, pages CMS), d'exclure des URLs spécifiques et de définir les priorités en fonction de l'importance réelle des pages.",
           ],
+          image: { src: "/images/blog/fr/magento-extension-decision.svg", alt: "Magento SEO extension decision guide showing choice between Mirasvit and Amasty suites with supplementary extension options", caption: "Pick one primary SEO suite -- never install two extensions that manage the same feature." },
         },
         {
           heading: "Magento vs architecture headless pour le SEO",
@@ -274,17 +296,19 @@ export const magentoEcommerceSeo: BlogArticle = {
             "Les pages CMS créées pour les promotions et campagnes sont oubliées après la fin de l'événement. Ces pages abandonnées s'accumulent au fil du temps. Une boutique Magento que nous avons auditée avait 450 pages CMS, dont 280 étaient des pages promotionnelles vides ou obsolètes qui apparaissaient encore dans le sitemap. Redirigez-les vers des pages de catégories pertinentes ou supprimez-les en renvoyant des codes de statut 410 appropriés.",
             "Le robots.txt par défaut de Magento est trop permissif. Il autorise le crawl des pages de comptes clients, des pages de paiement, des pages de listes de souhaits et des pages de comparaison. Aucune d'entre elles ne devrait être crawlée. Mettez à jour le robots.txt pour interdire /customer/, /checkout/, /wishlist/, /catalog/product_compare/ et tout autre chemin menant à des pages spécifiques aux utilisateurs ou sans contenu.",
           ],
+          image: { src: "/images/blog/fr/magento-common-mistakes.svg", alt: "Four common Magento SEO mistakes with fixes: duplicate store views, bloated titles, junk sitemaps, and permissive robots.txt", caption: "These four Magento SEO mistakes appear on nearly every store we audit." },
         },
         {
           heading: "Planifier un projet SEO Magento du début à la fin",
           body: [
             "Le SEO Magento n'est pas quelque chose que l'on configure une fois pour l'oublier. La complexité de la plateforme nécessite une maintenance continue. Voici comment nous structurons un projet SEO Magento.",
-            "La phase un est l'audit technique. Nous crawlons l'intégralité du site avec Screaming Frog, analysons la table url_rewrite, vérifions l'indexation de la navigation à facettes, testons la vitesse des pages sur différents types d'appareils et validons le Structured Data. Cela prend typiquement 2 à 3 semaines pour une boutique de plus de 5 000 produits et produit une liste priorisée de corrections. Un [audit SEO e-commerce](/seo-audit) professionnel à ce stade vous donne une image complète de ce qui doit être corrigé avant le début des travaux.",
+            "La phase un est l'audit technique. Nous crawlons l'intégralité du site avec Screaming Frog, analysons la table url_rewrite, vérifions l'indexation de la navigation à facettes, testons la vitesse des pages sur différents types d'appareils et validons le Structured Data. Cela prend typiquement 2 à 3 semaines pour une boutique de plus de 5 000 produits et produit une liste priorisée de corrections. Un [audit SEO e-commerce](/tools/ecommerce-seo-audit) professionnel à ce stade vous donne une image complète de ce qui doit être corrigé avant le début des travaux.",
             "La phase deux est la correction des problèmes d'infrastructure. Les changements de structure d'URL, les corrections de balises canonical, les mises à jour du robots.txt, le nettoyage du sitemap et les optimisations de vitesse interviennent ici. Cette phase prend généralement 4 à 6 semaines car de nombreux changements nécessitent du travail de développement et des tests en environnement de staging avant le déploiement.",
             "La phase trois est l'optimisation on-page. Avec une base technique solide, nous optimisons les balises title, les meta descriptions, les H1 et le contenu sur les pages de catégories et de produits. Le keyword mapping guide cette phase. Nous utilisons souvent les templates d'extension SEO de Magento pour appliquer les optimisations à grande échelle, puis affinons manuellement les pages les plus prioritaires.",
             "La phase quatre est le monitoring et l'itération. Nous suivons les statistiques de crawl dans Google Search Console, surveillons les Core Web Vitals, guettons les nouveaux problèmes d'indexation après les mises à jour de Magento et ajustons la stratégie en fonction des données de classement et de trafic. Les mises à jour de Magento réintroduisent parfois des problèmes SEO qui avaient été précédemment corrigés, donc les audits post-mise à jour font partie de la routine.",
             "Magento est une plateforme puissante pour les boutiques avec de grands catalogues et des exigences complexes. Mais elle exige une attention SEO que les plateformes plus simples ne nécessitent pas. Si vous êtes sur Magento et que votre trafic organique ne croît pas, la configuration de la plateforme est presque certainement une partie du problème. Si vous évaluez Shopify comme alternative, notre [guide SEO e-commerce Shopify](/blog/shopify-ecommerce-seo) est un point de comparaison utile pour évaluer les capacités des plateformes.",
           ],
+          callout: { title: "Four-Phase Approach", text: "Structure Magento SEO as: technical audit (2-3 weeks), infrastructure fixes (4-6 weeks), on-page optimization at scale, then ongoing monitoring. Post-update audits are essential since Magento updates often reintroduce fixed issues." },
         },
       ],
     },
@@ -312,6 +336,8 @@ export const magentoEcommerceSeo: BlogArticle = {
             "En Magento 2, ve a Stores > Configuration > Catalog > Catalog > Layered Navigation. Configura 'Use In Search Results Layered Navigation' con cuidado. Luego usa etiquetas meta robots para poner en noindex las combinaciones de filtros sin demanda de búsqueda. Normalmente añadimos un módulo personalizado que aplica noindex,follow a cualquier URL que contenga más de un parámetro de filtro, manteniendo indexables las páginas de filtros individuales con significado.",
             "Otro enfoque es usar filtrado basado en AJAX que no cambia la URL en absoluto. Esto mantiene toda la funcionalidad de filtrado para los usuarios mientras presenta una URL única y limpia a los motores de búsqueda. Extensiones de Magento como Amasty Improved Layered Navigation y Mirasvit Layered Navigation manejan esto bien.",
           ],
+          image: { src: "/images/blog/es/magento-layered-nav-fix.svg", alt: "Flowchart showing how to fix Magento layered navigation index bloat with decision logic and two implementation options", caption: "Unconfigured layered navigation can generate 340,000+ junk URLs from just 200 categories." },
+          callout: { title: "Index Bloat Alert", text: "A Magento store with 200 categories had 340,000 indexable filter URLs from unconfigured layered navigation. Most were thin duplicates of parent categories, wasting crawl budget and diluting ranking signals." },
         },
         {
           heading: "Reescrituras de URL y el problema de URLs de Magento",
@@ -322,6 +348,8 @@ export const magentoEcommerceSeo: BlogArticle = {
             "Limpia la tabla url_rewrite periódicamente. Las redirecciones antiguas de productos que ya no existen, las reescrituras de categorías eliminadas y las entradas duplicadas se acumulan. Ejecutamos un script de limpieza trimestral que elimina las reescrituras huérfanas. En la tienda de un cliente, limpiar 1,8 millones de entradas url_rewrite obsoletas redujo el tamaño de la tabla en un 94% y mejoró notablemente los tiempos de carga del administrador.",
             "Para los sufijos de URL, Magento usa por defecto '.html' tanto en URLs de categorías como de productos. No hay razón SEO para mantener o eliminar este sufijo, pero sé consistente. Si decides eliminarlo, hazlo durante una migración o rediseño, no como un cambio aislado, porque cada URL existente necesitará una redirección.",
           ],
+          image: { src: "/images/blog/es/magento-url-rewrite-cleanup.svg", alt: "Magento URL rewrite cleanup strategy showing the multi-URL problem, the fix of removing category paths, and quarterly cleanup process", caption: "Clearing 1.8M stale url_rewrite entries reduced the database table by 94%." },
+          callout: { title: "Remove Category Paths", text: "Set 'Use Categories Path for Product URLs' to No in Magento 2 config. This gives each product a single clean URL instead of multiple category-path variants. Run in staging first and set up redirects." },
         },
         {
           heading: "La velocidad del sitio en Magento requiere inversión real",
@@ -333,6 +361,7 @@ export const magentoEcommerceSeo: BlogArticle = {
             "La infraestructura de hosting importa más para Magento que para plataformas más simples. Un plan de hosting compartido no será suficiente. Como mínimo, necesitas un VPS o servidor dedicado con almacenamiento SSD, PHP 8.1+, Redis para almacenamiento de sesiones y caché, Elasticsearch u OpenSearch para búsqueda de catálogo y Varnish para Full Page Caching. Para tiendas con más de 10.000 visitas mensuales, recomendamos proveedores de hosting Magento gestionado que se especialicen en optimización de rendimiento.",
             "Medimos cada proyecto Magento contra los objetivos de Core Web Vitals: LCP por debajo de 2,5 segundos, FID por debajo de 100ms y CLS por debajo de 0,1. Alcanzar estos umbrales en Magento es posible pero requiere una optimización deliberada en cada capa del stack.",
           ],
+          image: { src: "/images/blog/es/magento-seo-stack.svg", alt: "Magento performance stack showing hosting, cache, Varnish, CDN, and frontend layers with Core Web Vitals targets", caption: "A properly configured Magento stack with Varnish, Redis, and CDN drops load times from 4-6s to under 1s." },
         },
         {
           heading: "Extensiones SEO de Magento que vale la pena instalar",
@@ -344,6 +373,7 @@ export const magentoEcommerceSeo: BlogArticle = {
             "Evita instalar múltiples extensiones SEO con funcionalidades que se solapan. Dos extensiones intentando gestionar etiquetas canonical entrarán en conflicto y causarán resultados impredecibles. Elige una suite SEO principal y complétala con extensiones especializadas solo donde sea necesario.",
             "La generación de sitemaps XML en la implementación predeterminada de Magento es básica. Vuelca todas las URLs en un archivo sin diferenciación de prioridad y sin ajustes inteligentes de frecuencia de cambio. Una extensión como Amasty XML Sitemap o Mirasvit SEO Suite te permite dividir sitemaps por tipo (productos, categorías, páginas CMS), excluir URLs específicas y establecer prioridades basadas en la importancia real de la página.",
           ],
+          image: { src: "/images/blog/es/magento-extension-decision.svg", alt: "Magento SEO extension decision guide showing choice between Mirasvit and Amasty suites with supplementary extension options", caption: "Pick one primary SEO suite -- never install two extensions that manage the same feature." },
         },
         {
           heading: "Magento vs arquitectura headless para SEO",
@@ -365,17 +395,19 @@ export const magentoEcommerceSeo: BlogArticle = {
             "Las páginas CMS creadas para promociones y campañas se olvidan después de que el evento termina. Estas páginas abandonadas se acumulan con el tiempo. Una tienda Magento que auditamos tenía 450 páginas CMS, de las cuales 280 eran páginas promocionales vacías u obsoletas que aún aparecían en el sitemap. Redirígelas a páginas de categorías relevantes o elimínalas y devuelve códigos de estado 410 apropiados.",
             "El robots.txt predeterminado de Magento es demasiado permisivo. Permite el rastreo de páginas de cuentas de clientes, páginas de checkout, páginas de listas de deseos y páginas de comparación. Ninguna de estas debería ser rastreada. Actualiza el robots.txt para bloquear /customer/, /checkout/, /wishlist/, /catalog/product_compare/ y cualquier otra ruta que lleve a páginas específicas del usuario o sin contenido.",
           ],
+          image: { src: "/images/blog/es/magento-common-mistakes.svg", alt: "Four common Magento SEO mistakes with fixes: duplicate store views, bloated titles, junk sitemaps, and permissive robots.txt", caption: "These four Magento SEO mistakes appear on nearly every store we audit." },
         },
         {
           heading: "Planificar un proyecto SEO de Magento de principio a fin",
           body: [
             "El SEO de Magento no es algo que configuras una vez y olvidas. La complejidad de la plataforma requiere mantenimiento continuo. Así es como estructuramos un proyecto SEO de Magento.",
-            "La fase uno es la auditoría técnica. Rastreamos todo el sitio con Screaming Frog, analizamos la tabla url_rewrite, verificamos la indexación de la navegación por facetas, probamos la velocidad de página en diferentes tipos de dispositivos y validamos el Structured Data. Esto típicamente toma 2-3 semanas para una tienda con más de 5.000 productos y produce una lista priorizada de correcciones. Una [auditoría SEO de ecommerce](/seo-audit) profesional en esta etapa te da una imagen completa de lo que necesita arreglarse antes de que comience cualquier trabajo.",
+            "La fase uno es la auditoría técnica. Rastreamos todo el sitio con Screaming Frog, analizamos la tabla url_rewrite, verificamos la indexación de la navegación por facetas, probamos la velocidad de página en diferentes tipos de dispositivos y validamos el Structured Data. Esto típicamente toma 2-3 semanas para una tienda con más de 5.000 productos y produce una lista priorizada de correcciones. Una [auditoría SEO de ecommerce](/tools/ecommerce-seo-audit) profesional en esta etapa te da una imagen completa de lo que necesita arreglarse antes de que comience cualquier trabajo.",
             "La fase dos es corregir los problemas de infraestructura. Los cambios en la estructura de URL, las correcciones de etiquetas canonical, las actualizaciones de robots.txt, la limpieza del sitemap y las optimizaciones de velocidad suceden aquí. Esta fase suele tomar 4-6 semanas porque muchos cambios requieren trabajo de desarrollo y pruebas en entorno de staging antes del despliegue.",
             "La fase tres es la optimización on-page. Con la base técnica sólida, optimizamos etiquetas title, meta descriptions, H1s y contenido en las páginas de categorías y productos. El keyword mapping dirige esta fase. A menudo usamos las plantillas de extensiones SEO de Magento para aplicar optimizaciones a escala, y luego refinamos manualmente las páginas de mayor prioridad.",
             "La fase cuatro es monitorización e iteración. Seguimos las estadísticas de rastreo en Google Search Console, monitorizamos Core Web Vitals, vigilamos nuevos problemas de indexación después de las actualizaciones de Magento y ajustamos la estrategia basándonos en datos de posicionamiento y tráfico. Las actualizaciones de Magento a veces reintroducen problemas de SEO que fueron corregidos previamente, por lo que las auditorías post-actualización son parte de la rutina.",
             "Magento es una plataforma potente para tiendas con catálogos grandes y requisitos complejos. Pero exige atención SEO que las plataformas más simples no necesitan. Si estás en Magento y tu tráfico orgánico no está creciendo, la configuración de la plataforma es casi seguramente parte del problema. Si estás evaluando Shopify como alternativa, nuestra [guía SEO de ecommerce para Shopify](/blog/shopify-ecommerce-seo) es un punto de referencia útil para comparar las capacidades de las plataformas.",
           ],
+          callout: { title: "Four-Phase Approach", text: "Structure Magento SEO as: technical audit (2-3 weeks), infrastructure fixes (4-6 weeks), on-page optimization at scale, then ongoing monitoring. Post-update audits are essential since Magento updates often reintroduce fixed issues." },
         },
       ],
     },
@@ -403,6 +435,8 @@ export const magentoEcommerceSeo: BlogArticle = {
             "In Magento 2, vai su Stores > Configuration > Catalog > Catalog > Layered Navigation. Imposta 'Use In Search Results Layered Navigation' con attenzione. Poi usa i meta tag robots per impostare noindex sulle combinazioni di filtri senza domanda di ricerca. Tipicamente aggiungiamo un modulo personalizzato che applica noindex,follow a qualsiasi URL contenente più di un parametro di filtro, mantenendo indicizzabili le pagine di filtri singoli significativi.",
             "Un altro approccio è utilizzare il filtraggio basato su AJAX che non modifica affatto l'URL. Questo mantiene tutta la funzionalità di filtraggio per gli utenti presentando un singolo URL pulito ai motori di ricerca. Estensioni Magento come Amasty Improved Layered Navigation e Mirasvit Layered Navigation gestiscono questo aspetto bene.",
           ],
+          image: { src: "/images/blog/it/magento-layered-nav-fix.svg", alt: "Flowchart showing how to fix Magento layered navigation index bloat with decision logic and two implementation options", caption: "Unconfigured layered navigation can generate 340,000+ junk URLs from just 200 categories." },
+          callout: { title: "Index Bloat Alert", text: "A Magento store with 200 categories had 340,000 indexable filter URLs from unconfigured layered navigation. Most were thin duplicates of parent categories, wasting crawl budget and diluting ranking signals." },
         },
         {
           heading: "Riscritture URL e il problema degli URL di Magento",
@@ -413,6 +447,8 @@ export const magentoEcommerceSeo: BlogArticle = {
             "Pulisci periodicamente la tabella url_rewrite. I vecchi redirect da prodotti che non esistono più, le riscritture per categorie eliminate e le voci duplicate si accumulano. Eseguiamo uno script di pulizia trimestrale che rimuove le riscritture orfane. Nel negozio di un cliente, la pulizia di 1,8 milioni di voci url_rewrite obsolete ha ridotto la dimensione della tabella del 94% e migliorato sensibilmente i tempi di caricamento dell'area amministrativa.",
             "Per i suffissi URL, Magento utilizza di default '.html' sia per gli URL delle categorie che dei prodotti. Non c'è nessuna ragione SEO per mantenere o rimuovere questo suffisso, ma sii coerente. Se decidi di rimuoverlo, fallo durante una migrazione o un redesign, non come modifica isolata, perché ogni URL esistente avrà bisogno di un redirect.",
           ],
+          image: { src: "/images/blog/it/magento-url-rewrite-cleanup.svg", alt: "Magento URL rewrite cleanup strategy showing the multi-URL problem, the fix of removing category paths, and quarterly cleanup process", caption: "Clearing 1.8M stale url_rewrite entries reduced the database table by 94%." },
+          callout: { title: "Remove Category Paths", text: "Set 'Use Categories Path for Product URLs' to No in Magento 2 config. This gives each product a single clean URL instead of multiple category-path variants. Run in staging first and set up redirects." },
         },
         {
           heading: "La velocità del sito su Magento richiede un investimento reale",
@@ -424,6 +460,7 @@ export const magentoEcommerceSeo: BlogArticle = {
             "L'infrastruttura di hosting conta di più per Magento che per piattaforme più semplici. Un piano di hosting condiviso non sarà sufficiente. Come minimo, hai bisogno di un VPS o server dedicato con storage SSD, PHP 8.1+, Redis per lo storage di sessioni e cache, Elasticsearch o OpenSearch per la ricerca nel catalogo e Varnish per il Full Page Caching. Per negozi con oltre 10.000 visite mensili, raccomandiamo provider di hosting Magento gestito specializzati nell'ottimizzazione delle prestazioni.",
             "Misuriamo ogni progetto Magento rispetto agli obiettivi Core Web Vitals: LCP sotto 2,5 secondi, FID sotto 100ms e CLS sotto 0,1. Raggiungere queste soglie su Magento è possibile ma richiede un'ottimizzazione deliberata a ogni livello dello stack.",
           ],
+          image: { src: "/images/blog/it/magento-seo-stack.svg", alt: "Magento performance stack showing hosting, cache, Varnish, CDN, and frontend layers with Core Web Vitals targets", caption: "A properly configured Magento stack with Varnish, Redis, and CDN drops load times from 4-6s to under 1s." },
         },
         {
           heading: "Estensioni SEO per Magento che vale la pena installare",
@@ -435,6 +472,7 @@ export const magentoEcommerceSeo: BlogArticle = {
             "Evita di installare più estensioni SEO con funzionalità sovrapposte. Due estensioni che cercano entrambe di gestire i tag canonical entreranno in conflitto e causeranno risultati imprevedibili. Scegli una suite SEO principale e integrala con estensioni specializzate solo dove necessario.",
             "La generazione di sitemap XML nell'implementazione predefinita di Magento è basilare. Scarica tutti gli URL in un unico file senza differenziazione di priorità e senza impostazioni intelligenti di frequenza di modifica. Un'estensione come Amasty XML Sitemap o Mirasvit SEO Suite ti permette di dividere le sitemap per tipo (prodotti, categorie, pagine CMS), escludere URL specifici e impostare priorità basate sull'importanza effettiva della pagina.",
           ],
+          image: { src: "/images/blog/it/magento-extension-decision.svg", alt: "Magento SEO extension decision guide showing choice between Mirasvit and Amasty suites with supplementary extension options", caption: "Pick one primary SEO suite -- never install two extensions that manage the same feature." },
         },
         {
           heading: "Magento vs architettura headless per la SEO",
@@ -456,17 +494,19 @@ export const magentoEcommerceSeo: BlogArticle = {
             "Le pagine CMS create per promozioni e campagne vengono dimenticate dopo la fine dell'evento. Queste pagine abbandonate si accumulano nel tempo. Un negozio Magento che abbiamo verificato aveva 450 pagine CMS, di cui 280 erano pagine promozionali vuote o obsolete che apparivano ancora nella sitemap. Reindirizzale a pagine di categoria pertinenti oppure eliminale restituendo codici di stato 410 appropriati.",
             "Il robots.txt predefinito di Magento è troppo permissivo. Consente il crawl delle pagine account cliente, pagine checkout, pagine wishlist e pagine di confronto. Nessuna di queste dovrebbe essere crawlata. Aggiorna il robots.txt per bloccare /customer/, /checkout/, /wishlist/, /catalog/product_compare/ e qualsiasi altro percorso che porti a pagine specifiche dell'utente o senza contenuto.",
           ],
+          image: { src: "/images/blog/it/magento-common-mistakes.svg", alt: "Four common Magento SEO mistakes with fixes: duplicate store views, bloated titles, junk sitemaps, and permissive robots.txt", caption: "These four Magento SEO mistakes appear on nearly every store we audit." },
         },
         {
           heading: "Pianificare un progetto SEO Magento dall'inizio alla fine",
           body: [
             "La SEO su Magento non è qualcosa che si configura una volta e si dimentica. La complessità della piattaforma richiede manutenzione continua. Ecco come strutturiamo un progetto SEO Magento.",
-            "La fase uno è l'audit tecnico. Crawliamo l'intero sito con Screaming Frog, analizziamo la tabella url_rewrite, verifichiamo l'indicizzazione della navigazione a faccette, testiamo la velocità delle pagine su diversi tipi di dispositivi e validiamo i Structured Data. Questo richiede tipicamente 2-3 settimane per un negozio con oltre 5.000 prodotti e produce un elenco prioritizzato di correzioni. Un [audit SEO e-commerce](/seo-audit) professionale in questa fase ti dà un quadro completo di ciò che deve essere corretto prima che inizi qualsiasi lavoro.",
+            "La fase uno è l'audit tecnico. Crawliamo l'intero sito con Screaming Frog, analizziamo la tabella url_rewrite, verifichiamo l'indicizzazione della navigazione a faccette, testiamo la velocità delle pagine su diversi tipi di dispositivi e validiamo i Structured Data. Questo richiede tipicamente 2-3 settimane per un negozio con oltre 5.000 prodotti e produce un elenco prioritizzato di correzioni. Un [audit SEO e-commerce](/tools/ecommerce-seo-audit) professionale in questa fase ti dà un quadro completo di ciò che deve essere corretto prima che inizi qualsiasi lavoro.",
             "La fase due è la correzione dei problemi infrastrutturali. Modifiche alla struttura URL, correzioni dei tag canonical, aggiornamenti del robots.txt, pulizia della sitemap e ottimizzazioni della velocità avvengono qui. Questa fase richiede solitamente 4-6 settimane perché molte modifiche richiedono lavoro di sviluppo e test in ambiente di staging prima del deployment.",
             "La fase tre è l'ottimizzazione on-page. Con le basi tecniche solide, ottimizziamo tag title, meta description, H1 e contenuti nelle pagine di categoria e prodotto. Il keyword mapping guida questa fase. Spesso utilizziamo i template delle estensioni SEO di Magento per applicare ottimizzazioni su larga scala, poi perfezioniamo manualmente le pagine a più alta priorità.",
             "La fase quattro è monitoraggio e iterazione. Tracciamo le statistiche di crawl in Google Search Console, monitoriamo i Core Web Vitals, osserviamo nuovi problemi di indicizzazione dopo gli aggiornamenti di Magento e adattiamo la strategia in base ai dati di posizionamento e traffico. Gli aggiornamenti di Magento a volte reintroducono problemi SEO che erano stati precedentemente corretti, quindi gli audit post-aggiornamento fanno parte della routine.",
             "Magento è una piattaforma potente per negozi con cataloghi grandi e requisiti complessi. Ma richiede un'attenzione SEO che piattaforme più semplici non necessitano. Se sei su Magento e il tuo traffico organico non sta crescendo, la configurazione della piattaforma è quasi certamente parte del problema. Se stai valutando Shopify come alternativa, la nostra [guida SEO e-commerce per Shopify](/blog/shopify-ecommerce-seo) è un utile punto di riferimento per confrontare le capacità delle piattaforme.",
           ],
+          callout: { title: "Four-Phase Approach", text: "Structure Magento SEO as: technical audit (2-3 weeks), infrastructure fixes (4-6 weeks), on-page optimization at scale, then ongoing monitoring. Post-update audits are essential since Magento updates often reintroduce fixed issues." },
         },
       ],
     },
@@ -494,6 +534,8 @@ export const magentoEcommerceSeo: BlogArticle = {
             "Ga in Magento 2 naar Stores > Configuration > Catalog > Catalog > Layered Navigation. Stel 'Use In Search Results Layered Navigation' zorgvuldig in. Gebruik vervolgens robots meta tags om filtercombinaties zonder zoekvraag op noindex te zetten. We voegen doorgaans een aangepaste module toe die noindex,follow toepast op elke URL die meer dan één filterparameter bevat, terwijl enkele betekenisvolle filterpagina's indexeerbaar blijven.",
             "Een andere aanpak is het gebruik van AJAX-gebaseerd filteren dat de URL helemaal niet wijzigt. Dit behoudt alle filterfunctionaliteit voor gebruikers terwijl het een enkele, schone URL presenteert aan zoekmachines. Magento-extensies zoals Amasty Improved Layered Navigation en Mirasvit Layered Navigation doen dit goed.",
           ],
+          image: { src: "/images/blog/nl/magento-layered-nav-fix.svg", alt: "Flowchart showing how to fix Magento layered navigation index bloat with decision logic and two implementation options", caption: "Unconfigured layered navigation can generate 340,000+ junk URLs from just 200 categories." },
+          callout: { title: "Index Bloat Alert", text: "A Magento store with 200 categories had 340,000 indexable filter URLs from unconfigured layered navigation. Most were thin duplicates of parent categories, wasting crawl budget and diluting ranking signals." },
         },
         {
           heading: "URL-herschrijvingen en het Magento URL-probleem",
@@ -504,6 +546,8 @@ export const magentoEcommerceSeo: BlogArticle = {
             "Ruim de url_rewrite-tabel periodiek op. Oude redirects van producten die niet meer bestaan, herschrijvingen voor verwijderde categorieën en dubbele vermeldingen stapelen zich op. We draaien elk kwartaal een opruimscript dat verweesde herschrijvingen verwijdert. Bij de webshop van een klant verminderde het opschonen van 1,8 miljoen verouderde url_rewrite-vermeldingen de tabelgrootte met 94% en verbeterde de laadtijden in het beheergedeelte merkbaar.",
             "Voor URL-suffixen gebruikt Magento standaard '.html' voor zowel categorie- als product-URL's. Er is geen SEO-reden om dit suffix te behouden of te verwijderen, maar wees consistent. Als je besluit het te verwijderen, doe dit dan tijdens een migratie of herontwerp, niet als een geïsoleerde wijziging, omdat elke bestaande URL een redirect nodig heeft.",
           ],
+          image: { src: "/images/blog/nl/magento-url-rewrite-cleanup.svg", alt: "Magento URL rewrite cleanup strategy showing the multi-URL problem, the fix of removing category paths, and quarterly cleanup process", caption: "Clearing 1.8M stale url_rewrite entries reduced the database table by 94%." },
+          callout: { title: "Remove Category Paths", text: "Set 'Use Categories Path for Product URLs' to No in Magento 2 config. This gives each product a single clean URL instead of multiple category-path variants. Run in staging first and set up redirects." },
         },
         {
           heading: "Sitesnelheid op Magento vereist echte investering",
@@ -515,6 +559,7 @@ export const magentoEcommerceSeo: BlogArticle = {
             "Hostinginfrastructuur is belangrijker voor Magento dan voor eenvoudigere platformen. Een shared hosting-plan volstaat niet. Je hebt minimaal een VPS of dedicated server nodig met SSD-opslag, PHP 8.1+, Redis voor sessie- en cacheopslag, Elasticsearch of OpenSearch voor cataloguszoekopdrachten en Varnish voor Full Page Caching. Voor webshops met meer dan 10.000 maandelijkse bezoeken raden we beheerde Magento-hostingproviders aan die gespecialiseerd zijn in prestatieoptimalisatie.",
             "We benchmarken elk Magento-project tegen Core Web Vitals-doelen: LCP onder 2,5 seconden, FID onder 100ms en CLS onder 0,1. Het behalen van deze drempels op Magento is mogelijk maar vereist bewuste optimalisatie op elke laag van de stack.",
           ],
+          image: { src: "/images/blog/nl/magento-seo-stack.svg", alt: "Magento performance stack showing hosting, cache, Varnish, CDN, and frontend layers with Core Web Vitals targets", caption: "A properly configured Magento stack with Varnish, Redis, and CDN drops load times from 4-6s to under 1s." },
         },
         {
           heading: "Magento SEO-extensies die het installeren waard zijn",
@@ -526,6 +571,7 @@ export const magentoEcommerceSeo: BlogArticle = {
             "Vermijd het installeren van meerdere SEO-extensies met overlappende functionaliteit. Twee extensies die beide proberen canonical tags te beheren, zullen conflicteren en onvoorspelbare resultaten veroorzaken. Kies één primaire SEO-suite en vul deze alleen aan met gespecialiseerde extensies waar nodig.",
             "XML-sitemapgeneratie in Magento's standaardimplementatie is basaal. Het dumpt alle URL's in één bestand zonder prioriteitsonderscheid en zonder intelligente wijzigingsfrequentie-instellingen. Een extensie zoals Amasty XML Sitemap of Mirasvit SEO Suite laat je sitemaps splitsen per type (producten, categorieën, CMS-pagina's), specifieke URL's uitsluiten en prioriteiten instellen op basis van het daadwerkelijke belang van de pagina.",
           ],
+          image: { src: "/images/blog/nl/magento-extension-decision.svg", alt: "Magento SEO extension decision guide showing choice between Mirasvit and Amasty suites with supplementary extension options", caption: "Pick one primary SEO suite -- never install two extensions that manage the same feature." },
         },
         {
           heading: "Magento vs headless architectuur voor SEO",
@@ -547,17 +593,19 @@ export const magentoEcommerceSeo: BlogArticle = {
             "CMS-pagina's die zijn gemaakt voor promoties en campagnes worden vergeten nadat het evenement is afgelopen. Deze verlaten pagina's stapelen zich op in de loop der tijd. Een Magento-webshop die we hebben geaudit had 450 CMS-pagina's, waarvan 280 lege of verouderde promotiepagina's die nog steeds in de sitemap verschenen. Redirect ze naar relevante categoriepagina's of verwijder ze en retourneer correcte 410-statuscodes.",
             "Magento's standaard robots.txt is te permissief. Het staat het crawlen toe van klantaccountpagina's, checkoutpagina's, verlanglijstpagina's en vergelijkingspagina's. Geen van deze zou gecrawld moeten worden. Werk robots.txt bij om /customer/, /checkout/, /wishlist/, /catalog/product_compare/ en alle andere paden die leiden naar gebruikersspecifieke of niet-contentpagina's te blokkeren.",
           ],
+          image: { src: "/images/blog/nl/magento-common-mistakes.svg", alt: "Four common Magento SEO mistakes with fixes: duplicate store views, bloated titles, junk sitemaps, and permissive robots.txt", caption: "These four Magento SEO mistakes appear on nearly every store we audit." },
         },
         {
           heading: "Een Magento SEO-project plannen van begin tot eind",
           body: [
             "Magento SEO is niet iets dat je eenmalig configureert en vergeet. De complexiteit van het platform vereist doorlopend onderhoud. Zo structureren wij een Magento SEO-project.",
-            "Fase één is de technische audit. We crawlen de gehele site met Screaming Frog, analyseren de url_rewrite-tabel, controleren de indexering van gelaagde navigatie, testen de paginasnelheid op verschillende apparaattypen en valideren Structured Data. Dit duurt doorgaans 2-3 weken voor een webshop met meer dan 5.000 producten en levert een geprioriteerde lijst van fixes op. Een professionele [e-commerce SEO-audit](/seo-audit) in deze fase geeft je een compleet beeld van wat er moet worden opgelost voordat er werk begint.",
+            "Fase één is de technische audit. We crawlen de gehele site met Screaming Frog, analyseren de url_rewrite-tabel, controleren de indexering van gelaagde navigatie, testen de paginasnelheid op verschillende apparaattypen en valideren Structured Data. Dit duurt doorgaans 2-3 weken voor een webshop met meer dan 5.000 producten en levert een geprioriteerde lijst van fixes op. Een professionele [e-commerce SEO-audit](/tools/ecommerce-seo-audit) in deze fase geeft je een compleet beeld van wat er moet worden opgelost voordat er werk begint.",
             "Fase twee is het oplossen van infrastructuurproblemen. URL-structuurwijzigingen, canonical tag-correcties, robots.txt-updates, sitemap-opschoning en snelheidsoptimalisaties vinden hier plaats. Deze fase duurt meestal 4-6 weken omdat veel wijzigingen ontwikkelwerk en testen in een staging-omgeving vereisen voor deployment.",
             "Fase drie is on-page optimalisatie. Met een solide technische basis optimaliseren we title tags, meta descriptions, H1's en content op categorie- en productpagina's. Keyword mapping stuurt deze fase. We gebruiken vaak Magento's SEO-extensietemplates om optimalisaties op schaal toe te passen en verfijnen vervolgens handmatig de pagina's met de hoogste prioriteit.",
             "Fase vier is monitoring en iteratie. We volgen crawlstatistieken in Google Search Console, monitoren Core Web Vitals, letten op nieuwe indexeringsproblemen na Magento-updates en passen de strategie aan op basis van ranking- en verkeersgegevens. Magento-updates herintroduceren soms SEO-problemen die eerder waren opgelost, dus post-update audits zijn onderdeel van de routine.",
             "Magento is een krachtig platform voor webshops met grote catalogi en complexe vereisten. Maar het vereist SEO-aandacht die eenvoudigere platformen niet nodig hebben. Als je op Magento zit en je organisch verkeer niet groeit, is de platformconfiguratie vrijwel zeker onderdeel van het probleem. Als je Shopify als alternatief evalueert, is onze [Shopify e-commerce SEO-gids](/blog/shopify-ecommerce-seo) een nuttige benchmark voor het vergelijken van platformmogelijkheden.",
           ],
+          callout: { title: "Four-Phase Approach", text: "Structure Magento SEO as: technical audit (2-3 weeks), infrastructure fixes (4-6 weeks), on-page optimization at scale, then ongoing monitoring. Post-update audits are essential since Magento updates often reintroduce fixed issues." },
         },
       ],
     },

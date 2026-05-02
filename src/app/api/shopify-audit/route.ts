@@ -113,7 +113,7 @@ const UA =
 async function safeFetch(
   url: string,
   timeout = 12000
-): Promise<{ ok: boolean; status: number; text: string; headers: Headers; responseTimeMs: number }> {
+): Promise<{ ok: boolean; status: number; text: string; headers: Headers; responseTimeMs: number; finalUrl: string }> {
   const controller = new AbortController();
   const timer = setTimeout(() => controller.abort(), timeout);
   const start = Date.now();
@@ -125,10 +125,10 @@ async function safeFetch(
     });
     const text = await res.text();
     clearTimeout(timer);
-    return { ok: res.ok, status: res.status, text, headers: res.headers, responseTimeMs: Date.now() - start };
+    return { ok: res.ok, status: res.status, text, headers: res.headers, responseTimeMs: Date.now() - start, finalUrl: res.url || url };
   } catch {
     clearTimeout(timer);
-    return { ok: false, status: 0, text: "", headers: new Headers(), responseTimeMs: Date.now() - start };
+    return { ok: false, status: 0, text: "", headers: new Headers(), responseTimeMs: Date.now() - start, finalUrl: url };
   }
 }
 
@@ -302,6 +302,76 @@ function extractPsiData(psi: PsiData): PsiExtracted {
 }
 
 /* ------------------------------------------------------------------ */
+/*  PSI meta extraction (for JS-rendered fallback)                     */
+/* ------------------------------------------------------------------ */
+
+interface PsiMeta {
+  titlePresent: boolean;
+  descriptionPresent: boolean;
+}
+
+function extractPsiMeta(psi: PsiData | null): PsiMeta {
+  if (!psi) return { titlePresent: false, descriptionPresent: false };
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const audits: Record<string, any> = psi.lighthouseResult?.audits ?? {};
+  const titleAudit = audits["document-title"];
+  const descAudit = audits["meta-description"];
+  return {
+    titlePresent: titleAudit?.score === 1,
+    descriptionPresent: descAudit?.score === 1,
+  };
+}
+
+/* ------------------------------------------------------------------ */
+/*  JS-rendering detection                                             */
+/* ------------------------------------------------------------------ */
+
+function detectJsRendered(html: string): boolean {
+  // Strip scripts/styles before counting visible text
+  const visibleText = html
+    .replace(/<script[\s\S]*?<\/script>/gi, "")
+    .replace(/<style[\s\S]*?<\/style>/gi, "")
+    .replace(/<[^>]+>/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+  const wordCount = visibleText.split(/\s+/).filter(w => w.length > 1).length;
+
+  // Check for JS framework markers
+  const hasNextJs = html.includes("__NEXT_DATA__") || html.includes("_next/static");
+  const hasNuxt = html.includes("__nuxt") || html.includes("__NUXT__");
+  const hasReactRoot = /id=["'](root|__next|app|react-root)["']/i.test(html) && wordCount < 50;
+  const hasHydrogen = html.includes("hydrogen") && html.includes("shopify");
+  const hasRemix = html.includes("__remixContext") || html.includes("remix");
+
+  // If very low word count AND a framework marker is present, it's JS-rendered
+  if (wordCount < 50 && (hasNextJs || hasNuxt || hasReactRoot || hasHydrogen || hasRemix)) {
+    return true;
+  }
+
+  // If extremely low word count (< 20), likely JS-rendered even without explicit markers
+  if (wordCount < 20) {
+    return true;
+  }
+
+  return false;
+}
+
+/* ------------------------------------------------------------------ */
+/*  Cross-domain redirect detection                                    */
+/* ------------------------------------------------------------------ */
+
+function detectCrossDomainRedirect(requestedUrl: string, finalUrl: string): { redirected: boolean; from: string; to: string } {
+  try {
+    const reqHost = new URL(requestedUrl).hostname;
+    const finalHost = new URL(finalUrl).hostname;
+    if (reqHost !== finalHost) {
+      return { redirected: true, from: reqHost, to: finalHost };
+    }
+  } catch { /* ignore parse errors */ }
+  return { redirected: false, from: "", to: "" };
+}
+
+/* ------------------------------------------------------------------ */
 /*  Shopify detection                                                  */
 /* ------------------------------------------------------------------ */
 
@@ -346,13 +416,21 @@ function extractJsonLd(html: string): Record<string, unknown>[] {
 /*  CATEGORY 1: Meta Tags & On-Page (weight: 14%)                     */
 /* ================================================================== */
 
-function checkMeta(html: string, pageUrl: string): AuditCheck[] {
+function checkMeta(html: string, pageUrl: string, opts?: { isJsRendered?: boolean; psiMeta?: PsiMeta }): AuditCheck[] {
   const checks: AuditCheck[] = [];
+  const isJsRendered = opts?.isJsRendered ?? false;
+  const psiMeta = opts?.psiMeta;
 
   // Title tag
   const titleMatch = html.match(/<title[^>]*>([^<]*)<\/title>/i);
   if (!titleMatch || !titleMatch[1].trim()) {
-    checks.push({ label: "Title tag", status: "fail", detail: "No title tag found.", priority: "critical", howToFix: "Add a <title> tag in the <head> section with your primary keyword and brand name (50-60 chars)." });
+    if (isJsRendered && psiMeta?.titlePresent) {
+      checks.push({ label: "Title tag", status: "pass", detail: "Title tag rendered via JavaScript (verified by PageSpeed Insights)." });
+    } else if (isJsRendered) {
+      checks.push({ label: "Title tag", status: "warning", detail: "No title tag in server HTML. Content appears to be JavaScript-rendered.", priority: "high", howToFix: "Consider server-side rendering (SSR) for better SEO. Search engines may not execute JavaScript reliably." });
+    } else {
+      checks.push({ label: "Title tag", status: "fail", detail: "No title tag found.", priority: "critical", howToFix: "Add a <title> tag in the <head> section with your primary keyword and brand name (50-60 chars)." });
+    }
   } else {
     const title = titleMatch[1].trim();
     const len = title.length;
@@ -365,7 +443,13 @@ function checkMeta(html: string, pageUrl: string): AuditCheck[] {
   const descMatch = html.match(/<meta[^>]+name=["']description["'][^>]*content=["']([^"']*)["']/i)
     || html.match(/<meta[^>]+content=["']([^"']*)["'][^>]+name=["']description["']/i);
   if (!descMatch || !descMatch[1].trim()) {
-    checks.push({ label: "Meta description", status: "fail", detail: "No meta description found. Search engines will auto-generate a snippet.", priority: "critical", howToFix: "Add a compelling meta description (150-160 chars) with your primary keyword and a call-to-action." });
+    if (isJsRendered && psiMeta?.descriptionPresent) {
+      checks.push({ label: "Meta description", status: "pass", detail: "Meta description rendered via JavaScript (verified by PageSpeed Insights)." });
+    } else if (isJsRendered) {
+      checks.push({ label: "Meta description", status: "warning", detail: "No meta description in server HTML. Content appears to be JavaScript-rendered.", priority: "high", howToFix: "Consider server-side rendering (SSR) for better SEO. Search engines may not execute JavaScript reliably." });
+    } else {
+      checks.push({ label: "Meta description", status: "fail", detail: "No meta description found. Search engines will auto-generate a snippet.", priority: "critical", howToFix: "Add a compelling meta description (150-160 chars) with your primary keyword and a call-to-action." });
+    }
   } else {
     const len = descMatch[1].trim().length;
     if (len > 165) checks.push({ label: "Meta description", status: "warning", detail: `Meta description may be truncated (${len} chars). Keep under 160.`, priority: "medium", howToFix: "Shorten your meta description to 150-160 characters. Include your value proposition." });
@@ -376,7 +460,11 @@ function checkMeta(html: string, pageUrl: string): AuditCheck[] {
   // H1 tag
   const h1s = html.match(/<h1[^>]*>([\s\S]*?)<\/h1>/gi);
   if (!h1s || h1s.length === 0) {
-    checks.push({ label: "H1 tag", status: "fail", detail: "No H1 tag found.", priority: "critical", howToFix: "Add a single H1 tag that describes the page's main topic. Include your primary keyword." });
+    if (isJsRendered) {
+      checks.push({ label: "H1 tag", status: "warning", detail: "No H1 tag in server HTML. Content appears to be JavaScript-rendered.", priority: "high", howToFix: "Consider server-side rendering (SSR) for better SEO. Search engines may not execute JavaScript reliably." });
+    } else {
+      checks.push({ label: "H1 tag", status: "fail", detail: "No H1 tag found.", priority: "critical", howToFix: "Add a single H1 tag that describes the page's main topic. Include your primary keyword." });
+    }
   } else if (h1s.length > 1) {
     checks.push({ label: "H1 tag", status: "warning", detail: `Multiple H1 tags found (${h1s.length}). Use a single H1 per page.`, priority: "high", howToFix: "Keep only one H1 tag per page. Use H2-H6 for subheadings." });
   } else {
@@ -1076,19 +1164,28 @@ function checkStructuredData(jsonLd: Record<string, unknown>[], html: string): A
 /*  CATEGORY 5: Content Quality (weight: 11%)                          */
 /* ================================================================== */
 
-function checkContent(html: string): AuditCheck[] {
+function checkContent(html: string, opts?: { isJsRendered?: boolean }): AuditCheck[] {
   const checks: AuditCheck[] = [];
+  const isJsRendered = opts?.isJsRendered ?? false;
 
-  const textContent = html.replace(/<script[^>]*>[\s\S]*?<\/script>/gi, "")
-    .replace(/<style[^>]*>[\s\S]*?<\/style>/gi, "")
+  // Strip scripts and styles FIRST, then strip HTML tags
+  const textContent = html
+    .replace(/<script[\s\S]*?<\/script>/gi, "")
+    .replace(/<style[\s\S]*?<\/style>/gi, "")
+    .replace(/<noscript[\s\S]*?<\/noscript>/gi, "")
     .replace(/<[^>]+>/g, " ")
+    .replace(/\{[^}]*\}/g, " ")   // strip stray CSS/JSON fragments
     .replace(/\s+/g, " ")
     .trim();
   const words = textContent.split(/\s+/).filter(w => w.length > 1);
   const wordCount = words.length;
 
   if (wordCount < 100) {
-    checks.push({ label: "Word count", status: "fail", detail: `Very little content (${wordCount} words). Thin content hurts rankings.`, priority: "critical", howToFix: "Add substantive content — at least 300 words for product pages, 500+ for collection pages." });
+    if (isJsRendered) {
+      checks.push({ label: "Word count", status: "warning", detail: `Very little content in server HTML (${wordCount} words). Content appears to be JavaScript-rendered. Word count may be inaccurate.`, priority: "medium", howToFix: "Consider server-side rendering (SSR) for better SEO. Search engines may not execute JavaScript reliably." });
+    } else {
+      checks.push({ label: "Word count", status: "fail", detail: `Very little content (${wordCount} words). Thin content hurts rankings.`, priority: "critical", howToFix: "Add substantive content — at least 300 words for product pages, 500+ for collection pages." });
+    }
   } else if (wordCount < 300) {
     checks.push({ label: "Word count", status: "warning", detail: `Content may be thin (${wordCount} words). Consider adding more detail.`, priority: "high", howToFix: "Expand content with product descriptions, benefits, specifications, and FAQs." });
   } else {
@@ -1099,7 +1196,11 @@ function checkContent(html: string): AuditCheck[] {
   const htmlBytes = html.length;
   const ratio = Math.round((textBytes / htmlBytes) * 100);
   if (ratio < 10) {
-    checks.push({ label: "Text-to-HTML ratio", status: "fail", detail: `Very low text-to-HTML ratio: ${ratio}%. Page is mostly code.`, priority: "high", howToFix: "Reduce unnecessary markup, inline scripts, and CSS. Increase visible text content." });
+    if (isJsRendered) {
+      checks.push({ label: "Text-to-HTML ratio", status: "warning", detail: `Low text-to-HTML ratio: ${ratio}%. Content appears to be JavaScript-rendered — ratio may be inaccurate.`, priority: "medium", howToFix: "Consider server-side rendering (SSR) for better SEO. Search engines may not execute JavaScript reliably." });
+    } else {
+      checks.push({ label: "Text-to-HTML ratio", status: "fail", detail: `Very low text-to-HTML ratio: ${ratio}%. Page is mostly code.`, priority: "high", howToFix: "Reduce unnecessary markup, inline scripts, and CSS. Increase visible text content." });
+    }
   } else if (ratio < 25) {
     checks.push({ label: "Text-to-HTML ratio", status: "warning", detail: `Text-to-HTML ratio: ${ratio}% (aim for 25%+).`, priority: "medium" });
   } else {
@@ -1623,13 +1724,34 @@ async function runShopifyAudit(rawUrl: string, skipPsi = false): Promise<AuditRe
     throw new Error(`Could not fetch ${url} (status ${mainRes.status})`);
   }
 
-  const html = mainRes.text;
+  // Detect cross-domain redirects (e.g., geo-redirects)
+  const redirectInfo = detectCrossDomainRedirect(url, mainRes.finalUrl);
+  let html = mainRes.text;
+  let effectiveUrl = url;
+
+  if (redirectInfo.redirected) {
+    // The store geo-redirected us to a different domain — try fetching the original without following cross-domain redirects
+    try {
+      const retryRes = await safeFetch(url, 12000);
+      // If we still get redirected to a different domain, use the original response but note the redirect
+      if (!detectCrossDomainRedirect(url, retryRes.finalUrl).redirected && retryRes.ok) {
+        html = retryRes.text;
+      }
+    } catch { /* use original response */ }
+  } else {
+    effectiveUrl = mainRes.finalUrl || url;
+  }
+
   const cartJsIsShopify = cartJsRes.ok && cartJsRes.text.includes('"token"');
   const isShopify = detectShopify(html, mainRes.headers) || cartJsIsShopify;
   const shopifyTheme = isShopify ? detectTheme(html) : null;
 
   // Extract PSI data
   const psiData = psiRaw ? extractPsiData(psiRaw as PsiData) : null;
+  const psiMeta = extractPsiMeta(psiRaw as PsiData | null);
+
+  // Detect JS-rendered stores (Hydrogen, Next.js, etc.)
+  const isJsRendered = detectJsRendered(html);
 
   if (!isShopify) {
     return {
@@ -1644,12 +1766,24 @@ async function runShopifyAudit(rawUrl: string, skipPsi = false): Promise<AuditRe
   const jsonLd = extractJsonLd(html);
   const responseTimeMs = mainRes.responseTimeMs;
 
+  // Build redirect warning check if cross-domain redirect detected
+  const redirectWarningChecks: AuditCheck[] = [];
+  if (redirectInfo.redirected) {
+    redirectWarningChecks.push({
+      label: "Cross-domain redirect",
+      status: "warning",
+      detail: `Store redirected from ${redirectInfo.from} to ${redirectInfo.to}. Audit results may reflect the redirected page.`,
+      priority: "high",
+      howToFix: "Geo-redirects can prevent search engines from crawling your primary domain. Consider using hreflang tags instead of automatic redirects.",
+    });
+  }
+
   const categories: AuditCategory[] = [
-    { name: "meta", weight: CATEGORY_WEIGHTS.meta, checks: checkMeta(html, url) },
-    { name: "shopify-technical", weight: CATEGORY_WEIGHTS["shopify-technical"], checks: checkShopifyTechnical(html, robotsRes.ok ? robotsRes.text : "", sitemapRes.ok ? sitemapRes.text : "", collectionsAllRes.ok && collectionsAllRes.status === 200, collectionsRes.ok && collectionsRes.status === 200, host, shopifyTheme) },
+    { name: "meta", weight: CATEGORY_WEIGHTS.meta, checks: checkMeta(html, effectiveUrl, { isJsRendered, psiMeta }) },
+    { name: "shopify-technical", weight: CATEGORY_WEIGHTS["shopify-technical"], checks: [...redirectWarningChecks, ...checkShopifyTechnical(html, robotsRes.ok ? robotsRes.text : "", sitemapRes.ok ? sitemapRes.text : "", collectionsAllRes.ok && collectionsAllRes.status === 200, collectionsRes.ok && collectionsRes.status === 200, host, shopifyTheme)] },
     { name: "performance", weight: CATEGORY_WEIGHTS.performance, checks: checkPerformancePsi(html, host, responseTimeMs, psiData) },
     { name: "structured-data", weight: CATEGORY_WEIGHTS["structured-data"], checks: checkStructuredData(jsonLd, html) },
-    { name: "content", weight: CATEGORY_WEIGHTS.content, checks: checkContent(html) },
+    { name: "content", weight: CATEGORY_WEIGHTS.content, checks: checkContent(html, { isJsRendered }) },
     { name: "security", weight: CATEGORY_WEIGHTS.security, checks: checkSecurity(mainRes.headers, html, url) },
     { name: "mobile", weight: CATEGORY_WEIGHTS.mobile, checks: checkMobile(html) },
     { name: "links", weight: CATEGORY_WEIGHTS.links, checks: checkLinks(html, host) },

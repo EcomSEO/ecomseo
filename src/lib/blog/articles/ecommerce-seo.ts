@@ -3,7 +3,7 @@ import type { BlogArticle } from "../types";
 export const ecommerceSeo: BlogArticle = {
   slug: "ecommerce-seo",
   category: "strategy",
-  publishDate: "2025-06-15",
+  publishDate: "2026-03-05",
   readingTime: 18,
   author: "Fabian van Til",
   authorRole: "CEO at EcomSEO",
@@ -26,6 +26,7 @@ export const ecommerceSeo: BlogArticle = {
         },
         {
           heading: "How search engines crawl and index product pages",
+          callout: { title: "Indexation Gap", text: "A sporting goods store had 62,000 URLs in their XML sitemap but only 23,000 indexed. After restructuring sitemaps, improving internal linking, and adding unique content, indexed pages grew to 41,000 and organic traffic increased 34% in four months." },
           body: [
             "Before we get into tactics, you need to understand what happens when Googlebot visits your online store. This matters more for ecommerce than other site types because stores tend to generate enormous numbers of URLs.",
             "Googlebot discovers your pages through your sitemap, internal links, and external links. It then decides which pages to crawl based on your crawl budget, which is influenced by your site's authority and server response speed. For a store with 50,000 URLs, Google might only crawl 2,000 to 5,000 pages per day. That means it could take weeks for Google to see changes you make site-wide.",
@@ -36,6 +37,7 @@ export const ecommerceSeo: BlogArticle = {
         },
         {
           heading: "The four pillars of ecommerce search engine optimization",
+          image: { src: "/images/blog/four-pillars-ecommerce-seo.svg", alt: "Diagram showing the four pillars of ecommerce SEO: Technical, On-Page, Content, and Off-Page with key activities under each", caption: "The four pillars of ecommerce SEO and how they work together" },
           body: [
             "We break ecommerce SEO into four areas. Each one matters and they are deeply connected.",
             "[Technical SEO](/blog/technical-seo-for-ecommerce) is the foundation. This covers site speed, crawlability, indexation management, structured data, canonical tags, hreflang for international stores, and mobile performance. If your technical SEO is broken, nothing else will deliver results. We have seen stores invest heavily in content and link building while their site took 8 seconds to load on mobile. That money was wasted.",
@@ -46,6 +48,8 @@ export const ecommerceSeo: BlogArticle = {
         },
         {
           heading: "Category page optimization: where the real money is",
+          image: { src: "/images/blog/category-vs-product-revenue.svg", alt: "Chart showing category pages drive 52% of organic revenue versus 31% for product pages across 14 ecommerce stores", caption: "Category pages drive the majority of organic revenue on ecommerce stores" },
+          callout: { title: "Revenue Split", text: "Across 14 ecommerce sites analyzed in late 2024, category pages drove 52% of organic revenue on average. Yet most stores spend 80% of their SEO effort on product pages instead." },
           body: [
             "Product pages get most of the attention in ecommerce SEO guides. That is a mistake. Category pages are typically the highest-value pages on your store for organic search.",
             "Think about how people search. Someone looking for running shoes is far more likely to type 'men's trail running shoes' than 'Nike Pegasus Trail 4 size 10.' The first query has 10 to 50 times the search volume. And it maps perfectly to a category page.",
@@ -97,6 +101,7 @@ export const ecommerceSeo: BlogArticle = {
             "FAQ and how-to content targets informational queries and builds topical authority. A garden supplies store that publishes detailed planting guides, pest control tips, and seasonal gardening calendars tells Google that the site is an authority on gardening. That authority lifts the rankings of their commercial pages too.",
             "Blog content should always connect back to your products through internal links. Every article should include at least two to three contextual links to relevant category or product pages. Otherwise, you are building traffic that never converts. Explore our [free ecommerce SEO tools](/tools) to audit how well your content and pages are optimized."
           ],
+          image: { src: "/images/blog/ecommerce-content-strategy-layers.svg", alt: "Layered content strategy from high-ROI buying guides through comparisons, how-to content, and FAQ pages", caption: "Only optimizing product pages captures a fraction of your potential audience" },
         },
         {
           heading: "Measuring the ROI of ecommerce SEO",
@@ -134,6 +139,7 @@ export const ecommerceSeo: BlogArticle = {
             "Abbiamo eseguito un'analisi di crawl per un negozio di articoli sportivi l'anno scorso. Avevano 62.000 URL nella loro sitemap XML. Google Search Console mostrava che solo 23.000 erano indicizzati. Il resto era contrassegnato come 'Scoperto, attualmente non indicizzato' o 'Scansionato, attualmente non indicizzato.' La soluzione ha comportato la ristrutturazione della sitemap in file specifici per categoria, il miglioramento del linking interno e l'aggiunta di contenuti unici alle pagine prodotto. Entro quattro mesi, le pagine indicizzate sono cresciute a 41.000 e il traffico organico e aumentato del 34%.",
             "La lezione: non puoi fare SEO per ecommerce in modo efficace senza capire come funzionano la scansione e l'indicizzazione sul tuo negozio specifico."
           ],
+          callout: { title: "Indexation Gap", text: "A sporting goods store had 62,000 URLs in their XML sitemap but only 23,000 indexed. After restructuring sitemaps, improving internal linking, and adding unique content, indexed pages grew to 41,000 and organic traffic increased 34% in four months." },
         },
         {
           heading: "I quattro pilastri dell'ottimizzazione per i motori di ricerca per ecommerce",
@@ -144,6 +150,7 @@ export const ecommerceSeo: BlogArticle = {
             "La strategia dei contenuti va oltre le descrizioni prodotto. Include guide all'acquisto, pagine di confronto, contenuti FAQ e descrizioni di categoria che puntano a keyword informative e commerciali. Un negozio di forniture per animali con cui lavoriamo genera il 28% del suo fatturato organico da pagine non-prodotto, principalmente guide all'acquisto che si posizionano per termini come 'miglior cibo per cani anziani' e 'tabella taglie gabbia cucciolo.'",
             "La [SEO off-page](/blog/off-page-seo-for-ecommerce) per l'ecommerce riguarda principalmente la costruzione dell'autorita del dominio attraverso la [link building per ecommerce](/link-building) e le digital PR. Le pagine prodotto raramente attraggono link naturali. Hai bisogno di asset linkabili, relazioni con i fornitori e a volte campagne PR creative per costruire l'autorita che solleva l'intero negozio nei posizionamenti. Alla base di tutto c'e una solida [ricerca keyword per ecommerce](/blog/ecommerce-seo-keywords) che garantisce che ogni pagina punti a termini che i tuoi clienti cercano davvero."
           ],
+          image: { src: "/images/blog/it/four-pillars-ecommerce-seo.svg", alt: "Diagram showing the four pillars of ecommerce SEO: Technical, On-Page, Content, and Off-Page with key activities under each", caption: "The four pillars of ecommerce SEO and how they work together" },
         },
         {
           heading: "Ottimizzazione delle pagine categoria: dove si trova il vero guadagno",
@@ -155,6 +162,8 @@ export const ecommerceSeo: BlogArticle = {
             "Una cosa che testiamo regolarmente: aggiungere sezioni FAQ alle pagine categoria. Per un cliente di articoli da cucina, aggiungere da 4 a 6 FAQ alle loro 20 pagine categoria principali ha aumentato il traffico organico di quelle pagine del 41% in tre mesi. Google sembra apprezzare il contesto aggiuntivo, e molte di quelle FAQ ora appaiono come risultati ricchi nella ricerca.",
             "Le pagine filtro sono un'estensione dell'ottimizzazione delle categorie. Se il tuo negozio permette agli utenti di filtrare per colore, taglia, materiale o prezzo, quegli URL filtrati possono essere oro SEO o un incubo di indicizzazione. Tipicamente raccomandiamo di indicizzare le combinazioni di filtro ad alto volume (come '/scarpe-corsa-uomo/impermeabili') bloccando quelle a basso valore (come '/scarpe-corsa-uomo?sort=prezzo-basso'). I dettagli dipendono dalla tua piattaforma e dai dati di traffico."
           ],
+          image: { src: "/images/blog/it/category-vs-product-revenue.svg", alt: "Chart showing category pages drive 52% of organic revenue versus 31% for product pages across 14 ecommerce stores", caption: "Category pages drive the majority of organic revenue on ecommerce stores" },
+          callout: { title: "Revenue Split", text: "Across 14 ecommerce sites analyzed in late 2024, category pages drove 52% of organic revenue on average. Yet most stores spend 80% of their SEO effort on product pages instead." },
         },
         {
           heading: "Link interni: la tattica piu sottovalutata nella SEO per ecommerce",
@@ -198,6 +207,7 @@ export const ecommerceSeo: BlogArticle = {
             "I contenuti FAQ e how-to puntano a query informative e costruiscono autorita tematica. Un negozio di forniture da giardinaggio che pubblica guide dettagliate alla semina, consigli per il controllo dei parassiti e calendari stagionali di giardinaggio dice a Google che il sito e un'autorita nel giardinaggio. Quell'autorita solleva anche i posizionamenti delle pagine commerciali.",
             "I contenuti del blog dovrebbero sempre ricollegarsi ai tuoi prodotti attraverso link interni. Ogni articolo dovrebbe includere almeno due o tre link contestuali a pagine categoria o prodotto pertinenti. Altrimenti, stai costruendo traffico che non converte mai. Esplora i nostri [strumenti SEO ecommerce gratuiti](/tools) per verificare quanto bene i tuoi contenuti e le tue pagine sono ottimizzati."
           ],
+          image: { src: "/images/blog/it/ecommerce-content-strategy-layers.svg", alt: "Layered content strategy from high-ROI buying guides through comparisons, how-to content, and FAQ pages", caption: "Only optimizing product pages captures a fraction of your potential audience" },
         },
         {
           heading: "Misurare il ROI della SEO per ecommerce",
@@ -235,6 +245,7 @@ export const ecommerceSeo: BlogArticle = {
             "Wir haben letztes Jahr eine Crawl-Analyse fur einen Sportartikelshop durchgefuhrt. Sie hatten 62.000 URLs in ihrer XML-Sitemap. Die Google Search Console zeigte, dass nur 23.000 indexiert waren. Der Rest war als 'Erkannt, derzeit nicht indexiert' oder 'Gecrawlt, derzeit nicht indexiert' markiert. Die Losung umfasste die Umstrukturierung der Sitemap in kategoriespezifische Dateien, die Verbesserung der internen Verlinkung und das Hinzufugen einzigartiger Inhalte zu Produktseiten. Innerhalb von vier Monaten wuchsen die indexierten Seiten auf 41.000 und der organische Traffic stieg um 34%.",
             "Die Lektion: Sie konnen Ecommerce SEO nicht effektiv betreiben, ohne zu verstehen, wie Crawling und Indexierung in Ihrem spezifischen Shop funktionieren."
           ],
+          callout: { title: "Indexation Gap", text: "A sporting goods store had 62,000 URLs in their XML sitemap but only 23,000 indexed. After restructuring sitemaps, improving internal linking, and adding unique content, indexed pages grew to 41,000 and organic traffic increased 34% in four months." },
         },
         {
           heading: "Die vier Saulen der Ecommerce-Suchmaschinenoptimierung",
@@ -245,6 +256,7 @@ export const ecommerceSeo: BlogArticle = {
             "Content-Strategie geht uber Produktbeschreibungen hinaus. Sie umfasst Kaufratgeber, Vergleichsseiten, FAQ-Inhalte und Kategoriebeschreibungen, die auf informative und kommerzielle Keywords abzielen. Ein Tierbedarfshop, mit dem wir arbeiten, generiert 28% seines organischen Umsatzes uber Nicht-Produktseiten, hauptsachlich Kaufratgeber, die fur Begriffe wie 'bestes Hundefutter fur altere Hunde' und 'Welpen-Transportbox Grossentabelle' ranken.",
             "[Off-Page SEO](/blog/off-page-seo-for-ecommerce) fur Ecommerce dreht sich hauptsachlich um den Aufbau von Domain-Autoritat durch [Ecommerce-Linkaufbau](/link-building) und digitale PR. Produktseiten ziehen selten naturliche Links an. Sie brauchen linkwurdige Assets, Lieferantenbeziehungen und manchmal kreative PR-Kampagnen, um die Autoritat aufzubauen, die Ihren gesamten Shop in den Rankings hebt. All dem liegt eine solide [Ecommerce-Keyword-Recherche](/blog/ecommerce-seo-keywords) zugrunde, die sicherstellt, dass jede Seite auf Begriffe abzielt, nach denen Ihre Kunden tatsachlich suchen."
           ],
+          image: { src: "/images/blog/de/four-pillars-ecommerce-seo.svg", alt: "Diagram showing the four pillars of ecommerce SEO: Technical, On-Page, Content, and Off-Page with key activities under each", caption: "The four pillars of ecommerce SEO and how they work together" },
         },
         {
           heading: "Kategorieseiten-Optimierung: wo das echte Geld liegt",
@@ -256,6 +268,8 @@ export const ecommerceSeo: BlogArticle = {
             "Eine Sache, die wir regelmassig testen: FAQ-Abschnitte auf Kategorieseiten hinzufugen. Fur einen Kuchenzubehor-Kunden steigerte das Hinzufugen von 4 bis 6 FAQs zu ihren 20 wichtigsten Kategorieseiten den organischen Traffic dieser Seiten innerhalb von drei Monaten um 41%. Google scheint den zusatzlichen Kontext zu schatzen, und viele dieser FAQs erscheinen jetzt als Rich Results in der Suche.",
             "Filterseiten sind eine Erweiterung der Kategorie-Optimierung. Wenn Ihr Shop es den Nutzern ermoglicht, nach Farbe, Grosse, Material oder Preis zu filtern, konnen diese gefilterten URLs SEO-Gold oder ein Indexierungs-Albtraum sein. Wir empfehlen typischerweise, volumestarke Filterkombinationen (wie '/herren-laufschuhe/wasserdicht') zu indexieren und gleichzeitig wertarme (wie '/herren-laufschuhe?sort=preis-niedrig') zu blockieren. Die Details hangen von Ihrer Plattform und Ihren Traffic-Daten ab."
           ],
+          image: { src: "/images/blog/de/category-vs-product-revenue.svg", alt: "Chart showing category pages drive 52% of organic revenue versus 31% for product pages across 14 ecommerce stores", caption: "Category pages drive the majority of organic revenue on ecommerce stores" },
+          callout: { title: "Revenue Split", text: "Across 14 ecommerce sites analyzed in late 2024, category pages drove 52% of organic revenue on average. Yet most stores spend 80% of their SEO effort on product pages instead." },
         },
         {
           heading: "Interne Verlinkung: die am meisten unterschatzte Taktik im Ecommerce SEO",
@@ -299,6 +313,7 @@ export const ecommerceSeo: BlogArticle = {
             "FAQ- und How-to-Inhalte zielen auf informative Suchanfragen ab und bauen thematische Autoritat auf. Ein Gartenzubehorshop, der detaillierte Pflanzanleitungen, Schadlingsbekampfungstipps und saisonale Gartenkalender veroffentlicht, signalisiert Google, dass die Website eine Autoritat im Bereich Gartenarbeit ist. Diese Autoritat hebt auch die Rankings der kommerziellen Seiten.",
             "Blog-Inhalte sollten immer uber interne Links zu Ihren Produkten zuruckfuhren. Jeder Artikel sollte mindestens zwei bis drei kontextuelle Links zu relevanten Kategorie- oder Produktseiten enthalten. Andernfalls bauen Sie Traffic auf, der nie konvertiert. Entdecken Sie unsere [kostenlosen Ecommerce-SEO-Tools](/tools), um zu prufen, wie gut Ihre Inhalte und Seiten optimiert sind."
           ],
+          image: { src: "/images/blog/de/ecommerce-content-strategy-layers.svg", alt: "Layered content strategy from high-ROI buying guides through comparisons, how-to content, and FAQ pages", caption: "Only optimizing product pages captures a fraction of your potential audience" },
         },
         {
           heading: "Den ROI von Ecommerce SEO messen",
@@ -336,6 +351,7 @@ export const ecommerceSeo: BlogArticle = {
             "Nous avons realise une analyse de crawl pour un magasin d'articles de sport l'annee derniere. Ils avaient 62 000 URLs dans leur sitemap XML. Google Search Console montrait que seulement 23 000 etaient indexees. Le reste etait marque comme 'Decouverte, actuellement non indexee' ou 'Exploree, actuellement non indexee.' La solution a implique la restructuration de leur sitemap en fichiers specifiques par categorie, l'amelioration du maillage interne et l'ajout de contenu unique aux pages produit. En quatre mois, les pages indexees sont passees a 41 000 et le trafic organique a augmente de 34%.",
             "La lecon : vous ne pouvez pas faire du SEO ecommerce efficacement sans comprendre comment l'exploration et l'indexation fonctionnent sur votre boutique specifique."
           ],
+          callout: { title: "Indexation Gap", text: "A sporting goods store had 62,000 URLs in their XML sitemap but only 23,000 indexed. After restructuring sitemaps, improving internal linking, and adding unique content, indexed pages grew to 41,000 and organic traffic increased 34% in four months." },
         },
         {
           heading: "Les quatre piliers de l'optimisation pour les moteurs de recherche ecommerce",
@@ -346,6 +362,7 @@ export const ecommerceSeo: BlogArticle = {
             "La strategie de contenu va au-dela des descriptions produit. Elle inclut des guides d'achat, des pages de comparaison, du contenu FAQ et des descriptions de categorie qui ciblent des mots-cles informationnels et commerciaux. Un magasin de fournitures pour animaux avec lequel nous travaillons genere 28% de son chiffre d'affaires organique a partir de pages non-produit, principalement des guides d'achat qui se classent pour des termes comme 'meilleure nourriture pour chiens ages' et 'tableau des tailles de cage pour chiot.'",
             "Le [SEO off-page](/blog/off-page-seo-for-ecommerce) pour le ecommerce concerne principalement la construction de l'autorite du domaine par le [link building ecommerce](/link-building) et les relations publiques numeriques. Les pages produit attirent rarement des liens naturels. Vous avez besoin d'actifs linkables, de relations avec les fournisseurs et parfois de campagnes PR creatives pour construire l'autorite qui eleve l'ensemble de votre boutique dans les classements. A la base de tout cela se trouve une solide [recherche de mots-cles ecommerce](/blog/ecommerce-seo-keywords) qui garantit que chaque page cible des termes que vos clients recherchent reellement."
           ],
+          image: { src: "/images/blog/fr/four-pillars-ecommerce-seo.svg", alt: "Diagram showing the four pillars of ecommerce SEO: Technical, On-Page, Content, and Off-Page with key activities under each", caption: "The four pillars of ecommerce SEO and how they work together" },
         },
         {
           heading: "Optimisation des pages categorie : la ou se trouve le vrai argent",
@@ -357,6 +374,8 @@ export const ecommerceSeo: BlogArticle = {
             "Une chose que nous testons regulierement : ajouter des sections FAQ aux pages categorie. Pour un client d'ustensiles de cuisine, ajouter 4 a 6 FAQ a leurs 20 pages categorie principales a augmente le trafic organique de ces pages de 41% en trois mois. Google semble apprecier le contexte supplementaire, et beaucoup de ces FAQ apparaissent desormais comme resultats enrichis dans la recherche.",
             "Les pages de filtres sont une extension de l'optimisation des categories. Si votre boutique permet aux utilisateurs de filtrer par couleur, taille, materiau ou prix, ces URLs filtrees peuvent etre de l'or SEO ou un cauchemar d'indexation. Nous recommandons generalement d'indexer les combinaisons de filtres a fort volume (comme '/chaussures-course-homme/impermeables') tout en bloquant celles a faible valeur (comme '/chaussures-course-homme?sort=prix-bas'). Les details dependent de votre plateforme et de vos donnees de trafic."
           ],
+          image: { src: "/images/blog/fr/category-vs-product-revenue.svg", alt: "Chart showing category pages drive 52% of organic revenue versus 31% for product pages across 14 ecommerce stores", caption: "Category pages drive the majority of organic revenue on ecommerce stores" },
+          callout: { title: "Revenue Split", text: "Across 14 ecommerce sites analyzed in late 2024, category pages drove 52% of organic revenue on average. Yet most stores spend 80% of their SEO effort on product pages instead." },
         },
         {
           heading: "Le maillage interne : la tactique la plus sous-utilisee en SEO ecommerce",
@@ -400,6 +419,7 @@ export const ecommerceSeo: BlogArticle = {
             "Le contenu FAQ et tutoriel cible les requetes informationnelles et construit l'autorite thematique. Un magasin de fournitures de jardin qui publie des guides de plantation detailles, des conseils de lutte contre les parasites et des calendriers de jardinage saisonniers indique a Google que le site fait autorite en jardinage. Cette autorite eleve aussi les classements des pages commerciales.",
             "Le contenu blog devrait toujours renvoyer a vos produits via des liens internes. Chaque article devrait inclure au moins deux a trois liens contextuels vers des pages categorie ou produit pertinentes. Sinon, vous generez du trafic qui ne convertit jamais. Explorez nos [outils SEO ecommerce gratuits](/tools) pour verifier a quel point vos contenus et pages sont optimises."
           ],
+          image: { src: "/images/blog/fr/ecommerce-content-strategy-layers.svg", alt: "Layered content strategy from high-ROI buying guides through comparisons, how-to content, and FAQ pages", caption: "Only optimizing product pages captures a fraction of your potential audience" },
         },
         {
           heading: "Mesurer le ROI du SEO ecommerce",
@@ -437,6 +457,7 @@ export const ecommerceSeo: BlogArticle = {
             "Realizamos un analisis de rastreo para una tienda de articulos deportivos el ano pasado. Tenian 62.000 URLs en su sitemap XML. Google Search Console mostraba que solo 23.000 estaban indexadas. El resto estaba marcado como 'Descubierta, actualmente no indexada' o 'Rastreada, actualmente no indexada.' La solucion implico reestructurar su sitemap en archivos especificos por categoria, mejorar el enlazado interno y anadir contenido unico a las paginas de producto. En cuatro meses, las paginas indexadas crecieron a 41.000 y el trafico organico aumento un 34%.",
             "La leccion: no puedes hacer SEO para ecommerce de forma efectiva sin entender como funcionan el rastreo y la indexacion en tu tienda especifica."
           ],
+          callout: { title: "Indexation Gap", text: "A sporting goods store had 62,000 URLs in their XML sitemap but only 23,000 indexed. After restructuring sitemaps, improving internal linking, and adding unique content, indexed pages grew to 41,000 and organic traffic increased 34% in four months." },
         },
         {
           heading: "Los cuatro pilares de la optimizacion para motores de busqueda en ecommerce",
@@ -447,6 +468,7 @@ export const ecommerceSeo: BlogArticle = {
             "La estrategia de contenido va mas alla de las descripciones de producto. Incluye guias de compra, paginas de comparacion, contenido FAQ y descripciones de categoria que apuntan a palabras clave informativas y comerciales. Una tienda de suministros para mascotas con la que trabajamos genera el 28% de sus ingresos organicos desde paginas no-producto, principalmente guias de compra que se posicionan para terminos como 'mejor comida para perros mayores' y 'tabla de tamanos de jaula para cachorros.'",
             "El [SEO off-page](/blog/off-page-seo-for-ecommerce) para ecommerce trata principalmente de construir autoridad de dominio a traves del [link building para ecommerce](/link-building) y las relaciones publicas digitales. Las paginas de producto raramente atraen enlaces naturales. Necesitas activos enlazables, relaciones con proveedores y a veces campanas de PR creativas para construir la autoridad que eleva toda tu tienda en los rankings. Todo esto se sustenta en una solida [investigacion de palabras clave para ecommerce](/blog/ecommerce-seo-keywords) que garantiza que cada pagina apunte a terminos que tus clientes realmente buscan."
           ],
+          image: { src: "/images/blog/es/four-pillars-ecommerce-seo.svg", alt: "Diagram showing the four pillars of ecommerce SEO: Technical, On-Page, Content, and Off-Page with key activities under each", caption: "The four pillars of ecommerce SEO and how they work together" },
         },
         {
           heading: "Optimizacion de paginas de categoria: donde esta el dinero real",
@@ -458,6 +480,8 @@ export const ecommerceSeo: BlogArticle = {
             "Algo que probamos regularmente: agregar secciones FAQ a las paginas de categoria. Para un cliente de utensilios de cocina, agregar de 4 a 6 FAQs a sus 20 paginas de categoria principales aumento el trafico organico de esas paginas un 41% en tres meses. Google parece apreciar el contexto adicional, y muchas de esas FAQs ahora aparecen como resultados enriquecidos en la busqueda.",
             "Las paginas de filtros son una extension de la optimizacion de categorias. Si tu tienda permite a los usuarios filtrar por color, talla, material o precio, esas URLs filtradas pueden ser oro SEO o una pesadilla de indexacion. Tipicamente recomendamos indexar combinaciones de filtros de alto volumen (como '/zapatillas-correr-hombre/impermeables') mientras se bloquean las de bajo valor (como '/zapatillas-correr-hombre?sort=precio-bajo'). Los detalles dependen de tu plataforma y datos de trafico."
           ],
+          image: { src: "/images/blog/es/category-vs-product-revenue.svg", alt: "Chart showing category pages drive 52% of organic revenue versus 31% for product pages across 14 ecommerce stores", caption: "Category pages drive the majority of organic revenue on ecommerce stores" },
+          callout: { title: "Revenue Split", text: "Across 14 ecommerce sites analyzed in late 2024, category pages drove 52% of organic revenue on average. Yet most stores spend 80% of their SEO effort on product pages instead." },
         },
         {
           heading: "Enlazado interno: la tactica mas subutilizada en SEO para ecommerce",
@@ -501,6 +525,7 @@ export const ecommerceSeo: BlogArticle = {
             "El contenido FAQ y de tutoriales apunta a consultas informativas y construye autoridad tematica. Una tienda de suministros de jardineria que publica guias detalladas de siembra, consejos de control de plagas y calendarios de jardineria estacionales le dice a Google que el sitio es una autoridad en jardineria. Esa autoridad eleva tambien los rankings de las paginas comerciales.",
             "El contenido del blog siempre debe conectar de vuelta a tus productos a traves de enlaces internos. Cada articulo debe incluir al menos dos a tres enlaces contextuales a paginas de categoria o producto relevantes. De lo contrario, estas construyendo trafico que nunca convierte. Explora nuestras [herramientas SEO ecommerce gratuitas](/tools) para auditar que tan bien estan optimizados tu contenido y tus paginas."
           ],
+          image: { src: "/images/blog/es/ecommerce-content-strategy-layers.svg", alt: "Layered content strategy from high-ROI buying guides through comparisons, how-to content, and FAQ pages", caption: "Only optimizing product pages captures a fraction of your potential audience" },
         },
         {
           heading: "Medir el ROI del SEO para ecommerce",
@@ -538,6 +563,7 @@ export const ecommerceSeo: BlogArticle = {
             "We hebben vorig jaar een crawl-analyse uitgevoerd voor een sportzaak. Ze hadden 62.000 URL's in hun XML-sitemap. Google Search Console liet zien dat slechts 23.000 geindexeerd waren. De rest was gemarkeerd als 'Ontdekt, momenteel niet geindexeerd' of 'Gecrawld, momenteel niet geindexeerd.' De oplossing omvatte het herstructureren van hun sitemap in categorie-specifieke bestanden, het verbeteren van de interne linkstructuur en het toevoegen van unieke content aan productpagina's. Binnen vier maanden groeiden de geindexeerde pagina's naar 41.000 en steeg het organisch verkeer met 34%.",
             "De les: je kunt geen effectieve ecommerce SEO bedrijven zonder te begrijpen hoe crawling en indexering werken in jouw specifieke webshop."
           ],
+          callout: { title: "Indexation Gap", text: "A sporting goods store had 62,000 URLs in their XML sitemap but only 23,000 indexed. After restructuring sitemaps, improving internal linking, and adding unique content, indexed pages grew to 41,000 and organic traffic increased 34% in four months." },
         },
         {
           heading: "De vier pijlers van ecommerce-zoekmachineoptimalisatie",
@@ -548,6 +574,7 @@ export const ecommerceSeo: BlogArticle = {
             "Contentstrategie gaat verder dan productbeschrijvingen. Het omvat koopgidsen, vergelijkingspagina's, FAQ-content en categoriebeschrijvingen die zich richten op informatieve en commerciele zoekwoorden. Een dierenwinkek waarmee we werken, genereert 28% van zijn organische omzet uit niet-productpagina's, voornamelijk koopgidsen die ranken voor termen als 'beste hondenvoer voor oudere honden' en 'puppybench maattabel.'",
             "[Off-page SEO](/blog/off-page-seo-for-ecommerce) voor ecommerce draait voornamelijk om het opbouwen van domeinautoriteit door [ecommerce linkbuilding](/link-building) en digitale PR. Productpagina's trekken zelden natuurlijke links aan. Je hebt linkwaardige assets, leveranciersrelaties en soms creatieve PR-campagnes nodig om de autoriteit op te bouwen die je hele webshop in de rankings optilt. Dit alles wordt ondersteund door gedegen [ecommerce zoekwoordenonderzoek](/blog/ecommerce-seo-keywords) dat ervoor zorgt dat elke pagina zich richt op termen waar je klanten daadwerkelijk naar zoeken."
           ],
+          image: { src: "/images/blog/nl/four-pillars-ecommerce-seo.svg", alt: "Diagram showing the four pillars of ecommerce SEO: Technical, On-Page, Content, and Off-Page with key activities under each", caption: "The four pillars of ecommerce SEO and how they work together" },
         },
         {
           heading: "Categoriepagina-optimalisatie: waar het echte geld zit",
@@ -559,6 +586,8 @@ export const ecommerceSeo: BlogArticle = {
             "Iets wat we regelmatig testen: FAQ-secties toevoegen aan categoriepagina's. Voor een keukengerei-klant verhoogde het toevoegen van 4 tot 6 FAQ's aan hun top 20 categoriepagina's het organisch verkeer naar die pagina's met 41% in drie maanden. Google lijkt de extra context te waarderen, en veel van die FAQ's verschijnen nu als rich results in de zoekresultaten.",
             "Filterpagina's zijn een uitbreiding van categorie-optimalisatie. Als je webshop gebruikers laat filteren op kleur, maat, materiaal of prijs, kunnen die gefilterde URL's SEO-goud of een indexeringsnachtmerrie zijn. We raden doorgaans aan om filtercomibinaties met hoog volume te indexeren (zoals '/heren-hardloopschoenen/waterdicht') en combinaties met lage waarde te blokkeren (zoals '/heren-hardloopschoenen?sort=prijs-laag'). De details hangen af van je platform en verkeersgegevens."
           ],
+          image: { src: "/images/blog/nl/category-vs-product-revenue.svg", alt: "Chart showing category pages drive 52% of organic revenue versus 31% for product pages across 14 ecommerce stores", caption: "Category pages drive the majority of organic revenue on ecommerce stores" },
+          callout: { title: "Revenue Split", text: "Across 14 ecommerce sites analyzed in late 2024, category pages drove 52% of organic revenue on average. Yet most stores spend 80% of their SEO effort on product pages instead." },
         },
         {
           heading: "Interne linkstructuur: de meest onderbenutte tactiek in ecommerce SEO",
@@ -602,6 +631,7 @@ export const ecommerceSeo: BlogArticle = {
             "FAQ- en how-to-content richt zich op informatieve zoekopdrachten en bouwt thematische autoriteit op. Een tuinartikelen-webshop die gedetailleerde plantgidsen, ongediertebestrijdingstips en seizoensgebonden tuinkalenders publiceert, vertelt Google dat de site een autoriteit is op het gebied van tuinieren. Die autoriteit tilt ook de rankings van de commerciele pagina's op.",
             "Blogcontent moet altijd via interne links terugverwijzen naar je producten. Elk artikel moet minstens twee tot drie contextuele links bevatten naar relevante categorie- of productpagina's. Anders bouw je verkeer op dat nooit converteert. Bekijk onze [gratis ecommerce SEO-tools](/tools) om te controleren hoe goed je content en pagina's zijn geoptimaliseerd."
           ],
+          image: { src: "/images/blog/nl/ecommerce-content-strategy-layers.svg", alt: "Layered content strategy from high-ROI buying guides through comparisons, how-to content, and FAQ pages", caption: "Only optimizing product pages captures a fraction of your potential audience" },
         },
         {
           heading: "De ROI van ecommerce SEO meten",

@@ -1,0 +1,31 @@
+<svg viewBox="0 0 420 230" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <text x="210" y="22" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#a78bfa">SERP Features That Affect Ecommerce CTR</text>
+  <g transform="translate(30,38)">
+    <rect width="360" height="38" rx="6" fill="#f97316" fill-opacity="0.12" stroke="#f97316" stroke-width="1"/>
+    <text x="14" y="16" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#f97316">Shopping Carousel</text>
+    <text x="14" y="30" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Reduces organic Pos 1 CTR from ~30% to 15-20%</text>
+    <rect x="260" y="10" width="88" height="18" rx="4" fill="#ef4444" fill-opacity="0.15"/>
+    <text x="304" y="23" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#ef4444">High Impact</text>
+  </g>
+  <g transform="translate(30,84)">
+    <rect width="360" height="38" rx="6" fill="#60a5fa" fill-opacity="0.12" stroke="#60a5fa" stroke-width="1"/>
+    <text x="14" y="16" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#60a5fa">Featured Snippet</text>
+    <text x="14" y="30" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Captures 35-50% of clicks on comparison queries</text>
+    <rect x="260" y="10" width="88" height="18" rx="4" fill="#f97316" fill-opacity="0.15"/>
+    <text x="304" y="23" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#f97316">Medium-High</text>
+  </g>
+  <g transform="translate(30,130)">
+    <rect width="360" height="38" rx="6" fill="#4ade80" fill-opacity="0.12" stroke="#4ade80" stroke-width="1"/>
+    <text x="14" y="16" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#4ade80">Image Pack</text>
+    <text x="14" y="30" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Extra visibility for fashion, decor, electronics</text>
+    <rect x="260" y="10" width="88" height="18" rx="4" fill="#4ade80" fill-opacity="0.15"/>
+    <text x="304" y="23" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#4ade80">Opportunity</text>
+  </g>
+  <g transform="translate(30,176)">
+    <rect width="360" height="38" rx="6" fill="#a78bfa" fill-opacity="0.12" stroke="#a78bfa" stroke-width="1"/>
+    <text x="14" y="16" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#a78bfa">People Also Ask</text>
+    <text x="14" y="30" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Pushes organic results down, but win-able with FAQ content</text>
+    <rect x="260" y="10" width="88" height="18" rx="4" fill="#60a5fa" fill-opacity="0.15"/>
+    <text x="304" y="23" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#60a5fa">Gemiddeld</text>
+  </g>
+</svg>

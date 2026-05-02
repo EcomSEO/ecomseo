@@ -16,6 +16,11 @@ export const introductionToEcommerceSeo: AcademyTopic = {
           title: "What Makes Ecommerce SEO Different",
           content:
             "A typical content website might have 50 to 200 pages. An online store can easily have 10,000 to 500,000 URLs once you factor in product pages, category pages, filtered views, and variant combinations. That scale changes everything about how you approach search optimization.\n\nEcommerce sites also deal with content that shifts constantly. Products go out of stock, seasonal collections rotate in and out, prices change, and new SKUs get added weekly. Unlike a blog post that can rank for years without updates, product pages require ongoing attention to stay relevant and indexed.\n\nThen there is the issue of thin content. Most product pages share manufacturer descriptions used by dozens of other retailers. A product page with a two-sentence description, a price, and an Add to Cart button gives Google very little reason to rank your version over a competitor's. Solving this content challenge is one of the core problems ecommerce SEO addresses.",
+          image: {
+            src: "/images/academy/ecommerce-seo-vs-regular.svg",
+            alt: "Comparison chart showing the differences between content website SEO and online store SEO across five dimensions",
+            caption: "Ecommerce SEO differs from regular SEO in scale, content freshness, duplication, URL complexity, and intent mix.",
+          },
           items: [
             "Scale: thousands of product and category URLs to manage",
             "Duplicate content from shared manufacturer descriptions",
@@ -23,12 +28,20 @@ export const introductionToEcommerceSeo: AcademyTopic = {
             "Complex URL structures from filters, sorts, and variants",
             "Technical overhead from ecommerce platform limitations",
           ],
+          callout: {
+            title: "Scale Comparison",
+            text: "A content site manages 50-200 pages. A mid-sized store manages 10,000-500,000 URLs once you include product variants, filter combinations, and pagination. That is 100x-2,500x more pages to optimize.",
+          },
         },
         {
           title: "Why SEO Drives Better Revenue Than Paid Ads Alone",
           content:
             "Paid advertising works. But the moment you stop paying, the traffic disappears. We have seen stores spending 40,000 EUR per month on Google Ads while ignoring organic search entirely. When their ad budget got cut during a slow quarter, revenue dropped by 60% overnight.\n\nOrganic search traffic compounds over time. A well-optimized category page that ranks on page one will continue sending visitors for months or years without additional spend. We regularly see category pages generating 2,000 to 5,000 monthly visits with zero ongoing ad cost.\n\nThe economics are straightforward. If your average cost per click on Google Ads is 0.80 EUR and a category page brings in 3,000 organic clicks per month, that page saves you 2,400 EUR monthly. Across 50 optimized category pages, organic search can replace hundreds of thousands in annual ad spend.\n\nThis does not mean you should abandon paid advertising. The strongest ecommerce businesses use both channels together. SEO captures demand from shoppers already searching for what you sell, while paid ads help you reach new audiences and promote time-sensitive offers. Our [ecommerce SEO guide](/blog/ecommerce-seo) covers this integrated approach in depth.",
           tip: "Calculate your potential SEO savings by multiplying your top 20 organic keywords' monthly search volume by their Google Ads CPC. That number represents the ad spend organic rankings are replacing.",
+          callout: {
+            title: "Quick Math",
+            text: "A category page ranking organically for a keyword with 3,000 monthly searches and a 0.80 EUR CPC saves 2,400 EUR/month. Across 50 optimized category pages, that replaces over 100,000 EUR in annual ad spend.",
+          },
         },
         {
           title: "The Unique Challenges of Online Store SEO",
@@ -46,6 +59,11 @@ export const introductionToEcommerceSeo: AcademyTopic = {
           title: "The Four Pillars of Ecommerce SEO",
           content:
             "Ecommerce SEO breaks down into four connected disciplines. Technical SEO ensures Google can [crawl and index your store](/academy/crawling-and-indexing-product-pages) efficiently. This covers site architecture, page speed, structured data, and crawl budget management. Without a solid technical foundation, nothing else works.\n\nOn-page SEO focuses on making individual pages relevant for specific search queries. For product pages, this means unique descriptions, optimized title tags, and proper heading structures. For category pages, it means targeted keyword usage, helpful intro copy, and well-organized product grids.\n\nContent and authority building extends your store beyond transactional pages. Buying guides, comparison articles, and how-to content attract shoppers earlier in their purchase journey. These pages also earn backlinks more naturally than product pages ever will.\n\nOff-page SEO and link building strengthen your store's overall authority in Google's eyes. A store with quality backlinks from relevant industry sites, publications, and blogs will outrank competitors with similar on-page optimization every time.",
+          image: {
+            src: "/images/academy/four-pillars-ecommerce-seo.svg",
+            alt: "Diagram showing the four pillars of ecommerce SEO: Technical, On-Page, Content Strategy, and Off-Page, supporting revenue growth",
+            caption: "The four pillars work together. Start with Technical SEO to unblock everything else.",
+          },
           items: [
             "Technical SEO: crawlability, speed, structured data, indexation",
             "On-page SEO: content, keywords, titles, headings per page",
@@ -81,6 +99,11 @@ export const introductionToEcommerceSeo: AcademyTopic = {
           title: "Was Ecommerce-SEO anders macht",
           content:
             "Eine typische Content-Website hat vielleicht 50 bis 200 Seiten. Ein Online-Shop kann leicht 10.000 bis 500.000 URLs haben, wenn man Produktseiten, Kategorieseiten, gefilterte Ansichten und Variantenkombinationen ber\u00fccksichtigt. Diese Gr\u00f6\u00dfenordnung ver\u00e4ndert alles an der Herangehensweise an Suchmaschinenoptimierung.\n\nEcommerce-Websites haben au\u00dferdem mit st\u00e4ndig wechselnden Inhalten zu tun. Produkte sind nicht mehr auf Lager, saisonale Kollektionen werden ein- und ausgelagert, Preise \u00e4ndern sich und neue SKUs kommen w\u00f6chentlich hinzu. Anders als ein Blogbeitrag, der jahrelang ohne Updates ranken kann, erfordern Produktseiten laufende Aufmerksamkeit, um relevant und indexiert zu bleiben.\n\nDann gibt es das Problem mit d\u00fcnnem Content. Die meisten Produktseiten verwenden Herstellerbeschreibungen, die von Dutzenden anderer H\u00e4ndler genutzt werden. Eine Produktseite mit einer zweizeiligen Beschreibung, einem Preis und einem Warenkorb-Button gibt Google wenig Grund, Ihre Version gegen\u00fcber der eines Mitbewerbers zu bevorzugen. Diese Content-Herausforderung zu l\u00f6sen ist eines der Kernprobleme, die Ecommerce-SEO adressiert.",
+          image: {
+            src: "/images/academy/de/ecommerce-seo-vs-regular.svg",
+            alt: "Vergleichsdiagramm der Unterschiede zwischen Content-Website-SEO und Online-Shop-SEO in f\u00fcnf Dimensionen",
+            caption: "Ecommerce-SEO unterscheidet sich von regul\u00e4rer SEO in Skalierung, Content-Aktualit\u00e4t, Duplikation, URL-Komplexit\u00e4t und Absichtsmix.",
+          },
           items: [
             "Skalierung: Tausende von Produkt- und Kategorie-URLs verwalten",
             "Duplicate Content durch gemeinsame Herstellerbeschreibungen",
@@ -88,12 +111,20 @@ export const introductionToEcommerceSeo: AcademyTopic = {
             "Komplexe URL-Strukturen durch Filter, Sortierungen und Varianten",
             "Technischer Overhead durch Ecommerce-Plattform-Einschr\u00e4nkungen",
           ],
+          callout: {
+            title: "Gr\u00f6\u00dfenvergleich",
+            text: "Eine Content-Site verwaltet 50\u2013200 Seiten. Ein mittelgro\u00dfer Shop verwaltet 10.000\u2013500.000 URLs inklusive Produktvarianten, Filterkombinationen und Paginierung. Das sind 100x bis 2.500x mehr zu optimierende Seiten.",
+          },
         },
         {
           title: "Warum SEO besseren Umsatz liefert als nur bezahlte Werbung",
           content:
             "Bezahlte Werbung funktioniert. Aber sobald man aufh\u00f6rt zu zahlen, verschwindet der Traffic. Wir haben Shops gesehen, die 40.000 EUR pro Monat f\u00fcr Google Ads ausgaben und dabei organische Suche komplett ignorierten. Als ihr Werbebudget in einem schwachen Quartal gek\u00fcrzt wurde, sank der Umsatz \u00fcber Nacht um 60 %.\n\nOrganischer Suchtraffic w\u00e4chst mit der Zeit. Eine gut optimierte Kategorieseite, die auf Seite eins rankt, wird Monate oder Jahre lang weiterhin Besucher bringen, ohne zus\u00e4tzliche Kosten. Wir sehen regelm\u00e4\u00dfig Kategorieseiten, die 2.000 bis 5.000 monatliche Besuche ohne laufende Werbekosten generieren.\n\nDie Wirtschaftlichkeit ist klar. Wenn Ihr durchschnittlicher Klickpreis bei Google Ads 0,80 EUR betr\u00e4gt und eine Kategorieseite 3.000 organische Klicks pro Monat bringt, spart Ihnen diese Seite monatlich 2.400 EUR. \u00dcber 50 optimierte Kategorieseiten hinweg kann organische Suche Hunderttausende an j\u00e4hrlichen Werbeausgaben ersetzen.\n\nDas bedeutet nicht, dass Sie bezahlte Werbung aufgeben sollten. Die st\u00e4rksten Ecommerce-Unternehmen nutzen beide Kan\u00e4le zusammen. SEO erfasst die Nachfrage von K\u00e4ufern, die bereits nach Ihren Produkten suchen, w\u00e4hrend bezahlte Anzeigen neue Zielgruppen erreichen und zeitkritische Angebote bewerben. Unser Leitfaden zu [Ecommerce-SEO](/blog/ecommerce-seo) behandelt dies im Detail.",
           tip: "Berechnen Sie Ihre potenziellen SEO-Einsparungen, indem Sie das monatliche Suchvolumen Ihrer Top-20-Keywords mit deren Google-Ads-CPC multiplizieren. Diese Zahl repr\u00e4sentiert die Werbeausgaben, die organische Rankings ersetzen.",
+          callout: {
+            title: "Schnelle Rechnung",
+            text: "Eine Kategorieseite, die organisch f\u00fcr ein Keyword mit 3.000 monatlichen Suchen und einem CPC von 0,80\u00a0EUR rankt, spart 2.400\u00a0EUR/Monat. \u00dcber 50 optimierte Kategorieseiten ersetzt das \u00fcber 100.000\u00a0EUR j\u00e4hrliche Werbeausgaben.",
+          },
         },
         {
           title: "Die einzigartigen Herausforderungen der Online-Shop-SEO",
@@ -111,6 +142,11 @@ export const introductionToEcommerceSeo: AcademyTopic = {
           title: "Die vier S\u00e4ulen der Ecommerce-SEO",
           content:
             "Ecommerce-SEO l\u00e4sst sich in vier verbundene Disziplinen aufteilen. Technische SEO stellt sicher, dass Google [Ihren Shop effizient crawlen und indexieren](/academy/crawling-and-indexing-product-pages) kann. Dies umfasst Website-Architektur, Seitenladezeit, strukturierte Daten und Crawl-Budget-Management. Ohne ein solides technisches Fundament funktioniert nichts anderes.\n\nOn-Page-SEO konzentriert sich darauf, einzelne Seiten f\u00fcr bestimmte Suchanfragen relevant zu machen. F\u00fcr Produktseiten bedeutet das einzigartige Beschreibungen, optimierte Title-Tags und korrekte \u00dcberschriftenstrukturen. F\u00fcr Kategorieseiten bedeutet es gezielte Keyword-Nutzung, hilfreichen Einleitungstext und gut organisierte Produktraster.\n\nContent- und Autorit\u00e4tsaufbau erweitert Ihren Shop \u00fcber transaktionale Seiten hinaus. Kaufratgeber, Vergleichsartikel und Anleitungen ziehen K\u00e4ufer fr\u00fcher in ihrer Kaufreise an. Diese Seiten verdienen auch nat\u00fcrlicher Backlinks als Produktseiten es jemals tun werden.\n\nOff-Page-SEO und Linkaufbau st\u00e4rken die Gesamtautorit\u00e4t Ihres Shops in Googles Augen. Ein Shop mit qualitativ hochwertigen Backlinks von relevanten Branchenseiten, Publikationen und Blogs wird Mitbewerber mit \u00e4hnlicher On-Page-Optimierung jedes Mal \u00fcbertreffen.",
+          image: {
+            src: "/images/academy/de/four-pillars-ecommerce-seo.svg",
+            alt: "Diagramm der vier S\u00e4ulen der Ecommerce-SEO: Technisch, On-Page, Content-Strategie und Off-Page, die Umsatzwachstum unterst\u00fctzen",
+            caption: "Die vier S\u00e4ulen arbeiten zusammen. Beginnen Sie mit Technischer SEO, um alles andere zu entsperren.",
+          },
           items: [
             "Technische SEO: Crawlbarkeit, Geschwindigkeit, strukturierte Daten, Indexierung",
             "On-Page-SEO: Content, Keywords, Titel, \u00dcberschriften pro Seite",
@@ -153,12 +189,25 @@ export const introductionToEcommerceSeo: AcademyTopic = {
             "Structures d'URLs complexes issues des filtres, tris et variantes",
             "Contraintes techniques li\u00e9es aux plateformes e-commerce",
           ],
+          image: {
+            src: "/images/academy/fr/ecommerce-seo-vs-regular.svg",
+            alt: "Vergleichsdiagramm der Unterschiede zwischen Content-Website-SEO und Online-Shop-SEO in f\u00fcnf Dimensionen",
+            caption: "Ecommerce-SEO unterscheidet sich von regul\u00e4rer SEO in Skalierung, Content-Aktualit\u00e4t, Duplikation, URL-Komplexit\u00e4t und Absichtsmix.",
+          },
+          callout: {
+            title: "Gr\u00f6\u00dfenvergleich",
+            text: "Eine Content-Site verwaltet 50\u2013200 Seiten. Ein mittelgro\u00dfer Shop verwaltet 10.000\u2013500.000 URLs inklusive Produktvarianten, Filterkombinationen und Paginierung. Das sind 100x bis 2.500x mehr zu optimierende Seiten.",
+          },
         },
         {
           title: "Pourquoi le SEO g\u00e9n\u00e8re un meilleur chiffre d'affaires que la publicit\u00e9 seule",
           content:
             "La publicit\u00e9 payante fonctionne. Mais d\u00e8s que vous arr\u00eatez de payer, le trafic dispara\u00eet. Nous avons vu des boutiques d\u00e9penser 40 000 EUR par mois en Google Ads tout en ignorant compl\u00e8tement la recherche organique. Quand leur budget publicitaire a \u00e9t\u00e9 r\u00e9duit pendant un trimestre calme, le chiffre d'affaires a chut\u00e9 de 60 % du jour au lendemain.\n\nLe trafic de recherche organique se cumule avec le temps. Une page cat\u00e9gorie bien optimis\u00e9e qui se classe en premi\u00e8re page continuera \u00e0 envoyer des visiteurs pendant des mois ou des ann\u00e9es sans d\u00e9pense suppl\u00e9mentaire. Nous voyons r\u00e9guli\u00e8rement des pages cat\u00e9gories g\u00e9n\u00e9rer 2 000 \u00e0 5 000 visites mensuelles sans aucun co\u00fbt publicitaire.\n\nL'\u00e9quation \u00e9conomique est claire. Si votre co\u00fbt par clic moyen sur Google Ads est de 0,80 EUR et qu'une page cat\u00e9gorie g\u00e9n\u00e8re 3 000 clics organiques par mois, cette page vous \u00e9conomise 2 400 EUR mensuels. Sur 50 pages cat\u00e9gories optimis\u00e9es, la recherche organique peut remplacer des centaines de milliers d'euros en d\u00e9penses publicitaires annuelles.\n\nCela ne signifie pas que vous devez abandonner la publicit\u00e9 payante. Les entreprises e-commerce les plus performantes utilisent les deux canaux ensemble. Le SEO capte la demande des acheteurs qui cherchent d\u00e9j\u00e0 vos produits, tandis que la publicit\u00e9 payante vous aide \u00e0 toucher de nouvelles audiences et \u00e0 promouvoir des offres limit\u00e9es dans le temps. Notre [guide SEO e-commerce](/blog/ecommerce-seo) couvre cette approche int\u00e9gr\u00e9e en d\u00e9tail.",
           tip: "Calculez vos \u00e9conomies SEO potentielles en multipliant le volume de recherche mensuel de vos 20 meilleurs mots-cl\u00e9s organiques par leur CPC Google Ads. Ce chiffre repr\u00e9sente les d\u00e9penses publicitaires que les classements organiques remplacent.",
+          callout: {
+            title: "Schnelle Rechnung",
+            text: "Eine Kategorieseite, die organisch f\u00fcr ein Keyword mit 3.000 monatlichen Suchen und einem CPC von 0,80\u00a0EUR rankt, spart 2.400\u00a0EUR/Monat. \u00dcber 50 optimierte Kategorieseiten ersetzt das \u00fcber 100.000\u00a0EUR j\u00e4hrliche Werbeausgaben.",
+          },
         },
         {
           title: "Les d\u00e9fis uniques du SEO pour boutiques en ligne",
@@ -183,6 +232,11 @@ export const introductionToEcommerceSeo: AcademyTopic = {
             "SEO off-page : backlinks, RP digital, mentions de marque",
           ],
           tip: "Commencez par un audit technique avant d'investir dans le contenu. Nous avons vu des boutiques publier des centaines d'articles de blog alors que leurs pages produits n'\u00e9taient m\u00eame pas index\u00e9es \u00e0 cause de probl\u00e8mes de crawl.",
+          image: {
+            src: "/images/academy/fr/four-pillars-ecommerce-seo.svg",
+            alt: "Diagramm der vier S\u00e4ulen der Ecommerce-SEO: Technisch, On-Page, Content-Strategie und Off-Page, die Umsatzwachstum unterst\u00fctzen",
+            caption: "Die vier S\u00e4ulen arbeiten zusammen. Beginnen Sie mit Technischer SEO, um alles andere zu entsperren.",
+          },
         },
         {
           title: "Comment cette Academy est structur\u00e9e",
@@ -218,12 +272,25 @@ export const introductionToEcommerceSeo: AcademyTopic = {
             "Estructuras de URL complejas por filtros, ordenaciones y variantes",
             "Sobrecarga t\u00e9cnica por limitaciones de la plataforma ecommerce",
           ],
+          image: {
+            src: "/images/academy/es/ecommerce-seo-vs-regular.svg",
+            alt: "Vergleichsdiagramm der Unterschiede zwischen Content-Website-SEO und Online-Shop-SEO in f\u00fcnf Dimensionen",
+            caption: "Ecommerce-SEO unterscheidet sich von regul\u00e4rer SEO in Skalierung, Content-Aktualit\u00e4t, Duplikation, URL-Komplexit\u00e4t und Absichtsmix.",
+          },
+          callout: {
+            title: "Gr\u00f6\u00dfenvergleich",
+            text: "Eine Content-Site verwaltet 50\u2013200 Seiten. Ein mittelgro\u00dfer Shop verwaltet 10.000\u2013500.000 URLs inklusive Produktvarianten, Filterkombinationen und Paginierung. Das sind 100x bis 2.500x mehr zu optimierende Seiten.",
+          },
         },
         {
           title: "Por qu\u00e9 el SEO genera mejores ingresos que la publicidad sola",
           content:
             "La publicidad de pago funciona. Pero en el momento en que dejas de pagar, el tr\u00e1fico desaparece. Hemos visto tiendas gastando 40.000 EUR al mes en Google Ads mientras ignoraban completamente la b\u00fasqueda org\u00e1nica. Cuando su presupuesto publicitario se redujo durante un trimestre flojo, los ingresos cayeron un 60 % de la noche a la ma\u00f1ana.\n\nEl tr\u00e1fico de b\u00fasqueda org\u00e1nica se acumula con el tiempo. Una p\u00e1gina de categor\u00eda bien optimizada que se posiciona en la primera p\u00e1gina seguir\u00e1 enviando visitantes durante meses o a\u00f1os sin gasto adicional. Regularmente vemos p\u00e1ginas de categor\u00eda generando de 2.000 a 5.000 visitas mensuales sin ning\u00fan coste publicitario.\n\nLa econom\u00eda es directa. Si tu coste medio por clic en Google Ads es de 0,80 EUR y una p\u00e1gina de categor\u00eda genera 3.000 clics org\u00e1nicos al mes, esa p\u00e1gina te ahorra 2.400 EUR mensuales. En 50 p\u00e1ginas de categor\u00eda optimizadas, la b\u00fasqueda org\u00e1nica puede reemplazar cientos de miles en gasto publicitario anual.\n\nEsto no significa que debas abandonar la publicidad de pago. Los negocios de ecommerce m\u00e1s fuertes usan ambos canales juntos. El SEO captura la demanda de compradores que ya buscan lo que vendes, mientras que los anuncios de pago te ayudan a alcanzar nuevas audiencias y promover ofertas con tiempo limitado. Nuestra [guia de SEO para ecommerce](/blog/ecommerce-seo) cubre este enfoque integrado en profundidad.",
           tip: "Calcula tus ahorros potenciales de SEO multiplicando el volumen de b\u00fasqueda mensual de tus 20 principales palabras clave org\u00e1nicas por su CPC en Google Ads. Esa cifra representa el gasto publicitario que los rankings org\u00e1nicos est\u00e1n reemplazando.",
+          callout: {
+            title: "Schnelle Rechnung",
+            text: "Eine Kategorieseite, die organisch f\u00fcr ein Keyword mit 3.000 monatlichen Suchen und einem CPC von 0,80\u00a0EUR rankt, spart 2.400\u00a0EUR/Monat. \u00dcber 50 optimierte Kategorieseiten ersetzt das \u00fcber 100.000\u00a0EUR j\u00e4hrliche Werbeausgaben.",
+          },
         },
         {
           title: "Los desaf\u00edos \u00fanicos del SEO para tiendas online",
@@ -248,6 +315,11 @@ export const introductionToEcommerceSeo: AcademyTopic = {
             "SEO off-page: backlinks, PR digital, menciones de marca",
           ],
           tip: "Comienza con una auditor\u00eda t\u00e9cnica antes de invertir en contenido. Hemos visto tiendas publicar cientos de art\u00edculos de blog mientras sus p\u00e1ginas de producto ni siquiera estaban indexadas por problemas de rastreo.",
+          image: {
+            src: "/images/academy/es/four-pillars-ecommerce-seo.svg",
+            alt: "Diagramm der vier S\u00e4ulen der Ecommerce-SEO: Technisch, On-Page, Content-Strategie und Off-Page, die Umsatzwachstum unterst\u00fctzen",
+            caption: "Die vier S\u00e4ulen arbeiten zusammen. Beginnen Sie mit Technischer SEO, um alles andere zu entsperren.",
+          },
         },
         {
           title: "C\u00f3mo est\u00e1 estructurada esta Academy",
@@ -283,12 +355,25 @@ export const introductionToEcommerceSeo: AcademyTopic = {
             "Strutture URL complesse da filtri, ordinamenti e varianti",
             "Overhead tecnico per limitazioni della piattaforma ecommerce",
           ],
+          image: {
+            src: "/images/academy/it/ecommerce-seo-vs-regular.svg",
+            alt: "Vergleichsdiagramm der Unterschiede zwischen Content-Website-SEO und Online-Shop-SEO in f\u00fcnf Dimensionen",
+            caption: "Ecommerce-SEO unterscheidet sich von regul\u00e4rer SEO in Skalierung, Content-Aktualit\u00e4t, Duplikation, URL-Komplexit\u00e4t und Absichtsmix.",
+          },
+          callout: {
+            title: "Gr\u00f6\u00dfenvergleich",
+            text: "Eine Content-Site verwaltet 50\u2013200 Seiten. Ein mittelgro\u00dfer Shop verwaltet 10.000\u2013500.000 URLs inklusive Produktvarianten, Filterkombinationen und Paginierung. Das sind 100x bis 2.500x mehr zu optimierende Seiten.",
+          },
         },
         {
           title: "Perch\u00e9 la SEO genera ricavi migliori della sola pubblicit\u00e0",
           content:
             "La pubblicit\u00e0 a pagamento funziona. Ma nel momento in cui smetti di pagare, il traffico scompare. Abbiamo visto negozi spendere 40.000 EUR al mese in Google Ads ignorando completamente la ricerca organica. Quando il loro budget pubblicitario \u00e8 stato tagliato durante un trimestre debole, il fatturato \u00e8 calato del 60 % dall'oggi al domani.\n\nIl traffico da ricerca organica si accumula nel tempo. Una pagina di categoria ben ottimizzata che si posiziona in prima pagina continuer\u00e0 a inviare visitatori per mesi o anni senza spesa aggiuntiva. Vediamo regolarmente pagine di categoria generare da 2.000 a 5.000 visite mensili senza alcun costo pubblicitario.\n\nL'economia \u00e8 chiara. Se il tuo costo medio per clic su Google Ads \u00e8 0,80 EUR e una pagina di categoria porta 3.000 clic organici al mese, quella pagina ti fa risparmiare 2.400 EUR mensili. Su 50 pagine di categoria ottimizzate, la ricerca organica pu\u00f2 sostituire centinaia di migliaia di euro in spesa pubblicitaria annuale.\n\nQuesto non significa che dovresti abbandonare la pubblicit\u00e0 a pagamento. Le aziende ecommerce pi\u00f9 forti usano entrambi i canali insieme. La SEO cattura la domanda degli acquirenti che cercano gi\u00e0 ci\u00f2 che vendi, mentre gli annunci a pagamento ti aiutano a raggiungere nuovi pubblici e promuovere offerte a tempo limitato. La nostra [guida alla SEO per ecommerce](/blog/ecommerce-seo) copre questo argomento in dettaglio.",
           tip: "Calcola i tuoi potenziali risparmi SEO moltiplicando il volume di ricerca mensile delle tue 20 principali keyword organiche per il loro CPC su Google Ads. Quel numero rappresenta la spesa pubblicitaria che i posizionamenti organici stanno sostituendo.",
+          callout: {
+            title: "Schnelle Rechnung",
+            text: "Eine Kategorieseite, die organisch f\u00fcr ein Keyword mit 3.000 monatlichen Suchen und einem CPC von 0,80\u00a0EUR rankt, spart 2.400\u00a0EUR/Monat. \u00dcber 50 optimierte Kategorieseiten ersetzt das \u00fcber 100.000\u00a0EUR j\u00e4hrliche Werbeausgaben.",
+          },
         },
         {
           title: "Le sfide uniche della SEO per negozi online",
@@ -313,6 +398,11 @@ export const introductionToEcommerceSeo: AcademyTopic = {
             "SEO off-page: backlink, PR digitale, menzioni del brand",
           ],
           tip: "Inizia con un audit tecnico prima di investire nei contenuti. Abbiamo visto negozi pubblicare centinaia di articoli di blog mentre le loro pagine prodotto non erano nemmeno indicizzate a causa di problemi di crawl.",
+          image: {
+            src: "/images/academy/it/four-pillars-ecommerce-seo.svg",
+            alt: "Diagramm der vier S\u00e4ulen der Ecommerce-SEO: Technisch, On-Page, Content-Strategie und Off-Page, die Umsatzwachstum unterst\u00fctzen",
+            caption: "Die vier S\u00e4ulen arbeiten zusammen. Beginnen Sie mit Technischer SEO, um alles andere zu entsperren.",
+          },
         },
         {
           title: "Come \u00e8 strutturata questa Academy",
@@ -348,12 +438,25 @@ export const introductionToEcommerceSeo: AcademyTopic = {
             "Complexe URL-structuren door filters, sorteringen en varianten",
             "Technische overhead door beperkingen van het ecommerce-platform",
           ],
+          image: {
+            src: "/images/academy/nl/ecommerce-seo-vs-regular.svg",
+            alt: "Vergleichsdiagramm der Unterschiede zwischen Content-Website-SEO und Online-Shop-SEO in f\u00fcnf Dimensionen",
+            caption: "Ecommerce-SEO unterscheidet sich von regul\u00e4rer SEO in Skalierung, Content-Aktualit\u00e4t, Duplikation, URL-Komplexit\u00e4t und Absichtsmix.",
+          },
+          callout: {
+            title: "Gr\u00f6\u00dfenvergleich",
+            text: "Eine Content-Site verwaltet 50\u2013200 Seiten. Ein mittelgro\u00dfer Shop verwaltet 10.000\u2013500.000 URLs inklusive Produktvarianten, Filterkombinationen und Paginierung. Das sind 100x bis 2.500x mehr zu optimierende Seiten.",
+          },
         },
         {
           title: "Waarom SEO betere omzet oplevert dan alleen betaalde advertenties",
           content:
             "Betaalde advertenties werken. Maar zodra je stopt met betalen, verdwijnt het verkeer. We hebben webshops gezien die 40.000 EUR per maand uitgaven aan Google Ads terwijl ze organisch zoeken volledig negeerden. Toen hun advertentiebudget werd verlaagd tijdens een rustig kwartaal, daalde de omzet van de ene op de andere dag met 60 %.\n\nOrganisch zoekverkeer groeit cumulatief in de tijd. Een goed geoptimaliseerde categoriepagina die op pagina \u00e9\u00e9n staat, blijft maanden of jaren bezoekers sturen zonder extra uitgaven. We zien regelmatig categoriepagina's die 2.000 tot 5.000 maandelijkse bezoeken genereren zonder doorlopende advertentiekosten.\n\nDe economie is simpel. Als je gemiddelde kosten per klik op Google Ads 0,80 EUR zijn en een categoriepagina 3.000 organische klikken per maand genereert, bespaart die pagina je maandelijks 2.400 EUR. Over 50 geoptimaliseerde categoriepagina's kan organisch zoeken honderdduizenden aan jaarlijkse advertentie-uitgaven vervangen.\n\nDit betekent niet dat je betaalde advertenties moet opgeven. De sterkste ecommerce-bedrijven gebruiken beide kanalen samen. SEO vangt de vraag van shoppers die al zoeken naar wat je verkoopt, terwijl betaalde advertenties je helpen nieuwe doelgroepen te bereiken en tijdgebonden aanbiedingen te promoten.\n\nOnze [ecommerce-SEO-gids](/blog/ecommerce-seo) behandelt deze ge\u00efntegreerde aanpak uitgebreid.",
           tip: "Bereken je potenti\u00eble SEO-besparingen door het maandelijkse zoekvolume van je top 20 organische zoekwoorden te vermenigvuldigen met hun Google Ads CPC. Dat getal vertegenwoordigt de advertentie-uitgaven die organische rankings vervangen.",
+          callout: {
+            title: "Schnelle Rechnung",
+            text: "Eine Kategorieseite, die organisch f\u00fcr ein Keyword mit 3.000 monatlichen Suchen und einem CPC von 0,80\u00a0EUR rankt, spart 2.400\u00a0EUR/Monat. \u00dcber 50 optimierte Kategorieseiten ersetzt das \u00fcber 100.000\u00a0EUR j\u00e4hrliche Werbeausgaben.",
+          },
         },
         {
           title: "De unieke uitdagingen van webshop-SEO",
@@ -378,6 +481,11 @@ export const introductionToEcommerceSeo: AcademyTopic = {
             "Off-page SEO: backlinks, digitale PR, merkvermeldingen",
           ],
           tip: "Begin met een technische audit voordat je investeert in content. We hebben webshops gezien die honderden blogposts publiceerden terwijl hun productpagina's niet eens ge\u00efndexeerd waren vanwege crawlproblemen.",
+          image: {
+            src: "/images/academy/nl/four-pillars-ecommerce-seo.svg",
+            alt: "Diagramm der vier S\u00e4ulen der Ecommerce-SEO: Technisch, On-Page, Content-Strategie und Off-Page, die Umsatzwachstum unterst\u00fctzen",
+            caption: "Die vier S\u00e4ulen arbeiten zusammen. Beginnen Sie mit Technischer SEO, um alles andere zu entsperren.",
+          },
         },
         {
           title: "Hoe deze Academy is opgebouwd",

@@ -1,0 +1,40 @@
+<svg viewBox="0 0 680 300" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <text x="340" y="28" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#a78bfa">Using Paid Search Data to Inform SEO Strategy</text>
+  <g transform="translate(30,55)">
+    <rect x="0" y="0" width="180" height="100" rx="8" stroke="#60a5fa" stroke-width="2" fill="none"/>
+    <text x="90" y="25" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#60a5fa">Google Ads Data</text>
+    <text x="90" y="48" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Conversion rates by keyword</text>
+    <text x="90" y="64" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Cost per acquisition</text>
+    <text x="90" y="80" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Auction insights</text>
+  </g>
+  <line x1="215" y1="105" x2="250" y2="105" stroke="#e2e8f0" stroke-width="1.5" marker-end="url(#arr)"/>
+  <g transform="translate(255,55)">
+    <rect x="0" y="0" width="180" height="100" rx="8" stroke="#a78bfa" stroke-width="2" fill="none"/>
+    <text x="90" y="25" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#a78bfa">Sort and Prioritize</text>
+    <text x="90" y="48" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">High CPA + good CVR</text>
+    <text x="90" y="64" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">= best SEO targets</text>
+    <text x="90" y="84" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#4ade80">Organic ranking kills CPC</text>
+  </g>
+  <line x1="440" y1="105" x2="475" y2="105" stroke="#e2e8f0" stroke-width="1.5" marker-end="url(#arr)"/>
+  <g transform="translate(480,55)">
+    <rect x="0" y="0" width="170" height="100" rx="8" stroke="#4ade80" stroke-width="2" fill="none"/>
+    <text x="85" y="25" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#4ade80">SEO Action</text>
+    <text x="85" y="48" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Target high-CPA terms</text>
+    <text x="85" y="64" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Optimize product titles</text>
+    <text x="85" y="80" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Build content + links</text>
+  </g>
+  <line x1="30" y1="180" x2="650" y2="180" stroke="#a78bfa" stroke-width="1" stroke-dasharray="4"/>
+  <g transform="translate(50,200)">
+    <rect x="0" y="0" width="260" height="70" rx="6" stroke="#f97316" stroke-width="2" fill="none"/>
+    <text x="130" y="22" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#f97316">Shopping Ad Insights</text>
+    <text x="130" y="42" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">High-performing product attributes</text>
+    <text x="130" y="58" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">inform organic product page copy</text>
+  </g>
+  <g transform="translate(370,200)">
+    <rect x="0" y="0" width="260" height="70" rx="6" stroke="#f472b6" stroke-width="2" fill="none"/>
+    <text x="130" y="22" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#f472b6">Competitor Intelligence</text>
+    <text x="130" y="42" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Auction insights reveal paid rivals</text>
+    <text x="130" y="58" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Analyze their organic content too</text>
+  </g>
+  <defs><marker id="arr" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6" fill="#e2e8f0"/></marker></defs>
+</svg>

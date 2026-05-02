@@ -1,0 +1,41 @@
+<svg viewBox="0 0 420 220" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <text x="210" y="18" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#a78bfa">Home Project Search Journey</text>
+  <!-- Three stages -->
+  <rect x="15" y="35" width="120" height="85" rx="6" fill="#a78bfa" opacity="0.12" stroke="#a78bfa" stroke-width="1.5"/>
+  <text x="75" y="52" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#a78bfa" font-weight="bold">Inspiration</text>
+  <text x="75" y="68" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">"modern kitchen ideas"</text>
+  <text x="75" y="80" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">"small patio design"</text>
+  <text x="75" y="92" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">"bathroom makeover"</text>
+  <text x="75" y="112" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#a78bfa">Style guides, lookbooks</text>
+  <!-- Arrow 1 -->
+  <line x1="135" y1="77" x2="148" y2="77" stroke="#60a5fa" stroke-width="2"/>
+  <polygon points="146,72 155,77 146,82" fill="#60a5fa"/>
+  <rect x="150" y="35" width="120" height="85" rx="6" fill="#60a5fa" opacity="0.12" stroke="#60a5fa" stroke-width="1.5"/>
+  <text x="210" y="52" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#60a5fa" font-weight="bold">Planning</text>
+  <text x="210" y="68" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">"cabinet dimensions guide"</text>
+  <text x="210" y="80" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">"how to build raised bed"</text>
+  <text x="210" y="92" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">"paint coverage calculator"</text>
+  <text x="210" y="112" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#60a5fa">How-to guides, tools</text>
+  <!-- Arrow 2 -->
+  <line x1="270" y1="77" x2="283" y2="77" stroke="#4ade80" stroke-width="2"/>
+  <polygon points="281,72 290,77 281,82" fill="#4ade80"/>
+  <rect x="285" y="35" width="120" height="85" rx="6" fill="#4ade80" opacity="0.12" stroke="#4ade80" stroke-width="1.5"/>
+  <text x="345" y="52" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#4ade80" font-weight="bold">Kauf</text>
+  <text x="345" y="68" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">"buy white shaker cabinets"</text>
+  <text x="345" y="80" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">"60-inch bathroom vanity"</text>
+  <text x="345" y="92" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">"8x10 area rug"</text>
+  <text x="345" y="112" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#4ade80">Category + product pages</text>
+  <!-- Room-based navigation below -->
+  <text x="210" y="145" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#f97316" font-weight="bold">Room-Based Category Structure</text>
+  <rect x="15" y="158" width="70" height="25" rx="4" fill="#f97316" opacity="0.1" stroke="#f97316" stroke-width="1"/>
+  <text x="50" y="175" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">Küche</text>
+  <rect x="95" y="158" width="70" height="25" rx="4" fill="#f97316" opacity="0.1" stroke="#f97316" stroke-width="1"/>
+  <text x="130" y="175" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">Bedroom</text>
+  <rect x="175" y="158" width="70" height="25" rx="4" fill="#f97316" opacity="0.1" stroke="#f97316" stroke-width="1"/>
+  <text x="210" y="175" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">Badezimmer</text>
+  <rect x="255" y="158" width="70" height="25" rx="4" fill="#f97316" opacity="0.1" stroke="#f97316" stroke-width="1"/>
+  <text x="290" y="175" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">Outdoor</text>
+  <rect x="335" y="158" width="70" height="25" rx="4" fill="#f97316" opacity="0.1" stroke="#f97316" stroke-width="1"/>
+  <text x="370" y="175" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">Garage</text>
+  <text x="210" y="203" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">Mirrors how people think about their homes and aligns with natural search patterns</text>
+</svg>

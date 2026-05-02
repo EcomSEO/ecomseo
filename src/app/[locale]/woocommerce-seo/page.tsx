@@ -5,6 +5,8 @@ import JsonLd from "@/components/JsonLd";
 import { serviceJsonLd, breadcrumbJsonLd } from "@/lib/jsonLd";
 import { servicePageData, homeBreadcrumb } from "@/lib/i18n/translations/services";
 
+export const revalidate = 3600;
+
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;

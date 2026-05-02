@@ -3,7 +3,7 @@ import type { BlogArticle } from "../types";
 export const ecommerceSeoMistakes: BlogArticle = {
   slug: "ecommerce-seo-mistakes",
   category: "strategy",
-  publishDate: "2025-07-10",
+  publishDate: "2026-03-11",
   readingTime: 12,
   author: "Fabian van Til",
   authorRole: "CEO at EcomSEO",
@@ -18,10 +18,11 @@ export const ecommerceSeoMistakes: BlogArticle = {
         {
           heading: "The mistakes we see in almost every audit",
           body: [
-            "We audit ecommerce stores every week. After hundreds of audits across Shopify, Magento, WooCommerce, and custom platforms, we see the same mistakes repeated over and over. Some are obvious. Some are subtle. All of them cost real money in lost organic traffic and revenue. Running a thorough [ecommerce SEO audit](/blog/ecommerce-seo-audit) is the fastest way to surface all of them at once.",
+            "We audit ecommerce stores every week. After hundreds of audits across Shopify, Magento, WooCommerce, and custom platforms, we see the same mistakes repeated over and over. Some are obvious. Some are subtle. All of them cost real money in lost organic traffic and revenue. Running a thorough [ecommerce SEO audit](/blog/how-to-make-ecommerce-seo-audit) is the fastest way to surface all of them at once.",
             "What frustrates us is that most of these mistakes are preventable. They happen because of rushed store launches, platform defaults that nobody changed, or well-meaning developers who do not understand SEO. The good news is that every single one has a clear fix.",
             "We ranked these 10 mistakes roughly by how frequently we encounter them and how much damage they typically cause. If you run an ecommerce store, you are almost certainly making at least two or three of these right now."
           ],
+          image: { src: "/images/blog/seo-mistakes-impact.svg", alt: "Horizontal bar chart ranking top ecommerce SEO mistakes by traffic impact severity", caption: "The 10 most common ecommerce SEO mistakes ranked by traffic impact" },
         },
         {
           heading: "1. Duplicate content from product variants and filters",
@@ -31,6 +32,8 @@ export const ecommerceSeoMistakes: BlogArticle = {
             "The damage: Google wastes crawl budget indexing thousands of duplicate pages instead of your actual product and category pages. Ranking signals get diluted across multiple URLs for the same content. We audited a home goods store with 2,000 products that had 180,000 indexed URLs. Only 8,000 of those were the canonical product and category pages they actually wanted ranking.",
             "How to fix it: Implement canonical tags on all variant URLs pointing to the main product page. Use the robots meta tag or robots.txt to block filter and sort parameter URLs from indexing. In Google Search Console, configure URL parameters to tell Google which parameters change page content (like category) and which do not (like sort order). The cleanup typically takes 2 to 4 weeks and we often see organic traffic increase by 15% to 30% within 2 months just from resolving this one issue. Use our [ecommerce SEO checklist](/blog/ecommerce-seo-checklist) to work through these fixes systematically."
           ],
+          image: { src: "/images/blog/duplicate-content-sources.svg", alt: "Diagram showing six common sources of duplicate content in ecommerce stores", caption: "Common duplicate content sources and how to fix them with canonical tags" },
+          callout: { title: "Duplication Scale", text: "A store with 2,000 products had 180,000 indexed URLs -- only 8,000 were the actual pages they wanted ranking. Fixing canonicals alone can boost organic traffic 15-30% within two months." },
         },
         {
           heading: "2. Thin product page content",
@@ -49,6 +52,8 @@ export const ecommerceSeoMistakes: BlogArticle = {
             "The damage: Google uses Core Web Vitals as a ranking signal. Specifically, Largest Contentful Paint (LCP), Cumulative Layout Shift (CLS), and Interaction to Next Paint (INP). Slow sites rank lower, period. But the revenue impact goes beyond rankings. For every 100ms of improvement in load time, conversion rates increase by an average of 1.1% according to Deloitte's research on retail sites. A store doing $2M per year that improves load time by 1 second could see $100K+ in additional revenue.",
             "How to fix it: Audit your third-party scripts and remove anything you are not actively using. Lazy-load images below the fold. Serve images in WebP format and use responsive sizing. Move non-critical JavaScript to async or defer loading. Implement proper browser caching headers. For Shopify stores specifically, reduce app count and check if any apps are loading scripts sitewide when they only need to run on specific pages. Target an LCP under 2.5 seconds and an INP under 200 milliseconds."
           ],
+          image: { src: "/images/blog/site-speed-revenue-impact.svg", alt: "Site speed revenue impact showing Core Web Vitals targets and the cost of slow load times for ecommerce", caption: "Every 100ms improvement in load time increases conversion rates by 1.1%" },
+          callout: { title: "Speed = Revenue", text: "A $2M/year store that improves load time by 1 second could see $100K+ in additional revenue. The typical Shopify store has 15-25 apps injecting scripts -- each adding 50-500ms of load time." },
         },
         {
           heading: "4. Poor internal linking structure",
@@ -58,6 +63,7 @@ export const ecommerceSeoMistakes: BlogArticle = {
             "The damage: Orphaned product pages (pages with no internal links pointing to them) are invisible to Google's crawler. We regularly find that 20% to 40% of product pages on ecommerce stores have fewer than 3 internal links. These pages rank for almost nothing. Meanwhile, the homepage typically has thousands of internal links and all that authority has nowhere productive to flow.",
             "How to fix it: Add contextual internal links in product descriptions pointing to related products and parent categories. Implement a 'related products' section that uses actual HTML links, not JavaScript-rendered carousels that Googlebot cannot parse. Create content hubs (buying guides, comparison pages, how-to articles) that link to groups of related products. Use breadcrumbs on every page. For large catalogs, build an HTML sitemap page that links to all top-level and second-level categories. One client added contextual internal links to their top 200 product pages and saw average ranking position improve by 4.2 positions within 8 weeks."
           ],
+          image: { src: "/images/blog/internal-linking-architecture.svg", alt: "Ecommerce internal linking architecture showing homepage, categories, products, and content hubs connected", caption: "Content hubs fill the linking gap -- 20-40% of product pages typically have fewer than 3 internal links" },
         },
         {
           heading: "5. Missing or duplicate meta titles and descriptions",
@@ -94,6 +100,8 @@ export const ecommerceSeoMistakes: BlogArticle = {
             "The damage: Pages without schema markup are ineligible for rich results (the enhanced search listings that show price, ratings, and availability directly in the SERP). Rich results have significantly higher click-through rates than plain blue links. Ahrefs data shows that pages with rich snippets get 58% of clicks on the first page, compared to standard results.",
             "How to fix it: Implement Product schema on every product page with at minimum: name, image, description, brand, sku, offers (price, currency, availability), and aggregateRating. Use Google's Rich Results Test to validate your markup. If you are on Shopify, apps like JSON-LD for SEO handle this automatically. On WooCommerce, plugins like Rank Math or Yoast WooCommerce SEO add product schema. Verify that the schema updates dynamically when prices or availability change. Stale schema data (showing a product as in stock when it is sold out) can trigger manual actions from Google."
           ],
+          image: { src: "/images/blog/schema-markup-rich-results.svg", alt: "Product schema markup comparison showing plain search result versus rich result with ratings, price, and availability", caption: "Pages with rich snippets get 58% of clicks on the first page versus standard results" },
+          callout: { title: "Rich Results Win Clicks", text: "Pages with rich snippets get 58% of first-page clicks compared to standard results. Implement Product schema with name, image, price, availability, and rating on every product page." },
         },
         {
           heading: "9. Blocking important pages with robots.txt or noindex",
@@ -113,6 +121,7 @@ export const ecommerceSeoMistakes: BlogArticle = {
             "How to fix it: Build SEO into your ongoing operations. Allocate monthly time for content creation (product descriptions, category content, blog posts). Do a technical audit quarterly. Monitor rankings and traffic weekly. Update product pages when inventory changes. Build links consistently rather than in bursts. SEO is a compounding investment. The stores that win in organic search are the ones that treat it as a continuous process, not a project with a finish date.",
             "If you recognized your store in two or more of these mistakes, you are not alone. The difference between stores that grow organic traffic and those that stagnate is almost always execution on these fundamentals. Not advanced tactics, not secret tricks. Just getting the basics right, consistently."
           ],
+          callout: { title: "SEO Never Stops", text: "Google updates its algorithm 500-600 times per year. Stores that stop SEO work can drop from position 3 to position 15 within six months. Treat SEO as a continuous process, not a one-time project." },
         },
       ],
     },
@@ -123,10 +132,11 @@ export const ecommerceSeoMistakes: BlogArticle = {
         {
           heading: "Les erreurs que nous trouvons dans presque chaque audit",
           body: [
-            "Nous auditons des boutiques en ligne chaque semaine. Après des centaines d'audits sur Shopify, Magento, WooCommerce et des plateformes sur mesure, nous voyons les mêmes erreurs se répéter encore et encore. Certaines sont évidentes. Certaines sont subtiles. Toutes coûtent de l'argent réel en trafic organique et en chiffre d'affaires perdus. Réaliser un [audit SEO ecommerce](/blog/ecommerce-seo-audit) approfondi est le moyen le plus rapide de toutes les mettre en lumière en une seule fois.",
+            "Nous auditons des boutiques en ligne chaque semaine. Après des centaines d'audits sur Shopify, Magento, WooCommerce et des plateformes sur mesure, nous voyons les mêmes erreurs se répéter encore et encore. Certaines sont évidentes. Certaines sont subtiles. Toutes coûtent de l'argent réel en trafic organique et en chiffre d'affaires perdus. Réaliser un [audit SEO ecommerce](/blog/how-to-make-ecommerce-seo-audit) approfondi est le moyen le plus rapide de toutes les mettre en lumière en une seule fois.",
             "Ce qui nous frustre, c'est que la plupart de ces erreurs sont évitables. Elles surviennent à cause de lancements de boutiques précipités, de paramètres par défaut de la plateforme que personne n'a modifiés, ou de développeurs bien intentionnés qui ne comprennent pas le SEO. La bonne nouvelle est que chacune d'entre elles a une solution claire.",
             "Nous avons classé ces 10 erreurs approximativement selon la fréquence à laquelle nous les rencontrons et l'ampleur des dommages qu'elles causent généralement. Si vous gérez une boutique en ligne, vous commettez presque certainement au moins deux ou trois d'entre elles en ce moment."
           ],
+          image: { src: "/images/blog/fr/seo-mistakes-impact.svg", alt: "Horizontal bar chart ranking top ecommerce SEO mistakes by traffic impact severity", caption: "The 10 most common ecommerce SEO mistakes ranked by traffic impact" },
         },
         {
           heading: "1. Contenu dupliqué provenant des variantes de produits et des filtres",
@@ -136,6 +146,8 @@ export const ecommerceSeoMistakes: BlogArticle = {
             "Les dommages : Google gaspille du budget de crawl à indexer des milliers de pages dupliquées au lieu de vos véritables pages produits et catégories. Les signaux de classement sont dilués entre plusieurs URL pour le même contenu. Nous avons audité une boutique d'articles pour la maison avec 2 000 produits qui avait 180 000 URL indexées. Seules 8 000 d'entre elles étaient les pages produits et catégories canoniques qu'ils voulaient réellement voir se positionner.",
             "Comment corriger : Implémentez des balises canonical sur toutes les URL de variantes pointant vers la page produit principale. Utilisez la balise meta robots ou le robots.txt pour bloquer l'indexation des URL avec paramètres de filtre et de tri. Dans Google Search Console, configurez les paramètres d'URL pour indiquer à Google quels paramètres modifient le contenu de la page (comme la catégorie) et lesquels ne le font pas (comme l'ordre de tri). Le nettoyage prend généralement 2 à 4 semaines et nous constatons souvent une augmentation du trafic organique de 15 % à 30 % dans les 2 mois suivants, juste en résolvant ce seul problème. Utilisez notre [checklist SEO ecommerce](/blog/ecommerce-seo-checklist) pour traiter ces corrections de manière systématique."
           ],
+          image: { src: "/images/blog/fr/duplicate-content-sources.svg", alt: "Diagram showing six common sources of duplicate content in ecommerce stores", caption: "Common duplicate content sources and how to fix them with canonical tags" },
+          callout: { title: "Duplication Scale", text: "A store with 2,000 products had 180,000 indexed URLs -- only 8,000 were the actual pages they wanted ranking. Fixing canonicals alone can boost organic traffic 15-30% within two months." },
         },
         {
           heading: "2. Contenu insuffisant sur les pages produits",
@@ -154,6 +166,8 @@ export const ecommerceSeoMistakes: BlogArticle = {
             "Les dommages : Google utilise les Core Web Vitals comme signal de classement. Plus précisément, le Largest Contentful Paint (LCP), le Cumulative Layout Shift (CLS) et l'Interaction to Next Paint (INP). Les sites lents se positionnent moins bien, point final. Mais l'impact sur le chiffre d'affaires va au-delà des classements. Pour chaque 100 ms d'amélioration du temps de chargement, les taux de conversion augmentent en moyenne de 1,1 % selon l'étude de Deloitte sur les sites de vente au détail. Une boutique réalisant 2 millions d'euros par an qui améliore son temps de chargement d'une seconde pourrait voir plus de 100 000 € de chiffre d'affaires supplémentaire.",
             "Comment corriger : Auditez vos scripts tiers et supprimez tout ce que vous n'utilisez pas activement. Chargez les images sous la ligne de flottaison en lazy loading. Servez les images au format WebP et utilisez le dimensionnement responsive. Déplacez le JavaScript non critique vers un chargement async ou defer. Implémentez des en-têtes de mise en cache navigateur appropriés. Pour les boutiques Shopify en particulier, réduisez le nombre d'applications et vérifiez si certaines applications chargent des scripts sur tout le site alors qu'elles n'ont besoin de s'exécuter que sur des pages spécifiques. Visez un LCP inférieur à 2,5 secondes et un INP inférieur à 200 millisecondes."
           ],
+          image: { src: "/images/blog/fr/site-speed-revenue-impact.svg", alt: "Site speed revenue impact showing Core Web Vitals targets and the cost of slow load times for ecommerce", caption: "Every 100ms improvement in load time increases conversion rates by 1.1%" },
+          callout: { title: "Speed = Revenue", text: "A $2M/year store that improves load time by 1 second could see $100K+ in additional revenue. The typical Shopify store has 15-25 apps injecting scripts -- each adding 50-500ms of load time." },
         },
         {
           heading: "4. Mauvaise structure de liens internes",
@@ -163,6 +177,7 @@ export const ecommerceSeoMistakes: BlogArticle = {
             "Les dommages : Les pages produits orphelines (pages sans liens internes pointant vers elles) sont invisibles pour le robot d'exploration de Google. Nous constatons régulièrement que 20 % à 40 % des pages produits sur les boutiques ecommerce ont moins de 3 liens internes. Ces pages ne se positionnent sur presque rien. Pendant ce temps, la page d'accueil a généralement des milliers de liens internes et toute cette autorité n'a nulle part où circuler de manière productive.",
             "Comment corriger : Ajoutez des liens internes contextuels dans les descriptions de produits pointant vers des produits connexes et les catégories parentes. Implémentez une section \"produits connexes\" qui utilise de véritables liens HTML, pas des carrousels rendus en JavaScript que Googlebot ne peut pas analyser. Créez des hubs de contenu (guides d'achat, pages de comparaison, articles pratiques) qui lient vers des groupes de produits connexes. Utilisez les fils d'Ariane sur chaque page. Pour les catalogues volumineux, créez une page plan du site HTML qui lie vers toutes les catégories de premier et deuxième niveau. Un client a ajouté des liens internes contextuels à ses 200 pages produits principales et a vu la position moyenne de classement s'améliorer de 4,2 positions en 8 semaines."
           ],
+          image: { src: "/images/blog/fr/internal-linking-architecture.svg", alt: "Ecommerce internal linking architecture showing homepage, categories, products, and content hubs connected", caption: "Content hubs fill the linking gap -- 20-40% of product pages typically have fewer than 3 internal links" },
         },
         {
           heading: "5. Balises title et meta descriptions manquantes ou dupliquées",
@@ -199,6 +214,8 @@ export const ecommerceSeoMistakes: BlogArticle = {
             "Les dommages : Les pages sans balisage schema ne sont pas éligibles aux résultats enrichis (les listings de recherche améliorés qui affichent le prix, les notes et la disponibilité directement dans les SERP). Les résultats enrichis ont des taux de clics significativement plus élevés que les liens bleus classiques. Les données d'Ahrefs montrent que les pages avec des extraits enrichis obtiennent 58 % des clics en première page, par rapport aux résultats standards.",
             "Comment corriger : Implémentez le schema Product sur chaque page produit avec au minimum : nom, image, description, marque, SKU, offres (prix, devise, disponibilité) et aggregateRating. Utilisez le test des résultats enrichis de Google pour valider votre balisage. Si vous êtes sur Shopify, des applications comme JSON-LD for SEO gèrent cela automatiquement. Sur WooCommerce, des plugins comme Rank Math ou Yoast WooCommerce SEO ajoutent le schema produit. Vérifiez que le schema se met à jour dynamiquement lorsque les prix ou la disponibilité changent. Des données schema obsolètes (montrant un produit en stock alors qu'il est épuisé) peuvent déclencher des actions manuelles de Google."
           ],
+          image: { src: "/images/blog/fr/schema-markup-rich-results.svg", alt: "Product schema markup comparison showing plain search result versus rich result with ratings, price, and availability", caption: "Pages with rich snippets get 58% of clicks on the first page versus standard results" },
+          callout: { title: "Rich Results Win Clicks", text: "Pages with rich snippets get 58% of first-page clicks compared to standard results. Implement Product schema with name, image, price, availability, and rating on every product page." },
         },
         {
           heading: "9. Bloquer des pages importantes avec robots.txt ou noindex",
@@ -228,10 +245,11 @@ export const ecommerceSeoMistakes: BlogArticle = {
         {
           heading: "De fouten die we in bijna elke audit zien",
           body: [
-            "We auditen elke week webwinkels. Na honderden audits op Shopify, Magento, WooCommerce en custom platformen zien we dezelfde fouten steeds opnieuw. Sommige zijn voor de hand liggend. Sommige zijn subtiel. Allemaal kosten ze echt geld in verloren organisch verkeer en omzet. Het uitvoeren van een grondige [ecommerce SEO audit](/blog/ecommerce-seo-audit) is de snelste manier om ze allemaal tegelijk aan het licht te brengen.",
+            "We auditen elke week webwinkels. Na honderden audits op Shopify, Magento, WooCommerce en custom platformen zien we dezelfde fouten steeds opnieuw. Sommige zijn voor de hand liggend. Sommige zijn subtiel. Allemaal kosten ze echt geld in verloren organisch verkeer en omzet. Het uitvoeren van een grondige [ecommerce SEO audit](/blog/how-to-make-ecommerce-seo-audit) is de snelste manier om ze allemaal tegelijk aan het licht te brengen.",
             "Wat ons frustreert is dat de meeste van deze fouten vermijdbaar zijn. Ze gebeuren vanwege overhaaste winkellanceringen, platformstandaarden die niemand heeft gewijzigd, of goedbedoelende ontwikkelaars die SEO niet begrijpen. Het goede nieuws is dat elk ervan een duidelijke oplossing heeft.",
             "We rangschikten deze 10 fouten ruwweg op hoe vaak we ze tegenkomen en hoeveel schade ze doorgaans veroorzaken. Als je een webwinkel runt, maak je vrijwel zeker op dit moment minstens twee of drie van deze fouten.",
           ],
+          image: { src: "/images/blog/nl/seo-mistakes-impact.svg", alt: "Horizontal bar chart ranking top ecommerce SEO mistakes by traffic impact severity", caption: "The 10 most common ecommerce SEO mistakes ranked by traffic impact" },
         },
         {
           heading: "1. Dubbele content door productvarianten en filters",
@@ -241,6 +259,8 @@ export const ecommerceSeoMistakes: BlogArticle = {
             "De schade: Google verspilt crawl budget aan het indexeren van duizenden dubbele pagina's in plaats van je daadwerkelijke product- en categoriepagina's. Rankingsignalen worden verdund over meerdere URL's voor dezelfde content. We auditeerden een huishoudelijke artikelenwinkel met 2.000 producten die 180.000 geindexeerde URL's had. Slechts 8.000 daarvan waren de canonieke product- en categoriepagina's die ze daadwerkelijk wilden laten ranken.",
             "Hoe op te lossen: Implementeer canonical tags op alle variant-URL's die verwijzen naar de hoofdproductpagina. Gebruik de robots meta tag of robots.txt om filter- en sorteerparameter-URL's van indexering te blokkeren. Configureer in Google Search Console URL-parameters om Google te vertellen welke parameters pagina-inhoud veranderen (zoals categorie) en welke niet (zoals sorteervolgorde). De opruiming duurt doorgaans 2 tot 4 weken en we zien vaak organisch verkeer met 15% tot 30% stijgen binnen 2 maanden puur door dit ene probleem op te lossen. Gebruik onze [ecommerce SEO checklist](/blog/ecommerce-seo-checklist) om deze fixes systematisch door te werken.",
           ],
+          image: { src: "/images/blog/nl/duplicate-content-sources.svg", alt: "Diagram showing six common sources of duplicate content in ecommerce stores", caption: "Common duplicate content sources and how to fix them with canonical tags" },
+          callout: { title: "Duplication Scale", text: "A store with 2,000 products had 180,000 indexed URLs -- only 8,000 were the actual pages they wanted ranking. Fixing canonicals alone can boost organic traffic 15-30% within two months." },
         },
         {
           heading: "2. Dunne productpaginacontent",
@@ -259,6 +279,8 @@ export const ecommerceSeoMistakes: BlogArticle = {
             "De schade: Google gebruikt Core Web Vitals als rankingsignaal. Specifiek Largest Contentful Paint (LCP), Cumulative Layout Shift (CLS) en Interaction to Next Paint (INP). Trage sites ranken lager, punt. Maar de omzetimpact gaat verder dan rankings. Voor elke 100ms verbetering in laadtijd stijgen conversiepercentages gemiddeld met 1,1% volgens Deloitte's onderzoek naar retailsites. Een winkel die 2 miljoen euro per jaar doet en de laadtijd met 1 seconde verbetert, kan meer dan 100.000 euro aan extra omzet zien.",
             "Hoe op te lossen: Audit je third-party scripts en verwijder alles wat je niet actief gebruikt. Lazy-load afbeeldingen onder de fold. Serveer afbeeldingen in WebP-formaat en gebruik responsieve sizing. Verplaats niet-kritiek JavaScript naar async of defer loading. Implementeer correcte browsercaching headers. Specifiek voor Shopify winkels, verminder het aantal apps en controleer of apps sitebreed scripts laden wanneer ze alleen op specifieke pagina's hoeven te draaien. Richt op een LCP onder 2,5 seconden en een INP onder 200 milliseconden.",
           ],
+          image: { src: "/images/blog/nl/site-speed-revenue-impact.svg", alt: "Site speed revenue impact showing Core Web Vitals targets and the cost of slow load times for ecommerce", caption: "Every 100ms improvement in load time increases conversion rates by 1.1%" },
+          callout: { title: "Speed = Revenue", text: "A $2M/year store that improves load time by 1 second could see $100K+ in additional revenue. The typical Shopify store has 15-25 apps injecting scripts -- each adding 50-500ms of load time." },
         },
         {
           heading: "4. Slechte interne linkstructuur",
@@ -268,6 +290,7 @@ export const ecommerceSeoMistakes: BlogArticle = {
             "De schade: Verweesde productpagina's (pagina's zonder interne links die ernaar verwijzen) zijn onzichtbaar voor Google's crawler. We vinden regelmatig dat 20% tot 40% van productpagina's op webwinkels minder dan 3 interne links heeft. Deze pagina's ranken voor bijna niets. Ondertussen heeft de homepage doorgaans duizenden interne links en al die autoriteit heeft nergens productief naartoe te stromen.",
             "Hoe op te lossen: Voeg contextuele interne links toe in productbeschrijvingen die verwijzen naar gerelateerde producten en bovenliggende categorieen. Implementeer een 'gerelateerde producten' sectie die echte HTML-links gebruikt, geen JavaScript-gerenderde carrousels die Googlebot niet kan parsen. Creeer contenthubs (koopgidsen, vergelijkingspagina's, how-to artikelen) die linken naar groepen gerelateerde producten. Gebruik breadcrumbs op elke pagina. Voor grote catalogi, bouw een HTML sitemap-pagina die linkt naar alle top-level en second-level categorieen. Een klant voegde contextuele interne links toe aan hun top 200 productpagina's en zag de gemiddelde rankingpositie met 4,2 posities verbeteren binnen 8 weken.",
           ],
+          image: { src: "/images/blog/nl/internal-linking-architecture.svg", alt: "Ecommerce internal linking architecture showing homepage, categories, products, and content hubs connected", caption: "Content hubs fill the linking gap -- 20-40% of product pages typically have fewer than 3 internal links" },
         },
         {
           heading: "5. Ontbrekende of dubbele meta titels en beschrijvingen",
@@ -304,6 +327,8 @@ export const ecommerceSeoMistakes: BlogArticle = {
             "De schade: Pagina's zonder schema markup komen niet in aanmerking voor rich results (de verbeterde zoekvermeldingen die prijs, beoordelingen en beschikbaarheid direct in de SERP tonen). Rich results hebben significant hogere click-through rates dan gewone blauwe links. Ahrefs data toont dat pagina's met rich snippets 58% van de clicks krijgen op de eerste pagina, vergeleken met standaardresultaten.",
             "Hoe op te lossen: Implementeer Product schema op elke productpagina met minimaal: naam, afbeelding, beschrijving, merk, SKU, aanbiedingen (prijs, valuta, beschikbaarheid), en aggregateRating. Gebruik Google's Rich Results Test om je markup te valideren. Als je op Shopify zit, handelen apps zoals JSON-LD for SEO dit automatisch af. Op WooCommerce voegen plugins als Rank Math of Yoast WooCommerce SEO productschema toe. Verifieer dat het schema dynamisch bijwerkt wanneer prijzen of beschikbaarheid veranderen. Verouderde schemadata (een product als op voorraad tonen wanneer het uitverkocht is) kan handmatige acties van Google triggeren.",
           ],
+          image: { src: "/images/blog/nl/schema-markup-rich-results.svg", alt: "Product schema markup comparison showing plain search result versus rich result with ratings, price, and availability", caption: "Pages with rich snippets get 58% of clicks on the first page versus standard results" },
+          callout: { title: "Rich Results Win Clicks", text: "Pages with rich snippets get 58% of first-page clicks compared to standard results. Implement Product schema with name, image, price, availability, and rating on every product page." },
         },
         {
           heading: "9. Belangrijke pagina's blokkeren met robots.txt of noindex",
@@ -323,6 +348,7 @@ export const ecommerceSeoMistakes: BlogArticle = {
             "Hoe op te lossen: Bouw SEO in je doorlopende operaties in. Reserveer maandelijks tijd voor contentcreatie (productbeschrijvingen, categoriecontent, blogposts). Doe elk kwartaal een technische audit. Monitor wekelijks rankings en verkeer. Werk productpagina's bij wanneer inventaris verandert. Bouw consequent links in plaats van in pieken. SEO is een accumulerende investering. De winkels die winnen in organisch zoeken zijn degene die het als een continu proces behandelen, niet als een project met een einddatum.",
             "Als je je winkel herkende in twee of meer van deze fouten, ben je niet de enige. Het verschil tussen winkels die organisch verkeer laten groeien en die stagneren is bijna altijd uitvoering op deze fundamenten. Geen geavanceerde tactieken, geen geheime trucs. Gewoon de basis goed doen, consequent.",
           ],
+          callout: { title: "SEO Never Stops", text: "Google updates its algorithm 500-600 times per year. Stores that stop SEO work can drop from position 3 to position 15 within six months. Treat SEO as a continuous process, not a one-time project." },
         },
       ],
     },
@@ -333,10 +359,11 @@ export const ecommerceSeoMistakes: BlogArticle = {
         {
           heading: "Los errores que vemos en casi cada auditoría",
           body: [
-            "Auditamos tiendas de ecommerce cada semana. Después de cientos de auditorías en Shopify, Magento, WooCommerce y plataformas personalizadas, vemos los mismos errores repetidos una y otra vez. Algunos son obvios. Algunos son sutiles. Todos cuestan dinero real en tráfico orgánico e ingresos perdidos. Ejecutar una [auditoría SEO para ecommerce](/blog/ecommerce-seo-audit) exhaustiva es la forma más rápida de sacarlos todos a la luz de una vez.",
+            "Auditamos tiendas de ecommerce cada semana. Después de cientos de auditorías en Shopify, Magento, WooCommerce y plataformas personalizadas, vemos los mismos errores repetidos una y otra vez. Algunos son obvios. Algunos son sutiles. Todos cuestan dinero real en tráfico orgánico e ingresos perdidos. Ejecutar una [auditoría SEO para ecommerce](/blog/how-to-make-ecommerce-seo-audit) exhaustiva es la forma más rápida de sacarlos todos a la luz de una vez.",
             "Lo que nos frustra es que la mayoría de estos errores son prevenibles. Ocurren por lanzamientos de tiendas apresurados, configuraciones predeterminadas de la plataforma que nadie cambió, o desarrolladores bien intencionados que no entienden el SEO. La buena noticia es que cada uno tiene una solución clara.",
             "Clasificamos estos 10 errores aproximadamente por la frecuencia con la que los encontramos y cuánto daño causan típicamente. Si tienes una tienda de ecommerce, es casi seguro que estás cometiendo al menos dos o tres de estos ahora mismo."
           ],
+          image: { src: "/images/blog/es/seo-mistakes-impact.svg", alt: "Horizontal bar chart ranking top ecommerce SEO mistakes by traffic impact severity", caption: "The 10 most common ecommerce SEO mistakes ranked by traffic impact" },
         },
         {
           heading: "1. Contenido duplicado por variantes de productos y filtros",
@@ -346,6 +373,8 @@ export const ecommerceSeoMistakes: BlogArticle = {
             "El daño: Google desperdicia presupuesto de rastreo indexando miles de páginas duplicadas en lugar de tus páginas reales de productos y categorías. Las señales de ranking se diluyen entre múltiples URLs para el mismo contenido. Auditamos una tienda de artículos para el hogar con 2.000 productos que tenía 180.000 URLs indexadas. Solo 8.000 de esas eran las páginas canónicas de productos y categorías que realmente querían posicionar.",
             "Cómo corregirlo: implementa canonical tags en todas las URLs de variantes apuntando a la página principal del producto. Usa la meta tag robots o robots.txt para bloquear las URLs de parámetros de filtros y ordenación de la indexación. En Google Search Console, configura los parámetros de URL para decirle a Google qué parámetros cambian el contenido de la página (como categoría) y cuáles no (como orden de clasificación). La limpieza normalmente toma de 2 a 4 semanas y a menudo vemos el tráfico orgánico aumentar entre un 15% y un 30% en 2 meses solo por resolver este problema. Usa nuestro [checklist de SEO para ecommerce](/blog/ecommerce-seo-checklist) para trabajar estas correcciones sistemáticamente."
           ],
+          image: { src: "/images/blog/es/duplicate-content-sources.svg", alt: "Diagram showing six common sources of duplicate content in ecommerce stores", caption: "Common duplicate content sources and how to fix them with canonical tags" },
+          callout: { title: "Duplication Scale", text: "A store with 2,000 products had 180,000 indexed URLs -- only 8,000 were the actual pages they wanted ranking. Fixing canonicals alone can boost organic traffic 15-30% within two months." },
         },
         {
           heading: "2. Contenido escaso en páginas de productos",
@@ -364,6 +393,8 @@ export const ecommerceSeoMistakes: BlogArticle = {
             "El daño: Google usa los Core Web Vitals como señal de ranking. Específicamente, Largest Contentful Paint (LCP), Cumulative Layout Shift (CLS) e Interaction to Next Paint (INP). Los sitios lentos se posicionan peor, punto. Pero el impacto en los ingresos va más allá de los rankings. Por cada 100ms de mejora en el tiempo de carga, las tasas de conversión aumentan un promedio de 1,1% según la investigación de Deloitte sobre sitios de retail. Una tienda que factura 2 millones al año y mejora el tiempo de carga en 1 segundo podría ver más de 100.000 en ingresos adicionales.",
             "Cómo corregirlo: audita tus scripts de terceros y elimina todo lo que no estés usando activamente. Aplica lazy-load a las imágenes por debajo del pliegue. Sirve las imágenes en formato WebP y usa dimensionamiento responsive. Mueve el JavaScript no crítico a carga async o defer. Implementa cabeceras de caché del navegador adecuadas. Para tiendas Shopify específicamente, reduce el número de apps y verifica si alguna app carga scripts en todo el sitio cuando solo necesitan ejecutarse en páginas específicas. Apunta a un LCP por debajo de 2,5 segundos y un INP por debajo de 200 milisegundos."
           ],
+          image: { src: "/images/blog/es/site-speed-revenue-impact.svg", alt: "Site speed revenue impact showing Core Web Vitals targets and the cost of slow load times for ecommerce", caption: "Every 100ms improvement in load time increases conversion rates by 1.1%" },
+          callout: { title: "Speed = Revenue", text: "A $2M/year store that improves load time by 1 second could see $100K+ in additional revenue. The typical Shopify store has 15-25 apps injecting scripts -- each adding 50-500ms of load time." },
         },
         {
           heading: "4. Estructura deficiente de enlazado interno",
@@ -373,6 +404,7 @@ export const ecommerceSeoMistakes: BlogArticle = {
             "El daño: las páginas de productos huérfanas (páginas sin enlaces internos que apunten a ellas) son invisibles para el rastreador de Google. Regularmente encontramos que del 20% al 40% de las páginas de productos en tiendas de ecommerce tienen menos de 3 enlaces internos. Estas páginas no se posicionan para casi nada. Mientras tanto, la página de inicio típicamente tiene miles de enlaces internos y toda esa autoridad no tiene adónde fluir productivamente.",
             "Cómo corregirlo: agrega enlaces internos contextuales en las descripciones de productos apuntando a productos relacionados y categorías principales. Implementa una sección de 'productos relacionados' que use enlaces HTML reales, no carruseles renderizados con JavaScript que Googlebot no puede analizar. Crea hubs de contenido (guías de compra, páginas de comparación, artículos de tutoriales) que enlacen a grupos de productos relacionados. Usa migas de pan en cada página. Para catálogos grandes, construye una página de sitemap HTML que enlace a todas las categorías de primer y segundo nivel. Un cliente agregó enlaces internos contextuales a sus 200 páginas de productos principales y vio la posición media de ranking mejorar en 4,2 posiciones en 8 semanas."
           ],
+          image: { src: "/images/blog/es/internal-linking-architecture.svg", alt: "Ecommerce internal linking architecture showing homepage, categories, products, and content hubs connected", caption: "Content hubs fill the linking gap -- 20-40% of product pages typically have fewer than 3 internal links" },
         },
         {
           heading: "5. Meta títulos y descripciones ausentes o duplicados",
@@ -409,6 +441,8 @@ export const ecommerceSeoMistakes: BlogArticle = {
             "El daño: las páginas sin schema markup no son elegibles para resultados enriquecidos (los listados de búsqueda mejorados que muestran precio, valoraciones y disponibilidad directamente en el SERP). Los resultados enriquecidos tienen tasas de clics significativamente más altas que los enlaces azules normales. Los datos de Ahrefs muestran que las páginas con fragmentos enriquecidos obtienen el 58% de los clics en la primera página, comparado con los resultados estándar.",
             "Cómo corregirlo: implementa schema Product en cada página de producto con al mínimo: nombre, imagen, descripción, marca, SKU, ofertas (precio, moneda, disponibilidad), y aggregateRating. Usa la Prueba de Resultados Enriquecidos de Google para validar tu markup. Si estás en Shopify, apps como JSON-LD for SEO manejan esto automáticamente. En WooCommerce, plugins como Rank Math o Yoast WooCommerce SEO agregan schema de producto. Verifica que el schema se actualice dinámicamente cuando los precios o la disponibilidad cambien. Los datos de schema obsoletos (mostrar un producto como disponible cuando está agotado) pueden provocar acciones manuales de Google."
           ],
+          image: { src: "/images/blog/es/schema-markup-rich-results.svg", alt: "Product schema markup comparison showing plain search result versus rich result with ratings, price, and availability", caption: "Pages with rich snippets get 58% of clicks on the first page versus standard results" },
+          callout: { title: "Rich Results Win Clicks", text: "Pages with rich snippets get 58% of first-page clicks compared to standard results. Implement Product schema with name, image, price, availability, and rating on every product page." },
         },
         {
           heading: "9. Bloquear páginas importantes con robots.txt o noindex",
@@ -438,10 +472,11 @@ export const ecommerceSeoMistakes: BlogArticle = {
         {
           heading: "Die Fehler, die wir in fast jedem Audit sehen",
           body: [
-            "Wir pruefen jede Woche Ecommerce-Shops. Nach Hunderten von Audits auf Shopify, Magento, WooCommerce und individuellen Plattformen sehen wir immer wieder dieselben Fehler. Einige sind offensichtlich. Einige sind subtil. Alle kosten echtes Geld durch verlorenen organischen Traffic und Umsatz. Ein gruendliches [Ecommerce SEO Audit](/blog/ecommerce-seo-audit) durchzufuehren ist der schnellste Weg, alle auf einmal aufzudecken.",
+            "Wir pruefen jede Woche Ecommerce-Shops. Nach Hunderten von Audits auf Shopify, Magento, WooCommerce und individuellen Plattformen sehen wir immer wieder dieselben Fehler. Einige sind offensichtlich. Einige sind subtil. Alle kosten echtes Geld durch verlorenen organischen Traffic und Umsatz. Ein gruendliches [Ecommerce SEO Audit](/blog/how-to-make-ecommerce-seo-audit) durchzufuehren ist der schnellste Weg, alle auf einmal aufzudecken.",
             "Was uns frustriert, ist, dass die meisten dieser Fehler vermeidbar sind. Sie passieren wegen uebereilter Shop-Launches, Plattform-Standardeinstellungen, die niemand geaendert hat, oder gutmeinender Entwickler, die SEO nicht verstehen. Die gute Nachricht ist, dass jeder einzelne eine klare Loesung hat.",
             "Wir haben diese 10 Fehler grob danach sortiert, wie haeufig wir ihnen begegnen und wie viel Schaden sie typischerweise anrichten. Wenn Sie einen Onlineshop betreiben, machen Sie mit ziemlicher Sicherheit gerade mindestens zwei oder drei davon."
           ],
+          image: { src: "/images/blog/de/seo-mistakes-impact.svg", alt: "Horizontal bar chart ranking top ecommerce SEO mistakes by traffic impact severity", caption: "The 10 most common ecommerce SEO mistakes ranked by traffic impact" },
         },
         {
           heading: "1. Duplicate Content durch Produktvarianten und Filter",
@@ -451,6 +486,8 @@ export const ecommerceSeoMistakes: BlogArticle = {
             "Der Schaden: Google verschwendet Crawl Budget mit der Indexierung Tausender doppelter Seiten statt Ihrer tatsaechlichen Produkt- und Kategorieseiten. Rankingsignale werden ueber mehrere URLs fuer denselben Content verwaessert. Wir prueften einen Haushaltswaren-Shop mit 2.000 Produkten, der 180.000 indexierte URLs hatte. Nur 8.000 davon waren die kanonischen Produkt- und Kategorieseiten, die sie tatsaechlich ranken lassen wollten.",
             "So beheben Sie es: Implementieren Sie Canonical Tags auf allen Varianten-URLs, die auf die Hauptproduktseite verweisen. Verwenden Sie den robots Meta Tag oder robots.txt, um Filter- und Sortierparameter-URLs von der Indexierung zu blockieren. Konfigurieren Sie in der Google Search Console URL-Parameter, um Google mitzuteilen, welche Parameter den Seiteninhalt aendern (wie Kategorie) und welche nicht (wie Sortierreihenfolge). Die Bereinigung dauert typischerweise 2 bis 4 Wochen, und wir sehen oft einen Anstieg des organischen Traffics um 15% bis 30% innerhalb von 2 Monaten, nur durch die Loesung dieses einen Problems. Verwenden Sie unsere [Ecommerce SEO Checkliste](/blog/ecommerce-seo-checklist), um diese Fixes systematisch abzuarbeiten."
           ],
+          image: { src: "/images/blog/de/duplicate-content-sources.svg", alt: "Diagram showing six common sources of duplicate content in ecommerce stores", caption: "Common duplicate content sources and how to fix them with canonical tags" },
+          callout: { title: "Duplication Scale", text: "A store with 2,000 products had 180,000 indexed URLs -- only 8,000 were the actual pages they wanted ranking. Fixing canonicals alone can boost organic traffic 15-30% within two months." },
         },
         {
           heading: "2. Duenne Produktseiten-Inhalte",
@@ -469,6 +506,8 @@ export const ecommerceSeoMistakes: BlogArticle = {
             "Der Schaden: Google verwendet Core Web Vitals als Rankingsignal. Speziell Largest Contentful Paint (LCP), Cumulative Layout Shift (CLS) und Interaction to Next Paint (INP). Langsame Seiten ranken schlechter, Punkt. Aber die Umsatzauswirkung geht ueber Rankings hinaus. Fuer jede 100ms Verbesserung der Ladezeit steigen Conversion Rates laut Deloitte-Forschung bei Retail-Seiten durchschnittlich um 1,1%. Ein Shop mit 2 Millionen Euro Jahresumsatz, der die Ladezeit um 1 Sekunde verbessert, koennte 100.000+ Euro zusaetzlichen Umsatz sehen.",
             "So beheben Sie es: Pruefen Sie Ihre Drittanbieter-Scripts und entfernen Sie alles, was Sie nicht aktiv nutzen. Laden Sie Bilder unterhalb des Folds per Lazy Loading. Liefern Sie Bilder im WebP-Format aus und verwenden Sie responsive Groessenbestimmung. Verschieben Sie nicht-kritisches JavaScript auf async oder defer Loading. Implementieren Sie korrekte Browser-Caching-Header. Fuer Shopify-Shops speziell: Reduzieren Sie die App-Anzahl und pruefen Sie, ob Apps seitenweit Scripts laden, obwohl sie nur auf bestimmten Seiten laufen muessen. Zielen Sie auf einen LCP unter 2,5 Sekunden und einen INP unter 200 Millisekunden."
           ],
+          image: { src: "/images/blog/de/site-speed-revenue-impact.svg", alt: "Site speed revenue impact showing Core Web Vitals targets and the cost of slow load times for ecommerce", caption: "Every 100ms improvement in load time increases conversion rates by 1.1%" },
+          callout: { title: "Speed = Revenue", text: "A $2M/year store that improves load time by 1 second could see $100K+ in additional revenue. The typical Shopify store has 15-25 apps injecting scripts -- each adding 50-500ms of load time." },
         },
         {
           heading: "4. Schlechte interne Verlinkungsstruktur",
@@ -478,6 +517,7 @@ export const ecommerceSeoMistakes: BlogArticle = {
             "Der Schaden: Verwaiste Produktseiten (Seiten ohne interne Links, die auf sie verweisen) sind fuer Googles Crawler unsichtbar. Wir stellen regelmaessig fest, dass 20% bis 40% der Produktseiten auf Ecommerce-Shops weniger als 3 interne Links haben. Diese Seiten ranken fuer fast nichts. Gleichzeitig hat die Homepage typischerweise Tausende interner Links, und all diese Autoritaet hat keinen produktiven Ort, wohin sie fliessen kann.",
             "So beheben Sie es: Fuegen Sie kontextuelle interne Links in Produktbeschreibungen hinzu, die auf verwandte Produkte und uebergeordnete Kategorien verweisen. Implementieren Sie einen 'Verwandte Produkte'-Bereich, der echte HTML-Links verwendet, keine JavaScript-gerenderten Karussells, die Googlebot nicht parsen kann. Erstellen Sie Content-Hubs (Kaufratgeber, Vergleichsseiten, Anleitungsartikel), die auf Gruppen verwandter Produkte verlinken. Verwenden Sie Breadcrumbs auf jeder Seite. Fuer grosse Kataloge erstellen Sie eine HTML-Sitemap-Seite, die auf alle Top-Level- und Second-Level-Kategorien verlinkt. Ein Kunde fuegte kontextuelle interne Links zu seinen Top-200-Produktseiten hinzu und sah eine Verbesserung der durchschnittlichen Rankingposition um 4,2 Positionen innerhalb von 8 Wochen."
           ],
+          image: { src: "/images/blog/de/internal-linking-architecture.svg", alt: "Ecommerce internal linking architecture showing homepage, categories, products, and content hubs connected", caption: "Content hubs fill the linking gap -- 20-40% of product pages typically have fewer than 3 internal links" },
         },
         {
           heading: "5. Fehlende oder doppelte Meta-Titel und -Beschreibungen",
@@ -514,6 +554,8 @@ export const ecommerceSeoMistakes: BlogArticle = {
             "Der Schaden: Seiten ohne Schema Markup kommen nicht fuer Rich Results in Frage (die erweiterten Suchergebnis-Eintraege, die Preis, Bewertungen und Verfuegbarkeit direkt in den SERPs anzeigen). Rich Results haben deutlich hoehere Klickraten als normale blaue Links. Ahrefs-Daten zeigen, dass Seiten mit Rich Snippets 58% der Klicks auf der ersten Seite erhalten, verglichen mit Standardergebnissen.",
             "So beheben Sie es: Implementieren Sie Product Schema auf jeder Produktseite mit mindestens: Name, Bild, Beschreibung, Marke, SKU, Angebote (Preis, Waehrung, Verfuegbarkeit) und aggregateRating. Verwenden Sie Googles Rich Results Test zur Validierung Ihres Markups. Wenn Sie auf Shopify sind, erledigen Apps wie JSON-LD for SEO dies automatisch. Auf WooCommerce fuegen Plugins wie Rank Math oder Yoast WooCommerce SEO Product Schema hinzu. Verifizieren Sie, dass das Schema sich dynamisch aktualisiert, wenn sich Preise oder Verfuegbarkeit aendern. Veraltete Schema-Daten (ein Produkt als verfuegbar anzeigen, wenn es ausverkauft ist) koennen manuelle Massnahmen von Google ausloesen."
           ],
+          image: { src: "/images/blog/de/schema-markup-rich-results.svg", alt: "Product schema markup comparison showing plain search result versus rich result with ratings, price, and availability", caption: "Pages with rich snippets get 58% of clicks on the first page versus standard results" },
+          callout: { title: "Rich Results Win Clicks", text: "Pages with rich snippets get 58% of first-page clicks compared to standard results. Implement Product schema with name, image, price, availability, and rating on every product page." },
         },
         {
           heading: "9. Wichtige Seiten mit robots.txt oder noindex blockieren",
@@ -543,10 +585,11 @@ export const ecommerceSeoMistakes: BlogArticle = {
         {
           heading: "Gli errori che vediamo in quasi ogni audit",
           body: [
-            "Facciamo audit di negozi ecommerce ogni settimana. Dopo centinaia di audit su Shopify, Magento, WooCommerce e piattaforme personalizzate, vediamo gli stessi errori ripetersi continuamente. Alcuni sono ovvi. Alcuni sono sottili. Tutti costano denaro reale in traffico organico e fatturato perso. Eseguire un approfondito [audit SEO ecommerce](/blog/ecommerce-seo-audit) e il modo piu veloce per scoprirli tutti in una volta.",
+            "Facciamo audit di negozi ecommerce ogni settimana. Dopo centinaia di audit su Shopify, Magento, WooCommerce e piattaforme personalizzate, vediamo gli stessi errori ripetersi continuamente. Alcuni sono ovvi. Alcuni sono sottili. Tutti costano denaro reale in traffico organico e fatturato perso. Eseguire un approfondito [audit SEO ecommerce](/blog/how-to-make-ecommerce-seo-audit) e il modo piu veloce per scoprirli tutti in una volta.",
             "Cio che ci frustra e che la maggior parte di questi errori e prevenibile. Accadono a causa di lanci di negozi affrettati, impostazioni predefinite della piattaforma che nessuno ha modificato, o sviluppatori ben intenzionati che non capiscono la SEO. La buona notizia e che ognuno ha una soluzione chiara.",
             "Abbiamo classificato questi 10 errori approssimativamente per frequenza con cui li incontriamo e per quanto danno causano tipicamente. Se gestisci un negozio ecommerce, quasi sicuramente ne stai commettendo almeno due o tre in questo momento."
           ],
+          image: { src: "/images/blog/it/seo-mistakes-impact.svg", alt: "Horizontal bar chart ranking top ecommerce SEO mistakes by traffic impact severity", caption: "The 10 most common ecommerce SEO mistakes ranked by traffic impact" },
         },
         {
           heading: "1. Contenuto duplicato da varianti prodotto e filtri",
@@ -556,6 +599,8 @@ export const ecommerceSeoMistakes: BlogArticle = {
             "Il danno: Google spreca budget di scansione indicizzando migliaia di pagine duplicate invece delle tue pagine prodotto e di categoria effettive. I segnali di ranking si diluiscono su piu URL per lo stesso contenuto. Abbiamo fatto l'audit di un negozio di articoli per la casa con 2.000 prodotti che aveva 180.000 URL indicizzati. Solo 8.000 di quelli erano le pagine prodotto e di categoria canoniche che effettivamente volevano posizionare.",
             "Come risolvere: Implementa tag canonical su tutti gli URL delle varianti che puntano alla pagina prodotto principale. Usa il meta tag robots o robots.txt per bloccare l'indicizzazione degli URL con parametri di filtro e ordinamento. In Google Search Console, configura i parametri URL per dire a Google quali parametri cambiano il contenuto della pagina (come la categoria) e quali no (come l'ordinamento). La pulizia richiede tipicamente da 2 a 4 settimane e spesso vediamo il traffico organico aumentare dal 15% al 30% entro 2 mesi solo risolvendo questo unico problema. Usa la nostra [checklist SEO ecommerce](/blog/ecommerce-seo-checklist) per procedere sistematicamente con queste correzioni."
           ],
+          image: { src: "/images/blog/it/duplicate-content-sources.svg", alt: "Diagram showing six common sources of duplicate content in ecommerce stores", caption: "Common duplicate content sources and how to fix them with canonical tags" },
+          callout: { title: "Duplication Scale", text: "A store with 2,000 products had 180,000 indexed URLs -- only 8,000 were the actual pages they wanted ranking. Fixing canonicals alone can boost organic traffic 15-30% within two months." },
         },
         {
           heading: "2. Contenuto scarso nelle pagine prodotto",
@@ -574,6 +619,8 @@ export const ecommerceSeoMistakes: BlogArticle = {
             "Il danno: Google usa i Core Web Vitals come segnale di ranking. In particolare, Largest Contentful Paint (LCP), Cumulative Layout Shift (CLS) e Interaction to Next Paint (INP). I siti lenti si posizionano peggio, punto. Ma l'impatto sul fatturato va oltre le classifiche. Per ogni 100ms di miglioramento nel tempo di caricamento, i tassi di conversione aumentano in media dell'1,1% secondo la ricerca Deloitte sui siti retail. Un negozio che fattura 2 milioni di euro all'anno e che migliora il tempo di caricamento di 1 secondo potrebbe vedere oltre 100.000 euro di fatturato aggiuntivo.",
             "Come risolvere: Fai un audit dei tuoi script di terze parti e rimuovi tutto cio che non stai usando attivamente. Implementa il lazy loading per le immagini sotto la piega. Servi le immagini in formato WebP e usa il dimensionamento responsivo. Sposta il JavaScript non critico al caricamento async o defer. Implementa header di cache del browser corretti. Per i negozi Shopify in particolare, riduci il numero di app e controlla se qualche app sta caricando script su tutto il sito quando deve funzionare solo su pagine specifiche. Punta a un LCP sotto 2,5 secondi e un INP sotto 200 millisecondi."
           ],
+          image: { src: "/images/blog/it/site-speed-revenue-impact.svg", alt: "Site speed revenue impact showing Core Web Vitals targets and the cost of slow load times for ecommerce", caption: "Every 100ms improvement in load time increases conversion rates by 1.1%" },
+          callout: { title: "Speed = Revenue", text: "A $2M/year store that improves load time by 1 second could see $100K+ in additional revenue. The typical Shopify store has 15-25 apps injecting scripts -- each adding 50-500ms of load time." },
         },
         {
           heading: "4. Struttura di link interni carente",
@@ -583,6 +630,7 @@ export const ecommerceSeoMistakes: BlogArticle = {
             "Il danno: Le pagine prodotto orfane (pagine senza link interni che puntano ad esse) sono invisibili al crawler di Google. Troviamo regolarmente che il 20-40% delle pagine prodotto nei negozi ecommerce ha meno di 3 link interni. Queste pagine non si posizionano per quasi nulla. Nel frattempo, la homepage ha tipicamente migliaia di link interni e tutta quell'autorita non ha un posto produttivo dove fluire.",
             "Come risolvere: Aggiungi link interni contestuali nelle descrizioni prodotto che puntano a prodotti correlati e categorie genitore. Implementa una sezione 'prodotti correlati' che usa veri link HTML, non caroselli renderizzati in JavaScript che Googlebot non puo analizzare. Crea hub di contenuto (guide all'acquisto, pagine di confronto, articoli how-to) che linkano a gruppi di prodotti correlati. Usa i breadcrumb su ogni pagina. Per cataloghi grandi, crea una pagina sitemap HTML che linka a tutte le categorie di primo e secondo livello. Un cliente ha aggiunto link interni contestuali alle sue top 200 pagine prodotto e ha visto la posizione media di ranking migliorare di 4,2 posizioni entro 8 settimane."
           ],
+          image: { src: "/images/blog/it/internal-linking-architecture.svg", alt: "Ecommerce internal linking architecture showing homepage, categories, products, and content hubs connected", caption: "Content hubs fill the linking gap -- 20-40% of product pages typically have fewer than 3 internal links" },
         },
         {
           heading: "5. Meta titoli e descrizioni mancanti o duplicati",
@@ -619,6 +667,8 @@ export const ecommerceSeoMistakes: BlogArticle = {
             "Il danno: Le pagine senza markup schema non sono idonee per i rich results (i risultati di ricerca migliorati che mostrano prezzo, valutazioni e disponibilita direttamente nella SERP). I rich results hanno tassi di clic significativamente piu alti dei link blu standard. I dati Ahrefs mostrano che le pagine con rich snippet ottengono il 58% dei clic sulla prima pagina, rispetto ai risultati standard.",
             "Come risolvere: Implementa lo schema Product su ogni pagina prodotto con almeno: name, image, description, brand, sku, offers (price, currency, availability) e aggregateRating. Usa il Rich Results Test di Google per validare il tuo markup. Se sei su Shopify, app come JSON-LD for SEO lo gestiscono automaticamente. Su WooCommerce, plugin come Rank Math o Yoast WooCommerce SEO aggiungono lo schema prodotto. Verifica che lo schema si aggiorni dinamicamente quando cambiano prezzi o disponibilita. Dati schema obsoleti (mostrare un prodotto come disponibile quando e esaurito) possono attivare azioni manuali da parte di Google."
           ],
+          image: { src: "/images/blog/it/schema-markup-rich-results.svg", alt: "Product schema markup comparison showing plain search result versus rich result with ratings, price, and availability", caption: "Pages with rich snippets get 58% of clicks on the first page versus standard results" },
+          callout: { title: "Rich Results Win Clicks", text: "Pages with rich snippets get 58% of first-page clicks compared to standard results. Implement Product schema with name, image, price, availability, and rating on every product page." },
         },
         {
           heading: "9. Bloccare pagine importanti con robots.txt o noindex",

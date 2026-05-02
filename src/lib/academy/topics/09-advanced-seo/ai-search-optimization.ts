@@ -22,6 +22,15 @@ export const aiSearchOptimization: AcademyTopic = {
             "RAG pipelines combine traditional retrieval with language model synthesis",
             "Getting into the candidate pool still requires strong traditional SEO fundamentals",
           ],
+          image: {
+            src: "/images/academy/ai-search-rag-pipeline.svg",
+            alt: "Diagram showing the RAG pipeline from user query through retrieval and candidate selection to LLM synthesis and citation",
+            caption: "AI search engines first retrieve candidate documents using traditional signals, then feed them into a language model that synthesizes the final answer and selects sources to cite.",
+          },
+          callout: {
+            title: "RAG Pipeline",
+            text: "Most AI search systems retrieve 50+ candidate documents using traditional SEO signals, then a language model selects 3-4 sources to cite. Strong crawlability and backlinks get you into the pool; content quality gets you cited.",
+          },
         },
         {
           title: "Structuring Product Content for AI Extraction",
@@ -57,6 +66,15 @@ export const aiSearchOptimization: AcademyTopic = {
             "Add FAQPage, HowTo, Review, and ItemList schema across relevant page types",
           ],
           tip: "Implement SameAs links in your Organization schema pointing to your official social media profiles, Wikipedia page, and Wikidata entity. This helps AI models connect your website to your broader entity graph and increases confidence in your brand identity.",
+          image: {
+            src: "/images/academy/ai-schema-stack.svg",
+            alt: "Diagram showing the complete schema markup stack for AI visibility including Product, Offer, AggregateRating, and supporting schema types",
+            caption: "AI models rely on schema markup even more heavily than traditional search. Complete Product schema with nested Offer and hasVariant properties maximizes AI extraction accuracy.",
+          },
+          callout: {
+            title: "Schema Completeness",
+            text: "Include every available Product property: name, brand, sku, gtin, mpn, color, size, material, weight. The more explicit your markup, the more confidently AI models extract and cite your product data.",
+          },
         },
         {
           title: "Content Depth and Topical Coverage",
@@ -95,12 +113,21 @@ export const aiSearchOptimization: AcademyTopic = {
           title: "Wie KI-Suchmaschinen E-Commerce-Antworten zusammenstellen",
           content:
             "KI-Suchmaschinen crawlen und ranken Seiten nicht einfach wie die traditionelle Suche. Sie erfassen, analysieren und synthetisieren Inhalte aus mehreren Quellen, um eine einzige koharente Antwort zu generieren. Wenn ein Kaufer einen KI-Assistenten fragt 'Was ist der beste wasserdichte Wanderstiefel unter 200 Euro', bewertet das Modell Dutzende von Seiten, extrahiert Produktattribute, gleicht Bewertungen ab und erstellt eine Antwort, die drei oder vier Quellen zitieren kann.\n\nDer Auswahlprozess bevorzugt Seiten mit klaren, gut strukturierten, faktischen Informationen. KI-Modelle bewerten Inhalte nach mehreren Dimensionen: thematische Autoritat der Domain, Konsistenz der Produktaussagen im gesamten Web, Vollstandigkeit der strukturierten Daten und das Vorhandensein einzigartiger Erstanbieterdaten wie originale Testergebnisse oder proprietare Spezifikationen.\n\nDas Verstandnis der Retrieval-Augmented-Generation-Pipeline (RAG) ist essenziell. Die meisten KI-Suchsysteme rufen zunachst einen Satz von Kandidatendokumenten mit traditionellen Suchsignalen ab und speisen diese dann in ein Sprachmodell ein, das die endgultige Antwort synthetisiert. Das bedeutet, dass Sie weiterhin starke traditionelle SEO-Grundlagen wie Crawlbarkeit, Seitengeschwindigkeit und relevante Backlinks benotigen. Weitere Informationen finden Sie in unserem Leitfaden zu [traditionelle SEO-Grundlagen](/blog/ecommerce-seo).",
-          items: [
+                    image: {
+            src: "/images/academy/de/ai-search-rag-pipeline.svg",
+            alt: "RAG-Pipeline-Diagramm: Wie KI-Suche von der Nutzeranfrage ueber Abruf und Kandidatenauswahl zur KI-Antwort funktioniert",
+            caption: "KI-Suchmaschinen nutzen eine RAG-Pipeline: Abruf traditioneller Signale, Kandidatenauswahl und LLM-Synthese mit Quellenangaben.",
+          },
+items: [
             "KI-Modelle synthetisieren Antworten aus mehreren Quellen statt einzelne Seiten zu ranken",
             "Erstanbieterdaten wie originale Bewertungen und Tests erhohen die Zitierwahrscheinlichkeit",
             "RAG-Pipelines kombinieren traditionellen Abruf mit Sprachmodell-Synthese",
             "Der Eintritt in den Kandidatenpool erfordert weiterhin starke traditionelle SEO-Grundlagen",
           ],
+          callout: {
+            title: "Quellenangaben-Sichtbarkeit",
+            text: "KI-Suchmaschinen zitieren Quellen in ihren Antworten. Seiten mit strukturierten Daten, E-E-A-T-Signalen und klaren Antworten werden haeufiger als Quelle zitiert als SEO-optimierte Seiten ohne diese Merkmale.",
+          },
         },
         {
           title: "Produktinhalte fur KI-Extraktion strukturieren",
@@ -129,12 +156,21 @@ export const aiSearchOptimization: AcademyTopic = {
           title: "Schema-Markup-Strategien fur KI-Sichtbarkeit",
           content:
             "Strukturierte Daten waren schon immer wichtig fur E-Commerce-SEO, aber KI-Suchmaschinen verlassen sich noch starker auf Schema-Markup als die traditionelle Suche, um Produktattribute, Verfugbarkeit, Preise und Beziehungen zu verstehen. Eine umfassende [Schema-Implementierung](/academy/structured-data-for-products) ist fur Shops, die KI-Sichtbarkeit wollen, nicht mehr optional.\n\nProduct-Schema sollte jede verfugbare Eigenschaft enthalten: Name, Beschreibung, Marke, SKU, GTIN, MPN, Farbe, Gro?e, Material, Gewicht und alle kategoriespezifischen Attribute. Je expliziter und vollstandiger Ihr Produkt-Markup ist, desto zuverlassiger kann ein KI-Modell Ihre Produktinformationen extrahieren und zitieren.\n\nImplementieren Sie das Offer-Schema innerhalb von Product fur Preis, Wahrung, Verfugbarkeit, Gultigkeitsdatum und Verkaufer. Fur Produkte mit mehreren Varianten verwenden Sie die hasVariant-Eigenschaft, um einzelne ProductModel-Eintrage zu verknupfen.\n\nUber einzelne Produkte hinaus verwenden Sie BreadcrumbList fur Navigationskontext, FAQPage fur Frage-Antwort-Inhalte, HowTo fur Nutzungsanleitungen und Review/AggregateRating fur Social-Proof-Signale. ItemList-Schema auf Kategorieseiten hilft KI-Modellen, Ihre Produkttaxonomie zu verstehen.",
-          items: [
+                    image: {
+            src: "/images/academy/de/ai-schema-stack.svg",
+            alt: "Schema-Stack fuer KI-Sichtbarkeit: Produkt-, Bewertungs-, FAQ-, HowTo- und Organisations-Schema",
+            caption: "Kombinieren Sie mehrere Schema-Typen fuer maximale KI-Sichtbarkeit. Produkt- und Bewertungs-Schema sind am kritischsten.",
+          },
+items: [
             "Alle verfugbaren Product-Schema-Eigenschaften einschlie?lich GTIN, MPN, Material und Gewicht einbinden",
             "Offer-Schema mit genauer Preisgestaltung, Wahrung, Verfugbarkeit und Gultigkeitsdaten verwenden",
             "hasVariant mit vollstandigen ProductModel-Eintragen fur Multi-Varianten-Produkte implementieren",
             "FAQPage-, HowTo-, Review- und ItemList-Schema uber relevante Seitentypen hinweg hinzufugen",
           ],
+          callout: {
+            title: "Schema-Priorisierung",
+            text: "Produkt-Schema mit Preis, Verfuegbarkeit und Bewertungen wird am haeufigsten in KI-Antworten zitiert. Implementieren Sie dieses zuerst, dann FAQ und HowTo fuer informationale Inhalte.",
+          },
           tip: "Implementieren Sie SameAs-Links in Ihrem Organization-Schema, die auf Ihre offiziellen Social-Media-Profile, Wikipedia-Seite und Wikidata-Entitat verweisen. Dies hilft KI-Modellen, Ihre Website mit Ihrem breiteren Entity-Graphen zu verbinden.",
         },
         {
@@ -180,6 +216,15 @@ export const aiSearchOptimization: AcademyTopic = {
             "Les pipelines RAG combinent la recuperation traditionnelle avec la synthese par modele de langage",
             "L'entree dans le pool de candidats necessite toujours de solides fondamentaux SEO traditionnels",
           ],
+          image: {
+            src: "/images/academy/fr/ai-search-rag-pipeline.svg",
+            alt: "RAG-Pipeline-Diagramm: Wie KI-Suche von der Nutzeranfrage ueber Abruf und Kandidatenauswahl zur KI-Antwort funktioniert",
+            caption: "KI-Suchmaschinen nutzen eine RAG-Pipeline: Abruf traditioneller Signale, Kandidatenauswahl und LLM-Synthese mit Quellenangaben.",
+          },
+          callout: {
+            title: "Quellenangaben-Sichtbarkeit",
+            text: "KI-Suchmaschinen zitieren Quellen in ihren Antworten. Seiten mit strukturierten Daten, E-E-A-T-Signalen und klaren Antworten werden haeufiger als Quelle zitiert als SEO-optimierte Seiten ohne diese Merkmale.",
+          },
         },
         {
           title: "Structurer le contenu produit pour l'extraction IA",
@@ -215,6 +260,15 @@ export const aiSearchOptimization: AcademyTopic = {
             "Ajouter les schemas FAQPage, HowTo, Review et ItemList sur les types de pages pertinents",
           ],
           tip: "Implementez des liens SameAs dans votre schema Organization pointant vers vos profils sociaux officiels, votre page Wikipedia et votre entite Wikidata. Cela aide les modeles IA a connecter votre site web a votre graphe d'entite plus large.",
+          image: {
+            src: "/images/academy/fr/ai-schema-stack.svg",
+            alt: "Schema-Stack fuer KI-Sichtbarkeit: Produkt-, Bewertungs-, FAQ-, HowTo- und Organisations-Schema",
+            caption: "Kombinieren Sie mehrere Schema-Typen fuer maximale KI-Sichtbarkeit. Produkt- und Bewertungs-Schema sind am kritischsten.",
+          },
+          callout: {
+            title: "Schema-Priorisierung",
+            text: "Produkt-Schema mit Preis, Verfuegbarkeit und Bewertungen wird am haeufigsten in KI-Antworten zitiert. Implementieren Sie dieses zuerst, dann FAQ und HowTo fuer informationale Inhalte.",
+          },
         },
         {
           title: "Profondeur du contenu et couverture thematique",
@@ -259,6 +313,15 @@ export const aiSearchOptimization: AcademyTopic = {
             "Los pipelines RAG combinan la recuperacion tradicional con la sintesis por modelo de lenguaje",
             "Entrar en el pool de candidatos aun requiere solidos fundamentos SEO tradicionales",
           ],
+          image: {
+            src: "/images/academy/es/ai-search-rag-pipeline.svg",
+            alt: "RAG-Pipeline-Diagramm: Wie KI-Suche von der Nutzeranfrage ueber Abruf und Kandidatenauswahl zur KI-Antwort funktioniert",
+            caption: "KI-Suchmaschinen nutzen eine RAG-Pipeline: Abruf traditioneller Signale, Kandidatenauswahl und LLM-Synthese mit Quellenangaben.",
+          },
+          callout: {
+            title: "Quellenangaben-Sichtbarkeit",
+            text: "KI-Suchmaschinen zitieren Quellen in ihren Antworten. Seiten mit strukturierten Daten, E-E-A-T-Signalen und klaren Antworten werden haeufiger als Quelle zitiert als SEO-optimierte Seiten ohne diese Merkmale.",
+          },
         },
         {
           title: "Estructurar contenido de producto para extraccion por IA",
@@ -294,6 +357,15 @@ export const aiSearchOptimization: AcademyTopic = {
             "Anadir schemas FAQPage, HowTo, Review e ItemList en los tipos de pagina relevantes",
           ],
           tip: "Implemente enlaces SameAs en su schema Organization apuntando a sus perfiles oficiales de redes sociales, pagina de Wikipedia y entidad de Wikidata. Esto ayuda a los modelos IA a conectar su sitio web con su grafo de entidad mas amplio.",
+          image: {
+            src: "/images/academy/es/ai-schema-stack.svg",
+            alt: "Schema-Stack fuer KI-Sichtbarkeit: Produkt-, Bewertungs-, FAQ-, HowTo- und Organisations-Schema",
+            caption: "Kombinieren Sie mehrere Schema-Typen fuer maximale KI-Sichtbarkeit. Produkt- und Bewertungs-Schema sind am kritischsten.",
+          },
+          callout: {
+            title: "Schema-Priorisierung",
+            text: "Produkt-Schema mit Preis, Verfuegbarkeit und Bewertungen wird am haeufigsten in KI-Antworten zitiert. Implementieren Sie dieses zuerst, dann FAQ und HowTo fuer informationale Inhalte.",
+          },
         },
         {
           title: "Profundidad de contenido y cobertura tematica",
@@ -338,6 +410,15 @@ export const aiSearchOptimization: AcademyTopic = {
             "Le pipeline RAG combinano il recupero tradizionale con la sintesi del modello linguistico",
             "L'ingresso nel pool di candidati richiede ancora solidi fondamentali SEO tradizionali",
           ],
+          image: {
+            src: "/images/academy/it/ai-search-rag-pipeline.svg",
+            alt: "RAG-Pipeline-Diagramm: Wie KI-Suche von der Nutzeranfrage ueber Abruf und Kandidatenauswahl zur KI-Antwort funktioniert",
+            caption: "KI-Suchmaschinen nutzen eine RAG-Pipeline: Abruf traditioneller Signale, Kandidatenauswahl und LLM-Synthese mit Quellenangaben.",
+          },
+          callout: {
+            title: "Quellenangaben-Sichtbarkeit",
+            text: "KI-Suchmaschinen zitieren Quellen in ihren Antworten. Seiten mit strukturierten Daten, E-E-A-T-Signalen und klaren Antworten werden haeufiger als Quelle zitiert als SEO-optimierte Seiten ohne diese Merkmale.",
+          },
         },
         {
           title: "Strutturare il contenuto prodotto per l'estrazione IA",
@@ -373,6 +454,15 @@ export const aiSearchOptimization: AcademyTopic = {
             "Aggiungere gli schema FAQPage, HowTo, Review e ItemList sui tipi di pagina pertinenti",
           ],
           tip: "Implementate link SameAs nel vostro schema Organization che puntino ai vostri profili social ufficiali, pagina Wikipedia ed entita Wikidata. Questo aiuta i modelli IA a connettere il vostro sito web al vostro grafo di entita piu ampio.",
+          image: {
+            src: "/images/academy/it/ai-schema-stack.svg",
+            alt: "Schema-Stack fuer KI-Sichtbarkeit: Produkt-, Bewertungs-, FAQ-, HowTo- und Organisations-Schema",
+            caption: "Kombinieren Sie mehrere Schema-Typen fuer maximale KI-Sichtbarkeit. Produkt- und Bewertungs-Schema sind am kritischsten.",
+          },
+          callout: {
+            title: "Schema-Priorisierung",
+            text: "Produkt-Schema mit Preis, Verfuegbarkeit und Bewertungen wird am haeufigsten in KI-Antworten zitiert. Implementieren Sie dieses zuerst, dann FAQ und HowTo fuer informationale Inhalte.",
+          },
         },
         {
           title: "Profondita del contenuto e copertura tematica",
@@ -417,6 +507,15 @@ export const aiSearchOptimization: AcademyTopic = {
             "RAG-pipelines combineren traditionele retrieval met taalmodel-synthese",
             "Toetreding tot de kandidatenpool vereist nog steeds sterke traditionele SEO-fundamenten",
           ],
+          image: {
+            src: "/images/academy/nl/ai-search-rag-pipeline.svg",
+            alt: "RAG-Pipeline-Diagramm: Wie KI-Suche von der Nutzeranfrage ueber Abruf und Kandidatenauswahl zur KI-Antwort funktioniert",
+            caption: "KI-Suchmaschinen nutzen eine RAG-Pipeline: Abruf traditioneller Signale, Kandidatenauswahl und LLM-Synthese mit Quellenangaben.",
+          },
+          callout: {
+            title: "Quellenangaben-Sichtbarkeit",
+            text: "KI-Suchmaschinen zitieren Quellen in ihren Antworten. Seiten mit strukturierten Daten, E-E-A-T-Signalen und klaren Antworten werden haeufiger als Quelle zitiert als SEO-optimierte Seiten ohne diese Merkmale.",
+          },
         },
         {
           title: "Productcontent structureren voor AI-extractie",
@@ -452,6 +551,15 @@ export const aiSearchOptimization: AcademyTopic = {
             "FAQPage-, HowTo-, Review- en ItemList-schema toevoegen op relevante paginatypen",
           ],
           tip: "Implementeer SameAs-links in uw Organization-schema die verwijzen naar uw officiele sociale media-profielen, Wikipedia-pagina en Wikidata-entiteit. Dit helpt AI-modellen uw website te verbinden met uw bredere entiteitsgrafiek.",
+          image: {
+            src: "/images/academy/nl/ai-schema-stack.svg",
+            alt: "Schema-Stack fuer KI-Sichtbarkeit: Produkt-, Bewertungs-, FAQ-, HowTo- und Organisations-Schema",
+            caption: "Kombinieren Sie mehrere Schema-Typen fuer maximale KI-Sichtbarkeit. Produkt- und Bewertungs-Schema sind am kritischsten.",
+          },
+          callout: {
+            title: "Schema-Priorisierung",
+            text: "Produkt-Schema mit Preis, Verfuegbarkeit und Bewertungen wird am haeufigsten in KI-Antworten zitiert. Implementieren Sie dieses zuerst, dann FAQ und HowTo fuer informationale Inhalte.",
+          },
         },
         {
           title: "Contentdiepte en thematische dekking",

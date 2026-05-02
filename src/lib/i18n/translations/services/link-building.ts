@@ -5,7 +5,7 @@ export const linkBuildingData: Record<Locale, ServicePageProps> = {
   en: {
     hero: {
       badge: "Link Building",
-      heading: "Profit-Focused Link Building\u200BServices for Ecommerce Brands",
+      heading: "Profit-Focused Link Building Services for Ecommerce Brands",
       subtitle:
         "You don\u2019t need more random backlinks. You need link building that compounds revenue, grows valuation and turns SEO into a predictable profit lever.",
       ctaText: "Book a Link Building Strategy Call",
@@ -215,7 +215,7 @@ export const linkBuildingData: Record<Locale, ServicePageProps> = {
           name: "Fabian van Til",
           role: "Strategy & Innovation",
           bio: "Fabian runs the link building strategy for every client. He has spent the last 8 years doing SEO exclusively for ecommerce - fashion, health, beauty, home goods. He decides which links to pursue and which to skip.",
-          image: "/images/framer/C23VbBxvj2kY5TMoXAJHXWVLaA.webp",
+          image: "/images/framer/fabian-van-til-new.jpeg",
           linkedin: "https://www.linkedin.com/in/fabianvantil/",
         },
         teamMembers: [
@@ -266,7 +266,7 @@ export const linkBuildingData: Record<Locale, ServicePageProps> = {
         {
           question: "How fast will we see results?",
           answer:
-            "It depends on your starting authority, competitiveness, and [technical SEO](/technical-seo). Typically, clients start seeing meaningful movement on priority terms within a few months, with compounding gains as links and content snowball. We\u2019ll set realistic expectations before we start.",
+            "It depends on your starting authority, competitiveness, and [technical SEO](/ecommerce-seo-services). Typically, clients start seeing meaningful movement on priority terms within a few months, with compounding gains as links and content snowball. We\u2019ll set realistic expectations before we start.",
         },
         {
           question: "Do you guarantee specific DR or DA scores?",
@@ -294,7 +294,7 @@ export const linkBuildingData: Record<Locale, ServicePageProps> = {
   de: {
     hero: {
       badge: "Linkaufbau",
-      heading: "Profitorientierter Linkaufbau\u200Bf\u00FCr Ecommerce-Marken",
+      heading: "Profitorientierter Linkaufbau f\u00FCr Ecommerce-Marken",
       subtitle:
         "Sie brauchen nicht mehr zuf\u00E4llige Backlinks. Sie brauchen Linkaufbau, der Ums\u00E4tze steigert, Bewertungen erh\u00F6ht und SEO in einen planbaren Gewinnhebel verwandelt.",
       ctaText: "Linkaufbau-Strategiegespr\u00E4ch buchen",
@@ -504,7 +504,7 @@ export const linkBuildingData: Record<Locale, ServicePageProps> = {
           name: "Fabian van Til",
           role: "Strategie & Innovation",
           bio: "Fabian leitet die strategische Planung aller Linkaufbau-Projekte. Mit über 8 Jahren E-Commerce-SEO-Erfahrung in Mode, Gesundheit, Beauty und Wohnen entwickelt er Strategien, die direkt auf Umsatzziele einzahlen.",
-          image: "/images/framer/C23VbBxvj2kY5TMoXAJHXWVLaA.webp",
+          image: "/images/framer/fabian-van-til-new.jpeg",
           linkedin: "https://www.linkedin.com/in/fabianvantil/",
         },
         teamMembers: [
@@ -555,7 +555,7 @@ export const linkBuildingData: Record<Locale, ServicePageProps> = {
         {
           question: "Wie schnell sehen wir Ergebnisse?",
           answer:
-            "Das h\u00E4ngt von Ihrer bestehenden Autorit\u00E4t, dem Wettbewerb und der [technischen SEO](/technical-seo) ab. Typischerweise sehen Kunden innerhalb weniger Monate bedeutsame Bewegung bei Priorit\u00E4ts-Keywords, mit wachsendem Effekt, wenn Links und Content sich summieren. Wir setzen realistische Erwartungen, bevor wir starten.",
+            "Das h\u00E4ngt von Ihrer bestehenden Autorit\u00E4t, dem Wettbewerb und der [technischen SEO](/ecommerce-seo-services) ab. Typischerweise sehen Kunden innerhalb weniger Monate bedeutsame Bewegung bei Priorit\u00E4ts-Keywords, mit wachsendem Effekt, wenn Links und Content sich summieren. Wir setzen realistische Erwartungen, bevor wir starten.",
         },
         {
           question: "Garantieren Sie bestimmte DR- oder DA-Werte?",
@@ -583,7 +583,7 @@ export const linkBuildingData: Record<Locale, ServicePageProps> = {
   fr: {
     hero: {
       badge: "Link Building",
-      heading: "Link Building orient\u00E9 profit\u200Bpour les marques ecommerce",
+      heading: "Link Building orient\u00E9 profit pour les marques ecommerce",
       subtitle:
         "Vous n\u2019avez pas besoin de backlinks al\u00E9atoires. Vous avez besoin d\u2019un link building qui fait cro\u00EEtre le chiffre d\u2019affaires, augmente la valorisation et transforme le SEO en levier de profit pr\u00E9visible.",
       ctaText: "R\u00E9server un appel strat\u00E9gique link building",
@@ -793,7 +793,7 @@ export const linkBuildingData: Record<Locale, ServicePageProps> = {
           name: "Fabian van Til",
           role: "Stratégie & Innovation",
           bio: "Fabian d\u00e9finit la strat\u00e9gie link building de chaque client. 8+ ans d\u2019exp\u00e9rience en SEO e-commerce. Il con\u00e7oit des strat\u00e9gies de liens align\u00e9es sur les objectifs de chiffre d\u2019affaires.",
-          image: "/images/framer/C23VbBxvj2kY5TMoXAJHXWVLaA.webp",
+          image: "/images/framer/fabian-van-til-new.jpeg",
           linkedin: "https://www.linkedin.com/in/fabianvantil/",
         },
         teamMembers: [
@@ -844,7 +844,7 @@ export const linkBuildingData: Record<Locale, ServicePageProps> = {
         {
           question: "En combien de temps verrons-nous des r\u00E9sultats ?",
           answer:
-            "Cela d\u00E9pend de votre autorit\u00E9 de d\u00E9part, de la concurrence et du [SEO technique](/technical-seo). G\u00E9n\u00E9ralement, les clients voient un mouvement significatif sur les termes prioritaires en quelques mois, avec des gains croissants \u00E0 mesure que les liens et le contenu s\u2019accumulent. Nous fixerons des attentes r\u00E9alistes avant de commencer.",
+            "Cela d\u00E9pend de votre autorit\u00E9 de d\u00E9part, de la concurrence et du [SEO technique](/ecommerce-seo-services). G\u00E9n\u00E9ralement, les clients voient un mouvement significatif sur les termes prioritaires en quelques mois, avec des gains croissants \u00E0 mesure que les liens et le contenu s\u2019accumulent. Nous fixerons des attentes r\u00E9alistes avant de commencer.",
         },
         {
           question: "Garantissez-vous des scores DR ou DA sp\u00E9cifiques ?",
@@ -872,7 +872,7 @@ export const linkBuildingData: Record<Locale, ServicePageProps> = {
   es: {
     hero: {
       badge: "Link Building",
-      heading: "Link Building orientado al beneficio\u200Bpara marcas ecommerce",
+      heading: "Link Building orientado al beneficio para marcas ecommerce",
       subtitle:
         "No necesitas m\u00E1s backlinks aleatorios. Necesitas link building que multiplique ingresos, aumente la valoraci\u00F3n y convierta el SEO en una palanca de beneficio predecible.",
       ctaText: "Reservar llamada de estrategia de link building",
@@ -1082,7 +1082,7 @@ export const linkBuildingData: Record<Locale, ServicePageProps> = {
           name: "Fabian van Til",
           role: "Estrategia e Innovación",
           bio: "Fabian dirige la estrategia de todos los proyectos con clientes. 8+ a\u00f1os de experiencia en SEO ecommerce. Dise\u00f1a estrategias de link building alineadas con objetivos de ingresos.",
-          image: "/images/framer/C23VbBxvj2kY5TMoXAJHXWVLaA.webp",
+          image: "/images/framer/fabian-van-til-new.jpeg",
           linkedin: "https://www.linkedin.com/in/fabianvantil/",
         },
         teamMembers: [
@@ -1133,7 +1133,7 @@ export const linkBuildingData: Record<Locale, ServicePageProps> = {
         {
           question: "\u00BFCu\u00E1n r\u00E1pido veremos resultados?",
           answer:
-            "Depende de tu autoridad actual, la competitividad y el [SEO t\u00E9cnico](/technical-seo). Normalmente, los clientes empiezan a ver movimiento significativo en t\u00E9rminos prioritarios en pocos meses, con ganancias crecientes a medida que los enlaces y el contenido se acumulan. Estableceremos expectativas realistas antes de empezar.",
+            "Depende de tu autoridad actual, la competitividad y el [SEO t\u00E9cnico](/ecommerce-seo-services). Normalmente, los clientes empiezan a ver movimiento significativo en t\u00E9rminos prioritarios en pocos meses, con ganancias crecientes a medida que los enlaces y el contenido se acumulan. Estableceremos expectativas realistas antes de empezar.",
         },
         {
           question: "\u00BFGarantizan puntuaciones espec\u00EDficas de DR o DA?",
@@ -1161,7 +1161,7 @@ export const linkBuildingData: Record<Locale, ServicePageProps> = {
   it: {
     hero: {
       badge: "Link Building",
-      heading: "Link Building orientato al profitto\u200Bper brand ecommerce",
+      heading: "Link Building orientato al profitto per brand ecommerce",
       subtitle:
         "Non hai bisogno di pi\u00F9 backlink casuali. Hai bisogno di link building che moltiplica il fatturato, aumenta la valutazione e trasforma la SEO in una leva di profitto prevedibile.",
       ctaText: "Prenota una call strategica di link building",
@@ -1371,7 +1371,7 @@ export const linkBuildingData: Record<Locale, ServicePageProps> = {
           name: "Fabian van Til",
           role: "Strategia & Innovazione",
           bio: "Fabian definisce la strategia di ogni progetto cliente. 8+ anni di esperienza in SEO e-commerce. Progetta strategie di link building allineate agli obiettivi di fatturato.",
-          image: "/images/framer/C23VbBxvj2kY5TMoXAJHXWVLaA.webp",
+          image: "/images/framer/fabian-van-til-new.jpeg",
           linkedin: "https://www.linkedin.com/in/fabianvantil/",
         },
         teamMembers: [
@@ -1422,7 +1422,7 @@ export const linkBuildingData: Record<Locale, ServicePageProps> = {
         {
           question: "Quanto velocemente vedremo risultati?",
           answer:
-            "Dipende dalla tua autorit\u00E0 di partenza, dalla competitivit\u00E0 e dalla [SEO tecnica](/technical-seo). In genere, i clienti iniziano a vedere movimenti significativi sui termini prioritari entro pochi mesi, con guadagni crescenti man mano che link e contenuti si accumulano. Fisseremo aspettative realistiche prima di iniziare.",
+            "Dipende dalla tua autorit\u00E0 di partenza, dalla competitivit\u00E0 e dalla [SEO tecnica](/ecommerce-seo-services). In genere, i clienti iniziano a vedere movimenti significativi sui termini prioritari entro pochi mesi, con guadagni crescenti man mano che link e contenuti si accumulano. Fisseremo aspettative realistiche prima di iniziare.",
         },
         {
           question: "Garantite punteggi DR o DA specifici?",
@@ -1450,7 +1450,7 @@ export const linkBuildingData: Record<Locale, ServicePageProps> = {
   nl: {
     hero: {
       badge: "Linkbuilding",
-      heading: "Winstgerichte linkbuilding\u200Bvoor ecommerce-merken",
+      heading: "Winstgerichte linkbuilding voor ecommerce-merken",
       subtitle:
         "Je hebt geen willekeurige backlinks nodig. Je hebt linkbuilding nodig die omzet vermenigvuldigt, waardering verhoogt en SEO omzet in een voorspelbare winsthefboom.",
       ctaText: "Boek een linkbuilding-strategiegesprek",
@@ -1660,7 +1660,7 @@ export const linkBuildingData: Record<Locale, ServicePageProps> = {
           name: "Fabian van Til",
           role: "Strategie & Innovatie",
           bio: "Fabian leidt de strategische richting van alle klantprojecten. Met 8+ jaar e-commerce SEO-ervaring ontwerpt hij linkbuilding-strategieën die aansluiten bij omzetdoelen.",
-          image: "/images/framer/C23VbBxvj2kY5TMoXAJHXWVLaA.webp",
+          image: "/images/framer/fabian-van-til-new.jpeg",
           linkedin: "https://www.linkedin.com/in/fabianvantil/",
         },
         teamMembers: [
@@ -1711,7 +1711,7 @@ export const linkBuildingData: Record<Locale, ServicePageProps> = {
         {
           question: "Hoe snel zien we resultaten?",
           answer:
-            "Dat hangt af van je huidige autoriteit, concurrentie en [technische SEO](/technical-seo). Doorgaans zien klanten binnen een paar maanden betekenisvolle beweging op prioriteitstermen, met groeiende winst naarmate links en content zich opstapelen. We stellen realistische verwachtingen v\u00F3\u00F3r we beginnen.",
+            "Dat hangt af van je huidige autoriteit, concurrentie en [technische SEO](/ecommerce-seo-services). Doorgaans zien klanten binnen een paar maanden betekenisvolle beweging op prioriteitstermen, met groeiende winst naarmate links en content zich opstapelen. We stellen realistische verwachtingen v\u00F3\u00F3r we beginnen.",
         },
         {
           question: "Garanderen jullie specifieke DR- of DA-scores?",

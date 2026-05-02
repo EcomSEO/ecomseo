@@ -5,7 +5,7 @@ export const ecommerceSeoServicesData: Record<Locale, ServicePageProps> = {
   en: {
     hero: {
       badge: "All Ecommerce SEO Services",
-      heading: "Every Ecommerce SEO Service You Need,\u200BIn One Place",
+      heading: "Every Ecommerce SEO Service You Need, In One Place",
       subtitle:
         "From technical foundations to authority building - browse every service we offer and find the right fit for your growth goals.",
       ctaText: "Book a Free Strategy Call",
@@ -227,7 +227,7 @@ export const ecommerceSeoServicesData: Record<Locale, ServicePageProps> = {
           name: "Fabian van Til",
           role: "Strategy & Innovation",
           bio: "Fabian owns the SEO strategy for every client. 8 years of ecommerce-only experience across fashion, health, beauty, toys, and electronics. He built the Commerce Growth Framework\u2122 that has driven $12M+ in organic revenue.",
-          image: "/images/framer/C23VbBxvj2kY5TMoXAJHXWVLaA.webp",
+          image: "/images/framer/fabian-van-til-new.jpeg",
           linkedin: "https://www.linkedin.com/in/fabianvantil/",
         },
         teamMembers: [
@@ -236,7 +236,7 @@ export const ecommerceSeoServicesData: Record<Locale, ServicePageProps> = {
             role: "Technical & On-Page SEO",
             bio: "Dimitar handles the technical and on-page SEO. He works on crawl optimization for large catalogs, structured data at scale, Core Web Vitals, and site architecture for stores with 500-100,000+ SKUs.",
             image: "/images/framer/Q3tfuu2ytPAotONsFoP1ouyPZic.png",
-            linkedin: "https://www.linkedin.com/in/dimitar-georgiev-seo/",
+            linkedin: "https://bg.linkedin.com/in/dimitar-georgiev-seo-expert",
           },
           {
             name: "Martinijan Trajkovski",
@@ -265,7 +265,7 @@ export const ecommerceSeoServicesData: Record<Locale, ServicePageProps> = {
         {
           question: "Which service should I start with?",
           answer:
-            "It depends on your current situation. Stores with indexation or speed issues start with technical SEO. Stores with rankings but no conversions need on-page and content work. Stores competing in tough markets need authority building. Read our [ecommerce SEO strategy](/blog/ecommerce-seo-strategy) guide or book a [free SEO audit](/seo-audit) and we'll tell you exactly where to focus first.",
+            "It depends on your current situation. Stores with indexation or speed issues start with technical SEO. Stores with rankings but no conversions need on-page and content work. Stores competing in tough markets need authority building. Read our [ecommerce SEO strategy](/blog/ecommerce-seo-strategy) guide or book a [free SEO audit](/tools/ecommerce-seo-audit) and we'll tell you exactly where to focus first.",
         },
         {
           question: "Can you work alongside my existing team?",
@@ -300,7 +300,7 @@ export const ecommerceSeoServicesData: Record<Locale, ServicePageProps> = {
     hero: {
       badge: "Alle E-Commerce SEO Services",
       heading:
-        "Jeder E-Commerce SEO Service, den Sie brauchen,\u200Ban einem Ort",
+        "Jeder E-Commerce SEO Service, den Sie brauchen, an einem Ort",
       subtitle:
         "Von technischen Grundlagen bis zum Linkaufbau - entdecken Sie alle unsere Services und finden Sie das Richtige für Ihre Wachstumsziele.",
       ctaText: "Kostenloses Strategiegespräch buchen",
@@ -522,7 +522,7 @@ export const ecommerceSeoServicesData: Record<Locale, ServicePageProps> = {
           name: "Fabian van Til",
           role: "Strategie & Innovation",
           bio: "Fabian leitet die strategische Ausrichtung aller Kundenprojekte. Mit 8+ Jahren reiner E-Commerce-SEO-Erfahrung in Mode, Gesundheit, Beauty, Spielzeug und Elektronik hat er das Commerce Growth Framework™ entwickelt, das über $12M an organischem Umsatz generiert hat.",
-          image: "/images/framer/C23VbBxvj2kY5TMoXAJHXWVLaA.webp",
+          image: "/images/framer/fabian-van-til-new.jpeg",
           linkedin: "https://www.linkedin.com/in/fabianvantil/",
         },
         teamMembers: [
@@ -531,7 +531,7 @@ export const ecommerceSeoServicesData: Record<Locale, ServicePageProps> = {
             role: "Technisches & On-Page SEO",
             bio: "Entwickelt die technischen SEO-Grundlagen und On-Page-Optimierungen für E-Commerce-Shops jeder Größe. Spezialisiert auf Crawl-Optimierung großer Kataloge, strukturierte Daten im großen Maßstab und Core Web Vitals.",
             image: "/images/framer/Q3tfuu2ytPAotONsFoP1ouyPZic.png",
-            linkedin: "https://www.linkedin.com/in/dimitar-georgiev-seo/",
+            linkedin: "https://bg.linkedin.com/in/dimitar-georgiev-seo-expert",
           },
           {
             name: "Martinijan Trajkovski",
@@ -560,7 +560,7 @@ export const ecommerceSeoServicesData: Record<Locale, ServicePageProps> = {
         {
           question: "Mit welchem Service soll ich anfangen?",
           answer:
-            "Das hängt von Ihrer aktuellen Situation ab. Shops mit Indexierungs- oder Geschwindigkeitsproblemen beginnen mit technischem SEO. Shops mit Rankings, aber ohne Conversions benötigen OnPage- und Content-Arbeit. Shops in schwierigen Märkten benötigen Autoritätsaufbau. Lesen Sie unseren Leitfaden zur [E-Commerce-SEO-Strategie](/blog/ecommerce-seo-strategy) oder buchen Sie ein [kostenloses SEO-Audit](/seo-audit), und wir sagen Ihnen genau, worauf Sie sich zuerst konzentrieren sollen.",
+            "Das hängt von Ihrer aktuellen Situation ab. Shops mit Indexierungs- oder Geschwindigkeitsproblemen beginnen mit technischem SEO. Shops mit Rankings, aber ohne Conversions benötigen OnPage- und Content-Arbeit. Shops in schwierigen Märkten benötigen Autoritätsaufbau. Lesen Sie unseren Leitfaden zur [E-Commerce-SEO-Strategie](/blog/ecommerce-seo-strategy) oder buchen Sie ein [kostenloses SEO-Audit](/tools/ecommerce-seo-audit), und wir sagen Ihnen genau, worauf Sie sich zuerst konzentrieren sollen.",
         },
         {
           question: "Können Sie neben meinem bestehenden Team arbeiten?",
@@ -595,7 +595,7 @@ export const ecommerceSeoServicesData: Record<Locale, ServicePageProps> = {
     hero: {
       badge: "Tous les Services SEO E-Commerce",
       heading:
-        "Tous les Services SEO E-Commerce dont Vous Avez Besoin,\u200BEn Un Seul Endroit",
+        "Tous les Services SEO E-Commerce dont Vous Avez Besoin, En Un Seul Endroit",
       subtitle:
         "Des fondations techniques à la création d'autorité - parcourez tous nos services et trouvez ce qui correspond à vos objectifs de croissance.",
       ctaText: "Réserver un Appel Stratégique Gratuit",
@@ -817,7 +817,7 @@ export const ecommerceSeoServicesData: Record<Locale, ServicePageProps> = {
           name: "Fabian van Til",
           role: "Stratégie & Innovation",
           bio: "Fabian pilote tous les engagements clients. 8+ ans d'expérience SEO exclusivement e-commerce dans la mode, la santé, la beauté, les jouets et l'électronique. Architecte du Commerce Growth Framework™ ayant généré plus de $12M de revenus organiques.",
-          image: "/images/framer/C23VbBxvj2kY5TMoXAJHXWVLaA.webp",
+          image: "/images/framer/fabian-van-til-new.jpeg",
           linkedin: "https://www.linkedin.com/in/fabianvantil/",
         },
         teamMembers: [
@@ -826,7 +826,7 @@ export const ecommerceSeoServicesData: Record<Locale, ServicePageProps> = {
             role: "SEO technique & On-Page",
             bio: "Conçoit les fondations SEO techniques et on-page pour les boutiques e-commerce de toutes tailles. Spécialisé dans l'optimisation du crawl pour les grands catalogues, les données structurées à grande échelle et les Core Web Vitals.",
             image: "/images/framer/Q3tfuu2ytPAotONsFoP1ouyPZic.png",
-            linkedin: "https://www.linkedin.com/in/dimitar-georgiev-seo/",
+            linkedin: "https://bg.linkedin.com/in/dimitar-georgiev-seo-expert",
           },
           {
             name: "Martinijan Trajkovski",
@@ -855,7 +855,7 @@ export const ecommerceSeoServicesData: Record<Locale, ServicePageProps> = {
         {
           question: "Par quel service commencer ?",
           answer:
-            "Cela dépend de votre situation actuelle. Les boutiques avec des problèmes d'indexation ou de vitesse commencent par le SEO technique. Celles avec des classements mais pas de conversions ont besoin de travail on-page et de contenu. Lisez notre guide de [stratégie SEO e-commerce](/blog/ecommerce-seo-strategy) ou réservez un [audit SEO gratuit](/seo-audit) et nous vous dirons exactement où concentrer vos efforts en premier.",
+            "Cela dépend de votre situation actuelle. Les boutiques avec des problèmes d'indexation ou de vitesse commencent par le SEO technique. Celles avec des classements mais pas de conversions ont besoin de travail on-page et de contenu. Lisez notre guide de [stratégie SEO e-commerce](/blog/ecommerce-seo-strategy) ou réservez un [audit SEO gratuit](/tools/ecommerce-seo-audit) et nous vous dirons exactement où concentrer vos efforts en premier.",
         },
         {
           question: "Pouvez-vous travailler avec mon équipe existante ?",
@@ -890,7 +890,7 @@ export const ecommerceSeoServicesData: Record<Locale, ServicePageProps> = {
     hero: {
       badge: "Todos los Servicios SEO Ecommerce",
       heading:
-        "Todos los Servicios SEO Ecommerce que Necesita,\u200BEn Un Solo Lugar",
+        "Todos los Servicios SEO Ecommerce que Necesita, En Un Solo Lugar",
       subtitle:
         "Desde los fundamentos técnicos hasta la construcción de autoridad - explore todos nuestros servicios y encuentre el adecuado para sus objetivos de crecimiento.",
       ctaText: "Reservar una Llamada Estratégica Gratuita",
@@ -1112,7 +1112,7 @@ export const ecommerceSeoServicesData: Record<Locale, ServicePageProps> = {
           name: "Fabian van Til",
           role: "Estrategia e Innovación",
           bio: "Fabian dirige la estrategia de todos los proyectos. 8+ a\u00f1os de experiencia SEO exclusivamente en ecommerce en moda, salud, belleza, juguetes y electr\u00f3nica. Arquitecto del Commerce Growth Framework\u2122 que ha generado m\u00e1s de $12M en ingresos org\u00e1nicos.",
-          image: "/images/framer/C23VbBxvj2kY5TMoXAJHXWVLaA.webp",
+          image: "/images/framer/fabian-van-til-new.jpeg",
           linkedin: "https://www.linkedin.com/in/fabianvantil/",
         },
         teamMembers: [
@@ -1121,7 +1121,7 @@ export const ecommerceSeoServicesData: Record<Locale, ServicePageProps> = {
             role: "SEO Técnico & On-Page",
             bio: "Diseña las bases técnicas de SEO y on-page para tiendas ecommerce de todos los tamaños. Especializado en optimización de rastreo para catálogos grandes, datos estructurados a escala y Core Web Vitals.",
             image: "/images/framer/Q3tfuu2ytPAotONsFoP1ouyPZic.png",
-            linkedin: "https://www.linkedin.com/in/dimitar-georgiev-seo/",
+            linkedin: "https://bg.linkedin.com/in/dimitar-georgiev-seo-expert",
           },
           {
             name: "Martinijan Trajkovski",
@@ -1150,7 +1150,7 @@ export const ecommerceSeoServicesData: Record<Locale, ServicePageProps> = {
         {
           question: "¿Por qué servicio debería empezar?",
           answer:
-            "Depende de su situación actual. Las tiendas con problemas de indexación o velocidad empiezan con SEO técnico. Las que tienen rankings pero sin conversiones necesitan trabajo on-page y de contenido. Lea nuestra guía de [estrategia SEO e-commerce](/blog/ecommerce-seo-strategy) o reserve una [auditoría SEO gratuita](/seo-audit) y le diremos exactamente dónde enfocarse primero.",
+            "Depende de su situación actual. Las tiendas con problemas de indexación o velocidad empiezan con SEO técnico. Las que tienen rankings pero sin conversiones necesitan trabajo on-page y de contenido. Lea nuestra guía de [estrategia SEO e-commerce](/blog/ecommerce-seo-strategy) o reserve una [auditoría SEO gratuita](/tools/ecommerce-seo-audit) y le diremos exactamente dónde enfocarse primero.",
         },
         {
           question: "¿Pueden trabajar junto a mi equipo existente?",
@@ -1185,7 +1185,7 @@ export const ecommerceSeoServicesData: Record<Locale, ServicePageProps> = {
     hero: {
       badge: "Tutti i Servizi SEO Ecommerce",
       heading:
-        "Tutti i Servizi SEO Ecommerce di cui Hai Bisogno,\u200BIn Un Solo Posto",
+        "Tutti i Servizi SEO Ecommerce di cui Hai Bisogno, In Un Solo Posto",
       subtitle:
         "Dalle fondamenta tecniche alla costruzione di autorità - esplora tutti i nostri servizi e trova quello giusto per i tuoi obiettivi di crescita.",
       ctaText: "Prenota una Chiamata Strategica Gratuita",
@@ -1407,7 +1407,7 @@ export const ecommerceSeoServicesData: Record<Locale, ServicePageProps> = {
           name: "Fabian van Til",
           role: "Strategia e Innovazione",
           bio: "Fabian definisce la strategia di ogni progetto cliente. 8+ anni di esperienza SEO esclusivamente e-commerce nella moda, salute, beauty, giocattoli ed elettronica. Architetto del Commerce Growth Framework\u2122 che ha generato oltre $12M di ricavi organici.",
-          image: "/images/framer/C23VbBxvj2kY5TMoXAJHXWVLaA.webp",
+          image: "/images/framer/fabian-van-til-new.jpeg",
           linkedin: "https://www.linkedin.com/in/fabianvantil/",
         },
         teamMembers: [
@@ -1416,7 +1416,7 @@ export const ecommerceSeoServicesData: Record<Locale, ServicePageProps> = {
             role: "SEO tecnico & On-Page",
             bio: "Dimitar progetta le fondamenta SEO tecniche e on-page per negozi e-commerce di ogni dimensione. Specializzato in ottimizzazione del crawl per cataloghi grandi, dati strutturati su larga scala e Core Web Vitals.",
             image: "/images/framer/Q3tfuu2ytPAotONsFoP1ouyPZic.png",
-            linkedin: "https://www.linkedin.com/in/dimitar-georgiev-seo/",
+            linkedin: "https://bg.linkedin.com/in/dimitar-georgiev-seo-expert",
           },
           {
             name: "Martinijan Trajkovski",
@@ -1445,7 +1445,7 @@ export const ecommerceSeoServicesData: Record<Locale, ServicePageProps> = {
         {
           question: "Da quale servizio dovrei iniziare?",
           answer:
-            "Dipende dalla tua situazione attuale. I negozi con problemi di indicizzazione o velocità iniziano con SEO tecnico. Quelli con ranking ma senza conversioni hanno bisogno di lavoro on-page e di contenuto. Leggi la nostra guida alla [strategia SEO e-commerce](/blog/ecommerce-seo-strategy) o prenota un [audit SEO gratuito](/seo-audit) e ti diremo esattamente dove concentrarti prima.",
+            "Dipende dalla tua situazione attuale. I negozi con problemi di indicizzazione o velocità iniziano con SEO tecnico. Quelli con ranking ma senza conversioni hanno bisogno di lavoro on-page e di contenuto. Leggi la nostra guida alla [strategia SEO e-commerce](/blog/ecommerce-seo-strategy) o prenota un [audit SEO gratuito](/tools/ecommerce-seo-audit) e ti diremo esattamente dove concentrarti prima.",
         },
         {
           question: "Potete lavorare insieme al mio team esistente?",
@@ -1480,7 +1480,7 @@ export const ecommerceSeoServicesData: Record<Locale, ServicePageProps> = {
     hero: {
       badge: "Alle Ecommerce SEO Services",
       heading:
-        "Elke Ecommerce SEO Service die U Nodig Heeft,\u200BOp Één Plek",
+        "Elke Ecommerce SEO Service die U Nodig Heeft, Op Één Plek",
       subtitle:
         "Van technische fundamenten tot gezagsopbouw - blader door al onze services en vind de juiste match voor uw groeidoelstellingen.",
       ctaText: "Gratis Strategiegesprek Boeken",
@@ -1702,7 +1702,7 @@ export const ecommerceSeoServicesData: Record<Locale, ServicePageProps> = {
           name: "Fabian van Til",
           role: "Strategie & Innovatie",
           bio: "Fabian leidt de strategische richting van alle klantprojecten. Met 8+ jaar pure e-commerce SEO-ervaring in mode, gezondheid, beauty, speelgoed en elektronica is hij de architect van het Commerce Growth Framework™ dat meer dan $12M aan organische omzet heeft gegenereerd.",
-          image: "/images/framer/C23VbBxvj2kY5TMoXAJHXWVLaA.webp",
+          image: "/images/framer/fabian-van-til-new.jpeg",
           linkedin: "https://www.linkedin.com/in/fabianvantil/",
         },
         teamMembers: [
@@ -1711,7 +1711,7 @@ export const ecommerceSeoServicesData: Record<Locale, ServicePageProps> = {
             role: "Technisch & On-Page SEO",
             bio: "Dimitar ontwerpt de technische SEO-fundamenten en on-page optimalisaties voor e-commerce winkels van elke omvang. Hij is gespecialiseerd in crawl-optimalisatie voor grote catalogi, gestructureerde data op schaal en Core Web Vitals.",
             image: "/images/framer/Q3tfuu2ytPAotONsFoP1ouyPZic.png",
-            linkedin: "https://www.linkedin.com/in/dimitar-georgiev-seo/",
+            linkedin: "https://bg.linkedin.com/in/dimitar-georgiev-seo-expert",
           },
           {
             name: "Martinijan Trajkovski",
@@ -1740,7 +1740,7 @@ export const ecommerceSeoServicesData: Record<Locale, ServicePageProps> = {
         {
           question: "Met welke service moet ik beginnen?",
           answer:
-            "Dat hangt af van uw huidige situatie. Winkels met indexerings- of snelheidsproblemen beginnen met technische SEO. Winkels met rankings maar zonder conversies hebben on-page en content werk nodig. Lees onze gids over [e-commerce SEO-strategie](/blog/ecommerce-seo-strategy) of boek een [gratis SEO-audit](/seo-audit) en we vertellen u precies waar u eerst op moet focussen.",
+            "Dat hangt af van uw huidige situatie. Winkels met indexerings- of snelheidsproblemen beginnen met technische SEO. Winkels met rankings maar zonder conversies hebben on-page en content werk nodig. Lees onze gids over [e-commerce SEO-strategie](/blog/ecommerce-seo-strategy) of boek een [gratis SEO-audit](/tools/ecommerce-seo-audit) en we vertellen u precies waar u eerst op moet focussen.",
         },
         {
           question: "Kunt u naast mijn bestaande team werken?",

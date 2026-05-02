@@ -23,6 +23,7 @@ interface TeamMember {
     secondary?: { label: string; href: string };
   };
   socials: { platform: string; href: string }[];
+  youtubeVideo?: string;
 }
 
 function PhoneIcon() {
@@ -250,6 +251,33 @@ export default function TeamMemberPage({ member }: { member: TeamMember }) {
             </motion.div>
           </div>
         </section>
+
+        {/* YouTube Video */}
+        {member.youtubeVideo && (
+          <section className="w-full px-5 md:px-16 py-12">
+            <div className="mx-auto max-w-[1000px] w-full">
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.5 }}
+              >
+                <h2 className="text-[20px] md:text-[24px] font-medium text-heading mb-6">
+                  Watch {firstName} in action
+                </h2>
+                <div className="relative w-full aspect-video rounded-2xl overflow-hidden border border-border">
+                  <iframe
+                    src={member.youtubeVideo}
+                    title={`${member.name} - Video`}
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowFullScreen
+                    className="absolute inset-0 w-full h-full"
+                  />
+                </div>
+              </motion.div>
+            </div>
+          </section>
+        )}
 
         {/* Interests / Hobbies */}
         <section className="w-full px-5 md:px-16 py-12">

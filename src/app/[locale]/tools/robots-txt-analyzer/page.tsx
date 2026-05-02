@@ -8,6 +8,11 @@ import type { Locale } from "@/lib/i18n/config";
 import { robotsAnalyzerT } from "@/lib/i18n/translations/seoTools";
 import LocaleLink from "@/components/ui/LocaleLink";
 
+
+import ToolPreviewSection from "@/components/tools/ToolPreviewSection";
+import { getToolPreviewStrings } from "@/lib/tools/previewStrings";export const revalidate = 3600;
+
+
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   return buildPageMetadata(locale as Locale, "/tools/robots-txt-analyzer");
@@ -92,6 +97,15 @@ export default async function RobotsAnalyzerPage({
             </div>
           </div>
         </section>
+
+        {/* Preview: live-demo screenshot of the tool's results */}
+        <ToolPreviewSection
+          src="/images/tools/robots-txt-analyzer-preview.png"
+          imgWidth={1800}
+          imgHeight={1886}
+          url="ecomseo.co/tools/robots-txt-analyzer"
+          strings={getToolPreviewStrings(locale as Locale, t.heading)}
+        />
 
         {/* FAQ */}
         <section className="px-5 md:px-16 py-20 border-t border-border">

@@ -1,6 +1,6 @@
 {
   "/": {
-    "title": "EcomSEO - Agenzia SEO Ecommerce Focalizzata sul Profitto",
+    "title": "EcomSEO | Agenzia SEO Ecommerce",
     "description": "Aiutiamo i brand ecommerce a scalare il fatturato organico con strategie SEO basate sui dati. Specializzati in Shopify, WooCommerce, BigCommerce e altro.",
     "ogTitle": "EcomSEO - Agenzia SEO Ecommerce Focalizzata sul Profitto"
   },
@@ -135,7 +135,7 @@
     "ogTitle": "Fondamentali SEO Parte 2 | Guide EcomSEO"
   },
   "/guides/analytics-tracking": {
-    "title": "Analytics e Tracciamento per SEO Ecommerce | Guide EcomSEO",
+    "title": "Analytics per SEO Ecommerce | Guide EcomSEO",
     "description": "Configura GA4 e Google Search Console per il tuo negozio. Le metriche che contano davvero e come trovare guadagni rapidi dai tuoi dati.",
     "ogTitle": "Analytics e Tracciamento per SEO Ecommerce | Guide EcomSEO"
   },
@@ -195,11 +195,11 @@
     "ogTitle": "Dominazione delle SERP per Ecommerce | Guide EcomSEO"
   },
   "/page": {
-    "title": "Fabian van Til - Agenzia di Ottimizzazione LLM | EcomSEO",
+    "title": "Fabian van Til - Ottimizzazione LLM | EcomSEO",
     "description": "Fabian van Til, fondatore di EcomSEO. Aiutiamo i brand ecommerce a farsi trovare su AI e LLM come ChatGPT.",
     "ogTitle": "Fabian van Til - Agenzia di Ottimizzazione LLM | EcomSEO"
   },
-  "/intent-matching-tool": {
+  "/tools/intent-matching-tool": {
     "title": "Strumento Intent Matching - Analizzatore AI",
     "description": "Analizza l'intento di ricerca per le tue keyword ecommerce. Comprendi cosa cercano i tuoi clienti e ottimizza i tuoi contenuti di conseguenza.",
     "ogTitle": "Strumento Intent Matching - Analizzatore AI"
@@ -305,7 +305,7 @@
     "ogTitle": "Checker Indicizzabilità Gratuito | EcomSEO"
   },
   "/tools/page-type-classifier": {
-    "title": "Classificatore Tipi di Pagina Ecommerce Gratuito | EcomSEO",
+    "title": "Classificatore Pagine Ecommerce | EcomSEO",
     "description": "Classifica automaticamente gli URL come prodotto, categoria, blog, homepage, carrello e altro. Ideale per audit SEO ecommerce.",
     "ogTitle": "Classificatore Tipi di Pagina Gratuito | EcomSEO"
   },

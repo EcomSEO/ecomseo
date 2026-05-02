@@ -151,7 +151,7 @@ export const amazonSeoData: Record<Locale, ServicePageProps> = {
             number: "06",
             title: "Leverage A+ Content for Conversion Lift",
             body: "A+ Content doesn\u2019t directly impact search rankings, but it can boost conversion rates by 3-10%. Higher conversion signals to Amazon\u2019s algorithm that your listing deserves better organic placement.",
-            href: "/academy/on-page-seo-for-ecommerce",
+            href: "/academy/product-page-seo",
             hrefLabel: "On-page optimization guide",
           },
           {
@@ -197,7 +197,7 @@ export const amazonSeoData: Record<Locale, ServicePageProps> = {
           name: "Fabian van Til",
           role: "Strategy & Innovation",
           bio: "Fabian leads Amazon SEO strategy. He has worked across multiple marketplaces for 8+ years, and brings both growth strategy and deep A9 algorithm knowledge to every Amazon engagement.",
-          image: "/images/framer/C23VbBxvj2kY5TMoXAJHXWVLaA.webp",
+          image: "/images/framer/fabian-van-til-new.jpeg",
           linkedin: "https://www.linkedin.com/in/fabianvantil/",
         },
         teamMembers: [
@@ -206,7 +206,7 @@ export const amazonSeoData: Record<Locale, ServicePageProps> = {
             role: "Technical & On-Page SEO",
             bio: "Dimitar builds the data systems and tracking infrastructure for Amazon campaigns. He handles ranking analysis, keyword research automation, on-page listing optimization, and performance monitoring.",
             image: "/images/framer/Q3tfuu2ytPAotONsFoP1ouyPZic.png",
-            linkedin: "https://www.linkedin.com/in/dimitar-georgiev-seo/",
+            linkedin: "https://bg.linkedin.com/in/dimitar-georgiev-seo-expert",
           },
           {
             name: "Martinijan Trajkovski",
@@ -441,7 +441,7 @@ export const amazonSeoData: Record<Locale, ServicePageProps> = {
             number: "06",
             title: "A+-Content f\u00fcr Konversions-Boost nutzen",
             body: "A+-Content beeinflusst die Suchranglisten nicht direkt, kann aber die Konversionsraten um 3-10 % steigern. H\u00f6here Konversion signalisiert dem Algorithmus, dass Ihr Listing bessere organische Platzierung verdient.",
-            href: "/academy/on-page-seo-for-ecommerce",
+            href: "/academy/product-page-seo",
             hrefLabel: "On-Page-Optimierungsleitfaden",
           },
           {
@@ -487,7 +487,7 @@ export const amazonSeoData: Record<Locale, ServicePageProps> = {
           name: "Fabian van Til",
           role: "Strategie & Innovation",
           bio: "Fabian steuert alle Amazon-SEO-Projekte strategisch. Er bringt 8+ Jahre E-Commerce-SEO-Erfahrung \u00fcber mehrere Marktpl\u00e4tze mit und verbindet Wachstumsstrategie mit tiefem Amazon-Algorithmus-Wissen.",
-          image: "/images/framer/C23VbBxvj2kY5TMoXAJHXWVLaA.webp",
+          image: "/images/framer/fabian-van-til-new.jpeg",
           linkedin: "https://www.linkedin.com/in/fabianvantil/",
         },
         teamMembers: [
@@ -496,7 +496,7 @@ export const amazonSeoData: Record<Locale, ServicePageProps> = {
             role: "Technisches & On-Page SEO",
             bio: "Entwickelt die Datensysteme und Tracking-Infrastruktur f\u00fcr Amazon SEO-Kampagnen. Spezialisiert auf Ranking-Analyse, On-Page-Listing-Optimierung, Keyword-Recherche-Automatisierung und Performance-Monitoring.",
             image: "/images/framer/Q3tfuu2ytPAotONsFoP1ouyPZic.png",
-            linkedin: "https://www.linkedin.com/in/dimitar-georgiev-seo/",
+            linkedin: "https://bg.linkedin.com/in/dimitar-georgiev-seo-expert",
           },
           {
             name: "Martinijan Trajkovski",
@@ -731,7 +731,7 @@ export const amazonSeoData: Record<Locale, ServicePageProps> = {
             number: "06",
             title: "Exploitez le contenu A+ pour booster la conversion",
             body: "Le contenu A+ n\u2019impacte pas directement les classements, mais peut augmenter les taux de conversion de 3 \u00e0 10 %. Une meilleure conversion signale \u00e0 l\u2019algorithme que votre fiche m\u00e9rite un meilleur placement organique.",
-            href: "/academy/on-page-seo-for-ecommerce",
+            href: "/academy/product-page-seo",
             hrefLabel: "Guide d\u2019optimisation on-page",
           },
           {
@@ -777,7 +777,7 @@ export const amazonSeoData: Record<Locale, ServicePageProps> = {
           name: "Fabian van Til",
           role: "Strat\u00e9gie & Innovation",
           bio: "Fabian pilote la strat\u00e9gie SEO Amazon de chaque client. 8+ ans d\u2019exp\u00e9rience en SEO e-commerce sur de multiples marketplaces. Il allie strat\u00e9gie de croissance et connaissance approfondie de l\u2019algorithme Amazon.",
-          image: "/images/framer/C23VbBxvj2kY5TMoXAJHXWVLaA.webp",
+          image: "/images/framer/fabian-van-til-new.jpeg",
           linkedin: "https://www.linkedin.com/in/fabianvantil/",
         },
         teamMembers: [
@@ -786,7 +786,7 @@ export const amazonSeoData: Record<Locale, ServicePageProps> = {
             role: "SEO technique & On-Page",
             bio: "Con\u00e7oit les syst\u00e8mes de donn\u00e9es et l\u2019infrastructure de suivi pour les campagnes SEO Amazon. Sp\u00e9cialis\u00e9 dans l\u2019analyse des classements, l\u2019optimisation on-page des fiches, l\u2019automatisation de la recherche de mots-cl\u00e9s et le monitoring de performance.",
             image: "/images/framer/Q3tfuu2ytPAotONsFoP1ouyPZic.png",
-            linkedin: "https://www.linkedin.com/in/dimitar-georgiev-seo/",
+            linkedin: "https://bg.linkedin.com/in/dimitar-georgiev-seo-expert",
           },
           {
             name: "Martinijan Trajkovski",
@@ -1021,7 +1021,7 @@ export const amazonSeoData: Record<Locale, ServicePageProps> = {
             number: "06",
             title: "Aprovecha el contenido A+ para impulsar la conversi\u00f3n",
             body: "El contenido A+ no impacta directamente los rankings, pero puede aumentar las tasas de conversi\u00f3n un 3-10%. Mayor conversi\u00f3n se\u00f1ala al algoritmo que tu listing merece mejor posicionamiento org\u00e1nico.",
-            href: "/academy/on-page-seo-for-ecommerce",
+            href: "/academy/product-page-seo",
             hrefLabel: "Gu\u00eda de optimizaci\u00f3n on-page",
           },
           {
@@ -1067,7 +1067,7 @@ export const amazonSeoData: Record<Locale, ServicePageProps> = {
           name: "Fabian van Til",
           role: "Estrategia e Innovaci\u00f3n",
           bio: "Fabian dirige la estrategia de todos los proyectos de SEO Amazon. 8+ a\u00f1os de experiencia en SEO ecommerce en m\u00faltiples marketplaces. Combina estrategia de crecimiento con conocimiento profundo del algoritmo de Amazon.",
-          image: "/images/framer/C23VbBxvj2kY5TMoXAJHXWVLaA.webp",
+          image: "/images/framer/fabian-van-til-new.jpeg",
           linkedin: "https://www.linkedin.com/in/fabianvantil/",
         },
         teamMembers: [
@@ -1076,7 +1076,7 @@ export const amazonSeoData: Record<Locale, ServicePageProps> = {
             role: "SEO T\u00e9cnico & On-Page",
             bio: "Dise\u00f1a los sistemas de datos y on-page e infraestructura de seguimiento para campa\u00f1as de SEO Amazon. Especializado en an\u00e1lisis de rankings, automatizaci\u00f3n de investigaci\u00f3n de keywords y monitoreo de rendimiento.",
             image: "/images/framer/Q3tfuu2ytPAotONsFoP1ouyPZic.png",
-            linkedin: "https://www.linkedin.com/in/dimitar-georgiev-seo/",
+            linkedin: "https://bg.linkedin.com/in/dimitar-georgiev-seo-expert",
           },
           {
             name: "Martinijan Trajkovski",
@@ -1311,7 +1311,7 @@ export const amazonSeoData: Record<Locale, ServicePageProps> = {
             number: "06",
             title: "Sfrutta i contenuti A+ per il boost di conversione",
             body: "I contenuti A+ non impattano direttamente i posizionamenti, ma possono aumentare i tassi di conversione del 3-10%. Una conversione pi\u00f9 alta segnala all\u2019algoritmo che la tua inserzione merita un miglior posizionamento organico.",
-            href: "/academy/on-page-seo-for-ecommerce",
+            href: "/academy/product-page-seo",
             hrefLabel: "Guida ottimizzazione on-page",
           },
           {
@@ -1357,7 +1357,7 @@ export const amazonSeoData: Record<Locale, ServicePageProps> = {
           name: "Fabian van Til",
           role: "Strategia & Innovazione",
           bio: "Fabian definisce la strategia di ogni progetto SEO Amazon. 8+ anni di esperienza in SEO e-commerce su molteplici marketplace. Unisce strategia di crescita e conoscenza approfondita dell\u2019algoritmo Amazon.",
-          image: "/images/framer/C23VbBxvj2kY5TMoXAJHXWVLaA.webp",
+          image: "/images/framer/fabian-van-til-new.jpeg",
           linkedin: "https://www.linkedin.com/in/fabianvantil/",
         },
         teamMembers: [
@@ -1366,7 +1366,7 @@ export const amazonSeoData: Record<Locale, ServicePageProps> = {
             role: "SEO tecnico & On-Page",
             bio: "Dimitar progetta i sistemi di dati, on-page e l\u2019infrastruttura di tracking per le campagne SEO Amazon. Specializzato in analisi dei posizionamenti, automazione della ricerca keyword e monitoraggio delle performance.",
             image: "/images/framer/Q3tfuu2ytPAotONsFoP1ouyPZic.png",
-            linkedin: "https://www.linkedin.com/in/dimitar-georgiev-seo/",
+            linkedin: "https://bg.linkedin.com/in/dimitar-georgiev-seo-expert",
           },
           {
             name: "Martinijan Trajkovski",
@@ -1601,7 +1601,7 @@ export const amazonSeoData: Record<Locale, ServicePageProps> = {
             number: "06",
             title: "Benut A+-content voor conversieboost",
             body: "A+-content be\u00efnvloedt rankings niet direct, maar kan conversieratio\u2019s met 3-10% verhogen. Hogere conversie signaleert aan het algoritme dat je listing betere organische plaatsing verdient.",
-            href: "/academy/on-page-seo-for-ecommerce",
+            href: "/academy/product-page-seo",
             hrefLabel: "On-page optimalisatie-gids",
           },
           {
@@ -1647,7 +1647,7 @@ export const amazonSeoData: Record<Locale, ServicePageProps> = {
           name: "Fabian van Til",
           role: "Strategie & Innovatie",
           bio: "Fabian leidt de strategische richting van alle Amazon SEO-projecten. Met 8+ jaar e-commerce SEO-ervaring op meerdere marketplaces combineert hij groeistrategie met diepgaande kennis van het Amazon-algoritme.",
-          image: "/images/framer/C23VbBxvj2kY5TMoXAJHXWVLaA.webp",
+          image: "/images/framer/fabian-van-til-new.jpeg",
           linkedin: "https://www.linkedin.com/in/fabianvantil/",
         },
         teamMembers: [
@@ -1656,7 +1656,7 @@ export const amazonSeoData: Record<Locale, ServicePageProps> = {
             role: "Technisch & On-Page SEO",
             bio: "Dimitar ontwerpt de datasystemen en tracking-infrastructuur voor Amazon SEO-campagnes. Hij is gespecialiseerd in ranking-analyse, on-page listing-optimalisatie, automatisering van zoekwoordonderzoek en prestatiemonitoring.",
             image: "/images/framer/Q3tfuu2ytPAotONsFoP1ouyPZic.png",
-            linkedin: "https://www.linkedin.com/in/dimitar-georgiev-seo/",
+            linkedin: "https://bg.linkedin.com/in/dimitar-georgiev-seo-expert",
           },
           {
             name: "Martinijan Trajkovski",

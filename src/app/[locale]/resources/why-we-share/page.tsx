@@ -11,6 +11,9 @@ import { buildPageMetadata } from "@/lib/i18n/metadata";
 import type { Locale } from "@/lib/i18n/config";
 import { whyWeShareT } from "@/lib/i18n/translations/resources/why-we-share";
 
+export const revalidate = 86400;
+
+
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   return buildPageMetadata(locale as Locale, "/resources/why-we-share");
@@ -104,7 +107,7 @@ export default async function WhyWeSharePage({ params }: { params: Promise<{ loc
             <Badge text={t.ecom.badge} />
             <div className="rounded-2xl bg-bg-card border border-border p-8 md:p-12 flex flex-col md:flex-row items-center gap-8 w-full max-w-[900px]">
               <Image
-                src="/images/framer/pLr2VAAJPydel6VZNLZAsJP6k.png"
+                src="/images/framer/fabian-van-til-new.jpeg"
                 alt="Fabian van Til"
                 width={160}
                 height={160}

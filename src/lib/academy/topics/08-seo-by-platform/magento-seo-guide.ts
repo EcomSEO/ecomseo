@@ -28,17 +28,35 @@ export const magentoSeoGuide: AcademyTopic = {
           title: "Managing Layered Navigation and Faceted URLs",
           content:
             "Layered navigation is Magento's term for faceted filtering, which lets customers narrow products by attributes like size, color, price, and brand. While essential for user experience, layered navigation creates a massive crawl budget problem. Every filter combination generates a unique URL, and a catalog with ten attributes of ten values each can produce millions of filterable URL combinations.\n\nThe default Magento behavior appends filter parameters to the URL, creating paths like /shoes.html?color=red&size=10&brand=nike. Google will attempt to crawl all these combinations, consuming crawl budget on pages that add no unique indexable value. For stores with large catalogs, this can prevent Google from efficiently crawling and indexing your actual product and category pages. Effective [crawl budget management](/academy/crawl-budget-management) is essential for Magento stores at scale.\n\nThe most effective approach is to use AJAX-based filtering that does not change the URL at all. Several Magento extensions implement this pattern, loading filtered results dynamically while keeping the URL as /shoes.html. This eliminates the faceted URL problem entirely. If you cannot implement AJAX filtering, add noindex meta robots tags to all filtered pages and block the filter parameters in robots.txt.\n\nHowever, some filter combinations do have SEO value. A page showing all red Nike running shoes might match a valuable search query. For these specific cases, create dedicated landing pages with unique content rather than relying on the filtered navigation URL. A purpose-built landing page at /red-nike-running-shoes.html will always outperform a filtered URL because you can add unique descriptions, internal links, and structured data.\n\nMonitor your Google Search Console coverage report for signs of faceted URL problems. If you see hundreds of thousands of discovered but not indexed URLs, or if your crawl stats show Googlebot requesting filter parameter URLs at high volume, your layered navigation is consuming crawl budget that should go to your product pages.",
+          image: {
+            src: "/images/academy/magento-faceted-url-explosion.svg",
+            alt: "Diagram showing how Magento faceted navigation multiplies URL combinations exponentially across product attributes",
+            caption: "A single category with 4 filterable attributes can generate 5,000+ unique URLs. AJAX filtering eliminates this problem entirely.",
+          },
           items: [
             "Implement AJAX-based filtering to prevent faceted URLs from being generated",
             "Add noindex tags and robots.txt blocks for filter parameter URLs you cannot eliminate",
             "Create dedicated landing pages for high-value filter combinations with unique content",
             "Monitor Search Console coverage for signs of crawl budget waste from faceted URLs",
           ],
+          callout: {
+            title: "Crawl Budget Drain",
+            text: "A catalog with 50 categories and 4 filter attributes of 10 values each can produce 250,000 filterable URLs. Google may spend its entire crawl budget on these low-value pages instead of indexing your actual products.",
+          },
         },
         {
           title: "Magento Page Speed Optimization",
           content:
             "Magento sites historically struggle with page speed, and slow load times directly impact both rankings and conversion rates. A typical unoptimized Magento installation loads product pages in four to eight seconds, far exceeding Google's recommended threshold. Systematic [site speed optimization](/academy/site-speed-optimization) can bring this under two seconds for most pages.\n\nEnable Magento's built-in full-page cache, which is the single highest-impact speed improvement available. For Magento 2, Varnish is the recommended caching layer. Configure Varnish as a reverse proxy in front of your Magento server, and full-page load times will drop dramatically for returning visitors and any page that has been previously cached. Without full-page caching, every request hits the PHP application layer, which is inherently slow for complex Magento pages.\n\nOptimize JavaScript and CSS delivery. Magento loads numerous JavaScript files and CSS stylesheets by default. Enable JS and CSS merging and minification in Stores, Configuration, Developer settings. Consider implementing critical CSS extraction, which inlines the above-the-fold styles and defers the rest. Extensions like MagePack or Defer JS can help reduce render-blocking resources.\n\nImage optimization is essential for product-heavy ecommerce pages. Implement WebP format with JPEG fallback for all product and category images. Use lazy loading for images below the fold so the browser does not download all product grid images simultaneously. Magento 2.4 and later includes native lazy loading support. For earlier versions, add a lazy loading extension or implement it via JavaScript.\n\nConsider using a Content Delivery Network for static assets. Serve images, CSS, and JavaScript from CDN edge servers located geographically close to your customers. Configure Magento to use the CDN URL for all static content under Stores, Configuration, Web, Base URLs for Static View Files. This reduces server load and improves load times for visitors far from your primary hosting location.",
+          image: {
+            src: "/images/academy/magento-speed-layers.svg",
+            alt: "Layered stack of Magento speed optimizations from Varnish caching through CDN deployment",
+            caption: "Apply optimizations in order: Varnish cache has the highest single impact, reducing load from 4-8 seconds to under 2 seconds.",
+          },
+          callout: {
+            title: "Varnish Cache Impact",
+            text: "Without full-page caching, every Magento request hits the PHP application layer. Varnish as a reverse proxy can reduce TTFB from 2-4 seconds to under 100ms for cached pages.",
+          },
           tip: "Test page speed on product pages, category pages, and the homepage separately. Magento category pages with large product grids often have different performance bottlenecks than product detail pages. Your optimization priorities may differ by page type.",
         },
         {
@@ -105,18 +123,36 @@ export const magentoSeoGuide: AcademyTopic = {
           title: "Layered Navigation und facettierte URLs verwalten",
           content:
             "Layered Navigation ist Magentos Begriff fuer facettierte Filterung, die Kunden ermoeglicht, Produkte nach Attributen wie Groesse, Farbe, Preis und Marke einzugrenzen. Obwohl fuer die Benutzererfahrung essentiell, erzeugt Layered Navigation ein massives Crawl-Budget-Problem. Jede Filterkombination generiert eine einzigartige URL, und ein Katalog mit zehn Attributen mit je zehn Werten kann Millionen filterbarer URL-Kombinationen produzieren.\n\nDas Standard-Magento-Verhalten haengt Filterparameter an die URL an und erzeugt Pfade wie /schuhe.html?farbe=rot&groesse=42&marke=nike. Google wird versuchen, alle diese Kombinationen zu crawlen und dabei Crawl-Budget fuer Seiten verbrauchen, die keinen einzigartigen indexierbaren Wert haben. Effektives [Crawl-Budget-Management](/academy/crawl-budget-management) hilft Ihnen, Googles Aufmerksamkeit auf Ihre wertvollsten Seiten zu lenken.\n\nDer effektivste Ansatz ist AJAX-basierte Filterung, die die URL ueberhaupt nicht aendert. Mehrere Magento-Erweiterungen implementieren dieses Muster und laden gefilterte Ergebnisse dynamisch, waehrend die URL als /schuhe.html bestehen bleibt. Falls Sie AJAX-Filterung nicht implementieren koennen, fuegen Sie noindex-Meta-Robots-Tags zu allen gefilterten Seiten hinzu und blockieren Sie die Filterparameter in robots.txt.\n\nEinige Filterkombinationen haben jedoch SEO-Wert. Eine Seite mit allen roten Nike-Laufschuhen koennte zu einer wertvollen Suchanfrage passen. Fuer diese spezifischen Faelle erstellen Sie dedizierte Landing Pages mit einzigartigem Content statt sich auf die gefilterte Navigations-URL zu verlassen.\n\nUeberwachen Sie Ihren Google Search Console-Abdeckungsbericht auf Anzeichen von Problemen mit facettierten URLs. Wenn Sie Hunderttausende entdeckter, aber nicht indexierter URLs sehen, verbraucht Ihre Layered Navigation Crawl-Budget.",
-          items: [
+                    image: {
+            src: "/images/academy/de/magento-faceted-url-explosion.svg",
+            alt: "Magento Facetted-URL-Explosion: Wie Filterkombinationen Tausende von URLs aus einer Kategorie erzeugen",
+            caption: "Eine einzelne Kategorie kann durch Filterkombinationen 1.600+ URLs erzeugen. Blockieren Sie die meisten mit robots/noindex.",
+          },
+items: [
             "Implementieren Sie AJAX-basierte Filterung, um die Generierung facettierter URLs zu verhindern",
             "Fuegen Sie noindex-Tags und robots.txt-Blockierungen fuer nicht eliminierbare Filterparameter-URLs hinzu",
             "Erstellen Sie dedizierte Landing Pages fuer hochwertige Filterkombinationen mit einzigartigem Content",
             "Ueberwachen Sie die Search Console-Abdeckung auf Anzeichen von Crawl-Budget-Verschwendung durch facettierte URLs",
           ],
+          callout: {
+            title: "Index-Aufblaehungs-Risiko",
+            text: "Ein Magento-Shop mit 50 Kategorien und Standardfiltern kann 80.000+ gefilterte URLs generieren. Ohne Kontrolle verschwenden diese Crawl-Budget und verduennen die Autoritaet Ihrer Hauptseiten.",
+          },
         },
         {
           title: "Magento Seitengeschwindigkeits-Optimierung",
           content:
             "Magento-Seiten kaempfen historisch mit der Seitengeschwindigkeit, und langsame Ladezeiten wirken sich direkt auf Rankings und Conversion-Raten aus. Eine typische unoptimierte Magento-Installation laedt Produktseiten in vier bis acht Sekunden. Systematische Optimierung kann dies fuer die meisten Seiten auf unter zwei Sekunden bringen. Weitere Informationen finden Sie in unserem Leitfaden zu [Seitenladezeit-Optimierung](/academy/site-speed-optimization).\n\nAktivieren Sie Magentos integrierten Full-Page-Cache, die wirkungsvollste Einzelverbesserung der Geschwindigkeit. Fuer Magento 2 ist Varnish die empfohlene Caching-Schicht. Konfigurieren Sie Varnish als Reverse Proxy vor Ihrem Magento-Server, und die Ladezeiten ganzer Seiten sinken drastisch.\n\nOptimieren Sie die JavaScript- und CSS-Auslieferung. Magento laedt standardmaessig zahlreiche JavaScript-Dateien und CSS-Stylesheets. Aktivieren Sie JS- und CSS-Zusammenfuehrung und -Minifizierung unter Stores, Konfiguration, Entwickler-Einstellungen. Erwaegen Sie die Implementierung von Critical CSS Extraction.\n\nBildoptimierung ist essentiell fuer produktlastige E-Commerce-Seiten. Implementieren Sie WebP-Format mit JPEG-Fallback fuer alle Produkt- und Kategoriebilder. Verwenden Sie Lazy Loading fuer Bilder unterhalb des sichtbaren Bereichs. Magento 2.4 und spaeter bietet native Lazy-Loading-Unterstuetzung.\n\nErwaegen Sie die Verwendung eines Content Delivery Networks fuer statische Assets. Liefern Sie Bilder, CSS und JavaScript von CDN-Edge-Servern, die geografisch nahe bei Ihren Kunden liegen. Konfigurieren Sie Magento unter Stores, Konfiguration, Web, Basis-URLs fuer statische View-Dateien.",
+          image: {
+            src: "/images/academy/de/magento-speed-layers.svg",
+            alt: "Magento Geschwindigkeitsoptimierungs-Ebenen: Infrastruktur, Anwendung, Frontend und CDN",
+            caption: "Magento-Geschwindigkeit erfordert Optimierung auf allen vier Ebenen. Beginnen Sie mit der Infrastruktur fuer den groessten Einfluss.",
+          },
           tip: "Testen Sie die Seitengeschwindigkeit auf Produktseiten, Kategorieseiten und der Startseite separat. Magento-Kategorieseiten mit grossen Produktrastern haben oft andere Performance-Engpaesse als Produktdetailseiten. Ihre Optimierungsprioritaeten koennen sich je nach Seitentyp unterscheiden.",
+          callout: {
+            title: "Geschwindigkeits-Prioritaet",
+            text: "Varnish-Cache und Redis-Sessions auf der Infrastrukturebene liefern 60-80% der Geschwindigkeitsverbesserungen bei Magento. Frontend-Optimierungen ohne solide Infrastruktur bringen nur marginale Gewinne.",
+          },
         },
         {
           title: "Strukturierte Daten und Rich Results",
@@ -188,12 +224,30 @@ export const magentoSeoGuide: AcademyTopic = {
             "Creez des pages d'atterrissage dediees pour les combinaisons de filtres a haute valeur avec du contenu unique",
             "Surveillez la couverture Search Console pour les signes de gaspillage de budget de crawl",
           ],
+          image: {
+            src: "/images/academy/fr/magento-faceted-url-explosion.svg",
+            alt: "Magento Facetted-URL-Explosion: Wie Filterkombinationen Tausende von URLs aus einer Kategorie erzeugen",
+            caption: "Eine einzelne Kategorie kann durch Filterkombinationen 1.600+ URLs erzeugen. Blockieren Sie die meisten mit robots/noindex.",
+          },
+          callout: {
+            title: "Index-Aufblaehungs-Risiko",
+            text: "Ein Magento-Shop mit 50 Kategorien und Standardfiltern kann 80.000+ gefilterte URLs generieren. Ohne Kontrolle verschwenden diese Crawl-Budget und verduennen die Autoritaet Ihrer Hauptseiten.",
+          },
         },
         {
           title: "Optimisation de la vitesse des pages Magento",
           content:
             "Les sites Magento luttent historiquement avec la vitesse des pages, et les temps de chargement lents impactent directement les classements et les taux de conversion. Une installation Magento non optimisee charge typiquement les pages produit en quatre a huit secondes. L'optimisation systematique peut ramener cela sous deux secondes.\n\nActivez le cache de page complet integre de Magento. Pour Magento 2, Varnish est la couche de cache recommandee. Configurez Varnish comme proxy inverse devant votre serveur Magento.\n\nOptimisez la livraison JavaScript et CSS. Magento charge de nombreux fichiers JavaScript et feuilles de style CSS par defaut. Activez la fusion et la minification JS et CSS dans les parametres Developpeur. Envisagez l'extraction CSS critique.\n\nL'optimisation des images est essentielle pour les pages e-commerce riches en produits. Implementez le format WebP avec fallback JPEG pour toutes les images. Utilisez le chargement paresseux pour les images sous le pli. Magento 2.4 et versions ulterieures incluent le support natif du chargement paresseux.\n\nEnvisagez l'utilisation d'un reseau de diffusion de contenu pour les actifs statiques. Servez images, CSS et JavaScript depuis des serveurs CDN edge geographiquement proches de vos clients. Une [optimisation systématique de la vitesse du site](/academy/site-speed-optimization) peut ramener cela à moins de deux secondes pour la plupart des pages.",
           tip: "Testez la vitesse des pages sur les pages produit, les pages categorie et la page d'accueil separement. Les pages categorie Magento avec de grandes grilles de produits ont souvent des goulots d'etranglement differents des pages de detail produit.",
+          image: {
+            src: "/images/academy/fr/magento-speed-layers.svg",
+            alt: "Magento Geschwindigkeitsoptimierungs-Ebenen: Infrastruktur, Anwendung, Frontend und CDN",
+            caption: "Magento-Geschwindigkeit erfordert Optimierung auf allen vier Ebenen. Beginnen Sie mit der Infrastruktur fuer den groessten Einfluss.",
+          },
+          callout: {
+            title: "Geschwindigkeits-Prioritaet",
+            text: "Varnish-Cache und Redis-Sessions auf der Infrastrukturebene liefern 60-80% der Geschwindigkeitsverbesserungen bei Magento. Frontend-Optimierungen ohne solide Infrastruktur bringen nur marginale Gewinne.",
+          },
         },
         {
           title: "Donnees structurees et resultats enrichis",

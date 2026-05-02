@@ -1,0 +1,24 @@
+<svg viewBox="0 0 680 340" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <text x="340" y="28" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#a78bfa">Ecommerce Keyword Intent Funnel</text>
+  <!-- Funnel layers -->
+  <polygon points="140,55 540,55 500,115 180,115" fill="#a78bfa" opacity="0.18" stroke="#a78bfa" stroke-width="1.5"/>
+  <polygon points="180,125 500,125 460,185 220,185" fill="#60a5fa" opacity="0.18" stroke="#60a5fa" stroke-width="1.5"/>
+  <polygon points="220,195 460,195 420,255 260,255" fill="#f97316" opacity="0.18" stroke="#f97316" stroke-width="1.5"/>
+  <polygon points="260,265 420,265 390,320 290,320" fill="#4ade80" opacity="0.18" stroke="#4ade80" stroke-width="1.5"/>
+  <!-- Labels inside -->
+  <text x="340" y="92" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#a78bfa">Informational</text>
+  <text x="340" y="160" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#60a5fa">Navigational</text>
+  <text x="340" y="230" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#f97316">Commercial</text>
+  <text x="340" y="298" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#4ade80">Transactional</text>
+  <!-- Right-side annotations -->
+  <text x="555" y="88" font-family="Arial,sans-serif" font-size="11" fill="#e2e8f0">"best material for</text>
+  <text x="555" y="101" font-family="Arial,sans-serif" font-size="11" fill="#e2e8f0">winter jackets"</text>
+  <text x="510" y="158" font-family="Arial,sans-serif" font-size="11" fill="#e2e8f0">"Nike store near me"</text>
+  <text x="470" y="228" font-family="Arial,sans-serif" font-size="11" fill="#e2e8f0">"Yeti vs Hydro Flask"</text>
+  <text x="430" y="296" font-family="Arial,sans-serif" font-size="11" fill="#e2e8f0">"buy Yeti Rambler 26oz"</text>
+  <!-- Left-side metrics -->
+  <text x="125" y="88" text-anchor="end" font-family="Arial,sans-serif" font-size="11" fill="#e2e8f0">High volume</text>
+  <text x="125" y="101" text-anchor="end" font-family="Arial,sans-serif" font-size="11" fill="#e2e8f0">Low conversion</text>
+  <text x="125" y="296" text-anchor="end" font-family="Arial,sans-serif" font-size="11" fill="#e2e8f0">Low volume</text>
+  <text x="125" y="309" text-anchor="end" font-family="Arial,sans-serif" font-size="11" fill="#e2e8f0">High conversion</text>
+</svg>

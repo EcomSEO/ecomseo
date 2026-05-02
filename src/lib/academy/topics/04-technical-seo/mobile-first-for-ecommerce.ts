@@ -22,6 +22,15 @@ export const mobileFirstForEcommerce: AcademyTopic = {
             "Check your crawler type in Search Console under Settings > Indexing crawler",
             "Ensure mobile and desktop pages contain identical core content",
           ],
+          image: {
+            src: "/images/academy/mobile-first-indexing-flow.svg",
+            alt: "Side-by-side comparison showing how desktop pages with full content differ from mobile versions with truncated content, and that Google indexes the mobile version",
+            caption: "Google indexes the mobile version of your pages. Content hidden or removed on mobile directly reduces your search visibility.",
+          },
+          callout: {
+            title: "Content Parity Risk",
+            text: "Desktop pages averaging 45+ internal links often drop to 12 on mobile. With mobile-first indexing, those missing 33 links weaken crawl priority for the pages they pointed to.",
+          },
         },
         {
           title: "Responsive Design vs. Separate Mobile Sites",
@@ -33,11 +42,20 @@ export const mobileFirstForEcommerce: AcademyTopic = {
           content:
             "Mobile users are less patient than desktop users, and they are typically on slower connections. A page that loads in 3 seconds on desktop WiFi may take 6 seconds on a 4G mobile connection. Google's research shows 53% of mobile visitors abandon a site that takes longer than 3 seconds to load.\n\nFor ecommerce, the revenue impact is measurable. We tracked a fashion retailer before and after mobile speed optimization. Reducing mobile load time from 5.2 seconds to 2.1 seconds increased mobile conversion rate by 27% and mobile revenue by 34% over 90 days. The speed improvements cost less than one week of their paid advertising budget.\n\nPrioritize these mobile-specific optimizations: compress hero images to under 100 KB, defer all non-critical JavaScript until after the first paint, reduce DOM size to under 1,500 elements on product pages, and eliminate render-blocking CSS. Our [site speed optimization](/academy/site-speed-optimization) guide covers each of these techniques in depth. Test every change specifically on throttled mobile connections, not just desktop WiFi.\n\nUse Chrome DevTools device emulation with network throttling set to \"Fast 3G\" as your baseline test. If your product pages load and become interactive within 3 seconds on Fast 3G, they will perform well for the vast majority of mobile users.",
           tip: "Set up a mobile performance monitoring dashboard using Google Search Console's Core Web Vitals report filtered to mobile. Check it weekly. Mobile CWV scores tend to degrade over time as new apps, scripts, and features are added to the store.",
+          image: {
+            src: "/images/academy/mobile-speed-revenue-impact.svg",
+            alt: "Bar chart showing conversion rate declining from 3.8% at 1 second load time to 0.7% at 6+ seconds, with 53% abandon threshold at 3 seconds",
+            caption: "Mobile conversion rate drops sharply with each additional second of load time. The 3-second threshold is where 53% of visitors abandon.",
+          },
+          callout: {
+            title: "Revenue Impact",
+            text: "Reducing mobile load time from 5.2s to 2.1s increased mobile conversion by 27% and revenue by 34% over 90 days. The optimization cost less than one week of paid advertising budget.",
+          },
         },
         {
           title: "Touch-Friendly Design and SEO Impact",
           content:
-            "Google evaluates mobile usability as part of its page experience signals, and our [technical SEO](/technical-seo) service can help you identify and fix these issues. Pages that fail mobile usability checks receive lower rankings. The most common failures on ecommerce sites are tap targets that are too close together, text that is too small to read without zooming, and content wider than the screen.\n\nTap targets (buttons, links, form fields) must be at least 48x48 CSS pixels with 8 pixels of spacing between them. On product pages, this means your \"Add to Cart\" button, size selectors, and color swatches all need adequate spacing. Dense product grids with tiny tap targets frustrate mobile users and trigger Google's mobile usability warnings.\n\nFont sizes below 16px on mobile force users to pinch-zoom, which Google flags as a usability issue. Set your base font size to 16px minimum and scale headings proportionally. Product descriptions, prices, and reviews should all be readable without any user intervention.\n\nAvoid horizontal scrolling entirely. If any element extends beyond the mobile viewport width, Google marks the page as failing mobile usability. Common offenders include wide product comparison tables, oversized images without max-width constraints, and desktop-width iframes for video embeds or size guides.",
+            "Google evaluates mobile usability as part of its page experience signals, and our [technical SEO](/ecommerce-seo-services) service can help you identify and fix these issues. Pages that fail mobile usability checks receive lower rankings. The most common failures on ecommerce sites are tap targets that are too close together, text that is too small to read without zooming, and content wider than the screen.\n\nTap targets (buttons, links, form fields) must be at least 48x48 CSS pixels with 8 pixels of spacing between them. On product pages, this means your \"Add to Cart\" button, size selectors, and color swatches all need adequate spacing. Dense product grids with tiny tap targets frustrate mobile users and trigger Google's mobile usability warnings.\n\nFont sizes below 16px on mobile force users to pinch-zoom, which Google flags as a usability issue. Set your base font size to 16px minimum and scale headings proportionally. Product descriptions, prices, and reviews should all be readable without any user intervention.\n\nAvoid horizontal scrolling entirely. If any element extends beyond the mobile viewport width, Google marks the page as failing mobile usability. Common offenders include wide product comparison tables, oversized images without max-width constraints, and desktop-width iframes for video embeds or size guides.",
           items: [
             "Minimum tap target size: 48x48 CSS pixels with 8px spacing",
             "Base font size: 16px minimum on mobile",
@@ -74,6 +92,15 @@ export const mobileFirstForEcommerce: AcademyTopic = {
             "Überprüfen Sie Ihren Crawler-Typ in der Search Console unter Einstellungen > Indexierungscrawler",
             "Stellen Sie sicher, dass mobile und Desktop-Seiten identische Kerninhalte enthalten",
           ],
+          image: {
+            src: "/images/academy/de/mobile-first-indexing-flow.svg",
+            alt: "Vergleich der zeigt wie Desktop-Seiten mit vollstaendigem Inhalt sich von mobilen Versionen mit gekuerztem Inhalt unterscheiden und dass Google die mobile Version indexiert",
+            caption: "Google indexiert die mobile Version Ihrer Seiten. Auf Mobilgeraeten versteckter oder entfernter Inhalt verringert direkt Ihre Suchsichtbarkeit.",
+          },
+          callout: {
+            title: "Inhaltsparitaets-Risiko",
+            text: "Desktop-Seiten mit durchschnittlich ueber 45 internen Links fallen auf Mobilgeraeten oft auf 12. Bei Mobile-First-Indexierung schwaecht das Fehlen dieser 33 Links die Crawl-Prioritaet der verlinkten Seiten.",
+          },
         },
         {
           title: "Responsive Design vs. separate mobile Websites",
@@ -89,13 +116,22 @@ export const mobileFirstForEcommerce: AcademyTopic = {
         {
           title: "Touch-freundliches Design und SEO-Auswirkungen",
           content:
-            "Google bewertet die mobile Benutzerfreundlichkeit als Teil seiner Seitenerfahrungssignale. Seiten, die mobile Usability-Checks nicht bestehen, erhalten niedrigere Rankings. Die häufigsten Fehler auf Ecommerce-Seiten sind zu eng beieinanderliegende Tippziele, zu kleiner Text zum Lesen ohne Zoomen und Inhalte, die breiter als der Bildschirm sind. Weitere Informationen finden Sie in unserem Leitfaden zu [technische SEO](/technical-seo).\n\nTippziele (Buttons, Links, Formularfelder) müssen mindestens 48x48 CSS-Pixel groß sein mit 8 Pixeln Abstand dazwischen. Auf Produktseiten bedeutet dies, dass Ihr \"In den Warenkorb\"-Button, Größenauswahl und Farbfelder alle ausreichend Abstand benötigen. Dichte Produktraster mit winzigen Tippzielen frustrieren mobile Nutzer und lösen Googles Mobile-Usability-Warnungen aus.\n\nSchriftgrößen unter 16px auf Mobilgeräten zwingen Nutzer zum Pinch-Zoom, was Google als Usability-Problem kennzeichnet. Setzen Sie Ihre Grundschriftgröße auf mindestens 16px und skalieren Sie Überschriften proportional. Produktbeschreibungen, Preise und Bewertungen sollten alle ohne Nutzereingriff lesbar sein.\n\nVermeiden Sie horizontales Scrollen vollständig. Wenn ein Element über die mobile Viewport-Breite hinausragt, markiert Google die Seite als nicht mobiltauglich. Häufige Verursacher sind breite Produktvergleichstabellen, übergroße Bilder ohne max-width-Einschränkungen und Desktop-breite iframes für Video-Embeds oder Größentabellen.",
+            "Google bewertet die mobile Benutzerfreundlichkeit als Teil seiner Seitenerfahrungssignale. Seiten, die mobile Usability-Checks nicht bestehen, erhalten niedrigere Rankings. Die häufigsten Fehler auf Ecommerce-Seiten sind zu eng beieinanderliegende Tippziele, zu kleiner Text zum Lesen ohne Zoomen und Inhalte, die breiter als der Bildschirm sind. Weitere Informationen finden Sie in unserem Leitfaden zu [technische SEO](/ecommerce-seo-services).\n\nTippziele (Buttons, Links, Formularfelder) müssen mindestens 48x48 CSS-Pixel groß sein mit 8 Pixeln Abstand dazwischen. Auf Produktseiten bedeutet dies, dass Ihr \"In den Warenkorb\"-Button, Größenauswahl und Farbfelder alle ausreichend Abstand benötigen. Dichte Produktraster mit winzigen Tippzielen frustrieren mobile Nutzer und lösen Googles Mobile-Usability-Warnungen aus.\n\nSchriftgrößen unter 16px auf Mobilgeräten zwingen Nutzer zum Pinch-Zoom, was Google als Usability-Problem kennzeichnet. Setzen Sie Ihre Grundschriftgröße auf mindestens 16px und skalieren Sie Überschriften proportional. Produktbeschreibungen, Preise und Bewertungen sollten alle ohne Nutzereingriff lesbar sein.\n\nVermeiden Sie horizontales Scrollen vollständig. Wenn ein Element über die mobile Viewport-Breite hinausragt, markiert Google die Seite als nicht mobiltauglich. Häufige Verursacher sind breite Produktvergleichstabellen, übergroße Bilder ohne max-width-Einschränkungen und Desktop-breite iframes für Video-Embeds oder Größentabellen.",
           items: [
             "Minimale Tippzielgröße: 48x48 CSS-Pixel mit 8px Abstand",
             "Grundschriftgröße: mindestens 16px auf Mobilgeräten",
             "Kein horizontales Scrollen bei keinem Seitenelement",
             "Testen Sie mit Googles Mobile-Friendly-Test-Tool und dem Mobile-Usability-Bericht der Search Console",
           ],
+          image: {
+            src: "/images/academy/de/mobile-speed-revenue-impact.svg",
+            alt: "Balkendiagramm das den Rueckgang der Konversionsrate von 3,8% bei 1 Sekunde Ladezeit auf 0,7% bei 6+ Sekunden zeigt mit 53% Abbruchschwelle bei 3 Sekunden",
+            caption: "Die mobile Konversionsrate sinkt mit jeder zusaetzlichen Sekunde Ladezeit stark. Die 3-Sekunden-Schwelle ist der Punkt an dem 53% der Besucher abspringen.",
+          },
+          callout: {
+            title: "Umsatzauswirkung",
+            text: "Die Reduzierung der mobilen Ladezeit von 5,2s auf 2,1s steigerte die mobile Konversion um 27% und den Umsatz um 34% ueber 90 Tage. Die Optimierung kostete weniger als eine Woche bezahltes Werbebudget.",
+          },
         },
         {
           title: "Mobile Navigation und interne Verlinkung",
@@ -126,6 +162,15 @@ export const mobileFirstForEcommerce: AcademyTopic = {
             "Vérifiez votre type de robot dans la Search Console sous Paramètres > Robot d'indexation",
             "Assurez-vous que les pages mobile et desktop contiennent un contenu principal identique",
           ],
+          image: {
+            src: "/images/academy/fr/mobile-first-indexing-flow.svg",
+            alt: "Vergleich der zeigt wie Desktop-Seiten mit vollstaendigem Inhalt sich von mobilen Versionen mit gekuerztem Inhalt unterscheiden und dass Google die mobile Version indexiert",
+            caption: "Google indexiert die mobile Version Ihrer Seiten. Auf Mobilgeraeten versteckter oder entfernter Inhalt verringert direkt Ihre Suchsichtbarkeit.",
+          },
+          callout: {
+            title: "Inhaltsparitaets-Risiko",
+            text: "Desktop-Seiten mit durchschnittlich ueber 45 internen Links fallen auf Mobilgeraeten oft auf 12. Bei Mobile-First-Indexierung schwaecht das Fehlen dieser 33 Links die Crawl-Prioritaet der verlinkten Seiten.",
+          },
         },
         {
           title: "Design responsive vs. sites mobiles séparés",
@@ -141,13 +186,22 @@ export const mobileFirstForEcommerce: AcademyTopic = {
         {
           title: "Design tactile et impact SEO",
           content:
-            "Google évalue l'ergonomie mobile dans le cadre de ses signaux d'expérience de page. Les pages qui échouent aux vérifications d'ergonomie mobile reçoivent des classements plus bas. Les échecs les plus courants sur les sites e-commerce sont des zones tactiles trop proches les unes des autres, du texte trop petit à lire sans zoom et du contenu plus large que l'écran.\n\nLes zones tactiles (boutons, liens, champs de formulaire) doivent mesurer au moins 48x48 pixels CSS avec 8 pixels d'espacement entre elles. Sur les pages produit, cela signifie que votre bouton \"Ajouter au panier\", les sélecteurs de taille et les échantillons de couleur nécessitent tous un espacement adéquat. Les grilles de produits denses avec de minuscules zones tactiles frustrent les utilisateurs mobiles et déclenchent les avertissements d'ergonomie mobile de Google.\n\nLes tailles de police inférieures à 16px sur mobile forcent les utilisateurs à zoomer avec les doigts, ce que Google signale comme un problème d'ergonomie. Définissez votre taille de police de base à 16px minimum et adaptez les titres proportionnellement. Les descriptions produits, prix et avis doivent tous être lisibles sans aucune intervention de l'utilisateur.\n\nÉvitez entièrement le défilement horizontal. Si un élément dépasse la largeur du viewport mobile, Google marque la page comme échouant à l'ergonomie mobile. Les coupables courants incluent les tableaux de comparaison de produits larges, les images surdimensionnées sans contraintes max-width et les iframes en largeur desktop pour les intégrations vidéo ou les guides de tailles. Google évalue la convivialité mobile dans le cadre de ses signaux d'expérience de page, et notre service de [SEO technique](/technical-seo) peut vous aider à identifier et corriger ces problèmes.",
+            "Google évalue l'ergonomie mobile dans le cadre de ses signaux d'expérience de page. Les pages qui échouent aux vérifications d'ergonomie mobile reçoivent des classements plus bas. Les échecs les plus courants sur les sites e-commerce sont des zones tactiles trop proches les unes des autres, du texte trop petit à lire sans zoom et du contenu plus large que l'écran.\n\nLes zones tactiles (boutons, liens, champs de formulaire) doivent mesurer au moins 48x48 pixels CSS avec 8 pixels d'espacement entre elles. Sur les pages produit, cela signifie que votre bouton \"Ajouter au panier\", les sélecteurs de taille et les échantillons de couleur nécessitent tous un espacement adéquat. Les grilles de produits denses avec de minuscules zones tactiles frustrent les utilisateurs mobiles et déclenchent les avertissements d'ergonomie mobile de Google.\n\nLes tailles de police inférieures à 16px sur mobile forcent les utilisateurs à zoomer avec les doigts, ce que Google signale comme un problème d'ergonomie. Définissez votre taille de police de base à 16px minimum et adaptez les titres proportionnellement. Les descriptions produits, prix et avis doivent tous être lisibles sans aucune intervention de l'utilisateur.\n\nÉvitez entièrement le défilement horizontal. Si un élément dépasse la largeur du viewport mobile, Google marque la page comme échouant à l'ergonomie mobile. Les coupables courants incluent les tableaux de comparaison de produits larges, les images surdimensionnées sans contraintes max-width et les iframes en largeur desktop pour les intégrations vidéo ou les guides de tailles. Google évalue la convivialité mobile dans le cadre de ses signaux d'expérience de page, et notre service de [SEO technique](/ecommerce-seo-services) peut vous aider à identifier et corriger ces problèmes.",
           items: [
             "Taille minimale de zone tactile : 48x48 pixels CSS avec 8px d'espacement",
             "Taille de police de base : 16px minimum sur mobile",
             "Aucun défilement horizontal sur aucun élément de page",
             "Testez avec l'outil de test Mobile-Friendly de Google et le rapport d'ergonomie mobile de la Search Console",
           ],
+          image: {
+            src: "/images/academy/fr/mobile-speed-revenue-impact.svg",
+            alt: "Balkendiagramm das den Rueckgang der Konversionsrate von 3,8% bei 1 Sekunde Ladezeit auf 0,7% bei 6+ Sekunden zeigt mit 53% Abbruchschwelle bei 3 Sekunden",
+            caption: "Die mobile Konversionsrate sinkt mit jeder zusaetzlichen Sekunde Ladezeit stark. Die 3-Sekunden-Schwelle ist der Punkt an dem 53% der Besucher abspringen.",
+          },
+          callout: {
+            title: "Umsatzauswirkung",
+            text: "Die Reduzierung der mobilen Ladezeit von 5,2s auf 2,1s steigerte die mobile Konversion um 27% und den Umsatz um 34% ueber 90 Tage. Die Optimierung kostete weniger als eine Woche bezahltes Werbebudget.",
+          },
         },
         {
           title: "Navigation mobile et liens internes",
@@ -178,6 +232,15 @@ export const mobileFirstForEcommerce: AcademyTopic = {
             "Verifica tu tipo de rastreador en Search Console bajo Configuración > Rastreador de indexación",
             "Asegúrate de que las páginas móvil y escritorio contengan contenido principal idéntico",
           ],
+          image: {
+            src: "/images/academy/es/mobile-first-indexing-flow.svg",
+            alt: "Vergleich der zeigt wie Desktop-Seiten mit vollstaendigem Inhalt sich von mobilen Versionen mit gekuerztem Inhalt unterscheiden und dass Google die mobile Version indexiert",
+            caption: "Google indexiert die mobile Version Ihrer Seiten. Auf Mobilgeraeten versteckter oder entfernter Inhalt verringert direkt Ihre Suchsichtbarkeit.",
+          },
+          callout: {
+            title: "Inhaltsparitaets-Risiko",
+            text: "Desktop-Seiten mit durchschnittlich ueber 45 internen Links fallen auf Mobilgeraeten oft auf 12. Bei Mobile-First-Indexierung schwaecht das Fehlen dieser 33 Links die Crawl-Prioritaet der verlinkten Seiten.",
+          },
         },
         {
           title: "Diseño responsive vs. sitios móviles separados",
@@ -193,13 +256,22 @@ export const mobileFirstForEcommerce: AcademyTopic = {
         {
           title: "Diseño táctil e impacto en SEO",
           content:
-            "Google evalúa la usabilidad móvil como parte de sus señales de experiencia de página. Las páginas que no pasan las verificaciones de usabilidad móvil reciben rankings más bajos. Los fallos más comunes en sitios de ecommerce son objetivos táctiles demasiado cercanos entre sí, texto demasiado pequeño para leer sin zoom y contenido más ancho que la pantalla.\n\nLos objetivos táctiles (botones, enlaces, campos de formulario) deben medir al menos 48x48 píxeles CSS con 8 píxeles de espacio entre ellos. En las páginas de producto, esto significa que tu botón \"Añadir al carrito\", los selectores de talla y las muestras de color necesitan espacio adecuado. Las cuadrículas de productos densas con objetivos táctiles diminutos frustran a los usuarios móviles y activan las advertencias de usabilidad móvil de Google.\n\nTamaños de fuente por debajo de 16px en móvil obligan a los usuarios a hacer zoom de pellizco, lo que Google señala como problema de usabilidad. Configura tu tamaño de fuente base a 16px mínimo y escala los encabezados proporcionalmente. Las descripciones de producto, precios y reseñas deben ser legibles sin ninguna intervención del usuario.\n\nEvita el desplazamiento horizontal por completo. Si algún elemento se extiende más allá del ancho del viewport móvil, Google marca la página como no apta para móviles. Los infractores comunes incluyen tablas de comparación de productos anchas, imágenes sobredimensionadas sin restricciones de max-width e iframes de ancho de escritorio para incrustaciones de video o guías de tallas. Google evalua la usabilidad movil como parte de sus senales de experiencia de pagina, y nuestro servicio de [SEO tecnico](/technical-seo) puede ayudarte a identificar y corregir estos problemas.",
+            "Google evalúa la usabilidad móvil como parte de sus señales de experiencia de página. Las páginas que no pasan las verificaciones de usabilidad móvil reciben rankings más bajos. Los fallos más comunes en sitios de ecommerce son objetivos táctiles demasiado cercanos entre sí, texto demasiado pequeño para leer sin zoom y contenido más ancho que la pantalla.\n\nLos objetivos táctiles (botones, enlaces, campos de formulario) deben medir al menos 48x48 píxeles CSS con 8 píxeles de espacio entre ellos. En las páginas de producto, esto significa que tu botón \"Añadir al carrito\", los selectores de talla y las muestras de color necesitan espacio adecuado. Las cuadrículas de productos densas con objetivos táctiles diminutos frustran a los usuarios móviles y activan las advertencias de usabilidad móvil de Google.\n\nTamaños de fuente por debajo de 16px en móvil obligan a los usuarios a hacer zoom de pellizco, lo que Google señala como problema de usabilidad. Configura tu tamaño de fuente base a 16px mínimo y escala los encabezados proporcionalmente. Las descripciones de producto, precios y reseñas deben ser legibles sin ninguna intervención del usuario.\n\nEvita el desplazamiento horizontal por completo. Si algún elemento se extiende más allá del ancho del viewport móvil, Google marca la página como no apta para móviles. Los infractores comunes incluyen tablas de comparación de productos anchas, imágenes sobredimensionadas sin restricciones de max-width e iframes de ancho de escritorio para incrustaciones de video o guías de tallas. Google evalua la usabilidad movil como parte de sus senales de experiencia de pagina, y nuestro servicio de [SEO tecnico](/ecommerce-seo-services) puede ayudarte a identificar y corregir estos problemas.",
           items: [
             "Tamaño mínimo de objetivo táctil: 48x48 píxeles CSS con 8px de espacio",
             "Tamaño de fuente base: 16px mínimo en móvil",
             "Sin desplazamiento horizontal en ningún elemento de página",
             "Prueba con la herramienta Mobile-Friendly Test de Google y el informe de usabilidad móvil de Search Console",
           ],
+          image: {
+            src: "/images/academy/es/mobile-speed-revenue-impact.svg",
+            alt: "Balkendiagramm das den Rueckgang der Konversionsrate von 3,8% bei 1 Sekunde Ladezeit auf 0,7% bei 6+ Sekunden zeigt mit 53% Abbruchschwelle bei 3 Sekunden",
+            caption: "Die mobile Konversionsrate sinkt mit jeder zusaetzlichen Sekunde Ladezeit stark. Die 3-Sekunden-Schwelle ist der Punkt an dem 53% der Besucher abspringen.",
+          },
+          callout: {
+            title: "Umsatzauswirkung",
+            text: "Die Reduzierung der mobilen Ladezeit von 5,2s auf 2,1s steigerte die mobile Konversion um 27% und den Umsatz um 34% ueber 90 Tage. Die Optimierung kostete weniger als eine Woche bezahltes Werbebudget.",
+          },
         },
         {
           title: "Navegación móvil y enlaces internos",
@@ -230,6 +302,15 @@ export const mobileFirstForEcommerce: AcademyTopic = {
             "Controlla il tipo di crawler nella Search Console sotto Impostazioni > Crawler di indicizzazione",
             "Assicurati che le pagine mobile e desktop contengano contenuto principale identico",
           ],
+          image: {
+            src: "/images/academy/it/mobile-first-indexing-flow.svg",
+            alt: "Vergleich der zeigt wie Desktop-Seiten mit vollstaendigem Inhalt sich von mobilen Versionen mit gekuerztem Inhalt unterscheiden und dass Google die mobile Version indexiert",
+            caption: "Google indexiert die mobile Version Ihrer Seiten. Auf Mobilgeraeten versteckter oder entfernter Inhalt verringert direkt Ihre Suchsichtbarkeit.",
+          },
+          callout: {
+            title: "Inhaltsparitaets-Risiko",
+            text: "Desktop-Seiten mit durchschnittlich ueber 45 internen Links fallen auf Mobilgeraeten oft auf 12. Bei Mobile-First-Indexierung schwaecht das Fehlen dieser 33 Links die Crawl-Prioritaet der verlinkten Seiten.",
+          },
         },
         {
           title: "Design responsive vs. siti mobili separati",
@@ -245,13 +326,22 @@ export const mobileFirstForEcommerce: AcademyTopic = {
         {
           title: "Design touch-friendly e impatto SEO",
           content:
-            "Google valuta l'usabilità mobile come parte dei suoi segnali di esperienza della pagina. Le pagine che non superano i controlli di usabilità mobile ricevono posizionamenti più bassi. I fallimenti più comuni sui siti ecommerce sono target tattili troppo vicini tra loro, testo troppo piccolo da leggere senza zoom e contenuto più largo dello schermo. Approfondisci con la nostra guida sulla [SEO tecnica](/technical-seo).\n\nI target tattili (pulsanti, link, campi modulo) devono essere almeno 48x48 pixel CSS con 8 pixel di spaziatura tra loro. Sulle pagine prodotto, questo significa che il pulsante \"Aggiungi al carrello\", i selettori di taglia e i campioni colore necessitano tutti di spaziatura adeguata. Griglie di prodotti dense con target tattili minuscoli frustrano gli utenti mobili e attivano gli avvisi di usabilità mobile di Google.\n\nDimensioni dei caratteri sotto i 16px su mobile costringono gli utenti a zoomare con le dita, cosa che Google segnala come problema di usabilità. Imposta la dimensione del carattere base a 16px minimo e scala i titoli proporzionalmente. Descrizioni prodotto, prezzi e recensioni devono essere tutti leggibili senza alcun intervento dell'utente.\n\nEvita completamente lo scorrimento orizzontale. Se un elemento si estende oltre la larghezza del viewport mobile, Google segna la pagina come non superante l'usabilità mobile. I colpevoli comuni includono tabelle di confronto prodotti larghe, immagini sovradimensionate senza vincoli di max-width e iframe a larghezza desktop per embed video o guide alle taglie.",
+            "Google valuta l'usabilità mobile come parte dei suoi segnali di esperienza della pagina. Le pagine che non superano i controlli di usabilità mobile ricevono posizionamenti più bassi. I fallimenti più comuni sui siti ecommerce sono target tattili troppo vicini tra loro, testo troppo piccolo da leggere senza zoom e contenuto più largo dello schermo. Approfondisci con la nostra guida sulla [SEO tecnica](/ecommerce-seo-services).\n\nI target tattili (pulsanti, link, campi modulo) devono essere almeno 48x48 pixel CSS con 8 pixel di spaziatura tra loro. Sulle pagine prodotto, questo significa che il pulsante \"Aggiungi al carrello\", i selettori di taglia e i campioni colore necessitano tutti di spaziatura adeguata. Griglie di prodotti dense con target tattili minuscoli frustrano gli utenti mobili e attivano gli avvisi di usabilità mobile di Google.\n\nDimensioni dei caratteri sotto i 16px su mobile costringono gli utenti a zoomare con le dita, cosa che Google segnala come problema di usabilità. Imposta la dimensione del carattere base a 16px minimo e scala i titoli proporzionalmente. Descrizioni prodotto, prezzi e recensioni devono essere tutti leggibili senza alcun intervento dell'utente.\n\nEvita completamente lo scorrimento orizzontale. Se un elemento si estende oltre la larghezza del viewport mobile, Google segna la pagina come non superante l'usabilità mobile. I colpevoli comuni includono tabelle di confronto prodotti larghe, immagini sovradimensionate senza vincoli di max-width e iframe a larghezza desktop per embed video o guide alle taglie.",
           items: [
             "Dimensione minima target tattile: 48x48 pixel CSS con 8px di spaziatura",
             "Dimensione carattere base: 16px minimo su mobile",
             "Nessuno scorrimento orizzontale su nessun elemento della pagina",
             "Testa con lo strumento Mobile-Friendly Test di Google e il report usabilità mobile della Search Console",
           ],
+          image: {
+            src: "/images/academy/it/mobile-speed-revenue-impact.svg",
+            alt: "Balkendiagramm das den Rueckgang der Konversionsrate von 3,8% bei 1 Sekunde Ladezeit auf 0,7% bei 6+ Sekunden zeigt mit 53% Abbruchschwelle bei 3 Sekunden",
+            caption: "Die mobile Konversionsrate sinkt mit jeder zusaetzlichen Sekunde Ladezeit stark. Die 3-Sekunden-Schwelle ist der Punkt an dem 53% der Besucher abspringen.",
+          },
+          callout: {
+            title: "Umsatzauswirkung",
+            text: "Die Reduzierung der mobilen Ladezeit von 5,2s auf 2,1s steigerte die mobile Konversion um 27% und den Umsatz um 34% ueber 90 Tage. Die Optimierung kostete weniger als eine Woche bezahltes Werbebudget.",
+          },
         },
         {
           title: "Navigazione mobile e link interni",
@@ -282,6 +372,15 @@ export const mobileFirstForEcommerce: AcademyTopic = {
             "Controleer je crawlertype in Search Console onder Instellingen > Indexeringscrawler",
             "Zorg ervoor dat mobiele en desktoppagina's identieke kerninhoud bevatten",
           ],
+          image: {
+            src: "/images/academy/nl/mobile-first-indexing-flow.svg",
+            alt: "Vergleich der zeigt wie Desktop-Seiten mit vollstaendigem Inhalt sich von mobilen Versionen mit gekuerztem Inhalt unterscheiden und dass Google die mobile Version indexiert",
+            caption: "Google indexiert die mobile Version Ihrer Seiten. Auf Mobilgeraeten versteckter oder entfernter Inhalt verringert direkt Ihre Suchsichtbarkeit.",
+          },
+          callout: {
+            title: "Inhaltsparitaets-Risiko",
+            text: "Desktop-Seiten mit durchschnittlich ueber 45 internen Links fallen auf Mobilgeraeten oft auf 12. Bei Mobile-First-Indexierung schwaecht das Fehlen dieser 33 Links die Crawl-Prioritaet der verlinkten Seiten.",
+          },
         },
         {
           title: "Responsive design vs. aparte mobiele sites",
@@ -297,13 +396,22 @@ export const mobileFirstForEcommerce: AcademyTopic = {
         {
           title: "Touchvriendelijk ontwerp en SEO-impact",
           content:
-            "Google evalueert mobiele bruikbaarheid als onderdeel van zijn pagina-ervaringssignalen. Pagina's die niet slagen voor mobiele bruikbaarheidscontroles ontvangen lagere rankings. De meest voorkomende fouten op ecommerce-sites zijn tiktargets die te dicht bij elkaar liggen, tekst die te klein is om te lezen zonder te zoomen en content die breder is dan het scherm.\n\nTiktargets (knoppen, links, formuliervelden) moeten minimaal 48x48 CSS pixels zijn met 8 pixels tussenruimte. Op productpagina's betekent dit dat je \"Toevoegen aan winkelwagen\"-knop, maatselectoren en kleurstalen allemaal voldoende tussenruimte nodig hebben. Dichte productrasters met kleine tiktargets frustreren mobiele gebruikers en activeren Google's mobiele bruikbaarheidswaarschuwingen.\n\nLettergroottes onder 16px op mobiel dwingen gebruikers om te knijpzoomen, wat Google markeert als een bruikbaarheidsprobleem. Stel je basislettergrootte in op minimaal 16px en schaal koppen proportioneel. Productomschrijvingen, prijzen en reviews moeten allemaal leesbaar zijn zonder enige gebruikersinterventie.\n\nVermijd horizontaal scrollen volledig. Als een element zich uitstrekt voorbij de breedte van het mobiele viewport, markeert Google de pagina als niet geslaagd voor mobiele bruikbaarheid. Veelvoorkomende overtreders zijn brede productvergelijkingstabellen, te grote afbeeldingen zonder max-width-beperkingen en desktop-brede iframes voor video-embeds of maatgidsen.\n\nBekijk onze [technische SEO](/technical-seo)-diensten voor professionele ondersteuning.",
+            "Google evalueert mobiele bruikbaarheid als onderdeel van zijn pagina-ervaringssignalen. Pagina's die niet slagen voor mobiele bruikbaarheidscontroles ontvangen lagere rankings. De meest voorkomende fouten op ecommerce-sites zijn tiktargets die te dicht bij elkaar liggen, tekst die te klein is om te lezen zonder te zoomen en content die breder is dan het scherm.\n\nTiktargets (knoppen, links, formuliervelden) moeten minimaal 48x48 CSS pixels zijn met 8 pixels tussenruimte. Op productpagina's betekent dit dat je \"Toevoegen aan winkelwagen\"-knop, maatselectoren en kleurstalen allemaal voldoende tussenruimte nodig hebben. Dichte productrasters met kleine tiktargets frustreren mobiele gebruikers en activeren Google's mobiele bruikbaarheidswaarschuwingen.\n\nLettergroottes onder 16px op mobiel dwingen gebruikers om te knijpzoomen, wat Google markeert als een bruikbaarheidsprobleem. Stel je basislettergrootte in op minimaal 16px en schaal koppen proportioneel. Productomschrijvingen, prijzen en reviews moeten allemaal leesbaar zijn zonder enige gebruikersinterventie.\n\nVermijd horizontaal scrollen volledig. Als een element zich uitstrekt voorbij de breedte van het mobiele viewport, markeert Google de pagina als niet geslaagd voor mobiele bruikbaarheid. Veelvoorkomende overtreders zijn brede productvergelijkingstabellen, te grote afbeeldingen zonder max-width-beperkingen en desktop-brede iframes voor video-embeds of maatgidsen.\n\nBekijk onze [technische SEO](/ecommerce-seo-services)-diensten voor professionele ondersteuning.",
           items: [
             "Minimale tiktargetgrootte: 48x48 CSS pixels met 8px tussenruimte",
             "Basislettergrootte: minimaal 16px op mobiel",
             "Geen horizontaal scrollen op enig pagina-element",
             "Test met Google's Mobile-Friendly Test tool en het rapport mobiele bruikbaarheid van Search Console",
           ],
+          image: {
+            src: "/images/academy/nl/mobile-speed-revenue-impact.svg",
+            alt: "Balkendiagramm das den Rueckgang der Konversionsrate von 3,8% bei 1 Sekunde Ladezeit auf 0,7% bei 6+ Sekunden zeigt mit 53% Abbruchschwelle bei 3 Sekunden",
+            caption: "Die mobile Konversionsrate sinkt mit jeder zusaetzlichen Sekunde Ladezeit stark. Die 3-Sekunden-Schwelle ist der Punkt an dem 53% der Besucher abspringen.",
+          },
+          callout: {
+            title: "Umsatzauswirkung",
+            text: "Die Reduzierung der mobilen Ladezeit von 5,2s auf 2,1s steigerte die mobile Konversion um 27% und den Umsatz um 34% ueber 90 Tage. Die Optimierung kostete weniger als eine Woche bezahltes Werbebudget.",
+          },
         },
         {
           title: "Mobiele navigatie en interne links",

@@ -115,7 +115,7 @@
     "ogTitle": "Checklist SEO On-Page Premium pour Shopify | EcomSEO"
   },
   "/resources/why-we-share": {
-    "title": "Pourquoi nous partageons autant de connaissances | EcomSEO",
+    "title": "Pourquoi nous partageons tant | EcomSEO",
     "description": "Decouvrez pourquoi nous partageons autant de connaissances et de ressources gratuites avec la communaute e-commerce.",
     "ogTitle": "Pourquoi nous partageons autant de connaissances | EcomSEO"
   },
@@ -135,7 +135,7 @@
     "ogTitle": "Fondamentaux SEO - Suite | Guides EcomSEO"
   },
   "/guides/analytics-tracking": {
-    "title": "Analytics & Suivi pour le SEO E-commerce | Guides EcomSEO",
+    "title": "Analytics & Suivi SEO | Guides EcomSEO",
     "description": "Configurer GA4 et Google Search Console pour votre boutique. Les métriques qui comptent vraiment et comment trouver des gains rapides dans vos données.",
     "ogTitle": "Analytics & Suivi pour le SEO E-commerce | Guides EcomSEO"
   },
@@ -199,7 +199,7 @@
     "description": "Fabian van Til, fondateur d'EcomSEO. Nous aidons les marques e-commerce a etre decouvertes sur l'AI et les LLM comme ChatGPT.",
     "ogTitle": "Fabian van Til - Agence d'optimisation LLM | EcomSEO"
   },
-  "/intent-matching-tool": {
+  "/tools/intent-matching-tool": {
     "title": "Outil d'analyse d'intention - Analyseur AI",
     "description": "Analysez l'intention de recherche de vos mots-cles e-commerce. Comprenez ce que vos clients recherchent et optimisez votre contenu en consequence.",
     "ogTitle": "Outil d'analyse d'intention - Analyseur AI"
@@ -330,7 +330,7 @@
     "ogTitle": "Validateur Schema Markup - JSON-LD | EcomSEO"
   },
   "/tools/redirect-checker": {
-    "title": "Vérificateur de Chaînes de Redirection Gratuit | EcomSEO",
+    "title": "Checker de Redirections Gratuit | EcomSEO",
     "description": "Détectez les chaînes de redirection, boucles et chemins de redirection cassés. Chemins complets avec codes de statut HTTP. Outil SEO gratuit.",
     "ogTitle": "Vérificateur de Chaînes de Redirection Gratuit | EcomSEO"
   },

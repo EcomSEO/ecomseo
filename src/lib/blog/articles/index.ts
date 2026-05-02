@@ -2,7 +2,7 @@ import type { BlogArticle } from "../types";
 
 // Article content imports - grouped by priority
 import { ecommerceSeo } from "./ecommerce-seo";
-import { ecommerceSeoAudit } from "./ecommerce-seo-audit";
+import { ecommerceSeoAudit } from "./how-to-make-ecommerce-seo-audit";
 import { ecommerceSeoConsultant } from "./ecommerce-seo-consultant";
 import { ecommerceSeoPackages } from "./ecommerce-seo-packages";
 import { ecommerceSeoAgencies } from "./ecommerce-seo-agencies";

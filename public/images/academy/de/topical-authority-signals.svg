@@ -1,0 +1,28 @@
+<svg viewBox="0 0 480 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <text x="240" y="22" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#a78bfa">Google's Topical Authority Signals</text>
+  <!-- Three pillars -->
+  <rect x="20" y="50" width="130" height="140" rx="10" fill="#a78bfa" opacity="0.12" stroke="#a78bfa" stroke-width="1.5"/>
+  <text x="85" y="75" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#a78bfa">Inhaltsabdeckung</text>
+  <text x="85" y="100" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Volle Bandbreite der</text>
+  <text x="85" y="114" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Unterthemen abgedeckt</text>
+  <text x="85" y="138" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Breite + Tiefe</text>
+  <text x="85" y="158" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#4ade80">15-25 Cluster-Seiten</text>
+  <text x="85" y="178" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#4ade80">pro Kategorie</text>
+  <rect x="175" y="50" width="130" height="140" rx="10" fill="#60a5fa" opacity="0.12" stroke="#60a5fa" stroke-width="1.5"/>
+  <text x="240" y="75" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#60a5fa">Externe Validierung</text>
+  <text x="240" y="100" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Nischen-Backlinks</text>
+  <text x="240" y="114" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">von autoritaeren Seiten</text>
+  <text x="240" y="138" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Branchenmagazine</text>
+  <text x="240" y="158" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Verbaende</text>
+  <text x="240" y="178" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Bewertungsportale</text>
+  <rect x="330" y="50" width="130" height="140" rx="10" fill="#4ade80" opacity="0.12" stroke="#4ade80" stroke-width="1.5"/>
+  <text x="395" y="75" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#4ade80">E-E-A-T</text>
+  <text x="395" y="100" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Originalfotografie</text>
+  <text x="395" y="114" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Experten-Spezifikationen</text>
+  <text x="395" y="138" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Real customer reviews</text>
+  <text x="395" y="158" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Autorenbiografien</text>
+  <text x="395" y="178" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Transparentes Unternehmen</text>
+  <!-- Bottom outcome -->
+  <rect x="120" y="205" width="240" height="28" rx="6" fill="#a78bfa" opacity="0.2" stroke="#a78bfa" stroke-width="1.5"/>
+  <text x="240" y="224" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#a78bfa">Schnellere Indexierung + Hoehere Rankings</text>
+</svg>

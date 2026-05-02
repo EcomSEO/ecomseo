@@ -24,6 +24,15 @@ export const productPageSeo: AcademyTopic = {
             "Product schema markup for rich results in search — use our [schema generator](/tools/schema-generator) to get started",
             "Customer reviews displayed on the page with review schema",
           ],
+          image: {
+            src: "/images/academy/product-page-anatomy.svg",
+            alt: "Annotated diagram showing the key SEO elements of a well-optimized ecommerce product page from H1 through schema markup",
+            caption: "Every element works together: H1 for relevance, unique descriptions for differentiation, schema for rich results, and reviews for trust signals.",
+          },
+          callout: {
+            title: "Compound SEO Effect",
+            text: "Stores scoring high on all 12 product page elements see 30-50% more organic traffic per product page than competitors in the same niche. No single element drives this -- it is the compound effect across thousands of pages.",
+          },
         },
         {
           title: "Title Tags with Product Attributes",
@@ -46,6 +55,10 @@ export const productPageSeo: AcademyTopic = {
           title: "Product Schema Markup",
           content:
             "Product schema (structured data) tells Google exactly what your page is about and enables rich results, those enhanced listings with star ratings, prices, and availability badges that dominate ecommerce search results. Pages with rich results consistently earn higher click-through rates than plain blue links, and we've measured 15-35% CTR improvements after implementing product schema across client stores.\n\nThe essential Product schema properties to include are: name, description, image, brand, sku, offers (with price, currency, and availability), and aggregateRating (if you have reviews). Each property must accurately reflect what's visible on the page, Google will penalize misleading structured data. If your product shows $49.99 on the page, the schema price must match exactly.\n\nImplement schema using JSON-LD format, which Google recommends over microdata or RDFa. Place the JSON-LD script in the page's head or body. Most modern ecommerce platforms either include product schema by default or offer apps that generate it automatically. However, we always recommend auditing auto-generated schema because plugins frequently miss properties or output incorrect values.\n\nValidate your schema using Google's Rich Results Test tool after implementation. Common errors include missing required fields, incorrect data types (price as string vs. number), and review markup on pages without visible reviews. Fix validation errors promptly, invalid schema won't generate rich results and could trigger a manual action if Google considers it spammy.",
+          callout: {
+            title: "Rich Results ROI",
+            text: "We measured 15-35% CTR improvements after implementing Product schema across client stores. Essential properties: name, description, image, brand, sku, offers (price + availability), and aggregateRating if reviews exist on the page.",
+          },
           tip: "Add the 'review' property within your Product schema only when actual customer reviews are displayed on the page. Google has cracked down on review markup that doesn't correspond to visible review content, and violations can result in losing all rich results across your entire domain.",
         },
         {
@@ -62,6 +75,17 @@ export const productPageSeo: AcademyTopic = {
             "Ensure mobile usability with zoomable images, large tap targets, and visible CTAs",
             "Display shipping costs, return policies, and trust badges above the fold",
             "Include customer reviews to increase dwell time and reduce bounce rates",
+          ],
+        },
+        {
+          title: "Content Quality Signals From the Leak: contentEffort and originalContentScore",
+          content:
+            "Two leaked attributes reframe what \"good PDP content\" means to Google. contentEffort is an LLM-based estimate of how much human effort went into a page \u2014 the engine likely behind the Helpful Content System. originalContentScore (a 0\u2013512 scale) measures how unique a page's content is versus what already exists on the web.\n\nFor product pages, manufacturer-supplied descriptions copied across hundreds of stores fail both. The fix isn't to spin or rewrite mechanically \u2014 that triggers different demotions. The fix is genuinely first-hand additions: tested-on photographs, sizing notes from real customers, fit comparisons, internal data on which variants sell best, video showing the product in use. These additions move both contentEffort and originalContentScore up because they cannot be auto-generated.\n\nA practical test: if a page would still rank if you swapped the product image and price for a competitor's, contentEffort is the ceiling. The page is interchangeable. The PDPs that win are the ones a competitor cannot trivially clone \u2014 that's what the leak rewards.",
+          items: [
+            "contentEffort (LLM-based) estimates human investment in a page \u2014 the engine behind the Helpful Content System",
+            "originalContentScore (0\u2013512) penalises duplicate manufacturer copy used across many stores",
+            "First-hand assets (photos, video, sizing data, comparisons) raise both signals; spun copy doesn't",
+            "If a competitor could replace product image and price and the page would still rank, contentEffort is your ceiling",
           ],
         },
       ],
@@ -89,6 +113,15 @@ export const productPageSeo: AcademyTopic = {
             "Produkt-Schema-Markup für Rich Results in der Suche — nutzen Sie unseren [Schema-Generator](/tools/schema-generator) für den Einstieg",
             "Kundenbewertungen auf der Seite mit Review-Schema angezeigt",
           ],
+          image: {
+            src: "/images/academy/de/product-page-anatomy.svg",
+            alt: "Kommentiertes Diagramm der wichtigsten SEO-Elemente einer Ecommerce-Produktseite",
+            caption: "Jedes Element arbeitet zusammen: H1 für Relevanz, einzigartige Beschreibungen für Differenzierung, Schema für Rich Results.",
+          },
+          callout: {
+            title: "Zusammengesetzter SEO-Effekt",
+            text: "Shops mit hohen Bewertungen bei allen 12 Produktseiten-Elementen verzeichnen 30-50\u00a0% mehr organischen Traffic pro Produktseite als Wettbewerber.",
+          },
         },
         {
           title: "Title-Tags mit Produktattributen",
@@ -112,6 +145,10 @@ export const productPageSeo: AcademyTopic = {
           content:
             "Produkt-Schema (strukturierte Daten) teilt Google genau mit, worum es auf Ihrer Seite geht, und ermöglicht Rich Results, jene erweiterten Listings mit Sternebewertungen, Preisen und Verfügbarkeitsanzeigen, die die E-Commerce-Suchergebnisse dominieren. Seiten mit Rich Results erzielen konsistent höhere Klickraten als einfache blaue Links, und wir haben 15-35% CTR-Verbesserungen gemessen, nachdem wir Produkt-Schema auf Client-Shops implementiert haben.\n\nDie wesentlichen Produkt-Schema-Eigenschaften sind: name, description, image, brand, sku, offers (mit Preis, Währung und Verfügbarkeit) und aggregateRating (wenn Sie Bewertungen haben). Jede Eigenschaft muss genau widerspiegeln, was auf der Seite sichtbar ist, Google bestraft irreführende strukturierte Daten. Wenn Ihr Produkt auf der Seite 49,99€ anzeigt, muss der Schema-Preis exakt übereinstimmen.\n\nImplementieren Sie Schema im JSON-LD-Format, das Google gegenüber Microdata oder RDFa empfiehlt. Platzieren Sie das JSON-LD-Script im Head oder Body der Seite. Die meisten modernen E-Commerce-Plattformen enthalten Produkt-Schema standardmäßig oder bieten Apps an, die es automatisch generieren. Wir empfehlen jedoch immer, automatisch generiertes Schema zu prüfen, da Plugins häufig Eigenschaften auslassen oder falsche Werte ausgeben.\n\nValidieren Sie Ihr Schema nach der Implementierung mit Googles Rich Results Test-Tool. Häufige Fehler sind fehlende Pflichtfelder, falsche Datentypen (Preis als String statt Zahl) und Review-Markup auf Seiten ohne sichtbare Bewertungen. Beheben Sie Validierungsfehler zeitnah, ungültiges Schema erzeugt keine Rich Results und könnte eine manuelle Maßnahme auslösen, wenn Google es als spammy betrachtet.",
           tip: "Fügen Sie die 'review'-Eigenschaft innerhalb Ihres Produkt-Schemas nur hinzu, wenn tatsächliche Kundenbewertungen auf der Seite angezeigt werden. Google hat das Vorgehen gegen Review-Markup verschärft, das keinem sichtbaren Review-Content entspricht, und Verstöße können zum Verlust aller Rich Results über Ihre gesamte Domain führen.",
+          callout: {
+            title: "Rich-Results-ROI",
+            text: "Wir haben 15–35 % CTR-Verbesserungen nach Product-Schema-Implementierung gemessen. Wichtige Properties: name, description, image, brand, sku, offers und aggregateRating.",
+          },
         },
         {
           title: "Bild-Alt-Text und Dateibenennung",
@@ -127,6 +164,17 @@ export const productPageSeo: AcademyTopic = {
             "Mobile Benutzerfreundlichkeit mit zoombaren Bildern, großen Tippzielen und sichtbaren CTAs sicherstellen",
             "Versandkosten, Rückgaberichtlinien und Vertrauenssiegel above the fold anzeigen",
             "Kundenbewertungen einbinden, um die Verweildauer zu erhöhen und Absprungraten zu senken",
+          ],
+        },
+        {
+          title: "Content-Qualitaetssignale aus dem Leak: contentEffort und originalContentScore",
+          content:
+            "Zwei geleakte Attribute formen um, was \"guter PDP-Content\" fuer Google bedeutet. contentEffort ist eine LLM-basierte Schaetzung, wie viel menschlicher Aufwand in eine Seite floss - die wahrscheinliche Engine hinter dem Helpful Content System. originalContentScore (eine 0-512-Skala) misst, wie einzigartig der Content einer Seite gegenueber dem ist, was bereits im Web existiert.\n\nFuer Produktseiten scheitern herstellergelieferte Beschreibungen, die ueber Hunderte von Shops kopiert werden, an beiden. Der Fix ist nicht, mechanisch zu spinnen oder umzuschreiben - das loest andere Demotionen aus. Der Fix sind echte Erstanwender-Ergaenzungen: getestete Fotografien, Groessen-Hinweise von echten Kunden, Passform-Vergleiche, interne Daten zu welchen Varianten am besten verkaufen, Video, das das Produkt im Einsatz zeigt. Diese Ergaenzungen heben sowohl contentEffort als auch originalContentScore, weil sie nicht auto-generiert werden koennen.\n\nEin praktischer Test: Wenn eine Seite immer noch ranken wuerde, falls Sie das Produktbild und den Preis durch die eines Konkurrenten ersetzen, ist contentEffort die Decke. Die Seite ist austauschbar. Die PDPs, die gewinnen, sind die, die ein Konkurrent nicht trivial klonen kann - das ist, was das Leak belohnt.",
+          items: [
+            "contentEffort (LLM-basiert) schaetzt menschliche Investition in eine Seite - die Engine hinter dem Helpful Content System",
+            "originalContentScore (0-512) bestraft duplizierte Herstellercopy, die ueber viele Shops verwendet wird",
+            "First-Hand-Assets (Fotos, Video, Groessen-Daten, Vergleiche) heben beide Signale; gespinnter Text nicht",
+            "Wenn ein Konkurrent Produktbild und Preis ersetzen koennte und die Seite immer noch ranken wuerde, ist contentEffort Ihre Decke",
           ],
         },
       ],
@@ -154,6 +202,15 @@ export const productPageSeo: AcademyTopic = {
             "Balisage schema produit pour les résultats enrichis dans la recherche — utilisez notre [générateur de schéma](/tools/schema-generator) pour commencer",
             "Avis clients affiches sur la page avec le schema review",
           ],
+          image: {
+            src: "/images/academy/fr/product-page-anatomy.svg",
+            alt: "Kommentiertes Diagramm der wichtigsten SEO-Elemente einer Ecommerce-Produktseite",
+            caption: "Jedes Element arbeitet zusammen: H1 für Relevanz, einzigartige Beschreibungen für Differenzierung, Schema für Rich Results.",
+          },
+          callout: {
+            title: "Zusammengesetzter SEO-Effekt",
+            text: "Shops mit hohen Bewertungen bei allen 12 Produktseiten-Elementen verzeichnen 30-50\u00a0% mehr organischen Traffic pro Produktseite als Wettbewerber.",
+          },
         },
         {
           title: "Balises title avec attributs produit",
@@ -177,6 +234,10 @@ export const productPageSeo: AcademyTopic = {
           content:
             "Le schema produit (donnees structurees) indique a Google exactement de quoi parle votre page et permet les resultats enrichis, ces annonces ameliorees avec notes etoilees, prix et badges de disponibilite qui dominent les resultats de recherche ecommerce. Les pages avec resultats enrichis obtiennent systematiquement des taux de clic plus eleves que les liens bleus simples, et nous avons mesure des ameliorations de CTR de 15-35% apres implementation du schema produit sur les boutiques de nos clients.\n\nLes proprietes essentielles du schema Produit a inclure sont : name, description, image, brand, sku, offers (avec prix, devise et disponibilite), et aggregateRating (si vous avez des avis). Chaque propriete doit refleter fidelement ce qui est visible sur la page, Google penalise les donnees structurees trompeuses. Si votre produit affiche 49,99€ sur la page, le prix du schema doit correspondre exactement.\n\nImplementez le schema au format JSON-LD, que Google recommande par rapport au microdata ou RDFa. Placez le script JSON-LD dans le head ou le body de la page. La plupart des plateformes ecommerce modernes incluent le schema produit par defaut ou proposent des applications qui le generent automatiquement. Cependant, nous recommandons toujours d'auditer le schema auto-genere car les plugins omettent frequemment des proprietes ou produisent des valeurs incorrectes.\n\nValidez votre schema avec l'outil de test des resultats enrichis de Google apres implementation. Les erreurs courantes incluent les champs obligatoires manquants, les types de donnees incorrects (prix comme chaine au lieu de nombre), et le balisage d'avis sur des pages sans avis visibles. Corrigez les erreurs de validation rapidement, un schema invalide ne generera pas de resultats enrichis et pourrait declencher une action manuelle si Google le considere comme spam.",
           tip: "Ajoutez la propriete 'review' dans votre schema Produit uniquement quand de vrais avis clients sont affiches sur la page. Google a sevi contre le balisage d'avis qui ne correspond pas au contenu d'avis visible, et les violations peuvent entrainer la perte de tous les resultats enrichis sur l'ensemble de votre domaine.",
+          callout: {
+            title: "Rich-Results-ROI",
+            text: "Wir haben 15–35 % CTR-Verbesserungen nach Product-Schema-Implementierung gemessen. Wichtige Properties: name, description, image, brand, sku, offers und aggregateRating.",
+          },
         },
         {
           title: "Texte alternatif des images et nommage des fichiers",
@@ -192,6 +253,17 @@ export const productPageSeo: AcademyTopic = {
             "Assurer l'utilisabilite mobile avec des images zoomables, de grandes cibles tactiles et des CTA visibles",
             "Afficher les frais de livraison, les politiques de retour et les badges de confiance au-dessus de la ligne de flottaison",
             "Inclure les avis clients pour augmenter le temps passe et reduire les taux de rebond",
+          ],
+        },
+        {
+          title: "Signaux de qualite de contenu du leak : contentEffort et originalContentScore",
+          content:
+            "Deux attributs fuites recadrent ce que \"bon contenu PDP\" signifie pour Google. contentEffort est une estimation basee sur LLM de combien d'effort humain est entre dans une page - probablement le moteur derriere le Helpful Content System. originalContentScore (une echelle 0-512) mesure a quel point le contenu d'une page est unique par rapport a ce qui existe deja sur le web.\n\nPour les pages produits, les descriptions fournies par le fabricant copiees a travers des centaines de boutiques echouent aux deux. Le correctif n'est pas de spinner ou reecrire mecaniquement - cela declenche d'autres demotions. Le correctif est l'ajout de premiere main genuine : photographies testees, notes de taille de vrais clients, comparaisons de coupe, donnees internes sur quelles variantes vendent le mieux, video montrant le produit en utilisation. Ces ajouts elevent contentEffort et originalContentScore parce qu'ils ne peuvent pas etre auto-generes.\n\nUn test pratique : si une page se classerait toujours en remplacant l'image produit et le prix par ceux d'un concurrent, contentEffort est le plafond. La page est interchangeable. Les PDP qui gagnent sont celles qu'un concurrent ne peut pas trivialement cloner - c'est ce que le leak recompense.",
+          items: [
+            "contentEffort (base LLM) estime l'investissement humain dans une page - le moteur derriere le Helpful Content System",
+            "originalContentScore (0-512) penalise le copy fabricant duplique utilise a travers de nombreuses boutiques",
+            "Les actifs de premiere main (photos, video, donnees de taille, comparaisons) elevent les deux signaux ; le copy spinne non",
+            "Si un concurrent pouvait remplacer l'image produit et le prix et la page se classerait toujours, contentEffort est votre plafond",
           ],
         },
       ],
@@ -219,6 +291,15 @@ export const productPageSeo: AcademyTopic = {
             "Marcado de esquema de producto para resultados enriquecidos en la busqueda — usa nuestro [generador de schema](/tools/schema-generator) para empezar",
             "Resenas de clientes mostradas en la pagina con esquema de review",
           ],
+          image: {
+            src: "/images/academy/es/product-page-anatomy.svg",
+            alt: "Kommentiertes Diagramm der wichtigsten SEO-Elemente einer Ecommerce-Produktseite",
+            caption: "Jedes Element arbeitet zusammen: H1 für Relevanz, einzigartige Beschreibungen für Differenzierung, Schema für Rich Results.",
+          },
+          callout: {
+            title: "Zusammengesetzter SEO-Effekt",
+            text: "Shops mit hohen Bewertungen bei allen 12 Produktseiten-Elementen verzeichnen 30-50\u00a0% mehr organischen Traffic pro Produktseite als Wettbewerber.",
+          },
         },
         {
           title: "Etiquetas de titulo con atributos de producto",
@@ -242,6 +323,10 @@ export const productPageSeo: AcademyTopic = {
           content:
             "El esquema de producto (datos estructurados) le dice a Google exactamente de que trata tu pagina y habilita resultados enriquecidos, esos listados mejorados con calificaciones de estrellas, precios e indicadores de disponibilidad que dominan los resultados de busqueda ecommerce. Las paginas con resultados enriquecidos obtienen consistentemente tasas de clic mas altas que los enlaces azules simples, y hemos medido mejoras de CTR del 15-35% despues de implementar el esquema de producto en las tiendas de nuestros clientes.\n\nLas propiedades esenciales del esquema de Producto a incluir son: name, description, image, brand, sku, offers (con precio, moneda y disponibilidad) y aggregateRating (si tienes resenas). Cada propiedad debe reflejar con precision lo que es visible en la pagina, Google penaliza los datos estructurados enganosos. Si tu producto muestra 49,99 euros en la pagina, el precio del esquema debe coincidir exactamente.\n\nImplementa el esquema usando formato JSON-LD, que Google recomienda sobre microdata o RDFa. Coloca el script JSON-LD en el head o body de la pagina. La mayoria de las plataformas ecommerce modernas incluyen el esquema de producto por defecto u ofrecen aplicaciones que lo generan automaticamente. Sin embargo, siempre recomendamos auditar el esquema auto-generado porque los plugins frecuentemente omiten propiedades o producen valores incorrectos.\n\nValida tu esquema usando la herramienta de prueba de resultados enriquecidos de Google despues de la implementacion. Los errores comunes incluyen campos obligatorios faltantes, tipos de datos incorrectos (precio como string vs. numero) y marcado de resenas en paginas sin resenas visibles. Corrige los errores de validacion rapidamente, un esquema invalido no generara resultados enriquecidos y podria desencadenar una accion manual si Google lo considera spam.",
           tip: "Anade la propiedad 'review' dentro de tu esquema de Producto solo cuando las resenas reales de clientes se muestran en la pagina. Google ha tomado medidas contra el marcado de resenas que no corresponde al contenido de resenas visible, y las violaciones pueden resultar en la perdida de todos los resultados enriquecidos en todo tu dominio.",
+          callout: {
+            title: "Rich-Results-ROI",
+            text: "Wir haben 15–35 % CTR-Verbesserungen nach Product-Schema-Implementierung gemessen. Wichtige Properties: name, description, image, brand, sku, offers und aggregateRating.",
+          },
         },
         {
           title: "Texto alternativo de imagenes y nombres de archivo",
@@ -257,6 +342,17 @@ export const productPageSeo: AcademyTopic = {
             "Asegurar usabilidad movil con imagenes ampliables, objetivos de toque grandes y CTAs visibles",
             "Mostrar costos de envio, politicas de devolucion e insignias de confianza por encima del pliegue",
             "Incluir resenas de clientes para aumentar el tiempo en pagina y reducir las tasas de rebote",
+          ],
+        },
+        {
+          title: "Senales de calidad de contenido del leak: contentEffort y originalContentScore",
+          content:
+            "Dos atributos filtrados reformulan lo que \"buen contenido de PDP\" significa para Google. contentEffort es una estimacion basada en LLM de cuanto esfuerzo humano entro en una pagina - probablemente el motor detras del Helpful Content System. originalContentScore (una escala 0-512) mide que tan unico es el contenido de una pagina contra lo que ya existe en la web.\n\nPara paginas de producto, las descripciones proporcionadas por el fabricante copiadas a traves de cientos de tiendas fallan en ambos. El fix no es spinear o reescribir mecanicamente - eso dispara otras demotions. El fix son anadidos genuinos de primera mano: fotografias probadas, notas de talla de clientes reales, comparaciones de calce, datos internos de que variantes venden mejor, video mostrando el producto en uso. Estos anadidos elevan tanto contentEffort como originalContentScore porque no pueden ser auto-generados.\n\nUna prueba practica: si una pagina aun rankearia intercambiando la imagen del producto y el precio por los de un competidor, contentEffort es el techo. La pagina es intercambiable. Las PDPs que ganan son aquellas que un competidor no puede clonar trivialmente - eso es lo que el leak recompensa.",
+          items: [
+            "contentEffort (basado en LLM) estima la inversion humana en una pagina - el motor detras del Helpful Content System",
+            "originalContentScore (0-512) penaliza el copy duplicado del fabricante usado en muchas tiendas",
+            "Activos de primera mano (fotos, video, datos de talla, comparaciones) elevan ambas senales; el copy spineado no",
+            "Si un competidor pudiera reemplazar imagen de producto y precio y la pagina aun rankearia, contentEffort es tu techo",
           ],
         },
       ],
@@ -284,6 +380,15 @@ export const productPageSeo: AcademyTopic = {
             "Markup schema prodotto per risultati arricchiti nella ricerca — usa il nostro [generatore di schema](/tools/schema-generator) per iniziare",
             "Recensioni clienti mostrate sulla pagina con schema review",
           ],
+          image: {
+            src: "/images/academy/it/product-page-anatomy.svg",
+            alt: "Kommentiertes Diagramm der wichtigsten SEO-Elemente einer Ecommerce-Produktseite",
+            caption: "Jedes Element arbeitet zusammen: H1 für Relevanz, einzigartige Beschreibungen für Differenzierung, Schema für Rich Results.",
+          },
+          callout: {
+            title: "Zusammengesetzter SEO-Effekt",
+            text: "Shops mit hohen Bewertungen bei allen 12 Produktseiten-Elementen verzeichnen 30-50\u00a0% mehr organischen Traffic pro Produktseite als Wettbewerber.",
+          },
         },
         {
           title: "Title tag con attributi di prodotto",
@@ -307,6 +412,10 @@ export const productPageSeo: AcademyTopic = {
           content:
             "Lo schema prodotto (dati strutturati) comunica a Google esattamente di cosa tratta la tua pagina e abilita i risultati arricchiti, quelle inserzioni migliorate con valutazioni in stelle, prezzi e badge di disponibilita che dominano i risultati di ricerca ecommerce. Le pagine con risultati arricchiti ottengono costantemente tassi di clic piu alti rispetto ai semplici link blu, e abbiamo misurato miglioramenti del CTR del 15-35% dopo l'implementazione dello schema prodotto nei negozi dei nostri clienti.\n\nLe proprieta essenziali dello schema Prodotto da includere sono: name, description, image, brand, sku, offers (con prezzo, valuta e disponibilita) e aggregateRating (se hai recensioni). Ogni proprieta deve riflettere accuratamente cio che e visibile sulla pagina, Google penalizza i dati strutturati fuorvianti. Se il tuo prodotto mostra 49,99 euro sulla pagina, il prezzo nello schema deve corrispondere esattamente.\n\nImplementa lo schema usando il formato JSON-LD, che Google raccomanda rispetto a microdata o RDFa. Posiziona lo script JSON-LD nell'head o nel body della pagina. La maggior parte delle piattaforme ecommerce moderne include lo schema prodotto per impostazione predefinita o offre app che lo generano automaticamente. Tuttavia, raccomandiamo sempre di verificare lo schema auto-generato perche i plugin frequentemente omettono proprieta o producono valori errati.\n\nValida il tuo schema usando lo strumento di test dei risultati arricchiti di Google dopo l'implementazione. Gli errori comuni includono campi obbligatori mancanti, tipi di dati errati (prezzo come stringa invece che numero) e markup delle recensioni su pagine senza recensioni visibili. Correggi gli errori di validazione tempestivamente, uno schema non valido non generera risultati arricchiti e potrebbe innescare un'azione manuale se Google lo considera spam.",
           tip: "Aggiungi la proprieta 'review' nel tuo schema Prodotto solo quando le recensioni reali dei clienti sono mostrate sulla pagina. Google ha intensificato le azioni contro il markup delle recensioni che non corrisponde al contenuto delle recensioni visibili, e le violazioni possono comportare la perdita di tutti i risultati arricchiti su tutto il tuo dominio.",
+          callout: {
+            title: "Rich-Results-ROI",
+            text: "Wir haben 15–35 % CTR-Verbesserungen nach Product-Schema-Implementierung gemessen. Wichtige Properties: name, description, image, brand, sku, offers und aggregateRating.",
+          },
         },
         {
           title: "Testo alternativo delle immagini e denominazione dei file",
@@ -322,6 +431,17 @@ export const productPageSeo: AcademyTopic = {
             "Garantire l'usabilita mobile con immagini zoomabili, grandi target di tocco e CTA visibili",
             "Mostrare costi di spedizione, politiche di reso e badge di fiducia sopra la piega",
             "Includere recensioni dei clienti per aumentare il tempo di permanenza e ridurre i tassi di rimbalzo",
+          ],
+        },
+        {
+          title: "Segnali di qualita del contenuto dal leak: contentEffort e originalContentScore",
+          content:
+            "Due attributi trapelati ridefiniscono cosa significa \"buon contenuto PDP\" per Google. contentEffort e una stima basata su LLM di quanto sforzo umano e entrato in una pagina - probabilmente il motore dietro l'Helpful Content System. originalContentScore (una scala 0-512) misura quanto unico e il contenuto di una pagina rispetto a cio che gia esiste sul web.\n\nPer le pagine prodotto, le descrizioni fornite dal produttore copiate in centinaia di negozi falliscono entrambi. La correzione non e spinnare o riscrivere meccanicamente - questo attiva altre demotion. La correzione sono aggiunte di prima mano genuine: fotografie testate, note di taglia da clienti reali, confronti di vestibilita, dati interni su quali varianti vendono meglio, video che mostra il prodotto in uso. Queste aggiunte elevano sia contentEffort sia originalContentScore perche non possono essere auto-generate.\n\nUn test pratico: se una pagina rankerebbe ancora sostituendo immagine prodotto e prezzo con quelli di un concorrente, contentEffort e il soffitto. La pagina e intercambiabile. Le PDP che vincono sono quelle che un concorrente non puo clonare banalmente - questo e cio che il leak premia.",
+          items: [
+            "contentEffort (basato su LLM) stima l'investimento umano in una pagina - il motore dietro l'Helpful Content System",
+            "originalContentScore (0-512) penalizza la copy duplicata del produttore usata in molti negozi",
+            "Asset di prima mano (foto, video, dati di taglia, confronti) elevano entrambi i segnali; la copy spinnata no",
+            "Se un concorrente potesse sostituire immagine prodotto e prezzo e la pagina rankerebbe ancora, contentEffort e il tuo soffitto",
           ],
         },
       ],
@@ -349,6 +469,15 @@ export const productPageSeo: AcademyTopic = {
             "Product schema-markup voor rich results in de zoekmachine\n\nGebruik onze [schemagenerator](/tools/schema-generator) om gestructureerde data te implementeren.",
             "Klantreviews weergegeven op de pagina met review-schema",
           ],
+          image: {
+            src: "/images/academy/nl/product-page-anatomy.svg",
+            alt: "Kommentiertes Diagramm der wichtigsten SEO-Elemente einer Ecommerce-Produktseite",
+            caption: "Jedes Element arbeitet zusammen: H1 für Relevanz, einzigartige Beschreibungen für Differenzierung, Schema für Rich Results.",
+          },
+          callout: {
+            title: "Zusammengesetzter SEO-Effekt",
+            text: "Shops mit hohen Bewertungen bei allen 12 Produktseiten-Elementen verzeichnen 30-50\u00a0% mehr organischen Traffic pro Produktseite als Wettbewerber.",
+          },
         },
         {
           title: "Title tags met productattributen",
@@ -372,6 +501,10 @@ export const productPageSeo: AcademyTopic = {
           content:
             "Product schema (gestructureerde data) vertelt Google precies waar je pagina over gaat en maakt rich results mogelijk, die verbeterde vermeldingen met sterrenwaarderingen, prijzen en beschikbaarheidsbadges die de ecommerce zoekresultaten domineren. Pagina's met rich results behalen consistent hogere klikpercentages dan gewone blauwe links, en we hebben CTR-verbeteringen van 15-35% gemeten na implementatie van product schema in webshops van klanten.\n\nDe essentiele Product schema-eigenschappen om op te nemen zijn: name, description, image, brand, sku, offers (met prijs, valuta en beschikbaarheid) en aggregateRating (als je reviews hebt). Elke eigenschap moet nauwkeurig weergeven wat zichtbaar is op de pagina, Google bestraft misleidende gestructureerde data. Als je product 49,99 euro op de pagina toont, moet de schemaprijs exact overeenkomen.\n\nImplementeer schema in JSON-LD-formaat, dat Google aanbeveelt boven microdata of RDFa. Plaats het JSON-LD-script in de head of body van de pagina. De meeste moderne ecommerce-platforms bevatten standaard product schema of bieden apps die het automatisch genereren. Wij raden echter altijd aan om automatisch gegenereerd schema te auditen omdat plugins regelmatig eigenschappen missen of onjuiste waarden produceren.\n\nValideer je schema met Googles Rich Results Test-tool na implementatie. Veelvoorkomende fouten zijn ontbrekende verplichte velden, onjuiste datatypes (prijs als string vs. nummer) en reviewmarkup op pagina's zonder zichtbare reviews. Los validatiefouten snel op, ongeldig schema genereert geen rich results en kan een handmatige actie uitlokken als Google het als spam beschouwt.",
           tip: "Voeg de 'review'-eigenschap alleen toe binnen je Product schema wanneer daadwerkelijke klantreviews op de pagina worden weergegeven. Google heeft het optreden tegen reviewmarkup die niet overeenkomt met zichtbare reviewcontent aangescherpt, en overtredingen kunnen leiden tot het verlies van alle rich results over je hele domein.",
+          callout: {
+            title: "Rich-Results-ROI",
+            text: "Wir haben 15–35 % CTR-Verbesserungen nach Product-Schema-Implementierung gemessen. Wichtige Properties: name, description, image, brand, sku, offers und aggregateRating.",
+          },
         },
         {
           title: "Alt-tekst voor afbeeldingen en bestandsnaamgeving",
@@ -387,6 +520,17 @@ export const productPageSeo: AcademyTopic = {
             "Zorg voor mobiele bruikbaarheid met inzoombare afbeeldingen, grote tikdoelen en zichtbare CTA's",
             "Toon verzendkosten, retourbeleid en vertrouwensbadges boven de vouw",
             "Neem klantreviews op om verblijftijd te verhogen en bouncepercentages te verlagen",
+          ],
+        },
+        {
+          title: "Content-kwaliteitssignalen uit het leak: contentEffort en originalContentScore",
+          content:
+            "Twee gelekte attributen herkaderen wat \"goede PDP-inhoud\" voor Google betekent. contentEffort is een LLM-gebaseerde schatting van hoeveel menselijke inspanning in een pagina is gestoken - waarschijnlijk de motor achter het Helpful Content System. originalContentScore (een 0-512-schaal) meet hoe uniek de inhoud van een pagina is versus wat al op het web bestaat.\n\nVoor productpagina's falen door de fabrikant geleverde beschrijvingen die over honderden winkels worden gekopieerd op beide. De fix is niet om mechanisch te spinnen of herschrijven - dat triggert andere demotions. De fix is echte eerstehands toevoegingen: geteste fotografie, maatnoties van echte klanten, pasvormvergelijkingen, interne data over welke varianten het beste verkopen, video die het product in gebruik toont. Deze toevoegingen verhogen zowel contentEffort als originalContentScore omdat ze niet auto-gegenereerd kunnen worden.\n\nEen praktische test: als een pagina nog steeds zou ranken door de productafbeelding en prijs te verwisselen voor die van een concurrent, is contentEffort het plafond. De pagina is uitwisselbaar. De PDP's die winnen zijn die welke een concurrent niet triviaal kan klonen - dat is wat het leak beloont.",
+          items: [
+            "contentEffort (LLM-gebaseerd) schat menselijke investering in een pagina - de motor achter het Helpful Content System",
+            "originalContentScore (0-512) straft dubbele fabrikantcopy die over veel winkels wordt gebruikt",
+            "Eerstehands assets (foto's, video, maatdata, vergelijkingen) verhogen beide signalen; gespinde copy niet",
+            "Als een concurrent productafbeelding en prijs kon vervangen en de pagina zou nog steeds ranken, is contentEffort jouw plafond",
           ],
         },
       ],

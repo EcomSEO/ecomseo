@@ -1,0 +1,36 @@
+<svg viewBox="0 0 480 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <text x="240" y="22" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#a78bfa">Hub-and-Spoke Topic Cluster</text>
+  <!-- Hub center -->
+  <circle cx="240" cy="160" r="45" fill="#a78bfa" opacity="0.2" stroke="#a78bfa" stroke-width="2"/>
+  <text x="240" y="155" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#a78bfa">Categorie</text>
+  <text x="240" y="170" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Page (Hub)</text>
+  <!-- Spokes -->
+  <line x1="195" y1="160" x2="80" y2="80" stroke="#60a5fa" stroke-width="1.5"/>
+  <circle cx="65" cy="70" r="30" fill="#60a5fa" opacity="0.12" stroke="#60a5fa" stroke-width="1.2"/>
+  <text x="65" y="66" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Buying</text>
+  <text x="65" y="78" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Guide</text>
+  <line x1="240" y1="115" x2="240" y2="52" stroke="#4ade80" stroke-width="1.5"/>
+  <circle cx="240" cy="42" r="28" fill="#4ade80" opacity="0.12" stroke="#4ade80" stroke-width="1.2"/>
+  <text x="240" y="38" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">How-to</text>
+  <text x="240" y="50" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Article</text>
+  <line x1="285" y1="160" x2="400" y2="80" stroke="#f97316" stroke-width="1.5"/>
+  <circle cx="415" cy="70" r="30" fill="#f97316" opacity="0.12" stroke="#f97316" stroke-width="1.2"/>
+  <text x="415" y="66" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">X vs Y</text>
+  <text x="415" y="78" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Compare</text>
+  <line x1="195" y1="175" x2="75" y2="240" stroke="#60a5fa" stroke-width="1.5"/>
+  <circle cx="60" cy="250" r="30" fill="#60a5fa" opacity="0.12" stroke="#60a5fa" stroke-width="1.2"/>
+  <text x="60" y="246" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Care</text>
+  <text x="60" y="258" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Guide</text>
+  <line x1="240" y1="205" x2="240" y2="268" stroke="#4ade80" stroke-width="1.5"/>
+  <circle cx="240" cy="280" r="28" fill="#4ade80" opacity="0.12" stroke="#4ade80" stroke-width="1.2"/>
+  <text x="240" y="276" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">FAQ</text>
+  <text x="240" y="288" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Page</text>
+  <line x1="285" y1="175" x2="400" y2="240" stroke="#f97316" stroke-width="1.5"/>
+  <circle cx="415" cy="250" r="30" fill="#f97316" opacity="0.12" stroke="#f97316" stroke-width="1.2"/>
+  <text x="415" y="246" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Blog</text>
+  <text x="415" y="258" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Post</text>
+  <!-- Cross links between spokes -->
+  <line x1="90" y1="80" x2="210" y2="42" stroke="#e2e8f0" stroke-width="0.8" stroke-dasharray="4"/>
+  <line x1="90" y1="240" x2="212" y2="280" stroke="#e2e8f0" stroke-width="0.8" stroke-dasharray="4"/>
+  <text x="240" y="315" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Solid lines = hub links | Dashed = cross-links between spokes</text>
+</svg>

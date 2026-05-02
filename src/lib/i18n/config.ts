@@ -139,6 +139,7 @@ export const staticRoutes = [
   "/team",
   "/pricing",
   "/contact",
+  "/demo",
   "/faq",
   "/resources",
   "/resources/crash-course",

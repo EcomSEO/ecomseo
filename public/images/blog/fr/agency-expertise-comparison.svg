@@ -1,0 +1,27 @@
+<svg viewBox="0 0 680 310" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <text x="340" y="28" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#a78bfa">Generalist vs Ecommerce SEO Agency</text>
+  <g transform="translate(30,55)">
+    <rect x="0" y="0" width="290" height="200" rx="8" stroke="#f97316" stroke-width="2" fill="none"/>
+    <text x="145" y="28" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#f97316">Generalist Agency</text>
+    <text x="145" y="55" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Blog content focus</text>
+    <text x="145" y="73" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Generic keyword research</text>
+    <text x="145" y="91" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Basic on-page optimization</text>
+    <text x="145" y="109" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Link building via guest posts</text>
+    <text x="145" y="127" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Monthly ranking reports</text>
+    <text x="145" y="145" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">No platform expertise</text>
+    <text x="145" y="180" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#f97316">Broad but shallow</text>
+  </g>
+  <g transform="translate(360,55)">
+    <rect x="0" y="0" width="290" height="200" rx="8" stroke="#4ade80" stroke-width="2" fill="none"/>
+    <text x="145" y="28" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#4ade80">Ecommerce Specialist</text>
+    <text x="145" y="55" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Product + category page focus</text>
+    <text x="145" y="73" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Buyer-intent keyword clusters</text>
+    <text x="145" y="91" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Schema, facets, canonicals</text>
+    <text x="145" y="109" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Revenue-attributed link building</text>
+    <text x="145" y="127" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Revenue + conversion reporting</text>
+    <text x="145" y="145" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Shopify / Magento / WooCommerce</text>
+    <text x="145" y="180" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#4ade80">Deep and revenue-focused</text>
+  </g>
+  <line x1="20" y1="275" x2="660" y2="275" stroke="#a78bfa" stroke-width="1" stroke-dasharray="4"/>
+  <text x="340" y="298" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#a78bfa">Ecommerce stores need specialists who understand platform, product, and purchase intent</text>
+</svg>

@@ -1,0 +1,33 @@
+<svg viewBox="0 0 680 320" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <text x="340" y="28" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#a78bfa">SEO Tips Priority Matrix -- Impact vs Difficulty</text>
+  <line x1="100" y1="55" x2="100" y2="280" stroke="#e2e8f0" stroke-width="0.5"/>
+  <line x1="100" y1="280" x2="640" y2="280" stroke="#e2e8f0" stroke-width="0.5"/>
+  <text x="50" y="170" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0" transform="rotate(-90,50,170)">Impact</text>
+  <text x="370" y="305" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Difficulty</text>
+  <text x="100" y="50" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">High</text>
+  <text x="620" y="295" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Hard</text>
+  <text x="100" y="295" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Easy</text>
+  <rect x="110" y="55" width="220" height="110" rx="8" stroke="#4ade80" stroke-width="1.5" stroke-dasharray="4" fill="none"/>
+  <text x="220" y="75" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#4ade80">DO FIRST</text>
+  <text x="140" y="98" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">#1 Image compression</text>
+  <text x="140" y="113" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">#2 Sitemap cleanup</text>
+  <text x="140" y="128" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">#6 Category title tags</text>
+  <text x="140" y="143" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">#19 Brand mention reclaim</text>
+  <rect x="350" y="55" width="280" height="110" rx="8" stroke="#60a5fa" stroke-width="1.5" stroke-dasharray="4" fill="none"/>
+  <text x="490" y="75" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#60a5fa">DO NEXT</text>
+  <text x="370" y="98" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">#4 Audit third-party scripts</text>
+  <text x="370" y="113" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">#5 Canonical tags</text>
+  <text x="370" y="128" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">#7 Category page content</text>
+  <text x="370" y="143" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">#13 FAQ sections, #15 Buying guide</text>
+  <rect x="110" y="180" width="220" height="90" rx="8" stroke="#f97316" stroke-width="1.5" stroke-dasharray="4" fill="none"/>
+  <text x="220" y="200" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#f97316">QUICK WINS</text>
+  <text x="140" y="222" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">#3 Lazy loading</text>
+  <text x="140" y="237" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">#10 Image alt text</text>
+  <text x="140" y="252" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">#12 Fix broken links</text>
+  <text x="140" y="267" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">#20 Supplier links</text>
+  <rect x="350" y="180" width="280" height="90" rx="8" stroke="#a78bfa" stroke-width="1.5" stroke-dasharray="4" fill="none"/>
+  <text x="490" y="200" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#a78bfa">PLAN CAREFULLY</text>
+  <text x="370" y="222" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">#14 URL restructuring</text>
+  <text x="370" y="237" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">#16 Product desc rewrites (scale)</text>
+  <text x="370" y="252" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">#17 Comparison pages</text>
+</svg>

@@ -1,0 +1,31 @@
+<svg viewBox="0 0 680 300" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <text x="340" y="28" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#a78bfa">Fashion Keyword Strategy: Trend vs Staple</text>
+  <g transform="translate(40,50)">
+    <rect x="0" y="0" width="280" height="220" rx="6" stroke="#f472b6" stroke-width="2" fill="none"/>
+    <text x="140" y="25" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#f472b6">Trend Keywords</text>
+    <text x="140" y="48" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Spike fast, die fast</text>
+    <line x1="20" y1="60" x2="260" y2="60" stroke="#f472b6" stroke-width="1" stroke-dasharray="4"/>
+    <text x="25" y="82" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">"baggy jeans 2025"</text>
+    <text x="25" y="100" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">"quiet luxury outfits"</text>
+    <text x="25" y="118" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">"coquette aesthetic dress"</text>
+    <line x1="20" y1="132" x2="260" y2="132" stroke="#f472b6" stroke-width="1" stroke-dasharray="4"/>
+    <text x="25" y="152" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#f472b6">Strategy:</text>
+    <text x="25" y="170" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Speed to publish</text>
+    <text x="25" y="186" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Template pages ready</text>
+    <text x="25" y="202" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Track fashion weeks</text>
+  </g>
+  <g transform="translate(360,50)">
+    <rect x="0" y="0" width="280" height="220" rx="6" stroke="#4ade80" stroke-width="2" fill="none"/>
+    <text x="140" y="25" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#4ade80">Staple Keywords</text>
+    <text x="140" y="48" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Steady volume year-round</text>
+    <line x1="20" y1="60" x2="260" y2="60" stroke="#4ade80" stroke-width="1" stroke-dasharray="4"/>
+    <text x="25" y="82" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">"black leather jacket women"</text>
+    <text x="25" y="100" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">"men's white dress shirt"</text>
+    <text x="25" y="118" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">"cashmere sweater crew neck"</text>
+    <line x1="20" y1="132" x2="260" y2="132" stroke="#4ade80" stroke-width="1" stroke-dasharray="4"/>
+    <text x="25" y="152" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#4ade80">Strategy:</text>
+    <text x="25" y="170" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Long-tail product pages</text>
+    <text x="25" y="186" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Head terms on categories</text>
+    <text x="25" y="202" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Size/fit buying guides</text>
+  </g>
+</svg>

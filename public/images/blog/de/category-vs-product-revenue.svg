@@ -1,0 +1,28 @@
+<svg viewBox="0 0 680 300" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <text x="340" y="28" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#a78bfa">Organic Revenue by Page Type (14-Store Average)</text>
+  <g transform="translate(80,60)">
+    <rect x="0" y="0" width="200" height="180" rx="6" stroke="#60a5fa" stroke-width="2" fill="none"/>
+    <text x="100" y="28" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#60a5fa">Category Pages</text>
+    <text x="100" y="90" text-anchor="middle" font-family="Arial,sans-serif" font-size="42" font-weight="bold" fill="#4ade80">52%</text>
+    <text x="100" y="115" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#e2e8f0">of organic revenue</text>
+    <text x="100" y="155" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Highest-volume keywords</text>
+    <text x="100" y="170" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Commercial intent</text>
+  </g>
+  <g transform="translate(310,60)">
+    <rect x="0" y="0" width="130" height="180" rx="6" stroke="#f97316" stroke-width="2" fill="none"/>
+    <text x="65" y="28" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#f97316">Product Pages</text>
+    <text x="65" y="90" text-anchor="middle" font-family="Arial,sans-serif" font-size="32" font-weight="bold" fill="#f97316">31%</text>
+    <text x="65" y="115" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#e2e8f0">of organic</text>
+    <text x="65" y="130" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#e2e8f0">revenue</text>
+    <text x="65" y="160" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Long-tail queries</text>
+  </g>
+  <g transform="translate(470,60)">
+    <rect x="0" y="0" width="130" height="180" rx="6" stroke="#a78bfa" stroke-width="2" fill="none"/>
+    <text x="65" y="28" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#a78bfa">Blog + Other</text>
+    <text x="65" y="90" text-anchor="middle" font-family="Arial,sans-serif" font-size="32" font-weight="bold" fill="#a78bfa">17%</text>
+    <text x="65" y="115" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#e2e8f0">of organic</text>
+    <text x="65" y="130" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#e2e8f0">revenue</text>
+    <text x="65" y="160" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Informational queries</text>
+  </g>
+  <text x="340" y="275" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#ef4444">Yet 80% of stores spend most SEO effort on product pages</text>
+</svg>

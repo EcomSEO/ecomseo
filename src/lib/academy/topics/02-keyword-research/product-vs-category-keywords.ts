@@ -16,12 +16,21 @@ export const productVsCategoryKeywords: AcademyTopic = {
           title: "When to Target With Product Pages vs. Category Pages",
           content:
             "The simplest rule: look at what Google already ranks for the keyword. If the top 10 results are mostly product detail pages (single items with an add-to-cart button), target it with a product page. If the top 10 shows category listings, collection pages, or comparison-style content, use a category page.\n\nProduct pages should target specific, narrow queries: exact product names, model numbers, SKU-level terms, and queries containing detailed specifications like size, color, or material. These are bottom-of-funnel terms where the searcher knows what they want.\n\nCategory pages should target broader terms that describe a type of product rather than a specific one: \"men's waterproof hiking boots,\" \"wireless noise-cancelling headphones,\" or \"organic cotton bedsheets.\" These mid-funnel terms have higher volume but require the searcher to browse options before buying.\n\nThe gray area appears with terms like brand + product type (\"Nike running shoes\"). Check the SERP, Google might show a mix of brand category pages and individual product pages. In these cases, a filtered category page showing only that brand typically wins.",
+          image: {
+            src: "/images/academy/product-vs-category-decision.svg",
+            alt: "Decision diagram showing when to target keywords with product pages versus category pages based on SERP analysis and keyword specificity",
+            caption: "Always check the SERP first. Google's top results tell you which page type it expects for each keyword.",
+          },
           items: [
             "Check the SERP before deciding: Google tells you which page type it prefers for each keyword",
             "Product pages target: specific models, SKUs, product names, and detailed attribute combinations",
             "Category pages target: product type terms, brand + category, and mid-funnel browsing queries",
             "When the SERP shows mixed results, a well-structured category page usually has the advantage",
           ],
+          callout: {
+            title: "Volume Split",
+            text: "For a store with 1,000 products across 50 categories: category pages target ~150 mid-tail keywords (1K-5K searches each), while product pages target 3,000+ long-tail keywords (20-500 searches each). Total addressable long-tail volume often exceeds mid-tail.",
+          },
         },
         {
           title: "Head Terms vs. Long-Tail Distribution",
@@ -85,6 +94,15 @@ export const productVsCategoryKeywords: AcademyTopic = {
             "Kategorieseiten targetieren: Produkttyp-Begriffe, Marke + Kategorie und Mid-Funnel-Suchanfragen",
             "Bei gemischten SERP-Ergebnissen hat eine gut strukturierte Kategorieseite normalerweise den Vorteil",
           ],
+          image: {
+            src: "/images/academy/de/product-vs-category-decision.svg",
+            alt: "Entscheidungsdiagramm für Produktseiten versus Kategorieseiten",
+            caption: "Prüfen Sie immer zuerst die SERP. Google zeigt Ihnen, welchen Seitentyp es bevorzugt.",
+          },
+          callout: {
+            title: "Volumen-Aufteilung",
+            text: "Kategorieseiten zielen auf ~150 Mid-Tail-Keywords (1K-5K Suchen), Produktseiten auf 3.000+ Long-Tail-Keywords (20-500 Suchen).",
+          },
         },
         {
           title: "Head-Terms vs. Long-Tail-Verteilung",
@@ -148,6 +166,15 @@ export const productVsCategoryKeywords: AcademyTopic = {
             "Les pages categories ciblent : termes de type de produit, marque + categorie et requetes de navigation milieu de funnel",
             "Quand la SERP montre des resultats mixtes, une page categorie bien structuree a generalement l'avantage",
           ],
+          image: {
+            src: "/images/academy/fr/product-vs-category-decision.svg",
+            alt: "Entscheidungsdiagramm für Produktseiten versus Kategorieseiten",
+            caption: "Prüfen Sie immer zuerst die SERP. Google zeigt Ihnen, welchen Seitentyp es bevorzugt.",
+          },
+          callout: {
+            title: "Volumen-Aufteilung",
+            text: "Kategorieseiten zielen auf ~150 Mid-Tail-Keywords (1K-5K Suchen), Produktseiten auf 3.000+ Long-Tail-Keywords (20-500 Suchen).",
+          },
         },
         {
           title: "Distribution termes generiques vs. longue traine",
@@ -211,6 +238,15 @@ export const productVsCategoryKeywords: AcademyTopic = {
             "Las paginas de categoria apuntan a: terminos de tipo de producto, marca + categoria y consultas de navegacion de mitad de embudo",
             "Cuando la SERP muestra resultados mixtos, una pagina de categoria bien estructurada suele tener ventaja",
           ],
+          image: {
+            src: "/images/academy/es/product-vs-category-decision.svg",
+            alt: "Entscheidungsdiagramm für Produktseiten versus Kategorieseiten",
+            caption: "Prüfen Sie immer zuerst die SERP. Google zeigt Ihnen, welchen Seitentyp es bevorzugt.",
+          },
+          callout: {
+            title: "Volumen-Aufteilung",
+            text: "Kategorieseiten zielen auf ~150 Mid-Tail-Keywords (1K-5K Suchen), Produktseiten auf 3.000+ Long-Tail-Keywords (20-500 Suchen).",
+          },
         },
         {
           title: "Terminos genericos vs. distribucion de cola larga",
@@ -274,6 +310,15 @@ export const productVsCategoryKeywords: AcademyTopic = {
             "Le pagine categoria puntano a: termini di tipo prodotto, marca + categoria e query di navigazione meta funnel",
             "Quando la SERP mostra risultati misti, una pagina categoria ben strutturata ha solitamente il vantaggio",
           ],
+          image: {
+            src: "/images/academy/it/product-vs-category-decision.svg",
+            alt: "Entscheidungsdiagramm für Produktseiten versus Kategorieseiten",
+            caption: "Prüfen Sie immer zuerst die SERP. Google zeigt Ihnen, welchen Seitentyp es bevorzugt.",
+          },
+          callout: {
+            title: "Volumen-Aufteilung",
+            text: "Kategorieseiten zielen auf ~150 Mid-Tail-Keywords (1K-5K Suchen), Produktseiten auf 3.000+ Long-Tail-Keywords (20-500 Suchen).",
+          },
         },
         {
           title: "Head term vs. distribuzione coda lunga",
@@ -337,6 +382,15 @@ export const productVsCategoryKeywords: AcademyTopic = {
             "Categoriepagina's targeten: producttypetermen, merk + categorie en mid-funnel browse-zoekopdrachten",
             "Wanneer de SERP gemengde resultaten toont, heeft een goed gestructureerde categoriepagina meestal het voordeel",
           ],
+          image: {
+            src: "/images/academy/nl/product-vs-category-decision.svg",
+            alt: "Entscheidungsdiagramm für Produktseiten versus Kategorieseiten",
+            caption: "Prüfen Sie immer zuerst die SERP. Google zeigt Ihnen, welchen Seitentyp es bevorzugt.",
+          },
+          callout: {
+            title: "Volumen-Aufteilung",
+            text: "Kategorieseiten zielen auf ~150 Mid-Tail-Keywords (1K-5K Suchen), Produktseiten auf 3.000+ Long-Tail-Keywords (20-500 Suchen).",
+          },
         },
         {
           title: "Head-terms vs. long-tail verdeling",

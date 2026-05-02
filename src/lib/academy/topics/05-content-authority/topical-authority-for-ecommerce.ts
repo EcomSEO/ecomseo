@@ -32,18 +32,36 @@ export const topicalAuthorityForEcommerce: AcademyTopic = {
           title: "The Hub-and-Spoke Content Model",
           content:
             "The hub-and-spoke model is the structural backbone of topical authority. Your category page is the hub. Spoke pages radiate outward, each targeting a specific long-tail query or subtopic. Internal links connect every spoke back to the hub and to related spokes.\n\nWhat makes this model powerful for ecommerce is how it maps to the buying journey. Top-of-funnel spokes (\"what is a pour-over coffee maker\") attract researchers. Mid-funnel spokes (\"pour-over vs French press\") help shoppers narrow their options. Bottom-of-funnel spokes (\"best pour-over coffee maker under 50 euros\") drive purchase decisions. The hub page, your category page, catches everyone ready to browse and buy.\n\nThe linking structure is critical. Each spoke should link to the hub with descriptive anchor text that includes the category keyword. Spokes should also cross-link to related spokes where natural. The hub page should feature a content section that links to all relevant spokes, often organized as a resource grid or FAQ block at the bottom of the category page.",
+          image: {
+            src: "/images/academy/topic-cluster-hub-spoke.svg",
+            alt: "Hub-and-spoke diagram showing a category page at center connected to buying guides, how-to articles, comparisons, FAQ pages, and blog posts",
+            caption: "The category page acts as the hub. Each spoke targets a long-tail subtopic and links back to the hub. Cross-links between spokes strengthen the entire cluster.",
+          },
           items: [
             "Hub pages are typically category pages that target head terms with commercial intent",
             "Spoke pages target long-tail queries across every stage of the buying funnel",
             "Cross-linking between related spokes strengthens the entire cluster's authority",
             "Place a content or resource section on category pages that links to all supporting spokes",
           ],
+          callout: {
+            title: "Cluster Size Guide",
+            text: "A typical product category generates 15-25 spoke page ideas. Start with your top-revenue category, map every customer question from pre-purchase to post-purchase, and build this cluster first before expanding.",
+          },
         },
         {
           title: "How Google Evaluates Expertise in Your Niche",
           content:
             "Google uses several proxy signals to assess whether a site is genuinely expert in its niche. The first is content coverage, do you have pages addressing the full range of queries within a topic, or just the high-volume ones? Sites that only publish content for competitive head terms appear shallow compared to those covering the full spectrum.\n\nThe second signal is external validation through backlinks. When other authoritative sites in your niche link to your content, that endorsement carries weight. Our [ecommerce SEO](/blog/ecommerce-seo) guide explains how these signals compound over time. A hiking gear store that earns links from outdoor magazines, trail associations, and gear review sites builds a backlink profile that screams expertise.\n\nThe third signal is E-E-A-T: experience, expertise, authoritativeness, and trustworthiness. For ecommerce, this translates to original product photography, detailed specifications written by knowledgeable staff, genuine customer reviews, and transparent business information. Google's quality rater guidelines specifically mention that product pages should show first-hand experience with the items being sold.",
+          image: {
+            src: "/images/academy/topical-authority-signals.svg",
+            alt: "Three pillars of topical authority: content coverage, external validation through backlinks, and E-E-A-T signals",
+            caption: "Google evaluates topical authority through content coverage breadth, niche backlinks from authoritative sources, and E-E-A-T signals like original photos and expert authors.",
+          },
           tip: "Add author bios to your buying guides and blog posts. Link each bio to a profile page that lists the author's credentials and experience. This gives Google a clear E-E-A-T signal that real experts are creating your content.",
+          callout: {
+            title: "Authority Compounds",
+            text: "New articles from topically authoritative stores reach page one within 2 weeks, while identical content on a new domain takes months. Once Google trusts your expertise, every new page you publish benefits.",
+          },
         },
         {
           title: "Measuring Topical Authority Growth",
@@ -54,6 +72,17 @@ export const topicalAuthorityForEcommerce: AcademyTopic = {
             "Monitor average ranking position across entire clusters, not just individual pages",
             "Measure time-to-rank for new content within established clusters",
             "Count featured snippet wins within your niche categories over time",
+          ],
+        },
+        {
+          title: "siteEmbeddings: How Google Vectorises Your Topical Authority",
+          content:
+            "The leak revealed siteEmbeddings (referenced as site2vecEmbeddingEncoded) \u2014 Google computes a vector representation of a site's core topics, then compares each individual page's embedding against the site embedding. Pages whose embeddings sit close to the site centroid are treated as on-topic and benefit from accumulated topical authority. Pages whose embeddings drift far from the centroid are treated as outliers and don't benefit \u2014 and may dilute the centroid for the rest of the site.\n\nFor ecommerce stores, this is the mathematical version of \"stay in your lane.\" A specialist coffee equipment store with 300 on-topic articles develops a tight, defensible vector around \"coffee equipment.\" Adding random pages on \"office wellness\" pulls the centroid sideways, and now the original coffee-equipment pages sit slightly further from a less-coherent centroid. The leak suggests this can measurably reduce their topical authority.\n\nThe practical move is the disciplined cluster-building this guide describes \u2014 write thoroughly about your niche from many angles, then write nothing about anything else. The vector model rewards depth and punishes drift. If you're tempted to expand topically to chase volume, the right path is a separate domain or a clearly subdomained section, not a dilution of the core site.",
+          items: [
+            "Google vectorises sites (siteEmbeddings) and compares each page's embedding to the site centroid",
+            "On-topic pages sit close to the centroid and inherit accumulated authority; off-topic pages don't",
+            "Off-topic content also pulls the centroid sideways, hurting on-topic pages \u2014 drift has a hidden cost",
+            "Build deep clusters in your niche; if you want to chase off-topic volume, use a separate domain",
           ],
         },
       ],
@@ -95,6 +124,15 @@ export const topicalAuthorityForEcommerce: AcademyTopic = {
             "Cross-Linking zwischen verwandten Spokes staerkt die Autoritaet des gesamten Clusters",
             "Platzieren Sie einen Content- oder Ressourcen-Bereich auf Kategorieseiten, der zu allen unterstuetzenden Spokes verlinkt",
           ],
+          image: {
+            src: "/images/academy/de/topic-cluster-hub-spoke.svg",
+            alt: "Hub-and-Spoke-Diagramm das eine Kategorieseite im Zentrum zeigt verbunden mit Kaufratgebern, Anleitungen, Vergleichen, FAQ-Seiten und Blog-Beitraegen",
+            caption: "Die Kategorieseite fungiert als Hub. Jede Speiche zielt auf ein Long-Tail-Unterthema ab und verlinkt zurueck zum Hub. Querverweise zwischen Speichen staerken den gesamten Cluster.",
+          },
+          callout: {
+            title: "Cluster-Groessen-Leitfaden",
+            text: "Eine typische Produktkategorie generiert 15-25 Speichenseiten-Ideen. Beginnen Sie mit Ihrer umsatzstaerksten Kategorie, erfassen Sie jede Kundenfrage von Vorkauf bis Nachkauf und bauen Sie diesen Cluster zuerst bevor Sie expandieren.",
+          },
         },
         {
           title: "Wie Google Expertise in Ihrer Nische bewertet",
@@ -111,6 +149,26 @@ export const topicalAuthorityForEcommerce: AcademyTopic = {
             "Ueberwachen Sie die durchschnittliche Ranking-Position ueber gesamte Cluster, nicht nur einzelne Seiten",
             "Messen Sie die Time-to-Rank fuer neuen Content innerhalb etablierter Cluster",
             "Zaehlen Sie Featured-Snippet-Gewinne innerhalb Ihrer Nischenkategorien ueber die Zeit",
+          ],
+          image: {
+            src: "/images/academy/de/topical-authority-signals.svg",
+            alt: "Drei Saeulen der Themenautoritaet: Inhaltsabdeckung, externe Validierung durch Backlinks und E-E-A-T-Signale",
+            caption: "Google bewertet Themenautoritaet durch die Breite der Inhaltsabdeckung, Nischen-Backlinks von autoritaeren Quellen und E-E-A-T-Signale wie Originalfotos und Experten-Autoren.",
+          },
+          callout: {
+            title: "Autoritaet akkumuliert sich",
+            text: "Neue Artikel von thematisch autoritaeren Shops erreichen Seite eins innerhalb von 2 Wochen waehrend identischer Inhalt auf einer neuen Domain Monate braucht. Sobald Google Ihre Expertise vertraut profitiert jede neue Seite die Sie veroeffentlichen.",
+          },
+        },
+        {
+          title: "siteEmbeddings: Wie Google Ihre topische Autoritaet vektorisiert",
+          content:
+            "Das Leak enthuellte siteEmbeddings (referenziert als site2vecEmbeddingEncoded) - Google berechnet eine Vektor-Repraesentation der Kernthemen einer Site und vergleicht dann das Embedding jeder einzelnen Seite mit dem Site-Embedding. Seiten, deren Embeddings nahe am Site-Centroid liegen, werden als on-topic behandelt und profitieren von akkumulierter topischer Autoritaet. Seiten, deren Embeddings weit vom Centroid abdriften, werden als Ausreisser behandelt und profitieren nicht - und koennen den Centroid fuer den Rest der Site verduennen.\n\nFuer E-Commerce-Shops ist dies die mathematische Version von \"bleiben Sie in Ihrer Spur\". Ein spezialisierter Kaffeeausruestungs-Shop mit 300 on-topic Artikeln entwickelt einen engen, verteidigbaren Vektor um \"Kaffeeausruestung\". Zufaellige Seiten ueber \"Buero-Wellness\" hinzuzufuegen zieht den Centroid seitwaerts, und nun sitzen die ursprunglichen Kaffeeausruestungs-Seiten leicht weiter weg von einem weniger kohaerenten Centroid. Das Leak deutet an, dass dies ihre topische Autoritaet messbar reduzieren kann.\n\nDer praktische Schritt ist das disziplinierte Cluster-Building, das dieser Guide beschreibt - schreiben Sie umfassend ueber Ihre Nische aus vielen Winkeln, dann schreiben Sie nichts ueber alles andere. Das Vektormodell belohnt Tiefe und bestraft Drift. Wenn Sie versucht sind, sich topisch zu erweitern um Volumen zu jagen, ist der richtige Pfad eine separate Domain oder ein klar subdomained Bereich, nicht eine Verduennung der Kern-Site.",
+          items: [
+            "Google vektorisiert Sites (siteEmbeddings) und vergleicht das Embedding jeder Seite mit dem Site-Centroid",
+            "On-Topic-Seiten sitzen nahe am Centroid und erben akkumulierte Autoritaet; Off-Topic-Seiten nicht",
+            "Off-Topic-Content zieht auch den Centroid seitwaerts und schadet On-Topic-Seiten - Drift hat versteckte Kosten",
+            "Bauen Sie tiefe Cluster in Ihrer Nische; wenn Sie Off-Topic-Volumen jagen wollen, nutzen Sie eine separate Domain",
           ],
         },
       ],
@@ -152,6 +210,15 @@ export const topicalAuthorityForEcommerce: AcademyTopic = {
             "Les liens croises entre spokes connexes renforcent l'autorite de l'ensemble du cluster",
             "Placez une section contenu ou ressources sur les pages categories avec des liens vers tous les spokes",
           ],
+          image: {
+            src: "/images/academy/fr/topic-cluster-hub-spoke.svg",
+            alt: "Hub-and-Spoke-Diagramm das eine Kategorieseite im Zentrum zeigt verbunden mit Kaufratgebern, Anleitungen, Vergleichen, FAQ-Seiten und Blog-Beitraegen",
+            caption: "Die Kategorieseite fungiert als Hub. Jede Speiche zielt auf ein Long-Tail-Unterthema ab und verlinkt zurueck zum Hub. Querverweise zwischen Speichen staerken den gesamten Cluster.",
+          },
+          callout: {
+            title: "Cluster-Groessen-Leitfaden",
+            text: "Eine typische Produktkategorie generiert 15-25 Speichenseiten-Ideen. Beginnen Sie mit Ihrer umsatzstaerksten Kategorie, erfassen Sie jede Kundenfrage von Vorkauf bis Nachkauf und bauen Sie diesen Cluster zuerst bevor Sie expandieren.",
+          },
         },
         {
           title: "Comment Google evalue l'expertise dans votre niche",
@@ -168,6 +235,26 @@ export const topicalAuthorityForEcommerce: AcademyTopic = {
             "Surveillez la position moyenne de classement sur des clusters entiers, pas seulement des pages individuelles",
             "Mesurez le delai de positionnement du nouveau contenu dans les clusters etablis",
             "Comptez les gains de featured snippets dans vos categories de niche au fil du temps",
+          ],
+          image: {
+            src: "/images/academy/fr/topical-authority-signals.svg",
+            alt: "Drei Saeulen der Themenautoritaet: Inhaltsabdeckung, externe Validierung durch Backlinks und E-E-A-T-Signale",
+            caption: "Google bewertet Themenautoritaet durch die Breite der Inhaltsabdeckung, Nischen-Backlinks von autoritaeren Quellen und E-E-A-T-Signale wie Originalfotos und Experten-Autoren.",
+          },
+          callout: {
+            title: "Autoritaet akkumuliert sich",
+            text: "Neue Artikel von thematisch autoritaeren Shops erreichen Seite eins innerhalb von 2 Wochen waehrend identischer Inhalt auf einer neuen Domain Monate braucht. Sobald Google Ihre Expertise vertraut profitiert jede neue Seite die Sie veroeffentlichen.",
+          },
+        },
+        {
+          title: "siteEmbeddings : Comment Google vectorise votre autorite thematique",
+          content:
+            "Le leak a revele siteEmbeddings (reference comme site2vecEmbeddingEncoded) - Google calcule une representation vectorielle des sujets centraux d'un site, puis compare l'embedding de chaque page individuelle au site embedding. Les pages dont les embeddings sont proches du centroide du site sont traitees comme on-topic et beneficient de l'autorite thematique accumulee. Les pages dont les embeddings derivent loin du centroide sont traitees comme aberrantes et n'en beneficient pas - et peuvent diluer le centroide pour le reste du site.\n\nPour les boutiques ecommerce, c'est la version mathematique de \"restez dans votre couloir\". Une boutique specialisee d'equipement cafe avec 300 articles on-topic developpe un vecteur serre et defendable autour de \"equipement cafe\". Ajouter des pages aleatoires sur le \"bien-etre au bureau\" tire le centroide de cote, et maintenant les pages originales d'equipement cafe sont legerement plus eloignees d'un centroide moins coherent. Le leak suggere que cela peut reduire mesurablement leur autorite thematique.\n\nLe mouvement pratique est la construction disciplinee de clusters que ce guide decrit - ecrivez minutieusement sur votre niche sous de nombreux angles, puis n'ecrivez rien sur autre chose. Le modele vectoriel recompense la profondeur et punit la derive. Si vous etes tente d'etendre thematiquement pour chasser le volume, le bon chemin est un domaine separe ou une section clairement sous-domaine, pas une dilution du site central.",
+          items: [
+            "Google vectorise les sites (siteEmbeddings) et compare l'embedding de chaque page au centroide du site",
+            "Les pages on-topic sont proches du centroide et heritent l'autorite accumulee ; les pages off-topic non",
+            "Le contenu off-topic tire aussi le centroide de cote, blessant les pages on-topic - la derive a un cout cache",
+            "Construisez des clusters profonds dans votre niche ; si vous voulez chasser le volume off-topic, utilisez un domaine separe",
           ],
         },
       ],
@@ -209,6 +296,15 @@ export const topicalAuthorityForEcommerce: AcademyTopic = {
             "Los enlaces cruzados entre spokes relacionados fortalecen la autoridad de todo el cluster",
             "Coloca una seccion de contenido o recursos en las paginas de categoria con enlaces a todos los spokes de apoyo",
           ],
+          image: {
+            src: "/images/academy/es/topic-cluster-hub-spoke.svg",
+            alt: "Hub-and-Spoke-Diagramm das eine Kategorieseite im Zentrum zeigt verbunden mit Kaufratgebern, Anleitungen, Vergleichen, FAQ-Seiten und Blog-Beitraegen",
+            caption: "Die Kategorieseite fungiert als Hub. Jede Speiche zielt auf ein Long-Tail-Unterthema ab und verlinkt zurueck zum Hub. Querverweise zwischen Speichen staerken den gesamten Cluster.",
+          },
+          callout: {
+            title: "Cluster-Groessen-Leitfaden",
+            text: "Eine typische Produktkategorie generiert 15-25 Speichenseiten-Ideen. Beginnen Sie mit Ihrer umsatzstaerksten Kategorie, erfassen Sie jede Kundenfrage von Vorkauf bis Nachkauf und bauen Sie diesen Cluster zuerst bevor Sie expandieren.",
+          },
         },
         {
           title: "Como Google evalua la expertise en tu nicho",
@@ -225,6 +321,26 @@ export const topicalAuthorityForEcommerce: AcademyTopic = {
             "Monitorea la posicion media de ranking en clusters enteros, no solo paginas individuales",
             "Mide el tiempo-hasta-posicionamiento del nuevo contenido dentro de clusters establecidos",
             "Cuenta los logros de featured snippets dentro de tus categorias de nicho a lo largo del tiempo",
+          ],
+          image: {
+            src: "/images/academy/es/topical-authority-signals.svg",
+            alt: "Drei Saeulen der Themenautoritaet: Inhaltsabdeckung, externe Validierung durch Backlinks und E-E-A-T-Signale",
+            caption: "Google bewertet Themenautoritaet durch die Breite der Inhaltsabdeckung, Nischen-Backlinks von autoritaeren Quellen und E-E-A-T-Signale wie Originalfotos und Experten-Autoren.",
+          },
+          callout: {
+            title: "Autoritaet akkumuliert sich",
+            text: "Neue Artikel von thematisch autoritaeren Shops erreichen Seite eins innerhalb von 2 Wochen waehrend identischer Inhalt auf einer neuen Domain Monate braucht. Sobald Google Ihre Expertise vertraut profitiert jede neue Seite die Sie veroeffentlichen.",
+          },
+        },
+        {
+          title: "siteEmbeddings: Como Google vectoriza tu autoridad topica",
+          content:
+            "El leak revelo siteEmbeddings (referenciado como site2vecEmbeddingEncoded) - Google calcula una representacion vectorial de los temas centrales de un sitio, luego compara el embedding de cada pagina individual contra el embedding del sitio. Las paginas cuyos embeddings estan cerca del centroide del sitio son tratadas como on-topic y se benefician de la autoridad topica acumulada. Las paginas cuyos embeddings derivan lejos del centroide son tratadas como atipicas y no se benefician - y pueden diluir el centroide para el resto del sitio.\n\nPara tiendas ecommerce, esta es la version matematica de \"quedate en tu carril\". Una tienda especializada en equipo de cafe con 300 articulos on-topic desarrolla un vector ajustado y defendible alrededor de \"equipo de cafe\". Anadir paginas aleatorias sobre \"bienestar de oficina\" tira el centroide de lado, y ahora las paginas originales de equipo de cafe se sientan ligeramente mas lejos de un centroide menos coherente. El leak sugiere que esto puede reducir mediblemente su autoridad topica.\n\nEl movimiento practico es la construccion disciplinada de clusters que esta guia describe - escribe ampliamente sobre tu nicho desde muchos angulos, luego no escribas nada sobre nada mas. El modelo vectorial recompensa la profundidad y castiga la deriva. Si estas tentado a expandirte topicamente para perseguir volumen, el camino correcto es un dominio separado o una seccion claramente subdomeniada, no una dilucion del sitio principal.",
+          items: [
+            "Google vectoriza sitios (siteEmbeddings) y compara el embedding de cada pagina con el centroide del sitio",
+            "Las paginas on-topic estan cerca del centroide y heredan autoridad acumulada; las paginas off-topic no",
+            "El contenido off-topic tambien tira el centroide de lado, danando las paginas on-topic - la deriva tiene un costo oculto",
+            "Construye clusters profundos en tu nicho; si quieres perseguir volumen off-topic, usa un dominio separado",
           ],
         },
       ],
@@ -266,6 +382,15 @@ export const topicalAuthorityForEcommerce: AcademyTopic = {
             "I link incrociati tra spoke correlati rafforzano l'autorita dell'intero cluster",
             "Posiziona una sezione contenuti o risorse sulle pagine di categoria con link a tutti gli spoke di supporto",
           ],
+          image: {
+            src: "/images/academy/it/topic-cluster-hub-spoke.svg",
+            alt: "Hub-and-Spoke-Diagramm das eine Kategorieseite im Zentrum zeigt verbunden mit Kaufratgebern, Anleitungen, Vergleichen, FAQ-Seiten und Blog-Beitraegen",
+            caption: "Die Kategorieseite fungiert als Hub. Jede Speiche zielt auf ein Long-Tail-Unterthema ab und verlinkt zurueck zum Hub. Querverweise zwischen Speichen staerken den gesamten Cluster.",
+          },
+          callout: {
+            title: "Cluster-Groessen-Leitfaden",
+            text: "Eine typische Produktkategorie generiert 15-25 Speichenseiten-Ideen. Beginnen Sie mit Ihrer umsatzstaerksten Kategorie, erfassen Sie jede Kundenfrage von Vorkauf bis Nachkauf und bauen Sie diesen Cluster zuerst bevor Sie expandieren.",
+          },
         },
         {
           title: "Come Google valuta l'expertise nella tua nicchia",
@@ -282,6 +407,26 @@ export const topicalAuthorityForEcommerce: AcademyTopic = {
             "Monitora la posizione media di ranking su interi cluster, non solo su singole pagine",
             "Misura il tempo di posizionamento dei nuovi contenuti all'interno di cluster consolidati",
             "Conta i successi nei featured snippet nelle tue categorie di nicchia nel tempo",
+          ],
+          image: {
+            src: "/images/academy/it/topical-authority-signals.svg",
+            alt: "Drei Saeulen der Themenautoritaet: Inhaltsabdeckung, externe Validierung durch Backlinks und E-E-A-T-Signale",
+            caption: "Google bewertet Themenautoritaet durch die Breite der Inhaltsabdeckung, Nischen-Backlinks von autoritaeren Quellen und E-E-A-T-Signale wie Originalfotos und Experten-Autoren.",
+          },
+          callout: {
+            title: "Autoritaet akkumuliert sich",
+            text: "Neue Artikel von thematisch autoritaeren Shops erreichen Seite eins innerhalb von 2 Wochen waehrend identischer Inhalt auf einer neuen Domain Monate braucht. Sobald Google Ihre Expertise vertraut profitiert jede neue Seite die Sie veroeffentlichen.",
+          },
+        },
+        {
+          title: "siteEmbeddings: Come Google vettorizza la tua autorita topica",
+          content:
+            "Il leak ha rivelato siteEmbeddings (referenziato come site2vecEmbeddingEncoded) - Google calcola una rappresentazione vettoriale dei temi centrali di un sito, poi confronta l'embedding di ogni singola pagina con il site embedding. Le pagine i cui embedding sono vicini al centroide del sito vengono trattate come on-topic e beneficiano dell'autorita topica accumulata. Le pagine i cui embedding derivano lontano dal centroide vengono trattate come outlier e non ne beneficiano - e possono diluire il centroide per il resto del sito.\n\nPer i negozi ecommerce, questa e la versione matematica di \"resta nella tua corsia\". Un negozio specializzato di attrezzature caffe con 300 articoli on-topic sviluppa un vettore stretto e difendibile attorno a \"attrezzature caffe\". Aggiungere pagine casuali su \"benessere d'ufficio\" tira il centroide di lato, e ora le pagine originali di attrezzature caffe si trovano leggermente piu lontane da un centroide meno coerente. Il leak suggerisce che questo puo ridurre misurabilmente la loro autorita topica.\n\nLa mossa pratica e la disciplinata costruzione di cluster che questa guida descrive - scrivi a fondo sulla tua nicchia da molti angoli, poi non scrivere nulla su nient'altro. Il modello vettoriale premia la profondita e punisce la deriva. Se sei tentato di espanderti tematicamente per inseguire volume, il percorso giusto e un dominio separato o una sezione chiaramente subdomained, non una diluizione del sito principale.",
+          items: [
+            "Google vettorizza i siti (siteEmbeddings) e confronta l'embedding di ogni pagina con il centroide del sito",
+            "Le pagine on-topic sono vicine al centroide ed ereditano l'autorita accumulata; le pagine off-topic no",
+            "Il contenuto off-topic tira anche il centroide di lato, danneggiando le pagine on-topic - la deriva ha un costo nascosto",
+            "Costruisci cluster profondi nella tua nicchia; se vuoi inseguire volume off-topic, usa un dominio separato",
           ],
         },
       ],
@@ -323,6 +468,15 @@ export const topicalAuthorityForEcommerce: AcademyTopic = {
             "Crosslinking tussen gerelateerde spokes versterkt de autoriteit van het hele cluster",
             "Plaats een content- of resourcesectie op categoriepagina's die linkt naar alle ondersteunende spokes",
           ],
+          image: {
+            src: "/images/academy/nl/topic-cluster-hub-spoke.svg",
+            alt: "Hub-and-Spoke-Diagramm das eine Kategorieseite im Zentrum zeigt verbunden mit Kaufratgebern, Anleitungen, Vergleichen, FAQ-Seiten und Blog-Beitraegen",
+            caption: "Die Kategorieseite fungiert als Hub. Jede Speiche zielt auf ein Long-Tail-Unterthema ab und verlinkt zurueck zum Hub. Querverweise zwischen Speichen staerken den gesamten Cluster.",
+          },
+          callout: {
+            title: "Cluster-Groessen-Leitfaden",
+            text: "Eine typische Produktkategorie generiert 15-25 Speichenseiten-Ideen. Beginnen Sie mit Ihrer umsatzstaerksten Kategorie, erfassen Sie jede Kundenfrage von Vorkauf bis Nachkauf und bauen Sie diesen Cluster zuerst bevor Sie expandieren.",
+          },
         },
         {
           title: "Hoe Google expertise in je niche beoordeelt",
@@ -339,6 +493,26 @@ export const topicalAuthorityForEcommerce: AcademyTopic = {
             "Monitor de gemiddelde rankingpositie over hele clusters, niet alleen individuele pagina's",
             "Meet de time-to-rank voor nieuwe content binnen gevestigde clusters",
             "Tel featured snippet-winsten binnen je nichecategorieen in de loop van de tijd",
+          ],
+          image: {
+            src: "/images/academy/nl/topical-authority-signals.svg",
+            alt: "Drei Saeulen der Themenautoritaet: Inhaltsabdeckung, externe Validierung durch Backlinks und E-E-A-T-Signale",
+            caption: "Google bewertet Themenautoritaet durch die Breite der Inhaltsabdeckung, Nischen-Backlinks von autoritaeren Quellen und E-E-A-T-Signale wie Originalfotos und Experten-Autoren.",
+          },
+          callout: {
+            title: "Autoritaet akkumuliert sich",
+            text: "Neue Artikel von thematisch autoritaeren Shops erreichen Seite eins innerhalb von 2 Wochen waehrend identischer Inhalt auf einer neuen Domain Monate braucht. Sobald Google Ihre Expertise vertraut profitiert jede neue Seite die Sie veroeffentlichen.",
+          },
+        },
+        {
+          title: "siteEmbeddings: Hoe Google jouw topische autoriteit vectoriseert",
+          content:
+            "Het leak onthulde siteEmbeddings (gerefereerd als site2vecEmbeddingEncoded) - Google berekent een vectorrepresentatie van de kernthema's van een site, en vergelijkt vervolgens de embedding van elke individuele pagina met de site-embedding. Pagina's wiens embeddings dicht bij de site-centroid liggen worden behandeld als on-topic en profiteren van geaccumuleerde topische autoriteit. Pagina's wiens embeddings ver van de centroid afdrijven worden behandeld als uitschieters en profiteren niet - en kunnen de centroid voor de rest van de site verdunnen.\n\nVoor ecommerce-winkels is dit de wiskundige versie van \"blijf in je baan\". Een gespecialiseerde koffieapparatuurwinkel met 300 on-topic artikelen ontwikkelt een strakke, verdedigbare vector rond \"koffieapparatuur\". Het toevoegen van willekeurige pagina's over \"kantoorwellness\" trekt de centroid opzij, en nu zitten de oorspronkelijke koffieapparatuurpagina's iets verder af van een minder coherente centroid. Het leak suggereert dat dit hun topische autoriteit meetbaar kan verminderen.\n\nDe praktische beweging is de gedisciplineerde clusterbouw die deze gids beschrijft - schrijf grondig over je niche vanuit vele hoeken, schrijf vervolgens niets over wat dan ook anders. Het vectormodel beloont diepte en straft drift. Als je in de verleiding komt om thematisch uit te breiden om volume te jagen, is de juiste route een aparte domein of een duidelijk gesubdomeinde sectie, niet een verdunning van de kernsite.",
+          items: [
+            "Google vectoriseert sites (siteEmbeddings) en vergelijkt de embedding van elke pagina met de site-centroid",
+            "On-topic pagina's zitten dicht bij de centroid en erven geaccumuleerde autoriteit; off-topic pagina's niet",
+            "Off-topic inhoud trekt ook de centroid opzij, schaadt on-topic pagina's - drift heeft een verborgen kost",
+            "Bouw diepe clusters in je niche; als je off-topic volume wilt jagen, gebruik een apart domein",
           ],
         },
       ],

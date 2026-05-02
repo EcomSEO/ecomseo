@@ -23,6 +23,15 @@ export const structuredDataForProducts: AcademyTopic = {
             "One Product entity per product page, variants as separate Offer objects",
             "Validate with Google's Rich Results Test before deploying",
           ],
+          image: {
+            src: "/images/academy/product-schema-anatomy.svg",
+            alt: "Annotated diagram showing required and recommended Product schema properties alongside a preview of the resulting Google rich result with stars, price, and availability",
+            caption: "Required properties trigger rich results. Recommended properties like brand, SKU, and aggregateRating earn enhanced listings with star ratings and pricing.",
+          },
+          callout: {
+            title: "Rich Results Boost",
+            text: "Product pages with complete schema markup (name, price, availability, ratings) see 20-35% higher click-through rates from search results compared to plain listings without rich snippets.",
+          },
         },
         {
           title: "AggregateRating and Review Markup",
@@ -52,6 +61,26 @@ export const structuredDataForProducts: AcademyTopic = {
           content:
             "Deploying structured data without validation is a common source of errors that silently prevent rich results. Google provides two tools for testing: the Rich Results Test (for checking if a URL qualifies for rich results) and the Schema Markup Validator (for checking general schema syntax). Use both.\n\nThe Rich Results Test shows exactly which rich result types your page is eligible for and flags any errors or warnings. Run every product page template through this tool before launching. A single missing required property (like priceCurrency) across thousands of product pages means zero rich results for your entire catalog.\n\nAfter deployment, monitor structured data health in Google Search Console under the Enhancements section. Search Console groups issues by type and shows how many pages each error affects. Common ecommerce issues include missing availability values on out-of-stock products, price mismatches between structured data and page content, and missing images.\n\nSet up alerts for structured data errors. When your platform updates its theme or a developer modifies a product template, structured data can break silently. Weekly checks of the Enhancements report in Search Console catch these issues before they affect your search presence for an extended period.\n\nFor stores with large catalogs, automate structured data testing. Tools like Screaming Frog can extract and validate JSON-LD from every page during a crawl, flagging pages where required properties are missing or values have become stale. Schedule monthly automated checks to catch issues at scale.",
           tip: "Create a structured data monitoring checklist: validate with Rich Results Test after any template change, check Search Console Enhancements weekly, and run a full-site crawl with JSON-LD extraction monthly. Structured data issues that go unnoticed for weeks can cost thousands of lost clicks.",
+          image: {
+            src: "/images/academy/schema-testing-workflow.svg",
+            alt: "Four-step workflow diagram showing generate, validate, deploy, and monitor stages for structured data with a feedback loop for error fixing",
+            caption: "Follow a continuous workflow: generate JSON-LD, validate with Google tools, deploy to production, and monitor weekly via Search Console Enhancements.",
+          },
+          callout: {
+            title: "Silent Breakage",
+            text: "A single missing priceCurrency property across thousands of product pages means zero rich results for your entire catalog. Always validate templates before launch and monitor GSC Enhancements weekly.",
+          },
+        },
+        {
+          title: "Entity Signals: How Structured Data Feeds Google's Internal Knowledge Graph",
+          content:
+            "The leak confirmed that structured data feeds into Google's entity understanding well beyond rich-result eligibility. Attributes around entity confidence and topical association rely on consistent, machine-readable signals across the page (Product schema, Brand schema, Organization schema) and across the site (sameAs links, NAP consistency, author markup).\n\nFor ecommerce, the practical move is treating structured data as the data layer Google uses to understand what your store is, not as a rich-snippet trick. Brand schema on every page with consistent legalName, sameAs links to verified social profiles, and Organization schema on the homepage with foundingDate, address, and contactPoint \u2014 these don't typically produce visible SERP changes on day one, but they raise the entity-confidence signals that influence siteAuthority over time.\n\nGetting Product schema right is table stakes. Beyond that, sameAs is the cheapest authority signal you can ship \u2014 link your Brand entity to every verified social profile, Wikipedia page if applicable, and Google Business profile. The leak suggests these cross-references materially influence how Google models your brand entity.",
+          items: [
+            "Structured data feeds entity understanding, not just rich results \u2014 schema is a data layer for Google",
+            "Consistent Brand and Organization schema sitewide raises entity-confidence signals over time",
+            "sameAs links to verified social profiles, Wikipedia, and Google Business are cheap authority signals",
+            "Product schema correctness is table stakes; entity-level schema is the multiplier",
+          ],
         },
       ],
       navLabels: {
@@ -77,6 +106,15 @@ export const structuredDataForProducts: AcademyTopic = {
             "Eine Product-Entität pro Produktseite, Varianten als separate Offer-Objekte",
             "Validieren Sie mit Googles Rich Results Test vor dem Deployment",
           ],
+          image: {
+            src: "/images/academy/de/product-schema-anatomy.svg",
+            alt: "Annotiertes Diagramm das erforderliche und empfohlene Product-Schema-Eigenschaften neben einer Vorschau des resultierenden Google Rich Results mit Sternen, Preis und Verfuegbarkeit zeigt",
+            caption: "Erforderliche Eigenschaften loesen Rich Results aus. Empfohlene Eigenschaften wie Marke, SKU und aggregateRating verdienen erweiterte Eintraege mit Sternbewertungen und Preisangaben.",
+          },
+          callout: {
+            title: "Rich-Results-Boost",
+            text: "Produktseiten mit vollstaendigem Schema-Markup (Name, Preis, Verfuegbarkeit, Bewertungen) sehen 20-35% hoehere Klickraten aus Suchergebnissen im Vergleich zu einfachen Eintraegen ohne Rich Snippets.",
+          },
         },
         {
           title: "AggregateRating- und Review-Markup",
@@ -106,6 +144,26 @@ export const structuredDataForProducts: AcademyTopic = {
           content:
             "Das Deployment strukturierter Daten ohne Validierung ist eine häufige Fehlerquelle, die Rich Results stillschweigend verhindert. Google bietet zwei Tools zum Testen: den Rich Results Test (zur Prüfung, ob eine URL für Rich Results qualifiziert ist) und den Schema Markup Validator (zur Prüfung der allgemeinen Schema-Syntax). Verwenden Sie beide.\n\nDer Rich Results Test zeigt genau, für welche Rich-Result-Typen Ihre Seite berechtigt ist, und markiert alle Fehler oder Warnungen. Lassen Sie jedes Produktseiten-Template vor dem Launch durch dieses Tool laufen. Eine einzelne fehlende erforderliche Eigenschaft (wie priceCurrency) über Tausende von Produktseiten hinweg bedeutet null Rich Results für Ihren gesamten Katalog.\n\nNach dem Deployment überwachen Sie die Gesundheit strukturierter Daten in der Google Search Console im Bereich Verbesserungen. Die Search Console gruppiert Probleme nach Typ und zeigt, wie viele Seiten von jedem Fehler betroffen sind. Häufige Ecommerce-Probleme sind fehlende Verfügbarkeitswerte bei nicht vorrätigen Produkten, Preisdiskrepanzen zwischen strukturierten Daten und Seiteninhalt sowie fehlende Bilder.\n\nRichten Sie Benachrichtigungen für Fehler bei strukturierten Daten ein. Wenn Ihre Plattform ihr Theme aktualisiert oder ein Entwickler ein Produkttemplate ändert, können strukturierte Daten stillschweigend brechen. Wöchentliche Überprüfungen des Verbesserungsberichts in der Search Console fangen diese Probleme auf, bevor sie Ihre Suchpräsenz über einen längeren Zeitraum beeinträchtigen.\n\nFür Shops mit großen Katalogen automatisieren Sie das Testen strukturierter Daten. Tools wie Screaming Frog können JSON-LD von jeder Seite während eines Crawls extrahieren und validieren und Seiten kennzeichnen, auf denen erforderliche Eigenschaften fehlen oder Werte veraltet sind. Planen Sie monatliche automatisierte Checks, um Probleme im großen Maßstab zu erkennen.",
           tip: "Erstellen Sie eine Monitoring-Checkliste für strukturierte Daten: Validieren Sie mit dem Rich Results Test nach jeder Template-Änderung, prüfen Sie die Search Console Verbesserungen wöchentlich und führen Sie monatlich einen Full-Site-Crawl mit JSON-LD-Extraktion durch. Probleme mit strukturierten Daten, die wochenlang unbemerkt bleiben, können Tausende verlorener Klicks kosten.",
+          image: {
+            src: "/images/academy/de/schema-testing-workflow.svg",
+            alt: "Vierstufiges Workflow-Diagramm das Erstellen, Validieren, Bereitstellen und Ueberwachen von strukturierten Daten zeigt mit einer Feedback-Schleife zur Fehlerbehebung",
+            caption: "Folgen Sie einem kontinuierlichen Workflow: JSON-LD erstellen, mit Google-Tools validieren, in Produktion bereitstellen und woechentlich via Search Console Verbesserungen ueberwachen.",
+          },
+          callout: {
+            title: "Stiller Bruch",
+            text: "Eine einzige fehlende priceCurrency-Eigenschaft auf Tausenden von Produktseiten bedeutet null Rich Results fuer Ihren gesamten Katalog. Validieren Sie immer Vorlagen vor dem Launch und ueberwachen Sie GSC-Verbesserungen woechentlich.",
+          },
+        },
+        {
+          title: "Entity-Signale: Wie strukturierte Daten Googles internen Knowledge Graph naehren",
+          content:
+            "Das Leak bestaetigte, dass strukturierte Daten weit ueber Rich-Result-Eligibility hinaus in Googles Entity-Verstaendnis einfliessen. Attribute rund um Entity-Konfidenz und topische Assoziation verlassen sich auf konsistente, maschinenlesbare Signale ueber die Seite (Product-Schema, Brand-Schema, Organization-Schema) und ueber die Site (sameAs-Links, NAP-Konsistenz, Author-Markup).\n\nFuer E-Commerce ist der praktische Schritt, strukturierte Daten als die Datenschicht zu behandeln, die Google nutzt, um zu verstehen, was Ihr Shop ist - nicht als Rich-Snippet-Trick. Brand-Schema auf jeder Seite mit konsistentem legalName, sameAs-Links zu verifizierten sozialen Profilen und Organization-Schema auf der Homepage mit foundingDate, Adresse und contactPoint - diese produzieren typischerweise keine sichtbaren SERP-Aenderungen am ersten Tag, aber sie heben die Entity-Konfidenz-Signale, die siteAuthority im Laufe der Zeit beeinflussen.\n\nProduct-Schema richtig zu bekommen ist Tischeinsatz. Daruebernachhinaus ist sameAs das billigste Autoritaets-Signal, das Sie shippen koennen - verlinken Sie Ihre Brand-Entity zu jedem verifizierten sozialen Profil, Wikipedia-Seite falls anwendbar und Google Business-Profil. Das Leak deutet an, dass diese Quer-Referenzen Googles Modell Ihrer Brand-Entity materiell beeinflussen.",
+          items: [
+            "Strukturierte Daten naehren Entity-Verstaendnis, nicht nur Rich-Results - Schema ist eine Datenschicht fuer Google",
+            "Konsistentes Brand- und Organization-Schema sitewide hebt Entity-Konfidenz-Signale ueber die Zeit",
+            "sameAs-Links zu verifizierten sozialen Profilen, Wikipedia und Google Business sind billige Autoritaets-Signale",
+            "Product-Schema-Korrektheit ist Tischeinsatz; Entity-Level-Schema ist der Multiplikator",
+          ],
         },
       ],
       navLabels: {
@@ -131,6 +189,15 @@ export const structuredDataForProducts: AcademyTopic = {
             "Une entité Product par page produit, les variantes comme objets Offer séparés",
             "Validez avec le test de résultats enrichis de Google avant le déploiement",
           ],
+          image: {
+            src: "/images/academy/fr/product-schema-anatomy.svg",
+            alt: "Annotiertes Diagramm das erforderliche und empfohlene Product-Schema-Eigenschaften neben einer Vorschau des resultierenden Google Rich Results mit Sternen, Preis und Verfuegbarkeit zeigt",
+            caption: "Erforderliche Eigenschaften loesen Rich Results aus. Empfohlene Eigenschaften wie Marke, SKU und aggregateRating verdienen erweiterte Eintraege mit Sternbewertungen und Preisangaben.",
+          },
+          callout: {
+            title: "Rich-Results-Boost",
+            text: "Produktseiten mit vollstaendigem Schema-Markup (Name, Preis, Verfuegbarkeit, Bewertungen) sehen 20-35% hoehere Klickraten aus Suchergebnissen im Vergleich zu einfachen Eintraegen ohne Rich Snippets.",
+          },
         },
         {
           title: "Balisage AggregateRating et Review",
@@ -160,6 +227,26 @@ export const structuredDataForProducts: AcademyTopic = {
           content:
             "Déployer des données structurées sans validation est une source courante d'erreurs qui empêchent silencieusement les résultats enrichis. Google fournit deux outils de test : le test de résultats enrichis (pour vérifier si une URL est éligible aux résultats enrichis) et le validateur de balisage Schema (pour vérifier la syntaxe générale du schema). Utilisez les deux.\n\nLe test de résultats enrichis montre exactement quels types de résultats enrichis votre page est éligible à obtenir et signale toute erreur ou avertissement. Faites passer chaque template de page produit par cet outil avant le lancement. Une seule propriété requise manquante (comme priceCurrency) sur des milliers de pages produit signifie zéro résultat enrichi pour tout votre catalogue.\n\nAprès le déploiement, surveillez la santé des données structurées dans Google Search Console sous la section Améliorations. La Search Console groupe les problèmes par type et montre combien de pages chaque erreur affecte. Les problèmes e-commerce courants incluent les valeurs de disponibilité manquantes sur les produits en rupture de stock, les décalages de prix entre les données structurées et le contenu de la page, et les images manquantes.\n\nMettez en place des alertes pour les erreurs de données structurées. Quand votre plateforme met à jour son thème ou qu'un développeur modifie un template produit, les données structurées peuvent casser silencieusement. Des vérifications hebdomadaires du rapport Améliorations dans la Search Console détectent ces problèmes avant qu'ils n'affectent votre présence dans les recherches pendant une période prolongée.\n\nPour les boutiques avec de grands catalogues, automatisez les tests de données structurées. Des outils comme Screaming Frog peuvent extraire et valider le JSON-LD de chaque page pendant un crawl, signalant les pages où des propriétés requises manquent ou des valeurs sont devenues obsolètes. Planifiez des vérifications automatisées mensuelles pour détecter les problèmes à grande échelle.",
           tip: "Créez une checklist de surveillance des données structurées : validez avec le test de résultats enrichis après chaque changement de template, vérifiez les Améliorations de la Search Console chaque semaine, et lancez un crawl complet du site avec extraction JSON-LD chaque mois. Les problèmes de données structurées qui passent inaperçus pendant des semaines peuvent coûter des milliers de clics perdus.",
+          image: {
+            src: "/images/academy/fr/schema-testing-workflow.svg",
+            alt: "Vierstufiges Workflow-Diagramm das Erstellen, Validieren, Bereitstellen und Ueberwachen von strukturierten Daten zeigt mit einer Feedback-Schleife zur Fehlerbehebung",
+            caption: "Folgen Sie einem kontinuierlichen Workflow: JSON-LD erstellen, mit Google-Tools validieren, in Produktion bereitstellen und woechentlich via Search Console Verbesserungen ueberwachen.",
+          },
+          callout: {
+            title: "Stiller Bruch",
+            text: "Eine einzige fehlende priceCurrency-Eigenschaft auf Tausenden von Produktseiten bedeutet null Rich Results fuer Ihren gesamten Katalog. Validieren Sie immer Vorlagen vor dem Launch und ueberwachen Sie GSC-Verbesserungen woechentlich.",
+          },
+        },
+        {
+          title: "Signaux d'entite : Comment les donnees structurees alimentent le Knowledge Graph interne de Google",
+          content:
+            "Le leak a confirme que les donnees structurees alimentent la comprehension d'entite de Google bien au-dela de l'eligibilite aux rich results. Les attributs autour de la confiance d'entite et de l'association thematique reposent sur des signaux coherents et lisibles par machine a travers la page (Product schema, Brand schema, Organization schema) et a travers le site (liens sameAs, coherence NAP, balisage d'auteur).\n\nPour l'ecommerce, le mouvement pratique est de traiter les donnees structurees comme la couche de donnees que Google utilise pour comprendre ce qu'est votre boutique, pas comme une astuce rich-snippet. Brand schema sur chaque page avec legalName coherent, liens sameAs vers des profils sociaux verifies, et Organization schema sur la page d'accueil avec foundingDate, adresse et contactPoint - ceux-ci ne produisent typiquement pas de changements SERP visibles le premier jour, mais ils elevent les signaux de confiance d'entite qui influencent siteAuthority au fil du temps.\n\nObtenir le Product schema correct est table stakes. Au-dela de cela, sameAs est le signal d'autorite le moins cher que vous puissiez livrer - liez votre entite Brand a chaque profil social verifie, page Wikipedia si applicable, et profil Google Business. Le leak suggere que ces references croisees influencent materiellement la facon dont Google modelise votre entite Brand.",
+          items: [
+            "Les donnees structurees alimentent la comprehension d'entite, pas seulement les rich results - le schema est une couche de donnees pour Google",
+            "Brand et Organization schema coherents sitewide elevent les signaux de confiance d'entite au fil du temps",
+            "Liens sameAs vers profils sociaux verifies, Wikipedia et Google Business sont des signaux d'autorite bon marche",
+            "La correction du Product schema est table stakes ; le schema au niveau entite est le multiplicateur",
+          ],
         },
       ],
       navLabels: {
@@ -185,6 +272,15 @@ export const structuredDataForProducts: AcademyTopic = {
             "Una entidad Product por página de producto, variantes como objetos Offer separados",
             "Valida con la Prueba de Resultados Enriquecidos de Google antes de desplegar",
           ],
+          image: {
+            src: "/images/academy/es/product-schema-anatomy.svg",
+            alt: "Annotiertes Diagramm das erforderliche und empfohlene Product-Schema-Eigenschaften neben einer Vorschau des resultierenden Google Rich Results mit Sternen, Preis und Verfuegbarkeit zeigt",
+            caption: "Erforderliche Eigenschaften loesen Rich Results aus. Empfohlene Eigenschaften wie Marke, SKU und aggregateRating verdienen erweiterte Eintraege mit Sternbewertungen und Preisangaben.",
+          },
+          callout: {
+            title: "Rich-Results-Boost",
+            text: "Produktseiten mit vollstaendigem Schema-Markup (Name, Preis, Verfuegbarkeit, Bewertungen) sehen 20-35% hoehere Klickraten aus Suchergebnissen im Vergleich zu einfachen Eintraegen ohne Rich Snippets.",
+          },
         },
         {
           title: "Marcado AggregateRating y Review",
@@ -214,6 +310,26 @@ export const structuredDataForProducts: AcademyTopic = {
           content:
             "Desplegar datos estructurados sin validación es una fuente común de errores que silenciosamente previenen los resultados enriquecidos. Google proporciona dos herramientas de prueba: la Prueba de Resultados Enriquecidos (para verificar si una URL califica para resultados enriquecidos) y el Validador de Marcado Schema (para verificar la sintaxis general del schema). Usa ambas.\n\nLa Prueba de Resultados Enriquecidos muestra exactamente para qué tipos de resultados enriquecidos tu página es elegible y marca cualquier error o advertencia. Pasa cada plantilla de página de producto por esta herramienta antes del lanzamiento. Una sola propiedad requerida faltante (como priceCurrency) en miles de páginas de producto significa cero resultados enriquecidos para todo tu catálogo.\n\nDespués del despliegue, monitorea la salud de los datos estructurados en Google Search Console bajo la sección Mejoras. Search Console agrupa los problemas por tipo y muestra cuántas páginas afecta cada error. Los problemas comunes de ecommerce incluyen valores de disponibilidad faltantes en productos agotados, discrepancias de precio entre datos estructurados y contenido de página, e imágenes faltantes.\n\nConfigura alertas para errores de datos estructurados. Cuando tu plataforma actualiza su tema o un desarrollador modifica una plantilla de producto, los datos estructurados pueden romperse silenciosamente. Revisiones semanales del informe de Mejoras en Search Console detectan estos problemas antes de que afecten tu presencia en búsquedas por un período prolongado.\n\nPara tiendas con catálogos grandes, automatiza las pruebas de datos estructurados. Herramientas como Screaming Frog pueden extraer y validar JSON-LD de cada página durante un rastreo, señalando páginas donde faltan propiedades requeridas o los valores se han vuelto obsoletos. Programa verificaciones automatizadas mensuales para detectar problemas a escala.",
           tip: "Crea una checklist de monitoreo de datos estructurados: valida con la Prueba de Resultados Enriquecidos después de cualquier cambio de plantilla, revisa las Mejoras de Search Console semanalmente, y ejecuta un rastreo completo del sitio con extracción JSON-LD mensualmente. Los problemas de datos estructurados que pasan desapercibidos durante semanas pueden costar miles de clics perdidos.",
+          image: {
+            src: "/images/academy/es/schema-testing-workflow.svg",
+            alt: "Vierstufiges Workflow-Diagramm das Erstellen, Validieren, Bereitstellen und Ueberwachen von strukturierten Daten zeigt mit einer Feedback-Schleife zur Fehlerbehebung",
+            caption: "Folgen Sie einem kontinuierlichen Workflow: JSON-LD erstellen, mit Google-Tools validieren, in Produktion bereitstellen und woechentlich via Search Console Verbesserungen ueberwachen.",
+          },
+          callout: {
+            title: "Stiller Bruch",
+            text: "Eine einzige fehlende priceCurrency-Eigenschaft auf Tausenden von Produktseiten bedeutet null Rich Results fuer Ihren gesamten Katalog. Validieren Sie immer Vorlagen vor dem Launch und ueberwachen Sie GSC-Verbesserungen woechentlich.",
+          },
+        },
+        {
+          title: "Senales de entidad: Como los datos estructurados alimentan el Knowledge Graph interno de Google",
+          content:
+            "El leak confirmo que los datos estructurados alimentan la comprension de entidades de Google mucho mas alla de la elegibilidad para rich results. Atributos alrededor de la confianza de entidad y asociacion topica dependen de senales consistentes y legibles por maquina a traves de la pagina (Product schema, Brand schema, Organization schema) y a traves del sitio (enlaces sameAs, consistencia NAP, markup de autor).\n\nPara ecommerce, el movimiento practico es tratar los datos estructurados como la capa de datos que Google usa para entender lo que es tu tienda, no como un truco de rich snippet. Brand schema en cada pagina con legalName consistente, enlaces sameAs a perfiles sociales verificados, y Organization schema en la homepage con foundingDate, direccion y contactPoint - estos tipicamente no producen cambios visibles en SERP el primer dia, pero elevan las senales de confianza de entidad que influyen siteAuthority en el tiempo.\n\nHacer Product schema correctamente es table stakes. Mas alla de eso, sameAs es la senal de autoridad mas barata que puedes enviar - enlaza tu entidad Brand a cada perfil social verificado, pagina de Wikipedia si aplica, y perfil Google Business. El leak sugiere que estas referencias cruzadas influyen materialmente como Google modela tu entidad Brand.",
+          items: [
+            "Los datos estructurados alimentan la comprension de entidad, no solo los rich results - el schema es una capa de datos para Google",
+            "Brand y Organization schema consistente sitewide eleva las senales de confianza de entidad en el tiempo",
+            "Enlaces sameAs a perfiles sociales verificados, Wikipedia y Google Business son senales de autoridad baratas",
+            "La correccion del Product schema es table stakes; el schema a nivel entidad es el multiplicador",
+          ],
         },
       ],
       navLabels: {
@@ -239,6 +355,15 @@ export const structuredDataForProducts: AcademyTopic = {
             "Un'entità Product per pagina prodotto, varianti come oggetti Offer separati",
             "Valida con il Rich Results Test di Google prima del deployment",
           ],
+          image: {
+            src: "/images/academy/it/product-schema-anatomy.svg",
+            alt: "Annotiertes Diagramm das erforderliche und empfohlene Product-Schema-Eigenschaften neben einer Vorschau des resultierenden Google Rich Results mit Sternen, Preis und Verfuegbarkeit zeigt",
+            caption: "Erforderliche Eigenschaften loesen Rich Results aus. Empfohlene Eigenschaften wie Marke, SKU und aggregateRating verdienen erweiterte Eintraege mit Sternbewertungen und Preisangaben.",
+          },
+          callout: {
+            title: "Rich-Results-Boost",
+            text: "Produktseiten mit vollstaendigem Schema-Markup (Name, Preis, Verfuegbarkeit, Bewertungen) sehen 20-35% hoehere Klickraten aus Suchergebnissen im Vergleich zu einfachen Eintraegen ohne Rich Snippets.",
+          },
         },
         {
           title: "Markup AggregateRating e Review",
@@ -268,6 +393,26 @@ export const structuredDataForProducts: AcademyTopic = {
           content:
             "Distribuire dati strutturati senza validazione è una fonte comune di errori che silenziosamente impediscono i risultati arricchiti. Google fornisce due strumenti di test: il Rich Results Test (per verificare se un URL è eleggibile per risultati arricchiti) e lo Schema Markup Validator (per verificare la sintassi generale dello schema). Usa entrambi.\n\nIl Rich Results Test mostra esattamente per quali tipi di risultati arricchiti la tua pagina è eleggibile e segnala eventuali errori o avvisi. Fai passare ogni template di pagina prodotto attraverso questo strumento prima del lancio. Una singola proprietà richiesta mancante (come priceCurrency) su migliaia di pagine prodotto significa zero risultati arricchiti per l'intero catalogo.\n\nDopo il deployment, monitora la salute dei dati strutturati in Google Search Console sotto la sezione Miglioramenti. La Search Console raggruppa i problemi per tipo e mostra quante pagine ogni errore colpisce. I problemi ecommerce comuni includono valori di disponibilità mancanti su prodotti esauriti, discrepanze di prezzo tra dati strutturati e contenuto della pagina, e immagini mancanti.\n\nImposta avvisi per errori nei dati strutturati. Quando la tua piattaforma aggiorna il suo tema o uno sviluppatore modifica un template prodotto, i dati strutturati possono rompersi silenziosamente. Controlli settimanali del report Miglioramenti nella Search Console rilevano questi problemi prima che influenzino la tua presenza nelle ricerche per un periodo prolungato.\n\nPer negozi con cataloghi grandi, automatizza i test dei dati strutturati. Strumenti come Screaming Frog possono estrarre e validare JSON-LD da ogni pagina durante una scansione, segnalando pagine dove mancano proprietà richieste o i valori sono diventati obsoleti. Programma controlli automatizzati mensili per rilevare problemi su larga scala.",
           tip: "Crea una checklist di monitoraggio dei dati strutturati: valida con il Rich Results Test dopo ogni modifica del template, controlla i Miglioramenti della Search Console settimanalmente, e lancia una scansione completa del sito con estrazione JSON-LD mensilmente. Problemi di dati strutturati che passano inosservati per settimane possono costare migliaia di clic persi.",
+          image: {
+            src: "/images/academy/it/schema-testing-workflow.svg",
+            alt: "Vierstufiges Workflow-Diagramm das Erstellen, Validieren, Bereitstellen und Ueberwachen von strukturierten Daten zeigt mit einer Feedback-Schleife zur Fehlerbehebung",
+            caption: "Folgen Sie einem kontinuierlichen Workflow: JSON-LD erstellen, mit Google-Tools validieren, in Produktion bereitstellen und woechentlich via Search Console Verbesserungen ueberwachen.",
+          },
+          callout: {
+            title: "Stiller Bruch",
+            text: "Eine einzige fehlende priceCurrency-Eigenschaft auf Tausenden von Produktseiten bedeutet null Rich Results fuer Ihren gesamten Katalog. Validieren Sie immer Vorlagen vor dem Launch und ueberwachen Sie GSC-Verbesserungen woechentlich.",
+          },
+        },
+        {
+          title: "Segnali di entita: Come i dati strutturati alimentano il Knowledge Graph interno di Google",
+          content:
+            "Il leak ha confermato che i dati strutturati alimentano la comprensione delle entita di Google ben oltre l'eleggibilita ai rich result. Gli attributi attorno alla confidenza di entita e all'associazione tematica si basano su segnali coerenti e leggibili dalla macchina attraverso la pagina (Product schema, Brand schema, Organization schema) e attraverso il sito (link sameAs, coerenza NAP, markup dell'autore).\n\nPer l'ecommerce, la mossa pratica e trattare i dati strutturati come il livello di dati che Google usa per capire cos'e il tuo negozio, non come un trucco da rich snippet. Brand schema su ogni pagina con legalName coerente, link sameAs a profili social verificati, e Organization schema sulla homepage con foundingDate, indirizzo e contactPoint - questi tipicamente non producono cambiamenti visibili nel SERP il primo giorno, ma elevano i segnali di confidenza di entita che influenzano siteAuthority nel tempo.\n\nFare Product schema correttamente e table stakes. Oltre a questo, sameAs e il segnale di autorita piu economico che puoi spedire - collega la tua entita Brand a ogni profilo social verificato, pagina Wikipedia se applicabile, e profilo Google Business. Il leak suggerisce che questi riferimenti incrociati influenzano materialmente come Google modella la tua entita Brand.",
+          items: [
+            "I dati strutturati alimentano la comprensione di entita, non solo i rich result - lo schema e un livello di dati per Google",
+            "Brand e Organization schema coerente sitewide eleva i segnali di confidenza di entita nel tempo",
+            "Link sameAs a profili social verificati, Wikipedia e Google Business sono segnali di autorita economici",
+            "La correttezza del Product schema e table stakes; lo schema a livello entita e il moltiplicatore",
+          ],
         },
       ],
       navLabels: {
@@ -293,6 +438,15 @@ export const structuredDataForProducts: AcademyTopic = {
             "Eén Product-entiteit per productpagina, varianten als aparte Offer-objecten",
             "Valideer met Google's Rich Results Test vóór deployment",
           ],
+          image: {
+            src: "/images/academy/nl/product-schema-anatomy.svg",
+            alt: "Annotiertes Diagramm das erforderliche und empfohlene Product-Schema-Eigenschaften neben einer Vorschau des resultierenden Google Rich Results mit Sternen, Preis und Verfuegbarkeit zeigt",
+            caption: "Erforderliche Eigenschaften loesen Rich Results aus. Empfohlene Eigenschaften wie Marke, SKU und aggregateRating verdienen erweiterte Eintraege mit Sternbewertungen und Preisangaben.",
+          },
+          callout: {
+            title: "Rich-Results-Boost",
+            text: "Produktseiten mit vollstaendigem Schema-Markup (Name, Preis, Verfuegbarkeit, Bewertungen) sehen 20-35% hoehere Klickraten aus Suchergebnissen im Vergleich zu einfachen Eintraegen ohne Rich Snippets.",
+          },
         },
         {
           title: "AggregateRating en Review markup",
@@ -322,6 +476,26 @@ export const structuredDataForProducts: AcademyTopic = {
           content:
             "Gestructureerde data deployen zonder validatie is een veelvoorkomende bron van fouten die stilletjes rijke resultaten voorkomen. Google biedt twee testtools: de Rich Results Test (om te controleren of een URL in aanmerking komt voor rijke resultaten) en de Schema Markup Validator (om de algemene schemasyntax te controleren). Gebruik beide.\n\nDe Rich Results Test toont precies voor welke typen rijke resultaten je pagina in aanmerking komt en markeert eventuele fouten of waarschuwingen. Laat elk productpagina-template door deze tool lopen vóór de lancering. Een enkele ontbrekende vereiste eigenschap (zoals priceCurrency) over duizenden productpagina's betekent nul rijke resultaten voor je hele catalogus.\n\nNa deployment, monitor de gezondheid van gestructureerde data in Google Search Console onder de sectie Verbeteringen. Search Console groepeert problemen per type en toont hoeveel pagina's elke fout treft. Veelvoorkomende ecommerce-problemen zijn ontbrekende beschikbaarheidswaarden bij uitverkochte producten, prijsdiscrepanties tussen gestructureerde data en pagina-inhoud, en ontbrekende afbeeldingen.\n\nStel alerts in voor fouten in gestructureerde data. Wanneer je platform zijn thema bijwerkt of een ontwikkelaar een producttemplate wijzigt, kunnen gestructureerde data stilletjes breken. Wekelijkse controles van het Verbeteringen-rapport in Search Console vangen deze problemen op voordat ze je zoekpresentie voor een langere periode beïnvloeden.\n\nVoor winkels met grote catalogi, automatiseer het testen van gestructureerde data. Tools zoals Screaming Frog kunnen JSON-LD van elke pagina extraheren en valideren tijdens een crawl, en pagina's markeren waar vereiste eigenschappen ontbreken of waarden verouderd zijn. Plan maandelijkse geautomatiseerde controles om problemen op schaal te detecteren.",
           tip: "Maak een monitoringchecklist voor gestructureerde data: valideer met de Rich Results Test na elke templatewijziging, controleer Search Console Verbeteringen wekelijks, en voer maandelijks een volledige sitecrawl uit met JSON-LD-extractie. Problemen met gestructureerde data die wekenlang onopgemerkt blijven, kunnen duizenden verloren klikken kosten.",
+          image: {
+            src: "/images/academy/nl/schema-testing-workflow.svg",
+            alt: "Vierstufiges Workflow-Diagramm das Erstellen, Validieren, Bereitstellen und Ueberwachen von strukturierten Daten zeigt mit einer Feedback-Schleife zur Fehlerbehebung",
+            caption: "Folgen Sie einem kontinuierlichen Workflow: JSON-LD erstellen, mit Google-Tools validieren, in Produktion bereitstellen und woechentlich via Search Console Verbesserungen ueberwachen.",
+          },
+          callout: {
+            title: "Stiller Bruch",
+            text: "Eine einzige fehlende priceCurrency-Eigenschaft auf Tausenden von Produktseiten bedeutet null Rich Results fuer Ihren gesamten Katalog. Validieren Sie immer Vorlagen vor dem Launch und ueberwachen Sie GSC-Verbesserungen woechentlich.",
+          },
+        },
+        {
+          title: "Entiteit-signalen: Hoe gestructureerde data Googles interne Knowledge Graph voedt",
+          content:
+            "Het leak bevestigde dat gestructureerde data Googles entiteitsbegrip ver buiten rich-result-eligibility voedt. Attributen rond entity-confidence en topische associatie vertrouwen op consistente, machine-leesbare signalen over de pagina (Product schema, Brand schema, Organization schema) en over de site (sameAs links, NAP-consistentie, auteur-markup).\n\nVoor ecommerce is de praktische beweging om gestructureerde data te behandelen als de datalaag die Google gebruikt om te begrijpen wat jouw winkel is, niet als een rich-snippet-truc. Brand schema op elke pagina met consistente legalName, sameAs links naar geverifieerde sociale profielen, en Organization schema op de homepage met foundingDate, adres en contactPoint - deze produceren doorgaans geen zichtbare SERP-veranderingen op dag een, maar ze verhogen de entity-confidence-signalen die siteAuthority in de loop van de tijd beinvloeden.\n\nProduct schema correct krijgen is table stakes. Daarnaast is sameAs het goedkoopste autoriteitssignaal dat je kunt verzenden - link je Brand-entiteit naar elk geverifieerd sociaal profiel, Wikipedia-pagina indien van toepassing, en Google Business-profiel. Het leak suggereert dat deze kruisverwijzingen materieel beinvloeden hoe Google jouw Brand-entiteit modelleert.",
+          items: [
+            "Gestructureerde data voedt entiteitsbegrip, niet alleen rich results - schema is een datalaag voor Google",
+            "Consistente Brand- en Organization-schema sitewide verhoogt entity-confidence-signalen door de tijd",
+            "sameAs links naar geverifieerde sociale profielen, Wikipedia en Google Business zijn goedkope autoriteitssignalen",
+            "Product schema-correctheid is table stakes; entiteit-niveau schema is de vermenigvuldiger",
+          ],
         },
       ],
       navLabels: {

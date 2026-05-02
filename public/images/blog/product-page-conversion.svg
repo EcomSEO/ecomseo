@@ -1,0 +1,17 @@
+<svg viewBox="0 0 680 220" xmlns="http://www.w3.org/2000/svg" fill="none" font-family="Arial,sans-serif">
+  <text x="340" y="24" text-anchor="middle" fill="#a78bfa" font-size="14" font-weight="bold">Organic Conversion Rates by Page Type</text>
+  <!-- Bars horizontal -->
+  <text x="148" y="64" text-anchor="end" fill="#e2e8f0" font-size="11">Product Pages</text>
+  <rect x="156" y="50" width="300" height="24" rx="4" fill="#4ade80" opacity="0.5"/>
+  <text x="466" y="66" fill="#4ade80" font-size="11" font-weight="bold">3-5%</text>
+  <text x="148" y="104" text-anchor="end" fill="#e2e8f0" font-size="11">Category Pages</text>
+  <rect x="156" y="90" width="150" height="24" rx="4" fill="#60a5fa" opacity="0.5"/>
+  <text x="316" y="106" fill="#60a5fa" font-size="11" font-weight="bold">1-2%</text>
+  <text x="148" y="144" text-anchor="end" fill="#e2e8f0" font-size="11">Blog Content</text>
+  <rect x="156" y="130" width="52" height="24" rx="4" fill="#a78bfa" opacity="0.4"/>
+  <text x="218" y="146" fill="#a78bfa" font-size="11" font-weight="bold">0.3-0.8%</text>
+  <!-- Annotation -->
+  <rect x="156" y="170" width="380" height="38" rx="6" fill="#4ade80" opacity="0.08" stroke="#4ade80" stroke-width="1"/>
+  <text x="346" y="190" text-anchor="middle" fill="#e2e8f0" font-size="10">500 optimized product pages x 10 visits/mo x 4% CVR = 200 sales/month</text>
+  <text x="346" y="202" text-anchor="middle" fill="#94a3b8" font-size="9">from product page SEO alone</text>
+</svg>

@@ -26,7 +26,7 @@ function renderHeading(text: string) {
   );
 }
 
-const fabianImage = "/images/framer/C23VbBxvj2kY5TMoXAJHXWVLaA.webp";
+const fabianImage = "/images/framer/fabian-van-til-new.jpeg";
 
 export default function Team() {
   const locale = useLocale();
@@ -50,6 +50,7 @@ export default function Team() {
             <Image
               src={fabian.image}
               alt={fabian.name}
+              title={fabian.name}
               fill
               className="object-cover"
               sizes="(max-width: 1024px) 100vw, 50vw"
@@ -82,10 +83,9 @@ export default function Team() {
             </p>
             <div className="pt-2">
               <Button
-                href="https://w35pmime997.typeform.com/to/eqeeLQvb"
+                href="/demo"
                 variant="primary"
                 size="large"
-                external
               >
                 {t.cta} &nbsp;→
               </Button>

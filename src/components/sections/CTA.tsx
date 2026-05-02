@@ -46,10 +46,9 @@ export default function CTA() {
             </p>
             <div className="mt-2">
               <Button
-                href="https://w35pmime997.typeform.com/to/eqeeLQvb"
+                href="/demo"
                 variant="primary"
                 size="large"
-                external
               >
                 {t.cta}
               </Button>

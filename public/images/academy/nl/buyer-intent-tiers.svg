@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 340" fill="none">
+  <text x="340" y="24" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="700" fill="#a78bfa">Zoekwoord-intentieniveaus &amp; conversiepercentages</text>
+  <!-- Tier 1 -->
+  <rect x="20" y="50" width="640" height="56" rx="8" stroke="#4ade80" stroke-width="1.5" fill="#4ade80" fill-opacity="0.08"/>
+  <text x="40" y="72" font-family="Arial,sans-serif" font-size="12" font-weight="700" fill="#4ade80">Niveau 1 - Nu kopen</text>
+  <text x="40" y="92" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Productnaam + kopen/prijs/bestellen/SKU</text>
+  <rect x="460" y="62" width="80" height="30" rx="6" fill="#4ade80" fill-opacity="0.15"/>
+  <text x="500" y="82" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="700" fill="#4ade80">5-10%</text>
+  <text x="570" y="82" font-family="Arial,sans-serif" font-size="10" fill="#94a3b8">Productpagina's</text>
+  <!-- Tier 2 -->
+  <rect x="60" y="116" width="600" height="56" rx="8" stroke="#60a5fa" stroke-width="1.5" fill="#60a5fa" fill-opacity="0.08"/>
+  <text x="80" y="138" font-family="Arial,sans-serif" font-size="12" font-weight="700" fill="#60a5fa">Niveau 2 - Vergelijken</text>
+  <text x="80" y="158" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">beste / vs / review / top 10</text>
+  <rect x="460" y="128" width="80" height="30" rx="6" fill="#60a5fa" fill-opacity="0.15"/>
+  <text x="500" y="148" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="700" fill="#60a5fa">2-4%</text>
+  <text x="570" y="148" font-family="Arial,sans-serif" font-size="10" fill="#94a3b8">Categoriepagina's</text>
+  <!-- Tier 3 -->
+  <rect x="100" y="182" width="560" height="56" rx="8" stroke="#f97316" stroke-width="1.5" fill="#f97316" fill-opacity="0.08"/>
+  <text x="120" y="204" font-family="Arial,sans-serif" font-size="12" font-weight="700" fill="#f97316">Niveau 3 - Oplossing zoeken</text>
+  <text x="120" y="224" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Probleem-/use-case-beschrijvingen</text>
+  <rect x="460" y="194" width="80" height="30" rx="6" fill="#f97316" fill-opacity="0.15"/>
+  <text x="500" y="214" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="700" fill="#f97316">1-3%</text>
+  <text x="570" y="214" font-family="Arial,sans-serif" font-size="10" fill="#94a3b8">Gefilterde pagina's</text>
+  <!-- Tier 4 -->
+  <rect x="140" y="248" width="520" height="56" rx="8" stroke="#94a3b8" stroke-width="1.5" fill="#94a3b8" fill-opacity="0.05"/>
+  <text x="160" y="270" font-family="Arial,sans-serif" font-size="12" font-weight="700" fill="#94a3b8">Niveau 4 - Leren</text>
+  <text x="160" y="290" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">hoe / wat is / gids</text>
+  <rect x="460" y="260" width="80" height="30" rx="6" fill="#94a3b8" fill-opacity="0.1"/>
+  <text x="500" y="280" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="700" fill="#94a3b8">&lt;0.5%</text>
+  <text x="570" y="280" font-family="Arial,sans-serif" font-size="10" fill="#94a3b8">Blogcontent</text>
+  <!-- Intent arrow -->
+  <text x="12" y="198" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#94a3b8" transform="rotate(-90, 12, 198)">Hogere koopintentie</text>
+  <line x1="12" y1="100" x2="12" y2="55" stroke="#4ade80" stroke-width="1.5" marker-end="url(#arrowI)"/>
+  <!-- Label -->
+  <text x="340" y="330" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#94a3b8">Smallere niveaus = hogere conversie, lager volume. Prioriteer niveau 1-2 voor omzet.</text>
+  <defs>
+    <marker id="arrowI" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6" fill="none" stroke="#4ade80" stroke-width="1"/>
+    </marker>
+  </defs>
+</svg>

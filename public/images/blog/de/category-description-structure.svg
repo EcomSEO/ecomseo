@@ -1,0 +1,45 @@
+<svg viewBox="0 0 680 300" xmlns="http://www.w3.org/2000/svg" fill="none" font-family="Arial,sans-serif">
+  <text x="340" y="28" text-anchor="middle" fill="#a78bfa" font-size="14" font-weight="bold">Category Description Structure for SEO</text>
+  <!-- Page layout mockup -->
+  <rect x="40" y="48" width="280" height="240" rx="8" stroke="#e2e8f0" stroke-width="1" opacity="0.4"/>
+  <text x="180" y="68" text-anchor="middle" fill="#e2e8f0" font-size="10" font-weight="bold">Category Page Layout</text>
+  <!-- H1 -->
+  <rect x="56" y="80" width="248" height="20" rx="4" stroke="#4ade80" stroke-width="1.5"/>
+  <text x="180" y="94" text-anchor="middle" fill="#4ade80" font-size="9" font-weight="bold">H1: Women's Running Shoes</text>
+  <!-- Above fold text -->
+  <rect x="56" y="108" width="248" height="40" rx="4" stroke="#60a5fa" stroke-width="1.5"/>
+  <text x="180" y="122" text-anchor="middle" fill="#60a5fa" font-size="9" font-weight="bold">Above-fold intro (100-150 words)</text>
+  <text x="180" y="138" text-anchor="middle" fill="#e2e8f0" font-size="8">Primary keyword in first sentence + value prop</text>
+  <!-- Read more -->
+  <text x="180" y="162" text-anchor="middle" fill="#a78bfa" font-size="8" font-weight="bold">[ Read More ]</text>
+  <!-- Product grid -->
+  <rect x="56" y="172" width="56" height="48" rx="3" stroke="#e2e8f0" stroke-width="0.5" opacity="0.4"/>
+  <rect x="120" y="172" width="56" height="48" rx="3" stroke="#e2e8f0" stroke-width="0.5" opacity="0.4"/>
+  <rect x="184" y="172" width="56" height="48" rx="3" stroke="#e2e8f0" stroke-width="0.5" opacity="0.4"/>
+  <rect x="248" y="172" width="56" height="48" rx="3" stroke="#e2e8f0" stroke-width="0.5" opacity="0.4"/>
+  <text x="180" y="200" text-anchor="middle" fill="#e2e8f0" font-size="8" opacity="0.5">Product Grid</text>
+  <!-- Expanded description below -->
+  <rect x="56" y="228" width="248" height="48" rx="4" stroke="#f97316" stroke-width="1.5"/>
+  <text x="180" y="244" text-anchor="middle" fill="#f97316" font-size="9" font-weight="bold">Full description (300-500 words)</text>
+  <text x="180" y="258" text-anchor="middle" fill="#e2e8f0" font-size="8">Who, what, considerations, why buy here</text>
+  <text x="180" y="270" text-anchor="middle" fill="#e2e8f0" font-size="8">Keyword variations + internal links</text>
+  <!-- Right side: content checklist -->
+  <text x="500" y="60" text-anchor="middle" fill="#e2e8f0" font-size="11" font-weight="bold">Description Components</text>
+  <circle cx="380" cy="88" r="6" stroke="#4ade80" stroke-width="1.5"/>
+  <text x="380" y="92" text-anchor="middle" fill="#4ade80" font-size="8">1</text>
+  <text x="400" y="92" fill="#e2e8f0" font-size="10">What the category includes</text>
+  <circle cx="380" cy="116" r="6" stroke="#60a5fa" stroke-width="1.5"/>
+  <text x="380" y="120" text-anchor="middle" fill="#60a5fa" font-size="8">2</text>
+  <text x="400" y="120" fill="#e2e8f0" font-size="10">Who these products are for</text>
+  <circle cx="380" cy="144" r="6" stroke="#a78bfa" stroke-width="1.5"/>
+  <text x="380" y="148" text-anchor="middle" fill="#a78bfa" font-size="8">3</text>
+  <text x="400" y="148" fill="#e2e8f0" font-size="10">What to consider when choosing</text>
+  <circle cx="380" cy="172" r="6" stroke="#f97316" stroke-width="1.5"/>
+  <text x="380" y="176" text-anchor="middle" fill="#f97316" font-size="8">4</text>
+  <text x="400" y="176" fill="#e2e8f0" font-size="10">Why buy from your store</text>
+  <!-- Warnings -->
+  <text x="500" y="210" text-anchor="middle" fill="#ef4444" font-size="10" font-weight="bold">Avoid</text>
+  <text x="400" y="230" fill="#ef4444" font-size="9">x Keyword-stuffed filler text</text>
+  <text x="400" y="248" fill="#ef4444" font-size="9">x Description below product grid only</text>
+  <text x="400" y="266" fill="#ef4444" font-size="9">x Same template for every category</text>
+</svg>

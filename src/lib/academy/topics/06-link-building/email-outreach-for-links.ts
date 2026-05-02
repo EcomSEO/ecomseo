@@ -29,13 +29,22 @@ export const emailOutreachForLinks: AcademyTopic = {
           title: "Crafting Effective Outreach Emails",
           content:
             "The outreach email is where most link building campaigns succeed or fail. Your email must accomplish three things within the first few seconds: establish relevance, demonstrate value, and make a clear ask. Subject lines should be short, specific, and avoid spammy language, mention the prospect's site name or a specific article to show the email is not mass-produced.\n\nOpen with a genuine reference to the prospect's work. This is not flattery for its own sake, it proves you have actually visited their site and understand their audience. One specific sentence about a recent post they published is far more effective than vague praise.\n\nThe body of your email should clearly explain what you are offering and why it benefits their audience. If you have a comprehensive buying guide, explain what makes it more complete or current than what they currently link to. If you are suggesting a guest post, pitch a specific topic with a brief outline rather than asking what they need. Close with a single, clear call to action. Asking for too many things in one email reduces response rates. Keep the entire email under 150 words, busy editors will not read essays from strangers.",
+          image: {
+            src: "/images/academy/outreach-email-funnel.svg",
+            alt: "Funnel diagram showing email outreach conversion rates from 100 prospects to 3-7 placed links",
+            caption: "A well-targeted campaign converts 100 prospects into 3-7 placed links. Most positive replies come from follow-up emails, not the first touch.",
+          },
           items: [
             "Write subject lines under 50 characters that reference their site name or a specific article",
             "Open with one genuine, specific sentence about their recent content",
             "Clearly state the value your content provides to their audience",
             "Include a single, clear call to action, do not ask for multiple things",
             "Keep the total email under 150 words for maximum readability"
-          ]
+          ],
+          callout: {
+            title: "The 150-Word Rule",
+            text: "Emails under 150 words outperform longer pitches consistently. Lead with value, not with what you want. Editors delete emails that open with 'I would love a link' but respond to emails showing how your content helps their readers.",
+          },
         },
         {
           title: "Personalization at Scale",
@@ -47,13 +56,22 @@ export const emailOutreachForLinks: AcademyTopic = {
           title: "Follow-Up Sequences That Convert",
           content:
             "Most link building opportunities are won on the follow-up, not the initial email. Data across the industry consistently shows that 50-70% of positive replies come from follow-up emails rather than the first touch. Yet many outreach campaigns send a single email and give up.\n\nPlan a three-email sequence spaced five to seven business days apart. The first follow-up should be brief, acknowledge that the recipient is busy and restate your value proposition in one sentence. Add a small additional detail you did not include in the original email, such as a specific data point from your content or a mention that you have updated the resource since your last email.\n\nThe second follow-up is your final attempt. Change the angle slightly, if your first emails focused on the value of your content, this email might mention that you noticed a specific gap on their page you could help fill. If there is still no response after three emails, mark the prospect as unresponsive and move on. Sending more than three emails crosses from persistence into annoyance and can damage your brand reputation.\n\nTrack your follow-up performance separately from initial emails. If your first email gets a 5% response rate but your follow-up sequence pushes total responses to 14%, that data proves the ROI of persistent, respectful follow-up.",
+          image: {
+            src: "/images/academy/follow-up-sequence.svg",
+            alt: "Diagram showing a three-email follow-up sequence with timing and response rate benchmarks",
+            caption: "50-70% of positive replies come from follow-ups. Each email adds a new angle. Stop after three to maintain professionalism.",
+          },
           items: [
             "Plan a three-email sequence with five to seven business days between each message",
             "Keep follow-ups shorter than the original email, one to three sentences is ideal",
             "Add a new angle or detail in each follow-up rather than simply re-sending",
             "Stop after three emails to avoid crossing from persistence into annoyance"
           ],
-          tip: "Schedule follow-up emails for Tuesday through Thursday mornings in the recipient's time zone. Monday inboxes are flooded, and Friday emails get buried over the weekend."
+          tip: "Schedule follow-up emails for Tuesday through Thursday mornings in the recipient's time zone. Monday inboxes are flooded, and Friday emails get buried over the weekend.",
+          callout: {
+            title: "Follow-Up ROI",
+            text: "A first email at 5% response rate jumps to 14% total with a proper follow-up sequence. That means 64% of your placed links come from emails 2 and 3, not your initial pitch.",
+          },
         },
         {
           title: "Tracking Response Rates and Campaign Metrics",
@@ -108,7 +126,16 @@ export const emailOutreachForLinks: AcademyTopic = {
             "Erklaeren Sie klar den Wert, den Ihr Content fuer deren Zielgruppe bietet",
             "Fuegen Sie eine einzige, klare Handlungsaufforderung ein, bitten Sie nicht um mehrere Dinge",
             "Halten Sie die gesamte E-Mail unter 150 Woertern fuer maximale Lesbarkeit"
-          ]
+          ],
+          image: {
+            src: "/images/academy/de/outreach-email-funnel.svg",
+            alt: "Trichterdiagramm das E-Mail-Outreach-Konversionsraten von 100 Interessenten zu 3-7 platzierten Links zeigt",
+            caption: "Eine gut gezielte Kampagne konvertiert 100 Interessenten in 3-7 platzierte Links. Die meisten positiven Antworten kommen aus Follow-up-E-Mails, nicht aus dem ersten Kontakt.",
+          },
+          callout: {
+            title: "Die 150-Woerter-Regel",
+            text: "E-Mails unter 150 Woertern uebertreffen laengere Pitches konsistent. Fuehren Sie mit Mehrwert, nicht mit dem was Sie wollen. Redakteure loeschen E-Mails die mit Ich haette gerne einen Link oeffnen, antworten aber auf E-Mails die zeigen wie Ihr Inhalt deren Lesern hilft.",
+          },
         },
         {
           title: "Personalisierung im grossen Massstab",
@@ -137,7 +164,16 @@ export const emailOutreachForLinks: AcademyTopic = {
             "Streben Sie Oeffnungsraten von 40-60% und Antwortquoten von 8-15% als Basiswerte an",
             "Nutzen Sie ein CRM oder Outreach-Tool, um den Prospect-Status durch die gesamte Pipeline zu verwalten",
             "Fuehren Sie nach jeder Kampagne eine Analyse durch, um die besten Templates und Segmente zu identifizieren"
-          ]
+          ],
+          image: {
+            src: "/images/academy/de/follow-up-sequence.svg",
+            alt: "Diagramm das eine Drei-E-Mail-Follow-Up-Sequenz mit Timing und Antwortrate-Benchmarks zeigt",
+            caption: "50-70% der positiven Antworten kommen aus Follow-ups. Jede E-Mail fuegt einen neuen Blickwinkel hinzu. Nach drei aufhoeren um Professionalitaet zu wahren.",
+          },
+          callout: {
+            title: "Follow-Up-ROI",
+            text: "Eine erste E-Mail mit 5% Antwortrate springt auf insgesamt 14% mit einer richtigen Follow-Up-Sequenz. Das bedeutet 64% Ihrer platzierten Links kommen aus E-Mail 2 und 3, nicht aus Ihrem ersten Pitch.",
+          },
         },
         {
           title: "Haeufige Outreach-Fehler vermeiden",
@@ -181,7 +217,16 @@ export const emailOutreachForLinks: AcademyTopic = {
             "Expliquez clairement la valeur que votre contenu apporte a leur audience",
             "Incluez un seul appel a l'action clair, ne demandez pas plusieurs choses",
             "Gardez l'email total sous 150 mots pour une lisibilite maximale"
-          ]
+          ],
+          image: {
+            src: "/images/academy/fr/outreach-email-funnel.svg",
+            alt: "Trichterdiagramm das E-Mail-Outreach-Konversionsraten von 100 Interessenten zu 3-7 platzierten Links zeigt",
+            caption: "Eine gut gezielte Kampagne konvertiert 100 Interessenten in 3-7 platzierte Links. Die meisten positiven Antworten kommen aus Follow-up-E-Mails, nicht aus dem ersten Kontakt.",
+          },
+          callout: {
+            title: "Die 150-Woerter-Regel",
+            text: "E-Mails unter 150 Woertern uebertreffen laengere Pitches konsistent. Fuehren Sie mit Mehrwert, nicht mit dem was Sie wollen. Redakteure loeschen E-Mails die mit Ich haette gerne einen Link oeffnen, antworten aber auf E-Mails die zeigen wie Ihr Inhalt deren Lesern hilft.",
+          },
         },
         {
           title: "Personnalisation a grande echelle",
@@ -210,7 +255,16 @@ export const emailOutreachForLinks: AcademyTopic = {
             "Visez des taux d'ouverture de 40-60% et des taux de reponse de 8-15% comme references de base",
             "Utilisez un CRM ou un outil d'outreach pour gerer le statut des prospects a travers tout le pipeline",
             "Effectuez une analyse post-campagne pour identifier les meilleurs templates et segments"
-          ]
+          ],
+          image: {
+            src: "/images/academy/fr/follow-up-sequence.svg",
+            alt: "Diagramm das eine Drei-E-Mail-Follow-Up-Sequenz mit Timing und Antwortrate-Benchmarks zeigt",
+            caption: "50-70% der positiven Antworten kommen aus Follow-ups. Jede E-Mail fuegt einen neuen Blickwinkel hinzu. Nach drei aufhoeren um Professionalitaet zu wahren.",
+          },
+          callout: {
+            title: "Follow-Up-ROI",
+            text: "Eine erste E-Mail mit 5% Antwortrate springt auf insgesamt 14% mit einer richtigen Follow-Up-Sequenz. Das bedeutet 64% Ihrer platzierten Links kommen aus E-Mail 2 und 3, nicht aus Ihrem ersten Pitch.",
+          },
         },
         {
           title: "Erreurs courantes d'outreach a eviter",
@@ -254,7 +308,16 @@ export const emailOutreachForLinks: AcademyTopic = {
             "Explica claramente el valor que tu contenido aporta a su audiencia",
             "Incluye una sola llamada a la accion clara, no pidas multiples cosas",
             "Manten el email total bajo 150 palabras para maxima legibilidad"
-          ]
+          ],
+          image: {
+            src: "/images/academy/es/outreach-email-funnel.svg",
+            alt: "Trichterdiagramm das E-Mail-Outreach-Konversionsraten von 100 Interessenten zu 3-7 platzierten Links zeigt",
+            caption: "Eine gut gezielte Kampagne konvertiert 100 Interessenten in 3-7 platzierte Links. Die meisten positiven Antworten kommen aus Follow-up-E-Mails, nicht aus dem ersten Kontakt.",
+          },
+          callout: {
+            title: "Die 150-Woerter-Regel",
+            text: "E-Mails unter 150 Woertern uebertreffen laengere Pitches konsistent. Fuehren Sie mit Mehrwert, nicht mit dem was Sie wollen. Redakteure loeschen E-Mails die mit Ich haette gerne einen Link oeffnen, antworten aber auf E-Mails die zeigen wie Ihr Inhalt deren Lesern hilft.",
+          },
         },
         {
           title: "Personalizacion a escala",
@@ -283,7 +346,16 @@ export const emailOutreachForLinks: AcademyTopic = {
             "Apunta a tasas de apertura del 40-60% y tasas de respuesta del 8-15% como referencias base",
             "Usa un CRM o herramienta de outreach para gestionar el estado de prospectos a traves del pipeline completo",
             "Realiza analisis post-campana para identificar las mejores plantillas y segmentos"
-          ]
+          ],
+          image: {
+            src: "/images/academy/es/follow-up-sequence.svg",
+            alt: "Diagramm das eine Drei-E-Mail-Follow-Up-Sequenz mit Timing und Antwortrate-Benchmarks zeigt",
+            caption: "50-70% der positiven Antworten kommen aus Follow-ups. Jede E-Mail fuegt einen neuen Blickwinkel hinzu. Nach drei aufhoeren um Professionalitaet zu wahren.",
+          },
+          callout: {
+            title: "Follow-Up-ROI",
+            text: "Eine erste E-Mail mit 5% Antwortrate springt auf insgesamt 14% mit einer richtigen Follow-Up-Sequenz. Das bedeutet 64% Ihrer platzierten Links kommen aus E-Mail 2 und 3, nicht aus Ihrem ersten Pitch.",
+          },
         },
         {
           title: "Errores comunes de outreach a evitar",
@@ -327,7 +399,16 @@ export const emailOutreachForLinks: AcademyTopic = {
             "Spiega chiaramente il valore che il tuo contenuto fornisce alla loro audience",
             "Includi un singolo, chiaro invito all'azione, non chiedere cose multiple",
             "Mantieni l'email totale sotto le 150 parole per massima leggibilita"
-          ]
+          ],
+          image: {
+            src: "/images/academy/it/outreach-email-funnel.svg",
+            alt: "Trichterdiagramm das E-Mail-Outreach-Konversionsraten von 100 Interessenten zu 3-7 platzierten Links zeigt",
+            caption: "Eine gut gezielte Kampagne konvertiert 100 Interessenten in 3-7 platzierte Links. Die meisten positiven Antworten kommen aus Follow-up-E-Mails, nicht aus dem ersten Kontakt.",
+          },
+          callout: {
+            title: "Die 150-Woerter-Regel",
+            text: "E-Mails unter 150 Woertern uebertreffen laengere Pitches konsistent. Fuehren Sie mit Mehrwert, nicht mit dem was Sie wollen. Redakteure loeschen E-Mails die mit Ich haette gerne einen Link oeffnen, antworten aber auf E-Mails die zeigen wie Ihr Inhalt deren Lesern hilft.",
+          },
         },
         {
           title: "Personalizzazione su scala",
@@ -356,7 +437,16 @@ export const emailOutreachForLinks: AcademyTopic = {
             "Punta a tassi di apertura del 40-60% e tassi di risposta dell'8-15% come benchmark di base",
             "Usa un CRM o strumento di outreach per gestire lo stato dei prospect attraverso l'intero pipeline",
             "Esegui analisi post-campagna per identificare i migliori template e segmenti"
-          ]
+          ],
+          image: {
+            src: "/images/academy/it/follow-up-sequence.svg",
+            alt: "Diagramm das eine Drei-E-Mail-Follow-Up-Sequenz mit Timing und Antwortrate-Benchmarks zeigt",
+            caption: "50-70% der positiven Antworten kommen aus Follow-ups. Jede E-Mail fuegt einen neuen Blickwinkel hinzu. Nach drei aufhoeren um Professionalitaet zu wahren.",
+          },
+          callout: {
+            title: "Follow-Up-ROI",
+            text: "Eine erste E-Mail mit 5% Antwortrate springt auf insgesamt 14% mit einer richtigen Follow-Up-Sequenz. Das bedeutet 64% Ihrer platzierten Links kommen aus E-Mail 2 und 3, nicht aus Ihrem ersten Pitch.",
+          },
         },
         {
           title: "Errori comuni di outreach da evitare",
@@ -400,7 +490,16 @@ export const emailOutreachForLinks: AcademyTopic = {
             "Leg duidelijk de waarde uit die jouw content biedt voor hun publiek",
             "Neem een enkele, duidelijke call-to-action op, vraag niet om meerdere dingen",
             "Houd de totale e-mail onder 150 woorden voor maximale leesbaarheid"
-          ]
+          ],
+          image: {
+            src: "/images/academy/nl/outreach-email-funnel.svg",
+            alt: "Trichterdiagramm das E-Mail-Outreach-Konversionsraten von 100 Interessenten zu 3-7 platzierten Links zeigt",
+            caption: "Eine gut gezielte Kampagne konvertiert 100 Interessenten in 3-7 platzierte Links. Die meisten positiven Antworten kommen aus Follow-up-E-Mails, nicht aus dem ersten Kontakt.",
+          },
+          callout: {
+            title: "Die 150-Woerter-Regel",
+            text: "E-Mails unter 150 Woertern uebertreffen laengere Pitches konsistent. Fuehren Sie mit Mehrwert, nicht mit dem was Sie wollen. Redakteure loeschen E-Mails die mit Ich haette gerne einen Link oeffnen, antworten aber auf E-Mails die zeigen wie Ihr Inhalt deren Lesern hilft.",
+          },
         },
         {
           title: "Personalisatie op schaal",
@@ -429,7 +528,16 @@ export const emailOutreachForLinks: AcademyTopic = {
             "Streef naar openingspercentages van 40-60% en responspercentages van 8-15% als basisbenchmarks",
             "Gebruik een CRM of outreach-tool om de prospectstatus door de volledige pipeline te beheren",
             "Voer post-campagne analyse uit om best presterende templates en segmenten te identificeren"
-          ]
+          ],
+          image: {
+            src: "/images/academy/nl/follow-up-sequence.svg",
+            alt: "Diagramm das eine Drei-E-Mail-Follow-Up-Sequenz mit Timing und Antwortrate-Benchmarks zeigt",
+            caption: "50-70% der positiven Antworten kommen aus Follow-ups. Jede E-Mail fuegt einen neuen Blickwinkel hinzu. Nach drei aufhoeren um Professionalitaet zu wahren.",
+          },
+          callout: {
+            title: "Follow-Up-ROI",
+            text: "Eine erste E-Mail mit 5% Antwortrate springt auf insgesamt 14% mit einer richtigen Follow-Up-Sequenz. Das bedeutet 64% Ihrer platzierten Links kommen aus E-Mail 2 und 3, nicht aus Ihrem ersten Pitch.",
+          },
         },
         {
           title: "Veelgemaakte outreach-fouten vermijden",

@@ -1,0 +1,27 @@
+<svg viewBox="0 0 680 280" xmlns="http://www.w3.org/2000/svg" fill="none" font-family="Arial,sans-serif">
+  <text x="340" y="24" text-anchor="middle" fill="#a78bfa" font-size="14" font-weight="bold">Magento Performance Stack for SEO</text>
+  <!-- Stack layers bottom to top -->
+  <rect x="140" y="220" width="400" height="40" rx="6" fill="#60a5fa" opacity="0.2" stroke="#60a5fa" stroke-width="1"/>
+  <text x="340" y="244" text-anchor="middle" fill="#e2e8f0" font-size="11" font-weight="bold">Hosting: Dedicated / VPS + SSD + PHP 8.1+</text>
+  <rect x="140" y="174" width="400" height="40" rx="6" fill="#a78bfa" opacity="0.2" stroke="#a78bfa" stroke-width="1"/>
+  <text x="340" y="198" text-anchor="middle" fill="#e2e8f0" font-size="11" font-weight="bold">Cache: Redis (sessions) + Elasticsearch</text>
+  <rect x="140" y="128" width="400" height="40" rx="6" fill="#4ade80" opacity="0.2" stroke="#4ade80" stroke-width="1"/>
+  <text x="340" y="152" text-anchor="middle" fill="#e2e8f0" font-size="11" font-weight="bold">Varnish Full Page Cache (FPC)</text>
+  <rect x="140" y="82" width="400" height="40" rx="6" fill="#f97316" opacity="0.2" stroke="#f97316" stroke-width="1"/>
+  <text x="340" y="106" text-anchor="middle" fill="#e2e8f0" font-size="11" font-weight="bold">CDN + WebP Images + Lazy Loading</text>
+  <rect x="140" y="40" width="400" height="36" rx="6" fill="#a78bfa" opacity="0.3" stroke="#a78bfa" stroke-width="1.5"/>
+  <text x="340" y="62" text-anchor="middle" fill="#e2e8f0" font-size="11" font-weight="bold">Frontend: Hyva / Custom PWA (SSR)</text>
+  <!-- Speed labels -->
+  <text x="110" y="62" text-anchor="end" fill="#94a3b8" font-size="9">Optional</text>
+  <text x="110" y="106" text-anchor="end" fill="#94a3b8" font-size="9">Layer 4</text>
+  <text x="110" y="152" text-anchor="end" fill="#4ade80" font-size="9" font-weight="bold">Critical</text>
+  <text x="110" y="198" text-anchor="end" fill="#94a3b8" font-size="9">Layer 2</text>
+  <text x="110" y="244" text-anchor="end" fill="#94a3b8" font-size="9">Base</text>
+  <!-- Performance targets -->
+  <rect x="570" y="82" width="90" height="100" rx="6" fill="#1e1e2e" stroke="#334155" stroke-width="1"/>
+  <text x="615" y="100" text-anchor="middle" fill="#a78bfa" font-size="9" font-weight="bold">CWV Targets</text>
+  <text x="615" y="118" text-anchor="middle" fill="#4ade80" font-size="9">LCP &lt;2.5s</text>
+  <text x="615" y="136" text-anchor="middle" fill="#4ade80" font-size="9">FID &lt;100ms</text>
+  <text x="615" y="154" text-anchor="middle" fill="#4ade80" font-size="9">CLS &lt;0.1</text>
+  <text x="615" y="174" text-anchor="middle" fill="#94a3b8" font-size="8">Default: 4-6s</text>
+</svg>

@@ -1,0 +1,28 @@
+<svg viewBox="0 0 680 300" xmlns="http://www.w3.org/2000/svg" fill="none" font-family="Arial,sans-serif">
+  <text x="340" y="28" text-anchor="middle" fill="#a78bfa" font-size="14" font-weight="bold">Fashion Product Variant URL Strategy</text>
+  <!-- Product example -->
+  <rect x="240" y="48" width="200" height="36" rx="8" stroke="#a78bfa" stroke-width="2"/>
+  <text x="340" y="70" text-anchor="middle" fill="#a78bfa" font-size="11" font-weight="bold">Silk Blouse (5 colors x 8 sizes)</text>
+  <!-- Decision tree -->
+  <line x1="280" y1="84" x2="150" y2="110" stroke="#e2e8f0" stroke-width="1"/>
+  <line x1="400" y1="84" x2="530" y2="110" stroke="#e2e8f0" stroke-width="1"/>
+  <!-- Option A: separate color URLs -->
+  <rect x="40" y="110" width="220" height="80" rx="6" stroke="#4ade80" stroke-width="1.5"/>
+  <text x="150" y="130" text-anchor="middle" fill="#4ade80" font-size="10" font-weight="bold">Colors with search volume</text>
+  <text x="150" y="148" text-anchor="middle" fill="#e2e8f0" font-size="9">/silk-blouse-navy  (own URL)</text>
+  <text x="150" y="164" text-anchor="middle" fill="#e2e8f0" font-size="9">/silk-blouse-red   (own URL)</text>
+  <text x="150" y="180" text-anchor="middle" fill="#e2e8f0" font-size="8" opacity="0.7">Each self-canonicalizes</text>
+  <!-- Option B: on-page variants -->
+  <rect x="420" y="110" width="220" height="80" rx="6" stroke="#f97316" stroke-width="1.5"/>
+  <text x="530" y="130" text-anchor="middle" fill="#f97316" font-size="10" font-weight="bold">Colors without search volume</text>
+  <text x="530" y="148" text-anchor="middle" fill="#e2e8f0" font-size="9">On-page swatch selector</text>
+  <text x="530" y="164" text-anchor="middle" fill="#e2e8f0" font-size="9">All colors on single URL</text>
+  <text x="530" y="180" text-anchor="middle" fill="#e2e8f0" font-size="8" opacity="0.7">Consolidates all signals</text>
+  <!-- Size handling -->
+  <text x="340" y="216" text-anchor="middle" fill="#60a5fa" font-size="11" font-weight="bold">Size Variants: Always On-Page</text>
+  <rect x="120" y="226" width="440" height="36" rx="6" stroke="#60a5fa" stroke-width="1.5"/>
+  <text x="340" y="240" text-anchor="middle" fill="#e2e8f0" font-size="9">/silk-blouse-navy?size=xs through ?size=xl all canonicalize to /silk-blouse-navy</text>
+  <text x="340" y="254" text-anchor="middle" fill="#e2e8f0" font-size="8" opacity="0.7">No size variant has enough search volume to justify its own page</text>
+  <!-- Rule -->
+  <text x="340" y="284" text-anchor="middle" fill="#e2e8f0" font-size="10" font-weight="bold">Rule: Use search volume data to decide. If "red leather jacket" has volume, give it a URL.</text>
+</svg>

@@ -1,0 +1,34 @@
+<svg viewBox="0 0 680 340" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <text x="340" y="28" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#a78bfa">Top SEO Mistakes by Traffic Impact</text>
+  <!-- Horizontal bar chart -->
+  <text x="225" y="62" text-anchor="end" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Duplicate content</text>
+  <rect x="230" y="50" width="380" height="18" rx="3" fill="#ef4444" opacity="0.25" stroke="#ef4444" stroke-width="1"/>
+  <text x="620" y="63" font-family="Arial,sans-serif" font-size="10" fill="#ef4444">High</text>
+  <text x="225" y="90" text-anchor="end" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Thin product pages</text>
+  <rect x="230" y="78" width="340" height="18" rx="3" fill="#ef4444" opacity="0.2" stroke="#ef4444" stroke-width="1"/>
+  <text x="580" y="91" font-family="Arial,sans-serif" font-size="10" fill="#ef4444">High</text>
+  <text x="225" y="118" text-anchor="end" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Slow site speed</text>
+  <rect x="230" y="106" width="320" height="18" rx="3" fill="#f97316" opacity="0.2" stroke="#f97316" stroke-width="1"/>
+  <text x="560" y="119" font-family="Arial,sans-serif" font-size="10" fill="#f97316">High</text>
+  <text x="225" y="146" text-anchor="end" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Poor internal linking</text>
+  <rect x="230" y="134" width="280" height="18" rx="3" fill="#f97316" opacity="0.18" stroke="#f97316" stroke-width="1"/>
+  <text x="520" y="147" font-family="Arial,sans-serif" font-size="10" fill="#f97316">Medium-High</text>
+  <text x="225" y="174" text-anchor="end" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Missing meta tags</text>
+  <rect x="230" y="162" width="240" height="18" rx="3" fill="#60a5fa" opacity="0.2" stroke="#60a5fa" stroke-width="1"/>
+  <text x="480" y="175" font-family="Arial,sans-serif" font-size="10" fill="#60a5fa">Medium</text>
+  <text x="225" y="202" text-anchor="end" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Unoptimized categories</text>
+  <rect x="230" y="190" width="220" height="18" rx="3" fill="#60a5fa" opacity="0.18" stroke="#60a5fa" stroke-width="1"/>
+  <text x="460" y="203" font-family="Arial,sans-serif" font-size="10" fill="#60a5fa">Medium</text>
+  <text x="225" y="230" text-anchor="end" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Broken redirects</text>
+  <rect x="230" y="218" width="200" height="18" rx="3" fill="#60a5fa" opacity="0.15" stroke="#60a5fa" stroke-width="1"/>
+  <text x="440" y="231" font-family="Arial,sans-serif" font-size="10" fill="#60a5fa">Medium</text>
+  <text x="225" y="258" text-anchor="end" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">No schema markup</text>
+  <rect x="230" y="246" width="160" height="18" rx="3" fill="#4ade80" opacity="0.18" stroke="#4ade80" stroke-width="1"/>
+  <text x="400" y="259" font-family="Arial,sans-serif" font-size="10" fill="#4ade80">Low-Medium</text>
+  <text x="225" y="286" text-anchor="end" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Robots.txt errors</text>
+  <rect x="230" y="274" width="380" height="18" rx="3" fill="#ef4444" opacity="0.25" stroke="#ef4444" stroke-width="1"/>
+  <text x="620" y="287" font-family="Arial,sans-serif" font-size="10" fill="#ef4444">Critical</text>
+  <text x="225" y="314" text-anchor="end" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">SEO as one-time project</text>
+  <rect x="230" y="302" width="350" height="18" rx="3" fill="#ef4444" opacity="0.22" stroke="#ef4444" stroke-width="1"/>
+  <text x="590" y="315" font-family="Arial,sans-serif" font-size="10" fill="#ef4444">High</text>
+</svg>

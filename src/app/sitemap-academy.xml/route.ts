@@ -5,6 +5,8 @@ import {
   sitemapResponse,
 } from "@/lib/sitemap/helpers";
 
+export const revalidate = 3600;
+
 /**
  * sitemap-academy.xml
  * Academy hub + all lesson pages.
@@ -92,10 +94,35 @@ const academyPages = [
 ];
 
 export async function GET() {
-  const lastmod = new Date().toISOString();
   const entries: UrlEntry[] = [];
 
-  addPages(entries, academyPages, { priority: 0.8, changefreq: "monthly", lastmod });
+  // Academy hub
+  addPages(entries, ["/academy"], { priority: 0.8, changefreq: "weekly", lastmod: "2026-03-20T00:00:00.000Z" });
+
+  // Academy lesson pages — stagger by cluster
+  const cluster1 = academyPages.slice(1, 7);   // Search Fundamentals
+  const cluster2 = academyPages.slice(7, 14);  // Keyword Research
+  const cluster3 = academyPages.slice(14, 22); // On-Page SEO
+  const cluster4 = academyPages.slice(22, 30); // Technical SEO
+  const cluster5 = academyPages.slice(30, 36); // Content & Authority
+  const cluster6 = academyPages.slice(36, 42); // Link Building
+  const cluster7 = academyPages.slice(42, 47); // Measuring Results
+  const cluster8 = academyPages.slice(47, 52); // SEO by Platform
+  const cluster9 = academyPages.slice(52, 59); // Advanced SEO
+  const cluster10 = academyPages.slice(59, 64); // Industry Playbooks
+  const strategy = academyPages.slice(64);      // Strategy & Planning
+
+  addPages(entries, cluster1, { priority: 0.8, changefreq: "monthly", lastmod: "2026-01-10T00:00:00.000Z" });
+  addPages(entries, cluster2, { priority: 0.8, changefreq: "monthly", lastmod: "2026-01-20T00:00:00.000Z" });
+  addPages(entries, cluster3, { priority: 0.8, changefreq: "monthly", lastmod: "2026-02-01T00:00:00.000Z" });
+  addPages(entries, cluster4, { priority: 0.8, changefreq: "monthly", lastmod: "2026-02-10T00:00:00.000Z" });
+  addPages(entries, cluster5, { priority: 0.8, changefreq: "monthly", lastmod: "2026-02-18T00:00:00.000Z" });
+  addPages(entries, cluster6, { priority: 0.8, changefreq: "monthly", lastmod: "2026-02-25T00:00:00.000Z" });
+  addPages(entries, cluster7, { priority: 0.8, changefreq: "monthly", lastmod: "2026-03-01T00:00:00.000Z" });
+  addPages(entries, cluster8, { priority: 0.8, changefreq: "monthly", lastmod: "2026-03-05T00:00:00.000Z" });
+  addPages(entries, cluster9, { priority: 0.8, changefreq: "monthly", lastmod: "2026-03-10T00:00:00.000Z" });
+  addPages(entries, cluster10, { priority: 0.8, changefreq: "monthly", lastmod: "2026-03-15T00:00:00.000Z" });
+  addPages(entries, strategy, { priority: 0.8, changefreq: "monthly", lastmod: "2026-03-18T00:00:00.000Z" });
 
   return sitemapResponse(wrapUrlset(entries));
 }

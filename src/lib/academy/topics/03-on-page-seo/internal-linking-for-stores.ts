@@ -22,6 +22,15 @@ export const internalLinkingForStores: AcademyTopic = {
             "Orphaned pages with zero internal links cannot rank effectively regardless of content quality",
             "Link equity distribution should align with business priorities and revenue contribution",
           ],
+          image: {
+            src: "/images/academy/internal-link-authority-flow.svg",
+            alt: "Diagram showing how internal links distribute authority from the homepage through categories to product pages with link count comparison",
+            caption: "A product page with 12 internal links accumulates 5x more authority than one with only 2 links, directly impacting its ranking position.",
+          },
+          callout: {
+            title: "Link Count vs Rank",
+            text: "A product with 12 internal links from the homepage, category, blog posts, and related sections typically ranks in the top 5. The same product with only 2 links from its parent category often sits beyond position 30.",
+          },
         },
         {
           title: "Navigation-Based Internal Linking",
@@ -56,6 +65,10 @@ export const internalLinkingForStores: AcademyTopic = {
             "Mix exact-match, partial-match, and natural anchor text variations to avoid over-optimization",
             "Reserve generic anchor text for non-strategic links like policy pages and navigation elements",
           ],
+          callout: {
+            title: "Anchor Text Balance",
+            text: "Mix exact-match keywords (40%), partial-match variations (30%), and natural phrases (30%) in your internal anchor text. Using identical anchor text across hundreds of links looks manipulative and reduces effectiveness.",
+          },
         },
         {
           title: "Auditing and Scaling Internal Links",
@@ -86,6 +99,15 @@ export const internalLinkingForStores: AcademyTopic = {
             "Verwaiste Seiten ohne interne Links koennen unabhaengig von der Inhaltsqualitaet nicht effektiv ranken",
             "Link-Equity-Verteilung sollte mit Geschaeftsprioritaeten und Umsatzbeitrag uebereinstimmen",
           ],
+          image: {
+            src: "/images/academy/de/internal-link-authority-flow.svg",
+            alt: "Diagramm, das zeigt, wie interne Links Autorität von der Startseite über Kategorien zu Produktseiten verteilen",
+            caption: "Eine Produktseite mit 12 internen Links sammelt 5x mehr Autorität als eine mit nur 2 Links.",
+          },
+          callout: {
+            title: "Linkanzahl vs. Ranking",
+            text: "Ein Produkt mit 12 internen Links rankt typischerweise in den Top 5. Das gleiche Produkt mit nur 2 Links sitzt oft jenseits von Position 30.",
+          },
         },
         {
           title: "Navigationsbasierte interne Verlinkung",
@@ -120,6 +142,10 @@ export const internalLinkingForStores: AcademyTopic = {
             "Mischen Sie Exact-Match, Partial-Match und natuerliche Ankertext-Variationen zur Vermeidung von Ueberoptimierung",
             "Reservieren Sie generischen Ankertext fuer nicht-strategische Links wie Richtlinien-Seiten und Navigationselemente",
           ],
+          callout: {
+            title: "Ankertext-Balance",
+            text: "Mischen Sie Exact-Match-Keywords (40\u00a0%), Partial-Match-Variationen (30\u00a0%) und natürliche Phrasen (30\u00a0%) in Ihrem internen Ankertext.",
+          },
         },
         {
           title: "Interne Links ueberpruefen und skalieren",
@@ -150,6 +176,15 @@ export const internalLinkingForStores: AcademyTopic = {
             "Les pages orphelines sans liens internes ne peuvent pas se classer efficacement quelle que soit la qualite du contenu",
             "La distribution du link equity devrait s'aligner avec les priorites commerciales et la contribution au chiffre d'affaires",
           ],
+          image: {
+            src: "/images/academy/fr/internal-link-authority-flow.svg",
+            alt: "Diagramm, das zeigt, wie interne Links Autorität von der Startseite über Kategorien zu Produktseiten verteilen",
+            caption: "Eine Produktseite mit 12 internen Links sammelt 5x mehr Autorität als eine mit nur 2 Links.",
+          },
+          callout: {
+            title: "Linkanzahl vs. Ranking",
+            text: "Ein Produkt mit 12 internen Links rankt typischerweise in den Top 5. Das gleiche Produkt mit nur 2 Links sitzt oft jenseits von Position 30.",
+          },
         },
         {
           title: "Maillage interne base sur la navigation",
@@ -184,6 +219,10 @@ export const internalLinkingForStores: AcademyTopic = {
             "Melangez les variations de texte d'ancrage a correspondance exacte, partielle et naturelle pour eviter la sur-optimisation",
             "Reservez le texte d'ancrage generique pour les liens non strategiques comme les pages de politique et les elements de navigation",
           ],
+          callout: {
+            title: "Ankertext-Balance",
+            text: "Mischen Sie Exact-Match-Keywords (40\u00a0%), Partial-Match-Variationen (30\u00a0%) und natürliche Phrasen (30\u00a0%) in Ihrem internen Ankertext.",
+          },
         },
         {
           title: "Auditer et mettre a l'echelle les liens internes",
@@ -214,6 +253,15 @@ export const internalLinkingForStores: AcademyTopic = {
             "Las paginas huerfanas sin enlaces internos no pueden posicionarse efectivamente independientemente de la calidad del contenido",
             "La distribucion de link equity debe alinearse con las prioridades de negocio y la contribucion a los ingresos",
           ],
+          image: {
+            src: "/images/academy/es/internal-link-authority-flow.svg",
+            alt: "Diagramm, das zeigt, wie interne Links Autorität von der Startseite über Kategorien zu Produktseiten verteilen",
+            caption: "Eine Produktseite mit 12 internen Links sammelt 5x mehr Autorität als eine mit nur 2 Links.",
+          },
+          callout: {
+            title: "Linkanzahl vs. Ranking",
+            text: "Ein Produkt mit 12 internen Links rankt typischerweise in den Top 5. Das gleiche Produkt mit nur 2 Links sitzt oft jenseits von Position 30.",
+          },
         },
         {
           title: "Enlazado interno basado en navegacion",
@@ -248,6 +296,10 @@ export const internalLinkingForStores: AcademyTopic = {
             "Mezcla variaciones de texto ancla de coincidencia exacta, parcial y natural para evitar la sobreoptimizacion",
             "Reserva el texto ancla generico para enlaces no estrategicos como paginas de politicas y elementos de navegacion",
           ],
+          callout: {
+            title: "Ankertext-Balance",
+            text: "Mischen Sie Exact-Match-Keywords (40\u00a0%), Partial-Match-Variationen (30\u00a0%) und natürliche Phrasen (30\u00a0%) in Ihrem internen Ankertext.",
+          },
         },
         {
           title: "Auditar y escalar enlaces internos",
@@ -278,6 +330,15 @@ export const internalLinkingForStores: AcademyTopic = {
             "Le pagine orfane senza link interni non possono posizionarsi efficacemente indipendentemente dalla qualita del contenuto",
             "La distribuzione del link equity dovrebbe allinearsi con le priorita commerciali e il contributo ai ricavi",
           ],
+          image: {
+            src: "/images/academy/it/internal-link-authority-flow.svg",
+            alt: "Diagramm, das zeigt, wie interne Links Autorität von der Startseite über Kategorien zu Produktseiten verteilen",
+            caption: "Eine Produktseite mit 12 internen Links sammelt 5x mehr Autorität als eine mit nur 2 Links.",
+          },
+          callout: {
+            title: "Linkanzahl vs. Ranking",
+            text: "Ein Produkt mit 12 internen Links rankt typischerweise in den Top 5. Das gleiche Produkt mit nur 2 Links sitzt oft jenseits von Position 30.",
+          },
         },
         {
           title: "Linking interno basato sulla navigazione",
@@ -312,6 +373,10 @@ export const internalLinkingForStores: AcademyTopic = {
             "Mescola variazioni di testo di ancoraggio a corrispondenza esatta, parziale e naturale per evitare la sovraottimizzazione",
             "Riserva il testo di ancoraggio generico per link non strategici come pagine delle policy e elementi di navigazione",
           ],
+          callout: {
+            title: "Ankertext-Balance",
+            text: "Mischen Sie Exact-Match-Keywords (40\u00a0%), Partial-Match-Variationen (30\u00a0%) und natürliche Phrasen (30\u00a0%) in Ihrem internen Ankertext.",
+          },
         },
         {
           title: "Auditare e scalare i link interni",
@@ -342,6 +407,15 @@ export const internalLinkingForStores: AcademyTopic = {
             "Verweesde pagina's zonder interne links kunnen niet effectief ranken ongeacht de contentkwaliteit",
             "Link equity-verdeling moet aansluiten bij zakelijke prioriteiten en omzetbijdrage",
           ],
+          image: {
+            src: "/images/academy/nl/internal-link-authority-flow.svg",
+            alt: "Diagramm, das zeigt, wie interne Links Autorität von der Startseite über Kategorien zu Produktseiten verteilen",
+            caption: "Eine Produktseite mit 12 internen Links sammelt 5x mehr Autorität als eine mit nur 2 Links.",
+          },
+          callout: {
+            title: "Linkanzahl vs. Ranking",
+            text: "Ein Produkt mit 12 internen Links rankt typischerweise in den Top 5. Das gleiche Produkt mit nur 2 Links sitzt oft jenseits von Position 30.",
+          },
         },
         {
           title: "Navigatiegebaseerde interne linking",
@@ -376,6 +450,10 @@ export const internalLinkingForStores: AcademyTopic = {
             "Meng exact-match, partial-match en natuurlijke ankertekstvariaties om overoptimalisatie te voorkomen",
             "Reserveer generieke ankertekst voor niet-strategische links zoals beleidspagina's en navigatie-elementen",
           ],
+          callout: {
+            title: "Ankertext-Balance",
+            text: "Mischen Sie Exact-Match-Keywords (40\u00a0%), Partial-Match-Variationen (30\u00a0%) und natürliche Phrasen (30\u00a0%) in Ihrem internen Ankertext.",
+          },
         },
         {
           title: "Interne links auditen en schalen",

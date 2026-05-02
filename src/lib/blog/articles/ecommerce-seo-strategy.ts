@@ -3,7 +3,7 @@ import type { BlogArticle } from "../types";
 export const ecommerceSeoStrategy: BlogArticle = {
   slug: "ecommerce-seo-strategy",
   category: "strategy",
-  publishDate: "2025-06-22",
+  publishDate: "2026-03-08",
   readingTime: 14,
   author: "Fabian van Til",
   authorRole: "CEO at EcomSEO",
@@ -29,6 +29,7 @@ export const ecommerceSeoStrategy: BlogArticle = {
         },
         {
           heading: "Set revenue goals first, then work backwards",
+          callout: { title: "Revenue-First Math", text: "If your store does $50K/month organic with 2.1% conversion rate and $85 AOV, you need ~28,000 organic sessions. To grow to $75K, work backwards from the traffic, conversion, and AOV levers you can move." },
           body: [
             "Before you touch a keyword tool, open your analytics. Look at your current organic revenue, average order value, and conversion rate from organic traffic. These numbers are the foundation of your entire plan.",
             "Here is how we build the math. If your store does $50,000 per month from organic search with a 2.1% conversion rate and $85 average order value, you need roughly 28,000 organic sessions to hit that number. To grow organic revenue to $75,000, you need either more traffic, a higher conversion rate, or a higher AOV. Usually it is a combination. But now you have a target that is actually meaningful to the business.",
@@ -48,6 +49,7 @@ export const ecommerceSeoStrategy: BlogArticle = {
         },
         {
           heading: "Map keywords to the buyer journey",
+          image: { src: "/images/blog/buyer-journey-keywords.svg", alt: "Four-stage buyer journey from Awareness to Retention showing keyword examples and matching page types for each stage", caption: "Match every keyword to the right stage and page type" },
           body: [
             "[Keyword research for ecommerce](/blog/ecommerce-seo-keywords) is not just about finding high-volume terms. It is about understanding where each keyword sits in the buyer journey and matching it to the right page type. Our [keyword research](/keyword-research) service handles this mapping for stores that want expert execution.",
             "We use a four-stage model: awareness, consideration, decision, and retention. Awareness keywords are informational. Someone searching 'how to choose a mattress' is not ready to buy. They need a blog post or guide. Consideration keywords show comparison intent: 'memory foam vs hybrid mattress' or 'best mattresses for side sleepers.' These can go on either comparison content or well-optimized category pages. Decision keywords are transactional: 'buy memory foam mattress queen' or 'casper mattress discount code.' These belong on product and category pages. Retention keywords are things like 'mattress care tips' or 'when to replace your mattress,' which serve existing customers and build topical authority.",
@@ -74,6 +76,7 @@ export const ecommerceSeoStrategy: BlogArticle = {
             "Build a technical SEO backlog ranked by estimated impact. Tackle the high-impact items in the first 60 days of your strategy. Site speed improvements and crawl budget fixes often produce measurable traffic gains within 4-6 weeks because Google can suddenly discover and rank pages it was previously ignoring.",
             "Do not treat technical SEO as a one-time project. Schedule monthly technical audits into your strategy. Ecommerce sites change constantly. New products get added, old ones get removed, developers push code changes, and new URL patterns appear. Without regular monitoring, technical debt accumulates fast.",
           ],
+          image: { src: "/images/blog/ecommerce-technical-seo-priorities.svg", alt: "Technical SEO priority stack for ecommerce from critical crawl budget and speed fixes to ongoing monitoring", caption: "Tackle high-impact technical issues first -- crawl budget and speed fixes show results in 4-6 weeks" },
         },
         {
           heading: "Link building for ecommerce: a realistic approach",
@@ -88,6 +91,7 @@ export const ecommerceSeoStrategy: BlogArticle = {
         },
         {
           heading: "Timeline and milestones for the first 12 months",
+          image: { src: "/images/blog/seo-strategy-timeline.svg", alt: "Timeline showing 12-month ecommerce SEO strategy phases: Foundation, Expansion, Content, and Scale with expected results", caption: "A structured 12-month SEO strategy with realistic milestones" },
           body: [
             "SEO is a long game, but that does not mean you should wait 12 months to see results. A well-structured ecommerce SEO strategy produces measurable gains within 60-90 days and compounds from there.",
             "Month 1-2: foundation. Complete technical audit and fix critical issues. Optimize title tags and meta descriptions across top 50 pages by traffic. Set up rank tracking, analytics goals, and reporting dashboards. Conduct keyword research and build the keyword map. This phase typically produces a 5-10% organic traffic increase just from quick technical fixes and title tag improvements.",
@@ -128,6 +132,7 @@ export const ecommerceSeoStrategy: BlogArticle = {
             "Setzen Sie ein primäres Umsatzziel für 12 Monate. Dann teilen Sie es in vierteljährliche Meilensteine auf. Q1 könnte sich auf die Beseitigung technischer Schulden und die Optimierung bestehender Seiten konzentrieren, was oft einen Trafficanstieg von 10-15 % erzeugt, ohne etwas Neues zu erstellen. Q2 könnte auf die Erweiterung der Kategorieseiten abzielen. Q3 und Q4 könnten sich auf Content-Marketing und Linkaufbau konzentrieren, um wettbewerbsfähige Begriffe über die Ziellinie zu bringen.",
             "Wir empfehlen auch, sekundäre KPIs festzulegen, die das Umsatzziel unterstützen: organisches Trafficwachstum (monatlich), Anzahl der Keywords in den Top 10, Sichtbarkeit der Kategorieseiten für Hauptbegriffe und organische Klickrate ohne Markenbegriffe. Dies sind Frühindikatoren. Wenn sie sich in die richtige Richtung bewegen, folgt der Umsatz. Wenn nicht, muss etwas in der Strategie angepasst werden, bevor Sie ein weiteres Quartal verschwenden.",
           ],
+          callout: { title: "Revenue-First Math", text: "If your store does $50K/month organic with 2.1% conversion rate and $85 AOV, you need ~28,000 organic sessions. To grow to $75K, work backwards from the traffic, conversion, and AOV levers you can move." },
         },
         {
           heading: "Wettbewerbsanalyse, die tatsächlich Entscheidungen beeinflusst",
@@ -147,6 +152,7 @@ export const ecommerceSeoStrategy: BlogArticle = {
             "Erstellen Sie eine Tabelle mit Spalten für Keyword, monatliches Suchvolumen, Keyword-Schwierigkeit, Phase der Käuferreise, Zielseitentyp und Ziel-URL. Gruppieren Sie Keywords nach Themencluster. Jede Produktkategorie sollte einen Cluster haben, mit der Kategorieseite als Hub und unterstützendem Content (Kaufratgeber, Vergleiche, Anleitungen) als Speichen.",
             "Diese Zuordnungsübung offenbart meist überraschende Lücken. Wir arbeiteten mit einer Nahrungsergänzungsmittelmarke, die 200 Produktseiten hatte, aber keinerlei unterstützenden Content für ihre Top-Kategorie Proteinpulver. Sie versuchten, Kategorie- und Produktseiten für Begriffe zu ranken, die informativen Content erforderten. Sobald wir den Content-Cluster aufgebaut hatten (ein Kaufratgeber, Inhaltsstoff-Aufschlüsselungen, Vergleichsbeiträge), stieg die Kategorieseite innerhalb von fünf Monaten von Position 14 auf Position 4 für 'bestes Proteinpulver'.",
           ],
+          image: { src: "/images/blog/de/buyer-journey-keywords.svg", alt: "Four-stage buyer journey from Awareness to Retention showing keyword examples and matching page types for each stage", caption: "Match every keyword to the right stage and page type" },
         },
         {
           heading: "Einen Content-Plan mit Prioritäten erstellen, nicht nur Themen",
@@ -167,6 +173,7 @@ export const ecommerceSeoStrategy: BlogArticle = {
             "Erstellen Sie ein technisches SEO-Backlog, das nach geschätzter Auswirkung geordnet ist. Bearbeiten Sie die Punkte mit hoher Auswirkung in den ersten 60 Tagen Ihrer Strategie. Verbesserungen der Website-Geschwindigkeit und Crawl-Budget-Korrekturen zeigen oft innerhalb von 4-6 Wochen messbare Trafficgewinne, weil Google plötzlich Seiten entdecken und ranken kann, die es zuvor ignoriert hat.",
             "Behandeln Sie technisches SEO nicht als einmaliges Projekt. Planen Sie monatliche technische Audits in Ihre Strategie ein. E-Commerce-Seiten ändern sich ständig. Neue Produkte werden hinzugefügt, alte entfernt, Entwickler pushen Code-Änderungen und neue URL-Muster erscheinen. Ohne regelmäßige Überwachung häuft sich technische Schuld schnell an.",
           ],
+          image: { src: "/images/blog/de/ecommerce-technical-seo-priorities.svg", alt: "Technical SEO priority stack for ecommerce from critical crawl budget and speed fixes to ongoing monitoring", caption: "Tackle high-impact technical issues first -- crawl budget and speed fixes show results in 4-6 weeks" },
         },
         {
           heading: "Linkaufbau für E-Commerce: ein realistischer Ansatz",
@@ -189,6 +196,7 @@ export const ecommerceSeoStrategy: BlogArticle = {
             "Monat 8-12: Skalieren und verfeinern. Erweitern Sie auf Top-of-Funnel-Content der Stufe 3. Verdoppeln Sie den Einsatz bei dem, was funktioniert (Themen, Content-Formate, Link-Taktiken). Testen Sie Conversion-Rate-Optimierung auf trafficstarken organischen Landingpages. Bauen Sie Content-Cluster für sekundäre Produktkategorien aus. Erwartetes Ergebnis: 60-100 % Steigerung des organischen Umsatzes gegenüber dem Ausgangswert.",
             "Dies sind keine Garantien. Die Ergebnisse hängen von Ihrem Ausgangspunkt, dem Wettbewerbsumfeld und der Ausführungsqualität ab. Aber es sind realistische Benchmarks basierend auf dem, was wir bei Dutzenden von E-Commerce-SEO-Projekten gesehen haben. Die Shops, die diesem strukturierten Ansatz folgen, übertreffen konsequent diejenigen, die SEO als eine Sammlung zufälliger Aufgaben behandeln. Wenn Sie bereit sind, die Umsetzung auszulagern, kann unsere [E-Commerce-SEO-Agentur](/ecommerce-seo) dieses gesamte Framework für Sie implementieren.",
           ],
+          image: { src: "/images/blog/de/seo-strategy-timeline.svg", alt: "Timeline showing 12-month ecommerce SEO strategy phases: Foundation, Expansion, Content, and Scale with expected results", caption: "A structured 12-month SEO strategy with realistic milestones" },
         },
         {
           heading: "Messen, was zählt, und den Plan anpassen",
@@ -221,6 +229,7 @@ export const ecommerceSeoStrategy: BlogArticle = {
             "Fixez un objectif de chiffre d'affaires principal à 12 mois. Puis décomposez-le en jalons trimestriels. Le T1 pourrait se concentrer sur la correction de la dette technique et l'optimisation des pages existantes, ce qui produit souvent une augmentation de trafic de 10-15 % sans rien créer de nouveau. Le T2 pourrait cibler l'expansion des pages catégories. Le T3 et T4 pourraient se concentrer sur le marketing de contenu et le netlinking pour pousser les termes concurrentiels au-delà de la ligne d'arrivée.",
             "Nous recommandons également de définir des KPIs secondaires qui soutiennent l'objectif de chiffre d'affaires : croissance du trafic organique (mensuelle), nombre de mots-clés dans le top 10, visibilité des pages catégories pour les termes principaux et taux de clic organique hors marque. Ce sont des indicateurs avancés. S'ils évoluent dans la bonne direction, le chiffre d'affaires suit. Sinon, quelque chose dans la stratégie doit être ajusté avant de gaspiller un trimestre de plus.",
           ],
+          callout: { title: "Revenue-First Math", text: "If your store does $50K/month organic with 2.1% conversion rate and $85 AOV, you need ~28,000 organic sessions. To grow to $75K, work backwards from the traffic, conversion, and AOV levers you can move." },
         },
         {
           heading: "Analyse concurrentielle qui éclaire réellement les décisions",
@@ -240,6 +249,7 @@ export const ecommerceSeoStrategy: BlogArticle = {
             "Créez un tableur avec des colonnes pour le mot-clé, le volume de recherche mensuel, la difficulté du mot-clé, l'étape du parcours d'achat, le type de page cible et l'URL cible. Regroupez les mots-clés par cluster thématique. Chaque catégorie de produits devrait avoir un cluster avec la page catégorie comme hub et le contenu de soutien (guides d'achat, comparaisons, guides pratiques) comme rayons.",
             "Cet exercice de mapping révèle généralement des lacunes surprenantes. Nous avons travaillé avec une marque de compléments alimentaires qui avait 200 pages produit mais zéro contenu de soutien pour leur catégorie principale, la protéine en poudre. Ils essayaient de classer des pages catégorie et produit pour des termes qui nécessitaient du contenu informationnel. Une fois que nous avons construit le cluster de contenu (un guide d'achat, des analyses d'ingrédients, des articles comparatifs), la page catégorie est passée de la position 14 à la position 4 pour 'meilleure protéine en poudre' en cinq mois.",
           ],
+          image: { src: "/images/blog/fr/buyer-journey-keywords.svg", alt: "Four-stage buyer journey from Awareness to Retention showing keyword examples and matching page types for each stage", caption: "Match every keyword to the right stage and page type" },
         },
         {
           heading: "Construire un plan de contenu avec des priorités, pas seulement des sujets",
@@ -260,6 +270,7 @@ export const ecommerceSeoStrategy: BlogArticle = {
             "Construisez un backlog SEO technique classé par impact estimé. Traitez les éléments à fort impact dans les 60 premiers jours de votre stratégie. Les améliorations de vitesse du site et les corrections du budget de crawl produisent souvent des gains de trafic mesurables en 4-6 semaines, car Google peut soudainement découvrir et classer des pages qu'il ignorait auparavant.",
             "Ne traitez pas le SEO technique comme un projet ponctuel. Planifiez des audits techniques mensuels dans votre stratégie. Les sites e-commerce changent constamment. De nouveaux produits sont ajoutés, d'anciens sont supprimés, les développeurs poussent des modifications de code et de nouveaux patterns d'URL apparaissent. Sans surveillance régulière, la dette technique s'accumule rapidement.",
           ],
+          image: { src: "/images/blog/fr/ecommerce-technical-seo-priorities.svg", alt: "Technical SEO priority stack for ecommerce from critical crawl budget and speed fixes to ongoing monitoring", caption: "Tackle high-impact technical issues first -- crawl budget and speed fixes show results in 4-6 weeks" },
         },
         {
           heading: "Netlinking pour l'e-commerce : une approche réaliste",
@@ -282,6 +293,7 @@ export const ecommerceSeoStrategy: BlogArticle = {
             "Mois 8-12 : mise à l'échelle et optimisation. Étendez au contenu top-of-funnel de niveau 3. Redoublez d'efforts sur ce qui fonctionne (sujets, formats de contenu, tactiques de liens). Testez l'optimisation du taux de conversion sur les pages d'atterrissage organiques à fort trafic. Développez les clusters de contenu pour les catégories de produits secondaires. Résultat attendu : 60-100 % d'augmentation du chiffre d'affaires organique par rapport à la base de référence.",
             "Ce ne sont pas des garanties. Les résultats dépendent de votre point de départ, de l'environnement concurrentiel et de la qualité d'exécution. Mais ce sont des repères réalistes basés sur ce que nous avons vu dans des dizaines de projets SEO e-commerce. Les boutiques qui suivent ce type d'approche structurée surpassent systématiquement celles qui traitent le SEO comme un sac de tâches aléatoires. Quand vous êtes prêt à externaliser l'exécution, notre [agence SEO e-commerce](/ecommerce-seo) peut implémenter ce framework complet pour vous.",
           ],
+          image: { src: "/images/blog/fr/seo-strategy-timeline.svg", alt: "Timeline showing 12-month ecommerce SEO strategy phases: Foundation, Expansion, Content, and Scale with expected results", caption: "A structured 12-month SEO strategy with realistic milestones" },
         },
         {
           heading: "Mesurer ce qui compte et ajuster le plan",
@@ -314,6 +326,7 @@ export const ecommerceSeoStrategy: BlogArticle = {
             "Establece un objetivo de ingresos principal a 12 meses. Luego divídelo en hitos trimestrales. El T1 podría centrarse en corregir la deuda técnica y optimizar las páginas existentes, lo que a menudo produce un aumento de tráfico del 10-15 % sin crear nada nuevo. El T2 podría apuntar a la expansión de páginas de categoría. El T3 y T4 podrían centrarse en el marketing de contenido y la construcción de enlaces para impulsar los términos competitivos.",
             "También recomendamos establecer KPIs secundarios que apoyen el objetivo de ingresos: crecimiento del tráfico orgánico (mensual), número de palabras clave en el top 10, visibilidad de las páginas de categoría para términos principales y tasa de clics orgánicos sin marca. Estos son indicadores adelantados. Si se mueven en la dirección correcta, los ingresos siguen. Si no, algo en la estrategia necesita ajustarse antes de desperdiciar otro trimestre.",
           ],
+          callout: { title: "Revenue-First Math", text: "If your store does $50K/month organic with 2.1% conversion rate and $85 AOV, you need ~28,000 organic sessions. To grow to $75K, work backwards from the traffic, conversion, and AOV levers you can move." },
         },
         {
           heading: "Análisis competitivo que realmente informa las decisiones",
@@ -333,6 +346,7 @@ export const ecommerceSeoStrategy: BlogArticle = {
             "Crea una hoja de cálculo con columnas para palabra clave, volumen de búsqueda mensual, dificultad de la palabra clave, etapa del recorrido del comprador, tipo de página objetivo y URL objetivo. Agrupa las palabras clave por cluster temático. Cada categoría de producto debería tener un cluster con la página de categoría como hub y el contenido de apoyo (guías de compra, comparaciones, tutoriales) como radios.",
             "Este ejercicio de mapeo suele revelar brechas sorprendentes. Trabajamos con una marca de suplementos que tenía 200 páginas de producto pero cero contenido de apoyo para su categoría principal, proteína en polvo. Intentaban posicionar páginas de categoría y producto para términos que requerían contenido informativo. Una vez que construimos el cluster de contenido (una guía de compra, desglose de ingredientes, artículos comparativos), la página de categoría pasó de la posición 14 a la posición 4 para 'mejor proteína en polvo' en cinco meses.",
           ],
+          image: { src: "/images/blog/es/buyer-journey-keywords.svg", alt: "Four-stage buyer journey from Awareness to Retention showing keyword examples and matching page types for each stage", caption: "Match every keyword to the right stage and page type" },
         },
         {
           heading: "Construir un plan de contenido con prioridades, no solo temas",
@@ -353,6 +367,7 @@ export const ecommerceSeoStrategy: BlogArticle = {
             "Crea un backlog de SEO técnico ordenado por impacto estimado. Aborda los elementos de alto impacto en los primeros 60 días de tu estrategia. Las mejoras de velocidad del sitio y las correcciones del presupuesto de rastreo a menudo producen ganancias de tráfico medibles en 4-6 semanas porque Google puede de repente descubrir y posicionar páginas que antes estaba ignorando.",
             "No trates el SEO técnico como un proyecto puntual. Programa auditorías técnicas mensuales en tu estrategia. Los sitios de ecommerce cambian constantemente. Se añaden nuevos productos, se eliminan los antiguos, los desarrolladores suben cambios de código y aparecen nuevos patrones de URL. Sin monitoreo regular, la deuda técnica se acumula rápidamente.",
           ],
+          image: { src: "/images/blog/es/ecommerce-technical-seo-priorities.svg", alt: "Technical SEO priority stack for ecommerce from critical crawl budget and speed fixes to ongoing monitoring", caption: "Tackle high-impact technical issues first -- crawl budget and speed fixes show results in 4-6 weeks" },
         },
         {
           heading: "Construcción de enlaces para ecommerce: un enfoque realista",
@@ -375,6 +390,7 @@ export const ecommerceSeoStrategy: BlogArticle = {
             "Mes 8-12: escalar y refinar. Expándete al contenido top-of-funnel de nivel 3. Redobla lo que está funcionando (temas, formatos de contenido, tácticas de enlaces). Prueba la optimización de la tasa de conversión en las páginas de aterrizaje orgánicas con más tráfico. Desarrolla clusters de contenido para categorías de producto secundarias. Resultado esperado: 60-100 % de aumento en los ingresos orgánicos respecto a la línea base.",
             "Estas no son garantías. Los resultados dependen de tu punto de partida, el entorno competitivo y la calidad de ejecución. Pero son puntos de referencia realistas basados en lo que hemos visto en docenas de proyectos SEO para ecommerce. Las tiendas que siguen este tipo de enfoque estructurado superan consistentemente a las que tratan el SEO como una bolsa de tareas aleatorias. Cuando estés listo para externalizar la ejecución, nuestra [agencia SEO para ecommerce](/ecommerce-seo) puede implementar todo este framework por ti.",
           ],
+          image: { src: "/images/blog/es/seo-strategy-timeline.svg", alt: "Timeline showing 12-month ecommerce SEO strategy phases: Foundation, Expansion, Content, and Scale with expected results", caption: "A structured 12-month SEO strategy with realistic milestones" },
         },
         {
           heading: "Medir lo que importa y ajustar el plan",
@@ -407,6 +423,7 @@ export const ecommerceSeoStrategy: BlogArticle = {
             "Stabilisci un obiettivo di fatturato primario a 12 mesi. Poi suddividilo in milestone trimestrali. Il Q1 potrebbe concentrarsi sulla correzione del debito tecnico e l'ottimizzazione delle pagine esistenti, che spesso produce un aumento del traffico del 10-15% senza creare nulla di nuovo. Il Q2 potrebbe puntare all'espansione delle pagine di categoria. Il Q3 e Q4 potrebbero concentrarsi sul content marketing e sul link building per spingere i termini competitivi oltre il traguardo.",
             "Raccomandiamo anche di impostare KPI secondari che supportino l'obiettivo di fatturato: crescita del traffico organico (mensile), numero di keyword nella top 10, visibilità delle pagine di categoria per i termini principali e tasso di clic organico non brand. Questi sono indicatori anticipatori. Se si muovono nella direzione giusta, il fatturato segue. Se non lo fanno, qualcosa nella strategia deve essere aggiustato prima di sprecare un altro trimestre.",
           ],
+          callout: { title: "Revenue-First Math", text: "If your store does $50K/month organic with 2.1% conversion rate and $85 AOV, you need ~28,000 organic sessions. To grow to $75K, work backwards from the traffic, conversion, and AOV levers you can move." },
         },
         {
           heading: "Analisi competitiva che informa davvero le decisioni",
@@ -426,6 +443,7 @@ export const ecommerceSeoStrategy: BlogArticle = {
             "Crea un foglio di calcolo con colonne per keyword, volume di ricerca mensile, difficoltà della keyword, fase del percorso d'acquisto, tipo di pagina target e URL target. Raggruppa le keyword per cluster tematico. Ogni categoria di prodotto dovrebbe avere un cluster con la pagina di categoria come hub e i contenuti di supporto (guide all'acquisto, confronti, tutorial) come raggi.",
             "Questo esercizio di mappatura rivela solitamente gap sorprendenti. Abbiamo lavorato con un brand di integratori che aveva 200 pagine prodotto ma zero contenuti di supporto per la loro categoria principale, le proteine in polvere. Stavano cercando di posizionare pagine di categoria e prodotto per termini che richiedevano contenuti informativi. Una volta costruito il cluster di contenuti (una guida all'acquisto, analisi degli ingredienti, articoli comparativi), la pagina di categoria è passata dalla posizione 14 alla posizione 4 per 'miglior proteina in polvere' in cinque mesi.",
           ],
+          image: { src: "/images/blog/it/buyer-journey-keywords.svg", alt: "Four-stage buyer journey from Awareness to Retention showing keyword examples and matching page types for each stage", caption: "Match every keyword to the right stage and page type" },
         },
         {
           heading: "Costruire un piano di contenuti con priorità, non solo argomenti",
@@ -446,6 +464,7 @@ export const ecommerceSeoStrategy: BlogArticle = {
             "Costruisci un backlog SEO tecnico ordinato per impatto stimato. Affronta gli elementi ad alto impatto nei primi 60 giorni della tua strategia. I miglioramenti della velocità del sito e le correzioni del crawl budget spesso producono guadagni di traffico misurabili entro 4-6 settimane perché Google può improvvisamente scoprire e posizionare pagine che prima stava ignorando.",
             "Non trattare la SEO tecnica come un progetto una tantum. Programma audit tecnici mensili nella tua strategia. I siti ecommerce cambiano costantemente. Nuovi prodotti vengono aggiunti, vecchi vengono rimossi, gli sviluppatori rilasciano modifiche al codice e appaiono nuovi pattern di URL. Senza monitoraggio regolare, il debito tecnico si accumula rapidamente.",
           ],
+          image: { src: "/images/blog/it/ecommerce-technical-seo-priorities.svg", alt: "Technical SEO priority stack for ecommerce from critical crawl budget and speed fixes to ongoing monitoring", caption: "Tackle high-impact technical issues first -- crawl budget and speed fixes show results in 4-6 weeks" },
         },
         {
           heading: "Link building per l'ecommerce: un approccio realistico",
@@ -468,6 +487,7 @@ export const ecommerceSeoStrategy: BlogArticle = {
             "Mese 8-12: scala e perfeziona. Espanditi ai contenuti top-of-funnel di livello 3. Raddoppia gli sforzi su ciò che funziona (argomenti, formati di contenuto, tattiche di link). Testa l'ottimizzazione del tasso di conversione sulle landing page organiche ad alto traffico. Sviluppa i cluster di contenuti per le categorie di prodotto secondarie. Risultato atteso: 60-100% di aumento del fatturato organico rispetto alla baseline.",
             "Queste non sono garanzie. I risultati dipendono dal tuo punto di partenza, dall'ambiente competitivo e dalla qualità dell'esecuzione. Ma sono benchmark realistici basati su ciò che abbiamo visto in decine di progetti SEO per ecommerce. I negozi che seguono questo tipo di approccio strutturato superano costantemente quelli che trattano la SEO come un sacchetto di attività casuali. Quando sei pronto a esternalizzare l'esecuzione, la nostra [agenzia SEO per ecommerce](/ecommerce-seo) può implementare l'intero framework per te.",
           ],
+          image: { src: "/images/blog/it/seo-strategy-timeline.svg", alt: "Timeline showing 12-month ecommerce SEO strategy phases: Foundation, Expansion, Content, and Scale with expected results", caption: "A structured 12-month SEO strategy with realistic milestones" },
         },
         {
           heading: "Misurare ciò che conta e adeguare il piano",
@@ -500,6 +520,7 @@ export const ecommerceSeoStrategy: BlogArticle = {
             "Stel een primair omzetdoel voor 12 maanden. Breek het dan op in kwartaalmijlpalen. Q1 kan zich richten op het oplossen van technische schuld en het optimaliseren van bestaande pagina's, wat vaak een verkeerstoename van 10-15% oplevert zonder iets nieuws te creëren. Q2 kan gericht zijn op uitbreiding van categoriepagina's. Q3 en Q4 kunnen zich richten op contentmarketing en linkbuilding om competitieve zoektermen over de streep te trekken.",
             "We raden ook aan om secundaire KPI's in te stellen die het omzetdoel ondersteunen: organische verkeersgroei (maandelijks), aantal keywords in de top 10, zichtbaarheid van categoriepagina's voor hoofdtermen en organisch doorklikpercentage zonder merknaam. Dit zijn voorlopende indicatoren. Als ze de goede kant op bewegen, volgt de omzet. Als dat niet het geval is, moet er iets in de strategie worden aangepast voordat je nog een kwartaal verspilt.",
           ],
+          callout: { title: "Revenue-First Math", text: "If your store does $50K/month organic with 2.1% conversion rate and $85 AOV, you need ~28,000 organic sessions. To grow to $75K, work backwards from the traffic, conversion, and AOV levers you can move." },
         },
         {
           heading: "Concurrentieanalyse die daadwerkelijk beslissingen stuurt",
@@ -519,6 +540,7 @@ export const ecommerceSeoStrategy: BlogArticle = {
             "Maak een spreadsheet met kolommen voor keyword, maandelijks zoekvolume, keyword-moeilijkheid, fase van de klantreis, doelpaginatype en doel-URL. Groepeer keywords per themacluster. Elke productcategorie moet een cluster hebben met de categoriepagina als hub en ondersteunende content (koopgidsen, vergelijkingen, how-to's) als spaken.",
             "Deze mapping-oefening onthult meestal verrassende hiaten. We werkten met een supplementenmerk dat 200 productpagina's had maar nul ondersteunende content voor hun topcategorie, eiwitpoeder. Ze probeerden categorie- en productpagina's te laten ranken voor termen die informatieve content vereisten. Zodra we het contentcluster hadden gebouwd (een koopgids, ingrediëntanalyses, vergelijkingsartikelen), ging de categoriepagina van positie 14 naar positie 4 voor 'beste eiwitpoeder' binnen vijf maanden.",
           ],
+          image: { src: "/images/blog/nl/buyer-journey-keywords.svg", alt: "Four-stage buyer journey from Awareness to Retention showing keyword examples and matching page types for each stage", caption: "Match every keyword to the right stage and page type" },
         },
         {
           heading: "Een contentplan bouwen met prioriteiten, niet alleen onderwerpen",
@@ -539,6 +561,7 @@ export const ecommerceSeoStrategy: BlogArticle = {
             "Bouw een technisch SEO-backlog gerangschikt op geschatte impact. Pak de items met hoge impact aan in de eerste 60 dagen van je strategie. Snelheidsverbeteringen en crawlbudget-fixes leveren vaak meetbare verkeerswinst op binnen 4-6 weken omdat Google plotseling pagina's kan ontdekken en ranken die het eerder negeerde.",
             "Behandel technische SEO niet als een eenmalig project. Plan maandelijkse technische audits in je strategie. E-commerce sites veranderen constant. Nieuwe producten worden toegevoegd, oude worden verwijderd, ontwikkelaars pushen codewijzigingen en nieuwe URL-patronen verschijnen. Zonder regelmatige monitoring stapelt technische schuld zich snel op.",
           ],
+          image: { src: "/images/blog/nl/ecommerce-technical-seo-priorities.svg", alt: "Technical SEO priority stack for ecommerce from critical crawl budget and speed fixes to ongoing monitoring", caption: "Tackle high-impact technical issues first -- crawl budget and speed fixes show results in 4-6 weeks" },
         },
         {
           heading: "Linkbuilding voor e-commerce: een realistische aanpak",
@@ -561,6 +584,7 @@ export const ecommerceSeoStrategy: BlogArticle = {
             "Maand 8-12: schalen en verfijnen. Breid uit naar laag 3 top-of-funnel content. Verdubbel de inzet op wat werkt (onderwerpen, contentformaten, linktactieken). Test conversieratio-optimalisatie op organische landingspagina's met veel verkeer. Bouw contentclusters uit voor secundaire productcategorieën. Verwacht resultaat: 60-100% toename in organische omzet ten opzichte van de baseline.",
             "Dit zijn geen garanties. Resultaten hangen af van je startpunt, de concurrentieomgeving en de kwaliteit van uitvoering. Maar het zijn realistische benchmarks op basis van wat we hebben gezien bij tientallen e-commerce SEO-trajecten. De winkels die deze gestructureerde aanpak volgen presteren consequent beter dan winkels die SEO behandelen als een grabbelton van willekeurige taken. Wanneer je klaar bent om de uitvoering uit te besteden, kan ons [e-commerce SEO-bureau](/ecommerce-seo) dit hele framework voor je implementeren.",
           ],
+          image: { src: "/images/blog/nl/seo-strategy-timeline.svg", alt: "Timeline showing 12-month ecommerce SEO strategy phases: Foundation, Expansion, Content, and Scale with expected results", caption: "A structured 12-month SEO strategy with realistic milestones" },
         },
         {
           heading: "Meten wat ertoe doet en het plan bijstellen",

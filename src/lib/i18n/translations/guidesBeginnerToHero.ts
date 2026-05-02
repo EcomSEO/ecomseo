@@ -205,7 +205,7 @@ export const guidesBeginnerToHeroT: Record<
         title: "Analytics & Tracking",
       },
       next: {
-        href: "/guides/keyword-research",
+        href: "/academy/keyword-research-for-ecommerce",
         category: "Research & Ideation",
         title: "Keyword Research",
       },
@@ -405,7 +405,7 @@ export const guidesBeginnerToHeroT: Record<
         title: "Analytics & Tracking",
       },
       next: {
-        href: "/guides/keyword-research",
+        href: "/academy/keyword-research-for-ecommerce",
         category: "Recherche & Ideen",
         title: "Keyword-Recherche",
       },
@@ -605,7 +605,7 @@ export const guidesBeginnerToHeroT: Record<
         title: "Analytics & Tracking",
       },
       next: {
-        href: "/guides/keyword-research",
+        href: "/academy/keyword-research-for-ecommerce",
         category: "Recherche & Id\u00e9ation",
         title: "Recherche de mots-cl\u00e9s",
       },
@@ -805,7 +805,7 @@ export const guidesBeginnerToHeroT: Record<
         title: "Analytics y seguimiento",
       },
       next: {
-        href: "/guides/keyword-research",
+        href: "/academy/keyword-research-for-ecommerce",
         category: "Investigaci\u00f3n & Ideaci\u00f3n",
         title: "Investigaci\u00f3n de palabras clave",
       },
@@ -1005,7 +1005,7 @@ export const guidesBeginnerToHeroT: Record<
         title: "Analytics e tracciamento",
       },
       next: {
-        href: "/guides/keyword-research",
+        href: "/academy/keyword-research-for-ecommerce",
         category: "Ricerca & Ideazione",
         title: "Ricerca di keyword",
       },
@@ -1205,7 +1205,7 @@ export const guidesBeginnerToHeroT: Record<
         title: "Analytics & Tracking",
       },
       next: {
-        href: "/guides/keyword-research",
+        href: "/academy/keyword-research-for-ecommerce",
         category: "Onderzoek & Idee\u00ebn",
         title: "Zoekwoordenonderzoek",
       },

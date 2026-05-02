@@ -8,6 +8,9 @@ import { buildPageMetadata } from "@/lib/i18n/metadata";
 import type { Locale } from "@/lib/i18n/config";
 import { searchProductDiscoveryT } from "@/lib/i18n/translations/resources/search-product-discovery";
 
+export const revalidate = 86400;
+
+
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   return buildPageMetadata(locale as Locale, "/resources/search-product-discovery");

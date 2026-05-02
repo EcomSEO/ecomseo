@@ -9,7 +9,7 @@ export const ecommerceBlogSeo: AcademyTopic = {
       badge: "On-Page SEO",
       heading: "Ecommerce Blog SEO",
       intro:
-        "Most ecommerce stores rely entirely on product and category pages to drive organic traffic, missing the massive opportunity that a well-optimized blog provides. A strategic ecommerce blog captures informational search queries that product pages cannot rank for, builds topical authority that strengthens your entire domain, and creates natural pathways from educational content to purchase decisions, turning readers into customers at every stage of the buying journey. A blog is a core pillar of any [content marketing](/content-marketing) strategy for ecommerce.",
+        "Most ecommerce stores rely entirely on product and category pages to drive organic traffic, missing the massive opportunity that a well-optimized blog provides. A strategic ecommerce blog captures informational search queries that product pages cannot rank for, builds topical authority that strengthens your entire domain, and creates natural pathways from educational content to purchase decisions, turning readers into customers at every stage of the buying journey. A blog is a core pillar of any [content marketing](/content-writing) strategy for ecommerce.",
       readTime: "8 min read",
       sections: [
         {
@@ -34,7 +34,11 @@ export const ecommerceBlogSeo: AcademyTopic = {
             "Write problem-solution content that addresses issues your products directly solve",
             "Develop comparison and versus posts for shoppers at the decision stage",
             "Publish seasonal and trend content aligned with peak buying periods"
-          ]
+          ],
+          callout: {
+            title: "Content Mix Impact",
+            text: "Buying guides convert at 2-3x the rate of general blog posts because they attract readers already evaluating options. Problem-solution posts rank faster due to lower keyword competition and clear search intent alignment.",
+          },
         },
         {
           title: "Internal Linking from Blog to Products",
@@ -46,6 +50,15 @@ export const ecommerceBlogSeo: AcademyTopic = {
             "Build hub-and-spoke structures where blog posts link back to category page hubs",
             "Add contextual product callouts at natural decision points within articles"
           ],
+          image: {
+            src: "/images/academy/blog-hub-spoke-linking.svg",
+            alt: "Diagram showing the hub-and-spoke internal linking model where blog posts link back to a central category page",
+            caption: "Blog posts act as spokes linking to category page hubs. This concentrates topical authority on your most important commercial pages.",
+          },
+          callout: {
+            title: "Linking Benchmark",
+            text: "Every category page should have at least 10-15 blog posts linking to it. Each blog post should contain 2-4 contextual links to relevant product or category pages using descriptive anchor text.",
+          },
           tip: "Create an internal linking map that shows which blog posts link to which product and category pages. Review this map monthly to ensure every commercial page has at least five blog posts linking to it. Identify orphaned blog posts with no internal links and fix them immediately."
         },
         {
@@ -83,7 +96,7 @@ export const ecommerceBlogSeo: AcademyTopic = {
       badge: "On-Page-SEO",
       heading: "E-Commerce Blog SEO",
       intro:
-        "Die meisten E-Commerce-Shops verlassen sich ausschliesslich auf Produkt- und Kategorieseiten, um organischen Traffic zu generieren, und verpassen die enorme Chance, die ein gut optimierter Blog bietet. Ein strategischer E-Commerce-Blog erfasst informationale Suchanfragen, fuer die Produktseiten nicht ranken koennen, baut thematische Autoritaet auf, die Ihre gesamte Domain staerkt, und schafft natuerliche Wege von Bildungsinhalten zu Kaufentscheidungen, und verwandelt Leser in Kunden in jeder Phase der Kaufreise. Ein Blog ist ein Kernpfeiler jeder [Content-Marketing](/content-marketing)-Strategie f\u00fcr Ecommerce.",
+        "Die meisten E-Commerce-Shops verlassen sich ausschliesslich auf Produkt- und Kategorieseiten, um organischen Traffic zu generieren, und verpassen die enorme Chance, die ein gut optimierter Blog bietet. Ein strategischer E-Commerce-Blog erfasst informationale Suchanfragen, fuer die Produktseiten nicht ranken koennen, baut thematische Autoritaet auf, die Ihre gesamte Domain staerkt, und schafft natuerliche Wege von Bildungsinhalten zu Kaufentscheidungen, und verwandelt Leser in Kunden in jeder Phase der Kaufreise. Ein Blog ist ein Kernpfeiler jeder [Content-Marketing](/content-writing)-Strategie f\u00fcr Ecommerce.",
       readTime: "8 Min. Lesezeit",
       sections: [
         {
@@ -97,6 +110,10 @@ export const ecommerceBlogSeo: AcademyTopic = {
             "Binden Sie potenzielle Kunden in der Recherchephase ein, bevor Konkurrenten sie erfassen",
             "Unterstuetzen Sie Produkt- und Kategorieseiten-Rankings durch interne Link-Equity-Verteilung"
           ],
+          callout: {
+            title: "Content-Mix-Wirkung",
+            text: "Kaufratgeber konvertieren 2-3x besser als allgemeine Blogbeiträge. Problem-Lösungs-Artikel ranken schneller dank geringerem Keyword-Wettbewerb.",
+          },
           tip: "Auditieren Sie Ihre Top-50-Ziel-Keywords und klassifizieren Sie sie nach Suchintention. Sie werden wahrscheinlich feststellen, dass 40-60% informationale Intention haben, die nur Blog-Content effektiv ansprechen kann. Diese Luecke repraesentiert die adressierbare Traffic-Chance Ihres Blogs."
         },
         {
@@ -120,6 +137,15 @@ export const ecommerceBlogSeo: AcademyTopic = {
             "Bauen Sie Hub-and-Spoke-Strukturen auf, in denen Blogbeitraege zurueck zu Kategorieseiten-Hubs verlinken",
             "Fuegen Sie kontextuelle Produkt-Callouts an natuerlichen Entscheidungspunkten in Artikeln hinzu"
           ],
+          image: {
+            src: "/images/academy/de/blog-hub-spoke-linking.svg",
+            alt: "Diagramm des Hub-and-Spoke-Modells für interne Verlinkung, bei dem Blogbeiträge zurück auf eine zentrale Kategorieseite verlinken",
+            caption: "Blogbeiträge agieren als Speichen, die auf Kategorieseiten-Hubs verlinken. Das konzentriert thematische Autorität auf Ihre wichtigsten kommerziellen Seiten.",
+          },
+          callout: {
+            title: "Verlinkungsbenchmark",
+            text: "Jede Kategorieseite sollte mindestens 10-15 Blogbeiträge haben, die auf sie verlinken. Jeder Blogbeitrag sollte 2-4 kontextuelle Links zu relevanten Produkt- oder Kategorieseiten mit beschreibendem Ankertext enthalten.",
+          },
           tip: "Erstellen Sie eine interne Verlinkungskarte, die zeigt, welche Blogbeitraege auf welche Produkt- und Kategorieseiten verlinken. Ueberpruefen Sie diese Karte monatlich, um sicherzustellen, dass jede kommerzielle Seite mindestens fuenf Blogbeitraege hat, die darauf verlinken. Identifizieren Sie verwaiste Blogbeitraege ohne interne Links und beheben Sie diese sofort."
         },
         {
@@ -157,7 +183,7 @@ export const ecommerceBlogSeo: AcademyTopic = {
       badge: "SEO on-page",
       heading: "SEO de Blog E-commerce",
       intro:
-        "La plupart des boutiques e-commerce s'appuient entierement sur les pages produit et categorie pour generer du trafic organique, passant a cote de l'enorme opportunite qu'un blog bien optimise offre. Un blog e-commerce strategique capture les requetes de recherche informationnelles que les pages produit ne peuvent pas cibler, construit une [autorite thematique](/academy/topical-authority-for-ecommerce) qui renforce l'ensemble de votre domaine, et cree des chemins naturels du contenu educatif vers les decisions d'achat, transformant les lecteurs en clients a chaque etape du parcours d'achat. Un blog est un pilier fondamental de toute stratégie de [content marketing](/content-marketing) pour l'e-commerce.",
+        "La plupart des boutiques e-commerce s'appuient entierement sur les pages produit et categorie pour generer du trafic organique, passant a cote de l'enorme opportunite qu'un blog bien optimise offre. Un blog e-commerce strategique capture les requetes de recherche informationnelles que les pages produit ne peuvent pas cibler, construit une [autorite thematique](/academy/topical-authority-for-ecommerce) qui renforce l'ensemble de votre domaine, et cree des chemins naturels du contenu educatif vers les decisions d'achat, transformant les lecteurs en clients a chaque etape du parcours d'achat. Un blog est un pilier fondamental de toute stratégie de [content marketing](/content-writing) pour l'e-commerce.",
       readTime: "8 min de lecture",
       sections: [
         {
@@ -171,7 +197,11 @@ export const ecommerceBlogSeo: AcademyTopic = {
             "Engagez les clients potentiels a l'etape de recherche avant que les concurrents ne les capturent",
             "Soutenez les classements des pages produit et categorie par la distribution d'equity de liens internes"
           ],
-          tip: "Auditez vos 50 principaux mots-cles cibles et classez-les par intention de recherche. Vous trouverez probablement que 40-60% ont une intention informationnelle que seul le contenu de blog peut cibler efficacement. Cet ecart represente l'opportunite de trafic adressable de votre blog."
+          tip: "Auditez vos 50 principaux mots-cles cibles et classez-les par intention de recherche. Vous trouverez probablement que 40-60% ont une intention informationnelle que seul le contenu de blog peut cibler efficacement. Cet ecart represente l'opportunite de trafic adressable de votre blog.",
+          callout: {
+            title: "Content-Mix-Wirkung",
+            text: "Kaufratgeber konvertieren 2-3x besser als allgemeine Blogbeiträge. Problem-Lösungs-Artikel ranken schneller dank geringerem Keyword-Wettbewerb.",
+          },
         },
         {
           title: "Contenu qui stimule la decouverte de produits",
@@ -194,7 +224,16 @@ export const ecommerceBlogSeo: AcademyTopic = {
             "Construisez des structures en etoile ou les articles de blog relient vers des pages categorie centrales",
             "Ajoutez des encarts produit contextuels aux points de decision naturels dans les articles"
           ],
-          tip: "Creez une carte de maillage interne montrant quels articles de blog lient vers quelles pages produit et categorie. Revisez cette carte mensuellement pour vous assurer que chaque page commerciale a au moins cinq articles de blog y liant."
+          tip: "Creez une carte de maillage interne montrant quels articles de blog lient vers quelles pages produit et categorie. Revisez cette carte mensuellement pour vous assurer que chaque page commerciale a au moins cinq articles de blog y liant.",
+          image: {
+            src: "/images/academy/fr/blog-hub-spoke-linking.svg",
+            alt: "Diagramm des Hub-and-Spoke-Modells für interne Verlinkung, bei dem Blogbeiträge zurück auf eine zentrale Kategorieseite verlinken",
+            caption: "Blogbeiträge agieren als Speichen, die auf Kategorieseiten-Hubs verlinken. Das konzentriert thematische Autorität auf Ihre wichtigsten kommerziellen Seiten.",
+          },
+          callout: {
+            title: "Verlinkungsbenchmark",
+            text: "Jede Kategorieseite sollte mindestens 10-15 Blogbeiträge haben, die auf sie verlinken. Jeder Blogbeitrag sollte 2-4 kontextuelle Links zu relevanten Produkt- oder Kategorieseiten mit beschreibendem Ankertext enthalten.",
+          },
         },
         {
           title: "Structure d'article de blog pour le SEO e-commerce",
@@ -231,7 +270,7 @@ export const ecommerceBlogSeo: AcademyTopic = {
       badge: "SEO on-page",
       heading: "SEO de Blog para Ecommerce",
       intro:
-        "La mayoria de tiendas ecommerce dependen completamente de paginas de producto y categoria para generar trafico organico, perdiendo la enorme oportunidad que un blog bien optimizado proporciona. Un blog ecommerce estrategico captura consultas de busqueda informativas que las paginas de producto no pueden posicionar, construye autoridad tematica que fortalece todo tu dominio, y crea caminos naturales desde el contenido educativo hacia las decisiones de compra, convirtiendo lectores en clientes en cada etapa del viaje de compra. Un blog es un pilar fundamental de cualquier estrategia de [marketing de contenidos](/content-marketing) para ecommerce.",
+        "La mayoria de tiendas ecommerce dependen completamente de paginas de producto y categoria para generar trafico organico, perdiendo la enorme oportunidad que un blog bien optimizado proporciona. Un blog ecommerce estrategico captura consultas de busqueda informativas que las paginas de producto no pueden posicionar, construye autoridad tematica que fortalece todo tu dominio, y crea caminos naturales desde el contenido educativo hacia las decisiones de compra, convirtiendo lectores en clientes en cada etapa del viaje de compra. Un blog es un pilar fundamental de cualquier estrategia de [marketing de contenidos](/content-writing) para ecommerce.",
       readTime: "8 min de lectura",
       sections: [
         {
@@ -245,7 +284,11 @@ export const ecommerceBlogSeo: AcademyTopic = {
             "Involucra clientes potenciales en la etapa de investigacion antes de que los competidores los capturen",
             "Apoya los rankings de paginas de producto y categoria mediante distribucion de equity de enlaces internos"
           ],
-          tip: "Audita tus 50 keywords objetivo principales y clasificalas por intencion de busqueda. Probablemente encontraras que 40-60% tienen intencion informativa que solo el contenido del blog puede apuntar efectivamente. Esta brecha representa la oportunidad de trafico direccionable de tu blog."
+          tip: "Audita tus 50 keywords objetivo principales y clasificalas por intencion de busqueda. Probablemente encontraras que 40-60% tienen intencion informativa que solo el contenido del blog puede apuntar efectivamente. Esta brecha representa la oportunidad de trafico direccionable de tu blog.",
+          callout: {
+            title: "Content-Mix-Wirkung",
+            text: "Kaufratgeber konvertieren 2-3x besser als allgemeine Blogbeiträge. Problem-Lösungs-Artikel ranken schneller dank geringerem Keyword-Wettbewerb.",
+          },
         },
         {
           title: "Contenido que impulsa el descubrimiento de productos",
@@ -268,7 +311,16 @@ export const ecommerceBlogSeo: AcademyTopic = {
             "Construye estructuras hub-and-spoke donde los posts de blog enlazan de vuelta a los hubs de paginas de categoria",
             "Anade callouts de producto contextuales en puntos de decision naturales dentro de los articulos"
           ],
-          tip: "Crea un mapa de enlazado interno que muestre que posts de blog enlazan a que paginas de producto y categoria. Revisa este mapa mensualmente para asegurar que cada pagina comercial tiene al menos cinco posts de blog enlazandola."
+          tip: "Crea un mapa de enlazado interno que muestre que posts de blog enlazan a que paginas de producto y categoria. Revisa este mapa mensualmente para asegurar que cada pagina comercial tiene al menos cinco posts de blog enlazandola.",
+          image: {
+            src: "/images/academy/es/blog-hub-spoke-linking.svg",
+            alt: "Diagramm des Hub-and-Spoke-Modells für interne Verlinkung, bei dem Blogbeiträge zurück auf eine zentrale Kategorieseite verlinken",
+            caption: "Blogbeiträge agieren als Speichen, die auf Kategorieseiten-Hubs verlinken. Das konzentriert thematische Autorität auf Ihre wichtigsten kommerziellen Seiten.",
+          },
+          callout: {
+            title: "Verlinkungsbenchmark",
+            text: "Jede Kategorieseite sollte mindestens 10-15 Blogbeiträge haben, die auf sie verlinken. Jeder Blogbeitrag sollte 2-4 kontextuelle Links zu relevanten Produkt- oder Kategorieseiten mit beschreibendem Ankertext enthalten.",
+          },
         },
         {
           title: "Estructura de post de blog para SEO ecommerce",
@@ -305,7 +357,7 @@ export const ecommerceBlogSeo: AcademyTopic = {
       badge: "SEO on-page",
       heading: "SEO del Blog per l'Ecommerce",
       intro:
-        "La maggior parte dei negozi e-commerce si affida interamente alle pagine prodotto e categoria per generare traffico organico, perdendo l'enorme opportunita che un blog ben ottimizzato offre. Un blog e-commerce strategico cattura le query di ricerca informazionali per cui le pagine prodotto non possono posizionarsi, costruisce [autorita tematica](/academy/topical-authority-for-ecommerce) che rafforza l'intero dominio e crea percorsi naturali dal contenuto educativo alle decisioni di acquisto, trasformando i lettori in clienti in ogni fase del percorso di acquisto. Approfondisci con la nostra guida sul [content marketing](/content-marketing).",
+        "La maggior parte dei negozi e-commerce si affida interamente alle pagine prodotto e categoria per generare traffico organico, perdendo l'enorme opportunita che un blog ben ottimizzato offre. Un blog e-commerce strategico cattura le query di ricerca informazionali per cui le pagine prodotto non possono posizionarsi, costruisce [autorita tematica](/academy/topical-authority-for-ecommerce) che rafforza l'intero dominio e crea percorsi naturali dal contenuto educativo alle decisioni di acquisto, trasformando i lettori in clienti in ogni fase del percorso di acquisto. Approfondisci con la nostra guida sul [content marketing](/content-writing).",
       readTime: "8 min di lettura",
       sections: [
         {
@@ -319,7 +371,11 @@ export const ecommerceBlogSeo: AcademyTopic = {
             "Coinvolgi potenziali clienti nella fase di ricerca prima che i concorrenti li catturino",
             "Supporta i ranking delle pagine prodotto e categoria attraverso la distribuzione di equity di link interni"
           ],
-          tip: "Audita le tue 50 keyword target principali e classificale per intento di ricerca. Probabilmente troverai che il 40-60% ha intento informazionale che solo il contenuto del blog puo targettizzare efficacemente. Questo gap rappresenta l'opportunita di traffico indirizzabile del tuo blog."
+          tip: "Audita le tue 50 keyword target principali e classificale per intento di ricerca. Probabilmente troverai che il 40-60% ha intento informazionale che solo il contenuto del blog puo targettizzare efficacemente. Questo gap rappresenta l'opportunita di traffico indirizzabile del tuo blog.",
+          callout: {
+            title: "Content-Mix-Wirkung",
+            text: "Kaufratgeber konvertieren 2-3x besser als allgemeine Blogbeiträge. Problem-Lösungs-Artikel ranken schneller dank geringerem Keyword-Wettbewerb.",
+          },
         },
         {
           title: "Contenuti che guidano la scoperta dei prodotti",
@@ -342,7 +398,16 @@ export const ecommerceBlogSeo: AcademyTopic = {
             "Costruisci strutture hub-and-spoke dove i post del blog linkano agli hub delle pagine categoria",
             "Aggiungi callout di prodotto contestuali ai punti decisionali naturali negli articoli"
           ],
-          tip: "Crea una mappa di linking interno che mostri quali post del blog linkano a quali pagine prodotto e categoria. Rivedi questa mappa mensilmente per assicurarti che ogni pagina commerciale abbia almeno cinque post del blog che linkano ad essa."
+          tip: "Crea una mappa di linking interno che mostri quali post del blog linkano a quali pagine prodotto e categoria. Rivedi questa mappa mensilmente per assicurarti che ogni pagina commerciale abbia almeno cinque post del blog che linkano ad essa.",
+          image: {
+            src: "/images/academy/it/blog-hub-spoke-linking.svg",
+            alt: "Diagramm des Hub-and-Spoke-Modells für interne Verlinkung, bei dem Blogbeiträge zurück auf eine zentrale Kategorieseite verlinken",
+            caption: "Blogbeiträge agieren als Speichen, die auf Kategorieseiten-Hubs verlinken. Das konzentriert thematische Autorität auf Ihre wichtigsten kommerziellen Seiten.",
+          },
+          callout: {
+            title: "Verlinkungsbenchmark",
+            text: "Jede Kategorieseite sollte mindestens 10-15 Blogbeiträge haben, die auf sie verlinken. Jeder Blogbeitrag sollte 2-4 kontextuelle Links zu relevanten Produkt- oder Kategorieseiten mit beschreibendem Ankertext enthalten.",
+          },
         },
         {
           title: "Struttura del post del blog per il SEO e-commerce",
@@ -379,7 +444,7 @@ export const ecommerceBlogSeo: AcademyTopic = {
       badge: "On-page SEO",
       heading: "E-commerce Blog SEO",
       intro:
-        "De meeste e-commerce winkels vertrouwen volledig op product- en categoriepagina's om organisch verkeer te genereren en missen de enorme kans die een goed geoptimaliseerd blog biedt. Een strategisch e-commerce blog vangt informatieve zoekvragen op waarvoor productpagina's niet kunnen ranken, bouwt thematische autoriteit op die je hele domein versterkt, en creert natuurlijke paden van educatieve content naar aankoopbeslissingen, waardoor lezers worden omgezet in klanten in elke fase van het aankooptraject.\n\nBekijk onze [contentmarketing](/content-marketing)-diensten voor professionele ondersteuning.",
+        "De meeste e-commerce winkels vertrouwen volledig op product- en categoriepagina's om organisch verkeer te genereren en missen de enorme kans die een goed geoptimaliseerd blog biedt. Een strategisch e-commerce blog vangt informatieve zoekvragen op waarvoor productpagina's niet kunnen ranken, bouwt thematische autoriteit op die je hele domein versterkt, en creert natuurlijke paden van educatieve content naar aankoopbeslissingen, waardoor lezers worden omgezet in klanten in elke fase van het aankooptraject.\n\nBekijk onze [contentmarketing](/content-writing)-diensten voor professionele ondersteuning.",
       readTime: "8 min leestijd",
       sections: [
         {
@@ -393,7 +458,11 @@ export const ecommerceBlogSeo: AcademyTopic = {
             "Betrek potentiele klanten in de onderzoeksfase voordat concurrenten ze vangen",
             "Ondersteun product- en categoriepagina-rankings door distributie van interne link-equity"
           ],
-          tip: "Audit je top 50 doelzoekwoorden en classificeer ze op zoekintentie. Je zult waarschijnlijk vinden dat 40-60% informatieve intentie heeft die alleen blogcontent effectief kan targeten. Dit gat vertegenwoordigt de adresseerbare verkeerskans van je blog."
+          tip: "Audit je top 50 doelzoekwoorden en classificeer ze op zoekintentie. Je zult waarschijnlijk vinden dat 40-60% informatieve intentie heeft die alleen blogcontent effectief kan targeten. Dit gat vertegenwoordigt de adresseerbare verkeerskans van je blog.",
+          callout: {
+            title: "Content-Mix-Wirkung",
+            text: "Kaufratgeber konvertieren 2-3x besser als allgemeine Blogbeiträge. Problem-Lösungs-Artikel ranken schneller dank geringerem Keyword-Wettbewerb.",
+          },
         },
         {
           title: "Content die productontdekking stimuleert",
@@ -416,7 +485,16 @@ export const ecommerceBlogSeo: AcademyTopic = {
             "Bouw hub-and-spoke structuren waarbij blogposts teruglinken naar categoriepagina-hubs",
             "Voeg contextuele productcallouts toe op natuurlijke beslismomenten in artikelen"
           ],
-          tip: "Maak een interne linkmap die laat zien welke blogposts naar welke product- en categoriepagina's linken. Bekijk deze map maandelijks om te verzekeren dat elke commerciele pagina minstens vijf blogposts heeft die ernaar linken."
+          tip: "Maak een interne linkmap die laat zien welke blogposts naar welke product- en categoriepagina's linken. Bekijk deze map maandelijks om te verzekeren dat elke commerciele pagina minstens vijf blogposts heeft die ernaar linken.",
+          image: {
+            src: "/images/academy/nl/blog-hub-spoke-linking.svg",
+            alt: "Diagramm des Hub-and-Spoke-Modells für interne Verlinkung, bei dem Blogbeiträge zurück auf eine zentrale Kategorieseite verlinken",
+            caption: "Blogbeiträge agieren als Speichen, die auf Kategorieseiten-Hubs verlinken. Das konzentriert thematische Autorität auf Ihre wichtigsten kommerziellen Seiten.",
+          },
+          callout: {
+            title: "Verlinkungsbenchmark",
+            text: "Jede Kategorieseite sollte mindestens 10-15 Blogbeiträge haben, die auf sie verlinken. Jeder Blogbeitrag sollte 2-4 kontextuelle Links zu relevanten Produkt- oder Kategorieseiten mit beschreibendem Ankertext enthalten.",
+          },
         },
         {
           title: "Blogpoststructuur voor e-commerce SEO",

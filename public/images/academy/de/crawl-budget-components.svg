@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 260" fill="none">
+  <!-- Title -->
+  <text x="340" y="24" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="700" fill="#a78bfa">Crawl-Budget = Crawl-Rate-Limit + Crawl-Nachfrage</text>
+
+  <!-- Crawl-Rate-Limit -->
+  <rect x="40" y="52" width="260" height="170" rx="10" stroke="#60a5fa" stroke-width="1.5" fill="none"/>
+  <text x="170" y="76" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="700" fill="#60a5fa">Crawl-Rate-Limit</text>
+  <text x="170" y="96" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#94a3b8">Serverkapazitaet</text>
+
+  <circle cx="80" cy="128" r="6" stroke="#e2e8f0" stroke-width="1" fill="none"/>
+  <text x="96" y="132" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Server-Antwortzeit</text>
+  <circle cx="80" cy="154" r="6" stroke="#e2e8f0" stroke-width="1" fill="none"/>
+  <text x="96" y="158" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Hosting-Infrastruktur</text>
+  <circle cx="80" cy="180" r="6" stroke="#e2e8f0" stroke-width="1" fill="none"/>
+  <text x="96" y="184" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Gleichzeitige Verbindungen</text>
+  <circle cx="80" cy="206" r="6" stroke="#e2e8f0" stroke-width="1" fill="none"/>
+  <text x="96" y="210" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Fehlerrate (5xx verlangsamt Crawl)</text>
+
+  <!-- Plus sign -->
+  <text x="340" y="145" text-anchor="middle" font-family="Arial,sans-serif" font-size="28" font-weight="700" fill="#a78bfa">+</text>
+
+  <!-- Crawl-Nachfrage -->
+  <rect x="380" y="52" width="260" height="170" rx="10" stroke="#4ade80" stroke-width="1.5" fill="none"/>
+  <text x="510" y="76" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="700" fill="#4ade80">Crawl-Nachfrage</text>
+  <text x="510" y="96" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#94a3b8">Googles Interesse</text>
+
+  <circle cx="420" cy="128" r="6" stroke="#e2e8f0" stroke-width="1" fill="none"/>
+  <text x="436" y="132" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Seitenpopularitaet</text>
+  <circle cx="420" cy="154" r="6" stroke="#e2e8f0" stroke-width="1" fill="none"/>
+  <text x="436" y="158" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Aktualitaet des Inhalts</text>
+  <circle cx="420" cy="180" r="6" stroke="#e2e8f0" stroke-width="1" fill="none"/>
+  <text x="436" y="184" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Backlink-Autoritaet</text>
+  <circle cx="420" cy="206" r="6" stroke="#e2e8f0" stroke-width="1" fill="none"/>
+  <text x="436" y="210" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Sitemap-Signale</text>
+</svg>

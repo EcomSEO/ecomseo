@@ -16,18 +16,31 @@ export const digitalPrForEcommerce: AcademyTopic = {
           title: "What Digital PR Means for Ecommerce",
           content:
             "Digital PR for ecommerce is the practice of creating newsworthy stories, data assets, or campaigns that earn coverage, and links, from journalists, bloggers, and online publications. Unlike traditional PR, which measures success in brand mentions and media impressions, digital PR is evaluated primarily by the backlinks each campaign generates. Every piece of coverage that includes a link to your store transfers authority that improves your organic search rankings.\n\nThe approach differs from standard link building because it targets editorial links, the most valuable type of backlink. When a journalist at a national newspaper links to your store's research study or product page within an article, that link carries significantly more weight than a guest post link or a directory listing. Editorial links from high-authority publications are also the hardest for competitors to replicate, creating a durable ranking advantage. Understanding [backlink fundamentals for ecommerce](/academy/backlink-fundamentals-for-ecommerce) helps you evaluate the quality of links each campaign generates.\n\nEcommerce stores have natural advantages in digital PR that many fail to exploit. You sit on proprietary sales data that reveals consumer trends. You have access to product expertise that journalists need for buying guides and roundups. You serve specific customer communities whose stories resonate with niche publications. The key is repackaging these assets into formats that journalists find irresistible: data studies, expert commentary, product innovations, and community-driven stories.",
+          image: {
+            src: "/images/academy/digital-pr-campaign-types.svg",
+            alt: "Diagram showing three digital PR campaign types for ecommerce: data studies, product PR, and reactive PR with ROI metrics",
+            caption: "Data studies generate the highest link volume. Product PR drives links to commercial pages. Reactive PR delivers links within hours.",
+          },
           items: [
             "Digital PR measures success by the backlinks earned, not just media impressions or brand mentions",
             "Editorial links from journalists carry significantly more weight than guest posts or directory listings",
             "Ecommerce stores have natural PR advantages: proprietary data, product expertise, and customer communities",
             "Successful campaigns create durable ranking advantages covered in our [off-page SEO for ecommerce](/blog/off-page-seo-for-ecommerce) guide that competitors cannot easily replicate",
           ],
+          callout: {
+            title: "Scale Advantage",
+            text: "A single successful digital PR campaign can generate 20-100 backlinks from high-authority publications. These editorial links are nearly impossible for competitors to replicate, creating a durable ranking advantage.",
+          },
         },
         {
           title: "Data-Driven PR Campaigns",
           content:
             "Data-driven campaigns are the most reliable way for ecommerce stores to earn high-authority links at scale. Journalists need data to support their stories, and if your store can provide original, interesting data, you become a source that publications link back to repeatedly.\n\nStart with your own sales and customer data. Analyze purchasing trends by region, season, demographic, or product category. A pet supply store might analyze which dog breeds are most popular in different cities based on purchase data. A fashion retailer could publish a report on how color preferences shift by season. These data stories are inherently newsworthy because they reveal genuine consumer behavior that no one else can access.\n\nIf your proprietary data is limited, create original research through surveys. Commission a survey of 1,000 to 2,000 consumers on a topic relevant to your industry. A mattress retailer might survey sleep habits across different age groups. A kitchen equipment store could survey home cooking trends post-pandemic. Professional survey platforms like Pollfish or SurveyMonkey Audience provide statistically significant sample sizes at reasonable costs.\n\nPresent your data in a visually compelling format. Create charts, infographics, and interactive data visualizations that journalists can embed or reference in their articles. A well-designed data asset is far more likely to earn links than a plain text press release. Host the full study on a dedicated page on your site, this is the URL you want publications to link to, and it should be optimized for the keywords you want to rank for.",
           tip: "Time your data campaigns to align with seasonal news cycles. A study about holiday shopping trends released in early November will get far more coverage than the same study released in March. Map out the editorial calendar of your target publications and pitch data stories 4-6 weeks before their relevant season.",
+          callout: {
+            title: "Data You Already Have",
+            text: "Your sales data reveals consumer trends no one else can access. A pet store analyzing breed popularity by city or a fashion retailer tracking seasonal color preferences creates inherently newsworthy stories that earn links from outlets that would never link to a product page.",
+          },
         },
         {
           title: "Building a Media List and Pitching Journalists",
@@ -86,12 +99,25 @@ export const digitalPrForEcommerce: AcademyTopic = {
             "E-Commerce-Shops haben natuerliche PR-Vorteile: proprietaere Daten, Produktexpertise und Kunden-Communities",
             "Erfolgreiche Kampagnen schaffen dauerhafte Ranking-Vorteile, behandelt in unserem Leitfaden zu [Off-Page-SEO fuer Ecommerce](/blog/off-page-seo-for-ecommerce), die Wettbewerber nicht einfach replizieren koennen",
           ],
+          image: {
+            src: "/images/academy/de/digital-pr-campaign-types.svg",
+            alt: "Diagramm das drei Typen digitaler PR-Kampagnen fuer Ecommerce zeigt: Datenstudien, Produkt-PR und reaktive PR mit ROI-Metriken",
+            caption: "Datenstudien generieren das hoechste Linkvolumen. Produkt-PR treibt Links zu kommerziellen Seiten. Reaktive PR liefert Links innerhalb von Stunden.",
+          },
+          callout: {
+            title: "Skalenvorteil",
+            text: "Eine einzige erfolgreiche digitale PR-Kampagne kann 20-100 Backlinks von hochautoritaeren Publikationen generieren. Diese redaktionellen Links sind fuer Wettbewerber nahezu unmoeglich zu replizieren und schaffen einen dauerhaften Ranking-Vorteil.",
+          },
         },
         {
           title: "Datengetriebene PR-Kampagnen",
           content:
             "Datengetriebene Kampagnen sind der zuverlaessigste Weg fuer E-Commerce-Shops, hochautoritative Links in grossem Massstab zu verdienen. Journalisten brauchen Daten zur Unterstuetzung ihrer Geschichten, und wenn Ihr Shop originelle, interessante Daten liefern kann, werden Sie zu einer Quelle, auf die Publikationen wiederholt verlinken.\n\nBeginnen Sie mit Ihren eigenen Verkaufs- und Kundendaten. Analysieren Sie Kauftrends nach Region, Saison, Demografie oder Produktkategorie. Ein Tierbedarf-Shop koennte analysieren, welche Hunderassen in verschiedenen Staedten basierend auf Kaufdaten am beliebtesten sind. Ein Modehaendler koennte einen Bericht darueber veroeffentlichen, wie sich Farbpraeferenzen je nach Jahreszeit verschieben. Diese Datengeschichten sind von Natur aus berichtenswert, weil sie genuines Verbraucherverhalten offenbaren, auf das niemand sonst Zugriff hat.\n\nWenn Ihre proprietaeren Daten begrenzt sind, erstellen Sie Originalforschung durch Umfragen. Beauftragen Sie eine Umfrage unter 1.000 bis 2.000 Verbrauchern zu einem Thema, das fuer Ihre Branche relevant ist. Ein Matratzenhaendler koennte Schlafgewohnheiten verschiedener Altersgruppen befragen. Ein Kuechenausstattungsgeschaeft koennte Trends beim Heimkochen nach der Pandemie erfragen. Professionelle Umfrageplattformen wie Pollfish oder SurveyMonkey Audience bieten statistisch signifikante Stichprobengroessen zu angemessenen Kosten.\n\nPraesentieren Sie Ihre Daten in einem visuell ansprechenden Format. Erstellen Sie Diagramme, Infografiken und interaktive Datenvisualisierungen, die Journalisten einbetten oder in ihren Artikeln referenzieren koennen. Ein gut gestaltetes Daten-Asset verdient mit weit groesserer Wahrscheinlichkeit Links als eine einfache Text-Pressemitteilung. Hosten Sie die vollstaendige Studie auf einer dedizierten Seite auf Ihrer Website, dies ist die URL, auf die Publikationen verlinken sollen, und sie sollte fuer die Keywords optimiert sein, fuer die Sie ranken moechten.",
           tip: "Timen Sie Ihre Datenkampagnen so, dass sie mit saisonalen Nachrichtenzyklen uebereinstimmen. Eine Studie ueber Weihnachtseinkaufstrends, die Anfang November veroeffentlicht wird, erhaelt weit mehr Berichterstattung als dieselbe Studie im Maerz. Erstellen Sie den Redaktionskalender Ihrer Zielpublikationen und pitchen Sie Datengeschichten 4-6 Wochen vor der relevanten Saison.",
+          callout: {
+            title: "Daten die Sie bereits haben",
+            text: "Ihre Verkaufsdaten offenbaren Verbrauchertrends auf die niemand sonst Zugriff hat. Ein Zoogeschaeft das die Beliebtheit von Rassen nach Stadt analysiert oder ein Modehaendler der saisonale Farbpraeferenzen verfolgt erzeugt inhaerent berichtenswerte Stories die Links von Medien verdienen die niemals zu einer Produktseite verlinken wuerden.",
+          },
         },
         {
           title: "Medienliste aufbauen und Journalisten pitchen",
@@ -150,12 +176,25 @@ export const digitalPrForEcommerce: AcademyTopic = {
             "Les boutiques ecommerce ont des avantages RP naturels : donnees proprietaires, expertise produit et communautes clients",
             "Les campagnes réussies créent des avantages de classement durables couverts dans notre guide sur le [SEO off-page pour l'e-commerce](/blog/off-page-seo-for-ecommerce) que les concurrents ne peuvent pas facilement répliquer",
           ],
+          image: {
+            src: "/images/academy/fr/digital-pr-campaign-types.svg",
+            alt: "Diagramm das drei Typen digitaler PR-Kampagnen fuer Ecommerce zeigt: Datenstudien, Produkt-PR und reaktive PR mit ROI-Metriken",
+            caption: "Datenstudien generieren das hoechste Linkvolumen. Produkt-PR treibt Links zu kommerziellen Seiten. Reaktive PR liefert Links innerhalb von Stunden.",
+          },
+          callout: {
+            title: "Skalenvorteil",
+            text: "Eine einzige erfolgreiche digitale PR-Kampagne kann 20-100 Backlinks von hochautoritaeren Publikationen generieren. Diese redaktionellen Links sind fuer Wettbewerber nahezu unmoeglich zu replizieren und schaffen einen dauerhaften Ranking-Vorteil.",
+          },
         },
         {
           title: "Campagnes RP basees sur les donnees",
           content:
             "Les campagnes basees sur les donnees sont le moyen le plus fiable pour les boutiques ecommerce d'obtenir des liens de haute autorite a grande echelle. Les journalistes ont besoin de donnees pour etayer leurs articles, et si votre boutique peut fournir des donnees originales et interessantes, vous devenez une source vers laquelle les publications renvoient de maniere repetee.\n\nCommencez par vos propres donnees de vente et clients. Analysez les tendances d'achat par region, saison, demographique ou categorie de produit. Un magasin de fournitures pour animaux pourrait analyser quelles races de chiens sont les plus populaires dans differentes villes a partir des donnees d'achat. Un detaillant de mode pourrait publier un rapport sur l'evolution des preferences de couleur selon les saisons. Ces histoires de donnees sont intrinsequement dignes d'interet car elles revelent un comportement de consommation authentique auquel personne d'autre n'a acces.\n\nSi vos donnees proprietaires sont limitees, creez une recherche originale par le biais d'enquetes. Commandez une enquete aupres de 1 000 a 2 000 consommateurs sur un sujet pertinent pour votre secteur. Un detaillant de matelas pourrait enqueter sur les habitudes de sommeil de differentes tranches d'age. Un magasin d'equipement de cuisine pourrait enqueter sur les tendances de cuisine a domicile post-pandemie. Les plateformes d'enquete professionnelles comme Pollfish ou SurveyMonkey Audience fournissent des tailles d'echantillon statistiquement significatives a des couts raisonnables.\n\nPresentez vos donnees dans un format visuellement percutant. Creez des graphiques, des infographies et des visualisations de donnees interactives que les journalistes peuvent integrer ou referencer dans leurs articles. Un actif de donnees bien concu a beaucoup plus de chances d'obtenir des liens qu'un communique de presse en texte brut. Hebergez l'etude complete sur une page dediee de votre site, c'est l'URL vers laquelle vous voulez que les publications renvoient, et elle devrait etre optimisee pour les mots-cles pour lesquels vous voulez vous positionner.",
           tip: "Planifiez vos campagnes de donnees en fonction des cycles d'actualite saisonniers. Une etude sur les tendances d'achats de fetes publiee debut novembre obtiendra beaucoup plus de couverture que la meme etude publiee en mars. Etablissez le calendrier editorial de vos publications cibles et proposez vos histoires de donnees 4 a 6 semaines avant la saison pertinente.",
+          callout: {
+            title: "Daten die Sie bereits haben",
+            text: "Ihre Verkaufsdaten offenbaren Verbrauchertrends auf die niemand sonst Zugriff hat. Ein Zoogeschaeft das die Beliebtheit von Rassen nach Stadt analysiert oder ein Modehaendler der saisonale Farbpraeferenzen verfolgt erzeugt inhaerent berichtenswerte Stories die Links von Medien verdienen die niemals zu einer Produktseite verlinken wuerden.",
+          },
         },
         {
           title: "Construire une liste media et pitcher les journalistes",
@@ -214,12 +253,25 @@ export const digitalPrForEcommerce: AcademyTopic = {
             "Las tiendas de ecommerce tienen ventajas naturales en RP: datos propietarios, experiencia en productos y comunidades de clientes",
             "Las campanas exitosas crean ventajas de clasificacion duraderas cubiertas en nuestra guia de [SEO off-page para ecommerce](/blog/off-page-seo-for-ecommerce) que los competidores no pueden replicar facilmente",
           ],
+          image: {
+            src: "/images/academy/es/digital-pr-campaign-types.svg",
+            alt: "Diagramm das drei Typen digitaler PR-Kampagnen fuer Ecommerce zeigt: Datenstudien, Produkt-PR und reaktive PR mit ROI-Metriken",
+            caption: "Datenstudien generieren das hoechste Linkvolumen. Produkt-PR treibt Links zu kommerziellen Seiten. Reaktive PR liefert Links innerhalb von Stunden.",
+          },
+          callout: {
+            title: "Skalenvorteil",
+            text: "Eine einzige erfolgreiche digitale PR-Kampagne kann 20-100 Backlinks von hochautoritaeren Publikationen generieren. Diese redaktionellen Links sind fuer Wettbewerber nahezu unmoeglich zu replizieren und schaffen einen dauerhaften Ranking-Vorteil.",
+          },
         },
         {
           title: "Campanas de RP basadas en datos",
           content:
             "Las campanas basadas en datos son la forma mas fiable para las tiendas de ecommerce de obtener enlaces de alta autoridad a escala. Los periodistas necesitan datos para apoyar sus historias, y si tu tienda puede proporcionar datos originales e interesantes, te conviertes en una fuente a la que las publicaciones enlazan repetidamente.\n\nComienza con tus propios datos de ventas y clientes. Analiza tendencias de compra por region, temporada, demografia o categoria de producto. Una tienda de suministros para mascotas podria analizar que razas de perros son mas populares en diferentes ciudades basandose en datos de compra. Un minorista de moda podria publicar un informe sobre como las preferencias de color cambian segun la temporada. Estas historias de datos son intrinsecamente noticiables porque revelan comportamiento de consumo genuino al que nadie mas tiene acceso.\n\nSi tus datos propietarios son limitados, crea investigacion original a traves de encuestas. Encarga una encuesta a 1.000-2.000 consumidores sobre un tema relevante para tu industria. Un minorista de colchones podria encuestar habitos de sueno entre diferentes grupos de edad. Una tienda de equipamiento de cocina podria encuestar tendencias de cocina casera post-pandemia. Las plataformas de encuestas profesionales como Pollfish o SurveyMonkey Audience proporcionan tamanos de muestra estadisticamente significativos a costos razonables.\n\nPresenta tus datos en un formato visualmente atractivo. Crea graficos, infografias y visualizaciones de datos interactivas que los periodistas puedan integrar o referenciar en sus articulos. Un activo de datos bien disenado tiene muchas mas probabilidades de obtener enlaces que un comunicado de prensa en texto plano. Aloja el estudio completo en una pagina dedicada de tu sitio, esta es la URL a la que quieres que las publicaciones enlacen, y debe estar optimizada para las palabras clave por las que quieres posicionarte.",
           tip: "Programa tus campanas de datos para alinearse con los ciclos de noticias estacionales. Un estudio sobre tendencias de compras navidenas publicado a principios de noviembre obtendra mucha mas cobertura que el mismo estudio publicado en marzo. Mapea el calendario editorial de tus publicaciones objetivo y presenta historias de datos 4-6 semanas antes de su temporada relevante.",
+          callout: {
+            title: "Daten die Sie bereits haben",
+            text: "Ihre Verkaufsdaten offenbaren Verbrauchertrends auf die niemand sonst Zugriff hat. Ein Zoogeschaeft das die Beliebtheit von Rassen nach Stadt analysiert oder ein Modehaendler der saisonale Farbpraeferenzen verfolgt erzeugt inhaerent berichtenswerte Stories die Links von Medien verdienen die niemals zu einer Produktseite verlinken wuerden.",
+          },
         },
         {
           title: "Construir una lista de medios y hacer pitch a periodistas",
@@ -278,12 +330,25 @@ export const digitalPrForEcommerce: AcademyTopic = {
             "I negozi ecommerce hanno vantaggi PR naturali: dati proprietari, competenze di prodotto e comunita di clienti",
             "Le campagne di successo creano vantaggi di posizionamento durevoli trattati nella nostra guida [SEO off-page per ecommerce](/blog/off-page-seo-for-ecommerce) che i concorrenti non possono replicare facilmente",
           ],
+          image: {
+            src: "/images/academy/it/digital-pr-campaign-types.svg",
+            alt: "Diagramm das drei Typen digitaler PR-Kampagnen fuer Ecommerce zeigt: Datenstudien, Produkt-PR und reaktive PR mit ROI-Metriken",
+            caption: "Datenstudien generieren das hoechste Linkvolumen. Produkt-PR treibt Links zu kommerziellen Seiten. Reaktive PR liefert Links innerhalb von Stunden.",
+          },
+          callout: {
+            title: "Skalenvorteil",
+            text: "Eine einzige erfolgreiche digitale PR-Kampagne kann 20-100 Backlinks von hochautoritaeren Publikationen generieren. Diese redaktionellen Links sind fuer Wettbewerber nahezu unmoeglich zu replizieren und schaffen einen dauerhaften Ranking-Vorteil.",
+          },
         },
         {
           title: "Campagne PR basate sui dati",
           content:
             "Le campagne basate sui dati sono il modo piu affidabile per i negozi ecommerce di ottenere link di alta autorita su larga scala. I giornalisti hanno bisogno di dati per supportare le loro storie, e se il tuo negozio puo fornire dati originali e interessanti, diventi una fonte a cui le pubblicazioni linkano ripetutamente.\n\nInizia con i tuoi dati di vendita e clienti. Analizza le tendenze di acquisto per regione, stagione, demografia o categoria di prodotto. Un negozio di forniture per animali potrebbe analizzare quali razze di cani sono piu popolari in diverse citta basandosi sui dati di acquisto. Un rivenditore di moda potrebbe pubblicare un report su come le preferenze di colore cambiano per stagione. Queste storie di dati sono intrinsecamente degne di nota perche rivelano un comportamento di consumo genuino a cui nessun altro ha accesso.\n\nSe i tuoi dati proprietari sono limitati, crea ricerca originale attraverso sondaggi. Commissiona un sondaggio su 1.000-2.000 consumatori su un argomento rilevante per il tuo settore. Un rivenditore di materassi potrebbe sondare le abitudini del sonno tra diverse fasce d'eta. Un negozio di attrezzature da cucina potrebbe sondare le tendenze della cucina casalinga post-pandemia. Le piattaforme di sondaggio professionali come Pollfish o SurveyMonkey Audience forniscono campioni statisticamente significativi a costi ragionevoli.\n\nPresenta i tuoi dati in un formato visivamente accattivante. Crea grafici, infografiche e visualizzazioni di dati interattive che i giornalisti possono incorporare o referenziare nei loro articoli. Un asset di dati ben progettato ha molte piu probabilita di ottenere link rispetto a un comunicato stampa in testo semplice. Ospita lo studio completo su una pagina dedicata del tuo sito, questo e l'URL a cui vuoi che le pubblicazioni linkino, e dovrebbe essere ottimizzato per le parole chiave per cui vuoi posizionarti.",
           tip: "Pianifica le tue campagne dati in modo da allinearle con i cicli di notizie stagionali. Uno studio sulle tendenze dello shopping natalizio pubblicato a inizio novembre otterra molta piu copertura dello stesso studio pubblicato a marzo. Mappa il calendario editoriale delle tue pubblicazioni target e proponi storie di dati 4-6 settimane prima della stagione rilevante.",
+          callout: {
+            title: "Daten die Sie bereits haben",
+            text: "Ihre Verkaufsdaten offenbaren Verbrauchertrends auf die niemand sonst Zugriff hat. Ein Zoogeschaeft das die Beliebtheit von Rassen nach Stadt analysiert oder ein Modehaendler der saisonale Farbpraeferenzen verfolgt erzeugt inhaerent berichtenswerte Stories die Links von Medien verdienen die niemals zu einer Produktseite verlinken wuerden.",
+          },
         },
         {
           title: "Costruire una lista media e fare pitch ai giornalisti",
@@ -342,12 +407,25 @@ export const digitalPrForEcommerce: AcademyTopic = {
             "Ecommerce-winkels hebben natuurlijke PR-voordelen: eigen data, productexpertise en klantgemeenschappen",
             "Succesvolle campagnes creeren duurzame rankingvoordelen die concurrenten niet gemakkelijk kunnen repliceren\n\nOnze gids over [off-page SEO voor ecommerce](/blog/off-page-seo-for-ecommerce) behandelt duurzame linkbuildingstrategieeen.",
           ],
+          image: {
+            src: "/images/academy/nl/digital-pr-campaign-types.svg",
+            alt: "Diagramm das drei Typen digitaler PR-Kampagnen fuer Ecommerce zeigt: Datenstudien, Produkt-PR und reaktive PR mit ROI-Metriken",
+            caption: "Datenstudien generieren das hoechste Linkvolumen. Produkt-PR treibt Links zu kommerziellen Seiten. Reaktive PR liefert Links innerhalb von Stunden.",
+          },
+          callout: {
+            title: "Skalenvorteil",
+            text: "Eine einzige erfolgreiche digitale PR-Kampagne kann 20-100 Backlinks von hochautoritaeren Publikationen generieren. Diese redaktionellen Links sind fuer Wettbewerber nahezu unmoeglich zu replizieren und schaffen einen dauerhaften Ranking-Vorteil.",
+          },
         },
         {
           title: "Datagedreven PR-campagnes",
           content:
             "Datagedreven campagnes zijn de meest betrouwbare manier voor ecommerce-winkels om links met hoge autoriteit op schaal te verdienen. Journalisten hebben data nodig om hun verhalen te ondersteunen, en als je winkel originele, interessante data kan leveren, word je een bron waarnaar publicaties herhaaldelijk linken.\n\nBegin met je eigen verkoop- en klantgegevens. Analyseer kooptrends per regio, seizoen, demografie of productcategorie. Een dierenbenodigdhedenwinkel zou kunnen analyseren welke hondenrassen het populairst zijn in verschillende steden op basis van aankoopgegevens. Een modewinkel zou een rapport kunnen publiceren over hoe kleurvoorkeuren verschuiven per seizoen. Deze dataverhalen zijn inherent nieuwswaardig omdat ze genuien consumentengedrag onthullen waar niemand anders toegang toe heeft.\n\nAls je eigen data beperkt is, creeer dan origineel onderzoek via enquetes. Laat een enquete uitvoeren onder 1.000 tot 2.000 consumenten over een onderwerp dat relevant is voor je branche. Een matrassenwinkel zou slaapgewoonten van verschillende leeftijdsgroepen kunnen onderzoeken. Een keukenapparatuurwinkel zou trends in thuiskoken post-pandemie kunnen onderzoeken. Professionele enqueteplatforms zoals Pollfish of SurveyMonkey Audience bieden statistisch significante steekproefgrootten tegen redelijke kosten.\n\nPresenteer je data in een visueel aantrekkelijk formaat. Maak grafieken, infographics en interactieve datavisualisaties die journalisten kunnen insluiten of refereren in hun artikelen. Een goed ontworpen data-asset heeft veel meer kans om links te verdienen dan een tekst-persbericht. Host het volledige onderzoek op een speciale pagina op je site, dit is de URL waarnaar publicaties moeten linken, en deze moet geoptimaliseerd zijn voor de zoekwoorden waarvoor je wilt ranken.",
           tip: "Time je datacampagnes om aan te sluiten bij seizoensgebonden nieuwscycli. Een studie over feestdagen-shoppingtrends die begin november wordt uitgebracht, krijgt veel meer dekking dan dezelfde studie in maart. Breng de redactiekalender van je doelpublicaties in kaart en pitch dataverhalen 4-6 weken voor het relevante seizoen.",
+          callout: {
+            title: "Daten die Sie bereits haben",
+            text: "Ihre Verkaufsdaten offenbaren Verbrauchertrends auf die niemand sonst Zugriff hat. Ein Zoogeschaeft das die Beliebtheit von Rassen nach Stadt analysiert oder ein Modehaendler der saisonale Farbpraeferenzen verfolgt erzeugt inhaerent berichtenswerte Stories die Links von Medien verdienen die niemals zu einer Produktseite verlinken wuerden.",
+          },
         },
         {
           title: "Een medialijst opbouwen en journalisten pitchen",

@@ -1,0 +1,43 @@
+<svg viewBox="0 0 680 280" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <text x="340" y="28" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#a78bfa">Agency Vetting Process</text>
+  <!-- Step 1 -->
+  <rect x="30" y="55" width="120" height="70" rx="8" fill="#a78bfa" opacity="0.15" stroke="#a78bfa" stroke-width="1.5"/>
+  <text x="90" y="78" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#a78bfa">1</text>
+  <text x="90" y="98" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Research</text>
+  <text x="90" y="112" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">+ Shortlist</text>
+  <!-- Arrow -->
+  <line x1="155" y1="90" x2="175" y2="90" stroke="#e2e8f0" stroke-width="1.2" opacity="0.4" marker-end="url(#aV)"/>
+  <!-- Step 2 -->
+  <rect x="180" y="55" width="120" height="70" rx="8" fill="#60a5fa" opacity="0.15" stroke="#60a5fa" stroke-width="1.5"/>
+  <text x="240" y="78" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#60a5fa">2</text>
+  <text x="240" y="98" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Review</text>
+  <text x="240" y="112" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Case Studies</text>
+  <line x1="305" y1="90" x2="325" y2="90" stroke="#e2e8f0" stroke-width="1.2" opacity="0.4" marker-end="url(#aV)"/>
+  <!-- Step 3 -->
+  <rect x="330" y="55" width="120" height="70" rx="8" fill="#4ade80" opacity="0.15" stroke="#4ade80" stroke-width="1.5"/>
+  <text x="390" y="78" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#4ade80">3</text>
+  <text x="390" y="98" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Ask Vetting</text>
+  <text x="390" y="112" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Questions</text>
+  <line x1="455" y1="90" x2="475" y2="90" stroke="#e2e8f0" stroke-width="1.2" opacity="0.4" marker-end="url(#aV)"/>
+  <!-- Step 4 -->
+  <rect x="480" y="55" width="120" height="70" rx="8" fill="#f97316" opacity="0.15" stroke="#f97316" stroke-width="1.5"/>
+  <text x="540" y="78" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#f97316">4</text>
+  <text x="540" y="98" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Evaluate</text>
+  <text x="540" y="112" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Proposals</text>
+  <!-- Bottom details -->
+  <text x="90" y="160" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#a78bfa">5-8 agencies</text>
+  <text x="90" y="175" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Check ecommerce</text>
+  <text x="90" y="188" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">specialization</text>
+  <text x="240" y="160" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#60a5fa">3-5 agencies</text>
+  <text x="240" y="175" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Verify revenue</text>
+  <text x="240" y="188" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">growth claims</text>
+  <text x="390" y="160" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#4ade80">2-3 agencies</text>
+  <text x="390" y="175" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Test strategic</text>
+  <text x="390" y="188" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">thinking depth</text>
+  <text x="540" y="160" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#f97316">Final pick</text>
+  <text x="540" y="175" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Compare scope,</text>
+  <text x="540" y="188" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">pricing, fit</text>
+  <defs>
+    <marker id="aV" markerWidth="7" markerHeight="5" refX="7" refY="2.5" orient="auto"><path d="M0,0 L7,2.5 L0,5" fill="#e2e8f0" opacity="0.4"/></marker>
+  </defs>
+</svg>

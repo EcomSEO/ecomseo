@@ -50,11 +50,20 @@ export const keywordMappingForStores: AcademyTopic = {
           title: "Mapping Keywords Across Page Types",
           content:
             "An ecommerce store typically has four page types that need keyword assignments: category pages, product pages, blog/guide pages, and informational or brand pages. Each type serves a different role in your keyword funnel.\n\nCategory pages capture the highest-volume commercial keywords. These are your money pages, \"women's running shoes,\" \"organic skincare,\" \"wireless headphones under 100.\" Category pages typically target keywords with 1,000 to 50,000+ monthly searches. Because these terms are competitive, category pages need strong content, internal linking, and often backlinks to rank.\n\nProduct pages target specific, long-tail transactional keywords. Each product page maps to the product's exact name and closest variant searches. Volume per keyword is lower (often 50-500 searches per month), but you have hundreds or thousands of product pages, so the aggregate traffic is significant.\n\nBlog and guide pages handle informational queries that feed your sales funnel. \"How to choose a running shoe for overpronation\" brings in potential buyers who haven't decided on a [product page](/academy/product-page-seo) yet. These pages link to relevant category and product pages, creating a content-to-commerce pathway.\n\nBrand and comparison pages sit between informational and transactional intent. \"Nike vs Adidas running shoes\" or \"best running shoes 2025\" capture comparison shoppers. These pages are keyword-mapped like blog posts but typically have higher conversion potential because the intent is closer to purchase.",
+          image: {
+            src: "/images/academy/keyword-map-structure.svg",
+            alt: "Table showing how different page types map to keyword intent levels with example keywords and volume ranges",
+            caption: "Each page type serves a distinct role in the keyword funnel. Category pages handle commercial intent, product pages handle transactional, and blogs handle informational.",
+          },
           items: [
             "Category pages target broad commercial keywords with the highest volume",
             "Product pages target specific long-tail terms matching exact product names",
             "Blog pages capture informational queries that feed potential buyers into the funnel",
           ],
+          callout: {
+            title: "Cannibalization Cost",
+            text: "Stores without a keyword map lose 30-40% of organic traffic to cannibalization. The fix takes weeks to diagnose but only 5 minutes to prevent: check the map before every new page goes live.",
+          },
         },
         {
           title: "Maintaining Your Keyword Map Over Time",
@@ -101,6 +110,15 @@ export const keywordMappingForStores: AcademyTopic = {
             "Sekundäre Keywords sind nahe Variationen mit derselben Suchintention",
             "Primäre Keywords für Produktseiten kombinieren Produktname mit wichtigen Unterscheidungsmerkmalen",
           ],
+          image: {
+            src: "/images/academy/de/keyword-map-structure.svg",
+            alt: "Tabelle, die zeigt, wie verschiedene Seitentypen Keyword-Intentionsstufen zugeordnet werden",
+            caption: "Jeder Seitentyp erfüllt eine bestimmte Rolle im Keyword-Trichter.",
+          },
+          callout: {
+            title: "Kannibalisierungskosten",
+            text: "Shops ohne Keyword-Map verlieren 30–40 % ihres organischen Traffics durch Kannibalisierung.",
+          },
         },
         {
           title: "Keyword-Kannibalisierung erkennen und beheben",
@@ -163,6 +181,15 @@ export const keywordMappingForStores: AcademyTopic = {
             "Les mots-clés secondaires sont des variations proches partageant la même intention de recherche",
             "Les mots-clés principaux des pages produits combinent nom du produit et différenciateurs clés",
           ],
+          image: {
+            src: "/images/academy/fr/keyword-map-structure.svg",
+            alt: "Tabelle, die zeigt, wie verschiedene Seitentypen Keyword-Intentionsstufen zugeordnet werden",
+            caption: "Jeder Seitentyp erfüllt eine bestimmte Rolle im Keyword-Trichter.",
+          },
+          callout: {
+            title: "Kannibalisierungskosten",
+            text: "Shops ohne Keyword-Map verlieren 30–40 % ihres organischen Traffics durch Kannibalisierung.",
+          },
         },
         {
           title: "Détecter et corriger la cannibalisation de mots-clés",
@@ -225,6 +252,15 @@ export const keywordMappingForStores: AcademyTopic = {
             "Las secundarias son variaciones cercanas que comparten la misma intención de búsqueda",
             "Las principales de páginas de producto combinan nombre del producto con diferenciadores clave",
           ],
+          image: {
+            src: "/images/academy/es/keyword-map-structure.svg",
+            alt: "Tabelle, die zeigt, wie verschiedene Seitentypen Keyword-Intentionsstufen zugeordnet werden",
+            caption: "Jeder Seitentyp erfüllt eine bestimmte Rolle im Keyword-Trichter.",
+          },
+          callout: {
+            title: "Kannibalisierungskosten",
+            text: "Shops ohne Keyword-Map verlieren 30–40 % ihres organischen Traffics durch Kannibalisierung.",
+          },
         },
         {
           title: "Detectar y corregir la canibalización de palabras clave",
@@ -287,6 +323,15 @@ export const keywordMappingForStores: AcademyTopic = {
             "Le secondarie sono variazioni vicine che condividono lo stesso intento di ricerca",
             "Le principali delle pagine prodotto combinano nome del prodotto con differenziatori chiave",
           ],
+          image: {
+            src: "/images/academy/it/keyword-map-structure.svg",
+            alt: "Tabelle, die zeigt, wie verschiedene Seitentypen Keyword-Intentionsstufen zugeordnet werden",
+            caption: "Jeder Seitentyp erfüllt eine bestimmte Rolle im Keyword-Trichter.",
+          },
+          callout: {
+            title: "Kannibalisierungskosten",
+            text: "Shops ohne Keyword-Map verlieren 30–40 % ihres organischen Traffics durch Kannibalisierung.",
+          },
         },
         {
           title: "Rilevare e correggere la cannibalizzazione delle parole chiave",
@@ -349,6 +394,15 @@ export const keywordMappingForStores: AcademyTopic = {
             "Secundaire zoekwoorden zijn nauwe variaties die dezelfde zoekintentie delen",
             "Primaire zoekwoorden voor productpagina's combineren productnaam met belangrijke onderscheidende kenmerken",
           ],
+          image: {
+            src: "/images/academy/nl/keyword-map-structure.svg",
+            alt: "Tabelle, die zeigt, wie verschiedene Seitentypen Keyword-Intentionsstufen zugeordnet werden",
+            caption: "Jeder Seitentyp erfüllt eine bestimmte Rolle im Keyword-Trichter.",
+          },
+          callout: {
+            title: "Kannibalisierungskosten",
+            text: "Shops ohne Keyword-Map verlieren 30–40 % ihres organischen Traffics durch Kannibalisierung.",
+          },
         },
         {
           title: "Zoekwoordkannibalisatie detecteren en oplossen",

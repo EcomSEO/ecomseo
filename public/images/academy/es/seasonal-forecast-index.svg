@@ -1,0 +1,26 @@
+<svg viewBox="0 0 420 190" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <text x="210" y="22" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#a78bfa">Seasonal Tráfico Indexar (Ecommerce)</text>
+  <line x1="40" y1="160" x2="400" y2="160" stroke="#475569" stroke-width="1"/>
+  <line x1="40" y1="40" x2="40" y2="160" stroke="#475569" stroke-width="1"/>
+  <line x1="40" y1="100" x2="400" y2="100" stroke="#475569" stroke-width="0.5" stroke-dasharray="3,3" opacity="0.4"/>
+  <text x="35" y="104" text-anchor="end" font-family="Arial,sans-serif" font-size="8" fill="#94a3b8">100%</text>
+  <text x="35" y="64" text-anchor="end" font-family="Arial,sans-serif" font-size="8" fill="#94a3b8">150%</text>
+  <text x="35" y="164" text-anchor="end" font-family="Arial,sans-serif" font-size="8" fill="#94a3b8">50%</text>
+  <polyline points="55,130 85,135 115,140 145,120 175,110 205,105 235,108 265,100 295,90 325,75 355,48 385,85" stroke="#4ade80" stroke-width="2.5" fill="none"/>
+  <text x="55" y="175" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#94a3b8">Ene</text>
+  <text x="85" y="175" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#94a3b8">Feb</text>
+  <text x="115" y="175" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#94a3b8">Mar</text>
+  <text x="145" y="175" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#94a3b8">Abr</text>
+  <text x="175" y="175" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#94a3b8">May</text>
+  <text x="205" y="175" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#94a3b8">Jun</text>
+  <text x="235" y="175" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#94a3b8">Jul</text>
+  <text x="265" y="175" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#94a3b8">Ago</text>
+  <text x="295" y="175" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#94a3b8">Sep</text>
+  <text x="325" y="175" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#94a3b8">Oct</text>
+  <text x="355" y="175" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#94a3b8">Nov</text>
+  <text x="385" y="175" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#94a3b8">Dic</text>
+  <circle cx="355" cy="48" r="4" fill="#f97316"/>
+  <text x="355" y="42" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#f97316">160%</text>
+  <circle cx="115" cy="140" r="4" fill="#ef4444"/>
+  <text x="115" y="152" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#ef4444">75%</text>
+</svg>

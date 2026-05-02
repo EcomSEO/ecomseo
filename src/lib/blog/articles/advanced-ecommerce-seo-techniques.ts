@@ -3,7 +3,7 @@ import type { BlogArticle } from "../types";
 export const advancedEcommerceSeoTechniques: BlogArticle = {
   slug: "advanced-ecommerce-seo-techniques",
   category: "strategy",
-  publishDate: "2025-07-10",
+  publishDate: "2026-03-24",
   readingTime: 13,
   author: "Fabian van Til",
   authorRole: "CEO at EcomSEO",
@@ -32,6 +32,8 @@ export const advancedEcommerceSeoTechniques: BlogArticle = {
             "We built a programmatic SEO system for a flooring retailer that generated 2,400 landing pages for combinations of flooring type + room + style (for example, 'waterproof vinyl plank flooring for basements in modern style'). Within 8 months, these pages were generating 34,000 monthly organic visits. The total investment in building the system was about $15,000, which paid for itself within the first 6 weeks of traffic.",
             "The risk with programmatic SEO is creating pages that Google considers low-quality doorway pages. The difference between valuable programmatic content and doorway pages is whether the page actually helps the user. If your programmatic page shows relevant products, provides useful information, and answers the search intent, it is fine. If it is just a thin wrapper around a product feed with no real content, Google will eventually deindex it."
           ],
+          image: { src: "/images/blog/programmatic-seo-workflow.svg", alt: "Programmatic SEO workflow from data source through template and generator to landing pages with quality checks", caption: "The programmatic SEO pipeline: data + templates + quality controls = scalable long-tail traffic." },
+          callout: { title: "ROI Snapshot", text: "A flooring retailer invested $15,000 in a programmatic SEO system generating 2,400 pages. Within 8 months those pages drove 34,000 monthly organic visits, paying for the build in just 6 weeks." },
         },
         {
           heading: "Log file analysis for crawl optimization",
@@ -42,6 +44,8 @@ export const advancedEcommerceSeoTechniques: BlogArticle = {
             "We analyzed log files for an electronics retailer with 80,000 product pages and found that 62% of Googlebot's crawl budget was being consumed by faceted navigation URLs (price filters, brand filters, sort options). Only 23% of actual product pages were being crawled daily. The rest were crawled weekly or less. After implementing crawl optimization (blocking low-value URLs from crawling, improving internal link structure to priority pages), the daily crawl rate of product pages increased from 23% to 71%. New products started appearing in search results within 2 days instead of 2 weeks.",
             "To do log file analysis, you need access to your raw server logs (Apache, Nginx, or CDN logs). Tools like Screaming Frog Log File Analyser, Botify, or custom scripts can parse the data. Filter for Googlebot user agents and analyze crawl frequency, response codes, and page type distribution. These findings feed directly into a broader [technical SEO for ecommerce](/blog/technical-seo-for-ecommerce) remediation plan."
           ],
+          image: { src: "/images/blog/advanced-crawl-budget.svg", alt: "Crawl budget distribution before and after optimization, plus hub-and-spoke topical authority model", caption: "Optimizing crawl budget shifted product page crawl rates from 23% to 71%, cutting indexing time from 14 days to 2." },
+          callout: { title: "Crawl Budget Impact", text: "For an 80,000-page electronics store, 62% of Googlebot requests went to faceted navigation URLs. After optimization, product page crawl rate tripled from 23% to 71%." },
         },
         {
           heading: "Entity-based SEO for ecommerce",
@@ -52,6 +56,7 @@ export const advancedEcommerceSeoTechniques: BlogArticle = {
             "Third, build topical authority around your product categories by creating content that covers the full entity space. If you sell coffee equipment, Google should associate your domain with the entities: espresso, pour-over, grinder, roast level, brewing temperature, and so on. This means publishing content that covers these related topics comprehensively, not just listing products. The result is that Google considers your site authoritative for the entire topic cluster, which lifts rankings across all related pages.",
             "We saw a clear example of entity-based SEO at work when a specialty food store started publishing detailed content about ingredient origins, production methods, and food science. Within a year, Google began showing their product pages in Knowledge Panels for specific ingredient entities. Their organic traffic to product pages increased by 89%, driven largely by queries where Google recognized their site as an authority on the relevant entities."
           ],
+          image: { src: "/images/blog/entity-seo-knowledge-graph.svg", alt: "Entity-based SEO diagram showing brand at center connected to product types, materials, known brands, and use cases", caption: "Connect your brand to established entities via schema, content, and structured data." },
         },
         {
           heading: "Advanced schema markup for product variants and offers",
@@ -63,6 +68,8 @@ export const advancedEcommerceSeoTechniques: BlogArticle = {
             "Time-limited offers should use the 'validFrom' and 'validThrough' properties in the Offer schema. If you are running a sale that ends on a specific date, this data helps Google show the offer with appropriate urgency in search results. But be honest with these dates. Setting fake urgency (a sale that 'ends Friday' every Friday) will erode trust with both Google and customers.",
             "Test all advanced schema using Google's Rich Results Test and monitor its performance in Google Search Console's Rich Results report. Errors in complex schema markup are common and can prevent your products from appearing in rich results entirely. Use our [schema generator tool](/tools/schema-generator) to build and validate product markup without writing JSON-LD by hand."
           ],
+          image: { src: "/images/blog/advanced-schema-variants.svg", alt: "Advanced schema markup diagram showing ProductGroup parent connected to size variants with separate Offer types for subscriptions and time-limited sales", caption: "Use ProductGroup to connect variants, AggregateOffer for price ranges, and time-limited properties for sales." },
+          callout: { title: "Variant Schema Matters", text: "ProductGroup schema with per-variant Offers tells Google exactly which sizes and colors are in stock at what price. This directly improves visibility in Google Shopping results." },
         },
         {
           heading: "JavaScript rendering and SEO for modern ecommerce",
@@ -84,6 +91,8 @@ export const advancedEcommerceSeoTechniques: BlogArticle = {
             "The technical implementation varies based on your stack. Python scripts running on scheduled cron jobs are the simplest approach. For more complex workflows, tools like n8n, Make (formerly Integromat), or custom Node.js applications provide better orchestration. The key principle is: any SEO task you do manually more than once per week is a candidate for automation.",
             "One automation we built for a fashion client saves them approximately 20 hours per month. It monitors their 500 most important keywords daily, detects ranking changes greater than 3 positions, cross-references those changes against recent site changes (new deployments, content updates, product changes) logged in their CMS, and generates a weekly report that explains likely causes for ranking movements. The system replaced a manual process that previously required a full-time analyst."
           ],
+          image: { src: "/images/blog/advanced-api-seo-automation.svg", alt: "API-driven SEO automation pipeline from data APIs through processing, auto-fix, and deployment with continuous monitoring loop", caption: "Automate any SEO task you do manually more than once per week -- from meta tags to redirect management." },
+          callout: { title: "Automation ROI", text: "One fashion client saves 20 hours per month with automated keyword monitoring, ranking change detection, and root-cause analysis. The system replaced a process that required a full-time analyst." },
         },
         {
           heading: "Building topical authority at scale",
@@ -94,6 +103,7 @@ export const advancedEcommerceSeoTechniques: BlogArticle = {
             "The content velocity matters. Publishing one blog post per month about camping will not build authority. You need sustained output. We recommend publishing 8 to 12 pieces of content per month in your core topic area for the first 6 months, then tapering to 4 to 6 per month for maintenance. This pace establishes topical coverage quickly enough that Google starts recognizing your authority within a few months rather than years.",
             "Measure topical authority by tracking the breadth of keywords you rank for within a topic cluster. If 6 months ago you ranked for 200 camping-related keywords and now you rank for 800, your topical authority is growing. Also monitor whether new product pages in the same category rank faster than they used to. That acceleration is a concrete signal that your domain's topical authority is benefiting your ecommerce pages."
           ],
+          callout: { title: "Content Velocity", text: "Publish 8-12 pieces per month in your core topic area for the first 6 months, then 4-6 per month for maintenance. This pace builds topical authority within months rather than years." },
         },
       ],
     },
@@ -118,6 +128,8 @@ export const advancedEcommerceSeoTechniques: BlogArticle = {
             "Nous avons construit un système de SEO programmatique pour un détaillant de revêtements de sol qui a généré 2 400 pages de destination pour des combinaisons de type de revêtement + pièce + style (par exemple, 'revêtement de sol vinyle imperméable pour sous-sols en style moderne'). En 8 mois, ces pages généraient 34 000 visites organiques mensuelles. L'investissement total dans la construction du système était d'environ 15 000 $, qui s'est rentabilisé dans les 6 premières semaines de trafic.",
             "Le risque avec le SEO programmatique est de créer des pages que Google considère comme des pages de redirection de faible qualité. La différence entre un contenu programmatique précieux et des pages de redirection est de savoir si la page aide réellement l'utilisateur. Si votre page programmatique montre des produits pertinents, fournit des informations utiles et répond à l'intention de recherche, c'est correct. Si c'est juste une enveloppe mince autour d'un flux de produits sans contenu réel, Google finira par la désindexer."
           ],
+          image: { src: "/images/blog/fr/programmatic-seo-workflow.svg", alt: "Programmatic SEO workflow from data source through template and generator to landing pages with quality checks", caption: "The programmatic SEO pipeline: data + templates + quality controls = scalable long-tail traffic." },
+          callout: { title: "ROI Snapshot", text: "A flooring retailer invested $15,000 in a programmatic SEO system generating 2,400 pages. Within 8 months those pages drove 34,000 monthly organic visits, paying for the build in just 6 weeks." },
         },
         {
           heading: "Analyse des fichiers log pour l'optimisation du crawl",
@@ -128,6 +140,8 @@ export const advancedEcommerceSeoTechniques: BlogArticle = {
             "Nous avons analysé les fichiers log d'un détaillant d'électronique avec 80 000 pages produits et avons découvert que 62 % du budget de crawl de Googlebot était consommé par des URL de navigation à facettes (filtres de prix, filtres de marques, options de tri). Seulement 23 % des pages produits réelles étaient crawlées quotidiennement. Le reste était crawlé hebdomadairement ou moins. Après avoir mis en place l'optimisation du crawl (blocage des URL à faible valeur du crawl, amélioration de la structure des liens internes vers les pages prioritaires), le taux de crawl quotidien des pages produits est passé de 23 % à 71 %. Les nouveaux produits ont commencé à apparaître dans les résultats de recherche en 2 jours au lieu de 2 semaines.",
             "Pour faire une analyse de fichiers log, vous devez avoir accès à vos journaux serveur bruts (Apache, Nginx ou journaux CDN). Des outils comme Screaming Frog Log File Analyser, Botify ou des scripts personnalisés peuvent analyser les données. Filtrez par agents utilisateurs Googlebot et analysez la fréquence de crawl, les codes de réponse et la distribution par type de page. Ces résultats alimentent directement un plan de remédiation plus large de [SEO technique pour e-commerce](/blog/technical-seo-for-ecommerce)."
           ],
+          image: { src: "/images/blog/fr/advanced-crawl-budget.svg", alt: "Crawl budget distribution before and after optimization, plus hub-and-spoke topical authority model", caption: "Optimizing crawl budget shifted product page crawl rates from 23% to 71%, cutting indexing time from 14 days to 2." },
+          callout: { title: "Crawl Budget Impact", text: "For an 80,000-page electronics store, 62% of Googlebot requests went to faceted navigation URLs. After optimization, product page crawl rate tripled from 23% to 71%." },
         },
         {
           heading: "SEO basé sur les entités pour le e-commerce",
@@ -138,6 +152,7 @@ export const advancedEcommerceSeoTechniques: BlogArticle = {
             "Troisièmement, construisez une autorité thématique autour de vos catégories de produits en créant du contenu qui couvre l'ensemble de l'espace d'entités. Si vous vendez du matériel de café, Google devrait associer votre domaine aux entités : espresso, pour-over, moulin, niveau de torréfaction, température d'infusion, etc. Cela signifie publier du contenu qui couvre ces sujets connexes de manière exhaustive, pas seulement lister des produits. Le résultat est que Google considère votre site comme faisant autorité pour l'ensemble du cluster thématique, ce qui améliore les classements sur toutes les pages connexes.",
             "Nous avons vu un exemple clair de SEO basé sur les entités lorsqu'un magasin d'alimentation spécialisée a commencé à publier du contenu détaillé sur les origines des ingrédients, les méthodes de production et la science alimentaire. En un an, Google a commencé à afficher leurs pages produits dans les Knowledge Panels pour des entités d'ingrédients spécifiques. Leur trafic organique vers les pages produits a augmenté de 89 %, principalement grâce à des requêtes où Google reconnaissait leur site comme une autorité sur les entités pertinentes."
           ],
+          image: { src: "/images/blog/fr/entity-seo-knowledge-graph.svg", alt: "Entity-based SEO diagram showing brand at center connected to product types, materials, known brands, and use cases", caption: "Connect your brand to established entities via schema, content, and structured data." },
         },
         {
           heading: "Balisage schema avancé pour les variantes et offres de produits",
@@ -149,6 +164,8 @@ export const advancedEcommerceSeoTechniques: BlogArticle = {
             "Les offres limitées dans le temps devraient utiliser les propriétés 'validFrom' et 'validThrough' dans le schema Offer. Si vous organisez une vente qui se termine à une date spécifique, ces données aident Google à montrer l'offre avec une urgence appropriée dans les résultats de recherche. Mais soyez honnête avec ces dates. Créer une fausse urgence (une vente qui 'se termine vendredi' chaque vendredi) érodera la confiance tant de Google que des clients.",
             "Testez tous les schemas avancés à l'aide du test de résultats enrichis de Google et surveillez ses performances dans le rapport Résultats enrichis de Google Search Console. Les erreurs dans le balisage schema complexe sont courantes et peuvent empêcher vos produits d'apparaître dans les résultats enrichis. Utilisez notre [outil générateur de schema](/tools/schema-generator) pour construire et valider le balisage produit sans écrire du JSON-LD à la main."
           ],
+          image: { src: "/images/blog/fr/advanced-schema-variants.svg", alt: "Advanced schema markup diagram showing ProductGroup parent connected to size variants with separate Offer types for subscriptions and time-limited sales", caption: "Use ProductGroup to connect variants, AggregateOffer for price ranges, and time-limited properties for sales." },
+          callout: { title: "Variant Schema Matters", text: "ProductGroup schema with per-variant Offers tells Google exactly which sizes and colors are in stock at what price. This directly improves visibility in Google Shopping results." },
         },
         {
           heading: "Rendu JavaScript et SEO pour le e-commerce moderne",
@@ -170,6 +187,8 @@ export const advancedEcommerceSeoTechniques: BlogArticle = {
             "L'implémentation technique varie selon votre stack. Les scripts Python exécutés sur des tâches cron planifiées sont l'approche la plus simple. Pour des workflows plus complexes, des outils comme n8n, Make (anciennement Integromat) ou des applications Node.js personnalisées offrent une meilleure orchestration. Le principe clé est : toute tâche SEO que vous effectuez manuellement plus d'une fois par semaine est candidate à l'automatisation.",
             "Une automatisation que nous avons construite pour un client mode leur fait économiser environ 20 heures par mois. Elle surveille quotidiennement leurs 500 mots-clés les plus importants, détecte les changements de classement supérieurs à 3 positions, croise ces changements avec les changements récents du site (nouveaux déploiements, mises à jour de contenu, changements de produits) consignés dans leur CMS, et génère un rapport hebdomadaire expliquant les causes probables des mouvements de classement. Le système a remplacé un processus manuel qui nécessitait auparavant un analyste à temps plein."
           ],
+          image: { src: "/images/blog/fr/advanced-api-seo-automation.svg", alt: "API-driven SEO automation pipeline from data APIs through processing, auto-fix, and deployment with continuous monitoring loop", caption: "Automate any SEO task you do manually more than once per week -- from meta tags to redirect management." },
+          callout: { title: "Automation ROI", text: "One fashion client saves 20 hours per month with automated keyword monitoring, ranking change detection, and root-cause analysis. The system replaced a process that required a full-time analyst." },
         },
         {
           heading: "Construire une autorité thématique à grande échelle",
@@ -180,6 +199,7 @@ export const advancedEcommerceSeoTechniques: BlogArticle = {
             "La vélocité du contenu compte. Publier un article de blog par mois sur le camping ne construira pas l'autorité. Vous avez besoin d'une production soutenue. Nous recommandons de publier 8 à 12 contenus par mois dans votre domaine thématique principal pendant les 6 premiers mois, puis de réduire à 4 à 6 par mois pour la maintenance. Ce rythme établit la couverture thématique assez rapidement pour que Google commence à reconnaître votre autorité en quelques mois plutôt qu'en années.",
             "Mesurez l'autorité thématique en suivant l'étendue des mots-clés pour lesquels vous êtes classé au sein d'un cluster thématique. Si il y a 6 mois vous étiez classé pour 200 mots-clés liés au camping et que maintenant vous êtes classé pour 800, votre autorité thématique grandit. Surveillez également si les nouvelles pages produits dans la même catégorie se classent plus rapidement qu'auparavant. Cette accélération est un signal concret que l'autorité thématique de votre domaine bénéficie à vos pages e-commerce."
           ],
+          callout: { title: "Content Velocity", text: "Publish 8-12 pieces per month in your core topic area for the first 6 months, then 4-6 per month for maintenance. This pace builds topical authority within months rather than years." },
         },
       ],
     },
@@ -204,6 +224,8 @@ export const advancedEcommerceSeoTechniques: BlogArticle = {
             "Wir haben ein programmatisches SEO-System fuer einen Bodenbelagshaendler entwickelt, das 2.400 Landingpages fuer Kombinationen aus Bodenbelagstyp + Raum + Stil generierte (zum Beispiel 'wasserfester Vinyl-Plankenbodenbelag fuer Keller im modernen Stil'). Innerhalb von 8 Monaten generierten diese Seiten 34.000 monatliche organische Besuche. Die Gesamtinvestition betrug etwa 15.000 Dollar, was sich innerhalb der ersten 6 Wochen amortisierte.",
             "Das Risiko bei programmatischer SEO besteht darin, Seiten zu erstellen, die Google als minderwertige Doorway Pages betrachtet. Der Unterschied zwischen wertvollem programmatischem Content und Doorway Pages liegt darin, ob die Seite dem Nutzer tatsaechlich hilft. Wenn Ihre programmatische Seite relevante Produkte zeigt, nuetzliche Informationen liefert und die Suchintention beantwortet, ist sie in Ordnung. Wenn sie nur ein duenner Wrapper um einen Produkt-Feed ohne echten Content ist, wird Google sie irgendwann deindexieren."
           ],
+          image: { src: "/images/blog/de/programmatic-seo-workflow.svg", alt: "Programmatic SEO workflow from data source through template and generator to landing pages with quality checks", caption: "The programmatic SEO pipeline: data + templates + quality controls = scalable long-tail traffic." },
+          callout: { title: "ROI Snapshot", text: "A flooring retailer invested $15,000 in a programmatic SEO system generating 2,400 pages. Within 8 months those pages drove 34,000 monthly organic visits, paying for the build in just 6 weeks." },
         },
         {
           heading: "Logfile-Analyse zur Crawl-Optimierung",
@@ -214,6 +236,8 @@ export const advancedEcommerceSeoTechniques: BlogArticle = {
             "Wir haben die Logfiles eines Elektronikhaendlers mit 80.000 Produktseiten analysiert und festgestellt, dass 62 % des Crawl-Budgets durch facettierte Navigations-URLs verbraucht wurden (Preisfilter, Markenfilter, Sortieroptionen). Nur 23 % der eigentlichen Produktseiten wurden taeglich gecrawlt. Nach der Crawl-Optimierung (Blockierung wenig wertvoller URLs, Verbesserung der internen Linkstruktur) stieg die taegliche Crawl-Rate der Produktseiten von 23 % auf 71 %. Neue Produkte erschienen innerhalb von 2 Tagen statt 2 Wochen in den Suchergebnissen.",
             "Fuer die Logfile-Analyse benoetigen Sie Zugang zu Ihren Roh-Serverprotokollen (Apache, Nginx oder CDN-Logs). Tools wie Screaming Frog Log File Analyser, Botify oder eigene Skripte koennen die Daten parsen. Filtern Sie nach Googlebot-User-Agents und analysieren Sie Crawl-Haeufigkeit, Antwortcodes und Seitentyp-Verteilung. Diese Erkenntnisse fliessen direkt in einen umfassenden Massnahmenplan zur [technischen SEO fuer E-Commerce](/blog/technical-seo-for-ecommerce) ein."
           ],
+          image: { src: "/images/blog/de/advanced-crawl-budget.svg", alt: "Crawl budget distribution before and after optimization, plus hub-and-spoke topical authority model", caption: "Optimizing crawl budget shifted product page crawl rates from 23% to 71%, cutting indexing time from 14 days to 2." },
+          callout: { title: "Crawl Budget Impact", text: "For an 80,000-page electronics store, 62% of Googlebot requests went to faceted navigation URLs. After optimization, product page crawl rate tripled from 23% to 71%." },
         },
         {
           heading: "Entity-basierte SEO fuer E-Commerce",
@@ -224,6 +248,7 @@ export const advancedEcommerceSeoTechniques: BlogArticle = {
             "Drittens: Bauen Sie thematische Autoritaet rund um Ihre Produktkategorien auf, indem Sie Content erstellen, der den gesamten Entitaetsraum abdeckt. Wenn Sie Kaffeeausruestung verkaufen, sollte Google Ihre Domain mit den Entitaeten Espresso, Pour-Over, Muehle, Roestgrad, Bruehtemperatur usw. assoziieren. Das bedeutet, Content zu veroeffentlichen, der diese verwandten Themen umfassend abdeckt, nicht nur Produkte aufzulisten. Das Ergebnis: Google betrachtet Ihre Seite als massgeblich fuer den gesamten Themencluster, was die Rankings aller verwandten Seiten anhebt.",
             "Wir haben ein klares Beispiel fuer Entity-basierte SEO gesehen, als ein Spezialitaeten-Lebensmittelgeschaeft begann, detaillierten Content ueber Zutatenherkunft, Produktionsmethoden und Lebensmittelwissenschaft zu veroeffentlichen. Innerhalb eines Jahres begann Google, deren Produktseiten in Knowledge Panels fuer bestimmte Zutaten-Entitaeten anzuzeigen. Der organische Traffic auf Produktseiten stieg um 89 %, hauptsaechlich getrieben durch Anfragen, bei denen Google die Seite als Autoritaet fuer die relevanten Entitaeten erkannte."
           ],
+          image: { src: "/images/blog/de/entity-seo-knowledge-graph.svg", alt: "Entity-based SEO diagram showing brand at center connected to product types, materials, known brands, and use cases", caption: "Connect your brand to established entities via schema, content, and structured data." },
         },
         {
           heading: "Erweitertes Schema-Markup fuer Produktvarianten und Angebote",
@@ -235,6 +260,8 @@ export const advancedEcommerceSeoTechniques: BlogArticle = {
             "Zeitlich begrenzte Angebote sollten die Eigenschaften 'validFrom' und 'validThrough' im Offer-Schema verwenden. Wenn Sie einen Sale durchfuehren, der an einem bestimmten Datum endet, helfen diese Daten Google, das Angebot mit entsprechender Dringlichkeit in den Suchergebnissen darzustellen. Seien Sie jedoch ehrlich mit diesen Daten. Falsche Dringlichkeit zu erzeugen (ein Sale, der 'am Freitag endet' jeden Freitag) untergräbt das Vertrauen bei Google und Kunden gleichermassen.",
             "Testen Sie alle erweiterten Schemas mit Googles Rich Results Test und ueberwachen Sie die Leistung im Rich-Results-Bericht der Google Search Console. Fehler in komplexem Schema-Markup sind haeufig und koennen verhindern, dass Ihre Produkte ueberhaupt in Rich Results erscheinen. Nutzen Sie unser [Schema-Generator-Tool](/tools/schema-generator), um Produkt-Markup ohne manuelles Schreiben von JSON-LD zu erstellen und zu validieren."
           ],
+          image: { src: "/images/blog/de/advanced-schema-variants.svg", alt: "Advanced schema markup diagram showing ProductGroup parent connected to size variants with separate Offer types for subscriptions and time-limited sales", caption: "Use ProductGroup to connect variants, AggregateOffer for price ranges, and time-limited properties for sales." },
+          callout: { title: "Variant Schema Matters", text: "ProductGroup schema with per-variant Offers tells Google exactly which sizes and colors are in stock at what price. This directly improves visibility in Google Shopping results." },
         },
         {
           heading: "JavaScript-Rendering und SEO fuer modernen E-Commerce",
@@ -256,6 +283,8 @@ export const advancedEcommerceSeoTechniques: BlogArticle = {
             "Die technische Implementierung variiert je nach Stack. Python-Skripte auf geplanten Cron-Jobs sind der einfachste Ansatz. Fuer komplexere Workflows bieten Tools wie n8n, Make (ehemals Integromat) oder benutzerdefinierte Node.js-Anwendungen bessere Orchestrierung. Das Schluesselprinzip: Jede SEO-Aufgabe, die Sie mehr als einmal pro Woche manuell durchfuehren, ist ein Kandidat fuer Automatisierung.",
             "Eine Automatisierung, die wir fuer einen Modekunden entwickelt haben, spart etwa 20 Stunden pro Monat. Sie ueberwacht taeglich die 500 wichtigsten Keywords, erkennt Ranking-Aenderungen von mehr als 3 Positionen, gleicht diese mit aktuellen Seitenaenderungen ab (neue Deployments, Content-Updates, Produktaenderungen) und erstellt einen woechentlichen Bericht mit wahrscheinlichen Ursachen fuer Ranking-Bewegungen. Das System ersetzte einen manuellen Prozess, der zuvor einen Vollzeitanalysten erforderte."
           ],
+          image: { src: "/images/blog/de/advanced-api-seo-automation.svg", alt: "API-driven SEO automation pipeline from data APIs through processing, auto-fix, and deployment with continuous monitoring loop", caption: "Automate any SEO task you do manually more than once per week -- from meta tags to redirect management." },
+          callout: { title: "Automation ROI", text: "One fashion client saves 20 hours per month with automated keyword monitoring, ranking change detection, and root-cause analysis. The system replaced a process that required a full-time analyst." },
         },
         {
           heading: "Thematische Autoritaet im grossen Massstab aufbauen",
@@ -290,6 +319,8 @@ export const advancedEcommerceSeoTechniques: BlogArticle = {
             "Construimos un sistema de SEO programatico para un minorista de pisos que genero 2,400 paginas de destino para combinaciones de tipo de piso + habitacion + estilo (por ejemplo, 'piso vinilico impermeable para sotanos en estilo moderno'). En 8 meses, estas paginas generaban 34,000 visitas organicas mensuales. La inversion total en construir el sistema fue de aproximadamente $15,000, que se pago por si sola en las primeras 6 semanas de trafico.",
             "El riesgo con el SEO programatico es crear paginas que Google considere paginas de entrada de baja calidad. La diferencia entre contenido programatico valioso y paginas de entrada es si la pagina realmente ayuda al usuario. Si tu pagina programatica muestra productos relevantes, proporciona informacion util y responde a la intencion de busqueda, esta bien. Si es solo un envoltorio delgado alrededor de un feed de productos sin contenido real, Google eventualmente la desindexara."
           ],
+          image: { src: "/images/blog/es/programmatic-seo-workflow.svg", alt: "Programmatic SEO workflow from data source through template and generator to landing pages with quality checks", caption: "The programmatic SEO pipeline: data + templates + quality controls = scalable long-tail traffic." },
+          callout: { title: "ROI Snapshot", text: "A flooring retailer invested $15,000 in a programmatic SEO system generating 2,400 pages. Within 8 months those pages drove 34,000 monthly organic visits, paying for the build in just 6 weeks." },
         },
         {
           heading: "Analisis de archivos de registro para optimizacion del rastreo",
@@ -300,6 +331,8 @@ export const advancedEcommerceSeoTechniques: BlogArticle = {
             "Analizamos los archivos de registro de un minorista de electronica con 80,000 paginas de productos y descubrimos que el 62% del presupuesto de rastreo de Googlebot se consumia en URLs de navegacion por facetas (filtros de precio, filtros de marca, opciones de ordenacion). Solo el 23% de las paginas de productos reales se rastreaban diariamente. El resto se rastreaba semanalmente o menos. Despues de implementar la optimizacion de rastreo (bloquear URLs de bajo valor del rastreo, mejorar la estructura de enlaces internos a paginas prioritarias), la tasa de rastreo diaria de paginas de productos aumento del 23% al 71%. Los nuevos productos comenzaron a aparecer en los resultados de busqueda en 2 dias en lugar de 2 semanas.",
             "Para hacer analisis de archivos de registro, necesitas acceso a los registros crudos de tu servidor (registros de Apache, Nginx o CDN). Herramientas como Screaming Frog Log File Analyser, Botify o scripts personalizados pueden analizar los datos. Filtra por agentes de usuario de Googlebot y analiza la frecuencia de rastreo, los codigos de respuesta y la distribucion por tipo de pagina. Estos hallazgos alimentan directamente un plan de remediacion mas amplio de [SEO tecnico para ecommerce](/blog/technical-seo-for-ecommerce)."
           ],
+          image: { src: "/images/blog/es/advanced-crawl-budget.svg", alt: "Crawl budget distribution before and after optimization, plus hub-and-spoke topical authority model", caption: "Optimizing crawl budget shifted product page crawl rates from 23% to 71%, cutting indexing time from 14 days to 2." },
+          callout: { title: "Crawl Budget Impact", text: "For an 80,000-page electronics store, 62% of Googlebot requests went to faceted navigation URLs. After optimization, product page crawl rate tripled from 23% to 71%." },
         },
         {
           heading: "SEO basado en entidades para ecommerce",
@@ -310,6 +343,7 @@ export const advancedEcommerceSeoTechniques: BlogArticle = {
             "Tercero, construye autoridad tematica alrededor de tus categorias de productos creando contenido que cubra todo el espacio de entidades. Si vendes equipamiento de cafe, Google deberia asociar tu dominio con las entidades: espresso, pour-over, molinillo, nivel de tueste, temperatura de preparacion, y asi sucesivamente. Esto significa publicar contenido que cubra estos temas relacionados de manera integral, no solo listar productos. El resultado es que Google considera tu sitio como autoridad para todo el cluster tematico, lo que eleva las posiciones en todas las paginas relacionadas.",
             "Vimos un ejemplo claro de SEO basado en entidades en accion cuando una tienda de alimentos especializados comenzo a publicar contenido detallado sobre origenes de ingredientes, metodos de produccion y ciencia alimentaria. En un ano, Google comenzo a mostrar sus paginas de productos en Paneles de Conocimiento para entidades de ingredientes especificos. Su trafico organico a paginas de productos aumento un 89%, impulsado en gran parte por consultas donde Google reconocio su sitio como autoridad en las entidades relevantes."
           ],
+          image: { src: "/images/blog/es/entity-seo-knowledge-graph.svg", alt: "Entity-based SEO diagram showing brand at center connected to product types, materials, known brands, and use cases", caption: "Connect your brand to established entities via schema, content, and structured data." },
         },
         {
           heading: "Marcado schema avanzado para variantes de productos y ofertas",
@@ -321,6 +355,8 @@ export const advancedEcommerceSeoTechniques: BlogArticle = {
             "Las ofertas por tiempo limitado deben usar las propiedades 'validFrom' y 'validThrough' en el schema Offer. Si estas ejecutando una venta que termina en una fecha especifica, estos datos ayudan a Google a mostrar la oferta con la urgencia apropiada en los resultados de busqueda. Pero se honesto con estas fechas. Establecer urgencia falsa (una venta que 'termina el viernes' cada viernes) erosionara la confianza tanto de Google como de los clientes.",
             "Prueba todo el schema avanzado usando la Prueba de Resultados Enriquecidos de Google y monitorea su rendimiento en el informe de Resultados Enriquecidos de Google Search Console. Los errores en el marcado schema complejo son comunes y pueden evitar que tus productos aparezcan en resultados enriquecidos por completo. Usa nuestra [herramienta generadora de schema](/tools/schema-generator) para construir y validar el marcado de productos sin escribir JSON-LD a mano."
           ],
+          image: { src: "/images/blog/es/advanced-schema-variants.svg", alt: "Advanced schema markup diagram showing ProductGroup parent connected to size variants with separate Offer types for subscriptions and time-limited sales", caption: "Use ProductGroup to connect variants, AggregateOffer for price ranges, and time-limited properties for sales." },
+          callout: { title: "Variant Schema Matters", text: "ProductGroup schema with per-variant Offers tells Google exactly which sizes and colors are in stock at what price. This directly improves visibility in Google Shopping results." },
         },
         {
           heading: "Renderizado de JavaScript y SEO para ecommerce moderno",
@@ -342,6 +378,8 @@ export const advancedEcommerceSeoTechniques: BlogArticle = {
             "La implementacion tecnica varia segun tu stack. Scripts de Python ejecutandose en trabajos cron programados son el enfoque mas simple. Para flujos de trabajo mas complejos, herramientas como n8n, Make (anteriormente Integromat) o aplicaciones personalizadas de Node.js proporcionan mejor orquestacion. El principio clave es: cualquier tarea de SEO que hagas manualmente mas de una vez por semana es candidata para automatizacion.",
             "Una automatizacion que construimos para un cliente de moda les ahorra aproximadamente 20 horas por mes. Monitorea sus 500 palabras clave mas importantes diariamente, detecta cambios de posicion mayores a 3 posiciones, cruza esos cambios con cambios recientes del sitio (nuevos despliegues, actualizaciones de contenido, cambios de productos) registrados en su CMS, y genera un informe semanal que explica las causas probables de los movimientos de posiciones. El sistema reemplazo un proceso manual que anteriormente requeria un analista a tiempo completo."
           ],
+          image: { src: "/images/blog/es/advanced-api-seo-automation.svg", alt: "API-driven SEO automation pipeline from data APIs through processing, auto-fix, and deployment with continuous monitoring loop", caption: "Automate any SEO task you do manually more than once per week -- from meta tags to redirect management." },
+          callout: { title: "Automation ROI", text: "One fashion client saves 20 hours per month with automated keyword monitoring, ranking change detection, and root-cause analysis. The system replaced a process that required a full-time analyst." },
         },
         {
           heading: "Construir autoridad tematica a escala",
@@ -352,6 +390,7 @@ export const advancedEcommerceSeoTechniques: BlogArticle = {
             "La velocidad del contenido importa. Publicar una entrada de blog al mes sobre camping no construira autoridad. Necesitas una produccion sostenida. Recomendamos publicar de 8 a 12 piezas de contenido por mes en tu area tematica principal durante los primeros 6 meses, luego reducir a 4 a 6 por mes para mantenimiento. Este ritmo establece la cobertura tematica lo suficientemente rapido para que Google comience a reconocer tu autoridad en unos meses en lugar de anos.",
             "Mide la autoridad tematica rastreando la amplitud de palabras clave para las que te posicionas dentro de un cluster tematico. Si hace 6 meses te posicionabas para 200 palabras clave relacionadas con camping y ahora te posicionas para 800, tu autoridad tematica esta creciendo. Tambien monitorea si las nuevas paginas de productos en la misma categoria se posicionan mas rapido que antes. Esa aceleracion es una senal concreta de que la autoridad tematica de tu dominio esta beneficiando tus paginas de ecommerce."
           ],
+          callout: { title: "Content Velocity", text: "Publish 8-12 pieces per month in your core topic area for the first 6 months, then 4-6 per month for maintenance. This pace builds topical authority within months rather than years." },
         },
       ],
     },
@@ -376,6 +415,8 @@ export const advancedEcommerceSeoTechniques: BlogArticle = {
             "We bouwden een programmatisch SEO-systeem voor een vloerenretailer dat 2.400 landingspagina's genereerde voor combinaties van vloertype + kamer + stijl (bijvoorbeeld 'waterdichte vinyl plankvloer voor kelders in moderne stijl'). Binnen 8 maanden genereerden deze pagina's 34.000 maandelijkse organische bezoeken. De totale investering in het bouwen van het systeem was ongeveer $15.000, wat zichzelf binnen de eerste 6 weken terugverdiende.",
             "Het risico van programmatische SEO is het creeren van pagina's die Google als laagwaardige doorway-pagina's beschouwt. Het verschil tussen waardevolle programmatische content en doorway-pagina's is of de pagina de gebruiker daadwerkelijk helpt. Als je programmatische pagina relevante producten toont, nuttige informatie biedt en de zoekintentie beantwoordt, is het prima. Als het slechts een dunne wrapper is rond een productfeed zonder echte content, zal Google het uiteindelijk deindexeren."
           ],
+          image: { src: "/images/blog/nl/programmatic-seo-workflow.svg", alt: "Programmatic SEO workflow from data source through template and generator to landing pages with quality checks", caption: "The programmatic SEO pipeline: data + templates + quality controls = scalable long-tail traffic." },
+          callout: { title: "ROI Snapshot", text: "A flooring retailer invested $15,000 in a programmatic SEO system generating 2,400 pages. Within 8 months those pages drove 34,000 monthly organic visits, paying for the build in just 6 weeks." },
         },
         {
           heading: "Logbestandanalyse voor crawloptimalisatie",
@@ -386,6 +427,8 @@ export const advancedEcommerceSeoTechniques: BlogArticle = {
             "We analyseerden logbestanden voor een elektronicawinkel met 80.000 productpagina's en ontdekten dat 62% van het crawlbudget van Googlebot werd verbruikt door gefacetteerde navigatie-URL's (prijsfilters, merkfilters, sorteeropties). Slechts 23% van de daadwerkelijke productpagina's werd dagelijks gecrawld. De rest werd wekelijks of minder gecrawld. Na het implementeren van crawloptimalisatie (blokkeren van laagwaardige URL's, verbeteren van interne linkstructuur naar prioriteitspagina's), steeg het dagelijkse crawlpercentage van productpagina's van 23% naar 71%. Nieuwe producten verschenen binnen 2 dagen in zoekresultaten in plaats van 2 weken.",
             "Om logbestandanalyse uit te voeren, heb je toegang nodig tot je ruwe serverlogs (Apache, Nginx of CDN-logs). Tools zoals Screaming Frog Log File Analyser, Botify of custom scripts kunnen de data parseren. Filter op Googlebot user agents en analyseer crawlfrequentie, responscodes en paginatype-distributie. Deze bevindingen voeden rechtstreeks een breder [technisch SEO voor ecommerce](/blog/technical-seo-for-ecommerce) herstelplan."
           ],
+          image: { src: "/images/blog/nl/advanced-crawl-budget.svg", alt: "Crawl budget distribution before and after optimization, plus hub-and-spoke topical authority model", caption: "Optimizing crawl budget shifted product page crawl rates from 23% to 71%, cutting indexing time from 14 days to 2." },
+          callout: { title: "Crawl Budget Impact", text: "For an 80,000-page electronics store, 62% of Googlebot requests went to faceted navigation URLs. After optimization, product page crawl rate tripled from 23% to 71%." },
         },
         {
           heading: "Entiteitgebaseerde SEO voor ecommerce",
@@ -396,6 +439,7 @@ export const advancedEcommerceSeoTechniques: BlogArticle = {
             "Ten derde, bouw topicale autoriteit rond je productcategorieen door content te maken die de volledige entiteitsruimte dekt. Als je koffieapparatuur verkoopt, moet Google je domein associeren met de entiteiten: espresso, pour-over, molen, brandingsgraad, zettemperatuur, enzovoort. Dit betekent het publiceren van content die deze gerelateerde onderwerpen uitgebreid behandelt, niet alleen producten vermelden. Het resultaat is dat Google je site als gezaghebbend beschouwt voor het hele topiccluster, wat de rankings over alle gerelateerde pagina's verhoogt.",
             "We zagen een duidelijk voorbeeld van entiteitgebaseerde SEO toen een speciaalzaak voor voedingsmiddelen gedetailleerde content begon te publiceren over ingredientenherkomst, productiemethoden en voedselwetenschap. Binnen een jaar begon Google hun productpagina's te tonen in Knowledge Panels voor specifieke ingrediententiteiten. Hun organisch verkeer naar productpagina's steeg met 89%, grotendeels gedreven door zoekopdrachten waarbij Google hun site herkende als een autoriteit op de relevante entiteiten."
           ],
+          image: { src: "/images/blog/nl/entity-seo-knowledge-graph.svg", alt: "Entity-based SEO diagram showing brand at center connected to product types, materials, known brands, and use cases", caption: "Connect your brand to established entities via schema, content, and structured data." },
         },
         {
           heading: "Geavanceerde schema-markup voor productvarianten en aanbiedingen",
@@ -407,6 +451,8 @@ export const advancedEcommerceSeoTechniques: BlogArticle = {
             "Tijdgebonden aanbiedingen moeten de 'validFrom'- en 'validThrough'-eigenschappen in het Offer-schema gebruiken. Als je een actie voert die op een specifieke datum eindigt, helpt deze data Google om de aanbieding met passende urgentie in zoekresultaten te tonen. Maar wees eerlijk met deze datums. Het instellen van nepurgentie (een actie die 'vrijdag eindigt' elke vrijdag) zal het vertrouwen bij zowel Google als klanten ondermijnen.",
             "Test alle geavanceerde schema met Google's Rich Results Test en monitor de prestaties in Google Search Console's Rich Results-rapport. Fouten in complexe schema-markup komen vaak voor en kunnen voorkomen dat je producten verschijnen in verrijkte resultaten. Gebruik onze [schema-generatortool](/tools/schema-generator) om productmarkup te bouwen en te valideren zonder JSON-LD met de hand te schrijven."
           ],
+          image: { src: "/images/blog/nl/advanced-schema-variants.svg", alt: "Advanced schema markup diagram showing ProductGroup parent connected to size variants with separate Offer types for subscriptions and time-limited sales", caption: "Use ProductGroup to connect variants, AggregateOffer for price ranges, and time-limited properties for sales." },
+          callout: { title: "Variant Schema Matters", text: "ProductGroup schema with per-variant Offers tells Google exactly which sizes and colors are in stock at what price. This directly improves visibility in Google Shopping results." },
         },
         {
           heading: "JavaScript-rendering en SEO voor moderne ecommerce",
@@ -428,6 +474,8 @@ export const advancedEcommerceSeoTechniques: BlogArticle = {
             "De technische implementatie varieert op basis van je stack. Python-scripts die draaien op geplande cron-jobs zijn de eenvoudigste aanpak. Voor complexere workflows bieden tools zoals n8n, Make (voorheen Integromat) of custom Node.js-applicaties betere orchestratie. Het belangrijkste principe is: elke SEO-taak die je meer dan een keer per week handmatig uitvoert, is een kandidaat voor automatisering.",
             "Een automatisering die we bouwden voor een modeklant bespaart hen ongeveer 20 uur per maand. Het monitort dagelijks hun 500 belangrijkste zoekwoorden, detecteert rankingwijzigingen groter dan 3 posities, kruisverwijst die wijzigingen tegen recente sitewijzigingen (nieuwe implementaties, contentupdates, productwijzigingen) gelogd in hun CMS en genereert een wekelijks rapport dat waarschijnlijke oorzaken voor rankingbewegingen uitlegt. Het systeem verving een handmatig proces dat voorheen een fulltime analist vereiste."
           ],
+          image: { src: "/images/blog/nl/advanced-api-seo-automation.svg", alt: "API-driven SEO automation pipeline from data APIs through processing, auto-fix, and deployment with continuous monitoring loop", caption: "Automate any SEO task you do manually more than once per week -- from meta tags to redirect management." },
+          callout: { title: "Automation ROI", text: "One fashion client saves 20 hours per month with automated keyword monitoring, ranking change detection, and root-cause analysis. The system replaced a process that required a full-time analyst." },
         },
         {
           heading: "Topicale autoriteit bouwen op schaal",
@@ -438,6 +486,7 @@ export const advancedEcommerceSeoTechniques: BlogArticle = {
             "De contentsnelheid is belangrijk. Een blogbericht per maand publiceren over kamperen bouwt geen autoriteit op. Je hebt aanhoudende output nodig. We raden aan om de eerste 6 maanden 8 tot 12 stukken content per maand te publiceren in je kern-onderwerpsgebied, en daarna af te bouwen naar 4 tot 6 per maand voor onderhoud. Dit tempo vestigt topicale dekking snel genoeg zodat Google je autoriteit binnen enkele maanden begint te herkennen in plaats van jaren.",
             "Meet topicale autoriteit door de breedte van zoekwoorden te volgen waarvoor je rankt binnen een topiccluster. Als je 6 maanden geleden rankte voor 200 kampeergerelateerde zoekwoorden en nu voor 800, groeit je topicale autoriteit. Monitor ook of nieuwe productpagina's in dezelfde categorie sneller ranken dan voorheen. Die versnelling is een concreet signaal dat de topicale autoriteit van je domein je ecommerce-pagina's ten goede komt."
           ],
+          callout: { title: "Content Velocity", text: "Publish 8-12 pieces per month in your core topic area for the first 6 months, then 4-6 per month for maintenance. This pace builds topical authority within months rather than years." },
         },
       ],
     },
@@ -462,6 +511,8 @@ export const advancedEcommerceSeoTechniques: BlogArticle = {
             "Abbiamo costruito un sistema di SEO programmatica per un rivenditore di pavimenti che ha generato 2.400 landing page per combinazioni di tipo pavimento + stanza + stile (ad esempio, 'pavimento vinilico impermeabile per seminterrati in stile moderno'). Entro 8 mesi, queste pagine generavano 34.000 visite organiche mensili. L'investimento totale nella costruzione del sistema e stato di circa 15.000 dollari, che si e ripagato entro le prime 6 settimane di traffico.",
             "Il rischio con la SEO programmatica e creare pagine che Google considera doorway page di bassa qualita. La differenza tra contenuto programmatico di valore e doorway page sta nel fatto che la pagina aiuti effettivamente l'utente. Se la tua pagina programmatica mostra prodotti pertinenti, fornisce informazioni utili e risponde all'intento di ricerca, va bene. Se e solo un involucro sottile attorno a un feed prodotti senza contenuto reale, Google alla fine la deindicizzera."
           ],
+          image: { src: "/images/blog/it/programmatic-seo-workflow.svg", alt: "Programmatic SEO workflow from data source through template and generator to landing pages with quality checks", caption: "The programmatic SEO pipeline: data + templates + quality controls = scalable long-tail traffic." },
+          callout: { title: "ROI Snapshot", text: "A flooring retailer invested $15,000 in a programmatic SEO system generating 2,400 pages. Within 8 months those pages drove 34,000 monthly organic visits, paying for the build in just 6 weeks." },
         },
         {
           heading: "Analisi dei log file per l'ottimizzazione del crawl",
@@ -472,6 +523,8 @@ export const advancedEcommerceSeoTechniques: BlogArticle = {
             "Abbiamo analizzato i log file per un retailer di elettronica con 80.000 pagine prodotto e abbiamo scoperto che il 62% del crawl budget di Googlebot veniva consumato da URL di navigazione a faccette (filtri prezzo, filtri brand, opzioni di ordinamento). Solo il 23% delle pagine prodotto effettive veniva scansionato quotidianamente. Dopo aver implementato l'ottimizzazione del crawl (bloccando URL a basso valore dalla scansione, migliorando la struttura dei link interni verso le pagine prioritarie), il tasso di crawl giornaliero delle pagine prodotto e aumentato dal 23% al 71%. I nuovi prodotti hanno iniziato ad apparire nei risultati di ricerca entro 2 giorni invece di 2 settimane.",
             "Per fare l'analisi dei log file, hai bisogno di accesso ai tuoi log del server grezzi (Apache, Nginx o log CDN). Strumenti come Screaming Frog Log File Analyser, Botify o script personalizzati possono analizzare i dati. Filtra per user agent Googlebot e analizza frequenza di crawl, codici di risposta e distribuzione per tipo di pagina. Questi risultati alimentano direttamente un piano di risanamento della [SEO tecnica per ecommerce](/blog/technical-seo-for-ecommerce) piu ampio."
           ],
+          image: { src: "/images/blog/it/advanced-crawl-budget.svg", alt: "Crawl budget distribution before and after optimization, plus hub-and-spoke topical authority model", caption: "Optimizing crawl budget shifted product page crawl rates from 23% to 71%, cutting indexing time from 14 days to 2." },
+          callout: { title: "Crawl Budget Impact", text: "For an 80,000-page electronics store, 62% of Googlebot requests went to faceted navigation URLs. After optimization, product page crawl rate tripled from 23% to 71%." },
         },
         {
           heading: "SEO basata sulle entita per l'ecommerce",
@@ -482,6 +535,7 @@ export const advancedEcommerceSeoTechniques: BlogArticle = {
             "Terzo, costruisci autorita tematica attorno alle tue categorie di prodotto creando contenuti che coprano l'intero spazio delle entita. Se vendi attrezzatura per il caffe, Google dovrebbe associare il tuo dominio con le entita: espresso, pour-over, macinino, livello di tostatura, temperatura di erogazione, e cosi via. Questo significa pubblicare contenuti che coprano questi argomenti correlati in modo completo, non solo elencare prodotti. Il risultato e che Google considera il tuo sito autorevole per l'intero cluster tematico, il che solleva i posizionamenti su tutte le pagine correlate.",
             "Abbiamo visto un chiaro esempio di SEO basata sulle entita quando un negozio di alimenti speciali ha iniziato a pubblicare contenuti dettagliati sulle origini degli ingredienti, metodi di produzione e scienza alimentare. Entro un anno, Google ha iniziato a mostrare le loro pagine prodotto nei Knowledge Panel per specifiche entita di ingredienti. Il loro traffico organico verso le pagine prodotto e aumentato dell'89%, guidato in gran parte da query in cui Google ha riconosciuto il loro sito come autorita sulle entita pertinenti."
           ],
+          image: { src: "/images/blog/it/entity-seo-knowledge-graph.svg", alt: "Entity-based SEO diagram showing brand at center connected to product types, materials, known brands, and use cases", caption: "Connect your brand to established entities via schema, content, and structured data." },
         },
         {
           heading: "Markup schema avanzato per varianti prodotto e offerte",
@@ -493,6 +547,8 @@ export const advancedEcommerceSeoTechniques: BlogArticle = {
             "Le offerte a tempo limitato dovrebbero usare le proprieta 'validFrom' e 'validThrough' nello schema Offer. Se stai facendo una vendita che termina in una data specifica, questi dati aiutano Google a mostrare l'offerta con l'urgenza appropriata nei risultati di ricerca. Ma sii onesto con queste date. Impostare urgenza falsa (una vendita che 'termina venerdi' ogni venerdi) erodera la fiducia sia con Google che con i clienti.",
             "Testa tutti gli schema avanzati usando il Rich Results Test di Google e monitora le prestazioni nel report Rich Results di Google Search Console. Gli errori nel markup schema complesso sono comuni e possono impedire ai tuoi prodotti di apparire nei risultati ricchi completamente. Usa il nostro [strumento generatore di schema](/tools/schema-generator) per costruire e validare il markup prodotto senza scrivere JSON-LD a mano."
           ],
+          image: { src: "/images/blog/it/advanced-schema-variants.svg", alt: "Advanced schema markup diagram showing ProductGroup parent connected to size variants with separate Offer types for subscriptions and time-limited sales", caption: "Use ProductGroup to connect variants, AggregateOffer for price ranges, and time-limited properties for sales." },
+          callout: { title: "Variant Schema Matters", text: "ProductGroup schema with per-variant Offers tells Google exactly which sizes and colors are in stock at what price. This directly improves visibility in Google Shopping results." },
         },
         {
           heading: "Rendering JavaScript e SEO per l'ecommerce moderno",
@@ -514,6 +570,8 @@ export const advancedEcommerceSeoTechniques: BlogArticle = {
             "L'implementazione tecnica varia in base al tuo stack. Gli script Python eseguiti su cron job programmati sono l'approccio piu semplice. Per flussi di lavoro piu complessi, strumenti come n8n, Make (precedentemente Integromat) o applicazioni Node.js personalizzate forniscono una migliore orchestrazione. Il principio chiave e: qualsiasi attivita SEO che fai manualmente piu di una volta alla settimana e un candidato per l'automazione.",
             "Un'automazione che abbiamo costruito per un cliente nel settore moda risparmia loro circa 20 ore al mese. Monitora le loro 500 keyword piu importanti quotidianamente, rileva cambiamenti di posizionamento maggiori di 3 posizioni, incrocia quei cambiamenti con modifiche recenti al sito (nuovi deploy, aggiornamenti contenuti, modifiche prodotti) registrate nel loro CMS, e genera un report settimanale che spiega le probabili cause dei movimenti di posizionamento. Il sistema ha sostituito un processo manuale che precedentemente richiedeva un analista a tempo pieno."
           ],
+          image: { src: "/images/blog/it/advanced-api-seo-automation.svg", alt: "API-driven SEO automation pipeline from data APIs through processing, auto-fix, and deployment with continuous monitoring loop", caption: "Automate any SEO task you do manually more than once per week -- from meta tags to redirect management." },
+          callout: { title: "Automation ROI", text: "One fashion client saves 20 hours per month with automated keyword monitoring, ranking change detection, and root-cause analysis. The system replaced a process that required a full-time analyst." },
         },
         {
           heading: "Costruire autorita tematica su larga scala",

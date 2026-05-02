@@ -227,7 +227,7 @@ export const toysSeoData: Record<Locale, ServicePageProps> = {
           name: "Fabian van Til",
           role: "Strategy & Innovation",
           bio: "Fabian leads SEO strategy for our toy and game clients. 8 years of ecommerce SEO with deep experience in seasonal commerce. He builds the seasonal content calendars and Q4 strategies that make holiday seasons count.",
-          image: "/images/framer/C23VbBxvj2kY5TMoXAJHXWVLaA.webp",
+          image: "/images/framer/fabian-van-til-new.jpeg",
           linkedin: "https://www.linkedin.com/in/fabianvantil/",
         },
         teamMembers: [
@@ -236,7 +236,7 @@ export const toysSeoData: Record<Locale, ServicePageProps> = {
             role: "Technical & On-Page SEO",
             bio: "Dimitar handles the technical and on-page SEO for toy stores. He works on product schema with age ranges, collection page architecture, Core Web Vitals for image-heavy catalogs, and crawl management for large seasonal inventories.",
             image: "/images/framer/Q3tfuu2ytPAotONsFoP1ouyPZic.png",
-            linkedin: "https://www.linkedin.com/in/dimitar-georgiev-seo/",
+            linkedin: "https://bg.linkedin.com/in/dimitar-georgiev-seo-expert",
           },
           {
             name: "Martinijan Trajkovski",
@@ -571,7 +571,7 @@ export const toysSeoData: Record<Locale, ServicePageProps> = {
           name: "Fabian van Til",
           role: "Strategie & Innovation",
           bio: "Fabian steuert alle Spielzeug-SEO-Projekte strategisch. Er bringt 8+ Jahre E-Commerce-SEO-Erfahrung mit, darunter tiefgreifende Expertise in saisonalem Commerce wie Spielzeug-, Spiele- und Geschenkvertikalen.",
-          image: "/images/framer/C23VbBxvj2kY5TMoXAJHXWVLaA.webp",
+          image: "/images/framer/fabian-van-til-new.jpeg",
           linkedin: "https://www.linkedin.com/in/fabianvantil/",
         },
         teamMembers: [
@@ -580,7 +580,7 @@ export const toysSeoData: Record<Locale, ServicePageProps> = {
             role: "Technisches & On-Page SEO",
             bio: "Dimitar baut die technischen SEO-Grundlagen und On-Page-Optimierungen für Spielzeugshops. Spezialisiert auf Produkt-Schema mit Altersangaben, Kollektionsseitenarchitektur und Core-Web-Vitals-Optimierung.",
             image: "/images/framer/Q3tfuu2ytPAotONsFoP1ouyPZic.png",
-            linkedin: "https://www.linkedin.com/in/dimitar-georgiev-seo/",
+            linkedin: "https://bg.linkedin.com/in/dimitar-georgiev-seo-expert",
           },
           {
             name: "Martinijan Trajkovski",
@@ -868,7 +868,7 @@ export const toysSeoData: Record<Locale, ServicePageProps> = {
           name: "Fabian van Til",
           role: "Stratégie & Innovation",
           bio: "Fabian dirige tous les projets clients. 8+ ans d'expérience en SEO e-commerce avec expertise approfondie en commerce saisonnier.",
-          image: "/images/framer/C23VbBxvj2kY5TMoXAJHXWVLaA.webp",
+          image: "/images/framer/fabian-van-til-new.jpeg",
           linkedin: "https://www.linkedin.com/in/fabianvantil/",
         },
         teamMembers: [
@@ -877,7 +877,7 @@ export const toysSeoData: Record<Locale, ServicePageProps> = {
             role: "SEO technique & On-Page",
             bio: "Architecte les fondations SEO techniques et on-page pour les boutiques de jouets. Spécialisé en schema produit avec tranches d'âge et optimisation Core Web Vitals.",
             image: "/images/framer/Q3tfuu2ytPAotONsFoP1ouyPZic.png",
-            linkedin: "https://www.linkedin.com/in/dimitar-georgiev-seo/",
+            linkedin: "https://bg.linkedin.com/in/dimitar-georgiev-seo-expert",
           },
           {
             name: "Martinijan Trajkovski",
@@ -1119,7 +1119,7 @@ export const toysSeoData: Record<Locale, ServicePageProps> = {
           name: "Fabian van Til",
           role: "Estrategia e Innovación",
           bio: "Fabian lidera la estrategia de todos los proyectos. 8+ a\u00f1os de experiencia en SEO ecommerce con experiencia profunda en comercio estacional.",
-          image: "/images/framer/C23VbBxvj2kY5TMoXAJHXWVLaA.webp",
+          image: "/images/framer/fabian-van-til-new.jpeg",
           linkedin: "https://www.linkedin.com/in/fabianvantil/",
         },
         teamMembers: [
@@ -1128,7 +1128,7 @@ export const toysSeoData: Record<Locale, ServicePageProps> = {
             role: "SEO Técnico & On-Page",
             bio: "Arquitecta las bases técnicas SEO y on-page para tiendas de juguetes. Especializado en schema de producto con rangos de edad y optimización Core Web Vitals.",
             image: "/images/framer/Q3tfuu2ytPAotONsFoP1ouyPZic.png",
-            linkedin: "https://www.linkedin.com/in/dimitar-georgiev-seo/",
+            linkedin: "https://bg.linkedin.com/in/dimitar-georgiev-seo-expert",
           },
           {
             name: "Martinijan Trajkovski",
@@ -1359,7 +1359,7 @@ export const toysSeoData: Record<Locale, ServicePageProps> = {
           name: "Fabian van Til",
           role: "Strategia & Innovazione",
           bio: "Fabian definisce la strategia di ogni progetto cliente. 8+ anni di esperienza SEO e-commerce con expertise in commercio stagionale.",
-          image: "/images/framer/C23VbBxvj2kY5TMoXAJHXWVLaA.webp",
+          image: "/images/framer/fabian-van-til-new.jpeg",
           linkedin: "https://www.linkedin.com/in/fabianvantil/",
         },
         teamMembers: [
@@ -1368,7 +1368,7 @@ export const toysSeoData: Record<Locale, ServicePageProps> = {
             role: "SEO tecnico & On-Page",
             bio: "Dimitar architetta le fondazioni SEO tecniche e on-page per i negozi di giocattoli. Specializzato in schema prodotto con fasce d'et\u00e0 e ottimizzazione Core Web Vitals.",
             image: "/images/framer/Q3tfuu2ytPAotONsFoP1ouyPZic.png",
-            linkedin: "https://www.linkedin.com/in/dimitar-georgiev-seo/",
+            linkedin: "https://bg.linkedin.com/in/dimitar-georgiev-seo-expert",
           },
           {
             name: "Martinijan Trajkovski",
@@ -1599,7 +1599,7 @@ export const toysSeoData: Record<Locale, ServicePageProps> = {
           name: "Fabian van Til",
           role: "Strategie & Innovatie",
           bio: "Fabian leidt de strategische richting voor alle klantprojecten. Met 8+ jaar e-commerce SEO-ervaring heeft hij diepgaande expertise in seizoensgebonden commerce.",
-          image: "/images/framer/C23VbBxvj2kY5TMoXAJHXWVLaA.webp",
+          image: "/images/framer/fabian-van-til-new.jpeg",
           linkedin: "https://www.linkedin.com/in/fabianvantil/",
         },
         teamMembers: [
@@ -1608,7 +1608,7 @@ export const toysSeoData: Record<Locale, ServicePageProps> = {
             role: "Technisch & On-Page SEO",
             bio: "Dimitar ontwerpt de technische SEO-fundamenten en on-page optimalisaties voor speelgoedwinkels. Hij is gespecialiseerd in productschema met leeftijdsbereiken en Core Web Vitals-optimalisatie.",
             image: "/images/framer/Q3tfuu2ytPAotONsFoP1ouyPZic.png",
-            linkedin: "https://www.linkedin.com/in/dimitar-georgiev-seo/",
+            linkedin: "https://bg.linkedin.com/in/dimitar-georgiev-seo-expert",
           },
           {
             name: "Martinijan Trajkovski",

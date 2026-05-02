@@ -8,6 +8,11 @@ import type { Locale } from "@/lib/i18n/config";
 import { shopifySeoAuditT } from "@/lib/i18n/translations/seoTools";
 import LocaleLink from "@/components/ui/LocaleLink";
 
+
+import ToolPreviewSection from "@/components/tools/ToolPreviewSection";
+import { getToolPreviewStrings } from "@/lib/tools/previewStrings";export const revalidate = 3600;
+
+
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   return buildPageMetadata(locale as Locale, "/tools/shopify-seo-audit");
@@ -90,6 +95,15 @@ export default async function ShopifySeoAuditPage({
             </div>
           </div>
         </section>
+
+        {/* Preview: live-demo screenshot of the tool's results */}
+        <ToolPreviewSection
+          src="/images/tools/shopify-seo-audit-preview.png"
+          imgWidth={1164}
+          imgHeight={4646}
+          url="ecomseo.co/tools/shopify-seo-audit"
+          strings={getToolPreviewStrings(locale as Locale, t.heading)}
+        />
 
         {/* FAQ */}
         <section className="px-5 md:px-16 py-20 border-t border-border">

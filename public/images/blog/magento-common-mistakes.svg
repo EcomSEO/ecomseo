@@ -1,0 +1,43 @@
+<svg viewBox="0 0 680 320" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <text x="340" y="28" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#a78bfa">Common Magento SEO Mistakes</text>
+  <g transform="translate(40,50)">
+    <rect x="0" y="0" width="290" height="55" rx="6" stroke="#f97316" stroke-width="2" fill="none"/>
+    <text x="15" y="20" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#f97316">1. Duplicate store view content</text>
+    <text x="15" y="40" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Multi-lang without hreflang/canonicals</text>
+  </g>
+  <g transform="translate(350,50)">
+    <rect x="0" y="0" width="290" height="55" rx="6" stroke="#4ade80" stroke-width="2" fill="none"/>
+    <text x="15" y="20" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#4ade80">Fix: hreflang + canonical config</text>
+    <text x="15" y="40" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Set per store view in Magento admin</text>
+  </g>
+  <g transform="translate(40,118)">
+    <rect x="0" y="0" width="290" height="55" rx="6" stroke="#f97316" stroke-width="2" fill="none"/>
+    <text x="15" y="20" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#f97316">2. Bloated title tag template</text>
+    <text x="15" y="40" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">"Product - Category - Store" = truncated</text>
+  </g>
+  <g transform="translate(350,118)">
+    <rect x="0" y="0" width="290" height="55" rx="6" stroke="#4ade80" stroke-width="2" fill="none"/>
+    <text x="15" y="20" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#4ade80">Fix: keyword-first custom templates</text>
+    <text x="15" y="40" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Drop store name, lead with product</text>
+  </g>
+  <g transform="translate(40,186)">
+    <rect x="0" y="0" width="290" height="55" rx="6" stroke="#f97316" stroke-width="2" fill="none"/>
+    <text x="15" y="20" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#f97316">3. Sitemap includes junk URLs</text>
+    <text x="15" y="40" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">10-30% noindex, 404, or redirect URLs</text>
+  </g>
+  <g transform="translate(350,186)">
+    <rect x="0" y="0" width="290" height="55" rx="6" stroke="#4ade80" stroke-width="2" fill="none"/>
+    <text x="15" y="20" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#4ade80">Fix: crawl + filter sitemap</text>
+    <text x="15" y="40" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Only indexable canonical URLs</text>
+  </g>
+  <g transform="translate(40,254)">
+    <rect x="0" y="0" width="290" height="55" rx="6" stroke="#f97316" stroke-width="2" fill="none"/>
+    <text x="15" y="20" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#f97316">4. Permissive robots.txt</text>
+    <text x="15" y="40" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Cart, account, wishlist all crawlable</text>
+  </g>
+  <g transform="translate(350,254)">
+    <rect x="0" y="0" width="290" height="55" rx="6" stroke="#4ade80" stroke-width="2" fill="none"/>
+    <text x="15" y="20" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#4ade80">Fix: disallow non-content paths</text>
+    <text x="15" y="40" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">/customer/ /checkout/ /wishlist/</text>
+  </g>
+</svg>

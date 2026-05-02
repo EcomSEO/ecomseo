@@ -1,0 +1,33 @@
+<svg viewBox="0 0 480 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <text x="240" y="22" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#a78bfa">Content-Audit-Entscheidungsmatrix</text>
+  <!-- 4 buckets -->
+  <rect x="15" y="50" width="105" height="120" rx="10" fill="#4ade80" opacity="0.12" stroke="#4ade80" stroke-width="1.5"/>
+  <text x="67" y="78" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#4ade80">BEHALTEN</text>
+  <text x="67" y="100" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Bringt Traffic</text>
+  <text x="67" y="114" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Hat Backlinks</text>
+  <text x="67" y="128" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Converts visitors</text>
+  <text x="67" y="155" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#4ade80">Keine Aktion noetig</text>
+  <rect x="130" y="50" width="105" height="120" rx="10" fill="#60a5fa" opacity="0.12" stroke="#60a5fa" stroke-width="1.5"/>
+  <text x="182" y="78" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#60a5fa">VERBESSERN</text>
+  <text x="182" y="100" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Has potential</text>
+  <text x="182" y="114" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Needs updating</text>
+  <text x="182" y="128" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Schwache Optimierung</text>
+  <text x="182" y="155" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#60a5fa">Inhalt auffrischen</text>
+  <rect x="245" y="50" width="105" height="120" rx="10" fill="#f97316" opacity="0.12" stroke="#f97316" stroke-width="1.5"/>
+  <text x="297" y="78" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#f97316">ZUSAMMENFUEHREN</text>
+  <text x="297" y="100" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Ueberlappende Themen</text>
+  <text x="297" y="114" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Gleiche Keywords</text>
+  <text x="297" y="128" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Cannibalization</text>
+  <text x="297" y="155" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#f97316">301 zum Staerksten</text>
+  <rect x="360" y="50" width="105" height="120" rx="10" fill="#ef4444" opacity="0.12" stroke="#ef4444" stroke-width="1.5"/>
+  <text x="412" y="78" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#ef4444">ENTFERNEN</text>
+  <text x="412" y="100" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Kein Traffic</text>
+  <text x="412" y="114" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Keine Backlinks</text>
+  <text x="412" y="128" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Duenn / veraltet</text>
+  <text x="412" y="155" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#ef4444">410 oder Weiterleitung</text>
+  <!-- Bottom arrow -->
+  <line x1="67" y1="180" x2="412" y2="180" stroke="#e2e8f0" stroke-width="1" marker-end="url(#arrAudit)"/>
+  <defs><marker id="arrAudit" markerWidth="6" markerHeight="6" refX="3" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6Z" fill="#e2e8f0"/></marker></defs>
+  <text x="240" y="198" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Zunehmende Massnahmen-Schwere</text>
+  <text x="240" y="225" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#f97316">Pruning erzeugt typischerweise einen Netto-Traffic-Gewinn innerhalb von 6-8 Wochen</text>
+</svg>

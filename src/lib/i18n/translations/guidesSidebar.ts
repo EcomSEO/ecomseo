@@ -16,7 +16,7 @@ export const guidesSidebarT: Record<Locale, SideNavSection[]> = {
       category: "Ecommerce SEO Basics",
       items: [
         { label: "Introduction", href: "/guides" },
-        { label: "SEO Fundamentals Checklist", href: "/guides/fundamentals" },
+        { label: "SEO Fundamentals Checklist", href: "/academy/introduction-to-ecommerce-seo" },
         { label: "Analytics & Tracking", href: "/guides/analytics-tracking" },
         { label: "Beginner to Hero Course", href: "/guides/beginner-to-hero" },
       ],
@@ -24,7 +24,7 @@ export const guidesSidebarT: Record<Locale, SideNavSection[]> = {
     {
       category: "Research & Ideation",
       items: [
-        { label: "Keyword Research", href: "/guides/keyword-research" },
+        { label: "Keyword Research", href: "/academy/keyword-research-for-ecommerce" },
         { label: "Competitor Analysis", href: "/guides/competitor-analysis" },
         { label: "Technical Analysis", href: "/guides/technical-analysis" },
         { label: "On-Page Audit", href: "/guides/on-page-audit" },
@@ -47,7 +47,7 @@ export const guidesSidebarT: Record<Locale, SideNavSection[]> = {
       category: "E-Commerce-SEO-Grundlagen",
       items: [
         { label: "Einführung", href: "/guides" },
-        { label: "SEO-Grundlagen-Checkliste", href: "/guides/fundamentals" },
+        { label: "SEO-Grundlagen-Checkliste", href: "/academy/introduction-to-ecommerce-seo" },
         { label: "Analytics & Tracking", href: "/guides/analytics-tracking" },
         { label: "Einsteiger-Crashkurs", href: "/guides/beginner-to-hero" },
       ],
@@ -55,7 +55,7 @@ export const guidesSidebarT: Record<Locale, SideNavSection[]> = {
     {
       category: "Recherche & Ideenfindung",
       items: [
-        { label: "Keyword-Recherche", href: "/guides/keyword-research" },
+        { label: "Keyword-Recherche", href: "/academy/keyword-research-for-ecommerce" },
         { label: "Wettbewerbsanalyse", href: "/guides/competitor-analysis" },
         { label: "Technische Analyse", href: "/guides/technical-analysis" },
         { label: "On-Page-Audit", href: "/guides/on-page-audit" },
@@ -78,7 +78,7 @@ export const guidesSidebarT: Record<Locale, SideNavSection[]> = {
       category: "Bases du SEO e-commerce",
       items: [
         { label: "Introduction", href: "/guides" },
-        { label: "Checklist des fondamentaux SEO", href: "/guides/fundamentals" },
+        { label: "Checklist des fondamentaux SEO", href: "/academy/introduction-to-ecommerce-seo" },
         { label: "Analytics & Tracking", href: "/guides/analytics-tracking" },
         { label: "Cours débutant à expert", href: "/guides/beginner-to-hero" },
       ],
@@ -86,7 +86,7 @@ export const guidesSidebarT: Record<Locale, SideNavSection[]> = {
     {
       category: "Recherche & idéation",
       items: [
-        { label: "Recherche de mots-clés", href: "/guides/keyword-research" },
+        { label: "Recherche de mots-clés", href: "/academy/keyword-research-for-ecommerce" },
         { label: "Analyse concurrentielle", href: "/guides/competitor-analysis" },
         { label: "Analyse technique", href: "/guides/technical-analysis" },
         { label: "Audit on-page", href: "/guides/on-page-audit" },
@@ -109,7 +109,7 @@ export const guidesSidebarT: Record<Locale, SideNavSection[]> = {
       category: "Fundamentos de SEO e-commerce",
       items: [
         { label: "Introducción", href: "/guides" },
-        { label: "Checklist de fundamentos SEO", href: "/guides/fundamentals" },
+        { label: "Checklist de fundamentos SEO", href: "/academy/introduction-to-ecommerce-seo" },
         { label: "Analytics y seguimiento", href: "/guides/analytics-tracking" },
         { label: "Curso de principiante a experto", href: "/guides/beginner-to-hero" },
       ],
@@ -117,7 +117,7 @@ export const guidesSidebarT: Record<Locale, SideNavSection[]> = {
     {
       category: "Investigación e ideación",
       items: [
-        { label: "Investigación de palabras clave", href: "/guides/keyword-research" },
+        { label: "Investigación de palabras clave", href: "/academy/keyword-research-for-ecommerce" },
         { label: "Análisis de competencia", href: "/guides/competitor-analysis" },
         { label: "Análisis técnico", href: "/guides/technical-analysis" },
         { label: "Auditoría on-page", href: "/guides/on-page-audit" },
@@ -140,7 +140,7 @@ export const guidesSidebarT: Record<Locale, SideNavSection[]> = {
       category: "Basi della SEO e-commerce",
       items: [
         { label: "Introduzione", href: "/guides" },
-        { label: "Checklist dei fondamentali SEO", href: "/guides/fundamentals" },
+        { label: "Checklist dei fondamentali SEO", href: "/academy/introduction-to-ecommerce-seo" },
         { label: "Analytics & Tracking", href: "/guides/analytics-tracking" },
         { label: "Corso da principiante a esperto", href: "/guides/beginner-to-hero" },
       ],
@@ -148,7 +148,7 @@ export const guidesSidebarT: Record<Locale, SideNavSection[]> = {
     {
       category: "Ricerca e ideazione",
       items: [
-        { label: "Ricerca delle keyword", href: "/guides/keyword-research" },
+        { label: "Ricerca delle keyword", href: "/academy/keyword-research-for-ecommerce" },
         { label: "Analisi della concorrenza", href: "/guides/competitor-analysis" },
         { label: "Analisi tecnica", href: "/guides/technical-analysis" },
         { label: "Audit on-page", href: "/guides/on-page-audit" },
@@ -171,7 +171,7 @@ export const guidesSidebarT: Record<Locale, SideNavSection[]> = {
       category: "E-commerce SEO-basiskennis",
       items: [
         { label: "Introductie", href: "/guides" },
-        { label: "SEO-basischecklist", href: "/guides/fundamentals" },
+        { label: "SEO-basischecklist", href: "/academy/introduction-to-ecommerce-seo" },
         { label: "Analytics & Tracking", href: "/guides/analytics-tracking" },
         { label: "Beginnerscursus", href: "/guides/beginner-to-hero" },
       ],
@@ -179,7 +179,7 @@ export const guidesSidebarT: Record<Locale, SideNavSection[]> = {
     {
       category: "Onderzoek & ideeontwikkeling",
       items: [
-        { label: "Zoekwoordenonderzoek", href: "/guides/keyword-research" },
+        { label: "Zoekwoordenonderzoek", href: "/academy/keyword-research-for-ecommerce" },
         { label: "Concurrentieanalyse", href: "/guides/competitor-analysis" },
         { label: "Technische analyse", href: "/guides/technical-analysis" },
         { label: "On-page audit", href: "/guides/on-page-audit" },

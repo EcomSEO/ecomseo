@@ -2,31 +2,40 @@ import type { Metadata } from "next";
 import {
   type Locale,
   BASE_URL,
-  defaultLocale,
   hreflangEntries,
   ogLocaleMap,
+  publicLocalizedUrl,
 } from "./config";
 import { getDictionary } from "./getDictionary";
 
+/**
+ * Canonical overrides for pages that cannibalize each other.
+ * Maps blog/weaker page → tool/academy/stronger page that should be the canonical.
+ * This tells Google: "don't rank this page for this query, rank the other one instead."
+ */
+export const canonicalOverrides: Record<string, string> = {
+  // Blog vs Tool: blog article about audits → tool page (tool is the transactional intent match)
+  "/blog/how-to-make-ecommerce-seo-audit": "/tools/ecommerce-seo-audit",
+  // Blog vs Academy: blog posts that overlap with academy lessons
+  "/blog/ecommerce-homepage-seo": "/academy/homepage-seo-for-ecommerce",
+  "/blog/ecommerce-seo-migration": "/academy/platform-migration-seo",
+};
+
 /** Build hreflang alternates + canonical for a given path (e.g. "/shopify-seo") */
 export function generateAlternates(path: string, locale?: Locale) {
-  const cleanPath = path === "/" ? "" : path;
   const languages: Record<string, string> = {};
 
   for (const { hreflang, locale: loc } of hreflangEntries) {
-    if (loc === defaultLocale) {
-      // Default locale (en) → root URL, no /en/ prefix
-      languages[hreflang] = `${BASE_URL}${cleanPath || "/"}`;
-    } else {
-      languages[hreflang] = `${BASE_URL}/${loc}${cleanPath}`;
-    }
+    languages[hreflang] = publicLocalizedUrl(loc, path);
   }
 
-  const canonical = locale
-    ? locale === defaultLocale
-      ? `${BASE_URL}${cleanPath || "/"}`
-      : `${BASE_URL}/${locale}${cleanPath}`
-    : undefined;
+  // Check for canonical override (cannibalization fix)
+  const override = canonicalOverrides[path];
+  const canonical = override
+    ? publicLocalizedUrl(locale || "en", override)
+    : locale
+      ? publicLocalizedUrl(locale, path)
+      : undefined;
 
   return {
     canonical: canonical as string | undefined,
@@ -52,13 +61,7 @@ export async function buildPageMetadata(
     };
   }
 
-  const cleanPath = path === "/" ? "" : path;
-
-  // Default locale (en) → root URL; other locales → /{locale} prefix
-  const url =
-    locale === defaultLocale
-      ? `${BASE_URL}${cleanPath || "/"}`
-      : `${BASE_URL}/${locale}${cleanPath}`;
+  const url = publicLocalizedUrl(locale, path);
 
   const alternates = generateAlternates(path, locale);
 
@@ -84,6 +87,7 @@ export async function buildPageMetadata(
     },
     twitter: {
       card: "summary_large_image",
+      site: "@ecomseo_co",
       title: entry.ogTitle || entry.title,
       description: entry.description,
       images: [`${BASE_URL}/images/brand/og-image.png`],

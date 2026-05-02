@@ -16,12 +16,21 @@ export const seoAnalyticsWithGa4: AcademyTopic = {
           title: "Configuring GA4 for Ecommerce SEO Tracking",
           content:
             "Before you can measure SEO performance in GA4, you need the right ecommerce events firing correctly. GA4 relies on specific event names: view_item, add_to_cart, begin_checkout, and purchase. Each event must include item-level parameters like item_id, item_name, item_category, price, and quantity. Without these parameters, your ecommerce reports will be empty or unreliable.\n\nFor Shopify stores, the built-in GA4 integration handles purchase events automatically, but often misses view_item and add_to_cart events. You'll need a custom data layer or a tag management setup through Google Tag Manager to capture the full funnel. WooCommerce and Magento have similar gaps that require plugin configuration or developer work to fill.\n\nOnce your events are firing, verify them in GA4's DebugView. Walk through your store as a customer would: land on a product page, add to cart, and complete checkout. Confirm each event appears in DebugView with all required parameters. A single missing parameter can break downstream reports, so thorough testing at this stage saves hours of debugging later.\n\nFinally, connect Google Search Console to your GA4 property. This integration surfaces organic search queries alongside your GA4 engagement data. Navigate to Admin, then Product Links, then Search Console Links to set it up. The combined data lets you see which search queries drive not just clicks, but actual conversions.",
+          image: {
+            src: "/images/academy/ga4-ecommerce-funnel.svg",
+            alt: "Funnel diagram showing GA4 ecommerce events from session start through view_item, add_to_cart, begin_checkout, to purchase with drop-off percentages",
+            caption: "GA4 ecommerce event funnel: track each step from landing to purchase to identify where organic visitors drop off.",
+          },
           items: [
             "Verify all ecommerce events fire with complete item-level parameters",
             "Test the full purchase funnel in GA4 DebugView before relying on reports",
             "Link Google Search Console to GA4 for combined query and conversion data",
             "Set up Google Tag Manager if your platform's native integration has event gaps",
           ],
+          callout: {
+            title: "Shopify GA4 Gap",
+            text: "Shopify's built-in GA4 integration handles purchase events but often misses view_item and add_to_cart. Without these, your funnel reports show zero mid-funnel data. Use Google Tag Manager to fill the gaps.",
+          },
         },
         {
           title: "Building Organic Traffic Segments",
@@ -44,12 +53,21 @@ export const seoAnalyticsWithGa4: AcademyTopic = {
           title: "Tracking Organic Revenue and Conversions",
           content:
             "Attributing revenue to organic search requires understanding GA4's attribution models. By default, GA4 uses data-driven attribution, which distributes conversion credit across all touchpoints based on machine learning. For most ecommerce stores, this gives a more accurate picture of SEO's contribution than last-click attribution.\n\nTo see organic search revenue, navigate to the Advertising section and use the Model Comparison report. Compare data-driven attribution against last-click to understand how much revenue organic search influences versus directly drives. Typically, organic search's contribution is 20-40% higher under data-driven attribution because it captures the discovery sessions that start the purchase journey.\n\nSet up custom events to track micro-conversions that indicate SEO-driven engagement. Wishlist additions, email signup forms completed from organic landing pages, and product comparison tool usage are all signals that organic visitors are engaging with commercial intent even if they don't purchase immediately. These micro-conversions serve as leading indicators that organic traffic quality is improving.\n\nBuild a monthly organic revenue report that tracks total organic revenue, organic conversion rate, average order value from organic traffic, and revenue per organic session. Compare these metrics month-over-month and year-over-year. Seasonal ecommerce businesses should rely on year-over-year comparisons to account for natural demand fluctuations. A 15% year-over-year increase in organic revenue during Q4 means far more than a month-over-month comparison against the quieter summer months. For a deeper look at building [ecommerce SEO](/blog/ecommerce-seo) measurement frameworks, explore how revenue attribution connects to broader organic strategy.",
+          image: {
+            src: "/images/academy/ga4-attribution-models.svg",
+            alt: "Comparison of four GA4 attribution models showing how each credits SEO differently for the same conversion path",
+            caption: "The same customer journey assigns SEO anywhere from $0 (last-click) to $120 (first-click) depending on the attribution model.",
+          },
           items: [
             "Compare data-driven versus last-click attribution to see SEO's full revenue influence",
             "Track micro-conversions like wishlist adds and email signups from organic visitors",
             "Monitor organic conversion rate and average order value as quality indicators",
             "Use year-over-year comparisons for seasonal businesses rather than month-over-month",
           ],
+          callout: {
+            title: "Attribution Gap",
+            text: "Data-driven attribution typically credits organic search with 20-40% more revenue than last-click. For a store doing $500K/month in organic revenue under last-click, the real SEO influence could be $600K-700K.",
+          },
         },
         {
           title: "Common GA4 Pitfalls for Ecommerce SEO",
@@ -73,12 +91,21 @@ export const seoAnalyticsWithGa4: AcademyTopic = {
           title: "GA4 fuer E-Commerce-SEO-Tracking konfigurieren",
           content:
             "Bevor Sie die SEO-Leistung in GA4 messen koennen, muessen die richtigen E-Commerce-Events korrekt ausgeloest werden. GA4 setzt auf bestimmte Event-Namen: view_item, add_to_cart, begin_checkout und purchase. Jedes Event muss Parameter auf Artikelebene enthalten wie item_id, item_name, item_category, price und quantity. Ohne diese Parameter sind Ihre E-Commerce-Berichte leer oder unzuverlaessig.\n\nBei Shopify-Shops verarbeitet die integrierte GA4-Integration Purchase-Events automatisch, uebersieht aber haeufig view_item- und add_to_cart-Events. Sie benoetigen einen benutzerdefinierten Data Layer oder ein Tag-Management-Setup ueber den Google Tag Manager, um den vollstaendigen Funnel zu erfassen. WooCommerce und Magento haben aehnliche Luecken, die Plugin-Konfiguration oder Entwicklerarbeit erfordern.\n\nSobald Ihre Events ausgeloest werden, ueberpruefen Sie diese in GA4s DebugView. Gehen Sie durch Ihren Shop wie ein Kunde: Landen Sie auf einer Produktseite, legen Sie einen Artikel in den Warenkorb und schliessen Sie den Kauf ab. Bestaetigen Sie, dass jedes Event in DebugView mit allen erforderlichen Parametern erscheint.\n\nVerbinden Sie abschliessend die Google Search Console mit Ihrer GA4-Property. Diese Integration zeigt organische Suchanfragen neben Ihren GA4-Engagement-Daten an. Navigieren Sie zu Admin, dann Produktverknuepfungen, dann Search Console-Verknuepfungen, um die Einrichtung vorzunehmen.",
-          items: [
+                    image: {
+            src: "/images/academy/de/ga4-ecommerce-funnel.svg",
+            alt: "GA4 E-Commerce-Tracking-Trichter von Sitzungen ueber Produktaufrufe bis zum Kauf",
+            caption: "Konfigurieren Sie GA4 E-Commerce-Events, um jeden Schritt des Kauftrichters fuer organischen Traffic zu verfolgen.",
+          },
+items: [
             "Ueberpruefen Sie, ob alle E-Commerce-Events mit vollstaendigen Parametern auf Artikelebene ausgeloest werden",
             "Testen Sie den gesamten Kauf-Funnel in GA4 DebugView, bevor Sie sich auf Berichte verlassen",
             "Verknuepfen Sie die Google Search Console mit GA4 fuer kombinierte Abfrage- und Konversionsdaten",
             "Richten Sie den Google Tag Manager ein, wenn die native Integration Ihrer Plattform Event-Luecken hat",
           ],
+          callout: {
+            title: "Event-Konfiguration zuerst",
+            text: "Ohne korrekt konfigurierte E-Commerce-Events in GA4 sind Ihre SEO-Umsatzdaten unvollstaendig. Implementieren Sie alle fuenf Kern-Events, bevor Sie Attributionsmodelle analysieren.",
+          },
         },
         {
           title: "Organische Traffic-Segmente erstellen",
@@ -101,12 +128,21 @@ export const seoAnalyticsWithGa4: AcademyTopic = {
           title: "Organischen Umsatz und Conversions verfolgen",
           content:
             "Die Zuordnung von Umsatz zur organischen Suche erfordert das Verstaendnis der Attributionsmodelle von GA4. Standardmaessig verwendet GA4 datengesteuerte Attribution, die Conversion-Credit ueber alle Touchpoints basierend auf maschinellem Lernen verteilt. Fuer die meisten E-Commerce-Shops bietet dies ein genaueres Bild des SEO-Beitrags als Last-Click-Attribution.\n\nUm den organischen Suchumsatz zu sehen, navigieren Sie zum Werbebereich und verwenden den Modellvergleichsbericht. Vergleichen Sie datengesteuerte Attribution mit Last-Click, um zu verstehen, wie viel Umsatz die organische Suche beeinflusst versus direkt generiert.\n\nRichten Sie benutzerdefinierte Events ein, um Mikro-Conversions zu verfolgen, die auf SEO-getriebenes Engagement hinweisen. Wunschlisten-Hinzufuegungen, abgeschlossene E-Mail-Anmeldeformulare von organischen Landing Pages und die Nutzung von Produktvergleichstools sind alles Signale, dass organische Besucher mit kommerzieller Absicht interagieren.\n\nErstellen Sie einen monatlichen Bericht zum organischen Umsatz, der Gesamtumsatz aus organischem Traffic, organische Conversion-Rate, durchschnittlichen Bestellwert aus organischem Traffic und Umsatz pro organischer Sitzung verfolgt. Vergleichen Sie diese Metriken im Monats- und Jahresvergleich. F\u00fcr einen tieferen Einblick lesen Sie unseren Leitfaden zu [Ecommerce-SEO](/blog/ecommerce-seo).",
-          items: [
+                    image: {
+            src: "/images/academy/de/ga4-attribution-models.svg",
+            alt: "Vergleich der GA4-Attributionsmodelle: Letzter Klick, Erster Klick, Datengetrieben und Positionsbasiert",
+            caption: "Verschiedene Attributionsmodelle koennen den SEO-Umsatz um 20-40% veraendern. Verwenden Sie datengetriebene Attribution, wenn moeglich.",
+          },
+items: [
             "Vergleichen Sie datengesteuerte mit Last-Click-Attribution, um den vollen Umsatzeinfluss von SEO zu sehen",
             "Verfolgen Sie Mikro-Conversions wie Wunschlisten-Hinzufuegungen und E-Mail-Anmeldungen von organischen Besuchern",
             "Ueberwachen Sie die organische Conversion-Rate und den durchschnittlichen Bestellwert als Qualitaetsindikatoren",
             "Verwenden Sie Jahresvergleiche fuer saisonale Geschaefte statt Monatsvergleiche",
           ],
+          callout: {
+            title: "Mindestanforderung fuer datengetriebene Attribution",
+            text: "Das datengetriebene Modell von GA4 benoetigt mindestens 300 monatliche Conversions, um zuverlaessig zu funktionieren. Kleinere Shops sollten positionsbasierte Attribution als Naechstbestes verwenden.",
+          },
         },
         {
           title: "Haeufige GA4-Fallstricke fuer E-Commerce-SEO",
@@ -136,6 +172,15 @@ export const seoAnalyticsWithGa4: AcademyTopic = {
             "Liez Google Search Console a GA4 pour des donnees combinees de requetes et conversions",
             "Configurez Google Tag Manager si l'integration native de votre plateforme a des lacunes",
           ],
+          image: {
+            src: "/images/academy/fr/ga4-ecommerce-funnel.svg",
+            alt: "GA4 E-Commerce-Tracking-Trichter von Sitzungen ueber Produktaufrufe bis zum Kauf",
+            caption: "Konfigurieren Sie GA4 E-Commerce-Events, um jeden Schritt des Kauftrichters fuer organischen Traffic zu verfolgen.",
+          },
+          callout: {
+            title: "Event-Konfiguration zuerst",
+            text: "Ohne korrekt konfigurierte E-Commerce-Events in GA4 sind Ihre SEO-Umsatzdaten unvollstaendig. Implementieren Sie alle fuenf Kern-Events, bevor Sie Attributionsmodelle analysieren.",
+          },
         },
         {
           title: "Creer des segments de trafic organique",
@@ -164,6 +209,15 @@ export const seoAnalyticsWithGa4: AcademyTopic = {
             "Surveillez le taux de conversion organique et la valeur moyenne de commande comme indicateurs de qualite",
             "Utilisez les comparaisons annuelles pour les entreprises saisonnieres plutot que mensuelles",
           ],
+          image: {
+            src: "/images/academy/fr/ga4-attribution-models.svg",
+            alt: "Vergleich der GA4-Attributionsmodelle: Letzter Klick, Erster Klick, Datengetrieben und Positionsbasiert",
+            caption: "Verschiedene Attributionsmodelle koennen den SEO-Umsatz um 20-40% veraendern. Verwenden Sie datengetriebene Attribution, wenn moeglich.",
+          },
+          callout: {
+            title: "Mindestanforderung fuer datengetriebene Attribution",
+            text: "Das datengetriebene Modell von GA4 benoetigt mindestens 300 monatliche Conversions, um zuverlaessig zu funktionieren. Kleinere Shops sollten positionsbasierte Attribution als Naechstbestes verwenden.",
+          },
         },
         {
           title: "Pieges courants de GA4 pour le SEO e-commerce",
@@ -193,6 +247,15 @@ export const seoAnalyticsWithGa4: AcademyTopic = {
             "Vincula Google Search Console a GA4 para datos combinados de consultas y conversiones",
             "Configura Google Tag Manager si la integracion nativa de tu plataforma tiene brechas en eventos",
           ],
+          image: {
+            src: "/images/academy/es/ga4-ecommerce-funnel.svg",
+            alt: "GA4 E-Commerce-Tracking-Trichter von Sitzungen ueber Produktaufrufe bis zum Kauf",
+            caption: "Konfigurieren Sie GA4 E-Commerce-Events, um jeden Schritt des Kauftrichters fuer organischen Traffic zu verfolgen.",
+          },
+          callout: {
+            title: "Event-Konfiguration zuerst",
+            text: "Ohne korrekt konfigurierte E-Commerce-Events in GA4 sind Ihre SEO-Umsatzdaten unvollstaendig. Implementieren Sie alle fuenf Kern-Events, bevor Sie Attributionsmodelle analysieren.",
+          },
         },
         {
           title: "Crear segmentos de trafico organico",
@@ -221,6 +284,15 @@ export const seoAnalyticsWithGa4: AcademyTopic = {
             "Monitorea la tasa de conversion organica y el valor medio de pedido como indicadores de calidad",
             "Usa comparaciones anuales para negocios estacionales en lugar de mensuales",
           ],
+          image: {
+            src: "/images/academy/es/ga4-attribution-models.svg",
+            alt: "Vergleich der GA4-Attributionsmodelle: Letzter Klick, Erster Klick, Datengetrieben und Positionsbasiert",
+            caption: "Verschiedene Attributionsmodelle koennen den SEO-Umsatz um 20-40% veraendern. Verwenden Sie datengetriebene Attribution, wenn moeglich.",
+          },
+          callout: {
+            title: "Mindestanforderung fuer datengetriebene Attribution",
+            text: "Das datengetriebene Modell von GA4 benoetigt mindestens 300 monatliche Conversions, um zuverlaessig zu funktionieren. Kleinere Shops sollten positionsbasierte Attribution als Naechstbestes verwenden.",
+          },
         },
         {
           title: "Errores comunes de GA4 para SEO de ecommerce",
@@ -250,6 +322,15 @@ export const seoAnalyticsWithGa4: AcademyTopic = {
             "Collega Google Search Console a GA4 per dati combinati di query e conversioni",
             "Configura Google Tag Manager se l'integrazione nativa della tua piattaforma ha lacune negli eventi",
           ],
+          image: {
+            src: "/images/academy/it/ga4-ecommerce-funnel.svg",
+            alt: "GA4 E-Commerce-Tracking-Trichter von Sitzungen ueber Produktaufrufe bis zum Kauf",
+            caption: "Konfigurieren Sie GA4 E-Commerce-Events, um jeden Schritt des Kauftrichters fuer organischen Traffic zu verfolgen.",
+          },
+          callout: {
+            title: "Event-Konfiguration zuerst",
+            text: "Ohne korrekt konfigurierte E-Commerce-Events in GA4 sind Ihre SEO-Umsatzdaten unvollstaendig. Implementieren Sie alle fuenf Kern-Events, bevor Sie Attributionsmodelle analysieren.",
+          },
         },
         {
           title: "Creare segmenti di traffico organico",
@@ -278,6 +359,15 @@ export const seoAnalyticsWithGa4: AcademyTopic = {
             "Monitora il tasso di conversione organico e il valore medio dell'ordine come indicatori di qualita",
             "Usa confronti annuali per i business stagionali invece che mensili",
           ],
+          image: {
+            src: "/images/academy/it/ga4-attribution-models.svg",
+            alt: "Vergleich der GA4-Attributionsmodelle: Letzter Klick, Erster Klick, Datengetrieben und Positionsbasiert",
+            caption: "Verschiedene Attributionsmodelle koennen den SEO-Umsatz um 20-40% veraendern. Verwenden Sie datengetriebene Attribution, wenn moeglich.",
+          },
+          callout: {
+            title: "Mindestanforderung fuer datengetriebene Attribution",
+            text: "Das datengetriebene Modell von GA4 benoetigt mindestens 300 monatliche Conversions, um zuverlaessig zu funktionieren. Kleinere Shops sollten positionsbasierte Attribution als Naechstbestes verwenden.",
+          },
         },
         {
           title: "Errori comuni di GA4 per il SEO e-commerce",
@@ -307,6 +397,15 @@ export const seoAnalyticsWithGa4: AcademyTopic = {
             "Koppel Google Search Console aan GA4 voor gecombineerde zoekopdracht- en conversiedata",
             "Stel Google Tag Manager in als de native integratie van je platform hiaten heeft in events",
           ],
+          image: {
+            src: "/images/academy/nl/ga4-ecommerce-funnel.svg",
+            alt: "GA4 E-Commerce-Tracking-Trichter von Sitzungen ueber Produktaufrufe bis zum Kauf",
+            caption: "Konfigurieren Sie GA4 E-Commerce-Events, um jeden Schritt des Kauftrichters fuer organischen Traffic zu verfolgen.",
+          },
+          callout: {
+            title: "Event-Konfiguration zuerst",
+            text: "Ohne korrekt konfigurierte E-Commerce-Events in GA4 sind Ihre SEO-Umsatzdaten unvollstaendig. Implementieren Sie alle fuenf Kern-Events, bevor Sie Attributionsmodelle analysieren.",
+          },
         },
         {
           title: "Organische verkeerssegmenten opbouwen",
@@ -335,6 +434,15 @@ export const seoAnalyticsWithGa4: AcademyTopic = {
             "Monitor het organische conversiepercentage en de gemiddelde orderwaarde als kwaliteitsindicatoren",
             "Gebruik jaar-op-jaar vergelijkingen voor seizoensgebonden bedrijven in plaats van maand-op-maand",
           ],
+          image: {
+            src: "/images/academy/nl/ga4-attribution-models.svg",
+            alt: "Vergleich der GA4-Attributionsmodelle: Letzter Klick, Erster Klick, Datengetrieben und Positionsbasiert",
+            caption: "Verschiedene Attributionsmodelle koennen den SEO-Umsatz um 20-40% veraendern. Verwenden Sie datengetriebene Attribution, wenn moeglich.",
+          },
+          callout: {
+            title: "Mindestanforderung fuer datengetriebene Attribution",
+            text: "Das datengetriebene Modell von GA4 benoetigt mindestens 300 monatliche Conversions, um zuverlaessig zu funktionieren. Kleinere Shops sollten positionsbasierte Attribution als Naechstbestes verwenden.",
+          },
         },
         {
           title: "Veelvoorkomende GA4-valkuilen voor e-commerce SEO",

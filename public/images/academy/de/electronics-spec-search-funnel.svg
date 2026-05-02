@@ -1,0 +1,16 @@
+<svg viewBox="0 0 420 260" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <text x="210" y="20" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#a78bfa">Spezifikationsgetriebener Suchtrichter</text>
+  <!-- Funnel layers -->
+  <polygon points="60,45 360,45 330,95 90,95" fill="#a78bfa" opacity="0.15" stroke="#a78bfa" stroke-width="1.5"/>
+  <text x="210" y="75" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#e2e8f0">"bester Gaming-Monitor" — Breit</text>
+  <polygon points="90,100 330,100 310,150 110,150" fill="#60a5fa" opacity="0.15" stroke="#60a5fa" stroke-width="1.5"/>
+  <text x="210" y="130" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#e2e8f0">"27-Zoll 4K 144Hz Monitor" — Spez.-gefiltert</text>
+  <polygon points="110,155 310,155 290,205 130,205" fill="#4ade80" opacity="0.15" stroke="#4ade80" stroke-width="1.5"/>
+  <text x="210" y="185" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#e2e8f0">"LG 27GP950-B Bewertung" — Modellspezifisch</text>
+  <polygon points="130,210 290,210 270,250 150,250" fill="#f97316" opacity="0.15" stroke="#f97316" stroke-width="1.5"/>
+  <text x="210" y="237" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#f97316">Kauf — Höchste Kaufabsicht</text>
+  <!-- Arrows -->
+  <line x1="370" y1="70" x2="370" y2="230" stroke="#a78bfa" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <polygon points="366,226 370,238 374,226" fill="#a78bfa"/>
+  <text x="395" y="155" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#a78bfa" transform="rotate(90,395,155)">Steigende Kaufabsicht</text>
+</svg>

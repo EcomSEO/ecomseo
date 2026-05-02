@@ -1,0 +1,32 @@
+<svg viewBox="0 0 680 320" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <text x="340" y="28" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#a78bfa">Content Strategy Beyond Product Pages</text>
+  <g transform="translate(40,55)">
+    <rect x="0" y="0" width="600" height="48" rx="6" stroke="#4ade80" stroke-width="2" fill="none"/>
+    <text x="20" y="20" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#4ade80">Buying Guides</text>
+    <text x="20" y="38" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Highest ROI content type -- targets commercial intent -- links to categories and products</text>
+    <text x="560" y="30" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#4ade80">$$$</text>
+  </g>
+  <line x1="340" y1="103" x2="340" y2="115" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="4"/>
+  <g transform="translate(40,115)">
+    <rect x="0" y="0" width="600" height="48" rx="6" stroke="#60a5fa" stroke-width="2" fill="none"/>
+    <text x="20" y="20" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#60a5fa">Comparison Content</text>
+    <text x="20" y="38" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Mid-funnel searchers narrowing options -- captures traffic from review sites</text>
+    <text x="560" y="30" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#60a5fa">$$</text>
+  </g>
+  <line x1="340" y1="163" x2="340" y2="175" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="4"/>
+  <g transform="translate(40,175)">
+    <rect x="0" y="0" width="600" height="48" rx="6" stroke="#f97316" stroke-width="2" fill="none"/>
+    <text x="20" y="20" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#f97316">How-To and Educational</text>
+    <text x="20" y="38" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Top-of-funnel awareness -- builds topical authority and attracts links</text>
+    <text x="560" y="30" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#f97316">$</text>
+  </g>
+  <line x1="340" y1="223" x2="340" y2="235" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="4"/>
+  <g transform="translate(40,235)">
+    <rect x="0" y="0" width="600" height="48" rx="6" stroke="#f472b6" stroke-width="2" fill="none"/>
+    <text x="20" y="20" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#f472b6">FAQ and Support Content</text>
+    <text x="20" y="38" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Reduces support load -- targets long-tail queries -- earns featured snippets</text>
+    <text x="560" y="30" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#f472b6">$</text>
+  </g>
+  <line x1="40" y1="300" x2="640" y2="300" stroke="#a78bfa" stroke-width="1" stroke-dasharray="4"/>
+  <text x="340" y="316" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#a78bfa">Only optimizing product pages captures a fraction of your potential audience</text>
+</svg>

@@ -28,24 +28,42 @@ export const seoTaskPlanning: AcademyTopic = {
           title: "The Impact-Effort Matrix for Ecommerce SEO",
           content:
             "Plot every SEO task on a two-by-two grid. The vertical axis is impact: how much traffic or revenue growth this task can realistically produce. The horizontal axis is effort: how many hours, how many people, and how many dependencies are involved. This gives you four quadrants that dictate your execution order.\n\nHigh impact, low effort: these are your quick wins and they should be done first. Examples include adding structured data to your top category pages, fixing crawl errors on high-traffic URLs, updating title tags on product pages that rank positions 4-10 for high-volume keywords, and compressing oversized images on your homepage. A store selling outdoor gear might notice their \"hiking boots\" category page ranks position 7 for a 12,000 monthly search volume keyword with a generic title tag. Rewriting that title tag takes 10 minutes and could push the page up 2-3 positions.\n\nHigh impact, high effort: these are strategic projects that need proper planning. Rebuilding your site architecture, launching a content hub around your core product categories, or migrating to a faster hosting setup. These go into your quarterly roadmap with clear milestones.\n\nLow impact, low effort: batch these into maintenance sprints. Fixing alt tags, cleaning up redirect chains, updating copyright years in footers. Do them, but never at the expense of higher-impact work.\n\nLow impact, high effort: question whether these belong on the list at all. Rewriting 300 product descriptions that get 5 visits per month each, or building a complex filtering system for a category with minimal search demand. Often the right answer is to skip them entirely.",
+          image: {
+            src: "/images/academy/impact-effort-matrix.svg",
+            alt: "Two-by-two impact-effort matrix for SEO tasks showing four quadrants: quick wins, strategic projects, maintenance, and skip or defer",
+            caption: "Plot every SEO task on this matrix. Quick wins go first, strategic projects get quarterly planning, maintenance gets batched, and low-impact high-effort tasks get removed.",
+          },
           items: [
             "Quick wins (high impact, low effort): execute immediately, aim to complete 3-5 per week",
             "Strategic projects (high impact, high effort): plan quarterly, break into 2-week milestones",
             "Maintenance tasks (low impact, low effort): batch into a dedicated half-day per week",
             "Questionable tasks (low impact, high effort): remove from the backlog or revisit in 6 months",
           ],
+          callout: {
+            title: "10-Minute Win",
+            text: "Rewriting a generic title tag on a category page ranking position 7 for a 12,000-search keyword takes 10 minutes and can push it up 2-3 positions. That single quick win may generate more traffic than fixing 200 alt tags.",
+          },
           tip: "When scoring effort, include dependencies. A title tag change that needs approval from the brand team, legal review, and a developer deployment is not a low-effort task regardless of how simple the actual writing is.",
         },
         {
           title: "Building an SEO Sprint System",
           content:
-            "Borrowing sprint methodology from product development works well for SEO because it forces you to commit to specific deliverables within fixed timeframes instead of maintaining an ever-growing to-do list that never gets finished.\n\nWeekly sprints handle tactical execution. Each Monday, pick 3-5 tasks from your prioritized backlog. These should be completable within the week by the people available. A typical weekly sprint for a mid-size ecommerce store might include: optimize title tags and descriptions for 10 category pages, publish one buying guide targeting a specific keyword cluster, fix the 5 highest-priority technical issues from your last crawl report, and submit updated sitemaps after product catalog changes.\n\nMonthly cycles handle review and adjustment. At the end of each month, review what got done, what the early performance signals look like, and what needs to shift. If you spent the last month optimizing category pages and impressions for those pages are climbing in Search Console, you have validation to continue. If nothing moved, dig into why before repeating the same approach.\n\nQuarterly planning handles strategic direction. This is where you decide the big themes: are you focusing on technical debt, content expansion, link building, or conversion optimization for the next quarter? Base these decisions on where your biggest organic growth gaps are, informed by a thorough [SEO audit](/seo-audit). A store that ranks well but has a 0.8% organic conversion rate probably needs conversion work more than more traffic.\n\nKeep a simple tracking sheet with columns for task description, assigned owner, sprint week, status, and outcome metric. Fancy project management tools are fine but a shared spreadsheet works just as well. The tracking habit matters more than the tool.",
+            "Borrowing sprint methodology from product development works well for SEO because it forces you to commit to specific deliverables within fixed timeframes instead of maintaining an ever-growing to-do list that never gets finished.\n\nWeekly sprints handle tactical execution. Each Monday, pick 3-5 tasks from your prioritized backlog. These should be completable within the week by the people available. A typical weekly sprint for a mid-size ecommerce store might include: optimize title tags and descriptions for 10 category pages, publish one buying guide targeting a specific keyword cluster, fix the 5 highest-priority technical issues from your last crawl report, and submit updated sitemaps after product catalog changes.\n\nMonthly cycles handle review and adjustment. At the end of each month, review what got done, what the early performance signals look like, and what needs to shift. If you spent the last month optimizing category pages and impressions for those pages are climbing in Search Console, you have validation to continue. If nothing moved, dig into why before repeating the same approach.\n\nQuarterly planning handles strategic direction. This is where you decide the big themes: are you focusing on technical debt, content expansion, link building, or conversion optimization for the next quarter? Base these decisions on where your biggest organic growth gaps are, informed by a thorough [SEO audit](/tools/ecommerce-seo-audit). A store that ranks well but has a 0.8% organic conversion rate probably needs conversion work more than more traffic.\n\nKeep a simple tracking sheet with columns for task description, assigned owner, sprint week, status, and outcome metric. Fancy project management tools are fine but a shared spreadsheet works just as well. The tracking habit matters more than the tool.",
+          image: {
+            src: "/images/academy/seo-sprint-cadence.svg",
+            alt: "Diagram showing three-tier SEO sprint system: weekly sprints for tactical tasks, monthly reviews for re-prioritization, and quarterly planning for strategic direction",
+            caption: "Three cadences drive SEO execution: weekly sprints for tactics, monthly reviews for course correction, and quarterly planning for strategic themes.",
+          },
           items: [
             "Run weekly sprints with 3-5 committed tasks that have clear owners and deadlines",
             "Hold a 30-minute monthly review to assess what worked and re-prioritize the backlog",
             "Set quarterly strategic themes based on your largest organic growth opportunities",
             "Track every completed task with its expected metric so you can measure outcomes later",
           ],
+          callout: {
+            title: "Sprint Over Backlog",
+            text: "A typical weekly sprint for a mid-size store: optimize 10 category title tags, publish 1 buying guide, fix 5 top technical issues, and update sitemaps. Committing to 3-5 tasks beats maintaining an ever-growing to-do list.",
+          },
         },
         {
           title: "Connecting Tasks to Traffic and Revenue Outcomes",
@@ -101,24 +119,42 @@ export const seoTaskPlanning: AcademyTopic = {
           title: "Die Impact-Aufwand-Matrix fuer E-Commerce-SEO",
           content:
             "Tragen Sie jede SEO-Aufgabe in ein Zwei-mal-Zwei-Raster ein. Die vertikale Achse ist Impact: wie viel Traffic- oder Umsatzwachstum diese Aufgabe realistisch erzeugen kann. Die horizontale Achse ist Aufwand: wie viele Stunden, wie viele Personen und wie viele Abhaengigkeiten sind beteiligt. Das ergibt vier Quadranten, die Ihre Ausfuehrungsreihenfolge bestimmen.\n\nHoher Impact, geringer Aufwand: Das sind Ihre Quick Wins und sie sollten zuerst erledigt werden. Beispiele sind das Hinzufuegen strukturierter Daten zu Ihren Top-Kategorieseiten, das Beheben von Crawl-Fehlern bei hochfrequentierten URLs, das Aktualisieren von Title-Tags bei Produktseiten, die auf Position 4-10 fuer volumenstarke Keywords ranken, und das Komprimieren uebergrosser Bilder auf Ihrer Startseite. Ein Shop fuer Outdoor-Ausruestung koennte bemerken, dass seine Kategorieseite fuer Wanderschuhe auf Position 7 fuer ein Keyword mit 12.000 monatlichem Suchvolumen rankt, mit einem generischen Title-Tag. Das Umschreiben dieses Title-Tags dauert 10 Minuten und koennte die Seite um 2-3 Positionen nach oben bringen.\n\nHoher Impact, hoher Aufwand: Das sind strategische Projekte, die ordentliche Planung brauchen. Umbau Ihrer Website-Architektur, Start eines Content-Hubs rund um Ihre Kernproduktkategorien oder Migration zu einem schnelleren Hosting-Setup. Diese gehen in Ihre Quartals-Roadmap mit klaren Meilensteinen.\n\nGeringer Impact, geringer Aufwand: Buendeln Sie diese in Wartungssprints. Alt-Tags beheben, Redirect-Ketten bereinigen, Copyright-Jahre in Footern aktualisieren. Erledigen Sie sie, aber nie auf Kosten hoeherwertiger Arbeit.\n\nGeringer Impact, hoher Aufwand: Hinterfragen Sie, ob diese ueberhaupt auf die Liste gehoeren. 300 Produktbeschreibungen umschreiben, die jeweils 5 Besuche pro Monat erhalten, oder ein komplexes Filtersystem fuer eine Kategorie mit minimaler Suchnachfrage bauen. Oft ist die richtige Antwort, sie komplett zu ueberspringen.",
-          items: [
+                    image: {
+            src: "/images/academy/de/impact-effort-matrix.svg",
+            alt: "SEO Wirkungs-Aufwands-Matrix mit vier Quadranten: Schnelle Erfolge, Grosse Projekte, Lueckenfueller und Undankbare Aufgaben",
+            caption: "Priorisieren Sie SEO-Aufgaben nach Wirkung und Aufwand. Beginnen Sie mit schnellen Erfolgen, dann planen Sie grosse Projekte.",
+          },
+items: [
             "Quick Wins (hoher Impact, geringer Aufwand): sofort umsetzen, 3-5 pro Woche anstreben",
             "Strategische Projekte (hoher Impact, hoher Aufwand): quartalsweise planen, in 2-Wochen-Meilensteine aufteilen",
             "Wartungsaufgaben (geringer Impact, geringer Aufwand): in einen dedizierten halben Tag pro Woche buendeln",
             "Fragwuerdige Aufgaben (geringer Impact, hoher Aufwand): aus dem Backlog entfernen oder in 6 Monaten ueberpruefen",
           ],
+          callout: {
+            title: "Priorisierungsfalle",
+            text: "Die meisten SEO-Teams verbringen zu viel Zeit mit undankbaren Aufgaben (hoher Aufwand, geringe Wirkung) und verpassen schnelle Erfolge, die innerhalb von Wochen statt Monaten Ergebnisse liefern.",
+          },
           tip: "Beruecksichtigen Sie bei der Aufwandsbewertung Abhaengigkeiten. Eine Title-Tag-Aenderung, die die Freigabe vom Markenteam, juristische Pruefung und ein Developer-Deployment braucht, ist keine Aufgabe mit geringem Aufwand, egal wie einfach das eigentliche Schreiben ist.",
         },
         {
           title: "Ein SEO-Sprint-System aufbauen",
           content:
-            "Die Sprint-Methodik aus der Produktentwicklung funktioniert gut fuer SEO, weil sie Sie zwingt, sich auf konkrete Ergebnisse innerhalb fester Zeitrahmen festzulegen, anstatt eine staendig wachsende To-do-Liste zu pflegen, die nie fertig wird.\n\nWochensprints erledigen die taktische Ausfuehrung. Jeden Montag waehlen Sie 3-5 Aufgaben aus Ihrem priorisierten Backlog. Diese sollten innerhalb der Woche von den verfuegbaren Personen abschliessbar sein. Ein typischer Wochensprint fuer einen mittelgrossen E-Commerce-Shop koennte umfassen: Title-Tags und Descriptions fuer 10 Kategorieseiten optimieren, einen Kaufratgeber zu einem bestimmten Keyword-Cluster veroeffentlichen, die 5 hoechstpriorisierten technischen Probleme aus dem letzten Crawl-Bericht beheben und aktualisierte Sitemaps nach Produktkatalogaenderungen einreichen.\n\nMonatliche Zyklen dienen der Ueberpruefung und Anpassung. Am Ende jedes Monats ueberpruefen Sie, was erledigt wurde, wie die fruehen Leistungssignale aussehen und was sich aendern muss. Wenn Sie den letzten Monat mit der Optimierung von Kategorieseiten verbracht haben und die Impressionen fuer diese Seiten in der Search Console steigen, haben Sie eine Bestaetigung, weiterzumachen.\n\nQuartalsplanung bestimmt die strategische Richtung. Hier entscheiden Sie die grossen Themen: Konzentrieren Sie sich im naechsten Quartal auf technische Schulden, Content-Erweiterung, Linkaufbau oder Conversion-Optimierung? Basieren Sie diese Entscheidungen darauf, wo Ihre groessten organischen Wachstumsluecken liegen. Weitere Informationen finden Sie in unserem Leitfaden zu [SEO-Audit](/seo-audit).\n\nFuehren Sie eine einfache Tracking-Tabelle mit Spalten fuer Aufgabenbeschreibung, zustaendige Person, Sprint-Woche, Status und Ergebnis-Metrik. Ausgefeilte Projektmanagement-Tools sind in Ordnung, aber eine geteilte Tabelle funktioniert genauso gut. Die Tracking-Gewohnheit zaehlt mehr als das Tool.",
-          items: [
+            "Die Sprint-Methodik aus der Produktentwicklung funktioniert gut fuer SEO, weil sie Sie zwingt, sich auf konkrete Ergebnisse innerhalb fester Zeitrahmen festzulegen, anstatt eine staendig wachsende To-do-Liste zu pflegen, die nie fertig wird.\n\nWochensprints erledigen die taktische Ausfuehrung. Jeden Montag waehlen Sie 3-5 Aufgaben aus Ihrem priorisierten Backlog. Diese sollten innerhalb der Woche von den verfuegbaren Personen abschliessbar sein. Ein typischer Wochensprint fuer einen mittelgrossen E-Commerce-Shop koennte umfassen: Title-Tags und Descriptions fuer 10 Kategorieseiten optimieren, einen Kaufratgeber zu einem bestimmten Keyword-Cluster veroeffentlichen, die 5 hoechstpriorisierten technischen Probleme aus dem letzten Crawl-Bericht beheben und aktualisierte Sitemaps nach Produktkatalogaenderungen einreichen.\n\nMonatliche Zyklen dienen der Ueberpruefung und Anpassung. Am Ende jedes Monats ueberpruefen Sie, was erledigt wurde, wie die fruehen Leistungssignale aussehen und was sich aendern muss. Wenn Sie den letzten Monat mit der Optimierung von Kategorieseiten verbracht haben und die Impressionen fuer diese Seiten in der Search Console steigen, haben Sie eine Bestaetigung, weiterzumachen.\n\nQuartalsplanung bestimmt die strategische Richtung. Hier entscheiden Sie die grossen Themen: Konzentrieren Sie sich im naechsten Quartal auf technische Schulden, Content-Erweiterung, Linkaufbau oder Conversion-Optimierung? Basieren Sie diese Entscheidungen darauf, wo Ihre groessten organischen Wachstumsluecken liegen. Weitere Informationen finden Sie in unserem Leitfaden zu [SEO-Audit](/tools/ecommerce-seo-audit).\n\nFuehren Sie eine einfache Tracking-Tabelle mit Spalten fuer Aufgabenbeschreibung, zustaendige Person, Sprint-Woche, Status und Ergebnis-Metrik. Ausgefeilte Projektmanagement-Tools sind in Ordnung, aber eine geteilte Tabelle funktioniert genauso gut. Die Tracking-Gewohnheit zaehlt mehr als das Tool.",
+                    image: {
+            src: "/images/academy/de/seo-sprint-cadence.svg",
+            alt: "SEO-Sprint-Rhythmus ueber vier Wochen: Audit, Umsetzung, Ueberpruefung und Berichterstellung",
+            caption: "Ein monatlicher Sprint-Rhythmus haelt SEO-Arbeit fokussiert und liefert regelmaessige Ergebnisse fuer Stakeholder.",
+          },
+items: [
             "Fuehren Sie Wochensprints mit 3-5 festgelegten Aufgaben mit klaren Verantwortlichen und Deadlines durch",
             "Halten Sie eine 30-minuetige monatliche Ueberpruefung ab, um zu bewerten, was funktioniert hat und das Backlog neu zu priorisieren",
             "Setzen Sie quartalsweise strategische Themen basierend auf Ihren groessten organischen Wachstumschancen",
             "Verfolgen Sie jede abgeschlossene Aufgabe mit ihrer erwarteten Metrik, damit Sie Ergebnisse spaeter messen koennen",
           ],
+          callout: {
+            title: "Sprint-Disziplin",
+            text: "Widerstehen Sie der Versuchung, Sprintaufgaben mittendrin zu aendern. Neue dringende Anfragen kommen in den Backlog fuer den naechsten Sprint, es sei denn, sie sind wirklich kritisch fuer den Umsatz.",
+          },
         },
         {
           title: "Aufgaben mit Traffic- und Umsatzergebnissen verknuepfen",
@@ -181,17 +217,35 @@ export const seoTaskPlanning: AcademyTopic = {
             "Taches discutables (faible impact, fort effort) : retirez du backlog ou revisitez dans 6 mois",
           ],
           tip: "Lors de l'evaluation de l'effort, incluez les dependances. Une modification de balise title qui necessite l'approbation de l'equipe marque, une revision juridique et un deploiement par un developpeur n'est pas une tache a faible effort, quelle que soit la simplicite de la redaction elle-meme.",
+          image: {
+            src: "/images/academy/fr/impact-effort-matrix.svg",
+            alt: "SEO Wirkungs-Aufwands-Matrix mit vier Quadranten: Schnelle Erfolge, Grosse Projekte, Lueckenfueller und Undankbare Aufgaben",
+            caption: "Priorisieren Sie SEO-Aufgaben nach Wirkung und Aufwand. Beginnen Sie mit schnellen Erfolgen, dann planen Sie grosse Projekte.",
+          },
+          callout: {
+            title: "Priorisierungsfalle",
+            text: "Die meisten SEO-Teams verbringen zu viel Zeit mit undankbaren Aufgaben (hoher Aufwand, geringe Wirkung) und verpassen schnelle Erfolge, die innerhalb von Wochen statt Monaten Ergebnisse liefern.",
+          },
         },
         {
           title: "Construire un systeme de sprints SEO",
           content:
-            "Emprunter la methodologie de sprint au developpement produit fonctionne bien pour le SEO parce qu'elle vous force a vous engager sur des livrables specifiques dans des delais fixes au lieu de maintenir une liste de taches toujours croissante qui n'est jamais terminee.\n\nLes sprints hebdomadaires gerent l'execution tactique. Chaque lundi, choisissez 3 a 5 taches de votre backlog priorise. Celles-ci doivent etre realisables dans la semaine par les personnes disponibles. Un sprint hebdomadaire typique pour un magasin e-commerce de taille moyenne pourrait inclure : optimiser les balises title et descriptions pour 10 pages de categories, publier un guide d'achat ciblant un cluster de mots-cles specifique, corriger les 5 problemes techniques les plus prioritaires du dernier rapport de crawl, et soumettre des sitemaps mis a jour apres des changements du catalogue produits.\n\nLes cycles mensuels gerent la revision et l'ajustement. A la fin de chaque mois, examinez ce qui a ete fait, a quoi ressemblent les premiers signaux de performance et ce qui doit changer. Si vous avez passe le dernier mois a optimiser des pages de categories et que les impressions pour ces pages augmentent dans la Search Console, vous avez la validation pour continuer.\n\nLa planification trimestrielle gere la direction strategique. C'est la que vous decidez des grands themes : vous concentrez-vous sur la dette technique, l'expansion du contenu, le link building ou l'optimisation des conversions pour le prochain trimestre ? Basez ces decisions sur vos plus grandes lacunes de croissance organique.\n\nTenez un simple tableau de suivi avec des colonnes pour la description de la tache, le responsable assigne, la semaine du sprint, le statut et la metrique de resultat. Les outils de gestion de projet elabores sont acceptables, mais un tableur partage fonctionne tout aussi bien. L'habitude de suivi compte plus que l'outil. C'est ici que vous décidez des grands thèmes : vous concentrez-vous sur la dette technique, l'expansion du contenu, le link building ou l'optimisation des conversions pour le prochain trimestre ? Basez ces décisions sur vos plus grands écarts de croissance organique, informés par un [audit SEO](/seo-audit) approfondi.",
+            "Emprunter la methodologie de sprint au developpement produit fonctionne bien pour le SEO parce qu'elle vous force a vous engager sur des livrables specifiques dans des delais fixes au lieu de maintenir une liste de taches toujours croissante qui n'est jamais terminee.\n\nLes sprints hebdomadaires gerent l'execution tactique. Chaque lundi, choisissez 3 a 5 taches de votre backlog priorise. Celles-ci doivent etre realisables dans la semaine par les personnes disponibles. Un sprint hebdomadaire typique pour un magasin e-commerce de taille moyenne pourrait inclure : optimiser les balises title et descriptions pour 10 pages de categories, publier un guide d'achat ciblant un cluster de mots-cles specifique, corriger les 5 problemes techniques les plus prioritaires du dernier rapport de crawl, et soumettre des sitemaps mis a jour apres des changements du catalogue produits.\n\nLes cycles mensuels gerent la revision et l'ajustement. A la fin de chaque mois, examinez ce qui a ete fait, a quoi ressemblent les premiers signaux de performance et ce qui doit changer. Si vous avez passe le dernier mois a optimiser des pages de categories et que les impressions pour ces pages augmentent dans la Search Console, vous avez la validation pour continuer.\n\nLa planification trimestrielle gere la direction strategique. C'est la que vous decidez des grands themes : vous concentrez-vous sur la dette technique, l'expansion du contenu, le link building ou l'optimisation des conversions pour le prochain trimestre ? Basez ces decisions sur vos plus grandes lacunes de croissance organique.\n\nTenez un simple tableau de suivi avec des colonnes pour la description de la tache, le responsable assigne, la semaine du sprint, le statut et la metrique de resultat. Les outils de gestion de projet elabores sont acceptables, mais un tableur partage fonctionne tout aussi bien. L'habitude de suivi compte plus que l'outil. C'est ici que vous décidez des grands thèmes : vous concentrez-vous sur la dette technique, l'expansion du contenu, le link building ou l'optimisation des conversions pour le prochain trimestre ? Basez ces décisions sur vos plus grands écarts de croissance organique, informés par un [audit SEO](/tools/ecommerce-seo-audit) approfondi.",
           items: [
             "Executez des sprints hebdomadaires avec 3-5 taches engagees ayant des responsables et des delais clairs",
             "Tenez une revue mensuelle de 30 minutes pour evaluer ce qui a fonctionne et reprioriser le backlog",
             "Definissez des themes strategiques trimestriels bases sur vos plus grandes opportunites de croissance organique",
             "Suivez chaque tache completee avec sa metrique attendue pour pouvoir mesurer les resultats plus tard",
           ],
+          image: {
+            src: "/images/academy/fr/seo-sprint-cadence.svg",
+            alt: "SEO-Sprint-Rhythmus ueber vier Wochen: Audit, Umsetzung, Ueberpruefung und Berichterstellung",
+            caption: "Ein monatlicher Sprint-Rhythmus haelt SEO-Arbeit fokussiert und liefert regelmaessige Ergebnisse fuer Stakeholder.",
+          },
+          callout: {
+            title: "Sprint-Disziplin",
+            text: "Widerstehen Sie der Versuchung, Sprintaufgaben mittendrin zu aendern. Neue dringende Anfragen kommen in den Backlog fuer den naechsten Sprint, es sei denn, sie sind wirklich kritisch fuer den Umsatz.",
+          },
         },
         {
           title: "Relier les taches aux resultats de trafic et de revenus",
@@ -254,17 +308,35 @@ export const seoTaskPlanning: AcademyTopic = {
             "Tareas cuestionables (bajo impacto, alto esfuerzo): elimina del backlog o revisita en 6 meses",
           ],
           tip: "Al evaluar el esfuerzo, incluye las dependencias. Un cambio de etiqueta de titulo que necesita aprobacion del equipo de marca, revision legal y despliegue por un desarrollador no es una tarea de bajo esfuerzo sin importar lo simple que sea la redaccion en si.",
+          image: {
+            src: "/images/academy/es/impact-effort-matrix.svg",
+            alt: "SEO Wirkungs-Aufwands-Matrix mit vier Quadranten: Schnelle Erfolge, Grosse Projekte, Lueckenfueller und Undankbare Aufgaben",
+            caption: "Priorisieren Sie SEO-Aufgaben nach Wirkung und Aufwand. Beginnen Sie mit schnellen Erfolgen, dann planen Sie grosse Projekte.",
+          },
+          callout: {
+            title: "Priorisierungsfalle",
+            text: "Die meisten SEO-Teams verbringen zu viel Zeit mit undankbaren Aufgaben (hoher Aufwand, geringe Wirkung) und verpassen schnelle Erfolge, die innerhalb von Wochen statt Monaten Ergebnisse liefern.",
+          },
         },
         {
           title: "Construir un sistema de sprints SEO",
           content:
-            "Tomar prestada la metodologia de sprints del desarrollo de producto funciona bien para SEO porque te obliga a comprometerte con entregables especificos dentro de plazos fijos en lugar de mantener una lista de tareas que siempre crece y nunca se termina.\n\nLos sprints semanales manejan la ejecucion tactica. Cada lunes, elige 3-5 tareas de tu backlog priorizado. Estas deben ser completables dentro de la semana por las personas disponibles. Un sprint semanal tipico para una tienda e-commerce de tamano medio podria incluir: optimizar etiquetas de titulo y descripciones para 10 paginas de categorias, publicar una guia de compra dirigida a un cluster de palabras clave especifico, corregir los 5 problemas tecnicos de mayor prioridad del ultimo informe de rastreo, y enviar sitemaps actualizados despues de cambios en el catalogo de productos.\n\nLos ciclos mensuales manejan la revision y el ajuste. Al final de cada mes, revisa lo que se hizo, como se ven las senales tempranas de rendimiento y que necesita cambiar. Si pasaste el ultimo mes optimizando paginas de categorias y las impresiones para esas paginas estan subiendo en Search Console, tienes validacion para continuar.\n\nLa planificacion trimestral maneja la direccion estrategica. Aqui es donde decides los grandes temas: te concentras en deuda tecnica, expansion de contenido, link building u optimizacion de conversiones para el proximo trimestre. Basa estas decisiones en donde estan tus mayores brechas de crecimiento organico.\n\nManten una hoja de seguimiento simple con columnas para descripcion de la tarea, responsable asignado, semana del sprint, estado y metrica de resultado. Las herramientas de gestion de proyectos sofisticadas estan bien, pero una hoja de calculo compartida funciona igual de bien. El habito de seguimiento importa mas que la herramienta. Aqui es donde decides los grandes temas: te centras en deuda tecnica, expansion de contenido, link building o optimizacion de conversion para el proximo trimestre? Basa estas decisiones en donde estan tus mayores brechas de crecimiento organico, informadas por una [auditoria SEO](/seo-audit) exhaustiva.",
+            "Tomar prestada la metodologia de sprints del desarrollo de producto funciona bien para SEO porque te obliga a comprometerte con entregables especificos dentro de plazos fijos en lugar de mantener una lista de tareas que siempre crece y nunca se termina.\n\nLos sprints semanales manejan la ejecucion tactica. Cada lunes, elige 3-5 tareas de tu backlog priorizado. Estas deben ser completables dentro de la semana por las personas disponibles. Un sprint semanal tipico para una tienda e-commerce de tamano medio podria incluir: optimizar etiquetas de titulo y descripciones para 10 paginas de categorias, publicar una guia de compra dirigida a un cluster de palabras clave especifico, corregir los 5 problemas tecnicos de mayor prioridad del ultimo informe de rastreo, y enviar sitemaps actualizados despues de cambios en el catalogo de productos.\n\nLos ciclos mensuales manejan la revision y el ajuste. Al final de cada mes, revisa lo que se hizo, como se ven las senales tempranas de rendimiento y que necesita cambiar. Si pasaste el ultimo mes optimizando paginas de categorias y las impresiones para esas paginas estan subiendo en Search Console, tienes validacion para continuar.\n\nLa planificacion trimestral maneja la direccion estrategica. Aqui es donde decides los grandes temas: te concentras en deuda tecnica, expansion de contenido, link building u optimizacion de conversiones para el proximo trimestre. Basa estas decisiones en donde estan tus mayores brechas de crecimiento organico.\n\nManten una hoja de seguimiento simple con columnas para descripcion de la tarea, responsable asignado, semana del sprint, estado y metrica de resultado. Las herramientas de gestion de proyectos sofisticadas estan bien, pero una hoja de calculo compartida funciona igual de bien. El habito de seguimiento importa mas que la herramienta. Aqui es donde decides los grandes temas: te centras en deuda tecnica, expansion de contenido, link building o optimizacion de conversion para el proximo trimestre? Basa estas decisiones en donde estan tus mayores brechas de crecimiento organico, informadas por una [auditoria SEO](/tools/ecommerce-seo-audit) exhaustiva.",
           items: [
             "Ejecuta sprints semanales con 3-5 tareas comprometidas que tengan responsables y plazos claros",
             "Realiza una revision mensual de 30 minutos para evaluar lo que funciono y repriorizar el backlog",
             "Establece temas estrategicos trimestrales basados en tus mayores oportunidades de crecimiento organico",
             "Registra cada tarea completada con su metrica esperada para poder medir resultados despues",
           ],
+          image: {
+            src: "/images/academy/es/seo-sprint-cadence.svg",
+            alt: "SEO-Sprint-Rhythmus ueber vier Wochen: Audit, Umsetzung, Ueberpruefung und Berichterstellung",
+            caption: "Ein monatlicher Sprint-Rhythmus haelt SEO-Arbeit fokussiert und liefert regelmaessige Ergebnisse fuer Stakeholder.",
+          },
+          callout: {
+            title: "Sprint-Disziplin",
+            text: "Widerstehen Sie der Versuchung, Sprintaufgaben mittendrin zu aendern. Neue dringende Anfragen kommen in den Backlog fuer den naechsten Sprint, es sei denn, sie sind wirklich kritisch fuer den Umsatz.",
+          },
         },
         {
           title: "Conectar tareas con resultados de trafico e ingresos",
@@ -327,17 +399,35 @@ export const seoTaskPlanning: AcademyTopic = {
             "Attivita discutibili (basso impatto, alto sforzo): rimuovi dal backlog o rivedi tra 6 mesi",
           ],
           tip: "Quando valuti lo sforzo, includi le dipendenze. Una modifica del title tag che necessita dell'approvazione del team brand, revisione legale e deployment da parte di uno sviluppatore non e un'attivita a basso sforzo indipendentemente da quanto sia semplice la scrittura in se.",
+          image: {
+            src: "/images/academy/it/impact-effort-matrix.svg",
+            alt: "SEO Wirkungs-Aufwands-Matrix mit vier Quadranten: Schnelle Erfolge, Grosse Projekte, Lueckenfueller und Undankbare Aufgaben",
+            caption: "Priorisieren Sie SEO-Aufgaben nach Wirkung und Aufwand. Beginnen Sie mit schnellen Erfolgen, dann planen Sie grosse Projekte.",
+          },
+          callout: {
+            title: "Priorisierungsfalle",
+            text: "Die meisten SEO-Teams verbringen zu viel Zeit mit undankbaren Aufgaben (hoher Aufwand, geringe Wirkung) und verpassen schnelle Erfolge, die innerhalb von Wochen statt Monaten Ergebnisse liefern.",
+          },
         },
         {
           title: "Costruire un sistema di sprint SEO",
           content:
-            "Prendere in prestito la metodologia sprint dallo sviluppo prodotto funziona bene per il SEO perche ti costringe a impegnarti su deliverable specifici entro tempi fissi invece di mantenere una lista di attivita in continua crescita che non viene mai completata.\n\nGli sprint settimanali gestiscono l'esecuzione tattica. Ogni lunedi, scegli 3-5 attivita dal tuo backlog prioritizzato. Queste dovrebbero essere completabili entro la settimana dalle persone disponibili. Uno sprint settimanale tipico per un negozio e-commerce di medie dimensioni potrebbe includere: ottimizzare title tag e description per 10 pagine di categoria, pubblicare una guida all'acquisto che mira a un cluster di parole chiave specifico, correggere i 5 problemi tecnici con priorita piu alta dall'ultimo rapporto di scansione, e inviare sitemap aggiornate dopo modifiche al catalogo prodotti.\n\nI cicli mensili gestiscono la revisione e l'adeguamento. Alla fine di ogni mese, rivedi cosa e stato fatto, come appaiono i primi segnali di performance e cosa deve cambiare. Se hai passato l'ultimo mese a ottimizzare pagine di categoria e le impressioni per quelle pagine stanno salendo nella Search Console, hai la validazione per continuare.\n\nLa pianificazione trimestrale gestisce la direzione strategica. Qui decidi i grandi temi: ti concentri su debito tecnico, espansione dei contenuti, link building o ottimizzazione delle conversioni per il prossimo trimestre? Basa queste decisioni su dove si trovano le tue maggiori lacune di crescita organica. Approfondisci con la nostra guida sull'[audit SEO](/seo-audit).\n\nMantieni un semplice foglio di tracciamento con colonne per descrizione attivita, responsabile assegnato, settimana dello sprint, stato e metrica di risultato. Strumenti di gestione progetti elaborati vanno bene ma un foglio di calcolo condiviso funziona altrettanto bene. L'abitudine di tracciamento conta piu dello strumento.",
+            "Prendere in prestito la metodologia sprint dallo sviluppo prodotto funziona bene per il SEO perche ti costringe a impegnarti su deliverable specifici entro tempi fissi invece di mantenere una lista di attivita in continua crescita che non viene mai completata.\n\nGli sprint settimanali gestiscono l'esecuzione tattica. Ogni lunedi, scegli 3-5 attivita dal tuo backlog prioritizzato. Queste dovrebbero essere completabili entro la settimana dalle persone disponibili. Uno sprint settimanale tipico per un negozio e-commerce di medie dimensioni potrebbe includere: ottimizzare title tag e description per 10 pagine di categoria, pubblicare una guida all'acquisto che mira a un cluster di parole chiave specifico, correggere i 5 problemi tecnici con priorita piu alta dall'ultimo rapporto di scansione, e inviare sitemap aggiornate dopo modifiche al catalogo prodotti.\n\nI cicli mensili gestiscono la revisione e l'adeguamento. Alla fine di ogni mese, rivedi cosa e stato fatto, come appaiono i primi segnali di performance e cosa deve cambiare. Se hai passato l'ultimo mese a ottimizzare pagine di categoria e le impressioni per quelle pagine stanno salendo nella Search Console, hai la validazione per continuare.\n\nLa pianificazione trimestrale gestisce la direzione strategica. Qui decidi i grandi temi: ti concentri su debito tecnico, espansione dei contenuti, link building o ottimizzazione delle conversioni per il prossimo trimestre? Basa queste decisioni su dove si trovano le tue maggiori lacune di crescita organica. Approfondisci con la nostra guida sull'[audit SEO](/tools/ecommerce-seo-audit).\n\nMantieni un semplice foglio di tracciamento con colonne per descrizione attivita, responsabile assegnato, settimana dello sprint, stato e metrica di risultato. Strumenti di gestione progetti elaborati vanno bene ma un foglio di calcolo condiviso funziona altrettanto bene. L'abitudine di tracciamento conta piu dello strumento.",
           items: [
             "Esegui sprint settimanali con 3-5 attivita impegnate che hanno responsabili e scadenze chiare",
             "Tieni una revisione mensile di 30 minuti per valutare cosa ha funzionato e riprioritizzare il backlog",
             "Imposta temi strategici trimestrali basati sulle tue maggiori opportunita di crescita organica",
             "Traccia ogni attivita completata con la sua metrica attesa per poter misurare i risultati in seguito",
           ],
+          image: {
+            src: "/images/academy/it/seo-sprint-cadence.svg",
+            alt: "SEO-Sprint-Rhythmus ueber vier Wochen: Audit, Umsetzung, Ueberpruefung und Berichterstellung",
+            caption: "Ein monatlicher Sprint-Rhythmus haelt SEO-Arbeit fokussiert und liefert regelmaessige Ergebnisse fuer Stakeholder.",
+          },
+          callout: {
+            title: "Sprint-Disziplin",
+            text: "Widerstehen Sie der Versuchung, Sprintaufgaben mittendrin zu aendern. Neue dringende Anfragen kommen in den Backlog fuer den naechsten Sprint, es sei denn, sie sind wirklich kritisch fuer den Umsatz.",
+          },
         },
         {
           title: "Collegare le attivita ai risultati di traffico e ricavi",
@@ -400,17 +490,35 @@ export const seoTaskPlanning: AcademyTopic = {
             "Twijfelachtige taken (lage impact, hoge inspanning): verwijder uit de backlog of herzie over 6 maanden",
           ],
           tip: "Tel bij het scoren van inspanning de afhankelijkheden mee. Een title tag-wijziging die goedkeuring nodig heeft van het merkteam, juridische beoordeling en een ontwikkelaarsdeployment is geen taak met lage inspanning, ongeacht hoe eenvoudig het daadwerkelijke schrijven is.",
+          image: {
+            src: "/images/academy/nl/impact-effort-matrix.svg",
+            alt: "SEO Wirkungs-Aufwands-Matrix mit vier Quadranten: Schnelle Erfolge, Grosse Projekte, Lueckenfueller und Undankbare Aufgaben",
+            caption: "Priorisieren Sie SEO-Aufgaben nach Wirkung und Aufwand. Beginnen Sie mit schnellen Erfolgen, dann planen Sie grosse Projekte.",
+          },
+          callout: {
+            title: "Priorisierungsfalle",
+            text: "Die meisten SEO-Teams verbringen zu viel Zeit mit undankbaren Aufgaben (hoher Aufwand, geringe Wirkung) und verpassen schnelle Erfolge, die innerhalb von Wochen statt Monaten Ergebnisse liefern.",
+          },
         },
         {
           title: "Een SEO-sprintsysteem opbouwen",
           content:
-            "De sprintmethodologie lenen van productontwikkeling werkt goed voor SEO omdat het je dwingt om je te committeren aan specifieke deliverables binnen vaste tijdskaders in plaats van een steeds groeiende takenlijst te onderhouden die nooit af komt.\n\nWekelijkse sprints behandelen tactische uitvoering. Elke maandag kies je 3-5 taken uit je geprioriteerde backlog. Deze moeten binnen de week afgerond kunnen worden door de beschikbare mensen. Een typische wekelijkse sprint voor een middelgrote e-commerce webshop zou kunnen omvatten: title tags en descriptions optimaliseren voor 10 categoriepagina's, een koopgids publiceren gericht op een specifiek zoekwoordcluster, de 5 technische problemen met de hoogste prioriteit uit het laatste crawlrapport oplossen, en bijgewerkte sitemaps indienen na wijzigingen in de productcatalogus.\n\nMaandelijkse cycli behandelen beoordeling en aanpassing. Aan het eind van elke maand beoordeel je wat er is gedaan, hoe de vroege prestatiesignalen eruitzien en wat er moet veranderen. Als je de afgelopen maand hebt besteed aan het optimaliseren van categoriepagina's en de impressies voor die pagina's stijgen in Search Console, heb je validatie om door te gaan.\n\nKwartaalplanning behandelt strategische richting. Hier beslis je de grote thema's: focus je je op technische schuld, contentuitbreiding, linkbuilding of conversieoptimalisatie voor het volgende kwartaal? Baseer deze beslissingen op waar je grootste organische groeikloven liggen.\n\nHoud een eenvoudig trackingblad bij met kolommen voor taakbeschrijving, toegewezen eigenaar, sprintweek, status en resultaatmetriek. Mooie projectmanagementtools zijn prima, maar een gedeeld spreadsheet werkt net zo goed. De trackinggewoonte telt meer dan de tool.\n\nBekijk onze [SEO-audit](/seo-audit)-diensten voor professionele ondersteuning.",
+            "De sprintmethodologie lenen van productontwikkeling werkt goed voor SEO omdat het je dwingt om je te committeren aan specifieke deliverables binnen vaste tijdskaders in plaats van een steeds groeiende takenlijst te onderhouden die nooit af komt.\n\nWekelijkse sprints behandelen tactische uitvoering. Elke maandag kies je 3-5 taken uit je geprioriteerde backlog. Deze moeten binnen de week afgerond kunnen worden door de beschikbare mensen. Een typische wekelijkse sprint voor een middelgrote e-commerce webshop zou kunnen omvatten: title tags en descriptions optimaliseren voor 10 categoriepagina's, een koopgids publiceren gericht op een specifiek zoekwoordcluster, de 5 technische problemen met de hoogste prioriteit uit het laatste crawlrapport oplossen, en bijgewerkte sitemaps indienen na wijzigingen in de productcatalogus.\n\nMaandelijkse cycli behandelen beoordeling en aanpassing. Aan het eind van elke maand beoordeel je wat er is gedaan, hoe de vroege prestatiesignalen eruitzien en wat er moet veranderen. Als je de afgelopen maand hebt besteed aan het optimaliseren van categoriepagina's en de impressies voor die pagina's stijgen in Search Console, heb je validatie om door te gaan.\n\nKwartaalplanning behandelt strategische richting. Hier beslis je de grote thema's: focus je je op technische schuld, contentuitbreiding, linkbuilding of conversieoptimalisatie voor het volgende kwartaal? Baseer deze beslissingen op waar je grootste organische groeikloven liggen.\n\nHoud een eenvoudig trackingblad bij met kolommen voor taakbeschrijving, toegewezen eigenaar, sprintweek, status en resultaatmetriek. Mooie projectmanagementtools zijn prima, maar een gedeeld spreadsheet werkt net zo goed. De trackinggewoonte telt meer dan de tool.\n\nBekijk onze [SEO-audit](/tools/ecommerce-seo-audit)-diensten voor professionele ondersteuning.",
           items: [
             "Voer wekelijkse sprints uit met 3-5 vastgelegde taken met duidelijke eigenaren en deadlines",
             "Houd een maandelijkse review van 30 minuten om te beoordelen wat werkte en de backlog te herprioriteren",
             "Stel per kwartaal strategische thema's vast op basis van je grootste organische groeikansen",
             "Volg elke voltooide taak met de verwachte metriek zodat je later resultaten kunt meten",
           ],
+          image: {
+            src: "/images/academy/nl/seo-sprint-cadence.svg",
+            alt: "SEO-Sprint-Rhythmus ueber vier Wochen: Audit, Umsetzung, Ueberpruefung und Berichterstellung",
+            caption: "Ein monatlicher Sprint-Rhythmus haelt SEO-Arbeit fokussiert und liefert regelmaessige Ergebnisse fuer Stakeholder.",
+          },
+          callout: {
+            title: "Sprint-Disziplin",
+            text: "Widerstehen Sie der Versuchung, Sprintaufgaben mittendrin zu aendern. Neue dringende Anfragen kommen in den Backlog fuer den naechsten Sprint, es sei denn, sie sind wirklich kritisch fuer den Umsatz.",
+          },
         },
         {
           title: "Taken verbinden met verkeers- en omzetresultaten",

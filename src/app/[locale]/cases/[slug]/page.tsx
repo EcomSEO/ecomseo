@@ -7,9 +7,13 @@ import Footer from "@/components/sections/Footer";
 import JsonLd from "@/components/JsonLd";
 import { caseStudyJsonLd, breadcrumbJsonLd } from "@/lib/jsonLd";
 import { getCaseStudy, getAllCaseSlugs } from "@/data/caseStudies";
+import CaseStudyBlockRenderer from "@/components/cases/CaseStudyBlockRenderer";
 import { generateAlternates } from "@/lib/i18n/metadata";
 import { type Locale, ogLocaleMap } from "@/lib/i18n/config";
 import { caseStudyDetailT } from "@/lib/i18n/translations/caseStudyDetail";
+
+export const revalidate = 86400;
+
 
 export function generateStaticParams() {
   return getAllCaseSlugs().map((slug) => ({ slug }));
@@ -124,69 +128,133 @@ export default async function CaseStudyPage({
               />
             </div>
 
-            {/* Top Project Description */}
-            <div className="w-full max-w-[1040px]">
-              <p className="font-[family-name:var(--font-dm-sans)] text-body text-base md:text-lg leading-relaxed">
-                {cs.topProjectDescription}
-              </p>
-            </div>
+            {/* Structured Sections (new rich format) */}
+            {cs.sections && cs.sections.length > 0 ? (
+              <>
+                {/* Table of Contents */}
+                {cs.sections.length > 2 && (
+                  <div className="w-full max-w-[1040px]">
+                    <div className="p-5 rounded-2xl border border-border bg-white/[0.02]">
+                      <p className="text-heading text-sm font-medium mb-3">
+                        In this case study
+                      </p>
+                      <ol className="flex flex-col gap-1.5">
+                        {cs.sections.map((s, i) => (
+                          <li key={s.id}>
+                            <a
+                              href={`#${s.id}`}
+                              className="text-body text-sm hover:text-accent transition-colors"
+                            >
+                              {i + 1}. {s.title}
+                            </a>
+                          </li>
+                        ))}
+                      </ol>
+                    </div>
+                  </div>
+                )}
 
-            {/* Image 1 */}
-            <div className="w-full max-w-[1040px]">
-              <Image
-                src={cs.image1}
-                alt={t.imageAlt1}
-                width={1040}
-                height={400}
-                className="w-full h-auto rounded-3xl"
-              />
-            </div>
+                {/* Render each section */}
+                {cs.sections.map((section, si) => (
+                  <div
+                    key={section.id}
+                    id={section.id}
+                    className="w-full max-w-[1040px] flex flex-col gap-5"
+                  >
+                    <h2 className="font-[family-name:var(--font-dm-sans)] text-[24px] md:text-[32px] font-medium leading-[1.1] tracking-[-0.02em] text-heading">
+                      {section.title}
+                    </h2>
+                    {section.blocks.map((block, bi) => (
+                      <CaseStudyBlockRenderer key={bi} block={block} />
+                    ))}
 
-            {/* Text After Image 1 */}
-            <div className="w-full max-w-[1040px]">
-              <p className="font-[family-name:var(--font-dm-sans)] text-body text-base md:text-lg leading-relaxed">
-                {cs.textAfterImage1}
-              </p>
-            </div>
+                    {/* Insert images between sections */}
+                    {si === 0 && (
+                      <div className="mt-4">
+                        <Image
+                          src={cs.image1}
+                          alt={t.imageAlt1}
+                          width={1040}
+                          height={400}
+                          className="w-full h-auto rounded-3xl"
+                        />
+                      </div>
+                    )}
+                    {si === 1 && cs.image2 && (
+                      <div className="mt-4">
+                        <Image
+                          src={cs.image2}
+                          alt={t.imageAlt2}
+                          width={1040}
+                          height={650}
+                          className="w-full h-auto rounded-3xl"
+                        />
+                      </div>
+                    )}
+                  </div>
+                ))}
+              </>
+            ) : (
+              <>
+                {/* Legacy flat content fallback */}
+                <div className="w-full max-w-[1040px]">
+                  <p className="font-[family-name:var(--font-dm-sans)] text-body text-base md:text-lg leading-relaxed">
+                    {cs.topProjectDescription}
+                  </p>
+                </div>
 
-            {/* Image 2 (optional) */}
-            {cs.image2 && (
-              <div className="w-full max-w-[1040px]">
-                <Image
-                  src={cs.image2}
-                  alt={t.imageAlt2}
-                  width={1040}
-                  height={650}
-                  className="w-full h-auto rounded-3xl"
-                />
-              </div>
-            )}
+                <div className="w-full max-w-[1040px]">
+                  <Image
+                    src={cs.image1}
+                    alt={t.imageAlt1}
+                    width={1040}
+                    height={400}
+                    className="w-full h-auto rounded-3xl"
+                  />
+                </div>
 
-            {/* Text After Image 2 (optional) */}
-            {cs.textAfterImage2 && (
-              <div className="w-full max-w-[1040px]">
-                <p className="font-[family-name:var(--font-dm-sans)] text-body text-base md:text-lg leading-relaxed">
-                  {cs.textAfterImage2}
-                </p>
-              </div>
-            )}
+                <div className="w-full max-w-[1040px]">
+                  <p className="font-[family-name:var(--font-dm-sans)] text-body text-base md:text-lg leading-relaxed">
+                    {cs.textAfterImage1}
+                  </p>
+                </div>
 
-            {/* Text After Image 3 (optional) */}
-            {cs.textAfterImage3 && (
-              <div className="w-full max-w-[1040px]">
-                <p className="font-[family-name:var(--font-dm-sans)] text-body text-base md:text-lg leading-relaxed">
-                  {cs.textAfterImage3}
-                </p>
-              </div>
-            )}
+                {cs.image2 && (
+                  <div className="w-full max-w-[1040px]">
+                    <Image
+                      src={cs.image2}
+                      alt={t.imageAlt2}
+                      width={1040}
+                      height={650}
+                      className="w-full h-auto rounded-3xl"
+                    />
+                  </div>
+                )}
 
-            {/* Bottom Project Description (optional) */}
-            {cs.bottomProjectDescription && (
-              <div className="w-full max-w-[1040px]">
-                <p className="font-[family-name:var(--font-dm-sans)] text-body text-base md:text-lg leading-relaxed">
-                  {cs.bottomProjectDescription}
-                </p>
-              </div>
+                {cs.textAfterImage2 && (
+                  <div className="w-full max-w-[1040px]">
+                    <p className="font-[family-name:var(--font-dm-sans)] text-body text-base md:text-lg leading-relaxed">
+                      {cs.textAfterImage2}
+                    </p>
+                  </div>
+                )}
+
+                {cs.textAfterImage3 && (
+                  <div className="w-full max-w-[1040px]">
+                    <p className="font-[family-name:var(--font-dm-sans)] text-body text-base md:text-lg leading-relaxed">
+                      {cs.textAfterImage3}
+                    </p>
+                  </div>
+                )}
+
+                {cs.bottomProjectDescription && (
+                  <div className="w-full max-w-[1040px]">
+                    <p className="font-[family-name:var(--font-dm-sans)] text-body text-base md:text-lg leading-relaxed">
+                      {cs.bottomProjectDescription}
+                    </p>
+                  </div>
+                )}
+              </>
             )}
           </div>
         </div>

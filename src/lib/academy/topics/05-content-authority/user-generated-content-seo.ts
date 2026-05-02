@@ -16,12 +16,21 @@ export const userGeneratedContentSeo: AcademyTopic = {
           title: "Why UGC Is an SEO Goldmine for Ecommerce",
           content:
             "User-generated content adds unique text to pages that would otherwise be identical across retailers. If you and ten competitors sell the same blender, your product pages likely share the manufacturer's description word for word. Customer reviews differentiate your page with unique, natural language that Google values. A well-optimized [product page](/academy/product-page-seo) with 30 reviews contains hundreds of additional words, many of which naturally include long-tail keyword variations that your copywriting team would never think to target.\n\nGoogle's algorithms increasingly favor content that demonstrates genuine experience with a product. Reviews from verified buyers provide exactly this signal. The helpful content system rewards pages where users can find authentic first-hand perspectives. A product page with detailed reviews describing real-world usage scenarios outperforms a page with only marketing copy, regardless of how well-optimized that copy is.\n\nFreshness is another major benefit. Customer reviews arrive continuously, providing Google with a steady stream of new content on pages that would otherwise remain static for months or years. Each new review triggers a content update signal that encourages Googlebot to recrawl the page. For product pages that rarely change, this ongoing freshness signal can be the difference between maintaining rankings and slowly losing ground to competitors who update more frequently.",
+          image: {
+            src: "/images/academy/ugc-seo-value-flow.svg",
+            alt: "Flow diagram showing how reviews, Q&A sections, and customer photos feed into product pages to generate unique content, long-tail keywords, freshness signals, and rich snippets",
+            caption: "Reviews, Q&A, and customer photos feed into product pages creating unique content, long-tail keywords, freshness signals, and star-rating rich snippets.",
+          },
           items: [
             "Reviews add unique text that differentiates your product pages from competitors selling identical items",
             "Customer language naturally includes long-tail keyword variations editorial teams would miss",
             "Google's helpful content system rewards authentic first-hand experience signals from verified buyers",
             "Continuous review submissions provide freshness signals that keep product pages ranking",
           ],
+          callout: {
+            title: "UGC Scale Advantage",
+            text: "A product page with 30 reviews contains hundreds of unique words with natural long-tail variations no copywriter would target. Pages with review rich snippets see 15-25% higher click-through rates in search results.",
+          },
         },
         {
           title: "Optimizing Product Reviews for Search Visibility",
@@ -50,12 +59,21 @@ export const userGeneratedContentSeo: AcademyTopic = {
           title: "Managing SEO Risks of UGC",
           content:
             "Unmoderated user-generated content introduces several SEO risks that must be actively managed. Spam is the most obvious threat, bots and bad actors can flood your review sections with irrelevant links, promotional content, or gibberish text. Implement automated spam filters that catch common patterns (excessive URLs, repeated text, off-topic keywords) and require manual moderation for reviews that trigger spam signals.\n\nThin content is a subtler risk. One-word reviews like \"Great!\" or \"Bad\" add almost no SEO value and can dilute the overall quality signal of your page. Set minimum character counts for reviews (aim for at least 50 characters) and encourage substantive feedback through your review prompts. Some platforms allow you to display only reviews that meet a quality threshold while still counting shorter ratings toward your aggregate score.\n\nDuplicate content can arise when customers copy-paste manufacturer descriptions or when the same review appears on multiple pages. Implement canonical tags to handle pagination of review pages, and use duplicate detection to flag reviews that match content found elsewhere on your site or across the web.\n\nNegative sentiment in reviews can affect perceived page quality. While you should never censor legitimate negative reviews, they build trust and credibility, you should respond to negative reviews with helpful, professional replies. This demonstrates active engagement and turns potential negatives into positive trust signals. Google's algorithms can analyze sentiment, and a page with thoughtful business responses to criticism signals a higher quality experience than a page with unanswered complaints.",
+          image: {
+            src: "/images/academy/ugc-risk-management.svg",
+            alt: "Four-column risk matrix showing spam, thin content, duplicates, and negative sentiment risks with their mitigations",
+            caption: "Four UGC risks to manage: spam (auto-filters), thin content (minimum character counts), duplicates (canonical tags), and negative sentiment (professional replies within 24 hours).",
+          },
           items: [
             "Implement automated spam filters for URLs, repeated text, and off-topic content in reviews",
             "Set minimum character counts to prevent one-word reviews from diluting page quality signals",
             "Use canonical tags and duplicate detection to prevent review content duplication issues",
             "Respond professionally to negative reviews, thoughtful replies create positive trust signals",
           ],
+          callout: {
+            title: "Never Censor Reviews",
+            text: "Negative reviews build trust when paired with professional responses. A page with thoughtful replies to criticism signals higher quality to Google than a page with unanswered complaints or suspiciously perfect ratings.",
+          },
         },
         {
           title: "Scaling UGC Collection Across Your Catalog",
@@ -86,6 +104,15 @@ export const userGeneratedContentSeo: AcademyTopic = {
             "Googles Helpful-Content-System belohnt authentische Ersthanderfahrungs-Signale von verifizierten Kaeufern",
             "Kontinuierliche Bewertungseinreichungen liefern Frischesignale, die Produktseiten im Ranking halten",
           ],
+          image: {
+            src: "/images/academy/de/ugc-seo-value-flow.svg",
+            alt: "Flussdiagramm das zeigt wie Bewertungen, F&A-Bereiche und Kundenfotos in Produktseiten einfliessen um einzigartigen Inhalt, Long-Tail-Keywords, Aktualitaetssignale und Rich Snippets zu erzeugen",
+            caption: "Bewertungen, F&A und Kundenfotos fliessen in Produktseiten ein und erzeugen einzigartigen Inhalt, Long-Tail-Keywords, Aktualitaetssignale und Sternbewertungs-Rich-Snippets.",
+          },
+          callout: {
+            title: "UGC-Skalenvorteil",
+            text: "Eine Produktseite mit 30 Bewertungen enthaelt Hunderte einzigartiger Woerter mit natuerlichen Long-Tail-Variationen die kein Texter gezielt ansteuern wuerde. Seiten mit Bewertungs-Rich-Snippets sehen 15-25% hoehere Klickraten in Suchergebnissen.",
+          },
         },
         {
           title: "Produktbewertungen fuer Suchsichtbarkeit optimieren",
@@ -126,6 +153,15 @@ export const userGeneratedContentSeo: AcademyTopic = {
           content:
             "Die meisten E-Commerce-Shops haben ein Bewertungsverteilungsproblem: Bestseller sammeln Hunderte von Bewertungen, waehrend Long-Tail-Produkte null haben. Dieses Ungleichgewicht bedeutet, dass Ihre wettbewerbsfaehigsten Seiten den UGC-Boost bekommen, den sie am wenigsten brauchen, waehrend Seiten, die am meisten von einzigartigem Content profitieren koennten, leer bleiben. Eine systematische UGC-Sammlungsstrategie adressiert dieses Ungleichgewicht.\n\nSegmentieren Sie Ihre Post-Purchase-E-Mail-Kampagnen nach Produktbewertungsstatus. Produkte mit weniger als fuenf Bewertungen sollten aggressivere Bewertungsanfrage-Sequenzen ausloesen, mehrere Follow-ups mit Anreizen wie Treuepunkten oder Rabattcodes fuer den naechsten Kauf. Produkte mit 20 oder mehr Bewertungen koennen eine Ein-Kontakt-Anfrage verwenden. Dieser gewichtete Ansatz konzentriert Ihre Sammlungsbemuehungen dort, wo sie den hoechsten marginalen Impact haben.\n\nNutzen Sie Social Proof, um Bewertungen fuer unterbewertete Produkte zu foerdern. Zeigen Sie eine Nachricht wie \"Seien Sie der Erste, der dieses Produkt bewertet\" mit einem sichtbaren Anreiz. Fruehe Bewerter werden durch den Wunsch motiviert, anderen zu helfen, und die Anerkennung, der Erste zu sein. Sobald zwei oder drei Bewertungen vorhanden sind, uebernimmt der Social-Proof-Effekt und nachfolgende Bewertungen treffen natuerlicher ein.\n\nSyndizieren Sie Bewertungen ueber Produktvarianten und eng verwandte Produkte, wo es angemessen ist. Wenn ein Kunde ein Hemd in Blau bewertet und Sie dasselbe Hemd in Rot verkaufen, ist diese Bewertung fuer beide Produktseiten relevant. Bewertungssyndizierung fuellt Luecken in Ihrer UGC-Abdeckung, ohne Duplicate-Content-Probleme zu erzeugen, vorausgesetzt, Sie implementieren sie mit korrektem Canonical-Handling und klarer Zuordnung zum Originalprodukt.\n\nVerfolgen Sie Ihre Bewertungsabdeckungsrate als Schluesselmetrik: den Prozentsatz aktiver Produkte mit mindestens fuenf Bewertungen. Setzen Sie vierteljährliche Ziele zur Verbesserung dieser Metrik und weisen Sie Ihrem Marketing- oder CX-Team die Verantwortung zu. Ein Shop mit 90% Bewertungsabdeckung hat einen massiven SEO-Vorteil gegenueber einem Wettbewerber mit 30% Abdeckung, selbst wenn das gesamte Bewertungsvolumen aehnlich ist.",
           tip: "Erstellen Sie eine Bewertungssammlungs-Prioritaetsmatrix: Produkte mit hohem Suchvolumen aber wenigen Bewertungen erhalten hoechste Prioritaet. Eine Produktseite auf Seite zwei ohne Bewertungen koennte allein durch das Hinzufuegen von fuenf detaillierten Kundenbewertungen, die einzigartigen, keyword-reichen Content zur Seite hinzufuegen, auf Seite eins springen.",
+          image: {
+            src: "/images/academy/de/ugc-risk-management.svg",
+            alt: "Vierspaltige Risikomatrix die Spam, duenne Inhalte, Duplikate und negative Stimmung mit ihren Abhilfemassnahmen zeigt",
+            caption: "Vier UGC-Risiken zu managen: Spam (Auto-Filter), duenne Inhalte (minimale Zeichenanzahl), Duplikate (Canonical Tags) und negative Stimmung (professionelle Antworten innerhalb von 24 Stunden).",
+          },
+          callout: {
+            title: "Bewertungen nie zensieren",
+            text: "Negative Bewertungen bauen Vertrauen auf wenn sie mit professionellen Antworten gepaart sind. Eine Seite mit durchdachten Antworten auf Kritik signalisiert hoehere Qualitaet an Google als eine Seite mit unbeantworteten Beschwerden oder verdaechtig perfekten Bewertungen.",
+          },
         },
       ],
       navLabels: {
@@ -150,6 +186,15 @@ export const userGeneratedContentSeo: AcademyTopic = {
             "Le systeme de contenu utile de Google recompense les signaux d'experience authentique de premiere main des acheteurs verifies",
             "Les soumissions continues d'avis fournissent des signaux de fraicheur qui maintiennent les pages produit dans les classements",
           ],
+          image: {
+            src: "/images/academy/fr/ugc-seo-value-flow.svg",
+            alt: "Flussdiagramm das zeigt wie Bewertungen, F&A-Bereiche und Kundenfotos in Produktseiten einfliessen um einzigartigen Inhalt, Long-Tail-Keywords, Aktualitaetssignale und Rich Snippets zu erzeugen",
+            caption: "Bewertungen, F&A und Kundenfotos fliessen in Produktseiten ein und erzeugen einzigartigen Inhalt, Long-Tail-Keywords, Aktualitaetssignale und Sternbewertungs-Rich-Snippets.",
+          },
+          callout: {
+            title: "UGC-Skalenvorteil",
+            text: "Eine Produktseite mit 30 Bewertungen enthaelt Hunderte einzigartiger Woerter mit natuerlichen Long-Tail-Variationen die kein Texter gezielt ansteuern wuerde. Seiten mit Bewertungs-Rich-Snippets sehen 15-25% hoehere Klickraten in Suchergebnissen.",
+          },
         },
         {
           title: "Optimiser les avis produits pour la visibilite dans la recherche",
@@ -190,6 +235,15 @@ export const userGeneratedContentSeo: AcademyTopic = {
           content:
             "La plupart des boutiques ecommerce ont un probleme de distribution des avis : les best-sellers accumulent des centaines d'avis tandis que les produits de niche en ont zero. Ce desequilibre signifie que vos pages les plus competitives recoivent le boost UGC dont elles ont le moins besoin, tandis que les pages qui pourraient le plus beneficier de contenu unique restent desertes. Une strategie systematique de collecte UGC adresse ce desequilibre.\n\nSegmentez vos campagnes email post-achat par statut d'avis du produit. Les produits avec moins de cinq avis devraient declencher des sequences de demande d'avis plus agressives, plusieurs relances avec des incitations comme des points de fidelite ou des codes de reduction pour le prochain achat. Les produits avec 20 avis ou plus peuvent utiliser une demande a contact unique. Cette approche ponderee concentre vos efforts de collecte la ou ils ont le plus grand impact marginal.\n\nExploitez la preuve sociale pour encourager les avis sur les produits sous-evalues. Affichez un message comme \"Soyez le premier a evaluer ce produit\" avec une incitation visible. Les premiers evaluateurs sont motives par le desir d'aider les autres et la reconnaissance d'etre le premier. Une fois que deux ou trois avis sont en place, l'effet de preuve sociale prend le relais et les avis subsequents arrivent plus naturellement.\n\nSyndiquez les avis entre les variantes de produit et les produits etroitement lies le cas echeant. Si un client evalue une chemise en bleu et que vous vendez la meme chemise en rouge, cet avis est pertinent pour les deux pages produit. La syndication d'avis comble les lacunes dans votre couverture UGC sans creer de problemes de contenu duplique, a condition de l'implementer avec un traitement canonique correct et une attribution claire au produit original.\n\nSuivez votre taux de couverture d'avis comme metrique cle : le pourcentage de produits actifs avec au moins cinq avis. Fixez des objectifs trimestriels pour ameliorer cette metrique et attribuez la responsabilite a votre equipe marketing ou CX. Une boutique avec 90% de couverture d'avis a un avantage SEO massif par rapport a un concurrent avec 30% de couverture, meme si le volume total d'avis est similaire.",
           tip: "Creez une matrice de priorite de collecte d'avis : les produits avec un volume de recherche eleve mais peu d'avis sont prioritaires. Une page produit en page deux avec zero avis pourrait passer en page une simplement en ajoutant cinq avis clients detailles qui ajoutent du contenu unique et riche en mots-cles a la page.",
+          image: {
+            src: "/images/academy/fr/ugc-risk-management.svg",
+            alt: "Vierspaltige Risikomatrix die Spam, duenne Inhalte, Duplikate und negative Stimmung mit ihren Abhilfemassnahmen zeigt",
+            caption: "Vier UGC-Risiken zu managen: Spam (Auto-Filter), duenne Inhalte (minimale Zeichenanzahl), Duplikate (Canonical Tags) und negative Stimmung (professionelle Antworten innerhalb von 24 Stunden).",
+          },
+          callout: {
+            title: "Bewertungen nie zensieren",
+            text: "Negative Bewertungen bauen Vertrauen auf wenn sie mit professionellen Antworten gepaart sind. Eine Seite mit durchdachten Antworten auf Kritik signalisiert hoehere Qualitaet an Google als eine Seite mit unbeantworteten Beschwerden oder verdaechtig perfekten Bewertungen.",
+          },
         },
       ],
       navLabels: {
@@ -214,6 +268,15 @@ export const userGeneratedContentSeo: AcademyTopic = {
             "El sistema de contenido util de Google recompensa senales de experiencia autentica de primera mano de compradores verificados",
             "Las presentaciones continuas de resenas proporcionan senales de frescura que mantienen las paginas de producto en el ranking",
           ],
+          image: {
+            src: "/images/academy/es/ugc-seo-value-flow.svg",
+            alt: "Flussdiagramm das zeigt wie Bewertungen, F&A-Bereiche und Kundenfotos in Produktseiten einfliessen um einzigartigen Inhalt, Long-Tail-Keywords, Aktualitaetssignale und Rich Snippets zu erzeugen",
+            caption: "Bewertungen, F&A und Kundenfotos fliessen in Produktseiten ein und erzeugen einzigartigen Inhalt, Long-Tail-Keywords, Aktualitaetssignale und Sternbewertungs-Rich-Snippets.",
+          },
+          callout: {
+            title: "UGC-Skalenvorteil",
+            text: "Eine Produktseite mit 30 Bewertungen enthaelt Hunderte einzigartiger Woerter mit natuerlichen Long-Tail-Variationen die kein Texter gezielt ansteuern wuerde. Seiten mit Bewertungs-Rich-Snippets sehen 15-25% hoehere Klickraten in Suchergebnissen.",
+          },
         },
         {
           title: "Optimizar resenas de productos para visibilidad en busquedas",
@@ -254,6 +317,15 @@ export const userGeneratedContentSeo: AcademyTopic = {
           content:
             "La mayoria de las tiendas de ecommerce tienen un problema de distribucion de resenas: los bestsellers acumulan cientos de resenas mientras que los productos de cola larga tienen cero. Este desequilibrio significa que tus paginas mas competitivas obtienen el impulso de UGC que menos necesitan, mientras que las paginas que mas podrian beneficiarse de contenido unico permanecen vacias. Una estrategia sistematica de recoleccion de UGC aborda este desequilibrio.\n\nSegmenta tus campanas de email post-compra por estado de resenas del producto. Los productos con menos de cinco resenas deberian activar secuencias de solicitud de resena mas agresivas, multiples seguimientos con incentivos como puntos de fidelidad o codigos de descuento para la proxima compra. Los productos con 20 o mas resenas pueden usar una solicitud de un solo contacto. Este enfoque ponderado concentra tus esfuerzos de recoleccion donde tienen el mayor impacto marginal.\n\nAprovecha la prueba social para fomentar resenas en productos poco resenados. Muestra un mensaje como \"Se el primero en resenar este producto\" con un incentivo visible. Los primeros resenadores estan motivados por el deseo de ayudar a otros y el reconocimiento de ser el primero. Una vez que dos o tres resenas estan en su lugar, el efecto de prueba social toma el control y las resenas subsecuentes llegan mas naturalmente.\n\nSindica resenas entre variantes de producto y productos estrechamente relacionados cuando sea apropiado. Si un cliente resena una camisa en azul y vendes la misma camisa en rojo, esa resena es relevante para ambas paginas de producto. La sindicacion de resenas llena vacios en tu cobertura de UGC sin crear problemas de contenido duplicado, siempre que la implementes con manejo canonico correcto y atribucion clara al producto original.\n\nRastrea tu tasa de cobertura de resenas como metrica clave: el porcentaje de productos activos con al menos cinco resenas. Establece objetivos trimestrales para mejorar esta metrica y asigna responsabilidad a tu equipo de marketing o CX. Una tienda con 90% de cobertura de resenas tiene una ventaja SEO masiva sobre un competidor con 30% de cobertura, incluso si el volumen total de resenas es similar.",
           tip: "Crea una matriz de prioridad de recoleccion de resenas: los productos con alto volumen de busqueda pero pocas resenas obtienen maxima prioridad. Una pagina de producto posicionada en la pagina dos con cero resenas podria saltar a la pagina uno simplemente anadiendo cinco resenas detalladas de clientes que agregan contenido unico y rico en palabras clave a la pagina.",
+          image: {
+            src: "/images/academy/es/ugc-risk-management.svg",
+            alt: "Vierspaltige Risikomatrix die Spam, duenne Inhalte, Duplikate und negative Stimmung mit ihren Abhilfemassnahmen zeigt",
+            caption: "Vier UGC-Risiken zu managen: Spam (Auto-Filter), duenne Inhalte (minimale Zeichenanzahl), Duplikate (Canonical Tags) und negative Stimmung (professionelle Antworten innerhalb von 24 Stunden).",
+          },
+          callout: {
+            title: "Bewertungen nie zensieren",
+            text: "Negative Bewertungen bauen Vertrauen auf wenn sie mit professionellen Antworten gepaart sind. Eine Seite mit durchdachten Antworten auf Kritik signalisiert hoehere Qualitaet an Google als eine Seite mit unbeantworteten Beschwerden oder verdaechtig perfekten Bewertungen.",
+          },
         },
       ],
       navLabels: {
@@ -278,6 +350,15 @@ export const userGeneratedContentSeo: AcademyTopic = {
             "Il sistema di contenuti utili di Google premia i segnali di esperienza autentica di prima mano degli acquirenti verificati",
             "Le sottomissioni continue di recensioni forniscono segnali di freschezza che mantengono le pagine prodotto nei posizionamenti",
           ],
+          image: {
+            src: "/images/academy/it/ugc-seo-value-flow.svg",
+            alt: "Flussdiagramm das zeigt wie Bewertungen, F&A-Bereiche und Kundenfotos in Produktseiten einfliessen um einzigartigen Inhalt, Long-Tail-Keywords, Aktualitaetssignale und Rich Snippets zu erzeugen",
+            caption: "Bewertungen, F&A und Kundenfotos fliessen in Produktseiten ein und erzeugen einzigartigen Inhalt, Long-Tail-Keywords, Aktualitaetssignale und Sternbewertungs-Rich-Snippets.",
+          },
+          callout: {
+            title: "UGC-Skalenvorteil",
+            text: "Eine Produktseite mit 30 Bewertungen enthaelt Hunderte einzigartiger Woerter mit natuerlichen Long-Tail-Variationen die kein Texter gezielt ansteuern wuerde. Seiten mit Bewertungs-Rich-Snippets sehen 15-25% hoehere Klickraten in Suchergebnissen.",
+          },
         },
         {
           title: "Ottimizzare le recensioni dei prodotti per la visibilita nella ricerca",
@@ -318,6 +399,15 @@ export const userGeneratedContentSeo: AcademyTopic = {
           content:
             "La maggior parte dei negozi ecommerce ha un problema di distribuzione delle recensioni: i bestseller accumulano centinaia di recensioni mentre i prodotti di nicchia ne hanno zero. Questo squilibrio significa che le tue pagine piu competitive ricevono il boost UGC di cui hanno meno bisogno, mentre le pagine che potrebbero beneficiare maggiormente di contenuto unico rimangono vuote. Una strategia sistematica di raccolta UGC affronta questo squilibrio.\n\nSegmenta le tue campagne email post-acquisto per stato delle recensioni del prodotto. I prodotti con meno di cinque recensioni dovrebbero attivare sequenze di richiesta recensione piu aggressive, follow-up multipli con incentivi come punti fedelta o codici sconto per il prossimo acquisto. I prodotti con 20 o piu recensioni possono usare una richiesta a singolo contatto. Questo approccio ponderato concentra i tuoi sforzi di raccolta dove hanno il maggiore impatto marginale.\n\nSfrutta la riprova sociale per incoraggiare le recensioni sui prodotti poco recensiti. Mostra un messaggio come \"Sii il primo a recensire questo prodotto\" con un incentivo visibile. I primi recensori sono motivati dal desiderio di aiutare gli altri e dal riconoscimento di essere i primi. Una volta che due o tre recensioni sono presenti, l'effetto di riprova sociale subentra e le recensioni successive arrivano piu naturalmente.\n\nSindaca le recensioni tra varianti di prodotto e prodotti strettamente correlati dove appropriato. Se un cliente recensisce una camicia in blu e vendi la stessa camicia in rosso, quella recensione e rilevante per entrambe le pagine prodotto. La sindacazione delle recensioni colma le lacune nella tua copertura UGC senza creare problemi di contenuto duplicato, a condizione di implementarla con gestione canonica corretta e attribuzione chiara al prodotto originale.\n\nTraccia il tuo tasso di copertura delle recensioni come metrica chiave: la percentuale di prodotti attivi con almeno cinque recensioni. Imposta obiettivi trimestrali per migliorare questa metrica e assegna la responsabilita al tuo team marketing o CX. Un negozio con il 90% di copertura recensioni ha un vantaggio SEO massiccio rispetto a un concorrente con il 30% di copertura, anche se il volume totale di recensioni e simile.",
           tip: "Crea una matrice di priorita per la raccolta recensioni: i prodotti con alto volume di ricerca ma poche recensioni ottengono la massima priorita. Una pagina prodotto posizionata a pagina due con zero recensioni potrebbe saltare a pagina uno semplicemente aggiungendo cinque recensioni dettagliate dei clienti che aggiungono contenuto unico e ricco di parole chiave alla pagina.",
+          image: {
+            src: "/images/academy/it/ugc-risk-management.svg",
+            alt: "Vierspaltige Risikomatrix die Spam, duenne Inhalte, Duplikate und negative Stimmung mit ihren Abhilfemassnahmen zeigt",
+            caption: "Vier UGC-Risiken zu managen: Spam (Auto-Filter), duenne Inhalte (minimale Zeichenanzahl), Duplikate (Canonical Tags) und negative Stimmung (professionelle Antworten innerhalb von 24 Stunden).",
+          },
+          callout: {
+            title: "Bewertungen nie zensieren",
+            text: "Negative Bewertungen bauen Vertrauen auf wenn sie mit professionellen Antworten gepaart sind. Eine Seite mit durchdachten Antworten auf Kritik signalisiert hoehere Qualitaet an Google als eine Seite mit unbeantworteten Beschwerden oder verdaechtig perfekten Bewertungen.",
+          },
         },
       ],
       navLabels: {
@@ -342,6 +432,15 @@ export const userGeneratedContentSeo: AcademyTopic = {
             "Het systeem voor nuttige content van Google beloont authentieke eerstehandse ervaringssignalen van geverifieerde kopers",
             "Continue inzendingen van recensies leveren versheids-signalen die productpagina's in de rankings houden",
           ],
+          image: {
+            src: "/images/academy/nl/ugc-seo-value-flow.svg",
+            alt: "Flussdiagramm das zeigt wie Bewertungen, F&A-Bereiche und Kundenfotos in Produktseiten einfliessen um einzigartigen Inhalt, Long-Tail-Keywords, Aktualitaetssignale und Rich Snippets zu erzeugen",
+            caption: "Bewertungen, F&A und Kundenfotos fliessen in Produktseiten ein und erzeugen einzigartigen Inhalt, Long-Tail-Keywords, Aktualitaetssignale und Sternbewertungs-Rich-Snippets.",
+          },
+          callout: {
+            title: "UGC-Skalenvorteil",
+            text: "Eine Produktseite mit 30 Bewertungen enthaelt Hunderte einzigartiger Woerter mit natuerlichen Long-Tail-Variationen die kein Texter gezielt ansteuern wuerde. Seiten mit Bewertungs-Rich-Snippets sehen 15-25% hoehere Klickraten in Suchergebnissen.",
+          },
         },
         {
           title: "Productrecensies optimaliseren voor zoekzichtbaarheid",
@@ -382,6 +481,15 @@ export const userGeneratedContentSeo: AcademyTopic = {
           content:
             "De meeste ecommerce-winkels hebben een probleem met de verdeling van recensies: bestsellers verzamelen honderden recensies terwijl long-tail-producten er nul hebben. Deze onbalans betekent dat je meest competitieve pagina's de UGC-boost krijgen die ze het minst nodig hebben, terwijl pagina's die het meest zouden profiteren van unieke content leeg blijven. Een systematische UGC-verzamelingsstrategie pakt deze onbalans aan.\n\nSegmenteer je post-aankoop e-mailcampagnes op basis van de recensiestatus van het product. Producten met minder dan vijf recensies moeten agressievere recensie-verzoeksequenties activeren, meerdere follow-ups met incentives zoals loyaliteitspunten of kortingscodes voor de volgende aankoop. Producten met 20 of meer recensies kunnen een enkel-contact verzoek gebruiken. Deze gewogen aanpak concentreert je verzamelingsinspanningen waar ze de hoogste marginale impact hebben.\n\nBenut sociaal bewijs om recensies op weinig-beoordeelde producten aan te moedigen. Toon een bericht zoals \"Wees de eerste die dit product beoordeelt\" met een zichtbare incentive. Vroege beoordelaars worden gemotiveerd door het verlangen om anderen te helpen en de erkenning van de eerste te zijn. Zodra twee of drie recensies op hun plaats zijn, neemt het sociaal-bewijseffect over en komen volgende recensies natuurlijker binnen.\n\nSyndiceer recensies over productvarianten en nauw verwante producten waar gepast. Als een klant een shirt in blauw beoordeelt en je verkoopt hetzelfde shirt in rood, is die recensie relevant voor beide productpagina's. Recensiesyndikatie vult hiaten in je UGC-dekking zonder duplicaat-contentproblemen te creeren, mits je het implementeert met correct canonical-beheer en duidelijke toekenning aan het originele product.\n\nVolg je recensiedekkingsgraad als een belangrijke metric: het percentage actieve producten met ten minste vijf recensies. Stel kwartaaldoelen om deze metric te verbeteren en wijs verantwoordelijkheid toe aan je marketing- of CX-team. Een winkel met 90% recensiedekking heeft een enorm SEO-voordeel ten opzichte van een concurrent met 30% dekking, zelfs als het totale recensievolume vergelijkbaar is.",
           tip: "Maak een prioriteitsmatrix voor recensieverzameling: producten met hoog zoekvolume maar weinig recensies krijgen topprioriteit. Een productpagina die rankt op pagina twee met nul recensies kan naar pagina een springen door simpelweg vijf gedetailleerde klantrecensies toe te voegen die unieke, zoekwoordrijke content aan de pagina toevoegen.",
+          image: {
+            src: "/images/academy/nl/ugc-risk-management.svg",
+            alt: "Vierspaltige Risikomatrix die Spam, duenne Inhalte, Duplikate und negative Stimmung mit ihren Abhilfemassnahmen zeigt",
+            caption: "Vier UGC-Risiken zu managen: Spam (Auto-Filter), duenne Inhalte (minimale Zeichenanzahl), Duplikate (Canonical Tags) und negative Stimmung (professionelle Antworten innerhalb von 24 Stunden).",
+          },
+          callout: {
+            title: "Bewertungen nie zensieren",
+            text: "Negative Bewertungen bauen Vertrauen auf wenn sie mit professionellen Antworten gepaart sind. Eine Seite mit durchdachten Antworten auf Kritik signalisiert hoehere Qualitaet an Google als eine Seite mit unbeantworteten Beschwerden oder verdaechtig perfekten Bewertungen.",
+          },
         },
       ],
       navLabels: {

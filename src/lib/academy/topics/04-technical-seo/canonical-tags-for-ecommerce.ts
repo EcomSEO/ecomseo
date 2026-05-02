@@ -23,6 +23,15 @@ export const canonicalTagsForEcommerce: AcademyTopic = {
             "Backlink authority gets diluted when split across multiple duplicate URLs",
           ],
           tip: "Every page on your store should have a self-referencing canonical tag, even pages without duplicates. This prevents future duplication issues when parameters or tracking codes get appended to your URLs unexpectedly.",
+          image: {
+            src: "/images/academy/canonical-duplication-sources.svg",
+            alt: "Diagram showing how a single product generates five different URLs through direct links, filters, search, UTM parameters, and session IDs, all consolidating via canonical tags",
+            caption: "A single product can be accessible through five or more URLs. Canonical tags consolidate all ranking signals to one master URL.",
+          },
+          callout: {
+            title: "Duplicate URL Math",
+            text: "A store with 10,000 products, 4 tracking parameters, 3 filter paths, and session IDs can generate over 80,000 duplicate URLs. Each one dilutes ranking authority unless canonicalized.",
+          },
         },
         {
           title: "Common Ecommerce Duplication Scenarios",
@@ -60,6 +69,15 @@ export const canonicalTagsForEcommerce: AcademyTopic = {
             "Robots.txt: blocks crawling but also blocks Google from reading canonical tags on those pages",
           ],
           tip: "Never combine noindex with a canonical tag pointing to a different URL on the same page. These signals contradict each other and Google may ignore both. Use one or the other, not both.",
+          image: {
+            src: "/images/academy/canonical-tag-decision-tree.svg",
+            alt: "Decision tree showing when to use canonical tags versus 301 redirects versus noindex tags for handling duplicate content",
+            caption: "Use this decision tree to choose the right duplicate content solution: 301 redirect, canonical tag, or noindex.",
+          },
+          callout: {
+            title: "Critical Difference",
+            text: "Robots.txt blocks crawling but not indexing. If a blocked page has external backlinks, Google loses those signals entirely. For pages with backlinks, canonical tags are the correct approach to consolidate authority.",
+          },
         },
         {
           title: "Common Canonical Tag Mistakes in Online Stores",
@@ -111,6 +129,15 @@ export const canonicalTagsForEcommerce: AcademyTopic = {
             "Backlink-Autoritaet wird verwaessert, wenn sie auf mehrere doppelte URLs verteilt wird",
           ],
           tip: "Jede Seite Ihres Shops sollte ein selbstreferenzierendes Canonical Tag haben, auch Seiten ohne Duplikate. Das verhindert zukuenftige Duplikations-Probleme, wenn Parameter oder Tracking-Codes unerwartet an Ihre URLs angehaengt werden.",
+          image: {
+            src: "/images/academy/de/canonical-duplication-sources.svg",
+            alt: "Diagramm das zeigt wie ein einzelnes Produkt fuenf verschiedene URLs erzeugt ueber Direktlinks, Filter, Suche, UTM-Parameter und Session-IDs, die alle via Canonical Tags konsolidiert werden",
+            caption: "Ein einzelnes Produkt kann ueber fuenf oder mehr URLs erreichbar sein. Canonical Tags konsolidieren alle Ranking-Signale auf eine Haupt-URL.",
+          },
+          callout: {
+            title: "Doppelte URL-Rechnung",
+            text: "Ein Shop mit 10.000 Produkten, 4 Tracking-Parametern, 3 Filterpfaden und Session-IDs kann ueber 80.000 doppelte URLs erzeugen. Jede einzelne verwaessert die Ranking-Autoritaet, wenn sie nicht kanonisiert wird.",
+          },
         },
         {
           title: "Haeufige Ecommerce-Duplizierungsszenarien",
@@ -148,6 +175,15 @@ export const canonicalTagsForEcommerce: AcademyTopic = {
             "Robots.txt: blockiert Crawling, aber auch das Lesen von Canonical Tags durch Google",
           ],
           tip: "Kombinieren Sie nie Noindex mit einem Canonical Tag, das auf eine andere URL auf derselben Seite verweist. Diese Signale widersprechen sich und Google koennte beide ignorieren. Verwenden Sie das eine oder das andere, nicht beides.",
+          image: {
+            src: "/images/academy/de/canonical-tag-decision-tree.svg",
+            alt: "Entscheidungsbaum der zeigt wann Canonical Tags versus 301-Weiterleitungen versus Noindex-Tags zur Behandlung doppelter Inhalte verwendet werden",
+            caption: "Verwenden Sie diesen Entscheidungsbaum um die richtige Loesung fuer doppelte Inhalte zu waehlen: 301-Weiterleitung, Canonical Tag oder Noindex.",
+          },
+          callout: {
+            title: "Kritischer Unterschied",
+            text: "Robots.txt blockiert das Crawling, aber nicht die Indexierung. Wenn eine blockierte Seite externe Backlinks hat, verliert Google diese Signale vollstaendig. Fuer Seiten mit Backlinks sind Canonical Tags der richtige Ansatz zur Konsolidierung der Autoritaet.",
+          },
         },
         {
           title: "Haeufige Canonical-Tag-Fehler in Online-Shops",
@@ -199,6 +235,15 @@ export const canonicalTagsForEcommerce: AcademyTopic = {
             "L'autorite des backlinks est diluee lorsqu'elle est repartie sur plusieurs URLs dupliquees",
           ],
           tip: "Chaque page de votre boutique devrait avoir une balise canonical auto-referencante, meme les pages sans doublons. Cela previent les futurs problemes de duplication lorsque des parametres ou des codes de suivi sont ajoutes a vos URLs de maniere inattendue.",
+          image: {
+            src: "/images/academy/fr/canonical-duplication-sources.svg",
+            alt: "Diagramm das zeigt wie ein einzelnes Produkt fuenf verschiedene URLs erzeugt ueber Direktlinks, Filter, Suche, UTM-Parameter und Session-IDs, die alle via Canonical Tags konsolidiert werden",
+            caption: "Ein einzelnes Produkt kann ueber fuenf oder mehr URLs erreichbar sein. Canonical Tags konsolidieren alle Ranking-Signale auf eine Haupt-URL.",
+          },
+          callout: {
+            title: "Doppelte URL-Rechnung",
+            text: "Ein Shop mit 10.000 Produkten, 4 Tracking-Parametern, 3 Filterpfaden und Session-IDs kann ueber 80.000 doppelte URLs erzeugen. Jede einzelne verwaessert die Ranking-Autoritaet, wenn sie nicht kanonisiert wird.",
+          },
         },
         {
           title: "Scenarios courants de duplication en e-commerce",
@@ -236,6 +281,15 @@ export const canonicalTagsForEcommerce: AcademyTopic = {
             "Robots.txt : bloque le crawl mais empeche aussi Google de lire les balises canonical",
           ],
           tip: "Ne combinez jamais noindex avec une balise canonical pointant vers une URL differente sur la meme page. Ces signaux se contredisent et Google pourrait ignorer les deux. Utilisez l'un ou l'autre, pas les deux.",
+          image: {
+            src: "/images/academy/fr/canonical-tag-decision-tree.svg",
+            alt: "Entscheidungsbaum der zeigt wann Canonical Tags versus 301-Weiterleitungen versus Noindex-Tags zur Behandlung doppelter Inhalte verwendet werden",
+            caption: "Verwenden Sie diesen Entscheidungsbaum um die richtige Loesung fuer doppelte Inhalte zu waehlen: 301-Weiterleitung, Canonical Tag oder Noindex.",
+          },
+          callout: {
+            title: "Kritischer Unterschied",
+            text: "Robots.txt blockiert das Crawling, aber nicht die Indexierung. Wenn eine blockierte Seite externe Backlinks hat, verliert Google diese Signale vollstaendig. Fuer Seiten mit Backlinks sind Canonical Tags der richtige Ansatz zur Konsolidierung der Autoritaet.",
+          },
         },
         {
           title: "Erreurs courantes de balises canonical dans les boutiques en ligne",
@@ -287,6 +341,15 @@ export const canonicalTagsForEcommerce: AcademyTopic = {
             "La autoridad de backlinks se diluye cuando se divide entre multiples URLs duplicadas",
           ],
           tip: "Cada pagina de tu tienda debe tener una etiqueta canonical autorreferencial, incluso paginas sin duplicados. Esto previene futuros problemas de duplicacion cuando parametros o codigos de seguimiento se agregan inesperadamente a tus URLs.",
+          image: {
+            src: "/images/academy/es/canonical-duplication-sources.svg",
+            alt: "Diagramm das zeigt wie ein einzelnes Produkt fuenf verschiedene URLs erzeugt ueber Direktlinks, Filter, Suche, UTM-Parameter und Session-IDs, die alle via Canonical Tags konsolidiert werden",
+            caption: "Ein einzelnes Produkt kann ueber fuenf oder mehr URLs erreichbar sein. Canonical Tags konsolidieren alle Ranking-Signale auf eine Haupt-URL.",
+          },
+          callout: {
+            title: "Doppelte URL-Rechnung",
+            text: "Ein Shop mit 10.000 Produkten, 4 Tracking-Parametern, 3 Filterpfaden und Session-IDs kann ueber 80.000 doppelte URLs erzeugen. Jede einzelne verwaessert die Ranking-Autoritaet, wenn sie nicht kanonisiert wird.",
+          },
         },
         {
           title: "Escenarios comunes de duplicacion en ecommerce",
@@ -324,6 +387,15 @@ export const canonicalTagsForEcommerce: AcademyTopic = {
             "Robots.txt: bloquea el rastreo pero tambien bloquea que Google lea las etiquetas canonical",
           ],
           tip: "Nunca combines noindex con una etiqueta canonical apuntando a una URL diferente en la misma pagina. Estas senales se contradicen y Google podria ignorar ambas. Usa una u otra, no ambas.",
+          image: {
+            src: "/images/academy/es/canonical-tag-decision-tree.svg",
+            alt: "Entscheidungsbaum der zeigt wann Canonical Tags versus 301-Weiterleitungen versus Noindex-Tags zur Behandlung doppelter Inhalte verwendet werden",
+            caption: "Verwenden Sie diesen Entscheidungsbaum um die richtige Loesung fuer doppelte Inhalte zu waehlen: 301-Weiterleitung, Canonical Tag oder Noindex.",
+          },
+          callout: {
+            title: "Kritischer Unterschied",
+            text: "Robots.txt blockiert das Crawling, aber nicht die Indexierung. Wenn eine blockierte Seite externe Backlinks hat, verliert Google diese Signale vollstaendig. Fuer Seiten mit Backlinks sind Canonical Tags der richtige Ansatz zur Konsolidierung der Autoritaet.",
+          },
         },
         {
           title: "Errores comunes de etiquetas canonical en tiendas online",
@@ -375,6 +447,15 @@ export const canonicalTagsForEcommerce: AcademyTopic = {
             "L'autorita dei backlink si diluisce quando viene divisa tra piu URL duplicati",
           ],
           tip: "Ogni pagina del tuo negozio dovrebbe avere un tag canonical autoreferenziale, anche le pagine senza duplicati. Questo previene futuri problemi di duplicazione quando parametri o codici di tracciamento vengono aggiunti inaspettatamente ai tuoi URL.",
+          image: {
+            src: "/images/academy/it/canonical-duplication-sources.svg",
+            alt: "Diagramm das zeigt wie ein einzelnes Produkt fuenf verschiedene URLs erzeugt ueber Direktlinks, Filter, Suche, UTM-Parameter und Session-IDs, die alle via Canonical Tags konsolidiert werden",
+            caption: "Ein einzelnes Produkt kann ueber fuenf oder mehr URLs erreichbar sein. Canonical Tags konsolidieren alle Ranking-Signale auf eine Haupt-URL.",
+          },
+          callout: {
+            title: "Doppelte URL-Rechnung",
+            text: "Ein Shop mit 10.000 Produkten, 4 Tracking-Parametern, 3 Filterpfaden und Session-IDs kann ueber 80.000 doppelte URLs erzeugen. Jede einzelne verwaessert die Ranking-Autoritaet, wenn sie nicht kanonisiert wird.",
+          },
         },
         {
           title: "Scenari comuni di duplicazione nell'ecommerce",
@@ -412,6 +493,15 @@ export const canonicalTagsForEcommerce: AcademyTopic = {
             "Robots.txt: blocca la scansione ma impedisce anche a Google di leggere i tag canonical",
           ],
           tip: "Non combinare mai noindex con un tag canonical che punta a un URL diverso sulla stessa pagina. Questi segnali si contraddicono e Google potrebbe ignorare entrambi. Usa uno o l'altro, non entrambi.",
+          image: {
+            src: "/images/academy/it/canonical-tag-decision-tree.svg",
+            alt: "Entscheidungsbaum der zeigt wann Canonical Tags versus 301-Weiterleitungen versus Noindex-Tags zur Behandlung doppelter Inhalte verwendet werden",
+            caption: "Verwenden Sie diesen Entscheidungsbaum um die richtige Loesung fuer doppelte Inhalte zu waehlen: 301-Weiterleitung, Canonical Tag oder Noindex.",
+          },
+          callout: {
+            title: "Kritischer Unterschied",
+            text: "Robots.txt blockiert das Crawling, aber nicht die Indexierung. Wenn eine blockierte Seite externe Backlinks hat, verliert Google diese Signale vollstaendig. Fuer Seiten mit Backlinks sind Canonical Tags der richtige Ansatz zur Konsolidierung der Autoritaet.",
+          },
         },
         {
           title: "Errori comuni dei tag canonical nei negozi online",
@@ -463,6 +553,15 @@ export const canonicalTagsForEcommerce: AcademyTopic = {
             "Backlinkautoriteit wordt verdund wanneer het verdeeld wordt over meerdere dubbele URL's",
           ],
           tip: "Elke pagina van je winkel moet een zelfrefererende canonical tag hebben, zelfs pagina's zonder duplicaten. Dit voorkomt toekomstige duplicatieproblemen wanneer parameters of trackingcodes onverwacht aan je URL's worden toegevoegd.",
+          image: {
+            src: "/images/academy/nl/canonical-duplication-sources.svg",
+            alt: "Diagramm das zeigt wie ein einzelnes Produkt fuenf verschiedene URLs erzeugt ueber Direktlinks, Filter, Suche, UTM-Parameter und Session-IDs, die alle via Canonical Tags konsolidiert werden",
+            caption: "Ein einzelnes Produkt kann ueber fuenf oder mehr URLs erreichbar sein. Canonical Tags konsolidieren alle Ranking-Signale auf eine Haupt-URL.",
+          },
+          callout: {
+            title: "Doppelte URL-Rechnung",
+            text: "Ein Shop mit 10.000 Produkten, 4 Tracking-Parametern, 3 Filterpfaden und Session-IDs kann ueber 80.000 doppelte URLs erzeugen. Jede einzelne verwaessert die Ranking-Autoritaet, wenn sie nicht kanonisiert wird.",
+          },
         },
         {
           title: "Veelvoorkomende ecommerce-duplicatiescenario's",
@@ -500,6 +599,15 @@ export const canonicalTagsForEcommerce: AcademyTopic = {
             "Robots.txt: blokkeert crawling maar blokkeert ook dat Google canonical tags kan lezen",
           ],
           tip: "Combineer nooit noindex met een canonical tag die naar een andere URL op dezelfde pagina wijst. Deze signalen spreken elkaar tegen en Google kan beide negeren. Gebruik het een of het ander, niet beide.",
+          image: {
+            src: "/images/academy/nl/canonical-tag-decision-tree.svg",
+            alt: "Entscheidungsbaum der zeigt wann Canonical Tags versus 301-Weiterleitungen versus Noindex-Tags zur Behandlung doppelter Inhalte verwendet werden",
+            caption: "Verwenden Sie diesen Entscheidungsbaum um die richtige Loesung fuer doppelte Inhalte zu waehlen: 301-Weiterleitung, Canonical Tag oder Noindex.",
+          },
+          callout: {
+            title: "Kritischer Unterschied",
+            text: "Robots.txt blockiert das Crawling, aber nicht die Indexierung. Wenn eine blockierte Seite externe Backlinks hat, verliert Google diese Signale vollstaendig. Fuer Seiten mit Backlinks sind Canonical Tags der richtige Ansatz zur Konsolidierung der Autoritaet.",
+          },
         },
         {
           title: "Veelgemaakte canonical tag-fouten in webwinkels",

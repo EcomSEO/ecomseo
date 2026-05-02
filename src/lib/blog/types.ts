@@ -3,6 +3,8 @@ import type { Locale } from "@/lib/i18n/config";
 export type BlogSection = {
   heading: string;
   body: string[];
+  callout?: { title: string; text: string };
+  image?: { src: string; alt: string; caption?: string };
 };
 
 export type BlogArticleContent = {

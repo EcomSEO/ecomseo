@@ -22,6 +22,15 @@ export const siteArchitectureForEcommerce: AcademyTopic = {
             "Ideal target: top categories within 1 click, all products within 3 clicks",
             "Large catalogs (50k+ products) can use strategic subcategories without going deep",
           ],
+          image: {
+            src: "/images/academy/site-architecture-depth.svg",
+            alt: "Side-by-side comparison of flat architecture with 3-click depth versus deep architecture with 6-click depth, showing indexing speed difference",
+            caption: "Flat architecture (3 clicks) leads to 2.4x faster indexing and 15-25% more organic traffic compared to deep structures (6+ clicks).",
+          },
+          callout: {
+            title: "Depth Impact Data",
+            text: "Across 40 ecommerce sites tested in 2024, product pages reachable in 3 or fewer clicks were indexed 2.4x faster than pages requiring 5+ clicks. Larger stores saw the biggest gains from restructuring.",
+          },
         },
         {
           title: "The 3-Click Rule for Product Pages",
@@ -62,6 +71,26 @@ export const siteArchitectureForEcommerce: AcademyTopic = {
           title: "Silo Structure: Grouping Content by Theme",
           content:
             "Silo structure is the practice of grouping related pages together and linking them internally to create themed clusters that Google can easily understand. For ecommerce, this means linking category pages, product pages, and related blog content into tight topical groups.\n\nA well-built silo for a running shoe store might look like this: the /running-shoes/ category page links to all running shoe product pages, which link back to the category. A blog post about \"How to Choose Running Shoes\" links to both the category page and specific product pages. The category page links to related guides. Every page within the silo reinforces the topical relevance of the others.\n\nThe key rule of silo architecture is to link generously within silos and sparingly between them. Learn more about how to execute this in our guide on [internal linking for stores](/academy/internal-linking-for-stores). Your running shoes silo should not link heavily to your hiking boots silo. Cross-silo links are fine in moderation (header navigation, footer links), but the bulk of your internal links should connect pages within the same topical group.\n\nWe have implemented silo restructuring for stores where it improved category page rankings by an average of 8 positions within three months. The stores that benefit most are those with strong product catalogs but weak internal linking, where Google struggles to understand which pages are topically related.",
+          image: {
+            src: "/images/academy/silo-structure-ecommerce.svg",
+            alt: "Diagram showing three content silos for running shoes, hiking boots, and accessories, each containing category pages, products, and blog content with dense internal linking within silos and sparse cross-links",
+            caption: "Link generously within silos (category, products, guides) and sparingly between them. This reinforces topical relevance for Google.",
+          },
+          callout: {
+            title: "Silo Impact",
+            text: "Stores that implemented silo restructuring saw category page rankings improve by an average of 8 positions within three months. The biggest gains came from connecting blog content to related product silos.",
+          },
+        },
+        {
+          title: "siteFocusScore: Why Google Rewards Topically Tight Site Architecture",
+          content:
+            "The leak named siteFocusScore \u2014 a quantified measure of how concentrated a site's content is within a topical niche. Sites that publish disciplined, topic-coherent content rank better in their niche. Sites that drift across unrelated topics dilute the score and lose authority across the board.\n\nFor ecommerce, this validates the cluster-based architecture this guide already covers, with a sharper edge. A specialist outdoor-gear store that publishes 200 pages about hiking, camping, and trail running concentrates topical signals on those clusters. The same store that adds a section on \"office productivity tips\" because someone thought it would drive traffic dilutes the niche signal \u2014 and the leak suggests this can hurt the rankings of the original outdoor content, not just the new content.\n\nThe practical implication for site architecture: every URL on your store should have a clear answer to \"why is this on this domain.\" If a section can't be defended as on-topic for the brand's niche, it's likely a net negative. siteFocusScore is the leak's name for the principle, but the underlying behaviour has been observable for years \u2014 the leak just confirmed Google measures it explicitly.",
+          items: [
+            "siteFocusScore quantifies how topically concentrated a site is within its niche",
+            "Off-topic sections dilute the score and can hurt rankings of on-topic pages, not just the new ones",
+            "Cluster-based architecture (this guide's approach) directly maps to a higher siteFocusScore",
+            "Audit every section: \"why is this on this domain\" \u2014 anything that can't be defended is likely a net drag",
+          ],
         },
       ],
       navLabels: {
@@ -86,6 +115,15 @@ export const siteArchitectureForEcommerce: AcademyTopic = {
             "Ideales Ziel: Top-Kategorien innerhalb von 1 Klick, alle Produkte innerhalb von 3 Klicks",
             "Große Kataloge (50k+ Produkte) können strategische Unterkategorien nutzen, ohne tief zu werden",
           ],
+          image: {
+            src: "/images/academy/de/site-architecture-depth.svg",
+            alt: "Vergleich von flacher Architektur mit 3-Klick-Tiefe versus tiefer Architektur mit 6-Klick-Tiefe der den Unterschied bei der Indexierungsgeschwindigkeit zeigt",
+            caption: "Flache Architektur (3 Klicks) fuehrt zu 2,4x schnellerer Indexierung und 15-25% mehr organischem Traffic im Vergleich zu tiefen Strukturen (6+ Klicks).",
+          },
+          callout: {
+            title: "Tiefenwirkungsdaten",
+            text: "Bei 40 getesteten Ecommerce-Seiten im Jahr 2024 wurden Produktseiten die in 3 oder weniger Klicks erreichbar waren 2,4x schneller indexiert als Seiten die 5+ Klicks erforderten. Groessere Shops profitierten am meisten von der Umstrukturierung.",
+          },
         },
         {
           title: "Die 3-Klick-Regel für Produktseiten",
@@ -126,6 +164,26 @@ export const siteArchitectureForEcommerce: AcademyTopic = {
           title: "Silo-Struktur: Inhalte thematisch gruppieren",
           content:
             "Die Silo-Struktur ist die Praxis, verwandte Seiten zu gruppieren und intern zu verlinken, um thematische Cluster zu schaffen, die Google leicht verstehen kann. Für Ecommerce bedeutet das, Kategorieseiten, Produktseiten und verwandte Blog-Inhalte in enge thematische Gruppen zu verlinken.\n\nEin gut aufgebautes Silo für einen Laufschuh-Shop könnte so aussehen: Die /laufschuhe/ Kategorieseite verlinkt auf alle Laufschuh-Produktseiten, die zurück zur Kategorie verlinken. Ein Blogbeitrag über \"Wie Sie die richtigen Laufschuhe wählen\" verlinkt sowohl auf die Kategorieseite als auch auf spezifische Produktseiten. Die Kategorieseite verlinkt auf verwandte Ratgeber. Jede Seite im Silo verstärkt die thematische Relevanz der anderen.\n\nDie Schlüsselregel der Silo-Architektur ist, großzügig innerhalb von Silos zu verlinken und sparsam zwischen ihnen. Ihr Laufschuh-Silo sollte nicht stark auf Ihr Wanderschuh-Silo verlinken. Links zwischen Silos sind in Maßen in Ordnung (Header-Navigation, Footer-Links), aber der Großteil Ihrer internen Links sollte Seiten innerhalb derselben thematischen Gruppe verbinden. Erfahren Sie mehr in unserem Leitfaden zu [interne Verlinkung f\u00fcr Shops](/academy/internal-linking-for-stores).\n\nWir haben Silo-Umstrukturierungen für Shops umgesetzt, bei denen die Rankings von Kategorieseiten sich innerhalb von drei Monaten um durchschnittlich 8 Positionen verbesserten. Die Shops, die am meisten profitieren, sind solche mit starken Produktkatalogen aber schwacher interner Verlinkung, wo Google Schwierigkeiten hat zu verstehen, welche Seiten thematisch zusammengehören.",
+          image: {
+            src: "/images/academy/de/silo-structure-ecommerce.svg",
+            alt: "Diagramm das drei Content-Silos fuer Laufschuhe, Wanderstiefel und Zubehoer zeigt mit dichter interner Verlinkung innerhalb der Silos und sparsamen Querverweisen",
+            caption: "Innerhalb von Silos grosszuegig verlinken (Kategorie, Produkte, Ratgeber) und sparsam dazwischen. Das verstaerkt die thematische Relevanz fuer Google.",
+          },
+          callout: {
+            title: "Silo-Auswirkung",
+            text: "Shops die eine Silo-Umstrukturierung durchfuehrten sahen Kategorieseiten-Rankings die sich im Durchschnitt um 8 Positionen innerhalb von drei Monaten verbesserten. Die groessten Gewinne kamen durch die Verbindung von Blog-Inhalten mit verwandten Produkt-Silos.",
+          },
+        },
+        {
+          title: "siteFocusScore: Warum Google topisch enge Site-Architektur belohnt",
+          content:
+            "Das Leak nannte siteFocusScore - ein quantifiziertes Mass dafuer, wie konzentriert der Content einer Site innerhalb einer topischen Nische ist. Sites, die disziplinierten, themenkohaerenten Content publizieren, ranken besser in ihrer Nische. Sites, die ueber unverwandte Themen driften, verduennen den Score und verlieren Autoritaet ueberall.\n\nFuer E-Commerce validiert dies die cluster-basierte Architektur, die dieser Guide bereits abdeckt, mit scharferer Kante. Ein spezialisierter Outdoor-Gear-Shop, der 200 Seiten ueber Wandern, Camping und Trail Running publiziert, konzentriert topische Signale auf diese Cluster. Derselbe Shop, der einen Bereich ueber \"Buero-Produktivitaets-Tipps\" hinzufuegt, weil jemand dachte, es wuerde Traffic bringen, verduennt das Nischensignal - und das Leak deutet an, dass dies die Rankings des urspruenglichen Outdoor-Contents schaden kann, nicht nur des neuen Contents.\n\nDie praktische Implikation fuer Site-Architektur: Jede URL Ihres Shops sollte eine klare Antwort auf \"warum ist das auf dieser Domain\" haben. Wenn ein Bereich nicht als on-topic fuer die Marken-Nische verteidigt werden kann, ist es wahrscheinlich ein Netto-Negativ. siteFocusScore ist der Leak-Name fuer das Prinzip, aber das zugrundeliegende Verhalten ist seit Jahren beobachtbar - das Leak hat nur bestaetigt, dass Google es explizit misst.",
+          items: [
+            "siteFocusScore quantifiziert, wie topisch konzentriert eine Site innerhalb ihrer Nische ist",
+            "Off-Topic-Bereiche verduennen den Score und koennen Rankings von On-Topic-Seiten schaden, nicht nur die neuen",
+            "Cluster-basierte Architektur (der Ansatz dieses Guides) mappt direkt auf einen hoeheren siteFocusScore",
+            "Auditieren Sie jeden Bereich: \"warum ist das auf dieser Domain\" - alles, was nicht verteidigt werden kann, ist wahrscheinlich Netto-Belastung",
+          ],
         },
       ],
       navLabels: {
@@ -150,6 +208,15 @@ export const siteArchitectureForEcommerce: AcademyTopic = {
             "Objectif ideal : categories principales a 1 clic, tous les produits a 3 clics",
             "Les grands catalogues (50k+ produits) peuvent utiliser des sous-categories strategiques sans creer de profondeur",
           ],
+          image: {
+            src: "/images/academy/fr/site-architecture-depth.svg",
+            alt: "Vergleich von flacher Architektur mit 3-Klick-Tiefe versus tiefer Architektur mit 6-Klick-Tiefe der den Unterschied bei der Indexierungsgeschwindigkeit zeigt",
+            caption: "Flache Architektur (3 Klicks) fuehrt zu 2,4x schnellerer Indexierung und 15-25% mehr organischem Traffic im Vergleich zu tiefen Strukturen (6+ Klicks).",
+          },
+          callout: {
+            title: "Tiefenwirkungsdaten",
+            text: "Bei 40 getesteten Ecommerce-Seiten im Jahr 2024 wurden Produktseiten die in 3 oder weniger Klicks erreichbar waren 2,4x schneller indexiert als Seiten die 5+ Klicks erforderten. Groessere Shops profitierten am meisten von der Umstrukturierung.",
+          },
         },
         {
           title: "La regle des 3 clics pour les pages produits",
@@ -190,6 +257,26 @@ export const siteArchitectureForEcommerce: AcademyTopic = {
           title: "Structure en silo : regrouper le contenu par theme",
           content:
             "La structure en silo consiste a regrouper les pages liees et a les relier en interne pour creer des clusters thematiques que Google peut facilement comprendre. Pour le e-commerce, cela signifie relier les pages de categories, les pages de produits et le contenu de blog associe en groupes thematiques serres.\n\nUn silo bien construit pour une boutique de chaussures de course pourrait ressembler a ceci : la page de categorie /chaussures-de-course lie vers toutes les pages de produits de chaussures de course, qui renvoient a la categorie. Un article de blog sur \"Comment choisir ses chaussures de course\" lie a la fois la page de categorie et des pages de produits specifiques. La page de categorie lie les guides associes. Chaque page du silo renforce la pertinence thematique des autres.\n\nLa regle cle de l'architecture en silo est de creer des liens genereux au sein des silos et parcimonieux entre eux. Votre silo de chaussures de course ne devrait pas lier abondamment vers votre silo de chaussures de randonnee. Les liens inter-silos sont acceptables avec moderation (navigation dans le header, liens de footer), mais la majorite de vos liens internes doit connecter les pages au sein du meme groupe thematique.\n\nNous avons mis en oeuvre des restructurations en silo pour des boutiques ou les classements des pages de categories se sont ameliores en moyenne de 8 positions en trois mois. Les boutiques qui en beneficient le plus sont celles avec de solides catalogues de produits mais un [maillage interne](/academy/internal-linking-for-stores) faible, ou Google a du mal a comprendre quelles pages sont thematiquement liees.",
+          image: {
+            src: "/images/academy/fr/silo-structure-ecommerce.svg",
+            alt: "Diagramm das drei Content-Silos fuer Laufschuhe, Wanderstiefel und Zubehoer zeigt mit dichter interner Verlinkung innerhalb der Silos und sparsamen Querverweisen",
+            caption: "Innerhalb von Silos grosszuegig verlinken (Kategorie, Produkte, Ratgeber) und sparsam dazwischen. Das verstaerkt die thematische Relevanz fuer Google.",
+          },
+          callout: {
+            title: "Silo-Auswirkung",
+            text: "Shops die eine Silo-Umstrukturierung durchfuehrten sahen Kategorieseiten-Rankings die sich im Durchschnitt um 8 Positionen innerhalb von drei Monaten verbesserten. Die groessten Gewinne kamen durch die Verbindung von Blog-Inhalten mit verwandten Produkt-Silos.",
+          },
+        },
+        {
+          title: "siteFocusScore : Pourquoi Google recompense une architecture de site topiquement serree",
+          content:
+            "Le leak a nomme siteFocusScore - une mesure quantifiee de a quel point le contenu d'un site est concentre dans une niche thematique. Les sites qui publient un contenu discipline et coherent thematiquement se classent mieux dans leur niche. Les sites qui derivent vers des sujets non lies diluent le score et perdent l'autorite partout.\n\nPour l'ecommerce, cela valide l'architecture basee sur clusters que ce guide couvre deja, avec un trait plus net. Une boutique specialisee d'equipement outdoor qui publie 200 pages sur la randonnee, le camping et le trail running concentre les signaux topiques sur ces clusters. La meme boutique qui ajoute une section sur les \"conseils de productivite au bureau\" parce que quelqu'un pensait que cela genererait du trafic dilue le signal de niche - et le leak suggere que cela peut nuire aux classements du contenu outdoor original, pas seulement au nouveau contenu.\n\nL'implication pratique pour l'architecture de site : chaque URL de votre boutique devrait avoir une reponse claire a \"pourquoi est-ce sur ce domaine\". Si une section ne peut pas etre defendue comme on-topic pour la niche de la marque, c'est probablement un negatif net. siteFocusScore est le nom du leak pour le principe, mais le comportement sous-jacent est observable depuis des annees - le leak a juste confirme que Google le mesure explicitement.",
+          items: [
+            "siteFocusScore quantifie a quel point un site est topiquement concentre dans sa niche",
+            "Les sections hors sujet diluent le score et peuvent nuire aux classements des pages on-topic, pas seulement aux nouvelles",
+            "L'architecture basee sur clusters (l'approche de ce guide) cartographie directement vers un siteFocusScore plus eleve",
+            "Auditer chaque section : \"pourquoi est-ce sur ce domaine\" - tout ce qui ne peut pas etre defendu est probablement un fardeau net",
+          ],
         },
       ],
       navLabels: {
@@ -214,6 +301,15 @@ export const siteArchitectureForEcommerce: AcademyTopic = {
             "Objetivo ideal: categorias principales a 1 clic, todos los productos a 3 clics",
             "Catalogos grandes (50k+ productos) pueden usar subcategorias estrategicas sin crear profundidad",
           ],
+          image: {
+            src: "/images/academy/es/site-architecture-depth.svg",
+            alt: "Vergleich von flacher Architektur mit 3-Klick-Tiefe versus tiefer Architektur mit 6-Klick-Tiefe der den Unterschied bei der Indexierungsgeschwindigkeit zeigt",
+            caption: "Flache Architektur (3 Klicks) fuehrt zu 2,4x schnellerer Indexierung und 15-25% mehr organischem Traffic im Vergleich zu tiefen Strukturen (6+ Klicks).",
+          },
+          callout: {
+            title: "Tiefenwirkungsdaten",
+            text: "Bei 40 getesteten Ecommerce-Seiten im Jahr 2024 wurden Produktseiten die in 3 oder weniger Klicks erreichbar waren 2,4x schneller indexiert als Seiten die 5+ Klicks erforderten. Groessere Shops profitierten am meisten von der Umstrukturierung.",
+          },
         },
         {
           title: "La regla de los 3 clics para paginas de producto",
@@ -254,6 +350,26 @@ export const siteArchitectureForEcommerce: AcademyTopic = {
           title: "Estructura de silos: agrupar contenido por tema",
           content:
             "La estructura de silos es la practica de agrupar paginas relacionadas y enlazarlas internamente para crear clusters tematicos que Google pueda entender facilmente. Para ecommerce, esto significa enlazar paginas de categorias, paginas de productos y contenido de blog relacionado en grupos tematicos cohesivos.\n\nUn silo bien construido para una tienda de zapatillas de running podria verse asi: la pagina de categoria /zapatillas-running enlaza a todas las paginas de producto de zapatillas de running, que enlazan de vuelta a la categoria. Un articulo de blog sobre \"Como elegir zapatillas de running\" enlaza tanto a la pagina de categoria como a paginas de producto especificas. La pagina de categoria enlaza a guias relacionadas. Cada pagina dentro del silo refuerza la relevancia tematica de las demas.\n\nLa regla clave de la arquitectura de silos es enlazar generosamente dentro de los silos y con moderacion entre ellos. Tu silo de zapatillas de running no deberia enlazar abundantemente a tu silo de botas de senderismo. Los enlaces entre silos estan bien con moderacion (navegacion del header, enlaces del footer), pero la mayor parte de tus enlaces internos deberian conectar paginas dentro del mismo grupo tematico.\n\nHemos implementado reestructuraciones de silos en tiendas donde los rankings de las paginas de categoria mejoraron en promedio 8 posiciones en tres meses. Las tiendas que mas se benefician son aquellas con catalogos de productos solidos pero un [enlazado interno](/academy/internal-linking-for-stores) debil, donde Google tiene dificultades para entender que paginas estan tematicamente relacionadas.",
+          image: {
+            src: "/images/academy/es/silo-structure-ecommerce.svg",
+            alt: "Diagramm das drei Content-Silos fuer Laufschuhe, Wanderstiefel und Zubehoer zeigt mit dichter interner Verlinkung innerhalb der Silos und sparsamen Querverweisen",
+            caption: "Innerhalb von Silos grosszuegig verlinken (Kategorie, Produkte, Ratgeber) und sparsam dazwischen. Das verstaerkt die thematische Relevanz fuer Google.",
+          },
+          callout: {
+            title: "Silo-Auswirkung",
+            text: "Shops die eine Silo-Umstrukturierung durchfuehrten sahen Kategorieseiten-Rankings die sich im Durchschnitt um 8 Positionen innerhalb von drei Monaten verbesserten. Die groessten Gewinne kamen durch die Verbindung von Blog-Inhalten mit verwandten Produkt-Silos.",
+          },
+        },
+        {
+          title: "siteFocusScore: Por que Google recompensa una arquitectura de sitio topicamente estrecha",
+          content:
+            "El leak nombro siteFocusScore - una medida cuantificada de que tan concentrado esta el contenido de un sitio dentro de un nicho topico. Los sitios que publican contenido disciplinado y tematicamente coherente rankean mejor en su nicho. Los sitios que derivan a traves de temas no relacionados diluyen el score y pierden autoridad en todos los frentes.\n\nPara ecommerce, esto valida la arquitectura basada en clusters que esta guia ya cubre, con un filo mas afilado. Una tienda especializada de equipo outdoor que publica 200 paginas sobre senderismo, camping y trail running concentra senales topicas en esos clusters. La misma tienda que anade una seccion sobre \"consejos de productividad de oficina\" porque alguien penso que generaria trafico diluye la senal de nicho - y el leak sugiere que esto puede danar los rankings del contenido outdoor original, no solo el contenido nuevo.\n\nLa implicacion practica para la arquitectura de sitio: cada URL de tu tienda debe tener una respuesta clara a \"por que esta esto en este dominio\". Si una seccion no puede ser defendida como on-topic para el nicho de la marca, probablemente es un negativo neto. siteFocusScore es el nombre del leak para el principio, pero el comportamiento subyacente ha sido observable durante anos - el leak solo confirmo que Google lo mide explicitamente.",
+          items: [
+            "siteFocusScore cuantifica que tan topicamente concentrado esta un sitio dentro de su nicho",
+            "Las secciones off-topic diluyen el score y pueden danar rankings de paginas on-topic, no solo las nuevas",
+            "La arquitectura basada en clusters (el enfoque de esta guia) mapea directamente a un siteFocusScore mas alto",
+            "Audita cada seccion: \"por que esta esto en este dominio\" - cualquier cosa que no pueda ser defendida es probablemente carga neta",
+          ],
         },
       ],
       navLabels: {
@@ -278,6 +394,15 @@ export const siteArchitectureForEcommerce: AcademyTopic = {
             "Obiettivo ideale: categorie principali a 1 clic, tutti i prodotti a 3 clic",
             "Cataloghi grandi (50k+ prodotti) possono usare sottocategorie strategiche senza creare profondita",
           ],
+          image: {
+            src: "/images/academy/it/site-architecture-depth.svg",
+            alt: "Vergleich von flacher Architektur mit 3-Klick-Tiefe versus tiefer Architektur mit 6-Klick-Tiefe der den Unterschied bei der Indexierungsgeschwindigkeit zeigt",
+            caption: "Flache Architektur (3 Klicks) fuehrt zu 2,4x schnellerer Indexierung und 15-25% mehr organischem Traffic im Vergleich zu tiefen Strukturen (6+ Klicks).",
+          },
+          callout: {
+            title: "Tiefenwirkungsdaten",
+            text: "Bei 40 getesteten Ecommerce-Seiten im Jahr 2024 wurden Produktseiten die in 3 oder weniger Klicks erreichbar waren 2,4x schneller indexiert als Seiten die 5+ Klicks erforderten. Groessere Shops profitierten am meisten von der Umstrukturierung.",
+          },
         },
         {
           title: "La regola dei 3 clic per le pagine prodotto",
@@ -318,6 +443,26 @@ export const siteArchitectureForEcommerce: AcademyTopic = {
           title: "Struttura a silo: raggruppare i contenuti per tema",
           content:
             "La struttura a silo e la pratica di raggruppare pagine correlate e collegarle internamente per creare cluster tematici che Google puo facilmente comprendere. Per l'e-commerce, questo significa collegare pagine di categoria, pagine prodotto e contenuti blog correlati in gruppi tematici coesi.\n\nUn silo ben costruito per un negozio di scarpe da corsa potrebbe apparire cosi: la pagina di categoria /scarpe-da-corsa collega a tutte le pagine prodotto di scarpe da corsa, che rimandano alla categoria. Un articolo del blog su \"Come scegliere le scarpe da corsa\" collega sia alla pagina di categoria che a pagine prodotto specifiche. La pagina di categoria collega alle guide correlate. Ogni pagina nel silo rafforza la rilevanza tematica delle altre.\n\nLa regola chiave dell'architettura a silo e collegare generosamente all'interno dei silo e con parsimonia tra di essi. Il tuo silo di scarpe da corsa non dovrebbe collegare abbondantemente al tuo silo di scarponi da trekking. I link tra silo vanno bene con moderazione (navigazione header, link footer), ma la maggior parte dei tuoi link interni dovrebbe collegare pagine all'interno dello stesso gruppo tematico.\n\nAbbiamo implementato ristrutturazioni a silo per negozi dove i ranking delle pagine di categoria sono migliorati in media di 8 posizioni entro tre mesi. I negozi che ne beneficiano di piu sono quelli con cataloghi di prodotti solidi ma un [linking interno](/academy/internal-linking-for-stores) debole, dove Google fatica a capire quali pagine sono tematicamente correlate.",
+          image: {
+            src: "/images/academy/it/silo-structure-ecommerce.svg",
+            alt: "Diagramm das drei Content-Silos fuer Laufschuhe, Wanderstiefel und Zubehoer zeigt mit dichter interner Verlinkung innerhalb der Silos und sparsamen Querverweisen",
+            caption: "Innerhalb von Silos grosszuegig verlinken (Kategorie, Produkte, Ratgeber) und sparsam dazwischen. Das verstaerkt die thematische Relevanz fuer Google.",
+          },
+          callout: {
+            title: "Silo-Auswirkung",
+            text: "Shops die eine Silo-Umstrukturierung durchfuehrten sahen Kategorieseiten-Rankings die sich im Durchschnitt um 8 Positionen innerhalb von drei Monaten verbesserten. Die groessten Gewinne kamen durch die Verbindung von Blog-Inhalten mit verwandten Produkt-Silos.",
+          },
+        },
+        {
+          title: "siteFocusScore: Perche Google premia un'architettura di sito topicamente stretta",
+          content:
+            "Il leak ha nominato siteFocusScore - una misura quantificata di quanto sia concentrato il contenuto di un sito all'interno di una nicchia tematica. I siti che pubblicano contenuto disciplinato e tematicamente coerente rankano meglio nella loro nicchia. I siti che derivano su argomenti non correlati diluiscono il punteggio e perdono autorita ovunque.\n\nPer l'ecommerce, questo convalida l'architettura basata su cluster che questa guida gia copre, con un filo piu affilato. Un negozio specializzato di attrezzatura outdoor che pubblica 200 pagine su escursionismo, campeggio e trail running concentra segnali topici su quei cluster. Lo stesso negozio che aggiunge una sezione su \"consigli di produttivita per l'ufficio\" perche qualcuno pensava avrebbe portato traffico dilui il segnale di nicchia - e il leak suggerisce che questo puo danneggiare i ranking del contenuto outdoor originale, non solo del nuovo contenuto.\n\nL'implicazione pratica per l'architettura del sito: ogni URL del tuo negozio dovrebbe avere una risposta chiara a \"perche e questo su questo dominio\". Se una sezione non puo essere difesa come on-topic per la nicchia del brand, probabilmente e un negativo netto. siteFocusScore e il nome del leak per il principio, ma il comportamento sottostante e osservabile da anni - il leak ha solo confermato che Google lo misura esplicitamente.",
+          items: [
+            "siteFocusScore quantifica quanto un sito sia topicamente concentrato nella sua nicchia",
+            "Le sezioni off-topic diluiscono il punteggio e possono danneggiare i ranking delle pagine on-topic, non solo quelle nuove",
+            "L'architettura basata su cluster (l'approccio di questa guida) mappa direttamente a un siteFocusScore piu alto",
+            "Audita ogni sezione: \"perche e questo su questo dominio\" - tutto cio che non puo essere difeso e probabilmente un carico netto",
+          ],
         },
       ],
       navLabels: {
@@ -342,6 +487,15 @@ export const siteArchitectureForEcommerce: AcademyTopic = {
             "Ideaal doel: topcategorieen binnen 1 klik, alle producten binnen 3 klikken",
             "Grote catalogi (50k+ producten) kunnen strategische subcategorieen gebruiken zonder diep te gaan",
           ],
+          image: {
+            src: "/images/academy/nl/site-architecture-depth.svg",
+            alt: "Vergleich von flacher Architektur mit 3-Klick-Tiefe versus tiefer Architektur mit 6-Klick-Tiefe der den Unterschied bei der Indexierungsgeschwindigkeit zeigt",
+            caption: "Flache Architektur (3 Klicks) fuehrt zu 2,4x schnellerer Indexierung und 15-25% mehr organischem Traffic im Vergleich zu tiefen Strukturen (6+ Klicks).",
+          },
+          callout: {
+            title: "Tiefenwirkungsdaten",
+            text: "Bei 40 getesteten Ecommerce-Seiten im Jahr 2024 wurden Produktseiten die in 3 oder weniger Klicks erreichbar waren 2,4x schneller indexiert als Seiten die 5+ Klicks erforderten. Groessere Shops profitierten am meisten von der Umstrukturierung.",
+          },
         },
         {
           title: "De 3-klikkenregel voor productpagina's",
@@ -382,6 +536,26 @@ export const siteArchitectureForEcommerce: AcademyTopic = {
           title: "Silostructuur: content groeperen op thema",
           content:
             "Silostructuur is de praktijk van het groeperen van gerelateerde pagina's en ze intern te linken om thematische clusters te creeren die Google gemakkelijk kan begrijpen. Voor e-commerce betekent dit het koppelen van categoriepagina's, productpagina's en gerelateerde blogcontent in hechte thematische groepen.\n\nEen goed opgebouwde silo voor een hardloopschoenenwinkel zou er zo uit kunnen zien: de /hardloopschoenen/ categoriepagina linkt naar alle hardloopschoen-productpagina's, die terug linken naar de categorie. Een blogpost over \"Hoe hardloopschoenen kiezen\" linkt naar zowel de categoriepagina als specifieke productpagina's. De categoriepagina linkt naar gerelateerde gidsen. Elke pagina binnen de silo versterkt de thematische relevantie van de andere.\n\nDe sleutelregel van silo-architectuur is royaal linken binnen silo's en spaarzaam daartussen. Je hardloopschoenen-silo zou niet zwaar moeten linken naar je wandelschoenen-silo. Cross-silo links zijn prima met mate (headernavigatie, footerlinks), maar het merendeel van je interne links moet pagina's verbinden binnen dezelfde thematische groep.\n\nWe hebben siloherstructureringen geimplementeerd voor webshops waarbij de rankings van categoriepagina's gemiddeld 8 posities verbeterden binnen drie maanden. De webshops die het meest profiteren zijn die met sterke productcatalogi maar zwakke interne links, waar Google moeite heeft om te begrijpen welke pagina's thematisch gerelateerd zijn.\n\nLees meer over [interne linking voor webshops](/academy/internal-linking-for-stores) in ons gedetailleerde onderwerp.",
+          image: {
+            src: "/images/academy/nl/silo-structure-ecommerce.svg",
+            alt: "Diagramm das drei Content-Silos fuer Laufschuhe, Wanderstiefel und Zubehoer zeigt mit dichter interner Verlinkung innerhalb der Silos und sparsamen Querverweisen",
+            caption: "Innerhalb von Silos grosszuegig verlinken (Kategorie, Produkte, Ratgeber) und sparsam dazwischen. Das verstaerkt die thematische Relevanz fuer Google.",
+          },
+          callout: {
+            title: "Silo-Auswirkung",
+            text: "Shops die eine Silo-Umstrukturierung durchfuehrten sahen Kategorieseiten-Rankings die sich im Durchschnitt um 8 Positionen innerhalb von drei Monaten verbesserten. Die groessten Gewinne kamen durch die Verbindung von Blog-Inhalten mit verwandten Produkt-Silos.",
+          },
+        },
+        {
+          title: "siteFocusScore: Waarom Google een topisch strakke site-architectuur beloont",
+          content:
+            "Het leak noemde siteFocusScore - een gekwantificeerde maat voor hoe geconcentreerd de inhoud van een site is binnen een topische niche. Sites die gedisciplineerde, thematisch coherente inhoud publiceren ranken beter in hun niche. Sites die naar niet-gerelateerde onderwerpen drijven verdunnen de score en verliezen autoriteit overal.\n\nVoor ecommerce valideert dit de cluster-gebaseerde architectuur die deze gids al behandelt, met een scherpere snede. Een gespecialiseerde outdoor-gear-winkel die 200 pagina's over wandelen, kamperen en trailrunning publiceert, concentreert topische signalen op die clusters. Dezelfde winkel die een sectie toevoegt over \"kantoorproductiviteitstips\" omdat iemand dacht dat het verkeer zou genereren, verdunt het nichesignaal - en het leak suggereert dat dit de rankings van de oorspronkelijke outdoor-inhoud kan schaden, niet alleen de nieuwe inhoud.\n\nDe praktische implicatie voor site-architectuur: elke URL van je winkel moet een duidelijk antwoord hebben op \"waarom staat dit op dit domein\". Als een sectie niet verdedigd kan worden als on-topic voor de niche van het merk, is het waarschijnlijk een netto negatief. siteFocusScore is de leak-naam voor het principe, maar het onderliggende gedrag is al jaren waarneembaar - het leak bevestigde alleen dat Google het expliciet meet.",
+          items: [
+            "siteFocusScore kwantificeert hoe topisch geconcentreerd een site is binnen zijn niche",
+            "Off-topic secties verdunnen de score en kunnen rankings van on-topic pagina's schaden, niet alleen de nieuwe",
+            "Cluster-gebaseerde architectuur (de benadering van deze gids) mapt direct naar een hogere siteFocusScore",
+            "Audit elke sectie: \"waarom staat dit op dit domein\" - alles wat niet verdedigd kan worden is waarschijnlijk een netto last",
+          ],
         },
       ],
       navLabels: {

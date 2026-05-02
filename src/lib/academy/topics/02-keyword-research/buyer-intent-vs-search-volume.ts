@@ -32,12 +32,21 @@ export const buyerIntentVsSearchVolume: AcademyTopic = {
           title: "How to Score Keywords by Purchase Intent",
           content:
             "We classify ecommerce keywords into four intent tiers. Tier 1 (highest intent): queries containing specific product names, SKUs, model numbers, or exact product attributes plus \"buy,\" \"order,\" or \"price.\" These convert at 5-10%.\n\nTier 2 (comparison intent): queries with modifiers like \"best,\" \"vs,\" \"review,\" \"top 10,\" or \"compared to.\" These shoppers have purchase intent but haven't decided on a specific product. Conversion rates run 2-4%, and the winning move is category pages or buying guides that funnel traffic to products.\n\nTier 3 (solution intent): queries describing a problem or use case, like \"waterproof jacket for hiking in rain\" or \"comfortable office chair for back pain.\" The searcher wants a product but doesn't know which category to look in. Conversion rates run 1-3%, and filtered category pages work well here.\n\nTier 4 (informational): queries starting with \"how to,\" \"what is,\" \"why does,\" or general topic terms. Conversion rates are below 0.5%. These have SEO value for building topical authority, but they should never be prioritized over Tier 1-3 keywords unless you've already captured the commercial terms.",
+          image: {
+            src: "/images/academy/buyer-intent-tiers.svg",
+            alt: "Pyramid diagram showing four keyword intent tiers from highest conversion Tier 1 buy-now keywords at the top to lowest conversion Tier 4 informational keywords at the bottom",
+            caption: "Higher intent tiers convert at dramatically higher rates. A Tier 1 keyword at 200 monthly searches often outearns a Tier 4 keyword at 5,000 searches.",
+          },
           items: [
             "Tier 1 (buy now): product name + buy/price/order, target with product pages",
             "Tier 2 (comparing): best/vs/review/top, target with category pages or comparison content",
             "Tier 3 (solution seeking): problem or use-case descriptions, target with filtered category pages",
             "Tier 4 (learning): how-to/what-is/guide, target with blog content that links to products",
           ],
+          callout: {
+            title: "Intent vs. Revenue",
+            text: "A furniture store's product page for a specific oak table ranked for 23 long-tail Tier 1 keywords (380 visits/mo) and generated $8,900/mo, while their head-term category page (2,800 visits/mo) produced only $4,200/mo.",
+          },
         },
         {
           title: "Commercial Modifiers That Signal Purchase Intent",
@@ -99,6 +108,15 @@ export const buyerIntentVsSearchVolume: AcademyTopic = {
             "Stufe 3 (Loesung suchen): Problem- oder Anwendungsbeschreibungen, mit gefilterten Kategorieseiten targeten",
             "Stufe 4 (lernen): Wie-geht-das/Was-ist/Ratgeber, mit Blog-Content targeten, der auf Produkte verlinkt",
           ],
+          image: {
+            src: "/images/academy/de/buyer-intent-tiers.svg",
+            alt: "Pyramidendiagramm mit vier Keyword-Intentionsstufen",
+            caption: "Höhere Intentionsstufen konvertieren deutlich besser. Ein Stufe-1-Keyword mit 200 monatlichen Suchen bringt oft mehr Umsatz als ein Stufe-4-Keyword mit 5.000 Suchen.",
+          },
+          callout: {
+            title: "Intention vs. Umsatz",
+            text: "Ein Möbelshop kann mit einem Stufe-1-Keyword bei 200 Suchen mehr Umsatz erzielen als mit einem Stufe-4-Keyword bei 5.000 Suchen. Intention schlägt Volumen bei der Revenue-Priorisierung.",
+          },
         },
         {
           title: "Kommerzielle Modifikatoren, die Kaufabsicht signalisieren",
@@ -160,6 +178,15 @@ export const buyerIntentVsSearchVolume: AcademyTopic = {
             "Niveau 3 (recherche de solution) : descriptions de problemes ou cas d'usage, cibler avec des pages categories filtrees",
             "Niveau 4 (apprentissage) : comment/qu'est-ce que/guide, cibler avec du contenu blog qui renvoie vers les produits",
           ],
+          image: {
+            src: "/images/academy/fr/buyer-intent-tiers.svg",
+            alt: "Pyramidendiagramm mit vier Keyword-Intentionsstufen",
+            caption: "Höhere Intentionsstufen konvertieren deutlich besser. Ein Stufe-1-Keyword mit 200 monatlichen Suchen bringt oft mehr Umsatz als ein Stufe-4-Keyword mit 5.000 Suchen.",
+          },
+          callout: {
+            title: "Intention vs. Umsatz",
+            text: "Ein Möbelshop kann mit einem Stufe-1-Keyword bei 200 Suchen mehr Umsatz erzielen als mit einem Stufe-4-Keyword bei 5.000 Suchen. Intention schlägt Volumen bei der Revenue-Priorisierung.",
+          },
         },
         {
           title: "Modificateurs commerciaux qui signalent l'intention d'achat",
@@ -221,6 +248,15 @@ export const buyerIntentVsSearchVolume: AcademyTopic = {
             "Nivel 3 (buscando solucion): descripciones de problemas o casos de uso, apuntar con paginas de categoria filtradas",
             "Nivel 4 (aprendiendo): como/que-es/guia, apuntar con contenido de blog que enlace a productos",
           ],
+          image: {
+            src: "/images/academy/es/buyer-intent-tiers.svg",
+            alt: "Pyramidendiagramm mit vier Keyword-Intentionsstufen",
+            caption: "Höhere Intentionsstufen konvertieren deutlich besser. Ein Stufe-1-Keyword mit 200 monatlichen Suchen bringt oft mehr Umsatz als ein Stufe-4-Keyword mit 5.000 Suchen.",
+          },
+          callout: {
+            title: "Intention vs. Umsatz",
+            text: "Ein Möbelshop kann mit einem Stufe-1-Keyword bei 200 Suchen mehr Umsatz erzielen als mit einem Stufe-4-Keyword bei 5.000 Suchen. Intention schlägt Volumen bei der Revenue-Priorisierung.",
+          },
         },
         {
           title: "Modificadores comerciales que senalan intencion de compra",
@@ -282,6 +318,15 @@ export const buyerIntentVsSearchVolume: AcademyTopic = {
             "Livello 3 (ricerca soluzione): descrizioni di problemi o casi d'uso, puntare con pagine categoria filtrate",
             "Livello 4 (apprendimento): come/cos'e/guida, puntare con contenuto blog che rimanda ai prodotti",
           ],
+          image: {
+            src: "/images/academy/it/buyer-intent-tiers.svg",
+            alt: "Pyramidendiagramm mit vier Keyword-Intentionsstufen",
+            caption: "Höhere Intentionsstufen konvertieren deutlich besser. Ein Stufe-1-Keyword mit 200 monatlichen Suchen bringt oft mehr Umsatz als ein Stufe-4-Keyword mit 5.000 Suchen.",
+          },
+          callout: {
+            title: "Intention vs. Umsatz",
+            text: "Ein Möbelshop kann mit einem Stufe-1-Keyword bei 200 Suchen mehr Umsatz erzielen als mit einem Stufe-4-Keyword bei 5.000 Suchen. Intention schlägt Volumen bei der Revenue-Priorisierung.",
+          },
         },
         {
           title: "Modificatori commerciali che segnalano intenzione d'acquisto",
@@ -343,6 +388,15 @@ export const buyerIntentVsSearchVolume: AcademyTopic = {
             "Niveau 3 (oplossing zoeken): probleem- of gebruiksbeschrijvingen, targeten met gefilterde categoriepagina's",
             "Niveau 4 (leren): hoe/wat-is/gids, targeten met blogcontent die linkt naar producten",
           ],
+          image: {
+            src: "/images/academy/nl/buyer-intent-tiers.svg",
+            alt: "Pyramidendiagramm mit vier Keyword-Intentionsstufen",
+            caption: "Höhere Intentionsstufen konvertieren deutlich besser. Ein Stufe-1-Keyword mit 200 monatlichen Suchen bringt oft mehr Umsatz als ein Stufe-4-Keyword mit 5.000 Suchen.",
+          },
+          callout: {
+            title: "Intention vs. Umsatz",
+            text: "Ein Möbelshop kann mit einem Stufe-1-Keyword bei 200 Suchen mehr Umsatz erzielen als mit einem Stufe-4-Keyword bei 5.000 Suchen. Intention schlägt Volumen bei der Revenue-Priorisierung.",
+          },
         },
         {
           title: "Commerciele modifiers die koopintentie signaleren",

@@ -7,6 +7,9 @@ import { buildPageMetadata } from "@/lib/i18n/metadata";
 import type { Locale } from "@/lib/i18n/config";
 import { premiumChecklistT } from "@/lib/i18n/translations/premiumChecklist";
 
+export const dynamic = 'force-static';
+
+
 const logos = [
   "/images/framer/t2yR7ACCVBmSnnUUjNT7njcCKU.png",
   "/images/framer/GBYkGoRfRJI1RTbDG3VVMkFcA.png",

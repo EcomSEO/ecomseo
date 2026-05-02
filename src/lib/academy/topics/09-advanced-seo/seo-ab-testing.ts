@@ -23,6 +23,15 @@ export const seoAbTesting: AcademyTopic = {
             "Large product catalogs provide the page volume needed for statistically significant results",
           ],
           tip: "Ensure your control and variant groups have similar historical performance patterns before starting a test. If one group has systematically higher traffic or different seasonality patterns, your test results will be unreliable. Use pre-test correlation analysis to validate group similarity.",
+          image: {
+            src: "/images/academy/seo-split-test-methodology.svg",
+            alt: "Diagram showing SEO split test methodology with 1,000 pages divided into control and variant groups across a pre-test and measurement timeline",
+            caption: "SEO tests split similar pages into control and variant groups. The control group accounts for seasonality and algorithm updates that would otherwise confound results.",
+          },
+          callout: {
+            title: "Sample Size Matters",
+            text: "You need at least 100 pages per group for reliable results, with 200-500 providing stronger statistical power. Ecommerce stores with large catalogs are ideally suited for SEO split testing.",
+          },
         },
         {
           title: "Choosing What to Test on Ecommerce Pages",
@@ -57,6 +66,15 @@ export const seoAbTesting: AcademyTopic = {
             "Require 95% statistical confidence before declaring a test result significant",
             "Document all test results including failures to build institutional SEO testing knowledge",
           ],
+          image: {
+            src: "/images/academy/seo-test-metrics.svg",
+            alt: "Framework diagram showing primary SEO test metrics including clicks, impressions, CTR, and position with actual vs predicted comparison",
+            caption: "Compare actual variant performance against predicted performance derived from the control group. Require 95% statistical confidence before declaring results significant.",
+          },
+          callout: {
+            title: "Failed Tests Matter",
+            text: "Failed tests prevent you from rolling out changes that do not work. Build a testing knowledge base recording hypothesis, methodology, duration, and confidence level for every experiment you run.",
+          },
         },
         {
           title: "SEO Testing Tools for Ecommerce",
@@ -95,12 +113,21 @@ export const seoAbTesting: AcademyTopic = {
           title: "Wie SEO-Split-Testing funktioniert",
           content:
             "SEO-A/B-Testing unterscheidet sich grundlegend von traditionellem Conversion-Rate-Optimierungs-Split-Testing (CRO). Beim CRO-Testing teilen Sie den Benutzertraffic zufallig zwischen zwei Seitenvarianten auf. Beim SEO-Testing konnen Sie Google nicht zwei verschiedene Versionen derselben URL zeigen. Stattdessen teilen SEO-Split-Tests eine Gruppe ahnlicher Seiten in Kontroll- und Variantengruppen auf, wenden Anderungen nur auf die Variantengruppe an und messen den Unterschied in der organischen Suchleistung.\n\nDie Methodik basiert auf der Annahme, dass ahnliche Seiten im Laufe der Zeit ahnliche organische Traffic-Muster aufweisen sollten. Wenn Sie 1.000 Produktseiten in einer Kategorie haben, teilen Sie sie in zwei Gruppen zu je 500 auf. Eine Gruppe erhalt eine Title-Tag-Anderung, die andere bleibt unverandert. Nach ausreichend Zeit zum Recrawling vergleichen Sie die organischen Traffic-Trends beider Gruppen.\n\nDieser Ansatz wird manchmal als Zeitreihen-Split-Testing bezeichnet, da er die vorhergesagte Leistung der Variantengruppe mit ihrer tatsachlichen Leistung nach der Anderung vergleicht. Die Kontrollgruppe berucksichtigt externe Faktoren wie Saisonalitat, Algorithmus-Updates und Markttrends.\n\nDie Schlusselanforderung ist eine ausreichende Anzahl ahnlicher Seiten fur aussagekraftige Testgruppen. E-Commerce-Shops mit gro?en Produktkatalogen sind ideal fur SEO-Tests geeignet, da sie naturlicherweise Tausende ahnlicher Produktseiten besitzen.",
-          items: [
+                    image: {
+            src: "/images/academy/de/seo-split-test-methodology.svg",
+            alt: "SEO-Split-Test-Methodik: Kontrollgruppe vs. Variantengruppe mit zufaelliger Aufteilung",
+            caption: "SEO-Split-Tests vergleichen Kontroll- und Variantengruppen aehnlicher Seiten, um die Wirkung von Aenderungen zu messen.",
+          },
+items: [
             "SEO-Tests teilen ahnliche Seiten in Kontroll- und Variantengruppen auf statt den Benutzertraffic zu teilen",
             "Anderungen werden nur auf die Variantengruppe angewendet, wahrend die Kontrollgruppe unverandert bleibt",
             "Zeitreihenvergleiche berucksichtigen Saisonalitat, Algorithmus-Updates und Marktfaktoren",
             "Gro?e Produktkataloge liefern das Seitenvolumen fur statistisch signifikante Ergebnisse",
           ],
+          callout: {
+            title: "Testvoraussetzungen",
+            text: "Sie benoetigen mindestens 100 aehnliche Seiten pro Gruppe fuer statistisch zuverlaessige SEO-Split-Tests. Kleinere Shops koennen Vorher-Nachher-Tests verwenden, aber die Ergebnisse sind weniger belastbar.",
+          },
           tip: "Stellen Sie sicher, dass Ihre Kontroll- und Variantengruppen vor Testbeginn ahnliche historische Leistungsmuster aufweisen. Wenn eine Gruppe systematisch hoheren Traffic oder unterschiedliche Saisonalitatsmuster hat, sind Ihre Testergebnisse unzuverlassig. Verwenden Sie eine Pre-Test-Korrelationsanalyse zur Validierung der Gruppenáhnlichkeit.",
         },
         {
@@ -130,12 +157,21 @@ export const seoAbTesting: AcademyTopic = {
           title: "Ergebnisse messen und statistische Signifikanz",
           content:
             "Die Messung von SEO-Testergebnissen erfordert den Vergleich der tatsachlichen Leistung der Variantengruppe mit ihrer vorhergesagten Leistung ohne Anderung. Die Vorhersage wird aus der Leistung der Kontrollgruppe wahrend des Testzeitraums und der historischen Beziehung zwischen den beiden Gruppen abgeleitet.\n\nDie primaren Metriken fur E-Commerce-SEO-Tests sind organische Klicks, Impressionen, Klickrate und durchschnittliche Position aus Google-Search-Console-Daten. Fur umsatzorientierte Tests verfolgen Sie auch organische Sitzungen und Conversion-Daten aus Ihrer Analytics-Plattform.\n\nStatistische Signifikanz bestimmt, ob der beobachtete Unterschied zwischen Kontroll- und Variantengruppen wahrscheinlich auf Ihre Anderung zuruckzufuhren ist oder auf zufallige Variation. Die meisten SEO-Testing-Tools verwenden bayessche oder frequentistische statistische Methoden. Ein gangiger Schwellenwert ist 95% Konfidenz.\n\nVorsicht vor haufigen Messproblemen. Saisonalitatseffekte konnen scheinbare Verbesserungen erzeugen, die tatsachlich kalendergetrieben sind. Algorithmus-Updates wahrend Ihres Testzeitraums konnen eine Gruppe unverhaltnisma?ig begunstigen oder schadigen. Kurze Testdauern erhohen das Risiko falsch-positiver Ergebnisse.\n\nDokumentieren Sie Ihre Ergebnisse umfassend, unabhangig vom Ausgang. Fehlgeschlagene Tests sind ebenso wertvoll wie erfolgreiche, da sie Sie davon abhalten, unwirksame Anderungen auszurollen.",
-          items: [
+                    image: {
+            src: "/images/academy/de/seo-test-metrics.svg",
+            alt: "SEO-Test-Messmetriken: Primaere, sekundaere und Schutzmetriken fuer die Erfolgsbewertung",
+            caption: "Messen Sie Erfolg anhand primaerer Metriken, verstehen Sie das Warum mit sekundaeren und erkennen Sie Regressionen mit Schutzmetriken.",
+          },
+items: [
             "Tatsachliche Variantenleistung mit vorhergesagter Leistung aus Kontrollgruppentrends vergleichen",
             "Organische Klicks, Impressionen, CTR und durchschnittliche Position als primare Messmetriken verwenden",
             "95% statistische Konfidenz erfordern, bevor ein Testergebnis als signifikant deklariert wird",
             "Alle Testergebnisse einschlie?lich Fehlschlage dokumentieren, um institutionelles SEO-Testing-Wissen aufzubauen",
           ],
+          callout: {
+            title: "Signifikanz-Geduld",
+            text: "Beenden Sie SEO-Tests nicht zu frueh. Mindestens 2-4 Wochen und ein p-Wert unter 0,05 sind erforderlich. Vorzeitig beendete Tests fuehren zu falschen Schlussfolgerungen und verschwendeten Optimierungsressourcen.",
+          },
         },
         {
           title: "SEO-Testing-Tools fur E-Commerce",
@@ -181,6 +217,15 @@ export const seoAbTesting: AcademyTopic = {
             "Les grands catalogues produit fournissent le volume de pages necessaire pour des resultats statistiquement significatifs",
           ],
           tip: "Assurez-vous que vos groupes controle et variant ont des modeles de performance historique similaires avant de demarrer un test. Si un groupe a systematiquement plus de trafic ou des modeles de saisonnalite differents, vos resultats seront peu fiables. Utilisez une analyse de correlation pre-test pour valider la similarite des groupes.",
+          image: {
+            src: "/images/academy/fr/seo-split-test-methodology.svg",
+            alt: "SEO-Split-Test-Methodik: Kontrollgruppe vs. Variantengruppe mit zufaelliger Aufteilung",
+            caption: "SEO-Split-Tests vergleichen Kontroll- und Variantengruppen aehnlicher Seiten, um die Wirkung von Aenderungen zu messen.",
+          },
+          callout: {
+            title: "Testvoraussetzungen",
+            text: "Sie benoetigen mindestens 100 aehnliche Seiten pro Gruppe fuer statistisch zuverlaessige SEO-Split-Tests. Kleinere Shops koennen Vorher-Nachher-Tests verwenden, aber die Ergebnisse sind weniger belastbar.",
+          },
         },
         {
           title: "Choisir quoi tester sur les pages e-commerce",
@@ -215,6 +260,15 @@ export const seoAbTesting: AcademyTopic = {
             "Exiger 95% de confiance statistique avant de declarer un resultat de test significatif",
             "Documenter tous les resultats de test, y compris les echecs, pour construire une base de connaissances SEO",
           ],
+          image: {
+            src: "/images/academy/fr/seo-test-metrics.svg",
+            alt: "SEO-Test-Messmetriken: Primaere, sekundaere und Schutzmetriken fuer die Erfolgsbewertung",
+            caption: "Messen Sie Erfolg anhand primaerer Metriken, verstehen Sie das Warum mit sekundaeren und erkennen Sie Regressionen mit Schutzmetriken.",
+          },
+          callout: {
+            title: "Signifikanz-Geduld",
+            text: "Beenden Sie SEO-Tests nicht zu frueh. Mindestens 2-4 Wochen und ein p-Wert unter 0,05 sind erforderlich. Vorzeitig beendete Tests fuehren zu falschen Schlussfolgerungen und verschwendeten Optimierungsressourcen.",
+          },
         },
         {
           title: "Outils de tests SEO pour l'e-commerce",
@@ -260,6 +314,15 @@ export const seoAbTesting: AcademyTopic = {
             "Los grandes catalogos de productos proporcionan el volumen de paginas necesario para resultados estadisticamente significativos",
           ],
           tip: "Asegurese de que sus grupos de control y variante tengan patrones de rendimiento historico similares antes de iniciar una prueba. Si un grupo tiene sistematicamente mas trafico o patrones de estacionalidad diferentes, sus resultados seran poco fiables. Use analisis de correlacion pre-test para validar la similitud de los grupos.",
+          image: {
+            src: "/images/academy/es/seo-split-test-methodology.svg",
+            alt: "SEO-Split-Test-Methodik: Kontrollgruppe vs. Variantengruppe mit zufaelliger Aufteilung",
+            caption: "SEO-Split-Tests vergleichen Kontroll- und Variantengruppen aehnlicher Seiten, um die Wirkung von Aenderungen zu messen.",
+          },
+          callout: {
+            title: "Testvoraussetzungen",
+            text: "Sie benoetigen mindestens 100 aehnliche Seiten pro Gruppe fuer statistisch zuverlaessige SEO-Split-Tests. Kleinere Shops koennen Vorher-Nachher-Tests verwenden, aber die Ergebnisse sind weniger belastbar.",
+          },
         },
         {
           title: "Elegir que probar en paginas de ecommerce",
@@ -294,6 +357,15 @@ export const seoAbTesting: AcademyTopic = {
             "Requerir 95% de confianza estadistica antes de declarar un resultado de prueba como significativo",
             "Documentar todos los resultados de prueba incluyendo fallos para construir conocimiento institucional de testing SEO",
           ],
+          image: {
+            src: "/images/academy/es/seo-test-metrics.svg",
+            alt: "SEO-Test-Messmetriken: Primaere, sekundaere und Schutzmetriken fuer die Erfolgsbewertung",
+            caption: "Messen Sie Erfolg anhand primaerer Metriken, verstehen Sie das Warum mit sekundaeren und erkennen Sie Regressionen mit Schutzmetriken.",
+          },
+          callout: {
+            title: "Signifikanz-Geduld",
+            text: "Beenden Sie SEO-Tests nicht zu frueh. Mindestens 2-4 Wochen und ein p-Wert unter 0,05 sind erforderlich. Vorzeitig beendete Tests fuehren zu falschen Schlussfolgerungen und verschwendeten Optimierungsressourcen.",
+          },
         },
         {
           title: "Herramientas de testing SEO para ecommerce",
@@ -339,6 +411,15 @@ export const seoAbTesting: AcademyTopic = {
             "I grandi cataloghi prodotti forniscono il volume di pagine necessario per risultati statisticamente significativi",
           ],
           tip: "Assicuratevi che i vostri gruppi di controllo e variante abbiano pattern di prestazione storica simili prima di avviare un test. Se un gruppo ha sistematicamente piu traffico o pattern di stagionalita diversi, i risultati saranno inaffidabili. Usate un'analisi di correlazione pre-test per validare la similarita dei gruppi.",
+          image: {
+            src: "/images/academy/it/seo-split-test-methodology.svg",
+            alt: "SEO-Split-Test-Methodik: Kontrollgruppe vs. Variantengruppe mit zufaelliger Aufteilung",
+            caption: "SEO-Split-Tests vergleichen Kontroll- und Variantengruppen aehnlicher Seiten, um die Wirkung von Aenderungen zu messen.",
+          },
+          callout: {
+            title: "Testvoraussetzungen",
+            text: "Sie benoetigen mindestens 100 aehnliche Seiten pro Gruppe fuer statistisch zuverlaessige SEO-Split-Tests. Kleinere Shops koennen Vorher-Nachher-Tests verwenden, aber die Ergebnisse sind weniger belastbar.",
+          },
         },
         {
           title: "Scegliere cosa testare sulle pagine ecommerce",
@@ -373,6 +454,15 @@ export const seoAbTesting: AcademyTopic = {
             "Richiedere il 95% di confidenza statistica prima di dichiarare un risultato di test significativo",
             "Documentare tutti i risultati dei test inclusi i fallimenti per costruire conoscenza istituzionale di testing SEO",
           ],
+          image: {
+            src: "/images/academy/it/seo-test-metrics.svg",
+            alt: "SEO-Test-Messmetriken: Primaere, sekundaere und Schutzmetriken fuer die Erfolgsbewertung",
+            caption: "Messen Sie Erfolg anhand primaerer Metriken, verstehen Sie das Warum mit sekundaeren und erkennen Sie Regressionen mit Schutzmetriken.",
+          },
+          callout: {
+            title: "Signifikanz-Geduld",
+            text: "Beenden Sie SEO-Tests nicht zu frueh. Mindestens 2-4 Wochen und ein p-Wert unter 0,05 sind erforderlich. Vorzeitig beendete Tests fuehren zu falschen Schlussfolgerungen und verschwendeten Optimierungsressourcen.",
+          },
         },
         {
           title: "Strumenti di testing SEO per l'ecommerce",
@@ -418,6 +508,15 @@ export const seoAbTesting: AcademyTopic = {
             "Grote productcatalogi bieden het paginavolume dat nodig is voor statistisch significante resultaten",
           ],
           tip: "Zorg ervoor dat uw controle- en variantgroepen vergelijkbare historische prestatiepatronen hebben voordat u een test start. Als een groep systematisch meer verkeer heeft of andere seizoenspatronen, zijn uw testresultaten onbetrouwbaar. Gebruik pre-test correlatieanalyse om groepsgelijkheid te valideren.",
+          image: {
+            src: "/images/academy/nl/seo-split-test-methodology.svg",
+            alt: "SEO-Split-Test-Methodik: Kontrollgruppe vs. Variantengruppe mit zufaelliger Aufteilung",
+            caption: "SEO-Split-Tests vergleichen Kontroll- und Variantengruppen aehnlicher Seiten, um die Wirkung von Aenderungen zu messen.",
+          },
+          callout: {
+            title: "Testvoraussetzungen",
+            text: "Sie benoetigen mindestens 100 aehnliche Seiten pro Gruppe fuer statistisch zuverlaessige SEO-Split-Tests. Kleinere Shops koennen Vorher-Nachher-Tests verwenden, aber die Ergebnisse sind weniger belastbar.",
+          },
         },
         {
           title: "Kiezen wat te testen op e-commercepagina's",
@@ -452,6 +551,15 @@ export const seoAbTesting: AcademyTopic = {
             "95% statistische betrouwbaarheid vereisen voordat een testresultaat als significant wordt verklaard",
             "Alle testresultaten documenteren inclusief mislukkingen om institutionele SEO-testkennis op te bouwen",
           ],
+          image: {
+            src: "/images/academy/nl/seo-test-metrics.svg",
+            alt: "SEO-Test-Messmetriken: Primaere, sekundaere und Schutzmetriken fuer die Erfolgsbewertung",
+            caption: "Messen Sie Erfolg anhand primaerer Metriken, verstehen Sie das Warum mit sekundaeren und erkennen Sie Regressionen mit Schutzmetriken.",
+          },
+          callout: {
+            title: "Signifikanz-Geduld",
+            text: "Beenden Sie SEO-Tests nicht zu frueh. Mindestens 2-4 Wochen und ein p-Wert unter 0,05 sind erforderlich. Vorzeitig beendete Tests fuehren zu falschen Schlussfolgerungen und verschwendeten Optimierungsressourcen.",
+          },
         },
         {
           title: "SEO-testtools voor e-commerce",

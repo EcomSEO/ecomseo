@@ -1,0 +1,38 @@
+<svg viewBox="0 0 680 280" xmlns="http://www.w3.org/2000/svg" fill="none" font-family="Arial,sans-serif">
+  <text x="340" y="28" text-anchor="middle" fill="#a78bfa" font-size="14" font-weight="bold">When SEO Is Not the Right Priority</text>
+  <!-- Left: Skip SEO for now -->
+  <text x="170" y="56" text-anchor="middle" fill="#f97316" font-size="11" font-weight="bold">Prioritize Other Channels First</text>
+  <rect x="30" y="68" width="280" height="120" rx="8" stroke="#f97316" stroke-width="1.5"/>
+  <circle cx="56" cy="92" r="6" stroke="#f97316" stroke-width="1.5"/>
+  <text x="56" y="96" text-anchor="middle" fill="#f97316" font-size="8">1</text>
+  <text x="76" y="96" fill="#e2e8f0" font-size="9">New store, no product-market fit yet</text>
+  <circle cx="56" cy="116" r="6" stroke="#f97316" stroke-width="1.5"/>
+  <text x="56" y="120" text-anchor="middle" fill="#f97316" font-size="8">2</text>
+  <text x="76" y="120" fill="#e2e8f0" font-size="9">Need revenue in &lt;3 months</text>
+  <circle cx="56" cy="140" r="6" stroke="#f97316" stroke-width="1.5"/>
+  <text x="56" y="144" text-anchor="middle" fill="#f97316" font-size="8">3</text>
+  <text x="76" y="144" fill="#e2e8f0" font-size="9">Single-product or tiny catalog</text>
+  <circle cx="56" cy="164" r="6" stroke="#f97316" stroke-width="1.5"/>
+  <text x="56" y="168" text-anchor="middle" fill="#f97316" font-size="8">4</text>
+  <text x="76" y="168" fill="#e2e8f0" font-size="9">Site has fundamental UX problems</text>
+  <!-- Right: SEO is high priority -->
+  <text x="510" y="56" text-anchor="middle" fill="#4ade80" font-size="11" font-weight="bold">SEO Should Be a Top Priority</text>
+  <rect x="370" y="68" width="280" height="120" rx="8" stroke="#4ade80" stroke-width="1.5"/>
+  <circle cx="396" cy="92" r="6" stroke="#4ade80" stroke-width="1.5"/>
+  <text x="396" y="96" text-anchor="middle" fill="#4ade80" font-size="8">1</text>
+  <text x="416" y="96" fill="#e2e8f0" font-size="9">Rising CAC on paid channels</text>
+  <circle cx="396" cy="116" r="6" stroke="#4ade80" stroke-width="1.5"/>
+  <text x="396" y="120" text-anchor="middle" fill="#4ade80" font-size="8">2</text>
+  <text x="416" y="120" fill="#e2e8f0" font-size="9">100+ products with search demand</text>
+  <circle cx="396" cy="140" r="6" stroke="#4ade80" stroke-width="1.5"/>
+  <text x="396" y="144" text-anchor="middle" fill="#4ade80" font-size="8">3</text>
+  <text x="416" y="144" fill="#e2e8f0" font-size="9">Can invest for 12+ month horizon</text>
+  <circle cx="396" cy="164" r="6" stroke="#4ade80" stroke-width="1.5"/>
+  <text x="396" y="168" text-anchor="middle" fill="#4ade80" font-size="8">4</text>
+  <text x="416" y="168" fill="#e2e8f0" font-size="9">Competitors have organic presence</text>
+  <!-- Bottom recommendation -->
+  <rect x="80" y="208" width="520" height="48" rx="8" stroke="#60a5fa" stroke-width="2"/>
+  <text x="340" y="228" text-anchor="middle" fill="#60a5fa" font-size="11" font-weight="bold">The Smart Approach</text>
+  <text x="340" y="246" text-anchor="middle" fill="#e2e8f0" font-size="9">Use paid ads for immediate revenue. Invest in SEO simultaneously for long-term compounding. Scale down ads as organic grows.</text>
+  <text x="340" y="274" text-anchor="middle" fill="#e2e8f0" font-size="9" opacity="0.7">Every month of delayed SEO investment is a month of lost compounding</text>
+</svg>

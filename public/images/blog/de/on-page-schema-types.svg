@@ -1,0 +1,41 @@
+<svg viewBox="0 0 680 300" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <text x="340" y="28" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#a78bfa">Schema Markup Types for Ecommerce Pages</text>
+  <g transform="translate(40,55)">
+    <rect x="0" y="0" width="180" height="200" rx="8" stroke="#60a5fa" stroke-width="2" fill="none"/>
+    <text x="90" y="25" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#60a5fa">Product Page</text>
+    <line x1="20" y1="35" x2="160" y2="35" stroke="#60a5fa" stroke-width="0.5"/>
+    <text x="20" y="55" font-family="Arial,sans-serif" font-size="10" fill="#4ade80">Required:</text>
+    <text x="20" y="72" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">name, image, offers</text>
+    <text x="20" y="95" font-family="Arial,sans-serif" font-size="10" fill="#f97316">Recommended:</text>
+    <text x="20" y="112" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">aggregateRating</text>
+    <text x="20" y="129" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">brand, SKU, GTIN</text>
+    <text x="20" y="146" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">review, description</text>
+    <text x="90" y="180" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#a78bfa">+20-35% CTR with</text>
+    <text x="90" y="192" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#a78bfa">rich snippets</text>
+  </g>
+  <g transform="translate(250,55)">
+    <rect x="0" y="0" width="180" height="200" rx="8" stroke="#4ade80" stroke-width="2" fill="none"/>
+    <text x="90" y="25" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#4ade80">Category Page</text>
+    <line x1="20" y1="35" x2="160" y2="35" stroke="#4ade80" stroke-width="0.5"/>
+    <text x="20" y="55" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">CollectionPage or</text>
+    <text x="20" y="72" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">ItemList schema</text>
+    <text x="20" y="95" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">FAQPage (for FAQ</text>
+    <text x="20" y="112" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">sections)</text>
+    <text x="20" y="138" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">BreadcrumbList</text>
+    <text x="90" y="180" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#a78bfa">Carousel + FAQ</text>
+    <text x="90" y="192" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#a78bfa">rich results</text>
+  </g>
+  <g transform="translate(460,55)">
+    <rect x="0" y="0" width="180" height="200" rx="8" stroke="#f97316" stroke-width="2" fill="none"/>
+    <text x="90" y="25" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#f97316">Site-Wide</text>
+    <line x1="20" y1="35" x2="160" y2="35" stroke="#f97316" stroke-width="0.5"/>
+    <text x="20" y="55" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Organization</text>
+    <text x="20" y="72" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">(homepage)</text>
+    <text x="20" y="95" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">LocalBusiness</text>
+    <text x="20" y="112" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">(physical stores)</text>
+    <text x="20" y="138" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Article (blog)</text>
+    <text x="90" y="180" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#a78bfa">Trust signals +</text>
+    <text x="90" y="192" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#a78bfa">knowledge panel</text>
+  </g>
+  <text x="340" y="280" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Use JSON-LD format (Google recommended). Validate weekly in Search Console.</text>
+</svg>

@@ -2,9 +2,37 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import TeamMemberPage from "./TeamMemberPage";
 import { generateAlternates } from "@/lib/i18n/metadata";
-import { type Locale, ogLocaleMap, BASE_URL } from "@/lib/i18n/config";
+import { type Locale, ogLocaleMap, BASE_URL, publicLocalizedUrl } from "@/lib/i18n/config";
 import JsonLd from "@/components/JsonLd";
 import { personJsonLd, breadcrumbJsonLd } from "@/lib/jsonLd";
+import { teamMemberI18n } from "@/lib/i18n/translations/teamMemberData";
+
+export const revalidate = 86400;
+
+/** Get locale-aware member data by merging base data with translations */
+function getLocalizedMember(slug: string, locale: Locale) {
+  const base = teamMembers[slug];
+  if (!base) return null;
+  const i18n = teamMemberI18n[slug]?.[locale] || teamMemberI18n[slug]?.en;
+  if (!i18n) return base;
+  const cta = { ...base.cta };
+  if (cta.primary && i18n.ctaPrimary) {
+    cta.primary = { ...cta.primary, label: i18n.ctaPrimary };
+  }
+  if (cta.secondary && i18n.ctaSecondary) {
+    cta.secondary = { ...cta.secondary, label: i18n.ctaSecondary };
+  }
+  return {
+    ...base,
+    role: i18n.role,
+    tagline: i18n.tagline,
+    bio: i18n.bio,
+    skills: i18n.skills,
+    interests: i18n.interests,
+    cta,
+  };
+}
+
 
 interface TeamMember {
   slug: string;
@@ -20,6 +48,7 @@ interface TeamMember {
     secondary?: { label: string; href: string };
   };
   socials: { platform: string; href: string }[];
+  youtubeVideo?: string;
 }
 
 const teamMembers: Record<string, TeamMember> = {
@@ -30,7 +59,7 @@ const teamMembers: Record<string, TeamMember> = {
     tagline:
       "A Passionate Entrepreneur, specialising in ecommerce marketing.",
     image:
-      "/images/framer/pLr2VAAJPydel6VZNLZAsJP6k.png",
+      "/images/framer/fabian-van-til-new.jpeg",
     bio: "Fabian entered the e-commerce space in 2020. Two years later he and a partner launched a Google-marketing agency, which they swiftly refocused into an SEO firm. After selling his stake to his co-founder, Fabian doubled down on e-commerce. In 2024 he and his brother introduced their own brand and co-founded EcomSEO, an agency dedicated to shattering the norms of traditional marketing through transparent, results-oriented partnerships.",
     skills: [
       "Intent Matching",
@@ -63,6 +92,7 @@ const teamMembers: Record<string, TeamMember> = {
         href: "https://www.instagram.com/fabianvantil/",
       },
     ],
+    // youtubeVideo: "https://www.youtube.com/embed/_3vIp9O6-EM",
   },
   "martinijan-trajkovski": {
     slug: "martinijan-trajkovski",
@@ -137,9 +167,9 @@ const teamMembers: Record<string, TeamMember> = {
       "Travel",
       "Music",
       "PlayStation",
-      "Indefatigable",
-      "Football",
-      "Skiing",
+      "Reading",
+      "Cars",
+      "Fitness",
     ],
     cta: {
       primary: {
@@ -151,7 +181,7 @@ const teamMembers: Record<string, TeamMember> = {
     socials: [
       {
         platform: "LinkedIn",
-        href: "https://www.linkedin.com/in/dimitar-georgiev-seo-expert/",
+        href: "https://bg.linkedin.com/in/dimitar-georgiev-seo-expert",
       },
       {
         platform: "Instagram",
@@ -217,7 +247,7 @@ export async function generateMetadata({
   params: Promise<{ locale: string; slug: string }>;
 }): Promise<Metadata> {
   const { locale, slug } = await params;
-  const member = teamMembers[slug];
+  const member = getLocalizedMember(slug, locale as Locale);
   if (!member) return {};
 
   return {
@@ -227,8 +257,24 @@ export async function generateMetadata({
     openGraph: {
       title: `${member.name} - ${member.role} | EcomSEO`,
       description: member.tagline,
-      images: [{ url: member.image }],
+      url: publicLocalizedUrl(locale as Locale, `/team/${slug}`),
+      siteName: "EcomSEO",
+      type: "profile",
+      images: [
+        {
+          url: `${BASE_URL}${member.image}`,
+          width: 400,
+          height: 400,
+          alt: member.name,
+        },
+      ],
       locale: ogLocaleMap[locale as Locale] || "en_GB",
+    },
+    twitter: {
+      card: "summary",
+      site: "@ecomseo_co",
+      title: `${member.name} - ${member.role} | EcomSEO`,
+      description: member.tagline,
     },
   };
 }
@@ -239,7 +285,7 @@ export default async function Page({
   params: Promise<{ locale: string; slug: string }>;
 }) {
   const { locale, slug } = await params;
-  const member = teamMembers[slug];
+  const member = getLocalizedMember(slug, locale as Locale);
   if (!member) notFound();
 
   return (
@@ -249,7 +295,7 @@ export default async function Page({
           name: member.name,
           jobTitle: member.role,
           description: member.tagline,
-          url: `${BASE_URL}/${locale}/team/${slug}`,
+          url: publicLocalizedUrl(locale as Locale, `/team/${slug}`),
           image: member.image,
           sameAs: member.socials.map((s) => s.href),
         })}
@@ -261,6 +307,34 @@ export default async function Page({
           { name: member.name, path: `/team/${slug}` },
         ])}
       />
+      {member.youtubeVideo && (
+        <JsonLd
+          data={{
+            "@context": "https://schema.org",
+            "@type": "VideoObject",
+            name: "$10k a day in Dutch market with eCom - Daniel & Fabian Van Til",
+            description: "Fabian van Til, CEO of EcomSEO, shares how he built a successful ecommerce brand and SEO agency in the Dutch market. Featured on Alex Fedotoff's podcast.",
+            thumbnailUrl: "https://i.ytimg.com/vi/_3vIp9O6-EM/maxresdefault.jpg",
+            uploadDate: "2024-11-15",
+            contentUrl: "https://www.youtube.com/watch?v=_3vIp9O6-EM",
+            embedUrl: member.youtubeVideo,
+            duration: "PT1H1M41S",
+            interactionStatistic: {
+              "@type": "InteractionCounter",
+              interactionType: { "@type": "WatchAction" },
+              userInteractionCount: 5000,
+            },
+            publisher: {
+              "@type": "Organization",
+              name: "Alex Fedotoff",
+              logo: {
+                "@type": "ImageObject",
+                url: "https://yt3.googleusercontent.com/ytc/AIdro_kQx1",
+              },
+            },
+          }}
+        />
+      )}
       <TeamMemberPage member={member} />
     </>
   );

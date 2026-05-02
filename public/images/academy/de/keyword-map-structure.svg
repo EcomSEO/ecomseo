@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 310" fill="none">
+  <text x="340" y="24" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="700" fill="#a78bfa">Keyword-Map: Seitentyp zu Keyword-Zuordnung</text>
+  <!-- Header row -->
+  <rect x="20" y="48" width="120" height="30" rx="4" fill="#a78bfa" fill-opacity="0.15"/>
+  <text x="80" y="68" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="700" fill="#a78bfa">Seitentyp</text>
+  <rect x="145" y="48" width="180" height="30" rx="4" fill="#a78bfa" fill-opacity="0.15"/>
+  <text x="235" y="68" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="700" fill="#a78bfa">Primäres Keyword</text>
+  <rect x="330" y="48" width="140" height="30" rx="4" fill="#a78bfa" fill-opacity="0.15"/>
+  <text x="400" y="68" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="700" fill="#a78bfa">Intention</text>
+  <rect x="475" y="48" width="80" height="30" rx="4" fill="#a78bfa" fill-opacity="0.15"/>
+  <text x="515" y="68" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="700" fill="#a78bfa">Volumen</text>
+  <rect x="560" y="48" width="100" height="30" rx="4" fill="#a78bfa" fill-opacity="0.15"/>
+  <text x="610" y="68" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="700" fill="#a78bfa">Zielanzahl</text>
+  <!-- Category row -->
+  <rect x="20" y="84" width="120" height="36" rx="4" fill="#60a5fa" fill-opacity="0.08" stroke="#60a5fa" stroke-width="1"/>
+  <text x="80" y="106" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="600" fill="#60a5fa">Kategorie</text>
+  <rect x="145" y="84" width="180" height="36" rx="4" fill="#60a5fa" fill-opacity="0.04"/>
+  <text x="235" y="106" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Damen-Laufschuhe</text>
+  <rect x="330" y="84" width="140" height="36" rx="4" fill="#60a5fa" fill-opacity="0.04"/>
+  <text x="400" y="106" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Kommerziell</text>
+  <rect x="475" y="84" width="80" height="36" rx="4" fill="#60a5fa" fill-opacity="0.04"/>
+  <text x="515" y="106" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">1K-50K</text>
+  <rect x="560" y="84" width="100" height="36" rx="4" fill="#60a5fa" fill-opacity="0.04"/>
+  <text x="610" y="106" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">~50 Seiten</text>
+  <!-- Product row -->
+  <rect x="20" y="126" width="120" height="36" rx="4" fill="#4ade80" fill-opacity="0.08" stroke="#4ade80" stroke-width="1"/>
+  <text x="80" y="148" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="600" fill="#4ade80">Produkt</text>
+  <rect x="145" y="126" width="180" height="36" rx="4" fill="#4ade80" fill-opacity="0.04"/>
+  <text x="235" y="148" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Nike Air Zoom Pegasus 40</text>
+  <rect x="330" y="126" width="140" height="36" rx="4" fill="#4ade80" fill-opacity="0.04"/>
+  <text x="400" y="148" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Transaktional</text>
+  <rect x="475" y="126" width="80" height="36" rx="4" fill="#4ade80" fill-opacity="0.04"/>
+  <text x="515" y="148" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">50-500</text>
+  <rect x="560" y="126" width="100" height="36" rx="4" fill="#4ade80" fill-opacity="0.04"/>
+  <text x="610" y="148" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">~1.000 Seiten</text>
+  <!-- Blog row -->
+  <rect x="20" y="168" width="120" height="36" rx="4" fill="#f97316" fill-opacity="0.08" stroke="#f97316" stroke-width="1"/>
+  <text x="80" y="190" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="600" fill="#f97316">Blog / Ratgeber</text>
+  <rect x="145" y="168" width="180" height="36" rx="4" fill="#f97316" fill-opacity="0.04"/>
+  <text x="235" y="190" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">wie man Laufschuhe auswählt</text>
+  <rect x="330" y="168" width="140" height="36" rx="4" fill="#f97316" fill-opacity="0.04"/>
+  <text x="400" y="190" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Informational</text>
+  <rect x="475" y="168" width="80" height="36" rx="4" fill="#f97316" fill-opacity="0.04"/>
+  <text x="515" y="190" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">500-5K</text>
+  <rect x="560" y="168" width="100" height="36" rx="4" fill="#f97316" fill-opacity="0.04"/>
+  <text x="610" y="190" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">~20 Seiten</text>
+  <!-- Rule box -->
+  <rect x="80" y="226" width="520" height="65" rx="8" stroke="#ef4444" stroke-width="1.5" fill="#ef4444" fill-opacity="0.05"/>
+  <text x="340" y="248" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="700" fill="#ef4444">Ein primäres Keyword = Eine URL</text>
+  <text x="340" y="266" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Jedes Keyword hat genau einen Platz. Doppelte Zuordnungen verursachen Kannibalisierung.</text>
+  <text x="340" y="282" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#94a3b8">Fügen Sie 2-3 sekundäre Keyword-Variationen pro Seite für zusätzliche Abdeckung hinzu.</text>
+</svg>

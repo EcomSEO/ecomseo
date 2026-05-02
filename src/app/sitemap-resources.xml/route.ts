@@ -5,6 +5,8 @@ import {
   sitemapResponse,
 } from "@/lib/sitemap/helpers";
 
+export const revalidate = 3600;
+
 /**
  * sitemap-resources.xml
  * Resources hub + all resource pages.
@@ -20,10 +22,9 @@ const resourcePages = [
 ];
 
 export async function GET() {
-  const lastmod = new Date().toISOString();
   const entries: UrlEntry[] = [];
 
-  addPages(entries, resourcePages, { priority: 0.7, changefreq: "monthly", lastmod });
+  addPages(entries, resourcePages, { priority: 0.7, changefreq: "monthly", lastmod: "2026-01-20T00:00:00.000Z" });
 
   return sitemapResponse(wrapUrlset(entries));
 }

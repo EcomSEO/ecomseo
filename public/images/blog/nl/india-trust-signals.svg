@@ -1,0 +1,40 @@
+<svg viewBox="0 0 680 300" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <text x="340" y="28" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#a78bfa">Trust Signals for Indian Ecommerce</text>
+  <g transform="translate(30,55)">
+    <rect x="0" y="0" width="145" height="120" rx="8" stroke="#4ade80" stroke-width="2" fill="none"/>
+    <text x="72" y="25" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#4ade80">Payment</text>
+    <text x="72" y="48" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">COD (60%+ orders)</text>
+    <text x="72" y="66" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">UPI acceptance</text>
+    <text x="72" y="84" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">No-cost EMI</text>
+    <text x="72" y="102" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Security badges</text>
+  </g>
+  <g transform="translate(190,55)">
+    <rect x="0" y="0" width="145" height="120" rx="8" stroke="#60a5fa" stroke-width="2" fill="none"/>
+    <text x="72" y="25" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#60a5fa">Social Proof</text>
+    <text x="72" y="48" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Customer reviews</text>
+    <text x="72" y="66" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Review schema</text>
+    <text x="72" y="84" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Star ratings</text>
+    <text x="72" y="102" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Verified badges</text>
+  </g>
+  <g transform="translate(350,55)">
+    <rect x="0" y="0" width="145" height="120" rx="8" stroke="#f97316" stroke-width="2" fill="none"/>
+    <text x="72" y="25" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#f97316">Authenticity</text>
+    <text x="72" y="48" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Original vs fake info</text>
+    <text x="72" y="66" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Return policies</text>
+    <text x="72" y="84" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Brand authorization</text>
+    <text x="72" y="102" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Warranty details</text>
+  </g>
+  <g transform="translate(510,55)">
+    <rect x="0" y="0" width="145" height="120" rx="8" stroke="#f472b6" stroke-width="2" fill="none"/>
+    <text x="72" y="25" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#f472b6">Local Presence</text>
+    <text x="72" y="48" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Warehouse cities</text>
+    <text x="72" y="66" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Office addresses</text>
+    <text x="72" y="84" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Indian phone no.</text>
+    <text x="72" y="102" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">GST number</text>
+  </g>
+  <line x1="30" y1="200" x2="650" y2="200" stroke="#a78bfa" stroke-width="1" stroke-dasharray="4"/>
+  <text x="340" y="225" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#a78bfa">SEO Impact</text>
+  <text x="340" y="248" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Add COD and EMI to product schema -- improves CTR in search results</text>
+  <text x="340" y="266" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Mark up reviews with structured data -- enables rich snippets</text>
+  <text x="340" y="284" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Mention city presence on landing pages -- helps local search visibility</text>
+</svg>

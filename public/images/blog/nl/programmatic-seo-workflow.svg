@@ -1,0 +1,50 @@
+<svg viewBox="0 0 680 300" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <text x="340" y="28" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#a78bfa">Programmatic SEO Workflow</text>
+  <g transform="translate(20,55)">
+    <rect x="0" y="0" width="120" height="70" rx="8" stroke="#a78bfa" stroke-width="2" fill="none"/>
+    <text x="60" y="28" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#a78bfa">Data Source</text>
+    <text x="60" y="48" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Product attributes</text>
+    <text x="60" y="62" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Categories, specs</text>
+  </g>
+  <line x1="140" y1="90" x2="170" y2="90" stroke="#a78bfa" stroke-width="1.5" stroke-dasharray="4"/>
+  <polygon points="168,86 176,90 168,94" fill="#a78bfa"/>
+  <g transform="translate(176,55)">
+    <rect x="0" y="0" width="120" height="70" rx="8" stroke="#60a5fa" stroke-width="2" fill="none"/>
+    <text x="60" y="28" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#60a5fa">Template</text>
+    <text x="60" y="48" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Page layout</text>
+    <text x="60" y="62" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Variable slots</text>
+  </g>
+  <line x1="296" y1="90" x2="326" y2="90" stroke="#60a5fa" stroke-width="1.5" stroke-dasharray="4"/>
+  <polygon points="324,86 332,90 324,94" fill="#60a5fa"/>
+  <g transform="translate(332,55)">
+    <rect x="0" y="0" width="120" height="70" rx="8" stroke="#f97316" stroke-width="2" fill="none"/>
+    <text x="60" y="28" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#f97316">Generator</text>
+    <text x="60" y="48" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Combine data +</text>
+    <text x="60" y="62" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">template at scale</text>
+  </g>
+  <line x1="452" y1="90" x2="482" y2="90" stroke="#f97316" stroke-width="1.5" stroke-dasharray="4"/>
+  <polygon points="480,86 488,90 480,94" fill="#f97316"/>
+  <g transform="translate(488,55)">
+    <rect x="0" y="0" width="170" height="70" rx="8" stroke="#4ade80" stroke-width="2" fill="none"/>
+    <text x="85" y="28" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#4ade80">Landing Pages</text>
+    <text x="85" y="48" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Hundreds to thousands</text>
+    <text x="85" y="62" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">of unique pages</text>
+  </g>
+  <g transform="translate(20,160)">
+    <rect x="0" y="0" width="200" height="55" rx="6" stroke="#f472b6" stroke-width="1.5" fill="none"/>
+    <text x="100" y="22" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#f472b6">Quality Checks</text>
+    <text x="100" y="40" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Unique copy, schema, internal links</text>
+  </g>
+  <g transform="translate(240,160)">
+    <rect x="0" y="0" width="200" height="55" rx="6" stroke="#f472b6" stroke-width="1.5" fill="none"/>
+    <text x="100" y="22" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#f472b6">Avoid Thin Content</text>
+    <text x="100" y="40" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Differentiate every page from others</text>
+  </g>
+  <g transform="translate(460,160)">
+    <rect x="0" y="0" width="200" height="55" rx="6" stroke="#f472b6" stroke-width="1.5" fill="none"/>
+    <text x="100" y="22" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#f472b6">Monitor Indexing</text>
+    <text x="100" y="40" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Track coverage in GSC</text>
+  </g>
+  <line x1="20" y1="245" x2="660" y2="245" stroke="#a78bfa" stroke-width="1" stroke-dasharray="4"/>
+  <text x="340" y="270" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#a78bfa">Data + template + quality = scalable long-tail traffic</text>
+</svg>

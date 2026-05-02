@@ -11,6 +11,8 @@ export type AcademyTopicSection = {
   content: string; // paragraphs separated by \n\n
   items?: string[];
   tip?: string;
+  callout?: { title: string; text: string };
+  image?: { src: string; alt: string; caption?: string };
 };
 
 export type AcademyTopicContent = {

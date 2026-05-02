@@ -21,12 +21,21 @@ export const rankTrackingForEcommerce: AcademyTopic = {
           title: "Building Your Ecommerce Keyword List",
           content:
             "Organizing your tracking keywords into clear groups is what separates useful rank tracking from data overload. For ecommerce, structure your keyword list around your site architecture: brand terms, top-level category keywords, subcategory keywords, product-specific keywords, and informational keywords that drive top-of-funnel traffic.\n\nPrioritize keywords by commercial value, not just search volume. A keyword with 500 monthly searches that converts at 4% with a $120 average order value is worth far more than a keyword with 5,000 searches that converts at 0.3% with a $25 AOV. Calculate the estimated monthly revenue potential for each keyword group to guide your tracking priorities.\n\nTag each keyword with metadata that enables meaningful analysis, building on your [keyword research for ecommerce](/academy/keyword-research-for-ecommerce) foundation. At minimum, tag by page type (product, category, blog), funnel stage (awareness, consideration, purchase), and product category. This tagging lets you report on rank performance by business segment rather than staring at individual keyword positions. When your CMO asks how the shoe category is performing in search, you can answer immediately.\n\nDon't overlook long-tail product keywords. While each individual long-tail term has low volume, they collectively drive a large share of ecommerce revenue. Track a representative sample of long-tail keywords for your key product categories. If your sample of 200 long-tail shoe keywords is trending upward, your broader long-tail visibility is likely improving too.",
+          image: {
+            src: "/images/academy/rank-tracking-keyword-tiers.svg",
+            alt: "Diagram showing four tiers of ecommerce keyword tracking: brand terms, category keywords, product keywords, and informational keywords with tracking frequency",
+            caption: "Structure your keyword tracking in tiers by page type. Brand and category terms get daily tracking; product and informational keywords can be tracked weekly.",
+          },
           items: [
             "Group keywords by site architecture: brand, category, subcategory, product, informational",
             "Calculate estimated monthly revenue potential to prioritize tracking focus",
             "Tag keywords with page type, funnel stage, and product category for segment analysis",
             "Track representative long-tail keyword samples for major product categories",
           ],
+          callout: {
+            title: "Revenue-First Tracking",
+            text: "A keyword with 500 monthly searches at 4% CVR and $120 AOV generates $2,400/month. A 5,000-search keyword at 0.3% CVR and $25 AOV generates only $375. Prioritize tracking by revenue potential, not volume.",
+          },
         },
         {
           title: "Setting Up Location-Based Tracking",
@@ -44,6 +53,15 @@ export const rankTrackingForEcommerce: AcademyTopic = {
           title: "Tracking SERP Feature Visibility",
           content:
             "For ecommerce, SERP features can steal clicks even when you rank well organically. Google Shopping results, Product Knowledge Panels, image packs, and featured snippets all compete for attention above or alongside organic listings. Tracking your presence in these features is as valuable as tracking your organic position.\n\nGoogle Shopping integration into the main search results has been steadily expanding. For many product queries, the shopping carousel appears at the very top of the page, pushing organic results below the fold on mobile. If you're running Google Shopping campaigns, your rank tracker should show whether your products appear in these carousels alongside your organic listings.\n\nFeatured snippets are another area where ecommerce stores can gain or lose visibility. Category pages that answer comparison queries (\"best running shoes for flat feet\") can win featured snippets that capture a disproportionate share of clicks. Track which of your pages hold featured snippets and monitor for losses. When you lose a snippet, examine what the new snippet holder did differently.\n\nImage packs appear frequently for product queries, especially in fashion, home decor, and electronics. If your product images appear in these packs, they drive additional traffic beyond your organic listing. Ensure your image SEO is optimized with descriptive filenames, alt text, and proper image sitemaps so rank trackers can detect your presence in image results.",
+          image: {
+            src: "/images/academy/serp-feature-visibility.svg",
+            alt: "Diagram showing four SERP features that affect ecommerce CTR: shopping carousel, featured snippet, image pack, and People Also Ask",
+            caption: "Shopping carousels have the highest CTR impact, reducing organic position 1 click-through rate from ~30% to 15-20%.",
+          },
+          callout: {
+            title: "CTR Reality Check",
+            text: "Shopping carousels cut organic position 1 CTR nearly in half. For product queries where these appear, your rank tracker position is misleading unless it also reports SERP feature presence.",
+          },
         },
         {
           title: "Reporting and Acting on Rank Data",
@@ -78,12 +96,21 @@ export const rankTrackingForEcommerce: AcademyTopic = {
           title: "Ihre E-Commerce-Keyword-Liste aufbauen",
           content:
             "Die Organisation Ihrer Tracking-Keywords in klare Gruppen ist das, was nuetzliches Rank-Tracking von Datenueberlastung unterscheidet. Fuer E-Commerce strukturieren Sie Ihre Keyword-Liste um Ihre Website-Architektur: Markenbegriffe, Top-Level-Kategorie-Keywords, Unterkategorie-Keywords, produktspezifische Keywords und informationale Keywords.\n\nPriorisieren Sie Keywords nach kommerziellem Wert, nicht nur nach Suchvolumen. Ein Keyword mit 500 monatlichen Suchanfragen, das mit 4% konvertiert bei einem durchschnittlichen Bestellwert von 120 Euro, ist weit mehr wert als ein Keyword mit 5.000 Suchanfragen, das mit 0,3% bei 25 Euro AOV konvertiert.\n\nVersehen Sie jedes Keyword mit Metadaten, die eine aussagekraeftige Analyse ermoeglichen. Taggen Sie mindestens nach Seitentyp (Produkt, Kategorie, Blog), Funnel-Phase (Bewusstsein, Ueberlegung, Kauf) und Produktkategorie. Dieses Tagging ermoeglicht es Ihnen, ueber Rank-Performance nach Geschaeftssegment zu berichten. Weitere Informationen finden Sie in unserem Leitfaden zu [Keyword-Recherche f\u00fcr Ecommerce](/academy/keyword-research-for-ecommerce).\n\nUebersehen Sie nicht die Long-Tail-Produkt-Keywords. Waehrend jeder einzelne Long-Tail-Begriff ein niedriges Volumen hat, treiben sie zusammen einen grossen Anteil des E-Commerce-Umsatzes an. Verfolgen Sie eine repraesentative Stichprobe von Long-Tail-Keywords fuer Ihre wichtigsten Produktkategorien.",
-          items: [
+                    image: {
+            src: "/images/academy/de/rank-tracking-keyword-tiers.svg",
+            alt: "Diagramm der Keyword-Tracking-Stufen mit Umsatz-Keywords, strategischen Keywords und Long-Tail-Erweiterung",
+            caption: "Organisieren Sie Keywords in Stufen basierend auf Umsatzwirkung und verfolgen Sie jede Stufe mit angemessener Haeufigkeit.",
+          },
+items: [
             "Gruppieren Sie Keywords nach Website-Architektur: Marke, Kategorie, Unterkategorie, Produkt, informational",
             "Berechnen Sie das geschaetzte monatliche Umsatzpotenzial zur Priorisierung des Tracking-Fokus",
             "Taggen Sie Keywords mit Seitentyp, Funnel-Phase und Produktkategorie fuer Segmentanalysen",
             "Verfolgen Sie repraesentative Long-Tail-Keyword-Stichproben fuer wichtige Produktkategorien",
           ],
+          callout: {
+            title: "Keyword-Priorisierung",
+            text: "Konzentrieren Sie die taegliche Verfolgung auf die 50-200 Keywords, die direkt Umsatz generieren. Erweitern Sie auf 500+ nur fuer woechentliche strategische Analyse, um Tool-Kosten zu kontrollieren.",
+          },
         },
         {
           title: "Standortbasiertes Tracking einrichten",
@@ -101,6 +128,16 @@ export const rankTrackingForEcommerce: AcademyTopic = {
           title: "SERP-Feature-Sichtbarkeit verfolgen",
           content:
             "Fuer E-Commerce koennen SERP-Features Klicks stehlen, selbst wenn Sie organisch gut ranken. Google-Shopping-Ergebnisse, Produkt-Knowledge-Panels, Bildpakete und Featured Snippets konkurrieren alle um Aufmerksamkeit ueber oder neben den organischen Listings. Das Tracking Ihrer Praesenz in diesen Features ist genauso wertvoll wie das Tracking Ihrer organischen Position.\n\nDie Integration von Google Shopping in die Hauptsuchergebnisse hat sich stetig ausgeweitet. Bei vielen Produktanfragen erscheint das Shopping-Karussell ganz oben auf der Seite und draengt organische Ergebnisse auf Mobilgeraeten unter den sichtbaren Bereich.\n\nFeatured Snippets sind ein weiterer Bereich, in dem E-Commerce-Shops Sichtbarkeit gewinnen oder verlieren koennen. Kategorieseiten, die Vergleichsanfragen beantworten, koennen Featured Snippets gewinnen, die einen ueberproportionalen Anteil an Klicks erfassen.\n\nBildpakete erscheinen haeufig bei Produktanfragen, besonders in Mode, Wohndekor und Elektronik. Wenn Ihre Produktbilder in diesen Paketen erscheinen, treiben sie zusaetzlichen Traffic ueber Ihr organisches Listing hinaus. Stellen Sie sicher, dass Ihre Bild-SEO mit beschreibenden Dateinamen, Alt-Text und korrekten Bild-Sitemaps optimiert ist.",
+          image: {
+            src: "/images/academy/de/serp-feature-visibility.svg",
+            alt: "SERP-Feature-Sichtbarkeitskarte mit verschiedenen Suchergebnis-Elementen und ihrem Einfluss",
+            caption: "SERP-Features haben traditionelle organische Positionen verdraengt. Verfolgen Sie die Feature-Praesenz, nicht nur den Rang.",
+          },
+        
+          callout: {
+            title: "Feature-Tracking-Prioritaet",
+            text: "Featured Snippets und Shopping-Ergebnisse verdraengen organische Klicks um 20-40%. Wenn Sie nur Rangpositionen verfolgen, verpassen Sie die tatsaechliche Sichtbarkeitsgeschichte Ihrer Marke.",
+          },
         },
         {
           title: "Ranking-Daten berichten und darauf reagieren",
@@ -141,6 +178,15 @@ export const rankTrackingForEcommerce: AcademyTopic = {
             "Etiquetez les mots-cles avec le type de page, l'etape du funnel et la categorie produit pour l'analyse par segment",
             "Suivez des echantillons representatifs de mots-cles longue traine pour les categories de produits majeures",
           ],
+          image: {
+            src: "/images/academy/fr/rank-tracking-keyword-tiers.svg",
+            alt: "Diagramm der Keyword-Tracking-Stufen mit Umsatz-Keywords, strategischen Keywords und Long-Tail-Erweiterung",
+            caption: "Organisieren Sie Keywords in Stufen basierend auf Umsatzwirkung und verfolgen Sie jede Stufe mit angemessener Haeufigkeit.",
+          },
+          callout: {
+            title: "Keyword-Priorisierung",
+            text: "Konzentrieren Sie die taegliche Verfolgung auf die 50-200 Keywords, die direkt Umsatz generieren. Erweitern Sie auf 500+ nur fuer woechentliche strategische Analyse, um Tool-Kosten zu kontrollieren.",
+          },
         },
         {
           title: "Configurer le suivi par localisation",
@@ -158,6 +204,15 @@ export const rankTrackingForEcommerce: AcademyTopic = {
           title: "Suivre la visibilite des fonctionnalites SERP",
           content:
             "Pour l'e-commerce, les fonctionnalites SERP peuvent voler des clics meme lorsque vous etes bien classe organiquement. Les resultats Google Shopping, les Knowledge Panels produits, les packs d'images et les extraits en vedette rivalisent tous pour l'attention au-dessus ou a cote des listings organiques.\n\nL'integration de Google Shopping dans les resultats de recherche principaux s'est regulierement etendue. Pour de nombreuses requetes produit, le carrousel shopping apparait tout en haut de la page, poussant les resultats organiques sous le pli sur mobile.\n\nLes extraits en vedette sont un autre domaine ou les boutiques e-commerce peuvent gagner ou perdre en visibilite. Les pages de categories qui repondent aux requetes de comparaison peuvent gagner des extraits en vedette qui capturent une part disproportionnee des clics.\n\nLes packs d'images apparaissent frequemment pour les requetes produit, surtout en mode, decoration interieure et electronique. Si vos images produit apparaissent dans ces packs, elles generent du trafic supplementaire au-dela de votre listing organique.",
+          image: {
+            src: "/images/academy/fr/serp-feature-visibility.svg",
+            alt: "SERP-Feature-Sichtbarkeitskarte mit verschiedenen Suchergebnis-Elementen und ihrem Einfluss",
+            caption: "SERP-Features haben traditionelle organische Positionen verdraengt. Verfolgen Sie die Feature-Praesenz, nicht nur den Rang.",
+          },
+          callout: {
+            title: "Feature-Tracking-Prioritaet",
+            text: "Featured Snippets und Shopping-Ergebnisse verdraengen organische Klicks um 20-40%. Wenn Sie nur Rangpositionen verfolgen, verpassen Sie die tatsaechliche Sichtbarkeitsgeschichte Ihrer Marke.",
+          },
         },
         {
           title: "Rapporter et agir sur les donnees de classement",
@@ -198,6 +253,15 @@ export const rankTrackingForEcommerce: AcademyTopic = {
             "Etiqueta palabras clave con tipo de pagina, etapa del embudo y categoria de producto para analisis por segmento",
             "Rastrea muestras representativas de palabras clave de cola larga para categorias de productos principales",
           ],
+          image: {
+            src: "/images/academy/es/rank-tracking-keyword-tiers.svg",
+            alt: "Diagramm der Keyword-Tracking-Stufen mit Umsatz-Keywords, strategischen Keywords und Long-Tail-Erweiterung",
+            caption: "Organisieren Sie Keywords in Stufen basierend auf Umsatzwirkung und verfolgen Sie jede Stufe mit angemessener Haeufigkeit.",
+          },
+          callout: {
+            title: "Keyword-Priorisierung",
+            text: "Konzentrieren Sie die taegliche Verfolgung auf die 50-200 Keywords, die direkt Umsatz generieren. Erweitern Sie auf 500+ nur fuer woechentliche strategische Analyse, um Tool-Kosten zu kontrollieren.",
+          },
         },
         {
           title: "Configurar seguimiento basado en ubicacion",
@@ -215,6 +279,15 @@ export const rankTrackingForEcommerce: AcademyTopic = {
           title: "Rastrear la visibilidad de funciones SERP",
           content:
             "Para ecommerce, las funciones SERP pueden robar clics incluso cuando te posicionas bien organicamente. Los resultados de Google Shopping, los Knowledge Panels de productos, los paquetes de imagenes y los fragmentos destacados compiten por la atencion por encima o junto a los listings organicos.\n\nLa integracion de Google Shopping en los resultados de busqueda principales se ha expandido constantemente. Para muchas consultas de productos, el carrusel de shopping aparece en la parte superior de la pagina, empujando los resultados organicos debajo del pliegue en movil.\n\nLos fragmentos destacados son otra area donde las tiendas de ecommerce pueden ganar o perder visibilidad. Las paginas de categoria que responden consultas de comparacion pueden ganar fragmentos destacados que capturan una proporcion desproporcionada de clics.\n\nLos paquetes de imagenes aparecen frecuentemente para consultas de productos, especialmente en moda, decoracion del hogar y electronica. Si tus imagenes de producto aparecen en estos paquetes, generan trafico adicional mas alla de tu listing organico.",
+          image: {
+            src: "/images/academy/es/serp-feature-visibility.svg",
+            alt: "SERP-Feature-Sichtbarkeitskarte mit verschiedenen Suchergebnis-Elementen und ihrem Einfluss",
+            caption: "SERP-Features haben traditionelle organische Positionen verdraengt. Verfolgen Sie die Feature-Praesenz, nicht nur den Rang.",
+          },
+          callout: {
+            title: "Feature-Tracking-Prioritaet",
+            text: "Featured Snippets und Shopping-Ergebnisse verdraengen organische Klicks um 20-40%. Wenn Sie nur Rangpositionen verfolgen, verpassen Sie die tatsaechliche Sichtbarkeitsgeschichte Ihrer Marke.",
+          },
         },
         {
           title: "Reportar y actuar sobre los datos de posicionamiento",
@@ -255,6 +328,15 @@ export const rankTrackingForEcommerce: AcademyTopic = {
             "Etichetta le parole chiave con tipo di pagina, fase del funnel e categoria prodotto per analisi per segmento",
             "Traccia campioni rappresentativi di parole chiave a coda lunga per le principali categorie di prodotti",
           ],
+          image: {
+            src: "/images/academy/it/rank-tracking-keyword-tiers.svg",
+            alt: "Diagramm der Keyword-Tracking-Stufen mit Umsatz-Keywords, strategischen Keywords und Long-Tail-Erweiterung",
+            caption: "Organisieren Sie Keywords in Stufen basierend auf Umsatzwirkung und verfolgen Sie jede Stufe mit angemessener Haeufigkeit.",
+          },
+          callout: {
+            title: "Keyword-Priorisierung",
+            text: "Konzentrieren Sie die taegliche Verfolgung auf die 50-200 Keywords, die direkt Umsatz generieren. Erweitern Sie auf 500+ nur fuer woechentliche strategische Analyse, um Tool-Kosten zu kontrollieren.",
+          },
         },
         {
           title: "Configurare il tracciamento basato sulla localizzazione",
@@ -272,6 +354,15 @@ export const rankTrackingForEcommerce: AcademyTopic = {
           title: "Tracciare la visibilita delle funzionalita SERP",
           content:
             "Per l'e-commerce, le funzionalita SERP possono rubare clic anche quando ti posizioni bene organicamente. I risultati Google Shopping, i Knowledge Panel dei prodotti, i pacchetti immagini e i featured snippet competono tutti per l'attenzione sopra o accanto ai listing organici.\n\nL'integrazione di Google Shopping nei risultati di ricerca principali si e costantemente espansa. Per molte query prodotto, il carosello shopping appare in cima alla pagina, spingendo i risultati organici sotto la piega su mobile.\n\nI featured snippet sono un'altra area dove i negozi e-commerce possono guadagnare o perdere visibilita. Le pagine di categoria che rispondono a query di confronto possono conquistare featured snippet che catturano una quota sproporzionata di clic.\n\nI pacchetti immagini appaiono frequentemente per le query prodotto, specialmente nella moda, arredamento ed elettronica. Se le tue immagini prodotto appaiono in questi pacchetti, generano traffico aggiuntivo oltre al tuo listing organico.",
+          image: {
+            src: "/images/academy/it/serp-feature-visibility.svg",
+            alt: "SERP-Feature-Sichtbarkeitskarte mit verschiedenen Suchergebnis-Elementen und ihrem Einfluss",
+            caption: "SERP-Features haben traditionelle organische Positionen verdraengt. Verfolgen Sie die Feature-Praesenz, nicht nur den Rang.",
+          },
+          callout: {
+            title: "Feature-Tracking-Prioritaet",
+            text: "Featured Snippets und Shopping-Ergebnisse verdraengen organische Klicks um 20-40%. Wenn Sie nur Rangpositionen verfolgen, verpassen Sie die tatsaechliche Sichtbarkeitsgeschichte Ihrer Marke.",
+          },
         },
         {
           title: "Reportare e agire sui dati di posizionamento",
@@ -312,6 +403,15 @@ export const rankTrackingForEcommerce: AcademyTopic = {
             "Label zoekwoorden met paginatype, funnelfase en productcategorie voor segmentanalyse",
             "Volg representatieve long-tail zoekwoordsteekproeven voor belangrijke productcategorieen",
           ],
+          image: {
+            src: "/images/academy/nl/rank-tracking-keyword-tiers.svg",
+            alt: "Diagramm der Keyword-Tracking-Stufen mit Umsatz-Keywords, strategischen Keywords und Long-Tail-Erweiterung",
+            caption: "Organisieren Sie Keywords in Stufen basierend auf Umsatzwirkung und verfolgen Sie jede Stufe mit angemessener Haeufigkeit.",
+          },
+          callout: {
+            title: "Keyword-Priorisierung",
+            text: "Konzentrieren Sie die taegliche Verfolgung auf die 50-200 Keywords, die direkt Umsatz generieren. Erweitern Sie auf 500+ nur fuer woechentliche strategische Analyse, um Tool-Kosten zu kontrollieren.",
+          },
         },
         {
           title: "Locatiegebaseerde tracking instellen",
@@ -329,6 +429,15 @@ export const rankTrackingForEcommerce: AcademyTopic = {
           title: "SERP-functie zichtbaarheid volgen",
           content:
             "Voor e-commerce kunnen SERP-functies klikken stelen, zelfs wanneer je goed organisch scoort. Google Shopping-resultaten, Product Knowledge Panels, afbeeldingspakketten en featured snippets concurreren allemaal om aandacht boven of naast organische listings.\n\nDe integratie van Google Shopping in de hoofdzoekresultaten is gestaag uitgebreid. Voor veel productqueries verschijnt de shopping-carrousel helemaal bovenaan de pagina, wat organische resultaten onder de vouw op mobiel duwt.\n\nFeatured snippets zijn een ander gebied waar e-commerce winkels zichtbaarheid kunnen winnen of verliezen. Categoriepagina's die vergelijkende queries beantwoorden kunnen featured snippets winnen die een onevenredig groot deel van de klikken vastleggen.\n\nAfbeeldingspakketten verschijnen frequent voor productqueries, vooral in mode, woondecoratie en elektronica. Als je productafbeeldingen in deze pakketten verschijnen, genereren ze extra verkeer bovenop je organische listing.",
+          image: {
+            src: "/images/academy/nl/serp-feature-visibility.svg",
+            alt: "SERP-Feature-Sichtbarkeitskarte mit verschiedenen Suchergebnis-Elementen und ihrem Einfluss",
+            caption: "SERP-Features haben traditionelle organische Positionen verdraengt. Verfolgen Sie die Feature-Praesenz, nicht nur den Rang.",
+          },
+          callout: {
+            title: "Feature-Tracking-Prioritaet",
+            text: "Featured Snippets und Shopping-Ergebnisse verdraengen organische Klicks um 20-40%. Wenn Sie nur Rangpositionen verfolgen, verpassen Sie die tatsaechliche Sichtbarkeitsgeschichte Ihrer Marke.",
+          },
         },
         {
           title: "Rapporteren over en handelen naar positiedata",

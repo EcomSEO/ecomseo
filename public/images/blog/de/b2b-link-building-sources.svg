@@ -1,0 +1,43 @@
+<svg viewBox="0 0 680 300" xmlns="http://www.w3.org/2000/svg" fill="none" font-family="Arial,sans-serif">
+  <text x="340" y="28" text-anchor="middle" fill="#a78bfa" font-size="14" font-weight="bold">B2B Link Building Sources by Authority</text>
+  <!-- Central target -->
+  <rect x="260" y="50" width="160" height="44" rx="8" stroke="#a78bfa" stroke-width="2"/>
+  <text x="340" y="68" text-anchor="middle" fill="#a78bfa" font-size="12" font-weight="bold">Your B2B Store</text>
+  <text x="340" y="84" text-anchor="middle" fill="#e2e8f0" font-size="9">Product + category pages</text>
+  <!-- Link sources - top row -->
+  <rect x="20" y="120" width="150" height="52" rx="6" stroke="#4ade80" stroke-width="1.5"/>
+  <text x="95" y="140" text-anchor="middle" fill="#4ade80" font-size="10" font-weight="bold">Trade Publications</text>
+  <text x="95" y="154" text-anchor="middle" fill="#e2e8f0" font-size="9">ThomasNet, IndustryWeek</text>
+  <text x="95" y="166" text-anchor="middle" fill="#e2e8f0" font-size="9">High authority editorial</text>
+  <line x1="170" y1="146" x2="260" y2="80" stroke="#4ade80" stroke-width="1" stroke-dasharray="4 2"/>
+  <rect x="190" y="120" width="150" height="52" rx="6" stroke="#60a5fa" stroke-width="1.5"/>
+  <text x="265" y="140" text-anchor="middle" fill="#60a5fa" font-size="10" font-weight="bold">Manufacturer Links</text>
+  <text x="265" y="154" text-anchor="middle" fill="#e2e8f0" font-size="9">"Where to buy" pages</text>
+  <text x="265" y="166" text-anchor="middle" fill="#e2e8f0" font-size="9">Dealer locator listings</text>
+  <line x1="265" y1="120" x2="300" y2="94" stroke="#60a5fa" stroke-width="1" stroke-dasharray="4 2"/>
+  <rect x="360" y="120" width="150" height="52" rx="6" stroke="#f97316" stroke-width="1.5"/>
+  <text x="435" y="140" text-anchor="middle" fill="#f97316" font-size="10" font-weight="bold">Industry Associations</text>
+  <text x="435" y="154" text-anchor="middle" fill="#e2e8f0" font-size="9">ISO, ASTM directories</text>
+  <text x="435" y="166" text-anchor="middle" fill="#e2e8f0" font-size="9">Trusted .org domains</text>
+  <line x1="435" y1="120" x2="380" y2="94" stroke="#f97316" stroke-width="1" stroke-dasharray="4 2"/>
+  <rect x="530" y="120" width="130" height="52" rx="6" stroke="#a78bfa" stroke-width="1.5"/>
+  <text x="595" y="140" text-anchor="middle" fill="#a78bfa" font-size="10" font-weight="bold">Technical Resources</text>
+  <text x="595" y="154" text-anchor="middle" fill="#e2e8f0" font-size="9">Spec charts, calculators</text>
+  <text x="595" y="166" text-anchor="middle" fill="#e2e8f0" font-size="9">Natural link magnets</text>
+  <line x1="530" y1="146" x2="420" y2="80" stroke="#a78bfa" stroke-width="1" stroke-dasharray="4 2"/>
+  <!-- Impact scale -->
+  <text x="340" y="204" text-anchor="middle" fill="#e2e8f0" font-size="11" font-weight="bold">Relative Link Value for B2B Rankings</text>
+  <rect x="60" y="218" width="520" height="18" rx="4" stroke="#e2e8f0" stroke-width="0.5" opacity="0.2"/>
+  <rect x="60" y="218" width="520" height="18" rx="4" fill="#4ade80" opacity="0.2"/>
+  <rect x="60" y="218" width="400" height="18" rx="4" fill="#60a5fa" opacity="0.25"/>
+  <rect x="60" y="218" width="260" height="18" rx="4" fill="#f97316" opacity="0.25"/>
+  <rect x="60" y="218" width="130" height="18" rx="4" fill="#a78bfa" opacity="0.3"/>
+  <text x="125" y="232" text-anchor="middle" fill="#e2e8f0" font-size="8">Associations</text>
+  <text x="260" y="232" text-anchor="middle" fill="#e2e8f0" font-size="8">Trade Pubs</text>
+  <text x="400" y="232" text-anchor="middle" fill="#e2e8f0" font-size="8">Manufacturer</text>
+  <text x="520" y="232" text-anchor="middle" fill="#e2e8f0" font-size="8">Technical Resources</text>
+  <text x="60" y="254" fill="#e2e8f0" font-size="9" opacity="0.6">Hardest to earn</text>
+  <text x="540" y="254" fill="#e2e8f0" font-size="9" opacity="0.6">Easiest to earn</text>
+  <!-- Bottom tip -->
+  <text x="340" y="284" text-anchor="middle" fill="#e2e8f0" font-size="9" opacity="0.7">Single manufacturer link can lift rankings for an entire product category</text>
+</svg>

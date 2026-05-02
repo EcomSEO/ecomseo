@@ -1,0 +1,41 @@
+<svg viewBox="0 0 680 280" xmlns="http://www.w3.org/2000/svg" fill="none" font-family="Arial,sans-serif">
+  <text x="340" y="28" text-anchor="middle" fill="#a78bfa" font-size="14" font-weight="bold">Magento URL Rewrite Cleanup Strategy</text>
+  <!-- The problem -->
+  <text x="170" y="56" text-anchor="middle" fill="#ef4444" font-size="11" font-weight="bold">The Problem</text>
+  <rect x="40" y="66" width="260" height="80" rx="8" stroke="#ef4444" stroke-width="1.5"/>
+  <text x="170" y="86" text-anchor="middle" fill="#e2e8f0" font-size="9">Same product accessible at 3+ URLs:</text>
+  <text x="170" y="104" text-anchor="middle" fill="#ef4444" font-size="8">/women/shoes/running/nike-air-zoom.html</text>
+  <text x="170" y="118" text-anchor="middle" fill="#ef4444" font-size="8">/nike-air-zoom.html</text>
+  <text x="170" y="132" text-anchor="middle" fill="#ef4444" font-size="8">/sale/nike-air-zoom.html</text>
+  <!-- The fix -->
+  <text x="510" y="56" text-anchor="middle" fill="#4ade80" font-size="11" font-weight="bold">The Fix</text>
+  <rect x="380" y="66" width="260" height="80" rx="8" stroke="#4ade80" stroke-width="1.5"/>
+  <text x="510" y="86" text-anchor="middle" fill="#e2e8f0" font-size="9">Remove category paths from URLs:</text>
+  <text x="510" y="106" text-anchor="middle" fill="#4ade80" font-size="10" font-weight="bold">/nike-air-zoom.html</text>
+  <text x="510" y="124" text-anchor="middle" fill="#e2e8f0" font-size="8">Stores > Config > Catalog > SEO</text>
+  <text x="510" y="138" text-anchor="middle" fill="#e2e8f0" font-size="8">"Use Categories Path" = No</text>
+  <!-- Arrow -->
+  <line x1="300" y1="106" x2="380" y2="106" stroke="#a78bfa" stroke-width="1.5" marker-end="url(#arrowP)"/>
+  <!-- Cleanup process -->
+  <text x="340" y="176" text-anchor="middle" fill="#60a5fa" font-size="11" font-weight="bold">Quarterly Cleanup Process</text>
+  <rect x="20" y="190" width="150" height="40" rx="6" stroke="#60a5fa" stroke-width="1.5"/>
+  <text x="95" y="206" text-anchor="middle" fill="#60a5fa" font-size="10" font-weight="bold">1. Audit Table</text>
+  <text x="95" y="222" text-anchor="middle" fill="#e2e8f0" font-size="8">Check url_rewrite size</text>
+  <rect x="190" y="190" width="150" height="40" rx="6" stroke="#4ade80" stroke-width="1.5"/>
+  <text x="265" y="206" text-anchor="middle" fill="#4ade80" font-size="10" font-weight="bold">2. Find Orphans</text>
+  <text x="265" y="222" text-anchor="middle" fill="#e2e8f0" font-size="8">Deleted products, categories</text>
+  <rect x="360" y="190" width="150" height="40" rx="6" stroke="#f97316" stroke-width="1.5"/>
+  <text x="435" y="206" text-anchor="middle" fill="#f97316" font-size="10" font-weight="bold">3. Remove Stale</text>
+  <text x="435" y="222" text-anchor="middle" fill="#e2e8f0" font-size="8">Run cleanup script</text>
+  <rect x="530" y="190" width="130" height="40" rx="6" stroke="#a78bfa" stroke-width="1.5"/>
+  <text x="595" y="206" text-anchor="middle" fill="#a78bfa" font-size="10" font-weight="bold">4. Verify</text>
+  <text x="595" y="222" text-anchor="middle" fill="#e2e8f0" font-size="8">Test redirects still work</text>
+  <!-- Impact stat -->
+  <text x="340" y="256" text-anchor="middle" fill="#4ade80" font-size="10" font-weight="bold">Clearing 1.8M stale entries reduced url_rewrite table by 94%</text>
+  <text x="340" y="274" text-anchor="middle" fill="#e2e8f0" font-size="9" opacity="0.7">Run in staging first -- always set up 301 redirects from old category-path URLs</text>
+  <defs>
+    <marker id="arrowP" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <path d="M0 0 L8 3 L0 6" fill="none" stroke="#a78bfa" stroke-width="1"/>
+    </marker>
+  </defs>
+</svg>

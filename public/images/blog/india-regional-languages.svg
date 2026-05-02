@@ -1,0 +1,25 @@
+<svg viewBox="0 0 680 280" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <text x="340" y="28" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#a78bfa">Regional Language SEO Opportunity in India</text>
+  <!-- Bar chart -->
+  <text x="135" y="62" text-anchor="end" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Hindi</text>
+  <rect x="140" y="50" width="380" height="20" rx="3" fill="#a78bfa" opacity="0.25" stroke="#a78bfa" stroke-width="1"/>
+  <text x="530" y="64" font-family="Arial,sans-serif" font-size="10" fill="#a78bfa">535M speakers</text>
+  <text x="135" y="92" text-anchor="end" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Bengali</text>
+  <rect x="140" y="80" width="170" height="20" rx="3" fill="#60a5fa" opacity="0.25" stroke="#60a5fa" stroke-width="1"/>
+  <text x="318" y="94" font-family="Arial,sans-serif" font-size="10" fill="#60a5fa">100M+</text>
+  <text x="135" y="122" text-anchor="end" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Telugu</text>
+  <rect x="140" y="110" width="150" height="20" rx="3" fill="#4ade80" opacity="0.25" stroke="#4ade80" stroke-width="1"/>
+  <text x="298" y="124" font-family="Arial,sans-serif" font-size="10" fill="#4ade80">83M+</text>
+  <text x="135" y="152" text-anchor="end" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Marathi</text>
+  <rect x="140" y="140" width="140" height="20" rx="3" fill="#f97316" opacity="0.25" stroke="#f97316" stroke-width="1"/>
+  <text x="288" y="154" font-family="Arial,sans-serif" font-size="10" fill="#f97316">83M+</text>
+  <text x="135" y="182" text-anchor="end" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Tamil</text>
+  <rect x="140" y="170" width="130" height="20" rx="3" fill="#ef4444" opacity="0.25" stroke="#ef4444" stroke-width="1"/>
+  <text x="278" y="184" font-family="Arial,sans-serif" font-size="10" fill="#ef4444">75M+</text>
+  <text x="135" y="212" text-anchor="end" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Kannada</text>
+  <rect x="140" y="200" width="90" height="20" rx="3" fill="#a78bfa" opacity="0.2" stroke="#a78bfa" stroke-width="1"/>
+  <text x="238" y="214" font-family="Arial,sans-serif" font-size="10" fill="#a78bfa">44M+</text>
+  <!-- Bottom insight -->
+  <rect x="100" y="240" width="480" height="30" rx="6" fill="#4ade80" opacity="0.08" stroke="#4ade80" stroke-width="1"/>
+  <text x="340" y="260" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#4ade80">90% of new internet users in India search in regional languages</text>
+</svg>

@@ -123,7 +123,7 @@ export const woocommerceSeoData: Record<Locale, ServicePageProps> = {
             number: "01",
             title: "Consolidate Your SEO Plugins",
             body: "Running Yoast, Rank Math, and All-in-One SEO simultaneously is a recipe for canonical conflicts. Pick one SEO plugin and remove the rest. We typically recommend Rank Math for WooCommerce stores because of its built-in schema support and WooCommerce integration.",
-            href: "/academy/on-page-seo-for-ecommerce",
+            href: "/academy/product-page-seo",
             hrefLabel: "On-page SEO guide",
           },
           {
@@ -216,7 +216,7 @@ export const woocommerceSeoData: Record<Locale, ServicePageProps> = {
           name: "Fabian van Til",
           role: "Strategy & Innovation",
           bio: "Fabian owns the WooCommerce SEO strategy. 8 years of ecommerce-only experience. He actually runs WooCommerce stores himself, which is why he knows where the problems hide.",
-          image: "/images/framer/C23VbBxvj2kY5TMoXAJHXWVLaA.webp",
+          image: "/images/framer/fabian-van-til-new.jpeg",
           linkedin: "https://www.linkedin.com/in/fabianvantil/",
         },
         teamMembers: [
@@ -225,7 +225,7 @@ export const woocommerceSeoData: Record<Locale, ServicePageProps> = {
             role: "Technical & On-Page SEO",
             bio: "Dimitar does the technical and on-page SEO work. He handles WooCommerce theme optimization, structured data, page-level optimization, and site architecture. He also builds the free SEO tools on this site.",
             image: "/images/framer/Q3tfuu2ytPAotONsFoP1ouyPZic.png",
-            linkedin: "https://www.linkedin.com/in/dimitar-georgiev-seo/",
+            linkedin: "https://bg.linkedin.com/in/dimitar-georgiev-seo-expert",
           },
           {
             name: "Martinijan Trajkovski",
@@ -396,7 +396,7 @@ export const woocommerceSeoData: Record<Locale, ServicePageProps> = {
             number: "01",
             title: "Konsolidieren Sie Ihre SEO-Plugins",
             body: "Yoast, Rank Math und All-in-One SEO gleichzeitig zu betreiben ist ein Rezept f\u00fcr Canonical-Konflikte. W\u00e4hlen Sie ein SEO-Plugin und entfernen Sie den Rest. Wir empfehlen typischerweise Rank Math f\u00fcr WooCommerce-Shops wegen der integrierten Schema-Unterst\u00fctzung und WooCommerce-Integration.",
-            href: "/academy/on-page-seo-for-ecommerce",
+            href: "/academy/product-page-seo",
             hrefLabel: "On-Page SEO-Leitfaden",
           },
           {
@@ -489,7 +489,7 @@ export const woocommerceSeoData: Record<Locale, ServicePageProps> = {
           name: "Fabian van Til",
           role: "Strategie & Innovation",
           bio: "Fabian leitet alle WooCommerce-SEO-Projekte strategisch. Mit 8+ Jahren E-Commerce-SEO-Erfahrung in Mode, Gesundheit, Beauty und Wohnen verbindet er Wachstumsstrategie mit technischer SEO-Innovation.",
-          image: "/images/framer/C23VbBxvj2kY5TMoXAJHXWVLaA.webp",
+          image: "/images/framer/fabian-van-til-new.jpeg",
           linkedin: "https://www.linkedin.com/in/fabianvantil/",
         },
         teamMembers: [
@@ -498,7 +498,7 @@ export const woocommerceSeoData: Record<Locale, ServicePageProps> = {
             role: "Technisches & On-Page SEO",
             bio: "Entwickelt die technischen SEO-Grundlagen und On-Page-Optimierungen. Spezialisiert auf WooCommerce-Theme-Optimierung, Structured Data und Website-Architektur. Baut die kostenlosen SEO-Tools auf dieser Seite.",
             image: "/images/framer/Q3tfuu2ytPAotONsFoP1ouyPZic.png",
-            linkedin: "https://www.linkedin.com/in/dimitar-georgiev-seo/",
+            linkedin: "https://bg.linkedin.com/in/dimitar-georgiev-seo-expert",
           },
           {
             name: "Martinijan Trajkovski",
@@ -669,7 +669,7 @@ export const woocommerceSeoData: Record<Locale, ServicePageProps> = {
             number: "01",
             title: "Consolidez vos plugins SEO",
             body: "Faire tourner Yoast, Rank Math et All-in-One SEO simultan\u00e9ment est une recette pour les conflits de canonicals. Choisissez un seul plugin SEO et supprimez les autres. Nous recommandons g\u00e9n\u00e9ralement Rank Math pour WooCommerce gr\u00e2ce \u00e0 son support schema int\u00e9gr\u00e9 et son int\u00e9gration WooCommerce.",
-            href: "/academy/on-page-seo-for-ecommerce",
+            href: "/academy/product-page-seo",
             hrefLabel: "Guide SEO on-page",
           },
           {
@@ -762,7 +762,7 @@ export const woocommerceSeoData: Record<Locale, ServicePageProps> = {
           name: "Fabian van Til",
           role: "Strat\u00e9gie & Innovation",
           bio: "Fabian supervise tous les engagements clients. 8+ ans d\u2019exp\u00e9rience en SEO e-commerce dans les secteurs mode, sant\u00e9, beaut\u00e9 et maison. Il allie strat\u00e9gie de croissance et innovation SEO technique.",
-          image: "/images/framer/C23VbBxvj2kY5TMoXAJHXWVLaA.webp",
+          image: "/images/framer/fabian-van-til-new.jpeg",
           linkedin: "https://www.linkedin.com/in/fabianvantil/",
         },
         teamMembers: [
@@ -771,7 +771,7 @@ export const woocommerceSeoData: Record<Locale, ServicePageProps> = {
             role: "SEO technique & On-Page",
             bio: "Con\u00e7oit les fondations SEO techniques et on-page. Sp\u00e9cialis\u00e9 dans l\u2019optimisation de th\u00e8mes WooCommerce, les donn\u00e9es structur\u00e9es et l\u2019architecture de site. D\u00e9veloppe les outils SEO gratuits de ce site.",
             image: "/images/framer/Q3tfuu2ytPAotONsFoP1ouyPZic.png",
-            linkedin: "https://www.linkedin.com/in/dimitar-georgiev-seo/",
+            linkedin: "https://bg.linkedin.com/in/dimitar-georgiev-seo-expert",
           },
           {
             name: "Martinijan Trajkovski",
@@ -942,7 +942,7 @@ export const woocommerceSeoData: Record<Locale, ServicePageProps> = {
             number: "01",
             title: "Consolida tus plugins SEO",
             body: "Ejecutar Yoast, Rank Math y All-in-One SEO simult\u00e1neamente es una receta para conflictos de canonicals. Elige un plugin SEO y elimina el resto. Normalmente recomendamos Rank Math para tiendas WooCommerce por su soporte de schema integrado y su integraci\u00f3n con WooCommerce.",
-            href: "/academy/on-page-seo-for-ecommerce",
+            href: "/academy/product-page-seo",
             hrefLabel: "Gu\u00eda de SEO on-page",
           },
           {
@@ -1035,7 +1035,7 @@ export const woocommerceSeoData: Record<Locale, ServicePageProps> = {
           name: "Fabian van Til",
           role: "Estrategia e Innovaci\u00f3n",
           bio: "Fabian dirige la estrategia de todos los proyectos con clientes. 8+ a\u00f1os de experiencia en SEO ecommerce en los sectores de moda, salud, belleza y hogar. Combina estrategia de crecimiento con innovaci\u00f3n en SEO t\u00e9cnico.",
-          image: "/images/framer/C23VbBxvj2kY5TMoXAJHXWVLaA.webp",
+          image: "/images/framer/fabian-van-til-new.jpeg",
           linkedin: "https://www.linkedin.com/in/fabianvantil/",
         },
         teamMembers: [
@@ -1044,7 +1044,7 @@ export const woocommerceSeoData: Record<Locale, ServicePageProps> = {
             role: "SEO T\u00e9cnico & On-Page",
             bio: "Dimitar dise\u00f1a las bases del SEO t\u00e9cnico y on-page. Especializado en optimizaci\u00f3n de temas WooCommerce, datos estructurados y arquitectura web. Desarrolla las herramientas SEO gratuitas de este sitio.",
             image: "/images/framer/Q3tfuu2ytPAotONsFoP1ouyPZic.png",
-            linkedin: "https://www.linkedin.com/in/dimitar-georgiev-seo/",
+            linkedin: "https://bg.linkedin.com/in/dimitar-georgiev-seo-expert",
           },
           {
             name: "Martinijan Trajkovski",
@@ -1215,7 +1215,7 @@ export const woocommerceSeoData: Record<Locale, ServicePageProps> = {
             number: "01",
             title: "Consolida i tuoi plugin SEO",
             body: "Eseguire Yoast, Rank Math e All-in-One SEO contemporaneamente \u00e8 una ricetta per conflitti di canonical. Scegli un plugin SEO e rimuovi gli altri. Tipicamente raccomandiamo Rank Math per store WooCommerce grazie al supporto schema integrato e all\u2019integrazione WooCommerce.",
-            href: "/academy/on-page-seo-for-ecommerce",
+            href: "/academy/product-page-seo",
             hrefLabel: "Guida SEO on-page",
           },
           {
@@ -1308,7 +1308,7 @@ export const woocommerceSeoData: Record<Locale, ServicePageProps> = {
           name: "Fabian van Til",
           role: "Strategia & Innovazione",
           bio: "Fabian definisce la strategia di ogni progetto cliente. 8+ anni di esperienza in SEO e-commerce nei settori moda, salute, beauty e arredamento. Unisce strategia di crescita e innovazione SEO tecnica.",
-          image: "/images/framer/C23VbBxvj2kY5TMoXAJHXWVLaA.webp",
+          image: "/images/framer/fabian-van-til-new.jpeg",
           linkedin: "https://www.linkedin.com/in/fabianvantil/",
         },
         teamMembers: [
@@ -1317,7 +1317,7 @@ export const woocommerceSeoData: Record<Locale, ServicePageProps> = {
             role: "SEO tecnico & On-Page",
             bio: "Dimitar progetta le fondamenta SEO tecniche e on-page. Specializzato in ottimizzazione temi WooCommerce, dati strutturati e architettura del sito. Sviluppa gli strumenti SEO gratuiti di questo sito.",
             image: "/images/framer/Q3tfuu2ytPAotONsFoP1ouyPZic.png",
-            linkedin: "https://www.linkedin.com/in/dimitar-georgiev-seo/",
+            linkedin: "https://bg.linkedin.com/in/dimitar-georgiev-seo-expert",
           },
           {
             name: "Martinijan Trajkovski",
@@ -1488,7 +1488,7 @@ export const woocommerceSeoData: Record<Locale, ServicePageProps> = {
             number: "01",
             title: "Consolideer je SEO-plugins",
             body: "Yoast, Rank Math en All-in-One SEO tegelijkertijd draaien is een recept voor canonical-conflicten. Kies \u00e9\u00e9n SEO-plugin en verwijder de rest. We raden doorgaans Rank Math aan voor WooCommerce-webshops vanwege de ingebouwde schema-ondersteuning en WooCommerce-integratie.",
-            href: "/academy/on-page-seo-for-ecommerce",
+            href: "/academy/product-page-seo",
             hrefLabel: "On-page SEO-gids",
           },
           {
@@ -1581,7 +1581,7 @@ export const woocommerceSeoData: Record<Locale, ServicePageProps> = {
           name: "Fabian van Til",
           role: "Strategie & Innovatie",
           bio: "Fabian leidt de strategische richting van alle klantprojecten. Met 8+ jaar e-commerce SEO-ervaring in de sectoren mode, gezondheid, beauty en wonen combineert hij groeistrategie met technische SEO-innovatie.",
-          image: "/images/framer/C23VbBxvj2kY5TMoXAJHXWVLaA.webp",
+          image: "/images/framer/fabian-van-til-new.jpeg",
           linkedin: "https://www.linkedin.com/in/fabianvantil/",
         },
         teamMembers: [
@@ -1590,7 +1590,7 @@ export const woocommerceSeoData: Record<Locale, ServicePageProps> = {
             role: "Technisch & On-Page SEO",
             bio: "Dimitar ontwerpt de technische SEO-fundamenten en on-page optimalisaties. Hij is gespecialiseerd in WooCommerce-thema-optimalisatie, structured data en site-architectuur, en bouwt de gratis SEO-tools op deze site.",
             image: "/images/framer/Q3tfuu2ytPAotONsFoP1ouyPZic.png",
-            linkedin: "https://www.linkedin.com/in/dimitar-georgiev-seo/",
+            linkedin: "https://bg.linkedin.com/in/dimitar-georgiev-seo-expert",
           },
           {
             name: "Martinijan Trajkovski",

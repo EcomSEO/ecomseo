@@ -1,0 +1,42 @@
+<svg viewBox="0 0 680 300" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <text x="340" y="28" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#a78bfa">Enterprise SEO Governance Framework</text>
+  <g transform="translate(40,50)">
+    <rect x="0" y="0" width="180" height="100" rx="6" stroke="#a78bfa" stroke-width="2" fill="none"/>
+    <text x="90" y="22" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#a78bfa">SEO Style Guide</text>
+    <text x="90" y="42" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Title tag formats</text>
+    <text x="90" y="57" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">URL structure rules</text>
+    <text x="90" y="72" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Canonical policies</text>
+    <text x="90" y="87" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Schema standards</text>
+  </g>
+  <g transform="translate(250,50)">
+    <rect x="0" y="0" width="180" height="100" rx="6" stroke="#60a5fa" stroke-width="2" fill="none"/>
+    <text x="90" y="22" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#60a5fa">Change Process</text>
+    <text x="90" y="42" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">50+ pages: SEO review</text>
+    <text x="90" y="57" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">5K+ pages: SEO sign-off</text>
+    <text x="90" y="72" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Pre-deploy validation</text>
+    <text x="90" y="87" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">CI/CD SEO checks</text>
+  </g>
+  <g transform="translate(460,50)">
+    <rect x="0" y="0" width="180" height="100" rx="6" stroke="#f97316" stroke-width="2" fill="none"/>
+    <text x="90" y="22" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#f97316">Quarterly Audit</text>
+    <text x="90" y="42" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Indexation rates</text>
+    <text x="90" y="57" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Crawl efficiency</text>
+    <text x="90" y="72" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Standards compliance</text>
+    <text x="90" y="87" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Performance dist.</text>
+  </g>
+  <line x1="130" y1="155" x2="130" y2="185" stroke="#a78bfa" stroke-width="1" stroke-dasharray="4"/>
+  <line x1="340" y1="155" x2="340" y2="185" stroke="#60a5fa" stroke-width="1" stroke-dasharray="4"/>
+  <line x1="550" y1="155" x2="550" y2="185" stroke="#f97316" stroke-width="1" stroke-dasharray="4"/>
+  <g transform="translate(40,190)">
+    <rect x="0" y="0" width="600" height="80" rx="6" stroke="#4ade80" stroke-width="2" fill="none"/>
+    <text x="300" y="22" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#4ade80">Cross-Team Coordination</text>
+    <text x="75" y="50" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Dev Team</text>
+    <text x="75" y="65" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#a78bfa">Dedicated sprints</text>
+    <text x="225" y="50" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Content Team</text>
+    <text x="225" y="65" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#a78bfa">Template training</text>
+    <text x="375" y="50" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Merch Team</text>
+    <text x="375" y="65" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#a78bfa">Category oversight</text>
+    <text x="525" y="50" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Platform Team</text>
+    <text x="525" y="65" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#a78bfa">Perf. monitoring</text>
+  </g>
+</svg>

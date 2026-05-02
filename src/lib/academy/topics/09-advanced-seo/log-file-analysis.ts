@@ -34,6 +34,15 @@ export const logFileAnalysis: AcademyTopic = {
             "Block low-value URL patterns that consume crawl budget without indexation benefit",
             "Track crawl frequency for high-priority product pages to ensure adequate coverage",
           ],
+          image: {
+            src: "/images/academy/crawl-budget-allocation-chart.svg",
+            alt: "Bar chart showing crawl budget allocation with 60 percent wasted on faceted navigation URLs while only 15 percent reaches product pages",
+            caption: "If 60% of Googlebot requests target faceted navigation while only 15% reach product pages, you have a severe crawl budget problem that needs immediate correction.",
+          },
+          callout: {
+            title: "Budget Reallocation",
+            text: "Segment Googlebot requests by URL pattern to identify where budget is spent. Block low-value filter combinations in robots.txt and use canonical tags to redirect crawl attention to indexable product pages.",
+          },
         },
         {
           title: "Identifying Crawl Waste and Orphan Pages",
@@ -45,7 +54,16 @@ export const logFileAnalysis: AcademyTopic = {
             "Fix orphan page causes: broken links, deep pagination, missing sitemap entries",
             "Track productive crawl ratio targeting 70-80% of Googlebot requests hitting indexable pages",
           ],
-          tip: "Export your orphan page list and cross-reference it with Google Analytics or your ecommerce platform's sales data. Orphan pages with proven conversion history represent immediate revenue recovery opportunities once they regain search visibility through proper internal linking.",
+          tip: "Export your orphan page list and cross-reference it with Google Analytics or your ecommerce platform\'s sales data. Orphan pages with proven conversion history represent immediate revenue recovery opportunities once they regain search visibility through proper internal linking.",
+          image: {
+            src: "/images/academy/crawl-waste-orphan-pages.svg",
+            alt: "Comparison diagram showing crawl waste from session IDs and filters versus orphan pages from broken links and deep pagination",
+            caption: "Compare your product database against 90-day log crawl data to find orphan pages. A healthy ecommerce site should target a 70-80% productive crawl ratio.",
+          },
+          callout: {
+            title: "Revenue at Risk",
+            text: "Orphan pages with proven conversion history represent immediate revenue recovery opportunities. Cross-reference orphan URLs with sales data to prioritize which pages to reconnect through internal linking.",
+          },
         },
         {
           title: "Status Code Analysis and Error Detection",
@@ -81,6 +99,17 @@ export const logFileAnalysis: AcademyTopic = {
           ],
           tip: "Schedule monthly log analysis reviews that compare current crawl metrics against your baselines and previous months. Create a standardized report template covering crawl budget allocation, error trends, orphan page count, and crawl efficiency ratio. Consistent reporting transforms log analysis from a one-time audit into an ongoing competitive advantage.",
         },
+        {
+          title: "What Trawler Reveals About Crawl Behaviour (And What Logs Can't Show)",
+          content:
+            "The 2024 leak named Google's crawler Trawler and exposed the inputs that drive its scheduling decisions. Server logs show what Trawler actually did \u2014 which URLs it requested, how often, with what response codes \u2014 but the leak is what explains why.\n\nFor ecommerce log analysis, this means specific patterns now have specific names. URLs Trawler hits frequently with 200s are pages it considers crawl-worthy: they have link equity, internal link depth \u22643, accurate lastmod, and recent content changes. URLs Trawler hits rarely or never are scoring poorly on those inputs \u2014 and in 90% of cases this maps to thin internal linking, not crawl-budget caps.\n\nThe leak also confirms a long-suspected pattern: Trawler crawls higher-quality pages MORE often, and lower-quality pages LESS often. Increased crawl frequency to a section is a positive signal \u2014 Google sees it as worth refreshing. Decreased frequency, especially after recent algorithmic updates, often correlates with rising lowQuality or pandaDemotion signals on those URLs. Read it as a quality signal, not just a budget question.",
+          items: [
+            "Trawler is the leak's name for Google's crawler; logs show its behaviour, the leak explains the inputs",
+            "Frequent crawl = link equity + shallow depth + accurate lastmod + recent updates \u2014 diagnose missing inputs first",
+            "Trawler crawls high-quality pages more often, low-quality less \u2014 falling crawl is often a quality signal",
+            "Most under-crawled pages need internal-linking fixes, not crawl-budget engineering",
+          ],
+        },
       ],
       navLabels: { previous: "Previous", next: "Next" },
     },
@@ -107,23 +136,41 @@ export const logFileAnalysis: AcademyTopic = {
           title: "Crawl-Budget-Analyse fur Produktkataloge",
           content:
             "Das Crawl-Budget ist die Anzahl der Seiten, die Google innerhalb eines bestimmten Zeitraums auf Ihrer Website crawlt. Fur kleine Seiten ist das Crawl-Budget selten ein Problem. Aber E-Commerce-Shops mit Zehntausenden von Produktseiten, mehreren Kategoriehierarchien und facettierter Navigation konnen ihr Crawl-Budget leicht mit Low-Value-URLs erschopfen, wahrend wichtige Produktseiten unbesucht bleiben.\n\nDie Log-Datei-Analyse zeigt Ihre tatsachliche Crawl-Budget-Verteilung. Berechnen Sie die Gesamtzahl der Googlebot-Anfragen pro Tag und segmentieren Sie diese nach URL-Muster. Haufige zu analysierende Muster umfassen Produktdetailseiten, Kategorieseiten, Suchergebnisseiten, facettierte Navigations-URLs, paginierte Seiten, statische Assets und administrative Seiten.\n\nDas Verhaltnis der Crawl-Zuweisung sollte in etwa Ihren Indexierungsprioritaten entsprechen. Wenn 60% der Googlebot-Anfragen auf facettierte Navigations-URLs mit dunnem, dupliziertem Content abzielen, wahrend nur 15% Ihre kanonischen Produktseiten erreichen, haben Sie ein schwerwiegendes Crawl-Budget-Problem.\n\nBerechnen Sie die Crawl-Frequenz fur Ihre wichtigsten Seiten. Wenn Flaggschiff-Produktseiten nur alle 30 Tage gecrawlt werden, wahrend nicht vorratige Produkte tagliche Besuche erhalten, sendet Ihre interne Verlinkungsstruktur die falschen Signale.\n\nVerfolgen Sie Crawl-Budget-Trends uber die Zeit. Ein rucklaufiger Crawl-Rate signalisiert oft eine Verschlechterung der Site-Gesundheit.",
-          items: [
+                    image: {
+            src: "/images/academy/de/crawl-budget-allocation-chart.svg",
+            alt: "Crawl-Budget-Verteilung: Ideale vs. typische Verteilung auf Produktseiten, Kategorien, Filter und Blog",
+            caption: "In den meisten Shops wird 50% des Crawl-Budgets an Filter verschwendet. Blockieren Sie nicht-essentielle Filter fuer bessere Verteilung.",
+          },
+items: [
             "Googlebot-Anfragen nach URL-Muster segmentieren, um zu identifizieren, wo das Crawl-Budget verwendet wird",
             "Crawl-Zuweisungsverhaltnisse mit der Indexierungsprioritat fur jeden URL-Typ vergleichen",
             "Low-Value-URL-Muster blockieren, die Crawl-Budget ohne Indexierungsvorteil verbrauchen",
             "Crawl-Frequenz fur hochpriore Produktseiten verfolgen, um angemessene Abdeckung sicherzustellen",
           ],
+          callout: {
+            title: "Crawl-Verschwendung",
+            text: "Typische E-Commerce-Shops verschwenden 40-60% ihres Crawl-Budgets an gefilterte URLs, die keinen Suchtraffic generieren. Log-File-Analyse deckt auf, wo Googlebot seine Zeit tatsaechlich verbringt.",
+          },
         },
         {
           title: "Crawl-Verschwendung und verwaiste Seiten identifizieren",
           content:
             "Crawl-Verschwendung tritt auf, wenn Googlebot Zeit und Ressourcen fur die Anforderung von URLs aufwendet, die keinen SEO-Wert bieten. In E-Commerce-Shops umfassen haufige Quellen der Crawl-Verschwendung Session-ID-Parameter, interne Suchergebnisseiten, Sortier- und Filterparameter-Kombinationen, Warenkorb- und Checkout-Seiten sowie Login- und Kontoverwaltungsseiten.\n\nDie Log-Datei-Analyse quantifiziert genau, wie viel Crawl-Budget jede Verschwendungskategorie verbraucht. Vergleichen Sie Ihre Log-Daten mit Ihrem beabsichtigten Index, indem Sie die von Googlebot angeforderten URLs mit Ihrer XML-Sitemap und dem Indexabdeckungsbericht der Google Search Console abgleichen.\n\nVerwaiste Seiten sind das entgegengesetzte Problem: Seiten, die existieren und indexiert werden sollten, aber nie eine einzige Googlebot-Anfrage erhalten. Um verwaiste Seiten zu finden, vergleichen Sie die vollstandige Liste der Produkt-URLs aus Ihrer Datenbank mit den URLs, die uber einen 90-Tage-Zeitraum in Ihren Log-Dateien erscheinen.\n\nVerwaiste Seiten im E-Commerce entstehen typischerweise durch defekte interne Verlinkung, tiefe Paginierung, die Googlebot nicht erreicht, oder kurzlich hinzugefugte Produkte, die noch nicht von Kategorieseiten verlinkt sind.\n\nErstellen Sie ein systematisches Crawl-Health-Dashboard, das das Verhaltnis von produktiven Crawls zu verschwenderischen Crawls verfolgt. Eine gesunde E-Commerce-Website sollte eine produktive Crawl-Rate von mindestens 70-80% anstreben.",
-          items: [
+                    image: {
+            src: "/images/academy/de/crawl-waste-orphan-pages.svg",
+            alt: "Crawl-Verschwendung und verwaiste Seiten erkennen durch Abgleich von Server-Logs mit Crawl-Daten",
+            caption: "Der Abgleich von Server-Logs mit Crawl-Tool-Ergebnissen deckt verwaiste Seiten und verschwendetes Crawl-Budget auf.",
+          },
+items: [
             "Crawl-Verschwendung quantifizieren durch Kategorisierung der Googlebot-Anfragen an nicht-indexierbare URL-Muster",
             "Verwaiste Seiten finden durch Vergleich der Produktdatenbank mit 90-Tage-Log-Crawl-Daten",
             "Ursachen verwaister Seiten beheben: defekte Links, tiefe Paginierung, fehlende Sitemap-Eintrage",
             "Produktive Crawl-Rate verfolgen mit Ziel von 70-80% Googlebot-Anfragen an indexierbare Seiten",
           ],
+          callout: {
+            title: "Verwaiste Seiten",
+            text: "Verwaiste Seiten (ohne interne Links) werden von Google selten gecrawlt und ranken fast nie. Finden Sie sie durch Log-Analyse und fuegen Sie interne Links hinzu oder entfernen Sie sie aus dem Index.",
+          },
           tip: "Exportieren Sie Ihre Liste verwaister Seiten und gleichen Sie sie mit Google Analytics oder den Verkaufsdaten Ihrer E-Commerce-Plattform ab. Verwaiste Seiten mit nachgewiesener Conversion-Historie stellen sofortige Umsatzruckgewinnungsmoglichkeiten dar, sobald sie durch korrekte interne Verlinkung wieder Suchsichtbarkeit erlangen.",
         },
         {
@@ -160,6 +207,17 @@ export const logFileAnalysis: AcademyTopic = {
           ],
           tip: "Planen Sie monatliche Log-Analyse-Reviews, die aktuelle Crawl-Metriken mit Ihren Baselines und Vormonaten vergleichen. Erstellen Sie eine standardisierte Berichtsvorlage fur Crawl-Budget-Verteilung, Fehlertrends, Anzahl verwaister Seiten und Crawl-Effizienz-Ratio. Konsistentes Reporting verwandelt Log-Analyse von einem einmaligen Audit in einen dauerhaften Wettbewerbsvorteil.",
         },
+        {
+          title: "Was Trawler ueber Crawl-Verhalten verraet (und was Logs nicht zeigen koennen)",
+          content:
+            "Das Leak von 2024 nannte Googles Crawler Trawler und legte die Inputs offen, die seine Scheduling-Entscheidungen treiben. Server-Logs zeigen, was Trawler tatsaechlich getan hat - welche URLs er angefordert hat, wie oft, mit welchen Response-Codes - aber das Leak ist, was erklaert warum.\n\nFuer E-Commerce-Log-Analyse bedeutet dies, dass spezifische Muster jetzt spezifische Namen haben. URLs, die Trawler haeufig mit 200ern trifft, sind Seiten, die er als crawl-wuerdig betrachtet: sie haben Link-Equity, interne Link-Tiefe <=3, akkurates lastmod und juengste Content-Aenderungen. URLs, die Trawler selten oder nie trifft, schneiden bei diesen Inputs schlecht ab - und in 90% der Faelle mappt das auf duenne interne Verlinkung, nicht auf Crawl-Budget-Limits.\n\nDas Leak bestaetigt auch ein lange vermutetes Muster: Trawler crawlt qualitativ hochwertigere Seiten OEFTER und niedriger-qualitative Seiten SELTENER. Erhoehte Crawl-Frequenz zu einem Bereich ist ein positives Signal - Google sieht ihn als wert zu erfrischen. Verminderte Frequenz, besonders nach juengsten algorithmischen Updates, korreliert oft mit steigenden lowQuality- oder pandaDemotion-Signalen auf diesen URLs. Lesen Sie es als Qualitaetssignal, nicht nur als Budget-Frage.",
+          items: [
+            "Trawler ist der Leak-Name fuer Googles Crawler; Logs zeigen sein Verhalten, das Leak erklaert die Inputs",
+            "Haeufiger Crawl = Link-Equity + flache Tiefe + akkurates lastmod + juengste Updates - diagnostizieren Sie fehlende Inputs zuerst",
+            "Trawler crawlt hochwertige Seiten oefter, niedrige Qualitaet seltener - fallender Crawl ist oft ein Qualitaetssignal",
+            "Die meisten unter-gecrawlten Seiten brauchen interne Verlinkungs-Fixes, nicht Crawl-Budget-Engineering",
+          ],
+        },
       ],
       navLabels: { previous: "Zuruck", next: "Weiter" },
     },
@@ -192,6 +250,15 @@ export const logFileAnalysis: AcademyTopic = {
             "Bloquer les modeles d'URL a faible valeur qui consomment du budget de crawl sans benefice d'indexation",
             "Suivre la frequence de crawl des pages produit prioritaires pour assurer une couverture adequate",
           ],
+          image: {
+            src: "/images/academy/fr/crawl-budget-allocation-chart.svg",
+            alt: "Crawl-Budget-Verteilung: Ideale vs. typische Verteilung auf Produktseiten, Kategorien, Filter und Blog",
+            caption: "In den meisten Shops wird 50% des Crawl-Budgets an Filter verschwendet. Blockieren Sie nicht-essentielle Filter fuer bessere Verteilung.",
+          },
+          callout: {
+            title: "Crawl-Verschwendung",
+            text: "Typische E-Commerce-Shops verschwenden 40-60% ihres Crawl-Budgets an gefilterte URLs, die keinen Suchtraffic generieren. Log-File-Analyse deckt auf, wo Googlebot seine Zeit tatsaechlich verbringt.",
+          },
         },
         {
           title: "Identifier le gaspillage de crawl et les pages orphelines",
@@ -204,6 +271,15 @@ export const logFileAnalysis: AcademyTopic = {
             "Suivre le ratio de crawl productif visant 70-80% des requetes Googlebot atteignant des pages indexables",
           ],
           tip: "Exportez votre liste de pages orphelines et croisez-la avec Google Analytics ou les donnees de vente de votre plateforme e-commerce. Les pages orphelines avec un historique de conversion prouve representent des opportunites immediates de recuperation de revenus une fois qu'elles retrouvent la visibilite par un maillage interne correct.",
+          image: {
+            src: "/images/academy/fr/crawl-waste-orphan-pages.svg",
+            alt: "Crawl-Verschwendung und verwaiste Seiten erkennen durch Abgleich von Server-Logs mit Crawl-Daten",
+            caption: "Der Abgleich von Server-Logs mit Crawl-Tool-Ergebnissen deckt verwaiste Seiten und verschwendetes Crawl-Budget auf.",
+          },
+          callout: {
+            title: "Verwaiste Seiten",
+            text: "Verwaiste Seiten (ohne interne Links) werden von Google selten gecrawlt und ranken fast nie. Finden Sie sie durch Log-Analyse und fuegen Sie interne Links hinzu oder entfernen Sie sie aus dem Index.",
+          },
         },
         {
           title: "Analyse des codes de statut et detection d'erreurs",
@@ -239,6 +315,17 @@ export const logFileAnalysis: AcademyTopic = {
           ],
           tip: "Planifiez des revues mensuelles d'analyse de logs comparant les metriques de crawl actuelles avec vos references et les mois precedents. Creez un modele de rapport standardise couvrant l'allocation du budget de crawl, les tendances d'erreurs, le nombre de pages orphelines et le ratio d'efficacite du crawl. Un reporting coherent transforme l'analyse de logs d'un audit ponctuel en un avantage concurrentiel continu.",
         },
+        {
+          title: "Ce que Trawler revele sur le comportement de crawl (et ce que les logs ne peuvent pas montrer)",
+          content:
+            "Le leak 2024 a nomme le crawler de Google Trawler et a expose les entrees qui pilotent ses decisions de planification. Les logs serveur montrent ce que Trawler a reellement fait - quelles URLs il a demandees, a quelle frequence, avec quels codes de reponse - mais le leak est ce qui explique pourquoi.\n\nPour l'analyse de logs ecommerce, cela signifie que des patterns specifiques ont maintenant des noms specifiques. Les URLs que Trawler frappe frequemment avec des 200 sont des pages qu'il considere comme dignes du crawl : elles ont du link equity, une profondeur de liens internes <=3, un lastmod exact et des changements de contenu recents. Les URLs que Trawler frappe rarement ou jamais marquent mal sur ces entrees - et dans 90% des cas, cela correspond a un linking interne mince, pas a des plafonds de crawl budget.\n\nLe leak confirme aussi un pattern longtemps soupconne : Trawler crawle les pages de plus haute qualite PLUS souvent, et les pages de plus basse qualite MOINS souvent. Une frequence de crawl accrue vers une section est un signal positif - Google la voit comme digne d'etre rafraichie. Une frequence diminuee, surtout apres des mises a jour algorithmiques recentes, correlle souvent avec des signaux lowQuality ou pandaDemotion en hausse sur ces URLs. Lisez-le comme un signal de qualite, pas seulement une question de budget.",
+          items: [
+            "Trawler est le nom du leak pour le crawler de Google ; les logs montrent son comportement, le leak explique les entrees",
+            "Crawl frequent = link equity + profondeur faible + lastmod exact + mises a jour recentes - diagnostiquez les entrees manquantes d'abord",
+            "Trawler crawle les pages de haute qualite plus souvent, basse qualite moins - la chute de crawl est souvent un signal de qualite",
+            "La plupart des pages sous-crawlees ont besoin de correctifs de linking interne, pas d'ingenierie de crawl budget",
+          ],
+        },
       ],
       navLabels: { previous: "Precedent", next: "Suivant" },
     },
@@ -271,6 +358,15 @@ export const logFileAnalysis: AcademyTopic = {
             "Bloquear patrones de URL de bajo valor que consumen presupuesto de rastreo sin beneficio de indexacion",
             "Rastrear la frecuencia de rastreo de paginas de producto de alta prioridad para asegurar cobertura adecuada",
           ],
+          image: {
+            src: "/images/academy/es/crawl-budget-allocation-chart.svg",
+            alt: "Crawl-Budget-Verteilung: Ideale vs. typische Verteilung auf Produktseiten, Kategorien, Filter und Blog",
+            caption: "In den meisten Shops wird 50% des Crawl-Budgets an Filter verschwendet. Blockieren Sie nicht-essentielle Filter fuer bessere Verteilung.",
+          },
+          callout: {
+            title: "Crawl-Verschwendung",
+            text: "Typische E-Commerce-Shops verschwenden 40-60% ihres Crawl-Budgets an gefilterte URLs, die keinen Suchtraffic generieren. Log-File-Analyse deckt auf, wo Googlebot seine Zeit tatsaechlich verbringt.",
+          },
         },
         {
           title: "Identificar desperdicio de rastreo y paginas huerfanas",
@@ -283,6 +379,15 @@ export const logFileAnalysis: AcademyTopic = {
             "Rastrear el ratio de rastreo productivo apuntando a 70-80% de solicitudes de Googlebot a paginas indexables",
           ],
           tip: "Exporte su lista de paginas huerfanas y crucela con Google Analytics o los datos de ventas de su plataforma de ecommerce. Las paginas huerfanas con historial de conversion probado representan oportunidades inmediatas de recuperacion de ingresos una vez que recuperen la visibilidad de busqueda mediante enlaces internos correctos.",
+          image: {
+            src: "/images/academy/es/crawl-waste-orphan-pages.svg",
+            alt: "Crawl-Verschwendung und verwaiste Seiten erkennen durch Abgleich von Server-Logs mit Crawl-Daten",
+            caption: "Der Abgleich von Server-Logs mit Crawl-Tool-Ergebnissen deckt verwaiste Seiten und verschwendetes Crawl-Budget auf.",
+          },
+          callout: {
+            title: "Verwaiste Seiten",
+            text: "Verwaiste Seiten (ohne interne Links) werden von Google selten gecrawlt und ranken fast nie. Finden Sie sie durch Log-Analyse und fuegen Sie interne Links hinzu oder entfernen Sie sie aus dem Index.",
+          },
         },
         {
           title: "Analisis de codigos de estado y deteccion de errores",
@@ -318,6 +423,17 @@ export const logFileAnalysis: AcademyTopic = {
           ],
           tip: "Programe revisiones mensuales de analisis de registros que comparen las metricas de rastreo actuales con sus referencias y meses anteriores. Cree una plantilla de informe estandarizada cubriendo la asignacion del presupuesto de rastreo, tendencias de errores, cantidad de paginas huerfanas y ratio de eficiencia de rastreo. Los informes consistentes transforman el analisis de registros de una auditoria puntual en una ventaja competitiva continua.",
         },
+        {
+          title: "Lo que Trawler revela sobre el comportamiento de crawl (y lo que los logs no pueden mostrar)",
+          content:
+            "El leak de 2024 nombro al crawler de Google Trawler y expuso las entradas que guian sus decisiones de scheduling. Los logs del servidor muestran lo que Trawler hizo realmente - que URLs solicito, con que frecuencia, con que codigos de respuesta - pero el leak es lo que explica por que.\n\nPara analisis de logs ecommerce, esto significa que patrones especificos ahora tienen nombres especificos. Las URLs que Trawler golpea frecuentemente con 200s son paginas que considera dignas de crawl: tienen link equity, profundidad de enlaces internos <=3, lastmod preciso y cambios de contenido recientes. Las URLs que Trawler golpea raramente o nunca puntuan mal en esas entradas - y en el 90% de los casos esto mapea a un linking interno delgado, no a topes de crawl budget.\n\nEl leak tambien confirma un patron largamente sospechado: Trawler crawlea las paginas de mayor calidad MAS frecuentemente, y las de menor calidad MENOS frecuentemente. La frecuencia de crawl aumentada a una seccion es una senal positiva - Google la ve como digna de refrescar. La frecuencia disminuida, especialmente despues de actualizaciones algoritmicas recientes, a menudo correlaciona con senales lowQuality o pandaDemotion en alza en esas URLs. Leelo como una senal de calidad, no solo una cuestion de presupuesto.",
+          items: [
+            "Trawler es el nombre del leak para el crawler de Google; los logs muestran su comportamiento, el leak explica las entradas",
+            "Crawl frecuente = link equity + profundidad baja + lastmod preciso + updates recientes - diagnostica entradas faltantes primero",
+            "Trawler crawlea paginas de alta calidad mas frecuentemente, baja calidad menos - el crawl en caida a menudo es senal de calidad",
+            "La mayoria de las paginas sub-crawleadas necesitan fixes de linking interno, no ingenieria de crawl budget",
+          ],
+        },
       ],
       navLabels: { previous: "Anterior", next: "Siguiente" },
     },
@@ -350,6 +466,15 @@ export const logFileAnalysis: AcademyTopic = {
             "Bloccare i pattern di URL a basso valore che consumano budget di crawl senza beneficio di indicizzazione",
             "Tracciare la frequenza di crawl delle pagine prodotto ad alta priorita per assicurare una copertura adeguata",
           ],
+          image: {
+            src: "/images/academy/it/crawl-budget-allocation-chart.svg",
+            alt: "Crawl-Budget-Verteilung: Ideale vs. typische Verteilung auf Produktseiten, Kategorien, Filter und Blog",
+            caption: "In den meisten Shops wird 50% des Crawl-Budgets an Filter verschwendet. Blockieren Sie nicht-essentielle Filter fuer bessere Verteilung.",
+          },
+          callout: {
+            title: "Crawl-Verschwendung",
+            text: "Typische E-Commerce-Shops verschwenden 40-60% ihres Crawl-Budgets an gefilterte URLs, die keinen Suchtraffic generieren. Log-File-Analyse deckt auf, wo Googlebot seine Zeit tatsaechlich verbringt.",
+          },
         },
         {
           title: "Identificare sprechi di crawl e pagine orfane",
@@ -362,6 +487,15 @@ export const logFileAnalysis: AcademyTopic = {
             "Tracciare il rapporto di crawl produttivo puntando al 70-80% delle richieste Googlebot su pagine indicizzabili",
           ],
           tip: "Esportate la vostra lista di pagine orfane e incrociatela con Google Analytics o i dati di vendita della vostra piattaforma ecommerce. Le pagine orfane con un comprovato storico di conversione rappresentano opportunita immediate di recupero del fatturato una volta che riacquistano visibilita nei risultati di ricerca tramite link interni corretti.",
+          image: {
+            src: "/images/academy/it/crawl-waste-orphan-pages.svg",
+            alt: "Crawl-Verschwendung und verwaiste Seiten erkennen durch Abgleich von Server-Logs mit Crawl-Daten",
+            caption: "Der Abgleich von Server-Logs mit Crawl-Tool-Ergebnissen deckt verwaiste Seiten und verschwendetes Crawl-Budget auf.",
+          },
+          callout: {
+            title: "Verwaiste Seiten",
+            text: "Verwaiste Seiten (ohne interne Links) werden von Google selten gecrawlt und ranken fast nie. Finden Sie sie durch Log-Analyse und fuegen Sie interne Links hinzu oder entfernen Sie sie aus dem Index.",
+          },
         },
         {
           title: "Analisi dei codici di stato e rilevamento degli errori",
@@ -397,6 +531,17 @@ export const logFileAnalysis: AcademyTopic = {
           ],
           tip: "Programmate revisioni mensili di analisi dei log che confrontino le metriche di crawl attuali con i vostri riferimenti e i mesi precedenti. Create un modello di report standardizzato che copra allocazione del budget di crawl, tendenze degli errori, conteggio delle pagine orfane e rapporto di efficienza del crawl. Un reporting coerente trasforma l'analisi dei log da un audit una tantum in un vantaggio competitivo continuo.",
         },
+        {
+          title: "Cosa rivela Trawler sul comportamento di crawl (e cosa i log non possono mostrare)",
+          content:
+            "Il leak del 2024 ha nominato il crawler di Google Trawler e ha esposto gli input che guidano le sue decisioni di scheduling. I log del server mostrano cosa Trawler ha effettivamente fatto - quali URL ha richiesto, con che frequenza, con quali codici di risposta - ma il leak e cio che spiega perche.\n\nPer l'analisi log ecommerce, questo significa che pattern specifici ora hanno nomi specifici. Gli URL che Trawler colpisce frequentemente con 200 sono pagine che considera degne di crawl: hanno link equity, profondita di link interni <=3, lastmod accurato e modifiche di contenuto recenti. Gli URL che Trawler colpisce raramente o mai segnano male su quegli input - e nel 90% dei casi questo mappa a linking interno sottile, non a tetti di crawl budget.\n\nIl leak conferma anche un pattern a lungo sospettato: Trawler crawla le pagine di qualita piu alta PIU spesso, e quelle di qualita piu bassa MENO spesso. La frequenza di crawl aumentata verso una sezione e un segnale positivo - Google la vede come degna di essere rinfrescata. La frequenza diminuita, specialmente dopo aggiornamenti algoritmici recenti, spesso correla con segnali lowQuality o pandaDemotion in aumento su quegli URL. Leggilo come un segnale di qualita, non solo una questione di budget.",
+          items: [
+            "Trawler e il nome del leak per il crawler di Google; i log mostrano il suo comportamento, il leak spiega gli input",
+            "Crawl frequente = link equity + profondita bassa + lastmod accurato + update recenti - diagnostica gli input mancanti prima",
+            "Trawler crawla pagine di alta qualita piu spesso, bassa qualita meno - il crawl in calo e spesso un segnale di qualita",
+            "La maggior parte delle pagine sotto-crawlate hanno bisogno di fix di linking interno, non di ingegneria del crawl budget",
+          ],
+        },
       ],
       navLabels: { previous: "Precedente", next: "Successivo" },
     },
@@ -429,6 +574,15 @@ export const logFileAnalysis: AcademyTopic = {
             "URL-patronen met lage waarde blokkeren die crawlbudget verbruiken zonder indexeringsvoordeel",
             "Crawlfrequentie volgen voor productpagina's met hoge prioriteit om adequate dekking te garanderen",
           ],
+          image: {
+            src: "/images/academy/nl/crawl-budget-allocation-chart.svg",
+            alt: "Crawl-Budget-Verteilung: Ideale vs. typische Verteilung auf Produktseiten, Kategorien, Filter und Blog",
+            caption: "In den meisten Shops wird 50% des Crawl-Budgets an Filter verschwendet. Blockieren Sie nicht-essentielle Filter fuer bessere Verteilung.",
+          },
+          callout: {
+            title: "Crawl-Verschwendung",
+            text: "Typische E-Commerce-Shops verschwenden 40-60% ihres Crawl-Budgets an gefilterte URLs, die keinen Suchtraffic generieren. Log-File-Analyse deckt auf, wo Googlebot seine Zeit tatsaechlich verbringt.",
+          },
         },
         {
           title: "Crawlverspilling en weespagina's identificeren",
@@ -441,6 +595,15 @@ export const logFileAnalysis: AcademyTopic = {
             "Productieve crawlverhouding volgen met als doel 70-80% van Googlebot-verzoeken op indexeerbare pagina's",
           ],
           tip: "Exporteer uw lijst met weespagina's en kruisverwijz deze met Google Analytics of de verkoopgegevens van uw e-commerceplatform. Weespagina's met bewezen conversiegeschiedenis vertegenwoordigen directe omzetherstelmogelijkheden zodra ze zoekzichtbaarheid herwinnen door correcte interne linking.",
+          image: {
+            src: "/images/academy/nl/crawl-waste-orphan-pages.svg",
+            alt: "Crawl-Verschwendung und verwaiste Seiten erkennen durch Abgleich von Server-Logs mit Crawl-Daten",
+            caption: "Der Abgleich von Server-Logs mit Crawl-Tool-Ergebnissen deckt verwaiste Seiten und verschwendetes Crawl-Budget auf.",
+          },
+          callout: {
+            title: "Verwaiste Seiten",
+            text: "Verwaiste Seiten (ohne interne Links) werden von Google selten gecrawlt und ranken fast nie. Finden Sie sie durch Log-Analyse und fuegen Sie interne Links hinzu oder entfernen Sie sie aus dem Index.",
+          },
         },
         {
           title: "Statuscodeanalyse en foutdetectie",
@@ -475,6 +638,17 @@ export const logFileAnalysis: AcademyTopic = {
             "Loggegevens integreren met Search Console, Analytics en crawltoolgegevens voor complete SEO-zichtbaarheid",
           ],
           tip: "Plan maandelijkse loganalysereviews die huidige crawlmetrieken vergelijken met uw basislijnen en vorige maanden. Maak een gestandaardiseerd rapporttemplate dat crawlbudgetverdeling, fouttrends, aantal weespagina's en crawlefficientieverhouding dekt. Consistente rapportage transformeert loganalyse van een eenmalige audit naar een doorlopend concurrentievoordeel.",
+        },
+        {
+          title: "Wat Trawler onthult over crawl-gedrag (en wat logs niet kunnen tonen)",
+          content:
+            "Het leak van 2024 noemde Googles crawler Trawler en legde de inputs bloot die zijn schedulingbeslissingen aandrijven. Server-logs tonen wat Trawler werkelijk deed - welke URLs hij vroeg, hoe vaak, met welke response codes - maar het leak is wat verklaart waarom.\n\nVoor ecommerce log-analyse betekent dit dat specifieke patronen nu specifieke namen hebben. URLs die Trawler vaak met 200s raakt zijn pagina's die hij als crawl-waardig beschouwt: ze hebben link equity, interne linkdiepte <=3, accurate lastmod en recente inhoudsveranderingen. URLs die Trawler zelden of nooit raakt scoren slecht op die inputs - en in 90% van de gevallen mapt dat op dunne interne linking, niet op crawl-budget plafonds.\n\nHet leak bevestigt ook een lang vermoed patroon: Trawler crawlt hogere-kwaliteit pagina's VAKER, en lagere-kwaliteit pagina's MINDER vaak. Verhoogde crawl-frequentie naar een sectie is een positief signaal - Google ziet het als de moeite waard om te verversen. Verlaagde frequentie, vooral na recente algoritmische updates, correleert vaak met stijgende lowQuality- of pandaDemotion-signalen op die URLs. Lees het als een kwaliteitssignaal, niet alleen een budgetkwestie.",
+          items: [
+            "Trawler is de leak-naam voor Googles crawler; logs tonen zijn gedrag, het leak verklaart de inputs",
+            "Frequente crawl = link equity + lage diepte + accurate lastmod + recente updates - diagnosticeer ontbrekende inputs eerst",
+            "Trawler crawlt hoge-kwaliteit pagina's vaker, lage kwaliteit minder - dalende crawl is vaak een kwaliteitssignaal",
+            "De meeste onder-gecrawlde pagina's hebben interne-linking fixes nodig, geen crawl-budget engineering",
+          ],
         },
       ],
       navLabels: { previous: "Vorige", next: "Volgende" },

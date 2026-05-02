@@ -1,0 +1,42 @@
+<svg viewBox="0 0 680 300" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <text x="340" y="28" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#a78bfa">Consultant vs Agency vs In-House</text>
+  <!-- Headers -->
+  <text x="340" y="62" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0" opacity="0.6">Factor</text>
+  <text x="460" y="62" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#a78bfa" font-weight="bold">Consultant</text>
+  <text x="545" y="62" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#60a5fa" font-weight="bold">Agency</text>
+  <text x="630" y="62" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#4ade80" font-weight="bold">In-House</text>
+  <line x1="30" y1="72" x2="660" y2="72" stroke="#e2e8f0" stroke-width="0.5" opacity="0.15"/>
+  <!-- Rows -->
+  <text x="40" y="95" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Monthly Cost</text>
+  <text x="460" y="95" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#4ade80">$2K-$8K</text>
+  <text x="545" y="95" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#f97316">$3K-$15K</text>
+  <text x="630" y="95" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#ef4444">$6K-$12K+</text>
+  <line x1="30" y1="105" x2="660" y2="105" stroke="#e2e8f0" stroke-width="0.5" opacity="0.1"/>
+  <text x="40" y="128" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Specialization</text>
+  <text x="460" y="128" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#4ade80">Deep niche</text>
+  <text x="545" y="128" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#4ade80">Broad team</text>
+  <text x="630" y="128" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#f97316">Variable</text>
+  <line x1="30" y1="138" x2="660" y2="138" stroke="#e2e8f0" stroke-width="0.5" opacity="0.1"/>
+  <text x="40" y="161" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Scalability</text>
+  <text x="460" y="161" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#f97316">Limited</text>
+  <text x="545" y="161" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#4ade80">High</text>
+  <text x="630" y="161" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#f97316">Slow to scale</text>
+  <line x1="30" y1="171" x2="660" y2="171" stroke="#e2e8f0" stroke-width="0.5" opacity="0.1"/>
+  <text x="40" y="194" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Flexibility</text>
+  <text x="460" y="194" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#4ade80">Very high</text>
+  <text x="545" y="194" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#f97316">Contract-bound</text>
+  <text x="630" y="194" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#4ade80">Full control</text>
+  <line x1="30" y1="204" x2="660" y2="204" stroke="#e2e8f0" stroke-width="0.5" opacity="0.1"/>
+  <text x="40" y="227" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Brand Knowledge</text>
+  <text x="460" y="227" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#f97316">Ramp-up</text>
+  <text x="545" y="227" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#f97316">Ramp-up</text>
+  <text x="630" y="227" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#4ade80">Inherent</text>
+  <line x1="30" y1="237" x2="660" y2="237" stroke="#e2e8f0" stroke-width="0.5" opacity="0.1"/>
+  <text x="40" y="260" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Best For</text>
+  <text x="460" y="260" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#a78bfa">Strategy &amp;</text>
+  <text x="460" y="273" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#a78bfa">second opinions</text>
+  <text x="545" y="260" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#60a5fa">Full execution</text>
+  <text x="545" y="273" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#60a5fa">at scale</text>
+  <text x="630" y="260" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#4ade80">Large stores,</text>
+  <text x="630" y="273" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#4ade80">ongoing needs</text>
+</svg>

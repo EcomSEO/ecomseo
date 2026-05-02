@@ -3,7 +3,7 @@ import type { BlogArticle } from "../types";
 export const shopifyEcommerceSeo: BlogArticle = {
   slug: "shopify-ecommerce-seo",
   category: "platforms",
-  publishDate: "2025-07-01",
+  publishDate: "2026-02-25",
   readingTime: 12,
   author: "Fabian van Til",
   authorRole: "CEO at EcomSEO",
@@ -31,6 +31,8 @@ export const shopifyEcommerceSeo: BlogArticle = {
         },
         {
           heading: "Working around Shopify's URL structure constraints",
+          image: { src: "/images/blog/shopify-url-structure.svg", alt: "Diagram showing Shopify fixed URL patterns and duplicate content issues with canonical tag solutions", caption: "Shopify URL structure constraints and how to handle duplicate content" },
+          callout: { title: "Duplicate URLs", text: "Every Shopify product in a collection gets at least two URLs. Ensure your theme links directly to /products/handle rather than /collections/collection-name/products/handle to avoid sending mixed signals to Google." },
           body: [
             "Shopify enforces a fixed URL pattern. Products live at '/products/handle.' Collections live at '/collections/handle.' Pages live at '/pages/handle.' Blog posts live at '/blogs/blog-name/handle.' You cannot remove these prefixes or restructure the hierarchy.",
             "The SEO impact of this constraint is debatable. Google has stated that URL structure is a minor ranking factor. The '/products/' prefix does not hurt rankings in any measurable way we have observed. Where it does create problems is with duplicate content.",
@@ -52,6 +54,7 @@ export const shopifyEcommerceSeo: BlogArticle = {
         },
         {
           heading: "Theme speed optimization on Shopify",
+          image: { src: "/images/blog/shopify-speed-killers.svg", alt: "Bar chart showing how app scripts add 1-2 MB of extra JavaScript per page on Shopify stores", caption: "Third-party app scripts are the number one speed killer on Shopify" },
           body: [
             "Shopify controls the server infrastructure, so you cannot tune server response times yourself. What you can control is the frontend: how much code your theme loads, how images are handled, and how many third-party scripts run on each page.",
             "Start by measuring your current performance. Run your homepage, a collection page, and a product page through Google PageSpeed Insights. The scores for these three page types tell you where the problems are. Collection pages are often the slowest because they load product images, JavaScript for quick-view features, and filtering widgets all at once.",
@@ -64,6 +67,8 @@ export const shopifyEcommerceSeo: BlogArticle = {
         },
         {
           heading: "Collection page SEO on Shopify",
+          image: { src: "/images/blog/shopify-collection-seo.svg", alt: "Shopify collection page SEO structure showing title tag, intro paragraph, product grid, extended content, and related collections", caption: "A well-structured Shopify collection page includes keyword-rich content both above and below the product grid." },
+          callout: { title: "Collection Content", text: "Most Shopify stores fall short on collection descriptions. Add 200-500 words of unique content per collection page, split between a short intro above the product grid and longer content below. This single change can significantly boost organic rankings." },
           body: [
             "Collection pages are your category pages. They are the most important page type for SEO on a Shopify store because they target your broadest, highest-volume keywords. Getting collection page SEO right should be your top priority.",
             "Every collection needs a unique, keyword-optimized title tag and meta description. Do not rely on Shopify's auto-generated title, which is just the collection name plus your store name. Write custom meta titles that include your target keyword and stay under 60 characters. Write meta descriptions that include a call to action and stay under 155 characters.",
@@ -130,6 +135,8 @@ export const shopifyEcommerceSeo: BlogArticle = {
             "Per gli handle URL del blog, puoi creare nuovi blog con handle diversi (sostituendo 'news' con 'blog' o 'articles'), ma non puoi rimuovere completamente il prefisso '/blogs/'. Se stai migrando a Shopify da una piattaforma dove gli URL del blog erano su '/blog/nome-post,' avrai bisogno di redirect dai vecchi URL alla nuova struttura '/blogs/handle/nome-post'.",
             "Le pagine di sotto-collezione non esistono nativamente in Shopify. Se hai bisogno di una gerarchia come '/collections/scarpe/running' non puoi crearla attraverso l'admin standard. Alcuni negozi usano tag e filtraggio personalizzato delle collezioni per simulare sotto-collezioni, ma gli URL non sono altrettanto puliti. I negozi Shopify Plus possono usare template personalizzati e metafield per costruire gerarchie di collezioni più sofisticate.",
           ],
+          image: { src: "/images/blog/it/shopify-url-structure.svg", alt: "Diagram showing Shopify fixed URL patterns and duplicate content issues with canonical tag solutions", caption: "Shopify URL structure constraints and how to handle duplicate content" },
+          callout: { title: "Duplicate URLs", text: "Every Shopify product in a collection gets at least two URLs. Ensure your theme links directly to /products/handle rather than /collections/collection-name/products/handle to avoid sending mixed signals to Google." },
         },
         {
           heading: "App SEO per Shopify che valgono davvero la pena",
@@ -152,6 +159,7 @@ export const shopifyEcommerceSeo: BlogArticle = {
             "Shopify supporta il lazy loading per le immagini nativamente attraverso il framework OS 2.0. Assicurati che il tuo tema lo implementi. Le immagini dei prodotti sotto la piega non dovrebbero caricarsi fino a quando l'utente non scorre vicino ad esse. Questo singolo cambiamento può ridurre il tempo di caricamento iniziale della pagina del 30-40% sulle pagine di collezione ricche di immagini.",
             "Il caricamento dei font viene spesso trascurato. I font personalizzati richiedono richieste HTTP aggiuntive e possono causare layout shift (scarsi punteggi CLS). Usa i font di sistema dove possibile, o precarica i font personalizzati usando i tag link rel='preload' nella sezione head del tuo tema. Limita i font personalizzati a massimo due pesi.",
           ],
+          image: { src: "/images/blog/it/shopify-speed-killers.svg", alt: "Bar chart showing how app scripts add 1-2 MB of extra JavaScript per page on Shopify stores", caption: "Third-party app scripts are the number one speed killer on Shopify" },
         },
         {
           heading: "SEO delle pagine di collezione su Shopify",
@@ -163,6 +171,8 @@ export const shopifyEcommerceSeo: BlogArticle = {
             "Il linking interno tra collezioni costruisce autorità tematica. Linka dalle collezioni padre alle sotto-collezioni, dalle sotto-collezioni a sotto-collezioni correlate, e dalle descrizioni delle collezioni a contenuti del blog pertinenti. Aggiungiamo una sezione 'Categorie correlate' ai template delle pagine di collezione che mostra link a 4-6 collezioni correlate.",
             "La paginazione delle pagine di collezione influisce su come Google scopre i prodotti. Shopify gestisce la paginazione con parametri '/collections/handle?page=2'. Assicurati che le pagine paginate abbiano tag canonical corretti che puntano a se stesse (non alla pagina 1) e che la sitemap XML includa tutti gli URL paginati. Google deve crawlare le pagine paginate per scoprire i prodotti che non sono nella prima pagina della collezione.",
           ],
+          image: { src: "/images/blog/it/shopify-collection-seo.svg", alt: "Shopify collection page SEO structure showing title tag, intro paragraph, product grid, extended content, and related collections", caption: "A well-structured Shopify collection page includes keyword-rich content both above and below the product grid." },
+          callout: { title: "Collection Content", text: "Most Shopify stores fall short on collection descriptions. Add 200-500 words of unique content per collection page, split between a short intro above the product grid and longer content below. This single change can significantly boost organic rankings." },
         },
         {
           heading: "Gestire i problemi di contenuti duplicati di Shopify",
@@ -221,6 +231,8 @@ export const shopifyEcommerceSeo: BlogArticle = {
             "Voor blog-URL-handles kun je nieuwe blogs aanmaken met andere handles (door 'news' te vervangen door 'blog' of 'articles'), maar je kunt het '/blogs/' prefix niet volledig verwijderen. Als je migreert naar Shopify vanuit een platform waar blog-URL's op '/blog/post-naam' stonden, heb je redirects nodig van de oude URL's naar de nieuwe '/blogs/handle/post-naam' structuur.",
             "Subcollectiepagina's bestaan niet standaard in Shopify. Als je een hierarchie nodig hebt zoals '/collections/schoenen/hardlopen' kun je dit niet aanmaken via de standaard admin. Sommige winkels gebruiken tags en aangepaste collectiefiltering om subcollecties te simuleren, maar de URL's zijn minder schoon. Shopify Plus winkels kunnen aangepaste templates en metafields gebruiken om meer geavanceerde collectiehierarchieen te bouwen.",
           ],
+          image: { src: "/images/blog/nl/shopify-url-structure.svg", alt: "Diagram showing Shopify fixed URL patterns and duplicate content issues with canonical tag solutions", caption: "Shopify URL structure constraints and how to handle duplicate content" },
+          callout: { title: "Duplicate URLs", text: "Every Shopify product in a collection gets at least two URLs. Ensure your theme links directly to /products/handle rather than /collections/collection-name/products/handle to avoid sending mixed signals to Google." },
         },
         {
           heading: "Shopify SEO apps die daadwerkelijk de moeite waard zijn",
@@ -243,6 +255,7 @@ export const shopifyEcommerceSeo: BlogArticle = {
             "Shopify ondersteunt lazy loading voor afbeeldingen native via het OS 2.0 framework. Zorg ervoor dat je thema dit implementeert. Productafbeeldingen onder de fold moeten niet laden totdat de gebruiker er dichtbij scrolt. Deze enkele wijziging kan de initiele paginalaadtijd met 30-40% verminderen op afbeeldingsintensieve collectiepagina's.",
             "Font loading wordt vaak over het hoofd gezien. Aangepaste lettertypen vereisen extra HTTP-verzoeken en kunnen layout shifts veroorzaken (slechte CLS-scores). Gebruik systeemlettertypen waar mogelijk, of preload aangepaste lettertypen met link rel='preload' tags in de head sectie van je thema. Beperk aangepaste lettertypen tot maximaal twee gewichten.",
           ],
+          image: { src: "/images/blog/nl/shopify-speed-killers.svg", alt: "Bar chart showing how app scripts add 1-2 MB of extra JavaScript per page on Shopify stores", caption: "Third-party app scripts are the number one speed killer on Shopify" },
         },
         {
           heading: "Collectiepagina SEO op Shopify",
@@ -254,6 +267,8 @@ export const shopifyEcommerceSeo: BlogArticle = {
             "Interne linking tussen collecties bouwt topische autoriteit op. Link vanuit bovenliggende collecties naar subcollecties, vanuit subcollecties naar gerelateerde subcollecties, en vanuit collectiebeschrijvingen naar relevante blogcontent. We voegen een 'Gerelateerde categorieen' sectie toe aan collectiepagina templates die links toont naar 4-6 gerelateerde collecties.",
             "Collectiepagina paginering beinvloedt hoe Google producten ontdekt. Shopify handelt paginering af met '/collections/handle?page=2' parameters. Zorg ervoor dat gepagineerde pagina's correcte canonical tags hebben die naar zichzelf verwijzen (niet naar pagina 1) en dat de XML sitemap alle gepagineerde URL's bevat. Google moet gepagineerde pagina's crawlen om producten te ontdekken die niet op pagina een van de collectie staan.",
           ],
+          image: { src: "/images/blog/nl/shopify-collection-seo.svg", alt: "Shopify collection page SEO structure showing title tag, intro paragraph, product grid, extended content, and related collections", caption: "A well-structured Shopify collection page includes keyword-rich content both above and below the product grid." },
+          callout: { title: "Collection Content", text: "Most Shopify stores fall short on collection descriptions. Add 200-500 words of unique content per collection page, split between a short intro above the product grid and longer content below. This single change can significantly boost organic rankings." },
         },
         {
           heading: "Omgaan met de dubbele content-problemen van Shopify",
@@ -312,6 +327,8 @@ export const shopifyEcommerceSeo: BlogArticle = {
             "Für Blog-URL-Handles kannst du neue Blogs mit anderen Handles erstellen (z.B. 'news' durch 'blog' oder 'articles' ersetzen), aber das '/blogs/'-Präfix lässt sich nicht vollständig entfernen. Wenn du von einer Plattform migrierst, auf der Blog-URLs unter '/blog/beitragsname' lagen, brauchst du Weiterleitungen von den alten URLs zur neuen '/blogs/handle/beitragsname'-Struktur.",
             "Unterkollektionsseiten existieren in Shopify nicht nativ. Wenn du eine Hierarchie wie '/collections/schuhe/laufen' brauchst, kannst du diese über die Standard-Admin-Oberfläche nicht erstellen. Manche Shops nutzen Tags und benutzerdefinierte Kollektionsfilterung, um Unterkollektionen zu simulieren, aber die URLs sind weniger sauber. Shopify-Plus-Shops können benutzerdefinierte Templates und Metafields nutzen, um anspruchsvollere Kollektionshierarchien aufzubauen.",
           ],
+          image: { src: "/images/blog/de/shopify-url-structure.svg", alt: "Diagram showing Shopify fixed URL patterns and duplicate content issues with canonical tag solutions", caption: "Shopify URL structure constraints and how to handle duplicate content" },
+          callout: { title: "Duplicate URLs", text: "Every Shopify product in a collection gets at least two URLs. Ensure your theme links directly to /products/handle rather than /collections/collection-name/products/handle to avoid sending mixed signals to Google." },
         },
         {
           heading: "Shopify-SEO-Apps, die wirklich etwas bringen",
@@ -334,6 +351,7 @@ export const shopifyEcommerceSeo: BlogArticle = {
             "Shopify unterstützt Lazy Loading für Bilder nativ über das OS 2.0 Framework. Stelle sicher, dass dein Theme das implementiert. Produktbilder unterhalb des sichtbaren Bereichs sollten erst laden, wenn der Nutzer in ihre Nähe scrollt. Allein diese Änderung kann die initiale Ladezeit um 30-40 % auf bildintensiven Kollektionsseiten reduzieren.",
             "Das Font-Loading wird oft übersehen. Benutzerdefinierte Schriftarten erfordern zusätzliche HTTP-Anfragen und können Layout-Verschiebungen verursachen (schlechte CLS-Scores). Verwende wo möglich Systemschriftarten, oder lade benutzerdefinierte Schriftarten mit link rel='preload' Tags im Head-Bereich deines Themes vor. Beschränke benutzerdefinierte Schriftarten auf maximal zwei Schriftstärken.",
           ],
+          image: { src: "/images/blog/de/shopify-speed-killers.svg", alt: "Bar chart showing how app scripts add 1-2 MB of extra JavaScript per page on Shopify stores", caption: "Third-party app scripts are the number one speed killer on Shopify" },
         },
         {
           heading: "Kollektionsseiten-SEO bei Shopify",
@@ -345,6 +363,8 @@ export const shopifyEcommerceSeo: BlogArticle = {
             "Interne Verlinkung zwischen Kollektionen baut thematische Autorität auf. Verlinke von übergeordneten Kollektionen zu Unterkollektionen, von Unterkollektionen zu verwandten Unterkollektionen und von Kollektionsbeschreibungen zu relevanten Blog-Inhalten. Wir fügen einen 'Verwandte Kategorien'-Bereich in Kollektionsseiten-Templates ein, der Links zu 4-6 verwandten Kollektionen anzeigt.",
             "Die Paginierung von Kollektionsseiten beeinflusst, wie Google Produkte entdeckt. Shopify handhabt die Paginierung mit '/collections/handle?page=2'-Parametern. Stelle sicher, dass paginierte Seiten korrekte Canonical Tags haben, die auf sich selbst verweisen (nicht auf Seite 1), und dass die XML-Sitemap alle paginierten URLs enthält. Google muss paginierte Seiten crawlen, um Produkte zu entdecken, die nicht auf Seite eins der Kollektion stehen.",
           ],
+          image: { src: "/images/blog/de/shopify-collection-seo.svg", alt: "Shopify collection page SEO structure showing title tag, intro paragraph, product grid, extended content, and related collections", caption: "A well-structured Shopify collection page includes keyword-rich content both above and below the product grid." },
+          callout: { title: "Collection Content", text: "Most Shopify stores fall short on collection descriptions. Add 200-500 words of unique content per collection page, split between a short intro above the product grid and longer content below. This single change can significantly boost organic rankings." },
         },
         {
           heading: "Umgang mit Shopifys Duplicate-Content-Problemen",
@@ -403,6 +423,8 @@ export const shopifyEcommerceSeo: BlogArticle = {
             "Pour les handles d'URL de blog, vous pouvez créer de nouveaux blogs avec des handles différents (en remplaçant 'news' par 'blog' ou 'articles'), mais vous ne pouvez pas supprimer entièrement le préfixe '/blogs/'. Si vous migrez vers Shopify depuis une plateforme où les URL de blog étaient à '/blog/nom-article', vous aurez besoin de redirections des anciennes URL vers la nouvelle structure '/blogs/handle/nom-article'.",
             "Les pages de sous-collection n'existent pas nativement dans Shopify. Si vous avez besoin d'une hiérarchie comme '/collections/chaussures/course', vous ne pouvez pas la créer via l'admin standard. Certaines boutiques utilisent des tags et un filtrage de collection personnalisé pour simuler des sous-collections, mais les URL ne sont pas aussi propres. Les boutiques Shopify Plus peuvent utiliser des templates personnalisés et des metafields pour construire des hiérarchies de collection plus sophistiquées.",
           ],
+          image: { src: "/images/blog/fr/shopify-url-structure.svg", alt: "Diagram showing Shopify fixed URL patterns and duplicate content issues with canonical tag solutions", caption: "Shopify URL structure constraints and how to handle duplicate content" },
+          callout: { title: "Duplicate URLs", text: "Every Shopify product in a collection gets at least two URLs. Ensure your theme links directly to /products/handle rather than /collections/collection-name/products/handle to avoid sending mixed signals to Google." },
         },
         {
           heading: "Les applications SEO Shopify qui valent vraiment le coup",
@@ -425,6 +447,7 @@ export const shopifyEcommerceSeo: BlogArticle = {
             "Shopify prend en charge le lazy loading pour les images nativement via le framework OS 2.0. Assurez-vous que votre thème l'implémente. Les images produit sous la ligne de flottaison ne devraient pas se charger tant que l'utilisateur ne fait pas défiler vers elles. Ce seul changement peut réduire le temps de chargement initial de 30-40 % sur les pages de collection riches en images.",
             "Le chargement des polices est souvent négligé. Les polices personnalisées nécessitent des requêtes HTTP supplémentaires et peuvent causer des décalages de mise en page (mauvais scores CLS). Utilisez les polices système quand c'est possible, ou préchargez les polices personnalisées avec des balises link rel='preload' dans la section head de votre thème. Limitez les polices personnalisées à deux graisses maximum.",
           ],
+          image: { src: "/images/blog/fr/shopify-speed-killers.svg", alt: "Bar chart showing how app scripts add 1-2 MB of extra JavaScript per page on Shopify stores", caption: "Third-party app scripts are the number one speed killer on Shopify" },
         },
         {
           heading: "SEO des pages de collection sur Shopify",
@@ -436,6 +459,8 @@ export const shopifyEcommerceSeo: BlogArticle = {
             "Le maillage interne entre les collections construit l'autorité thématique. Liez des collections parentes aux sous-collections, des sous-collections aux sous-collections connexes, et des descriptions de collection au contenu de blog pertinent. Nous ajoutons une section 'Catégories associées' aux templates de pages de collection qui affiche des liens vers 4-6 collections connexes.",
             "La pagination des pages de collection affecte la façon dont Google découvre les produits. Shopify gère la pagination avec des paramètres '/collections/handle?page=2'. Assurez-vous que les pages paginées ont des balises canonical correctes pointant vers elles-mêmes (pas vers la page 1) et que le sitemap XML inclut toutes les URL paginées. Google doit explorer les pages paginées pour découvrir les produits qui ne sont pas sur la première page de la collection.",
           ],
+          image: { src: "/images/blog/fr/shopify-collection-seo.svg", alt: "Shopify collection page SEO structure showing title tag, intro paragraph, product grid, extended content, and related collections", caption: "A well-structured Shopify collection page includes keyword-rich content both above and below the product grid." },
+          callout: { title: "Collection Content", text: "Most Shopify stores fall short on collection descriptions. Add 200-500 words of unique content per collection page, split between a short intro above the product grid and longer content below. This single change can significantly boost organic rankings." },
         },
         {
           heading: "Gérer les problèmes de contenu dupliqué de Shopify",
@@ -494,6 +519,8 @@ export const shopifyEcommerceSeo: BlogArticle = {
             "Para los handles de URL del blog, puedes crear nuevos blogs con handles diferentes (reemplazando 'news' por 'blog' o 'articles'), pero no puedes eliminar completamente el prefijo '/blogs/'. Si estás migrando a Shopify desde una plataforma donde las URLs del blog estaban en '/blog/nombre-entrada', necesitarás redirecciones de las URLs antiguas a la nueva estructura '/blogs/handle/nombre-entrada'.",
             "Las páginas de subcolección no existen nativamente en Shopify. Si necesitas una jerarquía como '/collections/zapatos/running', no puedes crearla a través del admin estándar. Algunas tiendas usan etiquetas y filtrado de colección personalizado para simular subcolecciones, pero las URLs no son tan limpias. Las tiendas Shopify Plus pueden usar plantillas personalizadas y metafields para construir jerarquías de colección más sofisticadas.",
           ],
+          image: { src: "/images/blog/es/shopify-url-structure.svg", alt: "Diagram showing Shopify fixed URL patterns and duplicate content issues with canonical tag solutions", caption: "Shopify URL structure constraints and how to handle duplicate content" },
+          callout: { title: "Duplicate URLs", text: "Every Shopify product in a collection gets at least two URLs. Ensure your theme links directly to /products/handle rather than /collections/collection-name/products/handle to avoid sending mixed signals to Google." },
         },
         {
           heading: "Apps de SEO para Shopify que realmente valen la pena",
@@ -516,6 +543,7 @@ export const shopifyEcommerceSeo: BlogArticle = {
             "Shopify soporta lazy loading para imágenes de forma nativa a través del framework OS 2.0. Asegúrate de que tu tema lo implemente. Las imágenes de productos debajo del pliegue no deberían cargarse hasta que el usuario se desplace cerca de ellas. Este único cambio puede reducir el tiempo de carga inicial en un 30-40 % en páginas de colección con muchas imágenes.",
             "La carga de fuentes a menudo se pasa por alto. Las fuentes personalizadas requieren peticiones HTTP adicionales y pueden causar cambios de diseño (malas puntuaciones CLS). Usa fuentes del sistema donde sea posible, o precarga las fuentes personalizadas usando etiquetas link rel='preload' en la sección head de tu tema. Limita las fuentes personalizadas a dos pesos como máximo.",
           ],
+          image: { src: "/images/blog/es/shopify-speed-killers.svg", alt: "Bar chart showing how app scripts add 1-2 MB of extra JavaScript per page on Shopify stores", caption: "Third-party app scripts are the number one speed killer on Shopify" },
         },
         {
           heading: "SEO de páginas de colección en Shopify",
@@ -527,6 +555,8 @@ export const shopifyEcommerceSeo: BlogArticle = {
             "El enlazado interno entre colecciones construye autoridad temática. Enlaza desde colecciones principales a subcolecciones, desde subcolecciones a subcolecciones relacionadas, y desde descripciones de colección a contenido de blog relevante. Añadimos una sección de 'Categorías relacionadas' a las plantillas de páginas de colección que muestra enlaces a 4-6 colecciones relacionadas.",
             "La paginación de páginas de colección afecta cómo Google descubre productos. Shopify maneja la paginación con parámetros '/collections/handle?page=2'. Asegúrate de que las páginas paginadas tengan etiquetas canonical correctas que apunten a sí mismas (no a la página 1) y que el sitemap XML incluya todas las URLs paginadas. Google necesita rastrear las páginas paginadas para descubrir productos que no están en la primera página de la colección.",
           ],
+          image: { src: "/images/blog/es/shopify-collection-seo.svg", alt: "Shopify collection page SEO structure showing title tag, intro paragraph, product grid, extended content, and related collections", caption: "A well-structured Shopify collection page includes keyword-rich content both above and below the product grid." },
+          callout: { title: "Collection Content", text: "Most Shopify stores fall short on collection descriptions. Add 200-500 words of unique content per collection page, split between a short intro above the product grid and longer content below. This single change can significantly boost organic rankings." },
         },
         {
           heading: "Gestión de los problemas de contenido duplicado de Shopify",

@@ -1,0 +1,30 @@
+<svg viewBox="0 0 680 320" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <text x="340" y="28" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#a78bfa">Technical SEO Priority Stack for Ecommerce</text>
+  <text x="340" y="48" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#e2e8f0">Tackle high-impact items first -- results in 4-6 weeks</text>
+  <g transform="translate(40,65)">
+    <rect x="0" y="0" width="600" height="42" rx="6" stroke="#f97316" stroke-width="2" fill="none"/>
+    <text x="20" y="18" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#f97316">P0 - CRITICAL</text>
+    <text x="20" y="34" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Crawl budget (block param URLs, clean sitemap)</text>
+    <text x="320" y="34" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Site speed (LCP under 2.5s on product/category)</text>
+  </g>
+  <g transform="translate(40,117)">
+    <rect x="0" y="0" width="600" height="42" rx="6" stroke="#f97316" stroke-width="1.5" fill="none"/>
+    <text x="20" y="18" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#f97316">P1 - HIGH</text>
+    <text x="20" y="34" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Duplicate content (canonical tags for variants/filters)</text>
+    <text x="320" y="34" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Mobile usability (mobile-first indexing)</text>
+  </g>
+  <g transform="translate(40,169)">
+    <rect x="0" y="0" width="600" height="42" rx="6" stroke="#60a5fa" stroke-width="1.5" fill="none"/>
+    <text x="20" y="18" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#60a5fa">P2 - MEDIUM</text>
+    <text x="20" y="34" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Broken internal links and redirect chains</text>
+    <text x="320" y="34" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">HTTPS mixed content issues</text>
+  </g>
+  <g transform="translate(40,221)">
+    <rect x="0" y="0" width="600" height="42" rx="6" stroke="#4ade80" stroke-width="1.5" fill="none"/>
+    <text x="20" y="18" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#4ade80">P3 - ONGOING</text>
+    <text x="20" y="34" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Monthly technical audits (new products, code changes)</text>
+    <text x="320" y="34" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Monitor crawl stats in Search Console</text>
+  </g>
+  <line x1="40" y1="280" x2="640" y2="280" stroke="#a78bfa" stroke-width="1" stroke-dasharray="4"/>
+  <text x="340" y="300" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#a78bfa">Do not treat technical SEO as one-time -- ecommerce sites change constantly</text>
+</svg>

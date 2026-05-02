@@ -1,0 +1,57 @@
+<svg viewBox="0 0 680 320" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <text x="340" y="28" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#a78bfa">SEO Package Tiers Overview</text>
+  <!-- Entry tier -->
+  <rect x="30" y="55" width="190" height="255" rx="10" fill="#60a5fa" opacity="0.1" stroke="#60a5fa" stroke-width="1.5"/>
+  <text x="125" y="78" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#60a5fa">Entry Level</text>
+  <text x="125" y="98" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#60a5fa">$1,500 - $3,000/mo</text>
+  <line x1="50" y1="110" x2="200" y2="110" stroke="#60a5fa" stroke-width="0.5" opacity="0.3"/>
+  <text x="55" y="132" font-family="Arial,sans-serif" font-size="10" fill="#4ade80">&#10003;</text>
+  <text x="70" y="132" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Technical audit</text>
+  <text x="55" y="152" font-family="Arial,sans-serif" font-size="10" fill="#4ade80">&#10003;</text>
+  <text x="70" y="152" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">10-20 page optimizations</text>
+  <text x="55" y="172" font-family="Arial,sans-serif" font-size="10" fill="#4ade80">&#10003;</text>
+  <text x="70" y="172" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Basic keyword research</text>
+  <text x="55" y="192" font-family="Arial,sans-serif" font-size="10" fill="#4ade80">&#10003;</text>
+  <text x="70" y="192" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Monthly reporting</text>
+  <text x="55" y="212" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0" opacity="0.4">&#10007;</text>
+  <text x="70" y="212" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0" opacity="0.4">Content creation</text>
+  <text x="55" y="232" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0" opacity="0.4">&#10007;</text>
+  <text x="70" y="232" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0" opacity="0.4">Link building</text>
+  <text x="125" y="278" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#60a5fa">200-500 SKU stores</text>
+  <!-- Mid tier -->
+  <rect x="245" y="55" width="190" height="255" rx="10" fill="#a78bfa" opacity="0.12" stroke="#a78bfa" stroke-width="1.5"/>
+  <text x="340" y="78" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#a78bfa">Mid Tier</text>
+  <text x="340" y="98" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#a78bfa">$3,000 - $7,000/mo</text>
+  <line x1="265" y1="110" x2="415" y2="110" stroke="#a78bfa" stroke-width="0.5" opacity="0.3"/>
+  <text x="270" y="132" font-family="Arial,sans-serif" font-size="10" fill="#4ade80">&#10003;</text>
+  <text x="285" y="132" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Full technical SEO</text>
+  <text x="270" y="152" font-family="Arial,sans-serif" font-size="10" fill="#4ade80">&#10003;</text>
+  <text x="285" y="152" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">50-100 pages optimized</text>
+  <text x="270" y="172" font-family="Arial,sans-serif" font-size="10" fill="#4ade80">&#10003;</text>
+  <text x="285" y="172" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Content strategy</text>
+  <text x="270" y="192" font-family="Arial,sans-serif" font-size="10" fill="#4ade80">&#10003;</text>
+  <text x="285" y="192" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">2-4 articles/month</text>
+  <text x="270" y="212" font-family="Arial,sans-serif" font-size="10" fill="#4ade80">&#10003;</text>
+  <text x="285" y="212" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Basic link building</text>
+  <text x="270" y="232" font-family="Arial,sans-serif" font-size="10" fill="#4ade80">&#10003;</text>
+  <text x="285" y="232" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Bi-weekly calls</text>
+  <text x="340" y="278" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#a78bfa">500-5,000 SKU stores</text>
+  <!-- Premium tier -->
+  <rect x="460" y="55" width="190" height="255" rx="10" fill="#f97316" opacity="0.12" stroke="#f97316" stroke-width="1.5"/>
+  <text x="555" y="78" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#f97316">Premium</text>
+  <text x="555" y="98" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#f97316">$7,000 - $15,000/mo</text>
+  <line x1="480" y1="110" x2="630" y2="110" stroke="#f97316" stroke-width="0.5" opacity="0.3"/>
+  <text x="485" y="132" font-family="Arial,sans-serif" font-size="10" fill="#4ade80">&#10003;</text>
+  <text x="500" y="132" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Everything in Mid</text>
+  <text x="485" y="152" font-family="Arial,sans-serif" font-size="10" fill="#4ade80">&#10003;</text>
+  <text x="500" y="152" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">International SEO</text>
+  <text x="485" y="172" font-family="Arial,sans-serif" font-size="10" fill="#4ade80">&#10003;</text>
+  <text x="500" y="172" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Aggressive link building</text>
+  <text x="485" y="192" font-family="Arial,sans-serif" font-size="10" fill="#4ade80">&#10003;</text>
+  <text x="500" y="192" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">8+ articles/month</text>
+  <text x="485" y="212" font-family="Arial,sans-serif" font-size="10" fill="#4ade80">&#10003;</text>
+  <text x="500" y="212" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">CRO integration</text>
+  <text x="485" y="232" font-family="Arial,sans-serif" font-size="10" fill="#4ade80">&#10003;</text>
+  <text x="500" y="232" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Dedicated strategist</text>
+  <text x="555" y="278" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#f97316">5,000+ SKU stores</text>
+</svg>

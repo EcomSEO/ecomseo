@@ -3,7 +3,7 @@ import type { BlogArticle } from "../types";
 export const ecommerceSeoIndia: BlogArticle = {
   slug: "ecommerce-seo-india",
   category: "industry",
-  publishDate: "2025-07-10",
+  publishDate: "2026-03-15",
   readingTime: 10,
   author: "Fabian van Til",
   authorRole: "CEO at EcomSEO",
@@ -32,6 +32,8 @@ export const ecommerceSeoIndia: BlogArticle = {
             "Data costs have dropped in India (thanks to Jio's disruption of the telecom market), but many users still monitor their data usage. Heavy pages with large images, auto-playing videos, and excessive JavaScript consume data and frustrate users. Keep total page weight under 1.5MB for product pages. Use aggressive image compression, lazy loading, and consider implementing AMP (Accelerated Mobile Pages) for content pages if your site struggles with mobile performance.",
             "Google's mobile-first indexing means the mobile version of your site is what Google uses for ranking and indexing. If your mobile site has less content, fewer internal links, or slower load times than your desktop version, your rankings will suffer. For Indian ecommerce specifically, we recommend building mobile-first and treating desktop as the adaptation rather than the other way around. Our guide on [technical SEO for ecommerce](/blog/technical-seo-for-ecommerce) covers the performance and crawlability foundations that support mobile-first rankings."
           ],
+          image: { src: "/images/blog/india-mobile-first.svg", alt: "India ecommerce mobile-first priorities showing 75% mobile traffic, 3G/4G dominance, and optimization checklist", caption: "Over 75% of Indian ecommerce traffic is mobile -- build mobile-first, adapt for desktop" },
+          callout: { title: "Test on Real Devices", text: "The typical Indian smartphone costs $100-$200 with 3-4GB RAM. Pages loading in 2 seconds on an iPhone 15 may take 6 seconds on a Redmi device. Keep product pages under 1.5MB total weight." },
         },
         {
           heading: "Regional language SEO: reaching non-English shoppers",
@@ -42,6 +44,8 @@ export const ecommerceSeoIndia: BlogArticle = {
             "Implementation options range from simple to complex. The simplest approach is creating Hindi (or other language) versions of your top-performing category pages and blog content. Use hreflang tags to tell Google which language version to serve to which users. More ambitious implementations involve full multilingual storefronts with translated product descriptions, navigation, and checkout flows.",
             "A critical detail: do not rely on machine translation alone. Google Translate output reads unnaturally in Indian languages, and Indian users will notice. Hire native speakers to write or at least review your regional language content. The grammar structures, colloquialisms, and product terminology differ significantly from direct English translations."
           ],
+          image: { src: "/images/blog/india-regional-languages.svg", alt: "Bar chart showing regional language speakers in India from Hindi to Kannada with SEO opportunity", caption: "90% of new Indian internet users search in regional languages" },
+          callout: { title: "Hindi Search Surge", text: "Hindi ecommerce queries have grown over 100% in three years. Most Indian ecommerce sites are English-only, creating a major opportunity for stores that add even basic Hindi category pages and content." },
         },
         {
           heading: "Competing with Flipkart and Amazon India",
@@ -62,6 +66,7 @@ export const ecommerceSeoIndia: BlogArticle = {
             "Cash on Delivery (COD) remains a significant factor in Indian ecommerce. Over 60% of online orders in India still use COD as the payment method. Mentioning COD availability on your product pages and in your meta descriptions can improve click-through rates for Indian shoppers. Including 'Cash on Delivery available' in your product schema as a payment method property helps Google understand and display this information.",
             "UPI (Unified Payments Interface) has transformed digital payments in India. Accepting UPI payments and mentioning it on your site is now a trust signal. Indian shoppers actively look for UPI payment options. Similarly, EMI (Equated Monthly Installment) options on higher-priced products are expected by Indian consumers. Highlighting 'No-cost EMI available' on product pages and in structured data can improve both SEO visibility and conversion rates."
           ],
+          image: { src: "/images/blog/india-trust-signals.svg", alt: "Four categories of trust signals for Indian ecommerce: payment, social proof, authenticity, and local presence", caption: "Indian shoppers need payment, authenticity, and local presence signals before they buy" },
         },
         {
           heading: "Local SEO for D2C brands in India",
@@ -72,6 +77,8 @@ export const ecommerceSeoIndia: BlogArticle = {
             "Hyperlocal delivery has become a differentiator in Indian ecommerce. Brands offering same-day or next-day delivery within specific cities can highlight this in their SEO. Create content around delivery speed ('same day delivery in Delhi NCR,' 'next day delivery Hyderabad') because Indian shoppers actively search for fast delivery options. Pin codes and serviceability are search terms with genuine volume in India.",
             "Google Maps integration matters for omnichannel D2C brands. When someone searches for your brand name + a city, Google often shows a Maps result. Having accurate Google Business Profiles ensures you appear there. We have seen D2C brands where 15% to 20% of their total online discovery comes through Google Maps and local search results."
           ],
+          image: { src: "/images/blog/india-d2c-local-seo.svg", alt: "Local SEO strategy for D2C brands in India covering Google Business, city pages, delivery speed, and Maps optimization", caption: "D2C brands with physical touchpoints see 15-20% of online discovery through Maps and local search" },
+          callout: { title: "Hyperlocal Delivery SEO", text: "Indian shoppers actively search for fast delivery options by city. Creating content around 'same day delivery in Delhi NCR' and pin code serviceability captures genuine search volume that most competitors ignore." },
         },
         {
           heading: "Technical SEO considerations specific to India",
@@ -83,6 +90,8 @@ export const ecommerceSeoIndia: BlogArticle = {
             "India's internet regulations around data localization and privacy (the Digital Personal Data Protection Act passed in 2023) may affect how you handle user data, analytics, and personalization. While this does not directly impact SEO, ensuring compliance avoids legal risks that could disrupt your online operations. Store Indian users' personal data on servers located within India if your user base is primarily Indian.",
             "Voice search is growing rapidly in India, driven by Google Assistant integration in affordable smartphones. Many Indian users prefer speaking search queries in Hindi or regional languages rather than typing in English. Optimizing for voice search means targeting natural-language, conversational queries and structuring your FAQ content to match how people actually speak. Queries like 'best water purifier for borewell water' reflect how Indian consumers use voice search to find products that solve specific local problems. For stores selling content-rich product categories, our guide on [ecommerce SEO content](/blog/ecommerce-seo-content) covers how to build content that captures both typed and voice-driven queries.",
           ],
+          image: { src: "/images/blog/india-technical-seo-checklist.svg", alt: "India-specific technical SEO checklist covering performance, multilingual, structured data, and infrastructure requirements", caption: "Achieving good Core Web Vitals in India requires extra effort due to device and network conditions" },
+          callout: { title: "Voice Search Is Rising", text: "Many Indian users prefer speaking queries in Hindi or regional languages rather than typing in English. Optimize for natural-language, conversational queries and structure FAQ content to match how people actually speak." },
         },
       ],
     },
@@ -107,6 +116,8 @@ export const ecommerceSeoIndia: BlogArticle = {
             "Los costes de datos han bajado en India (gracias a la disrupción de Jio en el mercado de telecomunicaciones), pero muchos usuarios aún monitorizan su uso de datos. Las páginas pesadas con imágenes grandes, videos que se reproducen automáticamente y JavaScript excesivo consumen datos y frustran a los usuarios. Mantén el peso total de la página por debajo de 1,5MB para páginas de productos. Usa compresión de imágenes agresiva, lazy loading y considera implementar AMP (Accelerated Mobile Pages) para páginas de contenido si tu sitio tiene dificultades con el rendimiento móvil.",
             "La indexación mobile-first de Google significa que la versión móvil de tu sitio es lo que Google usa para el ranking e indexación. Si tu sitio móvil tiene menos contenido, menos enlaces internos o tiempos de carga más lentos que tu versión de escritorio, tus rankings sufrirán. Para el ecommerce indio específicamente, recomendamos construir mobile-first y tratar el escritorio como la adaptación en lugar de al revés. Nuestra guía sobre [SEO técnico para ecommerce](/blog/technical-seo-for-ecommerce) cubre los fundamentos de rendimiento y rastreabilidad que respaldan los rankings mobile-first."
           ],
+          image: { src: "/images/blog/es/india-mobile-first.svg", alt: "India ecommerce mobile-first priorities showing 75% mobile traffic, 3G/4G dominance, and optimization checklist", caption: "Over 75% of Indian ecommerce traffic is mobile -- build mobile-first, adapt for desktop" },
+          callout: { title: "Test on Real Devices", text: "The typical Indian smartphone costs $100-$200 with 3-4GB RAM. Pages loading in 2 seconds on an iPhone 15 may take 6 seconds on a Redmi device. Keep product pages under 1.5MB total weight." },
         },
         {
           heading: "SEO en idiomas regionales: alcanzando a los compradores que no hablan inglés",
@@ -117,6 +128,8 @@ export const ecommerceSeoIndia: BlogArticle = {
             "Las opciones de implementación van de simples a complejas. El enfoque más simple es crear versiones en hindi (u otro idioma) de tus páginas de categorías y contenido de blog con mejor rendimiento. Usa tags hreflang para decirle a Google qué versión de idioma servir a qué usuarios. Las implementaciones más ambiciosas involucran tiendas multilingües completas con descripciones de productos traducidas, navegación y flujos de checkout.",
             "Un detalle crítico: no dependas solo de la traducción automática. La salida de Google Translate se lee de forma antinatural en los idiomas indios, y los usuarios indios lo notarán. Contrata a hablantes nativos para escribir o al menos revisar tu contenido en idiomas regionales. Las estructuras gramaticales, coloquialismos y terminología de productos difieren significativamente de las traducciones directas del inglés."
           ],
+          image: { src: "/images/blog/es/india-regional-languages.svg", alt: "Bar chart showing regional language speakers in India from Hindi to Kannada with SEO opportunity", caption: "90% of new Indian internet users search in regional languages" },
+          callout: { title: "Hindi Search Surge", text: "Hindi ecommerce queries have grown over 100% in three years. Most Indian ecommerce sites are English-only, creating a major opportunity for stores that add even basic Hindi category pages and content." },
         },
         {
           heading: "Compitiendo con Flipkart y Amazon India",
@@ -137,6 +150,7 @@ export const ecommerceSeoIndia: BlogArticle = {
             "El pago contra reembolso (COD) sigue siendo un factor significativo en el ecommerce indio. Más del 60% de los pedidos online en India aún usan COD como método de pago. Mencionar la disponibilidad de COD en tus páginas de productos y en tus meta descriptions puede mejorar las tasas de clics para los compradores indios. Incluir 'Cash on Delivery available' en tu schema de producto como propiedad de método de pago ayuda a Google a entender y mostrar esta información.",
             "UPI (Unified Payments Interface) ha transformado los pagos digitales en India. Aceptar pagos UPI y mencionarlo en tu sitio es ahora una señal de confianza. Los compradores indios buscan activamente opciones de pago UPI. De manera similar, las opciones de EMI (Cuota Mensual Equivalente) en productos de precio más alto son esperadas por los consumidores indios. Destacar 'EMI sin coste disponible' en las páginas de productos y en los datos estructurados puede mejorar tanto la visibilidad SEO como las tasas de conversión."
           ],
+          image: { src: "/images/blog/es/india-trust-signals.svg", alt: "Four categories of trust signals for Indian ecommerce: payment, social proof, authenticity, and local presence", caption: "Indian shoppers need payment, authenticity, and local presence signals before they buy" },
         },
         {
           heading: "SEO local para marcas D2C en India",
@@ -147,6 +161,8 @@ export const ecommerceSeoIndia: BlogArticle = {
             "La entrega hiperlocal se ha convertido en un diferenciador en el ecommerce indio. Las marcas que ofrecen entrega en el mismo día o al día siguiente dentro de ciudades específicas pueden destacar esto en su SEO. Crea contenido alrededor de la velocidad de entrega ('same day delivery in Delhi NCR', 'next day delivery Hyderabad') porque los compradores indios buscan activamente opciones de entrega rápida. Los códigos postales y la disponibilidad del servicio son términos de búsqueda con volumen genuino en India.",
             "La integración de Google Maps importa para las marcas D2C omnicanal. Cuando alguien busca el nombre de tu marca + una ciudad, Google a menudo muestra un resultado de Maps. Tener Perfiles de Empresa de Google precisos asegura que aparezcas ahí. Hemos visto marcas D2C donde del 15% al 20% de su descubrimiento online total proviene de Google Maps y resultados de búsqueda local."
           ],
+          image: { src: "/images/blog/es/india-d2c-local-seo.svg", alt: "Local SEO strategy for D2C brands in India covering Google Business, city pages, delivery speed, and Maps optimization", caption: "D2C brands with physical touchpoints see 15-20% of online discovery through Maps and local search" },
+          callout: { title: "Hyperlocal Delivery SEO", text: "Indian shoppers actively search for fast delivery options by city. Creating content around 'same day delivery in Delhi NCR' and pin code serviceability captures genuine search volume that most competitors ignore." },
         },
         {
           heading: "Consideraciones de SEO técnico específicas para India",
@@ -182,6 +198,8 @@ export const ecommerceSeoIndia: BlogArticle = {
             "Datenkosten sind in Indien gesunken (dank Jios Disruption des Telekommunikationsmarktes), aber viele Nutzer ueberwachen immer noch ihren Datenverbrauch. Schwere Seiten mit grossen Bildern, automatisch abspielenden Videos und uebermassigem JavaScript verbrauchen Daten und frustrieren Nutzer. Halten Sie das Gesamtgewicht der Seite unter 1,5 MB fuer Produktseiten. Verwenden Sie aggressive Bildkompression, Lazy Loading und erwaegen Sie die Implementierung von AMP (Accelerated Mobile Pages) fuer Inhaltsseiten, wenn Ihre Seite mit der mobilen Performance kaempft.",
             "Googles Mobile-First-Indexierung bedeutet, dass die mobile Version Ihrer Seite das ist, was Google fuer Ranking und Indexierung verwendet. Wenn Ihre mobile Seite weniger Inhalt, weniger interne Links oder langsamere Ladezeiten als Ihre Desktop-Version hat, werden Ihre Rankings leiden. Fuer indisches Ecommerce speziell empfehlen wir, Mobile-First zu bauen und Desktop als Anpassung zu behandeln statt umgekehrt. Unser Leitfaden zu [technischem SEO fuer Ecommerce](/blog/technical-seo-for-ecommerce) behandelt die Performance- und Crawlbarkeits-Grundlagen, die Mobile-First-Rankings unterstuetzen."
           ],
+          image: { src: "/images/blog/de/india-mobile-first.svg", alt: "India ecommerce mobile-first priorities showing 75% mobile traffic, 3G/4G dominance, and optimization checklist", caption: "Over 75% of Indian ecommerce traffic is mobile -- build mobile-first, adapt for desktop" },
+          callout: { title: "Test on Real Devices", text: "The typical Indian smartphone costs $100-$200 with 3-4GB RAM. Pages loading in 2 seconds on an iPhone 15 may take 6 seconds on a Redmi device. Keep product pages under 1.5MB total weight." },
         },
         {
           heading: "Regionalsprachen-SEO: Nicht-englischsprachige Kaeufer erreichen",
@@ -192,6 +210,8 @@ export const ecommerceSeoIndia: BlogArticle = {
             "Die Implementierungsoptionen reichen von einfach bis komplex. Der einfachste Ansatz ist die Erstellung von Hindi- (oder anderssprachigen) Versionen Ihrer Top-performenden Kategorieseiten und Blog-Inhalte. Verwenden Sie hreflang-Tags, um Google mitzuteilen, welche Sprachversion welchen Nutzern ausgespielt werden soll. Ambitioniertere Implementierungen beinhalten vollstaendige mehrsprachige Storefronts mit uebersetzten Produktbeschreibungen, Navigation und Checkout-Ablaeufen.",
             "Ein kritisches Detail: Verlassen Sie sich nicht allein auf maschinelle Uebersetzung. Google-Translate-Ausgabe liest sich in indischen Sprachen unnatuerlich, und indische Nutzer werden das bemerken. Beauftragen Sie Muttersprachler, Ihre regionalsprachlichen Inhalte zu schreiben oder zumindest zu pruefen. Grammatikstrukturen, Umgangssprache und Produktterminologie unterscheiden sich erheblich von direkten Englisch-Uebersetzungen."
           ],
+          image: { src: "/images/blog/de/india-regional-languages.svg", alt: "Bar chart showing regional language speakers in India from Hindi to Kannada with SEO opportunity", caption: "90% of new Indian internet users search in regional languages" },
+          callout: { title: "Hindi Search Surge", text: "Hindi ecommerce queries have grown over 100% in three years. Most Indian ecommerce sites are English-only, creating a major opportunity for stores that add even basic Hindi category pages and content." },
         },
         {
           heading: "Mit Flipkart und Amazon India konkurrieren",
@@ -212,6 +232,7 @@ export const ecommerceSeoIndia: BlogArticle = {
             "Nachnahme (COD) bleibt ein bedeutender Faktor im indischen Ecommerce. Ueber 60% der Online-Bestellungen in Indien verwenden immer noch COD als Zahlungsmethode. Die Erwaehnung der COD-Verfuegbarkeit auf Ihren Produktseiten und in Ihren Meta Descriptions kann die Klickraten fuer indische Kaeufer verbessern. Die Aufnahme von 'Cash on Delivery available' in Ihr Product Schema als Zahlungsmethoden-Property hilft Google, diese Information zu verstehen und anzuzeigen.",
             "UPI (Unified Payments Interface) hat den digitalen Zahlungsverkehr in Indien transformiert. UPI-Zahlungen zu akzeptieren und dies auf Ihrer Seite zu erwaehnen ist jetzt ein Vertrauenssignal. Indische Kaeufer suchen aktiv nach UPI-Zahlungsoptionen. Ebenso werden EMI-Optionen (Equated Monthly Installment) bei hoeherpreisigen Produkten von indischen Verbrauchern erwartet. 'No-cost EMI available' auf Produktseiten und in strukturierten Daten hervorzuheben kann sowohl die SEO-Sichtbarkeit als auch die Conversion Rates verbessern."
           ],
+          image: { src: "/images/blog/de/india-trust-signals.svg", alt: "Four categories of trust signals for Indian ecommerce: payment, social proof, authenticity, and local presence", caption: "Indian shoppers need payment, authenticity, and local presence signals before they buy" },
         },
         {
           heading: "Lokales SEO fuer D2C-Marken in Indien",
@@ -222,6 +243,8 @@ export const ecommerceSeoIndia: BlogArticle = {
             "Hyperlokale Lieferung ist zu einem Differenzierungsmerkmal im indischen Ecommerce geworden. Marken, die Same-Day- oder Next-Day-Lieferung innerhalb bestimmter Staedte anbieten, koennen dies in ihrem SEO hervorheben. Erstellen Sie Content rund um Liefergeschwindigkeit ('same day delivery in Delhi NCR', 'next day delivery Hyderabad'), weil indische Kaeufer aktiv nach schnellen Lieferoptionen suchen. Postleitzahlen und Lieferbarkeit sind Suchbegriffe mit echtem Volumen in Indien.",
             "Google Maps Integration ist wichtig fuer Omnichannel-D2C-Marken. Wenn jemand Ihren Markennamen + eine Stadt sucht, zeigt Google oft ein Maps-Ergebnis. Genaue Google Business Profile stellen sicher, dass Sie dort erscheinen. Wir haben D2C-Marken gesehen, bei denen 15% bis 20% ihrer gesamten Online-Entdeckung ueber Google Maps und lokale Suchergebnisse kamen."
           ],
+          image: { src: "/images/blog/de/india-d2c-local-seo.svg", alt: "Local SEO strategy for D2C brands in India covering Google Business, city pages, delivery speed, and Maps optimization", caption: "D2C brands with physical touchpoints see 15-20% of online discovery through Maps and local search" },
+          callout: { title: "Hyperlocal Delivery SEO", text: "Indian shoppers actively search for fast delivery options by city. Creating content around 'same day delivery in Delhi NCR' and pin code serviceability captures genuine search volume that most competitors ignore." },
         },
         {
           heading: "Technische SEO-Ueberlegungen speziell fuer Indien",
@@ -257,6 +280,8 @@ export const ecommerceSeoIndia: BlogArticle = {
             "Les coûts de données ont baissé en Inde (grâce à la disruption du marché télécom par Jio), mais de nombreux utilisateurs surveillent encore leur consommation de données. Les pages lourdes avec de grandes images, des vidéos en lecture automatique et un JavaScript excessif consomment des données et frustrent les utilisateurs. Maintenez le poids total des pages sous 1,5 Mo pour les pages produits. Utilisez une compression d'images agressive, le chargement différé, et envisagez d'implémenter AMP (Accelerated Mobile Pages) pour les pages de contenu si votre site a des difficultés de performance mobile.",
             "L'indexation mobile-first de Google signifie que la version mobile de votre site est ce que Google utilise pour le classement et l'indexation. Si votre site mobile a moins de contenu, moins de liens internes ou des temps de chargement plus lents que votre version desktop, vos classements en souffriront. Pour le ecommerce indien spécifiquement, nous recommandons de construire en mobile-first et de traiter le desktop comme l'adaptation plutôt que l'inverse. Notre guide sur le [SEO technique pour le ecommerce](/blog/technical-seo-for-ecommerce) couvre les fondations de performance et de crawlabilité qui soutiennent les classements mobile-first."
           ],
+          image: { src: "/images/blog/fr/india-mobile-first.svg", alt: "India ecommerce mobile-first priorities showing 75% mobile traffic, 3G/4G dominance, and optimization checklist", caption: "Over 75% of Indian ecommerce traffic is mobile -- build mobile-first, adapt for desktop" },
+          callout: { title: "Test on Real Devices", text: "The typical Indian smartphone costs $100-$200 with 3-4GB RAM. Pages loading in 2 seconds on an iPhone 15 may take 6 seconds on a Redmi device. Keep product pages under 1.5MB total weight." },
         },
         {
           heading: "SEO en langues régionales : atteindre les acheteurs non anglophones",
@@ -267,6 +292,8 @@ export const ecommerceSeoIndia: BlogArticle = {
             "Les options d'implémentation vont du simple au complexe. L'approche la plus simple consiste à créer des versions en hindi (ou autre langue) de vos pages catégories et contenus de blog les plus performants. Utilisez des balises hreflang pour indiquer à Google quelle version linguistique servir à quels utilisateurs. Les implémentations plus ambitieuses impliquent des vitrines multilingues complètes avec des descriptions de produits traduites, une navigation et un tunnel de paiement traduits.",
             "Un détail critique : ne vous fiez pas à la traduction automatique seule. Le résultat de Google Translate se lit de manière peu naturelle dans les langues indiennes, et les utilisateurs indiens le remarqueront. Embauchez des locuteurs natifs pour rédiger ou au moins réviser votre contenu en langue régionale. Les structures grammaticales, les expressions familières et la terminologie des produits diffèrent significativement des traductions directes de l'anglais."
           ],
+          image: { src: "/images/blog/fr/india-regional-languages.svg", alt: "Bar chart showing regional language speakers in India from Hindi to Kannada with SEO opportunity", caption: "90% of new Indian internet users search in regional languages" },
+          callout: { title: "Hindi Search Surge", text: "Hindi ecommerce queries have grown over 100% in three years. Most Indian ecommerce sites are English-only, creating a major opportunity for stores that add even basic Hindi category pages and content." },
         },
         {
           heading: "Rivaliser avec Flipkart et Amazon India",
@@ -287,6 +314,7 @@ export const ecommerceSeoIndia: BlogArticle = {
             "Le paiement à la livraison (COD) reste un facteur significatif dans le ecommerce indien. Plus de 60 % des commandes en ligne en Inde utilisent encore le COD comme moyen de paiement. Mentionner la disponibilité du COD sur vos pages produits et dans vos meta descriptions peut améliorer les taux de clics pour les acheteurs indiens. Inclure « Paiement à la livraison disponible » dans votre schema produit comme propriété de moyen de paiement aide Google à comprendre et afficher cette information.",
             "L'UPI (Unified Payments Interface) a transformé les paiements numériques en Inde. Accepter les paiements UPI et le mentionner sur votre site est désormais un signal de confiance. Les acheteurs indiens recherchent activement les options de paiement UPI. De même, les options EMI (Equated Monthly Installment) sur les produits à prix plus élevé sont attendues par les consommateurs indiens. Mettre en avant « EMI sans frais disponible » sur les pages produits et dans les données structurées peut améliorer à la fois la visibilité SEO et les taux de conversion."
           ],
+          image: { src: "/images/blog/fr/india-trust-signals.svg", alt: "Four categories of trust signals for Indian ecommerce: payment, social proof, authenticity, and local presence", caption: "Indian shoppers need payment, authenticity, and local presence signals before they buy" },
         },
         {
           heading: "SEO local pour les marques D2C en Inde",
@@ -297,6 +325,8 @@ export const ecommerceSeoIndia: BlogArticle = {
             "La livraison hyperlocale est devenue un différenciateur dans le ecommerce indien. Les marques offrant une livraison le jour même ou le lendemain dans des villes spécifiques peuvent le mettre en avant dans leur SEO. Créez du contenu autour de la vitesse de livraison (« livraison le jour même à Delhi NCR », « livraison le lendemain Hyderabad ») car les acheteurs indiens recherchent activement des options de livraison rapide. Les codes postaux et la couverture de service sont des termes de recherche avec un volume réel en Inde.",
             "L'intégration Google Maps compte pour les marques D2C omnicanales. Quand quelqu'un recherche votre nom de marque + une ville, Google affiche souvent un résultat Maps. Avoir des profils Google Business précis garantit que vous y apparaissez. Nous avons vu des marques D2C où 15 à 20 % de leur découverte en ligne totale provient de Google Maps et des résultats de recherche locale."
           ],
+          image: { src: "/images/blog/fr/india-d2c-local-seo.svg", alt: "Local SEO strategy for D2C brands in India covering Google Business, city pages, delivery speed, and Maps optimization", caption: "D2C brands with physical touchpoints see 15-20% of online discovery through Maps and local search" },
+          callout: { title: "Hyperlocal Delivery SEO", text: "Indian shoppers actively search for fast delivery options by city. Creating content around 'same day delivery in Delhi NCR' and pin code serviceability captures genuine search volume that most competitors ignore." },
         },
         {
           heading: "Considérations de SEO technique spécifiques à l'Inde",
@@ -332,6 +362,8 @@ export const ecommerceSeoIndia: BlogArticle = {
             "I costi dei dati sono diminuiti in India (grazie alla disruption di Jio nel mercato delle telecomunicazioni), ma molti utenti monitorano ancora il loro consumo di dati. Pagine pesanti con immagini grandi, video in riproduzione automatica e JavaScript eccessivo consumano dati e frustrano gli utenti. Mantieni il peso totale della pagina sotto 1,5 MB per le pagine prodotto. Usa compressione aggressiva delle immagini, lazy loading e considera l'implementazione di AMP (Accelerated Mobile Pages) per le pagine di contenuto se il tuo sito fatica con le prestazioni mobile.",
             "L'indicizzazione mobile-first di Google significa che la versione mobile del tuo sito è quella che Google usa per il ranking e l'indicizzazione. Se il tuo sito mobile ha meno contenuti, meno link interni o tempi di caricamento più lenti rispetto alla versione desktop, le tue classifiche ne risentiranno. Per l'ecommerce indiano in particolare, raccomandiamo di costruire mobile-first e trattare il desktop come adattamento piuttosto che il contrario. La nostra guida sul [SEO tecnico per ecommerce](/blog/technical-seo-for-ecommerce) copre le basi di prestazioni e crawlability che supportano le classifiche mobile-first."
           ],
+          image: { src: "/images/blog/it/india-mobile-first.svg", alt: "India ecommerce mobile-first priorities showing 75% mobile traffic, 3G/4G dominance, and optimization checklist", caption: "Over 75% of Indian ecommerce traffic is mobile -- build mobile-first, adapt for desktop" },
+          callout: { title: "Test on Real Devices", text: "The typical Indian smartphone costs $100-$200 with 3-4GB RAM. Pages loading in 2 seconds on an iPhone 15 may take 6 seconds on a Redmi device. Keep product pages under 1.5MB total weight." },
         },
         {
           heading: "SEO in lingua regionale: raggiungere gli acquirenti non anglofoni",
@@ -342,6 +374,8 @@ export const ecommerceSeoIndia: BlogArticle = {
             "Le opzioni di implementazione vanno dal semplice al complesso. L'approccio più semplice è creare versioni in hindi (o altra lingua) delle tue pagine di categoria e contenuti del blog con le migliori prestazioni. Usa i tag hreflang per dire a Google quale versione linguistica mostrare a quali utenti. Implementazioni più ambiziose prevedono negozi multilingue completi con descrizioni dei prodotti tradotte, navigazione e flussi di checkout.",
             "Un dettaglio critico: non affidarti solo alla traduzione automatica. L'output di Google Translate risulta innaturale nelle lingue indiane, e gli utenti indiani lo noteranno. Assumi madrelingua per scrivere o almeno rivedere i tuoi contenuti in lingua regionale. Le strutture grammaticali, i colloquialismi e la terminologia dei prodotti differiscono significativamente dalle traduzioni dirette dall'inglese."
           ],
+          image: { src: "/images/blog/it/india-regional-languages.svg", alt: "Bar chart showing regional language speakers in India from Hindi to Kannada with SEO opportunity", caption: "90% of new Indian internet users search in regional languages" },
+          callout: { title: "Hindi Search Surge", text: "Hindi ecommerce queries have grown over 100% in three years. Most Indian ecommerce sites are English-only, creating a major opportunity for stores that add even basic Hindi category pages and content." },
         },
         {
           heading: "Competere con Flipkart e Amazon India",
@@ -362,6 +396,7 @@ export const ecommerceSeoIndia: BlogArticle = {
             "Il Contrassegno (COD) rimane un fattore significativo nell'ecommerce indiano. Oltre il 60% degli ordini online in India utilizza ancora il COD come metodo di pagamento. Menzionare la disponibilità del COD nelle tue pagine prodotto e nelle meta description può migliorare i tassi di click-through per gli acquirenti indiani. Includere 'Cash on Delivery available' nello schema del prodotto come proprietà del metodo di pagamento aiuta Google a comprendere e visualizzare questa informazione.",
             "UPI (Unified Payments Interface) ha trasformato i pagamenti digitali in India. Accettare pagamenti UPI e menzionarlo sul tuo sito è ora un segnale di fiducia. Gli acquirenti indiani cercano attivamente opzioni di pagamento UPI. Allo stesso modo, le opzioni EMI (Equated Monthly Installment) sui prodotti a prezzo più alto sono attese dai consumatori indiani. Evidenziare 'No-cost EMI available' nelle pagine prodotto e nei dati strutturati può migliorare sia la visibilità SEO che i tassi di conversione."
           ],
+          image: { src: "/images/blog/it/india-trust-signals.svg", alt: "Four categories of trust signals for Indian ecommerce: payment, social proof, authenticity, and local presence", caption: "Indian shoppers need payment, authenticity, and local presence signals before they buy" },
         },
         {
           heading: "SEO locale per i brand D2C in India",
@@ -372,6 +407,8 @@ export const ecommerceSeoIndia: BlogArticle = {
             "La consegna iperlocale è diventata un differenziatore nell'ecommerce indiano. I brand che offrono consegna in giornata o il giorno successivo in città specifiche possono evidenziarlo nel loro SEO. Crea contenuti sulla velocità di consegna ('same day delivery in Delhi NCR', 'next day delivery Hyderabad') perché gli acquirenti indiani cercano attivamente opzioni di consegna rapida. I codici PIN e la copertura del servizio sono termini di ricerca con volume reale in India.",
             "L'integrazione con Google Maps è importante per i brand D2C omnicanale. Quando qualcuno cerca il nome del tuo brand + una città, Google mostra spesso un risultato Maps. Avere Google Business Profile accurati garantisce che tu appaia lì. Abbiamo visto brand D2C dove il 15-20% della loro scoperta online totale proviene da Google Maps e dai risultati di ricerca locale."
           ],
+          image: { src: "/images/blog/it/india-d2c-local-seo.svg", alt: "Local SEO strategy for D2C brands in India covering Google Business, city pages, delivery speed, and Maps optimization", caption: "D2C brands with physical touchpoints see 15-20% of online discovery through Maps and local search" },
+          callout: { title: "Hyperlocal Delivery SEO", text: "Indian shoppers actively search for fast delivery options by city. Creating content around 'same day delivery in Delhi NCR' and pin code serviceability captures genuine search volume that most competitors ignore." },
         },
         {
           heading: "Considerazioni di SEO tecnico specifiche per l'India",
@@ -383,6 +420,8 @@ export const ecommerceSeoIndia: BlogArticle = {
             "Le normative indiane sulla localizzazione dei dati e la privacy (il Digital Personal Data Protection Act approvato nel 2023) possono influenzare come gestisci i dati degli utenti, l'analytics e la personalizzazione. Sebbene questo non influenzi direttamente il SEO, garantire la conformità evita rischi legali che potrebbero interrompere le tue operazioni online. Archivia i dati personali degli utenti indiani su server situati in India se la tua base utenti è principalmente indiana.",
             "La ricerca vocale sta crescendo rapidamente in India, spinta dall'integrazione di Google Assistant negli smartphone economici. Molti utenti indiani preferiscono dettare le query di ricerca in hindi o nelle lingue regionali piuttosto che digitare in inglese. Ottimizzare per la ricerca vocale significa targetizzare query conversazionali in linguaggio naturale e strutturare il contenuto FAQ per corrispondere a come le persone parlano realmente. Query come 'best water purifier for borewell water' riflettono come i consumatori indiani usano la ricerca vocale per trovare prodotti che risolvono problemi locali specifici. Per i negozi che vendono categorie di prodotti ricche di contenuto, la nostra guida sul [contenuto SEO ecommerce](/blog/ecommerce-seo-content) copre come costruire contenuti che catturano sia le query digitate che quelle vocali."
           ],
+          image: { src: "/images/blog/it/india-technical-seo-checklist.svg", alt: "India-specific technical SEO checklist covering performance, multilingual, structured data, and infrastructure requirements", caption: "Achieving good Core Web Vitals in India requires extra effort due to device and network conditions" },
+          callout: { title: "Voice Search Is Rising", text: "Many Indian users prefer speaking queries in Hindi or regional languages rather than typing in English. Optimize for natural-language, conversational queries and structure FAQ content to match how people actually speak." },
         },
       ],
     },
@@ -407,6 +446,8 @@ export const ecommerceSeoIndia: BlogArticle = {
             "Datakosten zijn gedaald in India (dankzij Jio's verstoring van de telecommarkt), maar veel gebruikers monitoren nog steeds hun dataverbruik. Zware pagina's met grote afbeeldingen, automatisch afspelende video's en overmatig JavaScript verbruiken data en frustreren gebruikers. Houd het totale paginagewicht onder 1,5 MB voor productpagina's. Gebruik agressieve beeldcompressie, lazy loading en overweeg AMP (Accelerated Mobile Pages) te implementeren voor contentpagina's als je site moeite heeft met mobiele prestaties.",
             "Google's mobile-first indexering betekent dat de mobiele versie van je site is wat Google gebruikt voor ranking en indexering. Als je mobiele site minder content heeft, minder interne links of langzamere laadtijden dan je desktopversie, zullen je rankings eronder lijden. Voor Indiase ecommerce specifiek raden we aan mobile-first te bouwen en desktop als de aanpassing te behandelen in plaats van andersom. Onze gids over [technische SEO voor ecommerce](/blog/technical-seo-for-ecommerce) behandelt de prestatie- en crawlbaarheid-fundamenten die mobile-first rankings ondersteunen."
           ],
+          image: { src: "/images/blog/nl/india-mobile-first.svg", alt: "India ecommerce mobile-first priorities showing 75% mobile traffic, 3G/4G dominance, and optimization checklist", caption: "Over 75% of Indian ecommerce traffic is mobile -- build mobile-first, adapt for desktop" },
+          callout: { title: "Test on Real Devices", text: "The typical Indian smartphone costs $100-$200 with 3-4GB RAM. Pages loading in 2 seconds on an iPhone 15 may take 6 seconds on a Redmi device. Keep product pages under 1.5MB total weight." },
         },
         {
           heading: "Regionale taal SEO: niet-Engelstalige shoppers bereiken",
@@ -417,6 +458,8 @@ export const ecommerceSeoIndia: BlogArticle = {
             "Implementatieopties variëren van eenvoudig tot complex. De eenvoudigste aanpak is het maken van Hindi (of andere taal) versies van je best presterende categoriepagina's en blogcontent. Gebruik hreflang-tags om Google te vertellen welke taalversie aan welke gebruikers moet worden getoond. Ambitieuzere implementaties omvatten volledig meertalige webwinkels met vertaalde productbeschrijvingen, navigatie en afrekenflows.",
             "Een cruciaal detail: vertrouw niet alleen op machinevertaling. Google Translate-output leest onnatuurlijk in Indiase talen, en Indiase gebruikers zullen het merken. Huur moedertaalsprekers in om je regionale taalcontent te schrijven of op zijn minst te beoordelen. De grammaticale structuren, spreektaal en productterminologie verschillen aanzienlijk van directe Engelse vertalingen."
           ],
+          image: { src: "/images/blog/nl/india-regional-languages.svg", alt: "Bar chart showing regional language speakers in India from Hindi to Kannada with SEO opportunity", caption: "90% of new Indian internet users search in regional languages" },
+          callout: { title: "Hindi Search Surge", text: "Hindi ecommerce queries have grown over 100% in three years. Most Indian ecommerce sites are English-only, creating a major opportunity for stores that add even basic Hindi category pages and content." },
         },
         {
           heading: "Concurreren met Flipkart en Amazon India",
@@ -437,6 +480,7 @@ export const ecommerceSeoIndia: BlogArticle = {
             "Rembours (COD) blijft een significante factor in Indiase ecommerce. Meer dan 60% van de online bestellingen in India gebruikt nog steeds COD als betaalmethode. Het vermelden van COD-beschikbaarheid op je productpagina's en in je meta descriptions kan de click-through rates voor Indiase shoppers verbeteren. Het opnemen van 'Cash on Delivery available' in je productschema als betaalmethode-eigenschap helpt Google deze informatie te begrijpen en weer te geven.",
             "UPI (Unified Payments Interface) heeft digitale betalingen in India getransformeerd. UPI-betalingen accepteren en het op je site vermelden is nu een vertrouwenssignaal. Indiase shoppers zoeken actief naar UPI-betalingsopties. Evenzo worden EMI (Equated Monthly Installment) opties op duurdere producten verwacht door Indiase consumenten. Het benadrukken van 'No-cost EMI available' op productpagina's en in gestructureerde data kan zowel SEO-zichtbaarheid als conversieratio's verbeteren."
           ],
+          image: { src: "/images/blog/nl/india-trust-signals.svg", alt: "Four categories of trust signals for Indian ecommerce: payment, social proof, authenticity, and local presence", caption: "Indian shoppers need payment, authenticity, and local presence signals before they buy" },
         },
         {
           heading: "Lokale SEO voor D2C-merken in India",
@@ -447,6 +491,8 @@ export const ecommerceSeoIndia: BlogArticle = {
             "Hyperlokale bezorging is een onderscheidende factor geworden in Indiase ecommerce. Merken die bezorging op dezelfde dag of de volgende dag aanbieden in specifieke steden kunnen dit benadrukken in hun SEO. Maak content rondom bezorgsnelheid ('same day delivery in Delhi NCR', 'next day delivery Hyderabad') omdat Indiase shoppers actief zoeken naar snelle bezorgopties. Postcodes en leveringsgebied zijn zoektermen met echt volume in India.",
             "Google Maps-integratie is belangrijk voor omnichannel D2C-merken. Wanneer iemand zoekt naar je merknaam + een stad, toont Google vaak een Maps-resultaat. Het hebben van nauwkeurige Google Business Profiles zorgt ervoor dat je daar verschijnt. We hebben D2C-merken gezien waar 15 tot 20% van hun totale online ontdekking komt via Google Maps en lokale zoekresultaten."
           ],
+          image: { src: "/images/blog/nl/india-d2c-local-seo.svg", alt: "Local SEO strategy for D2C brands in India covering Google Business, city pages, delivery speed, and Maps optimization", caption: "D2C brands with physical touchpoints see 15-20% of online discovery through Maps and local search" },
+          callout: { title: "Hyperlocal Delivery SEO", text: "Indian shoppers actively search for fast delivery options by city. Creating content around 'same day delivery in Delhi NCR' and pin code serviceability captures genuine search volume that most competitors ignore." },
         },
         {
           heading: "Technische SEO-overwegingen specifiek voor India",
@@ -458,6 +504,8 @@ export const ecommerceSeoIndia: BlogArticle = {
             "India's internetregelgeving rond datalokalisatie en privacy (de Digital Personal Data Protection Act aangenomen in 2023) kan beïnvloeden hoe je gebruikersgegevens, analytics en personalisatie afhandelt. Hoewel dit niet direct van invloed is op SEO, voorkomt naleving juridische risico's die je online operaties kunnen verstoren. Sla persoonlijke gegevens van Indiase gebruikers op servers in India op als je gebruikersbasis voornamelijk Indiaas is.",
             "Spraakgestuurd zoeken groeit snel in India, aangedreven door Google Assistant-integratie in betaalbare smartphones. Veel Indiase gebruikers geven de voorkeur aan het inspreken van zoekquery's in Hindi of regionale talen in plaats van in het Engels te typen. Optimaliseren voor spraakgestuurd zoeken betekent het targeten van natuurlijke, conversationele query's en het structureren van je FAQ-content zodat het overeenkomt met hoe mensen daadwerkelijk praten. Query's zoals 'best water purifier for borewell water' weerspiegelen hoe Indiase consumenten spraakgestuurd zoeken gebruiken om producten te vinden die specifieke lokale problemen oplossen. Voor winkels die contentrijke productcategorieën verkopen, behandelt onze gids over [ecommerce SEO content](/blog/ecommerce-seo-content) hoe je content bouwt die zowel getypte als spraakgestuurde query's opvangt."
           ],
+          image: { src: "/images/blog/nl/india-technical-seo-checklist.svg", alt: "India-specific technical SEO checklist covering performance, multilingual, structured data, and infrastructure requirements", caption: "Achieving good Core Web Vitals in India requires extra effort due to device and network conditions" },
+          callout: { title: "Voice Search Is Rising", text: "Many Indian users prefer speaking queries in Hindi or regional languages rather than typing in English. Optimize for natural-language, conversational queries and structure FAQ content to match how people actually speak." },
         },
       ],
     },

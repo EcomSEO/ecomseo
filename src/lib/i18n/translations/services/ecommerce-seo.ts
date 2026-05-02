@@ -5,7 +5,7 @@ export const ecommerceSeoData: Record<Locale, ServicePageProps> = {
   en: {
     hero: {
       badge: "Ecommerce SEO",
-      heading: "Ecommerce SEO Services That\u200BGrow Revenue - Not Just Traffic",
+      heading: "Ecommerce SEO Services That Grow Revenue - Not Just Traffic",
       subtitle: "Most agencies chase vanity metrics. We chase sales. If your store gets visitors but not buyers, you don\u2019t have an SEO problem - you have a growth strategy problem. We fix both.",
       ctaText: "Book a Free Strategy Call",
     },
@@ -192,7 +192,7 @@ export const ecommerceSeoData: Record<Locale, ServicePageProps> = {
           name: "Fabian van Til",
           role: "Strategy & Innovation",
           bio: "Fabian runs the SEO strategy for every client. 8 years of ecommerce-only SEO across fashion, health, beauty, toys, and electronics. He built the Commerce Growth Framework\u2122 that has driven $12M+ in organic revenue for clients.",
-          image: "/images/framer/C23VbBxvj2kY5TMoXAJHXWVLaA.webp",
+          image: "/images/framer/fabian-van-til-new.jpeg",
           linkedin: "https://www.linkedin.com/in/fabianvantil/",
         },
         teamMembers: [
@@ -201,7 +201,7 @@ export const ecommerceSeoData: Record<Locale, ServicePageProps> = {
             role: "Technical & On-Page SEO",
             bio: "Dimitar handles technical and on-page SEO for ecommerce stores of all sizes. He works on crawl optimization for large catalogs, structured data at scale, Core Web Vitals, and site architecture for stores with 500-100,000+ SKUs. He also builds the free SEO tools on this site.",
             image: "/images/framer/Q3tfuu2ytPAotONsFoP1ouyPZic.png",
-            linkedin: "https://www.linkedin.com/in/dimitar-georgiev-seo/",
+            linkedin: "https://bg.linkedin.com/in/dimitar-georgiev-seo-expert",
           },
           {
             name: "Martinijan Trajkovski",
@@ -243,7 +243,7 @@ export const ecommerceSeoData: Record<Locale, ServicePageProps> = {
         { question: "How long does it take to see results?", answer: "3-6 months for measurable uplifts. 6-12 months for market dominance. Technical fixes can show impact within weeks, while content and authority building compound over time." },
         { question: "What platforms do you work with?", answer: "Shopify, WooCommerce, Magento, BigCommerce, Lightspeed, Adobe Commerce - we\u2019ve ranked stores on every major ecommerce platform. Our strategies are platform-agnostic but our implementation is platform-specific." },
         { question: "What makes your approach different from other SEO agencies?", answer: "We only work with ecommerce. Every playbook, every template, every audit is built for product catalogs and revenue - not blog traffic. We measure success in revenue attribution, not just keyword rankings. See our [ecommerce SEO strategy framework](/blog/ecommerce-seo-strategy) for more on our methodology." },
-        { question: "Do you offer a free audit?", answer: "Yes. We offer a complimentary ecommerce SEO audit that identifies your biggest opportunities and technical issues. Learn more about [what an ecommerce SEO audit covers](/blog/ecommerce-seo-audit), then book a call and we\u2019ll show you exactly what\u2019s holding your store back." },
+        { question: "Do you offer a free audit?", answer: "Yes. We offer a complimentary ecommerce SEO audit that identifies your biggest opportunities and technical issues. Learn more about [what an ecommerce SEO audit covers](/blog/how-to-make-ecommerce-seo-audit), then book a call and we\u2019ll show you exactly what\u2019s holding your store back." },
       ],
       miniCta: {
         heading: "Ready to 2-4\u00D7 Your Ecommerce Revenue?",
@@ -316,7 +316,7 @@ export const ecommerceSeoData: Record<Locale, ServicePageProps> = {
         { question: "Wie lange dauert es, bis man Ergebnisse sieht?", answer: "3-6 Monate f\u00fcr messbare Verbesserungen. 6-12 Monate f\u00fcr Marktdominanz. Technische Fixes k\u00f6nnen innerhalb von Wochen Wirkung zeigen, w\u00e4hrend Content und Autorit\u00e4tsaufbau sich \u00fcber die Zeit potenzieren." },
         { question: "Mit welchen Plattformen arbeiten Sie?", answer: "Shopify, WooCommerce, Magento, BigCommerce, Lightspeed, Adobe Commerce - wir haben Shops auf jeder gro\u00dfen E-Commerce-Plattform gerankt. Unsere Strategien sind plattformunabh\u00e4ngig, aber unsere Umsetzung ist plattformspezifisch." },
         { question: "Was unterscheidet Ihren Ansatz von anderen SEO-Agenturen?", answer: "Wir arbeiten ausschlie\u00dflich mit E-Commerce. Jedes Playbook, jede Vorlage, jedes Audit ist f\u00fcr Produktkataloge und Umsatz gebaut - nicht f\u00fcr Blog-Traffic. Wir messen Erfolg an Umsatzzuordnung, nicht nur an Keyword-Rankings. Sehen Sie unser [E-Commerce-SEO-Strategie-Framework](/blog/ecommerce-seo-strategy) f\u00fcr mehr zu unserer Methodik." },
-        { question: "Bieten Sie ein kostenloses Audit an?", answer: "Ja. Wir bieten ein kostenloses E-Commerce-SEO-Audit, das Ihre gr\u00f6\u00dften Chancen und technischen Probleme identifiziert. Erfahren Sie mehr dar\u00fcber, [was ein E-Commerce-SEO-Audit umfasst](/blog/ecommerce-seo-audit), dann buchen Sie ein Gespr\u00e4ch und wir zeigen Ihnen genau, was Ihren Shop zur\u00fckh\u00e4lt." },
+        { question: "Bieten Sie ein kostenloses Audit an?", answer: "Ja. Wir bieten ein kostenloses E-Commerce-SEO-Audit, das Ihre gr\u00f6\u00dften Chancen und technischen Probleme identifiziert. Erfahren Sie mehr dar\u00fcber, [was ein E-Commerce-SEO-Audit umfasst](/blog/how-to-make-ecommerce-seo-audit), dann buchen Sie ein Gespr\u00e4ch und wir zeigen Ihnen genau, was Ihren Shop zur\u00fckh\u00e4lt." },
       ],
       miniCta: {
         heading: "Bereit, Ihren E-Commerce-Umsatz zu verdoppeln bis vervierfachen?",
@@ -389,7 +389,7 @@ export const ecommerceSeoData: Record<Locale, ServicePageProps> = {
         { question: "Combien de temps faut-il pour voir des r\u00e9sultats ?", answer: "3 \u00e0 6 mois pour des am\u00e9liorations mesurables. 6 \u00e0 12 mois pour la domination du march\u00e9. Les corrections techniques peuvent montrer leur impact en quelques semaines, tandis que le contenu et la construction d\u2019autorit\u00e9 se composent au fil du temps." },
         { question: "Avec quelles plateformes travaillez-vous ?", answer: "Shopify, WooCommerce, Magento, BigCommerce, Lightspeed, Adobe Commerce - nous avons positionn\u00e9 des boutiques sur toutes les grandes plateformes e-commerce. Nos strat\u00e9gies sont agnostiques de plateforme, mais notre mise en \u0153uvre est sp\u00e9cifique \u00e0 chaque plateforme." },
         { question: "Qu\u2019est-ce qui diff\u00e9rencie votre approche des autres agences SEO ?", answer: "Nous travaillons exclusivement avec le e-commerce. Chaque playbook, chaque template, chaque audit est con\u00e7u pour les catalogues produits et le chiffre d\u2019affaires - pas pour le trafic de blog. Nous mesurons le succ\u00e8s en attribution de revenus, pas seulement en classements de mots-cl\u00e9s. Consultez notre [framework de strat\u00e9gie SEO ecommerce](/blog/ecommerce-seo-strategy) pour en savoir plus sur notre m\u00e9thodologie." },
-        { question: "Proposez-vous un audit gratuit ?", answer: "Oui. Nous proposons un audit SEO e-commerce gratuit qui identifie vos plus grandes opportunit\u00e9s et probl\u00e8mes techniques. D\u00e9couvrez [ce que couvre un audit SEO ecommerce](/blog/ecommerce-seo-audit), puis r\u00e9servez un appel et nous vous montrerons exactement ce qui freine votre boutique." },
+        { question: "Proposez-vous un audit gratuit ?", answer: "Oui. Nous proposons un audit SEO e-commerce gratuit qui identifie vos plus grandes opportunit\u00e9s et probl\u00e8mes techniques. D\u00e9couvrez [ce que couvre un audit SEO ecommerce](/blog/how-to-make-ecommerce-seo-audit), puis r\u00e9servez un appel et nous vous montrerons exactement ce qui freine votre boutique." },
       ],
       miniCta: {
         heading: "Pr\u00eat \u00e0 multiplier par 2 \u00e0 4 votre chiffre d\u2019affaires e-commerce ?",
@@ -462,7 +462,7 @@ export const ecommerceSeoData: Record<Locale, ServicePageProps> = {
         { question: "\u00bfCu\u00e1nto tiempo se tarda en ver resultados?", answer: "3 a 6 meses para mejoras medibles. 6 a 12 meses para liderar tu mercado. Las correcciones t\u00e9cnicas pueden mostrar impacto en semanas, mientras que el contenido y la construcci\u00f3n de autoridad se componen con el tiempo." },
         { question: "\u00bfCon qu\u00e9 plataformas trabajan?", answer: "Shopify, WooCommerce, Magento, BigCommerce, Lightspeed, Adobe Commerce - hemos posicionado tiendas en todas las grandes plataformas de e-commerce. Nuestras estrategias son agn\u00f3sticas de plataforma, pero nuestra implementaci\u00f3n es espec\u00edfica para cada una." },
         { question: "\u00bfQu\u00e9 diferencia su enfoque de otras agencias SEO?", answer: "Solo trabajamos con e-commerce. Cada playbook, cada plantilla, cada auditor\u00eda est\u00e1 dise\u00f1ada para cat\u00e1logos de productos e ingresos - no para tr\u00e1fico de blog. Medimos el \u00e9xito en atribuci\u00f3n de ingresos, no solo en rankings de palabras clave. Consulta nuestro [framework de estrategia SEO ecommerce](/blog/ecommerce-seo-strategy) para m\u00e1s sobre nuestra metodolog\u00eda." },
-        { question: "\u00bfOfrecen una auditor\u00eda gratuita?", answer: "S\u00ed. Ofrecemos una auditor\u00eda SEO e-commerce gratuita que identifica tus mayores oportunidades y problemas t\u00e9cnicos. Descubre [qu\u00e9 cubre una auditor\u00eda SEO ecommerce](/blog/ecommerce-seo-audit), luego reserva una llamada y te mostraremos exactamente qu\u00e9 est\u00e1 frenando tu tienda." },
+        { question: "\u00bfOfrecen una auditor\u00eda gratuita?", answer: "S\u00ed. Ofrecemos una auditor\u00eda SEO e-commerce gratuita que identifica tus mayores oportunidades y problemas t\u00e9cnicos. Descubre [qu\u00e9 cubre una auditor\u00eda SEO ecommerce](/blog/how-to-make-ecommerce-seo-audit), luego reserva una llamada y te mostraremos exactamente qu\u00e9 est\u00e1 frenando tu tienda." },
       ],
       miniCta: {
         heading: "\u00bfListo para multiplicar por 2-4x tus ingresos e-commerce?",
@@ -535,7 +535,7 @@ export const ecommerceSeoData: Record<Locale, ServicePageProps> = {
         { question: "Quanto tempo ci vuole per vedere i risultati?", answer: "3-6 mesi per miglioramenti misurabili. 6-12 mesi per una posizione di leadership nel mercato. Le correzioni tecniche possono mostrare impatto in poche settimane, mentre il contenuto e la costruzione di autorit\u00e0 si compongono nel tempo." },
         { question: "Con quali piattaforme lavorate?", answer: "Shopify, WooCommerce, Magento, BigCommerce, Lightspeed, Adobe Commerce - abbiamo posizionato negozi su ogni grande piattaforma e-commerce. Le nostre strategie sono agnostiche rispetto alla piattaforma, ma la nostra implementazione \u00e8 specifica per ciascuna." },
         { question: "Cosa rende il vostro approccio diverso dalle altre agenzie SEO?", answer: "Lavoriamo esclusivamente con l\u2019e-commerce. Ogni playbook, ogni template, ogni audit \u00e8 costruito per cataloghi prodotto e fatturato - non per traffico da blog. Misuriamo il successo in attribuzione di fatturato, non solo in posizionamenti di keyword. Consulta il nostro [framework di strategia SEO ecommerce](/blog/ecommerce-seo-strategy) per saperne di pi\u00f9 sulla nostra metodologia." },
-        { question: "Offrite un audit gratuito?", answer: "S\u00ec. Offriamo un audit SEO e-commerce gratuito che identifica le tue pi\u00f9 grandi opportunit\u00e0 e i problemi tecnici. Scopri [cosa copre un audit SEO ecommerce](/blog/ecommerce-seo-audit), poi prenota una call e ti mostreremo esattamente cosa sta frenando il tuo negozio." },
+        { question: "Offrite un audit gratuito?", answer: "S\u00ec. Offriamo un audit SEO e-commerce gratuito che identifica le tue pi\u00f9 grandi opportunit\u00e0 e i problemi tecnici. Scopri [cosa copre un audit SEO ecommerce](/blog/how-to-make-ecommerce-seo-audit), poi prenota una call e ti mostreremo esattamente cosa sta frenando il tuo negozio." },
       ],
       miniCta: {
         heading: "Pronto a moltiplicare per 2-4x il tuo fatturato e-commerce?",
@@ -608,7 +608,7 @@ export const ecommerceSeoData: Record<Locale, ServicePageProps> = {
         { question: "Hoe lang duurt het voordat ik resultaten zie?", answer: "3-6 maanden voor meetbare verbeteringen. 6-12 maanden voor marktdominantie. Technische fixes kunnen binnen weken impact tonen, terwijl content en autoriteitsopbouw zich in de loop van de tijd versterken." },
         { question: "Met welke platforms werken jullie?", answer: "Shopify, WooCommerce, Magento, BigCommerce, Lightspeed, Adobe Commerce - we hebben webshops op elk groot e-commerce-platform laten ranken. Onze strategie\u00ebn zijn platformonafhankelijk, maar onze implementatie is platformspecifiek." },
         { question: "Wat maakt jullie aanpak anders dan andere SEO-bureaus?", answer: "Wij werken uitsluitend met e-commerce. Elk playbook, elk template, elke audit is gebouwd voor productcatalogi en omzet - niet voor blogverkeer. We meten succes in omzetattributie, niet alleen in keyword-rankings. Bekijk ons [e-commerce SEO-strategieframework](/blog/ecommerce-seo-strategy) voor meer over onze methodiek." },
-        { question: "Bieden jullie een gratis audit aan?", answer: "Ja. We bieden een gratis e-commerce SEO-audit die je grootste kansen en technische problemen identificeert. Lees meer over [wat een e-commerce SEO-audit omvat](/blog/ecommerce-seo-audit), boek dan een gesprek en we laten je precies zien wat je webshop tegenhoudt." },
+        { question: "Bieden jullie een gratis audit aan?", answer: "Ja. We bieden een gratis e-commerce SEO-audit die je grootste kansen en technische problemen identificeert. Lees meer over [wat een e-commerce SEO-audit omvat](/blog/how-to-make-ecommerce-seo-audit), boek dan een gesprek en we laten je precies zien wat je webshop tegenhoudt." },
       ],
       miniCta: {
         heading: "Klaar om je e-commerce-omzet te verdubbelen tot verviervoudigen?",

@@ -1,0 +1,36 @@
+<svg viewBox="0 0 680 300" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <text x="340" y="28" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#a78bfa">Shopify Fixed URL Structure</text>
+  <g transform="translate(40,55)">
+    <rect x="0" y="0" width="280" height="110" rx="6" stroke="#ef4444" stroke-width="1.5" fill="none"/>
+    <text x="140" y="22" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#ef4444">Duplicate URL Problem</text>
+    <text x="14" y="48" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">/products/blue-jacket</text>
+    <text x="14" y="68" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">/collections/mens/products/blue-jacket</text>
+    <text x="14" y="88" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">/collections/winter/products/blue-jacket</text>
+    <text x="14" y="102" font-family="Arial,sans-serif" font-size="9" fill="#f97316">= 3 URLs for 1 product</text>
+  </g>
+  <g transform="translate(360,55)">
+    <rect x="0" y="0" width="280" height="110" rx="6" stroke="#4ade80" stroke-width="1.5" fill="none"/>
+    <text x="140" y="22" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#4ade80">Canonical Fix</text>
+    <text x="14" y="50" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">All variants point canonical to:</text>
+    <text x="14" y="72" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#4ade80">/products/blue-jacket</text>
+    <text x="14" y="96" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Theme links should use this URL directly</text>
+  </g>
+  <g transform="translate(40,190)">
+    <text x="0" y="0" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#60a5fa">Shopify URL Patterns (Cannot Change)</text>
+    <text x="0" y="24" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Products:</text>
+    <text x="80" y="24" font-family="Arial,sans-serif" font-size="10" fill="#60a5fa">/products/{handle}</text>
+    <text x="0" y="44" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Collections:</text>
+    <text x="80" y="44" font-family="Arial,sans-serif" font-size="10" fill="#60a5fa">/collections/{handle}</text>
+    <text x="0" y="64" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Pages:</text>
+    <text x="80" y="64" font-family="Arial,sans-serif" font-size="10" fill="#60a5fa">/pages/{handle}</text>
+    <text x="0" y="84" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Blog:</text>
+    <text x="80" y="84" font-family="Arial,sans-serif" font-size="10" fill="#60a5fa">/blogs/{blog-name}/{handle}</text>
+  </g>
+  <g transform="translate(360,190)">
+    <text x="0" y="0" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#f97316">Common SEO Issues</text>
+    <text x="0" y="24" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">No subcollection URLs natively</text>
+    <text x="0" y="44" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Tag pages create duplicate content</text>
+    <text x="0" y="64" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Variant URLs need canonical attention</text>
+    <text x="0" y="84" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Blog prefix /blogs/ cannot be removed</text>
+  </g>
+</svg>

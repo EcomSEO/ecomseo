@@ -196,7 +196,7 @@ export const adobeCommerceSeoData: Record<Locale, ServicePageProps> = {
           name: "Fabian van Til",
           role: "Strategy & Innovation",
           bio: "Fabian leads SEO strategy for Adobe Commerce clients. 8 years of ecommerce-only SEO experience. He knows the Magento stack well enough to prioritize what actually matters for your store.",
-          image: "/images/framer/C23VbBxvj2kY5TMoXAJHXWVLaA.webp",
+          image: "/images/framer/fabian-van-til-new.jpeg",
           linkedin: "https://www.linkedin.com/in/fabianvantil/",
         },
         teamMembers: [
@@ -205,7 +205,7 @@ export const adobeCommerceSeoData: Record<Locale, ServicePageProps> = {
             role: "Technical & On-Page SEO",
             bio: "Dimitar handles the technical and on-page SEO side. He works on Adobe Commerce multi-store optimization, structured data, and site architecture. He also builds the free SEO tools on this site.",
             image: "/images/framer/Q3tfuu2ytPAotONsFoP1ouyPZic.png",
-            linkedin: "https://www.linkedin.com/in/dimitar-georgiev-seo/",
+            linkedin: "https://bg.linkedin.com/in/dimitar-georgiev-seo-expert",
           },
           {
             name: "Martinijan Trajkovski",
@@ -500,7 +500,7 @@ export const adobeCommerceSeoData: Record<Locale, ServicePageProps> = {
           name: "Fabian van Til",
           role: "Strategie & Innovation",
           bio: "Fabian steuert die strategische Ausrichtung aller Adobe Commerce-Projekte. Mit 8+ Jahren E-Commerce-SEO-Erfahrung in Mode, Gesundheit, Beauty und Wohnen verbindet er Wachstumsstrategie mit technischer SEO-Innovation.",
-          image: "/images/framer/C23VbBxvj2kY5TMoXAJHXWVLaA.webp",
+          image: "/images/framer/fabian-van-til-new.jpeg",
           linkedin: "https://www.linkedin.com/in/fabianvantil/",
         },
         teamMembers: [
@@ -509,7 +509,7 @@ export const adobeCommerceSeoData: Record<Locale, ServicePageProps> = {
             role: "Technisches & On-Page SEO",
             bio: "Entwickelt die technischen SEO-Grundlagen und On-Page-Optimierungen. Spezialisiert auf Adobe Commerce Multi-Store-Optimierung, Structured Data und Website-Architektur. Baut die kostenlosen SEO-Tools auf dieser Seite.",
             image: "/images/framer/Q3tfuu2ytPAotONsFoP1ouyPZic.png",
-            linkedin: "https://www.linkedin.com/in/dimitar-georgiev-seo/",
+            linkedin: "https://bg.linkedin.com/in/dimitar-georgiev-seo-expert",
           },
           {
             name: "Martinijan Trajkovski",
@@ -808,7 +808,7 @@ export const adobeCommerceSeoData: Record<Locale, ServicePageProps> = {
           name: "Fabian van Til",
           role: "Strat\u00e9gie & Innovation",
           bio: "Fabian pilote tous les engagements clients. 8+ ans d\u2019exp\u00e9rience en SEO e-commerce dans la mode, la sant\u00e9, la beaut\u00e9 et la maison. Il allie strat\u00e9gie de croissance et innovation SEO technique.",
-          image: "/images/framer/C23VbBxvj2kY5TMoXAJHXWVLaA.webp",
+          image: "/images/framer/fabian-van-til-new.jpeg",
           linkedin: "https://www.linkedin.com/in/fabianvantil/",
         },
         teamMembers: [
@@ -817,7 +817,7 @@ export const adobeCommerceSeoData: Record<Locale, ServicePageProps> = {
             role: "SEO technique & On-Page",
             bio: "Architecte les fondations SEO techniques et on-page. Sp\u00e9cialis\u00e9 dans l\u2019optimisation multi-boutiques Adobe Commerce, les donn\u00e9es structur\u00e9es et l\u2019architecture de site. D\u00e9veloppe les outils SEO gratuits de ce site.",
             image: "/images/framer/Q3tfuu2ytPAotONsFoP1ouyPZic.png",
-            linkedin: "https://www.linkedin.com/in/dimitar-georgiev-seo/",
+            linkedin: "https://bg.linkedin.com/in/dimitar-georgiev-seo-expert",
           },
           {
             name: "Martinijan Trajkovski",
@@ -1114,7 +1114,7 @@ export const adobeCommerceSeoData: Record<Locale, ServicePageProps> = {
           name: "Fabian van Til",
           role: "Estrategia e Innovaci\u00f3n",
           bio: "Fabian dirige la estrategia de todos los proyectos. 8+ a\u00f1os de experiencia en SEO para e-commerce en moda, salud, belleza y hogar. Combina estrategia de crecimiento con innovaci\u00f3n SEO t\u00e9cnica.",
-          image: "/images/framer/C23VbBxvj2kY5TMoXAJHXWVLaA.webp",
+          image: "/images/framer/fabian-van-til-new.jpeg",
           linkedin: "https://www.linkedin.com/in/fabianvantil/",
         },
         teamMembers: [
@@ -1123,7 +1123,7 @@ export const adobeCommerceSeoData: Record<Locale, ServicePageProps> = {
             role: "SEO T\u00e9cnico & On-Page",
             bio: "Arquitecta las bases del SEO t\u00e9cnico y on-page. Especializado en optimizaci\u00f3n multi-tienda Adobe Commerce, datos estructurados y arquitectura web. Desarrolla las herramientas SEO gratuitas de este sitio.",
             image: "/images/framer/Q3tfuu2ytPAotONsFoP1ouyPZic.png",
-            linkedin: "https://www.linkedin.com/in/dimitar-georgiev-seo/",
+            linkedin: "https://bg.linkedin.com/in/dimitar-georgiev-seo-expert",
           },
           {
             name: "Martinijan Trajkovski",
@@ -1422,7 +1422,7 @@ export const adobeCommerceSeoData: Record<Locale, ServicePageProps> = {
           name: "Fabian van Til",
           role: "Strategia & Innovazione",
           bio: "Fabian definisce la strategia di ogni incarico. 8+ anni di esperienza SEO e-commerce nei settori moda, salute, bellezza e casa. Unisce strategia di crescita e innovazione SEO tecnica.",
-          image: "/images/framer/C23VbBxvj2kY5TMoXAJHXWVLaA.webp",
+          image: "/images/framer/fabian-van-til-new.jpeg",
           linkedin: "https://www.linkedin.com/in/fabianvantil/",
         },
         teamMembers: [
@@ -1431,7 +1431,7 @@ export const adobeCommerceSeoData: Record<Locale, ServicePageProps> = {
             role: "SEO tecnico & On-Page",
             bio: "Dimitar progetta le fondamenta del SEO tecnico e on-page. Specializzato in ottimizzazione multi-store Adobe Commerce, dati strutturati e architettura del sito. Sviluppa gli strumenti SEO gratuiti su questo sito.",
             image: "/images/framer/Q3tfuu2ytPAotONsFoP1ouyPZic.png",
-            linkedin: "https://www.linkedin.com/in/dimitar-georgiev-seo/",
+            linkedin: "https://bg.linkedin.com/in/dimitar-georgiev-seo-expert",
           },
           {
             name: "Martinijan Trajkovski",
@@ -1727,7 +1727,7 @@ export const adobeCommerceSeoData: Record<Locale, ServicePageProps> = {
           name: "Fabian van Til",
           role: "Strategie & Innovatie",
           bio: "Fabian leidt de strategische richting voor alle klantprojecten. Met 8+ jaar e-commerce SEO-ervaring in mode, gezondheid, beauty en wonen combineert hij groeistrategie met technische SEO-innovatie.",
-          image: "/images/framer/C23VbBxvj2kY5TMoXAJHXWVLaA.webp",
+          image: "/images/framer/fabian-van-til-new.jpeg",
           linkedin: "https://www.linkedin.com/in/fabianvantil/",
         },
         teamMembers: [
@@ -1736,7 +1736,7 @@ export const adobeCommerceSeoData: Record<Locale, ServicePageProps> = {
             role: "Technisch & On-Page SEO",
             bio: "Dimitar ontwerpt de technische SEO-fundamenten en on-page optimalisaties. Hij is gespecialiseerd in Adobe Commerce multi-store optimalisatie, gestructureerde data en site-architectuur, en bouwt de gratis SEO-tools op deze site.",
             image: "/images/framer/Q3tfuu2ytPAotONsFoP1ouyPZic.png",
-            linkedin: "https://www.linkedin.com/in/dimitar-georgiev-seo/",
+            linkedin: "https://bg.linkedin.com/in/dimitar-georgiev-seo-expert",
           },
           {
             name: "Martinijan Trajkovski",

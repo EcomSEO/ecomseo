@@ -23,7 +23,11 @@ export const brokenLinkBuilding: AcademyTopic = {
             "Mine competitor broken backlinks reports to find pages linking to 404 errors in your niche",
             "Identify defunct competitor sites whose expired links now represent opportunities"
           ],
-          tip: "Set up Ahrefs alerts for new broken backlinks on your top five competitors. When a competitor's page goes down, you will be notified immediately and can reach out to the linking sites before anyone else offers a replacement."
+          tip: "Set up Ahrefs alerts for new broken backlinks on your top five competitors. When a competitor's page goes down, you will be notified immediately and can reach out to the linking sites before anyone else offers a replacement.",
+          callout: {
+            title: "Competitor Goldmine",
+            text: "When a competitor closes their store or lets their domain expire, every backlink they earned becomes a broken link opportunity. A single defunct competitor with 200 referring domains can fuel months of outreach campaigns.",
+          },
         },
         {
           title: "Creating Replacement Content That Matches",
@@ -41,17 +45,31 @@ export const brokenLinkBuilding: AcademyTopic = {
           title: "Outreach Templates That Get Results",
           content:
             "Broken link building outreach has a higher success rate than cold outreach because you are solving a real problem. Your email notifies the webmaster of a broken link on their site and offers a working alternative, this is genuinely helpful, not self-promotional. Frame your email accordingly.\n\nThe most effective broken link outreach email follows a three-part structure. First, open with a specific, genuine compliment about the page you found the broken link on, this proves you actually visited their site. Second, point out the broken link by providing the exact URL that is returning a 404 error and describe where on their page it appears. Third, suggest your content as a replacement by explaining what it covers and why it would be a good fit for their audience.\n\nKeep the email under 120 words. Webmasters are busy and a concise, helpful email outperforms a long sales pitch every time. Do not ask for a link directly, simply suggest your page as a potential replacement and let the webmaster decide. This indirect approach feels less transactional and produces higher conversion rates. For more outreach templates and follow-up strategies, see [email outreach for links](/academy/email-outreach-for-links).\n\nAvoid sending templated emails that mention multiple broken links at once. While it might seem efficient, webmasters perceive bulk broken link notifications as automated spam. Report one specific broken link per email and keep the tone genuinely helpful. If the same page has multiple broken links, mention only the one most relevant to your content.",
+          image: {
+            src: "/images/academy/outreach-email-structure.svg",
+            alt: "Diagram showing the three-part structure of an effective broken link building outreach email",
+            caption: "The three-part email structure: genuine compliment, broken link report, and replacement suggestion. Keep under 120 words total.",
+          },
           items: [
             "Structure your email in three parts: genuine compliment, specific broken link report, and replacement suggestion",
             "Provide the exact broken URL and describe where it appears on the page",
             "Keep the total email under 120 words for maximum response rates",
             "Suggest your content as a replacement without explicitly asking for a link"
-          ]
+          ],
+          callout: {
+            title: "Higher Success Rate",
+            text: "Broken link outreach converts better than cold outreach because you are solving a real problem. One specific broken link per email outperforms bulk notifications that webmasters perceive as automated spam.",
+          },
         },
         {
           title: "Tools and Workflows for Broken Link Building",
           content:
             "Efficient broken link building requires the right tools and a systematic workflow. Without automation at the discovery stage, the process is too slow to generate meaningful results for an ecommerce site.\n\nAhrefs is the primary tool for broken link building at scale. The Content Explorer feature lets you find pages in your niche that no longer exist by searching for relevant keywords and filtering for 404 pages. The Broken Backlinks report shows you exactly which pages link to dead content in your topic area, along with the anchor text and domain rating of each linking page.\n\nFor on-page scanning, the Check My Links Chrome extension highlights broken links on any page you visit, making manual prospecting faster. Screaming Frog can crawl entire websites and export lists of broken outbound links, which is useful when you want to systematically scan a target site's resource section.\n\nBuild a workflow around weekly prospecting sessions. Dedicate two to three hours per week to finding broken link opportunities: one hour on discovery using Ahrefs and Google operators, 30 minutes checking the Wayback Machine for the original content, and one to two hours on personalized outreach. Track every prospect in a spreadsheet with columns for the broken URL, the linking page, the webmaster's contact email, the replacement content URL, the outreach date, and the response status.\n\nBatch similar opportunities together. If you find five resource pages in your niche that all link to the same dead page, you can use one piece of replacement content and send five personalized outreach emails, maximizing the return on your content creation investment.",
+          image: {
+            src: "/images/academy/broken-link-building-workflow.svg",
+            alt: "Diagram showing the four-step broken link building workflow: find, research, create, and outreach with weekly time budget",
+            caption: "A structured weekly workflow keeps broken link building consistent. Batch similar opportunities to maximize content creation ROI.",
+          },
           items: [
             "Use Ahrefs Content Explorer to find dead pages in your niche and the sites linking to them",
             "Scan individual pages with the Check My Links Chrome extension for quick prospecting",
@@ -97,7 +115,11 @@ export const brokenLinkBuilding: AcademyTopic = {
             "Durchsuchen Sie Konkurrenz-Broken-Backlinks-Berichte nach Seiten, die auf 404-Fehler in Ihrer Nische verlinken",
             "Identifizieren Sie nicht mehr existierende Konkurrenzseiten, deren abgelaufene Links nun Chancen darstellen"
           ],
-          tip: "Richten Sie Ahrefs-Alerts fuer neue defekte Backlinks bei Ihren Top-fuenf-Konkurrenten ein. Wenn die Seite eines Konkurrenten ausfaellt, werden Sie sofort benachrichtigt und koennen die verlinkenden Seiten kontaktieren, bevor jemand anderes einen Ersatz anbietet."
+          tip: "Richten Sie Ahrefs-Alerts fuer neue defekte Backlinks bei Ihren Top-fuenf-Konkurrenten ein. Wenn die Seite eines Konkurrenten ausfaellt, werden Sie sofort benachrichtigt und koennen die verlinkenden Seiten kontaktieren, bevor jemand anderes einen Ersatz anbietet.",
+          callout: {
+            title: "Wettbewerber-Goldgrube",
+            text: "Wenn ein Wettbewerber seinen Shop schliesst oder seine Domain ablaufen laesst wird jeder Backlink den er verdient hat zu einer Broken-Link-Moeglichkeit. Ein einzelner aufgeloester Wettbewerber mit 200 verweisenden Domains kann monatelange Outreach-Kampagnen befeuern.",
+          },
         },
         {
           title: "Ersatzinhalte erstellen, die passen",
@@ -120,7 +142,16 @@ export const brokenLinkBuilding: AcademyTopic = {
             "Geben Sie die genaue defekte URL an und beschreiben Sie, wo sie auf der Seite erscheint",
             "Halten Sie die gesamte E-Mail unter 120 Woertern fuer maximale Antwortquoten",
             "Schlagen Sie Ihren Content als Ersatz vor, ohne explizit um einen Link zu bitten"
-          ]
+          ],
+          image: {
+            src: "/images/academy/de/outreach-email-structure.svg",
+            alt: "Diagramm das die dreiteilige Struktur einer effektiven Broken-Link-Building-Outreach-E-Mail zeigt",
+            caption: "Die dreiteilige E-Mail-Struktur: echtes Kompliment, Bericht ueber defekten Link und Ersatzvorschlag. Insgesamt unter 120 Woerter halten.",
+          },
+          callout: {
+            title: "Hoehere Erfolgsrate",
+            text: "Broken-Link-Outreach konvertiert besser als kalter Outreach weil Sie ein echtes Problem loesen. Ein spezifischer defekter Link pro E-Mail uebertrifft Massenbenachrichtigungen die Webmaster als automatisierten Spam wahrnehmen.",
+          },
         },
         {
           title: "Tools und Workflows fuer Broken-Link-Building",
@@ -133,7 +164,12 @@ export const brokenLinkBuilding: AcademyTopic = {
             "Widmen Sie zwei bis drei Stunden pro Woche einem strukturierten Entdeckungs-, Recherche- und Outreach-Workflow",
             "Verfolgen Sie jeden Prospect in einer Tabelle mit defekter URL, verlinkender Seite, Kontakt und Antwortstatus"
           ],
-          tip: "Erstellen Sie eine gespeicherte Suche im Ahrefs Content Explorer fuer Ihre Top-Nischen-Keywords, gefiltert nach 404-Seiten. Pruefen Sie diese gespeicherte Suche woechentlich, neue Broken-Link-Moeglichkeiten erscheinen staendig, wenn Seiten umstrukturiert werden und Seiten offline gehen."
+          tip: "Erstellen Sie eine gespeicherte Suche im Ahrefs Content Explorer fuer Ihre Top-Nischen-Keywords, gefiltert nach 404-Seiten. Pruefen Sie diese gespeicherte Suche woechentlich, neue Broken-Link-Moeglichkeiten erscheinen staendig, wenn Seiten umstrukturiert werden und Seiten offline gehen.",
+          image: {
+            src: "/images/academy/de/broken-link-building-workflow.svg",
+            alt: "Diagramm das den vierstufigen Broken-Link-Building-Workflow zeigt: Finden, Recherchieren, Erstellen und Outreach mit woechentlichem Zeitbudget",
+            caption: "Ein strukturierter woechentlicher Workflow haelt Broken-Link-Building konsistent. Aehnliche Moeglichkeiten buendeln um den Content-Erstellungs-ROI zu maximieren.",
+          },
         },
         {
           title: "Den Broken-Link-Building-Prozess skalieren",
@@ -171,7 +207,11 @@ export const brokenLinkBuilding: AcademyTopic = {
             "Exploitez les rapports de backlinks casses des concurrents pour trouver des pages liant des erreurs 404 dans votre niche",
             "Identifiez les sites concurrents defunts dont les liens expires representent desormais des opportunites"
           ],
-          tip: "Configurez des alertes Ahrefs pour les nouveaux backlinks casses de vos cinq principaux concurrents. Quand la page d'un concurrent tombe, vous serez immediatement notifie et pourrez contacter les sites liant avant que quelqu'un d'autre n'offre un remplacement."
+          tip: "Configurez des alertes Ahrefs pour les nouveaux backlinks casses de vos cinq principaux concurrents. Quand la page d'un concurrent tombe, vous serez immediatement notifie et pourrez contacter les sites liant avant que quelqu'un d'autre n'offre un remplacement.",
+          callout: {
+            title: "Wettbewerber-Goldgrube",
+            text: "Wenn ein Wettbewerber seinen Shop schliesst oder seine Domain ablaufen laesst wird jeder Backlink den er verdient hat zu einer Broken-Link-Moeglichkeit. Ein einzelner aufgeloester Wettbewerber mit 200 verweisenden Domains kann monatelange Outreach-Kampagnen befeuern.",
+          },
         },
         {
           title: "Creer du contenu de remplacement adapte",
@@ -194,7 +234,16 @@ export const brokenLinkBuilding: AcademyTopic = {
             "Fournissez l'URL cassee exacte et decrivez ou elle apparait sur la page",
             "Gardez l'email total sous 120 mots pour des taux de reponse maximaux",
             "Suggerez votre contenu comme remplacement sans demander explicitement un lien"
-          ]
+          ],
+          image: {
+            src: "/images/academy/fr/outreach-email-structure.svg",
+            alt: "Diagramm das die dreiteilige Struktur einer effektiven Broken-Link-Building-Outreach-E-Mail zeigt",
+            caption: "Die dreiteilige E-Mail-Struktur: echtes Kompliment, Bericht ueber defekten Link und Ersatzvorschlag. Insgesamt unter 120 Woerter halten.",
+          },
+          callout: {
+            title: "Hoehere Erfolgsrate",
+            text: "Broken-Link-Outreach konvertiert besser als kalter Outreach weil Sie ein echtes Problem loesen. Ein spezifischer defekter Link pro E-Mail uebertrifft Massenbenachrichtigungen die Webmaster als automatisierten Spam wahrnehmen.",
+          },
         },
         {
           title: "Outils et workflows pour le broken link building",
@@ -207,7 +256,12 @@ export const brokenLinkBuilding: AcademyTopic = {
             "Consacrez deux a trois heures par semaine a un workflow structure de decouverte, recherche et outreach",
             "Suivez chaque prospect dans un tableur avec URL cassee, page liante, contact et statut de reponse"
           ],
-          tip: "Creez une recherche sauvegardee dans Ahrefs Content Explorer pour vos mots-cles de niche filtres par pages 404. Verifiez cette recherche sauvegardee chaque semaine, de nouvelles opportunites de liens casses apparaissent constamment."
+          tip: "Creez une recherche sauvegardee dans Ahrefs Content Explorer pour vos mots-cles de niche filtres par pages 404. Verifiez cette recherche sauvegardee chaque semaine, de nouvelles opportunites de liens casses apparaissent constamment.",
+          image: {
+            src: "/images/academy/fr/broken-link-building-workflow.svg",
+            alt: "Diagramm das den vierstufigen Broken-Link-Building-Workflow zeigt: Finden, Recherchieren, Erstellen und Outreach mit woechentlichem Zeitbudget",
+            caption: "Ein strukturierter woechentlicher Workflow haelt Broken-Link-Building konsistent. Aehnliche Moeglichkeiten buendeln um den Content-Erstellungs-ROI zu maximieren.",
+          },
         },
         {
           title: "Mettre a l'echelle le processus de broken link building",
@@ -245,7 +299,11 @@ export const brokenLinkBuilding: AcademyTopic = {
             "Explora informes de broken backlinks de competidores para encontrar paginas enlazando errores 404 en tu nicho",
             "Identifica sitios competidores desaparecidos cuyos enlaces expirados ahora representan oportunidades"
           ],
-          tip: "Configura alertas de Ahrefs para nuevos backlinks rotos en tus cinco principales competidores. Cuando la pagina de un competidor cae, seras notificado inmediatamente y podras contactar los sitios enlazantes antes de que alguien mas ofrezca un reemplazo."
+          tip: "Configura alertas de Ahrefs para nuevos backlinks rotos en tus cinco principales competidores. Cuando la pagina de un competidor cae, seras notificado inmediatamente y podras contactar los sitios enlazantes antes de que alguien mas ofrezca un reemplazo.",
+          callout: {
+            title: "Wettbewerber-Goldgrube",
+            text: "Wenn ein Wettbewerber seinen Shop schliesst oder seine Domain ablaufen laesst wird jeder Backlink den er verdient hat zu einer Broken-Link-Moeglichkeit. Ein einzelner aufgeloester Wettbewerber mit 200 verweisenden Domains kann monatelange Outreach-Kampagnen befeuern.",
+          },
         },
         {
           title: "Crear contenido de reemplazo que encaje",
@@ -268,7 +326,16 @@ export const brokenLinkBuilding: AcademyTopic = {
             "Proporciona la URL rota exacta y describe donde aparece en la pagina",
             "Manten el email total bajo 120 palabras para tasas de respuesta maximas",
             "Sugiere tu contenido como reemplazo sin pedir explicitamente un enlace"
-          ]
+          ],
+          image: {
+            src: "/images/academy/es/outreach-email-structure.svg",
+            alt: "Diagramm das die dreiteilige Struktur einer effektiven Broken-Link-Building-Outreach-E-Mail zeigt",
+            caption: "Die dreiteilige E-Mail-Struktur: echtes Kompliment, Bericht ueber defekten Link und Ersatzvorschlag. Insgesamt unter 120 Woerter halten.",
+          },
+          callout: {
+            title: "Hoehere Erfolgsrate",
+            text: "Broken-Link-Outreach konvertiert besser als kalter Outreach weil Sie ein echtes Problem loesen. Ein spezifischer defekter Link pro E-Mail uebertrifft Massenbenachrichtigungen die Webmaster als automatisierten Spam wahrnehmen.",
+          },
         },
         {
           title: "Herramientas y workflows para broken link building",
@@ -281,7 +348,12 @@ export const brokenLinkBuilding: AcademyTopic = {
             "Dedica dos a tres horas semanales a un workflow estructurado de descubrimiento, investigacion y outreach",
             "Rastrea cada prospecto en una hoja de calculo con URL rota, pagina enlazante, contacto y estado de respuesta"
           ],
-          tip: "Crea una busqueda guardada en Ahrefs Content Explorer para tus keywords de nicho filtrados por paginas 404. Revisa esta busqueda guardada semanalmente, nuevas oportunidades de broken links aparecen constantemente a medida que los sitios se reestructuran."
+          tip: "Crea una busqueda guardada en Ahrefs Content Explorer para tus keywords de nicho filtrados por paginas 404. Revisa esta busqueda guardada semanalmente, nuevas oportunidades de broken links aparecen constantemente a medida que los sitios se reestructuran.",
+          image: {
+            src: "/images/academy/es/broken-link-building-workflow.svg",
+            alt: "Diagramm das den vierstufigen Broken-Link-Building-Workflow zeigt: Finden, Recherchieren, Erstellen und Outreach mit woechentlichem Zeitbudget",
+            caption: "Ein strukturierter woechentlicher Workflow haelt Broken-Link-Building konsistent. Aehnliche Moeglichkeiten buendeln um den Content-Erstellungs-ROI zu maximieren.",
+          },
         },
         {
           title: "Escalar el proceso de broken link building",
@@ -319,7 +391,11 @@ export const brokenLinkBuilding: AcademyTopic = {
             "Esplora i report di broken backlinks dei concorrenti per trovare pagine che linkano errori 404 nella tua nicchia",
             "Identifica siti concorrenti defunti i cui link scaduti rappresentano ora opportunita"
           ],
-          tip: "Imposta avvisi Ahrefs per nuovi backlink rotti sui tuoi cinque principali concorrenti. Quando la pagina di un concorrente va giu, sarai notificato immediatamente e potrai contattare i siti linkanti prima che qualcun altro offra un sostituto."
+          tip: "Imposta avvisi Ahrefs per nuovi backlink rotti sui tuoi cinque principali concorrenti. Quando la pagina di un concorrente va giu, sarai notificato immediatamente e potrai contattare i siti linkanti prima che qualcun altro offra un sostituto.",
+          callout: {
+            title: "Wettbewerber-Goldgrube",
+            text: "Wenn ein Wettbewerber seinen Shop schliesst oder seine Domain ablaufen laesst wird jeder Backlink den er verdient hat zu einer Broken-Link-Moeglichkeit. Ein einzelner aufgeloester Wettbewerber mit 200 verweisenden Domains kann monatelange Outreach-Kampagnen befeuern.",
+          },
         },
         {
           title: "Creare contenuti sostitutivi che corrispondano",
@@ -342,7 +418,16 @@ export const brokenLinkBuilding: AcademyTopic = {
             "Fornisci l'URL rotto esatto e descrivi dove appare sulla pagina",
             "Mantieni l'email totale sotto le 120 parole per tassi di risposta massimi",
             "Suggerisci il tuo contenuto come sostituto senza chiedere esplicitamente un link"
-          ]
+          ],
+          image: {
+            src: "/images/academy/it/outreach-email-structure.svg",
+            alt: "Diagramm das die dreiteilige Struktur einer effektiven Broken-Link-Building-Outreach-E-Mail zeigt",
+            caption: "Die dreiteilige E-Mail-Struktur: echtes Kompliment, Bericht ueber defekten Link und Ersatzvorschlag. Insgesamt unter 120 Woerter halten.",
+          },
+          callout: {
+            title: "Hoehere Erfolgsrate",
+            text: "Broken-Link-Outreach konvertiert besser als kalter Outreach weil Sie ein echtes Problem loesen. Ein spezifischer defekter Link pro E-Mail uebertrifft Massenbenachrichtigungen die Webmaster als automatisierten Spam wahrnehmen.",
+          },
         },
         {
           title: "Strumenti e workflow per il broken link building",
@@ -355,7 +440,12 @@ export const brokenLinkBuilding: AcademyTopic = {
             "Dedica due-tre ore a settimana a un workflow strutturato di scoperta, ricerca e outreach",
             "Traccia ogni prospect in un foglio di calcolo con URL rotto, pagina linkante, contatto e stato risposta"
           ],
-          tip: "Crea una ricerca salvata in Ahrefs Content Explorer per le tue keyword di nicchia filtrate per pagine 404. Controlla questa ricerca salvata settimanalmente, nuove opportunita di broken link appaiono costantemente man mano che i siti si ristrutturano."
+          tip: "Crea una ricerca salvata in Ahrefs Content Explorer per le tue keyword di nicchia filtrate per pagine 404. Controlla questa ricerca salvata settimanalmente, nuove opportunita di broken link appaiono costantemente man mano che i siti si ristrutturano.",
+          image: {
+            src: "/images/academy/it/broken-link-building-workflow.svg",
+            alt: "Diagramm das den vierstufigen Broken-Link-Building-Workflow zeigt: Finden, Recherchieren, Erstellen und Outreach mit woechentlichem Zeitbudget",
+            caption: "Ein strukturierter woechentlicher Workflow haelt Broken-Link-Building konsistent. Aehnliche Moeglichkeiten buendeln um den Content-Erstellungs-ROI zu maximieren.",
+          },
         },
         {
           title: "Scalare il processo di broken link building",
@@ -393,7 +483,11 @@ export const brokenLinkBuilding: AcademyTopic = {
             "Doorzoek broken backlinks-rapporten van concurrenten om pagina's te vinden die naar 404-fouten linken in je niche",
             "Identificeer ter ziele gegane concurrentsites wiens verlopen links nu kansen vertegenwoordigen"
           ],
-          tip: "Stel Ahrefs-alerts in voor nieuwe gebroken backlinks bij je top vijf concurrenten. Wanneer een pagina van een concurrent uitvalt, word je onmiddellijk op de hoogte gesteld en kun je de linkende sites benaderen voordat iemand anders een vervanging aanbiedt."
+          tip: "Stel Ahrefs-alerts in voor nieuwe gebroken backlinks bij je top vijf concurrenten. Wanneer een pagina van een concurrent uitvalt, word je onmiddellijk op de hoogte gesteld en kun je de linkende sites benaderen voordat iemand anders een vervanging aanbiedt.",
+          callout: {
+            title: "Wettbewerber-Goldgrube",
+            text: "Wenn ein Wettbewerber seinen Shop schliesst oder seine Domain ablaufen laesst wird jeder Backlink den er verdient hat zu einer Broken-Link-Moeglichkeit. Ein einzelner aufgeloester Wettbewerber mit 200 verweisenden Domains kann monatelange Outreach-Kampagnen befeuern.",
+          },
         },
         {
           title: "Vervangingscontent creeren die past",
@@ -416,7 +510,16 @@ export const brokenLinkBuilding: AcademyTopic = {
             "Geef de exacte gebroken URL en beschrijf waar deze op de pagina verschijnt",
             "Houd de totale e-mail onder 120 woorden voor maximale responspercentages",
             "Stel je content voor als vervanging zonder expliciet om een link te vragen"
-          ]
+          ],
+          image: {
+            src: "/images/academy/nl/outreach-email-structure.svg",
+            alt: "Diagramm das die dreiteilige Struktur einer effektiven Broken-Link-Building-Outreach-E-Mail zeigt",
+            caption: "Die dreiteilige E-Mail-Struktur: echtes Kompliment, Bericht ueber defekten Link und Ersatzvorschlag. Insgesamt unter 120 Woerter halten.",
+          },
+          callout: {
+            title: "Hoehere Erfolgsrate",
+            text: "Broken-Link-Outreach konvertiert besser als kalter Outreach weil Sie ein echtes Problem loesen. Ein spezifischer defekter Link pro E-Mail uebertrifft Massenbenachrichtigungen die Webmaster als automatisierten Spam wahrnehmen.",
+          },
         },
         {
           title: "Tools en workflows voor broken link building",
@@ -429,7 +532,12 @@ export const brokenLinkBuilding: AcademyTopic = {
             "Besteed twee tot drie uur per week aan een gestructureerde workflow van ontdekking, onderzoek en outreach",
             "Volg elk prospect in een spreadsheet met gebroken URL, linkende pagina, contact en responsstatus"
           ],
-          tip: "Maak een opgeslagen zoekopdracht in Ahrefs Content Explorer voor je top niche-zoekwoorden gefilterd op 404-pagina's. Controleer deze opgeslagen zoekopdracht wekelijks, nieuwe broken link-kansen verschijnen voortdurend naarmate sites herstructureren."
+          tip: "Maak een opgeslagen zoekopdracht in Ahrefs Content Explorer voor je top niche-zoekwoorden gefilterd op 404-pagina's. Controleer deze opgeslagen zoekopdracht wekelijks, nieuwe broken link-kansen verschijnen voortdurend naarmate sites herstructureren.",
+          image: {
+            src: "/images/academy/nl/broken-link-building-workflow.svg",
+            alt: "Diagramm das den vierstufigen Broken-Link-Building-Workflow zeigt: Finden, Recherchieren, Erstellen und Outreach mit woechentlichem Zeitbudget",
+            caption: "Ein strukturierter woechentlicher Workflow haelt Broken-Link-Building konsistent. Aehnliche Moeglichkeiten buendeln um den Content-Erstellungs-ROI zu maximieren.",
+          },
         },
         {
           title: "Het broken link building-proces opschalen",

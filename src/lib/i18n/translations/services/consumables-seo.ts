@@ -121,7 +121,7 @@ export const consumablesSeoData: Record<Locale, ServicePageProps> = {
             number: "01",
             title: "Optimize for Subscription Keywords",
             body: "Subscription-related searches (subscribe and save, monthly delivery, auto-ship) signal high LTV intent. Create dedicated landing pages and optimize product pages for these terms to capture shoppers ready to commit to recurring purchases.",
-            href: "/academy/on-page-seo-for-ecommerce",
+            href: "/academy/product-page-seo",
             hrefLabel: "On-page SEO guide",
           },
           {
@@ -196,7 +196,7 @@ export const consumablesSeoData: Record<Locale, ServicePageProps> = {
           name: "Fabian van Til",
           role: "Strategy & Innovation",
           bio: "Fabian leads SEO strategy for supplement and food clients. 8 years of ecommerce-only SEO with deep experience in health, supplement, food, and CPG verticals.",
-          image: "/images/framer/C23VbBxvj2kY5TMoXAJHXWVLaA.webp",
+          image: "/images/framer/fabian-van-til-new.jpeg",
           linkedin: "https://www.linkedin.com/in/fabianvantil/",
         },
         teamMembers: [
@@ -205,7 +205,7 @@ export const consumablesSeoData: Record<Locale, ServicePageProps> = {
             role: "Technical & On-Page SEO",
             bio: "Dimitar handles the technical and on-page SEO for supplement and food brands. He works on subscription page optimization, structured data for health products, and site architecture. He also builds the free SEO tools on this site.",
             image: "/images/framer/Q3tfuu2ytPAotONsFoP1ouyPZic.png",
-            linkedin: "https://www.linkedin.com/in/dimitar-georgiev-seo/",
+            linkedin: "https://bg.linkedin.com/in/dimitar-georgiev-seo-expert",
           },
           {
             name: "Martinijan Trajkovski",
@@ -424,7 +424,7 @@ export const consumablesSeoData: Record<Locale, ServicePageProps> = {
             number: "01",
             title: "Für Abo-Keywords optimieren",
             body: "Abo-bezogene Suchanfragen (Spar-Abo, monatliche Lieferung, automatische Nachbestellung) signalisieren hohen LTV. Erstellen Sie dedizierte Landingpages und optimieren Sie Produktseiten für diese Begriffe, um Käufer zu erfassen, die bereit sind, sich für wiederkehrende Käufe zu entscheiden.",
-            href: "/academy/on-page-seo-for-ecommerce",
+            href: "/academy/product-page-seo",
             hrefLabel: "On-Page-SEO-Leitfaden",
           },
           {
@@ -499,7 +499,7 @@ export const consumablesSeoData: Record<Locale, ServicePageProps> = {
           name: "Fabian van Til",
           role: "Strategie & Innovation",
           bio: "Fabian leitet alle Consumables-SEO-Projekte. Mit 8+ Jahren E-Commerce-SEO-Erfahrung in Gesundheit, Nahrungsergänzung, Lebensmittel und Verbrauchsgüter verbindet er Wachstumsstrategie mit technischer SEO-Innovation.",
-          image: "/images/framer/C23VbBxvj2kY5TMoXAJHXWVLaA.webp",
+          image: "/images/framer/fabian-van-til-new.jpeg",
           linkedin: "https://www.linkedin.com/in/fabianvantil/",
         },
         teamMembers: [
@@ -508,7 +508,7 @@ export const consumablesSeoData: Record<Locale, ServicePageProps> = {
             role: "Technisches & On-Page SEO",
             bio: "Entwickelt die technischen SEO-Grundlagen und On-Page-Optimierungen für Verbrauchsgüter-Marken. Spezialisiert auf Abo-Seiten-Optimierung, strukturierte Daten für Verbrauchsgüter und Website-Architektur. Baut die kostenlosen SEO-Tools auf dieser Seite.",
             image: "/images/framer/Q3tfuu2ytPAotONsFoP1ouyPZic.png",
-            linkedin: "https://www.linkedin.com/in/dimitar-georgiev-seo/",
+            linkedin: "https://bg.linkedin.com/in/dimitar-georgiev-seo-expert",
           },
           {
             name: "Martinijan Trajkovski",
@@ -733,7 +733,7 @@ export const consumablesSeoData: Record<Locale, ServicePageProps> = {
             number: "01",
             title: "Optimisez pour les mots-clés d\u2019abonnement",
             body: "Les recherches liées aux abonnements (abonnement économique, livraison mensuelle, envoi automatique) signalent une intention LTV élevée. Créez des pages de destination dédiées et optimisez vos pages produits pour ces termes afin de capter les acheteurs prêts à s\u2019engager dans des achats récurrents.",
-            href: "/academy/on-page-seo-for-ecommerce",
+            href: "/academy/product-page-seo",
             hrefLabel: "Guide SEO on-page",
           },
           {
@@ -808,7 +808,7 @@ export const consumablesSeoData: Record<Locale, ServicePageProps> = {
           name: "Fabian van Til",
           role: "Stratégie & Innovation",
           bio: "Fabian supervise tous les engagements clients. 8+ ans d\u2019expérience en SEO e-commerce dans les secteurs santé, compléments, alimentation et consommables. Il allie stratégie de croissance et innovation SEO technique.",
-          image: "/images/framer/C23VbBxvj2kY5TMoXAJHXWVLaA.webp",
+          image: "/images/framer/fabian-van-til-new.jpeg",
           linkedin: "https://www.linkedin.com/in/fabianvantil/",
         },
         teamMembers: [
@@ -817,7 +817,7 @@ export const consumablesSeoData: Record<Locale, ServicePageProps> = {
             role: "SEO technique & On-Page",
             bio: "Conçoit les fondations SEO techniques et on-page pour les marques de consommables. Spécialisé dans l\u2019optimisation des pages d\u2019abonnement, les données structurées pour produits consommables et l\u2019architecture de site. Développe les outils SEO gratuits de ce site.",
             image: "/images/framer/Q3tfuu2ytPAotONsFoP1ouyPZic.png",
-            linkedin: "https://www.linkedin.com/in/dimitar-georgiev-seo/",
+            linkedin: "https://bg.linkedin.com/in/dimitar-georgiev-seo-expert",
           },
           {
             name: "Martinijan Trajkovski",
@@ -1042,7 +1042,7 @@ export const consumablesSeoData: Record<Locale, ServicePageProps> = {
             number: "01",
             title: "Optimiza para keywords de suscripción",
             body: "Las búsquedas relacionadas con suscripciones (suscripción con ahorro, envío mensual, envío automático) señalan intención de alto LTV. Crea páginas de destino dedicadas y optimiza las páginas de producto para estos términos para captar compradores listos para comprometerse con compras recurrentes.",
-            href: "/academy/on-page-seo-for-ecommerce",
+            href: "/academy/product-page-seo",
             hrefLabel: "Guía de SEO on-page",
           },
           {
@@ -1117,7 +1117,7 @@ export const consumablesSeoData: Record<Locale, ServicePageProps> = {
           name: "Fabian van Til",
           role: "Estrategia e Innovación",
           bio: "Fabian dirige la estrategia de todos los proyectos con clientes. 8+ a\u00f1os de experiencia en SEO ecommerce en los sectores de salud, suplementos, alimentaci\u00f3n y consumibles. Combina estrategia de crecimiento con innovaci\u00f3n en SEO t\u00e9cnico.",
-          image: "/images/framer/C23VbBxvj2kY5TMoXAJHXWVLaA.webp",
+          image: "/images/framer/fabian-van-til-new.jpeg",
           linkedin: "https://www.linkedin.com/in/fabianvantil/",
         },
         teamMembers: [
@@ -1126,7 +1126,7 @@ export const consumablesSeoData: Record<Locale, ServicePageProps> = {
             role: "SEO Técnico & On-Page",
             bio: "Diseña las bases del SEO técnico y on-page para marcas de consumibles. Especializado en optimización de páginas de suscripción, datos estructurados para productos de consumo y arquitectura web. Desarrolla las herramientas SEO gratuitas de este sitio.",
             image: "/images/framer/Q3tfuu2ytPAotONsFoP1ouyPZic.png",
-            linkedin: "https://www.linkedin.com/in/dimitar-georgiev-seo/",
+            linkedin: "https://bg.linkedin.com/in/dimitar-georgiev-seo-expert",
           },
           {
             name: "Martinijan Trajkovski",
@@ -1351,7 +1351,7 @@ export const consumablesSeoData: Record<Locale, ServicePageProps> = {
             number: "01",
             title: "Ottimizza per le keyword di abbonamento",
             body: "Le ricerche relative agli abbonamenti (abbonamento con risparmio, consegna mensile, invio automatico) segnalano un\u2019intenzione di alto LTV. Crea landing page dedicate e ottimizza le pagine prodotto per questi termini per catturare gli acquirenti pronti a impegnarsi in acquisti ricorrenti.",
-            href: "/academy/on-page-seo-for-ecommerce",
+            href: "/academy/product-page-seo",
             hrefLabel: "Guida SEO on-page",
           },
           {
@@ -1426,7 +1426,7 @@ export const consumablesSeoData: Record<Locale, ServicePageProps> = {
           name: "Fabian van Til",
           role: "Strategia & Innovazione",
           bio: "Fabian definisce la strategia di ogni progetto cliente. 8+ anni di esperienza in SEO e-commerce nei settori salute, integratori, alimentari e consumabili. Unisce strategia di crescita e innovazione SEO tecnica.",
-          image: "/images/framer/C23VbBxvj2kY5TMoXAJHXWVLaA.webp",
+          image: "/images/framer/fabian-van-til-new.jpeg",
           linkedin: "https://www.linkedin.com/in/fabianvantil/",
         },
         teamMembers: [
@@ -1435,7 +1435,7 @@ export const consumablesSeoData: Record<Locale, ServicePageProps> = {
             role: "SEO tecnico & On-Page",
             bio: "Dimitar progetta le fondamenta SEO tecniche e on-page per i brand di consumabili. Specializzato in ottimizzazione pagine abbonamento, dati strutturati per prodotti di consumo e architettura del sito. Sviluppa gli strumenti SEO gratuiti di questo sito.",
             image: "/images/framer/Q3tfuu2ytPAotONsFoP1ouyPZic.png",
-            linkedin: "https://www.linkedin.com/in/dimitar-georgiev-seo/",
+            linkedin: "https://bg.linkedin.com/in/dimitar-georgiev-seo-expert",
           },
           {
             name: "Martinijan Trajkovski",
@@ -1660,7 +1660,7 @@ export const consumablesSeoData: Record<Locale, ServicePageProps> = {
             number: "01",
             title: "Optimaliseer voor abonnement-zoekwoorden",
             body: "Abonnement-gerelateerde zoekopdrachten (spaarabonnement, maandelijkse levering, automatische verzending) signaleren een hoge LTV-intentie. Maak speciale landingspagina\u2019s en optimaliseer productpagina\u2019s voor deze termen om kopers te vangen die klaar zijn voor terugkerende aankopen.",
-            href: "/academy/on-page-seo-for-ecommerce",
+            href: "/academy/product-page-seo",
             hrefLabel: "On-page SEO-gids",
           },
           {
@@ -1735,7 +1735,7 @@ export const consumablesSeoData: Record<Locale, ServicePageProps> = {
           name: "Fabian van Til",
           role: "Strategie & Innovatie",
           bio: "Fabian leidt de strategische richting van alle klantprojecten. Met 8+ jaar e-commerce SEO-ervaring in de sectoren gezondheid, supplementen, voeding en consumables combineert hij groeistrategie met technische SEO-innovatie.",
-          image: "/images/framer/C23VbBxvj2kY5TMoXAJHXWVLaA.webp",
+          image: "/images/framer/fabian-van-til-new.jpeg",
           linkedin: "https://www.linkedin.com/in/fabianvantil/",
         },
         teamMembers: [
@@ -1744,7 +1744,7 @@ export const consumablesSeoData: Record<Locale, ServicePageProps> = {
             role: "Technisch & On-Page SEO",
             bio: "Dimitar ontwerpt de technische SEO-fundamenten en on-page optimalisaties voor consumablemerken. Hij is gespecialiseerd in abonnementspagina-optimalisatie, structured data voor consumableproducten en site-architectuur, en bouwt de gratis SEO-tools op deze site.",
             image: "/images/framer/Q3tfuu2ytPAotONsFoP1ouyPZic.png",
-            linkedin: "https://www.linkedin.com/in/dimitar-georgiev-seo/",
+            linkedin: "https://bg.linkedin.com/in/dimitar-georgiev-seo-expert",
           },
           {
             name: "Martinijan Trajkovski",

@@ -155,7 +155,7 @@ export const guideAnalyticsTrackingT: Record<
     ],
     nav: {
       prev: {
-        href: "/guides/fundamentals",
+        href: "/academy/introduction-to-ecommerce-seo",
         category: "Ecommerce SEO Basics",
         title: "SEO Fundamentals Checklist",
       },
@@ -310,7 +310,7 @@ export const guideAnalyticsTrackingT: Record<
     ],
     nav: {
       prev: {
-        href: "/guides/fundamentals",
+        href: "/academy/introduction-to-ecommerce-seo",
         category: "E-Commerce-SEO-Grundlagen",
         title: "SEO-Grundlagen-Checkliste",
       },
@@ -465,7 +465,7 @@ export const guideAnalyticsTrackingT: Record<
     ],
     nav: {
       prev: {
-        href: "/guides/fundamentals",
+        href: "/academy/introduction-to-ecommerce-seo",
         category: "Bases du SEO e-commerce",
         title: "Checklist des fondamentaux SEO",
       },
@@ -620,7 +620,7 @@ export const guideAnalyticsTrackingT: Record<
     ],
     nav: {
       prev: {
-        href: "/guides/fundamentals",
+        href: "/academy/introduction-to-ecommerce-seo",
         category: "Fundamentos de SEO e-commerce",
         title: "Checklist de fundamentos SEO",
       },
@@ -775,7 +775,7 @@ export const guideAnalyticsTrackingT: Record<
     ],
     nav: {
       prev: {
-        href: "/guides/fundamentals",
+        href: "/academy/introduction-to-ecommerce-seo",
         category: "Basi della SEO e-commerce",
         title: "Checklist dei fondamentali SEO",
       },
@@ -930,7 +930,7 @@ export const guideAnalyticsTrackingT: Record<
     ],
     nav: {
       prev: {
-        href: "/guides/fundamentals",
+        href: "/academy/introduction-to-ecommerce-seo",
         category: "E-commerce SEO-basiskennis",
         title: "SEO-basischecklist",
       },

@@ -5,7 +5,7 @@ export const ecommerceSeoIndustriesData: Record<Locale, ServicePageProps> = {
   en: {
     hero: {
       badge: "Ecommerce SEO by Industry",
-      heading: "Industry-Specific SEO That\u200BDrives Sales in Your Niche",
+      heading: "Industry-Specific SEO That Drives Sales in Your Niche",
       subtitle: "Generic SEO strategies fail in specialized verticals. Fashion stores have seasonal keyword spikes. Beauty brands battle ingredient searches. Consumables need repurchase cycle content. Toy stores face compliance constraints. We build SEO strategies designed for the specific dynamics of your industry.",
       ctaText: "Book a Free Industry SEO Audit",
     },
@@ -90,7 +90,7 @@ export const ecommerceSeoIndustriesData: Record<Locale, ServicePageProps> = {
   de: {
     hero: {
       badge: "E-Commerce SEO nach Branche",
-      heading: "Branchenspezifisches SEO\u200Bf\u00fcr Ihren Nischenmarkt",
+      heading: "Branchenspezifisches SEO f\u00fcr Ihren Nischenmarkt",
       subtitle: "Generische SEO-Strategien scheitern in spezialisierten Vertikalen. Mode-Shops haben saisonale Keyword-Spitzen. Beauty-Marken k\u00e4mpfen um Inhaltsstoff-Suchanfragen. Konsumg\u00fcter brauchen Content f\u00fcr Wiederkaufzyklen. Spielzeugsh\u00e4ndler haben Compliance-Beschr\u00e4nkungen. Wir entwickeln SEO-Strategien, die auf die spezifischen Dynamiken Ihrer Branche zugeschnitten sind.",
       ctaText: "Kostenloses Branchen-SEO-Audit buchen",
     },
@@ -175,7 +175,7 @@ export const ecommerceSeoIndustriesData: Record<Locale, ServicePageProps> = {
   fr: {
     hero: {
       badge: "SEO E-commerce par secteur",
-      heading: "SEO sp\u00e9cifique au secteur qui\u200Bpropulse vos ventes",
+      heading: "SEO sp\u00e9cifique au secteur qui propulse vos ventes",
       subtitle: "Les strat\u00e9gies SEO g\u00e9n\u00e9riques \u00e9chouent dans les verticales sp\u00e9cialis\u00e9es. Les boutiques de mode ont des pics saisonniers de mots-cl\u00e9s. Les marques de beaut\u00e9 se battent pour les recherches d\u2019ingr\u00e9dients. Les consommables ont besoin de contenu sur les cycles de rachat. Les magasins de jouets font face \u00e0 des contraintes de conformit\u00e9. Nous cr\u00e9ons des strat\u00e9gies SEO con\u00e7ues pour les dynamiques sp\u00e9cifiques de votre secteur.",
       ctaText: "R\u00e9server un audit SEO sectoriel gratuit",
     },
@@ -260,7 +260,7 @@ export const ecommerceSeoIndustriesData: Record<Locale, ServicePageProps> = {
   es: {
     hero: {
       badge: "SEO E-commerce por industria",
-      heading: "SEO espec\u00edfico de industria que\u200Bimpulsa ventas en tu nicho",
+      heading: "SEO espec\u00edfico de industria que impulsa ventas en tu nicho",
       subtitle: "Las estrategias SEO gen\u00e9ricas fallan en verticales especializadas. Las tiendas de moda tienen picos estacionales de keywords. Las marcas de belleza luchan por b\u00fasquedas de ingredientes. Los consumibles necesitan contenido sobre ciclos de recompra. Las tiendas de juguetes enfrentan restricciones de cumplimiento. Construimos estrategias SEO dise\u00f1adas para las din\u00e1micas espec\u00edficas de tu industria.",
       ctaText: "Reservar una auditor\u00eda SEO de industria gratuita",
     },
@@ -345,7 +345,7 @@ export const ecommerceSeoIndustriesData: Record<Locale, ServicePageProps> = {
   it: {
     hero: {
       badge: "SEO E-commerce per settore",
-      heading: "SEO specifico del settore che\u200Bspinge le vendite nella tua nicchia",
+      heading: "SEO specifico del settore che spinge le vendite nella tua nicchia",
       subtitle: "Le strategie SEO generiche falliscono nei verticali specializzati. I negozi di moda hanno picchi stagionali di keyword. I brand di bellezza lottano per le ricerche di ingredienti. I consumabili hanno bisogno di contenuti sui cicli di riacquisto. I negozi di giocattoli affrontano vincoli di conformit\u00e0. Costruiamo strategie SEO progettate per le dinamiche specifiche del tuo settore.",
       ctaText: "Prenota un audit SEO settoriale gratuito",
     },
@@ -430,7 +430,7 @@ export const ecommerceSeoIndustriesData: Record<Locale, ServicePageProps> = {
   nl: {
     hero: {
       badge: "E-commerce SEO per sector",
-      heading: "Sectorspecifieke SEO die\u200Bverkopen stimuleert in jouw niche",
+      heading: "Sectorspecifieke SEO die verkopen stimuleert in jouw niche",
       subtitle: "Generieke SEO-strategieen falen in gespecialiseerde verticalen. Modewinkels hebben seizoensgebonden keyword-pieken. Beautymerken strijden om ingredi\u00ebntzoekopdrachten. Consumptiegoederen hebben content nodig voor herkoopscycli. Speelgoedwinkels hebben te maken met nalevingsbeperkingen. Wij bouwen SEO-strategieen die zijn ontworpen voor de specifieke dynamieken van jouw sector.",
       ctaText: "Boek een gratis sector-SEO-audit",
     },

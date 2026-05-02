@@ -334,6 +334,58 @@ export default function ContactPage() {
           </div>
         </section>
 
+        {/* Company Info */}
+        <section className="w-full px-5 md:px-16 py-16">
+          <div className="mx-auto max-w-[800px] w-full">
+            <motion.div
+              className="grid grid-cols-1 md:grid-cols-3 gap-8 p-8 rounded-2xl border border-border bg-bg-ui"
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.5 }}
+            >
+              <div className="flex flex-col gap-2">
+                <h3 className="text-sm font-semibold text-accent uppercase tracking-wider">
+                  Address
+                </h3>
+                <address className="not-italic text-body text-sm leading-relaxed">
+                  EcomSEO B.V.<br />
+                  Industrieweg 13<br />
+                  7102 DX Winterswijk<br />
+                  Netherlands
+                </address>
+              </div>
+              <div className="flex flex-col gap-2">
+                <h3 className="text-sm font-semibold text-accent uppercase tracking-wider">
+                  Get in touch
+                </h3>
+                <a
+                  href="mailto:info@ecomseo.co"
+                  className="text-body text-sm hover:text-heading transition-colors"
+                >
+                  info@ecomseo.co
+                </a>
+                <a
+                  href="tel:+31616139476"
+                  className="text-body text-sm hover:text-heading transition-colors"
+                >
+                  +31 6 16 13 94 76
+                </a>
+              </div>
+              <div className="flex flex-col gap-2">
+                <h3 className="text-sm font-semibold text-accent uppercase tracking-wider">
+                  Company details
+                </h3>
+                <p className="text-body text-sm leading-relaxed">
+                  KvK: 93338503<br />
+                  VAT: NL866362150B01<br />
+                  Founded 2024
+                </p>
+              </div>
+            </motion.div>
+          </div>
+        </section>
+
         {/* Team Section */}
         <section id="team" className="w-full px-5 md:px-16 py-16 md:py-24">
           <div className="mx-auto max-w-[1200px] w-full flex flex-col items-center gap-16">
@@ -356,7 +408,7 @@ export default function ContactPage() {
                 transition={{ duration: 0.5 }}
               >
                 <Image
-                  src="/images/framer/C23VbBxvj2kY5TMoXAJHXWVLaA.webp"
+                  src="/images/framer/fabian-van-til-new.jpeg"
                   alt="Fabian van Til"
                   fill
                   className="object-cover"

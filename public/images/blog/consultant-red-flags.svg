@@ -1,0 +1,37 @@
+<svg viewBox="0 0 680 280" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <text x="340" y="28" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#a78bfa">Consultant Red Flags vs Green Flags</text>
+  <!-- Red flags column -->
+  <rect x="30" y="50" width="295" height="220" rx="10" fill="#ef4444" opacity="0.08" stroke="#ef4444" stroke-width="1"/>
+  <text x="177" y="75" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#ef4444">Red Flags</text>
+  <text x="50" y="100" font-family="Arial,sans-serif" font-size="10" fill="#ef4444">&#10007;</text>
+  <text x="65" y="100" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Guarantees page 1 rankings</text>
+  <text x="50" y="122" font-family="Arial,sans-serif" font-size="10" fill="#ef4444">&#10007;</text>
+  <text x="65" y="122" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Won't explain their methods</text>
+  <text x="50" y="144" font-family="Arial,sans-serif" font-size="10" fill="#ef4444">&#10007;</text>
+  <text x="65" y="144" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">No ecommerce-specific experience</text>
+  <text x="50" y="166" font-family="Arial,sans-serif" font-size="10" fill="#ef4444">&#10007;</text>
+  <text x="65" y="166" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Focuses only on vanity metrics</text>
+  <text x="50" y="188" font-family="Arial,sans-serif" font-size="10" fill="#ef4444">&#10007;</text>
+  <text x="65" y="188" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Uses PBNs or link schemes</text>
+  <text x="50" y="210" font-family="Arial,sans-serif" font-size="10" fill="#ef4444">&#10007;</text>
+  <text x="65" y="210" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">No verifiable references</text>
+  <text x="50" y="232" font-family="Arial,sans-serif" font-size="10" fill="#ef4444">&#10007;</text>
+  <text x="65" y="232" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Requires ownership of your assets</text>
+  <!-- Green flags column -->
+  <rect x="355" y="50" width="295" height="220" rx="10" fill="#4ade80" opacity="0.08" stroke="#4ade80" stroke-width="1"/>
+  <text x="502" y="75" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#4ade80">Green Flags</text>
+  <text x="375" y="100" font-family="Arial,sans-serif" font-size="10" fill="#4ade80">&#10003;</text>
+  <text x="390" y="100" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Realistic timelines (4-6 months)</text>
+  <text x="375" y="122" font-family="Arial,sans-serif" font-size="10" fill="#4ade80">&#10003;</text>
+  <text x="390" y="122" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Transparent process + reporting</text>
+  <text x="375" y="144" font-family="Arial,sans-serif" font-size="10" fill="#4ade80">&#10003;</text>
+  <text x="390" y="144" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Platform-specific knowledge</text>
+  <text x="375" y="166" font-family="Arial,sans-serif" font-size="10" fill="#4ade80">&#10003;</text>
+  <text x="390" y="166" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Revenue-focused KPIs</text>
+  <text x="375" y="188" font-family="Arial,sans-serif" font-size="10" fill="#4ade80">&#10003;</text>
+  <text x="390" y="188" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">White-hat link strategies</text>
+  <text x="375" y="210" font-family="Arial,sans-serif" font-size="10" fill="#4ade80">&#10003;</text>
+  <text x="390" y="210" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Named client references</text>
+  <text x="375" y="232" font-family="Arial,sans-serif" font-size="10" fill="#4ade80">&#10003;</text>
+  <text x="390" y="232" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">You own all work product</text>
+</svg>

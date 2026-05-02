@@ -16,12 +16,21 @@ export const crawlingAndIndexingProductPages: AcademyTopic = {
           title: "Crawling vs. Indexing: The Difference That Matters",
           content:
             "Crawling means Googlebot visited your page and downloaded its content. Indexing means Google analyzed that content, found it worthy of inclusion, and stored it in its search index. A page can be crawled but not indexed, which happens more often than most store owners realize.\n\nThink of crawling as Google walking through every aisle in your physical store. Indexing is Google deciding which products are worth putting on the shelf for shoppers to find. If a product page has thin content, duplicates another page, or has technical issues, Google may crawl it and then decide it does not deserve a spot in the index.\n\nFor a typical online store with 20,000 product pages, we commonly see 30% to 50% of those pages go unindexed. That means thousands of products are invisible in search results. The gap between crawled and indexed pages is where most ecommerce SEO opportunities hide.",
+          image: {
+            src: "/images/academy/crawled-vs-indexed-funnel.svg",
+            alt: "Funnel diagram showing how 20,000 store URLs narrow down to only 10,000 indexed pages through discovery, crawling, and indexing stages",
+            caption: "A typical store loses 50% of its pages between discovery and indexing. Each stage filters out URLs for different reasons.",
+          },
           items: [
             "Crawled: Googlebot visited and downloaded the page content",
             "Indexed: Google analyzed and stored the page in its search database",
             "Crawled but not indexed: Google saw the page but chose not to include it",
             "Not crawled: Google has not visited the page yet or skipped it intentionally",
           ],
+          callout: {
+            title: "Hidden Opportunity",
+            text: "For a store with 20,000 product pages, 30-50% typically go unindexed. That means 6,000 to 10,000 products are invisible in search results, generating zero organic traffic.",
+          },
         },
         {
           title: "Why Google Skips Indexing Product Pages",
@@ -45,6 +54,11 @@ export const crawlingAndIndexingProductPages: AcademyTopic = {
           title: "Managing Index Bloat From Filters and Facets",
           content:
             "Index bloat occurs when Google indexes thousands of low-value URLs that dilute your site's overall quality signals. For ecommerce, the primary source of index bloat is faceted navigation that generates filterable URLs.\n\nConsider a furniture store with 200 products in the \"sofas\" category. If shoppers can filter by color (10 options), material (8 options), price range (5 brackets), and seating capacity (4 options), the possible URL combinations reach 1,600 before accounting for multi-select filters. Most of these filtered views show the same small set of products in different orders.\n\nThe standard approach to controlling index bloat involves three layers. First, use [robots.txt and XML sitemaps](/academy/robots-txt-and-xml-sitemaps) to block Googlebot from crawling the most obvious low-value filter patterns. Second, apply noindex tags to filtered pages that Googlebot can still reach through other paths. Third, use canonical tags to point filtered views back to the main category page.\n\nA more surgical approach is to selectively allow indexing on filter combinations that match real search queries. If people search for \"leather sofas\" in meaningful numbers, the /sofas?material=leather URL might be worth indexing. But /sofas?material=leather&color=brown&seats=3 almost certainly is not.\n\nShopify stores handle this differently from WooCommerce or Magento because Shopify does not generate filter URLs by default. Third-party filter apps like Smart Product Filter create these URLs, and each app handles canonical tags and indexation controls differently. Always verify how your filter app manages these technical details.",
+          image: {
+            src: "/images/academy/index-bloat-filter-math.svg",
+            alt: "Diagram showing how faceted navigation filters multiply to create 1,600 low-value URLs from a single category",
+            caption: "A single category with 4 filter types can generate 1,600+ URLs. Most of these should be blocked from indexing.",
+          },
           items: [
             "Audit your indexed URL count in GSC and compare to your intended indexable pages",
             "Block low-value filter patterns in robots.txt as the first line of defense",
@@ -52,6 +66,10 @@ export const crawlingAndIndexingProductPages: AcademyTopic = {
             "Selectively index high-value filter combinations with proven search demand",
             "Review third-party filter app settings for canonical and indexation handling",
           ],
+          callout: {
+            title: "Filter Math",
+            text: "A sofa category with 10 colors, 8 materials, 5 price ranges, and 4 seat options generates 1,600 filter URLs. Across 20 categories, that is 32,000 low-value pages competing with your real product pages for crawl budget.",
+          },
         },
         {
           title: "Checking Indexation Status in Google Search Console",
@@ -71,6 +89,17 @@ export const crawlingAndIndexingProductPages: AcademyTopic = {
             "Clean your sitemap to include only genuinely indexable URLs",
           ],
         },
+        {
+          title: "CompressedQualitySignals: The Pre-Filter Your PDPs Have to Pass",
+          content:
+            "The Content Warehouse leak revealed a module called CompressedQualitySignals that acts as a per-document \"rap sheet\". It bundles siteAuthority, unauthoritativeScore, lowQuality, anchorMismatchDemotion, exactMatchDomainDemotion, and pandaDemotion. Documents that fail the pre-filter get passed over before more expensive ranking work even runs.\n\nFor product pages, this changes prioritisation. Thin PDPs with template descriptions can trigger the lowQuality flag at scale and drag down the entire site's standing. A store with 10,000 products, 8,000 of which have only manufacturer-supplied paragraphs, is teaching Google that the catalogue is mostly low-effort. The fix is rarely \"write more keyword-rich copy\" \u2014 it's pruning, consolidating variants under a single canonical, and concentrating editorial effort on the PDPs that actually carry revenue.\n\nIndexing decisions follow from this. Google often refuses to index PDPs that look low-quality, even when they're crawled. If your GSC \"Crawled \u2014 currently not indexed\" count is high, the lowQuality and pandaDemotion signals are a likelier explanation than crawl budget.",
+          items: [
+            "CompressedQualitySignals bundles negative signals (lowQuality, anchorMismatchDemotion, pandaDemotion) into a per-document pre-filter",
+            "Mass thin PDPs drag the entire catalogue's standing \u2014 prune or consolidate before adding more",
+            "\"Crawled \u2014 currently not indexed\" usually points to quality signals, not crawl budget",
+            "Concentrate editorial effort on revenue PDPs; let zero-revenue near-duplicates be canonicalised away",
+          ],
+        },
       ],
       navLabels: {
         previous: "How Google Finds Online Stores",
@@ -88,12 +117,21 @@ export const crawlingAndIndexingProductPages: AcademyTopic = {
           title: "Crawling vs. Indexierung: Der Unterschied, der z\u00e4hlt",
           content:
             "Crawling bedeutet, dass Googlebot Ihre Seite besucht und deren Inhalt heruntergeladen hat. Indexierung bedeutet, dass Google diesen Inhalt analysiert, ihn f\u00fcr w\u00fcrdig befunden und in seinem Suchindex gespeichert hat. Eine Seite kann gecrawlt, aber nicht indexiert werden, was h\u00e4ufiger vorkommt, als den meisten Shop-Betreibern bewusst ist.\n\nStellen Sie sich Crawling so vor, als w\u00fcrde Google durch jeden Gang in Ihrem physischen Gesch\u00e4ft laufen. Indexierung ist, wenn Google entscheidet, welche Produkte es wert sind, ins Regal gestellt zu werden, damit K\u00e4ufer sie finden k\u00f6nnen. Wenn eine Produktseite d\u00fcnnen Content hat, eine andere Seite dupliziert oder technische Probleme aufweist, kann Google sie crawlen und dann entscheiden, dass sie keinen Platz im Index verdient.\n\nBei einem typischen Online-Shop mit 20.000 Produktseiten sehen wir h\u00e4ufig, dass 30 % bis 50 % dieser Seiten nicht indexiert werden. Das bedeutet, Tausende von Produkten sind in den Suchergebnissen unsichtbar. Die L\u00fccke zwischen gecrawlten und indexierten Seiten ist der Bereich, in dem sich die meisten Ecommerce-SEO-Chancen verbergen.",
+          image: {
+            src: "/images/academy/de/crawled-vs-indexed-funnel.svg",
+            alt: "Trichterdiagramm das zeigt, wie 20.000 Shop-URLs sich auf nur 10.000 indexierte Seiten durch Entdeckungs-, Crawling- und Indexierungsstufen reduzieren",
+            caption: "Ein typischer Shop verliert 50\u00a0% seiner Seiten zwischen Entdeckung und Indexierung. Jede Stufe filtert URLs aus unterschiedlichen Gr\u00fcnden aus.",
+          },
           items: [
             "Gecrawlt: Googlebot hat die Seite besucht und den Inhalt heruntergeladen",
             "Indexiert: Google hat die Seite analysiert und in seiner Suchdatenbank gespeichert",
             "Gecrawlt, aber nicht indexiert: Google hat die Seite gesehen, aber nicht aufgenommen",
             "Nicht gecrawlt: Google hat die Seite noch nicht besucht oder bewusst \u00fcbersprungen",
           ],
+          callout: {
+            title: "Versteckte Chance",
+            text: "F\u00fcr einen Shop mit 20.000 Produktseiten sind 30\u201350\u00a0% typischerweise nicht indexiert. Das bedeutet 6.000 bis 10.000 Produkte sind in den Suchergebnissen unsichtbar und generieren null organischen Traffic.",
+          },
         },
         {
           title: "Warum Google Produktseiten nicht indexiert",
@@ -117,6 +155,11 @@ export const crawlingAndIndexingProductPages: AcademyTopic = {
           title: "Index-Bloat durch Filter und Facetten verwalten",
           content:
             "Index-Bloat tritt auf, wenn Google Tausende von wertlosen URLs indexiert, die die allgemeinen Qualit\u00e4tssignale Ihrer Website verw\u00e4ssern. F\u00fcr Ecommerce ist die Hauptquelle von Index-Bloat facettierte Navigation, die filterbare URLs erzeugt.\n\nBetrachten Sie einen M\u00f6belshop mit 200 Produkten in der Kategorie \"Sofas\". Wenn K\u00e4ufer nach Farbe (10 Optionen), Material (8 Optionen), Preisspanne (5 Bereiche) und Sitzkapazit\u00e4t (4 Optionen) filtern k\u00f6nnen, erreichen die m\u00f6glichen URL-Kombinationen 1.600, bevor Mehrfachauswahl-Filter ber\u00fccksichtigt werden. Die meisten dieser gefilterten Ansichten zeigen dieselbe kleine Auswahl an Produkten in unterschiedlicher Reihenfolge.\n\nDer Standardansatz zur Kontrolle von Index-Bloat umfasst drei Ebenen. Erstens, verwenden Sie die [robots.txt](/academy/robots-txt-and-xml-sitemaps), um Googlebot am Crawlen der offensichtlichsten wertlosen Filtermuster zu hindern. Zweitens, wenden Sie Noindex-Tags auf gefilterte Seiten an, die Googlebot trotzdem \u00fcber andere Pfade erreichen kann. Drittens, verwenden Sie Canonical-Tags, um gefilterte Ansichten zur\u00fcck auf die Hauptkategorieseite zu verweisen.\n\nEin gezielterer Ansatz ist, die Indexierung selektiv f\u00fcr Filterkombinationen zuzulassen, die echten Suchanfragen entsprechen. Wenn Menschen in nennenswerter Zahl nach \"Ledersofas\" suchen, k\u00f6nnte die URL /sofas?material=leather die Indexierung wert sein. Aber /sofas?material=leather&color=brown&seats=3 mit ziemlicher Sicherheit nicht.\n\nShopify-Shops handhaben dies anders als WooCommerce oder Magento, da Shopify standardm\u00e4\u00dfig keine Filter-URLs generiert. Drittanbieter-Filter-Apps wie Smart Product Filter erstellen diese URLs, und jede App handhabt Canonical-Tags und Indexierungskontrollen unterschiedlich. \u00dcberpr\u00fcfen Sie immer, wie Ihre Filter-App diese technischen Details verwaltet.",
+          image: {
+            src: "/images/academy/de/index-bloat-filter-math.svg",
+            alt: "Diagramm das zeigt, wie Facettennavigationsfilter sich multiplizieren und 1.600 wertlose URLs aus einer einzigen Kategorie erzeugen",
+            caption: "Eine einzelne Kategorie mit 4 Filtertypen kann 1.600+ URLs erzeugen. Die meisten davon sollten von der Indexierung ausgeschlossen werden.",
+          },
           items: [
             "Pr\u00fcfen Sie die Anzahl indexierter URLs in der GSC im Vergleich zu beabsichtigt indexierbaren Seiten",
             "Blockieren Sie wertlose Filtermuster in der robots.txt als erste Verteidigungslinie",
@@ -124,6 +167,10 @@ export const crawlingAndIndexingProductPages: AcademyTopic = {
             "Indexieren Sie selektiv hochwertige Filterkombinationen mit nachgewiesener Suchnachfrage",
             "Pr\u00fcfen Sie die Einstellungen von Drittanbieter-Filter-Apps f\u00fcr Canonical- und Indexierungshandhabung",
           ],
+          callout: {
+            title: "Filter-Mathematik",
+            text: "Eine Sofa-Kategorie mit 10 Farben, 8 Materialien, 5 Preisbereichen und 4 Sitz-Optionen erzeugt 1.600 Filter-URLs. \u00dcber 20 Kategorien sind das 32.000 wertlose Seiten, die mit Ihren echten Produktseiten um das Crawl-Budget konkurrieren.",
+          },
         },
         {
           title: "Indexierungsstatus in der Google Search Console pr\u00fcfen",
@@ -141,6 +188,17 @@ export const crawlingAndIndexingProductPages: AcademyTopic = {
             "Konsolidieren Sie d\u00fcnne Variantenseiten unter einzelnen starken Produktseiten",
             "Bauen Sie interne Links von Blogbeitr\u00e4gen, der Startseite und verwandten Produkten",
             "Bereinigen Sie Ihre Sitemap, sodass sie nur wirklich indexierbare URLs enth\u00e4lt",
+          ],
+        },
+        {
+          title: "CompressedQualitySignals: Der Vorfilter, den Ihre PDPs bestehen muessen",
+          content:
+            "Das Content Warehouse Leak enthuellte ein Modul namens CompressedQualitySignals, das als Pro-Dokument-\"Akte\" fungiert. Es buendelt siteAuthority, unauthoritativeScore, lowQuality, anchorMismatchDemotion, exactMatchDomainDemotion und pandaDemotion. Dokumente, die den Vorfilter nicht bestehen, werden uebergangen, bevor teurere Ranking-Arbeit ueberhaupt laeuft.\n\nFuer Produktseiten aendert dies die Priorisierung. Duenne PDPs mit Template-Beschreibungen koennen das lowQuality-Flag in grosser Menge ausloesen und das gesamte Standing der Site herunterziehen. Ein Shop mit 10.000 Produkten, von denen 8.000 nur herstellergelieferte Absaetze haben, lehrt Google, dass der Katalog ueberwiegend wenig Aufwand zeigt. Der Fix ist selten \"mehr keyword-reichen Text schreiben\" - er ist Pruning, Konsolidierung von Varianten unter einem einzigen Canonical und Konzentration redaktionellen Aufwands auf die PDPs, die tatsaechlich Umsatz tragen.\n\nIndexierungs-Entscheidungen folgen daraus. Google weigert sich oft, PDPs zu indexieren, die wenig hochwertig aussehen, selbst wenn sie gecrawlt sind. Wenn Ihr GSC-Wert \"Gecrawlt - derzeit nicht indexiert\" hoch ist, sind die lowQuality- und pandaDemotion-Signale eine wahrscheinlichere Erklaerung als Crawl-Budget.",
+          items: [
+            "CompressedQualitySignals buendelt negative Signale (lowQuality, anchorMismatchDemotion, pandaDemotion) zu einem Pro-Dokument-Vorfilter",
+            "Massenweise duenne PDPs ziehen das Standing des gesamten Katalogs herunter - prunen oder konsolidieren bevor Sie hinzufuegen",
+            "\"Gecrawlt - derzeit nicht indexiert\" zeigt meist auf Qualitaetssignale, nicht auf Crawl-Budget",
+            "Konzentrieren Sie redaktionellen Aufwand auf Umsatz-PDPs; lassen Sie umsatzlose Quasi-Duplikate kanonisieren",
           ],
         },
       ],
@@ -166,6 +224,15 @@ export const crawlingAndIndexingProductPages: AcademyTopic = {
             "Crawl\u00e9 mais non index\u00e9 : Google a vu la page mais a choisi de ne pas l'inclure",
             "Non crawl\u00e9 : Google n'a pas encore visit\u00e9 la page ou l'a ignor\u00e9e intentionnellement",
           ],
+          image: {
+            src: "/images/academy/fr/crawled-vs-indexed-funnel.svg",
+            alt: "Trichterdiagramm das zeigt, wie 20.000 Shop-URLs sich auf nur 10.000 indexierte Seiten durch Entdeckungs-, Crawling- und Indexierungsstufen reduzieren",
+            caption: "Ein typischer Shop verliert 50\u00a0% seiner Seiten zwischen Entdeckung und Indexierung. Jede Stufe filtert URLs aus unterschiedlichen Gr\u00fcnden aus.",
+          },
+          callout: {
+            title: "Versteckte Chance",
+            text: "F\u00fcr einen Shop mit 20.000 Produktseiten sind 30\u201350\u00a0% typischerweise nicht indexiert. Das bedeutet 6.000 bis 10.000 Produkte sind in den Suchergebnissen unsichtbar und generieren null organischen Traffic.",
+          },
         },
         {
           title: "Pourquoi Google n'indexe pas certaines pages produits",
@@ -196,6 +263,15 @@ export const crawlingAndIndexingProductPages: AcademyTopic = {
             "Indexez s\u00e9lectivement les combinaisons de filtres \u00e0 forte valeur avec demande prouv\u00e9e",
             "V\u00e9rifiez les param\u00e8tres des apps de filtrage tierces pour la gestion canonical et indexation",
           ],
+          image: {
+            src: "/images/academy/fr/index-bloat-filter-math.svg",
+            alt: "Diagramm das zeigt, wie Facettennavigationsfilter sich multiplizieren und 1.600 wertlose URLs aus einer einzigen Kategorie erzeugen",
+            caption: "Eine einzelne Kategorie mit 4 Filtertypen kann 1.600+ URLs erzeugen. Die meisten davon sollten von der Indexierung ausgeschlossen werden.",
+          },
+          callout: {
+            title: "Filter-Mathematik",
+            text: "Eine Sofa-Kategorie mit 10 Farben, 8 Materialien, 5 Preisbereichen und 4 Sitz-Optionen erzeugt 1.600 Filter-URLs. \u00dcber 20 Kategorien sind das 32.000 wertlose Seiten, die mit Ihren echten Produktseiten um das Crawl-Budget konkurrieren.",
+          },
         },
         {
           title: "V\u00e9rifier le statut d'indexation dans Google Search Console",
@@ -213,6 +289,17 @@ export const crawlingAndIndexingProductPages: AcademyTopic = {
             "Consolidez les pages de variantes minces sous des pages produits uniques et fortes",
             "Construisez des liens internes depuis les articles de blog, l'accueil et les produits associ\u00e9s",
             "Nettoyez votre sitemap pour n'inclure que les URLs r\u00e9ellement indexables",
+          ],
+        },
+        {
+          title: "CompressedQualitySignals : Le prefiltre que vos PDP doivent passer",
+          content:
+            "Le leak Content Warehouse a revele un module appele CompressedQualitySignals qui agit comme une \"fiche\" par document. Il regroupe siteAuthority, unauthoritativeScore, lowQuality, anchorMismatchDemotion, exactMatchDomainDemotion et pandaDemotion. Les documents qui echouent au prefiltre sont ecartes avant que le travail de ranking plus couteux ne s'execute.\n\nPour les pages produits, cela change la priorisation. Les PDP minces avec descriptions templatisees peuvent declencher le flag lowQuality a grande echelle et faire chuter la position de tout le site. Une boutique avec 10 000 produits, dont 8 000 n'ont que des paragraphes fournis par le fabricant, enseigne a Google que le catalogue est majoritairement peu travaille. Le correctif est rarement \"ecrire plus de texte riche en mots-cles\" - c'est l'elagage, la consolidation des variantes sous un seul canonical, et la concentration de l'effort editorial sur les PDP qui generent reellement du revenu.\n\nLes decisions d'indexation en decoulent. Google refuse souvent d'indexer les PDP qui semblent de basse qualite, meme quand elles sont crawlees. Si votre nombre GSC \"Explorees - actuellement non indexees\" est eleve, les signaux lowQuality et pandaDemotion sont une explication plus probable que le crawl budget.",
+          items: [
+            "CompressedQualitySignals regroupe les signaux negatifs (lowQuality, anchorMismatchDemotion, pandaDemotion) en un prefiltre par document",
+            "Les PDP minces de masse degradent la position de tout le catalogue - elaguer ou consolider avant d'ajouter",
+            "\"Explorees - actuellement non indexees\" pointe generalement vers des signaux de qualite, pas le crawl budget",
+            "Concentrez l'effort editorial sur les PDP de revenu ; laissez les quasi-doublons sans revenu etre canonicalises",
           ],
         },
       ],
@@ -238,6 +325,15 @@ export const crawlingAndIndexingProductPages: AcademyTopic = {
             "Rastreado pero no indexado: Google vio la p\u00e1gina pero decidi\u00f3 no incluirla",
             "No rastreado: Google a\u00fan no ha visitado la p\u00e1gina o la omiti\u00f3 intencionalmente",
           ],
+          image: {
+            src: "/images/academy/es/crawled-vs-indexed-funnel.svg",
+            alt: "Trichterdiagramm das zeigt, wie 20.000 Shop-URLs sich auf nur 10.000 indexierte Seiten durch Entdeckungs-, Crawling- und Indexierungsstufen reduzieren",
+            caption: "Ein typischer Shop verliert 50\u00a0% seiner Seiten zwischen Entdeckung und Indexierung. Jede Stufe filtert URLs aus unterschiedlichen Gr\u00fcnden aus.",
+          },
+          callout: {
+            title: "Versteckte Chance",
+            text: "F\u00fcr einen Shop mit 20.000 Produktseiten sind 30\u201350\u00a0% typischerweise nicht indexiert. Das bedeutet 6.000 bis 10.000 Produkte sind in den Suchergebnissen unsichtbar und generieren null organischen Traffic.",
+          },
         },
         {
           title: "Por qu\u00e9 Google omite la indexaci\u00f3n de p\u00e1ginas de producto",
@@ -268,6 +364,15 @@ export const crawlingAndIndexingProductPages: AcademyTopic = {
             "Indexa selectivamente combinaciones de filtro de alto valor con demanda probada",
             "Revisa la configuraci\u00f3n de apps de filtro de terceros para canonical e indexaci\u00f3n",
           ],
+          image: {
+            src: "/images/academy/es/index-bloat-filter-math.svg",
+            alt: "Diagramm das zeigt, wie Facettennavigationsfilter sich multiplizieren und 1.600 wertlose URLs aus einer einzigen Kategorie erzeugen",
+            caption: "Eine einzelne Kategorie mit 4 Filtertypen kann 1.600+ URLs erzeugen. Die meisten davon sollten von der Indexierung ausgeschlossen werden.",
+          },
+          callout: {
+            title: "Filter-Mathematik",
+            text: "Eine Sofa-Kategorie mit 10 Farben, 8 Materialien, 5 Preisbereichen und 4 Sitz-Optionen erzeugt 1.600 Filter-URLs. \u00dcber 20 Kategorien sind das 32.000 wertlose Seiten, die mit Ihren echten Produktseiten um das Crawl-Budget konkurrieren.",
+          },
         },
         {
           title: "Verificar el estado de indexaci\u00f3n en Google Search Console",
@@ -285,6 +390,17 @@ export const crawlingAndIndexingProductPages: AcademyTopic = {
             "Consolida p\u00e1ginas de variantes delgadas bajo p\u00e1ginas de producto fuertes",
             "Construye enlaces internos desde el blog, la p\u00e1gina de inicio y productos relacionados",
             "Limpia tu sitemap para incluir solo URLs genuinamente indexables",
+          ],
+        },
+        {
+          title: "CompressedQualitySignals: El prefiltro que tus PDPs tienen que pasar",
+          content:
+            "El leak Content Warehouse revelo un modulo llamado CompressedQualitySignals que actua como una \"ficha\" por documento. Agrupa siteAuthority, unauthoritativeScore, lowQuality, anchorMismatchDemotion, exactMatchDomainDemotion y pandaDemotion. Los documentos que fallan el prefiltro son descartados antes de que se ejecute trabajo de ranking mas costoso.\n\nPara paginas de producto, esto cambia la priorizacion. Las PDPs delgadas con descripciones de plantilla pueden disparar el flag lowQuality a escala y arrastrar todo el standing del sitio. Una tienda con 10.000 productos, 8.000 de los cuales solo tienen parrafos proporcionados por el fabricante, le ensena a Google que el catalogo es mayormente de bajo esfuerzo. El fix raramente es \"escribir mas copy rico en keywords\" - es podar, consolidar variantes bajo un canonical unico, y concentrar esfuerzo editorial en las PDPs que realmente generan ingresos.\n\nLas decisiones de indexacion siguen de esto. Google a menudo se niega a indexar PDPs que parecen de baja calidad, incluso cuando son crawleadas. Si tu numero GSC \"Rastreadas - actualmente no indexadas\" es alto, las senales lowQuality y pandaDemotion son una explicacion mas probable que el crawl budget.",
+          items: [
+            "CompressedQualitySignals agrupa senales negativas (lowQuality, anchorMismatchDemotion, pandaDemotion) en un prefiltro por documento",
+            "PDPs delgadas masivas degradan el standing de todo el catalogo - poda o consolida antes de anadir",
+            "\"Rastreadas - actualmente no indexadas\" usualmente apunta a senales de calidad, no a crawl budget",
+            "Concentra esfuerzo editorial en PDPs de ingresos; deja que los cuasi-duplicados sin ingresos sean canonicalizados",
           ],
         },
       ],
@@ -310,6 +426,15 @@ export const crawlingAndIndexingProductPages: AcademyTopic = {
             "Scansionata ma non indicizzata: Google ha visto la pagina ma ha scelto di non includerla",
             "Non scansionata: Google non ha ancora visitato la pagina o l'ha saltata intenzionalmente",
           ],
+          image: {
+            src: "/images/academy/it/crawled-vs-indexed-funnel.svg",
+            alt: "Trichterdiagramm das zeigt, wie 20.000 Shop-URLs sich auf nur 10.000 indexierte Seiten durch Entdeckungs-, Crawling- und Indexierungsstufen reduzieren",
+            caption: "Ein typischer Shop verliert 50\u00a0% seiner Seiten zwischen Entdeckung und Indexierung. Jede Stufe filtert URLs aus unterschiedlichen Gr\u00fcnden aus.",
+          },
+          callout: {
+            title: "Versteckte Chance",
+            text: "F\u00fcr einen Shop mit 20.000 Produktseiten sind 30\u201350\u00a0% typischerweise nicht indexiert. Das bedeutet 6.000 bis 10.000 Produkte sind in den Suchergebnissen unsichtbar und generieren null organischen Traffic.",
+          },
         },
         {
           title: "Perch\u00e9 Google salta l'indicizzazione delle pagine prodotto",
@@ -340,6 +465,15 @@ export const crawlingAndIndexingProductPages: AcademyTopic = {
             "Indicizza selettivamente le combinazioni di filtro ad alto valore con domanda comprovata",
             "Rivedi le impostazioni delle app di filtro di terze parti per la gestione canonical e indicizzazione",
           ],
+          image: {
+            src: "/images/academy/it/index-bloat-filter-math.svg",
+            alt: "Diagramm das zeigt, wie Facettennavigationsfilter sich multiplizieren und 1.600 wertlose URLs aus einer einzigen Kategorie erzeugen",
+            caption: "Eine einzelne Kategorie mit 4 Filtertypen kann 1.600+ URLs erzeugen. Die meisten davon sollten von der Indexierung ausgeschlossen werden.",
+          },
+          callout: {
+            title: "Filter-Mathematik",
+            text: "Eine Sofa-Kategorie mit 10 Farben, 8 Materialien, 5 Preisbereichen und 4 Sitz-Optionen erzeugt 1.600 Filter-URLs. \u00dcber 20 Kategorien sind das 32.000 wertlose Seiten, die mit Ihren echten Produktseiten um das Crawl-Budget konkurrieren.",
+          },
         },
         {
           title: "Controllare lo stato di indicizzazione in Google Search Console",
@@ -357,6 +491,17 @@ export const crawlingAndIndexingProductPages: AcademyTopic = {
             "Consolida le pagine di varianti sottili sotto singole pagine prodotto forti",
             "Costruisci link interni da articoli del blog, homepage e prodotti correlati",
             "Pulisci la tua sitemap per includere solo URL genuinamente indicizzabili",
+          ],
+        },
+        {
+          title: "CompressedQualitySignals: Il prefiltro che le tue PDP devono superare",
+          content:
+            "Il leak Content Warehouse ha rivelato un modulo chiamato CompressedQualitySignals che agisce come una \"scheda\" per documento. Raggruppa siteAuthority, unauthoritativeScore, lowQuality, anchorMismatchDemotion, exactMatchDomainDemotion e pandaDemotion. I documenti che falliscono il prefiltro vengono scartati prima che venga eseguito lavoro di ranking piu costoso.\n\nPer le pagine prodotto, questo cambia la priorizzazione. Le PDP sottili con descrizioni template possono attivare il flag lowQuality su larga scala e trascinare in basso lo standing dell'intero sito. Un negozio con 10.000 prodotti, 8.000 dei quali hanno solo paragrafi forniti dal produttore, sta insegnando a Google che il catalogo e per lo piu di basso sforzo. La correzione raramente e \"scrivere piu copy ricco di keyword\" - e potare, consolidare le varianti sotto un singolo canonical, e concentrare l'editoriale sulle PDP che effettivamente portano ricavi.\n\nLe decisioni di indicizzazione seguono da questo. Google spesso rifiuta di indicizzare PDP che sembrano di bassa qualita, anche quando vengono crawlate. Se il tuo conteggio GSC \"Sottoposte a scansione - attualmente non indicizzate\" e alto, i segnali lowQuality e pandaDemotion sono una spiegazione piu probabile del crawl budget.",
+          items: [
+            "CompressedQualitySignals raggruppa segnali negativi (lowQuality, anchorMismatchDemotion, pandaDemotion) in un prefiltro per documento",
+            "PDP sottili di massa trascinano lo standing dell'intero catalogo - pota o consolida prima di aggiungere",
+            "\"Sottoposte a scansione - attualmente non indicizzate\" di solito punta a segnali di qualita, non al crawl budget",
+            "Concentra editoriale sulle PDP di ricavi; lascia che i quasi-duplicati senza ricavi vengano canonicalizzati",
           ],
         },
       ],
@@ -382,6 +527,15 @@ export const crawlingAndIndexingProductPages: AcademyTopic = {
             "Gecrawld maar niet ge\u00efndexeerd: Google heeft de pagina gezien maar koos het niet op te nemen",
             "Niet gecrawld: Google heeft de pagina nog niet bezocht of bewust overgeslagen",
           ],
+          image: {
+            src: "/images/academy/nl/crawled-vs-indexed-funnel.svg",
+            alt: "Trichterdiagramm das zeigt, wie 20.000 Shop-URLs sich auf nur 10.000 indexierte Seiten durch Entdeckungs-, Crawling- und Indexierungsstufen reduzieren",
+            caption: "Ein typischer Shop verliert 50\u00a0% seiner Seiten zwischen Entdeckung und Indexierung. Jede Stufe filtert URLs aus unterschiedlichen Gr\u00fcnden aus.",
+          },
+          callout: {
+            title: "Versteckte Chance",
+            text: "F\u00fcr einen Shop mit 20.000 Produktseiten sind 30\u201350\u00a0% typischerweise nicht indexiert. Das bedeutet 6.000 bis 10.000 Produkte sind in den Suchergebnissen unsichtbar und generieren null organischen Traffic.",
+          },
         },
         {
           title: "Waarom Google productpagina's overslaat bij indexering",
@@ -412,6 +566,15 @@ export const crawlingAndIndexingProductPages: AcademyTopic = {
             "Indexeer selectief waardevolle filtercombinaties met bewezen zoekvraag",
             "Controleer instellingen van derde-partij filter-apps voor canonical- en indexeringsafhandeling",
           ],
+          image: {
+            src: "/images/academy/nl/index-bloat-filter-math.svg",
+            alt: "Diagramm das zeigt, wie Facettennavigationsfilter sich multiplizieren und 1.600 wertlose URLs aus einer einzigen Kategorie erzeugen",
+            caption: "Eine einzelne Kategorie mit 4 Filtertypen kann 1.600+ URLs erzeugen. Die meisten davon sollten von der Indexierung ausgeschlossen werden.",
+          },
+          callout: {
+            title: "Filter-Mathematik",
+            text: "Eine Sofa-Kategorie mit 10 Farben, 8 Materialien, 5 Preisbereichen und 4 Sitz-Optionen erzeugt 1.600 Filter-URLs. \u00dcber 20 Kategorien sind das 32.000 wertlose Seiten, die mit Ihren echten Produktseiten um das Crawl-Budget konkurrieren.",
+          },
         },
         {
           title: "Indexeringsstatus controleren in Google Search Console",
@@ -429,6 +592,17 @@ export const crawlingAndIndexingProductPages: AcademyTopic = {
             "Consolideer dunne variantpagina's onder enkele sterke productpagina's",
             "Bouw interne links vanuit blogposts, homepage en gerelateerde producten",
             "Maak je sitemap schoon zodat deze alleen echt indexeerbare URL's bevat",
+          ],
+        },
+        {
+          title: "CompressedQualitySignals: Het voorfilter dat jouw PDP's moeten passeren",
+          content:
+            "Het Content Warehouse leak onthulde een module genaamd CompressedQualitySignals die fungeert als een per-document \"strafblad\". Het bundelt siteAuthority, unauthoritativeScore, lowQuality, anchorMismatchDemotion, exactMatchDomainDemotion en pandaDemotion. Documenten die het voorfilter niet halen worden gepasseerd voordat duurder ranking-werk uberhaupt draait.\n\nVoor productpagina's verandert dit prioritering. Dunne PDP's met sjabloonbeschrijvingen kunnen de lowQuality-flag op schaal triggeren en het hele standing van de site omlaag trekken. Een winkel met 10.000 producten, waarvan 8.000 alleen door de fabrikant geleverde paragrafen hebben, leert Google dat de catalogus grotendeels van lage inspanning is. De fix is zelden \"meer keyword-rijke copy schrijven\" - het is snoeien, varianten consolideren onder een enkele canonical, en redactionele inspanning concentreren op PDP's die daadwerkelijk omzet dragen.\n\nIndexatiebeslissingen volgen daaruit. Google weigert vaak PDP's te indexeren die laagwaardig lijken, zelfs als ze gecrawld zijn. Als je GSC-aantal \"Gecrawld - momenteel niet geindexeerd\" hoog is, zijn de lowQuality- en pandaDemotion-signalen een waarschijnlijkere verklaring dan crawl budget.",
+          items: [
+            "CompressedQualitySignals bundelt negatieve signalen (lowQuality, anchorMismatchDemotion, pandaDemotion) tot een per-document voorfilter",
+            "Massa dunne PDP's slepen de standing van de hele catalogus omlaag - snoei of consolideer voordat je toevoegt",
+            "\"Gecrawld - momenteel niet geindexeerd\" wijst meestal op kwaliteitssignalen, niet op crawl budget",
+            "Concentreer redactionele inspanning op omzet-PDP's; laat omzetloze bijna-duplicaten gecanonicaliseerd worden",
           ],
         },
       ],

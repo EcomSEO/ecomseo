@@ -1,0 +1,41 @@
+<svg viewBox="0 0 680 320" xmlns="http://www.w3.org/2000/svg" fill="none" font-family="Arial,sans-serif">
+  <text x="340" y="28" text-anchor="middle" fill="#a78bfa" font-size="14" font-weight="bold">Enterprise SEO Cross-Team Collaboration</text>
+  <!-- Central SEO team -->
+  <rect x="260" y="50" width="160" height="44" rx="8" stroke="#a78bfa" stroke-width="2"/>
+  <text x="340" y="68" text-anchor="middle" fill="#a78bfa" font-size="12" font-weight="bold">SEO Team</text>
+  <text x="340" y="84" text-anchor="middle" fill="#e2e8f0" font-size="9">Strategy, audits, monitoring</text>
+  <!-- Connected teams -->
+  <rect x="20" y="120" width="130" height="44" rx="6" stroke="#60a5fa" stroke-width="1.5"/>
+  <text x="85" y="138" text-anchor="middle" fill="#60a5fa" font-size="10" font-weight="bold">Dev / Platform</text>
+  <text x="85" y="154" text-anchor="middle" fill="#e2e8f0" font-size="8">URLs, templates, speed</text>
+  <line x1="150" y1="142" x2="260" y2="80" stroke="#60a5fa" stroke-width="1" stroke-dasharray="4 2"/>
+  <rect x="170" y="120" width="130" height="44" rx="6" stroke="#4ade80" stroke-width="1.5"/>
+  <text x="235" y="138" text-anchor="middle" fill="#4ade80" font-size="10" font-weight="bold">Content Team</text>
+  <text x="235" y="154" text-anchor="middle" fill="#e2e8f0" font-size="8">Descriptions, blog, copy</text>
+  <line x1="235" y1="120" x2="300" y2="94" stroke="#4ade80" stroke-width="1" stroke-dasharray="4 2"/>
+  <rect x="380" y="120" width="130" height="44" rx="6" stroke="#f97316" stroke-width="1.5"/>
+  <text x="445" y="138" text-anchor="middle" fill="#f97316" font-size="10" font-weight="bold">Merchandising</text>
+  <text x="445" y="154" text-anchor="middle" fill="#e2e8f0" font-size="8">Categories, products</text>
+  <line x1="380" y1="142" x2="420" y2="80" stroke="#f97316" stroke-width="1" stroke-dasharray="4 2"/>
+  <rect x="530" y="120" width="130" height="44" rx="6" stroke="#ef4444" stroke-width="1.5"/>
+  <text x="595" y="138" text-anchor="middle" fill="#ef4444" font-size="10" font-weight="bold">UX / Design</text>
+  <text x="595" y="154" text-anchor="middle" fill="#e2e8f0" font-size="8">Page layouts, navigation</text>
+  <line x1="530" y1="142" x2="420" y2="80" stroke="#ef4444" stroke-width="1" stroke-dasharray="4 2"/>
+  <!-- Process flow -->
+  <text x="340" y="196" text-anchor="middle" fill="#e2e8f0" font-size="11" font-weight="bold">Required Process</text>
+  <rect x="40" y="210" width="140" height="40" rx="6" stroke="#4ade80" stroke-width="1.5"/>
+  <text x="110" y="226" text-anchor="middle" fill="#4ade80" font-size="10" font-weight="bold">Dedicated Sprints</text>
+  <text x="110" y="242" text-anchor="middle" fill="#e2e8f0" font-size="8">SEO sprint every 2 weeks</text>
+  <rect x="200" y="210" width="140" height="40" rx="6" stroke="#60a5fa" stroke-width="1.5"/>
+  <text x="270" y="226" text-anchor="middle" fill="#60a5fa" font-size="10" font-weight="bold">SEO Review Gate</text>
+  <text x="270" y="242" text-anchor="middle" fill="#e2e8f0" font-size="8">15-min check before deploy</text>
+  <rect x="360" y="210" width="140" height="40" rx="6" stroke="#f97316" stroke-width="1.5"/>
+  <text x="430" y="226" text-anchor="middle" fill="#f97316" font-size="10" font-weight="bold">Regular Syncs</text>
+  <text x="430" y="242" text-anchor="middle" fill="#e2e8f0" font-size="8">Monthly cross-team check-in</text>
+  <rect x="520" y="210" width="140" height="40" rx="6" stroke="#a78bfa" stroke-width="1.5"/>
+  <text x="590" y="226" text-anchor="middle" fill="#a78bfa" font-size="10" font-weight="bold">SEO Dashboard</text>
+  <text x="590" y="242" text-anchor="middle" fill="#e2e8f0" font-size="8">Shared KPI visibility</text>
+  <!-- Warning -->
+  <text x="340" y="280" text-anchor="middle" fill="#ef4444" font-size="10">Without guaranteed dev access, SEO tickets sit in backlogs for 8+ months</text>
+  <text x="340" y="300" text-anchor="middle" fill="#e2e8f0" font-size="9" opacity="0.7">A $2.3M revenue loss was caused by a migration that skipped a 15-minute SEO review</text>
+</svg>

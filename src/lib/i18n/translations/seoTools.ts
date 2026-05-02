@@ -1006,6 +1006,7 @@ export const seoToolsHubT: Record<Locale, {
   internalLinkAnalyzer: { title: string; desc: string };
   siteSpeedComparison: { title: string; desc: string };
   sitemapExtractor: { title: string; desc: string };
+  intentMatcher: { title: string; desc: string };
   comingSoon: string;
 }> = {
   en: {
@@ -1043,6 +1044,7 @@ export const seoToolsHubT: Record<Locale, {
     internalLinkAnalyzer: { title: "Internal Link Analyzer", desc: "Map internal links, find orphan pages, and check link depth" },
     siteSpeedComparison: { title: "Site Speed Comparison", desc: "Compare page speed performance across multiple sites" },
     sitemapExtractor: { title: "Sitemap URL Extractor", desc: "Extract and export all URLs from any XML sitemap" },
+    intentMatcher: { title: "Intent Matching Tool", desc: "Analyze search intent behind ecommerce keywords and match them to the right page types" },
     comingSoon: "More tools coming soon",
   },
   de: {
@@ -1080,6 +1082,7 @@ export const seoToolsHubT: Record<Locale, {
     internalLinkAnalyzer: { title: "Interne-Link-Analyse", desc: "Interne Links kartieren, verwaiste Seiten finden und Linktiefe prüfen" },
     siteSpeedComparison: { title: "Seitengeschwindigkeits-Vergleich", desc: "Page-Speed-Performance über mehrere Websites vergleichen" },
     sitemapExtractor: { title: "Sitemap URL Extractor", desc: "Alle URLs aus einer XML-Sitemap extrahieren und exportieren" },
+    intentMatcher: { title: "Intent-Analyse-Tool", desc: "Suchintention hinter E-Commerce-Keywords analysieren und dem richtigen Seitentyp zuordnen" },
     comingSoon: "Weitere Tools folgen",
   },
   fr: {
@@ -1117,6 +1120,7 @@ export const seoToolsHubT: Record<Locale, {
     internalLinkAnalyzer: { title: "Analyseur de Liens Internes", desc: "Cartographiez les liens internes, trouvez les pages orphelines" },
     siteSpeedComparison: { title: "Comparaison Vitesse de Site", desc: "Comparez la performance de vitesse entre plusieurs sites" },
     sitemapExtractor: { title: "Extracteur d'URLs Sitemap", desc: "Extrayez et exportez toutes les URLs d'un sitemap XML" },
+    intentMatcher: { title: "Outil de Correspondance d'Intention", desc: "Analysez l'intention de recherche derriere les mots-cles e-commerce et associez-les au bon type de page" },
     comingSoon: "Plus d'outils à venir",
   },
   es: {
@@ -1154,6 +1158,7 @@ export const seoToolsHubT: Record<Locale, {
     internalLinkAnalyzer: { title: "Analizador de Enlaces Internos", desc: "Mapea enlaces internos, encuentra páginas huérfanas y profundidad de enlaces" },
     siteSpeedComparison: { title: "Comparación de Velocidad", desc: "Compara el rendimiento de velocidad entre múltiples sitios" },
     sitemapExtractor: { title: "Extractor de URLs de Sitemap", desc: "Extrae y exporta todas las URLs de un sitemap XML" },
+    intentMatcher: { title: "Herramienta de Coincidencia de Intención", desc: "Analiza la intención de búsqueda detrás de palabras clave e-commerce y asócialas al tipo de página correcto" },
     comingSoon: "Más herramientas próximamente",
   },
   it: {
@@ -1191,6 +1196,7 @@ export const seoToolsHubT: Record<Locale, {
     internalLinkAnalyzer: { title: "Analizzatore Link Interni", desc: "Mappa i link interni, trova pagine orfane e profondità dei link" },
     siteSpeedComparison: { title: "Confronto Velocità Sito", desc: "Confronta le prestazioni di velocità tra più siti" },
     sitemapExtractor: { title: "Estrattore URL Sitemap", desc: "Estrai ed esporta tutti gli URL da una sitemap XML" },
+    intentMatcher: { title: "Strumento Corrispondenza Intento", desc: "Analizza l'intento di ricerca dietro le keyword e-commerce e associale al tipo di pagina corretto" },
     comingSoon: "Altri strumenti in arrivo",
   },
   nl: {
@@ -1228,6 +1234,7 @@ export const seoToolsHubT: Record<Locale, {
     internalLinkAnalyzer: { title: "Interne Link Analyse", desc: "Breng interne links in kaart, vind wees-pagina's en controleer linkdiepte" },
     siteSpeedComparison: { title: "Sitesnelheid Vergelijking", desc: "Vergelijk paginasnelheidsprestaties tussen meerdere sites" },
     sitemapExtractor: { title: "Sitemap URL Extractor", desc: "Haal alle URL's op en exporteer ze uit een XML-sitemap" },
+    intentMatcher: { title: "Zoekintentie Tool", desc: "Analyseer de zoekintentie achter e-commerce zoekwoorden en koppel ze aan het juiste paginatype" },
     comingSoon: "Meer tools volgen binnenkort",
   },
 };

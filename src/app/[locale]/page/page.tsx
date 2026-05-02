@@ -5,6 +5,11 @@ import Footer from "@/components/sections/Footer";
 import { buildPageMetadata } from "@/lib/i18n/metadata";
 import type { Locale } from "@/lib/i18n/config";
 import { profilePageT } from "@/lib/i18n/translations/profilePage";
+
+export const revalidate = 3600;
+
+
+
 const linkPreviews = [
   {
     url: "https://stripe.com",
@@ -28,7 +33,9 @@ const linkPreviews = [
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
-  return buildPageMetadata(locale as Locale, "/page");
+  return buildPageMetadata(locale as Locale, "/page", {
+    robots: { index: false, follow: true },
+  });
 }
 
 export default async function PageProfilePage({

@@ -1,0 +1,33 @@
+<svg viewBox="0 0 680 280" xmlns="http://www.w3.org/2000/svg" fill="none" font-family="Arial,sans-serif">
+  <text x="340" y="28" text-anchor="middle" fill="#a78bfa" font-size="14" font-weight="bold">Category Pagination Strategies for SEO</text>
+  <!-- Strategy 1: View All -->
+  <rect x="20" y="52" width="200" height="100" rx="8" stroke="#4ade80" stroke-width="2"/>
+  <text x="120" y="72" text-anchor="middle" fill="#4ade80" font-size="11" font-weight="bold">View All / Load More</text>
+  <text x="120" y="90" text-anchor="middle" fill="#e2e8f0" font-size="9">All products on one URL</text>
+  <text x="120" y="104" text-anchor="middle" fill="#e2e8f0" font-size="9">Consolidates link equity</text>
+  <text x="120" y="118" text-anchor="middle" fill="#4ade80" font-size="9">Best for &lt;100 products</text>
+  <text x="120" y="136" text-anchor="middle" fill="#e2e8f0" font-size="8" opacity="0.6">Use lazy loading for images</text>
+  <!-- Strategy 2: Paginated -->
+  <rect x="240" y="52" width="200" height="100" rx="8" stroke="#60a5fa" stroke-width="2"/>
+  <text x="340" y="72" text-anchor="middle" fill="#60a5fa" font-size="11" font-weight="bold">Traditional Pagination</text>
+  <text x="340" y="90" text-anchor="middle" fill="#e2e8f0" font-size="9">Separate pages: ?page=2, ?page=3</text>
+  <text x="340" y="104" text-anchor="middle" fill="#e2e8f0" font-size="9">Each page self-canonicalizes</text>
+  <text x="340" y="118" text-anchor="middle" fill="#60a5fa" font-size="9">Best for 100+ products</text>
+  <text x="340" y="136" text-anchor="middle" fill="#e2e8f0" font-size="8" opacity="0.6">Unique titles per page number</text>
+  <!-- Strategy 3: Avoid -->
+  <rect x="460" y="52" width="200" height="100" rx="8" stroke="#ef4444" stroke-width="2"/>
+  <text x="560" y="72" text-anchor="middle" fill="#ef4444" font-size="11" font-weight="bold">Common Mistakes</text>
+  <text x="560" y="90" text-anchor="middle" fill="#e2e8f0" font-size="9">Noindexing paginated pages</text>
+  <text x="560" y="104" text-anchor="middle" fill="#e2e8f0" font-size="9">Canonicalizing all to page 1</text>
+  <text x="560" y="118" text-anchor="middle" fill="#e2e8f0" font-size="9">JS-only pagination links</text>
+  <text x="560" y="136" text-anchor="middle" fill="#ef4444" font-size="8">Products on deep pages never get found</text>
+  <!-- Best practices checklist -->
+  <text x="340" y="180" text-anchor="middle" fill="#e2e8f0" font-size="11" font-weight="bold">Pagination Best Practices</text>
+  <text x="60" y="204" fill="#4ade80" font-size="10">Unique title tag per page</text>
+  <text x="60" y="224" fill="#4ade80" font-size="10">Self-referencing canonicals</text>
+  <text x="60" y="244" fill="#4ade80" font-size="10">Crawlable anchor tag links</text>
+  <text x="360" y="204" fill="#4ade80" font-size="10">Link to first and last page</text>
+  <text x="360" y="224" fill="#4ade80" font-size="10">Keep rel=next/prev for Bing</text>
+  <text x="360" y="244" fill="#4ade80" font-size="10">Add brief content per page</text>
+  <text x="340" y="272" text-anchor="middle" fill="#e2e8f0" font-size="9" opacity="0.7">Google stopped using rel=next/prev in 2019 but Bing still does -- keep them</text>
+</svg>

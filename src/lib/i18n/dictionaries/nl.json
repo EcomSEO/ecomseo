@@ -95,7 +95,7 @@
     "ogTitle": "Kenniscentrum & Hulpbronnen | EcomSEO"
   },
   "/resources/crash-course": {
-    "title": "Van beginner tot expert - Ecommerce SEO Cursus | EcomSEO",
+    "title": "Ecommerce SEO Cursus | EcomSEO",
     "description": "Complete ecommerce SEO-cursus. Leer alles wat je moet weten over hoger ranken op Google en het genereren van organische omzet.",
     "ogTitle": "Van beginner tot expert - Ecommerce SEO Cursus | EcomSEO"
   },
@@ -150,7 +150,7 @@
     "ogTitle": "Zoekwoordenonderzoek Handleiding | EcomSEO"
   },
   "/guides/competitor-analysis": {
-    "title": "Ecommerce SEO Concurrentieanalyse | EcomSEO Handleidingen",
+    "title": "SEO Concurrentieanalyse | EcomSEO",
     "description": "Vind zoekwoord-, content- en backlinkgaten door je SEO-concurrenten te analyseren. Een stap-voor-stap proces.",
     "ogTitle": "Ecommerce SEO Concurrentieanalyse | EcomSEO Handleidingen"
   },
@@ -160,12 +160,12 @@
     "ogTitle": "Technische SEO voor Ecommerce | EcomSEO Handleidingen"
   },
   "/guides/on-page-audit": {
-    "title": "On-Page SEO Audit voor Ecommerce | EcomSEO Handleidingen",
+    "title": "On-Page SEO Audit | EcomSEO",
     "description": "Categoriepagina's, productpagina's, title-tags, meta-beschrijvingen en interne links voor je online winkel controleren en optimaliseren.",
     "ogTitle": "On-Page SEO Audit voor Ecommerce | EcomSEO Handleidingen"
   },
   "/guides/off-page-audit": {
-    "title": "Off-Page SEO Audit voor Ecommerce | EcomSEO Handleidingen",
+    "title": "Off-Page SEO Audit | EcomSEO",
     "description": "Je backlinkprofiel analyseren, toxische links identificeren, ankertekstverdeling controleren en backlinkopportuniteiten bij concurrenten vinden.",
     "ogTitle": "Off-Page SEO Audit voor Ecommerce | EcomSEO Handleidingen"
   },
@@ -199,7 +199,7 @@
     "description": "Fabian van Til, oprichter van EcomSEO. Wij helpen ecommerce merken vindbaar te worden op AI en LLMs zoals ChatGPT.",
     "ogTitle": "Fabian van Til - LLM Optimalisatie Bureau | EcomSEO"
   },
-  "/intent-matching-tool": {
+  "/tools/intent-matching-tool": {
     "title": "Intent Matching Tool - AI Zoekwoordanalyse | EcomSEO",
     "description": "Analyseer de zoekintentie van je ecommerce zoekwoorden. Begrijp waar je klanten naar zoeken en optimaliseer je content op basis daarvan.",
     "ogTitle": "Intent Matching Tool - AI Zoekwoordanalyse | EcomSEO"
@@ -270,7 +270,7 @@
     "ogTitle": "Gratis Google SERP-simulator | EcomSEO"
   },
   "/tools/schema-generator": {
-    "title": "Gratis Product Schema Generator - JSON-LD Markup | EcomSEO",
+    "title": "Gratis Product Schema Generator | EcomSEO",
     "description": "Genereer geldige JSON-LD Product schema-markup voor je e-commerce pagina's. Krijg rich snippets met prijs, beschikbaarheid en reviews in Google.",
     "ogTitle": "Gratis Product Schema Generator - Rich Snippets voor E-commerce | EcomSEO"
   },
@@ -320,7 +320,7 @@
     "ogTitle": "Gratis Dunne Content Checker | EcomSEO"
   },
   "/tools/core-web-vitals": {
-    "title": "Gratis Core Web Vitals Checker - LCP, CLS & INP | EcomSEO",
+    "title": "Gratis Core Web Vitals Checker | EcomSEO",
     "description": "Controleer LCP-, CLS- en INP-scores voor mobiel en desktop op meerdere pagina's. Aangedreven door Google PageSpeed Insights.",
     "ogTitle": "Gratis Core Web Vitals Checker | EcomSEO"
   },

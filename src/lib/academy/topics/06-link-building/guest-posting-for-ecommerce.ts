@@ -16,6 +16,11 @@ export const guestPostingForEcommerce: AcademyTopic = {
           title: "Finding Relevant Sites That Accept Guest Posts",
           content:
             "The foundation of a successful guest posting strategy is a curated list of target publications that are genuinely relevant to your ecommerce niche. A link from a high-authority site in an unrelated industry carries far less weight than a link from a mid-authority blog that covers exactly your product category.\n\nStart with Google search operators to discover opportunities. Queries like \"your niche + write for us,\" \"your niche + guest post guidelines,\" or \"your niche + contribute\" surface blogs actively seeking outside contributors. Expand your search by studying where your competitors have published guest content, tools like Ahrefs let you filter a competitor's backlinks by anchor text patterns commonly associated with author bios.\n\nEvaluate each potential site on four criteria: domain authority (aim for DR 30+), topical relevance to your products, the quality of their existing content, and whether they provide dofollow links to contributors. Check several existing guest posts on the site to verify link policies before investing time in a pitch. Also review their social media engagement and comment sections, a site with genuine reader interaction will provide more value than a blog with high DR but zero audience engagement.",
+          image: {
+            src: "/images/academy/guest-post-site-tiers.svg",
+            alt: "Pyramid diagram showing three tiers of guest post target sites by domain rating",
+            caption: "Organize targets into tiers by domain authority. Allocate your best content ideas to Tier 1 sites for maximum link value.",
+          },
           items: [
             "Use search operators like 'niche + write for us' and 'niche + contributor guidelines' to find opportunities",
             "Analyze competitor backlink profiles to discover where they have published guest content",
@@ -23,7 +28,11 @@ export const guestPostingForEcommerce: AcademyTopic = {
             "Verify the site provides dofollow links by checking existing guest posts before pitching",
             "Assess real audience engagement through comments and social shares, not just domain metrics"
           ],
-          tip: "Build a rolling list of 50+ target sites and categorize them into tiers: Tier 1 (DR 60+, highly relevant), Tier 2 (DR 30-60, relevant), and Tier 3 (DR 20-30, niche blogs). Allocate your best content ideas to Tier 1 sites and use proven topics for lower tiers."
+          tip: "Build a rolling list of 50+ target sites and categorize them into tiers: Tier 1 (DR 60+, highly relevant), Tier 2 (DR 30-60, relevant), and Tier 3 (DR 20-30, niche blogs). Allocate your best content ideas to Tier 1 sites and use proven topics for lower tiers.",
+          callout: {
+            title: "Check Before Pitching",
+            text: "Always verify dofollow link policies by inspecting 2-3 existing guest posts on each target site. Sites that strip links or add nofollow to all contributor links waste your outreach effort.",
+          },
         },
         {
           title: "Pitching Topics That Get Accepted",
@@ -47,13 +56,22 @@ export const guestPostingForEcommerce: AcademyTopic = {
           title: "Strategic Link Placement Within Guest Posts",
           content:
             "Where and how you place links within your guest post significantly impacts their SEO value and their acceptance by editors. The days of keyword-stuffed anchor text in guest post bios are over, modern guest posting requires strategic, natural link placement that serves the reader.\n\nPlace your most important link contextually within the body of the article, not just in the author bio. A link that appears naturally within a relevant paragraph, supporting the point being made, carries more SEO weight and is less likely to be removed by the editor. Use descriptive but natural anchor text, \"our guide to product page optimization\" reads better than forced exact-match anchors.\n\nLimit yourself to one or two links to your own site per guest post. Editors will reject articles stuffed with self-promotional links, and Google devalues pages with excessive outbound links to a single domain. If you have multiple pages to promote, spread them across different guest posts on different sites rather than cramming them into one article.\n\nConsider which pages to link to carefully. Linking directly to product pages from guest posts often feels forced. Instead, link to high-value informational content on your site, buying guides, comparison articles, or research studies, that internally links to your commercial pages. This creates a natural link flow: guest post links to your informational content, which links to your product pages.",
+          image: {
+            src: "/images/academy/guest-post-link-flow.svg",
+            alt: "Diagram showing the optimal link flow from guest post to informational content to product pages",
+            caption: "Link to info content that internally connects to product pages. Direct product links from guest posts feel forced and get rejected.",
+          },
           items: [
             "Place your primary link contextually within the article body, not only in the author bio",
             "Use natural, descriptive anchor text that supports the surrounding content",
             "Limit self-links to one or two per guest post to maintain editorial trust",
             "Link to informational content that internally connects to your product pages rather than linking directly to commercial pages"
           ],
-          tip: "Create dedicated linkable assets on your site, comprehensive guides, original research, or free tools, specifically designed to receive guest post links. Our [link building](/link-building) service can help identify the right assets to build. These assets convert link equity into rankings for your commercial pages through internal linking."
+          tip: "Create dedicated linkable assets on your site, comprehensive guides, original research, or free tools, specifically designed to receive guest post links. Our [link building](/link-building) service can help identify the right assets to build. These assets convert link equity into rankings for your commercial pages through internal linking.",
+          callout: {
+            title: "Natural Link Flow",
+            text: "Guest post links to your buying guide, which internally links to product pages. This two-step flow feels editorial to editors and passes authority to your commercial pages without appearing promotional.",
+          },
         },
         {
           title: "Measuring the ROI of Guest Posting",
@@ -102,7 +120,16 @@ export const guestPostingForEcommerce: AcademyTopic = {
             "Verifizieren Sie, dass die Seite Dofollow-Links bietet, indem Sie bestehende Gastbeitraege pruefen",
             "Bewerten Sie echte Leser-Interaktion ueber Kommentare und Social Shares, nicht nur Domain-Metriken"
           ],
-          tip: "Erstellen Sie eine laufende Liste von 50+ Zielseiten und kategorisieren Sie diese in Stufen: Stufe 1 (DR 60+, hoch relevant), Stufe 2 (DR 30-60, relevant) und Stufe 3 (DR 20-30, Nischenblogs). Weisen Sie Ihre besten Content-Ideen den Stufe-1-Seiten zu und nutzen Sie bewaehrte Themen fuer niedrigere Stufen."
+          tip: "Erstellen Sie eine laufende Liste von 50+ Zielseiten und kategorisieren Sie diese in Stufen: Stufe 1 (DR 60+, hoch relevant), Stufe 2 (DR 30-60, relevant) und Stufe 3 (DR 20-30, Nischenblogs). Weisen Sie Ihre besten Content-Ideen den Stufe-1-Seiten zu und nutzen Sie bewaehrte Themen fuer niedrigere Stufen.",
+          image: {
+            src: "/images/academy/de/guest-post-site-tiers.svg",
+            alt: "Pyramidendiagramm das drei Stufen von Gastbeitrag-Zielseiten nach Domain-Rating zeigt",
+            caption: "Ziele in Stufen nach Domain-Autoritaet organisieren. Ihre besten Inhaltsideen den Stufe-1-Seiten fuer maximalen Linkwert zuweisen.",
+          },
+          callout: {
+            title: "Vor dem Pitchen pruefen",
+            text: "Ueberpruefen Sie immer Dofollow-Link-Richtlinien indem Sie 2-3 bestehende Gastbeitraege auf jeder Zielseite inspizieren. Seiten die Links entfernen oder allen Autoren-Links Nofollow hinzufuegen verschwenden Ihren Outreach-Aufwand.",
+          },
         },
         {
           title: "Themen pitchen, die akzeptiert werden",
@@ -143,7 +170,16 @@ export const guestPostingForEcommerce: AcademyTopic = {
             "Verfolgen Sie Referral-Traffic mit UTM-Parametern und vergleichen Sie Engagement-Metriken mit organischem Traffic",
             "Berechnen Sie die Gesamtkosten pro Beitrag einschliesslich Recherche, Schreiben, Lektorat und Outreach-Zeit",
             "Vergleichen Sie Kosten pro Link von Guest Posting mit alternativen Linkaufbau-Methoden"
-          ]
+          ],
+          image: {
+            src: "/images/academy/de/guest-post-link-flow.svg",
+            alt: "Diagramm das den optimalen Linkfluss vom Gastbeitrag zu informativem Inhalt zu Produktseiten zeigt",
+            caption: "Zu Info-Inhalten verlinken die intern mit Produktseiten verbunden sind. Direkte Produktlinks aus Gastbeitraegen wirken erzwungen und werden abgelehnt.",
+          },
+          callout: {
+            title: "Natuerlicher Linkfluss",
+            text: "Gastbeitrag-Links zu Ihrem Kaufratgeber der intern zu Produktseiten verlinkt. Dieser Zweischritt-Fluss wirkt fuer Redakteure redaktionell und gibt Autoritaet an Ihre kommerziellen Seiten weiter ohne werblich zu erscheinen.",
+          },
         },
         {
           title: "Strafen vermeiden und Qualitaet aufrechterhalten",
@@ -181,7 +217,16 @@ export const guestPostingForEcommerce: AcademyTopic = {
             "Verifiez que le site fournit des liens dofollow en verifiant les articles invites existants",
             "Evaluez l'engagement reel de l'audience via les commentaires et partages sociaux, pas seulement les metriques de domaine"
           ],
-          tip: "Construisez une liste courante de 50+ sites cibles et categorisez-les par niveaux : Niveau 1 (DR 60+, tres pertinent), Niveau 2 (DR 30-60, pertinent) et Niveau 3 (DR 20-30, blogs de niche). Allouez vos meilleures idees de contenu aux sites de Niveau 1."
+          tip: "Construisez une liste courante de 50+ sites cibles et categorisez-les par niveaux : Niveau 1 (DR 60+, tres pertinent), Niveau 2 (DR 30-60, pertinent) et Niveau 3 (DR 20-30, blogs de niche). Allouez vos meilleures idees de contenu aux sites de Niveau 1.",
+          image: {
+            src: "/images/academy/fr/guest-post-site-tiers.svg",
+            alt: "Pyramidendiagramm das drei Stufen von Gastbeitrag-Zielseiten nach Domain-Rating zeigt",
+            caption: "Ziele in Stufen nach Domain-Autoritaet organisieren. Ihre besten Inhaltsideen den Stufe-1-Seiten fuer maximalen Linkwert zuweisen.",
+          },
+          callout: {
+            title: "Vor dem Pitchen pruefen",
+            text: "Ueberpruefen Sie immer Dofollow-Link-Richtlinien indem Sie 2-3 bestehende Gastbeitraege auf jeder Zielseite inspizieren. Seiten die Links entfernen oder allen Autoren-Links Nofollow hinzufuegen verschwenden Ihren Outreach-Aufwand.",
+          },
         },
         {
           title: "Proposer des sujets qui sont acceptes",
@@ -222,7 +267,16 @@ export const guestPostingForEcommerce: AcademyTopic = {
             "Suivez le trafic referent avec des parametres UTM et comparez les metriques d'engagement",
             "Calculez le cout complet par article incluant recherche, ecriture, edition et temps de prospection",
             "Comparez le cout par lien du guest posting aux methodes alternatives de link building"
-          ]
+          ],
+          image: {
+            src: "/images/academy/fr/guest-post-link-flow.svg",
+            alt: "Diagramm das den optimalen Linkfluss vom Gastbeitrag zu informativem Inhalt zu Produktseiten zeigt",
+            caption: "Zu Info-Inhalten verlinken die intern mit Produktseiten verbunden sind. Direkte Produktlinks aus Gastbeitraegen wirken erzwungen und werden abgelehnt.",
+          },
+          callout: {
+            title: "Natuerlicher Linkfluss",
+            text: "Gastbeitrag-Links zu Ihrem Kaufratgeber der intern zu Produktseiten verlinkt. Dieser Zweischritt-Fluss wirkt fuer Redakteure redaktionell und gibt Autoritaet an Ihre kommerziellen Seiten weiter ohne werblich zu erscheinen.",
+          },
         },
         {
           title: "Eviter les penalites et maintenir la qualite",
@@ -260,7 +314,16 @@ export const guestPostingForEcommerce: AcademyTopic = {
             "Verifica que el sitio proporcione enlaces dofollow revisando guest posts existentes antes de hacer el pitch",
             "Evalua el engagement real de la audiencia via comentarios y compartidos sociales, no solo metricas de dominio"
           ],
-          tip: "Construye una lista continua de 50+ sitios objetivo y categorizalos en niveles: Nivel 1 (DR 60+, muy relevante), Nivel 2 (DR 30-60, relevante) y Nivel 3 (DR 20-30, blogs de nicho). Asigna tus mejores ideas de contenido a los sitios de Nivel 1."
+          tip: "Construye una lista continua de 50+ sitios objetivo y categorizalos en niveles: Nivel 1 (DR 60+, muy relevante), Nivel 2 (DR 30-60, relevante) y Nivel 3 (DR 20-30, blogs de nicho). Asigna tus mejores ideas de contenido a los sitios de Nivel 1.",
+          image: {
+            src: "/images/academy/es/guest-post-site-tiers.svg",
+            alt: "Pyramidendiagramm das drei Stufen von Gastbeitrag-Zielseiten nach Domain-Rating zeigt",
+            caption: "Ziele in Stufen nach Domain-Autoritaet organisieren. Ihre besten Inhaltsideen den Stufe-1-Seiten fuer maximalen Linkwert zuweisen.",
+          },
+          callout: {
+            title: "Vor dem Pitchen pruefen",
+            text: "Ueberpruefen Sie immer Dofollow-Link-Richtlinien indem Sie 2-3 bestehende Gastbeitraege auf jeder Zielseite inspizieren. Seiten die Links entfernen oder allen Autoren-Links Nofollow hinzufuegen verschwenden Ihren Outreach-Aufwand.",
+          },
         },
         {
           title: "Proponer temas que sean aceptados",
@@ -301,7 +364,16 @@ export const guestPostingForEcommerce: AcademyTopic = {
             "Rastrea trafico referido con parametros UTM y compara metricas de engagement",
             "Calcula el costo completo por post incluyendo investigacion, escritura, edicion y tiempo de outreach",
             "Compara el costo por enlace del guest posting con metodos alternativos de link building"
-          ]
+          ],
+          image: {
+            src: "/images/academy/es/guest-post-link-flow.svg",
+            alt: "Diagramm das den optimalen Linkfluss vom Gastbeitrag zu informativem Inhalt zu Produktseiten zeigt",
+            caption: "Zu Info-Inhalten verlinken die intern mit Produktseiten verbunden sind. Direkte Produktlinks aus Gastbeitraegen wirken erzwungen und werden abgelehnt.",
+          },
+          callout: {
+            title: "Natuerlicher Linkfluss",
+            text: "Gastbeitrag-Links zu Ihrem Kaufratgeber der intern zu Produktseiten verlinkt. Dieser Zweischritt-Fluss wirkt fuer Redakteure redaktionell und gibt Autoritaet an Ihre kommerziellen Seiten weiter ohne werblich zu erscheinen.",
+          },
         },
         {
           title: "Evitar penalizaciones y mantener la calidad",
@@ -339,7 +411,16 @@ export const guestPostingForEcommerce: AcademyTopic = {
             "Verifica che il sito fornisca link dofollow controllando i guest post esistenti prima di fare il pitch",
             "Valuta il reale engagement dell'audience tramite commenti e condivisioni social, non solo metriche di dominio"
           ],
-          tip: "Costruisci una lista continua di 50+ siti target e categorizzali in livelli: Livello 1 (DR 60+, altamente rilevante), Livello 2 (DR 30-60, rilevante) e Livello 3 (DR 20-30, blog di nicchia). Assegna le tue migliori idee di contenuto ai siti di Livello 1."
+          tip: "Costruisci una lista continua di 50+ siti target e categorizzali in livelli: Livello 1 (DR 60+, altamente rilevante), Livello 2 (DR 30-60, rilevante) e Livello 3 (DR 20-30, blog di nicchia). Assegna le tue migliori idee di contenuto ai siti di Livello 1.",
+          image: {
+            src: "/images/academy/it/guest-post-site-tiers.svg",
+            alt: "Pyramidendiagramm das drei Stufen von Gastbeitrag-Zielseiten nach Domain-Rating zeigt",
+            caption: "Ziele in Stufen nach Domain-Autoritaet organisieren. Ihre besten Inhaltsideen den Stufe-1-Seiten fuer maximalen Linkwert zuweisen.",
+          },
+          callout: {
+            title: "Vor dem Pitchen pruefen",
+            text: "Ueberpruefen Sie immer Dofollow-Link-Richtlinien indem Sie 2-3 bestehende Gastbeitraege auf jeder Zielseite inspizieren. Seiten die Links entfernen oder allen Autoren-Links Nofollow hinzufuegen verschwenden Ihren Outreach-Aufwand.",
+          },
         },
         {
           title: "Proporre argomenti che vengono accettati",
@@ -380,7 +461,16 @@ export const guestPostingForEcommerce: AcademyTopic = {
             "Traccia il traffico referral con parametri UTM e confronta le metriche di engagement",
             "Calcola il costo completo per post includendo ricerca, scrittura, editing e tempo di outreach",
             "Confronta il costo per link del guest posting con metodi alternativi di link building"
-          ]
+          ],
+          image: {
+            src: "/images/academy/it/guest-post-link-flow.svg",
+            alt: "Diagramm das den optimalen Linkfluss vom Gastbeitrag zu informativem Inhalt zu Produktseiten zeigt",
+            caption: "Zu Info-Inhalten verlinken die intern mit Produktseiten verbunden sind. Direkte Produktlinks aus Gastbeitraegen wirken erzwungen und werden abgelehnt.",
+          },
+          callout: {
+            title: "Natuerlicher Linkfluss",
+            text: "Gastbeitrag-Links zu Ihrem Kaufratgeber der intern zu Produktseiten verlinkt. Dieser Zweischritt-Fluss wirkt fuer Redakteure redaktionell und gibt Autoritaet an Ihre kommerziellen Seiten weiter ohne werblich zu erscheinen.",
+          },
         },
         {
           title: "Evitare penalita e mantenere la qualita",
@@ -418,7 +508,16 @@ export const guestPostingForEcommerce: AcademyTopic = {
             "Verifieer dat de site dofollow-links biedt door bestaande gastartikelen te controleren voor het pitchen",
             "Beoordeel echt publieksengagement via reacties en social shares, niet alleen domeinmetrics"
           ],
-          tip: "Bouw een doorlopende lijst van 50+ doelsites en categoriseer ze in niveaus: Niveau 1 (DR 60+, zeer relevant), Niveau 2 (DR 30-60, relevant) en Niveau 3 (DR 20-30, nicheblogs). Wijs je beste contentideeeen toe aan Niveau 1-sites."
+          tip: "Bouw een doorlopende lijst van 50+ doelsites en categoriseer ze in niveaus: Niveau 1 (DR 60+, zeer relevant), Niveau 2 (DR 30-60, relevant) en Niveau 3 (DR 20-30, nicheblogs). Wijs je beste contentideeeen toe aan Niveau 1-sites.",
+          image: {
+            src: "/images/academy/nl/guest-post-site-tiers.svg",
+            alt: "Pyramidendiagramm das drei Stufen von Gastbeitrag-Zielseiten nach Domain-Rating zeigt",
+            caption: "Ziele in Stufen nach Domain-Autoritaet organisieren. Ihre besten Inhaltsideen den Stufe-1-Seiten fuer maximalen Linkwert zuweisen.",
+          },
+          callout: {
+            title: "Vor dem Pitchen pruefen",
+            text: "Ueberpruefen Sie immer Dofollow-Link-Richtlinien indem Sie 2-3 bestehende Gastbeitraege auf jeder Zielseite inspizieren. Seiten die Links entfernen oder allen Autoren-Links Nofollow hinzufuegen verschwenden Ihren Outreach-Aufwand.",
+          },
         },
         {
           title: "Onderwerpen pitchen die worden geaccepteerd",
@@ -459,7 +558,16 @@ export const guestPostingForEcommerce: AcademyTopic = {
             "Volg verwijzingsverkeer met UTM-parameters en vergelijk engagementmetrics",
             "Bereken volledige kosten per artikel inclusief onderzoek, schrijven, redactie en outreachtijd",
             "Vergelijk kosten per link van guest posting met alternatieve linkbuildingmethoden"
-          ]
+          ],
+          image: {
+            src: "/images/academy/nl/guest-post-link-flow.svg",
+            alt: "Diagramm das den optimalen Linkfluss vom Gastbeitrag zu informativem Inhalt zu Produktseiten zeigt",
+            caption: "Zu Info-Inhalten verlinken die intern mit Produktseiten verbunden sind. Direkte Produktlinks aus Gastbeitraegen wirken erzwungen und werden abgelehnt.",
+          },
+          callout: {
+            title: "Natuerlicher Linkfluss",
+            text: "Gastbeitrag-Links zu Ihrem Kaufratgeber der intern zu Produktseiten verlinkt. Dieser Zweischritt-Fluss wirkt fuer Redakteure redaktionell und gibt Autoritaet an Ihre kommerziellen Seiten weiter ohne werblich zu erscheinen.",
+          },
         },
         {
           title: "Penalty's vermijden en kwaliteit handhaven",

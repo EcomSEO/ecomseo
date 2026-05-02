@@ -6,15 +6,13 @@ import JsonLd from "@/components/JsonLd";
 import Navigation from "@/components/sections/Navigation";
 import Hero from "@/components/sections/Hero";
 import ClientLogos from "@/components/sections/ClientLogos";
+import PartnerVoices from "@/components/sections/PartnerVoices";
 import AboutUs from "@/components/sections/AboutUs";
 import Results from "@/components/sections/Results";
 import Services from "@/components/sections/Services";
-import ToolsSoftware from "@/components/sections/ToolsSoftware";
-import Comparison from "@/components/sections/Comparison";
 import Process from "@/components/sections/Process";
-import DataFeeds from "@/components/sections/DataFeeds";
+import Comparison from "@/components/sections/Comparison";
 import FAQ from "@/components/sections/FAQ";
-import Certifications from "@/components/sections/Certifications";
 import CTA from "@/components/sections/CTA";
 import Footer from "@/components/sections/Footer";
 
@@ -35,15 +33,13 @@ export default function Home() {
       <main>
         <Hero />
         <ClientLogos />
-        <AboutUs />
         <Results />
-        <Services />
-        <ToolsSoftware />
+        <PartnerVoices />
         <Comparison />
+        <AboutUs />
+        <Services />
         <Process />
-        <DataFeeds />
         <FAQ />
-        <Certifications />
         <CTA />
       </main>
       <Footer />

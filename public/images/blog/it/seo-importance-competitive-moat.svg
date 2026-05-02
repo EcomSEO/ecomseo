@@ -1,0 +1,31 @@
+<svg viewBox="0 0 680 300" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <text x="340" y="28" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#a78bfa">SEO as a Competitive Moat</text>
+  <g transform="translate(40,50)">
+    <rect x="0" y="0" width="280" height="220" rx="6" stroke="#f97316" stroke-width="2" fill="none"/>
+    <text x="140" y="25" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#f97316">Paid Ads</text>
+    <text x="140" y="48" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Instantly contestable</text>
+    <line x1="20" y1="60" x2="260" y2="60" stroke="#f97316" stroke-width="1" stroke-dasharray="4"/>
+    <text x="20" y="82" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">CPCs rise 15-25% yearly</text>
+    <text x="20" y="100" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Competitor outbids tomorrow</text>
+    <text x="20" y="118" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Traffic stops when budget stops</text>
+    <text x="20" y="136" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">No compounding returns</text>
+    <text x="20" y="154" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">iOS 14.5 gutted targeting</text>
+    <line x1="20" y1="170" x2="260" y2="170" stroke="#f97316" stroke-width="1" stroke-dasharray="4"/>
+    <text x="140" y="195" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#f97316">No moat</text>
+    <text x="140" y="212" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Bigger budget wins instantly</text>
+  </g>
+  <g transform="translate(360,50)">
+    <rect x="0" y="0" width="280" height="220" rx="6" stroke="#4ade80" stroke-width="2" fill="none"/>
+    <text x="140" y="25" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#4ade80">Organic SEO</text>
+    <text x="140" y="48" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Cannot be bought overnight</text>
+    <line x1="20" y1="60" x2="260" y2="60" stroke="#4ade80" stroke-width="1" stroke-dasharray="4"/>
+    <text x="20" y="82" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Marginal cost approaches zero</text>
+    <text x="20" y="100" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Takes months to replicate</text>
+    <text x="20" y="118" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Traffic compounds over time</text>
+    <text x="20" y="136" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Authority grows every month</text>
+    <text x="20" y="154" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">3 years of SEO = hard to displace</text>
+    <line x1="20" y1="170" x2="260" y2="170" stroke="#4ade80" stroke-width="1" stroke-dasharray="4"/>
+    <text x="140" y="195" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#4ade80">Strong moat</text>
+    <text x="140" y="212" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Sustained quality wins long-term</text>
+  </g>
+</svg>

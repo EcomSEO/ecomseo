@@ -10,6 +10,9 @@ import { buildPageMetadata } from "@/lib/i18n/metadata";
 import type { Locale } from "@/lib/i18n/config";
 import { academyT, type AcademyCluster } from "@/lib/i18n/translations/academy";
 
+export const revalidate = 86400;
+
+
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   return buildPageMetadata(locale as Locale, "/academy");

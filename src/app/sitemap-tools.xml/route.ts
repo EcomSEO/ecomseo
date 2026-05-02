@@ -5,6 +5,8 @@ import {
   sitemapResponse,
 } from "@/lib/sitemap/helpers";
 
+export const revalidate = 3600;
+
 /**
  * sitemap-tools.xml
  * Tools hub + all individual tool pages.
@@ -38,10 +40,13 @@ const toolPages = [
 ];
 
 export async function GET() {
-  const lastmod = new Date().toISOString();
   const entries: UrlEntry[] = [];
 
-  addPages(entries, toolPages, { priority: 0.7, changefreq: "monthly", lastmod });
+  // Tools hub
+  addPages(entries, ["/tools"], { priority: 0.7, changefreq: "weekly", lastmod: "2026-03-25T00:00:00.000Z" });
+
+  // Individual tool pages
+  addPages(entries, toolPages.slice(1), { priority: 0.7, changefreq: "monthly", lastmod: "2026-03-08T00:00:00.000Z" });
 
   return sitemapResponse(wrapUrlset(entries));
 }

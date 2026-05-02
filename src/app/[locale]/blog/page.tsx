@@ -9,6 +9,9 @@ import CTA from "@/components/sections/CTA";
 import Footer from "@/components/sections/Footer";
 import BlogListClient from "./BlogListClient";
 
+export const revalidate = 86400;
+
+
 export async function generateMetadata({
   params,
 }: {

@@ -1,0 +1,49 @@
+<svg viewBox="0 0 680 300" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <text x="340" y="28" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#a78bfa">Competitor Keyword Gap Analysis Workflow</text>
+  <g transform="translate(30,55)">
+    <rect x="0" y="0" width="130" height="70" rx="8" stroke="#a78bfa" stroke-width="2" fill="none"/>
+    <text x="65" y="30" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#a78bfa">1. Input</text>
+    <text x="65" y="50" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Your domain + top</text>
+    <text x="65" y="64" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">4 competitors</text>
+  </g>
+  <line x1="165" y1="90" x2="195" y2="90" stroke="#e2e8f0" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <g transform="translate(200,55)">
+    <rect x="0" y="0" width="130" height="70" rx="8" stroke="#60a5fa" stroke-width="2" fill="none"/>
+    <text x="65" y="30" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#60a5fa">2. Filter</text>
+    <text x="65" y="50" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">2+ competitors rank</text>
+    <text x="65" y="64" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">You do not rank</text>
+  </g>
+  <line x1="335" y1="90" x2="365" y2="90" stroke="#e2e8f0" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <g transform="translate(370,55)">
+    <rect x="0" y="0" width="130" height="70" rx="8" stroke="#f97316" stroke-width="2" fill="none"/>
+    <text x="65" y="30" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#f97316">3. Categorize</text>
+    <text x="65" y="50" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Sort by page type</text>
+    <text x="65" y="64" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">and intent</text>
+  </g>
+  <line x1="505" y1="90" x2="535" y2="90" stroke="#e2e8f0" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <g transform="translate(540,55)">
+    <rect x="0" y="0" width="110" height="70" rx="8" stroke="#4ade80" stroke-width="2" fill="none"/>
+    <text x="55" y="30" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#4ade80">4. Execute</text>
+    <text x="55" y="50" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Optimize or</text>
+    <text x="55" y="64" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">create pages</text>
+  </g>
+  <line x1="30" y1="150" x2="650" y2="150" stroke="#a78bfa" stroke-width="1" stroke-dasharray="4"/>
+  <text x="340" y="172" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#a78bfa">Typical Output Breakdown</text>
+  <g transform="translate(60,190)">
+    <rect x="0" y="0" width="160" height="50" rx="6" stroke="#4ade80" stroke-width="2" fill="none"/>
+    <text x="80" y="22" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#4ade80">Category Pages</text>
+    <text x="80" y="40" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Optimize existing (29%)</text>
+  </g>
+  <g transform="translate(260,190)">
+    <rect x="0" y="0" width="160" height="50" rx="6" stroke="#60a5fa" stroke-width="2" fill="none"/>
+    <text x="80" y="22" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#60a5fa">New Subcategories</text>
+    <text x="80" y="40" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Create new pages (15%)</text>
+  </g>
+  <g transform="translate(460,190)">
+    <rect x="0" y="0" width="160" height="50" rx="6" stroke="#f97316" stroke-width="2" fill="none"/>
+    <text x="80" y="22" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#f97316">Blog Content</text>
+    <text x="80" y="40" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Informational terms (56%)</text>
+  </g>
+  <text x="340" y="275" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#e2e8f0">Focus on weak competitor pages (positions 5-20) for fastest wins</text>
+  <defs><marker id="arrow" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6" fill="#e2e8f0"/></marker></defs>
+</svg>

@@ -1,0 +1,24 @@
+<svg viewBox="0 0 480 260" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <text x="240" y="22" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#a78bfa">Content Mapped to Buying Journey</text>
+  <!-- Funnel stages -->
+  <polygon points="60,50 420,50 380,100 100,100" fill="#a78bfa" opacity="0.15" stroke="#a78bfa" stroke-width="1.5"/>
+  <text x="240" y="80" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#a78bfa">AWARENESS (40%)</text>
+  <polygon points="100,108 380,108 350,158 130,158" fill="#60a5fa" opacity="0.15" stroke="#60a5fa" stroke-width="1.5"/>
+  <text x="240" y="138" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#60a5fa">CONSIDERATION (35%)</text>
+  <polygon points="130,166 350,166 320,216 160,216" fill="#4ade80" opacity="0.15" stroke="#4ade80" stroke-width="1.5"/>
+  <text x="240" y="196" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#4ade80">DECISION (25%)</text>
+  <!-- Content types on right -->
+  <text x="435" y="72" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">How-to articles</text>
+  <text x="435" y="86" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Educational guides</text>
+  <text x="435" y="130" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Guides d'achat</text>
+  <text x="435" y="144" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Comparatifs</text>
+  <text x="435" y="188" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Pages produits</text>
+  <text x="435" y="202" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Landing pages</text>
+  <!-- Audience size arrows -->
+  <text x="30" y="80" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Large</text>
+  <text x="30" y="140" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Med</text>
+  <text x="30" y="196" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Small</text>
+  <line x1="30" y1="90" x2="30" y2="210" stroke="#e2e8f0" stroke-width="1" marker-end="url(#arr1)"/>
+  <defs><marker id="arr1" markerWidth="6" markerHeight="6" refX="3" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6Z" fill="#e2e8f0"/></marker></defs>
+  <text x="240" y="250" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Audience shrinks as purchase intent grows</text>
+</svg>

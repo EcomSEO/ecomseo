@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 290" fill="none">
+  <!-- Title -->
+  <text x="340" y="24" text-anchor="middle" fill="#a78bfa" font-family="Arial,sans-serif" font-size="14" font-weight="700">GSC Page Indexaring Status Dashboard</text>
+
+  <!-- Pie-chart-style breakdown as stacked bar -->
+  <rect x="60" y="50" width="560" height="36" rx="6" fill="#1a1a2e" stroke="#334155" stroke-width="1"/>
+
+  <!-- Indexaradas segment -->
+  <rect x="60" y="50" width="295" height="36" rx="6" fill="#4ade80" fill-opacity="0.15"/>
+  <text x="207" y="73" text-anchor="middle" fill="#4ade80" font-family="Arial,sans-serif" font-size="10" font-weight="600">Indexaradas: 6,500 (65%)</text>
+
+  <!-- Rastreadas not indexed -->
+  <rect x="355" y="50" width="115" height="36" fill="#f97316" fill-opacity="0.12"/>
+  <text x="412" y="73" text-anchor="middle" fill="#f97316" font-family="Arial,sans-serif" font-size="9" font-weight="600">Rastreadas: 1,500</text>
+
+  <!-- Descubiertas not indexed -->
+  <rect x="470" y="50" width="80" height="36" fill="#60a5fa" fill-opacity="0.12"/>
+  <text x="510" y="73" text-anchor="middle" fill="#60a5fa" font-family="Arial,sans-serif" font-size="9" font-weight="600">Found: 1,000</text>
+
+  <!-- Excluido -->
+  <rect x="550" y="50" width="70" height="36" rx="0 6 6 0" fill="#ef4444" fill-opacity="0.1"/>
+  <text x="585" y="73" text-anchor="middle" fill="#ef4444" font-family="Arial,sans-serif" font-size="9" font-weight="600">Otros: 1,000</text>
+
+  <!-- Detailed breakdown -->
+  <!-- Rastreadas not indexed -->
+  <rect x="60" y="110" width="270" height="70" rx="6" fill="#1a1a2e" stroke="#f97316" stroke-width="1"/>
+  <text x="195" y="130" text-anchor="middle" fill="#f97316" font-family="Arial,sans-serif" font-size="10" font-weight="600">Rastreadas - Currently Not Indexaradas</text>
+  <text x="195" y="148" text-anchor="middle" fill="#e2e8f0" font-family="Arial,sans-serif" font-size="9">Google visited but rejected the page</text>
+  <text x="195" y="166" text-anchor="middle" fill="#4ade80" font-family="Arial,sans-serif" font-size="9" font-weight="600">Fix: improve content quality, add unique text</text>
+
+  <!-- Descubiertas not indexed -->
+  <rect x="350" y="110" width="270" height="70" rx="6" fill="#1a1a2e" stroke="#60a5fa" stroke-width="1"/>
+  <text x="485" y="130" text-anchor="middle" fill="#60a5fa" font-family="Arial,sans-serif" font-size="10" font-weight="600">Descubiertas - Currently Not Indexaradas</text>
+  <text x="485" y="148" text-anchor="middle" fill="#e2e8f0" font-family="Arial,sans-serif" font-size="9">Google knows the URL but hasn't crawled it</text>
+  <text x="485" y="166" text-anchor="middle" fill="#4ade80" font-family="Arial,sans-serif" font-size="9" font-weight="600">Fix: strengthen internal links, improve sitemap</text>
+
+  <!-- Acción items -->
+  <rect x="60" y="200" width="560" height="65" rx="8" fill="#1a1a2e" stroke="#334155" stroke-width="1"/>
+  <text x="340" y="220" text-anchor="middle" fill="#e2e8f0" font-family="Arial,sans-serif" font-size="11" font-weight="600">Monthly Monitorearing Checklist</text>
+  <text x="150" y="240" text-anchor="middle" fill="#94a3b8" font-family="Arial,sans-serif" font-size="9">Track indexed count</text>
+  <text x="310" y="240" text-anchor="middle" fill="#94a3b8" font-family="Arial,sans-serif" font-size="9">Export exclusion reasons</text>
+  <text x="490" y="240" text-anchor="middle" fill="#94a3b8" font-family="Arial,sans-serif" font-size="9">Group by page type</text>
+  <text x="150" y="255" text-anchor="middle" fill="#4ade80" font-family="Arial,sans-serif" font-size="8">Watch for sudden drops</text>
+  <text x="310" y="255" text-anchor="middle" fill="#4ade80" font-family="Arial,sans-serif" font-size="8">Categorize for patterns</text>
+  <text x="490" y="255" text-anchor="middle" fill="#4ade80" font-family="Arial,sans-serif" font-size="8">Target systematic fixes</text>
+
+  <text x="340" y="285" text-anchor="middle" fill="#64748b" font-family="Arial,sans-serif" font-size="8">Healthy target: 85-95% of submitted product URLs indexed</text>
+</svg>

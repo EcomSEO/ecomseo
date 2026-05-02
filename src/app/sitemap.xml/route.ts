@@ -1,6 +1,9 @@
 import { NextResponse } from "next/server";
 import { BASE_URL } from "@/lib/i18n/config";
 
+export const revalidate = 3600;
+
+
 /**
  * Sitemap index – points to child sitemaps grouped by content type.
  */
@@ -13,10 +16,11 @@ const childSitemaps = [
   "sitemap-resources.xml",
   "sitemap-cases.xml",
   "sitemap-team.xml",
+  "sitemap-locations.xml",
 ];
 
 export async function GET() {
-  const lastmod = new Date().toISOString();
+  const lastmod = "2026-03-22T00:00:00.000Z"; // Fixed date — update when content changes
 
   let xml = `<?xml version="1.0" encoding="UTF-8"?>\n`;
   xml += `<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n`;

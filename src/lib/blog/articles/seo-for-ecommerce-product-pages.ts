@@ -3,7 +3,7 @@ import type { BlogArticle } from "../types";
 export const seoForEcommerceProductPages: BlogArticle = {
   slug: "seo-for-ecommerce-product-pages",
   category: "on-page",
-  publishDate: "2025-06-22",
+  publishDate: "2026-02-26",
   readingTime: 12,
   author: "Fabian van Til",
   authorRole: "CEO at EcomSEO",
@@ -26,6 +26,7 @@ export const seoForEcommerceProductPages: BlogArticle = {
             "Here is the reality: product pages capture long-tail search traffic that converts at a significantly higher rate than any other page type. Someone searching for 'Nike Air Zoom Pegasus 40 women's size 8' is not browsing. They are buying. If your product page is the one that shows up, you get that sale. The category pages above them in the hierarchy play an equally important role — see our guide to [ecommerce category page SEO](/blog/ecommerce-category-page-seo) for that side of the equation.",
             "We have measured this across our client base. Product page organic traffic typically converts at 3-5%, compared to 1-2% for category pages and 0.3-0.8% for blog content. The traffic volumes are lower per page, but the conversion rates make each visitor far more valuable. A store with 500 optimized product pages capturing even 10 visitors per month each at a 4% conversion rate generates 200 sales per month from product page SEO alone. Our [product page SEO academy lesson](/academy/product-page-seo) walks through the full optimization process step by step.",
           ],
+          image: { src: "/images/blog/product-page-conversion.svg", alt: "Horizontal bar chart comparing organic conversion rates: product pages 3-5%, category pages 1-2%, blog 0.3-0.8%", caption: "Product pages convert organic traffic at 3-5%, significantly outperforming category pages and blog content." },
         },
         {
           heading: "Product title optimization",
@@ -46,6 +47,7 @@ export const seoForEcommerceProductPages: BlogArticle = {
             "Length matters. Product descriptions under 100 words rarely rank for anything useful. Aim for 250-400 words on standard products and 500+ words on high-value products where shoppers do more research before buying (electronics, furniture, fitness equipment). Do not pad descriptions with fluff. Every sentence should either answer a question or remove an objection.",
             "We worked with an electronics retailer that had 150-word template descriptions across 800 products. After rewriting the top 200 product descriptions with unique, detailed content averaging 350 words, those pages saw a 52% increase in organic traffic over four months. The rewrite project took about six weeks with two writers. The ROI was clear by month three.",
           ],
+          callout: { title: "Unique Descriptions Pay", text: "Rewriting 200 product descriptions from 150-word templates to 350-word unique content drove a 52% organic traffic increase in four months. Stop using manufacturer copy that appears on 50 other sites." },
         },
         {
           heading: "Product image SEO",
@@ -57,6 +59,8 @@ export const seoForEcommerceProductPages: BlogArticle = {
             "Serve images in WebP format at appropriate dimensions. A product image displayed at 600px wide should not be served at 2400px wide with the browser doing the downsizing. Use responsive images with the srcset attribute to serve different sizes for different devices. This single optimization often cuts page weight by 40-60%.",
             "Consider adding video to product pages. Product demonstration videos keep visitors on the page longer (which helps rankings) and dramatically increase conversion rates. YouTube-hosted product videos can also rank separately in video search results, giving you another entry point. Even a simple 30-second video showing the product from different angles outperforms a set of static images.",
           ],
+          image: { src: "/images/blog/product-image-seo-pipeline.svg", alt: "Product image SEO optimization pipeline from descriptive filenames through alt text, WebP format, responsive srcset, to schema markup", caption: "Google Images drives 20-30% of ecommerce organic traffic -- optimize every step of the image pipeline." },
+          callout: { title: "Image Traffic Channel", text: "Google Images drives 20-30% of organic traffic for ecommerce stores. Rename files descriptively, add detailed alt text, serve WebP with responsive srcset, and map images to variants in Product schema." },
         },
         {
           heading: "Product schema markup done right",
@@ -67,6 +71,8 @@ export const seoForEcommerceProductPages: BlogArticle = {
             "Test every product page template (not just one product) with Google's Rich Results Test. Different product types might use different templates, and an error in one template can affect hundreds of pages. After implementation, monitor the Products section in Search Console's Enhancements report. It takes 2-4 weeks for Google to process schema changes across your full catalog.",
             "One often-missed opportunity: if you have a size or variant selector that changes the price, make sure the schema reflects the base price or the price range. Google supports both priceRange and individual offer arrays for products with multiple variants. Showing a price range ('$29.99 - $49.99') in the search result can actually increase clicks because shoppers know there is an entry price point. Build your product schema quickly and accurately with our [free schema generator tool](/tools/schema-generator). For a full walkthrough, the [structured data for products](/academy/structured-data-for-products) academy lesson covers every property worth implementing.",
           ],
+          image: { src: "/images/blog/product-page-schema-checklist.svg", alt: "Product schema markup checklist showing required fields, recommended fields, and critical implementation rules", caption: "Complete product schema with all recommended fields produces a 15-25% CTR improvement over minimum markup." },
+          callout: { title: "Schema Drives Clicks", text: "Complete product schema with price, availability, and star ratings produces a 15-25% CTR improvement. Ensure schema values update dynamically -- stale prices can get your rich snippets dropped." },
         },
         {
           heading: "Using reviews as an SEO asset",
@@ -77,6 +83,8 @@ export const seoForEcommerceProductPages: BlogArticle = {
             "Implement review schema using the aggregateRating and review properties within your Product schema. This is what generates the star rating display in search results. Make sure the review count in your schema matches the actual number of reviews on the page. Inconsistencies can result in a manual penalty for structured data spam.",
             "Actively solicit reviews through post-purchase emails. Send a review request 7-14 days after delivery (enough time to use the product but soon enough that the experience is fresh). Make the review process simple. Ask for a star rating and a short text review. Incentivize with a small discount on the next purchase if your platform and local regulations allow it. More reviews mean better SEO, better conversion rates, and better data about your products.",
           ],
+          image: { src: "/images/blog/product-reviews-seo-value.svg", alt: "Three SEO benefits of product reviews: unique content generation, natural keyword variations, and freshness signals with implementation best practices", caption: "25 reviews add 2,000-3,000 words of unique user-generated content that ranks for long-tail queries." },
+          callout: { title: "Reviews Are Free Content", text: "Display reviews directly on the page, never behind tabs. Implement aggregateRating schema for star snippets. Add a Q&A section alongside reviews for additional long-tail keyword content." },
         },
         {
           heading: "Handling product variants, colors, and sizes",
@@ -97,6 +105,7 @@ export const seoForEcommerceProductPages: BlogArticle = {
             "What about seasonal products that come and go? Keep the page live year-round. A 'Christmas gift baskets' product page that only exists from October to December loses all its rankings every year and has to start from scratch. Keep the page active with a note about seasonal availability and a signup form for notifications. This preserves your rankings and gives you a head start each season.",
             "Run a monthly check for 404 pages using Google Search Console (Coverage > Not found). Any product page returning a 404 that still has external links or rankings should be redirected immediately. We have seen stores lose thousands of dollars in organic revenue per month from accumulated 404 errors on old product pages. Redirect management is just one part of keeping your product pages technically healthy — our guide to [technical SEO for ecommerce](/blog/technical-seo-for-ecommerce) covers the full picture.",
           ],
+          image: { src: "/images/blog/product-page-outofstock-flow.svg", alt: "Decision flow for handling out-of-stock products: keep page live if returning, 301 redirect if discontinued", caption: "Never return a 404 for product pages -- keep them live or redirect to preserve SEO value." },
         },
         {
           heading: "Cross-selling as an internal linking strategy",
@@ -121,6 +130,7 @@ export const seoForEcommerceProductPages: BlogArticle = {
             "Hier ist die Realität: Produktseiten erfassen Long-Tail-Suchverkehr, der mit einer deutlich höheren Rate konvertiert als jeder andere Seitentyp. Jemand, der nach 'Nike Air Zoom Pegasus 40 Damen Größe 39' sucht, stöbert nicht. Er kauft. Wenn deine Produktseite diejenige ist, die angezeigt wird, bekommst du diesen Verkauf. Die übergeordneten Kategorieseiten spielen eine ebenso wichtige Rolle — siehe unseren Leitfaden zur [Ecommerce-Kategorieseiten-SEO](/blog/ecommerce-category-page-seo) für diese Seite der Gleichung.",
             "Wir haben dies über unseren Kundenstamm hinweg gemessen. Organischer Traffic auf Produktseiten konvertiert typischerweise bei 3-5%, verglichen mit 1-2% für Kategorieseiten und 0,3-0,8% für Blog-Content. Die Traffic-Volumen sind pro Seite geringer, aber die Konversionsraten machen jeden Besucher deutlich wertvoller. Ein Shop mit 500 optimierten Produktseiten, der auch nur 10 Besucher pro Monat pro Seite bei einer Konversionsrate von 4% erfasst, generiert 200 Verkäufe pro Monat allein durch Produktseiten-SEO. Unsere [Produktseiten-SEO-Academy-Lektion](/academy/product-page-seo) führt Schritt für Schritt durch den gesamten Optimierungsprozess.",
           ],
+          image: { src: "/images/blog/de/product-page-conversion.svg", alt: "Horizontal bar chart comparing organic conversion rates: product pages 3-5%, category pages 1-2%, blog 0.3-0.8%", caption: "Product pages convert organic traffic at 3-5%, significantly outperforming category pages and blog content." },
         },
         {
           heading: "Optimierung von Produkttiteln",
@@ -141,6 +151,7 @@ export const seoForEcommerceProductPages: BlogArticle = {
             "Länge ist wichtig. Produktbeschreibungen unter 100 Wörtern ranken selten für etwas Nützliches. Strebe 250-400 Wörter bei Standardprodukten und 500+ Wörter bei hochwertigen Produkten an, bei denen Käufer vor dem Kauf mehr recherchieren (Elektronik, Möbel, Fitnessgeräte). Fülle Beschreibungen nicht mit Fülltext auf. Jeder Satz sollte entweder eine Frage beantworten oder einen Einwand entkräften.",
             "Wir haben mit einem Elektronikhändler gearbeitet, der 150-Wort-Template-Beschreibungen über 800 Produkte hatte. Nach dem Umschreiben der Top-200-Produktbeschreibungen mit einzigartigem, detailliertem Content von durchschnittlich 350 Wörtern verzeichneten diese Seiten einen Anstieg des organischen Traffics um 52% über vier Monate. Das Umschreibungsprojekt dauerte etwa sechs Wochen mit zwei Autoren. Der ROI war ab Monat drei eindeutig.",
           ],
+          callout: { title: "Unique Descriptions Pay", text: "Rewriting 200 product descriptions from 150-word templates to 350-word unique content drove a 52% organic traffic increase in four months. Stop using manufacturer copy that appears on 50 other sites." },
         },
         {
           heading: "Produktbild-SEO",
@@ -152,6 +163,8 @@ export const seoForEcommerceProductPages: BlogArticle = {
             "Liefere Bilder im WebP-Format in angemessenen Dimensionen aus. Ein Produktbild, das bei 600px Breite angezeigt wird, sollte nicht in 2400px Breite ausgeliefert werden, während der Browser das Herunterskalieren übernimmt. Verwende responsive Bilder mit dem srcset-Attribut, um verschiedene Größen für verschiedene Geräte bereitzustellen. Diese einzelne Optimierung reduziert das Seitengewicht oft um 40-60%.",
             "Erwäge, Videos zu Produktseiten hinzuzufügen. Produktdemonstrations-Videos halten Besucher länger auf der Seite (was den Rankings hilft) und steigern die Konversionsraten erheblich. Auf YouTube gehostete Produktvideos können auch separat in den Video-Suchergebnissen ranken und dir einen weiteren Einstiegspunkt bieten. Selbst ein einfaches 30-Sekunden-Video, das das Produkt aus verschiedenen Blickwinkeln zeigt, übertrifft eine Reihe statischer Bilder.",
           ],
+          image: { src: "/images/blog/de/product-image-seo-pipeline.svg", alt: "Product image SEO optimization pipeline from descriptive filenames through alt text, WebP format, responsive srcset, to schema markup", caption: "Google Images drives 20-30% of ecommerce organic traffic -- optimize every step of the image pipeline." },
+          callout: { title: "Image Traffic Channel", text: "Google Images drives 20-30% of organic traffic for ecommerce stores. Rename files descriptively, add detailed alt text, serve WebP with responsive srcset, and map images to variants in Product schema." },
         },
         {
           heading: "Produkt-Schema-Markup richtig gemacht",
@@ -162,6 +175,8 @@ export const seoForEcommerceProductPages: BlogArticle = {
             "Teste jedes Produktseiten-Template (nicht nur ein Produkt) mit Googles Rich Results Test. Verschiedene Produkttypen verwenden möglicherweise unterschiedliche Templates, und ein Fehler in einem Template kann Hunderte von Seiten betreffen. Überwache nach der Implementierung den Bereich Produkte im Bericht Verbesserungen der Search Console. Google benötigt 2-4 Wochen, um Schema-Änderungen über deinen gesamten Katalog zu verarbeiten.",
             "Eine oft übersehene Möglichkeit: Wenn du einen Größen- oder Variantenauswähler hast, der den Preis ändert, stelle sicher, dass das Schema den Grundpreis oder die Preisspanne widerspiegelt. Google unterstützt sowohl priceRange als auch individuelle Offer-Arrays für Produkte mit mehreren Varianten. Die Anzeige einer Preisspanne ('29,99 € - 49,99 €') im Suchergebnis kann die Klicks tatsächlich erhöhen, weil Käufer wissen, dass es einen Einstiegspreis gibt. Erstelle dein Produkt-Schema schnell und genau mit unserem [kostenlosen Schema-Generator-Tool](/tools/schema-generator). Für eine vollständige Anleitung behandelt die [Structured Data für Produkte](/academy/structured-data-for-products) Academy-Lektion jede Eigenschaft, die es wert ist, implementiert zu werden.",
           ],
+          image: { src: "/images/blog/de/product-page-schema-checklist.svg", alt: "Product schema markup checklist showing required fields, recommended fields, and critical implementation rules", caption: "Complete product schema with all recommended fields produces a 15-25% CTR improvement over minimum markup." },
+          callout: { title: "Schema Drives Clicks", text: "Complete product schema with price, availability, and star ratings produces a 15-25% CTR improvement. Ensure schema values update dynamically -- stale prices can get your rich snippets dropped." },
         },
         {
           heading: "Bewertungen als SEO-Asset nutzen",
@@ -172,6 +187,8 @@ export const seoForEcommerceProductPages: BlogArticle = {
             "Implementiere Bewertungs-Schema mit den Eigenschaften aggregateRating und review innerhalb deines Produkt-Schemas. Das ist es, was die Sternebewertungsanzeige in den Suchergebnissen erzeugt. Stelle sicher, dass die Anzahl der Bewertungen in deinem Schema mit der tatsächlichen Anzahl der Bewertungen auf der Seite übereinstimmt. Inkonsistenzen können zu einer manuellen Abstrafung für Structured-Data-Spam führen.",
             "Fordere aktiv Bewertungen durch E-Mails nach dem Kauf an. Sende eine Bewertungsanfrage 7-14 Tage nach der Lieferung (genug Zeit, um das Produkt zu nutzen, aber früh genug, damit die Erfahrung frisch ist). Mache den Bewertungsprozess einfach. Bitte um eine Sternebewertung und eine kurze Textbewertung. Biete einen kleinen Rabatt auf den nächsten Einkauf an, wenn deine Plattform und lokale Vorschriften es erlauben. Mehr Bewertungen bedeuten bessere SEO, bessere Konversionsraten und bessere Daten über deine Produkte.",
           ],
+          image: { src: "/images/blog/de/product-reviews-seo-value.svg", alt: "Three SEO benefits of product reviews: unique content generation, natural keyword variations, and freshness signals with implementation best practices", caption: "25 reviews add 2,000-3,000 words of unique user-generated content that ranks for long-tail queries." },
+          callout: { title: "Reviews Are Free Content", text: "Display reviews directly on the page, never behind tabs. Implement aggregateRating schema for star snippets. Add a Q&A section alongside reviews for additional long-tail keyword content." },
         },
         {
           heading: "Umgang mit Produktvarianten, Farben und Größen",
@@ -192,6 +209,7 @@ export const seoForEcommerceProductPages: BlogArticle = {
             "Was ist mit saisonalen Produkten, die kommen und gehen? Lass die Seite das ganze Jahr über online. Eine 'Weihnachtsgeschenkkörbe'-Produktseite, die nur von Oktober bis Dezember existiert, verliert jedes Jahr alle ihre Rankings und muss von vorne anfangen. Halte die Seite aktiv mit einem Hinweis zur saisonalen Verfügbarkeit und einem Anmeldeformular für Benachrichtigungen. Das bewahrt deine Rankings und gibt dir jede Saison einen Vorsprung.",
             "Führe monatlich eine Prüfung auf 404-Seiten mit der Google Search Console durch (Abdeckung > Nicht gefunden). Jede Produktseite, die einen 404-Fehler zurückgibt und noch externe Links oder Rankings hat, sollte sofort umgeleitet werden. Wir haben gesehen, wie Shops Tausende von Euro an organischem Umsatz pro Monat durch angehäufte 404-Fehler auf alten Produktseiten verloren haben. Redirect-Management ist nur ein Teil der technischen Gesundheit deiner Produktseiten — unser Leitfaden zur [technischen SEO für Ecommerce](/blog/technical-seo-for-ecommerce) deckt das vollständige Bild ab.",
           ],
+          image: { src: "/images/blog/de/product-page-outofstock-flow.svg", alt: "Decision flow for handling out-of-stock products: keep page live if returning, 301 redirect if discontinued", caption: "Never return a 404 for product pages -- keep them live or redirect to preserve SEO value." },
         },
         {
           heading: "Cross-Selling als interne Verlinkungsstrategie",
@@ -216,6 +234,7 @@ export const seoForEcommerceProductPages: BlogArticle = {
             "Voici la réalité : les pages produits captent du trafic de recherche longue traîne qui convertit à un taux significativement plus élevé que tout autre type de page. Quelqu'un qui recherche 'Nike Air Zoom Pegasus 40 femme taille 39' ne navigue pas. Il achète. Si votre page produit est celle qui apparaît, vous obtenez cette vente. Les pages de catégorie au-dessus dans la hiérarchie jouent un rôle tout aussi important — consultez notre guide sur le [SEO des pages de catégorie ecommerce](/blog/ecommerce-category-page-seo) pour cet aspect.",
             "Nous avons mesuré cela sur l'ensemble de notre portefeuille clients. Le trafic organique des pages produits convertit typiquement à 3-5%, contre 1-2% pour les pages de catégorie et 0,3-0,8% pour le contenu de blog. Les volumes de trafic sont plus faibles par page, mais les taux de conversion rendent chaque visiteur bien plus précieux. Une boutique avec 500 pages produits optimisées captant même 10 visiteurs par mois chacune à un taux de conversion de 4% génère 200 ventes par mois grâce au SEO des pages produits seul. Notre [leçon academy sur le SEO des pages produits](/academy/product-page-seo) guide étape par étape à travers le processus d'optimisation complet.",
           ],
+          image: { src: "/images/blog/fr/product-page-conversion.svg", alt: "Horizontal bar chart comparing organic conversion rates: product pages 3-5%, category pages 1-2%, blog 0.3-0.8%", caption: "Product pages convert organic traffic at 3-5%, significantly outperforming category pages and blog content." },
         },
         {
           heading: "Optimisation des titres de produits",
@@ -236,6 +255,7 @@ export const seoForEcommerceProductPages: BlogArticle = {
             "La longueur compte. Les descriptions de produits de moins de 100 mots se positionnent rarement pour quoi que ce soit d'utile. Visez 250-400 mots pour les produits standard et 500+ mots pour les produits à forte valeur où les acheteurs font plus de recherches avant d'acheter (électronique, meubles, équipements de fitness). Ne remplissez pas les descriptions de contenu superflu. Chaque phrase devrait soit répondre à une question, soit lever une objection.",
             "Nous avons travaillé avec un détaillant en électronique qui avait des descriptions template de 150 mots sur 800 produits. Après la réécriture des 200 meilleures descriptions de produits avec un contenu unique et détaillé d'une moyenne de 350 mots, ces pages ont connu une augmentation de 52% du trafic organique sur quatre mois. Le projet de réécriture a pris environ six semaines avec deux rédacteurs. Le ROI était clair dès le troisième mois.",
           ],
+          callout: { title: "Unique Descriptions Pay", text: "Rewriting 200 product descriptions from 150-word templates to 350-word unique content drove a 52% organic traffic increase in four months. Stop using manufacturer copy that appears on 50 other sites." },
         },
         {
           heading: "SEO des images produits",
@@ -247,6 +267,8 @@ export const seoForEcommerceProductPages: BlogArticle = {
             "Servez les images au format WebP aux dimensions appropriées. Une image produit affichée à 600px de large ne devrait pas être servie à 2400px de large avec le navigateur qui fait le redimensionnement. Utilisez des images responsives avec l'attribut srcset pour servir différentes tailles pour différents appareils. Cette seule optimisation réduit souvent le poids de la page de 40-60%.",
             "Envisagez d'ajouter de la vidéo aux pages produits. Les vidéos de démonstration de produit maintiennent les visiteurs plus longtemps sur la page (ce qui aide les classements) et augmentent considérablement les taux de conversion. Les vidéos de produit hébergées sur YouTube peuvent également se positionner séparément dans les résultats de recherche vidéo, vous offrant un autre point d'entrée. Même une simple vidéo de 30 secondes montrant le produit sous différents angles surpasse un ensemble d'images statiques.",
           ],
+          image: { src: "/images/blog/fr/product-image-seo-pipeline.svg", alt: "Product image SEO optimization pipeline from descriptive filenames through alt text, WebP format, responsive srcset, to schema markup", caption: "Google Images drives 20-30% of ecommerce organic traffic -- optimize every step of the image pipeline." },
+          callout: { title: "Image Traffic Channel", text: "Google Images drives 20-30% of organic traffic for ecommerce stores. Rename files descriptively, add detailed alt text, serve WebP with responsive srcset, and map images to variants in Product schema." },
         },
         {
           heading: "Le schema markup produit bien fait",
@@ -257,6 +279,8 @@ export const seoForEcommerceProductPages: BlogArticle = {
             "Testez chaque template de page produit (pas un seul produit) avec le Rich Results Test de Google. Différents types de produits peuvent utiliser différents templates, et une erreur dans un template peut affecter des centaines de pages. Après l'implémentation, surveillez la section Produits dans le rapport Améliorations de la Search Console. Google met 2 à 4 semaines pour traiter les changements de schema sur l'ensemble de votre catalogue.",
             "Une opportunité souvent manquée : si vous avez un sélecteur de taille ou de variante qui change le prix, assurez-vous que le schema reflète le prix de base ou la fourchette de prix. Google prend en charge à la fois priceRange et les tableaux d'offres individuelles pour les produits avec plusieurs variantes. Afficher une fourchette de prix ('29,99 € - 49,99 €') dans le résultat de recherche peut en fait augmenter les clics car les acheteurs savent qu'il y a un prix d'entrée. Créez votre schema produit rapidement et précisément avec notre [outil générateur de schema gratuit](/tools/schema-generator). Pour un tutoriel complet, la leçon academy sur les [données structurées pour les produits](/academy/structured-data-for-products) couvre chaque propriété qui mérite d'être implémentée.",
           ],
+          image: { src: "/images/blog/fr/product-page-schema-checklist.svg", alt: "Product schema markup checklist showing required fields, recommended fields, and critical implementation rules", caption: "Complete product schema with all recommended fields produces a 15-25% CTR improvement over minimum markup." },
+          callout: { title: "Schema Drives Clicks", text: "Complete product schema with price, availability, and star ratings produces a 15-25% CTR improvement. Ensure schema values update dynamically -- stale prices can get your rich snippets dropped." },
         },
         {
           heading: "Utiliser les avis comme un atout SEO",
@@ -267,6 +291,8 @@ export const seoForEcommerceProductPages: BlogArticle = {
             "Implémentez le schema des avis en utilisant les propriétés aggregateRating et review au sein de votre schema Product. C'est ce qui génère l'affichage des étoiles dans les résultats de recherche. Assurez-vous que le nombre d'avis dans votre schema correspond au nombre réel d'avis sur la page. Les incohérences peuvent entraîner une pénalité manuelle pour spam de données structurées.",
             "Sollicitez activement des avis par des emails post-achat. Envoyez une demande d'avis 7-14 jours après la livraison (assez de temps pour utiliser le produit mais assez tôt pour que l'expérience soit fraîche). Rendez le processus d'avis simple. Demandez une note en étoiles et un court avis texte. Offrez une petite remise sur le prochain achat si votre plateforme et les réglementations locales le permettent. Plus d'avis signifie un meilleur SEO, de meilleurs taux de conversion et de meilleures données sur vos produits.",
           ],
+          image: { src: "/images/blog/fr/product-reviews-seo-value.svg", alt: "Three SEO benefits of product reviews: unique content generation, natural keyword variations, and freshness signals with implementation best practices", caption: "25 reviews add 2,000-3,000 words of unique user-generated content that ranks for long-tail queries." },
+          callout: { title: "Reviews Are Free Content", text: "Display reviews directly on the page, never behind tabs. Implement aggregateRating schema for star snippets. Add a Q&A section alongside reviews for additional long-tail keyword content." },
         },
         {
           heading: "Gérer les variantes de produit, couleurs et tailles",
@@ -287,6 +313,7 @@ export const seoForEcommerceProductPages: BlogArticle = {
             "Qu'en est-il des produits saisonniers qui vont et viennent ? Gardez la page en ligne toute l'année. Une page produit 'paniers cadeaux de Noël' qui n'existe que d'octobre à décembre perd tous ses classements chaque année et doit repartir de zéro. Gardez la page active avec une note sur la disponibilité saisonnière et un formulaire d'inscription pour les notifications. Cela préserve vos classements et vous donne une longueur d'avance chaque saison.",
             "Effectuez une vérification mensuelle des pages 404 avec Google Search Console (Couverture > Non trouvé). Toute page produit renvoyant un 404 qui a encore des liens externes ou des classements devrait être redirigée immédiatement. Nous avons vu des boutiques perdre des milliers d'euros de revenus organiques par mois à cause d'erreurs 404 accumulées sur d'anciennes pages produits. La gestion des redirections n'est qu'une partie du maintien de la santé technique de vos pages produits — notre guide sur le [SEO technique pour l'ecommerce](/blog/technical-seo-for-ecommerce) couvre le tableau complet.",
           ],
+          image: { src: "/images/blog/fr/product-page-outofstock-flow.svg", alt: "Decision flow for handling out-of-stock products: keep page live if returning, 301 redirect if discontinued", caption: "Never return a 404 for product pages -- keep them live or redirect to preserve SEO value." },
         },
         {
           heading: "Le cross-selling comme stratégie de maillage interne",
@@ -311,6 +338,7 @@ export const seoForEcommerceProductPages: BlogArticle = {
             "Esta es la realidad: las páginas de producto capturan tráfico de búsqueda de cola larga que convierte a una tasa significativamente más alta que cualquier otro tipo de página. Alguien que busca 'Nike Air Zoom Pegasus 40 mujer talla 39' no está navegando. Está comprando. Si tu página de producto es la que aparece, consigues esa venta. Las páginas de categoría superiores en la jerarquía juegan un papel igualmente importante — consulta nuestra guía sobre [SEO para páginas de categoría ecommerce](/blog/ecommerce-category-page-seo) para ese lado de la ecuación.",
             "Hemos medido esto en toda nuestra base de clientes. El tráfico orgánico a páginas de producto convierte típicamente al 3-5%, comparado con 1-2% para páginas de categoría y 0,3-0,8% para contenido de blog. Los volúmenes de tráfico son menores por página, pero las tasas de conversión hacen que cada visitante sea mucho más valioso. Una tienda con 500 páginas de producto optimizadas que capta incluso 10 visitantes al mes cada una con una tasa de conversión del 4% genera 200 ventas al mes solo con el SEO de páginas de producto. Nuestra [lección de la academy sobre SEO de páginas de producto](/academy/product-page-seo) te guía paso a paso por todo el proceso de optimización.",
           ],
+          image: { src: "/images/blog/es/product-page-conversion.svg", alt: "Horizontal bar chart comparing organic conversion rates: product pages 3-5%, category pages 1-2%, blog 0.3-0.8%", caption: "Product pages convert organic traffic at 3-5%, significantly outperforming category pages and blog content." },
         },
         {
           heading: "Optimización de títulos de producto",
@@ -331,6 +359,7 @@ export const seoForEcommerceProductPages: BlogArticle = {
             "La longitud importa. Las descripciones de producto de menos de 100 palabras rara vez posicionan para algo útil. Apunta a 250-400 palabras en productos estándar y 500+ palabras en productos de alto valor donde los compradores investigan más antes de comprar (electrónica, muebles, equipamiento deportivo). No rellenes las descripciones con contenido de relleno. Cada frase debería responder una pregunta o eliminar una objeción.",
             "Trabajamos con un distribuidor de electrónica que tenía descripciones de plantilla de 150 palabras en 800 productos. Después de reescribir las 200 mejores descripciones de producto con contenido único y detallado con una media de 350 palabras, esas páginas experimentaron un aumento del 52% en tráfico orgánico en cuatro meses. El proyecto de reescritura llevó unas seis semanas con dos redactores. El ROI fue claro desde el tercer mes.",
           ],
+          callout: { title: "Unique Descriptions Pay", text: "Rewriting 200 product descriptions from 150-word templates to 350-word unique content drove a 52% organic traffic increase in four months. Stop using manufacturer copy that appears on 50 other sites." },
         },
         {
           heading: "SEO de imágenes de producto",
@@ -342,6 +371,8 @@ export const seoForEcommerceProductPages: BlogArticle = {
             "Sirve las imágenes en formato WebP con las dimensiones apropiadas. Una imagen de producto que se muestra a 600px de ancho no debería servirse a 2400px de ancho dejando que el navegador haga el redimensionamiento. Usa imágenes responsive con el atributo srcset para servir diferentes tamaños para diferentes dispositivos. Esta única optimización a menudo reduce el peso de la página en un 40-60%.",
             "Considera añadir vídeo a las páginas de producto. Los vídeos de demostración de producto mantienen a los visitantes más tiempo en la página (lo que ayuda a los rankings) y aumentan drásticamente las tasas de conversión. Los vídeos de producto alojados en YouTube también pueden posicionar por separado en los resultados de búsqueda de vídeo, dándote otro punto de entrada. Incluso un simple vídeo de 30 segundos mostrando el producto desde diferentes ángulos supera a un conjunto de imágenes estáticas.",
           ],
+          image: { src: "/images/blog/es/product-image-seo-pipeline.svg", alt: "Product image SEO optimization pipeline from descriptive filenames through alt text, WebP format, responsive srcset, to schema markup", caption: "Google Images drives 20-30% of ecommerce organic traffic -- optimize every step of the image pipeline." },
+          callout: { title: "Image Traffic Channel", text: "Google Images drives 20-30% of organic traffic for ecommerce stores. Rename files descriptively, add detailed alt text, serve WebP with responsive srcset, and map images to variants in Product schema." },
         },
         {
           heading: "Schema markup de producto bien implementado",
@@ -352,6 +383,8 @@ export const seoForEcommerceProductPages: BlogArticle = {
             "Prueba cada plantilla de página de producto (no solo un producto) con el Rich Results Test de Google. Diferentes tipos de producto pueden usar diferentes plantillas, y un error en una plantilla puede afectar a cientos de páginas. Después de la implementación, monitoriza la sección Productos en el informe de Mejoras de Search Console. Google tarda 2-4 semanas en procesar los cambios de schema en todo tu catálogo.",
             "Una oportunidad frecuentemente pasada por alto: si tienes un selector de talla o variante que cambia el precio, asegúrate de que el schema refleje el precio base o el rango de precios. Google soporta tanto priceRange como arrays de ofertas individuales para productos con múltiples variantes. Mostrar un rango de precios ('29,99 € - 49,99 €') en el resultado de búsqueda puede en realidad aumentar los clics porque los compradores saben que hay un precio de entrada. Crea tu schema de producto rápida y precisamente con nuestro [generador de schema gratuito](/tools/schema-generator). Para un tutorial completo, la lección de la academy sobre [datos estructurados para productos](/academy/structured-data-for-products) cubre cada propiedad que vale la pena implementar.",
           ],
+          image: { src: "/images/blog/es/product-page-schema-checklist.svg", alt: "Product schema markup checklist showing required fields, recommended fields, and critical implementation rules", caption: "Complete product schema with all recommended fields produces a 15-25% CTR improvement over minimum markup." },
+          callout: { title: "Schema Drives Clicks", text: "Complete product schema with price, availability, and star ratings produces a 15-25% CTR improvement. Ensure schema values update dynamically -- stale prices can get your rich snippets dropped." },
         },
         {
           heading: "Usar las reseñas como un activo SEO",
@@ -362,6 +395,8 @@ export const seoForEcommerceProductPages: BlogArticle = {
             "Implementa el schema de reseñas usando las propiedades aggregateRating y review dentro de tu schema Product. Esto es lo que genera la visualización de estrellas en los resultados de búsqueda. Asegúrate de que el número de reseñas en tu schema coincida con el número real de reseñas en la página. Las inconsistencias pueden resultar en una penalización manual por spam de datos estructurados.",
             "Solicita activamente reseñas a través de emails post-compra. Envía una solicitud de reseña 7-14 días después de la entrega (suficiente tiempo para usar el producto pero lo suficientemente pronto para que la experiencia esté fresca). Haz el proceso de reseña sencillo. Pide una valoración en estrellas y una breve reseña de texto. Ofrece un pequeño descuento en la próxima compra si tu plataforma y las regulaciones locales lo permiten. Más reseñas significan mejor SEO, mejores tasas de conversión y mejores datos sobre tus productos.",
           ],
+          image: { src: "/images/blog/es/product-reviews-seo-value.svg", alt: "Three SEO benefits of product reviews: unique content generation, natural keyword variations, and freshness signals with implementation best practices", caption: "25 reviews add 2,000-3,000 words of unique user-generated content that ranks for long-tail queries." },
+          callout: { title: "Reviews Are Free Content", text: "Display reviews directly on the page, never behind tabs. Implement aggregateRating schema for star snippets. Add a Q&A section alongside reviews for additional long-tail keyword content." },
         },
         {
           heading: "Gestión de variantes de producto, colores y tallas",
@@ -382,6 +417,7 @@ export const seoForEcommerceProductPages: BlogArticle = {
             "¿Y los productos estacionales que van y vienen? Mantén la página activa todo el año. Una página de producto de 'cestas de regalo de Navidad' que solo existe de octubre a diciembre pierde todos sus rankings cada año y tiene que empezar desde cero. Mantén la página activa con una nota sobre disponibilidad estacional y un formulario de registro para notificaciones. Esto preserva tus rankings y te da una ventaja cada temporada.",
             "Realiza una comprobación mensual de páginas 404 usando Google Search Console (Cobertura > No encontrada). Cualquier página de producto que devuelva un 404 y que aún tenga enlaces externos o rankings debería redirigirse inmediatamente. Hemos visto tiendas perder miles de euros en ingresos orgánicos al mes por errores 404 acumulados en páginas de producto antiguas. La gestión de redirecciones es solo una parte de mantener tus páginas de producto técnicamente saludables — nuestra guía sobre [SEO técnico para ecommerce](/blog/technical-seo-for-ecommerce) cubre el panorama completo.",
           ],
+          image: { src: "/images/blog/es/product-page-outofstock-flow.svg", alt: "Decision flow for handling out-of-stock products: keep page live if returning, 301 redirect if discontinued", caption: "Never return a 404 for product pages -- keep them live or redirect to preserve SEO value." },
         },
         {
           heading: "El cross-selling como estrategia de enlazado interno",
@@ -406,6 +442,7 @@ export const seoForEcommerceProductPages: BlogArticle = {
             "Ecco la realtà: le pagine prodotto catturano traffico di ricerca long-tail che converte a un tasso significativamente più alto rispetto a qualsiasi altro tipo di pagina. Qualcuno che cerca 'Nike Air Zoom Pegasus 40 donna taglia 39' non sta navigando. Sta comprando. Se la tua pagina prodotto è quella che appare, ottieni quella vendita. Le pagine di categoria sopra di loro nella gerarchia giocano un ruolo altrettanto importante — consulta la nostra guida alla [SEO delle pagine di categoria ecommerce](/blog/ecommerce-category-page-seo) per quell'aspetto.",
             "Lo abbiamo misurato su tutta la nostra base clienti. Il traffico organico alle pagine prodotto converte tipicamente al 3-5%, rispetto all'1-2% per le pagine di categoria e allo 0,3-0,8% per i contenuti del blog. I volumi di traffico sono inferiori per pagina, ma i tassi di conversione rendono ogni visitatore molto più prezioso. Un negozio con 500 pagine prodotto ottimizzate che cattura anche solo 10 visitatori al mese ciascuna con un tasso di conversione del 4% genera 200 vendite al mese solo dalla SEO delle pagine prodotto. La nostra [lezione academy sulla SEO delle pagine prodotto](/academy/product-page-seo) guida passo dopo passo attraverso l'intero processo di ottimizzazione.",
           ],
+          image: { src: "/images/blog/it/product-page-conversion.svg", alt: "Horizontal bar chart comparing organic conversion rates: product pages 3-5%, category pages 1-2%, blog 0.3-0.8%", caption: "Product pages convert organic traffic at 3-5%, significantly outperforming category pages and blog content." },
         },
         {
           heading: "Ottimizzazione dei titoli di prodotto",
@@ -426,6 +463,7 @@ export const seoForEcommerceProductPages: BlogArticle = {
             "La lunghezza conta. Le descrizioni prodotto sotto le 100 parole raramente si posizionano per qualcosa di utile. Punta a 250-400 parole per prodotti standard e 500+ parole per prodotti di alto valore dove gli acquirenti fanno più ricerche prima di comprare (elettronica, mobili, attrezzature fitness). Non riempire le descrizioni con contenuto di riempimento. Ogni frase dovrebbe rispondere a una domanda o rimuovere un'obiezione.",
             "Abbiamo lavorato con un rivenditore di elettronica che aveva descrizioni template da 150 parole su 800 prodotti. Dopo aver riscritto le prime 200 descrizioni prodotto con contenuto unico e dettagliato con una media di 350 parole, quelle pagine hanno visto un aumento del 52% nel traffico organico in quattro mesi. Il progetto di riscrittura ha richiesto circa sei settimane con due copywriter. Il ROI era chiaro dal terzo mese.",
           ],
+          callout: { title: "Unique Descriptions Pay", text: "Rewriting 200 product descriptions from 150-word templates to 350-word unique content drove a 52% organic traffic increase in four months. Stop using manufacturer copy that appears on 50 other sites." },
         },
         {
           heading: "SEO delle immagini prodotto",
@@ -437,6 +475,8 @@ export const seoForEcommerceProductPages: BlogArticle = {
             "Servi le immagini in formato WebP alle dimensioni appropriate. Un'immagine prodotto mostrata a 600px di larghezza non dovrebbe essere servita a 2400px di larghezza lasciando al browser il ridimensionamento. Usa immagini responsive con l'attributo srcset per servire dimensioni diverse per dispositivi diversi. Questa singola ottimizzazione spesso taglia il peso della pagina del 40-60%.",
             "Considera di aggiungere video alle pagine prodotto. I video dimostrativi del prodotto tengono i visitatori sulla pagina più a lungo (il che aiuta i posizionamenti) e aumentano drasticamente i tassi di conversione. I video prodotto ospitati su YouTube possono anche posizionarsi separatamente nei risultati di ricerca video, dandoti un altro punto di accesso. Anche un semplice video di 30 secondi che mostra il prodotto da diverse angolazioni supera un set di immagini statiche.",
           ],
+          image: { src: "/images/blog/it/product-image-seo-pipeline.svg", alt: "Product image SEO optimization pipeline from descriptive filenames through alt text, WebP format, responsive srcset, to schema markup", caption: "Google Images drives 20-30% of ecommerce organic traffic -- optimize every step of the image pipeline." },
+          callout: { title: "Image Traffic Channel", text: "Google Images drives 20-30% of organic traffic for ecommerce stores. Rename files descriptively, add detailed alt text, serve WebP with responsive srcset, and map images to variants in Product schema." },
         },
         {
           heading: "Schema markup prodotto fatto bene",
@@ -447,6 +487,8 @@ export const seoForEcommerceProductPages: BlogArticle = {
             "Testa ogni template di pagina prodotto (non solo un prodotto) con il Rich Results Test di Google. Diversi tipi di prodotto potrebbero usare template diversi, e un errore in un template può influenzare centinaia di pagine. Dopo l'implementazione, monitora la sezione Prodotti nel report Miglioramenti di Search Console. Google impiega 2-4 settimane per elaborare le modifiche dello schema su tutto il catalogo.",
             "Un'opportunità spesso persa: se hai un selettore di taglia o variante che cambia il prezzo, assicurati che lo schema rifletta il prezzo base o il range di prezzo. Google supporta sia priceRange che array di offerte individuali per prodotti con più varianti. Mostrare un range di prezzo ('29,99 € - 49,99 €') nel risultato di ricerca può effettivamente aumentare i clic perché gli acquirenti sanno che c'è un prezzo di ingresso. Crea il tuo schema prodotto in modo rapido e preciso con il nostro [generatore di schema gratuito](/tools/schema-generator). Per un tutorial completo, la lezione academy sui [dati strutturati per i prodotti](/academy/structured-data-for-products) copre ogni proprietà che vale la pena implementare.",
           ],
+          image: { src: "/images/blog/it/product-page-schema-checklist.svg", alt: "Product schema markup checklist showing required fields, recommended fields, and critical implementation rules", caption: "Complete product schema with all recommended fields produces a 15-25% CTR improvement over minimum markup." },
+          callout: { title: "Schema Drives Clicks", text: "Complete product schema with price, availability, and star ratings produces a 15-25% CTR improvement. Ensure schema values update dynamically -- stale prices can get your rich snippets dropped." },
         },
         {
           heading: "Usare le recensioni come asset SEO",
@@ -457,6 +499,8 @@ export const seoForEcommerceProductPages: BlogArticle = {
             "Implementa lo schema delle recensioni usando le proprietà aggregateRating e review all'interno del tuo schema Product. Questo è ciò che genera la visualizzazione delle stelle nei risultati di ricerca. Assicurati che il conteggio delle recensioni nel tuo schema corrisponda al numero effettivo di recensioni sulla pagina. Le incoerenze possono risultare in una penalità manuale per spam di dati strutturati.",
             "Sollecita attivamente le recensioni attraverso email post-acquisto. Invia una richiesta di recensione 7-14 giorni dopo la consegna (abbastanza tempo per usare il prodotto ma presto abbastanza perché l'esperienza sia fresca). Rendi il processo di recensione semplice. Chiedi una valutazione a stelle e una breve recensione testuale. Offri un piccolo sconto sul prossimo acquisto se la tua piattaforma e le normative locali lo permettono. Più recensioni significano migliore SEO, migliori tassi di conversione e migliori dati sui tuoi prodotti.",
           ],
+          image: { src: "/images/blog/it/product-reviews-seo-value.svg", alt: "Three SEO benefits of product reviews: unique content generation, natural keyword variations, and freshness signals with implementation best practices", caption: "25 reviews add 2,000-3,000 words of unique user-generated content that ranks for long-tail queries." },
+          callout: { title: "Reviews Are Free Content", text: "Display reviews directly on the page, never behind tabs. Implement aggregateRating schema for star snippets. Add a Q&A section alongside reviews for additional long-tail keyword content." },
         },
         {
           heading: "Gestione delle varianti di prodotto, colori e taglie",
@@ -477,6 +521,7 @@ export const seoForEcommerceProductPages: BlogArticle = {
             "E i prodotti stagionali che vanno e vengono? Mantieni la pagina attiva tutto l'anno. Una pagina prodotto 'cesti regalo di Natale' che esiste solo da ottobre a dicembre perde tutti i suoi posizionamenti ogni anno e deve ricominciare da zero. Mantieni la pagina attiva con una nota sulla disponibilità stagionale e un modulo di iscrizione per le notifiche. Questo preserva i tuoi posizionamenti e ti dà un vantaggio ogni stagione.",
             "Esegui un controllo mensile delle pagine 404 usando Google Search Console (Copertura > Non trovata). Qualsiasi pagina prodotto che restituisce un 404 e che ha ancora link esterni o posizionamenti dovrebbe essere reindirizzata immediatamente. Abbiamo visto negozi perdere migliaia di euro di fatturato organico al mese per errori 404 accumulati su vecchie pagine prodotto. La gestione dei redirect è solo una parte del mantenere le pagine prodotto tecnicamente sane — la nostra guida alla [SEO tecnica per l'ecommerce](/blog/technical-seo-for-ecommerce) copre il quadro completo.",
           ],
+          image: { src: "/images/blog/it/product-page-outofstock-flow.svg", alt: "Decision flow for handling out-of-stock products: keep page live if returning, 301 redirect if discontinued", caption: "Never return a 404 for product pages -- keep them live or redirect to preserve SEO value." },
         },
         {
           heading: "Il cross-selling come strategia di link interni",
@@ -501,6 +546,7 @@ export const seoForEcommerceProductPages: BlogArticle = {
             "Dit is de realiteit: productpagina's vangen long-tail zoekverkeer op dat met een aanzienlijk hoger percentage converteert dan elk ander paginatype. Iemand die zoekt naar 'Nike Air Zoom Pegasus 40 dames maat 39' is niet aan het browsen. Die persoon koopt. Als jouw productpagina degene is die verschijnt, krijg jij die verkoop. De categoriepagina's erboven in de hierarchie spelen een even belangrijke rol — zie onze gids over [ecommerce categoriepagina SEO](/blog/ecommerce-category-page-seo) voor dat deel van de vergelijking.",
             "We hebben dit gemeten over ons hele klantenbestand. Organisch verkeer naar productpagina's converteert doorgaans op 3-5%, vergeleken met 1-2% voor categoriepagina's en 0,3-0,8% voor blogcontent. De verkeersvolumes zijn lager per pagina, maar de conversiepercentages maken elke bezoeker veel waardevoller. Een winkel met 500 geoptimaliseerde productpagina's die zelfs maar 10 bezoekers per maand per pagina vangt met een conversiepercentage van 4% genereert 200 verkopen per maand alleen al door productpagina-SEO. Onze [productpagina-SEO academy-les](/academy/product-page-seo) leidt je stap voor stap door het volledige optimalisatieproces.",
           ],
+          image: { src: "/images/blog/nl/product-page-conversion.svg", alt: "Horizontal bar chart comparing organic conversion rates: product pages 3-5%, category pages 1-2%, blog 0.3-0.8%", caption: "Product pages convert organic traffic at 3-5%, significantly outperforming category pages and blog content." },
         },
         {
           heading: "Optimalisatie van producttitels",
@@ -521,6 +567,7 @@ export const seoForEcommerceProductPages: BlogArticle = {
             "Lengte is belangrijk. Productbeschrijvingen onder de 100 woorden ranken zelden voor iets nuttigs. Richt je op 250-400 woorden bij standaardproducten en 500+ woorden bij hoogwaardige producten waar shoppers meer onderzoek doen voor aankoop (elektronica, meubels, fitnessapparatuur). Vul beschrijvingen niet op met vulling. Elke zin moet of een vraag beantwoorden of een bezwaar wegnemen.",
             "We werkten met een elektronicawinkel die 150-woorden template-beschrijvingen had over 800 producten. Na het herschrijven van de top 200 productbeschrijvingen met unieke, gedetailleerde content van gemiddeld 350 woorden zagen die pagina's een stijging van 52% in organisch verkeer over vier maanden. Het herschrijfproject duurde ongeveer zes weken met twee schrijvers. De ROI was duidelijk vanaf maand drie.",
           ],
+          callout: { title: "Unique Descriptions Pay", text: "Rewriting 200 product descriptions from 150-word templates to 350-word unique content drove a 52% organic traffic increase in four months. Stop using manufacturer copy that appears on 50 other sites." },
         },
         {
           heading: "SEO voor productafbeeldingen",
@@ -532,6 +579,8 @@ export const seoForEcommerceProductPages: BlogArticle = {
             "Serveer afbeeldingen in WebP-formaat op de juiste afmetingen. Een productafbeelding die op 600px breed wordt weergegeven, moet niet op 2400px breed worden geserveerd terwijl de browser het verkleinen doet. Gebruik responsive afbeeldingen met het srcset-attribuut om verschillende formaten voor verschillende apparaten te leveren. Deze enkele optimalisatie vermindert vaak het paginagewicht met 40-60%.",
             "Overweeg video toe te voegen aan productpagina's. Productdemostratie-video's houden bezoekers langer op de pagina (wat helpt bij rankings) en verhogen de conversiepercentages aanzienlijk. Op YouTube gehoste productvideo's kunnen ook apart ranken in video-zoekresultaten, wat je een extra ingangspunt geeft. Zelfs een eenvoudige 30-seconden video die het product vanuit verschillende hoeken toont, presteert beter dan een set statische afbeeldingen.",
           ],
+          image: { src: "/images/blog/nl/product-image-seo-pipeline.svg", alt: "Product image SEO optimization pipeline from descriptive filenames through alt text, WebP format, responsive srcset, to schema markup", caption: "Google Images drives 20-30% of ecommerce organic traffic -- optimize every step of the image pipeline." },
+          callout: { title: "Image Traffic Channel", text: "Google Images drives 20-30% of organic traffic for ecommerce stores. Rename files descriptively, add detailed alt text, serve WebP with responsive srcset, and map images to variants in Product schema." },
         },
         {
           heading: "Product schema markup correct gedaan",
@@ -542,6 +591,8 @@ export const seoForEcommerceProductPages: BlogArticle = {
             "Test elk productpagina-template (niet slechts een product) met Google's Rich Results Test. Verschillende producttypen gebruiken mogelijk verschillende templates, en een fout in een template kan honderden pagina's beinvloeden. Monitor na implementatie het gedeelte Producten in het rapport Verbeteringen van Search Console. Google heeft 2-4 weken nodig om schemawijzigingen over je hele catalogus te verwerken.",
             "Een vaak gemiste kans: als je een maat- of variantkiezer hebt die de prijs verandert, zorg er dan voor dat het schema de basisprijs of het prijsbereik weerspiegelt. Google ondersteunt zowel priceRange als individuele offer-arrays voor producten met meerdere varianten. Het tonen van een prijsbereik ('€29,99 - €49,99') in het zoekresultaat kan clicks daadwerkelijk verhogen omdat shoppers weten dat er een instapprijs is. Bouw je productschema snel en nauwkeurig met onze [gratis schema generator tool](/tools/schema-generator). Voor een volledige uitleg behandelt de [structured data voor producten](/academy/structured-data-for-products) academy-les elke eigenschap die het waard is om te implementeren.",
           ],
+          image: { src: "/images/blog/nl/product-page-schema-checklist.svg", alt: "Product schema markup checklist showing required fields, recommended fields, and critical implementation rules", caption: "Complete product schema with all recommended fields produces a 15-25% CTR improvement over minimum markup." },
+          callout: { title: "Schema Drives Clicks", text: "Complete product schema with price, availability, and star ratings produces a 15-25% CTR improvement. Ensure schema values update dynamically -- stale prices can get your rich snippets dropped." },
         },
         {
           heading: "Reviews als SEO-troef gebruiken",
@@ -552,6 +603,8 @@ export const seoForEcommerceProductPages: BlogArticle = {
             "Implementeer review-schema met de eigenschappen aggregateRating en review binnen je Product-schema. Dit is wat de sterrenwaardering-weergave in zoekresultaten genereert. Zorg ervoor dat het aantal reviews in je schema overeenkomt met het daadwerkelijke aantal reviews op de pagina. Inconsistenties kunnen leiden tot een handmatige penalty voor structured data spam.",
             "Vraag actief om reviews via e-mails na aankoop. Stuur een reviewverzoek 7-14 dagen na levering (genoeg tijd om het product te gebruiken maar snel genoeg dat de ervaring vers is). Maak het reviewproces eenvoudig. Vraag om een sterrenwaardering en een korte tekstrecensie. Bied een kleine korting op de volgende aankoop als je platform en lokale regelgeving het toestaan. Meer reviews betekenen betere SEO, betere conversiepercentages en betere data over je producten.",
           ],
+          image: { src: "/images/blog/nl/product-reviews-seo-value.svg", alt: "Three SEO benefits of product reviews: unique content generation, natural keyword variations, and freshness signals with implementation best practices", caption: "25 reviews add 2,000-3,000 words of unique user-generated content that ranks for long-tail queries." },
+          callout: { title: "Reviews Are Free Content", text: "Display reviews directly on the page, never behind tabs. Implement aggregateRating schema for star snippets. Add a Q&A section alongside reviews for additional long-tail keyword content." },
         },
         {
           heading: "Omgaan met productvarianten, kleuren en maten",
@@ -572,6 +625,7 @@ export const seoForEcommerceProductPages: BlogArticle = {
             "Wat met seizoensproducten die komen en gaan? Houd de pagina het hele jaar online. Een 'kerstcadeaupakketten' productpagina die alleen van oktober tot december bestaat, verliest elk jaar al zijn rankings en moet van nul beginnen. Houd de pagina actief met een opmerking over seizoensgebonden beschikbaarheid en een aanmeldformulier voor notificaties. Dit bewaart je rankings en geeft je elk seizoen een voorsprong.",
             "Voer maandelijks een controle uit op 404-pagina's met Google Search Console (Dekking > Niet gevonden). Elke productpagina die een 404 retourneert en nog externe links of rankings heeft, moet onmiddellijk worden geredirect. We hebben winkels duizenden euro's aan organische omzet per maand zien verliezen door opgestapelde 404-fouten op oude productpagina's. Redirectbeheer is slechts een onderdeel van het technisch gezond houden van je productpagina's — onze gids over [technische SEO voor ecommerce](/blog/technical-seo-for-ecommerce) behandelt het volledige plaatje.",
           ],
+          image: { src: "/images/blog/nl/product-page-outofstock-flow.svg", alt: "Decision flow for handling out-of-stock products: keep page live if returning, 301 redirect if discontinued", caption: "Never return a 404 for product pages -- keep them live or redirect to preserve SEO value." },
         },
         {
           heading: "Cross-selling als interne linkstrategie",

@@ -1,0 +1,36 @@
+<svg viewBox="0 0 680 310" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <text x="340" y="28" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#a78bfa">Crawling and Audit Tools Compared</text>
+  <line x1="130" y1="55" x2="130" y2="250" stroke="#e2e8f0" stroke-width="1"/>
+  <line x1="130" y1="55" x2="650" y2="55" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="60" y="75" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#a78bfa">Tool</text>
+  <text x="225" y="75" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#a78bfa">Best For</text>
+  <text x="370" y="75" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#a78bfa">Strength</text>
+  <text x="530" y="75" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#a78bfa">Price Range</text>
+  <line x1="130" y1="88" x2="650" y2="88" stroke="#e2e8f0" stroke-width="0.5" stroke-dasharray="4"/>
+  <text x="60" y="108" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#60a5fa">Screaming Frog</text>
+  <text x="225" y="108" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Deep site crawls</text>
+  <text x="370" y="108" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Customizable crawling</text>
+  <text x="530" y="108" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Free / $259 yr</text>
+  <line x1="130" y1="120" x2="650" y2="120" stroke="#e2e8f0" stroke-width="0.5" stroke-dasharray="4"/>
+  <text x="60" y="140" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#f97316">Sitebulb</text>
+  <text x="225" y="140" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Visual audits</text>
+  <text x="370" y="140" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Priority hints + UX</text>
+  <text x="530" y="140" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">$13.50+ /mo</text>
+  <line x1="130" y1="152" x2="650" y2="152" stroke="#e2e8f0" stroke-width="0.5" stroke-dasharray="4"/>
+  <text x="60" y="172" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#4ade80">Ahrefs Audit</text>
+  <text x="225" y="172" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Ongoing monitoring</text>
+  <text x="370" y="172" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Scheduled crawls</text>
+  <text x="530" y="172" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">$99+ /mo (suite)</text>
+  <line x1="130" y1="184" x2="650" y2="184" stroke="#e2e8f0" stroke-width="0.5" stroke-dasharray="4"/>
+  <text x="60" y="204" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#f472b6">Botify</text>
+  <text x="225" y="204" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Enterprise sites</text>
+  <text x="370" y="204" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Log file + crawl data</text>
+  <text x="530" y="204" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Custom pricing</text>
+  <line x1="130" y1="216" x2="650" y2="216" stroke="#e2e8f0" stroke-width="0.5" stroke-dasharray="4"/>
+  <text x="60" y="236" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#a78bfa">GSC</text>
+  <text x="225" y="236" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Index coverage</text>
+  <text x="370" y="236" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Direct Google data</text>
+  <text x="530" y="236" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Free</text>
+  <line x1="20" y1="262" x2="660" y2="262" stroke="#a78bfa" stroke-width="1" stroke-dasharray="4"/>
+  <text x="340" y="285" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#a78bfa">Start with GSC + Screaming Frog, add Ahrefs or Sitebulb as budget allows</text>
+</svg>

@@ -1,0 +1,42 @@
+<svg viewBox="0 0 680 320" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <text x="340" y="28" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#a78bfa">Post-Migration Monitoring Timeline</text>
+  <line x1="60" y1="70" x2="620" y2="70" stroke="#a78bfa" stroke-width="2"/>
+  <circle cx="100" cy="70" r="6" fill="#f97316"/>
+  <text x="100" y="58" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#f97316">0-48hrs</text>
+  <text x="100" y="95" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Submit sitemap</text>
+  <text x="100" y="110" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Test top pages</text>
+  <text x="100" y="125" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Verify canonicals</text>
+  <circle cx="240" cy="70" r="6" fill="#f97316"/>
+  <text x="240" y="58" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#f97316">Week 1-2</text>
+  <text x="240" y="95" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Daily crawl stats</text>
+  <text x="240" y="110" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Monitor 404s/500s</text>
+  <text x="240" y="125" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Alert on errors</text>
+  <circle cx="380" cy="70" r="6" fill="#60a5fa"/>
+  <text x="380" y="58" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#60a5fa">Month 1</text>
+  <text x="380" y="95" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Daily rank tracking</text>
+  <text x="380" y="110" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Full site audit</text>
+  <text x="380" y="125" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Fix launch issues</text>
+  <circle cx="520" cy="70" r="6" fill="#4ade80"/>
+  <text x="520" y="58" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#4ade80">Month 2-3</text>
+  <text x="520" y="95" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Traffic stabilization</text>
+  <text x="520" y="110" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">90-day audit</text>
+  <text x="520" y="125" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Optimize new pages</text>
+  <line x1="30" y1="155" x2="650" y2="155" stroke="#a78bfa" stroke-width="1" stroke-dasharray="4"/>
+  <text x="340" y="178" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#a78bfa">Red Flags to Investigate</text>
+  <g transform="translate(40,195)">
+    <rect x="0" y="0" width="280" height="100" rx="6" stroke="#f97316" stroke-width="2" fill="none"/>
+    <text x="140" y="22" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#f97316">Page-Level Drops (10+ positions)</text>
+    <text x="140" y="42" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Redirect not working</text>
+    <text x="140" y="58" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">New page has less content</text>
+    <text x="140" y="74" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Different keyword focus</text>
+    <text x="140" y="90" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Slower page load</text>
+  </g>
+  <g transform="translate(360,195)">
+    <rect x="0" y="0" width="280" height="100" rx="6" stroke="#f472b6" stroke-width="2" fill="none"/>
+    <text x="140" y="22" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#f472b6">Site-Wide Down 15%+ at 8 Weeks</text>
+    <text x="140" y="42" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Accidental noindex tags</text>
+    <text x="140" y="58" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Wrong canonical targets</text>
+    <text x="140" y="74" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">JS rendering problems</text>
+    <text x="140" y="90" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Redirects to wrong pages</text>
+  </g>
+</svg>

@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import type { Locale } from "@/lib/i18n/config";
-import { BASE_URL, ogLocaleMap } from "@/lib/i18n/config";
+import { BASE_URL, ogLocaleMap, publicLocalizedUrl } from "@/lib/i18n/config";
 import { generateAlternates } from "@/lib/i18n/metadata";
 import { blogTranslations } from "@/lib/i18n/translations/blog";
 import { allAuthorSlugs, getArticlesByAuthor } from "@/lib/blog/articles";
@@ -12,6 +12,9 @@ import LocaleLink from "@/components/ui/LocaleLink";
 import JsonLd from "@/components/JsonLd";
 import Image from "next/image";
 import { notFound } from "next/navigation";
+
+export const revalidate = 86400;
+
 
 type AuthorProfile = {
   slug: string;
@@ -30,7 +33,7 @@ const authors: Record<string, AuthorProfile> = {
     role: "CEO at EcomSEO",
     tagline:
       "A Passionate Entrepreneur, specialising in ecommerce marketing.",
-    image: "/images/framer/pLr2VAAJPydel6VZNLZAsJP6k.png",
+    image: "/images/framer/fabian-van-til-new.jpeg",
     bio: "Fabian entered the e-commerce space in 2020. Two years later he and a partner launched a Google-marketing agency, which they swiftly refocused into an SEO firm. After selling his stake to his co-founder, Fabian doubled down on e-commerce. In 2024 he and his brother introduced their own brand and co-founded EcomSEO, an agency dedicated to shattering the norms of traditional marketing through transparent, results-oriented partnerships.",
     socials: [
       { platform: "YouTube", href: "https://www.youtube.com/@fabian-ecomseo" },
@@ -64,7 +67,7 @@ export async function generateMetadata({
     openGraph: {
       title,
       description,
-      url: `${BASE_URL}/${locale}/blog/author/${slug}`,
+      url: publicLocalizedUrl(locale, `/blog/author/${slug}`),
       siteName: "EcomSEO",
       type: "profile",
       images: [{ url: `${BASE_URL}${author.image}` }],
@@ -72,8 +75,13 @@ export async function generateMetadata({
     },
     twitter: {
       card: "summary",
+      site: "@ecomseo_co",
       title,
       description,
+    },
+    robots: {
+      index: false,
+      follow: true,
     },
   };
 }
@@ -112,7 +120,7 @@ export default async function AuthorPage({
           name: author.name,
           jobTitle: author.role,
           description: author.tagline,
-          url: `${BASE_URL}/${locale}/blog/author/${slug}`,
+          url: publicLocalizedUrl(locale, `/blog/author/${slug}`),
           image: author.image,
         })}
       />

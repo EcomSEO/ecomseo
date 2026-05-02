@@ -16,12 +16,21 @@ export const electronicsTechSeo: AcademyTopic = {
           title: "Specification-Driven Keyword Architecture",
           content:
             "Electronics shoppers search with extraordinary specificity. Unlike fashion or food, where searches are often broad and exploratory, tech buyers frequently include model numbers, specifications, and technical parameters in their queries. \"RTX 4070 Ti 12GB graphics card,\" \"USB-C 100W GaN charger,\" \"27-inch 4K IPS 144Hz monitor\", these specification-rich queries represent buyers deep in the purchase funnel.\n\nBuild your keyword strategy around the technical specifications that define each product category. For monitors, the critical search dimensions are screen size, resolution, panel type, refresh rate, and connectivity. For laptops, they are processor, RAM, storage, display size, and GPU. Map these specification patterns to your category and product URL structures.\n\nCreate filterable category pages that generate indexable URLs for high-volume specification combinations. A URL like /monitors/4k/27-inch/ips should be indexable and contain unique content targeting shoppers looking for exactly that configuration. However, limit which filter combinations get indexed, only those with meaningful search volume. Block low-value permutations through robots.txt or noindex directives.\n\nInclude model numbers and part numbers in product page titles, H1 tags, and meta descriptions. Many electronics buyers search directly for model numbers: \"Samsung QN65QN90C\" or \"Sony WH-1000XM5.\" If your product page title does not contain the exact model number, you will lose these high-intent searches to competitors who do.\n\nTrack new product announcement keywords. When a manufacturer announces a new GPU, processor, or phone model, search volume for that model spikes immediately. Having a product or pre-order page ready and indexed at announcement time captures traffic that would otherwise go entirely to news sites and review publications.",
+          image: {
+            src: "/images/academy/electronics-spec-search-funnel.svg",
+            alt: "Diagram showing how electronics search queries narrow from broad terms through specification filters to model-specific purchase intent",
+            caption: "Electronics buyers move from broad queries to spec-filtered searches to exact model lookups. Each level carries higher purchase intent.",
+          },
           items: [
             "Build keyword architecture around technical specifications: size, resolution, processor, storage",
             "Create indexable category URLs for high-volume spec combinations like /monitors/4k/27-inch",
             "Include exact model numbers and part numbers in product page titles and meta descriptions",
             "Prepare product pages for new model announcements before or at launch to capture early search demand",
           ],
+          callout: {
+            title: "Spec Search Patterns",
+            text: "Electronics queries like \"27-inch 4K IPS 144Hz monitor\" contain 4-5 specification dimensions. Stores that create indexable URLs for the top 50-100 spec combinations per category capture traffic competitors miss entirely with generic category pages.",
+          },
         },
         {
           title: "Product Page Optimization for Technical Products",
@@ -56,6 +65,11 @@ export const electronicsTechSeo: AcademyTopic = {
           title: "Technical SEO for Large Electronics Catalogs",
           content:
             "Electronics stores often carry thousands of products across dozens of categories, each with multiple variants, accessories, and compatibility relationships. Managing crawl efficiency and site architecture at this scale requires deliberate technical SEO.\n\nImplement a logical, shallow site architecture. Products should be reachable within three clicks from the homepage. Structure your hierarchy as: Department (Computers) > Category (Laptops) > Subcategory (Gaming Laptops) > Product. Each level should have a crawlable, internally linked page with unique content.\n\nHandle product variants carefully. An electronics product might come in multiple storage configurations (128GB, 256GB, 512GB) or color options. If variants differ only in a minor attribute with no independent search volume, use a single canonical URL with on-page selectors. If a variant has meaningful search demand, \"MacBook Pro 1TB\" versus \"MacBook Pro 512GB\", give it a distinct URL with unique title and content.\n\nManage faceted navigation to prevent crawl bloat. Electronics category pages often have dozens of filters: brand, price range, screen size, processor type, RAM amount, storage type, connectivity. Allow Google to index the most valuable two-filter combinations while blocking deeper filter stacks. Use a combination of robots.txt disallow rules, canonical tags, and noindex directives based on search volume data.\n\nOptimize page speed aggressively. Electronics product pages tend to be image-heavy (multiple product angles, lifestyle shots, specification graphics) and script-heavy (price comparison widgets, review carousels, 360-degree viewers). Lazy-load below-fold images, defer non-critical JavaScript, and serve images in modern formats (WebP, AVIF) to maintain Core Web Vitals compliance.\n\nBuild internal linking around product ecosystems. When a shopper views a laptop, link to compatible accessories (cases, chargers, docking stations), related products (similar specs, same brand), and complementary items (monitors, keyboards, mice). This ecosystem-based internal linking improves crawl discovery, distributes page authority, and increases average order value.",
+          image: {
+            src: "/images/academy/electronics-site-hierarchy.svg",
+            alt: "Diagram showing a 3-click electronics site hierarchy from homepage through departments and categories to individual product SKUs with ecosystem cross-links",
+            caption: "Products should be reachable within 3 clicks. Ecosystem cross-links between related products improve crawl discovery and boost average order value.",
+          },
           items: [
             "Maintain a shallow site hierarchy with products reachable within three clicks from homepage",
             "Give distinct URLs to product variants with independent search demand",
@@ -63,6 +77,10 @@ export const electronicsTechSeo: AcademyTopic = {
             "Optimize page speed with lazy loading, deferred scripts, and modern image formats",
             "Build internal linking around product ecosystems: accessories, related products, and complements",
           ],
+          callout: {
+            title: "Variant URL Rule",
+            text: "If a variant has meaningful search demand (e.g., \"MacBook Pro 1TB\" vs \"MacBook Pro 512GB\"), give it a distinct URL with unique title and content. If it differs only in a minor attribute like color with no search volume, use a single canonical URL with on-page selectors.",
+          },
         },
         {
           title: "Competitive Link Building for Electronics Retailers",
@@ -94,12 +112,21 @@ export const electronicsTechSeo: AcademyTopic = {
           title: "Spezifikationsgetriebene Keyword-Architektur",
           content:
             "Elektronikkaeufer suchen mit aussergewoehnlicher Spezifitaet. Anders als bei Mode oder Lebensmitteln, wo Suchen oft breit und explorativ sind, geben Technikkaeufer haeufig Modellnummern, Spezifikationen und technische Parameter in ihre Suchanfragen ein. \"RTX 4070 Ti 12GB Grafikkarte,\" \"USB-C 100W GaN Ladegeraet,\" \"27 Zoll 4K IPS 144Hz Monitor\", diese spezifikationsreichen Anfragen repraesentieren Kaeufer tief im Kauftrichter.\n\nBauen Sie Ihre Keyword-Strategie um die technischen Spezifikationen auf, die jede Produktkategorie definieren. Fuer Monitore sind die kritischen Suchdimensionen Bildschirmgroesse, Aufloesung, Paneltyp, Bildwiederholrate und Konnektivitaet. Fuer Laptops sind es Prozessor, RAM, Speicher, Displaygroesse und GPU.\n\nErstellen Sie filterbare Kategorieseiten, die indexierbare URLs fuer hochvolumige Spezifikationskombinationen generieren. Eine URL wie /monitore/4k/27-zoll/ips sollte indexierbar sein und einzigartigen Content enthalten. Begrenzen Sie jedoch, welche Filterkombinationen indexiert werden, nur solche mit bedeutendem Suchvolumen.\n\nFuegen Sie Modellnummern und Artikelnummern in Produktseitentitel, H1-Tags und Meta-Beschreibungen ein. Viele Elektronikkaeufer suchen direkt nach Modellnummern: \"Samsung QN65QN90C\" oder \"Sony WH-1000XM5.\" Wenn Ihr Produktseitentitel die exakte Modellnummer nicht enthaelt, verlieren Sie diese kaufbereiten Suchanfragen an Wettbewerber.\n\nVerfolgen Sie Keywords fuer neue Produktankuendigungen. Wenn ein Hersteller eine neue GPU, einen Prozessor oder ein Telefonmodell ankuendigt, steigt das Suchvolumen fuer dieses Modell sofort. Eine fertige und indexierte Produkt- oder Vorbestellungsseite zum Ankuendigungszeitpunkt erfasst Traffic, der sonst ausschliesslich an Nachrichtenseiten und Testportale gehen wuerde.",
-          items: [
+                    image: {
+            src: "/images/academy/de/electronics-spec-search-funnel.svg",
+            alt: "Spezifikationsgetriebener Suchtrichter von breiter Suche ueber spezifikationsgefilterte bis modellspezifische Anfragen",
+            caption: "Elektronik-Kaeufer verfeinern Suchanfragen schrittweise von allgemein zu spezifisch. Erstellen Sie Seiten fuer jede Trichterebene.",
+          },
+items: [
             "Keyword-Architektur um technische Spezifikationen aufbauen: Groesse, Aufloesung, Prozessor, Speicher",
             "Indexierbare Kategorie-URLs fuer hochvolumige Spezifikationskombinationen erstellen",
             "Exakte Modellnummern und Artikelnummern in Produktseitentitel und Meta-Beschreibungen aufnehmen",
             "Produktseiten fuer neue Modellankuendigungen vor oder zum Launch vorbereiten, um fruehe Suchnachfrage zu erfassen",
           ],
+          callout: {
+            title: "Spezifikations-Keywords",
+            text: "60-70% der Elektronik-Suchanfragen enthalten technische Spezifikationen wie Bildschirmgroesse, Aufloesung oder Prozessortyp. Optimieren Sie Filterseiten und Kategorien fuer diese spezifikationsgetriebenen Begriffe.",
+          },
         },
         {
           title: "Produktseitenoptimierung fuer technische Produkte",
@@ -134,13 +161,22 @@ export const electronicsTechSeo: AcademyTopic = {
           title: "Technisches SEO fuer grosse Elektronik-Kataloge",
           content:
             "Elektronikshops fuehren oft Tausende von Produkten in Dutzenden von Kategorien, jedes mit mehreren Varianten, Zubehoer und Kompatibilitaetsbeziehungen. Crawl-Effizienz und Seitenarchitektur in diesem Umfang zu verwalten erfordert gezieltes technisches SEO.\n\nImplementieren Sie eine logische, flache Seitenarchitektur. Produkte sollten innerhalb von drei Klicks von der Startseite erreichbar sein. Strukturieren Sie Ihre Hierarchie als: Abteilung (Computer) > Kategorie (Laptops) > Unterkategorie (Gaming Laptops) > Produkt.\n\nBehandeln Sie Produktvarianten sorgfaeltig. Ein Elektronikprodukt kann in mehreren Speicherkonfigurationen (128GB, 256GB, 512GB) oder Farboptionen kommen. Wenn sich Varianten nur in einem unbedeutenden Attribut ohne eigenes Suchvolumen unterscheiden, verwenden Sie eine einzelne kanonische URL. Wenn eine Variante bedeutende Suchnachfrage hat, geben Sie ihr eine eigene URL.\n\nVerwalten Sie facettierte Navigation, um Crawl-Aufblaehung zu verhindern. Elektronik-Kategorieseiten haben oft Dutzende von Filtern. Erlauben Sie Google die Indexierung der wertvollsten Zwei-Filter-Kombinationen, waehrend Sie tiefere Filterstapel blockieren.\n\nOptimieren Sie die Seitengeschwindigkeit aggressiv. Elektronik-Produktseiten sind tendenziell bildlastig und skriptlastig. Laden Sie Bilder unterhalb des sichtbaren Bereichs verzoegeert, verschieben Sie nicht-kritisches JavaScript und liefern Sie Bilder in modernen Formaten (WebP, AVIF).\n\nBauen Sie interne Verlinkung um Produkt-Oekosysteme auf. Wenn ein Kaeufer einen Laptop ansieht, verlinken Sie auf kompatibles Zubehoer, verwandte Produkte und ergaenzende Artikel.",
-          items: [
+                    image: {
+            src: "/images/academy/de/electronics-site-hierarchy.svg",
+            alt: "Elektronik-Shop Seitenhierarchie von der Startseite ueber Hauptkategorien zu Unterkategorien",
+            caption: "Jede Kategorie sollte indexierbar sein und maximal 3 Klicks von der Startseite entfernt. Breadcrumbs auf jeder Seite.",
+          },
+items: [
             "Flache Seitenhierarchie mit Produkten erreichbar innerhalb von drei Klicks von der Startseite beibehalten",
             "Eigene URLs fuer Produktvarianten mit unabhaengiger Suchnachfrage vergeben",
             "Wertvolle Zwei-Filter-Kombinationen der facettierten Navigation indexieren, tiefere Stapel blockieren",
             "Seitengeschwindigkeit mit Lazy Loading, verzoegertem JavaScript und modernen Bildformaten optimieren",
             "Interne Verlinkung um Produkt-Oekosysteme aufbauen: Zubehoer, verwandte Produkte und Ergaenzungen",
           ],
+          callout: {
+            title: "Hierarchie-Tiefe",
+            text: "Elektronik-Kataloge mit mehr als 3 Navigationsebenen verlieren 40-60% des Crawl-Budgets in tiefen Kategorien. Halten Sie die Hierarchie flach und nutzen Sie Querverweise zwischen verwandten Kategorien.",
+          },
         },
         {
           title: "Wettbewerbsfaehiger Linkaufbau fuer Elektronik-Haendler",
@@ -178,6 +214,15 @@ export const electronicsTechSeo: AcademyTopic = {
             "Inclure les numeros de modele et references exacts dans les titres et meta descriptions des pages produit",
             "Preparer les pages produit pour les annonces de nouveaux modeles avant ou au lancement pour capturer la demande precoce",
           ],
+          image: {
+            src: "/images/academy/fr/electronics-spec-search-funnel.svg",
+            alt: "Spezifikationsgetriebener Suchtrichter von breiter Suche ueber spezifikationsgefilterte bis modellspezifische Anfragen",
+            caption: "Elektronik-Kaeufer verfeinern Suchanfragen schrittweise von allgemein zu spezifisch. Erstellen Sie Seiten fuer jede Trichterebene.",
+          },
+          callout: {
+            title: "Spezifikations-Keywords",
+            text: "60-70% der Elektronik-Suchanfragen enthalten technische Spezifikationen wie Bildschirmgroesse, Aufloesung oder Prozessortyp. Optimieren Sie Filterseiten und Kategorien fuer diese spezifikationsgetriebenen Begriffe.",
+          },
         },
         {
           title: "Optimisation des pages produit pour les produits techniques",
@@ -219,6 +264,15 @@ export const electronicsTechSeo: AcademyTopic = {
             "Optimiser la vitesse de page avec le chargement differe, les scripts reportes et les formats d'image modernes",
             "Construire le maillage interne autour des ecosystemes produit : accessoires, produits lies et complements",
           ],
+          image: {
+            src: "/images/academy/fr/electronics-site-hierarchy.svg",
+            alt: "Elektronik-Shop Seitenhierarchie von der Startseite ueber Hauptkategorien zu Unterkategorien",
+            caption: "Jede Kategorie sollte indexierbar sein und maximal 3 Klicks von der Startseite entfernt. Breadcrumbs auf jeder Seite.",
+          },
+          callout: {
+            title: "Hierarchie-Tiefe",
+            text: "Elektronik-Kataloge mit mehr als 3 Navigationsebenen verlieren 40-60% des Crawl-Budgets in tiefen Kategorien. Halten Sie die Hierarchie flach und nutzen Sie Querverweise zwischen verwandten Kategorien.",
+          },
         },
         {
           title: "Link building competitif pour les detaillants electronique",
@@ -256,6 +310,15 @@ export const electronicsTechSeo: AcademyTopic = {
             "Incluir numeros de modelo y referencias exactos en titulos de pagina de producto y meta descripciones",
             "Preparar paginas de producto para anuncios de nuevos modelos antes o al lanzamiento para capturar demanda temprana",
           ],
+          image: {
+            src: "/images/academy/es/electronics-spec-search-funnel.svg",
+            alt: "Spezifikationsgetriebener Suchtrichter von breiter Suche ueber spezifikationsgefilterte bis modellspezifische Anfragen",
+            caption: "Elektronik-Kaeufer verfeinern Suchanfragen schrittweise von allgemein zu spezifisch. Erstellen Sie Seiten fuer jede Trichterebene.",
+          },
+          callout: {
+            title: "Spezifikations-Keywords",
+            text: "60-70% der Elektronik-Suchanfragen enthalten technische Spezifikationen wie Bildschirmgroesse, Aufloesung oder Prozessortyp. Optimieren Sie Filterseiten und Kategorien fuer diese spezifikationsgetriebenen Begriffe.",
+          },
         },
         {
           title: "Optimizacion de paginas de producto para productos tecnicos",
@@ -297,6 +360,15 @@ export const electronicsTechSeo: AcademyTopic = {
             "Optimizar la velocidad de pagina con carga diferida, scripts aplazados y formatos de imagen modernos",
             "Construir enlazado interno alrededor de ecosistemas de productos: accesorios, productos relacionados y complementos",
           ],
+          image: {
+            src: "/images/academy/es/electronics-site-hierarchy.svg",
+            alt: "Elektronik-Shop Seitenhierarchie von der Startseite ueber Hauptkategorien zu Unterkategorien",
+            caption: "Jede Kategorie sollte indexierbar sein und maximal 3 Klicks von der Startseite entfernt. Breadcrumbs auf jeder Seite.",
+          },
+          callout: {
+            title: "Hierarchie-Tiefe",
+            text: "Elektronik-Kataloge mit mehr als 3 Navigationsebenen verlieren 40-60% des Crawl-Budgets in tiefen Kategorien. Halten Sie die Hierarchie flach und nutzen Sie Querverweise zwischen verwandten Kategorien.",
+          },
         },
         {
           title: "Link building competitivo para retailers de electronica",
@@ -334,6 +406,15 @@ export const electronicsTechSeo: AcademyTopic = {
             "Includere numeri di modello e codici articolo esatti nei titoli e meta description delle pagine prodotto",
             "Preparare pagine prodotto per gli annunci di nuovi modelli prima o al lancio per catturare la domanda precoce",
           ],
+          image: {
+            src: "/images/academy/it/electronics-spec-search-funnel.svg",
+            alt: "Spezifikationsgetriebener Suchtrichter von breiter Suche ueber spezifikationsgefilterte bis modellspezifische Anfragen",
+            caption: "Elektronik-Kaeufer verfeinern Suchanfragen schrittweise von allgemein zu spezifisch. Erstellen Sie Seiten fuer jede Trichterebene.",
+          },
+          callout: {
+            title: "Spezifikations-Keywords",
+            text: "60-70% der Elektronik-Suchanfragen enthalten technische Spezifikationen wie Bildschirmgroesse, Aufloesung oder Prozessortyp. Optimieren Sie Filterseiten und Kategorien fuer diese spezifikationsgetriebenen Begriffe.",
+          },
         },
         {
           title: "Ottimizzazione delle pagine prodotto per prodotti tecnici",
@@ -375,6 +456,15 @@ export const electronicsTechSeo: AcademyTopic = {
             "Ottimizzare la velocita della pagina con caricamento differito, script posticipati e formati immagine moderni",
             "Costruire il linking interno attorno agli ecosistemi di prodotto: accessori, prodotti correlati e complementi",
           ],
+          image: {
+            src: "/images/academy/it/electronics-site-hierarchy.svg",
+            alt: "Elektronik-Shop Seitenhierarchie von der Startseite ueber Hauptkategorien zu Unterkategorien",
+            caption: "Jede Kategorie sollte indexierbar sein und maximal 3 Klicks von der Startseite entfernt. Breadcrumbs auf jeder Seite.",
+          },
+          callout: {
+            title: "Hierarchie-Tiefe",
+            text: "Elektronik-Kataloge mit mehr als 3 Navigationsebenen verlieren 40-60% des Crawl-Budgets in tiefen Kategorien. Halten Sie die Hierarchie flach und nutzen Sie Querverweise zwischen verwandten Kategorien.",
+          },
         },
         {
           title: "Link building competitivo per retailer di elettronica",
@@ -412,6 +502,15 @@ export const electronicsTechSeo: AcademyTopic = {
             "Exacte modelnummers en artikelnummers opnemen in productpaginatitels en metabeschrijvingen",
             "Productpagina's voorbereiden voor nieuwe modelaankondigingen voor of bij lancering om vroege zoekvraag te vangen",
           ],
+          image: {
+            src: "/images/academy/nl/electronics-spec-search-funnel.svg",
+            alt: "Spezifikationsgetriebener Suchtrichter von breiter Suche ueber spezifikationsgefilterte bis modellspezifische Anfragen",
+            caption: "Elektronik-Kaeufer verfeinern Suchanfragen schrittweise von allgemein zu spezifisch. Erstellen Sie Seiten fuer jede Trichterebene.",
+          },
+          callout: {
+            title: "Spezifikations-Keywords",
+            text: "60-70% der Elektronik-Suchanfragen enthalten technische Spezifikationen wie Bildschirmgroesse, Aufloesung oder Prozessortyp. Optimieren Sie Filterseiten und Kategorien fuer diese spezifikationsgetriebenen Begriffe.",
+          },
         },
         {
           title: "Productpagina-optimalisatie voor technische producten",
@@ -453,6 +552,15 @@ export const electronicsTechSeo: AcademyTopic = {
             "Paginasnelheid optimaliseren met lazy loading, uitgestelde scripts en moderne beeldformaten",
             "Interne linking bouwen rond productecosystemen: accessoires, gerelateerde producten en complementen",
           ],
+          image: {
+            src: "/images/academy/nl/electronics-site-hierarchy.svg",
+            alt: "Elektronik-Shop Seitenhierarchie von der Startseite ueber Hauptkategorien zu Unterkategorien",
+            caption: "Jede Kategorie sollte indexierbar sein und maximal 3 Klicks von der Startseite entfernt. Breadcrumbs auf jeder Seite.",
+          },
+          callout: {
+            title: "Hierarchie-Tiefe",
+            text: "Elektronik-Kataloge mit mehr als 3 Navigationsebenen verlieren 40-60% des Crawl-Budgets in tiefen Kategorien. Halten Sie die Hierarchie flach und nutzen Sie Querverweise zwischen verwandten Kategorien.",
+          },
         },
         {
           title: "Competitieve linkbuilding voor elektronicadetailhandel",

@@ -26,19 +26,28 @@ export const competitorKeywordAnalysis: AcademyTopic = {
         {
           title: "Running a Keyword Gap Analysis",
           content:
-            "A keyword gap analysis compares your keyword profile against one or more competitors to find terms they rank for that you don't. This is one of the highest-ROI activities in ecommerce SEO because it reveals proven demand, if your competitor ranks and gets traffic for a keyword, the opportunity is validated.\n\nIn Ahrefs, go to Site Explorer, enter your domain, then navigate to Content Gap. Enter 2-3 competitor domains and the tool will show keywords those competitors rank for in the top 10 that your site doesn't rank for at all. Filter the results by search volume (above 50), by keyword difficulty (under 40 for quick wins), and by position (competitor is top 5).\n\nIn Semrush, the equivalent feature is Keyword Gap under Competitive Research. The interface lets you compare up to five domains simultaneously, with filters for keyword type, position ranges, and volume brackets.\n\nThe output is typically a list of hundreds or thousands of keywords. Don't try to tackle them all. Sort by search volume, apply your intent scoring (prioritize Tier 1-2 commercial keywords), and look for clusters of related terms. A cluster like \"organic cotton t-shirts,\" \"organic cotton shirts women,\" and \"best organic cotton clothing\" points to a category gap you can address with a single well-structured page. Our [keyword cannibalization checker](/tools/keyword-cannibalization-checker) can help you verify that these new pages won't conflict with existing content.",
+            "A keyword gap analysis compares your keyword profile against one or more competitors to find terms they rank for that you don't. This is one of the highest-ROI activities in ecommerce SEO because it reveals proven demand, if your competitor ranks and gets traffic for a keyword, the opportunity is validated.\n\nIn Ahrefs, go to Site Explorer, enter your domain, then navigate to Content Gap. Enter 2-3 competitor domains and the tool will show keywords those competitors rank for in the top 10 that your site doesn't rank for at all. Filter the results by search volume (above 50), by keyword difficulty (under 40 for quick wins), and by position (competitor is top 5).\n\nIn Semrush, the equivalent feature is Keyword Gap under Competitive Research. The interface lets you compare up to five domains simultaneously, with filters for keyword type, position ranges, and volume brackets.\n\nThe output is typically a list of hundreds or thousands of keywords. Don't try to tackle them all. Sort by search volume, apply your intent scoring (prioritize Tier 1-2 commercial keywords), and look for clusters of related terms. A cluster like \"organic cotton t-shirts,\" \"organic cotton shirts women,\" and \"best organic cotton clothing\" points to a category gap you can address with a single well-structured page. Our [keyword cannibalization checker](/tools/duplicate-content) can help you verify that these new pages won't conflict with existing content.",
           tip: "Run gap analysis against each competitor individually, not all at once. Different competitors will reveal different opportunity clusters. A fashion competitor might show you apparel keywords you're missing, while a home goods competitor reveals decor terms you hadn't considered.",
         },
         {
           title: "Finding Keywords Competitors Rank For That You Don't",
           content:
             "The gap analysis gives you the raw list, but turning it into action requires categorization. We sort competitor keywords into four buckets.\n\nBucket one: keywords you have pages for but don't rank. You already have a product or category page that should target this keyword but it doesn't appear in the top 100. These are optimization opportunities, update the existing page's title, H1, and content to better target the term.\n\nBucket two: keywords you don't have pages for but could create. Your competitor has a category page for \"wireless earbuds for running\" and you sell running earbuds but don't have a dedicated category page for them. Create the page.\n\nBucket three: keywords requiring new products or product lines. Your competitor ranks for products you don't carry. This is business intelligence, not just SEO data, it tells you what to stock or what new products to develop.\n\nBucket four: keywords not worth pursuing. Some competitor keywords don't align with your business model, target market, or product range. A competitor might rank for \"cheap\" modifiers while your brand positions as premium. Skip these.\n\nThe first two buckets are where you'll find 80% of your actionable opportunities. Bucket one is fastest to implement (optimize existing pages), while bucket two requires new page creation but typically yields results within 3-6 months.",
+          image: {
+            src: "/images/academy/competitor-keyword-buckets.svg",
+            alt: "Four-bucket framework for categorizing competitor keywords from quick optimization wins to skip decisions",
+            caption: "Buckets 1 and 2 contain 80% of actionable opportunities. Bucket 1 (optimize existing pages) delivers the fastest results.",
+          },
           items: [
             "Bucket 1: have pages but don't rank, optimize existing content for these terms",
             "Bucket 2: no pages yet, create new category or product pages to capture these keywords",
             "Bucket 3: need new products, treat as business intelligence for inventory decisions",
             "Bucket 4: not relevant, skip keywords that don't match your positioning or catalog",
           ],
+          callout: {
+            title: "Gap Analysis ROI",
+            text: "Run gap analysis against each competitor individually, not all at once. A fashion competitor reveals apparel keywords, a home goods competitor reveals decor terms. Quarterly repetition catches new entrants and shifting rankings.",
+          },
         },
         {
           title: "Analyzing Competitor Content Strategies",
@@ -84,7 +93,7 @@ export const competitorKeywordAnalysis: AcademyTopic = {
         {
           title: "Eine Keyword-Gap-Analyse durchfuehren",
           content:
-            "Eine Keyword-Gap-Analyse vergleicht Ihr Keyword-Profil mit einem oder mehreren Wettbewerbern, um Begriffe zu finden, fuer die diese ranken und Sie nicht. Dies ist eine der Aktivitaeten mit dem hoechsten ROI im E-Commerce-SEO, weil es bewaehrte Nachfrage aufzeigt, wenn Ihr Wettbewerber fuer ein Keyword rankt und Traffic bekommt, ist die Chance validiert.\n\nIn Ahrefs gehen Sie zum Site Explorer, geben Ihre Domain ein und navigieren zu Content Gap. Geben Sie 2-3 Wettbewerber-Domains ein und das Tool zeigt Keywords, fuer die diese Wettbewerber in den Top 10 ranken, Ihre Seite aber ueberhaupt nicht. Filtern Sie die Ergebnisse nach Suchvolumen (ueber 50), Keyword-Schwierigkeit (unter 40 fuer schnelle Erfolge) und Position (Wettbewerber in Top 5).\n\nIn Semrush heisst die entsprechende Funktion Keyword Gap unter Competitive Research. Die Oberflaeche erlaubt den Vergleich von bis zu fuenf Domains gleichzeitig, mit Filtern fuer Keyword-Typ, Positionsbereiche und Volumenklassen.\n\nDas Ergebnis ist typischerweise eine Liste von Hunderten oder Tausenden von Keywords. Versuchen Sie nicht, alle zu bearbeiten. Sortieren Sie nach Suchvolumen, wenden Sie Ihre Absichtsbewertung an (priorisieren Sie kommerzielle Keywords der Stufen 1-2) und suchen Sie nach Clustern verwandter Begriffe. Ein Cluster wie \"Bio-Baumwoll-T-Shirts\", \"Bio-Baumwoll-Shirts Damen\" und \"beste Bio-Baumwollkleidung\" deutet auf eine Kategorie-Luecke hin, die Sie mit einer einzigen gut strukturierten Seite addressieren koennen. Unser [Keyword-Kannibalisierungs-Checker](/tools/keyword-cannibalization-checker) kann Ihnen dabei helfen.",
+            "Eine Keyword-Gap-Analyse vergleicht Ihr Keyword-Profil mit einem oder mehreren Wettbewerbern, um Begriffe zu finden, fuer die diese ranken und Sie nicht. Dies ist eine der Aktivitaeten mit dem hoechsten ROI im E-Commerce-SEO, weil es bewaehrte Nachfrage aufzeigt, wenn Ihr Wettbewerber fuer ein Keyword rankt und Traffic bekommt, ist die Chance validiert.\n\nIn Ahrefs gehen Sie zum Site Explorer, geben Ihre Domain ein und navigieren zu Content Gap. Geben Sie 2-3 Wettbewerber-Domains ein und das Tool zeigt Keywords, fuer die diese Wettbewerber in den Top 10 ranken, Ihre Seite aber ueberhaupt nicht. Filtern Sie die Ergebnisse nach Suchvolumen (ueber 50), Keyword-Schwierigkeit (unter 40 fuer schnelle Erfolge) und Position (Wettbewerber in Top 5).\n\nIn Semrush heisst die entsprechende Funktion Keyword Gap unter Competitive Research. Die Oberflaeche erlaubt den Vergleich von bis zu fuenf Domains gleichzeitig, mit Filtern fuer Keyword-Typ, Positionsbereiche und Volumenklassen.\n\nDas Ergebnis ist typischerweise eine Liste von Hunderten oder Tausenden von Keywords. Versuchen Sie nicht, alle zu bearbeiten. Sortieren Sie nach Suchvolumen, wenden Sie Ihre Absichtsbewertung an (priorisieren Sie kommerzielle Keywords der Stufen 1-2) und suchen Sie nach Clustern verwandter Begriffe. Ein Cluster wie \"Bio-Baumwoll-T-Shirts\", \"Bio-Baumwoll-Shirts Damen\" und \"beste Bio-Baumwollkleidung\" deutet auf eine Kategorie-Luecke hin, die Sie mit einer einzigen gut strukturierten Seite addressieren koennen. Unser [Keyword-Kannibalisierungs-Checker](/tools/duplicate-content) kann Ihnen dabei helfen.",
           tip: "Fuehren Sie die Gap-Analyse gegen jeden Wettbewerber einzeln durch, nicht alle gleichzeitig. Verschiedene Wettbewerber enthuellen verschiedene Chancen-Cluster. Ein Mode-Wettbewerber zeigt Ihnen vielleicht Bekleidungs-Keywords, die Sie verpassen, waehrend ein Wohnaccessoire-Wettbewerber Deko-Begriffe aufdeckt, an die Sie nicht gedacht hatten.",
         },
         {
@@ -97,6 +106,15 @@ export const competitorKeywordAnalysis: AcademyTopic = {
             "Eimer 3: brauchen neue Produkte, als Business Intelligence fuer Sortimentsentscheidungen behandeln",
             "Eimer 4: nicht relevant, Keywords ueberspringen, die nicht zu Ihrer Positionierung oder Ihrem Katalog passen",
           ],
+          image: {
+            src: "/images/academy/de/competitor-keyword-buckets.svg",
+            alt: "Vier-Eimer-Framework zur Kategorisierung von Wettbewerber-Keywords",
+            caption: "Eimer 1 und 2 enthalten 80\u00a0% der umsetzbaren Chancen. Eimer 1 (bestehende Seiten optimieren) liefert die schnellsten Ergebnisse.",
+          },
+          callout: {
+            title: "Gap-Analyse ROI",
+            text: "Führen Sie die Gap-Analyse gegen jeden Wettbewerber einzeln durch, nicht alle gleichzeitig. Vierteljährliche Wiederholung fängt neue Marktteilnehmer und Ranking-Verschiebungen ab.",
+          },
         },
         {
           title: "Wettbewerber-Content-Strategien analysieren",
@@ -142,7 +160,7 @@ export const competitorKeywordAnalysis: AcademyTopic = {
         {
           title: "Mener une analyse de gap de mots-cles",
           content:
-            "Une analyse de gap de mots-cles compare votre profil de mots-cles a celui d'un ou plusieurs concurrents pour trouver les termes pour lesquels ils se positionnent et pas vous. C'est l'une des activites au plus fort ROI en SEO e-commerce car elle revele une demande prouvee, si votre concurrent se positionne et obtient du trafic pour un mot-cle, l'opportunite est validee.\n\nDans Ahrefs, allez dans Site Explorer, entrez votre domaine, puis naviguez vers Content Gap. Entrez 2-3 domaines concurrents et l'outil montrera les mots-cles pour lesquels ces concurrents se positionnent dans le top 10 mais votre site pas du tout. Filtrez les resultats par volume de recherche (superieur a 50), par difficulte de mot-cle (inferieur a 40 pour des gains rapides) et par position (concurrent dans le top 5).\n\nDans Semrush, la fonctionnalite equivalente est Keyword Gap sous Competitive Research. L'interface permet de comparer jusqu'a cinq domaines simultanement, avec des filtres pour le type de mot-cle, les plages de position et les tranches de volume.\n\nLe resultat est typiquement une liste de centaines ou milliers de mots-cles. N'essayez pas de tous les traiter. Triez par volume de recherche, appliquez votre notation d'intention (priorisez les mots-cles commerciaux de niveaux 1-2) et cherchez des clusters de termes lies. Un cluster comme \"t-shirts coton bio\", \"chemises coton bio femme\" et \"meilleurs vetements coton biologique\" pointe vers une lacune de categorie que vous pouvez combler avec une seule page bien structuree. Notre [vérificateur de cannibalisation de mots-clés](/tools/keyword-cannibalization-checker) peut vous aider à vérifier que ces nouvelles pages n'entreront pas en conflit avec le contenu existant.",
+            "Une analyse de gap de mots-cles compare votre profil de mots-cles a celui d'un ou plusieurs concurrents pour trouver les termes pour lesquels ils se positionnent et pas vous. C'est l'une des activites au plus fort ROI en SEO e-commerce car elle revele une demande prouvee, si votre concurrent se positionne et obtient du trafic pour un mot-cle, l'opportunite est validee.\n\nDans Ahrefs, allez dans Site Explorer, entrez votre domaine, puis naviguez vers Content Gap. Entrez 2-3 domaines concurrents et l'outil montrera les mots-cles pour lesquels ces concurrents se positionnent dans le top 10 mais votre site pas du tout. Filtrez les resultats par volume de recherche (superieur a 50), par difficulte de mot-cle (inferieur a 40 pour des gains rapides) et par position (concurrent dans le top 5).\n\nDans Semrush, la fonctionnalite equivalente est Keyword Gap sous Competitive Research. L'interface permet de comparer jusqu'a cinq domaines simultanement, avec des filtres pour le type de mot-cle, les plages de position et les tranches de volume.\n\nLe resultat est typiquement une liste de centaines ou milliers de mots-cles. N'essayez pas de tous les traiter. Triez par volume de recherche, appliquez votre notation d'intention (priorisez les mots-cles commerciaux de niveaux 1-2) et cherchez des clusters de termes lies. Un cluster comme \"t-shirts coton bio\", \"chemises coton bio femme\" et \"meilleurs vetements coton biologique\" pointe vers une lacune de categorie que vous pouvez combler avec une seule page bien structuree. Notre [vérificateur de cannibalisation de mots-clés](/tools/duplicate-content) peut vous aider à vérifier que ces nouvelles pages n'entreront pas en conflit avec le contenu existant.",
           tip: "Executez l'analyse de gap contre chaque concurrent individuellement, pas tous en meme temps. Differents concurrents reveleront differents clusters d'opportunites. Un concurrent mode peut vous montrer des mots-cles vestimentaires manquants, tandis qu'un concurrent deco revele des termes de decoration auxquels vous n'aviez pas pense.",
         },
         {
@@ -155,6 +173,15 @@ export const competitorKeywordAnalysis: AcademyTopic = {
             "Categorie 3 : besoin de nouveaux produits, traiter comme intelligence commerciale pour les decisions d'inventaire",
             "Categorie 4 : pas pertinent, ignorer les mots-cles qui ne correspondent pas a votre positionnement ou catalogue",
           ],
+          image: {
+            src: "/images/academy/fr/competitor-keyword-buckets.svg",
+            alt: "Vier-Eimer-Framework zur Kategorisierung von Wettbewerber-Keywords",
+            caption: "Eimer 1 und 2 enthalten 80\u00a0% der umsetzbaren Chancen. Eimer 1 (bestehende Seiten optimieren) liefert die schnellsten Ergebnisse.",
+          },
+          callout: {
+            title: "Gap-Analyse ROI",
+            text: "Führen Sie die Gap-Analyse gegen jeden Wettbewerber einzeln durch, nicht alle gleichzeitig. Vierteljährliche Wiederholung fängt neue Marktteilnehmer und Ranking-Verschiebungen ab.",
+          },
         },
         {
           title: "Analyser les strategies de contenu des concurrents",
@@ -200,7 +227,7 @@ export const competitorKeywordAnalysis: AcademyTopic = {
         {
           title: "Ejecutar un analisis de brecha de palabras clave",
           content:
-            "Un analisis de brecha de palabras clave compara tu perfil de palabras clave contra uno o mas competidores para encontrar terminos para los que ellos posicionan y tu no. Esta es una de las actividades con mayor ROI en SEO para ecommerce porque revela demanda probada, si tu competidor posiciona y obtiene trafico para una palabra clave, la oportunidad esta validada.\n\nEn Ahrefs, ve al Site Explorer, introduce tu dominio, luego navega a Content Gap. Introduce 2-3 dominios competidores y la herramienta mostrara palabras clave para las que esos competidores posicionan en el top 10 pero tu sitio no posiciona en absoluto. Filtra los resultados por volumen de busqueda (superior a 50), por dificultad de palabra clave (inferior a 40 para victorias rapidas) y por posicion (competidor en top 5).\n\nEn Semrush, la funcion equivalente es Keyword Gap bajo Competitive Research. La interfaz permite comparar hasta cinco dominios simultaneamente, con filtros para tipo de palabra clave, rangos de posicion y tramos de volumen.\n\nEl resultado es tipicamente una lista de cientos o miles de palabras clave. No intentes abordarlas todas. Ordena por volumen de busqueda, aplica tu puntuacion de intencion (prioriza palabras clave comerciales de niveles 1-2) y busca clusters de terminos relacionados. Un cluster como \"camisetas algodon organico\", \"camisas algodon organico mujer\" y \"mejor ropa algodon organico\" apunta a una brecha de categoria que puedes abordar con una sola pagina bien estructurada. Nuestro [verificador de canibalizacion de palabras clave](/tools/keyword-cannibalization-checker) puede ayudarte a verificar que estas nuevas paginas no entren en conflicto con el contenido existente.",
+            "Un analisis de brecha de palabras clave compara tu perfil de palabras clave contra uno o mas competidores para encontrar terminos para los que ellos posicionan y tu no. Esta es una de las actividades con mayor ROI en SEO para ecommerce porque revela demanda probada, si tu competidor posiciona y obtiene trafico para una palabra clave, la oportunidad esta validada.\n\nEn Ahrefs, ve al Site Explorer, introduce tu dominio, luego navega a Content Gap. Introduce 2-3 dominios competidores y la herramienta mostrara palabras clave para las que esos competidores posicionan en el top 10 pero tu sitio no posiciona en absoluto. Filtra los resultados por volumen de busqueda (superior a 50), por dificultad de palabra clave (inferior a 40 para victorias rapidas) y por posicion (competidor en top 5).\n\nEn Semrush, la funcion equivalente es Keyword Gap bajo Competitive Research. La interfaz permite comparar hasta cinco dominios simultaneamente, con filtros para tipo de palabra clave, rangos de posicion y tramos de volumen.\n\nEl resultado es tipicamente una lista de cientos o miles de palabras clave. No intentes abordarlas todas. Ordena por volumen de busqueda, aplica tu puntuacion de intencion (prioriza palabras clave comerciales de niveles 1-2) y busca clusters de terminos relacionados. Un cluster como \"camisetas algodon organico\", \"camisas algodon organico mujer\" y \"mejor ropa algodon organico\" apunta a una brecha de categoria que puedes abordar con una sola pagina bien estructurada. Nuestro [verificador de canibalizacion de palabras clave](/tools/duplicate-content) puede ayudarte a verificar que estas nuevas paginas no entren en conflicto con el contenido existente.",
           tip: "Ejecuta el analisis de brecha contra cada competidor individualmente, no todos a la vez. Diferentes competidores revelaran diferentes clusters de oportunidades. Un competidor de moda puede mostrarte palabras clave de ropa que estas perdiendo, mientras un competidor de hogar revela terminos de decoracion que no habias considerado.",
         },
         {
@@ -213,6 +240,15 @@ export const competitorKeywordAnalysis: AcademyTopic = {
             "Cubeta 3: necesitas nuevos productos, trata como inteligencia de negocio para decisiones de inventario",
             "Cubeta 4: no relevante, omite palabras clave que no coinciden con tu posicionamiento o catalogo",
           ],
+          image: {
+            src: "/images/academy/es/competitor-keyword-buckets.svg",
+            alt: "Vier-Eimer-Framework zur Kategorisierung von Wettbewerber-Keywords",
+            caption: "Eimer 1 und 2 enthalten 80\u00a0% der umsetzbaren Chancen. Eimer 1 (bestehende Seiten optimieren) liefert die schnellsten Ergebnisse.",
+          },
+          callout: {
+            title: "Gap-Analyse ROI",
+            text: "Führen Sie die Gap-Analyse gegen jeden Wettbewerber einzeln durch, nicht alle gleichzeitig. Vierteljährliche Wiederholung fängt neue Marktteilnehmer und Ranking-Verschiebungen ab.",
+          },
         },
         {
           title: "Analizar las estrategias de contenido de competidores",
@@ -258,7 +294,7 @@ export const competitorKeywordAnalysis: AcademyTopic = {
         {
           title: "Eseguire un'analisi di gap delle parole chiave",
           content:
-            "Un'analisi di gap delle parole chiave confronta il vostro profilo di parole chiave con uno o piu concorrenti per trovare termini per cui loro si posizionano e voi no. Questa e una delle attivita con il ROI piu alto nel SEO e-commerce perche rivela domanda comprovata, se il vostro concorrente si posiziona e ottiene traffico per una parola chiave, l'opportunita e validata.\n\nIn Ahrefs, andate su Site Explorer, inserite il vostro dominio, poi navigate su Content Gap. Inserite 2-3 domini concorrenti e lo strumento mostrera le parole chiave per cui quei concorrenti si posizionano nel top 10 ma il vostro sito non si posiziona affatto. Filtrate i risultati per volume di ricerca (superiore a 50), per difficolta di parola chiave (inferiore a 40 per vittorie rapide) e per posizione (concorrente nel top 5).\n\nIn Semrush, la funzionalita equivalente e Keyword Gap sotto Competitive Research. L'interfaccia permette di confrontare fino a cinque domini simultaneamente, con filtri per tipo di parola chiave, range di posizione e fasce di volume.\n\nL'output e tipicamente una lista di centinaia o migliaia di parole chiave. Non cercate di affrontarle tutte. Ordinate per volume di ricerca, applicate la vostra valutazione dell'intenzione (date priorita alle parole chiave commerciali di livello 1-2) e cercate cluster di termini correlati. Un cluster come \"t-shirt cotone biologico\", \"camicie cotone bio donna\" e \"migliori capi cotone organico\" indica un gap di categoria che potete colmare con una singola pagina ben strutturata. Approfondisci con la nostra guida sulla [strumento di controllo della cannibalizzazione keyword](/tools/keyword-cannibalization-checker).",
+            "Un'analisi di gap delle parole chiave confronta il vostro profilo di parole chiave con uno o piu concorrenti per trovare termini per cui loro si posizionano e voi no. Questa e una delle attivita con il ROI piu alto nel SEO e-commerce perche rivela domanda comprovata, se il vostro concorrente si posiziona e ottiene traffico per una parola chiave, l'opportunita e validata.\n\nIn Ahrefs, andate su Site Explorer, inserite il vostro dominio, poi navigate su Content Gap. Inserite 2-3 domini concorrenti e lo strumento mostrera le parole chiave per cui quei concorrenti si posizionano nel top 10 ma il vostro sito non si posiziona affatto. Filtrate i risultati per volume di ricerca (superiore a 50), per difficolta di parola chiave (inferiore a 40 per vittorie rapide) e per posizione (concorrente nel top 5).\n\nIn Semrush, la funzionalita equivalente e Keyword Gap sotto Competitive Research. L'interfaccia permette di confrontare fino a cinque domini simultaneamente, con filtri per tipo di parola chiave, range di posizione e fasce di volume.\n\nL'output e tipicamente una lista di centinaia o migliaia di parole chiave. Non cercate di affrontarle tutte. Ordinate per volume di ricerca, applicate la vostra valutazione dell'intenzione (date priorita alle parole chiave commerciali di livello 1-2) e cercate cluster di termini correlati. Un cluster come \"t-shirt cotone biologico\", \"camicie cotone bio donna\" e \"migliori capi cotone organico\" indica un gap di categoria che potete colmare con una singola pagina ben strutturata. Approfondisci con la nostra guida sulla [strumento di controllo della cannibalizzazione keyword](/tools/duplicate-content).",
           tip: "Eseguite l'analisi di gap contro ogni concorrente individualmente, non tutti insieme. Diversi concorrenti riveleranno diversi cluster di opportunita. Un concorrente di moda potrebbe mostrarvi parole chiave di abbigliamento che vi mancano, mentre un concorrente di arredamento rivela termini di design che non avevate considerato.",
         },
         {
@@ -271,6 +307,15 @@ export const competitorKeywordAnalysis: AcademyTopic = {
             "Categoria 3: servono nuovi prodotti, trattate come business intelligence per decisioni di inventario",
             "Categoria 4: non rilevante, saltate parole chiave che non corrispondono al vostro posizionamento o catalogo",
           ],
+          image: {
+            src: "/images/academy/it/competitor-keyword-buckets.svg",
+            alt: "Vier-Eimer-Framework zur Kategorisierung von Wettbewerber-Keywords",
+            caption: "Eimer 1 und 2 enthalten 80\u00a0% der umsetzbaren Chancen. Eimer 1 (bestehende Seiten optimieren) liefert die schnellsten Ergebnisse.",
+          },
+          callout: {
+            title: "Gap-Analyse ROI",
+            text: "Führen Sie die Gap-Analyse gegen jeden Wettbewerber einzeln durch, nicht alle gleichzeitig. Vierteljährliche Wiederholung fängt neue Marktteilnehmer und Ranking-Verschiebungen ab.",
+          },
         },
         {
           title: "Analizzare le strategie di contenuto dei concorrenti",
@@ -316,7 +361,7 @@ export const competitorKeywordAnalysis: AcademyTopic = {
         {
           title: "Een zoekwoord-gapanalyse uitvoeren",
           content:
-            "Een zoekwoord-gapanalyse vergelijkt je zoekwoordprofiel met een of meer concurrenten om termen te vinden waarvoor zij ranken en jij niet. Dit is een van de activiteiten met de hoogste ROI in e-commerce SEO omdat het bewezen vraag onthult, als je concurrent rankt en verkeer krijgt voor een zoekwoord, is de kans gevalideerd.\n\nIn Ahrefs, ga naar Site Explorer, voer je domein in, navigeer dan naar Content Gap. Voer 2-3 concurrentdomeinen in en de tool toont zoekwoorden waarvoor die concurrenten in de top 10 ranken maar jouw site helemaal niet. Filter de resultaten op zoekvolume (boven 50), op zoekwoordmoeilijkheid (onder 40 voor snelle wins) en op positie (concurrent in top 5).\n\nIn Semrush is de equivalente functie Keyword Gap onder Competitive Research. De interface laat je tot vijf domeinen tegelijk vergelijken, met filters voor zoekwoordtype, positiebereiken en volumeklassen.\n\nDe output is doorgaans een lijst van honderden of duizenden zoekwoorden. Probeer ze niet allemaal aan te pakken. Sorteer op zoekvolume, pas je intentiescoring toe (prioriteer niveau 1-2 commerciele zoekwoorden) en zoek naar clusters van gerelateerde termen. Een cluster als \"biologisch katoenen t-shirts\", \"biologisch katoenen shirts dames\" en \"beste biologisch katoenen kleding\" wijst op een categoriegap die je met een enkele goed gestructureerde pagina kunt aanpakken.\n\nGebruik onze [zoekwoordkannibalisatiechecker](/tools/keyword-cannibalization-checker) om overlap te identificeren.",
+            "Een zoekwoord-gapanalyse vergelijkt je zoekwoordprofiel met een of meer concurrenten om termen te vinden waarvoor zij ranken en jij niet. Dit is een van de activiteiten met de hoogste ROI in e-commerce SEO omdat het bewezen vraag onthult, als je concurrent rankt en verkeer krijgt voor een zoekwoord, is de kans gevalideerd.\n\nIn Ahrefs, ga naar Site Explorer, voer je domein in, navigeer dan naar Content Gap. Voer 2-3 concurrentdomeinen in en de tool toont zoekwoorden waarvoor die concurrenten in de top 10 ranken maar jouw site helemaal niet. Filter de resultaten op zoekvolume (boven 50), op zoekwoordmoeilijkheid (onder 40 voor snelle wins) en op positie (concurrent in top 5).\n\nIn Semrush is de equivalente functie Keyword Gap onder Competitive Research. De interface laat je tot vijf domeinen tegelijk vergelijken, met filters voor zoekwoordtype, positiebereiken en volumeklassen.\n\nDe output is doorgaans een lijst van honderden of duizenden zoekwoorden. Probeer ze niet allemaal aan te pakken. Sorteer op zoekvolume, pas je intentiescoring toe (prioriteer niveau 1-2 commerciele zoekwoorden) en zoek naar clusters van gerelateerde termen. Een cluster als \"biologisch katoenen t-shirts\", \"biologisch katoenen shirts dames\" en \"beste biologisch katoenen kleding\" wijst op een categoriegap die je met een enkele goed gestructureerde pagina kunt aanpakken.\n\nGebruik onze [zoekwoordkannibalisatiechecker](/tools/duplicate-content) om overlap te identificeren.",
           tip: "Voer gapanalyse uit tegen elke concurrent afzonderlijk, niet allemaal tegelijk. Verschillende concurrenten onthullen verschillende kansenclusters. Een modeconcurrent kan je kledingzoekwoorden tonen die je mist, terwijl een interieurconcurrent woondecoratie-termen onthult waar je niet aan had gedacht.",
         },
         {
@@ -329,6 +374,15 @@ export const competitorKeywordAnalysis: AcademyTopic = {
             "Bak 3: nieuwe producten nodig, behandel als business intelligence voor voorraadbesluiten",
             "Bak 4: niet relevant, sla zoekwoorden over die niet bij je positionering of catalogus passen",
           ],
+          image: {
+            src: "/images/academy/nl/competitor-keyword-buckets.svg",
+            alt: "Vier-Eimer-Framework zur Kategorisierung von Wettbewerber-Keywords",
+            caption: "Eimer 1 und 2 enthalten 80\u00a0% der umsetzbaren Chancen. Eimer 1 (bestehende Seiten optimieren) liefert die schnellsten Ergebnisse.",
+          },
+          callout: {
+            title: "Gap-Analyse ROI",
+            text: "Führen Sie die Gap-Analyse gegen jeden Wettbewerber einzeln durch, nicht alle gleichzeitig. Vierteljährliche Wiederholung fängt neue Marktteilnehmer und Ranking-Verschiebungen ab.",
+          },
         },
         {
           title: "Contentstrategieen van concurrenten analyseren",

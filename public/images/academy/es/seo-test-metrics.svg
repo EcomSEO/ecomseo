@@ -1,0 +1,23 @@
+<svg viewBox="0 0 380 180" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <text x="190" y="20" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#a78bfa">SEO Probar Medición Framework</text>
+  <!-- Primary metrics -->
+  <text x="190" y="42" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#4ade80">Primary Métricas (Search Console)</text>
+  <rect x="15" y="50" width="80" height="28" rx="4" stroke="#4ade80" stroke-width="1.5"/>
+  <text x="55" y="68" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Clicks</text>
+  <rect x="105" y="50" width="80" height="28" rx="4" stroke="#4ade80" stroke-width="1.5"/>
+  <text x="145" y="68" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Impresiones</text>
+  <rect x="195" y="50" width="80" height="28" rx="4" stroke="#4ade80" stroke-width="1.5"/>
+  <text x="235" y="68" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">CTR</text>
+  <rect x="285" y="50" width="80" height="28" rx="4" stroke="#4ade80" stroke-width="1.5"/>
+  <text x="325" y="68" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Avg Position</text>
+  <!-- Comparison -->
+  <text x="190" y="102" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#60a5fa">Actual vs. Predicted Performance</text>
+  <rect x="30" y="112" width="140" height="28" rx="4" stroke="#f97316" stroke-width="1.5"/>
+  <text x="100" y="130" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#f97316">Predicted (from control)</text>
+  <text x="190" y="130" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" fill="#e2e8f0">vs.</text>
+  <rect x="210" y="112" width="140" height="28" rx="4" stroke="#4ade80" stroke-width="1.5"/>
+  <text x="280" y="130" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#4ade80">Actual (variant group)</text>
+  <!-- Pitfalls -->
+  <text x="190" y="160" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#ef4444">Watch for: seasonality, algorithm updates, cannibalization, short duration</text>
+  <text x="190" y="175" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#94a3b8">Document all results (including failures) to build testing knowledge</text>
+</svg>

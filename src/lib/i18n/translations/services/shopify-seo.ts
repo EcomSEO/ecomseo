@@ -284,7 +284,7 @@ export const shopifySeoData: Record<Locale, ServicePageProps> = {
           name: "Fabian van Til",
           role: "Strategy & Innovation",
           bio: "Fabian runs the SEO strategy for every Shopify client. 8 years of ecommerce-only experience across fashion, health, beauty, and home goods. He decides what gets fixed first and what the roadmap looks like.",
-          image: "/images/framer/C23VbBxvj2kY5TMoXAJHXWVLaA.webp",
+          image: "/images/framer/fabian-van-til-new.jpeg",
           linkedin: "https://www.linkedin.com/in/fabianvantil/",
         },
         teamMembers: [
@@ -293,7 +293,7 @@ export const shopifySeoData: Record<Locale, ServicePageProps> = {
             role: "Technical & On-Page SEO",
             bio: "Dimitar handles Shopify theme optimization, structured data, on-page SEO, and site architecture. He also builds the free SEO tools on this site.",
             image: "/images/framer/Q3tfuu2ytPAotONsFoP1ouyPZic.png",
-            linkedin: "https://www.linkedin.com/in/dimitar-seo/",
+            linkedin: "https://bg.linkedin.com/in/dimitar-georgiev-seo-expert",
           },
           {
             name: "Martinijan Trajkovski",
@@ -392,7 +392,7 @@ export const shopifySeoData: Record<Locale, ServicePageProps> = {
           question:
             "How is EcomSEO different from other Shopify SEO agencies?",
           answer:
-            "Three things set us apart. First, we only work with ecommerce brands, deeper platform expertise. Second, we focus on revenue metrics, not vanity rankings, every report connects SEO activity to actual revenue impact. Third, we practice radical transparency, you see exactly what we're doing, why, and how it's performing. Learn more about our [technical SEO methodology](/technical-seo).",
+            "Three things set us apart. First, we only work with ecommerce brands, deeper platform expertise. Second, we focus on revenue metrics, not vanity rankings, every report connects SEO activity to actual revenue impact. Third, we practice radical transparency, you see exactly what we're doing, why, and how it's performing. Learn more about our [technical SEO methodology](/ecommerce-seo-services).",
         },
         {
           question: "How much does Shopify SEO cost?",
@@ -574,7 +574,7 @@ export const shopifySeoData: Record<Locale, ServicePageProps> = {
           question:
             "Was unterscheidet EcomSEO von anderen Shopify-SEO-Agenturen?",
           answer:
-            "Wir arbeiten ausschließlich mit E-Commerce-Marken und verstehen daher die Umsatzauswirkung jeder SEO-Entscheidung. Wir konzentrieren uns auf Profit-Metriken (nicht Eitelkeits-Rankings), bieten radikale Transparenz im Reporting und denken als Unternehmer, wir haben selbst E-Commerce-Marken aufgebaut und skaliert. Erfahren Sie mehr über unsere [technische SEO-Methodik](/technical-seo).",
+            "Wir arbeiten ausschließlich mit E-Commerce-Marken und verstehen daher die Umsatzauswirkung jeder SEO-Entscheidung. Wir konzentrieren uns auf Profit-Metriken (nicht Eitelkeits-Rankings), bieten radikale Transparenz im Reporting und denken als Unternehmer, wir haben selbst E-Commerce-Marken aufgebaut und skaliert. Erfahren Sie mehr über unsere [technische SEO-Methodik](/ecommerce-seo-services).",
         },
       ],
       miniCta: {
@@ -735,7 +735,7 @@ export const shopifySeoData: Record<Locale, ServicePageProps> = {
           question:
             "En quoi EcomSEO se distingue-t-il des autres agences SEO Shopify\u00a0?",
           answer:
-            "Nous travaillons exclusivement avec des marques e-commerce et comprenons l\u2019impact sur le CA de chaque décision SEO. Nous nous concentrons sur les métriques de profit (pas les classements de vanité), offrons une transparence totale dans nos rapports et apportons un état d\u2019esprit d\u2019opérateur, nous avons nous-mêmes construit et développé des marques e-commerce. Découvrez notre [méthodologie SEO technique](/technical-seo).",
+            "Nous travaillons exclusivement avec des marques e-commerce et comprenons l\u2019impact sur le CA de chaque décision SEO. Nous nous concentrons sur les métriques de profit (pas les classements de vanité), offrons une transparence totale dans nos rapports et apportons un état d\u2019esprit d\u2019opérateur, nous avons nous-mêmes construit et développé des marques e-commerce. Découvrez notre [méthodologie SEO technique](/ecommerce-seo-services).",
         },
       ],
       miniCta: {
@@ -896,7 +896,7 @@ export const shopifySeoData: Record<Locale, ServicePageProps> = {
           question:
             "¿En qué se diferencia EcomSEO de otras agencias SEO para Shopify?",
           answer:
-            "Solo trabajamos con marcas de e-commerce, así que entendemos el impacto en ingresos de cada decisión SEO. Nos centramos en métricas de rentabilidad (no rankings de vanidad), ofrecemos total transparencia en los informes y pensamos como operadores: hemos construido y escalado marcas de e-commerce nosotros mismos. Conoce más sobre nuestra [metodología de SEO técnico](/technical-seo).",
+            "Solo trabajamos con marcas de e-commerce, así que entendemos el impacto en ingresos de cada decisión SEO. Nos centramos en métricas de rentabilidad (no rankings de vanidad), ofrecemos total transparencia en los informes y pensamos como operadores: hemos construido y escalado marcas de e-commerce nosotros mismos. Conoce más sobre nuestra [metodología de SEO técnico](/ecommerce-seo-services).",
         },
       ],
       miniCta: {
@@ -1057,7 +1057,7 @@ export const shopifySeoData: Record<Locale, ServicePageProps> = {
           question:
             "In cosa si differenzia EcomSEO dalle altre agenzie SEO Shopify?",
           answer:
-            "Lavoriamo esclusivamente con brand e-commerce, quindi comprendiamo l\u2019impatto sul fatturato di ogni decisione SEO. Ci concentriamo su metriche di profitto (non ranking di vanità), offriamo totale trasparenza nel reporting e ragioniamo da operatori, abbiamo costruito e scalato brand e-commerce noi stessi. Scopri di più sulla nostra [metodologia SEO tecnica](/technical-seo).",
+            "Lavoriamo esclusivamente con brand e-commerce, quindi comprendiamo l\u2019impatto sul fatturato di ogni decisione SEO. Ci concentriamo su metriche di profitto (non ranking di vanità), offriamo totale trasparenza nel reporting e ragioniamo da operatori, abbiamo costruito e scalato brand e-commerce noi stessi. Scopri di più sulla nostra [metodologia SEO tecnica](/ecommerce-seo-services).",
         },
       ],
       miniCta: {
@@ -1218,7 +1218,7 @@ export const shopifySeoData: Record<Locale, ServicePageProps> = {
           question:
             "Wat onderscheidt EcomSEO van andere Shopify SEO-bureaus?",
           answer:
-            "We werken uitsluitend met e-commercemerken, dus begrijpen we de omzetimpact van elke SEO-beslissing. We focussen op winstmetrics (niet ijdelheidsrankings), bieden radicale transparantie in rapportages en denken als operators, we hebben zelf e-commercemerken gebouwd en opgeschaald. Lees meer over onze [technische SEO-methodologie](/technical-seo).",
+            "We werken uitsluitend met e-commercemerken, dus begrijpen we de omzetimpact van elke SEO-beslissing. We focussen op winstmetrics (niet ijdelheidsrankings), bieden radicale transparantie in rapportages en denken als operators, we hebben zelf e-commercemerken gebouwd en opgeschaald. Lees meer over onze [technische SEO-methodologie](/ecommerce-seo-services).",
         },
       ],
       miniCta: {

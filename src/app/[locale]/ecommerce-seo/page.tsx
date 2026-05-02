@@ -6,6 +6,8 @@ import { serviceJsonLd, breadcrumbJsonLd, faqJsonLd } from "@/lib/jsonLd";
 import { BASE_URL } from "@/lib/i18n/config";
 import { servicePageData, homeBreadcrumb } from "@/lib/i18n/translations/services";
 
+export const revalidate = 3600;
+
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
@@ -47,7 +49,7 @@ export default async function EcommerceSeoPage({
           "@id": `${BASE_URL}/ecommerce-seo#webpage`,
           url: `${BASE_URL}/ecommerce-seo`,
           name: "Ecommerce SEO Services — 8-Figure Revenue Generated | EcomSEO",
-          description: "Ecommerce SEO agency that audits, fixes, and scales organic traffic for online stores. 50+ stores optimized, 140% avg. traffic increase.",
+          description: "Ecommerce SEO agency that audits, fixes, and scales organic traffic for online stores. 19+ stores optimized, 140% avg. traffic increase.",
           isPartOf: { "@id": `${BASE_URL}/#website` },
           about: { "@id": `${BASE_URL}/ecommerce-seo#service` },
           provider: { "@id": `${BASE_URL}/#organization` },

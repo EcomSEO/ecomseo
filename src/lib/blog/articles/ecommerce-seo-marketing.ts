@@ -3,7 +3,7 @@ import type { BlogArticle } from "../types";
 export const ecommerceSeoMarketing: BlogArticle = {
   slug: "ecommerce-seo-marketing",
   category: "strategy",
-  publishDate: "2025-07-18",
+  publishDate: "2026-03-13",
   readingTime: 11,
   author: "Fabian van Til",
   authorRole: "CEO at EcomSEO",
@@ -35,6 +35,8 @@ export const ecommerceSeoMarketing: BlogArticle = {
             "Owning both the paid and organic listing for a search query has a documented benefit. Studies by Google (yes, they have an interest here, but the data is consistent with what we see) show that having both listings visible increases total clicks beyond what either channel achieves alone. For high-value commercial keywords, running a modest ad alongside your organic listing can increase total traffic by 15-25%.",
             "Share search query reports between teams regularly. The PPC team sees exact queries that trigger ads, including queries you never thought to target with SEO. We discovered a client's customers were searching for their product by a nickname that nobody on the marketing team had heard of. That insight came from PPC search query data and led to a content piece that now brings in 1,200 organic visits per month.",
           ],
+          image: { src: "/images/blog/seo-ppc-synergy.svg", alt: "Venn diagram showing SEO and PPC synergy with shared intelligence zone", caption: "Sharing data between SEO and PPC reduces CPA by 30-40%" },
+          callout: { title: "Cut Wasted Ad Spend", text: "One client saved $4,200/month by pausing PPC bids on keywords where they already ranked organically in positions 1-3. Use PPC conversion data to prioritize which pages to optimize for SEO first." },
         },
         {
           heading: "Using email marketing to amplify SEO",
@@ -44,6 +46,8 @@ export const ecommerceSeoMarketing: BlogArticle = {
             "Segment your email list by product interest and use that data for content planning. If 12,000 of your subscribers purchased running shoes, they are the perfect audience for a \"running shoe care guide\" that doubles as an SEO content piece. The email drives initial traffic. The SEO keeps driving traffic for months after. We plan content calendars with both channels in mind.",
             "Abandoned cart and browse abandonment emails often include product pages that the recipient visited. These pages accumulate engagement signals over time. If your product pages are slow, poorly designed, or lack the information shoppers need, that hurts both email conversion rates and SEO engagement metrics. Optimizing product pages improves performance across both channels simultaneously.",
           ],
+          image: { src: "/images/blog/email-seo-amplification.svg", alt: "Email marketing as SEO amplifier showing content launch to email blast to engagement signals to stronger Google evaluation", caption: "Email drives the initial traffic burst; SEO sustains traffic for months after" },
+          callout: { title: "Time Content Launches", text: "Email new SEO content to relevant subscriber segments within the first week of publication. The initial burst of 8,000+ click-throughs gives pages a stronger start in Google's evaluation period." },
         },
         {
           heading: "Social media's role in ecommerce SEO",
@@ -62,6 +66,7 @@ export const ecommerceSeoMarketing: BlogArticle = {
             "Shopping ad data is equally valuable. Google Merchant Center shows which product titles and descriptions get the most impressions and clicks in Shopping results. If certain product attributes (color, size, material) appear in high-performing Shopping listings, those same attributes should be prominent in your organic product page optimization.",
             "Auction insights from Google Ads show who your actual paid competitors are. This list often differs from your organic competitors. But if a competitor is bidding aggressively on keywords in your space, they likely have pages targeting those keywords organically too. Analyzing their organic content gives you a competitive benchmark for your own SEO content strategy.",
           ],
+          image: { src: "/images/blog/paid-data-seo-workflow.svg", alt: "Workflow showing how Google Ads data feeds into SEO keyword prioritization and content strategy", caption: "High-CPA keywords with strong conversion rates are your best organic SEO targets" },
         },
         {
           heading: "Attribution challenges and how to handle them",
@@ -80,6 +85,8 @@ export const ecommerceSeoMarketing: BlogArticle = {
             "Create a shared content asset library. That product photography shoot you did for Instagram? The SEO team needs those images for buying guides. The customer testimonial video on YouTube? It should be embedded on the product page. The detailed product comparison your SEO content team created? Excerpt it for email and social. Stop producing channel-specific content when multi-channel assets work harder for less cost.",
             "Align promotional calendars across channels. If you are running a \"back to school\" campaign in paid and email, your SEO content calendar should have back-to-school buying guides publishing 4-6 weeks before the campaign launches (to give them time to rank). Seasonal content alignment ensures that every channel pushes toward the same revenue goals during peak periods.",
           ],
+          image: { src: "/images/blog/cross-channel-content-reuse.svg", alt: "Cross-channel content reuse strategy showing shared content assets distributed across SEO, email, social, PPC, and YouTube", caption: "Build once, distribute everywhere, let the cross-channel effects compound" },
+          callout: { title: "Build Once, Use Everywhere", text: "A buying guide with strong visuals becomes Instagram carousels, Pinterest pins, YouTube scripts, and email content. Stop producing channel-specific content when multi-channel assets work harder for less cost." },
         },
         {
           heading: "Budget allocation across channels",
@@ -89,6 +96,7 @@ export const ecommerceSeoMarketing: BlogArticle = {
             "SEO budget should increase when you are winning. This is counterintuitive because most businesses increase marketing spend on struggling channels and cut budgets on channels that are working. But SEO compounds. If your organic traffic grew 40% last year on a $5,000/month investment, increasing to $7,500/month will not just maintain that growth, it will accelerate it because you are building on a stronger foundation.",
             "Reserve 10-15% of your total marketing budget for testing and experimentation across channels. Try new content formats. Test new social platforms. Experiment with different PPC bidding strategies. The insights from testing feed back into your core channels. Some of our best SEO content ideas came from seeing what performed unexpectedly well on social media or in email campaigns.",
           ],
+          image: { src: "/images/blog/cross-channel-budget.svg", alt: "Recommended budget allocation across PPC, SEO, email, and social by growth stage", caption: "Budget allocation shifts from PPC-heavy to SEO-heavy as stores mature" },
         },
         {
           heading: "Making integration work in practice",
@@ -120,6 +128,8 @@ export const ecommerceSeoMarketing: BlogArticle = {
             "Sowohl das bezahlte als auch das organische Listing fuer eine Suchanfrage zu besitzen hat einen dokumentierten Vorteil. Studien von Google (ja, sie haben hier ein Interesse, aber die Daten stimmen mit dem ueberein, was wir sehen) zeigen, dass beide sichtbaren Listings die Gesamtklicks ueber das hinaus steigern, was jeder Kanal allein erzielt. Fuer hochwertige kommerzielle Keywords kann das Schalten einer bescheidenen Anzeige neben Ihrem organischen Listing den Gesamttraffic um 15-25% steigern.",
             "Teilen Sie Suchanfragenberichte regelmaessig zwischen den Teams. Das PPC-Team sieht exakte Anfragen, die Anzeigen ausloesen, einschliesslich Anfragen, die Sie nie daran gedacht haetten, mit SEO zu targeten. Wir entdeckten, dass die Kunden eines Mandanten nach deren Produkt mit einem Spitznamen suchten, den niemand im Marketingteam gehoert hatte. Diese Erkenntnis kam aus PPC-Suchanfragendaten und fuehrte zu einem Content-Stueck, das jetzt 1.200 organische Besuche pro Monat bringt."
           ],
+          image: { src: "/images/blog/de/seo-ppc-synergy.svg", alt: "Venn diagram showing SEO and PPC synergy with shared intelligence zone", caption: "Sharing data between SEO and PPC reduces CPA by 30-40%" },
+          callout: { title: "Cut Wasted Ad Spend", text: "One client saved $4,200/month by pausing PPC bids on keywords where they already ranked organically in positions 1-3. Use PPC conversion data to prioritize which pages to optimize for SEO first." },
         },
         {
           heading: "E-Mail-Marketing zur Verstaerkung von SEO nutzen",
@@ -129,6 +139,8 @@ export const ecommerceSeoMarketing: BlogArticle = {
             "Segmentieren Sie Ihre E-Mail-Liste nach Produktinteresse und nutzen Sie diese Daten fuer die Content-Planung. Wenn 12.000 Ihrer Abonnenten Laufschuhe gekauft haben, sind sie das perfekte Publikum fuer einen 'Laufschuh-Pflegeleitfaden', der gleichzeitig als SEO-Content-Stueck dient. Die E-Mail treibt initialen Traffic. Das SEO treibt weiterhin Traffic fuer Monate danach. Wir planen Content-Kalender mit beiden Kanaelen im Blick.",
             "Warenkorbabbrecher- und Browse-Abbruch-E-Mails enthalten oft Produktseiten, die der Empfaenger besucht hat. Diese Seiten sammeln ueber die Zeit Engagement-Signale an. Wenn Ihre Produktseiten langsam sind, schlecht gestaltet oder den Kaeufer nicht mit noetigem Information versorgen, schadet das sowohl den E-Mail-Conversion-Rates als auch den SEO-Engagement-Metriken. Die Optimierung von Produktseiten verbessert die Performance beider Kanaele gleichzeitig."
           ],
+          image: { src: "/images/blog/de/email-seo-amplification.svg", alt: "Email marketing as SEO amplifier showing content launch to email blast to engagement signals to stronger Google evaluation", caption: "Email drives the initial traffic burst; SEO sustains traffic for months after" },
+          callout: { title: "Time Content Launches", text: "Email new SEO content to relevant subscriber segments within the first week of publication. The initial burst of 8,000+ click-throughs gives pages a stronger start in Google's evaluation period." },
         },
         {
           heading: "Die Rolle von Social Media im Ecommerce SEO",
@@ -147,6 +159,7 @@ export const ecommerceSeoMarketing: BlogArticle = {
             "Shopping-Anzeigen-Daten sind ebenso wertvoll. Google Merchant Center zeigt, welche Produkttitel und -beschreibungen die meisten Impressionen und Klicks in Shopping-Ergebnissen erhalten. Wenn bestimmte Produktattribute (Farbe, Groesse, Material) in hochperformenden Shopping-Listings erscheinen, sollten dieselben Attribute in Ihrer organischen Produktseiten-Optimierung prominent sein.",
             "Auction Insights aus Google Ads zeigen, wer Ihre tatsaechlichen bezahlten Wettbewerber sind. Diese Liste unterscheidet sich oft von Ihren organischen Wettbewerbern. Aber wenn ein Wettbewerber aggressiv auf Keywords in Ihrem Bereich bietet, hat er wahrscheinlich auch Seiten, die organisch auf diese Keywords abzielen. Die Analyse ihres organischen Contents gibt Ihnen einen Wettbewerbs-Benchmark fuer Ihre eigene SEO-Content-Strategie."
           ],
+          image: { src: "/images/blog/de/paid-data-seo-workflow.svg", alt: "Workflow showing how Google Ads data feeds into SEO keyword prioritization and content strategy", caption: "High-CPA keywords with strong conversion rates are your best organic SEO targets" },
         },
         {
           heading: "Attributionsherausforderungen und wie man damit umgeht",
@@ -165,6 +178,8 @@ export const ecommerceSeoMarketing: BlogArticle = {
             "Erstellen Sie eine gemeinsame Content-Asset-Bibliothek. Das Produkt-Fotoshooting, das Sie fuer Instagram gemacht haben? Das SEO-Team braucht diese Bilder fuer Kaufratgeber. Das Kunden-Testimonial-Video auf YouTube? Es sollte auf der Produktseite eingebettet werden. Der detaillierte Produktvergleich, den Ihr SEO-Content-Team erstellt hat? Verwenden Sie Auszuege fuer E-Mail und Social. Hoeren Sie auf, kanalspezifischen Content zu produzieren, wenn Multi-Channel-Assets mit weniger Kosten haerter arbeiten.",
             "Stimmen Sie Promotionskalender ueber Kanaele hinweg ab. Wenn Sie eine 'Back to School'-Kampagne in Paid und E-Mail laufen lassen, sollte Ihr SEO-Content-Kalender Back-to-School-Kaufratgeber haben, die 4-6 Wochen vor dem Kampagnenstart veroeffentlicht werden (um ihnen Zeit zum Ranken zu geben). Saisonale Content-Abstimmung stellt sicher, dass jeder Kanal waehrend der Spitzenzeiten auf dieselben Umsatzziele hinarbeitet."
           ],
+          image: { src: "/images/blog/de/cross-channel-content-reuse.svg", alt: "Cross-channel content reuse strategy showing shared content assets distributed across SEO, email, social, PPC, and YouTube", caption: "Build once, distribute everywhere, let the cross-channel effects compound" },
+          callout: { title: "Build Once, Use Everywhere", text: "A buying guide with strong visuals becomes Instagram carousels, Pinterest pins, YouTube scripts, and email content. Stop producing channel-specific content when multi-channel assets work harder for less cost." },
         },
         {
           heading: "Budgetallokation ueber Kanaele hinweg",
@@ -174,6 +189,7 @@ export const ecommerceSeoMarketing: BlogArticle = {
             "Das SEO-Budget sollte steigen, wenn Sie gewinnen. Das ist kontraintuitiv, weil die meisten Unternehmen die Marketingausgaben fuer kaempfende Kanaele erhoehen und Budgets fuer funktionierende Kanaele kuerzen. Aber SEO akkumuliert sich. Wenn Ihr organischer Traffic letztes Jahr bei einer Investition von 5.000 Dollar/Monat um 40% gewachsen ist, wird eine Erhoehung auf 7.500 Dollar/Monat dieses Wachstum nicht nur aufrechterhalten, sondern beschleunigen, weil Sie auf einer staerkeren Basis aufbauen.",
             "Reservieren Sie 10-15% Ihres gesamten Marketingbudgets fuer Tests und Experimente ueber Kanaele hinweg. Probieren Sie neue Content-Formate aus. Testen Sie neue Social-Plattformen. Experimentieren Sie mit verschiedenen PPC-Gebotsstrategien. Die Erkenntnisse aus Tests fliessen zurueck in Ihre Kernkanaele. Einige unserer besten SEO-Content-Ideen kamen davon, zu sehen, was unerwartet gut auf Social Media oder in E-Mail-Kampagnen performte."
           ],
+          image: { src: "/images/blog/de/cross-channel-budget.svg", alt: "Recommended budget allocation across PPC, SEO, email, and social by growth stage", caption: "Budget allocation shifts from PPC-heavy to SEO-heavy as stores mature" },
         },
         {
           heading: "Integration in der Praxis umsetzen",
@@ -205,6 +221,8 @@ export const ecommerceSeoMarketing: BlogArticle = {
             "Posséder à la fois le listing payant et organique pour une requête de recherche a un bénéfice documenté. Des études de Google (oui, ils ont un intérêt ici, mais les données sont cohérentes avec ce que nous observons) montrent qu'avoir les deux listings visibles augmente le total de clics au-delà de ce que chaque canal atteint seul. Pour les mots-clés commerciaux de haute valeur, diffuser une annonce modeste à côté de votre listing organique peut augmenter le trafic total de 15-25 %.",
             "Partagez régulièrement les rapports de requêtes de recherche entre les équipes. L'équipe PPC voit les requêtes exactes qui déclenchent les annonces, y compris des requêtes que vous n'avez jamais pensé à cibler en SEO. Nous avons découvert que les clients d'un de nos clients recherchaient leur produit par un surnom que personne dans l'équipe marketing ne connaissait. Cet insight provenait des données de requêtes PPC et a mené à un contenu qui attire maintenant 1 200 visites organiques par mois."
           ],
+          image: { src: "/images/blog/fr/seo-ppc-synergy.svg", alt: "Venn diagram showing SEO and PPC synergy with shared intelligence zone", caption: "Sharing data between SEO and PPC reduces CPA by 30-40%" },
+          callout: { title: "Cut Wasted Ad Spend", text: "One client saved $4,200/month by pausing PPC bids on keywords where they already ranked organically in positions 1-3. Use PPC conversion data to prioritize which pages to optimize for SEO first." },
         },
         {
           heading: "Utiliser l'email marketing pour amplifier le SEO",
@@ -214,6 +232,8 @@ export const ecommerceSeoMarketing: BlogArticle = {
             "Segmentez votre liste email par intérêt produit et utilisez ces données pour la planification de contenu. Si 12 000 de vos abonnés ont acheté des chaussures de running, ils sont l'audience parfaite pour un « guide d'entretien des chaussures de running » qui sert aussi de contenu SEO. L'email génère le trafic initial. Le SEO continue de générer du trafic pendant des mois après. Nous planifions les calendriers de contenu avec les deux canaux en tête.",
             "Les emails de panier abandonné et d'abandon de navigation incluent souvent des pages produits que le destinataire a visitées. Ces pages accumulent des signaux d'engagement au fil du temps. Si vos pages produits sont lentes, mal conçues ou manquent d'informations dont les acheteurs ont besoin, cela nuit à la fois aux taux de conversion email et aux métriques d'engagement SEO. Optimiser les pages produits améliore les performances sur les deux canaux simultanément."
           ],
+          image: { src: "/images/blog/fr/email-seo-amplification.svg", alt: "Email marketing as SEO amplifier showing content launch to email blast to engagement signals to stronger Google evaluation", caption: "Email drives the initial traffic burst; SEO sustains traffic for months after" },
+          callout: { title: "Time Content Launches", text: "Email new SEO content to relevant subscriber segments within the first week of publication. The initial burst of 8,000+ click-throughs gives pages a stronger start in Google's evaluation period." },
         },
         {
           heading: "Le rôle des réseaux sociaux dans le SEO ecommerce",
@@ -232,6 +252,7 @@ export const ecommerceSeoMarketing: BlogArticle = {
             "Les données des annonces Shopping sont tout aussi précieuses. Google Merchant Center montre quels titres et descriptions de produits obtiennent le plus d'impressions et de clics dans les résultats Shopping. Si certains attributs de produits (couleur, taille, matériau) apparaissent dans les listings Shopping performants, ces mêmes attributs devraient être proéminents dans l'optimisation organique de vos pages produits.",
             "Les insights d'enchères de Google Ads montrent qui sont vos vrais concurrents en paid. Cette liste diffère souvent de vos concurrents organiques. Mais si un concurrent enchérit agressivement sur des mots-clés dans votre espace, il a probablement aussi des pages ciblant ces mots-clés organiquement. Analyser leur contenu organique vous donne un benchmark concurrentiel pour votre propre stratégie de contenu SEO."
           ],
+          image: { src: "/images/blog/fr/paid-data-seo-workflow.svg", alt: "Workflow showing how Google Ads data feeds into SEO keyword prioritization and content strategy", caption: "High-CPA keywords with strong conversion rates are your best organic SEO targets" },
         },
         {
           heading: "Défis d'attribution et comment les gérer",
@@ -250,6 +271,8 @@ export const ecommerceSeoMarketing: BlogArticle = {
             "Créez une bibliothèque partagée de contenus. Cette séance photo de produits que vous avez faite pour Instagram ? L'équipe SEO a besoin de ces images pour les guides d'achat. Le témoignage vidéo client sur YouTube ? Il devrait être intégré sur la page produit. La comparaison détaillée de produits créée par votre équipe de contenu SEO ? Extrayez-en des passages pour l'email et les réseaux sociaux. Arrêtez de produire du contenu spécifique à un canal quand des contenus multi-canaux travaillent plus dur pour moins cher.",
             "Alignez les calendriers promotionnels entre les canaux. Si vous lancez une campagne « rentrée des classes » en paid et en email, votre calendrier de contenu SEO devrait avoir des guides d'achat rentrée publiés 4-6 semaines avant le lancement de la campagne (pour leur donner le temps de se classer). L'alignement du contenu saisonnier garantit que chaque canal pousse vers les mêmes objectifs de chiffre d'affaires pendant les périodes de pointe."
           ],
+          image: { src: "/images/blog/fr/cross-channel-content-reuse.svg", alt: "Cross-channel content reuse strategy showing shared content assets distributed across SEO, email, social, PPC, and YouTube", caption: "Build once, distribute everywhere, let the cross-channel effects compound" },
+          callout: { title: "Build Once, Use Everywhere", text: "A buying guide with strong visuals becomes Instagram carousels, Pinterest pins, YouTube scripts, and email content. Stop producing channel-specific content when multi-channel assets work harder for less cost." },
         },
         {
           heading: "Allocation budgétaire entre les canaux",
@@ -259,6 +282,7 @@ export const ecommerceSeoMarketing: BlogArticle = {
             "Le budget SEO devrait augmenter quand vous gagnez. C'est contre-intuitif car la plupart des entreprises augmentent les dépenses marketing sur les canaux en difficulté et coupent les budgets des canaux qui fonctionnent. Mais le SEO se compose. Si votre trafic organique a augmenté de 40 % l'année dernière avec un investissement de 5 000 €/mois, augmenter à 7 500 €/mois ne fera pas que maintenir cette croissance, cela l'accélérera parce que vous construisez sur des fondations plus solides.",
             "Réservez 10-15 % de votre budget marketing total pour les tests et l'expérimentation à travers les canaux. Essayez de nouveaux formats de contenu. Testez de nouvelles plateformes sociales. Expérimentez différentes stratégies d'enchères PPC. Les insights des tests alimentent vos canaux principaux. Certaines de nos meilleures idées de contenu SEO sont venues de performances inattendues sur les réseaux sociaux ou dans les campagnes email."
           ],
+          image: { src: "/images/blog/fr/cross-channel-budget.svg", alt: "Recommended budget allocation across PPC, SEO, email, and social by growth stage", caption: "Budget allocation shifts from PPC-heavy to SEO-heavy as stores mature" },
         },
         {
           heading: "Faire fonctionner l'intégration en pratique",
@@ -290,6 +314,8 @@ export const ecommerceSeoMarketing: BlogArticle = {
             "Tener tanto el listado de pago como el orgánico para una consulta de búsqueda tiene un beneficio documentado. Estudios de Google (sí, tienen un interés aquí, pero los datos son consistentes con lo que vemos) muestran que tener ambos listados visibles aumenta los clics totales más allá de lo que cualquier canal logra solo. Para keywords comerciales de alto valor, ejecutar un anuncio modesto junto a tu listado orgánico puede aumentar el tráfico total entre un 15-25%.",
             "Comparte informes de consultas de búsqueda entre equipos regularmente. El equipo de PPC ve consultas exactas que activan anuncios, incluyendo consultas que nunca pensaste apuntar con SEO. Descubrimos que los clientes de un cliente estaban buscando su producto por un apodo que nadie en el equipo de marketing había escuchado. Ese insight vino de datos de consultas de búsqueda de PPC y llevó a una pieza de contenido que ahora trae 1.200 visitas orgánicas al mes."
           ],
+          image: { src: "/images/blog/es/seo-ppc-synergy.svg", alt: "Venn diagram showing SEO and PPC synergy with shared intelligence zone", caption: "Sharing data between SEO and PPC reduces CPA by 30-40%" },
+          callout: { title: "Cut Wasted Ad Spend", text: "One client saved $4,200/month by pausing PPC bids on keywords where they already ranked organically in positions 1-3. Use PPC conversion data to prioritize which pages to optimize for SEO first." },
         },
         {
           heading: "Usando email marketing para amplificar el SEO",
@@ -299,6 +325,8 @@ export const ecommerceSeoMarketing: BlogArticle = {
             "Segmenta tu lista de email por interés de producto y usa esos datos para la planificación de contenido. Si 12.000 de tus suscriptores compraron zapatillas de running, son la audiencia perfecta para una \"guía de cuidado de zapatillas de running\" que funciona también como pieza de contenido SEO. El email impulsa el tráfico inicial. El SEO sigue impulsando tráfico durante meses después. Planificamos calendarios de contenido con ambos canales en mente.",
             "Los emails de carrito abandonado y abandono de navegación a menudo incluyen páginas de productos que el destinatario visitó. Estas páginas acumulan señales de engagement con el tiempo. Si tus páginas de productos son lentas, están mal diseñadas o carecen de la información que los compradores necesitan, eso perjudica tanto las tasas de conversión de email como las métricas de engagement de SEO. Optimizar las páginas de productos mejora el rendimiento en ambos canales simultáneamente."
           ],
+          image: { src: "/images/blog/es/email-seo-amplification.svg", alt: "Email marketing as SEO amplifier showing content launch to email blast to engagement signals to stronger Google evaluation", caption: "Email drives the initial traffic burst; SEO sustains traffic for months after" },
+          callout: { title: "Time Content Launches", text: "Email new SEO content to relevant subscriber segments within the first week of publication. The initial burst of 8,000+ click-throughs gives pages a stronger start in Google's evaluation period." },
         },
         {
           heading: "El papel de las redes sociales en el SEO para ecommerce",
@@ -317,6 +345,7 @@ export const ecommerceSeoMarketing: BlogArticle = {
             "Los datos de anuncios de Shopping son igualmente valiosos. Google Merchant Center muestra qué títulos y descripciones de productos obtienen más impresiones y clics en los resultados de Shopping. Si ciertos atributos de producto (color, talla, material) aparecen en listados de Shopping de alto rendimiento, esos mismos atributos deben ser prominentes en la optimización orgánica de tu página de producto.",
             "Los insights de subasta de Google Ads muestran quiénes son tus competidores reales de pago. Esta lista a menudo difiere de tus competidores orgánicos. Pero si un competidor está pujando agresivamente en keywords de tu espacio, probablemente también tiene páginas apuntando a esas keywords orgánicamente. Analizar su contenido orgánico te da un punto de referencia competitivo para tu propia estrategia de contenido SEO."
           ],
+          image: { src: "/images/blog/es/paid-data-seo-workflow.svg", alt: "Workflow showing how Google Ads data feeds into SEO keyword prioritization and content strategy", caption: "High-CPA keywords with strong conversion rates are your best organic SEO targets" },
         },
         {
           heading: "Desafíos de atribución y cómo manejarlos",
@@ -335,6 +364,8 @@ export const ecommerceSeoMarketing: BlogArticle = {
             "Crea una biblioteca compartida de activos de contenido. ¿Esa sesión de fotos de productos que hiciste para Instagram? El equipo de SEO necesita esas imágenes para guías de compra. ¿El video testimonial del cliente en YouTube? Debería estar incrustado en la página del producto. ¿La comparación detallada de productos que tu equipo de contenido SEO creó? Extracta para email y redes sociales. Deja de producir contenido específico por canal cuando los activos multicanal trabajan más duro por menos coste.",
             "Alinea los calendarios promocionales entre canales. Si estás ejecutando una campaña de \"vuelta al cole\" en pago y email, tu calendario de contenido SEO debe tener guías de compra de vuelta al cole publicándose 4-6 semanas antes del lanzamiento de la campaña (para darles tiempo de posicionarse). La alineación de contenido estacional asegura que cada canal empuje hacia los mismos objetivos de ingresos durante los períodos pico."
           ],
+          image: { src: "/images/blog/es/cross-channel-content-reuse.svg", alt: "Cross-channel content reuse strategy showing shared content assets distributed across SEO, email, social, PPC, and YouTube", caption: "Build once, distribute everywhere, let the cross-channel effects compound" },
+          callout: { title: "Build Once, Use Everywhere", text: "A buying guide with strong visuals becomes Instagram carousels, Pinterest pins, YouTube scripts, and email content. Stop producing channel-specific content when multi-channel assets work harder for less cost." },
         },
         {
           heading: "Asignación de presupuesto entre canales",
@@ -344,6 +375,7 @@ export const ecommerceSeoMarketing: BlogArticle = {
             "El presupuesto de SEO debería aumentar cuando estás ganando. Esto es contraintuitivo porque la mayoría de los negocios aumentan el gasto de marketing en canales que luchan y recortan presupuestos en canales que funcionan. Pero el SEO se acumula. Si tu tráfico orgánico creció un 40% el año pasado con una inversión de 5.000 dólares al mes, aumentar a 7.500 dólares al mes no solo mantendrá ese crecimiento, lo acelerará porque estás construyendo sobre una base más fuerte.",
             "Reserva el 10-15% de tu presupuesto total de marketing para pruebas y experimentación entre canales. Prueba nuevos formatos de contenido. Prueba nuevas plataformas sociales. Experimenta con diferentes estrategias de puja en PPC. Los insights de las pruebas retroalimentan tus canales principales. Algunas de nuestras mejores ideas de contenido SEO vinieron de ver qué funcionó inesperadamente bien en redes sociales o en campañas de email."
           ],
+          image: { src: "/images/blog/es/cross-channel-budget.svg", alt: "Recommended budget allocation across PPC, SEO, email, and social by growth stage", caption: "Budget allocation shifts from PPC-heavy to SEO-heavy as stores mature" },
         },
         {
           heading: "Haciendo que la integración funcione en la práctica",
@@ -375,6 +407,8 @@ export const ecommerceSeoMarketing: BlogArticle = {
             "Possedere sia il listing a pagamento che quello organico per una query di ricerca ha un beneficio documentato. Studi di Google (sì, hanno un interesse qui, ma i dati sono coerenti con ciò che vediamo) mostrano che avere entrambi i listing visibili aumenta i click totali oltre ciò che ogni canale raggiunge da solo. Per keyword commerciali di alto valore, far girare un annuncio modesto accanto al tuo listing organico può aumentare il traffico totale del 15-25%.",
             "Condividi i report delle query di ricerca tra i team regolarmente. Il team PPC vede le query esatte che attivano gli annunci, incluse query che non avresti mai pensato di targetizzare con il SEO. Abbiamo scoperto che i clienti di un nostro cliente cercavano il loro prodotto con un soprannome che nessuno nel team marketing aveva mai sentito. Quell'insight è venuto dai dati delle query di ricerca PPC e ha portato a un contenuto che ora porta 1.200 visite organiche al mese.",
           ],
+          image: { src: "/images/blog/it/seo-ppc-synergy.svg", alt: "Venn diagram showing SEO and PPC synergy with shared intelligence zone", caption: "Sharing data between SEO and PPC reduces CPA by 30-40%" },
+          callout: { title: "Cut Wasted Ad Spend", text: "One client saved $4,200/month by pausing PPC bids on keywords where they already ranked organically in positions 1-3. Use PPC conversion data to prioritize which pages to optimize for SEO first." },
         },
         {
           heading: "Usare l'email marketing per amplificare il SEO",
@@ -384,6 +418,8 @@ export const ecommerceSeoMarketing: BlogArticle = {
             "Segmenta la tua lista email per interesse di prodotto e usa quei dati per la pianificazione dei contenuti. Se 12.000 dei tuoi iscritti hanno acquistato scarpe da corsa, sono il pubblico perfetto per una \"guida alla cura delle scarpe da corsa\" che funge anche da contenuto SEO. L'email genera traffico iniziale. Il SEO continua a generare traffico per mesi dopo. Pianifichiamo i calendari dei contenuti con entrambi i canali in mente.",
             "Le email di carrello abbandonato e abbandono della navigazione spesso includono pagine prodotto che il destinatario ha visitato. Queste pagine accumulano segnali di engagement nel tempo. Se le tue pagine prodotto sono lente, mal progettate o mancano delle informazioni di cui gli acquirenti hanno bisogno, questo danneggia sia i tassi di conversione delle email che le metriche di engagement SEO. Ottimizzare le pagine prodotto migliora le prestazioni su entrambi i canali contemporaneamente.",
           ],
+          image: { src: "/images/blog/it/email-seo-amplification.svg", alt: "Email marketing as SEO amplifier showing content launch to email blast to engagement signals to stronger Google evaluation", caption: "Email drives the initial traffic burst; SEO sustains traffic for months after" },
+          callout: { title: "Time Content Launches", text: "Email new SEO content to relevant subscriber segments within the first week of publication. The initial burst of 8,000+ click-throughs gives pages a stronger start in Google's evaluation period." },
         },
         {
           heading: "Il ruolo dei social media nel SEO per ecommerce",
@@ -402,6 +438,7 @@ export const ecommerceSeoMarketing: BlogArticle = {
             "I dati degli annunci Shopping sono ugualmente preziosi. Google Merchant Center mostra quali titoli e descrizioni di prodotto ottengono più impressioni e click nei risultati Shopping. Se certi attributi di prodotto (colore, taglia, materiale) appaiono negli annunci Shopping ad alte prestazioni, quegli stessi attributi dovrebbero essere prominenti nell'ottimizzazione organica della pagina prodotto.",
             "Le auction insights di Google Ads mostrano chi sono i tuoi veri concorrenti a pagamento. Questa lista spesso differisce dai tuoi concorrenti organici. Ma se un concorrente sta facendo offerte aggressive su keyword nel tuo spazio, probabilmente ha anche pagine che targetizzano quelle keyword organicamente. Analizzare il loro contenuto organico ti dà un benchmark competitivo per la tua strategia di contenuti SEO.",
           ],
+          image: { src: "/images/blog/it/paid-data-seo-workflow.svg", alt: "Workflow showing how Google Ads data feeds into SEO keyword prioritization and content strategy", caption: "High-CPA keywords with strong conversion rates are your best organic SEO targets" },
         },
         {
           heading: "Sfide di attribuzione e come gestirle",
@@ -420,6 +457,8 @@ export const ecommerceSeoMarketing: BlogArticle = {
             "Crea una libreria condivisa di asset di contenuto. Quel servizio fotografico di prodotto che hai fatto per Instagram? Il team SEO ha bisogno di quelle immagini per le guide all'acquisto. Il video di testimonianza del cliente su YouTube? Dovrebbe essere incorporato nella pagina prodotto. Il confronto dettagliato dei prodotti che il tuo team di contenuti SEO ha creato? Estrailo per email e social. Smetti di produrre contenuti specifici per canale quando gli asset multi-canale lavorano di più a meno costo.",
             "Allinea i calendari promozionali su tutti i canali. Se stai facendo una campagna \"back to school\" nel paid e nell'email, il tuo calendario di contenuti SEO dovrebbe avere guide all'acquisto back-to-school pubblicate 4-6 settimane prima del lancio della campagna (per dar loro tempo di posizionarsi). L'allineamento dei contenuti stagionali assicura che ogni canale spinga verso gli stessi obiettivi di fatturato durante i periodi di punta.",
           ],
+          image: { src: "/images/blog/it/cross-channel-content-reuse.svg", alt: "Cross-channel content reuse strategy showing shared content assets distributed across SEO, email, social, PPC, and YouTube", caption: "Build once, distribute everywhere, let the cross-channel effects compound" },
+          callout: { title: "Build Once, Use Everywhere", text: "A buying guide with strong visuals becomes Instagram carousels, Pinterest pins, YouTube scripts, and email content. Stop producing channel-specific content when multi-channel assets work harder for less cost." },
         },
         {
           heading: "Allocazione del budget tra i canali",
@@ -429,6 +468,7 @@ export const ecommerceSeoMarketing: BlogArticle = {
             "Il budget SEO dovrebbe aumentare quando stai vincendo. Questo è controintuitivo perché la maggior parte delle aziende aumenta la spesa di marketing sui canali in difficoltà e taglia i budget sui canali che funzionano. Ma il SEO si accumula. Se il tuo traffico organico è cresciuto del 40% l'anno scorso con un investimento di 5.000 dollari al mese, aumentare a 7.500 dollari al mese non manterrà semplicemente quella crescita, la accelererà perché stai costruendo su una base più forte.",
             "Riserva il 10-15% del tuo budget di marketing totale per test e sperimentazione tra i canali. Prova nuovi formati di contenuto. Testa nuove piattaforme social. Sperimenta con diverse strategie di offerta PPC. Gli insight dai test alimentano i tuoi canali principali. Alcune delle nostre migliori idee di contenuto SEO sono venute dal vedere cosa funzionava inaspettatamente bene sui social media o nelle campagne email.",
           ],
+          image: { src: "/images/blog/it/cross-channel-budget.svg", alt: "Recommended budget allocation across PPC, SEO, email, and social by growth stage", caption: "Budget allocation shifts from PPC-heavy to SEO-heavy as stores mature" },
         },
         {
           heading: "Far funzionare l'integrazione nella pratica",
@@ -460,6 +500,8 @@ export const ecommerceSeoMarketing: BlogArticle = {
             "Het bezitten van zowel de betaalde als organische vermelding voor een zoekopdracht heeft een gedocumenteerd voordeel. Studies van Google (ja, ze hebben hier een belang, maar de data is consistent met wat wij zien) tonen aan dat het hebben van beide vermeldingen zichtbaar de totale klikken verhoogt boven wat elk kanaal alleen bereikt. Voor waardevolle commerciële zoekwoorden kan het draaien van een bescheiden advertentie naast je organische vermelding het totale verkeer met 15-25% verhogen.",
             "Deel zoekqueryrapporten regelmatig tussen teams. Het PPC-team ziet exacte query's die advertenties triggeren, inclusief query's waar je nooit aan gedacht zou hebben om met SEO te targeten. We ontdekten dat de klanten van een klant zochten naar hun product met een bijnaam die niemand in het marketingteam had gehoord. Dat inzicht kwam van PPC-zoekquerydata en leidde tot een contentstuk dat nu 1.200 organische bezoeken per maand oplevert.",
           ],
+          image: { src: "/images/blog/nl/seo-ppc-synergy.svg", alt: "Venn diagram showing SEO and PPC synergy with shared intelligence zone", caption: "Sharing data between SEO and PPC reduces CPA by 30-40%" },
+          callout: { title: "Cut Wasted Ad Spend", text: "One client saved $4,200/month by pausing PPC bids on keywords where they already ranked organically in positions 1-3. Use PPC conversion data to prioritize which pages to optimize for SEO first." },
         },
         {
           heading: "Emailmarketing gebruiken om SEO te versterken",
@@ -469,6 +511,8 @@ export const ecommerceSeoMarketing: BlogArticle = {
             "Segmenteer je emaillijst op productinteresse en gebruik die data voor contentplanning. Als 12.000 van je abonnees hardloopschoenen hebben gekocht, zijn zij het perfecte publiek voor een \"hardloopschoen-onderhoudsgids\" die ook als SEO-contentstuk dient. De email stuurt initieel verkeer. De SEO blijft verkeer genereren voor maanden daarna. We plannen contentkalenders met beide kanalen in gedachten.",
             "Verlaten winkelwagen- en browse-verlatingemails bevatten vaak productpagina's die de ontvanger heeft bezocht. Deze pagina's verzamelen engagementsignalen na verloop van tijd. Als je productpagina's traag zijn, slecht ontworpen of de informatie missen die shoppers nodig hebben, schaadt dat zowel emailconversieratio's als SEO-engagementmetrics. Het optimaliseren van productpagina's verbetert prestaties over beide kanalen tegelijkertijd.",
           ],
+          image: { src: "/images/blog/nl/email-seo-amplification.svg", alt: "Email marketing as SEO amplifier showing content launch to email blast to engagement signals to stronger Google evaluation", caption: "Email drives the initial traffic burst; SEO sustains traffic for months after" },
+          callout: { title: "Time Content Launches", text: "Email new SEO content to relevant subscriber segments within the first week of publication. The initial burst of 8,000+ click-throughs gives pages a stronger start in Google's evaluation period." },
         },
         {
           heading: "De rol van social media in ecommerce SEO",
@@ -487,6 +531,7 @@ export const ecommerceSeoMarketing: BlogArticle = {
             "Shopping-advertentiedata is even waardevol. Google Merchant Center laat zien welke producttitels en -beschrijvingen de meeste impressies en klikken krijgen in Shopping-resultaten. Als bepaalde productkenmerken (kleur, maat, materiaal) verschijnen in goed presterende Shopping-vermeldingen, moeten diezelfde kenmerken prominent zijn in je organische productpagina-optimalisatie.",
             "Auction insights van Google Ads laten zien wie je daadwerkelijke betaalde concurrenten zijn. Deze lijst verschilt vaak van je organische concurrenten. Maar als een concurrent agressief biedt op zoekwoorden in jouw ruimte, hebben ze waarschijnlijk ook pagina's die die zoekwoorden organisch targeten. Het analyseren van hun organische content geeft je een competitieve benchmark voor je eigen SEO-contentstrategie.",
           ],
+          image: { src: "/images/blog/nl/paid-data-seo-workflow.svg", alt: "Workflow showing how Google Ads data feeds into SEO keyword prioritization and content strategy", caption: "High-CPA keywords with strong conversion rates are your best organic SEO targets" },
         },
         {
           heading: "Attributie-uitdagingen en hoe ze aan te pakken",
@@ -505,6 +550,8 @@ export const ecommerceSeoMarketing: BlogArticle = {
             "Maak een gedeelde content-assetbibliotheek. Die productfotoshoot die je voor Instagram deed? Het SEO-team heeft die afbeeldingen nodig voor koopgidsen. De klantgetuigenisvideo op YouTube? Die moet op de productpagina worden ingebed. De gedetailleerde productvergelijking die je SEO-contentteam heeft gemaakt? Gebruik er extracten van voor email en social. Stop met het produceren van kanaalspecifieke content wanneer multi-channel assets harder werken voor minder kosten.",
             "Stem promotiekalenders af over kanalen. Als je een \"back to school\"-campagne draait in betaald en email, moet je SEO-contentkalender back-to-school koopgidsen hebben die 4-6 weken voor de campagnelancering worden gepubliceerd (om ze tijd te geven om te ranken). Seizoensgebonden contentafstemming zorgt ervoor dat elk kanaal naar dezelfde omzetdoelen duwt tijdens piekperiodes.",
           ],
+          image: { src: "/images/blog/nl/cross-channel-content-reuse.svg", alt: "Cross-channel content reuse strategy showing shared content assets distributed across SEO, email, social, PPC, and YouTube", caption: "Build once, distribute everywhere, let the cross-channel effects compound" },
+          callout: { title: "Build Once, Use Everywhere", text: "A buying guide with strong visuals becomes Instagram carousels, Pinterest pins, YouTube scripts, and email content. Stop producing channel-specific content when multi-channel assets work harder for less cost." },
         },
         {
           heading: "Budgetallocatie over kanalen",
@@ -514,6 +561,7 @@ export const ecommerceSeoMarketing: BlogArticle = {
             "Het SEO-budget moet toenemen wanneer je wint. Dit is contra-intuïtief omdat de meeste bedrijven marketinguitgaven verhogen op kanalen die worstelen en budgetten korten op kanalen die werken. Maar SEO stapelt zich op. Als je organisch verkeer vorig jaar met 40% groeide op een investering van 5.000 dollar per maand, zal verhogen naar 7.500 dollar per maand die groei niet alleen handhaven maar versnellen omdat je bouwt op een sterkere basis.",
             "Reserveer 10-15% van je totale marketingbudget voor testen en experimenteren over kanalen. Probeer nieuwe contentformaten. Test nieuwe sociale platformen. Experimenteer met verschillende PPC-biedstrategieën. De inzichten uit testen voeden terug in je kernkanalen. Sommige van onze beste SEO-contentideeën kwamen van het zien wat onverwacht goed presteerde op social media of in emailcampagnes.",
           ],
+          image: { src: "/images/blog/nl/cross-channel-budget.svg", alt: "Recommended budget allocation across PPC, SEO, email, and social by growth stage", caption: "Budget allocation shifts from PPC-heavy to SEO-heavy as stores mature" },
         },
         {
           heading: "Integratie laten werken in de praktijk",

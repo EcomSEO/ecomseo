@@ -1,0 +1,42 @@
+<svg viewBox="0 0 680 300" xmlns="http://www.w3.org/2000/svg" fill="none" font-family="Arial,sans-serif">
+  <text x="340" y="28" text-anchor="middle" fill="#a78bfa" font-size="14" font-weight="bold">Navigation Structure and SEO Impact</text>
+  <!-- Good nav -->
+  <text x="170" y="56" text-anchor="middle" fill="#4ade80" font-size="11" font-weight="bold">Flat Hierarchy (Recommended)</text>
+  <rect x="110" y="68" width="120" height="28" rx="6" stroke="#4ade80" stroke-width="1.5"/>
+  <text x="170" y="86" text-anchor="middle" fill="#e2e8f0" font-size="9">Homepage</text>
+  <line x1="130" y1="96" x2="70" y2="114" stroke="#4ade80" stroke-width="1"/>
+  <line x1="150" y1="96" x2="130" y2="114" stroke="#4ade80" stroke-width="1"/>
+  <line x1="190" y1="96" x2="210" y2="114" stroke="#4ade80" stroke-width="1"/>
+  <line x1="210" y1="96" x2="270" y2="114" stroke="#4ade80" stroke-width="1"/>
+  <rect x="30" y="114" width="80" height="24" rx="4" stroke="#4ade80" stroke-width="1"/>
+  <text x="70" y="130" text-anchor="middle" fill="#e2e8f0" font-size="8">Category A</text>
+  <rect x="120" y="114" width="80" height="24" rx="4" stroke="#4ade80" stroke-width="1"/>
+  <text x="160" y="130" text-anchor="middle" fill="#e2e8f0" font-size="8">Category B</text>
+  <rect x="170" y="114" width="80" height="24" rx="4" stroke="#4ade80" stroke-width="1"/>
+  <text x="210" y="130" text-anchor="middle" fill="#e2e8f0" font-size="8">Category C</text>
+  <rect x="230" y="114" width="80" height="24" rx="4" stroke="#4ade80" stroke-width="1"/>
+  <text x="270" y="130" text-anchor="middle" fill="#e2e8f0" font-size="8">Category D</text>
+  <text x="170" y="160" text-anchor="middle" fill="#4ade80" font-size="9">3 clicks max to any product</text>
+  <!-- Deep nav -->
+  <text x="510" y="56" text-anchor="middle" fill="#ef4444" font-size="11" font-weight="bold">Deep Hierarchy (Avoid)</text>
+  <rect x="450" y="68" width="120" height="28" rx="6" stroke="#ef4444" stroke-width="1.5"/>
+  <text x="510" y="86" text-anchor="middle" fill="#e2e8f0" font-size="9">Homepage</text>
+  <line x1="510" y1="96" x2="510" y2="110" stroke="#ef4444" stroke-width="1"/>
+  <rect x="470" y="110" width="80" height="20" rx="4" stroke="#ef4444" stroke-width="1"/>
+  <text x="510" y="124" text-anchor="middle" fill="#e2e8f0" font-size="8">Dept</text>
+  <line x1="510" y1="130" x2="510" y2="138" stroke="#ef4444" stroke-width="1"/>
+  <rect x="470" y="138" width="80" height="20" rx="4" stroke="#ef4444" stroke-width="1"/>
+  <text x="510" y="152" text-anchor="middle" fill="#e2e8f0" font-size="8">Category</text>
+  <line x1="510" y1="158" x2="510" y2="166" stroke="#ef4444" stroke-width="1"/>
+  <rect x="470" y="166" width="80" height="20" rx="4" stroke="#ef4444" stroke-width="1"/>
+  <text x="510" y="180" text-anchor="middle" fill="#e2e8f0" font-size="8">Sub-Cat</text>
+  <line x1="510" y1="186" x2="510" y2="194" stroke="#ef4444" stroke-width="1"/>
+  <rect x="470" y="194" width="80" height="20" rx="4" stroke="#ef4444" stroke-width="1"/>
+  <text x="510" y="208" text-anchor="middle" fill="#e2e8f0" font-size="8">Product</text>
+  <text x="510" y="232" text-anchor="middle" fill="#ef4444" font-size="9">5+ clicks buries products</text>
+  <!-- Best practices -->
+  <text x="340" y="260" text-anchor="middle" fill="#e2e8f0" font-size="11" font-weight="bold">Navigation SEO Rules</text>
+  <text x="60" y="282" fill="#e2e8f0" font-size="9">Use HTML anchor tags, not JS handlers</text>
+  <text x="300" y="282" fill="#e2e8f0" font-size="9">Descriptive anchor text in menus</text>
+  <text x="520" y="282" fill="#e2e8f0" font-size="9">7 top-level categories max</text>
+</svg>

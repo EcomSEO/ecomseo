@@ -15,28 +15,28 @@ export const guidesFullNavT: Record<Locale, GuidesFullNav> = {
         category: "Ecommerce SEO basics",
         items: [
           { label: "Introduction", href: "/guides" },
-          { label: "SEO fundamentals checklist", href: "/guides/fundamentals" },
+          { label: "SEO fundamentals checklist", href: "/academy/introduction-to-ecommerce-seo" },
         ],
       },
       {
         category: "Keyword and content strategy",
         items: [
-          { label: "Ecommerce keyword research", href: "/guides/keyword-research" },
-          { label: "Category page SEO", href: "/guides/category-page-seo" },
-          { label: "Product page SEO", href: "/guides/product-page-seo" },
+          { label: "Ecommerce keyword research", href: "/academy/keyword-research-for-ecommerce" },
+          { label: "Category page SEO", href: "/academy/category-page-seo" },
+          { label: "Product page SEO", href: "/academy/product-page-seo" },
         ],
       },
       {
         category: "Technical and link building",
         items: [
-          { label: "Technical SEO for ecommerce", href: "/guides/technical-seo" },
-          { label: "Ecommerce link building", href: "/guides/link-building" },
+          { label: "Technical SEO for ecommerce", href: "/academy/site-architecture-for-ecommerce" },
+          { label: "Ecommerce link building", href: "/academy/backlink-fundamentals-for-ecommerce" },
         ],
       },
       {
         category: "Auditing",
         items: [
-          { label: "Ecommerce SEO audit", href: "/guides/seo-audit" },
+          { label: "Ecommerce SEO audit", href: "/academy/seo-analytics-with-ga4" },
         ],
       },
     ],
@@ -47,28 +47,28 @@ export const guidesFullNavT: Record<Locale, GuidesFullNav> = {
         category: "E-Commerce-SEO-Grundlagen",
         items: [
           { label: "Einfuhrung", href: "/guides" },
-          { label: "SEO-Grundlagen-Checkliste", href: "/guides/fundamentals" },
+          { label: "SEO-Grundlagen-Checkliste", href: "/academy/introduction-to-ecommerce-seo" },
         ],
       },
       {
         category: "Keyword- und Content-Strategie",
         items: [
-          { label: "E-Commerce-Keyword-Recherche", href: "/guides/keyword-research" },
-          { label: "Kategorieseiten-SEO", href: "/guides/category-page-seo" },
-          { label: "Produktseiten-SEO", href: "/guides/product-page-seo" },
+          { label: "E-Commerce-Keyword-Recherche", href: "/academy/keyword-research-for-ecommerce" },
+          { label: "Kategorieseiten-SEO", href: "/academy/category-page-seo" },
+          { label: "Produktseiten-SEO", href: "/academy/product-page-seo" },
         ],
       },
       {
         category: "Technik und Linkaufbau",
         items: [
-          { label: "Technisches SEO fur E-Commerce", href: "/guides/technical-seo" },
-          { label: "E-Commerce-Linkaufbau", href: "/guides/link-building" },
+          { label: "Technisches SEO fur E-Commerce", href: "/academy/site-architecture-for-ecommerce" },
+          { label: "E-Commerce-Linkaufbau", href: "/academy/backlink-fundamentals-for-ecommerce" },
         ],
       },
       {
         category: "Auditing",
         items: [
-          { label: "E-Commerce-SEO-Audit", href: "/guides/seo-audit" },
+          { label: "E-Commerce-SEO-Audit", href: "/academy/seo-analytics-with-ga4" },
         ],
       },
     ],
@@ -79,28 +79,28 @@ export const guidesFullNavT: Record<Locale, GuidesFullNav> = {
         category: "Bases du SEO e-commerce",
         items: [
           { label: "Introduction", href: "/guides" },
-          { label: "Checklist des fondamentaux SEO", href: "/guides/fundamentals" },
+          { label: "Checklist des fondamentaux SEO", href: "/academy/introduction-to-ecommerce-seo" },
         ],
       },
       {
         category: "Strategie de mots-cles et contenu",
         items: [
-          { label: "Recherche de mots-cles e-commerce", href: "/guides/keyword-research" },
-          { label: "SEO des pages categories", href: "/guides/category-page-seo" },
-          { label: "SEO des pages produits", href: "/guides/product-page-seo" },
+          { label: "Recherche de mots-cles e-commerce", href: "/academy/keyword-research-for-ecommerce" },
+          { label: "SEO des pages categories", href: "/academy/category-page-seo" },
+          { label: "SEO des pages produits", href: "/academy/product-page-seo" },
         ],
       },
       {
         category: "Technique et netlinking",
         items: [
-          { label: "SEO technique pour e-commerce", href: "/guides/technical-seo" },
-          { label: "Netlinking e-commerce", href: "/guides/link-building" },
+          { label: "SEO technique pour e-commerce", href: "/academy/site-architecture-for-ecommerce" },
+          { label: "Netlinking e-commerce", href: "/academy/backlink-fundamentals-for-ecommerce" },
         ],
       },
       {
         category: "Audit",
         items: [
-          { label: "Audit SEO e-commerce", href: "/guides/seo-audit" },
+          { label: "Audit SEO e-commerce", href: "/academy/seo-analytics-with-ga4" },
         ],
       },
     ],
@@ -111,28 +111,28 @@ export const guidesFullNavT: Record<Locale, GuidesFullNav> = {
         category: "Fundamentos de SEO e-commerce",
         items: [
           { label: "Introduccion", href: "/guides" },
-          { label: "Checklist de fundamentos SEO", href: "/guides/fundamentals" },
+          { label: "Checklist de fundamentos SEO", href: "/academy/introduction-to-ecommerce-seo" },
         ],
       },
       {
         category: "Estrategia de keywords y contenido",
         items: [
-          { label: "Keyword research para e-commerce", href: "/guides/keyword-research" },
-          { label: "SEO de paginas de categoria", href: "/guides/category-page-seo" },
-          { label: "SEO de paginas de producto", href: "/guides/product-page-seo" },
+          { label: "Keyword research para e-commerce", href: "/academy/keyword-research-for-ecommerce" },
+          { label: "SEO de paginas de categoria", href: "/academy/category-page-seo" },
+          { label: "SEO de paginas de producto", href: "/academy/product-page-seo" },
         ],
       },
       {
         category: "Tecnico y link building",
         items: [
-          { label: "SEO tecnico para e-commerce", href: "/guides/technical-seo" },
-          { label: "Link building para e-commerce", href: "/guides/link-building" },
+          { label: "SEO tecnico para e-commerce", href: "/academy/site-architecture-for-ecommerce" },
+          { label: "Link building para e-commerce", href: "/academy/backlink-fundamentals-for-ecommerce" },
         ],
       },
       {
         category: "Auditoria",
         items: [
-          { label: "Auditoria SEO e-commerce", href: "/guides/seo-audit" },
+          { label: "Auditoria SEO e-commerce", href: "/academy/seo-analytics-with-ga4" },
         ],
       },
     ],
@@ -143,28 +143,28 @@ export const guidesFullNavT: Record<Locale, GuidesFullNav> = {
         category: "Basi della SEO e-commerce",
         items: [
           { label: "Introduzione", href: "/guides" },
-          { label: "Checklist dei fondamentali SEO", href: "/guides/fundamentals" },
+          { label: "Checklist dei fondamentali SEO", href: "/academy/introduction-to-ecommerce-seo" },
         ],
       },
       {
         category: "Strategia keyword e contenuti",
         items: [
-          { label: "Keyword research per e-commerce", href: "/guides/keyword-research" },
-          { label: "SEO pagine categoria", href: "/guides/category-page-seo" },
-          { label: "SEO pagine prodotto", href: "/guides/product-page-seo" },
+          { label: "Keyword research per e-commerce", href: "/academy/keyword-research-for-ecommerce" },
+          { label: "SEO pagine categoria", href: "/academy/category-page-seo" },
+          { label: "SEO pagine prodotto", href: "/academy/product-page-seo" },
         ],
       },
       {
         category: "Tecnico e link building",
         items: [
-          { label: "SEO tecnico per e-commerce", href: "/guides/technical-seo" },
-          { label: "Link building per e-commerce", href: "/guides/link-building" },
+          { label: "SEO tecnico per e-commerce", href: "/academy/site-architecture-for-ecommerce" },
+          { label: "Link building per e-commerce", href: "/academy/backlink-fundamentals-for-ecommerce" },
         ],
       },
       {
         category: "Audit",
         items: [
-          { label: "Audit SEO e-commerce", href: "/guides/seo-audit" },
+          { label: "Audit SEO e-commerce", href: "/academy/seo-analytics-with-ga4" },
         ],
       },
     ],
@@ -175,28 +175,28 @@ export const guidesFullNavT: Record<Locale, GuidesFullNav> = {
         category: "E-commerce SEO-basiskennis",
         items: [
           { label: "Introductie", href: "/guides" },
-          { label: "SEO-basischecklist", href: "/guides/fundamentals" },
+          { label: "SEO-basischecklist", href: "/academy/introduction-to-ecommerce-seo" },
         ],
       },
       {
         category: "Keyword- en contentstrategie",
         items: [
-          { label: "E-commerce keyword research", href: "/guides/keyword-research" },
-          { label: "SEO voor categoriepagina's", href: "/guides/category-page-seo" },
-          { label: "SEO voor productpagina's", href: "/guides/product-page-seo" },
+          { label: "E-commerce keyword research", href: "/academy/keyword-research-for-ecommerce" },
+          { label: "SEO voor categoriepagina's", href: "/academy/category-page-seo" },
+          { label: "SEO voor productpagina's", href: "/academy/product-page-seo" },
         ],
       },
       {
         category: "Techniek en linkbuilding",
         items: [
-          { label: "Technische SEO voor e-commerce", href: "/guides/technical-seo" },
-          { label: "E-commerce linkbuilding", href: "/guides/link-building" },
+          { label: "Technische SEO voor e-commerce", href: "/academy/site-architecture-for-ecommerce" },
+          { label: "E-commerce linkbuilding", href: "/academy/backlink-fundamentals-for-ecommerce" },
         ],
       },
       {
         category: "Auditing",
         items: [
-          { label: "E-commerce SEO-audit", href: "/guides/seo-audit" },
+          { label: "E-commerce SEO-audit", href: "/academy/seo-analytics-with-ga4" },
         ],
       },
     ],
@@ -255,7 +255,7 @@ export const guidesIntroT: Record<Locale, {
     crashCoursePrompt: "Want the crash course?",
     crashCourseLink: "Start here",
     talkPrompt: "Ready to talk?",
-    talkLink: "Get a Free Proposal",
+    talkLink: "Get a Free Audit",
   },
   de: {
     breadcrumb: "E-Commerce-SEO-Grundlagen",

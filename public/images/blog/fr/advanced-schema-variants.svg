@@ -1,0 +1,42 @@
+<svg viewBox="0 0 680 340" xmlns="http://www.w3.org/2000/svg" fill="none" font-family="Arial,sans-serif">
+  <text x="340" y="28" text-anchor="middle" fill="#a78bfa" font-size="14" font-weight="bold">Advanced Schema for Product Variants</text>
+  <!-- ProductGroup parent -->
+  <rect x="220" y="48" width="240" height="48" rx="8" stroke="#a78bfa" stroke-width="2"/>
+  <text x="340" y="68" text-anchor="middle" fill="#e2e8f0" font-size="12" font-weight="bold">ProductGroup</text>
+  <text x="340" y="84" text-anchor="middle" fill="#e2e8f0" font-size="10">Parent entity grouping all variants</text>
+  <!-- Connector lines -->
+  <line x1="280" y1="96" x2="120" y2="140" stroke="#60a5fa" stroke-width="1.5"/>
+  <line x1="340" y1="96" x2="340" y2="140" stroke="#60a5fa" stroke-width="1.5"/>
+  <line x1="400" y1="96" x2="560" y2="140" stroke="#60a5fa" stroke-width="1.5"/>
+  <!-- Variant 1 -->
+  <rect x="40" y="140" width="160" height="70" rx="6" stroke="#4ade80" stroke-width="1.5"/>
+  <text x="120" y="160" text-anchor="middle" fill="#4ade80" font-size="11" font-weight="bold">Product: Size S</text>
+  <text x="120" y="176" text-anchor="middle" fill="#e2e8f0" font-size="9">color: Navy</text>
+  <text x="120" y="190" text-anchor="middle" fill="#e2e8f0" font-size="9">Offer: $49.99 InStock</text>
+  <text x="120" y="204" text-anchor="middle" fill="#e2e8f0" font-size="9">sku: NV-S-001</text>
+  <!-- Variant 2 -->
+  <rect x="260" y="140" width="160" height="70" rx="6" stroke="#60a5fa" stroke-width="1.5"/>
+  <text x="340" y="160" text-anchor="middle" fill="#60a5fa" font-size="11" font-weight="bold">Product: Size M</text>
+  <text x="340" y="176" text-anchor="middle" fill="#e2e8f0" font-size="9">color: Navy</text>
+  <text x="340" y="190" text-anchor="middle" fill="#e2e8f0" font-size="9">Offer: $49.99 InStock</text>
+  <text x="340" y="204" text-anchor="middle" fill="#e2e8f0" font-size="9">sku: NV-M-001</text>
+  <!-- Variant 3 -->
+  <rect x="480" y="140" width="160" height="70" rx="6" stroke="#f97316" stroke-width="1.5"/>
+  <text x="560" y="160" text-anchor="middle" fill="#f97316" font-size="11" font-weight="bold">Product: Size L</text>
+  <text x="560" y="176" text-anchor="middle" fill="#e2e8f0" font-size="9">color: Navy</text>
+  <text x="560" y="190" text-anchor="middle" fill="#e2e8f0" font-size="9">Offer: $49.99 OutOfStock</text>
+  <text x="560" y="204" text-anchor="middle" fill="#e2e8f0" font-size="9">sku: NV-L-001</text>
+  <!-- Additional schema types -->
+  <text x="340" y="240" text-anchor="middle" fill="#a78bfa" font-size="11" font-weight="bold">Additional Offer Types</text>
+  <rect x="40" y="256" width="180" height="44" rx="6" stroke="#4ade80" stroke-width="1.5"/>
+  <text x="130" y="274" text-anchor="middle" fill="#4ade80" font-size="10" font-weight="bold">AggregateOffer</text>
+  <text x="130" y="290" text-anchor="middle" fill="#e2e8f0" font-size="9">lowPrice / highPrice range</text>
+  <rect x="250" y="256" width="180" height="44" rx="6" stroke="#60a5fa" stroke-width="1.5"/>
+  <text x="340" y="274" text-anchor="middle" fill="#60a5fa" font-size="10" font-weight="bold">Subscription Offer</text>
+  <text x="340" y="290" text-anchor="middle" fill="#e2e8f0" font-size="9">billingPeriod: P1M</text>
+  <rect x="460" y="256" width="180" height="44" rx="6" stroke="#f97316" stroke-width="1.5"/>
+  <text x="550" y="274" text-anchor="middle" fill="#f97316" font-size="10" font-weight="bold">Time-Limited Offer</text>
+  <text x="550" y="290" text-anchor="middle" fill="#e2e8f0" font-size="9">validFrom / validThrough</text>
+  <!-- Bottom note -->
+  <text x="340" y="328" text-anchor="middle" fill="#e2e8f0" font-size="9" opacity="0.7">Test with Rich Results Test -- monitor in Search Console Enhancements</text>
+</svg>

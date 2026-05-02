@@ -1,0 +1,22 @@
+<svg viewBox="0 0 680 280" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <text x="340" y="28" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#a78bfa">Title Tag Formulas for Ecommerce</text>
+  <g transform="translate(40,55)">
+    <rect x="0" y="0" width="600" height="70" rx="6" stroke="#60a5fa" stroke-width="1.5" fill="none"/>
+    <text x="12" y="20" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#60a5fa">Product Page Formula</text>
+    <text x="12" y="42" font-family="Arial,sans-serif" font-size="11" fill="#e2e8f0">[Product Name] - [Key Differentiator] | [Brand]</text>
+    <text x="12" y="60" font-family="Arial,sans-serif" font-size="10" fill="#4ade80">Merino Wool Crew Neck Sweater - Lightweight, Machine Washable | Woolmark</text>
+  </g>
+  <g transform="translate(40,140)">
+    <rect x="0" y="0" width="600" height="70" rx="6" stroke="#4ade80" stroke-width="1.5" fill="none"/>
+    <text x="12" y="20" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#4ade80">Category Page Formula</text>
+    <text x="12" y="42" font-family="Arial,sans-serif" font-size="11" fill="#e2e8f0">[Primary Keyword] - [Value Proposition] | [Brand]</text>
+    <text x="12" y="60" font-family="Arial,sans-serif" font-size="10" fill="#4ade80">Women's Running Shoes - Free Shipping Over $75 | ShoeStore</text>
+  </g>
+  <g transform="translate(40,230)">
+    <text x="0" y="0" font-family="Arial,sans-serif" font-size="10" fill="#ef4444">Common mistakes:</text>
+    <text x="120" y="0" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Same template on 2,000 pages</text>
+    <text x="340" y="0" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Keyword stuffing</text>
+    <text x="490" y="0" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">No brand name</text>
+    <text x="0" y="22" font-family="Arial,sans-serif" font-size="10" fill="#60a5fa">Keep under 60 characters. Front-load important keywords.</text>
+  </g>
+</svg>

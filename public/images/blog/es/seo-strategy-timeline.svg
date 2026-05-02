@@ -1,0 +1,49 @@
+<svg viewBox="0 0 680 300" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <text x="340" y="28" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#a78bfa">12-Month Ecommerce SEO Strategy Timeline</text>
+  <line x1="60" y1="70" x2="620" y2="70" stroke="#a78bfa" stroke-width="2"/>
+  <circle cx="60" cy="70" r="5" fill="#a78bfa"/>
+  <circle cx="200" cy="70" r="5" fill="#60a5fa"/>
+  <circle cx="370" cy="70" r="5" fill="#f97316"/>
+  <circle cx="620" cy="70" r="5" fill="#4ade80"/>
+  <text x="60" y="58" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Month 1-2</text>
+  <text x="200" y="58" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Month 3-4</text>
+  <text x="370" y="58" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Month 5-7</text>
+  <text x="620" y="58" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Month 8-12</text>
+  <g transform="translate(20,90)">
+    <rect x="0" y="0" width="130" height="120" rx="6" stroke="#a78bfa" stroke-width="1.5" fill="none"/>
+    <text x="65" y="20" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#a78bfa">Foundation</text>
+    <text x="10" y="40" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Technical audit</text>
+    <text x="10" y="55" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Fix critical issues</text>
+    <text x="10" y="70" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Title tag optimization</text>
+    <text x="10" y="85" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Keyword mapping</text>
+    <text x="65" y="110" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#4ade80">+5-10% traffic</text>
+  </g>
+  <g transform="translate(160,90)">
+    <rect x="0" y="0" width="130" height="120" rx="6" stroke="#60a5fa" stroke-width="1.5" fill="none"/>
+    <text x="65" y="20" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#60a5fa">Expansion</text>
+    <text x="10" y="40" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Category page content</text>
+    <text x="10" y="55" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Subcategory pages</text>
+    <text x="10" y="70" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Product schema</text>
+    <text x="10" y="85" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Link building starts</text>
+    <text x="65" y="110" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#4ade80">+15-25% visibility</text>
+  </g>
+  <g transform="translate(310,90)">
+    <rect x="0" y="0" width="130" height="120" rx="6" stroke="#f97316" stroke-width="1.5" fill="none"/>
+    <text x="65" y="20" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#f97316">Content</text>
+    <text x="10" y="40" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Buying guides</text>
+    <text x="10" y="55" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Comparison articles</text>
+    <text x="10" y="70" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Digital PR campaigns</text>
+    <text x="10" y="85" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Internal link build</text>
+    <text x="65" y="110" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#4ade80">+30-50% traffic</text>
+  </g>
+  <g transform="translate(530,90)">
+    <rect x="0" y="0" width="130" height="120" rx="6" stroke="#4ade80" stroke-width="1.5" fill="none"/>
+    <text x="65" y="20" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#4ade80">Scale</text>
+    <text x="10" y="40" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Top-of-funnel content</text>
+    <text x="10" y="55" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Double down winners</text>
+    <text x="10" y="70" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">CRO on top pages</text>
+    <text x="10" y="85" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Secondary categories</text>
+    <text x="65" y="110" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#4ade80">+60-100% revenue</text>
+  </g>
+  <text x="340" y="280" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Results compound -- work in month 3 often shows full impact by month 6-7</text>
+</svg>

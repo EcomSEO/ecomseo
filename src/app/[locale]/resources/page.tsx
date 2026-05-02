@@ -11,6 +11,7 @@ import { breadcrumbJsonLd } from "@/lib/jsonLd";
 import { buildPageMetadata } from "@/lib/i18n/metadata";
 import type { Locale } from "@/lib/i18n/config";
 import {
+
   resourcesHeroT,
   fabianCardT,
   recentArticlesT,
@@ -18,6 +19,9 @@ import {
   guidesCtaT,
   newsletterT,
 } from "@/lib/i18n/translations/resources";
+
+export const revalidate = 86400;
+
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
@@ -27,7 +31,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 const articleImages = [
   "/images/framer/onMUu7iRiATs271DY4qFTwrfs2A.jpeg",
   "/images/framer/dtTy5pSdH9vdxf7ZmXfyy4cQH0.png",
-  "/images/framer/pLr2VAAJPydel6VZNLZAsJP6k.png",
+  "/images/framer/fabian-van-til-new.jpeg",
 ];
 
 const articleHrefs = [

@@ -3,7 +3,7 @@ import type { BlogArticle } from "../types";
 export const ecommerceSeoKeywords: BlogArticle = {
   slug: "ecommerce-seo-keywords",
   category: "strategy",
-  publishDate: "2025-07-01",
+  publishDate: "2026-03-14",
   readingTime: 12,
   author: "Fabian van Til",
   authorRole: "CEO at EcomSEO",
@@ -37,6 +37,8 @@ export const ecommerceSeoKeywords: BlogArticle = {
             "We group ecommerce keywords into four intent buckets. Informational queries like 'best material for winter jackets' belong on blog posts or buying guides. Navigational queries like 'Nike store near me' are brand-driven. Commercial investigation queries like 'Yeti vs Hydro Flask tumbler' sit between research and purchase. Transactional queries like 'buy Yeti Rambler 26oz' are where the money is.",
             "The mistake most stores make is chasing informational keywords because the volume looks attractive. A store we audited last year had 40 blog posts targeting informational terms and was getting 15,000 monthly visits from them. Revenue from that traffic? Under 800 euros per month. When we shifted focus to transactional and commercial investigation keywords on their product and category pages, revenue from organic search grew by 340% in six months, with only a modest increase in total traffic.",
           ],
+          image: { src: "/images/blog/keyword-intent-funnel.svg", alt: "Ecommerce keyword intent funnel showing informational, navigational, commercial, and transactional layers", caption: "The four intent layers of ecommerce keyword targeting" },
+          callout: { title: "Intent Beats Volume", text: "Transactional keywords convert at 3-5x the rate of informational ones. A store shifting focus from informational to commercial and transactional terms saw 340% organic revenue growth in six months." },
         },
         {
           heading: "Where to find ecommerce keywords that actually convert",
@@ -48,6 +50,8 @@ export const ecommerceSeoKeywords: BlogArticle = {
             "Competitor product and category pages are another rich source. Do not just look at their meta titles. Check their H1s, breadcrumb text, filter labels, and product descriptions. Scrape the sitemap of your top five competitors and extract every category and subcategory URL. The words they use in those URLs are keywords they are targeting.",
             "Your site search logs deserve attention too. If your store has internal search, export those queries. Customers are literally telling you what they want in their own words. We have found keyword gold in site search data that no external tool would surface.",
           ],
+          image: { src: "/images/blog/keyword-sources-workflow.svg", alt: "Ecommerce keyword research sources workflow from own data through marketplace, competitors, and tool discovery to validation", caption: "Start with your own data, expand through competitors, then fill gaps with tools" },
+          callout: { title: "Quick Wins First", text: "One client found 127 keywords they ranked on page two for. By optimizing existing pages, they moved 43 of them to page one within two months -- no new content needed." },
         },
         {
           heading: "Mapping keywords to your funnel and page types",
@@ -59,6 +63,7 @@ export const ecommerceSeoKeywords: BlogArticle = {
             "Blog and guide pages handle informational intent. 'How to choose running shoes for flat feet' belongs on a guide, not a product page. But make sure those guides link to the relevant product and category pages. That is how informational content feeds your sales funnel. For a full playbook on producing content that drives organic traffic and sales, see our guide to [ecommerce SEO content strategy](/blog/ecommerce-seo-content).",
             "We build keyword maps in spreadsheets with columns for the keyword, monthly volume, intent type, target page URL, primary or secondary designation, and current ranking position. For a mid-sized store, this map usually has 500-2,000 rows. It becomes the blueprint for every on-page optimization and content decision.",
           ],
+          image: { src: "/images/blog/keyword-page-mapping.svg", alt: "Keyword to page type mapping showing category, subcategory, product, and blog page assignments", caption: "Each keyword type maps to a specific page type on your store" },
         },
         {
           heading: "Long-tail keywords are your competitive edge",
@@ -69,6 +74,7 @@ export const ecommerceSeoKeywords: BlogArticle = {
             "The long-tail strategy for ecommerce works because product pages naturally target specific terms. If you sell a Japanese Damascus steel chef knife set, your product page already has those words on it. The optimization work is about making sure the on-page elements, the title tag, H1, URL, image alts, and first paragraph, are aligned around that specific phrase.",
             "We generate long-tail keyword lists by taking head terms and appending modifiers. Material modifiers (leather, stainless steel, bamboo). Use case modifiers (for camping, for small apartments, for beginners). Brand modifiers. Size modifiers. Color modifiers. Price modifiers (under 50 euros, premium, budget). Feature modifiers (waterproof, wireless, rechargeable). Each modifier creates a new keyword with lower competition and higher intent.",
           ],
+          callout: { title: "Long-Tail ROI", text: "Long-tail keywords (4+ words) make up 70% of all searches and convert at 2-5x the rate of head terms. One client's single long-tail keyword drives 9,000 euros per month from just 1,200 monthly searches." },
         },
         {
           heading: "Finding and exploiting competitor keyword gaps",
@@ -79,6 +85,7 @@ export const ecommerceSeoKeywords: BlogArticle = {
             "Pay attention to keywords where multiple competitors rank but none of them rank particularly well (positions 5-20). These are keywords where the search results are not locked down by a dominant player. You can often break in and even claim the top spot with good on-page optimization and a few quality links.",
             "Also look for competitors who rank with weak pages. If a competitor ranks at position 7 for 'sustainable yoga mats' with a thin category page that has no unique content, a 200-word description, and poor internal linking, you can build a much better page and overtake them.",
           ],
+          image: { src: "/images/blog/keyword-gap-analysis.svg", alt: "Competitor keyword gap analysis workflow from input through filtering, categorizing, and executing", caption: "A structured keyword gap analysis consistently uncovers hundreds of actionable opportunities" },
         },
         {
           heading: "Category page keyword targeting done right",
@@ -99,8 +106,9 @@ export const ecommerceSeoKeywords: BlogArticle = {
             "Google Keyword Planner still has value for validating commercial intent. If a keyword has high CPC bids, advertisers believe it converts. We use Keyword Planner as a secondary data source to cross-reference volume estimates from Ahrefs.",
             "Screaming Frog is not a keyword tool, but we use it during keyword mapping. Crawling a site and exporting all title tags, H1s, and URLs lets us quickly see which keywords a store currently targets and where the gaps are.",
             "For Amazon keyword research specifically, we use Helium 10's free tools. The search volume data is specific to Amazon, but the keyword ideas transfer well to Google because the same shoppers use both platforms.",
-            "The method matters more than the tools. Start with your own data (Search Console, site search logs). Then expand with competitor analysis. Then fill gaps with tool-driven discovery. Validate everything against intent and search volume. Map it all to pages. This order prevents you from chasing vanity metrics instead of revenue-driving keywords. Our [intent matching tool](/intent-matching-tool) helps classify keywords by buyer intent automatically. If you want hands-on help finding the right terms, explore our [professional keyword research](/keyword-research) service.",
+            "The method matters more than the tools. Start with your own data (Search Console, site search logs). Then expand with competitor analysis. Then fill gaps with tool-driven discovery. Validate everything against intent and search volume. Map it all to pages. This order prevents you from chasing vanity metrics instead of revenue-driving keywords. Our [intent matching tool](/tools/intent-matching-tool) helps classify keywords by buyer intent automatically. If you want hands-on help finding the right terms, explore our [professional keyword research](/keyword-research) service.",
           ],
+          image: { src: "/images/blog/keyword-tool-stack.svg", alt: "Ecommerce keyword research tool stack showing primary and secondary tools with recommended method order", caption: "The method matters more than the tools -- follow this order to avoid chasing vanity metrics" },
         },
         {
           heading: "Building your keyword strategy for the long term",
@@ -135,6 +143,8 @@ export const ecommerceSeoKeywords: BlogArticle = {
             "Wir gruppieren Ecommerce-Keywords in vier Intent-Eimer. Informationelle Anfragen wie 'bestes Material fuer Winterjacken' gehoeren auf Blogbeitraege oder Kaufratgeber. Navigationale Anfragen wie 'Nike Store in meiner Naehe' sind markengetrieben. Kommerzielle Rechercheanfragen wie 'Yeti vs Hydro Flask Tumbler' liegen zwischen Recherche und Kauf. Transaktionale Anfragen wie 'Yeti Rambler 26oz kaufen' sind dort, wo das Geld liegt.",
             "Der Fehler, den die meisten Shops machen, ist informationelle Keywords zu jagen, weil das Volumen attraktiv aussieht. Ein Shop, den wir letztes Jahr prueften, hatte 40 Blogbeitraege, die auf informationelle Begriffe abzielten, und bekam 15.000 monatliche Besuche davon. Umsatz aus diesem Traffic? Unter 800 Euro pro Monat. Als wir den Fokus auf transaktionale und kommerzielle Recherche-Keywords auf ihren Produkt- und Kategorieseiten verlagerten, wuchs der Umsatz aus der organischen Suche in sechs Monaten um 340%, bei nur modestatem Anstieg des Gesamttraffics."
           ],
+          image: { src: "/images/blog/de/keyword-intent-funnel.svg", alt: "Ecommerce keyword intent funnel showing informational, navigational, commercial, and transactional layers", caption: "The four intent layers of ecommerce keyword targeting" },
+          callout: { title: "Intent Beats Volume", text: "Transactional keywords convert at 3-5x the rate of informational ones. A store shifting focus from informational to commercial and transactional terms saw 340% organic revenue growth in six months." },
         },
         {
           heading: "Wo Sie Ecommerce-Keywords finden, die tatsaechlich konvertieren",
@@ -146,6 +156,8 @@ export const ecommerceSeoKeywords: BlogArticle = {
             "Produkt- und Kategorieseiten von Wettbewerbern sind eine weitere ergiebige Quelle. Schauen Sie nicht nur auf deren Meta-Titel. Pruefen Sie deren H1s, Breadcrumb-Text, Filterbeschriftungen und Produktbeschreibungen. Scrapen Sie die Sitemap Ihrer fuenf Top-Wettbewerber und extrahieren Sie jede Kategorie- und Unterkategorie-URL. Die Woerter, die sie in diesen URLs verwenden, sind Keywords, auf die sie abzielen.",
             "Ihre Site-Search-Logs verdienen ebenfalls Aufmerksamkeit. Wenn Ihr Shop eine interne Suche hat, exportieren Sie diese Anfragen. Kunden sagen Ihnen buchstaeblich in ihren eigenen Worten, was sie wollen. Wir haben Keyword-Gold in Site-Search-Daten gefunden, das kein externes Tool aufdecken wuerde."
           ],
+          image: { src: "/images/blog/de/keyword-sources-workflow.svg", alt: "Ecommerce keyword research sources workflow from own data through marketplace, competitors, and tool discovery to validation", caption: "Start with your own data, expand through competitors, then fill gaps with tools" },
+          callout: { title: "Quick Wins First", text: "One client found 127 keywords they ranked on page two for. By optimizing existing pages, they moved 43 of them to page one within two months -- no new content needed." },
         },
         {
           heading: "Keywords Ihrem Funnel und Seitentypen zuordnen",
@@ -157,6 +169,7 @@ export const ecommerceSeoKeywords: BlogArticle = {
             "Blog- und Ratgeberseiten behandeln informationelle Intention. 'Wie waehlt man Laufschuhe fuer Plattfuesse' gehoert auf einen Ratgeber, nicht auf eine Produktseite. Aber stellen Sie sicher, dass diese Ratgeber auf die relevanten Produkt- und Kategorieseiten verlinken. So speist informationeller Content Ihren Sales Funnel. Fuer ein vollstaendiges Playbook zur Produktion von Content, der organischen Traffic und Verkaeufe treibt, lesen Sie unseren Leitfaden zur [Ecommerce SEO Content Strategie](/blog/ecommerce-seo-content).",
             "Wir erstellen Keyword-Maps in Tabellenkalkulationen mit Spalten fuer das Keyword, monatliches Volumen, Intent-Typ, Zielseiten-URL, primaere oder sekundaere Bezeichnung und aktuelle Ranking-Position. Fuer einen mittelgrossen Shop hat diese Map normalerweise 500-2.000 Zeilen. Sie wird zur Blaupause fuer jede On-Page-Optimierung und Content-Entscheidung."
           ],
+          image: { src: "/images/blog/de/keyword-page-mapping.svg", alt: "Keyword to page type mapping showing category, subcategory, product, and blog page assignments", caption: "Each keyword type maps to a specific page type on your store" },
         },
         {
           heading: "Long-Tail-Keywords sind Ihr Wettbewerbsvorteil",
@@ -167,6 +180,7 @@ export const ecommerceSeoKeywords: BlogArticle = {
             "Die Long-Tail-Strategie fuer Ecommerce funktioniert, weil Produktseiten natuerlich auf spezifische Begriffe abzielen. Wenn Sie ein japanisches Damaskusstahl Kochmesser Set verkaufen, hat Ihre Produktseite diese Woerter bereits. Die Optimierungsarbeit besteht darin sicherzustellen, dass die On-Page-Elemente, der Title Tag, H1, URL, Bild-Alts und der erste Absatz, um diese spezifische Phrase herum ausgerichtet sind.",
             "Wir generieren Long-Tail-Keyword-Listen, indem wir Head Terms nehmen und Modifikatoren anfuegen. Material-Modifikatoren (Leder, Edelstahl, Bambus). Anwendungsfall-Modifikatoren (fuer Camping, fuer kleine Wohnungen, fuer Anfaenger). Marken-Modifikatoren. Groessen-Modifikatoren. Farb-Modifikatoren. Preis-Modifikatoren (unter 50 Euro, Premium, Budget). Feature-Modifikatoren (wasserdicht, kabellos, wiederaufladbar). Jeder Modifikator erzeugt ein neues Keyword mit geringerem Wettbewerb und hoeherer Intention."
           ],
+          callout: { title: "Long-Tail ROI", text: "Long-tail keywords (4+ words) make up 70% of all searches and convert at 2-5x the rate of head terms. One client's single long-tail keyword drives 9,000 euros per month from just 1,200 monthly searches." },
         },
         {
           heading: "Keyword-Luecken der Wettbewerber finden und nutzen",
@@ -177,6 +191,7 @@ export const ecommerceSeoKeywords: BlogArticle = {
             "Achten Sie auf Keywords, bei denen mehrere Wettbewerber ranken, aber keiner besonders gut (Positionen 5-20). Das sind Keywords, bei denen die Suchergebnisse nicht von einem dominanten Akteur besetzt sind. Sie koennen oft einbrechen und sogar den Spitzenplatz mit guter On-Page-Optimierung und ein paar Qualitaetslinks beanspruchen.",
             "Suchen Sie auch nach Wettbewerbern, die mit schwachen Seiten ranken. Wenn ein Wettbewerber auf Position 7 fuer 'nachhaltige Yogamatten' rankt mit einer duennen Kategorieseite ohne einzigartigen Content, einer 200-Wort-Beschreibung und schlechter interner Verlinkung, koennen Sie eine viel bessere Seite aufbauen und sie ueberholen."
           ],
+          image: { src: "/images/blog/de/keyword-gap-analysis.svg", alt: "Competitor keyword gap analysis workflow from input through filtering, categorizing, and executing", caption: "A structured keyword gap analysis consistently uncovers hundreds of actionable opportunities" },
         },
         {
           heading: "Kategorieseiten-Keyword-Targeting richtig gemacht",
@@ -197,8 +212,9 @@ export const ecommerceSeoKeywords: BlogArticle = {
             "Google Keyword Planner hat immer noch Wert fuer die Validierung kommerzieller Absicht. Wenn ein Keyword hohe CPC-Gebote hat, glauben Werbetreibende, dass es konvertiert. Wir nutzen den Keyword Planner als sekundaere Datenquelle zur Gegenprüfung von Volumenschaetzungen aus Ahrefs.",
             "Screaming Frog ist kein Keyword-Tool, aber wir verwenden es waehrend des Keyword-Mappings. Das Crawlen einer Seite und Exportieren aller Title Tags, H1s und URLs laesst uns schnell sehen, welche Keywords ein Shop aktuell anvisiert und wo die Luecken sind.",
             "Fuer Amazon-Keyword-Recherche speziell verwenden wir die kostenlosen Tools von Helium 10. Die Suchvolumendaten sind spezifisch fuer Amazon, aber die Keyword-Ideen uebertragen sich gut auf Google, weil dieselben Kaeufer beide Plattformen nutzen.",
-            "Die Methode zaehlt mehr als die Tools. Beginnen Sie mit Ihren eigenen Daten (Search Console, Site-Search-Logs). Dann erweitern Sie mit Wettbewerbsanalyse. Dann fuellen Sie Luecken mit tool-gestuetzter Recherche. Validieren Sie alles gegen Intention und Suchvolumen. Ordnen Sie alles Seiten zu. Diese Reihenfolge verhindert, dass Sie Eitelkeitsmetriken statt umsatztreibenden Keywords nachjagen. Unser [Intent-Matching-Tool](/intent-matching-tool) hilft, Keywords automatisch nach Kaufabsicht zu klassifizieren. Wenn Sie praktische Hilfe bei der Suche nach den richtigen Begriffen moechten, erkunden Sie unseren [professionellen Keyword-Recherche](/keyword-research) Service."
+            "Die Methode zaehlt mehr als die Tools. Beginnen Sie mit Ihren eigenen Daten (Search Console, Site-Search-Logs). Dann erweitern Sie mit Wettbewerbsanalyse. Dann fuellen Sie Luecken mit tool-gestuetzter Recherche. Validieren Sie alles gegen Intention und Suchvolumen. Ordnen Sie alles Seiten zu. Diese Reihenfolge verhindert, dass Sie Eitelkeitsmetriken statt umsatztreibenden Keywords nachjagen. Unser [Intent-Matching-Tool](/tools/intent-matching-tool) hilft, Keywords automatisch nach Kaufabsicht zu klassifizieren. Wenn Sie praktische Hilfe bei der Suche nach den richtigen Begriffen moechten, erkunden Sie unseren [professionellen Keyword-Recherche](/keyword-research) Service."
           ],
+          image: { src: "/images/blog/de/keyword-tool-stack.svg", alt: "Ecommerce keyword research tool stack showing primary and secondary tools with recommended method order", caption: "The method matters more than the tools -- follow this order to avoid chasing vanity metrics" },
         },
         {
           heading: "Ihre Keyword-Strategie langfristig aufbauen",
@@ -233,6 +249,8 @@ export const ecommerceSeoKeywords: BlogArticle = {
             "Nous regroupons les mots-clés ecommerce en quatre catégories d'intention. Les requêtes informationnelles comme « meilleur matériau pour les vestes d'hiver » appartiennent aux articles de blog ou guides d'achat. Les requêtes de navigation comme « magasin Nike près de chez moi » sont orientées marque. Les requêtes d'investigation commerciale comme « Yeti vs Hydro Flask gobelet » se situent entre la recherche et l'achat. Les requêtes transactionnelles comme « acheter Yeti Rambler 26oz » sont là où se trouve l'argent.",
             "L'erreur que la plupart des boutiques commettent est de courir après les mots-clés informationnels parce que le volume semble attractif. Une boutique que nous avons auditée l'année dernière avait 40 articles de blog ciblant des termes informationnels et obtenait 15 000 visites mensuelles grâce à eux. Le chiffre d'affaires de ce trafic ? Moins de 800 euros par mois. Quand nous avons recentré l'effort sur les mots-clés transactionnels et d'investigation commerciale sur leurs pages produits et catégories, le chiffre d'affaires de la recherche organique a augmenté de 340 % en six mois, avec seulement une augmentation modeste du trafic total."
           ],
+          image: { src: "/images/blog/fr/keyword-intent-funnel.svg", alt: "Ecommerce keyword intent funnel showing informational, navigational, commercial, and transactional layers", caption: "The four intent layers of ecommerce keyword targeting" },
+          callout: { title: "Intent Beats Volume", text: "Transactional keywords convert at 3-5x the rate of informational ones. A store shifting focus from informational to commercial and transactional terms saw 340% organic revenue growth in six months." },
         },
         {
           heading: "Où trouver des mots-clés ecommerce qui convertissent réellement",
@@ -244,6 +262,8 @@ export const ecommerceSeoKeywords: BlogArticle = {
             "Les pages produits et catégories de vos concurrents sont une autre source riche. Ne regardez pas seulement leurs balises meta. Vérifiez leurs H1, le texte du fil d'Ariane, les libellés de filtres et les descriptions de produits. Scrapez le sitemap de vos cinq principaux concurrents et extrayez chaque URL de catégorie et sous-catégorie. Les mots qu'ils utilisent dans ces URL sont des mots-clés qu'ils ciblent.",
             "Vos logs de recherche interne méritent aussi votre attention. Si votre boutique a une recherche interne, exportez ces requêtes. Les clients vous disent littéralement ce qu'ils veulent dans leurs propres mots. Nous avons trouvé des pépites de mots-clés dans les données de recherche interne qu'aucun outil externe ne ferait remonter."
           ],
+          image: { src: "/images/blog/fr/keyword-sources-workflow.svg", alt: "Ecommerce keyword research sources workflow from own data through marketplace, competitors, and tool discovery to validation", caption: "Start with your own data, expand through competitors, then fill gaps with tools" },
+          callout: { title: "Quick Wins First", text: "One client found 127 keywords they ranked on page two for. By optimizing existing pages, they moved 43 of them to page one within two months -- no new content needed." },
         },
         {
           heading: "Associer les mots-clés à votre tunnel et types de pages",
@@ -255,6 +275,7 @@ export const ecommerceSeoKeywords: BlogArticle = {
             "Les pages de blog et guides gèrent l'intention informationnelle. « Comment choisir des chaussures de running pour pieds plats » appartient à un guide, pas à une page produit. Mais assurez-vous que ces guides pointent vers les pages produits et catégories pertinentes. C'est ainsi que le contenu informationnel nourrit votre tunnel de vente. Pour un guide complet sur la production de contenu qui génère du trafic organique et des ventes, consultez notre guide sur la [stratégie de contenu SEO ecommerce](/blog/ecommerce-seo-content).",
             "Nous construisons des cartes de mots-clés dans des tableurs avec des colonnes pour le mot-clé, le volume mensuel, le type d'intention, l'URL de la page cible, la désignation principal ou secondaire, et la position de classement actuelle. Pour une boutique de taille moyenne, cette carte compte généralement 500 à 2 000 lignes. Elle devient le plan directeur de chaque optimisation on-page et décision de contenu."
           ],
+          image: { src: "/images/blog/fr/keyword-page-mapping.svg", alt: "Keyword to page type mapping showing category, subcategory, product, and blog page assignments", caption: "Each keyword type maps to a specific page type on your store" },
         },
         {
           heading: "Les mots-clés longue traîne sont votre avantage concurrentiel",
@@ -265,6 +286,7 @@ export const ecommerceSeoKeywords: BlogArticle = {
             "La stratégie longue traîne pour le ecommerce fonctionne parce que les pages produits ciblent naturellement des termes spécifiques. Si vous vendez un set de couteaux de chef japonais en acier Damas, votre page produit contient déjà ces mots. Le travail d'optimisation consiste à s'assurer que les éléments on-page — la balise title, le H1, l'URL, les alt des images et le premier paragraphe — sont alignés autour de cette expression spécifique.",
             "Nous générons des listes de mots-clés longue traîne en prenant des termes de tête et en ajoutant des modificateurs. Modificateurs de matériau (cuir, acier inoxydable, bambou). Modificateurs de cas d'utilisation (pour le camping, pour petits appartements, pour débutants). Modificateurs de marque. Modificateurs de taille. Modificateurs de couleur. Modificateurs de prix (moins de 50 euros, premium, budget). Modificateurs de caractéristiques (imperméable, sans fil, rechargeable). Chaque modificateur crée un nouveau mot-clé avec une concurrence plus faible et une intention plus forte."
           ],
+          callout: { title: "Long-Tail ROI", text: "Long-tail keywords (4+ words) make up 70% of all searches and convert at 2-5x the rate of head terms. One client's single long-tail keyword drives 9,000 euros per month from just 1,200 monthly searches." },
         },
         {
           heading: "Trouver et exploiter les lacunes de mots-clés concurrentiels",
@@ -275,6 +297,7 @@ export const ecommerceSeoKeywords: BlogArticle = {
             "Faites attention aux mots-clés pour lesquels plusieurs concurrents se classent mais aucun ne se classe particulièrement bien (positions 5-20). Ce sont des mots-clés où les résultats de recherche ne sont pas verrouillés par un acteur dominant. Vous pouvez souvent vous y insérer et même revendiquer la première place avec une bonne optimisation on-page et quelques liens de qualité.",
             "Recherchez aussi les concurrents qui se classent avec des pages faibles. Si un concurrent se classe en position 7 pour « tapis de yoga durable » avec une page catégorie maigre sans contenu unique, une description de 200 mots et un maillage interne insuffisant, vous pouvez construire une bien meilleure page et le dépasser."
           ],
+          image: { src: "/images/blog/fr/keyword-gap-analysis.svg", alt: "Competitor keyword gap analysis workflow from input through filtering, categorizing, and executing", caption: "A structured keyword gap analysis consistently uncovers hundreds of actionable opportunities" },
         },
         {
           heading: "Le ciblage de mots-clés des pages catégories bien fait",
@@ -295,8 +318,9 @@ export const ecommerceSeoKeywords: BlogArticle = {
             "Google Keyword Planner a encore de la valeur pour valider l'intention commerciale. Si un mot-clé a des enchères CPC élevées, les annonceurs croient qu'il convertit. Nous utilisons Keyword Planner comme source de données secondaire pour croiser les estimations de volume d'Ahrefs.",
             "Screaming Frog n'est pas un outil de mots-clés, mais nous l'utilisons pendant la cartographie des mots-clés. Crawler un site et exporter toutes les balises title, H1 et URL nous permet de voir rapidement quels mots-clés une boutique cible actuellement et où se trouvent les lacunes.",
             "Pour la recherche de mots-clés spécifique à Amazon, nous utilisons les outils gratuits de Helium 10. Les données de volume de recherche sont spécifiques à Amazon, mais les idées de mots-clés se transfèrent bien vers Google car les mêmes acheteurs utilisent les deux plateformes.",
-            "La méthode compte plus que les outils. Commencez par vos propres données (Search Console, logs de recherche interne). Puis développez avec l'analyse concurrentielle. Puis comblez les lacunes avec la découverte assistée par les outils. Validez tout par rapport à l'intention et au volume de recherche. Associez le tout à des pages. Cet ordre vous empêche de courir après des métriques de vanité au lieu de mots-clés générateurs de revenus. Notre [outil de correspondance d'intention](/intent-matching-tool) aide à classifier automatiquement les mots-clés par intention d'achat. Si vous souhaitez une aide pratique pour trouver les bons termes, découvrez notre service de [recherche de mots-clés professionnelle](/keyword-research)."
+            "La méthode compte plus que les outils. Commencez par vos propres données (Search Console, logs de recherche interne). Puis développez avec l'analyse concurrentielle. Puis comblez les lacunes avec la découverte assistée par les outils. Validez tout par rapport à l'intention et au volume de recherche. Associez le tout à des pages. Cet ordre vous empêche de courir après des métriques de vanité au lieu de mots-clés générateurs de revenus. Notre [outil de correspondance d'intention](/tools/intent-matching-tool) aide à classifier automatiquement les mots-clés par intention d'achat. Si vous souhaitez une aide pratique pour trouver les bons termes, découvrez notre service de [recherche de mots-clés professionnelle](/keyword-research)."
           ],
+          image: { src: "/images/blog/fr/keyword-tool-stack.svg", alt: "Ecommerce keyword research tool stack showing primary and secondary tools with recommended method order", caption: "The method matters more than the tools -- follow this order to avoid chasing vanity metrics" },
         },
         {
           heading: "Construire votre stratégie de mots-clés pour le long terme",
@@ -331,6 +355,8 @@ export const ecommerceSeoKeywords: BlogArticle = {
             "Agrupamos las keywords de ecommerce en cuatro categorías de intención. Las consultas informativas como 'best material for winter jackets' pertenecen a publicaciones de blog o guías de compra. Las consultas de navegación como 'Nike store near me' son impulsadas por la marca. Las consultas de investigación comercial como 'Yeti vs Hydro Flask tumbler' se sitúan entre la investigación y la compra. Las consultas transaccionales como 'buy Yeti Rambler 26oz' son donde está el dinero.",
             "El error que cometen la mayoría de las tiendas es perseguir keywords informativas porque el volumen parece atractivo. Una tienda que auditamos el año pasado tenía 40 publicaciones de blog apuntando a términos informacionales y estaba obteniendo 15.000 visitas mensuales de ellas. ¿Ingresos de ese tráfico? Menos de 800 euros al mes. Cuando cambiamos el enfoque a keywords transaccionales y de investigación comercial en sus páginas de productos y categorías, los ingresos de búsqueda orgánica crecieron un 340% en seis meses, con solo un modesto aumento en el tráfico total."
           ],
+          image: { src: "/images/blog/es/keyword-intent-funnel.svg", alt: "Ecommerce keyword intent funnel showing informational, navigational, commercial, and transactional layers", caption: "The four intent layers of ecommerce keyword targeting" },
+          callout: { title: "Intent Beats Volume", text: "Transactional keywords convert at 3-5x the rate of informational ones. A store shifting focus from informational to commercial and transactional terms saw 340% organic revenue growth in six months." },
         },
         {
           heading: "Dónde encontrar keywords de ecommerce que realmente convierten",
@@ -342,6 +368,8 @@ export const ecommerceSeoKeywords: BlogArticle = {
             "Las páginas de productos y categorías de competidores son otra fuente rica. No solo mires sus meta títulos. Revisa sus H1, texto de migas de pan, etiquetas de filtros y descripciones de productos. Rastrea el sitemap de tus cinco principales competidores y extrae cada URL de categoría y subcategoría. Las palabras que usan en esas URLs son keywords a las que apuntan.",
             "Los registros de búsqueda de tu sitio merecen atención también. Si tu tienda tiene búsqueda interna, exporta esas consultas. Los clientes te están diciendo literalmente lo que quieren en sus propias palabras. Hemos encontrado tesoros de keywords en datos de búsqueda del sitio que ninguna herramienta externa revelaría."
           ],
+          image: { src: "/images/blog/es/keyword-sources-workflow.svg", alt: "Ecommerce keyword research sources workflow from own data through marketplace, competitors, and tool discovery to validation", caption: "Start with your own data, expand through competitors, then fill gaps with tools" },
+          callout: { title: "Quick Wins First", text: "One client found 127 keywords they ranked on page two for. By optimizing existing pages, they moved 43 of them to page one within two months -- no new content needed." },
         },
         {
           heading: "Mapeando keywords a tu embudo y tipos de página",
@@ -353,6 +381,7 @@ export const ecommerceSeoKeywords: BlogArticle = {
             "Las páginas de blog y guías manejan la intención informativa. 'How to choose running shoes for flat feet' pertenece a una guía, no a una página de producto. Pero asegúrate de que esas guías enlacen a las páginas de productos y categorías relevantes. Así es como el contenido informativo alimenta tu embudo de ventas. Para un manual completo sobre producir contenido que impulse tráfico orgánico y ventas, consulta nuestra guía de [estrategia de contenido SEO para ecommerce](/blog/ecommerce-seo-content).",
             "Construimos mapas de keywords en hojas de cálculo con columnas para la keyword, volumen mensual, tipo de intención, URL de la página objetivo, designación primaria o secundaria y posición de ranking actual. Para una tienda de tamaño medio, este mapa normalmente tiene 500-2.000 filas. Se convierte en el plano para cada decisión de optimización on-page y contenido."
           ],
+          image: { src: "/images/blog/es/keyword-page-mapping.svg", alt: "Keyword to page type mapping showing category, subcategory, product, and blog page assignments", caption: "Each keyword type maps to a specific page type on your store" },
         },
         {
           heading: "Las keywords long-tail son tu ventaja competitiva",
@@ -363,6 +392,7 @@ export const ecommerceSeoKeywords: BlogArticle = {
             "La estrategia long-tail para ecommerce funciona porque las páginas de productos naturalmente apuntan a términos específicos. Si vendes un set de cuchillos de chef de acero Damasco japonés, tu página de producto ya tiene esas palabras. El trabajo de optimización consiste en asegurarse de que los elementos on-page, el title tag, H1, URL, alts de imágenes y primer párrafo, estén alineados alrededor de esa frase específica.",
             "Generamos listas de keywords long-tail tomando términos principales y añadiendo modificadores. Modificadores de material (cuero, acero inoxidable, bambú). Modificadores de caso de uso (para camping, para apartamentos pequeños, para principiantes). Modificadores de marca. Modificadores de talla. Modificadores de color. Modificadores de precio (menos de 50 euros, premium, económico). Modificadores de características (impermeable, inalámbrico, recargable). Cada modificador crea una nueva keyword con menor competencia y mayor intención."
           ],
+          callout: { title: "Long-Tail ROI", text: "Long-tail keywords (4+ words) make up 70% of all searches and convert at 2-5x the rate of head terms. One client's single long-tail keyword drives 9,000 euros per month from just 1,200 monthly searches." },
         },
         {
           heading: "Encontrando y explotando brechas de keywords de competidores",
@@ -373,6 +403,7 @@ export const ecommerceSeoKeywords: BlogArticle = {
             "Presta atención a keywords donde múltiples competidores se posicionan pero ninguno de ellos se posiciona particularmente bien (posiciones 5-20). Estas son keywords donde los resultados de búsqueda no están dominados por un jugador dominante. A menudo puedes entrar e incluso reclamar la primera posición con buena optimización on-page y algunos enlaces de calidad.",
             "También busca competidores que se posicionan con páginas débiles. Si un competidor está en la posición 7 para 'sustainable yoga mats' con una página de categoría escasa que no tiene contenido único, una descripción de 200 palabras y pobre enlazado interno, puedes construir una página mucho mejor y superarlos."
           ],
+          image: { src: "/images/blog/es/keyword-gap-analysis.svg", alt: "Competitor keyword gap analysis workflow from input through filtering, categorizing, and executing", caption: "A structured keyword gap analysis consistently uncovers hundreds of actionable opportunities" },
         },
         {
           heading: "Segmentación de keywords para páginas de categoría bien hecha",
@@ -393,8 +424,9 @@ export const ecommerceSeoKeywords: BlogArticle = {
             "Google Keyword Planner aún tiene valor para validar la intención comercial. Si una keyword tiene pujas de CPC altas, los anunciantes creen que convierte. Usamos Keyword Planner como fuente de datos secundaria para cruzar estimaciones de volumen de Ahrefs.",
             "Screaming Frog no es una herramienta de keywords, pero la usamos durante el mapeo de keywords. Rastrear un sitio y exportar todos los title tags, H1s y URLs nos permite ver rápidamente qué keywords apunta actualmente una tienda y dónde están las brechas.",
             "Para la investigación de keywords de Amazon específicamente, usamos las herramientas gratuitas de Helium 10. Los datos de volumen de búsqueda son específicos de Amazon, pero las ideas de keywords se transfieren bien a Google porque los mismos compradores usan ambas plataformas.",
-            "El método importa más que las herramientas. Empieza con tus propios datos (Search Console, registros de búsqueda del sitio). Luego expande con análisis de competidores. Luego llena las brechas con descubrimiento impulsado por herramientas. Valida todo contra la intención y el volumen de búsqueda. Mapea todo a páginas. Este orden evita que persigas métricas de vanidad en lugar de keywords que generan ingresos. Nuestra [herramienta de coincidencia de intención](/intent-matching-tool) ayuda a clasificar keywords por intención de comprador automáticamente. Si quieres ayuda práctica para encontrar los términos correctos, explora nuestro servicio de [investigación profesional de keywords](/keyword-research)."
+            "El método importa más que las herramientas. Empieza con tus propios datos (Search Console, registros de búsqueda del sitio). Luego expande con análisis de competidores. Luego llena las brechas con descubrimiento impulsado por herramientas. Valida todo contra la intención y el volumen de búsqueda. Mapea todo a páginas. Este orden evita que persigas métricas de vanidad en lugar de keywords que generan ingresos. Nuestra [herramienta de coincidencia de intención](/tools/intent-matching-tool) ayuda a clasificar keywords por intención de comprador automáticamente. Si quieres ayuda práctica para encontrar los términos correctos, explora nuestro servicio de [investigación profesional de keywords](/keyword-research)."
           ],
+          image: { src: "/images/blog/es/keyword-tool-stack.svg", alt: "Ecommerce keyword research tool stack showing primary and secondary tools with recommended method order", caption: "The method matters more than the tools -- follow this order to avoid chasing vanity metrics" },
         },
         {
           heading: "Construyendo tu estrategia de keywords a largo plazo",
@@ -430,6 +462,8 @@ export const ecommerceSeoKeywords: BlogArticle = {
             "Raggruppiamo le keyword ecommerce in quattro categorie di intento. Le query informative come 'best material for winter jackets' appartengono ai post del blog o alle guide all'acquisto. Le query navigazionali come 'Nike store near me' sono guidate dal brand. Le query di ricerca commerciale come 'Yeti vs Hydro Flask tumbler' si collocano tra ricerca e acquisto. Le query transazionali come 'buy Yeti Rambler 26oz' sono dove stanno i soldi.",
             "L'errore che la maggior parte dei negozi commette è inseguire keyword informative perché il volume sembra attraente. Un negozio che abbiamo analizzato l'anno scorso aveva 40 post del blog che targetizzavano termini informativi e otteneva 15.000 visite mensili da essi. Il fatturato da quel traffico? Meno di 800 euro al mese. Quando abbiamo spostato il focus su keyword transazionali e di ricerca commerciale sulle loro pagine prodotto e categoria, il fatturato dalla ricerca organica è cresciuto del 340% in sei mesi, con solo un modesto aumento del traffico totale.",
           ],
+          image: { src: "/images/blog/it/keyword-intent-funnel.svg", alt: "Ecommerce keyword intent funnel showing informational, navigational, commercial, and transactional layers", caption: "The four intent layers of ecommerce keyword targeting" },
+          callout: { title: "Intent Beats Volume", text: "Transactional keywords convert at 3-5x the rate of informational ones. A store shifting focus from informational to commercial and transactional terms saw 340% organic revenue growth in six months." },
         },
         {
           heading: "Dove trovare keyword ecommerce che convertono davvero",
@@ -441,6 +475,8 @@ export const ecommerceSeoKeywords: BlogArticle = {
             "Le pagine prodotto e categoria dei concorrenti sono un'altra fonte ricca. Non guardare solo i loro meta title. Controlla i loro H1, il testo dei breadcrumb, le etichette dei filtri e le descrizioni dei prodotti. Scansiona la sitemap dei tuoi cinque principali concorrenti ed estrai ogni URL di categoria e sottocategoria. Le parole che usano in quegli URL sono keyword che stanno targetizzando.",
             "Anche i log di ricerca del tuo sito meritano attenzione. Se il tuo negozio ha una ricerca interna, esporta quelle query. I clienti ti stanno letteralmente dicendo cosa vogliono con le loro parole. Abbiamo trovato keyword d'oro nei dati di ricerca del sito che nessuno strumento esterno avrebbe fatto emergere.",
           ],
+          image: { src: "/images/blog/it/keyword-sources-workflow.svg", alt: "Ecommerce keyword research sources workflow from own data through marketplace, competitors, and tool discovery to validation", caption: "Start with your own data, expand through competitors, then fill gaps with tools" },
+          callout: { title: "Quick Wins First", text: "One client found 127 keywords they ranked on page two for. By optimizing existing pages, they moved 43 of them to page one within two months -- no new content needed." },
         },
         {
           heading: "Mappare le keyword sul tuo funnel e tipi di pagina",
@@ -452,6 +488,7 @@ export const ecommerceSeoKeywords: BlogArticle = {
             "Le pagine del blog e le guide gestiscono l'intento informativo. 'How to choose running shoes for flat feet' appartiene a una guida, non a una pagina prodotto. Ma assicurati che quelle guide linkino alle pagine prodotto e categoria pertinenti. È così che il contenuto informativo alimenta il tuo funnel di vendita. Per un playbook completo sulla produzione di contenuti che generano traffico organico e vendite, vedi la nostra guida alla [strategia di contenuti SEO ecommerce](/blog/ecommerce-seo-content).",
             "Costruiamo mappe di keyword in fogli di calcolo con colonne per la keyword, volume mensile, tipo di intento, URL della pagina target, designazione primaria o secondaria e posizione di ranking attuale. Per un negozio di medie dimensioni, questa mappa ha di solito 500-2.000 righe. Diventa il progetto per ogni ottimizzazione on-page e decisione sui contenuti.",
           ],
+          image: { src: "/images/blog/it/keyword-page-mapping.svg", alt: "Keyword to page type mapping showing category, subcategory, product, and blog page assignments", caption: "Each keyword type maps to a specific page type on your store" },
         },
         {
           heading: "Le keyword long-tail sono il tuo vantaggio competitivo",
@@ -462,6 +499,7 @@ export const ecommerceSeoKeywords: BlogArticle = {
             "La strategia long-tail per l'ecommerce funziona perché le pagine prodotto targetizzano naturalmente termini specifici. Se vendi un set di coltelli da chef in acciaio Damascus giapponese, la tua pagina prodotto ha già quelle parole. Il lavoro di ottimizzazione consiste nell'assicurarsi che gli elementi on-page — il title tag, H1, URL, alt delle immagini e primo paragrafo — siano allineati attorno a quella frase specifica.",
             "Generiamo liste di keyword long-tail prendendo termini head e aggiungendo modificatori. Modificatori di materiale (pelle, acciaio inox, bambù). Modificatori di caso d'uso (per campeggio, per piccoli appartamenti, per principianti). Modificatori di brand. Modificatori di taglia. Modificatori di colore. Modificatori di prezzo (sotto 50 euro, premium, economico). Modificatori di caratteristica (impermeabile, wireless, ricaricabile). Ogni modificatore crea una nuova keyword con minore competizione e maggiore intento.",
           ],
+          callout: { title: "Long-Tail ROI", text: "Long-tail keywords (4+ words) make up 70% of all searches and convert at 2-5x the rate of head terms. One client's single long-tail keyword drives 9,000 euros per month from just 1,200 monthly searches." },
         },
         {
           heading: "Trovare e sfruttare i gap di keyword dei concorrenti",
@@ -472,6 +510,7 @@ export const ecommerceSeoKeywords: BlogArticle = {
             "Presta attenzione alle keyword dove più concorrenti si posizionano ma nessuno si posiziona particolarmente bene (posizioni 5-20). Queste sono keyword dove i risultati di ricerca non sono bloccati da un player dominante. Spesso puoi entrare e persino reclamare la prima posizione con una buona ottimizzazione on-page e qualche link di qualità.",
             "Cerca anche concorrenti che si posizionano con pagine deboli. Se un concorrente si posiziona alla posizione 7 per 'sustainable yoga mats' con una pagina di categoria sottile che non ha contenuto unico, una descrizione di 200 parole e scarso linking interno, puoi costruire una pagina molto migliore e superarlo.",
           ],
+          image: { src: "/images/blog/it/keyword-gap-analysis.svg", alt: "Competitor keyword gap analysis workflow from input through filtering, categorizing, and executing", caption: "A structured keyword gap analysis consistently uncovers hundreds of actionable opportunities" },
         },
         {
           heading: "Targeting delle keyword per le pagine di categoria fatto bene",
@@ -492,8 +531,9 @@ export const ecommerceSeoKeywords: BlogArticle = {
             "Google Keyword Planner ha ancora valore per validare l'intento commerciale. Se una keyword ha offerte CPC alte, gli inserzionisti credono che converta. Usiamo Keyword Planner come fonte di dati secondaria per verificare le stime di volume di Ahrefs.",
             "Screaming Frog non è uno strumento per keyword, ma lo usiamo durante la mappatura delle keyword. Scansionare un sito ed esportare tutti i title tag, H1 e URL ci permette di vedere rapidamente quali keyword un negozio targetizza attualmente e dove sono i gap.",
             "Per la ricerca di keyword di Amazon specificamente, usiamo gli strumenti gratuiti di Helium 10. I dati di volume di ricerca sono specifici di Amazon, ma le idee di keyword si trasferiscono bene a Google perché gli stessi acquirenti usano entrambe le piattaforme.",
-            "Il metodo conta più degli strumenti. Inizia con i tuoi dati (Search Console, log di ricerca del sito). Poi espandi con l'analisi dei concorrenti. Poi riempi i gap con la scoperta guidata dagli strumenti. Valida tutto rispetto all'intento e al volume di ricerca. Mappa tutto sulle pagine. Questo ordine ti impedisce di inseguire metriche di vanità invece di keyword che generano fatturato. Il nostro [strumento di abbinamento dell'intento](/intent-matching-tool) aiuta a classificare le keyword per intento dell'acquirente automaticamente. Se vuoi aiuto pratico per trovare i termini giusti, esplora il nostro servizio di [ricerca keyword professionale](/keyword-research).",
+            "Il metodo conta più degli strumenti. Inizia con i tuoi dati (Search Console, log di ricerca del sito). Poi espandi con l'analisi dei concorrenti. Poi riempi i gap con la scoperta guidata dagli strumenti. Valida tutto rispetto all'intento e al volume di ricerca. Mappa tutto sulle pagine. Questo ordine ti impedisce di inseguire metriche di vanità invece di keyword che generano fatturato. Il nostro [strumento di abbinamento dell'intento](/tools/intent-matching-tool) aiuta a classificare le keyword per intento dell'acquirente automaticamente. Se vuoi aiuto pratico per trovare i termini giusti, esplora il nostro servizio di [ricerca keyword professionale](/keyword-research).",
           ],
+          image: { src: "/images/blog/it/keyword-tool-stack.svg", alt: "Ecommerce keyword research tool stack showing primary and secondary tools with recommended method order", caption: "The method matters more than the tools -- follow this order to avoid chasing vanity metrics" },
         },
         {
           heading: "Costruire la tua strategia di keyword a lungo termine",
@@ -529,6 +569,8 @@ export const ecommerceSeoKeywords: BlogArticle = {
             "We groeperen ecommerce zoekwoorden in vier intentiecategorieën. Informatieve query's zoals 'best material for winter jackets' horen op blogposts of koopgidsen. Navigatiequery's zoals 'Nike store near me' zijn merkgedreven. Commercieel onderzoeksquery's zoals 'Yeti vs Hydro Flask tumbler' zitten tussen onderzoek en aankoop. Transactionele query's zoals 'buy Yeti Rambler 26oz' zijn waar het geld zit.",
             "De fout die de meeste winkels maken is het najagen van informatieve zoekwoorden omdat het volume aantrekkelijk lijkt. Een winkel die we vorig jaar hebben geauditeerd had 40 blogposts gericht op informatieve termen en kreeg 15.000 maandelijkse bezoeken daarvan. Omzet van dat verkeer? Minder dan 800 euro per maand. Toen we de focus verschoven naar transactionele en commercieel onderzoekszoekwoorden op hun product- en categoriepagina's, groeide de omzet uit organisch zoeken met 340% in zes maanden, met slechts een bescheiden toename in totaal verkeer.",
           ],
+          image: { src: "/images/blog/nl/keyword-intent-funnel.svg", alt: "Ecommerce keyword intent funnel showing informational, navigational, commercial, and transactional layers", caption: "The four intent layers of ecommerce keyword targeting" },
+          callout: { title: "Intent Beats Volume", text: "Transactional keywords convert at 3-5x the rate of informational ones. A store shifting focus from informational to commercial and transactional terms saw 340% organic revenue growth in six months." },
         },
         {
           heading: "Waar je ecommerce zoekwoorden vindt die daadwerkelijk converteren",
@@ -540,6 +582,8 @@ export const ecommerceSeoKeywords: BlogArticle = {
             "Product- en categoriepagina's van concurrenten zijn een andere rijke bron. Kijk niet alleen naar hun metatitels. Bekijk hun H1's, breadcrumbtekst, filterlabels en productbeschrijvingen. Scrap de sitemap van je top vijf concurrenten en extraheer elke categorie- en subcategorie-URL. De woorden die ze in die URL's gebruiken zijn zoekwoorden die ze targeten.",
             "Je site-zoeklogs verdienen ook aandacht. Als je winkel een interne zoekmachine heeft, exporteer die query's. Klanten vertellen je letterlijk wat ze willen in hun eigen woorden. We hebben zoekwoordgoud gevonden in site-zoekdata die geen externe tool naar boven zou brengen.",
           ],
+          image: { src: "/images/blog/nl/keyword-sources-workflow.svg", alt: "Ecommerce keyword research sources workflow from own data through marketplace, competitors, and tool discovery to validation", caption: "Start with your own data, expand through competitors, then fill gaps with tools" },
+          callout: { title: "Quick Wins First", text: "One client found 127 keywords they ranked on page two for. By optimizing existing pages, they moved 43 of them to page one within two months -- no new content needed." },
         },
         {
           heading: "Zoekwoorden mappen op je funnel en paginatypes",
@@ -551,6 +595,7 @@ export const ecommerceSeoKeywords: BlogArticle = {
             "Blog- en gidspagina's behandelen informatieve intentie. 'How to choose running shoes for flat feet' hoort op een gids, niet op een productpagina. Maar zorg ervoor dat die gidsen linken naar de relevante product- en categoriepagina's. Zo voedt informatieve content je verkoopfunnel. Voor een compleet draaiboek over het produceren van content die organisch verkeer en verkopen stimuleert, zie onze gids over [ecommerce SEO-contentstrategie](/blog/ecommerce-seo-content).",
             "We bouwen zoekwoordkaarten in spreadsheets met kolommen voor het zoekwoord, maandelijks volume, intentietype, target-pagina URL, primaire of secundaire aanduiding en huidige rankingpositie. Voor een middelgrote winkel heeft deze kaart meestal 500-2.000 rijen. Het wordt de blauwdruk voor elke on-page optimalisatie en contentbeslissing.",
           ],
+          image: { src: "/images/blog/nl/keyword-page-mapping.svg", alt: "Keyword to page type mapping showing category, subcategory, product, and blog page assignments", caption: "Each keyword type maps to a specific page type on your store" },
         },
         {
           heading: "Long-tail zoekwoorden zijn je concurrentievoordeel",
@@ -561,6 +606,7 @@ export const ecommerceSeoKeywords: BlogArticle = {
             "De long-tail strategie voor ecommerce werkt omdat productpagina's van nature specifieke termen targeten. Als je een Japanse Damascus stalen chef-messenset verkoopt, heeft je productpagina die woorden al. Het optimalisatiewerk gaat over het zorgen dat de on-page elementen — de title tag, H1, URL, image alts en eerste alinea — zijn afgestemd op die specifieke zin.",
             "We genereren long-tail zoekwoordlijsten door head terms te nemen en modificatoren toe te voegen. Materiaalmodificatoren (leer, roestvrij staal, bamboe). Gebruiksmodificatoren (voor kamperen, voor kleine appartementen, voor beginners). Merkmodificatoren. Maatmodificatoren. Kleurmodificatoren. Prijsmodificatoren (onder 50 euro, premium, budget). Functiemodificatoren (waterproof, draadloos, oplaadbaar). Elke modificator creëert een nieuw zoekwoord met lagere concurrentie en hogere intentie.",
           ],
+          callout: { title: "Long-Tail ROI", text: "Long-tail keywords (4+ words) make up 70% of all searches and convert at 2-5x the rate of head terms. One client's single long-tail keyword drives 9,000 euros per month from just 1,200 monthly searches." },
         },
         {
           heading: "Zoekwoordgaps van concurrenten vinden en benutten",
@@ -571,6 +617,7 @@ export const ecommerceSeoKeywords: BlogArticle = {
             "Let op zoekwoorden waar meerdere concurrenten ranken maar geen van hen bijzonder goed (posities 5-20). Dit zijn zoekwoorden waar de zoekresultaten niet worden gedomineerd door een dominante speler. Je kunt er vaak inbreken en zelfs de toppositie claimen met goede on-page optimalisatie en een paar kwaliteitslinks.",
             "Kijk ook naar concurrenten die ranken met zwakke pagina's. Als een concurrent op positie 7 staat voor 'sustainable yoga mats' met een dunne categoriepagina zonder unieke content, een beschrijving van 200 woorden en slechte interne linking, kun je een veel betere pagina bouwen en ze inhalen.",
           ],
+          image: { src: "/images/blog/nl/keyword-gap-analysis.svg", alt: "Competitor keyword gap analysis workflow from input through filtering, categorizing, and executing", caption: "A structured keyword gap analysis consistently uncovers hundreds of actionable opportunities" },
         },
         {
           heading: "Zoekwoordtargeting voor categoriepagina's goed gedaan",
@@ -591,8 +638,9 @@ export const ecommerceSeoKeywords: BlogArticle = {
             "Google Keyword Planner heeft nog steeds waarde voor het valideren van commerciële intentie. Als een zoekwoord hoge CPC-biedingen heeft, geloven adverteerders dat het converteert. We gebruiken Keyword Planner als secundaire databron om volumeschattingen van Ahrefs te kruisvalideren.",
             "Screaming Frog is geen zoekwoordtool, maar we gebruiken het tijdens het mappen van zoekwoorden. Een site crawlen en alle title tags, H1's en URL's exporteren laat ons snel zien welke zoekwoorden een winkel momenteel target en waar de gaps zitten.",
             "Voor Amazon zoekwoordonderzoek specifiek gebruiken we de gratis tools van Helium 10. De zoekvolume-data zijn specifiek voor Amazon, maar de zoekwoordideeën zijn goed overdraagbaar naar Google omdat dezelfde shoppers beide platformen gebruiken.",
-            "De methode is belangrijker dan de tools. Begin met je eigen data (Search Console, site-zoeklogs). Breid dan uit met concurrentenanalyse. Vul dan gaps aan met tool-gedreven ontdekking. Valideer alles tegen intentie en zoekvolume. Map alles op pagina's. Deze volgorde voorkomt dat je vanity metrics najaagt in plaats van omzet-genererende zoekwoorden. Onze [intentie-matching tool](/intent-matching-tool) helpt zoekwoorden automatisch te classificeren op koopintentie. Als je praktische hulp wilt bij het vinden van de juiste termen, bekijk onze [professionele zoekwoordonderzoek](/keyword-research) service.",
+            "De methode is belangrijker dan de tools. Begin met je eigen data (Search Console, site-zoeklogs). Breid dan uit met concurrentenanalyse. Vul dan gaps aan met tool-gedreven ontdekking. Valideer alles tegen intentie en zoekvolume. Map alles op pagina's. Deze volgorde voorkomt dat je vanity metrics najaagt in plaats van omzet-genererende zoekwoorden. Onze [intentie-matching tool](/tools/intent-matching-tool) helpt zoekwoorden automatisch te classificeren op koopintentie. Als je praktische hulp wilt bij het vinden van de juiste termen, bekijk onze [professionele zoekwoordonderzoek](/keyword-research) service.",
           ],
+          image: { src: "/images/blog/nl/keyword-tool-stack.svg", alt: "Ecommerce keyword research tool stack showing primary and secondary tools with recommended method order", caption: "The method matters more than the tools -- follow this order to avoid chasing vanity metrics" },
         },
         {
           heading: "Je zoekwoordstrategie bouwen voor de lange termijn",

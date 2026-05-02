@@ -3,6 +3,7 @@
 import { useState, useRef, useEffect } from "react";
 import { useParams, usePathname, useRouter } from "next/navigation";
 import { locales, defaultLocale, type Locale } from "@/lib/i18n/config";
+import { getEnglishSlug, getLocalizedSlug } from "@/lib/i18n/slugs";
 
 const localeConfig: Record<Locale, { code: string; label: string }> = {
   en: { code: "EN", label: "English" },
@@ -61,20 +62,28 @@ export default function LanguageSelector({ dropUp = false }: { dropUp?: boolean 
   }, []);
 
   function switchLocale(newLocale: Locale) {
-    // Strip any existing locale prefix from the current path
-    // Use word-boundary check (locale must be followed by / or end of string)
-    const pathWithoutLocale =
+    // 1. Strip any existing locale prefix to get the localized path
+    const localizedPath =
       pathname.replace(/^\/(en|de|fr|es|it|nl)(\/|$)/, "/") || "/";
 
+    // 2. Reverse-translate current locale's slug → English canonical path
+    const englishPath = getEnglishSlug(localizedPath, currentLocale);
+
+    // 3. Forward-translate English path → new locale's slug
+    const newLocalizedPath = getLocalizedSlug(englishPath, newLocale);
+
+    // 4. Build the full URL with the new locale prefix
+    // IMPORTANT: Use window.location.href (full page load) instead of router.push
+    // (client-side nav) because translated slugs require middleware rewrite to
+    // resolve to the actual page component.
+    let targetUrl: string;
     if (newLocale === defaultLocale) {
-      // Default locale (en): root URL, no prefix
-      router.push(pathWithoutLocale);
+      targetUrl = newLocalizedPath;
     } else {
-      // Other locales: add /{locale} prefix
-      const cleanPath =
-        pathWithoutLocale === "/" ? "" : pathWithoutLocale;
-      router.push(`/${newLocale}${cleanPath}`);
+      const cleanPath = newLocalizedPath === "/" ? "" : newLocalizedPath;
+      targetUrl = `/${newLocale}${cleanPath}`;
     }
+    window.location.href = targetUrl;
     setOpen(false);
   }
 

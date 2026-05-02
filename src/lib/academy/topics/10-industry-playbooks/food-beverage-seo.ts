@@ -27,12 +27,21 @@ export const foodBeverageSeo: AcademyTopic = {
           title: "Recipe Content and Informational Funnels",
           content:
             "Recipe content is the most powerful top-of-funnel strategy for food ecommerce. Millions of daily searches begin with queries like \"easy weeknight dinner recipes\" or \"chocolate cake from scratch.\" A well-structured recipe blog that features your products as key ingredients creates a natural path from discovery to purchase. This is a core pillar of [content strategy for stores](/academy/content-strategy-for-stores).\n\nPublish recipes that prominently use your products. If you sell specialty olive oil, create recipes where that oil is the star ingredient, not a minor addition. Each recipe page should include a \"Shop the Ingredients\" section with direct links to the products used, complete with add-to-cart functionality where your platform supports it.\n\nImplement Recipe schema markup on every recipe page. Google displays recipe rich results with images, ratings, cook time, and calorie count directly in search results. Pages with complete Recipe schema see dramatically higher click-through rates than plain blue links. Include all recommended schema fields: name, image, author, datePublished, description, prepTime, cookTime, totalTime, recipeYield, recipeIngredient, recipeInstructions, and nutrition.\n\nOrganize recipes into collections that mirror search behavior: by cuisine (Italian, Mexican, Thai), by occasion (holiday entertaining, meal prep, quick lunches), by dietary need (keto recipes, dairy-free baking), and by main ingredient. Each collection page targets a distinct keyword cluster and funnels traffic toward your product catalog.\n\nRepurpose recipe content into video format for YouTube and embed those videos on your recipe pages. Google increasingly surfaces video results for recipe queries, and a video showing your product in action reinforces brand recognition while capturing an additional search channel.",
+          image: {
+            src: "/images/academy/food-recipe-content-funnel.svg",
+            alt: "Diagram showing the recipe content funnel from discovery through engagement to purchase, with recipe collections organized by cuisine, occasion, diet, and ingredient",
+            caption: "Recipe content creates a natural path from search discovery to product purchase. Organize collections by cuisine, occasion, diet, and ingredient to maximize keyword coverage.",
+          },
           items: [
             "Publish recipes featuring your products as primary ingredients with shop-the-ingredients links",
             "Implement complete Recipe schema markup including nutrition, prep time, and ratings",
             "Organize recipes into collections by cuisine, occasion, dietary need, and main ingredient",
             "Create recipe video content for YouTube and embed on recipe pages for dual-channel visibility",
           ],
+          callout: {
+            title: "Recipe Schema Impact",
+            text: "Pages with complete Recipe schema (image, ratings, cook time, calories) see dramatically higher click-through rates than plain blue links. Include all recommended fields: prepTime, cookTime, recipeYield, recipeIngredient, recipeInstructions, and nutrition.",
+          },
           tip: "Track which recipe pages drive the most add-to-cart events, not just traffic. A recipe page with 5,000 monthly visits and a 3% add-to-cart rate is more valuable than one with 20,000 visits and no conversions. Optimize your internal linking to favor high-converting recipe content.",
         },
         {
@@ -50,6 +59,15 @@ export const foodBeverageSeo: AcademyTopic = {
           title: "Seasonal and Occasion-Based SEO Calendar",
           content:
             "Food ecommerce is deeply seasonal. Demand patterns are driven by holidays, cultural celebrations, harvest cycles, and even weather. A well-planned SEO calendar ensures your pages are indexed and ranking before each demand spike rather than scrambling to catch up.\n\nMap your product catalog to a full-year seasonal calendar. Christmas hampers, Easter chocolates, Thanksgiving turkeys, Valentine's Day gift boxes, summer barbecue supplies, Ramadan food packages, Diwali sweets, each occasion represents a distinct keyword cluster with predictable search volume spikes. Create or refresh dedicated landing pages at least 8-10 weeks before each event.\n\nRetain seasonal URLs year over year. A page at /christmas-food-hampers that has three years of backlink history and ranking signals will vastly outperform a newly created page. Update the product selection, imagery, and year references, but keep the URL and core content structure intact.\n\nCapitalize on weather-driven search patterns. Searches for \"hot chocolate gift set\" spike when temperatures drop; \"cold brew coffee\" peaks in spring and summer. Monitor weather forecasts alongside your analytics to time content refreshes and promotional pushes.\n\nCreate gift guide content for every major gifting occasion. \"Best food gifts for foodies,\" \"corporate gift baskets,\" \"housewarming food gifts\", these queries carry high commercial intent and naturally lend themselves to curated product collections. Include price range filters and personalization options to capture long-tail variations like \"food gifts under 50 dollars\" or \"personalized wine gifts.\"",
+          image: {
+            src: "/images/academy/food-seasonal-calendar.svg",
+            alt: "Annual food and beverage SEO calendar showing seasonal demand peaks for Valentine's Day, Easter, BBQ season, Halloween, Thanksgiving, and Christmas with content prep windows",
+            caption: "Food ecommerce demand spikes are predictable. Create or refresh landing pages 8-10 weeks before each event to allow Google indexing time.",
+          },
+          callout: {
+            title: "Weather-Driven Search",
+            text: "Searches for \"hot chocolate gift set\" spike when temperatures drop; \"cold brew coffee\" peaks in spring and summer. Monitor weather forecasts alongside analytics to time content refreshes and promotional pushes for maximum organic visibility.",
+          },
           tip: "Start indexing holiday landing pages in September for Christmas, January for Valentine's Day, and February for Easter. Google needs time to discover, crawl, and rank these pages. Last-minute page creation means you are competing on paid search alone during peak demand.",
         },
         {
@@ -105,12 +123,21 @@ export const foodBeverageSeo: AcademyTopic = {
           title: "Rezept-Content und informationelle Trichter",
           content:
             "Rezept-Content ist die leistungsfaehigste Top-of-Funnel-Strategie fuer Lebensmittel-E-Commerce. Millionen taeglicher Suchen beginnen mit Anfragen wie \"einfache Rezepte fuer unter der Woche\" oder \"Schokoladenkuchen selber machen.\" Ein gut strukturierter Rezeptblog, der Ihre Produkte als Hauptzutaten praesentiert, schafft einen natuerlichen Pfad von der Entdeckung zum Kauf. Dies ist ein Kernpfeiler von [Content-Strategie f\u00fcr Shops](/academy/content-strategy-for-stores).\n\nVeroeffentlichen Sie Rezepte, die Ihre Produkte prominent verwenden. Wenn Sie Spezialitaeten-Olivenoel verkaufen, erstellen Sie Rezepte, in denen dieses Oel die Hauptzutat ist, nicht eine nebensaechliche Ergaenzung. Jede Rezeptseite sollte einen Bereich \"Zutaten einkaufen\" mit direkten Links zu den verwendeten Produkten enthalten.\n\nImplementieren Sie Recipe-Schema-Markup auf jeder Rezeptseite. Google zeigt Rezept-Rich-Results mit Bildern, Bewertungen, Kochzeit und Kalorienanzahl direkt in den Suchergebnissen an. Seiten mit vollstaendigem Recipe-Schema erzielen deutlich hoehere Klickraten als einfache blaue Links. Schliessen Sie alle empfohlenen Schema-Felder ein: name, image, author, datePublished, description, prepTime, cookTime, totalTime, recipeYield, recipeIngredient, recipeInstructions und nutrition.\n\nOrganisieren Sie Rezepte in Sammlungen, die das Suchverhalten widerspiegeln: nach Kueche (italienisch, mexikanisch, thailaendisch), nach Anlass (Festtagsbewirtung, Meal Prep, schnelle Mittagessen), nach Ernaehrungsbedarf (Keto-Rezepte, milchfreies Backen) und nach Hauptzutat. Jede Sammlungsseite zielt auf ein eigenes Keyword-Cluster ab.\n\nVerwerten Sie Rezept-Content als Videoformat fuer YouTube und betten Sie diese Videos auf Ihren Rezeptseiten ein. Google zeigt zunehmend Videoergebnisse fuer Rezeptanfragen an, und ein Video, das Ihr Produkt in Aktion zeigt, staerkt die Markenbekanntheit und erschliesst einen zusaetzlichen Suchkanal.",
-          items: [
+                    image: {
+            src: "/images/academy/de/food-recipe-content-funnel.svg",
+            alt: "Rezept-Content zu Produkt-Trichter: Von Rezeptsuche ueber Zutatenverlinkung zur Produktseite",
+            caption: "Rezept-Content baut thematische Autoritaet auf und verlinkt natuerlich auf Ihre Produkte fuer hoehere Konversion.",
+          },
+items: [
             "Rezepte veroeffentlichen, die Ihre Produkte als Hauptzutaten mit Einkaufslinks praesentieren",
             "Vollstaendiges Recipe-Schema-Markup mit Naehrwerten, Zubereitungszeit und Bewertungen implementieren",
             "Rezepte in Sammlungen nach Kueche, Anlass, Ernaehrungsbedarf und Hauptzutat organisieren",
             "Rezept-Videocontent fuer YouTube erstellen und auf Rezeptseiten fuer Zweikanal-Sichtbarkeit einbetten",
           ],
+          callout: {
+            title: "Rezept-Content-Strategie",
+            text: "Rezepte mit Ihren Produkten als Zutaten erzeugen 3-5x mehr organischen Traffic als reine Produktseiten. Verlinken Sie jede Zutat direkt auf die entsprechende Produktseite fuer nahtlose Konversion.",
+          },
           tip: "Verfolgen Sie, welche Rezeptseiten die meisten Warenkorb-Ereignisse ausloesen, nicht nur Traffic. Eine Rezeptseite mit 5.000 monatlichen Besuchen und 3% Warenkorb-Rate ist wertvoller als eine mit 20.000 Besuchen ohne Konversionen. Optimieren Sie Ihre interne Verlinkung zugunsten konversionsstarker Rezeptinhalte.",
         },
         {
@@ -128,7 +155,16 @@ export const foodBeverageSeo: AcademyTopic = {
           title: "Saisonaler und anlassbezogener SEO-Kalender",
           content:
             "Lebensmittel-E-Commerce ist zutiefst saisonal. Nachfragemuster werden von Feiertagen, kulturellen Feiern, Erntezyklen und sogar dem Wetter bestimmt. Ein gut geplanter SEO-Kalender stellt sicher, dass Ihre Seiten indexiert und gerankt sind, bevor jeder Nachfrageanstieg eintritt, anstatt hinterherzulaufen.\n\nOrdnen Sie Ihren Produktkatalog einem Ganzjahres-Saisonkalender zu. Weihnachtskoerbe, Osterschokolade, Valentinstag-Geschenkboxen, Sommer-Grillzubehoer, Ramadan-Lebensmittelpakete, jeder Anlass repraesentiert ein eigenes Keyword-Cluster mit vorhersagbaren Suchvolumenspitzen. Erstellen oder aktualisieren Sie dedizierte Landingpages mindestens 8-10 Wochen vor jedem Ereignis.\n\nBehalten Sie saisonale URLs Jahr fuer Jahr bei. Eine Seite unter /weihnachts-geschenkkoerbe mit drei Jahren Backlink-Historie und Ranking-Signalen wird eine neu erstellte Seite bei weitem uebertreffen. Aktualisieren Sie die Produktauswahl, Bilder und Jahresangaben, aber behalten Sie die URL und die grundlegende Inhaltsstruktur bei.\n\nNutzen Sie wetterbedingte Suchmuster. Suchen nach \"heisse Schokolade Geschenkset\" steigen bei sinkenden Temperaturen; \"Cold Brew Kaffee\" hat seinen Hoehepunkt im Fruehling und Sommer.\n\nErstellen Sie Geschenkfuehrer-Content fuer jeden wichtigen Schenkanlass. \"Beste Lebensmittelgeschenke fuer Feinschmecker,\" \"Firmengeschenkkoerbe,\" \"Einweihungsgeschenke Lebensmittel\", diese Suchanfragen haben hohe kommerzielle Absicht und eignen sich natuerlich fuer kuratierte Produktkollektionen.",
+          image: {
+            src: "/images/academy/de/food-seasonal-calendar.svg",
+            alt: "Lebensmittel und Getraenke saisonaler SEO-Kalender mit acht Hauptsaisons und thematischen Content-Kategorien",
+            caption: "Planen Sie saisonalen Content 3 Monate im Voraus. Jede Saison bietet spezifische Keyword-Chancen.",
+          },
           tip: "Beginnen Sie mit der Indexierung von Feiertagsseiten im September fuer Weihnachten, im Januar fuer den Valentinstag und im Februar fuer Ostern. Google braucht Zeit, um diese Seiten zu entdecken, zu crawlen und zu ranken. Seiten in letzter Minute zu erstellen bedeutet, dass Sie waehrend der Spitzennachfrage nur ueber bezahlte Suche konkurrieren.",
+          callout: {
+            title: "Saisonale Planung",
+            text: "Der Valentinstag-Content muss bis November ranken, nicht erst im Februar. Lebensmittel-SEO erfordert die laengste Vorlaufzeit aller E-Commerce-Branchen, da Rezept-Content 3-4 Monate zum Ranken braucht.",
+          },
         },
         {
           title: "Lokales SEO und lieferorientierte Optimierung",
@@ -190,6 +226,15 @@ export const foodBeverageSeo: AcademyTopic = {
             "Creer du contenu video de recettes pour YouTube et l'integrer sur les pages pour une visibilite double canal",
           ],
           tip: "Suivez quelles pages de recettes generent le plus d'ajouts au panier, pas seulement du trafic. Une page de recette avec 5 000 visites mensuelles et un taux d'ajout au panier de 3% a plus de valeur qu'une avec 20 000 visites et aucune conversion. Optimisez vos liens internes en faveur du contenu de recettes a forte conversion.",
+          image: {
+            src: "/images/academy/fr/food-recipe-content-funnel.svg",
+            alt: "Rezept-Content zu Produkt-Trichter: Von Rezeptsuche ueber Zutatenverlinkung zur Produktseite",
+            caption: "Rezept-Content baut thematische Autoritaet auf und verlinkt natuerlich auf Ihre Produkte fuer hoehere Konversion.",
+          },
+          callout: {
+            title: "Rezept-Content-Strategie",
+            text: "Rezepte mit Ihren Produkten als Zutaten erzeugen 3-5x mehr organischen Traffic als reine Produktseiten. Verlinken Sie jede Zutat direkt auf die entsprechende Produktseite fuer nahtlose Konversion.",
+          },
         },
         {
           title: "Optimisation des pages produit pour l'alimentaire et les boissons",
@@ -207,6 +252,15 @@ export const foodBeverageSeo: AcademyTopic = {
           content:
             "Le e-commerce alimentaire est profondement saisonnier. Les schemas de demande sont determines par les fetes, les celebrations culturelles, les cycles de recolte et meme la meteo. Un calendrier SEO bien planifie assure que vos pages sont indexees et positionnees avant chaque pic de demande plutot que de tenter de rattraper.\n\nCartographiez votre catalogue produit sur un calendrier saisonnier annuel complet. Paniers de Noel, chocolats de Paques, coffrets cadeaux Saint-Valentin, articles pour barbecue d'ete, coffrets Ramadan, chaque occasion represente un cluster de mots-cles distinct avec des pics de volume de recherche previsibles. Creez ou rafraichissez des pages d'atterrissage dediees au moins 8 a 10 semaines avant chaque evenement.\n\nConservez les URLs saisonnieres d'annee en annee. Une page a /paniers-noel-gourmands avec trois ans d'historique de backlinks et de signaux de classement surpassera largement une page nouvellement creee.\n\nCapitalisez sur les schemas de recherche lies a la meteo. Les recherches pour \"coffret chocolat chaud\" augmentent quand les temperatures baissent ; \"cafe cold brew\" culmine au printemps et en ete.\n\nCreez du contenu de guides cadeaux pour chaque grande occasion d'offrir des cadeaux. \"Meilleurs cadeaux gourmands pour les amateurs de cuisine,\" \"paniers cadeaux entreprise,\" \"cadeaux gourmands de pendaison de cremaillere\", ces requetes portent une forte intention commerciale.",
           tip: "Commencez l'indexation des pages festives en septembre pour Noel, en janvier pour la Saint-Valentin et en fevrier pour Paques. Google a besoin de temps pour decouvrir, explorer et classer ces pages. Creer des pages a la derniere minute signifie que vous ne concourrez que sur la recherche payante pendant le pic de demande.",
+          image: {
+            src: "/images/academy/fr/food-seasonal-calendar.svg",
+            alt: "Lebensmittel und Getraenke saisonaler SEO-Kalender mit acht Hauptsaisons und thematischen Content-Kategorien",
+            caption: "Planen Sie saisonalen Content 3 Monate im Voraus. Jede Saison bietet spezifische Keyword-Chancen.",
+          },
+          callout: {
+            title: "Saisonale Planung",
+            text: "Der Valentinstag-Content muss bis November ranken, nicht erst im Februar. Lebensmittel-SEO erfordert die laengste Vorlaufzeit aller E-Commerce-Branchen, da Rezept-Content 3-4 Monate zum Ranken braucht.",
+          },
         },
         {
           title: "SEO local et optimisation orientee livraison",
@@ -268,6 +322,15 @@ export const foodBeverageSeo: AcademyTopic = {
             "Crear contenido de video de recetas para YouTube e incrustarlo en las paginas para visibilidad en doble canal",
           ],
           tip: "Rastrea que paginas de recetas generan mas eventos de anadir al carrito, no solo trafico. Una pagina de receta con 5.000 visitas mensuales y una tasa de anadir al carrito del 3% es mas valiosa que una con 20.000 visitas y ninguna conversion. Optimiza tu enlazado interno para favorecer el contenido de recetas de alta conversion.",
+          image: {
+            src: "/images/academy/es/food-recipe-content-funnel.svg",
+            alt: "Rezept-Content zu Produkt-Trichter: Von Rezeptsuche ueber Zutatenverlinkung zur Produktseite",
+            caption: "Rezept-Content baut thematische Autoritaet auf und verlinkt natuerlich auf Ihre Produkte fuer hoehere Konversion.",
+          },
+          callout: {
+            title: "Rezept-Content-Strategie",
+            text: "Rezepte mit Ihren Produkten als Zutaten erzeugen 3-5x mehr organischen Traffic als reine Produktseiten. Verlinken Sie jede Zutat direkt auf die entsprechende Produktseite fuer nahtlose Konversion.",
+          },
         },
         {
           title: "Optimizacion de paginas de producto para alimentacion y bebidas",
@@ -285,6 +348,15 @@ export const foodBeverageSeo: AcademyTopic = {
           content:
             "El ecommerce alimentario es profundamente estacional. Los patrones de demanda estan impulsados por festividades, celebraciones culturales, ciclos de cosecha e incluso el clima. Un calendario SEO bien planificado asegura que tus paginas esten indexadas y posicionadas antes de cada pico de demanda en lugar de intentar ponerte al dia.\n\nMapea tu catalogo de productos a un calendario estacional anual completo. Cestas navidenas, chocolates de Pascua, cajas regalo de San Valentin, articulos para barbacoa de verano, paquetes de Ramadan, cada ocasion representa un cluster de palabras clave con picos de volumen de busqueda predecibles. Crea o actualiza paginas de aterrizaje dedicadas al menos 8-10 semanas antes de cada evento.\n\nManten las URLs estacionales ano tras ano. Una pagina en /cestas-navidenas-gourmet con tres anos de historial de backlinks y senales de posicionamiento superara ampliamente a una pagina recien creada.\n\nCapitaliza los patrones de busqueda basados en el clima. Las busquedas de \"set regalo chocolate caliente\" se disparan cuando bajan las temperaturas; \"cafe cold brew\" alcanza su maximo en primavera y verano.\n\nCrea contenido de guias de regalos para cada gran ocasion de regalar. \"Mejores regalos gourmet para amantes de la cocina,\" \"cestas regalo corporativas,\" \"regalos gourmet de inauguracion de casa\", estas consultas tienen alta intencion comercial.",
           tip: "Empieza a indexar paginas festivas en septiembre para Navidad, en enero para San Valentin y en febrero para Semana Santa. Google necesita tiempo para descubrir, rastrear y posicionar estas paginas. Crear paginas en el ultimo momento significa que solo competiras en busqueda de pago durante el pico de demanda.",
+          image: {
+            src: "/images/academy/es/food-seasonal-calendar.svg",
+            alt: "Lebensmittel und Getraenke saisonaler SEO-Kalender mit acht Hauptsaisons und thematischen Content-Kategorien",
+            caption: "Planen Sie saisonalen Content 3 Monate im Voraus. Jede Saison bietet spezifische Keyword-Chancen.",
+          },
+          callout: {
+            title: "Saisonale Planung",
+            text: "Der Valentinstag-Content muss bis November ranken, nicht erst im Februar. Lebensmittel-SEO erfordert die laengste Vorlaufzeit aller E-Commerce-Branchen, da Rezept-Content 3-4 Monate zum Ranken braucht.",
+          },
         },
         {
           title: "SEO local y optimizacion orientada a la entrega",
@@ -346,6 +418,15 @@ export const foodBeverageSeo: AcademyTopic = {
             "Creare contenuti video di ricette per YouTube e incorporarli nelle pagine per visibilita su doppio canale",
           ],
           tip: "Monitora quali pagine ricetta generano piu eventi di aggiunta al carrello, non solo traffico. Una pagina ricetta con 5.000 visite mensili e un tasso di aggiunta al carrello del 3% ha piu valore di una con 20.000 visite e nessuna conversione. Ottimizza i tuoi link interni a favore dei contenuti ricetta ad alta conversione.",
+          image: {
+            src: "/images/academy/it/food-recipe-content-funnel.svg",
+            alt: "Rezept-Content zu Produkt-Trichter: Von Rezeptsuche ueber Zutatenverlinkung zur Produktseite",
+            caption: "Rezept-Content baut thematische Autoritaet auf und verlinkt natuerlich auf Ihre Produkte fuer hoehere Konversion.",
+          },
+          callout: {
+            title: "Rezept-Content-Strategie",
+            text: "Rezepte mit Ihren Produkten als Zutaten erzeugen 3-5x mehr organischen Traffic als reine Produktseiten. Verlinken Sie jede Zutat direkt auf die entsprechende Produktseite fuer nahtlose Konversion.",
+          },
         },
         {
           title: "Ottimizzazione delle pagine prodotto per alimentari e bevande",
@@ -363,6 +444,15 @@ export const foodBeverageSeo: AcademyTopic = {
           content:
             "L'ecommerce alimentare e profondamente stagionale. I modelli di domanda sono guidati da festivita, celebrazioni culturali, cicli di raccolta e persino dal meteo. Un calendario SEO ben pianificato assicura che le tue pagine siano indicizzate e posizionate prima di ogni picco di domanda piuttosto che rincorrere il ritardo.\n\nMappa il tuo catalogo prodotti su un calendario stagionale annuale completo. Cesti natalizi, uova di Pasqua, confezioni regalo San Valentino, forniture per barbecue estivo, pacchetti Ramadan, ogni occasione rappresenta un cluster di parole chiave distinto con picchi di volume di ricerca prevedibili. Crea o aggiorna le landing page dedicate almeno 8-10 settimane prima di ogni evento.\n\nMantieni gli URL stagionali anno dopo anno. Una pagina su /cesti-natalizi-gourmet con tre anni di storico di backlink e segnali di posizionamento superera di gran lunga una pagina appena creata.\n\nCapitalizza sui modelli di ricerca guidati dal meteo. Le ricerche per \"set regalo cioccolata calda\" crescono quando le temperature calano; \"caffe cold brew\" raggiunge il picco in primavera e estate.\n\nCrea contenuti di guide regalo per ogni grande occasione di regalo. \"Migliori regali gourmet per appassionati di cucina,\" \"cesti regalo aziendali,\" \"regali gastronomici per inaugurazione casa\", queste query portano alta intenzione commerciale.",
           tip: "Inizia a indicizzare le pagine festive a settembre per Natale, a gennaio per San Valentino e a febbraio per Pasqua. Google ha bisogno di tempo per scoprire, scansionare e posizionare queste pagine. Creare pagine all'ultimo momento significa competere solo sulla ricerca a pagamento durante il picco di domanda.",
+          image: {
+            src: "/images/academy/it/food-seasonal-calendar.svg",
+            alt: "Lebensmittel und Getraenke saisonaler SEO-Kalender mit acht Hauptsaisons und thematischen Content-Kategorien",
+            caption: "Planen Sie saisonalen Content 3 Monate im Voraus. Jede Saison bietet spezifische Keyword-Chancen.",
+          },
+          callout: {
+            title: "Saisonale Planung",
+            text: "Der Valentinstag-Content muss bis November ranken, nicht erst im Februar. Lebensmittel-SEO erfordert die laengste Vorlaufzeit aller E-Commerce-Branchen, da Rezept-Content 3-4 Monate zum Ranken braucht.",
+          },
         },
         {
           title: "SEO locale e ottimizzazione orientata alla consegna",
@@ -424,6 +514,15 @@ export const foodBeverageSeo: AcademyTopic = {
             "Receptvideocontent maken voor YouTube en embedden op receptpagina's voor dubbele kanaalzichtbaarheid",
           ],
           tip: "Houd bij welke receptpagina's de meeste winkelwagen-events genereren, niet alleen verkeer. Een receptpagina met 5.000 maandelijkse bezoeken en een winkelwagen-percentage van 3% is waardevoller dan een met 20.000 bezoeken en geen conversies. Optimaliseer je interne links ten gunste van hoog-converterende receptcontent.",
+          image: {
+            src: "/images/academy/nl/food-recipe-content-funnel.svg",
+            alt: "Rezept-Content zu Produkt-Trichter: Von Rezeptsuche ueber Zutatenverlinkung zur Produktseite",
+            caption: "Rezept-Content baut thematische Autoritaet auf und verlinkt natuerlich auf Ihre Produkte fuer hoehere Konversion.",
+          },
+          callout: {
+            title: "Rezept-Content-Strategie",
+            text: "Rezepte mit Ihren Produkten als Zutaten erzeugen 3-5x mehr organischen Traffic als reine Produktseiten. Verlinken Sie jede Zutat direkt auf die entsprechende Produktseite fuer nahtlose Konversion.",
+          },
         },
         {
           title: "Productpagina-optimalisatie voor voeding en dranken",
@@ -441,6 +540,15 @@ export const foodBeverageSeo: AcademyTopic = {
           content:
             "Voedings-e-commerce is diep seizoensgebonden. Vraagpatronen worden gestuurd door feestdagen, culturele vieringen, oogstcycli en zelfs het weer. Een goed geplande SEO-kalender zorgt ervoor dat je pagina's geindexeerd en gerangschikt zijn voor elke vraagpiek in plaats van achter de feiten aan te lopen.\n\nBreng je productcatalogus in kaart op een volledig jaarlijks seizoenskalender. Kerstpakketten, paasrchocolade, Valentijnsdag cadeauboxen, zomer-barbecuebenodigdheden, Ramadanpakketten, elke gelegenheid vertegenwoordigt een apart zoekwoordcluster met voorspelbare zoekvolume-pieken. Maak of vernieuw speciale landingspagina's minstens 8-10 weken voor elk evenement.\n\nBehoud seizoens-URL's jaar na jaar. Een pagina op /kerst-geschenkpakketten met drie jaar backlink-historie en rankingsignalen presteert veel beter dan een nieuw aangemaakte pagina.\n\nBenut weergestuurde zoekpatronen. Zoekopdrachten naar \"warme chocolademelk cadeauset\" pieken wanneer temperaturen dalen; \"cold brew koffie\" piekt in lente en zomer.\n\nMaak cadeaugidscontent voor elke belangrijke cadeaugelegenheid. \"Beste foodcadeaus voor foodies,\" \"zakelijke geschenkmanden,\" \"gastronomische cadeaus voor housewarming\", deze queries dragen hoge commerciele intentie.",
           tip: "Begin met het indexeren van feestdagenpagina's in september voor Kerst, januari voor Valentijnsdag en februari voor Pasen. Google heeft tijd nodig om deze pagina's te ontdekken, te crawlen en te ranken. Pagina's op het laatste moment maken betekent dat je alleen concurreert op betaald zoeken tijdens de piekvraag.",
+          image: {
+            src: "/images/academy/nl/food-seasonal-calendar.svg",
+            alt: "Lebensmittel und Getraenke saisonaler SEO-Kalender mit acht Hauptsaisons und thematischen Content-Kategorien",
+            caption: "Planen Sie saisonalen Content 3 Monate im Voraus. Jede Saison bietet spezifische Keyword-Chancen.",
+          },
+          callout: {
+            title: "Saisonale Planung",
+            text: "Der Valentinstag-Content muss bis November ranken, nicht erst im Februar. Lebensmittel-SEO erfordert die laengste Vorlaufzeit aller E-Commerce-Branchen, da Rezept-Content 3-4 Monate zum Ranken braucht.",
+          },
         },
         {
           title: "Lokale SEO en bezorggerichte optimalisatie",

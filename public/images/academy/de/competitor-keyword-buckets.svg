@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 300" fill="none">
+  <text x="340" y="24" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="700" fill="#a78bfa">Wettbewerber-Keyword-Lücke: 4-Eimer-Framework</text>
+  <!-- Bucket 1 -->
+  <rect x="20" y="50" width="150" height="130" rx="8" stroke="#4ade80" stroke-width="1.5" fill="#4ade80" fill-opacity="0.08"/>
+  <text x="95" y="74" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="700" fill="#4ade80">Eimer 1</text>
+  <text x="95" y="92" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Seiten vorhanden,</text>
+  <text x="95" y="106" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">ranken nicht</text>
+  <line x1="40" y1="116" x2="150" y2="116" stroke="#4ade80" stroke-width="0.5" stroke-opacity="0.4"/>
+  <text x="95" y="134" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#94a3b8">Aktion: Titel, H1,</text>
+  <text x="95" y="148" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#94a3b8">Content optimieren</text>
+  <text x="95" y="168" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="600" fill="#4ade80">Schnellste Erfolge</text>
+  <!-- Bucket 2 -->
+  <rect x="185" y="50" width="150" height="130" rx="8" stroke="#60a5fa" stroke-width="1.5" fill="#60a5fa" fill-opacity="0.08"/>
+  <text x="260" y="74" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="700" fill="#60a5fa">Eimer 2</text>
+  <text x="260" y="92" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Keine Seiten,</text>
+  <text x="260" y="106" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">erstellen möglich</text>
+  <line x1="205" y1="116" x2="315" y2="116" stroke="#60a5fa" stroke-width="0.5" stroke-opacity="0.4"/>
+  <text x="260" y="134" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#94a3b8">Aktion: Neue Kategorie-</text>
+  <text x="260" y="148" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#94a3b8">/Produktseite erstellen</text>
+  <text x="260" y="168" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="600" fill="#60a5fa">3-6 Monate Ergebnis</text>
+  <!-- Bucket 3 -->
+  <rect x="350" y="50" width="150" height="130" rx="8" stroke="#f97316" stroke-width="1.5" fill="#f97316" fill-opacity="0.08"/>
+  <text x="425" y="74" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="700" fill="#f97316">Eimer 3</text>
+  <text x="425" y="92" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Neue Produkte</text>
+  <text x="425" y="106" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">nötig</text>
+  <line x1="370" y1="116" x2="480" y2="116" stroke="#f97316" stroke-width="0.5" stroke-opacity="0.4"/>
+  <text x="425" y="134" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#94a3b8">Aktion: Business-</text>
+  <text x="425" y="148" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#94a3b8">Intelligence-Input</text>
+  <text x="425" y="168" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="600" fill="#f97316">Sortimentsentscheidung</text>
+  <!-- Bucket 4 -->
+  <rect x="515" y="50" width="145" height="130" rx="8" stroke="#94a3b8" stroke-width="1.5" fill="#94a3b8" fill-opacity="0.05"/>
+  <text x="588" y="74" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="700" fill="#94a3b8">Eimer 4</text>
+  <text x="588" y="92" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Nicht</text>
+  <text x="588" y="106" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">lohnenswert</text>
+  <line x1="535" y1="116" x2="640" y2="116" stroke="#94a3b8" stroke-width="0.5" stroke-opacity="0.4"/>
+  <text x="588" y="134" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#94a3b8">Aktion: Überspringen</text>
+  <text x="588" y="148" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#94a3b8">falsche Positionierung</text>
+  <text x="588" y="168" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#94a3b8">oder Markt</text>
+  <!-- Bottom annotation -->
+  <rect x="100" y="210" width="480" height="36" rx="6" fill="#a78bfa" fill-opacity="0.06" stroke="#a78bfa" stroke-width="1"/>
+  <text x="340" y="233" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#e2e8f0">Eimer 1 &amp; 2 enthalten <tspan font-weight="700" fill="#a78bfa">80% der umsetzbaren Chancen</tspan></text>
+  <text x="340" y="280" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#94a3b8">Führen Sie die Gap-Analyse pro Wettbewerber einzeln durch. Vierteljährlich wiederholen.</text>
+</svg>

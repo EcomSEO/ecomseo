@@ -1,0 +1,50 @@
+<svg viewBox="0 0 680 300" xmlns="http://www.w3.org/2000/svg" fill="none" font-family="Arial,sans-serif">
+  <text x="340" y="24" text-anchor="middle" fill="#a78bfa" font-size="14" font-weight="bold">Ecommerce Homepage SEO Anatomy</text>
+  <!-- Browser frame -->
+  <rect x="120" y="44" width="440" height="240" rx="8" fill="#0f0f1a" stroke="#334155" stroke-width="1.5"/>
+  <circle cx="142" cy="58" r="4" fill="#ef4444" opacity="0.6"/>
+  <circle cx="156" cy="58" r="4" fill="#f97316" opacity="0.6"/>
+  <circle cx="170" cy="58" r="4" fill="#4ade80" opacity="0.6"/>
+  <rect x="200" y="52" width="280" height="14" rx="4" fill="#1e1e2e"/>
+  <text x="340" y="62" text-anchor="middle" fill="#94a3b8" font-size="8">yourstore.com</text>
+  <!-- Title tag -->
+  <rect x="136" y="72" width="408" height="20" rx="4" fill="#a78bfa" opacity="0.12" stroke="#a78bfa" stroke-width="0.8"/>
+  <text x="340" y="86" text-anchor="middle" fill="#a78bfa" font-size="9">Title Tag: Brand | Primary Category + Value Prop (50-60 chars)</text>
+  <!-- Nav bar -->
+  <rect x="136" y="96" width="408" height="18" rx="3" fill="#1e1e2e" stroke="#334155" stroke-width="0.5"/>
+  <text x="180" y="108" text-anchor="middle" fill="#60a5fa" font-size="8">Women's</text>
+  <text x="240" y="108" text-anchor="middle" fill="#60a5fa" font-size="8">Men's</text>
+  <text x="296" y="108" text-anchor="middle" fill="#60a5fa" font-size="8">Kids</text>
+  <text x="350" y="108" text-anchor="middle" fill="#60a5fa" font-size="8">Sale</text>
+  <text x="410" y="108" text-anchor="middle" fill="#94a3b8" font-size="7">Keyword-rich nav labels</text>
+  <!-- Hero area -->
+  <rect x="136" y="118" width="408" height="60" rx="4" fill="#1e1e2e" stroke="#334155" stroke-width="0.5"/>
+  <text x="260" y="140" fill="#e2e8f0" font-size="11" font-weight="bold">H1: Primary keyword heading</text>
+  <text x="260" y="156" fill="#94a3b8" font-size="9">2-3 sentences describing store focus</text>
+  <text x="260" y="168" fill="#94a3b8" font-size="9">+ product range</text>
+  <rect x="460" y="128" width="70" height="40" rx="4" fill="#334155"/>
+  <text x="495" y="152" text-anchor="middle" fill="#94a3b8" font-size="8">Hero img</text>
+  <!-- Category links -->
+  <text x="146" y="196" fill="#4ade80" font-size="9" font-weight="bold">Shop by Category</text>
+  <rect x="136" y="200" width="96" height="24" rx="4" fill="#4ade80" opacity="0.1" stroke="#4ade80" stroke-width="0.6"/>
+  <text x="184" y="216" text-anchor="middle" fill="#4ade80" font-size="8">Running Shoes</text>
+  <rect x="240" y="200" width="96" height="24" rx="4" fill="#4ade80" opacity="0.1" stroke="#4ade80" stroke-width="0.6"/>
+  <text x="288" y="216" text-anchor="middle" fill="#4ade80" font-size="8">Trail Shoes</text>
+  <rect x="344" y="200" width="96" height="24" rx="4" fill="#4ade80" opacity="0.1" stroke="#4ade80" stroke-width="0.6"/>
+  <text x="392" y="216" text-anchor="middle" fill="#4ade80" font-size="8">Sneakers</text>
+  <rect x="448" y="200" width="96" height="24" rx="4" fill="#4ade80" opacity="0.1" stroke="#4ade80" stroke-width="0.6"/>
+  <text x="496" y="216" text-anchor="middle" fill="#4ade80" font-size="8">Kids' Shoes</text>
+  <!-- Schema -->
+  <rect x="136" y="232" width="200" height="40" rx="4" fill="#f97316" opacity="0.08" stroke="#f97316" stroke-width="0.6"/>
+  <text x="146" y="248" fill="#f97316" font-size="8" font-weight="bold">Schema Markup</text>
+  <text x="146" y="260" fill="#94a3b8" font-size="7">Organization + WebSite + SearchAction</text>
+  <!-- Annotations outside -->
+  <line x1="94" y1="82" x2="134" y2="82" stroke="#a78bfa" stroke-width="0.8" stroke-dasharray="3 2"/>
+  <text x="90" y="86" text-anchor="end" fill="#a78bfa" font-size="8">1</text>
+  <line x1="94" y1="148" x2="134" y2="148" stroke="#a78bfa" stroke-width="0.8" stroke-dasharray="3 2"/>
+  <text x="90" y="152" text-anchor="end" fill="#a78bfa" font-size="8">2</text>
+  <line x1="94" y1="212" x2="134" y2="212" stroke="#a78bfa" stroke-width="0.8" stroke-dasharray="3 2"/>
+  <text x="90" y="216" text-anchor="end" fill="#a78bfa" font-size="8">3</text>
+  <line x1="94" y1="252" x2="134" y2="252" stroke="#a78bfa" stroke-width="0.8" stroke-dasharray="3 2"/>
+  <text x="90" y="256" text-anchor="end" fill="#a78bfa" font-size="8">4</text>
+</svg>

@@ -1,0 +1,29 @@
+<svg viewBox="0 0 680 300" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <text x="340" y="28" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#a78bfa">Out-of-Stock Product Decision Flow</text>
+  <g transform="translate(250,48)">
+    <rect x="0" y="0" width="180" height="40" rx="6" stroke="#a78bfa" stroke-width="2" fill="none"/>
+    <text x="90" y="25" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#a78bfa">Product unavailable</text>
+  </g>
+  <line x1="340" y1="88" x2="340" y2="108" stroke="#a78bfa" stroke-width="1" stroke-dasharray="4"/>
+  <text x="340" y="120" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#e2e8f0">Will it return?</text>
+  <line x1="200" y1="130" x2="200" y2="155" stroke="#4ade80" stroke-width="1" stroke-dasharray="4"/>
+  <line x1="480" y1="130" x2="480" y2="155" stroke="#f97316" stroke-width="1" stroke-dasharray="4"/>
+  <text x="200" y="145" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#4ade80">YES</text>
+  <text x="480" y="145" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#f97316">NO</text>
+  <g transform="translate(80,160)">
+    <rect x="0" y="0" width="240" height="110" rx="6" stroke="#4ade80" stroke-width="2" fill="none"/>
+    <text x="120" y="22" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#4ade80">Keep Page Live</text>
+    <text x="15" y="44" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Schema: OutOfStock</text>
+    <text x="15" y="62" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Show "temporarily unavailable"</text>
+    <text x="15" y="80" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Add email notification signup</text>
+    <text x="15" y="98" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Suggest similar products</text>
+  </g>
+  <g transform="translate(370,160)">
+    <rect x="0" y="0" width="240" height="110" rx="6" stroke="#f97316" stroke-width="2" fill="none"/>
+    <text x="120" y="22" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#f97316">301 Redirect</text>
+    <text x="15" y="44" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Direct successor? Redirect there</text>
+    <text x="15" y="62" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">No successor? Parent category</text>
+    <text x="15" y="80" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Never redirect to homepage</text>
+    <text x="15" y="98" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Never return 404</text>
+  </g>
+</svg>

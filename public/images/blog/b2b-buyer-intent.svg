@@ -1,0 +1,48 @@
+<svg viewBox="0 0 680 280" xmlns="http://www.w3.org/2000/svg" fill="none" font-family="Arial,sans-serif">
+  <text x="340" y="24" text-anchor="middle" fill="#a78bfa" font-size="14" font-weight="bold">B2B vs B2C Buyer Journey in Search</text>
+  <!-- B2C row -->
+  <text x="52" y="60" fill="#e2e8f0" font-size="11" font-weight="bold">B2C</text>
+  <rect x="96" y="46" width="120" height="28" rx="6" fill="#60a5fa" opacity="0.2" stroke="#60a5fa" stroke-width="1"/>
+  <text x="156" y="64" text-anchor="middle" fill="#e2e8f0" font-size="10">Search</text>
+  <line x1="216" y1="60" x2="244" y2="60" stroke="#60a5fa" stroke-width="1"/>
+  <polygon points="244,60 238,56 238,64" fill="#60a5fa"/>
+  <rect x="248" y="46" width="120" height="28" rx="6" fill="#60a5fa" opacity="0.2" stroke="#60a5fa" stroke-width="1"/>
+  <text x="308" y="64" text-anchor="middle" fill="#e2e8f0" font-size="10">Compare</text>
+  <line x1="368" y1="60" x2="396" y2="60" stroke="#60a5fa" stroke-width="1"/>
+  <polygon points="396,60 390,56 390,64" fill="#60a5fa"/>
+  <rect x="400" y="46" width="120" height="28" rx="6" fill="#4ade80" opacity="0.2" stroke="#4ade80" stroke-width="1"/>
+  <text x="460" y="64" text-anchor="middle" fill="#4ade80" font-size="10">Purchase</text>
+  <text x="580" y="64" fill="#94a3b8" font-size="10">~15 min</text>
+  <!-- B2B row -->
+  <text x="52" y="116" fill="#e2e8f0" font-size="11" font-weight="bold">B2B</text>
+  <rect x="52" y="132" width="90" height="28" rx="6" fill="#a78bfa" opacity="0.15" stroke="#a78bfa" stroke-width="1"/>
+  <text x="97" y="150" text-anchor="middle" fill="#e2e8f0" font-size="9">Spec Search</text>
+  <line x1="142" y1="146" x2="156" y2="146" stroke="#a78bfa" stroke-width="1"/>
+  <polygon points="156,146 151,143 151,149" fill="#a78bfa"/>
+  <rect x="160" y="132" width="90" height="28" rx="6" fill="#a78bfa" opacity="0.15" stroke="#a78bfa" stroke-width="1"/>
+  <text x="205" y="150" text-anchor="middle" fill="#e2e8f0" font-size="9">Compliance</text>
+  <line x1="250" y1="146" x2="264" y2="146" stroke="#a78bfa" stroke-width="1"/>
+  <polygon points="264,146 259,143 259,149" fill="#a78bfa"/>
+  <rect x="268" y="132" width="90" height="28" rx="6" fill="#a78bfa" opacity="0.15" stroke="#a78bfa" stroke-width="1"/>
+  <text x="313" y="150" text-anchor="middle" fill="#e2e8f0" font-size="9">Vendor Eval</text>
+  <line x1="358" y1="146" x2="372" y2="146" stroke="#a78bfa" stroke-width="1"/>
+  <polygon points="372,146 367,143 367,149" fill="#a78bfa"/>
+  <rect x="376" y="132" width="90" height="28" rx="6" fill="#a78bfa" opacity="0.15" stroke="#a78bfa" stroke-width="1"/>
+  <text x="421" y="150" text-anchor="middle" fill="#e2e8f0" font-size="9">Approval</text>
+  <line x1="466" y1="146" x2="480" y2="146" stroke="#a78bfa" stroke-width="1"/>
+  <polygon points="480,146 475,143 475,149" fill="#a78bfa"/>
+  <rect x="484" y="132" width="90" height="28" rx="6" fill="#4ade80" opacity="0.2" stroke="#4ade80" stroke-width="1"/>
+  <text x="529" y="150" text-anchor="middle" fill="#4ade80" font-size="9">RFQ / PO</text>
+  <text x="600" y="150" fill="#94a3b8" font-size="10">~weeks</text>
+  <!-- Comparison metrics -->
+  <rect x="52" y="186" width="280" height="80" rx="8" fill="#1e1e2e" stroke="#334155" stroke-width="1"/>
+  <text x="192" y="206" text-anchor="middle" fill="#a78bfa" font-size="11" font-weight="bold">B2B Search Characteristics</text>
+  <text x="68" y="226" fill="#e2e8f0" font-size="10">Lower volume, higher order value</text>
+  <text x="68" y="244" fill="#e2e8f0" font-size="10">Technical + compliance queries</text>
+  <text x="68" y="262" fill="#e2e8f0" font-size="10">50x-500x higher AOV than B2C</text>
+  <rect x="352" y="186" width="280" height="80" rx="8" fill="#1e1e2e" stroke="#334155" stroke-width="1"/>
+  <text x="492" y="206" text-anchor="middle" fill="#4ade80" font-size="11" font-weight="bold">Content Needed Per Stage</text>
+  <text x="368" y="226" fill="#e2e8f0" font-size="10">Datasheets + spec pages</text>
+  <text x="368" y="244" fill="#e2e8f0" font-size="10">Compliance docs + certifications</text>
+  <text x="368" y="262" fill="#e2e8f0" font-size="10">Case studies + comparison guides</text>
+</svg>

@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 340" fill="none">
+  <text x="340" y="24" text-anchor="middle" fill="#a78bfa" font-family="Arial,sans-serif" font-size="14" font-weight="700">Internal Link Autoridad Distribution</text>
+
+  <!-- Página principal -->
+  <rect x="260" y="44" width="160" height="38" rx="8" fill="#1e1e3a" stroke="#4ade80" stroke-width="2"/>
+  <text x="340" y="67" text-anchor="middle" fill="#4ade80" font-family="Arial,sans-serif" font-size="11" font-weight="700">Página principal</text>
+
+  <!-- Autoridad score label -->
+  <rect x="430" y="48" width="80" height="28" rx="4" fill="#4ade80" fill-opacity="0.1"/>
+  <text x="470" y="66" text-anchor="middle" fill="#4ade80" font-family="Arial,sans-serif" font-size="10" font-weight="600">Autoridad: 100</text>
+
+  <!-- Arrows to categories -->
+  <line x1="290" y1="82" x2="160" y2="120" stroke="#4ade80" stroke-width="1.5"/>
+  <line x1="340" y1="82" x2="340" y2="120" stroke="#4ade80" stroke-width="1.5"/>
+  <line x1="390" y1="82" x2="520" y2="120" stroke="#4ade80" stroke-width="1.5"/>
+
+  <!-- Categorías -->
+  <rect x="80" y="120" width="160" height="32" rx="6" fill="#1a1a2e" stroke="#60a5fa" stroke-width="1.5"/>
+  <text x="160" y="140" text-anchor="middle" fill="#e2e8f0" font-family="Arial,sans-serif" font-size="10">Shoes Categoría</text>
+  <text x="160" y="164" text-anchor="middle" fill="#60a5fa" font-family="Arial,sans-serif" font-size="8">Autoridad: 45</text>
+
+  <rect x="260" y="120" width="160" height="32" rx="6" fill="#1a1a2e" stroke="#60a5fa" stroke-width="1.5"/>
+  <text x="340" y="140" text-anchor="middle" fill="#e2e8f0" font-family="Arial,sans-serif" font-size="10">Clothing Categoría</text>
+  <text x="340" y="164" text-anchor="middle" fill="#60a5fa" font-family="Arial,sans-serif" font-size="8">Autoridad: 40</text>
+
+  <rect x="440" y="120" width="160" height="32" rx="6" fill="#1a1a2e" stroke="#60a5fa" stroke-width="1.5"/>
+  <text x="520" y="140" text-anchor="middle" fill="#e2e8f0" font-family="Arial,sans-serif" font-size="10">Gear Categoría</text>
+  <text x="520" y="164" text-anchor="middle" fill="#60a5fa" font-family="Arial,sans-serif" font-size="8">Autoridad: 35</text>
+
+  <!-- Producto comparison -->
+  <line x1="120" y1="152" x2="90" y2="200" stroke="#475569" stroke-width="1"/>
+  <line x1="200" y1="152" x2="230" y2="200" stroke="#475569" stroke-width="1"/>
+
+  <!-- Well-linked product -->
+  <rect x="30" y="200" width="120" height="50" rx="5" fill="#1a1a2e" stroke="#4ade80" stroke-width="1.5"/>
+  <text x="90" y="218" text-anchor="middle" fill="#e2e8f0" font-family="Arial,sans-serif" font-size="9" font-weight="600">Producto A</text>
+  <text x="90" y="232" text-anchor="middle" fill="#4ade80" font-family="Arial,sans-serif" font-size="8">12 internal links</text>
+  <text x="90" y="244" text-anchor="middle" fill="#4ade80" font-family="Arial,sans-serif" font-size="8">Autoridad: 25</text>
+
+  <!-- Pobrely-linked product -->
+  <rect x="170" y="200" width="120" height="50" rx="5" fill="#1a1a2e" stroke="#ef4444" stroke-width="1.5"/>
+  <text x="230" y="218" text-anchor="middle" fill="#e2e8f0" font-family="Arial,sans-serif" font-size="9" font-weight="600">Producto B</text>
+  <text x="230" y="232" text-anchor="middle" fill="#ef4444" font-family="Arial,sans-serif" font-size="8">2 internal links</text>
+  <text x="230" y="244" text-anchor="middle" fill="#ef4444" font-family="Arial,sans-serif" font-size="8">Autoridad: 5</text>
+
+  <!-- Link sources for Producto A -->
+  <rect x="380" y="195" width="270" height="90" rx="6" fill="#1a1a2e" stroke="#334155" stroke-width="1"/>
+  <text x="515" y="214" text-anchor="middle" fill="#e2e8f0" font-family="Arial,sans-serif" font-size="10" font-weight="600">Producto A link sources (12 total)</text>
+  <text x="400" y="232" fill="#94a3b8" font-family="Arial,sans-serif" font-size="9">Página principal featured section</text>
+  <text x="400" y="246" fill="#94a3b8" font-family="Arial,sans-serif" font-size="9">Página de categoría + 2 related product sections</text>
+  <text x="400" y="260" fill="#94a3b8" font-family="Arial,sans-serif" font-size="9">3 blog posts + buying guide</text>
+  <text x="400" y="274" fill="#94a3b8" font-family="Arial,sans-serif" font-size="9">Migas de pan + navigation (4 links)</text>
+
+  <!-- Arrow from list to product A -->
+  <line x1="380" y1="240" x2="150" y2="225" stroke="#4ade80" stroke-width="0.8" stroke-dasharray="4,3"/>
+
+  <!-- Bottom comparison -->
+  <rect x="80" y="300" width="520" height="28" rx="5" fill="#1a1a2e" stroke="#334155" stroke-width="1"/>
+  <text x="340" y="318" text-anchor="middle" fill="#e2e8f0" font-family="Arial,sans-serif" font-size="9">Producto A ranks position #3 for its target keyword  |  Producto B ranks position #38</text>
+</svg>

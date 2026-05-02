@@ -1,0 +1,33 @@
+<svg viewBox="0 0 420 190" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <text x="210" y="22" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#a78bfa">Cadencia de sprints SEO System</text>
+  <g transform="translate(20,40)">
+    <rect width="120" height="70" rx="8" fill="#4ade80" fill-opacity="0.1" stroke="#4ade80" stroke-width="1.5"/>
+    <text x="60" y="20" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#4ade80">Semanaly Sprint</text>
+    <text x="60" y="36" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">3-5 tasks</text>
+    <text x="60" y="48" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Tácticaal execution</text>
+    <text x="60" y="60" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Clear owners</text>
+  </g>
+  <line x1="148" y1="75" x2="158" y2="75" stroke="#94a3b8" stroke-width="1.5"/>
+  <polygon points="156,71 164,75 156,79" fill="#94a3b8"/>
+  <g transform="translate(164,40)">
+    <rect width="120" height="70" rx="8" fill="#60a5fa" fill-opacity="0.1" stroke="#60a5fa" stroke-width="1.5"/>
+    <text x="60" y="20" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#60a5fa">Monthly Revisar</text>
+    <text x="60" y="36" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">30-min assessment</text>
+    <text x="60" y="48" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Re-prioritize backlog</text>
+    <text x="60" y="60" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Check early signals</text>
+  </g>
+  <line x1="292" y1="75" x2="302" y2="75" stroke="#94a3b8" stroke-width="1.5"/>
+  <polygon points="300,71 308,75 300,79" fill="#94a3b8"/>
+  <g transform="translate(308,40)">
+    <rect width="100" height="70" rx="8" fill="#a78bfa" fill-opacity="0.1" stroke="#a78bfa" stroke-width="1.5"/>
+    <text x="50" y="20" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#a78bfa">Quarterly Plan</text>
+    <text x="50" y="36" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Strategic themes</text>
+    <text x="50" y="48" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Growth gaps</text>
+    <text x="50" y="60" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Budget alignment</text>
+  </g>
+  <g transform="translate(20,130)">
+    <rect width="388" height="48" rx="6" fill="#f97316" fill-opacity="0.08" stroke="#f97316" stroke-width="1"/>
+    <text x="194" y="18" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#f97316">Typical Semanaly Sprint</text>
+    <text x="194" y="36" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">10 title tags + 1 buying guide + 5 tech fixes + sitemap update</text>
+  </g>
+</svg>

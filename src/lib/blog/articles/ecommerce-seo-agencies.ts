@@ -3,7 +3,7 @@ import type { BlogArticle } from "../types";
 export const ecommerceSeoAgencies: BlogArticle = {
   slug: "ecommerce-seo-agencies",
   category: "services",
-  publishDate: "2025-06-15",
+  publishDate: "2026-03-20",
   readingTime: 11,
   author: "Fabian van Til",
   authorRole: "CEO at EcomSEO",
@@ -21,7 +21,7 @@ export const ecommerceSeoAgencies: BlogArticle = {
             "Most SEO agencies are generalists. They work with law firms, SaaS companies, restaurants, and ecommerce stores all at once. The problem is that ecommerce SEO has specific challenges that generalists often handle poorly.",
             "A generalist agency might write great blog content but have no idea how to handle a Shopify store with 12,000 products generating 80,000 crawlable URLs through faceted navigation. They might know how to build links for a B2B company but struggle to create linkable content for an online store selling pet supplies.",
             "We have rebuilt strategies from scratch for clients who spent 12 to 18 months with generalist agencies. In one case, a kitchenware brand had been paying an agency $4,000 per month for a year. The agency optimized blog posts, built some links, and sent monthly reports. They never touched the 8,400 product pages that had duplicate title tags, never fixed the canonical tag issues on category filter pages, and never addressed the 3,200 soft 404 errors. Organic traffic was flat the entire time.",
-            "When we took over, we started with the technical issues. Within four months, indexed pages increased by 40% and organic revenue grew by 28%. The difference was not talent. It was ecommerce-specific experience. Our [technical SEO service](/technical-seo) covers the platform-level issues that most generalist agencies miss."
+            "When we took over, we started with the technical issues. Within four months, indexed pages increased by 40% and organic revenue grew by 28%. The difference was not talent. It was ecommerce-specific experience. Our [technical SEO service](/ecommerce-seo-services) covers the platform-level issues that most generalist agencies miss."
           ],
         },
         {
@@ -33,6 +33,7 @@ export const ecommerceSeoAgencies: BlogArticle = {
             "Revenue orientation is the third indicator. The best ecommerce SEO agencies think in terms of revenue, not just traffic or rankings. They should talk about conversion rates, average order values, and revenue per session. When they prioritize keywords, they should factor in commercial intent and purchase likelihood, not just search volume.",
             "Familiarity with ecommerce-specific technical challenges rounds out the list. Faceted navigation, product variant URLs, out-of-stock page management, seasonal inventory changes, structured data for products, and international multi-store setups are all ecommerce-specific issues that require specialized knowledge."
           ],
+          image: { src: "/images/blog/agency-expertise-comparison.svg", alt: "Side-by-side comparison of generalist versus ecommerce specialist SEO agency capabilities and focus areas", caption: "Ecommerce stores need specialists who understand platform, product, and purchase intent." },
         },
         {
           heading: "Questions to ask during the vetting process",
@@ -44,6 +45,8 @@ export const ecommerceSeoAgencies: BlogArticle = {
             "Ask: how do you build links for ecommerce sites? This is hard to do well for online stores. Product pages rarely attract organic links. The agency should describe strategies like creating linkable content (guides, tools, original research), leveraging supplier and manufacturer relationships, digital PR, and broken link building. If their link building strategy is guest posting on generic blogs, the links will have minimal impact. For context on what a strong ecommerce off-page strategy looks like, read our guide on [off-page SEO for ecommerce](/blog/off-page-seo-for-ecommerce).",
             "Ask: what is your reporting process and what metrics do you prioritize? Revenue, organic traffic segmented by page type, conversion rate, and ranking progress should all be mentioned. If their reporting focuses on domain authority growth or number of links built without tying to business metrics, their priorities are misaligned with yours."
           ],
+          image: { src: "/images/blog/agency-vetting-process.svg", alt: "Four-step agency vetting process from research to final evaluation", caption: "A structured vetting process narrows 5-8 candidates to your ideal agency partner" },
+          callout: { title: "Key Vetting Question", text: "Ask agencies how they handle seasonal inventory changes. This single question tests real ecommerce experience -- generic SEO agencies rarely have processes for out-of-stock products or seasonal category pages." },
         },
         {
           heading: "Evaluating portfolios and case studies",
@@ -77,6 +80,8 @@ export const ecommerceSeoAgencies: BlogArticle = {
             "Reporting should be transparent and comprehensible. If you receive a report full of jargon that you cannot understand, the agency is not communicating well. Reports should explain what happened, why it matters, and what comes next in plain language. Data should be visualized clearly with year-over-year comparisons to account for seasonality.",
             "Set expectations about response times for different request types. A broken page returning 500 errors needs same-day attention. A question about keyword strategy can wait a few days. Having these expectations aligned prevents frustration on both sides."
           ],
+          image: { src: "/images/blog/agency-communication-framework.svg", alt: "Agency communication framework showing cadence levels by tier and key questions to ask before signing", caption: "Establish communication expectations before signing -- it is the #1 reason relationships break down" },
+          callout: { title: "Meet Your Contact", text: "Many agencies use senior people for sales but hand you off to a junior account manager. Ask to meet the person who will actually manage your account before you commit." },
         },
         {
           heading: "How to measure your agency's performance",
@@ -88,6 +93,7 @@ export const ecommerceSeoAgencies: BlogArticle = {
             "Technical health metrics should improve quickly. Indexation rates, crawl errors, and Core Web Vitals should show measurable improvement within the first two to three months. These are leading indicators that the foundation is being fixed.",
             "The metric that ties everything together is organic revenue as a share of total revenue. A good ecommerce SEO agency should move this number upward over time, reducing your dependence on paid channels and improving your overall marketing efficiency. We target a minimum of 30% organic revenue share for our clients within the first 18 months."
           ],
+          image: { src: "/images/blog/agency-performance-kpis.svg", alt: "Agency performance KPIs organized by timeline from months 1-2 through month 7 plus showing expected deliverables", caption: "Expect technical wins early, revenue impact from month 5 onward." },
         },
         {
           heading: "Warning signs after you have started working together",
@@ -100,6 +106,7 @@ export const ecommerceSeoAgencies: BlogArticle = {
             "Opacity about link building. If you ask where your backlinks are coming from and the agency is evasive or reluctant to share, they may be using tactics that could hurt you. Every link built should be disclosed and defensible. You should be able to look at each linking site and feel comfortable that it is a legitimate, relevant source.",
             "If you see multiple warning signs, raise them directly with the agency. A good agency will acknowledge the issues and fix them. If they get defensive or dismissive, start planning your exit. If you are considering switching to a solo expert instead, read our guide on [working with an ecommerce SEO consultant](/blog/ecommerce-seo-consultant) to understand the tradeoffs.",
           ],
+          callout: { title: "Exit Planning", text: "If reports are consistently late, recommendations look generic, and the agency cannot show where your backlinks come from, start planning your exit. A good agency acknowledges problems and fixes them -- defensive responses confirm the red flags." },
         },
       ],
     },
@@ -113,7 +120,7 @@ export const ecommerceSeoAgencies: BlogArticle = {
             "La mayoría de las agencias de SEO son generalistas. Trabajan con bufetes de abogados, empresas SaaS, restaurantes y tiendas de ecommerce al mismo tiempo. El problema es que el SEO para ecommerce tiene desafíos específicos que los generalistas suelen manejar mal.",
             "Una agencia generalista podría escribir un gran contenido de blog pero no tener idea de cómo manejar una tienda Shopify con 12.000 productos que generan 80.000 URLs rastreables a través de navegación facetada. Podrían saber cómo construir enlaces para una empresa B2B pero tener dificultades para crear contenido enlazable para una tienda online que vende artículos para mascotas.",
             "Hemos reconstruido estrategias desde cero para clientes que pasaron 12 a 18 meses con agencias generalistas. En un caso, una marca de utensilios de cocina había estado pagando a una agencia 4.000 dólares al mes durante un año. La agencia optimizó publicaciones de blog, construyó algunos enlaces y envió informes mensuales. Nunca tocaron las 8.400 páginas de productos que tenían title tags duplicados, nunca corrigieron los problemas de canonical tags en las páginas de filtros de categorías, y nunca abordaron los 3.200 errores soft 404. El tráfico orgánico se mantuvo estancado todo el tiempo.",
-            "Cuando tomamos el control, empezamos con los problemas técnicos. En cuatro meses, las páginas indexadas aumentaron un 40% y los ingresos orgánicos crecieron un 28%. La diferencia no fue el talento. Fue la experiencia específica en ecommerce. Nuestro [servicio de SEO técnico](/technical-seo) cubre los problemas a nivel de plataforma que la mayoría de las agencias generalistas pasan por alto."
+            "Cuando tomamos el control, empezamos con los problemas técnicos. En cuatro meses, las páginas indexadas aumentaron un 40% y los ingresos orgánicos crecieron un 28%. La diferencia no fue el talento. Fue la experiencia específica en ecommerce. Nuestro [servicio de SEO técnico](/ecommerce-seo-services) cubre los problemas a nivel de plataforma que la mayoría de las agencias generalistas pasan por alto."
           ],
         },
         {
@@ -125,6 +132,7 @@ export const ecommerceSeoAgencies: BlogArticle = {
             "La orientación a los ingresos es el tercer indicador. Las mejores agencias de SEO para ecommerce piensan en términos de ingresos, no solo de tráfico o rankings. Deben hablar de tasas de conversión, valores medios de pedido e ingresos por sesión. Cuando priorizan keywords, deben considerar la intención comercial y la probabilidad de compra, no solo el volumen de búsqueda.",
             "La familiaridad con los desafíos técnicos específicos del ecommerce completa la lista. Navegación facetada, URLs de variantes de productos, gestión de páginas agotadas, cambios estacionales de inventario, datos estructurados para productos y configuraciones internacionales multi-tienda son todos problemas específicos del ecommerce que requieren conocimiento especializado."
           ],
+          image: { src: "/images/blog/es/agency-expertise-comparison.svg", alt: "Side-by-side comparison of generalist versus ecommerce specialist SEO agency capabilities and focus areas", caption: "Ecommerce stores need specialists who understand platform, product, and purchase intent." },
         },
         {
           heading: "Preguntas para hacer durante el proceso de evaluación",
@@ -136,6 +144,8 @@ export const ecommerceSeoAgencies: BlogArticle = {
             "Pregunta: ¿cómo construís enlaces para sitios de ecommerce? Esto es difícil de hacer bien para tiendas online. Las páginas de productos rara vez atraen enlaces orgánicos. La agencia debe describir estrategias como crear contenido enlazable (guías, herramientas, investigación original), aprovechar relaciones con proveedores y fabricantes, relaciones públicas digitales y construcción de enlaces rotos. Si su estrategia de link building es publicar artículos como invitado en blogs genéricos, los enlaces tendrán un impacto mínimo. Para contexto sobre cómo es una estrategia sólida de off-page para ecommerce, lee nuestra guía sobre [SEO off-page para ecommerce](/blog/off-page-seo-for-ecommerce).",
             "Pregunta: ¿cuál es vuestro proceso de informes y qué métricas priorizáis? Los ingresos, el tráfico orgánico segmentado por tipo de página, la tasa de conversión y el progreso en rankings deben mencionarse. Si sus informes se centran en el crecimiento de la autoridad de dominio o el número de enlaces construidos sin vincularlos a métricas comerciales, sus prioridades no están alineadas con las tuyas."
           ],
+          image: { src: "/images/blog/es/agency-vetting-process.svg", alt: "Four-step agency vetting process from research to final evaluation", caption: "A structured vetting process narrows 5-8 candidates to your ideal agency partner" },
+          callout: { title: "Key Vetting Question", text: "Ask agencies how they handle seasonal inventory changes. This single question tests real ecommerce experience -- generic SEO agencies rarely have processes for out-of-stock products or seasonal category pages." },
         },
         {
           heading: "Evaluación de portfolios y casos de estudio",
@@ -169,6 +179,8 @@ export const ecommerceSeoAgencies: BlogArticle = {
             "Los informes deben ser transparentes y comprensibles. Si recibes un informe lleno de jerga que no puedes entender, la agencia no se está comunicando bien. Los informes deben explicar qué ocurrió, por qué importa y qué viene a continuación en un lenguaje claro. Los datos deben visualizarse claramente con comparaciones interanuales para tener en cuenta la estacionalidad.",
             "Establece expectativas sobre los tiempos de respuesta para diferentes tipos de solicitudes. Una página rota que devuelve errores 500 necesita atención en el mismo día. Una pregunta sobre estrategia de keywords puede esperar unos días. Tener estas expectativas alineadas previene la frustración en ambos lados."
           ],
+          image: { src: "/images/blog/es/agency-communication-framework.svg", alt: "Agency communication framework showing cadence levels by tier and key questions to ask before signing", caption: "Establish communication expectations before signing -- it is the #1 reason relationships break down" },
+          callout: { title: "Meet Your Contact", text: "Many agencies use senior people for sales but hand you off to a junior account manager. Ask to meet the person who will actually manage your account before you commit." },
         },
         {
           heading: "Cómo medir el rendimiento de tu agencia",
@@ -180,6 +192,7 @@ export const ecommerceSeoAgencies: BlogArticle = {
             "Las métricas de salud técnica deben mejorar rápidamente. Las tasas de indexación, los errores de rastreo y los Core Web Vitals deben mostrar una mejora medible en los primeros dos a tres meses. Estos son indicadores adelantados de que la base se está corrigiendo.",
             "La métrica que une todo es los ingresos orgánicos como porcentaje de los ingresos totales. Una buena agencia de SEO para ecommerce debe mover este número al alza con el tiempo, reduciendo tu dependencia de los canales de pago y mejorando tu eficiencia general de marketing. Nosotros apuntamos a un mínimo del 30% de cuota de ingresos orgánicos para nuestros clientes en los primeros 18 meses."
           ],
+          image: { src: "/images/blog/es/agency-performance-kpis.svg", alt: "Agency performance KPIs organized by timeline from months 1-2 through month 7 plus showing expected deliverables", caption: "Expect technical wins early, revenue impact from month 5 onward." },
         },
         {
           heading: "Señales de alarma después de empezar a trabajar juntos",
@@ -205,7 +218,7 @@ export const ecommerceSeoAgencies: BlogArticle = {
             "Die meisten SEO-Agenturen sind Generalisten. Sie arbeiten gleichzeitig mit Anwaltskanzleien, SaaS-Unternehmen, Restaurants und Onlineshops. Das Problem ist, dass Ecommerce SEO spezifische Herausforderungen hat, die Generalisten oft schlecht bewaeltigen.",
             "Eine Generalistenagentur mag grossartigen Blog-Content schreiben, aber keine Ahnung haben, wie sie einen Shopify-Shop mit 12.000 Produkten und 80.000 crawlbaren URLs durch facettierte Navigation handhabt. Sie mag wissen, wie man Links fuer ein B2B-Unternehmen aufbaut, aber Schwierigkeiten haben, verlinkbaren Content fuer einen Onlineshop zu erstellen, der Tierbedarf verkauft.",
             "Wir haben Strategien von Grund auf neu aufgebaut fuer Kunden, die 12 bis 18 Monate mit Generalistenagenturen verbracht hatten. In einem Fall hatte eine Kuechenartikelmarke 12 Monate lang einer Agentur 4.000 Dollar pro Monat gezahlt. Die Agentur optimierte Blogbeitraege, baute einige Links auf und schickte monatliche Berichte. Sie haben nie die 8.400 Produktseiten mit doppelten Title Tags angefasst, nie die Canonical-Tag-Probleme auf Kategorie-Filterseiten behoben und nie die 3.200 Soft-404-Fehler adressiert. Der organische Traffic war die ganze Zeit ueber flach.",
-            "Als wir uebernahmen, begannen wir mit den technischen Problemen. Innerhalb von vier Monaten stiegen die indexierten Seiten um 40% und der organische Umsatz wuchs um 28%. Der Unterschied war nicht Talent. Es war Ecommerce-spezifische Erfahrung. Unser [technischer SEO-Service](/technical-seo) deckt die plattformspezifischen Probleme ab, die die meisten Generalistenagenturen uebersehen."
+            "Als wir uebernahmen, begannen wir mit den technischen Problemen. Innerhalb von vier Monaten stiegen die indexierten Seiten um 40% und der organische Umsatz wuchs um 28%. Der Unterschied war nicht Talent. Es war Ecommerce-spezifische Erfahrung. Unser [technischer SEO-Service](/ecommerce-seo-services) deckt die plattformspezifischen Probleme ab, die die meisten Generalistenagenturen uebersehen."
           ],
         },
         {
@@ -217,6 +230,7 @@ export const ecommerceSeoAgencies: BlogArticle = {
             "Umsatzorientierung ist der dritte Indikator. Die besten Ecommerce-SEO-Agenturen denken in Umsatz, nicht nur in Traffic oder Rankings. Sie sollten ueber Conversion Rates, durchschnittliche Bestellwerte und Umsatz pro Sitzung sprechen. Wenn sie Keywords priorisieren, sollten sie kommerzielle Absicht und Kaufwahrscheinlichkeit einbeziehen, nicht nur Suchvolumen.",
             "Vertrautheit mit Ecommerce-spezifischen technischen Herausforderungen rundet die Liste ab. Facettierte Navigation, Produktvarianten-URLs, Verwaltung ausverkaufter Seiten, saisonale Bestandsaenderungen, strukturierte Daten fuer Produkte und internationale Multi-Store-Setups sind alles Ecommerce-spezifische Themen, die Spezialwissen erfordern."
           ],
+          image: { src: "/images/blog/de/agency-expertise-comparison.svg", alt: "Side-by-side comparison of generalist versus ecommerce specialist SEO agency capabilities and focus areas", caption: "Ecommerce stores need specialists who understand platform, product, and purchase intent." },
         },
         {
           heading: "Fragen, die Sie im Pruefprozess stellen sollten",
@@ -228,6 +242,8 @@ export const ecommerceSeoAgencies: BlogArticle = {
             "Fragen Sie: Wie bauen Sie Links fuer Ecommerce-Seiten auf? Das ist fuer Onlineshops schwer gut zu machen. Produktseiten ziehen selten organische Links an. Die Agentur sollte Strategien beschreiben wie die Erstellung verlinkbarer Inhalte (Leitfaeden, Tools, Originalrecherche), die Nutzung von Lieferanten- und Herstellerbeziehungen, Digital PR und Broken Link Building. Wenn ihre Linkbuilding-Strategie Gastbeitraege auf generischen Blogs ist, werden die Links minimalen Einfluss haben. Fuer Kontext, wie eine starke Ecommerce-Off-Page-Strategie aussieht, lesen Sie unseren Leitfaden zu [Off-Page SEO fuer Ecommerce](/blog/off-page-seo-for-ecommerce).",
             "Fragen Sie: Was ist Ihr Reporting-Prozess und welche Kennzahlen priorisieren Sie? Umsatz, organischer Traffic segmentiert nach Seitentyp, Conversion Rate und Ranking-Fortschritt sollten alle erwaehnt werden. Wenn sich ihr Reporting auf das Wachstum der Domain Authority oder die Anzahl aufgebauter Links konzentriert, ohne dies an Geschaeftskennzahlen zu koppeln, sind ihre Prioritaeten nicht mit Ihren abgestimmt."
           ],
+          image: { src: "/images/blog/de/agency-vetting-process.svg", alt: "Four-step agency vetting process from research to final evaluation", caption: "A structured vetting process narrows 5-8 candidates to your ideal agency partner" },
+          callout: { title: "Key Vetting Question", text: "Ask agencies how they handle seasonal inventory changes. This single question tests real ecommerce experience -- generic SEO agencies rarely have processes for out-of-stock products or seasonal category pages." },
         },
         {
           heading: "Portfolios und Fallstudien bewerten",
@@ -261,6 +277,8 @@ export const ecommerceSeoAgencies: BlogArticle = {
             "Reporting sollte transparent und verstaendlich sein. Wenn Sie einen Bericht voller Fachjargon erhalten, den Sie nicht verstehen koennen, kommuniziert die Agentur schlecht. Berichte sollten erklaeren, was passiert ist, warum es wichtig ist und was als Naechstes kommt – in klarer Sprache. Daten sollten uebersichtlich visualisiert werden mit Jahresvergleichen, um Saisonalitaet zu beruecksichtigen.",
             "Setzen Sie Erwartungen bezueglich der Antwortzeiten fuer verschiedene Anfragentypen. Eine defekte Seite, die 500-Fehler zurueckgibt, braucht Aufmerksamkeit am selben Tag. Eine Frage zur Keyword-Strategie kann ein paar Tage warten. Wenn diese Erwartungen abgestimmt sind, vermeidet man Frustration auf beiden Seiten."
           ],
+          image: { src: "/images/blog/de/agency-communication-framework.svg", alt: "Agency communication framework showing cadence levels by tier and key questions to ask before signing", caption: "Establish communication expectations before signing -- it is the #1 reason relationships break down" },
+          callout: { title: "Meet Your Contact", text: "Many agencies use senior people for sales but hand you off to a junior account manager. Ask to meet the person who will actually manage your account before you commit." },
         },
         {
           heading: "So messen Sie die Leistung Ihrer Agentur",
@@ -272,6 +290,7 @@ export const ecommerceSeoAgencies: BlogArticle = {
             "Technische Gesundheitskennzahlen sollten sich schnell verbessern. Indexierungsraten, Crawl-Fehler und Core Web Vitals sollten innerhalb der ersten zwei bis drei Monate messbare Verbesserungen zeigen. Dies sind Fruehindikatoren, dass die Grundlagen repariert werden.",
             "Die Kennzahl, die alles zusammenbringt, ist der organische Umsatz als Anteil am Gesamtumsatz. Eine gute Ecommerce-SEO-Agentur sollte diese Zahl im Laufe der Zeit nach oben bewegen und Ihre Abhaengigkeit von bezahlten Kanaelen reduzieren und Ihre gesamte Marketingeffizienz verbessern. Wir streben einen Mindestanteil von 30% organischem Umsatz fuer unsere Kunden innerhalb der ersten 18 Monate an."
           ],
+          image: { src: "/images/blog/de/agency-performance-kpis.svg", alt: "Agency performance KPIs organized by timeline from months 1-2 through month 7 plus showing expected deliverables", caption: "Expect technical wins early, revenue impact from month 5 onward." },
         },
         {
           heading: "Warnsignale nach Beginn der Zusammenarbeit",
@@ -297,7 +316,7 @@ export const ecommerceSeoAgencies: BlogArticle = {
             "La plupart des agences SEO sont généralistes. Elles travaillent avec des cabinets d'avocats, des entreprises SaaS, des restaurants et des boutiques ecommerce en même temps. Le problème est que le SEO ecommerce a des défis spécifiques que les généralistes gèrent souvent mal.",
             "Une agence généraliste pourrait rédiger d'excellents contenus de blog mais n'avoir aucune idée de la façon de gérer une boutique Shopify avec 12 000 produits générant 80 000 URL crawlables via la navigation à facettes. Elle pourrait savoir construire des liens pour une entreprise B2B mais avoir du mal à créer du contenu linkable pour une boutique en ligne vendant des fournitures pour animaux.",
             "Nous avons reconstruit des stratégies de zéro pour des clients qui avaient passé 12 à 18 mois avec des agences généralistes. Dans un cas, une marque d'ustensiles de cuisine payait une agence 4 000 € par mois depuis un an. L'agence optimisait des articles de blog, construisait quelques liens et envoyait des rapports mensuels. Elle n'avait jamais touché aux 8 400 pages produits qui avaient des balises title dupliquées, n'avait jamais corrigé les problèmes de balises canonical sur les pages de filtres de catégories, et n'avait jamais traité les 3 200 erreurs soft 404. Le trafic organique était resté stable pendant toute cette période.",
-            "Quand nous avons pris le relais, nous avons commencé par les problèmes techniques. En quatre mois, les pages indexées ont augmenté de 40 % et le chiffre d'affaires organique a progressé de 28 %. La différence n'était pas le talent. C'était l'expérience spécifique au ecommerce. Notre [service de SEO technique](/technical-seo) couvre les problèmes au niveau de la plateforme que la plupart des agences généralistes manquent."
+            "Quand nous avons pris le relais, nous avons commencé par les problèmes techniques. En quatre mois, les pages indexées ont augmenté de 40 % et le chiffre d'affaires organique a progressé de 28 %. La différence n'était pas le talent. C'était l'expérience spécifique au ecommerce. Notre [service de SEO technique](/ecommerce-seo-services) couvre les problèmes au niveau de la plateforme que la plupart des agences généralistes manquent."
           ],
         },
         {
@@ -309,6 +328,7 @@ export const ecommerceSeoAgencies: BlogArticle = {
             "L'orientation vers le chiffre d'affaires est le troisième indicateur. Les meilleures agences SEO ecommerce raisonnent en termes de chiffre d'affaires, pas seulement de trafic ou de classements. Elles devraient parler de taux de conversion, de paniers moyens et de revenu par session. Quand elles priorisent les mots-clés, elles devraient tenir compte de l'intention commerciale et de la probabilité d'achat, pas seulement du volume de recherche.",
             "La familiarité avec les défis techniques spécifiques au ecommerce complète la liste. La navigation à facettes, les URL de variantes produits, la gestion des pages de produits épuisés, les changements d'inventaire saisonniers, les données structurées pour les produits et les configurations internationales multi-boutiques sont autant de problèmes spécifiques au ecommerce qui nécessitent des connaissances spécialisées."
           ],
+          image: { src: "/images/blog/fr/agency-expertise-comparison.svg", alt: "Side-by-side comparison of generalist versus ecommerce specialist SEO agency capabilities and focus areas", caption: "Ecommerce stores need specialists who understand platform, product, and purchase intent." },
         },
         {
           heading: "Questions à poser pendant le processus de vérification",
@@ -320,6 +340,8 @@ export const ecommerceSeoAgencies: BlogArticle = {
             "Demandez : comment construisez-vous des liens pour les sites ecommerce ? C'est difficile à bien faire pour les boutiques en ligne. Les pages produits attirent rarement des liens organiques. L'agence devrait décrire des stratégies comme la création de contenu linkable (guides, outils, recherches originales), l'exploitation des relations fournisseurs et fabricants, les RP digitales et la construction de liens cassés. Si leur stratégie de link building consiste à publier des articles invités sur des blogs génériques, les liens auront un impact minimal. Pour en savoir plus sur ce à quoi ressemble une solide stratégie off-page ecommerce, lisez notre guide sur le [SEO off-page pour le ecommerce](/blog/off-page-seo-for-ecommerce).",
             "Demandez : quel est votre processus de reporting et quelles métriques priorisez-vous ? Le chiffre d'affaires, le trafic organique segmenté par type de page, le taux de conversion et la progression des classements devraient tous être mentionnés. Si leur reporting se concentre sur la croissance de l'autorité de domaine ou le nombre de liens construits sans lien avec les métriques business, leurs priorités ne sont pas alignées avec les vôtres."
           ],
+          image: { src: "/images/blog/fr/agency-vetting-process.svg", alt: "Four-step agency vetting process from research to final evaluation", caption: "A structured vetting process narrows 5-8 candidates to your ideal agency partner" },
+          callout: { title: "Key Vetting Question", text: "Ask agencies how they handle seasonal inventory changes. This single question tests real ecommerce experience -- generic SEO agencies rarely have processes for out-of-stock products or seasonal category pages." },
         },
         {
           heading: "Évaluer les portfolios et les études de cas",
@@ -353,6 +375,8 @@ export const ecommerceSeoAgencies: BlogArticle = {
             "Le reporting devrait être transparent et compréhensible. Si vous recevez un rapport plein de jargon que vous ne pouvez pas comprendre, l'agence ne communique pas bien. Les rapports devraient expliquer ce qui s'est passé, pourquoi c'est important et ce qui vient ensuite en langage clair. Les données devraient être visualisées clairement avec des comparaisons d'une année sur l'autre pour tenir compte de la saisonnalité.",
             "Définissez des attentes sur les temps de réponse pour différents types de demandes. Une page cassée retournant des erreurs 500 nécessite une attention le jour même. Une question sur la stratégie de mots-clés peut attendre quelques jours. Avoir ces attentes alignées évite la frustration des deux côtés."
           ],
+          image: { src: "/images/blog/fr/agency-communication-framework.svg", alt: "Agency communication framework showing cadence levels by tier and key questions to ask before signing", caption: "Establish communication expectations before signing -- it is the #1 reason relationships break down" },
+          callout: { title: "Meet Your Contact", text: "Many agencies use senior people for sales but hand you off to a junior account manager. Ask to meet the person who will actually manage your account before you commit." },
         },
         {
           heading: "Comment mesurer la performance de votre agence",
@@ -364,6 +388,7 @@ export const ecommerceSeoAgencies: BlogArticle = {
             "Les métriques de santé technique devraient s'améliorer rapidement. Les taux d'indexation, les erreurs de crawl et les Core Web Vitals devraient montrer une amélioration mesurable dans les deux à trois premiers mois. Ce sont des indicateurs avancés que les fondations sont en cours de correction.",
             "La métrique qui lie tout ensemble est le chiffre d'affaires organique en part du chiffre d'affaires total. Une bonne agence SEO ecommerce devrait faire progresser ce chiffre au fil du temps, réduisant votre dépendance aux canaux payants et améliorant l'efficacité globale de votre marketing. Nous visons un minimum de 30 % de part de chiffre d'affaires organique pour nos clients dans les 18 premiers mois."
           ],
+          image: { src: "/images/blog/fr/agency-performance-kpis.svg", alt: "Agency performance KPIs organized by timeline from months 1-2 through month 7 plus showing expected deliverables", caption: "Expect technical wins early, revenue impact from month 5 onward." },
         },
         {
           heading: "Signaux d'alerte après le début de la collaboration",
@@ -389,7 +414,7 @@ export const ecommerceSeoAgencies: BlogArticle = {
             "La maggior parte delle agenzie SEO sono generaliste. Lavorano con studi legali, aziende SaaS, ristoranti e negozi ecommerce contemporaneamente. Il problema è che la SEO ecommerce ha sfide specifiche che i generalisti spesso gestiscono male.",
             "Un'agenzia generalista potrebbe scrivere ottimi contenuti per il blog ma non avere idea di come gestire un negozio Shopify con 12.000 prodotti che genera 80.000 URL scansionabili attraverso la navigazione a faccette. Potrebbe sapere come costruire link per un'azienda B2B ma avere difficoltà a creare contenuti linkabili per un negozio online che vende articoli per animali.",
             "Abbiamo ricostruito strategie da zero per clienti che avevano trascorso 12-18 mesi con agenzie generaliste. In un caso, un brand di articoli per la cucina pagava un'agenzia 4.000 dollari al mese da un anno. L'agenzia ottimizzava articoli del blog, costruiva qualche link e inviava report mensili. Non avevano mai toccato le 8.400 pagine prodotto con title tag duplicati, mai risolto i problemi dei tag canonical sulle pagine filtro delle categorie, e mai affrontato i 3.200 errori soft 404. Il traffico organico era rimasto stagnante per tutto il tempo.",
-            "Quando abbiamo preso in carico, abbiamo iniziato con i problemi tecnici. Entro quattro mesi, le pagine indicizzate sono aumentate del 40% e il fatturato organico è cresciuto del 28%. La differenza non era il talento. Era l'esperienza specifica nell'ecommerce. Il nostro [servizio di SEO tecnica](/technical-seo) copre i problemi a livello di piattaforma che la maggior parte delle agenzie generaliste non coglie."
+            "Quando abbiamo preso in carico, abbiamo iniziato con i problemi tecnici. Entro quattro mesi, le pagine indicizzate sono aumentate del 40% e il fatturato organico è cresciuto del 28%. La differenza non era il talento. Era l'esperienza specifica nell'ecommerce. Il nostro [servizio di SEO tecnica](/ecommerce-seo-services) copre i problemi a livello di piattaforma che la maggior parte delle agenzie generaliste non coglie."
           ],
         },
         {
@@ -401,6 +426,7 @@ export const ecommerceSeoAgencies: BlogArticle = {
             "L'orientamento al fatturato è il terzo indicatore. Le migliori agenzie SEO ecommerce ragionano in termini di fatturato, non solo di traffico o posizionamenti. Dovrebbero parlare di tassi di conversione, valore medio dell'ordine e fatturato per sessione. Quando danno priorità alle parole chiave, dovrebbero considerare l'intento commerciale e la probabilità di acquisto, non solo il volume di ricerca.",
             "La familiarità con le sfide tecniche specifiche dell'ecommerce completa la lista. Navigazione a faccette, URL delle varianti prodotto, gestione delle pagine esaurite, cambiamenti stagionali dell'inventario, dati strutturati per i prodotti e configurazioni internazionali multi-negozio sono tutti problemi specifici dell'ecommerce che richiedono conoscenze specializzate."
           ],
+          image: { src: "/images/blog/it/agency-expertise-comparison.svg", alt: "Side-by-side comparison of generalist versus ecommerce specialist SEO agency capabilities and focus areas", caption: "Ecommerce stores need specialists who understand platform, product, and purchase intent." },
         },
         {
           heading: "Domande da porre durante il processo di valutazione",
@@ -412,6 +438,8 @@ export const ecommerceSeoAgencies: BlogArticle = {
             "Chiedi: come costruite link per i siti ecommerce? Questo è difficile da fare bene per i negozi online. Le pagine prodotto raramente attraggono link organici. L'agenzia dovrebbe descrivere strategie come la creazione di contenuti linkabili (guide, strumenti, ricerche originali), lo sfruttamento delle relazioni con fornitori e produttori, le PR digitali e il broken link building. Se la loro strategia di link building è il guest posting su blog generici, i link avranno un impatto minimo. Per un contesto su come appare una forte strategia off-page ecommerce, leggi la nostra guida sulla [SEO off-page per l'ecommerce](/blog/off-page-seo-for-ecommerce).",
             "Chiedi: qual è il vostro processo di reportistica e quali metriche prioritizzate? Fatturato, traffico organico segmentato per tipo di pagina, tasso di conversione e progressi nel posizionamento dovrebbero essere tutti menzionati. Se la loro reportistica si concentra sulla crescita dell'autorità del dominio o sul numero di link costruiti senza collegarsi alle metriche aziendali, le loro priorità non sono allineate con le tue."
           ],
+          image: { src: "/images/blog/it/agency-vetting-process.svg", alt: "Four-step agency vetting process from research to final evaluation", caption: "A structured vetting process narrows 5-8 candidates to your ideal agency partner" },
+          callout: { title: "Key Vetting Question", text: "Ask agencies how they handle seasonal inventory changes. This single question tests real ecommerce experience -- generic SEO agencies rarely have processes for out-of-stock products or seasonal category pages." },
         },
         {
           heading: "Valutare portfolio e case study",
@@ -445,6 +473,8 @@ export const ecommerceSeoAgencies: BlogArticle = {
             "La reportistica dovrebbe essere trasparente e comprensibile. Se ricevi un report pieno di gergo che non riesci a capire, l'agenzia non sta comunicando bene. I report dovrebbero spiegare cosa è successo, perché è importante e cosa viene dopo in un linguaggio chiaro. I dati dovrebbero essere visualizzati chiaramente con confronti anno su anno per tenere conto della stagionalità.",
             "Stabilisci aspettative sui tempi di risposta per diversi tipi di richieste. Una pagina rotta che restituisce errori 500 ha bisogno di attenzione in giornata. Una domanda sulla strategia delle parole chiave può aspettare qualche giorno. Avere queste aspettative allineate previene frustrazioni da entrambe le parti."
           ],
+          image: { src: "/images/blog/it/agency-communication-framework.svg", alt: "Agency communication framework showing cadence levels by tier and key questions to ask before signing", caption: "Establish communication expectations before signing -- it is the #1 reason relationships break down" },
+          callout: { title: "Meet Your Contact", text: "Many agencies use senior people for sales but hand you off to a junior account manager. Ask to meet the person who will actually manage your account before you commit." },
         },
         {
           heading: "Come misurare le prestazioni della tua agenzia",
@@ -456,6 +486,7 @@ export const ecommerceSeoAgencies: BlogArticle = {
             "Le metriche di salute tecnica dovrebbero migliorare rapidamente. Tassi di indicizzazione, errori di scansione e Core Web Vitals dovrebbero mostrare miglioramenti misurabili entro i primi due-tre mesi. Questi sono indicatori anticipatori che le fondamenta si stanno sistemando.",
             "La metrica che collega tutto è il fatturato organico come quota del fatturato totale. Una buona agenzia SEO ecommerce dovrebbe spostare questo numero verso l'alto nel tempo, riducendo la tua dipendenza dai canali a pagamento e migliorando l'efficienza complessiva del marketing. Puntiamo a un minimo del 30% di quota di fatturato organico per i nostri clienti entro i primi 18 mesi."
           ],
+          image: { src: "/images/blog/it/agency-performance-kpis.svg", alt: "Agency performance KPIs organized by timeline from months 1-2 through month 7 plus showing expected deliverables", caption: "Expect technical wins early, revenue impact from month 5 onward." },
         },
         {
           heading: "Segnali d'allarme dopo aver iniziato a lavorare insieme",
@@ -481,7 +512,7 @@ export const ecommerceSeoAgencies: BlogArticle = {
             "De meeste SEO-bureaus zijn generalisten. Ze werken met advocatenkantoren, SaaS-bedrijven, restaurants en webwinkels tegelijk. Het probleem is dat ecommerce SEO specifieke uitdagingen heeft die generalisten vaak slecht aanpakken.",
             "Een generalistisch bureau schrijft misschien geweldige blogcontent maar heeft geen idee hoe ze een Shopify winkel met 12.000 producten moeten aanpakken die 80.000 crawlbare URL's genereert via gefacetteerde navigatie. Ze weten misschien hoe ze links moeten bouwen voor een B2B-bedrijf maar worstelen met het creeren van linkbare content voor een webwinkel die dierbenodigdheden verkoopt.",
             "We hebben strategieen van nul af opnieuw opgebouwd voor klanten die 12 tot 18 maanden met generalistische bureaus werkten. In een geval had een keukenwarenmerk een bureau 4.000 euro per maand betaald gedurende een jaar. Het bureau optimaliseerde blogposts, bouwde wat links en stuurde maandelijkse rapporten. Ze raakten nooit de 8.400 productpagina's met dubbele title tags aan, losten nooit de canonical tag problemen op categoriefilterpagina's op, en adresseerden nooit de 3.200 soft 404 fouten. Organisch verkeer was het hele jaar vlak.",
-            "Toen wij het overnamen, begonnen we met de technische problemen. Binnen vier maanden stegen geindexeerde pagina's met 40% en organische omzet groeide met 28%. Het verschil was geen talent. Het was ecommerce-specifieke ervaring. Onze [technische SEO service](/technical-seo) dekt de platform-level problemen die de meeste generalistische bureaus missen.",
+            "Toen wij het overnamen, begonnen we met de technische problemen. Binnen vier maanden stegen geindexeerde pagina's met 40% en organische omzet groeide met 28%. Het verschil was geen talent. Het was ecommerce-specifieke ervaring. Onze [technische SEO service](/ecommerce-seo-services) dekt de platform-level problemen die de meeste generalistische bureaus missen.",
           ],
         },
         {
@@ -493,6 +524,7 @@ export const ecommerceSeoAgencies: BlogArticle = {
             "Omzetorientatie is de derde indicator. De beste ecommerce SEO-bureaus denken in termen van omzet, niet alleen verkeer of rankings. Ze moeten praten over conversiepercentages, gemiddelde bestelwaarden en omzet per sessie. Wanneer ze zoekwoorden prioriteren, moeten ze commerciele intentie en aankoopwaarschijnlijkheid meewegen, niet alleen zoekvolume.",
             "Vertrouwdheid met ecommerce-specifieke technische uitdagingen maakt de lijst compleet. Gefacetteerde navigatie, productvariant-URL's, beheer van uitverkochte pagina's, seizoensinventariswijzigingen, structured data voor producten en internationale multi-store opstellingen zijn allemaal ecommerce-specifieke kwesties die gespecialiseerde kennis vereisen.",
           ],
+          image: { src: "/images/blog/nl/agency-expertise-comparison.svg", alt: "Side-by-side comparison of generalist versus ecommerce specialist SEO agency capabilities and focus areas", caption: "Ecommerce stores need specialists who understand platform, product, and purchase intent." },
         },
         {
           heading: "Vragen om te stellen tijdens het screeningsproces",
@@ -504,6 +536,8 @@ export const ecommerceSeoAgencies: BlogArticle = {
             "Vraag: hoe bouwen jullie links voor ecommerce sites? Dit is moeilijk goed te doen voor webwinkels. Productpagina's trekken zelden organische links aan. Het bureau moet strategieen beschrijven zoals het creeren van linkbare content (gidsen, tools, origineel onderzoek), het benutten van leveranciers- en fabrikantrelaties, digitale PR en broken link building. Als hun linkbuildingstrategie gastartikelen op generieke blogs is, zullen de links minimale impact hebben. Voor context over hoe een sterke ecommerce off-page strategie eruitziet, lees onze gids over [off-page SEO voor ecommerce](/blog/off-page-seo-for-ecommerce).",
             "Vraag: wat is jullie rapportageproces en welke metrics prioriteren jullie? Omzet, organisch verkeer gesegmenteerd per paginatype, conversiepercentage en rankingsvoortgang moeten allemaal worden genoemd. Als hun rapportage zich richt op domeinautoriteitsgroei of aantal gebouwde links zonder koppeling aan bedrijfsmetrics, zijn hun prioriteiten niet afgestemd op die van jou.",
           ],
+          image: { src: "/images/blog/nl/agency-vetting-process.svg", alt: "Four-step agency vetting process from research to final evaluation", caption: "A structured vetting process narrows 5-8 candidates to your ideal agency partner" },
+          callout: { title: "Key Vetting Question", text: "Ask agencies how they handle seasonal inventory changes. This single question tests real ecommerce experience -- generic SEO agencies rarely have processes for out-of-stock products or seasonal category pages." },
         },
         {
           heading: "Portfolio's en casestudy's evalueren",
@@ -537,6 +571,8 @@ export const ecommerceSeoAgencies: BlogArticle = {
             "Rapportage moet transparant en begrijpelijk zijn. Als je een rapport ontvangt vol jargon dat je niet begrijpt, communiceert het bureau niet goed. Rapporten moeten in eenvoudige taal uitleggen wat er is gebeurd, waarom het ertoe doet en wat er nu komt. Data moet duidelijk gevisualiseerd worden met jaar-over-jaar vergelijkingen om seizoensinvloeden mee te nemen.",
             "Stel verwachtingen vast over responstijden voor verschillende soorten verzoeken. Een kapotte pagina die 500-fouten retourneert heeft aandacht op dezelfde dag nodig. Een vraag over zoekwoordstrategie kan een paar dagen wachten. Deze verwachtingen afstemmen voorkomt frustratie aan beide kanten.",
           ],
+          image: { src: "/images/blog/nl/agency-communication-framework.svg", alt: "Agency communication framework showing cadence levels by tier and key questions to ask before signing", caption: "Establish communication expectations before signing -- it is the #1 reason relationships break down" },
+          callout: { title: "Meet Your Contact", text: "Many agencies use senior people for sales but hand you off to a junior account manager. Ask to meet the person who will actually manage your account before you commit." },
         },
         {
           heading: "Hoe je de prestaties van je bureau meet",
@@ -548,6 +584,7 @@ export const ecommerceSeoAgencies: BlogArticle = {
             "Technische gezondheidsmetrics moeten snel verbeteren. Indexatiepercentages, crawlfouten en Core Web Vitals moeten meetbare verbetering tonen binnen de eerste twee tot drie maanden. Dit zijn leidende indicatoren dat het fundament wordt gerepareerd.",
             "De metric die alles samenbrengt is organische omzet als aandeel van totale omzet. Een goed ecommerce SEO-bureau moet dit getal in de loop van de tijd omhoog bewegen, waardoor je afhankelijkheid van betaalde kanalen vermindert en je algehele marketingefficiency verbetert. We richten op minimaal 30% organische omzet als aandeel voor onze klanten binnen de eerste 18 maanden.",
           ],
+          image: { src: "/images/blog/nl/agency-performance-kpis.svg", alt: "Agency performance KPIs organized by timeline from months 1-2 through month 7 plus showing expected deliverables", caption: "Expect technical wins early, revenue impact from month 5 onward." },
         },
         {
           heading: "Waarschuwingssignalen nadat je bent gaan samenwerken",
@@ -560,6 +597,7 @@ export const ecommerceSeoAgencies: BlogArticle = {
             "Ondoorzichtigheid over linkbuilding. Als je vraagt waar je backlinks vandaan komen en het bureau ontwijkend is of terughoudend om te delen, gebruiken ze mogelijk tactieken die je kunnen schaden. Elke gebouwde link moet worden onthuld en verdedigbaar zijn. Je zou naar elke linkende site moeten kunnen kijken en je comfortabel moeten voelen dat het een legitieme, relevante bron is.",
             "Als je meerdere waarschuwingssignalen ziet, breng ze dan direct ter sprake bij het bureau. Een goed bureau zal de problemen erkennen en oplossen. Als ze defensief of afwijzend worden, begin dan je vertrek te plannen. Als je overweegt over te stappen naar een solo expert, lees dan onze gids over [werken met een ecommerce SEO consultant](/blog/ecommerce-seo-consultant) om de afwegingen te begrijpen.",
           ],
+          callout: { title: "Exit Planning", text: "If reports are consistently late, recommendations look generic, and the agency cannot show where your backlinks come from, start planning your exit. A good agency acknowledges problems and fixes them -- defensive responses confirm the red flags." },
         },
       ],
     },

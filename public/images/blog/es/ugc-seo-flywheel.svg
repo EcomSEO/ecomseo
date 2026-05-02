@@ -1,0 +1,36 @@
+<svg viewBox="0 0 680 340" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <text x="340" y="28" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#a78bfa">UGC SEO Flywheel</text>
+  <!-- Center circle -->
+  <circle cx="340" cy="185" r="40" fill="#a78bfa" opacity="0.15" stroke="#a78bfa" stroke-width="1.5"/>
+  <text x="340" y="182" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#a78bfa">More</text>
+  <text x="340" y="196" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#a78bfa">Revenue</text>
+  <!-- Outer nodes -->
+  <circle cx="340" cy="65" r="35" fill="#60a5fa" opacity="0.15" stroke="#60a5fa" stroke-width="1.5"/>
+  <text x="340" y="62" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#60a5fa">Reviews</text>
+  <text x="340" y="75" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#60a5fa">+ Q&amp;A</text>
+  <circle cx="530" cy="145" r="35" fill="#4ade80" opacity="0.15" stroke="#4ade80" stroke-width="1.5"/>
+  <text x="530" y="142" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#4ade80">Fresh</text>
+  <text x="530" y="155" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#4ade80">Content</text>
+  <circle cx="530" cy="250" r="35" fill="#f97316" opacity="0.15" stroke="#f97316" stroke-width="1.5"/>
+  <text x="530" y="247" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#f97316">Long-tail</text>
+  <text x="530" y="260" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#f97316">Rankings</text>
+  <circle cx="340" cy="310" r="35" fill="#ef4444" opacity="0.15" stroke="#ef4444" stroke-width="1.5"/>
+  <text x="340" y="307" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#ef4444">More</text>
+  <text x="340" y="320" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#ef4444">Traffic</text>
+  <circle cx="150" cy="250" r="35" fill="#a78bfa" opacity="0.15" stroke="#a78bfa" stroke-width="1.5"/>
+  <text x="150" y="247" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#a78bfa">Higher</text>
+  <text x="150" y="260" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#a78bfa">Trust</text>
+  <circle cx="150" cy="145" r="35" fill="#60a5fa" opacity="0.15" stroke="#60a5fa" stroke-width="1.5"/>
+  <text x="150" y="142" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#60a5fa">More</text>
+  <text x="150" y="155" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#60a5fa">Sales</text>
+  <!-- Curved arrows (simplified as lines) -->
+  <path d="M365,73 Q440,80 500,120" stroke="#e2e8f0" stroke-width="1.2" fill="none" opacity="0.4" marker-end="url(#arrowS)"/>
+  <path d="M545,180 Q545,220 545,215" stroke="#e2e8f0" stroke-width="1.2" fill="none" opacity="0.4" marker-end="url(#arrowS)"/>
+  <path d="M500,270 Q440,300 375,310" stroke="#e2e8f0" stroke-width="1.2" fill="none" opacity="0.4" marker-end="url(#arrowS)"/>
+  <path d="M305,310 Q240,300 180,270" stroke="#e2e8f0" stroke-width="1.2" fill="none" opacity="0.4" marker-end="url(#arrowS)"/>
+  <path d="M138,215 Q130,180 138,175" stroke="#e2e8f0" stroke-width="1.2" fill="none" opacity="0.4" marker-end="url(#arrowS)"/>
+  <path d="M175,125 Q230,90 310,72" stroke="#e2e8f0" stroke-width="1.2" fill="none" opacity="0.4" marker-end="url(#arrowS)"/>
+  <defs>
+    <marker id="arrowS" markerWidth="6" markerHeight="5" refX="6" refY="2.5" orient="auto"><path d="M0,0 L6,2.5 L0,5" fill="#e2e8f0" opacity="0.5"/></marker>
+  </defs>
+</svg>

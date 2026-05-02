@@ -1,0 +1,30 @@
+<svg viewBox="0 0 700 320" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <text x="350" y="28" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#a78bfa">Common Migration Mistakes &amp; Timelines</text>
+  <!-- Mistakes list -->
+  <rect x="30" y="50" width="310" height="200" rx="8" stroke="#ef4444" stroke-width="1.5"/>
+  <text x="185" y="75" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#ef4444">Top Migration Mistakes</text>
+  <text x="50" y="100" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">1. Launching without redirect testing</text>
+  <text x="50" y="120" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">2. Changing URL structure + content at once</text>
+  <text x="50" y="140" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">3. Forgetting to update internal links</text>
+  <text x="50" y="160" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">4. Ignoring staging noindex tags</text>
+  <text x="50" y="180" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">5. No pre-migration content export</text>
+  <text x="50" y="200" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">6. Skipping post-launch monitoring</text>
+  <text x="50" y="230" font-family="Arial,sans-serif" font-size="9" fill="#f97316">Avg. recovery time for botched migration: 6-12 months</text>
+  <!-- Timeline -->
+  <rect x="370" y="50" width="300" height="200" rx="8" stroke="#4ade80" stroke-width="1.5"/>
+  <text x="520" y="75" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#4ade80">Realistic Timeline</text>
+  <text x="390" y="100" font-family="Arial,sans-serif" font-size="10" fill="#a78bfa">Weeks 1-3</text>
+  <text x="480" y="100" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Pre-migration audit</text>
+  <text x="390" y="122" font-family="Arial,sans-serif" font-size="10" fill="#60a5fa">Weeks 4-6</text>
+  <text x="480" y="122" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">URL mapping + redirects</text>
+  <text x="390" y="144" font-family="Arial,sans-serif" font-size="10" fill="#4ade80">Weeks 7-8</text>
+  <text x="480" y="144" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Staging QA + testing</text>
+  <text x="390" y="166" font-family="Arial,sans-serif" font-size="10" fill="#f97316">Week 9</text>
+  <text x="480" y="166" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Go-live</text>
+  <text x="390" y="188" font-family="Arial,sans-serif" font-size="10" fill="#ef4444">Weeks 10-22</text>
+  <text x="480" y="188" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Monitor + recover</text>
+  <text x="520" y="230" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#4ade80">8-12 weeks before launch + 3 months after</text>
+  <!-- Bottom note -->
+  <text x="350" y="280" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Well-executed migrations recover to pre-migration traffic within 4-8 weeks</text>
+  <text x="350" y="300" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#ef4444">Poorly executed ones can take 6-12 months or never fully recover</text>
+</svg>

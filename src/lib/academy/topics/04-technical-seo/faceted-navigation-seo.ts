@@ -24,6 +24,15 @@ export const facetedNavigationSeo: AcademyTopic = {
             "Keyword cannibalization occurs when multiple filter pages target the same queries",
           ],
           tip: "Before implementing any technical solution, map out which filter combinations correspond to real search demand. Use keyword research tools to identify queries like \"nike running shoes\" or \"blue wool sweaters\" that match specific facet combinations. These are the combinations you want indexed; everything else should be blocked.",
+          image: {
+            src: "/images/academy/faceted-url-explosion-math.svg",
+            alt: "Visual calculation showing how 5 filter groups with multiple options multiply to create over 19,200 crawlable URLs from a single category page",
+            caption: "A single category page with brand, color, size, price, and sort filters can generate 19,200+ crawlable URLs through combinatorial explosion.",
+          },
+          callout: {
+            title: "URL Explosion Scale",
+            text: "10 brands x 12 colors x 8 sizes x 5 price ranges x 4 sort orders = 19,200 URLs from ONE category. With multi-select enabled, this grows to millions.",
+          },
         },
         {
           title: "Identifying Which Facets to Index vs. Block",
@@ -50,6 +59,15 @@ export const facetedNavigationSeo: AcademyTopic = {
             "Clean URL routing: dedicated static URLs for high-value filters; the gold standard",
           ],
           tip: "Combine multiple approaches based on your tier classification. Use clean URL routing for Tier 1 filters, canonical tags for Tier 2 filters, and robots.txt blocking for Tier 3 patterns like sort orders and multi-select combinations. No single technique handles all faceted navigation scenarios.",
+          image: {
+            src: "/images/academy/faceted-nav-tier-strategy.svg",
+            alt: "Three-tier classification system for faceted navigation showing which filters to index, treat cautiously, or block entirely",
+            caption: "Classify every filter into three tiers: index high-demand single filters, use canonicals for moderate-demand filters, and block everything else.",
+          },
+          callout: {
+            title: "Tier 1 Gold Standard",
+            text: "High-demand brand and product type filters (e.g., /shoes/nike/) deserve clean URLs, unique H1 tags, custom meta descriptions, and introductory content. These pages can rank as well as any category page.",
+          },
         },
         {
           title: "Creating SEO-Optimized Filter Landing Pages",
@@ -116,6 +134,15 @@ export const facetedNavigationSeo: AcademyTopic = {
             "Keyword-Kannibalisierung tritt auf, wenn mehrere Filterseiten auf dieselben Anfragen abzielen",
           ],
           tip: "Bevor Sie eine technische Loesung implementieren, erfassen Sie, welche Filterkombinationen echter Suchnachfrage entsprechen. Nutzen Sie Keyword-Recherche-Tools, um Anfragen wie \"Nike Laufschuhe\" oder \"blaue Wollpullover\" zu identifizieren, die spezifischen Facettenkombinationen entsprechen.",
+          image: {
+            src: "/images/academy/de/faceted-url-explosion-math.svg",
+            alt: "Visuelle Berechnung die zeigt wie 5 Filtergruppen mit mehreren Optionen sich zu ueber 19.200 crawlbaren URLs von einer einzigen Kategorieseite multiplizieren",
+            caption: "Eine einzelne Kategorieseite mit Marken-, Farb-, Groessen-, Preis- und Sortierfiltern kann durch kombinatorische Explosion ueber 19.200 crawlbare URLs erzeugen.",
+          },
+          callout: {
+            title: "URL-Explosions-Ausmass",
+            text: "10 Marken x 12 Farben x 8 Groessen x 5 Preisbereiche x 4 Sortierreihenfolgen = 19.200 URLs von EINER Kategorie. Mit aktivierter Mehrfachauswahl waechst dies auf Millionen.",
+          },
         },
         {
           title: "Welche Facetten indexiert vs. blockiert werden sollen",
@@ -155,6 +182,15 @@ export const facetedNavigationSeo: AcademyTopic = {
             "Von verwandten Blog-Inhalten und Kaufratgebern auf Filter-Landingpages verlinken",
           ],
           tip: "Analysieren Sie die Filterseiten Ihrer Top-Konkurrenten. Viele fuehrende Ecommerce-Sites fuegen Markengeschichten, Groessenratgeber und haeufig gestellte Fragen zu ihren Filter-Landingpages hinzu. Diese Inhaltselemente verbessern sowohl SEO-Rankings als auch Konversionsraten.",
+          image: {
+            src: "/images/academy/de/faceted-nav-tier-strategy.svg",
+            alt: "Dreistufiges Klassifizierungssystem fuer facettierte Navigation das zeigt welche Filter indexiert, vorsichtig behandelt oder vollstaendig blockiert werden",
+            caption: "Klassifizieren Sie jeden Filter in drei Stufen: nachgefragte Einzelfilter indexieren, Canonicals fuer mittlere Nachfrage verwenden und alles andere blockieren.",
+          },
+          callout: {
+            title: "Stufe-1-Goldstandard",
+            text: "Nachgefragte Marken- und Produkttypfilter (z.B. /schuhe/nike/) verdienen saubere URLs, einzigartige H1-Tags, individuelle Meta-Beschreibungen und Einleitungstexte. Diese Seiten koennen genauso gut ranken wie jede Kategorieseite.",
+          },
         },
         {
           title: "Umgang mit Mehrfachauswahl und kombinierten Filtern",
@@ -208,6 +244,15 @@ export const facetedNavigationSeo: AcademyTopic = {
             "La cannibalisation de mots-cles se produit quand plusieurs pages filtres ciblent les memes requetes",
           ],
           tip: "Avant d'implementer une solution technique, identifiez quelles combinaisons de filtres correspondent a une demande de recherche reelle. Utilisez des outils de recherche de mots-cles pour identifier les requetes qui correspondent a des combinaisons specifiques de facettes.",
+          image: {
+            src: "/images/academy/fr/faceted-url-explosion-math.svg",
+            alt: "Visuelle Berechnung die zeigt wie 5 Filtergruppen mit mehreren Optionen sich zu ueber 19.200 crawlbaren URLs von einer einzigen Kategorieseite multiplizieren",
+            caption: "Eine einzelne Kategorieseite mit Marken-, Farb-, Groessen-, Preis- und Sortierfiltern kann durch kombinatorische Explosion ueber 19.200 crawlbare URLs erzeugen.",
+          },
+          callout: {
+            title: "URL-Explosions-Ausmass",
+            text: "10 Marken x 12 Farben x 8 Groessen x 5 Preisbereiche x 4 Sortierreihenfolgen = 19.200 URLs von EINER Kategorie. Mit aktivierter Mehrfachauswahl waechst dies auf Millionen.",
+          },
         },
         {
           title: "Identifier quelles facettes indexer vs. bloquer",
@@ -247,6 +292,15 @@ export const facetedNavigationSeo: AcademyTopic = {
             "Lier vers les pages de filtres depuis le contenu de blog et les guides d'achat pour l'autorite",
           ],
           tip: "Analysez les pages filtres de vos principaux concurrents pour voir quel contenu ils incluent. De nombreux sites e-commerce leaders ajoutent des histoires de marque, des guides de tailles et des FAQ a leurs pages d'atterrissage de filtres.",
+          image: {
+            src: "/images/academy/fr/faceted-nav-tier-strategy.svg",
+            alt: "Dreistufiges Klassifizierungssystem fuer facettierte Navigation das zeigt welche Filter indexiert, vorsichtig behandelt oder vollstaendig blockiert werden",
+            caption: "Klassifizieren Sie jeden Filter in drei Stufen: nachgefragte Einzelfilter indexieren, Canonicals fuer mittlere Nachfrage verwenden und alles andere blockieren.",
+          },
+          callout: {
+            title: "Stufe-1-Goldstandard",
+            text: "Nachgefragte Marken- und Produkttypfilter (z.B. /schuhe/nike/) verdienen saubere URLs, einzigartige H1-Tags, individuelle Meta-Beschreibungen und Einleitungstexte. Diese Seiten koennen genauso gut ranken wie jede Kategorieseite.",
+          },
         },
         {
           title: "Gestion des filtres multi-selection et combines",
@@ -300,6 +354,15 @@ export const facetedNavigationSeo: AcademyTopic = {
             "La canibalizacion de palabras clave ocurre cuando multiples paginas de filtros apuntan a las mismas consultas",
           ],
           tip: "Antes de implementar cualquier solucion tecnica, identifica que combinaciones de filtros corresponden a demanda de busqueda real. Usa herramientas de investigacion de palabras clave para identificar consultas que coincidan con combinaciones especificas de facetas.",
+          image: {
+            src: "/images/academy/es/faceted-url-explosion-math.svg",
+            alt: "Visuelle Berechnung die zeigt wie 5 Filtergruppen mit mehreren Optionen sich zu ueber 19.200 crawlbaren URLs von einer einzigen Kategorieseite multiplizieren",
+            caption: "Eine einzelne Kategorieseite mit Marken-, Farb-, Groessen-, Preis- und Sortierfiltern kann durch kombinatorische Explosion ueber 19.200 crawlbare URLs erzeugen.",
+          },
+          callout: {
+            title: "URL-Explosions-Ausmass",
+            text: "10 Marken x 12 Farben x 8 Groessen x 5 Preisbereiche x 4 Sortierreihenfolgen = 19.200 URLs von EINER Kategorie. Mit aktivierter Mehrfachauswahl waechst dies auf Millionen.",
+          },
         },
         {
           title: "Identificar que facetas indexar vs. bloquear",
@@ -339,6 +402,15 @@ export const facetedNavigationSeo: AcademyTopic = {
             "Enlazar a paginas de filtros desde contenido de blog y guias de compra para autoridad",
           ],
           tip: "Analiza las paginas de filtros de tus principales competidores para ver que contenido incluyen. Muchos sitios de ecommerce lideres agregan historias de marca, guias de tallas y preguntas frecuentes a sus paginas de aterrizaje de filtros.",
+          image: {
+            src: "/images/academy/es/faceted-nav-tier-strategy.svg",
+            alt: "Dreistufiges Klassifizierungssystem fuer facettierte Navigation das zeigt welche Filter indexiert, vorsichtig behandelt oder vollstaendig blockiert werden",
+            caption: "Klassifizieren Sie jeden Filter in drei Stufen: nachgefragte Einzelfilter indexieren, Canonicals fuer mittlere Nachfrage verwenden und alles andere blockieren.",
+          },
+          callout: {
+            title: "Stufe-1-Goldstandard",
+            text: "Nachgefragte Marken- und Produkttypfilter (z.B. /schuhe/nike/) verdienen saubere URLs, einzigartige H1-Tags, individuelle Meta-Beschreibungen und Einleitungstexte. Diese Seiten koennen genauso gut ranken wie jede Kategorieseite.",
+          },
         },
         {
           title: "Manejo de filtros multi-seleccion y combinados",
@@ -392,6 +464,15 @@ export const facetedNavigationSeo: AcademyTopic = {
             "La cannibalizzazione delle keyword si verifica quando piu pagine filtro puntano alle stesse query",
           ],
           tip: "Prima di implementare qualsiasi soluzione tecnica, mappa quali combinazioni di filtri corrispondono a domanda di ricerca reale. Usa strumenti di ricerca keyword per identificare query che corrispondono a combinazioni specifiche di faccette.",
+          image: {
+            src: "/images/academy/it/faceted-url-explosion-math.svg",
+            alt: "Visuelle Berechnung die zeigt wie 5 Filtergruppen mit mehreren Optionen sich zu ueber 19.200 crawlbaren URLs von einer einzigen Kategorieseite multiplizieren",
+            caption: "Eine einzelne Kategorieseite mit Marken-, Farb-, Groessen-, Preis- und Sortierfiltern kann durch kombinatorische Explosion ueber 19.200 crawlbare URLs erzeugen.",
+          },
+          callout: {
+            title: "URL-Explosions-Ausmass",
+            text: "10 Marken x 12 Farben x 8 Groessen x 5 Preisbereiche x 4 Sortierreihenfolgen = 19.200 URLs von EINER Kategorie. Mit aktivierter Mehrfachauswahl waechst dies auf Millionen.",
+          },
         },
         {
           title: "Identificare quali faccette indicizzare vs. bloccare",
@@ -431,6 +512,15 @@ export const facetedNavigationSeo: AcademyTopic = {
             "Linkare alle pagine di atterraggio filtro da contenuti blog e guide all'acquisto per autorita",
           ],
           tip: "Analizza le pagine filtro dei tuoi principali concorrenti per vedere quale contenuto includono. Molti siti ecommerce leader aggiungono storie di brand, guide alle taglie e FAQ alle loro pagine di atterraggio filtro.",
+          image: {
+            src: "/images/academy/it/faceted-nav-tier-strategy.svg",
+            alt: "Dreistufiges Klassifizierungssystem fuer facettierte Navigation das zeigt welche Filter indexiert, vorsichtig behandelt oder vollstaendig blockiert werden",
+            caption: "Klassifizieren Sie jeden Filter in drei Stufen: nachgefragte Einzelfilter indexieren, Canonicals fuer mittlere Nachfrage verwenden und alles andere blockieren.",
+          },
+          callout: {
+            title: "Stufe-1-Goldstandard",
+            text: "Nachgefragte Marken- und Produkttypfilter (z.B. /schuhe/nike/) verdienen saubere URLs, einzigartige H1-Tags, individuelle Meta-Beschreibungen und Einleitungstexte. Diese Seiten koennen genauso gut ranken wie jede Kategorieseite.",
+          },
         },
         {
           title: "Gestione dei filtri multi-selezione e combinati",
@@ -484,6 +574,15 @@ export const facetedNavigationSeo: AcademyTopic = {
             "Keyword-kannibalisatie treedt op wanneer meerdere filterpagina's op dezelfde zoekopdrachten richten",
           ],
           tip: "Voordat je een technische oplossing implementeert, breng in kaart welke filtercombinaties overeenkomen met echte zoekvraag. Gebruik keyword-researchtools om zoekopdrachten te identificeren die overeenkomen met specifieke facetcombinaties.",
+          image: {
+            src: "/images/academy/nl/faceted-url-explosion-math.svg",
+            alt: "Visuelle Berechnung die zeigt wie 5 Filtergruppen mit mehreren Optionen sich zu ueber 19.200 crawlbaren URLs von einer einzigen Kategorieseite multiplizieren",
+            caption: "Eine einzelne Kategorieseite mit Marken-, Farb-, Groessen-, Preis- und Sortierfiltern kann durch kombinatorische Explosion ueber 19.200 crawlbare URLs erzeugen.",
+          },
+          callout: {
+            title: "URL-Explosions-Ausmass",
+            text: "10 Marken x 12 Farben x 8 Groessen x 5 Preisbereiche x 4 Sortierreihenfolgen = 19.200 URLs von EINER Kategorie. Mit aktivierter Mehrfachauswahl waechst dies auf Millionen.",
+          },
         },
         {
           title: "Identificeren welke facetten te indexeren vs. blokkeren",
@@ -523,6 +622,15 @@ export const facetedNavigationSeo: AcademyTopic = {
             "Vanuit gerelateerde blogcontent en koopgidsen naar filter-landingspagina's linken voor autoriteit",
           ],
           tip: "Analyseer de filterpagina's van je topconcurrenten om te zien welke content ze bevatten. Veel toonaangevende ecommerce-sites voegen merkverhalen, maatgidsen en veelgestelde vragen toe aan hun filter-landingspagina's.",
+          image: {
+            src: "/images/academy/nl/faceted-nav-tier-strategy.svg",
+            alt: "Dreistufiges Klassifizierungssystem fuer facettierte Navigation das zeigt welche Filter indexiert, vorsichtig behandelt oder vollstaendig blockiert werden",
+            caption: "Klassifizieren Sie jeden Filter in drei Stufen: nachgefragte Einzelfilter indexieren, Canonicals fuer mittlere Nachfrage verwenden und alles andere blockieren.",
+          },
+          callout: {
+            title: "Stufe-1-Goldstandard",
+            text: "Nachgefragte Marken- und Produkttypfilter (z.B. /schuhe/nike/) verdienen saubere URLs, einzigartige H1-Tags, individuelle Meta-Beschreibungen und Einleitungstexte. Diese Seiten koennen genauso gut ranken wie jede Kategorieseite.",
+          },
         },
         {
           title: "Omgaan met multi-selectie en gecombineerde filters",

@@ -189,7 +189,7 @@ export const beautySeoData: Record<Locale, ServicePageProps> = {
           name: "Fabian van Til",
           role: "Strategy & Innovation",
           bio: "Fabian leads SEO strategy for our beauty clients. 8 years of ecommerce SEO across health, beauty, and skincare. He knows how beauty shoppers search and builds strategies around ingredient queries and routine-based content.",
-          image: "/images/framer/C23VbBxvj2kY5TMoXAJHXWVLaA.webp",
+          image: "/images/framer/fabian-van-til-new.jpeg",
           linkedin: "https://www.linkedin.com/in/fabianvantil/",
         },
         teamMembers: [
@@ -198,7 +198,7 @@ export const beautySeoData: Record<Locale, ServicePageProps> = {
             role: "Technical & On-Page SEO",
             bio: "Dimitar handles the technical and on-page SEO for beauty brands. He works on product schema, ingredient page architecture, and Core Web Vitals optimization. He also builds the free SEO tools on this site.",
             image: "/images/framer/Q3tfuu2ytPAotONsFoP1ouyPZic.png",
-            linkedin: "https://www.linkedin.com/in/dimitar-georgiev-seo/",
+            linkedin: "https://bg.linkedin.com/in/dimitar-georgiev-seo-expert",
           },
           {
             name: "Martinijan Trajkovski",
@@ -435,7 +435,7 @@ export const beautySeoData: Record<Locale, ServicePageProps> = {
           name: "Fabian van Til",
           role: "Strategie & Innovation",
           bio: "Fabian verantwortet die strategische Ausrichtung aller Beauty-SEO-Projekte. Mit über 8 Jahren E-Commerce-SEO-Erfahrung in Mode, Gesundheit, Beauty und Wohnen verbindet er Wachstumsstrategie mit technischer SEO-Innovation.",
-          image: "/images/framer/C23VbBxvj2kY5TMoXAJHXWVLaA.webp",
+          image: "/images/framer/fabian-van-til-new.jpeg",
           linkedin: "https://www.linkedin.com/in/fabianvantil/",
         },
         teamMembers: [
@@ -444,7 +444,7 @@ export const beautySeoData: Record<Locale, ServicePageProps> = {
             role: "Technisches & On-Page SEO",
             bio: "Baut die technischen SEO-Grundlagen und On-Page-Optimierungen für Beauty-Marken. Spezialisiert auf Produkt-Schema, Inhaltsstoff-Seitenarchitektur und Core-Web-Vitals-Optimierung. Entwickelt die kostenlosen SEO-Tools auf dieser Seite.",
             image: "/images/framer/Q3tfuu2ytPAotONsFoP1ouyPZic.png",
-            linkedin: "https://www.linkedin.com/in/dimitar-georgiev-seo/",
+            linkedin: "https://bg.linkedin.com/in/dimitar-georgiev-seo-expert",
           },
           {
             name: "Martinijan Trajkovski",
@@ -681,7 +681,7 @@ export const beautySeoData: Record<Locale, ServicePageProps> = {
           name: "Fabian van Til",
           role: "Stratégie & Innovation",
           bio: "Fabian pilote tous les engagements clients. Plus de 8 ans d\u2019expérience SEO e-commerce dans la mode, la santé, la beauté et la maison. Il allie stratégie de croissance et innovation SEO technique.",
-          image: "/images/framer/C23VbBxvj2kY5TMoXAJHXWVLaA.webp",
+          image: "/images/framer/fabian-van-til-new.jpeg",
           linkedin: "https://www.linkedin.com/in/fabianvantil/",
         },
         teamMembers: [
@@ -690,7 +690,7 @@ export const beautySeoData: Record<Locale, ServicePageProps> = {
             role: "SEO technique & On-Page",
             bio: "Conçoit les fondations SEO techniques et on-page pour les marques beauté. Spécialisé dans le schema produit, l\u2019architecture des pages ingrédients et l\u2019optimisation des Core Web Vitals. Développe les outils SEO gratuits de ce site.",
             image: "/images/framer/Q3tfuu2ytPAotONsFoP1ouyPZic.png",
-            linkedin: "https://www.linkedin.com/in/dimitar-georgiev-seo/",
+            linkedin: "https://bg.linkedin.com/in/dimitar-georgiev-seo-expert",
           },
           {
             name: "Martinijan Trajkovski",
@@ -927,7 +927,7 @@ export const beautySeoData: Record<Locale, ServicePageProps> = {
           name: "Fabian van Til",
           role: "Estrategia e Innovación",
           bio: "Fabian dirige la estrategia de todos los proyectos con clientes. M\u00e1s de 8 a\u00f1os de experiencia en SEO ecommerce en moda, salud, belleza y hogar. Combina estrategia de crecimiento con innovaci\u00f3n en SEO t\u00e9cnico.",
-          image: "/images/framer/C23VbBxvj2kY5TMoXAJHXWVLaA.webp",
+          image: "/images/framer/fabian-van-til-new.jpeg",
           linkedin: "https://www.linkedin.com/in/fabianvantil/",
         },
         teamMembers: [
@@ -936,7 +936,7 @@ export const beautySeoData: Record<Locale, ServicePageProps> = {
             role: "SEO Técnico & On-Page",
             bio: "Diseña las bases técnicas de SEO y on-page para marcas de belleza. Especializado en schema de producto, arquitectura de páginas de ingredientes y optimización de Core Web Vitals. Desarrolla las herramientas SEO gratuitas de este sitio.",
             image: "/images/framer/Q3tfuu2ytPAotONsFoP1ouyPZic.png",
-            linkedin: "https://www.linkedin.com/in/dimitar-georgiev-seo/",
+            linkedin: "https://bg.linkedin.com/in/dimitar-georgiev-seo-expert",
           },
           {
             name: "Martinijan Trajkovski",
@@ -1173,7 +1173,7 @@ export const beautySeoData: Record<Locale, ServicePageProps> = {
           name: "Fabian van Til",
           role: "Strategia & Innovazione",
           bio: "Fabian definisce la strategia di ogni progetto cliente. Oltre 8 anni di esperienza SEO e-commerce in moda, salute, beauty e arredamento. Unisce strategia di crescita e innovazione SEO tecnica.",
-          image: "/images/framer/C23VbBxvj2kY5TMoXAJHXWVLaA.webp",
+          image: "/images/framer/fabian-van-til-new.jpeg",
           linkedin: "https://www.linkedin.com/in/fabianvantil/",
         },
         teamMembers: [
@@ -1182,7 +1182,7 @@ export const beautySeoData: Record<Locale, ServicePageProps> = {
             role: "SEO tecnico & On-Page",
             bio: "Dimitar progetta le fondamenta SEO tecniche e on-page per i brand beauty. Specializzato in schema prodotto, architettura delle pagine ingredienti e ottimizzazione dei Core Web Vitals. Sviluppa gli strumenti SEO gratuiti di questo sito.",
             image: "/images/framer/Q3tfuu2ytPAotONsFoP1ouyPZic.png",
-            linkedin: "https://www.linkedin.com/in/dimitar-georgiev-seo/",
+            linkedin: "https://bg.linkedin.com/in/dimitar-georgiev-seo-expert",
           },
           {
             name: "Martinijan Trajkovski",
@@ -1419,7 +1419,7 @@ export const beautySeoData: Record<Locale, ServicePageProps> = {
           name: "Fabian van Til",
           role: "Strategie & Innovatie",
           bio: "Fabian leidt de strategische richting van alle klantengagementen. Met meer dan 8 jaar e-commerce SEO-ervaring in mode, gezondheid, beauty en wonen combineert hij groeistrategie met technische SEO-innovatie.",
-          image: "/images/framer/C23VbBxvj2kY5TMoXAJHXWVLaA.webp",
+          image: "/images/framer/fabian-van-til-new.jpeg",
           linkedin: "https://www.linkedin.com/in/fabianvantil/",
         },
         teamMembers: [
@@ -1428,7 +1428,7 @@ export const beautySeoData: Record<Locale, ServicePageProps> = {
             role: "Technisch & On-Page SEO",
             bio: "Dimitar ontwerpt de technische SEO-fundamenten en on-page optimalisaties voor beautymerken. Hij is gespecialiseerd in productschema, ingrediëntenpagina-architectuur en Core Web Vitals-optimalisatie, en bouwt de gratis SEO-tools op deze site.",
             image: "/images/framer/Q3tfuu2ytPAotONsFoP1ouyPZic.png",
-            linkedin: "https://www.linkedin.com/in/dimitar-georgiev-seo/",
+            linkedin: "https://bg.linkedin.com/in/dimitar-georgiev-seo-expert",
           },
           {
             name: "Martinijan Trajkovski",

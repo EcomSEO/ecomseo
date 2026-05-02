@@ -5,7 +5,7 @@ export const ecommerceSeoPlatformsData: Record<Locale, ServicePageProps> = {
   en: {
     hero: {
       badge: "Ecommerce SEO by Platform",
-      heading: "Platform-Native SEO That\u200BFits Your Stack",
+      heading: "Platform-Native SEO That Fits Your Stack",
       subtitle: "Every ecommerce platform has unique SEO strengths and hidden pitfalls. We work natively inside Shopify, WooCommerce, BigCommerce, and Adobe Commerce - exploiting every platform advantage and fixing every platform-specific bottleneck.",
       ctaText: "Book a Free Platform Audit",
     },
@@ -91,7 +91,7 @@ export const ecommerceSeoPlatformsData: Record<Locale, ServicePageProps> = {
   de: {
     hero: {
       badge: "E-Commerce SEO nach Plattform",
-      heading: "Plattform-natives SEO\u200Bf\u00fcr Ihren Tech-Stack",
+      heading: "Plattform-natives SEO f\u00fcr Ihren Tech-Stack",
       subtitle: "Jede E-Commerce-Plattform hat einzigartige SEO-St\u00e4rken und versteckte Fallstricke. Wir arbeiten nativ in Shopify, WooCommerce, BigCommerce und Adobe Commerce - nutzen jeden Plattformvorteil und beheben jeden plattformspezifischen Engpass.",
       ctaText: "Kostenloses Plattform-Audit buchen",
     },
@@ -177,7 +177,7 @@ export const ecommerceSeoPlatformsData: Record<Locale, ServicePageProps> = {
   fr: {
     hero: {
       badge: "SEO E-commerce par plateforme",
-      heading: "SEO natif \u00e0 votre\u200Bplateforme e-commerce",
+      heading: "SEO natif \u00e0 votre plateforme e-commerce",
       subtitle: "Chaque plateforme e-commerce a des atouts SEO uniques et des pi\u00e8ges cach\u00e9s. Nous travaillons nativement dans Shopify, WooCommerce, BigCommerce et Adobe Commerce - en exploitant chaque avantage et en corrigeant chaque goulot d\u2019\u00e9tranglement sp\u00e9cifique.",
       ctaText: "R\u00e9server un audit de plateforme gratuit",
     },
@@ -263,7 +263,7 @@ export const ecommerceSeoPlatformsData: Record<Locale, ServicePageProps> = {
   es: {
     hero: {
       badge: "SEO E-commerce por plataforma",
-      heading: "SEO nativo a tu\u200Bplataforma de e-commerce",
+      heading: "SEO nativo a tu plataforma de e-commerce",
       subtitle: "Cada plataforma de e-commerce tiene fortalezas SEO \u00fanicas y trampas ocultas. Trabajamos de forma nativa en Shopify, WooCommerce, BigCommerce y Adobe Commerce - aprovechando cada ventaja de la plataforma y corrigiendo cada cuello de botella espec\u00edfico.",
       ctaText: "Reservar una auditor\u00eda de plataforma gratuita",
     },
@@ -349,7 +349,7 @@ export const ecommerceSeoPlatformsData: Record<Locale, ServicePageProps> = {
   it: {
     hero: {
       badge: "SEO E-commerce per piattaforma",
-      heading: "SEO nativo alla tua\u200Bpiattaforma e-commerce",
+      heading: "SEO nativo alla tua piattaforma e-commerce",
       subtitle: "Ogni piattaforma e-commerce ha punti di forza SEO unici e insidie nascoste. Lavoriamo nativamente in Shopify, WooCommerce, BigCommerce e Adobe Commerce - sfruttando ogni vantaggio della piattaforma e correggendo ogni collo di bottiglia specifico.",
       ctaText: "Prenota un audit gratuito della piattaforma",
     },
@@ -435,7 +435,7 @@ export const ecommerceSeoPlatformsData: Record<Locale, ServicePageProps> = {
   nl: {
     hero: {
       badge: "E-commerce SEO per platform",
-      heading: "Platform-native SEO die\u200Bpast bij jouw stack",
+      heading: "Platform-native SEO die past bij jouw stack",
       subtitle: "Elk e-commerce platform heeft unieke SEO-sterktes en verborgen valkuilen. Wij werken native in Shopify, WooCommerce, BigCommerce en Adobe Commerce - we benutten elk platformvoordeel en lossen elk platformspecifiek knelpunt op.",
       ctaText: "Boek een gratis platformaudit",
     },

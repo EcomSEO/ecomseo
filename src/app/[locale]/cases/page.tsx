@@ -2,6 +2,9 @@ import { buildPageMetadata } from "@/lib/i18n/metadata";
 import type { Locale } from "@/lib/i18n/config";
 import CasesClient from "./CasesClient";
 
+export const revalidate = 86400;
+
+
 export async function generateMetadata({
   params,
 }: {

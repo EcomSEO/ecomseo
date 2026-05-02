@@ -28,6 +28,15 @@ export const categoryPageSeo: AcademyTopic = {
             "Include buying guidance, comparisons, and sizing advice where relevant",
             "Naturally incorporate primary and secondary keywords throughout",
           ],
+          image: {
+            src: "/images/academy/category-page-content-layout.svg",
+            alt: "Diagram showing the ideal content layout for an ecommerce category page with intro above and detailed content below the product grid",
+            caption: "Place a short intro above the product grid and detailed SEO content below it. This satisfies Google without burying the shopping experience.",
+          },
+          callout: {
+            title: "Content Gap Effect",
+            text: "A single well-optimized category page for 'leather wallets' can drive more organic traffic than 50 individual product pages combined. Category keywords capture the entire browsing audience, not just specific-SKU searchers.",
+          },
           tip: "Check your competitors' category pages for the keywords you're targeting. If they have 400 words of useful content and you have zero, that content gap alone can explain the ranking difference. Match or exceed their depth while making your content more practical and specific.",
         },
         {
@@ -45,6 +54,15 @@ export const categoryPageSeo: AcademyTopic = {
             "Create dedicated subcategory pages for filter combinations with real search volume",
             "Keep URLs shallow, readable, and free of tracking parameters",
           ],
+          image: {
+            src: "/images/academy/faceted-nav-url-strategy.svg",
+            alt: "Diagram comparing filter URL strategies showing which to block and which to index as subcategory pages",
+            caption: "Block low-value filter combinations and create dedicated subcategory pages for high-volume search terms.",
+          },
+          callout: {
+            title: "Crawl Budget Drain",
+            text: "5 sizes x 8 colors x 10 brands = 400 filter URLs per category. Across 50 categories, that is 20,000 low-value pages consuming crawl budget that should go to product pages.",
+          },
         },
         {
           title: "Product Grid Optimization",
@@ -86,6 +104,15 @@ export const categoryPageSeo: AcademyTopic = {
             "Kaufberatung, Vergleiche und Groessenhinweise einbauen wo relevant",
             "Primaere und sekundaere Keywords natuerlich im gesamten Text einarbeiten",
           ],
+          image: {
+            src: "/images/academy/de/category-page-content-layout.svg",
+            alt: "Diagramm des idealen Content-Layouts einer Ecommerce-Kategorieseite",
+            caption: "Platzieren Sie eine kurze Einleitung über dem Produkt-Raster und ausführlichen SEO-Content darunter.",
+          },
+          callout: {
+            title: "Content-Gap-Effekt",
+            text: "Eine einzelne gut optimierte Kategorieseite kann mehr organischen Traffic generieren als 50 nicht optimierte Produktseiten zusammen.",
+          },
           tip: "Pruefen Sie die Kategorieseiten Ihrer Wettbewerber fuer die Keywords, die Sie anvisieren. Wenn diese 400 Woerter nuetzlichen Content haben und Sie null, kann diese Content-Luecke allein den Ranking-Unterschied erklaeren. Erreichen oder uebertreffen Sie deren Tiefe, waehrend Sie Ihren Content praktischer und spezifischer gestalten.",
         },
         {
@@ -103,6 +130,15 @@ export const categoryPageSeo: AcademyTopic = {
             "Dedizierte Unterkategorieseiten fuer Filterkombinationen mit echtem Suchvolumen erstellen",
             "URLs flach, lesbar und frei von Tracking-Parametern halten",
           ],
+          image: {
+            src: "/images/academy/de/faceted-nav-url-strategy.svg",
+            alt: "Diagramm zum Vergleich von Filter-URL-Strategien",
+            caption: "Blockieren Sie minderwertige Filterkombinationen und erstellen Sie dedizierte Unterkategorieseiten für Keywords mit hohem Suchvolumen.",
+          },
+          callout: {
+            title: "Crawl-Budget-Verschwendung",
+            text: "5 Größen x 8 Farben x 10 Marken = 400 Filter-URLs pro Kategorie. Bei 50 Kategorien sind das 20.000 minderwertige Seiten.",
+          },
         },
         {
           title: "Produktraster-Optimierung",
@@ -145,6 +181,15 @@ export const categoryPageSeo: AcademyTopic = {
             "Incorporer naturellement les mots-cles primaires et secondaires dans tout le texte",
           ],
           tip: "Verifiez les pages categories de vos concurrents pour les mots-cles que vous ciblez. S'ils ont 400 mots de contenu utile et vous zero, cet ecart de contenu seul peut expliquer la difference de classement. Egalez ou depassez leur profondeur tout en rendant votre contenu plus pratique et specifique.",
+          image: {
+            src: "/images/academy/fr/category-page-content-layout.svg",
+            alt: "Diagramm des idealen Content-Layouts einer Ecommerce-Kategorieseite",
+            caption: "Platzieren Sie eine kurze Einleitung über dem Produkt-Raster und ausführlichen SEO-Content darunter.",
+          },
+          callout: {
+            title: "Content-Gap-Effekt",
+            text: "Eine einzelne gut optimierte Kategorieseite kann mehr organischen Traffic generieren als 50 nicht optimierte Produktseiten zusammen.",
+          },
         },
         {
           title: "Balises title et meta descriptions pour les categories",
@@ -161,6 +206,15 @@ export const categoryPageSeo: AcademyTopic = {
             "Creer des pages de sous-categories dediees pour les combinaisons de filtres avec un vrai volume de recherche",
             "Garder les URLs peu profondes, lisibles et sans parametres de suivi",
           ],
+          image: {
+            src: "/images/academy/fr/faceted-nav-url-strategy.svg",
+            alt: "Diagramm zum Vergleich von Filter-URL-Strategien",
+            caption: "Blockieren Sie minderwertige Filterkombinationen und erstellen Sie dedizierte Unterkategorieseiten für Keywords mit hohem Suchvolumen.",
+          },
+          callout: {
+            title: "Crawl-Budget-Verschwendung",
+            text: "5 Größen x 8 Farben x 10 Marken = 400 Filter-URLs pro Kategorie. Bei 50 Kategorien sind das 20.000 minderwertige Seiten.",
+          },
         },
         {
           title: "Optimisation de la grille de produits",
@@ -203,6 +257,15 @@ export const categoryPageSeo: AcademyTopic = {
             "Incorporar naturalmente palabras clave primarias y secundarias en todo el texto",
           ],
           tip: "Revisa las paginas de categoria de tus competidores para las palabras clave que estas apuntando. Si ellos tienen 400 palabras de contenido util y tu tienes cero, esa brecha de contenido por si sola puede explicar la diferencia de ranking. Iguala o supera su profundidad haciendo tu contenido mas practico y especifico.",
+          image: {
+            src: "/images/academy/es/category-page-content-layout.svg",
+            alt: "Diagramm des idealen Content-Layouts einer Ecommerce-Kategorieseite",
+            caption: "Platzieren Sie eine kurze Einleitung über dem Produkt-Raster und ausführlichen SEO-Content darunter.",
+          },
+          callout: {
+            title: "Content-Gap-Effekt",
+            text: "Eine einzelne gut optimierte Kategorieseite kann mehr organischen Traffic generieren als 50 nicht optimierte Produktseiten zusammen.",
+          },
         },
         {
           title: "Etiquetas de titulo y meta descripciones para categorias",
@@ -219,6 +282,15 @@ export const categoryPageSeo: AcademyTopic = {
             "Crear paginas de subcategoria dedicadas para combinaciones de filtros con volumen de busqueda real",
             "Mantener URLs poco profundas, legibles y libres de parametros de seguimiento",
           ],
+          image: {
+            src: "/images/academy/es/faceted-nav-url-strategy.svg",
+            alt: "Diagramm zum Vergleich von Filter-URL-Strategien",
+            caption: "Blockieren Sie minderwertige Filterkombinationen und erstellen Sie dedizierte Unterkategorieseiten für Keywords mit hohem Suchvolumen.",
+          },
+          callout: {
+            title: "Crawl-Budget-Verschwendung",
+            text: "5 Größen x 8 Farben x 10 Marken = 400 Filter-URLs pro Kategorie. Bei 50 Kategorien sind das 20.000 minderwertige Seiten.",
+          },
         },
         {
           title: "Optimizacion de la cuadricula de productos",
@@ -261,6 +333,15 @@ export const categoryPageSeo: AcademyTopic = {
             "Incorporare naturalmente parole chiave primarie e secondarie in tutto il testo",
           ],
           tip: "Controlla le pagine categoria dei tuoi concorrenti per le parole chiave che stai puntando. Se loro hanno 400 parole di contenuto utile e tu zero, quel divario di contenuto da solo puo spiegare la differenza di posizionamento. Eguaglia o supera la loro profondita rendendo il tuo contenuto piu pratico e specifico.",
+          image: {
+            src: "/images/academy/it/category-page-content-layout.svg",
+            alt: "Diagramm des idealen Content-Layouts einer Ecommerce-Kategorieseite",
+            caption: "Platzieren Sie eine kurze Einleitung über dem Produkt-Raster und ausführlichen SEO-Content darunter.",
+          },
+          callout: {
+            title: "Content-Gap-Effekt",
+            text: "Eine einzelne gut optimierte Kategorieseite kann mehr organischen Traffic generieren als 50 nicht optimierte Produktseiten zusammen.",
+          },
         },
         {
           title: "Title tag e meta description per le categorie",
@@ -277,6 +358,15 @@ export const categoryPageSeo: AcademyTopic = {
             "Creare pagine di sottocategoria dedicate per combinazioni di filtri con volume di ricerca reale",
             "Mantenere gli URL poco profondi, leggibili e privi di parametri di tracciamento",
           ],
+          image: {
+            src: "/images/academy/it/faceted-nav-url-strategy.svg",
+            alt: "Diagramm zum Vergleich von Filter-URL-Strategien",
+            caption: "Blockieren Sie minderwertige Filterkombinationen und erstellen Sie dedizierte Unterkategorieseiten für Keywords mit hohem Suchvolumen.",
+          },
+          callout: {
+            title: "Crawl-Budget-Verschwendung",
+            text: "5 Größen x 8 Farben x 10 Marken = 400 Filter-URLs pro Kategorie. Bei 50 Kategorien sind das 20.000 minderwertige Seiten.",
+          },
         },
         {
           title: "Ottimizzazione della griglia prodotti",
@@ -319,6 +409,15 @@ export const categoryPageSeo: AcademyTopic = {
             "Primaire en secundaire zoekwoorden natuurlijk door de hele tekst verwerken",
           ],
           tip: "Bekijk de categoriepagina's van je concurrenten voor de zoekwoorden die je target. Als zij 400 woorden nuttige content hebben en jij nul, kan dat contentverschil alleen al het rankingverschil verklaren. Evenaar of overtref hun diepte terwijl je jouw content praktischer en specifieker maakt.",
+          image: {
+            src: "/images/academy/nl/category-page-content-layout.svg",
+            alt: "Diagramm des idealen Content-Layouts einer Ecommerce-Kategorieseite",
+            caption: "Platzieren Sie eine kurze Einleitung über dem Produkt-Raster und ausführlichen SEO-Content darunter.",
+          },
+          callout: {
+            title: "Content-Gap-Effekt",
+            text: "Eine einzelne gut optimierte Kategorieseite kann mehr organischen Traffic generieren als 50 nicht optimierte Produktseiten zusammen.",
+          },
         },
         {
           title: "Title tags en meta-omschrijvingen voor categorieen",
@@ -335,6 +434,15 @@ export const categoryPageSeo: AcademyTopic = {
             "Speciale subcategoriepagina's maken voor filtercombinaties met echt zoekvolume",
             "URL's ondiep, leesbaar en vrij van trackingparameters houden",
           ],
+          image: {
+            src: "/images/academy/nl/faceted-nav-url-strategy.svg",
+            alt: "Diagramm zum Vergleich von Filter-URL-Strategien",
+            caption: "Blockieren Sie minderwertige Filterkombinationen und erstellen Sie dedizierte Unterkategorieseiten für Keywords mit hohem Suchvolumen.",
+          },
+          callout: {
+            title: "Crawl-Budget-Verschwendung",
+            text: "5 Größen x 8 Farben x 10 Marken = 400 Filter-URLs pro Kategorie. Bei 50 Kategorien sind das 20.000 minderwertige Seiten.",
+          },
         },
         {
           title: "Productrooster-optimalisatie",

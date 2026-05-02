@@ -16,12 +16,21 @@ export const calculatingSeoRoi: AcademyTopic = {
           title: "The SEO ROI Formula for Ecommerce",
           content:
             "At its core, SEO ROI uses the same formula as any other investment: (Gain from Investment minus Cost of Investment) divided by Cost of Investment, multiplied by 100 to express it as a percentage. For ecommerce SEO, the gain is the revenue attributable to organic search, and the cost is everything you spend on SEO activities.\n\nThe challenge is accurately measuring both sides of this equation. On the gain side, you need to decide which attribution model to use. Last-click attribution credits revenue only to the final touchpoint before purchase. If a customer discovers your product through an organic search but returns through a paid ad to purchase, last-click gives SEO zero credit. Data-driven attribution in [GA4](/academy/seo-analytics-with-ga4) distributes credit more fairly across touchpoints but requires sufficient conversion volume to work reliably.\n\nOn the cost side, most companies undercount their true SEO investment. The obvious costs include SEO tools, agency fees, and content production. The less obvious costs include the portion of developer time spent on technical SEO, the internal team's salary allocation for SEO work, and the opportunity cost of choosing SEO over other marketing activities.\n\nA realistic monthly ROI calculation might look like this: organic search generated $150,000 in attributed revenue with a total SEO investment of $25,000, including $8,000 in agency fees, $5,000 in tools, $7,000 in content production, and $5,000 in allocated internal team costs. The ROI is ($150,000 minus $25,000) divided by $25,000, times 100, which equals 500%. For every dollar invested in SEO, the store received five dollars in return.",
+          image: {
+            src: "/images/academy/seo-roi-formula.svg",
+            alt: "Diagram showing the SEO ROI formula with revenue, costs breakdown, and a 500% ROI example calculation",
+            caption: "A realistic monthly ROI example: $150K organic revenue against $25K total SEO investment yields 500% ROI.",
+          },
           items: [
             "Use the standard ROI formula: (Revenue - Cost) / Cost x 100",
             "Choose an attribution model that fairly credits multi-touch journeys",
             "Include all SEO costs: tools, agency, content, developer time, and internal salaries",
             "Calculate ROI monthly but evaluate trends over 6-12 month periods",
           ],
+          callout: {
+            title: "Hidden Cost Trap",
+            text: "Developer time on technical SEO and internal salary allocations account for 30-40% of true SEO cost in most ecommerce companies. Omitting these inflates ROI by 2-3x and creates unrealistic expectations.",
+          },
           tip: "Track your SEO costs in a dedicated spreadsheet from day one. Most companies cannot calculate ROI accurately because they never tracked the cost side. Even rough estimates are better than nothing, but precise cost tracking makes your ROI calculations defensible when [reporting to stakeholders](/academy/seo-reporting-for-stakeholders).",
         },
         {
@@ -62,12 +71,21 @@ export const calculatingSeoRoi: AcademyTopic = {
           title: "Benchmarking SEO ROI Against Other Channels",
           content:
             "SEO ROI means little in isolation. Stakeholders want to know how SEO compares to paid search, social advertising, email marketing, and affiliate programs. Building a cross-channel ROI comparison helps allocate marketing budgets based on which channels deliver the most efficient returns.\n\nFor a fair comparison, use the same attribution model, time period, and cost methodology across all channels. If you calculate SEO ROI using data-driven attribution and a six-month lookback window, apply those same parameters to Google Ads, Meta Ads, and every other channel. Switching models between channels produces misleading comparisons.\n\nSEO typically shows a different ROI curve than paid channels. Paid search and social advertising generate immediate returns but have no residual value: when you stop spending, the traffic stops. SEO investment has a compounding effect. Content and technical improvements made today continue generating traffic and revenue for months or years without additional investment. This means SEO ROI tends to be lower in the first three to six months but significantly higher over twelve to twenty-four months.\n\nUse blended efficiency metrics for apples-to-apples comparison. Cost per acquisition from organic search versus paid search is one of the most compelling metrics. If your cost to acquire an organic customer is $12 while paid search costs $45 per customer, the efficiency case for SEO investment is clear even before considering the higher LTV of organic customers.\n\nPresent the cross-channel comparison as a portfolio view. The strongest marketing strategy typically involves a mix of channels where each plays a different role. Paid search captures high-intent, immediate demand. SEO builds sustainable, low-cost traffic over time. Email and social nurture existing relationships. Showing how these channels complement each other makes a stronger case for continued SEO investment than positioning SEO as a competitor to other channels. For a comprehensive overview of how organic fits into your marketing mix, read our guide on [ecommerce SEO](/blog/ecommerce-seo).",
+          image: {
+            src: "/images/academy/seo-roi-channel-comparison.svg",
+            alt: "Chart comparing SEO and paid search ROI over time, showing SEO's compounding returns overtaking paid after 6 months",
+            caption: "SEO ROI starts lower than paid channels but compounds over time. By month 12-24, organic typically delivers 3-5x the ROI of paid search.",
+          },
           items: [
             "Apply identical attribution models and time periods across all channels for fair comparison",
             "Account for SEO's compounding returns versus paid channels' immediate but temporary returns",
             "Compare cost per acquisition across channels as a key efficiency metric",
             "Present marketing as a channel portfolio where SEO plays a distinct long-term growth role",
           ],
+          callout: {
+            title: "CPA Benchmark",
+            text: "Ecommerce stores typically see organic customer acquisition cost of $8-15 versus $35-55 for paid search. Over a 24-month horizon, SEO ROI often exceeds paid search ROI by 3-5x due to compounding traffic gains.",
+          },
         },
       ],
       navLabels: {
@@ -86,12 +104,21 @@ export const calculatingSeoRoi: AcademyTopic = {
           title: "Die SEO-ROI-Formel fuer E-Commerce",
           content:
             "Im Kern verwendet der SEO-ROI dieselbe Formel wie jede andere Investition: (Gewinn aus der Investition minus Kosten der Investition) geteilt durch Kosten der Investition, multipliziert mit 100, um ihn als Prozentsatz auszudruecken. Fuer E-Commerce-SEO ist der Gewinn der der organischen Suche zurechenbare Umsatz, und die Kosten umfassen alles, was Sie fuer SEO-Aktivitaeten ausgeben.\n\nDie Herausforderung besteht darin, beide Seiten dieser Gleichung genau zu messen. Auf der Gewinnseite muessen Sie entscheiden, welches Attributionsmodell Sie verwenden. Last-Click-Attribution schreibt Umsatz nur dem letzten Touchpoint vor dem Kauf zu. Wenn ein Kunde Ihr Produkt ueber eine organische Suche entdeckt, aber ueber eine bezahlte Anzeige zurueckkehrt und kauft, erhaelt SEO bei Last-Click keine Gutschrift. Datengetriebene Attribution in [GA4](/academy/seo-analytics-with-ga4) verteilt die Gutschrift gerechter ueber Touchpoints.\n\nAuf der Kostenseite unterschaetzen die meisten Unternehmen ihre tatsaechliche SEO-Investition. Die offensichtlichen Kosten umfassen SEO-Tools, Agenturgebuehren und Content-Produktion. Die weniger offensichtlichen Kosten umfassen den Anteil der Entwicklerzeit fuer technisches SEO, die Gehaltsallokation des internen Teams fuer SEO-Arbeit und die Opportunitaetskosten.\n\nEine realistische monatliche ROI-Berechnung koennte so aussehen: Die organische Suche hat 150.000 Euro an zugerechnetem Umsatz generiert bei einer gesamten SEO-Investition von 25.000 Euro, einschliesslich 8.000 Euro Agenturgebuehren, 5.000 Euro Tools, 7.000 Euro Content-Produktion und 5.000 Euro allokierter interner Teamkosten. Der ROI betraegt (150.000 minus 25.000) geteilt durch 25.000, mal 100, also 500%.",
-          items: [
+                    image: {
+            src: "/images/academy/de/seo-roi-formula.svg",
+            alt: "Diagramm der SEO-ROI-Formel mit Umsatz, Kostenaufschluesselung und einer 500%-ROI-Beispielrechnung",
+            caption: "Ein realistisches monatliches ROI-Beispiel: 150.000 EUR organischer Umsatz gegenueber 25.000 EUR gesamter SEO-Investition ergibt 500% ROI.",
+          },
+items: [
             "Verwenden Sie die Standard-ROI-Formel: (Umsatz - Kosten) / Kosten x 100",
             "Waehlen Sie ein Attributionsmodell, das Multi-Touch-Journeys fair bewertet",
             "Beruecksichtigen Sie alle SEO-Kosten: Tools, Agentur, Content, Entwicklerzeit und interne Gehaelter",
             "Berechnen Sie den ROI monatlich, bewerten Sie aber Trends ueber 6-12-Monatszeitraeume",
           ],
+          callout: {
+            title: "Versteckte Kostenfalle",
+            text: "Entwicklerzeit fuer technisches SEO und interne Gehaltsallokationen machen 30-40% der tatsaechlichen SEO-Kosten in den meisten E-Commerce-Unternehmen aus. Das Weglassen dieser Kosten blaeht den ROI um das 2-3-fache auf und schafft unrealistische Erwartungen.",
+          },
           tip: "Erfassen Sie Ihre SEO-Kosten von Anfang an in einer dedizierten Tabelle. Die meisten Unternehmen koennen den ROI nicht genau berechnen, weil sie die Kostenseite nie erfasst haben. Selbst grobe Schaetzungen sind besser als nichts, aber praezise Kostenverfolgung macht Ihre ROI-Berechnungen gegenueber Stakeholdern verteidigbar. Weitere Informationen finden Sie in unserem Leitfaden zu [Reporting an Stakeholder](/academy/seo-reporting-for-stakeholders).",
         },
         {
@@ -132,12 +159,21 @@ export const calculatingSeoRoi: AcademyTopic = {
           title: "SEO-ROI gegen andere Kanaele benchmarken",
           content:
             "Der SEO-ROI bedeutet isoliert wenig. Stakeholder wollen wissen, wie SEO sich im Vergleich zu bezahlter Suche, Social-Media-Werbung, E-Mail-Marketing und Affiliate-Programmen verhaelt. Ein kanaluebergreifender ROI-Vergleich hilft, Marketingbudgets basierend auf den effizientesten Renditen zuzuweisen.\n\nFuer einen fairen Vergleich verwenden Sie dasselbe Attributionsmodell, denselben Zeitraum und dieselbe Kostenmethodik ueber alle Kanaele hinweg. Wenn Sie den SEO-ROI mit datengetriebener Attribution und einem Sechs-Monats-Rueckblick berechnen, wenden Sie diese Parameter auch auf Google Ads, Meta Ads und jeden anderen Kanal an.\n\nSEO zeigt typischerweise eine andere ROI-Kurve als bezahlte Kanaele. Bezahlte Suche und Social-Media-Werbung generieren sofortige Renditen, haben aber keinen Restwert: Wenn Sie aufhoeren zu zahlen, stoppt der Traffic. SEO-Investitionen haben einen Zinseszinseffekt. Content und technische Verbesserungen von heute generieren weiterhin Traffic und Umsatz fuer Monate oder Jahre ohne zusaetzliche Investition.\n\nVerwenden Sie gemischte Effizienzmetriken fuer einen fairen Vergleich. Kosten pro Akquisition aus organischer Suche versus bezahlter Suche ist eine der ueberzeugendsten Metriken. Wenn Ihre Kosten zur Gewinnung eines organischen Kunden 12 Euro betragen, waehrend bezahlte Suche 45 Euro pro Kunde kostet, ist das Effizienzargument fuer SEO-Investitionen klar.\n\nPraesentieren Sie den kanaluebergreifenden Vergleich als Portfolioansicht. Die staerkste Marketingstrategie umfasst typischerweise einen Kanalmix, bei dem jeder eine andere Rolle spielt. F\u00fcr einen tieferen Einblick lesen Sie unseren Leitfaden zu [Ecommerce-SEO](/blog/ecommerce-seo).",
-          items: [
+                    image: {
+            src: "/images/academy/de/seo-roi-channel-comparison.svg",
+            alt: "Diagramm zum Vergleich von SEO- und bezahltem Such-ROI im Zeitverlauf, das die kumulierenden Renditen von SEO zeigt",
+            caption: "SEO-ROI beginnt niedriger als bezahlte Kanaele, kumuliert aber ueber die Zeit. Ab Monat 12-24 liefert organisch typischerweise den 3-5-fachen ROI der bezahlten Suche.",
+          },
+items: [
             "Wenden Sie identische Attributionsmodelle und Zeitraeume ueber alle Kanaele an fuer fairen Vergleich",
             "Beruecksichtigen Sie SEOs Zinseszinsrenditen gegenueber den sofortigen aber voruebergehenden Renditen bezahlter Kanaele",
             "Vergleichen Sie Kosten pro Akquisition ueber Kanaele als zentrale Effizienzmetrik",
             "Praesentieren Sie Marketing als Kanalportfolio, in dem SEO eine eigenstaendige langfristige Wachstumsrolle spielt",
           ],
+          callout: {
+            title: "CPA-Benchmark",
+            text: "E-Commerce-Shops sehen typischerweise organische Kundenakquisitionskosten von 8-15 EUR gegenueber 35-55 EUR fuer bezahlte Suche. Ueber einen 24-Monats-Horizont uebersteigt der SEO-ROI den ROI der bezahlten Suche oft um das 3-5-fache durch kumulative Traffic-Gewinne.",
+          },
         },
       ],
       navLabels: {
@@ -163,6 +199,15 @@ export const calculatingSeoRoi: AcademyTopic = {
             "Calculez le ROI mensuellement mais evaluez les tendances sur des periodes de 6-12 mois",
           ],
           tip: "Suivez vos couts SEO dans un tableur dedie des le premier jour. La plupart des entreprises ne peuvent pas calculer le ROI avec precision parce qu'elles n'ont jamais suivi le cote des couts. Meme des estimations approximatives valent mieux que rien, mais un suivi precis des couts rend vos calculs ROI defensibles aupres des parties prenantes. Même des estimations approximatives valent mieux que rien, mais un suivi précis des coûts rend vos calculs de ROI défendables lors du [reporting aux parties prenantes](/academy/seo-reporting-for-stakeholders).",
+          image: {
+            src: "/images/academy/fr/seo-roi-formula.svg",
+            alt: "Diagramm der SEO-ROI-Formel mit Umsatz, Kostenaufschluesselung und einer 500%-ROI-Beispielrechnung",
+            caption: "Ein realistisches monatliches ROI-Beispiel: 150.000 EUR organischer Umsatz gegenueber 25.000 EUR gesamter SEO-Investition ergibt 500% ROI.",
+          },
+          callout: {
+            title: "Versteckte Kostenfalle",
+            text: "Entwicklerzeit fuer technisches SEO und interne Gehaltsallokationen machen 30-40% der tatsaechlichen SEO-Kosten in den meisten E-Commerce-Unternehmen aus. Das Weglassen dieser Kosten blaeht den ROI um das 2-3-fache auf und schafft unrealistische Erwartungen.",
+          },
         },
         {
           title: "Mesurer le cote revenus : modeles d'attribution",
@@ -208,6 +253,15 @@ export const calculatingSeoRoi: AcademyTopic = {
             "Comparez le cout par acquisition entre canaux comme metrique d'efficience cle",
             "Presentez le marketing comme un portefeuille de canaux ou le SEO joue un role de croissance long terme distinct",
           ],
+          image: {
+            src: "/images/academy/fr/seo-roi-channel-comparison.svg",
+            alt: "Diagramm zum Vergleich von SEO- und bezahltem Such-ROI im Zeitverlauf, das die kumulierenden Renditen von SEO zeigt",
+            caption: "SEO-ROI beginnt niedriger als bezahlte Kanaele, kumuliert aber ueber die Zeit. Ab Monat 12-24 liefert organisch typischerweise den 3-5-fachen ROI der bezahlten Suche.",
+          },
+          callout: {
+            title: "CPA-Benchmark",
+            text: "E-Commerce-Shops sehen typischerweise organische Kundenakquisitionskosten von 8-15 EUR gegenueber 35-55 EUR fuer bezahlte Suche. Ueber einen 24-Monats-Horizont uebersteigt der SEO-ROI den ROI der bezahlten Suche oft um das 3-5-fache durch kumulative Traffic-Gewinne.",
+          },
         },
       ],
       navLabels: {
@@ -233,6 +287,15 @@ export const calculatingSeoRoi: AcademyTopic = {
             "Calcula el ROI mensualmente pero evalua tendencias en periodos de 6-12 meses",
           ],
           tip: "Registra tus costos SEO en una hoja de calculo dedicada desde el dia uno. La mayoria de las empresas no pueden calcular el ROI con precision porque nunca rastrearon el lado del costo. Incluso estimaciones aproximadas son mejores que nada, pero el seguimiento preciso de costos hace que tus calculos de ROI sean defendibles al [reportar a stakeholders](/academy/seo-reporting-for-stakeholders).",
+          image: {
+            src: "/images/academy/es/seo-roi-formula.svg",
+            alt: "Diagramm der SEO-ROI-Formel mit Umsatz, Kostenaufschluesselung und einer 500%-ROI-Beispielrechnung",
+            caption: "Ein realistisches monatliches ROI-Beispiel: 150.000 EUR organischer Umsatz gegenueber 25.000 EUR gesamter SEO-Investition ergibt 500% ROI.",
+          },
+          callout: {
+            title: "Versteckte Kostenfalle",
+            text: "Entwicklerzeit fuer technisches SEO und interne Gehaltsallokationen machen 30-40% der tatsaechlichen SEO-Kosten in den meisten E-Commerce-Unternehmen aus. Das Weglassen dieser Kosten blaeht den ROI um das 2-3-fache auf und schafft unrealistische Erwartungen.",
+          },
         },
         {
           title: "Medir el lado de ingresos: modelos de atribucion",
@@ -278,6 +341,15 @@ export const calculatingSeoRoi: AcademyTopic = {
             "Compara el costo por adquisicion entre canales como metrica clave de eficiencia",
             "Presenta el marketing como un portafolio de canales donde el SEO juega un rol de crecimiento a largo plazo",
           ],
+          image: {
+            src: "/images/academy/es/seo-roi-channel-comparison.svg",
+            alt: "Diagramm zum Vergleich von SEO- und bezahltem Such-ROI im Zeitverlauf, das die kumulierenden Renditen von SEO zeigt",
+            caption: "SEO-ROI beginnt niedriger als bezahlte Kanaele, kumuliert aber ueber die Zeit. Ab Monat 12-24 liefert organisch typischerweise den 3-5-fachen ROI der bezahlten Suche.",
+          },
+          callout: {
+            title: "CPA-Benchmark",
+            text: "E-Commerce-Shops sehen typischerweise organische Kundenakquisitionskosten von 8-15 EUR gegenueber 35-55 EUR fuer bezahlte Suche. Ueber einen 24-Monats-Horizont uebersteigt der SEO-ROI den ROI der bezahlten Suche oft um das 3-5-fache durch kumulative Traffic-Gewinne.",
+          },
         },
       ],
       navLabels: {
@@ -303,6 +375,15 @@ export const calculatingSeoRoi: AcademyTopic = {
             "Calcolate il ROI mensilmente ma valutate le tendenze su periodi di 6-12 mesi",
           ],
           tip: "Tracciate i vostri costi SEO in un foglio di calcolo dedicato dal primo giorno. La maggior parte delle aziende non riesce a calcolare il ROI con precisione perche non ha mai tracciato il lato dei costi. Anche stime approssimative sono meglio di niente, ma il tracciamento preciso dei costi rende i vostri calcoli ROI difendibili davanti agli stakeholder. Approfondisci con la nostra guida sul [report per gli stakeholder](/academy/seo-reporting-for-stakeholders).",
+          image: {
+            src: "/images/academy/it/seo-roi-formula.svg",
+            alt: "Diagramm der SEO-ROI-Formel mit Umsatz, Kostenaufschluesselung und einer 500%-ROI-Beispielrechnung",
+            caption: "Ein realistisches monatliches ROI-Beispiel: 150.000 EUR organischer Umsatz gegenueber 25.000 EUR gesamter SEO-Investition ergibt 500% ROI.",
+          },
+          callout: {
+            title: "Versteckte Kostenfalle",
+            text: "Entwicklerzeit fuer technisches SEO und interne Gehaltsallokationen machen 30-40% der tatsaechlichen SEO-Kosten in den meisten E-Commerce-Unternehmen aus. Das Weglassen dieser Kosten blaeht den ROI um das 2-3-fache auf und schafft unrealistische Erwartungen.",
+          },
         },
         {
           title: "Misurare il lato ricavi: modelli di attribuzione",
@@ -348,6 +429,15 @@ export const calculatingSeoRoi: AcademyTopic = {
             "Confrontate il costo per acquisizione tra canali come metrica chiave di efficienza",
             "Presentate il marketing come un portafoglio di canali dove il SEO gioca un ruolo di crescita a lungo termine distinto",
           ],
+          image: {
+            src: "/images/academy/it/seo-roi-channel-comparison.svg",
+            alt: "Diagramm zum Vergleich von SEO- und bezahltem Such-ROI im Zeitverlauf, das die kumulierenden Renditen von SEO zeigt",
+            caption: "SEO-ROI beginnt niedriger als bezahlte Kanaele, kumuliert aber ueber die Zeit. Ab Monat 12-24 liefert organisch typischerweise den 3-5-fachen ROI der bezahlten Suche.",
+          },
+          callout: {
+            title: "CPA-Benchmark",
+            text: "E-Commerce-Shops sehen typischerweise organische Kundenakquisitionskosten von 8-15 EUR gegenueber 35-55 EUR fuer bezahlte Suche. Ueber einen 24-Monats-Horizont uebersteigt der SEO-ROI den ROI der bezahlten Suche oft um das 3-5-fache durch kumulative Traffic-Gewinne.",
+          },
         },
       ],
       navLabels: {
@@ -373,6 +463,15 @@ export const calculatingSeoRoi: AcademyTopic = {
             "Bereken ROI maandelijks maar beoordeel trends over perioden van 6-12 maanden",
           ],
           tip: "Houd uw SEO-kosten bij in een toegewijd spreadsheet vanaf dag een. De meeste bedrijven kunnen ROI niet nauwkeurig berekenen omdat ze de kostenzijde nooit hebben bijgehouden. Zelfs ruwe schattingen zijn beter dan niets, maar nauwkeurige kostenbijhouding maakt uw ROI-berekeningen verdedigbaar tegenover stakeholders.\n\nOns onderwerp over [rapportage aan stakeholders](/academy/seo-reporting-for-stakeholders) behandelt hoe je dit effectief doet.",
+          image: {
+            src: "/images/academy/nl/seo-roi-formula.svg",
+            alt: "Diagramm der SEO-ROI-Formel mit Umsatz, Kostenaufschluesselung und einer 500%-ROI-Beispielrechnung",
+            caption: "Ein realistisches monatliches ROI-Beispiel: 150.000 EUR organischer Umsatz gegenueber 25.000 EUR gesamter SEO-Investition ergibt 500% ROI.",
+          },
+          callout: {
+            title: "Versteckte Kostenfalle",
+            text: "Entwicklerzeit fuer technisches SEO und interne Gehaltsallokationen machen 30-40% der tatsaechlichen SEO-Kosten in den meisten E-Commerce-Unternehmen aus. Das Weglassen dieser Kosten blaeht den ROI um das 2-3-fache auf und schafft unrealistische Erwartungen.",
+          },
         },
         {
           title: "De omzetzijde meten: attributiemodellen",
@@ -418,6 +517,15 @@ export const calculatingSeoRoi: AcademyTopic = {
             "Vergelijk kosten per acquisitie tussen kanalen als belangrijke efficientie-metriek",
             "Presenteer marketing als een kanaalportfolio waarin SEO een onderscheidende langetermijn-groeirol speelt",
           ],
+          image: {
+            src: "/images/academy/nl/seo-roi-channel-comparison.svg",
+            alt: "Diagramm zum Vergleich von SEO- und bezahltem Such-ROI im Zeitverlauf, das die kumulierenden Renditen von SEO zeigt",
+            caption: "SEO-ROI beginnt niedriger als bezahlte Kanaele, kumuliert aber ueber die Zeit. Ab Monat 12-24 liefert organisch typischerweise den 3-5-fachen ROI der bezahlten Suche.",
+          },
+          callout: {
+            title: "CPA-Benchmark",
+            text: "E-Commerce-Shops sehen typischerweise organische Kundenakquisitionskosten von 8-15 EUR gegenueber 35-55 EUR fuer bezahlte Suche. Ueber einen 24-Monats-Horizont uebersteigt der SEO-ROI den ROI der bezahlten Suche oft um das 3-5-fache durch kumulative Traffic-Gewinne.",
+          },
         },
       ],
       navLabels: {

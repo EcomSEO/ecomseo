@@ -1,0 +1,33 @@
+<svg viewBox="0 0 480 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <text x="240" y="22" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#a78bfa">Content Audit Dicisión Matrix</text>
+  <!-- 4 buckets -->
+  <rect x="15" y="50" width="105" height="120" rx="10" fill="#4ade80" opacity="0.12" stroke="#4ade80" stroke-width="1.5"/>
+  <text x="67" y="78" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#4ade80">KEEP</text>
+  <text x="67" y="100" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Drives traffic</text>
+  <text x="67" y="114" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Has backlinks</text>
+  <text x="67" y="128" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Converts visitors</text>
+  <text x="67" y="155" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#4ade80">No action needed</text>
+  <rect x="130" y="50" width="105" height="120" rx="10" fill="#60a5fa" opacity="0.12" stroke="#60a5fa" stroke-width="1.5"/>
+  <text x="182" y="78" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#60a5fa">IMPROVE</text>
+  <text x="182" y="100" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Has potential</text>
+  <text x="182" y="114" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Needs updating</text>
+  <text x="182" y="128" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Weak optimization</text>
+  <text x="182" y="155" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#60a5fa">Refresh content</text>
+  <rect x="245" y="50" width="105" height="120" rx="10" fill="#f97316" opacity="0.12" stroke="#f97316" stroke-width="1.5"/>
+  <text x="297" y="78" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#f97316">MERGE</text>
+  <text x="297" y="100" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Overlapping topics</text>
+  <text x="297" y="114" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Same keywords</text>
+  <text x="297" y="128" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Cannibalization</text>
+  <text x="297" y="155" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#f97316">301 to strongest</text>
+  <rect x="360" y="50" width="105" height="120" rx="10" fill="#ef4444" opacity="0.12" stroke="#ef4444" stroke-width="1.5"/>
+  <text x="412" y="78" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#ef4444">REMOVE</text>
+  <text x="412" y="100" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Zero traffic</text>
+  <text x="412" y="114" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Sin backlinks</text>
+  <text x="412" y="128" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Thin / outdated</text>
+  <text x="412" y="155" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#ef4444">410 or redirect</text>
+  <!-- Bottom arrow -->
+  <line x1="67" y1="180" x2="412" y2="180" stroke="#e2e8f0" stroke-width="1" marker-end="url(#arrAudit)"/>
+  <defs><marker id="arrAudit" markerWidth="6" markerHeight="6" refX="3" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6Z" fill="#e2e8f0"/></marker></defs>
+  <text x="240" y="198" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Increasing action severity</text>
+  <text x="240" y="225" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#f97316">Pruning typically produces a net traffic gain within 6-8 semanas</text>
+</svg>

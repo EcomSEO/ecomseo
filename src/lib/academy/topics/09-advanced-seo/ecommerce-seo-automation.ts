@@ -49,6 +49,15 @@ export const ecommerceSeoAutomation: AcademyTopic = {
             "Deploy content change monitoring to detect unauthorized modifications to key pages",
           ],
           tip: "Build a single SEO health dashboard that aggregates data from Google Search Console, Google Analytics, your rank tracker, and your crawling tool. Having all metrics in one view makes it dramatically easier to spot correlations between site changes and performance impacts.",
+          image: {
+            src: "/images/academy/seo-monitoring-stack.svg",
+            alt: "Diagram showing SEO monitoring system with Search Console, rank tracker, Rich Results API, and PageSpeed API feeding into a unified dashboard with alert triggers",
+            caption: "Automated monitoring catches issues before they impact traffic. Set up alerts for index drops exceeding 5%, keyword drops beyond 5 positions, schema errors, and Core Web Vitals failures.",
+          },
+          callout: {
+            title: "Early Warning System",
+            text: "Without automated monitoring, SEO issues can persist for weeks before anyone notices. A 5% index count drop alert catches accidental noindex tags, robots.txt changes, and server errors within 24 hours.",
+          },
         },
         {
           title: "API-Driven SEO Workflows",
@@ -61,6 +70,15 @@ export const ecommerceSeoAutomation: AcademyTopic = {
             "Create content freshness workflows that sync product data between inventory and site pages",
           ],
           tip: "Start small with API automation. Build one workflow that solves your biggest pain point, test it thoroughly, and then expand. Attempting to automate everything at once leads to brittle systems that break when any single API changes its response format.",
+          image: {
+            src: "/images/academy/seo-api-workflow.svg",
+            alt: "Flowchart showing API-driven SEO workflow from data extraction through scoring and automated actions like redirect creation and content freshness syncing",
+            caption: "Pull data from GSC, GA4, and platform APIs, then merge into a scoring model that prioritizes pages by traffic potential, revenue contribution, and optimization gap.",
+          },
+          callout: {
+            title: "Start Small, Scale Up",
+            text: "Build one API workflow solving your biggest pain point first. Automated redirect creation when products are discontinued prevents 404 accumulation and preserves link equity across your catalog.",
+          },
         },
         {
           title: "Template-Based Optimization at Scale",
@@ -126,25 +144,43 @@ export const ecommerceSeoAutomation: AcademyTopic = {
           title: "Automatisiertes Monitoring und Alarmsysteme",
           content:
             "Automatisiertes Monitoring erkennt SEO-Probleme, bevor sie den Traffic beeintraechtigen. Die wichtigsten Monitoring-Systeme verfolgen Indexierungsaenderungen, Crawl-Fehler, Ranking-Schwankungen und die Gueltigkeit strukturierter Daten. Ohne Automatisierung koennen diese Probleme wochenlang bestehen bleiben, bevor sie jemandem auffallen.\n\nRichten Sie eine Google Search Console API-Integration ein, um Indexierungsdaten in ein Monitoring-Dashboard zu uebertragen. Verfolgen Sie die Gesamtzahl indexierter Seiten taeglich und loesen Sie Alarme aus, wenn die Zahl innerhalb von 24 Stunden um mehr als 5 Prozent sinkt. Dies erkennt versehentliche noindex-Tags, Robots.txt-Aenderungen und Serverfehler.\n\nDas Ranking-Monitoring sollte ueber ein [Rank-Tracking](/academy/rank-tracking-for-ecommerce)-Tool automatisiert werden, das Ihre Ziel-Keywords taeglich ueberprueft. Konfigurieren Sie Alarme fuer jedes Keyword, das mehr als fuenf Positionen verliert oder von der ersten Seite faellt. Korrelieren Sie Ranking-Verluste mit Website-Aenderungen durch ein Aenderungsprotokoll.\n\nDie Validierung strukturierter Daten sollte automatisch nach jeder Aenderung am Produktseiten-Template laufen. Verwenden Sie die Google Rich Results Test API, um nach jedem Theme-Deployment eine Stichprobe von Seiten zu validieren. Wenn strukturierte Datenfehler erkannt werden, sollte die Deployment-Pipeline das Problem kennzeichnen.\n\nDas Page-Speed-Monitoring integriert sich mit der Google PageSpeed Insights API oder CrUX-Daten, um Core Web Vitals ueber die Zeit zu verfolgen. Setzen Sie Schwellenwerte fuer LCP, CLS und INP, die Alarme ausloesen, wenn die Leistung nachlasst.\n\nDas Content-Aenderungsmonitoring ueberwacht unerwartete Aenderungen an Schluesselseiten. Tools wie ContentKing, Lumar oder benutzerdefinierte Skripte koennen erkennen, wenn sich Title-Tags, Meta-Beschreibungen, Canonical Tags oder Ueberschriftenstrukturen aendern.",
-          items: [
+                    image: {
+            src: "/images/academy/de/seo-monitoring-stack.svg",
+            alt: "SEO-Ueberwachungs- und Alarm-Stack mit Crawl-, Ranking-, Traffic-, Verfuegbarkeits- und Log-Ueberwachung",
+            caption: "Automatisiertes Monitoring erkennt SEO-Probleme bevor sie Umsatz kosten. Richten Sie Alarme fuer alle fuenf Ebenen ein.",
+          },
+items: [
             "Google Search Console API integrieren, um Indexierungsaenderungen mit 5%-Rueckgang-Alarmen zu ueberwachen",
             "Taegliches Rank-Tracking mit Alarmen fuer Keywords einrichten, die mehr als fuenf Positionen verlieren",
             "Validierung strukturierter Daten nach jedem Theme-Deployment ueber die Rich Results Test API automatisieren",
             "Core Web Vitals ueber die PageSpeed Insights API mit Leistungsverschlechterungs-Alarmen ueberwachen",
             "Content-Aenderungsmonitoring implementieren, um unautorisierte Aenderungen an Schluesselseiten zu erkennen",
           ],
+          callout: {
+            title: "Alarm-Muedigkeit",
+            text: "Zu viele Alarme fuehren dazu, dass Teams sie ignorieren. Setzen Sie Schwellenwerte so, dass nur signifikante Aenderungen (10%+ Abweichung) einen Alarm ausloesen. Kleinere Schwankungen gehoeren in woechentliche Berichte.",
+          },
           tip: "Erstellen Sie ein einzelnes SEO-Health-Dashboard, das Daten aus Google Search Console, Google Analytics, Ihrem Rank-Tracker und Ihrem Crawling-Tool zusammenfuehrt. Alle Metriken in einer Ansicht zu haben, erleichtert es erheblich, Korrelationen zwischen Website-Aenderungen und Leistungsauswirkungen zu erkennen.",
         },
         {
           title: "API-gesteuerte SEO-Workflows",
           content:
             "Modernes E-Commerce-SEO setzt zunehmend auf API-Integrationen, um Datenquellen zu verbinden, Entscheidungen zu automatisieren und Optimierungen ohne manuellen Eingriff durchzufuehren. Die Google Search Console API, die Google Analytics Data API und die API Ihrer E-Commerce-Plattform bilden die Grundlage eines automatisierten SEO-Workflows.\n\nEin praktischer API-Workflow beginnt mit der Datenextraktion. Extrahieren Sie organische Landingpage-Performance aus der Google Analytics Data API, Keyword-Impression- und Klickdaten aus der Search Console API und Produktkatalogdaten aus der API Ihrer E-Commerce-Plattform. Fuehren Sie diese Datensaetze zusammen, um einen umfassenden Ueberblick zu schaffen.\n\nVerwenden Sie diese zusammengefuehrten Daten zur automatisierten Priorisierung der Optimierung. Erstellen Sie ein Bewertungsmodell, das Produktseiten nach einer Kombination aus organischem Traffic-Potenzial, Umsatzbeitrag und Optimierungsluecke bewertet. Seiten mit hohem Potenzial und grossen Optimierungsluecken sollten fuer sofortige Aufmerksamkeit markiert werden.\n\nAutomatisieren Sie die Redirect-Verwaltung ueber die API Ihrer Plattform. Wenn Produkte eingestellt werden, erstellen Sie automatisch 301-Weiterleitungen von der alten Produkt-URL auf die relevanteste alternative Produkt- oder Kategorieseite. Dies verhindert die Ansammlung von 404-Fehlern.\n\nErstellen Sie automatisierte Workflows fuer die Inhaltsaktualisierung, die Produktseiten mit veralteten Informationen identifizieren. Vergleichen Sie Produktdaten aus Ihrem Bestandssystem mit dem, was auf der Live-Website erscheint. Wenn sich Preise, Verfuegbarkeit oder Spezifikationen in Ihrem Bestandssystem aendern, sollte der Workflow eine Aktualisierung der entsprechenden Produktseite ausloesen.\n\nFuer Multi-Channel-Haendler koennen API-Workflows SEO-Elemente ueber Marktplaetze hinweg synchronisieren. Wenn Sie einen Produkttitel oder eine Beschreibung auf Ihrer primaeren Website optimieren, kann der Workflow diese Aenderungen an Amazon, Google Shopping und andere Kanaele weitergeben.",
-          items: [
+                    image: {
+            src: "/images/academy/de/seo-api-workflow.svg",
+            alt: "API-gesteuerter SEO-Workflow: Datenquellen, Verarbeitung, Aktionen und Berichterstellung",
+            caption: "Automatisieren Sie repetitive SEO-Aufgaben mit APIs und konzentrieren Sie menschliche Kapazitaet auf Strategie.",
+          },
+items: [
             "Performance-Daten aus Google Search Console und Analytics APIs fuer automatisierte Analyse abrufen",
             "Ein Bewertungsmodell erstellen, um die Optimierung von Produktseiten nach Traffic-Potenzial und Umsatz zu priorisieren",
             "Redirect-Erstellung automatisieren, wenn Produkte eingestellt werden, unter Nutzung der Plattform-API",
             "Workflows fuer Inhaltsaktualisierung erstellen, die Produktdaten zwischen Bestandssystem und Website-Seiten synchronisieren",
           ],
+          callout: {
+            title: "Automatisierungs-ROI",
+            text: "Die Ersteinrichtung von SEO-Automatisierung kostet 40-80 Stunden Entwicklerzeit, spart aber typischerweise 10-20 Stunden pro Woche an manueller Arbeit. Der Break-even liegt meist bei 4-8 Wochen.",
+          },
           tip: "Beginnen Sie mit der API-Automatisierung im kleinen Massstab. Erstellen Sie einen Workflow, der Ihren groessten Schmerzpunkt loest, testen Sie ihn gruendlich und erweitern Sie dann. Der Versuch, alles auf einmal zu automatisieren, fuehrt zu fragilen Systemen, die brechen, wenn eine einzelne API ihr Antwortformat aendert.",
         },
         {
@@ -219,6 +255,15 @@ export const ecommerceSeoAutomation: AcademyTopic = {
             "Deployer la surveillance des changements de contenu pour detecter les modifications non autorisees sur les pages cles",
           ],
           tip: "Construisez un tableau de bord unique de sante SEO qui agrege les donnees de Google Search Console, Google Analytics, votre outil de suivi de positions et votre outil de crawl. Avoir toutes les metriques dans une seule vue facilite considerablement la detection des correlations entre les changements du site et les impacts sur les performances.",
+          image: {
+            src: "/images/academy/fr/seo-monitoring-stack.svg",
+            alt: "SEO-Ueberwachungs- und Alarm-Stack mit Crawl-, Ranking-, Traffic-, Verfuegbarkeits- und Log-Ueberwachung",
+            caption: "Automatisiertes Monitoring erkennt SEO-Probleme bevor sie Umsatz kosten. Richten Sie Alarme fuer alle fuenf Ebenen ein.",
+          },
+          callout: {
+            title: "Alarm-Muedigkeit",
+            text: "Zu viele Alarme fuehren dazu, dass Teams sie ignorieren. Setzen Sie Schwellenwerte so, dass nur signifikante Aenderungen (10%+ Abweichung) einen Alarm ausloesen. Kleinere Schwankungen gehoeren in woechentliche Berichte.",
+          },
         },
         {
           title: "Workflows SEO pilotes par API",
@@ -231,6 +276,15 @@ export const ecommerceSeoAutomation: AcademyTopic = {
             "Creer des workflows de fraicheur de contenu synchronisant les donnees produit entre l'inventaire et les pages du site",
           ],
           tip: "Commencez petit avec l'automatisation API. Construisez un workflow qui resout votre plus gros point de douleur, testez-le en profondeur, puis etendez. Tenter de tout automatiser en meme temps conduit a des systemes fragiles qui cassent quand une seule API change son format de reponse.",
+          image: {
+            src: "/images/academy/fr/seo-api-workflow.svg",
+            alt: "API-gesteuerter SEO-Workflow: Datenquellen, Verarbeitung, Aktionen und Berichterstellung",
+            caption: "Automatisieren Sie repetitive SEO-Aufgaben mit APIs und konzentrieren Sie menschliche Kapazitaet auf Strategie.",
+          },
+          callout: {
+            title: "Automatisierungs-ROI",
+            text: "Die Ersteinrichtung von SEO-Automatisierung kostet 40-80 Stunden Entwicklerzeit, spart aber typischerweise 10-20 Stunden pro Woche an manueller Arbeit. Der Break-even liegt meist bei 4-8 Wochen.",
+          },
         },
         {
           title: "Optimisation basee sur les modeles a grande echelle",
@@ -304,6 +358,15 @@ export const ecommerceSeoAutomation: AcademyTopic = {
             "Implementar monitoreo de cambios de contenido para detectar modificaciones no autorizadas en paginas clave",
           ],
           tip: "Construye un unico panel de salud SEO que agregue datos de Google Search Console, Google Analytics, tu herramienta de seguimiento de posiciones y tu herramienta de rastreo. Tener todas las metricas en una vista facilita enormemente detectar correlaciones entre cambios del sitio e impactos en el rendimiento.",
+          image: {
+            src: "/images/academy/es/seo-monitoring-stack.svg",
+            alt: "SEO-Ueberwachungs- und Alarm-Stack mit Crawl-, Ranking-, Traffic-, Verfuegbarkeits- und Log-Ueberwachung",
+            caption: "Automatisiertes Monitoring erkennt SEO-Probleme bevor sie Umsatz kosten. Richten Sie Alarme fuer alle fuenf Ebenen ein.",
+          },
+          callout: {
+            title: "Alarm-Muedigkeit",
+            text: "Zu viele Alarme fuehren dazu, dass Teams sie ignorieren. Setzen Sie Schwellenwerte so, dass nur signifikante Aenderungen (10%+ Abweichung) einen Alarm ausloesen. Kleinere Schwankungen gehoeren in woechentliche Berichte.",
+          },
         },
         {
           title: "Flujos de trabajo SEO impulsados por API",
@@ -316,6 +379,15 @@ export const ecommerceSeoAutomation: AcademyTopic = {
             "Crear flujos de trabajo de frescura de contenido que sincronicen datos de producto entre inventario y paginas del sitio",
           ],
           tip: "Comienza en pequeno con la automatizacion API. Construye un flujo de trabajo que resuelva tu mayor punto de dolor, pruebalo exhaustivamente y luego expande. Intentar automatizar todo a la vez conduce a sistemas fragiles que se rompen cuando una sola API cambia su formato de respuesta.",
+          image: {
+            src: "/images/academy/es/seo-api-workflow.svg",
+            alt: "API-gesteuerter SEO-Workflow: Datenquellen, Verarbeitung, Aktionen und Berichterstellung",
+            caption: "Automatisieren Sie repetitive SEO-Aufgaben mit APIs und konzentrieren Sie menschliche Kapazitaet auf Strategie.",
+          },
+          callout: {
+            title: "Automatisierungs-ROI",
+            text: "Die Ersteinrichtung von SEO-Automatisierung kostet 40-80 Stunden Entwicklerzeit, spart aber typischerweise 10-20 Stunden pro Woche an manueller Arbeit. Der Break-even liegt meist bei 4-8 Wochen.",
+          },
         },
         {
           title: "Optimizacion basada en plantillas a escala",
@@ -389,6 +461,15 @@ export const ecommerceSeoAutomation: AcademyTopic = {
             "Implementare il monitoraggio delle modifiche ai contenuti per rilevare modifiche non autorizzate alle pagine chiave",
           ],
           tip: "Costruisci un'unica dashboard di salute SEO che aggreghi dati da Google Search Console, Google Analytics, il tuo strumento di tracciamento posizioni e il tuo strumento di crawling. Avere tutte le metriche in un'unica vista rende enormemente piu facile individuare correlazioni tra modifiche al sito e impatti sulle performance.",
+          image: {
+            src: "/images/academy/it/seo-monitoring-stack.svg",
+            alt: "SEO-Ueberwachungs- und Alarm-Stack mit Crawl-, Ranking-, Traffic-, Verfuegbarkeits- und Log-Ueberwachung",
+            caption: "Automatisiertes Monitoring erkennt SEO-Probleme bevor sie Umsatz kosten. Richten Sie Alarme fuer alle fuenf Ebenen ein.",
+          },
+          callout: {
+            title: "Alarm-Muedigkeit",
+            text: "Zu viele Alarme fuehren dazu, dass Teams sie ignorieren. Setzen Sie Schwellenwerte so, dass nur signifikante Aenderungen (10%+ Abweichung) einen Alarm ausloesen. Kleinere Schwankungen gehoeren in woechentliche Berichte.",
+          },
         },
         {
           title: "Workflow SEO guidati da API",
@@ -401,6 +482,15 @@ export const ecommerceSeoAutomation: AcademyTopic = {
             "Creare workflow di freschezza dei contenuti che sincronizzino i dati prodotto tra inventario e pagine del sito",
           ],
           tip: "Inizia in piccolo con l'automazione API. Costruisci un workflow che risolva il tuo problema piu grande, testalo a fondo, e poi espandi. Tentare di automatizzare tutto contemporaneamente porta a sistemi fragili che si rompono quando una singola API cambia il suo formato di risposta.",
+          image: {
+            src: "/images/academy/it/seo-api-workflow.svg",
+            alt: "API-gesteuerter SEO-Workflow: Datenquellen, Verarbeitung, Aktionen und Berichterstellung",
+            caption: "Automatisieren Sie repetitive SEO-Aufgaben mit APIs und konzentrieren Sie menschliche Kapazitaet auf Strategie.",
+          },
+          callout: {
+            title: "Automatisierungs-ROI",
+            text: "Die Ersteinrichtung von SEO-Automatisierung kostet 40-80 Stunden Entwicklerzeit, spart aber typischerweise 10-20 Stunden pro Woche an manueller Arbeit. Der Break-even liegt meist bei 4-8 Wochen.",
+          },
         },
         {
           title: "Ottimizzazione basata su template su larga scala",
@@ -474,6 +564,15 @@ export const ecommerceSeoAutomation: AcademyTopic = {
             "Contentwijzigingsmonitoring implementeren om ongeautoriseerde wijzigingen aan belangrijke pagina's te detecteren",
           ],
           tip: "Bouw een enkel SEO-gezondheidsdashboard dat gegevens aggregeert uit Google Search Console, Google Analytics, je rankingtracker en je crawlingtool. Alle metrieken in een weergave hebben maakt het aanzienlijk eenvoudiger om correlaties te ontdekken tussen sitewijzigingen en prestatie-effecten.",
+          image: {
+            src: "/images/academy/nl/seo-monitoring-stack.svg",
+            alt: "SEO-Ueberwachungs- und Alarm-Stack mit Crawl-, Ranking-, Traffic-, Verfuegbarkeits- und Log-Ueberwachung",
+            caption: "Automatisiertes Monitoring erkennt SEO-Probleme bevor sie Umsatz kosten. Richten Sie Alarme fuer alle fuenf Ebenen ein.",
+          },
+          callout: {
+            title: "Alarm-Muedigkeit",
+            text: "Zu viele Alarme fuehren dazu, dass Teams sie ignorieren. Setzen Sie Schwellenwerte so, dass nur signifikante Aenderungen (10%+ Abweichung) einen Alarm ausloesen. Kleinere Schwankungen gehoeren in woechentliche Berichte.",
+          },
         },
         {
           title: "API-gestuurde SEO-workflows",
@@ -486,6 +585,15 @@ export const ecommerceSeoAutomation: AcademyTopic = {
             "Workflows voor contentversheid maken die productgegevens synchroniseren tussen voorraad en sitepagina's",
           ],
           tip: "Begin klein met API-automatisering. Bouw een workflow die je grootste pijnpunt oplost, test het grondig en breid dan uit. Proberen alles tegelijk te automatiseren leidt tot fragiele systemen die breken wanneer een enkele API zijn responsformaat wijzigt.",
+          image: {
+            src: "/images/academy/nl/seo-api-workflow.svg",
+            alt: "API-gesteuerter SEO-Workflow: Datenquellen, Verarbeitung, Aktionen und Berichterstellung",
+            caption: "Automatisieren Sie repetitive SEO-Aufgaben mit APIs und konzentrieren Sie menschliche Kapazitaet auf Strategie.",
+          },
+          callout: {
+            title: "Automatisierungs-ROI",
+            text: "Die Ersteinrichtung von SEO-Automatisierung kostet 40-80 Stunden Entwicklerzeit, spart aber typischerweise 10-20 Stunden pro Woche an manueller Arbeit. Der Break-even liegt meist bei 4-8 Wochen.",
+          },
         },
         {
           title: "Templategebaseerde optimalisatie op schaal",

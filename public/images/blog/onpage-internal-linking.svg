@@ -1,0 +1,44 @@
+<svg viewBox="0 0 680 320" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <text x="340" y="28" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#a78bfa">Ecommerce Internal Linking Architecture</text>
+  <g transform="translate(270,45)">
+    <rect x="0" y="0" width="140" height="35" rx="6" stroke="#a78bfa" stroke-width="2" fill="none"/>
+    <text x="70" y="22" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#a78bfa">Homepage</text>
+  </g>
+  <line x1="340" y1="80" x2="340" y2="95" stroke="#a78bfa" stroke-width="1" stroke-dasharray="4"/>
+  <line x1="140" y1="100" x2="540" y2="100" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="4"/>
+  <line x1="140" y1="100" x2="140" y2="110" stroke="#e2e8f0" stroke-width="1"/>
+  <line x1="340" y1="100" x2="340" y2="110" stroke="#e2e8f0" stroke-width="1"/>
+  <line x1="540" y1="100" x2="540" y2="110" stroke="#e2e8f0" stroke-width="1"/>
+  <g transform="translate(70,112)">
+    <rect x="0" y="0" width="140" height="35" rx="6" stroke="#60a5fa" stroke-width="2" fill="none"/>
+    <text x="70" y="22" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#60a5fa">Categories</text>
+  </g>
+  <g transform="translate(270,112)">
+    <rect x="0" y="0" width="140" height="35" rx="6" stroke="#60a5fa" stroke-width="2" fill="none"/>
+    <text x="70" y="22" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#60a5fa">Blog / Guides</text>
+  </g>
+  <g transform="translate(470,112)">
+    <rect x="0" y="0" width="140" height="35" rx="6" stroke="#60a5fa" stroke-width="2" fill="none"/>
+    <text x="70" y="22" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#60a5fa">Subcategories</text>
+  </g>
+  <line x1="140" y1="147" x2="140" y2="165" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="4"/>
+  <line x1="540" y1="147" x2="540" y2="165" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="4"/>
+  <g transform="translate(70,168)">
+    <rect x="0" y="0" width="140" height="35" rx="6" stroke="#4ade80" stroke-width="2" fill="none"/>
+    <text x="70" y="22" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#4ade80">Products</text>
+  </g>
+  <g transform="translate(470,168)">
+    <rect x="0" y="0" width="140" height="35" rx="6" stroke="#4ade80" stroke-width="2" fill="none"/>
+    <text x="70" y="22" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#4ade80">Products</text>
+  </g>
+  <line x1="210" y1="185" x2="340" y2="147" stroke="#f97316" stroke-width="1" stroke-dasharray="4"/>
+  <line x1="470" y1="185" x2="340" y2="147" stroke="#f97316" stroke-width="1" stroke-dasharray="4"/>
+  <text x="300" y="165" font-family="Arial,sans-serif" font-size="8" fill="#f97316">contextual links</text>
+  <g transform="translate(40,225)">
+    <rect x="0" y="0" width="600" height="75" rx="6" stroke="#f97316" stroke-width="2" fill="none"/>
+    <text x="300" y="20" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#f97316">Key Linking Rules</text>
+    <text x="15" y="40" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Use descriptive anchor text ("women's running shoes" not "click here")</text>
+    <text x="15" y="56" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Every product needs 5+ internal links -- audit pages with zero links beyond category grid</text>
+    <text x="15" y="72" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Blog posts link to products + categories -- cross-sell sections link related products</text>
+  </g>
+</svg>

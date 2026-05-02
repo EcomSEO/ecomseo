@@ -16,17 +16,35 @@ export const healthBeautySeo: AcademyTopic = {
           title: "Ingredient-Based Keyword Strategy",
           content:
             "Beauty shoppers increasingly search by ingredient rather than brand or product type. Queries like \"niacinamide serum,\" \"retinol moisturizer,\" and \"salicylic acid cleanser\" carry strong commercial intent and often convert at higher rates than generic category searches. Build your keyword strategy around the active ingredients in your product line.\n\nCreate dedicated landing pages for each hero ingredient your products contain. A page targeting \"hyaluronic acid products\" should explain what the ingredient does, who it benefits, how to use it, and then show your relevant products. This structure satisfies both informational and transactional intent on a single page.\n\nMap ingredient keywords to product pages as well. Each product page should prominently feature its key active ingredients in the title tag, H1, meta description, and body copy. A product titled \"Vitamin C Brightening Serum\" will outperform \"Radiance Booster XR\" for organic search because shoppers search by ingredient, not by brand-invented names.\n\nTrack emerging ingredient trends. Ingredients like bakuchiol, peptides, and tranexamic acid have seen rapid search growth. Monitor beauty publications, Reddit skincare communities, and Google Trends to spot rising ingredients before your competitors build dedicated pages.",
+          image: {
+            src: "/images/academy/health-ingredient-search-funnel.svg",
+            alt: "Diagram showing the ingredient-based search strategy flow from informational queries through ingredient hub pages to commercial product pages, with emerging ingredient trends",
+            caption: "Ingredient hub pages bridge informational and commercial intent. Each hub explains the ingredient, its benefits, and links to relevant products below.",
+          },
           items: [
             "Create dedicated landing pages for each key active ingredient in your catalog",
             "Include ingredient names in product title tags, H1s, and meta descriptions",
             "Track emerging ingredient trends through beauty publications and communities",
             "Map ingredient queries to both educational content and product pages",
           ],
+          callout: {
+            title: "Name Beats Brand",
+            text: "A product titled \"Vitamin C Brightening Serum\" outperforms \"Radiance Booster XR\" in organic search because shoppers search by ingredient, not brand-invented names. Include the active ingredient and its concentration in every product title.",
+          },
         },
         {
           title: "YMYL Compliance and E-E-A-T Signals",
           content:
             "Google holds health and beauty content to YMYL (Your Money or Your Life) standards. Pages that make health claims, recommend treatments, or discuss ingredients with physiological effects face heightened scrutiny. Weak E-E-A-T signals can prevent otherwise well-optimized pages from reaching page one.\n\nEstablish author credibility for all educational content. Blog posts about skincare routines, ingredient benefits, or product selection should list the author's qualifications, dermatologist, licensed esthetician, cosmetic chemist, or certified nutritionist. Link author names to dedicated bio pages that list credentials, professional affiliations, and publications.\n\nCite reputable sources when making claims about ingredients or benefits. Link to peer-reviewed studies, FDA guidelines, or recognized dermatological associations. A product page claiming \"reduces wrinkles by 40%\" without a cited clinical study will struggle to rank under YMYL evaluation.\n\nAdd a medical disclaimer to pages that discuss health-related topics. This does not directly improve rankings, but it signals responsible content practices to quality raters. Include a statement like \"This content is for informational purposes and does not constitute medical advice. Consult a healthcare professional before starting any new supplement or skincare regimen.\"",
+          image: {
+            src: "/images/academy/health-eeat-pillars.svg",
+            alt: "Diagram showing the four E-E-A-T pillars for health and beauty YMYL content: Experience, Expertise, Authority, and Trust with specific signals for each",
+            caption: "Health and beauty content faces heightened YMYL scrutiny. Each pillar must be addressed with specific, verifiable signals to reach page one.",
+          },
+          callout: {
+            title: "YMYL Quality Bar",
+            text: "A product page claiming \"reduces wrinkles by 40%\" without a cited clinical study will struggle to rank under YMYL evaluation. Every health-related claim needs a link to peer-reviewed research or recognized medical guidelines.",
+          },
           tip: "Create a dedicated \"Our Experts\" page listing every contributor to your educational content. Include headshots, credentials, and links to external profiles (LinkedIn, professional association memberships). This centralized credibility page strengthens E-E-A-T across your entire site.",
         },
         {
@@ -73,18 +91,36 @@ export const healthBeautySeo: AcademyTopic = {
           title: "Inhaltsstoff-basierte Keyword-Strategie",
           content:
             "Beauty-Kaeufer suchen zunehmend nach Inhaltsstoffen statt nach Marke oder Produkttyp. Suchanfragen wie \"Niacinamid Serum,\" \"Retinol Feuchtigkeitscreme\" und \"Salicylsaeure Reiniger\" haben eine starke kommerzielle Absicht und konvertieren oft besser als generische Kategoriesuchen. Bauen Sie Ihre Keyword-Strategie rund um die Wirkstoffe Ihrer Produktlinie auf.\n\nErstellen Sie dedizierte Landingpages fuer jeden Hero-Inhaltsstoff Ihrer Produkte. Eine Seite, die auf \"Hyaluronsaeure Produkte\" abzielt, sollte erklaeren, was der Inhaltsstoff bewirkt, wem er nuetzt, wie man ihn verwendet, und dann Ihre relevanten Produkte praesentieren.\n\nOrdnen Sie Inhaltsstoff-Keywords auch Produktseiten zu. Jede Produktseite sollte ihre wichtigsten Wirkstoffe prominent im Titel-Tag, H1, Meta-Beschreibung und Fliesstext enthalten. Ein Produkt mit dem Titel \"Vitamin C Aufhellendes Serum\" wird bei der organischen Suche besser abschneiden als \"Strahlkraft-Booster XR\".\n\nVerfolgen Sie aufkommende Inhaltsstoff-Trends. Inhaltsstoffe wie Bakuchiol, Peptide und Tranexamsaeure haben rapides Suchvolumenwachstum verzeichnet. Ueberwachen Sie Beauty-Publikationen, Reddit-Skincare-Communities und Google Trends, um aufstrebende Inhaltsstoffe frueh zu erkennen.",
-          items: [
+                    image: {
+            src: "/images/academy/de/health-ingredient-search-funnel.svg",
+            alt: "Inhaltsstoffbasierter Suchtrichter von Aufklaerung ueber Vergleich zum Kauf",
+            caption: "Inhaltsstoff-Aufklaerung baut Vertrauen auf und fuehrt Nutzer natuerlich von informativen zu transaktionalen Suchanfragen.",
+          },
+items: [
             "Dedizierte Landingpages fuer jeden wichtigen Wirkstoff im Katalog erstellen",
             "Inhaltsstoffnamen in Produkt-Titel-Tags, H1s und Meta-Beschreibungen aufnehmen",
             "Aufkommende Inhaltsstoff-Trends ueber Beauty-Publikationen und Communities verfolgen",
             "Inhaltsstoff-Suchanfragen sowohl auf Bildungsinhalte als auch auf Produktseiten abbilden",
           ],
+          callout: {
+            title: "E-E-A-T in der Gesundheitsnische",
+            text: "Google stuft Gesundheits- und Beauty-Content als YMYL ein. Ohne Expertenautor, zitierte Quellen und medizinische Pruefung ranken Inhaltsstoff-Artikel selten auf der ersten Seite.",
+          },
         },
         {
           title: "YMYL-Konformitaet und E-E-A-T-Signale",
           content:
             "Google bewertet Gesundheits- und Beauty-Content nach YMYL-Standards. Seiten, die Gesundheitsaussagen machen, Behandlungen empfehlen oder Inhaltsstoffe mit physiologischen Wirkungen diskutieren, stehen unter erhoehter Pruefung. Schwache E-E-A-T-Signale koennen ansonsten gut optimierte Seiten daran hindern, Seite eins zu erreichen.\n\nStellen Sie die Autoren-Glaubwuerdigkeit fuer alle Bildungsinhalte her. Blogbeitraege ueber Hautpflegeroutinen, Inhaltsstoffvorteile oder Produktauswahl sollten die Qualifikationen des Autors auflisten, Dermatologe, lizenzierte Kosmetikerin, Kosmetikchemiker oder zertifizierter Ernaehrungsberater.\n\nZitieren Sie seriöse Quellen bei Aussagen ueber Inhaltsstoffe oder Vorteile. Verlinken Sie auf peer-reviewed Studien, FDA-Richtlinien oder anerkannte dermatologische Vereinigungen. Eine Produktseite, die \"reduziert Falten um 40%\" behauptet, ohne eine zitierte klinische Studie, wird unter YMYL-Bewertung Schwierigkeiten haben zu ranken.\n\nFuegen Sie einen medizinischen Haftungsausschluss zu Seiten hinzu, die gesundheitsbezogene Themen diskutieren. Dies verbessert Rankings nicht direkt, signalisiert aber verantwortungsvolle Content-Praktiken an Qualitaetsbewerter.",
+          image: {
+            src: "/images/academy/de/health-eeat-pillars.svg",
+            alt: "Gesundheit und Beauty E-E-A-T-Saeulen: Erfahrung, Fachwissen, Autoritaet und Vertrauenswuerdigkeit",
+            caption: "YMYL-Signale sind kritisch. Google prueft Gesundheits-Content besonders streng auf E-E-A-T-Merkmale.",
+          },
           tip: "Erstellen Sie eine dedizierte \"Unsere Experten\"-Seite mit allen Mitwirkenden an Ihren Bildungsinhalten. Fuegen Sie Portraetfotos, Qualifikationen und Links zu externen Profilen hinzu. Diese zentrale Glaubwuerdigkeitsseite staerkt E-E-A-T auf Ihrer gesamten Website.",
+          callout: {
+            title: "E-E-A-T-Implementierung",
+            text: "Fuegen Sie jedem Gesundheitsartikel einen medizinischen Pruefvermerk hinzu, verlinken Sie auf Studien und zeigen Sie die Qualifikationen des Autors. Diese Signale koennen den Unterschied zwischen Seite 1 und Seite 5 ausmachen.",
+          },
         },
         {
           title: "Produktinhalt und Claims-Management",
@@ -136,12 +172,30 @@ export const healthBeautySeo: AcademyTopic = {
             "Suivre les tendances d'ingredients emergents via les publications et communautes beaute",
             "Associer les requetes d'ingredients au contenu educatif et aux pages produit",
           ],
+          image: {
+            src: "/images/academy/fr/health-ingredient-search-funnel.svg",
+            alt: "Inhaltsstoffbasierter Suchtrichter von Aufklaerung ueber Vergleich zum Kauf",
+            caption: "Inhaltsstoff-Aufklaerung baut Vertrauen auf und fuehrt Nutzer natuerlich von informativen zu transaktionalen Suchanfragen.",
+          },
+          callout: {
+            title: "E-E-A-T in der Gesundheitsnische",
+            text: "Google stuft Gesundheits- und Beauty-Content als YMYL ein. Ohne Expertenautor, zitierte Quellen und medizinische Pruefung ranken Inhaltsstoff-Artikel selten auf der ersten Seite.",
+          },
         },
         {
           title: "Conformite YMYL et signaux E-E-A-T",
           content:
             "Google soumet le contenu sante et beaute aux standards YMYL. Les pages qui font des affirmations de sante, recommandent des traitements ou discutent d'ingredients aux effets physiologiques font l'objet d'un examen accru. Des signaux E-E-A-T faibles peuvent empecher des pages par ailleurs bien optimisees d'atteindre la premiere page.\n\nEtablissez la credibilite des auteurs pour tout le contenu educatif. Les articles de blog sur les routines de soins, les bienfaits des ingredients ou la selection de produits devraient lister les qualifications de l'auteur, dermatologue, estheticienne diplomee, chimiste cosmetique ou nutritionniste certifie.\n\nCitez des sources reputees lorsque vous faites des affirmations sur les ingredients ou les bienfaits. Liez vers des etudes evaluees par des pairs, des directives de la FDA ou des associations dermatologiques reconnues.\n\nAjoutez un avertissement medical aux pages qui traitent de sujets lies a la sante. Cela ne ameliore pas directement les classements, mais signale des pratiques de contenu responsables aux evaluateurs de qualite.",
           tip: "Creez une page dediee \"Nos Experts\" listant chaque contributeur a votre contenu educatif. Incluez des photos, des qualifications et des liens vers des profils externes. Cette page de credibilite centralisee renforce l'E-E-A-T sur l'ensemble de votre site.",
+          image: {
+            src: "/images/academy/fr/health-eeat-pillars.svg",
+            alt: "Gesundheit und Beauty E-E-A-T-Saeulen: Erfahrung, Fachwissen, Autoritaet und Vertrauenswuerdigkeit",
+            caption: "YMYL-Signale sind kritisch. Google prueft Gesundheits-Content besonders streng auf E-E-A-T-Merkmale.",
+          },
+          callout: {
+            title: "E-E-A-T-Implementierung",
+            text: "Fuegen Sie jedem Gesundheitsartikel einen medizinischen Pruefvermerk hinzu, verlinken Sie auf Studien und zeigen Sie die Qualifikationen des Autors. Diese Signale koennen den Unterschied zwischen Seite 1 und Seite 5 ausmachen.",
+          },
         },
         {
           title: "Contenu produit et gestion des allegaions",
@@ -193,12 +247,30 @@ export const healthBeautySeo: AcademyTopic = {
             "Rastrear tendencias emergentes de ingredientes a traves de publicaciones y comunidades de belleza",
             "Mapear consultas de ingredientes tanto a contenido educativo como a paginas de producto",
           ],
+          image: {
+            src: "/images/academy/es/health-ingredient-search-funnel.svg",
+            alt: "Inhaltsstoffbasierter Suchtrichter von Aufklaerung ueber Vergleich zum Kauf",
+            caption: "Inhaltsstoff-Aufklaerung baut Vertrauen auf und fuehrt Nutzer natuerlich von informativen zu transaktionalen Suchanfragen.",
+          },
+          callout: {
+            title: "E-E-A-T in der Gesundheitsnische",
+            text: "Google stuft Gesundheits- und Beauty-Content als YMYL ein. Ohne Expertenautor, zitierte Quellen und medizinische Pruefung ranken Inhaltsstoff-Artikel selten auf der ersten Seite.",
+          },
         },
         {
           title: "Cumplimiento YMYL y senales E-E-A-T",
           content:
             "Google aplica estandares YMYL al contenido de salud y belleza. Las paginas que hacen afirmaciones de salud, recomiendan tratamientos o discuten ingredientes con efectos fisiologicos enfrentan un escrutinio elevado. Senales E-E-A-T debiles pueden impedir que paginas bien optimizadas lleguen a la primera pagina.\n\nEstablece la credibilidad del autor para todo el contenido educativo. Las publicaciones de blog sobre rutinas de cuidado de la piel, beneficios de ingredientes o seleccion de productos deberian listar las cualificaciones del autor, dermatologo, esteticista licenciado, quimico cosmetico o nutricionista certificado.\n\nCita fuentes reputadas al hacer afirmaciones sobre ingredientes o beneficios. Enlaza a estudios revisados por pares, directrices de la FDA o asociaciones dermatologicas reconocidas.\n\nAnade un aviso medico a las paginas que discuten temas relacionados con la salud. Esto no mejora directamente los rankings, pero senala practicas de contenido responsables a los evaluadores de calidad.",
           tip: "Crea una pagina dedicada \"Nuestros Expertos\" listando a cada contribuidor de tu contenido educativo. Incluye fotos, credenciales y enlaces a perfiles externos. Esta pagina centralizada de credibilidad refuerza el E-E-A-T en todo tu sitio.",
+          image: {
+            src: "/images/academy/es/health-eeat-pillars.svg",
+            alt: "Gesundheit und Beauty E-E-A-T-Saeulen: Erfahrung, Fachwissen, Autoritaet und Vertrauenswuerdigkeit",
+            caption: "YMYL-Signale sind kritisch. Google prueft Gesundheits-Content besonders streng auf E-E-A-T-Merkmale.",
+          },
+          callout: {
+            title: "E-E-A-T-Implementierung",
+            text: "Fuegen Sie jedem Gesundheitsartikel einen medizinischen Pruefvermerk hinzu, verlinken Sie auf Studien und zeigen Sie die Qualifikationen des Autors. Diese Signale koennen den Unterschied zwischen Seite 1 und Seite 5 ausmachen.",
+          },
         },
         {
           title: "Contenido de producto y gestion de afirmaciones",
@@ -250,12 +322,30 @@ export const healthBeautySeo: AcademyTopic = {
             "Monitorare le tendenze emergenti degli ingredienti tramite pubblicazioni e community beauty",
             "Mappare le query sugli ingredienti sia al contenuto educativo che alle pagine prodotto",
           ],
+          image: {
+            src: "/images/academy/it/health-ingredient-search-funnel.svg",
+            alt: "Inhaltsstoffbasierter Suchtrichter von Aufklaerung ueber Vergleich zum Kauf",
+            caption: "Inhaltsstoff-Aufklaerung baut Vertrauen auf und fuehrt Nutzer natuerlich von informativen zu transaktionalen Suchanfragen.",
+          },
+          callout: {
+            title: "E-E-A-T in der Gesundheitsnische",
+            text: "Google stuft Gesundheits- und Beauty-Content als YMYL ein. Ohne Expertenautor, zitierte Quellen und medizinische Pruefung ranken Inhaltsstoff-Artikel selten auf der ersten Seite.",
+          },
         },
         {
           title: "Conformita YMYL e segnali E-E-A-T",
           content:
             "Google applica standard YMYL al contenuto di salute e bellezza. Le pagine che fanno affermazioni sulla salute, raccomandano trattamenti o discutono ingredienti con effetti fisiologici sono sottoposte a un esame piu approfondito. Segnali E-E-A-T deboli possono impedire a pagine altrimenti ben ottimizzate di raggiungere la prima pagina.\n\nStabilisci la credibilita dell'autore per tutti i contenuti educativi. I post del blog su routine di skincare, benefici degli ingredienti o selezione dei prodotti dovrebbero elencare le qualifiche dell'autore, dermatologo, estetista abilitata, chimico cosmetico o nutrizionista certificato.\n\nCita fonti autorevoli quando fai affermazioni su ingredienti o benefici. Linka a studi peer-reviewed, linee guida FDA o associazioni dermatologiche riconosciute.\n\nAggiungi un disclaimer medico alle pagine che trattano argomenti relativi alla salute. Questo non migliora direttamente i posizionamenti, ma segnala pratiche di contenuto responsabili ai valutatori di qualita.",
           tip: "Crea una pagina dedicata \"I Nostri Esperti\" elencando ogni contributore ai tuoi contenuti educativi. Includi foto, credenziali e link a profili esterni. Questa pagina di credibilita centralizzata rafforza l'E-E-A-T su tutto il sito.",
+          image: {
+            src: "/images/academy/it/health-eeat-pillars.svg",
+            alt: "Gesundheit und Beauty E-E-A-T-Saeulen: Erfahrung, Fachwissen, Autoritaet und Vertrauenswuerdigkeit",
+            caption: "YMYL-Signale sind kritisch. Google prueft Gesundheits-Content besonders streng auf E-E-A-T-Merkmale.",
+          },
+          callout: {
+            title: "E-E-A-T-Implementierung",
+            text: "Fuegen Sie jedem Gesundheitsartikel einen medizinischen Pruefvermerk hinzu, verlinken Sie auf Studien und zeigen Sie die Qualifikationen des Autors. Diese Signale koennen den Unterschied zwischen Seite 1 und Seite 5 ausmachen.",
+          },
         },
         {
           title: "Contenuto prodotto e gestione delle affermazioni",
@@ -307,12 +397,30 @@ export const healthBeautySeo: AcademyTopic = {
             "Opkomende ingrediënttrends volgen via beauty-publicaties en community's",
             "Ingrediënt-zoekopdrachten koppelen aan zowel educatieve content als productpagina's",
           ],
+          image: {
+            src: "/images/academy/nl/health-ingredient-search-funnel.svg",
+            alt: "Inhaltsstoffbasierter Suchtrichter von Aufklaerung ueber Vergleich zum Kauf",
+            caption: "Inhaltsstoff-Aufklaerung baut Vertrauen auf und fuehrt Nutzer natuerlich von informativen zu transaktionalen Suchanfragen.",
+          },
+          callout: {
+            title: "E-E-A-T in der Gesundheitsnische",
+            text: "Google stuft Gesundheits- und Beauty-Content als YMYL ein. Ohne Expertenautor, zitierte Quellen und medizinische Pruefung ranken Inhaltsstoff-Artikel selten auf der ersten Seite.",
+          },
         },
         {
           title: "YMYL-compliance en E-E-A-T-signalen",
           content:
             "Google beoordeelt gezondheids- en beauty-content volgens YMYL-standaarden. Pagina's die gezondheidsclaims doen, behandelingen aanbevelen of ingrediënten met fysiologische effecten bespreken, worden strenger beoordeeld. Zwakke E-E-A-T-signalen kunnen anderszins goed geoptimaliseerde pagina's ervan weerhouden pagina één te bereiken.\n\nVestig auteurs-geloofwaardigheid voor alle educatieve content. Blogposts over huidverzorgingsroutines, ingrediëntvoordelen of productselectie moeten de kwalificaties van de auteur vermelden.\n\nCiteer gerenommeerde bronnen bij claims over ingrediënten of voordelen. Link naar peer-reviewed studies, FDA-richtlijnen of erkende dermatologische verenigingen.\n\nVoeg een medische disclaimer toe aan pagina's die gezondheidsgerelateerde onderwerpen bespreken. Dit verbetert rankings niet direct, maar signaleert verantwoorde contentpraktijken aan kwaliteitsbeoordelaars.",
           tip: "Maak een speciale 'Onze Experts'-pagina met alle bijdragers aan je educatieve content. Voeg portretfoto's, kwalificaties en links naar externe profielen toe. Deze gecentraliseerde geloofwaardigheidspagina versterkt E-E-A-T over je hele site.",
+          image: {
+            src: "/images/academy/nl/health-eeat-pillars.svg",
+            alt: "Gesundheit und Beauty E-E-A-T-Saeulen: Erfahrung, Fachwissen, Autoritaet und Vertrauenswuerdigkeit",
+            caption: "YMYL-Signale sind kritisch. Google prueft Gesundheits-Content besonders streng auf E-E-A-T-Merkmale.",
+          },
+          callout: {
+            title: "E-E-A-T-Implementierung",
+            text: "Fuegen Sie jedem Gesundheitsartikel einen medizinischen Pruefvermerk hinzu, verlinken Sie auf Studien und zeigen Sie die Qualifikationen des Autors. Diese Signale koennen den Unterschied zwischen Seite 1 und Seite 5 ausmachen.",
+          },
         },
         {
           title: "Productcontent en claimsbeheer",

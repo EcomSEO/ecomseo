@@ -8,6 +8,11 @@ import type { Locale } from "@/lib/i18n/config";
 import { coreWebVitalsT } from "@/lib/i18n/translations/seoTools";
 import LocaleLink from "@/components/ui/LocaleLink";
 
+
+import ToolPreviewSection from "@/components/tools/ToolPreviewSection";
+import { getToolPreviewStrings } from "@/lib/tools/previewStrings";export const revalidate = 3600;
+
+
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   return buildPageMetadata(locale as Locale, "/tools/core-web-vitals");
@@ -92,6 +97,15 @@ export default async function CoreWebVitalsPage({
             </div>
           </div>
         </section>
+
+        {/* Preview: live-demo screenshot of the tool's results */}
+        <ToolPreviewSection
+          src="/images/tools/core-web-vitals-preview.png"
+          imgWidth={2120}
+          imgHeight={902}
+          url="ecomseo.co/tools/core-web-vitals"
+          strings={getToolPreviewStrings(locale as Locale, t.heading)}
+        />
 
         {/* FAQ */}
         <section className="px-5 md:px-16 py-20 border-t border-border">

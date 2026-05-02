@@ -1,11 +1,14 @@
 import type { Metadata } from "next";
 import type { Locale } from "@/lib/i18n/config";
-import { BASE_URL } from "@/lib/i18n/config";
+import { BASE_URL, publicLocalizedUrl } from "@/lib/i18n/config";
 import { generateAlternates } from "@/lib/i18n/metadata";
 import { allTopics, getTopicBySlug, getAdjacentTopics } from "@/lib/academy";
 import AcademyPageTemplate from "@/components/academy/AcademyPageTemplate";
 import type { AcademySection, AcademyNav } from "@/components/academy/AcademyPageTemplate";
 import { notFound } from "next/navigation";
+
+export const revalidate = 86400;
+
 
 export function generateStaticParams() {
   return allTopics.map((t) => ({ slug: t.slug }));
@@ -22,23 +25,34 @@ export async function generateMetadata({
 
   const l = locale as Locale;
   const t = topic.content[l];
-  const url = `${BASE_URL}/${locale}/academy/${slug}`;
+  const url = publicLocalizedUrl(l, `/academy/${slug}`);
 
   return {
     title: `${t.heading} - EcomSEO Academy | EcomSEO`,
-    description: t.intro.slice(0, 160),
-    alternates: generateAlternates(`/academy/${slug}`, locale as Locale),
+    description: t.intro.slice(0, 155),
+    alternates: generateAlternates(`/academy/${slug}`, l),
     openGraph: {
       title: `${t.heading} - EcomSEO Academy`,
-      description: t.intro.slice(0, 160),
+      description: t.intro.slice(0, 155),
       url,
       siteName: "EcomSEO",
       type: "article",
+      locale: l === "en" ? "en_GB" : `${l}_${l.toUpperCase()}`,
+      images: [
+        {
+          url: `${BASE_URL}/images/brand/og-image.png`,
+          width: 1200,
+          height: 630,
+          alt: t.heading,
+        },
+      ],
     },
     twitter: {
       card: "summary_large_image",
+      site: "@ecomseo_co",
       title: `${t.heading} - EcomSEO Academy`,
-      description: t.intro.slice(0, 160),
+      description: t.intro.slice(0, 155),
+      images: [`${BASE_URL}/images/brand/og-image.png`],
     },
   };
 }
@@ -66,6 +80,8 @@ export default async function AcademyTopicPage({
         .split("\n\n")
         .filter(Boolean)
         .map((para) => ({ type: "p" as const, text: para.trim() })),
+      ...(s.callout ? [{ type: "callout" as const, title: s.callout.title, text: s.callout.text }] : []),
+      ...(s.image ? [{ type: "image" as const, src: s.image.src, alt: s.image.alt, caption: s.image.caption }] : []),
       ...(s.items ? [{ type: "checklist" as const, items: s.items }] : []),
       ...(s.tip ? [{ type: "tip" as const, text: s.tip }] : []),
     ],

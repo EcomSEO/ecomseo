@@ -1,0 +1,40 @@
+<svg viewBox="0 0 680 310" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <text x="340" y="28" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#a78bfa">Content Quality Scoring Matrix</text>
+  <line x1="130" y1="55" x2="130" y2="255" stroke="#e2e8f0" stroke-width="1"/>
+  <line x1="130" y1="55" x2="640" y2="55" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="60" y="80" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#a78bfa">Page Type</text>
+  <text x="215" y="72" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#a78bfa">Word</text>
+  <text x="215" y="83" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#a78bfa">Count</text>
+  <text x="320" y="72" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#a78bfa">Unique</text>
+  <text x="320" y="83" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#a78bfa">Content</text>
+  <text x="425" y="72" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#a78bfa">Media</text>
+  <text x="425" y="83" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#a78bfa">Assets</text>
+  <text x="535" y="72" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#a78bfa">Internal</text>
+  <text x="535" y="83" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#a78bfa">Links</text>
+  <line x1="130" y1="95" x2="640" y2="95" stroke="#e2e8f0" stroke-width="0.5" stroke-dasharray="4"/>
+  <text x="60" y="115" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Product</text>
+  <text x="215" y="115" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">300+</text>
+  <text x="320" y="115" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#4ade80">Required</text>
+  <text x="425" y="115" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">5+ images</text>
+  <text x="535" y="115" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">3-5 links</text>
+  <line x1="130" y1="130" x2="640" y2="130" stroke="#e2e8f0" stroke-width="0.5" stroke-dasharray="4"/>
+  <text x="60" y="150" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Category</text>
+  <text x="215" y="150" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">150+</text>
+  <text x="320" y="150" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#4ade80">Required</text>
+  <text x="425" y="150" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Products</text>
+  <text x="535" y="150" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">5-10 links</text>
+  <line x1="130" y1="165" x2="640" y2="165" stroke="#e2e8f0" stroke-width="0.5" stroke-dasharray="4"/>
+  <text x="60" y="185" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Blog</text>
+  <text x="215" y="185" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">1500+</text>
+  <text x="320" y="185" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#4ade80">Required</text>
+  <text x="425" y="185" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">2+ visuals</text>
+  <text x="535" y="185" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">8-15 links</text>
+  <line x1="130" y1="200" x2="640" y2="200" stroke="#e2e8f0" stroke-width="0.5" stroke-dasharray="4"/>
+  <text x="60" y="220" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Homepage</text>
+  <text x="215" y="220" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">200+</text>
+  <text x="320" y="220" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#4ade80">Required</text>
+  <text x="425" y="220" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Hero + cats</text>
+  <text x="535" y="220" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">All top cats</text>
+  <line x1="20" y1="255" x2="660" y2="255" stroke="#a78bfa" stroke-width="1" stroke-dasharray="4"/>
+  <text x="340" y="278" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#a78bfa">Score each page type against these minimums to find thin content gaps</text>
+</svg>

@@ -104,7 +104,8 @@ export default function DataFeeds() {
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               src="/images/framer/07X1hcePOLDoCzDpQbZZgdbDcU.png"
-              alt="EcomSEO"
+              alt="EcomSEO logo"
+              title="EcomSEO - Ecommerce SEO Agency"
               className="h-[40px] md:h-[50px] w-auto opacity-60"
             />
           </div>

@@ -1,0 +1,39 @@
+<svg viewBox="0 0 680 310" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <text x="340" y="28" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#a78bfa">SEO Package Red Flags vs Green Flags</text>
+  <g transform="translate(30,55)">
+    <rect x="0" y="0" width="290" height="200" rx="8" stroke="#f472b6" stroke-width="2" fill="none"/>
+    <text x="145" y="28" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#f472b6">Red Flags</text>
+    <text x="22" y="55" font-family="Arial,sans-serif" font-size="10" fill="#f472b6">x</text>
+    <text x="38" y="55" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Guaranteed #1 rankings</text>
+    <text x="22" y="75" font-family="Arial,sans-serif" font-size="10" fill="#f472b6">x</text>
+    <text x="38" y="75" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Hundreds of links per month</text>
+    <text x="22" y="95" font-family="Arial,sans-serif" font-size="10" fill="#f472b6">x</text>
+    <text x="38" y="95" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">No audit before strategy</text>
+    <text x="22" y="115" font-family="Arial,sans-serif" font-size="10" fill="#f472b6">x</text>
+    <text x="38" y="115" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Long lock-in contracts</text>
+    <text x="22" y="135" font-family="Arial,sans-serif" font-size="10" fill="#f472b6">x</text>
+    <text x="38" y="135" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">No transparent reporting</text>
+    <text x="22" y="155" font-family="Arial,sans-serif" font-size="10" fill="#f472b6">x</text>
+    <text x="38" y="155" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Secret proprietary methods</text>
+    <text x="145" y="185" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#f472b6">Walk away immediately</text>
+  </g>
+  <g transform="translate(360,55)">
+    <rect x="0" y="0" width="290" height="200" rx="8" stroke="#4ade80" stroke-width="2" fill="none"/>
+    <text x="145" y="28" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#4ade80">Green Flags</text>
+    <text x="22" y="55" font-family="Arial,sans-serif" font-size="10" fill="#4ade80">+</text>
+    <text x="38" y="55" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Realistic timeline expectations</text>
+    <text x="22" y="75" font-family="Arial,sans-serif" font-size="10" fill="#4ade80">+</text>
+    <text x="38" y="75" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Quality-focused link strategy</text>
+    <text x="22" y="95" font-family="Arial,sans-serif" font-size="10" fill="#4ade80">+</text>
+    <text x="38" y="95" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Thorough audit before work</text>
+    <text x="22" y="115" font-family="Arial,sans-serif" font-size="10" fill="#4ade80">+</text>
+    <text x="38" y="115" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Month-to-month or short term</text>
+    <text x="22" y="135" font-family="Arial,sans-serif" font-size="10" fill="#4ade80">+</text>
+    <text x="38" y="135" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Full access to all work done</text>
+    <text x="22" y="155" font-family="Arial,sans-serif" font-size="10" fill="#4ade80">+</text>
+    <text x="38" y="155" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Clear methodology explained</text>
+    <text x="145" y="185" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#4ade80">Strong partnership signals</text>
+  </g>
+  <line x1="20" y1="275" x2="660" y2="275" stroke="#a78bfa" stroke-width="1" stroke-dasharray="4"/>
+  <text x="340" y="298" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#a78bfa">If a package has more red flags than green, keep looking</text>
+</svg>

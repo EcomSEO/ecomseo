@@ -81,7 +81,7 @@ export default function Comparison() {
 
   return (
     <SectionWrapper className="py-16">
-      <div className="flex flex-col gap-16 items-center">
+      <div className="flex flex-col gap-10 md:gap-12 items-center">
         {/* ─── Center-aligned header ─── */}
         <motion.div
           className="flex flex-col items-center text-center gap-6"
@@ -96,34 +96,21 @@ export default function Comparison() {
           </h2>
         </motion.div>
 
-        {/* ─── Column titles ─── */}
+        {/* ─── Comparison cards (titles inside each card so mobile stacks cleanly) ─── */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 w-full">
-          <div className="flex items-center justify-center pb-2">
-            <span className="text-white/40 text-lg font-medium">
-              {t.leftTitle}
-            </span>
-          </div>
-          <div className="flex items-center justify-center pb-2">
-            <Image
-              src="/images/framer/TQbukBV8G5LIkEwGfbxZAiZs.png"
-              alt="EcomSEO"
-              width={160}
-              height={36}
-              className="object-contain"
-            />
-          </div>
-        </div>
-
-        {/* ─── Comparison cards ─── */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 w-full -mt-4">
-          {/* Left column - Just Paid Ads */}
+          {/* Left card — Generic SEO Agency */}
           <motion.div
-            className="bg-bg-ui border border-border rounded-3xl p-8 overflow-hidden"
+            className="bg-bg-ui border border-border rounded-3xl p-6 md:p-8 overflow-hidden"
             initial={{ opacity: 0, x: -20 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
           >
+            <div className="flex items-center justify-center h-10 mb-5 md:mb-6 pb-4 border-b border-border/60">
+              <span className="text-white/50 text-base md:text-lg font-medium">
+                {t.leftTitle}
+              </span>
+            </div>
             <div className="flex flex-col">
               {t.leftItems.map((item) => (
                 <ListItem key={item} text={item} type="negative" />
@@ -131,9 +118,9 @@ export default function Comparison() {
             </div>
           </motion.div>
 
-          {/* Right column - EcomSEO */}
+          {/* Right card — EcomSEO */}
           <motion.div
-            className="relative border border-accent/30 rounded-3xl p-8 overflow-hidden"
+            className="relative border border-accent/30 rounded-3xl p-6 md:p-8 overflow-hidden"
             style={{
               background:
                 "linear-gradient(135deg, rgba(13, 13, 13, 0.95) 0%, rgba(13, 13, 13, 0.9) 60%, rgba(123, 45, 233, 0.15) 100%)",
@@ -151,10 +138,21 @@ export default function Comparison() {
                   "radial-gradient(circle, rgba(193, 100, 230, 0.35) 0%, rgba(123, 45, 233, 0.15) 60%, transparent 100%)",
               }}
             />
-            <div className="flex flex-col relative z-10">
-              {t.rightItems.map((item) => (
-                <ListItem key={item} text={item} type="positive" />
-              ))}
+            <div className="relative z-10">
+              <div className="flex items-center justify-center h-10 mb-5 md:mb-6 pb-4 border-b border-accent/20">
+                <Image
+                  src="/images/framer/TQbukBV8G5LIkEwGfbxZAiZs.png"
+                  alt="EcomSEO"
+                  width={140}
+                  height={32}
+                  className="object-contain h-7 md:h-8 w-auto"
+                />
+              </div>
+              <div className="flex flex-col">
+                {t.rightItems.map((item) => (
+                  <ListItem key={item} text={item} type="positive" />
+                ))}
+              </div>
             </div>
           </motion.div>
         </div>

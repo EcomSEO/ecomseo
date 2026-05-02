@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 320" fill="none">
+  <text x="340" y="24" text-anchor="middle" fill="#a78bfa" font-family="Arial,sans-serif" font-size="14" font-weight="700">Homepage Authority Distribution</text>
+
+  <!-- External backlinks -->
+  <rect x="40" y="50" width="120" height="28" rx="5" fill="#1a1a2e" stroke="#f97316" stroke-width="1"/>
+  <text x="100" y="68" text-anchor="middle" fill="#f97316" font-family="Arial,sans-serif" font-size="9">Press Links</text>
+  <rect x="40" y="84" width="120" height="28" rx="5" fill="#1a1a2e" stroke="#f97316" stroke-width="1"/>
+  <text x="100" y="102" text-anchor="middle" fill="#f97316" font-family="Arial,sans-serif" font-size="9">Partner Links</text>
+  <rect x="40" y="118" width="120" height="28" rx="5" fill="#1a1a2e" stroke="#f97316" stroke-width="1"/>
+  <text x="100" y="136" text-anchor="middle" fill="#f97316" font-family="Arial,sans-serif" font-size="9">Directory Links</text>
+
+  <!-- Arrows to homepage -->
+  <line x1="160" y1="64" x2="248" y2="100" stroke="#f97316" stroke-width="1"/>
+  <line x1="160" y1="98" x2="248" y2="100" stroke="#f97316" stroke-width="1"/>
+  <line x1="160" y1="132" x2="248" y2="105" stroke="#f97316" stroke-width="1"/>
+
+  <!-- Homepage -->
+  <rect x="250" y="78" width="180" height="50" rx="8" fill="#1e1e3a" stroke="#4ade80" stroke-width="2"/>
+  <text x="340" y="100" text-anchor="middle" fill="#4ade80" font-family="Arial,sans-serif" font-size="12" font-weight="700">Homepage</text>
+  <text x="340" y="116" text-anchor="middle" fill="#94a3b8" font-family="Arial,sans-serif" font-size="8">Highest authority page</text>
+
+  <!-- Navigation links down -->
+  <line x1="280" y1="128" x2="140" y2="180" stroke="#4ade80" stroke-width="1.5"/>
+  <line x1="310" y1="128" x2="280" y2="180" stroke="#4ade80" stroke-width="1.5"/>
+  <line x1="370" y1="128" x2="400" y2="180" stroke="#4ade80" stroke-width="1.5"/>
+  <line x1="400" y1="128" x2="540" y2="180" stroke="#4ade80" stroke-width="1.5"/>
+
+  <!-- Categories -->
+  <rect x="70" y="180" width="140" height="32" rx="5" fill="#1a1a2e" stroke="#60a5fa" stroke-width="1.5"/>
+  <text x="140" y="200" text-anchor="middle" fill="#e2e8f0" font-family="Arial,sans-serif" font-size="10">Hardloopschoenen</text>
+
+  <rect x="220" y="180" width="120" height="32" rx="5" fill="#1a1a2e" stroke="#60a5fa" stroke-width="1.5"/>
+  <text x="280" y="200" text-anchor="middle" fill="#e2e8f0" font-family="Arial,sans-serif" font-size="10">Apparel</text>
+
+  <rect x="350" y="180" width="120" height="32" rx="5" fill="#1a1a2e" stroke="#60a5fa" stroke-width="1.5"/>
+  <text x="410" y="200" text-anchor="middle" fill="#e2e8f0" font-family="Arial,sans-serif" font-size="10">Accessories</text>
+
+  <rect x="480" y="180" width="120" height="32" rx="5" fill="#1a1a2e" stroke="#60a5fa" stroke-width="1.5"/>
+  <text x="540" y="200" text-anchor="middle" fill="#e2e8f0" font-family="Arial,sans-serif" font-size="10">New Arrivals</text>
+
+  <!-- Authority percentage labels -->
+  <text x="140" y="224" text-anchor="middle" fill="#60a5fa" font-family="Arial,sans-serif" font-size="8">receives ~20% equity</text>
+  <text x="280" y="224" text-anchor="middle" fill="#60a5fa" font-family="Arial,sans-serif" font-size="8">~20% equity</text>
+  <text x="410" y="224" text-anchor="middle" fill="#60a5fa" font-family="Arial,sans-serif" font-size="8">~15% equity</text>
+  <text x="540" y="224" text-anchor="middle" fill="#60a5fa" font-family="Arial,sans-serif" font-size="8">~15% equity</text>
+
+  <!-- Right side: content structure -->
+  <rect x="510" y="56" width="150" height="80" rx="5" fill="#1a1a2e" stroke="#334155" stroke-width="1"/>
+  <text x="585" y="72" text-anchor="middle" fill="#e2e8f0" font-family="Arial,sans-serif" font-size="9" font-weight="600">Homepage Must Have</text>
+  <text x="585" y="86" text-anchor="middle" fill="#94a3b8" font-family="Arial,sans-serif" font-size="8">Descriptive H1</text>
+  <text x="585" y="98" text-anchor="middle" fill="#94a3b8" font-family="Arial,sans-serif" font-size="8">100-200 word intro</text>
+  <text x="585" y="110" text-anchor="middle" fill="#94a3b8" font-family="Arial,sans-serif" font-size="8">Category blocks w/ links</text>
+  <text x="585" y="122" text-anchor="middle" fill="#94a3b8" font-family="Arial,sans-serif" font-size="8">200-400 word brand section</text>
+
+  <!-- Warning box -->
+  <rect x="120" y="250" width="440" height="36" rx="5" fill="#1a1a2e" stroke="#ef4444" stroke-width="1"/>
+  <text x="340" y="266" text-anchor="middle" fill="#ef4444" font-family="Arial,sans-serif" font-size="9" font-weight="600">Common Mistake: Linking to 200 products from homepage</text>
+  <text x="340" y="280" text-anchor="middle" fill="#94a3b8" font-family="Arial,sans-serif" font-size="8">Authority spread so thin that no link carries meaningful weight</text>
+
+  <text x="340" y="310" text-anchor="middle" fill="#64748b" font-family="Arial,sans-serif" font-size="8">Keep homepage links focused on your top 10-15 most important internal destinations</text>
+</svg>

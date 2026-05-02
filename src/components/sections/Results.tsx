@@ -1,8 +1,8 @@
 "use client";
 
+import Image from "next/image";
 import { motion } from "framer-motion";
-import Badge from "@/components/ui/Badge";
-import Button from "@/components/ui/Button";
+import LocaleLink from "@/components/ui/LocaleLink";
 import SectionWrapper from "@/components/ui/SectionWrapper";
 import { useLocale } from "@/lib/i18n/useTranslations";
 import { resultsT } from "@/lib/i18n/translations/home";
@@ -25,26 +25,53 @@ function renderHeading(text: string) {
   );
 }
 
-const caseStudies = [
+type Result = {
+  slug: string;
+  amount: string;       // big bold number, e.g. "+$53,000,000"
+  label: string;        // bold descriptor, e.g. "yearly revenue extra"
+  client: string;       // gray context, e.g. "for this Home & Living brand"
+  condition: string;    // gray context, e.g. "after 12 months with us"
+  screenshot: string;
+  href: string;
+};
+
+/* 4 client wins, revenue-oriented. All numbers from 12 months of work with us. */
+const results: Result[] = [
   {
-    image:
-      "/images/framer/jKLk43bNfpNjhQGvnRhYkxJNjQ.webp",
+    slug: "norwegian-health-store",
+    amount: "+$53,000,000",
+    label: "yearly revenue (+118%)",
+    client: "for this Home & Living brand",
+    condition: "after 12 months with us",
+    screenshot: "/images/clients/charts/revenue-53m.png",
     href: "/cases/norwegian-health-store",
   },
   {
-    image:
-      "/images/framer/EeufC2RDWV8GzZB7fBbKfmWJQuc.webp",
-    href: "/cases/ecommerce-brand",
+    slug: "dutch-health-brand",
+    amount: "+\u20ac15,000,000",
+    label: "yearly revenue (+430%)",
+    client: "for this Health & Supplements brand",
+    condition: "after 12 months with us",
+    screenshot: "/images/clients/charts/revenue-15m.png",
+    href: "/cases/dutch-health-brand",
   },
   {
-    image:
-      "/images/framer/nT2RO8bU8V5MvRjsqPRcXjKiA.webp",
-    href: "/cases/skyrocket-ecom-site",
+    slug: "english-health-site",
+    amount: "+\u20ac1,700,000",
+    label: "yearly revenue (+87%)",
+    client: "for this US Shapewear brand",
+    condition: "after 12 months with us",
+    screenshot: "/images/clients/charts/revenue-1-7m.png",
+    href: "/cases/english-health-site",
   },
   {
-    image:
-      "/images/framer/U8W2ek1f8J8lKPXlMlEGVJnMA.webp",
-    href: "/cases/norwegian-smart-seo",
+    slug: "jewelry-dutch-brand-ecom",
+    amount: "+\u20ac597,000",
+    label: "yearly revenue (+38%)",
+    client: "for this DTC Lifestyle brand",
+    condition: "after 12 months with us",
+    screenshot: "/images/clients/charts/revenue-597k.png",
+    href: "/cases/jewelry-dutch-brand-ecom",
   },
 ];
 
@@ -53,75 +80,58 @@ export default function Results() {
   const t = resultsT[locale];
 
   return (
-    <SectionWrapper id="projects" className="py-16">
-      <div className="flex flex-col items-center gap-16">
-        <motion.div
-          className="flex flex-col items-center text-center gap-6 max-w-[700px]"
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, margin: "-100px" }}
-          transition={{ duration: 0.6 }}
-        >
-          <Badge text={t.badge} />
-          <h2 className="text-[32px] md:text-[48px] lg:text-[56px] font-medium leading-[1.1] tracking-[-0.02em] text-heading">
-            {renderHeading(t.heading)}
-          </h2>
-          <p className="text-body text-base md:text-lg">
-            {t.subtext}
-          </p>
-        </motion.div>
-
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 w-full">
-          {caseStudies.map((study, i) => {
-            const card = t.cards[i];
-            return (
-              <motion.a
-                key={i}
-                href={study.href}
-                className="group relative rounded-3xl overflow-hidden border border-border h-[400px] block"
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.5, delay: i * 0.1 }}
-              >
-                {/* Background image */}
-                <div
-                  className="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-105"
-                  style={{ backgroundImage: `url(${study.image})` }}
-                />
-                {/* Gradient overlay */}
-                <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/30 to-transparent" />
-                {/* Content at bottom */}
-                <div className="absolute bottom-0 left-0 right-0 p-6 flex flex-col gap-3">
-                  <h3 className="text-base font-medium text-heading">
-                    {card.title}
-                  </h3>
-                  <div className="flex flex-wrap gap-2">
-                    {card.badges.map((badge) => (
-                      <span
-                        key={badge}
-                        className="px-3 py-1.5 text-xs font-medium text-white/80 bg-[rgba(13,13,13,0.56)] border border-border rounded-xl backdrop-blur-sm"
-                      >
-                        {badge}
-                      </span>
-                    ))}
-                  </div>
-                </div>
-              </motion.a>
-            );
-          })}
-        </div>
-
-        <motion.div
+    <SectionWrapper id="projects" className="py-16 scroll-mt-24">
+      <div className="flex flex-col items-center gap-14">
+        <motion.h2
+          className="text-[32px] md:text-[44px] lg:text-[52px] font-medium leading-[1.12] tracking-[-0.02em] text-heading text-center max-w-[720px]"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
+          viewport={{ once: true, margin: "-80px" }}
           transition={{ duration: 0.5 }}
         >
-          <Button href="/cases" variant="secondary" size="large">
-            {t.cta}
-          </Button>
-        </motion.div>
+          {renderHeading(t.heading)}
+        </motion.h2>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-7 w-full max-w-[1100px]">
+          {results.map((r, i) => (
+            <motion.div
+              key={r.slug}
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.5, delay: (i % 2) * 0.08 }}
+            >
+              <LocaleLink href={r.href} className="group block">
+                {/* Light-gray screenshot card */}
+                <div className="relative aspect-[4/3] w-full rounded-3xl bg-[rgb(242,242,243)] overflow-hidden flex items-center justify-center px-6 py-8 transition-transform duration-300 group-hover:-translate-y-0.5">
+                  <div className="relative w-full h-full">
+                    <Image
+                      src={r.screenshot}
+                      alt={`${r.amount} ${r.label} ${r.client}`}
+                      fill
+                      sizes="(max-width: 768px) 100vw, 50vw"
+                      className="object-contain"
+                    />
+                  </div>
+                </div>
+                {/* Text below card — Maison-style: big amount, bold descriptor, gray context */}
+                <div className="mt-6 flex flex-col gap-1.5 text-center">
+                  <h3 className="text-[26px] md:text-[34px] font-semibold text-heading leading-tight tracking-tight">
+                    {r.amount}
+                  </h3>
+                  <p className="text-[16px] md:text-[18px] font-semibold text-heading leading-snug">
+                    {r.label}
+                  </p>
+                  <p className="text-[13.5px] text-body/60 mt-1 leading-snug">
+                    {r.client}
+                    <br />
+                    {r.condition}
+                  </p>
+                </div>
+              </LocaleLink>
+            </motion.div>
+          ))}
+        </div>
       </div>
     </SectionWrapper>
   );

@@ -22,12 +22,21 @@ export const woocommerceSeoGuide: AcademyTopic = {
           title: "SEO Plugins: Yoast vs RankMath vs SEOPress",
           content:
             "Every WooCommerce store needs a dedicated SEO plugin to manage title tags, meta descriptions, XML sitemaps, schema markup, and canonical tags. The three leading options are Yoast SEO, Rank Math, and SEOPress, each with distinct strengths for ecommerce.\n\nYoast SEO is the most established plugin with dedicated WooCommerce integration through its premium WooCommerce SEO addon. It provides product-specific schema markup (price, availability, reviews), breadcrumb generation, and social media meta tags. The content analysis feature evaluates product descriptions for readability and keyword usage, though its suggestions should be treated as guidelines rather than strict rules.\n\nRank Math offers more features in its free tier than Yoast, including built-in schema generators for products, advanced redirect management, and Google Search Console integration directly in the WordPress dashboard. Its WooCommerce integration automatically generates Product schema with variant support. For stores on a budget, Rank Math provides enterprise-level SEO features without requiring a premium subscription.\n\nSEOPress is a lighter-weight alternative that appeals to performance-conscious store owners. It generates fewer database queries than Yoast or Rank Math, which can matter for stores with 10,000+ products where admin panel load times become noticeable. All three plugins handle the core SEO requirements well, so the choice often comes down to user interface preference and performance priorities.",
+          image: {
+            src: "/images/academy/woocommerce-seo-plugins.svg",
+            alt: "Feature comparison table of Yoast, Rank Math, and SEOPress for WooCommerce SEO",
+            caption: "All three plugins handle core SEO requirements. Rank Math offers the most free features; SEOPress is lightest on database load.",
+          },
           items: [
             "Yoast SEO: strongest brand recognition, dedicated WooCommerce addon, thorough content analysis",
             "Rank Math: most features in free tier, built-in schema generators, Search Console integration",
             "SEOPress: lightest database footprint, fastest admin performance, good for large catalogs",
             "All three support XML sitemaps, canonical tags, Open Graph, and product schema",
           ],
+          callout: {
+            title: "Plugin Performance",
+            text: "For stores with 10,000+ products, SEOPress generates fewer database queries than Yoast or Rank Math. This difference becomes noticeable in admin panel load times when editing products in bulk.",
+          },
         },
         {
           title: "Database and Hosting Optimization for SEO",
@@ -44,12 +53,21 @@ export const woocommerceSeoGuide: AcademyTopic = {
           title: "WooCommerce Image and Media Optimization",
           content:
             "Product images are typically the largest files on any ecommerce page, making image optimization critical for Core Web Vitals performance. WooCommerce generates multiple image sizes for each uploaded product photo (thumbnail, medium, large, and full), which means a single product with five images can create 20 or more image files on the server.\n\nConvert all product images to WebP format using a plugin like ShortPixel, Imagify, or EWWW Image Optimizer. WebP files are 25 to 35 percent smaller than equivalent JPEG files with no visible quality loss. These plugins can also serve AVIF format to browsers that support it, achieving even greater compression.\n\nImplement lazy loading for product gallery images, related product carousels, and any images below the fold. WordPress 5.5+ includes native lazy loading via the loading=\"lazy\" attribute, but verify it is working on your WooCommerce templates. The main product image above the fold should not be lazy loaded, as this delays LCP.\n\nSet explicit width and height attributes on all image elements to prevent Cumulative Layout Shift. WooCommerce themes that use CSS-based responsive images without defined dimensions cause the browser to reflow the page as images load, resulting in poor CLS scores. Review your theme's product image template and add the dimensions if missing.",
+          image: {
+            src: "/images/academy/woocommerce-image-pipeline.svg",
+            alt: "WooCommerce image optimization pipeline from upload through WebP conversion to lazy-loaded delivery",
+            caption: "Each product image passes through conversion, resizing, and smart loading. One product with 5 photos creates 20+ server files.",
+          },
           items: [
             "Convert product images to WebP (25-35% smaller than JPEG with no visible quality loss)",
             "Lazy load gallery and below-fold images but not the primary product hero image",
             "Set explicit width and height attributes on all image elements to prevent CLS",
             "Compress thumbnails aggressively since they appear at small sizes in grids",
           ],
+          callout: {
+            title: "WebP Savings",
+            text: "Converting from JPEG to WebP reduces file size by 25-35% with no visible quality loss. For a store with 5,000 product images, this can save 2-5GB of bandwidth per month and measurably improve LCP scores.",
+          },
         },
         {
           title: "WooCommerce Site Architecture and Internal Linking",
@@ -76,12 +94,21 @@ export const woocommerceSeoGuide: AcademyTopic = {
           title: "SEO-Plugins: Yoast vs. RankMath vs. SEOPress",
           content:
             "Jeder WooCommerce-Shop benoetigt ein dediziertes SEO-Plugin zur Verwaltung von Title-Tags, Meta-Beschreibungen, XML-Sitemaps, Schema-Markup und Canonical-Tags. Die drei fuehrenden Optionen sind Yoast SEO, Rank Math und SEOPress.\n\nYoast SEO ist das etablierteste Plugin mit dedizierter WooCommerce-Integration ueber sein Premium-WooCommerce-SEO-Addon. Es bietet produktspezifisches Schema-Markup, Breadcrumb-Generierung und Social-Media-Meta-Tags. Die Inhaltsanalyse bewertet Produktbeschreibungen hinsichtlich Lesbarkeit und Keyword-Nutzung.\n\nRank Math bietet in seiner kostenlosen Version mehr Funktionen als Yoast, einschliesslich integrierter Schema-Generatoren fuer Produkte, erweitertem Redirect-Management und Google-Search-Console-Integration direkt im WordPress-Dashboard. Fuer preisbewusste Shops bietet Rank Math Enterprise-Level-SEO-Funktionen ohne Premium-Abonnement.\n\nSEOPress ist eine leichtere Alternative, die performance-orientierte Shop-Betreiber anspricht. Es generiert weniger Datenbankabfragen als Yoast oder Rank Math, was bei Shops mit ueber 10.000 Produkten relevant sein kann.",
-          items: [
+                    image: {
+            src: "/images/academy/de/woocommerce-seo-plugins.svg",
+            alt: "WooCommerce SEO-Plugin-Vergleich: Yoast SEO, RankMath und SEOPress mit Funktionsmatrix",
+            caption: "Alle drei Plugins bieten solide WooCommerce-Integration. RankMath bietet das beste Preis-Leistungs-Verhaeltnis.",
+          },
+items: [
             "Yoast SEO: staerkste Markenbekanntheit, dediziertes WooCommerce-Addon, gruendliche Inhaltsanalyse",
             "Rank Math: meiste Funktionen in der kostenlosen Version, integrierte Schema-Generatoren, Search-Console-Integration",
             "SEOPress: geringster Datenbank-Footprint, schnellste Admin-Performance, gut fuer grosse Kataloge",
             "Alle drei unterstuetzen XML-Sitemaps, Canonical-Tags, Open Graph und Produkt-Schema",
           ],
+          callout: {
+            title: "Plugin-Wechsel",
+            text: "Der Wechsel zwischen SEO-Plugins kann Meta-Daten zuruecksetzen, wenn nicht sorgfaeltig migriert wird. Verwenden Sie Migrations-Tools und pruefen Sie alle Title-Tags und Meta-Beschreibungen nach dem Wechsel.",
+          },
         },
         {
           title: "Datenbank- und Hosting-Optimierung fuer SEO",
@@ -98,12 +125,21 @@ export const woocommerceSeoGuide: AcademyTopic = {
           title: "WooCommerce Bild- und Medienoptimierung",
           content:
             "Produktbilder sind typischerweise die groessten Dateien auf jeder E-Commerce-Seite, was die Bildoptimierung entscheidend fuer die Core-Web-Vitals-Performance macht. WooCommerce generiert mehrere Bildgroessen fuer jedes hochgeladene Produktfoto, was bedeutet, dass ein einzelnes Produkt mit fuenf Bildern 20 oder mehr Bilddateien auf dem Server erzeugen kann.\n\nKonvertieren Sie alle Produktbilder in das WebP-Format mit einem Plugin wie ShortPixel, Imagify oder EWWW Image Optimizer. WebP-Dateien sind 25 bis 35 Prozent kleiner als vergleichbare JPEG-Dateien ohne sichtbaren Qualitaetsverlust.\n\nImplementieren Sie Lazy Loading fuer Produktgalerie-Bilder, verwandte Produktkarussells und alle Bilder unterhalb des sichtbaren Bereichs. WordPress 5.5+ enthaelt natives Lazy Loading, aber ueberpruefen Sie, ob es in Ihren WooCommerce-Templates funktioniert. Das Hauptproduktbild oberhalb des sichtbaren Bereichs sollte nicht lazy geladen werden.\n\nSetzen Sie explizite Breiten- und Hoehenattribute auf alle Bildelemente, um Cumulative Layout Shift zu verhindern. WooCommerce-Themes, die CSS-basierte responsive Bilder ohne definierte Dimensionen verwenden, verursachen Seitenumbrueche waehrend des Ladens.",
-          items: [
+                    image: {
+            src: "/images/academy/de/woocommerce-image-pipeline.svg",
+            alt: "WooCommerce Bildoptimierungs-Pipeline: Upload, Komprimierung, Groessenanpassung, Konvertierung und Auslieferung",
+            caption: "Automatisieren Sie die Bildoptimierung mit Plugins wie ShortPixel oder Imagify fuer konsistente Leistung.",
+          },
+items: [
             "Produktbilder in WebP konvertieren (25-35% kleiner als JPEG ohne sichtbaren Qualitaetsverlust)",
             "Galerie- und Bilder unterhalb des sichtbaren Bereichs lazy laden, aber nicht das primaere Produktbild",
             "Explizite Breiten- und Hoehenattribute auf alle Bildelemente setzen, um CLS zu verhindern",
             "Thumbnails aggressiv komprimieren, da sie in kleinen Groessen in Rastern erscheinen",
           ],
+          callout: {
+            title: "Bild-SEO-Basics",
+            text: "Alt-Text und beschreibende Dateinamen sind die am haeufigsten uebersehenen SEO-Gewinne bei WooCommerce-Shops. Jedes Produktbild sollte Alt-Text mit dem Produktnamen und relevanten Keywords haben.",
+          },
         },
         {
           title: "WooCommerce-Site-Architektur und interne Verlinkung",
@@ -136,6 +172,15 @@ export const woocommerceSeoGuide: AcademyTopic = {
             "SEOPress : empreinte base de donnees la plus legere, performance admin la plus rapide, bon pour les grands catalogues",
             "Les trois supportent les sitemaps XML, les balises canoniques, Open Graph et le schema produit",
           ],
+          image: {
+            src: "/images/academy/fr/woocommerce-seo-plugins.svg",
+            alt: "WooCommerce SEO-Plugin-Vergleich: Yoast SEO, RankMath und SEOPress mit Funktionsmatrix",
+            caption: "Alle drei Plugins bieten solide WooCommerce-Integration. RankMath bietet das beste Preis-Leistungs-Verhaeltnis.",
+          },
+          callout: {
+            title: "Plugin-Wechsel",
+            text: "Der Wechsel zwischen SEO-Plugins kann Meta-Daten zuruecksetzen, wenn nicht sorgfaeltig migriert wird. Verwenden Sie Migrations-Tools und pruefen Sie alle Title-Tags und Meta-Beschreibungen nach dem Wechsel.",
+          },
         },
         {
           title: "Optimisation base de donnees et hebergement pour le SEO",
@@ -158,6 +203,15 @@ export const woocommerceSeoGuide: AcademyTopic = {
             "Definir des attributs largeur et hauteur explicites sur toutes les images pour prevenir le CLS",
             "Compresser les miniatures agressivement car elles apparaissent en petites tailles dans les grilles",
           ],
+          image: {
+            src: "/images/academy/fr/woocommerce-image-pipeline.svg",
+            alt: "WooCommerce Bildoptimierungs-Pipeline: Upload, Komprimierung, Groessenanpassung, Konvertierung und Auslieferung",
+            caption: "Automatisieren Sie die Bildoptimierung mit Plugins wie ShortPixel oder Imagify fuer konsistente Leistung.",
+          },
+          callout: {
+            title: "Bild-SEO-Basics",
+            text: "Alt-Text und beschreibende Dateinamen sind die am haeufigsten uebersehenen SEO-Gewinne bei WooCommerce-Shops. Jedes Produktbild sollte Alt-Text mit dem Produktnamen und relevanten Keywords haben.",
+          },
         },
         {
           title: "Architecture de site WooCommerce et maillage interne",
@@ -190,6 +244,15 @@ export const woocommerceSeoGuide: AcademyTopic = {
             "SEOPress: menor huella en base de datos, rendimiento de admin mas rapido, bueno para catalogos grandes",
             "Los tres soportan sitemaps XML, etiquetas canonicas, Open Graph y schema de producto",
           ],
+          image: {
+            src: "/images/academy/es/woocommerce-seo-plugins.svg",
+            alt: "WooCommerce SEO-Plugin-Vergleich: Yoast SEO, RankMath und SEOPress mit Funktionsmatrix",
+            caption: "Alle drei Plugins bieten solide WooCommerce-Integration. RankMath bietet das beste Preis-Leistungs-Verhaeltnis.",
+          },
+          callout: {
+            title: "Plugin-Wechsel",
+            text: "Der Wechsel zwischen SEO-Plugins kann Meta-Daten zuruecksetzen, wenn nicht sorgfaeltig migriert wird. Verwenden Sie Migrations-Tools und pruefen Sie alle Title-Tags und Meta-Beschreibungen nach dem Wechsel.",
+          },
         },
         {
           title: "Optimizacion de base de datos y hosting para SEO",
@@ -212,6 +275,15 @@ export const woocommerceSeoGuide: AcademyTopic = {
             "Establecer atributos de ancho y alto explicitos en todas las imagenes para prevenir CLS",
             "Comprimir miniaturas agresivamente ya que aparecen en tamanos pequenos en cuadriculas",
           ],
+          image: {
+            src: "/images/academy/es/woocommerce-image-pipeline.svg",
+            alt: "WooCommerce Bildoptimierungs-Pipeline: Upload, Komprimierung, Groessenanpassung, Konvertierung und Auslieferung",
+            caption: "Automatisieren Sie die Bildoptimierung mit Plugins wie ShortPixel oder Imagify fuer konsistente Leistung.",
+          },
+          callout: {
+            title: "Bild-SEO-Basics",
+            text: "Alt-Text und beschreibende Dateinamen sind die am haeufigsten uebersehenen SEO-Gewinne bei WooCommerce-Shops. Jedes Produktbild sollte Alt-Text mit dem Produktnamen und relevanten Keywords haben.",
+          },
         },
         {
           title: "Arquitectura de sitio WooCommerce y enlazado interno",
@@ -244,6 +316,15 @@ export const woocommerceSeoGuide: AcademyTopic = {
             "SEOPress: minore impatto sul database, prestazioni admin piu veloci, adatto per grandi cataloghi",
             "Tutti e tre supportano sitemap XML, tag canonici, Open Graph e schema prodotto",
           ],
+          image: {
+            src: "/images/academy/it/woocommerce-seo-plugins.svg",
+            alt: "WooCommerce SEO-Plugin-Vergleich: Yoast SEO, RankMath und SEOPress mit Funktionsmatrix",
+            caption: "Alle drei Plugins bieten solide WooCommerce-Integration. RankMath bietet das beste Preis-Leistungs-Verhaeltnis.",
+          },
+          callout: {
+            title: "Plugin-Wechsel",
+            text: "Der Wechsel zwischen SEO-Plugins kann Meta-Daten zuruecksetzen, wenn nicht sorgfaeltig migriert wird. Verwenden Sie Migrations-Tools und pruefen Sie alle Title-Tags und Meta-Beschreibungen nach dem Wechsel.",
+          },
         },
         {
           title: "Ottimizzazione database e hosting per la SEO",
@@ -266,6 +347,15 @@ export const woocommerceSeoGuide: AcademyTopic = {
             "Impostare attributi di larghezza e altezza espliciti su tutte le immagini per prevenire il CLS",
             "Comprimere aggressivamente le miniature poiche appaiono in dimensioni ridotte nelle griglie",
           ],
+          image: {
+            src: "/images/academy/it/woocommerce-image-pipeline.svg",
+            alt: "WooCommerce Bildoptimierungs-Pipeline: Upload, Komprimierung, Groessenanpassung, Konvertierung und Auslieferung",
+            caption: "Automatisieren Sie die Bildoptimierung mit Plugins wie ShortPixel oder Imagify fuer konsistente Leistung.",
+          },
+          callout: {
+            title: "Bild-SEO-Basics",
+            text: "Alt-Text und beschreibende Dateinamen sind die am haeufigsten uebersehenen SEO-Gewinne bei WooCommerce-Shops. Jedes Produktbild sollte Alt-Text mit dem Produktnamen und relevanten Keywords haben.",
+          },
         },
         {
           title: "Architettura del sito WooCommerce e linking interno",
@@ -298,6 +388,15 @@ export const woocommerceSeoGuide: AcademyTopic = {
             "SEOPress: lichtste database-voetafdruk, snelste adminprestaties, goed voor grote catalogi",
             "Alle drie ondersteunen XML-sitemaps, canonical tags, Open Graph en productschema",
           ],
+          image: {
+            src: "/images/academy/nl/woocommerce-seo-plugins.svg",
+            alt: "WooCommerce SEO-Plugin-Vergleich: Yoast SEO, RankMath und SEOPress mit Funktionsmatrix",
+            caption: "Alle drei Plugins bieten solide WooCommerce-Integration. RankMath bietet das beste Preis-Leistungs-Verhaeltnis.",
+          },
+          callout: {
+            title: "Plugin-Wechsel",
+            text: "Der Wechsel zwischen SEO-Plugins kann Meta-Daten zuruecksetzen, wenn nicht sorgfaeltig migriert wird. Verwenden Sie Migrations-Tools und pruefen Sie alle Title-Tags und Meta-Beschreibungen nach dem Wechsel.",
+          },
         },
         {
           title: "Database- en hostingoptimalisatie voor SEO",
@@ -320,6 +419,15 @@ export const woocommerceSeoGuide: AcademyTopic = {
             "Expliciete breedte- en hoogte-attributen instellen op alle afbeeldingselementen om CLS te voorkomen",
             "Thumbnails agressief comprimeren aangezien ze op kleine formaten in rasters verschijnen",
           ],
+          image: {
+            src: "/images/academy/nl/woocommerce-image-pipeline.svg",
+            alt: "WooCommerce Bildoptimierungs-Pipeline: Upload, Komprimierung, Groessenanpassung, Konvertierung und Auslieferung",
+            caption: "Automatisieren Sie die Bildoptimierung mit Plugins wie ShortPixel oder Imagify fuer konsistente Leistung.",
+          },
+          callout: {
+            title: "Bild-SEO-Basics",
+            text: "Alt-Text und beschreibende Dateinamen sind die am haeufigsten uebersehenen SEO-Gewinne bei WooCommerce-Shops. Jedes Produktbild sollte Alt-Text mit dem Produktnamen und relevanten Keywords haben.",
+          },
         },
         {
           title: "WooCommerce sitearchitectuur en interne linking",

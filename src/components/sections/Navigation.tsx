@@ -614,10 +614,9 @@ export default function Navigation() {
               </a>
               <LanguageSelector />
               <Button
-                href="https://w35pmime997.typeform.com/to/eqeeLQvb"
+                href="/demo"
                 variant="primary"
                 size="small"
-                external
               >
                 {t.getInTouch}
               </Button>
@@ -1104,11 +1103,10 @@ export default function Navigation() {
             {/* CTA */}
             <div className="mt-4">
               <Button
-                href="https://w35pmime997.typeform.com/to/eqeeLQvb"
+                href="/demo"
                 variant="primary"
                 size="small"
                 className="w-full justify-center"
-                external
               >
                 {t.getInTouch}
               </Button>

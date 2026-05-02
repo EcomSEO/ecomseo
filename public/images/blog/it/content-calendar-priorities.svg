@@ -1,0 +1,28 @@
+<svg viewBox="0 0 680 320" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <text x="340" y="28" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#a78bfa">Content Prioritization Matrix</text>
+  <text x="340" y="48" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#e2e8f0">Score opportunities by four factors to decide what to create first</text>
+  <line x1="120" y1="70" x2="120" y2="280" stroke="#e2e8f0" stroke-width="1"/>
+  <line x1="120" y1="280" x2="620" y2="280" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="60" y="180" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#e2e8f0" transform="rotate(-90,60,180)">Revenue Potential</text>
+  <text x="370" y="305" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#e2e8f0">Keyword Difficulty (ease to rank)</text>
+  <rect x="130" y="78" width="230" height="95" rx="6" stroke="#4ade80" stroke-width="2" fill="none"/>
+  <text x="245" y="100" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#4ade80">Priority 1</text>
+  <text x="245" y="118" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">High revenue + Easy to rank</text>
+  <text x="245" y="136" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Buying guides, category copy</text>
+  <text x="245" y="154" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">with purchase intent keywords</text>
+  <rect x="380" y="78" width="230" height="95" rx="6" stroke="#60a5fa" stroke-width="2" fill="none"/>
+  <text x="495" y="100" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#60a5fa">Priority 2</text>
+  <text x="495" y="118" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">High revenue + Hard to rank</text>
+  <text x="495" y="136" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Competitive head terms</text>
+  <text x="495" y="154" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Long-term link building needed</text>
+  <rect x="130" y="183" width="230" height="90" rx="6" stroke="#f97316" stroke-width="2" fill="none"/>
+  <text x="245" y="205" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#f97316">Priority 3</text>
+  <text x="245" y="223" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Low revenue + Easy to rank</text>
+  <text x="245" y="241" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Informational blog posts</text>
+  <text x="245" y="259" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">for brand awareness</text>
+  <rect x="380" y="183" width="230" height="90" rx="6" stroke="#f472b6" stroke-width="2" fill="none"/>
+  <text x="495" y="205" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#f472b6">Deprioritize</text>
+  <text x="495" y="223" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Low revenue + Hard to rank</text>
+  <text x="495" y="241" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Skip unless you have</text>
+  <text x="495" y="259" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">excess content capacity</text>
+</svg>

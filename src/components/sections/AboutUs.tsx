@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import Button from "@/components/ui/Button";
+import LocaleLink from "@/components/ui/LocaleLink";
 import SectionWrapper from "@/components/ui/SectionWrapper";
 import { useLocale } from "@/lib/i18n/useTranslations";
 import { aboutUsT } from "@/lib/i18n/translations/home";
@@ -44,6 +45,25 @@ export default function AboutUs() {
           <p className="text-body text-base md:text-lg leading-relaxed">
             {t.paragraph}
           </p>
+          {t.paragraph2 && (
+            <p className="text-body text-base md:text-lg leading-relaxed">
+              {t.paragraph2}
+            </p>
+          )}
+          <div className="flex flex-wrap items-center justify-center gap-4 mt-2">
+            <LocaleLink
+              href="/cases"
+              className="text-accent text-sm font-medium hover:underline"
+            >
+              See our results →
+            </LocaleLink>
+            <LocaleLink
+              href="/team"
+              className="text-accent text-sm font-medium hover:underline"
+            >
+              Meet the team →
+            </LocaleLink>
+          </div>
         </motion.div>
 
         {/* Large blurred text card */}
@@ -61,10 +81,9 @@ export default function AboutUs() {
                 {t.cardText}
               </p>
               <Button
-                href="https://w35pmime997.typeform.com/to/eqeeLQvb"
+                href="/demo"
                 variant="primary"
                 size="large"
-                external
               >
                 {t.cta}
               </Button>

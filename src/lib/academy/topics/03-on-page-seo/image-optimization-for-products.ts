@@ -33,6 +33,15 @@ export const imageOptimizationForProducts: AcademyTopic = {
             "Use automated compression tools or CDN-based optimization for large product catalogs",
             "Never compress an already-compressed image, always start from the original high-quality file",
           ],
+          image: {
+            src: "/images/academy/image-format-comparison.svg",
+            alt: "Comparison table showing file size savings across JPEG, WebP, and AVIF formats for product photography",
+            caption: "Switching from JPEG 100% to WebP saves 73% file size. For a product page with 6 images, that is 10+ MB less page weight.",
+          },
+          callout: {
+            title: "Format Impact",
+            text: "WebP delivers 25-35% smaller files than JPEG at equivalent visual quality and has 97% browser support. A 6-image product page drops from 14.4 MB to 3.9 MB, cutting load time from 5+ seconds to under 2 seconds on mobile.",
+          },
           tip: "Set up automatic WebP conversion in your image pipeline. Most CDNs like Cloudinary, Cloudflare, and Imgix can serve WebP to supported browsers automatically without changing any image URLs in your HTML. This single change can reduce total image payload by 25-35% across your entire site.",
         },
         {
@@ -62,6 +71,10 @@ export const imageOptimizationForProducts: AcademyTopic = {
             "Eagerly load the primary product image with fetchpriority='high' to optimize LCP",
             "Always include width and height attributes on img tags to prevent layout shift (CLS)",
           ],
+          callout: {
+            title: "LCP Priority Rule",
+            text: "Never lazy-load the primary product image. Use fetchpriority='high' on the main visible image and loading='lazy' only on below-the-fold images. Lazy-loading the hero image delays Largest Contentful Paint and hurts Core Web Vitals.",
+          },
         },
         {
           title: "Image SEO for Product Listing Pages and Sitemaps",
@@ -103,6 +116,15 @@ export const imageOptimizationForProducts: AcademyTopic = {
             "Nutzen Sie automatisierte Komprimierungstools oder CDN-basierte Optimierung fuer grosse Produktkataloge",
             "Komprimieren Sie nie ein bereits komprimiertes Bild, starten Sie immer vom hoechstqualitativen Original",
           ],
+          image: {
+            src: "/images/academy/de/image-format-comparison.svg",
+            alt: "Vergleichstabelle der Dateigrößeneinsparungen bei JPEG, WebP und AVIF für Produktfotografie",
+            caption: "Der Wechsel von JPEG 100% zu WebP spart 73% Dateigröße. Bei einer Produktseite mit 6 Bildern sind das über 10 MB weniger Seitengewicht.",
+          },
+          callout: {
+            title: "Format-Wirkung",
+            text: "WebP liefert 25-35% kleinere Dateien als JPEG bei gleichwertiger visueller Qualität und hat 97% Browser-Unterstützung. Eine 6-Bilder-Produktseite sinkt von 14,4 MB auf 3,9 MB und verkürzt die Ladezeit von über 5 Sekunden auf unter 2 Sekunden auf Mobilgeräten.",
+          },
           tip: "Richten Sie automatische WebP-Konvertierung in Ihrer Bild-Pipeline ein. Die meisten CDNs wie Cloudinary, Cloudflare und Imgix koennen WebP an unterstuetzte Browser automatisch ausliefern, ohne Bild-URLs in Ihrem HTML zu aendern. Diese einzelne Aenderung kann die gesamte Bild-Payload um 25-35% ueber Ihre gesamte Website reduzieren.",
         },
         {
@@ -132,6 +154,10 @@ export const imageOptimizationForProducts: AcademyTopic = {
             "Laden Sie das primaere Produktbild eifrig mit fetchpriority='high' zur LCP-Optimierung",
             "Fuegen Sie immer width- und height-Attribute auf img-Tags ein, um Layout-Shift (CLS) zu verhindern",
           ],
+          callout: {
+            title: "LCP-Prioritätsregel",
+            text: "Das Hauptproduktbild niemals lazy-loaden. Verwenden Sie fetchpriority=\"high\" fuer das erste sichtbare Bild, um die LCP-Zeit zu minimieren und bessere Core-Web-Vitals-Werte zu erzielen.",
+          },
         },
         {
           title: "Bild-SEO fuer Produktlistenseiten und Sitemaps",
@@ -174,6 +200,15 @@ export const imageOptimizationForProducts: AcademyTopic = {
             "Ne compressez jamais une image deja compressee -- partez toujours du fichier original haute qualite",
           ],
           tip: "Configurez la conversion automatique en WebP dans votre pipeline d'images. La plupart des CDN comme Cloudinary, Cloudflare et Imgix peuvent servir le WebP aux navigateurs compatibles automatiquement sans changer les URLs d'images dans votre HTML. Ce seul changement peut reduire la charge totale d'images de 25-35 % sur l'ensemble de votre site.",
+          image: {
+            src: "/images/academy/fr/image-format-comparison.svg",
+            alt: "Vergleichstabelle der Dateigrößeneinsparungen bei JPEG, WebP und AVIF für Produktfotografie",
+            caption: "Der Wechsel von JPEG 100% zu WebP spart 73% Dateigröße. Bei einer Produktseite mit 6 Bildern sind das über 10 MB weniger Seitengewicht.",
+          },
+          callout: {
+            title: "Format-Wirkung",
+            text: "WebP liefert 25-35% kleinere Dateien als JPEG bei gleichwertiger visueller Qualität und hat 97% Browser-Unterstützung. Eine 6-Bilder-Produktseite sinkt von 14,4 MB auf 3,9 MB und verkürzt die Ladezeit von über 5 Sekunden auf unter 2 Sekunden auf Mobilgeräten.",
+          },
         },
         {
           title: "Bonnes pratiques du texte alternatif pour les images produits",
@@ -202,6 +237,10 @@ export const imageOptimizationForProducts: AcademyTopic = {
             "Chargez immediatement l'image produit principale avec fetchpriority='high' pour optimiser le LCP",
             "Incluez toujours les attributs width et height sur les balises img pour prevenir le decalage de mise en page (CLS)",
           ],
+          callout: {
+            title: "LCP-Prioritätsregel",
+            text: "Das Hauptproduktbild niemals lazy-loaden. Verwenden Sie fetchpriority=\"high\" fuer das erste sichtbare Bild, um die LCP-Zeit zu minimieren und bessere Core-Web-Vitals-Werte zu erzielen.",
+          },
         },
         {
           title: "SEO des images pour les pages listing et les sitemaps",
@@ -244,6 +283,15 @@ export const imageOptimizationForProducts: AcademyTopic = {
             "Nunca comprimas una imagen ya comprimida -- siempre empieza desde el archivo original de alta calidad",
           ],
           tip: "Configura la conversion automatica a WebP en tu pipeline de imagenes. La mayoria de los CDN como Cloudinary, Cloudflare e Imgix pueden servir WebP a navegadores compatibles automaticamente sin cambiar ninguna URL de imagen en tu HTML. Este unico cambio puede reducir la carga total de imagenes un 25-35% en todo tu sitio.",
+          image: {
+            src: "/images/academy/es/image-format-comparison.svg",
+            alt: "Vergleichstabelle der Dateigrößeneinsparungen bei JPEG, WebP und AVIF für Produktfotografie",
+            caption: "Der Wechsel von JPEG 100% zu WebP spart 73% Dateigröße. Bei einer Produktseite mit 6 Bildern sind das über 10 MB weniger Seitengewicht.",
+          },
+          callout: {
+            title: "Format-Wirkung",
+            text: "WebP liefert 25-35% kleinere Dateien als JPEG bei gleichwertiger visueller Qualität und hat 97% Browser-Unterstützung. Eine 6-Bilder-Produktseite sinkt von 14,4 MB auf 3,9 MB und verkürzt die Ladezeit von über 5 Sekunden auf unter 2 Sekunden auf Mobilgeräten.",
+          },
         },
         {
           title: "Mejores practicas de texto alternativo para imagenes de productos",
@@ -272,6 +320,10 @@ export const imageOptimizationForProducts: AcademyTopic = {
             "Carga inmediatamente la imagen principal del producto con fetchpriority='high' para optimizar LCP",
             "Siempre incluye atributos width y height en las etiquetas img para prevenir el cambio de diseno (CLS)",
           ],
+          callout: {
+            title: "LCP-Prioritätsregel",
+            text: "Das Hauptproduktbild niemals lazy-loaden. Verwenden Sie fetchpriority=\"high\" fuer das erste sichtbare Bild, um die LCP-Zeit zu minimieren und bessere Core-Web-Vitals-Werte zu erzielen.",
+          },
         },
         {
           title: "SEO de imagenes para paginas de listado de productos y sitemaps",
@@ -314,6 +366,15 @@ export const imageOptimizationForProducts: AcademyTopic = {
             "Non comprimere mai un'immagine gia compressa -- parti sempre dal file originale di alta qualita",
           ],
           tip: "Configura la conversione automatica in WebP nella tua pipeline di immagini. La maggior parte dei CDN come Cloudinary, Cloudflare e Imgix possono servire WebP ai browser supportati automaticamente senza cambiare nessun URL di immagine nel tuo HTML. Questa singola modifica puo ridurre il payload totale delle immagini del 25-35% su tutto il tuo sito.",
+          image: {
+            src: "/images/academy/it/image-format-comparison.svg",
+            alt: "Vergleichstabelle der Dateigrößeneinsparungen bei JPEG, WebP und AVIF für Produktfotografie",
+            caption: "Der Wechsel von JPEG 100% zu WebP spart 73% Dateigröße. Bei einer Produktseite mit 6 Bildern sind das über 10 MB weniger Seitengewicht.",
+          },
+          callout: {
+            title: "Format-Wirkung",
+            text: "WebP liefert 25-35% kleinere Dateien als JPEG bei gleichwertiger visueller Qualität und hat 97% Browser-Unterstützung. Eine 6-Bilder-Produktseite sinkt von 14,4 MB auf 3,9 MB und verkürzt die Ladezeit von über 5 Sekunden auf unter 2 Sekunden auf Mobilgeräten.",
+          },
         },
         {
           title: "Best practice del testo alternativo per le immagini prodotto",
@@ -342,6 +403,10 @@ export const imageOptimizationForProducts: AcademyTopic = {
             "Carica immediatamente l'immagine prodotto principale con fetchpriority='high' per ottimizzare LCP",
             "Includi sempre attributi width e height sui tag img per prevenire lo spostamento del layout (CLS)",
           ],
+          callout: {
+            title: "LCP-Prioritätsregel",
+            text: "Das Hauptproduktbild niemals lazy-loaden. Verwenden Sie fetchpriority=\"high\" fuer das erste sichtbare Bild, um die LCP-Zeit zu minimieren und bessere Core-Web-Vitals-Werte zu erzielen.",
+          },
         },
         {
           title: "SEO delle immagini per pagine listing prodotti e sitemap",
@@ -384,6 +449,15 @@ export const imageOptimizationForProducts: AcademyTopic = {
             "Comprimeer nooit een al gecomprimeerde afbeelding -- begin altijd vanaf het originele hoge-kwaliteitsbestand",
           ],
           tip: "Stel automatische WebP-conversie in je beeldpipeline in. De meeste CDN's zoals Cloudinary, Cloudflare en Imgix kunnen WebP automatisch serveren aan ondersteunde browsers zonder beeldURL's in je HTML te wijzigen. Deze enkele wijziging kan de totale beeldbelasting met 25-35% verminderen over je hele site.",
+          image: {
+            src: "/images/academy/nl/image-format-comparison.svg",
+            alt: "Vergleichstabelle der Dateigrößeneinsparungen bei JPEG, WebP und AVIF für Produktfotografie",
+            caption: "Der Wechsel von JPEG 100% zu WebP spart 73% Dateigröße. Bei einer Produktseite mit 6 Bildern sind das über 10 MB weniger Seitengewicht.",
+          },
+          callout: {
+            title: "Format-Wirkung",
+            text: "WebP liefert 25-35% kleinere Dateien als JPEG bei gleichwertiger visueller Qualität und hat 97% Browser-Unterstützung. Eine 6-Bilder-Produktseite sinkt von 14,4 MB auf 3,9 MB und verkürzt die Ladezeit von über 5 Sekunden auf unter 2 Sekunden auf Mobilgeräten.",
+          },
         },
         {
           title: "Alt-tekst best practices voor productafbeeldingen",
@@ -412,6 +486,10 @@ export const imageOptimizationForProducts: AcademyTopic = {
             "Laad de primaire productafbeelding eager met fetchpriority='high' om LCP te optimaliseren",
             "Neem altijd width- en height-attributen op in img-tags om layout shift (CLS) te voorkomen",
           ],
+          callout: {
+            title: "LCP-Prioritätsregel",
+            text: "Das Hauptproduktbild niemals lazy-loaden. Verwenden Sie fetchpriority=\"high\" fuer das erste sichtbare Bild, um die LCP-Zeit zu minimieren und bessere Core-Web-Vitals-Werte zu erzielen.",
+          },
         },
         {
           title: "Beeld-SEO voor productoverzichtpagina's en sitemaps",

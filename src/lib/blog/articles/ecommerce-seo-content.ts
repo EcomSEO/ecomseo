@@ -3,7 +3,7 @@ import type { BlogArticle } from "../types";
 export const ecommerceSeoContent: BlogArticle = {
   slug: "ecommerce-seo-content",
   category: "strategy",
-  publishDate: "2025-07-18",
+  publishDate: "2026-03-16",
   readingTime: 11,
   author: "Fabian van Til",
   authorRole: "CEO at EcomSEO",
@@ -35,6 +35,8 @@ export const ecommerceSeoContent: BlogArticle = {
             "How-to and care content builds topical authority and captures top-of-funnel traffic. \"How to break in new leather boots\" or \"How to clean white sneakers\" brings in people who already own products in your category. They might not buy today, but they are now in your remarketing audience and email list. This content also earns backlinks naturally because people reference helpful tutorials.",
             "Category page content is often overlooked. Most category pages have a heading, filters, and product listings. Adding 200-400 words of descriptive content to category pages helps Google understand what the page covers and gives you room to include related keywords. We added introductory content to a client's 12 main category pages. Nine of those pages improved in rankings within six weeks. For a full walkthrough of what makes category pages rank, see our guide on [ecommerce category page SEO](/blog/ecommerce-category-page-seo).",
           ],
+          image: { src: "/images/blog/ecommerce-content-types-roi.svg", alt: "Ecommerce content types ranked by revenue impact from buying guides to blog posts", caption: "Buying guides generate 2-5x more revenue per organic visit than standard blog posts" },
+          callout: { title: "Category Content Wins", text: "Adding 200-400 words of descriptive content to 12 main category pages improved rankings for 9 of them within six weeks. Category page content is the most overlooked opportunity in ecommerce SEO." },
         },
         {
           heading: "Content for each stage of the buying funnel",
@@ -44,6 +46,8 @@ export const ecommerceSeoContent: BlogArticle = {
             "Decision stage content removes the last barriers to purchase. Product description pages, customer review compilations, and FAQ sections help someone who has found your product decide to buy it. This content lives on your product pages and should address objections directly. Sizing information, return policies, and care instructions reduce uncertainty and push people toward conversion.",
             "We map every piece of content to a funnel stage before creating it. This prevents the common mistake of producing dozens of awareness-stage blog posts while neglecting the consideration content that actually drives revenue. For most ecommerce stores, we recommend a 20/50/30 split: 20% awareness, 50% consideration, 30% decision-stage content by volume.",
           ],
+          image: { src: "/images/blog/content-funnel-stages.svg", alt: "Content types mapped to buying funnel stages from awareness to retention", caption: "Recommended content allocation: 20% awareness, 50% consideration, 30% decision" },
+          callout: { title: "Content Split Rule", text: "Most ecommerce stores over-invest in awareness content. The highest ROI comes from a 20/50/30 split: 20% awareness, 50% consideration (buying guides, comparisons), and 30% decision-stage content." },
         },
         {
           heading: "Product description optimization that works",
@@ -53,6 +57,8 @@ export const ecommerceSeoContent: BlogArticle = {
             "Include the specific questions that buyers ask before purchasing. We analyze the \"People Also Ask\" results for product-related queries and address those questions directly in the description. For a portable Bluetooth speaker, that might include battery life, waterproofing details, and compatibility with specific devices. A product page that answers these questions keeps users on the page longer and gives Google more content to evaluate.",
             "Structure product descriptions with scannable formatting. Use short paragraphs, bullet points for specifications, and clear subheadings. People on product pages are in comparison mode. They skim. A wall of text gets ignored. A well-structured description with bolded key specs and clear benefit statements gets read and drives conversions. One store we work with increased their add-to-cart rate by 18% after restructuring product descriptions, with no change to the actual text, just the formatting.",
           ],
+          image: { src: "/images/blog/product-description-framework.svg", alt: "Product description optimization framework comparing typical low-conversion copy versus optimized high-conversion copy", caption: "Rewriting product descriptions from the buyer's perspective increases both rankings and conversions" },
+          callout: { title: "Format Drives Conversions", text: "One store increased add-to-cart rate by 18% after restructuring product descriptions with no change to the actual text -- just better formatting with subheadings, bullets, and bolded specs." },
         },
         {
           heading: "User-generated content as an SEO engine",
@@ -62,6 +68,8 @@ export const ecommerceSeoContent: BlogArticle = {
             "The volume of reviews matters. A product page with 2 reviews has minimal UGC benefit. A page with 50+ reviews has potentially thousands of words of unique content, dozens of long-tail keyword variations, and strong social proof signals. Invest in post-purchase email sequences that ask for reviews. Some of our clients offer a small discount on the next purchase in exchange for a detailed review, which increases both review volume and review length.",
             "Be cautious about syndicating reviews across platforms. If the same review appears on your site, Amazon, and three other retailers, it is duplicate content everywhere except where it first appeared. First-party reviews that are unique to your site provide the most SEO value.",
           ],
+          image: { src: "/images/blog/ugc-seo-flywheel.svg", alt: "User-generated content SEO flywheel showing reviews driving rankings, traffic, and revenue", caption: "The UGC flywheel: reviews generate content that drives rankings and more sales" },
+          callout: { title: "Review Volume Matters", text: "Product pages with 50+ reviews can contain thousands of words of unique, keyword-rich content. Post-purchase email sequences offering a small discount for detailed reviews increase both volume and length." },
         },
         {
           heading: "Content pruning for better performance",
@@ -80,6 +88,7 @@ export const ecommerceSeoContent: BlogArticle = {
             "Plan content in clusters, not as isolated pieces. A content cluster for a running shoe store might include a pillar page (\"Complete guide to running shoes\"), supporting pages (\"Best running shoes for beginners,\" \"Running shoe sizing guide,\" \"When to replace your running shoes\"), and internal links connecting them all. This cluster approach signals topical authority to Google and creates natural internal linking pathways.",
             "Set a sustainable publishing cadence. Four well-researched, well-written pieces per month will outperform twenty thin articles. We have seen this repeatedly. Quality compounds in SEO. Each strong piece earns links, accumulates engagement signals, and builds authority. Thin content does the opposite.",
           ],
+          image: { src: "/images/blog/content-calendar-priorities.svg", alt: "Content prioritization matrix scoring opportunities by revenue potential and keyword difficulty", caption: "Score every content opportunity by revenue potential and ranking difficulty before creating" },
         },
         {
           heading: "Measuring content performance accurately",
@@ -112,6 +121,8 @@ export const ecommerceSeoContent: BlogArticle = {
             "El contenido de tutoriales y cuidado construye autoridad temática y captura tráfico de la parte superior del embudo. \"Cómo ablandar botas de cuero nuevas\" o \"Cómo limpiar zapatillas blancas\" atrae a personas que ya poseen productos en tu categoría. Puede que no compren hoy, pero ahora están en tu audiencia de remarketing y lista de correo. Este contenido también gana backlinks de forma natural porque la gente referencia tutoriales útiles.",
             "El contenido de páginas de categorías a menudo se pasa por alto. La mayoría de las páginas de categorías tienen un encabezado, filtros y listados de productos. Agregar 200-400 palabras de contenido descriptivo a las páginas de categorías ayuda a Google a entender qué cubre la página y te da espacio para incluir keywords relacionadas. Agregamos contenido introductorio a las 12 páginas de categorías principales de un cliente. Nueve de esas páginas mejoraron en rankings en seis semanas. Para un recorrido completo de lo que hace que las páginas de categorías se posicionen, consulta nuestra guía sobre [SEO de páginas de categoría para ecommerce](/blog/ecommerce-category-page-seo)."
           ],
+          image: { src: "/images/blog/es/ecommerce-content-types-roi.svg", alt: "Ecommerce content types ranked by revenue impact from buying guides to blog posts", caption: "Buying guides generate 2-5x more revenue per organic visit than standard blog posts" },
+          callout: { title: "Category Content Wins", text: "Adding 200-400 words of descriptive content to 12 main category pages improved rankings for 9 of them within six weeks. Category page content is the most overlooked opportunity in ecommerce SEO." },
         },
         {
           heading: "Contenido para cada etapa del embudo de compra",
@@ -121,6 +132,8 @@ export const ecommerceSeoContent: BlogArticle = {
             "El contenido de la etapa de decisión elimina las últimas barreras para la compra. Las páginas de descripción de productos, compilaciones de reseñas de clientes y secciones de FAQ ayudan a alguien que ha encontrado tu producto a decidirse a comprarlo. Este contenido vive en tus páginas de productos y debe abordar las objeciones directamente. La información de tallas, políticas de devolución e instrucciones de cuidado reducen la incertidumbre y empujan a las personas hacia la conversión.",
             "Asociamos cada pieza de contenido con una etapa del embudo antes de crearla. Esto previene el error común de producir docenas de publicaciones de blog en la etapa de concienciación mientras se descuida el contenido de consideración que realmente impulsa los ingresos. Para la mayoría de las tiendas de ecommerce, recomendamos una distribución 20/50/30: 20% concienciación, 50% consideración, 30% contenido de etapa de decisión por volumen."
           ],
+          image: { src: "/images/blog/es/content-funnel-stages.svg", alt: "Content types mapped to buying funnel stages from awareness to retention", caption: "Recommended content allocation: 20% awareness, 50% consideration, 30% decision" },
+          callout: { title: "Content Split Rule", text: "Most ecommerce stores over-invest in awareness content. The highest ROI comes from a 20/50/30 split: 20% awareness, 50% consideration (buying guides, comparisons), and 30% decision-stage content." },
         },
         {
           heading: "Optimización de descripciones de productos que funciona",
@@ -130,6 +143,8 @@ export const ecommerceSeoContent: BlogArticle = {
             "Incluye las preguntas específicas que los compradores hacen antes de comprar. Analizamos los resultados de \"La gente también pregunta\" para consultas relacionadas con productos y abordamos esas preguntas directamente en la descripción. Para un altavoz Bluetooth portátil, eso podría incluir la duración de la batería, detalles de impermeabilidad y compatibilidad con dispositivos específicos. Una página de producto que responde estas preguntas mantiene a los usuarios en la página más tiempo y le da a Google más contenido para evaluar.",
             "Estructura las descripciones de productos con formato escaneable. Usa párrafos cortos, viñetas para especificaciones y subtítulos claros. Las personas en páginas de productos están en modo de comparación. Escanean. Un muro de texto se ignora. Una descripción bien estructurada con especificaciones clave en negrita y declaraciones claras de beneficios se lee y genera conversiones. Una tienda con la que trabajamos aumentó su tasa de añadir al carrito en un 18% después de reestructurar las descripciones de productos, sin cambiar el texto real, solo el formato."
           ],
+          image: { src: "/images/blog/es/product-description-framework.svg", alt: "Product description optimization framework comparing typical low-conversion copy versus optimized high-conversion copy", caption: "Rewriting product descriptions from the buyer's perspective increases both rankings and conversions" },
+          callout: { title: "Format Drives Conversions", text: "One store increased add-to-cart rate by 18% after restructuring product descriptions with no change to the actual text -- just better formatting with subheadings, bullets, and bolded specs." },
         },
         {
           heading: "Contenido generado por usuarios como motor de SEO",
@@ -139,6 +154,8 @@ export const ecommerceSeoContent: BlogArticle = {
             "El volumen de reseñas importa. Una página de producto con 2 reseñas tiene un beneficio UGC mínimo. Una página con más de 50 reseñas tiene potencialmente miles de palabras de contenido único, docenas de variaciones de keywords long-tail y fuertes señales de prueba social. Invierte en secuencias de correo post-compra que pidan reseñas. Algunos de nuestros clientes ofrecen un pequeño descuento en la próxima compra a cambio de una reseña detallada, lo que aumenta tanto el volumen como la longitud de las reseñas.",
             "Ten cuidado con distribuir reseñas entre plataformas. Si la misma reseña aparece en tu sitio, Amazon y tres otros minoristas, es contenido duplicado en todos lados excepto donde apareció primero. Las reseñas de primera mano que son únicas de tu sitio proporcionan el mayor valor SEO."
           ],
+          image: { src: "/images/blog/es/ugc-seo-flywheel.svg", alt: "User-generated content SEO flywheel showing reviews driving rankings, traffic, and revenue", caption: "The UGC flywheel: reviews generate content that drives rankings and more sales" },
+          callout: { title: "Review Volume Matters", text: "Product pages with 50+ reviews can contain thousands of words of unique, keyword-rich content. Post-purchase email sequences offering a small discount for detailed reviews increase both volume and length." },
         },
         {
           heading: "Poda de contenido para mejor rendimiento",
@@ -157,6 +174,7 @@ export const ecommerceSeoContent: BlogArticle = {
             "Planifica el contenido en clústeres, no como piezas aisladas. Un clúster de contenido para una tienda de zapatillas de running podría incluir una página pilar (\"Guía completa de zapatillas de running\"), páginas de apoyo (\"Mejores zapatillas de running para principiantes\", \"Guía de tallas de zapatillas de running\", \"Cuándo reemplazar tus zapatillas de running\") y enlaces internos conectándolas todas. Este enfoque de clústeres señala autoridad temática a Google y crea caminos naturales de enlazado interno.",
             "Establece una cadencia de publicación sostenible. Cuatro piezas bien investigadas y bien escritas por mes superarán a veinte artículos superficiales. Hemos visto esto repetidamente. La calidad se acumula en SEO. Cada pieza fuerte gana enlaces, acumula señales de engagement y construye autoridad. El contenido superficial hace lo contrario."
           ],
+          image: { src: "/images/blog/es/content-calendar-priorities.svg", alt: "Content prioritization matrix scoring opportunities by revenue potential and keyword difficulty", caption: "Score every content opportunity by revenue potential and ranking difficulty before creating" },
         },
         {
           heading: "Midiendo el rendimiento del contenido con precisión",
@@ -189,6 +207,8 @@ export const ecommerceSeoContent: BlogArticle = {
             "Le contenu de type tutoriel et entretien construit l'autorité thématique et capture le trafic de haut de tunnel. « Comment assouplir de nouvelles bottes en cuir » ou « Comment nettoyer des sneakers blanches » attire des personnes qui possèdent déjà des produits dans votre catégorie. Elles n'achèteront peut-être pas aujourd'hui, mais elles font désormais partie de votre audience de remarketing et de votre liste email. Ce contenu gagne aussi des backlinks naturellement car les gens référencent les tutoriels utiles.",
             "Le contenu des pages catégories est souvent négligé. La plupart des pages catégories ont un titre, des filtres et des listings de produits. Ajouter 200-400 mots de contenu descriptif aux pages catégories aide Google à comprendre ce que la page couvre et vous donne l'espace d'inclure des mots-clés connexes. Nous avons ajouté du contenu d'introduction aux 12 pages catégories principales d'un client. Neuf de ces pages se sont améliorées dans les classements en six semaines. Pour un guide complet de ce qui fait classer les pages catégories, consultez notre guide sur le [SEO des pages catégories ecommerce](/blog/ecommerce-category-page-seo)."
           ],
+          image: { src: "/images/blog/fr/ecommerce-content-types-roi.svg", alt: "Ecommerce content types ranked by revenue impact from buying guides to blog posts", caption: "Buying guides generate 2-5x more revenue per organic visit than standard blog posts" },
+          callout: { title: "Category Content Wins", text: "Adding 200-400 words of descriptive content to 12 main category pages improved rankings for 9 of them within six weeks. Category page content is the most overlooked opportunity in ecommerce SEO." },
         },
         {
           heading: "Contenu pour chaque étape du tunnel d'achat",
@@ -198,6 +218,8 @@ export const ecommerceSeoContent: BlogArticle = {
             "Le contenu de décision supprime les dernières barrières à l'achat. Les pages de description de produits, les compilations d'avis clients et les sections FAQ aident quelqu'un qui a trouvé votre produit à décider de l'acheter. Ce contenu se trouve sur vos pages produits et devrait traiter directement les objections. Les informations de taille, les politiques de retour et les instructions d'entretien réduisent l'incertitude et poussent les gens vers la conversion.",
             "Nous associons chaque contenu à une étape du tunnel avant de le créer. Cela prévient l'erreur courante de produire des dizaines d'articles de blog de sensibilisation tout en négligeant le contenu de considération qui génère réellement du chiffre d'affaires. Pour la plupart des boutiques ecommerce, nous recommandons une répartition 20/50/30 : 20 % sensibilisation, 50 % considération, 30 % contenu de décision en volume."
           ],
+          image: { src: "/images/blog/fr/content-funnel-stages.svg", alt: "Content types mapped to buying funnel stages from awareness to retention", caption: "Recommended content allocation: 20% awareness, 50% consideration, 30% decision" },
+          callout: { title: "Content Split Rule", text: "Most ecommerce stores over-invest in awareness content. The highest ROI comes from a 20/50/30 split: 20% awareness, 50% consideration (buying guides, comparisons), and 30% decision-stage content." },
         },
         {
           heading: "Optimisation des descriptions de produits qui fonctionne",
@@ -207,6 +229,8 @@ export const ecommerceSeoContent: BlogArticle = {
             "Incluez les questions spécifiques que les acheteurs posent avant d'acheter. Nous analysons les résultats « Autres questions posées » pour les requêtes liées aux produits et traitons ces questions directement dans la description. Pour une enceinte Bluetooth portable, cela pourrait inclure l'autonomie de la batterie, les détails d'étanchéité et la compatibilité avec des appareils spécifiques. Une page produit qui répond à ces questions garde les utilisateurs plus longtemps sur la page et donne à Google plus de contenu à évaluer.",
             "Structurez les descriptions de produits avec un formatage scannable. Utilisez des paragraphes courts, des puces pour les spécifications et des sous-titres clairs. Les personnes sur les pages produits sont en mode comparaison. Elles survolent. Un mur de texte est ignoré. Une description bien structurée avec des spécifications clés en gras et des arguments de bénéfices clairs est lue et génère des conversions. Une boutique avec laquelle nous travaillons a augmenté son taux d'ajout au panier de 18 % après avoir restructuré les descriptions de produits, sans changer le texte lui-même, juste le formatage."
           ],
+          image: { src: "/images/blog/fr/product-description-framework.svg", alt: "Product description optimization framework comparing typical low-conversion copy versus optimized high-conversion copy", caption: "Rewriting product descriptions from the buyer's perspective increases both rankings and conversions" },
+          callout: { title: "Format Drives Conversions", text: "One store increased add-to-cart rate by 18% after restructuring product descriptions with no change to the actual text -- just better formatting with subheadings, bullets, and bolded specs." },
         },
         {
           heading: "Le contenu généré par les utilisateurs comme moteur SEO",
@@ -216,6 +240,8 @@ export const ecommerceSeoContent: BlogArticle = {
             "Le volume d'avis compte. Une page produit avec 2 avis a un bénéfice UGC minimal. Une page avec plus de 50 avis a potentiellement des milliers de mots de contenu unique, des dizaines de variations de mots-clés longue traîne et de forts signaux de preuve sociale. Investissez dans des séquences d'emails post-achat qui demandent des avis. Certains de nos clients offrent une petite réduction sur le prochain achat en échange d'un avis détaillé, ce qui augmente à la fois le volume et la longueur des avis.",
             "Soyez prudent avec la syndication des avis entre plateformes. Si le même avis apparaît sur votre site, Amazon et trois autres détaillants, c'est du contenu dupliqué partout sauf là où il est apparu en premier. Les avis propriétaires uniques à votre site fournissent le plus de valeur SEO."
           ],
+          image: { src: "/images/blog/fr/ugc-seo-flywheel.svg", alt: "User-generated content SEO flywheel showing reviews driving rankings, traffic, and revenue", caption: "The UGC flywheel: reviews generate content that drives rankings and more sales" },
+          callout: { title: "Review Volume Matters", text: "Product pages with 50+ reviews can contain thousands of words of unique, keyword-rich content. Post-purchase email sequences offering a small discount for detailed reviews increase both volume and length." },
         },
         {
           heading: "Élagage du contenu pour de meilleures performances",
@@ -234,6 +260,7 @@ export const ecommerceSeoContent: BlogArticle = {
             "Planifiez le contenu en clusters, pas comme des pièces isolées. Un cluster de contenu pour une boutique de chaussures de running pourrait inclure une page pilier (« Guide complet des chaussures de running »), des pages de soutien (« Meilleures chaussures de running pour débutants », « Guide des tailles de chaussures de running », « Quand remplacer vos chaussures de running »), et des liens internes les connectant toutes. Cette approche en cluster signale l'autorité thématique à Google et crée des chemins de maillage interne naturels.",
             "Définissez un rythme de publication durable. Quatre contenus par mois bien recherchés et bien écrits surpasseront vingt articles maigres. Nous avons vu cela se répéter. La qualité se compose en SEO. Chaque contenu solide gagne des liens, accumule des signaux d'engagement et construit de l'autorité. Le contenu mince fait l'inverse."
           ],
+          image: { src: "/images/blog/fr/content-calendar-priorities.svg", alt: "Content prioritization matrix scoring opportunities by revenue potential and keyword difficulty", caption: "Score every content opportunity by revenue potential and ranking difficulty before creating" },
         },
         {
           heading: "Mesurer précisément la performance du contenu",
@@ -266,6 +293,8 @@ export const ecommerceSeoContent: BlogArticle = {
             "Anleitungs- und Pflege-Content baut thematische Autoritaet auf und erfasst Top-of-Funnel-Traffic. 'Wie man neue Lederstiefel einlaeuft' oder 'Wie man weisse Sneaker reinigt' bringt Menschen an, die bereits Produkte in Ihrer Kategorie besitzen. Sie kaufen vielleicht heute nicht, aber sie sind jetzt in Ihrer Remarketing-Zielgruppe und E-Mail-Liste. Dieser Content verdient auch natuerlich Backlinks, weil Menschen hilfreiche Tutorials referenzieren.",
             "Kategorieseiten-Content wird oft uebersehen. Die meisten Kategorieseiten haben eine Ueberschrift, Filter und Produktlisten. 200-400 Woerter beschreibenden Content zu Kategorieseiten hinzuzufuegen hilft Google zu verstehen, was die Seite abdeckt, und gibt Ihnen Raum, verwandte Keywords einzubinden. Wir haben einfuehrenden Content zu den 12 Hauptkategorieseiten eines Kunden hinzugefuegt. Neun dieser Seiten verbesserten sich in den Rankings innerhalb von sechs Wochen. Fuer eine vollstaendige Anleitung, was Kategorieseiten zum Ranken bringt, lesen Sie unseren Leitfaden zu [Ecommerce Kategorieseiten SEO](/blog/ecommerce-category-page-seo)."
           ],
+          image: { src: "/images/blog/de/ecommerce-content-types-roi.svg", alt: "Ecommerce content types ranked by revenue impact from buying guides to blog posts", caption: "Buying guides generate 2-5x more revenue per organic visit than standard blog posts" },
+          callout: { title: "Category Content Wins", text: "Adding 200-400 words of descriptive content to 12 main category pages improved rankings for 9 of them within six weeks. Category page content is the most overlooked opportunity in ecommerce SEO." },
         },
         {
           heading: "Content fuer jede Stufe des Kauftrichters",
@@ -275,6 +304,8 @@ export const ecommerceSeoContent: BlogArticle = {
             "Decision-Phase-Content beseitigt die letzten Kaufbarrieren. Produktbeschreibungsseiten, Zusammenstellungen von Kundenbewertungen und FAQ-Bereiche helfen jemandem, der Ihr Produkt gefunden hat, sich zum Kauf zu entscheiden. Dieser Content lebt auf Ihren Produktseiten und sollte Einwaende direkt adressieren. Groesseninformationen, Rueckgaberichtlinien und Pflegeanleitungen reduzieren Unsicherheit und treiben Menschen zur Conversion.",
             "Wir ordnen jedes Content-Stueck einer Trichterstufe zu, bevor wir es erstellen. Das verhindert den haeufigen Fehler, Dutzende von Awareness-Phase-Blogbeitraegen zu produzieren, waehrend der Consideration-Content vernachlaessigt wird, der tatsaechlich Umsatz treibt. Fuer die meisten Ecommerce-Shops empfehlen wir eine 20/50/30-Aufteilung: 20% Awareness, 50% Consideration, 30% Decision-Phase-Content nach Volumen."
           ],
+          image: { src: "/images/blog/de/content-funnel-stages.svg", alt: "Content types mapped to buying funnel stages from awareness to retention", caption: "Recommended content allocation: 20% awareness, 50% consideration, 30% decision" },
+          callout: { title: "Content Split Rule", text: "Most ecommerce stores over-invest in awareness content. The highest ROI comes from a 20/50/30 split: 20% awareness, 50% consideration (buying guides, comparisons), and 30% decision-stage content." },
         },
         {
           heading: "Produktbeschreibungs-Optimierung, die funktioniert",
@@ -284,6 +315,8 @@ export const ecommerceSeoContent: BlogArticle = {
             "Fuegen Sie die spezifischen Fragen ein, die Kaeufer vor dem Kauf stellen. Wir analysieren die 'Aehnliche Fragen'-Ergebnisse fuer produktbezogene Suchanfragen und adressieren diese Fragen direkt in der Beschreibung. Fuer einen tragbaren Bluetooth-Lautsprecher koennten das Akkulaufzeit, Wasserdichtigkeitsdetails und Kompatibilitaet mit bestimmten Geraeten sein. Eine Produktseite, die diese Fragen beantwortet, haelt Nutzer laenger auf der Seite und gibt Google mehr Content zur Bewertung.",
             "Strukturieren Sie Produktbeschreibungen mit uebersichtlicher Formatierung. Verwenden Sie kurze Absaetze, Aufzaehlungszeichen fuer Spezifikationen und klare Zwischenueberschriften. Menschen auf Produktseiten sind im Vergleichsmodus. Sie ueberfliegen. Eine Textwand wird ignoriert. Eine gut strukturierte Beschreibung mit fett markierten Hauptspezifikationen und klaren Nutzenaussagen wird gelesen und treibt Conversions. Ein Shop, mit dem wir arbeiten, steigerte seine Warenkorb-Hinzufuegungsrate um 18% nach der Umstrukturierung der Produktbeschreibungen, ohne Aenderung am eigentlichen Text, nur an der Formatierung."
           ],
+          image: { src: "/images/blog/de/product-description-framework.svg", alt: "Product description optimization framework comparing typical low-conversion copy versus optimized high-conversion copy", caption: "Rewriting product descriptions from the buyer's perspective increases both rankings and conversions" },
+          callout: { title: "Format Drives Conversions", text: "One store increased add-to-cart rate by 18% after restructuring product descriptions with no change to the actual text -- just better formatting with subheadings, bullets, and bolded specs." },
         },
         {
           heading: "Nutzergenerierter Content als SEO-Motor",
@@ -293,6 +326,8 @@ export const ecommerceSeoContent: BlogArticle = {
             "Die Menge der Bewertungen zaehlt. Eine Produktseite mit 2 Bewertungen hat minimalen UGC-Nutzen. Eine Seite mit 50+ Bewertungen hat potenziell Tausende Woerter einzigartigen Contents, Dutzende Long-Tail-Keyword-Variationen und starke Social-Proof-Signale. Investieren Sie in Post-Purchase-E-Mail-Sequenzen, die um Bewertungen bitten. Einige unserer Kunden bieten einen kleinen Rabatt auf den naechsten Einkauf im Austausch fuer eine ausfuehrliche Bewertung, was sowohl das Bewertungsvolumen als auch die Bewertungslaenge steigert.",
             "Seien Sie vorsichtig mit dem Syndizieren von Bewertungen ueber Plattformen hinweg. Wenn dieselbe Bewertung auf Ihrer Seite, bei Amazon und bei drei anderen Haendlern erscheint, ist es ueberall Duplicate Content ausser dort, wo sie zuerst erschienen ist. First-Party-Bewertungen, die einzigartig auf Ihrer Seite sind, bieten den groessten SEO-Wert."
           ],
+          image: { src: "/images/blog/de/ugc-seo-flywheel.svg", alt: "User-generated content SEO flywheel showing reviews driving rankings, traffic, and revenue", caption: "The UGC flywheel: reviews generate content that drives rankings and more sales" },
+          callout: { title: "Review Volume Matters", text: "Product pages with 50+ reviews can contain thousands of words of unique, keyword-rich content. Post-purchase email sequences offering a small discount for detailed reviews increase both volume and length." },
         },
         {
           heading: "Content-Bereinigung fuer bessere Performance",
@@ -311,6 +346,7 @@ export const ecommerceSeoContent: BlogArticle = {
             "Planen Sie Content in Clustern, nicht als isolierte Stuecke. Ein Content-Cluster fuer einen Laufschuh-Shop koennte eine Pillar Page ('Kompletter Leitfaden zu Laufschuhen'), unterstuetzende Seiten ('Beste Laufschuhe fuer Anfaenger', 'Laufschuh-Groessenratgeber', 'Wann Sie Ihre Laufschuhe ersetzen sollten') und interne Links umfassen, die alle verbinden. Dieser Cluster-Ansatz signalisiert Google thematische Autoritaet und schafft natuerliche interne Verlinkungswege.",
             "Legen Sie eine nachhaltige Veroeffentlichungsfrequenz fest. Vier gut recherchierte, gut geschriebene Stuecke pro Monat werden zwanzig duenne Artikel uebertreffen. Wir haben dies wiederholt beobachtet. Qualitaet akkumuliert sich im SEO. Jedes starke Stueck verdient Links, sammelt Engagement-Signale und baut Autoritaet auf. Duenner Content bewirkt das Gegenteil."
           ],
+          image: { src: "/images/blog/de/content-calendar-priorities.svg", alt: "Content prioritization matrix scoring opportunities by revenue potential and keyword difficulty", caption: "Score every content opportunity by revenue potential and ranking difficulty before creating" },
         },
         {
           heading: "Content-Performance praezise messen",
@@ -343,6 +379,8 @@ export const ecommerceSeoContent: BlogArticle = {
             "How-to en onderhoudscontent bouwt topische autoriteit op en vangt top-of-funnel verkeer. 'Hoe loop je nieuwe leren laarzen in' of 'Hoe maak je witte sneakers schoon' trekt mensen aan die al producten in jouw categorie bezitten. Ze kopen misschien niet vandaag, maar ze zitten nu in je remarketingpubliek en e-maillijst. Deze content verdient ook backlinks op natuurlijke wijze omdat mensen nuttige tutorials refereren.",
             "Categoriepagina content wordt vaak over het hoofd gezien. De meeste categoriepagina's hebben een kop, filters en productvermeldingen. Het toevoegen van 200-400 woorden beschrijvende content aan categoriepagina's helpt Google te begrijpen wat de pagina behandelt en geeft je ruimte om gerelateerde zoekwoorden op te nemen. We voegden introductiecontent toe aan de 12 hoofdcategoriepagina's van een klant. Negen van die pagina's verbeterden in rankings binnen zes weken. Voor een volledig overzicht van wat categoriepagina's laat ranken, zie onze gids over [ecommerce categoriepagina SEO](/blog/ecommerce-category-page-seo).",
           ],
+          image: { src: "/images/blog/nl/ecommerce-content-types-roi.svg", alt: "Ecommerce content types ranked by revenue impact from buying guides to blog posts", caption: "Buying guides generate 2-5x more revenue per organic visit than standard blog posts" },
+          callout: { title: "Category Content Wins", text: "Adding 200-400 words of descriptive content to 12 main category pages improved rankings for 9 of them within six weeks. Category page content is the most overlooked opportunity in ecommerce SEO." },
         },
         {
           heading: "Content voor elke fase van de kooptrechter",
@@ -352,6 +390,8 @@ export const ecommerceSeoContent: BlogArticle = {
             "Beslissingsfase-content verwijdert de laatste barrires voor aankoop. Productbeschrijvingspagina's, klantreviewcompilaties en FAQ-secties helpen iemand die jouw product heeft gevonden te beslissen om het te kopen. Deze content leeft op je productpagina's en moet bezwaren direct adresseren. Maatinformatie, retourbeleid en verzorgingsinstructies verminderen onzekerheid en duwen mensen richting conversie.",
             "We koppelen elk stuk content aan een trechterfase voordat we het maken. Dit voorkomt de veelgemaakte fout om tientallen bewustwordingsfase-blogposts te produceren terwijl de overwegingscontent die daadwerkelijk omzet genereert wordt verwaarloosd. Voor de meeste webwinkels bevelen we een 20/50/30 verdeling aan: 20% bewustwording, 50% overweging, 30% beslissingsfase-content qua volume.",
           ],
+          image: { src: "/images/blog/nl/content-funnel-stages.svg", alt: "Content types mapped to buying funnel stages from awareness to retention", caption: "Recommended content allocation: 20% awareness, 50% consideration, 30% decision" },
+          callout: { title: "Content Split Rule", text: "Most ecommerce stores over-invest in awareness content. The highest ROI comes from a 20/50/30 split: 20% awareness, 50% consideration (buying guides, comparisons), and 30% decision-stage content." },
         },
         {
           heading: "Productbeschrijvingsoptimalisatie die werkt",
@@ -361,6 +401,8 @@ export const ecommerceSeoContent: BlogArticle = {
             "Neem de specifieke vragen op die kopers stellen voor aankoop. We analyseren de 'Mensen vragen ook' resultaten voor productgerelateerde zoekopdrachten en beantwoorden die vragen direct in de beschrijving. Voor een draagbare Bluetooth-speaker kan dat batterijduur, waterdichtheidsdetails en compatibiliteit met specifieke apparaten omvatten. Een productpagina die deze vragen beantwoordt houdt gebruikers langer op de pagina en geeft Google meer content om te evalueren.",
             "Structureer productbeschrijvingen met scanbare opmaak. Gebruik korte alinea's, opsommingstekens voor specificaties en duidelijke subkoppen. Mensen op productpagina's zijn in vergelijkingsmodus. Ze scannen. Een muur van tekst wordt genegeerd. Een goed gestructureerde beschrijving met vetgedrukte kernspecificaties en duidelijke voordeelverklaringen wordt gelezen en stimuleert conversies. Een winkel waarmee we werken verhoogde hun voeg-toe-aan-winkelwagen percentage met 18% na het herstructureren van productbeschrijvingen, zonder de daadwerkelijke tekst te veranderen, alleen de opmaak.",
           ],
+          image: { src: "/images/blog/nl/product-description-framework.svg", alt: "Product description optimization framework comparing typical low-conversion copy versus optimized high-conversion copy", caption: "Rewriting product descriptions from the buyer's perspective increases both rankings and conversions" },
+          callout: { title: "Format Drives Conversions", text: "One store increased add-to-cart rate by 18% after restructuring product descriptions with no change to the actual text -- just better formatting with subheadings, bullets, and bolded specs." },
         },
         {
           heading: "Door gebruikers gegenereerde content als SEO-motor",
@@ -370,6 +412,8 @@ export const ecommerceSeoContent: BlogArticle = {
             "Het volume van reviews is belangrijk. Een productpagina met 2 reviews heeft minimaal UGC-voordeel. Een pagina met 50+ reviews heeft potentieel duizenden woorden unieke content, tientallen long-tail zoekwoordvariaties en sterke social proof signalen. Investeer in post-aankoop e-mailreeksen die om reviews vragen. Sommige van onze klanten bieden een kleine korting op de volgende aankoop in ruil voor een gedetailleerde review, wat zowel het reviewvolume als de reviewlengte verhoogt.",
             "Wees voorzichtig met het syndiceren van reviews over platformen. Als dezelfde review op je site, Amazon en drie andere retailers verschijnt, is het dubbele content overal behalve waar het eerst verscheen. First-party reviews die uniek zijn voor je site bieden de meeste SEO-waarde.",
           ],
+          image: { src: "/images/blog/nl/ugc-seo-flywheel.svg", alt: "User-generated content SEO flywheel showing reviews driving rankings, traffic, and revenue", caption: "The UGC flywheel: reviews generate content that drives rankings and more sales" },
+          callout: { title: "Review Volume Matters", text: "Product pages with 50+ reviews can contain thousands of words of unique, keyword-rich content. Post-purchase email sequences offering a small discount for detailed reviews increase both volume and length." },
         },
         {
           heading: "Content snoeiien voor betere prestaties",
@@ -388,6 +432,7 @@ export const ecommerceSeoContent: BlogArticle = {
             "Plan content in clusters, niet als losstaande stukken. Een contentcluster voor een hardloopschoenenwinkel kan een pijlerpagina bevatten ('Complete gids voor hardloopschoenen'), ondersteunende pagina's ('Beste hardloopschoenen voor beginners,' 'Hardloopschoenen maatgids,' 'Wanneer vervang je je hardloopschoenen'), en interne links die ze allemaal verbinden. Deze clusteraanpak signaleert topische autoriteit aan Google en creert natuurlijke interne linkpaden.",
             "Stel een duurzaam publicatietempo in. Vier goed onderzochte, goed geschreven stukken per maand zullen twintig dunne artikelen overtreffen. We hebben dit herhaaldelijk gezien. Kwaliteit accumuleert in SEO. Elk sterk stuk verdient links, verzamelt engagementsignalen en bouwt autoriteit. Dunne content doet het tegenovergestelde.",
           ],
+          image: { src: "/images/blog/nl/content-calendar-priorities.svg", alt: "Content prioritization matrix scoring opportunities by revenue potential and keyword difficulty", caption: "Score every content opportunity by revenue potential and ranking difficulty before creating" },
         },
         {
           heading: "Contentprestaties nauwkeurig meten",
@@ -420,6 +465,8 @@ export const ecommerceSeoContent: BlogArticle = {
             "I contenuti how-to e di cura costruiscono autorita tematica e catturano traffico top-of-funnel. \"Come ammorbidire gli stivali in pelle nuovi\" o \"Come pulire le sneaker bianche\" attira persone che gia possiedono prodotti nella tua categoria. Potrebbero non comprare oggi, ma ora sono nel tuo pubblico di remarketing e nella tua mailing list. Questi contenuti guadagnano anche backlink in modo naturale perche le persone fanno riferimento a tutorial utili.",
             "Il contenuto delle pagine di categoria e spesso trascurato. La maggior parte delle pagine di categoria ha un titolo, dei filtri e un elenco di prodotti. Aggiungere 200-400 parole di contenuto descrittivo alle pagine di categoria aiuta Google a capire cosa copre la pagina e ti da spazio per includere parole chiave correlate. Abbiamo aggiunto contenuto introduttivo alle 12 pagine di categoria principali di un cliente. Nove di quelle pagine sono migliorate nelle classifiche entro sei settimane. Per una guida completa su cosa fa posizionare le pagine di categoria, consulta la nostra guida sulla [SEO per le pagine di categoria ecommerce](/blog/ecommerce-category-page-seo).",
           ],
+          image: { src: "/images/blog/it/ecommerce-content-types-roi.svg", alt: "Ecommerce content types ranked by revenue impact from buying guides to blog posts", caption: "Buying guides generate 2-5x more revenue per organic visit than standard blog posts" },
+          callout: { title: "Category Content Wins", text: "Adding 200-400 words of descriptive content to 12 main category pages improved rankings for 9 of them within six weeks. Category page content is the most overlooked opportunity in ecommerce SEO." },
         },
         {
           heading: "Contenuti per ogni fase del funnel di acquisto",
@@ -429,6 +476,8 @@ export const ecommerceSeoContent: BlogArticle = {
             "I contenuti della fase decisionale rimuovono le ultime barriere all'acquisto. Le pagine di descrizione prodotto, le raccolte di recensioni dei clienti e le sezioni FAQ aiutano chi ha trovato il tuo prodotto a decidere di comprarlo. Questi contenuti vivono sulle tue pagine prodotto e dovrebbero affrontare le obiezioni direttamente. Informazioni sulle taglie, politiche di reso e istruzioni per la cura riducono l'incertezza e spingono le persone verso la conversione.",
             "Associamo ogni pezzo di contenuto a una fase del funnel prima di crearlo. Questo previene l'errore comune di produrre decine di post blog nella fase di consapevolezza trascurando i contenuti di considerazione che effettivamente generano fatturato. Per la maggior parte dei negozi ecommerce, raccomandiamo una suddivisione 20/50/30: 20% consapevolezza, 50% considerazione, 30% contenuti della fase decisionale per volume.",
           ],
+          image: { src: "/images/blog/it/content-funnel-stages.svg", alt: "Content types mapped to buying funnel stages from awareness to retention", caption: "Recommended content allocation: 20% awareness, 50% consideration, 30% decision" },
+          callout: { title: "Content Split Rule", text: "Most ecommerce stores over-invest in awareness content. The highest ROI comes from a 20/50/30 split: 20% awareness, 50% consideration (buying guides, comparisons), and 30% decision-stage content." },
         },
         {
           heading: "Ottimizzazione delle descrizioni prodotto che funziona",
@@ -438,6 +487,8 @@ export const ecommerceSeoContent: BlogArticle = {
             "Includi le domande specifiche che gli acquirenti fanno prima dell'acquisto. Analizziamo i risultati \"Le persone chiedono anche\" per le query relative ai prodotti e rispondiamo a quelle domande direttamente nella descrizione. Per un altoparlante Bluetooth portatile, questo potrebbe includere la durata della batteria, i dettagli sull'impermeabilita e la compatibilita con dispositivi specifici. Una pagina prodotto che risponde a queste domande mantiene gli utenti sulla pagina piu a lungo e da a Google piu contenuto da valutare.",
             "Struttura le descrizioni prodotto con una formattazione facilmente scansionabile. Usa paragrafi brevi, elenchi puntati per le specifiche e sottotitoli chiari. Le persone sulle pagine prodotto sono in modalita confronto. Scorrono velocemente. Un muro di testo viene ignorato. Una descrizione ben strutturata con specifiche chiave in grassetto e dichiarazioni chiare dei benefici viene letta e favorisce le conversioni. Un negozio con cui lavoriamo ha aumentato il tasso di aggiunta al carrello del 18% dopo aver ristrutturato le descrizioni prodotto, senza modificare il testo stesso, solo la formattazione.",
           ],
+          image: { src: "/images/blog/it/product-description-framework.svg", alt: "Product description optimization framework comparing typical low-conversion copy versus optimized high-conversion copy", caption: "Rewriting product descriptions from the buyer's perspective increases both rankings and conversions" },
+          callout: { title: "Format Drives Conversions", text: "One store increased add-to-cart rate by 18% after restructuring product descriptions with no change to the actual text -- just better formatting with subheadings, bullets, and bolded specs." },
         },
         {
           heading: "Contenuti generati dagli utenti come motore SEO",
@@ -447,6 +498,8 @@ export const ecommerceSeoContent: BlogArticle = {
             "Il volume delle recensioni conta. Una pagina prodotto con 2 recensioni ha un beneficio UGC minimo. Una pagina con oltre 50 recensioni ha potenzialmente migliaia di parole di contenuto unico, decine di variazioni di parole chiave long-tail e forti segnali di prova sociale. Investi in sequenze email post-acquisto che richiedono recensioni. Alcuni dei nostri clienti offrono un piccolo sconto sul prossimo acquisto in cambio di una recensione dettagliata, il che aumenta sia il volume che la lunghezza delle recensioni.",
             "Sii cauto nel sindacare le recensioni tra piattaforme. Se la stessa recensione appare sul tuo sito, su Amazon e su altri tre rivenditori, e contenuto duplicato ovunque tranne dove e apparsa per prima. Le recensioni di prima parte uniche per il tuo sito offrono il maggior valore SEO.",
           ],
+          image: { src: "/images/blog/it/ugc-seo-flywheel.svg", alt: "User-generated content SEO flywheel showing reviews driving rankings, traffic, and revenue", caption: "The UGC flywheel: reviews generate content that drives rankings and more sales" },
+          callout: { title: "Review Volume Matters", text: "Product pages with 50+ reviews can contain thousands of words of unique, keyword-rich content. Post-purchase email sequences offering a small discount for detailed reviews increase both volume and length." },
         },
         {
           heading: "Pulizia dei contenuti per prestazioni migliori",
@@ -465,6 +518,7 @@ export const ecommerceSeoContent: BlogArticle = {
             "Pianifica i contenuti in cluster, non come pezzi isolati. Un cluster di contenuti per un negozio di scarpe da corsa potrebbe includere una pagina pilastro (\"Guida completa alle scarpe da corsa\"), pagine di supporto (\"Migliori scarpe da corsa per principianti,\" \"Guida alle taglie delle scarpe da corsa,\" \"Quando sostituire le scarpe da corsa\"), e link interni che li collegano tutti. Questo approccio a cluster segnala autorita tematica a Google e crea percorsi naturali di link interni.",
             "Stabilisci una frequenza di pubblicazione sostenibile. Quattro pezzi ben ricercati e ben scritti al mese supereranno venti articoli sottili. Lo abbiamo visto ripetutamente. La qualita si accumula nella SEO. Ogni pezzo forte guadagna link, accumula segnali di engagement e costruisce autorita. I contenuti sottili fanno l'opposto.",
           ],
+          image: { src: "/images/blog/it/content-calendar-priorities.svg", alt: "Content prioritization matrix scoring opportunities by revenue potential and keyword difficulty", caption: "Score every content opportunity by revenue potential and ranking difficulty before creating" },
         },
         {
           heading: "Misurare le prestazioni dei contenuti con precisione",

@@ -7,6 +7,9 @@ import { buildPageMetadata } from "@/lib/i18n/metadata";
 import type { Locale } from "@/lib/i18n/config";
 import { seoToolsHubT } from "@/lib/i18n/translations/seoTools";
 
+export const revalidate = 3600;
+
+
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   return buildPageMetadata(locale as Locale, "/tools");
@@ -206,6 +209,19 @@ export default async function ToolsHubPage({
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
                       <rect x="8" y="2" width="13" height="13" rx="2" />
                       <path d="M16 16v2a2 2 0 01-2 2H5a2 2 0 01-2-2V9a2 2 0 012-2h2" />
+                    </svg>
+                  }
+                />
+                <ToolCard
+                  title={t.intentMatcher.title}
+                  desc={t.intentMatcher.desc}
+                  href="/tools/intent-matching-tool"
+                  icon={
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+                      <circle cx="12" cy="12" r="10" />
+                      <circle cx="12" cy="12" r="6" />
+                      <circle cx="12" cy="12" r="2" />
+                      <path d="M12 2v4M12 18v4M2 12h4M18 12h4" />
                     </svg>
                   }
                 />

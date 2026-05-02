@@ -15,7 +15,7 @@ export const platformMigrationSeo: AcademyTopic = {
         {
           title: "Pre-Migration SEO Audit Checklist",
           content:
-            "Before touching any migration settings, you need a comprehensive snapshot of your current SEO performance. This baseline becomes your reference point for measuring migration success and diagnosing any post-migration issues. Start by exporting a complete crawl of your existing site using tools like Screaming Frog, Sitebulb, or Lumar. Capture every URL, its HTTP status code, canonical tag, meta title, meta description, H1 tag, word count, and internal link count.\n\nDocument your current indexation status by downloading the full list of indexed pages from Google Search Console. Compare this against your crawl data to identify pages that are indexed but not in your sitemap, and pages in your sitemap that are not indexed. Both scenarios need attention during migration planning.\n\nRecord your top-performing pages by organic traffic, revenue, and keyword rankings. These are the pages where any disruption will have the most significant business impact. Export your Google Analytics landing page report filtered to organic traffic for the past 12 months, and cross-reference it with your Search Console performance data to identify the keywords driving traffic to each page.\n\nCapture your current structured data implementation, including which pages have Product schema, breadcrumb markup, FAQ schema, and any other rich result types. Also document your robots.txt rules, XML sitemap structure, hreflang implementation, and any custom canonical tag patterns. Every one of these elements must be replicated or improved on the new platform. Running a full [SEO audit](/seo-audit) before migration creates the definitive baseline you need.",
+            "Before touching any migration settings, you need a comprehensive snapshot of your current SEO performance. This baseline becomes your reference point for measuring migration success and diagnosing any post-migration issues. Start by exporting a complete crawl of your existing site using tools like Screaming Frog, Sitebulb, or Lumar. Capture every URL, its HTTP status code, canonical tag, meta title, meta description, H1 tag, word count, and internal link count.\n\nDocument your current indexation status by downloading the full list of indexed pages from Google Search Console. Compare this against your crawl data to identify pages that are indexed but not in your sitemap, and pages in your sitemap that are not indexed. Both scenarios need attention during migration planning.\n\nRecord your top-performing pages by organic traffic, revenue, and keyword rankings. These are the pages where any disruption will have the most significant business impact. Export your Google Analytics landing page report filtered to organic traffic for the past 12 months, and cross-reference it with your Search Console performance data to identify the keywords driving traffic to each page.\n\nCapture your current structured data implementation, including which pages have Product schema, breadcrumb markup, FAQ schema, and any other rich result types. Also document your robots.txt rules, XML sitemap structure, hreflang implementation, and any custom canonical tag patterns. Every one of these elements must be replicated or improved on the new platform. Running a full [SEO audit](/tools/ecommerce-seo-audit) before migration creates the definitive baseline you need.",
           items: [
             "Export a full site crawl capturing URLs, status codes, canonicals, meta tags, and link counts",
             "Download the complete indexed pages list from Google Search Console",
@@ -29,6 +29,11 @@ export const platformMigrationSeo: AcademyTopic = {
           title: "URL Mapping and Redirect Strategy",
           content:
             "URL mapping is the single most critical SEO task during a platform migration. Every URL on your current site that receives organic traffic, has backlinks, or is indexed by Google must be mapped to its equivalent URL on the new platform. Missing even a handful of high-traffic URLs can result in significant ranking and revenue losses.\n\nStart with a one-to-one URL mapping for all product pages, category pages, content pages, and blog posts. Export your current URL list from the crawl data and create a mapping spreadsheet with columns for the old URL, new URL, page type, monthly organic sessions, and number of referring domains. Prioritize mapping by traffic value, which ensures your highest-revenue pages are mapped first.\n\nFor URLs that have no direct equivalent on the new platform, decide whether to redirect them to the nearest relevant page or allow them to return a 404 status. Pages with significant backlink profiles should always be redirected, even if the content no longer exists, to preserve link equity. Redirect these to the most topically relevant existing page rather than the homepage.\n\nImplement all redirects as 301 permanent redirects, not 302 temporary redirects. Test your redirect map on a staging environment before launching the new site. Use a crawling tool to follow every redirect and verify that the destination URL returns a 200 status code, has proper canonical tags, and does not create redirect chains. A redirect chain occurs when URL A redirects to URL B, which then redirects to URL C. These chains dilute link equity and slow down crawling.\n\nFor sites with thousands of URLs, most ecommerce platforms support CSV-based bulk redirect imports. Prepare your redirect file in the required format well before the migration date and test it on staging. Common issues include URL encoding problems, trailing slash mismatches, and case sensitivity differences between platforms.",
+          image: {
+            src: "/images/academy/migration-redirect-flow.svg",
+            alt: "Diagram showing 301 redirect mapping from old platform URLs to new platform equivalents during migration",
+            caption: "Map every old URL to its new equivalent. Discontinued products redirect to the nearest relevant category, not the homepage.",
+          },
           items: [
             "Create a one-to-one URL mapping for every indexed page with organic traffic or backlinks",
             "Prioritize URL mapping by organic traffic volume and backlink count",
@@ -36,6 +41,10 @@ export const platformMigrationSeo: AcademyTopic = {
             "Use 301 permanent redirects exclusively and eliminate any redirect chains",
             "Test the complete redirect map on staging with a crawler before going live",
           ],
+          callout: {
+            title: "Redirect Chain Cost",
+            text: "Each hop in a redirect chain (A to B to C) dilutes link equity and adds latency. Google follows up to 10 hops but passes less authority with each. Flatten all chains to direct A-to-C redirects before launch.",
+          },
         },
         {
           title: "Preserving Rankings During Migration",
@@ -78,6 +87,11 @@ export const platformMigrationSeo: AcademyTopic = {
           title: "Timeline Planning and Rollback Strategy",
           content:
             "A well-structured migration timeline prevents rushed decisions and ensures every SEO element is addressed. Begin the planning process at least eight weeks before the target launch date. The first two weeks should focus on the pre-migration audit, URL mapping, and redirect file preparation. Weeks three and four are for implementing redirects on staging, testing structured data, and verifying meta tag parity between old and new sites.\n\nWeeks five and six should be dedicated to full staging crawls, performance testing, and fixing any issues discovered during testing. Run a complete Screaming Frog crawl of the staging site and compare it against your pre-migration baseline. Every page should have a matching or improved title tag, meta description, canonical tag, and structured data output.\n\nWeek seven is for final review and stakeholder sign-off. Present the migration plan to all stakeholders including marketing, development, and leadership. Share the expected timeline for traffic recovery and set realistic expectations. Most well-executed migrations see traffic recovery within four to six weeks, but some competitive keywords may take up to three months to stabilize.\n\nThe rollback strategy should define specific trigger conditions that initiate a revert to the old platform. Common triggers include a traffic drop exceeding 50 percent for more than 48 hours, critical functionality failures on the new platform, or widespread redirect failures. Document the technical steps for rollback, including DNS changes, database restoration, and redirect reversal. Test the rollback procedure at least once before the migration date.\n\nOn launch day, execute the migration during low-traffic hours and have the full team available for monitoring. Assign specific team members to monitor Google Search Console, site crawl health, conversion rates, and customer-facing functionality. Document every issue encountered and its resolution for future migration reference.",
+          image: {
+            src: "/images/academy/migration-timeline.svg",
+            alt: "8-week migration timeline showing audit, implementation, testing, review, and launch phases with recovery window",
+            caption: "An 8-week timeline prevents rushed decisions. Most well-executed migrations recover traffic within 4-6 weeks post-launch.",
+          },
           items: [
             "Begin migration planning at least eight weeks before the target launch date",
             "Dedicate weeks one and two to auditing, URL mapping, and redirect preparation",
@@ -85,6 +99,10 @@ export const platformMigrationSeo: AcademyTopic = {
             "Define specific trigger conditions for initiating a rollback to the old platform",
             "Execute the migration during low-traffic hours with the full team available for monitoring",
           ],
+          callout: {
+            title: "Traffic Drop Norms",
+            text: "A 10-20% organic traffic dip in week one is normal as Google recrawls. Drops exceeding 30% that persist beyond two weeks signal broken redirects, missing canonical tags, or stripped structured data that need immediate investigation.",
+          },
           tip: "After the migration stabilizes, document everything that went well and every issue you encountered. This migration playbook becomes invaluable for future platform changes and helps your team avoid repeating mistakes.",
         },
       ],
@@ -100,7 +118,7 @@ export const platformMigrationSeo: AcademyTopic = {
         {
           title: "Checkliste fuer das Pre-Migration-SEO-Audit",
           content:
-            "Bevor Sie Migrationseinstellungen anruehren, benoetigen Sie einen umfassenden Schnappschuss Ihrer aktuellen SEO-Performance. Diese Baseline wird Ihr Referenzpunkt fuer die Messung des Migrationserfolgs und die Diagnose etwaiger Post-Migrations-Probleme. Starten Sie mit einem vollstaendigen Crawl Ihrer bestehenden Website mit Tools wie Screaming Frog, Sitebulb oder Lumar. Erfassen Sie jede URL, ihren HTTP-Statuscode, Canonical Tag, Meta-Titel, Meta-Beschreibung, H1-Tag, Wortanzahl und interne Link-Anzahl.\n\nDokumentieren Sie Ihren aktuellen Indexierungsstatus, indem Sie die vollstaendige Liste der indexierten Seiten aus der Google Search Console herunterladen. Vergleichen Sie diese mit Ihren Crawl-Daten, um Seiten zu identifizieren, die indexiert aber nicht in Ihrer Sitemap sind, und Seiten in Ihrer Sitemap, die nicht indexiert sind.\n\nErfassen Sie Ihre leistungsstaerksten Seiten nach organischem Traffic, Umsatz und Keyword-Rankings. Dies sind die Seiten, bei denen jede Stoerung die groesste geschaeftliche Auswirkung hat. Exportieren Sie Ihren Google-Analytics-Landingpage-Bericht, gefiltert auf organischen Traffic der letzten 12 Monate.\n\nErfassen Sie Ihre aktuelle Implementierung strukturierter Daten, einschliesslich welche Seiten Produkt-Schema, Breadcrumb-Markup, FAQ-Schema und andere Rich-Result-Typen haben. Dokumentieren Sie auch Ihre Robots.txt-Regeln, XML-Sitemap-Struktur, Hreflang-Implementierung und benutzerdefinierte Canonical-Tag-Muster. Ein vollst\u00e4ndiges [SEO-Audit](/seo-audit) vor der Migration schafft die definitive Baseline.",
+            "Bevor Sie Migrationseinstellungen anruehren, benoetigen Sie einen umfassenden Schnappschuss Ihrer aktuellen SEO-Performance. Diese Baseline wird Ihr Referenzpunkt fuer die Messung des Migrationserfolgs und die Diagnose etwaiger Post-Migrations-Probleme. Starten Sie mit einem vollstaendigen Crawl Ihrer bestehenden Website mit Tools wie Screaming Frog, Sitebulb oder Lumar. Erfassen Sie jede URL, ihren HTTP-Statuscode, Canonical Tag, Meta-Titel, Meta-Beschreibung, H1-Tag, Wortanzahl und interne Link-Anzahl.\n\nDokumentieren Sie Ihren aktuellen Indexierungsstatus, indem Sie die vollstaendige Liste der indexierten Seiten aus der Google Search Console herunterladen. Vergleichen Sie diese mit Ihren Crawl-Daten, um Seiten zu identifizieren, die indexiert aber nicht in Ihrer Sitemap sind, und Seiten in Ihrer Sitemap, die nicht indexiert sind.\n\nErfassen Sie Ihre leistungsstaerksten Seiten nach organischem Traffic, Umsatz und Keyword-Rankings. Dies sind die Seiten, bei denen jede Stoerung die groesste geschaeftliche Auswirkung hat. Exportieren Sie Ihren Google-Analytics-Landingpage-Bericht, gefiltert auf organischen Traffic der letzten 12 Monate.\n\nErfassen Sie Ihre aktuelle Implementierung strukturierter Daten, einschliesslich welche Seiten Produkt-Schema, Breadcrumb-Markup, FAQ-Schema und andere Rich-Result-Typen haben. Dokumentieren Sie auch Ihre Robots.txt-Regeln, XML-Sitemap-Struktur, Hreflang-Implementierung und benutzerdefinierte Canonical-Tag-Muster. Ein vollst\u00e4ndiges [SEO-Audit](/tools/ecommerce-seo-audit) vor der Migration schafft die definitive Baseline.",
           items: [
             "Einen vollstaendigen Site-Crawl exportieren mit URLs, Statuscodes, Canonicals, Meta-Tags und Link-Counts",
             "Die vollstaendige Liste indexierter Seiten aus der Google Search Console herunterladen",
@@ -114,13 +132,22 @@ export const platformMigrationSeo: AcademyTopic = {
           title: "URL-Mapping und Redirect-Strategie",
           content:
             "URL-Mapping ist die wichtigste SEO-Aufgabe waehrend einer Plattform-Migration. Jede URL auf Ihrer aktuellen Website, die organischen Traffic erhaelt, Backlinks hat oder von Google indexiert ist, muss auf ihre entsprechende URL auf der neuen Plattform gemappt werden. Selbst das Uebersehen weniger High-Traffic-URLs kann zu erheblichen Ranking- und Umsatzverlusten fuehren.\n\nBeginnen Sie mit einem Eins-zu-eins-URL-Mapping fuer alle Produktseiten, Kategorieseiten, Inhaltsseiten und Blogbeitraege. Exportieren Sie Ihre aktuelle URL-Liste aus den Crawl-Daten und erstellen Sie eine Mapping-Tabelle mit Spalten fuer alte URL, neue URL, Seitentyp, monatliche organische Sitzungen und Anzahl der verweisenden Domains. Priorisieren Sie das Mapping nach Traffic-Wert.\n\nFuer URLs ohne direktes Aequivalent auf der neuen Plattform entscheiden Sie, ob Sie diese auf die naechstliegende relevante Seite weiterleiten oder einen 404-Status zurueckgeben lassen. Seiten mit bedeutendem Backlink-Profil sollten immer weitergeleitet werden, auch wenn der Inhalt nicht mehr existiert, um Link-Equity zu erhalten.\n\nImplementieren Sie alle Weiterleitungen als 301-permanente Weiterleitungen, nicht als 302-temporaere Weiterleitungen. Testen Sie Ihre Redirect-Map in einer Staging-Umgebung vor dem Launch der neuen Website. Verwenden Sie ein Crawling-Tool, um jeder Weiterleitung zu folgen und zu verifizieren, dass die Ziel-URL einen 200-Statuscode zurueckgibt und keine Weiterleitungsketten erzeugt.\n\nFuer Websites mit Tausenden von URLs unterstuetzen die meisten E-Commerce-Plattformen CSV-basierte Massen-Redirect-Importe. Bereiten Sie Ihre Redirect-Datei im erforderlichen Format rechtzeitig vor dem Migrationsdatum vor.",
-          items: [
+                    image: {
+            src: "/images/academy/de/migration-redirect-flow.svg",
+            alt: "Plattform-Migrations-Weiterleitungsablauf: Alte URL ueber Redirect-Map zur neuen URL mit 301-Permanent",
+            caption: "Jede alte URL braucht ein Ziel. Keine Weiterleitung bedeutet verlorene Autoritaet und verlorene Rankings.",
+          },
+items: [
             "Ein Eins-zu-eins-URL-Mapping fuer jede indexierte Seite mit organischem Traffic oder Backlinks erstellen",
             "URL-Mapping nach organischem Traffic-Volumen und Backlink-Anzahl priorisieren",
             "Verwaiste URLs auf die thematisch relevanteste Seite weiterleiten, nicht auf die Startseite",
             "Ausschliesslich 301-permanente Weiterleitungen verwenden und Weiterleitungsketten eliminieren",
             "Die vollstaendige Redirect-Map auf Staging mit einem Crawler testen, bevor Sie live gehen",
           ],
+          callout: {
+            title: "Redirect-Vollstaendigkeit",
+            text: "Unvollstaendiges URL-Mapping ist die haeufigste Ursache fuer Traffic-Verlust bei Migrationen. Crawlen Sie die alte Website vollstaendig und mappen Sie JEDE URL, nicht nur die Top-Seiten.",
+          },
         },
         {
           title: "Rankings waehrend der Migration bewahren",
@@ -163,13 +190,22 @@ export const platformMigrationSeo: AcademyTopic = {
           title: "Zeitplanung und Rollback-Strategie",
           content:
             "Ein gut strukturierter Migrationszeitplan verhindert uebereilte Entscheidungen und stellt sicher, dass jedes SEO-Element beruecksichtigt wird. Beginnen Sie den Planungsprozess mindestens acht Wochen vor dem angestrebten Launch-Datum. Die ersten zwei Wochen sollten sich auf das Pre-Migrations-Audit, URL-Mapping und die Vorbereitung der Redirect-Dateien konzentrieren. Wochen drei und vier dienen der Implementierung von Weiterleitungen auf Staging, dem Testen strukturierter Daten und der Verifizierung der Meta-Tag-Paritaet.\n\nWochen fuenf und sechs sollten vollstaendigen Staging-Crawls, Performance-Tests und der Behebung entdeckter Probleme gewidmet sein. Fuehren Sie einen vollstaendigen Screaming-Frog-Crawl der Staging-Website durch und vergleichen Sie ihn mit Ihrer Pre-Migrations-Baseline.\n\nWoche sieben ist fuer die abschliessende Ueberpruefung und Stakeholder-Freigabe. Praesentieren Sie den Migrationsplan allen Beteiligten einschliesslich Marketing, Entwicklung und Fuehrung. Teilen Sie den erwarteten Zeitplan fuer die Traffic-Wiederherstellung mit und setzen Sie realistische Erwartungen. Die meisten gut ausgefuehrten Migrationen zeigen eine Traffic-Erholung innerhalb von vier bis sechs Wochen.\n\nDie Rollback-Strategie sollte spezifische Ausloeser-Bedingungen definieren, die eine Rueckkehr zur alten Plattform einleiten. Haeufige Ausloeser sind ein Traffic-Rueckgang von mehr als 50 Prozent fuer ueber 48 Stunden, kritische Funktionsausfaelle auf der neuen Plattform oder weit verbreitete Redirect-Fehler. Dokumentieren Sie die technischen Schritte fuer den Rollback und testen Sie das Verfahren mindestens einmal vor dem Migrationsdatum.\n\nFuehren Sie die Migration am Launch-Tag waehrend verkehrsarmer Stunden durch und halten Sie das gesamte Team fuer Monitoring bereit. Weisen Sie bestimmten Teammitgliedern die Ueberwachung von Google Search Console, Crawl-Health, Konversionsraten und kundennaher Funktionalitaet zu.",
-          items: [
+                    image: {
+            src: "/images/academy/de/migration-timeline.svg",
+            alt: "Plattform-Migrations-SEO-Zeitplan: Vor Migration, Migrationstag, Nach Migration und Erholungsphase",
+            caption: "Planen Sie 4-8 Wochen Vorbereitung und 3-6 Monate Erholung ein. Ein Traffic-Einbruch von 10-20% ist normal.",
+          },
+items: [
             "Die Migrationsplanung mindestens acht Wochen vor dem angestrebten Launch-Datum beginnen",
             "Wochen eins und zwei dem Auditing, URL-Mapping und der Redirect-Vorbereitung widmen",
             "In den Wochen fuenf und sechs vollstaendige Staging-Crawls durchfuehren, um Probleme vor dem Launch zu erkennen",
             "Spezifische Ausloeser-Bedingungen fuer die Einleitung eines Rollbacks zur alten Plattform definieren",
             "Die Migration waehrend verkehrsarmer Stunden durchfuehren mit dem gesamten Team fuer Monitoring",
           ],
+          callout: {
+            title: "Zeitplan-Realismus",
+            text: "Die meisten Migrationen unterschaetzen die Erholungszeit. Planen Sie mindestens 3-6 Monate fuer die volle Traffic-Erholung und informieren Sie Stakeholder ueber den erwarteten temporaeren Einbruch von 10-20%.",
+          },
           tip: "Dokumentieren Sie nach der Stabilisierung der Migration alles, was gut lief, und jedes aufgetretene Problem. Dieses Migrations-Playbook wird bei zukuenftigen Plattformwechseln unschaetzbar wertvoll.",
         },
       ],
@@ -183,7 +219,7 @@ export const platformMigrationSeo: AcademyTopic = {
       readTime: "10 min de lecture",
       sections: [
         {
-          title: "Checklist de l'[audit SEO](/seo-audit) pre-migration",
+          title: "Checklist de l'[audit SEO](/tools/ecommerce-seo-audit) pre-migration",
           content:
             "Avant de toucher aux parametres de migration, vous avez besoin d'un instantane complet de votre performance SEO actuelle. Cette base de reference devient votre point de comparaison pour mesurer le succes de la migration. Commencez par exporter un crawl complet de votre site existant avec des outils comme Screaming Frog, Sitebulb ou Lumar. Capturez chaque URL, son code de statut HTTP, sa balise canonique, son meta title, sa meta description, sa balise H1, son nombre de mots et son nombre de liens internes.\n\nDocumentez votre statut d'indexation actuel en telechargeant la liste complete des pages indexees depuis Google Search Console. Comparez-la avec vos donnees de crawl pour identifier les pages indexees mais absentes de votre sitemap, et les pages dans votre sitemap qui ne sont pas indexees.\n\nEnregistrez vos pages les plus performantes par trafic organique, chiffre d'affaires et classements de mots-cles. Ce sont les pages ou toute perturbation aura l'impact commercial le plus important. Exportez votre rapport de pages de destination Google Analytics filtre sur le trafic organique des 12 derniers mois.\n\nCapturez votre implementation actuelle des donnees structurees, y compris quelles pages ont un schema Product, un balisage breadcrumb, un schema FAQ et tout autre type de resultat enrichi. Documentez egalement vos regles robots.txt, la structure de votre sitemap XML, votre implementation hreflang et les schemas de balises canoniques personnalises.",
           items: [
@@ -206,6 +242,15 @@ export const platformMigrationSeo: AcademyTopic = {
             "Utiliser exclusivement des redirections 301 permanentes et eliminer toute chaine de redirections",
             "Tester la carte de redirections complete sur staging avec un crawler avant la mise en ligne",
           ],
+          image: {
+            src: "/images/academy/fr/migration-redirect-flow.svg",
+            alt: "Plattform-Migrations-Weiterleitungsablauf: Alte URL ueber Redirect-Map zur neuen URL mit 301-Permanent",
+            caption: "Jede alte URL braucht ein Ziel. Keine Weiterleitung bedeutet verlorene Autoritaet und verlorene Rankings.",
+          },
+          callout: {
+            title: "Redirect-Vollstaendigkeit",
+            text: "Unvollstaendiges URL-Mapping ist die haeufigste Ursache fuer Traffic-Verlust bei Migrationen. Crawlen Sie die alte Website vollstaendig und mappen Sie JEDE URL, nicht nur die Top-Seiten.",
+          },
         },
         {
           title: "Preserver les classements pendant la migration",
@@ -256,6 +301,15 @@ export const platformMigrationSeo: AcademyTopic = {
             "Executer la migration pendant les heures de faible trafic avec l'equipe complete disponible pour la surveillance",
           ],
           tip: "Apres la stabilisation de la migration, documentez tout ce qui a bien fonctionne et chaque probleme rencontre. Ce playbook de migration devient inestimable pour les futurs changements de plateforme.",
+          image: {
+            src: "/images/academy/fr/migration-timeline.svg",
+            alt: "Plattform-Migrations-SEO-Zeitplan: Vor Migration, Migrationstag, Nach Migration und Erholungsphase",
+            caption: "Planen Sie 4-8 Wochen Vorbereitung und 3-6 Monate Erholung ein. Ein Traffic-Einbruch von 10-20% ist normal.",
+          },
+          callout: {
+            title: "Zeitplan-Realismus",
+            text: "Die meisten Migrationen unterschaetzen die Erholungszeit. Planen Sie mindestens 3-6 Monate fuer die volle Traffic-Erholung und informieren Sie Stakeholder ueber den erwarteten temporaeren Einbruch von 10-20%.",
+          },
         },
       ],
       navLabels: { previous: "Precedent", next: "Suivant" },
@@ -270,7 +324,7 @@ export const platformMigrationSeo: AcademyTopic = {
         {
           title: "Checklist de auditoria SEO pre-migracion",
           content:
-            "Antes de tocar cualquier configuracion de migracion, necesitas una captura completa de tu rendimiento SEO actual. Esta linea base se convierte en tu punto de referencia para medir el exito de la migracion. Comienza exportando un rastreo completo de tu sitio existente usando herramientas como Screaming Frog, Sitebulb o Lumar. Captura cada URL, su codigo de estado HTTP, etiqueta canonica, meta titulo, meta descripcion, etiqueta H1, conteo de palabras y conteo de enlaces internos.\n\nDocumenta tu estado de indexacion actual descargando la lista completa de paginas indexadas desde Google Search Console. Comparala con tus datos de rastreo para identificar paginas indexadas que no estan en tu sitemap, y paginas en tu sitemap que no estan indexadas.\n\nRegistra tus paginas de mayor rendimiento por trafico organico, ingresos y posiciones de palabras clave. Estas son las paginas donde cualquier interrupcion tendra el mayor impacto empresarial. Exporta tu informe de paginas de destino de Google Analytics filtrado por trafico organico de los ultimos 12 meses.\n\nCaptura tu implementacion actual de datos estructurados, incluyendo que paginas tienen esquema Product, marcado de migas de pan, esquema FAQ y cualquier otro tipo de resultado enriquecido. Tambien documenta tus reglas de robots.txt, estructura del sitemap XML, implementacion hreflang y patrones de etiquetas canonicas personalizadas. Ejecutar una [auditoria SEO](/seo-audit) completa antes de la migracion crea la linea base definitiva que necesitas.",
+            "Antes de tocar cualquier configuracion de migracion, necesitas una captura completa de tu rendimiento SEO actual. Esta linea base se convierte en tu punto de referencia para medir el exito de la migracion. Comienza exportando un rastreo completo de tu sitio existente usando herramientas como Screaming Frog, Sitebulb o Lumar. Captura cada URL, su codigo de estado HTTP, etiqueta canonica, meta titulo, meta descripcion, etiqueta H1, conteo de palabras y conteo de enlaces internos.\n\nDocumenta tu estado de indexacion actual descargando la lista completa de paginas indexadas desde Google Search Console. Comparala con tus datos de rastreo para identificar paginas indexadas que no estan en tu sitemap, y paginas en tu sitemap que no estan indexadas.\n\nRegistra tus paginas de mayor rendimiento por trafico organico, ingresos y posiciones de palabras clave. Estas son las paginas donde cualquier interrupcion tendra el mayor impacto empresarial. Exporta tu informe de paginas de destino de Google Analytics filtrado por trafico organico de los ultimos 12 meses.\n\nCaptura tu implementacion actual de datos estructurados, incluyendo que paginas tienen esquema Product, marcado de migas de pan, esquema FAQ y cualquier otro tipo de resultado enriquecido. Tambien documenta tus reglas de robots.txt, estructura del sitemap XML, implementacion hreflang y patrones de etiquetas canonicas personalizadas. Ejecutar una [auditoria SEO](/tools/ecommerce-seo-audit) completa antes de la migracion crea la linea base definitiva que necesitas.",
           items: [
             "Exportar un rastreo completo del sitio capturando URLs, codigos de estado, canonicas, meta tags y conteos de enlaces",
             "Descargar la lista completa de paginas indexadas desde Google Search Console",
@@ -291,6 +345,15 @@ export const platformMigrationSeo: AcademyTopic = {
             "Usar exclusivamente redirecciones 301 permanentes y eliminar cualquier cadena de redireccion",
             "Probar el mapa de redirecciones completo en staging con un crawler antes de lanzar",
           ],
+          image: {
+            src: "/images/academy/es/migration-redirect-flow.svg",
+            alt: "Plattform-Migrations-Weiterleitungsablauf: Alte URL ueber Redirect-Map zur neuen URL mit 301-Permanent",
+            caption: "Jede alte URL braucht ein Ziel. Keine Weiterleitung bedeutet verlorene Autoritaet und verlorene Rankings.",
+          },
+          callout: {
+            title: "Redirect-Vollstaendigkeit",
+            text: "Unvollstaendiges URL-Mapping ist die haeufigste Ursache fuer Traffic-Verlust bei Migrationen. Crawlen Sie die alte Website vollstaendig und mappen Sie JEDE URL, nicht nur die Top-Seiten.",
+          },
         },
         {
           title: "Preservar rankings durante la migracion",
@@ -341,6 +404,15 @@ export const platformMigrationSeo: AcademyTopic = {
             "Ejecutar la migracion durante horas de bajo trafico con el equipo completo disponible para monitoreo",
           ],
           tip: "Despues de que la migracion se estabilice, documenta todo lo que salio bien y cada problema que encontraste. Este manual de migracion se vuelve invaluable para futuros cambios de plataforma.",
+          image: {
+            src: "/images/academy/es/migration-timeline.svg",
+            alt: "Plattform-Migrations-SEO-Zeitplan: Vor Migration, Migrationstag, Nach Migration und Erholungsphase",
+            caption: "Planen Sie 4-8 Wochen Vorbereitung und 3-6 Monate Erholung ein. Ein Traffic-Einbruch von 10-20% ist normal.",
+          },
+          callout: {
+            title: "Zeitplan-Realismus",
+            text: "Die meisten Migrationen unterschaetzen die Erholungszeit. Planen Sie mindestens 3-6 Monate fuer die volle Traffic-Erholung und informieren Sie Stakeholder ueber den erwarteten temporaeren Einbruch von 10-20%.",
+          },
         },
       ],
       navLabels: { previous: "Anterior", next: "Siguiente" },
@@ -355,7 +427,7 @@ export const platformMigrationSeo: AcademyTopic = {
         {
           title: "Checklist dell'audit SEO pre-migrazione",
           content:
-            "Prima di toccare qualsiasi impostazione di migrazione, e necessario avere uno snapshot completo delle performance SEO attuali. Questa baseline diventa il punto di riferimento per misurare il successo della migrazione. Inizia esportando un crawl completo del sito esistente utilizzando strumenti come Screaming Frog, Sitebulb o Lumar. Cattura ogni URL, il suo codice di stato HTTP, tag canonico, meta title, meta description, tag H1, conteggio parole e conteggio link interni.\n\nDocumenta il tuo stato di indicizzazione attuale scaricando l'elenco completo delle pagine indicizzate da Google Search Console. Confrontalo con i dati di crawl per identificare pagine indicizzate ma non nella sitemap, e pagine nella sitemap che non sono indicizzate.\n\nRegistra le pagine con le migliori performance per traffico organico, fatturato e posizionamento delle keyword. Queste sono le pagine dove qualsiasi interruzione avra l'impatto aziendale piu significativo. Esporta il report delle landing page di Google Analytics filtrato per traffico organico degli ultimi 12 mesi.\n\nCattura l'implementazione attuale dei dati strutturati, incluse le pagine con schema Product, markup breadcrumb, schema FAQ e altri tipi di risultati arricchiti. Documenta anche le regole del robots.txt, la struttura della sitemap XML, l'implementazione hreflang e qualsiasi pattern personalizzato di tag canonici. Approfondisci con la nostra guida sull'[audit SEO](/seo-audit).",
+            "Prima di toccare qualsiasi impostazione di migrazione, e necessario avere uno snapshot completo delle performance SEO attuali. Questa baseline diventa il punto di riferimento per misurare il successo della migrazione. Inizia esportando un crawl completo del sito esistente utilizzando strumenti come Screaming Frog, Sitebulb o Lumar. Cattura ogni URL, il suo codice di stato HTTP, tag canonico, meta title, meta description, tag H1, conteggio parole e conteggio link interni.\n\nDocumenta il tuo stato di indicizzazione attuale scaricando l'elenco completo delle pagine indicizzate da Google Search Console. Confrontalo con i dati di crawl per identificare pagine indicizzate ma non nella sitemap, e pagine nella sitemap che non sono indicizzate.\n\nRegistra le pagine con le migliori performance per traffico organico, fatturato e posizionamento delle keyword. Queste sono le pagine dove qualsiasi interruzione avra l'impatto aziendale piu significativo. Esporta il report delle landing page di Google Analytics filtrato per traffico organico degli ultimi 12 mesi.\n\nCattura l'implementazione attuale dei dati strutturati, incluse le pagine con schema Product, markup breadcrumb, schema FAQ e altri tipi di risultati arricchiti. Documenta anche le regole del robots.txt, la struttura della sitemap XML, l'implementazione hreflang e qualsiasi pattern personalizzato di tag canonici. Approfondisci con la nostra guida sull'[audit SEO](/tools/ecommerce-seo-audit).",
           items: [
             "Esportare un crawl completo del sito catturando URL, codici di stato, canonici, meta tag e conteggi link",
             "Scaricare l'elenco completo delle pagine indicizzate da Google Search Console",
@@ -376,6 +448,15 @@ export const platformMigrationSeo: AcademyTopic = {
             "Usare esclusivamente redirect 301 permanenti ed eliminare qualsiasi catena di redirect",
             "Testare la mappa di redirect completa su staging con un crawler prima del go-live",
           ],
+          image: {
+            src: "/images/academy/it/migration-redirect-flow.svg",
+            alt: "Plattform-Migrations-Weiterleitungsablauf: Alte URL ueber Redirect-Map zur neuen URL mit 301-Permanent",
+            caption: "Jede alte URL braucht ein Ziel. Keine Weiterleitung bedeutet verlorene Autoritaet und verlorene Rankings.",
+          },
+          callout: {
+            title: "Redirect-Vollstaendigkeit",
+            text: "Unvollstaendiges URL-Mapping ist die haeufigste Ursache fuer Traffic-Verlust bei Migrationen. Crawlen Sie die alte Website vollstaendig und mappen Sie JEDE URL, nicht nur die Top-Seiten.",
+          },
         },
         {
           title: "Preservare i ranking durante la migrazione",
@@ -426,6 +507,15 @@ export const platformMigrationSeo: AcademyTopic = {
             "Eseguire la migrazione durante le ore di basso traffico con il team completo disponibile per il monitoraggio",
           ],
           tip: "Dopo la stabilizzazione della migrazione, documenta tutto cio che ha funzionato bene e ogni problema incontrato. Questo playbook di migrazione diventa inestimabile per futuri cambiamenti di piattaforma.",
+          image: {
+            src: "/images/academy/it/migration-timeline.svg",
+            alt: "Plattform-Migrations-SEO-Zeitplan: Vor Migration, Migrationstag, Nach Migration und Erholungsphase",
+            caption: "Planen Sie 4-8 Wochen Vorbereitung und 3-6 Monate Erholung ein. Ein Traffic-Einbruch von 10-20% ist normal.",
+          },
+          callout: {
+            title: "Zeitplan-Realismus",
+            text: "Die meisten Migrationen unterschaetzen die Erholungszeit. Planen Sie mindestens 3-6 Monate fuer die volle Traffic-Erholung und informieren Sie Stakeholder ueber den erwarteten temporaeren Einbruch von 10-20%.",
+          },
         },
       ],
       navLabels: { previous: "Precedente", next: "Successivo" },
@@ -440,7 +530,7 @@ export const platformMigrationSeo: AcademyTopic = {
         {
           title: "Checklist voor pre-migratie SEO-audit",
           content:
-            "Voordat je migratie-instellingen aanraakt, heb je een uitgebreide momentopname van je huidige SEO-prestaties nodig. Deze baseline wordt je referentiepunt voor het meten van het migratiesucces. Begin met het exporteren van een volledige crawl van je bestaande site met tools zoals Screaming Frog, Sitebulb of Lumar. Leg elke URL vast, inclusief HTTP-statuscode, canonical tag, meta title, meta description, H1-tag, woordaantal en intern linkantal.\n\nDocumenteer je huidige indexatiestatus door de volledige lijst van geindexeerde pagina's uit Google Search Console te downloaden. Vergelijk deze met je crawldata om pagina's te identificeren die geindexeerd zijn maar niet in je sitemap staan, en pagina's in je sitemap die niet geindexeerd zijn.\n\nRegistreer je best presterende pagina's op organisch verkeer, omzet en keyword-rankings. Dit zijn de pagina's waar elke verstoring de grootste zakelijke impact heeft. Exporteer je Google Analytics-landingspaginarapport gefilterd op organisch verkeer van de afgelopen 12 maanden.\n\nLeg je huidige implementatie van gestructureerde data vast, inclusief welke pagina's Product-schema, breadcrumb-markup, FAQ-schema en andere rich result-types hebben. Documenteer ook je robots.txt-regels, XML-sitemapstructuur, hreflang-implementatie en eventuele aangepaste canonical tag-patronen.\n\nBekijk onze [SEO-audit](/seo-audit)-diensten voor professionele ondersteuning.",
+            "Voordat je migratie-instellingen aanraakt, heb je een uitgebreide momentopname van je huidige SEO-prestaties nodig. Deze baseline wordt je referentiepunt voor het meten van het migratiesucces. Begin met het exporteren van een volledige crawl van je bestaande site met tools zoals Screaming Frog, Sitebulb of Lumar. Leg elke URL vast, inclusief HTTP-statuscode, canonical tag, meta title, meta description, H1-tag, woordaantal en intern linkantal.\n\nDocumenteer je huidige indexatiestatus door de volledige lijst van geindexeerde pagina's uit Google Search Console te downloaden. Vergelijk deze met je crawldata om pagina's te identificeren die geindexeerd zijn maar niet in je sitemap staan, en pagina's in je sitemap die niet geindexeerd zijn.\n\nRegistreer je best presterende pagina's op organisch verkeer, omzet en keyword-rankings. Dit zijn de pagina's waar elke verstoring de grootste zakelijke impact heeft. Exporteer je Google Analytics-landingspaginarapport gefilterd op organisch verkeer van de afgelopen 12 maanden.\n\nLeg je huidige implementatie van gestructureerde data vast, inclusief welke pagina's Product-schema, breadcrumb-markup, FAQ-schema en andere rich result-types hebben. Documenteer ook je robots.txt-regels, XML-sitemapstructuur, hreflang-implementatie en eventuele aangepaste canonical tag-patronen.\n\nBekijk onze [SEO-audit](/tools/ecommerce-seo-audit)-diensten voor professionele ondersteuning.",
           items: [
             "Een volledige sitecrawl exporteren met URL's, statuscodes, canonicals, metatags en linkaantallen",
             "De volledige lijst van geindexeerde pagina's uit Google Search Console downloaden",
@@ -461,6 +551,15 @@ export const platformMigrationSeo: AcademyTopic = {
             "Uitsluitend 301 permanente redirects gebruiken en eventuele redirectketens elimineren",
             "De volledige redirectmap op staging testen met een crawler voor de go-live",
           ],
+          image: {
+            src: "/images/academy/nl/migration-redirect-flow.svg",
+            alt: "Plattform-Migrations-Weiterleitungsablauf: Alte URL ueber Redirect-Map zur neuen URL mit 301-Permanent",
+            caption: "Jede alte URL braucht ein Ziel. Keine Weiterleitung bedeutet verlorene Autoritaet und verlorene Rankings.",
+          },
+          callout: {
+            title: "Redirect-Vollstaendigkeit",
+            text: "Unvollstaendiges URL-Mapping ist die haeufigste Ursache fuer Traffic-Verlust bei Migrationen. Crawlen Sie die alte Website vollstaendig und mappen Sie JEDE URL, nicht nur die Top-Seiten.",
+          },
         },
         {
           title: "Rankings behouden tijdens migratie",
@@ -511,6 +610,15 @@ export const platformMigrationSeo: AcademyTopic = {
             "De migratie uitvoeren tijdens uren met weinig verkeer met het volledige team beschikbaar voor monitoring",
           ],
           tip: "Documenteer na de stabilisatie van de migratie alles wat goed ging en elk probleem dat je tegenkwam. Dit migratieplaybook wordt onschatbaar waardevol bij toekomstige platformwijzigingen.",
+          image: {
+            src: "/images/academy/nl/migration-timeline.svg",
+            alt: "Plattform-Migrations-SEO-Zeitplan: Vor Migration, Migrationstag, Nach Migration und Erholungsphase",
+            caption: "Planen Sie 4-8 Wochen Vorbereitung und 3-6 Monate Erholung ein. Ein Traffic-Einbruch von 10-20% ist normal.",
+          },
+          callout: {
+            title: "Zeitplan-Realismus",
+            text: "Die meisten Migrationen unterschaetzen die Erholungszeit. Planen Sie mindestens 3-6 Monate fuer die volle Traffic-Erholung und informieren Sie Stakeholder ueber den erwarteten temporaeren Einbruch von 10-20%.",
+          },
         },
       ],
       navLabels: { previous: "Vorige", next: "Volgende" },

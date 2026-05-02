@@ -32,18 +32,36 @@ export const buyingGuidesAndComparisons: AcademyTopic = {
           title: "Comparison Post Templates That Rank",
           content:
             "Every comparison guide should follow a consistent structure. Start with a brief introduction that acknowledges the reader's dilemma. Follow with a quick-pick summary table, many readers want the answer before the explanation. Then walk through each comparison criterion in dedicated sections.\n\nThe comparison table should include: product name, price, key differentiating spec, best-for use case, and a link to the product page. Keep it scannable. Readers who are deep in the decision process often just need the table to confirm their lean.\n\nAfter the table, break down each comparison factor with honest analysis. If a product you sell loses on a particular criterion, say so. Credibility drives conversions far more than aggressive selling. A guide that admits trade-offs earns reader trust and keeps them on your site instead of bouncing to a third-party review.\n\nEnd with a clear recommendation section. State which product wins for each use case, and make sure each recommendation links directly to the product page with a contextual call-to-action.",
+          image: {
+            src: "/images/academy/buying-guide-structure.svg",
+            alt: "Five-step buying guide structure from intro through quick-pick table, criterion sections, trade-off analysis, to use-case recommendations",
+            caption: "A structured buying guide flows from the reader's dilemma through a scannable summary table, detailed analysis, honest trade-offs, and use-case-specific recommendations with CTAs.",
+          },
           items: [
             "Lead with a quick-pick summary table before detailed analysis",
             "Include price, key spec, best-for use case, and product page link in every comparison table",
             "Be honest about trade-offs, credibility converts better than one-sided recommendations",
             "Close with use-case-specific recommendations linked directly to product pages",
           ],
+          callout: {
+            title: "Credibility Wins",
+            text: "Guides that honestly acknowledge trade-offs convert better than one-sided recommendations. Readers trust transparent analysis and stay on your site instead of bouncing to third-party review sites for a second opinion.",
+          },
         },
         {
           title: "Linking From Guides to Products",
           content:
             "The internal linking between your guides and product pages is where content becomes revenue. Every product mentioned in a guide should link to its product page with descriptive, natural anchor text. Avoid generic \"click here\" or \"buy now\", use anchors like \"the Sony WH-1000XM5 noise-cancelling headphones\" that include the product name and a relevant modifier.\n\nPlace links at natural decision points within the text. When you recommend a product after explaining why it fits a use case, that is where the link belongs. Also, place product links in your comparison tables and in the final recommendation section.\n\nDon't forget the reverse link. Your product pages should link back to relevant buying guides. Add a section like \"Not sure this is right for you? Read our guide to choosing the best [category]\" near the top of product pages. This creates a content loop that keeps shoppers engaged and helps Google understand the relationship between your commercial and informational pages. For more on building effective link structures between pages, see [internal linking for stores](/academy/internal-linking-for-stores).",
+          image: {
+            src: "/images/academy/guide-to-product-linking.svg",
+            alt: "Bidirectional link loop between buying guides and product pages showing forward product links and reverse guide-back links",
+            caption: "Guides link to products with descriptive anchors. Product pages link back with a 'Read our guide' CTA. This bidirectional loop keeps shoppers engaged and signals topical relationships to Google.",
+          },
           tip: "Add a \"Featured in\" section to product pages that links to every buying guide where that product appears. This strengthens the internal link network and gives shoppers additional context without leaving the product page.",
+          callout: {
+            title: "Link Loop ROI",
+            text: "Bidirectional links between guides and products create a content loop Google rewards. Target a 15-25% click-through rate from guide pages to product pages. Use descriptive anchor text with the product name, never generic 'click here' links.",
+          },
         },
         {
           title: "Measuring Guide Performance",
@@ -95,6 +113,15 @@ export const buyingGuidesAndComparisons: AcademyTopic = {
             "Seien Sie ehrlich bei Kompromissen, Glaubwuerdigkeit konvertiert besser als einseitige Empfehlungen",
             "Schliessen Sie mit anwendungsfallspezifischen Empfehlungen, die direkt zu Produktseiten verlinken",
           ],
+          image: {
+            src: "/images/academy/de/buying-guide-structure.svg",
+            alt: "Fuenfstufige Kaufratgeber-Struktur von der Einleitung ueber die Schnellauswahl-Tabelle, Kriterien-Abschnitte, Abwaegungsanalyse bis zu Anwendungsempfehlungen",
+            caption: "Ein strukturierter Kaufratgeber fuehrt vom Leser-Dilemma ueber eine scannbare Uebersichtstabelle, detaillierte Analyse, ehrliche Abwaegungen und anwendungsspezifische Empfehlungen mit CTAs.",
+          },
+          callout: {
+            title: "Glaubwuerdigkeit gewinnt",
+            text: "Ratgeber die ehrlich Kompromisse anerkennen konvertieren besser als einseitige Empfehlungen. Leser vertrauen transparenter Analyse und bleiben auf Ihrer Seite statt zu Drittanbieter-Bewertungsseiten fuer eine zweite Meinung zu springen.",
+          },
         },
         {
           title: "Von Ratgebern zu Produkten verlinken",
@@ -112,6 +139,15 @@ export const buyingGuidesAndComparisons: AcademyTopic = {
             "Streben Sie durchschnittlich 4+ Minuten Verweildauer und 70%+ Scrolltiefe an",
             "Zielen Sie auf eine Klickrate von 15-25% von Ratgeberseiten zu Produktseiten",
           ],
+          image: {
+            src: "/images/academy/de/guide-to-product-linking.svg",
+            alt: "Bidirektionale Verlinkungsschleife zwischen Kaufratgebern und Produktseiten mit vorwaerts gerichteten Produktlinks und rueckwaerts gerichteten Ratgeber-Links",
+            caption: "Ratgeber verlinken zu Produkten mit beschreibenden Ankertexten. Produktseiten verlinken zurueck mit einem Lesen Sie unseren Ratgeber CTA. Diese bidirektionale Schleife haelt Kaeufer engagiert und signalisiert thematische Beziehungen an Google.",
+          },
+          callout: {
+            title: "Link-Schleifen-ROI",
+            text: "Bidirektionale Links zwischen Ratgebern und Produkten schaffen einen Content-Kreislauf den Google belohnt. Streben Sie eine 15-25% Klickrate von Ratgeberseiten zu Produktseiten an. Verwenden Sie beschreibende Ankertexte mit dem Produktnamen, niemals generische hier klicken Links.",
+          },
         },
       ],
       navLabels: {
@@ -152,6 +188,15 @@ export const buyingGuidesAndComparisons: AcademyTopic = {
             "Soyez honnete sur les compromis, la credibilite convertit mieux que les recommandations unilaterales",
             "Terminez par des recommandations specifiques par cas d'usage liees directement aux pages produits",
           ],
+          image: {
+            src: "/images/academy/fr/buying-guide-structure.svg",
+            alt: "Fuenfstufige Kaufratgeber-Struktur von der Einleitung ueber die Schnellauswahl-Tabelle, Kriterien-Abschnitte, Abwaegungsanalyse bis zu Anwendungsempfehlungen",
+            caption: "Ein strukturierter Kaufratgeber fuehrt vom Leser-Dilemma ueber eine scannbare Uebersichtstabelle, detaillierte Analyse, ehrliche Abwaegungen und anwendungsspezifische Empfehlungen mit CTAs.",
+          },
+          callout: {
+            title: "Glaubwuerdigkeit gewinnt",
+            text: "Ratgeber die ehrlich Kompromisse anerkennen konvertieren besser als einseitige Empfehlungen. Leser vertrauen transparenter Analyse und bleiben auf Ihrer Seite statt zu Drittanbieter-Bewertungsseiten fuer eine zweite Meinung zu springen.",
+          },
         },
         {
           title: "Liens des guides vers les produits",
@@ -169,6 +214,15 @@ export const buyingGuidesAndComparisons: AcademyTopic = {
             "Visez 4+ minutes de temps moyen sur la page et 70%+ de profondeur de defilement",
             "Ciblez un taux de clics de 15-25% des pages guides vers les pages produits",
           ],
+          image: {
+            src: "/images/academy/fr/guide-to-product-linking.svg",
+            alt: "Bidirektionale Verlinkungsschleife zwischen Kaufratgebern und Produktseiten mit vorwaerts gerichteten Produktlinks und rueckwaerts gerichteten Ratgeber-Links",
+            caption: "Ratgeber verlinken zu Produkten mit beschreibenden Ankertexten. Produktseiten verlinken zurueck mit einem Lesen Sie unseren Ratgeber CTA. Diese bidirektionale Schleife haelt Kaeufer engagiert und signalisiert thematische Beziehungen an Google.",
+          },
+          callout: {
+            title: "Link-Schleifen-ROI",
+            text: "Bidirektionale Links zwischen Ratgebern und Produkten schaffen einen Content-Kreislauf den Google belohnt. Streben Sie eine 15-25% Klickrate von Ratgeberseiten zu Produktseiten an. Verwenden Sie beschreibende Ankertexte mit dem Produktnamen, niemals generische hier klicken Links.",
+          },
         },
       ],
       navLabels: {
@@ -209,6 +263,15 @@ export const buyingGuidesAndComparisons: AcademyTopic = {
             "Se honesto sobre los compromisos, la credibilidad convierte mejor que las recomendaciones unilaterales",
             "Cierra con recomendaciones especificas por caso de uso enlazadas directamente a las paginas de producto",
           ],
+          image: {
+            src: "/images/academy/es/buying-guide-structure.svg",
+            alt: "Fuenfstufige Kaufratgeber-Struktur von der Einleitung ueber die Schnellauswahl-Tabelle, Kriterien-Abschnitte, Abwaegungsanalyse bis zu Anwendungsempfehlungen",
+            caption: "Ein strukturierter Kaufratgeber fuehrt vom Leser-Dilemma ueber eine scannbare Uebersichtstabelle, detaillierte Analyse, ehrliche Abwaegungen und anwendungsspezifische Empfehlungen mit CTAs.",
+          },
+          callout: {
+            title: "Glaubwuerdigkeit gewinnt",
+            text: "Ratgeber die ehrlich Kompromisse anerkennen konvertieren besser als einseitige Empfehlungen. Leser vertrauen transparenter Analyse und bleiben auf Ihrer Seite statt zu Drittanbieter-Bewertungsseiten fuer eine zweite Meinung zu springen.",
+          },
         },
         {
           title: "Enlazando de guias a productos",
@@ -226,6 +289,15 @@ export const buyingGuidesAndComparisons: AcademyTopic = {
             "Apunta a 4+ minutos de tiempo medio en pagina y 70%+ de profundidad de scroll",
             "Busca una tasa de clics del 15-25% desde las paginas de guias hacia las paginas de producto",
           ],
+          image: {
+            src: "/images/academy/es/guide-to-product-linking.svg",
+            alt: "Bidirektionale Verlinkungsschleife zwischen Kaufratgebern und Produktseiten mit vorwaerts gerichteten Produktlinks und rueckwaerts gerichteten Ratgeber-Links",
+            caption: "Ratgeber verlinken zu Produkten mit beschreibenden Ankertexten. Produktseiten verlinken zurueck mit einem Lesen Sie unseren Ratgeber CTA. Diese bidirektionale Schleife haelt Kaeufer engagiert und signalisiert thematische Beziehungen an Google.",
+          },
+          callout: {
+            title: "Link-Schleifen-ROI",
+            text: "Bidirektionale Links zwischen Ratgebern und Produkten schaffen einen Content-Kreislauf den Google belohnt. Streben Sie eine 15-25% Klickrate von Ratgeberseiten zu Produktseiten an. Verwenden Sie beschreibende Ankertexte mit dem Produktnamen, niemals generische hier klicken Links.",
+          },
         },
       ],
       navLabels: {
@@ -266,6 +338,15 @@ export const buyingGuidesAndComparisons: AcademyTopic = {
             "Sii onesto sui compromessi, la credibilita converte meglio delle raccomandazioni unilaterali",
             "Concludi con raccomandazioni specifiche per caso d'uso collegate direttamente alle pagine prodotto",
           ],
+          image: {
+            src: "/images/academy/it/buying-guide-structure.svg",
+            alt: "Fuenfstufige Kaufratgeber-Struktur von der Einleitung ueber die Schnellauswahl-Tabelle, Kriterien-Abschnitte, Abwaegungsanalyse bis zu Anwendungsempfehlungen",
+            caption: "Ein strukturierter Kaufratgeber fuehrt vom Leser-Dilemma ueber eine scannbare Uebersichtstabelle, detaillierte Analyse, ehrliche Abwaegungen und anwendungsspezifische Empfehlungen mit CTAs.",
+          },
+          callout: {
+            title: "Glaubwuerdigkeit gewinnt",
+            text: "Ratgeber die ehrlich Kompromisse anerkennen konvertieren besser als einseitige Empfehlungen. Leser vertrauen transparenter Analyse und bleiben auf Ihrer Seite statt zu Drittanbieter-Bewertungsseiten fuer eine zweite Meinung zu springen.",
+          },
         },
         {
           title: "Collegare guide e prodotti",
@@ -283,6 +364,15 @@ export const buyingGuidesAndComparisons: AcademyTopic = {
             "Punta a 4+ minuti di tempo medio sulla pagina e 70%+ di profondita di scroll",
             "Punta a un tasso di clic del 15-25% dalle pagine guida alle pagine prodotto",
           ],
+          image: {
+            src: "/images/academy/it/guide-to-product-linking.svg",
+            alt: "Bidirektionale Verlinkungsschleife zwischen Kaufratgebern und Produktseiten mit vorwaerts gerichteten Produktlinks und rueckwaerts gerichteten Ratgeber-Links",
+            caption: "Ratgeber verlinken zu Produkten mit beschreibenden Ankertexten. Produktseiten verlinken zurueck mit einem Lesen Sie unseren Ratgeber CTA. Diese bidirektionale Schleife haelt Kaeufer engagiert und signalisiert thematische Beziehungen an Google.",
+          },
+          callout: {
+            title: "Link-Schleifen-ROI",
+            text: "Bidirektionale Links zwischen Ratgebern und Produkten schaffen einen Content-Kreislauf den Google belohnt. Streben Sie eine 15-25% Klickrate von Ratgeberseiten zu Produktseiten an. Verwenden Sie beschreibende Ankertexte mit dem Produktnamen, niemals generische hier klicken Links.",
+          },
         },
       ],
       navLabels: {
@@ -323,6 +413,15 @@ export const buyingGuidesAndComparisons: AcademyTopic = {
             "Wees eerlijk over compromissen, geloofwaardigheid converteert beter dan eenzijdige aanbevelingen",
             "Sluit af met gebruiksscenario-specifieke aanbevelingen die direct linken naar productpagina's",
           ],
+          image: {
+            src: "/images/academy/nl/buying-guide-structure.svg",
+            alt: "Fuenfstufige Kaufratgeber-Struktur von der Einleitung ueber die Schnellauswahl-Tabelle, Kriterien-Abschnitte, Abwaegungsanalyse bis zu Anwendungsempfehlungen",
+            caption: "Ein strukturierter Kaufratgeber fuehrt vom Leser-Dilemma ueber eine scannbare Uebersichtstabelle, detaillierte Analyse, ehrliche Abwaegungen und anwendungsspezifische Empfehlungen mit CTAs.",
+          },
+          callout: {
+            title: "Glaubwuerdigkeit gewinnt",
+            text: "Ratgeber die ehrlich Kompromisse anerkennen konvertieren besser als einseitige Empfehlungen. Leser vertrauen transparenter Analyse und bleiben auf Ihrer Seite statt zu Drittanbieter-Bewertungsseiten fuer eine zweite Meinung zu springen.",
+          },
         },
         {
           title: "Linken van gidsen naar producten",
@@ -340,6 +439,15 @@ export const buyingGuidesAndComparisons: AcademyTopic = {
             "Streef naar 4+ minuten gemiddelde tijd op pagina en 70%+ scrolldiepte",
             "Richt op een doorklikpercentage van 15-25% van gidspagina's naar productpagina's",
           ],
+          image: {
+            src: "/images/academy/nl/guide-to-product-linking.svg",
+            alt: "Bidirektionale Verlinkungsschleife zwischen Kaufratgebern und Produktseiten mit vorwaerts gerichteten Produktlinks und rueckwaerts gerichteten Ratgeber-Links",
+            caption: "Ratgeber verlinken zu Produkten mit beschreibenden Ankertexten. Produktseiten verlinken zurueck mit einem Lesen Sie unseren Ratgeber CTA. Diese bidirektionale Schleife haelt Kaeufer engagiert und signalisiert thematische Beziehungen an Google.",
+          },
+          callout: {
+            title: "Link-Schleifen-ROI",
+            text: "Bidirektionale Links zwischen Ratgebern und Produkten schaffen einen Content-Kreislauf den Google belohnt. Streben Sie eine 15-25% Klickrate von Ratgeberseiten zu Produktseiten an. Verwenden Sie beschreibende Ankertexte mit dem Produktnamen, niemals generische hier klicken Links.",
+          },
         },
       ],
       navLabels: {

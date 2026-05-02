@@ -20,7 +20,7 @@
     "ogTitle": "Link Building que marca la diferencia en Ecommerce | EcomSEO"
   },
   "/keyword-research": {
-    "title": "Investigacion de Palabras Clave para Ecommerce | EcomSEO",
+    "title": "Palabras Clave para Ecommerce | EcomSEO",
     "description": "Investigacion de keywords orientada a ingresos para marcas ecommerce. Identificamos keywords de alta intencion que generan trafico y ventas.",
     "ogTitle": "Investigacion de Palabras Clave orientada a ingresos para Ecommerce | EcomSEO"
   },
@@ -135,7 +135,7 @@
     "ogTitle": "Fundamentos SEO - Parte 2 | Guias EcomSEO"
   },
   "/guides/analytics-tracking": {
-    "title": "Analytics y Seguimiento para SEO Ecommerce | Guías EcomSEO",
+    "title": "Analytics para SEO Ecommerce | EcomSEO",
     "description": "Configura GA4 y Google Search Console para tu tienda. Las métricas que realmente importan y cómo encontrar ganancias rápidas en tus datos.",
     "ogTitle": "Analytics y Seguimiento para SEO Ecommerce | Guías EcomSEO"
   },
@@ -170,12 +170,12 @@
     "ogTitle": "Auditoría SEO Off-Page para Ecommerce | Guías EcomSEO"
   },
   "/guides/task-planning": {
-    "title": "Planificación de Tareas SEO para Ecommerce | Guías EcomSEO",
+    "title": "Planificacion SEO Ecommerce | EcomSEO",
     "description": "Cómo priorizar tareas SEO, ejecutar sprints de 2 semanas y rastrear resultados. El framework de impacto vs. esfuerzo para SEO ecommerce.",
     "ogTitle": "Planificación de Tareas SEO para Ecommerce | Guías EcomSEO"
   },
   "/guides/link-building-tactics": {
-    "title": "Tácticas de Link Building para Ecommerce | Guías EcomSEO",
+    "title": "Link Building para Ecommerce | EcomSEO",
     "description": "Estrategias probadas de link building para ecommerce: digital PR, guest posting, enlaces de proveedores, páginas de recursos y broken link building.",
     "ogTitle": "Tácticas de Link Building para Ecommerce | Guías EcomSEO"
   },
@@ -199,7 +199,7 @@
     "description": "Fabian van Til, fundador de EcomSEO. Ayudando a marcas de ecommerce a ser descubiertas en AI y LLMs como ChatGPT.",
     "ogTitle": "Fabian van Til - Optimizacion para LLM | EcomSEO"
   },
-  "/intent-matching-tool": {
+  "/tools/intent-matching-tool": {
     "title": "Herramienta de Intencion de Busqueda AI",
     "description": "Analiza la intencion de busqueda de tus palabras clave de ecommerce. Comprende lo que buscan tus clientes y optimiza tu contenido en consecuencia.",
     "ogTitle": "Herramienta de Intencion de Busqueda AI"
@@ -260,7 +260,7 @@
     "ogTitle": "Auditoria SEO Shopify Gratuita - Comprueba la Salud SEO de Tu Tienda | EcomSEO"
   },
   "/tools/ecommerce-seo-audit": {
-    "title": "Herramienta Gratuita de Auditoria SEO E-commerce | EcomSEO",
+    "title": "Auditoria SEO E-commerce Gratis | EcomSEO",
     "description": "Analiza la salud SEO de tu tienda online en cualquier plataforma. Obtiene recomendaciones accionables para mejores rankings.",
     "ogTitle": "Auditoria SEO E-commerce Gratuita - Cualquier Plataforma | EcomSEO"
   },
@@ -310,7 +310,7 @@
     "ogTitle": "Clasificador de Tipos de Pagina | EcomSEO"
   },
   "/tools/sitemap-comparison": {
-    "title": "Herramienta de Comparación de Sitemaps Gratuita | EcomSEO",
+    "title": "Comparador de Sitemaps Gratis | EcomSEO",
     "description": "Compara dos sitemaps XML para encontrar URLs faltantes y brechas de cobertura. Ideal para análisis de competencia y auditorías de staging.",
     "ogTitle": "Herramienta de Comparación de Sitemaps Gratuita | EcomSEO"
   },
@@ -330,7 +330,7 @@
     "ogTitle": "Validador Schema Markup - JSON-LD | EcomSEO"
   },
   "/tools/redirect-checker": {
-    "title": "Verificador de Cadenas de Redirección Gratuito | EcomSEO",
+    "title": "Checker de Redirecciones Gratis | EcomSEO",
     "description": "Detecta cadenas de redirección, bucles y rutas de redirección rotas. Rutas completas con códigos de estado HTTP. Herramienta SEO gratuita.",
     "ogTitle": "Verificador de Cadenas de Redirección Gratuito | EcomSEO"
   },

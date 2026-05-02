@@ -1,0 +1,42 @@
+<svg viewBox="0 0 680 300" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <text x="340" y="28" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#a78bfa">Agency Performance KPIs by Timeline</text>
+  <line x1="60" y1="70" x2="620" y2="70" stroke="#a78bfa" stroke-width="2"/>
+  <circle cx="120" cy="70" r="8" stroke="#60a5fa" stroke-width="2" fill="none"/>
+  <circle cx="280" cy="70" r="8" stroke="#f97316" stroke-width="2" fill="none"/>
+  <circle cx="440" cy="70" r="8" stroke="#4ade80" stroke-width="2" fill="none"/>
+  <circle cx="580" cy="70" r="8" stroke="#f472b6" stroke-width="2" fill="none"/>
+  <text x="120" y="55" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#60a5fa">Month 1-2</text>
+  <text x="280" y="55" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#f97316">Month 3-4</text>
+  <text x="440" y="55" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#4ade80">Month 5-6</text>
+  <text x="580" y="55" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#f472b6">Month 7+</text>
+  <g transform="translate(50,95)">
+    <rect x="0" y="0" width="140" height="80" rx="6" stroke="#60a5fa" stroke-width="1.5" fill="none"/>
+    <text x="70" y="22" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Technical fixes</text>
+    <text x="70" y="38" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Crawl improvements</text>
+    <text x="70" y="54" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Indexation gains</text>
+    <text x="70" y="70" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Audit delivery</text>
+  </g>
+  <g transform="translate(210,95)">
+    <rect x="0" y="0" width="140" height="80" rx="6" stroke="#f97316" stroke-width="1.5" fill="none"/>
+    <text x="70" y="22" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Ranking movement</text>
+    <text x="70" y="38" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Traffic trends</text>
+    <text x="70" y="54" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Content published</text>
+    <text x="70" y="70" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Links acquired</text>
+  </g>
+  <g transform="translate(370,95)">
+    <rect x="0" y="0" width="140" height="80" rx="6" stroke="#4ade80" stroke-width="1.5" fill="none"/>
+    <text x="70" y="22" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Organic traffic lift</text>
+    <text x="70" y="38" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Conversion rate</text>
+    <text x="70" y="54" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Revenue attribution</text>
+    <text x="70" y="70" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">ROI calculation</text>
+  </g>
+  <g transform="translate(510,95)">
+    <rect x="0" y="0" width="140" height="80" rx="6" stroke="#f472b6" stroke-width="1.5" fill="none"/>
+    <text x="70" y="22" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Sustained growth</text>
+    <text x="70" y="38" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Market share gains</text>
+    <text x="70" y="54" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Competitive edge</text>
+    <text x="70" y="70" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Scaling strategy</text>
+  </g>
+  <line x1="20" y1="255" x2="660" y2="255" stroke="#a78bfa" stroke-width="1" stroke-dasharray="4"/>
+  <text x="340" y="278" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#a78bfa">Expect technical wins early, revenue impact from month 5 onward</text>
+</svg>

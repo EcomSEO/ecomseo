@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import Script from "next/script";
 import { headers } from "next/headers";
 import { DM_Sans, Figtree } from "next/font/google";
+import IClosedFloatingLauncher from "@/components/ui/IClosedFloatingLauncher";
+import VideoAutoUnmute from "@/components/ui/VideoAutoUnmute";
 import "./globals.css";
 
 const dmSans = DM_Sans({
@@ -63,6 +65,13 @@ export default async function RootLayout({
       </head>
       <body>
         <noscript>
+          {/* Force all Framer Motion animated content visible when JS is off (Googlebot initial pass) */}
+          <style dangerouslySetInnerHTML={{ __html: `
+            [style*="opacity: 0"], [style*="opacity:0"] {
+              opacity: 1 !important;
+              transform: none !important;
+            }
+          `}} />
           <iframe
             src="https://www.googletagmanager.com/ns.html?id=GTM-PWFC4VSN"
             height="0"
@@ -71,6 +80,13 @@ export default async function RootLayout({
           />
         </noscript>
         {children}
+        {/* Auto-unmute all <video> elements on first user interaction.
+            Browsers block audio autoplay on cold load; this is the earliest
+            we can legally flip muted=false. */}
+        <VideoAutoUnmute />
+        {/* Site-wide floating "Book a call" launcher — opens a compact card
+            (not fullscreen). Lazy-loads the iClosed widget on first open. */}
+        <IClosedFloatingLauncher />
         {/* GTM loaded after page interactive - not render-blocking */}
         <Script
           id="gtm"

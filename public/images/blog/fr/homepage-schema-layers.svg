@@ -1,0 +1,32 @@
+<svg viewBox="0 0 680 300" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <text x="340" y="28" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#a78bfa">Homepage Schema Markup Layers</text>
+  <g transform="translate(30,55)">
+    <rect x="0" y="0" width="180" height="180" rx="8" stroke="#a78bfa" stroke-width="2" fill="none"/>
+    <text x="90" y="28" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#a78bfa">Organization</text>
+    <text x="90" y="50" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">name, logo, url</text>
+    <text x="90" y="66" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">contactPoint</text>
+    <text x="90" y="82" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">sameAs (socials)</text>
+    <text x="90" y="98" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">address</text>
+    <text x="90" y="160" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#4ade80">Required</text>
+  </g>
+  <g transform="translate(250,55)">
+    <rect x="0" y="0" width="180" height="180" rx="8" stroke="#60a5fa" stroke-width="2" fill="none"/>
+    <text x="90" y="28" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#60a5fa">WebSite</text>
+    <text x="90" y="50" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">SearchAction</text>
+    <text x="90" y="66" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Sitelinks searchbox</text>
+    <text x="90" y="82" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">potentialAction</text>
+    <text x="90" y="98" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">query-input</text>
+    <text x="90" y="160" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#4ade80">Recommended</text>
+  </g>
+  <g transform="translate(470,55)">
+    <rect x="0" y="0" width="180" height="180" rx="8" stroke="#f97316" stroke-width="2" fill="none"/>
+    <text x="90" y="28" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#f97316">BreadcrumbList</text>
+    <text x="90" y="50" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">itemListElement</text>
+    <text x="90" y="66" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">position: 1</text>
+    <text x="90" y="82" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">name: Home</text>
+    <text x="90" y="98" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">item: url</text>
+    <text x="90" y="160" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#4ade80">Optional</text>
+  </g>
+  <line x1="20" y1="260" x2="660" y2="260" stroke="#a78bfa" stroke-width="1" stroke-dasharray="4"/>
+  <text x="340" y="282" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#a78bfa">Layer these three schema types on every ecommerce homepage</text>
+</svg>

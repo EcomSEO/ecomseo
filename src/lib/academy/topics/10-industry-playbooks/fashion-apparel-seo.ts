@@ -16,17 +16,35 @@ export const fashionApparelSeo: AcademyTopic = {
           title: "Seasonal Collection Pages and Trend Keywords",
           content:
             "Fashion retail revolves around seasons, drops, and trend cycles. Your SEO calendar should mirror your buying calendar. Create dedicated landing pages for each seasonal collection, Spring/Summer 2026, Fall/Winter 2026, at least eight weeks before the season begins. These pages give Google time to crawl and index them before demand peaks.\n\nTrend keywords shift rapidly. Terms like \"barrel leg jeans\" or \"quiet luxury\" can spike from zero to tens of thousands of monthly searches within weeks. Monitor Google Trends, Pinterest Trends, and social platforms weekly to catch rising search terms early. When you spot a trend relevant to your catalog, create or update a category page targeting that term immediately.\n\nAvoid deleting seasonal pages after a season ends. Instead, update the content and product grid for the next cycle. A page at /collections/summer-dresses that has accumulated backlinks and ranking history over three years will outperform a brand-new page every time. Add a small note like \"Explore our Summer 2026 collection\" and swap out the products.\n\nUse schema markup for product availability and seasonal offers. Google can display sale pricing, stock status, and promotional badges directly in search results, which lifts click-through rates significantly during peak shopping periods.",
+          image: {
+            src: "/images/academy/fashion-seasonal-seo-cycle.svg",
+            alt: "Circular diagram showing the fashion SEO seasonal cycle with Spring/Summer, Fall/Winter, Sales, and Trend Scouting phases",
+            caption: "Fashion SEO follows predictable seasonal cycles. Publish collection pages 8+ weeks before each season to allow Google time to crawl and index them.",
+          },
           items: [
             "Publish seasonal collection pages 8+ weeks before demand peaks",
             "Track trend keywords weekly using Google Trends and Pinterest Trends",
             "Retain and refresh seasonal URLs year over year instead of creating new ones",
             "Apply product schema with sale pricing and availability during promotional periods",
           ],
+          callout: {
+            title: "Seasonal URL Reuse",
+            text: "A page at /collections/summer-dresses with 3 years of accumulated backlinks and ranking history outperforms a newly created page every time. Swap the products and imagery each season but keep the URL intact.",
+          },
         },
         {
           title: "Managing Size, Color, and Style Variants",
           content:
             "Apparel stores often have hundreds of variants per product, multiple sizes, colors, fits, and lengths. Each variant creates potential duplicate content and crawl waste if handled poorly. The standard approach is to use a single canonical product URL with variant selectors (dropdowns or swatches) that do not generate separate indexable URLs.\n\nHowever, color variants deserve special treatment. Shoppers frequently search for specific colors: \"navy blue blazer,\" \"white leather sneakers,\" \"burgundy midi skirt.\" If a color variant looks substantially different and carries meaningful search volume, consider giving it a dedicated URL with unique product photography, a color-specific title tag, and a distinct meta description. Keep these variants canonicalized to themselves, not to a parent product.\n\nSize variants almost never warrant separate URLs. No one searches for \"medium black t-shirt.\" Keep size as a selector parameter and either block size parameters in robots.txt or use canonical tags pointing to the base URL. This prevents Google from wasting crawl budget on pages that offer no unique content.\n\nFor [faceted navigation](/academy/faceted-navigation-seo), filtering by size, color, material, price, implement a combination of canonical tags and noindex directives. Allow Google to index the most commercially valuable filter combinations (e.g., /womens-dresses/black/) while blocking low-value permutations (e.g., /womens-dresses?size=xs&color=black&price=under-50).",
+          image: {
+            src: "/images/academy/fashion-variant-url-decision.svg",
+            alt: "Decision tree diagram showing when to give color variants their own URL versus using a single URL with swatches, and why size variants should never get separate URLs",
+            caption: "Color variants with search volume deserve their own URL and photography. Size variants should always use a dropdown with canonical tags to the base URL.",
+          },
+          callout: {
+            title: "Color vs Size URLs",
+            text: "Shoppers search for \"navy blue blazer\" but never \"medium black t-shirt.\" Give color variants with search demand their own URL, unique title, and distinct photos. Keep size as an on-page selector to avoid crawl waste.",
+          },
           tip: "Audit your Google Search Console coverage report for variant URLs. If you see hundreds of \"Duplicate, submitted URL not selected as canonical\" entries, your variant handling needs tightening. Each indexed URL should serve a unique search intent.",
         },
         {
@@ -73,18 +91,36 @@ export const fashionApparelSeo: AcademyTopic = {
           title: "Saisonale Kollektionsseiten und Trend-Keywords",
           content:
             "Modehandel dreht sich um Saisons, Drops und Trendzyklen. Ihr SEO-Kalender sollte Ihren Einkaufskalender widerspiegeln. Erstellen Sie dedizierte Landingpages fuer jede saisonale Kollektion, Fruehjahr/Sommer 2026, Herbst/Winter 2026, mindestens acht Wochen vor Saisonbeginn. Diese Seiten geben Google Zeit zum Crawlen und Indexieren, bevor die Nachfrage ihren Hoehepunkt erreicht.\n\nTrend-Keywords aendern sich schnell. Begriffe wie \"Barrel-Leg-Jeans\" oder \"Quiet Luxury\" koennen innerhalb von Wochen von null auf Zehntausende monatlicher Suchanfragen steigen. Ueberwachen Sie woechentlich Google Trends, Pinterest Trends und soziale Plattformen, um aufkommende Suchbegriffe frueh zu erkennen. Wenn Sie einen relevanten Trend fuer Ihren Katalog entdecken, erstellen oder aktualisieren Sie sofort eine Kategorieseite fuer diesen Begriff.\n\nLoeschen Sie saisonale Seiten nach Saisonende nicht. Aktualisieren Sie stattdessen den Content und das Produktraster fuer den naechsten Zyklus. Eine Seite unter /collections/sommerkleider, die ueber drei Jahre Backlinks und Ranking-Historie aufgebaut hat, wird jedes Mal eine brandneue Seite uebertreffen.\n\nVerwenden Sie Schema-Markup fuer Produktverfuegbarkeit und saisonale Angebote. Google kann Sale-Preise, Lagerstatus und Aktions-Badges direkt in Suchergebnissen anzeigen, was die Klickraten waehrend Spitzen-Einkaufszeiten deutlich steigert.",
-          items: [
+                    image: {
+            src: "/images/academy/de/fashion-seasonal-seo-cycle.svg",
+            alt: "Mode saisonaler SEO-Zyklus mit Content-Planung, Optimierung, Pflege und Archivierung ueber vier Saisons",
+            caption: "Verwenden Sie immergruene URLs und aktualisieren Sie den Content saisonal, anstatt Seiten zu loeschen und neu zu erstellen.",
+          },
+items: [
             "Saisonale Kollektionsseiten 8+ Wochen vor dem Nachfrage-Peak veroeffentlichen",
             "Trend-Keywords woechentlich mit Google Trends und Pinterest Trends verfolgen",
             "Saisonale URLs Jahr fuer Jahr beibehalten und aktualisieren statt neue zu erstellen",
             "Produkt-Schema mit Sale-Preisen und Verfuegbarkeit waehrend Aktionszeitraeumen anwenden",
           ],
+          callout: {
+            title: "Saisonale URL-Strategie",
+            text: "Loeschen Sie saisonale Kollektionsseiten nie. Verwenden Sie immergruene URLs wie /kollektionen/sommermode/ und aktualisieren Sie den Content jedes Jahr. Geloeschte Seiten verlieren angesammelte SEO-Autoritaet.",
+          },
         },
         {
           title: "Verwaltung von Groessen-, Farb- und Stilvarianten",
           content:
             "Bekleidungsshops haben oft Hunderte von Varianten pro Produkt, mehrere Groessen, Farben, Passformen und Laengen. Jede Variante erzeugt potenziellen Duplicate Content und Crawl-Verschwendung, wenn sie schlecht gehandhabt wird. Der Standardansatz ist eine einzelne kanonische Produkt-URL mit Variantenselektoren (Dropdowns oder Farbfelder), die keine separaten indexierbaren URLs erzeugen.\n\nFarbvarianten verdienen jedoch besondere Behandlung. Kaeufer suchen haeufig nach bestimmten Farben: \"marineblaues Sakko,\" \"weisse Ledersneaker,\" \"bordeauxfarbener Midirock.\" Wenn eine Farbvariante wesentlich anders aussieht und bedeutendes Suchvolumen hat, erwaegen Sie eine dedizierte URL mit einzigartiger Produktfotografie, einem farbspezifischen Titel-Tag und einer eigenen Meta-Beschreibung.\n\nGroessenvarianten rechtfertigen fast nie separate URLs. Niemand sucht nach \"Medium schwarzes T-Shirt.\" Belassen Sie die Groesse als Selektor-Parameter und blockieren Sie Groessenparameter entweder in der robots.txt oder verwenden Sie Canonical-Tags, die auf die Basis-URL zeigen.\n\nFuer [facettierte Navigation](/academy/faceted-navigation-seo), Filterung nach Groesse, Farbe, Material, Preis, implementieren Sie eine Kombination aus Canonical-Tags und Noindex-Direktiven. Erlauben Sie Google die Indexierung der kommerziell wertvollsten Filterkombinationen, waehrend Sie wertarme Permutationen blockieren.",
+          image: {
+            src: "/images/academy/de/fashion-variant-url-decision.svg",
+            alt: "Mode Varianten-URL-Entscheidungsbaum: Wann eine URL mit Varianten vs. separate URLs verwenden",
+            caption: "Farb- und Groessenvarianten gehoeren auf eine URL. Nur stilistisch unterschiedliche Produkte mit eigener Suchnachfrage brauchen separate URLs.",
+          },
           tip: "Pruefen Sie Ihren Google Search Console Abdeckungsbericht auf Varianten-URLs. Wenn Sie Hunderte von \"Duplikat, eingereichte URL nicht als kanonisch ausgewaehlt\"-Eintraegen sehen, muss Ihre Variantenbehandlung verbessert werden.",
+          callout: {
+            title: "Varianten-Entscheidung",
+            text: "Erstellen Sie separate URLs nur, wenn eine Variante eigenstaendige Suchnachfrage hat. 'Rotes Kleid' vs. 'blaues Kleid' als Farbvariante auf einer Seite, aber 'Sommerkleid' vs. 'Abendkleid' als separate Seiten.",
+          },
         },
         {
           title: "Visuelle Suche und Bildoptimierung",
@@ -136,12 +172,30 @@ export const fashionApparelSeo: AcademyTopic = {
             "Conserver et actualiser les URLs saisonnieres d'annee en annee au lieu d'en creer de nouvelles",
             "Appliquer le schema produit avec prix promotionnels et disponibilite pendant les periodes d'action",
           ],
+          image: {
+            src: "/images/academy/fr/fashion-seasonal-seo-cycle.svg",
+            alt: "Mode saisonaler SEO-Zyklus mit Content-Planung, Optimierung, Pflege und Archivierung ueber vier Saisons",
+            caption: "Verwenden Sie immergruene URLs und aktualisieren Sie den Content saisonal, anstatt Seiten zu loeschen und neu zu erstellen.",
+          },
+          callout: {
+            title: "Saisonale URL-Strategie",
+            text: "Loeschen Sie saisonale Kollektionsseiten nie. Verwenden Sie immergruene URLs wie /kollektionen/sommermode/ und aktualisieren Sie den Content jedes Jahr. Geloeschte Seiten verlieren angesammelte SEO-Autoritaet.",
+          },
         },
         {
           title: "Gestion des variantes de taille, couleur et style",
           content:
             "Les boutiques de vetements ont souvent des centaines de variantes par produit, plusieurs tailles, couleurs, coupes et longueurs. Chaque variante cree du contenu duplique potentiel et du gaspillage de crawl si elle est mal geree. L'approche standard est d'utiliser une URL produit canonique unique avec des selecteurs de variantes qui ne generent pas d'URLs indexables separees.\n\nCependant, les variantes de couleur meritent un traitement special. Les acheteurs recherchent frequemment des couleurs specifiques : \"blazer bleu marine,\" \"baskets en cuir blanc,\" \"jupe midi bordeaux.\" Si une variante de couleur est visuellement differente et porte un volume de recherche significatif, envisagez de lui donner une URL dediee avec une photographie produit unique.\n\nLes variantes de taille ne justifient presque jamais des URLs separees. Personne ne cherche \"t-shirt noir taille M.\" Gardez la taille comme parametre de selecteur et bloquez les parametres de taille dans robots.txt ou utilisez des balises canoniques pointant vers l'URL de base.\n\nPour la [navigation a facettes](/academy/faceted-navigation-seo), filtrage par taille, couleur, materiau, prix, implementez une combinaison de balises canoniques et de directives noindex. Autorisez Google a indexer les combinaisons de filtres les plus commercialement precieuses tout en bloquant les permutations a faible valeur.",
           tip: "Verifiez votre rapport de couverture Google Search Console pour les URLs de variantes. Si vous voyez des centaines d'entrees \"Dupliquee, l'URL soumise n'a pas ete selectionnee comme canonique\", votre gestion des variantes doit etre amelioree.",
+          image: {
+            src: "/images/academy/fr/fashion-variant-url-decision.svg",
+            alt: "Mode Varianten-URL-Entscheidungsbaum: Wann eine URL mit Varianten vs. separate URLs verwenden",
+            caption: "Farb- und Groessenvarianten gehoeren auf eine URL. Nur stilistisch unterschiedliche Produkte mit eigener Suchnachfrage brauchen separate URLs.",
+          },
+          callout: {
+            title: "Varianten-Entscheidung",
+            text: "Erstellen Sie separate URLs nur, wenn eine Variante eigenstaendige Suchnachfrage hat. 'Rotes Kleid' vs. 'blaues Kleid' als Farbvariante auf einer Seite, aber 'Sommerkleid' vs. 'Abendkleid' als separate Seiten.",
+          },
         },
         {
           title: "Recherche visuelle et optimisation des images",
@@ -193,12 +247,30 @@ export const fashionApparelSeo: AcademyTopic = {
             "Mantener y actualizar URLs estacionales ano tras ano en lugar de crear nuevas",
             "Aplicar schema de producto con precios de oferta y disponibilidad durante periodos promocionales",
           ],
+          image: {
+            src: "/images/academy/es/fashion-seasonal-seo-cycle.svg",
+            alt: "Mode saisonaler SEO-Zyklus mit Content-Planung, Optimierung, Pflege und Archivierung ueber vier Saisons",
+            caption: "Verwenden Sie immergruene URLs und aktualisieren Sie den Content saisonal, anstatt Seiten zu loeschen und neu zu erstellen.",
+          },
+          callout: {
+            title: "Saisonale URL-Strategie",
+            text: "Loeschen Sie saisonale Kollektionsseiten nie. Verwenden Sie immergruene URLs wie /kollektionen/sommermode/ und aktualisieren Sie den Content jedes Jahr. Geloeschte Seiten verlieren angesammelte SEO-Autoritaet.",
+          },
         },
         {
           title: "Gestion de variantes de talla, color y estilo",
           content:
             "Las tiendas de ropa suelen tener cientos de variantes por producto, multiples tallas, colores, ajustes y largos. Cada variante crea contenido duplicado potencial y desperdicio de rastreo si se maneja mal. El enfoque estandar es usar una unica URL de producto canonica con selectores de variantes que no generen URLs indexables separadas.\n\nSin embargo, las variantes de color merecen un tratamiento especial. Los compradores buscan frecuentemente colores especificos: \"blazer azul marino,\" \"zapatillas de cuero blanco,\" \"falda midi burdeos.\" Si una variante de color luce sustancialmente diferente y tiene un volumen de busqueda significativo, considera darle una URL dedicada con fotografia de producto unica.\n\nLas variantes de talla casi nunca justifican URLs separadas. Nadie busca \"camiseta negra talla M.\" Mantén la talla como parametro selector y bloquea los parametros de talla en robots.txt o usa etiquetas canonical apuntando a la URL base.\n\nPara la [navegacion facetada](/academy/faceted-navigation-seo), filtrado por talla, color, material, precio, implementa una combinacion de etiquetas canonical y directivas noindex. Permite a Google indexar las combinaciones de filtros mas valiosas comercialmente mientras bloqueas permutaciones de bajo valor.",
           tip: "Revisa tu informe de cobertura de Google Search Console para URLs de variantes. Si ves cientos de entradas de \"Duplicada, la URL enviada no se ha seleccionado como canonica\", tu manejo de variantes necesita ajuste.",
+          image: {
+            src: "/images/academy/es/fashion-variant-url-decision.svg",
+            alt: "Mode Varianten-URL-Entscheidungsbaum: Wann eine URL mit Varianten vs. separate URLs verwenden",
+            caption: "Farb- und Groessenvarianten gehoeren auf eine URL. Nur stilistisch unterschiedliche Produkte mit eigener Suchnachfrage brauchen separate URLs.",
+          },
+          callout: {
+            title: "Varianten-Entscheidung",
+            text: "Erstellen Sie separate URLs nur, wenn eine Variante eigenstaendige Suchnachfrage hat. 'Rotes Kleid' vs. 'blaues Kleid' als Farbvariante auf einer Seite, aber 'Sommerkleid' vs. 'Abendkleid' als separate Seiten.",
+          },
         },
         {
           title: "Busqueda visual y optimizacion de imagenes",
@@ -250,12 +322,30 @@ export const fashionApparelSeo: AcademyTopic = {
             "Mantenere e aggiornare gli URL stagionali anno dopo anno invece di crearne di nuovi",
             "Applicare lo schema prodotto con prezzi scontati e disponibilita durante i periodi promozionali",
           ],
+          image: {
+            src: "/images/academy/it/fashion-seasonal-seo-cycle.svg",
+            alt: "Mode saisonaler SEO-Zyklus mit Content-Planung, Optimierung, Pflege und Archivierung ueber vier Saisons",
+            caption: "Verwenden Sie immergruene URLs und aktualisieren Sie den Content saisonal, anstatt Seiten zu loeschen und neu zu erstellen.",
+          },
+          callout: {
+            title: "Saisonale URL-Strategie",
+            text: "Loeschen Sie saisonale Kollektionsseiten nie. Verwenden Sie immergruene URLs wie /kollektionen/sommermode/ und aktualisieren Sie den Content jedes Jahr. Geloeschte Seiten verlieren angesammelte SEO-Autoritaet.",
+          },
         },
         {
           title: "Gestione delle varianti di taglia, colore e stile",
           content:
             "I negozi di abbigliamento hanno spesso centinaia di varianti per prodotto, multiple taglie, colori, vestibilita e lunghezze. Ogni variante crea potenziale contenuto duplicato e spreco di crawl se gestita male. L'approccio standard e utilizzare un singolo URL prodotto canonico con selettori di varianti che non generano URL indicizzabili separati.\n\nTuttavia, le varianti di colore meritano un trattamento speciale. Gli acquirenti cercano frequentemente colori specifici: \"blazer blu navy,\" \"sneakers in pelle bianca,\" \"gonna midi bordeaux.\" Se una variante di colore appare sostanzialmente diversa e ha un volume di ricerca significativo, considera di darle un URL dedicato con fotografia prodotto unica.\n\nLe varianti di taglia non giustificano quasi mai URL separati. Nessuno cerca \"t-shirt nera taglia M.\" Mantieni la taglia come parametro selettore e blocca i parametri taglia nel robots.txt o usa tag canonical che puntano all'URL base.\n\nPer la [navigazione a faccette](/academy/faceted-navigation-seo), filtro per taglia, colore, materiale, prezzo, implementa una combinazione di tag canonical e direttive noindex. Permetti a Google di indicizzare le combinazioni di filtri piu preziose commercialmente bloccando le permutazioni a basso valore.",
           tip: "Controlla il rapporto di copertura di Google Search Console per gli URL delle varianti. Se vedi centinaia di voci \"Duplicata, l'URL inviato non e stato selezionato come canonico\", la gestione delle varianti deve essere migliorata.",
+          image: {
+            src: "/images/academy/it/fashion-variant-url-decision.svg",
+            alt: "Mode Varianten-URL-Entscheidungsbaum: Wann eine URL mit Varianten vs. separate URLs verwenden",
+            caption: "Farb- und Groessenvarianten gehoeren auf eine URL. Nur stilistisch unterschiedliche Produkte mit eigener Suchnachfrage brauchen separate URLs.",
+          },
+          callout: {
+            title: "Varianten-Entscheidung",
+            text: "Erstellen Sie separate URLs nur, wenn eine Variante eigenstaendige Suchnachfrage hat. 'Rotes Kleid' vs. 'blaues Kleid' als Farbvariante auf einer Seite, aber 'Sommerkleid' vs. 'Abendkleid' als separate Seiten.",
+          },
         },
         {
           title: "Ricerca visiva e ottimizzazione delle immagini",
@@ -307,12 +397,30 @@ export const fashionApparelSeo: AcademyTopic = {
             "Seizoens-URL's jaar na jaar behouden en bijwerken in plaats van nieuwe te maken",
             "Productschema toepassen met actieprijzen en beschikbaarheid tijdens promotieperiodes",
           ],
+          image: {
+            src: "/images/academy/nl/fashion-seasonal-seo-cycle.svg",
+            alt: "Mode saisonaler SEO-Zyklus mit Content-Planung, Optimierung, Pflege und Archivierung ueber vier Saisons",
+            caption: "Verwenden Sie immergruene URLs und aktualisieren Sie den Content saisonal, anstatt Seiten zu loeschen und neu zu erstellen.",
+          },
+          callout: {
+            title: "Saisonale URL-Strategie",
+            text: "Loeschen Sie saisonale Kollektionsseiten nie. Verwenden Sie immergruene URLs wie /kollektionen/sommermode/ und aktualisieren Sie den Content jedes Jahr. Geloeschte Seiten verlieren angesammelte SEO-Autoritaet.",
+          },
         },
         {
           title: "Beheer van maat-, kleur- en stijlvarianten",
           content:
             "Kledingwinkels hebben vaak honderden varianten per product, meerdere maten, kleuren, passvormen en lengtes. Elke variant creëert potentieel dubbele content en crawlverspilling als het slecht wordt afgehandeld. De standaardaanpak is een enkele canonieke product-URL met variantkiezers die geen afzonderlijke indexeerbare URL's genereren.\n\nKleurvarianten verdienen echter speciale behandeling. Kopers zoeken vaak naar specifieke kleuren: \"marineblauw colbert,\" \"witte leren sneakers,\" \"bordeauxrode midi-rok.\" Als een kleurvariant er wezenlijk anders uitziet en een betekenisvol zoekvolume heeft, overweeg dan een aparte URL met unieke productfotografie.\n\nMaatvarianten rechtvaardigen bijna nooit aparte URL's. Niemand zoekt naar \"zwart T-shirt maat M.\" Houd maat als selectorparameter en blokkeer maatparameters in robots.txt of gebruik canonical tags die naar de basis-URL wijzen.\n\nVoor [facetnavigatie](/academy/faceted-navigation-seo), filteren op maat, kleur, materiaal, prijs, implementeer een combinatie van canonical tags en noindex-directieven. Sta Google toe om de commercieel meest waardevolle filtercombinaties te indexeren terwijl je lage-waarde permutaties blokkeert.",
           tip: "Controleer je Google Search Console dekkingsrapport op variant-URL's. Als je honderden 'Duplicaat, ingediende URL niet geselecteerd als canoniek'-meldingen ziet, moet je variantafhandeling worden verbeterd.",
+          image: {
+            src: "/images/academy/nl/fashion-variant-url-decision.svg",
+            alt: "Mode Varianten-URL-Entscheidungsbaum: Wann eine URL mit Varianten vs. separate URLs verwenden",
+            caption: "Farb- und Groessenvarianten gehoeren auf eine URL. Nur stilistisch unterschiedliche Produkte mit eigener Suchnachfrage brauchen separate URLs.",
+          },
+          callout: {
+            title: "Varianten-Entscheidung",
+            text: "Erstellen Sie separate URLs nur, wenn eine Variante eigenstaendige Suchnachfrage hat. 'Rotes Kleid' vs. 'blaues Kleid' als Farbvariante auf einer Seite, aber 'Sommerkleid' vs. 'Abendkleid' als separate Seiten.",
+          },
         },
         {
           title: "Visueel zoeken en beeldoptimalisatie",

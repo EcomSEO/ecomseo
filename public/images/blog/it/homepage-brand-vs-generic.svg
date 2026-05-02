@@ -1,0 +1,22 @@
+<svg viewBox="0 0 680 260" xmlns="http://www.w3.org/2000/svg" fill="none" font-family="Arial,sans-serif">
+  <text x="340" y="28" text-anchor="middle" fill="#a78bfa" font-size="14" font-weight="bold">Brand vs Generic Keyword Targeting Strategy</text>
+  <!-- Decision matrix -->
+  <text x="170" y="58" text-anchor="middle" fill="#4ade80" font-size="12" font-weight="bold">Established Stores (DR 60+)</text>
+  <rect x="30" y="68" width="280" height="76" rx="8" stroke="#4ade80" stroke-width="1.5"/>
+  <text x="170" y="88" text-anchor="middle" fill="#e2e8f0" font-size="10">Homepage targets brand + broad category</text>
+  <text x="170" y="106" text-anchor="middle" fill="#e2e8f0" font-size="9">"ShoeVault | Running Shoes, Trail Shoes"</text>
+  <text x="170" y="124" text-anchor="middle" fill="#4ade80" font-size="9">Can compete for generic terms on homepage</text>
+  <text x="170" y="138" text-anchor="middle" fill="#e2e8f0" font-size="8" opacity="0.6">Reinforce with internal links from blog to homepage</text>
+  <text x="510" y="58" text-anchor="middle" fill="#f97316" font-size="12" font-weight="bold">Growing Stores (DR &lt;40)</text>
+  <rect x="370" y="68" width="280" height="76" rx="8" stroke="#f97316" stroke-width="1.5"/>
+  <text x="510" y="88" text-anchor="middle" fill="#e2e8f0" font-size="10">Homepage focuses on brand identity</text>
+  <text x="510" y="106" text-anchor="middle" fill="#e2e8f0" font-size="9">"ShoeVault - Premium Athletic Footwear"</text>
+  <text x="510" y="124" text-anchor="middle" fill="#f97316" font-size="9">Let category pages handle generic terms</text>
+  <text x="510" y="138" text-anchor="middle" fill="#e2e8f0" font-size="8" opacity="0.6">Homepage distributes authority to categories</text>
+  <!-- Middle ground -->
+  <text x="340" y="172" text-anchor="middle" fill="#60a5fa" font-size="11" font-weight="bold">Sweet Spot: Brand + Modifier</text>
+  <rect x="140" y="182" width="400" height="44" rx="8" stroke="#60a5fa" stroke-width="2"/>
+  <text x="340" y="202" text-anchor="middle" fill="#60a5fa" font-size="10">"ShoeVault running shoes" -- less competitive than "running shoes"</text>
+  <text x="340" y="218" text-anchor="middle" fill="#e2e8f0" font-size="9">Captures brand-aware searchers comparing options -- easy to rank for with basic optimization</text>
+  <text x="340" y="248" text-anchor="middle" fill="#e2e8f0" font-size="9" opacity="0.7">Check Google Keyword Planner for brand + category search volume before choosing your approach</text>
+</svg>

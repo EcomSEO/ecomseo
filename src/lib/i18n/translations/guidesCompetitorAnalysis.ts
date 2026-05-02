@@ -196,7 +196,7 @@ export const guidesCompetitorAnalysisT: Record<
     ],
     nav: {
       prev: {
-        href: "/guides/keyword-research",
+        href: "/academy/keyword-research-for-ecommerce",
         category: "Research & Ideation",
         title: "Keyword Research",
       },
@@ -392,7 +392,7 @@ export const guidesCompetitorAnalysisT: Record<
     ],
     nav: {
       prev: {
-        href: "/guides/keyword-research",
+        href: "/academy/keyword-research-for-ecommerce",
         category: "Recherche & Ideenfindung",
         title: "Keyword-Recherche",
       },
@@ -588,7 +588,7 @@ export const guidesCompetitorAnalysisT: Record<
     ],
     nav: {
       prev: {
-        href: "/guides/keyword-research",
+        href: "/academy/keyword-research-for-ecommerce",
         category: "Recherche & Idéation",
         title: "Recherche de mots-clés",
       },
@@ -784,7 +784,7 @@ export const guidesCompetitorAnalysisT: Record<
     ],
     nav: {
       prev: {
-        href: "/guides/keyword-research",
+        href: "/academy/keyword-research-for-ecommerce",
         category: "Investigación e Ideación",
         title: "Investigación de palabras clave",
       },
@@ -980,7 +980,7 @@ export const guidesCompetitorAnalysisT: Record<
     ],
     nav: {
       prev: {
-        href: "/guides/keyword-research",
+        href: "/academy/keyword-research-for-ecommerce",
         category: "Ricerca & Ideazione",
         title: "Ricerca di parole chiave",
       },
@@ -1176,7 +1176,7 @@ export const guidesCompetitorAnalysisT: Record<
     ],
     nav: {
       prev: {
-        href: "/guides/keyword-research",
+        href: "/academy/keyword-research-for-ecommerce",
         category: "Onderzoek & Ideeënvorming",
         title: "Zoekwoordenonderzoek",
       },

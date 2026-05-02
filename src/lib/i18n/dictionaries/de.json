@@ -5,7 +5,7 @@
     "ogTitle": "EcomSEO - Gewinnorientierte Ecommerce SEO Agentur"
   },
   "/shopify-seo": {
-    "title": "Shopify SEO Agentur | EcomSEO",
+    "title": "Shopify SEO Agentur | Optimierung & Umsatz | EcomSEO",
     "description": "Wir analysieren, optimieren und skalieren den organischen Traffic fuer Shopify und Shopify Plus Shops. Spezialisierte Shopify SEO Leistungen.",
     "ogTitle": "Shopify SEO, das wirklich Umsatz bringt | EcomSEO"
   },
@@ -95,7 +95,7 @@
     "ogTitle": "Ressourcen & Wissenszentrum | EcomSEO"
   },
   "/resources/crash-course": {
-    "title": "Vom Anfänger zum Profi - Ecommerce SEO Crashkurs | EcomSEO",
+    "title": "Ecommerce SEO Crashkurs | EcomSEO",
     "description": "Kompletter Ecommerce SEO Crashkurs. Lernen Sie alles, was Sie wissen müssen, um bei Google höher zu ranken und organischen Umsatz zu steigern.",
     "ogTitle": "Vom Anfänger zum Profi - Ecommerce SEO Crashkurs | EcomSEO"
   },
@@ -135,7 +135,7 @@
     "ogTitle": "SEO Grundlagen Fortsetzung | EcomSEO Leitfäden"
   },
   "/guides/analytics-tracking": {
-    "title": "Analytics & Tracking für Ecommerce SEO | EcomSEO Leitfäden",
+    "title": "Analytics & Tracking | EcomSEO Leitfaden",
     "description": "GA4 und Google Search Console für Ihren Shop einrichten. Welche Kennzahlen wirklich zählen und wie Sie schnelle Gewinne aus Ihren Daten ziehen.",
     "ogTitle": "Analytics & Tracking für Ecommerce SEO | EcomSEO Leitfäden"
   },
@@ -145,7 +145,7 @@
     "ogTitle": "Einsteiger zum Experten: Ecommerce SEO Lernpfad"
   },
   "/guides/keyword-research": {
-    "title": "Ecommerce Keyword-Recherche Leitfaden | EcomSEO Leitfäden",
+    "title": "Keyword-Recherche Leitfaden | EcomSEO",
     "description": "Keywords für Ihren Onlineshop finden, bewerten und zuordnen. Kaufabsicht, Long-Tail-Strategie und Priorisierung erklärt.",
     "ogTitle": "Ecommerce Keyword-Recherche Leitfaden | EcomSEO Leitfäden"
   },
@@ -199,7 +199,7 @@
     "description": "Fabian van Til, Gründer von EcomSEO. Wir helfen Ecommerce-Marken, auf AI und LLMs wie ChatGPT gefunden zu werden.",
     "ogTitle": "Fabian van Til - LLM Optimisation Agency | EcomSEO"
   },
-  "/intent-matching-tool": {
+  "/tools/intent-matching-tool": {
     "title": "Intent-Matching-Tool - AI Keyword-Analyse | EcomSEO",
     "description": "Analysieren Sie die Suchintention für Ihre Ecommerce Keywords. Verstehen Sie, wonach Ihre Kunden suchen, und optimieren Sie Ihren Content entsprechend.",
     "ogTitle": "Intent-Matching-Tool - AI Keyword-Analyse | EcomSEO"
@@ -305,7 +305,7 @@
     "ogTitle": "Bulk Indexierbarkeits-Pruefer | EcomSEO"
   },
   "/tools/page-type-classifier": {
-    "title": "Kostenloser E-Commerce-Seitentyp-Klassifikator | EcomSEO",
+    "title": "Seitentyp-Klassifikator | EcomSEO",
     "description": "URLs automatisch als Produkt, Kategorie, Blog, Startseite, Warenkorb und mehr klassifizieren. Ideal für E-Commerce-SEO-Audits.",
     "ogTitle": "Kostenloser Seitentyp-Klassifikator | EcomSEO"
   },
@@ -330,7 +330,7 @@
     "ogTitle": "Schema-Markup-Validator - JSON-LD | EcomSEO"
   },
   "/tools/redirect-checker": {
-    "title": "Kostenloser Redirect-Ketten & Schleifen Checker | EcomSEO",
+    "title": "Redirect-Ketten Checker | EcomSEO",
     "description": "Redirect-Ketten, Schleifen und fehlerhafte Weiterleitungspfade erkennen. Vollständige Redirect-Pfade mit HTTP-Statuscodes. Kostenloses SEO-Tool.",
     "ogTitle": "Kostenloser Redirect-Ketten Checker | EcomSEO"
   },

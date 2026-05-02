@@ -1,0 +1,27 @@
+<svg viewBox="0 0 700 320" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <text x="350" y="28" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#a78bfa">Red Flags vs Green Flags in SEO Proposals</text>
+  <!-- Red flags column -->
+  <rect x="30" y="50" width="300" height="240" rx="8" stroke="#ef4444" stroke-width="1.5"/>
+  <text x="180" y="75" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#ef4444">Red Flags</text>
+  <text x="55" y="100" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Guaranteed #1 rankings</text>
+  <text x="55" y="122" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Vague link building methods</text>
+  <text x="55" y="144" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Cookie-cutter Bronze/Silver/Gold</text>
+  <text x="55" y="166" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Focus on vanity metrics only</text>
+  <text x="55" y="188" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Keywords with &lt;50 searches</text>
+  <text x="55" y="210" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">No custom analysis before proposal</text>
+  <text x="55" y="232" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">PBN or undisclosed link sources</text>
+  <text x="55" y="254" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">No mention of revenue or ROI</text>
+  <!-- Green flags column -->
+  <rect x="370" y="50" width="300" height="240" rx="8" stroke="#4ade80" stroke-width="1.5"/>
+  <text x="520" y="75" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#4ade80">Green Flags</text>
+  <text x="395" y="100" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Specific, measurable deliverables</text>
+  <text x="395" y="122" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Transparent link acquisition process</text>
+  <text x="395" y="144" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Custom strategy per store</text>
+  <text x="395" y="166" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Tied to revenue outcomes</text>
+  <text x="395" y="188" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Case studies with real metrics</text>
+  <text x="395" y="210" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Preliminary audit before proposal</text>
+  <text x="395" y="232" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Named link sources you can verify</text>
+  <text x="395" y="254" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Clear ROI projections</text>
+  <!-- Bottom note -->
+  <text x="350" y="310" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#f97316">One agency's "guaranteed" contract targeted 10 keywords each with &lt;50 monthly searches</text>
+</svg>

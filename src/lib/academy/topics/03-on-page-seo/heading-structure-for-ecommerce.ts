@@ -39,6 +39,15 @@ export const headingStructureForEcommerce: AcademyTopic = {
             "Never skip heading levels -- follow H1 > H2 > H3 > H4 nesting order",
             "Use CSS classes for visual styling instead of repurposing heading tags for non-structural elements",
           ],
+          image: {
+            src: "/images/academy/heading-hierarchy-product-page.svg",
+            alt: "Diagram showing the correct heading hierarchy for an ecommerce product page from H1 through H2 and H3 levels",
+            caption: "A properly nested heading structure helps Google understand content relationships and enables screen readers to navigate between sections.",
+          },
+          callout: {
+            title: "Common Template Bug",
+            text: "Many ecommerce themes wrap the site logo in an H1 on every page, creating two competing H1 tags when combined with the product name H1. The logo should only be H1 on the homepage.",
+          },
         },
         {
           title: "Heading Strategy for Category Pages",
@@ -56,6 +65,10 @@ export const headingStructureForEcommerce: AcademyTopic = {
             "Write question-based headings that match voice search queries and featured snippet format",
             "Replace generic headings like 'Details' with descriptive, keyword-informed alternatives",
           ],
+          callout: {
+            title: "Featured Snippet Tip",
+            text: "Question-based headings like 'What Size Espresso Grind Should I Use?' match voice search queries and get pulled into featured snippets. Google frequently extracts answers from content organized under descriptive question headings.",
+          },
         },
         {
           title: "Auditing and Fixing Heading Structure at Scale",
@@ -103,6 +116,15 @@ export const headingStructureForEcommerce: AcademyTopic = {
             "Ueberspringen Sie nie Heading-Ebenen -- folgen Sie der H1 > H2 > H3 > H4 Verschachtelungsreihenfolge",
             "Verwenden Sie CSS-Klassen fuer visuelles Styling statt Heading-Tags zweckzuentfremden",
           ],
+          image: {
+            src: "/images/academy/de/heading-hierarchy-product-page.svg",
+            alt: "Diagramm der korrekten Überschriften-Hierarchie für eine Ecommerce-Produktseite",
+            caption: "Eine korrekt verschachtelte Überschriftenstruktur hilft Google, Content-Beziehungen zu verstehen.",
+          },
+          callout: {
+            title: "Häufiger Template-Fehler",
+            text: "Viele Ecommerce-Themes verpacken das Seitenlogo in ein H1 auf jeder Seite, was zwei konkurrierende H1-Tags erzeugt.",
+          },
         },
         {
           title: "Heading-Strategie fuer Kategorieseiten",
@@ -120,6 +142,10 @@ export const headingStructureForEcommerce: AcademyTopic = {
             "Schreiben Sie fragenbasierte Headings, die zu Sprachsuchen und Featured-Snippet-Formaten passen",
             "Ersetzen Sie generische Headings wie 'Details' durch beschreibende, keyword-informierte Alternativen",
           ],
+          callout: {
+            title: "Featured-Snippet-Tipp",
+            text: "Fragebasierte Überschriften haben 30-40\u00a0% höhere Chancen auf Featured Snippets in Suchergebnissen.",
+          },
         },
         {
           title: "Heading-Struktur im grossen Massstab pruefen und korrigieren",
@@ -167,6 +193,15 @@ export const headingStructureForEcommerce: AcademyTopic = {
             "Ne sautez jamais de niveaux de titre -- suivez l'ordre d'imbrication H1 > H2 > H3 > H4",
             "Utilisez des classes CSS pour le style visuel au lieu de detourner les balises de titre pour des elements non structurels",
           ],
+          image: {
+            src: "/images/academy/fr/heading-hierarchy-product-page.svg",
+            alt: "Diagramm der korrekten Überschriften-Hierarchie für eine Ecommerce-Produktseite",
+            caption: "Eine korrekt verschachtelte Überschriftenstruktur hilft Google, Content-Beziehungen zu verstehen.",
+          },
+          callout: {
+            title: "Häufiger Template-Fehler",
+            text: "Viele Ecommerce-Themes verpacken das Seitenlogo in ein H1 auf jeder Seite, was zwei konkurrierende H1-Tags erzeugt.",
+          },
         },
         {
           title: "Strategie de titres pour les pages categories",
@@ -184,6 +219,10 @@ export const headingStructureForEcommerce: AcademyTopic = {
             "Ecrivez des titres bases sur des questions correspondant aux recherches vocales et au format Featured Snippet",
             "Remplacez les titres generiques comme 'Details' par des alternatives descriptives informees par les mots-cles",
           ],
+          callout: {
+            title: "Featured-Snippet-Tipp",
+            text: "Fragebasierte Überschriften haben 30-40\u00a0% höhere Chancen auf Featured Snippets in Suchergebnissen.",
+          },
         },
         {
           title: "Auditer et corriger la structure des titres a grande echelle",
@@ -231,6 +270,15 @@ export const headingStructureForEcommerce: AcademyTopic = {
             "Nunca saltes niveles de encabezado -- sigue el orden de anidamiento H1 > H2 > H3 > H4",
             "Usa clases CSS para estilo visual en lugar de reutilizar etiquetas de encabezado para elementos no estructurales",
           ],
+          image: {
+            src: "/images/academy/es/heading-hierarchy-product-page.svg",
+            alt: "Diagramm der korrekten Überschriften-Hierarchie für eine Ecommerce-Produktseite",
+            caption: "Eine korrekt verschachtelte Überschriftenstruktur hilft Google, Content-Beziehungen zu verstehen.",
+          },
+          callout: {
+            title: "Häufiger Template-Fehler",
+            text: "Viele Ecommerce-Themes verpacken das Seitenlogo in ein H1 auf jeder Seite, was zwei konkurrierende H1-Tags erzeugt.",
+          },
         },
         {
           title: "Estrategia de encabezados para paginas de categoria",
@@ -248,6 +296,10 @@ export const headingStructureForEcommerce: AcademyTopic = {
             "Escribe encabezados basados en preguntas que coincidan con busquedas por voz y formato de Featured Snippet",
             "Reemplaza encabezados genericos como 'Detalles' con alternativas descriptivas informadas por palabras clave",
           ],
+          callout: {
+            title: "Featured-Snippet-Tipp",
+            text: "Fragebasierte Überschriften haben 30-40\u00a0% höhere Chancen auf Featured Snippets in Suchergebnissen.",
+          },
         },
         {
           title: "Auditar y corregir la estructura de encabezados a escala",
@@ -295,6 +347,15 @@ export const headingStructureForEcommerce: AcademyTopic = {
             "Non saltare mai livelli di intestazione -- segui l'ordine di annidamento H1 > H2 > H3 > H4",
             "Usa classi CSS per lo stile visivo invece di riutilizzare i tag di intestazione per elementi non strutturali",
           ],
+          image: {
+            src: "/images/academy/it/heading-hierarchy-product-page.svg",
+            alt: "Diagramm der korrekten Überschriften-Hierarchie für eine Ecommerce-Produktseite",
+            caption: "Eine korrekt verschachtelte Überschriftenstruktur hilft Google, Content-Beziehungen zu verstehen.",
+          },
+          callout: {
+            title: "Häufiger Template-Fehler",
+            text: "Viele Ecommerce-Themes verpacken das Seitenlogo in ein H1 auf jeder Seite, was zwei konkurrierende H1-Tags erzeugt.",
+          },
         },
         {
           title: "Strategia dei titoli per le pagine di categoria",
@@ -312,6 +373,10 @@ export const headingStructureForEcommerce: AcademyTopic = {
             "Scrivi titoli basati su domande che corrispondano a ricerche vocali e formato Featured Snippet",
             "Sostituisci titoli generici come 'Dettagli' con alternative descrittive informate dalle parole chiave",
           ],
+          callout: {
+            title: "Featured-Snippet-Tipp",
+            text: "Fragebasierte Überschriften haben 30-40\u00a0% höhere Chancen auf Featured Snippets in Suchergebnissen.",
+          },
         },
         {
           title: "Auditare e correggere la struttura dei titoli su larga scala",
@@ -359,6 +424,15 @@ export const headingStructureForEcommerce: AcademyTopic = {
             "Sla nooit kopniveaus over -- volg de H1 > H2 > H3 > H4 nestvolgorde",
             "Gebruik CSS-klassen voor visuele styling in plaats van koptags te hergebruiken voor niet-structurele elementen",
           ],
+          image: {
+            src: "/images/academy/nl/heading-hierarchy-product-page.svg",
+            alt: "Diagramm der korrekten Überschriften-Hierarchie für eine Ecommerce-Produktseite",
+            caption: "Eine korrekt verschachtelte Überschriftenstruktur hilft Google, Content-Beziehungen zu verstehen.",
+          },
+          callout: {
+            title: "Häufiger Template-Fehler",
+            text: "Viele Ecommerce-Themes verpacken das Seitenlogo in ein H1 auf jeder Seite, was zwei konkurrierende H1-Tags erzeugt.",
+          },
         },
         {
           title: "Koppenstrategie voor categoriepagina's",
@@ -376,6 +450,10 @@ export const headingStructureForEcommerce: AcademyTopic = {
             "Schrijf vraaggebaseerde koppen die overeenkomen met spraakzoekopdrachten en Featured Snippet-formaat",
             "Vervang generieke koppen zoals 'Details' door beschrijvende, zoekwoord-geinformeerde alternatieven",
           ],
+          callout: {
+            title: "Featured-Snippet-Tipp",
+            text: "Fragebasierte Überschriften haben 30-40\u00a0% höhere Chancen auf Featured Snippets in Suchergebnissen.",
+          },
         },
         {
           title: "Koppenstructuur op schaal auditen en corrigeren",

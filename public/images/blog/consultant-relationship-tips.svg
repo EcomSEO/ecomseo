@@ -1,0 +1,25 @@
+<svg viewBox="0 0 700 310" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <text x="350" y="28" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#a78bfa">Maximizing Your Consultant Relationship</text>
+  <!-- Left: Your responsibilities -->
+  <rect x="30" y="55" width="300" height="200" rx="8" stroke="#60a5fa" stroke-width="1.5"/>
+  <text x="180" y="78" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#60a5fa">Your Role</text>
+  <text x="50" y="100" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Share business goals, margins, priorities</text>
+  <text x="50" y="120" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Provide product + analytics access</text>
+  <text x="50" y="140" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Implement recommendations promptly</text>
+  <text x="50" y="160" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Give feedback on priorities shifting</text>
+  <text x="50" y="180" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Alert to new products / campaigns</text>
+  <text x="50" y="200" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Review reports and ask questions</text>
+  <text x="50" y="230" font-family="Arial,sans-serif" font-size="9" fill="#60a5fa">Fastest results when implementation lag &lt;2 weeks</text>
+  <!-- Right: Consultant responsibilities -->
+  <rect x="370" y="55" width="300" height="200" rx="8" stroke="#4ade80" stroke-width="1.5"/>
+  <text x="520" y="78" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#4ade80">Consultant's Role</text>
+  <text x="390" y="100" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Proactive problem detection</text>
+  <text x="390" y="120" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Prioritized, actionable recommendations</text>
+  <text x="390" y="140" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Transparent monthly reporting</text>
+  <text x="390" y="160" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Strategy adjustments from data</text>
+  <text x="390" y="180" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Industry trend awareness</text>
+  <text x="390" y="200" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Clear communication, no jargon</text>
+  <text x="390" y="230" font-family="Arial,sans-serif" font-size="9" fill="#4ade80">Best consultants educate you over time</text>
+  <!-- Bottom -->
+  <text x="350" y="285" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#a78bfa">Best results come from partnership, not a vendor-client dynamic</text>
+</svg>

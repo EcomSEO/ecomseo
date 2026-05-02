@@ -1,0 +1,31 @@
+<svg viewBox="0 0 680 300" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <text x="340" y="28" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#a78bfa">Content Localization vs Translation</text>
+  <g transform="translate(40,50)">
+    <rect x="0" y="0" width="280" height="230" rx="6" stroke="#f97316" stroke-width="2" fill="none"/>
+    <text x="140" y="25" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#f97316">Translation Only</text>
+    <text x="140" y="45" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Word-for-word conversion</text>
+    <line x1="20" y1="58" x2="260" y2="58" stroke="#f97316" stroke-width="1" stroke-dasharray="4"/>
+    <text x="20" y="78" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Same keywords translated</text>
+    <text x="20" y="98" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Unnatural phrasing</text>
+    <text x="20" y="118" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Misses local search terms</text>
+    <text x="20" y="138" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Generic product descriptions</text>
+    <text x="20" y="158" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Wrong cultural references</text>
+    <line x1="20" y1="175" x2="260" y2="175" stroke="#f97316" stroke-width="1" stroke-dasharray="4"/>
+    <text x="140" y="198" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#f97316">CVR: 1.1%</text>
+    <text x="140" y="216" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Lower trust, higher bounce</text>
+  </g>
+  <g transform="translate(360,50)">
+    <rect x="0" y="0" width="280" height="230" rx="6" stroke="#4ade80" stroke-width="2" fill="none"/>
+    <text x="140" y="25" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#4ade80">Full Localization</text>
+    <text x="140" y="45" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Market-adapted content</text>
+    <line x1="20" y1="58" x2="260" y2="58" stroke="#4ade80" stroke-width="1" stroke-dasharray="4"/>
+    <text x="20" y="78" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Local keyword research</text>
+    <text x="20" y="98" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Native-speaker copywriting</text>
+    <text x="20" y="118" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Market-specific terminology</text>
+    <text x="20" y="138" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Local buyer expectations</text>
+    <text x="20" y="158" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Cultural adaptation</text>
+    <line x1="20" y1="175" x2="260" y2="175" stroke="#4ade80" stroke-width="1" stroke-dasharray="4"/>
+    <text x="140" y="198" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#4ade80">CVR: 2.4%</text>
+    <text x="140" y="216" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Higher trust, better rankings</text>
+  </g>
+</svg>

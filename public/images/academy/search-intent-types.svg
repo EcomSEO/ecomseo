@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 340" fill="none">
+  <!-- Title -->
+  <text x="340" y="24" text-anchor="middle" fill="#a78bfa" font-family="Arial,sans-serif" font-size="14" font-weight="700">The Four Types of Search Intent</text>
+
+  <!-- Funnel stages -->
+  <!-- Informational -->
+  <rect x="40" y="50" width="600" height="56" rx="8" fill="#1a1a2e" stroke="#60a5fa" stroke-width="1.5"/>
+  <text x="80" y="74" fill="#60a5fa" font-family="Arial,sans-serif" font-size="12" font-weight="700">Informational</text>
+  <text x="80" y="92" fill="#94a3b8" font-family="Arial,sans-serif" font-size="9">"how to choose running shoes"</text>
+  <text x="460" y="74" fill="#e2e8f0" font-family="Arial,sans-serif" font-size="10">Blog posts, guides</text>
+  <text x="460" y="92" fill="#94a3b8" font-family="Arial,sans-serif" font-size="8">Conversion: &lt;1% | Builds awareness</text>
+
+  <!-- Commercial -->
+  <rect x="80" y="118" width="520" height="56" rx="8" fill="#1a1a2e" stroke="#f97316" stroke-width="1.5"/>
+  <text x="120" y="142" fill="#f97316" font-family="Arial,sans-serif" font-size="12" font-weight="700">Commercial</text>
+  <text x="120" y="160" fill="#94a3b8" font-family="Arial,sans-serif" font-size="9">"best running shoes 2025"</text>
+  <text x="440" y="142" fill="#e2e8f0" font-family="Arial,sans-serif" font-size="10">Comparisons, category pages</text>
+  <text x="440" y="160" fill="#94a3b8" font-family="Arial,sans-serif" font-size="8">Conversion: 2-4% | Evaluating options</text>
+
+  <!-- Transactional -->
+  <rect x="120" y="186" width="440" height="56" rx="8" fill="#1a1a2e" stroke="#4ade80" stroke-width="1.5"/>
+  <text x="160" y="210" fill="#4ade80" font-family="Arial,sans-serif" font-size="12" font-weight="700">Transactional</text>
+  <text x="160" y="228" fill="#94a3b8" font-family="Arial,sans-serif" font-size="9">"buy Nike Air Max 90"</text>
+  <text x="420" y="210" fill="#e2e8f0" font-family="Arial,sans-serif" font-size="10">Product pages</text>
+  <text x="420" y="228" fill="#94a3b8" font-family="Arial,sans-serif" font-size="8">Conversion: 5-10% | Ready to buy</text>
+
+  <!-- Navigational -->
+  <rect x="160" y="254" width="360" height="56" rx="8" fill="#1a1a2e" stroke="#a78bfa" stroke-width="1.5"/>
+  <text x="200" y="278" fill="#a78bfa" font-family="Arial,sans-serif" font-size="12" font-weight="700">Navigational</text>
+  <text x="200" y="296" fill="#94a3b8" font-family="Arial,sans-serif" font-size="9">"Nike store" / "Glossier skincare"</text>
+  <text x="420" y="278" fill="#e2e8f0" font-family="Arial,sans-serif" font-size="10">Brand/home pages</text>
+  <text x="420" y="296" fill="#94a3b8" font-family="Arial,sans-serif" font-size="8">Highest intent | Already chose brand</text>
+
+  <!-- Right side arrow label -->
+  <text x="660" y="145" fill="#94a3b8" font-family="Arial,sans-serif" font-size="8" text-anchor="middle" transform="rotate(90,660,145)">Higher purchase intent</text>
+  <line x1="652" y1="60" x2="652" y2="300" stroke="#475569" stroke-width="1"/>
+  <polygon points="648,295 652,305 656,295" fill="#475569"/>
+
+  <text x="340" y="332" text-anchor="middle" fill="#64748b" font-family="Arial,sans-serif" font-size="8">Match each intent type with the right page type for maximum rankings and conversions</text>
+</svg>

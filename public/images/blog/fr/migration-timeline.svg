@@ -1,0 +1,50 @@
+<svg viewBox="0 0 680 300" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <text x="340" y="28" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#a78bfa">Ecommerce Migration SEO Timeline</text>
+  <!-- Timeline line -->
+  <line x1="60" y1="80" x2="620" y2="80" stroke="#e2e8f0" stroke-width="1.5" opacity="0.2"/>
+  <!-- Phase dots and labels -->
+  <circle cx="100" cy="80" r="8" fill="#a78bfa" opacity="0.3" stroke="#a78bfa" stroke-width="1.5"/>
+  <text x="100" y="65" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#a78bfa">8-12 wks before</text>
+  <text x="100" y="105" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#a78bfa">Audit</text>
+  <circle cx="230" cy="80" r="8" fill="#60a5fa" opacity="0.3" stroke="#60a5fa" stroke-width="1.5"/>
+  <text x="230" y="65" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#60a5fa">4-8 wks before</text>
+  <text x="230" y="105" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#60a5fa">URL Map</text>
+  <circle cx="360" cy="80" r="8" fill="#f97316" opacity="0.3" stroke="#f97316" stroke-width="1.5"/>
+  <text x="360" y="65" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#f97316">1-2 wks before</text>
+  <text x="360" y="105" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#f97316">Redirects</text>
+  <circle cx="460" cy="80" r="8" fill="#ef4444" opacity="0.3" stroke="#ef4444" stroke-width="1.5"/>
+  <text x="460" y="65" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#ef4444">Launch day</text>
+  <text x="460" y="105" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#ef4444">Go Live</text>
+  <circle cx="580" cy="80" r="8" fill="#4ade80" opacity="0.3" stroke="#4ade80" stroke-width="1.5"/>
+  <text x="580" y="65" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#4ade80">1-12 wks after</text>
+  <text x="580" y="105" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#4ade80">Monitor</text>
+  <!-- Details below each phase -->
+  <rect x="40" y="120" width="120" height="80" rx="6" fill="#a78bfa" opacity="0.08" stroke="#a78bfa" stroke-width="0.5"/>
+  <text x="100" y="140" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Crawl current site</text>
+  <text x="100" y="155" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Document all URLs</text>
+  <text x="100" y="170" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Baseline rankings</text>
+  <text x="100" y="185" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Identify top pages</text>
+  <rect x="170" y="120" width="120" height="80" rx="6" fill="#60a5fa" opacity="0.08" stroke="#60a5fa" stroke-width="0.5"/>
+  <text x="230" y="140" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Map old to new URLs</text>
+  <text x="230" y="155" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Preserve link equity</text>
+  <text x="230" y="170" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Content migration</text>
+  <text x="230" y="185" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Meta data transfer</text>
+  <rect x="300" y="120" width="120" height="80" rx="6" fill="#f97316" opacity="0.08" stroke="#f97316" stroke-width="0.5"/>
+  <text x="360" y="140" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">301 redirect rules</text>
+  <text x="360" y="155" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Test on staging</text>
+  <text x="360" y="170" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Validate chains</text>
+  <text x="360" y="185" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Edge case handling</text>
+  <rect x="400" y="120" width="120" height="80" rx="6" fill="#ef4444" opacity="0.08" stroke="#ef4444" stroke-width="0.5"/>
+  <text x="460" y="140" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Deploy redirects</text>
+  <text x="460" y="155" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Submit sitemaps</text>
+  <text x="460" y="170" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Monitor errors</text>
+  <text x="460" y="185" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Quick-fix issues</text>
+  <rect x="520" y="120" width="120" height="80" rx="6" fill="#4ade80" opacity="0.08" stroke="#4ade80" stroke-width="0.5"/>
+  <text x="580" y="140" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Track rankings</text>
+  <text x="580" y="155" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Fix 404 errors</text>
+  <text x="580" y="170" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Watch GSC data</text>
+  <text x="580" y="185" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Recovery period</text>
+  <!-- Bottom warning -->
+  <text x="340" y="235" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#ef4444">Expect 10-20% traffic dip even with perfect execution</text>
+  <text x="340" y="250" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#4ade80">Recovery typically takes 4-12 weeks</text>
+</svg>

@@ -1,0 +1,33 @@
+<svg viewBox="0 0 700 340" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <text x="350" y="28" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#a78bfa">Product Description Optimization Framework</text>
+  <!-- Left: Bad example -->
+  <rect x="30" y="50" width="280" height="210" rx="8" stroke="#ef4444" stroke-width="1.5"/>
+  <text x="170" y="75" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#ef4444">Typical (Low Conversion)</text>
+  <text x="50" y="100" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0" opacity="0.7">- Manufacturer copy-paste</text>
+  <text x="50" y="118" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0" opacity="0.7">- Feature bullet dump</text>
+  <text x="50" y="136" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0" opacity="0.7">- "300-denier cordura nylon"</text>
+  <text x="50" y="154" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0" opacity="0.7">- Wall of text, no structure</text>
+  <text x="50" y="172" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0" opacity="0.7">- No buyer questions answered</text>
+  <text x="50" y="190" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0" opacity="0.7">- Shared with 50+ other stores</text>
+  <text x="170" y="240" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#ef4444">Duplicate content penalty risk</text>
+  <!-- Right: Good example -->
+  <rect x="390" y="50" width="280" height="210" rx="8" stroke="#4ade80" stroke-width="1.5"/>
+  <text x="530" y="75" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#4ade80">Optimized (+18% Add to Cart)</text>
+  <text x="410" y="100" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">+ Unique, buyer-perspective copy</text>
+  <text x="410" y="118" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">+ Benefits over features</text>
+  <text x="410" y="136" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">+ "Military-grade fabric that lasts"</text>
+  <text x="410" y="154" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">+ Scannable: headings + bullets</text>
+  <text x="410" y="172" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">+ People Also Ask answers</text>
+  <text x="410" y="190" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">+ Bolded key specs</text>
+  <text x="530" y="240" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#4ade80">Unique content + higher conversions</text>
+  <!-- Arrow between -->
+  <line x1="320" y1="155" x2="380" y2="155" stroke="#a78bfa" stroke-width="2" marker-end="url(#arr3)"/>
+  <text x="350" y="145" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#a78bfa">Rewrite</text>
+  <!-- Bottom note -->
+  <text x="350" y="300" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0" opacity="0.7">Same products, same text content -- only formatting changes drove +18% add-to-cart rate</text>
+  <defs>
+    <marker id="arr3" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6" fill="#a78bfa"/>
+    </marker>
+  </defs>
+</svg>

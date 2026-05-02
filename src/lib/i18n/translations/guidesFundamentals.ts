@@ -123,7 +123,7 @@ export const guidesFundamentalsT: Record<Locale, {
       resourceLibrary: "Want the full resource library?",
       browseAll: "Browse all resources",
       needHelp: "Need help implementing?",
-      getInTouch: "Get a Free Proposal",
+      getInTouch: "Get a Free Audit",
     },
   },
   de: {

@@ -1,0 +1,36 @@
+<svg viewBox="0 0 680 310" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <text x="340" y="28" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#a78bfa">B2B Technical SEO Challenges</text>
+  <g transform="translate(30,55)">
+    <rect x="0" y="0" width="140" height="100" rx="8" stroke="#f97316" stroke-width="2" fill="none"/>
+    <text x="70" y="25" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#f97316">Gated Pricing</text>
+    <text x="70" y="48" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Serve default price</text>
+    <text x="70" y="62" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">to Googlebot</text>
+    <text x="70" y="82" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#4ade80">Not cloaking</text>
+  </g>
+  <g transform="translate(190,55)">
+    <rect x="0" y="0" width="140" height="100" rx="8" stroke="#60a5fa" stroke-width="2" fill="none"/>
+    <text x="70" y="25" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#60a5fa">Configurators</text>
+    <text x="70" y="48" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Canonicalize variants</text>
+    <text x="70" y="62" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">to main product</text>
+    <text x="70" y="82" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#4ade80">JS render configs</text>
+  </g>
+  <g transform="translate(350,55)">
+    <rect x="0" y="0" width="140" height="100" rx="8" stroke="#f472b6" stroke-width="2" fill="none"/>
+    <text x="70" y="25" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#f472b6">Faceted Nav</text>
+    <text x="70" y="48" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Allow top 2 filter</text>
+    <text x="70" y="62" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">dimensions to crawl</text>
+    <text x="70" y="82" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#4ade80">Block deeper combos</text>
+  </g>
+  <g transform="translate(510,55)">
+    <rect x="0" y="0" width="140" height="100" rx="8" stroke="#4ade80" stroke-width="2" fill="none"/>
+    <text x="70" y="25" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#4ade80">Site Speed</text>
+    <text x="70" y="48" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Enterprise platforms</text>
+    <text x="70" y="62" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">need caching focus</text>
+    <text x="70" y="82" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#4ade80">Crawl budget impact</text>
+  </g>
+  <rect x="80" y="190" width="520" height="65" rx="8" stroke="#a78bfa" stroke-width="1.5" fill="none"/>
+  <text x="340" y="215" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#a78bfa">Common B2B Platforms</text>
+  <text x="340" y="240" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#e2e8f0">SAP Commerce  |  Oracle  |  Custom ERP-integrated  |  Magento Enterprise</text>
+  <line x1="20" y1="275" x2="660" y2="275" stroke="#a78bfa" stroke-width="1" stroke-dasharray="4"/>
+  <text x="340" y="298" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#a78bfa">Each challenge requires platform-level solutions, not just SEO patches</text>
+</svg>

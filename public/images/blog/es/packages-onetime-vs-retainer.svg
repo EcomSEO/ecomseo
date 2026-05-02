@@ -1,0 +1,27 @@
+<svg viewBox="0 0 680 300" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <text x="340" y="28" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#a78bfa">One-Time Packages vs Ongoing Retainers</text>
+  <g transform="translate(30,55)">
+    <rect x="0" y="0" width="290" height="190" rx="8" stroke="#60a5fa" stroke-width="2" fill="none"/>
+    <text x="145" y="28" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#60a5fa">One-Time Package</text>
+    <text x="145" y="52" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Fixed scope, fixed price</text>
+    <text x="145" y="72" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Audit + recommendations</text>
+    <text x="145" y="92" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Technical fixes delivered</text>
+    <text x="145" y="112" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">No ongoing optimization</text>
+    <text x="145" y="140" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#4ade80">Best for: stores with in-house</text>
+    <text x="145" y="155" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#4ade80">teams needing direction</text>
+    <text x="145" y="178" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#60a5fa">$3,000 - $15,000 once</text>
+  </g>
+  <g transform="translate(360,55)">
+    <rect x="0" y="0" width="290" height="190" rx="8" stroke="#f97316" stroke-width="2" fill="none"/>
+    <text x="145" y="28" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#f97316">Ongoing Retainer</text>
+    <text x="145" y="52" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Monthly scope, monthly fee</text>
+    <text x="145" y="72" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Continuous optimization</text>
+    <text x="145" y="92" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Content + links + technical</text>
+    <text x="145" y="112" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Adapts to algorithm changes</text>
+    <text x="145" y="140" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#4ade80">Best for: stores wanting</text>
+    <text x="145" y="155" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#4ade80">sustained growth over time</text>
+    <text x="145" y="178" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#f97316">$1,500 - $15,000 /month</text>
+  </g>
+  <line x1="20" y1="264" x2="660" y2="264" stroke="#a78bfa" stroke-width="1" stroke-dasharray="4"/>
+  <text x="340" y="286" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#a78bfa">Most ecommerce stores benefit more from retainers -- SEO compounds over time</text>
+</svg>

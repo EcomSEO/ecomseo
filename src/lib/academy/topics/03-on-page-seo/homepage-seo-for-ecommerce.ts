@@ -27,6 +27,15 @@ export const homepageSeoForEcommerce: AcademyTopic = {
             "Feature top categories with names, descriptions, and links",
             "Add a 200-400 word brand and expertise section below the fold",
           ],
+          image: {
+            src: "/images/academy/homepage-authority-flow.svg",
+            alt: "Diagram showing how external backlinks flow authority through the homepage to category pages via internal links",
+            caption: "Your homepage receives the most backlinks and distributes that authority to categories through internal links. Keep homepage links focused on your top 10-15 destinations.",
+          },
+          callout: {
+            title: "Authority Math",
+            text: "Linking to 200 individual products from the homepage spreads authority so thin that no link carries meaningful weight. Link to 10-15 categories instead, letting category pages distribute authority to products below them.",
+          },
         },
         {
           title: "Homepage Navigation and Internal Links",
@@ -50,6 +59,10 @@ export const homepageSeoForEcommerce: AcademyTopic = {
             "Link to categories from the homepage, not to hundreds of individual products",
             "Avoid orphaning important pages by excluding them from navigation entirely",
           ],
+          callout: {
+            title: "Slider vs Static Hero",
+            text: "Studies consistently show static hero images outperform carousel sliders in conversion rate testing. Sliders also create confusing SEO signals because Google crawls at different moments, seeing different first-slide content each time.",
+          },
         },
       ],
       navLabels: {
@@ -79,6 +92,15 @@ export const homepageSeoForEcommerce: AcademyTopic = {
             "Top-Kategorien mit Namen, Beschreibungen und Links praesentieren",
             "Einen 200-400 Woerter langen Marken- und Expertise-Bereich unterhalb des sichtbaren Bereichs hinzufuegen",
           ],
+          image: {
+            src: "/images/academy/de/homepage-authority-flow.svg",
+            alt: "Diagramm, das zeigt, wie externe Backlinks Autorität über die Startseite an Kategorieseiten verteilen",
+            caption: "Ihre Startseite erhält die meisten Backlinks und verteilt diese Autorität an Kategorien. Fokussieren Sie auf 10-15 Ziele.",
+          },
+          callout: {
+            title: "Autoritäts-Rechnung",
+            text: "Auf 200 einzelne Produkte von der Startseite zu verlinken verteilt die Autorität so dünn, dass kein Link bedeutsames Gewicht trägt. Verlinken Sie auf 10-15 Kategorien.",
+          },
         },
         {
           title: "Startseiten-Navigation und interne Links",
@@ -102,6 +124,10 @@ export const homepageSeoForEcommerce: AcademyTopic = {
             "Von der Startseite auf Kategorien verlinken, nicht auf Hunderte einzelner Produkte",
             "Wichtige Seiten nicht verwaisen lassen, indem sie komplett aus der Navigation ausgeschlossen werden",
           ],
+          callout: {
+            title: "Slider vs. statischer Hero",
+            text: "Studien zeigen konsistent, dass statische Hero-Bilder Karussell-Slider in der Conversion-Rate übertreffen. Slider erzeugen auch verwirrende SEO-Signale.",
+          },
         },
       ],
       navLabels: {
@@ -131,6 +157,15 @@ export const homepageSeoForEcommerce: AcademyTopic = {
             "Presenter les categories principales avec noms, descriptions et liens",
             "Ajouter une section marque et expertise de 200-400 mots sous la ligne de flottaison",
           ],
+          image: {
+            src: "/images/academy/fr/homepage-authority-flow.svg",
+            alt: "Diagramm, das zeigt, wie externe Backlinks Autorität über die Startseite an Kategorieseiten verteilen",
+            caption: "Ihre Startseite erhält die meisten Backlinks und verteilt diese Autorität an Kategorien. Fokussieren Sie auf 10-15 Ziele.",
+          },
+          callout: {
+            title: "Autoritäts-Rechnung",
+            text: "Auf 200 einzelne Produkte von der Startseite zu verlinken verteilt die Autorität so dünn, dass kein Link bedeutsames Gewicht trägt. Verlinken Sie auf 10-15 Kategorien.",
+          },
         },
         {
           title: "Navigation de la page d'accueil et liens internes",
@@ -154,6 +189,10 @@ export const homepageSeoForEcommerce: AcademyTopic = {
             "Lier vers les categories depuis la page d'accueil, pas vers des centaines de produits individuels",
             "Eviter d'orpheliner des pages importantes en les excluant entierement de la navigation",
           ],
+          callout: {
+            title: "Slider vs. statischer Hero",
+            text: "Studien zeigen konsistent, dass statische Hero-Bilder Karussell-Slider in der Conversion-Rate übertreffen. Slider erzeugen auch verwirrende SEO-Signale.",
+          },
         },
       ],
       navLabels: {
@@ -183,6 +222,15 @@ export const homepageSeoForEcommerce: AcademyTopic = {
             "Presentar las categorias principales con nombres, descripciones y enlaces",
             "Agregar una seccion de marca y experiencia de 200-400 palabras debajo del pliegue",
           ],
+          image: {
+            src: "/images/academy/es/homepage-authority-flow.svg",
+            alt: "Diagramm, das zeigt, wie externe Backlinks Autorität über die Startseite an Kategorieseiten verteilen",
+            caption: "Ihre Startseite erhält die meisten Backlinks und verteilt diese Autorität an Kategorien. Fokussieren Sie auf 10-15 Ziele.",
+          },
+          callout: {
+            title: "Autoritäts-Rechnung",
+            text: "Auf 200 einzelne Produkte von der Startseite zu verlinken verteilt die Autorität so dünn, dass kein Link bedeutsames Gewicht trägt. Verlinken Sie auf 10-15 Kategorien.",
+          },
         },
         {
           title: "Navegacion de la pagina de inicio y enlaces internos",
@@ -206,6 +254,10 @@ export const homepageSeoForEcommerce: AcademyTopic = {
             "Enlazar a categorias desde la pagina de inicio, no a cientos de productos individuales",
             "Evitar huerfanar paginas importantes excluyendolas completamente de la navegacion",
           ],
+          callout: {
+            title: "Slider vs. statischer Hero",
+            text: "Studien zeigen konsistent, dass statische Hero-Bilder Karussell-Slider in der Conversion-Rate übertreffen. Slider erzeugen auch verwirrende SEO-Signale.",
+          },
         },
       ],
       navLabels: {
@@ -235,6 +287,15 @@ export const homepageSeoForEcommerce: AcademyTopic = {
             "Presentare le categorie principali con nomi, descrizioni e link",
             "Aggiungere una sezione di marchio e competenza di 200-400 parole sotto la piega",
           ],
+          image: {
+            src: "/images/academy/it/homepage-authority-flow.svg",
+            alt: "Diagramm, das zeigt, wie externe Backlinks Autorität über die Startseite an Kategorieseiten verteilen",
+            caption: "Ihre Startseite erhält die meisten Backlinks und verteilt diese Autorität an Kategorien. Fokussieren Sie auf 10-15 Ziele.",
+          },
+          callout: {
+            title: "Autoritäts-Rechnung",
+            text: "Auf 200 einzelne Produkte von der Startseite zu verlinken verteilt die Autorität so dünn, dass kein Link bedeutsames Gewicht trägt. Verlinken Sie auf 10-15 Kategorien.",
+          },
         },
         {
           title: "Navigazione della homepage e link interni",
@@ -258,6 +319,10 @@ export const homepageSeoForEcommerce: AcademyTopic = {
             "Linkare alle categorie dalla homepage, non a centinaia di prodotti individuali",
             "Evitare di rendere orfane pagine importanti escludendole completamente dalla navigazione",
           ],
+          callout: {
+            title: "Slider vs. statischer Hero",
+            text: "Studien zeigen konsistent, dass statische Hero-Bilder Karussell-Slider in der Conversion-Rate übertreffen. Slider erzeugen auch verwirrende SEO-Signale.",
+          },
         },
       ],
       navLabels: {
@@ -287,6 +352,15 @@ export const homepageSeoForEcommerce: AcademyTopic = {
             "Topcategorieen tonen met namen, beschrijvingen en links",
             "Een merk- en expertisesectie van 200-400 woorden onder de vouw toevoegen",
           ],
+          image: {
+            src: "/images/academy/nl/homepage-authority-flow.svg",
+            alt: "Diagramm, das zeigt, wie externe Backlinks Autorität über die Startseite an Kategorieseiten verteilen",
+            caption: "Ihre Startseite erhält die meisten Backlinks und verteilt diese Autorität an Kategorien. Fokussieren Sie auf 10-15 Ziele.",
+          },
+          callout: {
+            title: "Autoritäts-Rechnung",
+            text: "Auf 200 einzelne Produkte von der Startseite zu verlinken verteilt die Autorität so dünn, dass kein Link bedeutsames Gewicht trägt. Verlinken Sie auf 10-15 Kategorien.",
+          },
         },
         {
           title: "Homepagenavigatie en interne links",
@@ -310,6 +384,10 @@ export const homepageSeoForEcommerce: AcademyTopic = {
             "Linken naar categorieen vanaf de homepage, niet naar honderden individuele producten",
             "Belangrijke pagina's niet verweesd laten door ze volledig uit de navigatie te sluiten",
           ],
+          callout: {
+            title: "Slider vs. statischer Hero",
+            text: "Studien zeigen konsistent, dass statische Hero-Bilder Karussell-Slider in der Conversion-Rate übertreffen. Slider erzeugen auch verwirrende SEO-Signale.",
+          },
         },
       ],
       navLabels: {

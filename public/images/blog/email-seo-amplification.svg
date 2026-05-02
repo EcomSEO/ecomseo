@@ -1,0 +1,32 @@
+<svg viewBox="0 0 700 300" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <text x="350" y="28" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#a78bfa">Email Marketing as SEO Amplifier</text>
+  <!-- Email blast -->
+  <rect x="40" y="55" width="140" height="60" rx="8" stroke="#60a5fa" stroke-width="1.5"/>
+  <text x="110" y="78" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#60a5fa">New Content</text>
+  <text x="110" y="96" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Buying Guide Published</text>
+  <line x1="180" y1="85" x2="220" y2="85" stroke="#e2e8f0" stroke-width="1" marker-end="url(#arr4)"/>
+  <rect x="222" y="55" width="140" height="60" rx="8" stroke="#a78bfa" stroke-width="1.5"/>
+  <text x="292" y="78" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#a78bfa">Email to 50K</text>
+  <text x="292" y="96" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Segmented subscribers</text>
+  <line x1="362" y1="85" x2="400" y2="85" stroke="#e2e8f0" stroke-width="1" marker-end="url(#arr4)"/>
+  <rect x="402" y="55" width="140" height="60" rx="8" stroke="#4ade80" stroke-width="1.5"/>
+  <text x="472" y="78" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#4ade80">8K Click-Throughs</text>
+  <text x="472" y="96" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Engagement spike</text>
+  <!-- Downstream effects -->
+  <line x1="472" y1="115" x2="472" y2="145" stroke="#e2e8f0" stroke-width="1" marker-end="url(#arr4)"/>
+  <rect x="260" y="150" width="420" height="55" rx="8" stroke="#f97316" stroke-width="1.5"/>
+  <text x="470" y="172" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#f97316">Secondary SEO Signals</text>
+  <text x="310" y="192" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Social shares</text>
+  <text x="430" y="192" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Backlinks</text>
+  <text x="540" y="192" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Dwell time</text>
+  <!-- Long-term effect -->
+  <line x1="470" y1="205" x2="470" y2="235" stroke="#e2e8f0" stroke-width="1" marker-end="url(#arr4)"/>
+  <rect x="310" y="238" width="320" height="45" rx="8" stroke="#4ade80" stroke-width="2"/>
+  <text x="470" y="260" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#4ade80">Stronger Google Evaluation Period</text>
+  <text x="470" y="275" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Email drives initial burst; SEO sustains traffic for months</text>
+  <defs>
+    <marker id="arr4" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6" fill="#e2e8f0"/>
+    </marker>
+  </defs>
+</svg>

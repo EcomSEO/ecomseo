@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 260" fill="none">
+  <!-- Title -->
+  <text x="340" y="24" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="700" fill="#a78bfa">Sitemap Lastmod: Accurate vs. Incorrect</text>
+
+  <!-- Correct -->
+  <rect x="30" y="48" width="290" height="180" rx="10" stroke="#4ade80" stroke-width="1.5" fill="none"/>
+  <text x="175" y="72" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="700" fill="#4ade80">Accurate Lastmod</text>
+
+  <text x="50" y="100" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">/product-a  2025-04-01</text>
+  <text x="250" y="100" font-family="Arial,sans-serif" font-size="8" fill="#4ade80">price changed</text>
+  <text x="50" y="120" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">/product-b  2025-03-15</text>
+  <text x="250" y="120" font-family="Arial,sans-serif" font-size="8" fill="#4ade80">new review</text>
+  <text x="50" y="140" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">/product-c  2025-01-20</text>
+  <text x="250" y="140" font-family="Arial,sans-serif" font-size="8" fill="#94a3b8">unchanged</text>
+  <text x="50" y="160" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">/product-d  2025-04-05</text>
+  <text x="250" y="160" font-family="Arial,sans-serif" font-size="8" fill="#4ade80">restocked</text>
+
+  <rect x="50" y="176" width="250" height="36" rx="4" stroke="#4ade80" stroke-width="1" fill="none"/>
+  <text x="175" y="193" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="700" fill="#4ade80">Resultado: 30% faster indexing</text>
+  <text x="175" y="206" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">Google trusts and uses the signal</text>
+
+  <!-- Incorrect -->
+  <rect x="360" y="48" width="290" height="180" rx="10" stroke="#ef4444" stroke-width="1.5" fill="none"/>
+  <text x="505" y="72" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="700" fill="#ef4444">All Same Date</text>
+
+  <text x="380" y="100" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">/product-a  2025-04-07</text>
+  <text x="562" y="100" font-family="Arial,sans-serif" font-size="8" fill="#ef4444">today</text>
+  <text x="380" y="120" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">/product-b  2025-04-07</text>
+  <text x="562" y="120" font-family="Arial,sans-serif" font-size="8" fill="#ef4444">today</text>
+  <text x="380" y="140" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">/product-c  2025-04-07</text>
+  <text x="562" y="140" font-family="Arial,sans-serif" font-size="8" fill="#ef4444">today</text>
+  <text x="380" y="160" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">/product-d  2025-04-07</text>
+  <text x="562" y="160" font-family="Arial,sans-serif" font-size="8" fill="#ef4444">today</text>
+
+  <rect x="380" y="176" width="250" height="36" rx="4" stroke="#ef4444" stroke-width="1" fill="none"/>
+  <text x="505" y="193" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="700" fill="#ef4444">Resultado: Signal destroyed</text>
+  <text x="505" y="206" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">Google ignores lastmod entirely</text>
+</svg>

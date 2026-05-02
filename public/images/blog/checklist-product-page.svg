@@ -1,0 +1,56 @@
+<svg viewBox="0 0 680 320" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <text x="340" y="28" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#a78bfa">Product Page SEO Checklist</text>
+  <g transform="translate(30,50)">
+    <rect x="0" y="0" width="195" height="220" rx="8" stroke="#60a5fa" stroke-width="2" fill="none"/>
+    <text x="97" y="25" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#60a5fa">On-Page Elements</text>
+    <text x="18" y="50" font-family="Arial,sans-serif" font-size="10" fill="#60a5fa">+</text>
+    <text x="32" y="50" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Unique title tag</text>
+    <text x="18" y="68" font-family="Arial,sans-serif" font-size="10" fill="#60a5fa">+</text>
+    <text x="32" y="68" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Meta description w/ CTA</text>
+    <text x="18" y="86" font-family="Arial,sans-serif" font-size="10" fill="#60a5fa">+</text>
+    <text x="32" y="86" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">H1 with product name</text>
+    <text x="18" y="104" font-family="Arial,sans-serif" font-size="10" fill="#60a5fa">+</text>
+    <text x="32" y="104" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">300+ word description</text>
+    <text x="18" y="122" font-family="Arial,sans-serif" font-size="10" fill="#60a5fa">+</text>
+    <text x="32" y="122" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Alt text on all images</text>
+    <text x="18" y="140" font-family="Arial,sans-serif" font-size="10" fill="#60a5fa">+</text>
+    <text x="32" y="140" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Breadcrumb navigation</text>
+    <text x="97" y="200" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#60a5fa">6 items</text>
+  </g>
+  <g transform="translate(245,50)">
+    <rect x="0" y="0" width="195" height="220" rx="8" stroke="#f97316" stroke-width="2" fill="none"/>
+    <text x="97" y="25" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#f97316">Structured Data</text>
+    <text x="18" y="50" font-family="Arial,sans-serif" font-size="10" fill="#f97316">+</text>
+    <text x="32" y="50" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Product schema</text>
+    <text x="18" y="68" font-family="Arial,sans-serif" font-size="10" fill="#f97316">+</text>
+    <text x="32" y="68" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Price + availability</text>
+    <text x="18" y="86" font-family="Arial,sans-serif" font-size="10" fill="#f97316">+</text>
+    <text x="32" y="86" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Review / rating markup</text>
+    <text x="18" y="104" font-family="Arial,sans-serif" font-size="10" fill="#f97316">+</text>
+    <text x="32" y="104" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Brand property</text>
+    <text x="18" y="122" font-family="Arial,sans-serif" font-size="10" fill="#f97316">+</text>
+    <text x="32" y="122" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">SKU + GTIN identifiers</text>
+    <text x="18" y="140" font-family="Arial,sans-serif" font-size="10" fill="#f97316">+</text>
+    <text x="32" y="140" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">BreadcrumbList schema</text>
+    <text x="97" y="200" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#f97316">6 items</text>
+  </g>
+  <g transform="translate(460,50)">
+    <rect x="0" y="0" width="195" height="220" rx="8" stroke="#4ade80" stroke-width="2" fill="none"/>
+    <text x="97" y="25" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#4ade80">Conversion + UX</text>
+    <text x="18" y="50" font-family="Arial,sans-serif" font-size="10" fill="#4ade80">+</text>
+    <text x="32" y="50" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Customer reviews visible</text>
+    <text x="18" y="68" font-family="Arial,sans-serif" font-size="10" fill="#4ade80">+</text>
+    <text x="32" y="68" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Related products section</text>
+    <text x="18" y="86" font-family="Arial,sans-serif" font-size="10" fill="#4ade80">+</text>
+    <text x="32" y="86" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">FAQ section w/ schema</text>
+    <text x="18" y="104" font-family="Arial,sans-serif" font-size="10" fill="#4ade80">+</text>
+    <text x="32" y="104" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Fast add-to-cart action</text>
+    <text x="18" y="122" font-family="Arial,sans-serif" font-size="10" fill="#4ade80">+</text>
+    <text x="32" y="122" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Trust badges displayed</text>
+    <text x="18" y="140" font-family="Arial,sans-serif" font-size="10" fill="#4ade80">+</text>
+    <text x="32" y="140" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Shipping info visible</text>
+    <text x="97" y="200" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#4ade80">6 items</text>
+  </g>
+  <line x1="20" y1="288" x2="660" y2="288" stroke="#a78bfa" stroke-width="1" stroke-dasharray="4"/>
+  <text x="340" y="310" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#a78bfa">18 total items -- complete on-page first, then schema, then conversion elements</text>
+</svg>

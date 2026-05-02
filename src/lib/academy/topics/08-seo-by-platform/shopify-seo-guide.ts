@@ -16,6 +16,15 @@ export const shopifySeoGuide: AcademyTopic = {
           title: "Shopify URL Structure and Its SEO Implications",
           content:
             "Shopify enforces a rigid URL structure that prepends /collections/, /products/, and /pages/ prefixes to every page. Unlike open-source platforms, you cannot remove these prefixes or create fully custom URL patterns. A product URL always looks like /products/blue-widget, and a collection page always sits at /collections/summer-sale.\n\nThis matters for SEO because the /products/ prefix adds an extra directory level that some merchants find undesirable. However, Google has confirmed that URL structure alone is not a ranking factor, so the practical impact is minimal. The real concern is duplicate content: Shopify generates a secondary URL for every product within a collection context (/collections/shoes/products/blue-sneaker), which duplicates the canonical /products/blue-sneaker page.\n\nShopify handles this by placing a canonical tag pointing to the /products/ version. You should verify these canonical tags are working correctly using Google Search Console's URL Inspection tool. If you find indexed collection-based product URLs, the canonical tag may be overridden by a theme customization or app conflict.",
+          image: {
+            src: "/images/academy/shopify-url-structure.svg",
+            alt: "Diagram showing how Shopify generates duplicate collection-context URLs and resolves them with canonical tags",
+            caption: "Every product accessed through a collection gets a secondary URL. Shopify's canonical tag points both back to the primary /products/ version.",
+          },
+          callout: {
+            title: "Duplicate URL Risk",
+            text: "Each product in N collections creates N+1 crawlable URLs. A store with 2,000 products averaging 3 collections each generates 8,000 duplicate URLs that consume crawl budget if canonical tags fail.",
+          },
           tip: "Use the Shopify bulk URL redirect feature to clean up old product URLs after removing or renaming items. Broken product links that return 404 errors erode crawl efficiency over time.",
         },
         {
@@ -38,6 +47,15 @@ export const shopifySeoGuide: AcademyTopic = {
           title: "Shopify Speed Optimization for SEO",
           content:
             "Core Web Vitals directly influence Google rankings, and Shopify stores often struggle with Largest Contentful Paint (LCP) and Cumulative Layout Shift (CLS). Addressing these issues is a critical part of [site speed optimization](/academy/site-speed-optimization). The primary bottleneck is usually the theme itself combined with unoptimized images and excessive app scripts.\n\nShopify automatically serves images through its CDN and supports WebP format conversion. Use the image_url Liquid filter with width parameters to serve appropriately sized images: {{ image | image_url: width: 800 }}. This prevents the browser from downloading full-resolution 4000-pixel product images on mobile devices. Always include width and height attributes on image tags to prevent layout shift.\n\nTheme selection matters enormously. Shopify's Online Store 2.0 themes built on the JSON template architecture generally perform better than legacy Liquid-only themes. Dawn, Shopify's reference theme, scores well on Core Web Vitals out of the box. If you are using an older theme, migrating to an OS 2.0 theme can yield substantial speed improvements.\n\nLazy loading below-the-fold images, deferring non-critical JavaScript, and minimizing Liquid loop complexity in collection templates all contribute to faster page loads. For stores with large catalogs, paginating collection pages to show 24 to 48 products rather than loading hundreds at once prevents excessive DOM size.",
+          image: {
+            src: "/images/academy/shopify-speed-stack.svg",
+            alt: "Prioritized stack of Shopify speed optimizations from theme selection to JavaScript deferral",
+            caption: "Tackle speed improvements in priority order: theme first, then images, app audit, and JavaScript deferral.",
+          },
+          callout: {
+            title: "App Bloat Impact",
+            text: "Removing just 3 unused Shopify apps can improve LCP by over 800ms. Each app injects at least one render-blocking script, and the cumulative effect compounds on every page load.",
+          },
           tip: "Run a Shopify theme speed audit using Lighthouse on both a collection page and a product page. Collection pages with many product cards often score significantly worse than simpler product pages.",
         },
         {
@@ -64,7 +82,16 @@ export const shopifySeoGuide: AcademyTopic = {
           title: "Shopify URL-Struktur und ihre SEO-Auswirkungen",
           content:
             "Shopify erzwingt eine starre URL-Struktur mit den Praefixen /collections/, /products/ und /pages/ fuer jede Seite. Anders als bei Open-Source-Plattformen koennen Sie diese Praefixe nicht entfernen oder vollstaendig benutzerdefinierte URL-Muster erstellen. Eine Produkt-URL sieht immer wie /products/blaues-widget aus.\n\nDies betrifft SEO insofern, als der /products/-Praefix eine zusaetzliche Verzeichnisebene hinzufuegt. Google hat jedoch bestaetigt, dass die URL-Struktur allein kein Ranking-Faktor ist. Das eigentliche Problem ist Duplicate Content: Shopify generiert fuer jedes Produkt innerhalb eines Kollektionskontextes eine sekundaere URL, die die kanonische /products/-Seite dupliziert.\n\nShopify loest dies durch Canonical Tags, die auf die /products/-Version verweisen. Ueberpruefen Sie diese Tags mit dem URL-Inspektionstool der Google Search Console. Falls kollektionsbasierte Produkt-URLs indexiert werden, koennte der Canonical Tag durch eine Theme-Anpassung oder einen App-Konflikt ueberschrieben worden sein.",
+          image: {
+            src: "/images/academy/de/shopify-url-structure.svg",
+            alt: "Shopify URL-Struktur fuer Produkte, Kollektionen, Seiten und Blog mit festen Praefixen",
+            caption: "Shopifys feste URL-Praefixe (/products/, /collections/) koennen nicht entfernt werden. Optimieren Sie den Handle-Teil.",
+          },
           tip: "Nutzen Sie die Shopify-Massenumleitung, um alte Produkt-URLs nach dem Entfernen oder Umbenennen von Artikeln zu bereinigen. Defekte Produktlinks mit 404-Fehlern beeintraechtigen die Crawl-Effizienz.",
+          callout: {
+            title: "URL-Einschraenkung",
+            text: "Sie koennen Shopifys /products/ und /collections/ Praefixe nicht entfernen. Konzentrieren Sie sich auf die Optimierung der Handles und nutzen Sie Kollektionen als Kategorieersatz fuer eine bessere URL-Hierarchie.",
+          },
         },
         {
           title: "Liquid-Templates und On-Page-SEO-Kontrolle",
@@ -86,7 +113,16 @@ export const shopifySeoGuide: AcademyTopic = {
           title: "Shopify-Geschwindigkeitsoptimierung fuer SEO",
           content:
             "Core Web Vitals beeinflussen direkt die Google-Rankings, und Shopify-Shops kaempfen oft mit dem Largest Contentful Paint (LCP) und Cumulative Layout Shift (CLS). Der Hauptengpass ist in der Regel das Theme selbst, kombiniert mit nicht optimierten Bildern und ueberbordenden App-Skripten. Weitere Informationen finden Sie in unserem Leitfaden zu [Seitenladezeit-Optimierung](/academy/site-speed-optimization).\n\nShopify liefert Bilder automatisch ueber sein CDN aus und unterstuetzt die WebP-Formatkonvertierung. Verwenden Sie den image_url-Liquid-Filter mit Breitenparametern, um passend dimensionierte Bilder auszuliefern. Dies verhindert, dass der Browser hochaufloesende 4000-Pixel-Produktbilder auf Mobilgeraeten herunterlaed.\n\nDie Theme-Auswahl ist enorm wichtig. Shopifys Online Store 2.0-Themes, die auf der JSON-Template-Architektur basieren, performen generell besser als aeltere reine Liquid-Themes. Dawn, Shopifys Referenz-Theme, erzielt gute Core-Web-Vitals-Werte direkt nach der Installation.\n\nLazy Loading von Bildern unterhalb des sichtbaren Bereichs, das Aufschieben von nicht-kritischem JavaScript und die Minimierung der Liquid-Loop-Komplexitaet in Kollektionsvorlagen tragen alle zu schnelleren Seitenladezeiten bei.",
+          image: {
+            src: "/images/academy/de/shopify-speed-stack.svg",
+            alt: "Shopify Geschwindigkeitsoptimierungs-Stack auf Theme-, App- und Content-Ebene",
+            caption: "Die groessten Geschwindigkeitsgewinne bei Shopify kommen von der Theme-Optimierung und dem Entfernen ungenutzter Apps.",
+          },
           tip: "Fuehren Sie ein Shopify-Theme-Geschwindigkeitsaudit mit Lighthouse sowohl auf einer Kollektionsseite als auch auf einer Produktseite durch. Kollektionsseiten mit vielen Produktkarten schneiden oft deutlich schlechter ab.",
+          callout: {
+            title: "App-Ballast",
+            text: "Jede installierte Shopify-App fuegt JavaScript und CSS hinzu, auch wenn sie nicht sichtbar ist. Deinstallierte Apps koennen Skript-Reste hinterlassen. Pruefen Sie regelmaessig den Theme-Code auf verwaiste App-Skripte.",
+          },
         },
         {
           title: "Shopify-Blogging und Content-SEO",
@@ -113,6 +149,15 @@ export const shopifySeoGuide: AcademyTopic = {
           content:
             "Shopify impose une structure d'URL rigide qui ajoute les prefixes /collections/, /products/ et /pages/ a chaque page. Contrairement aux plateformes open source, vous ne pouvez pas supprimer ces prefixes ni creer des schemas d'URL entierement personnalises. Une URL de produit ressemble toujours a /products/widget-bleu.\n\nCela concerne le SEO car le prefixe /products/ ajoute un niveau de repertoire supplementaire. Cependant, Google a confirme que la structure d'URL seule n'est pas un facteur de classement. Le veritable probleme est le contenu duplique : Shopify genere une URL secondaire pour chaque produit dans un contexte de collection, dupliquant la page canonique /products/.\n\nShopify gere cela en placant une balise canonique pointant vers la version /products/. Verifiez que ces balises canoniques fonctionnent correctement avec l'outil d'inspection d'URL de Google Search Console. Si des URLs de produits basees sur des collections sont indexees, la balise canonique peut etre remplacee par une personnalisation du theme ou un conflit d'application.",
           tip: "Utilisez la fonctionnalite de redirection en masse de Shopify pour nettoyer les anciennes URLs de produits apres suppression ou renommage d'articles. Les liens produits brises renvoyant des erreurs 404 erosionnent l'efficacite du crawl.",
+          image: {
+            src: "/images/academy/fr/shopify-url-structure.svg",
+            alt: "Shopify URL-Struktur fuer Produkte, Kollektionen, Seiten und Blog mit festen Praefixen",
+            caption: "Shopifys feste URL-Praefixe (/products/, /collections/) koennen nicht entfernt werden. Optimieren Sie den Handle-Teil.",
+          },
+          callout: {
+            title: "URL-Einschraenkung",
+            text: "Sie koennen Shopifys /products/ und /collections/ Praefixe nicht entfernen. Konzentrieren Sie sich auf die Optimierung der Handles und nutzen Sie Kollektionen als Kategorieersatz fuer eine bessere URL-Hierarchie.",
+          },
         },
         {
           title: "Templates Liquid et controle SEO on-page",
@@ -135,6 +180,15 @@ export const shopifySeoGuide: AcademyTopic = {
           content:
             "Les Core Web Vitals influencent directement les classements Google, et les boutiques Shopify peinent souvent avec le Largest Contentful Paint (LCP) et le Cumulative Layout Shift (CLS). Le goulot d'etranglement principal est generalement le theme lui-meme, combine a des images non optimisees et des scripts d'applications excessifs.\n\nShopify sert automatiquement les images via son CDN et supporte la conversion au format WebP. Utilisez le filtre Liquid image_url avec des parametres de largeur pour servir des images dimensionnees de maniere appropriee. Cela empeche le navigateur de telecharger des images produit haute resolution de 4000 pixels sur les appareils mobiles.\n\nLe choix du theme est primordial. Les themes Online Store 2.0 de Shopify construits sur l'architecture de templates JSON performent generalement mieux que les themes Liquid herites. Dawn, le theme de reference de Shopify, obtient de bons scores Core Web Vitals nativement.\n\nLe chargement paresseux des images sous la ligne de flottaison, le report du JavaScript non critique et la minimisation de la complexite des boucles Liquid dans les templates de collections contribuent tous a des chargements de pages plus rapides. Résoudre ces problèmes est une partie essentielle de l'[optimisation de la vitesse du site](/academy/site-speed-optimization).",
           tip: "Executez un audit de vitesse du theme Shopify avec Lighthouse sur une page de collection et une page produit. Les pages de collection avec de nombreuses cartes produit obtiennent souvent des scores nettement inferieurs.",
+          image: {
+            src: "/images/academy/fr/shopify-speed-stack.svg",
+            alt: "Shopify Geschwindigkeitsoptimierungs-Stack auf Theme-, App- und Content-Ebene",
+            caption: "Die groessten Geschwindigkeitsgewinne bei Shopify kommen von der Theme-Optimierung und dem Entfernen ungenutzter Apps.",
+          },
+          callout: {
+            title: "App-Ballast",
+            text: "Jede installierte Shopify-App fuegt JavaScript und CSS hinzu, auch wenn sie nicht sichtbar ist. Deinstallierte Apps koennen Skript-Reste hinterlassen. Pruefen Sie regelmaessig den Theme-Code auf verwaiste App-Skripte.",
+          },
         },
         {
           title: "Blogging Shopify et SEO de contenu",
@@ -161,6 +215,15 @@ export const shopifySeoGuide: AcademyTopic = {
           content:
             "Shopify impone una estructura de URL rigida que antepone los prefijos /collections/, /products/ y /pages/ a cada pagina. A diferencia de las plataformas de codigo abierto, no puedes eliminar estos prefijos ni crear patrones de URL completamente personalizados. Una URL de producto siempre se ve como /products/widget-azul.\n\nEsto afecta al SEO porque el prefijo /products/ anade un nivel de directorio adicional. Sin embargo, Google ha confirmado que la estructura de URL por si sola no es un factor de clasificacion. La verdadera preocupacion es el contenido duplicado: Shopify genera una URL secundaria para cada producto dentro de un contexto de coleccion, duplicando la pagina canonica /products/.\n\nShopify maneja esto colocando una etiqueta canonica que apunta a la version /products/. Debes verificar que estas etiquetas canonicas funcionen correctamente usando la herramienta de inspeccion de URLs de Google Search Console.",
           tip: "Utiliza la funcion de redireccion masiva de Shopify para limpiar URLs de productos antiguas despues de eliminar o renombrar articulos. Los enlaces de productos rotos que devuelven errores 404 erosionan la eficiencia del rastreo.",
+          image: {
+            src: "/images/academy/es/shopify-url-structure.svg",
+            alt: "Shopify URL-Struktur fuer Produkte, Kollektionen, Seiten und Blog mit festen Praefixen",
+            caption: "Shopifys feste URL-Praefixe (/products/, /collections/) koennen nicht entfernt werden. Optimieren Sie den Handle-Teil.",
+          },
+          callout: {
+            title: "URL-Einschraenkung",
+            text: "Sie koennen Shopifys /products/ und /collections/ Praefixe nicht entfernen. Konzentrieren Sie sich auf die Optimierung der Handles und nutzen Sie Kollektionen als Kategorieersatz fuer eine bessere URL-Hierarchie.",
+          },
         },
         {
           title: "Plantillas Liquid y control SEO on-page",
@@ -183,6 +246,15 @@ export const shopifySeoGuide: AcademyTopic = {
           content:
             "Los Core Web Vitals influyen directamente en los rankings de Google, y las tiendas Shopify a menudo luchan con el Largest Contentful Paint (LCP) y el Cumulative Layout Shift (CLS). El cuello de botella principal suele ser el tema en si, combinado con imagenes no optimizadas y scripts de aplicaciones excesivos.\n\nShopify sirve automaticamente las imagenes a traves de su CDN y soporta la conversion al formato WebP. Usa el filtro Liquid image_url con parametros de ancho para servir imagenes dimensionadas apropiadamente. Esto evita que el navegador descargue imagenes de productos de alta resolucion de 4000 pixeles en dispositivos moviles.\n\nLa seleccion del tema es enormemente relevante. Los temas Online Store 2.0 de Shopify construidos sobre la arquitectura de plantillas JSON generalmente rinden mejor que los temas heredados basados solo en Liquid. Dawn, el tema de referencia de Shopify, obtiene buenas puntuaciones en Core Web Vitals de fabrica.\n\nLa carga diferida de imagenes debajo del pliegue, el aplazamiento de JavaScript no critico y la minimizacion de la complejidad de bucles Liquid en plantillas de coleccion contribuyen a cargas de pagina mas rapidas. Abordar estos problemas es una parte critica de la [optimizacion de velocidad del sitio](/academy/site-speed-optimization).",
           tip: "Ejecuta una auditoria de velocidad del tema Shopify con Lighthouse tanto en una pagina de coleccion como en una pagina de producto. Las paginas de coleccion con muchas tarjetas de producto a menudo obtienen puntuaciones significativamente peores.",
+          image: {
+            src: "/images/academy/es/shopify-speed-stack.svg",
+            alt: "Shopify Geschwindigkeitsoptimierungs-Stack auf Theme-, App- und Content-Ebene",
+            caption: "Die groessten Geschwindigkeitsgewinne bei Shopify kommen von der Theme-Optimierung und dem Entfernen ungenutzter Apps.",
+          },
+          callout: {
+            title: "App-Ballast",
+            text: "Jede installierte Shopify-App fuegt JavaScript und CSS hinzu, auch wenn sie nicht sichtbar ist. Deinstallierte Apps koennen Skript-Reste hinterlassen. Pruefen Sie regelmaessig den Theme-Code auf verwaiste App-Skripte.",
+          },
         },
         {
           title: "Blogging en Shopify y SEO de contenido",
@@ -209,6 +281,15 @@ export const shopifySeoGuide: AcademyTopic = {
           content:
             "Shopify impone una struttura URL rigida che antepone i prefissi /collections/, /products/ e /pages/ a ogni pagina. A differenza delle piattaforme open source, non e possibile rimuovere questi prefissi o creare pattern URL completamente personalizzati. Un URL di prodotto appare sempre come /products/widget-blu.\n\nQuesto influenza la SEO perche il prefisso /products/ aggiunge un livello di directory supplementare. Tuttavia, Google ha confermato che la struttura URL da sola non e un fattore di ranking. La vera preoccupazione e il contenuto duplicato: Shopify genera un URL secondario per ogni prodotto all'interno di un contesto di collezione, duplicando la pagina canonica /products/.\n\nShopify gestisce questo inserendo un tag canonico che punta alla versione /products/. Verifica che questi tag canonici funzionino correttamente utilizzando lo strumento di ispezione URL di Google Search Console.",
           tip: "Utilizza la funzione di reindirizzamento in blocco di Shopify per ripulire i vecchi URL dei prodotti dopo la rimozione o la ridenominazione degli articoli. I link di prodotti non funzionanti che restituiscono errori 404 erodono l'efficienza del crawl.",
+          image: {
+            src: "/images/academy/it/shopify-url-structure.svg",
+            alt: "Shopify URL-Struktur fuer Produkte, Kollektionen, Seiten und Blog mit festen Praefixen",
+            caption: "Shopifys feste URL-Praefixe (/products/, /collections/) koennen nicht entfernt werden. Optimieren Sie den Handle-Teil.",
+          },
+          callout: {
+            title: "URL-Einschraenkung",
+            text: "Sie koennen Shopifys /products/ und /collections/ Praefixe nicht entfernen. Konzentrieren Sie sich auf die Optimierung der Handles und nutzen Sie Kollektionen als Kategorieersatz fuer eine bessere URL-Hierarchie.",
+          },
         },
         {
           title: "Template Liquid e controllo SEO on-page",
@@ -231,6 +312,15 @@ export const shopifySeoGuide: AcademyTopic = {
           content:
             "I Core Web Vitals influenzano direttamente i ranking di Google, e i negozi Shopify spesso faticano con il Largest Contentful Paint (LCP) e il Cumulative Layout Shift (CLS). Il collo di bottiglia principale e solitamente il tema stesso, combinato con immagini non ottimizzate e script di app eccessivi. Approfondisci con la nostra guida sulla [ottimizzazione della velocità del sito](/academy/site-speed-optimization).\n\nShopify serve automaticamente le immagini tramite il suo CDN e supporta la conversione al formato WebP. Usa il filtro Liquid image_url con parametri di larghezza per servire immagini dimensionate appropriatamente. Questo impedisce al browser di scaricare immagini prodotto ad alta risoluzione da 4000 pixel su dispositivi mobili.\n\nLa scelta del tema e fondamentale. I temi Online Store 2.0 di Shopify basati sull'architettura di template JSON generalmente performano meglio dei temi legacy basati solo su Liquid. Dawn, il tema di riferimento di Shopify, ottiene buoni punteggi Core Web Vitals nativamente.\n\nIl lazy loading delle immagini sotto la piega, il differimento del JavaScript non critico e la minimizzazione della complessita dei loop Liquid nei template di collezione contribuiscono tutti a tempi di caricamento piu rapidi.",
           tip: "Esegui un audit della velocita del tema Shopify con Lighthouse sia su una pagina di collezione che su una pagina prodotto. Le pagine di collezione con molte schede prodotto ottengono spesso punteggi significativamente peggiori.",
+          image: {
+            src: "/images/academy/it/shopify-speed-stack.svg",
+            alt: "Shopify Geschwindigkeitsoptimierungs-Stack auf Theme-, App- und Content-Ebene",
+            caption: "Die groessten Geschwindigkeitsgewinne bei Shopify kommen von der Theme-Optimierung und dem Entfernen ungenutzter Apps.",
+          },
+          callout: {
+            title: "App-Ballast",
+            text: "Jede installierte Shopify-App fuegt JavaScript und CSS hinzu, auch wenn sie nicht sichtbar ist. Deinstallierte Apps koennen Skript-Reste hinterlassen. Pruefen Sie regelmaessig den Theme-Code auf verwaiste App-Skripte.",
+          },
         },
         {
           title: "Blogging su Shopify e SEO dei contenuti",
@@ -257,6 +347,15 @@ export const shopifySeoGuide: AcademyTopic = {
           content:
             "Shopify dwingt een starre URL-structuur af die /collections/, /products/ en /pages/ prefixen toevoegt aan elke pagina. In tegenstelling tot open-source platforms kun je deze prefixen niet verwijderen of volledig aangepaste URL-patronen aanmaken. Een product-URL ziet er altijd uit als /products/blauw-widget.\n\nDit is relevant voor SEO omdat het /products/-prefix een extra mapniveau toevoegt. Google heeft echter bevestigd dat URL-structuur alleen geen rankingfactor is. De echte zorg is duplicate content: Shopify genereert een secundaire URL voor elk product binnen een collectiecontext, wat de canonieke /products/-pagina dupliceert.\n\nShopify lost dit op door een canonical tag te plaatsen die verwijst naar de /products/-versie. Controleer of deze canonical tags correct werken met de URL-inspectietool van Google Search Console.",
           tip: "Gebruik de Shopify bulk-redirectfunctie om oude product-URL's op te ruimen na het verwijderen of hernoemen van artikelen. Kapotte productlinks die 404-fouten retourneren, ondermijnen de crawl-efficientie.",
+          image: {
+            src: "/images/academy/nl/shopify-url-structure.svg",
+            alt: "Shopify URL-Struktur fuer Produkte, Kollektionen, Seiten und Blog mit festen Praefixen",
+            caption: "Shopifys feste URL-Praefixe (/products/, /collections/) koennen nicht entfernt werden. Optimieren Sie den Handle-Teil.",
+          },
+          callout: {
+            title: "URL-Einschraenkung",
+            text: "Sie koennen Shopifys /products/ und /collections/ Praefixe nicht entfernen. Konzentrieren Sie sich auf die Optimierung der Handles und nutzen Sie Kollektionen als Kategorieersatz fuer eine bessere URL-Hierarchie.",
+          },
         },
         {
           title: "Liquid-templates en on-page SEO-controle",
@@ -279,6 +378,15 @@ export const shopifySeoGuide: AcademyTopic = {
           content:
             "Core Web Vitals beinvloeden direct de Google-rankings, en Shopify-winkels worstelen vaak met Largest Contentful Paint (LCP) en Cumulative Layout Shift (CLS). Het belangrijkste knelpunt is meestal het thema zelf, gecombineerd met niet-geoptimaliseerde afbeeldingen en te veel app-scripts.\n\nShopify serveert afbeeldingen automatisch via zijn CDN en ondersteunt WebP-formaatconversie. Gebruik het image_url Liquid-filter met breedteparameters om passend gedimensioneerde afbeeldingen te serveren. Dit voorkomt dat de browser productafbeeldingen van 4000 pixels downloadt op mobiele apparaten.\n\nDe themakeuze is enorm belangrijk. Shopify's Online Store 2.0-thema's gebouwd op de JSON-template-architectuur presteren over het algemeen beter dan oudere puur Liquid-thema's. Dawn, Shopify's referentiethema, scoort direct goed op Core Web Vitals.\n\nLazy loading van afbeeldingen onder de vouw, het uitstellen van niet-kritiek JavaScript en het minimaliseren van de Liquid-loopcomplexiteit in collectietemplates dragen allemaal bij aan snellere paginalaadtijden.\n\nOns onderwerp over [sitesnelheidsoptimalisatie](/academy/site-speed-optimization) behandelt deze technieken uitgebreid.",
           tip: "Voer een Shopify-themasnelheidsaudit uit met Lighthouse op zowel een collectiepagina als een productpagina. Collectiepagina's met veel productkaarten scoren vaak aanzienlijk slechter.",
+          image: {
+            src: "/images/academy/nl/shopify-speed-stack.svg",
+            alt: "Shopify Geschwindigkeitsoptimierungs-Stack auf Theme-, App- und Content-Ebene",
+            caption: "Die groessten Geschwindigkeitsgewinne bei Shopify kommen von der Theme-Optimierung und dem Entfernen ungenutzter Apps.",
+          },
+          callout: {
+            title: "App-Ballast",
+            text: "Jede installierte Shopify-App fuegt JavaScript und CSS hinzu, auch wenn sie nicht sichtbar ist. Deinstallierte Apps koennen Skript-Reste hinterlassen. Pruefen Sie regelmaessig den Theme-Code auf verwaiste App-Skripte.",
+          },
         },
         {
           title: "Shopify-bloggen en content-SEO",

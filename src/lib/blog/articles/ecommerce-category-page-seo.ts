@@ -3,7 +3,7 @@ import type { BlogArticle } from "../types";
 export const ecommerceCategoryPageSeo: BlogArticle = {
   slug: "ecommerce-category-page-seo",
   category: "on-page",
-  publishDate: "2025-06-22",
+  publishDate: "2026-03-22",
   readingTime: 11,
   author: "Fabian van Til",
   authorRole: "CEO at EcomSEO",
@@ -27,6 +27,7 @@ export const ecommerceCategoryPageSeo: BlogArticle = {
             "We analyzed traffic patterns across 40+ ecommerce clients last year. On average, category pages drove 45% of total organic revenue despite being fewer than 5% of total pages. Product pages drove 30% of organic revenue, and blog content drove roughly 8% (with the rest coming from the homepage and other page types). The math is clear: category pages are the most valuable SEO asset on your store. For a deep dive into optimizing the individual product level, see our guide to [SEO for ecommerce product pages](/blog/seo-for-ecommerce-product-pages).",
             "Despite this, most category pages we audit are SEO disasters. A grid of products with a category name at the top. No description. No FAQ. No buying guidance. Thin internal linking. Google looks at that page and sees a list of products identical to every other store selling the same items. There is nothing to differentiate it, nothing to rank it for, and nothing to convince a searcher to stay. Our [category page SEO academy lesson](/academy/category-page-seo) walks through exactly how to fix this.",
           ],
+          image: { src: "/images/blog/category-page-revenue.svg", alt: "Bar chart showing organic revenue by page type across 40+ ecommerce stores", caption: "Category pages drive 45% of organic revenue despite being fewer than 5% of total pages." },
         },
         {
           heading: "Writing category descriptions that rank and convert",
@@ -37,6 +38,8 @@ export const ecommerceCategoryPageSeo: BlogArticle = {
             "Here is an example of a good opening for a 'women's running shoes' category page: 'Our women's running shoes collection includes 200+ styles from Nike, ASICS, Brooks, and more. Whether you need lightweight racing flats for your next 5K or cushioned trainers for daily runs, we stock shoes for every distance and running style. Free shipping on orders over $75, and free 60-day returns on all footwear.'",
             "Avoid writing descriptions that sound like they were written for search engines. 'Looking for the best women's running shoes? Our women's running shoes are the best women's running shoes for women who run.' Nobody wants to read that. Google does not want to rank it either. Write for humans first. The SEO benefits follow naturally.",
           ],
+          image: { src: "/images/blog/category-description-structure.svg", alt: "Category page layout showing description placement above product grid with four content components and common mistakes to avoid", caption: "Place 100-150 words above the fold with a read-more expansion for the full 300-500 word description." },
+          callout: { title: "Above the Fold", text: "Place your category description above the product grid, not below it. A short intro (100-150 words) above the fold with a 'read more' expansion gives Google content to index while preserving the shopping experience." },
         },
         {
           heading: "H1, title tag, and meta description for category pages",
@@ -57,6 +60,8 @@ export const ecommerceCategoryPageSeo: BlogArticle = {
             "The exception: some filter combinations deserve their own indexable page. If 'Nike women's running shoes' has 5,000 monthly searches, create a dedicated subcategory page for that, not a filter URL. The difference is that a subcategory page has its own unique title, description, and content, while a filter URL is just a filtered version of the parent category.",
             "Audit your current situation by running a Google site search: site:yourstore.com inurl:? followed by common parameter names. If you see thousands of indexed filter URLs, you have work to do. Clean this up before doing anything else, because you are burning crawl budget that should be spent on your actual pages. Our [faceted navigation SEO](/academy/faceted-navigation-seo) academy lesson covers the full solution for filter-heavy stores. Once crawl issues are resolved, adding structured data to your category pages helps Google present richer results — use our [free schema generator tool](/tools/schema-generator) to build the markup.",
           ],
+          image: { src: "/images/blog/faceted-navigation-seo.svg", alt: "Faceted navigation SEO decision tree showing when to index, canonicalize, or block filter combinations", caption: "Only index filter combinations that match real search queries with volume." },
+          callout: { title: "Filter URL Explosion", text: "A category with 8 sizes, 15 brands, and 5 price ranges generates 600 URL combinations. Across 100 categories that is 60,000 filter URLs competing for crawl budget against 3,000 real product pages." },
         },
         {
           heading: "Pagination that does not hurt SEO",
@@ -68,6 +73,8 @@ export const ecommerceCategoryPageSeo: BlogArticle = {
             "Make sure paginated pages are linked in a crawlable way. If your pagination is JavaScript-rendered, test that Googlebot can follow the links. Use standard anchor tags with href attributes, not JavaScript onClick handlers. Include a link to the last page in the pagination component so Google can estimate the total depth.",
             "One underused tactic: add a brief content snippet to paginated pages. Page 2 might say 'Continue browsing our women's running shoes collection. This page features styles from New Balance and Saucony.' This differentiates paginated pages from each other and gives Google a reason to treat each one as unique rather than near-duplicate content.",
           ],
+          image: { src: "/images/blog/category-pagination-strategies.svg", alt: "Three pagination strategies for SEO: view-all for small categories, traditional pagination with self-canonicals for large categories, and common mistakes to avoid", caption: "Self-referencing canonicals on each paginated page -- never canonicalize all pages to page 1." },
+          callout: { title: "Do Not Noindex Paginated Pages", text: "Products on page 3 or 4 need those pages indexed so Google can discover them. Use self-referencing canonicals and unique title tags per page instead of noindex." },
         },
         {
           heading: "Building a subcategory structure that matches search intent",
@@ -89,6 +96,8 @@ export const ecommerceCategoryPageSeo: BlogArticle = {
             "FAQ sections on category pages also create internal linking opportunities. An FAQ answer like 'What size hiking boot should I get? Check our hiking boot sizing guide for detailed measurements and fitting tips' creates a natural link to a supporting content page that then links back to the category. For a broader look at how internal linking fits into your overall SEO structure, see our [ecommerce SEO pillar guide](/blog/ecommerce-seo).",
             "Run a monthly report on internal links to your priority category pages. If a category page that targets a 10,000-volume keyword only has 15 internal links, while a less important page has 50, redistribute. The pages targeting your most valuable keywords should always have the strongest internal link profiles. We use Screaming Frog's inlinks report to audit this, and it consistently reveals imbalances that are easy to fix with measurable ranking improvements.",
           ],
+          image: { src: "/images/blog/category-internal-linking.svg", alt: "Category page internal linking structure showing homepage, parent categories, subcategories, and product connections", caption: "Link in all directions: up via breadcrumbs, across to siblings, down to products." },
+          callout: { title: "Link Equity Flow", text: "Your homepage passes the most authority. Link to top category pages from homepage content, blog posts, and product breadcrumbs. Audit internal link counts monthly and redistribute to high-value pages." },
         },
       ],
     },
@@ -104,6 +113,7 @@ export const ecommerceCategoryPageSeo: BlogArticle = {
             "Analizamos patrones de trafico en mas de 40 clientes de ecommerce el ano pasado. En promedio, las paginas de categoria generaron el 45% del ingreso organico total a pesar de ser menos del 5% del total de paginas. Las paginas de producto generaron el 30% del ingreso organico, y el contenido del blog genero aproximadamente el 8% (con el resto proveniente de la pagina de inicio y otros tipos de paginas). Las matematicas son claras: las paginas de categoria son el activo de SEO mas valioso de tu tienda. Para una inmersion profunda en la optimizacion a nivel de producto individual, consulta nuestra guia de [SEO para paginas de producto en ecommerce](/blog/seo-for-ecommerce-product-pages).",
             "A pesar de esto, la mayoria de las paginas de categoria que auditamos son desastres de SEO. Una cuadricula de productos con un nombre de categoria arriba. Sin descripcion. Sin FAQ. Sin guia de compra. Enlaces internos escasos. Google mira esa pagina y ve una lista de productos identica a la de cualquier otra tienda que vende los mismos articulos. No hay nada para diferenciarla, nada para posicionarla y nada para convencer a un buscador de quedarse."
           ],
+          image: { src: "/images/blog/es/category-page-revenue.svg", alt: "Bar chart showing organic revenue by page type across 40+ ecommerce stores", caption: "Category pages drive 45% of organic revenue despite being fewer than 5% of total pages." },
         },
         {
           heading: "Escribir descripciones de categoria que posicionen y conviertan",
@@ -114,6 +124,8 @@ export const ecommerceCategoryPageSeo: BlogArticle = {
             "Aqui hay un ejemplo de una buena apertura para una pagina de categoria de 'zapatillas de running para mujer': 'Nuestra coleccion de zapatillas de running para mujer incluye mas de 200 estilos de Nike, ASICS, Brooks y mas. Ya sea que necesites zapatillas ligeras de competicion para tu proximo 5K o entrenadores con amortiguacion para carreras diarias, tenemos zapatos para cada distancia y estilo de carrera. Envio gratuito en pedidos superiores a 75 euros y devoluciones gratuitas en todo el calzado durante 60 dias.'",
             "Evita escribir descripciones que suenen como si fueran escritas para motores de busqueda. 'Buscas las mejores zapatillas de running para mujer? Nuestras zapatillas de running para mujer son las mejores zapatillas de running para mujer para mujeres que corren.' Nadie quiere leer eso. Google tampoco quiere posicionarlo. Escribe para humanos primero. Los beneficios de SEO siguen naturalmente."
           ],
+          image: { src: "/images/blog/es/category-description-structure.svg", alt: "Category page layout showing description placement above product grid with four content components and common mistakes to avoid", caption: "Place 100-150 words above the fold with a read-more expansion for the full 300-500 word description." },
+          callout: { title: "Above the Fold", text: "Place your category description above the product grid, not below it. A short intro (100-150 words) above the fold with a 'read more' expansion gives Google content to index while preserving the shopping experience." },
         },
         {
           heading: "H1, etiqueta de titulo y meta descripcion para paginas de categoria",
@@ -134,6 +146,8 @@ export const ecommerceCategoryPageSeo: BlogArticle = {
             "La excepcion: algunas combinaciones de filtros merecen su propia pagina indexable. Si 'Zapatillas Nike de running para mujer' tiene 5,000 busquedas mensuales, crea una pagina de subcategoria dedicada para eso, no una URL de filtro. La diferencia es que una pagina de subcategoria tiene su propio titulo, descripcion y contenido unicos, mientras que una URL de filtro es solo una version filtrada de la categoria padre.",
             "Audita tu situacion actual ejecutando una busqueda de Google por sitio: site:tutienda.com inurl:? seguido de nombres de parametros comunes. Si ves miles de URLs de filtro indexadas, tienes trabajo por hacer. Limpia esto antes de hacer cualquier otra cosa, porque estas quemando presupuesto de rastreo que deberia gastarse en tus paginas reales. Una vez que los problemas de rastreo esten resueltos, agregar datos estructurados a tus paginas de categoria ayuda a Google a presentar resultados mas ricos - usa nuestra [herramienta gratuita de generacion de schema](/tools/schema-generator) para construir el marcado."
           ],
+          image: { src: "/images/blog/es/faceted-navigation-seo.svg", alt: "Faceted navigation SEO decision tree showing when to index, canonicalize, or block filter combinations", caption: "Only index filter combinations that match real search queries with volume." },
+          callout: { title: "Filter URL Explosion", text: "A category with 8 sizes, 15 brands, and 5 price ranges generates 600 URL combinations. Across 100 categories that is 60,000 filter URLs competing for crawl budget against 3,000 real product pages." },
         },
         {
           heading: "Paginacion que no perjudica al SEO",
@@ -145,6 +159,8 @@ export const ecommerceCategoryPageSeo: BlogArticle = {
             "Asegurate de que las paginas paginadas esten enlazadas de forma rastreable. Si tu paginacion se renderiza con JavaScript, verifica que Googlebot pueda seguir los enlaces. Usa etiquetas anchor estandar con atributos href, no manejadores JavaScript onClick. Incluye un enlace a la ultima pagina en el componente de paginacion para que Google pueda estimar la profundidad total.",
             "Una tactica poco utilizada: agrega un breve fragmento de contenido a las paginas paginadas. La pagina 2 podria decir 'Continua navegando nuestra coleccion de zapatillas de running para mujer. Esta pagina presenta estilos de New Balance y Saucony.' Esto diferencia las paginas paginadas entre si y le da a Google una razon para tratar cada una como unica en lugar de contenido casi duplicado."
           ],
+          image: { src: "/images/blog/es/category-pagination-strategies.svg", alt: "Three pagination strategies for SEO: view-all for small categories, traditional pagination with self-canonicals for large categories, and common mistakes to avoid", caption: "Self-referencing canonicals on each paginated page -- never canonicalize all pages to page 1." },
+          callout: { title: "Do Not Noindex Paginated Pages", text: "Products on page 3 or 4 need those pages indexed so Google can discover them. Use self-referencing canonicals and unique title tags per page instead of noindex." },
         },
         {
           heading: "Construir una estructura de subcategorias que coincida con la intencion de busqueda",
@@ -181,6 +197,7 @@ export const ecommerceCategoryPageSeo: BlogArticle = {
             "Wir haben letztes Jahr Traffic-Muster bei ueber 40 E-Commerce-Kunden analysiert. Im Durchschnitt generierten Kategorieseiten 45 % des gesamten organischen Umsatzes, obwohl sie weniger als 5 % aller Seiten ausmachten. Produktseiten generierten 30 % des organischen Umsatzes, und Blog-Content etwa 8 % (der Rest kam von der Startseite und anderen Seitentypen). Die Rechnung ist klar: Kategorieseiten sind das wertvollste SEO-Asset in Ihrem Shop. Einen tiefen Einblick in die Optimierung auf Produktebene finden Sie in unserem Leitfaden zu [SEO fuer E-Commerce-Produktseiten](/blog/seo-for-ecommerce-product-pages).",
             "Trotzdem sind die meisten Kategorieseiten, die wir pruefen, SEO-Katastrophen. Ein Produktraster mit einem Kategorienamen darueber. Keine Beschreibung. Keine FAQ. Keine Kaufberatung. Schwache interne Verlinkung. Google sieht diese Seite und erkennt eine Produktliste, die identisch mit jedem anderen Shop ist, der dieselben Artikel verkauft. Es gibt nichts, was sie unterscheidet, nichts, wofuer sie ranken koennte, und nichts, was einen Suchenden zum Bleiben bewegen koennte."
           ],
+          image: { src: "/images/blog/de/category-page-revenue.svg", alt: "Bar chart showing organic revenue by page type across 40+ ecommerce stores", caption: "Category pages drive 45% of organic revenue despite being fewer than 5% of total pages." },
         },
         {
           heading: "Kategoriebeschreibungen schreiben, die ranken und konvertieren",
@@ -191,6 +208,8 @@ export const ecommerceCategoryPageSeo: BlogArticle = {
             "Hier ein Beispiel fuer eine gute Einleitung einer 'Damen Laufschuhe'-Kategorieseite: 'Unsere Damen-Laufschuh-Kollektion umfasst ueber 200 Modelle von Nike, ASICS, Brooks und mehr. Ob Sie leichte Wettkampfschuhe fuer Ihren naechsten 5-km-Lauf oder gedaempfte Trainingsschuhe fuer den Alltag suchen, wir haben Schuhe fuer jede Distanz und jeden Laufstil. Kostenloser Versand ab 75 Euro und kostenlose 60-Tage-Rueckgabe fuer alle Schuhe.'",
             "Vermeiden Sie Beschreibungen, die klingen, als waeren sie fuer Suchmaschinen geschrieben. 'Suchen Sie die besten Damen Laufschuhe? Unsere Damen Laufschuhe sind die besten Damen Laufschuhe fuer Frauen, die laufen.' Niemand will das lesen. Google will es auch nicht ranken. Schreiben Sie zuerst fuer Menschen. Die SEO-Vorteile folgen natuerlich."
           ],
+          image: { src: "/images/blog/de/category-description-structure.svg", alt: "Category page layout showing description placement above product grid with four content components and common mistakes to avoid", caption: "Place 100-150 words above the fold with a read-more expansion for the full 300-500 word description." },
+          callout: { title: "Above the Fold", text: "Place your category description above the product grid, not below it. A short intro (100-150 words) above the fold with a 'read more' expansion gives Google content to index while preserving the shopping experience." },
         },
         {
           heading: "H1, Title-Tag und Meta-Beschreibung fuer Kategorieseiten",
@@ -211,6 +230,8 @@ export const ecommerceCategoryPageSeo: BlogArticle = {
             "Die Ausnahme: Manche Filterkombinationen verdienen eine eigene indexierbare Seite. Wenn 'Nike Damen Laufschuhe' 5.000 monatliche Suchanfragen hat, erstellen Sie dafuer eine eigene Unterkategorieseite, keine Filter-URL. Der Unterschied ist, dass eine Unterkategorieseite ihren eigenen einzigartigen Titel, Beschreibung und Content hat, waehrend eine Filter-URL nur eine gefilterte Version der uebergeordneten Kategorie ist.",
             "Pruefen Sie Ihre aktuelle Situation, indem Sie eine Google-Site-Suche durchfuehren: site:ihrshop.de inurl:? gefolgt von gaengigen Parameternamen. Wenn Sie Tausende indexierter Filter-URLs sehen, haben Sie Arbeit vor sich. Bereinigen Sie dies, bevor Sie etwas anderes tun, denn Sie verbrennen Crawl-Budget, das fuer Ihre tatsaechlichen Seiten ausgegeben werden sollte. Sobald Crawl-Probleme behoben sind, helfen strukturierte Daten auf Ihren Kategorieseiten Google, reichhaltigere Ergebnisse darzustellen — nutzen Sie unser [kostenloses Schema-Generator-Tool](/tools/schema-generator) fuer das Markup."
           ],
+          image: { src: "/images/blog/de/faceted-navigation-seo.svg", alt: "Faceted navigation SEO decision tree showing when to index, canonicalize, or block filter combinations", caption: "Only index filter combinations that match real search queries with volume." },
+          callout: { title: "Filter URL Explosion", text: "A category with 8 sizes, 15 brands, and 5 price ranges generates 600 URL combinations. Across 100 categories that is 60,000 filter URLs competing for crawl budget against 3,000 real product pages." },
         },
         {
           heading: "Paginierung, die SEO nicht schadet",
@@ -222,6 +243,8 @@ export const ecommerceCategoryPageSeo: BlogArticle = {
             "Stellen Sie sicher, dass paginierte Seiten crawlbar verlinkt sind. Wenn Ihre Paginierung JavaScript-gerendert ist, testen Sie, ob Googlebot den Links folgen kann. Verwenden Sie Standard-Anchor-Tags mit href-Attributen, keine JavaScript-onClick-Handler. Fuegen Sie einen Link zur letzten Seite in der Paginierungskomponente ein, damit Google die Gesamttiefe abschaetzen kann.",
             "Eine unterschaetzte Taktik: Fuegen Sie paginierten Seiten einen kurzen Content-Ausschnitt hinzu. Seite 2 koennte sagen: 'Entdecken Sie weitere Damen Laufschuhe. Diese Seite zeigt Modelle von New Balance und Saucony.' Dies differenziert paginierte Seiten voneinander und gibt Google einen Grund, jede als einzigartig zu behandeln statt als nahezu identischen Content."
           ],
+          image: { src: "/images/blog/de/category-pagination-strategies.svg", alt: "Three pagination strategies for SEO: view-all for small categories, traditional pagination with self-canonicals for large categories, and common mistakes to avoid", caption: "Self-referencing canonicals on each paginated page -- never canonicalize all pages to page 1." },
+          callout: { title: "Do Not Noindex Paginated Pages", text: "Products on page 3 or 4 need those pages indexed so Google can discover them. Use self-referencing canonicals and unique title tags per page instead of noindex." },
         },
         {
           heading: "Eine Unterkategorie-Struktur aufbauen, die zur Suchintention passt",
@@ -258,6 +281,7 @@ export const ecommerceCategoryPageSeo: BlogArticle = {
             "Nous avons analysé les tendances de trafic de plus de 40 clients ecommerce l'année dernière. En moyenne, les pages catégories ont généré 45 % du chiffre d'affaires organique total tout en représentant moins de 5 % du nombre total de pages. Les pages produits ont généré 30 % du chiffre d'affaires organique, et le contenu du blog environ 8 % (le reste provenant de la page d'accueil et d'autres types de pages). Le calcul est clair : les pages catégories sont l'atout SEO le plus précieux de votre boutique. Pour une analyse approfondie de l'optimisation au niveau produit individuel, consultez notre guide sur le [SEO des pages produits ecommerce](/blog/seo-for-ecommerce-product-pages).",
             "Malgré cela, la plupart des pages catégories que nous auditons sont des désastres SEO. Une grille de produits avec un nom de catégorie en haut. Aucune description. Aucune FAQ. Aucun guide d'achat. Un maillage interne insuffisant. Google regarde cette page et voit une liste de produits identique à celle de toutes les autres boutiques vendant les mêmes articles. Il n'y a rien pour la différencier, rien pour la classer, et rien pour convaincre un internaute de rester. Notre [leçon sur le SEO des pages catégories](/academy/category-page-seo) explique exactement comment corriger cela."
           ],
+          image: { src: "/images/blog/fr/category-page-revenue.svg", alt: "Bar chart showing organic revenue by page type across 40+ ecommerce stores", caption: "Category pages drive 45% of organic revenue despite being fewer than 5% of total pages." },
         },
         {
           heading: "Rédiger des descriptions de catégories qui se classent et convertissent",
@@ -268,6 +292,8 @@ export const ecommerceCategoryPageSeo: BlogArticle = {
             "Voici un exemple d'une bonne introduction pour une page catégorie « chaussures de running femme » : « Notre collection de chaussures de running femme comprend plus de 200 modèles de Nike, ASICS, Brooks et plus encore. Que vous ayez besoin de chaussures de course légères pour votre prochain 5 km ou de chaussures d'entraînement amorties pour vos courses quotidiennes, nous proposons des chaussures pour chaque distance et chaque style de course. Livraison gratuite dès 75 € d'achat et retours gratuits pendant 60 jours sur toutes les chaussures. »",
             "Évitez de rédiger des descriptions qui semblent écrites pour les moteurs de recherche. « Vous cherchez les meilleures chaussures de running femme ? Nos chaussures de running femme sont les meilleures chaussures de running femme pour les femmes qui courent. » Personne ne veut lire cela. Google ne veut pas non plus le classer. Écrivez d'abord pour les humains. Les bénéfices SEO suivent naturellement."
           ],
+          image: { src: "/images/blog/fr/category-description-structure.svg", alt: "Category page layout showing description placement above product grid with four content components and common mistakes to avoid", caption: "Place 100-150 words above the fold with a read-more expansion for the full 300-500 word description." },
+          callout: { title: "Above the Fold", text: "Place your category description above the product grid, not below it. A short intro (100-150 words) above the fold with a 'read more' expansion gives Google content to index while preserving the shopping experience." },
         },
         {
           heading: "H1, balise title et meta description pour les pages catégories",
@@ -288,6 +314,8 @@ export const ecommerceCategoryPageSeo: BlogArticle = {
             "L'exception : certaines combinaisons de filtres méritent leur propre page indexable. Si « chaussures de running Nike femme » a 5 000 recherches mensuelles, créez une page de sous-catégorie dédiée pour cela, pas une URL de filtre. La différence est qu'une page de sous-catégorie a son propre titre, sa propre description et son propre contenu uniques, tandis qu'une URL de filtre n'est qu'une version filtrée de la catégorie parente.",
             "Auditez votre situation actuelle en effectuant une recherche Google site: site:votreboutique.com inurl:? suivie des noms de paramètres courants. Si vous voyez des milliers d'URL de filtres indexées, vous avez du travail à faire. Nettoyez cela avant de faire quoi que ce soit d'autre, car vous brûlez du budget de crawl qui devrait être consacré à vos pages réelles. Notre leçon sur le [SEO de la navigation à facettes](/academy/faceted-navigation-seo) couvre la solution complète pour les boutiques riches en filtres. Une fois les problèmes de crawl résolus, l'ajout de données structurées à vos pages catégories aide Google à présenter des résultats plus riches — utilisez notre [générateur de schema gratuit](/tools/schema-generator) pour créer le balisage."
           ],
+          image: { src: "/images/blog/fr/faceted-navigation-seo.svg", alt: "Faceted navigation SEO decision tree showing when to index, canonicalize, or block filter combinations", caption: "Only index filter combinations that match real search queries with volume." },
+          callout: { title: "Filter URL Explosion", text: "A category with 8 sizes, 15 brands, and 5 price ranges generates 600 URL combinations. Across 100 categories that is 60,000 filter URLs competing for crawl budget against 3,000 real product pages." },
         },
         {
           heading: "Une pagination qui ne nuit pas au SEO",
@@ -299,6 +327,8 @@ export const ecommerceCategoryPageSeo: BlogArticle = {
             "Assurez-vous que les pages paginées sont liées de manière crawlable. Si votre pagination est rendue en JavaScript, testez que Googlebot peut suivre les liens. Utilisez des balises d'ancrage standards avec des attributs href, pas des gestionnaires JavaScript onClick. Incluez un lien vers la dernière page dans le composant de pagination pour que Google puisse estimer la profondeur totale.",
             "Une tactique sous-utilisée : ajoutez un court extrait de contenu aux pages paginées. La page 2 pourrait dire « Continuez à parcourir notre collection de chaussures de running femme. Cette page présente des modèles de New Balance et Saucony. » Cela différencie les pages paginées les unes des autres et donne à Google une raison de traiter chacune comme unique plutôt que comme du contenu quasi-dupliqué."
           ],
+          image: { src: "/images/blog/fr/category-pagination-strategies.svg", alt: "Three pagination strategies for SEO: view-all for small categories, traditional pagination with self-canonicals for large categories, and common mistakes to avoid", caption: "Self-referencing canonicals on each paginated page -- never canonicalize all pages to page 1." },
+          callout: { title: "Do Not Noindex Paginated Pages", text: "Products on page 3 or 4 need those pages indexed so Google can discover them. Use self-referencing canonicals and unique title tags per page instead of noindex." },
         },
         {
           heading: "Construire une structure de sous-catégories correspondant à l'intention de recherche",
@@ -335,6 +365,7 @@ export const ecommerceCategoryPageSeo: BlogArticle = {
             "Eppure la maggior parte dei negozi online tratta le pagine di categoria come semplici griglie di prodotti. Nessun contenuto testuale unico. Nessuna strategia di link interni. Nessun FAQ. Solo miniature dei prodotti con filtri. Google vede queste pagine come pagine sottili perché non c'è nulla da valutare a parte titoli e prezzi dei prodotti. I tuoi concorrenti che aggiungono anche solo 200 parole di testo descrittivo alle loro pagine di categoria ti superano perché danno a Google qualcosa con cui lavorare.",
             "Questa guida copre tutto ciò che facciamo per ottimizzare le pagine di categoria ecommerce per i nostri clienti. I principi si applicano a Shopify, Magento, WooCommerce e qualsiasi altra piattaforma. Se sei un tipo pratico, la lezione dell'academy [SEO per pagine di categoria](/academy/category-page-seo) ti guida passo dopo passo nell'implementazione."
           ],
+          image: { src: "/images/blog/it/category-page-revenue.svg", alt: "Bar chart showing organic revenue by page type across 40+ ecommerce stores", caption: "Category pages drive 45% of organic revenue despite being fewer than 5% of total pages." },
         },
         {
           heading: "Scrivere descrizioni per le pagine di categoria che si posizionano e convertono",
@@ -345,6 +376,8 @@ export const ecommerceCategoryPageSeo: BlogArticle = {
             "Abbiamo aggiunto descrizioni di categoria a 12 pagine di categoria principali per un negozio di attrezzatura sportiva. Nove di quelle 12 pagine sono salite nelle classifiche entro sei settimane. La pagina con le migliori prestazioni è passata dalla posizione 14 alla posizione 5 per la sua parola chiave principale, che aveva 8.200 ricerche mensili. Tutto ciò senza costruire un singolo backlink. Solo aggiungendo contenuto rilevante.",
             "Per i negozi con centinaia di categorie, dai la priorità a quelle con il più alto volume di ricerca e intento commerciale. Non è necessario scrivere 500 parole per ogni sottocategoria. Le 20-30 pagine di categoria principali per volume di ricerca meritano descrizioni complete. Il resto può iniziare con 100-150 parole e essere ampliato nel tempo."
           ],
+          image: { src: "/images/blog/it/category-description-structure.svg", alt: "Category page layout showing description placement above product grid with four content components and common mistakes to avoid", caption: "Place 100-150 words above the fold with a read-more expansion for the full 300-500 word description." },
+          callout: { title: "Above the Fold", text: "Place your category description above the product grid, not below it. A short intro (100-150 words) above the fold with a 'read more' expansion gives Google content to index while preserving the shopping experience." },
         },
         {
           heading: "H1, title tag e meta description per le pagine di categoria",
@@ -352,7 +385,7 @@ export const ecommerceCategoryPageSeo: BlogArticle = {
             "Il title tag della tua pagina di categoria è l'elemento on-page più forte per il posizionamento. Dovrebbe includere la parola chiave principale ed essere inferiore a 60 caratteri. Un title tag come 'Scarpe da Corsa Donna | Spedizione Gratuita | NomeNegozio' è chiaro, ricco di parole chiave e include una proposta di valore. 'Prodotti - NomeNegozio' è inutile.",
             "L'H1 dovrebbe corrispondere alla parola chiave principale. Sulla pagina della categoria 'scarpe da corsa donna', l'H1 dovrebbe essere 'Scarpe da Corsa Donna' o una variante ravvicinata. Non il nome del tuo negozio. Non uno slogan creativo. La parola chiave esatta o una sua variazione molto simile. Troviamo regolarmente negozi ecommerce dove l'H1 è il nome del negozio su ogni pagina, oppure l'H1 manca del tutto perché il nome della categoria è stilizzato con CSS piuttosto che con un tag heading appropriato.",
             "Le meta description per le pagine di categoria dovrebbero funzionare come testo pubblicitario. Includi la parola chiave principale, il numero di prodotti o marchi disponibili, e una ragione per cliccare. 'Scopri oltre 200 scarpe da corsa donna di Nike, ASICS e Brooks. Spedizione gratuita sopra 75€. Nuovi arrivi ogni settimana.' Questo dice al cercatore che troverà varietà, marchi riconosciuti e un buon affare. Mantieni le descrizioni sotto i 155 caratteri.",
-            "Verifica il tuo sito con il nostro [analizzatore di meta tag](/tools/meta-tag-analyzer) per individuare rapidamente i problemi su tutte le tue pagine di categoria."
+            "Verifica il tuo sito con il nostro [analizzatore di meta tag](/tools/meta-tags-checker) per individuare rapidamente i problemi su tutte le tue pagine di categoria."
           ],
         },
         {
@@ -364,6 +397,8 @@ export const ecommerceCategoryPageSeo: BlogArticle = {
             "Abbiamo verificato un negozio di moda dove la navigazione a faccette aveva creato 340.000 URL indicizzabili per un catalogo di 4.200 prodotti. Dopo aver implementato noindex sui filtri e consolidato gli URL delle varianti con tag canonical, il conteggio dell'indice è sceso a 12.000. Il traffico organico è aumentato del 28% in sei settimane perché Google stava finalmente scansionando e indicizzando le pagine che contavano.",
             "Usa il nostro [verificatore di indicizzabilità](/tools/indexability-checker) per controllare quanti dei tuoi URL filtrati sono attualmente nell'indice di Google."
           ],
+          image: { src: "/images/blog/it/faceted-navigation-seo.svg", alt: "Faceted navigation SEO decision tree showing when to index, canonicalize, or block filter combinations", caption: "Only index filter combinations that match real search queries with volume." },
+          callout: { title: "Filter URL Explosion", text: "A category with 8 sizes, 15 brands, and 5 price ranges generates 600 URL combinations. Across 100 categories that is 60,000 filter URLs competing for crawl budget against 3,000 real product pages." },
         },
         {
           heading: "Paginazione che non danneggia la SEO",
@@ -374,6 +409,8 @@ export const ecommerceCategoryPageSeo: BlogArticle = {
             "Non usare noindex sulle pagine paginate. Questo è un errore comune. Se la pagina 3 della tua categoria ha noindex, Google non scansionerà i prodotti su quella pagina. I prodotti orfani che esistono solo sulle pagine paginate con noindex diventano effettivamente invisibili alla ricerca.",
             "Lo scroll infinito funziona per l'esperienza utente ma ha bisogno di un fallback scansionabile. Se la tua pagina di categoria carica più prodotti mentre l'utente scorre, Googlebot potrebbe non attivare lo scroll. Implementa URL di paginazione HTML (?page=2, ?page=3) come fallback che Googlebot può seguire per scoprire tutti i prodotti."
           ],
+          image: { src: "/images/blog/it/category-pagination-strategies.svg", alt: "Three pagination strategies for SEO: view-all for small categories, traditional pagination with self-canonicals for large categories, and common mistakes to avoid", caption: "Self-referencing canonicals on each paginated page -- never canonicalize all pages to page 1." },
+          callout: { title: "Do Not Noindex Paginated Pages", text: "Products on page 3 or 4 need those pages indexed so Google can discover them. Use self-referencing canonicals and unique title tags per page instead of noindex." },
         },
         {
           heading: "Costruire una struttura di sottocategorie che corrisponda all'intento di ricerca",
@@ -408,6 +445,7 @@ export const ecommerceCategoryPageSeo: BlogArticle = {
             "Toch behandelen de meeste webwinkels categoriepagina's als simpele productrasters. Geen unieke tekstuele content. Geen interne linkstrategie. Geen FAQ. Alleen productminiaturen met filters. Google ziet deze pagina's als dunne pagina's omdat er niets te evalueren valt behalve producttitels en prijzen. Je concurrenten die zelfs maar 200 woorden beschrijvende tekst toevoegen aan hun categoriepagina's overtreffen je omdat ze Google iets geven om mee te werken.",
             "Deze gids behandelt alles wat we doen om ecommerce categoriepagina's te optimaliseren voor onze klanten. De principes gelden voor Shopify, Magento, WooCommerce en elk ander platform. Als je een praktisch type bent, begeleidt de [SEO voor categoriepagina's](/academy/category-page-seo) academie-les je stap voor stap door de implementatie."
           ],
+          image: { src: "/images/blog/nl/category-page-revenue.svg", alt: "Bar chart showing organic revenue by page type across 40+ ecommerce stores", caption: "Category pages drive 45% of organic revenue despite being fewer than 5% of total pages." },
         },
         {
           heading: "Categoriebeschrijvingen schrijven die ranken en converteren",
@@ -418,6 +456,8 @@ export const ecommerceCategoryPageSeo: BlogArticle = {
             "We voegden categoriebeschrijvingen toe aan 12 hoofdcategoriepagina's voor een sportuitrustingswinkel. Negen van die 12 pagina's stegen in rankings binnen zes weken. De best presterende pagina ging van positie 14 naar positie 5 voor zijn hoofdzoekwoord, dat 8.200 maandelijkse zoekopdrachten had. Dit alles zonder een enkele backlink te bouwen. Alleen door relevante content toe te voegen.",
             "Voor winkels met honderden categorieen, geef prioriteit aan die met het hoogste zoekvolume en commerciele intentie. Je hoeft geen 500 woorden te schrijven voor elke subcategorie. De top 20-30 categoriepagina's qua zoekvolume verdienen volledige beschrijvingen. De rest kan beginnen met 100-150 woorden en later worden uitgebreid."
           ],
+          image: { src: "/images/blog/nl/category-description-structure.svg", alt: "Category page layout showing description placement above product grid with four content components and common mistakes to avoid", caption: "Place 100-150 words above the fold with a read-more expansion for the full 300-500 word description." },
+          callout: { title: "Above the Fold", text: "Place your category description above the product grid, not below it. A short intro (100-150 words) above the fold with a 'read more' expansion gives Google content to index while preserving the shopping experience." },
         },
         {
           heading: "H1, title tag en meta description voor categoriepagina's",
@@ -425,7 +465,7 @@ export const ecommerceCategoryPageSeo: BlogArticle = {
             "De title tag van je categoriepagina is het sterkste on-page element voor ranking. Het moet het hoofdzoekwoord bevatten en korter zijn dan 60 tekens. Een title tag als 'Dames Hardloopschoenen | Gratis Verzending | Winkelnaam' is duidelijk, zoekwoordrijk en bevat een waardepropositie. 'Producten - Winkelnaam' is nutteloos.",
             "De H1 moet overeenkomen met het hoofdzoekwoord. Op de categoriepagina 'dames hardloopschoenen' moet de H1 'Dames Hardloopschoenen' zijn of een nauwe variant. Niet je winkelnaam. Niet een creatieve slogan. Het exacte zoekwoord of een zeer nauwe variatie ervan. We vinden regelmatig ecommerce winkels waar de H1 op elke pagina de winkelnaam is, of waar de H1 helemaal ontbreekt omdat de categorienaam gestyled is met CSS in plaats van een juiste heading tag.",
             "Meta descriptions voor categoriepagina's moeten werken als advertentietekst. Neem het hoofdzoekwoord op, het aantal beschikbare producten of merken, en een reden om te klikken. 'Ontdek meer dan 200 dames hardloopschoenen van Nike, ASICS en Brooks. Gratis verzending vanaf 75 euro. Elke week nieuwe arrivals.' Dit vertelt de zoeker dat ze variatie, herkenbare merken en een goede deal zullen vinden. Houd beschrijvingen onder de 155 tekens.",
-            "Controleer je site met onze [meta tag analyzer](/tools/meta-tag-analyzer) om snel problemen op al je categoriepagina's op te sporen."
+            "Controleer je site met onze [meta tag analyzer](/tools/meta-tags-checker) om snel problemen op al je categoriepagina's op te sporen."
           ],
         },
         {
@@ -437,6 +477,8 @@ export const ecommerceCategoryPageSeo: BlogArticle = {
             "We controleerden een modewinkel waar facetnavigatie 340.000 indexeerbare URL's had gecreeerd voor een catalogus van 4.200 producten. Na het implementeren van noindex op filters en het consolideren van variant-URL's met canonical tags, daalde het indexaantal naar 12.000. Het organisch verkeer steeg met 28% in zes weken omdat Google eindelijk de pagina's aan het crawlen en indexeren was die ertoe deden.",
             "Gebruik onze [indexeerbaarheidschecker](/tools/indexability-checker) om te controleren hoeveel van je gefilterde URL's momenteel in de index van Google staan."
           ],
+          image: { src: "/images/blog/nl/faceted-navigation-seo.svg", alt: "Faceted navigation SEO decision tree showing when to index, canonicalize, or block filter combinations", caption: "Only index filter combinations that match real search queries with volume." },
+          callout: { title: "Filter URL Explosion", text: "A category with 8 sizes, 15 brands, and 5 price ranges generates 600 URL combinations. Across 100 categories that is 60,000 filter URLs competing for crawl budget against 3,000 real product pages." },
         },
         {
           heading: "Paginering die SEO niet schaadt",
@@ -447,6 +489,8 @@ export const ecommerceCategoryPageSeo: BlogArticle = {
             "Gebruik geen noindex op gepagineerde pagina's. Dit is een veelgemaakte fout. Als pagina 3 van je categorie noindex heeft, zal Google de producten op die pagina niet crawlen. Verweesde producten die alleen bestaan op gepagineerde pagina's met noindex worden effectief onzichtbaar voor zoekmachines.",
             "Oneindig scrollen werkt voor de gebruikerservaring maar heeft een crawlbaar alternatief nodig. Als je categoriepagina meer producten laadt terwijl de gebruiker scrollt, activeert Googlebot mogelijk het scrollen niet. Implementeer HTML paginerings-URL's (?page=2, ?page=3) als alternatief dat Googlebot kan volgen om alle producten te ontdekken."
           ],
+          image: { src: "/images/blog/nl/category-pagination-strategies.svg", alt: "Three pagination strategies for SEO: view-all for small categories, traditional pagination with self-canonicals for large categories, and common mistakes to avoid", caption: "Self-referencing canonicals on each paginated page -- never canonicalize all pages to page 1." },
+          callout: { title: "Do Not Noindex Paginated Pages", text: "Products on page 3 or 4 need those pages indexed so Google can discover them. Use self-referencing canonicals and unique title tags per page instead of noindex." },
         },
         {
           heading: "Een subcategoriestructuur bouwen die overeenkomt met zoekintentie",

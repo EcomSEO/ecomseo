@@ -3,7 +3,7 @@ import type { BlogArticle } from "../types";
 export const ecommerceSeopricing: BlogArticle = {
   slug: "ecommerce-seo-pricing",
   category: "services",
-  publishDate: "2025-07-18",
+  publishDate: "2026-03-09",
   readingTime: 10,
   author: "Fabian van Til",
   authorRole: "CEO at EcomSEO",
@@ -34,6 +34,7 @@ export const ecommerceSeopricing: BlogArticle = {
             "Project-based pricing works for specific initiatives. A technical SEO audit might cost $3,000 to $8,000. A full site migration could run $10,000 to $30,000 depending on complexity. Category page overhauls, content strategy buildouts, and link-building campaigns also fit this model. You get a defined deliverable with a clear start and end date. This works well when you have an in-house team that can execute but needs expert direction.",
             "Performance-based pricing ties fees to results. Sounds appealing, but it comes with serious caveats. Agencies using this model often cherry-pick easy wins, avoid risky-but-valuable work, or define success metrics that flatter their efforts. We have seen performance contracts where the agency took credit for branded traffic increases that had nothing to do with their work. If you go this route, make sure the metrics are specific, verifiable, and tied to non-branded organic revenue.",
           ],
+          image: { src: "/images/blog/seo-pricing-models.svg", alt: "Comparison of three SEO pricing models: monthly retainer, project-based, and performance-based", caption: "The three main SEO pricing models and when each works best" },
         },
         {
           heading: "What affects your ecommerce SEO cost",
@@ -43,6 +44,8 @@ export const ecommerceSeopricing: BlogArticle = {
             "Your store's current technical health plays a role too. A site with clean architecture, proper canonicalization, and fast load times needs less remediation work upfront. A site with thousands of duplicate pages, broken internal links, and a 6-second load time needs significant foundational work before any growth strategy makes sense. That initial cleanup can add $5,000 to $15,000 to the first few months.",
             "Platform complexity also affects pricing. Shopify stores are generally simpler to work with than Magento 2 or custom-built platforms. On Shopify, implementing structured data or fixing URL structures follows well-documented patterns. On a custom platform, every change might require development time at $150-200/hour. We have worked on projects where 40% of the budget went to implementation rather than strategy, purely because of platform limitations.",
           ],
+          image: { src: "/images/blog/seo-price-factors.svg", alt: "Six factors that drive ecommerce SEO pricing: store size, competition, technical debt, content needs, link building, and target markets", caption: "Key factors that determine your ecommerce SEO investment" },
+          callout: { title: "Platform Cost Gap", text: "Shopify SEO implementations follow well-documented patterns. Custom platforms can consume 40% of the total SEO budget on dev work alone, at $150-200/hour for implementation." },
         },
         {
           heading: "Typical price ranges and what you get",
@@ -61,6 +64,7 @@ export const ecommerceSeopricing: BlogArticle = {
             "Ask agencies for specific deliverables, not vague promises. \"We will optimize your site\" tells you nothing. \"We will audit and fix technical issues across your 2,000 product pages, create 6 buying guides targeting commercial keywords, and build 15 high-authority backlinks per month\" gives you something to measure against. If an agency cannot be specific about what they will do, they probably do not have a clear plan. It is also worth consulting an [ecommerce SEO consultant](/blog/ecommerce-seo-consultant) for an independent perspective before signing.",
             "Look at case studies with actual numbers. Revenue increases, traffic growth percentages, and specific ranking improvements tell you what an agency has done for similar stores. Testimonials without data are marketing fluff. We publish our client results with real metrics because we think the work should speak for itself. You can also research the landscape of [ecommerce SEO agencies](/blog/ecommerce-seo-agencies) to benchmark what good looks like.",
           ],
+          image: { src: "/images/blog/seo-value-vs-cost.svg", alt: "Side-by-side comparison of cheap SEO costing over 100K versus quality SEO delivering 20x ROI", caption: "Cheap SEO often costs more in the long run -- calculate true ROI before choosing a provider" },
         },
         {
           heading: "Red flags in ecommerce SEO proposals",
@@ -70,6 +74,7 @@ export const ecommerceSeopricing: BlogArticle = {
             "Cookie-cutter packages with no customization suggest the agency treats all stores the same. Your store has specific technical issues, unique competitive dynamics, and particular content opportunities. An agency that offers the same Bronze/Silver/Gold packages to every prospect is not doing the analysis required to build a real strategy.",
             "Watch for proposals that focus heavily on vanity metrics. Rankings for informational keywords, total number of backlinks, or domain authority increases sound impressive in reports but may not move revenue. The best proposals tie activities directly to business outcomes: organic revenue growth, conversion rate improvements on organic traffic, and market share in your category.",
           ],
+          image: { src: "/images/blog/seo-proposal-red-flags.svg", alt: "Red flags versus green flags comparison chart for evaluating ecommerce SEO proposals", caption: "Use these signals to quickly separate credible agencies from those cutting corners" },
         },
         {
           heading: "When cheap SEO ends up costing more",
@@ -79,6 +84,8 @@ export const ecommerceSeopricing: BlogArticle = {
             "One retailer we work with spent 14 months with a budget agency before coming to us. In that time, their organic revenue actually declined by 22%. When we audited the work, we found duplicate title tags across 800+ pages, keyword-stuffed product descriptions that hurt conversion rates, and a disavow file that had accidentally blocked legitimate referring domains. The total cost of the cheap agency plus our remediation work exceeded what 14 months of proper SEO would have cost from the start.",
             "This is not an argument for always choosing the most expensive option. It is an argument for choosing agencies that can explain their methodology, show relevant experience, and provide clear deliverables. Sometimes a $3,000/month agency does better work than a $10,000/month one. Price alone does not determine quality. But suspiciously low prices almost always indicate corners being cut.",
           ],
+          image: { src: "/images/blog/cheap-seo-hidden-costs.svg", alt: "Hidden costs timeline showing cheap SEO leading to penalty, cleanup costs, and over 100K total damage", caption: "The total cost of cheap SEO often exceeds $100K when you include cleanup and lost revenue" },
+          callout: { title: "Cheap Gets Expensive", text: "One retailer spent 14 months with a budget agency and saw organic revenue decline 22%. The total cost of the cheap agency plus remediation exceeded what proper SEO would have cost from the start." },
         },
         {
           heading: "How to structure your SEO budget over time",
@@ -94,7 +101,7 @@ export const ecommerceSeopricing: BlogArticle = {
           body: [
             "The stores that get the best ROI from SEO spending are the ones that treat their agency as a partner, not a vendor. Share your sales data, upcoming promotions, and product launch schedules. The more context your SEO team has, the better they can align their work with your business goals.",
             "Hold your agency accountable to specific metrics. Organic revenue (non-branded), organic conversion rate, and keyword visibility in your target categories are the metrics that matter. Review these monthly. If the trend is not moving in the right direction after 6 months, have an honest conversation about what needs to change.",
-            "Make sure you have the internal resources to implement recommendations. The most expensive and frustrating scenario is paying an agency for strategy that never gets executed because your dev team has a 3-month backlog. If implementation capacity is limited, factor that into your agency selection. Pick a partner who can handle execution, not just strategy. It will cost more upfront but will actually produce results. A good starting point is booking a [professional SEO audit](/seo-audit) to identify exactly where your budget should go first.",
+            "Make sure you have the internal resources to implement recommendations. The most expensive and frustrating scenario is paying an agency for strategy that never gets executed because your dev team has a 3-month backlog. If implementation capacity is limited, factor that into your agency selection. Pick a partner who can handle execution, not just strategy. It will cost more upfront but will actually produce results. A good starting point is booking a [professional SEO audit](/tools/ecommerce-seo-audit) to identify exactly where your budget should go first.",
           ],
         },
       ],
@@ -118,6 +125,7 @@ export const ecommerceSeopricing: BlogArticle = {
             "Los precios por proyecto funcionan para iniciativas específicas. Una auditoría de SEO técnico podría costar de 3.000 a 8.000 dólares. Una migración completa del sitio podría costar de 10.000 a 30.000 dólares dependiendo de la complejidad. Las renovaciones de páginas de categorías, la construcción de estrategias de contenido y las campañas de link building también encajan en este modelo. Obtienes un entregable definido con una fecha clara de inicio y fin. Esto funciona bien cuando tienes un equipo interno que puede ejecutar pero necesita dirección experta.",
             "Los precios basados en rendimiento vinculan las tarifas a los resultados. Suena atractivo, pero viene con serias salvedades. Las agencias que usan este modelo a menudo seleccionan victorias fáciles, evitan trabajo arriesgado pero valioso, o definen métricas de éxito que favorecen sus esfuerzos. Hemos visto contratos de rendimiento donde la agencia se atribuyó el mérito de aumentos de tráfico de marca que no tenían nada que ver con su trabajo. Si optas por esta vía, asegúrate de que las métricas sean específicas, verificables y vinculadas a ingresos orgánicos no de marca."
           ],
+          image: { src: "/images/blog/es/seo-pricing-models.svg", alt: "Comparison of three SEO pricing models: monthly retainer, project-based, and performance-based", caption: "The three main SEO pricing models and when each works best" },
         },
         {
           heading: "Qué afecta el coste de tu SEO para ecommerce",
@@ -127,6 +135,8 @@ export const ecommerceSeopricing: BlogArticle = {
             "La salud técnica actual de tu tienda también juega un papel. Un sitio con arquitectura limpia, canonicalización adecuada y tiempos de carga rápidos necesita menos trabajo de remediación inicial. Un sitio con miles de páginas duplicadas, enlaces internos rotos y un tiempo de carga de 6 segundos necesita un trabajo fundamental significativo antes de que cualquier estrategia de crecimiento tenga sentido. Esa limpieza inicial puede agregar de 5.000 a 15.000 dólares a los primeros meses.",
             "La complejidad de la plataforma también afecta los precios. Las tiendas Shopify son generalmente más simples de trabajar que Magento 2 o plataformas personalizadas. En Shopify, implementar datos estructurados o corregir estructuras de URL sigue patrones bien documentados. En una plataforma personalizada, cada cambio podría requerir tiempo de desarrollo a 150-200 dólares la hora. Hemos trabajado en proyectos donde el 40% del presupuesto se fue a implementación en lugar de estrategia, puramente por limitaciones de la plataforma."
           ],
+          image: { src: "/images/blog/es/seo-price-factors.svg", alt: "Six factors that drive ecommerce SEO pricing: store size, competition, technical debt, content needs, link building, and target markets", caption: "Key factors that determine your ecommerce SEO investment" },
+          callout: { title: "Platform Cost Gap", text: "Shopify SEO implementations follow well-documented patterns. Custom platforms can consume 40% of the total SEO budget on dev work alone, at $150-200/hour for implementation." },
         },
         {
           heading: "Rangos de precios típicos y lo que obtienes",
@@ -145,6 +155,7 @@ export const ecommerceSeopricing: BlogArticle = {
             "Pide a las agencias entregables específicos, no promesas vagas. 'Optimizaremos tu sitio' no te dice nada. 'Auditaremos y corregiremos problemas técnicos en tus 2.000 páginas de productos, crearemos 6 guías de compra apuntando a keywords comerciales y construiremos 15 backlinks de alta autoridad por mes' te da algo contra lo cual medir. Si una agencia no puede ser específica sobre lo que hará, probablemente no tiene un plan claro. También vale la pena consultar a un [consultor de SEO para ecommerce](/blog/ecommerce-seo-consultant) para obtener una perspectiva independiente antes de firmar.",
             "Mira casos de estudio con números reales. Aumentos de ingresos, porcentajes de crecimiento de tráfico y mejoras específicas de posicionamiento te dicen lo que una agencia ha hecho por tiendas similares. Los testimonios sin datos son palabrería de marketing. Nosotros publicamos los resultados de nuestros clientes con métricas reales porque creemos que el trabajo debería hablar por sí mismo. También puedes investigar el panorama de [agencias de SEO para ecommerce](/blog/ecommerce-seo-agencies) para establecer un punto de referencia de lo que es bueno."
           ],
+          image: { src: "/images/blog/es/seo-value-vs-cost.svg", alt: "Side-by-side comparison of cheap SEO costing over 100K versus quality SEO delivering 20x ROI", caption: "Cheap SEO often costs more in the long run -- calculate true ROI before choosing a provider" },
         },
         {
           heading: "Señales de alerta en las propuestas de SEO para ecommerce",
@@ -154,6 +165,7 @@ export const ecommerceSeopricing: BlogArticle = {
             "Los paquetes genéricos sin personalización sugieren que la agencia trata a todas las tiendas igual. Tu tienda tiene problemas técnicos específicos, dinámicas competitivas únicas y oportunidades de contenido particulares. Una agencia que ofrece los mismos paquetes Bronce/Plata/Oro a cada prospecto no está haciendo el análisis requerido para construir una estrategia real.",
             "Vigila las propuestas que se centran mucho en métricas de vanidad. Rankings para keywords informativas, número total de backlinks o aumentos de autoridad de dominio suenan impresionantes en los informes pero pueden no mover los ingresos. Las mejores propuestas vinculan las actividades directamente a resultados de negocio: crecimiento de ingresos orgánicos, mejoras en la tasa de conversión del tráfico orgánico y cuota de mercado en tu categoría."
           ],
+          image: { src: "/images/blog/es/seo-proposal-red-flags.svg", alt: "Red flags versus green flags comparison chart for evaluating ecommerce SEO proposals", caption: "Use these signals to quickly separate credible agencies from those cutting corners" },
         },
         {
           heading: "Cuando el SEO barato termina costando más",
@@ -163,6 +175,8 @@ export const ecommerceSeopricing: BlogArticle = {
             "Un minorista con el que trabajamos pasó 14 meses con una agencia de bajo presupuesto antes de venir a nosotros. En ese tiempo, sus ingresos orgánicos realmente disminuyeron un 22%. Cuando auditamos el trabajo, encontramos title tags duplicados en más de 800 páginas, descripciones de productos sobrecargadas de keywords que perjudicaban las tasas de conversión, y un archivo de desautorización que accidentalmente bloqueaba dominios de referencia legítimos. El coste total de la agencia barata más nuestro trabajo de remediación superó lo que 14 meses de SEO adecuado habría costado desde el principio.",
             "Este no es un argumento para siempre elegir la opción más cara. Es un argumento para elegir agencias que puedan explicar su metodología, mostrar experiencia relevante y proporcionar entregables claros. A veces una agencia de 3.000 dólares al mes hace mejor trabajo que una de 10.000. El precio solo no determina la calidad. Pero los precios sospechosamente bajos casi siempre indican que se están recortando esquinas."
           ],
+          image: { src: "/images/blog/es/cheap-seo-hidden-costs.svg", alt: "Hidden costs timeline showing cheap SEO leading to penalty, cleanup costs, and over 100K total damage", caption: "The total cost of cheap SEO often exceeds $100K when you include cleanup and lost revenue" },
+          callout: { title: "Cheap Gets Expensive", text: "One retailer spent 14 months with a budget agency and saw organic revenue decline 22%. The total cost of the cheap agency plus remediation exceeded what proper SEO would have cost from the start." },
         },
         {
           heading: "Cómo estructurar tu presupuesto de SEO a lo largo del tiempo",
@@ -178,7 +192,7 @@ export const ecommerceSeopricing: BlogArticle = {
           body: [
             "Las tiendas que obtienen el mejor ROI del gasto en SEO son las que tratan a su agencia como un socio, no como un proveedor. Comparte tus datos de ventas, próximas promociones y calendarios de lanzamiento de productos. Cuanto más contexto tenga tu equipo de SEO, mejor podrán alinear su trabajo con tus objetivos de negocio.",
             "Responsabiliza a tu agencia por métricas específicas. Los ingresos orgánicos (no de marca), la tasa de conversión orgánica y la visibilidad de keywords en tus categorías objetivo son las métricas que importan. Revísalas mensualmente. Si la tendencia no se mueve en la dirección correcta después de 6 meses, ten una conversación honesta sobre qué necesita cambiar.",
-            "Asegúrate de tener los recursos internos para implementar las recomendaciones. El escenario más caro y frustrante es pagar a una agencia por una estrategia que nunca se ejecuta porque tu equipo de desarrollo tiene una cola de trabajo de 3 meses. Si la capacidad de implementación es limitada, tenlo en cuenta en la selección de tu agencia. Elige un socio que pueda manejar la ejecución, no solo la estrategia. Costará más por adelantado pero realmente producirá resultados. Un buen punto de partida es reservar una [auditoría SEO profesional](/seo-audit) para identificar exactamente adónde debería ir tu presupuesto primero."
+            "Asegúrate de tener los recursos internos para implementar las recomendaciones. El escenario más caro y frustrante es pagar a una agencia por una estrategia que nunca se ejecuta porque tu equipo de desarrollo tiene una cola de trabajo de 3 meses. Si la capacidad de implementación es limitada, tenlo en cuenta en la selección de tu agencia. Elige un socio que pueda manejar la ejecución, no solo la estrategia. Costará más por adelantado pero realmente producirá resultados. Un buen punto de partida es reservar una [auditoría SEO profesional](/tools/ecommerce-seo-audit) para identificar exactamente adónde debería ir tu presupuesto primero."
           ],
         }
       ],
@@ -202,6 +216,7 @@ export const ecommerceSeopricing: BlogArticle = {
             "La tarification par projet fonctionne pour des initiatives spécifiques. Un audit SEO technique peut coûter entre 3 000 et 8 000 €. Une migration complète de site peut aller de 10 000 à 30 000 € selon la complexité. Les refontes de pages catégories, les développements de stratégie de contenu et les campagnes de link building s'inscrivent aussi dans ce modèle. Vous obtenez un livrable défini avec une date de début et de fin claire. Cela fonctionne bien quand vous avez une équipe interne capable d'exécuter mais qui a besoin d'une direction experte.",
             "La tarification à la performance lie les honoraires aux résultats. Cela semble attrayant, mais cela comporte de sérieuses réserves. Les agences utilisant ce modèle choisissent souvent les victoires faciles, évitent les travaux risqués mais précieux, ou définissent des indicateurs de succès qui flattent leurs efforts. Nous avons vu des contrats de performance où l'agence s'attribuait le mérite d'augmentations du trafic de marque qui n'avaient rien à voir avec leur travail. Si vous optez pour cette voie, assurez-vous que les indicateurs sont spécifiques, vérifiables et liés au chiffre d'affaires organique hors marque."
           ],
+          image: { src: "/images/blog/fr/seo-pricing-models.svg", alt: "Comparison of three SEO pricing models: monthly retainer, project-based, and performance-based", caption: "The three main SEO pricing models and when each works best" },
         },
         {
           heading: "Ce qui affecte votre coût SEO ecommerce",
@@ -211,6 +226,8 @@ export const ecommerceSeopricing: BlogArticle = {
             "La santé technique actuelle de votre boutique joue également un rôle. Un site avec une architecture propre, une canonicalisation correcte et des temps de chargement rapides nécessite moins de travail de remédiation initial. Un site avec des milliers de pages dupliquées, des liens internes cassés et un temps de chargement de 6 secondes nécessite un travail fondamental important avant qu'une stratégie de croissance ait du sens. Ce nettoyage initial peut ajouter 5 000 à 15 000 € aux premiers mois.",
             "La complexité de la plateforme affecte aussi la tarification. Les boutiques Shopify sont généralement plus simples à travailler que Magento 2 ou les plateformes sur mesure. Sur Shopify, l'implémentation de données structurées ou la correction de structures d'URL suit des schémas bien documentés. Sur une plateforme personnalisée, chaque modification peut nécessiter du temps de développement à 150-200 €/heure. Nous avons travaillé sur des projets où 40 % du budget allait à l'implémentation plutôt qu'à la stratégie, uniquement à cause des limitations de la plateforme."
           ],
+          image: { src: "/images/blog/fr/seo-price-factors.svg", alt: "Six factors that drive ecommerce SEO pricing: store size, competition, technical debt, content needs, link building, and target markets", caption: "Key factors that determine your ecommerce SEO investment" },
+          callout: { title: "Platform Cost Gap", text: "Shopify SEO implementations follow well-documented patterns. Custom platforms can consume 40% of the total SEO budget on dev work alone, at $150-200/hour for implementation." },
         },
         {
           heading: "Fourchettes de prix typiques et ce que vous obtenez",
@@ -229,6 +246,7 @@ export const ecommerceSeopricing: BlogArticle = {
             "Demandez aux agences des livrables spécifiques, pas des promesses vagues. \"Nous optimiserons votre site\" ne vous dit rien. \"Nous auditerons et corrigerons les problèmes techniques sur vos 2 000 pages produits, créerons 6 guides d'achat ciblant des mots-clés commerciaux, et construirons 15 backlinks de haute autorité par mois\" vous donne quelque chose de mesurable. Si une agence ne peut pas être spécifique sur ce qu'elle fera, elle n'a probablement pas de plan clair. Il est aussi utile de consulter un [consultant SEO ecommerce](/blog/ecommerce-seo-consultant) pour une perspective indépendante avant de signer.",
             "Regardez les études de cas avec des chiffres réels. Les augmentations de chiffre d'affaires, les pourcentages de croissance du trafic et les améliorations spécifiques de classement vous disent ce qu'une agence a fait pour des boutiques similaires. Les témoignages sans données sont du marketing creux. Nous publions les résultats de nos clients avec de vraies métriques parce que nous pensons que le travail devrait parler de lui-même. Vous pouvez aussi rechercher le paysage des [agences SEO ecommerce](/blog/ecommerce-seo-agencies) pour comparer ce à quoi ressemble un bon travail."
           ],
+          image: { src: "/images/blog/fr/seo-value-vs-cost.svg", alt: "Side-by-side comparison of cheap SEO costing over 100K versus quality SEO delivering 20x ROI", caption: "Cheap SEO often costs more in the long run -- calculate true ROI before choosing a provider" },
         },
         {
           heading: "Signaux d'alerte dans les propositions SEO ecommerce",
@@ -238,6 +256,7 @@ export const ecommerceSeopricing: BlogArticle = {
             "Les forfaits standardisés sans personnalisation suggèrent que l'agence traite toutes les boutiques de la même manière. Votre boutique a des problèmes techniques spécifiques, des dynamiques concurrentielles uniques et des opportunités de contenu particulières. Une agence qui propose les mêmes forfaits Bronze/Argent/Or à chaque prospect ne fait pas l'analyse nécessaire pour construire une vraie stratégie.",
             "Méfiez-vous des propositions qui se concentrent fortement sur les indicateurs de vanité. Les classements pour des mots-clés informationnels, le nombre total de backlinks ou les augmentations d'autorité de domaine semblent impressionnants dans les rapports mais ne font peut-être pas progresser le chiffre d'affaires. Les meilleures propositions lient directement les activités aux résultats commerciaux : croissance du chiffre d'affaires organique, amélioration du taux de conversion sur le trafic organique et part de marché dans votre catégorie."
           ],
+          image: { src: "/images/blog/fr/seo-proposal-red-flags.svg", alt: "Red flags versus green flags comparison chart for evaluating ecommerce SEO proposals", caption: "Use these signals to quickly separate credible agencies from those cutting corners" },
         },
         {
           heading: "Quand le SEO bon marché finit par coûter plus cher",
@@ -247,6 +266,8 @@ export const ecommerceSeopricing: BlogArticle = {
             "Un détaillant avec lequel nous travaillons a passé 14 mois avec une agence à bas prix avant de venir nous voir. Pendant ce temps, leur chiffre d'affaires organique avait en fait diminué de 22 %. Quand nous avons audité le travail, nous avons trouvé des balises title dupliquées sur plus de 800 pages, des descriptions de produits bourrées de mots-clés qui nuisaient aux taux de conversion, et un fichier disavow qui avait accidentellement bloqué des domaines référents légitimes. Le coût total de l'agence bon marché plus notre travail de remédiation a dépassé ce que 14 mois de SEO correct auraient coûté dès le départ.",
             "Ce n'est pas un argument pour toujours choisir l'option la plus chère. C'est un argument pour choisir des agences qui peuvent expliquer leur méthodologie, montrer une expérience pertinente et fournir des livrables clairs. Parfois une agence à 3 000 €/mois fait un meilleur travail qu'une à 10 000 €/mois. Le prix seul ne détermine pas la qualité. Mais des prix suspicieusement bas indiquent presque toujours que des raccourcis sont pris."
           ],
+          image: { src: "/images/blog/fr/cheap-seo-hidden-costs.svg", alt: "Hidden costs timeline showing cheap SEO leading to penalty, cleanup costs, and over 100K total damage", caption: "The total cost of cheap SEO often exceeds $100K when you include cleanup and lost revenue" },
+          callout: { title: "Cheap Gets Expensive", text: "One retailer spent 14 months with a budget agency and saw organic revenue decline 22%. The total cost of the cheap agency plus remediation exceeded what proper SEO would have cost from the start." },
         },
         {
           heading: "Comment structurer votre budget SEO dans le temps",
@@ -262,7 +283,7 @@ export const ecommerceSeopricing: BlogArticle = {
           body: [
             "Les boutiques qui obtiennent le meilleur ROI de leurs dépenses SEO sont celles qui traitent leur agence comme un partenaire, pas un fournisseur. Partagez vos données de ventes, vos promotions à venir et vos calendriers de lancement de produits. Plus votre équipe SEO a de contexte, mieux elle peut aligner son travail avec vos objectifs commerciaux.",
             "Tenez votre agence responsable sur des indicateurs spécifiques. Le chiffre d'affaires organique (hors marque), le taux de conversion organique et la visibilité des mots-clés dans vos catégories cibles sont les indicateurs qui comptent. Examinez-les mensuellement. Si la tendance ne va pas dans la bonne direction après 6 mois, ayez une conversation honnête sur ce qui doit changer.",
-            "Assurez-vous d'avoir les ressources internes pour mettre en œuvre les recommandations. Le scénario le plus coûteux et frustrant est de payer une agence pour une stratégie qui n'est jamais exécutée parce que votre équipe de développement a un retard de 3 mois. Si la capacité d'implémentation est limitée, intégrez cela dans votre sélection d'agence. Choisissez un partenaire qui peut gérer l'exécution, pas seulement la stratégie. Cela coûtera plus cher au départ mais produira réellement des résultats. Un bon point de départ est de réserver un [audit SEO professionnel](/seo-audit) pour identifier exactement où votre budget devrait aller en premier."
+            "Assurez-vous d'avoir les ressources internes pour mettre en œuvre les recommandations. Le scénario le plus coûteux et frustrant est de payer une agence pour une stratégie qui n'est jamais exécutée parce que votre équipe de développement a un retard de 3 mois. Si la capacité d'implémentation est limitée, intégrez cela dans votre sélection d'agence. Choisissez un partenaire qui peut gérer l'exécution, pas seulement la stratégie. Cela coûtera plus cher au départ mais produira réellement des résultats. Un bon point de départ est de réserver un [audit SEO professionnel](/tools/ecommerce-seo-audit) pour identifier exactement où votre budget devrait aller en premier."
           ],
         }
       ],
@@ -286,6 +307,7 @@ export const ecommerceSeopricing: BlogArticle = {
             "Projektbasierte Preise eignen sich für bestimmte Maßnahmen. Ein technisches SEO-Audit kann zwischen 3.000 und 8.000 Euro kosten. Eine vollständige Site-Migration kann je nach Komplexität 10.000 bis 30.000 Euro betragen. Auch Überarbeitungen von Kategorieseiten, Content-Strategie-Entwicklungen und Linkbuilding-Kampagnen passen in dieses Modell. Sie erhalten ein klar definiertes Ergebnis mit festem Start- und Enddatum. Das funktioniert gut, wenn Sie ein internes Team haben, das umsetzen kann, aber fachliche Anleitung braucht.",
             "Erfolgsbasierte Preise koppeln die Vergütung an Ergebnisse. Klingt verlockend, birgt aber ernsthafte Fallstricke. Agenturen mit diesem Modell suchen sich oft leichte Erfolge, vermeiden riskante, aber wertvolle Arbeit oder definieren Erfolgskennzahlen, die ihre Leistung beschönigen. Wir haben Leistungsverträge gesehen, bei denen sich die Agentur Traffic-Zuwächse durch Marken-Suchanfragen zuschrieb, die nichts mit ihrer Arbeit zu tun hatten. Wenn Sie diesen Weg gehen, stellen Sie sicher, dass die Kennzahlen spezifisch, überprüfbar und an nicht markenbezogenen organischen Umsatz gebunden sind."
           ],
+          image: { src: "/images/blog/de/seo-pricing-models.svg", alt: "Comparison of three SEO pricing models: monthly retainer, project-based, and performance-based", caption: "The three main SEO pricing models and when each works best" },
         },
         {
           heading: "Was die Kosten für Ecommerce-SEO beeinflusst",
@@ -295,6 +317,8 @@ export const ecommerceSeopricing: BlogArticle = {
             "Auch der aktuelle technische Zustand Ihres Shops spielt eine Rolle. Eine Website mit sauberer Architektur, korrekter Kanonisierung und schnellen Ladezeiten braucht weniger Nachbesserungsarbeit am Anfang. Eine Website mit Tausenden doppelten Seiten, kaputten internen Links und einer Ladezeit von 6 Sekunden braucht erst einmal umfangreiche Grundlagenarbeit, bevor eine Wachstumsstrategie Sinn ergibt. Diese initiale Bereinigung kann in den ersten Monaten 5.000 bis 15.000 Euro zusätzlich kosten.",
             "Die Plattformkomplexität beeinflusst ebenfalls die Preise. Shopify-Shops sind generell einfacher zu bearbeiten als Magento 2 oder individuell entwickelte Plattformen. Bei Shopify folgt die Implementierung von strukturierten Daten oder die Korrektur von URL-Strukturen gut dokumentierten Mustern. Bei einer individuellen Plattform kann jede Änderung Entwicklungszeit zu 150-200 Euro pro Stunde erfordern. Wir haben an Projekten gearbeitet, bei denen 40 % des Budgets in die Umsetzung statt in die Strategie flossen, allein aufgrund von Plattformbeschränkungen."
           ],
+          image: { src: "/images/blog/de/seo-price-factors.svg", alt: "Six factors that drive ecommerce SEO pricing: store size, competition, technical debt, content needs, link building, and target markets", caption: "Key factors that determine your ecommerce SEO investment" },
+          callout: { title: "Platform Cost Gap", text: "Shopify SEO implementations follow well-documented patterns. Custom platforms can consume 40% of the total SEO budget on dev work alone, at $150-200/hour for implementation." },
         },
         {
           heading: "Typische Preisbereiche und was Sie dafür bekommen",
@@ -313,6 +337,7 @@ export const ecommerceSeopricing: BlogArticle = {
             "Verlangen Sie von Agenturen konkrete Leistungsbeschreibungen, keine vagen Versprechen. \"Wir optimieren Ihre Website\" sagt Ihnen nichts. \"Wir auditieren und beheben technische Probleme auf Ihren 2.000 Produktseiten, erstellen 6 Kaufratgeber für kommerzielle Keywords und bauen 15 hochwertige Backlinks pro Monat auf\" gibt Ihnen etwas Messbares. Wenn eine Agentur nicht konkret sagen kann, was sie tun wird, hat sie wahrscheinlich keinen klaren Plan. Es lohnt sich auch, einen [Ecommerce-SEO-Berater](/blog/ecommerce-seo-consultant) für eine unabhängige Perspektive zu konsultieren, bevor Sie unterschreiben.",
             "Schauen Sie sich Fallstudien mit echten Zahlen an. Umsatzsteigerungen, Traffic-Wachstumsraten und konkrete Ranking-Verbesserungen zeigen Ihnen, was eine Agentur für ähnliche Shops geleistet hat. Testimonials ohne Daten sind Marketing-Floskeln. Wir veröffentlichen unsere Kundenergebnisse mit echten Kennzahlen, weil wir finden, dass die Arbeit für sich sprechen sollte. Sie können auch die Landschaft der [Ecommerce-SEO-Agenturen](/blog/ecommerce-seo-agencies) recherchieren, um einen Vergleichsmaßstab zu haben."
           ],
+          image: { src: "/images/blog/de/seo-value-vs-cost.svg", alt: "Side-by-side comparison of cheap SEO costing over 100K versus quality SEO delivering 20x ROI", caption: "Cheap SEO often costs more in the long run -- calculate true ROI before choosing a provider" },
         },
         {
           heading: "Warnsignale in Ecommerce-SEO-Angeboten",
@@ -322,6 +347,7 @@ export const ecommerceSeopricing: BlogArticle = {
             "Standardisierte Pakete ohne Anpassung deuten darauf hin, dass die Agentur alle Shops gleich behandelt. Ihr Shop hat spezifische technische Probleme, einzigartige Wettbewerbsdynamiken und besondere Content-Möglichkeiten. Eine Agentur, die jedem Interessenten die gleichen Bronze-/Silber-/Gold-Pakete anbietet, führt die notwendige Analyse für eine echte Strategie nicht durch.",
             "Achten Sie auf Angebote, die sich stark auf Eitelkeitskennzahlen konzentrieren. Rankings für informationelle Keywords, die Gesamtzahl der Backlinks oder Steigerungen der Domain-Autorität klingen in Berichten beeindruckend, bewegen aber möglicherweise keinen Umsatz. Die besten Angebote verknüpfen Aktivitäten direkt mit geschäftlichen Ergebnissen: organisches Umsatzwachstum, Verbesserungen der Conversion-Rate bei organischem Traffic und Marktanteil in Ihrer Kategorie."
           ],
+          image: { src: "/images/blog/de/seo-proposal-red-flags.svg", alt: "Red flags versus green flags comparison chart for evaluating ecommerce SEO proposals", caption: "Use these signals to quickly separate credible agencies from those cutting corners" },
         },
         {
           heading: "Wenn billiges SEO am Ende teurer wird",
@@ -331,6 +357,8 @@ export const ecommerceSeopricing: BlogArticle = {
             "Ein Händler, mit dem wir arbeiten, hatte 14 Monate lang eine Billig-Agentur beauftragt, bevor er zu uns kam. In dieser Zeit sank sein organischer Umsatz tatsächlich um 22 %. Als wir die Arbeit auditiert haben, fanden wir doppelte Title-Tags auf über 800 Seiten, mit Keywords überladene Produktbeschreibungen, die die Conversion-Rate verschlechterten, und eine Disavow-Datei, die versehentlich legitime verweisende Domains blockierte. Die Gesamtkosten der Billig-Agentur plus unserer Nachbesserungsarbeit überstiegen das, was 14 Monate ordentliches SEO von Anfang an gekostet hätte.",
             "Das ist kein Argument dafür, immer die teuerste Option zu wählen. Es ist ein Argument dafür, Agenturen zu wählen, die ihre Methodik erklären können, relevante Erfahrung vorweisen und klare Leistungsbeschreibungen liefern. Manchmal leistet eine Agentur für 3.000 Euro im Monat bessere Arbeit als eine für 10.000 Euro. Der Preis allein bestimmt nicht die Qualität. Aber verdächtig niedrige Preise deuten fast immer darauf hin, dass an der falschen Stelle gespart wird."
           ],
+          image: { src: "/images/blog/de/cheap-seo-hidden-costs.svg", alt: "Hidden costs timeline showing cheap SEO leading to penalty, cleanup costs, and over 100K total damage", caption: "The total cost of cheap SEO often exceeds $100K when you include cleanup and lost revenue" },
+          callout: { title: "Cheap Gets Expensive", text: "One retailer spent 14 months with a budget agency and saw organic revenue decline 22%. The total cost of the cheap agency plus remediation exceeded what proper SEO would have cost from the start." },
         },
         {
           heading: "Wie Sie Ihr SEO-Budget über die Zeit strukturieren",
@@ -346,7 +374,7 @@ export const ecommerceSeopricing: BlogArticle = {
           body: [
             "Die Shops, die den besten ROI aus ihren SEO-Ausgaben erzielen, sind diejenigen, die ihre Agentur als Partner behandeln, nicht als Dienstleister. Teilen Sie Ihre Verkaufsdaten, bevorstehende Aktionen und Produkteinführungspläne. Je mehr Kontext Ihr SEO-Team hat, desto besser kann es seine Arbeit auf Ihre Geschäftsziele abstimmen.",
             "Machen Sie Ihre Agentur an konkreten Kennzahlen fest. Organischer Umsatz (ohne Markensuchen), organische Conversion-Rate und Keyword-Sichtbarkeit in Ihren Zielkategorien sind die Kennzahlen, die zählen. Überprüfen Sie diese monatlich. Wenn der Trend nach 6 Monaten nicht in die richtige Richtung geht, führen Sie ein ehrliches Gespräch darüber, was sich ändern muss.",
-            "Stellen Sie sicher, dass Sie die internen Ressourcen haben, um Empfehlungen umzusetzen. Das teuerste und frustrierendste Szenario ist, eine Agentur für eine Strategie zu bezahlen, die nie umgesetzt wird, weil Ihr Entwicklungsteam einen 3-monatigen Rückstand hat. Wenn die Umsetzungskapazität begrenzt ist, berücksichtigen Sie das bei der Agenturauswahl. Wählen Sie einen Partner, der die Umsetzung übernehmen kann, nicht nur die Strategie. Das kostet anfangs mehr, liefert aber tatsächlich Ergebnisse. Ein guter Ausgangspunkt ist die Buchung eines [professionellen SEO-Audits](/seo-audit), um genau zu identifizieren, wohin Ihr Budget zuerst fließen sollte."
+            "Stellen Sie sicher, dass Sie die internen Ressourcen haben, um Empfehlungen umzusetzen. Das teuerste und frustrierendste Szenario ist, eine Agentur für eine Strategie zu bezahlen, die nie umgesetzt wird, weil Ihr Entwicklungsteam einen 3-monatigen Rückstand hat. Wenn die Umsetzungskapazität begrenzt ist, berücksichtigen Sie das bei der Agenturauswahl. Wählen Sie einen Partner, der die Umsetzung übernehmen kann, nicht nur die Strategie. Das kostet anfangs mehr, liefert aber tatsächlich Ergebnisse. Ein guter Ausgangspunkt ist die Buchung eines [professionellen SEO-Audits](/tools/ecommerce-seo-audit), um genau zu identifizieren, wohin Ihr Budget zuerst fließen sollte."
           ],
         }
       ],
@@ -370,6 +398,7 @@ export const ecommerceSeopricing: BlogArticle = {
             "I prezzi a progetto funzionano per iniziative specifiche. Un audit SEO tecnico potrebbe costare da 3.000 a 8.000 dollari. Una migrazione completa del sito potrebbe costare da 10.000 a 30.000 dollari a seconda della complessità. Le revisioni delle pagine di categoria, lo sviluppo della strategia di contenuto e le campagne di link building rientrano anch'essi in questo modello. Ottieni un deliverable definito con date di inizio e fine chiare. Funziona bene quando hai un team interno che può eseguire ma ha bisogno di direzione esperta.",
             "I prezzi basati sulle performance legano i compensi ai risultati. Sembra attraente, ma comporta serie avvertenze. Le agenzie che usano questo modello spesso scelgono le vittorie facili, evitano lavori rischiosi ma preziosi, o definiscono metriche di successo che favoriscono i loro sforzi. Abbiamo visto contratti a performance dove l'agenzia si è attribuita il merito di aumenti del traffico branded che non avevano nulla a che fare con il loro lavoro. Se opti per questa via, assicurati che le metriche siano specifiche, verificabili e legate ai ricavi organici non branded."
           ],
+          image: { src: "/images/blog/it/seo-pricing-models.svg", alt: "Comparison of three SEO pricing models: monthly retainer, project-based, and performance-based", caption: "The three main SEO pricing models and when each works best" },
         },
         {
           heading: "Cosa influenza il costo della SEO per il tuo ecommerce",
@@ -379,6 +408,8 @@ export const ecommerceSeopricing: BlogArticle = {
             "La salute tecnica attuale del tuo negozio gioca un ruolo. Un sito con un'architettura pulita, una corretta canonicalizzazione e tempi di caricamento rapidi richiede meno lavoro di remediation iniziale. Un sito con migliaia di pagine duplicate, link interni rotti e un tempo di caricamento di 6 secondi necessita di un lavoro fondamentale significativo prima che qualsiasi strategia di crescita abbia senso. Questa pulizia iniziale può aggiungere da 5.000 a 15.000 dollari ai primi mesi.",
             "La complessità della piattaforma influenza anch'essa i prezzi. I negozi Shopify sono generalmente più semplici da lavorare rispetto a Magento 2 o piattaforme custom. Su Shopify, implementare dati strutturati o correggere le strutture URL segue schemi ben documentati. Su una piattaforma personalizzata, ogni modifica potrebbe richiedere tempo di sviluppo a 150-200 dollari l'ora. Abbiamo lavorato a progetti dove il 40% del budget è andato in implementazione piuttosto che in strategia, puramente per limitazioni della piattaforma."
           ],
+          image: { src: "/images/blog/it/seo-price-factors.svg", alt: "Six factors that drive ecommerce SEO pricing: store size, competition, technical debt, content needs, link building, and target markets", caption: "Key factors that determine your ecommerce SEO investment" },
+          callout: { title: "Platform Cost Gap", text: "Shopify SEO implementations follow well-documented patterns. Custom platforms can consume 40% of the total SEO budget on dev work alone, at $150-200/hour for implementation." },
         },
         {
           heading: "Fasce di prezzo tipiche e cosa ottieni",
@@ -397,6 +428,7 @@ export const ecommerceSeopricing: BlogArticle = {
             "Chiedi alle agenzie deliverable specifici, non promesse vaghe. 'Ottimizzeremo il tuo sito' non ti dice nulla. 'Auditeremo e correggeremo i problemi tecnici sulle tue 2.000 pagine prodotto, creeremo 6 guide all'acquisto targetizzando keyword commerciali e costruiremo 15 backlink ad alta autorità al mese' ti dà qualcosa contro cui misurare. Se un'agenzia non riesce a essere specifica su cosa farà, probabilmente non ha un piano chiaro. Vale anche la pena consultare un [consulente SEO per ecommerce](/blog/ecommerce-seo-consultant) per una prospettiva indipendente prima di firmare.",
             "Guarda i case study con numeri reali. Aumenti di fatturato, percentuali di crescita del traffico e miglioramenti specifici dei posizionamenti ti dicono cosa un'agenzia ha fatto per negozi simili. Le testimonianze senza dati sono chiacchiere di marketing. Noi pubblichiamo i risultati dei nostri clienti con metriche reali perché crediamo che il lavoro debba parlare da solo. Puoi anche esplorare il panorama delle [agenzie SEO per ecommerce](/blog/ecommerce-seo-agencies) per avere un benchmark di riferimento."
           ],
+          image: { src: "/images/blog/it/seo-value-vs-cost.svg", alt: "Side-by-side comparison of cheap SEO costing over 100K versus quality SEO delivering 20x ROI", caption: "Cheap SEO often costs more in the long run -- calculate true ROI before choosing a provider" },
         },
         {
           heading: "Segnali d'allarme nelle proposte SEO per ecommerce",
@@ -406,6 +438,7 @@ export const ecommerceSeopricing: BlogArticle = {
             "I pacchetti standardizzati senza personalizzazione suggeriscono che l'agenzia tratta tutti i negozi allo stesso modo. Il tuo negozio ha problemi tecnici specifici, dinamiche competitive uniche e opportunità di contenuto particolari. Un'agenzia che offre gli stessi pacchetti Bronzo/Argento/Oro a ogni prospect non sta facendo l'analisi necessaria per costruire una vera strategia.",
             "Fai attenzione alle proposte che si concentrano molto sulle metriche di vanità. I posizionamenti per keyword informative, il numero totale di backlink o gli aumenti di domain authority sembrano impressionanti nei report ma potrebbero non muovere i ricavi. Le migliori proposte collegano le attività direttamente ai risultati di business: crescita dei ricavi organici, miglioramenti del tasso di conversione dal traffico organico e quota di mercato nella tua categoria."
           ],
+          image: { src: "/images/blog/it/seo-proposal-red-flags.svg", alt: "Red flags versus green flags comparison chart for evaluating ecommerce SEO proposals", caption: "Use these signals to quickly separate credible agencies from those cutting corners" },
         },
         {
           heading: "Quando la SEO economica finisce per costare di più",
@@ -415,6 +448,8 @@ export const ecommerceSeopricing: BlogArticle = {
             "Un retailer con cui lavoriamo ha passato 14 mesi con un'agenzia a basso costo prima di venire da noi. In quel periodo, i loro ricavi organici erano effettivamente diminuiti del 22%. Quando abbiamo auditato il lavoro, abbiamo trovato title tag duplicati su oltre 800 pagine, descrizioni prodotto imbottite di keyword che danneggiavano i tassi di conversione, e un file disavow che bloccava accidentalmente domini referenti legittimi. Il costo totale dell'agenzia economica più il nostro lavoro di remediation ha superato quello che 14 mesi di SEO fatta bene sarebbero costati fin dall'inizio.",
             "Questo non è un argomento per scegliere sempre l'opzione più costosa. È un argomento per scegliere agenzie che possono spiegare la loro metodologia, mostrare esperienza rilevante e fornire deliverable chiari. A volte un'agenzia da 3.000 dollari al mese fa un lavoro migliore di una da 10.000. Il prezzo da solo non determina la qualità. Ma prezzi sospettosamente bassi indicano quasi sempre che si stanno tagliando gli angoli."
           ],
+          image: { src: "/images/blog/it/cheap-seo-hidden-costs.svg", alt: "Hidden costs timeline showing cheap SEO leading to penalty, cleanup costs, and over 100K total damage", caption: "The total cost of cheap SEO often exceeds $100K when you include cleanup and lost revenue" },
+          callout: { title: "Cheap Gets Expensive", text: "One retailer spent 14 months with a budget agency and saw organic revenue decline 22%. The total cost of the cheap agency plus remediation exceeded what proper SEO would have cost from the start." },
         },
         {
           heading: "Come strutturare il budget SEO nel tempo",
@@ -430,7 +465,7 @@ export const ecommerceSeopricing: BlogArticle = {
           body: [
             "I negozi che ottengono il miglior ROI dalla spesa SEO sono quelli che trattano la propria agenzia come un partner, non come un fornitore. Condividi i tuoi dati di vendita, le promozioni in arrivo e i calendari di lancio dei prodotti. Più contesto ha il tuo team SEO, meglio può allineare il proprio lavoro con i tuoi obiettivi di business.",
             "Ritieni la tua agenzia responsabile su metriche specifiche. I ricavi organici (non branded), il tasso di conversione organico e la visibilità delle keyword nelle tue categorie target sono le metriche che contano. Esaminale mensilmente. Se il trend non va nella direzione giusta dopo 6 mesi, fai una conversazione onesta su cosa deve cambiare.",
-            "Assicurati di avere le risorse interne per implementare le raccomandazioni. Lo scenario più costoso e frustrante è pagare un'agenzia per una strategia che non viene mai eseguita perché il tuo team di sviluppo ha 3 mesi di arretrato. Se la capacità di implementazione è limitata, tienine conto nella selezione dell'agenzia. Scegli un partner che possa gestire l'esecuzione, non solo la strategia. Costerà di più all'inizio ma produrrà effettivamente risultati. Un buon punto di partenza è prenotare un [audit SEO professionale](/seo-audit) per identificare esattamente dove dovrebbe andare il tuo budget per primo."
+            "Assicurati di avere le risorse interne per implementare le raccomandazioni. Lo scenario più costoso e frustrante è pagare un'agenzia per una strategia che non viene mai eseguita perché il tuo team di sviluppo ha 3 mesi di arretrato. Se la capacità di implementazione è limitata, tienine conto nella selezione dell'agenzia. Scegli un partner che possa gestire l'esecuzione, non solo la strategia. Costerà di più all'inizio ma produrrà effettivamente risultati. Un buon punto di partenza è prenotare un [audit SEO professionale](/tools/ecommerce-seo-audit) per identificare esattamente dove dovrebbe andare il tuo budget per primo."
           ],
         },
       ],
@@ -454,6 +489,7 @@ export const ecommerceSeopricing: BlogArticle = {
             "Projectprijzen werken voor specifieke initiatieven. Een technisch SEO-audit kan 3.000 tot 8.000 dollar kosten. Een volledige sitemigratie kan 10.000 tot 30.000 dollar kosten afhankelijk van de complexiteit. Herziening van categoriepagina's, ontwikkeling van contentstrategie en linkbuildingcampagnes passen ook in dit model. Je krijgt een gedefinieerd deliverable met een duidelijke start- en einddatum. Dit werkt goed als je een intern team hebt dat kan uitvoeren maar deskundige sturing nodig heeft.",
             "Prestatiegebaseerde prijzen koppelen vergoedingen aan resultaten. Dat klinkt aantrekkelijk, maar het kent serieuze kanttekeningen. Bureaus die dit model gebruiken kiezen vaak de gemakkelijke overwinningen, vermijden riskant maar waardevol werk, of definiëren succesmetrics die hun inspanningen flatteren. We hebben prestatiecontracten gezien waarbij het bureau de eer claimde voor stijgingen in merkverkeer die niets met hun werk te maken hadden. Als je voor deze weg kiest, zorg dat de metrics specifiek, verifieerbaar en gekoppeld aan niet-merk organische omzet zijn."
           ],
+          image: { src: "/images/blog/nl/seo-pricing-models.svg", alt: "Comparison of three SEO pricing models: monthly retainer, project-based, and performance-based", caption: "The three main SEO pricing models and when each works best" },
         },
         {
           heading: "Wat de kosten van jouw ecommerce SEO beïnvloedt",
@@ -463,6 +499,8 @@ export const ecommerceSeopricing: BlogArticle = {
             "De huidige technische gezondheid van je winkel speelt ook een rol. Een site met schone architectuur, correcte canonicalisatie en snelle laadtijden heeft minder initieel herstelwerk nodig. Een site met duizenden dubbele pagina's, gebroken interne links en een laadtijd van 6 seconden heeft aanzienlijk fundamenteel werk nodig voordat enige groeistrategie zinvol is. Die initiële opschoning kan 5.000 tot 15.000 dollar toevoegen aan de eerste maanden.",
             "Platformcomplexiteit beïnvloedt ook de prijzen. Shopify-winkels zijn over het algemeen eenvoudiger om mee te werken dan Magento 2 of maatwerkplatformen. Op Shopify volgt het implementeren van structured data of het corrigeren van URL-structuren goed gedocumenteerde patronen. Op een maatwerplatform kan elke wijziging ontwikkeltijd vereisen tegen 150-200 dollar per uur. We hebben aan projecten gewerkt waar 40% van het budget naar implementatie ging in plaats van strategie, puur door platformbeperkingen."
           ],
+          image: { src: "/images/blog/nl/seo-price-factors.svg", alt: "Six factors that drive ecommerce SEO pricing: store size, competition, technical debt, content needs, link building, and target markets", caption: "Key factors that determine your ecommerce SEO investment" },
+          callout: { title: "Platform Cost Gap", text: "Shopify SEO implementations follow well-documented patterns. Custom platforms can consume 40% of the total SEO budget on dev work alone, at $150-200/hour for implementation." },
         },
         {
           heading: "Typische prijsbereiken en wat je krijgt",
@@ -481,6 +519,7 @@ export const ecommerceSeopricing: BlogArticle = {
             "Vraag bureaus om specifieke deliverables, geen vage beloften. 'We optimaliseren je site' zegt je niets. 'We auditen en verhelpen technische problemen op je 2.000 productpagina's, maken 6 koopgidsen gericht op commerciële zoekwoorden, en bouwen 15 backlinks met hoge autoriteit per maand' geeft je iets om tegen te meten. Als een bureau niet specifiek kan zijn over wat het gaat doen, heeft het waarschijnlijk geen duidelijk plan. Het is ook waardevol om een [ecommerce SEO-consultant](/blog/ecommerce-seo-consultant) te raadplegen voor een onafhankelijk perspectief voordat je tekent.",
             "Kijk naar casestudy's met echte cijfers. Omzetstijgingen, groeipercentages van verkeer en specifieke verbeteringen in positionering vertellen je wat een bureau heeft gedaan voor vergelijkbare winkels. Getuigenissen zonder data zijn marketingpraat. Wij publiceren de resultaten van onze klanten met echte metrics omdat we geloven dat het werk voor zichzelf zou moeten spreken. Je kunt ook het landschap van [ecommerce SEO-bureaus](/blog/ecommerce-seo-agencies) onderzoeken om een benchmark te hebben van wat goed werk eruit ziet."
           ],
+          image: { src: "/images/blog/nl/seo-value-vs-cost.svg", alt: "Side-by-side comparison of cheap SEO costing over 100K versus quality SEO delivering 20x ROI", caption: "Cheap SEO often costs more in the long run -- calculate true ROI before choosing a provider" },
         },
         {
           heading: "Waarschuwingssignalen in ecommerce SEO-voorstellen",
@@ -490,6 +529,7 @@ export const ecommerceSeopricing: BlogArticle = {
             "Standaardpakketten zonder maatwerk suggereren dat het bureau alle winkels hetzelfde behandelt. Jouw winkel heeft specifieke technische problemen, unieke concurrentiedynamiek en bijzondere contentkansen. Een bureau dat elk prospect dezelfde Brons/Zilver/Goud-pakketten aanbiedt doet niet de analyse die nodig is om een echte strategie te bouwen.",
             "Pas op voor voorstellen die sterk focussen op ijdelheidsmetrics. Rankings voor informatieve zoekwoorden, totaal aantal backlinks of stijgingen in domeinautoriteit zien er indrukwekkend uit in rapporten maar bewegen mogelijk de omzet niet. De beste voorstellen koppelen activiteiten direct aan bedrijfsresultaten: groei in organische omzet, verbeteringen in conversiepercentage van organisch verkeer en marktaandeel in jouw categorie."
           ],
+          image: { src: "/images/blog/nl/seo-proposal-red-flags.svg", alt: "Red flags versus green flags comparison chart for evaluating ecommerce SEO proposals", caption: "Use these signals to quickly separate credible agencies from those cutting corners" },
         },
         {
           heading: "Wanneer goedkope SEO uiteindelijk meer kost",
@@ -499,6 +539,8 @@ export const ecommerceSeopricing: BlogArticle = {
             "Een retailer waarmee we werken bracht 14 maanden door bij een budgetbureau voordat ze bij ons kwamen. In die tijd was hun organische omzet daadwerkelijk met 22% gedaald. Toen we het werk auditeerden, vonden we dubbele title tags op meer dan 800 pagina's, met zoekwoorden volgestopte productbeschrijvingen die conversiepercentages schaadden, en een disavow-bestand dat per ongeluk legitieme verwijzende domeinen blokkeerde. De totale kosten van het goedkope bureau plus ons herstelwerk overtroffen wat 14 maanden degelijke SEO vanaf het begin zou hebben gekost.",
             "Dit is geen argument om altijd de duurste optie te kiezen. Het is een argument om bureaus te kiezen die hun methodologie kunnen uitleggen, relevante ervaring kunnen tonen en duidelijke deliverables kunnen bieden. Soms doet een bureau van 3.000 dollar per maand beter werk dan een van 10.000. Prijs alleen bepaalt de kwaliteit niet. Maar verdacht lage prijzen duiden er bijna altijd op dat er op kwaliteit wordt bezuinigd."
           ],
+          image: { src: "/images/blog/nl/cheap-seo-hidden-costs.svg", alt: "Hidden costs timeline showing cheap SEO leading to penalty, cleanup costs, and over 100K total damage", caption: "The total cost of cheap SEO often exceeds $100K when you include cleanup and lost revenue" },
+          callout: { title: "Cheap Gets Expensive", text: "One retailer spent 14 months with a budget agency and saw organic revenue decline 22%. The total cost of the cheap agency plus remediation exceeded what proper SEO would have cost from the start." },
         },
         {
           heading: "Hoe je SEO-budget over de tijd te structureren",
@@ -514,7 +556,7 @@ export const ecommerceSeopricing: BlogArticle = {
           body: [
             "De winkels die het beste rendement behalen op hun SEO-uitgaven zijn degenen die hun bureau behandelen als partner, niet als leverancier. Deel je verkoopdata, aankomende acties en productlanceringskalenders. Hoe meer context je SEO-team heeft, hoe beter ze hun werk kunnen afstemmen op je bedrijfsdoelen.",
             "Houd je bureau verantwoordelijk op specifieke metrics. Organische omzet (niet-merk), organisch conversiepercentage en zoekwoordzichtbaarheid in je doelcategorieën zijn de metrics die ertoe doen. Bekijk ze maandelijks. Als de trend na 6 maanden niet de goede kant op gaat, voer een eerlijk gesprek over wat er moet veranderen.",
-            "Zorg dat je de interne middelen hebt om aanbevelingen te implementeren. Het duurste en meest frustrerende scenario is betalen voor een strategie van een bureau die nooit wordt uitgevoerd omdat je ontwikkelteam een achterstand van 3 maanden heeft. Als de implementatiecapaciteit beperkt is, neem dat mee in je bureauskeuze. Kies een partner die de uitvoering aankan, niet alleen de strategie. Het kost meer vooraf maar levert daadwerkelijk resultaten op. Een goed startpunt is het boeken van een [professionele SEO-audit](/seo-audit) om precies te identificeren waar je budget als eerste naartoe moet."
+            "Zorg dat je de interne middelen hebt om aanbevelingen te implementeren. Het duurste en meest frustrerende scenario is betalen voor een strategie van een bureau die nooit wordt uitgevoerd omdat je ontwikkelteam een achterstand van 3 maanden heeft. Als de implementatiecapaciteit beperkt is, neem dat mee in je bureauskeuze. Kies een partner die de uitvoering aankan, niet alleen de strategie. Het kost meer vooraf maar levert daadwerkelijk resultaten op. Een goed startpunt is het boeken van een [professionele SEO-audit](/tools/ecommerce-seo-audit) om precies te identificeren waar je budget als eerste naartoe moet."
           ],
         },
       ],

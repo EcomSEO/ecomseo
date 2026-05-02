@@ -16,12 +16,21 @@ export const seasonalKeywordTrends: AcademyTopic = {
           title: "How Seasonality Affects Ecommerce Keyword Demand",
           content:
             "Nearly every product category has a seasonal curve. Some are obvious, winter coats, pool supplies, back-to-school gear. Others are subtler. Search volume for \"office chairs\" spikes in January as companies furnish new workspaces after budget resets. \"Protein powder\" peaks in January and again in late spring as people chase New Year's resolutions and summer fitness goals.\n\nThe magnitude of these swings matters more than you'd expect. A keyword like \"garden furniture\" might average 40,000 monthly searches, but that average masks a range from 8,000 in December to 110,000 in May. If your category page isn't ranking by April, you've already missed most of the demand curve. SEO takes time, so you need to start optimizing well before the peak.\n\nSeasonality also affects keyword difficulty. During peak season, more competitors invest in content and ads, making it harder to rank. But during the off-season, competition drops and you can build authority when it costs less effort. The stores that publish and optimize seasonal content in the quiet months are the ones sitting at position 1-3 when demand returns.\n\nUnderstanding your product's seasonal pattern is the foundation, and it builds on the principles from [keyword research for ecommerce](/academy/keyword-research-for-ecommerce). Pull 2-3 years of Google Trends data for your main category keywords and chart the curves. You'll see patterns repeating year after year. These aren't guesses, they're predictable demand cycles you can plan around.",
+          image: {
+            src: "/images/academy/seasonal-keyword-timeline.svg",
+            alt: "Timeline showing seasonal keyword demand curves for summer and holiday products with preparation windows marked 3-4 months before each peak",
+            caption: "Start SEO work 3-4 months before peak season. Build authority in the off-season when competition is lower and effort costs less.",
+          },
           items: [
             "Pull 2-3 years of Google Trends data to identify your category's seasonal patterns",
             "Note both the timing and magnitude of seasonal peaks, some keywords swing 10x between trough and peak",
             "Start SEO work 3-4 months before peak season to have pages ranking in time",
             "Use the off-season to build content authority when competition is lower",
           ],
+          callout: {
+            title: "The 10x Swing",
+            text: "\"Garden furniture\" averages 40,000 monthly searches but swings from 8,000 in December to 110,000 in May. If your page is not ranking by April, you miss the majority of a demand curve that is 14x the trough.",
+          },
         },
         {
           title: "Using Google Trends for Seasonal Planning",
@@ -85,6 +94,15 @@ export const seasonalKeywordTrends: AcademyTopic = {
             "Beginnen Sie SEO-Arbeit 3-4 Monate vor der Hochsaison, damit Seiten rechtzeitig ranken",
             "Nutzen Sie die Nebensaison, um Content-Autorität aufzubauen, wenn der Wettbewerb geringer ist",
           ],
+          image: {
+            src: "/images/academy/de/seasonal-keyword-timeline.svg",
+            alt: "Zeitstrahl mit saisonalen Keyword-Nachfragekurven für Sommer- und Feiertagsprodukte",
+            caption: "Beginnen Sie die SEO-Arbeit 3-4 Monate vor der Hochsaison. Bauen Sie Autorität in der Nebensaison auf.",
+          },
+          callout: {
+            title: "Der 10x-Schwung",
+            text: "Saisonale Keywords können in der Spitze 10x mehr Suchvolumen haben als in der Nebensaison. Wer SEO-Arbeit erst im Peak beginnt, kommt zu spät.",
+          },
         },
         {
           title: "Google Trends für die saisonale Planung nutzen",
@@ -148,6 +166,15 @@ export const seasonalKeywordTrends: AcademyTopic = {
             "Commencez le travail SEO 3-4 mois avant la haute saison pour que les pages soient positionnées à temps",
             "Utilisez la basse saison pour construire l'autorité du contenu quand la concurrence est plus faible",
           ],
+          image: {
+            src: "/images/academy/fr/seasonal-keyword-timeline.svg",
+            alt: "Zeitstrahl mit saisonalen Keyword-Nachfragekurven für Sommer- und Feiertagsprodukte",
+            caption: "Beginnen Sie die SEO-Arbeit 3-4 Monate vor der Hochsaison. Bauen Sie Autorität in der Nebensaison auf.",
+          },
+          callout: {
+            title: "Der 10x-Schwung",
+            text: "Saisonale Keywords können in der Spitze 10x mehr Suchvolumen haben als in der Nebensaison. Wer SEO-Arbeit erst im Peak beginnt, kommt zu spät.",
+          },
         },
         {
           title: "Utiliser Google Trends pour la planification saisonnière",
@@ -211,6 +238,15 @@ export const seasonalKeywordTrends: AcademyTopic = {
             "Comienza el trabajo SEO 3-4 meses antes de la temporada alta para que las páginas estén posicionadas a tiempo",
             "Usa la temporada baja para construir autoridad de contenido cuando la competencia es menor",
           ],
+          image: {
+            src: "/images/academy/es/seasonal-keyword-timeline.svg",
+            alt: "Zeitstrahl mit saisonalen Keyword-Nachfragekurven für Sommer- und Feiertagsprodukte",
+            caption: "Beginnen Sie die SEO-Arbeit 3-4 Monate vor der Hochsaison. Bauen Sie Autorität in der Nebensaison auf.",
+          },
+          callout: {
+            title: "Der 10x-Schwung",
+            text: "Saisonale Keywords können in der Spitze 10x mehr Suchvolumen haben als in der Nebensaison. Wer SEO-Arbeit erst im Peak beginnt, kommt zu spät.",
+          },
         },
         {
           title: "Usando Google Trends para la planificación estacional",
@@ -274,6 +310,15 @@ export const seasonalKeywordTrends: AcademyTopic = {
             "Inizia il lavoro SEO 3-4 mesi prima dell'alta stagione per avere le pagine posizionate in tempo",
             "Usa la bassa stagione per costruire autorita dei contenuti quando la concorrenza e minore",
           ],
+          image: {
+            src: "/images/academy/it/seasonal-keyword-timeline.svg",
+            alt: "Zeitstrahl mit saisonalen Keyword-Nachfragekurven für Sommer- und Feiertagsprodukte",
+            caption: "Beginnen Sie die SEO-Arbeit 3-4 Monate vor der Hochsaison. Bauen Sie Autorität in der Nebensaison auf.",
+          },
+          callout: {
+            title: "Der 10x-Schwung",
+            text: "Saisonale Keywords können in der Spitze 10x mehr Suchvolumen haben als in der Nebensaison. Wer SEO-Arbeit erst im Peak beginnt, kommt zu spät.",
+          },
         },
         {
           title: "Usare Google Trends per la pianificazione stagionale",
@@ -337,6 +382,15 @@ export const seasonalKeywordTrends: AcademyTopic = {
             "Begin SEO-werk 3-4 maanden voor het hoogseizoen zodat pagina's op tijd ranken",
             "Gebruik het laagseizoen om contentautoriteit op te bouwen wanneer de concurrentie lager is",
           ],
+          image: {
+            src: "/images/academy/nl/seasonal-keyword-timeline.svg",
+            alt: "Zeitstrahl mit saisonalen Keyword-Nachfragekurven für Sommer- und Feiertagsprodukte",
+            caption: "Beginnen Sie die SEO-Arbeit 3-4 Monate vor der Hochsaison. Bauen Sie Autorität in der Nebensaison auf.",
+          },
+          callout: {
+            title: "Der 10x-Schwung",
+            text: "Saisonale Keywords können in der Spitze 10x mehr Suchvolumen haben als in der Nebensaison. Wer SEO-Arbeit erst im Peak beginnt, kommt zu spät.",
+          },
         },
         {
           title: "Google Trends gebruiken voor seizoensplanning",

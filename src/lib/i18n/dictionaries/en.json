@@ -1,32 +1,32 @@
 {
   "/": {
-    "title": "EcomSEO - Profit Focused Ecommerce SEO Agency",
-    "description": "We help ecommerce brands scale organic revenue with data-driven SEO strategies. Specialized in Shopify, WooCommerce, BigCommerce & more.",
-    "ogTitle": "EcomSEO - Profit Focused Ecommerce SEO Agency"
+    "title": "EcomSEO | Profit-Focused Ecommerce SEO Agency",
+    "description": "Ecommerce SEO agency helping brands grow organic revenue through data-driven SEO for Shopify, WooCommerce, BigCommerce & more.",
+    "ogTitle": "EcomSEO | Profit-Focused Ecommerce SEO Agency"
   },
   "/shopify-seo": {
-    "title": "Shopify SEO Agency | Audit, Fix & Scale Organic Revenue | EcomSEO",
-    "description": "We've scaled organic revenue for 50+ Shopify stores. Technical SEO audits, theme speed optimization, and collection architecture that drives real revenue. Book your free Shopify SEO audit.",
-    "ogTitle": "Shopify SEO Agency - Revenue-Driven SEO for Shopify & Shopify Plus | EcomSEO"
+    "title": "Shopify SEO Agency | Scale Organic Revenue | EcomSEO",
+    "description": "Shopify SEO agency. Technical audits, theme speed optimization, collection page structure, and content strategy that grows organic revenue.",
+    "ogTitle": "Shopify SEO Agency — Revenue-Driven SEO for Shopify | EcomSEO"
   },
   "/ecommerce-seo": {
-    "title": "Ecommerce SEO Services — 8-Figure Revenue Generated | EcomSEO",
-    "description": "Ecommerce SEO agency that audits, fixes, and scales organic traffic for online stores. 50+ stores optimized, 140% avg. traffic increase. Book a free strategy call.",
+    "title": "Ecommerce SEO Services | EcomSEO",
+    "description": "Ecommerce SEO agency for Shopify, WooCommerce and BigCommerce. Technical audits, on-page optimization, and link building that grows revenue.",
     "ogTitle": "Ecommerce SEO Services That Grow Revenue — Not Just Traffic | EcomSEO"
   },
   "/link-building": {
-    "title": "Ecommerce Link Building Services — 9,000+ Links Secured | EcomSEO",
-    "description": "Profit-focused link building for ecommerce stores. 900+ partner sites, 500+ happy clients. We build high-authority backlinks that drive revenue, not vanity metrics.",
+    "title": "Ecommerce Link Building | EcomSEO",
+    "description": "Ecommerce link building service. We secure relevant backlinks through content outreach, digital PR, and niche partnerships.",
     "ogTitle": "Link Building Services That Drive Ecommerce Revenue | EcomSEO"
   },
   "/keyword-research": {
-    "title": "Keyword Research Services for Ecommerce — Revenue-First | EcomSEO",
-    "description": "We map 12,000+ keywords to buyer intent and your product catalog. 340% avg. traffic growth. Get a keyword strategy that drives revenue, not just rankings.",
+    "title": "Keyword Research for Ecommerce | EcomSEO",
+    "description": "Ecommerce keyword research service. We map buyer intent to your product pages and build a strategy that drives sales, not just traffic.",
     "ogTitle": "Revenue-First Keyword Research Services for Ecommerce | EcomSEO"
   },
   "/content-writing": {
-    "title": "SEO Content Writing Services for Ecommerce Stores | EcomSEO",
-    "description": "SEO content that ranks and converts. Product descriptions, category pages, blog posts, and buying guides in 6 languages. 50+ ecommerce stores scaled.",
+    "title": "SEO Content Writing | EcomSEO",
+    "description": "SEO content that ranks and converts. Product descriptions, category pages, blog posts, and buying guides in 6 languages.",
     "ogTitle": "SEO Content Writing Services That Rank & Convert | EcomSEO"
   },
   "/adobe-commerce-seo": {
@@ -45,28 +45,28 @@
     "ogTitle": "BigCommerce SEO for High-SKU Catalogs | EcomSEO"
   },
   "/amazon-seo": {
-    "title": "Amazon SEO Services — Listing Optimization & A9 Strategy | EcomSEO",
-    "description": "Amazon SEO agency that boosts organic rankings without increasing ad spend. Listing optimization, backend keywords, A+ content. 3.2x avg. impressions growth.",
+    "title": "Amazon SEO Services | EcomSEO",
+    "description": "Amazon SEO agency for listing optimization, backend keywords, and A+ content. We grow your organic rankings on Amazon without more ad spend.",
     "ogTitle": "Amazon SEO Services — Get Your Brand on Top of Amazon | EcomSEO"
   },
   "/fashion-seo": {
-    "title": "Fashion SEO Agency — Seasonal Strategy for Apparel Brands | EcomSEO",
-    "description": "SEO for fashion ecommerce: seasonal planning, collection page optimization, and visual search strategy. We've driven 3x organic revenue for fashion brands.",
+    "title": "Fashion SEO Agency | EcomSEO",
+    "description": "Fashion ecommerce SEO agency. Seasonal keyword planning, collection page optimization, and content strategy for apparel brands.",
     "ogTitle": "Fashion SEO Agency — Turn Search Traffic Into Sales | EcomSEO"
   },
   "/beauty-seo": {
-    "title": "Beauty & Skincare SEO Agency — Ingredient-Driven Strategy | EcomSEO",
-    "description": "Beauty ecommerce SEO built around ingredient searches, skin concern keywords, and routine content. Specialized strategies for skincare, cosmetics, and haircare brands.",
+    "title": "Beauty & Skincare SEO | EcomSEO",
+    "description": "Beauty SEO built around ingredient searches, skin concern keywords, and routine content. For skincare, cosmetics, and haircare.",
     "ogTitle": "Beauty & Skincare SEO — Ingredient-Driven Strategy | EcomSEO"
   },
   "/consumables-seo": {
-    "title": "Supplement & Food Ecommerce SEO — Subscription Growth | EcomSEO",
-    "description": "SEO for supplement, food, and CPG ecommerce brands. We optimize for subscription intent, ingredient searches, and repeat purchase keywords. 200%+ avg. traffic growth.",
+    "title": "Supplement & Food SEO | EcomSEO",
+    "description": "SEO for supplement, food, and CPG ecommerce brands. Subscription intent, ingredient searches, and repeat purchase keywords.",
     "ogTitle": "Supplement & Food SEO — Drive Subscriptions & Repeat Revenue | EcomSEO"
   },
   "/toys-seo": {
-    "title": "Toy Store SEO Agency — Seasonal & Age-Based Strategy | EcomSEO",
-    "description": "SEO for toy and game ecommerce brands. Seasonal keyword planning, age-based collection optimization, and gift guide content that drives holiday revenue.",
+    "title": "Toy Store SEO Agency | EcomSEO",
+    "description": "SEO for toy and game ecommerce brands. Seasonal keyword planning, age-based collection optimization, and gift guide content.",
     "ogTitle": "Toy Store SEO — Rank Higher & Sell More Toys Online | EcomSEO"
   },
   "/cases": {
@@ -180,7 +180,7 @@
     "ogTitle": "Link Building Tactics for Ecommerce | EcomSEO Guides"
   },
   "/guides/topical-authority": {
-    "title": "Getting Topical Authority for Ecommerce | EcomSEO Guides",
+    "title": "Topical Authority for Ecommerce | EcomSEO",
     "description": "Build topical authority with content clusters, hub-and-spoke architecture, and strategic internal linking for your ecommerce store.",
     "ogTitle": "Getting Topical Authority for Ecommerce | EcomSEO Guides"
   },
@@ -199,7 +199,7 @@
     "description": "Fabian van Til, founder of EcomSEO. Helping ecommerce brands get discovered on AI and LLMs like ChatGPT.",
     "ogTitle": "Fabian van Til - LLM Optimisation Agency | EcomSEO"
   },
-  "/intent-matching-tool": {
+  "/tools/intent-matching-tool": {
     "title": "Intent Matching Tool - AI Keyword Analyzer | EcomSEO",
     "description": "Analyze search intent for your ecommerce keywords. Understand what your customers are looking for and optimize your content accordingly.",
     "ogTitle": "Intent Matching Tool - AI Keyword Analyzer | EcomSEO"
@@ -246,12 +246,12 @@
   },
   "/ecommerce-seo-services": {
     "title": "All Ecommerce SEO Services | EcomSEO",
-    "description": "Every ecommerce SEO service you need in one place. Technical SEO, on-page optimization, link building, keyword research, content writing, and more.",
+    "description": "All ecommerce SEO services in one place. Technical SEO, on-page optimization, link building, keyword research, and content.",
     "ogTitle": "Every Ecommerce SEO Service You Need | EcomSEO"
   },
   "/tools": {
     "title": "Free Ecommerce SEO Tools | EcomSEO",
-    "description": "Free SEO tools built by ecommerce specialists. Run SEO audits, validate schema, check meta tags, and uncover growth opportunities for your online store.",
+    "description": "Free SEO tools built for ecommerce. Run audits, validate schema, check meta tags, and find growth opportunities for your store.",
     "ogTitle": "Free SEO Tools for Ecommerce Stores | EcomSEO"
   },
   "/tools/shopify-seo-audit": {
@@ -261,21 +261,31 @@
   },
   "/tools/ecommerce-seo-audit": {
     "title": "Free Ecommerce SEO Audit Tool | EcomSEO",
-    "description": "Analyze your online store's SEO health across any platform. Technical SEO, content quality, structured data, page speed, and mobile optimization checked.",
+    "description": "Analyze your store's SEO health across any platform. Technical SEO, content quality, structured data, and page speed checked.",
     "ogTitle": "Free Ecommerce SEO Audit - Any Platform | EcomSEO"
+  },
+  "/audit": {
+    "title": "Give Me A Demo — 30-min Call with Fabian | EcomSEO",
+    "description": "Book a free 30-minute demo call with Fabian. He opens your store in Semrush, shows where you're leaking organic revenue, and walks you through the fixes that move revenue and margin across Google and AI engines.",
+    "ogTitle": "Give Me A Demo — 30-min call with Fabian"
+  },
+  "/demo": {
+    "title": "Give Me A Demo — 30-min Call with Fabian | EcomSEO",
+    "description": "Book a free 30-minute demo call with Fabian. He opens your store in Semrush, shows where you're leaking organic revenue, and walks you through the fixes that move revenue and margin across Google and AI engines.",
+    "ogTitle": "Give Me A Demo — 30-min call with Fabian"
   },
   "/tools/serp-simulator": {
     "title": "Free Google SERP Simulator | EcomSEO",
-    "description": "Preview how your pages appear in Google search results. Optimize title tags and meta descriptions for maximum click-through rate. Free, no signup required.",
+    "description": "Preview how your pages appear in Google search results. Optimize title tags and meta descriptions for better click-through rates.",
     "ogTitle": "Free Google SERP Simulator | EcomSEO"
   },
   "/tools/schema-generator": {
-    "title": "Free Product Schema Generator - JSON-LD Markup | EcomSEO",
-    "description": "Generate valid JSON-LD Product schema markup for your ecommerce pages. Get rich snippets with price, availability, and reviews in Google search results.",
+    "title": "Free Product Schema Generator | EcomSEO",
+    "description": "Generate valid JSON-LD Product schema for your ecommerce pages. Get rich snippets with price, availability, and reviews in Google.",
     "ogTitle": "Free Product Schema Generator - Rich Snippets for Ecommerce | EcomSEO"
   },
   "/tools/og-checker": {
-    "title": "Free Open Graph Checker - Social Media Preview | EcomSEO",
+    "title": "Free Open Graph Checker | EcomSEO",
     "description": "Check how your pages look when shared on Facebook, Twitter/X, and LinkedIn. Validate Open Graph and Twitter Card meta tags instantly.",
     "ogTitle": "Free Open Graph Checker - Preview Social Media Shares | EcomSEO"
   },
@@ -296,7 +306,7 @@
   },
   "/tools/canonical-checker": {
     "title": "Free Canonical Tag Checker & Validator | EcomSEO",
-    "description": "Validate canonical tags across your pages. Detect missing canonicals, conflicts, HTTP/HTTPS mismatches, and duplicate content issues. Free SEO tool.",
+    "description": "Validate canonical tags across your pages. Detect missing canonicals, conflicts, and duplicate content issues. Free SEO tool.",
     "ogTitle": "Free Canonical Tag Checker - Find Duplicate Content Issues | EcomSEO"
   },
   "/tools/indexability-checker": {
@@ -321,7 +331,7 @@
   },
   "/tools/core-web-vitals": {
     "title": "Free Core Web Vitals Checker - LCP, CLS & INP | EcomSEO",
-    "description": "Check LCP, CLS, and INP scores for mobile and desktop across multiple pages. Powered by Google PageSpeed Insights. Free bulk SEO performance tool.",
+    "description": "Check LCP, CLS, and INP scores for mobile and desktop. Powered by Google PageSpeed Insights. Free bulk performance tool.",
     "ogTitle": "Free Core Web Vitals Checker - LCP, CLS & INP Bulk Tool | EcomSEO"
   },
   "/tools/schema-validator": {
@@ -355,13 +365,13 @@
     "ogTitle": "Free Shopping Feed Validator - Google Merchant Center | EcomSEO"
   },
   "/tools/internal-link-analyzer": {
-    "title": "Free Internal Link Analyzer - Find Orphan Pages | EcomSEO",
+    "title": "Free Internal Link Analyzer | EcomSEO",
     "description": "Map internal links on any page, find orphan pages, and analyze link depth. Identify broken internal links and linking opportunities. Free SEO tool.",
     "ogTitle": "Free Internal Link Analyzer - Map Links & Find Issues | EcomSEO"
   },
   "/tools/site-speed-comparison": {
     "title": "Free Site Speed Comparison Tool | EcomSEO",
-    "description": "Compare page speed performance across multiple websites side by side. Benchmark your site against competitors with Google PageSpeed data. Free tool.",
+    "description": "Compare page speed across multiple websites side by side. Benchmark your site against competitors with PageSpeed data. Free tool.",
     "ogTitle": "Free Site Speed Comparison - Benchmark vs Competitors | EcomSEO"
   },
   "/tools/sitemap-extractor": {
@@ -371,12 +381,12 @@
   },
   "/academy": {
     "title": "EcomSEO Academy - Learn Ecommerce SEO | EcomSEO",
-    "description": "Structured ecommerce SEO learning path built by practitioners. 10 clusters covering keyword research, on-page, technical SEO, link building, and more.",
+    "description": "Ecommerce SEO learning path built by practitioners. 10 clusters covering keyword research, on-page, technical SEO, and link building.",
     "ogTitle": "EcomSEO Academy - Learn Ecommerce SEO | EcomSEO"
   },
   "/pricing": {
     "title": "Pricing - Ecommerce SEO Packages | EcomSEO",
-    "description": "Custom ecommerce SEO packages tailored to your brand's goals and growth stage. From foundation-building to market domination. Get a custom proposal.",
+    "description": "Custom ecommerce SEO packages for your brand's goals. From foundation-building to market leadership. Get a custom proposal.",
     "ogTitle": "Ecommerce SEO Pricing - Invest in Revenue, Not Vanity Metrics | EcomSEO"
   }
 }

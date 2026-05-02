@@ -1,0 +1,33 @@
+<svg viewBox="0 0 700 310" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <text x="350" y="28" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#a78bfa">Local SEO for D2C Brands in India</text>
+  <!-- Strategy pillars -->
+  <rect x="30" y="55" width="150" height="90" rx="8" stroke="#a78bfa" stroke-width="1.5"/>
+  <text x="105" y="78" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#a78bfa">Google Business</text>
+  <text x="105" y="95" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Verify each location</text>
+  <text x="105" y="110" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Accurate NAP data</text>
+  <text x="105" y="125" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Customer reviews</text>
+  <rect x="200" y="55" width="150" height="90" rx="8" stroke="#60a5fa" stroke-width="1.5"/>
+  <text x="275" y="78" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#60a5fa">City Pages</text>
+  <text x="275" y="95" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">"buy [product] in Bangalore"</text>
+  <text x="275" y="110" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">"[brand] store Mumbai"</text>
+  <text x="275" y="125" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">LocalBusiness schema</text>
+  <rect x="370" y="55" width="150" height="90" rx="8" stroke="#4ade80" stroke-width="1.5"/>
+  <text x="445" y="78" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#4ade80">Delivery Speed</text>
+  <text x="445" y="95" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">"same day delivery Delhi"</text>
+  <text x="445" y="110" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Pin code serviceability</text>
+  <text x="445" y="125" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Hyperlocal targeting</text>
+  <rect x="540" y="55" width="140" height="90" rx="8" stroke="#f97316" stroke-width="1.5"/>
+  <text x="610" y="78" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#f97316">Maps</text>
+  <text x="610" y="95" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">15-20% discovery</text>
+  <text x="610" y="110" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">via Maps + local</text>
+  <text x="610" y="125" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">search results</text>
+  <!-- Examples -->
+  <rect x="80" y="170" width="540" height="55" rx="8" stroke="#4ade80" stroke-width="1.5"/>
+  <text x="350" y="192" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#4ade80">Successful Indian D2C Examples</text>
+  <text x="180" y="212" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Sugar Cosmetics</text>
+  <text x="350" y="212" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Lenskart</text>
+  <text x="500" y="212" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Wakefit</text>
+  <!-- Key stat -->
+  <text x="350" y="255" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#f97316">Pin code and delivery speed terms have genuine search volume in India</text>
+  <text x="350" y="278" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0" opacity="0.7">Omnichannel D2C brands see 15-20% of online discovery through Google Maps</text>
+</svg>

@@ -1,0 +1,36 @@
+<svg viewBox="0 0 680 300" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <text x="340" y="28" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#a78bfa">India Ecommerce: Mobile-First Priorities</text>
+  <!-- Mobile phone outline -->
+  <rect x="270" y="50" width="140" height="240" rx="16" fill="none" stroke="#a78bfa" stroke-width="1.5" opacity="0.3"/>
+  <rect x="280" y="70" width="120" height="195" rx="4" fill="#a78bfa" opacity="0.06"/>
+  <circle cx="340" cy="278" r="6" fill="none" stroke="#a78bfa" stroke-width="1" opacity="0.3"/>
+  <!-- Stats inside phone -->
+  <text x="340" y="95" text-anchor="middle" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="#4ade80">75%+</text>
+  <text x="340" y="112" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">of Indian ecommerce</text>
+  <text x="340" y="125" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">traffic is mobile</text>
+  <line x1="295" y1="140" x2="385" y2="140" stroke="#e2e8f0" stroke-width="0.5" opacity="0.2"/>
+  <text x="340" y="162" text-anchor="middle" font-family="Arial,sans-serif" font-size="16" font-weight="bold" fill="#f97316">3G/4G</text>
+  <text x="340" y="178" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">still dominant in</text>
+  <text x="340" y="191" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Tier 2-3 cities</text>
+  <line x1="295" y1="205" x2="385" y2="205" stroke="#e2e8f0" stroke-width="0.5" opacity="0.2"/>
+  <text x="340" y="225" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#60a5fa">&lt; 2.5s</text>
+  <text x="340" y="242" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">target load time</text>
+  <!-- Left priorities -->
+  <rect x="30" y="70" width="210" height="36" rx="6" fill="#4ade80" opacity="0.12" stroke="#4ade80" stroke-width="1"/>
+  <text x="135" y="93" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Compress images under 50KB</text>
+  <rect x="30" y="120" width="210" height="36" rx="6" fill="#60a5fa" opacity="0.12" stroke="#60a5fa" stroke-width="1"/>
+  <text x="135" y="143" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">AMP or lite pages for Tier 2-3</text>
+  <rect x="30" y="170" width="210" height="36" rx="6" fill="#f97316" opacity="0.12" stroke="#f97316" stroke-width="1"/>
+  <text x="135" y="193" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Thumb-friendly tap targets</text>
+  <rect x="30" y="220" width="210" height="36" rx="6" fill="#a78bfa" opacity="0.12" stroke="#a78bfa" stroke-width="1"/>
+  <text x="135" y="243" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">UPI / wallet payment flows</text>
+  <!-- Right priorities -->
+  <rect x="440" y="70" width="210" height="36" rx="6" fill="#ef4444" opacity="0.12" stroke="#ef4444" stroke-width="1"/>
+  <text x="545" y="93" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Minimize JavaScript bundles</text>
+  <rect x="440" y="120" width="210" height="36" rx="6" fill="#4ade80" opacity="0.12" stroke="#4ade80" stroke-width="1"/>
+  <text x="545" y="143" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">CDN with Indian PoPs</text>
+  <rect x="440" y="170" width="210" height="36" rx="6" fill="#60a5fa" opacity="0.12" stroke="#60a5fa" stroke-width="1"/>
+  <text x="545" y="193" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Lazy load below-the-fold</text>
+  <rect x="440" y="220" width="210" height="36" rx="6" fill="#f97316" opacity="0.12" stroke="#f97316" stroke-width="1"/>
+  <text x="545" y="243" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Responsive, not adaptive</text>
+</svg>

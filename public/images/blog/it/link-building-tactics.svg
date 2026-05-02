@@ -1,0 +1,29 @@
+<svg viewBox="0 0 680 320" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <text x="340" y="28" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#a78bfa">Ecommerce Link Building Tactics -- Impact vs Effort</text>
+  <line x1="80" y1="60" x2="80" y2="270" stroke="#e2e8f0" stroke-width="0.5"/>
+  <line x1="80" y1="270" x2="640" y2="270" stroke="#e2e8f0" stroke-width="0.5"/>
+  <text x="40" y="170" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0" transform="rotate(-90,40,170)">Impact</text>
+  <text x="360" y="295" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Effort Required</text>
+  <text x="80" y="56" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">High</text>
+  <text x="620" y="285" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">High</text>
+  <circle cx="180" cy="100" r="30" stroke="#4ade80" stroke-width="2" fill="none"/>
+  <text x="180" y="96" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#4ade80">Supplier</text>
+  <text x="180" y="108" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#4ade80">Links</text>
+  <circle cx="260" cy="130" r="28" stroke="#4ade80" stroke-width="2" fill="none"/>
+  <text x="260" y="126" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#4ade80">Brand</text>
+  <text x="260" y="138" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#4ade80">Mentions</text>
+  <circle cx="380" cy="90" r="34" stroke="#60a5fa" stroke-width="2" fill="none"/>
+  <text x="380" y="86" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#60a5fa">Digital</text>
+  <text x="380" y="98" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#60a5fa">PR</text>
+  <circle cx="480" cy="120" r="32" stroke="#60a5fa" stroke-width="2" fill="none"/>
+  <text x="480" y="116" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#60a5fa">Product</text>
+  <text x="480" y="128" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#60a5fa">Reviews</text>
+  <circle cx="340" cy="180" r="26" stroke="#f97316" stroke-width="2" fill="none"/>
+  <text x="340" y="176" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#f97316">Resource</text>
+  <text x="340" y="188" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#f97316">Pages</text>
+  <circle cx="520" cy="170" r="28" stroke="#f97316" stroke-width="2" fill="none"/>
+  <text x="520" y="166" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#f97316">Broken Link</text>
+  <text x="520" y="178" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#f97316">Building</text>
+  <text x="155" y="246" font-family="Arial,sans-serif" font-size="9" fill="#4ade80">Start here (easy wins)</text>
+  <text x="420" y="246" font-family="Arial,sans-serif" font-size="9" fill="#60a5fa">Scale up over time</text>
+</svg>

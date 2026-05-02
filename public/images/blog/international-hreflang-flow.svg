@@ -1,0 +1,46 @@
+<svg viewBox="0 0 680 320" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <text x="340" y="28" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#a78bfa">Hreflang Implementation at Scale</text>
+  <g transform="translate(240,50)">
+    <rect x="0" y="0" width="200" height="40" rx="6" stroke="#a78bfa" stroke-width="2" fill="none"/>
+    <text x="100" y="25" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#a78bfa">/products/blue-jacket</text>
+  </g>
+  <line x1="340" y1="90" x2="340" y2="110" stroke="#a78bfa" stroke-width="1" stroke-dasharray="4"/>
+  <line x1="100" y1="120" x2="580" y2="120" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="4"/>
+  <line x1="100" y1="120" x2="100" y2="140" stroke="#e2e8f0" stroke-width="1"/>
+  <line x1="260" y1="120" x2="260" y2="140" stroke="#e2e8f0" stroke-width="1"/>
+  <line x1="420" y1="120" x2="420" y2="140" stroke="#e2e8f0" stroke-width="1"/>
+  <line x1="580" y1="120" x2="580" y2="140" stroke="#e2e8f0" stroke-width="1"/>
+  <g transform="translate(30,145)">
+    <rect x="0" y="0" width="140" height="50" rx="6" stroke="#60a5fa" stroke-width="2" fill="none"/>
+    <text x="70" y="20" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#60a5fa">en-US</text>
+    <text x="70" y="38" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">/us/products/blue-jacket</text>
+  </g>
+  <g transform="translate(190,145)">
+    <rect x="0" y="0" width="140" height="50" rx="6" stroke="#4ade80" stroke-width="2" fill="none"/>
+    <text x="70" y="20" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#4ade80">de-DE</text>
+    <text x="70" y="38" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">/de/products/blaue-jacke</text>
+  </g>
+  <g transform="translate(350,145)">
+    <rect x="0" y="0" width="140" height="50" rx="6" stroke="#f97316" stroke-width="2" fill="none"/>
+    <text x="70" y="20" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#f97316">fr-FR</text>
+    <text x="70" y="38" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">/fr/products/veste-bleue</text>
+  </g>
+  <g transform="translate(510,145)">
+    <rect x="0" y="0" width="140" height="50" rx="6" stroke="#f472b6" stroke-width="2" fill="none"/>
+    <text x="70" y="20" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#f472b6">x-default</text>
+    <text x="70" y="38" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">/products/blue-jacket</text>
+  </g>
+  <text x="340" y="222" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#a78bfa">Every relationship must be bidirectional</text>
+  <g transform="translate(40,240)">
+    <rect x="0" y="0" width="290" height="60" rx="6" stroke="#f97316" stroke-width="2" fill="none"/>
+    <text x="145" y="20" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#f97316">Common Failures</text>
+    <text x="10" y="38" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Missing reciprocal tags (30-40% error rate)</text>
+    <text x="10" y="52" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Links to redirected/deleted URLs</text>
+  </g>
+  <g transform="translate(350,240)">
+    <rect x="0" y="0" width="290" height="60" rx="6" stroke="#4ade80" stroke-width="2" fill="none"/>
+    <text x="145" y="20" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#4ade80">Best Practice</text>
+    <text x="10" y="38" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Use XML sitemaps for hreflang at scale</text>
+    <text x="10" y="52" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Validate monthly -- new products break tags</text>
+  </g>
+</svg>

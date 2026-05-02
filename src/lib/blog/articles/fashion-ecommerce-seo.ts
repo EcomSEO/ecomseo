@@ -3,7 +3,7 @@ import type { BlogArticle } from "../types";
 export const fashionEcommerceSeo: BlogArticle = {
   slug: "fashion-ecommerce-seo",
   category: "industry",
-  publishDate: "2025-07-10",
+  publishDate: "2026-03-03",
   readingTime: 11,
   author: "Fabian van Til",
   authorRole: "CEO at EcomSEO",
@@ -32,6 +32,7 @@ export const fashionEcommerceSeo: BlogArticle = {
             "Trend keywords require speed. When a trend emerges (a celebrity wears something, a TikTok video goes viral, a designer collection drops), you have a narrow window to publish relevant content and capture that search interest. We recommend keeping a content calendar that tracks fashion week schedules, seasonal trends, and cultural events that drive search behavior. Having template pages ready for trend-based content lets you publish within days instead of weeks.",
             "Size and fit keywords are underserved in fashion SEO. Searches like 'best jeans for pear body shape' or 'oversized blazer size guide' have decent volume and very high purchase intent. These are perfect targets for blog content and buying guides that link directly to relevant products. For a deeper look at content structure, see our guide to [ecommerce category page SEO](/blog/ecommerce-category-page-seo)."
           ],
+          image: { src: "/images/blog/fashion-keyword-strategy.svg", alt: "Comparison of trend keywords versus staple keywords for fashion ecommerce with strategy recommendations", caption: "Fashion stores need both fast-moving trend keywords and steady staple keywords in their SEO strategy." },
         },
         {
           heading: "Handling seasonal collections without losing SEO value",
@@ -41,6 +42,8 @@ export const fashionEcommerceSeo: BlogArticle = {
             "For time-specific content (like a blog post about spring 2025 trends), keep the page live after the season ends. Update the title and intro to acknowledge it is from a past season, add a link to the current season's equivalent, and let it retain whatever rankings and backlinks it has. A page that ranks for 'spring fashion trends 2025' will still get traffic from people researching past trends, and it passes link equity to your current content through internal links.",
             "Products that go out of stock need a plan too. Do not return a 404. If the product will return, keep the page live with an 'out of stock' notice and a notification signup. If the product is permanently discontinued, 301 redirect it to the most similar current product or to the parent category. We have seen fashion stores with 30% to 50% of their product URLs returning 404 errors. That is a massive waste of crawl budget and link equity."
           ],
+          image: { src: "/images/blog/fashion-seasonal-seo.svg", alt: "Comparison of wrong versus right seasonal page strategies showing authority reset vs authority growth", caption: "Keeping a permanent URL like /summer-dresses and updating products each season preserves accumulated authority." },
+          callout: { title: "Permanent URLs Win", text: "Deleting seasonal pages and recreating them yearly resets authority to zero. Keep the URL permanent, swap in new products, and update copy. Authority compounds instead of resetting." },
         },
         {
           heading: "Image SEO for fashion ecommerce",
@@ -51,6 +54,7 @@ export const fashionEcommerceSeo: BlogArticle = {
             "WebP and AVIF formats reduce file sizes by 30% to 50% compared to JPEG without visible quality loss. Serve these modern formats with proper fallbacks. Use responsive images (srcset attributes) to serve appropriately sized images for different screen sizes. A 3000px-wide hero image loaded on a mobile phone is wasted bandwidth and hurts your Core Web Vitals scores.",
             "Structured data for images connects your product photos to your product listings in Google's index. Use the 'image' property in your Product schema markup, and ensure each variant (color, pattern) has its own image referenced in the schema. Google Shopping results pull from this data, and accurate image-to-variant mapping increases your visibility in visual shopping results."
           ],
+          image: { src: "/images/blog/fashion-image-seo-checklist.svg", alt: "Three-column checklist for fashion image SEO covering file basics, quality signals, and schema requirements", caption: "Fashion stores can drive 15-25% of organic traffic from image search with proper optimization." },
         },
         {
           heading: "Managing size variants and product URLs",
@@ -61,6 +65,8 @@ export const fashionEcommerceSeo: BlogArticle = {
             "For colors that people actively search for, separate URLs make sense. 'Red leather jacket' has different search intent than 'black leather jacket.' But 'slightly different shade of beige #3' probably does not need its own URL. Use search volume data to make this decision. If a color + product combination gets meaningful search volume, give it its own indexable URL. If not, keep it as an on-page variant.",
             "Avoid URL parameters for variants where possible. Clean URLs like /products/linen-blazer-olive are better for SEO than /products/linen-blazer?color=olive&size=M. If your platform forces parameter-based URLs, configure Google Search Console's URL parameter handling and set up canonical tags correctly."
           ],
+          image: { src: "/images/blog/fashion-variant-url-strategy.svg", alt: "Fashion product variant URL strategy showing when to create separate color URLs versus on-page selectors based on search volume", caption: "Use search volume data to decide: if 'red leather jacket' has volume, give it its own URL." },
+          callout: { title: "One URL Per Product", text: "A dress in 5 colors and 8 sizes creates 40 variants. The most SEO-friendly approach is one URL with on-page selectors -- separate color URLs only when that color + product has meaningful search volume." },
         },
         {
           heading: "Fashion-specific schema markup",
@@ -71,6 +77,8 @@ export const fashionEcommerceSeo: BlogArticle = {
             "The 'isSimilarTo' and 'isRelatedTo' properties let you explicitly connect related products in your schema. Link a dress to its matching accessories, or connect seasonal variations of the same core product. This helps Google understand your product relationships and can influence which related products appear in search results.",
             "One thing we see fashion brands overlook: review schema should include body type or fit information when available. If your reviews mention fit ('runs small', 'true to size'), extracting and structuring this data gives Google additional context about your products. Some fashion retailers have started using custom review attributes for fit, which appear in rich snippets and help with conversion. For a broader approach to fashion content that supports rankings, see our [ecommerce SEO content guide](/blog/ecommerce-seo-content)."
           ],
+          image: { src: "/images/blog/fashion-schema-apparel.svg", alt: "Fashion-specific schema markup showing required Product properties plus apparel-specific fields like color, size, material, pattern, and audience", caption: "Google Shopping results pull directly from these properties -- accurate data increases visibility." },
+          callout: { title: "Apparel Schema Properties", text: "Go beyond basic Product schema. Add color, size (per-offer availability), material, pattern, and audience properties. Google uses these to categorize clothing in Shopping results." },
         },
         {
           heading: "Influencer-driven link building for fashion brands",
@@ -81,6 +89,7 @@ export const fashionEcommerceSeo: BlogArticle = {
             "Fashion publications and style magazines are another strong channel. Digital publications like Refinery29, Who What Wear, and Elle's online edition regularly produce shopping roundups and gift guides. Getting your products included in these pieces generates high-authority editorial links. The key is having a well-organized press page, high-quality product images ready for download, and a PR contact who responds quickly to editorial requests.",
             "Do not forget about fashion affiliate content. Sites that review and recommend clothing products generate links naturally when they include your products. Make sure your affiliate program is easy to join and that your product data feed is accurate and up-to-date so affiliates can create content that links back to the right pages."
           ],
+          callout: { title: "Blog Over Social", text: "A footwear brand built 45 backlinks via influencer blog collaborations in 6 months, boosting product page traffic by 67%. A single blog post on a DR 50+ site outweighs 100 Instagram stories for SEO." },
         },
         {
           heading: "Visual search optimization and what comes next",
@@ -114,6 +123,7 @@ export const fashionEcommerceSeo: BlogArticle = {
             "Trend-Keywords erfordern Geschwindigkeit. Wenn ein Trend entsteht (ein Promi traegt etwas, ein TikTok-Video wird viral, eine Designerkollektion erscheint), haben Sie ein enges Zeitfenster, um relevante Inhalte zu veroeffentlichen und dieses Suchinteresse einzufangen. Wir empfehlen, einen Content-Kalender zu fuehren, der Fashion-Week-Termine, saisonale Trends und kulturelle Events verfolgt, die das Suchverhalten beeinflussen. Vorgefertigte Seitenvorlagen fuer trendbasierte Inhalte ermoeglichen es Ihnen, innerhalb von Tagen statt Wochen zu veroeffentlichen.",
             "Groessen- und Passform-Keywords sind im Fashion SEO unterversorgt. Suchen wie 'beste Jeans fuer Birnenform' oder 'Oversized Blazer Groessenratgeber' haben ordentliches Volumen und sehr hohe Kaufabsicht. Diese eignen sich perfekt als Ziel fuer Blog-Inhalte und Kaufratgeber, die direkt auf relevante Produkte verlinken. Fuer einen tieferen Einblick in die Content-Struktur lesen Sie unseren Leitfaden zu [Ecommerce Kategorieseiten SEO](/blog/ecommerce-category-page-seo)."
           ],
+          image: { src: "/images/blog/de/fashion-keyword-strategy.svg", alt: "Comparison of trend keywords versus staple keywords for fashion ecommerce with strategy recommendations", caption: "Fashion stores need both fast-moving trend keywords and steady staple keywords in their SEO strategy." },
         },
         {
           heading: "Saisonale Kollektionen managen ohne SEO-Wert zu verlieren",
@@ -123,6 +133,8 @@ export const fashionEcommerceSeo: BlogArticle = {
             "Fuer zeitspezifische Inhalte (wie einen Blogpost ueber Fruehjahstrends 2025) lassen Sie die Seite nach Saisonende online. Aktualisieren Sie den Titel und die Einleitung, um zu kennzeichnen, dass es sich um eine vergangene Saison handelt, fuegen Sie einen Link zum aktuellen Saison-Aequivalent hinzu und lassen Sie die Seite ihre Rankings und Backlinks behalten. Eine Seite, die fuer 'Fruehjahr Modetrends 2025' rankt, wird immer noch Traffic von Personen erhalten, die vergangene Trends recherchieren, und sie gibt Link-Equity ueber interne Links an Ihre aktuellen Inhalte weiter.",
             "Produkte, die ausverkauft sind, brauchen ebenfalls einen Plan. Geben Sie keinen 404-Fehler zurueck. Wenn das Produkt zurueckkehrt, lassen Sie die Seite mit einem 'Ausverkauft'-Hinweis und einer Benachrichtigungsanmeldung online. Wenn das Produkt dauerhaft eingestellt wird, leiten Sie es mit einem 301-Redirect auf das aehnlichste aktuelle Produkt oder die uebergeordnete Kategorie um. Wir haben Modeshops gesehen, bei denen 30% bis 50% ihrer Produkt-URLs 404-Fehler zurueckgaben. Das ist eine massive Verschwendung von Crawl-Budget und Link-Equity."
           ],
+          image: { src: "/images/blog/de/fashion-seasonal-seo.svg", alt: "Comparison of wrong versus right seasonal page strategies showing authority reset vs authority growth", caption: "Keeping a permanent URL like /summer-dresses and updating products each season preserves accumulated authority." },
+          callout: { title: "Permanent URLs Win", text: "Deleting seasonal pages and recreating them yearly resets authority to zero. Keep the URL permanent, swap in new products, and update copy. Authority compounds instead of resetting." },
         },
         {
           heading: "Bild-SEO fuer Fashion Ecommerce",
@@ -133,6 +145,7 @@ export const fashionEcommerceSeo: BlogArticle = {
             "WebP- und AVIF-Formate reduzieren Dateigroessen um 30% bis 50% im Vergleich zu JPEG ohne sichtbaren Qualitaetsverlust. Liefern Sie diese modernen Formate mit passenden Fallbacks aus. Verwenden Sie responsive Bilder (srcset-Attribute), um passend dimensionierte Bilder fuer verschiedene Bildschirmgroessen bereitzustellen. Ein 3000px breites Hero-Bild, das auf einem Mobiltelefon geladen wird, ist verschwendete Bandbreite und schadet Ihren Core Web Vitals-Werten.",
             "Strukturierte Daten fuer Bilder verbinden Ihre Produktfotos mit Ihren Produkteintraegen in Googles Index. Verwenden Sie die 'image'-Eigenschaft in Ihrem Product Schema Markup und stellen Sie sicher, dass jede Variante (Farbe, Muster) ein eigenes referenziertes Bild im Schema hat. Google Shopping-Ergebnisse ziehen aus diesen Daten, und eine genaue Bild-zu-Varianten-Zuordnung erhoeht Ihre Sichtbarkeit in visuellen Shopping-Ergebnissen."
           ],
+          image: { src: "/images/blog/de/fashion-image-seo-checklist.svg", alt: "Three-column checklist for fashion image SEO covering file basics, quality signals, and schema requirements", caption: "Fashion stores can drive 15-25% of organic traffic from image search with proper optimization." },
         },
         {
           heading: "Groessenvarianten und Produkt-URLs verwalten",
@@ -143,6 +156,8 @@ export const fashionEcommerceSeo: BlogArticle = {
             "Fuer Farben, nach denen aktiv gesucht wird, sind separate URLs sinnvoll. 'Rote Lederjacke' hat eine andere Suchintention als 'schwarze Lederjacke'. Aber 'leicht anderer Beigeton Nr. 3' braucht wahrscheinlich keine eigene URL. Nutzen Sie Suchvolumendaten fuer diese Entscheidung. Wenn eine Farbe-Produkt-Kombination nennenswertes Suchvolumen hat, geben Sie ihr eine eigene indexierbare URL. Wenn nicht, behalten Sie sie als On-Page-Variante.",
             "Vermeiden Sie URL-Parameter fuer Varianten wo moeglich. Saubere URLs wie /products/linen-blazer-olive sind besser fuer SEO als /products/linen-blazer?color=olive&size=M. Wenn Ihre Plattform parameterbasierte URLs erzwingt, konfigurieren Sie die URL-Parameter-Behandlung in der Google Search Console und richten Sie Canonical Tags korrekt ein."
           ],
+          image: { src: "/images/blog/de/fashion-variant-url-strategy.svg", alt: "Fashion product variant URL strategy showing when to create separate color URLs versus on-page selectors based on search volume", caption: "Use search volume data to decide: if 'red leather jacket' has volume, give it its own URL." },
+          callout: { title: "One URL Per Product", text: "A dress in 5 colors and 8 sizes creates 40 variants. The most SEO-friendly approach is one URL with on-page selectors -- separate color URLs only when that color + product has meaningful search volume." },
         },
         {
           heading: "Fashion-spezifisches Schema Markup",
@@ -153,6 +168,8 @@ export const fashionEcommerceSeo: BlogArticle = {
             "Die Eigenschaften 'isSimilarTo' und 'isRelatedTo' ermoeglichen es Ihnen, verwandte Produkte explizit in Ihrem Schema zu verknuepfen. Verbinden Sie ein Kleid mit passenden Accessoires oder verknuepfen Sie saisonale Variationen desselben Kernprodukts. Das hilft Google, Ihre Produktbeziehungen zu verstehen, und kann beeinflussen, welche verwandten Produkte in den Suchergebnissen erscheinen.",
             "Etwas, das Modemarken oft uebersehen: Bewertungs-Schema sollte Koerpertyp- oder Passform-Informationen enthalten, wenn verfuegbar. Wenn Ihre Bewertungen die Passform erwaehnen ('faellt klein aus', 'faellt groesstreu aus'), gibt die Extraktion und Strukturierung dieser Daten Google zusaetzlichen Kontext ueber Ihre Produkte. Einige Modeeinzelhaendler haben begonnen, benutzerdefinierte Bewertungsattribute fuer die Passform zu verwenden, die in Rich Snippets erscheinen und bei der Conversion helfen. Fuer einen umfassenderen Ansatz zu Mode-Content, der Rankings unterstuetzt, lesen Sie unseren [Ecommerce SEO Content Leitfaden](/blog/ecommerce-seo-content)."
           ],
+          image: { src: "/images/blog/de/fashion-schema-apparel.svg", alt: "Fashion-specific schema markup showing required Product properties plus apparel-specific fields like color, size, material, pattern, and audience", caption: "Google Shopping results pull directly from these properties -- accurate data increases visibility." },
+          callout: { title: "Apparel Schema Properties", text: "Go beyond basic Product schema. Add color, size (per-offer availability), material, pattern, and audience properties. Google uses these to categorize clothing in Shopping results." },
         },
         {
           heading: "Influencer-gesteuerter Linkaufbau fuer Modemarken",
@@ -163,6 +180,7 @@ export const fashionEcommerceSeo: BlogArticle = {
             "Modepublikationen und Stilmagazine sind ein weiterer starker Kanal. Digitale Publikationen wie Refinery29, Who What Wear und die Online-Ausgabe von Elle produzieren regelmaessig Shopping-Roundups und Geschenkefuehrer. Wenn Ihre Produkte in diesen Beitraegen erscheinen, generiert das hochautorisierte redaktionelle Links. Der Schluessel ist eine gut organisierte Presseseite, hochwertige Produktbilder zum Download und ein PR-Kontakt, der schnell auf redaktionelle Anfragen reagiert.",
             "Vergessen Sie nicht die Mode-Affiliate-Inhalte. Seiten, die Kleidungsprodukte bewerten und empfehlen, generieren natuerlich Links, wenn sie Ihre Produkte einbeziehen. Stellen Sie sicher, dass Ihr Partnerprogramm einfach beizutreten ist und Ihr Produktdaten-Feed genau und aktuell ist, damit Affiliates Inhalte erstellen koennen, die auf die richtigen Seiten zurueckverlinken."
           ],
+          callout: { title: "Blog Over Social", text: "A footwear brand built 45 backlinks via influencer blog collaborations in 6 months, boosting product page traffic by 67%. A single blog post on a DR 50+ site outweighs 100 Instagram stories for SEO." },
         },
         {
           heading: "Optimierung fuer visuelle Suche und was als Naechstes kommt",
@@ -196,6 +214,7 @@ export const fashionEcommerceSeo: BlogArticle = {
             "Les mots-cles tendance exigent de la rapidite. Quand une tendance emerge (une celebrite porte quelque chose, une video TikTok devient virale, une collection de designer sort), vous avez une fenetre etroite pour publier du contenu pertinent et capter cet interet de recherche. Nous recommandons de tenir un calendrier editorial qui suit les calendriers des Fashion Weeks, les tendances saisonnieres et les evenements culturels qui influencent le comportement de recherche. Avoir des pages modeles pretes pour le contenu tendance vous permet de publier en quelques jours au lieu de quelques semaines.",
             "Les mots-cles lies aux tailles et a la coupe sont sous-exploites en SEO mode. Des recherches comme 'meilleur jean pour morphologie poire' ou 'guide des tailles blazer oversize' ont un volume decent et une intention d'achat tres elevee. Ce sont des cibles parfaites pour le contenu de blog et les guides d'achat qui renvoient directement vers des produits pertinents. Pour un regard plus approfondi sur la structure du contenu, consultez notre guide sur le [SEO des pages de categorie ecommerce](/blog/ecommerce-category-page-seo)."
           ],
+          image: { src: "/images/blog/fr/fashion-keyword-strategy.svg", alt: "Comparison of trend keywords versus staple keywords for fashion ecommerce with strategy recommendations", caption: "Fashion stores need both fast-moving trend keywords and steady staple keywords in their SEO strategy." },
         },
         {
           heading: "Gerer les collections saisonnieres sans perdre de valeur SEO",
@@ -205,6 +224,8 @@ export const fashionEcommerceSeo: BlogArticle = {
             "Pour le contenu lie a une periode specifique (comme un article de blog sur les tendances printemps 2025), gardez la page en ligne apres la fin de la saison. Mettez a jour le titre et l'introduction pour indiquer qu'il s'agit d'une saison passee, ajoutez un lien vers l'equivalent de la saison en cours, et laissez la page conserver ses positions et backlinks. Une page qui se positionne pour 'tendances mode printemps 2025' continuera a recevoir du trafic de personnes recherchant des tendances passees, et elle transmet du link equity a votre contenu actuel via les liens internes.",
             "Les produits en rupture de stock ont aussi besoin d'un plan. Ne renvoyez pas une erreur 404. Si le produit reviendra, gardez la page en ligne avec un avis 'rupture de stock' et une inscription pour notification. Si le produit est definitivement arrete, faites une redirection 301 vers le produit actuel le plus similaire ou vers la categorie parente. Nous avons vu des boutiques de mode avec 30% a 50% de leurs URLs produit renvoyant des erreurs 404. C'est un gaspillage massif de budget de crawl et de link equity."
           ],
+          image: { src: "/images/blog/fr/fashion-seasonal-seo.svg", alt: "Comparison of wrong versus right seasonal page strategies showing authority reset vs authority growth", caption: "Keeping a permanent URL like /summer-dresses and updating products each season preserves accumulated authority." },
+          callout: { title: "Permanent URLs Win", text: "Deleting seasonal pages and recreating them yearly resets authority to zero. Keep the URL permanent, swap in new products, and update copy. Authority compounds instead of resetting." },
         },
         {
           heading: "SEO des images pour le ecommerce mode",
@@ -215,6 +236,7 @@ export const fashionEcommerceSeo: BlogArticle = {
             "Les formats WebP et AVIF reduisent la taille des fichiers de 30% a 50% par rapport au JPEG sans perte de qualite visible. Servez ces formats modernes avec des alternatives appropriees. Utilisez des images responsives (attributs srcset) pour servir des images correctement dimensionnees pour differentes tailles d'ecran. Une image hero de 3000px de large chargee sur un telephone mobile est de la bande passante gaspillee et nuit a vos scores Core Web Vitals.",
             "Les donnees structurees pour les images connectent vos photos produit a vos fiches produit dans l'index de Google. Utilisez la propriete 'image' dans votre balisage Product schema, et assurez-vous que chaque variante (couleur, motif) a sa propre image referencee dans le schema. Les resultats Google Shopping puisent dans ces donnees, et une correspondance precise image-variante augmente votre visibilite dans les resultats de shopping visuel."
           ],
+          image: { src: "/images/blog/fr/fashion-image-seo-checklist.svg", alt: "Three-column checklist for fashion image SEO covering file basics, quality signals, and schema requirements", caption: "Fashion stores can drive 15-25% of organic traffic from image search with proper optimization." },
         },
         {
           heading: "Gerer les variantes de taille et les URLs produit",
@@ -225,6 +247,8 @@ export const fashionEcommerceSeo: BlogArticle = {
             "Pour les couleurs que les gens recherchent activement, des URLs separees ont du sens. 'Veste en cuir rouge' a une intention de recherche differente de 'veste en cuir noir'. Mais 'nuance de beige legerement differente numero 3' n'a probablement pas besoin de sa propre URL. Utilisez les donnees de volume de recherche pour prendre cette decision. Si une combinaison couleur + produit obtient un volume de recherche significatif, donnez-lui sa propre URL indexable. Sinon, gardez-la comme variante sur la page.",
             "Evitez les parametres d'URL pour les variantes autant que possible. Des URLs propres comme /products/linen-blazer-olive sont meilleures pour le SEO que /products/linen-blazer?color=olive&size=M. Si votre plateforme impose des URLs basees sur des parametres, configurez la gestion des parametres d'URL dans Google Search Console et mettez en place les balises canonical correctement."
           ],
+          image: { src: "/images/blog/fr/fashion-variant-url-strategy.svg", alt: "Fashion product variant URL strategy showing when to create separate color URLs versus on-page selectors based on search volume", caption: "Use search volume data to decide: if 'red leather jacket' has volume, give it its own URL." },
+          callout: { title: "One URL Per Product", text: "A dress in 5 colors and 8 sizes creates 40 variants. The most SEO-friendly approach is one URL with on-page selectors -- separate color URLs only when that color + product has meaningful search volume." },
         },
         {
           heading: "Balisage schema specifique a la mode",
@@ -235,6 +259,8 @@ export const fashionEcommerceSeo: BlogArticle = {
             "Les proprietes 'isSimilarTo' et 'isRelatedTo' vous permettent de connecter explicitement des produits lies dans votre schema. Liez une robe a ses accessoires assortis, ou connectez des variations saisonnieres du meme produit de base. Cela aide Google a comprendre vos relations entre produits et peut influencer quels produits associes apparaissent dans les resultats de recherche.",
             "Un point que les marques de mode oublient souvent : le schema des avis devrait inclure des informations sur le type de corps ou la coupe quand elles sont disponibles. Si vos avis mentionnent la coupe ('taille petit', 'taille correctement'), l'extraction et la structuration de ces donnees donnent a Google un contexte supplementaire sur vos produits. Certains detaillants de mode ont commence a utiliser des attributs d'avis personnalises pour la coupe, qui apparaissent dans les rich snippets et aident a la conversion. Pour une approche plus large du contenu mode qui soutient les classements, consultez notre [guide de contenu SEO ecommerce](/blog/ecommerce-seo-content)."
           ],
+          image: { src: "/images/blog/fr/fashion-schema-apparel.svg", alt: "Fashion-specific schema markup showing required Product properties plus apparel-specific fields like color, size, material, pattern, and audience", caption: "Google Shopping results pull directly from these properties -- accurate data increases visibility." },
+          callout: { title: "Apparel Schema Properties", text: "Go beyond basic Product schema. Add color, size (per-offer availability), material, pattern, and audience properties. Google uses these to categorize clothing in Shopping results." },
         },
         {
           heading: "Link building par les influenceurs pour les marques de mode",
@@ -245,6 +271,7 @@ export const fashionEcommerceSeo: BlogArticle = {
             "Les publications mode et les magazines de style sont un autre canal puissant. Les publications digitales comme Refinery29, Who What Wear et l'edition en ligne d'Elle produisent regulierement des selections shopping et des guides cadeaux. Faire inclure vos produits dans ces articles genere des liens editoriaux de haute autorite. La cle est d'avoir une page presse bien organisee, des images produit de haute qualite pretes a telecharger, et un contact RP qui repond rapidement aux demandes editoriales.",
             "N'oubliez pas le contenu affiliee mode. Les sites qui evaluent et recommandent des produits vestimentaires generent des liens naturellement quand ils incluent vos produits. Assurez-vous que votre programme d'affiliation est facile a rejoindre et que votre flux de donnees produit est precis et a jour pour que les affilies puissent creer du contenu qui renvoie vers les bonnes pages."
           ],
+          callout: { title: "Blog Over Social", text: "A footwear brand built 45 backlinks via influencer blog collaborations in 6 months, boosting product page traffic by 67%. A single blog post on a DR 50+ site outweighs 100 Instagram stories for SEO." },
         },
         {
           heading: "Optimisation de la recherche visuelle et perspectives",
@@ -278,6 +305,7 @@ export const fashionEcommerceSeo: BlogArticle = {
             "Las palabras clave de tendencia requieren velocidad. Cuando surge una tendencia (una celebridad viste algo, un video de TikTok se vuelve viral, una coleccion de disenador se lanza), tienes una ventana estrecha para publicar contenido relevante y capturar ese interes de busqueda. Recomendamos mantener un calendario de contenido que rastree los horarios de las Fashion Weeks, las tendencias estacionales y los eventos culturales que impulsan el comportamiento de busqueda. Tener paginas plantilla listas para contenido basado en tendencias te permite publicar en dias en lugar de semanas.",
             "Las palabras clave de talla y ajuste estan desatendidas en el SEO de moda. Busquedas como 'mejores vaqueros para cuerpo de pera' o 'guia de tallas blazer oversize' tienen un volumen decente y una intencion de compra muy alta. Son objetivos perfectos para contenido de blog y guias de compra que enlazan directamente a productos relevantes. Para una mirada mas profunda a la estructura del contenido, consulta nuestra guia sobre [SEO de paginas de categoria ecommerce](/blog/ecommerce-category-page-seo)."
           ],
+          image: { src: "/images/blog/es/fashion-keyword-strategy.svg", alt: "Comparison of trend keywords versus staple keywords for fashion ecommerce with strategy recommendations", caption: "Fashion stores need both fast-moving trend keywords and steady staple keywords in their SEO strategy." },
         },
         {
           heading: "Gestionar colecciones estacionales sin perder valor SEO",
@@ -287,6 +315,8 @@ export const fashionEcommerceSeo: BlogArticle = {
             "Para contenido especifico de un periodo (como un post de blog sobre tendencias de primavera 2025), mantener la pagina activa despues de que termine la temporada. Actualizar el titulo y la introduccion para indicar que es de una temporada pasada, anadir un enlace al equivalente de la temporada actual, y dejar que retenga las posiciones y backlinks que tenga. Una pagina que se posiciona para 'tendencias de moda primavera 2025' seguira recibiendo trafico de personas que investigan tendencias pasadas, y pasa link equity a tu contenido actual a traves de enlaces internos.",
             "Los productos agotados tambien necesitan un plan. No devuelvas un error 404. Si el producto volvera, mantener la pagina activa con un aviso de 'agotado' y un registro de notificacion. Si el producto se descontinua permanentemente, redirigirlo con un 301 al producto actual mas similar o a la categoria padre. Hemos visto tiendas de moda con el 30% al 50% de sus URLs de producto devolviendo errores 404. Eso es un desperdicio masivo de presupuesto de rastreo y link equity."
           ],
+          image: { src: "/images/blog/es/fashion-seasonal-seo.svg", alt: "Comparison of wrong versus right seasonal page strategies showing authority reset vs authority growth", caption: "Keeping a permanent URL like /summer-dresses and updating products each season preserves accumulated authority." },
+          callout: { title: "Permanent URLs Win", text: "Deleting seasonal pages and recreating them yearly resets authority to zero. Keep the URL permanent, swap in new products, and update copy. Authority compounds instead of resetting." },
         },
         {
           heading: "SEO de imagenes para ecommerce de moda",
@@ -297,6 +327,7 @@ export const fashionEcommerceSeo: BlogArticle = {
             "Los formatos WebP y AVIF reducen el tamano de los archivos entre un 30% y un 50% en comparacion con JPEG sin perdida de calidad visible. Sirve estos formatos modernos con alternativas adecuadas. Usa imagenes responsivas (atributos srcset) para servir imagenes de tamano apropiado para diferentes tamaños de pantalla. Una imagen hero de 3000px de ancho cargada en un telefono movil es ancho de banda desperdiciado y perjudica tus puntuaciones de Core Web Vitals.",
             "Los datos estructurados para imagenes conectan tus fotos de producto con tus listados de producto en el indice de Google. Usa la propiedad 'image' en tu marcado Product schema, y asegurate de que cada variante (color, patron) tenga su propia imagen referenciada en el schema. Los resultados de Google Shopping extraen de estos datos, y un mapeo preciso de imagen a variante aumenta tu visibilidad en los resultados de compras visuales."
           ],
+          image: { src: "/images/blog/es/fashion-image-seo-checklist.svg", alt: "Three-column checklist for fashion image SEO covering file basics, quality signals, and schema requirements", caption: "Fashion stores can drive 15-25% of organic traffic from image search with proper optimization." },
         },
         {
           heading: "Gestionar variantes de talla y URLs de producto",
@@ -307,6 +338,8 @@ export const fashionEcommerceSeo: BlogArticle = {
             "Para colores que la gente busca activamente, las URLs separadas tienen sentido. 'Chaqueta de cuero roja' tiene una intencion de busqueda diferente a 'chaqueta de cuero negra'. Pero 'tono de beige ligeramente diferente numero 3' probablemente no necesita su propia URL. Usa datos de volumen de busqueda para tomar esta decision. Si una combinacion de color + producto obtiene un volumen de busqueda significativo, dale su propia URL indexable. Si no, mantenla como variante en la pagina.",
             "Evita los parametros de URL para variantes siempre que sea posible. URLs limpias como /products/linen-blazer-olive son mejores para el SEO que /products/linen-blazer?color=olive&size=M. Si tu plataforma obliga a URLs basadas en parametros, configura la gestion de parametros de URL en Google Search Console y establece las etiquetas canonical correctamente."
           ],
+          image: { src: "/images/blog/es/fashion-variant-url-strategy.svg", alt: "Fashion product variant URL strategy showing when to create separate color URLs versus on-page selectors based on search volume", caption: "Use search volume data to decide: if 'red leather jacket' has volume, give it its own URL." },
+          callout: { title: "One URL Per Product", text: "A dress in 5 colors and 8 sizes creates 40 variants. The most SEO-friendly approach is one URL with on-page selectors -- separate color URLs only when that color + product has meaningful search volume." },
         },
         {
           heading: "Marcado schema especifico para moda",
@@ -317,6 +350,8 @@ export const fashionEcommerceSeo: BlogArticle = {
             "Las propiedades 'isSimilarTo' e 'isRelatedTo' te permiten conectar explicitamente productos relacionados en tu schema. Vincula un vestido con sus accesorios a juego, o conecta variaciones estacionales del mismo producto base. Esto ayuda a Google a entender las relaciones entre tus productos y puede influir en que productos relacionados aparecen en los resultados de busqueda.",
             "Algo que vemos que las marcas de moda pasan por alto: el schema de resenas deberia incluir informacion sobre el tipo de cuerpo o ajuste cuando este disponible. Si tus resenas mencionan el ajuste ('talla pequena', 'talla correcta'), extraer y estructurar estos datos le da a Google contexto adicional sobre tus productos. Algunos minoristas de moda han empezado a usar atributos de resena personalizados para el ajuste, que aparecen en rich snippets y ayudan con la conversion. Para un enfoque mas amplio del contenido de moda que apoya los rankings, consulta nuestra [guia de contenido SEO ecommerce](/blog/ecommerce-seo-content)."
           ],
+          image: { src: "/images/blog/es/fashion-schema-apparel.svg", alt: "Fashion-specific schema markup showing required Product properties plus apparel-specific fields like color, size, material, pattern, and audience", caption: "Google Shopping results pull directly from these properties -- accurate data increases visibility." },
+          callout: { title: "Apparel Schema Properties", text: "Go beyond basic Product schema. Add color, size (per-offer availability), material, pattern, and audience properties. Google uses these to categorize clothing in Shopping results." },
         },
         {
           heading: "Link building impulsado por influencers para marcas de moda",
@@ -327,6 +362,7 @@ export const fashionEcommerceSeo: BlogArticle = {
             "Las publicaciones de moda y revistas de estilo son otro canal fuerte. Publicaciones digitales como Refinery29, Who What Wear y la edicion online de Elle producen regularmente selecciones de compras y guias de regalos. Conseguir que tus productos aparezcan en estos articulos genera enlaces editoriales de alta autoridad. La clave es tener una pagina de prensa bien organizada, imagenes de producto de alta calidad listas para descargar, y un contacto de PR que responda rapidamente a las solicitudes editoriales.",
             "No te olvides del contenido de afiliados de moda. Los sitios que resenan y recomiendan productos de ropa generan enlaces naturalmente cuando incluyen tus productos. Asegurate de que tu programa de afiliados sea facil de unirse y que tu feed de datos de producto sea preciso y actualizado para que los afiliados puedan crear contenido que enlace a las paginas correctas."
           ],
+          callout: { title: "Blog Over Social", text: "A footwear brand built 45 backlinks via influencer blog collaborations in 6 months, boosting product page traffic by 67%. A single blog post on a DR 50+ site outweighs 100 Instagram stories for SEO." },
         },
         {
           heading: "Optimizacion de busqueda visual y lo que viene",
@@ -360,6 +396,7 @@ export const fashionEcommerceSeo: BlogArticle = {
             "Le parole chiave di tendenza richiedono velocita. Quando emerge una tendenza (una celebrita indossa qualcosa, un video TikTok diventa virale, una collezione di designer viene lanciata), hai una finestra stretta per pubblicare contenuti pertinenti e catturare quell'interesse di ricerca. Raccomandiamo di tenere un calendario editoriale che tracci i calendari delle Fashion Week, le tendenze stagionali e gli eventi culturali che guidano il comportamento di ricerca. Avere pagine template pronte per contenuti basati sulle tendenze ti permette di pubblicare in giorni invece che settimane.",
             "Le parole chiave relative a taglie e vestibilita sono sottovalutate nel SEO moda. Ricerche come 'migliori jeans per fisico a pera' o 'guida taglie blazer oversize' hanno un volume decente e un'intenzione d'acquisto molto alta. Sono obiettivi perfetti per contenuti di blog e guide all'acquisto che collegano direttamente ai prodotti pertinenti. Per uno sguardo piu approfondito alla struttura dei contenuti, consulta la nostra guida sul [SEO delle pagine di categoria ecommerce](/blog/ecommerce-category-page-seo)."
           ],
+          image: { src: "/images/blog/it/fashion-keyword-strategy.svg", alt: "Comparison of trend keywords versus staple keywords for fashion ecommerce with strategy recommendations", caption: "Fashion stores need both fast-moving trend keywords and steady staple keywords in their SEO strategy." },
         },
         {
           heading: "Gestire le collezioni stagionali senza perdere valore SEO",
@@ -369,6 +406,8 @@ export const fashionEcommerceSeo: BlogArticle = {
             "Per contenuti legati a un periodo specifico (come un post di blog sulle tendenze primavera 2025), mantieni la pagina online dopo la fine della stagione. Aggiorna il titolo e l'introduzione per indicare che si tratta di una stagione passata, aggiungi un link all'equivalente della stagione corrente, e lascia che conservi i posizionamenti e i backlink che ha. Una pagina che si posiziona per 'tendenze moda primavera 2025' continuera a ricevere traffico da persone che ricercano tendenze passate, e passa link equity ai tuoi contenuti attuali attraverso i link interni.",
             "Anche i prodotti esauriti hanno bisogno di un piano. Non restituire un errore 404. Se il prodotto tornera, mantieni la pagina attiva con un avviso 'esaurito' e un'iscrizione per la notifica. Se il prodotto viene definitivamente interrotto, reindirizzalo con un 301 al prodotto attuale piu simile o alla categoria principale. Abbiamo visto negozi di moda con il 30% al 50% dei loro URL prodotto che restituiscono errori 404. Questo e uno spreco massiccio di budget di scansione e link equity."
           ],
+          image: { src: "/images/blog/it/fashion-seasonal-seo.svg", alt: "Comparison of wrong versus right seasonal page strategies showing authority reset vs authority growth", caption: "Keeping a permanent URL like /summer-dresses and updating products each season preserves accumulated authority." },
+          callout: { title: "Permanent URLs Win", text: "Deleting seasonal pages and recreating them yearly resets authority to zero. Keep the URL permanent, swap in new products, and update copy. Authority compounds instead of resetting." },
         },
         {
           heading: "SEO delle immagini per l'ecommerce moda",
@@ -379,6 +418,7 @@ export const fashionEcommerceSeo: BlogArticle = {
             "I formati WebP e AVIF riducono le dimensioni dei file del 30% al 50% rispetto al JPEG senza perdita di qualita visibile. Servi questi formati moderni con fallback appropriati. Usa immagini responsive (attributi srcset) per servire immagini dimensionate correttamente per diverse dimensioni dello schermo. Un'immagine hero di 3000px di larghezza caricata su un cellulare e larghezza di banda sprecata e danneggia i punteggi Core Web Vitals.",
             "I dati strutturati per le immagini collegano le tue foto prodotto ai tuoi annunci prodotto nell'indice di Google. Usa la proprieta 'image' nel tuo markup Product schema, e assicurati che ogni variante (colore, fantasia) abbia la propria immagine referenziata nello schema. I risultati di Google Shopping attingono da questi dati, e una mappatura accurata immagine-variante aumenta la tua visibilita nei risultati di shopping visivo."
           ],
+          image: { src: "/images/blog/it/fashion-image-seo-checklist.svg", alt: "Three-column checklist for fashion image SEO covering file basics, quality signals, and schema requirements", caption: "Fashion stores can drive 15-25% of organic traffic from image search with proper optimization." },
         },
         {
           heading: "Gestire le varianti di taglia e gli URL dei prodotti",
@@ -389,6 +429,8 @@ export const fashionEcommerceSeo: BlogArticle = {
             "Per i colori che le persone cercano attivamente, gli URL separati hanno senso. 'Giacca di pelle rossa' ha un intento di ricerca diverso da 'giacca di pelle nera'. Ma 'tonalita di beige leggermente diversa numero 3' probabilmente non ha bisogno del proprio URL. Usa i dati sul volume di ricerca per prendere questa decisione. Se una combinazione colore + prodotto ottiene un volume di ricerca significativo, dalle il proprio URL indicizzabile. In caso contrario, mantienila come variante on-page.",
             "Evita i parametri URL per le varianti dove possibile. URL puliti come /products/linen-blazer-olive sono migliori per il SEO di /products/linen-blazer?color=olive&size=M. Se la tua piattaforma impone URL basati su parametri, configura la gestione dei parametri URL in Google Search Console e imposta correttamente i tag canonical."
           ],
+          image: { src: "/images/blog/it/fashion-variant-url-strategy.svg", alt: "Fashion product variant URL strategy showing when to create separate color URLs versus on-page selectors based on search volume", caption: "Use search volume data to decide: if 'red leather jacket' has volume, give it its own URL." },
+          callout: { title: "One URL Per Product", text: "A dress in 5 colors and 8 sizes creates 40 variants. The most SEO-friendly approach is one URL with on-page selectors -- separate color URLs only when that color + product has meaningful search volume." },
         },
         {
           heading: "Markup schema specifico per la moda",
@@ -399,6 +441,8 @@ export const fashionEcommerceSeo: BlogArticle = {
             "Le proprieta 'isSimilarTo' e 'isRelatedTo' ti permettono di collegare esplicitamente prodotti correlati nel tuo schema. Collega un vestito ai suoi accessori abbinati, o connetti variazioni stagionali dello stesso prodotto base. Questo aiuta Google a capire le relazioni tra i tuoi prodotti e puo influenzare quali prodotti correlati appaiono nei risultati di ricerca.",
             "Una cosa che vediamo i marchi di moda trascurare: lo schema delle recensioni dovrebbe includere informazioni sul tipo di corporatura o sulla vestibilita quando disponibili. Se le tue recensioni menzionano la vestibilita ('veste piccolo', 'veste regolare'), estrarre e strutturare questi dati fornisce a Google un contesto aggiuntivo sui tuoi prodotti. Alcuni rivenditori di moda hanno iniziato a utilizzare attributi di recensione personalizzati per la vestibilita, che appaiono nei rich snippet e aiutano con la conversione. Per un approccio piu ampio ai contenuti moda che supportano i posizionamenti, consulta la nostra [guida ai contenuti SEO ecommerce](/blog/ecommerce-seo-content)."
           ],
+          image: { src: "/images/blog/it/fashion-schema-apparel.svg", alt: "Fashion-specific schema markup showing required Product properties plus apparel-specific fields like color, size, material, pattern, and audience", caption: "Google Shopping results pull directly from these properties -- accurate data increases visibility." },
+          callout: { title: "Apparel Schema Properties", text: "Go beyond basic Product schema. Add color, size (per-offer availability), material, pattern, and audience properties. Google uses these to categorize clothing in Shopping results." },
         },
         {
           heading: "Link building guidato dagli influencer per i marchi di moda",
@@ -409,6 +453,7 @@ export const fashionEcommerceSeo: BlogArticle = {
             "Le pubblicazioni di moda e le riviste di stile sono un altro canale forte. Pubblicazioni digitali come Refinery29, Who What Wear e l'edizione online di Elle producono regolarmente selezioni shopping e guide regalo. Far includere i tuoi prodotti in questi articoli genera link editoriali di alta autorita. La chiave e avere una pagina stampa ben organizzata, immagini prodotto di alta qualita pronte per il download e un contatto PR che risponda rapidamente alle richieste editoriali.",
             "Non dimenticare i contenuti affiliati sulla moda. I siti che recensiscono e raccomandano prodotti di abbigliamento generano link naturalmente quando includono i tuoi prodotti. Assicurati che il tuo programma di affiliazione sia facile da aderire e che il tuo feed di dati prodotto sia accurato e aggiornato cosi che gli affiliati possano creare contenuti che rimandano alle pagine giuste."
           ],
+          callout: { title: "Blog Over Social", text: "A footwear brand built 45 backlinks via influencer blog collaborations in 6 months, boosting product page traffic by 67%. A single blog post on a DR 50+ site outweighs 100 Instagram stories for SEO." },
         },
         {
           heading: "Ottimizzazione della ricerca visiva e cosa viene dopo",
@@ -442,6 +487,7 @@ export const fashionEcommerceSeo: BlogArticle = {
             "Trendzoekwoorden vereisen snelheid. Wanneer een trend opkomt (een beroemdheid draagt iets, een TikTok-video gaat viraal, een designercollectie lanceert), heb je een smal venster om relevante content te publiceren en die zoekinteresse te vangen. We raden aan een contentkalender bij te houden die Fashion Week-schema's, seizoenstrends en culturele evenementen volgt die zoekgedrag beinvloeden. Sjabloonpagina's klaar hebben voor trendgebaseerde content stelt je in staat om binnen dagen in plaats van weken te publiceren.",
             "Maat- en pasvorm-zoekwoorden zijn onderbenut in fashion SEO. Zoekopdrachten als 'beste jeans voor peervormig lichaam' of 'oversized blazer maatgids' hebben een degelijk volume en zeer hoge koopintentie. Dit zijn perfecte doelen voor blogcontent en koopgidsen die direct linken naar relevante producten. Voor een dieper inzicht in contentstructuur, zie onze gids over [ecommerce categoriepagina SEO](/blog/ecommerce-category-page-seo)."
           ],
+          image: { src: "/images/blog/nl/fashion-keyword-strategy.svg", alt: "Comparison of trend keywords versus staple keywords for fashion ecommerce with strategy recommendations", caption: "Fashion stores need both fast-moving trend keywords and steady staple keywords in their SEO strategy." },
         },
         {
           heading: "Seizoenscollecties beheren zonder SEO-waarde te verliezen",
@@ -451,6 +497,8 @@ export const fashionEcommerceSeo: BlogArticle = {
             "Voor tijdgebonden content (zoals een blogpost over lente 2025 trends), houd de pagina online na het seizoen. Werk de titel en intro bij om aan te geven dat het van een vorig seizoen is, voeg een link toe naar het huidige seizoensequivalent, en laat het zijn rankings en backlinks behouden. Een pagina die rankt voor 'modetrends lente 2025' zal nog steeds verkeer ontvangen van mensen die vorige trends onderzoeken, en het geeft link equity door aan je huidige content via interne links.",
             "Uitverkochte producten hebben ook een plan nodig. Geef geen 404-fout terug. Als het product terugkomt, houd de pagina online met een 'uitverkocht'-melding en een aanmelding voor notificatie. Als het product permanent wordt stopgezet, maak een 301-redirect naar het meest vergelijkbare huidige product of naar de bovenliggende categorie. We hebben modewinkels gezien met 30% tot 50% van hun product-URL's die 404-fouten teruggeven. Dat is een enorme verspilling van crawlbudget en link equity."
           ],
+          image: { src: "/images/blog/nl/fashion-seasonal-seo.svg", alt: "Comparison of wrong versus right seasonal page strategies showing authority reset vs authority growth", caption: "Keeping a permanent URL like /summer-dresses and updating products each season preserves accumulated authority." },
+          callout: { title: "Permanent URLs Win", text: "Deleting seasonal pages and recreating them yearly resets authority to zero. Keep the URL permanent, swap in new products, and update copy. Authority compounds instead of resetting." },
         },
         {
           heading: "Afbeelding-SEO voor fashion ecommerce",
@@ -461,6 +509,7 @@ export const fashionEcommerceSeo: BlogArticle = {
             "WebP- en AVIF-formaten verminderen bestandsgroottes met 30% tot 50% vergeleken met JPEG zonder zichtbaar kwaliteitsverlies. Lever deze moderne formaten met passende fallbacks. Gebruik responsieve afbeeldingen (srcset-attributen) om correct gedimensioneerde afbeeldingen te serveren voor verschillende schermformaten. Een hero-afbeelding van 3000px breed die op een mobiele telefoon wordt geladen, is verspilde bandbreedte en schaadt je Core Web Vitals-scores.",
             "Gestructureerde data voor afbeeldingen verbinden je productfoto's met je productvermeldingen in de index van Google. Gebruik de 'image'-eigenschap in je Product schema markup, en zorg ervoor dat elke variant (kleur, patroon) een eigen gerefereerde afbeelding in het schema heeft. Google Shopping-resultaten putten uit deze data, en een nauwkeurige afbeelding-naar-variant mapping vergroot je zichtbaarheid in visuele shoppingresultaten."
           ],
+          image: { src: "/images/blog/nl/fashion-image-seo-checklist.svg", alt: "Three-column checklist for fashion image SEO covering file basics, quality signals, and schema requirements", caption: "Fashion stores can drive 15-25% of organic traffic from image search with proper optimization." },
         },
         {
           heading: "Maatvarianten en product-URL's beheren",
@@ -471,6 +520,8 @@ export const fashionEcommerceSeo: BlogArticle = {
             "Voor kleuren waar mensen actief naar zoeken, zijn aparte URL's logisch. 'Rood leren jack' heeft een andere zoekintentie dan 'zwart leren jack'. Maar 'iets andere tint beige nummer 3' heeft waarschijnlijk geen eigen URL nodig. Gebruik zoekvolume-data om deze beslissing te nemen. Als een kleur + product combinatie een betekenisvol zoekvolume heeft, geef het een eigen indexeerbare URL. Zo niet, houd het als een on-page variant.",
             "Vermijd URL-parameters voor varianten waar mogelijk. Schone URL's zoals /products/linen-blazer-olive zijn beter voor SEO dan /products/linen-blazer?color=olive&size=M. Als je platform parameter-gebaseerde URL's afdwingt, configureer de URL-parameterbehandeling in Google Search Console en stel canonical tags correct in."
           ],
+          image: { src: "/images/blog/nl/fashion-variant-url-strategy.svg", alt: "Fashion product variant URL strategy showing when to create separate color URLs versus on-page selectors based on search volume", caption: "Use search volume data to decide: if 'red leather jacket' has volume, give it its own URL." },
+          callout: { title: "One URL Per Product", text: "A dress in 5 colors and 8 sizes creates 40 variants. The most SEO-friendly approach is one URL with on-page selectors -- separate color URLs only when that color + product has meaningful search volume." },
         },
         {
           heading: "Fashion-specifieke schema markup",
@@ -481,6 +532,8 @@ export const fashionEcommerceSeo: BlogArticle = {
             "De eigenschappen 'isSimilarTo' en 'isRelatedTo' stellen je in staat om gerelateerde producten expliciet te verbinden in je schema. Koppel een jurk aan bijpassende accessoires, of verbind seizoensvariaties van hetzelfde kernproduct. Dit helpt Google je productrelaties te begrijpen en kan beinvloeden welke gerelateerde producten verschijnen in zoekresultaten.",
             "Iets dat we modemerken zien over het hoofd zien: review-schema zou informatie over lichaamstype of pasvorm moeten bevatten wanneer beschikbaar. Als je reviews de pasvorm vermelden ('valt klein', 'valt normaal'), geeft het extraheren en structureren van deze data Google extra context over je producten. Sommige moderetailers zijn begonnen met het gebruik van aangepaste review-attributen voor pasvorm, die verschijnen in rich snippets en helpen bij conversie. Voor een bredere benadering van mode-content die rankings ondersteunt, zie onze [ecommerce SEO-contentgids](/blog/ecommerce-seo-content)."
           ],
+          image: { src: "/images/blog/nl/fashion-schema-apparel.svg", alt: "Fashion-specific schema markup showing required Product properties plus apparel-specific fields like color, size, material, pattern, and audience", caption: "Google Shopping results pull directly from these properties -- accurate data increases visibility." },
+          callout: { title: "Apparel Schema Properties", text: "Go beyond basic Product schema. Add color, size (per-offer availability), material, pattern, and audience properties. Google uses these to categorize clothing in Shopping results." },
         },
         {
           heading: "Influencer-gedreven linkbuilding voor modemerken",
@@ -491,6 +544,7 @@ export const fashionEcommerceSeo: BlogArticle = {
             "Modepublicaties en stijlmagazines zijn een ander sterk kanaal. Digitale publicaties zoals Refinery29, Who What Wear en de online editie van Elle produceren regelmatig shopping-roundups en cadeaugidsen. Het opnemen van je producten in deze stukken genereert redactionele links met hoge autoriteit. De sleutel is een goed georganiseerde perspagina, hoogwaardige productafbeeldingen klaar voor download, en een PR-contactpersoon die snel reageert op redactionele verzoeken.",
             "Vergeet mode-affiliate-content niet. Sites die kledingproducten beoordelen en aanbevelen genereren op natuurlijke wijze links wanneer ze je producten opnemen. Zorg ervoor dat je partnerprogramma gemakkelijk te joinen is en dat je productdata-feed accuraat en up-to-date is, zodat affiliates content kunnen maken die teruglinkt naar de juiste pagina's."
           ],
+          callout: { title: "Blog Over Social", text: "A footwear brand built 45 backlinks via influencer blog collaborations in 6 months, boosting product page traffic by 67%. A single blog post on a DR 50+ site outweighs 100 Instagram stories for SEO." },
         },
         {
           heading: "Optimalisatie van visueel zoeken en wat er komt",

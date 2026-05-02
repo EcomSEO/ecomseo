@@ -3,7 +3,7 @@ import type { BlogArticle } from "../types";
 export const ecommerceHomepageSeo: BlogArticle = {
   slug: "ecommerce-homepage-seo",
   category: "on-page",
-  publishDate: "2025-07-18",
+  publishDate: "2026-03-21",
   readingTime: 10,
   author: "Fabian van Til",
   authorRole: "CEO at EcomSEO",
@@ -44,6 +44,7 @@ export const ecommerceHomepageSeo: BlogArticle = {
             "We are not suggesting you ruin your homepage design with walls of text. A single heading and a short paragraph blend naturally into most designs. The text can overlay the hero image, sit beside it, or appear in a content block just below. The design team can make it look good while giving Google something to index.",
             "One client resisted adding text to their homepage for months because their designer thought it would look cluttered. We compromised on a single H1 and one sentence below the hero banner. That small change, combined with proper title tag optimization, moved their homepage from position 8 to position 3 for their primary brand + category keyword.",
           ],
+          image: { src: "/images/blog/homepage-seo-elements.svg", alt: "Anatomy of an SEO-optimized ecommerce homepage showing title tag, H1, category links, and schema placement", caption: "Four key SEO layers of an ecommerce homepage: title tag, above-fold content, category links, and schema markup." },
         },
         {
           heading: "Internal linking from the homepage",
@@ -53,6 +54,8 @@ export const ecommerceHomepageSeo: BlogArticle = {
             "Seasonal and promotional links on the homepage should be managed carefully. It is fine to link to a \"Summer sale\" page during summer. But if that page goes away in September and becomes a 404, you have a problem. Use redirects or keep seasonal landing pages active year-round with updated content.",
             "Limit homepage links to a reasonable number. We see homepages with 200+ links, including links to every product in the \"new arrivals\" section, every brand page, and every subcategory. When you link to everything, you dilute the value passed to each page. Focus on 20-40 high-priority internal links from homepage content (not counting navigation). One store we worked with reduced their homepage links from 187 to 52, directing more equity to their top category pages. Those category pages improved an average of 4.2 positions within two months.",
           ],
+          image: { src: "/images/blog/homepage-internal-link-flow.svg", alt: "Homepage link equity distribution showing priority flow to top categories, featured products, and blog guides", caption: "Homepage links pass more equity than any other page -- allocate them deliberately." },
+          callout: { title: "Less Is More", text: "Reducing homepage links from 187 to 52 concentrated link equity on top category pages. Those pages improved an average of 4.2 ranking positions within two months." },
         },
         {
           heading: "Brand versus generic keyword targeting",
@@ -62,15 +65,17 @@ export const ecommerceHomepageSeo: BlogArticle = {
             "For newer or smaller stores, the homepage should focus on brand terms and let category pages handle generic keywords. Trying to rank the homepage for \"running shoes\" when your domain authority is 25 is not realistic. You are better off optimizing specific category pages for those terms and using the homepage to establish your brand identity and distribute authority.",
             "One approach that works well: target your brand name plus a broad modifier. \"ShoeVault running shoes\" is less competitive than \"running shoes\" but captures searchers who have some brand awareness. Your homepage should rank easily for this type of query with basic optimization.",
           ],
+          image: { src: "/images/blog/homepage-brand-vs-generic.svg", alt: "Decision matrix for brand vs generic keyword targeting based on domain authority level with sweet-spot strategy", caption: "Established stores (DR 60+) can target generic terms on the homepage. Growing stores should focus on brand + modifier." },
         },
         {
           heading: "Homepage schema markup",
           body: [
-            "Implement Organization schema on your homepage at minimum. This tells Google your business name, logo, social profiles, and contact information. It takes 10 minutes to set up and helps Google build a knowledge panel for your brand. We have seen stores get a knowledge panel within weeks of implementing Organization schema, though results vary based on brand search volume. Use our [meta tag analyzer tool](/tools/meta-tag-analyzer) to check how your homepage metadata is currently configured before making changes.",
+            "Implement Organization schema on your homepage at minimum. This tells Google your business name, logo, social profiles, and contact information. It takes 10 minutes to set up and helps Google build a knowledge panel for your brand. We have seen stores get a knowledge panel within weeks of implementing Organization schema, though results vary based on brand search volume. Use our [meta tag analyzer tool](/tools/meta-tags-checker) to check how your homepage metadata is currently configured before making changes.",
             "WebSite schema with a SearchAction markup enables sitelinks search box in Google results. When someone searches your brand name, Google may show a search box directly in the search results that lets users search your site. This takes a few minutes to implement and works on most ecommerce platforms. The search action URL should point to your site's search functionality.",
             "If your homepage features products (best sellers, new arrivals), consider adding Product schema to those items. This can trigger rich results directly from your homepage listing. However, only do this if the products are genuinely featured on the page in a meaningful way. Adding schema for products that are barely visible on the page risks being flagged as misleading markup. Our [schema generator tool](/tools/schema-generator) helps you produce accurate structured data for featured products without guesswork.",
             "Avoid stacking every possible schema type on your homepage. We have seen stores add FAQ schema, HowTo schema, and Review schema to their homepage in an attempt to grab more SERP real estate. Google has become stricter about schema relevance. If the content type does not genuinely exist on your homepage, the markup will be ignored or could trigger a manual action.",
           ],
+          image: { src: "/images/blog/homepage-schema-layers.svg", alt: "Three homepage schema markup layers: Organization, WebSite with SearchAction, and BreadcrumbList with required fields", caption: "Layer these three schema types on every ecommerce homepage." },
         },
         {
           heading: "Navigation structure and its SEO impact",
@@ -80,6 +85,8 @@ export const ecommerceHomepageSeo: BlogArticle = {
             "Keep your navigation labels keyword-aware. \"Women's Clothing\" is better than \"For Her\" from an SEO perspective. \"Running Shoes\" is better than \"Hit the Trail.\" Creative labels might work for branding, but they sacrifice search relevance. If you want creative labels, consider adding a secondary text line with the descriptive term.",
             "Breadcrumbs on the homepage might seem redundant, but they establish the hierarchical structure that Google uses to understand your site. Implement BreadcrumbList schema alongside visual breadcrumbs. The homepage breadcrumb is simply your brand name or \"Home,\" which sets the root for the entire breadcrumb chain across your site.",
           ],
+          image: { src: "/images/blog/homepage-nav-seo-impact.svg", alt: "Flat versus deep navigation hierarchy showing 3-click rule for products and navigation SEO best practices", caption: "Keep navigation flat so any product is reachable within 3 clicks from the homepage." },
+          callout: { title: "Mega Menu Fix", text: "A fashion retailer's JavaScript-rendered mega menu was invisible to Googlebot. Switching to HTML links with CSS hover behavior got 2,400 additional pages indexed within three weeks." },
         },
         {
           heading: "Homepage speed optimization",
@@ -89,6 +96,7 @@ export const ecommerceHomepageSeo: BlogArticle = {
             "Defer non-critical JavaScript. Chat widgets, review popups, recommendation engines, and tracking scripts do not need to load before the page is visible. Use async or defer attributes for third-party scripts, and consider loading them only after user interaction. We routinely find that third-party scripts account for 40-60% of homepage JavaScript weight.",
             "Implement server-side caching and a CDN if you have not already. For Shopify stores, this is handled automatically. For Magento, WooCommerce, and custom platforms, proper caching configuration can cut server response times from 800ms to under 200ms. The homepage is your most-visited page, so speed improvements here have the widest impact on both user experience and crawl efficiency. For a broader look at the technical foundations that support homepage performance, see our guide on [technical SEO for ecommerce](/blog/technical-seo-for-ecommerce).",
           ],
+          callout: { title: "Quick Speed Win", text: "One client's hero banner was a 2.4MB JPEG. Converting to WebP reduced it to 180KB with no visible quality loss. Third-party scripts typically account for 40-60% of homepage JS weight." },
         },
         {
           heading: "Common homepage SEO mistakes to fix",
@@ -131,6 +139,7 @@ export const ecommerceHomepageSeo: BlogArticle = {
             "Wir schlagen nicht vor, Ihr Homepage-Design mit Textwaenden zu ruinieren. Eine einzelne Ueberschrift und ein kurzer Absatz fuegen sich natuerlich in die meisten Designs ein. Der Text kann ueber dem Hero-Bild liegen, daneben stehen oder in einem Inhaltsblock direkt darunter erscheinen. Das Design-Team kann es ansprechend gestalten und gleichzeitig Google etwas zum Indexieren geben.",
             "Ein Kunde wehrte sich monatelang dagegen, Text auf der Homepage hinzuzufuegen, weil sein Designer dachte, es wuerde ueberladen aussehen. Wir einigten uns auf eine einzelne H1 und einen Satz unter dem Hero-Banner. Diese kleine Aenderung, kombiniert mit der richtigen Title-Tag-Optimierung, bewegte ihre Homepage von Position 8 auf Position 3 fuer ihr primaeres Marke + Kategorie Keyword."
           ],
+          image: { src: "/images/blog/de/homepage-seo-elements.svg", alt: "Anatomy of an SEO-optimized ecommerce homepage showing title tag, H1, category links, and schema placement", caption: "Four key SEO layers of an ecommerce homepage: title tag, above-fold content, category links, and schema markup." },
         },
         {
           heading: "Interne Verlinkung von der Homepage",
@@ -140,6 +149,8 @@ export const ecommerceHomepageSeo: BlogArticle = {
             "Saisonale und Werbelinks auf der Homepage sollten sorgfaeltig verwaltet werden. Es ist in Ordnung, im Sommer auf eine \"Sommerschlussverkauf\"-Seite zu verlinken. Aber wenn diese Seite im September verschwindet und ein 404-Fehler wird, haben Sie ein Problem. Verwenden Sie Weiterleitungen oder halten Sie saisonale Landingpages mit aktualisierten Inhalten ganzjaehrig aktiv.",
             "Begrenzen Sie die Anzahl der Homepage-Links auf eine vernuenftige Zahl. Wir sehen Homepages mit 200+ Links, einschliesslich Links zu jedem Produkt im \"Neuheiten\"-Bereich, jeder Markenseite und jeder Unterkategorie. Wenn Sie auf alles verlinken, verwaessern Sie den Wert, der an jede Seite weitergegeben wird. Konzentrieren Sie sich auf 20-40 hochprioritaere interne Links aus dem Homepage-Inhalt (Navigationslinks nicht mitgezaehlt). Ein Shop, mit dem wir gearbeitet haben, reduzierte die Homepage-Links von 187 auf 52 und leitete mehr Equity auf die Top-Kategorieseiten. Diese Kategorieseiten verbesserten sich durchschnittlich um 4,2 Positionen innerhalb von zwei Monaten."
           ],
+          image: { src: "/images/blog/de/homepage-internal-link-flow.svg", alt: "Homepage link equity distribution showing priority flow to top categories, featured products, and blog guides", caption: "Homepage links pass more equity than any other page -- allocate them deliberately." },
+          callout: { title: "Less Is More", text: "Reducing homepage links from 187 to 52 concentrated link equity on top category pages. Those pages improved an average of 4.2 ranking positions within two months." },
         },
         {
           heading: "Marken- versus generisches Keyword-Targeting",
@@ -149,15 +160,17 @@ export const ecommerceHomepageSeo: BlogArticle = {
             "Fuer neuere oder kleinere Shops sollte sich die Homepage auf Markenbegriffe konzentrieren und die Kategorieseiten die generischen Keywords uebernehmen lassen. Zu versuchen, die Homepage fuer \"Laufschuhe\" zu ranken, wenn Ihre Domain-Autoritaet bei 25 liegt, ist nicht realistisch. Sie sind besser beraten, spezifische Kategorieseiten fuer diese Begriffe zu optimieren und die Homepage zur Etablierung Ihrer Markenidentitaet und Verteilung von Autoritaet zu nutzen.",
             "Ein Ansatz, der gut funktioniert: Zielen Sie auf Ihren Markennamen plus einen breiten Modifier. \"ShoeVault Laufschuhe\" ist weniger wettbewerbsintensiv als \"Laufschuhe\", erfasst aber Suchende, die eine gewisse Markenbekanntheit haben. Ihre Homepage sollte fuer diese Art von Anfrage mit grundlegender Optimierung leicht ranken."
           ],
+          image: { src: "/images/blog/de/homepage-brand-vs-generic.svg", alt: "Decision matrix for brand vs generic keyword targeting based on domain authority level with sweet-spot strategy", caption: "Established stores (DR 60+) can target generic terms on the homepage. Growing stores should focus on brand + modifier." },
         },
         {
           heading: "Homepage Schema Markup",
           body: [
-            "Implementieren Sie mindestens Organization Schema auf Ihrer Homepage. Dies teilt Google Ihren Firmennamen, Ihr Logo, Ihre Social-Media-Profile und Kontaktinformationen mit. Die Einrichtung dauert 10 Minuten und hilft Google, ein Knowledge Panel fuer Ihre Marke aufzubauen. Wir haben gesehen, dass Shops innerhalb von Wochen nach der Implementierung von Organization Schema ein Knowledge Panel bekamen, obwohl die Ergebnisse je nach Markensuchvolumen variieren. Verwenden Sie unser [Meta-Tag-Analyzer-Tool](/tools/meta-tag-analyzer), um zu pruefen, wie Ihre Homepage-Metadaten aktuell konfiguriert sind, bevor Sie Aenderungen vornehmen.",
+            "Implementieren Sie mindestens Organization Schema auf Ihrer Homepage. Dies teilt Google Ihren Firmennamen, Ihr Logo, Ihre Social-Media-Profile und Kontaktinformationen mit. Die Einrichtung dauert 10 Minuten und hilft Google, ein Knowledge Panel fuer Ihre Marke aufzubauen. Wir haben gesehen, dass Shops innerhalb von Wochen nach der Implementierung von Organization Schema ein Knowledge Panel bekamen, obwohl die Ergebnisse je nach Markensuchvolumen variieren. Verwenden Sie unser [Meta-Tag-Analyzer-Tool](/tools/meta-tags-checker), um zu pruefen, wie Ihre Homepage-Metadaten aktuell konfiguriert sind, bevor Sie Aenderungen vornehmen.",
             "WebSite Schema mit SearchAction Markup ermoeglicht eine Sitelinks-Suchbox in den Google-Ergebnissen. Wenn jemand Ihren Markennamen sucht, zeigt Google moeglicherweise direkt in den Suchergebnissen eine Suchbox an, ueber die Nutzer Ihre Seite durchsuchen koennen. Die Implementierung dauert wenige Minuten und funktioniert auf den meisten Ecommerce-Plattformen. Die Search-Action-URL sollte auf die Suchfunktion Ihrer Seite verweisen.",
             "Wenn Ihre Homepage Produkte zeigt (Bestseller, Neuheiten), erwaegen Sie, Product Schema fuer diese Artikel hinzuzufuegen. Dies kann Rich Results direkt aus Ihrem Homepage-Listing ausloesen. Tun Sie dies jedoch nur, wenn die Produkte wirklich auf eine sinnvolle Weise auf der Seite hervorgehoben werden. Schema fuer Produkte hinzuzufuegen, die kaum sichtbar sind, riskiert eine Kennzeichnung als irrefuehrendes Markup. Unser [Schema-Generator-Tool](/tools/schema-generator) hilft Ihnen, praezise strukturierte Daten fuer vorgestellte Produkte ohne Ratespiele zu erstellen.",
             "Vermeiden Sie es, jeden moeglichen Schema-Typ auf Ihre Homepage zu packen. Wir haben gesehen, dass Shops FAQ Schema, HowTo Schema und Review Schema auf ihrer Homepage hinzufuegen, um mehr SERP-Platz zu gewinnen. Google ist strenger geworden bei der Schema-Relevanz. Wenn der Inhaltstyp nicht wirklich auf Ihrer Homepage existiert, wird das Markup ignoriert oder koennte eine manuelle Massnahme ausloesen."
           ],
+          image: { src: "/images/blog/de/homepage-schema-layers.svg", alt: "Three homepage schema markup layers: Organization, WebSite with SearchAction, and BreadcrumbList with required fields", caption: "Layer these three schema types on every ecommerce homepage." },
         },
         {
           heading: "Navigationsstruktur und ihr SEO-Einfluss",
@@ -167,6 +180,8 @@ export const ecommerceHomepageSeo: BlogArticle = {
             "Halten Sie Ihre Navigationsbezeichnungen keyword-bewusst. \"Damenbekleidung\" ist aus SEO-Perspektive besser als \"Fuer Sie\". \"Laufschuhe\" ist besser als \"Ab auf die Strecke\". Kreative Bezeichnungen moegen fuer das Branding funktionieren, aber sie opfern die Suchrelevanz. Wenn Sie kreative Bezeichnungen wuenschen, erwaegen Sie eine sekundaere Textzeile mit dem beschreibenden Begriff.",
             "Breadcrumbs auf der Homepage moegen redundant erscheinen, aber sie etablieren die hierarchische Struktur, die Google nutzt, um Ihre Seite zu verstehen. Implementieren Sie BreadcrumbList Schema zusammen mit visuellen Breadcrumbs. Der Homepage-Breadcrumb ist einfach Ihr Markenname oder \"Startseite\", was die Basis fuer die gesamte Breadcrumb-Kette auf Ihrer Seite bildet."
           ],
+          image: { src: "/images/blog/de/homepage-nav-seo-impact.svg", alt: "Flat versus deep navigation hierarchy showing 3-click rule for products and navigation SEO best practices", caption: "Keep navigation flat so any product is reachable within 3 clicks from the homepage." },
+          callout: { title: "Mega Menu Fix", text: "A fashion retailer's JavaScript-rendered mega menu was invisible to Googlebot. Switching to HTML links with CSS hover behavior got 2,400 additional pages indexed within three weeks." },
         },
         {
           heading: "Homepage-Geschwindigkeitsoptimierung",
@@ -176,6 +191,7 @@ export const ecommerceHomepageSeo: BlogArticle = {
             "Verschieben Sie nicht-kritisches JavaScript. Chat-Widgets, Review-Popups, Empfehlungs-Engines und Tracking-Scripts muessen nicht geladen werden, bevor die Seite sichtbar ist. Verwenden Sie async oder defer Attribute fuer Drittanbieter-Scripts und erwaegen Sie, sie erst nach einer Nutzerinteraktion zu laden. Wir stellen regelmaessig fest, dass Drittanbieter-Scripts 40-60% des Homepage-JavaScript-Gewichts ausmachen.",
             "Implementieren Sie serverseitiges Caching und ein CDN, falls noch nicht geschehen. Fuer Shopify-Shops wird dies automatisch erledigt. Fuer Magento, WooCommerce und individuelle Plattformen kann eine korrekte Caching-Konfiguration die Server-Antwortzeiten von 800ms auf unter 200ms senken. Die Homepage ist Ihre meistbesuchte Seite, daher haben Geschwindigkeitsverbesserungen hier die breiteste Auswirkung auf sowohl die Nutzererfahrung als auch die Crawl-Effizienz. Fuer einen umfassenderen Blick auf die technischen Grundlagen, die die Homepage-Performance unterstuetzen, lesen Sie unseren Leitfaden zu [technischem SEO fuer Ecommerce](/blog/technical-seo-for-ecommerce)."
           ],
+          callout: { title: "Quick Speed Win", text: "One client's hero banner was a 2.4MB JPEG. Converting to WebP reduced it to 180KB with no visible quality loss. Third-party scripts typically account for 40-60% of homepage JS weight." },
         },
         {
           heading: "Haeufige Homepage-SEO-Fehler, die Sie beheben sollten",
@@ -218,6 +234,7 @@ export const ecommerceHomepageSeo: BlogArticle = {
             "Nous ne suggérons pas de ruiner le design de votre page d'accueil avec des murs de texte. Un seul titre et un court paragraphe s'intègrent naturellement dans la plupart des designs. Le texte peut se superposer à l'image hero, se placer à côté ou apparaître dans un bloc de contenu juste en dessous. L'équipe design peut le rendre esthétique tout en donnant à Google quelque chose à indexer.",
             "Un client a résisté à l'ajout de texte sur sa page d'accueil pendant des mois parce que son designer pensait que cela ferait encombré. Nous avons fait un compromis sur un seul H1 et une phrase sous la bannière hero. Ce petit changement, combiné à une optimisation correcte de la balise title, a fait passer sa page d'accueil de la position 8 à la position 3 pour son mot-clé principal marque + catégorie."
           ],
+          image: { src: "/images/blog/fr/homepage-seo-elements.svg", alt: "Anatomy of an SEO-optimized ecommerce homepage showing title tag, H1, category links, and schema placement", caption: "Four key SEO layers of an ecommerce homepage: title tag, above-fold content, category links, and schema markup." },
         },
         {
           heading: "Maillage interne depuis la page d'accueil",
@@ -227,6 +244,8 @@ export const ecommerceHomepageSeo: BlogArticle = {
             "Les liens saisonniers et promotionnels sur la page d'accueil doivent être gérés avec précaution. Il est acceptable de faire un lien vers une page « Soldes d'été » pendant l'été. Mais si cette page disparaît en septembre et devient une 404, vous avez un problème. Utilisez des redirections ou gardez les pages d'atterrissage saisonnières actives toute l'année avec du contenu mis à jour.",
             "Limitez les liens de la page d'accueil à un nombre raisonnable. Nous voyons des pages d'accueil avec plus de 200 liens, incluant des liens vers chaque produit de la section « nouveautés », chaque page de marque et chaque sous-catégorie. Quand vous faites des liens vers tout, vous diluez la valeur transmise à chaque page. Concentrez-vous sur 20-40 liens internes prioritaires depuis le contenu de la page d'accueil (sans compter la navigation). Une boutique avec laquelle nous avons travaillé a réduit ses liens de page d'accueil de 187 à 52, dirigeant plus d'autorité vers ses pages catégories principales. Ces pages catégories se sont améliorées de 4,2 positions en moyenne en deux mois."
           ],
+          image: { src: "/images/blog/fr/homepage-internal-link-flow.svg", alt: "Homepage link equity distribution showing priority flow to top categories, featured products, and blog guides", caption: "Homepage links pass more equity than any other page -- allocate them deliberately." },
+          callout: { title: "Less Is More", text: "Reducing homepage links from 187 to 52 concentrated link equity on top category pages. Those pages improved an average of 4.2 ranking positions within two months." },
         },
         {
           heading: "Ciblage de mots-clés de marque versus génériques",
@@ -236,15 +255,17 @@ export const ecommerceHomepageSeo: BlogArticle = {
             "Pour les boutiques plus récentes ou plus petites, la page d'accueil devrait se concentrer sur les termes de marque et laisser les pages catégories gérer les mots-clés génériques. Essayer de classer la page d'accueil pour « chaussures de running » quand votre autorité de domaine est de 25 n'est pas réaliste. Vous feriez mieux d'optimiser des pages catégories spécifiques pour ces termes et d'utiliser la page d'accueil pour établir votre identité de marque et distribuer l'autorité.",
             "Une approche qui fonctionne bien : ciblez votre nom de marque plus un modificateur large. « ShoeVault chaussures de running » est moins concurrentiel que « chaussures de running » mais capture les internautes qui ont une certaine notoriété de marque. Votre page d'accueil devrait se classer facilement pour ce type de requête avec une optimisation de base."
           ],
+          image: { src: "/images/blog/fr/homepage-brand-vs-generic.svg", alt: "Decision matrix for brand vs generic keyword targeting based on domain authority level with sweet-spot strategy", caption: "Established stores (DR 60+) can target generic terms on the homepage. Growing stores should focus on brand + modifier." },
         },
         {
           heading: "Balisage schema de la page d'accueil",
           body: [
-            "Implémentez au minimum le schema Organization sur votre page d'accueil. Cela indique à Google le nom de votre entreprise, votre logo, vos profils sociaux et vos coordonnées. La mise en place prend 10 minutes et aide Google à construire un panneau de connaissances pour votre marque. Nous avons vu des boutiques obtenir un panneau de connaissances dans les semaines suivant l'implémentation du schema Organization, bien que les résultats varient selon le volume de recherche de la marque. Utilisez notre [outil d'analyse des balises meta](/tools/meta-tag-analyzer) pour vérifier comment les métadonnées de votre page d'accueil sont actuellement configurées avant d'apporter des modifications.",
+            "Implémentez au minimum le schema Organization sur votre page d'accueil. Cela indique à Google le nom de votre entreprise, votre logo, vos profils sociaux et vos coordonnées. La mise en place prend 10 minutes et aide Google à construire un panneau de connaissances pour votre marque. Nous avons vu des boutiques obtenir un panneau de connaissances dans les semaines suivant l'implémentation du schema Organization, bien que les résultats varient selon le volume de recherche de la marque. Utilisez notre [outil d'analyse des balises meta](/tools/meta-tags-checker) pour vérifier comment les métadonnées de votre page d'accueil sont actuellement configurées avant d'apporter des modifications.",
             "Le schema WebSite avec un balisage SearchAction active la boîte de recherche des liens de site dans les résultats Google. Quand quelqu'un recherche votre nom de marque, Google peut afficher une boîte de recherche directement dans les résultats qui permet aux utilisateurs de rechercher sur votre site. L'implémentation prend quelques minutes et fonctionne sur la plupart des plateformes ecommerce. L'URL de l'action de recherche doit pointer vers la fonctionnalité de recherche de votre site.",
             "Si votre page d'accueil présente des produits (meilleures ventes, nouveautés), envisagez d'ajouter le schema Product à ces articles. Cela peut déclencher des résultats enrichis directement depuis le listing de votre page d'accueil. Cependant, ne le faites que si les produits sont véritablement mis en avant sur la page de manière significative. Ajouter du schema pour des produits à peine visibles sur la page risque d'être signalé comme balisage trompeur. Notre [outil générateur de schema](/tools/schema-generator) vous aide à produire des données structurées précises pour les produits mis en avant sans approximation.",
             "Évitez d'empiler tous les types de schema possibles sur votre page d'accueil. Nous avons vu des boutiques ajouter du schema FAQ, HowTo et Review à leur page d'accueil pour tenter de gagner plus d'espace dans les SERP. Google est devenu plus strict sur la pertinence du schema. Si le type de contenu n'existe pas véritablement sur votre page d'accueil, le balisage sera ignoré ou pourrait déclencher une action manuelle."
           ],
+          image: { src: "/images/blog/fr/homepage-schema-layers.svg", alt: "Three homepage schema markup layers: Organization, WebSite with SearchAction, and BreadcrumbList with required fields", caption: "Layer these three schema types on every ecommerce homepage." },
         },
         {
           heading: "Structure de navigation et son impact SEO",
@@ -254,6 +275,8 @@ export const ecommerceHomepageSeo: BlogArticle = {
             "Gardez vos libellés de navigation orientés mots-clés. « Vêtements femme » est mieux que « Pour elle » d'un point de vue SEO. « Chaussures de running » est mieux que « En avant la course ». Les libellés créatifs peuvent fonctionner pour le branding, mais ils sacrifient la pertinence en recherche. Si vous voulez des libellés créatifs, envisagez d'ajouter une ligne de texte secondaire avec le terme descriptif.",
             "Le fil d'Ariane sur la page d'accueil peut sembler redondant, mais il établit la structure hiérarchique que Google utilise pour comprendre votre site. Implémentez le schema BreadcrumbList en parallèle des fils d'Ariane visuels. Le fil d'Ariane de la page d'accueil est simplement le nom de votre marque ou « Accueil », qui établit la racine de la chaîne de fil d'Ariane à travers tout votre site."
           ],
+          image: { src: "/images/blog/fr/homepage-nav-seo-impact.svg", alt: "Flat versus deep navigation hierarchy showing 3-click rule for products and navigation SEO best practices", caption: "Keep navigation flat so any product is reachable within 3 clicks from the homepage." },
+          callout: { title: "Mega Menu Fix", text: "A fashion retailer's JavaScript-rendered mega menu was invisible to Googlebot. Switching to HTML links with CSS hover behavior got 2,400 additional pages indexed within three weeks." },
         },
         {
           heading: "Optimisation de la vitesse de la page d'accueil",
@@ -263,6 +286,7 @@ export const ecommerceHomepageSeo: BlogArticle = {
             "Différez le JavaScript non critique. Les widgets de chat, les popups d'avis, les moteurs de recommandation et les scripts de tracking n'ont pas besoin de se charger avant que la page soit visible. Utilisez les attributs async ou defer pour les scripts tiers, et envisagez de les charger uniquement après l'interaction de l'utilisateur. Nous constatons régulièrement que les scripts tiers représentent 40 à 60 % du poids JavaScript de la page d'accueil.",
             "Implémentez la mise en cache côté serveur et un CDN si ce n'est pas déjà fait. Pour les boutiques Shopify, c'est géré automatiquement. Pour Magento, WooCommerce et les plateformes personnalisées, une configuration de cache appropriée peut réduire les temps de réponse du serveur de 800 ms à moins de 200 ms. La page d'accueil est votre page la plus visitée, donc les améliorations de vitesse ici ont l'impact le plus large sur l'expérience utilisateur et l'efficacité du crawl. Pour un aperçu plus large des fondations techniques qui soutiennent la performance de la page d'accueil, consultez notre guide sur le [SEO technique pour le ecommerce](/blog/technical-seo-for-ecommerce)."
           ],
+          callout: { title: "Quick Speed Win", text: "One client's hero banner was a 2.4MB JPEG. Converting to WebP reduced it to 180KB with no visible quality loss. Third-party scripts typically account for 40-60% of homepage JS weight." },
         },
         {
           heading: "Erreurs SEO courantes de la page d'accueil à corriger",
@@ -305,6 +329,7 @@ export const ecommerceHomepageSeo: BlogArticle = {
             "No estamos sugiriendo que arruines el diseño de tu página de inicio con muros de texto. Un solo encabezado y un párrafo corto se integran naturalmente en la mayoría de los diseños. El texto puede superponerse a la imagen hero, ubicarse junto a ella o aparecer en un bloque de contenido justo debajo. El equipo de diseño puede hacer que se vea bien mientras le da a Google algo que indexar.",
             "Un cliente se resistió a agregar texto a su página de inicio durante meses porque su diseñador pensaba que se vería desordenado. Llegamos a un compromiso con un solo H1 y una oración debajo del banner hero. Ese pequeño cambio, combinado con la optimización adecuada del title tag, movió su página de inicio de la posición 8 a la posición 3 para su keyword principal de marca + categoría."
           ],
+          image: { src: "/images/blog/es/homepage-seo-elements.svg", alt: "Anatomy of an SEO-optimized ecommerce homepage showing title tag, H1, category links, and schema placement", caption: "Four key SEO layers of an ecommerce homepage: title tag, above-fold content, category links, and schema markup." },
         },
         {
           heading: "Enlazado interno desde la página de inicio",
@@ -314,6 +339,8 @@ export const ecommerceHomepageSeo: BlogArticle = {
             "Los enlaces estacionales y promocionales en la página de inicio deben gestionarse con cuidado. Está bien enlazar a una página de \"Rebajas de verano\" durante el verano. Pero si esa página desaparece en septiembre y se convierte en un 404, tienes un problema. Usa redirecciones o mantén las páginas de destino estacionales activas durante todo el año con contenido actualizado.",
             "Limita los enlaces de la página de inicio a un número razonable. Vemos páginas de inicio con más de 200 enlaces, incluyendo enlaces a cada producto en la sección de \"novedades\", cada página de marca y cada subcategoría. Cuando enlazas a todo, diluyes el valor transmitido a cada página. Concéntrate en 20-40 enlaces internos de alta prioridad desde el contenido de la página de inicio (sin contar la navegación). Una tienda con la que trabajamos redujo sus enlaces de página de inicio de 187 a 52, dirigiendo más equity a sus páginas de categorías principales. Esas páginas de categorías mejoraron un promedio de 4,2 posiciones en dos meses."
           ],
+          image: { src: "/images/blog/es/homepage-internal-link-flow.svg", alt: "Homepage link equity distribution showing priority flow to top categories, featured products, and blog guides", caption: "Homepage links pass more equity than any other page -- allocate them deliberately." },
+          callout: { title: "Less Is More", text: "Reducing homepage links from 187 to 52 concentrated link equity on top category pages. Those pages improved an average of 4.2 ranking positions within two months." },
         },
         {
           heading: "Segmentación de keywords de marca versus genéricas",
@@ -323,15 +350,17 @@ export const ecommerceHomepageSeo: BlogArticle = {
             "Para tiendas más nuevas o pequeñas, la página de inicio debe centrarse en términos de marca y dejar que las páginas de categorías manejen las keywords genéricas. Intentar posicionar la página de inicio para \"zapatillas de running\" cuando tu autoridad de dominio es 25 no es realista. Es mejor optimizar páginas de categorías específicas para esos términos y usar la página de inicio para establecer la identidad de tu marca y distribuir autoridad.",
             "Un enfoque que funciona bien: orientar el nombre de tu marca más un modificador amplio. \"ShoeVault zapatillas de running\" es menos competitivo que \"zapatillas de running\" pero captura a usuarios que tienen cierto reconocimiento de marca. Tu página de inicio debería posicionarse fácilmente para este tipo de consulta con una optimización básica."
           ],
+          image: { src: "/images/blog/es/homepage-brand-vs-generic.svg", alt: "Decision matrix for brand vs generic keyword targeting based on domain authority level with sweet-spot strategy", caption: "Established stores (DR 60+) can target generic terms on the homepage. Growing stores should focus on brand + modifier." },
         },
         {
           heading: "Schema markup de la página de inicio",
           body: [
-            "Implementa schema Organization en tu página de inicio como mínimo. Esto le dice a Google el nombre de tu negocio, logo, perfiles sociales e información de contacto. Configurarlo toma 10 minutos y ayuda a Google a construir un panel de conocimiento para tu marca. Hemos visto tiendas obtener un panel de conocimiento en semanas tras implementar schema Organization, aunque los resultados varían según el volumen de búsqueda de marca. Usa nuestra [herramienta de análisis de meta tags](/tools/meta-tag-analyzer) para verificar cómo están configurados actualmente los metadatos de tu página de inicio antes de hacer cambios.",
+            "Implementa schema Organization en tu página de inicio como mínimo. Esto le dice a Google el nombre de tu negocio, logo, perfiles sociales e información de contacto. Configurarlo toma 10 minutos y ayuda a Google a construir un panel de conocimiento para tu marca. Hemos visto tiendas obtener un panel de conocimiento en semanas tras implementar schema Organization, aunque los resultados varían según el volumen de búsqueda de marca. Usa nuestra [herramienta de análisis de meta tags](/tools/meta-tags-checker) para verificar cómo están configurados actualmente los metadatos de tu página de inicio antes de hacer cambios.",
             "El schema WebSite con markup SearchAction habilita el cuadro de búsqueda de sitelinks en los resultados de Google. Cuando alguien busca el nombre de tu marca, Google puede mostrar un cuadro de búsqueda directamente en los resultados que permite a los usuarios buscar en tu sitio. Implementar esto toma unos minutos y funciona en la mayoría de las plataformas de ecommerce. La URL de acción de búsqueda debe apuntar a la funcionalidad de búsqueda de tu sitio.",
             "Si tu página de inicio presenta productos (los más vendidos, novedades), considera agregar schema Product a esos artículos. Esto puede activar resultados enriquecidos directamente desde el listado de tu página de inicio. Sin embargo, solo haz esto si los productos están genuinamente destacados en la página de manera significativa. Agregar schema para productos que apenas son visibles en la página corre el riesgo de ser marcado como markup engañoso. Nuestro [generador de schema](/tools/schema-generator) te ayuda a producir datos estructurados precisos para productos destacados sin conjeturas.",
             "Evita acumular todos los tipos posibles de schema en tu página de inicio. Hemos visto tiendas agregar schema FAQ, HowTo y Review a su página de inicio en un intento de acaparar más espacio en los SERP. Google se ha vuelto más estricto con la relevancia del schema. Si el tipo de contenido no existe genuinamente en tu página de inicio, el markup será ignorado o podría generar una acción manual."
           ],
+          image: { src: "/images/blog/es/homepage-schema-layers.svg", alt: "Three homepage schema markup layers: Organization, WebSite with SearchAction, and BreadcrumbList with required fields", caption: "Layer these three schema types on every ecommerce homepage." },
         },
         {
           heading: "Estructura de navegación y su impacto en SEO",
@@ -341,6 +370,8 @@ export const ecommerceHomepageSeo: BlogArticle = {
             "Mantén las etiquetas de navegación orientadas a keywords. \"Ropa de mujer\" es mejor que \"Para ella\" desde una perspectiva SEO. \"Zapatillas de running\" es mejor que \"Sal a correr\". Las etiquetas creativas pueden funcionar para el branding, pero sacrifican la relevancia de búsqueda. Si quieres etiquetas creativas, considera agregar una línea de texto secundaria con el término descriptivo.",
             "Las migas de pan (breadcrumbs) en la página de inicio pueden parecer redundantes, pero establecen la estructura jerárquica que Google usa para entender tu sitio. Implementa schema BreadcrumbList junto con las migas de pan visuales. La miga de pan de la página de inicio es simplemente el nombre de tu marca o \"Inicio\", lo que establece la raíz de toda la cadena de breadcrumbs en tu sitio."
           ],
+          image: { src: "/images/blog/es/homepage-nav-seo-impact.svg", alt: "Flat versus deep navigation hierarchy showing 3-click rule for products and navigation SEO best practices", caption: "Keep navigation flat so any product is reachable within 3 clicks from the homepage." },
+          callout: { title: "Mega Menu Fix", text: "A fashion retailer's JavaScript-rendered mega menu was invisible to Googlebot. Switching to HTML links with CSS hover behavior got 2,400 additional pages indexed within three weeks." },
         },
         {
           heading: "Optimización de velocidad de la página de inicio",
@@ -350,6 +381,7 @@ export const ecommerceHomepageSeo: BlogArticle = {
             "Difiere el JavaScript no crítico. Los widgets de chat, popups de reseñas, motores de recomendaciones y scripts de seguimiento no necesitan cargarse antes de que la página sea visible. Usa atributos async o defer para scripts de terceros, y considera cargarlos solo después de la interacción del usuario. Regularmente encontramos que los scripts de terceros representan el 40-60% del peso de JavaScript de la página de inicio.",
             "Implementa caché del lado del servidor y un CDN si aún no lo has hecho. Para tiendas Shopify, esto se maneja automáticamente. Para Magento, WooCommerce y plataformas personalizadas, la configuración adecuada de caché puede reducir los tiempos de respuesta del servidor de 800ms a menos de 200ms. La página de inicio es tu página más visitada, por lo que las mejoras de velocidad aquí tienen el mayor impacto tanto en la experiencia del usuario como en la eficiencia de rastreo. Para una visión más amplia de los fundamentos técnicos que respaldan el rendimiento de la página de inicio, consulta nuestra guía sobre [SEO técnico para ecommerce](/blog/technical-seo-for-ecommerce)."
           ],
+          callout: { title: "Quick Speed Win", text: "One client's hero banner was a 2.4MB JPEG. Converting to WebP reduced it to 180KB with no visible quality loss. Third-party scripts typically account for 40-60% of homepage JS weight." },
         },
         {
           heading: "Errores comunes de SEO en la página de inicio que debes corregir",
@@ -392,6 +424,7 @@ export const ecommerceHomepageSeo: BlogArticle = {
             "Non suggeriamo di rovinare il design della tua homepage con muri di testo. Un singolo titolo e un breve paragrafo si integrano naturalmente nella maggior parte dei design. Il testo può sovrapporsi all'immagine hero, posizionarsi accanto ad essa o apparire in un blocco di contenuto appena sotto. Il team di design può renderlo esteticamente gradevole dando a Google qualcosa da indicizzare.",
             "Un cliente ha resistito ad aggiungere testo alla homepage per mesi perché il designer pensava che avrebbe creato disordine. Abbiamo trovato un compromesso su un singolo H1 e una frase sotto il banner hero. Quel piccolo cambiamento, combinato con una corretta ottimizzazione del title tag, ha fatto passare la homepage dalla posizione 8 alla posizione 3 per la parola chiave principale brand + categoria."
           ],
+          image: { src: "/images/blog/it/homepage-seo-elements.svg", alt: "Anatomy of an SEO-optimized ecommerce homepage showing title tag, H1, category links, and schema placement", caption: "Four key SEO layers of an ecommerce homepage: title tag, above-fold content, category links, and schema markup." },
         },
         {
           heading: "Link interni dalla homepage",
@@ -401,6 +434,8 @@ export const ecommerceHomepageSeo: BlogArticle = {
             "I link stagionali e promozionali sulla homepage devono essere gestiti con cura. Va bene linkare a una pagina 'Saldi estivi' durante l'estate. Ma se quella pagina sparisce a settembre e diventa un 404, hai un problema. Usa redirect o mantieni le landing page stagionali attive tutto l'anno con contenuti aggiornati.",
             "Limita i link della homepage a un numero ragionevole. Vediamo homepage con oltre 200 link, inclusi link a ogni prodotto nella sezione 'nuovi arrivi', ogni pagina brand e ogni sottocategoria. Quando linki a tutto, diluisci il valore trasmesso a ogni pagina. Concentrati su 20-40 link interni prioritari dal contenuto della homepage (esclusa la navigazione). Un negozio con cui abbiamo lavorato ha ridotto i link dalla homepage da 187 a 52, dirigendo più autorità verso le pagine di categoria principali. Quelle pagine sono migliorate in media di 4,2 posizioni in due mesi."
           ],
+          image: { src: "/images/blog/it/homepage-internal-link-flow.svg", alt: "Homepage link equity distribution showing priority flow to top categories, featured products, and blog guides", caption: "Homepage links pass more equity than any other page -- allocate them deliberately." },
+          callout: { title: "Less Is More", text: "Reducing homepage links from 187 to 52 concentrated link equity on top category pages. Those pages improved an average of 4.2 ranking positions within two months." },
         },
         {
           heading: "Targeting di parole chiave brand versus generiche",
@@ -410,15 +445,17 @@ export const ecommerceHomepageSeo: BlogArticle = {
             "Per i negozi più recenti o più piccoli, la homepage dovrebbe concentrarsi sui termini di brand e lasciare che le pagine di categoria gestiscano le parole chiave generiche. Cercare di posizionare la homepage per 'scarpe da corsa' quando la tua autorità di dominio è 25 non è realistico. È meglio ottimizzare pagine di categoria specifiche per quei termini e usare la homepage per stabilire l'identità del brand e distribuire autorità.",
             "Un approccio che funziona bene: punta al nome del tuo brand più un modificatore ampio. 'ShoeVault scarpe da corsa' è meno competitivo di 'scarpe da corsa' ma cattura i cercatori che hanno una certa consapevolezza del brand. La tua homepage dovrebbe posizionarsi facilmente per questo tipo di query con un'ottimizzazione di base."
           ],
+          image: { src: "/images/blog/it/homepage-brand-vs-generic.svg", alt: "Decision matrix for brand vs generic keyword targeting based on domain authority level with sweet-spot strategy", caption: "Established stores (DR 60+) can target generic terms on the homepage. Growing stores should focus on brand + modifier." },
         },
         {
           heading: "Markup schema per la homepage",
           body: [
-            "Implementa almeno lo schema Organization sulla tua homepage. Questo dice a Google il nome della tua azienda, il logo, i profili social e le informazioni di contatto. La configurazione richiede 10 minuti e aiuta Google a costruire un pannello informativo per il tuo brand. Abbiamo visto negozi ottenere un pannello informativo entro settimane dall'implementazione dello schema Organization, anche se i risultati variano in base al volume di ricerca del brand. Usa il nostro [analizzatore di meta tag](/tools/meta-tag-analyzer) per verificare come sono attualmente configurati i metadati della tua homepage prima di apportare modifiche.",
+            "Implementa almeno lo schema Organization sulla tua homepage. Questo dice a Google il nome della tua azienda, il logo, i profili social e le informazioni di contatto. La configurazione richiede 10 minuti e aiuta Google a costruire un pannello informativo per il tuo brand. Abbiamo visto negozi ottenere un pannello informativo entro settimane dall'implementazione dello schema Organization, anche se i risultati variano in base al volume di ricerca del brand. Usa il nostro [analizzatore di meta tag](/tools/meta-tags-checker) per verificare come sono attualmente configurati i metadati della tua homepage prima di apportare modifiche.",
             "Lo schema WebSite con markup SearchAction abilita la casella di ricerca dei sitelink nei risultati Google. Quando qualcuno cerca il nome del tuo brand, Google può mostrare una casella di ricerca direttamente nei risultati che permette agli utenti di cercare nel tuo sito. L'implementazione richiede pochi minuti e funziona sulla maggior parte delle piattaforme ecommerce. L'URL dell'azione di ricerca dovrebbe puntare alla funzionalità di ricerca del tuo sito.",
             "Se la tua homepage presenta prodotti (bestseller, nuovi arrivi), considera di aggiungere lo schema Product a quegli articoli. Questo può attivare rich results direttamente dal listing della tua homepage. Tuttavia, fallo solo se i prodotti sono genuinamente presentati sulla pagina in modo significativo. Aggiungere schema per prodotti appena visibili sulla pagina rischia di essere segnalato come markup ingannevole. Il nostro [generatore di schema](/tools/schema-generator) ti aiuta a produrre dati strutturati accurati per i prodotti in evidenza senza congetture.",
             "Evita di impilare ogni possibile tipo di schema sulla tua homepage. Abbiamo visto negozi aggiungere schema FAQ, HowTo e Review alla homepage nel tentativo di guadagnare più spazio nelle SERP. Google è diventato più rigoroso sulla rilevanza dello schema. Se il tipo di contenuto non esiste genuinamente sulla tua homepage, il markup verrà ignorato o potrebbe innescare un'azione manuale."
           ],
+          image: { src: "/images/blog/it/homepage-schema-layers.svg", alt: "Three homepage schema markup layers: Organization, WebSite with SearchAction, and BreadcrumbList with required fields", caption: "Layer these three schema types on every ecommerce homepage." },
         },
         {
           heading: "Struttura di navigazione e il suo impatto SEO",
@@ -428,6 +465,8 @@ export const ecommerceHomepageSeo: BlogArticle = {
             "Mantieni le etichette di navigazione orientate alle parole chiave. 'Abbigliamento Donna' è meglio di 'Per Lei' dal punto di vista SEO. 'Scarpe da Corsa' è meglio di 'Corri con Stile'. Le etichette creative possono funzionare per il branding, ma sacrificano la rilevanza nella ricerca. Se vuoi etichette creative, considera di aggiungere una riga di testo secondaria con il termine descrittivo.",
             "I breadcrumb sulla homepage possono sembrare ridondanti, ma stabiliscono la struttura gerarchica che Google usa per comprendere il tuo sito. Implementa lo schema BreadcrumbList insieme ai breadcrumb visivi. Il breadcrumb della homepage è semplicemente il nome del tuo brand o 'Home', che stabilisce la radice dell'intera catena di breadcrumb nel sito."
           ],
+          image: { src: "/images/blog/it/homepage-nav-seo-impact.svg", alt: "Flat versus deep navigation hierarchy showing 3-click rule for products and navigation SEO best practices", caption: "Keep navigation flat so any product is reachable within 3 clicks from the homepage." },
+          callout: { title: "Mega Menu Fix", text: "A fashion retailer's JavaScript-rendered mega menu was invisible to Googlebot. Switching to HTML links with CSS hover behavior got 2,400 additional pages indexed within three weeks." },
         },
         {
           heading: "Ottimizzazione della velocità della homepage",
@@ -437,6 +476,7 @@ export const ecommerceHomepageSeo: BlogArticle = {
             "Differisci il JavaScript non critico. Widget di chat, popup di recensioni, motori di raccomandazione e script di tracking non hanno bisogno di caricarsi prima che la pagina sia visibile. Usa gli attributi async o defer per gli script di terze parti, e considera di caricarli solo dopo l'interazione dell'utente. Riscontriamo regolarmente che gli script di terze parti rappresentano il 40-60% del peso JavaScript della homepage.",
             "Implementa il caching lato server e un CDN se non l'hai già fatto. Per i negozi Shopify, questo è gestito automaticamente. Per Magento, WooCommerce e piattaforme personalizzate, una configurazione di cache appropriata può ridurre i tempi di risposta del server da 800ms a meno di 200ms. La homepage è la tua pagina più visitata, quindi i miglioramenti di velocità qui hanno l'impatto più ampio sull'esperienza utente e l'efficienza di scansione. Per una panoramica più ampia delle basi tecniche che supportano le prestazioni della homepage, consulta la nostra guida sulla [SEO tecnica per l'ecommerce](/blog/technical-seo-for-ecommerce)."
           ],
+          callout: { title: "Quick Speed Win", text: "One client's hero banner was a 2.4MB JPEG. Converting to WebP reduced it to 180KB with no visible quality loss. Third-party scripts typically account for 40-60% of homepage JS weight." },
         },
         {
           heading: "Errori SEO comuni della homepage da correggere",
@@ -479,6 +519,7 @@ export const ecommerceHomepageSeo: BlogArticle = {
             "We suggereren niet dat je je homepage-ontwerp verpest met muren van tekst. Een enkele kop en een korte alinea passen natuurlijk in de meeste ontwerpen. De tekst kan over de hero-afbeelding heen liggen, ernaast staan, of verschijnen in een contentblok er net onder. Het designteam kan het er goed uit laten zien terwijl Google iets krijgt om te indexeren.",
             "Een klant verzette zich maandenlang tegen het toevoegen van tekst aan hun homepage omdat hun ontwerper dacht dat het rommelig zou ogen. We bereikten een compromis met een enkele H1 en een zin onder de hero-banner. Die kleine verandering, gecombineerd met correcte title tag optimalisatie, verplaatste hun homepage van positie 8 naar positie 3 voor hun primaire merk + categorie zoekwoord.",
           ],
+          image: { src: "/images/blog/nl/homepage-seo-elements.svg", alt: "Anatomy of an SEO-optimized ecommerce homepage showing title tag, H1, category links, and schema placement", caption: "Four key SEO layers of an ecommerce homepage: title tag, above-fold content, category links, and schema markup." },
         },
         {
           heading: "Interne linking vanuit de homepage",
@@ -488,6 +529,8 @@ export const ecommerceHomepageSeo: BlogArticle = {
             "Seizoens- en promotionele links op de homepage moeten zorgvuldig beheerd worden. Het is prima om te linken naar een 'Zomeruitverkoop' pagina tijdens de zomer. Maar als die pagina in september verdwijnt en een 404 wordt, heb je een probleem. Gebruik redirects of houd seizoenspagina's het hele jaar actief met bijgewerkte content.",
             "Beperk homepage-links tot een redelijk aantal. We zien homepages met 200+ links, inclusief links naar elk product in de 'nieuwe collectie' sectie, elke merkpagina, en elke subcategorie. Wanneer je naar alles linkt, verdun je de waarde die naar elke pagina wordt doorgegeven. Focus op 20-40 hoogprioritaire interne links vanuit homepage-content (navigatie niet meegerekend). Een winkel waarmee we werkten verminderde hun homepage-links van 187 naar 52, waardoor meer equity naar hun topcategoriepagina's stroomde. Die categoriepagina's verbeterden gemiddeld 4,2 posities binnen twee maanden.",
           ],
+          image: { src: "/images/blog/nl/homepage-internal-link-flow.svg", alt: "Homepage link equity distribution showing priority flow to top categories, featured products, and blog guides", caption: "Homepage links pass more equity than any other page -- allocate them deliberately." },
+          callout: { title: "Less Is More", text: "Reducing homepage links from 187 to 52 concentrated link equity on top category pages. Those pages improved an average of 4.2 ranking positions within two months." },
         },
         {
           heading: "Merk versus generieke zoekwoordtargeting",
@@ -497,15 +540,17 @@ export const ecommerceHomepageSeo: BlogArticle = {
             "Voor nieuwere of kleinere winkels moet de homepage zich richten op merktermen en categoriepagina's de generieke zoekwoorden laten afhandelen. Proberen de homepage te laten ranken voor 'hardloopschoenen' wanneer je domeinautoriteit 25 is, is niet realistisch. Je bent beter af met het optimaliseren van specifieke categoriepagina's voor die termen en het gebruiken van de homepage om je merkidentiteit te vestigen en autoriteit te verdelen.",
             "Een aanpak die goed werkt: target je merknaam plus een brede modifier. 'SchoenKluis hardloopschoenen' is minder concurrerend dan 'hardloopschoenen' maar vangt zoekers op die enige merkbekendheid hebben. Je homepage zou gemakkelijk moeten ranken voor dit type zoekopdracht met basale optimalisatie.",
           ],
+          image: { src: "/images/blog/nl/homepage-brand-vs-generic.svg", alt: "Decision matrix for brand vs generic keyword targeting based on domain authority level with sweet-spot strategy", caption: "Established stores (DR 60+) can target generic terms on the homepage. Growing stores should focus on brand + modifier." },
         },
         {
           heading: "Homepage schema markup",
           body: [
-            "Implementeer minimaal Organization schema op je homepage. Dit vertelt Google je bedrijfsnaam, logo, sociale profielen en contactgegevens. Het kost 10 minuten om in te stellen en helpt Google een kennispanel voor je merk op te bouwen. We hebben winkels een kennispanel zien krijgen binnen weken na het implementeren van Organization schema, hoewel resultaten varieren op basis van merkzoekvolume. Gebruik onze [meta tag analyzer tool](/tools/meta-tag-analyzer) om te controleren hoe je homepage metadata momenteel is geconfigureerd voordat je wijzigingen aanbrengt.",
+            "Implementeer minimaal Organization schema op je homepage. Dit vertelt Google je bedrijfsnaam, logo, sociale profielen en contactgegevens. Het kost 10 minuten om in te stellen en helpt Google een kennispanel voor je merk op te bouwen. We hebben winkels een kennispanel zien krijgen binnen weken na het implementeren van Organization schema, hoewel resultaten varieren op basis van merkzoekvolume. Gebruik onze [meta tag analyzer tool](/tools/meta-tags-checker) om te controleren hoe je homepage metadata momenteel is geconfigureerd voordat je wijzigingen aanbrengt.",
             "WebSite schema met een SearchAction markup maakt een zoekbox voor sitelinks mogelijk in Google-resultaten. Wanneer iemand je merknaam zoekt, kan Google een zoekbox tonen direct in de zoekresultaten waarmee gebruikers je site kunnen doorzoeken. Dit kost enkele minuten om te implementeren en werkt op de meeste ecommerce platformen. De zoekactie-URL moet verwijzen naar de zoekfunctionaliteit van je site.",
             "Als je homepage producten toont (bestsellers, nieuwe collectie), overweeg dan Product schema toe te voegen aan die items. Dit kan rich results triggeren direct vanuit je homepage-vermelding. Doe dit echter alleen als de producten daadwerkelijk op een betekenisvolle manier op de pagina worden uitgelicht. Schema toevoegen voor producten die nauwelijks zichtbaar zijn op de pagina riskeert een markering als misleidende markup. Onze [schema generator tool](/tools/schema-generator) helpt je nauwkeurige structured data te produceren voor uitgelichte producten zonder giswerk.",
             "Vermijd het stapelen van elk mogelijk schematype op je homepage. We hebben winkels gezien die FAQ schema, HowTo schema en Review schema aan hun homepage toevoegen in een poging meer SERP-ruimte te grijpen. Google is strenger geworden over schemarelevantie. Als het contenttype niet oprecht op je homepage bestaat, wordt de markup genegeerd of kan het een handmatige actie triggeren.",
           ],
+          image: { src: "/images/blog/nl/homepage-schema-layers.svg", alt: "Three homepage schema markup layers: Organization, WebSite with SearchAction, and BreadcrumbList with required fields", caption: "Layer these three schema types on every ecommerce homepage." },
         },
         {
           heading: "Navigatiestructuur en de SEO-impact ervan",
@@ -515,6 +560,8 @@ export const ecommerceHomepageSeo: BlogArticle = {
             "Houd je navigatielabels zoekwoord-bewust. 'Dameskleding' is beter dan 'Voor Haar' vanuit SEO-perspectief. 'Hardloopschoenen' is beter dan 'Ga Sporten.' Creatieve labels werken misschien voor branding, maar ze offeren zoekoekrelevantie op. Als je creatieve labels wilt, overweeg dan een secundaire tekstregel met de beschrijvende term toe te voegen.",
             "Breadcrumbs op de homepage lijken misschien overbodig, maar ze vestigen de hierarchische structuur die Google gebruikt om je site te begrijpen. Implementeer BreadcrumbList schema naast visuele breadcrumbs. De homepage breadcrumb is simpelweg je merknaam of 'Home,' wat de basis vormt voor de hele breadcrumb-keten over je site.",
           ],
+          image: { src: "/images/blog/nl/homepage-nav-seo-impact.svg", alt: "Flat versus deep navigation hierarchy showing 3-click rule for products and navigation SEO best practices", caption: "Keep navigation flat so any product is reachable within 3 clicks from the homepage." },
+          callout: { title: "Mega Menu Fix", text: "A fashion retailer's JavaScript-rendered mega menu was invisible to Googlebot. Switching to HTML links with CSS hover behavior got 2,400 additional pages indexed within three weeks." },
         },
         {
           heading: "Homepage snelheidsoptimalisatie",
@@ -524,6 +571,7 @@ export const ecommerceHomepageSeo: BlogArticle = {
             "Stel niet-kritiek JavaScript uit. Chatwidgets, review-popups, aanbevelingsengines en trackingscripts hoeven niet te laden voordat de pagina zichtbaar is. Gebruik async of defer attributen voor third-party scripts, en overweeg ze alleen te laden na gebruikersinteractie. We vinden routinematig dat third-party scripts 40-60% van het JavaScript-gewicht van de homepage uitmaken.",
             "Implementeer server-side caching en een CDN als je dat nog niet hebt gedaan. Voor Shopify winkels wordt dit automatisch afgehandeld. Voor Magento, WooCommerce en aangepaste platformen kan correcte cachingconfiguratie server-responstijden verminderen van 800ms naar minder dan 200ms. De homepage is je meest bezochte pagina, dus snelheidsverbeteringen hier hebben de breedste impact op zowel gebruikerservaring als crawl-efficientie. Voor een breder overzicht van de technische fundamenten die homepage-prestaties ondersteunen, zie onze gids over [technische SEO voor ecommerce](/blog/technical-seo-for-ecommerce).",
           ],
+          callout: { title: "Quick Speed Win", text: "One client's hero banner was a 2.4MB JPEG. Converting to WebP reduced it to 180KB with no visible quality loss. Third-party scripts typically account for 40-60% of homepage JS weight." },
         },
         {
           heading: "Veelvoorkomende homepage SEO-fouten om te repareren",

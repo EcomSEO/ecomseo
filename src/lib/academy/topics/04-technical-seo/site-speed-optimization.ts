@@ -23,6 +23,15 @@ export const siteSpeedOptimization: AcademyTopic = {
             "Test with PageSpeed Insights using the field data tab, not just lab data",
             "Check Core Web Vitals in Google Search Console under Experience > Core Web Vitals",
           ],
+          image: {
+            src: "/images/academy/site-speed-cwv-thresholds.svg",
+            alt: "Core Web Vitals threshold chart showing good, needs improvement, and poor ranges for LCP, INP, and CLS metrics",
+            caption: "All three Core Web Vitals must pass their thresholds for a good page experience signal: LCP under 2.5s, INP under 200ms, CLS under 0.1.",
+          },
+          callout: {
+            title: "Revenue Correlation",
+            text: "Every additional second of load time reduces ecommerce conversion rates by 7-12%. A store loading in 2 seconds converts at nearly 3x the rate of one loading in 6 seconds.",
+          },
         },
         {
           title: "Image Optimization for Product Catalogs",
@@ -41,6 +50,15 @@ export const siteSpeedOptimization: AcademyTopic = {
             "Use Google Tag Manager with event-based triggers instead of page-load triggers",
             "Set a performance budget: no more than 300 KB of total JavaScript on critical pages",
           ],
+          image: {
+            src: "/images/academy/js-script-loading-strategy.svg",
+            alt: "Timeline diagram showing three categories of script loading: critical scripts loaded immediately, deferred scripts after first paint, and lazy scripts triggered by user actions",
+            caption: "Split scripts into three tiers: load critical JS immediately, defer analytics to after first paint, and lazy-load chat and reviews on user interaction.",
+          },
+          callout: {
+            title: "Script Audit Result",
+            text: "The average ecommerce store loads 20-35 third-party scripts. Using trigger-based loading via Google Tag Manager reduced main-thread blocking time by 40% on a home goods store we optimized.",
+          },
         },
         {
           title: "Server Response Time and Hosting",
@@ -77,6 +95,15 @@ export const siteSpeedOptimization: AcademyTopic = {
             "Testen Sie mit PageSpeed Insights über den Felddaten-Tab, nicht nur Labordaten",
             "Prüfen Sie Core Web Vitals in der Google Search Console unter Leistung > Core Web Vitals",
           ],
+          image: {
+            src: "/images/academy/de/site-speed-cwv-thresholds.svg",
+            alt: "Core Web Vitals Schwellenwerttabelle die gute, verbesserungswuerdige und schlechte Bereiche fuer LCP, INP und CLS-Metriken zeigt",
+            caption: "Alle drei Core Web Vitals muessen ihre Schwellenwerte erreichen fuer ein gutes Seitenerlebnissignal: LCP unter 2,5s, INP unter 200ms, CLS unter 0,1.",
+          },
+          callout: {
+            title: "Umsatzkorrelation",
+            text: "Jede zusaetzliche Sekunde Ladezeit reduziert die Ecommerce-Konversionsraten um 7-12%. Ein Shop der in 2 Sekunden laedt konvertiert mit fast 3x der Rate eines Shops der in 6 Sekunden laedt.",
+          },
         },
         {
           title: "Bildoptimierung für Produktkataloge",
@@ -101,6 +128,15 @@ export const siteSpeedOptimization: AcademyTopic = {
           content:
             "Time to First Byte (TTFB) misst, wie lange Ihr Server braucht, um mit dem ersten Byte HTML zu antworten. Google empfiehlt TTFB unter 800 Millisekunden, aber die besten Ecommerce-Seiten erreichen unter 200 Millisekunden. Langsames TTFB verzögert alles, was folgt: Rendering, Ressourcenladen und Interaktivität.\n\nShared-Hosting-Pläne können kein konsistentes TTFB für Shops mit mehr als einigen Hundert Produkten liefern. Die Datenbankabfragen zum Aufbau von Kategorieseiten mit Filterung, Sortierung und Bestandsprüfungen erfordern dedizierte Ressourcen. Wechseln Sie zu einem VPS, dedizierten Server oder einer verwalteten Ecommerce-Plattform, die die Infrastruktur-Skalierung übernimmt.\n\nImplementieren Sie Ganzseiten-Caching für Kategorie- und Produktseiten. Die meisten Produktseiten ändern sich selten, und das Ausliefern einer gecachten HTML-Antwort eliminiert Datenbankabfragen vollständig. Varnish, Redis oder die integrierte Cache-Schicht Ihrer Plattform können TTFB von 1,5 Sekunden auf unter 100 Millisekunden für gecachte Seiten reduzieren.\n\nNutzen Sie ein CDN mit Edge-Caching, um statische Assets und gecachte Seiten von Standorten nahe Ihrer Kunden auszuliefern. Ein CDN reduziert die Latenz um 50 % bis 80 % für geografisch entfernte Besucher. Für internationale Shops ist dies essentiell. Ein britischer Kunde, der auf einen in den USA gehosteten Shop ohne CDN zugreift, fügt bei jeder Anfrage 150 bis 250 Millisekunden Latenz hinzu.",
           tip: "Testen Sie Ihr TTFB von mehreren Standorten mit WebPageTest.org. Wählen Sie Serverstandorte, die zu Ihrer Kundenbasis passen. Wenn TTFB zwischen Regionen stark variiert, muss wahrscheinlich Ihre CDN-Konfiguration angepasst werden.",
+          image: {
+            src: "/images/academy/de/js-script-loading-strategy.svg",
+            alt: "Zeitliniendiagramm das drei Kategorien des Script-Ladens zeigt: kritische Scripts sofort geladen, verzoegerte Scripts nach dem ersten Paint und Lazy-Scripts durch Nutzeraktionen ausgeloest",
+            caption: "Teilen Sie Scripts in drei Stufen: kritisches JS sofort laden, Analytics nach dem ersten Paint verschieben und Chat sowie Bewertungen bei Nutzerinteraktion lazy laden.",
+          },
+          callout: {
+            title: "Script-Audit-Ergebnis",
+            text: "Der durchschnittliche Ecommerce-Shop laedt 20-35 Drittanbieter-Scripts. Die Verwendung von Trigger-basiertem Laden via Google Tag Manager reduzierte die Main-Thread-Blockierzeit um 40% bei einem von uns optimierten Einrichtungsshop.",
+          },
         },
         {
           title: "Optimierung des kritischen Rendering-Pfads",
@@ -131,6 +167,15 @@ export const siteSpeedOptimization: AcademyTopic = {
             "Testez avec PageSpeed Insights en utilisant l'onglet données terrain, pas seulement les données labo",
             "Vérifiez les Core Web Vitals dans Google Search Console sous Expérience > Core Web Vitals",
           ],
+          image: {
+            src: "/images/academy/fr/site-speed-cwv-thresholds.svg",
+            alt: "Core Web Vitals Schwellenwerttabelle die gute, verbesserungswuerdige und schlechte Bereiche fuer LCP, INP und CLS-Metriken zeigt",
+            caption: "Alle drei Core Web Vitals muessen ihre Schwellenwerte erreichen fuer ein gutes Seitenerlebnissignal: LCP unter 2,5s, INP unter 200ms, CLS unter 0,1.",
+          },
+          callout: {
+            title: "Umsatzkorrelation",
+            text: "Jede zusaetzliche Sekunde Ladezeit reduziert die Ecommerce-Konversionsraten um 7-12%. Ein Shop der in 2 Sekunden laedt konvertiert mit fast 3x der Rate eines Shops der in 6 Sekunden laedt.",
+          },
         },
         {
           title: "Optimisation des images pour les catalogues produits",
@@ -155,6 +200,15 @@ export const siteSpeedOptimization: AcademyTopic = {
           content:
             "Le Time to First Byte (TTFB) mesure le temps nécessaire à votre serveur pour répondre avec le premier octet de HTML. Google recommande un TTFB inférieur à 800 millisecondes, mais les meilleurs sites e-commerce atteignent moins de 200 millisecondes. Un TTFB lent retarde tout ce qui suit : le rendu, le chargement des ressources et l'interactivité.\n\nLes hébergements mutualisés ne peuvent pas fournir un TTFB constant pour les boutiques de plus de quelques centaines de produits. Les requêtes de base de données nécessaires pour construire des pages catégories avec filtrage, tri et vérifications de stock exigent des ressources dédiées. Passez à un VPS, un serveur dédié ou une plateforme e-commerce gérée qui gère la montée en charge de l'infrastructure.\n\nImplémentez le cache de page complète pour les pages catégorie et produit. La plupart des pages produit changent rarement, et servir une réponse HTML mise en cache élimine entièrement les requêtes de base de données. Varnish, Redis ou la couche de cache intégrée de votre plateforme peuvent réduire le TTFB de 1,5 seconde à moins de 100 millisecondes pour les pages en cache.\n\nUtilisez un CDN avec cache en périphérie pour servir les assets statiques et les pages en cache depuis des emplacements proches de vos clients. Un CDN réduit la latence de 50 % à 80 % pour les visiteurs géographiquement éloignés. Pour les boutiques internationales, c'est essentiel. Un client britannique accédant à une boutique hébergée aux États-Unis sans CDN ajoute 150 à 250 millisecondes de latence à chaque requête.",
           tip: "Testez votre TTFB depuis plusieurs emplacements avec WebPageTest.org. Sélectionnez des emplacements serveur correspondant à votre base de clients. Si le TTFB varie fortement entre les régions, votre configuration CDN nécessite probablement une attention particulière.",
+          image: {
+            src: "/images/academy/fr/js-script-loading-strategy.svg",
+            alt: "Zeitliniendiagramm das drei Kategorien des Script-Ladens zeigt: kritische Scripts sofort geladen, verzoegerte Scripts nach dem ersten Paint und Lazy-Scripts durch Nutzeraktionen ausgeloest",
+            caption: "Teilen Sie Scripts in drei Stufen: kritisches JS sofort laden, Analytics nach dem ersten Paint verschieben und Chat sowie Bewertungen bei Nutzerinteraktion lazy laden.",
+          },
+          callout: {
+            title: "Script-Audit-Ergebnis",
+            text: "Der durchschnittliche Ecommerce-Shop laedt 20-35 Drittanbieter-Scripts. Die Verwendung von Trigger-basiertem Laden via Google Tag Manager reduzierte die Main-Thread-Blockierzeit um 40% bei einem von uns optimierten Einrichtungsshop.",
+          },
         },
         {
           title: "Optimisation du chemin de rendu critique",
@@ -185,6 +239,15 @@ export const siteSpeedOptimization: AcademyTopic = {
             "Prueba con PageSpeed Insights usando la pestaña de datos de campo, no solo datos de laboratorio",
             "Verifica Core Web Vitals en Google Search Console en Experiencia > Core Web Vitals",
           ],
+          image: {
+            src: "/images/academy/es/site-speed-cwv-thresholds.svg",
+            alt: "Core Web Vitals Schwellenwerttabelle die gute, verbesserungswuerdige und schlechte Bereiche fuer LCP, INP und CLS-Metriken zeigt",
+            caption: "Alle drei Core Web Vitals muessen ihre Schwellenwerte erreichen fuer ein gutes Seitenerlebnissignal: LCP unter 2,5s, INP unter 200ms, CLS unter 0,1.",
+          },
+          callout: {
+            title: "Umsatzkorrelation",
+            text: "Jede zusaetzliche Sekunde Ladezeit reduziert die Ecommerce-Konversionsraten um 7-12%. Ein Shop der in 2 Sekunden laedt konvertiert mit fast 3x der Rate eines Shops der in 6 Sekunden laedt.",
+          },
         },
         {
           title: "Optimización de imágenes para catálogos de productos",
@@ -209,6 +272,15 @@ export const siteSpeedOptimization: AcademyTopic = {
           content:
             "El Time to First Byte (TTFB) mide cuánto tarda tu servidor en responder con el primer byte de HTML. Google recomienda un TTFB inferior a 800 milisegundos, pero los mejores sitios de ecommerce logran menos de 200 milisegundos. Un TTFB lento retrasa todo lo que sigue: renderizado, carga de recursos e interactividad.\n\nLos planes de hosting compartido no pueden ofrecer un TTFB consistente para tiendas con más de unos pocos cientos de productos. Las consultas de base de datos necesarias para construir páginas de categoría con filtrado, ordenamiento y verificaciones de inventario demandan recursos dedicados. Actualiza a un VPS, servidor dedicado o una plataforma de ecommerce gestionada que maneje el escalado de infraestructura.\n\nImplementa caché de página completa para páginas de categoría y producto. La mayoría de las páginas de producto cambian infrecuentemente, y servir una respuesta HTML en caché elimina las consultas de base de datos por completo. Varnish, Redis o la capa de caché integrada de tu plataforma pueden reducir el TTFB de 1,5 segundos a menos de 100 milisegundos para páginas en caché.\n\nUsa un CDN con caché en el borde para servir assets estáticos y páginas en caché desde ubicaciones cercanas a tus clientes. Un CDN reduce la latencia entre un 50 % y un 80 % para visitantes geográficamente distantes. Para tiendas internacionales, esto es esencial. Un cliente británico accediendo a una tienda alojada en EE.UU. sin CDN añade de 150 a 250 milisegundos de latencia en cada solicitud.",
           tip: "Prueba tu TTFB desde múltiples ubicaciones usando WebPageTest.org. Selecciona ubicaciones de servidor que coincidan con tu base de clientes. Si el TTFB varía mucho entre regiones, tu configuración de CDN probablemente necesita atención.",
+          image: {
+            src: "/images/academy/es/js-script-loading-strategy.svg",
+            alt: "Zeitliniendiagramm das drei Kategorien des Script-Ladens zeigt: kritische Scripts sofort geladen, verzoegerte Scripts nach dem ersten Paint und Lazy-Scripts durch Nutzeraktionen ausgeloest",
+            caption: "Teilen Sie Scripts in drei Stufen: kritisches JS sofort laden, Analytics nach dem ersten Paint verschieben und Chat sowie Bewertungen bei Nutzerinteraktion lazy laden.",
+          },
+          callout: {
+            title: "Script-Audit-Ergebnis",
+            text: "Der durchschnittliche Ecommerce-Shop laedt 20-35 Drittanbieter-Scripts. Die Verwendung von Trigger-basiertem Laden via Google Tag Manager reduzierte die Main-Thread-Blockierzeit um 40% bei einem von uns optimierten Einrichtungsshop.",
+          },
         },
         {
           title: "Optimización de la ruta de renderizado crítico",
@@ -239,6 +311,15 @@ export const siteSpeedOptimization: AcademyTopic = {
             "Testa con PageSpeed Insights usando la scheda dati sul campo, non solo i dati di laboratorio",
             "Controlla i Core Web Vitals in Google Search Console sotto Esperienza > Core Web Vitals",
           ],
+          image: {
+            src: "/images/academy/it/site-speed-cwv-thresholds.svg",
+            alt: "Core Web Vitals Schwellenwerttabelle die gute, verbesserungswuerdige und schlechte Bereiche fuer LCP, INP und CLS-Metriken zeigt",
+            caption: "Alle drei Core Web Vitals muessen ihre Schwellenwerte erreichen fuer ein gutes Seitenerlebnissignal: LCP unter 2,5s, INP unter 200ms, CLS unter 0,1.",
+          },
+          callout: {
+            title: "Umsatzkorrelation",
+            text: "Jede zusaetzliche Sekunde Ladezeit reduziert die Ecommerce-Konversionsraten um 7-12%. Ein Shop der in 2 Sekunden laedt konvertiert mit fast 3x der Rate eines Shops der in 6 Sekunden laedt.",
+          },
         },
         {
           title: "Ottimizzazione delle immagini per cataloghi prodotto",
@@ -263,6 +344,15 @@ export const siteSpeedOptimization: AcademyTopic = {
           content:
             "Il Time to First Byte (TTFB) misura quanto tempo impiega il tuo server a rispondere con il primo byte di HTML. Google raccomanda un TTFB inferiore a 800 millisecondi, ma i migliori siti ecommerce raggiungono meno di 200 millisecondi. Un TTFB lento ritarda tutto ciò che segue: rendering, caricamento risorse e interattività.\n\nI piani di hosting condiviso non possono fornire un TTFB costante per negozi con più di qualche centinaio di prodotti. Le query al database necessarie per costruire pagine categoria con filtri, ordinamento e verifiche di inventario richiedono risorse dedicate. Passa a un VPS, server dedicato o una piattaforma ecommerce gestita che gestisce lo scaling dell'infrastruttura.\n\nImplementa il caching di pagina completa per le pagine categoria e prodotto. La maggior parte delle pagine prodotto cambia raramente, e servire una risposta HTML dalla cache elimina completamente le query al database. Varnish, Redis o il layer di cache integrato della tua piattaforma possono ridurre il TTFB da 1,5 secondi a meno di 100 millisecondi per le pagine in cache.\n\nUsa un CDN con cache perimetrale per servire asset statici e pagine in cache da posizioni vicine ai tuoi clienti. Un CDN riduce la latenza dal 50 % all'80 % per i visitatori geograficamente distanti. Per i negozi internazionali, questo è essenziale. Un cliente britannico che accede a un negozio ospitato negli USA senza CDN aggiunge da 150 a 250 millisecondi di latenza per ogni richiesta.",
           tip: "Testa il tuo TTFB da più posizioni usando WebPageTest.org. Seleziona posizioni server che corrispondano alla tua base clienti. Se il TTFB varia notevolmente tra le regioni, la configurazione del tuo CDN probabilmente necessita di attenzione.",
+          image: {
+            src: "/images/academy/it/js-script-loading-strategy.svg",
+            alt: "Zeitliniendiagramm das drei Kategorien des Script-Ladens zeigt: kritische Scripts sofort geladen, verzoegerte Scripts nach dem ersten Paint und Lazy-Scripts durch Nutzeraktionen ausgeloest",
+            caption: "Teilen Sie Scripts in drei Stufen: kritisches JS sofort laden, Analytics nach dem ersten Paint verschieben und Chat sowie Bewertungen bei Nutzerinteraktion lazy laden.",
+          },
+          callout: {
+            title: "Script-Audit-Ergebnis",
+            text: "Der durchschnittliche Ecommerce-Shop laedt 20-35 Drittanbieter-Scripts. Die Verwendung von Trigger-basiertem Laden via Google Tag Manager reduzierte die Main-Thread-Blockierzeit um 40% bei einem von uns optimierten Einrichtungsshop.",
+          },
         },
         {
           title: "Ottimizzazione del percorso di rendering critico",
@@ -293,6 +383,15 @@ export const siteSpeedOptimization: AcademyTopic = {
             "Test met PageSpeed Insights via het tabblad veldgegevens, niet alleen labgegevens",
             "Controleer Core Web Vitals in Google Search Console onder Ervaring > Core Web Vitals",
           ],
+          image: {
+            src: "/images/academy/nl/site-speed-cwv-thresholds.svg",
+            alt: "Core Web Vitals Schwellenwerttabelle die gute, verbesserungswuerdige und schlechte Bereiche fuer LCP, INP und CLS-Metriken zeigt",
+            caption: "Alle drei Core Web Vitals muessen ihre Schwellenwerte erreichen fuer ein gutes Seitenerlebnissignal: LCP unter 2,5s, INP unter 200ms, CLS unter 0,1.",
+          },
+          callout: {
+            title: "Umsatzkorrelation",
+            text: "Jede zusaetzliche Sekunde Ladezeit reduziert die Ecommerce-Konversionsraten um 7-12%. Ein Shop der in 2 Sekunden laedt konvertiert mit fast 3x der Rate eines Shops der in 6 Sekunden laedt.",
+          },
         },
         {
           title: "Beeldoptimalisatie voor productcatalogi",
@@ -317,6 +416,15 @@ export const siteSpeedOptimization: AcademyTopic = {
           content:
             "Time to First Byte (TTFB) meet hoe lang je server nodig heeft om te reageren met de eerste byte HTML. Google beveelt een TTFB onder 800 milliseconden aan, maar de beste ecommerce-sites bereiken minder dan 200 milliseconden. Een trage TTFB vertraagt alles wat volgt: rendering, het laden van resources en interactiviteit.\n\nGedeelde hostingplannen kunnen geen consistente TTFB leveren voor winkels met meer dan een paar honderd producten. De database-queries die nodig zijn om categoriepagina's te bouwen met filteren, sorteren en voorraadcontroles vereisen dedicated resources. Upgrade naar een VPS, dedicated server of een beheerd ecommerce-platform dat infrastructuurschaling afhandelt.\n\nImplementeer full-page caching voor categorie- en productpagina's. De meeste productpagina's veranderen zelden, en het serveren van een gecachte HTML-response elimineert database-queries volledig. Varnish, Redis of de ingebouwde cachelaag van je platform kunnen de TTFB van 1,5 seconden terugbrengen tot minder dan 100 milliseconden voor gecachte pagina's.\n\nGebruik een CDN met edge caching om statische assets en gecachte pagina's te serveren vanaf locaties dicht bij je klanten. Een CDN vermindert de latentie met 50 % tot 80 % voor geografisch verre bezoekers. Voor internationale winkels is dit essentieel. Een Britse klant die een in de VS gehoste winkel bezoekt zonder CDN voegt 150 tot 250 milliseconden latentie toe bij elk verzoek.",
           tip: "Test je TTFB vanuit meerdere locaties met WebPageTest.org. Selecteer serverlocaties die overeenkomen met je klantenbestand. Als de TTFB sterk varieert tussen regio's, heeft je CDN-configuratie waarschijnlijk aandacht nodig.",
+          image: {
+            src: "/images/academy/nl/js-script-loading-strategy.svg",
+            alt: "Zeitliniendiagramm das drei Kategorien des Script-Ladens zeigt: kritische Scripts sofort geladen, verzoegerte Scripts nach dem ersten Paint und Lazy-Scripts durch Nutzeraktionen ausgeloest",
+            caption: "Teilen Sie Scripts in drei Stufen: kritisches JS sofort laden, Analytics nach dem ersten Paint verschieben und Chat sowie Bewertungen bei Nutzerinteraktion lazy laden.",
+          },
+          callout: {
+            title: "Script-Audit-Ergebnis",
+            text: "Der durchschnittliche Ecommerce-Shop laedt 20-35 Drittanbieter-Scripts. Die Verwendung von Trigger-basiertem Laden via Google Tag Manager reduzierte die Main-Thread-Blockierzeit um 40% bei einem von uns optimierten Einrichtungsshop.",
+          },
         },
         {
           title: "Optimalisatie van het kritieke renderpad",

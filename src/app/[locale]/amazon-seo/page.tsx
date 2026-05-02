@@ -6,6 +6,8 @@ import { serviceJsonLd, breadcrumbJsonLd, faqJsonLd } from "@/lib/jsonLd";
 import { servicePageData, homeBreadcrumb } from "@/lib/i18n/translations/services";
 import { BASE_URL } from "@/lib/i18n/config";
 
+export const revalidate = 3600;
+
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;

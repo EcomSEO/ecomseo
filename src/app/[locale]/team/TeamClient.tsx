@@ -13,7 +13,7 @@ import { teamPageT } from "@/lib/i18n/translations/team";
 const teamMembersData = [
   {
     name: "Fabian van Til",
-    image: "/images/framer/C23VbBxvj2kY5TMoXAJHXWVLaA.webp",
+    image: "/images/framer/fabian-van-til-new.jpeg",
     href: "/team/fabian-van-til",
     linkedin: "https://www.linkedin.com/in/fabianvantil/",
   },
@@ -27,7 +27,7 @@ const teamMembersData = [
     name: "Dimitar Georgiev",
     image: "/images/framer/Q3tfuu2ytPAotONsFoP1ouyPZic.png",
     href: "/team/dimitar-georgiev",
-    linkedin: "https://www.linkedin.com/in/dimitar-seo/",
+    linkedin: "https://bg.linkedin.com/in/dimitar-georgiev-seo-expert",
   },
   {
     name: "Gjorgi Jovev",
@@ -93,15 +93,23 @@ function TeamCard({
     >
       <LocaleLink
         href={member.href}
-        className="group flex flex-col flex-1 rounded-2xl border border-border bg-[#12121a] overflow-hidden transition-all duration-400 hover:border-[rgba(168,85,247,0.35)] hover:bg-[#1a1a28] hover:-translate-y-1.5 hover:shadow-[0_20px_60px_rgba(147,51,234,0.1),0_0_0_1px_rgba(147,51,234,0.15)]"
+        className="group flex flex-col flex-1 rounded-2xl border border-border bg-[#12121a] overflow-hidden transition-all duration-500 hover:border-[rgba(168,85,247,0.35)] hover:bg-[#1a1a28] hover:-translate-y-2 hover:shadow-[0_25px_60px_rgba(147,51,234,0.15),0_0_0_1px_rgba(147,51,234,0.2)]"
+        style={{ perspective: "800px" }}
       >
-        <div className="relative w-full aspect-[3/3.5] overflow-hidden bg-gradient-to-br from-[#1a1a2e] to-[#16162a]">
+        <div
+          className="relative w-full aspect-[3/3.5] overflow-hidden transition-transform duration-500 group-hover:[transform:rotateY(-3deg)_rotateX(2deg)_scale(1.02)]"
+          style={{ transformStyle: "preserve-3d" }}
+        >
+          {/* Colored accent glow behind photo */}
+          <div className="absolute inset-0 bg-gradient-to-br from-[rgba(147,51,234,0.15)] via-[#16162a] to-[rgba(168,85,247,0.1)] transition-opacity duration-500 group-hover:opacity-100 opacity-60" />
           <Image
             src={member.image}
             alt={member.name}
             fill
-            className="object-cover object-top transition-transform duration-600 group-hover:scale-[1.04] grayscale-[20%] group-hover:grayscale-0"
+            className="object-cover object-top transition-all duration-500 group-hover:scale-[1.05] grayscale-[15%] group-hover:grayscale-0 group-hover:brightness-110"
           />
+          {/* Subtle shine overlay on hover */}
+          <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none" style={{ background: 'linear-gradient(135deg, rgba(255,255,255,0.06) 0%, transparent 50%, rgba(147,51,234,0.08) 100%)' }} />
           <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-[rgba(10,10,15,0.95)]" style={{ background: 'linear-gradient(180deg, transparent 50%, rgba(10,10,15,0.6) 80%, rgba(10,10,15,0.95) 100%)' }} />
         </div>
         <div className="p-6 flex flex-col flex-1">

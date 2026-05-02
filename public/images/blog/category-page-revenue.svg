@@ -1,0 +1,18 @@
+<svg viewBox="0 0 680 240" xmlns="http://www.w3.org/2000/svg" fill="none" font-family="Arial,sans-serif">
+  <text x="340" y="24" text-anchor="middle" fill="#a78bfa" font-size="14" font-weight="bold">Organic Revenue by Page Type (Avg Across 40+ Stores)</text>
+  <!-- Bars -->
+  <rect x="80" y="52" width="270" height="32" rx="6" fill="#a78bfa" opacity="0.6"/>
+  <text x="90" y="72" fill="#e2e8f0" font-size="12" font-weight="bold">Category Pages — 45%</text>
+  <text x="362" y="72" fill="#94a3b8" font-size="10">&lt;5% of total pages</text>
+  <rect x="80" y="96" width="180" height="32" rx="6" fill="#60a5fa" opacity="0.6"/>
+  <text x="90" y="116" fill="#e2e8f0" font-size="12" font-weight="bold">Product Pages — 30%</text>
+  <rect x="80" y="140" width="48" height="32" rx="6" fill="#4ade80" opacity="0.5"/>
+  <text x="90" y="160" fill="#e2e8f0" font-size="11">Blog — 8%</text>
+  <rect x="80" y="184" width="102" height="32" rx="6" fill="#f97316" opacity="0.4"/>
+  <text x="90" y="204" fill="#e2e8f0" font-size="11">Homepage + Other — 17%</text>
+  <!-- Annotation -->
+  <line x1="500" y1="68" x2="540" y2="68" stroke="#a78bfa" stroke-width="1" stroke-dasharray="3 2"/>
+  <rect x="544" y="50" width="120" height="44" rx="6" fill="#a78bfa" opacity="0.1" stroke="#a78bfa" stroke-width="1"/>
+  <text x="604" y="68" text-anchor="middle" fill="#a78bfa" font-size="10" font-weight="bold">Most valuable</text>
+  <text x="604" y="82" text-anchor="middle" fill="#a78bfa" font-size="10">SEO asset</text>
+</svg>

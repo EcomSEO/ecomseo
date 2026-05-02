@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import LocaleLink from "@/components/ui/LocaleLink";
 import Button from "@/components/ui/Button";
+import VidalyticsEmbed from "@/components/ui/VidalyticsEmbed";
 import { useLocale } from "@/lib/i18n/useTranslations";
 import { heroT } from "@/lib/i18n/translations/home";
 
@@ -74,100 +75,127 @@ export default function Hero() {
 
   return (
     <section className="relative w-full overflow-hidden">
-      <div className="relative px-6 md:px-8 lg:px-16 pt-[105px] pb-[104px]">
-        <div className="relative z-[1] mx-auto max-w-[1200px] w-full grid grid-cols-1 lg:grid-cols-[minmax(0,1fr)_minmax(0,420px)] gap-10 lg:gap-16 items-center">
-          {/* ─── Left column: headline + CTAs ─── */}
-          <div className="flex flex-col items-center lg:items-start text-center lg:text-left gap-[7px]">
-            {/* Social proof */}
+      <div className="relative px-6 md:px-8 lg:px-16 pt-[105px] pb-[80px]">
+        <div className="relative z-[1] mx-auto max-w-[1100px] w-full flex flex-col items-center text-center gap-6">
+          {/* Audience-qualifier pill */}
+          {t.eyebrow && (
             <motion.div
-              initial={{ opacity: 0, y: 20 }}
+              className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-accent/30 bg-accent/5 text-accent text-[12px] font-medium tracking-[0.02em]"
+              initial={{ opacity: 0, y: 10 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5 }}
+              transition={{ duration: 0.4 }}
             >
-              <SocialProof text={t.socialProof} />
-            </motion.div>
-
-            {/* Content inner - gap 24px */}
-            <div className="flex flex-col items-center lg:items-start gap-6">
-              {/* Main heading */}
-              <motion.h1
-                className="text-[40px] md:text-[64px] lg:text-[72px] font-medium leading-[1.05] tracking-[-0.03em] text-heading max-w-[640px]"
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.5, delay: 0.1 }}
-              >
-                {t.heading}
-              </motion.h1>
-
-              {/* Subtitle */}
-              <motion.p
-                className="text-body text-base md:text-lg font-medium max-w-[560px]"
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.5, delay: 0.2 }}
-              >
-                {t.subtitle}
-              </motion.p>
-
-              {/* CTA — single, Fabian-branded */}
-              <motion.div
-                className="flex items-center lg:items-start py-4"
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.5, delay: 0.3 }}
-              >
-                <Button
-                  href="https://w35pmime997.typeform.com/to/eqeeLQvb"
-                  variant="primary"
-                  size="large"
-                  external
-                >
-                  Get a Free Proposal from Fabian
-                </Button>
-              </motion.div>
-            </div>
-          </div>
-
-          {/* ─── Right column: Fabian portrait card ─── */}
-          <motion.div
-            className="relative w-full max-w-[420px] mx-auto lg:mx-0 aspect-[4/5] rounded-3xl overflow-hidden border border-border/60 shadow-[0_30px_80px_-20px_rgba(0,0,0,0.7)]"
-            initial={{ opacity: 0, x: 30 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.6, delay: 0.2 }}
-          >
-            <Image
-              src="/images/framer/fabian-van-til-new.jpeg"
-              alt="Fabian van Til, CEO at EcomSEO"
-              title="Fabian van Til"
-              fill
-              className="object-cover"
-              sizes="(max-width: 1024px) 420px, 420px"
-              priority
-            />
-            {/* Dark gradient overlay bottom */}
-            <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/20 to-transparent" />
-            {/* Name + role overlay */}
-            <div className="absolute bottom-0 left-0 right-0 p-6 flex flex-col gap-1">
-              <h3 className="text-[17px] font-medium text-heading leading-tight">
-                Fabian van Til
-              </h3>
-              <span className="text-[13px] text-body/90">
-                CEO at EcomSEO, Brand Owner
+              <span className="relative flex w-[6px] h-[6px]">
+                <span className="absolute inline-flex w-full h-full rounded-full bg-accent opacity-60 animate-ping" />
+                <span className="relative inline-flex w-[6px] h-[6px] rounded-full bg-accent" />
               </span>
-            </div>
-            {/* Subtle purple glow behind corner */}
+              {t.eyebrow}
+            </motion.div>
+          )}
+
+          {/* Main heading — centered, big */}
+          <motion.h1
+            className="text-[40px] md:text-[60px] lg:text-[68px] font-medium leading-[1.05] tracking-[-0.03em] text-heading max-w-[920px]"
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: 0.1 }}
+          >
+            {t.heading}
+          </motion.h1>
+
+          {/* Subtitle */}
+          <motion.p
+            className="text-body text-base md:text-lg font-medium max-w-[680px]"
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: 0.2 }}
+          >
+            {t.subtitle}
+          </motion.p>
+
+          {/* "Click here for proof" — scrolls to the Results/metrics section below */}
+          <motion.a
+            href="#projects"
+            className="text-heading/85 hover:text-heading text-[13px] font-semibold tracking-[0.06em] uppercase underline underline-offset-[6px] decoration-1 decoration-heading/40 hover:decoration-heading transition-colors"
+            initial={{ opacity: 0, y: 10 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.4, delay: 0.25 }}
+          >
+            Click here for proof
+          </motion.a>
+
+          {/* ─── Centered Fabian intro video — Vidalytics embed ─── */}
+          <motion.div
+            className="relative w-full max-w-[920px] rounded-3xl overflow-hidden border border-border/60 bg-black shadow-[0_30px_80px_-20px_rgba(0,0,0,0.7)] mt-4"
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: 0.3 }}
+          >
+            <VidalyticsEmbed embedId="wrphd1mXJaLobXJK" />
+            {/* Soft purple glow around the video */}
             <div
               className="absolute pointer-events-none"
               style={{
-                width: 240,
-                height: 240,
-                top: -40,
-                right: -40,
+                width: 420,
+                height: 420,
+                top: -120,
+                right: -120,
                 background: "radial-gradient(circle, rgba(193,100,230,0.25) 0%, transparent 60%)",
-                filter: "blur(30px)",
+                filter: "blur(40px)",
               }}
               aria-hidden
             />
+          </motion.div>
+
+          {/* Primary CTA + trust row below video */}
+          <motion.div
+            className="flex flex-col items-center gap-5 mt-4"
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: 0.4 }}
+          >
+            <Button
+              href="/demo"
+              variant="primary"
+              size="large"
+            >
+              {t.ctaPrimary}
+            </Button>
+
+            {/* Social proof row */}
+            <SocialProof text={t.socialProof} />
+
+            {/* Certified Partner logos — Shopify, Google, Bing */}
+            <div className="flex items-center justify-center flex-wrap gap-8 md:gap-10 pt-2">
+              <Image
+                src="/images/partners/shopify-partner.png"
+                alt="Shopify Partners"
+                width={800}
+                height={250}
+                className="h-[34px] md:h-[40px] w-auto object-contain opacity-75 hover:opacity-100 transition-opacity"
+              />
+              <a
+                href="https://www.google.com/partners/agency?id=6774382013"
+                target="_blank"
+                rel="nofollow noopener noreferrer"
+                className="inline-flex"
+              >
+                <Image
+                  src="/images/partners/google-partner.png"
+                  alt="Google Partner"
+                  width={573}
+                  height={208}
+                  className="h-[34px] md:h-[40px] w-auto object-contain opacity-75 hover:opacity-100 transition-opacity"
+                />
+              </a>
+              <Image
+                src="/images/partners/bing-partner-agency.webp"
+                alt="Bing Partner Agency"
+                width={400}
+                height={199}
+                className="h-[34px] md:h-[40px] w-auto object-contain opacity-75 hover:opacity-100 transition-opacity"
+              />
+            </div>
           </motion.div>
         </div>
 

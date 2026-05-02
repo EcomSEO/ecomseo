@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 240" fill="none">
+  <text x="210" y="22" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#a78bfa">Shopify Geschwindigkeitsoptimierungs-Stack</text>
+  <!-- Layer 1 - Theme -->
+  <rect x="60" y="42" width="300" height="36" rx="6" stroke="#4ade80" stroke-width="1.5" fill="none"/>
+  <text x="210" y="58" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#4ade80">OS 2.0 Theme (Dawn)</text>
+  <text x="210" y="70" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">JSON templates, faster rendering, smaller JS bundles</text>
+  <!-- Layer 2 - Images -->
+  <rect x="60" y="86" width="300" height="36" rx="6" stroke="#60a5fa" stroke-width="1.5" fill="none"/>
+  <text x="210" y="102" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#60a5fa">Image Optimization</text>
+  <text x="210" y="114" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">image_url filter + width param | WebP via CDN | lazy loading</text>
+  <!-- Layer 3 - Apps -->
+  <rect x="60" y="130" width="300" height="36" rx="6" stroke="#f97316" stroke-width="1.5" fill="none"/>
+  <text x="210" y="146" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#f97316">App Audit</text>
+  <text x="210" y="158" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">Remove unused apps | Replace with Liquid code where possible</text>
+  <!-- Layer 4 - JS -->
+  <rect x="60" y="174" width="300" height="36" rx="6" stroke="#a78bfa" stroke-width="1.5" fill="none"/>
+  <text x="210" y="190" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#a78bfa">JavaScript Deferral</text>
+  <text x="210" y="202" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">Defer non-critical scripts | Reduce Liquid loop complexity</text>
+  <!-- Impact arrow -->
+  <text x="30" y="62" text-anchor="middle" font-family="Arial,sans-serif" font-size="16" fill="#4ade80">1</text>
+  <text x="30" y="106" text-anchor="middle" font-family="Arial,sans-serif" font-size="16" fill="#60a5fa">2</text>
+  <text x="30" y="150" text-anchor="middle" font-family="Arial,sans-serif" font-size="16" fill="#f97316">3</text>
+  <text x="30" y="194" text-anchor="middle" font-family="Arial,sans-serif" font-size="16" fill="#a78bfa">4</text>
+  <text x="30" y="228" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">Priorität</text>
+  <text x="30" y="238" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">order</text>
+</svg>

@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 260" fill="none">
+  <!-- Title -->
+  <text x="340" y="24" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="700" fill="#a78bfa">Core Web Vitals: Threshold Targets</text>
+
+  <!-- LCP -->
+  <rect x="30" y="50" width="200" height="170" rx="10" stroke="#60a5fa" stroke-width="1.5" fill="none"/>
+  <text x="130" y="74" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="700" fill="#60a5fa">LCP</text>
+  <text x="130" y="90" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#94a3b8">Largest Contentful Paint</text>
+
+  <!-- Bueno zone -->
+  <rect x="50" y="104" width="160" height="28" rx="4" fill="#4ade80" opacity="0.15"/>
+  <rect x="50" y="104" width="160" height="28" rx="4" stroke="#4ade80" stroke-width="1" fill="none"/>
+  <text x="130" y="122" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="700" fill="#4ade80">&lt; 2.5s Bueno</text>
+
+  <!-- Needs improvement -->
+  <rect x="50" y="138" width="160" height="24" rx="4" fill="#f97316" opacity="0.1"/>
+  <rect x="50" y="138" width="160" height="24" rx="4" stroke="#f97316" stroke-width="1" fill="none"/>
+  <text x="130" y="154" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#f97316">2.5s - 4s Necesita mejora</text>
+
+  <!-- Pobre -->
+  <rect x="50" y="168" width="160" height="24" rx="4" fill="#ef4444" opacity="0.1"/>
+  <rect x="50" y="168" width="160" height="24" rx="4" stroke="#ef4444" stroke-width="1" fill="none"/>
+  <text x="130" y="184" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#ef4444">&gt; 4s Pobre</text>
+
+  <text x="130" y="210" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#94a3b8">Hero image or product photo</text>
+
+  <!-- INP -->
+  <rect x="250" y="50" width="180" height="170" rx="10" stroke="#a78bfa" stroke-width="1.5" fill="none"/>
+  <text x="340" y="74" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="700" fill="#a78bfa">INP</text>
+  <text x="340" y="90" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#94a3b8">Interaction to Next Paint</text>
+
+  <rect x="270" y="104" width="140" height="28" rx="4" fill="#4ade80" opacity="0.15"/>
+  <rect x="270" y="104" width="140" height="28" rx="4" stroke="#4ade80" stroke-width="1" fill="none"/>
+  <text x="340" y="122" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="700" fill="#4ade80">&lt; 200ms Bueno</text>
+
+  <rect x="270" y="138" width="140" height="24" rx="4" fill="#f97316" opacity="0.1"/>
+  <rect x="270" y="138" width="140" height="24" rx="4" stroke="#f97316" stroke-width="1" fill="none"/>
+  <text x="340" y="154" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#f97316">200-500ms Necesita mejora</text>
+
+  <rect x="270" y="168" width="140" height="24" rx="4" fill="#ef4444" opacity="0.1"/>
+  <rect x="270" y="168" width="140" height="24" rx="4" stroke="#ef4444" stroke-width="1" fill="none"/>
+  <text x="340" y="184" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#ef4444">&gt; 500ms Pobre</text>
+
+  <text x="340" y="210" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#94a3b8">Every tap, click, keystroke</text>
+
+  <!-- CLS -->
+  <rect x="450" y="50" width="200" height="170" rx="10" stroke="#4ade80" stroke-width="1.5" fill="none"/>
+  <text x="550" y="74" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="700" fill="#4ade80">CLS</text>
+  <text x="550" y="90" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#94a3b8">Cumulative Layout Shift</text>
+
+  <rect x="470" y="104" width="160" height="28" rx="4" fill="#4ade80" opacity="0.15"/>
+  <rect x="470" y="104" width="160" height="28" rx="4" stroke="#4ade80" stroke-width="1" fill="none"/>
+  <text x="550" y="122" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="700" fill="#4ade80">&lt; 0.1 Bueno</text>
+
+  <rect x="470" y="138" width="160" height="24" rx="4" fill="#f97316" opacity="0.1"/>
+  <rect x="470" y="138" width="160" height="24" rx="4" stroke="#f97316" stroke-width="1" fill="none"/>
+  <text x="550" y="154" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#f97316">0.1 - 0.25 Necesita mejora</text>
+
+  <rect x="470" y="168" width="160" height="24" rx="4" fill="#ef4444" opacity="0.1"/>
+  <rect x="470" y="168" width="160" height="24" rx="4" stroke="#ef4444" stroke-width="1" fill="none"/>
+  <text x="550" y="184" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#ef4444">&gt; 0.25 Pobre</text>
+
+  <text x="550" y="210" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#94a3b8">Unexpected layout jumps</text>
+
+  <!-- Bottom note -->
+  <text x="340" y="248" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">All three metrics must pass for good page experience signal</text>
+</svg>

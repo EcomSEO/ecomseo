@@ -1,0 +1,34 @@
+<svg viewBox="0 0 400 180" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <text x="200" y="20" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#a78bfa">Googlebot Two-Phase Indexaring</text>
+  <!-- Phase 1 -->
+  <rect x="20" y="38" width="160" height="55" rx="6" stroke="#60a5fa" stroke-width="1.5"/>
+  <text x="100" y="55" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#60a5fa">Phase 1: HTML Fetch</text>
+  <text x="100" y="70" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Raw HTML crawled</text>
+  <text x="100" y="82" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#4ade80">Instant</text>
+  <!-- Arrow with delay label -->
+  <path d="M185 65 L215 65" stroke="#f97316" stroke-width="2" marker-end="url(#arJ)"/>
+  <text x="200" y="58" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#f97316">Delay:</text>
+  <text x="200" y="80" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#f97316">sec to semanas</text>
+  <!-- Phase 2 -->
+  <rect x="220" y="38" width="160" height="55" rx="6" stroke="#a78bfa" stroke-width="1.5"/>
+  <text x="300" y="55" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#a78bfa">Phase 2: JS Render</text>
+  <text x="300" y="70" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Headless Chromium</text>
+  <text x="300" y="82" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#ef4444">5s timeout</text>
+  <!-- Limitations -->
+  <text x="200" y="115" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#e2e8f0">Googlebot Limitations</text>
+  <circle cx="60" cy="140" r="4" stroke="#ef4444" stroke-width="1.5" fill="none"/>
+  <text x="60" y="140" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#ef4444">X</text>
+  <text x="60" y="155" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">No clicks</text>
+  <circle cx="150" cy="140" r="4" stroke="#ef4444" stroke-width="1.5" fill="none"/>
+  <text x="150" y="140" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#ef4444">X</text>
+  <text x="150" y="155" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">No scrolls</text>
+  <circle cx="240" cy="140" r="4" stroke="#ef4444" stroke-width="1.5" fill="none"/>
+  <text x="240" y="140" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#ef4444">X</text>
+  <text x="240" y="155" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">No forms</text>
+  <circle cx="330" cy="140" r="4" stroke="#ef4444" stroke-width="1.5" fill="none"/>
+  <text x="330" y="140" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#ef4444">X</text>
+  <text x="330" y="155" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">No geolocation</text>
+  <defs>
+    <marker id="arJ" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6" fill="#f97316"/></marker>
+  </defs>
+</svg>
