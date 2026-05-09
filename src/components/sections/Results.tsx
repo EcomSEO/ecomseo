@@ -96,9 +96,17 @@ export default function Results() {
         </motion.h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-7 w-full max-w-[1100px]">
-          {results.map((r, i) => (
+          {results.map((r, i) => {
+            const isOrphan =
+              i === results.length - 1 && results.length % 2 === 1;
+            return (
             <motion.div
               key={r.slug}
+              className={
+                isOrphan
+                  ? "md:col-span-2 md:max-w-[calc(50%-0.875rem)] md:mx-auto md:w-full"
+                  : ""
+              }
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
@@ -133,7 +141,8 @@ export default function Results() {
                 </div>
               </div>
             </motion.div>
-          ))}
+            );
+          })}
         </div>
       </div>
     </SectionWrapper>
