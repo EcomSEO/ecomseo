@@ -256,11 +256,18 @@ function IconIndustry() {
   );
 }
 
-/* ─── Bol.com-style colored tiles for the Resources mega-menu left column ─── */
-
+/* ─── Resources mega-menu left-column tiles ───
+ *
+ * Match the rest of the menu's icon style: 1.5px purple stroke
+ * (rgb(193,100,230)), no colored gradient. The tile box stays for
+ * layout (44×44 thumbnail with text next to it) but switches to a
+ * subtle dark surface with a faint purple-tinted border so the
+ * Tools/Academy/Blog icons read the same as the BY-SERVICE-TYPE
+ * icons (Link Building / Amazon SEO / etc.) below them.
+ */
 function TileIconTools() {
   return (
-    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="rgb(193,100,230)" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
       <path d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z" />
     </svg>
   );
@@ -268,7 +275,7 @@ function TileIconTools() {
 
 function TileIconAcademy() {
   return (
-    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="rgb(193,100,230)" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
       <path d="M4 19.5A2.5 2.5 0 016.5 17H20" />
       <path d="M6.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15A2.5 2.5 0 016.5 2z" />
     </svg>
@@ -277,29 +284,21 @@ function TileIconAcademy() {
 
 function TileIconBlog() {
   return (
-    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="rgb(193,100,230)" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
       <path d="M17 3a2.83 2.83 0 114 4L7.5 20.5 2 22l1.5-5.5L17 3z" />
       <path d="M15 5l4 4" />
     </svg>
   );
 }
 
+// Same subtle tile background for all three — no more orange/cyan/pink.
+const RESOURCE_TILE_BG =
+  "linear-gradient(135deg, rgba(193,100,230,0.10) 0%, rgba(193,100,230,0.03) 100%)";
+
 const resourceTileByID: Record<"tools" | "academy" | "blog", { bg: string; Icon: React.FC }> = {
-  tools: {
-    // Orange → red gradient (utility / action)
-    bg: "linear-gradient(135deg, #fb923c 0%, #ea580c 100%)",
-    Icon: TileIconTools,
-  },
-  academy: {
-    // Cyan → teal gradient (learning)
-    bg: "linear-gradient(135deg, #22d3ee 0%, #0891b2 100%)",
-    Icon: TileIconAcademy,
-  },
-  blog: {
-    // Pink → purple gradient (content)
-    bg: "linear-gradient(135deg, #f472b6 0%, #c026d3 100%)",
-    Icon: TileIconBlog,
-  },
+  tools:   { bg: RESOURCE_TILE_BG, Icon: TileIconTools },
+  academy: { bg: RESOURCE_TILE_BG, Icon: TileIconAcademy },
+  blog:    { bg: RESOURCE_TILE_BG, Icon: TileIconBlog },
 };
 
 const iconMap: Record<string, React.FC> = {
@@ -424,7 +423,7 @@ function MobileLanguagePicker() {
             <path d="M2 12h20" />
             <path d="M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z" />
           </svg>
-          <span>{mobileLocaleConfig[currentLocale].label}</span>
+          <span translate="no" className="notranslate">{mobileLocaleConfig[currentLocale].label}</span>
         </div>
         <svg
           width="16"
@@ -450,8 +449,8 @@ function MobileLanguagePicker() {
                     : "text-white/50 hover:text-white hover:bg-white/[0.04]"
                 }`}
               >
-                <span className="text-[11px] opacity-50">{mobileLocaleConfig[loc].code}</span>
-                <span className="text-[13px]">{mobileLocaleConfig[loc].label}</span>
+                <span translate="no" className="notranslate text-[11px] opacity-50">{mobileLocaleConfig[loc].code}</span>
+                <span translate="no" className="notranslate text-[13px]">{mobileLocaleConfig[loc].label}</span>
               </button>
             );
           })}
@@ -785,7 +784,7 @@ export default function Navigation() {
                           }`}
                         >
                           <div
-                            className="flex-shrink-0 w-11 h-11 rounded-[10px] flex items-center justify-center shadow-[0_1px_0_rgba(255,255,255,0.08)_inset,0_6px_14px_-6px_rgba(0,0,0,0.5)]"
+                            className="flex-shrink-0 w-11 h-11 rounded-[10px] flex items-center justify-center border border-[rgba(193,100,230,0.20)]"
                             style={{ background: tile.bg }}
                           >
                             <tile.Icon />
