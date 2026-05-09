@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import Script from "next/script";
 import { headers } from "next/headers";
 import { DM_Sans, Figtree } from "next/font/google";
-import IClosedFloatingLauncher from "@/components/ui/IClosedFloatingLauncher";
 import VideoAutoUnmute from "@/components/ui/VideoAutoUnmute";
 import "./globals.css";
 
@@ -93,9 +92,6 @@ export default async function RootLayout({
             Browsers block audio autoplay on cold load; this is the earliest
             we can legally flip muted=false. */}
         <VideoAutoUnmute />
-        {/* Site-wide floating "Book a call" launcher — opens a compact card
-            (not fullscreen). Lazy-loads the iClosed widget on first open. */}
-        <IClosedFloatingLauncher />
         {/* GTM loaded after page interactive - not render-blocking */}
         <Script
           id="gtm"
