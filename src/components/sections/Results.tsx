@@ -76,6 +76,14 @@ const results: Result[] = [
     condition: "after 12 months with us",
     screenshot: "/images/clients/charts/revenue-2-8m.png",
   },
+  {
+    slug: "dtc-brand-2-4m",
+    amount: "+68%",
+    label: "yearly revenue growth (\u20ac2.4M)",
+    client: "for this DTC ecommerce brand",
+    condition: "after 12 months with us",
+    screenshot: "/images/clients/charts/revenue-2-4m.png",
+  },
 ];
 
 export default function Results() {
