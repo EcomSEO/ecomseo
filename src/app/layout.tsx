@@ -62,6 +62,12 @@ export default async function RootLayout({
         {/* Preconnect to GTM */}
         <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
         <link rel="preconnect" href="https://www.googletagmanager.com" crossOrigin="anonymous" />
+        {/* iClosed Lift Widget */}
+        <script
+          src="https://app.iclosed.io/assets/widget.js"
+          data-cta-widget="Wgq8ElQfWCnS"
+          async
+        />
       </head>
       <body>
         <noscript>
