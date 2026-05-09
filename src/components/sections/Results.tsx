@@ -33,17 +33,9 @@ type Result = {
   screenshot: string;
 };
 
-/* 5 client wins, revenue-oriented. Headline = YoY growth %, sub-label
+/* 4 client wins, revenue-oriented. Headline = YoY growth %, sub-label
    gives the absolute revenue figure for context. */
 const results: Result[] = [
-  {
-    slug: "us-shapewear-brand",
-    amount: "+87%",
-    label: "yearly revenue growth (\u20ac1.7M)",
-    client: "for this US Shapewear brand",
-    condition: "after 12 months with us",
-    screenshot: "/images/clients/charts/revenue-1-7m.png",
-  },
   {
     slug: "dtc-brand-11m",
     amount: "+389%",
@@ -69,20 +61,12 @@ const results: Result[] = [
     screenshot: "/images/clients/charts/revenue-3-5m.png",
   },
   {
-    slug: "dtc-brand-2-8m",
-    amount: "+132%",
-    label: "yearly revenue growth (\u20ac2.8M)",
-    client: "for this DTC ecommerce brand",
+    slug: "us-shapewear-brand",
+    amount: "+87%",
+    label: "yearly revenue growth (\u20ac1.7M)",
+    client: "for this US Shapewear brand",
     condition: "after 12 months with us",
-    screenshot: "/images/clients/charts/revenue-2-8m.png",
-  },
-  {
-    slug: "dtc-brand-2-4m",
-    amount: "+68%",
-    label: "yearly revenue growth (\u20ac2.4M)",
-    client: "for this DTC ecommerce brand",
-    condition: "after 12 months with us",
-    screenshot: "/images/clients/charts/revenue-2-4m.png",
+    screenshot: "/images/clients/charts/revenue-1-7m.png",
   },
 ];
 
