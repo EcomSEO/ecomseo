@@ -62,14 +62,17 @@ export default async function RootLayout({
         {/* Preconnect to GTM */}
         <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
         <link rel="preconnect" href="https://www.googletagmanager.com" crossOrigin="anonymous" />
-        {/* iClosed Lift Widget */}
-        <script
-          src="https://app.iclosed.io/assets/widget.js"
-          data-cta-widget="Wgq8ElQfWCnS"
-          async
-        />
       </head>
       <body>
+        {/* iClosed Lift Widget — must be in <head> per iClosed verifier.
+            next/script with beforeInteractive in app router root layout
+            is hoisted into <head> automatically. */}
+        <Script
+          id="iclosed-lift"
+          src="https://app.iclosed.io/assets/widget.js"
+          data-cta-widget="Wgq8ElQfWCnS"
+          strategy="beforeInteractive"
+        />
         <noscript>
           {/* Force all Framer Motion animated content visible when JS is off (Googlebot initial pass) */}
           <style dangerouslySetInnerHTML={{ __html: `
