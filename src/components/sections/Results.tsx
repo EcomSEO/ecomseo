@@ -2,7 +2,6 @@
 
 import Image from "next/image";
 import { motion } from "framer-motion";
-import LocaleLink from "@/components/ui/LocaleLink";
 import SectionWrapper from "@/components/ui/SectionWrapper";
 import { useLocale } from "@/lib/i18n/useTranslations";
 import { resultsT } from "@/lib/i18n/translations/home";
@@ -32,46 +31,49 @@ type Result = {
   client: string;       // gray context, e.g. "for this Home & Living brand"
   condition: string;    // gray context, e.g. "after 12 months with us"
   screenshot: string;
-  href: string;
 };
 
-/* 4 client wins, revenue-oriented. All numbers from 12 months of work with us. */
+/* 5 client wins, revenue-oriented. */
 const results: Result[] = [
   {
-    slug: "norwegian-health-store",
-    amount: "+$53,000,000",
-    label: "yearly revenue (+118%)",
-    client: "for this Home & Living brand",
-    condition: "after 12 months with us",
-    screenshot: "/images/clients/charts/revenue-53m.png",
-    href: "/cases/norwegian-health-store",
-  },
-  {
-    slug: "dutch-health-brand",
-    amount: "+\u20ac15,000,000",
-    label: "yearly revenue (+430%)",
-    client: "for this Health & Supplements brand",
-    condition: "after 12 months with us",
-    screenshot: "/images/clients/charts/revenue-15m.png",
-    href: "/cases/dutch-health-brand",
-  },
-  {
-    slug: "english-health-site",
+    slug: "us-shapewear-brand",
     amount: "+\u20ac1,700,000",
     label: "yearly revenue (+87%)",
     client: "for this US Shapewear brand",
     condition: "after 12 months with us",
     screenshot: "/images/clients/charts/revenue-1-7m.png",
-    href: "/cases/english-health-site",
   },
   {
-    slug: "jewelry-dutch-brand-ecom",
-    amount: "+\u20ac597,000",
-    label: "yearly revenue (+38%)",
-    client: "for this DTC Lifestyle brand",
+    slug: "dtc-brand-11m",
+    amount: "+\u20ac11,000,000",
+    label: "yearly revenue (+389%)",
+    client: "for this DTC ecommerce brand",
     condition: "after 12 months with us",
-    screenshot: "/images/clients/charts/revenue-597k.png",
-    href: "/cases/jewelry-dutch-brand-ecom",
+    screenshot: "/images/clients/charts/revenue-11m.png",
+  },
+  {
+    slug: "dtc-brand-8-4m",
+    amount: "+\u20ac8,400,000",
+    label: "yearly revenue (+245%)",
+    client: "for this DTC ecommerce brand",
+    condition: "after 12 months with us",
+    screenshot: "/images/clients/charts/revenue-8-4m.png",
+  },
+  {
+    slug: "dtc-brand-3-5m",
+    amount: "+\u20ac3,500,000",
+    label: "yearly revenue (+156%)",
+    client: "for this DTC ecommerce brand",
+    condition: "after 12 months with us",
+    screenshot: "/images/clients/charts/revenue-3-5m.png",
+  },
+  {
+    slug: "dtc-brand-2-8m",
+    amount: "+\u20ac2,800,000",
+    label: "yearly revenue (+132%)",
+    client: "for this DTC ecommerce brand",
+    condition: "after 12 months with us",
+    screenshot: "/images/clients/charts/revenue-2-8m.png",
   },
 ];
 
@@ -101,9 +103,9 @@ export default function Results() {
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: (i % 2) * 0.08 }}
             >
-              <LocaleLink href={r.href} className="group block">
+              <div className="block">
                 {/* Light-gray screenshot card */}
-                <div className="relative aspect-[4/3] w-full rounded-3xl bg-[rgb(242,242,243)] overflow-hidden flex items-center justify-center px-6 py-8 transition-transform duration-300 group-hover:-translate-y-0.5">
+                <div className="relative aspect-[4/3] w-full rounded-3xl bg-[rgb(242,242,243)] overflow-hidden flex items-center justify-center px-6 py-8">
                   <div className="relative w-full h-full">
                     <Image
                       src={r.screenshot}
@@ -128,7 +130,7 @@ export default function Results() {
                     {r.condition}
                   </p>
                 </div>
-              </LocaleLink>
+              </div>
             </motion.div>
           ))}
         </div>
