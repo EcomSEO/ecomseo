@@ -61,12 +61,12 @@ const results: Result[] = [
     screenshot: "/images/clients/charts/revenue-3-5m.png",
   },
   {
-    slug: "us-shapewear-brand",
-    amount: "+87%",
-    label: "yearly revenue growth (\u20ac1.7M)",
-    client: "for this US Shapewear brand",
+    slug: "dtc-brand-2-8m",
+    amount: "+132%",
+    label: "yearly revenue growth (\u20ac2.8M)",
+    client: "for this DTC ecommerce brand",
     condition: "after 12 months with us",
-    screenshot: "/images/clients/charts/revenue-1-7m.png",
+    screenshot: "/images/clients/charts/revenue-2-8m.png",
   },
 ];
 
