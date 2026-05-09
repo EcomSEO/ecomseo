@@ -58,6 +58,10 @@
 
 html {
   scroll-behavior: smooth;
+  /* Prevent horizontal scroll on iOS Safari (transforms/decorative elements
+     can escape `overflow-x: hidden` on body alone). `clip` is more reliable. */
+  overflow-x: clip;
+  max-width: 100%;
 }
 
 body {
@@ -66,7 +70,8 @@ body {
   font-family: "Satoshi", "DM Sans", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  overflow-x: hidden;
+  overflow-x: clip;
+  max-width: 100%;
 }
 
 ::-webkit-scrollbar { width: 6px; }
