@@ -26,31 +26,15 @@ const REVENUE_WINS_COPY: Record<
 > = {
   fr: {
     badge: "RESULTATS REELS",
-    heading: (city) =>
+    heading: () =>
       `Voici ce que nous avons rapporte a des marques e-commerce comme la votre`,
     subtitle:
       "Resultats reels apres 12 mois de travail avec nous. Pas de vanity metrics, juste du chiffre d'affaires.",
     cards: [
-      {
-        label: "de CA annuel (+118%)",
-        client: "pour cette marque Home & Living",
-        condition: "apres 12 mois avec nous",
-      },
-      {
-        label: "de CA annuel (+430%)",
-        client: "pour cette marque Sante & Complements",
-        condition: "apres 12 mois avec nous",
-      },
-      {
-        label: "de CA annuel (+87%)",
-        client: "pour cette marque Shapewear US",
-        condition: "apres 12 mois avec nous",
-      },
-      {
-        label: "de CA annuel (+38%)",
-        client: "pour cette marque DTC Lifestyle",
-        condition: "apres 12 mois avec nous",
-      },
+      { label: "croissance du CA annuel (€11M)", client: "pour cette marque DTC e-commerce", condition: "apres 12 mois avec nous" },
+      { label: "croissance du CA annuel (€8.4M)", client: "pour cette marque DTC e-commerce", condition: "apres 12 mois avec nous" },
+      { label: "croissance du CA annuel (€3.5M)", client: "pour cette marque DTC e-commerce", condition: "apres 12 mois avec nous" },
+      { label: "croissance du CA annuel (€2.8M)", client: "pour cette marque DTC e-commerce", condition: "apres 12 mois avec nous" },
     ],
   },
   en: {
@@ -59,10 +43,10 @@ const REVENUE_WINS_COPY: Record<
     subtitle:
       "Real revenue after 12 months of work with us. No vanity metrics, just dollars and euros.",
     cards: [
-      { label: "yearly revenue (+118%)", client: "for this Home & Living brand", condition: "after 12 months with us" },
-      { label: "yearly revenue (+430%)", client: "for this Health & Supplements brand", condition: "after 12 months with us" },
-      { label: "yearly revenue (+87%)", client: "for this US Shapewear brand", condition: "after 12 months with us" },
-      { label: "yearly revenue (+38%)", client: "for this DTC Lifestyle brand", condition: "after 12 months with us" },
+      { label: "yearly revenue growth (€11M)", client: "for this DTC ecommerce brand", condition: "after 12 months with us" },
+      { label: "yearly revenue growth (€8.4M)", client: "for this DTC ecommerce brand", condition: "after 12 months with us" },
+      { label: "yearly revenue growth (€3.5M)", client: "for this DTC ecommerce brand", condition: "after 12 months with us" },
+      { label: "yearly revenue growth (€2.8M)", client: "for this DTC ecommerce brand", condition: "after 12 months with us" },
     ],
   },
   nl: {
@@ -70,10 +54,10 @@ const REVENUE_WINS_COPY: Record<
     heading: () => `Wat we hebben gerealiseerd voor e-commerce merken zoals het jouwe`,
     subtitle: "Echte omzet na 12 maanden samenwerken. Geen vanity metrics, alleen euro's en dollars.",
     cards: [
-      { label: "jaaromzet (+118%)", client: "voor dit Home & Living merk", condition: "na 12 maanden met ons" },
-      { label: "jaaromzet (+430%)", client: "voor dit Health & Supplements merk", condition: "na 12 maanden met ons" },
-      { label: "jaaromzet (+87%)", client: "voor dit US Shapewear merk", condition: "na 12 maanden met ons" },
-      { label: "jaaromzet (+38%)", client: "voor dit DTC Lifestyle merk", condition: "na 12 maanden met ons" },
+      { label: "jaaromzetgroei (€11M)", client: "voor dit DTC e-commerce merk", condition: "na 12 maanden met ons" },
+      { label: "jaaromzetgroei (€8.4M)", client: "voor dit DTC e-commerce merk", condition: "na 12 maanden met ons" },
+      { label: "jaaromzetgroei (€3.5M)", client: "voor dit DTC e-commerce merk", condition: "na 12 maanden met ons" },
+      { label: "jaaromzetgroei (€2.8M)", client: "voor dit DTC e-commerce merk", condition: "na 12 maanden met ons" },
     ],
   },
   de: {
@@ -81,10 +65,10 @@ const REVENUE_WINS_COPY: Record<
     heading: () => `Das haben wir fuer E-Commerce-Marken wie Ihre erreicht`,
     subtitle: "Echter Umsatz nach 12 Monaten Zusammenarbeit. Keine Vanity Metrics, nur Euro und Dollar.",
     cards: [
-      { label: "Jahresumsatz (+118%)", client: "fuer diese Home & Living Marke", condition: "nach 12 Monaten mit uns" },
-      { label: "Jahresumsatz (+430%)", client: "fuer diese Health & Supplements Marke", condition: "nach 12 Monaten mit uns" },
-      { label: "Jahresumsatz (+87%)", client: "fuer diese US Shapewear Marke", condition: "nach 12 Monaten mit uns" },
-      { label: "Jahresumsatz (+38%)", client: "fuer diese DTC Lifestyle Marke", condition: "nach 12 Monaten mit uns" },
+      { label: "Jahresumsatzwachstum (€11M)", client: "fuer diese DTC E-Commerce Marke", condition: "nach 12 Monaten mit uns" },
+      { label: "Jahresumsatzwachstum (€8.4M)", client: "fuer diese DTC E-Commerce Marke", condition: "nach 12 Monaten mit uns" },
+      { label: "Jahresumsatzwachstum (€3.5M)", client: "fuer diese DTC E-Commerce Marke", condition: "nach 12 Monaten mit uns" },
+      { label: "Jahresumsatzwachstum (€2.8M)", client: "fuer diese DTC E-Commerce Marke", condition: "nach 12 Monaten mit uns" },
     ],
   },
   es: {
@@ -92,10 +76,10 @@ const REVENUE_WINS_COPY: Record<
     heading: () => `Esto es lo que hemos generado para marcas e-commerce como la tuya`,
     subtitle: "Facturacion real despues de 12 meses con nosotros. Sin vanity metrics, solo euros y dolares.",
     cards: [
-      { label: "facturacion anual (+118%)", client: "para esta marca Home & Living", condition: "despues de 12 meses con nosotros" },
-      { label: "facturacion anual (+430%)", client: "para esta marca de Salud y Suplementos", condition: "despues de 12 meses con nosotros" },
-      { label: "facturacion anual (+87%)", client: "para esta marca US Shapewear", condition: "despues de 12 meses con nosotros" },
-      { label: "facturacion anual (+38%)", client: "para esta marca DTC Lifestyle", condition: "despues de 12 meses con nosotros" },
+      { label: "crecimiento de facturacion anual (€11M)", client: "para esta marca DTC ecommerce", condition: "despues de 12 meses con nosotros" },
+      { label: "crecimiento de facturacion anual (€8.4M)", client: "para esta marca DTC ecommerce", condition: "despues de 12 meses con nosotros" },
+      { label: "crecimiento de facturacion anual (€3.5M)", client: "para esta marca DTC ecommerce", condition: "despues de 12 meses con nosotros" },
+      { label: "crecimiento de facturacion anual (€2.8M)", client: "para esta marca DTC ecommerce", condition: "despues de 12 meses con nosotros" },
     ],
   },
   it: {
@@ -103,19 +87,19 @@ const REVENUE_WINS_COPY: Record<
     heading: () => `Ecco cosa abbiamo generato per brand e-commerce come il tuo`,
     subtitle: "Fatturato reale dopo 12 mesi di lavoro con noi. Niente vanity metric, solo euro e dollari.",
     cards: [
-      { label: "fatturato annuo (+118%)", client: "per questo brand Home & Living", condition: "dopo 12 mesi con noi" },
-      { label: "fatturato annuo (+430%)", client: "per questo brand Health & Supplements", condition: "dopo 12 mesi con noi" },
-      { label: "fatturato annuo (+87%)", client: "per questo brand US Shapewear", condition: "dopo 12 mesi con noi" },
-      { label: "fatturato annuo (+38%)", client: "per questo brand DTC Lifestyle", condition: "dopo 12 mesi con noi" },
+      { label: "crescita del fatturato annuo (€11M)", client: "per questo brand DTC ecommerce", condition: "dopo 12 mesi con noi" },
+      { label: "crescita del fatturato annuo (€8.4M)", client: "per questo brand DTC ecommerce", condition: "dopo 12 mesi con noi" },
+      { label: "crescita del fatturato annuo (€3.5M)", client: "per questo brand DTC ecommerce", condition: "dopo 12 mesi con noi" },
+      { label: "crescita del fatturato annuo (€2.8M)", client: "per questo brand DTC ecommerce", condition: "dopo 12 mesi con noi" },
     ],
   },
 };
 
-const REVENUE_AMOUNTS: Array<{ amount: string; screenshot: string; href: string }> = [
-  { amount: "+$53,000,000", screenshot: "/images/clients/charts/revenue-53m.png", href: "/cases/norwegian-health-store" },
-  { amount: "+€15,000,000", screenshot: "/images/clients/charts/revenue-15m.png", href: "/cases/dutch-health-brand" },
-  { amount: "+€1,700,000", screenshot: "/images/clients/charts/revenue-1-7m.png", href: "/cases/english-health-site" },
-  { amount: "+€597,000", screenshot: "/images/clients/charts/revenue-597k.png", href: "/cases/jewelry-dutch-brand-ecom" },
+const REVENUE_AMOUNTS: Array<{ amount: string; screenshot: string }> = [
+  { amount: "+389%", screenshot: "/images/clients/charts/revenue-11m.png" },
+  { amount: "+245%", screenshot: "/images/clients/charts/revenue-8-4m.png" },
+  { amount: "+156%", screenshot: "/images/clients/charts/revenue-3-5m.png" },
+  { amount: "+132%", screenshot: "/images/clients/charts/revenue-2-8m.png" },
 ];
 
 const BOOKING_COPY: Record<
@@ -961,7 +945,6 @@ export function buildLocationPageData(
         client: copy.client,
         condition: copy.condition,
         screenshot: r.screenshot,
-        href: r.href,
       };
     }),
   };
