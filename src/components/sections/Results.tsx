@@ -33,44 +33,45 @@ type Result = {
   screenshot: string;
 };
 
-/* 5 client wins, revenue-oriented. */
+/* 5 client wins, revenue-oriented. Headline = YoY growth %, sub-label
+   gives the absolute revenue figure for context. */
 const results: Result[] = [
   {
     slug: "us-shapewear-brand",
-    amount: "+\u20ac1,700,000",
-    label: "yearly revenue (+87%)",
+    amount: "+87%",
+    label: "yearly revenue growth (\u20ac1.7M)",
     client: "for this US Shapewear brand",
     condition: "after 12 months with us",
     screenshot: "/images/clients/charts/revenue-1-7m.png",
   },
   {
     slug: "dtc-brand-11m",
-    amount: "+\u20ac11,000,000",
-    label: "yearly revenue (+389%)",
+    amount: "+389%",
+    label: "yearly revenue growth (\u20ac11M)",
     client: "for this DTC ecommerce brand",
     condition: "after 12 months with us",
     screenshot: "/images/clients/charts/revenue-11m.png",
   },
   {
     slug: "dtc-brand-8-4m",
-    amount: "+\u20ac8,400,000",
-    label: "yearly revenue (+245%)",
+    amount: "+245%",
+    label: "yearly revenue growth (\u20ac8.4M)",
     client: "for this DTC ecommerce brand",
     condition: "after 12 months with us",
     screenshot: "/images/clients/charts/revenue-8-4m.png",
   },
   {
     slug: "dtc-brand-3-5m",
-    amount: "+\u20ac3,500,000",
-    label: "yearly revenue (+156%)",
+    amount: "+156%",
+    label: "yearly revenue growth (\u20ac3.5M)",
     client: "for this DTC ecommerce brand",
     condition: "after 12 months with us",
     screenshot: "/images/clients/charts/revenue-3-5m.png",
   },
   {
     slug: "dtc-brand-2-8m",
-    amount: "+\u20ac2,800,000",
-    label: "yearly revenue (+132%)",
+    amount: "+132%",
+    label: "yearly revenue growth (\u20ac2.8M)",
     client: "for this DTC ecommerce brand",
     condition: "after 12 months with us",
     screenshot: "/images/clients/charts/revenue-2-8m.png",
