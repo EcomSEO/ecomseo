@@ -117,6 +117,16 @@ const nextConfig: NextConfig = {
           source: "/",
           destination: "/en",
         },
+        // UK location pages: their public URLs have NO locale prefix
+        // (e.g. /seo-agency-london instead of /en/seo-agency-london), so
+        // the middleware's locale-prefix slug-translation never fires.
+        // Map them directly to the canonical [locale]/location/[slug]
+        // route. Without this rewrite, /seo-agency-london (and its 13
+        // siblings) hit the catch-all below and 404 against /en/seo-agency-london.
+        {
+          source: "/seo-agency-:city(london|birmingham|manchester|bristol|edinburgh|essex|newcastle|leeds|surrey|hertfordshire|oxford|sheffield|liverpool|nottingham)",
+          destination: "/en/location/:city",
+        },
         {
           // Negative lookahead matches WHOLE path segments only — "demo" must not
           // be treated as locale "de" because it starts with "de".
