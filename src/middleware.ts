@@ -228,14 +228,26 @@ export function middleware(request: NextRequest) {
   );
 
   // If URL has /en (default locale) prefix → 301 redirect to root (remove /en)
-  // Handles /en, /en/, /en/shopify-seo etc. all in one hop
+  // Handles /en, /en/, /en/shopify-seo etc. all in one hop.
+  //
+  // EXCEPTION: /en/location/{uk-city} is the *internal* rewrite target for the
+  // public /seo-agency-{city} URLs (defined in next.config.ts `beforeFiles`).
+  // Stripping /en here would redirect to /location/{city} which then redirects
+  // back to /seo-agency-{city} → infinite loop → Google sees 404. Leave the
+  // internal rewrite target untouched so the page can render.
   if (pathnameLocale === defaultLocale) {
-    let pathWithoutLocale = pathname.slice(`/${defaultLocale}`.length);
-    // Remove leading slash if it results in just "/"
-    if (!pathWithoutLocale || pathWithoutLocale === "/") pathWithoutLocale = "/";
-    const newUrl = request.nextUrl.clone();
-    newUrl.pathname = pathWithoutLocale;
-    return NextResponse.redirect(newUrl, 301);
+    const isUkLocationRewrite =
+      /^\/en\/location\/(?:london|birmingham|manchester|bristol|edinburgh|essex|newcastle|leeds|surrey|hertfordshire|oxford|sheffield|liverpool|nottingham)\/?$/.test(
+        pathname,
+      );
+    if (!isUkLocationRewrite) {
+      let pathWithoutLocale = pathname.slice(`/${defaultLocale}`.length);
+      // Remove leading slash if it results in just "/"
+      if (!pathWithoutLocale || pathWithoutLocale === "/") pathWithoutLocale = "/";
+      const newUrl = request.nextUrl.clone();
+      newUrl.pathname = pathWithoutLocale;
+      return NextResponse.redirect(newUrl, 301);
+    }
   }
 
   // Legacy path redirects

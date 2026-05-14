@@ -1364,18 +1364,21 @@ export function getLocalizedSlug(
   englishPath: string,
   locale: Locale,
 ): string {
-  if (locale === "en") return englishPath;
-
   // Strip leading slash for lookup
   const key = englishPath.startsWith("/")
     ? englishPath.slice(1)
     : englishPath;
 
-  // Direct match (full path including parent/child)
+  // Direct match (full path including parent/child).
+  // We check this BEFORE the English short-circuit because some paths (UK
+  // location pages like "location/birmingham" → "seo-agency-birmingham") have
+  // English-specific public slugs that differ from the internal route key.
   const entry = slugTranslations[key];
   if (entry?.[locale]) {
     return `/${entry[locale]}`;
   }
+
+  if (locale === "en") return englishPath;
 
   // Try matching parent + child separately (e.g. "academy/introduction-to-ecommerce-seo")
   const slashIdx = key.indexOf("/");

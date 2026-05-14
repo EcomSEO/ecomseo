@@ -44,7 +44,10 @@ const companyPages = ["/pricing"];
 const utilityPages = [
   "/contact",
   "/faq",
-  "/page",
+  // "/page" intentionally excluded — it's a noindex profile/linktree page
+  // (robots: { index: false }) for Fabian. Listing it in the sitemap created
+  // 5 confused entries ( /page, /de/seite, /es/pagina, /it/pagina, /nl/pagina )
+  // that Google flagged because the sitemap signal contradicts noindex.
   "/tools/intent-matching-tool",
   "/premium-on-page-seo-checklist",
   "/privacy-policy",
