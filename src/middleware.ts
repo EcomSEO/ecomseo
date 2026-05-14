@@ -289,7 +289,14 @@ export function middleware(request: NextRequest) {
   // Location pages: redirect /location/{slug} → correct locale with translated slug
   // NL cities → /nl/locaties/seo-bureau-{city}
   // FR cities → /fr/agence-seo-{city}
-  const locationMatch = pathname.match(/^(?:\/(?:de|fr|es|it|en))?\/location\/([a-z-]+)\/?$/);
+  //
+  // CRITICAL: Match must EXCLUDE the /en prefix. /en/location/{uk-city} is
+  // the internal rewrite target for /seo-agency-{city} (see next.config.ts
+  // beforeFiles). If we redirect that internal path, we create an infinite
+  // loop: /seo-agency-X → rewrite → /en/location/X → redirect → /seo-agency-X.
+  // The bare /location/{city} path (no locale prefix) still gets redirected
+  // to its canonical localized URL.
+  const locationMatch = pathname.match(/^(?:\/(?:de|fr|es|it))?\/location\/([a-z-]+)\/?$/);
   if (locationMatch) {
     const citySlug = locationMatch[1];
     const nlPublicSlug = locationSlugToNlPublic[citySlug];
