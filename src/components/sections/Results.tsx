@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { motion } from "framer-motion";
+import LocaleLink from "@/components/ui/LocaleLink";
 import SectionWrapper from "@/components/ui/SectionWrapper";
 import { useLocale } from "@/lib/i18n/useTranslations";
 import { resultsT } from "@/lib/i18n/translations/home";
@@ -136,6 +137,38 @@ export default function Results() {
             );
           })}
         </div>
+
+        {/* Internal link to /cases — sends authority to the case studies index
+            and lets visitors browse the full library. Critical for SEO since
+            individual case study URLs (e.g. /cases/norwegian-smart-seo) get
+            poorly crawled without parent-page link signal. */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.5 }}
+        >
+          <LocaleLink
+            href="/cases"
+            className="inline-flex items-center gap-2 px-7 py-3.5 rounded-full bg-heading text-bg font-medium text-sm hover:opacity-90 transition-opacity"
+          >
+            {t.cta}
+            <svg
+              width="16"
+              height="16"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              aria-hidden="true"
+            >
+              <line x1="5" y1="12" x2="19" y2="12" />
+              <polyline points="12 5 19 12 12 19" />
+            </svg>
+          </LocaleLink>
+        </motion.div>
       </div>
     </SectionWrapper>
   );

@@ -183,6 +183,13 @@ export default function AcademyPageTemplate({ data }: { data: AcademyPageData })
                 </div>
               )}
 
+              {/* Featured EcomSEO tools — appears at the end of every academy
+                  lesson so readers can jump into a relevant tool. Adds internal
+                  follow links to underlinked tool pages (e.g. internal-link
+                  analyzer, hreflang validator) that were dropping out of
+                  Google's index due to weak link signal. */}
+              <FeaturedToolsBlock locale={locale} />
+
               {/* Prev / Next nav */}
               <div className="mt-16 pt-8 border-t border-border flex flex-col gap-4">
                 {nav.prev && (
@@ -308,4 +315,120 @@ function AcademyBlockRenderer({ block }: { block: AcademyBlock }) {
     default:
       return null;
   }
+}
+
+/* ─── Featured ecomseo.co tools block ───
+ * Added to every academy lesson to surface our internal tool pages.
+ * Why these 4: from May 2026 GSC movement-history analysis, hreflang
+ * validator, internal link analyzer, canonical checker, and indexability
+ * checker were churning between "Discovered – not indexed" and "Unknown
+ * to Google" because nothing on the site linked to them with enough
+ * authority. Embedding them on 66+ academy lessons builds the signal
+ * Google needs to keep them indexed. */
+const featuredTools: { href: string; label: Record<Locale, string> }[] = [
+  {
+    href: "/tools/hreflang-validator",
+    label: {
+      en: "Hreflang validator",
+      de: "Hreflang-Validator",
+      fr: "Validateur hreflang",
+      es: "Validador de hreflang",
+      it: "Validatore hreflang",
+      nl: "Hreflang-validator",
+    },
+  },
+  {
+    href: "/tools/internal-link-analyzer",
+    label: {
+      en: "Internal link analyzer",
+      de: "Interne Link-Analyse",
+      fr: "Analyseur de liens internes",
+      es: "Analizador de enlaces internos",
+      it: "Analizzatore link interni",
+      nl: "Interne links-analyse",
+    },
+  },
+  {
+    href: "/tools/canonical-checker",
+    label: {
+      en: "Canonical tag checker",
+      de: "Canonical-Tag-Pruefer",
+      fr: "Verificateur de balise canonical",
+      es: "Verificador de canonical",
+      it: "Verifica tag canonical",
+      nl: "Canonical-tag-checker",
+    },
+  },
+  {
+    href: "/tools/indexability-checker",
+    label: {
+      en: "Indexability checker",
+      de: "Indexierbarkeitspruefer",
+      fr: "Verificateur d'indexabilite",
+      es: "Verificador de indexabilidad",
+      it: "Verifica indicizzabilita",
+      nl: "Indexeerbaarheid-checker",
+    },
+  },
+];
+
+const featuredToolsTitleT: Record<Locale, string> = {
+  en: "Try our free SEO tools",
+  de: "Unsere kostenlosen SEO-Tools",
+  fr: "Nos outils SEO gratuits",
+  es: "Nuestras herramientas SEO gratuitas",
+  it: "I nostri strumenti SEO gratuiti",
+  nl: "Onze gratis SEO-tools",
+};
+
+function FeaturedToolsBlock({ locale }: { locale: Locale }) {
+  return (
+    <div className="mt-12 pt-8 border-t border-border">
+      <h3 className="text-heading text-base font-medium mb-4 flex items-center gap-2">
+        <svg
+          width="18"
+          height="18"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          className="text-accent"
+          aria-hidden="true"
+        >
+          <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z" />
+        </svg>
+        {featuredToolsTitleT[locale]}
+      </h3>
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+        {featuredTools.map((t) => (
+          <LocaleLink
+            key={t.href}
+            href={t.href}
+            className="flex items-center gap-3 px-3 py-2.5 rounded-lg border border-border bg-bg-card hover:bg-white/[0.04] hover:border-border-strong transition-colors group"
+          >
+            <span className="text-body text-sm group-hover:text-heading transition-colors">
+              {t.label[locale]}
+            </span>
+            <svg
+              width="14"
+              height="14"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              className="text-body/40 group-hover:text-accent ml-auto shrink-0 transition-colors"
+              aria-hidden="true"
+            >
+              <line x1="5" y1="12" x2="19" y2="12" />
+              <polyline points="12 5 19 12 12 19" />
+            </svg>
+          </LocaleLink>
+        ))}
+      </div>
+    </div>
+  );
 }
