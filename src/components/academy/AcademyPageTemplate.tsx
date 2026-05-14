@@ -115,9 +115,19 @@ export default function AcademyPageTemplate({ data }: { data: AcademyPageData })
                 {heading}
               </h1>
 
-              <p className="text-body text-base leading-relaxed mb-10 text-[17px]">
+              <p className="text-body text-base leading-relaxed mb-6 text-[17px]">
                 {intro}
               </p>
+
+              {/* Author byline + last reviewed date — E-E-A-T signal for Google.
+                  Translated content (FR/NL especially) was getting algorithmically
+                  devalued partly because the pages lacked named expert authorship.
+                  Adds visible content, a follow link to a team page (signal-boosting
+                  for /team/fabian-van-til which was churning out of the index),
+                  and a freshness date. */}
+              <AcademyAuthorBlock locale={locale} />
+
+
 
               {/* Table of contents */}
               {sections.length > 2 && (
@@ -315,6 +325,54 @@ function AcademyBlockRenderer({ block }: { block: AcademyBlock }) {
     default:
       return null;
   }
+}
+
+/* ─── Author byline + last reviewed date ───
+ * E-E-A-T signal for academy lessons. Translated content lacked named
+ * authorship — adding a real expert byline with a follow link to /team
+ * helps Google evaluate authority of the page. Date provides freshness. */
+const authorBylineT: Record<Locale, { by: string; reviewed: string }> = {
+  en: { by: "By", reviewed: "Last reviewed" },
+  de: { by: "Von", reviewed: "Zuletzt geprueft" },
+  fr: { by: "Par", reviewed: "Dernière revue" },
+  es: { by: "Por", reviewed: "Última revisión" },
+  it: { by: "Di", reviewed: "Ultima revisione" },
+  nl: { by: "Door", reviewed: "Laatst herzien" },
+};
+
+const lastReviewedDate = "2026-05-14";
+
+function AcademyAuthorBlock({ locale }: { locale: Locale }) {
+  const t = authorBylineT[locale];
+  const formattedDate = new Date(lastReviewedDate).toLocaleDateString(locale, {
+    year: "numeric",
+    month: "long",
+    day: "numeric",
+  });
+  return (
+    <div className="flex flex-wrap items-center gap-3 mb-10 pb-5 border-b border-border/60 text-sm">
+      <div className="flex items-center gap-2">
+        <span className="text-body/60">{t.by}</span>
+        <LocaleLink
+          href="/team/fabian-van-til"
+          className="text-heading font-medium hover:text-accent transition-colors underline decoration-border underline-offset-4"
+        >
+          Fabian van Til
+        </LocaleLink>
+        <span className="text-body/60">— SEO Lead, EcomSEO</span>
+      </div>
+      <span className="text-body/30">·</span>
+      <div className="flex items-center gap-1.5 text-body/60">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+          <rect x="3" y="4" width="18" height="18" rx="2" ry="2" />
+          <line x1="16" y1="2" x2="16" y2="6" />
+          <line x1="8" y1="2" x2="8" y2="6" />
+          <line x1="3" y1="10" x2="21" y2="10" />
+        </svg>
+        <span>{t.reviewed}: <time dateTime={lastReviewedDate}>{formattedDate}</time></span>
+      </div>
+    </div>
+  );
 }
 
 /* ─── Featured ecomseo.co tools block ───

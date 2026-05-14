@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { motion, AnimatePresence } from "framer-motion";
+import { motion } from "framer-motion";
 import Badge from "@/components/ui/Badge";
 import Navigation from "@/components/sections/Navigation";
 import CTA from "@/components/sections/CTA";
@@ -24,6 +24,7 @@ function FAQItem({
     <div className="border-b border-border/50">
       <button
         onClick={onClick}
+        aria-expanded={isOpen}
         className="w-full flex items-center justify-between py-5 text-left group"
       >
         <span className="text-base md:text-lg font-medium text-heading group-hover:text-accent transition-colors pr-8">
@@ -46,19 +47,21 @@ function FAQItem({
           </svg>
         </span>
       </button>
-      <AnimatePresence>
-        {isOpen && (
-          <motion.div
-            initial={{ height: 0, opacity: 0 }}
-            animate={{ height: "auto", opacity: 1 }}
-            exit={{ height: 0, opacity: 0 }}
-            transition={{ duration: 0.3 }}
-            className="overflow-hidden"
-          >
-            <p className="text-body text-sm leading-relaxed pb-5">{answer}</p>
-          </motion.div>
-        )}
-      </AnimatePresence>
+      {/* Always render the answer in the DOM so Googlebot's initial HTML pass
+          sees the full Q&A content. Visually collapsed when isOpen=false via
+          grid-template-rows animation, which keeps text crawlable without
+          unmounting on every toggle. (Was AnimatePresence — answer was
+          missing from SSR for collapsed items, causing thin-content Soft 404
+          signals.) */}
+      <div
+        aria-hidden={!isOpen}
+        className="grid transition-[grid-template-rows] duration-300 ease-out"
+        style={{ gridTemplateRows: isOpen ? "1fr" : "0fr" }}
+      >
+        <div className="overflow-hidden">
+          <p className="text-body text-sm leading-relaxed pb-5">{answer}</p>
+        </div>
+      </div>
     </div>
   );
 }
