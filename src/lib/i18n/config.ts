@@ -150,7 +150,9 @@ export const staticRoutes = [
   "/academy/seo-learning-roadmap",
   "/academy/seo-task-planning",
   "/academy/serp-domination-strategy",
-  "/page",
+  // "/page" removed — was a noindex Linktree profile that nonetheless
+  // surfaced indexed translated variants (/de/seite, /nl/pagina, etc.).
+  // Page route deleted; this entry would also generate dead hreflang.
   "/tools",
   "/tools/shopify-seo-audit",
   "/tools/ecommerce-seo-audit",

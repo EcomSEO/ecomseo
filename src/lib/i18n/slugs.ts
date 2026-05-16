@@ -648,13 +648,10 @@ export const slugTranslations: Record<
     it: "checklist-seo-on-page",
     nl: "premium-on-page-seo-checklist-gratis",
   },
-  page: {
-    de: "seite",
-    fr: "apercu",
-    es: "pagina",
-    it: "pagina",
-    nl: "pagina",
-  },
+  // "page" slug translations removed — the /page route was a noindex Linktree
+  // profile that surfaced as /de/seite, /nl/pagina, /es/pagina, /it/pagina
+  // variants in GSC. Page route deleted (2026-05-16), so these slug mappings
+  // would only create dead 404s and confusing hreflang.
   "tools/intent-matching-tool": {
     de: "seo-tools/intent-analyse-tool",
     fr: "outils-seo/outil-correspondance-intention",
