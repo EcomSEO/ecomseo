@@ -1,30 +1,30 @@
 <svg viewBox="0 0 420 200" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <text x="210" y="22" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#a78bfa">Broken Link Building Workflow</text>
+  <text x="210" y="22" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#a78bfa">Flux de travail de création de liens brisés</text>
   <rect x="10" y="45" rx="8" width="90" height="50" stroke="#ef4444" stroke-width="1.5" fill="none"/>
-  <text x="55" y="66" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#ef4444">Find</text>
-  <text x="55" y="80" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Dead links on</text>
-  <text x="55" y="91" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">niche sites</text>
+  <text x="55" y="66" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#ef4444">Trouver</text>
+  <text x="55" y="80" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Liens morts sur</text>
+  <text x="55" y="91" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">sites de niche</text>
   <path d="M102 70 L118 70" stroke="#e2e8f0" stroke-width="1.5" marker-end="url(#arrow)"/>
   <rect x="120" y="45" rx="8" width="90" height="50" stroke="#60a5fa" stroke-width="1.5" fill="none"/>
   <text x="165" y="66" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#60a5fa">Recherche</text>
-  <text x="165" y="80" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Wayback Machine</text>
-  <text x="165" y="91" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">original content</text>
+  <text x="165" y="80" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Machine de retour</text>
+  <text x="165" y="91" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">contenu original</text>
   <path d="M212 70 L228 70" stroke="#e2e8f0" stroke-width="1.5" marker-end="url(#arrow)"/>
   <rect x="230" y="45" rx="8" width="90" height="50" stroke="#4ade80" stroke-width="1.5" fill="none"/>
-  <text x="275" y="66" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#4ade80">Create</text>
-  <text x="275" y="80" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Better replacement</text>
-  <text x="275" y="91" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">content</text>
+  <text x="275" y="66" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#4ade80">Créer</text>
+  <text x="275" y="80" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Meilleur remplacement</text>
+  <text x="275" y="91" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">contenu</text>
   <path d="M322 70 L338 70" stroke="#e2e8f0" stroke-width="1.5" marker-end="url(#arrow)"/>
   <rect x="340" y="45" rx="8" width="70" height="50" stroke="#f97316" stroke-width="1.5" fill="none"/>
-  <text x="375" y="66" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#f97316">Prospection</text>
-  <text x="375" y="80" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Email with</text>
-  <text x="375" y="91" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">replacement</text>
+  <text x="375" y="66" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#f97316">Sensibilisation</text>
+  <text x="375" y="80" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">E-mail avec</text>
+  <text x="375" y="91" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">remplacement</text>
   <rect x="30" y="115" rx="6" width="360" height="70" stroke="#a78bfa" stroke-width="1" stroke-dasharray="4" fill="none"/>
-  <text x="210" y="134" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#a78bfa">Weekly Time Budget</text>
-  <text x="100" y="152" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#ef4444">1 hr discovery</text>
-  <text x="210" y="152" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#60a5fa">30 min research</text>
-  <text x="330" y="152" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#f97316">1-2 hrs outreach</text>
-  <text x="210" y="174" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#4ade80">Target: 20-30 new backlinks/month at scale</text>
+  <text x="210" y="134" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#a78bfa">Budget-temps hebdomadaire</text>
+  <text x="100" y="152" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#ef4444">1h de découverte</text>
+  <text x="210" y="152" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#60a5fa">30 minutes de recherche</text>
+  <text x="330" y="152" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#f97316">1 à 2 heures de sensibilisation</text>
+  <text x="210" y="174" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#4ade80">Cible : 20 à 30 nouveaux backlinks/mois à grande échelle</text>
   <defs>
     <marker id="arrow" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
       <path d="M0,0 L6,3 L0,6" fill="none" stroke="#e2e8f0" stroke-width="1"/>

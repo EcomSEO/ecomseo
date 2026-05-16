@@ -1,26 +1,26 @@
 <svg viewBox="0 0 480 220" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <text x="240" y="22" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#a78bfa">Guide-to-Product Link Loop</text>
+  <text x="240" y="22" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#a78bfa">Boucle de lien du guide vers le produit</text>
   <!-- Buying Guide box -->
   <rect x="30" y="60" width="170" height="100" rx="10" fill="#60a5fa" opacity="0.15" stroke="#60a5fa" stroke-width="1.5"/>
-  <text x="115" y="90" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#60a5fa">Buying Guide</text>
-  <text x="115" y="110" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Comparison tables</text>
-  <text x="115" y="124" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Recommendations</text>
-  <text x="115" y="138" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Descriptive anchors</text>
+  <text x="115" y="90" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#60a5fa">Guide d'achat</text>
+  <text x="115" y="110" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Tableaux comparatifs</text>
+  <text x="115" y="124" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Recommandations</text>
+  <text x="115" y="138" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Ancres descriptives</text>
   <!-- Product Page box -->
   <rect x="280" y="60" width="170" height="100" rx="10" fill="#4ade80" opacity="0.15" stroke="#4ade80" stroke-width="1.5"/>
   <text x="365" y="90" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#4ade80">Page produit</text>
-  <text x="365" y="110" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">"Featured in" section</text>
-  <text x="365" y="124" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">"Not sure? Read our</text>
-  <text x="365" y="138" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">buying guide" CTA</text>
+  <text x="365" y="110" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Section "En vedette dans"</text>
+  <text x="365" y="124" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">"Vous n'êtes pas sûr ? Lisez notre</text>
+  <text x="365" y="138" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">guide d'achat"CTA</text>
   <!-- Arrows -->
   <line x1="200" y1="95" x2="280" y2="95" stroke="#60a5fa" stroke-width="2" marker-end="url(#arrowB)"/>
-  <text x="240" y="88" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#60a5fa">Product links</text>
+  <text x="240" y="88" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#60a5fa">Liens produits</text>
   <line x1="280" y1="135" x2="200" y2="135" stroke="#4ade80" stroke-width="2" marker-end="url(#arrowG)"/>
-  <text x="240" y="152" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#4ade80">Guide link back</text>
+  <text x="240" y="152" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#4ade80">Lien vers le guide retour</text>
   <defs>
     <marker id="arrowB" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8Z" fill="#60a5fa"/></marker>
     <marker id="arrowG" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8Z" fill="#4ade80"/></marker>
   </defs>
-  <text x="240" y="195" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#f97316">Target: 15-25% click-through from guide to product</text>
-  <text x="240" y="212" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Bidirectional links create a content loop Google rewards</text>
+  <text x="240" y="195" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#f97316">Cible : 15 à 25 % de clics du guide au produit</text>
+  <text x="240" y="212" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Les liens bidirectionnels créent une boucle de contenu Récompenses Google</text>
 </svg>

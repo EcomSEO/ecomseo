@@ -1,23 +1,23 @@
 <svg viewBox="0 0 420 220" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <text x="210" y="22" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#a78bfa">Reverse-Engineering Competitor Link Tactics</text>
+  <text x="210" y="22" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#a78bfa">Tactiques de liens avec les concurrents par ingénierie inverse</text>
   <rect x="20" y="42" rx="8" width="175" height="70" stroke="#60a5fa" stroke-width="1.5" fill="none"/>
-  <text x="107" y="62" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#60a5fa">Guest Posts</text>
-  <text x="107" y="78" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Author bio links from blogs</text>
-  <text x="107" y="92" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Signal: bio linking back to site</text>
-  <text x="107" y="106" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#4ade80">Replicable: pitch same blogs</text>
+  <text x="107" y="62" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#60a5fa">Messages d'invités</text>
+  <text x="107" y="78" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Liens biographiques de l'auteur à partir de blogs</text>
+  <text x="107" y="92" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Signal : biographie renvoyant au site</text>
+  <text x="107" y="106" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#4ade80">Réplicable : présentez les mêmes blogs</text>
   <rect x="225" y="42" rx="8" width="175" height="70" stroke="#f97316" stroke-width="1.5" fill="none"/>
-  <text x="312" y="62" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#f97316">RP numérique</text>
-  <text x="312" y="78" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">News/magazine editorial links</text>
-  <text x="312" y="92" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Signal: branded anchor text</text>
-  <text x="312" y="106" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#4ade80">Adapt: similar story angles</text>
+  <text x="312" y="62" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#f97316">Relations publiques numériques</text>
+  <text x="312" y="78" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Liens éditoriaux vers des actualités/magazines</text>
+  <text x="312" y="92" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Signal : texte d'ancrage de la marque</text>
+  <text x="312" y="106" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#4ade80">Adapter : angles d’histoire similaires</text>
   <rect x="20" y="130" rx="8" width="175" height="70" stroke="#4ade80" stroke-width="1.5" fill="none"/>
-  <text x="107" y="150" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#4ade80">Resource Pages</text>
-  <text x="107" y="166" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">URLs with /resources/, /links/</text>
-  <text x="107" y="180" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Signal: curated link lists</text>
-  <text x="107" y="194" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#4ade80">Submit: your equivalent content</text>
+  <text x="107" y="150" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#4ade80">Pages de ressources</text>
+  <text x="107" y="166" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">URL avec /resources/, /links/</text>
+  <text x="107" y="180" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Signal : listes de liens organisées</text>
+  <text x="107" y="194" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#4ade80">Soumettre : votre contenu équivalent</text>
   <rect x="225" y="130" rx="8" width="175" height="70" stroke="#ef4444" stroke-width="1.5" fill="none"/>
-  <text x="312" y="150" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#ef4444">Broken Link Building</text>
-  <text x="312" y="166" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Pages with dead outbound links</text>
-  <text x="312" y="180" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Signal: 404s on same pages</text>
-  <text x="312" y="194" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#4ade80">Use: same broken link tactic</text>
+  <text x="312" y="150" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#ef4444">Création de liens brisés</text>
+  <text x="312" y="166" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Pages avec des liens sortants morts</text>
+  <text x="312" y="180" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Signal : 404 sur les mêmes pages</text>
+  <text x="312" y="194" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#4ade80">Utilisation : même tactique de lien brisé</text>
 </svg>

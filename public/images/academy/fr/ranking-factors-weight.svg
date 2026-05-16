@@ -1,44 +1,44 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 320" fill="none">
   <!-- Title -->
-  <text x="340" y="24" text-anchor="middle" fill="#a78bfa" font-family="Arial,sans-serif" font-size="14" font-weight="700">Ecommerce Ranking Factors by Impact</text>
+  <text x="340" y="24" text-anchor="middle" fill="#a78bfa" font-family="Arial,sans-serif" font-size="14" font-weight="700">Facteurs de classement du commerce électronique par impact</text>
 
   <!-- Bar chart -->
   <!-- Bar 1: Relevance -->
-  <text x="155" y="62" text-anchor="end" fill="#e2e8f0" font-family="Arial,sans-serif" font-size="10">Content Relevance</text>
+  <text x="155" y="62" text-anchor="end" fill="#e2e8f0" font-family="Arial,sans-serif" font-size="10">Pertinence du contenu</text>
   <rect x="165" y="50" width="440" height="22" rx="4" fill="#4ade80" fill-opacity="0.2" stroke="#4ade80" stroke-width="1"/>
   <rect x="165" y="50" width="440" height="22" rx="4" fill="#4ade80" fill-opacity="0.15"/>
-  <text x="595" y="65" fill="#4ade80" font-family="Arial,sans-serif" font-size="9" font-weight="600">ÉLEVÉ</text>
+  <text x="595" y="65" fill="#4ade80" font-family="Arial,sans-serif" font-size="9" font-weight="600">HAUT</text>
 
   <!-- Bar 2: Backlinks -->
-  <text x="155" y="96" text-anchor="end" fill="#e2e8f0" font-family="Arial,sans-serif" font-size="10">Backlinks &amp; Authority</text>
+  <text x="155" y="96" text-anchor="end" fill="#e2e8f0" font-family="Arial,sans-serif" font-size="10">Backlinks et amp; Autorité</text>
   <rect x="165" y="84" width="400" height="22" rx="4" fill="#60a5fa" fill-opacity="0.2" stroke="#60a5fa" stroke-width="1"/>
   <rect x="165" y="84" width="400" height="22" rx="4" fill="#60a5fa" fill-opacity="0.15"/>
-  <text x="555" y="99" fill="#60a5fa" font-family="Arial,sans-serif" font-size="9" font-weight="600">ÉLEVÉ</text>
+  <text x="555" y="99" fill="#60a5fa" font-family="Arial,sans-serif" font-size="9" font-weight="600">HAUT</text>
 
   <!-- Bar 3: Technical -->
-  <text x="155" y="130" text-anchor="end" fill="#e2e8f0" font-family="Arial,sans-serif" font-size="10">Technical Foundation</text>
+  <text x="155" y="130" text-anchor="end" fill="#e2e8f0" font-family="Arial,sans-serif" font-size="10">Fondation technique</text>
   <rect x="165" y="118" width="340" height="22" rx="4" fill="#f97316" fill-opacity="0.2" stroke="#f97316" stroke-width="1"/>
   <rect x="165" y="118" width="340" height="22" rx="4" fill="#f97316" fill-opacity="0.15"/>
-  <text x="497" y="133" fill="#f97316" font-family="Arial,sans-serif" font-size="9" font-weight="600">MEDIUM-HIGH</text>
+  <text x="497" y="133" fill="#f97316" font-family="Arial,sans-serif" font-size="9" font-weight="600">MOYEN-HAUT</text>
 
   <!-- Bar 4: User experience -->
-  <text x="155" y="164" text-anchor="end" fill="#e2e8f0" font-family="Arial,sans-serif" font-size="10">Core Web Vitals</text>
+  <text x="155" y="164" text-anchor="end" fill="#e2e8f0" font-family="Arial,sans-serif" font-size="10">Éléments essentiels du Web</text>
   <rect x="165" y="152" width="280" height="22" rx="4" fill="#a78bfa" fill-opacity="0.2" stroke="#a78bfa" stroke-width="1"/>
   <rect x="165" y="152" width="280" height="22" rx="4" fill="#a78bfa" fill-opacity="0.15"/>
   <text x="437" y="167" fill="#a78bfa" font-family="Arial,sans-serif" font-size="9" font-weight="600">MOYEN</text>
 
   <!-- Bar 5: E-E-A-T -->
-  <text x="155" y="198" text-anchor="end" fill="#e2e8f0" font-family="Arial,sans-serif" font-size="10">E-E-A-T Signals</text>
+  <text x="155" y="198" text-anchor="end" fill="#e2e8f0" font-family="Arial,sans-serif" font-size="10">Signaux E-E-A-T</text>
   <rect x="165" y="186" width="260" height="22" rx="4" fill="#e2e8f0" fill-opacity="0.1" stroke="#475569" stroke-width="1"/>
   <text x="417" y="201" fill="#94a3b8" font-family="Arial,sans-serif" font-size="9" font-weight="600">MOYEN</text>
 
   <!-- Bar 6: User behavior -->
-  <text x="155" y="232" text-anchor="end" fill="#e2e8f0" font-family="Arial,sans-serif" font-size="10">User Behavior (CTR)</text>
+  <text x="155" y="232" text-anchor="end" fill="#e2e8f0" font-family="Arial,sans-serif" font-size="10">Comportement de l'utilisateur (CTR)</text>
   <rect x="165" y="220" width="220" height="22" rx="4" fill="#e2e8f0" fill-opacity="0.1" stroke="#475569" stroke-width="1"/>
-  <text x="377" y="235" fill="#94a3b8" font-family="Arial,sans-serif" font-size="9" font-weight="600">MODERATE</text>
+  <text x="377" y="235" fill="#94a3b8" font-family="Arial,sans-serif" font-size="9" font-weight="600">MODÉRÉ</text>
 
   <!-- Priority note -->
   <rect x="120" y="260" width="440" height="36" rx="6" fill="#1a1a2e" stroke="#334155" stroke-width="1"/>
-  <text x="340" y="278" text-anchor="middle" fill="#4ade80" font-family="Arial,sans-serif" font-size="10" font-weight="600">Priority order: Technical fixes first, then content, then links</text>
-  <text x="340" y="291" text-anchor="middle" fill="#94a3b8" font-family="Arial,sans-serif" font-size="8">Fix technical issues in 2-4 weeks, then optimize content, then build authority over months</text>
+  <text x="340" y="278" text-anchor="middle" fill="#4ade80" font-family="Arial,sans-serif" font-size="10" font-weight="600">Ordre de priorité : les correctifs techniques d'abord, puis le contenu, puis les liens</text>
+  <text x="340" y="291" text-anchor="middle" fill="#94a3b8" font-family="Arial,sans-serif" font-size="8">Résolvez les problèmes techniques en 2 à 4 semaines, puis optimisez le contenu, puis renforcez votre autorité au fil des mois</text>
 </svg>

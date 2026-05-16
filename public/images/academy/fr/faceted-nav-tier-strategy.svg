@@ -4,53 +4,53 @@
 
   <!-- Tier 1 -->
   <rect x="30" y="48" width="190" height="260" rx="10" stroke="#4ade80" stroke-width="1.5" fill="none"/>
-  <text x="125" y="72" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="700" fill="#4ade80">Tier 1: Index</text>
-  <text x="125" y="90" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#94a3b8">High search demand</text>
+  <text x="125" y="72" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="700" fill="#4ade80">Niveau 1 : Indice</text>
+  <text x="125" y="90" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#94a3b8">Forte demande de recherche</text>
 
-  <text x="50" y="116" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Brand filters</text>
-  <text x="50" y="136" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Product type</text>
-  <text x="50" y="156" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Key materials</text>
+  <text x="50" y="116" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Filtres de marque</text>
+  <text x="50" y="136" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Type de produit</text>
+  <text x="50" y="156" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Matériaux clés</text>
 
   <rect x="45" y="176" width="160" height="36" rx="4" stroke="#4ade80" stroke-width="1" fill="none"/>
-  <text x="125" y="192" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="700" fill="#4ade80">Clean URLs</text>
-  <text x="125" y="205" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">/shoes/nike/</text>
+  <text x="125" y="192" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="700" fill="#4ade80">Nettoyer les URL</text>
+  <text x="125" y="205" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">/chaussures/nike/</text>
 
   <rect x="45" y="222" width="160" height="36" rx="4" stroke="#4ade80" stroke-width="1" fill="none"/>
-  <text x="125" y="238" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="700" fill="#4ade80">Unique content</text>
-  <text x="125" y="251" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">Custom H1, meta, intro</text>
+  <text x="125" y="238" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="700" fill="#4ade80">Contenu unique</text>
+  <text x="125" y="251" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">H1 personnalisé, méta, intro</text>
 
   <rect x="45" y="268" width="160" height="28" rx="4" stroke="#4ade80" stroke-width="1" fill="none"/>
   <text x="125" y="286" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="700" fill="#4ade80">Liens internes</text>
 
   <!-- Tier 2 -->
   <rect x="245" y="48" width="190" height="260" rx="10" stroke="#f97316" stroke-width="1.5" fill="none"/>
-  <text x="340" y="72" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="700" fill="#f97316">Tier 2: Cautious</text>
-  <text x="340" y="90" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#94a3b8">Some search potential</text>
+  <text x="340" y="72" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="700" fill="#f97316">Niveau 2 : Prudent</text>
+  <text x="340" y="90" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#94a3b8">Un certain potentiel de recherche</text>
 
-  <text x="265" y="116" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Color filters</text>
-  <text x="265" y="136" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Style filters</text>
-  <text x="265" y="156" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Secondary categories</text>
+  <text x="265" y="116" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Filtres de couleur</text>
+  <text x="265" y="136" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Filtres de style</text>
+  <text x="265" y="156" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Catégories secondaires</text>
 
   <rect x="260" y="176" width="160" height="36" rx="4" stroke="#f97316" stroke-width="1" fill="none"/>
-  <text x="340" y="192" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="700" fill="#f97316">Parameter URLs</text>
-  <text x="340" y="205" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">/shoes?color=black</text>
+  <text x="340" y="192" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="700" fill="#f97316">URL des paramètres</text>
+  <text x="340" y="205" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">/chaussures?couleur=noir</text>
 
   <rect x="260" y="222" width="160" height="36" rx="4" stroke="#f97316" stroke-width="1" fill="none"/>
-  <text x="340" y="238" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="700" fill="#f97316">Self-referencing</text>
-  <text x="340" y="251" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">canonical tags</text>
+  <text x="340" y="238" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="700" fill="#f97316">Auto-référencement</text>
+  <text x="340" y="251" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">balises canoniques</text>
 
   <!-- Tier 3 -->
   <rect x="460" y="48" width="190" height="260" rx="10" stroke="#ef4444" stroke-width="1.5" fill="none"/>
-  <text x="555" y="72" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="700" fill="#ef4444">Tier 3: Block</text>
-  <text x="555" y="90" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#94a3b8">No search value</text>
+  <text x="555" y="72" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="700" fill="#ef4444">Niveau 3 : Bloquer</text>
+  <text x="555" y="90" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#94a3b8">Aucune valeur de recherche</text>
 
-  <text x="480" y="116" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Multi-select combos</text>
-  <text x="480" y="136" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Sort orders</text>
-  <text x="480" y="156" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Price ranges</text>
-  <text x="480" y="176" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Rating filters</text>
-  <text x="480" y="196" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">3+ filter combos</text>
+  <text x="480" y="116" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Combos à sélection multiple</text>
+  <text x="480" y="136" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Trier les commandes</text>
+  <text x="480" y="156" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Gammes de prix</text>
+  <text x="480" y="176" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Filtres de notation</text>
+  <text x="480" y="196" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">3+ combinaisons de filtres</text>
 
   <rect x="475" y="216" width="160" height="36" rx="4" stroke="#ef4444" stroke-width="1" fill="none"/>
-  <text x="555" y="232" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="700" fill="#ef4444">robots.txt block</text>
-  <text x="555" y="245" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">+ canonical to parent</text>
+  <text x="555" y="232" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="700" fill="#ef4444">bloc robots.txt</text>
+  <text x="555" y="245" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">+ canonique au parent</text>
 </svg>

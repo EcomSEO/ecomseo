@@ -1,10 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 380" fill="none">
   <!-- Title -->
-  <text x="340" y="28" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="700" fill="#a78bfa">Canonical vs. Redirect vs. Noindex Decision Tree</text>
+  <text x="340" y="28" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="700" fill="#a78bfa">Arbre de décision canonique, redirection ou sans index</text>
 
   <!-- Start node -->
   <rect x="240" y="48" width="200" height="40" rx="8" stroke="#a78bfa" stroke-width="1.5" fill="none"/>
-  <text x="340" y="73" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" fill="#e2e8f0">Duplicate URL detected</text>
+  <text x="340" y="73" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" fill="#e2e8f0">URL en double détectée</text>
 
   <!-- Arrow down -->
   <line x1="340" y1="88" x2="340" y2="118" stroke="#a78bfa" stroke-width="1.2"/>
@@ -12,7 +12,7 @@
 
   <!-- Question 1 -->
   <rect x="200" y="124" width="280" height="40" rx="8" stroke="#60a5fa" stroke-width="1.5" fill="none"/>
-  <text x="340" y="149" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#e2e8f0">Should users access both URLs?</text>
+  <text x="340" y="149" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#e2e8f0">Les utilisateurs doivent-ils accéder aux deux URL ?</text>
 
   <!-- Left branch: NO -->
   <line x1="200" y1="144" x2="100" y2="144" stroke="#60a5fa" stroke-width="1.2"/>
@@ -23,7 +23,7 @@
   <!-- 301 Redirect box -->
   <rect x="30" y="196" width="140" height="44" rx="8" stroke="#4ade80" stroke-width="1.5" fill="none"/>
   <text x="100" y="214" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="700" fill="#4ade80">Redirection 301</text>
-  <text x="100" y="230" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Strongest signal</text>
+  <text x="100" y="230" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Signal le plus fort</text>
 
   <!-- Right branch: YES -->
   <line x1="480" y1="144" x2="560" y2="144" stroke="#60a5fa" stroke-width="1.2"/>
@@ -33,7 +33,7 @@
 
   <!-- Question 2 -->
   <rect x="440" y="196" width="240" height="40" rx="8" stroke="#60a5fa" stroke-width="1.5" fill="none"/>
-  <text x="560" y="221" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#e2e8f0">Should one version rank?</text>
+  <text x="560" y="221" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#e2e8f0">Une version doit-elle être classée ?</text>
 
   <!-- Right-left: YES -->
   <line x1="480" y1="236" x2="420" y2="236" stroke="#60a5fa" stroke-width="1.2"/>
@@ -43,8 +43,8 @@
 
   <!-- Canonical Tag box -->
   <rect x="340" y="288" width="160" height="44" rx="8" stroke="#a78bfa" stroke-width="1.5" fill="none"/>
-  <text x="420" y="306" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="700" fill="#a78bfa">Canonical Tag</text>
-  <text x="420" y="322" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Hint, not directive</text>
+  <text x="420" y="306" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="700" fill="#a78bfa">Balise canonique</text>
+  <text x="420" y="322" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Un indice, pas une directive</text>
 
   <!-- Right-right: NO -->
   <line x1="640" y1="236" x2="640" y2="280" stroke="#60a5fa" stroke-width="1.2"/>
@@ -53,11 +53,11 @@
 
   <!-- Noindex box -->
   <rect x="570" y="288" width="140" height="44" rx="8" stroke="#f97316" stroke-width="1.5" fill="none"/>
-  <text x="640" y="306" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="700" fill="#f97316">Noindex Tag</text>
-  <text x="640" y="322" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Remove from index</text>
+  <text x="640" y="306" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="700" fill="#f97316">Balise sans index</text>
+  <text x="640" y="322" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Supprimer de l'index</text>
 
   <!-- Use cases labels -->
-  <text x="100" y="260" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#94a3b8">Old URLs, migrations</text>
-  <text x="420" y="348" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#94a3b8">Filters, variants, params</text>
-  <text x="640" y="348" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#94a3b8">Cart, search, account</text>
+  <text x="100" y="260" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#94a3b8">Anciennes URL, migrations</text>
+  <text x="420" y="348" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#94a3b8">Filtres, variantes, paramètres</text>
+  <text x="640" y="348" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#94a3b8">Panier, recherche, compte</text>
 </svg>

@@ -1,30 +1,30 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 300" fill="none">
   <!-- Title -->
-  <text x="340" y="24" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="700" fill="#a78bfa">Silo Structure: Topical Content Clusters</text>
+  <text x="340" y="24" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="700" fill="#a78bfa">Structure en silos : clusters de contenu thématique</text>
 
   <!-- Silo 1: Running Shoes -->
   <rect x="30" y="48" width="190" height="230" rx="10" stroke="#4ade80" stroke-width="1.5" fill="none"/>
-  <text x="125" y="70" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="700" fill="#4ade80">Running Shoes Silo</text>
+  <text x="125" y="70" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="700" fill="#4ade80">Chaussures de course Silo</text>
 
   <rect x="50" y="84" width="150" height="28" rx="4" stroke="#4ade80" stroke-width="1" fill="none"/>
-  <text x="125" y="102" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#4ade80">/running-shoes/</text>
+  <text x="125" y="102" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#4ade80">/chaussures-de-course/</text>
 
   <rect x="60" y="124" width="60" height="24" rx="3" stroke="#e2e8f0" stroke-width="0.8" fill="none"/>
   <text x="90" y="140" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">Nike Air</text>
   <rect x="130" y="124" width="60" height="24" rx="3" stroke="#e2e8f0" stroke-width="0.8" fill="none"/>
-  <text x="160" y="140" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">Asics Gel</text>
+  <text x="160" y="140" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">AsicsGel</text>
 
   <rect x="60" y="156" width="60" height="24" rx="3" stroke="#e2e8f0" stroke-width="0.8" fill="none"/>
-  <text x="90" y="172" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">Brooks</text>
+  <text x="90" y="172" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">ruisseaux</text>
   <rect x="130" y="156" width="60" height="24" rx="3" stroke="#e2e8f0" stroke-width="0.8" fill="none"/>
   <text x="160" y="172" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">Hoka</text>
 
   <rect x="50" y="196" width="150" height="30" rx="4" stroke="#60a5fa" stroke-width="0.8" fill="none"/>
-  <text x="125" y="210" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#60a5fa">Blog: How to Choose</text>
-  <text x="125" y="222" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#60a5fa">Running Shoes</text>
+  <text x="125" y="210" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#60a5fa">Blog : Comment choisir</text>
+  <text x="125" y="222" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#60a5fa">Chaussures de course</text>
 
   <rect x="50" y="234" width="150" height="30" rx="4" stroke="#60a5fa" stroke-width="0.8" fill="none"/>
-  <text x="125" y="254" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#60a5fa">Guide: Best for Flat Feet</text>
+  <text x="125" y="254" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#60a5fa">Guide : Idéal pour les pieds plats</text>
 
   <!-- Internal links within silo -->
   <line x1="125" y1="112" x2="90" y2="124" stroke="#4ade80" stroke-width="0.8" stroke-dasharray="3"/>
@@ -34,10 +34,10 @@
 
   <!-- Silo 2: Hiking Boots -->
   <rect x="245" y="48" width="190" height="230" rx="10" stroke="#f97316" stroke-width="1.5" fill="none"/>
-  <text x="340" y="70" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="700" fill="#f97316">Hiking Boots Silo</text>
+  <text x="340" y="70" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="700" fill="#f97316">Chaussures de randonnée Silo</text>
 
   <rect x="265" y="84" width="150" height="28" rx="4" stroke="#f97316" stroke-width="1" fill="none"/>
-  <text x="340" y="102" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#f97316">/hiking-boots/</text>
+  <text x="340" y="102" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#f97316">/chaussures-de-randonnée/</text>
 
   <rect x="275" y="124" width="60" height="24" rx="3" stroke="#e2e8f0" stroke-width="0.8" fill="none"/>
   <text x="305" y="140" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">Merrell</text>
@@ -48,25 +48,25 @@
   <text x="340" y="172" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">Timberland</text>
 
   <rect x="265" y="196" width="150" height="30" rx="4" stroke="#60a5fa" stroke-width="0.8" fill="none"/>
-  <text x="340" y="216" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#60a5fa">Blog: Hiking Boot Guide</text>
+  <text x="340" y="216" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#60a5fa">Blog : Guide des chaussures de randonnée</text>
 
   <!-- Silo 3: Accessories -->
   <rect x="460" y="48" width="190" height="230" rx="10" stroke="#60a5fa" stroke-width="1.5" fill="none"/>
-  <text x="555" y="70" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="700" fill="#60a5fa">Accessories Silo</text>
+  <text x="555" y="70" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="700" fill="#60a5fa">Accessoires Silos</text>
 
   <rect x="480" y="84" width="150" height="28" rx="4" stroke="#60a5fa" stroke-width="1" fill="none"/>
-  <text x="555" y="102" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#60a5fa">/accessories/</text>
+  <text x="555" y="102" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#60a5fa">/accessoires/</text>
 
   <rect x="490" y="124" width="60" height="24" rx="3" stroke="#e2e8f0" stroke-width="0.8" fill="none"/>
-  <text x="520" y="140" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">Insoles</text>
+  <text x="520" y="140" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">Semelles</text>
   <rect x="560" y="124" width="60" height="24" rx="3" stroke="#e2e8f0" stroke-width="0.8" fill="none"/>
-  <text x="590" y="140" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">Laces</text>
+  <text x="590" y="140" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">Lacets</text>
 
   <rect x="480" y="196" width="150" height="30" rx="4" stroke="#60a5fa" stroke-width="0.8" fill="none"/>
-  <text x="555" y="216" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#60a5fa">Blog: Must-Have Gear</text>
+  <text x="555" y="216" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#60a5fa">Blog : Équipement indispensable</text>
 
   <!-- Cross-silo links (sparse) -->
   <line x1="220" y1="160" x2="245" y2="160" stroke="#94a3b8" stroke-width="0.6" stroke-dasharray="4"/>
   <line x1="435" y1="160" x2="460" y2="160" stroke="#94a3b8" stroke-width="0.6" stroke-dasharray="4"/>
-  <text x="340" y="295" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#94a3b8">Link generously within silos, sparingly between them</text>
+  <text x="340" y="295" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#94a3b8">Lien généreux au sein des silos, avec parcimonie entre eux</text>
 </svg>

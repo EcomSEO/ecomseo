@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 320" fill="none">
   <!-- Title -->
-  <text x="340" y="24" text-anchor="middle" fill="#a78bfa" font-family="Arial,sans-serif" font-size="14" font-weight="700">Ecommerce SEO vs Regular Website SEO</text>
+  <text x="340" y="24" text-anchor="middle" fill="#a78bfa" font-family="Arial,sans-serif" font-size="14" font-weight="700">SEO de commerce électronique vs référencement de site Web régulier</text>
 
   <!-- Headers -->
-  <text x="200" y="56" text-anchor="middle" fill="#60a5fa" font-family="Arial,sans-serif" font-size="11" font-weight="600">Site de contenu</text>
+  <text x="200" y="56" text-anchor="middle" fill="#60a5fa" font-family="Arial,sans-serif" font-size="11" font-weight="600">Site Web de contenu</text>
   <text x="480" y="56" text-anchor="middle" fill="#f97316" font-family="Arial,sans-serif" font-size="11" font-weight="600">Boutique en ligne</text>
 
   <!-- Divider -->
@@ -11,39 +11,39 @@
 
   <!-- Row 1: Pages -->
   <rect x="60" y="70" width="280" height="32" rx="6" fill="#1a1a2e" stroke="#60a5fa" stroke-width="1"/>
-  <text x="200" y="90" text-anchor="middle" fill="#e2e8f0" font-family="Arial,sans-serif" font-size="10">50-200 pages</text>
+  <text x="200" y="90" text-anchor="middle" fill="#e2e8f0" font-family="Arial,sans-serif" font-size="10">50 à 200 pages</text>
 
   <rect x="360" y="70" width="280" height="32" rx="6" fill="#1a1a2e" stroke="#f97316" stroke-width="1"/>
-  <text x="500" y="90" text-anchor="middle" fill="#e2e8f0" font-family="Arial,sans-serif" font-size="10">10,000-500,000 URLs</text>
+  <text x="500" y="90" text-anchor="middle" fill="#e2e8f0" font-family="Arial,sans-serif" font-size="10">10 000 à 500 000 URL</text>
 
   <!-- Row 2: Content -->
   <rect x="60" y="112" width="280" height="32" rx="6" fill="#1a1a2e" stroke="#60a5fa" stroke-width="1"/>
-  <text x="200" y="132" text-anchor="middle" fill="#e2e8f0" font-family="Arial,sans-serif" font-size="10">Unique long-form content per page</text>
+  <text x="200" y="132" text-anchor="middle" fill="#e2e8f0" font-family="Arial,sans-serif" font-size="10">Contenu long unique par page</text>
 
   <rect x="360" y="112" width="280" height="32" rx="6" fill="#1a1a2e" stroke="#f97316" stroke-width="1"/>
-  <text x="500" y="132" text-anchor="middle" fill="#e2e8f0" font-family="Arial,sans-serif" font-size="10">Shared manufacturer descriptions</text>
+  <text x="500" y="132" text-anchor="middle" fill="#e2e8f0" font-family="Arial,sans-serif" font-size="10">Descriptions partagées des fabricants</text>
 
   <!-- Row 3: Updates -->
   <rect x="60" y="154" width="280" height="32" rx="6" fill="#1a1a2e" stroke="#60a5fa" stroke-width="1"/>
-  <text x="200" y="174" text-anchor="middle" fill="#e2e8f0" font-family="Arial,sans-serif" font-size="10">Evergreen, rarely changes</text>
+  <text x="200" y="174" text-anchor="middle" fill="#e2e8f0" font-family="Arial,sans-serif" font-size="10">Persistant, change rarement</text>
 
   <rect x="360" y="154" width="280" height="32" rx="6" fill="#1a1a2e" stroke="#f97316" stroke-width="1"/>
-  <text x="500" y="174" text-anchor="middle" fill="#e2e8f0" font-family="Arial,sans-serif" font-size="10">Inventory rotates weekly/monthly</text>
+  <text x="500" y="174" text-anchor="middle" fill="#e2e8f0" font-family="Arial,sans-serif" font-size="10">L'inventaire tourne hebdomadairement/mensuellement</text>
 
   <!-- Row 4: Technical -->
   <rect x="60" y="196" width="280" height="32" rx="6" fill="#1a1a2e" stroke="#60a5fa" stroke-width="1"/>
-  <text x="200" y="216" text-anchor="middle" fill="#e2e8f0" font-family="Arial,sans-serif" font-size="10">Simple URL structure</text>
+  <text x="200" y="216" text-anchor="middle" fill="#e2e8f0" font-family="Arial,sans-serif" font-size="10">Structure d'URL simple</text>
 
   <rect x="360" y="196" width="280" height="32" rx="6" fill="#1a1a2e" stroke="#f97316" stroke-width="1"/>
-  <text x="500" y="216" text-anchor="middle" fill="#e2e8f0" font-family="Arial,sans-serif" font-size="10">Filters, variants, facets = URL bloat</text>
+  <text x="500" y="216" text-anchor="middle" fill="#e2e8f0" font-family="Arial,sans-serif" font-size="10">Filtres, variantes, facettes = gonflement des URL</text>
 
   <!-- Row 5: Intent -->
   <rect x="60" y="238" width="280" height="32" rx="6" fill="#1a1a2e" stroke="#60a5fa" stroke-width="1"/>
-  <text x="200" y="258" text-anchor="middle" fill="#e2e8f0" font-family="Arial,sans-serif" font-size="10">Mostly informational intent</text>
+  <text x="200" y="258" text-anchor="middle" fill="#e2e8f0" font-family="Arial,sans-serif" font-size="10">Intention principalement informative</text>
 
   <rect x="360" y="238" width="280" height="32" rx="6" fill="#1a1a2e" stroke="#f97316" stroke-width="1"/>
-  <text x="500" y="258" text-anchor="middle" fill="#e2e8f0" font-family="Arial,sans-serif" font-size="10">Mixed: transactional + commercial + info</text>
+  <text x="500" y="258" text-anchor="middle" fill="#e2e8f0" font-family="Arial,sans-serif" font-size="10">Mixte : transactionnel + commercial + info</text>
 
   <!-- Bottom note -->
-  <text x="340" y="300" text-anchor="middle" fill="#64748b" font-family="Arial,sans-serif" font-size="8">Ecommerce SEO requires different strategies for scale, duplication, and technical complexity</text>
+  <text x="340" y="300" text-anchor="middle" fill="#64748b" font-family="Arial,sans-serif" font-size="8">Le référencement du commerce électronique nécessite différentes stratégies en termes d'échelle, de duplication et de complexité technique</text>
 </svg>
