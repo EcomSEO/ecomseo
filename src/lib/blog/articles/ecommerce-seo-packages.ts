@@ -270,7 +270,7 @@ export const ecommerceSeoPackages: BlogArticle = {
             "Une communication régulière au-delà des rapports mensuels est attendue au niveau intermédiaire et au-dessus. Des appels bimensuels, une disponibilité par Slack ou email pour les questions, et des alertes proactives sur les problèmes ou opportunités devraient tous faire partie du service."
           ],
           image: { src: "/images/blog/fr/seo-package-deliverables-checklist.svg", alt: "Non-negotiable SEO package deliverables checklist showing must-have and mid-tier requirements", caption: "Demand these deliverables regardless of which package tier you choose" },
-          callout: { title: "Demand Transparency", text: "Every SEO package should include monthly reporting with YoY data, an implementation log showing exactly what was done, a strategy document updated quarterly, and access to the tools and data behind the work." },
+          callout: { title: "Demand Transparency", text: "Every SEO package should include monthly reporting with YoY data, an impl\u00e9mentation log showing exactly what was done, a strategy document updated quarterly, and access to the tools and data behind the work." },
         },
         {
           heading: "Comment comparer les forfaits entre agences",

@@ -132,7 +132,7 @@ export const ecommerceSeoContent: BlogArticle = {
             "El contenido de la etapa de decisión elimina las últimas barreras para la compra. Las páginas de descripción de productos, compilaciones de reseñas de clientes y secciones de FAQ ayudan a alguien que ha encontrado tu producto a decidirse a comprarlo. Este contenido vive en tus páginas de productos y debe abordar las objeciones directamente. La información de tallas, políticas de devolución e instrucciones de cuidado reducen la incertidumbre y empujan a las personas hacia la conversión.",
             "Asociamos cada pieza de contenido con una etapa del embudo antes de crearla. Esto previene el error común de producir docenas de publicaciones de blog en la etapa de concienciación mientras se descuida el contenido de consideración que realmente impulsa los ingresos. Para la mayoría de las tiendas de ecommerce, recomendamos una distribución 20/50/30: 20% concienciación, 50% consideración, 30% contenido de etapa de decisión por volumen."
           ],
-          image: { src: "/images/blog/es/content-funnel-stages.svg", alt: "Content types mapped to buying funnel stages from awareness to retention", caption: "Recommended content allocation: 20% awareness, 50% consideration, 30% decision" },
+          image: { src: "/images/blog/es/content-funnel-stages.svg", alt: "Content types mapped to buying funnel stages from awareness to retention", caption: "Recommended content allocation: 20% awareness, 50% consideration, 30% decisi\u00f3n" },
           callout: { title: "Content Split Rule", text: "Most ecommerce stores over-invest in awareness content. The highest ROI comes from a 20/50/30 split: 20% awareness, 50% consideration (buying guides, comparisons), and 30% decision-stage content." },
         },
         {
@@ -218,7 +218,7 @@ export const ecommerceSeoContent: BlogArticle = {
             "Le contenu de décision supprime les dernières barrières à l'achat. Les pages de description de produits, les compilations d'avis clients et les sections FAQ aident quelqu'un qui a trouvé votre produit à décider de l'acheter. Ce contenu se trouve sur vos pages produits et devrait traiter directement les objections. Les informations de taille, les politiques de retour et les instructions d'entretien réduisent l'incertitude et poussent les gens vers la conversion.",
             "Nous associons chaque contenu à une étape du tunnel avant de le créer. Cela prévient l'erreur courante de produire des dizaines d'articles de blog de sensibilisation tout en négligeant le contenu de considération qui génère réellement du chiffre d'affaires. Pour la plupart des boutiques ecommerce, nous recommandons une répartition 20/50/30 : 20 % sensibilisation, 50 % considération, 30 % contenu de décision en volume."
           ],
-          image: { src: "/images/blog/fr/content-funnel-stages.svg", alt: "Content types mapped to buying funnel stages from awareness to retention", caption: "Recommended content allocation: 20% awareness, 50% consideration, 30% decision" },
+          image: { src: "/images/blog/fr/content-funnel-stages.svg", alt: "Content types mapped to buying funnel stages from awareness to retention", caption: "Recommended content allocation: 20% awareness, 50% consideration, 30% d\u00e9cision" },
           callout: { title: "Content Split Rule", text: "Most ecommerce stores over-invest in awareness content. The highest ROI comes from a 20/50/30 split: 20% awareness, 50% consideration (buying guides, comparisons), and 30% decision-stage content." },
         },
         {

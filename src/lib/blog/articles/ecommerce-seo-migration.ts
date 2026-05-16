@@ -175,7 +175,7 @@ export const ecommerceSeoMigration: BlogArticle = {
             "Shopify tiene una herramienta de redirecciones integrada, pero no soporta redirecciones regex y no tiene importación masiva en el admin básico. Si estás migrando a Shopify con miles de redirecciones, usa una app como Easy Redirects o gestiona las redirecciones a través de la API de Shopify.",
             "Mantén las redirecciones permanentemente. Algunos propietarios de tiendas eliminan las redirecciones después de unos meses pensando que ya no son necesarias. Los enlaces externos, marcadores y resultados de búsqueda en caché pueden apuntar a URLs antiguas durante años. Eliminar las redirecciones las convierte en errores 404 y desperdicia el link equity que trabajaste para preservar."
           ],
-          image: { src: "/images/blog/es/redirect-mapping-flow.svg", alt: "URL redirect mapping decision flow for determining 301 redirects versus 410 responses", caption: "Decision flow for mapping old URLs to new destinations during migration" },
+          image: { src: "/images/blog/es/redirect-mapping-flow.svg", alt: "URL redirect mapping decisi\u00f3n flow for determining 301 redirects versus 410 responses", caption: "Decisi\u00f3n flow for mapping old URLs to new destinations during migration" },
         },
         {
           heading: "Preservación de contenido durante la migración",
@@ -575,7 +575,7 @@ export const ecommerceSeoMigration: BlogArticle = {
             "Shopify a un outil de redirection intégré, mais il ne supporte pas les redirections regex et n'a pas d'import en masse dans l'admin basique. Si vous migrez vers Shopify avec des milliers de redirections, utilisez une application comme Easy Redirects ou gérez les redirections via l'API Shopify.",
             "Gardez les redirections en place de manière permanente. Certains propriétaires de boutiques suppriment les redirections après quelques mois pensant qu'elles ne sont plus nécessaires. Les liens externes, les favoris et les résultats de recherche en cache peuvent pointer vers les anciennes URL pendant des années. Supprimer les redirections les transforme en erreurs 404 et gaspille l'autorité de liens que vous avez travaillé à préserver."
           ],
-          image: { src: "/images/blog/fr/redirect-mapping-flow.svg", alt: "URL redirect mapping decision flow for determining 301 redirects versus 410 responses", caption: "Decision flow for mapping old URLs to new destinations during migration" },
+          image: { src: "/images/blog/fr/redirect-mapping-flow.svg", alt: "URL redirect mapping d\u00e9cision flow for determining 301 redirects versus 410 responses", caption: "D\u00e9cision flow for mapping old URLs to new destinations during migration" },
         },
         {
           heading: "Préservation du contenu pendant la migration",

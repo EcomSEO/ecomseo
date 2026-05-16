@@ -227,7 +227,7 @@ export const ecommerceSeopricing: BlogArticle = {
             "La complexité de la plateforme affecte aussi la tarification. Les boutiques Shopify sont généralement plus simples à travailler que Magento 2 ou les plateformes sur mesure. Sur Shopify, l'implémentation de données structurées ou la correction de structures d'URL suit des schémas bien documentés. Sur une plateforme personnalisée, chaque modification peut nécessiter du temps de développement à 150-200 €/heure. Nous avons travaillé sur des projets où 40 % du budget allait à l'implémentation plutôt qu'à la stratégie, uniquement à cause des limitations de la plateforme."
           ],
           image: { src: "/images/blog/fr/seo-price-factors.svg", alt: "Six factors that drive ecommerce SEO pricing: store size, competition, technical debt, content needs, link building, and target markets", caption: "Key factors that determine your ecommerce SEO investment" },
-          callout: { title: "Platform Cost Gap", text: "Shopify SEO implementations follow well-documented patterns. Custom platforms can consume 40% of the total SEO budget on dev work alone, at $150-200/hour for implementation." },
+          callout: { title: "Platform Cost Gap", text: "Shopify SEO implementations follow well-documented patterns. Custom platforms can consume 40% of the total SEO budget on dev work alone, at $150-200/hour for impl\u00e9mentation." },
         },
         {
           heading: "Fourchettes de prix typiques et ce que vous obtenez",
