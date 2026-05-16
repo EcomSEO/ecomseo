@@ -1,43 +1,43 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 300" fill="none">
-  <text x="340" y="24" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="700" fill="#a78bfa">Concurrenten-zoekwoordgat: 4-emmermodel</text>
+  <text x="340" y="24" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="700" fill="#a78bfa">Zoekwoordkloof van concurrenten: 4-bucket-framework</text>
   <!-- Bucket 1 -->
   <rect x="20" y="50" width="150" height="130" rx="8" stroke="#4ade80" stroke-width="1.5" fill="#4ade80" fill-opacity="0.08"/>
   <text x="95" y="74" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="700" fill="#4ade80">Emmer 1</text>
-  <text x="95" y="92" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Hebben pagina's,</text>
-  <text x="95" y="106" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">ranken niet</text>
+  <text x="95" y="92" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Pagina's hebben,</text>
+  <text x="95" y="106" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Niet rangschikken</text>
   <line x1="40" y1="116" x2="150" y2="116" stroke="#4ade80" stroke-width="0.5" stroke-opacity="0.4"/>
   <text x="95" y="134" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#94a3b8">Actie: optimaliseren</text>
-  <text x="95" y="148" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#94a3b8">title, H1, content</text>
-  <text x="95" y="168" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="600" fill="#4ade80">Snelste winst</text>
+  <text x="95" y="148" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#94a3b8">titel, H1, inhoud</text>
+  <text x="95" y="168" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="600" fill="#4ade80">De snelste overwinningen</text>
   <!-- Bucket 2 -->
   <rect x="185" y="50" width="150" height="130" rx="8" stroke="#60a5fa" stroke-width="1.5" fill="#60a5fa" fill-opacity="0.08"/>
   <text x="260" y="74" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="700" fill="#60a5fa">Emmer 2</text>
   <text x="260" y="92" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Geen pagina's,</text>
-  <text x="260" y="106" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">kunnen aanmaken</text>
+  <text x="260" y="106" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Kan creëren</text>
   <line x1="205" y1="116" x2="315" y2="116" stroke="#60a5fa" stroke-width="0.5" stroke-opacity="0.4"/>
-  <text x="260" y="134" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#94a3b8">Actie: nieuwe pagina</text>
-  <text x="260" y="148" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#94a3b8">categorie-/productpagina bouwen</text>
-  <text x="260" y="168" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="600" fill="#60a5fa">3-6 maanden resultaat</text>
+  <text x="260" y="134" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#94a3b8">Actie: Nieuw bouwen</text>
+  <text x="260" y="148" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#94a3b8">categorie/productpagina</text>
+  <text x="260" y="168" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="600" fill="#60a5fa">Resultaten na 3-6 maanden</text>
   <!-- Bucket 3 -->
   <rect x="350" y="50" width="150" height="130" rx="8" stroke="#f97316" stroke-width="1.5" fill="#f97316" fill-opacity="0.08"/>
   <text x="425" y="74" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="700" fill="#f97316">Emmer 3</text>
-  <text x="425" y="92" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Nieuwe producten</text>
-  <text x="425" y="106" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">nodig</text>
+  <text x="425" y="92" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Nieuw nodig</text>
+  <text x="425" y="106" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Producten</text>
   <line x1="370" y1="116" x2="480" y2="116" stroke="#f97316" stroke-width="0.5" stroke-opacity="0.4"/>
-  <text x="425" y="134" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#94a3b8">Actie: business-</text>
-  <text x="425" y="148" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#94a3b8">intelligence-input</text>
-  <text x="425" y="168" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="600" fill="#f97316">Voorraadbeslissing</text>
+  <text x="425" y="134" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#94a3b8">Actie: Zakelijk</text>
+  <text x="425" y="148" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#94a3b8">input van inlichtingen</text>
+  <text x="425" y="168" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="600" fill="#f97316">Inventarisatie beslissing</text>
   <!-- Bucket 4 -->
   <rect x="515" y="50" width="145" height="130" rx="8" stroke="#94a3b8" stroke-width="1.5" fill="#94a3b8" fill-opacity="0.05"/>
   <text x="588" y="74" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="700" fill="#94a3b8">Emmer 4</text>
-  <text x="588" y="92" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Niet de moeite</text>
-  <text x="588" y="106" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">waard</text>
+  <text x="588" y="92" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Niet de moeite waard</text>
+  <text x="588" y="106" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Achtervolgen</text>
   <line x1="535" y1="116" x2="640" y2="116" stroke="#94a3b8" stroke-width="0.5" stroke-opacity="0.4"/>
   <text x="588" y="134" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#94a3b8">Actie: overslaan</text>
   <text x="588" y="148" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#94a3b8">verkeerde positionering</text>
   <text x="588" y="168" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#94a3b8">of markt</text>
   <!-- Bottom annotation -->
   <rect x="100" y="210" width="480" height="36" rx="6" fill="#a78bfa" fill-opacity="0.06" stroke="#a78bfa" stroke-width="1"/>
-  <text x="340" y="233" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#e2e8f0">Buckets 1 &amp; 2 contain <tspan font-weight="700" fill="#a78bfa">80% of actionable opportunities</tspan></text>
-  <text x="340" y="280" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#94a3b8">Voer gap-analyse per concurrent afzonderlijk uit. Herhaal elk kwartaal voor nieuwe kansen.</text>
+  <text x="340" y="233" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#e2e8f0">Buckets 1 &amp; 2 contain <tspan font-weight="700" fill="#a78bfa">80% van de bruikbare kansen</tspan></text>
+  <text x="340" y="280" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#94a3b8">Voer een gap-analyse uit per concurrent afzonderlijk. Herhaal dit elk kwartaal om nieuwe kansen te benutten.</text>
 </svg>

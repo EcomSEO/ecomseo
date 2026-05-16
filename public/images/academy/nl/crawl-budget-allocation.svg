@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 320" fill="none">
   <!-- Title -->
-  <text x="340" y="24" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="700" fill="#a78bfa">Crawlbudgetverdeling: voor vs. na optimalisatie</text>
+  <text x="340" y="24" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="700" fill="#a78bfa">Toewijzing van crawlbudget: vóór versus na optimalisatie</text>
 
   <!-- Before section -->
   <text x="170" y="56" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="700" fill="#ef4444">Voor</text>
@@ -40,11 +40,11 @@
   <!-- After bar: filter pages 20% -->
   <rect x="380" y="144" width="60" height="28" rx="4" stroke="#f97316" stroke-width="1" fill="none"/>
   <rect x="380" y="144" width="60" height="28" rx="4" fill="#f97316" opacity="0.15"/>
-  <text x="475" y="162" font-family="Arial,sans-serif" font-size="10" fill="#f97316">Filterpagina's — 20%</text>
+  <text x="475" y="162" font-family="Arial,sans-serif" font-size="10" fill="#f97316">Pagina's filteren — 20%</text>
 
   <!-- Impact stats -->
   <rect x="80" y="210" width="520" height="70" rx="8" stroke="#a78bfa" stroke-width="1" fill="none"/>
-  <text x="340" y="234" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="700" fill="#a78bfa">Impact van crawlbudgetherverdeling</text>
+  <text x="340" y="234" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="700" fill="#a78bfa">Impact van herverdeling van crawlbudget</text>
   <text x="180" y="260" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#4ade80">+45% productcrawls</text>
   <text x="340" y="260" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#60a5fa">30% snellere indexering</text>
   <text x="500" y="260" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#f97316">-65% verspilde crawls</text>

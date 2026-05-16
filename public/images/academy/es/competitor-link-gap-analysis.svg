@@ -1,23 +1,23 @@
 <svg viewBox="0 0 420 240" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <text x="210" y="22" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#a78bfa">Link Brecha Analysis</text>
-  <text x="80" y="52" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#60a5fa">Your Store</text>
+  <text x="210" y="22" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#a78bfa">Análisis de brechas de enlaces</text>
+  <text x="80" y="52" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#60a5fa">Tu tienda</text>
   <circle cx="80" cy="70" r="8" stroke="#60a5fa" stroke-width="1.5" fill="none"/>
-  <text x="210" y="52" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#ef4444">Competitor A</text>
+  <text x="210" y="52" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#ef4444">Competidor A</text>
   <circle cx="210" cy="70" r="8" stroke="#ef4444" stroke-width="1.5" fill="none"/>
-  <text x="340" y="52" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#f97316">Competitor B</text>
+  <text x="340" y="52" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#f97316">Competidor B</text>
   <circle cx="340" cy="70" r="8" stroke="#f97316" stroke-width="1.5" fill="none"/>
-  <text x="30" y="108" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Site X (DR 72)</text>
+  <text x="30" y="108" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Sitio X (DR 72)</text>
   <line x1="120" y1="105" x2="200" y2="105" stroke="#ef4444" stroke-width="1.5"/>
   <line x1="270" y1="105" x2="330" y2="105" stroke="#f97316" stroke-width="1.5"/>
-  <text x="380" y="108" font-family="Arial,sans-serif" font-size="10" fill="#4ade80">GAP</text>
-  <text x="30" y="130" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Site Y (DR 65)</text>
+  <text x="380" y="108" font-family="Arial,sans-serif" font-size="10" fill="#4ade80">BRECHA</text>
+  <text x="30" y="130" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Sitio Y (DR 65)</text>
   <line x1="120" y1="127" x2="200" y2="127" stroke="#ef4444" stroke-width="1.5"/>
-  <text x="380" y="130" font-family="Arial,sans-serif" font-size="10" fill="#4ade80">GAP</text>
-  <text x="30" y="152" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Site Z (DR 58)</text>
+  <text x="380" y="130" font-family="Arial,sans-serif" font-size="10" fill="#4ade80">BRECHA</text>
+  <text x="30" y="152" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Sitio Z (DR 58)</text>
   <line x1="120" y1="149" x2="200" y2="149" stroke="#ef4444" stroke-width="1.5"/>
   <line x1="270" y1="149" x2="330" y2="149" stroke="#f97316" stroke-width="1.5"/>
-  <text x="380" y="152" font-family="Arial,sans-serif" font-size="10" fill="#4ade80">GAP</text>
+  <text x="380" y="152" font-family="Arial,sans-serif" font-size="10" fill="#4ade80">BRECHA</text>
   <rect x="40" y="175" rx="6" width="340" height="50" stroke="#4ade80" stroke-width="1" stroke-dasharray="4" fill="none"/>
-  <text x="210" y="195" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#4ade80">Link Brecha = Pre-Qualified Outreach List</text>
-  <text x="210" y="214" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Sites linking to multiple competitors are highest priority targets</text>
+  <text x="210" y="195" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#4ade80">Brecha de enlaces = Lista de alcance precalificada</text>
+  <text x="210" y="214" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Los sitios que enlazan con múltiples competidores son objetivos de máxima prioridad.</text>
 </svg>

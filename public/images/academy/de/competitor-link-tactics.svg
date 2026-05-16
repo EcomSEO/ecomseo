@@ -1,23 +1,23 @@
 <svg viewBox="0 0 420 220" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <text x="210" y="22" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#a78bfa">Wettbewerber-Link-Taktiken analysieren</text>
+  <text x="210" y="22" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#a78bfa">Reverse Engineering der Link-Taktiken von Mitbewerbern</text>
   <rect x="20" y="42" rx="8" width="175" height="70" stroke="#60a5fa" stroke-width="1.5" fill="none"/>
-  <text x="107" y="62" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#60a5fa">Gastbeitraege</text>
-  <text x="107" y="78" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Autorenlinks von Blogs</text>
-  <text x="107" y="92" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Signal: Bio verlinkt zurueck zur Seite</text>
-  <text x="107" y="106" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#4ade80">Replizierbar: Gleiche Blogs anschreiben</text>
+  <text x="107" y="62" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#60a5fa">Gastbeiträge</text>
+  <text x="107" y="78" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Links zu Autorenbiografien aus Blogs</text>
+  <text x="107" y="92" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Signal: Bio-Link zurück zur Website</text>
+  <text x="107" y="106" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#4ade80">Reproduzierbar: Pitchen Sie dieselben Blogs</text>
   <rect x="225" y="42" rx="8" width="175" height="70" stroke="#f97316" stroke-width="1.5" fill="none"/>
   <text x="312" y="62" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#f97316">Digitale PR</text>
-  <text x="312" y="78" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Redaktionelle Nachrichten-/Magazinlinks</text>
-  <text x="312" y="92" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Signal: Marken-Ankertext</text>
-  <text x="312" y="106" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#4ade80">Anpassen: Aehnliche Story-Ansaetze</text>
+  <text x="312" y="78" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Redaktionelle Links zu Nachrichten/Magazinen</text>
+  <text x="312" y="92" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Signal: gebrandeter Ankertext</text>
+  <text x="312" y="106" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#4ade80">Anpassen: ähnliche Story-Blickwinkel</text>
   <rect x="20" y="130" rx="8" width="175" height="70" stroke="#4ade80" stroke-width="1.5" fill="none"/>
   <text x="107" y="150" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#4ade80">Ressourcenseiten</text>
-  <text x="107" y="166" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">URLs with /resources/, /links/</text>
-  <text x="107" y="180" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Signal: Kuratierte Linklisten</text>
-  <text x="107" y="194" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#4ade80">Einreichen: Ihren gleichwertigen Inhalt</text>
+  <text x="107" y="166" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">URLs mit /resources/, /links/</text>
+  <text x="107" y="180" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Signal: kuratierte Linklisten</text>
+  <text x="107" y="194" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#4ade80">Senden Sie: Ihren entsprechenden Inhalt</text>
   <rect x="225" y="130" rx="8" width="175" height="70" stroke="#ef4444" stroke-width="1.5" fill="none"/>
-  <text x="312" y="150" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#ef4444">Broken-Link-Building</text>
+  <text x="312" y="150" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#ef4444">Defekter Linkaufbau</text>
   <text x="312" y="166" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Seiten mit toten ausgehenden Links</text>
-  <text x="312" y="180" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Signal: 404-Fehler auf denselben Seiten</text>
-  <text x="312" y="194" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#4ade80">Nutzen: Gleiche Broken-Link-Taktik</text>
+  <text x="312" y="180" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Signal: 404s auf denselben Seiten</text>
+  <text x="312" y="194" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#4ade80">Verwendung: Dieselbe Taktik für defekte Links</text>
 </svg>
