@@ -1,30 +1,30 @@
 <svg viewBox="0 0 380 220" xmlns="http://www.w3.org/2000/svg" fill="none">
-  <text x="190" y="20" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#a78bfa">SERP Domination: Multi-Format Visibility</text>
+  <text x="190" y="20" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#a78bfa">SERP-overheersing: zichtbaarheid in meerdere formaten</text>
   <!-- SERP mockup -->
   <rect x="60" y="35" width="260" height="170" rx="6" stroke="#60a5fa" stroke-width="1" stroke-dasharray="3"/>
   <!-- Shopping -->
   <rect x="75" y="42" width="230" height="24" rx="3" stroke="#4ade80" stroke-width="1.5"/>
-  <text x="100" y="58" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#4ade80">Shopping</text>
+  <text x="100" y="58" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#4ade80">Winkelen</text>
   <text x="225" y="58" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">+8% CTR</text>
   <!-- Featured Snippet -->
   <rect x="75" y="70" width="230" height="24" rx="3" stroke="#a78bfa" stroke-width="1.5"/>
-  <text x="100" y="86" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#a78bfa">Featured Snippet</text>
-  <text x="225" y="86" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">Position 0</text>
+  <text x="100" y="86" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#a78bfa">Uitgelicht fragment</text>
+  <text x="225" y="86" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">Stand 0</text>
   <!-- Organic -->
   <rect x="75" y="98" width="230" height="24" rx="3" stroke="#60a5fa" stroke-width="1.5"/>
-  <text x="100" y="114" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#60a5fa">Organic #1</text>
+  <text x="100" y="114" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#60a5fa">Pastabar (1)</text>
   <text x="225" y="114" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">+12% CTR</text>
   <!-- Image Pack -->
   <rect x="75" y="126" width="230" height="24" rx="3" stroke="#f97316" stroke-width="1.5"/>
-  <text x="100" y="142" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#f97316">Image Pack</text>
+  <text x="100" y="142" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#f97316">Afbeeldingspakket</text>
   <text x="225" y="142" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">+3-5% CTR</text>
   <!-- PAA -->
   <rect x="75" y="154" width="230" height="24" rx="3" stroke="#ef4444" stroke-width="1.5"/>
-  <text x="100" y="170" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#ef4444">People Also Ask</text>
-  <text x="225" y="170" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">Brand authority</text>
+  <text x="100" y="170" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#ef4444">Mensen vragen het ook</text>
+  <text x="225" y="170" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">Merkbevoegdheid</text>
   <!-- Competitor below fold -->
   <rect x="75" y="182" width="230" height="18" rx="3" stroke="#94a3b8" stroke-width="1" stroke-dasharray="2"/>
-  <text x="190" y="195" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#94a3b8">Competitors pushed below the fold</text>
+  <text x="190" y="195" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#94a3b8">Concurrenten duwden onder de vouw</text>
   <!-- Total -->
-  <text x="190" y="216" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#4ade80">Combined: 23-25% of all clicks vs. 12% from organic alone</text>
+  <text x="190" y="216" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#4ade80">Gecombineerd: 23-25% van alle klikken versus 12% van alleen biologisch</text>
 </svg>

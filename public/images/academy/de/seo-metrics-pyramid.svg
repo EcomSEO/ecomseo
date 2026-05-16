@@ -1,20 +1,20 @@
 <svg viewBox="0 0 420 210" xmlns="http://www.w3.org/2000/svg" fill="none">
-  <text x="210" y="22" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#a78bfa">Ecommerce SEO Metrics Hierarchy</text>
+  <text x="210" y="22" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#a78bfa">E-Commerce-SEO-Metrik-Hierarchie</text>
   <polygon points="210,42 340,190 80,190" fill="none" stroke="#475569" stroke-width="1" stroke-dasharray="3,3"/>
   <g transform="translate(155,52)">
     <rect width="110" height="32" rx="6" fill="#4ade80" fill-opacity="0.15" stroke="#4ade80" stroke-width="1.5"/>
-    <text x="55" y="14" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#4ade80">REVENUE</text>
-    <text x="55" y="26" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">Organic Revenue + YoY %</text>
+    <text x="55" y="14" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#4ade80">UMSATZ</text>
+    <text x="55" y="26" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">Organischer Umsatz + YoY %</text>
   </g>
   <g transform="translate(125,95)">
     <rect width="170" height="32" rx="6" fill="#60a5fa" fill-opacity="0.12" stroke="#60a5fa" stroke-width="1"/>
-    <text x="85" y="14" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#60a5fa">QUALITY</text>
-    <text x="85" y="26" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">CVR, AOV, Non-branded Traffic</text>
+    <text x="85" y="14" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#60a5fa">QUALITÄTS-</text>
+    <text x="85" y="26" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">CVR, AOV, Nicht-Marken-Traffic</text>
   </g>
   <g transform="translate(100,138)">
     <rect width="220" height="32" rx="6" fill="#f97316" fill-opacity="0.12" stroke="#f97316" stroke-width="1"/>
-    <text x="110" y="14" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#f97316">VISIBILITY</text>
-    <text x="110" y="26" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">Indexation Rate, Rankings, Share of Voice</text>
+    <text x="110" y="14" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#f97316">SICHTVERHÄLTNIS</text>
+    <text x="110" y="26" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">Indexierungsrate, Rankings, Share of Voice</text>
   </g>
-  <text x="210" y="200" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#94a3b8">Lead with top-tier metrics for executives</text>
+  <text x="210" y="200" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#94a3b8">Führen Sie mit erstklassigen Metriken für Führungskräfte</text>
 </svg>

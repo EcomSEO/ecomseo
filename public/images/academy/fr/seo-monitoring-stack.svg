@@ -1,18 +1,18 @@
 <svg viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg" fill="none">
-  <text x="200" y="20" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#a78bfa">SEO Monitoring &amp; Alert System</text>
+  <text x="200" y="20" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#a78bfa">Système de surveillance et d'alerte SEO</text>
   <!-- Data sources row -->
   <rect x="15" y="38" width="80" height="35" rx="5" stroke="#60a5fa" stroke-width="1.5"/>
-  <text x="55" y="55" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#60a5fa">Search Console</text>
-  <text x="55" y="66" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">Index coverage</text>
+  <text x="55" y="55" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#60a5fa">Console de recherche</text>
+  <text x="55" y="66" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">Couverture de l'indice</text>
   <rect x="105" y="38" width="80" height="35" rx="5" stroke="#4ade80" stroke-width="1.5"/>
-  <text x="145" y="55" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#4ade80">Rank Tracker</text>
-  <text x="145" y="66" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">Daily positions</text>
+  <text x="145" y="55" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#4ade80">Suivi de classement</text>
+  <text x="145" y="66" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">Positions quotidiennes</text>
   <rect x="195" y="38" width="80" height="35" rx="5" stroke="#a78bfa" stroke-width="1.5"/>
-  <text x="235" y="55" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#a78bfa">Rich Results API</text>
-  <text x="235" y="66" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">Schema validity</text>
+  <text x="235" y="55" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#a78bfa">API de résultats enrichis</text>
+  <text x="235" y="66" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">Validité du schéma</text>
   <rect x="285" y="38" width="100" height="35" rx="5" stroke="#f97316" stroke-width="1.5"/>
-  <text x="335" y="55" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#f97316">PageSpeed API</text>
-  <text x="335" y="66" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">Core Web Vitals</text>
+  <text x="335" y="55" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#f97316">API PageSpeed</text>
+  <text x="335" y="66" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">Éléments essentiels du Web</text>
   <!-- Arrows down -->
   <path d="M55 73 L55 88" stroke="#60a5fa" stroke-width="1"/>
   <path d="M145 73 L145 88" stroke="#4ade80" stroke-width="1"/>
@@ -20,18 +20,18 @@
   <path d="M335 73 L335 88" stroke="#f97316" stroke-width="1"/>
   <!-- Central dashboard -->
   <rect x="40" y="88" width="320" height="35" rx="6" stroke="#a78bfa" stroke-width="2"/>
-  <text x="200" y="108" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#a78bfa">Unified SEO Health Dashboard</text>
-  <text x="200" y="120" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">Aggregates all metrics in one view for correlation analysis</text>
+  <text x="200" y="108" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#a78bfa">Tableau de bord de santé SEO unifié</text>
+  <text x="200" y="120" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">Agrège toutes les métriques dans une seule vue pour l'analyse des corrélations</text>
   <!-- Alert triggers -->
-  <text x="200" y="145" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#ef4444">Alert Triggers</text>
+  <text x="200" y="145" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#ef4444">Nouveaux déclencheurs d'alerte</text>
   <rect x="15" y="152" width="90" height="22" rx="3" stroke="#ef4444" stroke-width="1"/>
-  <text x="60" y="167" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#ef4444">Index drop &gt;5%</text>
+  <text x="60" y="167" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#ef4444">Baisse de l'indice &amp;gt;5%</text>
   <rect x="115" y="152" width="90" height="22" rx="3" stroke="#ef4444" stroke-width="1"/>
-  <text x="160" y="167" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#ef4444">Rank drop &gt;5 pos</text>
+  <text x="160" y="167" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#ef4444">Chute de rang &amp;gt;5 pos</text>
   <rect x="215" y="152" width="90" height="22" rx="3" stroke="#ef4444" stroke-width="1"/>
-  <text x="260" y="167" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#ef4444">Schema errors</text>
+  <text x="260" y="167" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#ef4444">Erreurs de schéma</text>
   <rect x="315" y="152" width="70" height="22" rx="3" stroke="#ef4444" stroke-width="1"/>
-  <text x="350" y="167" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#ef4444">CWV fail</text>
+  <text x="350" y="167" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#ef4444">Échec CWV</text>
   <!-- Content monitor -->
-  <text x="200" y="192" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#94a3b8">+ Content change monitoring detects unauthorized edits to titles, canonicals, headings</text>
+  <text x="200" y="192" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#94a3b8">+ Le suivi des modifications de contenu détecte les modifications non autorisées des titres, des canoniques, des en-têtes</text>
 </svg>

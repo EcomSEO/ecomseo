@@ -1,30 +1,30 @@
 <svg viewBox="0 0 480 240" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <text x="240" y="22" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#a78bfa">Redirect Strategy for Pruned Pages</text>
+  <text x="240" y="22" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#a78bfa">Strategia di reindirizzamento per le pagine eliminate</text>
   <!-- Correct: single hop -->
-  <text x="240" y="50" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#4ade80">Correct: Single Hop 301</text>
+  <text x="240" y="50" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#4ade80">Corretto: Single Hop 301</text>
   <rect x="30" y="60" width="100" height="35" rx="6" fill="#ef4444" opacity="0.1" stroke="#ef4444" stroke-width="1.2"/>
-  <text x="80" y="82" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Old Page A</text>
+  <text x="80" y="82" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Vecchia pagina A</text>
   <line x1="130" y1="78" x2="230" y2="78" stroke="#4ade80" stroke-width="2" marker-end="url(#arrRd)"/>
   <text x="180" y="72" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#4ade80">301</text>
   <rect x="230" y="60" width="130" height="35" rx="6" fill="#4ade80" opacity="0.15" stroke="#4ade80" stroke-width="1.5"/>
   <text x="295" y="82" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#4ade80">Target Page (90-99% equity)</text>
   <!-- Wrong: chain -->
-  <text x="240" y="120" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#ef4444">Wrong: Redirect Chain</text>
+  <text x="240" y="120" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#ef4444">Sbagliato: catena di reindirizzamento</text>
   <rect x="10" y="130" width="85" height="35" rx="6" fill="#ef4444" opacity="0.1" stroke="#ef4444" stroke-width="1.2"/>
-  <text x="52" y="152" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Page A</text>
+  <text x="52" y="152" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">pagina a</text>
   <line x1="95" y1="148" x2="135" y2="148" stroke="#ef4444" stroke-width="1.5" marker-end="url(#arrRdR)"/>
   <rect x="135" y="130" width="85" height="35" rx="6" fill="#ef4444" opacity="0.1" stroke="#ef4444" stroke-width="1.2"/>
-  <text x="177" y="152" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Page B</text>
+  <text x="177" y="152" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">pagina B</text>
   <line x1="220" y1="148" x2="260" y2="148" stroke="#ef4444" stroke-width="1.5" marker-end="url(#arrRdR)"/>
   <rect x="260" y="130" width="85" height="35" rx="6" fill="#ef4444" opacity="0.1" stroke="#ef4444" stroke-width="1.2"/>
-  <text x="302" y="152" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Page C</text>
+  <text x="302" y="152" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Pagina C</text>
   <line x1="345" y1="148" x2="385" y2="148" stroke="#ef4444" stroke-width="1.5" marker-end="url(#arrRdR)"/>
   <rect x="385" y="130" width="85" height="35" rx="6" fill="#f97316" opacity="0.15" stroke="#f97316" stroke-width="1.2"/>
   <text x="427" y="152" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#f97316">Target</text>
-  <text x="240" y="185" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#ef4444">Each hop loses equity + adds latency</text>
+  <text x="240" y="185" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#ef4444">Ogni hop perde equità + aggiunge latenza</text>
   <!-- Decision guide -->
   <rect x="40" y="200" width="400" height="30" rx="6" fill="none" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="4"/>
-  <text x="240" y="220" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Server-level redirects (.htaccess / nginx) | Test every redirect post-deploy</text>
+  <text x="240" y="220" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Reindirizzamenti a livello di server (.htaccess / nginx) | Testare ogni reindirizzamento post-distribuzione</text>
   <defs>
     <marker id="arrRd" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8Z" fill="#4ade80"/></marker>
     <marker id="arrRdR" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8Z" fill="#ef4444"/></marker>

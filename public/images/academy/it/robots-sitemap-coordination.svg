@@ -1,44 +1,44 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 320" fill="none">
   <!-- Title -->
-  <text x="340" y="24" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="700" fill="#a78bfa">Robots.txt + Sitemaps: Coordinated Crawl Control</text>
+  <text x="340" y="24" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="700" fill="#a78bfa">Robots.txt + Sitemap: controllo coordinato della scansione</text>
 
   <!-- Robots.txt block -->
   <rect x="30" y="50" width="280" height="240" rx="10" stroke="#ef4444" stroke-width="1.5" fill="none"/>
-  <text x="170" y="74" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="700" fill="#ef4444">robots.txt — Block</text>
-  <text x="170" y="90" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#94a3b8">"What NOT to crawl"</text>
+  <text x="170" y="74" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="700" fill="#ef4444">robots.txt — Blocco</text>
+  <text x="170" y="90" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#94a3b8">"Cosa NON strisciare"</text>
 
   <text x="50" y="116" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Disallow: /cart</text>
   <text x="50" y="136" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Disallow: /checkout</text>
-  <text x="50" y="156" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Disallow: /account</text>
+  <text x="50" y="156" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Non consentire: /account</text>
   <text x="50" y="176" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Disallow: /search</text>
   <text x="50" y="196" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Disallow: /*?sort=</text>
-  <text x="50" y="216" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Disallow: /*?filter=</text>
+  <text x="50" y="216" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Disallow: /*?filter= Non consentire: /*?filtro</text>
   <text x="50" y="236" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Disallow: /*?sid=</text>
 
   <rect x="50" y="250" width="240" height="28" rx="4" stroke="#60a5fa" stroke-width="1" fill="none"/>
-  <text x="170" y="268" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#60a5fa">Sitemap: /sitemap.xml</text>
+  <text x="170" y="268" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#60a5fa">Mappa del sito: /sitemap.xml</text>
 
   <!-- Sitemap block -->
   <rect x="370" y="50" width="280" height="240" rx="10" stroke="#4ade80" stroke-width="1.5" fill="none"/>
-  <text x="510" y="74" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="700" fill="#4ade80">XML Sitemap — Prioritize</text>
-  <text x="510" y="90" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#94a3b8">"What TO crawl first"</text>
+  <text x="510" y="74" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="700" fill="#4ade80">Mappa del sito XML — Assegna priorità</text>
+  <text x="510" y="90" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#94a3b8">"cosa strisciare per primo"</text>
 
   <rect x="390" y="106" width="240" height="36" rx="4" stroke="#4ade80" stroke-width="1" fill="none"/>
   <text x="510" y="121" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="700" fill="#4ade80">sitemap-products.xml</text>
-  <text x="510" y="135" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">30,000 product URLs + lastmod</text>
+  <text x="510" y="135" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">30.000 URL di prodotto + lastmod</text>
 
   <rect x="390" y="150" width="240" height="36" rx="4" stroke="#4ade80" stroke-width="1" fill="none"/>
   <text x="510" y="165" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="700" fill="#4ade80">sitemap-categories.xml</text>
-  <text x="510" y="179" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">200 category URLs</text>
+  <text x="510" y="179" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">200 URL di categoria</text>
 
   <rect x="390" y="194" width="240" height="36" rx="4" stroke="#60a5fa" stroke-width="1" fill="none"/>
   <text x="510" y="209" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="700" fill="#60a5fa">sitemap-blog.xml</text>
-  <text x="510" y="223" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">150 blog post URLs</text>
+  <text x="510" y="223" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">150 URL di post di blog</text>
 
   <rect x="390" y="238" width="240" height="36" rx="4" stroke="#94a3b8" stroke-width="1" fill="none"/>
   <text x="510" y="253" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="700" fill="#94a3b8">sitemap-pages.xml</text>
-  <text x="510" y="267" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">20 static page URLs</text>
+  <text x="510" y="267" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">20 URL di pagina statici</text>
 
   <!-- Warning -->
-  <text x="340" y="308" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="700" fill="#f97316">Rule: Zero overlap between robots.txt Disallow and sitemap URLs</text>
+  <text x="340" y="308" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="700" fill="#f97316">Regola: Zero sovrapposizioni tra gli URL robots.txt Disallow e sitemap</text>
 </svg>

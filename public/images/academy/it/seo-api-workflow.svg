@@ -1,39 +1,39 @@
 <svg viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg" fill="none">
-  <text x="200" y="20" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#a78bfa">API-Driven SEO Workflow</text>
+  <text x="200" y="20" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#a78bfa">Flusso di lavoro SEO basato su API</text>
   <!-- Data extraction -->
   <rect x="20" y="38" width="100" height="55" rx="6" stroke="#60a5fa" stroke-width="1.5"/>
-  <text x="70" y="55" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#60a5fa">Extract</text>
-  <text x="70" y="68" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">GSC API</text>
+  <text x="70" y="55" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#60a5fa">Estratto</text>
+  <text x="70" y="68" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">API GSC</text>
   <text x="70" y="78" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">GA4 API</text>
-  <text x="70" y="88" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">Platform API</text>
+  <text x="70" y="88" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">API della piattaforma</text>
   <path d="M125 65 L145 65" stroke="#60a5fa" stroke-width="1.5" marker-end="url(#arW1)"/>
   <!-- Merge & Score -->
   <rect x="150" y="38" width="100" height="55" rx="6" stroke="#a78bfa" stroke-width="1.5"/>
-  <text x="200" y="55" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#a78bfa">Merge &amp; Score</text>
-  <text x="200" y="68" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">Traffic potential</text>
-  <text x="200" y="78" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">Revenue value</text>
-  <text x="200" y="88" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">Optimization gap</text>
+  <text x="200" y="55" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#a78bfa">Unisci e segna</text>
+  <text x="200" y="68" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">Potenziale di traffico</text>
+  <text x="200" y="78" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">Valore dei ricavi</text>
+  <text x="200" y="88" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">Gap di ottimizzazione</text>
   <path d="M255 65 L275 65" stroke="#a78bfa" stroke-width="1.5" marker-end="url(#arW2)"/>
   <!-- Automate -->
   <rect x="280" y="38" width="105" height="55" rx="6" stroke="#4ade80" stroke-width="1.5"/>
-  <text x="332" y="55" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#4ade80">Automate</text>
-  <text x="332" y="68" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">Meta tag updates</text>
-  <text x="332" y="78" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">Redirect creation</text>
-  <text x="332" y="88" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">Content freshness</text>
+  <text x="332" y="55" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#4ade80">Automatizza </text>
+  <text x="332" y="68" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">Aggiornamenti meta tag</text>
+  <text x="332" y="78" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">Creazione reindirizzamento</text>
+  <text x="332" y="88" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">Freschezza dei contenuti</text>
   <!-- Automated actions -->
-  <text x="200" y="115" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#e2e8f0">Automated Actions</text>
+  <text x="200" y="115" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#e2e8f0">Azioni automatizzate</text>
   <rect x="15" y="125" width="115" height="30" rx="4" stroke="#4ade80" stroke-width="1" stroke-dasharray="3"/>
-  <text x="72" y="138" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#4ade80">Product discontinued?</text>
-  <text x="72" y="150" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">Auto 301 redirect</text>
+  <text x="72" y="138" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#4ade80">(prodotto&amp;#10;&lt;x id="1"/&gt;fuori produzione)</text>
+  <text x="72" y="150" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">Reindirizzamento automatico 301</text>
   <rect x="142" y="125" width="115" height="30" rx="4" stroke="#f97316" stroke-width="1" stroke-dasharray="3"/>
-  <text x="199" y="138" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#f97316">Price changed?</text>
-  <text x="199" y="150" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">Sync schema + page</text>
+  <text x="199" y="138" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#f97316">Prezzo modificato dal</text>
+  <text x="199" y="150" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">Sincronizza schema + pagina</text>
   <rect x="270" y="125" width="115" height="30" rx="4" stroke="#60a5fa" stroke-width="1" stroke-dasharray="3"/>
-  <text x="327" y="138" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#60a5fa">Multi-channel?</text>
-  <text x="327" y="150" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">Propagate to Amazon</text>
+  <text x="327" y="138" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#60a5fa">Multi-canale</text>
+  <text x="327" y="150" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">Propaga su Amazon</text>
   <!-- Note -->
-  <text x="200" y="178" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#f97316">Start small: one workflow solving your biggest pain point</text>
-  <text x="200" y="192" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#94a3b8">Then expand to full automation stack</text>
+  <text x="200" y="178" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#f97316">Inizia in piccolo: un flusso di lavoro che risolve il tuo più grande punto dolente</text>
+  <text x="200" y="192" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#94a3b8">Quindi espandi fino allo stack di automazione completo</text>
   <defs>
     <marker id="arW1" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6" fill="#60a5fa"/></marker>
     <marker id="arW2" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6" fill="#a78bfa"/></marker>
