@@ -1,25 +1,25 @@
 <svg viewBox="0 0 420 200" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <text x="210" y="22" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#a78bfa">Post de invitado Link Flow Strategy</text>
+  <text x="210" y="22" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#a78bfa">Estrategia de flujo de enlaces de publicaciones de invitados</text>
   <rect x="30" y="50" rx="8" width="110" height="52" stroke="#60a5fa" stroke-width="1.5" fill="none"/>
-  <text x="85" y="70" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#60a5fa">Post de invitado</text>
-  <text x="85" y="86" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">On host blog</text>
-  <text x="85" y="96" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">(DR 50+)</text>
+  <text x="85" y="70" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#60a5fa">Publicación de invitado</text>
+  <text x="85" y="86" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">En el blog anfitrión</text>
+  <text x="85" y="96" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">(RD 50+)</text>
   <path d="M142 76 L172 76" stroke="#4ade80" stroke-width="1.5" marker-end="url(#arr3)"/>
-  <text x="157" y="70" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#4ade80">link</text>
+  <text x="157" y="70" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#4ade80">enlace</text>
   <rect x="175" y="50" rx="8" width="110" height="52" stroke="#4ade80" stroke-width="1.5" fill="none"/>
-  <text x="230" y="70" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#4ade80">Your Guide</text>
-  <text x="230" y="86" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Guía de compra or</text>
-  <text x="230" y="96" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">research page</text>
+  <text x="230" y="70" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#4ade80">Tu guía</text>
+  <text x="230" y="86" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Guía de compra o</text>
+  <text x="230" y="96" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">pagina de investigacion</text>
   <path d="M287 76 L317 76" stroke="#f97316" stroke-width="1.5" marker-end="url(#arr3)"/>
-  <text x="302" y="70" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#f97316">internal</text>
+  <text x="302" y="70" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#f97316">interno</text>
   <rect x="320" y="50" rx="8" width="80" height="52" stroke="#f97316" stroke-width="1.5" fill="none"/>
   <text x="360" y="70" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#f97316">Producto</text>
   <text x="360" y="86" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Comercial</text>
-  <text x="360" y="96" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">pages</text>
+  <text x="360" y="96" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">paginas</text>
   <rect x="50" y="120" rx="6" width="320" height="28" stroke="#ef4444" stroke-width="1.5" fill="none"/>
-  <text x="210" y="139" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#ef4444">Direct guest post link to product page = feels forced, often rejected</text>
+  <text x="210" y="139" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#ef4444">Enlace directo de la publicación de invitado a la página del producto = se siente forzado, a menudo rechazado</text>
   <rect x="50" y="156" rx="6" width="320" height="28" stroke="#4ade80" stroke-width="1.5" fill="none"/>
-  <text x="210" y="175" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#4ade80">Link to info content that internally links to products = natural, accepted</text>
+  <text x="210" y="175" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#4ade80">Enlace a contenido informativo que enlaza internamente con productos = natural, aceptado</text>
   <defs>
     <marker id="arr3" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
       <path d="M0,0 L6,3 L0,6" fill="none" stroke="#4ade80" stroke-width="1"/>
