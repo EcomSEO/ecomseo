@@ -7,7 +7,7 @@
   <text x="365" y="50" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#f97316">SEOPress</text>
   <line x1="20" y1="56" x2="400" y2="56" stroke="#e2e8f0" stroke-width="0.5" opacity="0.3"/>
   <!-- Rows -->
-  <text x="65" y="74" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">Product Schema</text>
+  <text x="65" y="74" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">Schema del prodotto</text>
   <text x="175" y="74" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#4ade80">Premium</text>
   <text x="270" y="74" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#4ade80">Free</text>
   <text x="365" y="74" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#4ade80">Free</text>
@@ -25,7 +25,7 @@
   <text x="365" y="122" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#4ade80">Free</text>
   <line x1="20" y1="128" x2="400" y2="128" stroke="#e2e8f0" stroke-width="0.3" opacity="0.2"/>
 
-  <text x="65" y="146" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">Search Console</text>
+  <text x="65" y="146" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">Console di ricerca</text>
   <text x="175" y="146" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#ef4444">No</text>
   <text x="270" y="146" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#4ade80">Free</text>
   <text x="365" y="146" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#ef4444">No</text>

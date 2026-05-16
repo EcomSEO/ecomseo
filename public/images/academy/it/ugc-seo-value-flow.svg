@@ -2,9 +2,9 @@
   <text x="240" y="22" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#a78bfa">How UGC Drives SEO Value</text>
   <!-- UGC types on left -->
   <rect x="20" y="50" width="120" height="30" rx="6" fill="#a78bfa" opacity="0.15" stroke="#a78bfa" stroke-width="1.2"/>
-  <text x="80" y="70" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#a78bfa">Reviews</text>
+  <text x="80" y="70" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#a78bfa">Recensioni</text>
   <rect x="20" y="90" width="120" height="30" rx="6" fill="#60a5fa" opacity="0.15" stroke="#60a5fa" stroke-width="1.2"/>
-  <text x="80" y="110" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#60a5fa">Q&amp;A Sections</text>
+  <text x="80" y="110" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#60a5fa">Q&amp;amp;A Sections</text>
   <rect x="20" y="130" width="120" height="30" rx="6" fill="#4ade80" opacity="0.15" stroke="#4ade80" stroke-width="1.2"/>
   <text x="80" y="150" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#4ade80">Customer Photos</text>
   <!-- Arrows to center -->
@@ -13,14 +13,14 @@
   <line x1="140" y1="145" x2="190" y2="105" stroke="#4ade80" stroke-width="1.2"/>
   <!-- Center: Product Page -->
   <rect x="190" y="75" width="100" height="60" rx="10" fill="#a78bfa" opacity="0.2" stroke="#a78bfa" stroke-width="2"/>
-  <text x="240" y="100" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#a78bfa">Product</text>
+  <text x="240" y="100" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#a78bfa">Prodotto</text>
   <text x="240" y="115" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#a78bfa">Page</text>
   <!-- SEO outputs on right -->
   <line x1="290" y1="85" x2="340" y2="60" stroke="#e2e8f0" stroke-width="1.2"/>
   <line x1="290" y1="100" x2="340" y2="100" stroke="#e2e8f0" stroke-width="1.2"/>
   <line x1="290" y1="115" x2="340" y2="140" stroke="#e2e8f0" stroke-width="1.2"/>
   <line x1="290" y1="125" x2="340" y2="180" stroke="#e2e8f0" stroke-width="1.2"/>
-  <text x="350" y="64" font-family="Arial,sans-serif" font-size="10" fill="#4ade80">Unique content</text>
+  <text x="350" y="64" font-family="Arial,sans-serif" font-size="10" fill="#4ade80">Contenuti unici</text>
   <text x="350" y="104" font-family="Arial,sans-serif" font-size="10" fill="#60a5fa">Long-tail keywords</text>
   <text x="350" y="144" font-family="Arial,sans-serif" font-size="10" fill="#f97316">Freshness signals</text>
   <text x="350" y="184" font-family="Arial,sans-serif" font-size="10" fill="#a78bfa">Rich snippets (stars)</text>
