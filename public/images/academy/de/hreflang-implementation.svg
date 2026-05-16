@@ -1,30 +1,30 @@
 <svg viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg" fill="none">
-  <text x="200" y="20" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#a78bfa">Hreflang Bidirectional Links</text>
+  <text x="200" y="20" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#a78bfa">Bidirektionale Hreflang-Links</text>
   <!-- Page A (English) -->
   <rect x="30" y="45" width="130" height="55" rx="6" stroke="#60a5fa" stroke-width="1.5"/>
-  <text x="95" y="62" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#60a5fa">English Page</text>
-  <text x="95" y="76" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">hreflang="en"</text>
+  <text x="95" y="62" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#60a5fa">Englische Seite</text>
+  <text x="95" y="76" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">hreflang="de"</text>
   <text x="95" y="88" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#94a3b8">shop.com/product-a</text>
   <!-- Page B (German) -->
   <rect x="240" y="45" width="130" height="55" rx="6" stroke="#4ade80" stroke-width="1.5"/>
-  <text x="305" y="62" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#4ade80">German Page</text>
+  <text x="305" y="62" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#4ade80">Deutsche Seite</text>
   <text x="305" y="76" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">hreflang="de"</text>
   <text x="305" y="88" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#94a3b8">shop.com/de/product-a</text>
   <!-- Bidirectional arrows -->
   <path d="M165 60 L235 60" stroke="#a78bfa" stroke-width="1.5" marker-end="url(#arH1)"/>
   <path d="M235 85 L165 85" stroke="#a78bfa" stroke-width="1.5" marker-end="url(#arH2)"/>
-  <text x="200" y="55" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#a78bfa">references de</text>
-  <text x="200" y="95" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#a78bfa">references en back</text>
+  <text x="200" y="55" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#a78bfa">Referenzen de</text>
+  <text x="200" y="95" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#a78bfa">Referenzen zurück</text>
   <!-- Self-reference note -->
   <path d="M55 105 C55 118, 55 118, 55 105" stroke="#60a5fa" stroke-width="1" fill="none"/>
-  <text x="95" y="118" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#60a5fa">+ self-referencing hreflang</text>
+  <text x="95" y="118" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#60a5fa">+ selbstreferenzierender Hreflang</text>
   <!-- x-default -->
   <rect x="140" y="130" width="120" height="30" rx="5" stroke="#f97316" stroke-width="1.5"/>
-  <text x="200" y="149" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#f97316">x-default fallback</text>
+  <text x="200" y="149" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#f97316">x-Standard-Fallback</text>
   <path d="M155 130 L95 105" stroke="#f97316" stroke-width="1" stroke-dasharray="3"/>
   <!-- Common errors -->
-  <text x="200" y="178" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#ef4444">Common Error: Missing return tags = ignored by Google</text>
-  <text x="200" y="192" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">Use XML sitemaps for stores with 1000s of products across languages</text>
+  <text x="200" y="178" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#ef4444">Häufiger Fehler: Fehlende Rückgabe-Tags = von Google ignoriert</text>
+  <text x="200" y="192" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">Verwenden Sie XML-Sitemaps für Geschäfte mit Tausenden von Produkten in verschiedenen Sprachen</text>
   <defs>
     <marker id="arH1" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6" fill="#a78bfa"/></marker>
     <marker id="arH2" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6" fill="#a78bfa"/></marker>

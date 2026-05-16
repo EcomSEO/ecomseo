@@ -1,40 +1,40 @@
 <svg viewBox="0 0 420 230" xmlns="http://www.w3.org/2000/svg" fill="none">
-  <text x="210" y="18" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#a78bfa">Multi-Angle Category Architecture</text>
+  <text x="210" y="18" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#a78bfa">Architettura di categoria multi-angolo</text>
   <!-- Three navigation angles -->
   <rect x="15" y="35" width="120" height="70" rx="6" fill="#a78bfa" opacity="0.12" stroke="#a78bfa" stroke-width="1.5"/>
-  <text x="75" y="52" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#a78bfa" font-weight="bold">By Room</text>
-  <text x="75" y="66" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">Living Room</text>
-  <text x="75" y="77" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">Kitchen</text>
-  <text x="75" y="88" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">Outdoor</text>
-  <text x="75" y="99" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">Bathroom</text>
+  <text x="75" y="52" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#a78bfa" font-weight="bold">Per stanza</text>
+  <text x="75" y="66" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">Soggiorno</text>
+  <text x="75" y="77" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">Cucina</text>
+  <text x="75" y="88" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">All'aperto</text>
+  <text x="75" y="99" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">Bagno</text>
   <rect x="150" y="35" width="120" height="70" rx="6" fill="#60a5fa" opacity="0.12" stroke="#60a5fa" stroke-width="1.5"/>
-  <text x="210" y="52" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#60a5fa" font-weight="bold">By Project</text>
-  <text x="210" y="66" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">Renovation</text>
-  <text x="210" y="77" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">Decoration</text>
-  <text x="210" y="88" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">Organization</text>
-  <text x="210" y="99" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">Gardening</text>
+  <text x="210" y="52" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#60a5fa" font-weight="bold">Per progetto</text>
+  <text x="210" y="66" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">Ristrutturazione</text>
+  <text x="210" y="77" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">Decorazione</text>
+  <text x="210" y="88" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">Organizzazione</text>
+  <text x="210" y="99" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">Giardinaggio</text>
   <rect x="285" y="35" width="120" height="70" rx="6" fill="#4ade80" opacity="0.12" stroke="#4ade80" stroke-width="1.5"/>
-  <text x="345" y="52" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#4ade80" font-weight="bold">By Category</text>
-  <text x="345" y="66" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">Furniture</text>
-  <text x="345" y="77" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">Lighting</text>
-  <text x="345" y="88" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">Textiles</text>
-  <text x="345" y="99" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">Tools</text>
+  <text x="345" y="52" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#4ade80" font-weight="bold">Per categoria</text>
+  <text x="345" y="66" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">Mobilia</text>
+  <text x="345" y="77" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">Illuminazione</text>
+  <text x="345" y="88" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">Tessili</text>
+  <text x="345" y="99" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">Utensili</text>
   <!-- Cross-links -->
   <line x1="135" y1="70" x2="150" y2="70" stroke="#a78bfa" stroke-width="1" stroke-dasharray="3,2"/>
   <line x1="270" y1="70" x2="285" y2="70" stroke="#a78bfa" stroke-width="1" stroke-dasharray="3,2"/>
-  <text x="210" y="118" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#a78bfa">Cross-linked between all navigation angles</text>
+  <text x="210" y="118" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#a78bfa">Cross-linked tra tutti gli angoli di navigazione</text>
   <!-- Mission-based pages -->
-  <text x="210" y="142" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#f97316" font-weight="bold">Cross-Category Mission Pages</text>
+  <text x="210" y="142" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#f97316" font-weight="bold">Pagine di missione multicategoria</text>
   <rect x="30" y="152" width="105" height="35" rx="4" fill="#f97316" opacity="0.1" stroke="#f97316" stroke-width="1"/>
-  <text x="82" y="166" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#f97316" font-weight="bold">Complete Patio Setup</text>
-  <text x="82" y="179" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">Furniture + Lighting + Plants</text>
+  <text x="82" y="166" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#f97316" font-weight="bold">Completa l'installazione del patio</text>
+  <text x="82" y="179" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">Mobili + Illuminazione + Piante</text>
   <rect x="150" y="152" width="120" height="35" rx="4" fill="#f97316" opacity="0.1" stroke="#f97316" stroke-width="1"/>
-  <text x="210" y="166" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#f97316" font-weight="bold">Home Office Essentials</text>
-  <text x="210" y="179" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">Desk + Chair + Lighting + Storage</text>
+  <text x="210" y="166" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#f97316" font-weight="bold">Elementi essenziali per l'ufficio domestico</text>
+  <text x="210" y="179" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">Scrivania + Sedia + Illuminazione + Portaoggetti</text>
   <rect x="285" y="152" width="105" height="35" rx="4" fill="#f97316" opacity="0.1" stroke="#f97316" stroke-width="1"/>
-  <text x="337" y="166" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#f97316" font-weight="bold">Cozy Bedroom Refresh</text>
-  <text x="337" y="179" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">Textiles + Lighting + Decor</text>
+  <text x="337" y="166" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#f97316" font-weight="bold">Rinfresco della camera da letto accogliente</text>
+  <text x="337" y="179" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">Tessili + Illuminazione + Arredamento</text>
   <!-- Breadcrumb example -->
   <rect x="60" y="198" width="300" height="22" rx="4" fill="#4ade80" opacity="0.08" stroke="#4ade80" stroke-width="1"/>
-  <text x="210" y="213" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">BreadcrumbList: Home &gt; Outdoor &gt; Patio Furniture &gt; Dining Sets</text>
+  <text x="210" y="213" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">Elenco breadcrumb: Home &amp;gt; All'aperto &amp;gt; Mobili da giardino &amp;gt; Set da pranzo</text>
 </svg>

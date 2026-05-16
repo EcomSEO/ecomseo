@@ -1,41 +1,41 @@
 <svg viewBox="0 0 420 230" xmlns="http://www.w3.org/2000/svg" fill="none">
-  <text x="210" y="18" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#a78bfa">Ingredient-Based Search Strategy</text>
+  <text x="210" y="18" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#a78bfa">Zutatenbasierte Suchstrategie</text>
   <!-- Left: Informational -->
   <rect x="15" y="40" width="120" height="75" rx="6" fill="#60a5fa" opacity="0.12" stroke="#60a5fa" stroke-width="1.5"/>
-  <text x="75" y="58" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#60a5fa" font-weight="bold">Informational</text>
-  <text x="75" y="74" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">"what is niacinamide"</text>
-  <text x="75" y="86" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">"retinol benefits"</text>
-  <text x="75" y="98" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">"hyaluronic acid for skin"</text>
-  <text x="75" y="110" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#60a5fa">Ingredient guide pages</text>
+  <text x="75" y="58" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#60a5fa" font-weight="bold">Informativ</text>
+  <text x="75" y="74" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">„Was ist Niacinamid“</text>
+  <text x="75" y="86" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">„Vorteile von Retinol“</text>
+  <text x="75" y="98" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">„Hyaluronsäure für die Haut“</text>
+  <text x="75" y="110" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#60a5fa">Seiten mit Zutatenführern</text>
   <!-- Arrow -->
   <line x1="135" y1="77" x2="150" y2="77" stroke="#a78bfa" stroke-width="1.5"/>
   <polygon points="148,73 156,77 148,81" fill="#a78bfa"/>
   <!-- Center: Landing page hub -->
   <rect x="150" y="40" width="120" height="75" rx="6" fill="#a78bfa" opacity="0.15" stroke="#a78bfa" stroke-width="1.5"/>
-  <text x="210" y="58" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#a78bfa" font-weight="bold">Ingredient Hub</text>
-  <text x="210" y="74" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">What it does</text>
-  <text x="210" y="86" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">Who it benefits</text>
-  <text x="210" y="98" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">How to use</text>
-  <text x="210" y="110" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#a78bfa">+ Product grid below</text>
+  <text x="210" y="58" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#a78bfa" font-weight="bold">Zutaten-Hub</text>
+  <text x="210" y="74" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">Was es bewirkt</text>
+  <text x="210" y="86" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">Wem es nützt</text>
+  <text x="210" y="98" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">Wie zu verwenden</text>
+  <text x="210" y="110" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#a78bfa">+ Produktraster unten</text>
   <!-- Arrow -->
   <line x1="270" y1="77" x2="285" y2="77" stroke="#4ade80" stroke-width="1.5"/>
   <polygon points="283,73 291,77 283,81" fill="#4ade80"/>
   <!-- Right: Commercial -->
   <rect x="285" y="40" width="120" height="75" rx="6" fill="#4ade80" opacity="0.12" stroke="#4ade80" stroke-width="1.5"/>
-  <text x="345" y="58" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#4ade80" font-weight="bold">Commercial</text>
-  <text x="345" y="74" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">"niacinamide serum"</text>
-  <text x="345" y="86" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">"retinol moisturizer"</text>
-  <text x="345" y="98" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">"vitamin C serum buy"</text>
+  <text x="345" y="58" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#4ade80" font-weight="bold">Kommerziell</text>
+  <text x="345" y="74" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">„Niacinamid-Serum“</text>
+  <text x="345" y="86" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">„Retinol-Feuchtigkeitscreme“</text>
+  <text x="345" y="98" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">„Vitamin-C-Serum kaufen“</text>
   <text x="345" y="110" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#4ade80">Produktseiten</text>
   <!-- Trending section below -->
-  <text x="210" y="140" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#f97316" font-weight="bold">Emerging Ingredient Trends to Track</text>
+  <text x="210" y="140" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#f97316" font-weight="bold">Aufkommende Trends bei Inhaltsstoffen, die es zu verfolgen gilt</text>
   <rect x="25" y="152" width="80" height="28" rx="4" fill="#f97316" opacity="0.1" stroke="#f97316" stroke-width="1"/>
   <text x="65" y="170" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">Bakuchiol</text>
   <rect x="115" y="152" width="80" height="28" rx="4" fill="#f97316" opacity="0.1" stroke="#f97316" stroke-width="1"/>
-  <text x="155" y="170" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">Peptides</text>
+  <text x="155" y="170" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">Peptide</text>
   <rect x="205" y="152" width="80" height="28" rx="4" fill="#f97316" opacity="0.1" stroke="#f97316" stroke-width="1"/>
-  <text x="245" y="170" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">Tranexamic Acid</text>
+  <text x="245" y="170" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">Tranexamsäure</text>
   <rect x="295" y="152" width="100" height="28" rx="4" fill="#f97316" opacity="0.1" stroke="#f97316" stroke-width="1"/>
-  <text x="345" y="170" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">Mushroom Extracts</text>
-  <text x="210" y="200" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">Build pages for trending ingredients before competitors establish ranking positions</text>
+  <text x="345" y="170" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">Pilzextrakte</text>
+  <text x="210" y="200" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">Erstellen Sie Seiten für trendige Zutaten, bevor Konkurrenten Ranking-Positionen festlegen</text>
 </svg>
