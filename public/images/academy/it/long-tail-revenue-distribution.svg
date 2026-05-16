@@ -1,29 +1,29 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 300" fill="none">
-  <text x="340" y="24" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="700" fill="#a78bfa">Long-Tail Revenue Distribution</text>
+  <text x="340" y="24" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="700" fill="#a78bfa">Distribuzione dei ricavi a coda lunga</text>
   <!-- Axes -->
   <line x1="80" y1="250" x2="650" y2="250" stroke="#94a3b8" stroke-width="1"/>
   <line x1="80" y1="250" x2="80" y2="50" stroke="#94a3b8" stroke-width="1"/>
-  <text x="365" y="280" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#94a3b8">Keywords (sorted by search volume)</text>
-  <text x="30" y="150" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#94a3b8" transform="rotate(-90, 30, 150)">Search Volume</text>
+  <text x="365" y="280" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#94a3b8">Parole chiave (ordinate per volume di ricerca)</text>
+  <text x="30" y="150" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#94a3b8" transform="rotate(-90, 30, 150)">Volume di ricerca</text>
   <!-- Curve -->
   <path d="M85,70 Q120,75 140,110 Q160,145 200,180 Q260,210 350,230 Q450,242 550,246 Q600,248 645,249" stroke="#a78bfa" stroke-width="2.5" fill="none"/>
   <!-- Head term area -->
   <path d="M85,70 Q120,75 140,110 Q160,145 170,165 L170,250 L85,250 Z" fill="#ef4444" fill-opacity="0.12"/>
-  <text x="128" y="235" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="700" fill="#ef4444">Head</text>
-  <text x="128" y="100" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#ef4444">0.5-1%</text>
-  <text x="128" y="112" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#94a3b8">conv rate</text>
+  <text x="128" y="235" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="700" fill="#ef4444">Testa</text>
+  <text x="128" y="100" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#ef4444">0,5-1%</text>
+  <text x="128" y="112" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#94a3b8">tasso di conversione</text>
   <!-- Mid-tail area -->
   <path d="M170,165 Q200,195 260,220 L260,250 L170,250 Z" fill="#f97316" fill-opacity="0.1"/>
-  <text x="215" y="235" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="700" fill="#f97316">Mid-Tail</text>
+  <text x="215" y="235" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="700" fill="#f97316">Metà coda</text>
   <text x="215" y="185" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#f97316">2-4%</text>
   <!-- Long-tail area -->
   <path d="M260,220 Q350,238 450,244 Q550,248 645,249 L645,250 L260,250 Z" fill="#4ade80" fill-opacity="0.1"/>
-  <text x="450" y="235" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="700" fill="#4ade80">Long Tail (70-80% of all queries)</text>
-  <text x="400" y="212" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#4ade80">4-8% conv rate</text>
+  <text x="450" y="235" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="700" fill="#4ade80">Coda lunga (70-80% di tutte le query)</text>
+  <text x="400" y="212" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#4ade80">Tasso di conversione del 4-8%.</text>
   <!-- Annotations -->
   <rect x="420" y="55" width="230" height="60" rx="6" fill="#4ade80" fill-opacity="0.08" stroke="#4ade80" stroke-width="1"/>
-  <text x="535" y="74" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="600" fill="#4ade80">1,500 keywords x 80 searches</text>
+  <text x="535" y="74" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="600" fill="#4ade80">1.500 parole chiave x 80 ricerche</text>
   <text x="535" y="90" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">= 24,000 visits/mo at 20% CTR</text>
-  <text x="535" y="106" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="600" fill="#4ade80">= $90K/mo at 5% conv + $75 AOV</text>
-  <text x="340" y="296" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#94a3b8">Each product page captures 2-5 long-tail terms. 500 pages compound into a durable traffic asset.</text>
+  <text x="535" y="106" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="600" fill="#4ade80">= $ 90.000/mese al 5% di conversione + $ 75 AOV</text>
+  <text x="340" y="296" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#94a3b8">Ogni pagina di prodotto cattura da 2 a 5 termini a coda lunga. 500 pagine si compongono in una risorsa di traffico durevole.</text>
 </svg>

@@ -8,7 +8,7 @@
   <rect x="20" y="64" width="300" height="1" fill="#ef4444" fill-opacity="0.2"/>
   <text x="170" y="64" text-anchor="middle" fill="#ef4444" font-family="Arial,sans-serif" font-size="12" font-weight="700">FASE 1: Recupero HTML</text>
 
-  <text x="170" y="90" text-anchor="middle" fill="#64748b" font-family="Arial,sans-serif" font-size="10">Happens immediately</text>
+  <text x="170" y="90" text-anchor="middle" fill="#64748b" font-family="Arial,sans-serif" font-size="10">Succede immediatamente</text>
 
   <!-- What Google receives -->
   <rect x="40" y="105" width="260" height="50" rx="6" fill="#0f172a" stroke="#334155" stroke-width="1"/>

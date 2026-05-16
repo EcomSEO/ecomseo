@@ -1,15 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 240" fill="none">
-  <text x="210" y="22" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#a78bfa">URL Redirect Strategy for Migration</text>
+  <text x="210" y="22" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#a78bfa">URL-Umleitungsstrategie für die Migration</text>
   <!-- Old site column -->
-  <text x="85" y="48" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#ef4444">Old Platform</text>
+  <text x="85" y="48" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#ef4444">Alte Plattform</text>
   <rect x="20" y="56" width="130" height="24" rx="4" stroke="#ef4444" stroke-width="1" fill="none"/>
-  <text x="85" y="72" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">/category/shoes</text>
+  <text x="85" y="72" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">/Kategorie/Schuhe</text>
   <rect x="20" y="86" width="130" height="24" rx="4" stroke="#ef4444" stroke-width="1" fill="none"/>
   <text x="85" y="102" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">/product/blue-sneaker</text>
   <rect x="20" y="116" width="130" height="24" rx="4" stroke="#ef4444" stroke-width="1" fill="none"/>
   <text x="85" y="132" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">/blog/running-tips</text>
   <rect x="20" y="146" width="130" height="24" rx="4" stroke="#f97316" stroke-width="1" fill="none"/>
-  <text x="85" y="162" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">/discontinued-item</text>
+  <text x="85" y="162" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">/auslaufartikel</text>
 
   <!-- 301 arrows -->
   <text x="210" y="48" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#4ade80">301</text>
@@ -23,9 +23,9 @@
   <polygon points="266,125 272,128 266,131" fill="#f97316"/>
 
   <!-- New site column -->
-  <text x="335" y="48" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#4ade80">New Platform</text>
+  <text x="335" y="48" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#4ade80">Neue Plattform</text>
   <rect x="270" y="56" width="130" height="24" rx="4" stroke="#4ade80" stroke-width="1" fill="none"/>
-  <text x="335" y="72" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">/collections/shoes</text>
+  <text x="335" y="72" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">/Kollektionen/Schuhe</text>
   <rect x="270" y="86" width="130" height="24" rx="4" stroke="#4ade80" stroke-width="1" fill="none"/>
   <text x="335" y="102" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">/products/blue-sneaker</text>
   <rect x="270" y="116" width="130" height="24" rx="4" stroke="#4ade80" stroke-width="1" fill="none"/>
@@ -33,12 +33,12 @@
 
   <!-- Warning box -->
   <rect x="30" y="185" width="168" height="42" rx="6" stroke="#ef4444" stroke-width="1" fill="none"/>
-  <text x="114" y="200" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#ef4444">Avoid redirect chains</text>
-  <text x="114" y="212" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">A > B > C dilutes link equity</text>
-  <text x="114" y="222" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">and slows crawling</text>
+  <text x="114" y="200" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#ef4444">Vermeiden Sie Weiterleitungsketten</text>
+  <text x="114" y="212" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">A &gt; B &gt; C verwässert das Link-Equity</text>
+  <text x="114" y="222" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">und verlangsamt das Krabbeln</text>
 
   <rect x="222" y="185" width="168" height="42" rx="6" stroke="#4ade80" stroke-width="1" fill="none"/>
-  <text x="306" y="200" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#4ade80">Keep redirects permanent</text>
-  <text x="306" y="212" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">External links + bookmarks reference</text>
-  <text x="306" y="222" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">old URLs for months or years</text>
+  <text x="306" y="200" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#4ade80">Halten Sie Weiterleitungen dauerhaft aufrecht</text>
+  <text x="306" y="212" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">Externe Links + Lesezeichen-Referenz</text>
+  <text x="306" y="222" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">alte URLs für Monate oder Jahre</text>
 </svg>
