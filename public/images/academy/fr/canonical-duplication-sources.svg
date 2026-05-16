@@ -1,32 +1,32 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 300" fill="none">
   <!-- Title -->
-  <text x="340" y="24" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="700" fill="#a78bfa">5 URLs, 1 Product: Why Canonicals Matter</text>
+  <text x="340" y="24" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="700" fill="#a78bfa">5 URL, 1 produit : pourquoi les canoniques sont importants</text>
 
   <!-- Product box center -->
   <rect x="260" y="44" width="160" height="44" rx="10" stroke="#4ade80" stroke-width="2" fill="none"/>
-  <text x="340" y="63" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="700" fill="#4ade80">Blue Running Shoes</text>
-  <text x="340" y="78" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#94a3b8">Single product</text>
+  <text x="340" y="63" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="700" fill="#4ade80">Chaussures de course bleues</text>
+  <text x="340" y="78" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#94a3b8">Produit unique</text>
 
   <!-- URL boxes -->
   <rect x="10" y="120" width="130" height="50" rx="6" stroke="#60a5fa" stroke-width="1" fill="none"/>
-  <text x="75" y="140" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="700" fill="#60a5fa">Direct URL</text>
-  <text x="75" y="156" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">/products/blue-shoes</text>
+  <text x="75" y="140" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="700" fill="#60a5fa">URL directe</text>
+  <text x="75" y="156" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">/produits/chaussures-bleues</text>
 
   <rect x="148" y="120" width="130" height="50" rx="6" stroke="#f97316" stroke-width="1" fill="none"/>
-  <text x="213" y="140" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="700" fill="#f97316">Filter URL</text>
-  <text x="213" y="156" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">/shoes?color=blue</text>
+  <text x="213" y="140" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="700" fill="#f97316">Filtrer l'URL</text>
+  <text x="213" y="156" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">/chaussures?color=bleu</text>
 
   <rect x="286" y="120" width="130" height="50" rx="6" stroke="#f97316" stroke-width="1" fill="none"/>
-  <text x="351" y="140" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="700" fill="#f97316">Search URL</text>
-  <text x="351" y="156" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">/search?q=blue+shoes</text>
+  <text x="351" y="140" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="700" fill="#f97316">URL de recherche</text>
+  <text x="351" y="156" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">/search?q=bleu+chaussures</text>
 
   <rect x="424" y="120" width="130" height="50" rx="6" stroke="#f97316" stroke-width="1" fill="none"/>
-  <text x="489" y="140" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="700" fill="#f97316">UTM URL</text>
-  <text x="489" y="156" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">/blue-shoes?utm_src=em</text>
+  <text x="489" y="140" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="700" fill="#f97316">URL UTM</text>
+  <text x="489" y="156" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">/chaussures-bleues?utm_src=em</text>
 
   <rect x="562" y="120" width="110" height="50" rx="6" stroke="#f97316" stroke-width="1" fill="none"/>
-  <text x="617" y="140" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="700" fill="#f97316">Session URL</text>
-  <text x="617" y="156" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">/blue-shoes?sid=abc</text>
+  <text x="617" y="140" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="700" fill="#f97316">URL de la session</text>
+  <text x="617" y="156" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">/chaussures-bleues?sid=abc</text>
 
   <!-- Arrows from product to URLs -->
   <line x1="300" y1="88" x2="75" y2="118" stroke="#60a5fa" stroke-width="1" stroke-dasharray="4"/>
@@ -36,7 +36,7 @@
   <line x1="380" y1="88" x2="617" y2="118" stroke="#f97316" stroke-width="1" stroke-dasharray="4"/>
 
   <!-- Canonical arrows -->
-  <text x="340" y="200" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="700" fill="#a78bfa">rel="canonical"</text>
+  <text x="340" y="200" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="700" fill="#a78bfa">rel="canonique"</text>
   <line x1="213" y1="170" x2="105" y2="210" stroke="#4ade80" stroke-width="1.5"/>
   <polygon points="102,205 105,215 112,208" fill="#4ade80"/>
   <line x1="351" y1="170" x2="105" y2="225" stroke="#4ade80" stroke-width="1.5"/>
@@ -45,9 +45,9 @@
 
   <!-- Canonical target -->
   <rect x="20" y="210" width="170" height="50" rx="8" stroke="#4ade80" stroke-width="2" fill="none"/>
-  <text x="105" y="232" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="700" fill="#4ade80">Canonical URL</text>
-  <text x="105" y="248" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">/products/blue-shoes</text>
+  <text x="105" y="232" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="700" fill="#4ade80">URL canonique</text>
+  <text x="105" y="248" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">/produits/chaussures-bleues</text>
 
   <!-- Result -->
-  <text x="340" y="288" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">All ranking signals consolidated to one URL</text>
+  <text x="340" y="288" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Tous les signaux de classement regroupés sur une seule URL</text>
 </svg>

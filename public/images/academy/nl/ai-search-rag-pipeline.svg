@@ -1,37 +1,37 @@
 <svg viewBox="0 0 420 190" xmlns="http://www.w3.org/2000/svg" fill="none">
-  <text x="210" y="20" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#a78bfa">RAG Pipeline: How AI Search Works</text>
+  <text x="210" y="20" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#a78bfa">RAG Pipeline: hoe AI-zoeken werkt</text>
   <!-- Query -->
   <rect x="10" y="42" width="80" height="40" rx="6" stroke="#60a5fa" stroke-width="1.5"/>
-  <text x="50" y="58" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#60a5fa">User Query</text>
-  <text x="50" y="72" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">"best hiking boot"</text>
+  <text x="50" y="58" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#60a5fa">Gebruikersquery</text>
+  <text x="50" y="72" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">"beste wandelschoen"</text>
   <path d="M95 62 L110 62" stroke="#60a5fa" stroke-width="1.5" marker-end="url(#arA)"/>
   <!-- Retrieval -->
   <rect x="115" y="42" width="90" height="40" rx="6" stroke="#a78bfa" stroke-width="1.5"/>
-  <text x="160" y="58" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#a78bfa">Retrieval</text>
-  <text x="160" y="72" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">Traditional signals</text>
+  <text x="160" y="58" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#a78bfa">Ophalen</text>
+  <text x="160" y="72" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">Traditionele signalen</text>
   <path d="M210 62 L225 62" stroke="#a78bfa" stroke-width="1.5" marker-end="url(#arB)"/>
   <!-- Candidate pool -->
   <rect x="230" y="42" width="80" height="40" rx="6" stroke="#f97316" stroke-width="1.5"/>
-  <text x="270" y="58" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#f97316">Candidate</text>
-  <text x="270" y="72" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">~50 documents</text>
+  <text x="270" y="58" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#f97316">Kandidaat</text>
+  <text x="270" y="72" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">~50 documenten</text>
   <path d="M315 62 L330 62" stroke="#f97316" stroke-width="1.5" marker-end="url(#arC)"/>
   <!-- LLM Synthesis -->
   <rect x="335" y="42" width="75" height="40" rx="6" stroke="#4ade80" stroke-width="1.5"/>
   <text x="372" y="58" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#4ade80">LLM</text>
-  <text x="372" y="72" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">Synthesis</text>
+  <text x="372" y="72" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">Synthese</text>
   <!-- What gets you cited -->
-  <text x="210" y="105" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#e2e8f0">Citation Selection Factors</text>
+  <text x="210" y="105" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#e2e8f0">Citatieselectiefactoren</text>
   <rect x="15" y="115" width="90" height="30" rx="4" stroke="#4ade80" stroke-width="1" stroke-dasharray="3"/>
-  <text x="60" y="134" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#4ade80">Topical Authority</text>
+  <text x="60" y="134" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#4ade80">Actuele autoriteit</text>
   <rect x="115" y="115" width="90" height="30" rx="4" stroke="#60a5fa" stroke-width="1" stroke-dasharray="3"/>
-  <text x="160" y="134" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#60a5fa">Gestructureerde data</text>
+  <text x="160" y="134" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#60a5fa">Gestructureerde gegevens</text>
   <rect x="215" y="115" width="90" height="30" rx="4" stroke="#a78bfa" stroke-width="1" stroke-dasharray="3"/>
-  <text x="260" y="134" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#a78bfa">First-Party Data</text>
+  <text x="260" y="134" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#a78bfa">Gegevens uit de eerste hand</text>
   <rect x="315" y="115" width="90" height="30" rx="4" stroke="#f97316" stroke-width="1" stroke-dasharray="3"/>
-  <text x="360" y="134" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#f97316">Factual Precision</text>
+  <text x="360" y="134" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#f97316">Feitelijke precisie</text>
   <!-- Output -->
   <rect x="100" y="158" width="220" height="25" rx="5" stroke="#4ade80" stroke-width="1.5"/>
-  <text x="210" y="175" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#4ade80">AI Answer cites 3-4 sources with your product page</text>
+  <text x="210" y="175" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#4ade80">AI Answer citeert 3-4 bronnen bij uw productpagina</text>
   <defs>
     <marker id="arA" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6" fill="#60a5fa"/></marker>
     <marker id="arB" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6" fill="#a78bfa"/></marker>

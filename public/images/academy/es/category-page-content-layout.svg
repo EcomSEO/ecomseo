@@ -6,11 +6,11 @@
 
   <!-- H1 -->
   <rect x="200" y="52" width="280" height="24" rx="4" fill="#1e1e3a" stroke="#a78bfa" stroke-width="1.5"/>
-  <text x="340" y="68" text-anchor="middle" fill="#a78bfa" font-family="Arial,sans-serif" font-size="10" font-weight="600">H1: Categoría Keyword</text>
+  <text x="340" y="68" text-anchor="middle" fill="#a78bfa" font-family="Arial,sans-serif" font-size="10" font-weight="600">H1: Palabra clave de categoría</text>
 
   <!-- Intro paragraph -->
   <rect x="200" y="82" width="280" height="28" rx="4" fill="#1e1e3a" stroke="#4ade80" stroke-width="1"/>
-  <text x="340" y="99" text-anchor="middle" fill="#4ade80" font-family="Arial,sans-serif" font-size="9" font-weight="600">Intro Paragraph (80-150 words)</text>
+  <text x="340" y="99" text-anchor="middle" fill="#4ade80" font-family="Arial,sans-serif" font-size="9" font-weight="600">Párrafo de introducción (80-150 palabras)</text>
 
   <!-- Cuadrícula de productos -->
   <rect x="200" y="118" width="280" height="100" rx="4" fill="#1e1e3a" stroke="#60a5fa" stroke-width="1.5"/>
@@ -23,28 +23,28 @@
 
   <!-- Content block below -->
   <rect x="200" y="226" width="280" height="44" rx="4" fill="#1e1e3a" stroke="#f97316" stroke-width="1.5"/>
-  <text x="340" y="245" text-anchor="middle" fill="#f97316" font-family="Arial,sans-serif" font-size="9" font-weight="600">Detailed Content Block (300-500 words)</text>
-  <text x="340" y="260" text-anchor="middle" fill="#94a3b8" font-family="Arial,sans-serif" font-size="8">Guía de compra, sizing, FAQ, comparisons</text>
+  <text x="340" y="245" text-anchor="middle" fill="#f97316" font-family="Arial,sans-serif" font-size="9" font-weight="600">Bloque de contenido detallado (300-500 palabras)</text>
+  <text x="340" y="260" text-anchor="middle" fill="#94a3b8" font-family="Arial,sans-serif" font-size="8">Guía de compra, tallas, preguntas frecuentes, comparativas</text>
 
   <!-- FAQ section -->
   <rect x="200" y="278" width="280" height="30" rx="4" fill="#1e1e3a" stroke="#a78bfa" stroke-width="1"/>
-  <text x="340" y="297" text-anchor="middle" fill="#a78bfa" font-family="Arial,sans-serif" font-size="9">Sección de FAQ (H2 + structured data)</text>
+  <text x="340" y="297" text-anchor="middle" fill="#a78bfa" font-family="Arial,sans-serif" font-size="9">Sección de preguntas frecuentes (H2 + datos estructurados)</text>
 
   <!-- Arrows with labels on left -->
-  <text x="170" y="99" text-anchor="end" fill="#4ade80" font-family="Arial,sans-serif" font-size="8">Above fold</text>
+  <text x="170" y="99" text-anchor="end" fill="#4ade80" font-family="Arial,sans-serif" font-size="8">Doblez superior</text>
   <line x1="174" y1="95" x2="198" y2="95" stroke="#4ade80" stroke-width="0.8"/>
 
-  <text x="170" y="170" text-anchor="end" fill="#60a5fa" font-family="Arial,sans-serif" font-size="8">Primary UX</text>
+  <text x="170" y="170" text-anchor="end" fill="#60a5fa" font-family="Arial,sans-serif" font-size="8">Experiencia de usuario primaria</text>
   <line x1="174" y1="166" x2="198" y2="166" stroke="#60a5fa" stroke-width="0.8"/>
 
-  <text x="170" y="250" text-anchor="end" fill="#f97316" font-family="Arial,sans-serif" font-size="8">SEO value</text>
+  <text x="170" y="250" text-anchor="end" fill="#f97316" font-family="Arial,sans-serif" font-size="8">Valor SEO</text>
   <line x1="174" y1="246" x2="198" y2="246" stroke="#f97316" stroke-width="0.8"/>
 
   <!-- Right side annotations -->
-  <text x="510" y="68" fill="#94a3b8" font-family="Arial,sans-serif" font-size="8">Matches search query</text>
-  <text x="510" y="99" fill="#94a3b8" font-family="Arial,sans-serif" font-size="8">Confirms relevance</text>
-  <text x="510" y="170" fill="#94a3b8" font-family="Arial,sans-serif" font-size="8">24-48 products per page</text>
-  <text x="510" y="250" fill="#94a3b8" font-family="Arial,sans-serif" font-size="8">Targets secondary keywords</text>
+  <text x="510" y="68" fill="#94a3b8" font-family="Arial,sans-serif" font-size="8">Coincide con la consulta de búsqueda</text>
+  <text x="510" y="99" fill="#94a3b8" font-family="Arial,sans-serif" font-size="8">Confirma relevancia</text>
+  <text x="510" y="170" fill="#94a3b8" font-family="Arial,sans-serif" font-size="8">24-48 productos por página</text>
+  <text x="510" y="250" fill="#94a3b8" font-family="Arial,sans-serif" font-size="8">Apunta a palabras clave secundarias</text>
 
-  <text x="340" y="334" text-anchor="middle" fill="#64748b" font-family="Arial,sans-serif" font-size="8">Content above + below the grid gives Google context without hurting the shopping experience</text>
+  <text x="340" y="334" text-anchor="middle" fill="#64748b" font-family="Arial,sans-serif" font-size="8">El contenido arriba + debajo de la cuadrícula brinda contexto a Google sin perjudicar la experiencia de compra.</text>
 </svg>

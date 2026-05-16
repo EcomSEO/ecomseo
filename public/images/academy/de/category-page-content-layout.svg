@@ -1,20 +1,20 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 340" fill="none">
-  <text x="340" y="24" text-anchor="middle" fill="#a78bfa" font-family="Arial,sans-serif" font-size="14" font-weight="700">Content-Layout einer Kategorieseite</text>
+  <text x="340" y="24" text-anchor="middle" fill="#a78bfa" font-family="Arial,sans-serif" font-size="14" font-weight="700">Inhaltslayout der Kategorieseite</text>
 
   <!-- Page outline -->
   <rect x="180" y="40" width="320" height="280" rx="8" fill="#1a1a2e" stroke="#334155" stroke-width="1"/>
 
   <!-- H1 -->
   <rect x="200" y="52" width="280" height="24" rx="4" fill="#1e1e3a" stroke="#a78bfa" stroke-width="1.5"/>
-  <text x="340" y="68" text-anchor="middle" fill="#a78bfa" font-family="Arial,sans-serif" font-size="10" font-weight="600">H1: Kategorie-Keyword</text>
+  <text x="340" y="68" text-anchor="middle" fill="#a78bfa" font-family="Arial,sans-serif" font-size="10" font-weight="600">H1: Kategorieschlüsselwort</text>
 
   <!-- Intro paragraph -->
   <rect x="200" y="82" width="280" height="28" rx="4" fill="#1e1e3a" stroke="#4ade80" stroke-width="1"/>
-  <text x="340" y="99" text-anchor="middle" fill="#4ade80" font-family="Arial,sans-serif" font-size="9" font-weight="600">Einleitungstext (80-150 Wörter)</text>
+  <text x="340" y="99" text-anchor="middle" fill="#4ade80" font-family="Arial,sans-serif" font-size="9" font-weight="600">Einleitungsabsatz (80–150 Wörter)</text>
 
   <!-- Product Grid -->
   <rect x="200" y="118" width="280" height="100" rx="4" fill="#1e1e3a" stroke="#60a5fa" stroke-width="1.5"/>
-  <text x="340" y="140" text-anchor="middle" fill="#60a5fa" font-family="Arial,sans-serif" font-size="10" font-weight="600">Produkt-Raster</text>
+  <text x="340" y="140" text-anchor="middle" fill="#60a5fa" font-family="Arial,sans-serif" font-size="10" font-weight="600">Produktraster</text>
   <rect x="215" y="150" width="50" height="50" rx="3" fill="none" stroke="#475569" stroke-width="0.8"/>
   <rect x="275" y="150" width="50" height="50" rx="3" fill="none" stroke="#475569" stroke-width="0.8"/>
   <rect x="335" y="150" width="50" height="50" rx="3" fill="none" stroke="#475569" stroke-width="0.8"/>
@@ -22,15 +22,15 @@
 
   <!-- Content block below -->
   <rect x="200" y="226" width="280" height="44" rx="4" fill="#1e1e3a" stroke="#f97316" stroke-width="1.5"/>
-  <text x="340" y="245" text-anchor="middle" fill="#f97316" font-family="Arial,sans-serif" font-size="9" font-weight="600">Ausführlicher Content-Block (300-500 Wörter)</text>
-  <text x="340" y="260" text-anchor="middle" fill="#94a3b8" font-family="Arial,sans-serif" font-size="8">Kaufratgeber, Größen, FAQ, Vergleiche</text>
+  <text x="340" y="245" text-anchor="middle" fill="#f97316" font-family="Arial,sans-serif" font-size="9" font-weight="600">Detaillierter Inhaltsblock (300–500 Wörter)</text>
+  <text x="340" y="260" text-anchor="middle" fill="#94a3b8" font-family="Arial,sans-serif" font-size="8">Kaufratgeber, Größenbestimmung, FAQ, Vergleiche</text>
 
   <!-- FAQ section -->
   <rect x="200" y="278" width="280" height="30" rx="4" fill="#1e1e3a" stroke="#a78bfa" stroke-width="1"/>
   <text x="340" y="297" text-anchor="middle" fill="#a78bfa" font-family="Arial,sans-serif" font-size="9">FAQ-Bereich (H2 + strukturierte Daten)</text>
 
   <!-- Arrows with labels on left -->
-  <text x="170" y="99" text-anchor="end" fill="#4ade80" font-family="Arial,sans-serif" font-size="8">Above the Fold</text>
+  <text x="170" y="99" text-anchor="end" fill="#4ade80" font-family="Arial,sans-serif" font-size="8">Oberhalb der Falte</text>
   <line x1="174" y1="95" x2="198" y2="95" stroke="#4ade80" stroke-width="0.8"/>
 
   <text x="170" y="170" text-anchor="end" fill="#60a5fa" font-family="Arial,sans-serif" font-size="8">Primäre UX</text>
@@ -40,10 +40,10 @@
   <line x1="174" y1="246" x2="198" y2="246" stroke="#f97316" stroke-width="0.8"/>
 
   <!-- Right side annotations -->
-  <text x="510" y="68" fill="#94a3b8" font-family="Arial,sans-serif" font-size="8">Passt zur Suchanfrage</text>
+  <text x="510" y="68" fill="#94a3b8" font-family="Arial,sans-serif" font-size="8">Entspricht der Suchanfrage</text>
   <text x="510" y="99" fill="#94a3b8" font-family="Arial,sans-serif" font-size="8">Bestätigt Relevanz</text>
   <text x="510" y="170" fill="#94a3b8" font-family="Arial,sans-serif" font-size="8">24-48 Produkte pro Seite</text>
-  <text x="510" y="250" fill="#94a3b8" font-family="Arial,sans-serif" font-size="8">Zielt auf sekundäre Keywords</text>
+  <text x="510" y="250" fill="#94a3b8" font-family="Arial,sans-serif" font-size="8">Zielt auf sekundäre Schlüsselwörter ab</text>
 
-  <text x="340" y="334" text-anchor="middle" fill="#64748b" font-family="Arial,sans-serif" font-size="8">Content ober- und unterhalb des Rasters gibt Google Kontext, ohne das Einkaufserlebnis zu beeinträchtigen</text>
+  <text x="340" y="334" text-anchor="middle" fill="#64748b" font-family="Arial,sans-serif" font-size="8">Inhalte oberhalb und unterhalb des Rasters bieten Google-Kontext, ohne das Einkaufserlebnis zu beeinträchtigen</text>
 </svg>

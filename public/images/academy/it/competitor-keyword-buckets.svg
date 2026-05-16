@@ -1,43 +1,43 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 300" fill="none">
-  <text x="340" y="24" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="700" fill="#a78bfa">Competitor Keyword Gap: 4-Bucket Framework</text>
+  <text x="340" y="24" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="700" fill="#a78bfa">Gap tra le parole chiave della concorrenza: struttura a 4 bucket</text>
   <!-- Bucket 1 -->
   <rect x="20" y="50" width="150" height="130" rx="8" stroke="#4ade80" stroke-width="1.5" fill="#4ade80" fill-opacity="0.08"/>
-  <text x="95" y="74" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="700" fill="#4ade80">Bucket 1</text>
-  <text x="95" y="92" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Have Pages,</text>
-  <text x="95" y="106" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Don't Rank</text>
+  <text x="95" y="74" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="700" fill="#4ade80">Secchio 1</text>
+  <text x="95" y="92" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Avere pagine,</text>
+  <text x="95" y="106" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Non classificarti</text>
   <line x1="40" y1="116" x2="150" y2="116" stroke="#4ade80" stroke-width="0.5" stroke-opacity="0.4"/>
-  <text x="95" y="134" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#94a3b8">Action: Optimize</text>
-  <text x="95" y="148" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#94a3b8">title, H1, content</text>
-  <text x="95" y="168" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="600" fill="#4ade80">Fastest wins</text>
+  <text x="95" y="134" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#94a3b8">Azione: ottimizza</text>
+  <text x="95" y="148" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#94a3b8">titolo, H1, contenuto</text>
+  <text x="95" y="168" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="600" fill="#4ade80">Vince il più veloce</text>
   <!-- Bucket 2 -->
   <rect x="185" y="50" width="150" height="130" rx="8" stroke="#60a5fa" stroke-width="1.5" fill="#60a5fa" fill-opacity="0.08"/>
-  <text x="260" y="74" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="700" fill="#60a5fa">Bucket 2</text>
-  <text x="260" y="92" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">No Pages,</text>
-  <text x="260" y="106" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Can Create</text>
+  <text x="260" y="74" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="700" fill="#60a5fa">Secchio 2</text>
+  <text x="260" y="92" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Nessuna pagina,</text>
+  <text x="260" y="106" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Può creare</text>
   <line x1="205" y1="116" x2="315" y2="116" stroke="#60a5fa" stroke-width="0.5" stroke-opacity="0.4"/>
-  <text x="260" y="134" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#94a3b8">Action: Build new</text>
-  <text x="260" y="148" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#94a3b8">category/product page</text>
-  <text x="260" y="168" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="600" fill="#60a5fa">3-6 month results</text>
+  <text x="260" y="134" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#94a3b8">Azione: costruisci nuovo</text>
+  <text x="260" y="148" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#94a3b8">pagina categoria/prodotto</text>
+  <text x="260" y="168" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="600" fill="#60a5fa">Risultati a 3-6 mesi</text>
   <!-- Bucket 3 -->
   <rect x="350" y="50" width="150" height="130" rx="8" stroke="#f97316" stroke-width="1.5" fill="#f97316" fill-opacity="0.08"/>
-  <text x="425" y="74" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="700" fill="#f97316">Bucket 3</text>
-  <text x="425" y="92" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Need New</text>
-  <text x="425" y="106" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Products</text>
+  <text x="425" y="74" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="700" fill="#f97316">Secchio 3</text>
+  <text x="425" y="92" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Hai bisogno di nuovo</text>
+  <text x="425" y="106" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Prodotti</text>
   <line x1="370" y1="116" x2="480" y2="116" stroke="#f97316" stroke-width="0.5" stroke-opacity="0.4"/>
-  <text x="425" y="134" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#94a3b8">Action: Business</text>
-  <text x="425" y="148" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#94a3b8">intelligence input</text>
-  <text x="425" y="168" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="600" fill="#f97316">Inventory decision</text>
+  <text x="425" y="134" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#94a3b8">Azione: affari</text>
+  <text x="425" y="148" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#94a3b8">input di intelligenza</text>
+  <text x="425" y="168" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="600" fill="#f97316">Decisione sull'inventario</text>
   <!-- Bucket 4 -->
   <rect x="515" y="50" width="145" height="130" rx="8" stroke="#94a3b8" stroke-width="1.5" fill="#94a3b8" fill-opacity="0.05"/>
-  <text x="588" y="74" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="700" fill="#94a3b8">Bucket 4</text>
-  <text x="588" y="92" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Not Worth</text>
-  <text x="588" y="106" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Pursuing</text>
+  <text x="588" y="74" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="700" fill="#94a3b8">Secchio 4</text>
+  <text x="588" y="92" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Non vale la pena</text>
+  <text x="588" y="106" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Perseguire</text>
   <line x1="535" y1="116" x2="640" y2="116" stroke="#94a3b8" stroke-width="0.5" stroke-opacity="0.4"/>
-  <text x="588" y="134" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#94a3b8">Action: Skip</text>
-  <text x="588" y="148" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#94a3b8">wrong positioning</text>
-  <text x="588" y="168" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#94a3b8">or market</text>
+  <text x="588" y="134" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#94a3b8">Azione: salta</text>
+  <text x="588" y="148" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#94a3b8">posizionamento errato</text>
+  <text x="588" y="168" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#94a3b8">o mercato</text>
   <!-- Bottom annotation -->
   <rect x="100" y="210" width="480" height="36" rx="6" fill="#a78bfa" fill-opacity="0.06" stroke="#a78bfa" stroke-width="1"/>
-  <text x="340" y="233" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#e2e8f0">Buckets 1 &amp; 2 contain <tspan font-weight="700" fill="#a78bfa">80% of actionable opportunities</tspan></text>
-  <text x="340" y="280" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#94a3b8">Run gap analysis per competitor individually. Repeat quarterly to catch new opportunities.</text>
+  <text x="340" y="233" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#e2e8f0">Buckets 1 &amp; 2 contain <tspan font-weight="700" fill="#a78bfa">80% delle opportunità realizzabili</tspan></text>
+  <text x="340" y="280" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#94a3b8">Esegui l'analisi del gap per ogni concorrente individualmente. Ripeti trimestralmente per cogliere nuove opportunità.</text>
 </svg>

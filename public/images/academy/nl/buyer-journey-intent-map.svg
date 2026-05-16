@@ -1,14 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 400" fill="none">
   <!-- Title -->
-  <text x="340" y="24" text-anchor="middle" fill="#a78bfa" font-family="Arial,sans-serif" font-size="14" font-weight="700">Intentiemapping door het kooptraject</text>
+  <text x="340" y="24" text-anchor="middle" fill="#a78bfa" font-family="Arial,sans-serif" font-size="14" font-weight="700">Intentie in kaart brengen tijdens de kopersreis</text>
 
   <!-- Stage boxes with arrows -->
   <!-- Awareness -->
   <rect x="30" y="54" width="190" height="80" rx="8" fill="#1a1a2e" stroke="#60a5fa" stroke-width="1.5"/>
-  <text x="125" y="74" text-anchor="middle" fill="#60a5fa" font-family="Arial,sans-serif" font-size="11" font-weight="700">Bewustwording</text>
-  <text x="125" y="92" text-anchor="middle" fill="#e2e8f0" font-family="Arial,sans-serif" font-size="9">"what thread count</text>
-  <text x="125" y="104" text-anchor="middle" fill="#e2e8f0" font-family="Arial,sans-serif" font-size="9">means for sheets"</text>
-  <text x="125" y="124" text-anchor="middle" fill="#94a3b8" font-family="Arial,sans-serif" font-size="8">Blogartikelen &amp; gidsen</text>
+  <text x="125" y="74" text-anchor="middle" fill="#60a5fa" font-family="Arial,sans-serif" font-size="11" font-weight="700">Bewustzijn</text>
+  <text x="125" y="92" text-anchor="middle" fill="#e2e8f0" font-family="Arial,sans-serif" font-size="9">"wat voor aantal threads</text>
+  <text x="125" y="104" text-anchor="middle" fill="#e2e8f0" font-family="Arial,sans-serif" font-size="9">betekent voor lakens"</text>
+  <text x="125" y="124" text-anchor="middle" fill="#94a3b8" font-family="Arial,sans-serif" font-size="8">Blogberichten &amp;amp; gidsen</text>
 
   <!-- Arrow 1 -->
   <line x1="222" y1="94" x2="242" y2="94" stroke="#475569" stroke-width="1.5"/>
@@ -17,9 +17,9 @@
   <!-- Consideration -->
   <rect x="250" y="54" width="190" height="80" rx="8" fill="#1a1a2e" stroke="#f97316" stroke-width="1.5"/>
   <text x="345" y="74" text-anchor="middle" fill="#f97316" font-family="Arial,sans-serif" font-size="11" font-weight="700">Overweging</text>
-  <text x="345" y="92" text-anchor="middle" fill="#e2e8f0" font-family="Arial,sans-serif" font-size="9">"best Egyptian cotton</text>
-  <text x="345" y="104" text-anchor="middle" fill="#e2e8f0" font-family="Arial,sans-serif" font-size="9">sheets"</text>
-  <text x="345" y="124" text-anchor="middle" fill="#94a3b8" font-family="Arial,sans-serif" font-size="8">Categorie- &amp; vergelijkingspagina's</text>
+  <text x="345" y="92" text-anchor="middle" fill="#e2e8f0" font-family="Arial,sans-serif" font-size="9">"beste Egyptische katoen</text>
+  <text x="345" y="104" text-anchor="middle" fill="#e2e8f0" font-family="Arial,sans-serif" font-size="9">lakens"</text>
+  <text x="345" y="124" text-anchor="middle" fill="#94a3b8" font-family="Arial,sans-serif" font-size="8">Categorie &amp;amp; vergelijkingspagina's</text>
 
   <!-- Arrow 2 -->
   <line x1="442" y1="94" x2="462" y2="94" stroke="#475569" stroke-width="1.5"/>
@@ -28,19 +28,19 @@
   <!-- Decision -->
   <rect x="470" y="54" width="190" height="80" rx="8" fill="#1a1a2e" stroke="#4ade80" stroke-width="1.5"/>
   <text x="565" y="74" text-anchor="middle" fill="#4ade80" font-family="Arial,sans-serif" font-size="11" font-weight="700">Beslissing</text>
-  <text x="565" y="92" text-anchor="middle" fill="#e2e8f0" font-family="Arial,sans-serif" font-size="9">"buy Brooklinen luxe</text>
-  <text x="565" y="104" text-anchor="middle" fill="#e2e8f0" font-family="Arial,sans-serif" font-size="9">sheet set king"</text>
+  <text x="565" y="92" text-anchor="middle" fill="#e2e8f0" font-family="Arial,sans-serif" font-size="9">"koop Brooklinen luxe</text>
+  <text x="565" y="104" text-anchor="middle" fill="#e2e8f0" font-family="Arial,sans-serif" font-size="9">lakenset koning"</text>
   <text x="565" y="124" text-anchor="middle" fill="#94a3b8" font-family="Arial,sans-serif" font-size="8">Productpagina's</text>
 
   <!-- Conversion rates -->
-  <text x="125" y="155" text-anchor="middle" fill="#60a5fa" font-family="Arial,sans-serif" font-size="10" font-weight="600">&lt;1% conversion</text>
-  <text x="345" y="155" text-anchor="middle" fill="#f97316" font-family="Arial,sans-serif" font-size="10" font-weight="600">2-4% conversion</text>
-  <text x="565" y="155" text-anchor="middle" fill="#4ade80" font-family="Arial,sans-serif" font-size="10" font-weight="600">5-10% conversion</text>
+  <text x="125" y="155" text-anchor="middle" fill="#60a5fa" font-family="Arial,sans-serif" font-size="10" font-weight="600">&lt;1% conversie</text>
+  <text x="345" y="155" text-anchor="middle" fill="#f97316" font-family="Arial,sans-serif" font-size="10" font-weight="600">2-4% conversie</text>
+  <text x="565" y="155" text-anchor="middle" fill="#4ade80" font-family="Arial,sans-serif" font-size="10" font-weight="600">5-10% conversie</text>
 
   <!-- Internal linking arrow -->
   <rect x="100" y="180" width="480" height="32" rx="6" fill="#a78bfa" fill-opacity="0.06" stroke="#a78bfa" stroke-width="1" stroke-dasharray="4,3"/>
-  <text x="340" y="200" text-anchor="middle" fill="#a78bfa" font-family="Arial,sans-serif" font-size="10" font-weight="600">Internal links connect stages: blog &rarr; category &rarr; product</text>
+  <text x="340" y="200" text-anchor="middle" fill="#a78bfa" font-family="Arial,sans-serif" font-size="10" font-weight="600">Interne links verbinden fasen: blog &amp;rarr; categorie &amp;rarr; product</text>
 
   <!-- Bottom note -->
-  <text x="340" y="240" text-anchor="middle" fill="#64748b" font-family="Arial,sans-serif" font-size="8">Maak content voor elke fase en link ze onderling om klanten in het hele kooptraject te bereiken</text>
+  <text x="340" y="240" text-anchor="middle" fill="#64748b" font-family="Arial,sans-serif" font-size="8">Creëer inhoud voor elke fase en maak een link tussen deze fasen om klanten tijdens hun hele kooptraject te boeien</text>
 </svg>

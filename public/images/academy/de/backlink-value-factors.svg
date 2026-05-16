@@ -1,23 +1,23 @@
 <svg viewBox="0 0 420 260" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <text x="210" y="22" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#a78bfa">4 Faktoren die einen Backlink wertvoll machen</text>
+  <text x="210" y="22" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#a78bfa">4 Faktoren, die einen Backlink wertvoll machen</text>
   <rect x="20" y="40" rx="8" width="175" height="90" stroke="#a78bfa" stroke-width="1.5" fill="none"/>
   <text x="107" y="62" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#a78bfa">1. Relevanz</text>
-  <text x="107" y="80" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Verlinkende Seite deckt Ihre</text>
-  <text x="107" y="93" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Nische oder Produktkategorie ab</text>
-  <text x="107" y="118" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#4ade80">Wichtigster Einflussfaktor</text>
+  <text x="107" y="80" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Die verlinkte Seite deckt Ihre ab</text>
+  <text x="107" y="93" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Nische oder Produktkategorie</text>
+  <text x="107" y="118" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#4ade80">Höchster Impact-Faktor</text>
   <rect x="225" y="40" rx="8" width="175" height="90" stroke="#60a5fa" stroke-width="1.5" fill="none"/>
-  <text x="312" y="62" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#60a5fa">2. Autoritaet</text>
-  <text x="312" y="80" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Domain-Rating / Vertrauen</text>
-  <text x="312" y="93" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">der verlinkenden Website</text>
-  <text x="312" y="118" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#4ade80">DR 50+ = strong signal</text>
+  <text x="312" y="62" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#60a5fa">2. Autorität</text>
+  <text x="312" y="80" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Domainbewertung/Vertrauen</text>
+  <text x="312" y="93" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">der verlinkten Website</text>
+  <text x="312" y="118" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#4ade80">DR 50+ = starkes Signal</text>
   <rect x="20" y="150" rx="8" width="175" height="90" stroke="#f97316" stroke-width="1.5" fill="none"/>
   <text x="107" y="172" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#f97316">3. Platzierung</text>
   <text x="107" y="190" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Redaktionelle Links im Inhalt</text>
-  <text x="107" y="203" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">schlagen Footer-/Sidebar-Links</text>
-  <text x="107" y="228" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#4ade80">Fliesstext = hoechster Wert</text>
+  <text x="107" y="203" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Beat-Fußzeilen-/Seitenleisten-Links</text>
+  <text x="107" y="228" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#4ade80">Haupttext = höchster Wert</text>
   <rect x="225" y="150" rx="8" width="175" height="90" stroke="#4ade80" stroke-width="1.5" fill="none"/>
   <text x="312" y="172" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="#4ade80">4. Dofollow</text>
-  <text x="312" y="190" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Dofollow gibt Ranking-</text>
-  <text x="312" y="203" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Wert weiter; Nofollow nicht</text>
-  <text x="312" y="228" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#4ade80">Dofollow-Links anstreben</text>
+  <text x="312" y="190" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Dofollow besteht die Rangliste</text>
+  <text x="312" y="203" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Wert; nofollow nicht</text>
+  <text x="312" y="228" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#4ade80">Zielen Sie auf Dofollow-Links</text>
 </svg>

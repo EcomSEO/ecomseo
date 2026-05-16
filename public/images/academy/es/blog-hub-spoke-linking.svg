@@ -1,29 +1,29 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 320" fill="none">
-  <text x="340" y="24" text-anchor="middle" fill="#a78bfa" font-family="Arial,sans-serif" font-size="14" font-weight="700">Blog Hub-and-Spoke Internal Linking</text>
+  <text x="340" y="24" text-anchor="middle" fill="#a78bfa" font-family="Arial,sans-serif" font-size="14" font-weight="700">Enlaces internos de blog Hub-and-Spoke</text>
 
   <!-- Categoría Hub -->
   <rect x="250" y="120" width="180" height="44" rx="8" fill="#1e1e3a" stroke="#4ade80" stroke-width="2"/>
-  <text x="340" y="140" text-anchor="middle" fill="#4ade80" font-family="Arial,sans-serif" font-size="11" font-weight="700">Categoría Page (Hub)</text>
-  <text x="340" y="155" text-anchor="middle" fill="#94a3b8" font-family="Arial,sans-serif" font-size="8">/running-shoes</text>
+  <text x="340" y="140" text-anchor="middle" fill="#4ade80" font-family="Arial,sans-serif" font-size="11" font-weight="700">Página de categoría (centro)</text>
+  <text x="340" y="155" text-anchor="middle" fill="#94a3b8" font-family="Arial,sans-serif" font-size="8">/zapatillas-para-correr</text>
 
   <!-- Blog spokes -->
   <rect x="20" y="40" width="170" height="36" rx="5" fill="#1a1a2e" stroke="#60a5fa" stroke-width="1"/>
-  <text x="105" y="62" text-anchor="middle" fill="#e2e8f0" font-family="Arial,sans-serif" font-size="9">How to Choose Running Shoes</text>
+  <text x="105" y="62" text-anchor="middle" fill="#e2e8f0" font-family="Arial,sans-serif" font-size="9">Cómo elegir zapatillas para correr</text>
 
   <rect x="20" y="140" width="170" height="36" rx="5" fill="#1a1a2e" stroke="#60a5fa" stroke-width="1"/>
-  <text x="105" y="162" text-anchor="middle" fill="#e2e8f0" font-family="Arial,sans-serif" font-size="9">Best Shoes for Flat Feet</text>
+  <text x="105" y="162" text-anchor="middle" fill="#e2e8f0" font-family="Arial,sans-serif" font-size="9">Los mejores zapatos para pies planos</text>
 
   <rect x="20" y="240" width="170" height="36" rx="5" fill="#1a1a2e" stroke="#60a5fa" stroke-width="1"/>
-  <text x="105" y="262" text-anchor="middle" fill="#e2e8f0" font-family="Arial,sans-serif" font-size="9">Running Injury Prevention</text>
+  <text x="105" y="262" text-anchor="middle" fill="#e2e8f0" font-family="Arial,sans-serif" font-size="9">Prevención de lesiones al correr</text>
 
   <rect x="490" y="40" width="170" height="36" rx="5" fill="#1a1a2e" stroke="#60a5fa" stroke-width="1"/>
-  <text x="575" y="62" text-anchor="middle" fill="#e2e8f0" font-family="Arial,sans-serif" font-size="9">Trail vs Road Running</text>
+  <text x="575" y="62" text-anchor="middle" fill="#e2e8f0" font-family="Arial,sans-serif" font-size="9">Correr por sendero o por carretera</text>
 
   <rect x="490" y="140" width="170" height="36" rx="5" fill="#1a1a2e" stroke="#60a5fa" stroke-width="1"/>
-  <text x="575" y="162" text-anchor="middle" fill="#e2e8f0" font-family="Arial,sans-serif" font-size="9">Race Preparation Guide</text>
+  <text x="575" y="162" text-anchor="middle" fill="#e2e8f0" font-family="Arial,sans-serif" font-size="9">Guía de preparación para la carrera</text>
 
   <rect x="490" y="240" width="170" height="36" rx="5" fill="#1a1a2e" stroke="#60a5fa" stroke-width="1"/>
-  <text x="575" y="262" text-anchor="middle" fill="#e2e8f0" font-family="Arial,sans-serif" font-size="9">Shoe Care &amp; Maintenance</text>
+  <text x="575" y="262" text-anchor="middle" fill="#e2e8f0" font-family="Arial,sans-serif" font-size="9">Cuidado del calzado y Mantenimiento</text>
 
   <!-- Arrows from blogs to hub -->
   <line x1="190" y1="58" x2="250" y2="130" stroke="#60a5fa" stroke-width="1" stroke-dasharray="4,3"/>
@@ -45,8 +45,8 @@
   <polygon points="432,152 425,157 432,160" fill="#60a5fa"/>
 
   <!-- Labels -->
-  <text x="210" y="100" text-anchor="middle" fill="#60a5fa" font-family="Arial,sans-serif" font-size="8">link equity</text>
-  <text x="470" y="100" text-anchor="middle" fill="#60a5fa" font-family="Arial,sans-serif" font-size="8">link equity</text>
+  <text x="210" y="100" text-anchor="middle" fill="#60a5fa" font-family="Arial,sans-serif" font-size="8">enlace de equidad</text>
+  <text x="470" y="100" text-anchor="middle" fill="#60a5fa" font-family="Arial,sans-serif" font-size="8">enlace de equidad</text>
 
   <!-- Producto links below -->
   <line x1="300" y1="164" x2="260" y2="200" stroke="#f97316" stroke-width="1"/>
@@ -62,5 +62,5 @@
   <rect x="380" y="200" width="80" height="24" rx="4" fill="#1a1a2e" stroke="#f97316" stroke-width="0.8"/>
   <text x="420" y="216" text-anchor="middle" fill="#94a3b8" font-family="Arial,sans-serif" font-size="8">Producto C</text>
 
-  <text x="340" y="308" text-anchor="middle" fill="#64748b" font-family="Arial,sans-serif" font-size="8">Each blog post links to the category hub, concentrating topical authority on your most important commercial page</text>
+  <text x="340" y="308" text-anchor="middle" fill="#64748b" font-family="Arial,sans-serif" font-size="8">Cada publicación de blog enlaza con el centro de categorías, concentrando la autoridad temática en su página comercial más importante.</text>
 </svg>

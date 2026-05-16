@@ -5,27 +5,27 @@
   <!-- Product box center -->
   <rect x="260" y="44" width="160" height="44" rx="10" stroke="#4ade80" stroke-width="2" fill="none"/>
   <text x="340" y="63" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="700" fill="#4ade80">Blaue Laufschuhe</text>
-  <text x="340" y="78" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#94a3b8">Einzelnes Produkt</text>
+  <text x="340" y="78" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#94a3b8">Einzelprodukt</text>
 
   <!-- URL boxes -->
   <rect x="10" y="120" width="130" height="50" rx="6" stroke="#60a5fa" stroke-width="1" fill="none"/>
   <text x="75" y="140" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="700" fill="#60a5fa">Direkte URL</text>
-  <text x="75" y="156" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">/products/blue-shoes</text>
+  <text x="75" y="156" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">/Produkte/blaue Schuhe</text>
 
   <rect x="148" y="120" width="130" height="50" rx="6" stroke="#f97316" stroke-width="1" fill="none"/>
-  <text x="213" y="140" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="700" fill="#f97316">Filter-URL</text>
-  <text x="213" y="156" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">/shoes?color=blue</text>
+  <text x="213" y="140" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="700" fill="#f97316">URL filtern</text>
+  <text x="213" y="156" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">/schuhe?color=blau</text>
 
   <rect x="286" y="120" width="130" height="50" rx="6" stroke="#f97316" stroke-width="1" fill="none"/>
   <text x="351" y="140" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="700" fill="#f97316">Such-URL</text>
-  <text x="351" y="156" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">/search?q=blue+shoes</text>
+  <text x="351" y="156" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">/search?q=blau+schuhe</text>
 
   <rect x="424" y="120" width="130" height="50" rx="6" stroke="#f97316" stroke-width="1" fill="none"/>
   <text x="489" y="140" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="700" fill="#f97316">UTM-URL</text>
   <text x="489" y="156" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">/blue-shoes?utm_src=em</text>
 
   <rect x="562" y="120" width="110" height="50" rx="6" stroke="#f97316" stroke-width="1" fill="none"/>
-  <text x="617" y="140" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="700" fill="#f97316">Session-URL</text>
+  <text x="617" y="140" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="700" fill="#f97316">Sitzungs-URL</text>
   <text x="617" y="156" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">/blue-shoes?sid=abc</text>
 
   <!-- Arrows from product to URLs -->
@@ -36,7 +36,7 @@
   <line x1="380" y1="88" x2="617" y2="118" stroke="#f97316" stroke-width="1" stroke-dasharray="4"/>
 
   <!-- Canonical arrows -->
-  <text x="340" y="200" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="700" fill="#a78bfa">rel="canonical"</text>
+  <text x="340" y="200" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="700" fill="#a78bfa">rel="kanonisch"</text>
   <line x1="213" y1="170" x2="105" y2="210" stroke="#4ade80" stroke-width="1.5"/>
   <polygon points="102,205 105,215 112,208" fill="#4ade80"/>
   <line x1="351" y1="170" x2="105" y2="225" stroke="#4ade80" stroke-width="1.5"/>
@@ -46,8 +46,8 @@
   <!-- Canonical target -->
   <rect x="20" y="210" width="170" height="50" rx="8" stroke="#4ade80" stroke-width="2" fill="none"/>
   <text x="105" y="232" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="700" fill="#4ade80">Kanonische URL</text>
-  <text x="105" y="248" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">/products/blue-shoes</text>
+  <text x="105" y="248" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">/Produkte/blaue Schuhe</text>
 
   <!-- Result -->
-  <text x="340" y="288" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Alle Ranking-Signale auf eine URL konsolidiert</text>
+  <text x="340" y="288" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Alle Ranking-Signale zusammengefasst zu einer URL</text>
 </svg>
