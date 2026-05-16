@@ -2,7 +2,12 @@ import type { Metadata } from "next";
 import type { Locale } from "@/lib/i18n/config";
 import { BASE_URL, publicLocalizedUrl } from "@/lib/i18n/config";
 import { generateAlternates } from "@/lib/i18n/metadata";
-import { allTopics, getTopicBySlug, getAdjacentTopics } from "@/lib/academy";
+import {
+  allTopics,
+  getTopicBySlug,
+  getAdjacentTopics,
+  clusterNamesByLocale,
+} from "@/lib/academy";
 import AcademyPageTemplate from "@/components/academy/AcademyPageTemplate";
 import type { AcademySection, AcademyNav } from "@/components/academy/AcademyPageTemplate";
 import { notFound } from "next/navigation";
@@ -27,12 +32,24 @@ export async function generateMetadata({
   const t = topic.content[l];
   const url = publicLocalizedUrl(l, `/academy/${slug}`);
 
+  // Localized "Academy" word for the title/OG suffix.
+  // Was hardcoded English even on FR/IT/ES/NL pages: "<lesson> - EcomSEO Academy".
+  const academyWord: Record<Locale, string> = {
+    en: "Academy",
+    de: "Akademie",
+    fr: "Académie",
+    es: "Academia",
+    it: "Accademia",
+    nl: "Academie",
+  };
+  const suffix = `EcomSEO ${academyWord[l]}`;
+
   return {
-    title: `${t.heading} - EcomSEO Academy | EcomSEO`,
+    title: `${t.heading} - ${suffix} | EcomSEO`,
     description: t.intro.slice(0, 155),
     alternates: generateAlternates(`/academy/${slug}`, l),
     openGraph: {
-      title: `${t.heading} - EcomSEO Academy`,
+      title: `${t.heading} - ${suffix}`,
       description: t.intro.slice(0, 155),
       url,
       siteName: "EcomSEO",
@@ -50,7 +67,7 @@ export async function generateMetadata({
     twitter: {
       card: "summary_large_image",
       site: "@ecomseo_co",
-      title: `${t.heading} - EcomSEO Academy`,
+      title: `${t.heading} - ${suffix}`,
       description: t.intro.slice(0, 155),
       images: [`${BASE_URL}/images/brand/og-image.png`],
     },
@@ -87,7 +104,7 @@ export default async function AcademyTopicPage({
     ],
   }));
 
-  const adjacent = getAdjacentTopics(slug);
+  const adjacent = getAdjacentTopics(slug, l);
   const nav: AcademyNav = {
     prev: adjacent.prev
       ? {
@@ -114,17 +131,26 @@ export default async function AcademyTopicPage({
     nl: "Gratis tools & bronnen",
   };
 
-  const clusterNames: Record<number, string> = {
-    1: "Search Fundamentals",
-    2: "Keyword Research",
-    3: "On-Page SEO",
-    4: "Technical SEO",
-    5: "Content & Authority",
-    6: "Link Building",
-    7: "Measuring Results",
-    8: "SEO by Platform",
-    9: "Advanced SEO",
-    10: "Industry Playbooks",
+  // Use the locale-aware cluster names from the academy index so breadcrumb
+  // text matches the prev/next nav and the rest of the page language.
+  const clusterNames = clusterNamesByLocale[l] ?? clusterNamesByLocale.en;
+
+  // Localized labels for hardcoded breadcrumb leaves
+  const homeLabel: Record<Locale, string> = {
+    en: "Home",
+    de: "Startseite",
+    fr: "Accueil",
+    es: "Inicio",
+    it: "Home",
+    nl: "Home",
+  };
+  const academyBreadcrumb: Record<Locale, string> = {
+    en: "Academy",
+    de: "Akademie",
+    fr: "Académie",
+    es: "Academia",
+    it: "Accademia",
+    nl: "Academie",
   };
 
   return (
@@ -142,10 +168,10 @@ export default async function AcademyTopicPage({
           : undefined,
         nav,
         breadcrumbs: [
-          { name: "Home", path: "/" },
-          { name: "Academy", path: "/academy" },
+          { name: homeLabel[l], path: "/" },
+          { name: academyBreadcrumb[l], path: "/academy" },
           {
-            name: clusterNames[topic.cluster] || "Academy",
+            name: clusterNames[topic.cluster] || academyBreadcrumb[l],
             path: "/academy",
           },
           { name: t.heading, path: `/academy/${slug}` },

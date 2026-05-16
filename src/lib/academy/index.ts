@@ -175,14 +175,13 @@ export function getTopicsByCluster(cluster: number): AcademyTopic[] {
   return allTopics.filter((t) => t.cluster === cluster);
 }
 
-export function getAdjacentTopics(slug: string): {
-  prev?: { href: string; title: string; category: string };
-  next?: { href: string; title: string; category: string };
-} {
-  const idx = allTopics.findIndex((t) => t.slug === slug);
-  if (idx === -1) return {};
-
-  const clusterNames: Record<number, string> = {
+/**
+ * Localized cluster category names. Used in prev/next nav + breadcrumbs.
+ * Was hardcoded English — caused FR/IT/ES/NL academy lessons to show
+ * "Search Fundamentals" etc. in their prev/next navigation.
+ */
+export const clusterNamesByLocale: Record<string, Record<number, string>> = {
+  en: {
     1: "Search Fundamentals",
     2: "Keyword Research",
     3: "On-Page SEO",
@@ -193,13 +192,93 @@ export function getAdjacentTopics(slug: string): {
     8: "SEO by Platform",
     9: "Advanced SEO",
     10: "Industry Playbooks",
-  };
+  },
+  de: {
+    1: "Suchgrundlagen",
+    2: "Keyword-Recherche",
+    3: "On-Page-SEO",
+    4: "Technisches SEO",
+    5: "Content & Autorität",
+    6: "Linkaufbau",
+    7: "Ergebnisse messen",
+    8: "SEO nach Plattform",
+    9: "Fortgeschrittenes SEO",
+    10: "Branchen-Playbooks",
+  },
+  fr: {
+    1: "Bases de la recherche",
+    2: "Recherche de mots-clés",
+    3: "SEO on-page",
+    4: "SEO technique",
+    5: "Contenu et autorité",
+    6: "Netlinking",
+    7: "Mesurer les résultats",
+    8: "SEO par plateforme",
+    9: "SEO avancé",
+    10: "Playbooks sectoriels",
+  },
+  es: {
+    1: "Fundamentos de búsqueda",
+    2: "Investigación de palabras clave",
+    3: "SEO on-page",
+    4: "SEO técnico",
+    5: "Contenido y autoridad",
+    6: "Construcción de enlaces",
+    7: "Medir resultados",
+    8: "SEO por plataforma",
+    9: "SEO avanzado",
+    10: "Manuales por sector",
+  },
+  it: {
+    1: "Fondamenti di ricerca",
+    2: "Ricerca di parole chiave",
+    3: "SEO on-page",
+    4: "SEO tecnica",
+    5: "Contenuti e autorevolezza",
+    6: "Link building",
+    7: "Misurare i risultati",
+    8: "SEO per piattaforma",
+    9: "SEO avanzata",
+    10: "Playbook per settore",
+  },
+  nl: {
+    1: "Zoekgrondbeginselen",
+    2: "Zoekwoordonderzoek",
+    3: "On-page SEO",
+    4: "Technische SEO",
+    5: "Content en autoriteit",
+    6: "Linkbuilding",
+    7: "Resultaten meten",
+    8: "SEO per platform",
+    9: "Geavanceerde SEO",
+    10: "Branchespecifieke playbooks",
+  },
+};
+
+export function getAdjacentTopics(
+  slug: string,
+  locale: string = "en",
+): {
+  prev?: { href: string; title: string; category: string };
+  next?: { href: string; title: string; category: string };
+} {
+  const idx = allTopics.findIndex((t) => t.slug === slug);
+  if (idx === -1) return {};
+
+  const clusterNames = clusterNamesByLocale[locale] ?? clusterNamesByLocale.en;
+
+  // Prefer the requested locale's heading; fall back to EN if missing.
+  // Used to be hardcoded to content.en.heading — caused FR/IT/ES academy
+  // lessons to display English titles in prev/next nav.
+  const headingFor = (t: (typeof allTopics)[number]) =>
+    (t.content as Record<string, { heading: string }>)[locale]?.heading ??
+    t.content.en.heading;
 
   const prev =
     idx > 0
       ? {
           href: `/academy/${allTopics[idx - 1].slug}`,
-          title: allTopics[idx - 1].content.en.heading,
+          title: headingFor(allTopics[idx - 1]),
           category: clusterNames[allTopics[idx - 1].cluster] || "",
         }
       : undefined;
@@ -208,7 +287,7 @@ export function getAdjacentTopics(slug: string): {
     idx < allTopics.length - 1
       ? {
           href: `/academy/${allTopics[idx + 1].slug}`,
-          title: allTopics[idx + 1].content.en.heading,
+          title: headingFor(allTopics[idx + 1]),
           category: clusterNames[allTopics[idx + 1].cluster] || "",
         }
       : undefined;
