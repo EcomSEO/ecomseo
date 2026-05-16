@@ -1,27 +1,27 @@
 <svg viewBox="0 0 420 230" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <text x="210" y="22" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#a78bfa">Digitale PR-Kampagnentypen fuer Ecommerce</text>
+  <text x="210" y="22" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#a78bfa">Digitale PR-Kampagnentypen für E-Commerce</text>
   <rect x="20" y="42" rx="8" width="120" height="80" stroke="#60a5fa" stroke-width="1.5" fill="none"/>
   <text x="80" y="62" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#60a5fa">Datenstudien</text>
   <text x="80" y="78" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Verkaufstrends,</text>
-  <text x="80" y="90" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Verbraucherumfragen,</text>
-  <text x="80" y="102" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Preisanalysen</text>
-  <text x="80" y="116" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#4ade80">20-100 Links/Kampagne</text>
+  <text x="80" y="90" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Verbraucherbefragungen,</text>
+  <text x="80" y="102" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Preisanalyse</text>
+  <text x="80" y="116" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#4ade80">20–100 Links/Kampagne</text>
   <rect x="150" y="42" rx="8" width="120" height="80" stroke="#f97316" stroke-width="1.5" fill="none"/>
   <text x="210" y="62" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#f97316">Produkt-PR</text>
-  <text x="210" y="78" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Geschenkratgeber,</text>
-  <text x="210" y="90" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">product reviews,</text>
-  <text x="210" y="102" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Launch-Stories</text>
+  <text x="210" y="78" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Geschenkführer,</text>
+  <text x="210" y="90" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Produktbewertungen,</text>
+  <text x="210" y="102" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Startgeschichten</text>
   <text x="210" y="116" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#4ade80">Links zu Produktseiten</text>
   <rect x="280" y="42" rx="8" width="120" height="80" stroke="#4ade80" stroke-width="1.5" fill="none"/>
   <text x="340" y="62" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#4ade80">Reaktive PR</text>
-  <text x="340" y="78" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Expertenmeinungen,</text>
+  <text x="340" y="78" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Expertenkommentar,</text>
   <text x="340" y="90" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">HARO-Antworten,</text>
   <text x="340" y="102" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Newsjacking</text>
-  <text x="340" y="116" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#4ade80">24-48 Std. Zeitfenster</text>
+  <text x="340" y="116" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#4ade80">24-48-Stunden-Fenster</text>
   <rect x="40" y="140" rx="6" width="340" height="76" stroke="#a78bfa" stroke-width="1" stroke-dasharray="4" fill="none"/>
-  <text x="210" y="160" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#a78bfa">ROI Measurement</text>
-  <text x="120" y="178" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Erzielte Links</text>
+  <text x="210" y="160" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#a78bfa">ROI-Messung</text>
+  <text x="120" y="178" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Verdiente Links</text>
   <text x="210" y="178" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Durchschn. DA</text>
   <text x="300" y="178" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Kosten/Link</text>
-  <text x="210" y="205" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#f97316">5 Links von DR-70+-Seiten > 50 Links von autoritaetsschwachen Blogs</text>
+  <text x="210" y="205" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#f97316">5 Links von DR 70+-Websites &gt; 50 Links von Blogs mit geringer Autorität</text>
 </svg>

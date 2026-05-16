@@ -2,22 +2,22 @@
   <text x="200" y="20" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#a78bfa">Crawl Waste vs. Orphan Pages</text>
   <!-- Left: Crawl Waste -->
   <rect x="15" y="38" width="175" height="100" rx="6" stroke="#ef4444" stroke-width="1.5"/>
-  <text x="102" y="55" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#ef4444">Crawl Waste</text>
-  <text x="102" y="70" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">Googlebot visits but no SEO value</text>
-  <text x="30" y="88" font-family="Arial,sans-serif" font-size="8" fill="#94a3b8">&#8226; Session ID URLs</text>
-  <text x="30" y="100" font-family="Arial,sans-serif" font-size="8" fill="#94a3b8">&#8226; Internal search pages</text>
-  <text x="30" y="112" font-family="Arial,sans-serif" font-size="8" fill="#94a3b8">&#8226; Sort/filter combos</text>
-  <text x="30" y="124" font-family="Arial,sans-serif" font-size="8" fill="#94a3b8">&#8226; Cart/checkout/login</text>
+  <text x="102" y="55" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#ef4444">Crawl-Abfall</text>
+  <text x="102" y="70" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">Googlebot-Besuche, aber kein SEO-Wert</text>
+  <text x="30" y="88" font-family="Arial,sans-serif" font-size="8" fill="#94a3b8">&amp;#8226; Sitzungs-ID-URLs</text>
+  <text x="30" y="100" font-family="Arial,sans-serif" font-size="8" fill="#94a3b8">&amp;#8226; Interne Suchseiten</text>
+  <text x="30" y="112" font-family="Arial,sans-serif" font-size="8" fill="#94a3b8">&amp;#8226; Sortier-/Filterkombinationen</text>
+  <text x="30" y="124" font-family="Arial,sans-serif" font-size="8" fill="#94a3b8">&amp;#8226; Warenkorb/Kasse/Anmelden</text>
   <!-- Right: Orphan Pages -->
   <rect x="210" y="38" width="175" height="100" rx="6" stroke="#f97316" stroke-width="1.5"/>
-  <text x="297" y="55" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#f97316">Orphan Pages</text>
-  <text x="297" y="70" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">Exist but never crawled</text>
-  <text x="225" y="88" font-family="Arial,sans-serif" font-size="8" fill="#94a3b8">&#8226; Broken internal links</text>
-  <text x="225" y="100" font-family="Arial,sans-serif" font-size="8" fill="#94a3b8">&#8226; Deep pagination (&gt;page 10)</text>
-  <text x="225" y="112" font-family="Arial,sans-serif" font-size="8" fill="#94a3b8">&#8226; New products unlinked</text>
-  <text x="225" y="124" font-family="Arial,sans-serif" font-size="8" fill="#94a3b8">&#8226; Restructured categories</text>
+  <text x="297" y="55" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#f97316">Verwaiste Seiten</text>
+  <text x="297" y="70" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">Vorhanden, aber nie gecrawlt</text>
+  <text x="225" y="88" font-family="Arial,sans-serif" font-size="8" fill="#94a3b8">&amp;#8226; Defekte interne Links</text>
+  <text x="225" y="100" font-family="Arial,sans-serif" font-size="8" fill="#94a3b8">&amp;#8226; Tiefe Paginierung (&amp;gt;Seite 10)</text>
+  <text x="225" y="112" font-family="Arial,sans-serif" font-size="8" fill="#94a3b8">&amp;#8226; Neue Produkte nicht verlinkt</text>
+  <text x="225" y="124" font-family="Arial,sans-serif" font-size="8" fill="#94a3b8">&amp;#8226; Neu strukturierte Kategorien</text>
   <!-- Bottom target -->
   <rect x="60" y="155" width="280" height="35" rx="6" stroke="#4ade80" stroke-width="1.5"/>
-  <text x="200" y="172" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#4ade80">Target: 70-80% Productive Crawl Ratio</text>
-  <text x="200" y="184" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">Compare product DB against 90-day log data to find orphans</text>
+  <text x="200" y="172" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#4ade80">Ziel: 70–80 % produktives Crawl-Verhältnis</text>
+  <text x="200" y="184" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">Vergleichen Sie die Produktdatenbank mit 90-Tage-Protokolldaten, um Waisen zu finden</text>
 </svg>

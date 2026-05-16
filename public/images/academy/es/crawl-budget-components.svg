@@ -1,20 +1,20 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 260" fill="none">
   <!-- Title -->
-  <text x="340" y="24" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="700" fill="#a78bfa">Crawl Budget = Límite de tasa de rastreo + Demanda de rastreo</text>
+  <text x="340" y="24" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="700" fill="#a78bfa">Presupuesto de rastreo = Límite de tasa de rastreo + Demanda de rastreo</text>
 
   <!-- Límite de tasa de rastreo -->
   <rect x="40" y="52" width="260" height="170" rx="10" stroke="#60a5fa" stroke-width="1.5" fill="none"/>
-  <text x="170" y="76" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="700" fill="#60a5fa">Límite de tasa de rastreo</text>
+  <text x="170" y="76" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="700" fill="#60a5fa">Límite de velocidad de rastreo</text>
   <text x="170" y="96" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#94a3b8">Capacidad del servidor</text>
 
   <circle cx="80" cy="128" r="6" stroke="#e2e8f0" stroke-width="1" fill="none"/>
-  <text x="96" y="132" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Server response time</text>
+  <text x="96" y="132" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Tiempo de respuesta del servidor</text>
   <circle cx="80" cy="154" r="6" stroke="#e2e8f0" stroke-width="1" fill="none"/>
-  <text x="96" y="158" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Hosting infrastructure</text>
+  <text x="96" y="158" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Infraestructura de alojamiento</text>
   <circle cx="80" cy="180" r="6" stroke="#e2e8f0" stroke-width="1" fill="none"/>
-  <text x="96" y="184" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Concurrent connections</text>
+  <text x="96" y="184" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Conexiones simultáneas</text>
   <circle cx="80" cy="206" r="6" stroke="#e2e8f0" stroke-width="1" fill="none"/>
-  <text x="96" y="210" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Error rate (5xx slows crawl)</text>
+  <text x="96" y="210" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Tasa de error (5xx ralentiza el rastreo)</text>
 
   <!-- Plus sign -->
   <text x="340" y="145" text-anchor="middle" font-family="Arial,sans-serif" font-size="28" font-weight="700" fill="#a78bfa">+</text>
@@ -22,14 +22,14 @@
   <!-- Demanda de rastreo -->
   <rect x="380" y="52" width="260" height="170" rx="10" stroke="#4ade80" stroke-width="1.5" fill="none"/>
   <text x="510" y="76" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="700" fill="#4ade80">Demanda de rastreo</text>
-  <text x="510" y="96" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#94a3b8">Google's interest</text>
+  <text x="510" y="96" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#94a3b8">El interés de Google</text>
 
   <circle cx="420" cy="128" r="6" stroke="#e2e8f0" stroke-width="1" fill="none"/>
-  <text x="436" y="132" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Page popularity</text>
+  <text x="436" y="132" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Popularidad de la página</text>
   <circle cx="420" cy="154" r="6" stroke="#e2e8f0" stroke-width="1" fill="none"/>
   <text x="436" y="158" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Frescura del contenido</text>
   <circle cx="420" cy="180" r="6" stroke="#e2e8f0" stroke-width="1" fill="none"/>
-  <text x="436" y="184" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Backlink authority</text>
+  <text x="436" y="184" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Autoridad de vínculo de retroceso</text>
   <circle cx="420" cy="206" r="6" stroke="#e2e8f0" stroke-width="1" fill="none"/>
-  <text x="436" y="210" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Sitemap signals</text>
+  <text x="436" y="210" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Señales del mapa del sitio</text>
 </svg>
