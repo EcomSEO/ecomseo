@@ -1,15 +1,15 @@
 <svg viewBox="0 0 400 240" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <text x="200" y="22" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#a78bfa">E-Mail-Outreach-Konversionstrichter</text>
+  <text x="200" y="22" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#a78bfa">E-Mail-Outreach-Conversion-Trichter</text>
   <polygon points="80,45 320,45 290,90 110,90" stroke="#60a5fa" stroke-width="1.5" fill="none"/>
-  <text x="200" y="65" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#60a5fa">100 Interessenten</text>
+  <text x="200" y="65" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#60a5fa">100 Perspektiven</text>
   <text x="200" y="80" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Qualifiziert, DR 30+, nischenrelevant</text>
   <polygon points="110,95 290,95 270,135 130,135" stroke="#4ade80" stroke-width="1.5" fill="none"/>
-  <text x="200" y="112" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#4ade80">40-60 Opened</text>
-  <text x="200" y="127" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">40-60% Oeffnungsrate-Benchmark</text>
+  <text x="200" y="112" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#4ade80">40-60 Geöffnet</text>
+  <text x="200" y="127" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">40-60 % Öffnungsraten-Benchmark</text>
   <polygon points="130,140 270,140 252,175 148,175" stroke="#f97316" stroke-width="1.5" fill="none"/>
-  <text x="200" y="155" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#f97316">8-15 Replied</text>
-  <text x="200" y="170" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">50-70% kommen aus Follow-ups</text>
+  <text x="200" y="155" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#f97316">8-15 antwortete</text>
+  <text x="200" y="170" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">50–70 % stammen aus Folgeuntersuchungen</text>
   <polygon points="148,180 252,180 240,210 160,210" stroke="#a78bfa" stroke-width="1.5" fill="none"/>
   <text x="200" y="200" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#a78bfa">3-7 Links platziert</text>
-  <text x="200" y="230" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#4ade80">30-50% der positiven Antworten fuehren zu Links</text>
+  <text x="200" y="230" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#4ade80">30–50 % der positiven Antworten werden in Links umgewandelt</text>
 </svg>

@@ -6,19 +6,19 @@
   <rect x="40" y="50" width="200" height="200" rx="8" stroke="#60a5fa" stroke-width="1.5" fill="none"/>
   <text x="140" y="72" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="700" fill="#60a5fa">Desktop-Version</text>
   <rect x="56" y="84" width="168" height="16" rx="3" stroke="#94a3b8" stroke-width="0.8" fill="none"/>
-  <text x="140" y="95" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#94a3b8">Volle Nav: 200 Kategorielinks</text>
+  <text x="140" y="95" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#94a3b8">Vollständige Navigation: 200 Kategorie-Links</text>
   <rect x="56" y="106" width="168" height="40" rx="3" stroke="#94a3b8" stroke-width="0.8" fill="none"/>
-  <text x="140" y="122" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#94a3b8">Vollstaendige Produktbeschreibung</text>
-  <text x="140" y="134" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#94a3b8">500 Woerter + Spezifikationstabelle</text>
+  <text x="140" y="122" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#94a3b8">Vollständige Produktbeschreibung</text>
+  <text x="140" y="134" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#94a3b8">500 Wörter + Spezifikationstabelle</text>
   <rect x="56" y="152" width="168" height="24" rx="3" stroke="#94a3b8" stroke-width="0.8" fill="none"/>
-  <text x="140" y="168" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#94a3b8">Cross-Sells, verwandte Produkte</text>
+  <text x="140" y="168" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#94a3b8">Cross-Selling, verwandte Produkte</text>
   <rect x="56" y="182" width="168" height="24" rx="3" stroke="#94a3b8" stroke-width="0.8" fill="none"/>
-  <text x="140" y="198" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#94a3b8">Reviews, FAQs, breadcrumbs</text>
+  <text x="140" y="198" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#94a3b8">Rezensionen, FAQs, Breadcrumbs</text>
   <rect x="56" y="214" width="168" height="24" rx="3" stroke="#94a3b8" stroke-width="0.8" fill="none"/>
-  <text x="140" y="230" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#94a3b8">Internal links: 45+</text>
+  <text x="140" y="230" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#94a3b8">Interne Links: 45+</text>
 
   <!-- X mark on desktop -->
-  <text x="140" y="268" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#ef4444">Nicht zur Indexierung verwendet</text>
+  <text x="140" y="268" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#ef4444">Wird nicht zur Indizierung verwendet</text>
 
   <!-- Arrow -->
   <text x="310" y="155" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" fill="#a78bfa">vs</text>
@@ -27,25 +27,25 @@
   <rect x="380" y="50" width="140" height="200" rx="12" stroke="#4ade80" stroke-width="2" fill="none"/>
   <text x="450" y="72" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="700" fill="#4ade80">Mobile Version</text>
   <rect x="394" y="84" width="112" height="14" rx="3" stroke="#4ade80" stroke-width="0.8" fill="none"/>
-  <text x="450" y="94" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">Hamburger-Menue</text>
+  <text x="450" y="94" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">Hamburger-Menü</text>
   <rect x="394" y="104" width="112" height="30" rx="3" stroke="#4ade80" stroke-width="0.8" fill="none"/>
-  <text x="450" y="118" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">Gekuerzte Beschreibung</text>
-  <text x="450" y="128" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">200 Woerter</text>
+  <text x="450" y="118" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">Gekürzte Beschreibung</text>
+  <text x="450" y="128" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">200 Wörter</text>
   <rect x="394" y="140" width="112" height="20" rx="3" stroke="#ef4444" stroke-width="0.8" fill="none"/>
   <text x="450" y="154" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#ef4444">Keine Cross-Sells</text>
   <rect x="394" y="166" width="112" height="20" rx="3" stroke="#ef4444" stroke-width="0.8" fill="none"/>
-  <text x="450" y="180" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#ef4444">Hinter Tabs versteckt</text>
+  <text x="450" y="180" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#ef4444">Versteckt hinter Laschen</text>
   <rect x="394" y="192" width="112" height="20" rx="3" stroke="#ef4444" stroke-width="0.8" fill="none"/>
-  <text x="450" y="206" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#ef4444">Fewer internal links: 12</text>
+  <text x="450" y="206" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#ef4444">Weniger interne Links: 12</text>
 
   <!-- Checkmark on mobile -->
-  <text x="450" y="268" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="700" fill="#4ade80">Google indexiert DIES</text>
+  <text x="450" y="268" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="700" fill="#4ade80">Google indiziert DIESES</text>
 
   <!-- Warning -->
   <rect x="540" y="100" width="130" height="80" rx="6" stroke="#f97316" stroke-width="1" fill="none"/>
-  <text x="605" y="122" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="700" fill="#f97316">Risk Areas</text>
-  <text x="605" y="140" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">Weniger Inhalt = niedrigere</text>
-  <text x="605" y="152" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">Qualitaetsbewertung</text>
-  <text x="605" y="168" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">Fewer links = weaker</text>
-  <text x="605" y="180" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">Crawl-Prioritaet</text>
+  <text x="605" y="122" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="700" fill="#f97316">Risikogebiete</text>
+  <text x="605" y="140" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">Weniger Inhalt = weniger</text>
+  <text x="605" y="152" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">Qualitätsfaktor</text>
+  <text x="605" y="168" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">Weniger Glieder = schwächer</text>
+  <text x="605" y="180" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">Crawl-Priorität</text>
 </svg>

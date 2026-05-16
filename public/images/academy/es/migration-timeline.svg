@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 210" fill="none">
-  <text x="210" y="22" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#a78bfa">8-Semana Cronología de migración</text>
+  <text x="210" y="22" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#a78bfa">Cronograma de migración de 8 semanas</text>
   <!-- Timeline line -->
   <line x1="30" y1="55" x2="390" y2="55" stroke="#e2e8f0" stroke-width="1.5"/>
   <!-- Semana markers -->
@@ -9,42 +9,42 @@
   <circle cx="310" cy="55" r="4" fill="#a78bfa"/>
   <circle cx="375" cy="55" r="4" fill="#4ade80"/>
   <!-- Semana labels -->
-  <text x="55" y="45" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#60a5fa">Wk 1-2</text>
-  <text x="145" y="45" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#60a5fa">Wk 3-4</text>
-  <text x="235" y="45" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#f97316">Wk 5-6</text>
-  <text x="310" y="45" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#a78bfa">Wk 7</text>
-  <text x="375" y="45" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#4ade80">Wk 8</text>
+  <text x="55" y="45" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#60a5fa">Semana 1-2</text>
+  <text x="145" y="45" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#60a5fa">Semana 3-4</text>
+  <text x="235" y="45" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#f97316">Semana 5-6</text>
+  <text x="310" y="45" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#a78bfa">Semana 7</text>
+  <text x="375" y="45" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#4ade80">Semana 8</text>
   <!-- Phase boxes below -->
   <rect x="15" y="68" width="80" height="46" rx="5" stroke="#60a5fa" stroke-width="1" fill="none"/>
-  <text x="55" y="82" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#60a5fa">Audit</text>
-  <text x="55" y="94" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">SEO baseline</text>
-  <text x="55" y="105" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">URL mapping</text>
+  <text x="55" y="82" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#60a5fa">Auditoría</text>
+  <text x="55" y="94" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">Línea base de SEO</text>
+  <text x="55" y="105" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">mapeo de URL</text>
 
   <rect x="105" y="68" width="80" height="46" rx="5" stroke="#60a5fa" stroke-width="1" fill="none"/>
   <text x="145" y="82" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#60a5fa">Implementar</text>
-  <text x="145" y="94" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">Redirects on staging</text>
-  <text x="145" y="105" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">Schema + meta parity</text>
+  <text x="145" y="94" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">Redirecciones en puesta en escena</text>
+  <text x="145" y="105" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">Esquema + metaparidad</text>
 
   <rect x="195" y="68" width="80" height="46" rx="5" stroke="#f97316" stroke-width="1" fill="none"/>
-  <text x="235" y="82" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#f97316">Probar</text>
-  <text x="235" y="94" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">Full staging crawl</text>
-  <text x="235" y="105" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">Performance audit</text>
+  <text x="235" y="82" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#f97316">Prueba</text>
+  <text x="235" y="94" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">Rastreo de puesta en escena completo</text>
+  <text x="235" y="105" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">Auditoría de desempeño</text>
 
   <rect x="280" y="68" width="60" height="46" rx="5" stroke="#a78bfa" stroke-width="1" fill="none"/>
   <text x="310" y="82" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#a78bfa">Revisar</text>
-  <text x="310" y="94" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">Sign-off</text>
-  <text x="310" y="105" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">Rollback plan</text>
+  <text x="310" y="94" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">Cerrar sesión</text>
+  <text x="310" y="105" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">plan de reversión</text>
 
   <rect x="350" y="68" width="60" height="46" rx="5" stroke="#4ade80" stroke-width="1" fill="none"/>
-  <text x="380" y="82" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#4ade80">Launch</text>
-  <text x="380" y="94" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">Go live</text>
-  <text x="380" y="105" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">Monitorear 24/7</text>
+  <text x="380" y="82" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" font-weight="bold" fill="#4ade80">Lanzamiento</text>
+  <text x="380" y="94" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">ir en vivo</text>
+  <text x="380" y="105" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">Monitorear 24 horas al día, 7 días a la semana</text>
 
   <!-- Recovery timeline -->
   <rect x="30" y="130" width="360" height="34" rx="6" stroke="#a78bfa" stroke-width="1" fill="none"/>
-  <text x="210" y="146" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#a78bfa">Post-Launch Recovery Window</text>
-  <text x="210" y="158" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">4-6 semanas typical | up to 3 meses for competitive keywords</text>
+  <text x="210" y="146" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#a78bfa">Ventana de recuperación posterior al lanzamiento</text>
+  <text x="210" y="158" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">4-6 semanas típicas | hasta 3 meses para palabras clave competitivas</text>
   <!-- Rollback trigger -->
   <rect x="30" y="175" width="360" height="28" rx="6" stroke="#ef4444" stroke-width="1" fill="none"/>
-  <text x="210" y="194" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#ef4444">Rollback trigger: traffic drop exceeding 50% for 48+ hours</text>
+  <text x="210" y="194" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#ef4444">Activador de reversión: caída del tráfico superior al 50 % durante más de 48 horas</text>
 </svg>

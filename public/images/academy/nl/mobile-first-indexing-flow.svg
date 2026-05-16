@@ -1,51 +1,51 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 300" fill="none">
   <!-- Title -->
-  <text x="340" y="24" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="700" fill="#a78bfa">Mobile-First Indexing: What Google Sees</text>
+  <text x="340" y="24" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="700" fill="#a78bfa">Mobile-First Indexering: wat Google ziet</text>
 
   <!-- Desktop version -->
   <rect x="40" y="50" width="200" height="200" rx="8" stroke="#60a5fa" stroke-width="1.5" fill="none"/>
-  <text x="140" y="72" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="700" fill="#60a5fa">Desktop Version</text>
+  <text x="140" y="72" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="700" fill="#60a5fa">Desktopversie</text>
   <rect x="56" y="84" width="168" height="16" rx="3" stroke="#94a3b8" stroke-width="0.8" fill="none"/>
-  <text x="140" y="95" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#94a3b8">Full nav: 200 category links</text>
+  <text x="140" y="95" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#94a3b8">Volledige navigatie: 200 categorielinks</text>
   <rect x="56" y="106" width="168" height="40" rx="3" stroke="#94a3b8" stroke-width="0.8" fill="none"/>
-  <text x="140" y="122" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#94a3b8">Full product description</text>
-  <text x="140" y="134" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#94a3b8">500 words + specs table</text>
+  <text x="140" y="122" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#94a3b8">Volledige productbeschrijving</text>
+  <text x="140" y="134" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#94a3b8">500 woorden + specificatietabel</text>
   <rect x="56" y="152" width="168" height="24" rx="3" stroke="#94a3b8" stroke-width="0.8" fill="none"/>
-  <text x="140" y="168" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#94a3b8">Cross-sells, related products</text>
+  <text x="140" y="168" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#94a3b8">Cross-sells, gerelateerde producten</text>
   <rect x="56" y="182" width="168" height="24" rx="3" stroke="#94a3b8" stroke-width="0.8" fill="none"/>
-  <text x="140" y="198" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#94a3b8">Reviews, FAQs, breadcrumbs</text>
+  <text x="140" y="198" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#94a3b8">Recensies, veelgestelde vragen, broodkruimels</text>
   <rect x="56" y="214" width="168" height="24" rx="3" stroke="#94a3b8" stroke-width="0.8" fill="none"/>
-  <text x="140" y="230" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#94a3b8">Internal links: 45+</text>
+  <text x="140" y="230" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#94a3b8">Interne links: 45+</text>
 
   <!-- X mark on desktop -->
-  <text x="140" y="268" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#ef4444">Not used for indexing</text>
+  <text x="140" y="268" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#ef4444">Wordt niet gebruikt voor indexering</text>
 
   <!-- Arrow -->
-  <text x="310" y="155" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" fill="#a78bfa">vs</text>
+  <text x="310" y="155" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" fill="#a78bfa">versus</text>
 
   <!-- Mobile version -->
   <rect x="380" y="50" width="140" height="200" rx="12" stroke="#4ade80" stroke-width="2" fill="none"/>
-  <text x="450" y="72" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="700" fill="#4ade80">Mobile Version</text>
+  <text x="450" y="72" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="700" fill="#4ade80">Mobiele versie</text>
   <rect x="394" y="84" width="112" height="14" rx="3" stroke="#4ade80" stroke-width="0.8" fill="none"/>
-  <text x="450" y="94" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">Hamburger menu</text>
+  <text x="450" y="94" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">Hamburgermenu</text>
   <rect x="394" y="104" width="112" height="30" rx="3" stroke="#4ade80" stroke-width="0.8" fill="none"/>
-  <text x="450" y="118" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">Truncated description</text>
-  <text x="450" y="128" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">200 words</text>
+  <text x="450" y="118" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">Ingekorte beschrijving</text>
+  <text x="450" y="128" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">200 woorden</text>
   <rect x="394" y="140" width="112" height="20" rx="3" stroke="#ef4444" stroke-width="0.8" fill="none"/>
-  <text x="450" y="154" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#ef4444">No cross-sells</text>
+  <text x="450" y="154" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#ef4444">Geen cross-selling</text>
   <rect x="394" y="166" width="112" height="20" rx="3" stroke="#ef4444" stroke-width="0.8" fill="none"/>
-  <text x="450" y="180" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#ef4444">Hidden behind tabs</text>
+  <text x="450" y="180" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#ef4444">Verborgen achter tabbladen</text>
   <rect x="394" y="192" width="112" height="20" rx="3" stroke="#ef4444" stroke-width="0.8" fill="none"/>
-  <text x="450" y="206" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#ef4444">Fewer internal links: 12</text>
+  <text x="450" y="206" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#ef4444">Minder interne links: 12</text>
 
   <!-- Checkmark on mobile -->
-  <text x="450" y="268" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="700" fill="#4ade80">Google indexes THIS</text>
+  <text x="450" y="268" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="700" fill="#4ade80">Google indexeert DIT</text>
 
   <!-- Warning -->
   <rect x="540" y="100" width="130" height="80" rx="6" stroke="#f97316" stroke-width="1" fill="none"/>
-  <text x="605" y="122" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="700" fill="#f97316">Risk Areas</text>
-  <text x="605" y="140" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">Less content = lower</text>
-  <text x="605" y="152" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">quality score</text>
-  <text x="605" y="168" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">Fewer links = weaker</text>
-  <text x="605" y="180" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">crawl priority</text>
+  <text x="605" y="122" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="700" fill="#f97316">Risicogebieden</text>
+  <text x="605" y="140" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">Minder inhoud = lager</text>
+  <text x="605" y="152" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">kwaliteitsscore</text>
+  <text x="605" y="168" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">Minder schakels = zwakker</text>
+  <text x="605" y="180" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">crawlprioriteit</text>
 </svg>

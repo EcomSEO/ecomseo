@@ -1,60 +1,60 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 380" fill="none">
-  <text x="340" y="24" text-anchor="middle" fill="#a78bfa" font-family="Arial,sans-serif" font-size="14" font-weight="700">Anatomy of an Optimized Product Page</text>
+  <text x="340" y="24" text-anchor="middle" fill="#a78bfa" font-family="Arial,sans-serif" font-size="14" font-weight="700">Anatomie van een geoptimaliseerde productpagina</text>
 
   <!-- Page outline -->
   <rect x="160" y="38" width="360" height="320" rx="8" fill="#1a1a2e" stroke="#334155" stroke-width="1"/>
 
   <!-- Breadcrumbs -->
-  <text x="180" y="58" fill="#94a3b8" font-family="Arial,sans-serif" font-size="8">Home > Shoes > Running > Trail Running Shoes</text>
-  <text x="530" y="58" fill="#60a5fa" font-family="Arial,sans-serif" font-size="7">BreadcrumbList schema</text>
+  <text x="180" y="58" fill="#94a3b8" font-family="Arial,sans-serif" font-size="8">Thuis &gt; Schoenen &gt; Hardlopen &gt; Trailrunningschoenen</text>
+  <text x="530" y="58" fill="#60a5fa" font-family="Arial,sans-serif" font-size="7">BreadcrumbList-schema</text>
 
   <!-- H1 -->
   <rect x="180" y="64" width="320" height="24" rx="4" fill="#1e1e3a" stroke="#a78bfa" stroke-width="1.5"/>
-  <text x="190" y="80" fill="#a78bfa" font-family="Arial,sans-serif" font-size="10" font-weight="700">H1: Trail Running Shoes - Waterproof, Size 10</text>
+  <text x="190" y="80" fill="#a78bfa" font-family="Arial,sans-serif" font-size="10" font-weight="700">H1: Trailrunningschoenen - Waterdicht, maat 10</text>
 
   <!-- Image + details layout -->
   <rect x="180" y="96" width="140" height="100" rx="4" fill="none" stroke="#475569" stroke-width="1"/>
   <text x="250" y="150" text-anchor="middle" fill="#475569" font-family="Arial,sans-serif" font-size="10">Productafbeelding</text>
-  <text x="250" y="164" text-anchor="middle" fill="#60a5fa" font-family="Arial,sans-serif" font-size="7">Descriptive alt text</text>
-  <text x="250" y="176" text-anchor="middle" fill="#60a5fa" font-family="Arial,sans-serif" font-size="7">WebP format</text>
+  <text x="250" y="164" text-anchor="middle" fill="#60a5fa" font-family="Arial,sans-serif" font-size="7">Beschrijvende alternatieve tekst</text>
+  <text x="250" y="176" text-anchor="middle" fill="#60a5fa" font-family="Arial,sans-serif" font-size="7">WebP-formaat</text>
 
   <!-- Price + CTA -->
   <rect x="330" y="96" width="170" height="28" rx="4" fill="#1e1e3a" stroke="#4ade80" stroke-width="1"/>
-  <text x="415" y="114" text-anchor="middle" fill="#4ade80" font-family="Arial,sans-serif" font-size="11" font-weight="600">$149.99  |  Add to Cart</text>
+  <text x="415" y="114" text-anchor="middle" fill="#4ade80" font-family="Arial,sans-serif" font-size="11" font-weight="600">$ 149,99 |  Voeg toe aan winkelwagen</text>
 
   <!-- Trust signals -->
-  <text x="340" y="140" fill="#94a3b8" font-family="Arial,sans-serif" font-size="8">Free shipping  |  30-day returns  |  In stock</text>
+  <text x="340" y="140" fill="#94a3b8" font-family="Arial,sans-serif" font-size="8">Gratis verzending |  30 dagen retourneren |  Op voorraad</text>
 
   <!-- Description -->
   <rect x="330" y="150" width="170" height="46" rx="4" fill="#1e1e3a" stroke="#f97316" stroke-width="1"/>
   <text x="340" y="166" fill="#f97316" font-family="Arial,sans-serif" font-size="9" font-weight="600">Unieke beschrijving</text>
-  <text x="340" y="180" fill="#94a3b8" font-family="Arial,sans-serif" font-size="7">Benefits-first, not features-first</text>
-  <text x="340" y="190" fill="#94a3b8" font-family="Arial,sans-serif" font-size="7">100-600 words based on price</text>
+  <text x="340" y="180" fill="#94a3b8" font-family="Arial,sans-serif" font-size="7">De voordelen staan ​​voorop, niet de features eerst</text>
+  <text x="340" y="190" fill="#94a3b8" font-family="Arial,sans-serif" font-size="7">100-600 woorden op basis van prijs</text>
 
   <!-- Specifications -->
   <rect x="180" y="204" width="320" height="30" rx="4" fill="#1e1e3a" stroke="#60a5fa" stroke-width="1"/>
   <text x="190" y="223" fill="#60a5fa" font-family="Arial,sans-serif" font-size="9" font-weight="600">H2: Specificaties</text>
-  <text x="380" y="223" fill="#94a3b8" font-family="Arial,sans-serif" font-size="8">Material, dimensions, weight</text>
+  <text x="380" y="223" fill="#94a3b8" font-family="Arial,sans-serif" font-size="8">Materiaal, afmetingen, gewicht</text>
 
   <!-- Reviews -->
   <rect x="180" y="240" width="320" height="30" rx="4" fill="#1e1e3a" stroke="#4ade80" stroke-width="1"/>
-  <text x="190" y="259" fill="#4ade80" font-family="Arial,sans-serif" font-size="9" font-weight="600">H2: Reviews (127)</text>
-  <text x="380" y="259" fill="#94a3b8" font-family="Arial,sans-serif" font-size="8">AggregateRating schema</text>
+  <text x="190" y="259" fill="#4ade80" font-family="Arial,sans-serif" font-size="9" font-weight="600">H2: Beoordelingen (127)</text>
+  <text x="380" y="259" fill="#94a3b8" font-family="Arial,sans-serif" font-size="8">AggregateRating-schema</text>
 
   <!-- Related Products -->
   <rect x="180" y="276" width="320" height="30" rx="4" fill="#1e1e3a" stroke="#a78bfa" stroke-width="1"/>
-  <text x="190" y="295" fill="#a78bfa" font-family="Arial,sans-serif" font-size="9" font-weight="600">H2: Related Products</text>
-  <text x="380" y="295" fill="#94a3b8" font-family="Arial,sans-serif" font-size="8">Internal linking opportunity</text>
+  <text x="190" y="295" fill="#a78bfa" font-family="Arial,sans-serif" font-size="9" font-weight="600">H2: Gerelateerde producten</text>
+  <text x="380" y="295" fill="#94a3b8" font-family="Arial,sans-serif" font-size="8">Interne koppelingsmogelijkheid</text>
 
   <!-- Schema badge -->
   <rect x="180" y="314" width="320" height="28" rx="4" fill="#1e1e3a" stroke="#f97316" stroke-width="1"/>
-  <text x="340" y="332" text-anchor="middle" fill="#f97316" font-family="Arial,sans-serif" font-size="9" font-weight="600">Product Schema JSON-LD (name, price, sku, availability, reviews)</text>
+  <text x="340" y="332" text-anchor="middle" fill="#f97316" font-family="Arial,sans-serif" font-size="9" font-weight="600">Productschema JSON-LD (naam, prijs, SKU, beschikbaarheid, recensies)</text>
 
   <!-- Right-side labels -->
-  <text x="540" y="80" fill="#a78bfa" font-family="Arial,sans-serif" font-size="7">Keyword-rich H1</text>
-  <text x="540" y="114" fill="#4ade80" font-family="Arial,sans-serif" font-size="7">Trust + conversion</text>
-  <text x="540" y="172" fill="#f97316" font-family="Arial,sans-serif" font-size="7">Not manufacturer copy</text>
-  <text x="540" y="259" fill="#4ade80" font-family="Arial,sans-serif" font-size="7">+15-35% CTR from rich results</text>
+  <text x="540" y="80" fill="#a78bfa" font-family="Arial,sans-serif" font-size="7">Zoekwoordrijke H1</text>
+  <text x="540" y="114" fill="#4ade80" font-family="Arial,sans-serif" font-size="7">Vertrouwen + conversie</text>
+  <text x="540" y="172" fill="#f97316" font-family="Arial,sans-serif" font-size="7">Geen kopie van de fabrikant</text>
+  <text x="540" y="259" fill="#4ade80" font-family="Arial,sans-serif" font-size="7">+15-35% CTR door rijke resultaten</text>
 
-  <text x="340" y="374" text-anchor="middle" fill="#64748b" font-family="Arial,sans-serif" font-size="8">Pages scoring high on all elements see 30-50% more organic traffic per product</text>
+  <text x="340" y="374" text-anchor="middle" fill="#64748b" font-family="Arial,sans-serif" font-size="8">Pagina’s die hoog scoren op alle elementen genereren 30-50% meer organisch verkeer per product</text>
 </svg>

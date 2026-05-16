@@ -1,54 +1,54 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 260" fill="none">
   <!-- Title -->
-  <text x="340" y="24" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="700" fill="#a78bfa">Mobile Load Time vs. Conversion Rate</text>
+  <text x="340" y="24" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="700" fill="#a78bfa">Tempo di caricamento su dispositivi mobili e tasso di conversione</text>
 
   <!-- Chart area -->
   <!-- Y axis -->
   <line x1="80" y1="50" x2="80" y2="210" stroke="#94a3b8" stroke-width="0.8"/>
-  <text x="40" y="130" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#94a3b8" transform="rotate(-90,40,130)">Conversion Rate</text>
+  <text x="40" y="130" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#94a3b8" transform="rotate(-90,40,130)">Tasso di conversione</text>
 
   <!-- X axis -->
   <line x1="80" y1="210" x2="620" y2="210" stroke="#94a3b8" stroke-width="0.8"/>
-  <text x="350" y="245" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#94a3b8">Page Load Time (seconds)</text>
+  <text x="350" y="245" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#94a3b8">Tempo di caricamento della pagina (secondi)</text>
 
   <!-- Data points and bars -->
   <!-- 1s -->
   <rect x="100" y="64" width="60" height="146" rx="4" fill="#4ade80" opacity="0.3"/>
   <rect x="100" y="64" width="60" height="146" rx="4" stroke="#4ade80" stroke-width="1" fill="none"/>
-  <text x="130" y="58" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="700" fill="#4ade80">3.8%</text>
-  <text x="130" y="228" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">1s</text>
+  <text x="130" y="58" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="700" fill="#4ade80">3,8%</text>
+  <text x="130" y="228" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">1 secondo</text>
 
   <!-- 2s -->
   <rect x="190" y="80" width="60" height="130" rx="4" fill="#4ade80" opacity="0.2"/>
   <rect x="190" y="80" width="60" height="130" rx="4" stroke="#4ade80" stroke-width="1" fill="none"/>
-  <text x="220" y="74" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="700" fill="#4ade80">3.2%</text>
+  <text x="220" y="74" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="700" fill="#4ade80">3,2%</text>
   <text x="220" y="228" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">2s</text>
 
   <!-- 3s -->
   <rect x="280" y="104" width="60" height="106" rx="4" fill="#f97316" opacity="0.2"/>
   <rect x="280" y="104" width="60" height="106" rx="4" stroke="#f97316" stroke-width="1" fill="none"/>
-  <text x="310" y="98" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="700" fill="#f97316">2.5%</text>
+  <text x="310" y="98" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="700" fill="#f97316">2,5%</text>
   <text x="310" y="228" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">3s</text>
 
   <!-- Threshold line -->
   <line x1="340" y1="50" x2="340" y2="210" stroke="#ef4444" stroke-width="1" stroke-dasharray="4"/>
-  <text x="348" y="60" font-family="Arial,sans-serif" font-size="8" fill="#ef4444">53% abandon</text>
+  <text x="348" y="60" font-family="Arial,sans-serif" font-size="8" fill="#ef4444">Il 53% abbandona</text>
 
   <!-- 4s -->
   <rect x="370" y="134" width="60" height="76" rx="4" fill="#ef4444" opacity="0.15"/>
   <rect x="370" y="134" width="60" height="76" rx="4" stroke="#ef4444" stroke-width="1" fill="none"/>
-  <text x="400" y="128" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="700" fill="#ef4444">1.8%</text>
+  <text x="400" y="128" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="700" fill="#ef4444">1,8%</text>
   <text x="400" y="228" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">4s</text>
 
   <!-- 5s -->
   <rect x="460" y="156" width="60" height="54" rx="4" fill="#ef4444" opacity="0.15"/>
   <rect x="460" y="156" width="60" height="54" rx="4" stroke="#ef4444" stroke-width="1" fill="none"/>
-  <text x="490" y="150" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="700" fill="#ef4444">1.2%</text>
+  <text x="490" y="150" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="700" fill="#ef4444">1,2%</text>
   <text x="490" y="228" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">5s</text>
 
   <!-- 6s+ -->
   <rect x="550" y="176" width="60" height="34" rx="4" fill="#ef4444" opacity="0.15"/>
   <rect x="550" y="176" width="60" height="34" rx="4" stroke="#ef4444" stroke-width="1" fill="none"/>
-  <text x="580" y="170" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="700" fill="#ef4444">0.7%</text>
+  <text x="580" y="170" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="700" fill="#ef4444">0,7%</text>
   <text x="580" y="228" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">6s+</text>
 </svg>

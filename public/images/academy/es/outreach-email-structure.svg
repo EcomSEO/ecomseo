@@ -1,16 +1,16 @@
 <svg viewBox="0 0 400 220" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <text x="200" y="22" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#a78bfa">Broken Estructura del email de contacto para enlaces</text>
+  <text x="200" y="22" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#a78bfa">Estructura de correo electrónico de divulgación de enlaces rotos</text>
   <rect x="40" y="40" rx="8" width="320" height="42" stroke="#4ade80" stroke-width="1.5" fill="none"/>
   <text x="56" y="56" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#4ade80">1</text>
-  <text x="72" y="56" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#4ade80">Genuine Compliment</text>
-  <text x="72" y="72" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Reference specific content on their page</text>
+  <text x="72" y="56" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#4ade80">Elogio genuino</text>
+  <text x="72" y="72" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Hacer referencia a contenido específico en su página.</text>
   <rect x="40" y="92" rx="8" width="320" height="42" stroke="#ef4444" stroke-width="1.5" fill="none"/>
   <text x="56" y="108" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#ef4444">2</text>
-  <text x="72" y="108" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#ef4444">Report Broken Link</text>
-  <text x="72" y="124" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Exact URL + location on their page</text>
+  <text x="72" y="108" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#ef4444">Informar enlace roto</text>
+  <text x="72" y="124" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">URL exacta + ubicación en su página</text>
   <rect x="40" y="144" rx="8" width="320" height="42" stroke="#60a5fa" stroke-width="1.5" fill="none"/>
   <text x="56" y="160" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#60a5fa">3</text>
-  <text x="72" y="160" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#60a5fa">Suggest Replacement</text>
-  <text x="72" y="176" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">What your page covers + why it fits their audience</text>
-  <text x="200" y="210" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#f97316">Mantener under 120 words. Do not ask for a link directly.</text>
+  <text x="72" y="160" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#60a5fa">Sugerir reemplazo</text>
+  <text x="72" y="176" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Qué cubre su página + por qué se adapta a su audiencia</text>
+  <text x="200" y="210" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#f97316">Mantenga menos de 120 palabras. No solicite un enlace directamente.</text>
 </svg>
