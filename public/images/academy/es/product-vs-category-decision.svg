@@ -1,32 +1,32 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 340" fill="none">
-  <text x="340" y="24" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="700" fill="#a78bfa">Producto Page vs. Categoría Page: Dicisión Guide</text>
+  <text x="340" y="24" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="700" fill="#a78bfa">Página de producto frente a página de categoría: guía de decisiones</text>
   <!-- Center question -->
   <rect x="220" y="46" width="240" height="40" rx="8" stroke="#a78bfa" stroke-width="1.5" fill="#a78bfa" fill-opacity="0.1"/>
-  <text x="340" y="71" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="700" fill="#a78bfa">What does the SERP show?</text>
+  <text x="340" y="71" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="700" fill="#a78bfa">¿Qué muestra el SERP?</text>
   <!-- Left branch - Páginas de producto -->
   <line x1="280" y1="86" x2="150" y2="120" stroke="#4ade80" stroke-width="1.5"/>
   <rect x="30" y="110" width="240" height="48" rx="8" stroke="#4ade80" stroke-width="1.5" fill="#4ade80" fill-opacity="0.08"/>
-  <text x="150" y="132" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="700" fill="#4ade80">Producto Detail Pages</text>
-  <text x="150" y="148" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Single items with add-to-cart</text>
+  <text x="150" y="132" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="700" fill="#4ade80">Páginas de detalles del producto</text>
+  <text x="150" y="148" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Artículos individuales con agregar al carrito</text>
   <!-- Right branch - Páginas de categoría -->
   <line x1="400" y1="86" x2="530" y2="120" stroke="#60a5fa" stroke-width="1.5"/>
   <rect x="410" y="110" width="240" height="48" rx="8" stroke="#60a5fa" stroke-width="1.5" fill="#60a5fa" fill-opacity="0.08"/>
-  <text x="530" y="132" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="700" fill="#60a5fa">Categoría / Listing Pages</text>
-  <text x="530" y="148" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Collections, comparisons, grids</text>
+  <text x="530" y="132" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="700" fill="#60a5fa">Páginas de categorías/listados</text>
+  <text x="530" y="148" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Colecciones, comparaciones, grillas.</text>
   <!-- Producto examples -->
   <rect x="30" y="174" width="240" height="80" rx="6" stroke="#4ade80" stroke-width="1" fill="#4ade80" fill-opacity="0.04"/>
-  <text x="150" y="194" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="600" fill="#4ade80">Target with Páginas de producto:</text>
-  <text x="150" y="212" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Exact product names &amp; model numbers</text>
-  <text x="150" y="226" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">SKU-level terms &amp; specific specs</text>
-  <text x="150" y="240" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">"Nike Air Zoom Pegasus 40 women's"</text>
+  <text x="150" y="194" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="600" fill="#4ade80">Orientación con páginas de productos:</text>
+  <text x="150" y="212" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Nombres y nombres exactos de los productos. números de modelo</text>
+  <text x="150" y="226" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Términos y condiciones a nivel de SKU especificaciones específicas</text>
+  <text x="150" y="240" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">"Nike Air Zoom Pegasus 40 para mujer"</text>
   <!-- Categoría examples -->
   <rect x="410" y="174" width="240" height="80" rx="6" stroke="#60a5fa" stroke-width="1" fill="#60a5fa" fill-opacity="0.04"/>
-  <text x="530" y="194" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="600" fill="#60a5fa">Target with Páginas de categoría:</text>
-  <text x="530" y="212" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Producto type + broad modifiers</text>
-  <text x="530" y="226" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Marca + category combinations</text>
-  <text x="530" y="240" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">"men's waterproof hiking boots"</text>
+  <text x="530" y="194" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="600" fill="#60a5fa">Segmentar con páginas de categorías:</text>
+  <text x="530" y="212" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Tipo de producto + modificadores amplios</text>
+  <text x="530" y="226" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Combinaciones marca + categoría</text>
+  <text x="530" y="240" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">"botas de senderismo impermeables para hombre"</text>
   <!-- Cannibalization warning -->
   <rect x="140" y="274" width="400" height="50" rx="8" stroke="#ef4444" stroke-width="1.5" fill="#ef4444" fill-opacity="0.06"/>
-  <text x="340" y="296" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="700" fill="#ef4444">Cannibalization Risk</text>
-  <text x="340" y="314" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Assign one primary keyword per page. Never target the same term on both page types.</text>
+  <text x="340" y="296" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="700" fill="#ef4444">Riesgo de canibalización</text>
+  <text x="340" y="314" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Asigne una palabra clave principal por página. Nunca apunte al mismo término en ambos tipos de páginas.</text>
 </svg>
