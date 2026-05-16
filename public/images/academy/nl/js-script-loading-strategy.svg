@@ -1,13 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 280" fill="none">
   <!-- Title -->
-  <text x="340" y="24" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="700" fill="#a78bfa">Third-Party Script Loading Strategy</text>
+  <text x="340" y="24" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="700" fill="#a78bfa">Strategie voor het laden van scripts van derden</text>
 
   <!-- Timeline -->
   <line x1="60" y1="70" x2="620" y2="70" stroke="#94a3b8" stroke-width="1"/>
-  <text x="60" y="60" font-family="Arial,sans-serif" font-size="9" fill="#94a3b8">Page Load</text>
-  <text x="240" y="60" font-family="Arial,sans-serif" font-size="9" fill="#94a3b8">First Paint</text>
-  <text x="400" y="60" font-family="Arial,sans-serif" font-size="9" fill="#94a3b8">Interactive</text>
-  <text x="560" y="60" font-family="Arial,sans-serif" font-size="9" fill="#94a3b8">User Scroll</text>
+  <text x="60" y="60" font-family="Arial,sans-serif" font-size="9" fill="#94a3b8">Pagina laden</text>
+  <text x="240" y="60" font-family="Arial,sans-serif" font-size="9" fill="#94a3b8">Eerste verf</text>
+  <text x="400" y="60" font-family="Arial,sans-serif" font-size="9" fill="#94a3b8">Interactieve</text>
+  <text x="560" y="60" font-family="Arial,sans-serif" font-size="9" fill="#94a3b8">Gebruiker scrollen</text>
 
   <!-- Tick marks -->
   <line x1="60" y1="66" x2="60" y2="74" stroke="#94a3b8" stroke-width="1.5"/>
@@ -17,38 +17,38 @@
 
   <!-- Critical scripts -->
   <rect x="60" y="90" width="180" height="36" rx="6" stroke="#4ade80" stroke-width="1.5" fill="none"/>
-  <text x="150" y="106" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="700" fill="#4ade80">Critical (sync)</text>
-  <text x="150" y="120" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">CSS, core JS, product data</text>
+  <text x="150" y="106" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="700" fill="#4ade80">Kritiek (synchronisatie)</text>
+  <text x="150" y="120" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">CSS, kern-JS, productgegevens</text>
 
   <!-- Deferred scripts -->
   <rect x="240" y="90" width="160" height="36" rx="6" stroke="#60a5fa" stroke-width="1.5" fill="none"/>
-  <text x="320" y="106" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="700" fill="#60a5fa">Deferred (async)</text>
-  <text x="320" y="120" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">Analytics, GTM</text>
+  <text x="320" y="106" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="700" fill="#60a5fa">Uitgesteld (asynchroon)</text>
+  <text x="320" y="120" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">Analyse, GTM</text>
 
   <!-- Lazy scripts -->
   <rect x="400" y="90" width="220" height="36" rx="6" stroke="#f97316" stroke-width="1.5" fill="none"/>
-  <text x="510" y="106" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="700" fill="#f97316">Lazy (on event)</text>
-  <text x="510" y="120" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">Chat, reviews, retargeting</text>
+  <text x="510" y="106" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="700" fill="#f97316">Lui (op evenement)</text>
+  <text x="510" y="120" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">Chat, recensies, retargeting</text>
 
   <!-- Examples -->
   <rect x="40" y="150" width="200" height="110" rx="8" stroke="#4ade80" stroke-width="1" fill="none"/>
-  <text x="140" y="170" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="700" fill="#4ade80">Load Immediately</text>
-  <text x="60" y="190" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Theme CSS</text>
-  <text x="60" y="206" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Product display JS</text>
-  <text x="60" y="222" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Cart functionality</text>
-  <text x="60" y="238" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Above-fold images</text>
+  <text x="140" y="170" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="700" fill="#4ade80">Onmiddellijk laden</text>
+  <text x="60" y="190" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Thema-CSS</text>
+  <text x="60" y="206" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Productdisplay JS</text>
+  <text x="60" y="222" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Winkelwagenfunctionaliteit</text>
+  <text x="60" y="238" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Afbeeldingen boven de vouw</text>
 
   <rect x="250" y="150" width="180" height="110" rx="8" stroke="#60a5fa" stroke-width="1" fill="none"/>
-  <text x="340" y="170" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="700" fill="#60a5fa">Defer to After Paint</text>
+  <text x="340" y="170" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="700" fill="#60a5fa">Uitstellen naar After Paint</text>
   <text x="270" y="190" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Google Analytics</text>
-  <text x="270" y="206" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Tag Manager</text>
-  <text x="270" y="222" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Conversion pixels</text>
-  <text x="270" y="238" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">A/B testing</text>
+  <text x="270" y="206" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Tagmanager</text>
+  <text x="270" y="222" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Conversiepixels</text>
+  <text x="270" y="238" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">A/B-testen</text>
 
   <rect x="440" y="150" width="200" height="110" rx="8" stroke="#f97316" stroke-width="1" fill="none"/>
-  <text x="540" y="170" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="700" fill="#f97316">Load on User Action</text>
-  <text x="460" y="190" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Chat widget (5s delay)</text>
-  <text x="460" y="206" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Reviews (on scroll)</text>
-  <text x="460" y="222" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Retargeting pixels</text>
-  <text x="460" y="238" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Social embeds</text>
+  <text x="540" y="170" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="700" fill="#f97316">Laden op gebruikersactie</text>
+  <text x="460" y="190" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Chatwidget (5s vertraging)</text>
+  <text x="460" y="206" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Recensies (bij scrollen)</text>
+  <text x="460" y="222" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Pixels opnieuw targeten</text>
+  <text x="460" y="238" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Sociale insluitingen</text>
 </svg>

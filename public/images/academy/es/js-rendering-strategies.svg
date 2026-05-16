@@ -1,36 +1,36 @@
 <svg viewBox="0 0 420 210" xmlns="http://www.w3.org/2000/svg" fill="none">
-  <text x="210" y="20" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#a78bfa">Rendering Strategies Comparison</text>
+  <text x="210" y="20" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#a78bfa">Comparación de estrategias de renderizado</text>
   <!-- CSR -->
   <rect x="10" y="38" width="95" height="80" rx="6" stroke="#ef4444" stroke-width="1.5"/>
-  <text x="57" y="55" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#ef4444">CSR</text>
-  <text x="57" y="70" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">Empty HTML shell</text>
-  <text x="57" y="82" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">JS builds page</text>
-  <text x="57" y="94" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#ef4444">Worst for SEO</text>
-  <text x="57" y="112" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#94a3b8">Days-semanas delay</text>
+  <text x="57" y="55" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#ef4444">RSE</text>
+  <text x="57" y="70" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">Shell HTML vacío</text>
+  <text x="57" y="82" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">JS construye página</text>
+  <text x="57" y="94" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#ef4444">Lo peor para SEO</text>
+  <text x="57" y="112" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#94a3b8">Retraso de días-semanas</text>
   <!-- SSR -->
   <rect x="115" y="38" width="95" height="80" rx="6" stroke="#4ade80" stroke-width="1.5"/>
-  <text x="162" y="55" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#4ade80">SSR</text>
-  <text x="162" y="70" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">Full HTML on</text>
-  <text x="162" y="82" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">every request</text>
-  <text x="162" y="94" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#4ade80">Best for products</text>
-  <text x="162" y="112" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#94a3b8">Instant indexing</text>
+  <text x="162" y="55" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#4ade80">RSS</text>
+  <text x="162" y="70" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">HTML completo en</text>
+  <text x="162" y="82" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">cada solicitud</text>
+  <text x="162" y="94" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#4ade80">Lo mejor para productos</text>
+  <text x="162" y="112" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#94a3b8">Indexación instantánea</text>
   <!-- SSG -->
   <rect x="220" y="38" width="95" height="80" rx="6" stroke="#60a5fa" stroke-width="1.5"/>
   <text x="267" y="55" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#60a5fa">SSG</text>
-  <text x="267" y="70" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">Pre-rendered</text>
-  <text x="267" y="82" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">at build time</text>
-  <text x="267" y="94" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#60a5fa">Fastest load time</text>
-  <text x="267" y="112" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#94a3b8">Stale data risk</text>
+  <text x="267" y="70" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">Pre-renderizado</text>
+  <text x="267" y="82" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">en el momento de la construcción</text>
+  <text x="267" y="94" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#60a5fa">Tiempo de carga más rápido</text>
+  <text x="267" y="112" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#94a3b8">Riesgo de datos obsoletos</text>
   <!-- ISR -->
   <rect x="325" y="38" width="85" height="80" rx="6" stroke="#a78bfa" stroke-width="1.5"/>
   <text x="367" y="55" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#a78bfa">ISR</text>
-  <text x="367" y="70" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">Static + periodic</text>
-  <text x="367" y="82" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">revalidation</text>
-  <text x="367" y="94" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#a78bfa">Best of both</text>
-  <text x="367" y="112" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#94a3b8">Next.js/Nuxt</text>
+  <text x="367" y="70" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">Estático + periódico</text>
+  <text x="367" y="82" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">revalidación</text>
+  <text x="367" y="94" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#a78bfa">Lo mejor de ambos</text>
+  <text x="367" y="112" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#94a3b8">Siguiente.js/Nuxt</text>
   <!-- Recommendation -->
   <rect x="30" y="140" width="360" height="60" rx="6" stroke="#4ade80" stroke-width="1" stroke-dasharray="4"/>
-  <text x="210" y="160" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#4ade80">Recomendado Hybrid Approach</text>
-  <text x="210" y="175" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">SSG: category pages | SSR: product pages | CSR: cart/wishlist only</text>
-  <text x="210" y="190" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#94a3b8">Match rendering strategy to indexing priority per page type</text>
+  <text x="210" y="160" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#4ade80">Enfoque híbrido recomendado</text>
+  <text x="210" y="175" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">SSG: páginas de categorías | SSR: páginas de productos | CSR: carrito/lista de deseos únicamente</text>
+  <text x="210" y="190" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#94a3b8">Haga coincidir la estrategia de representación con la prioridad de indexación por tipo de página</text>
 </svg>
