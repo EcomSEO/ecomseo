@@ -140,10 +140,9 @@ export const competitorKeywordAnalysis: AcademyTopic = {
       },
     },
     fr: {
-      badge: "Recherche de mots-cles",
-      heading: "Analyse des mots-cles concurrents",
-      intro:
-        "Vos concurrents ont deja fait la recherche de mots-cles pour vous, ils ne le savent pas. En analysant quels mots-cles generent du trafic vers les boutiques concurrentes, vous pouvez identifier les lacunes de votre propre strategie et trouver des opportunites eprouvees qui generent deja des revenus dans votre marche. Ce processus s'appuie sur les fondamentaux couverts dans la [recherche de mots-clés pour l'e-commerce](/academy/keyword-research-for-ecommerce).",
+      badge: "Recherche de mots-clés",
+      heading: "Analyse des mots-clés concurrents",
+      intro: "Vos concurrents ont déjà fait la recherche de mots-clés pour vous, ils ne le savent pas. En analysant quels mots-clés generent du trafic vers les boutiques concurrentes, vous pouvez identifier les lacunes de votre propre stratégie et trouver des opportunites eprouvees qui generent déjà des revenus dans votre marché. Ce processus s'appuie sur les fondamentaux couverts dans la [recherche de mots-clés pour l'e-commerce](/academy/keyword-research-for-ecommerce).",
       readTime: "8 min de lecture",
       sections: [
         {
@@ -158,13 +157,13 @@ export const competitorKeywordAnalysis: AcademyTopic = {
           ],
         },
         {
-          title: "Mener une analyse de gap de mots-cles",
+          title: "Mener une analyse de gap de mots-clés",
           content:
             "Une analyse de gap de mots-cles compare votre profil de mots-cles a celui d'un ou plusieurs concurrents pour trouver les termes pour lesquels ils se positionnent et pas vous. C'est l'une des activites au plus fort ROI en SEO e-commerce car elle revele une demande prouvee, si votre concurrent se positionne et obtient du trafic pour un mot-cle, l'opportunite est validee.\n\nDans Ahrefs, allez dans Site Explorer, entrez votre domaine, puis naviguez vers Content Gap. Entrez 2-3 domaines concurrents et l'outil montrera les mots-cles pour lesquels ces concurrents se positionnent dans le top 10 mais votre site pas du tout. Filtrez les resultats par volume de recherche (superieur a 50), par difficulte de mot-cle (inferieur a 40 pour des gains rapides) et par position (concurrent dans le top 5).\n\nDans Semrush, la fonctionnalite equivalente est Keyword Gap sous Competitive Research. L'interface permet de comparer jusqu'a cinq domaines simultanement, avec des filtres pour le type de mot-cle, les plages de position et les tranches de volume.\n\nLe resultat est typiquement une liste de centaines ou milliers de mots-cles. N'essayez pas de tous les traiter. Triez par volume de recherche, appliquez votre notation d'intention (priorisez les mots-cles commerciaux de niveaux 1-2) et cherchez des clusters de termes lies. Un cluster comme \"t-shirts coton bio\", \"chemises coton bio femme\" et \"meilleurs vetements coton biologique\" pointe vers une lacune de categorie que vous pouvez combler avec une seule page bien structuree. Notre [vérificateur de cannibalisation de mots-clés](/tools/duplicate-content) peut vous aider à vérifier que ces nouvelles pages n'entreront pas en conflit avec le contenu existant.",
           tip: "Executez l'analyse de gap contre chaque concurrent individuellement, pas tous en meme temps. Differents concurrents reveleront differents clusters d'opportunites. Un concurrent mode peut vous montrer des mots-cles vestimentaires manquants, tandis qu'un concurrent deco revele des termes de decoration auxquels vous n'aviez pas pense.",
         },
         {
-          title: "Trouver les mots-cles pour lesquels les concurrents se positionnent et pas vous",
+          title: "Trouver les mots-clés pour lesquels les concurrents se positionnent et pas vous",
           content:
             "L'analyse de gap vous donne la liste brute, mais la transformer en action necessite une categorisation. Nous trions les mots-cles concurrents en quatre categories.\n\nCategorie un : mots-cles pour lesquels vous avez des pages mais ne vous positionnez pas. Vous avez deja une page produit ou categorie qui devrait cibler ce mot-cle mais elle n'apparait pas dans le top 100. Ce sont des opportunites d'optimisation, mettez a jour le titre, le H1 et le contenu de la page existante pour mieux cibler le terme.\n\nCategorie deux : mots-cles pour lesquels vous n'avez pas de pages mais pourriez en creer. Votre concurrent a une page categorie pour \"ecouteurs sans fil pour le sport\" et vous vendez des ecouteurs de sport mais n'avez pas de page categorie dediee. Creez la page.\n\nCategorie trois : mots-cles necessitant de nouveaux produits ou lignes de produits. Votre concurrent se positionne pour des produits que vous ne proposez pas. C'est de l'intelligence commerciale, pas seulement des donnees SEO, cela vous dit quoi approvisionner ou quels nouveaux produits developper.\n\nCategorie quatre : mots-cles ne valant pas la peine d'etre poursuivis. Certains mots-cles concurrents ne correspondent pas a votre modele commercial, marche cible ou gamme de produits. Un concurrent peut se positionner sur des modificateurs \"pas cher\" alors que votre marque se positionne comme premium. Passez.\n\nLes deux premieres categories contiennent 80% de vos opportunites actionnables. La categorie un est la plus rapide a mettre en oeuvre (optimiser des pages existantes), tandis que la categorie deux necessite la creation de nouvelles pages mais donne generalement des resultats dans les 3-6 mois.",
           items: [
@@ -176,15 +175,15 @@ export const competitorKeywordAnalysis: AcademyTopic = {
           image: {
             src: "/images/academy/fr/competitor-keyword-buckets.svg",
             alt: "Vier-Eimer-Framework zur Kategorisierung von Wettbewerber-Keywords",
-            caption: "Eimer 1 und 2 enthalten 80\u00a0% der umsetzbaren Chancen. Eimer 1 (bestehende Seiten optimieren) liefert die schnellsten Ergebnisse.",
+            caption: "Les buckets 1 et 2 contiennent 80 % des opportunités exploitables. Le bucket 1 (optimiser les pages existantes) fournit les résultats les plus rapides.",
           },
           callout: {
             title: "Gap-Analyse ROI",
-            text: "Führen Sie die Gap-Analyse gegen jeden Wettbewerber einzeln durch, nicht alle gleichzeitig. Vierteljährliche Wiederholung fängt neue Marktteilnehmer und Ranking-Verschiebungen ab.",
+            text: "Effectuez une analyse des écarts par rapport à chaque concurrent individuellement, pas tous en même temps. Un concurrent de mode révèle des mots-clés pour les vêtements, un concurrent d'articles pour la maison révèle des termes de décoration. Le redoublement trimestriel attire de nouveaux entrants",
           },
         },
         {
-          title: "Analyser les strategies de contenu des concurrents",
+          title: "Analyser les stratégies de contenu des concurrents",
           content:
             "Au-dela des mots-cles individuels, observez comment les concurrents structurent leur contenu pour capter le trafic de recherche. Tirez leurs 50 meilleures pages organiques par trafic depuis Ahrefs ou Semrush. Quels types de pages dominent ? Quelle est la longueur de leur texte de page categorie ? Utilisent-ils des guides d'achat, des pages comparatives ou du contenu educatif pour capter les termes mid-funnel ?\n\nPortez une attention particuliere au contenu des pages categories. Si la page categorie d'un concurrent pour \"chaussures de course homme\" inclut 500 mots de guide d'achat plus des options de filtrage detaillees, et que votre page equivalente n'a qu'une grille de produits, cette lacune de contenu vous coute probablement des positions.\n\nVerifiez leurs modeles de maillage interne. Lient-ils des articles de blog aux pages categories ? Les pages produits font-elles des liens croises vers des produits associes ? Leur navigation expose-t-elle des pages de sous-categories que vous gardez cachees ? Ces choix structurels affectent directement les classements de mots-cles et sont faciles a reproduire sur votre propre site.\n\nObservez leurs signaux de fraicheur de contenu. Mettent-ils a jour le texte des pages categories de facon saisonniere ? Ajoutent-ils du contenu de comparaison de produits mensuellement ? Un concurrent qui publie un guide \"meilleurs casques sans fil\" mis a jour chaque trimestre signale que la fraicheur compte pour ce mot-cle, et vous donne un objectif de calendrier de contenu.",
         },
@@ -208,15 +207,14 @@ export const competitorKeywordAnalysis: AcademyTopic = {
     },
     es: {
       badge: "Investigacion de palabras clave",
-      heading: "Analisis de palabras clave de competidores",
-      intro:
-        "Tus competidores ya han hecho la [investigacion de palabras clave](/academy/keyword-research-for-ecommerce) por ti, simplemente no lo saben. Al analizar que palabras clave generan trafico a las tiendas competidoras, puedes identificar brechas en tu propia estrategia y encontrar oportunidades probadas que ya generan ingresos en tu mercado.",
+      heading: "Análisis de palabras clave de competidores",
+      intro: "Tus competidores ya han hecho la [investigacion de palabras clave](/academy/keyword-research-for-ecommerce) por ti, simplemente no lo saben. Al analizar que palabras clave generan tráfico a las tiendas competidoras, puedes identificar brechas en tu propia estrategia y encontrar oportunidades probadas que ya generan ingresos en tu mercado.",
       readTime: "8 min de lectura",
       sections: [
         {
           title: "Identificar a tus verdaderos competidores SEO",
           content:
-            "Tus competidores SEO no son necesariamente tus competidores comerciales. Una zapateria local puede competir con Nike por clientes, pero en los resultados de busqueda, sus verdaderos competidores son otros minoristas online de tamano medio posicionados para las mismas palabras clave de producto.\n\nPara encontrar tus competidores SEO reales, busca tus 10 principales palabras clave de categoria y anota que dominios aparecen consistentemente en la primera pagina. Esos son los sitios contra los que luchas por clics. Algunos seran competidores comerciales directos; otros podrian ser marketplaces, sitios de resenas o minoristas nicho que no habias considerado.\n\nAhrefs y Semrush tienen funciones de descubrimiento de competidores que automatizan este proceso. Introduce tu dominio y te mostraran que sitios comparten la mayor superposicion de palabras clave contigo. El informe de \"dominios competidores\" tipicamente revela 5-10 sitios que deberias rastrear regularmente.\n\nEnfocate en competidores que estan un paso por delante de ti, no en los lideres del mercado con autoridad de dominio masiva. Si eres una tienda de 2 anos con 500 productos, analizar Amazon o El Corte Ingles no te ensena nada accionable. En su lugar, analiza la tienda con 1.000 productos y rankings ligeramente mejores, su estrategia esta a tu alcance.",
+            "Tus competidores SEO no son necesariamente tus competidores comerciales. Una zapateria local puede competir con Nike por clientes, pero en los resultados de busqueda, sus verdaderos competidores son otros minoristas online de tamano medio posicionados para las mismas palabras clave de producto.\n\nPara encontrar tus competidores SEO reales, busca tus 10 principales palabras clave de categoria y anota que dominios aparecen consistentemente en la primera pagina. Esos son los sitios contra los que luchas por clics. Algunos seran competidores comerciales directos; otros podrian ser marketplaces, sitios de resenas o minoristas nicho que no habias considerado.\n\nAhrefs y Semrush tienen funciones de descubrimiento de competidores que automatizan este proceso. Introduce tu dominio y te mostraran que sitios comparten la mayor superposicion de palabras clave contigo. El informe de \"dominios competidores\" tipicamente revela 5-10 sitios que deberias rastrear regularmente.\n\nEnfocate en competidores que estan un paso por delante de ti, no en los lideres del mercado con autoridad de dominio masiva. Si eres una tienda de 2 años con 500 productos, analizar Amazon o El Corte Ingles no te ensena nada accionable. En su lugar, analiza la tienda con 1.000 productos y rankings ligeramente mejores, su estrategia esta a tu alcance.",
           items: [
             "Busca tus 10 principales palabras clave de categoria y anota que dominios aparecen repetidamente en la primera pagina",
             "Usa los informes de dominios competidores de Ahrefs/Semrush para encontrar sitios con mayor superposicion de palabras clave",
@@ -225,7 +223,7 @@ export const competitorKeywordAnalysis: AcademyTopic = {
           ],
         },
         {
-          title: "Ejecutar un analisis de brecha de palabras clave",
+          title: "Ejecutar un análisis de brecha de palabras clave",
           content:
             "Un analisis de brecha de palabras clave compara tu perfil de palabras clave contra uno o mas competidores para encontrar terminos para los que ellos posicionan y tu no. Esta es una de las actividades con mayor ROI en SEO para ecommerce porque revela demanda probada, si tu competidor posiciona y obtiene trafico para una palabra clave, la oportunidad esta validada.\n\nEn Ahrefs, ve al Site Explorer, introduce tu dominio, luego navega a Content Gap. Introduce 2-3 dominios competidores y la herramienta mostrara palabras clave para las que esos competidores posicionan en el top 10 pero tu sitio no posiciona en absoluto. Filtra los resultados por volumen de busqueda (superior a 50), por dificultad de palabra clave (inferior a 40 para victorias rapidas) y por posicion (competidor en top 5).\n\nEn Semrush, la funcion equivalente es Keyword Gap bajo Competitive Research. La interfaz permite comparar hasta cinco dominios simultaneamente, con filtros para tipo de palabra clave, rangos de posicion y tramos de volumen.\n\nEl resultado es tipicamente una lista de cientos o miles de palabras clave. No intentes abordarlas todas. Ordena por volumen de busqueda, aplica tu puntuacion de intencion (prioriza palabras clave comerciales de niveles 1-2) y busca clusters de terminos relacionados. Un cluster como \"camisetas algodon organico\", \"camisas algodon organico mujer\" y \"mejor ropa algodon organico\" apunta a una brecha de categoria que puedes abordar con una sola pagina bien estructurada. Nuestro [verificador de canibalizacion de palabras clave](/tools/duplicate-content) puede ayudarte a verificar que estas nuevas paginas no entren en conflicto con el contenido existente.",
           tip: "Ejecuta el analisis de brecha contra cada competidor individualmente, no todos a la vez. Diferentes competidores revelaran diferentes clusters de oportunidades. Un competidor de moda puede mostrarte palabras clave de ropa que estas perdiendo, mientras un competidor de hogar revela terminos de decoracion que no habias considerado.",
@@ -243,11 +241,11 @@ export const competitorKeywordAnalysis: AcademyTopic = {
           image: {
             src: "/images/academy/es/competitor-keyword-buckets.svg",
             alt: "Vier-Eimer-Framework zur Kategorisierung von Wettbewerber-Keywords",
-            caption: "Eimer 1 und 2 enthalten 80\u00a0% der umsetzbaren Chancen. Eimer 1 (bestehende Seiten optimieren) liefert die schnellsten Ergebnisse.",
+            caption: "Los grupos 1 y 2 contienen el 80% de las oportunidades aprovechables. El segmento 1 (optimizar las páginas existentes) ofrece los resultados más rápidos.",
           },
           callout: {
             title: "Gap-Analyse ROI",
-            text: "Führen Sie die Gap-Analyse gegen jeden Wettbewerber einzeln durch, nicht alle gleichzeitig. Vierteljährliche Wiederholung fängt neue Marktteilnehmer und Ranking-Verschiebungen ab.",
+            text: "Realice análisis de brechas con cada competidor individualmente, no todos a la vez. Un competidor de moda revela palabras clave sobre indumentaria, un competidor de artículos para el hogar revela términos de decoración. La repetición trimestral atrapa nuevos participantes",
           },
         },
         {
@@ -256,7 +254,7 @@ export const competitorKeywordAnalysis: AcademyTopic = {
             "Mas alla de las palabras clave individuales, observa como los competidores estructuran su contenido para capturar trafico de busqueda. Extrae sus 50 mejores paginas organicas por trafico desde Ahrefs o Semrush. Que tipos de pagina dominan? Que tan largo es el texto de su pagina de categoria? Usan guias de compra, paginas comparativas o contenido educativo para capturar terminos mid-funnel?\n\nPresta especial atencion al contenido de las paginas de categoria. Si la pagina de categoria de un competidor para \"zapatillas de correr hombre\" incluye 500 palabras de guia de compra mas opciones de filtro detalladas, y tu pagina equivalente solo tiene una cuadricula de productos, esa brecha de contenido probablemente te esta costando posiciones.\n\nRevisa sus patrones de enlazado interno. Enlazan desde articulos de blog a paginas de categoria? Las paginas de producto enlazan cruzadamente a productos relacionados? Su navegacion expone paginas de subcategorias que tu mantienes ocultas? Estas decisiones estructurales afectan directamente los rankings de palabras clave y son faciles de replicar en tu propio sitio.\n\nObserva sus senales de frescura de contenido. Actualizan el texto de paginas de categoria estacionalmente? Anaden contenido comparativo de productos mensualmente? Un competidor que publica una guia \"mejores auriculares inalambricos\" actualizada trimestralmente senala que la frescura importa para esa palabra clave, y te da un objetivo de calendario de contenido.",
         },
         {
-          title: "Flujo de trabajo trimestral de analisis de brecha",
+          title: "Flujo de trabajo trimestral de análisis de brecha",
           content:
             "El analisis de palabras clave de competidores no es un proyecto de una sola vez. Los mercados cambian, nuevos competidores entran, y el panorama de palabras clave cambia cada trimestre. Ejecutamos este flujo de trabajo cada 90 dias para nuestros clientes ecommerce.\n\nSemana 1: actualiza tu lista de competidores. Verifica si nuevos dominios han entrado al top 10 para tus palabras clave principales. Elimina los que hayan salido. Extrae datos frescos de brecha de palabras clave para cada competidor.\n\nSemana 2: categoriza las nuevas palabras clave de brecha en las cuatro cubetas. Prioriza las oportunidades de cubeta 1 (optimizacion) y cubeta 2 (creacion de nuevas paginas). Estima el potencial de trafico para cada una usando datos de volumen y supuestos de CTR realistas.\n\nSemana 3: crea tickets de implementacion. Para palabras clave de cubeta 1, asigna tareas de optimizacion de pagina con cambios on-page especificos. Para palabras clave de cubeta 2, define la creacion de nuevas paginas de categoria o contenido. Anade plazos y responsables a cada ticket.\n\nSemana 4: revisa los resultados del analisis de brecha del trimestre anterior. Que paginas se optimizaron? Mejoraron los rankings? Que nuevas paginas se crearon? Se estan indexando y ganando impresiones? Esta retrospectiva asegura que el analisis de brecha lleve a la accion, no solo al analisis.\n\nLa cadencia trimestral te mantiene reactivo a los cambios del mercado sin abrumar a tu equipo con monitoreo constante de competidores. Entre revisiones trimestrales, tu herramienta de seguimiento de palabras clave maneja las fluctuaciones diarias de ranking. Para mas informacion sobre como construir una estrategia completa a partir de estos insights, consulta nuestra guia de [estrategia SEO para ecommerce](/blog/ecommerce-seo-strategy).",
           items: [
@@ -310,11 +308,11 @@ export const competitorKeywordAnalysis: AcademyTopic = {
           image: {
             src: "/images/academy/it/competitor-keyword-buckets.svg",
             alt: "Vier-Eimer-Framework zur Kategorisierung von Wettbewerber-Keywords",
-            caption: "Eimer 1 und 2 enthalten 80\u00a0% der umsetzbaren Chancen. Eimer 1 (bestehende Seiten optimieren) liefert die schnellsten Ergebnisse.",
+            caption: "I bucket 1 e 2 contengono l'80% delle opportunità realizzabili. Il bucket 1 (ottimizza le pagine esistenti) fornisce i risultati più rapidi.",
           },
           callout: {
             title: "Gap-Analyse ROI",
-            text: "Führen Sie die Gap-Analyse gegen jeden Wettbewerber einzeln durch, nicht alle gleichzeitig. Vierteljährliche Wiederholung fängt neue Marktteilnehmer und Ranking-Verschiebungen ab.",
+            text: "Esegui l'analisi del gap rispetto a ciascun concorrente individualmente, non tutto in una volta. Un concorrente della moda rivela parole chiave relative all'abbigliamento, un concorrente dei prodotti per la casa rivela termini relativi all'arredamento. La ripetizione trimestrale cattura nuovi partecipanti",
           },
         },
         {
@@ -377,11 +375,11 @@ export const competitorKeywordAnalysis: AcademyTopic = {
           image: {
             src: "/images/academy/nl/competitor-keyword-buckets.svg",
             alt: "Vier-Eimer-Framework zur Kategorisierung von Wettbewerber-Keywords",
-            caption: "Eimer 1 und 2 enthalten 80\u00a0% der umsetzbaren Chancen. Eimer 1 (bestehende Seiten optimieren) liefert die schnellsten Ergebnisse.",
+            caption: "Buckets 1 en 2 bevatten 80% van de bruikbare kansen. Bucket 1 (bestaande pagina's optimaliseren) levert de snelste resultaten op.",
           },
           callout: {
             title: "Gap-Analyse ROI",
-            text: "Führen Sie die Gap-Analyse gegen jeden Wettbewerber einzeln durch, nicht alle gleichzeitig. Vierteljährliche Wiederholung fängt neue Marktteilnehmer und Ranking-Verschiebungen ab.",
+            text: "Voer een gap-analyse uit voor elke concurrent afzonderlijk, niet allemaal tegelijk. Een modeconcurrent onthult trefwoorden voor kleding, een concurrent voor huishoudelijke artikelen onthult decortermen. Driemaandelijkse herhaling pakt nieuwe ent",
           },
         },
         {

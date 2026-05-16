@@ -158,12 +158,11 @@ items: [
     fr: {
       badge: "Guides sectoriels",
       heading: "Playbook SEO Sante et Beaute",
-      intro:
-        "Le e-commerce sante et beaute se situe a l'intersection de la science, de la reglementation et de la confiance personnelle. Google classe de nombreuses requetes sante et beaute comme YMYL, ce qui signifie que le positionnement exige des standards plus eleves d'expertise et de precision que la plupart des categories de vente au detail. Ce playbook couvre les strategies SEO specifiques qui stimulent la croissance organique pour les boutiques de soins de la peau, cosmetiques, complements alimentaires et bien-etre.",
+      intro: "Le e-commerce sante et beaute se situe a l'intersection de la science, de la reglementation et de la confiance personnelle. Google classe de nombreuses requetes sante et beaute comme YMYL, ce qui signifie que le positionnement exige des standards plus eleves d'expertise et de precision que la plupart des catégories de vente au detail. Ce playbook couvre les stratégies SEO specifiques qui stimulent la croissance organique pour les boutiques de soins de la peau, cosmetiques, complements alimentaires et bien-etre.",
       readTime: "11 min de lecture",
       sections: [
         {
-          title: "Strategie de mots-cles basee sur les ingredients",
+          title: "Stratégie de mots-clés basée sur les ingredients",
           content:
             "Les acheteurs beaute recherchent de plus en plus par ingredient plutot que par marque ou type de produit. Des requetes comme \"serum niacinamide,\" \"creme hydratante retinol\" et \"nettoyant acide salicylique\" portent une forte intention commerciale et convertissent souvent mieux que les recherches generiques par categorie.\n\nCreez des pages d'atterrissage dediees pour chaque ingredient phare de vos produits. Une page ciblant \"produits acide hyaluronique\" devrait expliquer ce que fait l'ingredient, a qui il profite, comment l'utiliser, puis presenter vos produits pertinents.\n\nAssociez les mots-cles d'ingredients aux pages produit egalement. Chaque page produit devrait mettre en avant ses ingredients actifs cles dans le titre, le H1, la meta description et le corps du texte.\n\nSuivez les tendances emergentes d'ingredients. Des ingredients comme le bakuchiol, les peptides et l'acide tranexamique ont connu une croissance rapide du volume de recherche. Surveillez les publications beaute, les communautes Reddit skincare et Google Trends.",
           items: [
@@ -174,12 +173,12 @@ items: [
           ],
           image: {
             src: "/images/academy/fr/health-ingredient-search-funnel.svg",
-            alt: "Inhaltsstoffbasierter Suchtrichter von Aufklaerung ueber Vergleich zum Kauf",
-            caption: "Inhaltsstoff-Aufklaerung baut Vertrauen auf und fuehrt Nutzer natuerlich von informativen zu transaktionalen Suchanfragen.",
+            alt: "Diagramme montrant le flux de la stratégie de recherche basée sur les ingrédients, depuis les requêtes d'informations via les pages du centre d'ingrédients jusqu'aux pages de produits commerciaux, avec les tendances émergentes en matière d'ingrédients",
+            caption: "Les pages du hub d'ingrédients relient les intentions informatives et commerciales. Chaque hub explique l'ingrédient, ses avantages et des liens vers les produits pertinents ci-dessous.",
           },
           callout: {
             title: "E-E-A-T in der Gesundheitsnische",
-            text: "Google stuft Gesundheits- und Beauty-Content als YMYL ein. Ohne Expertenautor, zitierte Quellen und medizinische Pruefung ranken Inhaltsstoff-Artikel selten auf der ersten Seite.",
+            text: "Un produit intitulé « Sérum éclaircissant à la vitamine C » surpasse « Radiance Booster XR » dans la recherche organique, car les acheteurs effectuent une recherche par ingrédient et non par noms inventés par la marque. Incluez l'ingrédient actif et il",
           },
         },
         {
@@ -189,12 +188,12 @@ items: [
           tip: "Creez une page dediee \"Nos Experts\" listant chaque contributeur a votre contenu educatif. Incluez des photos, des qualifications et des liens vers des profils externes. Cette page de credibilite centralisee renforce l'E-E-A-T sur l'ensemble de votre site.",
           image: {
             src: "/images/academy/fr/health-eeat-pillars.svg",
-            alt: "Gesundheit und Beauty E-E-A-T-Saeulen: Erfahrung, Fachwissen, Autoritaet und Vertrauenswuerdigkeit",
-            caption: "YMYL-Signale sind kritisch. Google prueft Gesundheits-Content besonders streng auf E-E-A-T-Merkmale.",
+            alt: "Schéma montrant les quatre piliers E-E-A-T pour le contenu YMYL santé et beauté : expérience, expertise, autorité et confiance avec des signaux spécifiques pour chacun",
+            caption: "Le contenu sur la santé et la beauté fait l’objet d’un examen minutieux accru par YMYL. Chaque pilier doit être abordé avec des signaux spécifiques et vérifiables pour atteindre la première page.",
           },
           callout: {
             title: "E-E-A-T-Implementierung",
-            text: "Fuegen Sie jedem Gesundheitsartikel einen medizinischen Pruefvermerk hinzu, verlinken Sie auf Studien und zeigen Sie die Qualifikationen des Autors. Diese Signale koennen den Unterschied zwischen Seite 1 und Seite 5 ausmachen.",
+            text: "Une page de produit affirmant « réduit les rides de 40 % » sans étude clinique citée aura du mal à être classée dans l'évaluation YMYL. Chaque allégation liée à la santé doit être liée à une recherche ou à une reconnaissance évaluée par des pairs.e 1 und Seite 5 ausmachen.",
           },
         },
         {
@@ -203,7 +202,7 @@ items: [
             "Les pages produit sante et beaute necessitent un equilibre soigneux entre persuasion et conformite. Les allegaions exagerees declenchent des problemes reglementaires et des retrogradations de qualite Google. Les allegaions trop modestes echouent a convertir. La solution est la specificite soutenue par des preuves.\n\nStructurez les descriptions de produits autour de trois piliers : ce que fait le produit, quels ingredients produisent ces resultats, et quelles preuves soutiennent les allegaions.\n\nLes images avant/apres presentent a la fois une opportunite et un risque. Si vous utilisez des photos avant/apres, assurez-vous qu'elles sont authentiques, non retouchees, incluent des avertissements appropries sur la variation des resultats individuels.\n\n[Le contenu genere par les utilisateurs](/academy/user-generated-content-seo), avis, photos et temoignages video, fournit une preuve sociale authentique. Implementez le balisage schema des avis (AggregateRating) pour que les notes en etoiles apparaissent dans les resultats de recherche. Repondez aux avis negatifs de maniere professionnelle.",
         },
         {
-          title: "Strategie de contenu pour la beaute et le bien-etre",
+          title: "Stratégie de contenu pour la beaute et le bien-etre",
           content:
             "Le contenu educatif genere une grande part du trafic organique en sante et beaute. Les acheteurs recherchent des routines, la compatibilite des ingredients, les techniques d'application et les comparatifs de produits avant d'acheter.\n\nConstruisez des guides de routine complets pour differents types de peau, preoccupations et objectifs. \"Routine soin du matin pour peau grasse\" ou \"Guide du debutant pour le skincare coreen\" ciblent des requetes informationnelles a fort volume tout en liant naturellement a vos produits.\n\nLe contenu sur la compatibilite des ingredients performe exceptionnellement bien. Des articles comme \"Peut-on utiliser la vitamine C et le retinol ensemble ?\" repondent a des questions specifiques que les acheteurs se posent avant de melanger des produits de differentes marques.\n\nLe contenu video a une valeur SEO croissante en beaute. Les videos tutoriels integrees aux pages produit augmentent le temps passe sur la page et reduisent les taux de rebond. Transcrivez chaque video et incluez la transcription sur la page. Une [stratégie de contenu](/academy/content-strategy-for-stores) robuste capture ces chercheurs et les guide vers vos produits.\n\nLe contenu vidéo a une valeur SEO croissante dans la beauté et est un élément clé de la stratégie de [contenu SEO e-commerce](/blog/ecommerce-seo-content).",
           items: [
@@ -233,8 +232,7 @@ items: [
     es: {
       badge: "Guias sectoriales",
       heading: "Playbook SEO para Salud y Belleza",
-      intro:
-        "El ecommerce de salud y belleza se situa en la interseccion de ciencia, regulacion y confianza personal. Google clasifica muchas consultas de salud y belleza como YMYL, lo que significa que posicionarse requiere estandares mas altos de experiencia y precision que la mayoria de las categorias minoristas. Este playbook cubre las estrategias SEO especificas que impulsan el crecimiento organico para tiendas de cuidado de la piel, cosmeticos, suplementos y bienestar.",
+      intro: "El ecommerce de salud y belleza se situa en la interseccion de ciencia, regulacion y confianza personal. Google clasifica muchas consultas de salud y belleza como YMYL, lo que significa que posicionarse requiere estandares mas altos de experiencia y precision que la mayoria de las categorías minoristas. Este playbook cubre las estrategias SEO especificas que impulsan el crecimiento organico para tiendas de cuidado de la piel, cosmeticos, suplementos y bienestar.",
       readTime: "11 min de lectura",
       sections: [
         {
@@ -249,12 +247,12 @@ items: [
           ],
           image: {
             src: "/images/academy/es/health-ingredient-search-funnel.svg",
-            alt: "Inhaltsstoffbasierter Suchtrichter von Aufklaerung ueber Vergleich zum Kauf",
-            caption: "Inhaltsstoff-Aufklaerung baut Vertrauen auf und fuehrt Nutzer natuerlich von informativen zu transaktionalen Suchanfragen.",
+            alt: "Diagrama que muestra el flujo de la estrategia de búsqueda basada en ingredientes, desde consultas informativas a través de páginas centrales de ingredientes hasta páginas de productos comerciales, con tendencias de ingredientes emergentes.",
+            caption: "Las páginas centrales de ingredientes unen la intención informativa y comercial. Cada centro explica el ingrediente, sus beneficios y enlaces a productos relevantes a continuación.",
           },
           callout: {
             title: "E-E-A-T in der Gesundheitsnische",
-            text: "Google stuft Gesundheits- und Beauty-Content als YMYL ein. Ohne Expertenautor, zitierte Quellen und medizinische Pruefung ranken Inhaltsstoff-Artikel selten auf der ersten Seite.",
+            text: "Un producto titulado \"Vitamin C Brightening Serum\" supera a \"Radiance Booster XR\" en la búsqueda orgánica porque los compradores buscan por ingrediente, no por nombres inventados por la marca. Incluya el ingrediente activo y",
           },
         },
         {
@@ -264,12 +262,12 @@ items: [
           tip: "Crea una pagina dedicada \"Nuestros Expertos\" listando a cada contribuidor de tu contenido educativo. Incluye fotos, credenciales y enlaces a perfiles externos. Esta pagina centralizada de credibilidad refuerza el E-E-A-T en todo tu sitio.",
           image: {
             src: "/images/academy/es/health-eeat-pillars.svg",
-            alt: "Gesundheit und Beauty E-E-A-T-Saeulen: Erfahrung, Fachwissen, Autoritaet und Vertrauenswuerdigkeit",
-            caption: "YMYL-Signale sind kritisch. Google prueft Gesundheits-Content besonders streng auf E-E-A-T-Merkmale.",
+            alt: "Diagrama que muestra los cuatro pilares E-E-A-T para el contenido de YMYL sobre salud y belleza: experiencia, conocimientos, autoridad y confianza con señales específicas para cada uno.",
+            caption: "El contenido de salud y belleza se enfrenta a un mayor escrutinio de YMYL. Cada pilar debe abordarse con señales específicas y verificables para llegar a la página uno.",
           },
           callout: {
             title: "E-E-A-T-Implementierung",
-            text: "Fuegen Sie jedem Gesundheitsartikel einen medizinischen Pruefvermerk hinzu, verlinken Sie auf Studien und zeigen Sie die Qualifikationen des Autors. Diese Signale koennen den Unterschied zwischen Seite 1 und Seite 5 ausmachen.",
+            text: "Una página de producto que afirme \"reduce las arrugas en un 40 %\" sin un estudio clínico citado tendrá dificultades para clasificarse en la evaluación de YMYL. Cada reclamo relacionado con la salud necesita un enlace a una investigación o reconocimiento revisado por pares.e 1 und Seite 5 ausmachen.",
           },
         },
         {
@@ -295,7 +293,7 @@ items: [
             "El marketing de influencers es central en el ecommerce de belleza, pero la mayoria del contenido de influencers genera cero valor SEO. Las publicaciones de Instagram y los videos de TikTok construyen conocimiento de marca sin contribuir a la autoridad de busqueda de tu dominio.\n\nNegocia contenido basado en blogs como parte de las asociaciones con influencers. Un blogger de belleza escribiendo una resena detallada en su propio sitio con un enlace dofollow a tu pagina de producto entrega valor SEO duradero.\n\nReutiliza contenido de influencers en tu propio sitio con permiso. Si un influencer crea un video tutorial presentando tus productos, incrustalo en la pagina de producto relevante con un resumen escrito.\n\nCrea una pagina dedicada de influencers o embajadores en tu sitio. Lista tus socios con fotos, biografias y enlaces a su contenido.",
         },
         {
-          title: "SEO tecnico para grandes catalogos de belleza",
+          title: "SEO técnico para grandes catálogos de belleza",
           content:
             "Las tiendas de belleza a menudo tienen cientos o miles de SKUs en categorias superpuestas. Sin un SEO tecnico cuidadoso, esto crea contenido duplicado generalizado e ineficiencia de rastreo.\n\nUsa etiquetas canonical para consolidar listados de productos duplicados. Cada producto deberia tener una URL principal, y todas las ubicaciones de categorias secundarias deberian tener canonical hacia ella.\n\nImplementa controles robustos de navegacion facetada. Los compradores de belleza filtran por tipo de piel, preocupacion, ingrediente, precio y marca. Permite a Google indexar facetas de alto valor mientras bloqueas permutaciones de bajo valor.\n\nEl schema de producto es especialmente valioso para productos de belleza. Incluye marca, SKU, precio, disponibilidad, calificacion agregada y listas de ingredientes en tus datos estructurados.\n\nGestiona las discontinuaciones de productos cuidadosamente. Cuando un producto se discontinua permanentemente, redirige su URL con 301 al producto sucesor mas cercano o a la pagina de categoria principal.",
         },
@@ -324,12 +322,12 @@ items: [
           ],
           image: {
             src: "/images/academy/it/health-ingredient-search-funnel.svg",
-            alt: "Inhaltsstoffbasierter Suchtrichter von Aufklaerung ueber Vergleich zum Kauf",
-            caption: "Inhaltsstoff-Aufklaerung baut Vertrauen auf und fuehrt Nutzer natuerlich von informativen zu transaktionalen Suchanfragen.",
+            alt: "Diagramma che mostra il flusso della strategia di ricerca basata sugli ingredienti dalle query informative attraverso le pagine dell'hub degli ingredienti alle pagine dei prodotti commerciali, con tendenze emergenti sugli ingredienti",
+            caption: "Le pagine hub degli ingredienti collegano intenti informativi e commerciali. Ogni hub spiega l'ingrediente, i suoi vantaggi e i collegamenti ai prodotti pertinenti di seguito.",
           },
           callout: {
             title: "E-E-A-T in der Gesundheitsnische",
-            text: "Google stuft Gesundheits- und Beauty-Content als YMYL ein. Ohne Expertenautor, zitierte Quellen und medizinische Pruefung ranken Inhaltsstoff-Artikel selten auf der ersten Seite.",
+            text: "Un prodotto intitolato \"Siero schiarente alla vitamina C\" supera \"Radiance Booster XR\" nella ricerca organica perché gli acquirenti cercano per ingrediente, non per nomi inventati dal marchio. Includere il principio attivo e esso",
           },
         },
         {
@@ -339,12 +337,12 @@ items: [
           tip: "Crea una pagina dedicata \"I Nostri Esperti\" elencando ogni contributore ai tuoi contenuti educativi. Includi foto, credenziali e link a profili esterni. Questa pagina di credibilita centralizzata rafforza l'E-E-A-T su tutto il sito.",
           image: {
             src: "/images/academy/it/health-eeat-pillars.svg",
-            alt: "Gesundheit und Beauty E-E-A-T-Saeulen: Erfahrung, Fachwissen, Autoritaet und Vertrauenswuerdigkeit",
-            caption: "YMYL-Signale sind kritisch. Google prueft Gesundheits-Content besonders streng auf E-E-A-T-Merkmale.",
+            alt: "Diagramma che mostra i quattro pilastri E-E-A-T per la salute e la bellezza Contenuto YMYL: Esperienza, Competenza, Autorità e Fiducia con segnali specifici per ciascuno",
+            caption: "I contenuti di salute e bellezza devono affrontare un controllo YMYL più approfondito. Ogni pilastro deve essere affrontato con segnali specifici e verificabili per raggiungere la prima pagina.",
           },
           callout: {
             title: "E-E-A-T-Implementierung",
-            text: "Fuegen Sie jedem Gesundheitsartikel einen medizinischen Pruefvermerk hinzu, verlinken Sie auf Studien und zeigen Sie die Qualifikationen des Autors. Diese Signale koennen den Unterschied zwischen Seite 1 und Seite 5 ausmachen.",
+            text: "Una pagina di prodotto che afferma \"riduce le rughe del 40%\" senza uno studio clinico citato avrà difficoltà a classificarsi nella valutazione YMYL. Ogni indicazione relativa alla salute necessita di un collegamento a ricerche o riconoscimenti sottoposti a revisione paritariae 1 und Seite 5 ausmachen.",
           },
         },
         {
@@ -399,12 +397,12 @@ items: [
           ],
           image: {
             src: "/images/academy/nl/health-ingredient-search-funnel.svg",
-            alt: "Inhaltsstoffbasierter Suchtrichter von Aufklaerung ueber Vergleich zum Kauf",
-            caption: "Inhaltsstoff-Aufklaerung baut Vertrauen auf und fuehrt Nutzer natuerlich von informativen zu transaktionalen Suchanfragen.",
+            alt: "Diagram dat de op ingrediënten gebaseerde zoekstrategie laat zien, van informatieve zoekopdrachten via ingrediëntenhubpagina's naar commerciële productpagina's, met opkomende ingrediëntentrends",
+            caption: "Ingrediëntenhubpagina's vormen een brug tussen informatieve en commerciële bedoelingen. Elke hub legt het ingrediënt, de voordelen ervan en links naar relevante producten hieronder uit.",
           },
           callout: {
             title: "E-E-A-T in der Gesundheitsnische",
-            text: "Google stuft Gesundheits- und Beauty-Content als YMYL ein. Ohne Expertenautor, zitierte Quellen und medizinische Pruefung ranken Inhaltsstoff-Artikel selten auf der ersten Seite.",
+            text: "Een product met de titel \"Vitamin C Brightening Serum\" presteert beter dan \"Radiance Booster XR\" in de organische zoekresultaten, omdat shoppers zoeken op ingrediënt en niet op door het merk bedachte namen. Voeg het actieve ingrediënt toe en het",
           },
         },
         {
@@ -414,12 +412,12 @@ items: [
           tip: "Maak een speciale 'Onze Experts'-pagina met alle bijdragers aan je educatieve content. Voeg portretfoto's, kwalificaties en links naar externe profielen toe. Deze gecentraliseerde geloofwaardigheidspagina versterkt E-E-A-T over je hele site.",
           image: {
             src: "/images/academy/nl/health-eeat-pillars.svg",
-            alt: "Gesundheit und Beauty E-E-A-T-Saeulen: Erfahrung, Fachwissen, Autoritaet und Vertrauenswuerdigkeit",
-            caption: "YMYL-Signale sind kritisch. Google prueft Gesundheits-Content besonders streng auf E-E-A-T-Merkmale.",
+            alt: "Diagram met de vier E-E-A-T-pijlers voor gezondheid en schoonheid YMYL-inhoud: ervaring, expertise, autoriteit en vertrouwen, met specifieke signalen voor elk",
+            caption: "Gezondheids- en schoonheidsinhoud wordt strenger gecontroleerd door de YMYL. Elke pijler moet worden aangepakt met specifieke, verifieerbare signalen om pagina één te bereiken.",
           },
           callout: {
             title: "E-E-A-T-Implementierung",
-            text: "Fuegen Sie jedem Gesundheitsartikel einen medizinischen Pruefvermerk hinzu, verlinken Sie auf Studien und zeigen Sie die Qualifikationen des Autors. Diese Signale koennen den Unterschied zwischen Seite 1 und Seite 5 ausmachen.",
+            text: "Een productpagina die beweert \"rimpels met 40% te verminderen\" zonder een geciteerd klinisch onderzoek zal moeite hebben om te scoren onder de YMYL-evaluatie. Elke gezondheidsclaim heeft een link naar peer-reviewed onderzoek of erkenning nodige 1 und Seite 5 ausmachen.",
           },
         },
         {

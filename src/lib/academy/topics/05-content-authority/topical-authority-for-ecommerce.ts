@@ -180,8 +180,7 @@ export const topicalAuthorityForEcommerce: AcademyTopic = {
     fr: {
       badge: "Contenu & Autorite",
       heading: "Autorite thematique pour le e-commerce",
-      intro:
-        "Google recompense les boutiques qui demontrent une expertise approfondie au sein de leurs categories de produits. Construire une autorite thematique signifie couvrir votre niche si completement que les moteurs de recherche, et les acheteurs, vous reconnaissent comme la ressource de reference. Nous expliquons comment structurer le contenu autour des categories de produits pour que l'ensemble de votre domaine en beneficie.",
+      intro: "Google recompense les boutiques qui demontrent une expertise approfondie au sein de leurs catégories de produits. Construire une autorite thematique signifie couvrir votre niche si complètement que les moteurs de recherche, et les acheteurs, vous reconnaissent comme la ressource de référence. Nous expliquons comment structurer le contenu autour des catégories de produits pour que l'ensemble de votre domaine en beneficie.",
       readTime: "10 min de lecture",
       sections: [
         {
@@ -195,13 +194,13 @@ export const topicalAuthorityForEcommerce: AcademyTopic = {
           ],
         },
         {
-          title: "Construire des clusters thematiques autour des categories de produits",
+          title: "Construire des clusters thematiques autour des catégories de produits",
           content:
             "Un cluster thematique regroupe tout le contenu lie a une seule categorie de produits autour d'une page pilier centrale. La page pilier couvre le sujet large, disons, \"machines a expresso\", et renvoie vers des pages cluster detaillees sur des sous-sujets specifiques : types de broyeurs, temperature de l'eau, routines de nettoyage, simple vs double chaudiere, techniques de mousse de lait.\n\nPour le e-commerce, la page pilier est generalement votre page categorie principale. Les pages cluster peuvent etre un melange de pages sous-categories, guides d'achat, articles pratiques et articles comparatifs. Chaque page cluster renvoie vers la page pilier, et la page pilier renvoie vers chaque page cluster. Cela cree un reseau etroitement connecte que Google peut explorer efficacement.\n\nNous recommandons de cartographier les clusters avant de creer du contenu. Listez chaque question qu'un client pourrait poser avant, pendant et apres l'achat d'un produit de votre categorie. Regroupez ces questions en sous-sujets, et chaque sous-sujet devient une page cluster. Une categorie de produits typique genere 15 a 25 idees de pages cluster. Utilisez le [mapping de mots-clés pour les boutiques](/academy/keyword-mapping-for-stores) pour attribuer chaque question à la bonne page.",
           tip: "Commencez par votre categorie la plus rentable. Cartographiez chaque question client que vous pouvez trouver, de la recherche pre-achat a l'entretien post-achat, et regroupez-les en 15-20 sujets de pages cluster. Construisez ce cluster en premier avant de vous etendre a d'autres categories.",
         },
         {
-          title: "Le modele de contenu hub-and-spoke",
+          title: "Le modèle de contenu hub-and-spoke",
           content:
             "Le modele hub-and-spoke est l'ossature structurelle de l'autorite thematique. Votre page categorie est le hub. Les pages spoke rayonnent vers l'exterieur, chacune ciblant une requete longue traine specifique ou un sous-sujet. Les liens internes connectent chaque spoke au hub et aux spokes connexes.\n\nCe qui rend ce modele puissant pour le e-commerce, c'est sa correspondance avec le parcours d'achat. Les spokes haut de funnel (\"qu'est-ce qu'une cafetiere pour-over\") attirent les chercheurs. Les spokes milieu de funnel (\"pour-over vs French press\") aident les acheteurs a affiner leurs options. Les spokes bas de funnel (\"meilleure cafetiere pour-over a moins de 50 euros\") orientent les decisions d'achat. La page hub, votre page categorie, capte tous ceux qui sont prets a naviguer et acheter.\n\nLa structure de liens est cruciale. Chaque spoke doit renvoyer vers le hub avec un texte d'ancrage descriptif incluant le mot-cle de la categorie. Les spokes doivent aussi se lier entre eux quand c'est naturel. La page hub doit comporter une section contenu qui renvoie vers tous les spokes pertinents, souvent organisee en grille de ressources ou bloc FAQ en bas de la page categorie.",
           items: [
@@ -212,16 +211,16 @@ export const topicalAuthorityForEcommerce: AcademyTopic = {
           ],
           image: {
             src: "/images/academy/fr/topic-cluster-hub-spoke.svg",
-            alt: "Hub-and-Spoke-Diagramm das eine Kategorieseite im Zentrum zeigt verbunden mit Kaufratgebern, Anleitungen, Vergleichen, FAQ-Seiten und Blog-Beitraegen",
-            caption: "Die Kategorieseite fungiert als Hub. Jede Speiche zielt auf ein Long-Tail-Unterthema ab und verlinkt zurueck zum Hub. Querverweise zwischen Speichen staerken den gesamten Cluster.",
+            alt: "Diagramme en étoile montrant une page de catégorie au centre connectée à des guides d'achat, des articles pratiques, des comparaisons, des pages de FAQ et des articles de blog",
+            caption: "La page de catégorie fait office de plaque tournante. Chaque rayon cible un sous-thème à longue traîne et renvoie au hub. Les liens croisés entre les rayons renforcent l’ensemble du cluster.",
           },
           callout: {
             title: "Cluster-Groessen-Leitfaden",
-            text: "Eine typische Produktkategorie generiert 15-25 Speichenseiten-Ideen. Beginnen Sie mit Ihrer umsatzstaerksten Kategorie, erfassen Sie jede Kundenfrage von Vorkauf bis Nachkauf und bauen Sie diesen Cluster zuerst bevor Sie expandieren.",
+            text: "Une catégorie de produits typique génère 15 à 25 idées de pages de rayons. Commencez par votre catégorie de revenus les plus élevés, mappez chaque question client du pré-achat au post-achat et créez ce cluster avant d'acheter.ter zuerst bevor Sie expandieren.",
           },
         },
         {
-          title: "Comment Google evalue l'expertise dans votre niche",
+          title: "Comment Google évalue l'expertise dans votre niche",
           content:
             "Google utilise plusieurs signaux indirects pour evaluer si un site est veritablement expert dans sa niche. Le premier est la couverture du contenu, avez-vous des pages adressant l'ensemble des requetes au sein d'un sujet, ou seulement les plus volumineuses ? Les sites qui ne publient du contenu que pour les termes principaux competitifs paraissent superficiels par rapport a ceux couvrant le spectre complet.\n\nLe deuxieme signal est la validation externe par les backlinks. Quand d'autres sites autoritaires de votre niche lient vers votre contenu, cette recommandation a du poids. Une boutique d'equipement de randonnee qui obtient des liens de magazines outdoor, d'associations de sentiers et de sites d'evaluation d'equipement construit un profil de backlinks qui affirme l'expertise.\n\nLe troisieme signal est l'E-E-A-T : experience, expertise, autorite et fiabilite. Pour le e-commerce, cela se traduit par des photos de produits originales, des specifications detaillees redigees par du personnel competent, de vrais avis clients et des informations commerciales transparentes. Les directives des evaluateurs de qualite de Google mentionnent specifiquement que les pages produits doivent montrer une experience directe avec les articles vendus. Notre guide sur le [SEO e-commerce](/blog/ecommerce-seo) explique comment ces signaux se cumulent au fil du temps.",
           tip: "Ajoutez des biographies d'auteurs a vos guides d'achat et articles de blog. Liez chaque biographie a une page profil listant les qualifications et l'experience de l'auteur. Cela donne a Google un signal E-E-A-T clair que de vrais experts creent votre contenu.",
@@ -238,12 +237,12 @@ export const topicalAuthorityForEcommerce: AcademyTopic = {
           ],
           image: {
             src: "/images/academy/fr/topical-authority-signals.svg",
-            alt: "Drei Saeulen der Themenautoritaet: Inhaltsabdeckung, externe Validierung durch Backlinks und E-E-A-T-Signale",
-            caption: "Google bewertet Themenautoritaet durch die Breite der Inhaltsabdeckung, Nischen-Backlinks von autoritaeren Quellen und E-E-A-T-Signale wie Originalfotos und Experten-Autoren.",
+            alt: "Trois piliers de l'autorité thématique : couverture du contenu, validation externe via des backlinks et des signaux E-E-A-T",
+            caption: "Google évalue l'autorité thématique en fonction de l'étendue de la couverture du contenu, des backlinks de niche provenant de sources faisant autorité et des signaux E-E-A-T tels que des photos originales et des auteurs experts.",
           },
           callout: {
             title: "Autoritaet akkumuliert sich",
-            text: "Neue Artikel von thematisch autoritaeren Shops erreichen Seite eins innerhalb von 2 Wochen waehrend identischer Inhalt auf einer neuen Domain Monate braucht. Sobald Google Ihre Expertise vertraut profitiert jede neue Seite die Sie veroeffentlichen.",
+            text: "Les nouveaux articles provenant de magasins faisant autorité atteignent la première page en 2 semaines, tandis qu'un contenu identique sur un nouveau domaine prend des mois. Une fois que Google fait confiance à votre expertise, chaque nouvelle page que vous publiez bénéficieitiert jede neue Seite die Sie veroeffentlichen.",
           },
         },
         {
@@ -265,13 +264,12 @@ export const topicalAuthorityForEcommerce: AcademyTopic = {
     },
     es: {
       badge: "Contenido & Autoridad",
-      heading: "Autoridad tematica para ecommerce",
-      intro:
-        "Google recompensa las tiendas que demuestran una experiencia profunda dentro de sus categorias de productos. Construir autoridad tematica significa cubrir tu nicho de forma tan exhaustiva que los motores de busqueda, y los compradores, te reconozcan como el recurso definitivo. Explicamos como estructurar el contenido alrededor de las categorias de productos para que todo tu dominio se beneficie.",
+      heading: "Autoridad temática para ecommerce",
+      intro: "Google recompensa las tiendas que demuestran una experiencia profunda dentro de sus categorías de productos. Construir autoridad temática significa cubrir tu nicho de forma tan exhaustiva que los motores de busqueda, y los compradores, te reconozcan como el recurso definitivo. Explicamos como estructurar el contenido alrededor de las categorías de productos para que todo tu dominio se beneficie.",
       readTime: "10 min de lectura",
       sections: [
         {
-          title: "Que significa la autoridad tematica para las tiendas online",
+          title: "Qué significa la autoridad temática para las tiendas online",
           content:
             "La autoridad tematica es el grado en que Google confia en un dominio para ofrecer informacion fiable sobre un tema determinado. Para una tienda online que vende equipamiento de senderismo, la autoridad tematica significa posicionarse bien no solo para \"botas de senderismo\" sino para cada consulta relacionada: cuidado del calzado, seleccion de rutas, prevencion de ampollas, metodos de impermeabilizacion y comparativas de equipamiento.\n\nLos sistemas de Google evaluan la exhaustividad con la que un sitio cubre un tema. Una tienda con 40 paginas interconectadas sobre equipamiento de senderismo, paginas de producto, guias de compra, instrucciones de cuidado, articulos comparativos, envia una senal mas fuerte que una con una sola pagina de categoria y unos pocos listados de productos.\n\nEsto importa comercialmente porque la autoridad tematica se acumula. Una vez que Google reconoce tu tienda como experta en equipamiento de senderismo, las nuevas paginas que publiques sobre subtemas relacionados tienden a indexarse mas rapido y posicionarse mejor que el mismo contenido de un competidor generalista. Hemos visto nuevos articulos de tiendas con autoridad tematica llegar a la primera pagina en dos semanas, mientras que el mismo contenido en un dominio nuevo tarda meses. Una tienda con una solida [estrategia de contenido para tiendas](/academy/content-strategy-for-stores) y 40 paginas interconectadas sobre equipamiento de senderismo envia una senal mas fuerte que una con una sola pagina de categoria y unas pocas fichas de producto.",
           items: [
@@ -281,7 +279,7 @@ export const topicalAuthorityForEcommerce: AcademyTopic = {
           ],
         },
         {
-          title: "Construyendo clusters tematicos alrededor de categorias de productos",
+          title: "Construyendo clusters temáticos alrededor de categorías de productos",
           content:
             "Un cluster tematico agrupa todo el contenido relacionado con una sola categoria de productos alrededor de una pagina pilar central. La pagina pilar cubre el tema amplio, digamos, \"maquinas de espresso\", y enlaza a paginas de cluster detalladas sobre subtemas especificos: tipos de molinillo, temperatura del agua, rutinas de limpieza, caldera simple vs doble, tecnicas de espumado de leche.\n\nPara ecommerce, la pagina pilar es tipicamente tu pagina de categoria principal. Las paginas del cluster pueden ser una mezcla de paginas de subcategoria, guias de compra, articulos practicos y posts comparativos. Cada pagina del cluster enlaza de vuelta al pilar, y el pilar enlaza a cada pagina del cluster. Esto crea una red estrechamente conectada que Google puede rastrear eficientemente.\n\nRecomendamos mapear los clusters antes de crear contenido. Lista cada pregunta que un cliente podria hacer antes, durante y despues de comprar un producto de tu categoria. Agrupa estas preguntas en subtemas, y cada subtema se convierte en una pagina del cluster. Una categoria de productos tipica genera de 15 a 25 ideas de paginas de cluster. Usa el [mapeo de palabras clave para tiendas](/academy/keyword-mapping-for-stores) para asignar cada pregunta a la pagina correcta.",
           tip: "Comienza con tu categoria de mayor facturacion. Mapea cada pregunta de cliente que puedas encontrar, desde la investigacion previa a la compra hasta el mantenimiento posterior, y agrupalas en 15-20 temas de paginas de cluster. Construye este cluster primero antes de expandirte a otras categorias.",
@@ -298,22 +296,22 @@ export const topicalAuthorityForEcommerce: AcademyTopic = {
           ],
           image: {
             src: "/images/academy/es/topic-cluster-hub-spoke.svg",
-            alt: "Hub-and-Spoke-Diagramm das eine Kategorieseite im Zentrum zeigt verbunden mit Kaufratgebern, Anleitungen, Vergleichen, FAQ-Seiten und Blog-Beitraegen",
-            caption: "Die Kategorieseite fungiert als Hub. Jede Speiche zielt auf ein Long-Tail-Unterthema ab und verlinkt zurueck zum Hub. Querverweise zwischen Speichen staerken den gesamten Cluster.",
+            alt: "Diagrama de centro y radio que muestra una página de categorías en el centro conectada a guías de compra, artículos instructivos, comparaciones, páginas de preguntas frecuentes y publicaciones de blog.",
+            caption: "La página de categorías actúa como centro. Cada radio apunta a un subtema de cola larga y enlaza con el centro. Los enlaces cruzados entre los radios fortalecen todo el grupo.",
           },
           callout: {
             title: "Cluster-Groessen-Leitfaden",
-            text: "Eine typische Produktkategorie generiert 15-25 Speichenseiten-Ideen. Beginnen Sie mit Ihrer umsatzstaerksten Kategorie, erfassen Sie jede Kundenfrage von Vorkauf bis Nachkauf und bauen Sie diesen Cluster zuerst bevor Sie expandieren.",
+            text: "Una categoría de producto típica genera entre 15 y 25 ideas de páginas radiales. Comience con su categoría de mayores ingresos, asigne todas las preguntas de los clientes desde antes hasta después de la compra y cree este grupo primero antes de eter zuerst bevor Sie expandieren.",
           },
         },
         {
-          title: "Como Google evalua la expertise en tu nicho",
+          title: "Cómo Google evalúa la expertise en tu nicho",
           content:
             "Google usa varias senales indirectas para evaluar si un sitio es genuinamente experto en su nicho. La primera es la cobertura de contenido, tienes paginas que abordan el rango completo de consultas dentro de un tema, o solo las de alto volumen? Los sitios que solo publican contenido para terminos principales competitivos parecen superficiales comparados con los que cubren el espectro completo.\n\nLa segunda senal es la validacion externa a traves de backlinks. Cuando otros sitios autoritativos de tu nicho enlazan a tu contenido, esa recomendacion tiene peso. Una tienda de equipamiento de senderismo que obtiene enlaces de revistas outdoor, asociaciones de rutas y sitios de resenas de equipamiento construye un perfil de backlinks que transmite expertise.\n\nLa tercera senal es E-E-A-T: experiencia, expertise, autoridad y confiabilidad. Para ecommerce, esto se traduce en fotografia de productos original, especificaciones detalladas escritas por personal conocedor, resenas genuinas de clientes e informacion comercial transparente. Las directrices de evaluadores de calidad de Google mencionan especificamente que las paginas de producto deben mostrar experiencia de primera mano con los articulos vendidos. Nuestra guia de [SEO para ecommerce](/blog/ecommerce-seo) explica como estas senales se acumulan con el tiempo.",
           tip: "Anade biografias de autor a tus guias de compra y publicaciones de blog. Enlaza cada biografia a una pagina de perfil que liste las credenciales y experiencia del autor. Esto le da a Google una senal E-E-A-T clara de que expertos reales estan creando tu contenido.",
         },
         {
-          title: "Midiendo el crecimiento de la autoridad tematica",
+          title: "Midiendo el crecimiento de la autoridad temática",
           content:
             "El crecimiento de la autoridad tematica se manifiesta de varias formas medibles. El indicador mas directo es la cobertura de palabras clave: rastrea el numero total de palabras clave para las que tu dominio se posiciona dentro de cada categoria de productos a lo largo del tiempo. Usa Ahrefs o Semrush para filtrar rankings por cluster tematico y monitorear si tu huella de palabras clave esta expandiendose.\n\nOtra senal fuerte es la posicion media de ranking a traves de un cluster tematico. A medida que tu autoridad tematica crece, deberias ver la posicion media para todas las palabras clave de un cluster tender hacia abajo (hacia la posicion 1). Incluso paginas que no has actualizado recientemente subiran a medida que el cluster se fortalece.\n\nMonitorea el tiempo que tarda el nuevo contenido en llegar a la primera pagina. Para tiendas con autoridad tematica establecida, las nuevas paginas del cluster tipicamente se posicionan en el top 20 durante la primera semana y llegan a la primera pagina en 30-60 dias. Si el nuevo contenido tarda mas, sugiere que tu cluster todavia esta construyendo confianza con Google.\n\nFinalmente, observa tus tasas de inclusion en featured snippets y People Also Ask. Google tiende a extraer featured snippets de sitios que considera autoritativos en un tema. Un recuento creciente de snippets dentro de tu nicho es una senal fiable de que tu autoridad tematica esta creciendo.",
           items: [
@@ -324,12 +322,12 @@ export const topicalAuthorityForEcommerce: AcademyTopic = {
           ],
           image: {
             src: "/images/academy/es/topical-authority-signals.svg",
-            alt: "Drei Saeulen der Themenautoritaet: Inhaltsabdeckung, externe Validierung durch Backlinks und E-E-A-T-Signale",
-            caption: "Google bewertet Themenautoritaet durch die Breite der Inhaltsabdeckung, Nischen-Backlinks von autoritaeren Quellen und E-E-A-T-Signale wie Originalfotos und Experten-Autoren.",
+            alt: "Tres pilares de autoridad temática: cobertura de contenido, validación externa a través de vínculos de retroceso y señales E-E-A-T",
+            caption: "Google evalúa la autoridad temática a través de la amplitud de la cobertura del contenido, vínculos de retroceso de nicho de fuentes autorizadas y señales E-E-A-T como fotografías originales y autores expertos.",
           },
           callout: {
             title: "Autoritaet akkumuliert sich",
-            text: "Neue Artikel von thematisch autoritaeren Shops erreichen Seite eins innerhalb von 2 Wochen waehrend identischer Inhalt auf einer neuen Domain Monate braucht. Sobald Google Ihre Expertise vertraut profitiert jede neue Seite die Sie veroeffentlichen.",
+            text: "Los nuevos artículos de tiendas con autoridad temática llegan a la primera página en dos semanas, mientras que el contenido idéntico en un nuevo dominio tarda meses. Una vez que Google confíe en su experiencia, cada nueva página que publique se beneficiará.itiert jede neue Seite die Sie veroeffentlichen.",
           },
         },
         {
@@ -384,12 +382,12 @@ export const topicalAuthorityForEcommerce: AcademyTopic = {
           ],
           image: {
             src: "/images/academy/it/topic-cluster-hub-spoke.svg",
-            alt: "Hub-and-Spoke-Diagramm das eine Kategorieseite im Zentrum zeigt verbunden mit Kaufratgebern, Anleitungen, Vergleichen, FAQ-Seiten und Blog-Beitraegen",
-            caption: "Die Kategorieseite fungiert als Hub. Jede Speiche zielt auf ein Long-Tail-Unterthema ab und verlinkt zurueck zum Hub. Querverweise zwischen Speichen staerken den gesamten Cluster.",
+            alt: "Diagramma hub-and-spoke che mostra una pagina di categoria al centro connessa a guide all'acquisto, articoli pratici, confronti, pagine di domande frequenti e post di blog",
+            caption: "La pagina delle categorie funge da hub. Ciascun raggio si rivolge a un argomento secondario a coda lunga e si collega all'hub. I collegamenti incrociati tra i raggi rafforzano l’intero cluster.",
           },
           callout: {
             title: "Cluster-Groessen-Leitfaden",
-            text: "Eine typische Produktkategorie generiert 15-25 Speichenseiten-Ideen. Beginnen Sie mit Ihrer umsatzstaerksten Kategorie, erfassen Sie jede Kundenfrage von Vorkauf bis Nachkauf und bauen Sie diesen Cluster zuerst bevor Sie expandieren.",
+            text: "Una tipica categoria di prodotto genera 15-25 idee per pagine raggi. Inizia con la categoria con le entrate più elevate, mappa ogni domanda del cliente dal pre-acquisto al post-acquisto e crea questo cluster prima dell'acquisto.ter zuerst bevor Sie expandieren.",
           },
         },
         {
@@ -410,12 +408,12 @@ export const topicalAuthorityForEcommerce: AcademyTopic = {
           ],
           image: {
             src: "/images/academy/it/topical-authority-signals.svg",
-            alt: "Drei Saeulen der Themenautoritaet: Inhaltsabdeckung, externe Validierung durch Backlinks und E-E-A-T-Signale",
-            caption: "Google bewertet Themenautoritaet durch die Breite der Inhaltsabdeckung, Nischen-Backlinks von autoritaeren Quellen und E-E-A-T-Signale wie Originalfotos und Experten-Autoren.",
+            alt: "Tre pilastri dell'autorità d'attualità: copertura dei contenuti, convalida esterna tramite backlink e segnali E-E-A-T",
+            caption: "Google valuta l'autorità attuale attraverso l'ampiezza della copertura dei contenuti, i backlink di nicchia provenienti da fonti autorevoli e i segnali E-E-A-T come foto originali e autori esperti.",
           },
           callout: {
             title: "Autoritaet akkumuliert sich",
-            text: "Neue Artikel von thematisch autoritaeren Shops erreichen Seite eins innerhalb von 2 Wochen waehrend identischer Inhalt auf einer neuen Domain Monate braucht. Sobald Google Ihre Expertise vertraut profitiert jede neue Seite die Sie veroeffentlichen.",
+            text: "I nuovi articoli provenienti da negozi autorevoli sul tema raggiungono la prima pagina entro 2 settimane, mentre i contenuti identici su un nuovo dominio richiedono mesi. Una volta che Google si fida della tua esperienza, ogni nuova pagina che pubblichi beneficeràitiert jede neue Seite die Sie veroeffentlichen.",
           },
         },
         {
@@ -470,12 +468,12 @@ export const topicalAuthorityForEcommerce: AcademyTopic = {
           ],
           image: {
             src: "/images/academy/nl/topic-cluster-hub-spoke.svg",
-            alt: "Hub-and-Spoke-Diagramm das eine Kategorieseite im Zentrum zeigt verbunden mit Kaufratgebern, Anleitungen, Vergleichen, FAQ-Seiten und Blog-Beitraegen",
-            caption: "Die Kategorieseite fungiert als Hub. Jede Speiche zielt auf ein Long-Tail-Unterthema ab und verlinkt zurueck zum Hub. Querverweise zwischen Speichen staerken den gesamten Cluster.",
+            alt: "Hub-and-spoke-diagram met een categoriepagina in het midden, verbonden met koopgidsen, instructieartikelen, vergelijkingen, pagina's met veelgestelde vragen en blogposts",
+            caption: "De categoriepagina fungeert als hub. Elke spaak richt zich op een longtail-subonderwerp en linkt terug naar de hub. Cross-links tussen spaken versterken het hele cluster.",
           },
           callout: {
             title: "Cluster-Groessen-Leitfaden",
-            text: "Eine typische Produktkategorie generiert 15-25 Speichenseiten-Ideen. Beginnen Sie mit Ihrer umsatzstaerksten Kategorie, erfassen Sie jede Kundenfrage von Vorkauf bis Nachkauf und bauen Sie diesen Cluster zuerst bevor Sie expandieren.",
+            text: "Een typische productcategorie genereert pagina-ideeën met 15-25 spaken. Begin met uw categorie met de hoogste opbrengsten, breng elke klantvraag in kaart, van vóór de aankoop tot na de aankoop, en bouw dit cluster eerst voordat eter zuerst bevor Sie expandieren.",
           },
         },
         {
@@ -496,12 +494,12 @@ export const topicalAuthorityForEcommerce: AcademyTopic = {
           ],
           image: {
             src: "/images/academy/nl/topical-authority-signals.svg",
-            alt: "Drei Saeulen der Themenautoritaet: Inhaltsabdeckung, externe Validierung durch Backlinks und E-E-A-T-Signale",
-            caption: "Google bewertet Themenautoritaet durch die Breite der Inhaltsabdeckung, Nischen-Backlinks von autoritaeren Quellen und E-E-A-T-Signale wie Originalfotos und Experten-Autoren.",
+            alt: "Drie pijlers van actuele autoriteit: inhoudsdekking, externe validatie via backlinks en E-E-A-T-signalen",
+            caption: "Google evalueert de autoriteit van het onderwerp aan de hand van de breedte van de inhoud, niche-backlinks van gezaghebbende bronnen en E-E-A-T-signalen zoals originele foto's en deskundige auteurs.",
           },
           callout: {
             title: "Autoritaet akkumuliert sich",
-            text: "Neue Artikel von thematisch autoritaeren Shops erreichen Seite eins innerhalb von 2 Wochen waehrend identischer Inhalt auf einer neuen Domain Monate braucht. Sobald Google Ihre Expertise vertraut profitiert jede neue Seite die Sie veroeffentlichen.",
+            text: "Nieuwe artikelen uit lokaal gezaghebbende winkels bereiken binnen twee weken pagina één, terwijl identieke inhoud op een nieuw domein maanden duurt. Zodra Google uw expertise vertrouwt, profiteert u van elke nieuwe pagina die u publiceertitiert jede neue Seite die Sie veroeffentlichen.",
           },
         },
         {

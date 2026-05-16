@@ -162,8 +162,7 @@ export const digitalPrForEcommerce: AcademyTopic = {
     fr: {
       badge: "Link Building",
       heading: "Relations Presse Digitales pour l'Ecommerce",
-      intro:
-        "Les relations presse digitales combinent les tactiques de relations publiques traditionnelles avec les objectifs SEO pour obtenir des backlinks de haute autorite provenant de sites d'information, de publications professionnelles et de blogs majeurs. Pour les boutiques ecommerce, les RP digitales sont l'un des moyens les plus evolutifs de construire des liens qui font bouger les classements, une seule campagne reussie peut generer des dizaines de liens provenant de domaines avec des scores d'autorite qui prendraient des annees a obtenir par l'outreach conventionnel. Ce guide couvre la planification, l'execution et la mesure des campagnes de RP digitales concues specifiquement pour les detaillants en ligne. Pour les boutiques e-commerce, les RP numériques sont l'un des moyens les plus évolutifs de [construire des liens](/link-building) qui font bouger les classements, une seule campagne réussie peut générer des dizaines de liens depuis des domaines avec des scores d'autorité qui prendraient des années à obtenir par la prospection conventionnelle.",
+      intro: "Les relations presse digitales combinent les tactiques de relations publiques traditionnelles avec les objectifs SEO pour obtenir des backlinks de haute autorite provenant de sites d'information, de publications professionnelles et de blogs majeurs. Pour les boutiques ecommerce, les RP digitales sont l'un des moyens les plus evolutifs de construire des liens qui font bouger les classements, une seule campagne reussie peut generer des dizaines de liens provenant de domaines avec des scores d'autorite qui prendraient des années a obtenir par l'outreach conventionnel. Ce guide couvre la planification, l'execution et la mesure des campagnes de RP digitales concues spécifiquement pour les detaillants en ligne. Pour les boutiques e-commerce, les RP numériques sont l'un des moyens les plus évolutifs de [construire des liens](/link-building) qui font bouger les classements, une seule campagne réussie peut générer des dizaines de liens depuis des domaines avec des scores d'autorité qui prendraient des années à obtenir par la prospection conventionnelle.",
       readTime: "12 min de lecture",
       sections: [
         {
@@ -178,22 +177,22 @@ export const digitalPrForEcommerce: AcademyTopic = {
           ],
           image: {
             src: "/images/academy/fr/digital-pr-campaign-types.svg",
-            alt: "Diagramm das drei Typen digitaler PR-Kampagnen fuer Ecommerce zeigt: Datenstudien, Produkt-PR und reaktive PR mit ROI-Metriken",
-            caption: "Datenstudien generieren das hoechste Linkvolumen. Produkt-PR treibt Links zu kommerziellen Seiten. Reaktive PR liefert Links innerhalb von Stunden.",
+            alt: "Diagramme montrant trois types de campagnes de relations publiques numériques pour le commerce électronique : études de données, relations publiques produit et relations publiques réactives avec mesures de retour sur investissement",
+            caption: "Les études de données génèrent le volume de liens le plus élevé. Les relations publiques produit génèrent des liens vers des pages commerciales. Reactive PR fournit des liens en quelques heures.",
           },
           callout: {
             title: "Skalenvorteil",
-            text: "Eine einzige erfolgreiche digitale PR-Kampagne kann 20-100 Backlinks von hochautoritaeren Publikationen generieren. Diese redaktionellen Links sind fuer Wettbewerber nahezu unmoeglich zu replizieren und schaffen einen dauerhaften Ranking-Vorteil.",
+            text: "Une seule campagne de relations publiques numérique réussie peut générer 20 à 100 backlinks provenant de publications de haute autorité. Ces liens éditoriaux sont presque impossibles à reproduire pour les concurrents, créant ainsi une diffusion durable.nd schaffen einen dauerhaften Ranking-Vorteil.",
           },
         },
         {
-          title: "Campagnes RP basees sur les donnees",
+          title: "Campagnes RP basées sur les données",
           content:
             "Les campagnes basees sur les donnees sont le moyen le plus fiable pour les boutiques ecommerce d'obtenir des liens de haute autorite a grande echelle. Les journalistes ont besoin de donnees pour etayer leurs articles, et si votre boutique peut fournir des donnees originales et interessantes, vous devenez une source vers laquelle les publications renvoient de maniere repetee.\n\nCommencez par vos propres donnees de vente et clients. Analysez les tendances d'achat par region, saison, demographique ou categorie de produit. Un magasin de fournitures pour animaux pourrait analyser quelles races de chiens sont les plus populaires dans differentes villes a partir des donnees d'achat. Un detaillant de mode pourrait publier un rapport sur l'evolution des preferences de couleur selon les saisons. Ces histoires de donnees sont intrinsequement dignes d'interet car elles revelent un comportement de consommation authentique auquel personne d'autre n'a acces.\n\nSi vos donnees proprietaires sont limitees, creez une recherche originale par le biais d'enquetes. Commandez une enquete aupres de 1 000 a 2 000 consommateurs sur un sujet pertinent pour votre secteur. Un detaillant de matelas pourrait enqueter sur les habitudes de sommeil de differentes tranches d'age. Un magasin d'equipement de cuisine pourrait enqueter sur les tendances de cuisine a domicile post-pandemie. Les plateformes d'enquete professionnelles comme Pollfish ou SurveyMonkey Audience fournissent des tailles d'echantillon statistiquement significatives a des couts raisonnables.\n\nPresentez vos donnees dans un format visuellement percutant. Creez des graphiques, des infographies et des visualisations de donnees interactives que les journalistes peuvent integrer ou referencer dans leurs articles. Un actif de donnees bien concu a beaucoup plus de chances d'obtenir des liens qu'un communique de presse en texte brut. Hebergez l'etude complete sur une page dediee de votre site, c'est l'URL vers laquelle vous voulez que les publications renvoient, et elle devrait etre optimisee pour les mots-cles pour lesquels vous voulez vous positionner.",
           tip: "Planifiez vos campagnes de donnees en fonction des cycles d'actualite saisonniers. Une etude sur les tendances d'achats de fetes publiee debut novembre obtiendra beaucoup plus de couverture que la meme etude publiee en mars. Etablissez le calendrier editorial de vos publications cibles et proposez vos histoires de donnees 4 a 6 semaines avant la saison pertinente.",
           callout: {
-            title: "Daten die Sie bereits haben",
-            text: "Ihre Verkaufsdaten offenbaren Verbrauchertrends auf die niemand sonst Zugriff hat. Ein Zoogeschaeft das die Beliebtheit von Rassen nach Stadt analysiert oder ein Modehaendler der saisonale Farbpraeferenzen verfolgt erzeugt inhaerent berichtenswerte Stories die Links von Medien verdienen die niemals zu einer Produktseite verlinken wuerden.",
+            title: "Données dont vous disposez déjà",
+            text: "Vos données de vente révèlent des tendances de consommation auxquelles personne d’autre n’a accès. Une animalerie analysant la popularité des races par ville ou un détaillant de mode qui suit les préférences de couleurs saisonnières crée des articles intrinsèquement dignes d'intérêt.enzen verfolgt erzeugt inhaerent berichtenswerte Stories die Links von Medien verdienen die niemals zu einer Produktseite verlinken wuerden.",
           },
         },
         {
@@ -208,7 +207,7 @@ export const digitalPrForEcommerce: AcademyTopic = {
           ],
         },
         {
-          title: "Strategies RP axees sur les produits",
+          title: "Stratégies RP axees sur les produits",
           content:
             "Les RP axees sur les produits exploitent votre inventaire comme generateur d'histoires. Les lancements de nouveaux produits, les designs innovants, les initiatives de durabilite et les collaborations notables offrent tous des angles que les journalistes et blogueurs veulent couvrir. La cle est de cadrer les histoires de produits de maniere a servir l'audience de la publication plutot que de ressembler a une publicite produit.\n\nLes guides cadeaux saisonniers sont l'opportunite de RP produit la plus accessible pour les boutiques ecommerce. Les publications dans chaque niche produisent du contenu de guides cadeaux a partir de septembre et recherchent activement des recommandations de produits. Proposez vos produits pour inclusion en fournissant des images haute resolution, les specifications cles, les prix et une explication claire de pourquoi chaque produit est un choix remarquable pour un type de destinataire specifique. Les liens de guides cadeaux sont particulierement precieux car ils pointent directement vers des pages produit avec intention d'achat.\n\nLes pitchs de comparaison et d'avis de produits fonctionnent bien quand vous avez un produit genuinement differencie. Si votre produit a remporte des prix, resout un probleme unique ou surpasse significativement les concurrents sur une metrique specifique, proposez-le aux publications qui evaluent les produits dans votre categorie. Fournissez un echantillon de test et laissez le journaliste former sa propre opinion, les avis editoriaux authentiques portent bien plus de poids que les placements payes.\n\nLes histoires de durabilite et d'impact social sont devenues des angles RP de plus en plus puissants. Si vos produits utilisent des materiaux recycles, si votre chaine d'approvisionnement a obtenu des certifications specifiques ou si votre boutique reverse un pourcentage des ventes a des causes pertinentes, ces histoires resonnent aupres des journalistes et du public. Soyez specifique et verifiable avec vos affirmations, les represailles contre le greenwashing peuvent etre plus dommageables que l'absence totale de RP.",
           tip: "Creez une page presse dediee sur votre site avec des images produit telechargeables, des biographies des fondateurs, des fiches techniques et des directives de marque. Les journalistes travaillant sous pression utilisent les actifs facilement disponibles. Une page presse bien organisee reduit les frictions dans la couverture et augmente la probabilite d'obtenir des liens.",
@@ -239,12 +238,11 @@ export const digitalPrForEcommerce: AcademyTopic = {
     es: {
       badge: "Link Building",
       heading: "Relaciones Publicas Digitales para Ecommerce",
-      intro:
-        "Las relaciones publicas digitales combinan tacticas de relaciones publicas tradicionales con objetivos SEO para conseguir backlinks de alta autoridad de sitios de noticias, publicaciones del sector y blogs importantes. Para las tiendas de ecommerce, las RP digitales son una de las formas mas escalables de construir enlaces que mueven rankings, una sola campana exitosa puede generar docenas de enlaces de dominios con puntuaciones de autoridad que llevarian anos conseguir mediante outreach convencional. Esta guia cubre como planificar, ejecutar y medir campanas de RP digitales disenadas especificamente para minoristas online. Para tiendas de ecommerce, el PR digital es una de las formas mas escalables de [construir enlaces](/link-building) que mueven los rankings.",
+      intro: "Las relaciones publicas digitales combinan tacticas de relaciones publicas tradicionales con objetivos SEO para conseguir backlinks de alta autoridad de sitios de noticias, publicaciones del sector y blogs importantes. Para las tiendas de ecommerce, las RP digitales son una de las formas mas escalables de construir enlaces que mueven rankings, una sola campana exitosa puede generar docenas de enlaces de dominios con puntuaciones de autoridad que llevarian años conseguir mediante outreach convencional. Esta guia cubre como planificar, ejecutar y medir campanas de RP digitales disenadas especificamente para minoristas online. Para tiendas de ecommerce, el PR digital es una de las formas mas escalables de [construir enlaces](/link-building) que mueven los rankings.",
       readTime: "12 min de lectura",
       sections: [
         {
-          title: "Que significan las RP digitales para el ecommerce",
+          title: "Qué significan las RP digitales para el ecommerce",
           content:
             "Las RP digitales para ecommerce consisten en crear historias de interes periodistico, activos de datos o campanas que obtienen cobertura, y enlaces, de periodistas, blogueros y publicaciones en linea. A diferencia de las RP tradicionales, que miden el exito en menciones de marca e impresiones mediaticas, las RP digitales se evaluan principalmente por los backlinks que genera cada campana. Cada cobertura que incluye un enlace a tu tienda transfiere autoridad que mejora tus clasificaciones en la busqueda organica.\n\nEl enfoque difiere del [link building](/academy/backlink-fundamentals-for-ecommerce) estandar porque apunta a enlaces editoriales, el tipo de backlink mas valioso. Cuando un periodista de un periodico nacional enlaza al estudio de investigacion o a la pagina de producto de tu tienda dentro de un articulo, ese enlace lleva significativamente mas peso que un enlace de guest post o un listado de directorio. Los enlaces editoriales de publicaciones de alta autoridad tambien son los mas dificiles de replicar para los competidores, creando una ventaja de clasificacion duradera.\n\nLas tiendas de ecommerce tienen ventajas naturales en RP digitales que muchas no explotan. Posees datos de ventas propietarios que revelan tendencias de consumo. Tienes acceso a experiencia en productos que los periodistas necesitan para guias de compra y selecciones. Sirves a comunidades de clientes especificas cuyas historias resuenan con publicaciones de nicho. La clave es reempaquetar estos activos en formatos que los periodistas encuentran irresistibles: estudios de datos, comentarios de expertos, innovaciones de producto e historias impulsadas por la comunidad.",
           items: [
@@ -255,22 +253,22 @@ export const digitalPrForEcommerce: AcademyTopic = {
           ],
           image: {
             src: "/images/academy/es/digital-pr-campaign-types.svg",
-            alt: "Diagramm das drei Typen digitaler PR-Kampagnen fuer Ecommerce zeigt: Datenstudien, Produkt-PR und reaktive PR mit ROI-Metriken",
-            caption: "Datenstudien generieren das hoechste Linkvolumen. Produkt-PR treibt Links zu kommerziellen Seiten. Reaktive PR liefert Links innerhalb von Stunden.",
+            alt: "Diagrama que muestra tres tipos de campañas de relaciones públicas digitales para comercio electrónico: estudios de datos, relaciones públicas de productos y relaciones públicas reactivas con métricas de ROI.",
+            caption: "Los estudios de datos generan el mayor volumen de enlaces. Las relaciones públicas de productos generan enlaces a páginas comerciales. Las relaciones públicas reactivas ofrecen enlaces en cuestión de horas.",
           },
           callout: {
             title: "Skalenvorteil",
-            text: "Eine einzige erfolgreiche digitale PR-Kampagne kann 20-100 Backlinks von hochautoritaeren Publikationen generieren. Diese redaktionellen Links sind fuer Wettbewerber nahezu unmoeglich zu replizieren und schaffen einen dauerhaften Ranking-Vorteil.",
+            text: "Una sola campaña de relaciones públicas digitales exitosa puede generar entre 20 y 100 vínculos de retroceso de publicaciones de alta autoridad. Estos vínculos editoriales son casi imposibles de replicar para los competidores, lo que crea una carrera duradera.nd schaffen einen dauerhaften Ranking-Vorteil.",
           },
         },
         {
-          title: "Campanas de RP basadas en datos",
+          title: "Campañas de RP basadas en datos",
           content:
             "Las campanas basadas en datos son la forma mas fiable para las tiendas de ecommerce de obtener enlaces de alta autoridad a escala. Los periodistas necesitan datos para apoyar sus historias, y si tu tienda puede proporcionar datos originales e interesantes, te conviertes en una fuente a la que las publicaciones enlazan repetidamente.\n\nComienza con tus propios datos de ventas y clientes. Analiza tendencias de compra por region, temporada, demografia o categoria de producto. Una tienda de suministros para mascotas podria analizar que razas de perros son mas populares en diferentes ciudades basandose en datos de compra. Un minorista de moda podria publicar un informe sobre como las preferencias de color cambian segun la temporada. Estas historias de datos son intrinsecamente noticiables porque revelan comportamiento de consumo genuino al que nadie mas tiene acceso.\n\nSi tus datos propietarios son limitados, crea investigacion original a traves de encuestas. Encarga una encuesta a 1.000-2.000 consumidores sobre un tema relevante para tu industria. Un minorista de colchones podria encuestar habitos de sueno entre diferentes grupos de edad. Una tienda de equipamiento de cocina podria encuestar tendencias de cocina casera post-pandemia. Las plataformas de encuestas profesionales como Pollfish o SurveyMonkey Audience proporcionan tamanos de muestra estadisticamente significativos a costos razonables.\n\nPresenta tus datos en un formato visualmente atractivo. Crea graficos, infografias y visualizaciones de datos interactivas que los periodistas puedan integrar o referenciar en sus articulos. Un activo de datos bien disenado tiene muchas mas probabilidades de obtener enlaces que un comunicado de prensa en texto plano. Aloja el estudio completo en una pagina dedicada de tu sitio, esta es la URL a la que quieres que las publicaciones enlacen, y debe estar optimizada para las palabras clave por las que quieres posicionarte.",
           tip: "Programa tus campanas de datos para alinearse con los ciclos de noticias estacionales. Un estudio sobre tendencias de compras navidenas publicado a principios de noviembre obtendra mucha mas cobertura que el mismo estudio publicado en marzo. Mapea el calendario editorial de tus publicaciones objetivo y presenta historias de datos 4-6 semanas antes de su temporada relevante.",
           callout: {
-            title: "Daten die Sie bereits haben",
-            text: "Ihre Verkaufsdaten offenbaren Verbrauchertrends auf die niemand sonst Zugriff hat. Ein Zoogeschaeft das die Beliebtheit von Rassen nach Stadt analysiert oder ein Modehaendler der saisonale Farbpraeferenzen verfolgt erzeugt inhaerent berichtenswerte Stories die Links von Medien verdienen die niemals zu einer Produktseite verlinken wuerden.",
+            title: "Datos que ya tienes",
+            text: "Sus datos de ventas revelan tendencias de consumo a las que nadie más puede acceder. Una tienda de mascotas que analiza la popularidad de las razas por ciudad o un minorista de moda que rastrea las preferencias de color estacionales crea anuncios inherentemente de interés periodístico.enzen verfolgt erzeugt inhaerent berichtenswerte Stories die Links von Medien verdienen die niemals zu einer Produktseite verlinken wuerden.",
           },
         },
         {
@@ -332,12 +330,12 @@ export const digitalPrForEcommerce: AcademyTopic = {
           ],
           image: {
             src: "/images/academy/it/digital-pr-campaign-types.svg",
-            alt: "Diagramm das drei Typen digitaler PR-Kampagnen fuer Ecommerce zeigt: Datenstudien, Produkt-PR und reaktive PR mit ROI-Metriken",
-            caption: "Datenstudien generieren das hoechste Linkvolumen. Produkt-PR treibt Links zu kommerziellen Seiten. Reaktive PR liefert Links innerhalb von Stunden.",
+            alt: "Diagramma che mostra tre tipi di campagne di PR digitali per l'e-commerce: studi sui dati, PR di prodotto e PR reattive con metriche ROI",
+            caption: "Gli studi sui dati generano il volume di collegamenti più elevato. Le PR del prodotto indirizzano i collegamenti alle pagine commerciali. Le PR reattive forniscono collegamenti in poche ore.",
           },
           callout: {
             title: "Skalenvorteil",
-            text: "Eine einzige erfolgreiche digitale PR-Kampagne kann 20-100 Backlinks von hochautoritaeren Publikationen generieren. Diese redaktionellen Links sind fuer Wettbewerber nahezu unmoeglich zu replizieren und schaffen einen dauerhaften Ranking-Vorteil.",
+            text: "Una singola campagna di PR digitale di successo può generare 20-100 backlink da pubblicazioni di alta autorità. Questi collegamenti editoriali sono quasi impossibili da replicare per i concorrenti, creando una corsa duraturand schaffen einen dauerhaften Ranking-Vorteil.",
           },
         },
         {
@@ -346,8 +344,8 @@ export const digitalPrForEcommerce: AcademyTopic = {
             "Le campagne basate sui dati sono il modo piu affidabile per i negozi ecommerce di ottenere link di alta autorita su larga scala. I giornalisti hanno bisogno di dati per supportare le loro storie, e se il tuo negozio puo fornire dati originali e interessanti, diventi una fonte a cui le pubblicazioni linkano ripetutamente.\n\nInizia con i tuoi dati di vendita e clienti. Analizza le tendenze di acquisto per regione, stagione, demografia o categoria di prodotto. Un negozio di forniture per animali potrebbe analizzare quali razze di cani sono piu popolari in diverse citta basandosi sui dati di acquisto. Un rivenditore di moda potrebbe pubblicare un report su come le preferenze di colore cambiano per stagione. Queste storie di dati sono intrinsecamente degne di nota perche rivelano un comportamento di consumo genuino a cui nessun altro ha accesso.\n\nSe i tuoi dati proprietari sono limitati, crea ricerca originale attraverso sondaggi. Commissiona un sondaggio su 1.000-2.000 consumatori su un argomento rilevante per il tuo settore. Un rivenditore di materassi potrebbe sondare le abitudini del sonno tra diverse fasce d'eta. Un negozio di attrezzature da cucina potrebbe sondare le tendenze della cucina casalinga post-pandemia. Le piattaforme di sondaggio professionali come Pollfish o SurveyMonkey Audience forniscono campioni statisticamente significativi a costi ragionevoli.\n\nPresenta i tuoi dati in un formato visivamente accattivante. Crea grafici, infografiche e visualizzazioni di dati interattive che i giornalisti possono incorporare o referenziare nei loro articoli. Un asset di dati ben progettato ha molte piu probabilita di ottenere link rispetto a un comunicato stampa in testo semplice. Ospita lo studio completo su una pagina dedicata del tuo sito, questo e l'URL a cui vuoi che le pubblicazioni linkino, e dovrebbe essere ottimizzato per le parole chiave per cui vuoi posizionarti.",
           tip: "Pianifica le tue campagne dati in modo da allinearle con i cicli di notizie stagionali. Uno studio sulle tendenze dello shopping natalizio pubblicato a inizio novembre otterra molta piu copertura dello stesso studio pubblicato a marzo. Mappa il calendario editoriale delle tue pubblicazioni target e proponi storie di dati 4-6 settimane prima della stagione rilevante.",
           callout: {
-            title: "Daten die Sie bereits haben",
-            text: "Ihre Verkaufsdaten offenbaren Verbrauchertrends auf die niemand sonst Zugriff hat. Ein Zoogeschaeft das die Beliebtheit von Rassen nach Stadt analysiert oder ein Modehaendler der saisonale Farbpraeferenzen verfolgt erzeugt inhaerent berichtenswerte Stories die Links von Medien verdienen die niemals zu einer Produktseite verlinken wuerden.",
+            title: "Dati che hai già",
+            text: "I tuoi dati di vendita rivelano tendenze dei consumatori a cui nessun altro può accedere. Un negozio di animali che analizza la popolarità delle razze per città o un rivenditore di moda che monitora le preferenze cromatiche stagionali creano messaggi intrinsecamente degni di notaenzen verfolgt erzeugt inhaerent berichtenswerte Stories die Links von Medien verdienen die niemals zu einer Produktseite verlinken wuerden.",
           },
         },
         {
@@ -409,12 +407,12 @@ export const digitalPrForEcommerce: AcademyTopic = {
           ],
           image: {
             src: "/images/academy/nl/digital-pr-campaign-types.svg",
-            alt: "Diagramm das drei Typen digitaler PR-Kampagnen fuer Ecommerce zeigt: Datenstudien, Produkt-PR und reaktive PR mit ROI-Metriken",
-            caption: "Datenstudien generieren das hoechste Linkvolumen. Produkt-PR treibt Links zu kommerziellen Seiten. Reaktive PR liefert Links innerhalb von Stunden.",
+            alt: "Diagram met drie soorten digitale PR-campagnes voor e-commerce: datastudies, product-PR en reactieve PR met ROI-statistieken",
+            caption: "Datastudies genereren het hoogste linkvolume. Product-PR stimuleert links naar commerciële pagina's. Reactieve PR levert links binnen enkele uren op.",
           },
           callout: {
             title: "Skalenvorteil",
-            text: "Eine einzige erfolgreiche digitale PR-Kampagne kann 20-100 Backlinks von hochautoritaeren Publikationen generieren. Diese redaktionellen Links sind fuer Wettbewerber nahezu unmoeglich zu replizieren und schaffen einen dauerhaften Ranking-Vorteil.",
+            text: "Eén enkele succesvolle digitale PR-campagne kan 20 tot 100 backlinks genereren vanuit publicaties met een hoge autoriteit. Deze redactionele links zijn voor concurrenten bijna onmogelijk te repliceren, waardoor een duurzame reeks ontstaatnd schaffen einen dauerhaften Ranking-Vorteil.",
           },
         },
         {
@@ -423,8 +421,8 @@ export const digitalPrForEcommerce: AcademyTopic = {
             "Datagedreven campagnes zijn de meest betrouwbare manier voor ecommerce-winkels om links met hoge autoriteit op schaal te verdienen. Journalisten hebben data nodig om hun verhalen te ondersteunen, en als je winkel originele, interessante data kan leveren, word je een bron waarnaar publicaties herhaaldelijk linken.\n\nBegin met je eigen verkoop- en klantgegevens. Analyseer kooptrends per regio, seizoen, demografie of productcategorie. Een dierenbenodigdhedenwinkel zou kunnen analyseren welke hondenrassen het populairst zijn in verschillende steden op basis van aankoopgegevens. Een modewinkel zou een rapport kunnen publiceren over hoe kleurvoorkeuren verschuiven per seizoen. Deze dataverhalen zijn inherent nieuwswaardig omdat ze genuien consumentengedrag onthullen waar niemand anders toegang toe heeft.\n\nAls je eigen data beperkt is, creeer dan origineel onderzoek via enquetes. Laat een enquete uitvoeren onder 1.000 tot 2.000 consumenten over een onderwerp dat relevant is voor je branche. Een matrassenwinkel zou slaapgewoonten van verschillende leeftijdsgroepen kunnen onderzoeken. Een keukenapparatuurwinkel zou trends in thuiskoken post-pandemie kunnen onderzoeken. Professionele enqueteplatforms zoals Pollfish of SurveyMonkey Audience bieden statistisch significante steekproefgrootten tegen redelijke kosten.\n\nPresenteer je data in een visueel aantrekkelijk formaat. Maak grafieken, infographics en interactieve datavisualisaties die journalisten kunnen insluiten of refereren in hun artikelen. Een goed ontworpen data-asset heeft veel meer kans om links te verdienen dan een tekst-persbericht. Host het volledige onderzoek op een speciale pagina op je site, dit is de URL waarnaar publicaties moeten linken, en deze moet geoptimaliseerd zijn voor de zoekwoorden waarvoor je wilt ranken.",
           tip: "Time je datacampagnes om aan te sluiten bij seizoensgebonden nieuwscycli. Een studie over feestdagen-shoppingtrends die begin november wordt uitgebracht, krijgt veel meer dekking dan dezelfde studie in maart. Breng de redactiekalender van je doelpublicaties in kaart en pitch dataverhalen 4-6 weken voor het relevante seizoen.",
           callout: {
-            title: "Daten die Sie bereits haben",
-            text: "Ihre Verkaufsdaten offenbaren Verbrauchertrends auf die niemand sonst Zugriff hat. Ein Zoogeschaeft das die Beliebtheit von Rassen nach Stadt analysiert oder ein Modehaendler der saisonale Farbpraeferenzen verfolgt erzeugt inhaerent berichtenswerte Stories die Links von Medien verdienen die niemals zu einer Produktseite verlinken wuerden.",
+            title: "Gegevens die u al heeft",
+            text: "Uw verkoopgegevens onthullen consumententrends waar niemand anders toegang toe heeft. Een dierenwinkel die de populariteit van het ras per stad analyseert, of een modewinkel die seizoenskleurvoorkeuren bijhoudt, creëert nieuwswaardige berichtenenzen verfolgt erzeugt inhaerent berichtenswerte Stories die Links von Medien verdienen die niemals zu einer Produktseite verlinken wuerden.",
           },
         },
         {

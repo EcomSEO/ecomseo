@@ -204,8 +204,7 @@ items: [
     fr: {
       badge: "SEO avance",
       heading: "SEO JavaScript pour l'e-commerce",
-      intro:
-        "Les plateformes e-commerce modernes s'appuient de plus en plus sur des frameworks JavaScript comme React, Vue et Angular pour offrir des experiences d'achat dynamiques. Si ces frameworks excellent dans la creation de vitrines riches et interactives, ils introduisent des defis significatifs pour le crawl et l'indexation par les moteurs de recherche. Comprendre comment Googlebot traite le JavaScript et implementer la bonne strategie de rendu peut faire la difference entre des milliers de pages produit indexees et une boutique invisible. Ce sujet s'appuie sur les [fondamentaux du SEO technique](/blog/technical-seo-for-ecommerce) avec un focus spécifique sur JavaScript.",
+      intro: "Les plateformes e-commerce modernes s'appuient de plus en plus sur des frameworks JavaScript comme React, Vue et Angular pour offrir des expériences d'achat dynamiques. Si ces frameworks excellent dans la création de vitrines riches et interactives, ils introduisent des defis significatifs pour le crawl et l'indexation par les moteurs de recherche. Comprendre comment Googlebot traite le JavaScript et implementer la bonne stratégie de rendu peut faire la difference entre des milliers de pages produit indexees et une boutique invisible. Ce sujet s'appuie sur les [fondamentaux du SEO technique](/blog/technical-seo-for-ecommerce) avec un focus spécifique sur JavaScript.",
       readTime: "13 min de lecture",
       sections: [
         {
@@ -222,15 +221,15 @@ items: [
           image: {
             src: "/images/academy/fr/googlebot-js-two-phase.svg",
             alt: "Googlebot JavaScript-Verarbeitung in zwei Phasen: Crawlen (Sekunden) und Rendern (Minuten bis Tage)",
-            caption: "Googlebots Zwei-Phasen-Verarbeitung bedeutet: Content, der JavaScript zum Rendern benoetigt, wird moeglicherweise erst Tage spaeter indexiert.",
+            caption: "La phase 1 récupère instantanément le HTML brut. La phase 2 restitue JavaScript mais peut être retardée de plusieurs jours ou semaines en fonction du budget d'exploration.",
           },
           callout: {
             title: "Rendering-Verzoegerung",
-            text: "Die Wartezeit in der Render-Warteschlange kann Minuten bis Tage betragen. Fuer E-Commerce-Shops mit haeufigen Preis- oder Verfuegbarkeitsaenderungen ist serverseitiges Rendering kritisch, damit Google aktuelle Daten indexiert.",
+            text: "Googlebot accorde environ 5 secondes pour une première peinture significative. Les pages contenant de gros bundles JS ou des appels d'API en cascade risquent un rendu incomplet et du contenu manquant dans l'index. aktuelle Daten indexiert.",
           },
         },
         {
-          title: "Strategies de rendu : CSR, SSR et SSG",
+          title: "Stratégies de rendu : CSR, SSR et SSG",
           content:
             "Le rendu cote client (CSR) est la valeur par defaut pour la plupart des frameworks d'application monopage. Le serveur envoie une coquille HTML minimale et un bundle JavaScript qui construit la page entiere dans le navigateur. Pour le SEO e-commerce, le CSR pur est le pire choix. Les titres, descriptions, prix et donnees structurees des produits sont absents du HTML initial.\n\nLe rendu cote serveur (SSR) genere le HTML complet sur le serveur pour chaque requete, fournissant immediatement le contenu produit complet aux utilisateurs et aux crawlers. Les frameworks comme Next.js, Nuxt.js et Angular Universal offrent des capacites SSR. Googlebot peut indexer ce contenu des la premiere phase de crawl.\n\nLa generation de sites statiques (SSG) pre-rend les pages au moment du build, produisant des fichiers HTML statiques servis directement depuis un CDN. Pour les catalogues avec des donnees produit stables, le SSG offre les temps de chargement les plus rapides.\n\nLa regeneration statique incrementale (ISR) offre un terrain d'entente. Les pages sont generees statiquement mais peuvent etre revalidees et regenerees selon un calendrier defini.\n\nLe rendu hybride, ou differents types de pages utilisent differentes strategies, est l'approche pragmatique pour la plupart des boutiques e-commerce.",
           items: [
@@ -242,16 +241,16 @@ items: [
           ],
           image: {
             src: "/images/academy/fr/js-rendering-strategies.svg",
-            alt: "Vergleich der Rendering-Strategien: CSR, SSR, SSG und ISR mit SEO-Bewertung",
-            caption: "SSR ist fuer die meisten E-Commerce-Shops am besten geeignet. CSR ist fuer SEO nicht zu empfehlen.",
+            alt: "Diagramme comparatif des stratégies de rendu CSR, SSR, SSG et ISR montrant leurs compromis SEO pour les magasins de commerce électronique",
+            caption: "Utilisez une approche hybride : SSG pour les pages de catégories, SSR pour les pages de détails de produits avec tarification dynamique et CSR uniquement pour les fonctionnalités spécifiques à l'utilisateur telles que le panier et la liste de souhaits.",
           },
           callout: {
             title: "Rendering-Empfehlung",
-            text: "Fuer E-Commerce-Shops mit mehr als 1.000 Produkten ist SSR die beste Wahl. SSG funktioniert nur fuer kleine Kataloge, und ISR bietet das Beste aus beiden Welten, erfordert aber mehr technisches Setup.",
+            text: "Pure CSR laisse les titres de produits, les prix et les données structurées invisibles jusqu'à ce que Googlebot rende JavaScript. SSR fournit du HTML complet à chaque requête, permettant une indexation au premier passage sans délai.",
           },
         },
         {
-          title: "Elements SEO critiques dans les frameworks JavaScript",
+          title: "Éléments SEO critiques dans les frameworks JavaScript",
           content:
             "Les balises meta, les URLs canoniques et les donnees structurees doivent etre presentes dans le HTML rendu cote serveur, pas injectees cote client. Si votre framework genere la balise <title>, la meta description et le lien canonique via JavaScript apres le chargement, Googlebot peut les manquer lors du premier passage. Utilisez la solution de gestion du head de votre framework : next/head dans Next.js, useHead dans Nuxt 3.\n\nLe maillage interne est frequemment casse dans les boutiques e-commerce rendues en JavaScript. Les menus de navigation, fils d'Ariane, liens de categories et pagination bases sur des gestionnaires d'evenements JavaScript au lieu de balises <a href> standard sont invisibles pour Googlebot. Chaque lien de navigation doit utiliser des elements ancre corrects avec des attributs href complets.\n\nLe chargement paresseux des images produit peut etre compatible avec le SEO s'il est correctement implemente. Utilisez l'attribut natif loading='lazy' pour les images sous la ligne de flottaison, mais assurez-vous que les images produit principales se chargent immediatement.\n\nLa gestion des URL via l'API History doit produire des URL reelles et crawlables. Si votre systeme de filtrage change l'affichage sans mettre a jour l'URL, ou utilise le routage base sur le hash, les moteurs de recherche ne peuvent pas decouvrir ces etats.",
           items: [
@@ -302,12 +301,11 @@ items: [
     es: {
       badge: "SEO avanzado",
       heading: "SEO JavaScript para ecommerce",
-      intro:
-        "Las plataformas de ecommerce modernas dependen cada vez mas de frameworks JavaScript como React, Vue y Angular para ofrecer experiencias de compra dinamicas. Aunque estos frameworks sobresalen en la creacion de escaparates ricos e interactivos, introducen desafios significativos para el rastreo e indexacion de motores de busqueda. Comprender como Googlebot procesa JavaScript e implementar la estrategia de renderizado correcta puede significar la diferencia entre miles de paginas de producto indexadas y una tienda invisible. Este tema se apoya en los [fundamentos de SEO tecnico](/blog/technical-seo-for-ecommerce) con un enfoque especifico en JavaScript.",
+      intro: "Las plataformas de ecommerce modernas dependen cada vez mas de frameworks JavaScript como React, Vue y Angular para ofrecer experiencias de compra dinamicas. Aunque estos frameworks sobresalen en la creacion de escaparates ricos e interactivos, introducen desafios significativos para el rastreo e indexación de motores de busqueda. Comprender como Googlebot procesa JavaScript e implementar la estrategia de renderizado correcta puede significar la diferencia entre miles de páginas de producto indexadas y una tienda invisible. Este tema se apoya en los [fundamentos de SEO técnico](/blog/technical-seo-for-ecommerce) con un enfoque especifico en JavaScript.",
       readTime: "13 min de lectura",
       sections: [
         {
-          title: "Como Googlebot procesa JavaScript",
+          title: "Cómo Googlebot procesa JavaScript",
           content:
             "Googlebot utiliza un proceso de indexacion en dos fases para las paginas con mucho JavaScript. En la primera fase, rastrea la respuesta HTML sin procesar e indexa el contenido presente en la respuesta inicial del servidor. En la segunda fase, coloca la pagina en cola para renderizado usando un navegador Chromium sin cabeza, ejecuta el JavaScript y luego indexa el contenido completamente renderizado. El problema critico es la brecha entre estas dos fases.\n\nLa cola de renderizado puede tardar desde segundos hasta semanas dependiendo de la asignacion de [presupuesto de rastreo](/academy/crawling-and-indexing-product-pages) de Google para su dominio. Durante este retraso, cualquier contenido que dependa de la ejecucion de JavaScript permanece invisible para Google. Para una tienda de ecommerce con miles de paginas de producto, esto significa que nuevos productos y actualizaciones de precios pueden no aparecer en los resultados de busqueda durante dias.\n\nEl motor de renderizado de Googlebot ejecuta una version relativamente reciente de Chromium, por lo que las API JavaScript modernas generalmente son compatibles. Sin embargo, tiene limitaciones importantes: no interactua con las paginas (sin clics, desplazamiento ni envio de formularios), tiene un tiempo de espera de renderizado de aproximadamente 5 segundos y bloquea ciertos tipos de recursos.",
           items: [
@@ -320,11 +318,11 @@ items: [
           image: {
             src: "/images/academy/es/googlebot-js-two-phase.svg",
             alt: "Googlebot JavaScript-Verarbeitung in zwei Phasen: Crawlen (Sekunden) und Rendern (Minuten bis Tage)",
-            caption: "Googlebots Zwei-Phasen-Verarbeitung bedeutet: Content, der JavaScript zum Rendern benoetigt, wird moeglicherweise erst Tage spaeter indexiert.",
+            caption: "La fase 1 recupera HTML sin formato al instante. La fase 2 procesa JavaScript, pero puede retrasarse días o semanas según el presupuesto de rastreo.",
           },
           callout: {
             title: "Rendering-Verzoegerung",
-            text: "Die Wartezeit in der Render-Warteschlange kann Minuten bis Tage betragen. Fuer E-Commerce-Shops mit haeufigen Preis- oder Verfuegbarkeitsaenderungen ist serverseitiges Rendering kritisch, damit Google aktuelle Daten indexiert.",
+            text: "El robot de Google permite aproximadamente 5 segundos para realizar una pintura significativa inicial. Las páginas con grandes paquetes JS o llamadas API en cascada corren el riesgo de una representación incompleta y de que falte contenido en el índice. aktuelle Daten indexiert.",
           },
         },
         {
@@ -340,12 +338,12 @@ items: [
           ],
           image: {
             src: "/images/academy/es/js-rendering-strategies.svg",
-            alt: "Vergleich der Rendering-Strategien: CSR, SSR, SSG und ISR mit SEO-Bewertung",
-            caption: "SSR ist fuer die meisten E-Commerce-Shops am besten geeignet. CSR ist fuer SEO nicht zu empfehlen.",
+            alt: "Diagrama comparativo de estrategias de renderizado CSR, SSR, SSG e ISR que muestra sus ventajas y desventajas de SEO para tiendas de comercio electrónico",
+            caption: "Utilice un enfoque híbrido: SSG para páginas de categorías, SSR para páginas de detalles de productos con precios dinámicos y CSR solo para funciones específicas del usuario como carrito y lista de deseos.",
           },
           callout: {
             title: "Rendering-Empfehlung",
-            text: "Fuer E-Commerce-Shops mit mehr als 1.000 Produkten ist SSR die beste Wahl. SSG funktioniert nur fuer kleine Kataloge, und ISR bietet das Beste aus beiden Welten, erfordert aber mehr technisches Setup.",
+            text: "La CSR pura deja invisibles los títulos de los productos, los precios y los datos estructurados hasta que el robot de Google genera JavaScript. SSR ofrece HTML completo en cada solicitud, lo que permite la indexación de primer paso sin demora.",
           },
         },
         {
@@ -361,7 +359,7 @@ items: [
           tip: "Ejecute una prueba de 'Deshabilitar JavaScript' en cada tipo de pagina critica: detalle de producto, categoria, resultados de busqueda y pagina de inicio. Si la pagina esta vacia o le falta informacion del producto con JavaScript deshabilitado, su implementacion SSR esta rota y necesita atencion inmediata.",
         },
         {
-          title: "Optimizacion de bundles JavaScript para eficiencia de rastreo",
+          title: "Optimización de bundles JavaScript para eficiencia de rastreo",
           content:
             "Los paquetes JavaScript grandes impactan directamente tanto la experiencia del usuario como la capacidad de Googlebot para renderizar sus paginas. Cada kilobyte de JavaScript que debe descargarse, analizarse y ejecutarse retrasa el renderizado de su contenido de producto. El presupuesto de rastreo de Google es finito, y el JavaScript ineficiente desperdicia recursos de renderizado.\n\nEl code splitting es esencial para tiendas de ecommerce. Divida su paquete JavaScript por ruta para que las paginas de producto solo carguen el codigo necesario para la visualizacion del producto. Las importaciones dinamicas permiten diferir funcionalidad no critica.\n\nEl tree shaking elimina codigo no utilizado de sus paquetes. Audite sus dependencias regularmente ya que muchas tiendas importan bibliotecas de utilidades completas cuando solo usan unas pocas funciones.\n\nLos scripts de terceros son la fuente mas comun de hinchamiento JavaScript en ecommerce. Widgets de chat, plataformas de analytics, motores de recomendacion y pixeles de retargeting anaden cada uno JavaScript que compite con el renderizado de sus productos. Cargue scripts de terceros asincronamente con atributos async o defer.\n\nMonitorice su tiempo de ejecucion JavaScript con la pestana Performance de Chrome DevTools y Lighthouse. Apunte a un tiempo de bloqueo total inferior a 200ms y un time-to-interactive inferior a 3,8 segundos. Para profundizar, consulta nuestra guia de [optimizacion de velocidad del sitio](/academy/site-speed-optimization).",
           items: [
@@ -418,11 +416,11 @@ items: [
           image: {
             src: "/images/academy/it/googlebot-js-two-phase.svg",
             alt: "Googlebot JavaScript-Verarbeitung in zwei Phasen: Crawlen (Sekunden) und Rendern (Minuten bis Tage)",
-            caption: "Googlebots Zwei-Phasen-Verarbeitung bedeutet: Content, der JavaScript zum Rendern benoetigt, wird moeglicherweise erst Tage spaeter indexiert.",
+            caption: "La fase 1 recupera immediatamente l'HTML grezzo. La Fase 2 esegue il rendering di JavaScript ma può essere ritardata di giorni o settimane a seconda del budget di scansione.",
           },
           callout: {
             title: "Rendering-Verzoegerung",
-            text: "Die Wartezeit in der Render-Warteschlange kann Minuten bis Tage betragen. Fuer E-Commerce-Shops mit haeufigen Preis- oder Verfuegbarkeitsaenderungen ist serverseitiges Rendering kritisch, damit Google aktuelle Daten indexiert.",
+            text: "Googlebot concede circa 5 secondi per la verniciatura iniziale significativa. Le pagine con bundle JS di grandi dimensioni o chiamate API a cascata rischiano un rendering incompleto e contenuti mancanti nell'indice. aktuelle Daten indexiert.",
           },
         },
         {
@@ -438,12 +436,12 @@ items: [
           ],
           image: {
             src: "/images/academy/it/js-rendering-strategies.svg",
-            alt: "Vergleich der Rendering-Strategien: CSR, SSR, SSG und ISR mit SEO-Bewertung",
-            caption: "SSR ist fuer die meisten E-Commerce-Shops am besten geeignet. CSR ist fuer SEO nicht zu empfehlen.",
+            alt: "Diagramma comparativo delle strategie di rendering CSR, SSR, SSG e ISR che mostrano i loro compromessi SEO per i negozi di e-commerce",
+            caption: "Utilizza un approccio ibrido: SSG per le pagine delle categorie, SSR per le pagine dei dettagli del prodotto con prezzi dinamici e CSR solo per funzionalità specifiche dell'utente come carrello e lista dei desideri.",
           },
           callout: {
             title: "Rendering-Empfehlung",
-            text: "Fuer E-Commerce-Shops mit mehr als 1.000 Produkten ist SSR die beste Wahl. SSG funktioniert nur fuer kleine Kataloge, und ISR bietet das Beste aus beiden Welten, erfordert aber mehr technisches Setup.",
+            text: "La pura CSR lascia invisibili i titoli dei prodotti, i prezzi e i dati strutturati finché Googlebot non esegue il rendering di JavaScript. SSR fornisce HTML completo a ogni richiesta, consentendo l'indicizzazione di primo passaggio senza ritardi.",
           },
         },
         {
@@ -516,11 +514,11 @@ items: [
           image: {
             src: "/images/academy/nl/googlebot-js-two-phase.svg",
             alt: "Googlebot JavaScript-Verarbeitung in zwei Phasen: Crawlen (Sekunden) und Rendern (Minuten bis Tage)",
-            caption: "Googlebots Zwei-Phasen-Verarbeitung bedeutet: Content, der JavaScript zum Rendern benoetigt, wird moeglicherweise erst Tage spaeter indexiert.",
+            caption: "Fase 1 haalt onbewerkte HTML onmiddellijk op. Fase 2 rendert JavaScript, maar kan dagen of weken worden vertraagd, afhankelijk van het crawlbudget.",
           },
           callout: {
             title: "Rendering-Verzoegerung",
-            text: "Die Wartezeit in der Render-Warteschlange kann Minuten bis Tage betragen. Fuer E-Commerce-Shops mit haeufigen Preis- oder Verfuegbarkeitsaenderungen ist serverseitiges Rendering kritisch, damit Google aktuelle Daten indexiert.",
+            text: "Googlebot heeft ongeveer vijf seconden nodig voor de eerste betekenisvolle verf. Pagina's met grote JS-bundels of trapsgewijze API-aanroepen lopen het risico dat ze onvolledig worden weergegeven en dat er inhoud in de index ontbreekt. aktuelle Daten indexiert.",
           },
         },
         {
@@ -536,12 +534,12 @@ items: [
           ],
           image: {
             src: "/images/academy/nl/js-rendering-strategies.svg",
-            alt: "Vergleich der Rendering-Strategien: CSR, SSR, SSG und ISR mit SEO-Bewertung",
-            caption: "SSR ist fuer die meisten E-Commerce-Shops am besten geeignet. CSR ist fuer SEO nicht zu empfehlen.",
+            alt: "Vergelijkingsdiagram van CSR-, SSR-, SSG- en ISR-renderingstrategieën die hun SEO-afwegingen voor e-commercewinkels tonen",
+            caption: "Gebruik een hybride aanpak: SSG voor categoriepagina's, SSR voor productdetailpagina's met dynamische prijzen en CSR alleen voor gebruikersspecifieke functies zoals winkelwagentje en verlanglijst.",
           },
           callout: {
             title: "Rendering-Empfehlung",
-            text: "Fuer E-Commerce-Shops mit mehr als 1.000 Produkten ist SSR die beste Wahl. SSG funktioniert nur fuer kleine Kataloge, und ISR bietet das Beste aus beiden Welten, erfordert aber mehr technisches Setup.",
+            text: "Pure CSR laat producttitels, prijzen en gestructureerde gegevens onzichtbaar totdat Googlebot JavaScript weergeeft. SSR levert bij elk verzoek volledige HTML, waardoor first-pass indexering zonder vertraging mogelijk is.",
           },
         },
         {

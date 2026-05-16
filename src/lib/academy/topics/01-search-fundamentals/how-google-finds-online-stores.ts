@@ -214,8 +214,7 @@ export const howGoogleFindsOnlineStores: AcademyTopic = {
     fr: {
       badge: "Fondamentaux de la recherche",
       heading: "Comment Google trouve les boutiques en ligne",
-      intro:
-        "Avant que Google puisse classer vos produits, il doit d'abord les d\u00e9couvrir. Comprendre comment Googlebot navigue sur les sites e-commerce r\u00e9v\u00e8le pourquoi certaines boutiques obtiennent des milliers de pages index\u00e9es tandis que d'autres peinent \u00e0 faire remarquer m\u00eame leurs pages de cat\u00e9gorie principales.",
+      intro: "Avant que Google puisse classer vos produits, il doit d'abord les d\u00e9couvrir. Comprendre comment Googlebot navigue sur les sites e-commerce r\u00e9v\u00e8le pourquoi certaines boutiques obtiennent des milliers de pages index\u00e9es tandis que d'autres peinent \u00e0 faire remarquer m\u00eame leurs pages de cat\u00e9gorie principales.",
       readTime: "10 min de lecture",
       sections: [
         {
@@ -230,12 +229,12 @@ export const howGoogleFindsOnlineStores: AcademyTopic = {
           ],
           image: {
             src: "/images/academy/fr/googlebot-crawl-flow.svg",
-            alt: "Diagramm das zeigt, wie Googlebot einen Ecommerce-Shop von der Startseite \u00fcber Kategorien zu Produktseiten crawlt",
-            caption: "Googlebot folgt Links von der Startseite zu Kategorien zu Produkten. Seiten tiefer in der Hierarchie werden seltener gecrawlt.",
+            alt: "Diagramme montrant comment Googlebot explore une boutique en ligne depuis la page d'accueil en passant par les catégories jusqu'aux pages de produits",
+            caption: "Googlebot suit les liens de la page d'accueil vers les catégories et les produits. Les pages plus profondes dans la hiérarchie sont explorées moins souvent.",
           },
           callout: {
             title: "Crawl-Budget-Mathematik",
-            text: "15 Kategorien \u00d7 20 Unterkategorien \u00d7 40 Produkte = 12.000 Produktseiten \u00fcber einen Crawl-Pfad. F\u00fcgt man gefilterte Ansichten und Paginierung hinzu, kann ein Shop mit 50.000 SKUs leicht 200.000+ crawlbare URLs erzeugen.",
+            text: "15 catégories x 20 sous-catégories x 40 produits = 12 000 pages de produits à partir d'un seul chemin d'exploration. Ajoutez des vues filtrées et une pagination, et un magasin de 50 000 SKU peut facilement générer plus de 200 000 URL explorables.",
           },
         },
         {
@@ -257,12 +256,12 @@ export const howGoogleFindsOnlineStores: AcademyTopic = {
           ],
           image: {
             src: "/images/academy/fr/js-rendering-phases.svg",
-            alt: "Diagramm das Googles zweiphasigen Rendering-Prozess f\u00fcr JavaScript-lastige Seiten zeigt",
-            caption: "Phase 1 ruft rohes HTML ab (oft leer f\u00fcr JS-Seiten). Phase 2 rendert JavaScript, kann aber um Tage oder Wochen verz\u00f6gert sein.",
+            alt: "Schéma illustrant le processus de rendu en deux phases de Google pour les pages contenant beaucoup de JavaScript",
+            caption: "La phase 1 récupère le HTML brut (souvent vide pour les sites JS). La phase 2 restitue JavaScript mais peut être retardée de plusieurs jours ou semaines.",
           },
           callout: {
             title: "Praxisfall",
-            text: "Wir auditierten einen Shop, bei dem 30\u00a0% der Produktseiten nicht indexiert waren. Produkttitel, Schema-Markup und Bewertungen wurden alle \u00fcber JavaScript geladen. Wechsel zu serverseitigem Rendering hat die Indexierung innerhalb von 3 Wochen behoben.",
+            text: "Nous avons audité un magasin où 30 % des pages produits n'étaient pas indexées. Le titre du produit, le balisage du schéma et les avis ont tous été chargés via JavaScript. Passage à l'indexation fixe du rendu côté serveur dans",
           },
         },
         {
@@ -272,7 +271,7 @@ export const howGoogleFindsOnlineStores: AcademyTopic = {
           tip: "Soumettez vos sitemaps dans Google Search Console et v\u00e9rifiez le rapport de couverture apr\u00e8s deux semaines. Si le ratio de pages index\u00e9es par rapport aux pages soumises est inf\u00e9rieur \u00e0 70 %, recherchez pourquoi Google choisit de ne pas indexer une partie significative de vos URLs soumises.",
           callout: {
             title: "Sitemap-Struktur Beispiel",
-            text: "sitemap-produkte.xml (30.000 URLs) + sitemap-kategorien.xml (200 URLs) + sitemap-blog.xml (150 URLs) + sitemap-seiten.xml (20 URLs). Separate Dateien erm\u00f6glichen das Tracking der Indexierung nach Content-Typ in der Search Console.",
+            text: "sitemap-products.xml (30 000 URL) + sitemap-categories.xml (200 URL) + sitemap-blog.xml (150 URL) + sitemap-pages.xml (20 URL). Des fichiers séparés vous permettent de suivre l'indexation par type de contenu dans Search Co",
           },
         },
         {
@@ -317,8 +316,7 @@ export const howGoogleFindsOnlineStores: AcademyTopic = {
     es: {
       badge: "Fundamentos de b\u00fasqueda",
       heading: "C\u00f3mo Google encuentra tiendas online",
-      intro:
-        "Antes de que Google pueda posicionar tus productos, necesita descubrirlos. Entender c\u00f3mo Googlebot navega por los sitios de ecommerce revela por qu\u00e9 algunas tiendas consiguen miles de p\u00e1ginas indexadas mientras otras luchan por que se noten incluso sus p\u00e1ginas de categor\u00eda principales.",
+      intro: "Antes de que Google pueda posicionar tus productos, necesita descubrirlos. Entender c\u00f3mo Googlebot navega por los sitios de ecommerce revela por qu\u00e9 algunas tiendas consiguen miles de p\u00e1ginas indexadas mientras otras luchan por qué se noten incluso sus p\u00e1ginas de categor\u00eda principales.",
       readTime: "10 min de lectura",
       sections: [
         {
@@ -333,12 +331,12 @@ export const howGoogleFindsOnlineStores: AcademyTopic = {
           ],
           image: {
             src: "/images/academy/es/googlebot-crawl-flow.svg",
-            alt: "Diagramm das zeigt, wie Googlebot einen Ecommerce-Shop von der Startseite \u00fcber Kategorien zu Produktseiten crawlt",
-            caption: "Googlebot folgt Links von der Startseite zu Kategorien zu Produkten. Seiten tiefer in der Hierarchie werden seltener gecrawlt.",
+            alt: "Diagrama que muestra cómo el robot de Google rastrea una tienda de comercio electrónico desde la página de inicio, pasando por categorías hasta páginas de productos.",
+            caption: "El robot de Google sigue enlaces desde la página de inicio a categorías y productos. Las páginas más profundas en la jerarquía se rastrean con menos frecuencia.",
           },
           callout: {
             title: "Crawl-Budget-Mathematik",
-            text: "15 Kategorien \u00d7 20 Unterkategorien \u00d7 40 Produkte = 12.000 Produktseiten \u00fcber einen Crawl-Pfad. F\u00fcgt man gefilterte Ansichten und Paginierung hinzu, kann ein Shop mit 50.000 SKUs leicht 200.000+ crawlbare URLs erzeugen.",
+            text: "15 categorías x 20 subcategorías x 40 productos = 12.000 páginas de productos de una ruta de rastreo. Agregue vistas y paginación filtradas y una tienda de 50 000 SKU puede generar fácilmente más de 200 000 URL rastreables.",
           },
         },
         {
@@ -360,12 +358,12 @@ export const howGoogleFindsOnlineStores: AcademyTopic = {
           ],
           image: {
             src: "/images/academy/es/js-rendering-phases.svg",
-            alt: "Diagramm das Googles zweiphasigen Rendering-Prozess f\u00fcr JavaScript-lastige Seiten zeigt",
-            caption: "Phase 1 ruft rohes HTML ab (oft leer f\u00fcr JS-Seiten). Phase 2 rendert JavaScript, kann aber um Tage oder Wochen verz\u00f6gert sein.",
+            alt: "Diagrama que muestra el proceso de renderizado de dos fases de Google para páginas con mucho JavaScript",
+            caption: "La fase 1 recupera HTML sin formato (a menudo vacío para sitios JS). La fase 2 procesa JavaScript, pero puede retrasarse días o semanas.",
           },
           callout: {
             title: "Praxisfall",
-            text: "Wir auditierten einen Shop, bei dem 30\u00a0% der Produktseiten nicht indexiert waren. Produkttitel, Schema-Markup und Bewertungen wurden alle \u00fcber JavaScript geladen. Wechsel zu serverseitigem Rendering hat die Indexierung innerhalb von 3 Wochen behoben.",
+            text: "Auditamos una tienda donde el 30% de las páginas de productos no estaban indexadas. El título del producto, el marcado del esquema y las reseñas se cargaron mediante JavaScript. Cambiar a renderizado del lado del servidor indexación fija dentro",
           },
         },
         {
@@ -375,7 +373,7 @@ export const howGoogleFindsOnlineStores: AcademyTopic = {
           tip: "Env\u00eda tus sitemaps en Google Search Console y revisa el informe de cobertura despu\u00e9s de dos semanas. Si la proporci\u00f3n de p\u00e1ginas indexadas respecto a las enviadas est\u00e1 por debajo del 70 %, investiga por qu\u00e9 Google est\u00e1 eligiendo no indexar una parte significativa de tus URLs enviadas.",
           callout: {
             title: "Sitemap-Struktur Beispiel",
-            text: "sitemap-produkte.xml (30.000 URLs) + sitemap-kategorien.xml (200 URLs) + sitemap-blog.xml (150 URLs) + sitemap-seiten.xml (20 URLs). Separate Dateien erm\u00f6glichen das Tracking der Indexierung nach Content-Typ in der Search Console.",
+            text: "sitemap-products.xml (30.000 URL) + sitemap-categories.xml (200 URL) + sitemap-blog.xml (150 URL) + sitemap-pages.xml (20 URL). Los archivos separados le permiten realizar un seguimiento de la indexación por tipo de contenido en Search Co",
           },
         },
         {
@@ -401,7 +399,7 @@ export const howGoogleFindsOnlineStores: AcademyTopic = {
           ],
         },
         {
-          title: "Dentro de la pipeline de indexacion de Google: Trawler, Alexandria y Mustang",
+          title: "Dentro de la pipeline de indexación de Google: Trawler, Alexandria y Mustang",
           content:
             "El leak Content Warehouse 2024 nombro los sistemas que mueven tu tienda desde URL hasta resultado rankeado. Trawler rastrea y obtiene paginas. Alexandria las indexa. Mustang luego ejecuta scoring inicial (el Ascorer) usando cientos de features, antes de que los twiddlers reordenen los resultados. Cada pagina de producto en tu tienda pasa por cada etapa.\n\nPara las tiendas, la implicacion de la pipeline es que las senales de prioridad de crawl (link equity, frescura, profundidad de enlaces internos) deciden con que frecuencia Trawler revisita una URL. Las paginas enterradas a 4+ clics, sin enlaces internos entrantes y con fechas lastmod obsoletas, se crawlean raramente - y los cambios que les hagas tardan mucho mas en mostrarse en los rankings. El atributo hostAge del leak tambien confirma el \"sandbox\" largamente rumoreado: dominios nuevos de menos de ~12 meses ven visibilidad limitada independientemente de la optimizacion.\n\nLa indexacion tampoco es binaria. Alexandria puede indexar una URL sin mostrarla (Google Search Console las marca como \"Rastreadas - actualmente no indexadas\"), y la eleccion esta influenciada por senales de calidad ya calculadas al momento de indexacion. La conclusion para ecommerce: trata la arquitectura de crawl y la base tecnica como cargas portantes - deciden cuales de tus paginas siquiera llegan a la etapa de scoring.",
           items: [
@@ -436,12 +434,12 @@ export const howGoogleFindsOnlineStores: AcademyTopic = {
           ],
           image: {
             src: "/images/academy/it/googlebot-crawl-flow.svg",
-            alt: "Diagramm das zeigt, wie Googlebot einen Ecommerce-Shop von der Startseite \u00fcber Kategorien zu Produktseiten crawlt",
-            caption: "Googlebot folgt Links von der Startseite zu Kategorien zu Produkten. Seiten tiefer in der Hierarchie werden seltener gecrawlt.",
+            alt: "Diagramma che mostra come Googlebot esegue la scansione di un negozio di e-commerce dalla home page alle pagine dei prodotti passando per le categorie",
+            caption: "Googlebot segue i collegamenti dalla home page alle categorie ai prodotti. Le pagine più in profondità nella gerarchia vengono scansionate meno spesso.",
           },
           callout: {
             title: "Crawl-Budget-Mathematik",
-            text: "15 Kategorien \u00d7 20 Unterkategorien \u00d7 40 Produkte = 12.000 Produktseiten \u00fcber einen Crawl-Pfad. F\u00fcgt man gefilterte Ansichten und Paginierung hinzu, kann ein Shop mit 50.000 SKUs leicht 200.000+ crawlbare URLs erzeugen.",
+            text: "15 categorie x 20 sottocategorie x 40 prodotti = 12.000 pagine di prodotti da un percorso di scansione. Aggiungi visualizzazioni filtrate e impaginazione e un negozio da 50.000 SKU potrà facilmente generare oltre 200.000 URL scansionabili.",
           },
         },
         {
@@ -463,12 +461,12 @@ export const howGoogleFindsOnlineStores: AcademyTopic = {
           ],
           image: {
             src: "/images/academy/it/js-rendering-phases.svg",
-            alt: "Diagramm das Googles zweiphasigen Rendering-Prozess f\u00fcr JavaScript-lastige Seiten zeigt",
-            caption: "Phase 1 ruft rohes HTML ab (oft leer f\u00fcr JS-Seiten). Phase 2 rendert JavaScript, kann aber um Tage oder Wochen verz\u00f6gert sein.",
+            alt: "Diagramma che mostra il processo di rendering in due fasi di Google per le pagine con uso intensivo di JavaScript",
+            caption: "La fase 1 recupera l'HTML non elaborato (spesso vuoto per i siti JS). La fase 2 esegue il rendering di JavaScript ma può essere ritardata di giorni o settimane.",
           },
           callout: {
             title: "Praxisfall",
-            text: "Wir auditierten einen Shop, bei dem 30\u00a0% der Produktseiten nicht indexiert waren. Produkttitel, Schema-Markup und Bewertungen wurden alle \u00fcber JavaScript geladen. Wechsel zu serverseitigem Rendering hat die Indexierung innerhalb von 3 Wochen behoben.",
+            text: "Abbiamo controllato un negozio in cui il 30% delle pagine dei prodotti non erano indicizzate. Il titolo del prodotto, il markup dello schema e le recensioni sono stati tutti caricati tramite JavaScript. Passaggio all'indicizzazione fissa del rendering lato server all'interno",
           },
         },
         {
@@ -478,7 +476,7 @@ export const howGoogleFindsOnlineStores: AcademyTopic = {
           tip: "Invia le tue sitemap in Google Search Console e controlla il rapporto di copertura dopo due settimane. Se il rapporto tra pagine indicizzate e inviate \u00e8 inferiore al 70 %, indaga perch\u00e9 Google sta scegliendo di non indicizzare una parte significativa delle tue URL inviate.",
           callout: {
             title: "Sitemap-Struktur Beispiel",
-            text: "sitemap-produkte.xml (30.000 URLs) + sitemap-kategorien.xml (200 URLs) + sitemap-blog.xml (150 URLs) + sitemap-seiten.xml (20 URLs). Separate Dateien erm\u00f6glichen das Tracking der Indexierung nach Content-Typ in der Search Console.",
+            text: "sitemap-products.xml (30.000 URL) + sitemap-categories.xml (200 URL) + sitemap-blog.xml (150 URL) + sitemap-pages.xml (20 URL). File separati ti consentono di tenere traccia dell'indicizzazione per tipo di contenuto in Search Co",
           },
         },
         {
@@ -539,12 +537,12 @@ export const howGoogleFindsOnlineStores: AcademyTopic = {
           ],
           image: {
             src: "/images/academy/nl/googlebot-crawl-flow.svg",
-            alt: "Diagramm das zeigt, wie Googlebot einen Ecommerce-Shop von der Startseite \u00fcber Kategorien zu Produktseiten crawlt",
-            caption: "Googlebot folgt Links von der Startseite zu Kategorien zu Produkten. Seiten tiefer in der Hierarchie werden seltener gecrawlt.",
+            alt: "Diagram dat laat zien hoe Googlebot een e-commerce winkel crawlt van de startpagina via categorieën naar productpagina's",
+            caption: "Googlebot volgt links van de startpagina naar categorieën naar producten. Pagina's dieper in de hiërarchie worden minder vaak gecrawld.",
           },
           callout: {
             title: "Crawl-Budget-Mathematik",
-            text: "15 Kategorien \u00d7 20 Unterkategorien \u00d7 40 Produkte = 12.000 Produktseiten \u00fcber einen Crawl-Pfad. F\u00fcgt man gefilterte Ansichten und Paginierung hinzu, kann ein Shop mit 50.000 SKUs leicht 200.000+ crawlbare URLs erzeugen.",
+            text: "15 categorieën x 20 subcategorieën x 40 producten = 12.000 productpagina's uit één crawlpad. Voeg gefilterde weergaven en paginering toe, en een winkel met 50.000 SKU's kan eenvoudig meer dan 200.000 crawlbare URL's genereren.",
           },
         },
         {
@@ -566,12 +564,12 @@ export const howGoogleFindsOnlineStores: AcademyTopic = {
           ],
           image: {
             src: "/images/academy/nl/js-rendering-phases.svg",
-            alt: "Diagramm das Googles zweiphasigen Rendering-Prozess f\u00fcr JavaScript-lastige Seiten zeigt",
-            caption: "Phase 1 ruft rohes HTML ab (oft leer f\u00fcr JS-Seiten). Phase 2 rendert JavaScript, kann aber um Tage oder Wochen verz\u00f6gert sein.",
+            alt: "Diagram dat het tweefasige weergaveproces van Google toont voor pagina's die veel JavaScript gebruiken",
+            caption: "Fase 1 haalt onbewerkte HTML op (vaak leeg voor JS-sites). Fase 2 rendert JavaScript, maar kan dagen of weken worden vertraagd.",
           },
           callout: {
             title: "Praxisfall",
-            text: "Wir auditierten einen Shop, bei dem 30\u00a0% der Produktseiten nicht indexiert waren. Produkttitel, Schema-Markup und Bewertungen wurden alle \u00fcber JavaScript geladen. Wechsel zu serverseitigem Rendering hat die Indexierung innerhalb von 3 Wochen behoben.",
+            text: "We hebben een winkel gecontroleerd waar 30% van de productpagina's niet was geïndexeerd. De producttitel, schema-opmaak en recensies zijn allemaal geladen via JavaScript. Overschakelen naar server-side rendering met vaste indexering binnen",
           },
         },
         {
@@ -581,7 +579,7 @@ export const howGoogleFindsOnlineStores: AcademyTopic = {
           tip: "Dien je sitemaps in bij Google Search Console en controleer het dekkingsrapport na twee weken. Als de verhouding van ge\u00efndexeerde tot ingediende pagina's onder de 70 % ligt, onderzoek dan waarom Google ervoor kiest een aanzienlijk deel van je ingediende URL's niet te indexeren.",
           callout: {
             title: "Sitemap-Struktur Beispiel",
-            text: "sitemap-produkte.xml (30.000 URLs) + sitemap-kategorien.xml (200 URLs) + sitemap-blog.xml (150 URLs) + sitemap-seiten.xml (20 URLs). Separate Dateien erm\u00f6glichen das Tracking der Indexierung nach Content-Typ in der Search Console.",
+            text: "sitemap-products.xml (30.000 URL's) + sitemap-categories.xml (200 URL's) + sitemap-blog.xml (150 URL's) + sitemap-pages.xml (20 URL's). Met afzonderlijke bestanden kunt u de indexering volgen op inhoudstype in Search Co",
           },
         },
         {

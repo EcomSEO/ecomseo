@@ -202,8 +202,7 @@ items: [
     fr: {
       badge: "SEO avance",
       heading: "Tests A/B SEO",
-      intro:
-        "La plupart des decisions SEO en e-commerce sont prises sur l'intuition, les bonnes pratiques ou l'imitation de la concurrence plutot que sur des preuves. Les tests A/B SEO changent cela en appliquant l'experimentation controlee a l'optimisation pour la recherche organique, vous permettant de mesurer l'impact reel des modifications de balises title, des reecritures de meta descriptions, des ajouts de donnees structurees et des modifications de contenu sur les clics, les impressions et les classements avant de deployer les changements sur l'ensemble de votre catalogue. Le test A/B SEO change cela en appliquant l'expérimentation contrôlée à l'optimisation de la recherche organique, vous permettant de mesurer l'impact réel des changements de [balises titre et méta descriptions](/academy/title-tags-and-meta-descriptions), des ajouts de données structurées et des modifications de contenu sur les clics, impressions et classements avant de déployer les changements sur l'ensemble de votre catalogue.",
+      intro: "La plupart des décisions SEO en e-commerce sont prises sur l'intuition, les bonnes pratiques ou l'imitation de la concurrence plutot que sur des preuves. Les tests A/B SEO changent cela en appliquant l'experimentation controlee a l'optimisation pour la recherche organique, vous permettant de mesurer l'impact reel des modifications de balises title, des reecritures de meta descriptions, des ajouts de données structurees et des modifications de contenu sur les clics, les impressions et les classements avant de deployer les changements sur l'ensemble de votre catalogue. Le test A/B SEO change cela en appliquant l'expérimentation contrôlée à l'optimisation de la recherche organique, vous permettant de mesurer l'impact réel des changements de [balises titre et méta descriptions](/academy/title-tags-and-meta-descriptions), des ajouts de données structurées et des modifications de contenu sur les clics, impressions et classements avant de déployer les changements sur l'ensemble de votre catalogue.",
       readTime: "12 min de lecture",
       sections: [
         {
@@ -219,12 +218,12 @@ items: [
           tip: "Assurez-vous que vos groupes controle et variant ont des modeles de performance historique similaires avant de demarrer un test. Si un groupe a systematiquement plus de trafic ou des modeles de saisonnalite differents, vos resultats seront peu fiables. Utilisez une analyse de correlation pre-test pour valider la similarite des groupes.",
           image: {
             src: "/images/academy/fr/seo-split-test-methodology.svg",
-            alt: "SEO-Split-Test-Methodik: Kontrollgruppe vs. Variantengruppe mit zufaelliger Aufteilung",
-            caption: "SEO-Split-Tests vergleichen Kontroll- und Variantengruppen aehnlicher Seiten, um die Wirkung von Aenderungen zu messen.",
+            alt: "Diagramme montrant la méthodologie de test fractionné SEO avec 1 000 pages divisées en groupes de contrôle et de variantes sur un calendrier de pré-test et de mesure",
+            caption: "Les tests SEO divisent les pages similaires en groupes de contrôle et de variantes. Le groupe témoin tient compte de la saisonnalité et des mises à jour des algorithmes qui autrement fausseraient les résultats.",
           },
           callout: {
             title: "Testvoraussetzungen",
-            text: "Sie benoetigen mindestens 100 aehnliche Seiten pro Gruppe fuer statistisch zuverlaessige SEO-Split-Tests. Kleinere Shops koennen Vorher-Nachher-Tests verwenden, aber die Ergebnisse sind weniger belastbar.",
+            text: "Vous avez besoin d'au moins 100 pages par groupe pour des résultats fiables, 200 à 500 offrant une puissance statistique plus forte. Les magasins de commerce électronique dotés de grands catalogues sont parfaitement adaptés aux tests fractionnés SEO.bar.",
           },
         },
         {
@@ -262,12 +261,12 @@ items: [
           ],
           image: {
             src: "/images/academy/fr/seo-test-metrics.svg",
-            alt: "SEO-Test-Messmetriken: Primaere, sekundaere und Schutzmetriken fuer die Erfolgsbewertung",
-            caption: "Messen Sie Erfolg anhand primaerer Metriken, verstehen Sie das Warum mit sekundaeren und erkennen Sie Regressionen mit Schutzmetriken.",
+            alt: "Diagramme cadre montrant les principales mesures de test de référencement, notamment les clics, les impressions, le CTR et la position, avec une comparaison réelle et prévue",
+            caption: "Comparez les performances réelles des variantes aux performances prévues dérivées du groupe témoin. Exiger un niveau de confiance statistique de 95 % avant de déclarer des résultats significatifs.",
           },
           callout: {
             title: "Signifikanz-Geduld",
-            text: "Beenden Sie SEO-Tests nicht zu frueh. Mindestens 2-4 Wochen und ein p-Wert unter 0,05 sind erforderlich. Vorzeitig beendete Tests fuehren zu falschen Schlussfolgerungen und verschwendeten Optimierungsressourcen.",
+            text: "Les tests échoués vous empêchent de déployer des modifications qui ne fonctionnent pas. Créez une base de connaissances de test enregistrant les hypothèses, la méthodologie, la durée et le niveau de confiance pour chaque expérience que vous exécutez.ressourcen.",
           },
         },
         {
@@ -299,12 +298,11 @@ items: [
     es: {
       badge: "SEO avanzado",
       heading: "Pruebas A/B de SEO",
-      intro:
-        "La mayoria de las decisiones de SEO en ecommerce se toman por intuicion, mejores practicas o imitacion de la competencia en lugar de evidencia. Las pruebas A/B de SEO cambian esto aplicando experimentacion controlada a la optimizacion de busqueda organica, permitiendole medir el impacto real de cambios en etiquetas title, reescrituras de meta descripciones, adiciones de datos estructurados y modificaciones de contenido en clics, impresiones y rankings antes de implementar cambios en todo su catalogo.",
+      intro: "La mayoria de las decisiones de SEO en ecommerce se toman por intuicion, mejores practicas o imitacion de la competencia en lugar de evidencia. Las pruebas A/B de SEO cambian esto aplicando experimentacion controlada a la optimización de busqueda organica, permitiendole medir el impacto real de cambios en etiquetas title, reescrituras de meta descripciones, adiciones de datos estructurados y modificaciones de contenido en clics, impresiones y rankings antes de implementar cambios en todo su catálogo.",
       readTime: "12 min de lectura",
       sections: [
         {
-          title: "Como funcionan las pruebas split de SEO",
+          title: "Cómo funcionan las pruebas split de SEO",
           content:
             "Las pruebas A/B de SEO difieren fundamentalmente de las pruebas split tradicionales de optimizacion de tasa de conversion (CRO). En CRO, divide aleatoriamente el trafico entre dos variantes de pagina. En SEO, no puede mostrar a Google dos versiones diferentes de la misma URL. En su lugar, las pruebas split SEO dividen un grupo de paginas similares en grupos de control y variante, aplican cambios solo al grupo variante, y miden la diferencia en rendimiento de busqueda organica.\n\nLa metodologia se basa en la suposicion de que paginas similares deberian experimentar patrones de trafico organico similares a lo largo del tiempo. Si tiene 1.000 paginas de producto en una categoria, las divide en dos grupos de 500. Un grupo recibe un cambio de etiqueta title mientras el otro permanece sin cambios. Despues de tiempo suficiente para el re-rastreo, compara las tendencias de trafico organico de ambos grupos.\n\nEste enfoque se llama a veces 'prueba split de series temporales' porque compara el rendimiento predicho del grupo variante con su rendimiento real despues del cambio. El grupo de control tiene en cuenta factores externos como estacionalidad y actualizaciones de algoritmos.\n\nEl requisito clave es tener suficientes paginas similares para crear grupos de prueba significativos. Las tiendas de ecommerce con grandes catalogos son ideales porque naturalmente tienen miles de paginas similares.",
           items: [
@@ -316,16 +314,16 @@ items: [
           tip: "Asegurese de que sus grupos de control y variante tengan patrones de rendimiento historico similares antes de iniciar una prueba. Si un grupo tiene sistematicamente mas trafico o patrones de estacionalidad diferentes, sus resultados seran poco fiables. Use analisis de correlacion pre-test para validar la similitud de los grupos.",
           image: {
             src: "/images/academy/es/seo-split-test-methodology.svg",
-            alt: "SEO-Split-Test-Methodik: Kontrollgruppe vs. Variantengruppe mit zufaelliger Aufteilung",
-            caption: "SEO-Split-Tests vergleichen Kontroll- und Variantengruppen aehnlicher Seiten, um die Wirkung von Aenderungen zu messen.",
+            alt: "Diagrama que muestra la metodología de prueba dividida de SEO con 1000 páginas divididas en grupos de control y variantes a lo largo de un cronograma de prueba previa y medición.",
+            caption: "Las pruebas de SEO dividen páginas similares en grupos de control y variantes. El grupo de control tiene en cuenta la estacionalidad y las actualizaciones de algoritmos que, de otro modo, confundirían los resultados.",
           },
           callout: {
             title: "Testvoraussetzungen",
-            text: "Sie benoetigen mindestens 100 aehnliche Seiten pro Gruppe fuer statistisch zuverlaessige SEO-Split-Tests. Kleinere Shops koennen Vorher-Nachher-Tests verwenden, aber die Ergebnisse sind weniger belastbar.",
+            text: "Necesita al menos 100 páginas por grupo para obtener resultados confiables, y entre 200 y 500 proporcionan un mayor poder estadístico. Las tiendas de comercio electrónico con catálogos grandes son ideales para las pruebas divididas de SEO.bar.",
           },
         },
         {
-          title: "Elegir que probar en paginas de ecommerce",
+          title: "Elegir que probar en páginas de ecommerce",
           content:
             "Las pruebas SEO mas impactantes para ecommerce se centran en elementos que influyen directamente en la tasa de clics desde los resultados de busqueda y las senales on-page que afectan los rankings. Las [etiquetas title](/academy/title-tags-and-meta-descriptions) son el elemento de mayor apalancamiento porque afectan simultaneamente la tasa de clics y las senales de relevancia de palabras clave.\n\nLas pruebas de etiquetas title podrian comparar formatos como 'Nombre del Producto | Marca' versus 'Comprar Nombre del Producto Online - Marca' versus 'Nombre del Producto - Envio Gratis | Marca'. Los modificadores comerciales como 'comprar', 'ofertas' o 'envio gratis' en los titulos a menudo mejoran la tasa de clics para consultas transaccionales.\n\nLas meta descripciones no impactan directamente los rankings pero afectan significativamente la tasa de clics. Pruebe diferentes propuestas de valor: enfasis en precio, envio gratuito, calificaciones de resenas, puntos de venta unicos.\n\nLas pruebas de estructura de encabezados examinan como los cambios en las etiquetas H1 y la jerarquia de subtitulos afectan los rankings y las metricas de engagement.\n\nLas adiciones de datos estructurados son excelentes candidatos para pruebas. Pruebe si agregar esquema FAQ, Review o HowTo cambia su apariencia en los resultados de busqueda.\n\nLas modificaciones de enlaces internos prueban si agregar enlaces a productos relacionados mejora el rendimiento organico. Estas pruebas requieren duraciones mas largas.",
           items: [
@@ -359,12 +357,12 @@ items: [
           ],
           image: {
             src: "/images/academy/es/seo-test-metrics.svg",
-            alt: "SEO-Test-Messmetriken: Primaere, sekundaere und Schutzmetriken fuer die Erfolgsbewertung",
-            caption: "Messen Sie Erfolg anhand primaerer Metriken, verstehen Sie das Warum mit sekundaeren und erkennen Sie Regressionen mit Schutzmetriken.",
+            alt: "Diagrama del marco que muestra las principales métricas de prueba de SEO, incluidos clics, impresiones, CTR y posición, con comparación real y prevista.",
+            caption: "Compare el rendimiento de la variante real con el rendimiento previsto derivado del grupo de control. Requerir un 95% de confianza estadística antes de declarar resultados significativos.",
           },
           callout: {
             title: "Signifikanz-Geduld",
-            text: "Beenden Sie SEO-Tests nicht zu frueh. Mindestens 2-4 Wochen und ein p-Wert unter 0,05 sind erforderlich. Vorzeitig beendete Tests fuehren zu falschen Schlussfolgerungen und verschwendeten Optimierungsressourcen.",
+            text: "Las pruebas fallidas le impiden implementar cambios que no funcionan. Cree una base de conocimientos de pruebas que registre hipótesis, metodología, duración y nivel de confianza para cada experimento que ejecute.ressourcen.",
           },
         },
         {
@@ -382,10 +380,10 @@ items: [
         {
           title: "Construir una cultura de testing SEO",
           content:
-            "El mayor valor del testing SEO no es un solo resultado de prueba sino la eliminacion sistematica de suposiciones de su estrategia de optimizacion. Construir una cultura de testing significa que cada cambio SEO propuesto se valida mediante experimentacion controlada antes del despliegue completo.\n\nCree una hoja de ruta de testing priorizada que clasifique las pruebas potenciales por impacto esperado y esfuerzo de implementacion. Las pruebas de alto impacto y bajo esfuerzo como cambios de formato de etiqueta title deben ejecutarse primero.\n\nEstablezca una cadencia de testing que mantenga experimentos en ejecucion continuamente. Cuando una prueba concluye, la siguiente debe comenzar inmediatamente. Apunte a 12-20 pruebas SEO por ano. Con el tiempo, las ganancias acumuladas se componen: una mejora del CTR del 5% por etiquetas title, mas un aumento de ranking del 3% por datos estructurados, mas un aumento de trafico del 7% por optimizacion de contenido produce un efecto combinado mucho mayor.\n\nComparta los resultados de prueba en su organizacion para construir credibilidad SEO. Cuando puede demostrar que un formato de etiqueta title propuesto aumento los clics organicos un 12% con 97% de confianza estadistica, los stakeholders confian mas en las recomendaciones SEO.\n\nUse los resultados de prueba para crear estandares a nivel de plantilla. Si las pruebas demuestran que incluir el precio en las etiquetas title de paginas de producto aumenta el CTR, hagalo la plantilla predeterminada para todos los productos futuros. Cada prueba validada se convierte en una mejora permanente de tu [estrategia SEO para ecommerce](/blog/ecommerce-seo-strategy).",
+            "El mayor valor del testing SEO no es un solo resultado de prueba sino la eliminacion sistematica de suposiciones de su estrategia de optimizacion. Construir una cultura de testing significa que cada cambio SEO propuesto se valida mediante experimentacion controlada antes del despliegue completo.\n\nCree una hoja de ruta de testing priorizada que clasifique las pruebas potenciales por impacto esperado y esfuerzo de implementacion. Las pruebas de alto impacto y bajo esfuerzo como cambios de formato de etiqueta title deben ejecutarse primero.\n\nEstablezca una cadencia de testing que mantenga experimentos en ejecucion continuamente. Cuando una prueba concluye, la siguiente debe comenzar inmediatamente. Apunte a 12-20 pruebas SEO por año. Con el tiempo, las ganancias acumuladas se componen: una mejora del CTR del 5% por etiquetas title, mas un aumento de ranking del 3% por datos estructurados, mas un aumento de trafico del 7% por optimizacion de contenido produce un efecto combinado mucho mayor.\n\nComparta los resultados de prueba en su organizacion para construir credibilidad SEO. Cuando puede demostrar que un formato de etiqueta title propuesto aumento los clics organicos un 12% con 97% de confianza estadistica, los stakeholders confian mas en las recomendaciones SEO.\n\nUse los resultados de prueba para crear estandares a nivel de plantilla. Si las pruebas demuestran que incluir el precio en las etiquetas title de paginas de producto aumenta el CTR, hagalo la plantilla predeterminada para todos los productos futuros. Cada prueba validada se convierte en una mejora permanente de tu [estrategia SEO para ecommerce](/blog/ecommerce-seo-strategy).",
           items: [
             "Crear una hoja de ruta de testing priorizada clasificando pruebas por impacto esperado y esfuerzo de implementacion",
-            "Mantener una cadencia de testing continua apuntando a 12-20 experimentos SEO por ano",
+            "Mantener una cadencia de testing continua apuntando a 12-20 experimentos SEO por año",
             "Compartir resultados con stakeholders para construir credibilidad SEO basada en datos en la organizacion",
             "Convertir resultados de prueba validados en estandares de plantilla para mejora permanente a nivel de catalogo",
           ],
@@ -413,12 +411,12 @@ items: [
           tip: "Assicuratevi che i vostri gruppi di controllo e variante abbiano pattern di prestazione storica simili prima di avviare un test. Se un gruppo ha sistematicamente piu traffico o pattern di stagionalita diversi, i risultati saranno inaffidabili. Usate un'analisi di correlazione pre-test per validare la similarita dei gruppi.",
           image: {
             src: "/images/academy/it/seo-split-test-methodology.svg",
-            alt: "SEO-Split-Test-Methodik: Kontrollgruppe vs. Variantengruppe mit zufaelliger Aufteilung",
-            caption: "SEO-Split-Tests vergleichen Kontroll- und Variantengruppen aehnlicher Seiten, um die Wirkung von Aenderungen zu messen.",
+            alt: "Diagramma che mostra la metodologia di split test SEO con 1.000 pagine divise in gruppi di controllo e varianti lungo una sequenza temporale di pre-test e misurazione",
+            caption: "I test SEO dividono le pagine simili in gruppi di controllo e varianti. Il gruppo di controllo tiene conto della stagionalità e degli aggiornamenti dell'algoritmo che altrimenti confonderebbero i risultati.",
           },
           callout: {
             title: "Testvoraussetzungen",
-            text: "Sie benoetigen mindestens 100 aehnliche Seiten pro Gruppe fuer statistisch zuverlaessige SEO-Split-Tests. Kleinere Shops koennen Vorher-Nachher-Tests verwenden, aber die Ergebnisse sind weniger belastbar.",
+            text: "Sono necessarie almeno 100 pagine per gruppo per ottenere risultati affidabili, con 200-500 che forniscono un potere statistico maggiore. I negozi di e-commerce con cataloghi di grandi dimensioni sono ideali per gli split test SEO.bar.",
           },
         },
         {
@@ -456,12 +454,12 @@ items: [
           ],
           image: {
             src: "/images/academy/it/seo-test-metrics.svg",
-            alt: "SEO-Test-Messmetriken: Primaere, sekundaere und Schutzmetriken fuer die Erfolgsbewertung",
-            caption: "Messen Sie Erfolg anhand primaerer Metriken, verstehen Sie das Warum mit sekundaeren und erkennen Sie Regressionen mit Schutzmetriken.",
+            alt: "Diagramma della struttura che mostra le principali metriche del test SEO tra cui clic, impressioni, CTR e posizione con confronto effettivo e previsto",
+            caption: "Confronta le prestazioni effettive della variante con le prestazioni previste derivate dal gruppo di controllo. Richiedere una confidenza statistica del 95% prima di dichiarare significativi i risultati.",
           },
           callout: {
             title: "Signifikanz-Geduld",
-            text: "Beenden Sie SEO-Tests nicht zu frueh. Mindestens 2-4 Wochen und ein p-Wert unter 0,05 sind erforderlich. Vorzeitig beendete Tests fuehren zu falschen Schlussfolgerungen und verschwendeten Optimierungsressourcen.",
+            text: "I test falliti ti impediscono di implementare modifiche che non funzionano. Crea una knowledge base sui test registrando ipotesi, metodologia, durata e livello di confidenza per ogni esperimento che esegui.ressourcen.",
           },
         },
         {
@@ -510,12 +508,12 @@ items: [
           tip: "Zorg ervoor dat uw controle- en variantgroepen vergelijkbare historische prestatiepatronen hebben voordat u een test start. Als een groep systematisch meer verkeer heeft of andere seizoenspatronen, zijn uw testresultaten onbetrouwbaar. Gebruik pre-test correlatieanalyse om groepsgelijkheid te valideren.",
           image: {
             src: "/images/academy/nl/seo-split-test-methodology.svg",
-            alt: "SEO-Split-Test-Methodik: Kontrollgruppe vs. Variantengruppe mit zufaelliger Aufteilung",
-            caption: "SEO-Split-Tests vergleichen Kontroll- und Variantengruppen aehnlicher Seiten, um die Wirkung von Aenderungen zu messen.",
+            alt: "Diagram dat de SEO-splittestmethodologie toont met 1000 pagina's verdeeld in controle- en variantgroepen over een pre-test- en meettijdlijn",
+            caption: "SEO-tests splitsen vergelijkbare pagina’s op in controle- en variantgroepen. De controlegroep houdt rekening met seizoensinvloeden en algoritme-updates die anders de resultaten zouden verwarren.",
           },
           callout: {
             title: "Testvoraussetzungen",
-            text: "Sie benoetigen mindestens 100 aehnliche Seiten pro Gruppe fuer statistisch zuverlaessige SEO-Split-Tests. Kleinere Shops koennen Vorher-Nachher-Tests verwenden, aber die Ergebnisse sind weniger belastbar.",
+            text: "Voor betrouwbare resultaten heeft u minimaal 100 pagina's per groep nodig, waarbij 200-500 een sterkere statistische kracht opleveren. E-commerce winkels met grote catalogi zijn bij uitstek geschikt voor SEO-splittesten.bar.",
           },
         },
         {
@@ -553,12 +551,12 @@ items: [
           ],
           image: {
             src: "/images/academy/nl/seo-test-metrics.svg",
-            alt: "SEO-Test-Messmetriken: Primaere, sekundaere und Schutzmetriken fuer die Erfolgsbewertung",
-            caption: "Messen Sie Erfolg anhand primaerer Metriken, verstehen Sie das Warum mit sekundaeren und erkennen Sie Regressionen mit Schutzmetriken.",
+            alt: "Kaderdiagram met primaire SEO-teststatistieken, waaronder klikken, vertoningen, CTR en positie met werkelijke versus voorspelde vergelijking",
+            caption: "Vergelijk de werkelijke variantprestaties met de voorspelde prestaties afgeleid van de controlegroep. Vereist een statistische betrouwbaarheid van 95% voordat de resultaten significant worden verklaard.",
           },
           callout: {
             title: "Signifikanz-Geduld",
-            text: "Beenden Sie SEO-Tests nicht zu frueh. Mindestens 2-4 Wochen und ein p-Wert unter 0,05 sind erforderlich. Vorzeitig beendete Tests fuehren zu falschen Schlussfolgerungen und verschwendeten Optimierungsressourcen.",
+            text: "Mislukte tests voorkomen dat u wijzigingen doorvoert die niet werken. Bouw een kennisbank voor testen waarin u de hypothese, methodologie, duur en betrouwbaarheidsniveau vastlegt voor elk experiment dat u uitvoert.ressourcen.",
           },
         },
         {

@@ -174,8 +174,7 @@ export const introductionToEcommerceSeo: AcademyTopic = {
     fr: {
       badge: "Fondamentaux de la recherche",
       heading: "Introduction au SEO e-commerce",
-      intro:
-        "Le SEO e-commerce est une discipline diff\u00e9rente de l'optimisation d'un blog ou d'un site vitrine. Les boutiques en ligne g\u00e8rent des milliers de pages produits, un inventaire en rotation constante et des architectures de site complexes qui cr\u00e9ent des d\u00e9fis uniques rarement abord\u00e9s dans les guides SEO classiques.",
+      intro: "Le SEO e-commerce est une discipline diff\u00e9rente de l'optimisation d'un blog ou d'un site vitrine. Les boutiques en ligne g\u00e8rent des milliers de pages produits, un inventaire en rotation constante et des architectures de site complexes qui cr\u00e9ent des d\u00e9fis uniques rarement abord\u00e9s dans les guides SEO classiques.",
       readTime: "9 min de lecture",
       sections: [
         {
@@ -191,12 +190,12 @@ export const introductionToEcommerceSeo: AcademyTopic = {
           ],
           image: {
             src: "/images/academy/fr/ecommerce-seo-vs-regular.svg",
-            alt: "Vergleichsdiagramm der Unterschiede zwischen Content-Website-SEO und Online-Shop-SEO in f\u00fcnf Dimensionen",
-            caption: "Ecommerce-SEO unterscheidet sich von regul\u00e4rer SEO in Skalierung, Content-Aktualit\u00e4t, Duplikation, URL-Komplexit\u00e4t und Absichtsmix.",
+            alt: "Tableau comparatif montrant les différences entre le référencement de sites Web de contenu et le référencement de boutiques en ligne sur cinq dimensions",
+            caption: "Le référencement du commerce électronique diffère du référencement classique en termes d'échelle, de fraîcheur du contenu, de duplication, de complexité des URL et de mélange d'intentions.",
           },
           callout: {
-            title: "Gr\u00f6\u00dfenvergleich",
-            text: "Eine Content-Site verwaltet 50\u2013200 Seiten. Ein mittelgro\u00dfer Shop verwaltet 10.000\u2013500.000 URLs inklusive Produktvarianten, Filterkombinationen und Paginierung. Das sind 100x bis 2.500x mehr zu optimierende Seiten.",
+            title: "Comparaison d'échelle",
+            text: "Un site de contenu gère 50 à 200 pages. Un magasin de taille moyenne gère entre 10 000 et 500 000 URL une fois que vous avez inclus les variantes de produits, les combinaisons de filtres et la pagination. Cela représente 100 à 2 500 fois plus de pages à optimiser.",
           },
         },
         {
@@ -206,7 +205,7 @@ export const introductionToEcommerceSeo: AcademyTopic = {
           tip: "Calculez vos \u00e9conomies SEO potentielles en multipliant le volume de recherche mensuel de vos 20 meilleurs mots-cl\u00e9s organiques par leur CPC Google Ads. Ce chiffre repr\u00e9sente les d\u00e9penses publicitaires que les classements organiques remplacent.",
           callout: {
             title: "Schnelle Rechnung",
-            text: "Eine Kategorieseite, die organisch f\u00fcr ein Keyword mit 3.000 monatlichen Suchen und einem CPC von 0,80\u00a0EUR rankt, spart 2.400\u00a0EUR/Monat. \u00dcber 50 optimierte Kategorieseiten ersetzt das \u00fcber 100.000\u00a0EUR j\u00e4hrliche Werbeausgaben.",
+            text: "Une page de catégorie classée de manière organique pour un mot-clé avec 3 000 recherches mensuelles et un CPC de 0,80 EUR permet d'économiser 2 400 EUR/mois. Sur 50 pages de catégories optimisées, cela remplace plus de 100 000 EUR en publicité annuelle",
           },
         },
         {
@@ -234,8 +233,8 @@ export const introductionToEcommerceSeo: AcademyTopic = {
           tip: "Commencez par un audit technique avant d'investir dans le contenu. Nous avons vu des boutiques publier des centaines d'articles de blog alors que leurs pages produits n'\u00e9taient m\u00eame pas index\u00e9es \u00e0 cause de probl\u00e8mes de crawl.",
           image: {
             src: "/images/academy/fr/four-pillars-ecommerce-seo.svg",
-            alt: "Diagramm der vier S\u00e4ulen der Ecommerce-SEO: Technisch, On-Page, Content-Strategie und Off-Page, die Umsatzwachstum unterst\u00fctzen",
-            caption: "Die vier S\u00e4ulen arbeiten zusammen. Beginnen Sie mit Technischer SEO, um alles andere zu entsperren.",
+            alt: "Diagramme montrant les quatre piliers du référencement du commerce électronique : technique, sur la page, stratégie de contenu et hors page, soutenant la croissance des revenus",
+            caption: "Les quatre piliers fonctionnent ensemble. Commencez par le référencement technique pour débloquer tout le reste.",
           },
         },
         {
@@ -257,8 +256,7 @@ export const introductionToEcommerceSeo: AcademyTopic = {
     es: {
       badge: "Fundamentos de b\u00fasqueda",
       heading: "Introducci\u00f3n al SEO para ecommerce",
-      intro:
-        "El SEO para ecommerce es una disciplina diferente a la optimizaci\u00f3n de un blog o un sitio web corporativo. Las tiendas online manejan miles de p\u00e1ginas de productos, inventario en constante rotaci\u00f3n y arquitecturas de sitio complejas que crean desaf\u00edos \u00fanicos que la mayor\u00eda de gu\u00edas SEO nunca abordan.",
+      intro: "El SEO para ecommerce es una disciplina diferente a la optimizaci\u00f3n de un blog o un sitio web corporativo. Las tiendas online manejan miles de p\u00e1ginas de productos, inventario en constante rotaci\u00f3n y arquitecturas de sitio complejas que crean desaf\u00edos \u00fanicos que la mayor\u00eda de gu\u00edas SEO nunca abordan.",
       readTime: "9 min de lectura",
       sections: [
         {
@@ -274,12 +272,12 @@ export const introductionToEcommerceSeo: AcademyTopic = {
           ],
           image: {
             src: "/images/academy/es/ecommerce-seo-vs-regular.svg",
-            alt: "Vergleichsdiagramm der Unterschiede zwischen Content-Website-SEO und Online-Shop-SEO in f\u00fcnf Dimensionen",
-            caption: "Ecommerce-SEO unterscheidet sich von regul\u00e4rer SEO in Skalierung, Content-Aktualit\u00e4t, Duplikation, URL-Komplexit\u00e4t und Absichtsmix.",
+            alt: "Cuadro comparativo que muestra las diferencias entre el SEO de un sitio web de contenidos y el SEO de una tienda online en cinco dimensiones",
+            caption: "El SEO para comercio electrónico se diferencia del SEO normal en escala, actualidad del contenido, duplicación, complejidad de las URL y combinación de intenciones.",
           },
           callout: {
-            title: "Gr\u00f6\u00dfenvergleich",
-            text: "Eine Content-Site verwaltet 50\u2013200 Seiten. Ein mittelgro\u00dfer Shop verwaltet 10.000\u2013500.000 URLs inklusive Produktvarianten, Filterkombinationen und Paginierung. Das sind 100x bis 2.500x mehr zu optimierende Seiten.",
+            title: "Comparación de escalas",
+            text: "Un sitio de contenido gestiona entre 50 y 200 páginas. Una tienda mediana gestiona entre 10 000 y 500 000 URL una vez que incluye variantes de productos, combinaciones de filtros y paginación. Es decir, entre 100 y 2500 veces más páginas para optimizar.",
           },
         },
         {
@@ -289,7 +287,7 @@ export const introductionToEcommerceSeo: AcademyTopic = {
           tip: "Calcula tus ahorros potenciales de SEO multiplicando el volumen de b\u00fasqueda mensual de tus 20 principales palabras clave org\u00e1nicas por su CPC en Google Ads. Esa cifra representa el gasto publicitario que los rankings org\u00e1nicos est\u00e1n reemplazando.",
           callout: {
             title: "Schnelle Rechnung",
-            text: "Eine Kategorieseite, die organisch f\u00fcr ein Keyword mit 3.000 monatlichen Suchen und einem CPC von 0,80\u00a0EUR rankt, spart 2.400\u00a0EUR/Monat. \u00dcber 50 optimierte Kategorieseiten ersetzt das \u00fcber 100.000\u00a0EUR j\u00e4hrliche Werbeausgaben.",
+            text: "Una página de categoría clasificada orgánicamente para una palabra clave con 3.000 búsquedas mensuales y un CPC de 0,80 EUR ahorra 2.400 EUR/mes. En 50 páginas de categorías optimizadas, que reemplazan más de 100.000 EUR en anuncios anuales",
           },
         },
         {
@@ -317,8 +315,8 @@ export const introductionToEcommerceSeo: AcademyTopic = {
           tip: "Comienza con una auditor\u00eda t\u00e9cnica antes de invertir en contenido. Hemos visto tiendas publicar cientos de art\u00edculos de blog mientras sus p\u00e1ginas de producto ni siquiera estaban indexadas por problemas de rastreo.",
           image: {
             src: "/images/academy/es/four-pillars-ecommerce-seo.svg",
-            alt: "Diagramm der vier S\u00e4ulen der Ecommerce-SEO: Technisch, On-Page, Content-Strategie und Off-Page, die Umsatzwachstum unterst\u00fctzen",
-            caption: "Die vier S\u00e4ulen arbeiten zusammen. Beginnen Sie mit Technischer SEO, um alles andere zu entsperren.",
+            alt: "Diagrama que muestra los cuatro pilares del SEO del comercio electrónico: técnico, dentro de la página, estrategia de contenido y fuera de la página, lo que respalda el crecimiento de los ingresos.",
+            caption: "Los cuatro pilares trabajan juntos. Comience con SEO técnico para desbloquear todo lo demás.",
           },
         },
         {
@@ -357,12 +355,12 @@ export const introductionToEcommerceSeo: AcademyTopic = {
           ],
           image: {
             src: "/images/academy/it/ecommerce-seo-vs-regular.svg",
-            alt: "Vergleichsdiagramm der Unterschiede zwischen Content-Website-SEO und Online-Shop-SEO in f\u00fcnf Dimensionen",
-            caption: "Ecommerce-SEO unterscheidet sich von regul\u00e4rer SEO in Skalierung, Content-Aktualit\u00e4t, Duplikation, URL-Komplexit\u00e4t und Absichtsmix.",
+            alt: "Grafico comparativo che mostra le differenze tra la SEO del sito web di contenuti e la SEO del negozio online in cinque dimensioni",
+            caption: "La SEO per l’e-commerce differisce dalla SEO normale per dimensioni, freschezza dei contenuti, duplicazione, complessità degli URL e mix di intenti.",
           },
           callout: {
-            title: "Gr\u00f6\u00dfenvergleich",
-            text: "Eine Content-Site verwaltet 50\u2013200 Seiten. Ein mittelgro\u00dfer Shop verwaltet 10.000\u2013500.000 URLs inklusive Produktvarianten, Filterkombinationen und Paginierung. Das sind 100x bis 2.500x mehr zu optimierende Seiten.",
+            title: "Confronto di scala",
+            text: "Un sito di contenuto gestisce 50-200 pagine. Un negozio di medie dimensioni gestisce 10.000-500.000 URL una volta incluse varianti di prodotto, combinazioni di filtri e impaginazione. Ciò significa 100-2.500 volte più pagine da ottimizzare.",
           },
         },
         {
@@ -372,7 +370,7 @@ export const introductionToEcommerceSeo: AcademyTopic = {
           tip: "Calcola i tuoi potenziali risparmi SEO moltiplicando il volume di ricerca mensile delle tue 20 principali keyword organiche per il loro CPC su Google Ads. Quel numero rappresenta la spesa pubblicitaria che i posizionamenti organici stanno sostituendo.",
           callout: {
             title: "Schnelle Rechnung",
-            text: "Eine Kategorieseite, die organisch f\u00fcr ein Keyword mit 3.000 monatlichen Suchen und einem CPC von 0,80\u00a0EUR rankt, spart 2.400\u00a0EUR/Monat. \u00dcber 50 optimierte Kategorieseiten ersetzt das \u00fcber 100.000\u00a0EUR j\u00e4hrliche Werbeausgaben.",
+            text: "Una pagina di categoria con un posizionamento organico per una parola chiave con 3.000 ricerche mensili e un CPC di 0,80 EUR consente di risparmiare 2.400 EUR/mese. Attraverso 50 pagine di categorie ottimizzate, che sostituiscono oltre 100.000 EUR in annunci annuali",
           },
         },
         {
@@ -400,8 +398,8 @@ export const introductionToEcommerceSeo: AcademyTopic = {
           tip: "Inizia con un audit tecnico prima di investire nei contenuti. Abbiamo visto negozi pubblicare centinaia di articoli di blog mentre le loro pagine prodotto non erano nemmeno indicizzate a causa di problemi di crawl.",
           image: {
             src: "/images/academy/it/four-pillars-ecommerce-seo.svg",
-            alt: "Diagramm der vier S\u00e4ulen der Ecommerce-SEO: Technisch, On-Page, Content-Strategie und Off-Page, die Umsatzwachstum unterst\u00fctzen",
-            caption: "Die vier S\u00e4ulen arbeiten zusammen. Beginnen Sie mit Technischer SEO, um alles andere zu entsperren.",
+            alt: "Diagramma che mostra i quattro pilastri del SEO per l'e-commerce: tecnico, on-page, strategia dei contenuti e off-page, a supporto della crescita dei ricavi",
+            caption: "I quattro pilastri lavorano insieme. Inizia con il SEO tecnico per sbloccare tutto il resto.",
           },
         },
         {
@@ -440,12 +438,12 @@ export const introductionToEcommerceSeo: AcademyTopic = {
           ],
           image: {
             src: "/images/academy/nl/ecommerce-seo-vs-regular.svg",
-            alt: "Vergleichsdiagramm der Unterschiede zwischen Content-Website-SEO und Online-Shop-SEO in f\u00fcnf Dimensionen",
-            caption: "Ecommerce-SEO unterscheidet sich von regul\u00e4rer SEO in Skalierung, Content-Aktualit\u00e4t, Duplikation, URL-Komplexit\u00e4t und Absichtsmix.",
+            alt: "Vergelijkingsdiagram dat de verschillen laat zien tussen SEO voor inhoudswebsites en SEO voor online winkels in vijf dimensies",
+            caption: "E-commerce SEO verschilt van reguliere SEO wat betreft schaal, versheid van de inhoud, duplicatie, URL-complexiteit en intentiemix.",
           },
           callout: {
-            title: "Gr\u00f6\u00dfenvergleich",
-            text: "Eine Content-Site verwaltet 50\u2013200 Seiten. Ein mittelgro\u00dfer Shop verwaltet 10.000\u2013500.000 URLs inklusive Produktvarianten, Filterkombinationen und Paginierung. Das sind 100x bis 2.500x mehr zu optimierende Seiten.",
+            title: "Schaalvergelijking",
+            text: "Een inhoudssite beheert 50-200 pagina's. Een middelgrote winkel beheert 10.000-500.000 URL's zodra u productvarianten, filtercombinaties en paginering opneemt. Dat zijn 100x-2.500x meer pagina's om te optimaliseren.",
           },
         },
         {
@@ -455,7 +453,7 @@ export const introductionToEcommerceSeo: AcademyTopic = {
           tip: "Bereken je potenti\u00eble SEO-besparingen door het maandelijkse zoekvolume van je top 20 organische zoekwoorden te vermenigvuldigen met hun Google Ads CPC. Dat getal vertegenwoordigt de advertentie-uitgaven die organische rankings vervangen.",
           callout: {
             title: "Schnelle Rechnung",
-            text: "Eine Kategorieseite, die organisch f\u00fcr ein Keyword mit 3.000 monatlichen Suchen und einem CPC von 0,80\u00a0EUR rankt, spart 2.400\u00a0EUR/Monat. \u00dcber 50 optimierte Kategorieseiten ersetzt das \u00fcber 100.000\u00a0EUR j\u00e4hrliche Werbeausgaben.",
+            text: "Een categoriepagina die organisch scoort voor een trefwoord met 3.000 maandelijkse zoekopdrachten en een CPC van 0,80 EUR bespaart 2.400 EUR/maand. Verdeeld over 50 geoptimaliseerde categoriepagina's, die meer dan 100.000 euro aan jaarlijkse advertenties vervangen",
           },
         },
         {
@@ -483,8 +481,8 @@ export const introductionToEcommerceSeo: AcademyTopic = {
           tip: "Begin met een technische audit voordat je investeert in content. We hebben webshops gezien die honderden blogposts publiceerden terwijl hun productpagina's niet eens ge\u00efndexeerd waren vanwege crawlproblemen.",
           image: {
             src: "/images/academy/nl/four-pillars-ecommerce-seo.svg",
-            alt: "Diagramm der vier S\u00e4ulen der Ecommerce-SEO: Technisch, On-Page, Content-Strategie und Off-Page, die Umsatzwachstum unterst\u00fctzen",
-            caption: "Die vier S\u00e4ulen arbeiten zusammen. Beginnen Sie mit Technischer SEO, um alles andere zu entsperren.",
+            alt: "Diagram dat de vier pijlers van SEO voor e-commerce laat zien: technisch, on-page, contentstrategie en off-page, ter ondersteuning van de omzetgroei",
+            caption: "De vier pijlers werken samen. Begin met technische SEO om al het andere te deblokkeren.",
           },
         },
         {

@@ -154,8 +154,7 @@ export const programmaticSeoForEcommerce: AcademyTopic = {
     fr: {
       badge: "SEO Avance",
       heading: "SEO Programmatique pour E-commerce",
-      intro:
-        "Le SEO programmatique utilise des templates et des donnees structurees pour generer un grand nombre de pages optimisees pour la recherche a grande echelle. Pour les boutiques e-commerce avec des catalogues produits etendus, cette approche peut capturer des milliers de requetes longue traine, mais elle comporte aussi des risques reels autour du contenu mince et du gonflement de l'index. Maîtriser ces [techniques SEO e-commerce avancées](/blog/advanced-ecommerce-seo-techniques) est essentiel avant de déployer à grande échelle.",
+      intro: "Le SEO programmatique utilise des templates et des données structurees pour generer un grand nombre de pages optimisees pour la recherche a grande échelle. Pour les boutiques e-commerce avec des catalogues produits etendus, cette approche peut capturer des milliers de requetes longue traine, mais elle comporte aussi des risques reels autour du contenu mince et du gonflement de l'index. Maîtriser ces [techniques SEO e-commerce avancées](/blog/advanced-ecommerce-seo-techniques) est essentiel avant de déployer à grande échelle.",
       readTime: "11 min de lecture",
       sections: [
         {
@@ -164,12 +163,12 @@ export const programmaticSeoForEcommerce: AcademyTopic = {
             "Le SEO programmatique suit une formule repetable : identifier un modele de mots-cles evolutif, construire un template de page, le remplir avec des donnees uniques et publier en volume. En e-commerce, les modeles programmatiques courants incluent les pages \"[Marque] + [Type de produit] + [Couleur/Taille]\" et les pages de comparaison.\n\nL'exigence fondamentale est des donnees uniques et precieuses qui remplissent chaque page. Un template sans contenu veritablement different entre les instances n'est que du contenu duplique avec des mots-cles echanges.\n\nLe SEO programmatique e-commerce reussi repose sur la combinaison de plusieurs sources de donnees par page : specifications produit, avis clients, historique des prix, informations de compatibilite et contenu editorial.\n\nL'avantage d'echelle est reel mais l'approche exige des controles de qualite rigoureux pour empecher les pages minces de degrader la qualite globale du site.",
           image: {
             src: "/images/academy/fr/programmatic-seo-pipeline.svg",
-            alt: "Programmatische SEO-Content-Pipeline: Datenquelle, Vorlage, Content-Ebene, Qualitaetstor und Veroeffentlichung",
-            caption: "Programmatisches SEO automatisiert die Content-Erstellung, aber ein Qualitaetstor ist essentiell, um duenne Seiten zu vermeiden.",
+            alt: "Schéma montrant le pipeline de référencement programmatique en quatre étapes, depuis l'identification des modèles de mots clés jusqu'à la création de modèles, le remplissage des données et la publication à grande échelle",
+            caption: "Chaque page programmatique nécessite au moins 3 sources de données distinctes pour éviter un contenu léger. Un contrôle de qualité à 70 % d'exhaustivité des données empêche les pages de faible valeur d'atteindre l'index.",
           },
           callout: {
             title: "Qualitaetskontrolle",
-            text: "Programmatisches SEO ohne Qualitaetskontrolle fuehrt zu duennen Seiten, die Google abwertet. Jede generierte Seite braucht einzigartigen Content ueber die reinen Daten hinaus: FAQs, Vergleiche oder kontextbezogene Einfuehrungen.",
+            text: "La mise à jour principale de Google de mars 2024 a désindexé des sites entiers en s'appuyant sur des pages générées automatiquement avec une variation minimale. Chaque page programmatique doit mieux répondre à sa requête cible que les résultats existants.ntextbezogene Einfuehrungen.",
           },
         },
         {
@@ -185,17 +184,17 @@ export const programmaticSeoForEcommerce: AcademyTopic = {
           tip: "Ajoutez un seuil de completude des donnees a votre pipeline de generation de pages. Ne publiez que les pages ou au moins 70% des sections du template ont des donnees reelles.",
         },
         {
-          title: "Gestion de l'index a grande echelle",
+          title: "Gestion de l'index a grande échelle",
           content:
             "Generer 50 000 pages programmatiques ne signifie rien si 40 000 d'entre elles restent non indexees ou sont prises dans un filtre de qualite. La gestion de l'index est le defi operationnel qui separe le SEO programmatique reussi de l'effort d'ingenierie gaspille.\n\nCommencez par une strategie crawl-first. Soumettez les pages programmatiques via des sitemaps XML organisees par categorie ou type de template. Surveillez le rapport de couverture d'index dans Google Search Console.\n\nUtilisez le meta tag robots et les balises canoniques strategiquement. Les pages avec des donnees insuffisantes doivent porter une balise noindex jusqu'a enrichissement. Les pages quasi-dupliquees doivent utiliser des balises canoniques.\n\nImplementez un systeme de gestion du cycle de vie pour les pages programmatiques. Quand les produits sont definitivement en rupture de stock, les pages correspondantes doivent rediriger, mettre a jour ou etre supprimees avec des codes 410. Comprendre la [gestion du budget de crawl](/academy/crawl-budget-management) est crucial lors de la publication de pages à ce volume. Les pages quasi-dupliquées (comme le même produit dans des configurations légèrement différentes) devraient utiliser des [balises canoniques](/academy/canonical-tags-for-ecommerce) pointant vers la variante principale.",
           image: {
             src: "/images/academy/fr/programmatic-index-management.svg",
-            alt: "Programmatische Index-Verwaltung: Von 10.000 generierten URLs werden 3.000 indexiert und 7.000 blockiert",
-            caption: "Indexieren Sie nur Seiten, die echten Wert bieten. Ein gesundes Index-Verhaeltnis ist entscheidend fuer die Gesamtleistung.",
+            alt: "Diagramme en entonnoir montrant 50 000 pages générées filtrées via la soumission du plan du site et les contrôles de qualité sur 30 000 pages indexées",
+            caption: "Toutes les pages générées ne méritent pas d'être indexées. Utilisez noindex pour les pages fines et les balises canoniques pour les quasi-doublons afin de concentrer Google sur votre contenu le plus fort.",
           },
           callout: {
             title: "Index-Verhaeltnis",
-            text: "Ein gesundes Index-Verhaeltnis liegt bei 20-40% der generierten URLs. Wenn Sie mehr als 50% indexieren, enthalten Sie wahrscheinlich duenne oder doppelte Seiten, die Ihre Gesamtleistung verwaessern.",
+            text: "Générer 50 000 pages ne signifie rien si 40 000 ne sont pas indexées. Segmentez les plans de site par type de modèle et surveillez les taux d'indexation par catégorie dans la Search Console pour détecter rapidement les problèmes de qualité.",
           },
         },
         {
@@ -226,22 +225,21 @@ export const programmaticSeoForEcommerce: AcademyTopic = {
     es: {
       badge: "SEO Avanzado",
       heading: "SEO Programatico para Ecommerce",
-      intro:
-        "El SEO programatico utiliza plantillas y datos estructurados para generar grandes cantidades de paginas optimizadas para busqueda a escala. Para tiendas ecommerce con catalogos extensos, este enfoque puede capturar miles de consultas long-tail, pero tambien conlleva riesgos reales relacionados con contenido delgado e inflacion del indice. Dominar estas [tecnicas avanzadas de SEO para ecommerce](/blog/advanced-ecommerce-seo-techniques) es esencial antes de desplegar a escala.",
+      intro: "El SEO programatico utiliza plantillas y datos estructurados para generar grandes cantidades de páginas optimizadas para busqueda a escala. Para tiendas ecommerce con catálogos extensos, este enfoque puede capturar miles de consultas long-tail, pero tambien conlleva riesgos reales relacionados con contenido delgado e inflacion del indice. Dominar estas [técnicas avanzadas de SEO para ecommerce](/blog/advanced-ecommerce-seo-techniques) es esencial antes de desplegar a escala.",
       readTime: "11 min de lectura",
       sections: [
         {
-          title: "Como funciona el SEO programatico en ecommerce",
+          title: "Cómo funciona el SEO programatico en ecommerce",
           content:
             "El SEO programatico sigue una formula repetible: identificar un patron de palabras clave escalable, construir una plantilla de pagina, poblarla con datos unicos y publicar en volumen. Los patrones programaticos comunes incluyen paginas \"[Marca] + [Tipo de producto] + [Color/Talla]\" y paginas de comparacion.\n\nEl requisito fundamental son datos unicos y valiosos que pueblan cada pagina. Una plantilla de pagina sin contenido genuinamente diferente entre instancias es solo contenido duplicado con palabras clave intercambiadas.\n\nEl SEO programatico exitoso se basa en combinar multiples fuentes de datos por pagina: especificaciones de producto, resenas de clientes, historial de precios, informacion de compatibilidad y contenido editorial.\n\nLa ventaja de escala es real pero el enfoque exige controles de calidad rigurosos para evitar que las paginas delgadas arrastren la calidad general del sitio.",
           image: {
             src: "/images/academy/es/programmatic-seo-pipeline.svg",
-            alt: "Programmatische SEO-Content-Pipeline: Datenquelle, Vorlage, Content-Ebene, Qualitaetstor und Veroeffentlichung",
-            caption: "Programmatisches SEO automatisiert die Content-Erstellung, aber ein Qualitaetstor ist essentiell, um duenne Seiten zu vermeiden.",
+            alt: "Diagrama que muestra el proceso de SEO programático de cuatro pasos, desde la identificación de patrones de palabras clave hasta la creación de plantillas, la recopilación de datos y la publicación escalada.",
+            caption: "Cada página programática necesita al menos 3 fuentes de datos distintas para evitar contenido escaso. Un control de calidad con un 70 % de integridad de los datos evita que las páginas de bajo valor lleguen al índice.",
           },
           callout: {
             title: "Qualitaetskontrolle",
-            text: "Programmatisches SEO ohne Qualitaetskontrolle fuehrt zu duennen Seiten, die Google abwertet. Jede generierte Seite braucht einzigartigen Content ueber die reinen Daten hinaus: FAQs, Vergleiche oder kontextbezogene Einfuehrungen.",
+            text: "La actualización principal de Google de marzo de 2024 desindexó sitios completos basándose en páginas generadas automáticamente con una variación mínima. Cada página programática debe responder a su consulta de destino mejor que los resultados existentes.ntextbezogene Einfuehrungen.",
           },
         },
         {
@@ -262,12 +260,12 @@ export const programmaticSeoForEcommerce: AcademyTopic = {
             "Generar 50.000 paginas programaticas no significa nada si 40.000 de ellas quedan sin indexar o atrapadas en un filtro de calidad. La gestion del indice es el desafio operativo que separa el SEO programatico exitoso del esfuerzo de ingenieria desperdiciado.\n\nComienza con una estrategia crawl-first. Enviar paginas programaticas a traves de sitemaps XML organizadas por categoria o tipo de plantilla. Monitorizar el informe de cobertura del indice en Google Search Console.\n\nUsa las etiquetas meta robots y canonicas estrategicamente. Las paginas con datos insuficientes deben llevar una etiqueta noindex hasta que se enriquezcan. Las paginas casi duplicadas deben usar [etiquetas canonicas](/academy/canonical-tags-for-ecommerce).\n\nImplementa un sistema de gestion del ciclo de vida para paginas programaticas. Cuando los productos se agotan permanentemente, las paginas correspondientes deben redirigir, actualizar o eliminarse con codigos 410. Comprender la [gestion del presupuesto de rastreo](/academy/crawl-budget-management) es critico al publicar paginas a este volumen.",
           image: {
             src: "/images/academy/es/programmatic-index-management.svg",
-            alt: "Programmatische Index-Verwaltung: Von 10.000 generierten URLs werden 3.000 indexiert und 7.000 blockiert",
-            caption: "Indexieren Sie nur Seiten, die echten Wert bieten. Ein gesundes Index-Verhaeltnis ist entscheidend fuer die Gesamtleistung.",
+            alt: "Diagrama de embudo que muestra 50.000 páginas generadas filtradas mediante el envío de mapas del sitio y controles de calidad hasta 30.000 páginas indexadas.",
+            caption: "No todas las páginas generadas merecen indexarse. Utilice noindex para páginas delgadas y etiquetas canónicas para casi duplicados para enfocar a Google en su contenido más sólido.",
           },
           callout: {
             title: "Index-Verhaeltnis",
-            text: "Ein gesundes Index-Verhaeltnis liegt bei 20-40% der generierten URLs. Wenn Sie mehr als 50% indexieren, enthalten Sie wahrscheinlich duenne oder doppelte Seiten, die Ihre Gesamtleistung verwaessern.",
+            text: "Generar 50.000 páginas no significa nada si 40.000 no están indexadas. Segmente los mapas de sitio por tipo de plantilla y supervise las tasas de indexación por categoría en Search Console para detectar problemas de calidad con antelación.",
           },
         },
         {
@@ -277,7 +275,7 @@ export const programmaticSeoForEcommerce: AcademyTopic = {
           tip: "Configura monitoreo de calidad automatizado que marque paginas programaticas con metricas de engagement por debajo del promedio.",
         },
         {
-          title: "Enlaces internos para paginas programaticas",
+          title: "Enlaces internos para páginas programaticas",
           content:
             "Las paginas programaticas necesitan enlaces internos estructurados para distribuir autoridad y ayudar a los motores de busqueda a entender su relacion con el sitio mas amplio. Sin arquitectura de enlaces intencional, las paginas programaticas se convierten en nodos huerfanos.\n\nCrea paginas hub que agreguen y enlacen a grupos de paginas programaticas. Implementa enlaces cruzados contextuales entre paginas programaticas relacionadas.\n\nEvita crear mega-footers o bloques de enlaces en barras laterales que listen cientos de paginas programaticas. Estos patrones son reconocidos como esquemas de enlaces.",
         },
@@ -308,12 +306,12 @@ export const programmaticSeoForEcommerce: AcademyTopic = {
             "Il SEO programmatico segue una formula ripetibile: identificare un pattern di parole chiave scalabile, costruire un template di pagina, popolarlo con dati unici e pubblicare in volume. I pattern programmatici comuni nell'ecommerce includono pagine \"[Marca] + [Tipo prodotto] + [Colore/Taglia]\" e pagine di confronto.\n\nIl requisito fondamentale sono dati unici e preziosi che popolano ogni pagina. Un template di pagina senza contenuto genuinamente diverso tra le istanze e solo contenuto duplicato con parole chiave scambiate.\n\nIl SEO programmatico ecommerce di successo si basa sulla combinazione di molteplici fonti di dati per pagina: specifiche prodotto, recensioni clienti, storico prezzi, informazioni di compatibilita e contenuto editoriale.\n\nIl vantaggio di scala e reale ma l'approccio richiede controlli di qualita rigorosi per impedire alle pagine sottili di trascinare verso il basso la qualita complessiva del sito.",
           image: {
             src: "/images/academy/it/programmatic-seo-pipeline.svg",
-            alt: "Programmatische SEO-Content-Pipeline: Datenquelle, Vorlage, Content-Ebene, Qualitaetstor und Veroeffentlichung",
-            caption: "Programmatisches SEO automatisiert die Content-Erstellung, aber ein Qualitaetstor ist essentiell, um duenne Seiten zu vermeiden.",
+            alt: "Diagramma che mostra la pipeline SEO programmatica in quattro fasi, dall'identificazione del modello di parole chiave alla creazione di modelli, all'inserimento dei dati e alla pubblicazione su scala",
+            caption: "Ogni pagina programmatica necessita di almeno 3 origini dati distinte per evitare contenuti scarni. Un controllo di qualità al 70% di completezza dei dati impedisce alle pagine di basso valore di raggiungere l'indice.",
           },
           callout: {
             title: "Qualitaetskontrolle",
-            text: "Programmatisches SEO ohne Qualitaetskontrolle fuehrt zu duennen Seiten, die Google abwertet. Jede generierte Seite braucht einzigartigen Content ueber die reinen Daten hinaus: FAQs, Vergleiche oder kontextbezogene Einfuehrungen.",
+            text: "L'aggiornamento principale di Google di marzo 2024 ha deindicizzato interi siti facendo affidamento su pagine generate automaticamente con variazioni minime. Ogni pagina programmatica deve rispondere alla query di destinazione meglio dei risultati esistenti.ntextbezogene Einfuehrungen.",
           },
         },
         {
@@ -334,12 +332,12 @@ export const programmaticSeoForEcommerce: AcademyTopic = {
             "Generare 50.000 pagine programmatiche non significa nulla se 40.000 di esse rimangono non indicizzate o vengono catturate in un filtro di qualita. La gestione dell'indice e la sfida operativa che separa il SEO programmatico di successo dallo sforzo ingegneristico sprecato.\n\nInizia con una strategia crawl-first. Invia le pagine programmatiche tramite sitemap XML organizzate per categoria o tipo di template. Monitora il rapporto di copertura dell'indice in Google Search Console. Approfondisci con la nostra guida sulla [gestione del budget di crawl](/academy/crawl-budget-management).\n\nUsa il meta tag robots e i tag canonici strategicamente. Le pagine con dati insufficienti dovrebbero portare un tag noindex fino all'arricchimento. Le pagine quasi-duplicate dovrebbero usare tag canonici. Approfondisci con la nostra guida sui [tag canonical](/academy/canonical-tags-for-ecommerce).\n\nImplementa un sistema di gestione del ciclo di vita per le pagine programmatiche. Quando i prodotti esauriscono definitivamente, le pagine corrispondenti dovrebbero reindirizzare, aggiornare o essere rimosse con codici di stato 410.",
           image: {
             src: "/images/academy/it/programmatic-index-management.svg",
-            alt: "Programmatische Index-Verwaltung: Von 10.000 generierten URLs werden 3.000 indexiert und 7.000 blockiert",
-            caption: "Indexieren Sie nur Seiten, die echten Wert bieten. Ein gesundes Index-Verhaeltnis ist entscheidend fuer die Gesamtleistung.",
+            alt: "Diagramma a imbuto che mostra 50.000 pagine generate filtrate tramite l'invio della mappa del sito e controlli di qualità su 30.000 pagine indicizzate",
+            caption: "Non tutte le pagine generate meritano di essere indicizzate. Utilizza noindex per le pagine sottili e i tag canonici per i quasi duplicati per concentrare Google sui tuoi contenuti più efficaci.",
           },
           callout: {
             title: "Index-Verhaeltnis",
-            text: "Ein gesundes Index-Verhaeltnis liegt bei 20-40% der generierten URLs. Wenn Sie mehr als 50% indexieren, enthalten Sie wahrscheinlich duenne oder doppelte Seiten, die Ihre Gesamtleistung verwaessern.",
+            text: "Generare 50.000 pagine non significa nulla se 40.000 non sono indicizzate. Segmenta le mappe dei siti per tipo di modello e monitora i tassi di indicizzazione per categoria in Search Console per individuare tempestivamente i problemi di qualità.",
           },
         },
         {
@@ -380,12 +378,12 @@ export const programmaticSeoForEcommerce: AcademyTopic = {
             "Programmatische SEO volgt een herhaalbare formule: een schaalbaar zoekwoordpatroon identificeren, een paginatemplate bouwen, het vullen met unieke data en op volume publiceren. Veelvoorkomende programmatische patronen in e-commerce zijn \"[Merk] + [Producttype] + [Kleur/Maat]\"-pagina's en vergelijkingspagina's.\n\nDe fundamentele vereiste is unieke, waardevolle data die elke pagina vult. Een paginatemplate zonder werkelijk verschillende inhoud over instanties heen is simpelweg dubbele content met verwisselde zoekwoorden.\n\nSuccesvolle e-commerce programmatische SEO berust op het combineren van meerdere databronnen per pagina: productspecificaties, klantrecensies, prijsgeschiedenis, compatibiliteitsinformatie en redactionele inhoud.\n\nHet schaalvoordeel is reeel maar de aanpak vereist strenge kwaliteitscontroles om te voorkomen dat dunne pagina's de algehele sitekwaliteit naar beneden trekken.",
           image: {
             src: "/images/academy/nl/programmatic-seo-pipeline.svg",
-            alt: "Programmatische SEO-Content-Pipeline: Datenquelle, Vorlage, Content-Ebene, Qualitaetstor und Veroeffentlichung",
-            caption: "Programmatisches SEO automatisiert die Content-Erstellung, aber ein Qualitaetstor ist essentiell, um duenne Seiten zu vermeiden.",
+            alt: "Diagram dat de programmatische SEO-pijplijn in vier stappen toont, van identificatie van zoekwoordpatronen tot het bouwen van sjablonen, het vullen van gegevens en het op schaal publiceren",
+            caption: "Elke programmatische pagina heeft minimaal drie verschillende gegevensbronnen nodig om dunne inhoud te voorkomen. Een kwaliteitspoort met een volledigheid van de gegevens van 70% voorkomt dat pagina's met een lage waarde de index bereiken.",
           },
           callout: {
             title: "Qualitaetskontrolle",
-            text: "Programmatisches SEO ohne Qualitaetskontrolle fuehrt zu duennen Seiten, die Google abwertet. Jede generierte Seite braucht einzigartigen Content ueber die reinen Daten hinaus: FAQs, Vergleiche oder kontextbezogene Einfuehrungen.",
+            text: "De kernupdate van Google van maart 2024 deïndexeerde hele sites die afhankelijk waren van automatisch gegenereerde pagina's met minimale variatie. Elke programmatische pagina moet de doelvraag beter beantwoorden dan bestaande resultaten.ntextbezogene Einfuehrungen.",
           },
         },
         {
@@ -406,12 +404,12 @@ export const programmaticSeoForEcommerce: AcademyTopic = {
             "50.000 programmatische pagina's genereren betekent niets als 40.000 ervan niet-geindexeerd blijven of vastzitten in een kwaliteitsfilter. Indexbeheer is de operationele uitdaging die succesvolle programmatische SEO scheidt van verspilde engineering-inspanning.\n\nBegin met een crawl-first strategie. Dien programmatische pagina's in via XML-sitemaps georganiseerd per categorie of templatetype. Monitor het indexdekkingsrapport in Google Search Console.\n\nGebruik de robots meta-tag en [canonical tags](/academy/canonical-tags-for-ecommerce) strategisch. Pagina's met onvoldoende data moeten een noindex-tag dragen tot ze verrijkt zijn. Bijna-duplicaatpagina's moeten canonical tags gebruiken.\n\nImplementeer een lifecycle-managementsysteem voor programmatische pagina's. Wanneer producten permanent uitverkocht raken, moeten de bijbehorende pagina's doorverwijzen, bijwerken of verwijderd worden met 410 statuscodes.\n\nEffectief [crawlbudgetbeheer](/academy/crawl-budget-management) helpt je de aandacht van Google te richten op je meest waardevolle pagina's.",
           image: {
             src: "/images/academy/nl/programmatic-index-management.svg",
-            alt: "Programmatische Index-Verwaltung: Von 10.000 generierten URLs werden 3.000 indexiert und 7.000 blockiert",
-            caption: "Indexieren Sie nur Seiten, die echten Wert bieten. Ein gesundes Index-Verhaeltnis ist entscheidend fuer die Gesamtleistung.",
+            alt: "Trechterdiagram met 50.000 gegenereerde pagina's, gefilterd via het indienen van sitemaps en kwaliteitscontroles, tot 30.000 geïndexeerde pagina's",
+            caption: "Niet elke gegenereerde pagina verdient indexering. Gebruik noindex voor dunne pagina's en canonieke tags voor bijna dubbele pagina's, zodat Google zich op uw sterkste inhoud kan concentreren.",
           },
           callout: {
             title: "Index-Verhaeltnis",
-            text: "Ein gesundes Index-Verhaeltnis liegt bei 20-40% der generierten URLs. Wenn Sie mehr als 50% indexieren, enthalten Sie wahrscheinlich duenne oder doppelte Seiten, die Ihre Gesamtleistung verwaessern.",
+            text: "Het genereren van 50.000 pagina's betekent niets als 40.000 niet-geïndexeerd zijn. Segmenteer sitemaps op sjabloontype en controleer de indexeringspercentages per categorie in Search Console om kwaliteitsproblemen vroegtijdig op te sporen.",
           },
         },
         {

@@ -150,8 +150,7 @@ export const competitorBacklinkAnalysis: AcademyTopic = {
     fr: {
       badge: "Link Building",
       heading: "Analyse des Backlinks Concurrentiels",
-      intro:
-        "Vos concurrents ont deja fait le travail difficile de trouver des sites prets a lier du contenu e-commerce. Analyser leurs profils de backlinks revele exactement quels sites web, journalistes et blogueurs sont ouverts aux liens dans votre niche, vous donnant une feuille de route eprouvee plutot que de deviner ou concentrer vos efforts de prospection. Avant de commencer, assurez-vous de comprendre les [fondamentaux des backlinks pour l'e-commerce](/academy/backlink-fundamentals-for-ecommerce) qui déterminent quels liens valent la peine d'être poursuivis.",
+      intro: "Vos concurrents ont déjà fait le travail difficile de trouver des sites prets a lier du contenu e-commerce. Analyser leurs profils de backlinks revele exactement quels sites web, journalistes et blogueurs sont ouverts aux liens dans votre niche, vous donnant une feuille de route eprouvee plutot que de deviner ou concentrer vos efforts de prospection. Avant de commencer, assurez-vous de comprendre les [fondamentaux des backlinks pour l'e-commerce](/academy/backlink-fundamentals-for-ecommerce) qui déterminent quels liens valent la peine d'être poursuivis.",
       readTime: "10 min de lecture",
       sections: [
         {
@@ -177,12 +176,12 @@ export const competitorBacklinkAnalysis: AcademyTopic = {
             "Une analyse d'ecart de liens revele les domaines qui lient vos concurrents mais pas vous. C'est l'un des moyens les plus efficaces de construire une liste de prospects car ces sites ont deja demontre un interet pour votre categorie de produits.\n\nDans Ahrefs, l'outil Link Intersect vous permet d'entrer votre domaine aux cotes de dix concurrents maximum. L'outil retourne une liste de domaines qui lient un ou plusieurs concurrents mais pas votre site. Semrush propose une fonctionnalite similaire appelee Backlink Gap. La liste resultante est essentiellement une liste de prospection pre-qualifiee, chaque domaine a deja lie du contenu similaire.\n\nPriorisez les opportunites d'ecart de liens ou un domaine lie plusieurs concurrents. Si un site lie trois de vos cinq concurrents, il a un schema fort de couverture de votre categorie de produits et est tres susceptible de considerer un lien vers votre contenu egalement.\n\nRecherchez aussi les ecarts au niveau des pages. Si un concurrent a un guide d'achat qui a obtenu 50 domaines referents et que vous n'avez pas de page equivalente, cet ecart represente a la fois une opportunite de contenu et une opportunite de link building.",
           image: {
             src: "/images/academy/fr/competitor-link-gap-analysis.svg",
-            alt: "Diagramm das zeigt wie Link-Gap-Analyse Domains identifiziert die zu Wettbewerbern verlinken aber nicht zu Ihrem Shop",
-            caption: "Domains die zu mehreren Wettbewerbern verlinken sind die hoechstprioritaeren Outreach-Ziele. Jede Luecke ist ein vorqualifizierter Interessent.",
+            alt: "Diagramme montrant comment l'analyse des écarts de liens identifie les domaines liés à des concurrents mais pas à votre boutique",
+            caption: "Les domaines liés à plusieurs concurrents sont les cibles de sensibilisation les plus prioritaires. Chaque écart est un prospect pré-qualifié.",
           },
           callout: {
             title: "Vorqualifizierte Leads",
-            text: "Link-Gap-Domains haben bereits bewiesen dass sie zu Ecommerce-Inhalten in Ihrer Nische verlinken. Seiten die zu 3+ Wettbewerbern verlinken konvertieren mit den hoechsten Outreach-Raten weil sie aktiv Ihre Produktkategorie abdecken.",
+            text: "Les domaines Link Gap ont déjà prouvé qu'ils sont liés au contenu de commerce électronique dans votre niche. Les sites liés à plus de 3 concurrents se convertissent aux taux de diffusion les plus élevés car ils couvrent activement votre catégorie de produits.Ihre Produktkategorie abdecken.",
           },
         },
         {
@@ -208,8 +207,8 @@ export const competitorBacklinkAnalysis: AcademyTopic = {
             "Les donnees brutes de backlinks concurrentiels sont inutiles sans un plan structure pour agir. Convertissez votre analyse en une liste de prospection priorisee avec des prochaines etapes claires pour chaque prospect.\n\nCreez un tableur maitre de prospection avec des colonnes pour : domaine, personne de contact, adresse email, type de lien (article invite, page de ressources, mention editoriale), concurrent actuellement lie, note de domaine, et votre statut de prospection. Remplissez ce tableur a partir de votre analyse d'ecart de liens et de votre revue de backlinks concurrentiels. La plupart des analyses produisent 100-300 prospects viables a partir de cinq profils concurrentiels.\n\nPriorisez les prospects avec un systeme de notation. Attribuez des points pour l'autorite de domaine, la pertinence par rapport a votre niche, le nombre de concurrents lies, et le type d'opportunite de lien. Triez par score total et travaillez de haut en bas.\n\nGroupez les prospects par type de prospection. Les prospects de pages de ressources necessitent un email different de ceux pour les articles invites ou les journalistes. Regroupez votre prospection par type pour pouvoir personnaliser les modeles efficacement. Un tableur de prospection bien organise transforme des mois de link building potentiel en un workflow systematique executable semaine apres semaine.",
           image: {
             src: "/images/academy/fr/competitor-link-tactics.svg",
-            alt: "Diagramm das zeigt wie vier Wettbewerber-Link-Building-Taktiken identifiziert werden: Gastbeitraege, digitale PR, Ressourcenseiten und Broken-Link-Building",
-            caption: "Jedes Link-Cluster im Profil eines Wettbewerbers offenbart eine spezifische Taktik die Sie replizieren oder fuer Ihren eigenen Shop anpassen koennen.",
+            alt: "Schéma montrant comment identifier quatre tactiques de création de liens entre concurrents : publications d'invités, relations publiques numériques, pages de ressources et création de liens rompus",
+            caption: "Chaque groupe de liens dans le profil d'un concurrent révèle une tactique spécifique que vous pouvez reproduire ou adapter pour votre propre magasin.",
           },
         },
       ],
@@ -220,9 +219,8 @@ export const competitorBacklinkAnalysis: AcademyTopic = {
     },
     es: {
       badge: "Link Building",
-      heading: "Analisis de Backlinks de la Competencia",
-      intro:
-        "Tus competidores ya han hecho el trabajo duro de encontrar sitios dispuestos a enlazar contenido ecommerce. Analizar sus perfiles de backlinks revela exactamente que sitios web, periodistas y blogueros estan abiertos a enlazar en tu nicho, dandote una hoja de ruta probada en lugar de adivinar donde enfocar tus esfuerzos de outreach. Antes de comenzar, asegurate de comprender los [fundamentos de backlinks para ecommerce](/academy/backlink-fundamentals-for-ecommerce) que determinan que enlaces vale la pena perseguir.",
+      heading: "Análisis de Backlinks de la Competencia",
+      intro: "Tus competidores ya han hecho el trabajo duro de encontrar sitios dispuestos a enlazar contenido ecommerce. Analizar sus perfiles de backlinks revela exactamente que sitios web, periodistas y blogueros estan abiertos a enlazar en tu nicho, dandote una hoja de ruta probada en lugar de adivinar donde enfocar tus esfuerzos de outreach. Antes de comenzar, asegurate de comprender los [fundamentos de backlinks para ecommerce](/academy/backlink-fundamentals-for-ecommerce) que determinan que enlaces vale la pena perseguir.",
       readTime: "10 min de lectura",
       sections: [
         {
@@ -248,12 +246,12 @@ export const competitorBacklinkAnalysis: AcademyTopic = {
             "Un analisis de brecha de enlaces revela dominios que enlazan a tus competidores pero no a ti. Esta es una de las formas mas eficientes de construir una lista de prospectos porque estos sitios ya han demostrado interes en tu categoria de producto.\n\nEn Ahrefs, la herramienta Link Intersect te permite introducir tu dominio junto con hasta diez competidores. La herramienta devuelve una lista de dominios que enlazan a uno o mas competidores pero no a tu sitio. Semrush ofrece una funcionalidad similar llamada Backlink Gap. La lista resultante es esencialmente una lista de outreach precalificada, cada dominio en ella ha enlazado contenido similar previamente.\n\nPrioriza las oportunidades de brecha de enlaces donde un dominio enlaza a multiples competidores. Si un sitio enlaza a tres de tus cinco competidores, tiene un patron fuerte de cubrir tu categoria de producto y es muy probable que considere enlazar tu contenido tambien.\n\nTambien busca brechas a nivel de pagina. Si un competidor tiene una guia de compra que obtuvo 50 dominios referentes y tu no tienes una pagina equivalente, esa brecha representa tanto una oportunidad de contenido como una de link building.",
           image: {
             src: "/images/academy/es/competitor-link-gap-analysis.svg",
-            alt: "Diagramm das zeigt wie Link-Gap-Analyse Domains identifiziert die zu Wettbewerbern verlinken aber nicht zu Ihrem Shop",
-            caption: "Domains die zu mehreren Wettbewerbern verlinken sind die hoechstprioritaeren Outreach-Ziele. Jede Luecke ist ein vorqualifizierter Interessent.",
+            alt: "Diagrama que muestra cómo el análisis de brecha de enlaces identifica dominios que enlazan con la competencia pero no con su tienda.",
+            caption: "Los dominios que enlazan con múltiples competidores son los objetivos de divulgación de mayor prioridad. Cada brecha es un prospecto precalificado.",
           },
           callout: {
             title: "Vorqualifizierte Leads",
-            text: "Link-Gap-Domains haben bereits bewiesen dass sie zu Ecommerce-Inhalten in Ihrer Nische verlinken. Seiten die zu 3+ Wettbewerbern verlinken konvertieren mit den hoechsten Outreach-Raten weil sie aktiv Ihre Produktkategorie abdecken.",
+            text: "Los dominios con brecha de enlaces ya han demostrado que enlazan con contenido de comercio electrónico en su nicho. Los sitios que enlazan con más de 3 competidores generan conversiones con las tasas de alcance más altas porque cubren activamente su categoría de producto.Ihre Produktkategorie abdecken.",
           },
         },
         {
@@ -274,13 +272,13 @@ export const competitorBacklinkAnalysis: AcademyTopic = {
           ],
         },
         {
-          title: "Convertir el analisis en un plan de outreach accionable",
+          title: "Convertir el análisis en un plan de outreach accionable",
           content:
             "Los datos brutos de backlinks de la competencia son inutiles sin un plan estructurado para actuar. Convierte tu analisis en una lista de outreach priorizada con proximos pasos claros para cada prospecto.\n\nCrea una hoja de calculo maestra de prospeccion con columnas para: dominio, persona de contacto, direccion de email, tipo de enlace (guest post, pagina de recursos, mencion editorial), competidor al que actualmente enlazan, su calificacion de dominio y tu estado de outreach. Rellena esta hoja con tu analisis de brecha de enlaces y revision de backlinks de la competencia. La mayoria de analisis producen 100-300 prospectos viables de cinco perfiles de competidores.\n\nPrioriza prospectos usando un sistema de puntuacion. Asigna puntos por autoridad de dominio, relevancia para tu nicho, numero de competidores a los que enlazan y el tipo de oportunidad de enlace. Ordena por puntuacion total y trabaja de arriba abajo.\n\nAgrupa prospectos por tipo de outreach. Los prospectos de paginas de recursos necesitan un email diferente que los de guest posts o los periodistas que cubren tu categoria de producto. Agrupa tu outreach por tipo para personalizar plantillas eficientemente. Una hoja de prospeccion bien organizada transforma meses de link building potencial en un flujo de trabajo sistematico ejecutable semana a semana.",
           image: {
             src: "/images/academy/es/competitor-link-tactics.svg",
-            alt: "Diagramm das zeigt wie vier Wettbewerber-Link-Building-Taktiken identifiziert werden: Gastbeitraege, digitale PR, Ressourcenseiten und Broken-Link-Building",
-            caption: "Jedes Link-Cluster im Profil eines Wettbewerbers offenbart eine spezifische Taktik die Sie replizieren oder fuer Ihren eigenen Shop anpassen koennen.",
+            alt: "Diagrama que muestra cómo identificar cuatro tácticas de construcción de enlaces de la competencia: publicaciones de invitados, relaciones públicas digitales, páginas de recursos y construcción de enlaces rotos.",
+            caption: "Cada grupo de enlaces en el perfil de un competidor revela una táctica específica que puedes replicar o adaptar para tu propia tienda.",
           },
         },
       ],
@@ -319,12 +317,12 @@ export const competitorBacklinkAnalysis: AcademyTopic = {
             "Un'analisi dei gap di link rivela i domini che linkano i tuoi concorrenti ma non te. Questo e uno dei modi piu efficienti per costruire una lista di prospect perche questi siti hanno gia dimostrato interesse nella tua categoria di prodotto.\n\nIn Ahrefs, lo strumento Link Intersect ti permette di inserire il tuo dominio insieme a un massimo di dieci concorrenti. Lo strumento restituisce una lista di domini che linkano uno o piu concorrenti ma non il tuo sito. Semrush offre una funzionalita simile chiamata Backlink Gap. La lista risultante e essenzialmente una lista di outreach pre-qualificata, ogni dominio ha gia linkato contenuto simile in precedenza.\n\nDai priorita alle opportunita di gap dove un dominio linka piu concorrenti. Se un sito linka tre dei tuoi cinque concorrenti, ha un forte pattern di copertura della tua categoria di prodotto ed e molto probabile che consideri di linkare anche il tuo contenuto.\n\nCerca anche gap a livello di pagina. Se un concorrente ha una guida all'acquisto che ha ottenuto 50 domini referenti e tu non hai una pagina equivalente, quel gap rappresenta sia un'opportunita di contenuto che una di link building.",
           image: {
             src: "/images/academy/it/competitor-link-gap-analysis.svg",
-            alt: "Diagramm das zeigt wie Link-Gap-Analyse Domains identifiziert die zu Wettbewerbern verlinken aber nicht zu Ihrem Shop",
-            caption: "Domains die zu mehreren Wettbewerbern verlinken sind die hoechstprioritaeren Outreach-Ziele. Jede Luecke ist ein vorqualifizierter Interessent.",
+            alt: "Diagramma che mostra come l'analisi dei gap di collegamento identifica i domini che si collegano ai concorrenti ma non al tuo negozio",
+            caption: "I domini che si collegano a più concorrenti sono gli obiettivi di sensibilizzazione con la massima priorità. Ogni gap è una prospettiva prequalificata.",
           },
           callout: {
             title: "Vorqualifizierte Leads",
-            text: "Link-Gap-Domains haben bereits bewiesen dass sie zu Ecommerce-Inhalten in Ihrer Nische verlinken. Seiten die zu 3+ Wettbewerbern verlinken konvertieren mit den hoechsten Outreach-Raten weil sie aktiv Ihre Produktkategorie abdecken.",
+            text: "I domini con gap di collegamento hanno già dimostrato di collegarsi ai contenuti di e-commerce nella tua nicchia. I siti che si collegano a più di 3 concorrenti convertono ai tassi di visibilità più elevati perché coprono attivamente la tua categoria di prodottoIhre Produktkategorie abdecken.",
           },
         },
         {
@@ -350,8 +348,8 @@ export const competitorBacklinkAnalysis: AcademyTopic = {
             "I dati grezzi dei backlink dei concorrenti sono inutili senza un piano strutturato per agire. Converti la tua analisi in una lista di outreach prioritizzata con prossimi passi chiari per ogni prospect.\n\nCrea un foglio di calcolo master di prospecting con colonne per: dominio, persona di contatto, indirizzo email, tipo di link (guest post, pagina risorse, menzione editoriale), concorrente a cui linkano attualmente, il loro domain rating e il tuo stato di outreach. Popola questo foglio dalla tua analisi dei gap di link e dalla revisione dei backlink dei concorrenti. La maggior parte delle analisi produce 100-300 prospect viabili da cinque profili concorrenti.\n\nDai priorita ai prospect usando un sistema di punteggio. Assegna punti per autorita di dominio, rilevanza per la tua nicchia, numero di concorrenti a cui linkano e il tipo di opportunita di link. Ordina per punteggio totale e lavora dall'alto verso il basso.\n\nRaggruppa i prospect per tipo di outreach. I prospect di pagine risorse hanno bisogno di un'email diversa rispetto ai prospect di guest post o ai giornalisti che coprono la tua categoria di prodotto. Raggruppa il tuo outreach per tipo cosi puoi personalizzare i template in modo efficiente.",
           image: {
             src: "/images/academy/it/competitor-link-tactics.svg",
-            alt: "Diagramm das zeigt wie vier Wettbewerber-Link-Building-Taktiken identifiziert werden: Gastbeitraege, digitale PR, Ressourcenseiten und Broken-Link-Building",
-            caption: "Jedes Link-Cluster im Profil eines Wettbewerbers offenbart eine spezifische Taktik die Sie replizieren oder fuer Ihren eigenen Shop anpassen koennen.",
+            alt: "Diagramma che mostra come identificare quattro tattiche di link building della concorrenza: guest post, PR digitali, pagine di risorse e link building interrotti",
+            caption: "Ogni cluster di collegamenti nel profilo di un concorrente rivela una tattica specifica che puoi replicare o adattare per il tuo negozio.",
           },
         },
       ],
@@ -390,12 +388,12 @@ export const competitorBacklinkAnalysis: AcademyTopic = {
             "Een linkgap-analyse onthult domeinen die naar je concurrenten linken maar niet naar jou. Dit is een van de meest efficiente manieren om een prospectlijst op te bouwen omdat deze sites al interesse in jouw productcategorie hebben getoond.\n\nIn Ahrefs kun je met de Link Intersect tool je domein invoeren naast maximaal tien concurrenten. De tool retourneert een lijst van domeinen die naar een of meer concurrenten linken maar niet naar jouw site. Semrush biedt een vergelijkbare functie genaamd Backlink Gap. De resulterende lijst is in wezen een voorgekwalificeerde outreach-lijst, elk domein erop heeft eerder naar vergelijkbare content gelinkt.\n\nGeef prioriteit aan linkgap-kansen waar een domein naar meerdere concurrenten linkt. Als een site naar drie van je vijf concurrenten linkt, heeft het een sterk patroon van het behandelen van jouw productcategorie en is het zeer waarschijnlijk dat het ook een link naar jouw content overweegt.\n\nZoek ook naar gaps op paginaniveau. Als een concurrent een koopgids heeft die 50 verwijzende domeinen heeft verdiend en jij geen equivalente pagina hebt, vertegenwoordigt dat gap zowel een content- als een linkbuilding-kans.",
           image: {
             src: "/images/academy/nl/competitor-link-gap-analysis.svg",
-            alt: "Diagramm das zeigt wie Link-Gap-Analyse Domains identifiziert die zu Wettbewerbern verlinken aber nicht zu Ihrem Shop",
-            caption: "Domains die zu mehreren Wettbewerbern verlinken sind die hoechstprioritaeren Outreach-Ziele. Jede Luecke ist ein vorqualifizierter Interessent.",
+            alt: "Diagram dat laat zien hoe link gap-analyse domeinen identificeert die linken naar concurrenten, maar niet naar uw winkel",
+            caption: "Domeinen die aan meerdere concurrenten zijn gekoppeld, hebben de hoogste prioriteit. Elke kloof is een vooraf gekwalificeerde prospect.",
           },
           callout: {
             title: "Vorqualifizierte Leads",
-            text: "Link-Gap-Domains haben bereits bewiesen dass sie zu Ecommerce-Inhalten in Ihrer Nische verlinken. Seiten die zu 3+ Wettbewerbern verlinken konvertieren mit den hoechsten Outreach-Raten weil sie aktiv Ihre Produktkategorie abdecken.",
+            text: "Link gap-domeinen hebben al bewezen dat ze linken naar e-commerce-inhoud in uw niche. Sites die linken naar meer dan drie concurrenten genereren de hoogste conversiepercentages omdat ze actief uw productcategorie bestrijkenIhre Produktkategorie abdecken.",
           },
         },
         {
@@ -421,8 +419,8 @@ export const competitorBacklinkAnalysis: AcademyTopic = {
             "Ruwe backlinkdata van concurrenten is nutteloos zonder een gestructureerd plan om ernaar te handelen. Zet je analyse om in een geprioriteerde outreach-lijst met duidelijke volgende stappen voor elk prospect.\n\nMaak een master-prospectingspreadsheet met kolommen voor: domein, contactpersoon, e-mailadres, linktype (gastartikel, bronpagina, redactionele vermelding), concurrent waar ze momenteel naar linken, hun domeinrating en je outreach-status. Vul dit vel met je linkgap-analyse en concurrenten-backlinkreview. De meeste analyses leveren 100-300 levensvatbare prospects op uit vijf concurrentprofielen.\n\nPrioriteer prospects met een scoresysteem. Ken punten toe voor domeinautoriteit, relevantie voor je niche, aantal concurrenten waarnaar ze linken en het type linkkans. Sorteer op totaalscore en werk van boven naar beneden.\n\nGroepeer prospects per outreach-type. Bronpagina-prospects hebben een andere e-mail nodig dan gastartikelen-prospects of journalisten die je productcategorie behandelen. Bundel je outreach per type zodat je templates efficient kunt personaliseren. Een goed georganiseerd prospectingvel transformeert maanden potentiele linkbuilding in een systematische workflow die week na week kan worden uitgevoerd.",
           image: {
             src: "/images/academy/nl/competitor-link-tactics.svg",
-            alt: "Diagramm das zeigt wie vier Wettbewerber-Link-Building-Taktiken identifiziert werden: Gastbeitraege, digitale PR, Ressourcenseiten und Broken-Link-Building",
-            caption: "Jedes Link-Cluster im Profil eines Wettbewerbers offenbart eine spezifische Taktik die Sie replizieren oder fuer Ihren eigenen Shop anpassen koennen.",
+            alt: "Diagram dat laat zien hoe u vier tactieken voor het opbouwen van links van concurrenten kunt identificeren: gastposts, digitale PR, bronpagina's en het opbouwen van verbroken links",
+            caption: "Elke linkcluster in het profiel van een concurrent onthult een specifieke tactiek die u kunt repliceren of aanpassen voor uw eigen winkel.",
           },
         },
       ],

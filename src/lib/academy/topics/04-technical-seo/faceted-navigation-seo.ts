@@ -228,8 +228,7 @@ export const facetedNavigationSeo: AcademyTopic = {
     fr: {
       badge: "SEO Technique",
       heading: "SEO de la navigation a facettes",
-      intro:
-        "La navigation a facettes permet aux acheteurs de filtrer les produits par attributs comme la taille, la couleur, la marque, la gamme de prix et la note. Bien qu'essentielle pour l'experience utilisateur, la navigation a facettes est l'une des fonctionnalites les plus dangereuses pour le SEO e-commerce. Une seule categorie avec dix options de filtre peut generer des millions de combinaisons d'URLs crawlables, creant un contenu duplique massif, gaspillant le budget de crawl et diluant l'autorite de classement sur des milliers de pages quasi identiques. Une seule catégorie avec dix options de filtrage peut générer des millions de combinaisons d'URLs explorables, créant un contenu dupliqué massif, gaspillant le [budget de crawl](/academy/crawl-budget-management), et diluant l'autorité de classement sur des milliers de pages quasi identiques.",
+      intro: "La navigation a facettes permet aux acheteurs de filtrer les produits par attributs comme la taille, la couleur, la marque, la gamme de prix et la note. Bien qu'essentielle pour l'expérience utilisateur, la navigation a facettes est l'une des fonctionnalités les plus dangereuses pour le SEO e-commerce. Une seule catégorie avec dix options de filtre peut generer des millions de combinaisons d'URLs crawlables, creant un contenu duplique massif, gaspillant le budget de crawl et diluant l'autorite de classement sur des milliers de pages quasi identiques. Une seule catégorie avec dix options de filtrage peut générer des millions de combinaisons d'URLs explorables, créant un contenu dupliqué massif, gaspillant le [budget de crawl](/academy/crawl-budget-management), et diluant l'autorité de classement sur des milliers de pages quasi identiques.",
       readTime: "13 min de lecture",
       sections: [
         {
@@ -246,12 +245,12 @@ export const facetedNavigationSeo: AcademyTopic = {
           tip: "Avant d'implementer une solution technique, identifiez quelles combinaisons de filtres correspondent a une demande de recherche reelle. Utilisez des outils de recherche de mots-cles pour identifier les requetes qui correspondent a des combinaisons specifiques de facettes.",
           image: {
             src: "/images/academy/fr/faceted-url-explosion-math.svg",
-            alt: "Visuelle Berechnung die zeigt wie 5 Filtergruppen mit mehreren Optionen sich zu ueber 19.200 crawlbaren URLs von einer einzigen Kategorieseite multiplizieren",
-            caption: "Eine einzelne Kategorieseite mit Marken-, Farb-, Groessen-, Preis- und Sortierfiltern kann durch kombinatorische Explosion ueber 19.200 crawlbare URLs erzeugen.",
+            alt: "Calcul visuel montrant comment 5 groupes de filtres avec plusieurs options se multiplient pour créer plus de 19 200 URL explorables à partir d'une seule page de catégorie.",
+            caption: "Une seule page de catégorie avec des filtres de marque, de couleur, de taille, de prix et de tri peut générer plus de 19 200 URL explorables grâce à une explosion combinatoire.",
           },
           callout: {
             title: "URL-Explosions-Ausmass",
-            text: "10 Marken x 12 Farben x 8 Groessen x 5 Preisbereiche x 4 Sortierreihenfolgen = 19.200 URLs von EINER Kategorie. Mit aktivierter Mehrfachauswahl waechst dies auf Millionen.",
+            text: "10 marques x 12 couleurs x 8 tailles x 5 gammes de prix x 4 ordres de tri = 19 200 URL d'UNE catégorie. Avec la sélection multiple activée, ce chiffre atteint des millions.",
           },
         },
         {
@@ -268,7 +267,7 @@ export const facetedNavigationSeo: AcademyTopic = {
           tip: "Consultez vos donnees de performance Google Search Console pour voir quelles URLs de filtres existantes recoivent deja des impressions et des clics. Si une page filtre se positionne deja pour des requetes pertinentes, elle appartient au niveau 1 ou 2.",
         },
         {
-          title: "Approches techniques pour controler les URLs facettees",
+          title: "Approches techniques pour contrôler les URLs facettees",
           content:
             "Il existe cinq approches techniques principales pour gerer la navigation a facettes pour le SEO, et la plupart des boutiques ont besoin d'une combinaison plutot que d'une solution unique.\n\n[Les balises canonical](/academy/canonical-tags-for-ecommerce) sont l'approche la plus courante. Pour les pages filtres de niveau 3, ajoutez une balise canonical pointant vers la page de categorie parente. Cela indique a Google que /chaussures?marque=nike&couleur=noir&taille=42&tri=prix est un doublon de /chaussures. La balise canonical preserve l'equite de lien qui afflue vers l'URL filtree en la transmettant a la cible canonical.\n\nLe blocage robots.txt empeche les moteurs de recherche d'explorer les URLs filtrees entierement. C'est efficace pour conserver le budget de crawl mais avec un inconvenient significatif : si des sites externes lient vers une URL filtree bloquee, l'equite de lien est completement perdue.\n\nLes balises meta noindex disent a Google d'explorer la page mais de ne pas l'inclure dans l'index. Cela permet a Google de decouvrir et suivre les liens sur la page, mais empeche la page filtre elle-meme d'apparaitre dans les resultats.\n\nLe filtrage base sur JavaScript rend les changements de filtres cote client sans modifier l'URL. Cela empeche les moteurs de recherche de decouvrir les URLs filtrees mais elimine la possibilite de creer des pages filtres indexables.\n\nLe routage d'URLs propres cree des URLs statiques et SEO-friendly pour vos combinaisons de filtres de niveau 1. Au lieu de /chaussures?marque=nike, creez une page dediee /chaussures/nike/ avec des balises titre uniques et du contenu potentiellement unique.",
           items: [
@@ -281,7 +280,7 @@ export const facetedNavigationSeo: AcademyTopic = {
           tip: "Combinez plusieurs approches selon votre classification par niveaux. Utilisez le routage d'URLs propres pour le niveau 1, les balises canonical pour le niveau 2 et le blocage robots.txt pour les patterns de niveau 3.",
         },
         {
-          title: "Creer des pages d'atterrissage de filtres optimisees pour le SEO",
+          title: "Créer des pages d'atterrissage de filtres optimisees pour le SEO",
           content:
             "Pour les combinaisons de filtres de niveau 1 avec une demande de recherche prouvee, creez des pages d'atterrissage dediees qui vont au-dela du simple filtrage de votre catalogue. Ces pages doivent etre traitees comme des pages de categorie de premiere classe avec un contenu unique et precieux.\n\nCommencez par des balises titre et meta descriptions uniques ciblant la requete de recherche specifique. Une page pour les chaussures de course Nike ne devrait pas utiliser le meme modele de titre que la categorie parente chaussures avec \"Nike\" ajoute. Redigez plutot un titre comme \"Chaussures de Course Nike - Livraison Gratuite sur les Nouveautes.\"\n\nAjoutez du contenu d'introduction unique a chaque page filtre de niveau 1. Un ou deux paragraphes sur l'heritage de la marque, les caracteristiques de la categorie de produits ou un guide d'achat specifique a cette combinaison differencie la page d'une simple liste filtree de produits.\n\nImplementez une hierarchie de titres appropriee sur les pages d'atterrissage de filtres. Le H1 devrait correspondre a la cible de requete de recherche principale. Les titres subsequents peuvent organiser la page par sous-categorie, gamme de produits ou cas d'utilisation.\n\nAssurez-vous que ces pages sont bien integrees dans la structure de liens internes de votre site. Ajoutez-les a votre navigation principale, barres laterales de categories et fils d'Ariane. Liez vers elles depuis le contenu de blog et les guides d'achat pertinents.",
           items: [
@@ -294,12 +293,12 @@ export const facetedNavigationSeo: AcademyTopic = {
           tip: "Analysez les pages filtres de vos principaux concurrents pour voir quel contenu ils incluent. De nombreux sites e-commerce leaders ajoutent des histoires de marque, des guides de tailles et des FAQ a leurs pages d'atterrissage de filtres.",
           image: {
             src: "/images/academy/fr/faceted-nav-tier-strategy.svg",
-            alt: "Dreistufiges Klassifizierungssystem fuer facettierte Navigation das zeigt welche Filter indexiert, vorsichtig behandelt oder vollstaendig blockiert werden",
-            caption: "Klassifizieren Sie jeden Filter in drei Stufen: nachgefragte Einzelfilter indexieren, Canonicals fuer mittlere Nachfrage verwenden und alles andere blockieren.",
+            alt: "Système de classification à trois niveaux pour une navigation à facettes indiquant quels filtres indexer, traiter avec prudence ou bloquer entièrement",
+            caption: "Classez chaque filtre en trois niveaux : indexez les filtres uniques à forte demande, utilisez des filtres canoniques pour les filtres à demande modérée et bloquez tout le reste.",
           },
           callout: {
             title: "Stufe-1-Goldstandard",
-            text: "Nachgefragte Marken- und Produkttypfilter (z.B. /schuhe/nike/) verdienen saubere URLs, einzigartige H1-Tags, individuelle Meta-Beschreibungen und Einleitungstexte. Diese Seiten koennen genauso gut ranken wie jede Kategorieseite.",
+            text: "Les filtres de marque et de type de produit très demandés (par exemple, /shoes/nike/) méritent des URL claires, des balises H1 uniques, des méta descriptions personnalisées et un contenu d'introduction. Ces pages peuvent être classées ainsi que n'importe quelle page de catégorie",
           },
         },
         {
@@ -336,14 +335,13 @@ export const facetedNavigationSeo: AcademyTopic = {
       },
     },
     es: {
-      badge: "SEO Tecnico",
-      heading: "SEO de Navegacion Facetada",
-      intro:
-        "La navegacion facetada permite a los compradores filtrar productos por atributos como talla, color, marca, rango de precio y valoracion. Aunque es esencial para la experiencia del usuario, la navegacion facetada es una de las funcionalidades mas peligrosas para el SEO de ecommerce. Una sola categoria con diez opciones de filtro puede generar millones de combinaciones de URLs rastreables, creando contenido duplicado masivo, desperdiciando presupuesto de rastreo y diluyendo la autoridad de posicionamiento entre miles de paginas casi identicas.",
+      badge: "SEO Técnico",
+      heading: "SEO de Navegación Facetada",
+      intro: "La navegacion facetada permite a los compradores filtrar productos por atributos como talla, color, marca, rango de precio y valoracion. Aunque es esencial para la experiencia del usuario, la navegacion facetada es una de las funcionalidades mas peligrosas para el SEO de ecommerce. Una sola categoría con diez opciones de filtro puede generar millones de combinaciones de URLs rastreables, creando contenido duplicado masivo, desperdiciando presupuesto de rastreo y diluyendo la autoridad de posicionamiento entre miles de páginas casi identicas.",
       readTime: "13 min de lectura",
       sections: [
         {
-          title: "Como la navegacion facetada crea problemas de SEO",
+          title: "Cómo la navegación facetada crea problemas de SEO",
           content:
             "La navegacion facetada funciona agregando parametros de filtro a la URL de la categoria. Cuando un comprador selecciona \"Marca: Nike\" en una pagina de categoria de zapatos, la URL se convierte en /zapatos?marca=nike. Agregar \"Color: Negro\" la cambia a /zapatos?marca=nike&color=negro. Agregar \"Talla: 42\" crea /zapatos?marca=nike&color=negro&talla=42. Cada combinacion es una URL unica y rastreable que los motores de busqueda pueden descubrir.\n\nLas matematicas de la generacion combinatoria de URLs son asombrosas. Una pagina de categoria con 5 grupos de filtros, cada uno con 10 opciones, puede teoricamente generar mas de 100,000 combinaciones de URLs. Un gran minorista de moda con 20 grupos de filtros en cientos de categorias puede producir facilmente decenas de millones de URLs de filtros rastreables. La gran mayoria de estas paginas muestran listados de productos casi identicos en disposiciones ligeramente diferentes.\n\nMas alla del recuento de URLs, la navegacion facetada crea varios problemas de SEO interrelacionados. El [presupuesto de rastreo](/academy/crawl-budget-management) se consume en paginas de filtros de bajo valor en lugar de paginas de productos que generan ingresos. La equidad de enlaces internos se distribuye entre miles de URLs de filtros en lugar de concentrarse en paginas importantes de categorias y productos. Surgen paginas de contenido delgado cuando combinaciones especificas de filtros devuelven muy pocos o cero productos. Y la canibalizacion de palabras clave ocurre cuando multiples paginas de filtros apuntan a las mismas consultas de busqueda.\n\nEl desafio es que algunas combinaciones de filtros tienen demanda de busqueda genuina y valor SEO. La gente busca \"zapatillas running Nike negras\" y \"chaquetas de invierno azules grandes.\" El objetivo SEO no es bloquear toda la navegacion facetada, sino permitir selectivamente que los motores de busqueda accedan a combinaciones valiosas mientras se bloquean los millones de combinaciones sin valor. Este es un desafio central del [SEO tecnico para ecommerce](/blog/technical-seo-for-ecommerce).",
           items: [
@@ -356,12 +354,12 @@ export const facetedNavigationSeo: AcademyTopic = {
           tip: "Antes de implementar cualquier solucion tecnica, identifica que combinaciones de filtros corresponden a demanda de busqueda real. Usa herramientas de investigacion de palabras clave para identificar consultas que coincidan con combinaciones especificas de facetas.",
           image: {
             src: "/images/academy/es/faceted-url-explosion-math.svg",
-            alt: "Visuelle Berechnung die zeigt wie 5 Filtergruppen mit mehreren Optionen sich zu ueber 19.200 crawlbaren URLs von einer einzigen Kategorieseite multiplizieren",
-            caption: "Eine einzelne Kategorieseite mit Marken-, Farb-, Groessen-, Preis- und Sortierfiltern kann durch kombinatorische Explosion ueber 19.200 crawlbare URLs erzeugen.",
+            alt: "Cálculo visual que muestra cómo 5 grupos de filtros con múltiples opciones se multiplican para crear más de 19,200 URL rastreables desde una página de una sola categoría.",
+            caption: "Una página de una sola categoría con filtros de marca, color, tamaño, precio y clasificación puede generar más de 19 200 URL rastreables mediante una explosión combinatoria.",
           },
           callout: {
             title: "URL-Explosions-Ausmass",
-            text: "10 Marken x 12 Farben x 8 Groessen x 5 Preisbereiche x 4 Sortierreihenfolgen = 19.200 URLs von EINER Kategorie. Mit aktivierter Mehrfachauswahl waechst dies auf Millionen.",
+            text: "10 marcas x 12 colores x 8 tamaños x 5 rangos de precios x 4 órdenes de clasificación = 19,200 URL de UNA categoría. Con la selección múltiple habilitada, esto aumenta a millones.",
           },
         },
         {
@@ -378,7 +376,7 @@ export const facetedNavigationSeo: AcademyTopic = {
           tip: "Revisa tus datos de rendimiento en Google Search Console para ver que URLs de filtros existentes ya reciben impresiones y clics. Si una pagina de filtro ya posiciona para consultas relevantes, pertenece al nivel 1 o 2.",
         },
         {
-          title: "Enfoques tecnicos para controlar URLs facetadas",
+          title: "Enfoques técnicos para controlar URLs facetadas",
           content:
             "Existen cinco enfoques tecnicos principales para gestionar la navegacion facetada para SEO, y la mayoria de las tiendas necesitan una combinacion en lugar de una solucion unica.\n\nLas [etiquetas canonical](/academy/canonical-tags-for-ecommerce) son el enfoque mas comun. Para paginas de filtros de nivel 3, agrega una etiqueta canonical apuntando a la pagina de categoria padre. Esto le dice a Google que /zapatos?marca=nike&color=negro&talla=42&sort=precio es un duplicado de /zapatos. Sin embargo, las etiquetas canonical son sugerencias, no directivas, y Google puede elegir ignorarlas.\n\nEl bloqueo con robots.txt impide que los motores de busqueda rastreen URLs de filtros completamente. Esto es efectivo para conservar presupuesto de rastreo pero tiene un inconveniente significativo: si sitios externos enlazan a una URL de filtro bloqueada, la equidad de enlace se pierde completamente.\n\nLas meta etiquetas noindex le dicen a Google que rastree la pagina pero no la incluya en el indice. Esto permite que Google descubra y siga enlaces en la pagina pero previene que la pagina de filtro aparezca en resultados de busqueda.\n\nEl filtrado basado en JavaScript renderiza cambios de filtro del lado del cliente sin modificar la URL. Esto previene que los motores de busqueda descubran URLs de filtros pero elimina la capacidad de crear paginas de filtros indexables.\n\nEl enrutamiento de URLs limpias crea URLs estaticas y SEO-friendly para tus combinaciones de filtros de nivel 1. En lugar de /zapatos?marca=nike, crea una pagina dedicada /zapatos/nike/ con etiquetas de titulo unicas y contenido potencialmente unico.",
           items: [
@@ -391,7 +389,7 @@ export const facetedNavigationSeo: AcademyTopic = {
           tip: "Combina multiples enfoques segun tu clasificacion por niveles. Usa enrutamiento de URLs limpias para nivel 1, etiquetas canonical para nivel 2 y bloqueo robots.txt para patrones de nivel 3.",
         },
         {
-          title: "Crear paginas de aterrizaje de filtros optimizadas para SEO",
+          title: "Crear páginas de aterrizaje de filtros optimizadas para SEO",
           content:
             "Para combinaciones de filtros de nivel 1 con demanda de busqueda comprobada, crea paginas de aterrizaje dedicadas que vayan mas alla del simple filtrado de tu catalogo. Estas paginas deben tratarse como paginas de categoria de primera clase con contenido unico y valioso.\n\nComienza con etiquetas de titulo y meta descripciones unicas que apunten a la consulta de busqueda especifica. Una pagina para zapatillas running Nike no deberia usar la misma plantilla de titulo que la categoria padre zapatos con \"Nike\" agregado. En su lugar, crea un titulo como \"Zapatillas Running Nike - Envio Gratis en Novedades.\"\n\nAgrega contenido introductorio unico a cada pagina de filtro de nivel 1. Uno o dos parrafos sobre la herencia de la marca, las caracteristicas de la categoria de producto o una guia de compra especifica diferencian la pagina de un simple listado filtrado de productos.\n\nImplementa una jerarquia de encabezados apropiada en las paginas de aterrizaje de filtros. El H1 debe coincidir con el objetivo de consulta de busqueda principal. Los encabezados subsiguientes pueden organizar la pagina por subcategoria, linea de producto o caso de uso.\n\nAsegura que estas paginas esten bien integradas en la estructura de enlaces internos de tu sitio. Agregalas a tu navegacion principal, barras laterales de categorias y rutas de migas de pan. Enlaza hacia ellas desde contenido de blog y guias de compra relacionados.",
           items: [
@@ -404,12 +402,12 @@ export const facetedNavigationSeo: AcademyTopic = {
           tip: "Analiza las paginas de filtros de tus principales competidores para ver que contenido incluyen. Muchos sitios de ecommerce lideres agregan historias de marca, guias de tallas y preguntas frecuentes a sus paginas de aterrizaje de filtros.",
           image: {
             src: "/images/academy/es/faceted-nav-tier-strategy.svg",
-            alt: "Dreistufiges Klassifizierungssystem fuer facettierte Navigation das zeigt welche Filter indexiert, vorsichtig behandelt oder vollstaendig blockiert werden",
-            caption: "Klassifizieren Sie jeden Filter in drei Stufen: nachgefragte Einzelfilter indexieren, Canonicals fuer mittlere Nachfrage verwenden und alles andere blockieren.",
+            alt: "Sistema de clasificación de tres niveles para navegación por facetas que muestra qué filtros indexar, tratar con cautela o bloquear por completo",
+            caption: "Clasifique cada filtro en tres niveles: indexe filtros individuales de alta demanda, use canónicos para filtros de demanda moderada y bloquee todo lo demás.",
           },
           callout: {
             title: "Stufe-1-Goldstandard",
-            text: "Nachgefragte Marken- und Produkttypfilter (z.B. /schuhe/nike/) verdienen saubere URLs, einzigartige H1-Tags, individuelle Meta-Beschreibungen und Einleitungstexte. Diese Seiten koennen genauso gut ranken wie jede Kategorieseite.",
+            text: "Los filtros de marca y tipo de producto de alta demanda (por ejemplo, /zapatos/nike/) merecen URL limpias, etiquetas H1 únicas, metadescripciones personalizadas y contenido introductorio. Estas páginas pueden clasificarse tan bien como cualquier página de categoría.",
           },
         },
         {
@@ -426,7 +424,7 @@ export const facetedNavigationSeo: AcademyTopic = {
           tip: "Configura los parametros de URL en Google Search Console como complemento a tu estrategia de robots.txt y etiquetas canonical para dar una senal adicional a Google.",
         },
         {
-          title: "Monitorear y medir el impacto SEO de la navegacion facetada",
+          title: "Monitorear y medir el impacto SEO de la navegación facetada",
           content:
             "Despues de implementar tu estrategia SEO de navegacion facetada, el monitoreo continuo es esencial para verificar que la solucion funciona y para detectar regresiones introducidas por actualizaciones de plataforma o nuevos filtros.\n\nUsa el informe de Cobertura de Google Search Console para rastrear el numero total de paginas indexadas de tu sitio. Despues de implementar controles de navegacion facetada, deberias ver disminuir el conteo de paginas indexadas a medida que Google elimina paginas de filtros bloqueadas o canonicalizadas de su indice. Esta disminucion es positiva. Rastrea este numero mensualmente e investiga cualquier aumento repentino.\n\nMonitorea tus estadisticas de rastreo en GSC para verificar que Googlebot pasa menos tiempo en URLs de filtros y mas tiempo en paginas de productos y categorias. Despues de implementar bloqueos robots.txt y etiquetas canonical, las URLs de filtros deberian disminuir como porcentaje de las paginas rastreadas totales.\n\nAnaliza logs del servidor directamente para la vista mas precisa de como los bots interactuan con tu navegacion facetada. Filtra tus datos de log para solicitudes de Googlebot y categoriza por patron de URL. Calcula el porcentaje de presupuesto de rastreo asignado a cada categoria antes y despues de tus cambios. Una implementacion exitosa deberia mover al menos 15% a 25% del presupuesto de rastreo de URLs de filtros hacia paginas de productos.\n\nRastrea el rendimiento de pagina de aterrizaje organica para tus paginas de filtros de nivel 1 especificamente. Estas paginas deberian ganar impresiones, clics y posicionamientos. Configura seguimiento de rankings para las palabras clave especificas que cada pagina de nivel 1 apunta.\n\nFinalmente, crea un panel que combine cobertura de indice, asignacion de rastreo y metricas de trafico organico. Incluye alertas para cambios repentinos.",
           items: [
@@ -466,12 +464,12 @@ export const facetedNavigationSeo: AcademyTopic = {
           tip: "Prima di implementare qualsiasi soluzione tecnica, mappa quali combinazioni di filtri corrispondono a domanda di ricerca reale. Usa strumenti di ricerca keyword per identificare query che corrispondono a combinazioni specifiche di faccette.",
           image: {
             src: "/images/academy/it/faceted-url-explosion-math.svg",
-            alt: "Visuelle Berechnung die zeigt wie 5 Filtergruppen mit mehreren Optionen sich zu ueber 19.200 crawlbaren URLs von einer einzigen Kategorieseite multiplizieren",
-            caption: "Eine einzelne Kategorieseite mit Marken-, Farb-, Groessen-, Preis- und Sortierfiltern kann durch kombinatorische Explosion ueber 19.200 crawlbare URLs erzeugen.",
+            alt: "Calcolo visivo che mostra come 5 gruppi di filtri con più opzioni si moltiplicano per creare oltre 19.200 URL scansionabili da una pagina a singola categoria",
+            caption: "Una pagina a singola categoria con filtri di marca, colore, dimensione, prezzo e ordinamento può generare oltre 19.200 URL scansionabili attraverso l'esplosione combinatoria.",
           },
           callout: {
             title: "URL-Explosions-Ausmass",
-            text: "10 Marken x 12 Farben x 8 Groessen x 5 Preisbereiche x 4 Sortierreihenfolgen = 19.200 URLs von EINER Kategorie. Mit aktivierter Mehrfachauswahl waechst dies auf Millionen.",
+            text: "10 marchi x 12 colori x 8 taglie x 5 fasce di prezzo x 4 ordinamenti = 19.200 URL da UNA categoria. Con la selezione multipla abilitata, il numero arriva a milioni.",
           },
         },
         {
@@ -514,12 +512,12 @@ export const facetedNavigationSeo: AcademyTopic = {
           tip: "Analizza le pagine filtro dei tuoi principali concorrenti per vedere quale contenuto includono. Molti siti ecommerce leader aggiungono storie di brand, guide alle taglie e FAQ alle loro pagine di atterraggio filtro.",
           image: {
             src: "/images/academy/it/faceted-nav-tier-strategy.svg",
-            alt: "Dreistufiges Klassifizierungssystem fuer facettierte Navigation das zeigt welche Filter indexiert, vorsichtig behandelt oder vollstaendig blockiert werden",
-            caption: "Klassifizieren Sie jeden Filter in drei Stufen: nachgefragte Einzelfilter indexieren, Canonicals fuer mittlere Nachfrage verwenden und alles andere blockieren.",
+            alt: "Sistema di classificazione a tre livelli per la navigazione sfaccettata che mostra quali filtri indicizzare, trattare con cautela o bloccare completamente",
+            caption: "Classifica ogni filtro in tre livelli: indicizza i filtri singoli ad alta richiesta, utilizza i filtri canonici per i filtri a richiesta moderata e blocca tutto il resto.",
           },
           callout: {
             title: "Stufe-1-Goldstandard",
-            text: "Nachgefragte Marken- und Produkttypfilter (z.B. /schuhe/nike/) verdienen saubere URLs, einzigartige H1-Tags, individuelle Meta-Beschreibungen und Einleitungstexte. Diese Seiten koennen genauso gut ranken wie jede Kategorieseite.",
+            text: "I filtri per marchi e tipi di prodotto molto richiesti (ad esempio /scarpe/nike/) meritano URL puliti, tag H1 univoci, meta descrizioni personalizzate e contenuti introduttivi. Queste pagine possono essere classificate allo stesso modo di qualsiasi pagina di categoria",
           },
         },
         {
@@ -576,12 +574,12 @@ export const facetedNavigationSeo: AcademyTopic = {
           tip: "Voordat je een technische oplossing implementeert, breng in kaart welke filtercombinaties overeenkomen met echte zoekvraag. Gebruik keyword-researchtools om zoekopdrachten te identificeren die overeenkomen met specifieke facetcombinaties.",
           image: {
             src: "/images/academy/nl/faceted-url-explosion-math.svg",
-            alt: "Visuelle Berechnung die zeigt wie 5 Filtergruppen mit mehreren Optionen sich zu ueber 19.200 crawlbaren URLs von einer einzigen Kategorieseite multiplizieren",
-            caption: "Eine einzelne Kategorieseite mit Marken-, Farb-, Groessen-, Preis- und Sortierfiltern kann durch kombinatorische Explosion ueber 19.200 crawlbare URLs erzeugen.",
+            alt: "Visuele berekening die laat zien hoe vijf filtergroepen met meerdere opties zich vermenigvuldigen om meer dan 19.200 crawlbare URL's te creëren vanaf één categoriepagina",
+            caption: "Eén categoriepagina met merk-, kleur-, maat-, prijs- en sorteerfilters kan via combinatorische explosie meer dan 19.200 crawlbare URL's genereren.",
           },
           callout: {
             title: "URL-Explosions-Ausmass",
-            text: "10 Marken x 12 Farben x 8 Groessen x 5 Preisbereiche x 4 Sortierreihenfolgen = 19.200 URLs von EINER Kategorie. Mit aktivierter Mehrfachauswahl waechst dies auf Millionen.",
+            text: "10 merken x 12 kleuren x 8 maten x 5 prijsklassen x 4 sorteervolgordes = 19.200 URL's uit ÉÉN categorie. Als multi-select is ingeschakeld, groeit dit tot miljoenen.",
           },
         },
         {
@@ -624,12 +622,12 @@ export const facetedNavigationSeo: AcademyTopic = {
           tip: "Analyseer de filterpagina's van je topconcurrenten om te zien welke content ze bevatten. Veel toonaangevende ecommerce-sites voegen merkverhalen, maatgidsen en veelgestelde vragen toe aan hun filter-landingspagina's.",
           image: {
             src: "/images/academy/nl/faceted-nav-tier-strategy.svg",
-            alt: "Dreistufiges Klassifizierungssystem fuer facettierte Navigation das zeigt welche Filter indexiert, vorsichtig behandelt oder vollstaendig blockiert werden",
-            caption: "Klassifizieren Sie jeden Filter in drei Stufen: nachgefragte Einzelfilter indexieren, Canonicals fuer mittlere Nachfrage verwenden und alles andere blockieren.",
+            alt: "Classificatiesysteem met drie niveaus voor gefacetteerde navigatie, waarbij wordt aangegeven welke filters moeten worden geïndexeerd, voorzichtig moeten worden behandeld of volledig moeten worden geblokkeerd",
+            caption: "Classificeer elk filter in drie niveaus: indexeer afzonderlijke filters met hoge vraag, gebruik canonieke filters voor filters met gemiddelde vraag en blokkeer al het andere.",
           },
           callout: {
             title: "Stufe-1-Goldstandard",
-            text: "Nachgefragte Marken- und Produkttypfilter (z.B. /schuhe/nike/) verdienen saubere URLs, einzigartige H1-Tags, individuelle Meta-Beschreibungen und Einleitungstexte. Diese Seiten koennen genauso gut ranken wie jede Kategorieseite.",
+            text: "Veelgevraagde merk- en producttypefilters (bijvoorbeeld /shoes/nike/) verdienen schone URL's, unieke H1-tags, aangepaste metabeschrijvingen en inleidende inhoud. Deze pagina's kunnen net zo goed scoren als elke categoriepagina",
           },
         },
         {

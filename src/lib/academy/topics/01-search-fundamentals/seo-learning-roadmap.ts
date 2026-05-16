@@ -204,8 +204,7 @@ export const seoLearningRoadmap: AcademyTopic = {
     fr: {
       badge: "Fondamentaux de la recherche",
       heading: "La feuille de route SEO pour l'ecommerce",
-      intro:
-        "La plupart des proprietaires de boutiques apprennent le SEO par fragments. Un article de blog ici, une video YouTube la, peut-etre une formation enregistree avant les trois dernieres mises a jour d'algorithme de Google. Cette feuille de route vous offre un parcours structure en neuf etapes, du debutant absolu a un processus SEO mensuel reproductible qui genere reellement du chiffre d'affaires.",
+      intro: "La plupart des proprietaires de boutiques apprennent le SEO par fragments. Un article de blog ici, une video YouTube la, peut-etre une formation enregistree avant les trois dernieres mises a jour d'algorithme de Google. Cette feuille de route vous offre un parcours structure en neuf étapes, du debutant absolu a un processus SEO mensuel reproductible qui genere reellement du chiffre d'affaires.",
       readTime: "12 min de lecture",
       sections: [
         {
@@ -220,11 +219,11 @@ export const seoLearningRoadmap: AcademyTopic = {
           ],
           callout: {
             title: "Wichtige Voraussetzung",
-            text: "Sie benötigen Zugang zum Backend Ihres Shops, zur Google Search Console und zu Google Analytics. Ohne diese können Sie weder diagnostizieren noch messen.",
+            text: "Vous avez besoin d'accéder au backend de votre boutique, de pouvoir installer des outils de suivi et de quelques heures par semaine pour la mise en œuvre. Lire sur le référencement sans faire le travail ne produit rien.",
           },
         },
         {
-          title: "Etapes 1 a 3 : Construire les fondations",
+          title: "Étapes 1 a 3 : Construire les fondations",
           content:
             "L'etape 1 consiste a comprendre comment Google fonctionne reellement pour l'ecommerce. Pas la version simplifiee, mais comment Googlebot decouvre les pages produits, pourquoi le budget de crawl compte quand vous avez 50 000 URLs, et ce que la file d'attente de rendu signifie pour les vitrines lourdes en JavaScript. Vous ne pouvez pas prendre de bonnes decisions SEO sans comprendre la mecanique. La plupart des boutiques que nous auditons ont des problemes techniques enracines dans une incomprehension fondamentale de la facon dont les moteurs de recherche traitent leurs pages.\n\nL'etape 2 est la mise en place de votre infrastructure de mesure. Cela signifie Google Search Console verifie et connecte, Google Analytics 4 configure avec le suivi ecommerce, et un audit de site complet avec un crawler comme Screaming Frog ou Sitebulb. Nous sommes entres dans des boutiques qui fonctionnaient depuis trois ans sans acces a la Search Console. Elles n'avaient aucune idee des pages indexees, des requetes generant du trafic ou de la capacite de Google a trouver la moitie de leur catalogue.\n\nL'etape 3 est votre premier audit technique. Vous lancez le crawler, exportez les donnees et identifiez les problemes principaux : pages cassees, titres manquants, meta descriptions dupliquees, pages orphelines sans liens internes et problemes de profondeur de crawl ou les produits sont a cinq clics ou plus de la page d'accueil. Cet audit devient votre backlog de projet pour les mois suivants.",
           items: [
@@ -237,12 +236,12 @@ export const seoLearningRoadmap: AcademyTopic = {
           tip: "Ne sautez pas l'audit. Nous avons vu des equipes passer directement a la [recherche de mots-cles](/academy/keyword-research-for-ecommerce) et passer des mois a optimiser des pages que Google n'indexait meme pas. Reparez la plomberie avant de redecorer.",
           image: {
             src: "/images/academy/fr/seo-learning-roadmap-stages.svg",
-            alt: "Zeitstrahldiagramm mit dem 9-stufigen Ecommerce-SEO-Lernpfad von der Suchmechanik bis zur Messung, mit Zeitschätzungen für jede Phase",
-            caption: "Die gesamte Roadmap erstreckt sich über 6+ Monate. Stufen 1-3 bilden Ihr Fundament. Stufen 8-9 sind fortlaufende Prozesse.",
+            alt: "Diagramme chronologique montrant le parcours d'apprentissage du référencement du commerce électronique en 9 étapes, depuis les mécanismes de recherche jusqu'à la mesure, avec des estimations de temps pour chaque phase",
+            caption: "La feuille de route complète s’étend sur plus de 6 mois. Les étapes 1 à 3 construisent vos fondations. Les étapes 8 à 9 sont des processus continus qui ne s'arrêtent jamais.",
           },
         },
         {
-          title: "Etapes 4 et 5 : Mots-cles et optimisation on-page",
+          title: "Étapes 4 et 5 : Mots-clés et optimisation on-page",
           content:
             "L'etape 4 est la recherche de mots-cles, et elle fonctionne differemment pour l'ecommerce que pour les blogs. Vous ne cherchez pas des requetes informationnelles a fort volume. Vous devez trouver les termes que les gens utilisent juste avant d'acheter. Cela signifie des mots-cles au niveau produit comme les noms de modeles specifiques et les recherches par SKU, des mots-cles de categorie qui correspondent a la facon dont les acheteurs naviguent, et des mots-cles modificateurs comme meilleur, moins cher ou avis qui signalent une intention commerciale.\n\nLe processus commence avec vos propres donnees. Extrayez les requetes de la Search Console qui generent deja du trafic. Verifiez quelles pages produits et categories sont positionnees pour quoi. Puis elargissez avec des outils de mots-cles pour trouver les lacunes, surtout les mots-cles de categorie pour lesquels vos concurrents se positionnent mais pas vous. Triez tout par potentiel de chiffre d'affaires, pas seulement par volume de recherche. Un mot-cle avec 200 recherches mensuelles et un CPC de 4 EUR vaut souvent plus qu'un mot-cle avec 5 000 recherches et un CPC de 0,10 EUR.\n\nL'etape 5 est l'application de ces mots-cles a vos pages. L'optimisation des pages produits signifie des title tags uniques, des descriptions structurees allant au-dela du texte du fabricant, une hierarchie de titres correcte et des textes alternatifs d'images incluant des termes de recherche pertinents sans bourrage de mots-cles. [L'optimisation des pages categories](/academy/category-page-seo) signifie rediger un texte d'introduction authentique ciblant votre mot-cle principal, ajouter des liens internes contextuels et s'assurer que vos titres de categories correspondent a ce que les gens recherchent reellement.",
           items: [
@@ -255,11 +254,11 @@ export const seoLearningRoadmap: AcademyTopic = {
           tip: "Assignez un mot-cle principal par page. Quand deux pages ciblent le meme terme, Google doit choisir laquelle positionner, et il ne choisit souvent aucune des deux. La cannibalisation est l'un des problemes les plus courants que nous voyons dans les audits de boutiques.",
           callout: {
             title: "Umsatz vor Volumen",
-            text: "Ein Keyword mit 200 monatlichen Suchen und 4\u00a0EUR CPC ist oft wertvoller als eines mit 5.000 Suchen und 0,10\u00a0EUR CPC. Sortieren Sie Ihre Keyword-Liste nach Umsatzpotenzial, nicht nach reinem Suchvolumen.",
+            text: "Un mot clé avec 200 recherches mensuelles et un CPC de 4 EUR vaut souvent plus qu'un mot clé avec 5 000 recherches et un CPC de 0,10 EUR. Triez votre liste de mots clés par potentiel de revenus et non par volume de recherche brut.",
           },
         },
         {
-          title: "Etapes 6 et 7 : SEO technique et strategie de contenu",
+          title: "Étapes 6 et 7 : SEO technique et stratégie de contenu",
           content:
             "L'etape 6 approfondit le cote technique. L'architecture du site est le point majeur pour l'ecommerce. Votre hierarchie de categories devrait refeter la facon dont les clients achevent et dont Google comprend la pertinence thematique. Les architectures plates ou chaque produit est a un clic de la page d'accueil semblent geniales en theorie, mais elles creent des pages avec des centaines de liens qui diluent l'autorite. Les architectures profondes ou les produits se trouvent derriere quatre couches de sous-categories enterrent les pages importantes. Le point ideal est generalement de deux a trois clics de la page d'accueil au produit.\n\nLa vitesse de chargement n'est pas negociable a cette etape. Les sites ecommerce tendent a etre charges d'images et bourres de scripts tiers pour les avis, widgets de chat et pixels de suivi. Lancez des verifications Core Web Vitals sur vos templates cles : page d'accueil, page categorie, page produit et panier. Corrigez les plus gros problemes en premier, generalement les images non optimisees et le JavaScript bloquant le rendu. Les donnees structurees appartiennent aussi a cette etape. Le schema Produit, le schema Breadcrumb et le schema FAQ aident Google a comprendre vos pages et peuvent vous obtenir des resultats enrichis qui ameliorent les taux de clics.\n\nL'etape 7 passe au contenu. Chaque boutique a besoin de contenu qui n'est pas directement transactionnel. Les guides d'achat, les comparatifs, les articles pratiques et le contenu pedagogique servent deux objectifs : ils captent les acheteurs plus tot dans la phase de recherche, et ils attirent des backlinks d'autres sites d'une maniere que les pages produits ne peuvent tout simplement pas. Une boutique de chaussures de course devrait avoir du contenu sur le choix du bon type de chaussure, les plans d'entrainement et la prevention des blessures. Ce contenu cree des liens internes vers les pages produits et categories, transmettant l'autorite la ou elle compte.",
           items: [
@@ -271,7 +270,7 @@ export const seoLearningRoadmap: AcademyTopic = {
           ],
         },
         {
-          title: "Etapes 8 et 9 : Link building et mesure des resultats",
+          title: "Étapes 8 et 9 : Link building et mesure des resultats",
           content:
             "L'etape 8 est celle ou la plupart des equipes ecommerce sont bloquees. Le link building pour les boutiques en ligne est difficile parce que les pages produits attirent rarement des liens naturels. Vous avez besoin de strategies construites autour de votre contenu et de votre marque. Les RP digitales fonctionnent bien : des recherches originales, des etudes de donnees sur votre industrie ou des lancements de produits mediatiques peuvent obtenir une couverture de journalistes et blogueurs. Les relations avec les fournisseurs et fabricants peuvent mener a des liens depuis des pages de marque. Les contributions en tant qu'invite dans des publications sectorielles construisent autorite et trafic referent simultanement.\n\nL'approche qui fonctionne le mieux a long terme est de creer des ressources genuinement utiles vers lesquelles les gens font des liens parce qu'elles resolvent un probleme. Un magasin de meubles qui publie un guide detaille de mesure de pieces obtiendra des liens de blogs de design d'interieur, de forums de renovation et d'etudiants en architecture. Ces liens transmettent de l'autorite a l'ensemble du domaine, elevant les pages produits au passage. Evitez d'acheter des liens, de participer a des schemas de liens ou de soumettre en masse a des annuaires. La detection de spam de Google est devenue extremement performante, et le risque de penalite depasse largement les gains a court terme.\n\nL'etape 9 est la construction d'un systeme de mesure et de reporting qui vous tient responsable. Suivez le chiffre d'affaires organique comme KPI principal, pas seulement les positions ou le trafic. Mettez en place un rythme de reporting mensuel couvrant les sessions organiques, le revenu de la recherche organique, les changements de positions des mots-cles, les nouvelles pages indexees et les backlinks acquis. L'objectif est de transformer le SEO d'un projet ponctuel en un processus mensuel reproductible avec des entrees claires et des resultats mesurables. Pour une vue d'ensemble complète de ces principes, commencez par notre guide pilier sur le [SEO e-commerce](/blog/ecommerce-seo).",
           items: [
@@ -289,8 +288,8 @@ export const seoLearningRoadmap: AcademyTopic = {
             "La plus grande erreur des equipes avec une feuille de route comme celle-ci est d'essayer de tout faire en meme temps. Les etapes 1 a 3 devraient prendre quatre a six semaines. Les etapes 4 et 5 necessitent quatre a six semaines supplementaires. Les etapes 6 et 7 se deroulent en parallele sur deux a trois mois. Les etapes 8 et 9 sont continues et ne finissent jamais vraiment. Si vous essayez de tout compresser en un seul mois, vous couperez les coins sur les fondations et passerez l'annee suivante a corriger les consequences.\n\nPriorisez selon l'impact. Si votre audit de site revele que 40 % de vos pages produits retournent des erreurs 404, corriger cela passe avant la recherche de mots-cles. Si vos pages categories se positionnent deja en page deux pour des termes precieux, l'optimisation on-page fera bouger les choses plus vite que de lancer un blog. Laissez les donnees guider la sequence, pas une checklist generique.\n\nEnfin, acceptez que les resultats SEO prennent du temps. Vous ne verrez pas de croissance significative du chiffre d'affaires organique avant trois a six mois apres le demarrage. C'est normal. Les boutiques qui reussissent sont celles qui s'engagent dans le processus, executent de maniere constante et resistent a la tentation d'abandonner le plan quand les resultats ne sont pas immediats. Apres douze mois d'execution disciplinee, la recherche organique devient typiquement le canal au meilleur ROI du mix marketing.",
           image: {
             src: "/images/academy/fr/seo-roadmap-priority.svg",
-            alt: "Entscheidungsbaum zur Priorisierung von SEO-Arbeit basierend auf Audit-Ergebnissen",
-            caption: "Lassen Sie Ihre Audit-Daten die Reihenfolge bestimmen. Beheben Sie die größten Blocker zuerst.",
+            alt: "Arbre de décision montrant comment hiérarchiser le travail de référencement en fonction des résultats de l'audit : résoudre d'abord les problèmes techniques, puis optimiser le classement sur la deuxième page, puis créer du contenu pour l'autorité",
+            caption: "Laissez vos données d’audit guider la séquence. Corrigez d’abord les plus gros bloqueurs, pas les tâches les plus faciles.",
           },
         },
       ],
@@ -302,8 +301,7 @@ export const seoLearningRoadmap: AcademyTopic = {
     es: {
       badge: "Fundamentos de busqueda",
       heading: "La hoja de ruta para aprender SEO en ecommerce",
-      intro:
-        "La mayoria de los propietarios de tiendas aprenden SEO de forma fragmentada. Un articulo de blog aqui, un video de YouTube alla, quiza un curso grabado antes de las ultimas tres actualizaciones de algoritmo de Google. Esta hoja de ruta te da un camino estructurado a traves de nueve etapas, desde principiante absoluto hasta ejecutar un proceso SEO mensual repetible que realmente mueve ingresos.",
+      intro: "La mayoria de los propietarios de tiendas aprenden SEO de forma fragmentada. Un artículo de blog aqui, un video de YouTube alla, quiza un curso grabado antes de las últimas tres actualizaciones de algoritmo de Google. Esta hoja de ruta te da un camino estructurado a traves de nueve etapas, desde principiante absoluto hasta ejecutar un proceso SEO mensual repetible que realmente mueve ingresos.",
       readTime: "12 min de lectura",
       sections: [
         {
@@ -318,13 +316,13 @@ export const seoLearningRoadmap: AcademyTopic = {
           ],
           callout: {
             title: "Wichtige Voraussetzung",
-            text: "Sie benötigen Zugang zum Backend Ihres Shops, zur Google Search Console und zu Google Analytics. Ohne diese können Sie weder diagnostizieren noch messen.",
+            text: "Necesita acceso al backend de su tienda, la capacidad de instalar herramientas de seguimiento y unas pocas horas a la semana para la implementación. Leer sobre SEO sin hacer el trabajo no produce nada.",
           },
         },
         {
           title: "Etapas 1 a 3: Construir los cimientos",
           content:
-            "La etapa 1 es entender como funciona realmente Google para ecommerce. No la version simplificada, sino como Googlebot descubre paginas de producto, por que el presupuesto de rastreo importa cuando tienes 50.000 URLs, y que significa la cola de renderizado para storefronts con mucho JavaScript. No puedes tomar buenas decisiones de SEO sin entender la mecanica. La mayoria de las tiendas que auditamos tienen problemas tecnicos arraigados en una incomprension fundamental de como los motores de busqueda procesan sus paginas.\n\nLa etapa 2 es configurar tu infraestructura de medicion. Eso significa Google Search Console verificada y conectada, Google Analytics 4 configurado con seguimiento de ecommerce, y una auditoria de sitio adecuada usando un crawler como Screaming Frog o Sitebulb. Hemos encontrado tiendas que llevaban tres anos funcionando sin acceso a Search Console. No tenian idea de que paginas estaban indexadas, que consultas generaban trafico o si Google estaba encontrando siquiera la mitad de su catalogo.\n\nLa etapa 3 es tu primera auditoria tecnica. Ejecutas el crawler, exportas los datos e identificas los problemas principales: paginas rotas, titulos faltantes, meta descripciones duplicadas, paginas huerfanas sin enlaces internos y problemas de profundidad de rastreo donde los productos estan a cinco o mas clics de la pagina de inicio. Esta auditoria se convierte en tu backlog de proyecto para los proximos meses.",
+            "La etapa 1 es entender como funciona realmente Google para ecommerce. No la version simplificada, sino como Googlebot descubre paginas de producto, por que el presupuesto de rastreo importa cuando tienes 50.000 URLs, y que significa la cola de renderizado para storefronts con mucho JavaScript. No puedes tomar buenas decisiones de SEO sin entender la mecanica. La mayoria de las tiendas que auditamos tienen problemas tecnicos arraigados en una incomprension fundamental de como los motores de busqueda procesan sus paginas.\n\nLa etapa 2 es configurar tu infraestructura de medicion. Eso significa Google Search Console verificada y conectada, Google Analytics 4 configurado con seguimiento de ecommerce, y una auditoria de sitio adecuada usando un crawler como Screaming Frog o Sitebulb. Hemos encontrado tiendas que llevaban tres años funcionando sin acceso a Search Console. No tenian idea de que paginas estaban indexadas, que consultas generaban trafico o si Google estaba encontrando siquiera la mitad de su catalogo.\n\nLa etapa 3 es tu primera auditoria tecnica. Ejecutas el crawler, exportas los datos e identificas los problemas principales: paginas rotas, titulos faltantes, meta descripciones duplicadas, paginas huerfanas sin enlaces internos y problemas de profundidad de rastreo donde los productos estan a cinco o mas clics de la pagina de inicio. Esta auditoria se convierte en tu backlog de proyecto para los proximos meses.",
           items: [
             "Aprende como Googlebot descubre, rastrea, renderiza e indexa paginas de tienda",
             "Configura y verifica Google Search Console para tu dominio",
@@ -335,12 +333,12 @@ export const seoLearningRoadmap: AcademyTopic = {
           tip: "No te saltes la auditoria. Hemos visto equipos saltar directamente a la investigacion de palabras clave y pasar meses optimizando paginas que Google ni siquiera estaba indexando. Arregla las tuberias antes de redecorar.",
           image: {
             src: "/images/academy/es/seo-learning-roadmap-stages.svg",
-            alt: "Zeitstrahldiagramm mit dem 9-stufigen Ecommerce-SEO-Lernpfad von der Suchmechanik bis zur Messung, mit Zeitschätzungen für jede Phase",
-            caption: "Die gesamte Roadmap erstreckt sich über 6+ Monate. Stufen 1-3 bilden Ihr Fundament. Stufen 8-9 sind fortlaufende Prozesse.",
+            alt: "Diagrama de línea de tiempo que muestra la ruta de aprendizaje de SEO de comercio electrónico de 9 etapas, desde la mecánica de búsqueda hasta la medición, con estimaciones de tiempo para cada fase.",
+            caption: "La hoja de ruta completa abarca más de 6 meses. Las etapas 1 a 3 construyen sus cimientos. Las etapas 8 y 9 son procesos continuos que nunca se detienen.",
           },
         },
         {
-          title: "Etapas 4 y 5: Palabras clave y optimizacion on-page",
+          title: "Etapas 4 y 5: Palabras clave y optimización on-page",
           content:
             "La etapa 4 es la [investigacion de palabras clave](/academy/keyword-research-for-ecommerce), y funciona de forma diferente para ecommerce que para blogs. No buscas consultas informativas con alto volumen. Necesitas encontrar los terminos que la gente usa justo antes de comprar. Eso significa palabras clave a nivel de producto como nombres de modelos especificos y busquedas por SKU, palabras clave de categoria que coincidan con como navegan los compradores, y palabras clave modificadoras como mejor, mas barato o opiniones que senalan intencion comercial.\n\nEl proceso empieza con tus propios datos. Extrae las consultas de Search Console que ya generan trafico. Revisa que paginas de producto y categoria se posicionan para que. Luego expande hacia afuera con herramientas de palabras clave para encontrar vacios, especialmente palabras clave de categoria para las que tus competidores se posicionan pero tu no. Ordena todo por potencial de ingresos, no solo por volumen de busqueda. Una palabra clave con 200 busquedas mensuales y un CPC de 4 EUR a menudo vale mas que una con 5.000 busquedas y 0,10 EUR de CPC.\n\nLa etapa 5 es aplicar esas palabras clave a tus paginas. La optimizacion de paginas de producto significa title tags unicos, descripciones estructuradas que van mas alla del texto del fabricante, jerarquia de encabezados correcta y texto alternativo de imagenes que incluya terminos de busqueda relevantes sin relleno de palabras clave. La [optimizacion de paginas de categoria](/academy/category-page-seo) significa escribir un texto introductorio genuino que apunte a tu palabra clave principal, anadir enlaces internos contextuales y asegurarte de que tus titulos de categoria coincidan con lo que la gente realmente busca.",
           items: [
@@ -353,11 +351,11 @@ export const seoLearningRoadmap: AcademyTopic = {
           tip: "Asigna una palabra clave principal por pagina. Cuando dos paginas apuntan al mismo termino, Google tiene que elegir cual posicionar, y a menudo no elige ninguna. La canibalizacion es uno de los problemas mas comunes que vemos en auditorias de tiendas.",
           callout: {
             title: "Umsatz vor Volumen",
-            text: "Ein Keyword mit 200 monatlichen Suchen und 4\u00a0EUR CPC ist oft wertvoller als eines mit 5.000 Suchen und 0,10\u00a0EUR CPC. Sortieren Sie Ihre Keyword-Liste nach Umsatzpotenzial, nicht nach reinem Suchvolumen.",
+            text: "Una palabra clave con 200 búsquedas mensuales y 4 EUR de CPC suele valer más que una con 5.000 búsquedas y 0,10 EUR de CPC. Ordene su lista de palabras clave por potencial de ingresos, no por volumen de búsqueda sin procesar.",
           },
         },
         {
-          title: "Etapas 6 y 7: SEO tecnico y estrategia de contenido",
+          title: "Etapas 6 y 7: SEO técnico y estrategia de contenido",
           content:
             "La etapa 6 profundiza en el lado tecnico. La arquitectura del sitio es el punto grande para ecommerce. Tu jerarquia de categorias deberia reflejar como compran los clientes y como Google entiende la relevancia tematica. Las arquitecturas planas donde cada producto esta a un clic de la pagina de inicio suenan genial en teoria, pero crean paginas con cientos de enlaces que diluyen la autoridad. Las arquitecturas profundas donde los productos estan detras de cuatro capas de subcategorias entierran paginas importantes. El punto ideal suele ser de dos a tres clics desde la pagina de inicio hasta el producto.\n\nLa velocidad de pagina no es negociable en esta etapa. Los sitios de ecommerce tienden a estar cargados de imagenes y llenos de scripts de terceros para resenas, widgets de chat y pixeles de seguimiento. Ejecuta comprobaciones de Core Web Vitals en tus templates clave: pagina de inicio, pagina de categoria, pagina de producto y carrito. Corrige los mayores problemas primero, normalmente imagenes sin optimizar y JavaScript que bloquea el renderizado. Los datos estructurados tambien pertenecen aqui. El schema de Producto, el schema de Breadcrumb y el schema de FAQ ayudan a Google a entender tus paginas y pueden conseguirte resultados enriquecidos que mejoran las tasas de clics.\n\nLa etapa 7 pasa al contenido. Toda tienda necesita contenido que no sea directamente transaccional. Guias de compra, comparativas, articulos practicos y contenido educativo sirven dos propositos: captan compradores antes en la fase de investigacion, y atraen backlinks de otros sitios de formas que las paginas de producto simplemente no pueden. Una tienda de zapatillas de running deberia tener contenido sobre elegir el tipo correcto de zapatilla, planes de entrenamiento y prevencion de lesiones. Este contenido enlaza internamente a paginas de producto y categoria, pasando autoridad donde importa.",
           items: [
@@ -384,11 +382,11 @@ export const seoLearningRoadmap: AcademyTopic = {
         {
           title: "Hacer funcionar esta hoja de ruta en la practica",
           content:
-            "El mayor error que cometen los equipos con una hoja de ruta como esta es intentar hacerlo todo a la vez. Las etapas 1 a 3 deberian llevar de cuatro a seis semanas. Las etapas 4 y 5 necesitan otras cuatro a seis semanas. Las etapas 6 y 7 se ejecutan en paralelo durante dos a tres meses. Las etapas 8 y 9 son continuas y nunca terminan realmente. Si intentas comprimir todo esto en un solo mes, recortaras en los cimientos y pasaras el proximo ano arreglando las consecuencias.\n\nPrioriza segun el impacto. Si tu auditoria de sitio revela que el 40 % de tus paginas de producto devuelven errores 404, arreglar eso va antes que la investigacion de palabras clave. Si tus paginas de categoria ya se posicionan en la segunda pagina para terminos valiosos, la optimizacion on-page movera la aguja mas rapido que empezar un blog. Deja que los datos guien la secuencia, no una checklist generica.\n\nFinalmente, acepta que los resultados SEO llevan tiempo. No veras crecimiento significativo de ingresos organicos durante tres a seis meses despues de empezar. Eso es normal. Las tiendas que tienen exito son las que se comprometen con el proceso, ejecutan de forma consistente y resisten la tentacion de abandonar el plan cuando los resultados no son inmediatos. Despues de doce meses de ejecucion disciplinada, la busqueda organica se convierte tipicamente en el canal con mayor ROI del mix de marketing.",
+            "El mayor error que cometen los equipos con una hoja de ruta como esta es intentar hacerlo todo a la vez. Las etapas 1 a 3 deberian llevar de cuatro a seis semanas. Las etapas 4 y 5 necesitan otras cuatro a seis semanas. Las etapas 6 y 7 se ejecutan en paralelo durante dos a tres meses. Las etapas 8 y 9 son continuas y nunca terminan realmente. Si intentas comprimir todo esto en un solo mes, recortaras en los cimientos y pasaras el proximo año arreglando las consecuencias.\n\nPrioriza segun el impacto. Si tu auditoria de sitio revela que el 40 % de tus paginas de producto devuelven errores 404, arreglar eso va antes que la investigacion de palabras clave. Si tus paginas de categoria ya se posicionan en la segunda pagina para terminos valiosos, la optimizacion on-page movera la aguja mas rapido que empezar un blog. Deja que los datos guien la secuencia, no una checklist generica.\n\nFinalmente, acepta que los resultados SEO llevan tiempo. No veras crecimiento significativo de ingresos organicos durante tres a seis meses despues de empezar. Eso es normal. Las tiendas que tienen exito son las que se comprometen con el proceso, ejecutan de forma consistente y resisten la tentacion de abandonar el plan cuando los resultados no son inmediatos. Despues de doce meses de ejecucion disciplinada, la busqueda organica se convierte tipicamente en el canal con mayor ROI del mix de marketing.",
           image: {
             src: "/images/academy/es/seo-roadmap-priority.svg",
-            alt: "Entscheidungsbaum zur Priorisierung von SEO-Arbeit basierend auf Audit-Ergebnissen",
-            caption: "Lassen Sie Ihre Audit-Daten die Reihenfolge bestimmen. Beheben Sie die größten Blocker zuerst.",
+            alt: "Árbol de decisiones que muestra cómo priorizar el trabajo de SEO en función de los resultados de la auditoría: primero solucione los problemas técnicos, luego optimice las clasificaciones de la página dos y luego cree contenido para la autoridad.",
+            caption: "Deje que los datos de su auditoría guíen la secuencia. Solucione primero los obstáculos más importantes, no las tareas más fáciles.",
           },
         },
       ],
@@ -416,7 +414,7 @@ export const seoLearningRoadmap: AcademyTopic = {
           ],
           callout: {
             title: "Wichtige Voraussetzung",
-            text: "Sie benötigen Zugang zum Backend Ihres Shops, zur Google Search Console und zu Google Analytics. Ohne diese können Sie weder diagnostizieren noch messen.",
+            text: "Hai bisogno dell'accesso al backend del tuo negozio, della possibilità di installare strumenti di monitoraggio e di alcune ore settimanali per l'implementazione. Leggere di SEO senza fare il lavoro non produce nulla.",
           },
         },
         {
@@ -433,8 +431,8 @@ export const seoLearningRoadmap: AcademyTopic = {
           tip: "Non saltare l'audit. Abbiamo visto team passare direttamente alla [ricerca keyword](/academy/keyword-research-for-ecommerce) e passare mesi a ottimizzare pagine che Google non stava nemmeno indicizzando. Ripara l'impianto prima di ridecorare.",
           image: {
             src: "/images/academy/it/seo-learning-roadmap-stages.svg",
-            alt: "Zeitstrahldiagramm mit dem 9-stufigen Ecommerce-SEO-Lernpfad von der Suchmechanik bis zur Messung, mit Zeitschätzungen für jede Phase",
-            caption: "Die gesamte Roadmap erstreckt sich über 6+ Monate. Stufen 1-3 bilden Ihr Fundament. Stufen 8-9 sind fortlaufende Prozesse.",
+            alt: "Diagramma della sequenza temporale che mostra il percorso di apprendimento SEO dell'e-commerce in 9 fasi, dai meccanismi di ricerca alla misurazione, con stime temporali per ciascuna fase",
+            caption: "La tabella di marcia completa copre oltre 6 mesi. Le fasi 1-3 costruiscono le tue fondamenta. Le fasi 8-9 sono processi continui che non si fermano mai.",
           },
         },
         {
@@ -451,7 +449,7 @@ export const seoLearningRoadmap: AcademyTopic = {
           tip: "Assegna una keyword principale per pagina. Quando due pagine puntano allo stesso termine, Google deve scegliere quale posizionare, e spesso non sceglie nessuna delle due. La cannibalizzazione e uno dei problemi piu comuni che vediamo negli audit dei negozi.",
           callout: {
             title: "Umsatz vor Volumen",
-            text: "Ein Keyword mit 200 monatlichen Suchen und 4\u00a0EUR CPC ist oft wertvoller als eines mit 5.000 Suchen und 0,10\u00a0EUR CPC. Sortieren Sie Ihre Keyword-Liste nach Umsatzpotenzial, nicht nach reinem Suchvolumen.",
+            text: "Una parola chiave con 200 ricerche mensili e 4 euro CPC spesso vale più di una con 5.000 ricerche e 0,10 euro CPC. Ordina l'elenco di parole chiave in base al potenziale di guadagno, non al volume di ricerca grezzo.",
           },
         },
         {
@@ -485,8 +483,8 @@ export const seoLearningRoadmap: AcademyTopic = {
             "L'errore piu grande che i team commettono con una roadmap come questa e cercare di fare tutto contemporaneamente. Le fasi 1-3 dovrebbero richiedere da quattro a sei settimane. Le fasi 4 e 5 necessitano di altre quattro-sei settimane. Le fasi 6 e 7 si svolgono in parallelo per due-tre mesi. Le fasi 8 e 9 sono continue e non finiscono mai davvero. Se provi a comprimere tutto questo in un singolo mese, taglierai le fondamenta e passerai l'anno successivo a correggere le conseguenze.\n\nDai priorita in base all'impatto. Se il tuo audit del sito rivela che il 40% delle tue pagine prodotto restituisce errori 404, correggere quello viene prima della ricerca keyword. Se le tue pagine categoria si posizionano gia in seconda pagina per termini di valore, l'ottimizzazione on-page fara muovere l'ago piu velocemente che avviare un blog. Lascia che i dati guidino la sequenza, non una checklist generica.\n\nInfine, accetta che i risultati SEO richiedono tempo. Non vedrai una crescita significativa del fatturato organico per tre-sei mesi dopo l'inizio. E normale. I negozi che hanno successo sono quelli che si impegnano nel processo, eseguono con costanza e resistono alla tentazione di abbandonare il piano quando i risultati non sono immediati. Dopo dodici mesi di esecuzione disciplinata, la ricerca organica diventa tipicamente il canale con il miglior ROI nel marketing mix.",
           image: {
             src: "/images/academy/it/seo-roadmap-priority.svg",
-            alt: "Entscheidungsbaum zur Priorisierung von SEO-Arbeit basierend auf Audit-Ergebnissen",
-            caption: "Lassen Sie Ihre Audit-Daten die Reihenfolge bestimmen. Beheben Sie die größten Blocker zuerst.",
+            alt: "Albero decisionale che mostra come dare priorità al lavoro SEO in base ai risultati dell'audit: risolvere prima i problemi tecnici, quindi ottimizzare le classifiche della seconda pagina, quindi creare contenuti autorevoli",
+            caption: "Lascia che i tuoi dati di audit guidino la sequenza. Risolvi prima gli ostacoli più grandi, non i compiti più semplici.",
           },
         },
       ],
@@ -514,7 +512,7 @@ export const seoLearningRoadmap: AcademyTopic = {
           ],
           callout: {
             title: "Wichtige Voraussetzung",
-            text: "Sie benötigen Zugang zum Backend Ihres Shops, zur Google Search Console und zu Google Analytics. Ohne diese können Sie weder diagnostizieren noch messen.",
+            text: "Je hebt toegang nodig tot de backend van je winkel, de mogelijkheid om trackingtools te installeren en een paar uur per week voor implementatie. Lezen over SEO zonder het werk te doen levert niets op.",
           },
         },
         {
@@ -531,8 +529,8 @@ export const seoLearningRoadmap: AcademyTopic = {
           tip: "Sla de audit niet over. We hebben teams gezien die direct naar zoekwoordonderzoek sprongen en maanden besteedden aan het optimaliseren van pagina's die Google niet eens indexeerde. Repareer de leidingen voor je gaat verven.",
           image: {
             src: "/images/academy/nl/seo-learning-roadmap-stages.svg",
-            alt: "Zeitstrahldiagramm mit dem 9-stufigen Ecommerce-SEO-Lernpfad von der Suchmechanik bis zur Messung, mit Zeitschätzungen für jede Phase",
-            caption: "Die gesamte Roadmap erstreckt sich über 6+ Monate. Stufen 1-3 bilden Ihr Fundament. Stufen 8-9 sind fortlaufende Prozesse.",
+            alt: "Tijdlijndiagram dat het 9-fasen SEO-leertraject voor e-commerce toont, van zoekmechanisme tot meting, met tijdschattingen voor elke fase",
+            caption: "Het volledige stappenplan beslaat meer dan 6 maanden. Fasen 1-3 bouwen je fundament. Fasen 8-9 zijn voortdurende processen die nooit stoppen.",
           },
         },
         {
@@ -549,7 +547,7 @@ export const seoLearningRoadmap: AcademyTopic = {
           tip: "Wijs een primair zoekwoord per pagina toe. Wanneer twee pagina's op dezelfde term mikken, moet Google kiezen welke moet ranken, en kiest het vaak geen van beide. Kannibalisatie is een van de meest voorkomende problemen die we zien in webshop-audits.",
           callout: {
             title: "Umsatz vor Volumen",
-            text: "Ein Keyword mit 200 monatlichen Suchen und 4\u00a0EUR CPC ist oft wertvoller als eines mit 5.000 Suchen und 0,10\u00a0EUR CPC. Sortieren Sie Ihre Keyword-Liste nach Umsatzpotenzial, nicht nach reinem Suchvolumen.",
+            text: "Een trefwoord met 200 maandelijkse zoekopdrachten en 4 EUR CPC is vaak meer waard dan één met 5.000 zoekopdrachten en 0,10 EUR CPC. Sorteer uw zoekwoordenlijst op omzetpotentieel, niet op ruw zoekvolume.",
           },
         },
         {
@@ -583,8 +581,8 @@ export const seoLearningRoadmap: AcademyTopic = {
             "De grootste fout die teams maken met een roadmap als deze is alles tegelijk proberen te doen. Fase 1 tot 3 zou vier tot zes weken moeten duren. Fase 4 en 5 hebben nog eens vier tot zes weken nodig. Fase 6 en 7 lopen parallel over twee tot drie maanden. Fase 8 en 9 zijn doorlopend en stoppen eigenlijk nooit. Als je probeert dit alles in een enkele maand te persen, bezuinig je op het fundament en besteed je het volgende jaar aan het herstellen van de gevolgen.\n\nPrioriteer op basis van impact. Als je site-audit onthult dat 40% van je productpagina's 404-fouten retourneren, heeft dat voorrang boven zoekwoordonderzoek. Als je categoriepagina's al op pagina twee staan voor waardevolle termen, zal on-page optimalisatie sneller resultaat opleveren dan een blog starten. Laat de data de volgorde bepalen, niet een generieke checklist.\n\nTot slot, accepteer dat SEO-resultaten tijd kosten. Je zult drie tot zes maanden na de start geen betekenisvolle organische omzetgroei zien. Dat is normaal. De webshops die slagen zijn degenen die zich aan het proces committeren, consistent uitvoeren en de verleiding weerstaan om het plan op te geven wanneer resultaten niet onmiddellijk komen. Na twaalf maanden gedisciplineerde uitvoering wordt organisch zoeken doorgaans het kanaal met het hoogste ROI in de marketingmix.",
           image: {
             src: "/images/academy/nl/seo-roadmap-priority.svg",
-            alt: "Entscheidungsbaum zur Priorisierung von SEO-Arbeit basierend auf Audit-Ergebnissen",
-            caption: "Lassen Sie Ihre Audit-Daten die Reihenfolge bestimmen. Beheben Sie die größten Blocker zuerst.",
+            alt: "Beslissingsboom die laat zien hoe u SEO-werk kunt prioriteren op basis van auditbevindingen: los eerst technische problemen op, optimaliseer vervolgens de ranglijst op pagina twee en bouw vervolgens inhoud voor autoriteit",
+            caption: "Laat uw auditgegevens de volgorde bepalen. Los eerst de grootste blokkades op, niet de gemakkelijkste taken.",
           },
         },
       ],

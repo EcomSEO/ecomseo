@@ -162,8 +162,7 @@ export const internalLinkingForStores: AcademyTopic = {
     fr: {
       badge: "SEO on-page",
       heading: "Maillage Interne pour les Boutiques",
-      intro:
-        "Le maillage interne est le tissu conjonctif de votre site e-commerce. Il distribue l'autorite des pages a travers votre catalogue, aide les moteurs de recherche a decouvrir et comprendre votre hierarchie de pages, et guide les acheteurs vers les produits qu'ils sont le plus susceptibles d'acheter. Contrairement aux backlinks, sur lesquels vous avez un controle limite, les liens internes sont entierement sous votre controle pour etre optimises. Un plan de maillage interne strategique peut ameliorer l'efficacite du crawl, booster les classements des pages profondes et augmenter le panier moyen simultanement. Pour une perspective plus large, consultez notre guide sur le [SEO e-commerce](/blog/ecommerce-seo).",
+      intro: "Le maillage interne est le tissu conjonctif de votre site e-commerce. Il distribue l'autorite des pages a travers votre catalogue, aide les moteurs de recherche a decouvrir et comprendre votre hierarchie de pages, et guide les acheteurs vers les produits qu'ils sont le plus susceptibles d'acheter. Contrairement aux backlinks, sur lesquels vous avez un contrôle limite, les liens internes sont entierement sous votre contrôle pour être optimises. Un plan de maillage interne strategique peut améliorer l'efficacite du crawl, booster les classements des pages profondes et augmenter le panier moyen simultanement. Pour une perspective plus large, consultez notre guide sur le [SEO e-commerce](/blog/ecommerce-seo).",
       readTime: "9 min de lecture",
       sections: [
         {
@@ -178,16 +177,16 @@ export const internalLinkingForStores: AcademyTopic = {
           ],
           image: {
             src: "/images/academy/fr/internal-link-authority-flow.svg",
-            alt: "Diagramm, das zeigt, wie interne Links Autorität von der Startseite über Kategorien zu Produktseiten verteilen",
-            caption: "Eine Produktseite mit 12 internen Links sammelt 5x mehr Autorität als eine mit nur 2 Links.",
+            alt: "Diagramme montrant comment les liens internes distribuent l'autorité depuis la page d'accueil via les catégories jusqu'aux pages de produits avec comparaison du nombre de liens",
+            caption: "Une page produit avec 12 liens internes accumule 5 fois plus d’autorité qu’une page avec seulement 2 liens, ce qui a un impact direct sur sa position dans le classement.",
           },
           callout: {
             title: "Linkanzahl vs. Ranking",
-            text: "Ein Produkt mit 12 internen Links rankt typischerweise in den Top 5. Das gleiche Produkt mit nur 2 Links sitzt oft jenseits von Position 30.",
+            text: "Un produit avec 12 liens internes provenant de la page d'accueil, de la catégorie, des articles de blog et des sections associées se classe généralement dans le top 5. Le même produit avec seulement 2 liens de sa catégorie parent se situe souvent au-delà.",
           },
         },
         {
-          title: "Maillage interne base sur la navigation",
+          title: "Maillage interne basé sur la navigation",
           content:
             "La navigation de votre site est le fondement de votre structure de maillage interne. Le menu de navigation principal, les liens du pied de page et la navigation laterale creent un reseau de liens permanent qui connecte chaque page de votre site a vos categories et pages d'atterrissage les plus importantes.\n\nLa navigation principale devrait refleter votre hierarchie de categories avec des regroupements logiques. Un mega menu qui affiche les categories, sous-categories et meme les produits vedettes cree des centaines de liens internes sur chaque page de votre site. Cependant, les mega menus peuvent aussi diluer l'autorite s'ils lient trop de pages. Limitez votre navigation principale a vos 50-80 pages de categories et sous-categories les plus importantes.\n\nLa navigation par fil d'Ariane est essentielle pour le maillage interne en e-commerce. Les fils d'Ariane creent un chemin de la page actuelle jusqu'a la page d'accueil a travers la hierarchie des categories : Accueil > Vetements Homme > Vestes > Vestes en Cuir. Chaque segment du fil d'Ariane est un lien interne qui renforce la relation hierarchique entre les pages.\n\nLes liens du pied de page offrent une opportunite de lier des pages qui ne rentrent pas dans la navigation principale mais qui sont importantes pour le SEO. Les informations de livraison, politiques de retour, guides des tailles et pages a propos beneficient des liens du pied de page. Cependant, evitez de bourrer le pied de page avec des centaines de liens -- Google devalue les blocs de liens de pied de page excessivement grands.",
           tip: "Implementez les donnees structurees de fil d'Ariane (schema BreadcrumbList) en plus de votre navigation par fil d'Ariane visible. Cela donne a Google une version lisible par machine de votre hierarchie de categories et peut resulter en un affichage ameliore du fil d'Ariane dans les resultats de recherche, ce qui ameliore le CTR.",
@@ -221,11 +220,11 @@ export const internalLinkingForStores: AcademyTopic = {
           ],
           callout: {
             title: "Ankertext-Balance",
-            text: "Mischen Sie Exact-Match-Keywords (40\u00a0%), Partial-Match-Variationen (30\u00a0%) und natürliche Phrasen (30\u00a0%) in Ihrem internen Ankertext.",
+            text: "Mélangez des mots-clés exacts (40 %), des variantes de correspondance partielle (30 %) et des expressions naturelles (30 %) dans votre texte d'ancrage interne. Utiliser un texte d'ancrage identique sur des centaines de liens semble manipulateur et réducteur.",
           },
         },
         {
-          title: "Auditer et mettre a l'echelle les liens internes",
+          title: "Auditer et mettre a l'échelle les liens internes",
           content:
             "Les audits de liens internes devraient etre une partie reguliere de votre maintenance SEO e-commerce. Commencez par crawler votre site avec Screaming Frog, Ahrefs ou Sitebulb pour generer un rapport de liens internes. Identifiez les pages orphelines -- celles avec zero ou tres peu de liens internes -- et priorisez l'ajout de liens vers elles depuis des pages pertinentes.\n\nAnalysez la distribution des liens internes sur votre site pour vous assurer que vos pages les plus importantes recoivent le plus de liens. Exportez le nombre de liens internes par page et comparez-le a la contribution en chiffre d'affaires ou a l'importance strategique de la page.\n\nPour les boutiques avec des milliers de produits, automatisez le maillage interne la ou c'est possible. Les algorithmes de produits lies, les sections \"recemment consultes\" et les fonctionnalites \"achetes ensemble\" creent des liens internes dynamiques qui evoluent avec votre catalogue. Cependant, ne comptez pas uniquement sur le maillage automatise -- les liens editoriaux manuels dans les articles de blog et les guides d'achat sont de meilleure qualite.\n\nMettez en place un processus pour maintenir les liens internes a mesure que votre catalogue evolue. Quand des produits sont abandonnes, assurez-vous que les liens internes pointant vers ces pages sont mis a jour ou que les pages redirigent correctement. Quand de nouveaux produits sont lances, ajoutez-les aux sections de produits lies, aux articles de blog pertinents et aux pages de categorie.\n\nSuivez l'impact des modifications de liens internes via Google Search Console. Surveillez les statistiques de crawl pour voir si Google decouvre et indexe plus de pages apres vos ameliorations de maillage. Notre [analyseur de liens internes](/tools/internal-link-analyzer) peut vous aider à repérer ces lacunes rapidement.",
           tip: "Construisez une checklist de maillage interne pour les lancements de produits. Chaque nouveau produit devrait recevoir des liens de sa page de categorie, d'au moins deux sections de produits lies et de tout article de blog ou guide d'achat pertinent. Integrer le maillage interne a votre workflow de lancement de produit empeche l'accumulation de pages orphelines dans votre catalogue.",
@@ -239,12 +238,11 @@ export const internalLinkingForStores: AcademyTopic = {
     es: {
       badge: "SEO on-page",
       heading: "Enlazado Interno para Tiendas",
-      intro:
-        "El enlazado interno es el tejido conectivo de tu sitio de ecommerce. Distribuye la autoridad de pagina a traves de tu catalogo, ayuda a los motores de busqueda a descubrir y entender tu jerarquia de paginas, y guia a los compradores hacia productos que tienen mas probabilidades de comprar. A diferencia de los backlinks, sobre los cuales tienes control limitado, los enlaces internos estan completamente bajo tu poder para optimizar. Un plan estrategico de enlazado interno puede mejorar la eficiencia de rastreo, impulsar los rankings de paginas profundas y aumentar el valor promedio de pedido simultaneamente. Para una perspectiva mas amplia, consulta nuestra guia de [SEO para ecommerce](/blog/ecommerce-seo).",
+      intro: "El enlazado interno es el tejido conectivo de tu sitio de ecommerce. Distribuye la autoridad de página a traves de tu catálogo, ayuda a los motores de busqueda a descubrir y entender tu jerarquia de páginas, y guia a los compradores hacia productos que tienen mas probabilidades de comprar. A diferencia de los backlinks, sobre los cuales tienes control limitado, los enlaces internos estan completamente bajo tu poder para optimizar. Un plan estrategico de enlazado interno puede mejorar la eficiencia de rastreo, impulsar los rankings de páginas profundas y aumentar el valor promedio de pedido simultaneamente. Para una perspectiva mas amplia, consulta nuestra guia de [SEO para ecommerce](/blog/ecommerce-seo).",
       readTime: "9 min de lectura",
       sections: [
         {
-          title: "Como los enlaces internos distribuyen autoridad en ecommerce",
+          title: "Cómo los enlaces internos distribuyen autoridad en ecommerce",
           content:
             "Cada pagina de tu sitio acumula autoridad de backlinks externos, busquedas de marca y senales de engagement de usuarios. Los enlaces internos son el mecanismo que distribuye esta autoridad a traves de tu tienda. Cuando tu pagina de inicio -- tipicamente tu pagina con mas autoridad -- enlaza a una pagina de categoria, le pasa una porcion de su autoridad. Cuando la categoria enlaza a productos individuales, la autoridad fluye mas abajo en la jerarquia. Sin enlazado interno deliberado, las paginas de productos profundas pueden quedar huerfanas.\n\nLos motores de busqueda usan los enlaces internos para entender la importancia relativa de las paginas dentro de tu sitio. Una pagina de producto que recibe enlaces internos de la pagina de inicio, su pagina de categoria, secciones de productos relacionados, publicaciones de blog y guias de compra senala a Google que es una pagina importante que merece rankings mas altos.\n\nEl concepto de distribucion de link equity significa que cada enlace interno que agregas o eliminas cambia el balance de autoridad en todo tu sitio. Agregar cincuenta enlaces internos a una sola pagina de producto concentra autoridad alli pero la diluye de otras paginas. El objetivo es una distribucion equilibrada que coincida con tus prioridades de negocio -- tus productos mas vendidos y categorias de mayor margen deberian recibir la mayor cantidad de enlaces internos.",
           items: [
@@ -255,22 +253,22 @@ export const internalLinkingForStores: AcademyTopic = {
           ],
           image: {
             src: "/images/academy/es/internal-link-authority-flow.svg",
-            alt: "Diagramm, das zeigt, wie interne Links Autorität von der Startseite über Kategorien zu Produktseiten verteilen",
-            caption: "Eine Produktseite mit 12 internen Links sammelt 5x mehr Autorität als eine mit nur 2 Links.",
+            alt: "Diagrama que muestra cómo los enlaces internos distribuyen la autoridad desde la página de inicio a través de categorías hasta las páginas de productos con comparación del número de enlaces.",
+            caption: "Una página de producto con 12 enlaces internos acumula 5 veces más autoridad que una con solo 2 enlaces, lo que afecta directamente su posición en el ranking.",
           },
           callout: {
             title: "Linkanzahl vs. Ranking",
-            text: "Ein Produkt mit 12 internen Links rankt typischerweise in den Top 5. Das gleiche Produkt mit nur 2 Links sitzt oft jenseits von Position 30.",
+            text: "Un producto con 12 enlaces internos desde la página de inicio, categoría, publicaciones de blog y secciones relacionadas normalmente se ubica entre los 5 primeros. El mismo producto con solo 2 enlaces de su categoría principal a menudo se ubica detrás.",
           },
         },
         {
-          title: "Enlazado interno basado en navegacion",
+          title: "Enlazado interno basado en navegación",
           content:
             "La navegacion de tu sitio es la base de tu estructura de enlazado interno. El menu de navegacion principal, los enlaces del pie de pagina y la navegacion lateral crean una red de enlaces permanente que conecta cada pagina de tu sitio con tus categorias y paginas de destino mas importantes.\n\nLa navegacion principal deberia reflejar tu jerarquia de categorias con agrupaciones logicas. Un mega menu que muestra categorias, subcategorias e incluso productos destacados crea cientos de enlaces internos en cada pagina de tu sitio. Sin embargo, los mega menus tambien pueden diluir la autoridad si enlazan a demasiadas paginas. Limita tu navegacion principal a tus 50-80 paginas de categorias y subcategorias mas importantes.\n\nLa navegacion por migas de pan es esencial para el enlazado interno en ecommerce. Las migas de pan crean un camino desde la pagina actual hasta la pagina de inicio a traves de la jerarquia de categorias: Inicio > Ropa de Hombre > Chaquetas > Chaquetas de Cuero. Cada segmento de miga de pan es un enlace interno que refuerza la relacion jerarquica entre paginas.\n\nLos enlaces del pie de pagina ofrecen una oportunidad para enlazar paginas que no encajan en la navegacion principal pero son importantes para el SEO. Informacion de envio, politicas de devolucion, guias de tallas y paginas de informacion se benefician de enlaces en el pie de pagina. Sin embargo, evita saturar el pie de pagina con cientos de enlaces -- Google devalua los bloques de enlaces de pie de pagina excesivamente grandes.",
           tip: "Implementa datos estructurados de migas de pan (schema BreadcrumbList) junto con tu navegacion visible por migas de pan. Esto proporciona a Google una version legible por maquina de tu jerarquia de categorias y puede resultar en una visualizacion mejorada de migas de pan en los resultados de busqueda, lo que mejora el CTR.",
         },
         {
-          title: "Enlaces internos contextuales en paginas de productos",
+          title: "Enlaces internos contextuales en páginas de productos",
           content:
             "Mas alla de la navegacion, las paginas de productos ofrecen multiples oportunidades para enlaces internos contextuales -- enlaces colocados dentro del contenido de la pagina que conectan productos, categorias y recursos informativos relacionados. Estos enlaces contextuales llevan mas peso SEO que los enlaces de navegacion porque los motores de busqueda los ven como respaldos editoriales de la relevancia de la pagina enlazada.\n\nLas secciones de productos relacionados son la oportunidad de enlace contextual mas comun en las paginas de productos. \"Tambien te puede gustar\", \"Los clientes tambien compraron\" y \"Completa el look\" enlazan a productos complementarios o similares, creando una red de enlaces internos a traves de tu catalogo de productos.\n\nLas descripciones de productos mismas deberian incluir enlaces contextuales donde sea natural. Si una descripcion de chaqueta menciona que combina bien con un par de botas especifico, enlaza a esa pagina de producto de botas. Estos enlaces editoriales dentro del cuerpo del texto son el tipo mas valioso de enlace interno para SEO porque estan rodeados de contexto relevante.\n\nLos enlaces cruzados de categoria en paginas de productos ayudan a los compradores a descubrir categorias relacionadas. Una pagina de producto para zapatillas de running podria incluir enlaces a las categorias \"Calcetines de Running\", \"Shorts de Running\" y \"Relojes GPS de Running\". Alinear estos enlaces con tu [arquitectura de sitio](/academy/site-architecture-for-ecommerce) general asegura que refuercen en lugar de confundir tu jerarquia.",
           items: [
@@ -287,7 +285,7 @@ export const internalLinkingForStores: AcademyTopic = {
           tip: "Audita tu contenido de blog existente en busca de enlaces internos faltantes a paginas de productos. Muchas tiendas tienen docenas de publicaciones de blog que mencionan productos sin enlazarlos. Una sola tarde dedicada a agregar enlaces de productos al contenido de blog existente puede producir mejoras de ranking medibles en semanas.",
         },
         {
-          title: "Optimizacion del texto ancla para enlaces internos",
+          title: "Optimización del texto ancla para enlaces internos",
           content:
             "El texto ancla de los enlaces internos -- el texto clicable que forma el enlace -- dice tanto a los usuarios como a los motores de busqueda de que trata la pagina de destino. A diferencia de los backlinks externos donde tienes poco control sobre el texto ancla, los enlaces internos te dan control total para usar texto ancla rico en palabras clave y descriptivo.\n\nPara enlaces de productos, usa el nombre del producto o una variacion descriptiva como texto ancla. En lugar de \"haz clic aqui\" o \"saber mas\", enlaza con texto como \"Botas de Senderismo Impermeables para Hombre\" o \"nuestra cartera de cuero mas vendida.\"\n\nPara enlaces de categorias, usa la palabra clave de la categoria como texto ancla. Si tu pagina de categoria apunta a \"zapatillas de running mujer\", asegura que los enlaces internos que apuntan a ella usen esa frase o variaciones cercanas.\n\nEvita la sobreoptimizacion del texto ancla con palabras clave de coincidencia exacta en cada enlace interno. Mezcla palabras clave de coincidencia exacta con anclas de marca, variaciones de coincidencia parcial y frases naturales.\n\nNunca uses texto ancla generico como \"haz clic aqui\", \"leer mas\" o \"comprar ahora\" para tus enlaces internos mas importantes. Estas frases no proporcionan contexto de palabras clave a los motores de busqueda y desperdician una oportunidad de senal valiosa.",
           items: [
@@ -298,7 +296,7 @@ export const internalLinkingForStores: AcademyTopic = {
           ],
           callout: {
             title: "Ankertext-Balance",
-            text: "Mischen Sie Exact-Match-Keywords (40\u00a0%), Partial-Match-Variationen (30\u00a0%) und natürliche Phrasen (30\u00a0%) in Ihrem internen Ankertext.",
+            text: "Mezcle palabras clave de concordancia exacta (40%), variaciones de concordancia parcial (30%) y frases naturales (30%) en su texto ancla interno. Usar texto de anclaje idéntico en cientos de enlaces parece manipulador y reducido.",
           },
         },
         {
@@ -332,12 +330,12 @@ export const internalLinkingForStores: AcademyTopic = {
           ],
           image: {
             src: "/images/academy/it/internal-link-authority-flow.svg",
-            alt: "Diagramm, das zeigt, wie interne Links Autorität von der Startseite über Kategorien zu Produktseiten verteilen",
-            caption: "Eine Produktseite mit 12 internen Links sammelt 5x mehr Autorität als eine mit nur 2 Links.",
+            alt: "Diagramma che mostra come i collegamenti interni distribuiscono l'autorità dalla home page attraverso le categorie fino alle pagine dei prodotti con confronto del conteggio dei collegamenti",
+            caption: "Una pagina di prodotto con 12 collegamenti interni accumula 5 volte più autorità di una con solo 2 collegamenti, incidendo direttamente sulla sua posizione in classifica.",
           },
           callout: {
             title: "Linkanzahl vs. Ranking",
-            text: "Ein Produkt mit 12 internen Links rankt typischerweise in den Top 5. Das gleiche Produkt mit nur 2 Links sitzt oft jenseits von Position 30.",
+            text: "Un prodotto con 12 collegamenti interni dalla home page, dalla categoria, dai post del blog e dalle sezioni correlate si colloca generalmente tra i primi 5. Lo stesso prodotto con solo 2 collegamenti dalla categoria principale spesso si trova al di sopra",
           },
         },
         {
@@ -375,7 +373,7 @@ export const internalLinkingForStores: AcademyTopic = {
           ],
           callout: {
             title: "Ankertext-Balance",
-            text: "Mischen Sie Exact-Match-Keywords (40\u00a0%), Partial-Match-Variationen (30\u00a0%) und natürliche Phrasen (30\u00a0%) in Ihrem internen Ankertext.",
+            text: "Combina parole chiave a corrispondenza esatta (40%), varianti a corrispondenza parziale (30%) e frasi naturali (30%) nel testo di ancoraggio interno. L'utilizzo dello stesso testo di ancoraggio su centinaia di collegamenti sembra manipolativo e riduttivo",
           },
         },
         {
@@ -409,12 +407,12 @@ export const internalLinkingForStores: AcademyTopic = {
           ],
           image: {
             src: "/images/academy/nl/internal-link-authority-flow.svg",
-            alt: "Diagramm, das zeigt, wie interne Links Autorität von der Startseite über Kategorien zu Produktseiten verteilen",
-            caption: "Eine Produktseite mit 12 internen Links sammelt 5x mehr Autorität als eine mit nur 2 Links.",
+            alt: "Diagram dat laat zien hoe interne links de autoriteit van de startpagina via categorieën naar productpagina's verdelen, waarbij het aantal links wordt vergeleken",
+            caption: "Een productpagina met 12 interne links verzamelt 5x meer autoriteit dan een productpagina met slechts 2 links, wat een directe invloed heeft op de rankingpositie.",
           },
           callout: {
             title: "Linkanzahl vs. Ranking",
-            text: "Ein Produkt mit 12 internen Links rankt typischerweise in den Top 5. Das gleiche Produkt mit nur 2 Links sitzt oft jenseits von Position 30.",
+            text: "Een product met twaalf interne links vanaf de startpagina, categorie, blogposts en gerelateerde secties staat doorgaans in de top 5. Hetzelfde product met slechts twee links uit de bovenliggende categorie staat vaak in de top 5.",
           },
         },
         {
@@ -452,7 +450,7 @@ export const internalLinkingForStores: AcademyTopic = {
           ],
           callout: {
             title: "Ankertext-Balance",
-            text: "Mischen Sie Exact-Match-Keywords (40\u00a0%), Partial-Match-Variationen (30\u00a0%) und natürliche Phrasen (30\u00a0%) in Ihrem internen Ankertext.",
+            text: "Combineer exacte zoekwoorden (40%), gedeeltelijke zoekwoorden (30%) en natuurlijke woordgroepen (30%) in uw interne ankertekst. Het gebruik van identieke ankertekst over honderden links ziet er manipulatief en redu uit",
           },
         },
         {

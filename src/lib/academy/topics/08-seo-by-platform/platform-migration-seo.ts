@@ -214,8 +214,7 @@ items: [
     fr: {
       badge: "SEO par plateforme",
       heading: "SEO pour la migration de plateforme",
-      intro:
-        "La migration d'une boutique e-commerce vers une nouvelle plateforme est l'un des evenements SEO les plus risques qu'une entreprise puisse entreprendre. Les structures d'URL changent, les schemas de liens internes evoluent et les implementations techniques different d'une plateforme a l'autre. Sans un plan de migration rigoureux, les boutiques perdent regulierement 30 a 60 pour cent de leur trafic organique, dont la recuperation peut prendre des mois voire des annees. Ce guide couvre l'ensemble du processus de migration, de l'audit pre-migration a la surveillance post-lancement. Pour une analyse approfondie des risques et stratégies de migration, lisez notre article de blog sur la [migration SEO e-commerce](/blog/ecommerce-seo-migration).",
+      intro: "La migration d'une boutique e-commerce vers une nouvelle plateforme est l'un des evenements SEO les plus risques qu'une entreprise puisse entreprendre. Les structures d'URL changent, les schemas de liens internes evoluent et les implementations techniques different d'une plateforme a l'autre. Sans un plan de migration rigoureux, les boutiques perdent régulièrement 30 a 60 pour cent de leur trafic organique, dont la recuperation peut prendre des mois voire des années. Ce guide couvre l'ensemble du processus de migration, de l'audit pre-migration a la surveillance post-lancement. Pour une analyse approfondie des risques et stratégies de migration, lisez notre article de blog sur la [migration SEO e-commerce](/blog/ecommerce-seo-migration).",
       readTime: "10 min de lecture",
       sections: [
         {
@@ -232,7 +231,7 @@ items: [
           tip: "Creez un tableur partage servant de document de controle de migration. Incluez des onglets pour le mapping d'URL, les regles de redirection, les metriques pre-migration et les points de controle post-migration. Ce document devient la source unique de verite pour toutes les personnes impliquees.",
         },
         {
-          title: "Mapping d'URL et strategie de redirection",
+          title: "Mapping d'URL et stratégie de redirection",
           content:
             "Le mapping d'URL est la tache SEO la plus critique lors d'une migration de plateforme. Chaque URL de votre site actuel qui recoit du trafic organique, possede des backlinks ou est indexee par Google doit etre mappee vers son URL equivalente sur la nouvelle plateforme. Manquer meme quelques URLs a fort trafic peut entrainer des pertes significatives de classement et de revenus.\n\nCommencez par un mapping un-a-un pour toutes les pages produit, pages de categorie, pages de contenu et articles de blog. Exportez votre liste d'URL actuelle et creez un tableur de mapping avec des colonnes pour l'ancienne URL, la nouvelle URL, le type de page, les sessions organiques mensuelles et le nombre de domaines referents. Priorisez le mapping par valeur de trafic.\n\nPour les URL sans equivalent direct sur la nouvelle plateforme, decidez si vous les redirigez vers la page pertinente la plus proche ou les laissez retourner un statut 404. Les pages avec des profils de backlinks significatifs doivent toujours etre redirigees pour preserver l'equite des liens. Redirigez-les vers la page existante la plus pertinente thematiquement.\n\nImplementez toutes les redirections comme des redirections 301 permanentes, pas des redirections 302 temporaires. Testez votre carte de redirections dans un environnement de staging avant de lancer le nouveau site. Utilisez un outil de crawl pour suivre chaque redirection et verifier que l'URL de destination retourne un code 200 et ne cree pas de chaines de redirections.\n\nPour les sites avec des milliers d'URL, la plupart des plateformes e-commerce supportent les imports CSV en masse de redirections. Preparez votre fichier de redirections dans le format requis bien avant la date de migration.",
           items: [
@@ -244,12 +243,12 @@ items: [
           ],
           image: {
             src: "/images/academy/fr/migration-redirect-flow.svg",
-            alt: "Plattform-Migrations-Weiterleitungsablauf: Alte URL ueber Redirect-Map zur neuen URL mit 301-Permanent",
-            caption: "Jede alte URL braucht ein Ziel. Keine Weiterleitung bedeutet verlorene Autoritaet und verlorene Rankings.",
+            alt: "Schéma montrant le mappage de redirection 301 depuis les anciennes URL de plate-forme vers les nouveaux équivalents de plate-forme pendant la migration",
+            caption: "Mappez chaque ancienne URL sur son nouvel équivalent. Les produits abandonnés redirigent vers la catégorie pertinente la plus proche, et non vers la page d'accueil.",
           },
           callout: {
             title: "Redirect-Vollstaendigkeit",
-            text: "Unvollstaendiges URL-Mapping ist die haeufigste Ursache fuer Traffic-Verlust bei Migrationen. Crawlen Sie die alte Website vollstaendig und mappen Sie JEDE URL, nicht nur die Top-Seiten.",
+            text: "Chaque saut dans une chaîne de redirection (A vers B vers C) dilue l'équité des liens et ajoute de la latence. Google suit jusqu'à 10 sauts mais transmet moins d'autorité à chacun. Aplatissez toutes les chaînes pour diriger les redirections A vers C avant",
           },
         },
         {
@@ -290,7 +289,7 @@ items: [
           tip: "Creez un plan de rollback avant de commencer la migration. Documentez les etapes exactes necessaires pour revenir a l'ancienne plateforme si le nouveau site presente des problemes critiques au lancement.",
         },
         {
-          title: "Planification du calendrier et strategie de rollback",
+          title: "Planification du calendrier et stratégie de rollback",
           content:
             "Un calendrier de migration bien structure previent les decisions precipitees et garantit que chaque element SEO est traite. Commencez le processus de planification au moins huit semaines avant la date de lancement cible. Les deux premieres semaines doivent se concentrer sur l'audit pre-migration, le mapping d'URL et la preparation des fichiers de redirection. Les semaines trois et quatre servent a implementer les redirections sur staging, tester les donnees structurees et verifier la parite des meta tags.\n\nLes semaines cinq et six doivent etre consacrees aux crawls complets de staging, aux tests de performance et a la correction des problemes decouverts. Executez un crawl Screaming Frog complet du site de staging et comparez-le avec votre baseline pre-migration.\n\nLa semaine sept est pour la revue finale et la validation des parties prenantes. Presentez le plan de migration a toutes les parties prenantes. Partagez le calendrier prevu pour la recuperation du trafic et fixez des attentes realistes. La plupart des migrations bien executees voient une recuperation du trafic dans les quatre a six semaines.\n\nLa strategie de rollback doit definir des conditions declenchantes specifiques pour initier un retour a l'ancienne plateforme. Les declencheurs courants incluent une baisse de trafic depassant 50 pour cent pendant plus de 48 heures, des defaillances fonctionnelles critiques ou des echecs de redirection generalises. Documentez les etapes techniques du rollback et testez la procedure au moins une fois avant la date de migration.\n\nLe jour du lancement, executez la migration pendant les heures de faible trafic avec l'equipe complete disponible pour la surveillance. Assignez des membres specifiques de l'equipe a la surveillance de Search Console, de la sante du crawl et des taux de conversion.",
           items: [
@@ -303,12 +302,12 @@ items: [
           tip: "Apres la stabilisation de la migration, documentez tout ce qui a bien fonctionne et chaque probleme rencontre. Ce playbook de migration devient inestimable pour les futurs changements de plateforme.",
           image: {
             src: "/images/academy/fr/migration-timeline.svg",
-            alt: "Plattform-Migrations-SEO-Zeitplan: Vor Migration, Migrationstag, Nach Migration und Erholungsphase",
-            caption: "Planen Sie 4-8 Wochen Vorbereitung und 3-6 Monate Erholung ein. Ein Traffic-Einbruch von 10-20% ist normal.",
+            alt: "Calendrier de migration de 8 semaines montrant les phases d'audit, de mise en œuvre, de test, de révision et de lancement avec fenêtre de récupération",
+            caption: "Un délai de 8 semaines évite des décisions précipitées. La plupart des migrations bien exécutées récupèrent le trafic dans les 4 à 6 semaines suivant le lancement.",
           },
           callout: {
             title: "Zeitplan-Realismus",
-            text: "Die meisten Migrationen unterschaetzen die Erholungszeit. Planen Sie mindestens 3-6 Monate fuer die volle Traffic-Erholung und informieren Sie Stakeholder ueber den erwarteten temporaeren Einbruch von 10-20%.",
+            text: "Une baisse du trafic organique de 10 à 20 % au cours de la première semaine est normale alors que Google réexplore. Les baisses supérieures à 30 % qui persistent au-delà de deux semaines signalent des redirections interrompues, des balises canoniques manquantes ou des données structurées supprimées. 10-20%.",
           },
         },
       ],
@@ -317,8 +316,7 @@ items: [
     es: {
       badge: "SEO por plataforma",
       heading: "SEO para migracion de plataforma",
-      intro:
-        "Migrar una tienda de comercio electronico a una nueva plataforma es uno de los eventos SEO de mayor riesgo que una empresa puede emprender. Las estructuras de URL cambian, los patrones de enlazado interno se modifican y las implementaciones tecnicas difieren entre plataformas. Sin un plan de migracion riguroso, las tiendas pierden regularmente entre el 30 y el 60 por ciento del trafico organico, cuya recuperacion puede llevar meses o anos. Esta guia cubre el proceso completo de migracion, desde la auditoria previa hasta el monitoreo posterior al lanzamiento. Para un desglose completo de riesgos y estrategias de migracion, lee nuestro articulo sobre [migracion SEO para ecommerce](/blog/ecommerce-seo-migration).",
+      intro: "Migrar una tienda de comercio electrónico a una nueva plataforma es uno de los eventos SEO de mayor riesgo que una empresa puede emprender. Las estructuras de URL cambian, los patrones de enlazado interno se modifican y las implementaciones técnicas difieren entre plataformas. Sin un plan de migracion riguroso, las tiendas pierden regularmente entre el 30 y el 60 por ciento del tráfico organico, cuya recuperacion puede llevar meses o años. Esta guia cubre el proceso completo de migracion, desde la auditoria previa hasta el monitoreo posterior al lanzamiento. Para un desglose completo de riesgos y estrategias de migracion, lee nuestro artículo sobre [migracion SEO para ecommerce](/blog/ecommerce-seo-migration).",
       readTime: "10 min de lectura",
       sections: [
         {
@@ -347,12 +345,12 @@ items: [
           ],
           image: {
             src: "/images/academy/es/migration-redirect-flow.svg",
-            alt: "Plattform-Migrations-Weiterleitungsablauf: Alte URL ueber Redirect-Map zur neuen URL mit 301-Permanent",
-            caption: "Jede alte URL braucht ein Ziel. Keine Weiterleitung bedeutet verlorene Autoritaet und verlorene Rankings.",
+            alt: "Diagrama que muestra la asignación de redireccionamiento 301 desde las URL de plataformas antiguas a equivalentes de plataformas nuevas durante la migración",
+            caption: "Asigne cada URL antigua a su nuevo equivalente. Los productos descontinuados redirigen a la categoría relevante más cercana, no a la página de inicio.",
           },
           callout: {
             title: "Redirect-Vollstaendigkeit",
-            text: "Unvollstaendiges URL-Mapping ist die haeufigste Ursache fuer Traffic-Verlust bei Migrationen. Crawlen Sie die alte Website vollstaendig und mappen Sie JEDE URL, nicht nur die Top-Seiten.",
+            text: "Cada salto en una cadena de redireccionamiento (A a B a C) diluye la equidad del enlace y agrega latencia. Google sigue hasta 10 saltos pero otorga menos autoridad con cada uno. Aplana todas las cadenas para dirigir las redirecciones de A a C antes",
           },
         },
         {
@@ -382,7 +380,7 @@ items: [
         {
           title: "Errores comunes de migracion a evitar",
           content:
-            "El error de migracion mas frecuente es el mapeo incompleto de URLs. Los equipos a menudo se centran en las paginas de productos y categorias pero olvidan mapear entradas de blog, paginas informativas, URLs de imagenes, documentos PDF y paginas de coleccion paginadas. Cada URL que Google ha indexado o que tiene backlinks externos necesita una redireccion.\n\nOtro error critico es lanzar la migracion durante un periodo de trafico pico. Nunca migres durante la temporada de Black Friday, eventos de venta importantes o cualquier periodo que represente una parte desproporcionada de los ingresos anuales. Programa las migraciones para tus meses de menor trafico.\n\nNo preservar los parametros de URL usados por campanas de marketing es un error sutil pero costoso. Si tu plataforma antigua usaba parametros como ?utm_source o ?ref para seguimiento de campanas, asegurate de que la nueva plataforma los maneje correctamente.\n\nMuchas migraciones fallan porque el entorno de staging no replica con precision la configuracion de produccion. Prueba redirecciones, etiquetas canonicas, datos estructurados y velocidad de pagina en un servidor de staging que refleje la configuracion de produccion.\n\nFinalmente, no elimines las reglas de redireccion del sitio antiguo despues de la migracion. Las redirecciones deben permanecer en su lugar permanentemente porque los enlaces externos, marcadores y resultados de busqueda en cache seguiran referenciando URLs antiguas durante meses o incluso anos.",
+            "El error de migracion mas frecuente es el mapeo incompleto de URLs. Los equipos a menudo se centran en las paginas de productos y categorias pero olvidan mapear entradas de blog, paginas informativas, URLs de imagenes, documentos PDF y paginas de coleccion paginadas. Cada URL que Google ha indexado o que tiene backlinks externos necesita una redireccion.\n\nOtro error critico es lanzar la migracion durante un periodo de trafico pico. Nunca migres durante la temporada de Black Friday, eventos de venta importantes o cualquier periodo que represente una parte desproporcionada de los ingresos anuales. Programa las migraciones para tus meses de menor trafico.\n\nNo preservar los parametros de URL usados por campanas de marketing es un error sutil pero costoso. Si tu plataforma antigua usaba parametros como ?utm_source o ?ref para seguimiento de campanas, asegurate de que la nueva plataforma los maneje correctamente.\n\nMuchas migraciones fallan porque el entorno de staging no replica con precision la configuracion de produccion. Prueba redirecciones, etiquetas canonicas, datos estructurados y velocidad de pagina en un servidor de staging que refleje la configuracion de produccion.\n\nFinalmente, no elimines las reglas de redireccion del sitio antiguo despues de la migracion. Las redirecciones deben permanecer en su lugar permanentemente porque los enlaces externos, marcadores y resultados de busqueda en cache seguiran referenciando URLs antiguas durante meses o incluso años.",
           items: [
             "Mapear cada URL indexada incluyendo entradas de blog, imagenes, PDFs y paginas paginadas",
             "Programar migraciones durante periodos de bajo trafico, nunca durante temporadas de ventas pico",
@@ -406,12 +404,12 @@ items: [
           tip: "Despues de que la migracion se estabilice, documenta todo lo que salio bien y cada problema que encontraste. Este manual de migracion se vuelve invaluable para futuros cambios de plataforma.",
           image: {
             src: "/images/academy/es/migration-timeline.svg",
-            alt: "Plattform-Migrations-SEO-Zeitplan: Vor Migration, Migrationstag, Nach Migration und Erholungsphase",
-            caption: "Planen Sie 4-8 Wochen Vorbereitung und 3-6 Monate Erholung ein. Ein Traffic-Einbruch von 10-20% ist normal.",
+            alt: "Cronograma de migración de 8 semanas que muestra las fases de auditoría, implementación, prueba, revisión y lanzamiento con ventana de recuperación",
+            caption: "Un cronograma de 8 semanas evita decisiones apresuradas. La mayoría de las migraciones bien ejecutadas recuperan el tráfico entre 4 y 6 semanas después del lanzamiento.",
           },
           callout: {
             title: "Zeitplan-Realismus",
-            text: "Die meisten Migrationen unterschaetzen die Erholungszeit. Planen Sie mindestens 3-6 Monate fuer die volle Traffic-Erholung und informieren Sie Stakeholder ueber den erwarteten temporaeren Einbruch von 10-20%.",
+            text: "Una caída del tráfico orgánico del 10 al 20 % en la primera semana es normal a medida que Google vuelve a rastrear. Las caídas que superan el 30 % y persisten más de dos semanas indican redireccionamientos rotos, etiquetas canónicas faltantes o datos estructurados eliminados. 10-20%.",
           },
         },
       ],
@@ -450,12 +448,12 @@ items: [
           ],
           image: {
             src: "/images/academy/it/migration-redirect-flow.svg",
-            alt: "Plattform-Migrations-Weiterleitungsablauf: Alte URL ueber Redirect-Map zur neuen URL mit 301-Permanent",
-            caption: "Jede alte URL braucht ein Ziel. Keine Weiterleitung bedeutet verlorene Autoritaet und verlorene Rankings.",
+            alt: "Diagramma che mostra la mappatura del reindirizzamento 301 dagli URL della vecchia piattaforma agli equivalenti della nuova piattaforma durante la migrazione",
+            caption: "Mappa ogni vecchio URL al suo nuovo equivalente. I prodotti fuori produzione reindirizzano alla categoria pertinente più vicina, non alla home page.",
           },
           callout: {
             title: "Redirect-Vollstaendigkeit",
-            text: "Unvollstaendiges URL-Mapping ist die haeufigste Ursache fuer Traffic-Verlust bei Migrationen. Crawlen Sie die alte Website vollstaendig und mappen Sie JEDE URL, nicht nur die Top-Seiten.",
+            text: "Ogni salto in una catena di reindirizzamento (da A a B a C) diluisce l'equità del collegamento e aggiunge latenza. Google segue fino a 10 hop, ma con ciascuno trasmette meno autorità. Appiattire tutte le catene per dirigere prima i reindirizzamenti da A a C",
           },
         },
         {
@@ -509,12 +507,12 @@ items: [
           tip: "Dopo la stabilizzazione della migrazione, documenta tutto cio che ha funzionato bene e ogni problema incontrato. Questo playbook di migrazione diventa inestimabile per futuri cambiamenti di piattaforma.",
           image: {
             src: "/images/academy/it/migration-timeline.svg",
-            alt: "Plattform-Migrations-SEO-Zeitplan: Vor Migration, Migrationstag, Nach Migration und Erholungsphase",
-            caption: "Planen Sie 4-8 Wochen Vorbereitung und 3-6 Monate Erholung ein. Ein Traffic-Einbruch von 10-20% ist normal.",
+            alt: "Cronologia della migrazione di 8 settimane che mostra le fasi di audit, implementazione, test, revisione e lancio con finestra di ripristino",
+            caption: "Una tempistica di 8 settimane impedisce decisioni affrettate. La maggior parte delle migrazioni ben eseguite recuperano il traffico entro 4-6 settimane dal lancio.",
           },
           callout: {
             title: "Zeitplan-Realismus",
-            text: "Die meisten Migrationen unterschaetzen die Erholungszeit. Planen Sie mindestens 3-6 Monate fuer die volle Traffic-Erholung und informieren Sie Stakeholder ueber den erwarteten temporaeren Einbruch von 10-20%.",
+            text: "Un calo del traffico organico del 10-20% nella prima settimana è normale mentre Google esegue la nuova scansione. I cali superiori al 30% che persistono oltre le due settimane segnalano reindirizzamenti interrotti, tag canonici mancanti o dati strutturati rimossi 10-20%.",
           },
         },
       ],
@@ -553,12 +551,12 @@ items: [
           ],
           image: {
             src: "/images/academy/nl/migration-redirect-flow.svg",
-            alt: "Plattform-Migrations-Weiterleitungsablauf: Alte URL ueber Redirect-Map zur neuen URL mit 301-Permanent",
-            caption: "Jede alte URL braucht ein Ziel. Keine Weiterleitung bedeutet verlorene Autoritaet und verlorene Rankings.",
+            alt: "Diagram met 301-omleidingstoewijzingen van oude platform-URL's naar nieuwe platformequivalenten tijdens de migratie",
+            caption: "Wijs elke oude URL toe aan zijn nieuwe equivalent. Niet meer leverbare producten worden doorgestuurd naar de dichtstbijzijnde relevante categorie, niet naar de startpagina.",
           },
           callout: {
             title: "Redirect-Vollstaendigkeit",
-            text: "Unvollstaendiges URL-Mapping ist die haeufigste Ursache fuer Traffic-Verlust bei Migrationen. Crawlen Sie die alte Website vollstaendig und mappen Sie JEDE URL, nicht nur die Top-Seiten.",
+            text: "Elke sprong in een omleidingsketen (A naar B naar C) verdunt de link equity en voegt latentie toe. Google volgt maximaal 10 hops, maar geeft bij elke hop minder autoriteit door. Maak alle ketens plat om eerder A-naar-C-omleidingen te sturen",
           },
         },
         {
@@ -612,12 +610,12 @@ items: [
           tip: "Documenteer na de stabilisatie van de migratie alles wat goed ging en elk probleem dat je tegenkwam. Dit migratieplaybook wordt onschatbaar waardevol bij toekomstige platformwijzigingen.",
           image: {
             src: "/images/academy/nl/migration-timeline.svg",
-            alt: "Plattform-Migrations-SEO-Zeitplan: Vor Migration, Migrationstag, Nach Migration und Erholungsphase",
-            caption: "Planen Sie 4-8 Wochen Vorbereitung und 3-6 Monate Erholung ein. Ein Traffic-Einbruch von 10-20% ist normal.",
+            alt: "Migratietijdlijn van 8 weken met audit-, implementatie-, test-, beoordelings- en lanceringsfasen met herstelperiode",
+            caption: "Een tijdlijn van 8 weken voorkomt overhaaste beslissingen. Bij de meeste goed uitgevoerde migraties wordt het verkeer binnen vier tot zes weken na de lancering hersteld.",
           },
           callout: {
             title: "Zeitplan-Realismus",
-            text: "Die meisten Migrationen unterschaetzen die Erholungszeit. Planen Sie mindestens 3-6 Monate fuer die volle Traffic-Erholung und informieren Sie Stakeholder ueber den erwarteten temporaeren Einbruch von 10-20%.",
+            text: "Een daling van 10-20% in het organische verkeer in de eerste week is normaal als Google opnieuw crawlt. Dalingen van meer dan 30% die langer dan twee weken aanhouden, duiden op gebroken omleidingen, ontbrekende canonieke tags of gestripte gestructureerde gegevens. 10-20%.",
           },
         },
       ],

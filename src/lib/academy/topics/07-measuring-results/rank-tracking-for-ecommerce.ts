@@ -159,8 +159,7 @@ items: [
     fr: {
       badge: "Mesurer les resultats",
       heading: "Suivi de positionnement pour l'e-commerce",
-      intro:
-        "Le suivi de positionnement e-commerce est fondamentalement different du suivi d'une entreprise de services avec 50 mots-cles. Les boutiques doivent souvent surveiller des milliers de mots-cles produits et categories a travers plusieurs localisations et appareils. Une bonne configuration vous donne une visibilite actionnable sur les mouvements de classement. Une mauvaise vous noie dans le bruit et les donnees trompeuses.",
+      intro: "Le suivi de positionnement e-commerce est fondamentalement different du suivi d'une entreprise de services avec 50 mots-clés. Les boutiques doivent souvent surveiller des milliers de mots-clés produits et catégories a travers plusieurs localisations et appareils. Une bonne configuration vous donne une visibilite actionnable sur les mouvements de classement. Une mauvaise vous noie dans le bruit et les données trompeuses.",
       readTime: "11 min de lecture",
       sections: [
         {
@@ -169,7 +168,7 @@ items: [
             "Tous les outils de suivi de positionnement ne gerent pas bien l'e-commerce. Vous avez besoin d'un outil qui prend en charge de grands volumes de mots-cles sans exploser votre budget, suit les fonctionnalites SERP comme les carrousels shopping et les listings produits, et fournit des mises a jour quotidiennes au moins pour vos mots-cles prioritaires. Des outils comme SE Ranking, Ahrefs et Semrush offrent tous de solides capacites e-commerce, mais ils different en limites de mots-cles, frequence de mise a jour et gestion des resultats localises.\n\nLa capacite de suivre les fonctionnalites SERP compte plus pour l'e-commerce que pour presque tout autre secteur. Si votre produit se classe en 3e position dans les resultats organiques mais qu'un carrousel Google Shopping se place au-dessus de tous les listings organiques, votre visibilite reelle est bien inferieure a ce que la position 3 suggere.\n\nConsiderez comment l'outil gere le suivi specifique par appareil. Les classements mobiles et desktop different souvent significativement pour les requetes e-commerce, et le mobile represente generalement 60-75% du trafic de recherche e-commerce.\n\nL'acces API est un autre facteur pour les boutiques plus importantes. Si vous avez plus de 10 000 mots-cles, vous voudrez integrer les donnees de classement dans vos propres tableaux de bord plutot que de dependre de l'interface de l'outil.",
         },
         {
-          title: "Construire votre liste de mots-cles e-commerce",
+          title: "Construire votre liste de mots-clés e-commerce",
           content:
             "L'organisation de vos mots-cles de suivi en groupes clairs est ce qui separe un suivi de positionnement utile d'une surcharge de donnees. Pour l'e-commerce, structurez votre liste de mots-cles autour de l'architecture de votre site : termes de marque, mots-cles de categorie principale, mots-cles de sous-categorie, mots-cles specifiques aux produits et mots-cles informationnels.\n\nPriorisez les mots-cles par valeur commerciale, pas seulement par volume de recherche. Un mot-cle avec 500 recherches mensuelles qui convertit a 4% avec un panier moyen de 120 euros vaut bien plus qu'un mot-cle avec 5 000 recherches qui convertit a 0,3% avec un panier moyen de 25 euros.\n\nEtiquetez chaque mot-cle avec des metadonnees qui permettent une analyse significative. Au minimum, etiquetez par type de page (produit, categorie, blog), etape du funnel (sensibilisation, consideration, achat) et categorie de produit. Cet etiquetage vous permet de rapporter la performance de classement par segment commercial.\n\nNe negligez pas les mots-cles produits longue traine. Bien que chaque terme individuel ait un faible volume, ils generent collectivement une grande part du chiffre d'affaires e-commerce.\n\nTaguez chaque mot-clé avec des métadonnées qui permettent une analyse significative, en vous appuyant sur votre fondation de [recherche de mots-clés pour l'e-commerce](/academy/keyword-research-for-ecommerce).",
           items: [
@@ -180,12 +179,12 @@ items: [
           ],
           image: {
             src: "/images/academy/fr/rank-tracking-keyword-tiers.svg",
-            alt: "Diagramm der Keyword-Tracking-Stufen mit Umsatz-Keywords, strategischen Keywords und Long-Tail-Erweiterung",
-            caption: "Organisieren Sie Keywords in Stufen basierend auf Umsatzwirkung und verfolgen Sie jede Stufe mit angemessener Haeufigkeit.",
+            alt: "Diagramme montrant quatre niveaux de suivi des mots-clés du commerce électronique : termes de marque, mots-clés de catégorie, mots-clés de produits et mots-clés d'information avec fréquence de suivi",
+            caption: "Structurez le suivi de vos mots clés en niveaux par type de page. Les termes de marque et de catégorie font l’objet d’un suivi quotidien ; les mots-clés de produits et d’informations peuvent être suivis chaque semaine.",
           },
           callout: {
             title: "Keyword-Priorisierung",
-            text: "Konzentrieren Sie die taegliche Verfolgung auf die 50-200 Keywords, die direkt Umsatz generieren. Erweitern Sie auf 500+ nur fuer woechentliche strategische Analyse, um Tool-Kosten zu kontrollieren.",
+            text: "Un mot-clé avec 500 recherches mensuelles à 4 % de CVR et 120 $ AOV génère 2 400 $/mois. Un mot-clé de 5 000 recherches avec un CVR de 0,3 % et un AOV de 25 $ ne génère que 375 $. Donnez la priorité au suivi par potentiel de revenus et non par volume",
           },
         },
         {
@@ -195,27 +194,27 @@ items: [
           tip: "Si vous vendez via un marketplace comme Amazon en plus de votre propre boutique, suivez vos classements de produits Amazon separement. De nombreux trackers de positionnement prennent desormais en charge le suivi SERP Amazon, vous permettant de voir si vos produits ou ceux des concurrents dominent a la fois Google et Amazon pour les memes requetes.",
         },
         {
-          title: "Interpreter correctement les donnees de classement",
+          title: "Interpreter correctement les données de classement",
           content:
             "Les donnees de suivi de positionnement sont pleines de bruit. Les fluctuations quotidiennes de 1 a 3 positions sont tout a fait normales et n'indiquent ni un probleme ni une opportunite. La page de resultats de recherche est un environnement dynamique ou Google teste constamment differents ordres. Reagir a chaque petit mouvement fait perdre du temps et cree une panique inutile.\n\nConcentrez-vous sur les tendances hebdomadaires et mensuelles plutot que sur les instantanes quotidiens. Un mot-cle qui passe de la position 4 a la position 7 en un seul jour n'est pas une crise. Un mot-cle qui decline regulierement de la position 4 a la position 12 sur quatre semaines est un vrai signal.\n\nSurveillez les changements de classement qui se regroupent autour de types de pages ou categories specifiques. Si toutes vos pages de categorie chaussures ont perdu 5 a 10 positions la meme semaine tandis que vos pages vetements sont restees stables, le probleme est specifique a vos pages chaussures.\n\nCorrelez toujours les changements de classement avec les changements reels de trafic et de revenus. Une baisse de classement qui ne reduit pas le trafic peut signifier que le mot-cle avait de toute facon un faible CTR a la position originale. Le tracker de positionnement vous dit ce qui s'est passe ; vos analytics vous disent si cela compte.\n\nCorrélez toujours les changements de classement avec les changements réels de trafic et de revenus en utilisant la [Google Search Console pour les boutiques](/academy/google-search-console-for-stores).",
           tip: "Configurez des alertes automatiques de changement de classement pour vos 50 mots-cles les plus generateurs de revenus. Configurez les alertes pour ne se declencher que lorsqu'un mot-cle se deplace de plus de 5 positions sur une periode de 7 jours.",
         },
         {
-          title: "Suivre la visibilite des fonctionnalites SERP",
+          title: "Suivre la visibilite des fonctionnalités SERP",
           content:
             "Pour l'e-commerce, les fonctionnalites SERP peuvent voler des clics meme lorsque vous etes bien classe organiquement. Les resultats Google Shopping, les Knowledge Panels produits, les packs d'images et les extraits en vedette rivalisent tous pour l'attention au-dessus ou a cote des listings organiques.\n\nL'integration de Google Shopping dans les resultats de recherche principaux s'est regulierement etendue. Pour de nombreuses requetes produit, le carrousel shopping apparait tout en haut de la page, poussant les resultats organiques sous le pli sur mobile.\n\nLes extraits en vedette sont un autre domaine ou les boutiques e-commerce peuvent gagner ou perdre en visibilite. Les pages de categories qui repondent aux requetes de comparaison peuvent gagner des extraits en vedette qui capturent une part disproportionnee des clics.\n\nLes packs d'images apparaissent frequemment pour les requetes produit, surtout en mode, decoration interieure et electronique. Si vos images produit apparaissent dans ces packs, elles generent du trafic supplementaire au-dela de votre listing organique.",
           image: {
             src: "/images/academy/fr/serp-feature-visibility.svg",
-            alt: "SERP-Feature-Sichtbarkeitskarte mit verschiedenen Suchergebnis-Elementen und ihrem Einfluss",
-            caption: "SERP-Features haben traditionelle organische Positionen verdraengt. Verfolgen Sie die Feature-Praesenz, nicht nur den Rang.",
+            alt: "Diagramme montrant quatre fonctionnalités SERP qui affectent le CTR du commerce électronique : carrousel d'achat, extrait sélectionné, pack d'images et Les gens demandent également",
+            caption: "Les carrousels d'achats ont l'impact CTR le plus élevé, réduisant le taux de clics organiques sur la position 1 d'environ 30 % à 15-20 %.",
           },
           callout: {
             title: "Feature-Tracking-Prioritaet",
-            text: "Featured Snippets und Shopping-Ergebnisse verdraengen organische Klicks um 20-40%. Wenn Sie nur Rangpositionen verfolgen, verpassen Sie die tatsaechliche Sichtbarkeitsgeschichte Ihrer Marke.",
+            text: "Les carrousels commerciaux ont réduit de moitié le CTR de la position organique 1. Pour les requêtes de produits où celles-ci apparaissent, la position de votre suivi de classement est trompeuse à moins qu'elle ne signale également la présence de fonctionnalités SERP.",
           },
         },
         {
-          title: "Rapporter et agir sur les donnees de classement",
+          title: "Rapporter et agir sur les données de classement",
           content:
             "Les donnees brutes de classement n'ont pas de sens pour la plupart des parties prenantes. Transformez les donnees de suivi en insights pertinents pour l'entreprise en rapportant sur les scores de visibilite, la part de voix et la valeur estimee du trafic organique plutot que sur les positions individuelles des mots-cles.\n\nLe score de visibilite condense des milliers de positions de mots-cles en une seule metrique qui represente votre empreinte de recherche globale. La plupart des trackers le calculent en ponderant la position de chaque mot-cle par son volume de recherche et son CTR estime.\n\nLa part de voix mesure quel pourcentage du total des clics organiques disponibles votre domaine capture par rapport aux concurrents. Suivez cette metrique au niveau de la categorie. Si votre part de voix pour \"robes femme\" est de 12% tandis que votre concurrent principal detient 18%, vous pouvez quantifier exactement combien de trafic supplementaire combler cet ecart apporterait.\n\nConstruisez une liste d'actions mensuelle a partir de vos donnees de classement. Identifiez les 10 mots-cles avec les plus grandes progressions pour comprendre ce qui fonctionne. Identifiez les 10 avec les plus grandes baisses pour diagnostiquer les problemes. Identifiez 10 mots-cles a portee (positions 11-20) qui pourraient atteindre la premiere page avec un effort cible.\n\nArchivez vos donnees de classement mensuellement. Les comparaisons annuelles revelent si votre programme SEO apporte une amelioration durable. Cette approche structurée empêche le suivi des classements de devenir un exercice de reporting passif et le transforme en un moteur d'optimisation actif qui alimente votre [stratégie SEO e-commerce](/blog/ecommerce-seo-strategy) plus large.",
           items: [
@@ -234,8 +233,7 @@ items: [
     es: {
       badge: "Medir resultados",
       heading: "Seguimiento de posiciones para ecommerce",
-      intro:
-        "El seguimiento de posiciones en ecommerce es fundamentalmente diferente al seguimiento de un negocio de servicios con 50 palabras clave. Las tiendas necesitan monitorear miles de palabras clave de productos y categorias en multiples ubicaciones y dispositivos. La configuracion correcta te da visibilidad accionable sobre los movimientos de ranking. La incorrecta te entierra en ruido y datos enganosos.",
+      intro: "El seguimiento de posiciones en ecommerce es fundamentalmente diferente al seguimiento de un negocio de servicios con 50 palabras clave. Las tiendas necesitan monitorear miles de palabras clave de productos y categorías en multiples ubicaciones y dispositivos. La configuración correcta te da visibilidad accionable sobre los movimientos de ranking. La incorrecta te entierra en ruido y datos enganosos.",
       readTime: "11 min de lectura",
       sections: [
         {
@@ -255,12 +253,12 @@ items: [
           ],
           image: {
             src: "/images/academy/es/rank-tracking-keyword-tiers.svg",
-            alt: "Diagramm der Keyword-Tracking-Stufen mit Umsatz-Keywords, strategischen Keywords und Long-Tail-Erweiterung",
-            caption: "Organisieren Sie Keywords in Stufen basierend auf Umsatzwirkung und verfolgen Sie jede Stufe mit angemessener Haeufigkeit.",
+            alt: "Diagrama que muestra cuatro niveles de seguimiento de palabras clave de comercio electrónico: términos de marca, palabras clave de categoría, palabras clave de producto y palabras clave informativas con frecuencia de seguimiento.",
+            caption: "Estructura el seguimiento de tus palabras clave en niveles por tipo de página. Los términos de marca y categoría reciben seguimiento diario; Las palabras clave informativas y de productos se pueden realizar un seguimiento semanal.",
           },
           callout: {
             title: "Keyword-Priorisierung",
-            text: "Konzentrieren Sie die taegliche Verfolgung auf die 50-200 Keywords, die direkt Umsatz generieren. Erweitern Sie auf 500+ nur fuer woechentliche strategische Analyse, um Tool-Kosten zu kontrollieren.",
+            text: "Una palabra clave con 500 búsquedas mensuales con un CVR del 4 % y un AOV de 120 $ genera 2400 $/mes. Una palabra clave de 5000 búsquedas con un CVR del 0,3% y un AOV de 25 dólares genera sólo 375 dólares. Priorice el seguimiento por potencial de ingresos, no por volumen",
           },
         },
         {
@@ -281,12 +279,12 @@ items: [
             "Para ecommerce, las funciones SERP pueden robar clics incluso cuando te posicionas bien organicamente. Los resultados de Google Shopping, los Knowledge Panels de productos, los paquetes de imagenes y los fragmentos destacados compiten por la atencion por encima o junto a los listings organicos.\n\nLa integracion de Google Shopping en los resultados de busqueda principales se ha expandido constantemente. Para muchas consultas de productos, el carrusel de shopping aparece en la parte superior de la pagina, empujando los resultados organicos debajo del pliegue en movil.\n\nLos fragmentos destacados son otra area donde las tiendas de ecommerce pueden ganar o perder visibilidad. Las paginas de categoria que responden consultas de comparacion pueden ganar fragmentos destacados que capturan una proporcion desproporcionada de clics.\n\nLos paquetes de imagenes aparecen frecuentemente para consultas de productos, especialmente en moda, decoracion del hogar y electronica. Si tus imagenes de producto aparecen en estos paquetes, generan trafico adicional mas alla de tu listing organico.",
           image: {
             src: "/images/academy/es/serp-feature-visibility.svg",
-            alt: "SERP-Feature-Sichtbarkeitskarte mit verschiedenen Suchergebnis-Elementen und ihrem Einfluss",
-            caption: "SERP-Features haben traditionelle organische Positionen verdraengt. Verfolgen Sie die Feature-Praesenz, nicht nur den Rang.",
+            alt: "Diagrama que muestra cuatro características SERP que afectan el CTR del comercio electrónico: carrusel de compras, fragmento destacado, paquete de imágenes y La gente también pregunta",
+            caption: "Los carruseles de compras tienen el mayor impacto en el CTR, ya que reducen la tasa de clics en la posición orgánica 1 de ~30% a 15-20%.",
           },
           callout: {
             title: "Feature-Tracking-Prioritaet",
-            text: "Featured Snippets und Shopping-Ergebnisse verdraengen organische Klicks um 20-40%. Wenn Sie nur Rangpositionen verfolgen, verpassen Sie die tatsaechliche Sichtbarkeitsgeschichte Ihrer Marke.",
+            text: "Los carruseles de compras reducen el CTR de la posición orgánica 1 casi a la mitad. Para consultas de productos donde aparecen, la posición de su rastreador de clasificación es engañosa a menos que también informe la presencia de funciones SERP.",
           },
         },
         {
@@ -330,12 +328,12 @@ items: [
           ],
           image: {
             src: "/images/academy/it/rank-tracking-keyword-tiers.svg",
-            alt: "Diagramm der Keyword-Tracking-Stufen mit Umsatz-Keywords, strategischen Keywords und Long-Tail-Erweiterung",
-            caption: "Organisieren Sie Keywords in Stufen basierend auf Umsatzwirkung und verfolgen Sie jede Stufe mit angemessener Haeufigkeit.",
+            alt: "Diagramma che mostra quattro livelli di monitoraggio delle parole chiave per l'e-commerce: termini relativi al brand, parole chiave per categoria, parole chiave per prodotto e parole chiave informative con frequenza di monitoraggio",
+            caption: "Struttura il monitoraggio delle parole chiave in livelli per tipo di pagina. I termini relativi al marchio e alla categoria ricevono un monitoraggio giornaliero; le parole chiave relative a prodotti e informazioni possono essere monitorate settimanalmente.",
           },
           callout: {
             title: "Keyword-Priorisierung",
-            text: "Konzentrieren Sie die taegliche Verfolgung auf die 50-200 Keywords, die direkt Umsatz generieren. Erweitern Sie auf 500+ nur fuer woechentliche strategische Analyse, um Tool-Kosten zu kontrollieren.",
+            text: "Una parola chiave con 500 ricerche mensili al 4% CVR e $ 120 AOV genera $ 2.400 al mese. Una parola chiave di ricerca di 5.000 con un CVR dello 0,3% e un AOV di $ 25 genera solo $ 375. Dai la priorità al monitoraggio in base al potenziale di guadagno, non al volume",
           },
         },
         {
@@ -356,12 +354,12 @@ items: [
             "Per l'e-commerce, le funzionalita SERP possono rubare clic anche quando ti posizioni bene organicamente. I risultati Google Shopping, i Knowledge Panel dei prodotti, i pacchetti immagini e i featured snippet competono tutti per l'attenzione sopra o accanto ai listing organici.\n\nL'integrazione di Google Shopping nei risultati di ricerca principali si e costantemente espansa. Per molte query prodotto, il carosello shopping appare in cima alla pagina, spingendo i risultati organici sotto la piega su mobile.\n\nI featured snippet sono un'altra area dove i negozi e-commerce possono guadagnare o perdere visibilita. Le pagine di categoria che rispondono a query di confronto possono conquistare featured snippet che catturano una quota sproporzionata di clic.\n\nI pacchetti immagini appaiono frequentemente per le query prodotto, specialmente nella moda, arredamento ed elettronica. Se le tue immagini prodotto appaiono in questi pacchetti, generano traffico aggiuntivo oltre al tuo listing organico.",
           image: {
             src: "/images/academy/it/serp-feature-visibility.svg",
-            alt: "SERP-Feature-Sichtbarkeitskarte mit verschiedenen Suchergebnis-Elementen und ihrem Einfluss",
-            caption: "SERP-Features haben traditionelle organische Positionen verdraengt. Verfolgen Sie die Feature-Praesenz, nicht nur den Rang.",
+            alt: "Diagramma che mostra quattro funzionalità SERP che influiscono sul CTR dell'e-commerce: carosello degli acquisti, snippet in primo piano, pacchetto di immagini e People Also Ask",
+            caption: "I caroselli di acquisti hanno il maggiore impatto sul CTR, riducendo la percentuale di clic della posizione organica 1 dal 30% circa al 15-20%.",
           },
           callout: {
             title: "Feature-Tracking-Prioritaet",
-            text: "Featured Snippets und Shopping-Ergebnisse verdraengen organische Klicks um 20-40%. Wenn Sie nur Rangpositionen verfolgen, verpassen Sie die tatsaechliche Sichtbarkeitsgeschichte Ihrer Marke.",
+            text: "I caroselli di acquisti hanno ridotto il CTR della posizione organica 1 quasi della metà. Per le query sui prodotti in cui appaiono, la posizione del tuo ranking tracker è fuorviante a meno che non segnali anche la presenza di funzionalità SERP.",
           },
         },
         {
@@ -405,12 +403,12 @@ items: [
           ],
           image: {
             src: "/images/academy/nl/rank-tracking-keyword-tiers.svg",
-            alt: "Diagramm der Keyword-Tracking-Stufen mit Umsatz-Keywords, strategischen Keywords und Long-Tail-Erweiterung",
-            caption: "Organisieren Sie Keywords in Stufen basierend auf Umsatzwirkung und verfolgen Sie jede Stufe mit angemessener Haeufigkeit.",
+            alt: "Diagram met vier niveaus voor het bijhouden van zoekwoorden voor e-commerce: merktermen, categoriezoekwoorden, productzoekwoorden en informatieve zoekwoorden met volgfrequentie",
+            caption: "Structureer uw zoekwoordtracking in niveaus op paginatype. Merk- en categorietermen worden dagelijks gevolgd; product- en informatieve trefwoorden kunnen wekelijks worden gevolgd.",
           },
           callout: {
             title: "Keyword-Priorisierung",
-            text: "Konzentrieren Sie die taegliche Verfolgung auf die 50-200 Keywords, die direkt Umsatz generieren. Erweitern Sie auf 500+ nur fuer woechentliche strategische Analyse, um Tool-Kosten zu kontrollieren.",
+            text: "Een zoekwoord met 500 maandelijkse zoekopdrachten met een CVR van 4% en een AOV van €120,- genereert €2400/maand. Een trefwoord met 5.000 zoekopdrachten met een CVR van 0,3% en een AOV van $ 25 genereert slechts $ 375. Geef prioriteit aan tracking op omzetpotentieel, niet op volume",
           },
         },
         {
@@ -431,12 +429,12 @@ items: [
             "Voor e-commerce kunnen SERP-functies klikken stelen, zelfs wanneer je goed organisch scoort. Google Shopping-resultaten, Product Knowledge Panels, afbeeldingspakketten en featured snippets concurreren allemaal om aandacht boven of naast organische listings.\n\nDe integratie van Google Shopping in de hoofdzoekresultaten is gestaag uitgebreid. Voor veel productqueries verschijnt de shopping-carrousel helemaal bovenaan de pagina, wat organische resultaten onder de vouw op mobiel duwt.\n\nFeatured snippets zijn een ander gebied waar e-commerce winkels zichtbaarheid kunnen winnen of verliezen. Categoriepagina's die vergelijkende queries beantwoorden kunnen featured snippets winnen die een onevenredig groot deel van de klikken vastleggen.\n\nAfbeeldingspakketten verschijnen frequent voor productqueries, vooral in mode, woondecoratie en elektronica. Als je productafbeeldingen in deze pakketten verschijnen, genereren ze extra verkeer bovenop je organische listing.",
           image: {
             src: "/images/academy/nl/serp-feature-visibility.svg",
-            alt: "SERP-Feature-Sichtbarkeitskarte mit verschiedenen Suchergebnis-Elementen und ihrem Einfluss",
-            caption: "SERP-Features haben traditionelle organische Positionen verdraengt. Verfolgen Sie die Feature-Praesenz, nicht nur den Rang.",
+            alt: "Diagram met vier SERP-functies die de CTR van e-commerce beïnvloeden: winkelcarrousel, aanbevolen fragment, afbeeldingspakket en mensen vragen ook",
+            caption: "Winkelcarrousels hebben de hoogste CTR-impact, waardoor de klikfrequentie op organische positie 1 wordt verlaagd van ~30% naar 15-20%.",
           },
           callout: {
             title: "Feature-Tracking-Prioritaet",
-            text: "Featured Snippets und Shopping-Ergebnisse verdraengen organische Klicks um 20-40%. Wenn Sie nur Rangpositionen verfolgen, verpassen Sie die tatsaechliche Sichtbarkeitsgeschichte Ihrer Marke.",
+            text: "Winkelcarrousels halveerden de organische positie 1 CTR bijna. Voor productquery's waarbij deze voorkomen, is uw rangtrackerpositie misleidend, tenzij deze ook de aanwezigheid van SERP-functies rapporteert.",
           },
         },
         {

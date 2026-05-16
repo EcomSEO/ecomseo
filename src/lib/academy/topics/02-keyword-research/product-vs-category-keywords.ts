@@ -150,14 +150,13 @@ export const productVsCategoryKeywords: AcademyTopic = {
       },
     },
     fr: {
-      badge: "Recherche de mots-cles",
-      heading: "Mots-cles produit vs. categorie",
-      intro:
-        "Decider si un mot-cle doit etre cible par une page produit ou une page categorie est l'un des choix SEO les plus determinants pour toute boutique en ligne. Une erreur, et vos pages se font concurrence entre elles au lieu de concurrencer vos rivaux.",
+      badge: "Recherche de mots-clés",
+      heading: "Mots-clés produit vs. catégorie",
+      intro: "Decider si un mot-cle doit être cible par une page produit ou une page catégorie est l'un des choix SEO les plus determinants pour toute boutique en ligne. Une erreur, et vos pages se font concurrence entre elles au lieu de concurrencer vos rivaux.",
       readTime: "8 min de lecture",
       sections: [
         {
-          title: "Quand cibler avec des pages produits vs. des pages categories",
+          title: "Quand cibler avec des pages produits vs. des pages catégories",
           content:
             "La regle la plus simple : regardez ce que Google positionne deja pour le mot-cle. Si les 10 premiers resultats sont principalement des pages de detail produit (articles individuels avec bouton d'ajout au panier), ciblez-le avec une page produit. Si le top 10 montre des listings de categories, des pages collection ou du contenu comparatif, utilisez une page categorie.\n\nLes pages produits devraient cibler des requetes specifiques et precises : noms de produits exacts, numeros de modele, termes au niveau SKU et requetes contenant des specifications detaillees comme la taille, la couleur ou le materiau. Ce sont des termes de bas de funnel ou le chercheur sait ce qu'il veut.\n\nLes pages categories devraient cibler des termes plus larges qui decrivent un type de produit plutot qu'un produit specifique : \"bottes de randonnee impermeables homme\", \"casques sans fil a reduction de bruit\" ou \"draps en coton bio\". Ces termes de milieu de funnel ont un volume plus eleve mais necessitent que le chercheur parcoure les options avant d'acheter.\n\nLa zone grise apparait avec des termes comme marque + type de produit (\"chaussures de course Nike\"). Verifiez la SERP, Google peut afficher un melange de pages categories de marque et de pages produits individuelles. Dans ces cas, une page categorie filtree montrant uniquement cette marque l'emporte generalement.",
           items: [
@@ -169,11 +168,11 @@ export const productVsCategoryKeywords: AcademyTopic = {
           image: {
             src: "/images/academy/fr/product-vs-category-decision.svg",
             alt: "Entscheidungsdiagramm für Produktseiten versus Kategorieseiten",
-            caption: "Prüfen Sie immer zuerst die SERP. Google zeigt Ihnen, welchen Seitentyp es bevorzugt.",
+            caption: "Vérifiez toujours le SERP en premier. Les meilleurs résultats de Google vous indiquent le type de page attendu pour chaque mot clé.",
           },
           callout: {
             title: "Volumen-Aufteilung",
-            text: "Kategorieseiten zielen auf ~150 Mid-Tail-Keywords (1K-5K Suchen), Produktseiten auf 3.000+ Long-Tail-Keywords (20-500 Suchen).",
+            text: "Pour un magasin proposant 1 000 produits dans 50 catégories : les pages de catégories ciblent environ 150 mots-clés de moyenne traîne (1 000 à 5 000 recherches chacune), tandis que les pages de produits ciblent plus de 3 000 mots-clés de longue traîne (20 à 500 recherches chacune). T",
           },
         },
         {
@@ -182,7 +181,7 @@ export const productVsCategoryKeywords: AcademyTopic = {
             "Dans un paysage de mots-cles e-commerce typique, la distribution suit un schema previsible. Un petit nombre de termes generiques (\"ordinateurs portables\", \"chaussures de course\", \"soins de la peau\") ont un volume enorme mais convertissent mal et sont extremement competitifs. Le mid-tail (\"pc portables gaming moins de 1000 euros\", \"chaussures trail femme\") represente le point ideal entre volume, intention et difficulte atteignable.\n\nLa longue traine, qui represente 70-80% de toutes les requetes de recherche, se compose de termes tres specifiques qui ont individuellement un volume minuscule mais collectivement generent la majorite du chiffre d'affaires e-commerce. Ceux-ci correspondent naturellement aux pages produits.\n\nVoici comment les calculs se repartissent typiquement pour une boutique avec 1 000 produits repartis en 50 categories. Les 50 pages categories pourraient cibler 150 mots-cles mid-tail, avec une moyenne de 1 000 a 5 000 recherches chacun. Les 1 000 pages produits pourraient cibler plus de 3 000 mots-cles longue traine, avec une moyenne de 20 a 500 recherches chacun. Le volume de recherche total adressable de la longue traine depasse souvent le mid-tail.\n\nL'insight strategique : vos pages categories luttent pour des termes mid-tail competitifs, tandis que vos pages produits accumulent discretement du trafic longue traine avec un effort minimal. Les deux couches comptent, mais la plupart des boutiques sous-investissent dans l'optimisation des pages produits.",
         },
         {
-          title: "Comment les pages categories se positionnent pour les termes mid-funnel",
+          title: "Comment les pages catégories se positionnent pour les termes mid-funnel",
           content:
             "Les pages categories ont des avantages structurels pour les mots-cles mid-funnel. Elles contiennent plusieurs produits (plus de signaux de contenu), recoivent typiquement plus de liens internes (navigation, fil d'Ariane et liens croises) et correspondent a l'intention de recherche de quelqu'un qui parcourt les options plutot que de regarder un seul article.\n\nPour se positionner efficacement, les pages categories ont besoin de plus qu'une grille de miniatures de produits. Elles necessitent un paragraphe d'introduction descriptif (100-200 mots) utilisant naturellement le mot-cle cible, des options de filtrage qui refletent la facon dont les gens cherchent (par gamme de prix, fonctionnalites, cas d'usage), et suffisamment de listings de produits pour demontrer l'autorite sur le sujet.\n\nLa navigation a facettes cree une opportunite puissante ici. Si votre page categorie pour \"casques sans fil\" permet aux utilisateurs de filtrer par \"reduction de bruit\", \"circum-aural\" et \"moins de 100 euros\", vous pouvez creer des vues filtrees qui ciblent des termes mid-tail specifiques. La structure d'URL compte, chaque combinaison de filtres significative devrait produire une URL crawlable et indexable.\n\nN'oubliez pas le texte de la page categorie sous la grille de produits. Une section de 300-500 mots couvrant les considerations d'achat, les comparaisons de fonctionnalites et les recommandations par cas d'usage aide a la fois le positionnement et la conversion. Ce contenu repond aux questions que les acheteurs mid-funnel se posent, construisant la confiance avant qu'ils ne cliquent vers un produit. Notre guide sur le [SEO des pages catégories](/academy/category-page-seo) couvre cela en détail, mais les essentiels incluent un paragraphe d'introduction descriptif (100-200 mots) utilisant naturellement le mot-clé cible, des options de filtrage reflétant la façon dont les gens recherchent (par gamme de prix, caractéristiques, cas d'usage), et suffisamment de listings produits pour démontrer l'autorité sur le sujet.\n\nLa navigation à facettes crée une opportunité puissante ici, comme expliqué dans notre guide sur le [SEO des pages catégories e-commerce](/blog/ecommerce-category-page-seo).",
           items: [
@@ -194,13 +193,13 @@ export const productVsCategoryKeywords: AcademyTopic = {
           tip: "Verifiez vos analytics pour les requetes de recherche qui correspondent a des combinaisons de filtres. Si les gens cherchent \"enceintes bluetooth etanches moins de 50 euros\", assurez-vous que cette combinaison de filtres exacte a sa propre URL crawlable avec du contenu optimise.",
         },
         {
-          title: "Ciblage de mots-cles de pages produits avec attributs et specifications",
+          title: "Ciblage de mots-clés de pages produits avec attributs et specifications",
           content:
             "Les pages produits ciblent naturellement un mot-cle principal, generalement le nom du produit. Mais la vraie valeur SEO vient des mots-cles secondaires que vous tissez dans la page a travers les specifications, attributs et contenu descriptif.\n\nChaque attribut de produit est une opportunite de mot-cle. Une page produit pour un sac a dos de randonnee devrait naturellement inclure le volume (en litres), le materiau, le poids, l'indice d'impermeabilite, le nombre de compartiments, le type d'armature et les tailles de corps compatibles. Chacun de ces attributs, combine avec le type de produit, cree un mot-cle longue traine pour lequel la page peut se positionner.\n\nLa description du produit est la ou la plupart des boutiques echouent. Les descriptions du fabricant sont dupliquees chez chaque revendeur qui commercialise le produit, zero valeur SEO. Redigez des descriptions uniques qui integrent les attributs en langage naturel : \"Ce sac a dos ultralight de 45 litres ne pese que 890 grammes et dispose d'une coque en nylon ripstop impermeable\" cible au moins quatre variations longue traine.\n\nLes donnees structurees (schema produit) amplifient la visibilite de ces attributs dans les resultats de recherche. Quand votre page produit inclut un balisage schema correct pour le prix, la disponibilite, les avis et les specifications, Google peut afficher des extraits enrichis qui ameliorent les taux de clic de 20-30%. Découvrez comment optimiser ces pages dans notre sujet sur le [SEO des pages produits](/academy/product-page-seo).",
           tip: "Construisez un template de contenu de page produit pour chaque categorie de produits. Listez tous les attributs pertinents comme des champs, cela garantit que chaque page produit couvre les memes specifications riches en mots-cles, meme quand elles sont redigees par differents membres de l'equipe.",
         },
         {
-          title: "Eviter la cannibalisation entre pages produits et pages categories",
+          title: "Eviter la cannibalisation entre pages produits et pages catégories",
           content:
             "La cannibalisation de mots-cles se produit lorsque plusieurs pages de votre site se font concurrence pour le meme terme de recherche. Pour les boutiques e-commerce, la forme la plus courante est une page categorie et une page produit qui tentent toutes deux de se positionner sur le meme mot-cle. Google ne sait plus quelle page afficher, et souvent aucune ne se positionne bien.\n\nLe signal le plus clair de cannibalisation : verifiez dans la GSC un mot-cle et voyez si plusieurs URLs de votre site apparaissent, avec des positions qui fluctuent entre elles. Si votre page categorie pour \"bottes cuir homme\" et une page produit specifique alternent entre la position 8 et la position 15, c'est la cannibalisation qui ronge vos classements.\n\nLa prevention est simple. Attribuez un mot-cle principal a chaque page et documentez-le dans votre carte de mots-cles. Les pages categories obtiennent le terme plus large (\"bottes cuir homme\"), les pages produits obtiennent le terme specifique (\"botte Wolverine 1000 Mile marron taille 43\"). Le titre et le H1 de la page produit devraient utiliser le nom du produit, pas le mot-cle de la categorie.\n\nLe maillage interne renforce la hierarchie. Votre page produit devrait lier a sa categorie parente (renforcant la categorie comme autorite pour le terme plus large), et votre page categorie devrait lier aux produits individuels (transmettant l'autorite aux termes specifiques). Le fil d'Ariane gere cela naturellement quand il est correctement structure.\n\nQuand la cannibalisation existe deja, la correction depend de la page qui devrait se positionner. Generalement, c'est la page categorie pour les termes mid-tail et la page produit pour les termes de produit specifiques. Renforcez le maillage interne vers la page preferee et ajustez l'optimisation on-page de l'autre page pour se concentrer sur des mots-cles differents.",
           items: [
@@ -211,7 +210,7 @@ export const productVsCategoryKeywords: AcademyTopic = {
           ],
         },
         {
-          title: "Cadre de decision pratique",
+          title: "Cadre de décision pratique",
           content:
             "Quand vous rencontrez un nouveau mot-cle, suivez cet arbre de decision. Premierement, verifiez la SERP : quels types de pages se positionnent dans le top 5 ? Si les pages produits dominent, attribuez-le a une page produit. Si les pages categories/listings dominent, attribuez-le a une page categorie.\n\nDeuxiemement, evaluez la specificite. Le mot-cle decrit-il un article unique ou un groupe d'articles ? \"Sony WH-1000XM5\" est un article unique, page produit. \"Meilleurs casques sans fil pour courir\" decrit un groupe, page categorie ou guide.\n\nTroisiemement, verifiez vos pages existantes. Avez-vous deja une page qui cible ce mot-cle ou quelque chose de tres proche ? Si oui, optimisez la page existante plutot que d'en creer une nouvelle. Creer un ciblage en double est l'un des moyens les plus rapides de declencher la cannibalisation.\n\nQuatriemement, considerez le parcours utilisateur. Ou se situe la personne qui cherche ce terme dans le processus d'achat ? Les navigateurs en phase initiale ont besoin de pages categories avec filtres et comparaisons. Les acheteurs prets a acheter ont besoin de pages produits avec specifications et options d'achat. Faire correspondre votre type de page a la phase de l'acheteur impacte directement les taux de conversion.",
         },
@@ -223,13 +222,12 @@ export const productVsCategoryKeywords: AcademyTopic = {
     },
     es: {
       badge: "Investigacion de palabras clave",
-      heading: "Palabras clave de producto vs. categoria",
-      intro:
-        "Decidir si apuntar a una palabra clave con una pagina de producto o una pagina de categoria es una de las decisiones SEO mas trascendentales para cualquier tienda online. Si te equivocas, tus paginas compiten entre si en lugar de contra los competidores.",
+      heading: "Palabras clave de producto vs. categoría",
+      intro: "Decidir si apuntar a una palabra clave con una página de producto o una página de categoría es una de las decisiones SEO mas trascendentales para cualquier tienda online. Si te equivocas, tus páginas compiten entre si en lugar de contra los competidores.",
       readTime: "8 min de lectura",
       sections: [
         {
-          title: "Cuando usar paginas de producto vs. paginas de categoria",
+          title: "Cuando usar páginas de producto vs. páginas de categoría",
           content:
             "La regla mas simple: mira lo que Google ya posiciona para la palabra clave. Si los 10 primeros resultados son mayormente paginas de detalle de producto (articulos individuales con boton de anadir al carrito), apunta con una pagina de producto. Si el top 10 muestra listados de categorias, paginas de coleccion o contenido comparativo, usa una pagina de categoria.\n\nLas paginas de producto deben apuntar a consultas especificas y concretas: nombres exactos de productos, numeros de modelo, terminos a nivel de SKU y consultas con especificaciones detalladas como talla, color o material. Son terminos de fondo de embudo donde el buscador sabe lo que quiere.\n\nLas paginas de categoria deben apuntar a terminos mas amplios que describen un tipo de producto en lugar de uno especifico: \"botas de senderismo impermeables hombre\", \"auriculares inalambricos con cancelacion de ruido\" o \"sabanas de algodon organico\". Estos terminos de mitad de embudo tienen mayor volumen pero requieren que el buscador explore opciones antes de comprar.\n\nLa zona gris aparece con terminos como marca + tipo de producto (\"zapatillas Nike de correr\"). Revisa la SERP, Google podria mostrar una mezcla de paginas de categoria de marca y paginas de producto individuales. En estos casos, una pagina de categoria filtrada mostrando solo esa marca tipicamente gana.",
           items: [
@@ -241,11 +239,11 @@ export const productVsCategoryKeywords: AcademyTopic = {
           image: {
             src: "/images/academy/es/product-vs-category-decision.svg",
             alt: "Entscheidungsdiagramm für Produktseiten versus Kategorieseiten",
-            caption: "Prüfen Sie immer zuerst die SERP. Google zeigt Ihnen, welchen Seitentyp es bevorzugt.",
+            caption: "Siempre verifique primero el SERP. Los principales resultados de Google le indican qué tipo de página espera para cada palabra clave.",
           },
           callout: {
             title: "Volumen-Aufteilung",
-            text: "Kategorieseiten zielen auf ~150 Mid-Tail-Keywords (1K-5K Suchen), Produktseiten auf 3.000+ Long-Tail-Keywords (20-500 Suchen).",
+            text: "Para una tienda con 1000 productos en 50 categorías: las páginas de categorías apuntan a ~150 palabras clave de cola larga (de 1.000 a 5.000 búsquedas cada una), mientras que las páginas de productos apuntan a más de 3.000 palabras clave de cola larga (de 20 a 500 búsquedas cada una). t",
           },
         },
         {
@@ -254,7 +252,7 @@ export const productVsCategoryKeywords: AcademyTopic = {
             "En un panorama tipico de palabras clave de ecommerce, la distribucion sigue un patron predecible. Un numero reducido de terminos genericos (\"portatiles\", \"zapatillas de correr\", \"cuidado de la piel\") tienen volumen enorme pero convierten mal y son brutalmente competitivos. El mid-tail (\"portatiles gaming por menos de 1000 euros\", \"zapatillas trail mujer\") representa el punto dulce de volumen, intencion y dificultad alcanzable.\n\nLa cola larga, que comprende el 70-80% de todas las consultas de busqueda, consiste en terminos altamente especificos que individualmente tienen volumen minusculo pero colectivamente generan la mayoria de los ingresos ecommerce. Estos se mapean naturalmente a paginas de producto.\n\nAsi es como las cuentas tipicamente se desglosan para una tienda con 1.000 productos en 50 categorias. Las 50 paginas de categoria podrian apuntar a 150 palabras clave mid-tail, promediando 1.000-5.000 busquedas cada una. Las 1.000 paginas de producto podrian apuntar a mas de 3.000 palabras clave de cola larga, promediando 20-500 busquedas cada una. El volumen de busqueda total direccionable de la cola larga a menudo supera al mid-tail.\n\nEl insight estrategico: tus paginas de categoria luchan por terminos mid-tail competitivos, mientras tus paginas de producto acumulan silenciosamente trafico de cola larga con esfuerzo minimo. Ambas capas importan, pero la mayoria de tiendas sub-invierten en la optimizacion de paginas de producto.",
         },
         {
-          title: "Como las paginas de categoria posicionan para terminos mid-funnel",
+          title: "Cómo las páginas de categoría posicionan para terminos mid-funnel",
           content:
             "Las [paginas de categoria](/academy/category-page-seo) tienen ventajas estructurales para palabras clave mid-funnel. Contienen multiples productos (mas senales de contenido), tipicamente reciben mas enlaces internos (de navegacion, migas de pan y enlaces cruzados) y coinciden con la intencion de busqueda de alguien que explora opciones en lugar de mirar un solo articulo.\n\nPara posicionar efectivamente, las paginas de categoria necesitan mas que una cuadricula de miniaturas de productos. Necesitan un parrafo introductorio descriptivo (100-200 palabras) usando la palabra clave objetivo naturalmente, opciones de filtro que reflejen como la gente busca (por rango de precio, caracteristicas, caso de uso) y suficientes listados de productos para demostrar autoridad en el tema.\n\nLa navegacion facetada crea una oportunidad poderosa aqui. Si tu pagina de categoria para \"auriculares inalambricos\" permite a los usuarios filtrar por \"cancelacion de ruido\", \"circumaurales\" y \"menos de 100 euros\", puedes crear vistas filtradas que apunten a terminos mid-tail especificos. La estructura de URL importa, cada combinacion de filtros significativa deberia producir una URL rastreable e indexable.\n\nNo olvides el texto de la pagina de categoria debajo de la cuadricula de productos. Una seccion de 300-500 palabras cubriendo consideraciones de compra, comparaciones de caracteristicas y recomendaciones por caso de uso ayuda tanto al posicionamiento como a la conversion. Este contenido responde las preguntas que los compradores mid-funnel tienen, construyendo confianza antes de que hagan clic hacia un producto. La navegacion facetada crea una oportunidad poderosa aqui, como se explica en nuestra guia de [SEO de paginas de categoria para ecommerce](/blog/ecommerce-category-page-seo).",
           items: [
@@ -266,13 +264,13 @@ export const productVsCategoryKeywords: AcademyTopic = {
           tip: "Revisa tus analytics para consultas de busqueda que coincidan con combinaciones de filtros. Si la gente busca \"altavoces bluetooth resistentes al agua por menos de 50 euros\", asegurate de que esa combinacion exacta de filtros tenga su propia URL rastreable con contenido optimizado.",
         },
         {
-          title: "Segmentacion de palabras clave en paginas de producto con atributos y especificaciones",
+          title: "Segmentacion de palabras clave en páginas de producto con atributos y especificaciones",
           content:
             "Las [paginas de producto](/academy/product-page-seo) naturalmente apuntan a una palabra clave principal, usualmente el nombre del producto. Pero el verdadero valor SEO viene de las palabras clave secundarias que incorporas en la pagina a traves de especificaciones, atributos y contenido descriptivo.\n\nCada atributo de producto es una oportunidad de palabra clave. Una pagina de producto para una mochila de senderismo deberia incluir naturalmente el volumen (en litros), el material, el peso, la clasificacion de impermeabilidad, el numero de compartimentos, el tipo de estructura y las tallas de cuerpo compatibles. Cada uno de estos atributos, combinado con el tipo de producto, crea una palabra clave de cola larga para la que la pagina puede posicionar.\n\nLa descripcion del producto es donde la mayoria de tiendas fallan. Las descripciones del fabricante estan duplicadas en cada vendedor que tiene el producto, cero valor SEO. Escribe descripciones unicas que incorporen atributos como lenguaje natural: \"Esta mochila ultraligera de 45 litros pesa solo 890 gramos y cuenta con una carcasa de nylon ripstop impermeable\" apunta a al menos cuatro variaciones de cola larga.\n\nLos datos estructurados (schema de producto) amplifican la visibilidad de estos atributos en los resultados de busqueda. Cuando tu pagina de producto incluye marcado schema correcto para precio, disponibilidad, resenas y especificaciones, Google puede mostrar fragmentos enriquecidos que mejoran las tasas de clic en un 20-30%.",
           tip: "Construye una plantilla de contenido de pagina de producto para cada categoria de productos. Lista todos los atributos relevantes como campos, esto asegura que cada pagina de producto cubra las mismas especificaciones ricas en palabras clave, incluso cuando las escriban diferentes miembros del equipo.",
         },
         {
-          title: "Evitar la canibalizacion entre paginas de producto y categoria",
+          title: "Evitar la canibalización entre páginas de producto y categoría",
           content:
             "La canibalizacion de palabras clave ocurre cuando multiples paginas de tu sitio compiten por el mismo termino de busqueda. Para tiendas ecommerce, la forma mas comun es una pagina de categoria y una pagina de producto intentando posicionar para la misma palabra clave. Google se confunde sobre que pagina mostrar, y a menudo ninguna posiciona bien.\n\nLa senal mas clara de canibalizacion: revisa en GSC una palabra clave y mira si multiples URLs de tu sitio aparecen, con posiciones que fluctuan entre ellas. Si tu pagina de categoria para \"botas de cuero hombre\" y una pagina de producto especifica alternan entre la posicion 8 y la 15, eso es canibalizacion consumiendo tus rankings.\n\nLa prevencion es directa. Asigna una palabra clave principal a cada pagina y documentala en tu mapa de palabras clave. Las paginas de categoria reciben el termino mas amplio (\"botas de cuero hombre\"), las paginas de producto reciben el termino especifico (\"bota Wolverine 1000 Mile marron talla 43\"). El titulo y H1 de la pagina de producto deben usar el nombre del producto, no la palabra clave de la categoria.\n\nEl enlazado interno refuerza la jerarquia. Tu pagina de producto debe enlazar a su categoria padre (reforzando la categoria como autoridad para el termino mas amplio), y tu pagina de categoria debe enlazar a productos individuales (pasando autoridad a los terminos especificos). Las migas de pan manejan esto naturalmente cuando estan correctamente estructuradas.\n\nCuando la canibalizacion ya existe, la solucion depende de que pagina deberia posicionar. Usualmente, es la pagina de categoria para terminos mid-tail y la pagina de producto para terminos de producto especificos. Refuerza el enlazado interno hacia la pagina preferida y ajusta la optimizacion on-page de la otra pagina para enfocarse en palabras clave diferentes.",
           items: [
@@ -283,7 +281,7 @@ export const productVsCategoryKeywords: AcademyTopic = {
           ],
         },
         {
-          title: "Marco de decision practico",
+          title: "Marco de decisión practico",
           content:
             "Cuando encuentres una nueva palabra clave, recorre este arbol de decision. Primero, revisa la SERP: que tipos de pagina posicionan en el top 5? Si dominan las paginas de producto, asignala a una pagina de producto. Si dominan las paginas de categoria/listado, asignala a una pagina de categoria.\n\nSegundo, evalua la especificidad. La palabra clave describe un articulo o un grupo de articulos? \"Sony WH-1000XM5\" es un articulo, pagina de producto. \"Mejores auriculares inalambricos para correr\" describe un grupo, pagina de categoria o guia.\n\nTercero, revisa tus paginas existentes. Ya tienes una pagina que apunta a esta palabra clave o algo muy similar? Si es asi, optimiza la pagina existente en lugar de crear una nueva. Crear targeting duplicado es una de las formas mas rapidas de provocar canibalizacion.\n\nCuarto, considera el recorrido del usuario. Donde cae alguien que busca este termino en el proceso de compra? Los navegadores en etapas tempranas necesitan paginas de categoria con filtros y comparaciones. Los compradores listos para comprar necesitan paginas de producto con especificaciones y opciones de compra. Hacer coincidir tu tipo de pagina con la etapa del comprador impacta directamente en las tasas de conversion.",
         },
@@ -313,11 +311,11 @@ export const productVsCategoryKeywords: AcademyTopic = {
           image: {
             src: "/images/academy/it/product-vs-category-decision.svg",
             alt: "Entscheidungsdiagramm für Produktseiten versus Kategorieseiten",
-            caption: "Prüfen Sie immer zuerst die SERP. Google zeigt Ihnen, welchen Seitentyp es bevorzugt.",
+            caption: "Controlla sempre prima la SERP. I migliori risultati di Google ti dicono quale tipo di pagina si aspetta per ciascuna parola chiave.",
           },
           callout: {
             title: "Volumen-Aufteilung",
-            text: "Kategorieseiten zielen auf ~150 Mid-Tail-Keywords (1K-5K Suchen), Produktseiten auf 3.000+ Long-Tail-Keywords (20-500 Suchen).",
+            text: "Per un negozio con 1.000 prodotti in 50 categorie: le pagine delle categorie hanno come target circa 150 parole chiave a coda centrale (da 1.000 a 5.000 ricerche ciascuna), mentre le pagine dei prodotti hanno come target oltre 3.000 parole chiave a coda lunga (da 20 a 500 ricerche ciascuna). T",
           },
         },
         {
@@ -385,11 +383,11 @@ export const productVsCategoryKeywords: AcademyTopic = {
           image: {
             src: "/images/academy/nl/product-vs-category-decision.svg",
             alt: "Entscheidungsdiagramm für Produktseiten versus Kategorieseiten",
-            caption: "Prüfen Sie immer zuerst die SERP. Google zeigt Ihnen, welchen Seitentyp es bevorzugt.",
+            caption: "Controleer altijd eerst de SERP. De topresultaten van Google vertellen u welk paginatype het voor elk zoekwoord verwacht.",
           },
           callout: {
             title: "Volumen-Aufteilung",
-            text: "Kategorieseiten zielen auf ~150 Mid-Tail-Keywords (1K-5K Suchen), Produktseiten auf 3.000+ Long-Tail-Keywords (20-500 Suchen).",
+            text: "Voor een winkel met 1.000 producten in 50 categorieën: categoriepagina's targeten ~150 mid-tail zoekwoorden (elk 1.000 tot 5.000 zoekopdrachten), terwijl productpagina's zich richten op meer dan 3.000 long-tail zoekwoorden (elk 20-500 zoekopdrachten). T",
           },
         },
         {

@@ -208,8 +208,7 @@ export const crawlBudgetManagement: AcademyTopic = {
     fr: {
       badge: "SEO Technique",
       heading: "Gestion du budget de crawl",
-      intro:
-        "Google alloue un nombre limite de pages qu'il explorera sur votre site dans un delai donne. Pour les boutiques avec des milliers de produits, de pages de filtres et d'URLs a parametres, une mauvaise gestion de ce budget de crawl signifie que Google gaspille du temps sur des pages sans valeur tout en ignorant celles qui generent reellement du chiffre d'affaires. C'est l'un des sujets clés du [SEO technique pour l'e-commerce](/blog/technical-seo-for-ecommerce).",
+      intro: "Google alloue un nombre limite de pages qu'il explorera sur votre site dans un delai donne. Pour les boutiques avec des milliers de produits, de pages de filtres et d'URLs a parametres, une mauvaise gestion de ce budget de crawl signifie que Google gaspille du temps sur des pages sans valeur tout en ignorant celles qui generent reellement du chiffre d'affaires. C'est l'un des sujets clés du [SEO technique pour l'e-commerce](/blog/technical-seo-for-ecommerce).",
       readTime: "10 min de lecture",
       sections: [
         {
@@ -224,12 +223,12 @@ export const crawlBudgetManagement: AcademyTopic = {
           ],
           image: {
             src: "/images/academy/fr/crawl-budget-components.svg",
-            alt: "Diagramm das Crawl-Budget als Kombination von Crawl-Rate-Limit (Serverkapazitaet) und Crawl-Nachfrage (Googles Interesse) zeigt",
-            caption: "Crawl-Budget wird durch zwei Faktoren bestimmt: wie schnell Ihr Server antworten kann und wie stark Google an Ihren Inhalten interessiert ist.",
+            alt: "Diagramme montrant le budget d'exploration comme la combinaison de la limite de vitesse d'exploration (capacité du serveur) et de la demande d'exploration (intérêt de Google)",
+            caption: "Le budget d'exploration est déterminé par deux facteurs : la rapidité avec laquelle votre serveur peut répondre et l'intérêt de Google pour votre contenu.",
           },
           callout: {
             title: "Echtes Audit-Ergebnis",
-            text: "Ein mittelgrosser Modeshop hatte 8.000 Produkte aber 340.000 crawlbare URLs. Googlebot verbrachte 85% des Crawl-Budgets fuer Parameterseiten waehrend 30% der Produktseiten ueber 90 Tage lang nicht erneut gecrawlt wurden.",
+            text: "Un magasin de mode de taille moyenne proposait 8 000 produits mais 340 000 URL explorables. Googlebot a dépensé 85 % du budget d'exploration sur les pages de paramètres, tandis que 30 % des pages de produits n'ont pas été explorées pendant plus de 90 jours.",
           },
         },
         {
@@ -263,12 +262,12 @@ export const crawlBudgetManagement: AcademyTopic = {
           ],
           image: {
             src: "/images/academy/fr/crawl-budget-allocation.svg",
-            alt: "Vorher-Nachher-Vergleich der zeigt wie sich das Crawl-Budget von 85% Filterseiten auf 55% Produktseiten nach der Optimierung verschiebt",
-            caption: "Nach dem Blockieren minderwertiger URLs verschiebt sich das Crawl-Budget dramatisch hin zu umsatzgenerierenden Produkt- und Kategorieseiten.",
+            alt: "Comparaison avant et après montrant que le budget d'exploration passe de 85 % de pages de filtre à 55 % de pages de produits après optimisation",
+            caption: "Après avoir bloqué les URL de faible valeur, le budget d'exploration est considérablement réorienté vers les pages de produits et de catégories génératrices de revenus.",
           },
           callout: {
             title: "Budget-Umverteilung",
-            text: "Das Blockieren von Filter- und Sortierparametern via robots.txt verschiebt typischerweise 15-25% des Crawl-Budgets zurueck zu Produktseiten innerhalb von 2-4 Wochen und erhoeht die Crawl-Frequenz fuer Produkte um 40% oder mehr.",
+            text: "Le blocage des paramètres de filtrage et de tri via robots.txt transfère généralement 15 à 25 % du budget d'exploration vers les pages de produits dans un délai de 2 à 4 semaines, augmentant ainsi la fréquence d'exploration des produits de 40 % ou plus.",
           },
         },
         {
@@ -306,14 +305,13 @@ export const crawlBudgetManagement: AcademyTopic = {
       },
     },
     es: {
-      badge: "SEO Tecnico",
+      badge: "SEO Técnico",
       heading: "Gestion del presupuesto de rastreo",
-      intro:
-        "Google asigna un numero limitado de paginas que rastreara en tu sitio dentro de un periodo de tiempo determinado. Para tiendas con miles de productos, paginas de filtros y URLs con parametros, una mala gestion de este presupuesto de rastreo significa que Google pierde tiempo en paginas sin valor mientras ignora las que realmente generan ingresos. Este es uno de los temas clave del [SEO tecnico para ecommerce](/blog/technical-seo-for-ecommerce).",
+      intro: "Google asigna un numero limitado de páginas que rastreara en tu sitio dentro de un periodo de tiempo determinado. Para tiendas con miles de productos, páginas de filtros y URLs con parametros, una mala gestion de este presupuesto de rastreo significa que Google pierde tiempo en páginas sin valor mientras ignora las que realmente generan ingresos. Este es uno de los temas clave del [SEO técnico para ecommerce](/blog/technical-seo-for-ecommerce).",
       readTime: "10 min de lectura",
       sections: [
         {
-          title: "Que es realmente el presupuesto de rastreo",
+          title: "Qué es realmente el presupuesto de rastreo",
           content:
             "El presupuesto de rastreo es la combinacion de dos factores: el limite de frecuencia de rastreo (cuantas solicitudes por segundo Googlebot puede hacer sin sobrecargar tu servidor) y la demanda de rastreo (cuanto quiere Google rastrear tu sitio basado en popularidad y frescura). Juntos, determinan el numero total de paginas que Googlebot rastreara en un periodo dado.\n\nPara tiendas pequenas con menos de 5.000 paginas, el presupuesto de rastreo raramente es una preocupacion. Google rastreara tu sitio completo regularmente sin problemas. Pero una vez que tu tienda supera las 10.000 URLs (incluyendo variaciones de parametros, paginas de filtros y listados paginados), el presupuesto de rastreo se convierte en un cuello de botella real.\n\nUna tienda de moda de tamano medio que auditamos tenia 8.000 productos reales pero mas de 340.000 URLs rastreables debido a la navegacion facetada, parametros de color/talla, variaciones de ordenacion y paginacion. Googlebot gastaba el 85 % de su presupuesto de rastreo en estas paginas de parametros sin valor, mientras que el 30 % de las paginas de productos reales no habian sido re-rastreadas en mas de 90 dias.",
           items: [
@@ -324,12 +322,12 @@ export const crawlBudgetManagement: AcademyTopic = {
           ],
           image: {
             src: "/images/academy/es/crawl-budget-components.svg",
-            alt: "Diagramm das Crawl-Budget als Kombination von Crawl-Rate-Limit (Serverkapazitaet) und Crawl-Nachfrage (Googles Interesse) zeigt",
-            caption: "Crawl-Budget wird durch zwei Faktoren bestimmt: wie schnell Ihr Server antworten kann und wie stark Google an Ihren Inhalten interessiert ist.",
+            alt: "Diagrama que muestra el presupuesto de rastreo como la combinación del límite de velocidad de rastreo (capacidad del servidor) y la demanda de rastreo (interés de Google)",
+            caption: "El presupuesto de rastreo está determinado por dos factores: qué tan rápido puede responder su servidor y qué tan interesado está Google en su contenido.",
           },
           callout: {
             title: "Echtes Audit-Ergebnis",
-            text: "Ein mittelgrosser Modeshop hatte 8.000 Produkte aber 340.000 crawlbare URLs. Googlebot verbrachte 85% des Crawl-Budgets fuer Parameterseiten waehrend 30% der Produktseiten ueber 90 Tage lang nicht erneut gecrawlt wurden.",
+            text: "Una tienda de moda de tamaño mediano tenía 8.000 productos pero 340.000 URL rastreables. El robot de Google gastó el 85 % del presupuesto de rastreo en páginas de parámetros, mientras que el 30 % de las páginas de productos no se rastrearon durante más de 90 días.",
           },
         },
         {
@@ -363,12 +361,12 @@ export const crawlBudgetManagement: AcademyTopic = {
           ],
           image: {
             src: "/images/academy/es/crawl-budget-allocation.svg",
-            alt: "Vorher-Nachher-Vergleich der zeigt wie sich das Crawl-Budget von 85% Filterseiten auf 55% Produktseiten nach der Optimierung verschiebt",
-            caption: "Nach dem Blockieren minderwertiger URLs verschiebt sich das Crawl-Budget dramatisch hin zu umsatzgenerierenden Produkt- und Kategorieseiten.",
+            alt: "Comparación antes y después que muestra que el presupuesto de rastreo cambia del 85 % de las páginas de filtro al 55 % de las páginas de productos después de la optimización.",
+            caption: "Después de bloquear las URL de bajo valor, el presupuesto de rastreo cambia drásticamente hacia páginas de categorías y productos que generan ingresos.",
           },
           callout: {
             title: "Budget-Umverteilung",
-            text: "Das Blockieren von Filter- und Sortierparametern via robots.txt verschiebt typischerweise 15-25% des Crawl-Budgets zurueck zu Produktseiten innerhalb von 2-4 Wochen und erhoeht die Crawl-Frequenz fuer Produkte um 40% oder mehr.",
+            text: "Al bloquear los parámetros de filtrado y clasificación a través de robots.txt, normalmente se desvía entre un 15 y un 25 % del presupuesto de rastreo a las páginas de productos en un plazo de 2 a 4 semanas, lo que aumenta la frecuencia de rastreo de productos en un 40 % o más.",
           },
         },
         {
@@ -424,12 +422,12 @@ export const crawlBudgetManagement: AcademyTopic = {
           ],
           image: {
             src: "/images/academy/it/crawl-budget-components.svg",
-            alt: "Diagramm das Crawl-Budget als Kombination von Crawl-Rate-Limit (Serverkapazitaet) und Crawl-Nachfrage (Googles Interesse) zeigt",
-            caption: "Crawl-Budget wird durch zwei Faktoren bestimmt: wie schnell Ihr Server antworten kann und wie stark Google an Ihren Inhalten interessiert ist.",
+            alt: "Diagramma che mostra il budget di scansione come combinazione del limite della velocità di scansione (capacità del server) e della domanda di scansione (interesse di Google)",
+            caption: "Il budget di scansione è determinato da due fattori: la velocità con cui il tuo server può rispondere e quanto è interessato Google ai tuoi contenuti.",
           },
           callout: {
             title: "Echtes Audit-Ergebnis",
-            text: "Ein mittelgrosser Modeshop hatte 8.000 Produkte aber 340.000 crawlbare URLs. Googlebot verbrachte 85% des Crawl-Budgets fuer Parameterseiten waehrend 30% der Produktseiten ueber 90 Tage lang nicht erneut gecrawlt wurden.",
+            text: "Un negozio di moda di medie dimensioni aveva 8.000 prodotti ma 340.000 URL scansionabili. Googlebot ha speso l'85% del budget di scansione per le pagine dei parametri, mentre il 30% delle pagine dei prodotti non è stato sottoposto a nuova scansione per oltre 90 giorni.",
           },
         },
         {
@@ -463,12 +461,12 @@ export const crawlBudgetManagement: AcademyTopic = {
           ],
           image: {
             src: "/images/academy/it/crawl-budget-allocation.svg",
-            alt: "Vorher-Nachher-Vergleich der zeigt wie sich das Crawl-Budget von 85% Filterseiten auf 55% Produktseiten nach der Optimierung verschiebt",
-            caption: "Nach dem Blockieren minderwertiger URLs verschiebt sich das Crawl-Budget dramatisch hin zu umsatzgenerierenden Produkt- und Kategorieseiten.",
+            alt: "Confronto prima e dopo che mostra il passaggio del crawl budget dall'85% delle pagine filtro al 55% delle pagine prodotto dopo l'ottimizzazione",
+            caption: "Dopo aver bloccato gli URL di basso valore, il crawl budget si sposta drasticamente verso le pagine di prodotti e categorie che generano entrate.",
           },
           callout: {
             title: "Budget-Umverteilung",
-            text: "Das Blockieren von Filter- und Sortierparametern via robots.txt verschiebt typischerweise 15-25% des Crawl-Budgets zurueck zu Produktseiten innerhalb von 2-4 Wochen und erhoeht die Crawl-Frequenz fuer Produkte um 40% oder mehr.",
+            text: "Il blocco dei parametri di filtro e ordinamento tramite robots.txt in genere sposta il 15-25% del budget di scansione sulle pagine dei prodotti entro 2-4 settimane, aumentando la frequenza di scansione dei prodotti del 40% o più.",
           },
         },
         {
@@ -524,12 +522,12 @@ export const crawlBudgetManagement: AcademyTopic = {
           ],
           image: {
             src: "/images/academy/nl/crawl-budget-components.svg",
-            alt: "Diagramm das Crawl-Budget als Kombination von Crawl-Rate-Limit (Serverkapazitaet) und Crawl-Nachfrage (Googles Interesse) zeigt",
-            caption: "Crawl-Budget wird durch zwei Faktoren bestimmt: wie schnell Ihr Server antworten kann und wie stark Google an Ihren Inhalten interessiert ist.",
+            alt: "Diagram met het crawlbudget als de combinatie van de crawlsnelheidslimiet (servercapaciteit) en de crawlvraag (in het belang van Google)",
+            caption: "Het crawlbudget wordt bepaald door twee factoren: hoe snel uw server kan reageren en hoe geïnteresseerd Google is in uw inhoud.",
           },
           callout: {
             title: "Echtes Audit-Ergebnis",
-            text: "Ein mittelgrosser Modeshop hatte 8.000 Produkte aber 340.000 crawlbare URLs. Googlebot verbrachte 85% des Crawl-Budgets fuer Parameterseiten waehrend 30% der Produktseiten ueber 90 Tage lang nicht erneut gecrawlt wurden.",
+            text: "Een middelgrote modewinkel had 8.000 producten, maar 340.000 crawlbare URL's. Googlebot besteedde 85% van het crawlbudget aan parameterpagina's, terwijl 30% van de productpagina's meer dan 90 dagen lang niet opnieuw werd gecrawld.",
           },
         },
         {
@@ -563,12 +561,12 @@ export const crawlBudgetManagement: AcademyTopic = {
           ],
           image: {
             src: "/images/academy/nl/crawl-budget-allocation.svg",
-            alt: "Vorher-Nachher-Vergleich der zeigt wie sich das Crawl-Budget von 85% Filterseiten auf 55% Produktseiten nach der Optimierung verschiebt",
-            caption: "Nach dem Blockieren minderwertiger URLs verschiebt sich das Crawl-Budget dramatisch hin zu umsatzgenerierenden Produkt- und Kategorieseiten.",
+            alt: "Voor en na vergelijking waarbij het crawlbudget na optimalisatie verschuift van 85% filterpagina's naar 55% productpagina's",
+            caption: "Na het blokkeren van URL's met een lage waarde verschuift het crawlbudget dramatisch naar omzetgenererende product- en categoriepagina's.",
           },
           callout: {
             title: "Budget-Umverteilung",
-            text: "Das Blockieren von Filter- und Sortierparametern via robots.txt verschiebt typischerweise 15-25% des Crawl-Budgets zurueck zu Produktseiten innerhalb von 2-4 Wochen und erhoeht die Crawl-Frequenz fuer Produkte um 40% oder mehr.",
+            text: "Door filter- en sorteerparameters via robots.txt te blokkeren, wordt doorgaans 15-25% van het crawlbudget binnen 2-4 weken terugverplaatst naar productpagina's, waardoor de crawlfrequentie van producten met 40% of meer toeneemt.",
           },
         },
         {

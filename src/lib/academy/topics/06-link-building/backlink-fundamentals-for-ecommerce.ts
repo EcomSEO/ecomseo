@@ -199,9 +199,8 @@ export const backlinkFundamentalsForEcommerce: AcademyTopic = {
     },
     fr: {
       badge: "Link Building",
-      heading: "Fondamentaux des Backlinks pour le E-Commerce",
-      intro:
-        "Les backlinks restent l'un des signaux de classement les plus puissants utilises par Google pour evaluer les boutiques en ligne. Chaque lien provenant d'un autre site web agit comme un vote de confiance, indiquant aux moteurs de recherche que votre boutique offre un contenu digne d'etre reference. Comprendre comment fonctionnent les backlinks, et lesquels font vraiment la difference pour le e-commerce, constitue la base de toute strategie de link building presentee dans ce cluster. Comprendre comment les backlinks fonctionnent, et lesquels font vraiment bouger les choses pour l'e-commerce, constitue la base de toute stratégie de [link building](/link-building) présentée dans ce cluster.",
+      heading: "Fondamentaux des Backlinks pour le E-commerce",
+      intro: "Les backlinks restent l'un des signaux de classement les plus puissants utilises par Google pour évaluer les boutiques en ligne. Chaque lien provenant d'un autre site web agit comme un vote de confiance, indiquant aux moteurs de recherche que votre boutique offre un contenu digne d'être référence. Comprendre comment fonctionnent les backlinks, et lesquels font vraiment la difference pour le e-commerce, constitue la base de toute stratégie de link building presentee dans ce cluster. Comprendre comment les backlinks fonctionnent, et lesquels font vraiment bouger les choses pour l'e-commerce, constitue la base de toute stratégie de [link building](/link-building) présentée dans ce cluster.",
       readTime: "11 min de lecture",
       sections: [
         {
@@ -222,12 +221,12 @@ export const backlinkFundamentalsForEcommerce: AcademyTopic = {
           tip: "Lors de l'evaluation d'un backlink potentiel, verifiez trois choses dans l'ordre : la pertinence thematique avec vos produits, le score d'autorite du domaine source, et si le lien sera dofollow et place dans le contenu principal. Un lien qui repond a ces trois criteres vaut dix liens qui n'en remplissent qu'un seul.",
           image: {
             src: "/images/academy/fr/backlink-value-factors.svg",
-            alt: "Diagramm das die vier Faktoren zeigt die den Backlink-Wert bestimmen: Relevanz, Autoritaet, Platzierung und Dofollow-Status",
-            caption: "Google bewertet jeden Backlink nach vier Faktoren. Ein Link der in allen vier gut abschneidet ist zehn Links wert die nur ein Kriterium erfuellen.",
+            alt: "Diagramme montrant les quatre facteurs qui déterminent la valeur du backlink : pertinence, autorité, placement et statut dofollow",
+            caption: "Google évalue chaque backlink sur quatre facteurs. Un lien qui obtient de bons résultats sur les quatre critères vaut dix liens qui ne répondent qu’à un seul critère.",
           },
           callout: {
-            title: "Qualitaet vor Quantitaet",
-            text: "Ein relevanter DR-70+-Redaktionslink kann Dutzende minderwertiger Verzeichnislinks aufwiegen. Seiten auf den Positionen 1-3 haben durchschnittlich 3,5x mehr verweisende Domains als Seiten auf den Positionen 7-10.",
+            title: "La qualité plutôt que la quantité",
+            text: "Un lien éditorial DR 70+ pertinent peut surpasser des dizaines de liens d’annuaire de mauvaise qualité. Les pages aux positions 1 à 3 contiennent en moyenne 3,5 fois plus de domaines référents que les pages aux positions 7 à 10.tionen 7-10.",
           },
         },
         {
@@ -242,22 +241,22 @@ export const backlinkFundamentalsForEcommerce: AcademyTopic = {
           ],
         },
         {
-          title: "Comment Google evalue la qualite des liens",
+          title: "Comment Google évalue la qualité des liens",
           content:
             "L'evaluation des liens par Google a considerablement evolue depuis les debuts de PageRank. L'algorithme considere desormais le contexte complet entourant un lien, pas seulement le nombre brut de domaines referents. Un seul lien d'une page hautement pertinente et autoritaire au sein d'un article bien structure peut l'emporter sur des dizaines de liens provenant de repertoires de faible qualite ou de sections de commentaires de blog.\n\nLe texte d'ancrage, le texte cliquable d'un lien, fournit a Google un signal fort sur le sujet de la page liee. Les profils de backlinks naturels montrent un texte d'ancrage diversifie : ancres de marque (le nom de votre boutique), ancres generiques (\"cliquez ici\", \"ce site\"), URLs brutes, et occasionnellement des ancres riches en mots-cles. Si un grand pourcentage de vos backlinks utilise des ancres de mots-cles a correspondance exacte, Google peut considerer cela comme manipulatif.\n\nGoogle evalue egalement la velocite des liens, le rythme auquel un site acquiert de nouveaux backlinks au fil du temps. Un profil naturel montre une croissance reguliere et organique avec des pics occasionnels autour de lancements de produits, evenements de vente ou contenu viral.\n\nLes voisinages de liens comptent aussi. Si les sites qui vous lient pointent egalement vers des sites spammeurs ou de faible qualite, la valeur de ces liens diminue. Inversement, si votre profil de backlinks partage des domaines referents avec des concurrents respectes dans votre niche, Google voit votre site plus favorablement.",
           tip: "Effectuez un audit mensuel des backlinks avec Ahrefs ou Google Search Console. Recherchez les pics soudains de liens de faible qualite, le texte d'ancrage sur-optimise ou les liens de niches non pertinentes. Desavouer les liens toxiques avant qu'ils ne s'accumulent previent les penalites de classement potentielles.",
           image: {
             src: "/images/academy/fr/ecommerce-backlink-types.svg",
-            alt: "Diagramm das vier Typen von Ecommerce-Backlinks zeigt: Produktlinks, Ressourcenlinks, Markenerwaehnungslinks und Lieferantenlinks",
-            caption: "Produktlinks fliessen direkt zu kommerziellen Seiten. Ressourcen-, Marken- und Lieferantenlinks geben Autoritaet ueber interne Verlinkung weiter.",
+            alt: "Diagramme montrant quatre types de backlinks de commerce électronique : liens de produits, liens de ressources, liens de mention de marque et liens de fournisseurs",
+            caption: "Les liens vers les produits redirigent directement vers les pages commerciales. Les liens vers les ressources, la marque et les fournisseurs transmettent l’autorité via des liens internes.",
           },
           callout: {
             title: "Einfacher Gewinn",
-            text: "Pruefen Sie jeden Hersteller und Lieferanten den Sie fuehren auf Haendlerverzeichnisse oder autorisierte Haendlerseiten. Diese Links sind hochrelevant, oft DR 50+ und erfordern nur eine Listungsanfrage.",
+            text: "Vérifiez chaque fabricant et fournisseur que vous stockez pour les répertoires de revendeurs ou les pages de détaillants agréés. Ces liens sont très pertinents, souvent DR 50+, et ne nécessitent qu'une demande de référencement pour être sécurisés.e.",
           },
         },
         {
-          title: "Construire un site e-commerce digne d'etre lie",
+          title: "Construire un site e-commerce digne d'être lie",
           content:
             "Avant de poursuivre un link building actif, assurez-vous que votre boutique possede des pages qui meritent d'etre liees. La plupart des pages produit de la plupart des boutiques ne sont pas intrinsequement dignes d'etre liees, elles ressemblent au meme produit chez dix autres detaillants. Pour obtenir des liens, vous devez creer des actifs differencies.\n\nLa recherche originale est l'un des plus puissants aimants a liens. Sondez vos clients sur leurs preferences d'achat, analysez vos donnees de vente pour identifier des tendances industrielles, ou compilez des donnees de prix a travers votre categorie. Une etude de donnees bien presentee, meme simple, peut obtenir des liens de blogs industriels, medias d'information et ressources academiques qui ne lieraient jamais une page produit standard.\n\nLes guides d'achat complets qui vont au-dela des conseils superficiels attirent egalement des liens. Un guide de 3 000 mots sur le choix de la bonne chaise de bureau couvrant les principes ergonomiques, les comparaisons de materiaux, les considerations de capacite de charge et les conseils d'entretien devient une reference que d'autres createurs de contenu veulent citer.\n\nLes outils interactifs, calculateurs de taille, configurateurs de produits, verificateurs de compatibilite, obtiennent des liens car ils offrent une utilite unique qui ne peut pas etre reproduite dans un simple article texte. Des stratégies comme les [RP numériques pour l'e-commerce](/academy/digital-pr-for-ecommerce) peuvent amplifier le contenu basé sur les données en dizaines de liens à haute autorité.",
         },
@@ -273,7 +272,7 @@ export const backlinkFundamentalsForEcommerce: AcademyTopic = {
           ],
         },
         {
-          title: "anchorMismatchDemotion et sourceType : Signaux caches de qualite de lien du leak",
+          title: "anchorMismatchDemotion et sourceType : Signaux caches de qualité de lien du leak",
           content:
             "Le leak (catalogue pour la recherche sur des sites comme seo-datawarehouse.com) a confirme que l'evaluation de liens de Google va bien au-dela du PageRank brut. Deux attributs comptent pour la strategie de liens ecommerce.\n\nanchorMismatchDemotion : quand le texte d'ancrage d'un lien entrant est thematiquement non aligne avec la page cible, le lien peut etre devalue ou activement retrograde, pas seulement ignore. Un lien d'un blog tech avec ancre \"chaussures de course\" pointant vers votre page chaussures de randonnee est pire qu'aucun lien. Le conseil SEO historique de \"diversifier agressivement le texte d'ancrage\" se retourne quand les ancres non alignees semblent manipulatrices.\n\nsourceType : les liens sont categorises par type de source. Les liens editoriaux de sites etablis et a fort trafic portent materiellement plus de poids que les liens de repertoires, les liens de pied de page, ou les liens de pages auto-generees a faible trafic. La classification du leak suggere que Google distingue explicitement entre une mention editoriale dans une publication pertinente et un lien de sidebar sur un blogroll generique - et seul le premier compte pour un transfert d'autorite serieux.\n\nLa strategie pratique : poursuivez moins de liens, mieux alignes thematiquement, provenant de publications editoriales reellement frequentees. Auditez votre profil de liens existant pour les ancres non alignees et desavouer ou demander la suppression la ou l'ancre sape la pertinence cible.",
           items: [
@@ -283,7 +282,7 @@ export const backlinkFundamentalsForEcommerce: AcademyTopic = {
             "Auditez et elaguez les ancres non alignees ; poursuivez moins de liens editoriaux mieux alignes thematiquement",
           ],
           callout: {
-            title: "Les noms d'attributs divulgues sont publiquement indexes",
+            title: "Les noms d'attributs divulgués sont indexés publiquement",
             text: "Les chercheurs ont catalogue les signaux divulgues (siteAuthority, NavBoost, anchorMismatchDemotion, sourceType, hostAge, contentEffort, etc.) sur des sites comme seo-datawarehouse.com. Utilisez-les comme vocabulaire lors de l'explication de la strategie de liens aux equipes ou aux clients - \"ce lien declenchera anchorMismatchDemotion\" atterrit plus dur que \"ce lien semble peu naturel\".",
           },
         },
@@ -296,12 +295,11 @@ export const backlinkFundamentalsForEcommerce: AcademyTopic = {
     es: {
       badge: "Link Building",
       heading: "Fundamentos de Backlinks para Ecommerce",
-      intro:
-        "Los backlinks siguen siendo una de las senales de posicionamiento mas fuertes que Google utiliza para evaluar tiendas online. Cada enlace desde otro sitio web actua como un voto de confianza, indicando a los motores de busqueda que tu tienda ofrece algo digno de ser referenciado. Entender como funcionan los backlinks, y cuales realmente marcan la diferencia para el ecommerce, es la base de toda estrategia de [link building](/link-building) cubierta en este cluster.",
+      intro: "Los backlinks siguen siendo una de las senales de posicionamiento mas fuertes que Google utiliza para evaluar tiendas online. Cada enlace desde otro sitio web actua como un voto de confianza, indicando a los motores de busqueda que tu tienda ofrece algo digno de ser referenciado. Entender como funcionan los backlinks, y cuales realmente marcan la diferencia para el ecommerce, es la base de toda estrategia de [link building](/link-building) cubierta en este cluster.",
       readTime: "11 min de lectura",
       sections: [
         {
-          title: "Por que los backlinks importan para las tiendas online",
+          title: "Por qué los backlinks importan para las tiendas online",
           content:
             "Google trata los backlinks como recomendaciones de terceros. Cuando un sitio web reputado enlaza a tu pagina de producto, pagina de categoria o articulo de blog, Google interpreta esto como una senal de que tu contenido es confiable y util. Para tiendas ecommerce compitiendo en mercados saturados, los backlinks a menudo determinan quien posiciona en la primera pagina versus quien se queda en la tercera.\n\nLa conexion entre backlinks y posicionamiento esta bien documentada. Las paginas en las tres primeras posiciones organicas tienen, en promedio, de tres a cinco veces mas dominios referentes que las paginas posicionadas entre las posiciones siete y diez. Para paginas de producto y categoria, que son intrínsecamente mas dificiles para conseguir enlaces, incluso un punado de backlinks de calidad puede crear una ventaja significativa sobre competidores sin enlaces externos.\n\nLos backlinks tambien aceleran el rastreo y la indexacion. Google descubre nuevas paginas siguiendo enlaces a traves de la web. Si tu nueva pagina de producto obtiene un enlace de un blog o sitio de noticias bien rastreado, Googlebot encontrara e indexara esa pagina mas rapido que si dependiera unicamente de tu sitemap XML. Para tiendas lanzando nuevos productos o colecciones de temporada, esta ventaja de velocidad se traduce directamente en visibilidad y ventas mas tempranas.",
           items: [
@@ -312,18 +310,18 @@ export const backlinkFundamentalsForEcommerce: AcademyTopic = {
           ],
         },
         {
-          title: "Que hace valioso a un backlink",
+          title: "Qué hace valioso a un backlink",
           content:
             "No todos los backlinks tienen el mismo peso. Google evalua los enlaces basandose en varios factores, y entender estos ayuda a priorizar que enlaces perseguir. El primer factor es la relevancia. Un enlace de un sitio de resenas de equipamiento fitness a tu pagina de producto de esterilla de yoga es mucho mas valioso que un enlace de un blog de cocina aleatorio. Google usa el contenido de la pagina enlazante, el texto ancla y el contexto circundante para evaluar la relevancia tematica.\n\nEl segundo factor es la autoridad del dominio enlazante. Un enlace de una publicacion bien establecida como un periodico nacional o un blog industrial importante tiene mas peso que un enlace de un sitio personal nuevo sin trafico. La autoridad de dominio, aunque no es una metrica de Google en si, sirve como una aproximacion util.\n\nEl tercer factor es la ubicacion del enlace. Un enlace integrado naturalmente dentro del cuerpo de un articulo transmite mas valor que un enlace enterrado en un footer, sidebar o biografia de autor. Los algoritmos de Google pueden distinguir entre enlaces editoriales que el autor incluyo deliberadamente y enlaces de plantilla que aparecen en cada pagina de un sitio.\n\nFinalmente, el atributo dofollow versus nofollow importa. Los enlaces dofollow transmiten valor de posicionamiento completo por defecto. Los enlaces nofollow, y los atributos mas recientes ugc y sponsored, le dicen a Google que el enlace no deberia transmitir autoridad.",
           tip: "Al evaluar un backlink potencial, verifica tres cosas en orden: relevancia tematica con tus productos, el score de autoridad del dominio enlazante, y si el enlace sera dofollow y estara ubicado dentro del contenido principal. Un enlace que puntua bien en los tres criterios vale por diez enlaces que solo cumplen uno.",
           image: {
             src: "/images/academy/es/backlink-value-factors.svg",
-            alt: "Diagramm das die vier Faktoren zeigt die den Backlink-Wert bestimmen: Relevanz, Autoritaet, Platzierung und Dofollow-Status",
-            caption: "Google bewertet jeden Backlink nach vier Faktoren. Ein Link der in allen vier gut abschneidet ist zehn Links wert die nur ein Kriterium erfuellen.",
+            alt: "Diagrama que muestra los cuatro factores que determinan el valor del vínculo de retroceso: relevancia, autoridad, ubicación y estado de seguimiento.",
+            caption: "Google evalúa cada vínculo de retroceso en función de cuatro factores. Un enlace que obtiene una buena puntuación en los cuatro vale por diez enlaces que solo cumplen un criterio.",
           },
           callout: {
-            title: "Qualitaet vor Quantitaet",
-            text: "Ein relevanter DR-70+-Redaktionslink kann Dutzende minderwertiger Verzeichnislinks aufwiegen. Seiten auf den Positionen 1-3 haben durchschnittlich 3,5x mehr verweisende Domains als Seiten auf den Positionen 7-10.",
+            title: "Calidad sobre cantidad",
+            text: "Un enlace editorial relevante de DR 70+ puede superar a docenas de enlaces de directorio de baja calidad. Las páginas en las posiciones 1 a 3 promedian 3,5 veces más dominios de referencia que las páginas en las posiciones 7 a 10.tionen 7-10.",
           },
         },
         {
@@ -338,18 +336,18 @@ export const backlinkFundamentalsForEcommerce: AcademyTopic = {
           ],
         },
         {
-          title: "Como Google evalua la calidad de los enlaces",
+          title: "Cómo Google evalúa la calidad de los enlaces",
           content:
             "La evaluacion de enlaces de Google ha evolucionado considerablemente desde los primeros dias de PageRank. El algoritmo ahora considera el contexto completo que rodea un enlace, no solo el conteo bruto de dominios enlazantes. Un unico enlace de una pagina altamente relevante y autoritaria dentro de un articulo bien estructurado puede superar a docenas de enlaces de directorios de baja calidad o secciones de comentarios de blog.\n\nEl texto ancla, el texto clicable de un enlace, proporciona a Google una senal fuerte sobre el tema de la pagina enlazada. Los perfiles de backlinks naturales muestran texto ancla diverso: anclas de marca (el nombre de tu tienda), anclas genericas (\"haz clic aqui\", \"este sitio\"), URLs desnudas, y ocasionalmente anclas ricas en palabras clave.\n\nGoogle tambien evalua la velocidad de enlaces, la tasa a la que un sitio adquiere nuevos backlinks con el tiempo. Un perfil natural muestra crecimiento constante y organico con picos ocasionales alrededor de lanzamientos de productos, eventos de venta o contenido viral.\n\nLos vecindarios de enlaces tambien importan. Si los sitios que te enlazan tambien enlazan a sitios web spam o de baja calidad, el valor de esos enlaces disminuye. Por el contrario, si tu perfil de backlinks comparte dominios referentes con competidores respetados en tu nicho, Google ve tu sitio mas favorablemente.",
           tip: "Realiza una auditoria mensual de backlinks usando Ahrefs o Google Search Console. Busca picos repentinos de enlaces de baja calidad, texto ancla sobre-optimizado o enlaces de nichos irrelevantes. Desautorizar enlaces toxicos antes de que se acumulen previene penalizaciones de posicionamiento potenciales.",
           image: {
             src: "/images/academy/es/ecommerce-backlink-types.svg",
-            alt: "Diagramm das vier Typen von Ecommerce-Backlinks zeigt: Produktlinks, Ressourcenlinks, Markenerwaehnungslinks und Lieferantenlinks",
-            caption: "Produktlinks fliessen direkt zu kommerziellen Seiten. Ressourcen-, Marken- und Lieferantenlinks geben Autoritaet ueber interne Verlinkung weiter.",
+            alt: "Diagrama que muestra cuatro tipos de vínculos de retroceso de comercio electrónico: vínculos de productos, vínculos de recursos, vínculos de mención de marca y vínculos de proveedores.",
+            caption: "Los enlaces de productos fluyen directamente a páginas comerciales. Los enlaces de recursos, marcas y proveedores transmiten autoridad a través de enlaces internos.",
           },
           callout: {
             title: "Einfacher Gewinn",
-            text: "Pruefen Sie jeden Hersteller und Lieferanten den Sie fuehren auf Haendlerverzeichnisse oder autorisierte Haendlerseiten. Diese Links sind hochrelevant, oft DR 50+ und erfordern nur eine Listungsanfrage.",
+            text: "Consulte todos los fabricantes y proveedores que tenga en existencia para obtener directorios de distribuidores o páginas de minoristas autorizados. Estos enlaces son muy relevantes, a menudo DR 50+, y solo requieren una solicitud de listado para asegurarlos.e.",
           },
         },
         {
@@ -414,12 +412,12 @@ export const backlinkFundamentalsForEcommerce: AcademyTopic = {
           tip: "Quando valuti un potenziale backlink, controlla tre cose in ordine: rilevanza tematica con i tuoi prodotti, il punteggio di autorita del dominio linkante, e se il link sara dofollow e posizionato nel contenuto principale. Un link che soddisfa tutti e tre i criteri vale quanto dieci link che ne soddisfano solo uno.",
           image: {
             src: "/images/academy/it/backlink-value-factors.svg",
-            alt: "Diagramm das die vier Faktoren zeigt die den Backlink-Wert bestimmen: Relevanz, Autoritaet, Platzierung und Dofollow-Status",
-            caption: "Google bewertet jeden Backlink nach vier Faktoren. Ein Link der in allen vier gut abschneidet ist zehn Links wert die nur ein Kriterium erfuellen.",
+            alt: "Diagramma che mostra i quattro fattori che determinano il valore del backlink: pertinenza, autorità, posizionamento e stato del dofollow",
+            caption: "Google valuta ogni backlink in base a quattro fattori. Un collegamento che ottiene un buon punteggio su tutti e quattro vale dieci collegamenti che soddisfano solo un criterio.",
           },
           callout: {
-            title: "Qualitaet vor Quantitaet",
-            text: "Ein relevanter DR-70+-Redaktionslink kann Dutzende minderwertiger Verzeichnislinks aufwiegen. Seiten auf den Positionen 1-3 haben durchschnittlich 3,5x mehr verweisende Domains als Seiten auf den Positionen 7-10.",
+            title: "Qualità rispetto alla quantità",
+            text: "Un collegamento editoriale DR 70+ rilevante può superare dozzine di collegamenti a directory di bassa qualità. Le pagine nelle posizioni 1-3 hanno in media 3,5 volte più domini di riferimento rispetto alle pagine nelle posizioni 7-10.tionen 7-10.",
           },
         },
         {
@@ -440,12 +438,12 @@ export const backlinkFundamentalsForEcommerce: AcademyTopic = {
           tip: "Esegui un audit mensile dei backlink usando Ahrefs o Google Search Console. Cerca picchi improvvisi di link di bassa qualita, testo ancora sovra-ottimizzato o link da nicchie irrilevanti. Rifiutare i link tossici prima che si accumulino previene potenziali penalizzazioni del ranking.",
           image: {
             src: "/images/academy/it/ecommerce-backlink-types.svg",
-            alt: "Diagramm das vier Typen von Ecommerce-Backlinks zeigt: Produktlinks, Ressourcenlinks, Markenerwaehnungslinks und Lieferantenlinks",
-            caption: "Produktlinks fliessen direkt zu kommerziellen Seiten. Ressourcen-, Marken- und Lieferantenlinks geben Autoritaet ueber interne Verlinkung weiter.",
+            alt: "Diagramma che mostra quattro tipi di backlink e-commerce: collegamenti a prodotti, collegamenti a risorse, collegamenti a menzione del marchio e collegamenti a fornitori",
+            caption: "I collegamenti ai prodotti scorrono direttamente alle pagine commerciali. I collegamenti a risorse, marchi e fornitori trasmettono autorità tramite collegamenti interni.",
           },
           callout: {
             title: "Einfacher Gewinn",
-            text: "Pruefen Sie jeden Hersteller und Lieferanten den Sie fuehren auf Haendlerverzeichnisse oder autorisierte Haendlerseiten. Diese Links sind hochrelevant, oft DR 50+ und erfordern nur eine Listungsanfrage.",
+            text: "Controlla tutti i produttori e fornitori che hai in stock per le directory dei rivenditori o le pagine dei rivenditori autorizzati. Questi collegamenti sono molto pertinenti, spesso DR 50+, e richiedono solo una richiesta di inserimento nell'elenco per essere protetti.e.",
           },
         },
         {
@@ -476,7 +474,7 @@ export const backlinkFundamentalsForEcommerce: AcademyTopic = {
           ],
           callout: {
             title: "I nomi degli attributi trapelati sono pubblicamente indicizzati",
-            text: "I ricercatori hanno catalogato i segnali divulgati (siteAuthority, NavBoost, anchorMismatchDemotion, sourceType, hostAge, contentEffort, ecc.) su siti come seo-datawarehouse.com. Usali come vocabolario quando spieghi la strategia di link a team o clienti - \"questo link attivera anchorMismatchDemotion\" atterra piu forte di \"questo link sembra innaturale\".",
+            text: "I ricercatori hanno catalogato i segnali divulgati (siteAuthority, NavBoost, anchorMismatchDemotion, sourceType, hostAge, contentEffort, ecc.) su siti come seo-datawarehouse.com. Usateli come vocabolario",
           },
         },
       ],
@@ -510,12 +508,12 @@ export const backlinkFundamentalsForEcommerce: AcademyTopic = {
           tip: "Controleer bij het evalueren van een potentiele backlink drie dingen in volgorde: thematische relevantie met jouw producten, de autoriteitsscore van het linkende domein, en of de link dofollow zal zijn en binnen de hoofdcontent geplaatst. Een link die op alle drie goed scoort, is tien links waard die slechts aan een criterium voldoen.",
           image: {
             src: "/images/academy/nl/backlink-value-factors.svg",
-            alt: "Diagramm das die vier Faktoren zeigt die den Backlink-Wert bestimmen: Relevanz, Autoritaet, Platzierung und Dofollow-Status",
-            caption: "Google bewertet jeden Backlink nach vier Faktoren. Ein Link der in allen vier gut abschneidet ist zehn Links wert die nur ein Kriterium erfuellen.",
+            alt: "Diagram met de vier factoren die de backlinkwaarde bepalen: relevantie, autoriteit, plaatsing en dofollow-status",
+            caption: "Google beoordeelt elke backlink op vier factoren. Een link die op alle vier goed scoort, is tien links waard die maar aan één criterium voldoen.",
           },
           callout: {
-            title: "Qualitaet vor Quantitaet",
-            text: "Ein relevanter DR-70+-Redaktionslink kann Dutzende minderwertiger Verzeichnislinks aufwiegen. Seiten auf den Positionen 1-3 haben durchschnittlich 3,5x mehr verweisende Domains als Seiten auf den Positionen 7-10.",
+            title: "Kwaliteit boven kwantiteit",
+            text: "Eén relevante redactionele link uit de DR 70+ kan zwaarder wegen dan tientallen directorylinks van lage kwaliteit. Pagina's op posities 1-3 hebben gemiddeld 3,5x meer verwijzende domeinen dan pagina's op posities 7-10.tionen 7-10.",
           },
         },
         {
@@ -536,12 +534,12 @@ export const backlinkFundamentalsForEcommerce: AcademyTopic = {
           tip: "Voer maandelijks een backlink-audit uit met Ahrefs of Google Search Console. Zoek naar plotselinge pieken in links van lage kwaliteit, overgeoptimaliseerde ankertekst of links uit irrelevante niches. Het desavouen van toxische links voordat ze zich ophopen, voorkomt potentiele rankingstraffen.",
           image: {
             src: "/images/academy/nl/ecommerce-backlink-types.svg",
-            alt: "Diagramm das vier Typen von Ecommerce-Backlinks zeigt: Produktlinks, Ressourcenlinks, Markenerwaehnungslinks und Lieferantenlinks",
-            caption: "Produktlinks fliessen direkt zu kommerziellen Seiten. Ressourcen-, Marken- und Lieferantenlinks geben Autoritaet ueber interne Verlinkung weiter.",
+            alt: "Diagram met vier soorten backlinks voor e-commerce: productlinks, bronlinks, links naar merkvermeldingen en links naar leveranciers",
+            caption: "Productlinks leiden rechtstreeks naar commerciële pagina's. Resource-, merk- en leverancierskoppelingen geven autoriteit door via interne koppelingen.",
           },
           callout: {
             title: "Einfacher Gewinn",
-            text: "Pruefen Sie jeden Hersteller und Lieferanten den Sie fuehren auf Haendlerverzeichnisse oder autorisierte Haendlerseiten. Diese Links sind hochrelevant, oft DR 50+ und erfordern nur eine Listungsanfrage.",
+            text: "Controleer elke fabrikant en leverancier die u op voorraad heeft voor dealergidsen of pagina's van geautoriseerde detailhandelaren. Deze links zijn zeer relevant, vaak DR 50+, en vereisen alleen een vermeldingsverzoek om te beveiligen.e.",
           },
         },
         {
@@ -572,7 +570,7 @@ export const backlinkFundamentalsForEcommerce: AcademyTopic = {
           ],
           callout: {
             title: "De gelekte attribuutnamen zijn publiek geindexeerd",
-            text: "Onderzoekers hebben de onthulde signalen (siteAuthority, NavBoost, anchorMismatchDemotion, sourceType, hostAge, contentEffort, etc.) gecatalogiseerd op sites zoals seo-datawarehouse.com. Gebruik ze als vocabulaire bij het uitleggen van link-strategie aan teams of clienten - \"deze link zal anchorMismatchDemotion triggeren\" landt harder dan \"deze link ziet er onnatuurlijk uit\".",
+            text: "Onderzoekers hebben de openbaar gemaakte signalen (siteAuthority, NavBoost, anchorMismatchDemotion, sourceType, hostAge, contentEffort, etc.) gecatalogiseerd op sites als seo-datawarehouse.com. Gebruik ze als vocabulaires vocabulaire bij het uitleggen van link-strategie aan teams of clienten - \"deze link zal anchorMismatchDemotion triggeren\" landt harder dan \"deze link ziet er onnatuurlijk uit\".",
           },
         },
       ],

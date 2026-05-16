@@ -184,8 +184,7 @@ items: [
     fr: {
       badge: "Analytics & Reporting",
       heading: "Calculer le ROI du SEO",
-      intro:
-        "Prouver le retour sur investissement du SEO est l'un des plus grands defis auxquels font face les marketeurs e-commerce. Contrairement a la publicite payante ou depenses et revenus sont directement lies, l'investissement et les retours SEO operent sur des chronologies differentes et par des chemins d'attribution indirects. Un cadre ROI rigoureux vous permet de justifier les budgets SEO, de comparer la recherche organique aux autres canaux et de prendre des decisions basees sur les donnees.",
+      intro: "Prouver le retour sur investissement du SEO est l'un des plus grands defis auxquels font face les marketeurs e-commerce. Contrairement a la publicite payante ou depenses et revenus sont directement lies, l'investissement et les retours SEO operent sur des chronologies différentes et par des chemins d'attribution indirects. Un cadre ROI rigoureux vous permet de justifier les budgets SEO, de comparer la recherche organique aux autres canaux et de prendre des décisions basees sur les données.",
       readTime: "12 min de lecture",
       sections: [
         {
@@ -201,16 +200,16 @@ items: [
           tip: "Suivez vos couts SEO dans un tableur dedie des le premier jour. La plupart des entreprises ne peuvent pas calculer le ROI avec precision parce qu'elles n'ont jamais suivi le cote des couts. Meme des estimations approximatives valent mieux que rien, mais un suivi precis des couts rend vos calculs ROI defensibles aupres des parties prenantes. Même des estimations approximatives valent mieux que rien, mais un suivi précis des coûts rend vos calculs de ROI défendables lors du [reporting aux parties prenantes](/academy/seo-reporting-for-stakeholders).",
           image: {
             src: "/images/academy/fr/seo-roi-formula.svg",
-            alt: "Diagramm der SEO-ROI-Formel mit Umsatz, Kostenaufschluesselung und einer 500%-ROI-Beispielrechnung",
+            alt: "Diagramme montrant la formule de retour sur investissement SEO avec les revenus, la répartition des coûts et un exemple de calcul de retour sur investissement de 500 %",
             caption: "Ein realistisches monatliches ROI-Beispiel: 150.000 EUR organischer Umsatz gegenueber 25.000 EUR gesamter SEO-Investition ergibt 500% ROI.",
           },
           callout: {
             title: "Versteckte Kostenfalle",
-            text: "Entwicklerzeit fuer technisches SEO und interne Gehaltsallokationen machen 30-40% der tatsaechlichen SEO-Kosten in den meisten E-Commerce-Unternehmen aus. Das Weglassen dieser Kosten blaeht den ROI um das 2-3-fache auf und schafft unrealistische Erwartungen.",
+            text: "Le temps des développeurs consacré au référencement technique et aux allocations salariales internes représente 30 à 40 % du coût réel du référencement dans la plupart des entreprises de commerce électronique. Les omettre augmente le retour sur investissement de 2 à 3 fois et crée des attentes irréalistes das 2-3-fache auf und schafft unrealistische Erwartungen.",
           },
         },
         {
-          title: "Mesurer le cote revenus : modeles d'attribution",
+          title: "Mesurer le cote revenus : modèles d'attribution",
           content:
             "Choisir le bon modele d'attribution peut changer votre chiffre d'affaires SEO de 20-40%, donc cette decision n'est pas triviale. Chaque modele raconte une histoire differente sur la contribution de la recherche organique au chiffre d'affaires.\n\nL'attribution au dernier clic est la plus simple mais sous-evalue systematiquement le SEO. La recherche organique fonctionne frequemment comme un canal de decouverte. Les clients trouvent votre boutique via la recherche organique, parcourent les produits, partent et reviennent plus tard par un autre canal pour acheter.\n\nL'attribution au premier clic va a l'autre extreme, donnant tout le credit au premier point de contact. Ce modele surevalue le SEO car il ignore le role du retargeting, de l'email et de la recherche payante dans la conclusion de la vente. Cependant, le premier clic met en lumiere le role du SEO dans l'acquisition de nouveaux clients.\n\nL'attribution basee sur les donnees dans GA4 utilise l'apprentissage automatique pour distribuer le credit base sur la probabilite de conversion reelle que chaque point de contact ajoute. Ce modele necessite un minimum de 300 conversions et 3 000 interactions publicitaires en 30 jours.\n\nL'attribution basee sur la position donne 40% de credit a la premiere interaction, 40% a la derniere et distribue les 20% restants sur les points de contact intermediaires.\n\nPour des raisons pratiques, calculez le revenu SEO sous deux ou trois modeles et presentez la fourchette. Dire aux parties prenantes que la recherche organique a genere entre 120 000 et 165 000 euros selon le modele d'attribution est plus honnete et utile qu'un seul chiffre.",
           items: [
@@ -255,12 +254,12 @@ items: [
           ],
           image: {
             src: "/images/academy/fr/seo-roi-channel-comparison.svg",
-            alt: "Diagramm zum Vergleich von SEO- und bezahltem Such-ROI im Zeitverlauf, das die kumulierenden Renditen von SEO zeigt",
-            caption: "SEO-ROI beginnt niedriger als bezahlte Kanaele, kumuliert aber ueber die Zeit. Ab Monat 12-24 liefert organisch typischerweise den 3-5-fachen ROI der bezahlten Suche.",
+            alt: "Graphique comparant le retour sur investissement du référencement et de la recherche payante au fil du temps, montrant les rendements composés du référencement dépassant ceux payés après 6 mois",
+            caption: "Le retour sur investissement du référencement commence par être inférieur à celui des canaux payants, mais augmente avec le temps. Entre le 12 et le 24 mois, le référencement organique offre généralement 3 à 5 fois le retour sur investissement de la recherche payante.",
           },
           callout: {
             title: "CPA-Benchmark",
-            text: "E-Commerce-Shops sehen typischerweise organische Kundenakquisitionskosten von 8-15 EUR gegenueber 35-55 EUR fuer bezahlte Suche. Ueber einen 24-Monats-Horizont uebersteigt der SEO-ROI den ROI der bezahlten Suche oft um das 3-5-fache durch kumulative Traffic-Gewinne.",
+            text: "Les magasins de commerce électronique voient généralement un coût d'acquisition de clients organique de 8 à 15 $, contre 35 à 55 $ pour la recherche payante. Sur un horizon de 24 mois, le retour sur investissement du référencement dépasse souvent le retour sur investissement des recherches payantes de 3 à 5 fois en raison de l'augmentation du trafic.hlten Suche oft um das 3-5-fache durch kumulative Traffic-Gewinne.",
           },
         },
       ],
@@ -272,8 +271,7 @@ items: [
     es: {
       badge: "Analytics & Reporting",
       heading: "Calcular el ROI del SEO",
-      intro:
-        "Demostrar el retorno de inversion del SEO es uno de los mayores desafios que enfrentan los marketeros de ecommerce. A diferencia de la publicidad pagada donde gasto e ingresos estan directamente vinculados, la inversion y los retornos del SEO operan en cronologias diferentes y a traves de rutas de atribucion indirectas. Un marco de ROI riguroso le permite justificar presupuestos de SEO, comparar la busqueda organica con otros canales y tomar decisiones basadas en datos.",
+      intro: "Demostrar el retorno de inversion del SEO es uno de los mayores desafios que enfrentan los marketeros de ecommerce. A diferencia de la publicidad pagada donde gasto e ingresos estan directamente vinculados, la inversion y los retornos del SEO operan en cronologias diferentes y a traves de rutas de atribucion indirectas. Un marco de ROI riguroso le permite justificar presupuestos de SEO, comparar la busqueda organica con otros canales y tomar decisiones basadas en datos.",
       readTime: "12 min de lectura",
       sections: [
         {
@@ -289,12 +287,12 @@ items: [
           tip: "Registra tus costos SEO en una hoja de calculo dedicada desde el dia uno. La mayoria de las empresas no pueden calcular el ROI con precision porque nunca rastrearon el lado del costo. Incluso estimaciones aproximadas son mejores que nada, pero el seguimiento preciso de costos hace que tus calculos de ROI sean defendibles al [reportar a stakeholders](/academy/seo-reporting-for-stakeholders).",
           image: {
             src: "/images/academy/es/seo-roi-formula.svg",
-            alt: "Diagramm der SEO-ROI-Formel mit Umsatz, Kostenaufschluesselung und einer 500%-ROI-Beispielrechnung",
+            alt: "Diagrama que muestra la fórmula del ROI de SEO con ingresos, desglose de costos y un ejemplo de cálculo de ROI del 500%",
             caption: "Ein realistisches monatliches ROI-Beispiel: 150.000 EUR organischer Umsatz gegenueber 25.000 EUR gesamter SEO-Investition ergibt 500% ROI.",
           },
           callout: {
             title: "Versteckte Kostenfalle",
-            text: "Entwicklerzeit fuer technisches SEO und interne Gehaltsallokationen machen 30-40% der tatsaechlichen SEO-Kosten in den meisten E-Commerce-Unternehmen aus. Das Weglassen dieser Kosten blaeht den ROI um das 2-3-fache auf und schafft unrealistische Erwartungen.",
+            text: "El tiempo del desarrollador en SEO técnico y asignaciones salariales internas representa entre el 30% y el 40% del costo real de SEO en la mayoría de las empresas de comercio electrónico. Omitirlos aumenta el retorno de la inversión entre 2 y 3 veces y crea expectativas poco realistas. das 2-3-fache auf und schafft unrealistische Erwartungen.",
           },
         },
         {
@@ -315,7 +313,7 @@ items: [
           tip: "Crea categorias de costos en tu herramienta de gestion de proyectos y etiqueta todas las tareas relacionadas con SEO. Al final de cada mes, genera un reporte mostrando las horas totales por categoria. Multiplica por el costo cargado promedio por hora para cada equipo, y tendras una cifra de costo precisa.",
         },
         {
-          title: "Analisis de ingresos incrementales",
+          title: "Análisis de ingresos incrementales",
           content:
             "Los ingresos organicos totales son utiles, pero el analisis de ingresos incrementales revela el verdadero impacto de tu inversion SEO. Los ingresos incrementales son los ingresos adicionales que tus esfuerzos SEO generaron por encima de lo que habria ocurrido sin esos esfuerzos.\n\nEstablece una linea base usando datos de rendimiento historico. Observa las tendencias de ingresos organicos durante los 12 meses antes de iniciar o aumentar tu inversion SEO. Si los ingresos organicos crecian un 5% interanual antes de tu programa SEO y ahora crecen un 25%, el crecimiento incremental atribuible al SEO es aproximadamente 20 puntos porcentuales.\n\nPara un enfoque mas riguroso, usa una metodologia de grupo de control. Si optimizas paginas de producto en una categoria pero dejas una categoria comparable sin tocar, la diferencia en crecimiento de ingresos organicos entre ambas categorias estima el impacto incremental de tu trabajo SEO.\n\nOtra tecnica es analizar la contribucion de ingresos de iniciativas SEO especificas. Si lanzaste una nueva serie de guias de compra y esas paginas ahora generan $30,000 en ingresos organicos mensuales que no existian antes, eso es claramente ingreso incremental.\n\nSe cauteloso al reclamar todo el crecimiento de ingresos organicos como impulsado por SEO. Las campanas de reconocimiento de marca, lanzamientos de producto, tendencias estacionales y crecimiento del mercado influyen en el trafico organico independientemente de los esfuerzos SEO.",
           items: [
@@ -328,13 +326,13 @@ items: [
         {
           title: "Valor de vida del cliente y SEO",
           content:
-            "Los calculos de ROI por transaccion unica subvaloran dramaticamente el SEO para tiendas ecommerce con comportamiento de compra repetitiva. Si tu cliente promedio hace cuatro compras en dos anos, acreditar al SEO solo con los ingresos de la primera compra ignora tres cuartas partes del valor del cliente. Incorporar el valor de vida del cliente en tu marco de ROI SEO revela el verdadero retorno a largo plazo.\n\nCalcula el valor de vida promedio de clientes adquiridos a traves de busqueda organica. Toma una cohorte de clientes cuya primera visita vino de busqueda organica, luego rastrea su valor total de compra durante 12 a 24 meses. Compara este LTV con clientes adquiridos a traves de busqueda pagada, redes sociales y email.\n\nPara incorporar LTV en el ROI, multiplica el numero de nuevos clientes adquiridos via busqueda organica por el LTV promedio del cliente organico. Si el SEO trajo 500 nuevos clientes este mes y el LTV promedio es de $340, el impacto en ingresos de por vida es $170,000, no solo los $45,000 que esos clientes gastaron en su primera compra.\n\nEste enfoque cambia la conversacion de ROI de retornos transaccionales a corto plazo a creacion de valor comercial a largo plazo. Un CEO que ve que los clientes SEO valen 1.3 veces mas durante su vida que los clientes de busqueda pagada vera el SEO como un motor de crecimiento estrategico.\n\nRastrea el LTV por canal de adquisicion trimestralmente. A medida que tu conjunto de datos crece, podras proyectar el valor futuro de ingresos de cada nuevo cliente organico.",
+            "Los calculos de ROI por transaccion unica subvaloran dramaticamente el SEO para tiendas ecommerce con comportamiento de compra repetitiva. Si tu cliente promedio hace cuatro compras en dos años, acreditar al SEO solo con los ingresos de la primera compra ignora tres cuartas partes del valor del cliente. Incorporar el valor de vida del cliente en tu marco de ROI SEO revela el verdadero retorno a largo plazo.\n\nCalcula el valor de vida promedio de clientes adquiridos a traves de busqueda organica. Toma una cohorte de clientes cuya primera visita vino de busqueda organica, luego rastrea su valor total de compra durante 12 a 24 meses. Compara este LTV con clientes adquiridos a traves de busqueda pagada, redes sociales y email.\n\nPara incorporar LTV en el ROI, multiplica el numero de nuevos clientes adquiridos via busqueda organica por el LTV promedio del cliente organico. Si el SEO trajo 500 nuevos clientes este mes y el LTV promedio es de $340, el impacto en ingresos de por vida es $170,000, no solo los $45,000 que esos clientes gastaron en su primera compra.\n\nEste enfoque cambia la conversacion de ROI de retornos transaccionales a corto plazo a creacion de valor comercial a largo plazo. Un CEO que ve que los clientes SEO valen 1.3 veces mas durante su vida que los clientes de busqueda pagada vera el SEO como un motor de crecimiento estrategico.\n\nRastrea el LTV por canal de adquisicion trimestralmente. A medida que tu conjunto de datos crece, podras proyectar el valor futuro de ingresos de cada nuevo cliente organico.",
           tip: "Segmenta tu analisis de LTV por categoria de producto y tipo de cliente. Puedes descubrir que los clientes de busqueda organica en categorias especificas tienen un LTV dramaticamente mayor que en otras, lo cual deberia guiar donde priorizas la inversion SEO para el maximo retorno a largo plazo.",
         },
         {
           title: "Comparar el ROI del SEO contra otros canales",
           content:
-            "El ROI del SEO significa poco aislado. Los stakeholders quieren saber como se compara el SEO con la busqueda pagada, publicidad en redes sociales, email marketing y programas de afiliados. Construir una comparacion de ROI entre canales ayuda a asignar presupuestos de marketing basados en cuales canales entregan los retornos mas eficientes.\n\nPara una comparacion justa, usa el mismo modelo de atribucion, periodo de tiempo y metodologia de costos en todos los canales. Si calculas el ROI del SEO usando atribucion basada en datos y una ventana de retrospectiva de seis meses, aplica esos mismos parametros a Google Ads, Meta Ads y cada otro canal.\n\nEl SEO tipicamente muestra una curva de ROI diferente a los canales pagados. La busqueda pagada y la publicidad social generan retornos inmediatos pero no tienen valor residual: cuando dejas de gastar, el trafico se detiene. La inversion SEO tiene un efecto compuesto. El contenido y las mejoras tecnicas de hoy continuan generando trafico e ingresos durante meses o anos.\n\nUsa metricas de eficiencia mixtas para una comparacion justa. El costo por adquisicion de busqueda organica versus busqueda pagada es una de las metricas mas convincentes. Si tu costo para adquirir un cliente organico es $12 mientras que la busqueda pagada cuesta $45 por cliente, el caso de eficiencia para la inversion SEO es claro.\n\nPresenta la comparacion entre canales como una vista de portafolio. La estrategia de marketing mas fuerte tipicamente involucra una mezcla de canales donde cada uno juega un rol diferente. Para una vision completa de como lo organico encaja en tu mix de marketing, lee nuestra guia de [SEO para ecommerce](/blog/ecommerce-seo).",
+            "El ROI del SEO significa poco aislado. Los stakeholders quieren saber como se compara el SEO con la busqueda pagada, publicidad en redes sociales, email marketing y programas de afiliados. Construir una comparacion de ROI entre canales ayuda a asignar presupuestos de marketing basados en cuales canales entregan los retornos mas eficientes.\n\nPara una comparacion justa, usa el mismo modelo de atribucion, periodo de tiempo y metodologia de costos en todos los canales. Si calculas el ROI del SEO usando atribucion basada en datos y una ventana de retrospectiva de seis meses, aplica esos mismos parametros a Google Ads, Meta Ads y cada otro canal.\n\nEl SEO tipicamente muestra una curva de ROI diferente a los canales pagados. La busqueda pagada y la publicidad social generan retornos inmediatos pero no tienen valor residual: cuando dejas de gastar, el trafico se detiene. La inversion SEO tiene un efecto compuesto. El contenido y las mejoras tecnicas de hoy continuan generando trafico e ingresos durante meses o años.\n\nUsa metricas de eficiencia mixtas para una comparacion justa. El costo por adquisicion de busqueda organica versus busqueda pagada es una de las metricas mas convincentes. Si tu costo para adquirir un cliente organico es $12 mientras que la busqueda pagada cuesta $45 por cliente, el caso de eficiencia para la inversion SEO es claro.\n\nPresenta la comparacion entre canales como una vista de portafolio. La estrategia de marketing mas fuerte tipicamente involucra una mezcla de canales donde cada uno juega un rol diferente. Para una vision completa de como lo organico encaja en tu mix de marketing, lee nuestra guia de [SEO para ecommerce](/blog/ecommerce-seo).",
           items: [
             "Aplica modelos de atribucion y periodos identicos en todos los canales para una comparacion justa",
             "Considera los retornos compuestos del SEO versus los retornos inmediatos pero temporales de canales pagados",
@@ -343,12 +341,12 @@ items: [
           ],
           image: {
             src: "/images/academy/es/seo-roi-channel-comparison.svg",
-            alt: "Diagramm zum Vergleich von SEO- und bezahltem Such-ROI im Zeitverlauf, das die kumulierenden Renditen von SEO zeigt",
-            caption: "SEO-ROI beginnt niedriger als bezahlte Kanaele, kumuliert aber ueber die Zeit. Ab Monat 12-24 liefert organisch typischerweise den 3-5-fachen ROI der bezahlten Suche.",
+            alt: "Gráfico que compara el SEO y el ROI de la búsqueda paga a lo largo del tiempo, que muestra los retornos compuestos del SEO que superan a los pagados después de 6 meses.",
+            caption: "El ROI de SEO comienza más bajo que el de los canales pagos, pero se agrava con el tiempo. Entre los meses 12 y 24, lo orgánico generalmente ofrece entre 3 y 5 veces el retorno de la inversión (ROI) de la búsqueda paga.",
           },
           callout: {
             title: "CPA-Benchmark",
-            text: "E-Commerce-Shops sehen typischerweise organische Kundenakquisitionskosten von 8-15 EUR gegenueber 35-55 EUR fuer bezahlte Suche. Ueber einen 24-Monats-Horizont uebersteigt der SEO-ROI den ROI der bezahlten Suche oft um das 3-5-fache durch kumulative Traffic-Gewinne.",
+            text: "Las tiendas de comercio electrónico suelen tener un coste orgánico de adquisición de clientes de entre 8 y 15 dólares, frente a los 35 y 55 dólares de la búsqueda paga. En un horizonte de 24 meses, el ROI de SEO a menudo supera el ROI de búsqueda paga entre 3 y 5 veces debido al tráfico compuesto.hlten Suche oft um das 3-5-fache durch kumulative Traffic-Gewinne.",
           },
         },
       ],
@@ -377,12 +375,12 @@ items: [
           tip: "Tracciate i vostri costi SEO in un foglio di calcolo dedicato dal primo giorno. La maggior parte delle aziende non riesce a calcolare il ROI con precisione perche non ha mai tracciato il lato dei costi. Anche stime approssimative sono meglio di niente, ma il tracciamento preciso dei costi rende i vostri calcoli ROI difendibili davanti agli stakeholder. Approfondisci con la nostra guida sul [report per gli stakeholder](/academy/seo-reporting-for-stakeholders).",
           image: {
             src: "/images/academy/it/seo-roi-formula.svg",
-            alt: "Diagramm der SEO-ROI-Formel mit Umsatz, Kostenaufschluesselung und einer 500%-ROI-Beispielrechnung",
+            alt: "Diagramma che mostra la formula del ROI SEO con entrate, ripartizione dei costi e un esempio di calcolo del ROI del 500%.",
             caption: "Ein realistisches monatliches ROI-Beispiel: 150.000 EUR organischer Umsatz gegenueber 25.000 EUR gesamter SEO-Investition ergibt 500% ROI.",
           },
           callout: {
             title: "Versteckte Kostenfalle",
-            text: "Entwicklerzeit fuer technisches SEO und interne Gehaltsallokationen machen 30-40% der tatsaechlichen SEO-Kosten in den meisten E-Commerce-Unternehmen aus. Das Weglassen dieser Kosten blaeht den ROI um das 2-3-fache auf und schafft unrealistische Erwartungen.",
+            text: "Il tempo dedicato dagli sviluppatori alla SEO tecnica e alle allocazioni salariali interne rappresentano il 30-40% del costo SEO reale nella maggior parte delle aziende di e-commerce. Ometterli aumenta il ROI di 2-3 volte e crea aspettative non realistiche das 2-3-fache auf und schafft unrealistische Erwartungen.",
           },
         },
         {
@@ -431,12 +429,12 @@ items: [
           ],
           image: {
             src: "/images/academy/it/seo-roi-channel-comparison.svg",
-            alt: "Diagramm zum Vergleich von SEO- und bezahltem Such-ROI im Zeitverlauf, das die kumulierenden Renditen von SEO zeigt",
-            caption: "SEO-ROI beginnt niedriger als bezahlte Kanaele, kumuliert aber ueber die Zeit. Ab Monat 12-24 liefert organisch typischerweise den 3-5-fachen ROI der bezahlten Suche.",
+            alt: "Grafico che confronta il ROI della SEO e della ricerca a pagamento nel tempo, mostrando che i rendimenti composti della SEO superano quelli pagati dopo 6 mesi",
+            caption: "Il ROI SEO inizialmente è inferiore rispetto ai canali a pagamento, ma aumenta nel tempo. Entro il mese 12-24, la ricerca organica in genere offre 3-5 volte il ROI della ricerca a pagamento.",
           },
           callout: {
             title: "CPA-Benchmark",
-            text: "E-Commerce-Shops sehen typischerweise organische Kundenakquisitionskosten von 8-15 EUR gegenueber 35-55 EUR fuer bezahlte Suche. Ueber einen 24-Monats-Horizont uebersteigt der SEO-ROI den ROI der bezahlten Suche oft um das 3-5-fache durch kumulative Traffic-Gewinne.",
+            text: "I negozi di e-commerce in genere vedono un costo di acquisizione dei clienti organici di $ 8-15 rispetto a $ 35-55 per la ricerca a pagamento. Su un orizzonte di 24 mesi, il ROI SEO spesso supera il ROI della ricerca a pagamento di 3-5 volte a causa dell'aumento del trafficohlten Suche oft um das 3-5-fache durch kumulative Traffic-Gewinne.",
           },
         },
       ],
@@ -465,12 +463,12 @@ items: [
           tip: "Houd uw SEO-kosten bij in een toegewijd spreadsheet vanaf dag een. De meeste bedrijven kunnen ROI niet nauwkeurig berekenen omdat ze de kostenzijde nooit hebben bijgehouden. Zelfs ruwe schattingen zijn beter dan niets, maar nauwkeurige kostenbijhouding maakt uw ROI-berekeningen verdedigbaar tegenover stakeholders.\n\nOns onderwerp over [rapportage aan stakeholders](/academy/seo-reporting-for-stakeholders) behandelt hoe je dit effectief doet.",
           image: {
             src: "/images/academy/nl/seo-roi-formula.svg",
-            alt: "Diagramm der SEO-ROI-Formel mit Umsatz, Kostenaufschluesselung und einer 500%-ROI-Beispielrechnung",
+            alt: "Diagram met de SEO ROI-formule met omzet, uitsplitsing van de kosten en een voorbeeldberekening van 500% ROI",
             caption: "Ein realistisches monatliches ROI-Beispiel: 150.000 EUR organischer Umsatz gegenueber 25.000 EUR gesamter SEO-Investition ergibt 500% ROI.",
           },
           callout: {
             title: "Versteckte Kostenfalle",
-            text: "Entwicklerzeit fuer technisches SEO und interne Gehaltsallokationen machen 30-40% der tatsaechlichen SEO-Kosten in den meisten E-Commerce-Unternehmen aus. Das Weglassen dieser Kosten blaeht den ROI um das 2-3-fache auf und schafft unrealistische Erwartungen.",
+            text: "De tijd die ontwikkelaars besteden aan technische SEO en interne salaristoewijzingen zijn bij de meeste e-commercebedrijven goed voor 30-40% van de werkelijke SEO-kosten. Als u deze weglaat, verhoogt u de ROI met 2-3x en schept u onrealistische verwachtingen das 2-3-fache auf und schafft unrealistische Erwartungen.",
           },
         },
         {
@@ -519,12 +517,12 @@ items: [
           ],
           image: {
             src: "/images/academy/nl/seo-roi-channel-comparison.svg",
-            alt: "Diagramm zum Vergleich von SEO- und bezahltem Such-ROI im Zeitverlauf, das die kumulierenden Renditen von SEO zeigt",
-            caption: "SEO-ROI beginnt niedriger als bezahlte Kanaele, kumuliert aber ueber die Zeit. Ab Monat 12-24 liefert organisch typischerweise den 3-5-fachen ROI der bezahlten Suche.",
+            alt: "Grafiek waarin SEO en betaalde zoek-ROI in de loop van de tijd worden vergeleken, waarbij het samengestelde rendement van SEO na zes maanden inhaalt",
+            caption: "De SEO ROI begint lager dan bij betaalde kanalen, maar wordt na verloop van tijd steeds groter. Tussen maand 12 en 24 levert organisch doorgaans drie tot vijf keer de ROI op dan betaald zoeken.",
           },
           callout: {
             title: "CPA-Benchmark",
-            text: "E-Commerce-Shops sehen typischerweise organische Kundenakquisitionskosten von 8-15 EUR gegenueber 35-55 EUR fuer bezahlte Suche. Ueber einen 24-Monats-Horizont uebersteigt der SEO-ROI den ROI der bezahlten Suche oft um das 3-5-fache durch kumulative Traffic-Gewinne.",
+            text: "E-commercewinkels rekenen doorgaans op €8-15 voor organische klantenwerving, tegenover €35-55 voor betaald zoeken. Over een periode van 24 maanden overtreft de SEO-ROI vaak de betaalde zoek-ROI met 3-5x vanwege het toenemende verkeerhlten Suche oft um das 3-5-fache durch kumulative Traffic-Gewinne.",
           },
         },
       ],

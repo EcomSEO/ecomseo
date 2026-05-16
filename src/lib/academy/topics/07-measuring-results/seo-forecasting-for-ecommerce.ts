@@ -172,8 +172,7 @@ items: [
     fr: {
       badge: "Analytics & Reporting",
       heading: "Previsions SEO pour l'e-commerce",
-      intro:
-        "Les previsions SEO transforment la recherche organique d'une initiative de croissance vague en un canal commercial quantifiable avec des resultats previsibles. En modelisant la relation entre classements, trafic et chiffre d'affaires, vous pouvez projeter le retour attendu des investissements SEO avant d'engager un budget. Des previsions precises gagnent la confiance des parties prenantes, justifient l'allocation des ressources et fixent des attentes realistes pour les delais de croissance organique.",
+      intro: "Les previsions SEO transforment la recherche organique d'une initiative de croissance vague en un canal commercial quantifiable avec des resultats previsibles. En modelisant la relation entre classements, trafic et chiffre d'affaires, vous pouvez projeter le retour attendu des investissements SEO avant d'engager un budget. Des previsions precises gagnent la confiance des parties prenantes, justifient l'allocation des ressources et fixent des attentes realistes pour les delais de croissance organique.",
       readTime: "11 min de lecture",
       sections: [
         {
@@ -188,22 +187,22 @@ items: [
           ],
           image: {
             src: "/images/academy/fr/seo-forecast-chain.svg",
-            alt: "SEO-Prognosekette von Suchvolumen ueber CTR und Traffic-Schaetzung bis zur Umsatzprognose",
-            caption: "SEO-Prognosen verketten mehrere Datenpunkte. Jeder Schritt hat Unsicherheit, daher praesentieren Sie Ergebnisse als Spannen.",
+            alt: "Diagramme montrant la chaîne de prévision des revenus SEO : le volume de recherche multiplié par le CTR multiplié par le taux de conversion multiplié par l'AOV est égal aux revenus mensuels projetés",
+            caption: "Enchaînez quatre entrées pour projeter des revenus organiques : 50 000 recherches à 8 % de CTR, 2,5 % de CVR et 85 $ AOV rapportent 8 500 $/mois.",
           },
           callout: {
             title: "Prognose-Genauigkeit",
-            text: "SEO-Prognosen sind Schaetzungen, keine Garantien. Praesentieren Sie immer niedrige, mittlere und hohe Szenarien. Die genauesten Prognosen nutzen 12+ Monate historischer Daten und beruecksichtigen Saisonalitaet.",
+            text: "Présentez toujours les prévisions sous forme de plages. Projeter un gain de revenus organiques mensuel de 40 000 à 65 000 $ sur 12 mois est plus crédible et utile qu'un seul chiffre qui implique une fausse précision.onalitaet.",
           },
         },
         {
-          title: "Construire un modele de taux de clics",
+          title: "Construire un modèle de taux de clics",
           content:
             "Le taux de clics par position de classement est la variable la plus critique dans les previsions SEO. De petits changements dans les hypotheses de CTR creent de grandes differences dans le trafic projete. Utilisez vos propres donnees Google Search Console comme source principale pour la modelisation du CTR car le CTR varie significativement selon le type de requete, l'appareil et la presence de fonctionnalites SERP.\n\nExportez vos donnees de performance Search Console des 12 derniers mois. Regroupez les requetes par position moyenne en intervalles de nombres entiers. Calculez le CTR moyen pour chaque groupe de position. Vous avez maintenant une courbe CTR personnalisee qui reflete votre marque, industrie et environnement SERP specifiques.\n\nAjustez votre modele CTR pour l'impact des fonctionnalites SERP. Les mots-cles ou Google affiche des annonces shopping, des extraits en vedette ou des boites People Also Ask au-dessus des resultats organiques auront un CTR organique plus bas. Pour les requetes liees aux produits, les annonces shopping reduisent typiquement le CTR organique en position un d'environ 30% a 15-20%.\n\nTenez compte des differences entre requetes de marque et hors marque. Vos requetes de nom de marque auront des CTR deux a trois fois plus eleves que les requetes hors marque a la meme position.\n\nLe CTR mobile versus desktop differe egalement significativement. Le CTR mobile tend a etre plus bas pour la meme position car les SERP mobiles sont plus encombrees d'annonces et de fonctionnalites au-dessus des resultats organiques.",
           tip: "Reconstruisez votre modele CTR tous les six mois. Google teste continuellement de nouvelles mises en page et fonctionnalites SERP qui deplacent les patterns de CTR organique. Un modele CTR base sur des donnees vieilles de deux ans surestiemera ou sous-estimera significativement le trafic.",
         },
         {
-          title: "Analyse des opportunites de mots-cles",
+          title: "Analyse des opportunites de mots-clés",
           content:
             "Des previsions precises necessitent un inventaire approfondi des opportunites de mots-cles. Cela signifie identifier non seulement les mots-cles pour lesquels vous vous classez actuellement mais aussi ceux que vous pourriez cibler de maniere realiste avec une optimisation supplementaire ou du nouveau contenu.\n\nCommencez par votre portefeuille de mots-cles existant de Search Console et votre outil de suivi de classement. Categorisez les mots-cles par position de classement actuelle et type de page. Pour chaque groupe, identifiez combien de mots-cles sont en distance de frappe de la premiere page, ce qui signifie typiquement les positions 11 a 20. Ces mots-cles proches de la page un representent les gains de trafic les plus rapides.\n\nEnsuite, effectuez une analyse d'ecart de mots-cles concurrentiels. Utilisez des outils comme Ahrefs ou Semrush pour trouver les mots-cles ou vos concurrents se classent mais pas vous. Filtrez cette liste aux mots-cles avec une intention commerciale ou transactionnelle pertinente pour votre catalogue.\n\nEstimez l'effort requis pour chaque groupe de mots-cles. Les mots-cles ou vous avez deja une page pertinente necessitant juste une optimisation demandent moins d'investissement que ceux necessitant une creation de contenu entierement nouvelle.\n\nEnfin, priorisez les opportunites par impact sur le chiffre d'affaires projete. Un groupe de mots-cles avec 500 recherches mensuelles et une valeur moyenne de commande de 200 euros vaut plus qu'un groupe avec 5 000 recherches et 5 euros d'AOV.",
           items: [
@@ -214,22 +213,22 @@ items: [
           ],
         },
         {
-          title: "Previsions saisonnieres pour l'e-commerce",
+          title: "Previsions saisonnières pour l'e-commerce",
           content:
             "Les entreprises e-commerce sont inheremment saisonnieres, et les previsions SEO qui ignorent la saisonnalite seront terriblement inexactes. La plupart des categories de produits voient des fluctuations de demande significatives tout au long de l'annee. Votre prevision doit modeliser ces patterns pour produire des projections mensuelles fiables.\n\nConstruisez un indice de saisonnalite en utilisant au moins deux ans de donnees historiques de trafic organique. Pour chaque mois, calculez son trafic en pourcentage de la moyenne annuelle. Si decembre obtient typiquement 160% du trafic mensuel moyen et fevrier 75%, ces indices deviennent des multiplicateurs dans votre prevision.\n\nLes donnees Google Trends fournissent des informations saisonnieres supplementaires, surtout pour les nouvelles categories de produits ou vous manquez de donnees historiques. Recherchez vos categories de mots-cles primaires dans Google Trends et analysez les patterns d'interet mensuel sur les cinq dernieres annees.\n\nTenez compte des opportunites de contenu saisonnier separement du trafic de pages produits permanentes. Les guides cadeaux de fetes et guides d'achat saisonniers creent des pics de trafic temporaires a modeliser comme des initiatives distinctes avec des dates de debut et de fin definies.\n\nSoyez explicite sur les risques saisonniers dans votre prevision. Si un concurrent lance typiquement des campagnes payantes agressives pendant votre haute saison, cela peut supprimer votre CTR organique pendant ces mois. Combiner cela avec l'analyse des [tendances saisonnières des mots-clés](/academy/seasonal-keyword-trends) affine considérablement vos projections.",
           tip: "Commencez a publier le contenu saisonnier trois a quatre mois avant le pic de demande. Le contenu SEO a besoin de temps pour etre indexe, accumuler des backlinks et construire sa force de classement. Un guide cadeaux publie en novembre ratera la majeure partie de l'opportunite. Le meme guide publie en aout a le temps d'atteindre la premiere page d'ici la haute saison.",
           image: {
             src: "/images/academy/fr/seasonal-forecast-index.svg",
-            alt: "Saisonaler Prognoseindex ueber 12 Monate mit vierteljaehrlichen Planungsphasen",
-            caption: "Saisonale Muster beeinflussen 60-80% der E-Commerce-Suchnachfrage erheblich. Planen Sie Content 3 Monate vor der Spitzenzeit.",
+            alt: "Graphique linéaire montrant l'indice de trafic saisonnier du commerce électronique sur 12 mois, avec un pic de novembre à 160 % et un minimum de mars à 75 %",
+            caption: "Construisez un indice de saisonnalité à partir de plus de 2 ans de données. Novembre culmine à 160 % de la moyenne tandis que février-mars chute à 75 %.",
           },
           callout: {
             title: "Saisonale Content-Vorlaufzeit",
-            text: "SEO-Content benoetigt 2-4 Monate, um Ranking-Staerke aufzubauen. Wenn Sie auf die Saison warten, um Content zu veroeffentlichen, ist es bereits zu spaet. Planen und veroeffentlichen Sie mindestens ein Quartal im Voraus.",
+            text: "Le contenu des fêtes publié en août atteint la première page avant la haute saison de novembre. Le même guide publié en novembre rate 80 % des opportunités car le contenu SEO a besoin de 3 à 4 mois pour construire des classements. Quartal im Voraus.",
           },
         },
         {
-          title: "Modeles et outils de prevision",
+          title: "Modèles et outils de prevision",
           content:
             "Plusieurs approches de prevision fonctionnent pour le SEO e-commerce, chacune avec differents niveaux de complexite et compromis de precision. Choisissez la methode qui correspond a votre disponibilite de donnees et a la precision requise par vos parties prenantes.\n\nL'approche la plus simple est la prevision basee sur les tendances. Prenez votre tendance de trafic et de chiffre d'affaires organique sur les 12-24 derniers mois, calculez le taux de croissance mensuel moyen et projetez-le. Cela fonctionne bien quand votre programme SEO est stable.\n\nLa prevision basee sur des scenarios modelise trois a quatre resultats : pessimiste, reference, optimiste, et parfois un scenario sans investissement. Chaque scenario utilise des hypotheses differentes sur les ameliorations de classement, le CTR et les taux de conversion. Cette approche est excellente pour les discussions budgetaires.\n\nLa prevision ascendante construit a partir de projections de mots-cles individuels. Pour chaque mot-cle cible, estimez le classement attendu, appliquez CTR et taux de conversion, et additionnez le chiffre d'affaires projete. C'est l'approche la plus granulaire et defensible.\n\nLes praticiens avances utilisent des modeles de regression qui correlent les activites SEO historiques avec les resultats. En analysant comment la production de contenu passee, le link building et les ameliorations techniques ont correle avec les changements de trafic et de chiffre d'affaires, vous pouvez construire un modele predictif.",
           items: [
@@ -254,8 +253,7 @@ items: [
     es: {
       badge: "Analytics & Reporting",
       heading: "Pronosticos SEO para ecommerce",
-      intro:
-        "Los pronosticos SEO transforman la busqueda organica de una iniciativa de crecimiento vaga en un canal de negocio cuantificable con resultados predecibles. Al modelar la relacion entre rankings, trafico e ingresos, puedes proyectar el retorno esperado de las inversiones SEO antes de comprometer presupuesto. Los pronosticos precisos ganan la confianza de los stakeholders, justifican la asignacion de recursos y establecen expectativas realistas para los plazos de crecimiento organico.",
+      intro: "Los pronosticos SEO transforman la busqueda organica de una iniciativa de crecimiento vaga en un canal de negocio cuantificable con resultados predecibles. Al modelar la relacion entre rankings, tráfico e ingresos, puedes proyectar el retorno esperado de las inversiones SEO antes de comprometer presupuesto. Los pronosticos precisos ganan la confianza de los stakeholders, justifican la asignacion de recursos y establecen expectativas realistas para los plazos de crecimiento organico.",
       readTime: "11 min de lectura",
       sections: [
         {
@@ -270,22 +268,22 @@ items: [
           ],
           image: {
             src: "/images/academy/es/seo-forecast-chain.svg",
-            alt: "SEO-Prognosekette von Suchvolumen ueber CTR und Traffic-Schaetzung bis zur Umsatzprognose",
-            caption: "SEO-Prognosen verketten mehrere Datenpunkte. Jeder Schritt hat Unsicherheit, daher praesentieren Sie Ergebnisse als Spannen.",
+            alt: "Diagrama que muestra la cadena de pronóstico de ingresos de SEO: volumen de búsqueda multiplicado por CTR multiplicado por tasa de conversión multiplicado por AOV es igual a los ingresos mensuales proyectados",
+            caption: "Encadene cuatro entradas para proyectar ingresos orgánicos: 50.000 búsquedas con un CTR del 8 %, un CVR del 2,5 % y un AOV de 85 USD, lo que produce 8500 USD al mes.",
           },
           callout: {
             title: "Prognose-Genauigkeit",
-            text: "SEO-Prognosen sind Schaetzungen, keine Garantien. Praesentieren Sie immer niedrige, mittlere und hohe Szenarien. Die genauesten Prognosen nutzen 12+ Monate historischer Daten und beruecksichtigen Saisonalitaet.",
+            text: "Presente siempre los pronósticos como rangos. Proyectar un aumento de ingresos orgánicos mensuales de entre 40.000 y 65.000 dólares en un plazo de 12 meses es más creíble y útil que un solo número que implique una precisión falsa.onalitaet.",
           },
         },
         {
           title: "Construir un modelo de tasa de clics",
           content:
             "La tasa de clics por posicion de ranking es la variable mas critica en los pronosticos SEO. Pequenos cambios en las suposiciones de CTR crean grandes diferencias en el trafico proyectado. Usa tus propios datos de Google Search Console como fuente primaria para el modelado de CTR porque el CTR varia significativamente por tipo de consulta, dispositivo y presencia de funciones SERP.\n\nExporta tus datos de rendimiento de Search Console de los ultimos 12 meses. Agrupa consultas por posicion promedio en intervalos de numeros enteros. Calcula el CTR promedio para cada grupo de posicion. Ahora tienes una curva CTR personalizada que refleja tu marca, industria y entorno SERP especificos.\n\nAjusta tu modelo CTR para el impacto de funciones SERP. Las palabras clave donde Google muestra anuncios de shopping, fragmentos destacados o cajas de People Also Ask encima de los resultados organicos tendran un CTR organico menor. Para consultas relacionadas con productos, los anuncios de shopping tipicamente reducen el CTR organico de posicion uno de aproximadamente 30% a 15-20%.\n\nConsidera las diferencias entre consultas de marca y sin marca. Tus consultas de nombre de marca tendran CTRs dos a tres veces mayores que las consultas sin marca en la misma posicion. Pronostica el trafico de marca y sin marca por separado.\n\nEl CTR movil versus desktop tambien difiere significativamente. El CTR movil tiende a ser menor para la misma posicion porque las SERPs moviles estan mas saturadas con anuncios y funciones encima de los resultados organicos.",
-          tip: "Reconstruye tu modelo de CTR cada seis meses. Google prueba continuamente nuevos disenos y funciones SERP que cambian los patrones de CTR organico. Un modelo CTR basado en datos de hace dos anos sobreestimara o subestimara significativamente el trafico dependiendo de como han cambiado las funciones SERP en tu nicho.",
+          tip: "Reconstruye tu modelo de CTR cada seis meses. Google prueba continuamente nuevos disenos y funciones SERP que cambian los patrones de CTR organico. Un modelo CTR basado en datos de hace dos años sobreestimara o subestimara significativamente el trafico dependiendo de como han cambiado las funciones SERP en tu nicho.",
         },
         {
-          title: "Analisis de oportunidades de palabras clave",
+          title: "Análisis de oportunidades de palabras clave",
           content:
             "Los pronosticos precisos requieren un inventario exhaustivo de oportunidades de palabras clave. Esto significa identificar no solo las palabras clave para las que actualmente rankeas sino tambien las que podrias targetear de forma realista con optimizacion adicional o nuevo contenido.\n\nComienza con tu portafolio existente de palabras clave de Search Console y tu herramienta de seguimiento de rankings. Categoriza palabras clave por posicion de ranking actual y tipo de pagina. Para cada grupo, identifica cuantas palabras clave estan en distancia de golpe de la primera pagina, lo que tipicamente significa posiciones 11 a 20. Estas palabras clave cerca de la primera pagina representan las ganancias de trafico mas rapidas.\n\nLuego, realiza un analisis de brecha de palabras clave competitivas. Usa herramientas como Ahrefs o Semrush para encontrar palabras clave donde tus competidores rankean pero tu no. Filtra esta lista a palabras clave con intencion comercial o transaccional relevantes para tu catalogo.\n\nEstima el esfuerzo requerido para cada grupo de palabras clave. Las palabras clave donde ya tienes una pagina relevante que solo necesita optimizacion requieren menos inversion que las que necesitan creacion de contenido completamente nuevo.\n\nFinalmente, prioriza las oportunidades por impacto proyectado en ingresos. Un grupo de palabras clave con 500 busquedas mensuales y un valor promedio de pedido de $200 vale mas que un grupo con 5,000 busquedas y $5 de AOV.",
           items: [
@@ -298,16 +296,16 @@ items: [
         {
           title: "Pronosticos estacionales para ecommerce",
           content:
-            "Los negocios ecommerce son inherentemente estacionales, y los pronosticos SEO que ignoran la [estacionalidad](/academy/seasonal-keyword-trends) seran tremendamente inexactos. La mayoria de las categorias de productos ven fluctuaciones de demanda significativas a lo largo del ano. Tu pronostico debe modelar estos patrones para producir proyecciones mensuales confiables.\n\nConstruye un indice de estacionalidad usando al menos dos anos de datos historicos de trafico organico. Para cada mes, calcula su trafico como porcentaje del promedio anual. Si diciembre tipicamente obtiene 160% del trafico mensual promedio y febrero obtiene 75%, esos indices se convierten en multiplicadores en tu pronostico.\n\nLos datos de Google Trends proporcionan informacion estacional adicional, especialmente para nuevas categorias de producto donde careces de datos historicos. Busca tus categorias primarias de palabras clave en Google Trends y analiza los patrones de interes mensual de los ultimos cinco anos.\n\nConsidera las oportunidades de contenido estacional por separado del trafico de paginas de producto perennes. Las guias de regalos navideños y guias de compra estacionales crean picos de trafico temporales que deben modelarse como iniciativas distintas con fechas definidas de inicio y fin.\n\nSe explicito sobre los riesgos estacionales en tu pronostico. Si un competidor tipicamente lanza campanas pagadas agresivas durante tu temporada alta, eso puede suprimir tu CTR organico durante esos meses.",
+            "Los negocios ecommerce son inherentemente estacionales, y los pronosticos SEO que ignoran la [estacionalidad](/academy/seasonal-keyword-trends) seran tremendamente inexactos. La mayoria de las categorias de productos ven fluctuaciones de demanda significativas a lo largo del año. Tu pronostico debe modelar estos patrones para producir proyecciones mensuales confiables.\n\nConstruye un indice de estacionalidad usando al menos dos años de datos historicos de trafico organico. Para cada mes, calcula su trafico como porcentaje del promedio anual. Si diciembre tipicamente obtiene 160% del trafico mensual promedio y febrero obtiene 75%, esos indices se convierten en multiplicadores en tu pronostico.\n\nLos datos de Google Trends proporcionan informacion estacional adicional, especialmente para nuevas categorias de producto donde careces de datos historicos. Busca tus categorias primarias de palabras clave en Google Trends y analiza los patrones de interes mensual de los ultimos cinco años.\n\nConsidera las oportunidades de contenido estacional por separado del trafico de paginas de producto perennes. Las guias de regalos navideños y guias de compra estacionales crean picos de trafico temporales que deben modelarse como iniciativas distintas con fechas definidas de inicio y fin.\n\nSe explicito sobre los riesgos estacionales en tu pronostico. Si un competidor tipicamente lanza campanas pagadas agresivas durante tu temporada alta, eso puede suprimir tu CTR organico durante esos meses.",
           tip: "Comienza a publicar contenido estacional tres a cuatro meses antes del pico de demanda. El contenido SEO necesita tiempo para ser indexado, acumular backlinks y construir fuerza de ranking. Una guia de regalos navidenos publicada en noviembre perdera la mayor parte de la oportunidad. La misma guia publicada en agosto tiene tiempo de alcanzar la primera pagina antes de la temporada alta de compras.",
           image: {
             src: "/images/academy/es/seasonal-forecast-index.svg",
-            alt: "Saisonaler Prognoseindex ueber 12 Monate mit vierteljaehrlichen Planungsphasen",
-            caption: "Saisonale Muster beeinflussen 60-80% der E-Commerce-Suchnachfrage erheblich. Planen Sie Content 3 Monate vor der Spitzenzeit.",
+            alt: "Gráfico de líneas que muestra el índice de tráfico de comercio electrónico estacional a lo largo de 12 meses, con un pico en noviembre del 160 % y un mínimo en marzo del 75 %.",
+            caption: "Cree un índice de estacionalidad a partir de más de 2 años de datos. Noviembre alcanza un máximo del 160% del promedio, mientras que febrero-marzo cae al 75%.",
           },
           callout: {
             title: "Saisonale Content-Vorlaufzeit",
-            text: "SEO-Content benoetigt 2-4 Monate, um Ranking-Staerke aufzubauen. Wenn Sie auf die Saison warten, um Content zu veroeffentlichen, ist es bereits zu spaet. Planen und veroeffentlichen Sie mindestens ein Quartal im Voraus.",
+            text: "El contenido navideño publicado en agosto llega a la página uno en la temporada alta de noviembre. La misma guía publicada en noviembre pierde el 80% de las oportunidades porque el contenido SEO necesita de 3 a 4 meses para construir clasificaciones. Quartal im Voraus.",
           },
         },
         {
@@ -352,12 +350,12 @@ items: [
           ],
           image: {
             src: "/images/academy/it/seo-forecast-chain.svg",
-            alt: "SEO-Prognosekette von Suchvolumen ueber CTR und Traffic-Schaetzung bis zur Umsatzprognose",
-            caption: "SEO-Prognosen verketten mehrere Datenpunkte. Jeder Schritt hat Unsicherheit, daher praesentieren Sie Ergebnisse als Spannen.",
+            alt: "Diagramma che mostra la catena di previsione delle entrate SEO: il volume di ricerca per il CTR per il tasso di conversione per l'AOV equivale alle entrate mensili previste",
+            caption: "Concatena quattro input per proiettare le entrate organiche: 50.000 ricerche con CTR dell'8%, CVR del 2,5% e AOV di $ 85 producono $ 8.500 al mese.",
           },
           callout: {
             title: "Prognose-Genauigkeit",
-            text: "SEO-Prognosen sind Schaetzungen, keine Garantien. Praesentieren Sie immer niedrige, mittlere und hohe Szenarien. Die genauesten Prognosen nutzen 12+ Monate historischer Daten und beruecksichtigen Saisonalitaet.",
+            text: "Presenta sempre le previsioni come intervalli. Proiettare un aumento delle entrate organiche mensili di $ 40.000- $ 65.000 entro 12 mesi è più credibile e utile di un singolo numero che implica una falsa precisione.onalitaet.",
           },
         },
         {
@@ -384,12 +382,12 @@ items: [
           tip: "Iniziate a pubblicare contenuto stagionale tre-quattro mesi prima del picco di domanda. Il contenuto SEO ha bisogno di tempo per essere indicizzato, accumulare backlink e costruire forza di posizionamento. Una guida regalo pubblicata a novembre manchera la maggior parte dell'opportunita. La stessa guida pubblicata ad agosto ha tempo per raggiungere la prima pagina entro l'alta stagione degli acquisti.",
           image: {
             src: "/images/academy/it/seasonal-forecast-index.svg",
-            alt: "Saisonaler Prognoseindex ueber 12 Monate mit vierteljaehrlichen Planungsphasen",
-            caption: "Saisonale Muster beeinflussen 60-80% der E-Commerce-Suchnachfrage erheblich. Planen Sie Content 3 Monate vor der Spitzenzeit.",
+            alt: "Grafico a linee che mostra l'indice del traffico e-commerce stagionale nell'arco di 12 mesi con il picco di novembre al 160% e il minimo di marzo al 75%",
+            caption: "Costruisci un indice di stagionalità partendo da più di 2 anni di dati. Novembre raggiunge il picco al 160% della media mentre febbraio-marzo scende al 75%.",
           },
           callout: {
             title: "Saisonale Content-Vorlaufzeit",
-            text: "SEO-Content benoetigt 2-4 Monate, um Ranking-Staerke aufzubauen. Wenn Sie auf die Saison warten, um Content zu veroeffentlichen, ist es bereits zu spaet. Planen und veroeffentlichen Sie mindestens ein Quartal im Voraus.",
+            text: "I contenuti festivi pubblicati in agosto raggiungono la prima pagina entro l'alta stagione di novembre. La stessa guida pubblicata a novembre perde l’80% dell’opportunità perché i contenuti SEO impiegano 3-4 mesi per costruire il ranking Quartal im Voraus.",
           },
         },
         {
@@ -434,12 +432,12 @@ items: [
           ],
           image: {
             src: "/images/academy/nl/seo-forecast-chain.svg",
-            alt: "SEO-Prognosekette von Suchvolumen ueber CTR und Traffic-Schaetzung bis zur Umsatzprognose",
-            caption: "SEO-Prognosen verketten mehrere Datenpunkte. Jeder Schritt hat Unsicherheit, daher praesentieren Sie Ergebnisse als Spannen.",
+            alt: "Diagram dat de prognoseketen voor SEO-inkomsten toont: zoekvolume maal CTR maal conversiepercentage maal AOV is gelijk aan de verwachte maandelijkse omzet",
+            caption: "Combineer vier inputs om de organische omzet te projecteren: 50.000 zoekopdrachten met een CTR van 8%, een CVR van 2,5% en een AOV van €85, leveren €8.500/maand op.",
           },
           callout: {
             title: "Prognose-Genauigkeit",
-            text: "SEO-Prognosen sind Schaetzungen, keine Garantien. Praesentieren Sie immer niedrige, mittlere und hohe Szenarien. Die genauesten Prognosen nutzen 12+ Monate historischer Daten und beruecksichtigen Saisonalitaet.",
+            text: "Presenteer prognoses altijd als bereiken. Het voorspellen van een maandelijkse organische omzetgroei van $40.000 tot $65.000 binnen twaalf maanden is geloofwaardiger en nuttiger dan een enkel getal dat valse precisie impliceert.onalitaet.",
           },
         },
         {
@@ -466,12 +464,12 @@ items: [
           tip: "Begin drie tot vier maanden voor de vraagpiek met het publiceren van seizoensgebonden content. SEO-content heeft tijd nodig om geindexeerd te worden, backlinks op te bouwen en rankingkracht te ontwikkelen. Een feestdagen-cadeaugids gepubliceerd in november zal het grootste deel van de kans missen. Dezelfde gids gepubliceerd in augustus heeft tijd om pagina een te bereiken tegen het piek-inkoopseizoen.",
           image: {
             src: "/images/academy/nl/seasonal-forecast-index.svg",
-            alt: "Saisonaler Prognoseindex ueber 12 Monate mit vierteljaehrlichen Planungsphasen",
-            caption: "Saisonale Muster beeinflussen 60-80% der E-Commerce-Suchnachfrage erheblich. Planen Sie Content 3 Monate vor der Spitzenzeit.",
+            alt: "Lijndiagram met de seizoensgebonden index van e-commerceverkeer over twaalf maanden, met een piek in november van 160% en een dieptepunt in maart van 75%",
+            caption: "Stel een seizoensindex samen op basis van gegevens van meer dan twee jaar. November piekt op 160% van het gemiddelde, terwijl februari-maart daalt naar 75%.",
           },
           callout: {
             title: "Saisonale Content-Vorlaufzeit",
-            text: "SEO-Content benoetigt 2-4 Monate, um Ranking-Staerke aufzubauen. Wenn Sie auf die Saison warten, um Content zu veroeffentlichen, ist es bereits zu spaet. Planen und veroeffentlichen Sie mindestens ein Quartal im Voraus.",
+            text: "Vakantie-inhoud die in augustus wordt gepubliceerd, bereikt pagina één in het hoogseizoen van november. Dezelfde gids die in november werd gepubliceerd, mist 80% van de kans omdat SEO-inhoud 3-4 maanden nodig heeft om rankings op te bouwen Quartal im Voraus.",
           },
         },
         {

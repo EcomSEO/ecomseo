@@ -200,12 +200,11 @@ items: [
     fr: {
       badge: "Guides sectoriels",
       heading: "Playbook SEO Electronique et Technologie",
-      intro:
-        "Le e-commerce electronique et technologique est l'un des secteurs les plus competitifs en recherche organique. Vous etes en competition avec des fabricants a l'autorite de domaine massive, des geants des places de marche, des publications de tests et des comparateurs de prix, tous pour les memes mots-cles produit. Gagner necessite une strategie construite autour du comportement de recherche par specifications, des cycles de vie rapides des produits et de la complexite technique que les acheteurs naviguent en choisissant leur electronique. Ce playbook couvre les techniques SEO specifiques qui stimulent la croissance organique pour les boutiques d'electronique grand public, d'informatique, de composants et de gadgets.",
+      intro: "Le e-commerce electronique et technologique est l'un des secteurs les plus competitifs en recherche organique. Vous etes en competition avec des fabricants a l'autorite de domaine massive, des geants des places de marché, des publications de tests et des comparateurs de prix, tous pour les memes mots-clés produit. Gagner nécessite une stratégie construite autour du comportement de recherche par specifications, des cycles de vie rapides des produits et de la complexite technique que les acheteurs naviguent en choisissant leur electronique. Ce playbook couvre les techniques SEO specifiques qui stimulent la croissance organique pour les boutiques d'electronique grand public, d'informatique, de composants et de gadgets.",
       readTime: "13 min de lecture",
       sections: [
         {
-          title: "Architecture de mots-cles basee sur les specifications",
+          title: "Architecture de mots-clés basée sur les specifications",
           content:
             "Les acheteurs d'electronique recherchent avec une specificite extraordinaire. Contrairement a la mode ou l'alimentation, ou les recherches sont souvent larges et exploratoires, les acheteurs tech incluent frequemment des numeros de modele, specifications et parametres techniques dans leurs requetes. \"RTX 4070 Ti 12GB carte graphique,\" \"chargeur USB-C 100W GaN,\" \"moniteur 27 pouces 4K IPS 144Hz\", ces requetes riches en specifications representent des acheteurs profondement engages dans le tunnel d'achat.\n\nConstruisez votre strategie de mots-cles autour des specifications techniques qui definissent chaque categorie de produit. Pour les moniteurs, les dimensions de recherche critiques sont la taille d'ecran, la resolution, le type de dalle, le taux de rafraichissement et la connectivite. Pour les laptops, ce sont le processeur, la RAM, le stockage, la taille d'ecran et le GPU.\n\nCreez des pages de categorie filtrables qui generent des URLs indexables pour les combinaisons de specifications a fort volume. Une URL comme /moniteurs/4k/27-pouces/ips devrait etre indexable et contenir du contenu unique. Limitez cependant les combinaisons de filtres indexees, uniquement celles avec un volume de recherche significatif.\n\nIncluez les numeros de modele et references dans les titres de pages produit, balises H1 et meta descriptions. De nombreux acheteurs d'electronique recherchent directement par numero de modele.\n\nSuivez les mots-cles d'annonces de nouveaux produits. Quand un fabricant annonce un nouveau GPU, processeur ou modele de telephone, le volume de recherche pour ce modele augmente immediatement.",
           items: [
@@ -216,12 +215,12 @@ items: [
           ],
           image: {
             src: "/images/academy/fr/electronics-spec-search-funnel.svg",
-            alt: "Spezifikationsgetriebener Suchtrichter von breiter Suche ueber spezifikationsgefilterte bis modellspezifische Anfragen",
-            caption: "Elektronik-Kaeufer verfeinern Suchanfragen schrittweise von allgemein zu spezifisch. Erstellen Sie Seiten fuer jede Trichterebene.",
+            alt: "Schéma montrant comment les requêtes de recherche dans le domaine de l'électronique passent des termes généraux aux intentions d'achat spécifiques au modèle via des filtres de spécification.",
+            caption: "Les acheteurs de produits électroniques passent des requêtes larges aux recherches filtrées par spécifications jusqu'aux recherches de modèles précis. Chaque niveau comporte une intention d’achat plus élevée.",
           },
           callout: {
             title: "Spezifikations-Keywords",
-            text: "60-70% der Elektronik-Suchanfragen enthalten technische Spezifikationen wie Bildschirmgroesse, Aufloesung oder Prozessortyp. Optimieren Sie Filterseiten und Kategorien fuer diese spezifikationsgetriebenen Begriffe.",
+            text: "Les requêtes électroniques telles que « Moniteur 4K IPS 144 Hz de 27 pouces » contiennent 4 à 5 dimensions de spécification. Les magasins qui créent des URL indexables pour les 50 à 100 principales combinaisons de spécifications par catégorie captent la concurrence du traficenen Begriffe.",
           },
         },
         {
@@ -243,7 +242,7 @@ items: [
           tip: "Auditez votre site trimestriellement pour les pages de produits arretes orphelines sans liens internes. Ces pages recoivent encore du trafic organique de Google mais sont invisibles dans la structure de votre site. Ajoutez des liens internes depuis les pages de categorie et de comparaison pertinentes.",
         },
         {
-          title: "Strategie de contenu de tests et comparatifs",
+          title: "Stratégie de contenu de tests et comparatifs",
           content:
             "Les acheteurs d'electronique sont de grands chercheurs. L'achat moyen d'electronique grand public implique de multiples points de contact : lire des tests, regarder des videos comparatives, consulter des fiches techniques et comparer les prix. Construire une couche de contenu autour de ce comportement de recherche capture le trafic a chaque etape du parcours d'achat.\n\nPubliez des tests approfondis pour vos produits phares. Ce ne sont pas des descriptions marketing, ce sont des evaluations honnetes couvrant les forces, faiblesses, cas d'usage ideaux et la comparaison avec les alternatives.\n\nCreez des pages de comparaison directe pour les duels de produits les plus recherches. \"MacBook Air vs Dell XPS 13,\" \"iPhone 16 vs Samsung Galaxy S25\", ces requetes de comparaison portent un volume de recherche enorme. Structurez les pages comparatives avec des tableaux de specifications cote a cote et des recommandations claires.\n\nConstruisez du contenu de guides d'achat pour chaque categorie majeure. \"Meilleurs laptops pour le montage video 2026,\" \"Meilleurs claviers mecaniques pas chers,\" \"Meilleurs ecouteurs sans fil pour la course\", ces guides ciblent les requetes top-of-funnel. Mettez a jour les guides au moins trimestriellement.\n\nIntegrez les avis clients et le contenu genere par les utilisateurs sur les pages produit. Implementez le balisage schema Review sur les avis clients et encouragez des avis detailles mentionnant des cas d'usage specifiques.",
           items: [
@@ -266,12 +265,12 @@ items: [
           ],
           image: {
             src: "/images/academy/fr/electronics-site-hierarchy.svg",
-            alt: "Elektronik-Shop Seitenhierarchie von der Startseite ueber Hauptkategorien zu Unterkategorien",
-            caption: "Jede Kategorie sollte indexierbar sein und maximal 3 Klicks von der Startseite entfernt. Breadcrumbs auf jeder Seite.",
+            alt: "Diagramme montrant une hiérarchie de sites électroniques en 3 clics, depuis la page d'accueil en passant par les départements et les catégories jusqu'aux SKU de produits individuels avec des liens croisés avec l'écosystème",
+            caption: "Les produits doivent être accessibles en 3 clics. Les liens croisés de l'écosystème entre les produits associés améliorent la découverte du crawl et augmentent la valeur moyenne des commandes.",
           },
           callout: {
             title: "Hierarchie-Tiefe",
-            text: "Elektronik-Kataloge mit mehr als 3 Navigationsebenen verlieren 40-60% des Crawl-Budgets in tiefen Kategorien. Halten Sie die Hierarchie flach und nutzen Sie Querverweise zwischen verwandten Kategorien.",
+            text: "Si une variante suscite une demande de recherche significative (par exemple, « MacBook Pro 1 To » ou « MacBook Pro 512 Go »), attribuez-lui une URL distincte avec un titre et un contenu uniques. S'il ne diffère que par un attribut mineur comme la couleur et l'esprit.",
           },
         },
         {
@@ -295,9 +294,8 @@ items: [
     },
     es: {
       badge: "Guias sectoriales",
-      heading: "Playbook SEO para Electronica y Tecnologia",
-      intro:
-        "El ecommerce de electronica y tecnologia es uno de los verticales mas competitivos en busqueda organica. Compites contra fabricantes con autoridad de dominio masiva, gigantes de marketplaces, publicaciones de resenas y comparadores de precios, todos por las mismas palabras clave de producto. Ganar requiere una estrategia construida en torno al comportamiento de busqueda por especificaciones, ciclos de vida rapidos de productos y la complejidad tecnica que los compradores navegan al elegir electronica. Este playbook cubre las tecnicas SEO especificas que impulsan el crecimiento organico para tiendas de electronica de consumo, informatica, componentes y gadgets.",
+      heading: "Playbook SEO para Electrónica y Tecnologia",
+      intro: "El ecommerce de electrónica y tecnologia es uno de los verticales mas competitivos en busqueda organica. Compites contra fabricantes con autoridad de dominio masiva, gigantes de marketplaces, publicaciones de resenas y comparadores de precios, todos por las mismas palabras clave de producto. Ganar requiere una estrategia construida en torno al comportamiento de busqueda por especificaciones, ciclos de vida rápidos de productos y la complejidad técnica que los compradores navegan al elegir electrónica. Este playbook cubre las técnicas SEO especificas que impulsan el crecimiento organico para tiendas de electrónica de consumo, informatica, componentes y gadgets.",
       readTime: "13 min de lectura",
       sections: [
         {
@@ -312,16 +310,16 @@ items: [
           ],
           image: {
             src: "/images/academy/es/electronics-spec-search-funnel.svg",
-            alt: "Spezifikationsgetriebener Suchtrichter von breiter Suche ueber spezifikationsgefilterte bis modellspezifische Anfragen",
-            caption: "Elektronik-Kaeufer verfeinern Suchanfragen schrittweise von allgemein zu spezifisch. Erstellen Sie Seiten fuer jede Trichterebene.",
+            alt: "Diagrama que muestra cómo las consultas de búsqueda de productos electrónicos se reducen desde términos generales, pasando por filtros de especificaciones, hasta intenciones de compra específicas del modelo.",
+            caption: "Los compradores de productos electrónicos pasan de consultas amplias a búsquedas filtradas por especificaciones y búsquedas de modelos exactos. Cada nivel conlleva una mayor intención de compra.",
           },
           callout: {
             title: "Spezifikations-Keywords",
-            text: "60-70% der Elektronik-Suchanfragen enthalten technische Spezifikationen wie Bildschirmgroesse, Aufloesung oder Prozessortyp. Optimieren Sie Filterseiten und Kategorien fuer diese spezifikationsgetriebenen Begriffe.",
+            text: "Las consultas sobre electrónica como \"monitor 4K IPS 144 Hz de 27 pulgadas\" contienen entre 4 y 5 dimensiones de especificaciones. Las tiendas que crean URL indexables para las 50-100 combinaciones de especificaciones principales por categoría capturan la competencia del tráficoenen Begriffe.",
           },
         },
         {
-          title: "Optimizacion de paginas de producto para productos tecnicos",
+          title: "Optimización de páginas de producto para productos técnicos",
           content:
             "Las paginas de producto de electronica deben servir tanto a compradores tecnicamente competentes que quieren especificaciones brutas como a compradores menos tecnicos que necesitan ayuda para entender que significan esas especificaciones.\n\nCrea una tabla de especificaciones completa en HTML rastreable, no una imagen incrustada o PDF. Incluye cada especificacion relevante: dimensiones, peso, procesador, memoria, almacenamiento, puertos, autonomia de bateria, especificaciones de pantalla, compatibilidad y accesorios incluidos.\n\nEscribe descripciones de producto que traduzcan especificaciones en beneficios del mundo real. No digas solo \"bateria de 5000mAh\", di \"bateria de 5000mAh que ofrece hasta 14 horas de pantalla encendida para uso todo el dia sin cargar.\"\n\nImplementa [marcado schema Product](/academy/structured-data-for-products) con todas las propiedades relevantes: name, brand, sku, gtin (UPC/EAN), mpn (numero de pieza del fabricante), description, image, offers, aggregateRating y review. Para electronica, los campos gtin y mpn son especialmente importantes.\n\nAnade contenido comparativo directamente en las paginas de producto. Una seccion titulada \"Como se compara el XYZ Pro con el XYZ Standard\" captura trafico de consultas de comparacion.\n\nMuestra estado de stock, tiempo de entrega estimado e informacion de garantia de manera prominente.",
           items: [
@@ -333,9 +331,9 @@ items: [
           tip: "Revisa Google Search Console para consultas que contengan \"vs,\" \"comparativa,\" \"diferencia entre\" y \"o\" junto a tus nombres de producto. Estas consultas de comparacion suelen tener alto volumen y alta intencion, y una seccion comparativa dedicada en tu pagina de producto puede capturarlas.",
         },
         {
-          title: "Gestion de ciclos de vida rapidos y descatalogacion de productos",
+          title: "Gestion de ciclos de vida rápidos y descatalogacion de productos",
           content:
-            "Los ciclos de vida de productos electronicos se miden en meses, no en anos. Se lanzan nuevos modelos constantemente, y los productos antiguos se descatalogan mientras aun reciben trafico de busqueda sustancial. Como manejas la rotacion de productos tiene un impacto significativo en el rendimiento organico de tu sitio.\n\nNunca elimines paginas de productos descatalogados que aun reciben trafico. Cuando un producto ya no esta disponible, mantén la pagina activa pero marcala claramente como descatalogado. Anade avisos estructurados: \"Este producto ha sido descatalogado. Ver su reemplazo: [enlace al sucesor].\"\n\nSi un producto descatalogado tiene un reemplazo directo, considera anadir una redireccion 301 de la URL antigua a la nueva pagina de producto, pero solo si el reemplazo es genuinamente equivalente.\n\nMantén una seccion de archivo o \"generacion anterior\" para productos descatalogados. Muchos compradores buscan activamente modelos antiguos porque buscan ofertas o piezas de repuesto.\n\nPlanifica tu estructura de URL para acomodar actualizaciones de modelos. Un mejor enfoque es /portatiles/marca-modelo con contenido que se actualiza cuando salen nuevas versiones, preservando todas las senales de posicionamiento acumuladas.",
+            "Los ciclos de vida de productos electronicos se miden en meses, no en años. Se lanzan nuevos modelos constantemente, y los productos antiguos se descatalogan mientras aun reciben trafico de busqueda sustancial. Como manejas la rotacion de productos tiene un impacto significativo en el rendimiento organico de tu sitio.\n\nNunca elimines paginas de productos descatalogados que aun reciben trafico. Cuando un producto ya no esta disponible, mantén la pagina activa pero marcala claramente como descatalogado. Anade avisos estructurados: \"Este producto ha sido descatalogado. Ver su reemplazo: [enlace al sucesor].\"\n\nSi un producto descatalogado tiene un reemplazo directo, considera anadir una redireccion 301 de la URL antigua a la nueva pagina de producto, pero solo si el reemplazo es genuinamente equivalente.\n\nMantén una seccion de archivo o \"generacion anterior\" para productos descatalogados. Muchos compradores buscan activamente modelos antiguos porque buscan ofertas o piezas de repuesto.\n\nPlanifica tu estructura de URL para acomodar actualizaciones de modelos. Un mejor enfoque es /portatiles/marca-modelo con contenido que se actualiza cuando salen nuevas versiones, preservando todas las senales de posicionamiento acumuladas.",
           tip: "Audita tu sitio trimestralmente buscando paginas huerfanas de productos descatalogados sin enlaces internos apuntando a ellas. Estas paginas aun reciben trafico organico de Google pero son invisibles dentro de la estructura de tu sitio. Anade enlaces internos desde paginas de categoria y comparacion relevantes.",
         },
         {
@@ -350,7 +348,7 @@ items: [
           ],
         },
         {
-          title: "SEO tecnico para grandes catalogos de electronica",
+          title: "SEO técnico para grandes catálogos de electrónica",
           content:
             "Las tiendas de electronica suelen llevar miles de productos en docenas de categorias, cada uno con multiples variantes, accesorios y relaciones de compatibilidad. Gestionar la eficiencia de rastreo y la arquitectura del sitio a esta escala requiere SEO tecnico deliberado.\n\nImplementa una arquitectura de sitio logica y poco profunda. Los productos deben ser alcanzables en tres clics desde la pagina de inicio. Estructura tu jerarquia: Departamento (Informatica) > Categoria (Portatiles) > Subcategoria (Portatiles Gaming) > Producto.\n\nManeja las variantes de producto con cuidado. Si las variantes solo difieren en un atributo menor sin volumen de busqueda independiente, usa una unica URL canonica. Si una variante tiene demanda de busqueda significativa, dale una URL distinta.\n\nGestiona la navegacion facetada para prevenir la inflacion de rastreo. Las paginas de categoria de electronica suelen tener docenas de filtros. Permite a Google indexar las combinaciones de dos filtros mas valiosas mientras bloqueas pilas de filtros mas profundas.\n\nOptimiza la velocidad de pagina de manera agresiva. Las paginas de producto de electronica tienden a ser pesadas en imagenes y scripts. Carga diferida de imagenes bajo el pliegue y sirve imagenes en formatos modernos (WebP, AVIF).\n\nConstruye enlazado interno alrededor de ecosistemas de productos. Cuando un comprador ve un portatil, enlaza a accesorios compatibles, productos relacionados y articulos complementarios.",
           items: [
@@ -362,16 +360,16 @@ items: [
           ],
           image: {
             src: "/images/academy/es/electronics-site-hierarchy.svg",
-            alt: "Elektronik-Shop Seitenhierarchie von der Startseite ueber Hauptkategorien zu Unterkategorien",
-            caption: "Jede Kategorie sollte indexierbar sein und maximal 3 Klicks von der Startseite entfernt. Breadcrumbs auf jeder Seite.",
+            alt: "Diagrama que muestra una jerarquía de sitios de electrónica con tres clics, desde la página de inicio, pasando por departamentos y categorías, hasta SKU de productos individuales con enlaces cruzados del ecosistema.",
+            caption: "Los productos deben ser accesibles con 3 clics. Los vínculos cruzados del ecosistema entre productos relacionados mejoran el descubrimiento de rastreo y aumentan el valor promedio de los pedidos.",
           },
           callout: {
             title: "Hierarchie-Tiefe",
-            text: "Elektronik-Kataloge mit mehr als 3 Navigationsebenen verlieren 40-60% des Crawl-Budgets in tiefen Kategorien. Halten Sie die Hierarchie flach und nutzen Sie Querverweise zwischen verwandten Kategorien.",
+            text: "Si una variante tiene una demanda de búsqueda significativa (por ejemplo, \"MacBook Pro 1TB\" frente a \"MacBook Pro 512GB\"), asígnele una URL distinta con título y contenido únicos. Si difiere sólo en un atributo menor como el color ingenio.",
           },
         },
         {
-          title: "Link building competitivo para retailers de electronica",
+          title: "Link building competitivo para retailers de electrónica",
           content:
             "El link building en electronica requiere un enfoque diferente al de la mayoria de los sectores retail porque el espacio esta dominado por publicaciones masivas (Xataka, ComputerHoy, Genbeta) y sitios de fabricantes. Competir por los mismos enlaces genericos de \"mejor portatil\" es poco realista para la mayoria de retailers, pero existen estrategias efectivas especificas del sector.\n\nCrea datos de benchmark y pruebas originales. Si puedes producir benchmarks de rendimiento genuinos, pruebas de autonomia de bateria, mediciones de precision de pantalla o analisis termicos, estos datos se convierten en un activo enlazable.\n\nDesarrolla herramientas interactivas que resuelvan problemas tecnicos. Un verificador de compatibilidad de componentes de PC, una calculadora de tamano de monitor, una herramienta de busqueda de cables o un widget de comparacion de especificaciones da a los usuarios una razon para enlazar a tu sitio.\n\nConstruye relaciones con YouTubers y blogueros tech que resenan productos. Proporciona unidades de resena y acceso anticipado a nuevos productos a cambio de resenas honestas con enlaces a tus paginas de producto.\n\nContribuye experiencia en foros y comunidades tech. Responder preguntas tecnicas en Reddit y comunidades especializadas construye tu reputacion de marca.\n\nPublica guias autoritativas sobre temas tecnicos adyacentes a tus productos: \"Como elegir un monitor para edicion fotografica con color preciso,\" \"Entendiendo el Wi-Fi 7: que significa para tu red domestica.\" Un verificador de compatibilidad de piezas de PC, una calculadora de tamano de monitor, una herramienta de busqueda de cables o un [generador de schema](/tools/schema-generator) da a los usuarios una razon para enlazar a tu sitio.",
           items: [
@@ -408,12 +406,12 @@ items: [
           ],
           image: {
             src: "/images/academy/it/electronics-spec-search-funnel.svg",
-            alt: "Spezifikationsgetriebener Suchtrichter von breiter Suche ueber spezifikationsgefilterte bis modellspezifische Anfragen",
-            caption: "Elektronik-Kaeufer verfeinern Suchanfragen schrittweise von allgemein zu spezifisch. Erstellen Sie Seiten fuer jede Trichterebene.",
+            alt: "Diagramma che mostra come le query di ricerca nel settore dell'elettronica si restringono dai termini generici attraverso i filtri delle specifiche all'intenzione di acquisto specifica del modello",
+            caption: "Gli acquirenti di prodotti elettronici passano da query generiche a ricerche con filtri specifici fino a ricerche di modelli esatti. Ogni livello comporta un'intenzione di acquisto più elevata.",
           },
           callout: {
             title: "Spezifikations-Keywords",
-            text: "60-70% der Elektronik-Suchanfragen enthalten technische Spezifikationen wie Bildschirmgroesse, Aufloesung oder Prozessortyp. Optimieren Sie Filterseiten und Kategorien fuer diese spezifikationsgetriebenen Begriffe.",
+            text: "Le query relative all'elettronica come \"monitor 4K IPS 144Hz da 27 pollici\" contengono 4-5 dimensioni specifiche. I negozi che creano URL indicizzabili per le prime 50-100 combinazioni di specifiche per categoria acquisiscono concorrenza nel trafficoenen Begriffe.",
           },
         },
         {
@@ -458,12 +456,12 @@ items: [
           ],
           image: {
             src: "/images/academy/it/electronics-site-hierarchy.svg",
-            alt: "Elektronik-Shop Seitenhierarchie von der Startseite ueber Hauptkategorien zu Unterkategorien",
-            caption: "Jede Kategorie sollte indexierbar sein und maximal 3 Klicks von der Startseite entfernt. Breadcrumbs auf jeder Seite.",
+            alt: "Diagramma che mostra una gerarchia di siti di elettronica in 3 clic dalla home page attraverso i dipartimenti e le categorie fino ai singoli SKU di prodotto con collegamenti incrociati all'ecosistema",
+            caption: "I prodotti dovrebbero essere raggiungibili entro 3 clic. I collegamenti incrociati dell'ecosistema tra prodotti correlati migliorano la scoperta della scansione e aumentano il valore medio degli ordini.",
           },
           callout: {
             title: "Hierarchie-Tiefe",
-            text: "Elektronik-Kataloge mit mehr als 3 Navigationsebenen verlieren 40-60% des Crawl-Budgets in tiefen Kategorien. Halten Sie die Hierarchie flach und nutzen Sie Querverweise zwischen verwandten Kategorien.",
+            text: "Se una variante ha una domanda di ricerca significativa (ad esempio, \"MacBook Pro 1TB\" rispetto a \"MacBook Pro 512GB\"), assegnale un URL distinto con titolo e contenuti univoci. Se differisce solo per un attributo minore come il colore e l'intelligenza.",
           },
         },
         {
@@ -504,12 +502,12 @@ items: [
           ],
           image: {
             src: "/images/academy/nl/electronics-spec-search-funnel.svg",
-            alt: "Spezifikationsgetriebener Suchtrichter von breiter Suche ueber spezifikationsgefilterte bis modellspezifische Anfragen",
-            caption: "Elektronik-Kaeufer verfeinern Suchanfragen schrittweise von allgemein zu spezifisch. Erstellen Sie Seiten fuer jede Trichterebene.",
+            alt: "Diagram dat laat zien hoe zoekopdrachten voor elektronica zich beperken van brede termen via specificatiefilters tot modelspecifieke aankoopintentie",
+            caption: "Kopers van elektronica gaan van brede zoekopdrachten naar op specificaties gefilterde zoekopdrachten en zoeken naar exacte modellen. Elk niveau heeft een hogere koopintentie.",
           },
           callout: {
             title: "Spezifikations-Keywords",
-            text: "60-70% der Elektronik-Suchanfragen enthalten technische Spezifikationen wie Bildschirmgroesse, Aufloesung oder Prozessortyp. Optimieren Sie Filterseiten und Kategorien fuer diese spezifikationsgetriebenen Begriffe.",
+            text: "Elektronische zoekopdrachten zoals \"27-inch 4K IPS 144Hz-monitor\" bevatten 4-5 specificatieafmetingen. Winkels die indexeerbare URL's maken voor de top 50-100 spec-combinaties per categorie, vangen verkeer openen Begriffe.",
           },
         },
         {
@@ -554,12 +552,12 @@ items: [
           ],
           image: {
             src: "/images/academy/nl/electronics-site-hierarchy.svg",
-            alt: "Elektronik-Shop Seitenhierarchie von der Startseite ueber Hauptkategorien zu Unterkategorien",
-            caption: "Jede Kategorie sollte indexierbar sein und maximal 3 Klicks von der Startseite entfernt. Breadcrumbs auf jeder Seite.",
+            alt: "Diagram dat een hiërarchie van elektronicasites met drie klikken toont, van de startpagina via afdelingen en categorieën tot individuele product-SKU's met dwarsverbindingen met ecosystemen",
+            caption: "Producten moeten binnen 3 klikken bereikbaar zijn. Cross-links tussen ecosystemen tussen gerelateerde producten verbeteren de ontdekking van crawls en verhogen de gemiddelde bestelwaarde.",
           },
           callout: {
             title: "Hierarchie-Tiefe",
-            text: "Elektronik-Kataloge mit mehr als 3 Navigationsebenen verlieren 40-60% des Crawl-Budgets in tiefen Kategorien. Halten Sie die Hierarchie flach und nutzen Sie Querverweise zwischen verwandten Kategorien.",
+            text: "Als een variant een betekenisvolle zoekvraag heeft (bijvoorbeeld 'MacBook Pro 1TB' versus 'MacBook Pro 512GB'), geef deze dan een aparte URL met een unieke titel en inhoud. Als het alleen verschilt in een klein kenmerk, zoals kleurwit.",
           },
         },
         {

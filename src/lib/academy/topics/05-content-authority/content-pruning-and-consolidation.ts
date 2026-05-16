@@ -194,8 +194,7 @@ export const contentPruningAndConsolidation: AcademyTopic = {
     fr: {
       badge: "Contenu & Autorite",
       heading: "Elagage & Consolidation de Contenu",
-      intro:
-        "Chaque boutique en ligne accumule des pages au fil du temps, promotions expirees, pages d'atterrissage saisonnieres, descriptions de produits insuffisantes et articles de blog qui n'ont jamais gagne en traction. Sans controle, cette inflation de contenu dilue votre budget de crawl, seme la confusion chez les moteurs de recherche quant aux pages importantes et tire vers le bas les signaux de qualite de votre domaine entier. L'elagage et la consolidation de contenu est le processus discipline d'audit, de fusion, de redirection ou de suppression des pages sous-performantes pour affiner le focus thematique de votre site et ameliorer les classements globalement. Sans contrôle, ce gonflement de contenu dilue votre [budget de crawl](/academy/crawl-budget-management), confond les moteurs de recherche sur les pages importantes et tire vers le bas les signaux de qualité de tout votre domaine.",
+      intro: "Chaque boutique en ligne accumule des pages au fil du temps, promotions expirees, pages d'atterrissage saisonnières, descriptions de produits insuffisantes et articles de blog qui n'ont jamais gagne en traction. Sans contrôle, cette inflation de contenu dilue votre budget de crawl, seme la confusion chez les moteurs de recherche quant aux pages importantes et tire vers le bas les signaux de qualité de votre domaine entier. L'elagage et la consolidation de contenu est le processus discipline d'audit, de fusion, de redirection ou de suppression des pages sous-performantes pour affiner le focus thematique de votre site et améliorer les classements globalement. Sans contrôle, ce gonflement de contenu dilue votre [budget de crawl](/academy/crawl-budget-management), confond les moteurs de recherche sur les pages importantes et tire vers le bas les signaux de qualité de tout votre domaine.",
       readTime: "10 min de lecture",
       sections: [
         {
@@ -216,12 +215,12 @@ export const contentPruningAndConsolidation: AcademyTopic = {
           tip: "Exportez les donnees Search Console des 12 derniers mois avant de commencer. Les pages avec des impressions en baisse d'un trimestre a l'autre perdent en pertinence et doivent etre examinees en priorite. Une page qui culminait a 500 impressions par mois et qui en obtient maintenant 20 est un solide candidat a la fusion ou a la suppression.",
           image: {
             src: "/images/academy/fr/content-audit-buckets.svg",
-            alt: "Content-Audit-Entscheidungsmatrix mit vier Kategorien: Behalten (bringt Traffic), Verbessern (hat Potenzial), Zusammenfuehren (ueberlappende Keywords) und Entfernen (kein Wert)",
-            caption: "Jede URL kommt in eine von vier Kategorien. Behalten was funktioniert, verbessern was Potenzial hat, ueberlappende Seiten zu einer starken Seite zusammenfuehren und Seiten ohne Traffic und Backlinks entfernen.",
+            alt: "Matrice de décision d'audit de contenu avec quatre compartiments : Conserver (génére du trafic), Améliorer (a du potentiel), Fusionner (mots clés qui se chevauchent) et Supprimer (valeur nulle)",
+            caption: "Chaque URL va dans l’un des quatre compartiments. Conservez ce qui fonctionne, améliorez ce qui a du potentiel, fusionnez les pages qui se chevauchent en une seule page solide et supprimez les pages sans trafic ni backlinks.ntfernen.",
           },
           callout: {
             title: "Pruning zahlt sich aus",
-            text: "Content-Pruning erzeugt typischerweise einen Netto-Traffic-Gewinn innerhalb von 6-8 Wochen obwohl Sie Seiten entfernen. Konzentrierte Autoritaet auf weniger, staerkere Seiten schlaegt verwaesserte Signale ueber Hunderte duenner Seiten.",
+            text: "L'élagage du contenu produit généralement un gain net de trafic dans un délai de 6 à 8 semaines, même si vous supprimez des pages. Une autorité concentrée sur un nombre réduit de pages plus fortes bat les signaux dilués sur des centaines de pages minces.nale ueber Hunderte duenner Seiten.",
           },
         },
         {
@@ -259,12 +258,12 @@ export const contentPruningAndConsolidation: AcademyTopic = {
           tip: "Creez un tableau de bord d'elagage dans Google Looker Studio qui suit les statistiques de crawl, les classements pour les mots-cles consolides et le trafic organique global sur une base hebdomadaire. Cela facilite la demonstration du ROI aux parties prenantes et l'identification des pages necessitant une attention supplementaire apres l'elagage.",
           image: {
             src: "/images/academy/fr/redirect-implementation-flow.svg",
-            alt: "Vergleich korrekt implementierter Ein-Sprung-301-Weiterleitungen versus fehlerhafter Redirect-Ketten die bei jedem Sprung Linkwert verlieren",
-            caption: "Eine Ein-Sprung-301-Weiterleitung gibt 90-99% des Linkwerts weiter. Redirect-Ketten verlieren Linkwert und fuegen Latenz bei jedem Sprung hinzu. Implementieren Sie Redirects immer auf Serverebene.",
+            alt: "Comparaison de la redirection 301 à un seul saut correcte et de la chaîne de redirection incorrecte montrant une perte d'équité à chaque saut",
+            caption: "Une redirection 301 à un seul saut transmet 90 à 99 % de l'équité des liens. Les chaînes de redirection perdent de l'équité et ajoutent de la latence à chaque saut. Implémentez toujours les redirections au niveau du serveur.",
           },
           callout: {
-            title: "Keine Startseiten-Redirects",
-            text: "Leiten Sie eingestellte Produkte niemals zur Startseite weiter. Das verschwendet die thematische Relevanz der Originalseite. Leiten Sie zur relevantesten Alternative oder uebergeordneten Kategorieseite weiter um Linkwert und Nutzerabsicht zu erhalten.",
+            title: "Pas de redirections vers la page d'accueil",
+            text: "Ne redirigez jamais les produits abandonnés vers la page d’accueil. Cela gaspille la pertinence actuelle de la page originale. Rediriger vers la page du produit alternatif ou de la catégorie parent la plus pertinente pour conserver le liene weiter um Linkwert und Nutzerabsicht zu erhalten.",
           },
         },
         {
@@ -287,14 +286,13 @@ export const contentPruningAndConsolidation: AcademyTopic = {
     es: {
       badge: "Contenido y Autoridad",
       heading: "Poda y Consolidacion de Contenido",
-      intro:
-        "Cada tienda de ecommerce acumula paginas con el tiempo, promociones expiradas, landing pages estacionales, descripciones de productos insuficientes y publicaciones de blog que nunca ganaron traccion. Sin control, esta inflacion de contenido diluye tu presupuesto de rastreo, confunde a los motores de busqueda sobre que paginas importan y arrastra hacia abajo las senales de calidad de todo tu dominio. La poda y consolidacion de contenido es el proceso disciplinado de auditar, fusionar, redirigir o eliminar paginas de bajo rendimiento para agudizar el enfoque tematico de tu sitio y mejorar los rankings en general.",
+      intro: "Cada tienda de ecommerce acumula páginas con el tiempo, promociones expiradas, landing pages estacionales, descripciones de productos insuficientes y publicaciones de blog que nunca ganaron traccion. Sin control, esta inflacion de contenido diluye tu presupuesto de rastreo, confunde a los motores de busqueda sobre que páginas importan y arrastra hacia abajo las senales de calidad de todo tu dominio. La poda y consolidacion de contenido es el proceso disciplinado de auditar, fusionar, redirigir o eliminar páginas de bajo rendimiento para agudizar el enfoque temático de tu sitio y mejorar los rankings en general.",
       readTime: "10 min de lectura",
       sections: [
         {
-          title: "Por que la inflacion de contenido perjudica el SEO ecommerce",
+          title: "Por qué la inflación de contenido perjudica el SEO ecommerce",
           content:
-            "La inflacion de contenido ocurre cuando un sitio de ecommerce acumula cientos o miles de paginas de bajo valor que no aportan visibilidad significativa en la busqueda. Los culpables comunes incluyen paginas de productos agotados que nunca se eliminaron, paginas de categorias duplicadas generadas por la navegacion facetada, publicaciones de blog que apuntan a palabras clave superpuestas y landing pages estacionales de promociones que terminaron hace anos.\n\nGoogle asigna un [presupuesto de rastreo](/academy/crawl-budget-management) finito a cada sitio web. Cuando Googlebot gasta su presupuesto rastreando paginas delgadas, duplicadas u obsoletas, le quedan menos recursos para descubrir e indexar tus paginas de productos y categorias de alto valor. Para catalogos de ecommerce grandes con decenas de miles de URLs, esto no es un problema teorico, retrasa directamente la indexacion de nuevos productos y reduce las senales de frescura en las paginas que importan.\n\nMas alla del presupuesto de rastreo, la inflacion de contenido crea canibalizacion de palabras clave. Si tienes tres publicaciones de blog y dos paginas de categoria apuntando todas a variaciones de la misma palabra clave, Google no puede determinar que pagina clasificar. En lugar de una pagina fuerte clasificada en posicion tres, terminas con cinco paginas debiles dispersas entre las posiciones quince y cincuenta. Consolidar estas en una sola pagina autoritativa concentra tus senales de clasificacion y casi siempre produce una ganancia neta de trafico.",
+            "La inflacion de contenido ocurre cuando un sitio de ecommerce acumula cientos o miles de paginas de bajo valor que no aportan visibilidad significativa en la busqueda. Los culpables comunes incluyen paginas de productos agotados que nunca se eliminaron, paginas de categorias duplicadas generadas por la navegacion facetada, publicaciones de blog que apuntan a palabras clave superpuestas y landing pages estacionales de promociones que terminaron hace años.\n\nGoogle asigna un [presupuesto de rastreo](/academy/crawl-budget-management) finito a cada sitio web. Cuando Googlebot gasta su presupuesto rastreando paginas delgadas, duplicadas u obsoletas, le quedan menos recursos para descubrir e indexar tus paginas de productos y categorias de alto valor. Para catalogos de ecommerce grandes con decenas de miles de URLs, esto no es un problema teorico, retrasa directamente la indexacion de nuevos productos y reduce las senales de frescura en las paginas que importan.\n\nMas alla del presupuesto de rastreo, la inflacion de contenido crea canibalizacion de palabras clave. Si tienes tres publicaciones de blog y dos paginas de categoria apuntando todas a variaciones de la misma palabra clave, Google no puede determinar que pagina clasificar. En lugar de una pagina fuerte clasificada en posicion tres, terminas con cinco paginas debiles dispersas entre las posiciones quince y cincuenta. Consolidar estas en una sola pagina autoritativa concentra tus senales de clasificacion y casi siempre produce una ganancia neta de trafico.",
           items: [
             "Las promociones expiradas, las paginas de productos delgadas y las categorias duplicadas son las fuentes mas comunes de inflacion",
             "El desperdicio del presupuesto de rastreo retrasa la indexacion de nuevos productos y reduce las senales de frescura",
@@ -309,16 +307,16 @@ export const contentPruningAndConsolidation: AcademyTopic = {
           tip: "Exporta los datos de Search Console de los ultimos 12 meses antes de comenzar. Las paginas con impresiones decrecientes de trimestre a trimestre estan perdiendo relevancia y deben priorizarse para revision. Una pagina que alcanzo un pico de 500 impresiones por mes y ahora obtiene 20 es un fuerte candidato para fusionar o eliminar.",
           image: {
             src: "/images/academy/es/content-audit-buckets.svg",
-            alt: "Content-Audit-Entscheidungsmatrix mit vier Kategorien: Behalten (bringt Traffic), Verbessern (hat Potenzial), Zusammenfuehren (ueberlappende Keywords) und Entfernen (kein Wert)",
-            caption: "Jede URL kommt in eine von vier Kategorien. Behalten was funktioniert, verbessern was Potenzial hat, ueberlappende Seiten zu einer starken Seite zusammenfuehren und Seiten ohne Traffic und Backlinks entfernen.",
+            alt: "Matriz de decisiones de auditoría de contenido con cuatro grupos: Mantener (genera tráfico), Mejorar (tiene potencial), Fusionar (palabras clave superpuestas) y Eliminar (valor cero)",
+            caption: "Cada URL va a uno de los cuatro grupos. Mantenga lo que funciona, mejore lo que tiene potencial, combine páginas superpuestas en una sola página sólida y elimine páginas sin tráfico y sin vínculos de retroceso.ntfernen.",
           },
           callout: {
             title: "Pruning zahlt sich aus",
-            text: "Content-Pruning erzeugt typischerweise einen Netto-Traffic-Gewinn innerhalb von 6-8 Wochen obwohl Sie Seiten entfernen. Konzentrierte Autoritaet auf weniger, staerkere Seiten schlaegt verwaesserte Signale ueber Hunderte duenner Seiten.",
+            text: "La poda de contenido normalmente produce una ganancia neta de tráfico en un plazo de 6 a 8 semanas, aunque esté eliminando páginas. La autoridad concentrada en menos páginas y más potentes supera las señales diluidas en cientos de páginas delgadas.nale ueber Hunderte duenner Seiten.",
           },
         },
         {
-          title: "Fusionar y consolidar paginas",
+          title: "Fusionar y consolidar páginas",
           content:
             "La consolidacion es la actividad de mayor valor en la poda de contenido porque combina senales de clasificacion de multiples paginas debiles en una pagina fuerte. El proceso comienza identificando clusters de paginas, grupos de URLs que apuntan a las mismas palabras clave o palabras clave estrechamente relacionadas. Usa Search Console para encontrar paginas que comparten impresiones para las mismas consultas, lo que indica que Google ya esta confundido sobre que pagina clasificar.\n\nElige la pagina mas fuerte de cada cluster como objetivo de consolidacion. Tipicamente es la pagina con mas backlinks, la posicion promedio mas alta o el mayor trafico organico. Todas las demas paginas del cluster se redirigiran a este objetivo usando redirecciones 301. Antes de redirigir, revisa el contenido de cada pagina que se fusiona e incorpora cualquier informacion unica y valiosa en la pagina objetivo.\n\nAl fusionar publicaciones de blog, extrae las mejores secciones de cada publicacion y entrelazalas en un articulo completo y actualizado en la URL objetivo. Al fusionar paginas de categorias delgadas, asegurate de que la pagina sobreviviente tenga un parrafo introductorio solido, listados de productos completos y un enlazado interno exhaustivo. El objetivo no es solo redirigir, es crear una pagina que sea genuinamente mejor que cualquiera de las paginas individuales que reemplaza.\n\nDespues de la consolidacion, actualiza todos los enlaces internos en tu sitio para que apunten a la nueva URL objetivo en lugar de las antiguas URLs redirigidas. Aunque las redirecciones 301 transfieren equidad de enlace, los enlaces internos directos siempre son mas fuertes. Una actualizacion de enlaces internos a nivel de todo el sitio previene cadenas de redireccion y asegura el maximo flujo de autoridad hacia tus paginas consolidadas.",
           items: [
@@ -352,16 +350,16 @@ export const contentPruningAndConsolidation: AcademyTopic = {
           tip: "Crea un dashboard de poda en Google Looker Studio que rastree estadisticas de crawl, rankings para palabras clave consolidadas y trafico organico general semanalmente. Esto facilita demostrar el ROI a las partes interesadas e identificar paginas que necesitan atencion adicional post-poda.",
           image: {
             src: "/images/academy/es/redirect-implementation-flow.svg",
-            alt: "Vergleich korrekt implementierter Ein-Sprung-301-Weiterleitungen versus fehlerhafter Redirect-Ketten die bei jedem Sprung Linkwert verlieren",
-            caption: "Eine Ein-Sprung-301-Weiterleitung gibt 90-99% des Linkwerts weiter. Redirect-Ketten verlieren Linkwert und fuegen Latenz bei jedem Sprung hinzu. Implementieren Sie Redirects immer auf Serverebene.",
+            alt: "Comparación de la redirección 301 de un solo salto correcta versus la cadena de redirección incorrecta que muestra una pérdida de capital en cada salto",
+            caption: "Una redirección 301 de un solo salto supera entre el 90 y el 99 % del valor del enlace. Las cadenas de redireccionamiento pierden equidad y agregan latencia en cada salto. Implemente siempre redirecciones a nivel de servidor.",
           },
           callout: {
-            title: "Keine Startseiten-Redirects",
-            text: "Leiten Sie eingestellte Produkte niemals zur Startseite weiter. Das verschwendet die thematische Relevanz der Originalseite. Leiten Sie zur relevantesten Alternative oder uebergeordneten Kategorieseite weiter um Linkwert und Nutzerabsicht zu erhalten.",
+            title: "Sin redirecciones a la página de inicio",
+            text: "Nunca redirija productos descontinuados a la página de inicio. Esto desperdicia la relevancia actual de la página original. Redirigir al producto alternativo más relevante o a la página de categoría principal para conservar el enlacee weiter um Linkwert und Nutzerabsicht zu erhalten.",
           },
         },
         {
-          title: "lowQuality y pandaDemotion: Por que la poda eleva lo que queda",
+          title: "lowQuality y pandaDemotion: Por qué la poda eleva lo que queda",
           content:
             "El leak nombro dos senales que explican por que la poda de contenido delgado eleva confiablemente los rankings de las paginas que sobreviven. lowQuality es un flag que puede prevenir que una pagina alcance posiciones top. pandaDemotion es el mismo algoritmo Panda que los SEOs conocen desde 2011, ahora confirmado como senal de demotion activa, aplicada a nivel de pagina y (el leak sugiere) a nivel de sitio.\n\nPara ecommerce, la implicacion es directa. Una tienda con 1.200 variantes de producto, cada una con una descripcion de 50 palabras del fabricante y ningun otro contenido, esta alimentando a Google 1.200 senales lowQuality. La \"ficha\" CompressedQualitySignals que envuelve estos computa un peor standing para todo el sitio, no solo para las paginas delgadas. Podar o canonicalizar las 600 mas delgadas - manteniendo solo las variantes que realmente generan ingresos o tienen contenido diferenciado - tipicamente eleva las 600 restantes en rankings en 8-12 semanas.\n\nLos candidatos correctos para podar son usualmente obvios desde los datos: cero ingresos y cero impresiones en los ultimos 12 meses, sin backlinks, sin enlaces internos mas alla del cross-sell auto-generado. Removerlas o 301-earlas cuesta casi nada y limpia el catalogo que Google evalua.",
           items: [
@@ -402,12 +400,12 @@ export const contentPruningAndConsolidation: AcademyTopic = {
           tip: "Esporta i dati Search Console degli ultimi 12 mesi prima di iniziare. Le pagine con impressioni in calo trimestre su trimestre stanno perdendo rilevanza e dovrebbero essere esaminate con priorita. Una pagina che ha raggiunto il picco di 500 impressioni al mese e ora ne ottiene 20 e un forte candidato per la fusione o la rimozione.",
           image: {
             src: "/images/academy/it/content-audit-buckets.svg",
-            alt: "Content-Audit-Entscheidungsmatrix mit vier Kategorien: Behalten (bringt Traffic), Verbessern (hat Potenzial), Zusammenfuehren (ueberlappende Keywords) und Entfernen (kein Wert)",
-            caption: "Jede URL kommt in eine von vier Kategorien. Behalten was funktioniert, verbessern was Potenzial hat, ueberlappende Seiten zu einer starken Seite zusammenfuehren und Seiten ohne Traffic und Backlinks entfernen.",
+            alt: "Matrice decisionale per il controllo dei contenuti con quattro segmenti: Mantieni (indirizza il traffico), Migliora (ha potenziale), Unisci (parole chiave sovrapposte) e Rimuovi (valore zero)",
+            caption: "Ogni URL va in uno dei quattro bucket. Mantieni ciò che funziona, migliora ciò che ha potenziale, unisci le pagine sovrapposte in un'unica pagina forte e rimuovi le pagine con traffico zero e senza backlink.ntfernen.",
           },
           callout: {
             title: "Pruning zahlt sich aus",
-            text: "Content-Pruning erzeugt typischerweise einen Netto-Traffic-Gewinn innerhalb von 6-8 Wochen obwohl Sie Seiten entfernen. Konzentrierte Autoritaet auf weniger, staerkere Seiten schlaegt verwaesserte Signale ueber Hunderte duenner Seiten.",
+            text: "L'eliminazione dei contenuti in genere produce un aumento netto del traffico entro 6-8 settimane anche se si rimuovono le pagine. L'autorità concentrata su un numero minore di pagine ma più forti batte i segnali diluiti su centinaia di pagine sottilinale ueber Hunderte duenner Seiten.",
           },
         },
         {
@@ -445,12 +443,12 @@ export const contentPruningAndConsolidation: AcademyTopic = {
           tip: "Crea una dashboard di potatura in Google Looker Studio che traccia le statistiche di crawl, i posizionamenti per le parole chiave consolidate e il traffico organico complessivo su base settimanale. Questo rende facile dimostrare il ROI agli stakeholder e identificare le pagine che necessitano di ulteriore attenzione dopo la potatura.",
           image: {
             src: "/images/academy/it/redirect-implementation-flow.svg",
-            alt: "Vergleich korrekt implementierter Ein-Sprung-301-Weiterleitungen versus fehlerhafter Redirect-Ketten die bei jedem Sprung Linkwert verlieren",
-            caption: "Eine Ein-Sprung-301-Weiterleitung gibt 90-99% des Linkwerts weiter. Redirect-Ketten verlieren Linkwert und fuegen Latenz bei jedem Sprung hinzu. Implementieren Sie Redirects immer auf Serverebene.",
+            alt: "Confronto tra il reindirizzamento 301 corretto a hop singolo e la catena di reindirizzamento errata che mostra la perdita di equità a ogni hop",
+            caption: "Un reindirizzamento 301 a hop singolo supera il 90-99% della link equity. Le catene di reindirizzamento perdono equità e aggiungono latenza ad ogni hop. Implementa sempre i reindirizzamenti a livello di server.",
           },
           callout: {
-            title: "Keine Startseiten-Redirects",
-            text: "Leiten Sie eingestellte Produkte niemals zur Startseite weiter. Das verschwendet die thematische Relevanz der Originalseite. Leiten Sie zur relevantesten Alternative oder uebergeordneten Kategorieseite weiter um Linkwert und Nutzerabsicht zu erhalten.",
+            title: "Niente redirect alla home page",
+            text: "Non reindirizzare mai i prodotti fuori produzione alla home page. Ciò spreca la rilevanza attuale della pagina originale. Reindirizzamento al prodotto alternativo più pertinente o alla pagina della categoria principale per preservare il collegamentoe weiter um Linkwert und Nutzerabsicht zu erhalten.",
           },
         },
         {
@@ -495,12 +493,12 @@ export const contentPruningAndConsolidation: AcademyTopic = {
           tip: "Exporteer de Search Console-gegevens van de afgelopen 12 maanden voor je begint. Pagina's met dalende impressies van kwartaal tot kwartaal verliezen relevantie en moeten prioritair worden beoordeeld. Een pagina die piekte op 500 impressies per maand en nu 20 krijgt, is een sterke kandidaat om samen te voegen of te verwijderen.",
           image: {
             src: "/images/academy/nl/content-audit-buckets.svg",
-            alt: "Content-Audit-Entscheidungsmatrix mit vier Kategorien: Behalten (bringt Traffic), Verbessern (hat Potenzial), Zusammenfuehren (ueberlappende Keywords) und Entfernen (kein Wert)",
-            caption: "Jede URL kommt in eine von vier Kategorien. Behalten was funktioniert, verbessern was Potenzial hat, ueberlappende Seiten zu einer starken Seite zusammenfuehren und Seiten ohne Traffic und Backlinks entfernen.",
+            alt: "Beslismatrix voor contentaudits met vier buckets: Behouden (genereert verkeer), Verbeteren (heeft potentieel), Samenvoegen (overlappende zoekwoorden) en Verwijderen (nulwaarde)",
+            caption: "Elke URL wordt in een van de vier buckets geplaatst. Behoud wat werkt, verbeter wat potentieel heeft, voeg overlappende pagina's samen tot één sterke pagina en verwijder pagina's zonder verkeer en zonder backlinks.ntfernen.",
           },
           callout: {
             title: "Pruning zahlt sich aus",
-            text: "Content-Pruning erzeugt typischerweise einen Netto-Traffic-Gewinn innerhalb von 6-8 Wochen obwohl Sie Seiten entfernen. Konzentrierte Autoritaet auf weniger, staerkere Seiten schlaegt verwaesserte Signale ueber Hunderte duenner Seiten.",
+            text: "Het opschonen van inhoud levert doorgaans binnen zes tot acht weken een netto verkeerstoename op, ook al verwijdert u pagina's. Geconcentreerde autoriteit op minder, sterkere pagina's verslaat verwaterde signalen over honderden dunne pagina'snale ueber Hunderte duenner Seiten.",
           },
         },
         {
@@ -538,12 +536,12 @@ export const contentPruningAndConsolidation: AcademyTopic = {
           tip: "Maak een snoei-dashboard in Google Looker Studio dat crawl-statistieken, rankings voor geconsolideerde zoekwoorden en het totale organische verkeer wekelijks bijhoudt. Dit maakt het eenvoudig om ROI aan stakeholders te demonstreren en pagina's te identificeren die na de snoei extra aandacht nodig hebben.",
           image: {
             src: "/images/academy/nl/redirect-implementation-flow.svg",
-            alt: "Vergleich korrekt implementierter Ein-Sprung-301-Weiterleitungen versus fehlerhafter Redirect-Ketten die bei jedem Sprung Linkwert verlieren",
-            caption: "Eine Ein-Sprung-301-Weiterleitung gibt 90-99% des Linkwerts weiter. Redirect-Ketten verlieren Linkwert und fuegen Latenz bei jedem Sprung hinzu. Implementieren Sie Redirects immer auf Serverebene.",
+            alt: "Vergelijking van correcte single-hop 301-omleiding versus onjuiste omleidingsketen, waarbij bij elke hop een vermogensverlies wordt weergegeven",
+            caption: "Een single-hop 301-omleiding passeert 90-99% van de link equity. Omleidingsketens verliezen gelijkheid en voegen bij elke hop latentie toe. Implementeer omleidingen altijd op serverniveau.",
           },
           callout: {
-            title: "Keine Startseiten-Redirects",
-            text: "Leiten Sie eingestellte Produkte niemals zur Startseite weiter. Das verschwendet die thematische Relevanz der Originalseite. Leiten Sie zur relevantesten Alternative oder uebergeordneten Kategorieseite weiter um Linkwert und Nutzerabsicht zu erhalten.",
+            title: "Geen redirects naar de homepage",
+            text: "Stuur beëindigde producten nooit door naar de startpagina. Hierdoor gaat de actuele relevantie van de originele pagina verloren. Omleiden naar de meest relevante alternatieve product- of bovenliggende categoriepagina om de link te behoudene weiter um Linkwert und Nutzerabsicht zu erhalten.",
           },
         },
         {

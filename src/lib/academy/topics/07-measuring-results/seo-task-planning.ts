@@ -190,8 +190,7 @@ items: [
     fr: {
       badge: "Mesurer les resultats",
       heading: "Planification des taches SEO pour l'e-commerce",
-      intro:
-        "La plupart des equipes SEO e-commerce restent occupees sans progresser. Elles corrigent des problemes techniques au hasard, publient des articles de blog sur n'importe quel sujet et poursuivent chaque rumeur de mise a jour d'algorithme. Six mois plus tard, le trafic organique est a peu pres identique. La difference entre les equipes qui font bouger les choses et celles qui tournent en rond se resume a la planification des taches : choisir les cinq bonnes taches plutot que d'en executer quarante mediocres.",
+      intro: "La plupart des equipes SEO e-commerce restent occupees sans progresser. Elles corrigent des problemes techniques au hasard, publient des articles de blog sur n'importe quel sujet et poursuivent chaque rumeur de mise a jour d'algorithme. Six mois plus tard, le trafic organique est a peu pres identique. La difference entre les equipes qui font bouger les choses et celles qui tournent en rond se resume a la planification des taches : choisir les cinq bonnes taches plutot que d'en executer quarante mediocres.",
       readTime: "10 min de lecture",
       sections: [
         {
@@ -219,16 +218,16 @@ items: [
           tip: "Lors de l'evaluation de l'effort, incluez les dependances. Une modification de balise title qui necessite l'approbation de l'equipe marque, une revision juridique et un deploiement par un developpeur n'est pas une tache a faible effort, quelle que soit la simplicite de la redaction elle-meme.",
           image: {
             src: "/images/academy/fr/impact-effort-matrix.svg",
-            alt: "SEO Wirkungs-Aufwands-Matrix mit vier Quadranten: Schnelle Erfolge, Grosse Projekte, Lueckenfueller und Undankbare Aufgaben",
-            caption: "Priorisieren Sie SEO-Aufgaben nach Wirkung und Aufwand. Beginnen Sie mit schnellen Erfolgen, dann planen Sie grosse Projekte.",
+            alt: "Matrice d'impact-effort deux par deux pour les tâches de référencement montrant quatre quadrants : gains rapides, projets stratégiques, maintenance et ignorer ou différer",
+            caption: "Tracez chaque tâche de référencement sur cette matrice. Les gains rapides sont prioritaires, les projets stratégiques font l'objet d'une planification trimestrielle, la maintenance est groupée et les tâches à faible impact et exigeant beaucoup d'efforts sont supprimées.",
           },
           callout: {
             title: "Priorisierungsfalle",
-            text: "Die meisten SEO-Teams verbringen zu viel Zeit mit undankbaren Aufgaben (hoher Aufwand, geringe Wirkung) und verpassen schnelle Erfolge, die innerhalb von Wochen statt Monaten Ergebnisse liefern.",
+            text: "La réécriture d'une balise de titre générique sur une page de catégorie en position 7 pour un mot-clé de 12 000 recherches prend 10 minutes et peut la faire monter de 2 à 3 positions. Cette seule victoire rapide peut générer plus de trafic que",
           },
         },
         {
-          title: "Construire un systeme de sprints SEO",
+          title: "Construire un système de sprints SEO",
           content:
             "Emprunter la methodologie de sprint au developpement produit fonctionne bien pour le SEO parce qu'elle vous force a vous engager sur des livrables specifiques dans des delais fixes au lieu de maintenir une liste de taches toujours croissante qui n'est jamais terminee.\n\nLes sprints hebdomadaires gerent l'execution tactique. Chaque lundi, choisissez 3 a 5 taches de votre backlog priorise. Celles-ci doivent etre realisables dans la semaine par les personnes disponibles. Un sprint hebdomadaire typique pour un magasin e-commerce de taille moyenne pourrait inclure : optimiser les balises title et descriptions pour 10 pages de categories, publier un guide d'achat ciblant un cluster de mots-cles specifique, corriger les 5 problemes techniques les plus prioritaires du dernier rapport de crawl, et soumettre des sitemaps mis a jour apres des changements du catalogue produits.\n\nLes cycles mensuels gerent la revision et l'ajustement. A la fin de chaque mois, examinez ce qui a ete fait, a quoi ressemblent les premiers signaux de performance et ce qui doit changer. Si vous avez passe le dernier mois a optimiser des pages de categories et que les impressions pour ces pages augmentent dans la Search Console, vous avez la validation pour continuer.\n\nLa planification trimestrielle gere la direction strategique. C'est la que vous decidez des grands themes : vous concentrez-vous sur la dette technique, l'expansion du contenu, le link building ou l'optimisation des conversions pour le prochain trimestre ? Basez ces decisions sur vos plus grandes lacunes de croissance organique.\n\nTenez un simple tableau de suivi avec des colonnes pour la description de la tache, le responsable assigne, la semaine du sprint, le statut et la metrique de resultat. Les outils de gestion de projet elabores sont acceptables, mais un tableur partage fonctionne tout aussi bien. L'habitude de suivi compte plus que l'outil. C'est ici que vous décidez des grands thèmes : vous concentrez-vous sur la dette technique, l'expansion du contenu, le link building ou l'optimisation des conversions pour le prochain trimestre ? Basez ces décisions sur vos plus grands écarts de croissance organique, informés par un [audit SEO](/tools/ecommerce-seo-audit) approfondi.",
           items: [
@@ -239,12 +238,12 @@ items: [
           ],
           image: {
             src: "/images/academy/fr/seo-sprint-cadence.svg",
-            alt: "SEO-Sprint-Rhythmus ueber vier Wochen: Audit, Umsetzung, Ueberpruefung und Berichterstellung",
-            caption: "Ein monatlicher Sprint-Rhythmus haelt SEO-Arbeit fokussiert und liefert regelmaessige Ergebnisse fuer Stakeholder.",
+            alt: "Schéma montrant le système de sprint SEO à trois niveaux : sprints hebdomadaires pour les tâches tactiques, revues mensuelles pour la redéfinition des priorités et planification trimestrielle pour l'orientation stratégique",
+            caption: "Trois cadences déterminent l'exécution du référencement : des sprints hebdomadaires pour les tactiques, des examens mensuels pour la correction de cap et une planification trimestrielle pour les thèmes stratégiques.",
           },
           callout: {
             title: "Sprint-Disziplin",
-            text: "Widerstehen Sie der Versuchung, Sprintaufgaben mittendrin zu aendern. Neue dringende Anfragen kommen in den Backlog fuer den naechsten Sprint, es sei denn, sie sind wirklich kritisch fuer den Umsatz.",
+            text: "Un sprint hebdomadaire typique pour un magasin de taille moyenne : optimisez 10 balises de titre de catégorie, publiez 1 guide d'achat, résolvez 5 problèmes techniques majeurs et mettez à jour les plans de site. S'engager dans 3 à 5 tâches vaut mieux maintenir une veille",
           },
         },
         {
@@ -281,8 +280,7 @@ items: [
     es: {
       badge: "Medir resultados",
       heading: "Planificacion de tareas SEO para e-commerce",
-      intro:
-        "La mayoria de los equipos de SEO de e-commerce se mantienen ocupados sin avanzar. Corrigen problemas tecnicos aleatorios, publican articulos de blog sobre cualquier tema que se les ocurra y persiguen cada rumor de actualizacion de algoritmo. Seis meses despues, el trafico organico se ve practicamente igual. La diferencia entre los equipos que mueven la aguja y los que dan vueltas en circulos se reduce a la planificacion de tareas: elegir las cinco tareas correctas en lugar de ejecutar cuarenta mediocres.",
+      intro: "La mayoria de los equipos de SEO de e-commerce se mantienen ocupados sin avanzar. Corrigen problemas técnicos aleatorios, publican artículos de blog sobre cualquier tema que se les ocurra y persiguen cada rumor de actualizacion de algoritmo. Seis meses despues, el tráfico organico se ve practicamente igual. La diferencia entre los equipos que mueven la aguja y los que dan vueltas en circulos se reduce a la planificacion de tareas: elegir las cinco tareas correctas en lugar de ejecutar cuarenta mediocres.",
       readTime: "10 min de lectura",
       sections: [
         {
@@ -300,7 +298,7 @@ items: [
         {
           title: "La matriz impacto-esfuerzo para SEO de e-commerce",
           content:
-            "Coloca cada tarea SEO en una cuadricula de dos por dos. El eje vertical es el impacto: cuanto crecimiento de trafico o ingresos puede producir esta tarea de forma realista. El eje horizontal es el esfuerzo: cuantas horas, cuantas personas y cuantas dependencias estan involucradas. Esto te da cuatro cuadrantes que dictan tu orden de ejecucion.\n\nAlto impacto, bajo esfuerzo: estas son tus victorias rapidas y deben hacerse primero. Los ejemplos incluyen agregar datos estructurados a tus principales paginas de categorias, corregir errores de rastreo en URLs de alto trafico, actualizar etiquetas de titulo en paginas de productos que se posicionan en las posiciones 4-10 para palabras clave de alto volumen, y comprimir imagenes sobredimensionadas en tu pagina de inicio. Una tienda de equipamiento outdoor podria notar que su pagina de categoria de botas de senderismo se posiciona en el puesto 7 para una palabra clave con 12.000 busquedas mensuales con una etiqueta de titulo generica. Reescribir esa etiqueta de titulo toma 10 minutos y podria subir la pagina 2-3 posiciones.\n\nAlto impacto, alto esfuerzo: estos son proyectos estrategicos que necesitan planificacion adecuada. Reconstruir la arquitectura de tu sitio, lanzar un hub de contenido alrededor de tus categorias principales de productos, o migrar a un hosting mas rapido. Estos van en tu hoja de ruta trimestral con hitos claros.\n\nBajo impacto, bajo esfuerzo: agrupa estos en sprints de mantenimiento. Corregir etiquetas alt, limpiar cadenas de redireccion, actualizar anos de copyright en pies de pagina. Hazlos, pero nunca a expensas de trabajo de mayor impacto.\n\nBajo impacto, alto esfuerzo: cuestiona si estos pertenecen a la lista. Reescribir 300 descripciones de productos que reciben 5 visitas por mes cada una, o construir un sistema de filtrado complejo para una categoria con demanda de busqueda minima. A menudo la respuesta correcta es omitirlos por completo.",
+            "Coloca cada tarea SEO en una cuadricula de dos por dos. El eje vertical es el impacto: cuanto crecimiento de trafico o ingresos puede producir esta tarea de forma realista. El eje horizontal es el esfuerzo: cuantas horas, cuantas personas y cuantas dependencias estan involucradas. Esto te da cuatro cuadrantes que dictan tu orden de ejecucion.\n\nAlto impacto, bajo esfuerzo: estas son tus victorias rapidas y deben hacerse primero. Los ejemplos incluyen agregar datos estructurados a tus principales paginas de categorias, corregir errores de rastreo en URLs de alto trafico, actualizar etiquetas de titulo en paginas de productos que se posicionan en las posiciones 4-10 para palabras clave de alto volumen, y comprimir imagenes sobredimensionadas en tu pagina de inicio. Una tienda de equipamiento outdoor podria notar que su pagina de categoria de botas de senderismo se posiciona en el puesto 7 para una palabra clave con 12.000 busquedas mensuales con una etiqueta de titulo generica. Reescribir esa etiqueta de titulo toma 10 minutos y podria subir la pagina 2-3 posiciones.\n\nAlto impacto, alto esfuerzo: estos son proyectos estrategicos que necesitan planificacion adecuada. Reconstruir la arquitectura de tu sitio, lanzar un hub de contenido alrededor de tus categorias principales de productos, o migrar a un hosting mas rapido. Estos van en tu hoja de ruta trimestral con hitos claros.\n\nBajo impacto, bajo esfuerzo: agrupa estos en sprints de mantenimiento. Corregir etiquetas alt, limpiar cadenas de redireccion, actualizar años de copyright en pies de pagina. Hazlos, pero nunca a expensas de trabajo de mayor impacto.\n\nBajo impacto, alto esfuerzo: cuestiona si estos pertenecen a la lista. Reescribir 300 descripciones de productos que reciben 5 visitas por mes cada una, o construir un sistema de filtrado complejo para una categoria con demanda de busqueda minima. A menudo la respuesta correcta es omitirlos por completo.",
           items: [
             "Victorias rapidas (alto impacto, bajo esfuerzo): ejecuta inmediatamente, apunta a 3-5 por semana",
             "Proyectos estrategicos (alto impacto, alto esfuerzo): planifica trimestralmente, divide en hitos de 2 semanas",
@@ -310,12 +308,12 @@ items: [
           tip: "Al evaluar el esfuerzo, incluye las dependencias. Un cambio de etiqueta de titulo que necesita aprobacion del equipo de marca, revision legal y despliegue por un desarrollador no es una tarea de bajo esfuerzo sin importar lo simple que sea la redaccion en si.",
           image: {
             src: "/images/academy/es/impact-effort-matrix.svg",
-            alt: "SEO Wirkungs-Aufwands-Matrix mit vier Quadranten: Schnelle Erfolge, Grosse Projekte, Lueckenfueller und Undankbare Aufgaben",
-            caption: "Priorisieren Sie SEO-Aufgaben nach Wirkung und Aufwand. Beginnen Sie mit schnellen Erfolgen, dann planen Sie grosse Projekte.",
+            alt: "Matriz de impacto-esfuerzo de dos por dos para tareas de SEO que muestra cuatro cuadrantes: ganancias rápidas, proyectos estratégicos, mantenimiento y omitir o aplazar",
+            caption: "Traza cada tarea de SEO en esta matriz. Las ganancias rápidas son lo primero, los proyectos estratégicos se planifican trimestralmente, el mantenimiento se agrupa y las tareas de bajo impacto y alto esfuerzo se eliminan.",
           },
           callout: {
             title: "Priorisierungsfalle",
-            text: "Die meisten SEO-Teams verbringen zu viel Zeit mit undankbaren Aufgaben (hoher Aufwand, geringe Wirkung) und verpassen schnelle Erfolge, die innerhalb von Wochen statt Monaten Ergebnisse liefern.",
+            text: "Reescribir una etiqueta de título genérica en la posición 7 de una página de categoría para una palabra clave de 12.000 búsquedas lleva 10 minutos y puede hacer que suba de 2 a 3 posiciones. Esa única ganancia rápida puede generar más tráfico que",
           },
         },
         {
@@ -330,16 +328,16 @@ items: [
           ],
           image: {
             src: "/images/academy/es/seo-sprint-cadence.svg",
-            alt: "SEO-Sprint-Rhythmus ueber vier Wochen: Audit, Umsetzung, Ueberpruefung und Berichterstellung",
-            caption: "Ein monatlicher Sprint-Rhythmus haelt SEO-Arbeit fokussiert und liefert regelmaessige Ergebnisse fuer Stakeholder.",
+            alt: "Diagrama que muestra el sistema de sprints de SEO de tres niveles: sprints semanales para tareas tácticas, revisiones mensuales para volver a priorizar y planificación trimestral para la dirección estratégica.",
+            caption: "Tres cadencias impulsan la ejecución de SEO: sprints semanales para tácticas, revisiones mensuales para corregir el rumbo y planificación trimestral para temas estratégicos.",
           },
           callout: {
             title: "Sprint-Disziplin",
-            text: "Widerstehen Sie der Versuchung, Sprintaufgaben mittendrin zu aendern. Neue dringende Anfragen kommen in den Backlog fuer den naechsten Sprint, es sei denn, sie sind wirklich kritisch fuer den Umsatz.",
+            text: "Un sprint semanal típico para una tienda mediana: optimizar 10 etiquetas de título de categoría, publicar 1 guía de compra, solucionar 5 problemas técnicos principales y actualizar mapas del sitio. Comprometerse a 3-5 tareas es mejor que mantener una víspera",
           },
         },
         {
-          title: "Conectar tareas con resultados de trafico e ingresos",
+          title: "Conectar tareas con resultados de tráfico e ingresos",
           content:
             "Cada tarea SEO deberia tener una hipotesis adjunta. No una esperanza vaga de que ayudara, sino una expectativa especifica y medible. Reescribir las etiquetas de titulo de nuestras 15 principales paginas de categorias deberia aumentar la tasa de clics del 2,1% al 3,5% en 60 dias, basado en el volumen actual de impresiones produciendo aproximadamente 1.200 clics mensuales adicionales. Ese tipo de declaracion hace posible evaluar si el trabajo realmente valio la pena.\n\nUsa los datos de Search Console como tu bucle de retroalimentacion principal para tareas de visibilidad organica. Dos a cuatro semanas despues de implementar cambios, compara impresiones, clics, posicion promedio y CTR para las paginas afectadas contra la linea base previa al cambio. Filtra por las paginas especificas que cambiaste en lugar de mirar tendencias a nivel de sitio, que son ruidosas e influenciadas por demasiadas variables.\n\nPara tareas orientadas a ingresos, conecta los puntos a traves de GA4. Etiqueta tus iniciativas SEO con parametros UTM donde sea posible, o crea grupos de contenido y segmentos de paginas de destino que aislen las paginas que optimizaste. Rastrea los ingresos organicos de las paginas de destino para esas URLs especificas antes y despues de los cambios.\n\nConstruye un registro simple de resultados. Cada fila es una tarea completada con la fecha, las paginas afectadas, la hipotesis y el resultado real medido 30 y 60 dias despues. Con el tiempo, este registro se convierte en tu activo de planificacion mas valioso porque te dice que tipos de trabajo SEO producen resultados consistentemente para tu tienda especifica y cuales consistentemente tienen bajo rendimiento. Comparte estos insights al [reportar a stakeholders](/academy/seo-reporting-for-stakeholders) para demostrar progreso medible.",
           items: [
@@ -354,7 +352,7 @@ items: [
         {
           title: "Errores comunes de priorizacion en equipos de e-commerce",
           content:
-            "El error mas frecuente es tratar todas las paginas como igualmente importantes. Una tienda con 2.000 productos donde el 80% de los ingresos proviene de 150 productos deberia asignar el esfuerzo SEO en consecuencia. Gastar tiempo igual en cada pagina de producto distribuye los recursos demasiado. Prioriza las paginas que generan ingresos, luego trabaja hacia paginas con potencial de crecimiento basado en oportunidad de palabras clave, y luego maneja la cola larga al final.\n\nOtro error comun es priorizar por lo que es facil en lugar de lo que importa. Corregir meta descripciones es satisfactorio porque puedes hacer 50 en una tarde y sentirte productivo. Pero si esas paginas ya se posicionan en posiciones 1-3 y tienen un CTR decente, los cambios de meta descripciones no produciran casi nada. Mientras tanto, el proyecto de reestructuracion de paginas de categorias que tomaria dos semanas pero podria desbloquear posicionamientos para 40 palabras clave de alto valor sigue siendo pospuesto al proximo trimestre.\n\nPerseguir actualizaciones de algoritmo es una tercera trampa. Cada vez que Google anuncia una actualizacion principal, los equipos entran en panico y reestructuran toda su hoja de ruta. La mayoria de las actualizaciones principales recompensan los mismos fundamentos: contenido util, base tecnica solida, buena experiencia de usuario. Si ya estabas trabajando en esas cosas, una actualizacion de algoritmo no deberia cambiar tus prioridades.\n\nFinalmente, muchos equipos no tienen en cuenta los rendimientos compuestos. Una pieza de contenido que toma 20 horas crear pero se posiciona durante 3 anos y genera 500 euros por mes en ingresos organicos es un retorno de 18.000 euros sobre una inversion de 1.000 euros. Los calculos de ROI a corto plazo pierden esto completamente. Prioriza tareas con impacto duradero sobre tareas que producen un pico temporal. Si ya estabas trabajando en esas cosas, guiado por una solida [estrategia SEO para ecommerce](/blog/ecommerce-seo-strategy), una actualizacion de algoritmo no deberia cambiar tus prioridades.",
+            "El error mas frecuente es tratar todas las paginas como igualmente importantes. Una tienda con 2.000 productos donde el 80% de los ingresos proviene de 150 productos deberia asignar el esfuerzo SEO en consecuencia. Gastar tiempo igual en cada pagina de producto distribuye los recursos demasiado. Prioriza las paginas que generan ingresos, luego trabaja hacia paginas con potencial de crecimiento basado en oportunidad de palabras clave, y luego maneja la cola larga al final.\n\nOtro error comun es priorizar por lo que es facil en lugar de lo que importa. Corregir meta descripciones es satisfactorio porque puedes hacer 50 en una tarde y sentirte productivo. Pero si esas paginas ya se posicionan en posiciones 1-3 y tienen un CTR decente, los cambios de meta descripciones no produciran casi nada. Mientras tanto, el proyecto de reestructuracion de paginas de categorias que tomaria dos semanas pero podria desbloquear posicionamientos para 40 palabras clave de alto valor sigue siendo pospuesto al proximo trimestre.\n\nPerseguir actualizaciones de algoritmo es una tercera trampa. Cada vez que Google anuncia una actualizacion principal, los equipos entran en panico y reestructuran toda su hoja de ruta. La mayoria de las actualizaciones principales recompensan los mismos fundamentos: contenido util, base tecnica solida, buena experiencia de usuario. Si ya estabas trabajando en esas cosas, una actualizacion de algoritmo no deberia cambiar tus prioridades.\n\nFinalmente, muchos equipos no tienen en cuenta los rendimientos compuestos. Una pieza de contenido que toma 20 horas crear pero se posiciona durante 3 años y genera 500 euros por mes en ingresos organicos es un retorno de 18.000 euros sobre una inversion de 1.000 euros. Los calculos de ROI a corto plazo pierden esto completamente. Prioriza tareas con impacto duradero sobre tareas que producen un pico temporal. Si ya estabas trabajando en esas cosas, guiado por una solida [estrategia SEO para ecommerce](/blog/ecommerce-seo-strategy), una actualizacion de algoritmo no deberia cambiar tus prioridades.",
           items: [
             "Concentra el esfuerzo SEO en tus paginas generadoras de ingresos primero, no uniformemente en el catalogo",
             "Elige tareas por resultado esperado, no por lo facil o satisfactorio que sea completarlas",
@@ -401,12 +399,12 @@ items: [
           tip: "Quando valuti lo sforzo, includi le dipendenze. Una modifica del title tag che necessita dell'approvazione del team brand, revisione legale e deployment da parte di uno sviluppatore non e un'attivita a basso sforzo indipendentemente da quanto sia semplice la scrittura in se.",
           image: {
             src: "/images/academy/it/impact-effort-matrix.svg",
-            alt: "SEO Wirkungs-Aufwands-Matrix mit vier Quadranten: Schnelle Erfolge, Grosse Projekte, Lueckenfueller und Undankbare Aufgaben",
-            caption: "Priorisieren Sie SEO-Aufgaben nach Wirkung und Aufwand. Beginnen Sie mit schnellen Erfolgen, dann planen Sie grosse Projekte.",
+            alt: "Matrice impatto-sforzo due per due per le attività SEO che mostra quattro quadranti: vittorie rapide, progetti strategici, manutenzione e skip o defer",
+            caption: "Traccia ogni attività SEO su questa matrice. I successi rapidi vengono prima di tutto, i progetti strategici vengono pianificati trimestralmente, la manutenzione viene suddivisa in batch e le attività a basso impatto e ad alto impegno vengono rimosse.",
           },
           callout: {
             title: "Priorisierungsfalle",
-            text: "Die meisten SEO-Teams verbringen zu viel Zeit mit undankbaren Aufgaben (hoher Aufwand, geringe Wirkung) und verpassen schnelle Erfolge, die innerhalb von Wochen statt Monaten Ergebnisse liefern.",
+            text: "Riscrivere un tag titolo generico su una pagina di categoria in posizione 7 per una parola chiave di ricerca di 12.000 richiede 10 minuti e può spingerlo verso l'alto di 2-3 posizioni. Quella singola vittoria rapida può generare più traffico di",
           },
         },
         {
@@ -421,12 +419,12 @@ items: [
           ],
           image: {
             src: "/images/academy/it/seo-sprint-cadence.svg",
-            alt: "SEO-Sprint-Rhythmus ueber vier Wochen: Audit, Umsetzung, Ueberpruefung und Berichterstellung",
-            caption: "Ein monatlicher Sprint-Rhythmus haelt SEO-Arbeit fokussiert und liefert regelmaessige Ergebnisse fuer Stakeholder.",
+            alt: "Diagramma che mostra il sistema di sprint SEO a tre livelli: sprint settimanali per attività tattiche, revisioni mensili per la ridefinizione delle priorità e pianificazione trimestrale per la direzione strategica",
+            caption: "Tre cadenze guidano l’esecuzione della SEO: sprint settimanali per le tattiche, revisioni mensili per la correzione del percorso e pianificazione trimestrale per i temi strategici.",
           },
           callout: {
             title: "Sprint-Disziplin",
-            text: "Widerstehen Sie der Versuchung, Sprintaufgaben mittendrin zu aendern. Neue dringende Anfragen kommen in den Backlog fuer den naechsten Sprint, es sei denn, sie sind wirklich kritisch fuer den Umsatz.",
+            text: "Un tipico sprint settimanale per un negozio di medie dimensioni: ottimizza 10 tag del titolo di categoria, pubblica 1 guida all'acquisto, risolvi i 5 principali problemi tecnici e aggiorna le mappe del sito. Impegnarsi in 3-5 compiti è meglio del mantenimento di una vigilia",
           },
         },
         {
@@ -492,12 +490,12 @@ items: [
           tip: "Tel bij het scoren van inspanning de afhankelijkheden mee. Een title tag-wijziging die goedkeuring nodig heeft van het merkteam, juridische beoordeling en een ontwikkelaarsdeployment is geen taak met lage inspanning, ongeacht hoe eenvoudig het daadwerkelijke schrijven is.",
           image: {
             src: "/images/academy/nl/impact-effort-matrix.svg",
-            alt: "SEO Wirkungs-Aufwands-Matrix mit vier Quadranten: Schnelle Erfolge, Grosse Projekte, Lueckenfueller und Undankbare Aufgaben",
-            caption: "Priorisieren Sie SEO-Aufgaben nach Wirkung und Aufwand. Beginnen Sie mit schnellen Erfolgen, dann planen Sie grosse Projekte.",
+            alt: "Twee-aan-twee impact-inspanningsmatrix voor SEO-taken met vier kwadranten: snelle overwinningen, strategische projecten, onderhoud en overslaan of uitstellen",
+            caption: "Zet elke SEO-taak in deze matrix. Quick wins staan ​​voorop, strategische projecten krijgen een driemaandelijkse planning, het onderhoud wordt in batches uitgevoerd en taken met weinig impact en veel inspanning worden verwijderd.",
           },
           callout: {
             title: "Priorisierungsfalle",
-            text: "Die meisten SEO-Teams verbringen zu viel Zeit mit undankbaren Aufgaben (hoher Aufwand, geringe Wirkung) und verpassen schnelle Erfolge, die innerhalb von Wochen statt Monaten Ergebnisse liefern.",
+            text: "Het herschrijven van een generieke title-tag op een categoriepagina op positie 7 voor een zoekwoord met 12.000 zoekopdrachten duurt 10 minuten en kan deze 2-3 posities omhoog duwen. Die ene snelle overwinning kan meer verkeer genereren dan",
           },
         },
         {
@@ -512,12 +510,12 @@ items: [
           ],
           image: {
             src: "/images/academy/nl/seo-sprint-cadence.svg",
-            alt: "SEO-Sprint-Rhythmus ueber vier Wochen: Audit, Umsetzung, Ueberpruefung und Berichterstellung",
-            caption: "Ein monatlicher Sprint-Rhythmus haelt SEO-Arbeit fokussiert und liefert regelmaessige Ergebnisse fuer Stakeholder.",
+            alt: "Diagram met een drieledig SEO-sprintsysteem: wekelijkse sprints voor tactische taken, maandelijkse beoordelingen voor herprioritering en kwartaalplanning voor strategische richting",
+            caption: "Drie cadensen bepalen de SEO-uitvoering: wekelijkse sprints voor tactieken, maandelijkse beoordelingen voor koerscorrectie en kwartaalplanning voor strategische thema’s.",
           },
           callout: {
             title: "Sprint-Disziplin",
-            text: "Widerstehen Sie der Versuchung, Sprintaufgaben mittendrin zu aendern. Neue dringende Anfragen kommen in den Backlog fuer den naechsten Sprint, es sei denn, sie sind wirklich kritisch fuer den Umsatz.",
+            text: "Een typische wekelijkse sprint voor een middelgrote winkel: optimaliseer 10 categorietiteltags, publiceer 1 koopgids, los de 5 belangrijkste technische problemen op en update sitemaps. Het uitvoeren van 3-5 taken is beter dan het volhouden van een avond",
           },
         },
         {

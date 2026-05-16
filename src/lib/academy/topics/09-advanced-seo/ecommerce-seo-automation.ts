@@ -214,12 +214,11 @@ items: [
     fr: {
       badge: "SEO avance",
       heading: "Automatisation SEO pour l'e-commerce",
-      intro:
-        "L'optimisation SEO manuelle ne s'adapte pas aux boutiques e-commerce comptant des milliers ou des dizaines de milliers de pages produit. La redaction de meta descriptions uniques, la surveillance du statut d'indexation et l'audit des donnees structurees sur l'ensemble d'un catalogue necessitent l'automatisation pour etre durables. Ce guide couvre des strategies d'automatisation pratiques qui reduisent les taches SEO repetitives tout en maintenant la qualite attendue par les moteurs de recherche et les utilisateurs. Ce guide couvre des stratégies d'automatisation pratiques qui réduisent les [tâches SEO](/academy/seo-task-planning) répétitives tout en maintenant la qualité attendue par les moteurs de recherche et les utilisateurs.",
+      intro: "L'optimisation SEO manuelle ne s'adapte pas aux boutiques e-commerce comptant des milliers ou des dizaines de milliers de pages produit. La rédaction de meta descriptions uniques, la surveillance du statut d'indexation et l'audit des données structurees sur l'ensemble d'un catalogue necessitent l'automatisation pour être durables. Ce guide couvre des stratégies d'automatisation pratiques qui reduisent les taches SEO repetitives tout en maintenant la qualité attendue par les moteurs de recherche et les utilisateurs. Ce guide couvre des stratégies d'automatisation pratiques qui réduisent les [tâches SEO](/academy/seo-task-planning) répétitives tout en maintenant la qualité attendue par les moteurs de recherche et les utilisateurs.",
       readTime: "10 min de lecture",
       sections: [
         {
-          title: "Automatiser la generation des meta tags a grande echelle",
+          title: "Automatiser la génération des meta tags a grande échelle",
           content:
             "Pour les boutiques avec de grands catalogues, rediger des meta titles et descriptions individuels pour chaque page produit est impraticable. La generation de meta tags basee sur des modeles utilise les attributs produit comme le nom, la marque, la categorie, le prix et les caracteristiques cles pour construire programmatiquement des meta tags uniques et riches en mots-cles.\n\nUn modele de balise title bien concu pourrait suivre le format : {Nom du Produit} - {Caracteristique Cle} | {Marque} | {Nom de la Boutique}. Pour une chaussure de course, cela genere : \"CloudRun Pro 3 - Trail Leger | Nike | SportShoes.fr\". La cle est de construire des modeles avec suffisamment de variabilite pour eviter de creer des titres dupliques. Incluez une logique conditionnelle qui adapte le modele en fonction des donnees produit disponibles.\n\nLes modeles de meta description devraient incorporer un langage persuasif aux cotes des attributs produit : \"Decouvrez le {Nom du Produit} de {Marque}. {Description Courte}. Livraison gratuite des {Seuil}. {Nombre d'Avis} avis, {Note Moyenne} etoiles.\" Ce schema cree des descriptions uniques incluant des mots-cles SEO et des informations favorisant la conversion.\n\nImplementez ces modeles au niveau de la plateforme en utilisant le moteur de templates de votre plateforme e-commerce (Liquid pour Shopify, Handlebars pour BigCommerce, PHP pour WooCommerce/Magento). Cela garantit que les meta tags se mettent a jour automatiquement lorsque les donnees produit changent.\n\nPour les boutiques necessitant une generation plus sophistiquee, envisagez une approche basee sur une API ou les donnees produit alimentent un script qui applique des regles metier avant de produire les meta tags. Cela permet le test A/B de differents formats de modeles.",
           items: [
@@ -244,7 +243,7 @@ items: [
           ],
         },
         {
-          title: "Systemes de surveillance et d'alertes automatises",
+          title: "Systèmes de surveillance et d'alertes automatises",
           content:
             "La surveillance automatisee detecte les problemes SEO avant qu'ils n'impactent le trafic. Les systemes de surveillance les plus critiques suivent les changements d'indexation, les erreurs de crawl, les fluctuations de classement et la validite des donnees structurees. Sans automatisation, ces problemes peuvent persister pendant des semaines avant que quiconque ne les remarque.\n\nMettez en place une integration de l'API Google Search Console pour extraire les donnees d'indexation dans un tableau de bord de surveillance. Suivez le nombre total de pages indexees quotidiennement et declenchez des alertes lorsque le nombre baisse de plus de 5 pour cent en 24 heures. Cela detecte les balises noindex accidentelles, les changements de robots.txt et les erreurs serveur.\n\nLa surveillance des classements devrait etre automatisee via un outil de suivi de positions qui verifie vos mots-cles cibles quotidiennement. Configurez des alertes pour tout mot-cle qui perd plus de cinq positions ou quitte la premiere page. Correlez les baisses de classement avec les changements du site en maintenant un journal des modifications.\n\nLa validation des donnees structurees devrait s'executer automatiquement apres chaque modification de template de page produit. Utilisez l'API Google Rich Results Test pour valider un echantillon de pages apres chaque deploiement de theme.\n\nLa surveillance de la vitesse des pages s'integre avec l'API Google PageSpeed Insights ou les donnees CrUX pour suivre les Core Web Vitals dans le temps. Definissez des seuils pour LCP, CLS et INP qui declenchent des alertes lorsque les performances se degradent.\n\nLa surveillance des changements de contenu detecte les modifications inattendues sur les pages cles. Des outils comme ContentKing, Lumar ou des scripts personnalises peuvent detecter quand les balises title, meta descriptions, canoniques ou structures de titres changent.\n\nLe [suivi des classements](/academy/rank-tracking-for-ecommerce) devrait être automatisé via un outil qui vérifie vos mots-clés cibles quotidiennement.",
           items: [
@@ -257,12 +256,12 @@ items: [
           tip: "Construisez un tableau de bord unique de sante SEO qui agrege les donnees de Google Search Console, Google Analytics, votre outil de suivi de positions et votre outil de crawl. Avoir toutes les metriques dans une seule vue facilite considerablement la detection des correlations entre les changements du site et les impacts sur les performances.",
           image: {
             src: "/images/academy/fr/seo-monitoring-stack.svg",
-            alt: "SEO-Ueberwachungs- und Alarm-Stack mit Crawl-, Ranking-, Traffic-, Verfuegbarkeits- und Log-Ueberwachung",
-            caption: "Automatisiertes Monitoring erkennt SEO-Probleme bevor sie Umsatz kosten. Richten Sie Alarme fuer alle fuenf Ebenen ein.",
+            alt: "Schéma montrant le système de surveillance du référencement avec la Search Console, le suivi des classements, l'API Rich Results et l'API PageSpeed ​​alimentant un tableau de bord unifié avec des déclencheurs d'alerte",
+            caption: "La surveillance automatisée détecte les problèmes avant qu'ils n'aient un impact sur le trafic. Configurez des alertes pour les baisses d'index supérieures à 5 %, les chutes de mots clés au-delà de 5 positions, les erreurs de schéma et les échecs de Core Web Vitals.",
           },
           callout: {
             title: "Alarm-Muedigkeit",
-            text: "Zu viele Alarme fuehren dazu, dass Teams sie ignorieren. Setzen Sie Schwellenwerte so, dass nur signifikante Aenderungen (10%+ Abweichung) einen Alarm ausloesen. Kleinere Schwankungen gehoeren in woechentliche Berichte.",
+            text: "Sans surveillance automatisée, les problèmes de référencement peuvent persister pendant des semaines avant que quiconque ne s'en aperçoive. Une alerte de baisse du nombre d'index de 5 % détecte les balises noindex accidentelles, les modifications du fichier robots.txt et les erreurs de serveur dans les 24 heures.hentliche Berichte.",
           },
         },
         {
@@ -278,16 +277,16 @@ items: [
           tip: "Commencez petit avec l'automatisation API. Construisez un workflow qui resout votre plus gros point de douleur, testez-le en profondeur, puis etendez. Tenter de tout automatiser en meme temps conduit a des systemes fragiles qui cassent quand une seule API change son format de reponse.",
           image: {
             src: "/images/academy/fr/seo-api-workflow.svg",
-            alt: "API-gesteuerter SEO-Workflow: Datenquellen, Verarbeitung, Aktionen und Berichterstellung",
-            caption: "Automatisieren Sie repetitive SEO-Aufgaben mit APIs und konzentrieren Sie menschliche Kapazitaet auf Strategie.",
+            alt: "Organigramme montrant le flux de travail de référencement piloté par API, depuis l'extraction de données jusqu'à la notation et les actions automatisées telles que la création de redirection et la synchronisation de la fraîcheur du contenu",
+            caption: "Extrayez les données de GSC, GA4 et des API de la plateforme, puis fusionnez-les dans un modèle de notation qui hiérarchise les pages en fonction du potentiel de trafic, de la contribution aux revenus et de l'écart d'optimisation.",
           },
           callout: {
             title: "Automatisierungs-ROI",
-            text: "Die Ersteinrichtung von SEO-Automatisierung kostet 40-80 Stunden Entwicklerzeit, spart aber typischerweise 10-20 Stunden pro Woche an manueller Arbeit. Der Break-even liegt meist bei 4-8 Wochen.",
+            text: "Créez un workflow API résolvant d'abord votre plus gros problème. La création automatisée de redirections lorsque les produits sont abandonnés empêche l'accumulation de 404 et préserve l'équité des liens dans votre catalogue.",
           },
         },
         {
-          title: "Optimisation basee sur les modeles a grande echelle",
+          title: "Optimisation basée sur les modèles a grande échelle",
           content:
             "L'optimisation basee sur les modeles est l'approche la plus durable pour maintenir la qualite SEO sur des milliers de pages. Plutot que d'optimiser des pages individuelles, vous optimisez les modeles qui generent ces pages. Chaque modification d'un modele se propage instantanement a chaque page qui l'utilise, creant un effet multiplicateur sur vos efforts d'optimisation.\n\nCommencez par auditer vos modeles de pages existants pour la completude SEO. Chaque modele devrait inclure : une balise title dynamique, un champ meta description avec logique de modele de repli, une hierarchie de titres correcte avec un seul H1, une sortie de donnees structurees utilisant les variables de la plateforme, une optimisation d'image avec chargement paresseux et modeles de texte alt, et des composants de maillage interne.\n\nLes modeles de pages de categorie meritent une attention particuliere car ils generent souvent les pages d'atterrissage a plus fort volume pour les mots-cles commerciaux. Optimisez le modele de categorie pour inclure un bloc de contenu unique et editable au-dessus de la grille de produits. Ce bloc devrait faire au moins 300 mots.\n\nLes modeles de pages produit devraient inclure des sections automatisees qui ameliorent la profondeur du contenu. Un tableau de specifications tire des attributs produit, une section FAQ generee dynamiquement et des carrousels de produits associes contribuent tous a la qualite de la page.\n\nLes modeles de pagination necessitent une configuration SEO soignee. Implementez des balises canoniques auto-referentielles sur chaque page paginee plutot que de pointer toutes les pages vers la premiere page. Incluez l'indicateur de pagination dans le titre de la page.\n\nLes modeles de blog et de contenu devraient etre optimises pour la capture de featured snippets. Incluez des hierarchies de titres structurees et des paragraphes de resume.",
           items: [
@@ -316,13 +315,12 @@ items: [
     },
     es: {
       badge: "SEO avanzado",
-      heading: "Automatizacion SEO para e-commerce",
-      intro:
-        "La optimizacion SEO manual no escala para tiendas de comercio electronico con miles o decenas de miles de paginas de producto. Escribir meta descripciones unicas, monitorear el estado de indexacion y auditar datos estructurados en todo un catalogo requiere automatizacion para ser sostenible. Esta guia cubre estrategias de automatizacion practicas que reducen las tareas SEO repetitivas mientras mantienen la calidad que los motores de busqueda y los usuarios esperan.",
+      heading: "Automatización SEO para e-commerce",
+      intro: "La optimización SEO manual no escala para tiendas de comercio electrónico con miles o decenas de miles de páginas de producto. Escribir meta descripciones unicas, monitorear el estado de indexación y auditar datos estructurados en todo un catálogo requiere automatización para ser sostenible. Esta guia cubre estrategias de automatización practicas que reducen las tareas SEO repetitivas mientras mantienen la calidad que los motores de busqueda y los usuarios esperan.",
       readTime: "10 min de lectura",
       sections: [
         {
-          title: "Automatizacion de la generacion de meta tags a escala",
+          title: "Automatización de la generacion de meta tags a escala",
           content:
             "Para tiendas con catalogos grandes, escribir meta titulos y descripciones individuales para cada pagina de producto es impractico. La generacion de meta tags basada en plantillas utiliza atributos del producto como nombre, marca, categoria, precio y caracteristicas principales para construir programaticamente meta tags unicos y ricos en palabras clave.\n\nUna plantilla de title tag bien disenada podria seguir el formato: {Nombre del Producto} - {Caracteristica Clave} | {Marca} | {Nombre de la Tienda}. Para un producto de zapatillas de running, esto genera: \"CloudRun Pro 3 - Trail Ligero | Nike | SportShoes.es\". La clave es construir plantillas con suficiente variabilidad para evitar crear titulos duplicados. Incluye logica condicional que adapte la plantilla segun los datos de producto disponibles.\n\nLas plantillas de meta descripcion deberian incorporar lenguaje persuasivo junto con atributos del producto: \"Compra {Nombre del Producto} de {Marca}. {Descripcion Corta}. Envio gratis en pedidos superiores a {Umbral}. {Numero de Resenas} resenas, {Valoracion Media} estrellas.\" Este patron crea descripciones unicas que incluyen palabras clave SEO e informacion que impulsa la conversion.\n\nImplementa estas plantillas a nivel de plataforma usando el motor de plantillas de tu plataforma e-commerce (Liquid para Shopify, Handlebars para BigCommerce, PHP para WooCommerce/Magento). Esto asegura que los meta tags se actualicen automaticamente cuando los datos del producto cambian.\n\nPara tiendas que necesitan una generacion mas sofisticada, considera un enfoque basado en API donde los datos del producto alimentan un script que aplica reglas de negocio antes de producir los meta tags. Esto permite realizar pruebas A/B de diferentes formatos de plantillas.",
           items: [
@@ -335,7 +333,7 @@ items: [
           tip: "Mantiene una lista negra de palabras y frases que nunca deberian aparecer en meta tags auto-generados, como codigos internos de producto, ubicaciones de almacen o nombres de proveedores. Ejecuta una verificacion automatizada semanal para detectar meta tags que contengan terminos en la lista negra.",
         },
         {
-          title: "Optimizacion masiva de paginas de producto",
+          title: "Optimización masiva de páginas de producto",
           content:
             "La optimizacion masiva aborda el desafio de mejorar cientos o miles de paginas de producto simultaneamente. El proceso comienza con una exportacion de datos de tu plataforma e-commerce que contenga todas las URLs de productos, titulos, descripciones, textos alt de imagenes y asignaciones de categorias. Carga estos datos en una hoja de calculo o base de datos donde puedas aplicar reglas de transformacion en todo el catalogo.\n\nLa automatizacion del texto alt de imagenes es una de las optimizaciones masivas de mayor impacto. La mayoria de las plataformas e-commerce permiten establecer plantillas de texto alt que se completan automaticamente basandose en datos del producto. Una plantilla como \"{Nombre del Producto} - {Color} - Vista {Angulo}\" genera texto alt descriptivo para cada imagen de producto.\n\nEl enriquecimiento de descripciones de producto a escala tipicamente utiliza una combinacion de datos de feed de producto y plantillas. Para categorias donde los productos comparten caracteristicas comunes, crea plantillas de descripcion a nivel de categoria que incorporen automaticamente valores especificos del producto.\n\nLa automatizacion de enlaces internos conecta productos y contenido relacionados sin intervencion manual. Configura el motor de recomendaciones de tu plataforma e-commerce para mostrar productos relacionados basados en categorias compartidas, etiquetas o historial de compra. Extiende esto automatizando la insercion de enlaces contextuales dentro de las descripciones de productos.\n\nLa generacion de marcado schema deberia automatizarse a traves de las plantillas de tu tema en lugar de gestionarse pagina por pagina. El schema de producto extrae de tus datos de producto, el schema de migas de pan se genera desde tu estructura de URL, y el schema FAQ puede construirse a partir de datos de preguntas de clientes.",
           items: [
@@ -360,12 +358,12 @@ items: [
           tip: "Construye un unico panel de salud SEO que agregue datos de Google Search Console, Google Analytics, tu herramienta de seguimiento de posiciones y tu herramienta de rastreo. Tener todas las metricas en una vista facilita enormemente detectar correlaciones entre cambios del sitio e impactos en el rendimiento.",
           image: {
             src: "/images/academy/es/seo-monitoring-stack.svg",
-            alt: "SEO-Ueberwachungs- und Alarm-Stack mit Crawl-, Ranking-, Traffic-, Verfuegbarkeits- und Log-Ueberwachung",
-            caption: "Automatisiertes Monitoring erkennt SEO-Probleme bevor sie Umsatz kosten. Richten Sie Alarme fuer alle fuenf Ebenen ein.",
+            alt: "Diagrama que muestra el sistema de monitoreo de SEO con Search Console, rastreador de clasificación, API de resultados enriquecidos y API de PageSpeed ​​en un panel unificado con activadores de alertas.",
+            caption: "El monitoreo automatizado detecta los problemas antes de que afecten el tráfico. Configure alertas para caídas de índice superiores al 5%, caídas de palabras clave más allá de 5 posiciones, errores de esquema y fallas de Core Web Vitals.",
           },
           callout: {
             title: "Alarm-Muedigkeit",
-            text: "Zu viele Alarme fuehren dazu, dass Teams sie ignorieren. Setzen Sie Schwellenwerte so, dass nur signifikante Aenderungen (10%+ Abweichung) einen Alarm ausloesen. Kleinere Schwankungen gehoeren in woechentliche Berichte.",
+            text: "Sin un seguimiento automatizado, los problemas de SEO pueden persistir durante semanas antes de que alguien se dé cuenta. Una alerta de caída del recuento de índice del 5 % detecta etiquetas no indexadas accidentales, cambios en el archivo robots.txt y errores del servidor en un plazo de 24 horashentliche Berichte.",
           },
         },
         {
@@ -381,16 +379,16 @@ items: [
           tip: "Comienza en pequeno con la automatizacion API. Construye un flujo de trabajo que resuelva tu mayor punto de dolor, pruebalo exhaustivamente y luego expande. Intentar automatizar todo a la vez conduce a sistemas fragiles que se rompen cuando una sola API cambia su formato de respuesta.",
           image: {
             src: "/images/academy/es/seo-api-workflow.svg",
-            alt: "API-gesteuerter SEO-Workflow: Datenquellen, Verarbeitung, Aktionen und Berichterstellung",
-            caption: "Automatisieren Sie repetitive SEO-Aufgaben mit APIs und konzentrieren Sie menschliche Kapazitaet auf Strategie.",
+            alt: "Diagrama de flujo que muestra el flujo de trabajo de SEO impulsado por API desde la extracción de datos hasta la puntuación y acciones automatizadas como la creación de redirecciones y la sincronización de la actualización del contenido.",
+            caption: "Extraiga datos de GSC, GA4 y las API de la plataforma, luego combínelos en un modelo de puntuación que priorice las páginas según el potencial de tráfico, la contribución a los ingresos y la brecha de optimización.",
           },
           callout: {
             title: "Automatisierungs-ROI",
-            text: "Die Ersteinrichtung von SEO-Automatisierung kostet 40-80 Stunden Entwicklerzeit, spart aber typischerweise 10-20 Stunden pro Woche an manueller Arbeit. Der Break-even liegt meist bei 4-8 Wochen.",
+            text: "Cree un flujo de trabajo de API que resuelva primero su mayor problema. La creación de redirecciones automatizadas cuando los productos se descontinuan evita la acumulación de 404 y preserva la equidad de los enlaces en todo su catálogo.",
           },
         },
         {
-          title: "Optimizacion basada en plantillas a escala",
+          title: "Optimización basada en plantillas a escala",
           content:
             "La optimizacion basada en plantillas es el enfoque mas sostenible para mantener la calidad SEO en miles de paginas. En lugar de optimizar paginas individuales, optimizas las plantillas que generan esas paginas. Cada cambio en una plantilla se propaga instantaneamente a cada pagina que la usa, creando un efecto multiplicador en tus esfuerzos de optimizacion.\n\nComienza auditando tus plantillas de pagina existentes para completitud SEO. Cada plantilla deberia incluir: un title tag dinamico, un campo de meta descripcion con logica de plantilla de respaldo, jerarquia de encabezados correcta con un unico H1, salida de datos estructurados usando variables de la plataforma, optimizacion de imagen con carga diferida y plantillas de texto alt, y componentes de enlazado interno.\n\nLas plantillas de paginas de categoria merecen atencion especial porque a menudo generan las paginas de destino de mayor volumen para palabras clave comerciales. Optimiza la plantilla de categoria para incluir un bloque de contenido unico y editable sobre la cuadricula de productos. Este bloque deberia tener al menos 300 palabras.\n\nLas plantillas de paginas de producto deberian incluir secciones automatizadas que mejoren la profundidad del contenido. Una tabla de especificaciones de atributos del producto, una seccion FAQ generada dinamicamente y carruseles de productos relacionados contribuyen a la calidad de la pagina sin requerir creacion manual de contenido.\n\nLas plantillas de paginacion necesitan configuracion SEO cuidadosa. Implementa etiquetas canonicas autorreferenciadas en cada pagina paginada. Incluye el indicador de paginacion en el titulo de la pagina.\n\nLas plantillas de blog y contenido deberian optimizarse para la captura de fragmentos destacados. Incluye jerarquias de encabezados estructuradas y parrafos de resumen.",
           items: [
@@ -402,7 +400,7 @@ items: [
           ],
         },
         {
-          title: "Herramientas de automatizacion SEO y scripts personalizados",
+          title: "Herramientas de automatización SEO y scripts personalizados",
           content:
             "La combinacion correcta de [herramientas](/blog/ecommerce-seo-tools) y scripts personalizados puede automatizar del 70 al 80 por ciento de las [tareas SEO](/academy/seo-task-planning) rutinarias para una tienda e-commerce. Las herramientas comerciales manejan monitoreo, rastreo y reportes, mientras que los scripts personalizados abordan optimizaciones especificas de la plataforma y tareas de pipeline de datos.\n\nPara la automatizacion del rastreo, la interfaz de linea de comandos de Screaming Frog permite rastreos programados que exportan datos a una ubicacion especifica. Las alternativas en la nube como Lumar, Sitebulb o ContentKing proporcionan rastreo continuo con alertas integradas. Elige una solucion en la nube si necesitas monitoreo en tiempo real.\n\nLos scripts de Python son la opcion mas comun para la automatizacion SEO personalizada debido a la disponibilidad de bibliotecas para solicitudes HTTP, manipulacion de datos e integracion API. Un stack tipico de automatizacion SEO basado en Python incluye las bibliotecas requests para llamadas API, pandas para procesamiento de datos, BeautifulSoup para analisis HTML y un planificador como cron o Apache Airflow para orquestacion.\n\nScripts personalizados comunes para SEO de e-commerce incluyen: un verificador de enlaces rotos que rastrea tu sitio semanalmente, un validador de datos estructurados que prueba una muestra aleatoria de paginas de producto, un auditor de meta tags que marca paginas con title tags y meta descripciones faltantes, duplicados o truncados, y un detector de cadenas de redireccion.\n\nPara tiendas en plataformas con APIs abiertas (WooCommerce, Magento, BigCommerce), construye scripts que actualicen directamente los campos SEO de productos a traves de la API.\n\nControla la version de tus scripts de automatizacion en un repositorio Git y documenta sus dependencias, horarios y salidas esperadas. Esto previene silos de conocimiento.",
           items: [
@@ -463,12 +461,12 @@ items: [
           tip: "Costruisci un'unica dashboard di salute SEO che aggreghi dati da Google Search Console, Google Analytics, il tuo strumento di tracciamento posizioni e il tuo strumento di crawling. Avere tutte le metriche in un'unica vista rende enormemente piu facile individuare correlazioni tra modifiche al sito e impatti sulle performance.",
           image: {
             src: "/images/academy/it/seo-monitoring-stack.svg",
-            alt: "SEO-Ueberwachungs- und Alarm-Stack mit Crawl-, Ranking-, Traffic-, Verfuegbarkeits- und Log-Ueberwachung",
-            caption: "Automatisiertes Monitoring erkennt SEO-Probleme bevor sie Umsatz kosten. Richten Sie Alarme fuer alle fuenf Ebenen ein.",
+            alt: "Diagramma che mostra il sistema di monitoraggio SEO con Search Console, ranking tracker, API Rich Results e API PageSpeed ​​che vengono inseriti in una dashboard unificata con attivatori di avvisi",
+            caption: "Il monitoraggio automatizzato rileva i problemi prima che abbiano un impatto sul traffico. Imposta avvisi per cali dell'indice superiori al 5%, cali di parole chiave oltre le 5 posizioni, errori di schema ed errori Core Web Vitals.",
           },
           callout: {
             title: "Alarm-Muedigkeit",
-            text: "Zu viele Alarme fuehren dazu, dass Teams sie ignorieren. Setzen Sie Schwellenwerte so, dass nur signifikante Aenderungen (10%+ Abweichung) einen Alarm ausloesen. Kleinere Schwankungen gehoeren in woechentliche Berichte.",
+            text: "Senza un monitoraggio automatizzato, i problemi SEO possono persistere per settimane prima che qualcuno se ne accorga. Un avviso di rilascio del conteggio dell'indice del 5% rileva tag noindex accidentali, modifiche al file robots.txt ed errori del server entro 24 orehentliche Berichte.",
           },
         },
         {
@@ -484,12 +482,12 @@ items: [
           tip: "Inizia in piccolo con l'automazione API. Costruisci un workflow che risolva il tuo problema piu grande, testalo a fondo, e poi espandi. Tentare di automatizzare tutto contemporaneamente porta a sistemi fragili che si rompono quando una singola API cambia il suo formato di risposta.",
           image: {
             src: "/images/academy/it/seo-api-workflow.svg",
-            alt: "API-gesteuerter SEO-Workflow: Datenquellen, Verarbeitung, Aktionen und Berichterstellung",
-            caption: "Automatisieren Sie repetitive SEO-Aufgaben mit APIs und konzentrieren Sie menschliche Kapazitaet auf Strategie.",
+            alt: "Diagramma di flusso che mostra il flusso di lavoro SEO basato su API dall'estrazione dei dati attraverso il punteggio e le azioni automatizzate come la creazione di reindirizzamenti e la sincronizzazione dell'aggiornamento dei contenuti",
+            caption: "Estrai i dati da GSC, GA4 e dalle API della piattaforma, quindi uniscili in un modello di punteggio che dà priorità alle pagine in base al potenziale di traffico, al contributo delle entrate e al divario di ottimizzazione.",
           },
           callout: {
             title: "Automatisierungs-ROI",
-            text: "Die Ersteinrichtung von SEO-Automatisierung kostet 40-80 Stunden Entwicklerzeit, spart aber typischerweise 10-20 Stunden pro Woche an manueller Arbeit. Der Break-even liegt meist bei 4-8 Wochen.",
+            text: "Crea un flusso di lavoro API risolvendo prima il tuo problema più grande. La creazione automatizzata di reindirizzamenti quando i prodotti vengono fuori produzione previene l'accumulo di errori 404 e preserva l'equità dei collegamenti nel tuo catalogo.",
           },
         },
         {
@@ -566,12 +564,12 @@ items: [
           tip: "Bouw een enkel SEO-gezondheidsdashboard dat gegevens aggregeert uit Google Search Console, Google Analytics, je rankingtracker en je crawlingtool. Alle metrieken in een weergave hebben maakt het aanzienlijk eenvoudiger om correlaties te ontdekken tussen sitewijzigingen en prestatie-effecten.",
           image: {
             src: "/images/academy/nl/seo-monitoring-stack.svg",
-            alt: "SEO-Ueberwachungs- und Alarm-Stack mit Crawl-, Ranking-, Traffic-, Verfuegbarkeits- und Log-Ueberwachung",
-            caption: "Automatisiertes Monitoring erkennt SEO-Probleme bevor sie Umsatz kosten. Richten Sie Alarme fuer alle fuenf Ebenen ein.",
+            alt: "Diagram dat het SEO-monitoringsysteem toont met Search Console, rank tracker, Rich Results API en PageSpeed ​​API die worden ingevoerd in een uniform dashboard met waarschuwingstriggers",
+            caption: "Geautomatiseerde monitoring spoort problemen op voordat ze invloed hebben op het verkeer. Stel waarschuwingen in voor indexdalingen van meer dan 5%, trefwoorddalingen boven 5 posities, schemafouten en Core Web Vitals-fouten.",
           },
           callout: {
             title: "Alarm-Muedigkeit",
-            text: "Zu viele Alarme fuehren dazu, dass Teams sie ignorieren. Setzen Sie Schwellenwerte so, dass nur signifikante Aenderungen (10%+ Abweichung) einen Alarm ausloesen. Kleinere Schwankungen gehoeren in woechentliche Berichte.",
+            text: "Zonder geautomatiseerde monitoring kunnen SEO-problemen wekenlang aanhouden voordat iemand het merkt. Een waarschuwing voor een daling van het indexaantal met 5% signaleert onbedoelde noindex-tags, robots.txt-wijzigingen en serverfouten binnen 24 uurhentliche Berichte.",
           },
         },
         {
@@ -587,12 +585,12 @@ items: [
           tip: "Begin klein met API-automatisering. Bouw een workflow die je grootste pijnpunt oplost, test het grondig en breid dan uit. Proberen alles tegelijk te automatiseren leidt tot fragiele systemen die breken wanneer een enkele API zijn responsformaat wijzigt.",
           image: {
             src: "/images/academy/nl/seo-api-workflow.svg",
-            alt: "API-gesteuerter SEO-Workflow: Datenquellen, Verarbeitung, Aktionen und Berichterstellung",
-            caption: "Automatisieren Sie repetitive SEO-Aufgaben mit APIs und konzentrieren Sie menschliche Kapazitaet auf Strategie.",
+            alt: "Stroomdiagram dat de API-gestuurde SEO-workflow toont, van gegevensextractie tot scoring en geautomatiseerde acties zoals het maken van omleidingen en het synchroniseren van de versheid van inhoud",
+            caption: "Haal gegevens uit GSC-, GA4- en platform-API's en voeg deze vervolgens samen in een scoremodel dat pagina's prioriteit geeft op basis van verkeerspotentieel, omzetbijdrage en optimalisatiekloof.",
           },
           callout: {
             title: "Automatisierungs-ROI",
-            text: "Die Ersteinrichtung von SEO-Automatisierung kostet 40-80 Stunden Entwicklerzeit, spart aber typischerweise 10-20 Stunden pro Woche an manueller Arbeit. Der Break-even liegt meist bei 4-8 Wochen.",
+            text: "Bouw één API-workflow en los eerst uw grootste pijnpunt op. Het automatisch aanmaken van omleidingen wanneer producten worden stopgezet, voorkomt de accumulatie van 404 en behoudt de link equity in uw catalogus.",
           },
         },
         {

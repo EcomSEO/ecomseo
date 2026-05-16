@@ -138,8 +138,7 @@ export const homepageSeoForEcommerce: AcademyTopic = {
     fr: {
       badge: "SEO On-Page",
       heading: "SEO de la page d'accueil ecommerce",
-      intro:
-        "Votre page d'accueil est la page la plus autoritaire de tout votre domaine. Elle recoit la majorite des backlinks, porte le plus d'equite de [liens internes](/academy/internal-linking-for-stores) et donne le ton sur la facon dont les moteurs de recherche comprennent votre boutique. Pourtant, de nombreux sites ecommerce gaspillent cette autorite avec des bannieres hero flashy sans contenu textuel, laissant Google deviner ce qu'ils vendent reellement. Une page d'accueil strategiquement optimisee canalise l'autorite vers vos categories les plus importantes et etablit votre boutique comme l'autorite thematique dans votre niche. Pour approfondir, lisez notre guide sur le [SEO de la page d'accueil e-commerce](/blog/ecommerce-homepage-seo).",
+      intro: "Votre page d'accueil est la page la plus autoritaire de tout votre domaine. Elle recoit la majorite des backlinks, porte le plus d'equite de [liens internes](/academy/internal-linking-for-stores) et donne le ton sur la façon dont les moteurs de recherche comprennent votre boutique. Pourtant, de nombreux sites ecommerce gaspillent cette autorite avec des bannieres hero flashy sans contenu textuel, laissant Google deviner ce qu'ils vendent reellement. Une page d'accueil strategiquement optimisee canalise l'autorite vers vos catégories les plus importantes et etablit votre boutique comme l'autorite thematique dans votre niche. Pour approfondir, lisez notre guide sur le [SEO de la page d'accueil e-commerce](/blog/ecommerce-homepage-seo).",
       readTime: "10 min de lecture",
       sections: [
         {
@@ -159,12 +158,12 @@ export const homepageSeoForEcommerce: AcademyTopic = {
           ],
           image: {
             src: "/images/academy/fr/homepage-authority-flow.svg",
-            alt: "Diagramm, das zeigt, wie externe Backlinks Autorität über die Startseite an Kategorieseiten verteilen",
-            caption: "Ihre Startseite erhält die meisten Backlinks und verteilt diese Autorität an Kategorien. Fokussieren Sie auf 10-15 Ziele.",
+            alt: "Diagramme montrant comment les backlinks externes transmettent l'autorité via la page d'accueil vers les pages de catégorie via des liens internes",
+            caption: "Votre page d'accueil reçoit le plus de backlinks et distribue cette autorité aux catégories via des liens internes. Gardez les liens de la page d’accueil concentrés sur vos 10 à 15 principales destinations.",
           },
           callout: {
             title: "Autoritäts-Rechnung",
-            text: "Auf 200 einzelne Produkte von der Startseite zu verlinken verteilt die Autorität so dünn, dass kein Link bedeutsames Gewicht trägt. Verlinken Sie auf 10-15 Kategorien.",
+            text: "Les liens vers 200 produits individuels à partir de la page d'accueil étendent l'autorité si mince qu'aucun lien n'a de poids significatif. Créez plutôt un lien vers 10 à 15 catégories, permettant aux pages de catégories de distribuer l'autorité à",
           },
         },
         {
@@ -202,18 +201,17 @@ export const homepageSeoForEcommerce: AcademyTopic = {
     },
     es: {
       badge: "SEO On-Page",
-      heading: "SEO de pagina de inicio para ecommerce",
-      intro:
-        "Tu pagina de inicio es la pagina mas autoritativa de todo tu dominio. Recibe la mayor parte de los backlinks, lleva la mayor equidad de enlaces internos y establece el tono de como los motores de busqueda entienden tu tienda. Sin embargo, muchos sitios de ecommerce desperdician esta autoridad con banners hero llamativos sin contenido de texto, dejando a Google adivinando que venden realmente. Una pagina de inicio estrategicamente optimizada canaliza la autoridad hacia tus categorias mas importantes y establece tu tienda como la autoridad tematica en tu nicho. Para profundizar, lee nuestra guia de [SEO de homepage para ecommerce](/blog/ecommerce-homepage-seo).",
+      heading: "SEO de página de inicio para ecommerce",
+      intro: "Tu página de inicio es la página mas autoritativa de todo tu dominio. Recibe la mayor parte de los backlinks, lleva la mayor equidad de enlaces internos y establece el tono de como los motores de busqueda entienden tu tienda. Sin embargo, muchos sitios de ecommerce desperdician esta autoridad con banners hero llamativos sin contenido de texto, dejando a Google adivinando que venden realmente. Una página de inicio estratégicamente optimizada canaliza la autoridad hacia tus categorías mas importantes y establece tu tienda como la autoridad temática en tu nicho. Para profundizar, lee nuestra guia de [SEO de homepage para ecommerce](/blog/ecommerce-homepage-seo).",
       readTime: "10 min de lectura",
       sections: [
         {
-          title: "El rol de tu pagina de inicio en el SEO de ecommerce",
+          title: "El rol de tu página de inicio en el SEO de ecommerce",
           content:
             "Tu pagina de inicio sirve un proposito SEO fundamentalmente diferente al de cualquier otra pagina de tu sitio. Mientras que las paginas de producto y categoria apuntan a palabras clave transaccionales especificas, la pagina de inicio apunta a tu nombre de marca y la descripcion mas amplia de lo que ofrece tu tienda. Una tienda que vende equipamiento outdoor deberia tener una pagina de inicio que comunique claramente \"vendemos equipamiento outdoor y de camping\" tanto a humanos como a rastreadores.\n\nLa pagina de inicio tambien actua como el hub principal de distribucion de equidad de enlaces en todo tu sitio. Los enlaces externos de cobertura de prensa, asociaciones y directorios casi siempre apuntan a la pagina de inicio. Cada enlace interno desde la pagina de inicio pasa una porcion de esa autoridad acumulada a la pagina enlazada.\n\nLas busquedas de marca a menudo activan la pagina de inicio como el resultado principal, y Google usa la pagina de inicio para construir su comprension del tema general de tu sitio. Si Google no puede descifrar que vendes desde tu pagina de inicio, tendra dificultades para posicionar tus paginas mas profundas para consultas relevantes.",
         },
         {
-          title: "Estructura de contenido de pagina de inicio que funciona",
+          title: "Estructura de contenido de página de inicio que funciona",
           content:
             "La pagina de inicio de ecommerce ideal sigue una jerarquia de contenido que sirve tanto a objetivos de SEO como de conversion. Comienza con un H1 claro que incluya tu frase de palabra clave principal, algo como \"Equipamiento Outdoor Premium y Material de Camping\" en lugar de un eslogan vago como \"La Aventura Te Espera.\"\n\nDebajo del H1 y el area hero, incluye un parrafo introductorio corto (100-200 palabras) que describa tu tienda, lo que vendes y por que los compradores deberian comprarte. Este parrafo le da a Google el contexto semantico necesario para categorizar tu sitio.\n\nPresenta tus categorias de nivel superior con tarjetas visuales y enlaces de texto. Cada bloque de categoria deberia incluir el nombre de la categoria como H2 o H3, una breve descripcion (2-3 oraciones) y un enlace a la pagina de la categoria.\n\nTermina la pagina de inicio con una seccion de contenido mas larga (200-400 palabras) que amplíe tu historia de marca, experiencia o propuesta de valor unica.",
           items: [
@@ -224,27 +222,27 @@ export const homepageSeoForEcommerce: AcademyTopic = {
           ],
           image: {
             src: "/images/academy/es/homepage-authority-flow.svg",
-            alt: "Diagramm, das zeigt, wie externe Backlinks Autorität über die Startseite an Kategorieseiten verteilen",
-            caption: "Ihre Startseite erhält die meisten Backlinks und verteilt diese Autorität an Kategorien. Fokussieren Sie auf 10-15 Ziele.",
+            alt: "Diagrama que muestra cómo los vínculos de retroceso externos transmiten autoridad a través de la página de inicio a las páginas de categorías a través de vínculos internos.",
+            caption: "Su página de inicio recibe la mayor cantidad de vínculos de retroceso y distribuye esa autoridad a categorías a través de vínculos internos. Mantenga los enlaces de la página de inicio centrados en sus 10 a 15 destinos principales.",
           },
           callout: {
             title: "Autoritäts-Rechnung",
-            text: "Auf 200 einzelne Produkte von der Startseite zu verlinken verteilt die Autorität so dünn, dass kein Link bedeutsames Gewicht trägt. Verlinken Sie auf 10-15 Kategorien.",
+            text: "Vincular a 200 productos individuales desde la página de inicio difunde tanta autoridad que ningún vínculo tiene un peso significativo. En su lugar, vincule a entre 10 y 15 categorías, lo que permitirá que las páginas de categorías distribuyan la autoridad a",
           },
         },
         {
-          title: "Navegacion de la pagina de inicio y enlaces internos",
+          title: "Navegación de la página de inicio y enlaces internos",
           content:
             "Tu menu de navegacion principal es posiblemente el elemento de [enlaces internos](/academy/internal-linking-for-stores) mas poderoso de tu sitio porque aparece en cada pagina. Las categorias que incluyes en la navegacion principal reciben equidad de enlaces de cada pagina indexada de tu dominio. Eligelas cuidadosamente, tu navegacion superior deberia presentar tus categorias de mayor valor, no paginas utilitarias como \"Sobre Nosotros\" o \"Contacto.\"\n\nLimita tu navegacion principal a 7-10 elementos de nivel superior. Los mega menus con docenas de enlaces diluyen la equidad pasada a cada pagina enlazada y pueden abrumar tanto a usuarios como a motores de busqueda.\n\nLos enlaces internos especificos de la pagina de inicio, aquellos fuera de la navegacion principal, son donde puedes ser estrategico sobre dirigir autoridad. Enlaza a colecciones estacionales, novedades o categorias para las que estas tratando activamente de posicionarte.\n\nNo olvides los enlaces del pie de pagina. Aunque llevan menos peso que los enlaces de navegacion principal, los enlaces del footer son un buen lugar para tu lista completa de categorias y paginas de politicas importantes.",
           tip: "Revisa tus enlaces internos de la pagina de inicio trimestralmente. Los cambios estacionales, los lanzamientos de nuevos productos y las categorias descontinuadas justifican actualizaciones sobre que paginas reciben equidad de enlaces a nivel de pagina de inicio.",
         },
         {
-          title: "Etiqueta de titulo, meta descripcion y schema",
+          title: "Etiqueta de título, meta descripcion y schema",
           content:
             "La etiqueta de titulo de la pagina de inicio es el unico lugar donde liderar con tu nombre de marca tiene sentido, porque la mayoria de las busquedas de pagina de inicio son consultas de marca. La formula optima es: Nombre de Marca + Palabra Clave Principal + Diferenciador.\n\nTu meta descripcion de la pagina de inicio deberia servir como un mini-anuncio para toda tu tienda. Incluye tus principales categorias de productos, una senal de confianza y un llamado a la accion.\n\nImplementa el schema Organization en tu pagina de inicio para decirle a Google sobre tu entidad comercial. Incluye tu nombre de empresa, logo, informacion de contacto, perfiles de redes sociales y fecha de fundacion.\n\nNo pases por alto el schema SiteNavigationElement para tu menu principal. Aunque no es un factor de ranking directo, ayuda a los motores de busqueda a entender la estructura de tu sitio y puede influir en como aparecen los sitelinks debajo de tu pagina de inicio en los resultados de busqueda.",
         },
         {
-          title: "Errores comunes de SEO de pagina de inicio",
+          title: "Errores comunes de SEO de página de inicio",
           content:
             "El error mas frecuente que vemos es la pagina de inicio \"todas imagenes, sin texto\". Un banner hero de pantalla completa, una cuadricula de imagenes de productos y nada mas. Google puede leer el texto alternativo de las imagenes, pero no es sustituto del contenido de texto real que establece relevancia tematica.\n\nOtro error comun es usar el H1 de la pagina de inicio para un mensaje promocional estacional que cambia cada semana. \"Rebajas de Verano - Hasta 50% de Descuento\" no le dice nada a Google sobre lo que vendes. Tu H1 deberia ser estable y descriptivo.\n\nLos carruseles de diapositivas danan tanto el SEO como la conversion. Solo el contenido de la primera diapositiva recibe atencion completa de los usuarios, y el contenido rotativo crea una senal confusa para los motores de busqueda.\n\nFinalmente, muchas tiendas cometen el error de llenar su pagina de inicio con enlaces a productos individuales en lugar de categorias. Tu pagina de inicio deberia enlazar a categorias, que luego enlazan a productos. Esto se alinea con una solida [arquitectura de sitio](/academy/site-architecture-for-ecommerce) que mantiene cada pagina a pocos clics de la homepage.",
           items: [
@@ -289,12 +287,12 @@ export const homepageSeoForEcommerce: AcademyTopic = {
           ],
           image: {
             src: "/images/academy/it/homepage-authority-flow.svg",
-            alt: "Diagramm, das zeigt, wie externe Backlinks Autorität über die Startseite an Kategorieseiten verteilen",
-            caption: "Ihre Startseite erhält die meisten Backlinks und verteilt diese Autorität an Kategorien. Fokussieren Sie auf 10-15 Ziele.",
+            alt: "Diagramma che mostra come i backlink esterni trasmettono autorità attraverso la home page alle pagine di categoria tramite collegamenti interni",
+            caption: "La tua home page riceve il maggior numero di backlink e distribuisce tale autorità alle categorie tramite collegamenti interni. Mantieni i collegamenti della home page focalizzati sulle 10-15 destinazioni principali.",
           },
           callout: {
             title: "Autoritäts-Rechnung",
-            text: "Auf 200 einzelne Produkte von der Startseite zu verlinken verteilt die Autorität so dünn, dass kein Link bedeutsames Gewicht trägt. Verlinken Sie auf 10-15 Kategorien.",
+            text: "Il collegamento a 200 singoli prodotti dalla home page diffonde l'autorità in modo così sottile che nessun collegamento ha un peso significativo. Collega invece a 10-15 categorie, lasciando che le pagine delle categorie distribuiscano l'autorità",
           },
         },
         {
@@ -354,12 +352,12 @@ export const homepageSeoForEcommerce: AcademyTopic = {
           ],
           image: {
             src: "/images/academy/nl/homepage-authority-flow.svg",
-            alt: "Diagramm, das zeigt, wie externe Backlinks Autorität über die Startseite an Kategorieseiten verteilen",
-            caption: "Ihre Startseite erhält die meisten Backlinks und verteilt diese Autorität an Kategorien. Fokussieren Sie auf 10-15 Ziele.",
+            alt: "Diagram dat laat zien hoe externe backlinks autoriteit via de startpagina naar categoriepagina's sturen via interne links",
+            caption: "Uw startpagina ontvangt de meeste backlinks en verdeelt die autoriteit via interne links over categorieën. Houd de links naar de startpagina gericht op uw top 10-15 bestemmingen.",
           },
           callout: {
             title: "Autoritäts-Rechnung",
-            text: "Auf 200 einzelne Produkte von der Startseite zu verlinken verteilt die Autorität so dünn, dass kein Link bedeutsames Gewicht trägt. Verlinken Sie auf 10-15 Kategorien.",
+            text: "Door vanaf de startpagina naar 200 afzonderlijke producten te linken, wordt de autoriteit zo dun verspreid dat geen enkele link betekenisvol gewicht heeft. Link in plaats daarvan naar 10-15 categorieën, zodat categoriepagina's autoriteit kunnen distribueren",
           },
         },
         {

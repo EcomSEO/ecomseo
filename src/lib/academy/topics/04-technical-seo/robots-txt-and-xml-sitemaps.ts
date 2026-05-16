@@ -222,8 +222,7 @@ export const robotsTxtAndXmlSitemaps: AcademyTopic = {
     fr: {
       badge: "SEO Technique",
       heading: "Robots.txt et sitemaps XML",
-      intro:
-        "Votre fichier robots.txt et vos sitemaps XML sont deux des fichiers [SEO technique](/blog/technical-seo-for-ecommerce)s les plus fondamentaux de votre boutique e-commerce. Ensemble, ils controlent ce que les moteurs de recherche peuvent explorer et fournissent une feuille de route des pages que vous souhaitez indexer. Les configurer incorrectement peut cacher vos meilleurs produits a Google ou inonder l'index de pages de filtres sans valeur qui cannibalisent vos classements. Les deux fichiers jouent un rôle central dans la [gestion du budget de crawl](/academy/crawl-budget-management).",
+      intro: "Votre fichier robots.txt et vos sitemaps XML sont deux des fichiers [SEO technique](/blog/technical-seo-for-ecommerce)s les plus fondamentaux de votre boutique e-commerce. Ensemble, ils controlent ce que les moteurs de recherche peuvent explorer et fournissent une feuille de route des pages que vous souhaitez indexer. Les configurer incorrectement peut cacher vos meilleurs produits a Google ou inonder l'index de pages de filtres sans valeur qui cannibalisent vos classements. Les deux fichiers jouent un rôle central dans la [gestion du budget de crawl](/academy/crawl-budget-management).",
       readTime: "12 min de lecture",
       sections: [
         {
@@ -239,7 +238,7 @@ export const robotsTxtAndXmlSitemaps: AcademyTopic = {
           tip: "Conservez une sauvegarde de votre robots.txt avant toute modification. Un fichier robots.txt defaillant qui bloque accidentellement tout (Disallow: /) peut causer une perte catastrophique de trafic organique en quelques jours.",
         },
         {
-          title: "Regles robots.txt essentielles pour les boutiques en ligne",
+          title: "Règles robots.txt essentielles pour les boutiques en ligne",
           content:
             "Chaque robots.txt e-commerce devrait bloquer plusieurs categories d'URLs sans valeur. Les pages panier et paiement (/cart, /checkout, /account) n'apportent aucune valeur SEO et contiennent du contenu specifique a l'utilisateur. Les pages de resultats de recherche interne (/search?q=) generent des milliers de pages a contenu mince qui dupliquent vos listings de categories et peuvent mener a la cannibalisation de mots-cles.\n\nLes parametres de navigation a facettes representent la plus grande source de gaspillage de crawl. Des regles comme Disallow: /*?color=, Disallow: /*?size=, Disallow: /*?brand= et Disallow: /*?sort= empechent les robots d'explorer l'explosion combinatoire des URLs de filtres. Soyez strategique dans le choix des parametres a bloquer. Si votre boutique a des pages SEO optimisees pour certaines marques, ne bloquez pas le parametre marque globalement.\n\nLes parametres de tri devraient toujours etre bloques. Des URLs comme /categorie?sort=prix-croissant et /categorie?sort=plus-recents montrent les memes produits dans un ordre different et n'ajoutent aucun contenu unique. De meme, les parametres de pagination au-dela d'une profondeur raisonnable peuvent etre restreints.\n\nIncluez toujours une directive Sitemap en bas de votre robots.txt pointant vers votre sitemap XML. Cela aide les moteurs de recherche a decouvrir votre sitemap. Le format est simple : Sitemap: https://www.example.com/sitemap.xml. Vous pouvez lister plusieurs sitemaps si vous utilisez un fichier index de sitemaps.",
           items: [
@@ -252,12 +251,12 @@ export const robotsTxtAndXmlSitemaps: AcademyTopic = {
           tip: "Utilisez les caracteres joker avec prudence. Disallow: /*? bloquerait toutes les URLs avec n'importe quel parametre de requete, y compris les potentiellement precieux. Bloquez plutot les noms de parametres specifiques individuellement.",
           image: {
             src: "/images/academy/fr/robots-sitemap-coordination.svg",
-            alt: "Diagramm das zeigt wie robots.txt minderwertige URLs auf der linken Seite blockiert waehrend XML-Sitemaps wertvolle Produkt-, Kategorie- und Blog-URLs auf der rechten Seite priorisieren",
-            caption: "Robots.txt und XML-Sitemaps muessen als koordiniertes System arbeiten: blockieren was nicht gecrawlt werden soll, priorisieren was soll.",
+            alt: "Schéma montrant le fichier robots.txt bloquant les URL de faible valeur à gauche tandis que les plans de site XML donnent la priorité aux URL de produits, de catégories et de blogs de valeur à droite",
+            caption: "Les plans de site Robots.txt et XML doivent fonctionner comme un système coordonné : bloquez ce qui ne doit pas être exploré, priorisez ce qui doit le faire.",
           },
           callout: {
             title: "Null-Ueberschneidungs-Regel",
-            text: "Fuegen Sie niemals URLs in Ihre Sitemap ein die durch robots.txt blockiert sind. Dieser Widerspruch verschwendet Googles Aufwand und untergaebt das Vertrauen in beide Dateien. Nach jedem Plattform-Update abgleichen.",
+            text: "N'incluez jamais d'URL dans votre plan de site qui sont bloquées par robots.txt. Cette contradiction gaspille les efforts de Google et érode la confiance dans les deux fichiers. Référence croisée après chaque mise à jour de la plateforme.",
           },
         },
         {
@@ -299,12 +298,12 @@ export const robotsTxtAndXmlSitemaps: AcademyTopic = {
           tip: "Creez un processus automatise qui retire les URLs produits de votre sitemap quand elles retournent des codes de statut non-200 pendant plus de sept jours consecutifs.",
           image: {
             src: "/images/academy/fr/sitemap-lastmod-signal.svg",
-            alt: "Vergleich korrekter Lastmod-Daten die an echte Inhaltsaenderungen gebunden sind versus fehlerhafter Implementierungen bei denen alle Daten auf heute gesetzt sind",
-            caption: "Korrekte Lastmod-Daten die an echte Aenderungen gebunden sind fuehren zu 30% schnellerer Indexierung. Alle Daten auf heute zu setzen zerstoert das Signal vollstaendig.",
+            alt: "Comparaison des dates de dernière modification précises liées aux changements de contenu réels par rapport aux implémentations incorrectes où toutes les dates sont définies aujourd'hui",
+            caption: "Des dates de dernière modification précises liées aux changements réels entraînent une indexation 30 % plus rapide. Fixer toutes les dates à aujourd’hui détruit entièrement le signal.",
           },
           callout: {
             title: "Lastmod-Fehler",
-            text: "Shops die bei jedem Sitemap-Rebuild alle Lastmod-Daten auf das heutige Datum setzen bringen Google dazu das Signal vollstaendig zu ignorieren. Beheben Sie dies indem Sie lastmod an tatsaechliche Preis-, Bestands- oder Beschreibungsaenderungen koppeln.",
+            text: "Les magasins qui fixent toutes les dates de dernière modification à la date d'aujourd'hui à chaque reconstruction de plan de site apprennent à Google à ignorer complètement le signal. Corrigez ce problème en liant lastmod aux changements réels de prix, de stock ou de description.",
           },
         },
         {
@@ -327,10 +326,9 @@ export const robotsTxtAndXmlSitemaps: AcademyTopic = {
       },
     },
     es: {
-      badge: "SEO Tecnico",
+      badge: "SEO Técnico",
       heading: "Robots.txt y Sitemaps XML",
-      intro:
-        "Tu archivo robots.txt y los sitemaps XML son dos de los archivos de [SEO tecnico](/blog/technical-seo-for-ecommerce) mas fundamentales de tu tienda de ecommerce. Juntos, controlan lo que los motores de busqueda pueden rastrear y proporcionan un mapa de las paginas que deseas indexar. Configurarlos incorrectamente puede ocultar tus mejores productos de Google o inundar el indice con paginas de filtros de bajo valor que canibalizan tus rankings.",
+      intro: "Tu archivo robots.txt y los sitemaps XML son dos de los archivos de [SEO técnico](/blog/technical-seo-for-ecommerce) mas fundamentales de tu tienda de ecommerce. Juntos, controlan lo que los motores de busqueda pueden rastrear y proporcionan un mapa de las páginas que deseas indexar. Configurarlos incorrectamente puede ocultar tus mejores productos de Google o inundar el indice con páginas de filtros de bajo valor que canibalizan tus rankings.",
       readTime: "12 min de lectura",
       sections: [
         {
@@ -359,16 +357,16 @@ export const robotsTxtAndXmlSitemaps: AcademyTopic = {
           tip: "Usa patrones de comodines con cuidado. Disallow: /*? bloquearia todas las URLs con cualquier parametro de consulta, incluyendo potencialmente valiosos. En su lugar, bloquea nombres de parametros especificos individualmente.",
           image: {
             src: "/images/academy/es/robots-sitemap-coordination.svg",
-            alt: "Diagramm das zeigt wie robots.txt minderwertige URLs auf der linken Seite blockiert waehrend XML-Sitemaps wertvolle Produkt-, Kategorie- und Blog-URLs auf der rechten Seite priorisieren",
-            caption: "Robots.txt und XML-Sitemaps muessen als koordiniertes System arbeiten: blockieren was nicht gecrawlt werden soll, priorisieren was soll.",
+            alt: "Diagrama que muestra robots.txt bloqueando URL de bajo valor a la izquierda, mientras que los mapas de sitio XML priorizan URL de productos, categorías y blogs valiosos a la derecha.",
+            caption: "Los mapas de sitio Robots.txt y XML deben funcionar como un sistema coordinado: bloquear lo que no se debe rastrear, priorizar lo que se debe rastrear.",
           },
           callout: {
             title: "Null-Ueberschneidungs-Regel",
-            text: "Fuegen Sie niemals URLs in Ihre Sitemap ein die durch robots.txt blockiert sind. Dieser Widerspruch verschwendet Googles Aufwand und untergaebt das Vertrauen in beide Dateien. Nach jedem Plattform-Update abgleichen.",
+            text: "Nunca incluyas URL en tu mapa del sitio que estén bloqueadas por robots.txt. Esta contradicción desperdicia el esfuerzo de Google y erosiona la confianza en ambos archivos. Referencia cruzada después de cada actualización de la plataforma.",
           },
         },
         {
-          title: "Estructura de sitemaps XML para catalogos de productos",
+          title: "Estructura de sitemaps XML para catálogos de productos",
           content:
             "Un sitemap XML es un archivo estructurado que lista las URLs que quieres que los motores de busqueda descubran e indexen. Para tiendas de ecommerce con grandes catalogos, la arquitectura correcta del sitemap es critica porque influye directamente en que paginas Google prioriza para rastreo e indexacion.\n\nUsa un archivo indice de sitemaps como sitemap principal que referencia multiples sitemaps hijos organizados por tipo de contenido. Una estructura tipica incluye sitemaps separados para paginas de productos (sitemap-products.xml), paginas de categorias (sitemap-categories.xml), publicaciones de blog (sitemap-blog.xml) y paginas estaticas (sitemap-pages.xml).\n\nCada sitemap XML tiene un limite de 50,000 URLs y 50 MB de tamano sin comprimir. Para tiendas con mas de 50,000 productos, divide tu sitemap de productos en multiples archivos, idealmente organizados por categoria o departamento. Este agrupamiento logico facilita el seguimiento de tasas de indexacion por categoria en Google Search Console.\n\nCada URL en tu sitemap debe ser la version canonical de esa pagina. Nunca incluyas URLs que redirigen, devuelven errores 404, tienen etiquetas noindex o estan bloqueadas por robots.txt. Incluir estas URLs desperdicia el esfuerzo de rastreo de Google y erosiona la confianza en la precision de tu archivo sitemap.",
           items: [
@@ -406,12 +404,12 @@ export const robotsTxtAndXmlSitemaps: AcademyTopic = {
           tip: "Crea un proceso automatizado que retire URLs de productos de tu sitemap cuando devuelvan codigos de estado no-200 durante mas de siete dias consecutivos.",
           image: {
             src: "/images/academy/es/sitemap-lastmod-signal.svg",
-            alt: "Vergleich korrekter Lastmod-Daten die an echte Inhaltsaenderungen gebunden sind versus fehlerhafter Implementierungen bei denen alle Daten auf heute gesetzt sind",
-            caption: "Korrekte Lastmod-Daten die an echte Aenderungen gebunden sind fuehren zu 30% schnellerer Indexierung. Alle Daten auf heute zu setzen zerstoert das Signal vollstaendig.",
+            alt: "Comparación de fechas precisas de última modificación vinculadas a cambios de contenido reales versus implementaciones incorrectas donde todas las fechas se establecen en hoy",
+            caption: "Las fechas precisas de la última modificación vinculadas a cambios reales dan como resultado una indexación un 30 % más rápida. Establecer todas las fechas en hoy destruye la señal por completo.",
           },
           callout: {
             title: "Lastmod-Fehler",
-            text: "Shops die bei jedem Sitemap-Rebuild alle Lastmod-Daten auf das heutige Datum setzen bringen Google dazu das Signal vollstaendig zu ignorieren. Beheben Sie dies indem Sie lastmod an tatsaechliche Preis-, Bestands- oder Beschreibungsaenderungen koppeln.",
+            text: "Las tiendas que establecen todas las fechas de última modificación en la fecha de hoy en cada reconstrucción del mapa del sitio le enseñan a Google a ignorar la señal por completo. Solucione este problema vinculando lastmod a los cambios reales en el precio, el stock o la descripción.",
           },
         },
         {
@@ -466,12 +464,12 @@ export const robotsTxtAndXmlSitemaps: AcademyTopic = {
           tip: "Usa i pattern jolly con attenzione. Disallow: /*? bloccherebbe tutti gli URL con qualsiasi parametro di query, inclusi quelli potenzialmente preziosi. Blocca invece singolarmente nomi di parametri specifici.",
           image: {
             src: "/images/academy/it/robots-sitemap-coordination.svg",
-            alt: "Diagramm das zeigt wie robots.txt minderwertige URLs auf der linken Seite blockiert waehrend XML-Sitemaps wertvolle Produkt-, Kategorie- und Blog-URLs auf der rechten Seite priorisieren",
-            caption: "Robots.txt und XML-Sitemaps muessen als koordiniertes System arbeiten: blockieren was nicht gecrawlt werden soll, priorisieren was soll.",
+            alt: "Diagramma che mostra il file robots.txt che blocca gli URL di basso valore sulla sinistra, mentre le mappe dei siti XML danno priorità agli URL di prodotti, categorie e blog di valore sulla destra",
+            caption: "Robots.txt e le sitemap XML devono funzionare come un sistema coordinato: bloccare ciò che non deve essere scansionato, dare priorità a ciò che dovrebbe.",
           },
           callout: {
             title: "Null-Ueberschneidungs-Regel",
-            text: "Fuegen Sie niemals URLs in Ihre Sitemap ein die durch robots.txt blockiert sind. Dieser Widerspruch verschwendet Googles Aufwand und untergaebt das Vertrauen in beide Dateien. Nach jedem Plattform-Update abgleichen.",
+            text: "Non includere mai nella mappa del sito URL bloccati da robots.txt. Questa contraddizione vanifica gli sforzi di Google ed erode la fiducia in entrambi i file. Riferimento incrociato dopo ogni aggiornamento della piattaforma.",
           },
         },
         {
@@ -513,12 +511,12 @@ export const robotsTxtAndXmlSitemaps: AcademyTopic = {
           tip: "Crea un processo automatizzato che rimuova gli URL prodotto dalla tua sitemap quando restituiscono codici di stato non-200 per piu di sette giorni consecutivi.",
           image: {
             src: "/images/academy/it/sitemap-lastmod-signal.svg",
-            alt: "Vergleich korrekter Lastmod-Daten die an echte Inhaltsaenderungen gebunden sind versus fehlerhafter Implementierungen bei denen alle Daten auf heute gesetzt sind",
-            caption: "Korrekte Lastmod-Daten die an echte Aenderungen gebunden sind fuehren zu 30% schnellerer Indexierung. Alle Daten auf heute zu setzen zerstoert das Signal vollstaendig.",
+            alt: "Confronto tra date lastmod precise legate a modifiche dei contenuti reali e implementazioni errate in cui tutte le date sono impostate su oggi",
+            caption: "Le date lastmod precise legate ai cambiamenti reali determinano un'indicizzazione più rapida del 30%. Impostare tutte le date a oggi distrugge completamente il segnale.",
           },
           callout: {
             title: "Lastmod-Fehler",
-            text: "Shops die bei jedem Sitemap-Rebuild alle Lastmod-Daten auf das heutige Datum setzen bringen Google dazu das Signal vollstaendig zu ignorieren. Beheben Sie dies indem Sie lastmod an tatsaechliche Preis-, Bestands- oder Beschreibungsaenderungen koppeln.",
+            text: "I negozi che impostano tutte le date Lastmod sulla data odierna su ogni ricostruzione della mappa del sito insegnano a Google a ignorare completamente il segnale. Risolvi questo problema collegando LastMod alle modifiche effettive del prezzo, dello stock o della descrizione.",
           },
         },
         {
@@ -573,12 +571,12 @@ export const robotsTxtAndXmlSitemaps: AcademyTopic = {
           tip: "Gebruik jokertekenpatronen voorzichtig. Disallow: /*? zou alle URL's met welke queryparameter dan ook blokkeren, inclusief potentieel waardevolle. Blokkeer in plaats daarvan specifieke parameternamen individueel.",
           image: {
             src: "/images/academy/nl/robots-sitemap-coordination.svg",
-            alt: "Diagramm das zeigt wie robots.txt minderwertige URLs auf der linken Seite blockiert waehrend XML-Sitemaps wertvolle Produkt-, Kategorie- und Blog-URLs auf der rechten Seite priorisieren",
-            caption: "Robots.txt und XML-Sitemaps muessen als koordiniertes System arbeiten: blockieren was nicht gecrawlt werden soll, priorisieren was soll.",
+            alt: "Diagram met aan de linkerkant robots.txt die URL's met een lage waarde blokkeert, terwijl XML-sitemaps aan de rechterkant prioriteit geven aan waardevolle product-, categorie- en blog-URL's",
+            caption: "Robots.txt- en XML-sitemaps moeten als een gecoördineerd systeem werken: blokkeer wat niet mag worden gecrawld, geef prioriteit aan wat wel moet.",
           },
           callout: {
             title: "Null-Ueberschneidungs-Regel",
-            text: "Fuegen Sie niemals URLs in Ihre Sitemap ein die durch robots.txt blockiert sind. Dieser Widerspruch verschwendet Googles Aufwand und untergaebt das Vertrauen in beide Dateien. Nach jedem Plattform-Update abgleichen.",
+            text: "Neem nooit URL's op in uw sitemap die worden geblokkeerd door robots.txt. Deze tegenstrijdigheid verspilt de inspanningen van Google en tast het vertrouwen in beide bestanden aan. Kruisverwijzing na elke platformupdate.",
           },
         },
         {
@@ -620,12 +618,12 @@ export const robotsTxtAndXmlSitemaps: AcademyTopic = {
           tip: "Maak een geautomatiseerd proces dat product-URL's uit je sitemap verwijdert wanneer ze meer dan zeven opeenvolgende dagen niet-200 statuscodes retourneren.",
           image: {
             src: "/images/academy/nl/sitemap-lastmod-signal.svg",
-            alt: "Vergleich korrekter Lastmod-Daten die an echte Inhaltsaenderungen gebunden sind versus fehlerhafter Implementierungen bei denen alle Daten auf heute gesetzt sind",
-            caption: "Korrekte Lastmod-Daten die an echte Aenderungen gebunden sind fuehren zu 30% schnellerer Indexierung. Alle Daten auf heute zu setzen zerstoert das Signal vollstaendig.",
+            alt: "Vergelijking van nauwkeurige lastmod-datums gekoppeld aan echte inhoudswijzigingen versus onjuiste implementaties waarbij alle datums zijn ingesteld op vandaag",
+            caption: "Nauwkeurige lastmod-datums gekoppeld aan echte wijzigingen resulteren in 30% snellere indexering. Als u alle datums op vandaag zet, wordt het signaal volledig vernietigd.",
           },
           callout: {
             title: "Lastmod-Fehler",
-            text: "Shops die bei jedem Sitemap-Rebuild alle Lastmod-Daten auf das heutige Datum setzen bringen Google dazu das Signal vollstaendig zu ignorieren. Beheben Sie dies indem Sie lastmod an tatsaechliche Preis-, Bestands- oder Beschreibungsaenderungen koppeln.",
+            text: "Winkels die bij elke herbouw van de sitemap alle lastmod-datums op de datum van vandaag zetten, leren Google het signaal volledig te negeren. Los dit op door lastmod te koppelen aan daadwerkelijke prijs-, voorraad- of beschrijvingswijzigingen.",
           },
         },
         {

@@ -194,8 +194,7 @@ export const siteArchitectureForEcommerce: AcademyTopic = {
     fr: {
       badge: "SEO Technique",
       heading: "Architecture de site pour le e-commerce",
-      intro:
-        "La maniere dont vous organisez les pages de votre boutique determine la capacite de Google a les explorer, les comprendre et les classer. Une architecture de site plate et logique rend chaque produit accessible en quelques clics et distribue efficacement le link equity a travers votre catalogue. C'est un élément fondamental du [SEO technique pour l'e-commerce](/blog/technical-seo-for-ecommerce).",
+      intro: "La maniere dont vous organisez les pages de votre boutique determine la capacite de Google a les explorer, les comprendre et les classer. Une architecture de site plate et logique rend chaque produit accessible en quelques clics et distribue efficacement le link equity a travers votre catalogue. C'est un élément fondamental du [SEO technique pour l'e-commerce](/blog/technical-seo-for-ecommerce).",
       readTime: "11 min de lecture",
       sections: [
         {
@@ -210,22 +209,22 @@ export const siteArchitectureForEcommerce: AcademyTopic = {
           ],
           image: {
             src: "/images/academy/fr/site-architecture-depth.svg",
-            alt: "Vergleich von flacher Architektur mit 3-Klick-Tiefe versus tiefer Architektur mit 6-Klick-Tiefe der den Unterschied bei der Indexierungsgeschwindigkeit zeigt",
-            caption: "Flache Architektur (3 Klicks) fuehrt zu 2,4x schnellerer Indexierung und 15-25% mehr organischem Traffic im Vergleich zu tiefen Strukturen (6+ Klicks).",
+            alt: "Comparaison côte à côte d'une architecture plate avec une profondeur de 3 clics par rapport à une architecture profonde avec une profondeur de 6 clics, montrant la différence de vitesse d'indexation",
+            caption: "L'architecture plate (3 clics) conduit à une indexation 2,4 fois plus rapide et à 15 à 25 % de trafic organique en plus par rapport aux structures profondes (6+ clics).",
           },
           callout: {
             title: "Tiefenwirkungsdaten",
-            text: "Bei 40 getesteten Ecommerce-Seiten im Jahr 2024 wurden Produktseiten die in 3 oder weniger Klicks erreichbar waren 2,4x schneller indexiert als Seiten die 5+ Klicks erforderten. Groessere Shops profitierten am meisten von der Umstrukturierung.",
+            text: "Sur 40 sites de commerce électronique testés en 2024, les pages de produits accessibles en 3 clics ou moins ont été indexées 2,4 fois plus rapidement que les pages nécessitant plus de 5 clics. Les grands magasins ont enregistré les gains les plus importants grâce à la restructuration.",
           },
         },
         {
-          title: "La regle des 3 clics pour les pages produits",
+          title: "La règle des 3 clics pour les pages produits",
           content:
             "La regle des 3 clics n'est pas un facteur de classement SEO strict, mais c'est un cadre pratique qui correle avec un meilleur crawl et de meilleurs classements. L'idee est simple : chaque page produit devrait etre accessible en trois clics depuis la page d'accueil. Accueil > Categorie > Produit. Ou Accueil > Categorie > Sous-categorie > Produit pour les boutiques plus importantes.\n\nNous avons teste cela sur 40 sites e-commerce en 2024 et constate que les pages produits accessibles en trois clics ou moins etaient indexees 2,4 fois plus rapidement que les pages necessitant cinq clics ou plus. La correlation se maintenait independamment de la taille de la boutique, bien que les plus grandes boutiques aient le plus beneficie de la restructuration.\n\nMettre en oeuvre la regle des 3 clics necessite souvent de repenser la structure de vos categories. Au lieu de Accueil > Vetements > Homme > Hauts > T-shirts > T-shirts graphiques > Produit, simplifiez en Accueil > T-shirts Homme > Produit. Les niveaux de categories supplementaires ajoutent rarement de la valeur SEO et nuisent presque toujours a l'efficacite du crawl.\n\nLes mega-menus aident a maintenir la regle des 3 clics a grande echelle. Un mega-menu bien structure peut exposer des centaines de categories et sous-categories dans un seul element de navigation, placant chaque page de categorie a un clic de la page d'accueil. Assurez-vous simplement que le mega-menu charge des vrais liens HTML, pas du contenu rendu en JavaScript que Google pourrait avoir du mal a analyser.",
           tip: "Utilisez le rapport de profondeur de crawl de Screaming Frog pour identifier les pages produits situees a plus de 3 clics de votre page d'accueil. Triez par profondeur et priorisez la restructuration des pages les plus profondes.",
         },
         {
-          title: "Modeles de structure d'URL qui passent a l'echelle",
+          title: "Modèles de structure d'URL qui passent a l'échelle",
           content:
             "Votre structure d'URL doit refleter la hierarchie de votre site et rester coherente a mesure que votre catalogue grandit. Le modele le plus efficace pour le e-commerce suit ce format : /categorie/sous-categorie/nom-du-produit. Cette structure indique aux utilisateurs et aux moteurs de recherche exactement ou se situe une page dans la taxonomie de votre boutique.\n\nEvitez les URLs chargees en parametres comme /products?id=4829&cat=shoes&color=blue. Bien que Google puisse les explorer, elles creent des problemes de canonicalisation et rendent plus difficile la comprehension de votre structure par les moteurs de recherche. Les URLs propres et hierarchiques surpassent les URLs basees sur des parametres dans nos tests, avec un taux de clics en moyenne 12 % superieur dans les resultats de recherche.\n\nGardez les URLs courtes et descriptives. L'URL /chaussures-femme/running/nike-air-zoom est bien plus efficace que /categorie-47/sous-categorie-192/produit-8291. Incluez les mots-cles pertinents naturellement, mais evitez le bourrage de mots-cles. Un ou deux mots-cles par segment d'URL suffisent.\n\nLes boutiques Shopify sont confrontees a une limitation car la plateforme impose un prefixe /collections/ et /products/. Vous obtenez /collections/chaussures-running et /products/nike-air-zoom plutot qu'une hierarchie propre. C'est une contrainte connue et Google la gere bien. N'essayez pas de la contourner avec des redirections ou du routage personnalise qui pourraient creer des problemes de crawl.",
           items: [
@@ -243,7 +242,7 @@ export const siteArchitectureForEcommerce: AcademyTopic = {
           tip: "Revoyez votre taxonomie de categories trimestriellement. A mesure que vous ajoutez des produits, certaines sous-categories deviennent assez grandes pour justifier leur propre separation, tandis que d'autres restent trop minces et devraient etre fusionnees vers le haut. Une taxonomie vivante s'adapte a votre catalogue.",
         },
         {
-          title: "Implementation des fils d'Ariane pour le SEO",
+          title: "Implémentation des fils d'Ariane pour le SEO",
           content:
             "Les fils d'Ariane remplissent un double objectif en e-commerce : ils aident les utilisateurs a naviguer a travers votre hierarchie de categories et fournissent a Google des donnees de hierarchie structurees qui peuvent apparaitre directement dans les resultats de recherche. Implementer des fils d'Ariane avec le balisage BreadcrumbList est l'un des gains SEO les plus faciles pour toute boutique en ligne.\n\nUn fil d'Ariane de page produit devrait se lire comme : Accueil > Vetements Femme > Robes > Robes Longues. Chaque segment doit etre un lien cliquable qui amene l'utilisateur a la page de categorie correspondante. Cela cree des liens internes supplementaires vers vos pages de categories, renforcant leur autorite.\n\nPour les produits qui appartiennent a plusieurs categories, choisissez un chemin de fil d'Ariane principal et restez-y. Google a besoin d'une hierarchie canonique coherente. Si un produit apparait a la fois dans /soldes/robes et /femmes/robes, le fil d'Ariane doit refleter la categorie permanente (/femmes/robes), pas celle promotionnelle.\n\nImplementez les donnees structurees BreadcrumbList en utilisant JSON-LD. Cela indique a Google exactement comment vos pages sont liees hierarchiquement et peut donner des resultats de recherche enrichis avec les fils d'Ariane qui montrent votre chemin de categorie au lieu de l'URL brute. Les boutiques avec des resultats enrichis de fils d'Ariane constatent generalement une amelioration du taux de clics de 5 % a 10 %.",
           items: [
@@ -259,12 +258,12 @@ export const siteArchitectureForEcommerce: AcademyTopic = {
             "La structure en silo consiste a regrouper les pages liees et a les relier en interne pour creer des clusters thematiques que Google peut facilement comprendre. Pour le e-commerce, cela signifie relier les pages de categories, les pages de produits et le contenu de blog associe en groupes thematiques serres.\n\nUn silo bien construit pour une boutique de chaussures de course pourrait ressembler a ceci : la page de categorie /chaussures-de-course lie vers toutes les pages de produits de chaussures de course, qui renvoient a la categorie. Un article de blog sur \"Comment choisir ses chaussures de course\" lie a la fois la page de categorie et des pages de produits specifiques. La page de categorie lie les guides associes. Chaque page du silo renforce la pertinence thematique des autres.\n\nLa regle cle de l'architecture en silo est de creer des liens genereux au sein des silos et parcimonieux entre eux. Votre silo de chaussures de course ne devrait pas lier abondamment vers votre silo de chaussures de randonnee. Les liens inter-silos sont acceptables avec moderation (navigation dans le header, liens de footer), mais la majorite de vos liens internes doit connecter les pages au sein du meme groupe thematique.\n\nNous avons mis en oeuvre des restructurations en silo pour des boutiques ou les classements des pages de categories se sont ameliores en moyenne de 8 positions en trois mois. Les boutiques qui en beneficient le plus sont celles avec de solides catalogues de produits mais un [maillage interne](/academy/internal-linking-for-stores) faible, ou Google a du mal a comprendre quelles pages sont thematiquement liees.",
           image: {
             src: "/images/academy/fr/silo-structure-ecommerce.svg",
-            alt: "Diagramm das drei Content-Silos fuer Laufschuhe, Wanderstiefel und Zubehoer zeigt mit dichter interner Verlinkung innerhalb der Silos und sparsamen Querverweisen",
-            caption: "Innerhalb von Silos grosszuegig verlinken (Kategorie, Produkte, Ratgeber) und sparsam dazwischen. Das verstaerkt die thematische Relevanz fuer Google.",
+            alt: "Schéma montrant trois silos de contenu pour les chaussures de course, les bottes de randonnée et les accessoires, chacun contenant des pages de catégorie, des produits et du contenu de blog avec des liens internes denses au sein des silos et des croupes clairsemées.",
+            caption: "Liez généreusement au sein des silos (catégorie, produits, guides) et avec parcimonie entre eux. Cela renforce la pertinence d’actualité pour Google.",
           },
           callout: {
             title: "Silo-Auswirkung",
-            text: "Shops die eine Silo-Umstrukturierung durchfuehrten sahen Kategorieseiten-Rankings die sich im Durchschnitt um 8 Positionen innerhalb von drei Monaten verbesserten. Die groessten Gewinne kamen durch die Verbindung von Blog-Inhalten mit verwandten Produkt-Silos.",
+            text: "Les magasins qui ont mis en œuvre une restructuration des silos ont vu le classement des pages de catégories s'améliorer de 8 positions en moyenne en trois mois. Les gains les plus importants sont venus de la connexion du contenu du blog aux produits associés.",
           },
         },
         {
@@ -285,10 +284,9 @@ export const siteArchitectureForEcommerce: AcademyTopic = {
       },
     },
     es: {
-      badge: "SEO Tecnico",
+      badge: "SEO Técnico",
       heading: "Arquitectura web para tiendas online",
-      intro:
-        "La forma en que organizas las paginas de tu tienda determina lo bien que Google puede rastrearlas, entenderlas y posicionarlas. Una arquitectura web plana y logica hace que cada producto sea accesible en pocos clics y distribuye la autoridad de enlaces de forma eficiente a traves de tu catalogo. Este es un elemento fundamental del [SEO tecnico para ecommerce](/blog/technical-seo-for-ecommerce).",
+      intro: "La forma en que organizas las páginas de tu tienda determina lo bien que Google puede rastrearlas, entenderlas y posicionarlas. Una arquitectura web plana y lógica hace que cada producto sea accesible en pocos clics y distribuye la autoridad de enlaces de forma eficiente a traves de tu catálogo. Este es un elemento fundamental del [SEO técnico para ecommerce](/blog/technical-seo-for-ecommerce).",
       readTime: "11 min de lectura",
       sections: [
         {
@@ -303,16 +301,16 @@ export const siteArchitectureForEcommerce: AcademyTopic = {
           ],
           image: {
             src: "/images/academy/es/site-architecture-depth.svg",
-            alt: "Vergleich von flacher Architektur mit 3-Klick-Tiefe versus tiefer Architektur mit 6-Klick-Tiefe der den Unterschied bei der Indexierungsgeschwindigkeit zeigt",
-            caption: "Flache Architektur (3 Klicks) fuehrt zu 2,4x schnellerer Indexierung und 15-25% mehr organischem Traffic im Vergleich zu tiefen Strukturen (6+ Klicks).",
+            alt: "Comparación lado a lado de la arquitectura plana con profundidad de 3 clics versus la arquitectura profunda con profundidad de 6 clics, que muestra la diferencia en la velocidad de indexación",
+            caption: "La arquitectura plana (3 clics) genera una indexación 2,4 veces más rápida y entre un 15 y un 25 % más de tráfico orgánico en comparación con las estructuras profundas (más de 6 clics).",
           },
           callout: {
             title: "Tiefenwirkungsdaten",
-            text: "Bei 40 getesteten Ecommerce-Seiten im Jahr 2024 wurden Produktseiten die in 3 oder weniger Klicks erreichbar waren 2,4x schneller indexiert als Seiten die 5+ Klicks erforderten. Groessere Shops profitierten am meisten von der Umstrukturierung.",
+            text: "En 40 sitios de comercio electrónico probados en 2024, las páginas de productos a las que se podía acceder con 3 clics o menos se indexaron 2,4 veces más rápido que las páginas que requerían más de 5 clics. Las tiendas más grandes obtuvieron las mayores ganancias gracias a la reestructuración.",
           },
         },
         {
-          title: "La regla de los 3 clics para paginas de producto",
+          title: "La regla de los 3 clics para páginas de producto",
           content:
             "La regla de los 3 clics no es un factor de posicionamiento estricto, pero es un marco practico que correlaciona con mejor rastreo y rankings mas altos. La idea es simple: cada pagina de producto deberia ser accesible en tres clics desde la pagina de inicio. Inicio > Categoria > Producto. O Inicio > Categoria > Subcategoria > Producto para tiendas mas grandes.\n\nProbamos esto en 40 sitios de ecommerce en 2024 y encontramos que las paginas de producto accesibles en tres o menos clics se indexaban 2,4 veces mas rapido que las paginas que requerian cinco o mas clics. La correlacion se mantuvo independientemente del tamano de la tienda, aunque las tiendas mas grandes fueron las mas beneficiadas por la reestructuracion.\n\nImplementar la regla de los 3 clics a menudo requiere repensar tu estructura de categorias. En lugar de Inicio > Ropa > Hombre > Partes de arriba > Camisetas > Camisetas graficas > Producto, simplifica a Inicio > Camisetas de hombre > Producto. Los niveles extra de categorias raramente aportan valor SEO y casi siempre perjudican la eficiencia del rastreo.\n\nLos mega menus ayudan a mantener la regla de los 3 clics a escala. Un mega menu bien estructurado puede mostrar cientos de categorias y subcategorias en un solo elemento de navegacion, poniendo cada pagina de categoria a un clic de la pagina de inicio. Solo asegurate de que el mega menu cargue como enlaces HTML reales, no como contenido renderizado por JavaScript que Google podria tener dificultades para analizar. Una mala implementacion de menu puede desperdiciar tu [presupuesto de rastreo](/academy/crawl-budget-management) en paginas no renderizables.",
           tip: "Usa el informe de profundidad de rastreo de Screaming Frog para identificar paginas de producto que estan a mas de 3 clics de tu pagina de inicio. Ordena por profundidad y prioriza la reestructuracion de las paginas mas profundas.",
@@ -330,13 +328,13 @@ export const siteArchitectureForEcommerce: AcademyTopic = {
           ],
         },
         {
-          title: "Planificacion de taxonomia para catalogos en crecimiento",
+          title: "Planificacion de taxonomia para catálogos en crecimiento",
           content:
             "La taxonomia es como clasificas y organizas cada producto en tu tienda. Una taxonomia bien planificada escala con elegancia a medida que agregas productos, mientras que una mala crea caos que requiere una reestructuracion dolorosa. Comienza la planificacion de tu taxonomia con investigacion de palabras clave, no con la conveniencia interna.\n\nAlinea tus categorias con como buscan realmente los clientes. Si los datos de busqueda muestran que la gente busca \"auriculares inalambricos\" en lugar de \"accesorios de audio\", tu categoria deberia llamarse \"Auriculares inalambricos\" sin importar como tu equipo de merchandising categorice los productos internamente. La taxonomia visible para Google y los clientes debe coincidir con el comportamiento de busqueda.\n\nPlanifica para la profundidad sin crear profundidad. Una buena taxonomia tiene categorias principales claramente definidas (normalmente 5 a 12 para la mayoria de tiendas), subcategorias logicas donde el volumen de busqueda las justifica, y una regla clara para donde aterrizan los nuevos productos. Cada producto deberia pertenecer a exactamente un camino de categoria principal.\n\nRecomendamos documentar tu taxonomia en una hoja de calculo antes de construirla en tu plataforma. Traza cada categoria y subcategoria, asigna palabras clave objetivo a cada una y anota el conteo esperado de productos. Categorias con menos de cinco productos raramente justifican su propia pagina. Esos productos estan mejor ubicados en una categoria padre mas amplia hasta que el volumen justifique una division.",
           tip: "Revisa tu taxonomia de categorias trimestralmente. A medida que agregas productos, algunas subcategorias crecen lo suficiente para justificar su propia division, mientras que otras permanecen demasiado delgadas y deberian fusionarse hacia arriba. Una taxonomia viva se adapta a tu catalogo.",
         },
         {
-          title: "Implementacion de migas de pan para SEO",
+          title: "Implementación de migas de pan para SEO",
           content:
             "Las migas de pan cumplen un doble proposito en ecommerce: ayudan a los usuarios a navegar de vuelta por la jerarquia de categorias y proporcionan a Google datos de jerarquia estructurados que pueden aparecer directamente en los resultados de busqueda. Implementar migas de pan con el marcado de esquema BreadcrumbList es una de las victorias SEO mas faciles para cualquier tienda online.\n\nUna miga de pan de pagina de producto deberia leerse como: Inicio > Ropa de mujer > Vestidos > Vestidos largos. Cada segmento deberia ser un enlace clicable que lleve al usuario a la pagina de categoria correspondiente. Esto crea enlaces internos adicionales a tus paginas de categoria, fortaleciendo su autoridad.\n\nPara productos que pertenecen a multiples categorias, elige un camino de miga de pan principal y mantente en el. Google necesita una jerarquia canonica consistente. Si un producto aparece tanto en /ofertas/vestidos como en /mujer/vestidos, la miga de pan debe reflejar la categoria permanente (/mujer/vestidos), no la promocional.\n\nImplementa datos estructurados BreadcrumbList usando JSON-LD. Esto le dice a Google exactamente como se relacionan tus paginas jerarquicamente y puede resultar en listados de busqueda mejorados con migas de pan que muestran tu ruta de categoria en lugar de la URL cruda. Las tiendas con resultados enriquecidos de migas de pan tipicamente ven una mejora del 5 % al 10 % en la tasa de clics desde los resultados de busqueda.",
           items: [
@@ -352,18 +350,18 @@ export const siteArchitectureForEcommerce: AcademyTopic = {
             "La estructura de silos es la practica de agrupar paginas relacionadas y enlazarlas internamente para crear clusters tematicos que Google pueda entender facilmente. Para ecommerce, esto significa enlazar paginas de categorias, paginas de productos y contenido de blog relacionado en grupos tematicos cohesivos.\n\nUn silo bien construido para una tienda de zapatillas de running podria verse asi: la pagina de categoria /zapatillas-running enlaza a todas las paginas de producto de zapatillas de running, que enlazan de vuelta a la categoria. Un articulo de blog sobre \"Como elegir zapatillas de running\" enlaza tanto a la pagina de categoria como a paginas de producto especificas. La pagina de categoria enlaza a guias relacionadas. Cada pagina dentro del silo refuerza la relevancia tematica de las demas.\n\nLa regla clave de la arquitectura de silos es enlazar generosamente dentro de los silos y con moderacion entre ellos. Tu silo de zapatillas de running no deberia enlazar abundantemente a tu silo de botas de senderismo. Los enlaces entre silos estan bien con moderacion (navegacion del header, enlaces del footer), pero la mayor parte de tus enlaces internos deberian conectar paginas dentro del mismo grupo tematico.\n\nHemos implementado reestructuraciones de silos en tiendas donde los rankings de las paginas de categoria mejoraron en promedio 8 posiciones en tres meses. Las tiendas que mas se benefician son aquellas con catalogos de productos solidos pero un [enlazado interno](/academy/internal-linking-for-stores) debil, donde Google tiene dificultades para entender que paginas estan tematicamente relacionadas.",
           image: {
             src: "/images/academy/es/silo-structure-ecommerce.svg",
-            alt: "Diagramm das drei Content-Silos fuer Laufschuhe, Wanderstiefel und Zubehoer zeigt mit dichter interner Verlinkung innerhalb der Silos und sparsamen Querverweisen",
-            caption: "Innerhalb von Silos grosszuegig verlinken (Kategorie, Produkte, Ratgeber) und sparsam dazwischen. Das verstaerkt die thematische Relevanz fuer Google.",
+            alt: "Diagrama que muestra tres silos de contenido para zapatillas para correr, botas de montaña y accesorios, cada uno de los cuales contiene páginas de categorías, productos y contenido de blog con enlaces internos densos dentro de los silos y cro escaso.",
+            caption: "Vincule generosamente dentro de los silos (categorías, productos, guías) y con moderación entre ellos. Esto refuerza la relevancia actual para Google.",
           },
           callout: {
             title: "Silo-Auswirkung",
-            text: "Shops die eine Silo-Umstrukturierung durchfuehrten sahen Kategorieseiten-Rankings die sich im Durchschnitt um 8 Positionen innerhalb von drei Monaten verbesserten. Die groessten Gewinne kamen durch die Verbindung von Blog-Inhalten mit verwandten Produkt-Silos.",
+            text: "Las tiendas que implementaron la reestructuración de silos vieron mejorar la clasificación de las páginas de categorías en un promedio de 8 posiciones en tres meses. Las mayores ganancias provinieron de conectar el contenido del blog con productos relacionados.",
           },
         },
         {
-          title: "siteFocusScore: Por que Google recompensa una arquitectura de sitio topicamente estrecha",
+          title: "siteFocusScore: Por qué Google recompensa una arquitectura de sitio topicamente estrecha",
           content:
-            "El leak nombro siteFocusScore - una medida cuantificada de que tan concentrado esta el contenido de un sitio dentro de un nicho topico. Los sitios que publican contenido disciplinado y tematicamente coherente rankean mejor en su nicho. Los sitios que derivan a traves de temas no relacionados diluyen el score y pierden autoridad en todos los frentes.\n\nPara ecommerce, esto valida la arquitectura basada en clusters que esta guia ya cubre, con un filo mas afilado. Una tienda especializada de equipo outdoor que publica 200 paginas sobre senderismo, camping y trail running concentra senales topicas en esos clusters. La misma tienda que anade una seccion sobre \"consejos de productividad de oficina\" porque alguien penso que generaria trafico diluye la senal de nicho - y el leak sugiere que esto puede danar los rankings del contenido outdoor original, no solo el contenido nuevo.\n\nLa implicacion practica para la arquitectura de sitio: cada URL de tu tienda debe tener una respuesta clara a \"por que esta esto en este dominio\". Si una seccion no puede ser defendida como on-topic para el nicho de la marca, probablemente es un negativo neto. siteFocusScore es el nombre del leak para el principio, pero el comportamiento subyacente ha sido observable durante anos - el leak solo confirmo que Google lo mide explicitamente.",
+            "El leak nombro siteFocusScore - una medida cuantificada de que tan concentrado esta el contenido de un sitio dentro de un nicho topico. Los sitios que publican contenido disciplinado y tematicamente coherente rankean mejor en su nicho. Los sitios que derivan a traves de temas no relacionados diluyen el score y pierden autoridad en todos los frentes.\n\nPara ecommerce, esto valida la arquitectura basada en clusters que esta guia ya cubre, con un filo mas afilado. Una tienda especializada de equipo outdoor que publica 200 paginas sobre senderismo, camping y trail running concentra senales topicas en esos clusters. La misma tienda que anade una seccion sobre \"consejos de productividad de oficina\" porque alguien penso que generaria trafico diluye la senal de nicho - y el leak sugiere que esto puede danar los rankings del contenido outdoor original, no solo el contenido nuevo.\n\nLa implicacion practica para la arquitectura de sitio: cada URL de tu tienda debe tener una respuesta clara a \"por que esta esto en este dominio\". Si una seccion no puede ser defendida como on-topic para el nicho de la marca, probablemente es un negativo neto. siteFocusScore es el nombre del leak para el principio, pero el comportamiento subyacente ha sido observable durante años - el leak solo confirmo que Google lo mide explicitamente.",
           items: [
             "siteFocusScore cuantifica que tan topicamente concentrado esta un sitio dentro de su nicho",
             "Las secciones off-topic diluyen el score y pueden danar rankings de paginas on-topic, no solo las nuevas",
@@ -396,12 +394,12 @@ export const siteArchitectureForEcommerce: AcademyTopic = {
           ],
           image: {
             src: "/images/academy/it/site-architecture-depth.svg",
-            alt: "Vergleich von flacher Architektur mit 3-Klick-Tiefe versus tiefer Architektur mit 6-Klick-Tiefe der den Unterschied bei der Indexierungsgeschwindigkeit zeigt",
-            caption: "Flache Architektur (3 Klicks) fuehrt zu 2,4x schnellerer Indexierung und 15-25% mehr organischem Traffic im Vergleich zu tiefen Strukturen (6+ Klicks).",
+            alt: "Confronto affiancato tra l'architettura flat con profondità di 3 clic e l'architettura profonda con profondità di 6 clic, che mostra la differenza di velocità di indicizzazione",
+            caption: "L'architettura piatta (3 clic) porta a un'indicizzazione 2,4 volte più veloce e al 15-25% in più di traffico organico rispetto alle strutture profonde (6+ clic).",
           },
           callout: {
             title: "Tiefenwirkungsdaten",
-            text: "Bei 40 getesteten Ecommerce-Seiten im Jahr 2024 wurden Produktseiten die in 3 oder weniger Klicks erreichbar waren 2,4x schneller indexiert als Seiten die 5+ Klicks erforderten. Groessere Shops profitierten am meisten von der Umstrukturierung.",
+            text: "Su 40 siti di e-commerce testati nel 2024, le pagine dei prodotti raggiungibili con 3 o meno clic sono state indicizzate 2,4 volte più velocemente rispetto alle pagine che richiedevano più di 5 clic. I negozi più grandi hanno ottenuto i maggiori guadagni dalla ristrutturazione.",
           },
         },
         {
@@ -445,12 +443,12 @@ export const siteArchitectureForEcommerce: AcademyTopic = {
             "La struttura a silo e la pratica di raggruppare pagine correlate e collegarle internamente per creare cluster tematici che Google puo facilmente comprendere. Per l'e-commerce, questo significa collegare pagine di categoria, pagine prodotto e contenuti blog correlati in gruppi tematici coesi.\n\nUn silo ben costruito per un negozio di scarpe da corsa potrebbe apparire cosi: la pagina di categoria /scarpe-da-corsa collega a tutte le pagine prodotto di scarpe da corsa, che rimandano alla categoria. Un articolo del blog su \"Come scegliere le scarpe da corsa\" collega sia alla pagina di categoria che a pagine prodotto specifiche. La pagina di categoria collega alle guide correlate. Ogni pagina nel silo rafforza la rilevanza tematica delle altre.\n\nLa regola chiave dell'architettura a silo e collegare generosamente all'interno dei silo e con parsimonia tra di essi. Il tuo silo di scarpe da corsa non dovrebbe collegare abbondantemente al tuo silo di scarponi da trekking. I link tra silo vanno bene con moderazione (navigazione header, link footer), ma la maggior parte dei tuoi link interni dovrebbe collegare pagine all'interno dello stesso gruppo tematico.\n\nAbbiamo implementato ristrutturazioni a silo per negozi dove i ranking delle pagine di categoria sono migliorati in media di 8 posizioni entro tre mesi. I negozi che ne beneficiano di piu sono quelli con cataloghi di prodotti solidi ma un [linking interno](/academy/internal-linking-for-stores) debole, dove Google fatica a capire quali pagine sono tematicamente correlate.",
           image: {
             src: "/images/academy/it/silo-structure-ecommerce.svg",
-            alt: "Diagramm das drei Content-Silos fuer Laufschuhe, Wanderstiefel und Zubehoer zeigt mit dichter interner Verlinkung innerhalb der Silos und sparsamen Querverweisen",
-            caption: "Innerhalb von Silos grosszuegig verlinken (Kategorie, Produkte, Ratgeber) und sparsam dazwischen. Das verstaerkt die thematische Relevanz fuer Google.",
+            alt: "Diagramma che mostra tre silos di contenuti per scarpe da corsa, scarponi da trekking e accessori, ciascuno contenente pagine di categorie, prodotti e contenuti di blog con densi collegamenti interni all'interno di silos e contenuti sparsi",
+            caption: "Collega generosamente all'interno dei silos (categoria, prodotti, guide) e con parsimonia tra di loro. Ciò rafforza la rilevanza di attualità per Google.",
           },
           callout: {
             title: "Silo-Auswirkung",
-            text: "Shops die eine Silo-Umstrukturierung durchfuehrten sahen Kategorieseiten-Rankings die sich im Durchschnitt um 8 Positionen innerhalb von drei Monaten verbesserten. Die groessten Gewinne kamen durch die Verbindung von Blog-Inhalten mit verwandten Produkt-Silos.",
+            text: "I negozi che hanno implementato la ristrutturazione dei silo hanno visto il ranking delle pagine delle categorie migliorare in media di 8 posizioni in tre mesi. I maggiori guadagni sono arrivati ​​dal collegamento dei contenuti del blog ai prodotti correlati",
           },
         },
         {
@@ -489,12 +487,12 @@ export const siteArchitectureForEcommerce: AcademyTopic = {
           ],
           image: {
             src: "/images/academy/nl/site-architecture-depth.svg",
-            alt: "Vergleich von flacher Architektur mit 3-Klick-Tiefe versus tiefer Architektur mit 6-Klick-Tiefe der den Unterschied bei der Indexierungsgeschwindigkeit zeigt",
-            caption: "Flache Architektur (3 Klicks) fuehrt zu 2,4x schnellerer Indexierung und 15-25% mehr organischem Traffic im Vergleich zu tiefen Strukturen (6+ Klicks).",
+            alt: "Zij-aan-zij vergelijking van platte architectuur met een diepte van 3 klikken versus diepe architectuur met een diepte van 6 klikken, waarbij het verschil in indexeringssnelheid wordt weergegeven",
+            caption: "Platte architectuur (3 klikken) leidt tot 2,4x snellere indexering en 15-25% meer organisch verkeer vergeleken met diepe structuren (6+ klikken).",
           },
           callout: {
             title: "Tiefenwirkungsdaten",
-            text: "Bei 40 getesteten Ecommerce-Seiten im Jahr 2024 wurden Produktseiten die in 3 oder weniger Klicks erreichbar waren 2,4x schneller indexiert als Seiten die 5+ Klicks erforderten. Groessere Shops profitierten am meisten von der Umstrukturierung.",
+            text: "Op de veertig in 2024 geteste e-commercesites werden productpagina's die met drie of minder klikken bereikbaar waren, 2,4x sneller geïndexeerd dan pagina's waarvoor meer dan vijf klikken nodig waren. Grotere winkels boekten de grootste winst uit de herstructurering.",
           },
         },
         {
@@ -538,12 +536,12 @@ export const siteArchitectureForEcommerce: AcademyTopic = {
             "Silostructuur is de praktijk van het groeperen van gerelateerde pagina's en ze intern te linken om thematische clusters te creeren die Google gemakkelijk kan begrijpen. Voor e-commerce betekent dit het koppelen van categoriepagina's, productpagina's en gerelateerde blogcontent in hechte thematische groepen.\n\nEen goed opgebouwde silo voor een hardloopschoenenwinkel zou er zo uit kunnen zien: de /hardloopschoenen/ categoriepagina linkt naar alle hardloopschoen-productpagina's, die terug linken naar de categorie. Een blogpost over \"Hoe hardloopschoenen kiezen\" linkt naar zowel de categoriepagina als specifieke productpagina's. De categoriepagina linkt naar gerelateerde gidsen. Elke pagina binnen de silo versterkt de thematische relevantie van de andere.\n\nDe sleutelregel van silo-architectuur is royaal linken binnen silo's en spaarzaam daartussen. Je hardloopschoenen-silo zou niet zwaar moeten linken naar je wandelschoenen-silo. Cross-silo links zijn prima met mate (headernavigatie, footerlinks), maar het merendeel van je interne links moet pagina's verbinden binnen dezelfde thematische groep.\n\nWe hebben siloherstructureringen geimplementeerd voor webshops waarbij de rankings van categoriepagina's gemiddeld 8 posities verbeterden binnen drie maanden. De webshops die het meest profiteren zijn die met sterke productcatalogi maar zwakke interne links, waar Google moeite heeft om te begrijpen welke pagina's thematisch gerelateerd zijn.\n\nLees meer over [interne linking voor webshops](/academy/internal-linking-for-stores) in ons gedetailleerde onderwerp.",
           image: {
             src: "/images/academy/nl/silo-structure-ecommerce.svg",
-            alt: "Diagramm das drei Content-Silos fuer Laufschuhe, Wanderstiefel und Zubehoer zeigt mit dichter interner Verlinkung innerhalb der Silos und sparsamen Querverweisen",
-            caption: "Innerhalb von Silos grosszuegig verlinken (Kategorie, Produkte, Ratgeber) und sparsam dazwischen. Das verstaerkt die thematische Relevanz fuer Google.",
+            alt: "Diagram met drie inhoudsilo's voor hardloopschoenen, wandelschoenen en accessoires, elk met categoriepagina's, producten en bloginhoud met dichte interne koppelingen binnen silo's en schaarse cro",
+            caption: "Koppel genereus binnen silo's (categorie, producten, gidsen) en spaarzaam tussen deze silo's. Dit versterkt de actuele relevantie voor Google.",
           },
           callout: {
             title: "Silo-Auswirkung",
-            text: "Shops die eine Silo-Umstrukturierung durchfuehrten sahen Kategorieseiten-Rankings die sich im Durchschnitt um 8 Positionen innerhalb von drei Monaten verbesserten. Die groessten Gewinne kamen durch die Verbindung von Blog-Inhalten mit verwandten Produkt-Silos.",
+            text: "Winkels die silo-herstructureringen implementeerden, zagen de rangschikking van categoriepagina's binnen drie maanden met gemiddeld 8 posities verbeteren. De grootste winst kwam voort uit het verbinden van bloginhoud met gerelateerde producten",
           },
         },
         {

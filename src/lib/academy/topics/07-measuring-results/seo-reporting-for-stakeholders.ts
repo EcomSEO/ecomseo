@@ -174,8 +174,7 @@ items: [
     fr: {
       badge: "Analytics & Reporting",
       heading: "Rapports SEO pour les parties prenantes",
-      intro:
-        "La plupart des rapports SEO echouent parce qu'ils parlent le langage des specialistes du search marketing plutot que celui des dirigeants. Les cadres s'interessent au chiffre d'affaires, aux parts de marche et au positionnement concurrentiel, pas aux nombres de mots-cles ou aux erreurs de crawl. Creer des rapports SEO adaptes aux parties prenantes signifie traduire les donnees techniques de recherche en resultats commerciaux qui favorisent l'investissement continu dans la croissance organique.",
+      intro: "La plupart des rapports SEO echouent parce qu'ils parlent le langage des specialistes du search marketing plutot que celui des dirigeants. Les cadres s'interessent au chiffre d'affaires, aux parts de marché et au positionnement concurrentiel, pas aux nombres de mots-clés ou aux erreurs de crawl. Créer des rapports SEO adaptes aux parties prenantes signifie traduire les données techniques de recherche en resultats commerciaux qui favorisent l'investissement continu dans la croissance organique.",
       readTime: "11 min de lecture",
       sections: [
         {
@@ -196,12 +195,12 @@ items: [
           tip: "Envoyez le resume executif 24 heures avant toute reunion. Les parties prenantes qui ont le temps de digerer les chiffres principaux poseront de meilleures questions et s'engageront plus productivement avec vos conclusions detaillees lors de la reunion.",
           image: {
             src: "/images/academy/fr/stakeholder-report-structure.svg",
-            alt: "Stakeholder-Berichtsstruktur mit fuenf Abschnitten von der Zusammenfassung bis zum Plan fuer die naechste Periode",
-            caption: "Ein strukturierter Executive-Bericht praesentiert Ergebnisse, Metriken und Plaene in einem klaren Format fuer die Geschaeftsleitung.",
+            alt: "Diagramme montrant quatre sections d'un rapport de référencement exécutif : principaux KPI, graphique de tendance, part de voix concurrentielle et prochaines étapes prioritaires",
+            caption: "Suivez cette structure en quatre sections : les KPI d'abord, puis les tendances, le contexte concurrentiel et les prochaines étapes réalisables avec l'impact projeté.",
           },
           callout: {
             title: "Berichtslaenge",
-            text: "Die Executive-Zusammenfassung darf maximal eine Seite umfassen. Wenn die Geschaeftsleitung mehr als 60 Sekunden braucht, um die Kernbotschaft zu erfassen, ist der Bericht zu lang. Details gehoeren in Anhaenge.",
+            text: "La première page ne doit pas contenir plus de 4 à 6 mesures avec des indicateurs directionnels. Si la recherche organique a généré 420 000 $ ce mois-ci, soit 34 % du chiffre d'affaires total avec une croissance de 12 % sur un an, ce seul point de données surpasserait la performance.Anhaenge.",
           },
         },
         {
@@ -217,16 +216,16 @@ items: [
           ],
           image: {
             src: "/images/academy/fr/seo-metrics-pyramid.svg",
-            alt: "SEO-Metriken-Pyramide mit drei Ebenen: Umsatzwirkung, Leistungsmetriken und Aktivitaetsmetriken",
-            caption: "Berichten Sie nach oben (Umsatzwirkung) fuer die Geschaeftsleitung und nach unten (Aktivitaetsmetriken) fuer operative Teams.",
+            alt: "Diagramme pyramidal montrant la hiérarchie des métriques SEO du commerce électronique : revenus en haut, métriques de qualité au milieu, métriques de visibilité à la base",
+            caption: "Dirigez les rapports de direction avec des mesures de revenus au sommet de la pyramide. Les mesures de visibilité telles que le taux d'indexation soutiennent l'histoire mais ne constituent pas le titre.",
           },
           callout: {
             title: "Metrik-Auswahl",
-            text: "Ueberfluten Sie Stakeholder nicht mit allen Metriken. Die Geschaeftsleitung will Umsatzwirkung und ROI sehen, Manager brauchen Leistungstrends, und operative Teams brauchen Aktivitaetskennzahlen.",
+            text: "Une augmentation de 30 % du trafic organique ne signifie pas grand-chose si 25 % de cette augmentation sont constitués de requêtes de marque provenant d'une campagne télévisée. La croissance organique du trafic sans marque est le signal le plus pur indiquant que votre programme de référencement se développe",
           },
         },
         {
-          title: "Visualiser les donnees SEO pour un impact maximal",
+          title: "Visualiser les données SEO pour un impact maximal",
           content:
             "La visualisation des donnees separe les rapports efficaces des oubliables. Le cerveau humain traite les informations visuelles 60 000 fois plus vite que le texte, donc la facon dont vous presentez les donnees compte autant que les donnees elles-memes. Pour le reporting SEO e-commerce, choisissez des types de graphiques qui mettent en valeur les tendances, proportions et comparaisons.\n\nUtilisez des graphiques en courbes pour toute metrique suivie dans le temps, y compris le chiffre d'affaires organique, le trafic et les taux de conversion. Montrez toujours au moins douze mois de donnees et ajoutez une ligne de tendance.\n\nUtilisez des graphiques a barres empilees pour montrer la contribution du chiffre d'affaires organique par categorie de produits. Cette visualisation communique instantanement quelles categories generent le plus de revenus organiques et comment ce mix evolue dans le temps.\n\nLes camemberts fonctionnent pour montrer le mix de canaux a un moment donne. Cependant, ne les utilisez jamais pour des comparaisons sur plusieurs periodes. Utilisez plutot des graphiques a barres groupees.\n\nLes nuages de points sont excellents pour montrer la relation entre l'investissement SEO et les resultats au niveau de la page ou de la categorie. Tracez chaque categorie de produits avec les heures d'optimisation sur l'axe X et le changement de chiffre d'affaires organique sur l'axe Y.",
           tip: "Utilisez des couleurs coherentes dans tous les rapports. Attribuez a la recherche organique une couleur unique, comme le vert, et utilisez-la dans chaque graphique et chaque rapport. Avec le temps, les parties prenantes associeront immediatement cette couleur a la performance organique.",
@@ -243,7 +242,7 @@ items: [
           ],
         },
         {
-          title: "Gerer les resultats negatifs et definir les attentes",
+          title: "Gerer les resultats negatifs et définir les attentes",
           content:
             "Chaque programme SEO connaitra des periodes de declin. Les mises a jour d'algorithmes, la concurrence accrue, les patterns saisonniers et les problemes techniques peuvent tous provoquer une baisse du trafic et du chiffre d'affaires organique. La facon dont vous rapportez ces baisses determine si les parties prenantes maintiennent leur confiance dans votre programme SEO.\n\nNe cachez jamais les resultats negatifs. Les parties prenantes qui decouvrent les mauvaises nouvelles par elles-memes perdent confiance dans le processus de reporting. Commencez plutot par la mauvaise nouvelle, expliquez la cause et presentez votre plan de reponse. Un rapport qui dit que le chiffre d'affaires organique a decline de 8% en raison du core update de Google, puis decrit cinq ameliorations de contenu specifiques en cours, demontre de la competence plutot que de l'echec.\n\nDefinissez les attentes de maniere proactive en eduquant les parties prenantes sur la nature de la recherche organique. Le SEO n'est pas un canal de croissance lineaire. Les resultats se composent dans le temps mais sont sujets a des disruptions periodiques dues aux changements d'algorithmes.\n\nFournissez un contexte concurrentiel lors du reporting des baisses. Si votre trafic organique a baisse de 10% mais que vos trois concurrents les plus proches ont baisse de 15-20%, votre position relative s'est en fait amelioree.\n\nEnfin, maintenez un journal de toutes les actions SEO entreprises, des mises a jour d'algorithmes observees et des changements commerciaux. Cet historique est inestimable quand les parties prenantes demandent pourquoi la performance a change pendant une periode specifique.\n\nDéfinissez les attentes de manière proactive en éduquant les parties prenantes sur la nature de la recherche organique, en vous appuyant sur les fondamentaux de votre [stratégie SEO e-commerce](/blog/ecommerce-seo-strategy).",
           tip: "Creez un document chronologique simple qui enregistre chaque mise a jour d'algorithme, chaque changement SEO majeur que vous implementez et chaque evenement commercial significatif. Quand une partie prenante demande pourquoi le trafic a change il y a six mois, ce journal vous permet de repondre avec precision plutot qu'avec des suppositions.",
@@ -257,8 +256,7 @@ items: [
     es: {
       badge: "Analytics & Reporting",
       heading: "Reportes SEO para stakeholders",
-      intro:
-        "La mayoria de los reportes SEO fallan porque hablan el lenguaje de los especialistas en marketing de busqueda en lugar del lenguaje de los lideres empresariales. Los ejecutivos se preocupan por los ingresos, la cuota de mercado y el posicionamiento competitivo, no por conteos de palabras clave o errores de rastreo. Crear reportes SEO listos para stakeholders significa traducir datos tecnicos de busqueda en resultados de negocio que impulsen la inversion continua en crecimiento organico.",
+      intro: "La mayoria de los reportes SEO fallan porque hablan el lenguaje de los especialistas en marketing de busqueda en lugar del lenguaje de los lideres empresariales. Los ejecutivos se preocupan por los ingresos, la cuota de mercado y el posicionamiento competitivo, no por conteos de palabras clave o errores de rastreo. Crear reportes SEO listos para stakeholders significa traducir datos técnicos de busqueda en resultados de negocio que impulsen la inversion continua en crecimiento organico.",
       readTime: "11 min de lectura",
       sections: [
         {
@@ -279,16 +277,16 @@ items: [
           tip: "Envia el resumen ejecutivo 24 horas antes de cualquier reunion. Los stakeholders que tienen tiempo para digerir los numeros principales haran mejores preguntas y se involucraran mas productivamente con tus hallazgos detallados durante la reunion real.",
           image: {
             src: "/images/academy/es/stakeholder-report-structure.svg",
-            alt: "Stakeholder-Berichtsstruktur mit fuenf Abschnitten von der Zusammenfassung bis zum Plan fuer die naechste Periode",
-            caption: "Ein strukturierter Executive-Bericht praesentiert Ergebnisse, Metriken und Plaene in einem klaren Format fuer die Geschaeftsleitung.",
+            alt: "Diagrama que muestra cuatro secciones de un informe ejecutivo de SEO: KPI principales, gráfico de tendencias, participación competitiva y próximos pasos priorizados.",
+            caption: "Siga esta estructura de cuatro secciones: primero los KPI, luego las tendencias, el contexto competitivo y los próximos pasos viables con el impacto proyectado.",
           },
           callout: {
             title: "Berichtslaenge",
-            text: "Die Executive-Zusammenfassung darf maximal eine Seite umfassen. Wenn die Geschaeftsleitung mehr als 60 Sekunden braucht, um die Kernbotschaft zu erfassen, ist der Bericht zu lang. Details gehoeren in Anhaenge.",
+            text: "La primera página no debe contener más de 4 a 6 métricas con indicadores direccionales. Si la búsqueda orgánica generó 420.000 dólares este mes, lo que representa el 34 % de los ingresos totales y un crecimiento interanual del 12 %, ese único dato señala un rendimiento superior.Anhaenge.",
           },
         },
         {
-          title: "Metricas SEO esenciales de ecommerce para reportar",
+          title: "Métricas SEO esenciales de ecommerce para reportar",
           content:
             "Los ingresos organicos son la metrica mas importante para el reporting SEO de ecommerce. Extraelos de [GA4 usando un segmento de trafico organico correctamente configurado](/academy/seo-analytics-with-ga4) con atribucion basada en datos. Reportalo como total, como porcentaje de los ingresos generales y con tasa de crecimiento interanual. Estas tres vistas dan a los stakeholders volumen, participacion y trayectoria.\n\nLa tasa de conversion organica muestra la calidad del trafico. Si el trafico organico crece pero la tasa de conversion cae, puedes estar atrayendo visitantes equivocados o tus paginas de destino necesitan optimizacion. Reporta esta metrica junto a la tasa de conversion general del sitio.\n\nEl trafico organico sin marca aisla el verdadero crecimiento SEO de las busquedas impulsadas por la marca. Un aumento del 30% en trafico organico significa poco si el 25% de ese aumento proviene de consultas de marca impulsadas por una nueva campana de TV.\n\nLa tasa de indexacion de paginas de producto muestra que porcentaje de tu catalogo de productos ha indexado Google y esta sirviendo en resultados de busqueda. Para grandes tiendas ecommerce con miles de SKUs, lograr que cada pagina de producto sea indexada es un desafio fundamental.\n\nEl valor promedio de pedido del trafico organico comparado con otros canales revela si el SEO esta generando compras de alto o bajo valor.",
           items: [
@@ -300,12 +298,12 @@ items: [
           ],
           image: {
             src: "/images/academy/es/seo-metrics-pyramid.svg",
-            alt: "SEO-Metriken-Pyramide mit drei Ebenen: Umsatzwirkung, Leistungsmetriken und Aktivitaetsmetriken",
-            caption: "Berichten Sie nach oben (Umsatzwirkung) fuer die Geschaeftsleitung und nach unten (Aktivitaetsmetriken) fuer operative Teams.",
+            alt: "Diagrama piramidal que muestra la jerarquía de métricas de SEO de comercio electrónico: ingresos en la parte superior, métricas de calidad en el medio, métricas de visibilidad en la base",
+            caption: "Liderar informes ejecutivos con métricas de ingresos en la cima de la pirámide. Las métricas de visibilidad, como la tasa de indexación, respaldan la historia, pero no son el titular.",
           },
           callout: {
             title: "Metrik-Auswahl",
-            text: "Ueberfluten Sie Stakeholder nicht mit allen Metriken. Die Geschaeftsleitung will Umsatzwirkung und ROI sehen, Manager brauchen Leistungstrends, und operative Teams brauchen Aktivitaetskennzahlen.",
+            text: "Un aumento del 30% en el tráfico orgánico significa poco si el 25% de ese aumento son consultas de marca de una campaña televisiva. El crecimiento del tráfico orgánico sin marca es la señal más pura de que su programa de SEO se está expandiendo",
           },
         },
         {
@@ -315,7 +313,7 @@ items: [
           tip: "Usa colores consistentes en todos los reportes. Asigna a la busqueda organica un unico color, como verde, y usalo en cada grafico y cada reporte. Con el tiempo, los stakeholders asociaran instantaneamente ese color con el rendimiento organico sin leer la leyenda.",
         },
         {
-          title: "Cadencia de reportes y automatizacion",
+          title: "Cadencia de reportes y automatización",
           content:
             "Los reportes mensuales son la cadencia estandar para SEO de ecommerce. El reporting semanal crea ruido porque la busqueda organica cambia gradualmente y las fluctuaciones diarias en rankings y trafico no son accionables a nivel estrategico. Los reportes trimestrales funcionan para resumenes ejecutivos pero son demasiado infrecuentes para equipos operativos.\n\nAutomatiza tanto de la recoleccion de datos como sea posible. Usa Looker Studio para construir dashboards en vivo que extraigan de GA4, Google Search Console y herramientas SEO de terceros via conectores API.\n\nSin embargo, no dependas solo de dashboards automatizados. La parte mas valiosa de un reporte SEO es el analisis e interpretacion que un humano proporciona. Un dashboard puede mostrar que el trafico organico cayo 15% el mes pasado, pero solo un analista puede explicar que la caida fue causada por una actualizacion del algoritmo de Google.\n\nCrea una plantilla de reporte que incluya secciones de datos automatizadas y secciones de analisis manual. Las secciones de datos extraen directamente de tus dashboards. Las secciones de analisis contienen tu interpretacion de lo que paso, por que importa y que acciones deben seguir.\n\nConfigura alertas automatizadas para cambios significativos. Configura insights personalizados de GA4 para notificarte cuando el trafico organico baje o suba mas alla de un umbral que definas.",
           items: [
@@ -362,12 +360,12 @@ items: [
           tip: "Inviate il riepilogo esecutivo 24 ore prima di qualsiasi riunione. Gli stakeholder che hanno tempo di assimilare i numeri principali faranno domande migliori e si impegneranno piu produttivamente con le vostre analisi dettagliate durante la riunione.",
           image: {
             src: "/images/academy/it/stakeholder-report-structure.svg",
-            alt: "Stakeholder-Berichtsstruktur mit fuenf Abschnitten von der Zusammenfassung bis zum Plan fuer die naechste Periode",
-            caption: "Ein strukturierter Executive-Bericht praesentiert Ergebnisse, Metriken und Plaene in einem klaren Format fuer die Geschaeftsleitung.",
+            alt: "Diagramma che mostra quattro sezioni di un rapporto SEO esecutivo: KPI principali, grafico delle tendenze, share of voice della concorrenza e passaggi successivi con priorità",
+            caption: "Segui questa struttura in quattro sezioni: prima i KPI, poi le tendenze, il contesto competitivo e i prossimi passi attuabili con l'impatto previsto.",
           },
           callout: {
             title: "Berichtslaenge",
-            text: "Die Executive-Zusammenfassung darf maximal eine Seite umfassen. Wenn die Geschaeftsleitung mehr als 60 Sekunden braucht, um die Kernbotschaft zu erfassen, ist der Bericht zu lang. Details gehoeren in Anhaenge.",
+            text: "La prima pagina non dovrebbe contenere più di 4-6 metriche con indicatori direzionali. Se la ricerca organica ha generato $ 420.000 questo mese pari al 34% delle entrate totali con una crescita su base annua del 12%, quel singolo punto dati ha superatoAnhaenge.",
           },
         },
         {
@@ -383,12 +381,12 @@ items: [
           ],
           image: {
             src: "/images/academy/it/seo-metrics-pyramid.svg",
-            alt: "SEO-Metriken-Pyramide mit drei Ebenen: Umsatzwirkung, Leistungsmetriken und Aktivitaetsmetriken",
-            caption: "Berichten Sie nach oben (Umsatzwirkung) fuer die Geschaeftsleitung und nach unten (Aktivitaetsmetriken) fuer operative Teams.",
+            alt: "Diagramma piramidale che mostra la gerarchia delle metriche SEO dell'e-commerce: entrate in alto, metriche di qualità al centro, metriche di visibilità alla base",
+            caption: "Lead report esecutivi con parametri di fatturato nella parte superiore della piramide. Le metriche di visibilità come il tasso di indicizzazione supportano la storia ma non sono il titolo.",
           },
           callout: {
             title: "Metrik-Auswahl",
-            text: "Ueberfluten Sie Stakeholder nicht mit allen Metriken. Die Geschaeftsleitung will Umsatzwirkung und ROI sehen, Manager brauchen Leistungstrends, und operative Teams brauchen Aktivitaetskennzahlen.",
+            text: "Un aumento del 30% del traffico organico significa poco se il 25% di tale aumento è costituito da query brandizzate provenienti da una campagna TV. La crescita del traffico organico non brandizzato è il segnale più puro che il tuo programma SEO si sta espandendo",
           },
         },
         {
@@ -445,12 +443,12 @@ items: [
           tip: "Stuur de executive samenvatting 24 uur voor elke vergadering. Stakeholders die tijd hebben om de hoofdcijfers te verwerken, stellen betere vragen en gaan productiever om met uw gedetailleerde bevindingen tijdens de eigenlijke vergadering.",
           image: {
             src: "/images/academy/nl/stakeholder-report-structure.svg",
-            alt: "Stakeholder-Berichtsstruktur mit fuenf Abschnitten von der Zusammenfassung bis zum Plan fuer die naechste Periode",
-            caption: "Ein strukturierter Executive-Bericht praesentiert Ergebnisse, Metriken und Plaene in einem klaren Format fuer die Geschaeftsleitung.",
+            alt: "Diagram met vier secties van een executive SEO-rapport: hoofd-KPI's, trendgrafiek, concurrentieaandeel en geprioriteerde volgende stappen",
+            caption: "Volg deze vierdelige structuur: eerst KPI's, dan trends, concurrentiecontext en bruikbare volgende stappen met verwachte impact.",
           },
           callout: {
             title: "Berichtslaenge",
-            text: "Die Executive-Zusammenfassung darf maximal eine Seite umfassen. Wenn die Geschaeftsleitung mehr als 60 Sekunden braucht, um die Kernbotschaft zu erfassen, ist der Bericht zu lang. Details gehoeren in Anhaenge.",
+            text: "De eerste pagina mag niet meer dan 4-6 statistieken met richtingsindicatoren bevatten. Als de organische zoekresultaten deze maand $420.000 opleverden, goed voor 34% van de totale omzet en een groei van 12% op jaarbasis, zou dat ene datapunt beter presterenAnhaenge.",
           },
         },
         {
@@ -466,12 +464,12 @@ items: [
           ],
           image: {
             src: "/images/academy/nl/seo-metrics-pyramid.svg",
-            alt: "SEO-Metriken-Pyramide mit drei Ebenen: Umsatzwirkung, Leistungsmetriken und Aktivitaetsmetriken",
-            caption: "Berichten Sie nach oben (Umsatzwirkung) fuer die Geschaeftsleitung und nach unten (Aktivitaetsmetriken) fuer operative Teams.",
+            alt: "Piramidediagram met de hiërarchie van SEO-statistieken voor e-commerce: omzet bovenaan, kwaliteitsstatistieken in het midden, zichtbaarheidsstatistieken aan de basis",
+            caption: "Leid managementrapporten met omzetstatistieken bovenaan de piramide. Zichtbaarheidscijfers zoals het indexeringspercentage ondersteunen het verhaal, maar zijn niet de kop.",
           },
           callout: {
             title: "Metrik-Auswahl",
-            text: "Ueberfluten Sie Stakeholder nicht mit allen Metriken. Die Geschaeftsleitung will Umsatzwirkung und ROI sehen, Manager brauchen Leistungstrends, und operative Teams brauchen Aktivitaetskennzahlen.",
+            text: "Een toename van 30% in organisch verkeer betekent weinig als 25% van die toename bestaat uit merkquery's van een tv-campagne. Niet-merkgebonden organische verkeersgroei is het zuiverste signaal dat uw SEO-programma zich uitbreidt",
           },
         },
         {

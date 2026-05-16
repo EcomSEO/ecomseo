@@ -224,12 +224,11 @@ items: [
     fr: {
       badge: "SEO avance",
       heading: "Analyse des fichiers de logs",
-      intro:
-        "Les fichiers de logs serveur sont la seule source de verite sur la facon dont les robots des moteurs de recherche interagissent reellement avec votre site e-commerce. Alors que des outils comme [Google Search Console](/academy/google-search-console-for-stores) fournissent des resumes agreges, les donnees brutes des logs revelent exactement quelles URLs Googlebot demande, a quelle frequence il revient, quelles pages il ignore entierement et ou votre budget de crawl est gaspille. Pour les grands catalogues e-commerce, l'analyse des fichiers de logs fait la difference entre deviner les problemes de crawl et les diagnostiquer avec precision. Alors que des outils comme Google Search Console fournissent des résumés agrégés, les données brutes des logs révèlent exactement quelles URLs Googlebot demande, à quelle fréquence il revient, quelles pages il ignore complètement et où votre [budget de crawl](/academy/crawl-budget-management) est gaspillé.",
+      intro: "Les fichiers de logs serveur sont la seule source de verite sur la façon dont les robots des moteurs de recherche interagissent reellement avec votre site e-commerce. Alors que des outils comme [Google Search Console](/academy/google-search-console-for-stores) fournissent des resumes agreges, les données brutes des logs revelent exactement quelles URLs Googlebot demande, a quelle fréquence il revient, quelles pages il ignore entierement et ou votre budget de crawl est gaspille. Pour les grands catalogues e-commerce, l'analyse des fichiers de logs fait la difference entre deviner les problemes de crawl et les diagnostiquer avec precision. Alors que des outils comme Google Search Console fournissent des résumés agrégés, les données brutes des logs révèlent exactement quelles URLs Googlebot demande, à quelle fréquence il revient, quelles pages il ignore complètement et où votre [budget de crawl](/academy/crawl-budget-management) est gaspillé.",
       readTime: "12 min de lecture",
       sections: [
         {
-          title: "Comprendre les donnees de logs serveur pour le SEO",
+          title: "Comprendre les données de logs serveur pour le SEO",
           content:
             "Chaque fois qu'un robot de moteur de recherche demande une page a votre serveur, le serveur web enregistre une entree de log contenant l'adresse IP, la chaine user agent, l'URL demandee, le code de reponse HTTP, la taille de la reponse, l'horodatage et le referrer. Pour le SEO, les champs critiques sont le user agent, l'URL demandee, le code de statut retourne et l'horodatage.\n\nGooglebot s'identifie par plusieurs chaines user agent qui distinguent entre le rendu desktop, le rendu mobile, le crawl d'images, AdsBot et d'autres crawlers specialises. Le filtrage des logs pour les seules requetes Googlebot necessite la correspondance avec tous les modeles de user agent Googlebot connus. Verifiez l'identite de Googlebot en croisant les adresses IP avec les plages ASN publiees par Google.\n\nLes fichiers de logs sont generalement stockes en Common Log Format (CLF) ou Combined Log Format. Si votre plateforme e-commerce fonctionne derriere un CDN, vous devrez peut-etre configurer le CDN pour transmettre les vraies adresses IP des clients.\n\nPour les boutiques e-commerce avec un volume de trafic important, les fichiers de logs bruts peuvent atteindre des gigaoctets par jour. L'analyse efficace necessite des outils specialises ou un pipeline de donnees qui ingere les logs dans une base de donnees interrogeable comme BigQuery ou Elasticsearch.",
           items: [
@@ -252,12 +251,12 @@ items: [
           ],
           image: {
             src: "/images/academy/fr/crawl-budget-allocation-chart.svg",
-            alt: "Crawl-Budget-Verteilung: Ideale vs. typische Verteilung auf Produktseiten, Kategorien, Filter und Blog",
-            caption: "In den meisten Shops wird 50% des Crawl-Budgets an Filter verschwendet. Blockieren Sie nicht-essentielle Filter fuer bessere Verteilung.",
+            alt: "Graphique à barres montrant l'allocation du budget d'exploration avec 60 % gaspillés sur des URL de navigation à facettes tandis que seulement 15 % atteignent les pages de produits",
+            caption: "Si 60 % des requêtes Googlebot ciblent la navigation à facettes alors que seulement 15 % atteignent les pages de produits, vous rencontrez un grave problème de budget d'exploration qui nécessite une correction immédiate.",
           },
           callout: {
             title: "Crawl-Verschwendung",
-            text: "Typische E-Commerce-Shops verschwenden 40-60% ihres Crawl-Budgets an gefilterte URLs, die keinen Suchtraffic generieren. Log-File-Analyse deckt auf, wo Googlebot seine Zeit tatsaechlich verbringt.",
+            text: "Segmentez les requêtes Googlebot par modèle d'URL pour identifier où le budget est dépensé. Bloquez les combinaisons de filtres de faible valeur dans robots.txt et utilisez des balises canoniques pour rediriger l'attention de l'analyse vers le produit indexable.",
           },
         },
         {
@@ -273,12 +272,12 @@ items: [
           tip: "Exportez votre liste de pages orphelines et croisez-la avec Google Analytics ou les donnees de vente de votre plateforme e-commerce. Les pages orphelines avec un historique de conversion prouve representent des opportunites immediates de recuperation de revenus une fois qu'elles retrouvent la visibilite par un maillage interne correct.",
           image: {
             src: "/images/academy/fr/crawl-waste-orphan-pages.svg",
-            alt: "Crawl-Verschwendung und verwaiste Seiten erkennen durch Abgleich von Server-Logs mit Crawl-Daten",
-            caption: "Der Abgleich von Server-Logs mit Crawl-Tool-Ergebnissen deckt verwaiste Seiten und verschwendetes Crawl-Budget auf.",
+            alt: "Diagramme de comparaison montrant le gaspillage d'exploration des ID de session et des filtres par rapport aux pages orphelines dues à des liens rompus et à une pagination profonde",
+            caption: "Comparez votre base de données de produits aux données d'exploration des journaux de 90 jours pour trouver les pages orphelines. Un site de commerce électronique sain doit viser un taux d'exploration productif de 70 à 80 %.",
           },
           callout: {
             title: "Verwaiste Seiten",
-            text: "Verwaiste Seiten (ohne interne Links) werden von Google selten gecrawlt und ranken fast nie. Finden Sie sie durch Log-Analyse und fuegen Sie interne Links hinzu oder entfernen Sie sie aus dem Index.",
+            text: "Les pages orphelines avec un historique de conversion éprouvé représentent des opportunités immédiates de récupération de revenus. Croisez les URL orphelines avec les données de vente pour prioriser les pages à reconnecter via un lien interne",
           },
         },
         {
@@ -293,7 +292,7 @@ items: [
           ],
         },
         {
-          title: "Analyse des modeles et du timing de crawl",
+          title: "Analyse des modèles et du timing de crawl",
           content:
             "Analyser quand Googlebot crawle votre site revele des modeles qui informent la planification de la capacite serveur, les strategies de fraicheur du contenu et l'optimisation du sitemap. Tracez les requetes Googlebot dans le temps pour identifier les pics et creux d'activite de crawl sur les heures, les jours et les patterns saisonniers.\n\nLa plupart des sites e-commerce voient l'activite Googlebot repartie sur la journee mais souvent avec une intensite plus elevee pendant les heures creuses quand les temps de reponse du serveur sont les plus rapides.\n\nApres avoir soumis un sitemap XML mis a jour via la Search Console, surveillez les fichiers de logs pour mesurer la rapidite avec laquelle Googlebot commence a demander les nouvelles URLs. Le delai entre la soumission du sitemap et le crawl reel donne un apercu de la priorisation de Google pour votre domaine.\n\nSuivez la profondeur de crawl que Googlebot atteint dans la hierarchie de votre site. Analysez la profondeur du chemin URL des pages crawlees pour determiner si Googlebot atteint vos pages produit les plus profondes ou s'arrete aux categories de niveau superieur.\n\nComparez les modeles de crawl avant et apres les changements majeurs du site. Les changements de volume de crawl apres un changement technique confirment si la modification a eu l'effet souhaite.",
           items: [
@@ -331,9 +330,8 @@ items: [
     },
     es: {
       badge: "SEO avanzado",
-      heading: "Analisis de archivos de registro",
-      intro:
-        "Los archivos de registro del servidor son la unica fuente de verdad sobre como los rastreadores de motores de busqueda interactuan realmente con su sitio de ecommerce. Mientras que herramientas como Google Search Console proporcionan resumenes agregados, los datos brutos de registro revelan exactamente que URLs solicita Googlebot, con que frecuencia regresa, que paginas ignora por completo y donde se desperdicia su presupuesto de rastreo. Para grandes catalogos de ecommerce, el analisis de archivos de registro es la diferencia entre adivinar los problemas de rastreo y diagnosticarlos con precision.",
+      heading: "Análisis de archivos de registro",
+      intro: "Los archivos de registro del servidor son la unica fuente de verdad sobre como los rastreadores de motores de busqueda interactuan realmente con su sitio de ecommerce. Mientras que herramientas como Google Search Console proporcionan resumenes agregados, los datos brutos de registro revelan exactamente que URLs solicita Googlebot, con que frecuencia regresa, que páginas ignora por completo y donde se desperdicia su presupuesto de rastreo. Para grandes catálogos de ecommerce, el análisis de archivos de registro es la diferencia entre adivinar los problemas de rastreo y diagnosticarlos con precision.",
       readTime: "12 min de lectura",
       sections: [
         {
@@ -349,7 +347,7 @@ items: [
           tip: "Configure un flujo de registros separado dedicado al trafico de bots que filtre los visitantes humanos a nivel del servidor. Esto reduce drasticamente el volumen de datos a procesar y hace que el analisis del comportamiento de Googlebot sea mas rapido y enfocado.",
         },
         {
-          title: "Analisis de presupuesto de rastreo para catalogos de productos",
+          title: "Análisis de presupuesto de rastreo para catálogos de productos",
           content:
             "El [presupuesto de rastreo](/academy/crawl-budget-management) es el numero de paginas que Google rastreara en su sitio dentro de un periodo dado. Para sitios pequenos, el presupuesto de rastreo rara vez es un problema. Pero las tiendas de ecommerce con decenas de miles de paginas de producto, multiples jerarquias de categorias y navegacion facetada pueden facilmente agotar su presupuesto en URLs de bajo valor.\n\nEl analisis de archivos de registro revela su asignacion real de presupuesto de rastreo. Calcule el numero total de solicitudes de Googlebot por dia, luego segmente esas solicitudes por patron de URL. Los patrones comunes incluyen paginas de detalle de producto, paginas de categoria, paginas de resultados de busqueda, URLs de navegacion facetada, paginas paginadas y activos estaticos.\n\nLa proporcion de asignacion de rastreo deberia coincidir aproximadamente con sus prioridades de indexacion. Si el 60% de las solicitudes de Googlebot se dirigen a URLs de navegacion facetada con contenido duplicado y delgado, tiene un problema severo de presupuesto de rastreo.\n\nCalcule la frecuencia de rastreo para sus paginas mas importantes. Si las paginas de producto principales solo se rastrean cada 30 dias mientras los productos agotados reciben visitas diarias, su estructura de enlaces internos esta enviando las senales equivocadas.\n\nRastree las tendencias del presupuesto de rastreo a lo largo del tiempo. Una tasa de rastreo decreciente a menudo senala deterioro de la salud del sitio.",
           items: [
@@ -360,16 +358,16 @@ items: [
           ],
           image: {
             src: "/images/academy/es/crawl-budget-allocation-chart.svg",
-            alt: "Crawl-Budget-Verteilung: Ideale vs. typische Verteilung auf Produktseiten, Kategorien, Filter und Blog",
-            caption: "In den meisten Shops wird 50% des Crawl-Budgets an Filter verschwendet. Blockieren Sie nicht-essentielle Filter fuer bessere Verteilung.",
+            alt: "Gráfico de barras que muestra la asignación del presupuesto de rastreo: el 60 por ciento se desperdicia en URL de navegación por facetas, mientras que solo el 15 por ciento llega a las páginas de productos.",
+            caption: "Si el 60% de las solicitudes del robot de Google se dirigen a la navegación por facetas, mientras que solo el 15% llega a las páginas de productos, tiene un grave problema de presupuesto de rastreo que necesita una corrección inmediata.",
           },
           callout: {
             title: "Crawl-Verschwendung",
-            text: "Typische E-Commerce-Shops verschwenden 40-60% ihres Crawl-Budgets an gefilterte URLs, die keinen Suchtraffic generieren. Log-File-Analyse deckt auf, wo Googlebot seine Zeit tatsaechlich verbringt.",
+            text: "Segmente las solicitudes del robot de Google por patrón de URL para identificar dónde se gasta el presupuesto. Bloquee combinaciones de filtros de bajo valor en robots.txt y utilice etiquetas canónicas para redirigir la atención del rastreo a productos indexables.",
           },
         },
         {
-          title: "Identificar desperdicio de rastreo y paginas huerfanas",
+          title: "Identificar desperdicio de rastreo y páginas huerfanas",
           content:
             "El desperdicio de rastreo ocurre cuando Googlebot gasta tiempo y recursos solicitando URLs sin valor SEO. En tiendas de ecommerce, las fuentes comunes incluyen parametros de ID de sesion, paginas de resultados de busqueda interna, combinaciones de parametros de ordenamiento y filtrado, y paginas de carrito y pago.\n\nEl analisis de archivos de registro cuantifica exactamente cuanto presupuesto de rastreo consume cada categoria de desperdicio. Cruce sus datos de registro con su indice deseado comparando las URLs que Googlebot solicita con su sitemap XML y el informe de cobertura de indice de Search Console.\n\nLas paginas huerfanas son el problema opuesto: paginas que existen y deberian ser indexadas pero nunca reciben una sola solicitud de Googlebot. Para encontrar paginas huerfanas, compare la lista completa de URLs de productos de su base de datos con las URLs que aparecen en sus archivos de registro en un periodo de 90 dias.\n\nLas paginas huerfanas en ecommerce tipicamente surgen de enlaces internos rotos, paginacion profunda que Googlebot no alcanza, o productos recientemente anadidos que aun no estan enlazados desde paginas de categoria.\n\nCree un panel sistematico de salud de rastreo que rastree la proporcion de rastreos productivos versus rastreos desperdiciados. Un sitio de ecommerce saludable deberia apuntar a al menos 70-80% de ratio de rastreo productivo.",
           items: [
@@ -381,16 +379,16 @@ items: [
           tip: "Exporte su lista de paginas huerfanas y crucela con Google Analytics o los datos de ventas de su plataforma de ecommerce. Las paginas huerfanas con historial de conversion probado representan oportunidades inmediatas de recuperacion de ingresos una vez que recuperen la visibilidad de busqueda mediante enlaces internos correctos.",
           image: {
             src: "/images/academy/es/crawl-waste-orphan-pages.svg",
-            alt: "Crawl-Verschwendung und verwaiste Seiten erkennen durch Abgleich von Server-Logs mit Crawl-Daten",
-            caption: "Der Abgleich von Server-Logs mit Crawl-Tool-Ergebnissen deckt verwaiste Seiten und verschwendetes Crawl-Budget auf.",
+            alt: "Diagrama de comparación que muestra el desperdicio de rastreo de ID de sesión y filtros versus páginas huérfanas de enlaces rotos y paginación profunda",
+            caption: "Compare la base de datos de su producto con los datos de rastreo de registros de 90 días para encontrar páginas huérfanas. Un sitio de comercio electrónico saludable debe apuntar a una tasa de rastreo productiva del 70-80%.",
           },
           callout: {
             title: "Verwaiste Seiten",
-            text: "Verwaiste Seiten (ohne interne Links) werden von Google selten gecrawlt und ranken fast nie. Finden Sie sie durch Log-Analyse und fuegen Sie interne Links hinzu oder entfernen Sie sie aus dem Index.",
+            text: "Las páginas huérfanas con un historial de conversiones comprobado representan oportunidades inmediatas de recuperación de ingresos. Haga una referencia cruzada de las URL huérfanas con datos de ventas para priorizar qué páginas volver a conectar a través del enlace interno.",
           },
         },
         {
-          title: "Analisis de codigos de estado y deteccion de errores",
+          title: "Análisis de codigos de estado y deteccion de errores",
           content:
             "Los codigos de estado HTTP en los archivos de registro revelan la salud de su estructura de URL desde la perspectiva de Google. Cada solicitud de Googlebot que retorna un codigo de estado no-200 representa una oportunidad de indexacion perdida o presupuesto de rastreo desperdiciado.\n\nLas cadenas de redireccion 301 y 302 son comunes en tiendas de ecommerce que frecuentemente cambian estructuras de URL o migran de plataforma. El analisis de registros revela cuantas solicitudes de Googlebot encuentran cadenas de redireccion y la profundidad de esas cadenas. Identifique URLs donde Googlebot encuentra mas de un salto de redireccion y aplane esas cadenas.\n\nLos errores 404 de Googlebot indican URLs que alguna vez fueron validas pero ahora retornan respuestas de no encontrado. En ecommerce, esto ocurre tipicamente cuando los productos se descontinuan o las categorias se reorganizan sin implementar redirecciones.\n\nLos errores de servidor 5xx son los codigos de estado mas daninos para SEO. Activan la reduccion de la tasa de rastreo. El analisis de registros puede revelar si los errores 5xx correlacionan con patrones de URL especificos, periodos horarios o picos de trafico.\n\nLas paginas soft 404, donde el servidor retorna un codigo 200 pero el contenido de la pagina indica que el producto no esta disponible, son mas dificiles de detectar solo en registros. Combine el analisis de registros con datos de rastreo para identificarlas. Los errores de servidor 5xx son los codigos de estado mas daninos para el SEO y representan una preocupacion central del [SEO tecnico](/blog/technical-seo-for-ecommerce).",
           items: [
@@ -401,7 +399,7 @@ items: [
           ],
         },
         {
-          title: "Analisis de patrones y tiempos de rastreo",
+          title: "Análisis de patrones y tiempos de rastreo",
           content:
             "Analizar cuando Googlebot rastrea su sitio revela patrones que informan la planificacion de capacidad del servidor, las estrategias de frescura de contenido y la optimizacion del sitemap. Grafique las solicitudes de Googlebot en el tiempo para identificar picos y valles de actividad de rastreo a lo largo de las horas del dia, los dias de la semana y patrones estacionales.\n\nLa mayoria de los sitios de ecommerce ven actividad de Googlebot distribuida durante el dia pero a menudo con mayor intensidad durante las horas de menor actividad cuando los tiempos de respuesta del servidor son mas rapidos.\n\nDespues de enviar un sitemap XML actualizado a traves de Search Console, monitoree los archivos de registro para medir la rapidez con que Googlebot comienza a solicitar las nuevas URLs. El retraso entre el envio del sitemap y el rastreo real proporciona informacion sobre la priorizacion de Google para su dominio.\n\nRastree la profundidad de rastreo que Googlebot alcanza en la jerarquia de su sitio. Analice la profundidad de ruta URL de las paginas rastreadas para determinar si Googlebot alcanza sus paginas de producto mas profundas o se detiene en categorias de nivel superior.\n\nCompare patrones de rastreo antes y despues de cambios importantes del sitio. Los cambios en el volumen de rastreo despues de un cambio tecnico confirman si la modificacion tuvo el efecto deseado.",
           items: [
@@ -412,7 +410,7 @@ items: [
           ],
         },
         {
-          title: "Configurar un pipeline de analisis de registros",
+          title: "Configurar un pipeline de análisis de registros",
           content:
             "Construir una practica sostenible de analisis de registros requiere un pipeline que recopile, procese y visualice automaticamente los datos de registro. Para la mayoria de los equipos de ecommerce, el objetivo es un sistema que proporcione informes diarios o semanales de salud de rastreo con alertas para anomalias.\n\nComience determinando donde se generan sus registros y como acceder a ellos. Si usa alojamiento gestionado o una plataforma como Shopify, el acceso a registros puede ser limitado. Para tiendas auto-alojadas, configure su servidor web para transmitir registros a una ubicacion de almacenamiento centralizada.\n\nPara el analisis, elija entre herramientas comerciales y pipelines personalizados. Las herramientas comerciales como Botify, JetOctopus o Screaming Frog Log Analyzer ofrecen paneles pre-construidos enfocados en SEO. Los pipelines personalizados con BigQuery o Elasticsearch ofrecen mas flexibilidad.\n\nEstablezca metricas de referencia: volumen diario de solicitudes de Googlebot, ratio de rastreo productivo, distribucion de frecuencia de rastreo por tipo de pagina, tasa de errores por codigo de estado y tiempo de respuesta promedio. Configure alertas automatizadas para desviaciones de estas referencias.\n\nIntegre los datos de analisis de registros con sus otras fuentes de datos SEO. La combinacion de la frecuencia de rastreo de los registros con datos de impresiones de [Search Console](/academy/google-search-console-for-stores) y datos de trafico de Analytics crea una imagen completa.",
           items: [
@@ -468,12 +466,12 @@ items: [
           ],
           image: {
             src: "/images/academy/it/crawl-budget-allocation-chart.svg",
-            alt: "Crawl-Budget-Verteilung: Ideale vs. typische Verteilung auf Produktseiten, Kategorien, Filter und Blog",
-            caption: "In den meisten Shops wird 50% des Crawl-Budgets an Filter verschwendet. Blockieren Sie nicht-essentielle Filter fuer bessere Verteilung.",
+            alt: "Grafico a barre che mostra l'allocazione del budget per la scansione con il 60% sprecato negli URL di navigazione a faccette mentre solo il 15% raggiunge le pagine dei prodotti",
+            caption: "Se il 60% delle richieste di Googlebot ha come target la navigazione a faccette mentre solo il 15% raggiunge le pagine dei prodotti, hai un grave problema di budget di scansione che richiede una correzione immediata.",
           },
           callout: {
             title: "Crawl-Verschwendung",
-            text: "Typische E-Commerce-Shops verschwenden 40-60% ihres Crawl-Budgets an gefilterte URLs, die keinen Suchtraffic generieren. Log-File-Analyse deckt auf, wo Googlebot seine Zeit tatsaechlich verbringt.",
+            text: "Segmenta le richieste di Googlebot in base al pattern URL per identificare dove viene speso il budget. Blocca le combinazioni di filtri di basso valore nel file robots.txt e utilizza i tag canonici per reindirizzare l'attenzione della scansione al prodotto indicizzabile p",
           },
         },
         {
@@ -489,12 +487,12 @@ items: [
           tip: "Esportate la vostra lista di pagine orfane e incrociatela con Google Analytics o i dati di vendita della vostra piattaforma ecommerce. Le pagine orfane con un comprovato storico di conversione rappresentano opportunita immediate di recupero del fatturato una volta che riacquistano visibilita nei risultati di ricerca tramite link interni corretti.",
           image: {
             src: "/images/academy/it/crawl-waste-orphan-pages.svg",
-            alt: "Crawl-Verschwendung und verwaiste Seiten erkennen durch Abgleich von Server-Logs mit Crawl-Daten",
-            caption: "Der Abgleich von Server-Logs mit Crawl-Tool-Ergebnissen deckt verwaiste Seiten und verschwendetes Crawl-Budget auf.",
+            alt: "Diagramma comparativo che mostra gli sprechi di scansione derivanti da ID e filtri di sessione rispetto alle pagine orfane dovute a collegamenti interrotti e impaginazione profonda",
+            caption: "Confronta il database dei tuoi prodotti con i dati di scansione dei log di 90 giorni per trovare le pagine orfane. Un sito di e-commerce sano dovrebbe mirare a un rapporto di scansione produttivo del 70-80%.",
           },
           callout: {
             title: "Verwaiste Seiten",
-            text: "Verwaiste Seiten (ohne interne Links) werden von Google selten gecrawlt und ranken fast nie. Finden Sie sie durch Log-Analyse und fuegen Sie interne Links hinzu oder entfernen Sie sie aus dem Index.",
+            text: "Le pagine orfane con una cronologia di conversioni comprovata rappresentano opportunità di recupero immediato delle entrate. Riferimenti incrociati agli URL orfani con i dati di vendita per stabilire la priorità a quali pagine riconnettersi tramite collegamento interno",
           },
         },
         {
@@ -576,12 +574,12 @@ items: [
           ],
           image: {
             src: "/images/academy/nl/crawl-budget-allocation-chart.svg",
-            alt: "Crawl-Budget-Verteilung: Ideale vs. typische Verteilung auf Produktseiten, Kategorien, Filter und Blog",
-            caption: "In den meisten Shops wird 50% des Crawl-Budgets an Filter verschwendet. Blockieren Sie nicht-essentielle Filter fuer bessere Verteilung.",
+            alt: "Staafdiagram waarin de toewijzing van crawlbudget wordt weergegeven, waarbij 60 procent wordt verspild aan gefacetteerde navigatie-URL's, terwijl slechts 15 procent de productpagina's bereikt",
+            caption: "Als 60% van de Googlebots target-facetnavigatie aanvraagt, terwijl slechts 15% de productpagina's bereikt, heeft u een ernstig crawlbudgetprobleem dat onmiddellijk moet worden verholpen.",
           },
           callout: {
             title: "Crawl-Verschwendung",
-            text: "Typische E-Commerce-Shops verschwenden 40-60% ihres Crawl-Budgets an gefilterte URLs, die keinen Suchtraffic generieren. Log-File-Analyse deckt auf, wo Googlebot seine Zeit tatsaechlich verbringt.",
+            text: "Segmenteer Googlebot-verzoeken op URL-patroon om te identificeren waar het budget wordt uitgegeven. Blokkeer filtercombinaties met lage waarden in robots.txt en gebruik canonieke tags om de crawl-aandacht om te leiden naar indexeerbare productp",
           },
         },
         {
@@ -597,12 +595,12 @@ items: [
           tip: "Exporteer uw lijst met weespagina's en kruisverwijz deze met Google Analytics of de verkoopgegevens van uw e-commerceplatform. Weespagina's met bewezen conversiegeschiedenis vertegenwoordigen directe omzetherstelmogelijkheden zodra ze zoekzichtbaarheid herwinnen door correcte interne linking.",
           image: {
             src: "/images/academy/nl/crawl-waste-orphan-pages.svg",
-            alt: "Crawl-Verschwendung und verwaiste Seiten erkennen durch Abgleich von Server-Logs mit Crawl-Daten",
-            caption: "Der Abgleich von Server-Logs mit Crawl-Tool-Ergebnissen deckt verwaiste Seiten und verschwendetes Crawl-Budget auf.",
+            alt: "Vergelijkingsdiagram dat crawlverspilling van sessie-ID's en filters toont versus weespagina's van verbroken links en diepe paginering",
+            caption: "Vergelijk uw productdatabase met logcrawlgegevens van 90 dagen om verweesde pagina's te vinden. Een gezonde e-commercesite moet zich richten op een productieve crawlratio van 70-80%.",
           },
           callout: {
             title: "Verwaiste Seiten",
-            text: "Verwaiste Seiten (ohne interne Links) werden von Google selten gecrawlt und ranken fast nie. Finden Sie sie durch Log-Analyse und fuegen Sie interne Links hinzu oder entfernen Sie sie aus dem Index.",
+            text: "Weespagina's met een bewezen conversiegeschiedenis bieden mogelijkheden voor onmiddellijk herstel van inkomsten. Vergelijk wees-URL's met verkoopgegevens om te bepalen welke pagina's opnieuw moeten worden verbonden via een interne link",
           },
         },
         {

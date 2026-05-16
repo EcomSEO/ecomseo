@@ -156,14 +156,13 @@ export const keywordResearchForEcommerce: AcademyTopic = {
       },
     },
     fr: {
-      badge: "Recherche de mots-cles",
-      heading: "Recherche de mots-cles pour le e-commerce",
-      intro:
-        "La [recherche de mots-cles](/keyword-research) pour les boutiques en ligne suit une logique fondamentalement differente de celle des blogs ou sites media. Au lieu de courir apres le volume de recherche, nous partons des donnees de chiffre d'affaires et remontons pour identifier les termes qui generent reellement des ventes.",
+      badge: "Recherche de mots-clés",
+      heading: "Recherche de mots-clés pour le e-commerce",
+      intro: "La [recherche de mots-clés](/keyword-research) pour les boutiques en ligne suit une logique fondamentalement differente de celle des blogs ou sites media. Au lieu de courir après le volume de recherche, nous partons des données de chiffre d'affaires et remontons pour identifier les termes qui generent reellement des ventes.",
       readTime: "9 min de lecture",
       sections: [
         {
-          title: "Pourquoi la recherche de mots-cles e-commerce est differente",
+          title: "Pourquoi la recherche de mots-clés e-commerce est differente",
           content:
             "Les sites de contenu monetisent l'attention. Ils ont besoin de visiteurs, donc le volume est roi. Une boutique en ligne monetise les transactions. Un mot-cle qui amene 50 visiteurs qui achetent vaut plus qu'un qui en amene 5 000 qui rebondissent. Cette distinction change tout dans la priorisation.\n\nLa plupart des guides de recherche de mots-cles recommandent de commencer par une liste de base, de l'enrichir avec un outil, puis de filtrer par volume et difficulte. Ce workflow a du sens pour un blog. Pour une boutique, il mene directement vers des termes informationnels qui remplissent vos analytics de trafic qui ne convertit jamais.\n\nLe workflow de recherche de mots-cles e-commerce commence par vos propres donnees de transactions. Quels produits se vendent ? Que tapent les clients dans votre recherche interne ? Quelles landing pages convertissent deja ? A partir de la, on s'etend vers des termes adjacents et des opportunites inexploitees. Pour un aperçu plus large de ce sujet, consultez notre guide sur les [mots-clés SEO e-commerce](/blog/ecommerce-seo-keywords).",
           items: [
@@ -173,7 +172,7 @@ export const keywordResearchForEcommerce: AcademyTopic = {
           ],
           callout: {
             title: "Die 15/70-Regel",
-            text: "In einem typischen Shop mit 200+ Produkten generieren 15-20\u00a0% der Seiten 70-80\u00a0% des organischen Umsatzes.",
+            text: "Dans un magasin typique proposant plus de 200 produits, 15 à 20 % des pages génèrent 70 à 80 % des revenus organiques. Identifiez d'abord ces pages et construisez votre stratégie de mots clés à partir de ce noyau éprouvé.",
           },
         },
         {
@@ -183,7 +182,7 @@ export const keywordResearchForEcommerce: AcademyTopic = {
           tip: "Creez un tableur simple avec des colonnes pour l'URL, le mot-cle principal, les recherches mensuelles, le classement actuel et le revenu mensuel. Cela devient votre centre de commande de mots-cles et vous empeche de vous perdre dans les donnees des outils.",
         },
         {
-          title: "Le workflow de recherche de mots-cles e-commerce",
+          title: "Le workflow de recherche de mots-clés e-commerce",
           content:
             "Etape une : auditez votre performance organique existante. Tirez toutes les pages avec du trafic organique de la GSC et taguez chacune comme produit, categorie, blog ou autre. Calculez le revenu par session organique pour chaque type de page.\n\nEtape deux : construisez votre liste de base a partir de trois sources, vos donnees de recherche interne, votre rapport de requetes GSC et les exports de mots-cles concurrents. Dedupliquez et taguez chaque mot-cle avec son type de page probable (page produit, page categorie ou page de contenu).\n\nEtape trois : elargissez votre liste de base avec des outils de mots-cles. Pour chaque terme de base, tirez les termes associes, les questions et les variantes longue traine. Mais filtrez sans pitie, ne gardez que les termes avec une intention commerciale ou transactionnelle claire.\n\nEtape quatre : priorisez. Evaluez chaque mot-cle sur trois axes : potentiel de revenus (volume de recherche multiplie par le taux de conversion estime multiplie par le panier moyen), position actuelle et lacune de contenu (avez-vous une page pour ce terme ou non). Les mots-cles avec les meilleurs scores sur les trois axes sont traites en premier. Dédupliquez et taguez chaque mot-clé avec son type de page probable (les [mots-clés produit vs catégorie](/academy/product-vs-category-keywords) sont couverts dans notre prochain sujet).",
           items: [
@@ -195,15 +194,15 @@ export const keywordResearchForEcommerce: AcademyTopic = {
           image: {
             src: "/images/academy/fr/ecommerce-kw-research-workflow.svg",
             alt: "Flussdiagramm des vierstufigen Ecommerce Keyword-Recherche-Workflows",
-            caption: "Der vierstufige Workflow beginnt mit Umsatzdaten und endet mit einer priorisierten Keyword-Liste.",
+            caption: "Le flux de travail en quatre étapes commence par les données sur les revenus et se termine par une liste de mots clés classés par priorité en fonction du potentiel de revenus, et pas seulement du volume de recherche.",
           },
           callout: {
             title: "Umsatz-Score-Formel",
-            text: "Volumen x CTR x Conversion-Rate x AOV = Umsatzpotenzial. Ein Keyword mit 500 Suchen und 5\u00a0% Conversion bei 80\u00a0EUR AOV schl\u00e4gt eines mit 10.000 Suchen und 0,2\u00a0% Conversion.",
+            text: "Volume x CTR x Taux de conversion x AOV = Potentiel de revenus. Un mot clé avec 500 recherches et 5 % de conversion à 80 $ AOV bat de 2x celui avec 10 000 recherches et 0,2 % de conversion avec le même AOV.",
           },
         },
         {
-          title: "Outils et sources de donnees",
+          title: "Outils et sources de données",
           content:
             "Google Search Console est votre outil de mots-cles le plus sous-estime. Il vous montre exactement quelles requetes Google associe a vos pages, vos taux de clics et votre position dans les classements. Aucun outil tiers n'offre ce niveau de precision pour votre propre site.\n\nAhrefs et Semrush fournissent tous deux des bases de donnees de mots-cles avec des estimations de volume, des scores de difficulte et des donnees concurrentielles. Pour le e-commerce, leurs fonctionnalites de keyword gap sont particulierement utiles, elles vous montrent exactement quels termes vos concurrents couvrent et que vous manquez completement.\n\nGoogle Keyword Planner reste utile pour les estimations de volume, surtout pour les termes specifiques aux produits que les outils tiers ratent parfois. Ses donnees proviennent directement de Google Ads, donc les mots-cles commerciaux tendent a avoir des chiffres de volume plus precis.\n\nN'oubliez pas Amazon Autocomplete et les donnees de recherche Amazon si vous vendez aussi sur les places de marche. Les termes de recherche Amazon sont de l'[intention d'achat](/academy/buyer-intent-vs-search-volume) pure, les gens qui cherchent sur Amazon sont prets a acheter. Des outils comme Helium 10 ou Jungle Scout peuvent extraire ces donnees.",
           tip: "Passez vos 50 principaux noms de produits dans Amazon Autocomplete. Les suggestions revelent des modificateurs d'achat specifiques (tailles, couleurs, cas d'usage) que les outils de mots-cles Google ratent souvent.",
@@ -220,7 +219,7 @@ export const keywordResearchForEcommerce: AcademyTopic = {
           ],
         },
         {
-          title: "Construire votre premier sprint de recherche de mots-cles",
+          title: "Construire votre premier sprint de recherche de mots-clés",
           content:
             "Nous recommandons un sprint concentre de deux semaines pour construire votre carte de mots-cles initiale. La premiere semaine couvre la collecte de donnees : tirer les donnees GSC, exporter les mots-cles concurrents, rassembler les requetes de recherche interne et passer vos termes de base dans Ahrefs ou Semrush.\n\nLa deuxieme semaine se concentre sur l'analyse et le mapping. Clusterisez vos mots-cles par theme, assignez chaque cluster a un type de page, identifiez les lacunes dans votre structure de site actuelle et priorisez les 20-30 cibles de mots-cles qui genereront le plus de revenus.\n\nA la fin de ce sprint, vous devriez avoir une carte de mots-cles fonctionnelle couvrant vos principales categories et produits, une liste priorisee de lacunes de contenu a combler et un calendrier de revue trimestriel pour maintenir la carte a jour. Ce document devient la base de chaque decision SEO que vous prendrez par la suite.",
         },
@@ -232,13 +231,12 @@ export const keywordResearchForEcommerce: AcademyTopic = {
     },
     es: {
       badge: "Investigacion de palabras clave",
-      heading: "Investigacion de palabras clave para ecommerce",
-      intro:
-        "La investigacion de palabras clave para tiendas online sigue una logica fundamentalmente diferente a la de blogs o sitios de contenido. En lugar de perseguir volumen de busqueda, comenzamos con datos de ingresos y trabajamos hacia atras para identificar los terminos que realmente generan ventas.",
+      heading: "Investigación de palabras clave para ecommerce",
+      intro: "La investigacion de palabras clave para tiendas online sigue una lógica fundamentalmente diferente a la de blogs o sitios de contenido. En lugar de perseguir volumen de busqueda, comenzamos con datos de ingresos y trabajamos hacia atrás para identificar los terminos que realmente generan ventas.",
       readTime: "9 min de lectura",
       sections: [
         {
-          title: "Por que la investigacion de palabras clave para ecommerce es diferente",
+          title: "Por qué la investigación de palabras clave para ecommerce es diferente",
           content:
             "Los sitios de contenido monetizan la atencion. Necesitan visitantes, asi que el volumen es lo primordial. Una tienda online monetiza transacciones. Una palabra clave que trae 50 visitantes que compran vale mas que una que trae 5.000 que rebotan. Esta distincion cambia todo sobre como priorizas.\n\nLa mayoria de guias de investigacion de palabras clave te dicen que empieces con una lista semilla, la expandas con una herramienta y luego filtres por volumen y dificultad. Ese flujo de trabajo tiene sentido para un blog. Para una tienda, te lleva directamente a terminos informativos que llenan tus analytics con trafico que nunca convierte.\n\nEl flujo de trabajo de investigacion de [palabras clave para ecommerce](/blog/ecommerce-seo-keywords) comienza con tus propios datos de transacciones. Que productos se venden? Que escriben los clientes en la busqueda interna? Que landing pages ya convierten? Desde ahi, expandimos hacia terminos adyacentes y oportunidades sin explotar.",
           items: [
@@ -248,7 +246,7 @@ export const keywordResearchForEcommerce: AcademyTopic = {
           ],
           callout: {
             title: "Die 15/70-Regel",
-            text: "In einem typischen Shop mit 200+ Produkten generieren 15-20\u00a0% der Seiten 70-80\u00a0% des organischen Umsatzes.",
+            text: "En una tienda típica con más de 200 productos, entre el 15 y el 20 % de las páginas generan entre el 70 y el 80 % de los ingresos orgánicos. Primero identifique estas páginas y desarrolle su estrategia de palabras clave a partir de este núcleo probado.",
           },
         },
         {
@@ -258,7 +256,7 @@ export const keywordResearchForEcommerce: AcademyTopic = {
           tip: "Crea una hoja de calculo simple con columnas para URL, palabra clave principal, busquedas mensuales, posicion actual e ingresos mensuales. Esto se convierte en tu centro de mando de palabras clave y evita que te pierdas en datos de herramientas.",
         },
         {
-          title: "El flujo de trabajo de investigacion de palabras clave para ecommerce",
+          title: "El flujo de trabajo de investigación de palabras clave para ecommerce",
           content:
             "Paso uno: audita tu rendimiento organico existente. Extrae todas las paginas con trafico organico de GSC y etiqueta cada una como producto, categoria, blog u otro. Calcula los ingresos por sesion organica para cada tipo de pagina.\n\nPaso dos: construye tu lista semilla desde tres fuentes, tus datos de busqueda interna, tu informe de consultas GSC y exportaciones de palabras clave de competidores. Deduplica y etiqueta cada palabra clave con su tipo de pagina probable (pagina de producto, pagina de categoria o pagina de contenido).\n\nPaso tres: expande tu lista semilla usando herramientas de palabras clave. Para cada semilla, extrae terminos relacionados, preguntas y variantes de cola larga. Pero filtra sin piedad, conserva solo terminos con intencion comercial o transaccional clara.\n\nPaso cuatro: prioriza. Puntua cada palabra clave en tres ejes: potencial de ingresos (volumen de busqueda multiplicado por tasa de conversion estimada multiplicado por valor promedio de pedido), posicion actual de ranking y brecha de contenido (tienes una pagina para este termino o no). Las palabras clave con las puntuaciones mas altas en los tres ejes se trabajan primero. Deduplica y etiqueta cada palabra clave con su tipo de pagina probable ([palabras clave de producto vs categoria](/academy/product-vs-category-keywords) se cubre en nuestro siguiente tema). Comprender la [intencion de compra vs volumen de busqueda](/academy/buyer-intent-vs-search-volume) te ayudara a hacer esta distincion.",
           items: [
@@ -270,11 +268,11 @@ export const keywordResearchForEcommerce: AcademyTopic = {
           image: {
             src: "/images/academy/es/ecommerce-kw-research-workflow.svg",
             alt: "Flussdiagramm des vierstufigen Ecommerce Keyword-Recherche-Workflows",
-            caption: "Der vierstufige Workflow beginnt mit Umsatzdaten und endet mit einer priorisierten Keyword-Liste.",
+            caption: "El flujo de trabajo de cuatro pasos comienza con datos de ingresos y termina con una lista de palabras clave priorizadas calificadas según el potencial de ingresos, no solo el volumen de búsqueda.",
           },
           callout: {
             title: "Umsatz-Score-Formel",
-            text: "Volumen x CTR x Conversion-Rate x AOV = Umsatzpotenzial. Ein Keyword mit 500 Suchen und 5\u00a0% Conversion bei 80\u00a0EUR AOV schl\u00e4gt eines mit 10.000 Suchen und 0,2\u00a0% Conversion.",
+            text: "Volumen x CTR x Tasa de conversión x AOV = Potencial de ingresos. Una palabra clave con 500 búsquedas y un 5 % de conversión con un AOV de $80 supera a una con 10 000 búsquedas y un 0,2 % de conversión con el mismo AOV por 2 veces.",
           },
         },
         {
@@ -295,7 +293,7 @@ export const keywordResearchForEcommerce: AcademyTopic = {
           ],
         },
         {
-          title: "Construyendo tu primer sprint de investigacion de palabras clave",
+          title: "Construyendo tu primer sprint de investigación de palabras clave",
           content:
             "Recomendamos un sprint enfocado de dos semanas para construir tu mapa de palabras clave inicial. La primera semana cubre la recopilacion de datos: extraer datos de GSC, exportar palabras clave de competidores, reunir consultas de busqueda interna y pasar tus terminos semilla por Ahrefs o Semrush.\n\nLa segunda semana se enfoca en analisis y mapeo. Agrupa tus palabras clave por tema, asigna cada grupo a un tipo de pagina, identifica brechas en la estructura actual de tu sitio y prioriza los 20-30 objetivos de palabras clave que generaran mas ingresos.\n\nAl final de este sprint, deberias tener un mapa de palabras clave funcional que cubra tus principales categorias y productos, una lista priorizada de brechas de contenido a llenar y un calendario de revision trimestral para mantener el mapa actualizado. Este documento se convierte en la base de cada decision SEO que tomes en adelante. Si necesitas ayuda profesional con este proceso, explora nuestro servicio de [investigacion de palabras clave](/keyword-research).",
         },
@@ -323,7 +321,7 @@ export const keywordResearchForEcommerce: AcademyTopic = {
           ],
           callout: {
             title: "Die 15/70-Regel",
-            text: "In einem typischen Shop mit 200+ Produkten generieren 15-20\u00a0% der Seiten 70-80\u00a0% des organischen Umsatzes.",
+            text: "In un tipico negozio con oltre 200 prodotti, il 15-20% delle pagine genera il 70-80% delle entrate organiche. Identifica prima queste pagine e costruisci la tua strategia per le parole chiave partendo da questo nucleo comprovato.",
           },
         },
         {
@@ -345,11 +343,11 @@ export const keywordResearchForEcommerce: AcademyTopic = {
           image: {
             src: "/images/academy/it/ecommerce-kw-research-workflow.svg",
             alt: "Flussdiagramm des vierstufigen Ecommerce Keyword-Recherche-Workflows",
-            caption: "Der vierstufige Workflow beginnt mit Umsatzdaten und endet mit einer priorisierten Keyword-Liste.",
+            caption: "Il flusso di lavoro in quattro fasi inizia con i dati sulle entrate e termina con un elenco di parole chiave con priorità valutate in base al potenziale di entrate, non solo al volume di ricerca.",
           },
           callout: {
             title: "Umsatz-Score-Formel",
-            text: "Volumen x CTR x Conversion-Rate x AOV = Umsatzpotenzial. Ein Keyword mit 500 Suchen und 5\u00a0% Conversion bei 80\u00a0EUR AOV schl\u00e4gt eines mit 10.000 Suchen und 0,2\u00a0% Conversion.",
+            text: "Volume x CTR x Tasso di conversione x AOV = entrate potenziali. Una parola chiave con 500 ricerche e una conversione del 5% con un AOV di $ 80 batte di 2 volte una con 10.000 ricerche e una conversione dello 0,2% con lo stesso AOV.",
           },
         },
         {
@@ -398,7 +396,7 @@ export const keywordResearchForEcommerce: AcademyTopic = {
           ],
           callout: {
             title: "Die 15/70-Regel",
-            text: "In einem typischen Shop mit 200+ Produkten generieren 15-20\u00a0% der Seiten 70-80\u00a0% des organischen Umsatzes.",
+            text: "In een typische winkel met meer dan 200 producten genereert 15-20% van de pagina's 70-80% van de organische omzet. Identificeer eerst deze pagina's en bouw uw zoekwoordstrategie op vanuit deze bewezen kern.",
           },
         },
         {
@@ -420,11 +418,11 @@ export const keywordResearchForEcommerce: AcademyTopic = {
           image: {
             src: "/images/academy/nl/ecommerce-kw-research-workflow.svg",
             alt: "Flussdiagramm des vierstufigen Ecommerce Keyword-Recherche-Workflows",
-            caption: "Der vierstufige Workflow beginnt mit Umsatzdaten und endet mit einer priorisierten Keyword-Liste.",
+            caption: "De workflow in vier stappen begint met omzetgegevens en eindigt met een lijst met geprioriteerde zoekwoorden, gescoord op omzetpotentieel, niet alleen op zoekvolume.",
           },
           callout: {
             title: "Umsatz-Score-Formel",
-            text: "Volumen x CTR x Conversion-Rate x AOV = Umsatzpotenzial. Ein Keyword mit 500 Suchen und 5\u00a0% Conversion bei 80\u00a0EUR AOV schl\u00e4gt eines mit 10.000 Suchen und 0,2\u00a0% Conversion.",
+            text: "Volume x CTR x conversiepercentage x AOV = omzetpotentieel. Een zoekwoord met 500 zoekopdrachten en 5% conversie bij een AOV van $ 80 verslaat een zoekwoord met 10.000 zoekopdrachten en 0,2% conversie bij dezelfde AOV met een factor 2x.",
           },
         },
         {

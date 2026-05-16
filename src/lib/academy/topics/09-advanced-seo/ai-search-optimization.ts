@@ -202,8 +202,7 @@ items: [
     fr: {
       badge: "SEO avance",
       heading: "Optimisation pour la recherche IA",
-      intro:
-        "Les moteurs de recherche alimentes par l'IA comme Google AI Overviews, ChatGPT, Perplexity et Bing Copilot transforment fondamentalement la facon dont les consommateurs decouvrent et evaluent les produits. Pour les marques e-commerce, apparaitre dans ces reponses generees par l'IA signifie repenser la strategie de contenu au-dela des classements traditionnels par mots-cles pour se concentrer sur l'autorite d'entite, la clarte des donnees structurees et le contenu que les machines peuvent citer en toute confiance. Pour les marques e-commerce, apparaître dans ces réponses générées par l'IA signifie repenser la [stratégie de contenu](/academy/content-strategy-for-stores) au-delà des classements traditionnels de mots-clés pour se concentrer sur l'autorité d'entité, la clarté des données structurées et le contenu que les machines peuvent citer en toute confiance.",
+      intro: "Les moteurs de recherche alimentes par l'IA comme Google AI Overviews, ChatGPT, Perplexity et Bing Copilot transforment fondamentalement la façon dont les consommateurs decouvrent et evaluent les produits. Pour les marques e-commerce, apparaitre dans ces reponses generees par l'IA signifie repenser la stratégie de contenu au-dela des classements traditionnels par mots-clés pour se concentrer sur l'autorite d'entite, la clarte des données structurees et le contenu que les machines peuvent citer en toute confiance. Pour les marques e-commerce, apparaître dans ces réponses générées par l'IA signifie repenser la [stratégie de contenu](/academy/content-strategy-for-stores) au-delà des classements traditionnels de mots-clés pour se concentrer sur l'autorité d'entité, la clarté des données structurées et le contenu que les machines peuvent citer en toute confiance.",
       readTime: "14 min de lecture",
       sections: [
         {
@@ -218,12 +217,12 @@ items: [
           ],
           image: {
             src: "/images/academy/fr/ai-search-rag-pipeline.svg",
-            alt: "RAG-Pipeline-Diagramm: Wie KI-Suche von der Nutzeranfrage ueber Abruf und Kandidatenauswahl zur KI-Antwort funktioniert",
-            caption: "KI-Suchmaschinen nutzen eine RAG-Pipeline: Abruf traditioneller Signale, Kandidatenauswahl und LLM-Synthese mit Quellenangaben.",
+            alt: "Diagramme montrant le pipeline RAG depuis la requête de l'utilisateur en passant par la récupération et la sélection des candidats jusqu'à la synthèse et la citation LLM",
+            caption: "Les moteurs de recherche IA récupèrent d’abord les documents candidats à l’aide de signaux traditionnels, puis les introduisent dans un modèle linguistique qui synthétise la réponse finale et sélectionne les sources à citer.",
           },
           callout: {
             title: "Quellenangaben-Sichtbarkeit",
-            text: "KI-Suchmaschinen zitieren Quellen in ihren Antworten. Seiten mit strukturierten Daten, E-E-A-T-Signalen und klaren Antworten werden haeufiger als Quelle zitiert als SEO-optimierte Seiten ohne diese Merkmale.",
+            text: "La plupart des systèmes de recherche d'IA récupèrent plus de 50 documents candidats à l'aide de signaux SEO traditionnels, puis un modèle linguistique sélectionne 3 à 4 sources à citer. Une forte capacité d'exploration et des backlinks vous permettent d'accéder au pool ; conterkmale.",
           },
         },
         {
@@ -250,7 +249,7 @@ items: [
           ],
         },
         {
-          title: "Strategies de balisage schema pour la visibilite IA",
+          title: "Stratégies de balisage schema pour la visibilite IA",
           content:
             "Les donnees structurees ont toujours ete importantes pour le SEO e-commerce, mais les moteurs de recherche IA s'appuient encore plus fortement sur le balisage schema que la recherche traditionnelle pour comprendre les attributs produit, la disponibilite, les prix et les relations. Une implementation complete du schema n'est plus optionnelle.\n\nLe schema Product devrait inclure chaque propriete disponible : nom, description, marque, SKU, GTIN, MPN, couleur, taille, materiau, poids et tout attribut specifique a la categorie. Plus votre balisage produit est explicite et complet, plus un modele IA peut extraire et citer vos informations produit avec confiance.\n\nImplementez le schema Offer imbrique dans Product pour specifier le prix, la devise, la disponibilite, la date de validite et le vendeur. Pour les produits avec plusieurs variantes, utilisez la propriete hasVariant pour lier aux entrees ProductModel individuelles.\n\nAu-dela des produits individuels, utilisez BreadcrumbList pour le contexte de navigation, FAQPage pour le contenu question-reponse, HowTo pour les guides d'utilisation et Review/AggregateRating pour les signaux de preuve sociale. Le schema ItemList sur les pages de categories aide les modeles IA a comprendre votre taxonomie produit. Une [implémentation complète du schéma](/academy/structured-data-for-products) n'est plus optionnelle pour les boutiques qui veulent une visibilité IA.",
           items: [
@@ -262,12 +261,12 @@ items: [
           tip: "Implementez des liens SameAs dans votre schema Organization pointant vers vos profils sociaux officiels, votre page Wikipedia et votre entite Wikidata. Cela aide les modeles IA a connecter votre site web a votre graphe d'entite plus large.",
           image: {
             src: "/images/academy/fr/ai-schema-stack.svg",
-            alt: "Schema-Stack fuer KI-Sichtbarkeit: Produkt-, Bewertungs-, FAQ-, HowTo- und Organisations-Schema",
-            caption: "Kombinieren Sie mehrere Schema-Typen fuer maximale KI-Sichtbarkeit. Produkt- und Bewertungs-Schema sind am kritischsten.",
+            alt: "Diagramme montrant la pile complète de balisage de schéma pour la visibilité de l'IA, y compris le produit, l'offre, l'agrégation et les types de schéma pris en charge",
+            caption: "Les modèles d’IA s’appuient encore plus sur le balisage de schéma que la recherche traditionnelle. Le schéma produit complet avec les propriétés Offer et hasVariant imbriquées maximise la précision de l’extraction de l’IA.",
           },
           callout: {
             title: "Schema-Priorisierung",
-            text: "Produkt-Schema mit Preis, Verfuegbarkeit und Bewertungen wird am haeufigsten in KI-Antworten zitiert. Implementieren Sie dieses zuerst, dann FAQ und HowTo fuer informationale Inhalte.",
+            text: "Incluez toutes les propriétés disponibles du produit : nom, marque, sku, gtin, mpn, couleur, taille, matériau, poids. Plus votre balisage est explicite, plus les modèles d'IA extraient et citent vos données produit en toute confiance.",
           },
         },
         {
@@ -298,13 +297,12 @@ items: [
     },
     es: {
       badge: "SEO avanzado",
-      heading: "Optimizacion para busqueda con IA",
-      intro:
-        "Los motores de busqueda impulsados por IA como Google AI Overviews, ChatGPT, Perplexity y Bing Copilot estan transformando fundamentalmente como los consumidores descubren y evaluan productos. Para las marcas de ecommerce, aparecer en estas respuestas generadas por IA significa repensar la [estrategia de contenido](/academy/content-strategy-for-stores) mas alla de los rankings tradicionales de palabras clave para enfocarse en la autoridad de entidad, la claridad de datos estructurados y el contenido que las maquinas pueden citar con confianza.",
+      heading: "Optimización para busqueda con IA",
+      intro: "Los motores de busqueda impulsados por IA como Google AI Overviews, ChatGPT, Perplexity y Bing Copilot estan transformando fundamentalmente como los consumidores descubren y evaluan productos. Para las marcas de ecommerce, aparecer en estas respuestas generadas por IA significa repensar la [estrategia de contenido](/academy/content-strategy-for-stores) mas alla de los rankings tradicionales de palabras clave para enfocarse en la autoridad de entidad, la claridad de datos estructurados y el contenido que las maquinas pueden citar con confianza.",
       readTime: "14 min de lectura",
       sections: [
         {
-          title: "Como los motores de busqueda IA obtienen respuestas de ecommerce",
+          title: "Cómo los motores de busqueda IA obtienen respuestas de ecommerce",
           content:
             "Los motores de busqueda IA no simplemente rastrean y clasifican paginas como la busqueda tradicional. Ingieren, analizan y sintetizan contenido de multiples fuentes para generar una unica respuesta coherente. Cuando un comprador pregunta a un asistente IA 'cual es la mejor bota de senderismo impermeable por menos de 200 euros', el modelo evalua decenas de paginas, extrae atributos de producto, cruza resenas y ensambla una respuesta que puede citar tres o cuatro fuentes.\n\nEl proceso de seleccion favorece las paginas que proporcionan informacion clara, bien estructurada y factual. Los modelos IA evaluan el contenido en varias dimensiones: autoridad tematica del dominio, consistencia de las afirmaciones del producto en toda la web, completitud de datos estructurados y la presencia de datos propios unicos como resultados de pruebas originales o especificaciones propietarias.\n\nComprender el pipeline de generacion aumentada por recuperacion (RAG) es esencial. La mayoria de los sistemas de busqueda IA primero recuperan un conjunto de documentos candidatos usando senales de busqueda tradicionales, y luego alimentan esos documentos en un modelo de lenguaje que sintetiza la respuesta final. Esto significa que aun necesitas solidos [fundamentos de SEO tradicional](/blog/ecommerce-seo) como rastreabilidad, velocidad de pagina y backlinks relevantes para entrar en el pool de candidatos.",
           items: [
@@ -315,12 +313,12 @@ items: [
           ],
           image: {
             src: "/images/academy/es/ai-search-rag-pipeline.svg",
-            alt: "RAG-Pipeline-Diagramm: Wie KI-Suche von der Nutzeranfrage ueber Abruf und Kandidatenauswahl zur KI-Antwort funktioniert",
-            caption: "KI-Suchmaschinen nutzen eine RAG-Pipeline: Abruf traditioneller Signale, Kandidatenauswahl und LLM-Synthese mit Quellenangaben.",
+            alt: "Diagrama que muestra el proceso de RAG desde la consulta del usuario, pasando por la recuperación y la selección de candidatos, hasta la síntesis y citación del LLM.",
+            caption: "Los motores de búsqueda de IA primero recuperan los documentos candidatos utilizando señales tradicionales, luego los introducen en un modelo de lenguaje que sintetiza la respuesta final y selecciona las fuentes para citar.",
           },
           callout: {
             title: "Quellenangaben-Sichtbarkeit",
-            text: "KI-Suchmaschinen zitieren Quellen in ihren Antworten. Seiten mit strukturierten Daten, E-E-A-T-Signalen und klaren Antworten werden haeufiger als Quelle zitiert als SEO-optimierte Seiten ohne diese Merkmale.",
+            text: "La mayoría de los sistemas de búsqueda de IA recuperan más de 50 documentos candidatos utilizando señales de SEO tradicionales, luego un modelo de lenguaje selecciona de 3 a 4 fuentes para citar. La fuerte capacidad de rastreo y los vínculos de retroceso lo llevan al grupo; conterkmale.",
           },
         },
         {
@@ -359,16 +357,16 @@ items: [
           tip: "Implemente enlaces SameAs en su schema Organization apuntando a sus perfiles oficiales de redes sociales, pagina de Wikipedia y entidad de Wikidata. Esto ayuda a los modelos IA a conectar su sitio web con su grafo de entidad mas amplio.",
           image: {
             src: "/images/academy/es/ai-schema-stack.svg",
-            alt: "Schema-Stack fuer KI-Sichtbarkeit: Produkt-, Bewertungs-, FAQ-, HowTo- und Organisations-Schema",
-            caption: "Kombinieren Sie mehrere Schema-Typen fuer maximale KI-Sichtbarkeit. Produkt- und Bewertungs-Schema sind am kritischsten.",
+            alt: "Diagrama que muestra la pila completa de marcado de esquemas para la visibilidad de la IA, incluidos Producto, Oferta, Calificación Agregada y tipos de esquemas de soporte.",
+            caption: "Los modelos de IA se basan en el marcado de esquemas incluso más que la búsqueda tradicional. El esquema de producto completo con ofertas anidadas y propiedades hasVariant maximiza la precisión de la extracción de IA.",
           },
           callout: {
             title: "Schema-Priorisierung",
-            text: "Produkt-Schema mit Preis, Verfuegbarkeit und Bewertungen wird am haeufigsten in KI-Antworten zitiert. Implementieren Sie dieses zuerst, dann FAQ und HowTo fuer informationale Inhalte.",
+            text: "Incluya todas las propiedades del Producto disponibles: nombre, marca, sku, gtin, mpn, color, tamaño, material, peso. Cuanto más explícito sea su marcado, con mayor confianza los modelos de IA extraerán y citarán los datos de su producto.",
           },
         },
         {
-          title: "Profundidad de contenido y cobertura tematica",
+          title: "Profundidad de contenido y cobertura temática",
           content:
             "Los motores de busqueda IA prefieren citar fuentes que demuestran experiencia tematica integral en lugar de paginas delgadas que apuntan a palabras clave individuales. Para ecommerce, esto significa construir hubs de contenido alrededor de sus categorias de productos cubriendo cada angulo que un comprador potencial podria investigar.\n\nUna tienda que vende maquinas de espresso no solo deberia tener paginas de producto. Deberia mantener un ecosistema de contenido que cubra tipos de maquinas, compatibilidad de molinillos, calidad del agua y descalcificacion, tecnicas de espuma de leche, guias de seleccion de granos, solucion de problemas y programas de mantenimiento.\n\nEl contenido comparativo es particularmente valioso para citas IA. Cuando los modelos IA responden preguntas comparativas, necesitan fuentes con analisis objetivo atributo por atributo. Cree paginas de comparacion con marcos consistentes.\n\nLa investigacion original y los datos propietarios obtienen una frecuencia de citacion desproporcionada. Si puede publicar datos de pruebas originales o estadisticas de uso que ninguna otra fuente tiene, los modelos IA citaran preferentemente su contenido.",
           items: [
@@ -412,12 +410,12 @@ items: [
           ],
           image: {
             src: "/images/academy/it/ai-search-rag-pipeline.svg",
-            alt: "RAG-Pipeline-Diagramm: Wie KI-Suche von der Nutzeranfrage ueber Abruf und Kandidatenauswahl zur KI-Antwort funktioniert",
-            caption: "KI-Suchmaschinen nutzen eine RAG-Pipeline: Abruf traditioneller Signale, Kandidatenauswahl und LLM-Synthese mit Quellenangaben.",
+            alt: "Diagramma che mostra la pipeline RAG dalla query dell'utente attraverso il recupero e la selezione dei candidati fino alla sintesi e citazione LLM",
+            caption: "I motori di ricerca AI recuperano prima i documenti dei candidati utilizzando segnali tradizionali, quindi li inseriscono in un modello linguistico che sintetizza la risposta finale e seleziona le fonti da citare.",
           },
           callout: {
             title: "Quellenangaben-Sichtbarkeit",
-            text: "KI-Suchmaschinen zitieren Quellen in ihren Antworten. Seiten mit strukturierten Daten, E-E-A-T-Signalen und klaren Antworten werden haeufiger als Quelle zitiert als SEO-optimierte Seiten ohne diese Merkmale.",
+            text: "La maggior parte dei sistemi di ricerca AI recupera oltre 50 documenti candidati utilizzando i tradizionali segnali SEO, quindi un modello linguistico seleziona 3-4 fonti da citare. Una forte crawlability e backlink ti portano nel pool; conterkmale.",
           },
         },
         {
@@ -456,12 +454,12 @@ items: [
           tip: "Implementate link SameAs nel vostro schema Organization che puntino ai vostri profili social ufficiali, pagina Wikipedia ed entita Wikidata. Questo aiuta i modelli IA a connettere il vostro sito web al vostro grafo di entita piu ampio.",
           image: {
             src: "/images/academy/it/ai-schema-stack.svg",
-            alt: "Schema-Stack fuer KI-Sichtbarkeit: Produkt-, Bewertungs-, FAQ-, HowTo- und Organisations-Schema",
-            caption: "Kombinieren Sie mehrere Schema-Typen fuer maximale KI-Sichtbarkeit. Produkt- und Bewertungs-Schema sind am kritischsten.",
+            alt: "Diagramma che mostra lo stack di markup dello schema completo per la visibilità dell'intelligenza artificiale, inclusi prodotto, offerta, AggregateRating e tipi di schema di supporto",
+            caption: "I modelli di intelligenza artificiale si affidano al markup dello schema in misura ancora maggiore rispetto alla ricerca tradizionale. Lo schema completo del prodotto con le proprietà Offer e hasVariant nidificate massimizza la precisione dell'estrazione AI.",
           },
           callout: {
             title: "Schema-Priorisierung",
-            text: "Produkt-Schema mit Preis, Verfuegbarkeit und Bewertungen wird am haeufigsten in KI-Antworten zitiert. Implementieren Sie dieses zuerst, dann FAQ und HowTo fuer informationale Inhalte.",
+            text: "Includi tutte le proprietà del prodotto disponibili: nome, marca, sku, gtin, mpn, colore, taglia, materiale, peso. Quanto più esplicito è il tuo markup, tanto più con sicurezza i modelli di intelligenza artificiale estraggono e citano i dati del tuo prodotto.",
           },
         },
         {
@@ -509,12 +507,12 @@ items: [
           ],
           image: {
             src: "/images/academy/nl/ai-search-rag-pipeline.svg",
-            alt: "RAG-Pipeline-Diagramm: Wie KI-Suche von der Nutzeranfrage ueber Abruf und Kandidatenauswahl zur KI-Antwort funktioniert",
-            caption: "KI-Suchmaschinen nutzen eine RAG-Pipeline: Abruf traditioneller Signale, Kandidatenauswahl und LLM-Synthese mit Quellenangaben.",
+            alt: "Diagram dat de RAG-pijplijn toont, van gebruikersquery via ophalen en kandidaatselectie tot LLM-synthese en citatie",
+            caption: "AI-zoekmachines halen eerst kandidaat-documenten op met behulp van traditionele signalen en voeren ze vervolgens in een taalmodel dat het uiteindelijke antwoord synthetiseert en bronnen selecteert om te citeren.",
           },
           callout: {
             title: "Quellenangaben-Sichtbarkeit",
-            text: "KI-Suchmaschinen zitieren Quellen in ihren Antworten. Seiten mit strukturierten Daten, E-E-A-T-Signalen und klaren Antworten werden haeufiger als Quelle zitiert als SEO-optimierte Seiten ohne diese Merkmale.",
+            text: "De meeste AI-zoeksystemen halen meer dan 50 kandidaat-documenten op met behulp van traditionele SEO-signalen, waarna een taalmodel 3-4 bronnen selecteert om te citeren. Sterke crawlbaarheid en backlinks zorgen ervoor dat u in het zwembad terechtkomt; tegenrkmale.",
           },
         },
         {
@@ -553,12 +551,12 @@ items: [
           tip: "Implementeer SameAs-links in uw Organization-schema die verwijzen naar uw officiele sociale media-profielen, Wikipedia-pagina en Wikidata-entiteit. Dit helpt AI-modellen uw website te verbinden met uw bredere entiteitsgrafiek.",
           image: {
             src: "/images/academy/nl/ai-schema-stack.svg",
-            alt: "Schema-Stack fuer KI-Sichtbarkeit: Produkt-, Bewertungs-, FAQ-, HowTo- und Organisations-Schema",
-            caption: "Kombinieren Sie mehrere Schema-Typen fuer maximale KI-Sichtbarkeit. Produkt- und Bewertungs-Schema sind am kritischsten.",
+            alt: "Diagram met de volledige schema-opmaakstapel voor AI-zichtbaarheid, inclusief Product, Aanbieding, AggregateRating en ondersteunende schematypen",
+            caption: "AI-modellen zijn nog sterker afhankelijk van schema-opmaak dan traditioneel zoeken. Compleet productschema met geneste Offer- en hasVariant-eigenschappen maximaliseert de nauwkeurigheid van de AI-extractie.",
           },
           callout: {
             title: "Schema-Priorisierung",
-            text: "Produkt-Schema mit Preis, Verfuegbarkeit und Bewertungen wird am haeufigsten in KI-Antworten zitiert. Implementieren Sie dieses zuerst, dann FAQ und HowTo fuer informationale Inhalte.",
+            text: "Vermeld alle beschikbare producteigenschappen: naam, merk, sku, gtin, mpn, kleur, maat, materiaal, gewicht. Hoe explicieter uw markeringen, hoe zelfverzekerder AI-modellen uw productgegevens extraheren en citeren.",
           },
         },
         {

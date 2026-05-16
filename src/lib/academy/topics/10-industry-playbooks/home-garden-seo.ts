@@ -208,12 +208,11 @@ items: [
     fr: {
       badge: "Guides sectoriels",
       heading: "Playbook SEO Maison et Jardin",
-      intro:
-        "Le e-commerce maison et jardin couvre une gamme enorme de produits, des meubles et de l'eclairage aux outils electriques, jardinieres et equipements d'exterieur. Cette etendue cree a la fois des opportunites et de la complexite pour le SEO. Les acheteurs dans ce secteur recherchent intensivement, comparent les dimensions et specifications avec leurs espaces physiques, et cherchent souvent avec une intention orientee projet plutot que des requetes specifiques a un produit. Ce playbook couvre les strategies SEO qui stimulent la croissance organique pour les magasins de bricolage, meubles, decoration et fournitures de jardin.",
+      intro: "Le e-commerce maison et jardin couvre une gamme enorme de produits, des meubles et de l'eclairage aux outils electriques, jardinieres et equipements d'exterieur. Cette etendue cree a la fois des opportunites et de la complexite pour le SEO. Les acheteurs dans ce secteur recherchent intensivement, comparent les dimensions et specifications avec leurs espaces physiques, et cherchent souvent avec une intention orientee projet plutot que des requetes specifiques a un produit. Ce playbook couvre les stratégies SEO qui stimulent la croissance organique pour les magasins de bricolage, meubles, decoration et fournitures de jardin.",
       readTime: "12 min de lecture",
       sections: [
         {
-          title: "Strategie de mots-cles basee sur les projets et la resolution de problemes",
+          title: "Stratégie de mots-clés basée sur les projets et la resolution de problemes",
           content:
             "Les acheteurs maison et jardin cherchent frequemment avec un projet ou un probleme en tete plutot qu'un produit specifique. Des requetes comme \"comment organiser une petite cuisine,\" \"meilleures plantes pour jardin ombrage,\" \"idees renovation salle de bain petit budget\" et \"comment construire un potager sureleve\" revelent une intention a un ou deux pas d'un achat. Capturer ce trafic de recherche et le guider vers vos produits est la base du SEO maison et jardin.\n\nConstruisez des clusters de mots-cles autour des projets d'amenagement courants : renovation cuisine, refonte salle de bain, amenagement terrasse, paysagisme jardin, bureau a domicile, organisation placards. Pour chaque projet, cartographiez le parcours de recherche complet, des requetes inspirationnelles aux requetes de planification jusqu'aux requetes d'achat.\n\nCreez des structures de categories piece par piece. Les acheteurs naviguent souvent par piece : salon, chambre, salle de bain, cuisine, exterieur, garage. Cela reflete la facon dont les gens pensent a leur maison.\n\nCiblez agressivement les [mots-cles de projets saisonniers](/academy/seasonal-keyword-trends). \"Preparation jardin printemps,\" \"fournitures protection hiver,\" \"mobilier de terrasse ete\", ces requetes augmentent de maniere previsible chaque annee.\n\nN'ignorez pas les requetes dimensionnelles longue traine. Les acheteurs maison et jardin cherchent frequemment avec des mesures specifiques : \"meuble vasque 60 cm,\" \"tapis 200x300,\" \"bibliotheque 80 cm de large.\" Inclure les dimensions exactes dans vos titres de produits capture ce trafic a forte intention.",
           items: [
@@ -225,12 +224,12 @@ items: [
           ],
           image: {
             src: "/images/academy/fr/home-project-search-journey.svg",
-            alt: "Haus und Garten Projekt-Suchreise: Von Problembewusstsein ueber Recherche und Vergleich zum Kauf",
-            caption: "Projektbasierte Keywords treiben engagierten Traffic mit langem Ueberlegungszyklus und vielen Touchpoints.",
+            alt: "Diagramme montrant le parcours de recherche d'un projet de maison, de l'inspiration à la planification jusqu'à l'achat, avec une structure de catégories basée sur les pièces ci-dessous",
+            caption: "Les acheteurs de maison suivent un parcours en 3 étapes, de l'inspiration à la planification de l'achat. Votre stratégie de contenu doit aborder chaque étape avec des types de pages appropriés.",
           },
           callout: {
             title: "Projektbasierte Keywords",
-            text: "Haus- und Gartenkaeufer recherchieren 2-4 Wochen vor dem Kauf. Anleitungs-Content fuer die fruehe Problemphase generiert 5x mehr Touchpoints als reine Produkt-Keywords.",
+            text: "Les acheteurs de maisons recherchent fréquemment des mesures exactes : « meuble-lavabo de salle de bain de 60 pouces », « tapis 8 x 10 », « bibliothèque de 36 pouces de large ». L'inclusion des dimensions exactes dans les titres des produits permet de capturer un trafic à forte intention",
           },
         },
         {
@@ -265,7 +264,7 @@ items: [
           tip: "Construisez un calendrier editorial sur 12 mois qui aligne la creation de contenu sur ces schemas saisonniers. Commencez a creer le contenu saisonnier au moins 10 semaines avant le pic de demande. Un guide de planification de jardin publie en janvier donne a Google deux mois pour l'indexer et le positionner avant que la hausse des recherches printanieres ne commence en mars.",
         },
         {
-          title: "Architecture de categories pour les grands catalogues maison",
+          title: "Architecture de catégories pour les grands catalogues maison",
           content:
             "Les magasins maison et jardin proposent souvent des dizaines de milliers de references couvrant des categories de produits radicalement differentes. Une architecture de categories reflechie aide a la fois les moteurs de recherche et les acheteurs a naviguer dans cette etendue.\n\nOrganisez votre navigation principale autour de la facon dont les acheteurs pensent a leur maison : par piece (Salon, Chambre, Cuisine, Salle de bain, Exterieur), par type de projet (Renovation, Decoration, Organisation, Jardinage) et par categorie de produit (Meubles, Eclairage, Textiles, Outils, Plantes).\n\nCreez une profondeur de sous-categories qui correspond a la specificite des recherches. Sous Mobilier d'exterieur, creez des pages distinctes pour Salons de jardin, Chaises longues, Bancs de jardin, Rangement exterieur et Coussins d'exterieur.\n\nImplementez le schema BreadcrumbList sur chaque page pour que Google comprenne votre hierarchie.\n\nConstruisez des pages de collection inter-categories pour les missions d'achat courantes. Une page \"Amenagement Terrasse Complet\" pourrait rassembler des produits de mobilier d'exterieur, eclairage, jardinieres et textiles d'exterieur.\n\nAjoutez des descriptions de categorie riches (150-300 mots) et implementez un maillage interne intelligent entre les categories.",
           items: [
@@ -278,12 +277,12 @@ items: [
           ],
           image: {
             src: "/images/academy/fr/home-category-architecture.svg",
-            alt: "Haus und Garten Kategorie-Architektur mit raumbasierter Navigation und kategorieuebergreifenden Projekt-Hubs",
-            caption: "Raumbasierte Navigation hilft Nutzern, Produkte intuitiv zu finden. Ergaenzen Sie mit kategorieuebergreifenden Projekt-Hubs.",
+            alt: "Diagramme montrant l'architecture de catégories multi-angles organisée par pièce, projet et catégorie de produit avec des pages de mission inter-catégories et un schéma de fil d'Ariane",
+            caption: "Permettez aux acheteurs d'accéder à votre catalogue sous plusieurs angles, par pièce, projet ou catégorie de produit, avec des liens croisés et des pages de collection basées sur des missions.",
           },
           callout: {
             title: "Navigationsstruktur",
-            text: "Haus-und-Garten-Shops mit raumbasierter Navigation (Kueche, Bad, Garten) konvertieren 25-35% besser als markenbasierte Navigation, weil Kaeufer nach Projekten und nicht nach Marken suchen.",
+            text: "Les pages intercatégories telles que « Configuration complète du patio » ou « Home Office Essentials » extraient des produits de plusieurs catégories et ciblent des requêtes composites que les pages à catégorie unique ne peuvent pas capturer seules. Ces",
           },
         },
         {
@@ -308,14 +307,13 @@ items: [
     es: {
       badge: "Guias sectoriales",
       heading: "Playbook SEO para Hogar y Jardin",
-      intro:
-        "El ecommerce de hogar y jardin abarca una gama enorme de productos, desde muebles e iluminacion hasta herramientas electricas, macetas y equipamiento para exteriores. Esta amplitud crea tanto oportunidades como complejidad para el SEO. Los compradores en este vertical investigan intensamente, comparan dimensiones y especificaciones con sus espacios fisicos, y a menudo buscan con intencion orientada a proyectos en lugar de consultas especificas de producto. Este playbook cubre las estrategias SEO que impulsan el crecimiento organico para tiendas de mejoras del hogar, muebles, decoracion y suministros de jardin.",
+      intro: "El ecommerce de hogar y jardin abarca una gama enorme de productos, desde muebles e iluminacion hasta herramientas electricas, macetas y equipamiento para exteriores. Esta amplitud crea tanto oportunidades como complejidad para el SEO. Los compradores en este vertical investigan intensamente, comparan dimensiones y especificaciones con sus espacios fisicos, y a menudo buscan con intención orientada a proyectos en lugar de consultas especificas de producto. Este playbook cubre las estrategias SEO que impulsan el crecimiento organico para tiendas de mejoras del hogar, muebles, decoracion y suministros de jardin.",
       readTime: "12 min de lectura",
       sections: [
         {
-          title: "Estrategia de palabras clave basada en proyectos y resolucion de problemas",
+          title: "Estrategia de palabras clave basada en proyectos y resolución de problemas",
           content:
-            "Los compradores de hogar y jardin buscan frecuentemente con un proyecto o problema en mente en lugar de un producto especifico. Consultas como \"como organizar una cocina pequena,\" \"mejores plantas para jardin con sombra,\" \"ideas renovacion bano con poco presupuesto\" y \"como construir un huerto elevado\" revelan una intencion que esta a uno o dos pasos de una compra. Capturar este trafico de investigacion y guiarlo hacia tus productos es la base del SEO de hogar y jardin.\n\nConstruye clusters de palabras clave alrededor de proyectos comunes de mejora del hogar: renovacion de cocina, remodelacion de bano, diseno de terraza, paisajismo de jardin, configuracion de oficina en casa, organizacion de armarios. Para cada proyecto, mapea el recorrido completo de busqueda, desde consultas inspiracionales hasta consultas de planificacion y consultas de compra.\n\nCrea estructuras de categorias habitacion por habitacion. Los compradores a menudo navegan por habitacion: salon, dormitorio, bano, cocina, exterior, garaje. Esto refleja como las personas piensan sobre sus hogares.\n\nApunta agresivamente a [palabras clave de proyectos estacionales](/academy/seasonal-keyword-trends). \"Preparacion jardin primavera,\" \"suministros proteccion invierno,\" \"muebles terraza verano\", estas consultas suben de forma predecible cada ano.\n\nNo ignores las consultas dimensionales de cola larga. Los compradores de hogar y jardin buscan frecuentemente con medidas especificas: \"mueble bano 60 cm,\" \"alfombra 200x300,\" \"estanteria 80 cm ancho.\" Incluir dimensiones exactas en tus titulos de producto captura este trafico de alta intencion.",
+            "Los compradores de hogar y jardin buscan frecuentemente con un proyecto o problema en mente en lugar de un producto especifico. Consultas como \"como organizar una cocina pequena,\" \"mejores plantas para jardin con sombra,\" \"ideas renovacion bano con poco presupuesto\" y \"como construir un huerto elevado\" revelan una intencion que esta a uno o dos pasos de una compra. Capturar este trafico de investigacion y guiarlo hacia tus productos es la base del SEO de hogar y jardin.\n\nConstruye clusters de palabras clave alrededor de proyectos comunes de mejora del hogar: renovacion de cocina, remodelacion de bano, diseno de terraza, paisajismo de jardin, configuracion de oficina en casa, organizacion de armarios. Para cada proyecto, mapea el recorrido completo de busqueda, desde consultas inspiracionales hasta consultas de planificacion y consultas de compra.\n\nCrea estructuras de categorias habitacion por habitacion. Los compradores a menudo navegan por habitacion: salon, dormitorio, bano, cocina, exterior, garaje. Esto refleja como las personas piensan sobre sus hogares.\n\nApunta agresivamente a [palabras clave de proyectos estacionales](/academy/seasonal-keyword-trends). \"Preparacion jardin primavera,\" \"suministros proteccion invierno,\" \"muebles terraza verano\", estas consultas suben de forma predecible cada año.\n\nNo ignores las consultas dimensionales de cola larga. Los compradores de hogar y jardin buscan frecuentemente con medidas especificas: \"mueble bano 60 cm,\" \"alfombra 200x300,\" \"estanteria 80 cm ancho.\" Incluir dimensiones exactas en tus titulos de producto captura este trafico de alta intencion.",
           items: [
             "Construir clusters de palabras clave en torno a proyectos de mejora del hogar: renovacion, paisajismo, organizacion",
             "Mapear el recorrido completo de busqueda desde inspiracion hasta planificacion y compra para cada tipo de proyecto",
@@ -325,16 +323,16 @@ items: [
           ],
           image: {
             src: "/images/academy/es/home-project-search-journey.svg",
-            alt: "Haus und Garten Projekt-Suchreise: Von Problembewusstsein ueber Recherche und Vergleich zum Kauf",
-            caption: "Projektbasierte Keywords treiben engagierten Traffic mit langem Ueberlegungszyklus und vielen Touchpoints.",
+            alt: "Diagrama que muestra el recorrido de búsqueda del proyecto de vivienda desde la inspiración hasta la planificación y la compra, con la estructura de categorías basada en habitaciones a continuación.",
+            caption: "Los compradores de viviendas siguen un viaje de tres etapas desde la inspiración hasta la planificación de la compra. Su estrategia de contenido debe abordar cada etapa con los tipos de páginas adecuados.",
           },
           callout: {
             title: "Projektbasierte Keywords",
-            text: "Haus- und Gartenkaeufer recherchieren 2-4 Wochen vor dem Kauf. Anleitungs-Content fuer die fruehe Problemphase generiert 5x mehr Touchpoints als reine Produkt-Keywords.",
+            text: "Los compradores de viviendas frecuentemente buscan con medidas exactas: \"tocador de baño de 60 pulgadas\", \"alfombra de 8x10\", \"librero de 36 pulgadas de ancho\". Incluir dimensiones exactas en los títulos de los productos capta tráfico de alta intención",
           },
         },
         {
-          title: "Optimizacion de paginas de producto para muebles y articulos del hogar",
+          title: "Optimización de páginas de producto para muebles y artículos del hogar",
           content:
             "Las paginas de producto de hogar y jardin deben superar el desafio fundamental de la compra online de muebles: los clientes no pueden ver, tocar ni medir los productos en persona. Cada elemento de tu pagina de producto debe trabajar para salvar esta brecha.\n\nIncluye informacion dimensional completa en un formato estructurado y facil de leer. Lista dimensiones generales (ancho, fondo, alto), dimensiones interiores/utiles, peso, capacidad de carga y requisitos de espacio libre. Usa tablas HTML rastreables.\n\nEscribe descripciones de producto que coloquen los articulos en contexto. En lugar de solo listar que un sofa tiene 210 cm de ancho, explica que acomoda comodamente a tres adultos y encaja bien en salones de al menos 3,60 m de ancho.\n\nProporciona detalles de material y construccion que diferencien tus listings de los marketplaces. Describe la especie de madera, tipo de acabado, composicion del tapizado, material de relleno y requisitos de montaje.\n\nImplementa schema Product con todas las propiedades relevantes: name, brand, description, sku, gtin, image, offers, material, color, width, height, depth y weight.\n\nUsa imagenes de alta calidad desde multiples angulos mas fotos lifestyle en ambientes. Incluye al menos una imagen mostrando el producto en un ambiente decorado para ayudar a los compradores a visualizar el articulo en su propio hogar.",
           items: [
@@ -361,11 +359,11 @@ items: [
         {
           title: "Calendario SEO estacional para hogar y jardin",
           content:
-            "El ecommerce de hogar y jardin sigue fuertes ciclos estacionales vinculados al clima, festividades y ritmos de mejora del hogar. Entender y planificar estos ciclos es esencial para maximizar el trafico organico durante todo el ano.\n\nLa primavera es la temporada alta para productos de exterior y jardin. Las busquedas de herramientas de jardin, semillas, macetas, muebles de exterior y suministros de paisajismo suben de marzo a mayo. Todo el contenido de jardin de primavera debe estar actualizado e indexado para febrero.\n\nEl verano impulsa la demanda de vida al aire libre: conjuntos de terraza, barbacoas, iluminacion exterior, accesorios de piscina y mantenimiento del jardin.\n\nEl otono trae un giro hacia el confort interior y los proyectos de renovacion. Las busquedas de alfombras, mantas, velas y pintura interior suben cuando la gente prepara sus hogares para los meses frios.\n\nEl invierno esta dominado por los regalos festivos y la renovacion de enero. La decoracion festiva y la iluminacion navidena alcanzan su maximo en noviembre-diciembre. Enero ve un pico significativo en organizacion del hogar y soluciones de almacenamiento.\n\nNo elimines ni redirijas las paginas estacionales despues de cada temporada. Actualiza la seleccion de productos pero mantén la URL y sus senales de posicionamiento acumuladas.",
+            "El ecommerce de hogar y jardin sigue fuertes ciclos estacionales vinculados al clima, festividades y ritmos de mejora del hogar. Entender y planificar estos ciclos es esencial para maximizar el trafico organico durante todo el año.\n\nLa primavera es la temporada alta para productos de exterior y jardin. Las busquedas de herramientas de jardin, semillas, macetas, muebles de exterior y suministros de paisajismo suben de marzo a mayo. Todo el contenido de jardin de primavera debe estar actualizado e indexado para febrero.\n\nEl verano impulsa la demanda de vida al aire libre: conjuntos de terraza, barbacoas, iluminacion exterior, accesorios de piscina y mantenimiento del jardin.\n\nEl otono trae un giro hacia el confort interior y los proyectos de renovacion. Las busquedas de alfombras, mantas, velas y pintura interior suben cuando la gente prepara sus hogares para los meses frios.\n\nEl invierno esta dominado por los regalos festivos y la renovacion de enero. La decoracion festiva y la iluminacion navidena alcanzan su maximo en noviembre-diciembre. Enero ve un pico significativo en organizacion del hogar y soluciones de almacenamiento.\n\nNo elimines ni redirijas las paginas estacionales despues de cada temporada. Actualiza la seleccion de productos pero mantén la URL y sus senales de posicionamiento acumuladas.",
           tip: "Construye un calendario editorial de 12 meses que alinee la creacion de contenido con estos patrones estacionales. Empieza a crear contenido estacional al menos 10 semanas antes del pico de demanda. Una guia de planificacion de jardin publicada en enero da a Google dos meses para indexarla y posicionarla antes de que el aumento de busquedas primaverales comience en marzo.",
         },
         {
-          title: "Arquitectura de categorias para grandes catalogos de hogar",
+          title: "Arquitectura de categorías para grandes catálogos de hogar",
           content:
             "Las tiendas de hogar y jardin suelen llevar decenas de miles de SKUs abarcando categorias de producto muy diferentes. Una arquitectura de categorias pensada ayuda tanto a los motores de busqueda como a los compradores a navegar esta amplitud.\n\nOrganiza tu navegacion principal en torno a como los compradores piensan sobre sus hogares: por habitacion (Salon, Dormitorio, Cocina, Bano, Exterior), por tipo de proyecto (Renovacion, Decoracion, Organizacion, Jardineria) y por categoria de producto (Muebles, Iluminacion, Textiles, Herramientas, Plantas).\n\nCrea profundidad de subcategorias que coincida con la especificidad de busqueda. Bajo Muebles de Exterior, crea paginas distintas para Conjuntos de Comedor de Terraza, Tumbonas de Exterior, Bancos de Jardin, Almacenamiento Exterior y Cojines de Exterior.\n\nImplementa schema BreadcrumbList en cada pagina para que Google entienda tu jerarquia.\n\nConstruye paginas de coleccion inter-categorias para misiones de compra comunes. Una pagina de \"Equipamiento Completo de Terraza\" podria reunir productos de muebles de exterior, iluminacion, macetas y textiles de exterior.\n\nAnade descripciones de categoria ricas (150-300 palabras) e implementa enlazado interno inteligente entre categorias.",
           items: [
@@ -378,12 +376,12 @@ items: [
           ],
           image: {
             src: "/images/academy/es/home-category-architecture.svg",
-            alt: "Haus und Garten Kategorie-Architektur mit raumbasierter Navigation und kategorieuebergreifenden Projekt-Hubs",
-            caption: "Raumbasierte Navigation hilft Nutzern, Produkte intuitiv zu finden. Ergaenzen Sie mit kategorieuebergreifenden Projekt-Hubs.",
+            alt: "Diagrama que muestra la arquitectura de categorías de múltiples ángulos organizada por habitación, proyecto y categoría de producto con páginas de misión entre categorías y esquema de ruta de navegación",
+            caption: "Permita que los compradores accedan a su catálogo desde múltiples ángulos, por habitación, proyecto o categoría de producto, con enlaces cruzados y páginas de colección basadas en misiones.",
           },
           callout: {
             title: "Navigationsstruktur",
-            text: "Haus-und-Garten-Shops mit raumbasierter Navigation (Kueche, Bad, Garten) konvertieren 25-35% besser als markenbasierte Navigation, weil Kaeufer nach Projekten und nicht nach Marken suchen.",
+            text: "Las páginas de categorías cruzadas como \"Configuración completa del patio\" o \"Esenciales para la oficina en el hogar\" extraen productos de múltiples categorías y dirigen consultas compuestas que las páginas de una sola categoría no pueden capturar por sí solas. Estos",
           },
         },
         {
@@ -425,12 +423,12 @@ items: [
           ],
           image: {
             src: "/images/academy/it/home-project-search-journey.svg",
-            alt: "Haus und Garten Projekt-Suchreise: Von Problembewusstsein ueber Recherche und Vergleich zum Kauf",
-            caption: "Projektbasierte Keywords treiben engagierten Traffic mit langem Ueberlegungszyklus und vielen Touchpoints.",
+            alt: "Diagramma che mostra il percorso di ricerca del progetto di una casa dall'ispirazione alla pianificazione fino all'acquisto, con la struttura delle categorie in base alle stanze di seguito",
+            caption: "Gli acquirenti da casa seguono un viaggio in 3 fasi dall'ispirazione alla pianificazione dell'acquisto. La tua strategia di contenuto dovrebbe affrontare ogni fase con tipi di pagina appropriati.",
           },
           callout: {
             title: "Projektbasierte Keywords",
-            text: "Haus- und Gartenkaeufer recherchieren 2-4 Wochen vor dem Kauf. Anleitungs-Content fuer die fruehe Problemphase generiert 5x mehr Touchpoints als reine Produkt-Keywords.",
+            text: "Gli acquirenti domestici effettuano spesso ricerche con misure esatte: \"mobile da bagno da 60 pollici\", \"tappeto 8x10\", \"libreria larga 36 pollici\". Includere le dimensioni esatte nei titoli dei prodotti consente di acquisire traffico con intenzioni elevate",
           },
         },
         {
@@ -478,12 +476,12 @@ items: [
           ],
           image: {
             src: "/images/academy/it/home-category-architecture.svg",
-            alt: "Haus und Garten Kategorie-Architektur mit raumbasierter Navigation und kategorieuebergreifenden Projekt-Hubs",
-            caption: "Raumbasierte Navigation hilft Nutzern, Produkte intuitiv zu finden. Ergaenzen Sie mit kategorieuebergreifenden Projekt-Hubs.",
+            alt: "Diagramma che mostra l'architettura di categorie multi-angolo organizzata per stanza, progetto e categoria di prodotto con pagine di missione multicategoria e schema breadcrumb",
+            caption: "Consenti agli acquirenti di accedere al tuo catalogo da più angolazioni, per stanza, progetto o categoria di prodotto, con collegamenti incrociati e pagine di collezione basate sulla missione.",
           },
           callout: {
             title: "Navigationsstruktur",
-            text: "Haus-und-Garten-Shops mit raumbasierter Navigation (Kueche, Bad, Garten) konvertieren 25-35% besser als markenbasierte Navigation, weil Kaeufer nach Projekten und nicht nach Marken suchen.",
+            text: "Le pagine con più categorie come \"Configurazione completa del patio\" o \"Elementi essenziali per l'home office\" estraggono prodotti da più categorie e si rivolgono a query composite che le pagine a categoria singola non possono acquisire da sole. Questi",
           },
         },
         {
@@ -525,12 +523,12 @@ items: [
           ],
           image: {
             src: "/images/academy/nl/home-project-search-journey.svg",
-            alt: "Haus und Garten Projekt-Suchreise: Von Problembewusstsein ueber Recherche und Vergleich zum Kauf",
-            caption: "Projektbasierte Keywords treiben engagierten Traffic mit langem Ueberlegungszyklus und vielen Touchpoints.",
+            alt: "Diagram dat het zoektraject voor een woningproject toont, van inspiratie tot planning tot aankoop, met hieronder een kamergebaseerde categoriestructuur",
+            caption: "Thuisshoppers volgen een reis in drie fasen, van inspiratie tot planning tot aankoop. Uw contentstrategie moet elke fase aanpakken met de juiste paginatypen.",
           },
           callout: {
             title: "Projektbasierte Keywords",
-            text: "Haus- und Gartenkaeufer recherchieren 2-4 Wochen vor dem Kauf. Anleitungs-Content fuer die fruehe Problemphase generiert 5x mehr Touchpoints als reine Produkt-Keywords.",
+            text: "Thuiskopers zoeken vaak naar exacte afmetingen: 'badkamerijdelheid van 60 inch', '8x10 vloerkleed', '90 cm brede boekenkast'. Door exacte afmetingen in producttitels op te nemen, wordt verkeer met een hoge intentie geregistreerd",
           },
         },
         {
@@ -578,12 +576,12 @@ items: [
           ],
           image: {
             src: "/images/academy/nl/home-category-architecture.svg",
-            alt: "Haus und Garten Kategorie-Architektur mit raumbasierter Navigation und kategorieuebergreifenden Projekt-Hubs",
-            caption: "Raumbasierte Navigation hilft Nutzern, Produkte intuitiv zu finden. Ergaenzen Sie mit kategorieuebergreifenden Projekt-Hubs.",
+            alt: "Diagram met categorie-architectuur met meerdere hoeken, georganiseerd per ruimte, project en productcategorie, met missiepagina's voor meerdere categorieën en een broodkruimelschema",
+            caption: "Geef shoppers de mogelijkheid om vanuit meerdere invalshoeken uw catalogus te betreden, per kamer, project of productcategorie, met cross-links en missiegebaseerde collectiepagina's.",
           },
           callout: {
             title: "Navigationsstruktur",
-            text: "Haus-und-Garten-Shops mit raumbasierter Navigation (Kueche, Bad, Garten) konvertieren 25-35% besser als markenbasierte Navigation, weil Kaeufer nach Projekten und nicht nach Marken suchen.",
+            text: "Pagina's met meerdere categorieën, zoals 'Complete patio-installatie' of 'Essentials voor thuiskantoor', halen producten uit meerdere categorieën en richten zich op samengestelde zoekopdrachten die pagina's met één categorie alleen niet kunnen verwerken. Deze",
           },
         },
         {

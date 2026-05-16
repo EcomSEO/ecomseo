@@ -172,8 +172,7 @@ export const userGeneratedContentSeo: AcademyTopic = {
     fr: {
       badge: "Contenu & Autorite",
       heading: "Contenu Genere par les Utilisateurs pour le SEO",
-      intro:
-        "Les avis clients, les sections Q&R, les forums communautaires et les telechargements de photos creent un flux constant de contenu frais et riche en mots-cles qu'aucune equipe editoriale ne pourrait reproduire a cette echelle. Le contenu genere par les utilisateurs (UGC) aide les boutiques ecommerce a se positionner sur les requetes longue traine, a construire des signaux de confiance et a augmenter l'unicite des pages, le tout sans couts de production de contenu supplementaires. Ce guide couvre comment exploiter l'UGC strategiquement tout en gerant les risques SEO lies au contenu non modere.",
+      intro: "Les avis clients, les sections Q&R, les forums communautaires et les telechargements de photos creent un flux constant de contenu frais et riche en mots-clés qu'aucune equipe editoriale ne pourrait reproduire a cette échelle. Le contenu genere par les utilisateurs (UGC) aide les boutiques ecommerce a se positionner sur les requetes longue traine, a construire des signaux de confiance et a augmenter l'unicite des pages, le tout sans couts de production de contenu supplementaires. Ce guide couvre comment exploiter l'UGC strategiquement tout en gerant les risques SEO lies au contenu non modere.",
       readTime: "11 min de lecture",
       sections: [
         {
@@ -188,12 +187,12 @@ export const userGeneratedContentSeo: AcademyTopic = {
           ],
           image: {
             src: "/images/academy/fr/ugc-seo-value-flow.svg",
-            alt: "Flussdiagramm das zeigt wie Bewertungen, F&A-Bereiche und Kundenfotos in Produktseiten einfliessen um einzigartigen Inhalt, Long-Tail-Keywords, Aktualitaetssignale und Rich Snippets zu erzeugen",
-            caption: "Bewertungen, F&A und Kundenfotos fliessen in Produktseiten ein und erzeugen einzigartigen Inhalt, Long-Tail-Keywords, Aktualitaetssignale und Sternbewertungs-Rich-Snippets.",
+            alt: "Diagramme de flux montrant comment les avis, les sections de questions-réponses et les photos des clients alimentent les pages de produits pour générer un contenu unique, des mots-clés à longue traîne, des signaux de fraîcheur et des extraits enrichis",
+            caption: "Les avis, les questions et réponses et les photos des clients alimentent les pages de produits en créant un contenu unique, des mots-clés à longue traîne, des signaux de fraîcheur et des extraits enrichis notés par étoiles.",
           },
           callout: {
             title: "UGC-Skalenvorteil",
-            text: "Eine Produktseite mit 30 Bewertungen enthaelt Hunderte einzigartiger Woerter mit natuerlichen Long-Tail-Variationen die kein Texter gezielt ansteuern wuerde. Seiten mit Bewertungs-Rich-Snippets sehen 15-25% hoehere Klickraten in Suchergebnissen.",
+            text: "Une page produit avec 30 avis contient des centaines de mots uniques avec des variations naturelles à longue traîne qu'aucun rédacteur ne ciblerait. Les pages contenant des extraits enrichis d'avis enregistrent des taux de clics 15 à 25 % plus élevés dans15-25% hoehere Klickraten in Suchergebnissen.",
           },
         },
         {
@@ -203,7 +202,7 @@ export const userGeneratedContentSeo: AcademyTopic = {
           tip: "Envoyez des emails de demande d'avis post-achat 7 a 14 jours apres la livraison, cela donne aux clients suffisamment de temps pour utiliser le produit et rediger des avis pertinents. Incluez des invites specifiques comme 'Quelle etait la raison principale de votre choix de ce produit ?' pour generer des reponses riches en mots-cles.",
         },
         {
-          title: "Les sections Q&R comme moteurs de mots-cles longue traine",
+          title: "Les sections Q&R comme moteurs de mots-clés longue traine",
           content:
             "Les sections questions-reponses sur les pages produit capturent les requetes de recherche dans leur forme la plus naturelle. Quand un client demande \"est-ce que ce sac pour ordinateur portable convient a un MacBook Pro 15 pouces ?\", il utilise exactement le langage que d'autres acheteurs tapent dans Google. Au fil du temps, une section Q&R bien remplie transforme votre page produit en un aimant a mots-cles longue traine qui se positionne pour des dizaines de requetes specifiques que vous n'avez jamais explicitement ciblees.\n\nImplementez le balisage schema FAQ (schema.org/FAQPage) sur les pages produit avec des sections Q&R pour vous qualifier pour les resultats enrichis FAQ dans Google Search. Ces resultats de recherche elargis affichent des paires question-reponse directement dans les SERP, occupant significativement plus d'espace visuel que les resultats standards. Les resultats enrichis FAQ peuvent doubler votre taux de clic organique pour les requetes qui les declenchent.\n\nAmorcez votre section Q&R avec les questions les plus courantes que les clients posent a votre equipe support. Analysez les donnees des tickets de support, des journaux de chat en direct et des emails clients pour identifier les questions recurrentes sur les produits. Publiez-les comme entrees Q&R pre-remplies avec des reponses completes. Cela fournit une valeur SEO immediate tout en demontrant aux futurs clients que les questions sont bienvenues et repondues rapidement.\n\nPermettez aux clients de voter pour les questions et reponses utiles afin de faire remonter le contenu le plus precieux. Ce modele de moderation communautaire garantit que les entrees Q&R les plus pertinentes apparaissent en premier, ce qui ameliore l'experience utilisateur et assure que Google voit le contenu de la plus haute qualite en haut de la section. Implementez un systeme de notification qui alerte votre equipe quand de nouvelles questions sont postees pour que les reponses arrivent dans les 24 heures.",
           items: [
@@ -231,18 +230,18 @@ export const userGeneratedContentSeo: AcademyTopic = {
           ],
         },
         {
-          title: "Mise a l'echelle de la collecte UGC sur votre catalogue",
+          title: "Mise a l'échelle de la collecte UGC sur votre catalogue",
           content:
             "La plupart des boutiques ecommerce ont un probleme de distribution des avis : les best-sellers accumulent des centaines d'avis tandis que les produits de niche en ont zero. Ce desequilibre signifie que vos pages les plus competitives recoivent le boost UGC dont elles ont le moins besoin, tandis que les pages qui pourraient le plus beneficier de contenu unique restent desertes. Une strategie systematique de collecte UGC adresse ce desequilibre.\n\nSegmentez vos campagnes email post-achat par statut d'avis du produit. Les produits avec moins de cinq avis devraient declencher des sequences de demande d'avis plus agressives, plusieurs relances avec des incitations comme des points de fidelite ou des codes de reduction pour le prochain achat. Les produits avec 20 avis ou plus peuvent utiliser une demande a contact unique. Cette approche ponderee concentre vos efforts de collecte la ou ils ont le plus grand impact marginal.\n\nExploitez la preuve sociale pour encourager les avis sur les produits sous-evalues. Affichez un message comme \"Soyez le premier a evaluer ce produit\" avec une incitation visible. Les premiers evaluateurs sont motives par le desir d'aider les autres et la reconnaissance d'etre le premier. Une fois que deux ou trois avis sont en place, l'effet de preuve sociale prend le relais et les avis subsequents arrivent plus naturellement.\n\nSyndiquez les avis entre les variantes de produit et les produits etroitement lies le cas echeant. Si un client evalue une chemise en bleu et que vous vendez la meme chemise en rouge, cet avis est pertinent pour les deux pages produit. La syndication d'avis comble les lacunes dans votre couverture UGC sans creer de problemes de contenu duplique, a condition de l'implementer avec un traitement canonique correct et une attribution claire au produit original.\n\nSuivez votre taux de couverture d'avis comme metrique cle : le pourcentage de produits actifs avec au moins cinq avis. Fixez des objectifs trimestriels pour ameliorer cette metrique et attribuez la responsabilite a votre equipe marketing ou CX. Une boutique avec 90% de couverture d'avis a un avantage SEO massif par rapport a un concurrent avec 30% de couverture, meme si le volume total d'avis est similaire.",
           tip: "Creez une matrice de priorite de collecte d'avis : les produits avec un volume de recherche eleve mais peu d'avis sont prioritaires. Une page produit en page deux avec zero avis pourrait passer en page une simplement en ajoutant cinq avis clients detailles qui ajoutent du contenu unique et riche en mots-cles a la page.",
           image: {
             src: "/images/academy/fr/ugc-risk-management.svg",
-            alt: "Vierspaltige Risikomatrix die Spam, duenne Inhalte, Duplikate und negative Stimmung mit ihren Abhilfemassnahmen zeigt",
-            caption: "Vier UGC-Risiken zu managen: Spam (Auto-Filter), duenne Inhalte (minimale Zeichenanzahl), Duplikate (Canonical Tags) und negative Stimmung (professionelle Antworten innerhalb von 24 Stunden).",
+            alt: "Matrice de risques à quatre colonnes affichant les risques de spam, de contenu léger, de doublons et de sentiments négatifs avec leurs atténuations",
+            caption: "Quatre risques UGC à gérer : le spam (filtres automatiques), le contenu léger (nombre minimum de caractères), les doublons (balises canoniques) et les sentiments négatifs (réponses professionnelles dans les 24 heures).",
           },
           callout: {
             title: "Bewertungen nie zensieren",
-            text: "Negative Bewertungen bauen Vertrauen auf wenn sie mit professionellen Antworten gepaart sind. Eine Seite mit durchdachten Antworten auf Kritik signalisiert hoehere Qualitaet an Google als eine Seite mit unbeantworteten Beschwerden oder verdaechtig perfekten Bewertungen.",
+            text: "Les avis négatifs renforcent la confiance lorsqu’ils sont associés à des réponses professionnelles. Une page contenant des réponses réfléchies aux critiques signale à Google une qualité supérieure à celle d'une page contenant des plaintes sans réponse ou suspectes.it unbeantworteten Beschwerden oder verdaechtig perfekten Bewertungen.",
           },
         },
       ],
@@ -254,14 +253,13 @@ export const userGeneratedContentSeo: AcademyTopic = {
     es: {
       badge: "Contenido y Autoridad",
       heading: "Contenido Generado por Usuarios para SEO",
-      intro:
-        "Las resenas de clientes, las secciones de preguntas y respuestas, los foros comunitarios y las cargas de fotos crean un flujo constante de contenido fresco y rico en palabras clave que ningun equipo editorial podria replicar a escala. El contenido generado por usuarios (UGC) ayuda a las tiendas de ecommerce a posicionarse para consultas de cola larga, construir senales de confianza y aumentar la unicidad de las paginas, todo sin costos adicionales de produccion de contenido. Esta guia cubre como aprovechar el UGC estrategicamente mientras se gestionan los riesgos SEO del contenido no moderado.",
+      intro: "Las resenas de clientes, las secciones de preguntas y respuestas, los foros comunitarios y las cargas de fotos crean un flujo constante de contenido fresco y rico en palabras clave que ningun equipo editorial podria replicar a escala. El contenido generado por usuarios (UGC) ayuda a las tiendas de ecommerce a posicionarse para consultas de cola larga, construir senales de confianza y aumentar la unicidad de las páginas, todo sin costos adicionales de producción de contenido. Esta guia cubre como aprovechar el UGC estratégicamente mientras se gestionan los riesgos SEO del contenido no moderado.",
       readTime: "11 min de lectura",
       sections: [
         {
-          title: "Por que el UGC es una mina de oro SEO para ecommerce",
+          title: "Por qué el UGC es una mina de oro SEO para ecommerce",
           content:
-            "El contenido generado por usuarios anade texto unico a paginas que de otro modo serian identicas entre minoristas. Si tu y diez competidores venden la misma licuadora, sus [paginas de producto](/blog/seo-for-ecommerce-product-pages) probablemente comparten la descripcion del fabricante palabra por palabra. Las resenas de clientes diferencian tu pagina con lenguaje unico y natural que Google valora. Una [pagina de producto](/academy/product-page-seo) con 30 resenas contiene cientos de palabras adicionales, muchas de las cuales incluyen naturalmente variaciones de palabras clave de cola larga que tu equipo de redaccion nunca pensaria en targetear.\n\nLos algoritmos de Google favorecen cada vez mas el contenido que demuestra experiencia genuina con un producto. Las resenas de compradores verificados proporcionan exactamente esta senal. El sistema de contenido util recompensa paginas donde los usuarios pueden encontrar perspectivas autenticas de primera mano. Una pagina de producto con resenas detalladas que describen escenarios de uso en el mundo real supera a una pagina con solo texto de marketing, independientemente de lo bien optimizado que este ese texto.\n\nLa frescura es otro beneficio importante. Las resenas de clientes llegan continuamente, proporcionando a Google un flujo constante de nuevo contenido en paginas que de otro modo permanecerian estaticas durante meses o anos. Cada nueva resena activa una senal de actualizacion de contenido que anima a Googlebot a recrawlear la pagina. Para paginas de producto que rara vez cambian, esta senal de frescura continua puede ser la diferencia entre mantener rankings y perder terreno gradualmente frente a competidores que actualizan con mas frecuencia.",
+            "El contenido generado por usuarios anade texto unico a paginas que de otro modo serian identicas entre minoristas. Si tu y diez competidores venden la misma licuadora, sus [paginas de producto](/blog/seo-for-ecommerce-product-pages) probablemente comparten la descripcion del fabricante palabra por palabra. Las resenas de clientes diferencian tu pagina con lenguaje unico y natural que Google valora. Una [pagina de producto](/academy/product-page-seo) con 30 resenas contiene cientos de palabras adicionales, muchas de las cuales incluyen naturalmente variaciones de palabras clave de cola larga que tu equipo de redaccion nunca pensaria en targetear.\n\nLos algoritmos de Google favorecen cada vez mas el contenido que demuestra experiencia genuina con un producto. Las resenas de compradores verificados proporcionan exactamente esta senal. El sistema de contenido util recompensa paginas donde los usuarios pueden encontrar perspectivas autenticas de primera mano. Una pagina de producto con resenas detalladas que describen escenarios de uso en el mundo real supera a una pagina con solo texto de marketing, independientemente de lo bien optimizado que este ese texto.\n\nLa frescura es otro beneficio importante. Las resenas de clientes llegan continuamente, proporcionando a Google un flujo constante de nuevo contenido en paginas que de otro modo permanecerian estaticas durante meses o años. Cada nueva resena activa una senal de actualizacion de contenido que anima a Googlebot a recrawlear la pagina. Para paginas de producto que rara vez cambian, esta senal de frescura continua puede ser la diferencia entre mantener rankings y perder terreno gradualmente frente a competidores que actualizan con mas frecuencia.",
           items: [
             "Las resenas anaden texto unico que diferencia tus paginas de producto de competidores que venden articulos identicos",
             "El lenguaje de los clientes incluye naturalmente variaciones de palabras clave de cola larga que los equipos editoriales pasarian por alto",
@@ -270,12 +268,12 @@ export const userGeneratedContentSeo: AcademyTopic = {
           ],
           image: {
             src: "/images/academy/es/ugc-seo-value-flow.svg",
-            alt: "Flussdiagramm das zeigt wie Bewertungen, F&A-Bereiche und Kundenfotos in Produktseiten einfliessen um einzigartigen Inhalt, Long-Tail-Keywords, Aktualitaetssignale und Rich Snippets zu erzeugen",
-            caption: "Bewertungen, F&A und Kundenfotos fliessen in Produktseiten ein und erzeugen einzigartigen Inhalt, Long-Tail-Keywords, Aktualitaetssignale und Sternbewertungs-Rich-Snippets.",
+            alt: "Diagrama de flujo que muestra cómo las reseñas, las secciones de preguntas y respuestas y las fotografías de los clientes se incorporan a las páginas de productos para generar contenido único, palabras clave de cola larga, señales de actualidad y fragmentos enriquecidos.",
+            caption: "Reseñas, preguntas y respuestas y fotografías de clientes se incorporan a las páginas de productos, creando contenido único, palabras clave de cola larga, señales de actualidad y fragmentos enriquecidos con calificación de estrellas.",
           },
           callout: {
             title: "UGC-Skalenvorteil",
-            text: "Eine Produktseite mit 30 Bewertungen enthaelt Hunderte einzigartiger Woerter mit natuerlichen Long-Tail-Variationen die kein Texter gezielt ansteuern wuerde. Seiten mit Bewertungs-Rich-Snippets sehen 15-25% hoehere Klickraten in Suchergebnissen.",
+            text: "Una página de producto con 30 reseñas contiene cientos de palabras únicas con variaciones naturales de cola larga a las que ningún redactor se dirigiría. Las páginas con fragmentos enriquecidos de reseñas obtienen tasas de clics entre un 15% y un 25% más altas en15-25% hoehere Klickraten in Suchergebnissen.",
           },
         },
         {
@@ -313,18 +311,18 @@ export const userGeneratedContentSeo: AcademyTopic = {
           ],
         },
         {
-          title: "Escalar la recoleccion de UGC en tu catalogo",
+          title: "Escalar la recoleccion de UGC en tu catálogo",
           content:
             "La mayoria de las tiendas de ecommerce tienen un problema de distribucion de resenas: los bestsellers acumulan cientos de resenas mientras que los productos de cola larga tienen cero. Este desequilibrio significa que tus paginas mas competitivas obtienen el impulso de UGC que menos necesitan, mientras que las paginas que mas podrian beneficiarse de contenido unico permanecen vacias. Una estrategia sistematica de recoleccion de UGC aborda este desequilibrio.\n\nSegmenta tus campanas de email post-compra por estado de resenas del producto. Los productos con menos de cinco resenas deberian activar secuencias de solicitud de resena mas agresivas, multiples seguimientos con incentivos como puntos de fidelidad o codigos de descuento para la proxima compra. Los productos con 20 o mas resenas pueden usar una solicitud de un solo contacto. Este enfoque ponderado concentra tus esfuerzos de recoleccion donde tienen el mayor impacto marginal.\n\nAprovecha la prueba social para fomentar resenas en productos poco resenados. Muestra un mensaje como \"Se el primero en resenar este producto\" con un incentivo visible. Los primeros resenadores estan motivados por el deseo de ayudar a otros y el reconocimiento de ser el primero. Una vez que dos o tres resenas estan en su lugar, el efecto de prueba social toma el control y las resenas subsecuentes llegan mas naturalmente.\n\nSindica resenas entre variantes de producto y productos estrechamente relacionados cuando sea apropiado. Si un cliente resena una camisa en azul y vendes la misma camisa en rojo, esa resena es relevante para ambas paginas de producto. La sindicacion de resenas llena vacios en tu cobertura de UGC sin crear problemas de contenido duplicado, siempre que la implementes con manejo canonico correcto y atribucion clara al producto original.\n\nRastrea tu tasa de cobertura de resenas como metrica clave: el porcentaje de productos activos con al menos cinco resenas. Establece objetivos trimestrales para mejorar esta metrica y asigna responsabilidad a tu equipo de marketing o CX. Una tienda con 90% de cobertura de resenas tiene una ventaja SEO masiva sobre un competidor con 30% de cobertura, incluso si el volumen total de resenas es similar.",
           tip: "Crea una matriz de prioridad de recoleccion de resenas: los productos con alto volumen de busqueda pero pocas resenas obtienen maxima prioridad. Una pagina de producto posicionada en la pagina dos con cero resenas podria saltar a la pagina uno simplemente anadiendo cinco resenas detalladas de clientes que agregan contenido unico y rico en palabras clave a la pagina.",
           image: {
             src: "/images/academy/es/ugc-risk-management.svg",
-            alt: "Vierspaltige Risikomatrix die Spam, duenne Inhalte, Duplikate und negative Stimmung mit ihren Abhilfemassnahmen zeigt",
-            caption: "Vier UGC-Risiken zu managen: Spam (Auto-Filter), duenne Inhalte (minimale Zeichenanzahl), Duplikate (Canonical Tags) und negative Stimmung (professionelle Antworten innerhalb von 24 Stunden).",
+            alt: "Matriz de riesgos de cuatro columnas que muestra los riesgos de spam, contenido reducido, duplicados y sentimientos negativos con sus mitigaciones.",
+            caption: "Cuatro riesgos de UGC que hay que gestionar: spam (filtros automáticos), contenido reducido (recuento mínimo de caracteres), duplicados (etiquetas canónicas) y sentimiento negativo (respuestas profesionales en un plazo de 24 horas).",
           },
           callout: {
             title: "Bewertungen nie zensieren",
-            text: "Negative Bewertungen bauen Vertrauen auf wenn sie mit professionellen Antworten gepaart sind. Eine Seite mit durchdachten Antworten auf Kritik signalisiert hoehere Qualitaet an Google als eine Seite mit unbeantworteten Beschwerden oder verdaechtig perfekten Bewertungen.",
+            text: "Las reseñas negativas generan confianza cuando se combinan con respuestas profesionales. Una página con respuestas reflexivas a las críticas indica a Google mayor calidad que una página con quejas sin respuesta o sospechas.it unbeantworteten Beschwerden oder verdaechtig perfekten Bewertungen.",
           },
         },
       ],
@@ -352,12 +350,12 @@ export const userGeneratedContentSeo: AcademyTopic = {
           ],
           image: {
             src: "/images/academy/it/ugc-seo-value-flow.svg",
-            alt: "Flussdiagramm das zeigt wie Bewertungen, F&A-Bereiche und Kundenfotos in Produktseiten einfliessen um einzigartigen Inhalt, Long-Tail-Keywords, Aktualitaetssignale und Rich Snippets zu erzeugen",
-            caption: "Bewertungen, F&A und Kundenfotos fliessen in Produktseiten ein und erzeugen einzigartigen Inhalt, Long-Tail-Keywords, Aktualitaetssignale und Sternbewertungs-Rich-Snippets.",
+            alt: "Diagramma di flusso che mostra come le recensioni, le sezioni di domande e risposte e le foto dei clienti vengono inserite nelle pagine dei prodotti per generare contenuti unici, parole chiave a coda lunga, indicatori di freschezza e rich snippet",
+            caption: "Recensioni, domande e risposte e foto dei clienti vengono inserite nelle pagine dei prodotti creando contenuti unici, parole chiave a coda lunga, indicatori di freschezza e rich snippet con valutazione a stelle.",
           },
           callout: {
             title: "UGC-Skalenvorteil",
-            text: "Eine Produktseite mit 30 Bewertungen enthaelt Hunderte einzigartiger Woerter mit natuerlichen Long-Tail-Variationen die kein Texter gezielt ansteuern wuerde. Seiten mit Bewertungs-Rich-Snippets sehen 15-25% hoehere Klickraten in Suchergebnissen.",
+            text: "Una pagina di prodotto con 30 recensioni contiene centinaia di parole uniche con variazioni naturali a coda lunga che nessun copywriter prenderebbe di mira. Le pagine con rich snippet di recensioni registrano percentuali di clic più elevate del 15-25% in15-25% hoehere Klickraten in Suchergebnissen.",
           },
         },
         {
@@ -401,12 +399,12 @@ export const userGeneratedContentSeo: AcademyTopic = {
           tip: "Crea una matrice di priorita per la raccolta recensioni: i prodotti con alto volume di ricerca ma poche recensioni ottengono la massima priorita. Una pagina prodotto posizionata a pagina due con zero recensioni potrebbe saltare a pagina uno semplicemente aggiungendo cinque recensioni dettagliate dei clienti che aggiungono contenuto unico e ricco di parole chiave alla pagina.",
           image: {
             src: "/images/academy/it/ugc-risk-management.svg",
-            alt: "Vierspaltige Risikomatrix die Spam, duenne Inhalte, Duplikate und negative Stimmung mit ihren Abhilfemassnahmen zeigt",
-            caption: "Vier UGC-Risiken zu managen: Spam (Auto-Filter), duenne Inhalte (minimale Zeichenanzahl), Duplikate (Canonical Tags) und negative Stimmung (professionelle Antworten innerhalb von 24 Stunden).",
+            alt: "Matrice di rischio a quattro colonne che mostra i rischi di spam, contenuto scarno, duplicati e sentiment negativo con le relative attenuazioni",
+            caption: "Quattro rischi UGC da gestire: spam (filtri automatici), contenuto scarno (conteggio minimo di caratteri), duplicati (tag canonici) e sentiment negativo (risposte professionali entro 24 ore).",
           },
           callout: {
             title: "Bewertungen nie zensieren",
-            text: "Negative Bewertungen bauen Vertrauen auf wenn sie mit professionellen Antworten gepaart sind. Eine Seite mit durchdachten Antworten auf Kritik signalisiert hoehere Qualitaet an Google als eine Seite mit unbeantworteten Beschwerden oder verdaechtig perfekten Bewertungen.",
+            text: "Le recensioni negative creano fiducia se abbinate a risposte professionali. Una pagina con risposte ponderate alle critiche segnala a Google una qualità superiore rispetto a una pagina con reclami senza risposta o dubbiit unbeantworteten Beschwerden oder verdaechtig perfekten Bewertungen.",
           },
         },
       ],
@@ -434,12 +432,12 @@ export const userGeneratedContentSeo: AcademyTopic = {
           ],
           image: {
             src: "/images/academy/nl/ugc-seo-value-flow.svg",
-            alt: "Flussdiagramm das zeigt wie Bewertungen, F&A-Bereiche und Kundenfotos in Produktseiten einfliessen um einzigartigen Inhalt, Long-Tail-Keywords, Aktualitaetssignale und Rich Snippets zu erzeugen",
-            caption: "Bewertungen, F&A und Kundenfotos fliessen in Produktseiten ein und erzeugen einzigartigen Inhalt, Long-Tail-Keywords, Aktualitaetssignale und Sternbewertungs-Rich-Snippets.",
+            alt: "Stroomdiagram dat laat zien hoe recensies, vraag- en antwoordsecties en klantfoto's worden ingevoerd in productpagina's om unieke inhoud, long-tail-zoekwoorden, versheidssignalen en rich snippets te genereren",
+            caption: "Recensies, vraag- en antwoordsessies en klantfoto's worden op de productpagina's geplaatst en creëren unieke inhoud, long-tail-zoekwoorden, versheidssignalen en rich snippets met sterbeoordelingen.",
           },
           callout: {
             title: "UGC-Skalenvorteil",
-            text: "Eine Produktseite mit 30 Bewertungen enthaelt Hunderte einzigartiger Woerter mit natuerlichen Long-Tail-Variationen die kein Texter gezielt ansteuern wuerde. Seiten mit Bewertungs-Rich-Snippets sehen 15-25% hoehere Klickraten in Suchergebnissen.",
+            text: "Een productpagina met 30 recensies bevat honderden unieke woorden met natuurlijke long-tailvariaties waar geen enkele copywriter zich op zou richten. Pagina's met rich snippets met recensies genereren 15-25% hogere klikfrequenties15-25% hoehere Klickraten in Suchergebnissen.",
           },
         },
         {
@@ -483,12 +481,12 @@ export const userGeneratedContentSeo: AcademyTopic = {
           tip: "Maak een prioriteitsmatrix voor recensieverzameling: producten met hoog zoekvolume maar weinig recensies krijgen topprioriteit. Een productpagina die rankt op pagina twee met nul recensies kan naar pagina een springen door simpelweg vijf gedetailleerde klantrecensies toe te voegen die unieke, zoekwoordrijke content aan de pagina toevoegen.",
           image: {
             src: "/images/academy/nl/ugc-risk-management.svg",
-            alt: "Vierspaltige Risikomatrix die Spam, duenne Inhalte, Duplikate und negative Stimmung mit ihren Abhilfemassnahmen zeigt",
-            caption: "Vier UGC-Risiken zu managen: Spam (Auto-Filter), duenne Inhalte (minimale Zeichenanzahl), Duplikate (Canonical Tags) und negative Stimmung (professionelle Antworten innerhalb von 24 Stunden).",
+            alt: "Risicomatrix met vier kolommen die spam, dunne inhoud, duplicaten en negatieve sentimentrisico's met de bijbehorende oplossingen weergeeft",
+            caption: "Vier UGC-risico's om te beheren: spam (automatische filters), dunne inhoud (minimaal aantal tekens), duplicaten (canonieke tags) en negatief sentiment (professionele antwoorden binnen 24 uur).",
           },
           callout: {
             title: "Bewertungen nie zensieren",
-            text: "Negative Bewertungen bauen Vertrauen auf wenn sie mit professionellen Antworten gepaart sind. Eine Seite mit durchdachten Antworten auf Kritik signalisiert hoehere Qualitaet an Google als eine Seite mit unbeantworteten Beschwerden oder verdaechtig perfekten Bewertungen.",
+            text: "Negatieve recensies wekken vertrouwen op als ze worden gecombineerd met professionele reacties. Een pagina met doordachte antwoorden op kritiek geeft een hogere kwaliteit aan voor Google dan een pagina met onbeantwoorde klachten of verdachte zakenit unbeantworteten Beschwerden oder verdaechtig perfekten Bewertungen.",
           },
         },
       ],

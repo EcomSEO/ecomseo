@@ -184,8 +184,7 @@ export const titleTagsAndMetaDescriptions: AcademyTopic = {
     fr: {
       badge: "SEO on-page",
       heading: "Balises Title & Meta Descriptions",
-      intro:
-        "Les balises title et les meta descriptions sont la vitrine de votre site e-commerce dans les resultats de recherche. Elles determinent si un client potentiel clique sur votre produit ou le depasse pour aller chez un concurrent. En e-commerce, ou des milliers de produits similaires se disputent l'attention, rediger des balises title et des meta descriptions convaincantes et riches en mots-cles n'est pas optionnel -- c'est un levier fondamental de revenus. Bien calibrer ces deux elements dans votre catalogue peut augmenter les taux de clics organiques de 20 a 40 %, se traduisant directement par plus de trafic et plus de ventes sans depenser un centime en publicite. C'est un élément fondamental du [SEO on-page pour l'e-commerce](/blog/on-page-seo-for-ecommerce).",
+      intro: "Les balises title et les meta descriptions sont la vitrine de votre site e-commerce dans les resultats de recherche. Elles determinent si un client potentiel clique sur votre produit ou le depasse pour aller chez un concurrent. En e-commerce, ou des milliers de produits similaires se disputent l'attention, rediger des balises title et des meta descriptions convaincantes et riches en mots-clés n'est pas optionnel -- c'est un levier fondamental de revenus. Bien calibrer ces deux éléments dans votre catalogue peut augmenter les taux de clics organiques de 20 a 40 %, se traduisant directement par plus de trafic et plus de ventes sans depenser un centime en publicite. C'est un élément fondamental du [SEO on-page pour l'e-commerce](/blog/on-page-seo-for-ecommerce).",
       readTime: "9 min de lecture",
       sections: [
         {
@@ -200,18 +199,18 @@ export const titleTagsAndMetaDescriptions: AcademyTopic = {
           ],
         },
         {
-          title: "Creer des balises title e-commerce a fort taux de conversion",
+          title: "Créer des balises title e-commerce a fort taux de conversion",
           content:
             "La balise title e-commerce ideale suit une formule structuree qui equilibre ciblage par mots-cles et persuasion. Pour les [pages produits](/academy/product-page-seo), le schema le plus efficace est : Mot-cle Principal (Nom du Produit) + Attribut Differenciateur + Marque + Nom de la Boutique. Par exemple, \"Serviettes de Bain Coton Bio Lot de 4 - Vert Sauge | Brooklinen\" inclut le mot-cle produit, un attribut de couleur captant les recherches longue traine, la marque et le detaillant.\n\nLes pages categories necessitent une approche differente. La formule se deplace vers : Mot-cle de Categorie + Qualificatif + Nom de la Boutique. Un exemple serait \"Chaussures de Running Femme - Grandes Marques, Retours Gratuits | FitGear.\" Le qualificatif ajoute une raison de cliquer, tout en gardant le mot-cle de categorie en tete pour un impact maximal sur le classement. Evitez d'inclure des noms de produits specifiques dans les balises title de pages categories -- l'objectif est de capturer des requetes de recherche plus larges.\n\nLe nombre de caracteres compte enormement. Google affiche environ 50-60 caracteres d'une balise title avant de tronquer avec des points de suspension. Sur mobile, l'affichage est encore plus etroit. Placez vos mots-cles les plus importants et vos arguments de vente dans les 50 premiers caracteres, et traitez tout au-dela de 60 caracteres comme du contenu bonus qui peut ou non etre visible. Utilisez des barres verticales (|) ou des tirets (-) comme separateurs plutot que des virgules, qui peuvent donner un aspect encombre aux titres.\n\nPour les boutiques comptant des milliers de produits, la creation manuelle de balises title est impraticable. Construisez des templates dynamiques qui extraient les attributs produits de votre base de donnees. La plupart des plateformes e-commerce supportent des variables comme {produit.nom}, {produit.marque} et {produit.categorie}. La cle est de tester plusieurs structures de templates a travers differentes categories et de mesurer les differences de CTR dans Google Search Console sur des periodes de 4 a 6 semaines.",
           tip: "Placez votre mot-cle principal en debut de balise title. Si votre mot-cle cible est 'sac ordinateur cuir', commencez le titre avec ces mots exacts plutot que de les enterrer apres le nom de la marque. Google accorde un poids legerement plus important aux mots-cles apparaissant plus tot dans la balise title, et les internautes balaient de gauche a droite.",
           image: {
             src: "/images/academy/fr/title-tag-formula.svg",
-            alt: "Diagramm mit der Title-Tag-Formel für verschiedene Ecommerce-Seitentypen",
+            alt: "Diagramme montrant la formule de balise de titre pour les pages de produits, les pages de catégories et la page d'accueil avec des directives sur le nombre de caractères",
             caption: "Verschiedene Seitentypen brauchen verschiedene Title-Tag-Formeln. Primäre Keywords in den ersten 50 Zeichen platzieren.",
           },
           callout: {
             title: "CTR-Steigerungsdaten",
-            text: "Gut optimierte Title Tags steigern die CTR konsistent um 20–40 % im Vergleich zu generischen Alternativen.",
+            text: "Les balises de titre bien optimisées augmentent systématiquement le CTR de 20 à 40 % par rapport aux alternatives génériques. Un titre comprenant la marque, le modèle, la fonctionnalité clé et l'incitation à l'achat remporte toujours des clics par rapport aux noms de produits nus",
           },
         },
         {
@@ -226,7 +225,7 @@ export const titleTagsAndMetaDescriptions: AcademyTopic = {
           ],
         },
         {
-          title: "Mise a l'echelle des balises title et meta descriptions pour les grands catalogues",
+          title: "Mise a l'échelle des balises title et meta descriptions pour les grands catalogues",
           content:
             "Les boutiques e-commerce avec des centaines ou des milliers de produits font face a un defi unique : rediger des balises title et des meta descriptions uniques et optimisees a grande echelle. La solution est une approche par paliers qui combine des templates pour la longue traine avec une optimisation manuelle pour les pages a forte valeur.\n\nCommencez par identifier vos 100 pages les plus importantes par chiffre d'affaires ou trafic -- celles-ci meritent des balises title et des meta descriptions artisanales, adaptees a leurs mots-cles specifiques et a leur environnement concurrentiel. Pour ces pages, etudiez les titres des concurrents, analysez l'intention de recherche et testez differentes variantes en A/B. L'effort est rentable car un petit pourcentage de pages genere generalement un grand pourcentage du chiffre d'affaires.\n\nPour le reste du catalogue, construisez des templates specifiques par categorie. Un template pour la categorie chaussures pourrait etre : \"{NomProduit} - {Couleur} {Matiere} | Livraison Gratuite | {NomBoutique}\" tandis qu'un template pour l'electronique serait : \"{NomProduit} {NumeroModele} - {CaracteristiqueCle} | {NomBoutique}.\" La structure du template doit differer selon la categorie, car les acheteurs recherchent des attributs differents selon le type de produit.\n\nEvitez le piege de laisser les meta descriptions vides pour les pages de moindre priorite. Quand aucune meta description n'est definie, Google genere automatiquement un extrait du contenu de la page, qui est souvent une phrase aleatoire de la description produit ou meme du texte de navigation. Les extraits generes automatiquement incluent rarement des messages persuasifs ou des incitations a l'achat.\n\nAuditez regulierement vos balises title et meta descriptions pour detecter les doublons. Les titres en double signalent a Google que vos pages pourraient avoir du contenu duplique, et ils diluent votre performance de clics en rendant plusieurs listings identiques dans les resultats de recherche.",
           tip: "Lancez un crawl mensuel avec des outils comme Screaming Frog ou Sitebulb pour signaler les balises title et meta descriptions en double, manquantes ou tronquees. Configurez des alertes pour les pages ou Google reecrit vos titres, detectables en comparant vos balises title definies avec ce qui apparait dans le rapport de performance de Google Search Console. Effectuez un crawl mensuel avec des outils comme Screaming Frog, Sitebulb ou notre [analyseur de balises méta](/tools/meta-tags-checker) pour signaler les balises titre et méta descriptions dupliquées, manquantes ou tronquées.",
@@ -243,11 +242,11 @@ export const titleTagsAndMetaDescriptions: AcademyTopic = {
           ],
           callout: {
             title: "Duplikat-Title-Risiko",
-            text: "Wenn mehrere Seiten identische Title Tags haben, kann Google sie als Duplikate behandeln. Jede Seite braucht einen einzigartigen Titel.",
+            text: "Lorsque « Chaussures de course bleues » et « Chaussures de course rouges » partagent le même titre « Chaussures de course – MyStore », Google ne peut pas les différencier. Chaque page de produit a besoin d'une balise de titre unique qui reflète ses spécificités.",
           },
         },
         {
-          title: "Mesurer et ameliorer la performance des balises title",
+          title: "Mesurer et améliorer la performance des balises title",
           content:
             "Google Search Console est votre outil principal pour mesurer l'efficacite des balises title et des meta descriptions. Le rapport de Performance montre les impressions, les clics et le CTR pour chaque page de votre site. Triez par impressions pour trouver les pages qui apparaissent frequemment dans les resultats de recherche mais ont un CTR faible -- ce sont vos pages a plus fort potentiel d'amelioration des balises title.\n\nEtablissez un benchmark de CTR pour chaque type de page. Les pages produits dans les niches competitives atteignent typiquement 2-5 % de CTR depuis la recherche organique. Les pages categories tendent a se situer entre 3-8 % de CTR pour leurs mots-cles cibles. Les pages significativement en dessous de ces benchmarks ont probablement des balises title ou des meta descriptions faibles qui ne motivent pas les clics.\n\nQuand vous mettez a jour une balise title, suivez le changement sur une periode de 4 a 6 semaines avant de tirer des conclusions. Les fluctuations de CTR sont normales d'une semaine a l'autre, et vous avez besoin de suffisamment de donnees pour identifier une tendance veritable. Documentez chaque changement de balise title avec la date, l'ancien titre, le nouveau titre et le mot-cle que vous ciblez afin de pouvoir correler les changements avec les evolutions de performance.\n\nEnvisagez de mener des experiences structurees en changeant les balises title pour un lot de 20-50 produits similaires en meme temps. Cela vous donne un echantillon plus large et reduit le bruit des fluctuations de pages individuelles. Comparez le CTR moyen du groupe test avec un groupe temoin de pages inchangees dans la meme categorie. Au fil du temps, ces experiences construisent un guide interne des formules de balises title qui fonctionnent le mieux pour votre audience et vos categories de produits specifiques.\n\nPortez attention au rapport des requetes dans Search Console. Si Google affiche votre page pour des requetes qui ne correspondent pas a votre balise title, cela peut indiquer que votre titre est confus ou que le contenu de la page necessite un realignement.",
           tip: "Creez un tableur pour suivre les experiences de balises title avec des colonnes pour l'URL de la page, l'ancien titre, le nouveau titre, la date de modification, le CTR 30 jours avant et le CTR 30 jours apres. Sur 6-12 mois, ce jeu de donnees devient inestimable pour comprendre quels schemas resonnent avec votre audience.",
@@ -271,13 +270,12 @@ export const titleTagsAndMetaDescriptions: AcademyTopic = {
     },
     es: {
       badge: "SEO on-page",
-      heading: "Etiquetas de Titulo y Meta Descripciones",
-      intro:
-        "Las etiquetas de titulo y las meta descripciones son el escaparate de tu tienda online en los resultados de busqueda. Determinan si un cliente potencial hace clic en tu producto o se desplaza hasta un competidor. En el comercio electronico, donde miles de productos similares compiten por la atencion, redactar etiquetas de titulo y meta descripciones convincentes y ricas en palabras clave no es opcional, es un generador fundamental de ingresos. Optimizar estos dos elementos en tu catalogo puede aumentar las tasas de clics organicos entre un 20 y un 40%, traduciendose directamente en mas trafico y mas ventas sin gastar un centimo en publicidad. Este es un componente fundamental del [SEO on-page para ecommerce](/blog/on-page-seo-for-ecommerce).",
+      heading: "Etiquetas de Título y Meta Descripciones",
+      intro: "Las etiquetas de título y las meta descripciones son el escaparate de tu tienda online en los resultados de busqueda. Determinan si un cliente potencial hace clic en tu producto o se desplaza hasta un competidor. En el comercio electrónico, donde miles de productos similares compiten por la atención, redactar etiquetas de título y meta descripciones convincentes y ricas en palabras clave no es opcional, es un generador fundamental de ingresos. Optimizar estos dos elementos en tu catálogo puede aumentar las tasas de clics organicos entre un 20 y un 40%, traduciendose directamente en mas tráfico y mas ventas sin gastar un centimo en publicidad. Este es un componente fundamental del [SEO on-page para ecommerce](/blog/on-page-seo-for-ecommerce).",
       readTime: "9 min de lectura",
       sections: [
         {
-          title: "Por que las etiquetas de titulo importan mas en ecommerce",
+          title: "Por qué las etiquetas de título importan más en ecommerce",
           content:
             "Las etiquetas de titulo tienen un peso desproporcionado en el SEO de ecommerce en comparacion con otros tipos de sitios web. Para una tienda online, la etiqueta de titulo es a menudo la primera y unica oportunidad de comunicar la relevancia del producto, la confianza en la marca y la propuesta de valor al buscador. Google utiliza la etiqueta de titulo como senal de clasificacion principal, y los buscadores la usan como factor de decision principal al elegir que resultado clicar.\n\nEn categorias de productos competitivas, docenas de tiendas venden los mismos articulos o similares. Cuando los resultados de busqueda muestran diez listados para \"auriculares inalambricos con cancelacion de ruido\", la etiqueta de titulo es lo que separa al ganador del clic del ignorado. Un titulo generico como \"Auriculares - MiTienda\" pierde cada vez frente a \"Sony WH-1000XM5 Auriculares Inalambricos Cancelacion de Ruido | Envio Gratis - AudioShop.\" El segundo titulo comunica la marca, el modelo exacto, una caracteristica clave y un incentivo de compra.\n\nGoogle tambien se reserva el derecho de reescribir tu etiqueta de titulo si considera que la original es inadecuada o enganosa. Esto ocurre frecuentemente con sitios de ecommerce que usan titulos excesivamente largos, rellenos de palabras clave o titulos que no coinciden con el contenido de la pagina. Cuando Google reescribe tu titulo, pierdes el control sobre tu mensaje en los resultados de busqueda. Escribir etiquetas de titulo claras, precisas y de longitud adecuada reduce la probabilidad de que Google las modifique y asegura que tu mensaje llegue al buscador.",
           items: [
@@ -288,18 +286,18 @@ export const titleTagsAndMetaDescriptions: AcademyTopic = {
           ],
         },
         {
-          title: "Crear etiquetas de titulo de alta conversion para ecommerce",
+          title: "Crear etiquetas de título de alta conversion para ecommerce",
           content:
             "La etiqueta de titulo ideal para ecommerce sigue una formula estructurada que equilibra la segmentacion por palabras clave con la persuasion. Para [paginas de producto](/academy/product-page-seo)s, el patron mas efectivo es: Palabra Clave Principal (Nombre del Producto) + Atributo Diferenciador + Marca + Nombre de la Tienda. Por ejemplo, \"Toallas de Bano Algodon Organico Set de 4 - Verde Salvia | Brooklinen\" incluye la palabra clave del producto, un atributo de color que captura busquedas de cola larga, la marca y el minorista.\n\nLas paginas de categoria requieren un enfoque diferente. Aqui la formula cambia a: Palabra Clave de Categoria + Calificador + Nombre de la Tienda. Un ejemplo seria \"Zapatillas Running Mujer - Mejores Marcas, Devoluciones Gratis | FitGear.\" El calificador anade una razon para hacer clic, mientras mantiene la palabra clave de categoria al frente para maximo impacto en el ranking. Evita incluir nombres de productos especificos en las etiquetas de titulo de paginas de categoria -- el objetivo es capturar consultas de busqueda mas amplias.\n\nEl conteo de caracteres importa significativamente. Google muestra aproximadamente 50-60 caracteres de una etiqueta de titulo antes de truncar con puntos suspensivos. En movil, la visualizacion es aun mas estrecha. Coloca tus palabras clave mas importantes y argumentos de venta dentro de los primeros 50 caracteres, y trata cualquier cosa mas alla de 60 caracteres como contenido adicional que puede o no ser visible. Usa barras verticales (|) o guiones (-) como separadores en lugar de comas, que pueden hacer que los titulos se vean desordenados.\n\nPara tiendas con miles de productos, la creacion manual de etiquetas de titulo es impracticable. Construye plantillas dinamicas que extraigan atributos de productos de tu base de datos. La mayoria de las plataformas de ecommerce soportan variables como {producto.nombre}, {producto.marca} y {producto.categoria}. La clave es probar multiples estructuras de plantillas en diferentes categorias y medir las diferencias de CTR en Google Search Console durante periodos de 4 a 6 semanas.",
           tip: "Coloca tu palabra clave principal al inicio de la etiqueta de titulo. Si tu palabra clave objetivo es 'bolso portatil cuero', comienza el titulo con esas palabras exactas en lugar de enterrarlas despues del nombre de la marca. Google da un peso ligeramente mayor a las palabras clave que aparecen antes en la etiqueta de titulo, y los buscadores escanean de izquierda a derecha.",
           image: {
             src: "/images/academy/es/title-tag-formula.svg",
-            alt: "Diagramm mit der Title-Tag-Formel für verschiedene Ecommerce-Seitentypen",
+            alt: "Diagrama que muestra la fórmula de la etiqueta de título para las páginas de productos, las páginas de categorías y la página de inicio con pautas de recuento de caracteres.",
             caption: "Verschiedene Seitentypen brauchen verschiedene Title-Tag-Formeln. Primäre Keywords in den ersten 50 Zeichen platzieren.",
           },
           callout: {
             title: "CTR-Steigerungsdaten",
-            text: "Gut optimierte Title Tags steigern die CTR konsistent um 20–40 % im Vergleich zu generischen Alternativen.",
+            text: "Las etiquetas de título bien optimizadas aumentan constantemente el CTR entre un 20% y un 40% en comparación con las alternativas genéricas. Un título que incluye marca, modelo, característica clave e incentivo de compra genera más clics que los nombres de productos simples.",
           },
         },
         {
@@ -314,15 +312,15 @@ export const titleTagsAndMetaDescriptions: AcademyTopic = {
           ],
         },
         {
-          title: "Escalar etiquetas de titulo y meta descripciones en catalogos grandes",
+          title: "Escalar etiquetas de título y meta descripciones en catálogos grandes",
           content:
             "Las tiendas de ecommerce con cientos o miles de productos enfrentan un desafio unico: escribir etiquetas de titulo y meta descripciones unicas y optimizadas a escala. La solucion es un enfoque escalonado que combina plantillas para la cola larga con optimizacion manual para paginas de alto valor.\n\nComienza identificando tus 100 paginas principales por ingresos o trafico -- estas merecen etiquetas de titulo y meta descripciones elaboradas a mano, adaptadas a sus palabras clave especificas y su panorama competitivo. Para estas paginas, investiga los titulos de la competencia, analiza la intencion de busqueda y prueba diferentes variaciones mediante A/B testing. El esfuerzo vale la pena porque un pequeno porcentaje de paginas tipicamente genera un gran porcentaje de los ingresos.\n\nPara el resto del catalogo, construye plantillas especificas por categoria. Una plantilla para la categoria de calzado podria ser: \"{NombreProducto} - {Color} {Material} | Envio Gratis | {NombreTienda}\" mientras que una plantilla para electronica podria ser: \"{NombreProducto} {NumeroModelo} - {CaracteristicaClave} | {NombreTienda}.\" La estructura de la plantilla debe diferir por categoria porque los compradores buscan atributos diferentes segun el tipo de producto.\n\nEvita la trampa de dejar las meta descripciones vacias para paginas de menor prioridad. Cuando no se establece una meta descripcion, Google genera automaticamente un fragmento del contenido de la pagina, que a menudo es una frase aleatoria de la descripcion del producto o incluso texto de navegacion. Los fragmentos generados automaticamente raramente incluyen mensajes persuasivos o incentivos de compra.\n\nAudita regularmente tus etiquetas de titulo y meta descripciones en busca de duplicados. Los titulos duplicados senalan a Google que tus paginas podrian tener contenido duplicado, y diluyen tu rendimiento de clics al hacer que multiples listados se vean identicos en los resultados de busqueda.",
           tip: "Ejecuta un rastreo mensual con herramientas como Screaming Frog, Sitebulb o nuestro [analizador de meta tags](/tools/meta-tags-checker) para senalar etiquetas de titulo y meta descripciones duplicadas, faltantes o truncadas. Configura alertas para paginas donde Google esta reescribiendo tus titulos, lo cual puedes detectar comparando tus etiquetas de titulo configuradas con lo que aparece en el informe de rendimiento de Google Search Console.",
         },
         {
-          title: "Errores comunes en etiquetas de titulo y meta descripciones",
+          title: "Errores comunes en etiquetas de título y meta descripciones",
           content:
-            "El error mas danino en las etiquetas de titulo de ecommerce es usar el mismo titulo en multiples paginas. Cuando tus paginas de producto \"Zapatillas Running Azules\" y \"Zapatillas Running Rojas\" comparten el titulo \"Zapatillas Running - MiTienda\", Google tiene dificultades para diferenciarlas, y los buscadores no tienen razon para preferir un listado sobre el otro. Cada pagina de tu tienda necesita una etiqueta de titulo unica que refleje el contenido especifico de esa pagina.\n\nEl relleno de palabras clave sigue siendo sorprendentemente comun en ecommerce. Etiquetas de titulo como \"Comprar Zapatillas Running | Mejores Zapatillas Running | Zapatillas Running Baratas | Zapatillas Running Oferta\" activan los filtros de spam de Google y lucen poco profesionales para los buscadores. Usa tu palabra clave principal una vez, de forma natural, y deja que el resto del titulo comunique valor en lugar de repetir variaciones del mismo termino.\n\nOtro error frecuente es no actualizar las etiquetas de titulo cuando los productos cambian. Los productos de temporada, articulos descontinuados y modelos actualizados a menudo conservan etiquetas de titulo obsoletas que hacen referencia a la coleccion del ano pasado o un numero de modelo antiguo. Las etiquetas de titulo desactualizadas engananan a los buscadores y aumentan las tasas de rebote cuando el contenido de la pagina no coincide con la vista previa del resultado de busqueda.\n\nFinalmente, muchas tiendas colocan su nombre de marca al inicio de cada etiqueta de titulo: \"MiTienda | Zapatillas Running Azules.\" A menos que tu marca sea un nombre conocido que genere clics por si solo (como Nike o Apple), tu nombre de marca pertenece al final de la etiqueta de titulo. Las primeras palabras del titulo llevan mas peso SEO y deben ser tu palabra clave objetivo, no el nombre de tu tienda.",
+            "El error mas danino en las etiquetas de titulo de ecommerce es usar el mismo titulo en multiples paginas. Cuando tus paginas de producto \"Zapatillas Running Azules\" y \"Zapatillas Running Rojas\" comparten el titulo \"Zapatillas Running - MiTienda\", Google tiene dificultades para diferenciarlas, y los buscadores no tienen razon para preferir un listado sobre el otro. Cada pagina de tu tienda necesita una etiqueta de titulo unica que refleje el contenido especifico de esa pagina.\n\nEl relleno de palabras clave sigue siendo sorprendentemente comun en ecommerce. Etiquetas de titulo como \"Comprar Zapatillas Running | Mejores Zapatillas Running | Zapatillas Running Baratas | Zapatillas Running Oferta\" activan los filtros de spam de Google y lucen poco profesionales para los buscadores. Usa tu palabra clave principal una vez, de forma natural, y deja que el resto del titulo comunique valor en lugar de repetir variaciones del mismo termino.\n\nOtro error frecuente es no actualizar las etiquetas de titulo cuando los productos cambian. Los productos de temporada, articulos descontinuados y modelos actualizados a menudo conservan etiquetas de titulo obsoletas que hacen referencia a la coleccion del año pasado o un numero de modelo antiguo. Las etiquetas de titulo desactualizadas engananan a los buscadores y aumentan las tasas de rebote cuando el contenido de la pagina no coincide con la vista previa del resultado de busqueda.\n\nFinalmente, muchas tiendas colocan su nombre de marca al inicio de cada etiqueta de titulo: \"MiTienda | Zapatillas Running Azules.\" A menos que tu marca sea un nombre conocido que genere clics por si solo (como Nike o Apple), tu nombre de marca pertenece al final de la etiqueta de titulo. Las primeras palabras del titulo llevan mas peso SEO y deben ser tu palabra clave objetivo, no el nombre de tu tienda.",
           items: [
             "Evita etiquetas de titulo duplicadas en diferentes paginas de productos y categorias",
             "Nunca rellenes palabras clave -- usa la palabra clave principal una vez y enfocate en el valor",
@@ -331,17 +329,17 @@ export const titleTagsAndMetaDescriptions: AcademyTopic = {
           ],
           callout: {
             title: "Duplikat-Title-Risiko",
-            text: "Wenn mehrere Seiten identische Title Tags haben, kann Google sie als Duplikate behandeln. Jede Seite braucht einen einzigartigen Titel.",
+            text: "Cuando 'Zapatillas para correr azules' y 'Zapatillas para correr rojas' comparten el mismo título 'Zapatillas para correr - MyStore', Google no puede diferenciarlas. Cada página de producto necesita una etiqueta de título única que refleje sus características específicas.",
           },
         },
         {
-          title: "Medir y mejorar el rendimiento de las etiquetas de titulo",
+          title: "Medir y mejorar el rendimiento de las etiquetas de título",
           content:
             "Google Search Console es tu herramienta principal para medir la efectividad de las etiquetas de titulo y las meta descripciones. El informe de Rendimiento muestra impresiones, clics y CTR para cada pagina de tu sitio. Ordena por impresiones para encontrar paginas que aparecen frecuentemente en los resultados de busqueda pero tienen un CTR bajo -- estas son tus paginas con mayor oportunidad de mejora en las etiquetas de titulo.\n\nEstablece un benchmark de CTR para cada tipo de pagina. Las paginas de productos en nichos competitivos tipicamente alcanzan un 2-5% de CTR desde la busqueda organica. Las paginas de categoria tienden a caer entre un 3-8% de CTR para sus palabras clave objetivo. Las paginas significativamente por debajo de estos benchmarks probablemente tienen etiquetas de titulo o meta descripciones debiles que no motivan los clics.\n\nCuando actualices una etiqueta de titulo, rastrea el cambio durante un periodo de 4-6 semanas antes de sacar conclusiones. Las fluctuaciones de CTR son normales de semana a semana, y necesitas suficientes datos para identificar una tendencia genuina. Documenta cada cambio de etiqueta de titulo con la fecha, el titulo antiguo, el nuevo titulo y la palabra clave que estas apuntando para poder correlacionar los cambios con los desplazamientos de rendimiento.\n\nConsidera ejecutar experimentos estructurados cambiando las etiquetas de titulo para un lote de 20-50 productos similares al mismo tiempo. Esto te da un tamano de muestra mas grande y reduce el ruido de las fluctuaciones de paginas individuales. Compara el CTR promedio del grupo de prueba con un grupo de control de paginas sin cambios en la misma categoria. Con el tiempo, estos experimentos construyen un manual interno de que formulas de etiquetas de titulo funcionan mejor para tu audiencia y categorias de productos especificas.\n\nPresta atencion al informe de consultas en Search Console. Si Google muestra tu pagina para consultas que no coinciden con tu etiqueta de titulo, puede ser una senal de que tu titulo es confuso o que el contenido de la pagina necesita realineacion.",
           tip: "Crea una hoja de calculo para rastrear experimentos de etiquetas de titulo con columnas para URL de la pagina, titulo antiguo, titulo nuevo, fecha de cambio, CTR de 30 dias antes y CTR de 30 dias despues. En 6-12 meses, este conjunto de datos se vuelve invaluable para entender que patrones resuenan con tu audiencia.",
         },
         {
-          title: "titleMatchScore: Como Google compara tu titulo con tu pagina real",
+          title: "titleMatchScore: Como Google compara tu título con tu página real",
           content:
             "El leak Content Warehouse hizo emerger un atributo llamado titleMatchScore - Google mide que tan bien el titulo de una pagina coincide con el contenido real. Un titulo clickbait que gana clics pero no cumple el intent genera badClicks (pogo-sticking de vuelta al SERP), alimentando el camino de demotion de NavBoost.\n\nPara ecommerce, esto significa que la optimizacion de titulo ya no puede ser \"escribir el mejor iman de CTR\" en aislamiento. El titulo tiene que describir honestamente lo que el buscador obtiene cuando aterriza. \"Mejores zapatillas para pies anchos - 12 pares probados bajo 100 EUR\" funciona solo si la pagina realmente tiene un comparativo de pares probados bajo 100 EUR. Si aterriza en una categoria generica sin contenido comparativo, los badClicks se acumulan y la pagina se desliza fuera de vista en 13 meses (ventana movil de NavBoost).\n\nLa auditoria practica: extrae cada query top 100 impresiones en GSC, haz clic a la landing page, y verifica tres cosas - el titulo describe el contenido con precision, el H1 lo refuerza, y un comprador real encontraria lo que el titulo prometio en el primer scroll. Una desalineacion en cualquiera de los tres es un riesgo titleMatchScore.",
           items: [
@@ -382,12 +380,12 @@ export const titleTagsAndMetaDescriptions: AcademyTopic = {
           tip: "Posiziona la tua parola chiave principale all'inizio del tag title. Se la tua parola chiave target e 'borsa laptop pelle', inizia il titolo con quelle parole esatte piuttosto che seppellirle dopo il nome del brand. Google da un peso leggermente maggiore alle parole chiave che appaiono prima nel tag title, e gli utenti scansionano da sinistra a destra.",
           image: {
             src: "/images/academy/it/title-tag-formula.svg",
-            alt: "Diagramm mit der Title-Tag-Formel für verschiedene Ecommerce-Seitentypen",
+            alt: "Diagramma che mostra la formula del tag titolo per le pagine dei prodotti, le pagine delle categorie e la home page con linee guida per il conteggio dei caratteri",
             caption: "Verschiedene Seitentypen brauchen verschiedene Title-Tag-Formeln. Primäre Keywords in den ersten 50 Zeichen platzieren.",
           },
           callout: {
             title: "CTR-Steigerungsdaten",
-            text: "Gut optimierte Title Tags steigern die CTR konsistent um 20–40 % im Vergleich zu generischen Alternativen.",
+            text: "I tag title ben ottimizzati aumentano costantemente il CTR del 20-40% rispetto alle alternative generiche. Un titolo che include marca, modello, caratteristica chiave e incentivo all'acquisto ottiene sempre più clic rispetto ai semplici nomi dei prodotti",
           },
         },
         {
@@ -419,7 +417,7 @@ export const titleTagsAndMetaDescriptions: AcademyTopic = {
           ],
           callout: {
             title: "Duplikat-Title-Risiko",
-            text: "Wenn mehrere Seiten identische Title Tags haben, kann Google sie als Duplikate behandeln. Jede Seite braucht einen einzigartigen Titel.",
+            text: "Quando \"Scarpe da corsa blu\" e \"Scarpe da corsa rosse\" condividono lo stesso titolo \"Scarpe da corsa - MyStore\", Google non può distinguerle. Ogni pagina di prodotto necessita di un tag titolo univoco che ne rifletta le specifiche",
           },
         },
         {
@@ -470,12 +468,12 @@ export const titleTagsAndMetaDescriptions: AcademyTopic = {
           tip: "Plaats je primaire keyword aan het begin van de title tag. Als je doelzoekwoord 'leren laptoptas' is, begin dan de titel met die exacte woorden in plaats van ze na de merknaam te begraven. Google geeft iets meer gewicht aan zoekwoorden die eerder in de title tag verschijnen, en zoekers scannen van links naar rechts.",
           image: {
             src: "/images/academy/nl/title-tag-formula.svg",
-            alt: "Diagramm mit der Title-Tag-Formel für verschiedene Ecommerce-Seitentypen",
+            alt: "Diagram met de titeltagformule voor productpagina's, categoriepagina's en de startpagina met richtlijnen voor het aantal tekens",
             caption: "Verschiedene Seitentypen brauchen verschiedene Title-Tag-Formeln. Primäre Keywords in den ersten 50 Zeichen platzieren.",
           },
           callout: {
             title: "CTR-Steigerungsdaten",
-            text: "Gut optimierte Title Tags steigern die CTR konsistent um 20–40 % im Vergleich zu generischen Alternativen.",
+            text: "Goed geoptimaliseerde titeltags verhogen de CTR consequent met 20-40% in vergelijking met generieke alternatieven. Een titel met merk, model, belangrijkste kenmerk en aankoopstimulans wint meer klikken dan ooit tevoren",
           },
         },
         {
@@ -507,7 +505,7 @@ export const titleTagsAndMetaDescriptions: AcademyTopic = {
           ],
           callout: {
             title: "Duplikat-Title-Risiko",
-            text: "Wenn mehrere Seiten identische Title Tags haben, kann Google sie als Duplikate behandeln. Jede Seite braucht einen einzigartigen Titel.",
+            text: "Wanneer 'Blauwe hardloopschoenen' en 'Rode hardloopschoenen' dezelfde titel 'Hardloopschoenen - MyStore' delen, kan Google ze niet van elkaar onderscheiden. Elke productpagina heeft een unieke title-tag nodig die de specifieke kenmerken weerspiegelt",
           },
         },
         {

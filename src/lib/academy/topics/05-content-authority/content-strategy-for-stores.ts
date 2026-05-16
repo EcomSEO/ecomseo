@@ -155,9 +155,8 @@ export const contentStrategyForStores: AcademyTopic = {
     },
     fr: {
       badge: "Contenu & Autorite",
-      heading: "Strategie de contenu pour les boutiques",
-      intro:
-        "Une strategie de contenu e-commerce connecte chaque article de blog, guide et page de ressources a un resultat commercial. Sans plan, les boutiques produisent du contenu eparpille qui attire des visiteurs qui n'achetent jamais. Avec un plan, chaque piece de contenu remplit un role specifique dans le parcours client et genere des revenus mesurables. Voici comment construire une strategie de contenu qui traite le contenu comme un canal de vente, pas comme une metrique de vanite.",
+      heading: "Stratégie de contenu pour les boutiques",
+      intro: "Une stratégie de contenu e-commerce connecte chaque article de blog, guide et page de ressources a un resultat commercial. Sans plan, les boutiques produisent du contenu eparpille qui attire des visiteurs qui n'achetent jamais. Avec un plan, chaque piece de contenu remplit un role spécifique dans le parcours client et genere des revenus mesurables. Voici comment construire une stratégie de contenu qui traite le contenu comme un canal de vente, pas comme une metrique de vanite.",
       readTime: "10 min de lecture",
       sections: [
         {
@@ -171,16 +170,16 @@ export const contentStrategyForStores: AcademyTopic = {
           ],
           image: {
             src: "/images/academy/fr/buying-journey-content-map.svg",
-            alt: "Trichterdiagramm das Inhaltstypen den Bewusstseins-, Ueberlegungs- und Entscheidungsphasen der Kaufreise zuordnet",
-            caption: "Eine ausgewogene Content-Strategie verteilt 40% auf Bewusstsein, 35% auf Ueberlegung und 25% auf Entscheidungsinhalte. Die Zielgruppe schrumpft mit wachsender Kaufabsicht.",
+            alt: "Diagramme en entonnoir mappant les types de contenu aux étapes de sensibilisation, de considération et de décision du parcours d'achat",
+            caption: "Une stratégie de contenu équilibrée alloue 40 % à la notoriété, 35 % à la considération et 25 % au contenu de décision. L’audience diminue à mesure que l’intention d’achat augmente.",
           },
           callout: {
-            title: "Trichter-Rechnung",
-            text: "Shops die nur Entscheidungsphasen-Inhalte veroeffentlichen konkurrieren um die kleinste Zielgruppenscheibe. Die Bewusstseins- und Ueberlegungsphasen repraesentieren 75% der gesamten Suchnachfrage in den meisten Ecommerce-Nischen, doch weniger als 20% der Shops veroeffentlichen Inhalte die auf diese Phasen abzielen.",
+            title: "Calcul du tunnel",
+            text: "Les magasins qui publient uniquement du contenu décisionnel se disputent la plus petite tranche d’audience. Les étapes de notoriété et de considération représentent 75 % de la demande totale de recherche dans la plupart des niches du commerce électronique, mais moinsen meisten Ecommerce-Nischen, doch weniger als 20% der Shops veroeffentlichen Inhalte die auf diese Phasen abzielen.",
           },
         },
         {
-          title: "Construire un calendrier de contenu autour des categories de produits",
+          title: "Construire un calendrier de contenu autour des catégories de produits",
           content:
             "Un calendrier de contenu pour une boutique en ligne doit tourner autour des categories de produits, pas de sujets arbitraires. Commencez par lister vos categories generatrices de revenus et les pics saisonniers de chacune. Un magasin de fournitures de jardin sait que le contenu sur l'entretien des pelouses doit etre publie en fevrier pour se positionner avant la ruee du printemps. Un detaillant de ski a besoin de guides d'equipement en ligne pour septembre.\n\nPour chaque categorie, planifiez quatre types de contenu par trimestre : un guide d'achat long format, un article comparatif, deux articles de blog de support ciblant des questions longue traine. Cela cree une cadence de publication reguliere qui construit l'[autorite thematique](/academy/topical-authority-for-ecommerce) sans submerger votre equipe. Une boutique avec 10 categories de produits produirait 40 contenus par trimestre, environ trois par semaine.\n\nCoordonnez votre calendrier de contenu avec le stock et le merchandising. Si vous lancez une nouvelle gamme de produits en mars, le contenu de support, guides d'achat, comparatifs, mises a jour FAQ, doit etre publie quatre a six semaines avant la date de lancement. Cela donne a Google le temps d'indexer et de positionner le contenu pour qu'il genere du trafic quand les produits sont mis en ligne.\n\nSuivez votre calendrier dans un simple tableur ou outil de gestion de projet. Chaque entree doit inclure le mot-cle cible, le type de contenu, le redacteur assigne, la date de publication, la categorie cible et l'etape du funnel. Revisez le calendrier mensuellement pour ajuster les priorites selon les tendances saisonnieres et les donnees de performance.",
           tip: "Publiez les guides long format et les articles comparatifs 4-6 semaines avant les pics de demande saisonniere. Google a besoin de temps pour explorer, indexer et positionner le nouveau contenu, publier trop pres du pic signifie manquer la fenetre de trafic.",
@@ -191,16 +190,16 @@ export const contentStrategyForStores: AcademyTopic = {
             "Tous les formats de contenu ne convertissent pas egalement en e-commerce. Les guides d'achat generent systematiquement le revenu par visiteur le plus eleve car ils captent les acheteurs au moment de la decision. Les articles de comparaison de produits arrivent en deuxieme position, ils ciblent des dilemmes d'achat specifiques et dirigent les lecteurs vers les pages produits. Ces deux formats doivent constituer l'epine dorsale de votre strategie de contenu.\n\nLe contenu pratique et les tutoriels servent un objectif different mais tout aussi precieux. Un magasin de photo publiant des tutoriels sur les techniques d'eclairage portrait attire des photographes qui deviennent des clients fideles. Le contenu ne vend pas directement, mais il construit la confiance et maintient votre marque visible tout au long du cycle de vie client. Ces pieces generent aussi des backlinks d'autres sites qui referent vos tutoriels.\n\nLes hubs de ressources specifiques par categorie agregent tout le contenu connexe sur une seule page. Voyez-les comme une bibliotheque curatee pour chaque categorie : le guide d'achat, les meilleurs comparatifs, les conseils d'entretien, les reponses FAQ et les articles de blog lies. Les hubs de ressources gagnent une forte equite de liens internes et donnent a Google un signal clair sur votre expertise de categorie.\n\nEvitez les types de contenu qui generent du trafic sans pertinence commerciale. Les listicles viraux, les commentaires sur les tendances et le contenu lifestyle generique peuvent augmenter les pages vues mais attirent des visiteurs avec zero intention d'achat. Chaque contenu doit repondre a la question : comment cela rapproche-t-il quelqu'un d'un achat dans notre boutique ?\n\nDécouvrez comment aligner le contenu avec les objectifs commerciaux dans notre guide sur le [contenu SEO e-commerce](/blog/ecommerce-seo-content).",
           image: {
             src: "/images/academy/fr/content-calendar-quarterly.svg",
-            alt: "Quartalsbezogener Content-Plan mit 1 Kaufratgeber, 1 Vergleich und 2 Blog-Beitraegen pro Produktkategorie",
-            caption: "Jede Produktkategorie erhaelt 4 Inhaltsstuecke pro Quartal. Bei 10 Kategorien sind das rund 3 Veroeffentlichungen pro Woche.",
+            alt: "Plan de contenu trimestriel montrant 1 guide d'achat, 1 comparaison et 2 articles de blog par catégorie de produits",
+            caption: "Chaque catégorie de produits reçoit 4 éléments de contenu par trimestre. Avec 10 catégories, cela représente environ 3 publications par semaine.",
           },
           callout: {
-            title: "Timing zaehlt",
-            text: "Inhalte die 4-6 Wochen vor einem saisonalen Hoehepunkt veroeffentlicht werden erwischen Googles Indexierungsfenster. Ein Skiausruestungs-Ratgeber der im November veroeffentlicht wird verpasst das Ranking-Fenster vollstaendig. Bis Anfang September veroeffentlichen um bis zum Hoechstbedarf im Dezember zu ranken.",
+            title: "Le timing compte",
+            text: "Le contenu publié 4 à 6 semaines avant qu'un pic saisonnier n'atteigne la fenêtre d'indexation de Google. Un guide du matériel de ski publié en novembre manque complètement la fenêtre de classement. Publier début septembre pour classer par peing-Fenster vollstaendig. Bis Anfang September veroeffentlichen um bis zum Hoechstbedarf im Dezember zu ranken.",
           },
         },
         {
-          title: "Recherche de mots-cles pour le contenu e-commerce",
+          title: "Recherche de mots-clés pour le contenu e-commerce",
           content:
             "La recherche de mots-cles pour le contenu e-commerce differe de la recherche standard d'un point critique : chaque mot-cle doit etre connecte a un produit ou une categorie de votre catalogue. Commencez par lister les produits et categories que vous vendez, puis elargissez pour trouver les questions, comparaisons et requetes informationnelles autour de chacun.\n\nUtilisez la recherche basee sur les modificateurs pour trouver des opportunites de contenu. Prenez une categorie comme \"chaussures de course\" et associez-la a des modificateurs : meilleures chaussures de course pour [usage], chaussures de course vs [alternative], comment choisir des chaussures de course, chaussures de course pour [public]. Chaque modificateur genere un cluster d'idees de contenu directement lies a votre catalogue.\n\nAnalysez l'intention de recherche derriere chaque mot-cle avant de vous engager dans la creation de contenu. Un mot-cle comme \"Nike Air Max 90\" a une intention navigationnelle, le chercheur veut une page produit specifique. Un mot-cle comme \"meilleures chaussures de course amorties pour coureurs lourds\" a une intention informationnelle-commerciale, parfait pour un guide d'achat. La non-correspondance entre format de contenu et intention de recherche gaspille votre budget de production.\n\nPriorisez les mots-cles avec un modele de scoring qui pondere le volume de recherche, la pertinence commerciale, la difficulte du mot-cle et la position de classement actuelle. Un mot-cle a haut volume sans connexion avec vos produits ne vaut rien. Un mot-cle a faible volume avec forte intention d'achat et faible difficulte peut delivrer un ROI exceptionnel car les taux de conversion sont eleves et la competition minimale.",
           items: [
@@ -217,7 +216,7 @@ export const contentStrategyForStores: AcademyTopic = {
           tip: "Construisez un simple P&L contenu dans un tableur. Suivez le cout de production par article, le revenu attribue mensuel et le ROI cumule dans le temps. Cela vous donne une image claire des types de contenu qui justifient un investissement accru et de ceux qui devraient etre deprioritises.",
         },
         {
-          title: "Scaler la production de contenu sans perdre en qualite",
+          title: "Scaler la production de contenu sans perdre en qualité",
           content:
             "Scaler la production de contenu e-commerce necessite des systemes, pas seulement plus de redacteurs. Commencez par creer des templates pour chaque format que vous publiez : guides d'achat, articles comparatifs, posts pratiques, pages FAQ. Les templates standardisent la structure, les formats de titres, les exigences de maillage interne et le placement des appels a l'action. Un redacteur travaillant a partir d'un template produit une qualite constante a deux fois la vitesse d'un redacteur partant d'une page blanche.\n\nMettez en place un processus de brief contenu qui anticipe le travail SEO. Chaque brief doit inclure le mot-cle cible, l'analyse d'intention de recherche, les pages concurrentes a surpasser, les titres requis, les cibles de liens internes et la fourchette de mots. Le travail du redacteur devient l'execution du brief plutot que la recherche et la strategisation, cette separation des roles ameliore considerablement la qualite et la vitesse de production.\n\nL'expertise sujet est non-negociable pour le contenu e-commerce. Les freelancers generiques produisent du contenu generique qui ne se positionne ni ne convertit. Embauchez soit des redacteurs avec une veritable connaissance produit, soit associez des redacteurs generalistes a des experts produit internes qui revoient les brouillons pour leur exactitude. Un magasin d'equipement de ski a besoin de redacteurs qui comprennent les angles de carres et les conditions de neige, pas seulement les bonnes pratiques SEO.\n\nImplementez un workflow de revision avec des etapes claires : brouillon, revision SEO, revision exactitude produit, edition finale, publication. Chaque etape a des criteres specifiques et un responsable. Cela previent les goulots d'etranglement tout en s'assurant que rien ne soit publie avec des erreurs factuelles, des liens internes manquants ou des messages hors marque. Les outils d'automatisation peuvent gerer les verifications SEO comme la longueur du titre, la presence de meta description et la validation du schema markup. Une approche professionnelle du [content marketing](/content-writing) sépare la recherche de l'exécution.",
         },
@@ -230,8 +229,7 @@ export const contentStrategyForStores: AcademyTopic = {
     es: {
       badge: "Contenido y Autoridad",
       heading: "Estrategia de contenido para tiendas",
-      intro:
-        "Una estrategia de contenido ecommerce conecta cada articulo de blog, guia y pagina de recursos con un resultado comercial. Sin un plan, las tiendas producen contenido disperso que atrae visitantes que nunca compran. Con uno, cada pieza de contenido cumple un rol especifico en el recorrido del cliente y genera ingresos medibles. Asi es como construir una estrategia de contenido que trate el contenido como un canal de ventas, no como una metrica de vanidad.",
+      intro: "Una estrategia de contenido ecommerce conecta cada artículo de blog, guia y página de recursos con un resultado comercial. Sin un plan, las tiendas producen contenido disperso que atrae visitantes que nunca compran. Con uno, cada pieza de contenido cumple un rol especifico en el recorrido del cliente y genera ingresos medibles. Asi es como construir una estrategia de contenido que trate el contenido como un canal de ventas, no como una métrica de vanidad.",
       readTime: "10 min de lectura",
       sections: [
         {
@@ -245,16 +243,16 @@ export const contentStrategyForStores: AcademyTopic = {
           ],
           image: {
             src: "/images/academy/es/buying-journey-content-map.svg",
-            alt: "Trichterdiagramm das Inhaltstypen den Bewusstseins-, Ueberlegungs- und Entscheidungsphasen der Kaufreise zuordnet",
-            caption: "Eine ausgewogene Content-Strategie verteilt 40% auf Bewusstsein, 35% auf Ueberlegung und 25% auf Entscheidungsinhalte. Die Zielgruppe schrumpft mit wachsender Kaufabsicht.",
+            alt: "Diagrama de embudo que asigna tipos de contenido a las etapas de conocimiento, consideración y decisión del proceso de compra.",
+            caption: "Una estrategia de contenido equilibrada asigna el 40% al conocimiento, el 35% a la consideración y el 25% al ​​contenido de decisión. La audiencia se reduce a medida que crece la intención de compra.",
           },
           callout: {
-            title: "Trichter-Rechnung",
-            text: "Shops die nur Entscheidungsphasen-Inhalte veroeffentlichen konkurrieren um die kleinste Zielgruppenscheibe. Die Bewusstseins- und Ueberlegungsphasen repraesentieren 75% der gesamten Suchnachfrage in den meisten Ecommerce-Nischen, doch weniger als 20% der Shops veroeffentlichen Inhalte die auf diese Phasen abzielen.",
+            title: "Cálculo del embudo",
+            text: "Las tiendas que solo publican contenido en etapa de decisión compiten por la porción más pequeña de audiencia. Las etapas de conocimiento y consideración representan el 75% de la demanda total de búsqueda en la mayoría de los nichos de comercio electrónico, pero menosen meisten Ecommerce-Nischen, doch weniger als 20% der Shops veroeffentlichen Inhalte die auf diese Phasen abzielen.",
           },
         },
         {
-          title: "Construir un calendario de contenido alrededor de categorias de productos",
+          title: "Construir un calendario de contenido alrededor de categorías de productos",
           content:
             "Un calendario de contenido para una tienda ecommerce debe girar alrededor de categorias de productos, no temas arbitrarios. Empieza listando tus categorias que mas ingresos generan y los picos estacionales de cada una. Una tienda de suministros de jardin sabe que el contenido de cuidado del cesped debe publicarse en febrero para posicionarse antes del auge primaveral. Un retailer de equipamiento de esqui necesita guias de equipamiento online para septiembre.\n\nPara cada categoria, planifica cuatro tipos de contenido por trimestre: una guia de compra extensa, un articulo comparativo, dos posts de blog de soporte que apunten a preguntas long-tail. Esto crea una cadencia de publicacion constante que construye [autoridad tematica](/academy/topical-authority-for-ecommerce) sin abrumar a tu equipo. Una tienda con 10 categorias de productos produciria 40 piezas de contenido por trimestre, aproximadamente tres por semana.\n\nCoordina tu calendario de contenido con inventario y merchandising. Si lanzas una nueva linea de productos en marzo, el contenido de soporte, guias de compra, articulos comparativos, actualizaciones de FAQ, debe publicarse cuatro a seis semanas antes de la fecha de lanzamiento. Esto da tiempo a Google para indexar y posicionar el contenido para que genere trafico cuando los productos esten disponibles.\n\nRastrea tu calendario en una hoja de calculo simple o herramienta de gestion de proyectos. Cada entrada debe incluir la keyword objetivo, tipo de contenido, redactor asignado, fecha de publicacion, categoria objetivo y etapa del funnel. Revisa el calendario mensualmente para ajustar prioridades basadas en tendencias estacionales y datos de rendimiento.",
           tip: "Publica guias extensas y articulos comparativos 4-6 semanas antes de los picos de demanda estacional. Google necesita tiempo para rastrear, indexar y posicionar contenido nuevo, publicar demasiado cerca del pico significa perder la ventana de trafico.",
@@ -265,16 +263,16 @@ export const contentStrategyForStores: AcademyTopic = {
             "No todos los formatos de contenido convierten igual para ecommerce. Las guias de compra generan consistentemente los mayores ingresos por visitante porque capturan compradores en el momento de la decision. Los articulos de comparacion de productos quedan en segundo lugar, apuntan a dilemas de compra especificos y canalizan lectores directamente a paginas de producto. Ambos formatos deben formar la columna vertebral de tu estrategia de contenido.\n\nEl contenido practico y los tutoriales sirven un proposito diferente pero igualmente valioso. Una tienda de camaras que publica tutoriales sobre tecnicas de iluminacion para retratos atrae fotografos que se convierten en clientes recurrentes. El contenido no vende directamente, pero construye confianza y mantiene tu marca visible durante todo el ciclo de vida del cliente. Estas piezas tambien generan backlinks de otros sitios que referencian tus tutoriales.\n\nLos hubs de recursos especificos por categoria agregan todo el contenido relacionado en una sola pagina. Piensa en ellos como una biblioteca curada para cada categoria de productos: la guia de compra, las principales comparativas, consejos de mantenimiento, respuestas FAQ y posts de blog relacionados. Los hubs de recursos ganan fuerte equidad de enlaces internos y dan a Google una senal clara sobre tu experiencia en la categoria.\n\nEvita tipos de contenido que generen trafico sin relevancia comercial. Los listicles virales, comentarios sobre tendencias y contenido lifestyle generico pueden aumentar las visitas de pagina pero atraen visitantes con cero intencion de compra. Cada pieza de contenido debe responder la pregunta: como acerca esto a alguien a comprar en nuestra tienda? Aprende mas sobre como alinear el contenido con los objetivos comerciales en nuestra guia de [contenido SEO para ecommerce](/blog/ecommerce-seo-content).",
           image: {
             src: "/images/academy/es/content-calendar-quarterly.svg",
-            alt: "Quartalsbezogener Content-Plan mit 1 Kaufratgeber, 1 Vergleich und 2 Blog-Beitraegen pro Produktkategorie",
-            caption: "Jede Produktkategorie erhaelt 4 Inhaltsstuecke pro Quartal. Bei 10 Kategorien sind das rund 3 Veroeffentlichungen pro Woche.",
+            alt: "Plan de contenido trimestral que muestra 1 guía de compra, 1 comparación y 2 publicaciones de blog por categoría de producto",
+            caption: "Cada categoría de producto recibe 4 piezas de contenido por trimestre. Con 10 categorías, son aproximadamente 3 publicaciones por semana.",
           },
           callout: {
-            title: "Timing zaehlt",
-            text: "Inhalte die 4-6 Wochen vor einem saisonalen Hoehepunkt veroeffentlicht werden erwischen Googles Indexierungsfenster. Ein Skiausruestungs-Ratgeber der im November veroeffentlicht wird verpasst das Ranking-Fenster vollstaendig. Bis Anfang September veroeffentlichen um bis zum Hoechstbedarf im Dezember zu ranken.",
+            title: "El timing importa",
+            text: "El contenido publicado entre 4 y 6 semanas antes de un pico estacional aparece en la ventana de indexación de Google. Una guía de equipos de esquí publicada en noviembre omite por completo la ventana de clasificación. Publicar a principios de septiembre para clasificar por peing-Fenster vollstaendig. Bis Anfang September veroeffentlichen um bis zum Hoechstbedarf im Dezember zu ranken.",
           },
         },
         {
-          title: "Investigacion de keywords para contenido ecommerce",
+          title: "Investigación de keywords para contenido ecommerce",
           content:
             "La investigacion de keywords para contenido ecommerce difiere de la investigacion SEO estandar en un punto critico: cada keyword debe conectarse a un producto o categoria de tu catalogo. Empieza listando los productos y categorias que vendes, luego expande hacia afuera para encontrar las preguntas, comparaciones y consultas informacionales que rodean cada uno.\n\nUsa investigacion basada en modificadores para encontrar oportunidades de contenido. Toma una categoria como \"zapatillas de running\" y combinala con modificadores: mejores zapatillas de running para [uso], zapatillas de running vs [alternativa], como elegir zapatillas de running, zapatillas de running para [audiencia]. Cada modificador genera un cluster de ideas de contenido que mapean directamente a tu catalogo.\n\nAnaliza la intencion de busqueda detras de cada keyword antes de comprometerte con la creacion de contenido. Una keyword como \"Nike Air Max 90\" tiene intencion navegacional, el buscador quiere una pagina de producto especifica. Una keyword como \"mejores zapatillas de running amortiguadas para corredores pesados\" tiene intencion informacional-comercial, perfecta para una guia de compra. No coincidir el formato de contenido con la intencion de busqueda desperdicia tu presupuesto de produccion.\n\nPrioriza keywords usando un modelo de puntuacion que pondere volumen de busqueda, relevancia comercial, dificultad de keyword y posicion de ranking actual. Una keyword de alto volumen sin conexion con tus productos no tiene valor. Una keyword de bajo volumen con fuerte intencion de compra y baja dificultad puede entregar ROI desproporcionado porque las tasas de conversion son altas y la competencia minima.",
           items: [
@@ -291,7 +289,7 @@ export const contentStrategyForStores: AcademyTopic = {
           tip: "Construye un simple P&L de contenido en una hoja de calculo. Rastrea el coste de produccion por articulo, los ingresos atribuidos mensuales y el ROI acumulado en el tiempo. Esto te da una imagen clara de que tipos de contenido justifican mayor inversion y cuales deben despriorizarse.",
         },
         {
-          title: "Escalar la produccion de contenido sin perder calidad",
+          title: "Escalar la producción de contenido sin perder calidad",
           content:
             "Escalar la produccion de contenido ecommerce requiere sistemas, no solo mas redactores. Empieza creando plantillas de contenido para cada formato que publicas: guias de compra, articulos comparativos, posts practicos, paginas FAQ. Las plantillas estandarizan estructura, formatos de encabezados, requisitos de enlazado interno y ubicacion de llamadas a la accion. Un redactor trabajando con una plantilla produce calidad consistente al doble de velocidad que uno empezando desde una pagina en blanco.\n\nConstruye un proceso de briefs de contenido que anticipe el trabajo SEO. Cada brief debe incluir la keyword objetivo, analisis de intencion de busqueda, paginas competidoras a superar, encabezados requeridos, objetivos de enlaces internos y rango de conteo de palabras. El trabajo del redactor se convierte en ejecutar el brief en lugar de investigar y estrategizar, esta separacion de roles mejora dramaticamente la calidad y velocidad del output.\n\nLa experiencia en la materia es innegociable para contenido ecommerce. Los freelancers genericos producen contenido generico que ni posiciona ni convierte. Contrata redactores con conocimiento genuino del producto o empareja redactores generales con expertos de producto internos que revisen los borradores para verificar la precision. Una tienda de equipamiento de esqui necesita redactores que entiendan angulos de canto y condiciones de nieve, no solo mejores practicas SEO.\n\nImplementa un workflow de revision con etapas claras: borrador, revision SEO, revision de precision de producto, edicion final, publicacion. Cada etapa tiene criterios especificos y una persona responsable. Esto previene cuellos de botella mientras asegura que nada se publique con errores factuales, enlaces internos faltantes o mensajes fuera de marca. Las herramientas de automatizacion pueden manejar verificaciones SEO como longitud del titulo, presencia de meta descripcion y validacion de markup de esquema. Un enfoque profesional de [marketing de contenidos](/content-writing) separa la investigacion de la ejecucion.",
         },
@@ -319,12 +317,12 @@ export const contentStrategyForStores: AcademyTopic = {
           ],
           image: {
             src: "/images/academy/it/buying-journey-content-map.svg",
-            alt: "Trichterdiagramm das Inhaltstypen den Bewusstseins-, Ueberlegungs- und Entscheidungsphasen der Kaufreise zuordnet",
-            caption: "Eine ausgewogene Content-Strategie verteilt 40% auf Bewusstsein, 35% auf Ueberlegung und 25% auf Entscheidungsinhalte. Die Zielgruppe schrumpft mit wachsender Kaufabsicht.",
+            alt: "Diagramma a imbuto che mappa i tipi di contenuto alle fasi di consapevolezza, considerazione e decisione del percorso di acquisto",
+            caption: "Una strategia di contenuto equilibrata assegna il 40% alla consapevolezza, il 35% alla considerazione e il 25% al ​​contenuto decisionale. Il pubblico si riduce man mano che cresce l’intenzione di acquisto.",
           },
           callout: {
-            title: "Trichter-Rechnung",
-            text: "Shops die nur Entscheidungsphasen-Inhalte veroeffentlichen konkurrieren um die kleinste Zielgruppenscheibe. Die Bewusstseins- und Ueberlegungsphasen repraesentieren 75% der gesamten Suchnachfrage in den meisten Ecommerce-Nischen, doch weniger als 20% der Shops veroeffentlichen Inhalte die auf diese Phasen abzielen.",
+            title: "Calcolo del funnel",
+            text: "I negozi che pubblicano solo contenuti relativi alla fase decisionale competono per la fetta di pubblico più piccola. Le fasi di consapevolezza e considerazione rappresentano il 75% della domanda di ricerca totale nella maggior parte delle nicchie di e-commerce, ma sono ancora menoen meisten Ecommerce-Nischen, doch weniger als 20% der Shops veroeffentlichen Inhalte die auf diese Phasen abzielen.",
           },
         },
         {
@@ -339,12 +337,12 @@ export const contentStrategyForStores: AcademyTopic = {
             "Non tutti i formati di contenuto convertono allo stesso modo per l'ecommerce. Le guide all'acquisto generano costantemente il maggior fatturato per visitatore perche catturano gli acquirenti nel momento della decisione. Gli articoli di confronto prodotti arrivano secondi, mirano a dilemmi d'acquisto specifici e incanalano i lettori direttamente alle pagine prodotto. Entrambi i formati dovrebbero formare la spina dorsale della tua strategia di contenuti.\n\nI contenuti pratici e i tutorial servono uno scopo diverso ma altrettanto prezioso. Un negozio di fotocamere che pubblica tutorial sulle tecniche di illuminazione per ritratti attrae fotografi che diventano clienti abituali. Il contenuto non vende direttamente, ma costruisce fiducia e mantiene il tuo brand visibile durante tutto il ciclo di vita del cliente. Questi pezzi generano anche backlink da altri siti che referenziano i tuoi tutorial.\n\nGli hub di risorse specifici per categoria aggregano tutti i contenuti correlati in un'unica pagina. Pensali come una biblioteca curata per ogni categoria di prodotti: la guida all'acquisto, i principali confronti, consigli di manutenzione, risposte FAQ e post del blog correlati. Gli hub di risorse guadagnano forte equity di link interni e danno a Google un segnale chiaro sulla tua competenza nella categoria.\n\nEvita tipi di contenuto che generano traffico senza rilevanza commerciale. Listicle virali, commenti sulle tendenze e contenuti lifestyle generici possono aumentare le visualizzazioni di pagina ma attraggono visitatori con zero intenzione d'acquisto. Ogni pezzo di contenuto deve rispondere alla domanda: come avvicina questo qualcuno all'acquisto nel nostro negozio? Scopri di più nella nostra guida sui [contenuti SEO per ecommerce](/blog/ecommerce-seo-content).",
           image: {
             src: "/images/academy/it/content-calendar-quarterly.svg",
-            alt: "Quartalsbezogener Content-Plan mit 1 Kaufratgeber, 1 Vergleich und 2 Blog-Beitraegen pro Produktkategorie",
-            caption: "Jede Produktkategorie erhaelt 4 Inhaltsstuecke pro Quartal. Bei 10 Kategorien sind das rund 3 Veroeffentlichungen pro Woche.",
+            alt: "Piano dei contenuti trimestrale che mostra 1 guida all'acquisto, 1 confronto e 2 post sul blog per categoria di prodotto",
+            caption: "Ogni categoria di prodotto riceve 4 contenuti a trimestre. Con 10 categorie, si tratta di circa 3 pubblicazioni a settimana.",
           },
           callout: {
-            title: "Timing zaehlt",
-            text: "Inhalte die 4-6 Wochen vor einem saisonalen Hoehepunkt veroeffentlicht werden erwischen Googles Indexierungsfenster. Ein Skiausruestungs-Ratgeber der im November veroeffentlicht wird verpasst das Ranking-Fenster vollstaendig. Bis Anfang September veroeffentlichen um bis zum Hoechstbedarf im Dezember zu ranken.",
+            title: "Il timing conta",
+            text: "I contenuti pubblicati 4-6 settimane prima di un picco stagionale raggiungono la finestra di indicizzazione di Google. Una guida all'attrezzatura da sci pubblicata a novembre non rientra completamente nella finestra della classifica. Pubblica entro l'inizio di settembre per classificare in base al numero di personeing-Fenster vollstaendig. Bis Anfang September veroeffentlichen um bis zum Hoechstbedarf im Dezember zu ranken.",
           },
         },
         {
@@ -393,12 +391,12 @@ export const contentStrategyForStores: AcademyTopic = {
           ],
           image: {
             src: "/images/academy/nl/buying-journey-content-map.svg",
-            alt: "Trichterdiagramm das Inhaltstypen den Bewusstseins-, Ueberlegungs- und Entscheidungsphasen der Kaufreise zuordnet",
-            caption: "Eine ausgewogene Content-Strategie verteilt 40% auf Bewusstsein, 35% auf Ueberlegung und 25% auf Entscheidungsinhalte. Die Zielgruppe schrumpft mit wachsender Kaufabsicht.",
+            alt: "Trechterdiagram dat inhoudstypen in kaart brengt in de bewustzijns-, overwegings- en beslissingsfasen van het kooptraject",
+            caption: "Een evenwichtige contentstrategie besteedt 40% aan bewustwording, 35% aan overweging en 25% aan de inhoud van beslissingen. Het publiek krimpt naarmate de koopintentie groeit.",
           },
           callout: {
-            title: "Trichter-Rechnung",
-            text: "Shops die nur Entscheidungsphasen-Inhalte veroeffentlichen konkurrieren um die kleinste Zielgruppenscheibe. Die Bewusstseins- und Ueberlegungsphasen repraesentieren 75% der gesamten Suchnachfrage in den meisten Ecommerce-Nischen, doch weniger als 20% der Shops veroeffentlichen Inhalte die auf diese Phasen abzielen.",
+            title: "Funnel-berekening",
+            text: "Winkels die alleen inhoud in de beslissingsfase publiceren, strijden om het kleinste doelgroepsegment. De bewustwordings- en overwegingsfasen vertegenwoordigen 75% van de totale zoekvraag in de meeste e-commerce niches, maar nog minderen meisten Ecommerce-Nischen, doch weniger als 20% der Shops veroeffentlichen Inhalte die auf diese Phasen abzielen.",
           },
         },
         {
@@ -413,12 +411,12 @@ export const contentStrategyForStores: AcademyTopic = {
             "Niet alle contentformaten converteren gelijk voor e-commerce. Koopgidsen genereren consequent de hoogste omzet per bezoeker omdat ze shoppers vangen op het moment van beslissing. Productvergelijkingsartikelen staan op de tweede plaats, ze richten zich op specifieke aankoopdilemma's en leiden lezers rechtstreeks naar productpagina's. Beide formaten moeten de ruggengraat van je contentstrategie vormen.\n\nHow-to content en tutorials dienen een ander maar even waardevol doel. Een camerawinkel die tutorials publiceert over portretbelichtingstechnieken trekt fotografen aan die vaste klanten worden. De content verkoopt niet direct, maar bouwt vertrouwen op en houdt je merk zichtbaar gedurende de hele klantenlevenscyclus. Deze stukken genereren ook backlinks van andere sites die je tutorials refereren.\n\nCategorie-specifieke resourcehubs bundelen alle gerelateerde content op een enkele pagina. Zie ze als een gecureerde bibliotheek voor elke productcategorie: de koopgids, de beste vergelijkingen, onderhoudstips, FAQ-antwoorden en gerelateerde blogposts. Resourcehubs verdienen sterke interne link-equity en geven Google een duidelijk signaal over je categorie-expertise.\n\nVermijd contenttypes die verkeer genereren zonder commerciele relevantie. Virale lijstjes, trendend nieuwscommentaar en generieke lifestyle-content kunnen paginaweergaven verhogen maar trekken bezoekers aan met nul aankoopintentie. Elk stuk content moet de vraag beantwoorden: hoe leidt dit iemand dichter bij een aankoop in onze winkel?\n\nOnze gids over [ecommerce-SEO-content](/blog/ecommerce-seo-content) behandelt contentformaten die converteren.",
           image: {
             src: "/images/academy/nl/content-calendar-quarterly.svg",
-            alt: "Quartalsbezogener Content-Plan mit 1 Kaufratgeber, 1 Vergleich und 2 Blog-Beitraegen pro Produktkategorie",
-            caption: "Jede Produktkategorie erhaelt 4 Inhaltsstuecke pro Quartal. Bei 10 Kategorien sind das rund 3 Veroeffentlichungen pro Woche.",
+            alt: "Driemaandelijks contentplan met 1 koopgids, 1 vergelijking en 2 blogposts per productcategorie",
+            caption: "Elke productcategorie krijgt 4 inhoudsstukken per kwartaal. Bij 10 categorieën zijn dat grofweg 3 publicaties per week.",
           },
           callout: {
-            title: "Timing zaehlt",
-            text: "Inhalte die 4-6 Wochen vor einem saisonalen Hoehepunkt veroeffentlicht werden erwischen Googles Indexierungsfenster. Ein Skiausruestungs-Ratgeber der im November veroeffentlicht wird verpasst das Ranking-Fenster vollstaendig. Bis Anfang September veroeffentlichen um bis zum Hoechstbedarf im Dezember zu ranken.",
+            title: "Timing telt",
+            text: "Inhoud die vier tot zes weken wordt gepubliceerd voordat een seizoenspiek het indexeringsvenster van Google bereikt. Een gids voor skiuitrusting die in november werd gepubliceerd, mist het ranglijstvenster volledig. Publiceer begin september om te rangschikken op peing-Fenster vollstaendig. Bis Anfang September veroeffentlichen um bis zum Hoechstbedarf im Dezember zu ranken.",
           },
         },
         {

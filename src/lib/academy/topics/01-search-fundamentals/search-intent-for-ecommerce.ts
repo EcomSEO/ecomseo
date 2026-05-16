@@ -164,8 +164,7 @@ export const searchIntentForEcommerce: AcademyTopic = {
     fr: {
       badge: "Fondamentaux de la recherche",
       heading: "L'intention de recherche en e-commerce",
-      intro:
-        "Chaque requete de recherche a un objectif, et Google est exceptionnellement doue pour le determiner. Quand vos pages correspondent au bon type d'intention, vous obtenez de meilleurs classements et plus de conversions. Quand vous vous trompez, meme un SEO on-page parfait ne vous sauvera pas.",
+      intro: "Chaque requete de recherche a un objectif, et Google est exceptionnellement doue pour le determiner. Quand vos pages correspondent au bon type d'intention, vous obtenez de meilleurs classements et plus de conversions. Quand vous vous trompez, meme un SEO on-page parfait ne vous sauvera pas.",
       readTime: "10 min de lecture",
       sections: [
         {
@@ -174,7 +173,7 @@ export const searchIntentForEcommerce: AcademyTopic = {
             "L'intention de recherche est la raison pour laquelle quelqu'un tape une requete dans Google. Cherche-t-il une marque specifique ? Fait-il des recherches sur une categorie de produits ? Compare-t-il des options ? Est-il pret a acheter ? Google classe chaque requete dans une categorie d'intention et propose des resultats correspondant a cette classification.\n\nPour l'e-commerce, l'intention est primordiale. Une page qui correspond a l'intention de l'utilisateur obtient des taux de clics plus eleves, un temps passe sur le site plus long et de meilleurs taux de conversion. Google suit ces signaux d'engagement et recompense les pages qui satisfont reellement les attentes des chercheurs. Une page produit classee pour une requete informationnelle sera ignoree, et un article de blog classe pour une requete transactionnelle ne convertira pas.\n\nL'impact pratique est considerable. Les boutiques qui alignent leurs pages sur la bonne intention voient des taux de clics organiques 40 a 60% plus eleves par rapport a celles qui ne le font pas. Comprendre l'intention evite aussi de gaspiller des efforts. Il est inutile d'optimiser une page produit pour une requete ou Google affiche exclusivement des articles de blog et des guides. Ce concept est étroitement lié à la [recherche de mots-clés pour l'e-commerce](/academy/keyword-research-for-ecommerce), où l'analyse de l'intention façonne toute votre stratégie.",
           callout: {
             title: "CTR-Wirkung",
-            text: "Shops, die Seitentypen korrekt der Suchintention zuordnen, verzeichnen 40–60 % höhere organische Klickraten. Falsch zugeordnete Intention ist einer der häufigsten Gründe, warum Ecommerce-Seiten in der Suche unterperformen.",
+            text: "Les magasins qui font correspondre correctement les types de pages aux intentions de recherche enregistrent des taux de clics organiques 40 à 60 % plus élevés. Les intentions incompatibles sont l’une des raisons les plus courantes pour lesquelles les pages de commerce électronique sont sous-performantes dans les recherches.",
           },
         },
         {
@@ -189,8 +188,8 @@ export const searchIntentForEcommerce: AcademyTopic = {
           ],
           image: {
             src: "/images/academy/fr/search-intent-types.svg",
-            alt: "Trichterdiagramm mit den vier Arten der Suchintention von informational oben bis navigational unten, mit Conversion-Raten und passenden Seitentypen",
-            caption: "Jeder Intentionstyp ordnet sich bestimmten Seitentypen zu. Die Kaufabsicht steigt von oben nach unten.",
+            alt: "Diagramme en entonnoir montrant les quatre types d'intention de recherche, de l'information en haut à la navigation en bas, avec les taux de conversion et les types de pages correspondants",
+            caption: "Chaque type d'intention correspond à des types de pages spécifiques. L’intention d’achat augmente de haut en bas.",
           },
         },
         {
@@ -224,8 +223,8 @@ export const searchIntentForEcommerce: AcademyTopic = {
           ],
           image: {
             src: "/images/academy/fr/buyer-journey-intent-map.svg",
-            alt: "Diagramm, das die drei Phasen der Buyer Journey (Bewusstsein, Überlegung, Entscheidung) den Suchintentionstypen, Seitentypen und Conversion-Raten zuordnet",
-            caption: "Interne Links verbinden die Phasen: Blog-Inhalte führen zu Kategorieseiten, die zu Produktseiten weiterleiten.",
+            alt: "Diagramme cartographiant les trois étapes du parcours de l'acheteur (conscience, considération, décision) pour les types d'intention de recherche, les types de pages et les taux de conversion",
+            caption: "Les liens internes relient les étapes : le contenu du blog alimente les pages de catégories, qui mènent aux pages de produits.",
           },
         },
         {
@@ -241,22 +240,21 @@ export const searchIntentForEcommerce: AcademyTopic = {
     },
     es: {
       badge: "Fundamentos de busqueda",
-      heading: "Intencion de busqueda en e-commerce",
-      intro:
-        "Cada consulta de busqueda tiene un proposito detras, y Google es excepcionalmente bueno identificandolo. Cuando alineas tus paginas con el tipo correcto de intencion, posicionas mejor y conviertes mas. Cuando fallas, ni siquiera un SEO on-page perfecto te salvara.",
+      heading: "Intención de busqueda en e-commerce",
+      intro: "Cada consulta de busqueda tiene un proposito detras, y Google es excepcionalmente bueno identificandolo. Cuando alineas tus páginas con el tipo correcto de intención, posicionas mejor y conviertes mas. Cuando fallas, ni siquiera un SEO on-page perfecto te salvara.",
       readTime: "10 min de lectura",
       sections: [
         {
-          title: "Que significa la intencion de busqueda para las tiendas online",
+          title: "Qué significa la intención de busqueda para las tiendas online",
           content:
             "La intencion de busqueda es la razon por la que alguien escribe una consulta en Google. Busca una marca especifica? Investiga una categoria de producto? Compara opciones? Esta listo para comprar? Google clasifica cada consulta en una categoria de intencion y muestra resultados que coinciden con esa clasificacion.\n\nPara el e-commerce, la intencion lo es todo. Una pagina que coincide con la intencion del usuario obtiene tasas de clics mas altas, mayor tiempo en el sitio y mejores tasas de conversion. Google rastrea estas senales de engagement y recompensa las paginas que satisfacen lo que los buscadores realmente quieren. Una pagina de producto posicionada para una consulta informativa sera ignorada, y un articulo de blog posicionado para una consulta transaccional no convertira.\n\nEl impacto practico es significativo. Las tiendas que mapean sus paginas a la intencion correcta ven tasas de clics organicos 40-60% mas altas comparadas con las que no lo hacen. Entender la intencion tambien evita desperdiciar esfuerzos. No tiene sentido optimizar una pagina de producto para una consulta donde Google muestra exclusivamente articulos de blog y guias. Este concepto esta estrechamente ligado a la [investigacion de palabras clave para ecommerce](/academy/keyword-research-for-ecommerce), donde el analisis de intencion moldea toda tu estrategia.",
           callout: {
             title: "CTR-Wirkung",
-            text: "Shops, die Seitentypen korrekt der Suchintention zuordnen, verzeichnen 40–60 % höhere organische Klickraten. Falsch zugeordnete Intention ist einer der häufigsten Gründe, warum Ecommerce-Seiten in der Suche unterperformen.",
+            text: "Las tiendas que relacionan correctamente los tipos de páginas con la intención de búsqueda obtienen tasas de clics orgánicos entre un 40% y un 60% más altas. La intención no coincidente es una de las razones más comunes por las que las páginas de comercio electrónico tienen un rendimiento inferior en las búsquedas.",
           },
         },
         {
-          title: "Los cuatro tipos de intencion de busqueda",
+          title: "Los cuatro tipos de intención de busqueda",
           content:
             "Las directrices de evaluadores de calidad de Google identifican cuatro tipos principales de intencion, y cada uno se mapea directamente a tipos especificos de paginas en tu tienda.\n\nLa intencion de navegacion ocurre cuando alguien busca una marca o sitio web especifico. Consultas como \"zapatillas running Nike\" o \"skincare Glossier\" senalan que el usuario ya sabe lo que quiere y busca esa marca en particular. Estas consultas tipicamente tienen altas tasas de conversion porque el usuario ya ha decidido la marca.\n\nLa intencion informativa cubre consultas donde el usuario quiere aprender algo. \"Como elegir zapatillas de running\" o \"mejor rutina skincare para piel grasa\" son consultas informativas. Estos usuarios no estan listos para comprar, pero representan la parte superior de tu embudo. Articulos de blog, guias de compra y contenido educativo sirven esta intencion.\n\nLa intencion de investigacion comercial se situa entre informativa y transaccional. El usuario investiga antes de comprar. \"Mejores zapatillas running 2025\" o \"Cerave vs Cetaphil crema hidratante\" muestran que alguien esta comparando opciones. Paginas de categorias, contenido comparativo y resumenes de resenas se ajustan a esta intencion.\n\nLa intencion transaccional significa que el usuario esta listo para comprar. \"Comprar Nike Air Max 90\" o \"precio crema hidratante Cerave\" senalan disposicion de compra. Paginas de producto, paginas de categorias con botones de compra y paginas de ofertas sirven la intencion transaccional.",
           items: [
@@ -267,12 +265,12 @@ export const searchIntentForEcommerce: AcademyTopic = {
           ],
           image: {
             src: "/images/academy/es/search-intent-types.svg",
-            alt: "Trichterdiagramm mit den vier Arten der Suchintention von informational oben bis navigational unten, mit Conversion-Raten und passenden Seitentypen",
-            caption: "Jeder Intentionstyp ordnet sich bestimmten Seitentypen zu. Die Kaufabsicht steigt von oben nach unten.",
+            alt: "Diagrama de embudo que muestra los cuatro tipos de intención de búsqueda, desde informativo en la parte superior hasta de navegación en la parte inferior, con tasas de conversión y tipos de páginas coincidentes.",
+            caption: "Cada tipo de intención se asigna a tipos de páginas específicos. La intención de compra aumenta de arriba a abajo.",
           },
         },
         {
-          title: "Asignar tipos de pagina a la intencion",
+          title: "Asignar tipos de página a la intención",
           content:
             "La clave de la optimizacion de intencion es servir el tipo de pagina correcto para cada consulta. El algoritmo de Google tiene opiniones fuertes al respecto, y luchar contra ellas es una batalla perdida.\n\nPara consultas transaccionales, las paginas de producto y las paginas de categorias bien estructuradas funcionan mejor. Estas paginas deben tener precios claros, estado de disponibilidad, botones de anadir al carrito y especificaciones del producto. Cuando alguien busca \"comprar camiseta algodon organico\", quiere llegar a una pagina donde pueda realmente comprar una, no leer un articulo de 2.000 palabras sobre el algodon organico.\n\nPara consultas de investigacion comercial, necesitas contenido que ayude a los usuarios a comparar y evaluar. Paginas de categorias con opciones de filtrado, tablas comparativas y selecciones curadas de productos funcionan bien. Una consulta como \"mejores auriculares inalambricos menos de 100 euros\" funciona mejor con una pagina que lista y compara multiples opciones con pros y contras.\n\nPara consultas informativas, los articulos de blog, guias de compra y contenido FAQ son tus mejores activos. Estas paginas deben ser exhaustivas y genuinamente utiles. Una consulta como \"como medir talla de anillo en casa\" necesita una guia detallada, no una pagina de listado de productos.",
           items: [
@@ -285,13 +283,13 @@ export const searchIntentForEcommerce: AcademyTopic = {
           tip: "Revisa los 10 primeros resultados actuales para tu palabra clave objetivo antes de crear contenido. Si Google muestra 8 articulos de blog y 2 paginas de categorias, crear una pagina de producto para esa consulta es improbable que posicione. Adapta al tipo de pagina dominante en los resultados.",
         },
         {
-          title: "Como identificar la intencion desde los SERPs",
+          title: "Cómo identificar la intención desde los SERPs",
           content:
             "La forma mas fiable de determinar la intencion de busqueda es mirar lo que Google ya posiciona para una consulta. Google tiene miles de millones de puntos de datos sobre el comportamiento de los usuarios, y los resultados que muestra reflejan lo que satisface a los buscadores.\n\nBusca tu palabra clave objetivo y examina los 10 primeros resultados. Mira los tipos de paginas que posicionan: son paginas de producto, paginas de categorias, articulos de blog o articulos comparativos? Si 7 de 10 resultados son articulos de blog, Google ha clasificado esa consulta como principalmente informativa. Si todos los resultados son paginas de producto y categorias, es transaccional.\n\nTambien presta atencion a las funciones SERP. Los anuncios de Shopping y carruseles de productos indican intencion transaccional. Los fragmentos destacados y las cajas de \"La gente tambien pregunta\" sugieren intencion informativa. Los packs locales indican intencion local, relevante para tiendas con ubicaciones fisicas.\n\nObserva las consultas con intencion mixta donde Google muestra diferentes tipos de contenido. \"Zapatillas running\" podria mostrar una mezcla de paginas de categorias, resenas y paginas de marca porque la intencion es ambigua. Para estas consultas, puedes posicionar con multiples tipos de pagina apuntando a diferentes aspectos.",
           tip: "Crea una hoja de calculo sencilla con tres columnas: palabra clave, intencion dominante y tipo de pagina recomendado. Clasifica tus 50-100 palabras clave objetivo principales de esta manera antes de construir tu plan de contenido. Toma una tarde y previene meses de creacion de contenido desalineada.",
         },
         {
-          title: "Mapeo de intencion a traves del recorrido del comprador",
+          title: "Mapeo de intención a traves del recorrido del comprador",
           content:
             "La intencion de busqueda se mapea directamente al recorrido del comprador, y entender esta conexion te ayuda a captar clientes en cada etapa.\n\nEn la etapa de conciencia, los usuarios buscan consultas informativas. Alguien que escribe \"que significa el numero de hilos en sabanas\" no sabe aun que sabanas quiere. Tu contenido de blog captura a estos usuarios y les presenta tu marca. Aunque estas consultas raramente convierten directamente, construyen familiaridad y confianza.\n\nEn la etapa de consideracion, los usuarios cambian a consultas de investigacion comercial. \"Mejores sabanas de algodon egipcio\" o \"Marca A vs Marca B sabanas\" muestra que estan reduciendo opciones. Tu contenido comparativo y paginas de categorias bien organizadas capturan este trafico. Las tasas de conversion en esta etapa tipicamente van del 2 al 4%, y estos usuarios a menudo vuelven despues para comprar.\n\nEn la etapa de decision, los usuarios buscan consultas transaccionales. \"Comprar set de sabanas de lujo Marca X king\" es un usuario listo para comprar ahora mismo. Tus paginas de producto deben estar optimizadas para captar y convertir este trafico de alto valor. Las tasas de conversion para consultas transaccionales a menudo alcanzan el 5-10% en paginas de producto bien optimizadas.\n\nLa estrategia inteligente es construir enlaces internos entre estos tipos de contenido, creando un camino desde contenido de conciencia pasando por contenido comparativo hasta paginas de producto. Esto mantiene a los usuarios en tu ecosistema mientras avanzan en su recorrido de compra. Comprender el equilibrio entre [intencion de compra vs volumen de busqueda](/academy/buyer-intent-vs-search-volume) te ayuda a decidir que etapa priorizar.",
           items: [
@@ -302,12 +300,12 @@ export const searchIntentForEcommerce: AcademyTopic = {
           ],
           image: {
             src: "/images/academy/es/buyer-journey-intent-map.svg",
-            alt: "Diagramm, das die drei Phasen der Buyer Journey (Bewusstsein, Überlegung, Entscheidung) den Suchintentionstypen, Seitentypen und Conversion-Raten zuordnet",
-            caption: "Interne Links verbinden die Phasen: Blog-Inhalte führen zu Kategorieseiten, die zu Produktseiten weiterleiten.",
+            alt: "Diagrama que mapea las tres etapas del recorrido del comprador (conciencia, consideración, decisión) para buscar tipos de intención, tipos de páginas y tasas de conversión.",
+            caption: "Los enlaces internos conectan etapas: el contenido del blog se alimenta de páginas de categorías, que conducen a páginas de productos.",
           },
         },
         {
-          title: "Errores comunes de intencion en e-commerce",
+          title: "Errores comunes de intención en e-commerce",
           content:
             "El error mas frecuente que vemos es intentar posicionar una pagina de producto para una consulta informativa. Si alguien busca \"como elegir un colchon\", no quiere llegar a una pagina de producto de un solo colchon. Quiere una guia que explique niveles de firmeza, materiales y posiciones para dormir. Tu pagina de producto nunca superara a una guia completa para esa consulta.\n\nEl segundo error comun es ignorar la intencion comercial por completo. Muchas tiendas tienen paginas de producto y articulos de blog pero nada entre medio. Pierden todas las consultas \"mejor\", \"top\", \"resena\" y \"vs\" que representan usuarios casi listos para comprar. Anadir contenido comparativo y paginas de categorias curadas llena este vacio.\n\nOtro error es la canibalizacion de palabras clave por desajuste de intencion. Si tienes tanto una pagina de categoria como un articulo de blog apuntando a \"ropa de bebe organica\", Google tiene que elegir cual posicionar. Si la intencion es principalmente transaccional, el articulo de blog puede estar canibalizando tu pagina de categoria. Audita tu contenido para asegurar que solo una pagina apunta a cada intencion principal para una palabra clave dada.\n\nFinalmente, no asumas que la intencion es estatica. Los cambios estacionales alteran la intencion dramaticamente. \"Regalos San Valentin\" es informativa en noviembre pero se vuelve cada vez mas transaccional conforme se acerca febrero. Ajusta tu estrategia de contenido para coincidir con estos patrones cambiantes. Nuestra guia de [palabras clave SEO para ecommerce](/blog/ecommerce-seo-keywords) cubre como identificar y priorizar los terminos correctos para cada tipo de intencion.",
         },
@@ -330,7 +328,7 @@ export const searchIntentForEcommerce: AcademyTopic = {
             "L'intento di ricerca e il motivo per cui qualcuno digita una query su Google. Sta cercando un marchio specifico? Sta facendo ricerche su una categoria di prodotti? Sta confrontando opzioni? E pronto ad acquistare? Google classifica ogni query in una categoria di intento e fornisce risultati che corrispondono a quella classificazione.\n\nPer l'e-commerce, l'intento e tutto. Una pagina che corrisponde all'intento dell'utente ottiene tassi di clic piu alti, tempi di permanenza piu lunghi e migliori tassi di conversione. Google traccia questi segnali di engagement e premia le pagine che soddisfano cio che gli utenti effettivamente cercano. Una pagina prodotto posizionata per una query informativa verra saltata, e un articolo di blog posizionato per una query transazionale non convertira.\n\nL'impatto pratico e significativo. I negozi che mappano le loro pagine al corretto intento vedono tassi di clic organici del 40-60% piu alti rispetto a quelli che non lo fanno. Comprendere l'intento previene anche lo spreco di risorse. Non ha senso ottimizzare una pagina prodotto per una query dove Google mostra esclusivamente articoli di blog e guide. Approfondisci con la nostra guida sulla [ricerca keyword per l'ecommerce](/academy/keyword-research-for-ecommerce).",
           callout: {
             title: "CTR-Wirkung",
-            text: "Shops, die Seitentypen korrekt der Suchintention zuordnen, verzeichnen 40–60 % höhere organische Klickraten. Falsch zugeordnete Intention ist einer der häufigsten Gründe, warum Ecommerce-Seiten in der Suche unterperformen.",
+            text: "I negozi che abbinano correttamente i tipi di pagina all'intento di ricerca registrano percentuali di clic organiche più elevate del 40-60%. L'intento non corrispondente è uno dei motivi più comuni per cui le pagine di e-commerce hanno un rendimento inferiore nella ricerca.",
           },
         },
         {
@@ -345,8 +343,8 @@ export const searchIntentForEcommerce: AcademyTopic = {
           ],
           image: {
             src: "/images/academy/it/search-intent-types.svg",
-            alt: "Trichterdiagramm mit den vier Arten der Suchintention von informational oben bis navigational unten, mit Conversion-Raten und passenden Seitentypen",
-            caption: "Jeder Intentionstyp ordnet sich bestimmten Seitentypen zu. Die Kaufabsicht steigt von oben nach unten.",
+            alt: "Diagramma a imbuto che mostra i quattro tipi di intenti di ricerca, da quello informativo in alto a quello di navigazione in basso, con tassi di conversione e tipi di pagina corrispondenti",
+            caption: "Ogni tipo di intento è mappato a tipi di pagina specifici. L’intenzione di acquisto aumenta dall’alto verso il basso.",
           },
         },
         {
@@ -380,8 +378,8 @@ export const searchIntentForEcommerce: AcademyTopic = {
           ],
           image: {
             src: "/images/academy/it/buyer-journey-intent-map.svg",
-            alt: "Diagramm, das die drei Phasen der Buyer Journey (Bewusstsein, Überlegung, Entscheidung) den Suchintentionstypen, Seitentypen und Conversion-Raten zuordnet",
-            caption: "Interne Links verbinden die Phasen: Blog-Inhalte führen zu Kategorieseiten, die zu Produktseiten weiterleiten.",
+            alt: "Diagramma che mappa le tre fasi del percorso dell'acquirente (consapevolezza, considerazione, decisione) per tipi di intenti di ricerca, tipi di pagina e tassi di conversione",
+            caption: "I collegamenti interni collegano le fasi: i contenuti del blog alimentano le pagine delle categorie, che portano alle pagine dei prodotti.",
           },
         },
         {
@@ -408,7 +406,7 @@ export const searchIntentForEcommerce: AcademyTopic = {
             "Zoekintentie is de reden waarom iemand een zoekopdracht intypt in Google. Zoekt de persoon een specifiek merk? Onderzoekt die een productcategorie? Vergelijkt die opties? Is die klaar om te kopen? Google classificeert elke zoekopdracht in een intentiecategorie en toont resultaten die bij die classificatie passen.\n\nVoor e-commerce is intentie alles. Een pagina die overeenkomt met de intentie van de gebruiker krijgt hogere klikpercentages, langere verblijftijden en betere conversieratio's. Google volgt deze engagementsignalen en beloont pagina's die daadwerkelijk leveren wat zoekers willen. Een productpagina die rankt voor een informatieve zoekopdracht wordt overgeslagen, en een blogpost die rankt voor een transactionele zoekopdracht converteert niet.\n\nDe praktische impact is aanzienlijk. Winkels die hun pagina's afstemmen op de juiste intentie zien 40-60% hogere organische klikpercentages vergeleken met degenen die dat niet doen. Intentie begrijpen voorkomt ook verspilde moeite. Het heeft geen zin om een productpagina te optimaliseren voor een zoekopdracht waarbij Google uitsluitend blogposts en gidsen toont.\n\nLees meer over [zoekwoordonderzoek voor ecommerce](/academy/keyword-research-for-ecommerce) in ons gedetailleerde onderwerp.",
           callout: {
             title: "CTR-Wirkung",
-            text: "Shops, die Seitentypen korrekt der Suchintention zuordnen, verzeichnen 40–60 % höhere organische Klickraten. Falsch zugeordnete Intention ist einer der häufigsten Gründe, warum Ecommerce-Seiten in der Suche unterperformen.",
+            text: "Winkels die de paginatypen correct afstemmen op de zoekintentie, zien 40-60% hogere organische klikfrequenties. Niet-overeenkomende intentie is een van de meest voorkomende redenen waarom e-commercepagina's slecht presteren in de zoekresultaten.",
           },
         },
         {
@@ -423,8 +421,8 @@ export const searchIntentForEcommerce: AcademyTopic = {
           ],
           image: {
             src: "/images/academy/nl/search-intent-types.svg",
-            alt: "Trichterdiagramm mit den vier Arten der Suchintention von informational oben bis navigational unten, mit Conversion-Raten und passenden Seitentypen",
-            caption: "Jeder Intentionstyp ordnet sich bestimmten Seitentypen zu. Die Kaufabsicht steigt von oben nach unten.",
+            alt: "Trechterdiagram met de vier typen zoekintentie, van informatief bovenaan tot navigatie onderaan, met conversiepercentages en overeenkomende paginatypen",
+            caption: "Elk intentietype verwijst naar specifieke paginatypen. De koopintentie neemt van boven naar beneden toe.",
           },
         },
         {
@@ -458,8 +456,8 @@ export const searchIntentForEcommerce: AcademyTopic = {
           ],
           image: {
             src: "/images/academy/nl/buyer-journey-intent-map.svg",
-            alt: "Diagramm, das die drei Phasen der Buyer Journey (Bewusstsein, Überlegung, Entscheidung) den Suchintentionstypen, Seitentypen und Conversion-Raten zuordnet",
-            caption: "Interne Links verbinden die Phasen: Blog-Inhalte führen zu Kategorieseiten, die zu Produktseiten weiterleiten.",
+            alt: "Diagram waarin de drie fases van het koperstraject (bewustzijn, overweging, beslissing) in kaart worden gebracht voor typen zoekintenties, paginatypen en conversiepercentages",
+            caption: "Interne links verbinden fasen: bloginhoud wordt ingevoerd in categoriepagina's, die naar productpagina's leiden.",
           },
         },
         {

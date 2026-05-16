@@ -152,10 +152,9 @@ export const longTailKeywordsForProducts: AcademyTopic = {
       },
     },
     fr: {
-      badge: "Recherche de mots-cles",
-      heading: "Mots-cles longue traine pour les produits",
-      intro:
-        "Le calcul derriere le SEO longue traine e-commerce est direct : 500 pages produits, chacune generant 10 visites organiques par jour avec un taux de conversion de 5%, egale 25 ventes quotidiennes uniquement via la recherche. Voici comment trouver et capturer ces opportunites longue traine dans tout votre catalogue.",
+      badge: "Recherche de mots-clés",
+      heading: "Mots-clés longue traine pour les produits",
+      intro: "Le calcul derriere le SEO longue traine e-commerce est direct : 500 pages produits, chacune generant 10 visites organiques par jour avec un taux de conversion de 5%, egale 25 ventes quotidiennes uniquement via la recherche. Voici comment trouver et capturer ces opportunites longue traine dans tout votre catalogue.",
       readTime: "9 min de lecture",
       sections: [
         {
@@ -171,11 +170,11 @@ export const longTailKeywordsForProducts: AcademyTopic = {
           image: {
             src: "/images/academy/fr/long-tail-revenue-distribution.svg",
             alt: "Diagramm der Long-Tail-Keyword-Umsatzverteilungskurve",
-            caption: "Der Long Tail macht 70-80\u00a0% aller Suchanfragen aus. 1.500 Keywords mit je 80 Suchen ergeben 24.000 monatliche Besuche.",
+            caption: "La longue traîne représente 70 à 80 % de toutes les requêtes de recherche. Chaque terme est petit individuellement, mais 1 500 mots-clés sur 80 recherches chacun équivalent à 24 000 visites mensuelles.",
           },
           callout: {
             title: "Kumulierender Umsatz",
-            text: "Ein Einrichtungsshop optimierte 800 Produkte über 6 Monate. Der organische Monatsumsatz wuchs durchschnittlich um 12\u00a0%, und ab Monat 8 war die organische Suche der zweitgrößte Umsatzkanal.",
+            text: "Un magasin d'articles pour la maison a optimisé 800 produits sur 6 mois grâce à un déploiement basé sur les vagues. Les revenus organiques d'un mois à l'autre ont augmenté de 12 % en moyenne et, au huitième mois, la recherche organique était leur deuxième chiffre d'affaires en importance.",
           },
         },
         {
@@ -185,7 +184,7 @@ export const longTailKeywordsForProducts: AcademyTopic = {
           tip: "Exportez votre flux produit et creez une matrice de mots-cles : type de produit en lignes, attributs en colonnes. Les intersections generent vos cibles de mots-cles longue traine. Une boutique avec 10 types de produits et 8 attributs par type peut generer plus de 80 variations de mots-cles par produit.",
         },
         {
-          title: "Optimiser les pages produits sans creer du contenu mince",
+          title: "Optimiser les pages produits sans créer du contenu mince",
           content:
             "Le defi de l'optimisation longue traine est d'eviter le contenu mince, des pages qui ciblent des mots-cles specifiques mais manquent de substance pour se positionner. Les standards de qualite de Google exigent que chaque page apporte une valeur reelle, pas seulement des correspondances de mots-cles.\n\nLa solution est le contenu en couches. Commencez par une description produit unique (150-300 mots) qui incorpore naturellement vos mots-cles longue traine principaux et secondaires. Cela remplace le texte standard du fabricant que tous les autres revendeurs utilisent.\n\nAjoutez une section de specifications qui liste chaque attribut produit dans un format structure. Cela sert a la fois le SEO (chaque spec est un signal de mot-cle) et l'experience utilisateur (les acheteurs comparent les specs avant d'acheter). Utilisez un format de liste de definitions ou de tableau que les moteurs de recherche peuvent facilement analyser.\n\nIncluez une section cas d'usage (100-200 mots) qui repond a \"a qui s'adresse ce produit ?\" et \"quand devriez-vous l'utiliser ?\". Cela incorpore naturellement les modificateurs de cas d'usage (\"pour la randonnee\", \"pour les debutants\", \"pour usage professionnel\") qui generent du trafic longue traine.\n\nEnfin, le contenu genere par les utilisateurs, avis, sections Q&R et photos clients, ajoute du texte unique et riche en mots-cles a chaque page produit sans aucun effort de creation de contenu de votre part. Une page produit avec plus de 20 avis a plus de texte indexable qu'une avec juste une description, et ce texte contient exactement le langage que les vrais acheteurs utilisent en cherchant. Pour en savoir plus sur l'optimisation de ces pages, consultez notre sujet sur le [SEO des pages produits](/academy/product-page-seo).",
           items: [
@@ -196,7 +195,7 @@ export const longTailKeywordsForProducts: AcademyTopic = {
           ],
         },
         {
-          title: "La strategie d'empilement des revenus",
+          title: "La stratégie d'empilement des revenus",
           content:
             "L'empilement des revenus signifie construire le trafic organique incrementalement, page produit par page produit, jusqu'a ce que le trafic longue traine cumulatif devienne votre plus grand canal de revenus. Plutot que de tout miser sur le positionnement pour un ou deux termes generiques competitifs, vous repartissez votre investissement SEO sur l'ensemble de votre catalogue.\n\nLe processus fonctionne par vagues. Premiere vague : optimisez vos 50 meilleurs produits par chiffre d'affaires, ceux qui se vendent deja bien. Redigez des descriptions uniques, ajoutez des specifications structurees, optimisez les titres et meta descriptions pour leurs mots-cles longue traine principaux. Cela prend generalement 2 a 4 semaines et produit des augmentations de trafic mesurables dans les 60-90 jours.\n\nDeuxieme vague : etendez a vos 100 produits suivants, en appliquant le meme modele. A ce stade, vous avez un format de contenu eprouve que vous pouvez industrialiser avec un redacteur ou une equipe de redaction. Le cout par page diminue car le template est etabli.\n\nTroisieme vague et au-dela : parcourez votre catalogue restant par lots de 50-100 produits. A ce stade, l'effet cumulatif est visible, votre courbe de trafic organique global grimpe regulierement, et l'attribution des revenus rend le cas ROI evident.\n\nUne boutique d'ameublement avec laquelle nous avons travaille a suivi exactement ce processus sur 800 produits en six mois. La croissance mensuelle du chiffre d'affaires organique a atteint en moyenne 12%, et au huitieme mois, la recherche organique etait devenue leur deuxieme plus grand canal de revenus apres la publicite payante.",
         },
@@ -227,8 +226,7 @@ export const longTailKeywordsForProducts: AcademyTopic = {
     es: {
       badge: "Investigacion de palabras clave",
       heading: "Palabras clave de cola larga para productos",
-      intro:
-        "Las matematicas detras del SEO de cola larga para ecommerce son directas: 500 paginas de producto, cada una trayendo 10 visitas organicas al dia con una tasa de conversion del 5%, equivale a 25 ventas diarias solo por busqueda. Aqui explicamos como encontrar y capturar esas oportunidades de cola larga en todo tu catalogo.",
+      intro: "Las matematicas detras del SEO de cola larga para ecommerce son directas: 500 páginas de producto, cada una trayendo 10 visitas organicas al dia con una tasa de conversion del 5%, equivale a 25 ventas diarias solo por busqueda. Aqui explicamos como encontrar y capturar esas oportunidades de cola larga en todo tu catálogo.",
       readTime: "9 min de lectura",
       sections: [
         {
@@ -244,11 +242,11 @@ export const longTailKeywordsForProducts: AcademyTopic = {
           image: {
             src: "/images/academy/es/long-tail-revenue-distribution.svg",
             alt: "Diagramm der Long-Tail-Keyword-Umsatzverteilungskurve",
-            caption: "Der Long Tail macht 70-80\u00a0% aller Suchanfragen aus. 1.500 Keywords mit je 80 Suchen ergeben 24.000 monatliche Besuche.",
+            caption: "La cola larga representa entre el 70% y el 80% de todas las consultas de búsqueda. Cada término es pequeño individualmente, pero 1.500 palabras clave en 80 búsquedas cada una equivale a 24.000 visitas mensuales.",
           },
           callout: {
             title: "Kumulierender Umsatz",
-            text: "Ein Einrichtungsshop optimierte 800 Produkte über 6 Monate. Der organische Monatsumsatz wuchs durchschnittlich um 12\u00a0%, und ab Monat 8 war die organische Suche der zweitgrößte Umsatzkanal.",
+            text: "Una tienda de artículos para el hogar optimizó 800 productos durante 6 meses mediante una implementación basada en olas. Los ingresos orgánicos mes a mes crecieron un 12% en promedio y, en el mes 8, la búsqueda orgánica era su segundo mayor ingreso c",
           },
         },
         {
@@ -258,7 +256,7 @@ export const longTailKeywordsForProducts: AcademyTopic = {
           tip: "Exporta tu feed de productos y crea una matriz de palabras clave: tipo de producto en filas, atributos en columnas. Las intersecciones generan tus objetivos de palabras clave de cola larga. Una tienda con 10 tipos de producto y 8 atributos por tipo puede generar mas de 80 variaciones de palabras clave por producto.",
         },
         {
-          title: "Optimizar paginas de producto sin crear contenido delgado",
+          title: "Optimizar páginas de producto sin crear contenido delgado",
           content:
             "El desafio con la optimizacion de cola larga es evitar contenido delgado, paginas que apuntan a palabras clave especificas pero carecen de suficiente sustancia para posicionar. Los estandares de calidad de Google exigen que cada pagina proporcione valor genuino, no solo coincidencias de palabras clave.\n\nLa solucion es contenido por capas. Empieza con una descripcion de producto unica (150-300 palabras) que incorpore naturalmente tus palabras clave de cola larga primarias y secundarias. Esto reemplaza el texto estandar del fabricante que todos los demas minoristas usan.\n\nAnade una seccion de especificaciones que liste cada atributo del producto en formato estructurado. Esto sirve tanto al SEO (cada especificacion es una senal de palabra clave) como a la experiencia de usuario (los compradores comparan especificaciones antes de comprar). Usa un formato de lista de definiciones o tabla que los motores de busqueda puedan analizar facilmente.\n\nIncluye una seccion de caso de uso (100-200 palabras) que responda \"para quien es este producto?\" y \"cuando deberia usarse?\". Esto incorpora naturalmente modificadores de caso de uso (\"para senderismo\", \"para principiantes\", \"para uso profesional\") que generan trafico de cola larga.\n\nFinalmente, el contenido generado por usuarios, resenas, secciones de preguntas y respuestas, y fotos de clientes, anade texto unico y rico en palabras clave a cada [pagina de producto](/academy/product-page-seo) sin ningun esfuerzo de creacion de contenido de tu parte. Una pagina de producto con mas de 20 resenas tiene mas texto indexable que una con solo descripcion, y ese texto incluye exactamente el lenguaje que los compradores reales usan al buscar.",
           items: [
@@ -287,7 +285,7 @@ export const longTailKeywordsForProducts: AcademyTopic = {
           ],
         },
         {
-          title: "Escalar la optimizacion de cola larga en catalogos grandes",
+          title: "Escalar la optimización de cola larga en catálogos grandes",
           content:
             "Tiendas con mas de 1.000 productos no pueden escribir contenido personalizado para cada pagina de la noche a la manana. La clave es un enfoque basado en plantillas que equilibre calidad con velocidad.\n\nCrea una plantilla de contenido de pagina de producto para cada categoria principal. La plantilla define que secciones aparecen en la pagina, que atributos se destacan prominentemente y donde deben incorporarse las palabras clave de cola larga. Una plantilla para electronica podria enfatizar compatibilidad y especificaciones tecnicas, mientras que una para ropa se centra en tallas, materiales e instrucciones de cuidado.\n\nUsa tu feed de datos de producto para auto-generar porciones del contenido. Tablas de especificaciones, puntos de caracteristicas clave y avisos de compatibilidad pueden construirse a partir de datos de producto estructurados. Esto da a cada pagina una base de contenido rico en palabras clave sin escritura manual.\n\nReserva la creacion de contenido manual para las paginas de mayor valor, tus 100-200 mejores productos por ingresos. Estos reciben descripciones personalizadas, secciones detalladas de casos de uso y guias de compra escritas a mano. El resto de tu catalogo recibe el tratamiento de plantilla, que sigue siendo una mejora masiva respecto a las descripciones genericas del fabricante.\n\nHaz seguimiento de resultados a nivel de plantilla. Si una plantilla particular produce consistentemente paginas que posicionan y convierten, desplegala mas agresivamente. Si una plantilla rinde por debajo, refinala antes de aplicarla a mas productos.",
         },
@@ -317,11 +315,11 @@ export const longTailKeywordsForProducts: AcademyTopic = {
           image: {
             src: "/images/academy/it/long-tail-revenue-distribution.svg",
             alt: "Diagramm der Long-Tail-Keyword-Umsatzverteilungskurve",
-            caption: "Der Long Tail macht 70-80\u00a0% aller Suchanfragen aus. 1.500 Keywords mit je 80 Suchen ergeben 24.000 monatliche Besuche.",
+            caption: "La coda lunga costituisce il 70-80% di tutte le query di ricerca. Ogni termine è piccolo individualmente, ma 1.500 parole chiave con 80 ricerche ciascuna equivalgono a 24.000 visite mensili.",
           },
           callout: {
             title: "Kumulierender Umsatz",
-            text: "Ein Einrichtungsshop optimierte 800 Produkte über 6 Monate. Der organische Monatsumsatz wuchs durchschnittlich um 12\u00a0%, und ab Monat 8 war die organische Suche der zweitgrößte Umsatzkanal.",
+            text: "Un negozio di articoli per la casa ha ottimizzato 800 prodotti in 6 mesi utilizzando un'implementazione basata su ondate. Le entrate organiche mese su mese sono cresciute in media del 12% e entro l'ottavo mese la ricerca organica è stata la seconda maggiore fonte di entrate.",
           },
         },
         {
@@ -390,11 +388,11 @@ export const longTailKeywordsForProducts: AcademyTopic = {
           image: {
             src: "/images/academy/nl/long-tail-revenue-distribution.svg",
             alt: "Diagramm der Long-Tail-Keyword-Umsatzverteilungskurve",
-            caption: "Der Long Tail macht 70-80\u00a0% aller Suchanfragen aus. 1.500 Keywords mit je 80 Suchen ergeben 24.000 monatliche Besuche.",
+            caption: "De lange staart vormt 70-80% van alle zoekopdrachten. Elke term is individueel klein, maar 1.500 trefwoorden bij 80 zoekopdrachten staan ​​elk gelijk aan 24.000 maandelijkse bezoeken.",
           },
           callout: {
             title: "Kumulierender Umsatz",
-            text: "Ein Einrichtungsshop optimierte 800 Produkte über 6 Monate. Der organische Monatsumsatz wuchs durchschnittlich um 12\u00a0%, und ab Monat 8 war die organische Suche der zweitgrößte Umsatzkanal.",
+            text: "Een winkel met huishoudelijke artikelen optimaliseerde in zes maanden tijd 800 producten met behulp van een wave-gebaseerde uitrol. Maand-op-maand groeide de organische omzet gemiddeld met 12%, en tegen maand 8 was de organische zoekopdracht de op één na grootste omzet.",
           },
         },
         {

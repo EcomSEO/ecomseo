@@ -148,8 +148,7 @@ export const mobileFirstForEcommerce: AcademyTopic = {
     fr: {
       badge: "SEO Technique",
       heading: "SEO Mobile-First pour le E-commerce",
-      intro:
-        "Google utilise la version mobile de votre boutique pour toutes les décisions d'indexation et de classement. Si vos pages produit ont un aspect différent, chargent plus lentement ou contiennent moins de contenu sur mobile que sur desktop, c'est cette version mobile qui détermine votre visibilité dans les recherches. Plus de 70 % du trafic e-commerce provient désormais d'appareils mobiles. Cela fait de l'optimisation mobile un élément incontournable du [SEO technique pour l'e-commerce](/blog/technical-seo-for-ecommerce).",
+      intro: "Google utilise la version mobile de votre boutique pour toutes les décisions d'indexation et de classement. Si vos pages produit ont un aspect différent, chargent plus lentement ou contiennent moins de contenu sur mobile que sur desktop, c'est cette version mobile qui détermine votre visibilité dans les recherches. Plus de 70 % du trafic e-commerce provient désormais d'appareils mobiles. Cela fait de l'optimisation mobile un élément incontournable du [SEO technique pour l'e-commerce](/blog/technical-seo-for-ecommerce).",
       readTime: "10 min de lecture",
       sections: [
         {
@@ -164,12 +163,12 @@ export const mobileFirstForEcommerce: AcademyTopic = {
           ],
           image: {
             src: "/images/academy/fr/mobile-first-indexing-flow.svg",
-            alt: "Vergleich der zeigt wie Desktop-Seiten mit vollstaendigem Inhalt sich von mobilen Versionen mit gekuerztem Inhalt unterscheiden und dass Google die mobile Version indexiert",
-            caption: "Google indexiert die mobile Version Ihrer Seiten. Auf Mobilgeraeten versteckter oder entfernter Inhalt verringert direkt Ihre Suchsichtbarkeit.",
+            alt: "Comparaison côte à côte montrant en quoi les pages de bureau avec un contenu complet diffèrent des versions mobiles avec un contenu tronqué, et que Google indexe la version mobile",
+            caption: "Google indexe la version mobile de vos pages. Le contenu masqué ou supprimé sur mobile réduit directement la visibilité de votre recherche.",
           },
           callout: {
             title: "Inhaltsparitaets-Risiko",
-            text: "Desktop-Seiten mit durchschnittlich ueber 45 internen Links fallen auf Mobilgeraeten oft auf 12. Bei Mobile-First-Indexierung schwaecht das Fehlen dieser 33 Links die Crawl-Prioritaet der verlinkten Seiten.",
+            text: "Les pages de bureau contenant en moyenne plus de 45 liens internes tombent souvent à 12 sur mobile. Avec l'indexation mobile-first, les 33 liens manquants affaiblissent la priorité d'exploration des pages vers lesquelles ils pointent.",
           },
         },
         {
@@ -195,12 +194,12 @@ export const mobileFirstForEcommerce: AcademyTopic = {
           ],
           image: {
             src: "/images/academy/fr/mobile-speed-revenue-impact.svg",
-            alt: "Balkendiagramm das den Rueckgang der Konversionsrate von 3,8% bei 1 Sekunde Ladezeit auf 0,7% bei 6+ Sekunden zeigt mit 53% Abbruchschwelle bei 3 Sekunden",
-            caption: "Die mobile Konversionsrate sinkt mit jeder zusaetzlichen Sekunde Ladezeit stark. Die 3-Sekunden-Schwelle ist der Punkt an dem 53% der Besucher abspringen.",
+            alt: "Graphique à barres montrant le taux de conversion passant de 3,8 % après un temps de chargement d'une seconde à 0,7 % après plus de 6 secondes, avec un seuil d'abandon de 53 % après 3 secondes.",
+            caption: "Le taux de conversion mobile diminue fortement à chaque seconde supplémentaire de temps de chargement. Le seuil de 3 secondes est celui où 53 % des visiteurs abandonnent.",
           },
           callout: {
             title: "Umsatzauswirkung",
-            text: "Die Reduzierung der mobilen Ladezeit von 5,2s auf 2,1s steigerte die mobile Konversion um 27% und den Umsatz um 34% ueber 90 Tage. Die Optimierung kostete weniger als eine Woche bezahltes Werbebudget.",
+            text: "La réduction du temps de chargement mobile de 5,2 s à 2,1 s a augmenté la conversion mobile de 27 % et les revenus de 34 % sur 90 jours. L’optimisation coûte moins d’une semaine de budget publicitaire payant.",
           },
         },
         {
@@ -218,8 +217,7 @@ export const mobileFirstForEcommerce: AcademyTopic = {
     es: {
       badge: "SEO Técnico",
       heading: "SEO Mobile-First para Ecommerce",
-      intro:
-        "Google utiliza la versión móvil de tu tienda para todas las decisiones de indexación y ranking. Si tus páginas de producto se ven diferentes, cargan más lento o contienen menos contenido en móvil que en escritorio, esa versión móvil es lo que determina tu visibilidad en búsquedas. Más del 70 % del tráfico de ecommerce proviene ahora de dispositivos móviles. Esto hace que la optimizacion movil sea una parte innegociable del [SEO tecnico para ecommerce](/blog/technical-seo-for-ecommerce).",
+      intro: "Google utiliza la versión móvil de tu tienda para todas las decisiones de indexación y ranking. Si tus páginas de producto se ven diferentes, cargan más lento o contienen menos contenido en móvil que en escritorio, esa versión móvil es lo que determina tu visibilidad en búsquedas. Más del 70 % del tráfico de ecommerce proviene ahora de dispositivos móviles. Esto hace que la optimización movil sea una parte innegociable del [SEO técnico para ecommerce](/blog/technical-seo-for-ecommerce).",
       readTime: "10 min de lectura",
       sections: [
         {
@@ -234,12 +232,12 @@ export const mobileFirstForEcommerce: AcademyTopic = {
           ],
           image: {
             src: "/images/academy/es/mobile-first-indexing-flow.svg",
-            alt: "Vergleich der zeigt wie Desktop-Seiten mit vollstaendigem Inhalt sich von mobilen Versionen mit gekuerztem Inhalt unterscheiden und dass Google die mobile Version indexiert",
-            caption: "Google indexiert die mobile Version Ihrer Seiten. Auf Mobilgeraeten versteckter oder entfernter Inhalt verringert direkt Ihre Suchsichtbarkeit.",
+            alt: "Comparación lado a lado que muestra cómo las páginas de escritorio con contenido completo difieren de las versiones móviles con contenido truncado, y cómo Google indexa la versión móvil.",
+            caption: "Google indexa la versión móvil de sus páginas. El contenido oculto o eliminado en dispositivos móviles reduce directamente la visibilidad de su búsqueda.",
           },
           callout: {
             title: "Inhaltsparitaets-Risiko",
-            text: "Desktop-Seiten mit durchschnittlich ueber 45 internen Links fallen auf Mobilgeraeten oft auf 12. Bei Mobile-First-Indexierung schwaecht das Fehlen dieser 33 Links die Crawl-Prioritaet der verlinkten Seiten.",
+            text: "Las páginas de escritorio con un promedio de más de 45 enlaces internos a menudo se reducen a 12 en dispositivos móviles. Con la indexación basada en dispositivos móviles, los 33 enlaces que faltan debilitan la prioridad de rastreo de las páginas a las que apuntaban.",
           },
         },
         {
@@ -265,12 +263,12 @@ export const mobileFirstForEcommerce: AcademyTopic = {
           ],
           image: {
             src: "/images/academy/es/mobile-speed-revenue-impact.svg",
-            alt: "Balkendiagramm das den Rueckgang der Konversionsrate von 3,8% bei 1 Sekunde Ladezeit auf 0,7% bei 6+ Sekunden zeigt mit 53% Abbruchschwelle bei 3 Sekunden",
-            caption: "Die mobile Konversionsrate sinkt mit jeder zusaetzlichen Sekunde Ladezeit stark. Die 3-Sekunden-Schwelle ist der Punkt an dem 53% der Besucher abspringen.",
+            alt: "Gráfico de barras que muestra la tasa de conversión que disminuye del 3,8 % con un tiempo de carga de 1 segundo al 0,7 % con más de 6 segundos, con un umbral de abandono del 53 % a los 3 segundos.",
+            caption: "La tasa de conversión móvil cae drásticamente con cada segundo adicional de tiempo de carga. El umbral de los 3 segundos es donde el 53% de los visitantes abandonan.",
           },
           callout: {
             title: "Umsatzauswirkung",
-            text: "Die Reduzierung der mobilen Ladezeit von 5,2s auf 2,1s steigerte die mobile Konversion um 27% und den Umsatz um 34% ueber 90 Tage. Die Optimierung kostete weniger als eine Woche bezahltes Werbebudget.",
+            text: "La reducción del tiempo de carga móvil de 5,2 segundos a 2,1 segundos aumentó la conversión móvil en un 27 % y los ingresos en un 34 % en 90 días. La optimización costó menos de una semana de presupuesto de publicidad paga.",
           },
         },
         {
@@ -304,12 +302,12 @@ export const mobileFirstForEcommerce: AcademyTopic = {
           ],
           image: {
             src: "/images/academy/it/mobile-first-indexing-flow.svg",
-            alt: "Vergleich der zeigt wie Desktop-Seiten mit vollstaendigem Inhalt sich von mobilen Versionen mit gekuerztem Inhalt unterscheiden und dass Google die mobile Version indexiert",
-            caption: "Google indexiert die mobile Version Ihrer Seiten. Auf Mobilgeraeten versteckter oder entfernter Inhalt verringert direkt Ihre Suchsichtbarkeit.",
+            alt: "Confronto affiancato che mostra in che modo le pagine desktop con contenuto completo differiscono dalle versioni mobili con contenuto troncato e che Google indicizza la versione mobile",
+            caption: "Google indicizza la versione mobile delle tue pagine. I contenuti nascosti o rimossi sui dispositivi mobili riducono direttamente la visibilità della ricerca.",
           },
           callout: {
             title: "Inhaltsparitaets-Risiko",
-            text: "Desktop-Seiten mit durchschnittlich ueber 45 internen Links fallen auf Mobilgeraeten oft auf 12. Bei Mobile-First-Indexierung schwaecht das Fehlen dieser 33 Links die Crawl-Prioritaet der verlinkten Seiten.",
+            text: "Le pagine desktop con una media di oltre 45 collegamenti interni spesso scendono a 12 sui dispositivi mobili. Con l’indicizzazione mobile-first, i 33 link mancanti indeboliscono la priorità di scansione delle pagine a cui puntavano.",
           },
         },
         {
@@ -335,12 +333,12 @@ export const mobileFirstForEcommerce: AcademyTopic = {
           ],
           image: {
             src: "/images/academy/it/mobile-speed-revenue-impact.svg",
-            alt: "Balkendiagramm das den Rueckgang der Konversionsrate von 3,8% bei 1 Sekunde Ladezeit auf 0,7% bei 6+ Sekunden zeigt mit 53% Abbruchschwelle bei 3 Sekunden",
-            caption: "Die mobile Konversionsrate sinkt mit jeder zusaetzlichen Sekunde Ladezeit stark. Die 3-Sekunden-Schwelle ist der Punkt an dem 53% der Besucher abspringen.",
+            alt: "Grafico a barre che mostra un tasso di conversione in calo dal 3,8% con un tempo di caricamento di 1 secondo allo 0,7% con più di 6 secondi, con soglia di abbandono del 53% dopo 3 secondi",
+            caption: "Il tasso di conversione mobile diminuisce drasticamente con ogni secondo aggiuntivo di tempo di caricamento. La soglia dei 3 secondi è quella alla quale il 53% dei visitatori abbandona.",
           },
           callout: {
             title: "Umsatzauswirkung",
-            text: "Die Reduzierung der mobilen Ladezeit von 5,2s auf 2,1s steigerte die mobile Konversion um 27% und den Umsatz um 34% ueber 90 Tage. Die Optimierung kostete weniger als eine Woche bezahltes Werbebudget.",
+            text: "La riduzione del tempo di caricamento da dispositivo mobile da 5,2 a 2,1 secondi ha aumentato la conversione da dispositivo mobile del 27% e le entrate del 34% in 90 giorni. L'ottimizzazione costa meno di una settimana di budget pubblicitario pagato.",
           },
         },
         {
@@ -374,12 +372,12 @@ export const mobileFirstForEcommerce: AcademyTopic = {
           ],
           image: {
             src: "/images/academy/nl/mobile-first-indexing-flow.svg",
-            alt: "Vergleich der zeigt wie Desktop-Seiten mit vollstaendigem Inhalt sich von mobilen Versionen mit gekuerztem Inhalt unterscheiden und dass Google die mobile Version indexiert",
-            caption: "Google indexiert die mobile Version Ihrer Seiten. Auf Mobilgeraeten versteckter oder entfernter Inhalt verringert direkt Ihre Suchsichtbarkeit.",
+            alt: "Zij-aan-zij vergelijking die laat zien hoe desktoppagina's met volledige inhoud verschillen van mobiele versies met ingekorte inhoud, en dat Google de mobiele versie indexeert",
+            caption: "Google indexeert de mobiele versie van uw pagina's. Inhoud die op mobiel is verborgen of verwijderd, vermindert direct uw zoekzichtbaarheid.",
           },
           callout: {
             title: "Inhaltsparitaets-Risiko",
-            text: "Desktop-Seiten mit durchschnittlich ueber 45 internen Links fallen auf Mobilgeraeten oft auf 12. Bei Mobile-First-Indexierung schwaecht das Fehlen dieser 33 Links die Crawl-Prioritaet der verlinkten Seiten.",
+            text: "Desktoppagina's met gemiddeld 45+ interne links dalen vaak naar 12 op mobiel. Met mobile-first indexering verzwakken de ontbrekende 33 links de crawlprioriteit voor de pagina's waarnaar ze verwijzen.",
           },
         },
         {
@@ -405,12 +403,12 @@ export const mobileFirstForEcommerce: AcademyTopic = {
           ],
           image: {
             src: "/images/academy/nl/mobile-speed-revenue-impact.svg",
-            alt: "Balkendiagramm das den Rueckgang der Konversionsrate von 3,8% bei 1 Sekunde Ladezeit auf 0,7% bei 6+ Sekunden zeigt mit 53% Abbruchschwelle bei 3 Sekunden",
-            caption: "Die mobile Konversionsrate sinkt mit jeder zusaetzlichen Sekunde Ladezeit stark. Die 3-Sekunden-Schwelle ist der Punkt an dem 53% der Besucher abspringen.",
+            alt: "Staafdiagram dat het conversiepercentage laat zien dat daalt van 3,8% na een laadtijd van 1 seconde naar 0,7% na 6+ seconden, met een verlatingsdrempel van 53% na 3 seconden",
+            caption: "Het mobiele conversiepercentage daalt scherp met elke extra seconde laadtijd. De drempel van 3 seconden is het punt waarop 53% van de bezoekers afhaakt.",
           },
           callout: {
             title: "Umsatzauswirkung",
-            text: "Die Reduzierung der mobilen Ladezeit von 5,2s auf 2,1s steigerte die mobile Konversion um 27% und den Umsatz um 34% ueber 90 Tage. Die Optimierung kostete weniger als eine Woche bezahltes Werbebudget.",
+            text: "Door de mobiele laadtijd te verkorten van 5,2 seconden naar 2,1 seconden steeg de mobiele conversie met 27% en de omzet met 34% in 90 dagen. De optimalisatie kostte minder dan een week aan betaald advertentiebudget.",
           },
         },
         {

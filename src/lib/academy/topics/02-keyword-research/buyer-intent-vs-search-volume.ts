@@ -146,10 +146,9 @@ export const buyerIntentVsSearchVolume: AcademyTopic = {
       },
     },
     fr: {
-      badge: "Recherche de mots-cles",
+      badge: "Recherche de mots-clés",
       heading: "Intention d'achat vs. volume de recherche",
-      intro:
-        "Un mot-cle avec 50 recherches mensuelles et un taux de conversion de 6% genere plus de revenus qu'un mot-cle avec 10 000 recherches et un taux de conversion de 0,1%. Pour les boutiques e-commerce, comprendre l'intention d'achat est la competence la plus rentable en recherche de mots-cles.",
+      intro: "Un mot-cle avec 50 recherches mensuelles et un taux de conversion de 6% genere plus de revenus qu'un mot-cle avec 10 000 recherches et un taux de conversion de 0,1%. Pour les boutiques e-commerce, comprendre l'intention d'achat est la competence la plus rentable en recherche de mots-clés.",
       readTime: "8 min de lecture",
       sections: [
         {
@@ -163,13 +162,13 @@ export const buyerIntentVsSearchVolume: AcademyTopic = {
           ],
         },
         {
-          title: "Le calcul du revenu par mot-cle",
+          title: "Le calcul du revenu par mot-clé",
           content:
             "Voici la formule que nous utilisons pour chaque decision de mot-cle : Revenu = Volume de recherche mensuel x CTR attendu x Taux de conversion x Panier moyen.\n\nPrenons deux exemples reels. Mot-cle A : \"chaussures de course\" avec 201 000 recherches mensuelles. En position 5 (environ 4% de CTR), avec un taux de conversion de 0,3% et un panier moyen de 120 EUR, cela donne : 201 000 x 0,04 x 0,003 x 120 = 2 894 EUR/mois.\n\nMot-cle B : \"Brooks Ghost 15 femme pointure 39\" avec 320 recherches mensuelles. En position 2 (environ 12% de CTR), avec un taux de conversion de 7% et le meme panier moyen de 120 EUR, cela donne : 320 x 0,12 x 0,07 x 120 = 322 EUR/mois pour un seul mot-cle longue traine.\n\nConsiderez maintenant ceci : votre boutique a probablement plus de 500 pages produits. Si chacune capture seulement deux ou trois mots-cles longue traine comme le mot-cle B, le revenu total des termes longue traine depasse largement ce que vous obtiendriez du seul terme generique, avec beaucoup moins de concurrence et des delais de positionnement bien plus rapides.",
           tip: "Construisez un tableur qui calcule automatiquement le revenu par mot-cle. Integrez vos taux de conversion reels depuis Google Analytics par type de page, les pages produits convertissent generalement 3-5x plus que les pages categories pour le trafic organique.",
         },
         {
-          title: "Comment evaluer les mots-cles par intention d'achat",
+          title: "Comment évaluer les mots-clés par intention d'achat",
           content:
             "Nous classifions les mots-cles e-commerce en quatre niveaux d'intention. Niveau 1 (intention la plus forte) : requetes contenant des noms de produits specifiques, references, numeros de modele ou attributs exacts du produit plus \"acheter\", \"commander\" ou \"prix\". Ceux-ci convertissent a 5-10%.\n\nNiveau 2 (intention de comparaison) : requetes avec des modificateurs comme \"meilleur\", \"vs\", \"avis\", \"top 10\" ou \"compare a\". Ces acheteurs ont une intention d'achat mais n'ont pas encore decide d'un produit specifique. Les taux de conversion oscillent entre 2-4%, et la strategie gagnante est d'utiliser des pages categories ou des guides d'achat qui orientent le trafic vers les produits.\n\nNiveau 3 (intention de solution) : requetes decrivant un probleme ou un cas d'usage, comme \"veste impermeable pour randonnee sous la pluie\" ou \"chaise de bureau confortable pour mal de dos\". Le chercheur veut un produit mais ne sait pas dans quelle categorie regarder. Les taux de conversion oscillent entre 1-3%, et les pages categories filtrees fonctionnent bien ici.\n\nNiveau 4 (informationnel) : requetes commencant par \"comment\", \"qu'est-ce que\", \"pourquoi\" ou termes thematiques generaux. Les taux de conversion sont inferieurs a 0,5%. Ceux-ci ont une valeur SEO pour construire l'autorite thematique, mais ne devraient jamais etre priorises par rapport aux mots-cles de niveaux 1 a 3, sauf si vous avez deja capture les termes commerciaux.",
           items: [
@@ -181,11 +180,11 @@ export const buyerIntentVsSearchVolume: AcademyTopic = {
           image: {
             src: "/images/academy/fr/buyer-intent-tiers.svg",
             alt: "Pyramidendiagramm mit vier Keyword-Intentionsstufen",
-            caption: "Höhere Intentionsstufen konvertieren deutlich besser. Ein Stufe-1-Keyword mit 200 monatlichen Suchen bringt oft mehr Umsatz als ein Stufe-4-Keyword mit 5.000 Suchen.",
+            caption: "Les niveaux d'intention plus élevés se convertissent à des taux considérablement plus élevés. Un mot-clé de niveau 1 sur 200 recherches mensuelles dépasse souvent un mot-clé de niveau 4 sur 5 000 recherches.",
           },
           callout: {
             title: "Intention vs. Umsatz",
-            text: "Ein Möbelshop kann mit einem Stufe-1-Keyword bei 200 Suchen mehr Umsatz erzielen als mit einem Stufe-4-Keyword bei 5.000 Suchen. Intention schlägt Volumen bei der Revenue-Priorisierung.",
+            text: "La page produit d'un magasin de meubles pour une table en chêne spécifique classée pour 23 mots-clés de niveau 1 à longue traîne (380 visites/mois) et a généré 8 900 $/mois, tandis que leur page de catégorie de terme principal (2 800 visites/mois) produit",
           },
         },
         {
@@ -217,13 +216,12 @@ export const buyerIntentVsSearchVolume: AcademyTopic = {
     },
     es: {
       badge: "Investigacion de palabras clave",
-      heading: "Intencion de compra vs. volumen de busqueda",
-      intro:
-        "Una palabra clave con 50 busquedas mensuales y una tasa de conversion del 6% genera mas ingresos que una con 10.000 busquedas y una tasa de conversion del 0,1%. Para tiendas ecommerce, entender la intencion de compra es la habilidad mas rentable en la investigacion de palabras clave.",
+      heading: "Intención de compra vs. volumen de busqueda",
+      intro: "Una palabra clave con 50 busquedas mensuales y una tasa de conversion del 6% genera mas ingresos que una con 10.000 busquedas y una tasa de conversion del 0,1%. Para tiendas ecommerce, entender la intención de compra es la habilidad mas rentable en la investigacion de palabras clave.",
       readTime: "8 min de lectura",
       sections: [
         {
-          title: "Por que el volumen por si solo es enganoso",
+          title: "Por qué el volumen por si solo es enganoso",
           content:
             "El volumen de busqueda te dice cuantas personas escriben una consulta en Google cada mes. No dice nada sobre si esas personas quieren comprar, comparar, aprender o simplemente navegar. Una consulta como \"chaqueta de cuero\" obtiene unas 135.000 busquedas mensuales, pero la intencion detras va desde inspiracion de moda hasta investigacion de compra y busqueda de instrucciones de cuidado.\n\nCompara eso con \"comprar chaqueta cuero Schott NYC Perfecto talla 42\" con quizas 30 busquedas al mes. Cada persona que escribe esa consulta esta lista para sacar su tarjeta de credito. La diferencia en tasa de conversion entre estas dos consultas puede ser de 20x o mas.\n\nLa mayoria de herramientas de palabras clave ordenan por volumen por defecto. Esto entrena a los duenos de tiendas a perseguir los numeros mas grandes, lo que a menudo significa los terminos mas vagos, mas competitivos y que menos convierten. Invertir este orden por defecto, ordenar por ingresos estimados en su lugar, cambia completamente que palabras clave priorizas. Nuestro tema sobre [intencion de busqueda para ecommerce](/academy/search-intent-for-ecommerce) cubre el marco fundamental detras de estas categorias de intencion.",
           items: [
@@ -233,13 +231,13 @@ export const buyerIntentVsSearchVolume: AcademyTopic = {
           ],
         },
         {
-          title: "El calculo de ingresos por palabra clave",
+          title: "El cálculo de ingresos por palabra clave",
           content:
             "Esta es la formula que usamos para cada decision de palabras clave: Ingresos = Volumen de busqueda mensual x CTR esperado x Tasa de conversion x Valor medio de pedido.\n\nVeamos dos ejemplos reales. Palabra clave A: \"zapatillas de correr\" con 201.000 busquedas mensuales. En posicion 5 (aproximadamente 4% CTR), con una tasa de conversion del 0,3% y un AOV de 120 EUR, eso da: 201.000 x 0,04 x 0,003 x 120 = 2.894 EUR/mes.\n\nPalabra clave B: \"Brooks Ghost 15 mujer talla 39\" con 320 busquedas mensuales. En posicion 2 (aproximadamente 12% CTR), con una tasa de conversion del 7% y el mismo AOV de 120 EUR, eso da: 320 x 0,12 x 0,07 x 120 = 322 EUR/mes de una sola palabra clave de cola larga.\n\nAhora considera esto: tu tienda probablemente tiene mas de 500 paginas de producto. Si cada una captura solo dos o tres palabras clave de cola larga como la palabra clave B, los ingresos totales de terminos de cola larga superan con creces lo que obtendrias del unico termino generico, con mucha menos competencia y plazos de posicionamiento mucho mas rapidos.",
           tip: "Construye una hoja de calculo que calcule automaticamente los ingresos por palabra clave. Introduce tus tasas de conversion reales de Google Analytics por tipo de pagina, las paginas de producto tipicamente convierten 3-5x mas que las paginas de categoria para trafico organico.",
         },
         {
-          title: "Como puntuar palabras clave por intencion de compra",
+          title: "Cómo puntuar palabras clave por intención de compra",
           content:
             "Clasificamos las palabras clave de ecommerce en cuatro niveles de intencion. Nivel 1 (intencion mas alta): consultas que contienen nombres de productos especificos, SKUs, numeros de modelo o atributos exactos del producto mas \"comprar\", \"pedir\" o \"precio\". Estas convierten al 5-10%.\n\nNivel 2 (intencion de comparacion): consultas con modificadores como \"mejor\", \"vs\", \"opinion\", \"top 10\" o \"comparado con\". Estos compradores tienen intencion de compra pero no han decidido un producto especifico. Las tasas de conversion van del 2-4%, y la estrategia ganadora son paginas de categoria o guias de compra que canalicen el trafico hacia productos.\n\nNivel 3 (intencion de solucion): consultas que describen un problema o caso de uso, como \"chaqueta impermeable para senderismo bajo lluvia\" o \"silla de oficina comoda para dolor de espalda\". El buscador quiere un producto pero no sabe en que categoria mirar. Las tasas de conversion van del 1-3%, y las paginas de categoria filtradas funcionan bien aqui.\n\nNivel 4 (informacional): consultas que empiezan con \"como\", \"que es\", \"por que\" o terminos tematicos generales. Las tasas de conversion estan por debajo del 0,5%. Tienen valor SEO para construir autoridad tematica, pero nunca deberian priorizarse sobre palabras clave de niveles 1-3 a menos que ya hayas capturado los terminos comerciales.",
           items: [
@@ -251,17 +249,17 @@ export const buyerIntentVsSearchVolume: AcademyTopic = {
           image: {
             src: "/images/academy/es/buyer-intent-tiers.svg",
             alt: "Pyramidendiagramm mit vier Keyword-Intentionsstufen",
-            caption: "Höhere Intentionsstufen konvertieren deutlich besser. Ein Stufe-1-Keyword mit 200 monatlichen Suchen bringt oft mehr Umsatz als ein Stufe-4-Keyword mit 5.000 Suchen.",
+            caption: "Los niveles de intención más altos generan conversiones a tasas dramáticamente más altas. Una palabra clave de Nivel 1 con 200 búsquedas mensuales a menudo supera a una palabra clave de Nivel 4 con 5000 búsquedas.",
           },
           callout: {
             title: "Intention vs. Umsatz",
-            text: "Ein Möbelshop kann mit einem Stufe-1-Keyword bei 200 Suchen mehr Umsatz erzielen als mit einem Stufe-4-Keyword bei 5.000 Suchen. Intention schlägt Volumen bei der Revenue-Priorisierung.",
+            text: "La página de producto de una tienda de muebles para una mesa de roble específica se clasificó para 23 palabras clave de cola larga de Nivel 1 (380 visitas/mes) y generó $8900/mes, mientras que su página de categoría de término principal (2800 visitas/mes) produjo",
           },
         },
         {
-          title: "Modificadores comerciales que senalan intencion de compra",
+          title: "Modificadores comerciales que senalan intención de compra",
           content:
-            "Ciertas palabras anadidas a una palabra clave base aumentan dramaticamente la probabilidad de compra. Rastreamos estos modificadores en cada proyecto de investigacion de palabras clave porque son la forma mas rapida de identificar terminos de alta conversion que los competidores pasan por alto.\n\nLos modificadores transaccionales incluyen: comprar, pedir, tienda, oferta, descuento, cupon, rebajas, envio gratis, precio, coste, barato, economico y donde comprar. Cuando alguien anade \"comprar\" o \"precio\" a una consulta de producto, su intencion es inconfundible.\n\nLos modificadores de comparacion incluyen: mejor, top, vs, versus, comparado, opinion, resena, valorado, recomendado y alternativa a. Estos senalan un comprador que esta cerca de comprar pero evaluando opciones. Las paginas de categoria y el contenido comparativo capturan este trafico efectivamente.\n\nLos modificadores de especificacion incluyen: talla, color, material, numero de modelo, ano, dimensiones, peso y terminos de compatibilidad. Estos acotan al buscador a una variante muy especifica del producto y convierten excepcionalmente bien cuando se emparejan con paginas de producto correctamente optimizadas.\n\nLos modificadores de caso de uso como \"para senderismo\", \"para oficina\", \"para ninos\", \"para principiantes\" revelan la situacion del comprador y te permiten dirigirlo al subconjunto de productos adecuado. Estos funcionan bien con paginas de categoria filtradas.",
+            "Ciertas palabras anadidas a una palabra clave base aumentan dramaticamente la probabilidad de compra. Rastreamos estos modificadores en cada proyecto de investigacion de palabras clave porque son la forma mas rapida de identificar terminos de alta conversion que los competidores pasan por alto.\n\nLos modificadores transaccionales incluyen: comprar, pedir, tienda, oferta, descuento, cupon, rebajas, envio gratis, precio, coste, barato, economico y donde comprar. Cuando alguien anade \"comprar\" o \"precio\" a una consulta de producto, su intencion es inconfundible.\n\nLos modificadores de comparacion incluyen: mejor, top, vs, versus, comparado, opinion, resena, valorado, recomendado y alternativa a. Estos senalan un comprador que esta cerca de comprar pero evaluando opciones. Las paginas de categoria y el contenido comparativo capturan este trafico efectivamente.\n\nLos modificadores de especificacion incluyen: talla, color, material, numero de modelo, año, dimensiones, peso y terminos de compatibilidad. Estos acotan al buscador a una variante muy especifica del producto y convierten excepcionalmente bien cuando se emparejan con paginas de producto correctamente optimizadas.\n\nLos modificadores de caso de uso como \"para senderismo\", \"para oficina\", \"para ninos\", \"para principiantes\" revelan la situacion del comprador y te permiten dirigirlo al subconjunto de productos adecuado. Estos funcionan bien con paginas de categoria filtradas.",
           tip: "Crea una biblioteca de modificadores para tu nicho. Lista cada modificador transaccional, comparativo, de especificacion y de caso de uso relevante para tus productos. Cruzalos con tus palabras clave semilla para generar cientos de variaciones de cola larga con alta intencion.",
         },
         {
@@ -275,7 +273,7 @@ export const buyerIntentVsSearchVolume: AcademyTopic = {
           ],
         },
         {
-          title: "Poniendo el analisis de intencion en practica",
+          title: "Poniendo el análisis de intención en practica",
           content:
             "Empieza extrayendo tus 100 mejores landing pages organicas por ingresos desde analytics. Para cada pagina, identifica la palabra clave principal que genera el trafico (GSC lo hace sencillo). Etiqueta cada palabra clave con su nivel de intencion.\n\nProbablemente encontraras que tus paginas de mayor ingreso estan impulsadas por palabras clave de niveles 1 y 2, aunque esas paginas no reciban el mayor trafico. Esto confirma donde concentrar tus esfuerzos de optimizacion.\n\nA continuacion, revisa tu pipeline de investigacion de palabras clave. Cada nuevo objetivo de palabra clave deberia pasar por el proceso de evaluacion de intencion antes de ser priorizado. Una palabra clave de nivel 1 con 200 busquedas mensuales deberia trabajarse antes que una de nivel 4 con 5.000 busquedas mensuales.\n\nFinalmente, usa el analisis de intencion para mejorar paginas existentes. Si una pagina de categoria se posiciona para una palabra clave de nivel 2 pero convierte mal, verifica si el contenido de la pagina coincide con la intencion de comparacion, ayuda a los compradores a decidir entre opciones, o simplemente lista productos? Alinear el contenido de la pagina con la intencion de la palabra clave es una de las formas mas rapidas de aumentar las tasas de conversion sin trafico adicional. Una vez que hayas puntuado tus palabras clave, el [mapeo de palabras clave para tiendas](/academy/keyword-mapping-for-stores) te ayuda a asignar cada termino a la pagina correcta. Para una vision completa de estas estrategias, consulta nuestra guia de [estrategia SEO para ecommerce](/blog/ecommerce-seo-strategy).",
         },
@@ -321,11 +319,11 @@ export const buyerIntentVsSearchVolume: AcademyTopic = {
           image: {
             src: "/images/academy/it/buyer-intent-tiers.svg",
             alt: "Pyramidendiagramm mit vier Keyword-Intentionsstufen",
-            caption: "Höhere Intentionsstufen konvertieren deutlich besser. Ein Stufe-1-Keyword mit 200 monatlichen Suchen bringt oft mehr Umsatz als ein Stufe-4-Keyword mit 5.000 Suchen.",
+            caption: "Livelli di intenti più elevati si convertono a tassi notevolmente più elevati. Una parola chiave di livello 1 con 200 ricerche mensili spesso guadagna più di una parola chiave di livello 4 con 5.000 ricerche.",
           },
           callout: {
             title: "Intention vs. Umsatz",
-            text: "Ein Möbelshop kann mit einem Stufe-1-Keyword bei 200 Suchen mehr Umsatz erzielen als mit einem Stufe-4-Keyword bei 5.000 Suchen. Intention schlägt Volumen bei der Revenue-Priorisierung.",
+            text: "La pagina di prodotto di un negozio di mobili per uno specifico tavolo in rovere si è classificata per 23 parole chiave di livello 1 a coda lunga (380 visite/mese) e ha generato $ 8.900/mese, mentre la pagina della categoria principale (2.800 visite/mese) ha prodotto",
           },
         },
         {
@@ -391,11 +389,11 @@ export const buyerIntentVsSearchVolume: AcademyTopic = {
           image: {
             src: "/images/academy/nl/buyer-intent-tiers.svg",
             alt: "Pyramidendiagramm mit vier Keyword-Intentionsstufen",
-            caption: "Höhere Intentionsstufen konvertieren deutlich besser. Ein Stufe-1-Keyword mit 200 monatlichen Suchen bringt oft mehr Umsatz als ein Stufe-4-Keyword mit 5.000 Suchen.",
+            caption: "Hogere intentieniveaus converteren tegen aanzienlijk hogere tarieven. Een Tier 1-zoekwoord bij 200 maandelijkse zoekopdrachten is vaak beter dan een Tier 4-zoekwoord bij 5.000 zoekopdrachten.",
           },
           callout: {
             title: "Intention vs. Umsatz",
-            text: "Ein Möbelshop kann mit einem Stufe-1-Keyword bei 200 Suchen mehr Umsatz erzielen als mit einem Stufe-4-Keyword bei 5.000 Suchen. Intention schlägt Volumen bei der Revenue-Priorisierung.",
+            text: "De productpagina van een meubelwinkel voor een specifieke eikenhouten tafel werd gerangschikt op 23 long-tail Tier 1-zoekwoorden (380 bezoeken/maand) en genereerde €8.900/maand, terwijl hun hoofdtermcategoriepagina (2.800 bezoeken/maand)",
           },
         },
         {

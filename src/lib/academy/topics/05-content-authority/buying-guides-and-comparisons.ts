@@ -158,8 +158,7 @@ export const buyingGuidesAndComparisons: AcademyTopic = {
     fr: {
       badge: "Contenu & Autorite",
       heading: "Guides d'achat & comparatifs",
-      intro:
-        "Les guides d'achat se situent a l'intersection de l'intention informationnelle et transactionnelle, exactement la ou les acheteurs prennent leurs decisions d'achat. Un guide bien structure repond aux questions qu'une page produit ne peut pas traiter, construit la confiance par une comparaison objective et dirige les lecteurs directement vers le bon produit. Nous couvrons les formats les plus performants et comment les connecter a votre catalogue.",
+      intro: "Les guides d'achat se situent a l'intersection de l'intention informationnelle et transactionnelle, exactement la ou les acheteurs prennent leurs décisions d'achat. Un guide bien structure repond aux questions qu'une page produit ne peut pas traiter, construit la confiance par une comparaison objective et dirige les lecteurs directement vers le bon produit. Nous couvrons les formats les plus performants et comment les connecter a votre catalogue.",
       readTime: "9 min de lecture",
       sections: [
         {
@@ -190,12 +189,12 @@ export const buyingGuidesAndComparisons: AcademyTopic = {
           ],
           image: {
             src: "/images/academy/fr/buying-guide-structure.svg",
-            alt: "Fuenfstufige Kaufratgeber-Struktur von der Einleitung ueber die Schnellauswahl-Tabelle, Kriterien-Abschnitte, Abwaegungsanalyse bis zu Anwendungsempfehlungen",
-            caption: "Ein strukturierter Kaufratgeber fuehrt vom Leser-Dilemma ueber eine scannbare Uebersichtstabelle, detaillierte Analyse, ehrliche Abwaegungen und anwendungsspezifische Empfehlungen mit CTAs.",
+            alt: "Structure du guide d'achat en cinq étapes, de l'introduction au tableau de sélection rapide, en passant par les sections de critères, l'analyse des compromis et les recommandations de cas d'utilisation.",
+            caption: "Un guide d'achat structuré découle du dilemme du lecteur à travers un tableau récapitulatif numérisable, une analyse détaillée, des compromis honnêtes et des recommandations spécifiques à un cas d'utilisation avec les CTA.",
           },
           callout: {
             title: "Glaubwuerdigkeit gewinnt",
-            text: "Ratgeber die ehrlich Kompromisse anerkennen konvertieren besser als einseitige Empfehlungen. Leser vertrauen transparenter Analyse und bleiben auf Ihrer Seite statt zu Drittanbieter-Bewertungsseiten fuer eine zweite Meinung zu springen.",
+            text: "Les guides qui reconnaissent honnêtement les compromis convertissent mieux que les recommandations unilatérales. Les lecteurs font confiance à une analyse transparente et restent sur votre site au lieu de rebondir sur des sites d'évaluation tiers pouruer eine zweite Meinung zu springen.",
           },
         },
         {
@@ -216,12 +215,12 @@ export const buyingGuidesAndComparisons: AcademyTopic = {
           ],
           image: {
             src: "/images/academy/fr/guide-to-product-linking.svg",
-            alt: "Bidirektionale Verlinkungsschleife zwischen Kaufratgebern und Produktseiten mit vorwaerts gerichteten Produktlinks und rueckwaerts gerichteten Ratgeber-Links",
-            caption: "Ratgeber verlinken zu Produkten mit beschreibenden Ankertexten. Produktseiten verlinken zurueck mit einem Lesen Sie unseren Ratgeber CTA. Diese bidirektionale Schleife haelt Kaeufer engagiert und signalisiert thematische Beziehungen an Google.",
+            alt: "Boucle de liens bidirectionnels entre les guides d'achat et les pages de produits affichant des liens de produits directs et des liens de retour de guide inversés",
+            caption: "Les guides renvoient à des produits avec des ancres descriptives. Les pages de produits renvoient à un CTA « Lisez notre guide ». Cette boucle bidirectionnelle maintient l'engagement des acheteurs et signale des relations d'actualité avec Google.alisiert thematische Beziehungen an Google.",
           },
           callout: {
             title: "Link-Schleifen-ROI",
-            text: "Bidirektionale Links zwischen Ratgebern und Produkten schaffen einen Content-Kreislauf den Google belohnt. Streben Sie eine 15-25% Klickrate von Ratgeberseiten zu Produktseiten an. Verwenden Sie beschreibende Ankertexte mit dem Produktnamen, niemals generische hier klicken Links.",
+            text: "Les liens bidirectionnels entre les guides et les produits créent une boucle de contenu Google Rewards. Ciblez un taux de clics de 15 à 25 % entre les pages de guide et les pages de produits. Utiliser un texte d'ancrage descriptif avec le produitreibende Ankertexte mit dem Produktnamen, niemals generische hier klicken Links.",
           },
         },
       ],
@@ -233,12 +232,11 @@ export const buyingGuidesAndComparisons: AcademyTopic = {
     es: {
       badge: "Contenido & Autoridad",
       heading: "Guias de compra y comparativas",
-      intro:
-        "Las guias de compra se situan en la interseccion de la intencion informativa y transaccional, exactamente donde los compradores toman decisiones de compra. Una guia bien estructurada responde las preguntas que una pagina de producto no puede, construye confianza mediante comparaciones objetivas y canaliza a los lectores directamente hacia el producto adecuado. Cubrimos los formatos que mejor funcionan y como conectarlos con tu catalogo.",
+      intro: "Las guias de compra se situan en la interseccion de la intención informativa y transaccional, exactamente donde los compradores toman decisiones de compra. Una guia bien estructurada responde las preguntas que una página de producto no puede, construye confianza mediante comparaciones objetivas y canaliza a los lectores directamente hacia el producto adecuado. Cubrimos los formatos que mejor funcionan y como conectarlos con tu catálogo.",
       readTime: "9 min de lectura",
       sections: [
         {
-          title: "Por que las guias de compra convierten mejor que las paginas de producto",
+          title: "Por qué las guias de compra convierten mejor que las páginas de producto",
           content:
             "Las paginas de producto sirven a compradores que ya saben lo que quieren. Las guias de compra sirven a la audiencia mucho mas grande que todavia esta decidiendo. Alguien que busca \"mejores auriculares inalambricos para correr\" no esta listo para hacer clic en \"anadir al carrito\", necesita ayuda para reducir opciones entre docenas. Si tu guia proporciona esa ayuda, ganas tanto el clic como la confianza.\n\nLos datos lo confirman consistentemente. En nuestro portafolio de clientes, las guias de compra generan tasas de conversion un 35-55% superiores al trafico organico que aterriza en paginas de categoria. La razon es simple: cuando un lector termina una buena guia y hace clic hacia un producto, ya esta convencido. La pagina de producto solo confirma la decision.\n\nLas guias tambien capturan consultas para las que las paginas de producto y categoria no pueden posicionarse. Google entiende que \"mejor maquina de espresso por menos de 500\" requiere contenido editorial, no una lista de productos filtrada. Estas consultas hibridas informativas-comerciales representan una oportunidad enorme para tiendas que la mayoria de competidores dejan completamente a sitios de resenas de terceros. Nuestra guia de [contenido SEO para ecommerce](/blog/ecommerce-seo-content) cubre como capturar estas consultas a escala.",
           items: [
@@ -265,12 +263,12 @@ export const buyingGuidesAndComparisons: AcademyTopic = {
           ],
           image: {
             src: "/images/academy/es/buying-guide-structure.svg",
-            alt: "Fuenfstufige Kaufratgeber-Struktur von der Einleitung ueber die Schnellauswahl-Tabelle, Kriterien-Abschnitte, Abwaegungsanalyse bis zu Anwendungsempfehlungen",
-            caption: "Ein strukturierter Kaufratgeber fuehrt vom Leser-Dilemma ueber eine scannbare Uebersichtstabelle, detaillierte Analyse, ehrliche Abwaegungen und anwendungsspezifische Empfehlungen mit CTAs.",
+            alt: "Estructura de la guía de compra de cinco pasos, desde la introducción hasta la tabla de selección rápida, secciones de criterios, análisis de compensaciones y recomendaciones de casos de uso.",
+            caption: "Una guía de compra estructurada surge del dilema del lector a través de una tabla resumen escaneable, análisis detallado, compensaciones honestas y recomendaciones de casos de uso específicos con CTA.",
           },
           callout: {
             title: "Glaubwuerdigkeit gewinnt",
-            text: "Ratgeber die ehrlich Kompromisse anerkennen konvertieren besser als einseitige Empfehlungen. Leser vertrauen transparenter Analyse und bleiben auf Ihrer Seite statt zu Drittanbieter-Bewertungsseiten fuer eine zweite Meinung zu springen.",
+            text: "Las guías que reconocen honestamente las compensaciones generan mejores resultados que las recomendaciones unilaterales. Los lectores confían en un análisis transparente y permanecen en su sitio en lugar de rebotar en sitios de reseñas de terceros parauer eine zweite Meinung zu springen.",
           },
         },
         {
@@ -291,12 +289,12 @@ export const buyingGuidesAndComparisons: AcademyTopic = {
           ],
           image: {
             src: "/images/academy/es/guide-to-product-linking.svg",
-            alt: "Bidirektionale Verlinkungsschleife zwischen Kaufratgebern und Produktseiten mit vorwaerts gerichteten Produktlinks und rueckwaerts gerichteten Ratgeber-Links",
-            caption: "Ratgeber verlinken zu Produkten mit beschreibenden Ankertexten. Produktseiten verlinken zurueck mit einem Lesen Sie unseren Ratgeber CTA. Diese bidirektionale Schleife haelt Kaeufer engagiert und signalisiert thematische Beziehungen an Google.",
+            alt: "Bucle de enlace bidireccional entre guías de compra y páginas de productos que muestra enlaces directos de productos y enlaces inversos de guía",
+            caption: "Las guías enlazan a productos con anclajes descriptivos. Las páginas de productos enlazan con una llamada a la acción \"Lea nuestra guía\". Este bucle bidireccional mantiene a los compradores interesados ​​y señala relaciones de actualidad a Google.alisiert thematische Beziehungen an Google.",
           },
           callout: {
             title: "Link-Schleifen-ROI",
-            text: "Bidirektionale Links zwischen Ratgebern und Produkten schaffen einen Content-Kreislauf den Google belohnt. Streben Sie eine 15-25% Klickrate von Ratgeberseiten zu Produktseiten an. Verwenden Sie beschreibende Ankertexte mit dem Produktnamen, niemals generische hier klicken Links.",
+            text: "Los enlaces bidireccionales entre guías y productos crean un bucle de contenido de recompensas de Google. Apunte a una tasa de clics del 15 al 25% desde las páginas de guía hasta las páginas de productos. Utilice texto de anclaje descriptivo con el producto.reibende Ankertexte mit dem Produktnamen, niemals generische hier klicken Links.",
           },
         },
       ],
@@ -340,12 +338,12 @@ export const buyingGuidesAndComparisons: AcademyTopic = {
           ],
           image: {
             src: "/images/academy/it/buying-guide-structure.svg",
-            alt: "Fuenfstufige Kaufratgeber-Struktur von der Einleitung ueber die Schnellauswahl-Tabelle, Kriterien-Abschnitte, Abwaegungsanalyse bis zu Anwendungsempfehlungen",
-            caption: "Ein strukturierter Kaufratgeber fuehrt vom Leser-Dilemma ueber eine scannbare Uebersichtstabelle, detaillierte Analyse, ehrliche Abwaegungen und anwendungsspezifische Empfehlungen mit CTAs.",
+            alt: "Struttura della guida all'acquisto in cinque passaggi, dall'introduzione alla tabella di selezione rapida, alle sezioni dei criteri, all'analisi dei compromessi, ai consigli sui casi d'uso",
+            caption: "Una guida all'acquisto strutturata scaturisce dal dilemma del lettore attraverso una tabella riepilogativa scansionabile, analisi dettagliate, compromessi onesti e raccomandazioni specifiche per caso d'uso con CTA.",
           },
           callout: {
             title: "Glaubwuerdigkeit gewinnt",
-            text: "Ratgeber die ehrlich Kompromisse anerkennen konvertieren besser als einseitige Empfehlungen. Leser vertrauen transparenter Analyse und bleiben auf Ihrer Seite statt zu Drittanbieter-Bewertungsseiten fuer eine zweite Meinung zu springen.",
+            text: "Le guide che riconoscono onestamente i compromessi generano risultati migliori rispetto alle raccomandazioni unilaterali. I lettori si fidano dell'analisi trasparente e rimangono sul tuo sito invece di rimbalzare su siti di recensioni di terze partiuer eine zweite Meinung zu springen.",
           },
         },
         {
@@ -366,12 +364,12 @@ export const buyingGuidesAndComparisons: AcademyTopic = {
           ],
           image: {
             src: "/images/academy/it/guide-to-product-linking.svg",
-            alt: "Bidirektionale Verlinkungsschleife zwischen Kaufratgebern und Produktseiten mit vorwaerts gerichteten Produktlinks und rueckwaerts gerichteten Ratgeber-Links",
-            caption: "Ratgeber verlinken zu Produkten mit beschreibenden Ankertexten. Produktseiten verlinken zurueck mit einem Lesen Sie unseren Ratgeber CTA. Diese bidirektionale Schleife haelt Kaeufer engagiert und signalisiert thematische Beziehungen an Google.",
+            alt: "Circuito di collegamento bidirezionale tra le guide all'acquisto e le pagine dei prodotti che mostrano collegamenti di prodotto in avanti e collegamenti di ritorno alla guida inversa",
+            caption: "Le guide si collegano ai prodotti con ancore descrittive. Le pagine dei prodotti rimandano a un CTA \"Leggi la nostra guida\". Questo ciclo bidirezionale mantiene gli acquirenti coinvolti e segnala relazioni di attualità a Google.alisiert thematische Beziehungen an Google.",
           },
           callout: {
             title: "Link-Schleifen-ROI",
-            text: "Bidirektionale Links zwischen Ratgebern und Produkten schaffen einen Content-Kreislauf den Google belohnt. Streben Sie eine 15-25% Klickrate von Ratgeberseiten zu Produktseiten an. Verwenden Sie beschreibende Ankertexte mit dem Produktnamen, niemals generische hier klicken Links.",
+            text: "I collegamenti bidirezionali tra guide e prodotti creano un loop di contenuti che Google premia. Targetizza una percentuale di clic del 15-25% dalle pagine della guida alle pagine dei prodotti. Utilizza un testo di ancoraggio descrittivo con il prodottoreibende Ankertexte mit dem Produktnamen, niemals generische hier klicken Links.",
           },
         },
       ],
@@ -415,12 +413,12 @@ export const buyingGuidesAndComparisons: AcademyTopic = {
           ],
           image: {
             src: "/images/academy/nl/buying-guide-structure.svg",
-            alt: "Fuenfstufige Kaufratgeber-Struktur von der Einleitung ueber die Schnellauswahl-Tabelle, Kriterien-Abschnitte, Abwaegungsanalyse bis zu Anwendungsempfehlungen",
-            caption: "Ein strukturierter Kaufratgeber fuehrt vom Leser-Dilemma ueber eine scannbare Uebersichtstabelle, detaillierte Analyse, ehrliche Abwaegungen und anwendungsspezifische Empfehlungen mit CTAs.",
+            alt: "Koopgidsstructuur in vijf stappen, van intro via een snelkeuzetabel, criteriumsecties, afwegingsanalyse tot aanbevelingen voor gebruiksscenario's",
+            caption: "Een gestructureerde koopgids vloeit voort uit het dilemma van de lezer via een scanbare samenvattende tabel, gedetailleerde analyse, eerlijke afwegingen en gebruiksspecifieke aanbevelingen met CTA's.",
           },
           callout: {
             title: "Glaubwuerdigkeit gewinnt",
-            text: "Ratgeber die ehrlich Kompromisse anerkennen konvertieren besser als einseitige Empfehlungen. Leser vertrauen transparenter Analyse und bleiben auf Ihrer Seite statt zu Drittanbieter-Bewertungsseiten fuer eine zweite Meinung zu springen.",
+            text: "Gidsen die op eerlijke wijze compromissen erkennen, converteren beter dan eenzijdige aanbevelingen. Lezers vertrouwen op transparante analyses en blijven op uw site in plaats van terug te keren naar recensiesites van derdenuer eine zweite Meinung zu springen.",
           },
         },
         {
@@ -441,12 +439,12 @@ export const buyingGuidesAndComparisons: AcademyTopic = {
           ],
           image: {
             src: "/images/academy/nl/guide-to-product-linking.svg",
-            alt: "Bidirektionale Verlinkungsschleife zwischen Kaufratgebern und Produktseiten mit vorwaerts gerichteten Produktlinks und rueckwaerts gerichteten Ratgeber-Links",
-            caption: "Ratgeber verlinken zu Produkten mit beschreibenden Ankertexten. Produktseiten verlinken zurueck mit einem Lesen Sie unseren Ratgeber CTA. Diese bidirektionale Schleife haelt Kaeufer engagiert und signalisiert thematische Beziehungen an Google.",
+            alt: "Bidirectionele linkloop tussen koopgidsen en productpagina's met voorwaartse productlinks en omgekeerde gids-teruglinks",
+            caption: "Gidsen verwijzen naar producten met beschrijvende ankers. Productpagina's linken terug met een CTA 'Lees onze gids'. Deze bidirectionele lus houdt kopers betrokken en signaleert actuele relaties met Google.alisiert thematische Beziehungen an Google.",
           },
           callout: {
             title: "Link-Schleifen-ROI",
-            text: "Bidirektionale Links zwischen Ratgebern und Produkten schaffen einen Content-Kreislauf den Google belohnt. Streben Sie eine 15-25% Klickrate von Ratgeberseiten zu Produktseiten an. Verwenden Sie beschreibende Ankertexte mit dem Produktnamen, niemals generische hier klicken Links.",
+            text: "Bidirectionele links tussen handleidingen en producten creëren een inhoudslus van Google-beloningen. Streef naar een klikfrequentie van 15-25% van gidspagina's naar productpagina's. Gebruik beschrijvende ankertekst bij het productreibende Ankertexte mit dem Produktnamen, niemals generische hier klicken Links.",
           },
         },
       ],

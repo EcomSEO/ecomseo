@@ -159,18 +159,17 @@ export const categoryPageSeo: AcademyTopic = {
     },
     fr: {
       badge: "SEO On-Page",
-      heading: "SEO des pages categories",
-      intro:
-        "Les pages categories sont les piliers du SEO ecommerce. Elles ciblent les requetes de recherche en milieu de tunnel ou les acheteurs savent quel type de produit ils veulent mais n'ont pas encore choisi un article specifique. Une recherche pour \"chaussures de course femme\" ou \"croquettes bio pour chien\" atterrit sur une page categorie, pas sur une page produit. Bien optimiser les pages categories signifie capter des milliers de recherches a forte intention qui alimentent directement votre catalogue produit. Réussir l'[optimisation des pages catégories](/blog/ecommerce-category-page-seo) signifie capturer des milliers de recherches à forte intention qui alimentent directement votre catalogue produit.",
+      heading: "SEO des pages catégories",
+      intro: "Les pages catégories sont les piliers du SEO ecommerce. Elles ciblent les requetes de recherche en milieu de tunnel ou les acheteurs savent quel type de produit ils veulent mais n'ont pas encore choisi un article spécifique. Une recherche pour \"chaussures de course femme\" ou \"croquettes bio pour chien\" atterrit sur une page categorie, pas sur une page produit. Bien optimiser les pages categories signifie capter des milliers de recherches a forte intention qui alimentent directement votre catalogue produit. Réussir l'[optimisation des pages catégories](/blog/ecommerce-category-page-seo) signifie capturer des milliers de recherches à forte intention qui alimentent directement votre catalogue produit.",
       readTime: "10 min de lecture",
       sections: [
         {
-          title: "Pourquoi les pages categories comptent plus que vous ne le pensez",
+          title: "Pourquoi les pages catégories comptent plus que vous ne le pensez",
           content:
             "La plupart des proprietaires de boutiques concentrent leur energie SEO sur les pages produits et ignorent completement les pages categories. C'est une erreur. Les pages categories ciblent des mots-cles plus larges avec un volume de recherche plus eleve que n'importe quelle page produit individuelle. Une seule page categorie bien optimisee pour \"portefeuilles en cuir\" peut generer plus de trafic organique que cinquante pages produits individuelles combinees, car le mot-cle de categorie capture l'ensemble de l'audience de navigation.\n\nLes pages categories servent egalement de hub principal dans l'architecture de votre site. Elles transmettent l'equite de lien a chaque produit liste en dessous, et elles recoivent des [liens internes](/academy/internal-linking-for-stores) de votre navigation, du pied de page et des fils d'Ariane. Une page categorie faible cree un goulot d'etranglement qui limite le potentiel de classement de chaque produit en dessous. Renforcer vos pages categories a un effet multiplicateur sur l'ensemble de votre catalogue.\n\nDu point de vue de l'experience utilisateur, les pages categories definissent les attentes. Un acheteur arrivant de Google s'attend a voir une selection organisee de produits pertinents avec des options de filtrage claires. S'il atterrit sur une page mince sans contexte, avec un tri mediocre ou des produits non pertinents melanges, il retournera aux resultats de recherche en quelques secondes.",
         },
         {
-          title: "Creer du contenu de page categorie qui se positionne",
+          title: "Créer du contenu de page catégorie qui se positionne",
           content:
             "Le plus grand defi du SEO des pages categories est d'ajouter suffisamment de contenu textuel pour se positionner sans enterrer la grille de produits que les acheteurs sont venus parcourir. La solution est le placement strategique : mettez un paragraphe d'introduction concis (80-150 mots) au-dessus de la grille de produits et un bloc de contenu plus detaille (300-500 mots) en dessous. Cette disposition satisfait le besoin de pertinence thematique de Google tout en gardant l'experience d'achat au premier plan.\n\nLe paragraphe d'introduction au-dessus de la grille de produits doit repondre a la question implicite du chercheur : \"Suis-je au bon endroit ?\" Pour une categorie ciblant \"chaussures de randonnee homme\", l'introduction pourrait couvrir ce qui fait une bonne chaussure de randonnee, les types disponibles dans cette collection et les marques ou caracteristiques remarquables.\n\nLe bloc de contenu sous la grille de produits est l'endroit ou vous pouvez developper les guides d'achat, les points de comparaison et les mots-cles secondaires. Couvrez des sujets comme les conseils de taille, les comparaisons de materiaux, les instructions d'entretien ou les recommandations saisonnieres.\n\nEvitez le piege d'ecrire le meme style de contenu sur toutes les categories. Votre categorie \"manteaux d'hiver\" devrait se lire differemment de votre categorie \"robes d'ete\". Adaptez les conseils, le langage et les references saisonnieres a chaque type de produit specifique. Vous pouvez également ajouter une [section FAQ](/academy/faq-pages-for-ecommerce) pour répondre aux questions courantes des acheteurs directement sur la page catégorie.",
           items: [
@@ -184,15 +183,15 @@ export const categoryPageSeo: AcademyTopic = {
           image: {
             src: "/images/academy/fr/category-page-content-layout.svg",
             alt: "Diagramm des idealen Content-Layouts einer Ecommerce-Kategorieseite",
-            caption: "Platzieren Sie eine kurze Einleitung über dem Produkt-Raster und ausführlichen SEO-Content darunter.",
+            caption: "Placez une courte introduction au-dessus de la grille de produits et un contenu SEO détaillé en dessous. Cela satisfait Google sans enterrer l’expérience d’achat.",
           },
           callout: {
             title: "Content-Gap-Effekt",
-            text: "Eine einzelne gut optimierte Kategorieseite kann mehr organischen Traffic generieren als 50 nicht optimierte Produktseiten zusammen.",
+            text: "Une seule page de catégorie bien optimisée pour les « portefeuilles en cuir » peut générer plus de trafic organique que 50 pages de produits individuelles combinées. Les mots-clés de catégorie capturent l'ensemble du public de navigation, pas seulement les s",
           },
         },
         {
-          title: "Balises title et meta descriptions pour les categories",
+          title: "Balises title et meta descriptions pour les catégories",
           content:
             "Les balises title des pages categories suivent une formule differente de celles des pages produits. La structure la plus efficace est : Nom de la Categorie + Qualificatif + Nom de la Boutique. Des qualificatifs comme \"Acheter\", \"Top\", \"Meilleurs\" ou l'annee en cours aident a correspondre a l'intention de recherche commerciale.\n\nPour les pages de sous-categories, incluez la categorie parente pour fournir du contexte : \"Chaussures Trail - Running Homme | SportHub\" indique a Google exactement ou cette page se situe dans votre hierarchie. Cette approche previent aussi la cannibalisation entre votre categorie principale et les pages de sous-categories.\n\nLes meta descriptions des pages categories devraient se concentrer sur l'etendue et la qualite de votre selection. Mentionnez le nombre de produits disponibles, les marques cles, les fourchettes de prix ou les arguments de vente uniques comme la livraison gratuite ou les avis d'experts.\n\nEvitez d'utiliser le meme modele de meta description sur toutes les categories en changeant simplement le nom de la categorie. Google peut detecter les modeles paresseux et peut choisir d'ignorer completement votre meta description, generant son propre extrait a partir du contenu de la page.",
         },
@@ -209,11 +208,11 @@ export const categoryPageSeo: AcademyTopic = {
           image: {
             src: "/images/academy/fr/faceted-nav-url-strategy.svg",
             alt: "Diagramm zum Vergleich von Filter-URL-Strategien",
-            caption: "Blockieren Sie minderwertige Filterkombinationen und erstellen Sie dedizierte Unterkategorieseiten für Keywords mit hohem Suchvolumen.",
+            caption: "Bloquez les combinaisons de filtres de faible valeur et créez des pages de sous-catégories dédiées aux termes de recherche à volume élevé.",
           },
           callout: {
             title: "Crawl-Budget-Verschwendung",
-            text: "5 Größen x 8 Farben x 10 Marken = 400 Filter-URLs pro Kategorie. Bei 50 Kategorien sind das 20.000 minderwertige Seiten.",
+            text: "5 tailles x 8 couleurs x 10 marques = 400 URL de filtre par catégorie. Sur 50 catégories, cela représente 20 000 pages de faible valeur consommant un budget d'exploration qui devraient être dirigées vers les pages de produits.",
           },
         },
         {
@@ -223,7 +222,7 @@ export const categoryPageSeo: AcademyTopic = {
           tip: "Ajoutez un petit extrait de texte unique a chaque carte produit dans la grille, meme juste la premiere ligne de la description du produit. Cela donne a Google plus de contenu a indexer depuis chaque vue de page categorie.",
         },
         {
-          title: "Liens internes depuis les pages categories",
+          title: "Liens internes depuis les pages catégories",
           content:
             "Les pages categories sont des hubs naturels de liens internes. Chaque produit liste dans la grille est un lien interne, mais le veritable levier SEO vient des liens contextuels supplementaires dans le contenu de la categorie. Liez depuis votre introduction ou le contenu en bas de page vers des categories associees, des guides d'achat ou des produits mis en avant.\n\nLa navigation par fil d'Ariane sur les pages categories sert un double objectif : elle aide les acheteurs a remonter dans la hierarchie, et elle transmet l'equite de lien de la page categorie aux categories parentes et a la page d'accueil. Assurez-vous que vos fils d'Ariane utilisent le balisage schema.\n\nLes liens croises entre categories associees sont sous-utilises par la plupart des boutiques. Si quelqu'un parcourt \"moulins a cafe\", il pourrait aussi etre interesse par \"cafetieres\" ou \"cafe en grains\". Ajouter une section \"Categories associees\" cree des chemins de liaison horizontaux.\n\nNe liez pas vers toutes les categories associees depuis chaque page. Soyez selectif et pertinent. Trop de liens internes sur une seule page diluent la valeur de chaque lien. Concentrez-vous sur les 3-5 categories les plus etroitement liees.",
         },
@@ -235,18 +234,17 @@ export const categoryPageSeo: AcademyTopic = {
     },
     es: {
       badge: "SEO On-Page",
-      heading: "SEO de paginas de categoria",
-      intro:
-        "Las paginas de categoria son los caballos de batalla del SEO para ecommerce. Apuntan a consultas de busqueda de mitad de embudo donde los compradores saben que tipo de producto quieren pero aun no se han decidido por un articulo especifico. Una busqueda de \"zapatillas de running mujer\" o \"comida organica para perros\" llega a una pagina de categoria, no a una pagina de producto. Optimizar correctamente las paginas de categoria significa capturar miles de busquedas con alta intencion que alimentan directamente tu catalogo de productos. Lograr una correcta [optimizacion de paginas de categoria](/blog/ecommerce-category-page-seo) significa capturar miles de busquedas de alta intencion que canalizan directamente hacia tu catalogo de productos.",
+      heading: "SEO de páginas de categoría",
+      intro: "Las páginas de categoría son los caballos de batalla del SEO para ecommerce. Apuntan a consultas de busqueda de mitad de embudo donde los compradores saben que tipo de producto quieren pero aun no se han decidido por un artículo especifico. Una busqueda de \"zapatillas de running mujer\" o \"comida organica para perros\" llega a una pagina de categoria, no a una pagina de producto. Optimizar correctamente las paginas de categoria significa capturar miles de busquedas con alta intencion que alimentan directamente tu catalogo de productos. Lograr una correcta [optimizacion de paginas de categoria](/blog/ecommerce-category-page-seo) significa capturar miles de busquedas de alta intencion que canalizan directamente hacia tu catalogo de productos.",
       readTime: "10 min de lectura",
       sections: [
         {
-          title: "Por que las paginas de categoria importan mas de lo que piensas",
+          title: "Por qué las páginas de categoría importan más de lo que piensas",
           content:
             "La mayoria de los duenos de tiendas concentran su energia SEO en las paginas de producto e ignoran completamente las paginas de categoria. Eso es un error. Las paginas de categoria apuntan a palabras clave mas amplias con mayor volumen de busqueda que cualquier pagina de producto individual. Una sola pagina de categoria bien optimizada para \"carteras de cuero\" puede generar mas trafico organico que cincuenta paginas de producto individuales combinadas, porque la palabra clave de categoria captura toda la audiencia de navegacion.\n\nLas paginas de categoria tambien sirven como el hub principal en la arquitectura de tu sitio. Pasan autoridad de enlace hacia cada producto listado debajo, y reciben [enlaces internos](/academy/internal-linking-for-stores) desde tu navegacion, pie de pagina y rutas de migas de pan. Una pagina de categoria debil crea un cuello de botella que limita el potencial de ranking de cada producto debajo. Fortalecer tus paginas de categoria tiene un efecto multiplicador en todo tu catalogo.\n\nDesde el punto de vista de la experiencia del usuario, las paginas de categoria establecen expectativas. Un comprador que llega desde Google espera ver una seleccion curada de productos relevantes con opciones de filtrado claras. Si aterriza en una pagina delgada sin contexto, mala clasificacion o productos irrelevantes mezclados, rebotara de vuelta a los resultados de busqueda en segundos.",
         },
         {
-          title: "Crear contenido de pagina de categoria que posicione",
+          title: "Crear contenido de página de categoría que posicione",
           content:
             "El mayor desafio con el SEO de paginas de categoria es agregar suficiente contenido de texto para posicionar sin enterrar la cuadricula de productos que los compradores vinieron a explorar. La solucion es la colocacion estrategica: pon un parrafo introductorio conciso (80-150 palabras) sobre la cuadricula de productos y un bloque de contenido mas detallado (300-500 palabras) debajo. Este diseno satisface la necesidad de relevancia tematica de Google mientras mantiene la experiencia de compra en primer plano.\n\nEl parrafo introductorio sobre la cuadricula de productos debe responder la pregunta implicita del buscador: \"Estoy en el lugar correcto?\" Para una categoria que apunta a \"botas de senderismo para hombre\", la introduccion podria cubrir que hace una buena bota de senderismo, los tipos disponibles en esta coleccion y las marcas o caracteristicas destacadas.\n\nEl bloque de contenido debajo de la cuadricula de productos es donde puedes expandir sobre guias de compra, puntos de comparacion y palabras clave secundarias. Cubre temas como consejos de talla, comparaciones de materiales, instrucciones de cuidado o recomendaciones estacionales.\n\nEvita la trampa de escribir el mismo estilo de contenido en todas las categorias. Tu categoria \"abrigos de invierno\" debe leerse diferente a tu categoria \"vestidos de verano\". Adapta los consejos, el lenguaje y las referencias estacionales a cada tipo de producto especifico. Tambien puedes agregar una [seccion de FAQ](/academy/faq-pages-for-ecommerce) para abordar preguntas comunes de compradores directamente en la pagina de categoria.",
           items: [
@@ -260,20 +258,20 @@ export const categoryPageSeo: AcademyTopic = {
           image: {
             src: "/images/academy/es/category-page-content-layout.svg",
             alt: "Diagramm des idealen Content-Layouts einer Ecommerce-Kategorieseite",
-            caption: "Platzieren Sie eine kurze Einleitung über dem Produkt-Raster und ausführlichen SEO-Content darunter.",
+            caption: "Coloque una breve introducción encima de la cuadrícula de productos y contenido SEO detallado debajo. Esto satisface a Google sin enterrar la experiencia de compra.",
           },
           callout: {
             title: "Content-Gap-Effekt",
-            text: "Eine einzelne gut optimierte Kategorieseite kann mehr organischen Traffic generieren als 50 nicht optimierte Produktseiten zusammen.",
+            text: "Una única página de categoría bien optimizada para \"billeteras de cuero\" puede generar más tráfico orgánico que 50 páginas de productos individuales combinadas. Las palabras clave de categoría capturan a toda la audiencia de navegación, no solo a los usuarios.",
           },
         },
         {
-          title: "Etiquetas de titulo y meta descripciones para categorias",
+          title: "Etiquetas de título y meta descripciones para categorías",
           content:
-            "Las etiquetas de titulo de paginas de categoria siguen una formula diferente a las paginas de producto. La estructura mas efectiva es: Nombre de la Categoria + Calificador + Nombre de la Tienda. Calificadores como \"Comprar\", \"Mejores\" o el ano actual ayudan a coincidir con la intencion de busqueda comercial.\n\nPara paginas de subcategoria, incluye la categoria padre para proporcionar contexto: \"Zapatillas Trail Running - Running Hombre | SportHub\" le dice a Google exactamente donde esta esta pagina en tu jerarquia. Este enfoque tambien previene la canibalizacion entre tu categoria principal y las paginas de subcategoria.\n\nLas meta descripciones para paginas de categoria deben enfocarse en la amplitud y calidad de tu seleccion. Menciona el numero de productos disponibles, marcas clave, rangos de precio o puntos de venta unicos como envio gratuito o resenas de expertos.\n\nEvita usar la misma plantilla de meta descripcion en todas las categorias solo cambiando el nombre de la categoria. Google puede detectar plantillas perezosas y puede elegir ignorar tu meta descripcion por completo, generando su propio fragmento del contenido de la pagina.",
+            "Las etiquetas de titulo de paginas de categoria siguen una formula diferente a las paginas de producto. La estructura mas efectiva es: Nombre de la Categoria + Calificador + Nombre de la Tienda. Calificadores como \"Comprar\", \"Mejores\" o el año actual ayudan a coincidir con la intencion de busqueda comercial.\n\nPara paginas de subcategoria, incluye la categoria padre para proporcionar contexto: \"Zapatillas Trail Running - Running Hombre | SportHub\" le dice a Google exactamente donde esta esta pagina en tu jerarquia. Este enfoque tambien previene la canibalizacion entre tu categoria principal y las paginas de subcategoria.\n\nLas meta descripciones para paginas de categoria deben enfocarse en la amplitud y calidad de tu seleccion. Menciona el numero de productos disponibles, marcas clave, rangos de precio o puntos de venta unicos como envio gratuito o resenas de expertos.\n\nEvita usar la misma plantilla de meta descripcion en todas las categorias solo cambiando el nombre de la categoria. Google puede detectar plantillas perezosas y puede elegir ignorar tu meta descripcion por completo, generando su propio fragmento del contenido de la pagina.",
         },
         {
-          title: "Navegacion facetada y estructura de URL",
+          title: "Navegación facetada y estructura de URL",
           content:
             "La navegacion facetada, esas opciones de filtro por talla, color, rango de precio y marca en tus paginas de categoria, crea uno de los desafios tecnicos SEO mas complicados en ecommerce. Cada combinacion de filtros puede generar una URL unica, lo que significa que una sola categoria con 5 tallas, 8 colores y 10 marcas podria producir miles de paginas indexables. Sin un manejo adecuado, esta inflacion de crawl desperdicia tu presupuesto de rastreo y diluye la autoridad de tu pagina de categoria.\n\nEl enfoque estandar es mantener tus URLs de categorias principales y subcategorias clave indexables mientras bloqueas las variaciones filtradas de ser rastreadas e indexadas. Usa etiquetas canonicas en las paginas filtradas apuntando a la URL de la categoria principal.\n\nAlgunas combinaciones de filtros merecen sus propias paginas indexables si coinciden con consultas de busqueda de alto volumen. Si \"botas cuero negro\" tiene un volumen de busqueda significativo, crear una pagina de subcategoria dedicada vale mas que una URL filtrada.\n\nManten tu estructura de URL de categoria poco profunda y legible. \"/mujer/zapatos/running\" es mejor que \"/catalogo/categoria/subcategoria/12345.\" Investiga que combinaciones de filtros la gente realmente busca usando un solido enfoque de [mapeo de palabras clave](/academy/keyword-mapping-for-stores), luego construye paginas de subcategoria permanentes para esos terminos.",
           items: [
@@ -285,21 +283,21 @@ export const categoryPageSeo: AcademyTopic = {
           image: {
             src: "/images/academy/es/faceted-nav-url-strategy.svg",
             alt: "Diagramm zum Vergleich von Filter-URL-Strategien",
-            caption: "Blockieren Sie minderwertige Filterkombinationen und erstellen Sie dedizierte Unterkategorieseiten für Keywords mit hohem Suchvolumen.",
+            caption: "Bloquee combinaciones de filtros de bajo valor y cree páginas de subcategorías dedicadas para términos de búsqueda de gran volumen.",
           },
           callout: {
             title: "Crawl-Budget-Verschwendung",
-            text: "5 Größen x 8 Farben x 10 Marken = 400 Filter-URLs pro Kategorie. Bei 50 Kategorien sind das 20.000 minderwertige Seiten.",
+            text: "5 tamaños x 8 colores x 10 marcas = 400 URL de filtro por categoría. En 50 categorías, es decir, 20.000 páginas de bajo valor que consumen un presupuesto de rastreo que debería destinarse a páginas de productos.",
           },
         },
         {
-          title: "Optimizacion de la cuadricula de productos",
+          title: "Optimización de la cuadricula de productos",
           content:
             "La cuadricula de productos en si tiene peso SEO que muchos duenos de tiendas pasan por alto. Cada miniatura de producto, nombre de producto y precio mostrado en la cuadricula es contenido que Google lee y usa para entender la pagina. Si tu cuadricula muestra 12 productos con nombres como \"SKU-8842\", estas desperdiciando una oportunidad de reforzar la relevancia de palabras clave.\n\nLa estrategia de paginacion importa para el SEO. Si tu categoria tiene 200 productos distribuidos en 10 paginas, Google necesita un camino claro para descubrirlos todos. Implementa una paginacion adecuada con enlaces rel=\"next\" y rel=\"prev\", o usa un boton \"Cargar mas\".\n\nLa cantidad de productos por pagina afecta tanto el SEO como la conversion. Muy pocos productos (8-12) fuerzan una paginacion excesiva que diluye la autoridad de la pagina. Demasiados (100+) ralentizan los tiempos de carga. Hemos encontrado que 24-48 productos por pagina alcanza el punto optimo para la mayoria de las categorias.\n\nEl orden de clasificacion predeterminado influye en que productos ve Google primero al rastrear. Si tu clasificacion predeterminada es \"mas recientes\" pero tus productos mas vendidos estan enterrados en la pagina 5, Google podria asociar tu categoria con productos mas nuevos y menos probados.",
           tip: "Agrega un pequeno fragmento de texto unico a cada tarjeta de producto en la cuadricula, incluso solo la primera linea de la descripcion del producto. Esto le da a Google mas contenido para indexar desde cada vista de pagina de categoria.",
         },
         {
-          title: "Enlaces internos desde paginas de categoria",
+          title: "Enlaces internos desde páginas de categoría",
           content:
             "Las paginas de categoria son hubs naturales de enlaces internos. Cada producto listado en la cuadricula es un enlace interno, pero el verdadero apalancamiento SEO viene de enlaces contextuales adicionales dentro del contenido de la categoria. Enlaza desde tu introduccion o contenido al final de la pagina hacia categorias relacionadas, guias de compra o productos destacados.\n\nLa navegacion de migas de pan en paginas de categoria sirve un doble proposito: ayuda a los compradores a navegar hacia arriba en la jerarquia, y pasa autoridad de enlace de la pagina de categoria a las categorias padre y la pagina de inicio. Asegurate de que tus migas de pan usen marcado schema.\n\nLos enlaces cruzados entre categorias relacionadas son subutilizados por la mayoria de las tiendas. Si alguien esta navegando \"molinos de cafe\", tambien podria estar interesado en \"cafeteras\" o \"cafe en grano\". Agregar una seccion de \"Categorias Relacionadas\" crea rutas de enlaces horizontales.\n\nNo enlaces hacia todas las categorias relacionadas desde cada pagina. Se selectivo y relevante. Demasiados enlaces internos en una sola pagina diluyen el valor de cada enlace. Enfocate en las 3-5 categorias mas estrechamente relacionadas.",
         },
@@ -336,11 +334,11 @@ export const categoryPageSeo: AcademyTopic = {
           image: {
             src: "/images/academy/it/category-page-content-layout.svg",
             alt: "Diagramm des idealen Content-Layouts einer Ecommerce-Kategorieseite",
-            caption: "Platzieren Sie eine kurze Einleitung über dem Produkt-Raster und ausführlichen SEO-Content darunter.",
+            caption: "Inserisci una breve introduzione sopra la griglia del prodotto e contenuti SEO dettagliati sotto di essa. Ciò soddisfa Google senza seppellire l'esperienza di acquisto.",
           },
           callout: {
             title: "Content-Gap-Effekt",
-            text: "Eine einzelne gut optimierte Kategorieseite kann mehr organischen Traffic generieren als 50 nicht optimierte Produktseiten zusammen.",
+            text: "Una singola pagina di categoria ben ottimizzata per \"portafogli in pelle\" può generare più traffico organico rispetto a 50 pagine di singoli prodotti messe insieme. Le parole chiave di categoria catturano l'intero pubblico che naviga, non solo i lettori",
           },
         },
         {
@@ -361,11 +359,11 @@ export const categoryPageSeo: AcademyTopic = {
           image: {
             src: "/images/academy/it/faceted-nav-url-strategy.svg",
             alt: "Diagramm zum Vergleich von Filter-URL-Strategien",
-            caption: "Blockieren Sie minderwertige Filterkombinationen und erstellen Sie dedizierte Unterkategorieseiten für Keywords mit hohem Suchvolumen.",
+            caption: "Blocca le combinazioni di filtri di basso valore e crea pagine di sottocategorie dedicate per termini di ricerca ad alto volume.",
           },
           callout: {
             title: "Crawl-Budget-Verschwendung",
-            text: "5 Größen x 8 Farben x 10 Marken = 400 Filter-URLs pro Kategorie. Bei 50 Kategorien sind das 20.000 minderwertige Seiten.",
+            text: "5 taglie x 8 colori x 10 marchi = 400 URL filtro per categoria. In 50 categorie, ovvero 20.000 pagine di basso valore che consumano budget di scansione e dovrebbero essere indirizzate alle pagine dei prodotti.",
           },
         },
         {
@@ -412,11 +410,11 @@ export const categoryPageSeo: AcademyTopic = {
           image: {
             src: "/images/academy/nl/category-page-content-layout.svg",
             alt: "Diagramm des idealen Content-Layouts einer Ecommerce-Kategorieseite",
-            caption: "Platzieren Sie eine kurze Einleitung über dem Produkt-Raster und ausführlichen SEO-Content darunter.",
+            caption: "Plaats een korte intro boven het productraster en gedetailleerde SEO-inhoud eronder. Dit bevredigt Google zonder de winkelervaring te begraven.",
           },
           callout: {
             title: "Content-Gap-Effekt",
-            text: "Eine einzelne gut optimierte Kategorieseite kann mehr organischen Traffic generieren als 50 nicht optimierte Produktseiten zusammen.",
+            text: "Eén goed geoptimaliseerde categoriepagina voor 'leren portemonnees' kan meer organisch verkeer genereren dan 50 individuele productpagina's samen. Categoriezoekwoorden bereiken het gehele browsepubliek, niet alleen s",
           },
         },
         {
@@ -437,11 +435,11 @@ export const categoryPageSeo: AcademyTopic = {
           image: {
             src: "/images/academy/nl/faceted-nav-url-strategy.svg",
             alt: "Diagramm zum Vergleich von Filter-URL-Strategien",
-            caption: "Blockieren Sie minderwertige Filterkombinationen und erstellen Sie dedizierte Unterkategorieseiten für Keywords mit hohem Suchvolumen.",
+            caption: "Blokkeer filtercombinaties met een lage waarde en maak speciale subcategoriepagina's voor zoektermen met een hoog volume.",
           },
           callout: {
             title: "Crawl-Budget-Verschwendung",
-            text: "5 Größen x 8 Farben x 10 Marken = 400 Filter-URLs pro Kategorie. Bei 50 Kategorien sind das 20.000 minderwertige Seiten.",
+            text: "5 maten x 8 kleuren x 10 merken = 400 filter-URL's per categorie. In 50 categorieën zijn dat 20.000 pagina's met een lage waarde die crawlbudget verbruiken dat naar productpagina's zou moeten gaan.",
           },
         },
         {

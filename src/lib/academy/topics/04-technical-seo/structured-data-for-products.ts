@@ -174,8 +174,7 @@ export const structuredDataForProducts: AcademyTopic = {
     fr: {
       badge: "SEO Technique",
       heading: "Données Structurées pour les Pages Produit",
-      intro:
-        "Les données structurées indiquent aux moteurs de recherche exactement ce que sont vos produits, leur prix et leur disponibilité. Un balisage Product correctement implémenté peut faire apparaître des résultats enrichis avec des étoiles de notation, des fourchettes de prix et des badges de disponibilité directement dans les résultats Google, augmentant les taux de clics de 20 % à 35 %. Utilisez notre [générateur de schéma](/tools/schema-generator) pour créer rapidement un balisage Product valide.",
+      intro: "Les données structurées indiquent aux moteurs de recherche exactement ce que sont vos produits, leur prix et leur disponibilité. Un balisage Product correctement implémenté peut faire apparaître des résultats enrichis avec des étoiles de notation, des fourchettes de prix et des badges de disponibilité directement dans les résultats Google, augmentant les taux de clics de 20 % à 35 %. Utilisez notre [générateur de schéma](/tools/schema-generator) pour créer rapidement un balisage Product valide.",
       readTime: "11 min de lecture",
       sections: [
         {
@@ -191,12 +190,12 @@ export const structuredDataForProducts: AcademyTopic = {
           ],
           image: {
             src: "/images/academy/fr/product-schema-anatomy.svg",
-            alt: "Annotiertes Diagramm das erforderliche und empfohlene Product-Schema-Eigenschaften neben einer Vorschau des resultierenden Google Rich Results mit Sternen, Preis und Verfuegbarkeit zeigt",
-            caption: "Erforderliche Eigenschaften loesen Rich Results aus. Empfohlene Eigenschaften wie Marke, SKU und aggregateRating verdienen erweiterte Eintraege mit Sternbewertungen und Preisangaben.",
+            alt: "Diagramme annoté montrant les propriétés du schéma de produit requises et recommandées, ainsi qu'un aperçu du résultat enrichi Google obtenu avec les étoiles, le prix et la disponibilité.",
+            caption: "Les propriétés requises déclenchent des résultats riches. Les propriétés recommandées telles que la marque, le SKU et l'agrégation obtiennent des listes améliorées avec des notes et des prix par étoiles.",
           },
           callout: {
             title: "Rich-Results-Boost",
-            text: "Produktseiten mit vollstaendigem Schema-Markup (Name, Preis, Verfuegbarkeit, Bewertungen) sehen 20-35% hoehere Klickraten aus Suchergebnissen im Vergleich zu einfachen Eintraegen ohne Rich Snippets.",
+            text: "Les pages de produits avec un balisage de schéma complet (nom, prix, disponibilité, notes) enregistrent des taux de clics 20 à 35 % plus élevés à partir des résultats de recherche par rapport aux listes simples sans extraits enrichis.",
           },
         },
         {
@@ -229,16 +228,16 @@ export const structuredDataForProducts: AcademyTopic = {
           tip: "Créez une checklist de surveillance des données structurées : validez avec le test de résultats enrichis après chaque changement de template, vérifiez les Améliorations de la Search Console chaque semaine, et lancez un crawl complet du site avec extraction JSON-LD chaque mois. Les problèmes de données structurées qui passent inaperçus pendant des semaines peuvent coûter des milliers de clics perdus.",
           image: {
             src: "/images/academy/fr/schema-testing-workflow.svg",
-            alt: "Vierstufiges Workflow-Diagramm das Erstellen, Validieren, Bereitstellen und Ueberwachen von strukturierten Daten zeigt mit einer Feedback-Schleife zur Fehlerbehebung",
-            caption: "Folgen Sie einem kontinuierlichen Workflow: JSON-LD erstellen, mit Google-Tools validieren, in Produktion bereitstellen und woechentlich via Search Console Verbesserungen ueberwachen.",
+            alt: "Diagramme de flux de travail en quatre étapes montrant les étapes de génération, de validation, de déploiement et de surveillance pour les données structurées avec une boucle de rétroaction pour la correction des erreurs",
+            caption: "Suivez un flux de travail continu : générez du JSON-LD, validez avec les outils Google, déployez en production et surveillez chaque semaine via les améliorations de la Search Console.",
           },
           callout: {
             title: "Stiller Bruch",
-            text: "Eine einzige fehlende priceCurrency-Eigenschaft auf Tausenden von Produktseiten bedeutet null Rich Results fuer Ihren gesamten Katalog. Validieren Sie immer Vorlagen vor dem Launch und ueberwachen Sie GSC-Verbesserungen woechentlich.",
+            text: "Une seule propriété priceCurrency manquante sur des milliers de pages de produits signifie aucun résultat riche pour l’ensemble de votre catalogue. Validez toujours les modèles avant le lancement et surveillez les améliorations de GSC chaque semaine.",
           },
         },
         {
-          title: "Signaux d'entite : Comment les donnees structurees alimentent le Knowledge Graph interne de Google",
+          title: "Signaux d'entite : Comment les données structurees alimentent le Knowledge Graph interne de Google",
           content:
             "Le leak a confirme que les donnees structurees alimentent la comprehension d'entite de Google bien au-dela de l'eligibilite aux rich results. Les attributs autour de la confiance d'entite et de l'association thematique reposent sur des signaux coherents et lisibles par machine a travers la page (Product schema, Brand schema, Organization schema) et a travers le site (liens sameAs, coherence NAP, balisage d'auteur).\n\nPour l'ecommerce, le mouvement pratique est de traiter les donnees structurees comme la couche de donnees que Google utilise pour comprendre ce qu'est votre boutique, pas comme une astuce rich-snippet. Brand schema sur chaque page avec legalName coherent, liens sameAs vers des profils sociaux verifies, et Organization schema sur la page d'accueil avec foundingDate, adresse et contactPoint - ceux-ci ne produisent typiquement pas de changements SERP visibles le premier jour, mais ils elevent les signaux de confiance d'entite qui influencent siteAuthority au fil du temps.\n\nObtenir le Product schema correct est table stakes. Au-dela de cela, sameAs est le signal d'autorite le moins cher que vous puissiez livrer - liez votre entite Brand a chaque profil social verifie, page Wikipedia si applicable, et profil Google Business. Le leak suggere que ces references croisees influencent materiellement la facon dont Google modelise votre entite Brand.",
           items: [
@@ -257,8 +256,7 @@ export const structuredDataForProducts: AcademyTopic = {
     es: {
       badge: "SEO Técnico",
       heading: "Datos Estructurados para Páginas de Producto",
-      intro:
-        "Los datos estructurados indican a los motores de búsqueda exactamente qué son tus productos, cuánto cuestan y si están en stock. Un marcado Product Schema correctamente implementado puede lograr que tus listados obtengan resultados enriquecidos con calificaciones de estrellas, rangos de precio e insignias de disponibilidad directamente en los resultados de Google, aumentando las tasas de clics entre un 20 % y un 35 %. Usa nuestro [generador de schema](/tools/schema-generator) para crear marcado Product valido rapidamente.",
+      intro: "Los datos estructurados indican a los motores de búsqueda exactamente qué son tus productos, cuánto cuestan y si están en stock. Un marcado Product Schema correctamente implementado puede lograr que tus listados obtengan resultados enriquecidos con calificaciones de estrellas, rangos de precio e insignias de disponibilidad directamente en los resultados de Google, aumentando las tasas de clics entre un 20 % y un 35 %. Usa nuestro [generador de schema](/tools/schema-generator) para crear marcado Product valido rápidamente.",
       readTime: "11 min de lectura",
       sections: [
         {
@@ -274,12 +272,12 @@ export const structuredDataForProducts: AcademyTopic = {
           ],
           image: {
             src: "/images/academy/es/product-schema-anatomy.svg",
-            alt: "Annotiertes Diagramm das erforderliche und empfohlene Product-Schema-Eigenschaften neben einer Vorschau des resultierenden Google Rich Results mit Sternen, Preis und Verfuegbarkeit zeigt",
-            caption: "Erforderliche Eigenschaften loesen Rich Results aus. Empfohlene Eigenschaften wie Marke, SKU und aggregateRating verdienen erweiterte Eintraege mit Sternbewertungen und Preisangaben.",
+            alt: "Diagrama anotado que muestra las propiedades del esquema de producto requeridas y recomendadas junto con una vista previa del resultado enriquecido de Google resultante con estrellas, precio y disponibilidad.",
+            caption: "Las propiedades requeridas generan resultados ricos. Las propiedades recomendadas, como marca, SKU y calificación agregada, obtienen listados mejorados con calificaciones de estrellas y precios.",
           },
           callout: {
             title: "Rich-Results-Boost",
-            text: "Produktseiten mit vollstaendigem Schema-Markup (Name, Preis, Verfuegbarkeit, Bewertungen) sehen 20-35% hoehere Klickraten aus Suchergebnissen im Vergleich zu einfachen Eintraegen ohne Rich Snippets.",
+            text: "Las páginas de productos con marcado de esquema completo (nombre, precio, disponibilidad, calificaciones) obtienen tasas de clics entre un 20% y un 35% más altas en los resultados de búsqueda en comparación con listados simples sin fragmentos enriquecidos.",
           },
         },
         {
@@ -312,12 +310,12 @@ export const structuredDataForProducts: AcademyTopic = {
           tip: "Crea una checklist de monitoreo de datos estructurados: valida con la Prueba de Resultados Enriquecidos después de cualquier cambio de plantilla, revisa las Mejoras de Search Console semanalmente, y ejecuta un rastreo completo del sitio con extracción JSON-LD mensualmente. Los problemas de datos estructurados que pasan desapercibidos durante semanas pueden costar miles de clics perdidos.",
           image: {
             src: "/images/academy/es/schema-testing-workflow.svg",
-            alt: "Vierstufiges Workflow-Diagramm das Erstellen, Validieren, Bereitstellen und Ueberwachen von strukturierten Daten zeigt mit einer Feedback-Schleife zur Fehlerbehebung",
-            caption: "Folgen Sie einem kontinuierlichen Workflow: JSON-LD erstellen, mit Google-Tools validieren, in Produktion bereitstellen und woechentlich via Search Console Verbesserungen ueberwachen.",
+            alt: "Diagrama de flujo de trabajo de cuatro pasos que muestra las etapas de generación, validación, implementación y monitoreo de datos estructurados con un circuito de retroalimentación para corregir errores.",
+            caption: "Siga un flujo de trabajo continuo: genere JSON-LD, valide con las herramientas de Google, implemente en producción y monitoree semanalmente a través de las mejoras de Search Console.",
           },
           callout: {
             title: "Stiller Bruch",
-            text: "Eine einzige fehlende priceCurrency-Eigenschaft auf Tausenden von Produktseiten bedeutet null Rich Results fuer Ihren gesamten Katalog. Validieren Sie immer Vorlagen vor dem Launch und ueberwachen Sie GSC-Verbesserungen woechentlich.",
+            text: "Una sola propiedad priceCurrency faltante en miles de páginas de productos significa que no hay resultados enriquecidos para todo su catálogo. Valide siempre las plantillas antes del lanzamiento y supervise las mejoras de GSC semanalmente.",
           },
         },
         {
@@ -357,12 +355,12 @@ export const structuredDataForProducts: AcademyTopic = {
           ],
           image: {
             src: "/images/academy/it/product-schema-anatomy.svg",
-            alt: "Annotiertes Diagramm das erforderliche und empfohlene Product-Schema-Eigenschaften neben einer Vorschau des resultierenden Google Rich Results mit Sternen, Preis und Verfuegbarkeit zeigt",
-            caption: "Erforderliche Eigenschaften loesen Rich Results aus. Empfohlene Eigenschaften wie Marke, SKU und aggregateRating verdienen erweiterte Eintraege mit Sternbewertungen und Preisangaben.",
+            alt: "Diagramma con annotazioni che mostra le proprietà dello schema di prodotto richieste e consigliate insieme a un'anteprima del risultato avanzato di Google risultante con stelle, prezzo e disponibilità",
+            caption: "Le proprietà richieste attivano risultati avanzati. Le proprietà consigliate come brand, SKU e aggregateRating ottengono elenchi migliorati con valutazioni a stelle e prezzi.",
           },
           callout: {
             title: "Rich-Results-Boost",
-            text: "Produktseiten mit vollstaendigem Schema-Markup (Name, Preis, Verfuegbarkeit, Bewertungen) sehen 20-35% hoehere Klickraten aus Suchergebnissen im Vergleich zu einfachen Eintraegen ohne Rich Snippets.",
+            text: "Le pagine dei prodotti con markup dello schema completo (nome, prezzo, disponibilità, valutazioni) registrano percentuali di clic più elevate del 20-35% dai risultati di ricerca rispetto alle inserzioni semplici senza rich snippet.",
           },
         },
         {
@@ -395,12 +393,12 @@ export const structuredDataForProducts: AcademyTopic = {
           tip: "Crea una checklist di monitoraggio dei dati strutturati: valida con il Rich Results Test dopo ogni modifica del template, controlla i Miglioramenti della Search Console settimanalmente, e lancia una scansione completa del sito con estrazione JSON-LD mensilmente. Problemi di dati strutturati che passano inosservati per settimane possono costare migliaia di clic persi.",
           image: {
             src: "/images/academy/it/schema-testing-workflow.svg",
-            alt: "Vierstufiges Workflow-Diagramm das Erstellen, Validieren, Bereitstellen und Ueberwachen von strukturierten Daten zeigt mit einer Feedback-Schleife zur Fehlerbehebung",
-            caption: "Folgen Sie einem kontinuierlichen Workflow: JSON-LD erstellen, mit Google-Tools validieren, in Produktion bereitstellen und woechentlich via Search Console Verbesserungen ueberwachen.",
+            alt: "Diagramma del flusso di lavoro in quattro fasi che mostra le fasi di generazione, convalida, distribuzione e monitoraggio dei dati strutturati con un ciclo di feedback per la correzione degli errori",
+            caption: "Segui un flusso di lavoro continuo: genera JSON-LD, convalida con gli strumenti Google, distribuisci in produzione e monitora settimanalmente tramite i miglioramenti di Search Console.",
           },
           callout: {
             title: "Stiller Bruch",
-            text: "Eine einzige fehlende priceCurrency-Eigenschaft auf Tausenden von Produktseiten bedeutet null Rich Results fuer Ihren gesamten Katalog. Validieren Sie immer Vorlagen vor dem Launch und ueberwachen Sie GSC-Verbesserungen woechentlich.",
+            text: "Una singola proprietà priceCurrency mancante in migliaia di pagine di prodotto significa zero risultati avanzati per l'intero catalogo. Convalida sempre i modelli prima del lancio e monitora settimanalmente i miglioramenti GSC.",
           },
         },
         {
@@ -440,12 +438,12 @@ export const structuredDataForProducts: AcademyTopic = {
           ],
           image: {
             src: "/images/academy/nl/product-schema-anatomy.svg",
-            alt: "Annotiertes Diagramm das erforderliche und empfohlene Product-Schema-Eigenschaften neben einer Vorschau des resultierenden Google Rich Results mit Sternen, Preis und Verfuegbarkeit zeigt",
-            caption: "Erforderliche Eigenschaften loesen Rich Results aus. Empfohlene Eigenschaften wie Marke, SKU und aggregateRating verdienen erweiterte Eintraege mit Sternbewertungen und Preisangaben.",
+            alt: "Geannoteerd diagram met de vereiste en aanbevolen productschema-eigenschappen, naast een voorbeeld van het resulterende uitgebreide Google-resultaat met sterren, prijs en beschikbaarheid",
+            caption: "Vereiste eigenschappen zorgen voor rijke resultaten. Aanbevolen eigenschappen zoals merk, SKU en aggregateRating verdienen verbeterde vermeldingen met sterbeoordelingen en prijzen.",
           },
           callout: {
             title: "Rich-Results-Boost",
-            text: "Produktseiten mit vollstaendigem Schema-Markup (Name, Preis, Verfuegbarkeit, Bewertungen) sehen 20-35% hoehere Klickraten aus Suchergebnissen im Vergleich zu einfachen Eintraegen ohne Rich Snippets.",
+            text: "Productpagina's met volledige schema-opmaak (naam, prijs, beschikbaarheid, beoordelingen) zorgen voor 20-35% hogere klikfrequenties in de zoekresultaten vergeleken met gewone vermeldingen zonder rich snippets.",
           },
         },
         {
@@ -478,12 +476,12 @@ export const structuredDataForProducts: AcademyTopic = {
           tip: "Maak een monitoringchecklist voor gestructureerde data: valideer met de Rich Results Test na elke templatewijziging, controleer Search Console Verbeteringen wekelijks, en voer maandelijks een volledige sitecrawl uit met JSON-LD-extractie. Problemen met gestructureerde data die wekenlang onopgemerkt blijven, kunnen duizenden verloren klikken kosten.",
           image: {
             src: "/images/academy/nl/schema-testing-workflow.svg",
-            alt: "Vierstufiges Workflow-Diagramm das Erstellen, Validieren, Bereitstellen und Ueberwachen von strukturierten Daten zeigt mit einer Feedback-Schleife zur Fehlerbehebung",
-            caption: "Folgen Sie einem kontinuierlichen Workflow: JSON-LD erstellen, mit Google-Tools validieren, in Produktion bereitstellen und woechentlich via Search Console Verbesserungen ueberwachen.",
+            alt: "Workflowdiagram in vier stappen dat de fasen voor het genereren, valideren, implementeren en bewaken van gestructureerde gegevens toont, met een feedbacklus voor het oplossen van fouten",
+            caption: "Volg een continue workflow: genereer JSON-LD, valideer met Google-tools, implementeer het in productie en controleer wekelijks via Search Console Enhancements.",
           },
           callout: {
             title: "Stiller Bruch",
-            text: "Eine einzige fehlende priceCurrency-Eigenschaft auf Tausenden von Produktseiten bedeutet null Rich Results fuer Ihren gesamten Katalog. Validieren Sie immer Vorlagen vor dem Launch und ueberwachen Sie GSC-Verbesserungen woechentlich.",
+            text: "Eén ontbrekende priceCurrency-eigenschap op duizenden productpagina's betekent nul rijke resultaten voor uw hele catalogus. Valideer sjablonen altijd vóór de lancering en controleer wekelijks GSC-verbeteringen.",
           },
         },
         {

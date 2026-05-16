@@ -170,8 +170,7 @@ export const googleSearchConsoleForStores: AcademyTopic = {
     fr: {
       badge: "Fondamentaux de la recherche",
       heading: "Google Search Console pour les boutiques",
-      intro:
-        "Google Search Console est le seul outil qui vous montre exactement comment Google voit votre boutique. Il vous indique quelles requetes generent des impressions et des clics, quelles pages sont indexees et ou les problemes techniques nuisent a votre visibilite. Pour les sites e-commerce, c'est le fondement d'un SEO pilote par les donnees.",
+      intro: "Google Search Console est le seul outil qui vous montre exactement comment Google voit votre boutique. Il vous indique quelles requetes generent des impressions et des clics, quelles pages sont indexees et ou les problemes techniques nuisent a votre visibilite. Pour les sites e-commerce, c'est le fondement d'un SEO pilote par les données.",
       readTime: "11 min de lecture",
       sections: [
         {
@@ -186,11 +185,11 @@ export const googleSearchConsoleForStores: AcademyTopic = {
           ],
           callout: {
             title: "Indexierungs-Benchmark",
-            text: "Ein gesunder Ecommerce-Shop sollte 85\u201395\u00a0% der eingereichten Produkt-URLs indexiert sehen. Wenn Ihre Rate unter 70\u00a0% liegt, haben Sie ein erhebliches technisches oder Content-Qualit\u00e4tsproblem zu untersuchen.",
+            text: "Un site de commerce électronique sain devrait voir 85 à 95 % des URL de produits soumises indexées. Si votre taux est inférieur à 70 %, vous devez enquêter sur un problème technique ou de qualité de contenu important.",
           },
         },
         {
-          title: "Rapports cles pour le SEO e-commerce",
+          title: "Rapports clés pour le SEO e-commerce",
           content:
             "Le rapport de Performance est l'endroit ou vous passerez le plus de temps. Il montre le total des clics, impressions, le taux de clics moyen et la position moyenne pour chaque requete et page de votre site. Pour l'e-commerce, filtrez ce rapport par type de page pour comprendre comment vos pages produits se comportent par rapport a vos pages de categories et votre contenu blog.\n\nLe rapport Pages au sein de la Performance est particulierement precieux. Triez par impressions pour trouver les pages que Google affiche frequemment mais qui obtiennent peu de clics. Ce sont vos opportunites de gains rapides. Une page produit avec 5 000 impressions mensuelles mais un CTR de 1,2% a probablement un title tag ou une meta description faible. Ameliorer ces seuls elements peut doubler ou tripler vos clics sans changement de classement.\n\nLe rapport de Couverture (maintenant appele Indexation des pages) vous dit exactement combien de pages sont indexees, exclues et en erreur. Pour les sites e-commerce avec des milliers de produits, ce rapport revele souvent que Google exclut des portions significatives de votre catalogue. Les raisons d'exclusion courantes incluent \"Exploree - actuellement non indexee\" et \"Doublon sans URL canonique selectionnee par l'utilisateur\", toutes deux corrigeables avec une optimisation ciblee.",
           tip: "Etablissez une routine hebdomadaire : chaque lundi matin, verifiez votre rapport de Performance des 28 derniers jours compare a la periode precedente. Cherchez les requetes ou les impressions ont chute de plus de 20%, ce qui pourrait signaler des pertes de classement necessitant une attention immediate.",
@@ -207,12 +206,12 @@ export const googleSearchConsoleForStores: AcademyTopic = {
           ],
           image: {
             src: "/images/academy/fr/gsc-quick-wins.svg",
-            alt: "Diagramm der Google-Suchergebnis-Positionszonen und des Traffic-Effekts, von Position 7 auf Position 3 zu wechseln f\u00fcr ein Keyword mit 8.000 monatlichen Impressionen",
-            caption: "Keywords auf Positionen 5\u201320 sind Ihre wirkungsvollsten Chancen. Kleine Verbesserungen bringen gro\u00dfe Traffic-Gewinne.",
+            alt: "Diagramme montrant les zones de position de recherche Google et l'impact sur le trafic du passage de la position 7 à la position 3 pour un mot clé avec 8 000 impressions mensuelles",
+            caption: "Les mots clés aux positions 5 à 20 sont vos opportunités à plus fort impact. De petites améliorations génèrent d’importants gains de trafic.",
           },
           callout: {
             title: "Traffic-Mathematik",
-            text: "Wechsel von Position 7 (3\u00a0% CTR) zu Position 3 (12\u00a0% CTR) f\u00fcr ein Keyword mit 8.000 monatlichen Impressionen bedeutet 240 auf 960 Klicks/Monat. Wir haben Shops gesehen, die den organischen Traffic um 30\u201340\u00a0% steigerten, indem sie systematisch Seite-2-Rankings verbesserten.",
+            text: "Passer de la position 7 (3% CTR) à la position 3 (12% CTR) pour un mot clé avec 8 000 impressions mensuelles signifie passer de 240 à 960 clics/mois. Nous avons vu des magasins augmenter leur trafic organique de 30 à 40 % d'ici",
           },
         },
         {
@@ -222,8 +221,8 @@ export const googleSearchConsoleForStores: AcademyTopic = {
           tip: "Creez un tableau de suivi mensuel de l'indexation. Enregistrez le total des pages indexees, le total des pages exclues et la repartition des raisons d'exclusion. Sur trois a six mois, vous detecterez des tendances qui revelent si la sante de votre site s'ameliore ou decline.",
           image: {
             src: "/images/academy/fr/gsc-indexation-dashboard.svg",
-            alt: "Dashboard-Visualisierung des GSC-Seitenindexierungsstatus: indexiert, gecrawlt aber nicht indexiert, gefunden aber nicht indexiert, und andere Ausschl\u00fcsse mit empfohlenen Behebungen",
-            caption: "Verfolgen Sie Ihre Indexierungsgesundheit monatlich. Ein gesunder Shop sollte 85\u201395\u00a0% der eingereichten Produkt-URLs indexiert haben.",
+            alt: "Visualisation du tableau de bord affichant la répartition de l'état d'indexation des pages GSC : indexée, explorée mais non indexée, découverte mais non indexée et autres exclusions avec correctifs recommandés",
+            caption: "Suivez mensuellement la santé de votre indexation. Un magasin sain devrait avoir 85 à 95 % des URL de produits soumises indexées.",
           },
         },
         {
@@ -238,7 +237,7 @@ export const googleSearchConsoleForStores: AcademyTopic = {
           ],
         },
         {
-          title: "Transformer les donnees GSC en actions",
+          title: "Transformer les données GSC en actions",
           content:
             "La valeur de GSC vient de la transformation des donnees en plans d'action. Les donnees brutes dans les rapports n'ameliorent pas les classements. Vous avez besoin d'un processus systematique pour extraire des insights et implementer des changements.\n\nCommencez par un cycle mensuel d'optimisation de contenu. Exportez vos 200 premieres requetes du rapport de Performance et triez-les par impressions. Pour chaque requete, verifiez la page d'atterrissage et demandez-vous : cette page satisfait-elle completement l'intention de recherche ? Le title tag inclut-il la requete ? Le contenu est-il assez complet ? Ce processus revele typiquement 15 a 25 pages par mois qui beneficient d'optimisation.\n\nConstruisez un tableau de bord de sante technique utilisant les donnees GSC. Suivez vos pages indexees totales, erreurs de crawl, problemes d'utilisabilite mobile et scores Core Web Vitals dans le temps. Quand une metrique tend dans la mauvaise direction, investigez immediatement plutot que d'attendre des baisses de trafic. La prevention est significativement moins couteuse que la recuperation en SEO.\n\nPour les entreprises e-commerce saisonnieres, utilisez la fonction de comparaison de dates de GSC pour comprendre vos patterns de trafic d'une annee sur l'autre. Comparez ce decembre au decembre dernier, cette semaine de Black Friday a celle de l'annee derniere. Cela vous aide a definir des attentes realistes et a identifier si les changements de trafic sont dus a vos efforts SEO ou simplement a des patterns saisonniers. Cela vous aide aussi a preparer du contenu avant les pics saisonniers en regardant quand des requetes specifiques commencent a monter chaque annee. Un processus structuré d'[audit SEO e-commerce](/blog/how-to-make-ecommerce-seo-audit) vous aide à détecter ces problèmes avant qu'ils n'impactent le trafic.",
         },
@@ -251,8 +250,7 @@ export const googleSearchConsoleForStores: AcademyTopic = {
     es: {
       badge: "Fundamentos de busqueda",
       heading: "Google Search Console para tiendas",
-      intro:
-        "Google Search Console es la unica herramienta que te muestra exactamente como Google ve tu tienda. Te indica que consultas generan impresiones y clics, que paginas estan indexadas y donde los problemas tecnicos estan afectando tu visibilidad. Para sitios de e-commerce, es la base del SEO basado en datos.",
+      intro: "Google Search Console es la unica herramienta que te muestra exactamente como Google ve tu tienda. Te indica que consultas generan impresiones y clics, que páginas estan indexadas y donde los problemas técnicos estan afectando tu visibilidad. Para sitios de e-commerce, es la base del SEO basado en datos.",
       readTime: "11 min de lectura",
       sections: [
         {
@@ -267,7 +265,7 @@ export const googleSearchConsoleForStores: AcademyTopic = {
           ],
           callout: {
             title: "Indexierungs-Benchmark",
-            text: "Ein gesunder Ecommerce-Shop sollte 85\u201395\u00a0% der eingereichten Produkt-URLs indexiert sehen. Wenn Ihre Rate unter 70\u00a0% liegt, haben Sie ein erhebliches technisches oder Content-Qualit\u00e4tsproblem zu untersuchen.",
+            text: "Un sitio de comercio electrónico saludable debería tener indexadas entre el 85% y el 95% de las URL de los productos enviados. Si su tasa es inferior al 70%, tiene un problema técnico o de calidad del contenido importante que investigar.",
           },
         },
         {
@@ -288,23 +286,23 @@ export const googleSearchConsoleForStores: AcademyTopic = {
           ],
           image: {
             src: "/images/academy/es/gsc-quick-wins.svg",
-            alt: "Diagramm der Google-Suchergebnis-Positionszonen und des Traffic-Effekts, von Position 7 auf Position 3 zu wechseln f\u00fcr ein Keyword mit 8.000 monatlichen Impressionen",
-            caption: "Keywords auf Positionen 5\u201320 sind Ihre wirkungsvollsten Chancen. Kleine Verbesserungen bringen gro\u00dfe Traffic-Gewinne.",
+            alt: "Diagrama que muestra las zonas de posición de búsqueda de Google y el impacto en el tráfico al pasar de la posición 7 a la posición 3 para una palabra clave con 8000 impresiones mensuales.",
+            caption: "Las palabras clave en las posiciones 5 a 20 son sus oportunidades de mayor impacto. Pequeñas mejoras generan grandes ganancias de tráfico.",
           },
           callout: {
             title: "Traffic-Mathematik",
-            text: "Wechsel von Position 7 (3\u00a0% CTR) zu Position 3 (12\u00a0% CTR) f\u00fcr ein Keyword mit 8.000 monatlichen Impressionen bedeutet 240 auf 960 Klicks/Monat. Wir haben Shops gesehen, die den organischen Traffic um 30\u201340\u00a0% steigerten, indem sie systematisch Seite-2-Rankings verbesserten.",
+            text: "Pasar de la posición 7 (3% CTR) a la posición 3 (12% CTR) para una palabra clave con 8.000 impresiones mensuales significa pasar de 240 a 960 clics/mes. Hemos visto que las tiendas aumentan el tráfico orgánico entre un 30% y un 40% por sistema.",
           },
         },
         {
-          title: "Monitorear la salud de indexacion",
+          title: "Monitorear la salud de indexación",
           content:
             "Para sitios e-commerce, el monitoreo de indexacion es critico porque las paginas no indexadas generan cero trafico organico. El informe de Indexacion de paginas en GSC muestra exactamente cuantas de tus paginas estan en el indice de Google y por que otras estan excluidas.\n\nRevisa este informe al menos mensualmente y rastrea tu conteo de paginas indexadas a lo largo del tiempo. Una caida repentina en paginas indexadas podria significar que Google encontro errores de rastreo, tu robots.txt se actualizo accidentalmente, o una migracion de sitio salio mal. Hemos visto tiendas perder el 40% de su trafico organico de la noche a la manana porque un desarrollador agrego accidentalmente una etiqueta noindex a una plantilla que se renderizaba en miles de paginas de producto.\n\nPresta atencion especial a los estados \"Descubierta - actualmente no indexada\" y \"Rastreada - actualmente no indexada\". El primero significa que Google conoce la pagina pero no la ha rastreado aun, a menudo debido a limitaciones del [presupuesto de rastreo](/academy/crawl-budget-management). El segundo significa que Google rastro la pagina pero eligio no indexarla, usualmente porque el contenido era demasiado delgado o demasiado similar a otras paginas. Para e-commerce, el segundo estado a menudo afecta variantes de producto o paginas de categorias filtradas.\n\nUsa el informe de Sitemaps junto con la Indexacion de paginas para comparar URLs enviadas versus URLs indexadas. Si enviaste 10.000 URLs de producto pero solo 6.500 estan indexadas, tienes 3.500 paginas que necesitan investigacion. Agrupalas por patron para encontrar problemas sistematicos en lugar de arreglar paginas una por una.",
           tip: "Crea una hoja de calculo mensual de seguimiento de indexacion. Registra el total de paginas indexadas, total de paginas excluidas y el desglose de razones de exclusion. En tres a seis meses, detectaras tendencias que revelan si la salud de tu sitio esta mejorando o empeorando.",
           image: {
             src: "/images/academy/es/gsc-indexation-dashboard.svg",
-            alt: "Dashboard-Visualisierung des GSC-Seitenindexierungsstatus: indexiert, gecrawlt aber nicht indexiert, gefunden aber nicht indexiert, und andere Ausschl\u00fcsse mit empfohlenen Behebungen",
-            caption: "Verfolgen Sie Ihre Indexierungsgesundheit monatlich. Ein gesunder Shop sollte 85\u201395\u00a0% der eingereichten Produkt-URLs indexiert haben.",
+            alt: "Visualización del panel que muestra el desglose del estado de indexación de la página de GSC: indexada, rastreada pero no indexada, descubierta pero no indexada y otras exclusiones con correcciones recomendadas",
+            caption: "Realice un seguimiento mensual de su estado de indexación. Una tienda saludable debe tener indexadas entre el 85% y el 95% de las URL de los productos enviados.",
           },
         },
         {
@@ -321,7 +319,7 @@ export const googleSearchConsoleForStores: AcademyTopic = {
         {
           title: "Convertir datos de GSC en acciones",
           content:
-            "El valor de GSC viene de convertir datos en planes de accion. Los datos crudos en informes no mejoran posicionamientos. Necesitas un proceso sistematico para extraer insights e implementar cambios.\n\nComienza con un ciclo mensual de optimizacion de contenido. Exporta tus 200 consultas principales del informe de Rendimiento y ordenalas por impresiones. Para cada consulta, revisa la pagina de destino y pregunta: esta pagina satisface completamente la intencion de busqueda? El title tag incluye la consulta? El contenido es suficientemente completo? Este proceso tipicamente revela 15-25 paginas por mes que se benefician de optimizacion.\n\nConstruye un dashboard de salud tecnica usando datos de GSC. Rastrea tus paginas indexadas totales, errores de rastreo, problemas de usabilidad movil y puntuaciones de Core Web Vitals a lo largo del tiempo. Cuando cualquier metrica tienda en la direccion equivocada, investiga inmediatamente en lugar de esperar caidas de trafico. La prevencion es significativamente mas barata que la recuperacion en SEO.\n\nPara negocios e-commerce estacionales, usa la funcion de comparacion de fechas de GSC para entender tus patrones de trafico interanuales. Compara este diciembre con el diciembre pasado, esta semana de Black Friday con la del ano pasado. Esto te ayuda a establecer expectativas realistas e identificar si los cambios en el trafico se deben a tus esfuerzos de SEO o simplemente a patrones estacionales. Tambien te ayuda a preparar contenido antes de los picos estacionales observando cuando las consultas especificas comienzan a subir cada ano. Un proceso estructurado de [auditoria SEO para ecommerce](/blog/how-to-make-ecommerce-seo-audit) te ayuda a detectar estos problemas antes de que impacten el trafico.",
+            "El valor de GSC viene de convertir datos en planes de accion. Los datos crudos en informes no mejoran posicionamientos. Necesitas un proceso sistematico para extraer insights e implementar cambios.\n\nComienza con un ciclo mensual de optimizacion de contenido. Exporta tus 200 consultas principales del informe de Rendimiento y ordenalas por impresiones. Para cada consulta, revisa la pagina de destino y pregunta: esta pagina satisface completamente la intencion de busqueda? El title tag incluye la consulta? El contenido es suficientemente completo? Este proceso tipicamente revela 15-25 paginas por mes que se benefician de optimizacion.\n\nConstruye un dashboard de salud tecnica usando datos de GSC. Rastrea tus paginas indexadas totales, errores de rastreo, problemas de usabilidad movil y puntuaciones de Core Web Vitals a lo largo del tiempo. Cuando cualquier metrica tienda en la direccion equivocada, investiga inmediatamente en lugar de esperar caidas de trafico. La prevencion es significativamente mas barata que la recuperacion en SEO.\n\nPara negocios e-commerce estacionales, usa la funcion de comparacion de fechas de GSC para entender tus patrones de trafico interanuales. Compara este diciembre con el diciembre pasado, esta semana de Black Friday con la del año pasado. Esto te ayuda a establecer expectativas realistas e identificar si los cambios en el trafico se deben a tus esfuerzos de SEO o simplemente a patrones estacionales. Tambien te ayuda a preparar contenido antes de los picos estacionales observando cuando las consultas especificas comienzan a subir cada año. Un proceso estructurado de [auditoria SEO para ecommerce](/blog/how-to-make-ecommerce-seo-audit) te ayuda a detectar estos problemas antes de que impacten el trafico.",
         },
       ],
       navLabels: {
@@ -348,7 +346,7 @@ export const googleSearchConsoleForStores: AcademyTopic = {
           ],
           callout: {
             title: "Indexierungs-Benchmark",
-            text: "Ein gesunder Ecommerce-Shop sollte 85\u201395\u00a0% der eingereichten Produkt-URLs indexiert sehen. Wenn Ihre Rate unter 70\u00a0% liegt, haben Sie ein erhebliches technisches oder Content-Qualit\u00e4tsproblem zu untersuchen.",
+            text: "Un sito di e-commerce sano dovrebbe vedere indicizzato l'85-95% degli URL dei prodotti inviati. Se la tua tariffa è inferiore al 70%, hai un problema tecnico o di qualità dei contenuti significativo su cui indagare.",
           },
         },
         {
@@ -369,12 +367,12 @@ export const googleSearchConsoleForStores: AcademyTopic = {
           ],
           image: {
             src: "/images/academy/it/gsc-quick-wins.svg",
-            alt: "Diagramm der Google-Suchergebnis-Positionszonen und des Traffic-Effekts, von Position 7 auf Position 3 zu wechseln f\u00fcr ein Keyword mit 8.000 monatlichen Impressionen",
-            caption: "Keywords auf Positionen 5\u201320 sind Ihre wirkungsvollsten Chancen. Kleine Verbesserungen bringen gro\u00dfe Traffic-Gewinne.",
+            alt: "Diagramma che mostra le zone di posizione di ricerca di Google e l'impatto sul traffico dello spostamento dalla posizione 7 alla posizione 3 per una parola chiave con 8.000 impressioni mensili",
+            caption: "Le parole chiave nelle posizioni dalla 5 alla 20 rappresentano le opportunità di maggiore impatto. Piccoli miglioramenti producono grandi guadagni di traffico.",
           },
           callout: {
             title: "Traffic-Mathematik",
-            text: "Wechsel von Position 7 (3\u00a0% CTR) zu Position 3 (12\u00a0% CTR) f\u00fcr ein Keyword mit 8.000 monatlichen Impressionen bedeutet 240 auf 960 Klicks/Monat. Wir haben Shops gesehen, die den organischen Traffic um 30\u201340\u00a0% steigerten, indem sie systematisch Seite-2-Rankings verbesserten.",
+            text: "Passare dalla posizione 7 (3% CTR) alla posizione 3 (12% CTR) per una parola chiave con 8.000 impression mensili significa passare da 240 a 960 clic/mese. Abbiamo visto i negozi aumentare il traffico organico del 30-40% entro l'anno",
           },
         },
         {
@@ -384,8 +382,8 @@ export const googleSearchConsoleForStores: AcademyTopic = {
           tip: "Crea un foglio di calcolo mensile di tracciamento dell'indicizzazione. Registra il totale delle pagine indicizzate, il totale delle pagine escluse e la suddivisione dei motivi di esclusione. In tre-sei mesi, individuerai tendenze che rivelano se la salute del tuo sito sta migliorando o peggiorando.",
           image: {
             src: "/images/academy/it/gsc-indexation-dashboard.svg",
-            alt: "Dashboard-Visualisierung des GSC-Seitenindexierungsstatus: indexiert, gecrawlt aber nicht indexiert, gefunden aber nicht indexiert, und andere Ausschl\u00fcsse mit empfohlenen Behebungen",
-            caption: "Verfolgen Sie Ihre Indexierungsgesundheit monatlich. Ein gesunder Shop sollte 85\u201395\u00a0% der eingereichten Produkt-URLs indexiert haben.",
+            alt: "Visualizzazione del dashboard che mostra la suddivisione dello stato di indicizzazione della pagina GSC: indicizzata, sottoposta a scansione ma non indicizzata, rilevata ma non indicizzata e altre esclusioni con soluzioni consigliate",
+            caption: "Tieni traccia mensilmente dello stato di indicizzazione. Un negozio in buone condizioni dovrebbe avere l'85-95% degli URL dei prodotti inviati indicizzati.",
           },
         },
         {
@@ -429,7 +427,7 @@ export const googleSearchConsoleForStores: AcademyTopic = {
           ],
           callout: {
             title: "Indexierungs-Benchmark",
-            text: "Ein gesunder Ecommerce-Shop sollte 85\u201395\u00a0% der eingereichten Produkt-URLs indexiert sehen. Wenn Ihre Rate unter 70\u00a0% liegt, haben Sie ein erhebliches technisches oder Content-Qualit\u00e4tsproblem zu untersuchen.",
+            text: "Op een gezonde e-commercesite zou 85-95% van de ingediende product-URL's geïndexeerd moeten zijn. Als uw percentage lager is dan 70%, moet u een aanzienlijk technisch probleem of probleem met de inhoudskwaliteit onderzoeken.",
           },
         },
         {
@@ -450,12 +448,12 @@ export const googleSearchConsoleForStores: AcademyTopic = {
           ],
           image: {
             src: "/images/academy/nl/gsc-quick-wins.svg",
-            alt: "Diagramm der Google-Suchergebnis-Positionszonen und des Traffic-Effekts, von Position 7 auf Position 3 zu wechseln f\u00fcr ein Keyword mit 8.000 monatlichen Impressionen",
-            caption: "Keywords auf Positionen 5\u201320 sind Ihre wirkungsvollsten Chancen. Kleine Verbesserungen bringen gro\u00dfe Traffic-Gewinne.",
+            alt: "Diagram met de Google-zoekpositiezones en de verkeersimpact van de overgang van positie 7 naar positie 3 voor een zoekwoord met 8.000 maandelijkse vertoningen",
+            caption: "Zoekwoorden op posities 5-20 zijn uw kansen met de grootste impact. Kleine verbeteringen leveren grote verkeerswinsten op.",
           },
           callout: {
             title: "Traffic-Mathematik",
-            text: "Wechsel von Position 7 (3\u00a0% CTR) zu Position 3 (12\u00a0% CTR) f\u00fcr ein Keyword mit 8.000 monatlichen Impressionen bedeutet 240 auf 960 Klicks/Monat. Wir haben Shops gesehen, die den organischen Traffic um 30\u201340\u00a0% steigerten, indem sie systematisch Seite-2-Rankings verbesserten.",
+            text: "Als u van positie 7 (3% CTR) naar positie 3 (12% CTR) gaat voor een zoekwoord met 8.000 maandelijkse vertoningen, betekent dit dat u van 240 naar 960 klikken/maand gaat. We hebben gezien dat winkels het organische verkeer met 30-40% per jaar hebben zien toenemen",
           },
         },
         {
@@ -465,8 +463,8 @@ export const googleSearchConsoleForStores: AcademyTopic = {
           tip: "Maak een maandelijks indexatietracking spreadsheet. Registreer het totaal geindexeerde pagina's, totaal uitgesloten pagina's en de uitsplitsing van uitsluitingsredenen. Over drie tot zes maanden spot je trends die onthullen of je sitegesondheid verbetert of verslechtert.",
           image: {
             src: "/images/academy/nl/gsc-indexation-dashboard.svg",
-            alt: "Dashboard-Visualisierung des GSC-Seitenindexierungsstatus: indexiert, gecrawlt aber nicht indexiert, gefunden aber nicht indexiert, und andere Ausschl\u00fcsse mit empfohlenen Behebungen",
-            caption: "Verfolgen Sie Ihre Indexierungsgesundheit monatlich. Ein gesunder Shop sollte 85\u201395\u00a0% der eingereichten Produkt-URLs indexiert haben.",
+            alt: "Dashboardvisualisatie met uitsplitsing van de status van de GSC-pagina-indexering: geïndexeerd, gecrawld maar niet geïndexeerd, ontdekt maar niet geïndexeerd en andere uitsluitingen met aanbevolen oplossingen",
+            caption: "Volg maandelijks uw indexatiegezondheid. In een gezonde winkel moet 85-95% van de ingediende product-URL's geïndexeerd zijn.",
           },
         },
         {

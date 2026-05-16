@@ -158,12 +158,11 @@ items: [
     fr: {
       badge: "Guides sectoriels",
       heading: "Playbook SEO Mode et Habillement",
-      intro:
-        "Le e-commerce de mode fonctionne selon des cycles saisonniers serres, une decouverte fortement visuelle et un nombre enorme de variantes de produits. Bien se positionner exige une strategie de recherche construite autour de ces realites plutot que des conseils SEO generiques. Ce playbook couvre les techniques specifiques qui generent du trafic organique pour les boutiques de vetements, chaussures et accessoires. Pour une vue d'ensemble plus large, consultez notre guide sur le [SEO e-commerce mode](/blog/fashion-ecommerce-seo).",
+      intro: "Le e-commerce de mode fonctionne selon des cycles saisonniers serres, une decouverte fortement visuelle et un nombre enorme de variantes de produits. Bien se positionner exige une stratégie de recherche construite autour de ces realites plutot que des conseils SEO generiques. Ce playbook couvre les techniques specifiques qui generent du trafic organique pour les boutiques de vetements, chaussures et accessoires. Pour une vue d'ensemble plus large, consultez notre guide sur le [SEO e-commerce mode](/blog/fashion-ecommerce-seo).",
       readTime: "12 min de lecture",
       sections: [
         {
-          title: "Pages de collections saisonnieres et mots-cles tendance",
+          title: "Pages de collections saisonnières et mots-clés tendance",
           content:
             "Le commerce de mode tourne autour des saisons, des drops et des cycles de tendances. Votre calendrier SEO devrait reflecter votre calendrier d'achats. Creez des pages d'atterrissage dediees pour chaque collection saisonniere, Printemps/Ete 2026, Automne/Hiver 2026, au moins huit semaines avant le debut de la saison. Ces pages donnent a Google le temps de les explorer et de les indexer avant le pic de demande.\n\nLes mots-cles tendance changent rapidement. Des termes comme \"jean barrel leg\" ou \"quiet luxury\" peuvent passer de zero a des dizaines de milliers de recherches mensuelles en quelques semaines. Surveillez Google Trends, Pinterest Trends et les plateformes sociales chaque semaine pour detecter les termes de recherche emergents.\n\nEvitez de supprimer les pages saisonnieres apres la fin d'une saison. Mettez plutot a jour le contenu et la grille de produits pour le cycle suivant. Une page a /collections/robes-ete qui a accumule des backlinks et un historique de classement sur trois ans surpassera une page toute neuve a chaque fois.\n\nUtilisez le balisage schema pour la disponibilite des produits et les offres saisonnieres. Google peut afficher les prix promotionnels, l'etat du stock et les badges promotionnels directement dans les resultats de recherche.",
           items: [
@@ -174,12 +173,12 @@ items: [
           ],
           image: {
             src: "/images/academy/fr/fashion-seasonal-seo-cycle.svg",
-            alt: "Mode saisonaler SEO-Zyklus mit Content-Planung, Optimierung, Pflege und Archivierung ueber vier Saisons",
-            caption: "Verwenden Sie immergruene URLs und aktualisieren Sie den Content saisonal, anstatt Seiten zu loeschen und neu zu erstellen.",
+            alt: "Diagramme circulaire montrant le cycle saisonnier du référencement de la mode avec les phases printemps/été, automne/hiver, ventes et recherche de tendances",
+            caption: "Le référencement de la mode suit des cycles saisonniers prévisibles. Publiez les pages de collection plus de 8 semaines avant chaque saison pour laisser à Google le temps de les explorer et de les indexer.",
           },
           callout: {
             title: "Saisonale URL-Strategie",
-            text: "Loeschen Sie saisonale Kollektionsseiten nie. Verwenden Sie immergruene URLs wie /kollektionen/sommermode/ und aktualisieren Sie den Content jedes Jahr. Geloeschte Seiten verlieren angesammelte SEO-Autoritaet.",
+            text: "Une page sur /collections/summer-dresses avec 3 ans de backlinks accumulés et un historique de classement surpasse à chaque fois une page nouvellement créée. Échangez les produits et les images chaque saison mais conservez l'URLtoritaet.",
           },
         },
         {
@@ -190,11 +189,11 @@ items: [
           image: {
             src: "/images/academy/fr/fashion-variant-url-decision.svg",
             alt: "Mode Varianten-URL-Entscheidungsbaum: Wann eine URL mit Varianten vs. separate URLs verwenden",
-            caption: "Farb- und Groessenvarianten gehoeren auf eine URL. Nur stilistisch unterschiedliche Produkte mit eigener Suchnachfrage brauchen separate URLs.",
+            caption: "Les variantes de couleurs avec volume de recherche méritent leur propre URL et leur propre photographie. Les variantes de taille doivent toujours utiliser une liste déroulante avec des balises canoniques vers l'URL de base.",
           },
           callout: {
             title: "Varianten-Entscheidung",
-            text: "Erstellen Sie separate URLs nur, wenn eine Variante eigenstaendige Suchnachfrage hat. 'Rotes Kleid' vs. 'blaues Kleid' als Farbvariante auf einer Seite, aber 'Sommerkleid' vs. 'Abendkleid' als separate Seiten.",
+            text: "Les acheteurs recherchent « blazer bleu marine » mais jamais « t-shirt noir moyen ». Attribuez aux variantes de couleurs avec demande de recherche leur propre URL, un titre unique et des photos distinctes. Conserver la taille comme sélecteur sur la page pour ave Seiten.",
           },
         },
         {
@@ -209,13 +208,13 @@ items: [
           ],
         },
         {
-          title: "Strategie de contenu lookbook et editorial",
+          title: "Stratégie de contenu lookbook et éditorial",
           content:
             "Les lookbooks font le pont entre l'inspiration et l'achat. Une page lookbook bien structuree cible les requetes haut de funnel comme \"idees tenues printemps 2026\" tout en liant directement aux produits achetables. Cela cree un entonnoir de contenu qui capture les visiteurs et les convertit en acheteurs.\n\nStructurez les lookbooks comme des pages editoriales shoppables. Chaque tenue ou look devrait inclure des liens produit, de breves notes de style et un contexte d'occasion. Utilisez des liens internes des articles lookbook vers leurs pages produit et categorie respectives.\n\nPubliez des guides de style ciblant des occasions et saisons specifiques : \"Tenues d'invitee de mariage pour l'ete,\" \"Business casual par temps chaud,\" \"Essentiels mode festival.\" Ces guides ciblent des requetes longue traine avec une intention commerciale claire.\n\nLa consistance compte. Publiez du nouveau contenu lookbook ou editorial selon un calendrier previsible, hebdomadaire ou bimensuel. Un rythme de publication regulier signale la fraicheur a Google et donne aux visiteurs recurrents une raison de revenir.",
           tip: "Ajoutez une section \"Acheter le Look\" a chaque entree de lookbook avec des liens produit directs. Suivez les taux de clics des pages lookbook vers les pages produit dans Google Analytics pour mesurer quels styles editoriaux generent le plus de revenus.",
         },
         {
-          title: "Architecture des pages categories pour la mode",
+          title: "Architecture des pages catégories pour la mode",
           content:
             "Les boutiques de mode proposent generalement des milliers de references dans des categories qui se chevauchent. Une structure de categories claire et hierarchique aide tant les moteurs de recherche que les acheteurs a naviguer dans votre catalogue. Commencez par de larges categories genre ou departement (Femme, Homme, Enfant), puis des sous-categories par type de vetement (Robes, Hauts, Jeans), et eventuellement un troisieme niveau pour des styles specifiques.\n\nChaque [page categorie](/academy/category-page-seo) necessite un texte unique et substantiel, pas seulement une grille de produits. Redigez 150 a 300 mots de contenu specifique a la categorie qui decrit la collection et integre naturellement les mots-cles cibles.\n\nLa navigation par fil d'Ariane est essentielle pour les boutiques de mode avec des arborescences de categories profondes. Implementez les fils d'Ariane en utilisant le schema BreadcrumbList pour que Google comprenne la hierarchie de votre site.\n\nCreez des pages d'atterrissage inter-categories pour les occasions et les tendances. Des pages comme /invitee-mariage ou /tenue-bureau rassemblent des produits de plusieurs categories et ciblent des requetes a forte intention qui ne rentrent pas dans votre taxonomie standard.",
         },
@@ -233,28 +232,27 @@ items: [
     es: {
       badge: "Guias sectoriales",
       heading: "Playbook SEO para Moda y Ropa",
-      intro:
-        "El ecommerce de moda opera con ciclos estacionales ajustados, un fuerte descubrimiento visual y una enorme cantidad de variantes de producto. Posicionarse bien requiere una estrategia de busqueda construida en torno a estas realidades en lugar de consejos SEO genericos. Este playbook cubre las tecnicas especificas que generan trafico organico para tiendas de ropa, calzado y accesorios. Para una vision mas amplia, consulta nuestra guia de [SEO para ecommerce de moda](/blog/fashion-ecommerce-seo).",
+      intro: "El ecommerce de moda opera con ciclos estacionales ajustados, un fuerte descubrimiento visual y una enorme cantidad de variantes de producto. Posicionarse bien requiere una estrategia de busqueda construida en torno a estas realidades en lugar de consejos SEO genericos. Este playbook cubre las técnicas especificas que generan tráfico organico para tiendas de ropa, calzado y accesorios. Para una vision mas amplia, consulta nuestra guia de [SEO para ecommerce de moda](/blog/fashion-ecommerce-seo).",
       readTime: "12 min de lectura",
       sections: [
         {
-          title: "Paginas de colecciones estacionales y palabras clave de tendencia",
+          title: "Páginas de colecciones estacionales y palabras clave de tendencia",
           content:
-            "El retail de moda gira en torno a temporadas, lanzamientos y ciclos de tendencias. Tu calendario SEO deberia reflejar tu calendario de compras. Crea paginas de aterrizaje dedicadas para cada coleccion estacional, Primavera/Verano 2026, Otono/Invierno 2026, al menos ocho semanas antes de que comience la temporada. Estas paginas dan a Google tiempo para rastrearlas e indexarlas antes del pico de demanda.\n\nLas palabras clave de tendencia cambian rapidamente. Terminos como \"vaqueros barrel leg\" o \"quiet luxury\" pueden dispararse de cero a decenas de miles de busquedas mensuales en semanas. Monitoriza Google Trends, Pinterest Trends y plataformas sociales semanalmente para captar terminos de busqueda emergentes.\n\nEvita eliminar paginas estacionales despues de que termine una temporada. En su lugar, actualiza el contenido y la cuadricula de productos para el siguiente ciclo. Una pagina en /collections/vestidos-verano que ha acumulado backlinks e historial de posicionamiento durante tres anos superara a una pagina nueva cada vez.\n\nUsa marcado schema para disponibilidad de producto y ofertas estacionales. Google puede mostrar precios de oferta, estado de stock e insignias promocionales directamente en los resultados de busqueda.",
+            "El retail de moda gira en torno a temporadas, lanzamientos y ciclos de tendencias. Tu calendario SEO deberia reflejar tu calendario de compras. Crea paginas de aterrizaje dedicadas para cada coleccion estacional, Primavera/Verano 2026, Otono/Invierno 2026, al menos ocho semanas antes de que comience la temporada. Estas paginas dan a Google tiempo para rastrearlas e indexarlas antes del pico de demanda.\n\nLas palabras clave de tendencia cambian rapidamente. Terminos como \"vaqueros barrel leg\" o \"quiet luxury\" pueden dispararse de cero a decenas de miles de busquedas mensuales en semanas. Monitoriza Google Trends, Pinterest Trends y plataformas sociales semanalmente para captar terminos de busqueda emergentes.\n\nEvita eliminar paginas estacionales despues de que termine una temporada. En su lugar, actualiza el contenido y la cuadricula de productos para el siguiente ciclo. Una pagina en /collections/vestidos-verano que ha acumulado backlinks e historial de posicionamiento durante tres años superara a una pagina nueva cada vez.\n\nUsa marcado schema para disponibilidad de producto y ofertas estacionales. Google puede mostrar precios de oferta, estado de stock e insignias promocionales directamente en los resultados de busqueda.",
           items: [
             "Publicar paginas de colecciones estacionales 8+ semanas antes del pico de demanda",
             "Rastrear palabras clave de tendencia semanalmente usando Google Trends y Pinterest Trends",
-            "Mantener y actualizar URLs estacionales ano tras ano en lugar de crear nuevas",
+            "Mantener y actualizar URLs estacionales año tras año en lugar de crear nuevas",
             "Aplicar schema de producto con precios de oferta y disponibilidad durante periodos promocionales",
           ],
           image: {
             src: "/images/academy/es/fashion-seasonal-seo-cycle.svg",
-            alt: "Mode saisonaler SEO-Zyklus mit Content-Planung, Optimierung, Pflege und Archivierung ueber vier Saisons",
-            caption: "Verwenden Sie immergruene URLs und aktualisieren Sie den Content saisonal, anstatt Seiten zu loeschen und neu zu erstellen.",
+            alt: "Diagrama circular que muestra el ciclo estacional de SEO de moda con las fases Primavera/Verano, Otoño/Invierno, Ventas y Exploración de tendencias.",
+            caption: "El SEO de moda sigue ciclos estacionales predecibles. Publique páginas de colección más de 8 semanas antes de cada temporada para que Google tenga tiempo de rastrearlas e indexarlas.",
           },
           callout: {
             title: "Saisonale URL-Strategie",
-            text: "Loeschen Sie saisonale Kollektionsseiten nie. Verwenden Sie immergruene URLs wie /kollektionen/sommermode/ und aktualisieren Sie den Content jedes Jahr. Geloeschte Seiten verlieren angesammelte SEO-Autoritaet.",
+            text: "Una página en /collections/summer-dresses con 3 años de vínculos de retroceso acumulados e historial de clasificación supera siempre a una página recién creada. Intercambia los productos y las imágenes cada temporada pero conserva la URL.toritaet.",
           },
         },
         {
@@ -265,15 +263,15 @@ items: [
           image: {
             src: "/images/academy/es/fashion-variant-url-decision.svg",
             alt: "Mode Varianten-URL-Entscheidungsbaum: Wann eine URL mit Varianten vs. separate URLs verwenden",
-            caption: "Farb- und Groessenvarianten gehoeren auf eine URL. Nur stilistisch unterschiedliche Produkte mit eigener Suchnachfrage brauchen separate URLs.",
+            caption: "Las variantes de color con volumen de búsqueda merecen su propia URL y fotografía. Las variantes de tamaño siempre deben usar un menú desplegable con etiquetas canónicas en la URL base.",
           },
           callout: {
             title: "Varianten-Entscheidung",
-            text: "Erstellen Sie separate URLs nur, wenn eine Variante eigenstaendige Suchnachfrage hat. 'Rotes Kleid' vs. 'blaues Kleid' als Farbvariante auf einer Seite, aber 'Sommerkleid' vs. 'Abendkleid' als separate Seiten.",
+            text: "Los compradores buscan \"chaqueta azul marino\" pero nunca \"camiseta negra mediana\". Ofrezca variantes de color con la búsqueda solicitando su propia URL, título único y fotografías distintas. Mantener el tamaño como selector en la página para ave Seiten.",
           },
         },
         {
-          title: "Busqueda visual y optimizacion de imagenes",
+          title: "Busqueda visual y optimización de imagenes",
           content:
             "La moda es uno de los verticales de ecommerce mas visuales. Las busquedas de Google Lens, Google Imagenes y Pinterest Visual Search generan trafico sustancial hacia tiendas de ropa. Cada imagen de producto deberia estar [optimizada para el descubrimiento visual](/academy/image-optimization-for-products).\n\nLos nombres de archivo importan. Renombra las imagenes de DSC_4820.jpg a blazer-azul-marino-slim-fit-frente.jpg antes de subirlas. Usa texto alternativo descriptivo y rico en palabras clave que describa la prenda. Evita saturar el texto alternativo con palabras clave irrelevantes.\n\nProporciona multiples imagenes de alta calidad por producto: frente, espalda, lateral, tomas de detalle e imagenes lifestyle mostrando la prenda usada por un modelo. Google presenta cada vez mas imagenes lifestyle en los resultados de busqueda.\n\nImplementa datos estructurados de imagenes de producto usando schema.org ImageObject dentro de tu marcado Product. Las tiendas que proporcionan marcado de imagen completo ven mayor visibilidad en la busqueda de imagenes.",
           items: [
@@ -290,14 +288,14 @@ items: [
           tip: "Anade una seccion \"Compra el Look\" a cada entrada de lookbook con enlaces directos a productos. Rastrea las tasas de clics desde paginas de lookbook hacia paginas de producto en Google Analytics para medir que estilos editoriales generan mas ingresos.",
         },
         {
-          title: "Arquitectura de paginas de categoria para moda",
+          title: "Arquitectura de páginas de categoría para moda",
           content:
             "Las tiendas de moda suelen tener miles de SKUs en categorias que se solapan. Una estructura de categorias clara y jerarquica ayuda tanto a los motores de busqueda como a los compradores a navegar tu catalogo. Comienza con categorias amplias de genero o departamento (Mujer, Hombre, Ninos), luego subcategorias por tipo de prenda (Vestidos, Tops, Vaqueros), y opcionalmente un tercer nivel para estilos especificos.\n\nCada [pagina de categoria](/academy/category-page-seo) necesita texto unico y sustancial, no solo una cuadricula de productos. Escribe 150-300 palabras de contenido especifico de la categoria que describa la coleccion e incluya naturalmente las palabras clave objetivo.\n\nLa navegacion por migas de pan es esencial para tiendas de moda con arboles de categorias profundos. Implementa migas de pan usando el schema BreadcrumbList para que Google entienda la jerarquia de tu sitio.\n\nCrea paginas de aterrizaje inter-categorias para ocasiones y tendencias. Paginas como /invitada-boda o /ropa-trabajo recopilan productos de multiples categorias y apuntan a consultas de alta intencion que no encajan en tu taxonomia estandar.",
         },
         {
           title: "Construir backlinks en el sector de la moda",
           content:
-            "El link building en moda se apoya en relaciones, activos visuales y contenido oportuno. A diferencia de nichos B2B tecnicos donde los estudios de datos ganan enlaces, la moda gana enlaces a traves de features editoriales, colaboraciones con influencers y comentarios de tendencias.\n\nDesarrolla una estrategia de PR digital centrada en tendencias estacionales. Antes de cada temporada de moda, prepara un kit de prensa con imagenes de campana de alta resolucion, comentarios de tendencias de tu equipo de diseno y datos exclusivos.\n\nColabora con influencers de moda que mantengan blogs junto a sus canales sociales. Mientras los enlaces de Instagram no tienen valor SEO, una publicacion de blog resenando tu coleccion con un enlace dofollow a tu tienda si lo tiene.\n\nCrea activos enlazables especificos de moda: herramientas de guia de tallas, infografias de cuidado de tejidos, informes de prediccion de tendencias y calculadoras de medidas corporales. Una guia de tallas completa y bien disenada gana enlaces de foros de moda, hilos de Reddit y recopilaciones editoriales ano tras ano.",
+            "El link building en moda se apoya en relaciones, activos visuales y contenido oportuno. A diferencia de nichos B2B tecnicos donde los estudios de datos ganan enlaces, la moda gana enlaces a traves de features editoriales, colaboraciones con influencers y comentarios de tendencias.\n\nDesarrolla una estrategia de PR digital centrada en tendencias estacionales. Antes de cada temporada de moda, prepara un kit de prensa con imagenes de campana de alta resolucion, comentarios de tendencias de tu equipo de diseno y datos exclusivos.\n\nColabora con influencers de moda que mantengan blogs junto a sus canales sociales. Mientras los enlaces de Instagram no tienen valor SEO, una publicacion de blog resenando tu coleccion con un enlace dofollow a tu tienda si lo tiene.\n\nCrea activos enlazables especificos de moda: herramientas de guia de tallas, infografias de cuidado de tejidos, informes de prediccion de tendencias y calculadoras de medidas corporales. Una guia de tallas completa y bien disenada gana enlaces de foros de moda, hilos de Reddit y recopilaciones editoriales año tras año.",
         },
       ],
       navLabels: {
@@ -324,12 +322,12 @@ items: [
           ],
           image: {
             src: "/images/academy/it/fashion-seasonal-seo-cycle.svg",
-            alt: "Mode saisonaler SEO-Zyklus mit Content-Planung, Optimierung, Pflege und Archivierung ueber vier Saisons",
-            caption: "Verwenden Sie immergruene URLs und aktualisieren Sie den Content saisonal, anstatt Seiten zu loeschen und neu zu erstellen.",
+            alt: "Diagramma circolare che mostra il ciclo stagionale SEO della moda con le fasi Primavera/Estate, Autunno/Inverno, Vendite e Trend Scouting",
+            caption: "La SEO della moda segue cicli stagionali prevedibili. Pubblica le pagine delle raccolte almeno 8 settimane prima di ogni stagione per dare a Google il tempo di scansionarle e indicizzarle.",
           },
           callout: {
             title: "Saisonale URL-Strategie",
-            text: "Loeschen Sie saisonale Kollektionsseiten nie. Verwenden Sie immergruene URLs wie /kollektionen/sommermode/ und aktualisieren Sie den Content jedes Jahr. Geloeschte Seiten verlieren angesammelte SEO-Autoritaet.",
+            text: "Una pagina su /collections/summer-dresses con 3 anni di backlink accumulati e cronologia delle classifiche supera ogni volta una pagina appena creata. Scambia i prodotti e le immagini ogni stagione, ma mantieni l'URLtoritaet.",
           },
         },
         {
@@ -340,11 +338,11 @@ items: [
           image: {
             src: "/images/academy/it/fashion-variant-url-decision.svg",
             alt: "Mode Varianten-URL-Entscheidungsbaum: Wann eine URL mit Varianten vs. separate URLs verwenden",
-            caption: "Farb- und Groessenvarianten gehoeren auf eine URL. Nur stilistisch unterschiedliche Produkte mit eigener Suchnachfrage brauchen separate URLs.",
+            caption: "Le varianti di colore con volume di ricerca meritano il proprio URL e la propria fotografia. Le varianti di dimensione dovrebbero sempre utilizzare un menu a discesa con tag canonici per l'URL di base.",
           },
           callout: {
             title: "Varianten-Entscheidung",
-            text: "Erstellen Sie separate URLs nur, wenn eine Variante eigenstaendige Suchnachfrage hat. 'Rotes Kleid' vs. 'blaues Kleid' als Farbvariante auf einer Seite, aber 'Sommerkleid' vs. 'Abendkleid' als separate Seiten.",
+            text: "Gli acquirenti cercano \"blazer blu navy\" ma mai \"t-shirt nera media\". Assegna alle varianti di colore con la richiesta di ricerca il proprio URL, un titolo univoco e foto distinte. Mantieni le dimensioni come selettore sulla pagina su ave Seiten.",
           },
         },
         {
@@ -399,12 +397,12 @@ items: [
           ],
           image: {
             src: "/images/academy/nl/fashion-seasonal-seo-cycle.svg",
-            alt: "Mode saisonaler SEO-Zyklus mit Content-Planung, Optimierung, Pflege und Archivierung ueber vier Saisons",
-            caption: "Verwenden Sie immergruene URLs und aktualisieren Sie den Content saisonal, anstatt Seiten zu loeschen und neu zu erstellen.",
+            alt: "Circulair diagram dat de mode-SEO-seizoenscyclus toont met de fasen Lente/Zomer, Herfst/Winter, Verkoop en Trendscouting",
+            caption: "Fashion SEO volgt voorspelbare seizoenscycli. Publiceer collectiepagina's minimaal acht weken vóór elk seizoen, zodat Google de tijd heeft om ze te crawlen en te indexeren.",
           },
           callout: {
             title: "Saisonale URL-Strategie",
-            text: "Loeschen Sie saisonale Kollektionsseiten nie. Verwenden Sie immergruene URLs wie /kollektionen/sommermode/ und aktualisieren Sie den Content jedes Jahr. Geloeschte Seiten verlieren angesammelte SEO-Autoritaet.",
+            text: "Een pagina op /collecties/zomerjurken met 3 jaar verzamelde backlinks en rankinggeschiedenis presteert elke keer beter dan een nieuw aangemaakte pagina. Wissel de producten en afbeeldingen elk seizoen uit, maar behoud de URLtoritaet.",
           },
         },
         {
@@ -415,11 +413,11 @@ items: [
           image: {
             src: "/images/academy/nl/fashion-variant-url-decision.svg",
             alt: "Mode Varianten-URL-Entscheidungsbaum: Wann eine URL mit Varianten vs. separate URLs verwenden",
-            caption: "Farb- und Groessenvarianten gehoeren auf eine URL. Nur stilistisch unterschiedliche Produkte mit eigener Suchnachfrage brauchen separate URLs.",
+            caption: "Kleurvarianten met zoekvolume verdienen een eigen URL en fotografie. Groottevarianten moeten altijd een vervolgkeuzelijst met canonieke tags voor de basis-URL gebruiken.",
           },
           callout: {
             title: "Varianten-Entscheidung",
-            text: "Erstellen Sie separate URLs nur, wenn eine Variante eigenstaendige Suchnachfrage hat. 'Rotes Kleid' vs. 'blaues Kleid' als Farbvariante auf einer Seite, aber 'Sommerkleid' vs. 'Abendkleid' als separate Seiten.",
+            text: "Shoppers zoeken naar 'marineblauwe blazer', maar nooit naar 'medium zwart t-shirt'. Geef kleurvarianten met zoekvraag een eigen URL, unieke titel en aparte foto's. Houd de grootte als een selector op de pagina om ave Seiten.",
           },
         },
         {

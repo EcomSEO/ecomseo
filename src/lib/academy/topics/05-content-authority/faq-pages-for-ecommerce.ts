@@ -168,8 +168,7 @@ export const faqPagesForEcommerce: AcademyTopic = {
     fr: {
       badge: "Contenu & Autorite",
       heading: "Pages FAQ pour le e-commerce",
-      intro:
-        "Les pages FAQ sont l'un des atouts SEO les plus sous-utilises en e-commerce. Bien realisees, elles captent du trafic de recherche longue traine, reduisent les tickets de support et gagnent des featured snippets qui placent votre boutique en position zero. Nous expliquons comment structurer le contenu FAQ pour qu'il se positionne, convertisse et se deploie sur l'ensemble de votre catalogue.",
+      intro: "Les pages FAQ sont l'un des atouts SEO les plus sous-utilises en e-commerce. Bien realisees, elles captent du trafic de recherche longue traine, reduisent les tickets de support et gagnent des featured snippets qui placent votre boutique en position zero. Nous expliquons comment structurer le contenu FAQ pour qu'il se positionne, convertisse et se deploie sur l'ensemble de votre catalogue.",
       readTime: "8 min de lecture",
       sections: [
         {
@@ -200,12 +199,12 @@ export const faqPagesForEcommerce: AcademyTopic = {
           ],
           image: {
             src: "/images/academy/fr/faq-structure-strategy.svg",
-            alt: "FAQ-Architekturdiagramm das kategoriespezifische FAQ-Seiten nach Thema aufgeteilt zeigt die in produktspezifische FAQs einfliessen",
-            caption: "FAQs in kategoriespezifische Seiten aufteilen (Lieferung, Materialien, Retouren) statt einer riesigen Liste. 3-5 produktspezifische FAQs auf einzelnen Produktseiten hinzufuegen.",
+            alt: "Diagramme d'architecture de FAQ montrant les pages de FAQ au niveau de la catégorie, divisées par sujet, alimentant les FAQ au niveau du produit",
+            caption: "Divisez les FAQ en pages spécifiques à des catégories (livraison, matériaux, retours) plutôt qu'en une liste géante. Ajoutez 3 à 5 FAQ au niveau du produit sur les pages de produits individuelles.",
           },
           callout: {
             title: "Snippet-Sweet-Spot",
-            text: "FAQ-Antworten zwischen 80-150 Woertern treffen den Sweet Spot fuer Featured Snippets. Kuerzere Antworten fehlt die Tiefe, laengere werden abgeschnitten. FAQPage JSON-LD auf jeder FAQ-Seite implementieren um automatisch fuer Rich Results zu qualifizieren.",
+            text: "Les réponses aux FAQ entre 80 et 150 mots constituent le point idéal pour les extraits en vedette. Les réponses plus courtes manquent de profondeur, les plus longues sont tronquées. Implémentez FAQPage JSON-LD sur chaque page FAQ pour bénéficier de résultats enrichisren um automatisch fuer Rich Results zu qualifizieren.",
           },
         },
         {
@@ -215,17 +214,17 @@ export const faqPagesForEcommerce: AcademyTopic = {
           tip: "Meme si Google n'affiche pas les resultats enrichis FAQ pour votre domaine, conservez le balisage schema. Les donnees structurees aident Google a analyser votre contenu avec precision, et les criteres d'eligibilite peuvent changer. Les boutiques qui ont deja le balisage en beneficient immediatement quand Google elargit l'acces.",
         },
         {
-          title: "FAQ au niveau categorie et produit",
+          title: "FAQ au niveau catégorie et produit",
           content:
             "Au-dela des pages FAQ autonomes, integrez des questions pertinentes directement sur les pages categories et produits. Une [page categorie](/academy/category-page-seo) pour \"casques sans fil\" peut inclure trois a cinq questions frequemment posees en bas : attentes d'autonomie de batterie, differences de versions Bluetooth, types de reduction de bruit. Ces FAQ integrees ciblent des requetes longue traine que la page categorie seule ne peut pas capter.\n\nLes FAQ au niveau produit traitent d'articles specifiques. Les questions sur la compatibilite, les dimensions, la couverture de garantie et les instructions d'utilisation appartiennent aux pages produits individuelles. Sourcez-les a partir des avis produits et des questions clients sur votre propre site et sur des places de marche comme Amazon ou les memes produits sont discutes.\n\nL'essentiel est d'eviter la duplication. Si une question s'applique largement a une categorie, repondez-y sur la page FAQ categorie et liez depuis les pages produits individuelles. Si une question est specifique a un produit, placez-la uniquement sur cette page produit. Cela empeche Google de voir du contenu duplique sur votre site et garantit que chaque page cible des requetes uniques.\n\nPour Shopify, WooCommerce ou plateformes similaires, utilisez un composant FAQ reutilisable qui extrait les questions d'un metafield ou champ personnalise. Cela permet a votre equipe contenu d'ajouter et mettre a jour les FAQ sans toucher au code, et ca se deploie proprement sur des centaines de pages produits.",
           image: {
             src: "/images/academy/fr/faq-schema-rich-results.svg",
-            alt: "Diagramm das FAQPage JSON-LD-Schema zeigt das als aufklappbare Frage-Antwort-Dropdowns in Google-Suchergebnissen dargestellt wird",
-            caption: "FAQPage-Schema verpackt Frage- und Antwort-Entitaeten in JSON-LD. Wenn berechtigt rendert Google aufklappbare F&A-Dropdowns die Wettbewerber in der SERP nach unten verdraengen.",
+            alt: "Diagramme montrant le rendu du schéma FAQPage JSON-LD sous forme de listes déroulantes questions-réponses étendues dans les résultats de recherche Google",
+            caption: "Le schéma FAQPage encapsule les entités Question et Réponse dans JSON-LD. Lorsqu'il est éligible, Google affiche des listes déroulantes de questions et réponses extensibles qui poussent les concurrents vers le bas du SERP.",
           },
           callout: {
-            title: "Schema behalten",
-            text: "Auch ohne sichtbare Rich Results hilft FAQ-Schema Google Ihre Inhaltsstruktur zu verstehen und beguenstigt Rankings. Berechtigungskriterien aendern sich im Laufe der Zeit und Shops mit bereits vorhandenem Markup profitieren sofort wenn der Zugang erweitert wird.",
+            title: "Conservez le schema",
+            text: "Même sans résultats riches visibles, le schéma FAQ aide Google à comprendre la structure de votre contenu et le classement de vos avantages. Les critères d'éligibilité changent avec le temps et les magasins avec une majoration déjà en place en bénéficient.enem Markup profitieren sofort wenn der Zugang erweitert wird.",
           },
         },
         {
@@ -247,13 +246,12 @@ export const faqPagesForEcommerce: AcademyTopic = {
     },
     es: {
       badge: "Contenido y Autoridad",
-      heading: "Paginas FAQ para ecommerce",
-      intro:
-        "Las paginas FAQ son uno de los activos SEO mas infrautilizados en ecommerce. Bien ejecutadas, capturan trafico de busqueda long-tail, reducen tickets de soporte y ganan featured snippets que colocan tu tienda en posicion cero. Explicamos como estructurar contenido FAQ para que posicione, convierta y escale en todo tu catalogo.",
+      heading: "Páginas FAQ para ecommerce",
+      intro: "Las páginas FAQ son uno de los activos SEO mas infrautilizados en ecommerce. Bien ejecutadas, capturan tráfico de busqueda long-tail, reducen tickets de soporte y ganan featured snippets que colocan tu tienda en posicion cero. Explicamos como estructurar contenido FAQ para que posicione, convierta y escale en todo tu catálogo.",
       readTime: "8 min de lectura",
       sections: [
         {
-          title: "Por que las paginas FAQ son una oportunidad SEO",
+          title: "Por qué las páginas FAQ son una oportunidad SEO",
           content:
             "La mayoria de tiendas online tratan las paginas FAQ como algo secundario, un deposito de preguntas genericas escondido en el footer. Eso es una oportunidad perdida. Google procesa miles de millones de consultas basadas en preguntas cada dia, y el contenido FAQ estructurado con marcado adecuado puede ganar featured snippets, cajas de People Also Ask y resultados de busqueda por voz.\n\nEl potencial de trafico es sustancial. Consultas de preguntas como \"puedo lavar zapatos de ante en la lavadora\" o \"que tamano de generador necesito para una caravana\" representan busquedas de alta intencion de personas que investigan activamente antes de una compra. Una tienda que responde bien estas preguntas gana el clic y establece confianza antes de que el comprador vea una pagina de producto.\n\nLas paginas FAQ tambien sirven un doble proposito interno. Cada pregunta respondida en tu sitio es un ticket de soporte que nunca se presenta. Las tiendas con las que hemos trabajado reportan reducciones del 15-30% en consultas repetitivas de servicio al cliente despues de lanzar secciones FAQ completas vinculadas a sus categorias de productos. Aprende mas en nuestra guia de [SEO de paginas de categoria](/blog/ecommerce-category-page-seo).",
           items: [
@@ -280,36 +278,36 @@ export const faqPagesForEcommerce: AcademyTopic = {
           ],
           image: {
             src: "/images/academy/es/faq-structure-strategy.svg",
-            alt: "FAQ-Architekturdiagramm das kategoriespezifische FAQ-Seiten nach Thema aufgeteilt zeigt die in produktspezifische FAQs einfliessen",
-            caption: "FAQs in kategoriespezifische Seiten aufteilen (Lieferung, Materialien, Retouren) statt einer riesigen Liste. 3-5 produktspezifische FAQs auf einzelnen Produktseiten hinzufuegen.",
+            alt: "Diagrama de arquitectura de preguntas frecuentes que muestra las páginas de preguntas frecuentes a nivel de categoría divididas por tema en las preguntas frecuentes a nivel de producto",
+            caption: "Divida las preguntas frecuentes en páginas de categorías específicas (entrega, materiales, devoluciones) en lugar de una lista gigante. Agregue de 3 a 5 preguntas frecuentes a nivel de producto en páginas de productos individuales.",
           },
           callout: {
             title: "Snippet-Sweet-Spot",
-            text: "FAQ-Antworten zwischen 80-150 Woertern treffen den Sweet Spot fuer Featured Snippets. Kuerzere Antworten fehlt die Tiefe, laengere werden abgeschnitten. FAQPage JSON-LD auf jeder FAQ-Seite implementieren um automatisch fuer Rich Results zu qualifizieren.",
+            text: "Las respuestas a preguntas frecuentes de entre 80 y 150 palabras son ideales para los fragmentos destacados. Las respuestas más breves carecen de profundidad y las más largas quedan truncadas. Implemente la página de preguntas frecuentes JSON-LD en cada página de preguntas frecuentes para calificar para obtener resultados enriquecidosren um automatisch fuer Rich Results zu qualifizieren.",
           },
         },
         {
           title: "Marcado de esquema FAQ y resultados enriquecidos",
           content:
-            "El marcado de esquema FAQ es uno de los pocos tipos de datos estructurados que expande directamente el espacio de tu resultado de busqueda. Cuando Google renderiza resultados enriquecidos FAQ, tu listado puede mostrar dos o mas desplegables de pregunta-respuesta directamente en la SERP. Esto empuja a los competidores mas abajo y aumenta dramaticamente tu tasa de clics.\n\nLa implementacion es sencilla. Cada pagina FAQ necesita un wrapper de esquema FAQPage que contenga entidades Question individuales. Cada Question incluye un acceptedAnswer con el texto de tu respuesta. Coloca el JSON-LD en una etiqueta script en el head o body de la pagina, ambos funcionan, pero la colocacion en el head es convencional.\n\nValida tu marcado usando la prueba de resultados enriquecidos de Google antes del despliegue. Los errores comunes incluyen texto de pregunta no coincidente entre la pagina visible y el esquema, campos requeridos faltantes y objetos incorrectamente anidados. Despues del despliegue, monitorea la apariencia FAQ en Google Search Console bajo la seccion Mejoras.\n\nUn aviso relevante: Google ha endurecido la elegibilidad de resultados enriquecidos FAQ en los ultimos dos anos. Desde las actualizaciones recientes, los resultados enriquecidos FAQ aparecen principalmente para sitios web reconocidos y autoritativos. Las tiendas mas pequenas pueden no ver la visualizacion SERP expandida, pero el esquema sigue ayudando a Google a entender la estructura de tu contenido, lo que beneficia al posicionamiento incluso sin la mejora visual.",
+            "El marcado de esquema FAQ es uno de los pocos tipos de datos estructurados que expande directamente el espacio de tu resultado de busqueda. Cuando Google renderiza resultados enriquecidos FAQ, tu listado puede mostrar dos o mas desplegables de pregunta-respuesta directamente en la SERP. Esto empuja a los competidores mas abajo y aumenta dramaticamente tu tasa de clics.\n\nLa implementacion es sencilla. Cada pagina FAQ necesita un wrapper de esquema FAQPage que contenga entidades Question individuales. Cada Question incluye un acceptedAnswer con el texto de tu respuesta. Coloca el JSON-LD en una etiqueta script en el head o body de la pagina, ambos funcionan, pero la colocacion en el head es convencional.\n\nValida tu marcado usando la prueba de resultados enriquecidos de Google antes del despliegue. Los errores comunes incluyen texto de pregunta no coincidente entre la pagina visible y el esquema, campos requeridos faltantes y objetos incorrectamente anidados. Despues del despliegue, monitorea la apariencia FAQ en Google Search Console bajo la seccion Mejoras.\n\nUn aviso relevante: Google ha endurecido la elegibilidad de resultados enriquecidos FAQ en los ultimos dos años. Desde las actualizaciones recientes, los resultados enriquecidos FAQ aparecen principalmente para sitios web reconocidos y autoritativos. Las tiendas mas pequenas pueden no ver la visualizacion SERP expandida, pero el esquema sigue ayudando a Google a entender la estructura de tu contenido, lo que beneficia al posicionamiento incluso sin la mejora visual.",
           tip: "Aunque Google no muestre resultados enriquecidos FAQ para tu dominio, mantiene el marcado de esquema. Los datos estructurados ayudan a Google a analizar tu contenido con precision, y los criterios de elegibilidad pueden cambiar. Las tiendas que ya tienen el marcado se benefician inmediatamente cuando Google amplia el acceso.",
         },
         {
-          title: "FAQs a nivel de categoria y producto",
+          title: "FAQs a nivel de categoría y producto",
           content:
             "Mas alla de las paginas FAQ independientes, integra preguntas relevantes directamente en las paginas de categoria y producto. Una [pagina de categoria](/academy/category-page-seo) para \"auriculares inalambricos\" puede incluir tres a cinco preguntas frecuentes en la parte inferior: expectativas de duracion de bateria, diferencias de versiones Bluetooth, tipos de cancelacion de ruido. Estas FAQs integradas apuntan a consultas long-tail que la pagina de categoria sola no puede posicionar.\n\nLas FAQs a nivel de producto abordan articulos especificos. Las preguntas sobre compatibilidad, dimensiones, cobertura de garantia e instrucciones de uso pertenecen a las paginas de productos individuales. Obtenlas de resenas de productos y preguntas de clientes en tu propio sitio y en marketplaces como Amazon donde se discuten los mismos productos.\n\nLa clave es evitar la duplicacion. Si una pregunta se aplica ampliamente a una categoria, respondela en la pagina FAQ de categoria y enlaza desde las paginas de productos individuales. Si una pregunta es especifica de un producto, colocala solo en esa pagina de producto. Esto evita que Google vea contenido duplicado en tu sitio y asegura que cada pagina apunte a consultas unicas.\n\nPara Shopify, WooCommerce o plataformas similares, usa un componente FAQ reutilizable que extraiga preguntas de un metafield o campo personalizado. Esto permite a tu equipo de contenido anadir y actualizar FAQs sin tocar codigo, y escala limpiamente a traves de cientos de paginas de productos.",
           image: {
             src: "/images/academy/es/faq-schema-rich-results.svg",
-            alt: "Diagramm das FAQPage JSON-LD-Schema zeigt das als aufklappbare Frage-Antwort-Dropdowns in Google-Suchergebnissen dargestellt wird",
-            caption: "FAQPage-Schema verpackt Frage- und Antwort-Entitaeten in JSON-LD. Wenn berechtigt rendert Google aufklappbare F&A-Dropdowns die Wettbewerber in der SERP nach unten verdraengen.",
+            alt: "Diagrama que muestra la representación del esquema JSON-LD de la página de preguntas frecuentes como menús desplegables ampliados de preguntas y respuestas en los resultados de búsqueda de Google.",
+            caption: "El esquema de página de preguntas frecuentes envuelve las entidades de preguntas y respuestas en JSON-LD. Cuando es elegible, Google presenta menús desplegables de preguntas y respuestas ampliables que empujan a los competidores hacia abajo en el SERP.",
           },
           callout: {
-            title: "Schema behalten",
-            text: "Auch ohne sichtbare Rich Results hilft FAQ-Schema Google Ihre Inhaltsstruktur zu verstehen und beguenstigt Rankings. Berechtigungskriterien aendern sich im Laufe der Zeit und Shops mit bereits vorhandenem Markup profitieren sofort wenn der Zugang erweitert wird.",
+            title: "Mantén el schema",
+            text: "Incluso sin resultados enriquecidos visibles, el esquema de preguntas frecuentes ayuda a Google a comprender la estructura de su contenido y la clasificación de beneficios. Los criterios de elegibilidad cambian con el tiempo y las tiendas con márgenes de beneficio ya implementados se beneficianenem Markup profitieren sofort wenn der Zugang erweitert wird.",
           },
         },
         {
-          title: "Medir el rendimiento de las paginas FAQ",
+          title: "Medir el rendimiento de las páginas FAQ",
           content:
             "Rastrea el rendimiento de las paginas FAQ a traves de tres prismas: visibilidad de busqueda, engagement del usuario y deflexion de soporte. En Google Search Console, filtra el rendimiento por URLs de paginas FAQ y monitorea impresiones, clics y posicion media. Busca especificamente consultas en formato pregunta donde tus paginas FAQ aparezcan.\n\nLas metricas de engagement revelan si tus respuestas son utiles. Las altas tasas de rebote en paginas FAQ no son necesariamente malas, si un comprador encuentra su respuesta rapidamente y luego navega a una pagina de producto, eso es una interaccion exitosa. Rastrea el camino de clics desde las paginas FAQ: que porcentaje de visitantes procede a una pagina de producto o categoria dentro de la misma sesion.\n\nLa deflexion de soporte es la metrica de negocio que justifica la inversion continua en contenido FAQ. Compara el volumen mensual de tickets de soporte para temas cubiertos por paginas FAQ con el periodo anterior a la existencia de esas paginas. Desglosa por categoria de pregunta, envios, devoluciones, cuidado del producto, compatibilidad, para identificar que contenido FAQ aporta mas valor.\n\nRefresca el contenido FAQ trimestralmente. Las preguntas cambian a medida que tu catalogo de productos evoluciona, las politicas cambian y surgen nuevas preocupaciones de clientes. Archiva preguntas que ya no reciben trafico de busqueda, y anade nuevas basadas en datos recientes de servicio al cliente y consultas de Search Console.",
           items: [
@@ -360,12 +358,12 @@ export const faqPagesForEcommerce: AcademyTopic = {
           ],
           image: {
             src: "/images/academy/it/faq-structure-strategy.svg",
-            alt: "FAQ-Architekturdiagramm das kategoriespezifische FAQ-Seiten nach Thema aufgeteilt zeigt die in produktspezifische FAQs einfliessen",
-            caption: "FAQs in kategoriespezifische Seiten aufteilen (Lieferung, Materialien, Retouren) statt einer riesigen Liste. 3-5 produktspezifische FAQs auf einzelnen Produktseiten hinzufuegen.",
+            alt: "Diagramma dell'architettura delle FAQ che mostra le pagine delle FAQ a livello di categoria suddivise per argomento che alimentano le FAQ a livello di prodotto",
+            caption: "Suddividi le domande frequenti in pagine specifiche per categoria (consegna, materiali, resi) anziché in un elenco gigante. Aggiungi 3-5 domande frequenti a livello di prodotto sulle pagine dei singoli prodotti.",
           },
           callout: {
             title: "Snippet-Sweet-Spot",
-            text: "FAQ-Antworten zwischen 80-150 Woertern treffen den Sweet Spot fuer Featured Snippets. Kuerzere Antworten fehlt die Tiefe, laengere werden abgeschnitten. FAQPage JSON-LD auf jeder FAQ-Seite implementieren um automatisch fuer Rich Results zu qualifizieren.",
+            text: "Le risposte alle domande frequenti comprese tra 80 e 150 parole colpiscono il punto debole per gli snippet in primo piano. Le risposte più brevi mancano di profondità, quelle più lunghe vengono troncate. Implementa FAQPage JSON-LD su ogni pagina FAQ per qualificarti per i risultati avanzatiren um automatisch fuer Rich Results zu qualifizieren.",
           },
         },
         {
@@ -380,12 +378,12 @@ export const faqPagesForEcommerce: AcademyTopic = {
             "Oltre alle pagine FAQ autonome, incorpora domande pertinenti direttamente nelle pagine categoria e prodotto. Una pagina categoria per \"cuffie wireless\" puo includere tre-cinque domande frequenti in fondo: aspettative di durata della batteria, differenze tra versioni Bluetooth, tipi di cancellazione del rumore. Queste FAQ integrate mirano a query long-tail che la pagina categoria da sola non puo posizionare. Approfondisci con la nostra guida sulla [pagina di categoria](/academy/category-page-seo).\n\nLe FAQ a livello prodotto affrontano articoli specifici. Le domande sulla compatibilita, dimensioni, copertura della garanzia e istruzioni d'uso appartengono alle singole pagine prodotto. Ricavale dalle recensioni prodotto e dalle domande dei clienti sul tuo sito e su marketplace come Amazon dove gli stessi prodotti vengono discussi.\n\nLa chiave e evitare la duplicazione. Se una domanda si applica ampiamente a una categoria, rispondi nella pagina FAQ della categoria e linka dalle pagine prodotto individuali. Se una domanda e specifica per un prodotto, posizionala solo su quella pagina prodotto. Questo impedisce a Google di vedere contenuti duplicati sul tuo sito e assicura che ogni pagina miri a query uniche.\n\nPer Shopify, WooCommerce o piattaforme simili, usa un componente FAQ riutilizzabile che estrae le domande da un metafield o campo personalizzato. Questo consente al tuo team contenuti di aggiungere e aggiornare le FAQ senza toccare il codice, e scala in modo pulito su centinaia di pagine prodotto.",
           image: {
             src: "/images/academy/it/faq-schema-rich-results.svg",
-            alt: "Diagramm das FAQPage JSON-LD-Schema zeigt das als aufklappbare Frage-Antwort-Dropdowns in Google-Suchergebnissen dargestellt wird",
-            caption: "FAQPage-Schema verpackt Frage- und Antwort-Entitaeten in JSON-LD. Wenn berechtigt rendert Google aufklappbare F&A-Dropdowns die Wettbewerber in der SERP nach unten verdraengen.",
+            alt: "Diagramma che mostra il rendering dello schema JSON-LD della pagina FAQ come menu a discesa domande-risposte espansi nei risultati di ricerca di Google",
+            caption: "Lo schema FAQPage racchiude le entità domanda e risposta in JSON-LD. Quando idoneo, Google rende disponibili menu a discesa di domande e risposte espandibili che spingono i concorrenti verso il basso nella SERP.",
           },
           callout: {
-            title: "Schema behalten",
-            text: "Auch ohne sichtbare Rich Results hilft FAQ-Schema Google Ihre Inhaltsstruktur zu verstehen und beguenstigt Rankings. Berechtigungskriterien aendern sich im Laufe der Zeit und Shops mit bereits vorhandenem Markup profitieren sofort wenn der Zugang erweitert wird.",
+            title: "Mantenere lo schema",
+            text: "Anche senza risultati avanzati visibili, lo schema delle FAQ aiuta Google a comprendere la struttura dei contenuti e avvantaggiare il posizionamento. I criteri di idoneità cambiano nel tempo e i negozi con markup già in atto ne beneficianoenem Markup profitieren sofort wenn der Zugang erweitert wird.",
           },
         },
         {
@@ -440,12 +438,12 @@ export const faqPagesForEcommerce: AcademyTopic = {
           ],
           image: {
             src: "/images/academy/nl/faq-structure-strategy.svg",
-            alt: "FAQ-Architekturdiagramm das kategoriespezifische FAQ-Seiten nach Thema aufgeteilt zeigt die in produktspezifische FAQs einfliessen",
-            caption: "FAQs in kategoriespezifische Seiten aufteilen (Lieferung, Materialien, Retouren) statt einer riesigen Liste. 3-5 produktspezifische FAQs auf einzelnen Produktseiten hinzufuegen.",
+            alt: "Architectuurdiagram voor veelgestelde vragen met veelgestelde vragenpagina's op categorieniveau, opgesplitst per onderwerp en ingevoerd in veelgestelde vragen op productniveau",
+            caption: "Verdeel veelgestelde vragen over categoriespecifieke pagina's (levering, materialen, retourzendingen) in plaats van één gigantische lijst. Voeg 3-5 veelgestelde vragen op productniveau toe aan individuele productpagina's.",
           },
           callout: {
             title: "Snippet-Sweet-Spot",
-            text: "FAQ-Antworten zwischen 80-150 Woertern treffen den Sweet Spot fuer Featured Snippets. Kuerzere Antworten fehlt die Tiefe, laengere werden abgeschnitten. FAQPage JSON-LD auf jeder FAQ-Seite implementieren um automatisch fuer Rich Results zu qualifizieren.",
+            text: "Antwoorden op veelgestelde vragen tussen 80 en 150 woorden bereiken de goede plek voor aanbevolen fragmenten. Kortere antwoorden missen diepgang, langere antwoorden worden afgekapt. Implementeer FAQPage JSON-LD op elke FAQ-pagina om in aanmerking te komen voor rijke resultatenren um automatisch fuer Rich Results zu qualifizieren.",
           },
         },
         {
@@ -460,12 +458,12 @@ export const faqPagesForEcommerce: AcademyTopic = {
             "Naast zelfstandige FAQ-pagina's, integreer relevante vragen direct op categorie- en productpagina's. Een [categoriepagina](/academy/category-page-seo) voor \"draadloze koptelefoons\" kan onderaan drie tot vijf veelgestelde vragen bevatten: verwachtingen over batterijduur, Bluetooth-versieverschillen, soorten noise cancellation. Deze ingebedde FAQ's richten zich op long-tail zoekopdrachten die de categoriepagina alleen niet kan vangen.\n\nFAQ's op productniveau behandelen specifieke artikelen. Vragen over compatibiliteit, afmetingen, garantiedekking en gebruiksinstructies horen op individuele productpagina's. Haal deze uit productreviews en klantvragen op je eigen site en op marktplaatsen zoals Amazon waar dezelfde producten besproken worden.\n\nDe sleutel is het vermijden van duplicatie. Als een vraag breed van toepassing is op een categorie, beantwoord hem op de categorie-FAQ-pagina en link vanuit individuele productpagina's. Als een vraag specifiek is voor een product, plaats hem alleen op die productpagina. Dit voorkomt dat Google dubbele content op je site ziet en zorgt ervoor dat elke pagina unieke zoekopdrachten target.\n\nVoor Shopify, WooCommerce of vergelijkbare platformen, gebruik een herbruikbaar FAQ-component dat vragen uit een metafield of aangepast veld haalt. Dit laat je contentteam FAQ's toevoegen en bijwerken zonder code aan te raken, en het schaalt netjes over honderden productpagina's.",
           image: {
             src: "/images/academy/nl/faq-schema-rich-results.svg",
-            alt: "Diagramm das FAQPage JSON-LD-Schema zeigt das als aufklappbare Frage-Antwort-Dropdowns in Google-Suchergebnissen dargestellt wird",
-            caption: "FAQPage-Schema verpackt Frage- und Antwort-Entitaeten in JSON-LD. Wenn berechtigt rendert Google aufklappbare F&A-Dropdowns die Wettbewerber in der SERP nach unten verdraengen.",
+            alt: "Diagram dat de JSON-LD-schemaweergave van FAQPage toont als uitgebreide vervolgkeuzelijsten met vragen en antwoorden in de zoekresultaten van Google",
+            caption: "Het FAQPage-schema verpakt Vraag- en Antwoord-entiteiten in JSON-LD. Wanneer Google in aanmerking komt, geeft Google uitbreidbare vervolgkeuzelijsten voor vragen en antwoorden weer die concurrenten naar beneden in de SERP duwen.",
           },
           callout: {
-            title: "Schema behalten",
-            text: "Auch ohne sichtbare Rich Results hilft FAQ-Schema Google Ihre Inhaltsstruktur zu verstehen und beguenstigt Rankings. Berechtigungskriterien aendern sich im Laufe der Zeit und Shops mit bereits vorhandenem Markup profitieren sofort wenn der Zugang erweitert wird.",
+            title: "Behoud het schema",
+            text: "Zelfs zonder zichtbare rijke resultaten helpt het FAQ-schema Google uw inhoudsstructuur en de rangschikking van uw voordelen te begrijpen. De geschiktheidscriteria veranderen in de loop van de tijd, en winkels met al een toeslag profiteren ervanenem Markup profitieren sofort wenn der Zugang erweitert wird.",
           },
         },
         {

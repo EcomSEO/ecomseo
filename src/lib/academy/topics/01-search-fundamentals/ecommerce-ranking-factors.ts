@@ -204,8 +204,7 @@ export const ecommerceRankingFactors: AcademyTopic = {
     fr: {
       badge: "Fondamentaux de la recherche",
       heading: "Facteurs de classement ecommerce",
-      intro:
-        "Une fois que Google indexe vos pages, un syst\u00e8me s\u00e9par\u00e9 d\u00e9cide o\u00f9 elles se classent. Google utilise des centaines de signaux pour d\u00e9terminer les classements, mais tous n'ont pas le m\u00eame poids pour le e-commerce. Savoir quels facteurs font la diff\u00e9rence pour les pages produits et cat\u00e9gories vous permet de concentrer vos efforts l\u00e0 o\u00f9 \u00e7a compte.",
+      intro: "Une fois que Google indexe vos pages, un syst\u00e8me s\u00e9par\u00e9 d\u00e9cide o\u00f9 elles se classent. Google utilise des centaines de signaux pour d\u00e9terminer les classements, mais tous n'ont pas le m\u00eame poids pour le e-commerce. Savoir quels facteurs font la diff\u00e9rence pour les pages produits et cat\u00e9gories vous permet de concentrer vos efforts l\u00e0 o\u00f9 \u00e7a compte.",
       readTime: "10 min de lecture",
       sections: [
         {
@@ -226,12 +225,12 @@ export const ecommerceRankingFactors: AcademyTopic = {
           tip: "V\u00e9rifiez vos Core Web Vitals dans Google Search Console sous Exp\u00e9rience > Signaux Web essentiels. Concentrez-vous d'abord sur le rapport mobile et corrigez les URLs group\u00e9es comme \"M\u00e9diocre\" avant de passer \u00e0 \"Am\u00e9lioration n\u00e9cessaire\".",
           image: {
             src: "/images/academy/fr/core-web-vitals-targets.svg",
-            alt: "Referenzdiagramm mit den Schwellenwerten Gut, Verbesserungsbedarf und Schlecht f\u00fcr LCP, INP und CLS-Metriken",
-            caption: "Core Web Vitals-Schwellenwerte f\u00fcr Ecommerce. Streben Sie auf allen drei Metriken, besonders auf Mobilger\u00e4ten, die gr\u00fcne Zone an.",
+            alt: "Graphique de référence montrant les seuils bons, à améliorer et faibles pour les métriques LCP, INP et CLS",
+            caption: "Seuils Core Web Vitals pour le commerce électronique. Visez la zone verte sur les trois indicateurs, en particulier sur mobile.",
           },
           callout: {
             title: "Reales Ergebnis",
-            text: "Ein Elektronikh\u00e4ndler verbesserte LCP von 4,2\u00a0s auf 1,8\u00a0s durch Bildkomprimierung, Lazy Loading und ein Hosting-Upgrade. Ergebnis: 15\u00a0% organischer Traffic-Anstieg und 2,3 Positionsverbesserung in 8 Wochen.",
+            text: "Un détaillant d'électronique a amélioré le LCP de 4,2 s à 1,8 s grâce à la compression d'image, au chargement différé et à une mise à niveau de l'hébergement. Résultat : augmentation du trafic organique de 15 % et amélioration de 2,3 positions en 8 semaines.",
           },
         },
         {
@@ -247,7 +246,7 @@ export const ecommerceRankingFactors: AcademyTopic = {
           ],
           callout: {
             title: "Content-Wirkung",
-            text: "Das Ersetzen generischer Herstellerbeschreibungen durch einzigartigen, detaillierten Content, der K\u00e4uferfragen beantwortet, verschiebt Produktseiten typischerweise 5 bis 15 Positionen h\u00f6her in den Suchergebnissen.",
+            text: "Le remplacement des descriptions génériques des fabricants par un contenu unique et détaillé qui répond aux questions des acheteurs déplace généralement les pages de produits de 5 à 15 positions plus haut dans les résultats de recherche.",
           },
         },
         {
@@ -274,8 +273,8 @@ export const ecommerceRankingFactors: AcademyTopic = {
             "Avec autant de facteurs de classement, savoir par o\u00f9 commencer peut sembler \u00e9crasant. Sur la base de notre travail avec des centaines de sites e-commerce, voici l'ordre de priorit\u00e9 que nous recommandons pour la plupart des boutiques.\n\nPremi\u00e8rement, corrigez les fondations techniques. Si Google ne peut pas crawler, rendre et indexer vos pages correctement, rien d'autre ne compte. R\u00e9solvez les erreurs de crawl, corrigez les balises canonical cass\u00e9es, assurez-vous que les pages chargent en moins de 2,5 secondes et nettoyez votre sitemap. Ce travail prend g\u00e9n\u00e9ralement 2 \u00e0 4 semaines et d\u00e9bloque tout ce qui suit.\n\nDeuxi\u00e8mement, optimisez la pertinence on-page pour vos pages les plus pr\u00e9cieuses. Commencez par vos 20 pages cat\u00e9gories principales par potentiel de revenus. Assurez-vous que chacune a un title tag unique, une meta description convaincante, un H1 qui correspond \u00e0 l'intention de recherche et au moins 200 mots de contenu introductif unique. Passez ensuite \u00e0 vos 100 pages produits principales.\n\nTroisi\u00e8mement, construisez l'autorit\u00e9 par le contenu et l'acquisition de liens. Cr\u00e9ez des guides d'achat, des pages de comparaison et du contenu \u00e9ducatif qui attire des backlinks. Poursuivez une sensibilisation cibl\u00e9e aupr\u00e8s des publications sectorielles et des sites d'avis. C'est un effort continu qui s'accumule au fil du temps.\n\nQuatri\u00e8mement, surveillez et am\u00e9liorez les signaux d'exp\u00e9rience utilisateur. Suivez les Core Web Vitals mensuellement, analysez le comportement utilisateur \u00e0 travers des heatmaps et des enregistrements de sessions, et optimisez l'exp\u00e9rience mobile. Les petites am\u00e9liorations ici am\u00e9liorent \u00e0 la fois les classements et les taux de conversion.\n\nLes boutiques qui r\u00e9ussissent en SEO ne sont pas celles qui perfectionnent un seul facteur. Ce sont celles qui maintiennent un standard raisonnable sur tous les facteurs tout en am\u00e9liorant continuellement leurs points les plus faibles. Pour une vue d'ensemble complète de tous ces éléments fonctionnant ensemble, consultez notre guide pilier sur le [SEO e-commerce](/blog/ecommerce-seo).",
           image: {
             src: "/images/academy/fr/ranking-factors-weight.svg",
-            alt: "Horizontales Balkendiagramm der Ecommerce-Rankingfaktoren nach Wirkung: Content-Relevanz und Backlinks an der Spitze, gefolgt von technischem Fundament, Core Web Vitals, E-E-A-T und Nutzerverhalten",
-            caption: "Nicht alle Rankingfaktoren haben das gleiche Gewicht. Content-Relevanz und Backlinks haben den gr\u00f6\u00dften Einfluss auf Ecommerce-Seiten.",
+            alt: "Graphique à barres horizontales montrant les facteurs de classement du commerce électronique classés par impact : pertinence du contenu et backlinks en haut, suivis des bases techniques, des Core Web Vitals, de l'E-E-A-T et du comportement des utilisateurs.",
+            caption: "Tous les facteurs de classement n’ont pas le même poids. La pertinence du contenu et les backlinks ont le plus d'impact sur les pages de commerce électronique.",
           },
         },
         {
@@ -290,7 +289,7 @@ export const ecommerceRankingFactors: AcademyTopic = {
           ],
           callout: {
             title: "Utilisez le leak comme cadre, pas comme recette",
-            text: "Le leak montre ce que Google peut mesurer, pas le poids exact de chaque signal. Utilisez les signaux divulgues pour prioriser les audits et expliquer aux clients pourquoi un correctif compte - mais traitez l'optimisation mono-attribut avec prudence.",
+            text: "La fuite montre ce que Google peut mesurer, et non le poids exact de chaque signal. Utilisez les signaux divulgués pour hiérarchiser les audits et expliquer aux clients pourquoi un correctif est important, mais traitez les optimi d'un seul attribut.aitez l'optimisation mono-attribut avec prudence.",
           },
         },
       ],
@@ -302,8 +301,7 @@ export const ecommerceRankingFactors: AcademyTopic = {
     es: {
       badge: "Fundamentos de b\u00fasqueda",
       heading: "Factores de posicionamiento para ecommerce",
-      intro:
-        "Una vez que Google indexa tus p\u00e1ginas, un sistema separado decide d\u00f3nde se posicionan. Google usa cientos de se\u00f1ales para determinar los rankings, pero no todas tienen el mismo peso para ecommerce. Saber qu\u00e9 factores mueven la aguja para p\u00e1ginas de producto y categor\u00eda te permite enfocar el esfuerzo donde importa.",
+      intro: "Una vez que Google indexa tus p\u00e1ginas, un sistema separado decide d\u00f3nde se posicionan. Google usa cientos de se\u00f1ales para determinar los rankings, pero no todas tienen el mismo peso para ecommerce. Saber qu\u00e9 factores mueven la aguja para p\u00e1ginas de producto y categor\u00eda te permite enfocar el esfuerzo donde importa.",
       readTime: "10 min de lectura",
       sections: [
         { title: "C\u00f3mo Google posiciona las p\u00e1ginas de ecommerce", content: "El sistema de posicionamiento de Google eval\u00faa las p\u00e1ginas entre s\u00ed para cada consulta de b\u00fasqueda. Cuando alguien busca \"auriculares inal\u00e1mbricos con cancelaci\u00f3n de ruido\", Google compara todas las p\u00e1ginas indexadas que podr\u00edan satisfacer esa consulta y las clasifica seg\u00fan relevancia, autoridad y experiencia de usuario.\n\nPara ecommerce espec\u00edficamente, los rankings se moldean por una mezcla de se\u00f1ales de contenido on-page, m\u00e9tricas de rendimiento t\u00e9cnico, perfiles de backlinks y patrones de comportamiento del usuario. Una p\u00e1gina de categor\u00eda con descripciones de producto detalladas, tiempos de carga r\u00e1pidos, backlinks s\u00f3lidos de sitios de an\u00e1lisis tecnol\u00f3gico y altas tasas de clic desde los resultados de b\u00fasqueda superar\u00e1 consistentemente a una p\u00e1gina delgada en un dominio sin autoridad externa.\n\nLo que hace diferente al posicionamiento ecommerce del contenido informativo es la intenci\u00f3n comercial detr\u00e1s de la mayor\u00eda de consultas. Google sabe que alguien que busca t\u00e9rminos de producto quiere comprar, as\u00ed que favorece las p\u00e1ginas que facilitan la compra. Las p\u00e1ginas con precios, disponibilidad, rese\u00f1as y caminos de compra claros tienden a posicionarse mejor que el contenido puramente informativo para consultas transaccionales." },

@@ -152,8 +152,7 @@ export const siteSpeedOptimization: AcademyTopic = {
     fr: {
       badge: "SEO Technique",
       heading: "Optimisation de la Vitesse de Site pour le E-commerce",
-      intro:
-        "Le temps de chargement des pages affecte directement le classement et le chiffre d'affaires. Google utilise les Core Web Vitals comme signal de classement, et les recherches montrent systématiquement que chaque seconde supplémentaire de chargement réduit les taux de conversion e-commerce de 7 % à 12 %. Les boutiques plus rapides sont mieux classées et vendent davantage. La vitesse est un pilier fondamental du [SEO technique pour l'e-commerce](/blog/technical-seo-for-ecommerce).",
+      intro: "Le temps de chargement des pages affecte directement le classement et le chiffre d'affaires. Google utilise les Core Web Vitals comme signal de classement, et les recherches montrent systématiquement que chaque seconde supplémentaire de chargement réduit les taux de conversion e-commerce de 7 % à 12 %. Les boutiques plus rapides sont mieux classées et vendent davantage. La vitesse est un pilier fondamental du [SEO technique pour l'e-commerce](/blog/technical-seo-for-ecommerce).",
       readTime: "12 min de lecture",
       sections: [
         {
@@ -169,12 +168,12 @@ export const siteSpeedOptimization: AcademyTopic = {
           ],
           image: {
             src: "/images/academy/fr/site-speed-cwv-thresholds.svg",
-            alt: "Core Web Vitals Schwellenwerttabelle die gute, verbesserungswuerdige und schlechte Bereiche fuer LCP, INP und CLS-Metriken zeigt",
-            caption: "Alle drei Core Web Vitals muessen ihre Schwellenwerte erreichen fuer ein gutes Seitenerlebnissignal: LCP unter 2,5s, INP unter 200ms, CLS unter 0,1.",
+            alt: "Graphique des seuils Core Web Vitals montrant des plages bonnes, à améliorer et faibles pour les métriques LCP, INP et CLS",
+            caption: "Les trois Core Web Vitals doivent dépasser leurs seuils pour un bon signal d'expérience de page : LCP inférieur à 2,5 s, INP inférieur à 200 ms, CLS inférieur à 0,1.",
           },
           callout: {
             title: "Umsatzkorrelation",
-            text: "Jede zusaetzliche Sekunde Ladezeit reduziert die Ecommerce-Konversionsraten um 7-12%. Ein Shop der in 2 Sekunden laedt konvertiert mit fast 3x der Rate eines Shops der in 6 Sekunden laedt.",
+            text: "Chaque seconde supplémentaire de temps de chargement réduit les taux de conversion du commerce électronique de 7 à 12 %. Un chargement de magasin en 2 secondes est converti à un taux près de 3 fois supérieur à celui d'un chargement en 6 secondes.",
           },
         },
         {
@@ -202,12 +201,12 @@ export const siteSpeedOptimization: AcademyTopic = {
           tip: "Testez votre TTFB depuis plusieurs emplacements avec WebPageTest.org. Sélectionnez des emplacements serveur correspondant à votre base de clients. Si le TTFB varie fortement entre les régions, votre configuration CDN nécessite probablement une attention particulière.",
           image: {
             src: "/images/academy/fr/js-script-loading-strategy.svg",
-            alt: "Zeitliniendiagramm das drei Kategorien des Script-Ladens zeigt: kritische Scripts sofort geladen, verzoegerte Scripts nach dem ersten Paint und Lazy-Scripts durch Nutzeraktionen ausgeloest",
-            caption: "Teilen Sie Scripts in drei Stufen: kritisches JS sofort laden, Analytics nach dem ersten Paint verschieben und Chat sowie Bewertungen bei Nutzerinteraktion lazy laden.",
+            alt: "Diagramme chronologique montrant trois catégories de chargement de scripts : scripts critiques chargés immédiatement, scripts différés après la première peinture et scripts paresseux déclenchés par les actions de l'utilisateur.",
+            caption: "Divisez les scripts en trois niveaux : chargez immédiatement les JS critiques, reportez les analyses après la première peinture et chargez paresseusement les discussions et les avis sur l'interaction des utilisateurs.",
           },
           callout: {
             title: "Script-Audit-Ergebnis",
-            text: "Der durchschnittliche Ecommerce-Shop laedt 20-35 Drittanbieter-Scripts. Die Verwendung von Trigger-basiertem Laden via Google Tag Manager reduzierte die Main-Thread-Blockierzeit um 40% bei einem von uns optimierten Einrichtungsshop.",
+            text: "Une boutique de commerce électronique moyenne charge 20 à 35 scripts tiers. L'utilisation du chargement basé sur des déclencheurs via Google Tag Manager a réduit le temps de blocage du fil principal de 40 % dans un magasin d'articles pour la maison que nous avons optimisé.",
           },
         },
         {
@@ -224,8 +223,7 @@ export const siteSpeedOptimization: AcademyTopic = {
     es: {
       badge: "SEO Técnico",
       heading: "Optimización de Velocidad de Sitio para Ecommerce",
-      intro:
-        "El tiempo de carga de página afecta directamente tanto los rankings como los ingresos. Google utiliza los Core Web Vitals como señal de ranking, y las investigaciones muestran consistentemente que cada segundo adicional de carga reduce las tasas de conversión de ecommerce entre un 7 % y un 12 %. Las tiendas más rápidas rankean mejor y venden más. La velocidad es un pilar fundamental del [SEO tecnico para ecommerce](/blog/technical-seo-for-ecommerce).",
+      intro: "El tiempo de carga de página afecta directamente tanto los rankings como los ingresos. Google utiliza los Core Web Vitals como señal de ranking, y las investigaciones muestran consistentemente que cada segundo adicional de carga reduce las tasas de conversión de ecommerce entre un 7 % y un 12 %. Las tiendas más rápidas rankean mejor y venden más. La velocidad es un pilar fundamental del [SEO técnico para ecommerce](/blog/technical-seo-for-ecommerce).",
       readTime: "12 min de lectura",
       sections: [
         {
@@ -241,12 +239,12 @@ export const siteSpeedOptimization: AcademyTopic = {
           ],
           image: {
             src: "/images/academy/es/site-speed-cwv-thresholds.svg",
-            alt: "Core Web Vitals Schwellenwerttabelle die gute, verbesserungswuerdige und schlechte Bereiche fuer LCP, INP und CLS-Metriken zeigt",
-            caption: "Alle drei Core Web Vitals muessen ihre Schwellenwerte erreichen fuer ein gutes Seitenerlebnissignal: LCP unter 2,5s, INP unter 200ms, CLS unter 0,1.",
+            alt: "Gráfico de umbrales de Core Web Vitals que muestra rangos buenos, que necesitan mejoras y malos para las métricas LCP, INP y CLS",
+            caption: "Los tres Core Web Vitals deben superar sus umbrales para una buena señal de experiencia de página: LCP por debajo de 2,5 s, INP por debajo de 200 ms, CLS por debajo de 0,1.",
           },
           callout: {
             title: "Umsatzkorrelation",
-            text: "Jede zusaetzliche Sekunde Ladezeit reduziert die Ecommerce-Konversionsraten um 7-12%. Ein Shop der in 2 Sekunden laedt konvertiert mit fast 3x der Rate eines Shops der in 6 Sekunden laedt.",
+            text: "Cada segundo adicional de tiempo de carga reduce las tasas de conversión de comercio electrónico entre un 7% y un 12%. Una carga de tienda en 2 segundos convierte a casi 3 veces la tasa de una carga en 6 segundos.",
           },
         },
         {
@@ -274,12 +272,12 @@ export const siteSpeedOptimization: AcademyTopic = {
           tip: "Prueba tu TTFB desde múltiples ubicaciones usando WebPageTest.org. Selecciona ubicaciones de servidor que coincidan con tu base de clientes. Si el TTFB varía mucho entre regiones, tu configuración de CDN probablemente necesita atención.",
           image: {
             src: "/images/academy/es/js-script-loading-strategy.svg",
-            alt: "Zeitliniendiagramm das drei Kategorien des Script-Ladens zeigt: kritische Scripts sofort geladen, verzoegerte Scripts nach dem ersten Paint und Lazy-Scripts durch Nutzeraktionen ausgeloest",
-            caption: "Teilen Sie Scripts in drei Stufen: kritisches JS sofort laden, Analytics nach dem ersten Paint verschieben und Chat sowie Bewertungen bei Nutzerinteraktion lazy laden.",
+            alt: "Diagrama de línea de tiempo que muestra tres categorías de carga de secuencias de comandos: secuencias de comandos críticas cargadas inmediatamente, secuencias de comandos diferidas después de la primera pintura y secuencias de comandos diferidas activadas por acciones del usuario.",
+            caption: "Divida los scripts en tres niveles: cargue JS crítico inmediatamente, difiera los análisis hasta después de la primera pintura y cargue de forma diferida el chat y las revisiones sobre la interacción del usuario.",
           },
           callout: {
             title: "Script-Audit-Ergebnis",
-            text: "Der durchschnittliche Ecommerce-Shop laedt 20-35 Drittanbieter-Scripts. Die Verwendung von Trigger-basiertem Laden via Google Tag Manager reduzierte die Main-Thread-Blockierzeit um 40% bei einem von uns optimierten Einrichtungsshop.",
+            text: "La tienda de comercio electrónico promedio carga entre 20 y 35 scripts de terceros. El uso de la carga basada en activadores a través de Google Tag Manager redujo el tiempo de bloqueo del hilo principal en un 40 % en una tienda de artículos para el hogar que optimizamos.",
           },
         },
         {
@@ -313,12 +311,12 @@ export const siteSpeedOptimization: AcademyTopic = {
           ],
           image: {
             src: "/images/academy/it/site-speed-cwv-thresholds.svg",
-            alt: "Core Web Vitals Schwellenwerttabelle die gute, verbesserungswuerdige und schlechte Bereiche fuer LCP, INP und CLS-Metriken zeigt",
-            caption: "Alle drei Core Web Vitals muessen ihre Schwellenwerte erreichen fuer ein gutes Seitenerlebnissignal: LCP unter 2,5s, INP unter 200ms, CLS unter 0,1.",
+            alt: "Grafico delle soglie dei Core Web Vitals che mostra gli intervalli buoni, da migliorare e scadenti per le metriche LCP, INP e CLS",
+            caption: "Tutti e tre i Core Web Vitals devono superare le rispettive soglie per un buon segnale di esperienza sulla pagina: LCP inferiore a 2,5 s, INP inferiore a 200 ms, CLS inferiore a 0,1.",
           },
           callout: {
             title: "Umsatzkorrelation",
-            text: "Jede zusaetzliche Sekunde Ladezeit reduziert die Ecommerce-Konversionsraten um 7-12%. Ein Shop der in 2 Sekunden laedt konvertiert mit fast 3x der Rate eines Shops der in 6 Sekunden laedt.",
+            text: "Ogni secondo in più di tempo di caricamento riduce i tassi di conversione dell'e-commerce del 7-12%. Il caricamento di un negozio in 2 secondi converte a quasi 3 volte la velocità di un caricamento in 6 secondi.",
           },
         },
         {
@@ -346,12 +344,12 @@ export const siteSpeedOptimization: AcademyTopic = {
           tip: "Testa il tuo TTFB da più posizioni usando WebPageTest.org. Seleziona posizioni server che corrispondano alla tua base clienti. Se il TTFB varia notevolmente tra le regioni, la configurazione del tuo CDN probabilmente necessita di attenzione.",
           image: {
             src: "/images/academy/it/js-script-loading-strategy.svg",
-            alt: "Zeitliniendiagramm das drei Kategorien des Script-Ladens zeigt: kritische Scripts sofort geladen, verzoegerte Scripts nach dem ersten Paint und Lazy-Scripts durch Nutzeraktionen ausgeloest",
-            caption: "Teilen Sie Scripts in drei Stufen: kritisches JS sofort laden, Analytics nach dem ersten Paint verschieben und Chat sowie Bewertungen bei Nutzerinteraktion lazy laden.",
+            alt: "Diagramma della sequenza temporale che mostra tre categorie di caricamento degli script: script critici caricati immediatamente, script differiti dopo la prima verniciatura e script pigri attivati ​​dalle azioni dell'utente",
+            caption: "Dividi gli script in tre livelli: carica immediatamente JS critico, rinvia l'analisi a dopo la prima verniciatura e carica lentamente chat e recensioni sull'interazione dell'utente.",
           },
           callout: {
             title: "Script-Audit-Ergebnis",
-            text: "Der durchschnittliche Ecommerce-Shop laedt 20-35 Drittanbieter-Scripts. Die Verwendung von Trigger-basiertem Laden via Google Tag Manager reduzierte die Main-Thread-Blockierzeit um 40% bei einem von uns optimierten Einrichtungsshop.",
+            text: "Il negozio di e-commerce medio carica 20-35 script di terze parti. L'utilizzo del caricamento basato su trigger tramite Google Tag Manager ha ridotto del 40% il tempo di blocco del thread principale in un negozio di articoli per la casa che abbiamo ottimizzato.",
           },
         },
         {
@@ -385,12 +383,12 @@ export const siteSpeedOptimization: AcademyTopic = {
           ],
           image: {
             src: "/images/academy/nl/site-speed-cwv-thresholds.svg",
-            alt: "Core Web Vitals Schwellenwerttabelle die gute, verbesserungswuerdige und schlechte Bereiche fuer LCP, INP und CLS-Metriken zeigt",
-            caption: "Alle drei Core Web Vitals muessen ihre Schwellenwerte erreichen fuer ein gutes Seitenerlebnissignal: LCP unter 2,5s, INP unter 200ms, CLS unter 0,1.",
+            alt: "Core Web Vitals-drempelgrafiek toont goede, moet worden verbeterd en slechte bereiken voor LCP-, INP- en CLS-statistieken",
+            caption: "Alle drie de Core Web Vitals moeten hun drempelwaarden overschrijden voor een signaal voor een goede pagina-ervaring: LCP minder dan 2,5s, INP minder dan 200 ms, CLS minder dan 0,1.",
           },
           callout: {
             title: "Umsatzkorrelation",
-            text: "Jede zusaetzliche Sekunde Ladezeit reduziert die Ecommerce-Konversionsraten um 7-12%. Ein Shop der in 2 Sekunden laedt konvertiert mit fast 3x der Rate eines Shops der in 6 Sekunden laedt.",
+            text: "Elke extra seconde laadtijd verlaagt de conversiepercentages van e-commerce met 7-12%. Een winkellading in 2 seconden converteert bijna 3x zo snel als één lading in 6 seconden.",
           },
         },
         {
@@ -418,12 +416,12 @@ export const siteSpeedOptimization: AcademyTopic = {
           tip: "Test je TTFB vanuit meerdere locaties met WebPageTest.org. Selecteer serverlocaties die overeenkomen met je klantenbestand. Als de TTFB sterk varieert tussen regio's, heeft je CDN-configuratie waarschijnlijk aandacht nodig.",
           image: {
             src: "/images/academy/nl/js-script-loading-strategy.svg",
-            alt: "Zeitliniendiagramm das drei Kategorien des Script-Ladens zeigt: kritische Scripts sofort geladen, verzoegerte Scripts nach dem ersten Paint und Lazy-Scripts durch Nutzeraktionen ausgeloest",
-            caption: "Teilen Sie Scripts in drei Stufen: kritisches JS sofort laden, Analytics nach dem ersten Paint verschieben und Chat sowie Bewertungen bei Nutzerinteraktion lazy laden.",
+            alt: "Tijdlijndiagram met drie categorieën voor het laden van scripts: kritieke scripts die onmiddellijk worden geladen, uitgestelde scripts na de eerste keer schilderen en luie scripts die worden geactiveerd door gebruikersacties",
+            caption: "Splits scripts op in drie lagen: laad kritische JS onmiddellijk, stel analyses uit tot na de eerste verf, en laad chat en recensies over gebruikersinteractie lui.",
           },
           callout: {
             title: "Script-Audit-Ergebnis",
-            text: "Der durchschnittliche Ecommerce-Shop laedt 20-35 Drittanbieter-Scripts. Die Verwendung von Trigger-basiertem Laden via Google Tag Manager reduzierte die Main-Thread-Blockierzeit um 40% bei einem von uns optimierten Einrichtungsshop.",
+            text: "De gemiddelde e-commerce winkel laadt 20-35 scripts van derden. Door triggergebaseerd laden via Google Tag Manager te gebruiken, werd de blokkeringstijd van hoofdthreads met 40% verminderd in een woonwarenwinkel die we hebben geoptimaliseerd.",
           },
         },
         {

@@ -200,12 +200,11 @@ items: [
     fr: {
       badge: "Guides sectoriels",
       heading: "Playbook SEO Alimentation et Boissons",
-      intro:
-        "Le e-commerce alimentaire et des boissons fait face a des defis SEO uniques : inventaire perissable, reglementations strictes sur les allegations, decouverte par les recettes et concurrence intense des geants de la grande distribution et des vendeurs de places de marche. Se positionner organiquement necessite des strategies adaptees a la facon dont les consommateurs recherchent reellement des produits alimentaires en ligne, par ingredient, besoin dietetique, occasion et profil gustatif. Ce playbook couvre les techniques specifiques qui generent une croissance organique durable pour les boutiques d'alimentation et de boissons en ligne. Une base solide en [SEO e-commerce](/blog/ecommerce-seo) est essentielle avant d'appliquer ces tactiques spécifiques au secteur.",
+      intro: "Le e-commerce alimentaire et des boissons fait face a des defis SEO uniques : inventaire perissable, reglementations strictes sur les allegations, decouverte par les recettes et concurrence intense des geants de la grande distribution et des vendeurs de places de marché. Se positionner organiquement nécessite des stratégies adaptees a la façon dont les consommateurs recherchent reellement des produits alimentaires en ligne, par ingredient, besoin dietetique, occasion et profil gustatif. Ce playbook couvre les techniques specifiques qui generent une croissance organique durable pour les boutiques d'alimentation et de boissons en ligne. Une base solide en [SEO e-commerce](/blog/ecommerce-seo) est essentielle avant d'appliquer ces tactiques spécifiques au secteur.",
       readTime: "12 min de lecture",
       sections: [
         {
-          title: "Strategie de mots-cles dietetiques et par ingredients",
+          title: "Stratégie de mots-clés dietetiques et par ingredients",
           content:
             "Les acheteurs alimentaires recherchent de plus en plus par besoin dietetique plutot que par marque ou nom de produit generique. Des requetes comme \"pates sans gluten,\" \"barres snack keto,\" \"jus bio presse a froid\" et \"poudre de proteine vegan\" portent une forte intention commerciale et convertissent a des taux eleves. Construisez votre architecture de mots-cles autour des attributs dietetiques et ingredients cles de vos produits.\n\nCreez des pages de categorie dediees pour chaque segment dietetique majeur que vous servez, sans gluten, keto, vegan, paleo, faible en sodium, sans sucre, bio, sans OGM. Chaque page devrait inclure une breve explication du standard dietetique, vos certifications ou references d'approvisionnement, et une grille de produits curatee.\n\nMappez les mots-cles au niveau des ingredients sur les pages produit individuelles. Un produit intitule \"Miel de Manuka Brut UMF 15+ 500g\" surpassera \"Miel Dore Premium\" car les acheteurs recherchent par ingredient specifique, origine et grade.\n\nSuivez les mots-cles de tendances alimentaires emergentes. Des termes comme \"melange de champignons adaptogenes,\" \"peptides de collagene\" et \"soda prebiotique\" peuvent connaitre des pics rapides quand la couverture mediatique et les tendances sociales modifient l'interet des consommateurs. Surveillez hebdomadairement Google Trends, les communautes food TikTok et la couverture des publications sante.",
           items: [
@@ -228,12 +227,12 @@ items: [
           tip: "Suivez quelles pages de recettes generent le plus d'ajouts au panier, pas seulement du trafic. Une page de recette avec 5 000 visites mensuelles et un taux d'ajout au panier de 3% a plus de valeur qu'une avec 20 000 visites et aucune conversion. Optimisez vos liens internes en faveur du contenu de recettes a forte conversion.",
           image: {
             src: "/images/academy/fr/food-recipe-content-funnel.svg",
-            alt: "Rezept-Content zu Produkt-Trichter: Von Rezeptsuche ueber Zutatenverlinkung zur Produktseite",
-            caption: "Rezept-Content baut thematische Autoritaet auf und verlinkt natuerlich auf Ihre Produkte fuer hoehere Konversion.",
+            alt: "Diagramme montrant l'entonnoir du contenu des recettes, de la découverte à l'engagement en passant par l'achat, avec des collections de recettes organisées par cuisine, occasion, régime et ingrédient",
+            caption: "Le contenu des recettes crée un chemin naturel depuis la découverte de la recherche jusqu'à l'achat du produit. Organisez vos collections par cuisine, occasion, régime alimentaire et ingrédient pour maximiser la couverture des mots clés.",
           },
           callout: {
             title: "Rezept-Content-Strategie",
-            text: "Rezepte mit Ihren Produkten als Zutaten erzeugen 3-5x mehr organischen Traffic als reine Produktseiten. Verlinken Sie jede Zutat direkt auf die entsprechende Produktseite fuer nahtlose Konversion.",
+            text: "Les pages avec un schéma de recette complet (image, notes, temps de cuisson, calories) enregistrent des taux de clics considérablement plus élevés que les liens bleus simples. Incluez tous les champs recommandés : prepTime, CookTime, RecipeYie",
           },
         },
         {
@@ -248,18 +247,18 @@ items: [
           ],
         },
         {
-          title: "Calendrier SEO saisonnier et base sur les occasions",
+          title: "Calendrier SEO saisonnier et basé sur les occasions",
           content:
             "Le e-commerce alimentaire est profondement saisonnier. Les schemas de demande sont determines par les fetes, les celebrations culturelles, les cycles de recolte et meme la meteo. Un calendrier SEO bien planifie assure que vos pages sont indexees et positionnees avant chaque pic de demande plutot que de tenter de rattraper.\n\nCartographiez votre catalogue produit sur un calendrier saisonnier annuel complet. Paniers de Noel, chocolats de Paques, coffrets cadeaux Saint-Valentin, articles pour barbecue d'ete, coffrets Ramadan, chaque occasion represente un cluster de mots-cles distinct avec des pics de volume de recherche previsibles. Creez ou rafraichissez des pages d'atterrissage dediees au moins 8 a 10 semaines avant chaque evenement.\n\nConservez les URLs saisonnieres d'annee en annee. Une page a /paniers-noel-gourmands avec trois ans d'historique de backlinks et de signaux de classement surpassera largement une page nouvellement creee.\n\nCapitalisez sur les schemas de recherche lies a la meteo. Les recherches pour \"coffret chocolat chaud\" augmentent quand les temperatures baissent ; \"cafe cold brew\" culmine au printemps et en ete.\n\nCreez du contenu de guides cadeaux pour chaque grande occasion d'offrir des cadeaux. \"Meilleurs cadeaux gourmands pour les amateurs de cuisine,\" \"paniers cadeaux entreprise,\" \"cadeaux gourmands de pendaison de cremaillere\", ces requetes portent une forte intention commerciale.",
           tip: "Commencez l'indexation des pages festives en septembre pour Noel, en janvier pour la Saint-Valentin et en fevrier pour Paques. Google a besoin de temps pour decouvrir, explorer et classer ces pages. Creer des pages a la derniere minute signifie que vous ne concourrez que sur la recherche payante pendant le pic de demande.",
           image: {
             src: "/images/academy/fr/food-seasonal-calendar.svg",
-            alt: "Lebensmittel und Getraenke saisonaler SEO-Kalender mit acht Hauptsaisons und thematischen Content-Kategorien",
-            caption: "Planen Sie saisonalen Content 3 Monate im Voraus. Jede Saison bietet spezifische Keyword-Chancen.",
+            alt: "Calendrier SEO annuel des aliments et des boissons montrant les pics de demande saisonniers pour la Saint-Valentin, Pâques, la saison des barbecues, Halloween, Thanksgiving et Noël avec des fenêtres de préparation de contenu",
+            caption: "Les pics de demande du commerce électronique alimentaire sont prévisibles. Créez ou actualisez les pages de destination 8 à 10 semaines avant chaque événement pour laisser le temps d'indexation à Google.",
           },
           callout: {
             title: "Saisonale Planung",
-            text: "Der Valentinstag-Content muss bis November ranken, nicht erst im Februar. Lebensmittel-SEO erfordert die laengste Vorlaufzeit aller E-Commerce-Branchen, da Rezept-Content 3-4 Monate zum Ranken braucht.",
+            text: "Les recherches de « coffret cadeau de chocolat chaud » augmentent lorsque les températures baissent ; Le « café infusé à froid » atteint son apogée au printemps et en été. Surveillez les prévisions météorologiques ainsi que les analyses pour planifier l'actualisation et la promotion du contenu..",
           },
         },
         {
@@ -295,13 +294,12 @@ items: [
     },
     es: {
       badge: "Guias sectoriales",
-      heading: "Playbook SEO para Alimentacion y Bebidas",
-      intro:
-        "El ecommerce de alimentacion y bebidas enfrenta desafios SEO unicos: inventario perecedero, estrictas regulaciones sobre declaraciones, descubrimiento impulsado por recetas y competencia intensa de gigantes de supermercados y vendedores de marketplaces. Posicionarse organicamente requiere estrategias adaptadas a como los consumidores realmente buscan productos alimentarios online, por ingrediente, necesidad dietetica, ocasion y perfil de sabor. Este playbook cubre las tecnicas especificas que impulsan el crecimiento organico sostenible para tiendas online de alimentos y bebidas. Una base solida de [SEO para ecommerce](/blog/ecommerce-seo) es esencial antes de aplicar estas tacticas especificas del sector.",
+      heading: "Playbook SEO para Alimentación y Bebidas",
+      intro: "El ecommerce de alimentacion y bebidas enfrenta desafios SEO unicos: inventario perecedero, estrictas regulaciones sobre declaraciones, descubrimiento impulsado por recetas y competencia intensa de gigantes de supermercados y vendedores de marketplaces. Posicionarse organicamente requiere estrategias adaptadas a como los consumidores realmente buscan productos alimentarios online, por ingrediente, necesidad dietetica, ocasion y perfil de sabor. Este playbook cubre las técnicas especificas que impulsan el crecimiento organico sostenible para tiendas online de alimentos y bebidas. Una base solida de [SEO para ecommerce](/blog/ecommerce-seo) es esencial antes de aplicar estas tacticas especificas del sector.",
       readTime: "12 min de lectura",
       sections: [
         {
-          title: "Estrategia de palabras clave dieteticas y basadas en ingredientes",
+          title: "Estrategia de palabras clave dietéticas y basadas en ingredientes",
           content:
             "Los compradores de alimentos buscan cada vez mas por requisito dietetico en lugar de por marca o nombre generico de producto. Consultas como \"pasta sin gluten,\" \"barritas snack keto,\" \"zumo bio prensado en frio\" y \"proteina en polvo vegana\" tienen fuerte intencion comercial y convierten a tasas altas. Construye tu arquitectura de palabras clave en torno a los atributos dieteticos e ingredientes clave de tus productos.\n\nCrea paginas de categoria dedicadas para cada segmento dietetico principal que sirvas, sin gluten, keto, vegano, paleo, bajo en sodio, sin azucar, ecologico, sin transgenicos. Cada pagina debe incluir una breve explicacion del estandar dietetico, tus certificaciones o credenciales de abastecimiento, y una cuadricula de productos curada.\n\nMapea las palabras clave a nivel de ingrediente a paginas de producto individuales. Un producto titulado \"Miel de Manuka Cruda UMF 15+ 500g\" superara a \"Miel Dorada Premium\" porque los compradores buscan por ingrediente especifico, origen y grado.\n\nRastrea las palabras clave de tendencias alimentarias emergentes. Terminos como \"mezcla de setas adaptogenas,\" \"peptidos de colageno\" y \"refresco prebiotico\" pueden dispararse rapidamente cuando la cobertura mediatica y las tendencias sociales cambian el interes del consumidor. Monitoriza semanalmente Google Trends, comunidades food de TikTok y cobertura de publicaciones de salud.",
           items: [
@@ -324,16 +322,16 @@ items: [
           tip: "Rastrea que paginas de recetas generan mas eventos de anadir al carrito, no solo trafico. Una pagina de receta con 5.000 visitas mensuales y una tasa de anadir al carrito del 3% es mas valiosa que una con 20.000 visitas y ninguna conversion. Optimiza tu enlazado interno para favorecer el contenido de recetas de alta conversion.",
           image: {
             src: "/images/academy/es/food-recipe-content-funnel.svg",
-            alt: "Rezept-Content zu Produkt-Trichter: Von Rezeptsuche ueber Zutatenverlinkung zur Produktseite",
-            caption: "Rezept-Content baut thematische Autoritaet auf und verlinkt natuerlich auf Ihre Produkte fuer hoehere Konversion.",
+            alt: "Diagrama que muestra el embudo de contenido de la receta desde el descubrimiento hasta el compromiso y la compra, con colecciones de recetas organizadas por cocina, ocasión, dieta e ingrediente.",
+            caption: "El contenido de las recetas crea un camino natural desde el descubrimiento de la búsqueda hasta la compra del producto. Organice colecciones por cocina, ocasión, dieta e ingrediente para maximizar la cobertura de palabras clave.",
           },
           callout: {
             title: "Rezept-Content-Strategie",
-            text: "Rezepte mit Ihren Produkten als Zutaten erzeugen 3-5x mehr organischen Traffic als reine Produktseiten. Verlinken Sie jede Zutat direkt auf die entsprechende Produktseite fuer nahtlose Konversion.",
+            text: "Las páginas con un esquema de recetas completo (imagen, calificaciones, tiempo de cocción, calorías) obtienen tasas de clics dramáticamente más altas que los enlaces azules simples. Incluya todos los campos recomendados: prepTime, cookTime, recetaYie",
           },
         },
         {
-          title: "Optimizacion de paginas de producto para alimentacion y bebidas",
+          title: "Optimización de páginas de producto para alimentación y bebidas",
           content:
             "Las paginas de productos alimentarios deben abordar preocupaciones que otros verticales de ecommerce raramente enfrentan: transparencia de ingredientes, informacion de alergenos, datos nutricionales, vida util, instrucciones de almacenamiento y procedencia del abastecimiento. Estos detalles no son solo requisitos de cumplimiento, son el contenido que los motores de busqueda y los compradores buscan activamente.\n\nEstructura cada pagina de producto con una lista completa de ingredientes, tabla nutricional, advertencias de alergenos y certificaciones (ecologico, comercio justo, kosher, halal). Presenta esta informacion en texto HTML rastreable, no encerrada en imagenes.\n\nEscribe descripciones de producto que vayan mas alla de listar caracteristicas. Describe el perfil de sabor, sugiere maridajes o casos de uso, y explica que hace al producto distinto, abastecimiento de origen unico, produccion en pequenos lotes, metodos de fermentacion tradicionales.\n\nImplementa [schema Product](/academy/structured-data-for-products) con todas las propiedades relevantes para alimentacion: name, brand, sku, gtin, description, image, offers (precio, disponibilidad, moneda), nutrition (calorias, tamano de porcion) y aggregateRating. Incluye el peso o volumen en el nombre del producto.\n\nAnade una declaracion prominente de fecha de consumo preferente o garantia de frescura para generar confianza. Los compradores de alimentos dudan en comprar productos perecederos online a menos que confien en la frescura.",
           items: [
@@ -346,20 +344,20 @@ items: [
         {
           title: "Calendario SEO estacional y basado en ocasiones",
           content:
-            "El ecommerce alimentario es profundamente estacional. Los patrones de demanda estan impulsados por festividades, celebraciones culturales, ciclos de cosecha e incluso el clima. Un calendario SEO bien planificado asegura que tus paginas esten indexadas y posicionadas antes de cada pico de demanda en lugar de intentar ponerte al dia.\n\nMapea tu catalogo de productos a un calendario estacional anual completo. Cestas navidenas, chocolates de Pascua, cajas regalo de San Valentin, articulos para barbacoa de verano, paquetes de Ramadan, cada ocasion representa un cluster de palabras clave con picos de volumen de busqueda predecibles. Crea o actualiza paginas de aterrizaje dedicadas al menos 8-10 semanas antes de cada evento.\n\nManten las URLs estacionales ano tras ano. Una pagina en /cestas-navidenas-gourmet con tres anos de historial de backlinks y senales de posicionamiento superara ampliamente a una pagina recien creada.\n\nCapitaliza los patrones de busqueda basados en el clima. Las busquedas de \"set regalo chocolate caliente\" se disparan cuando bajan las temperaturas; \"cafe cold brew\" alcanza su maximo en primavera y verano.\n\nCrea contenido de guias de regalos para cada gran ocasion de regalar. \"Mejores regalos gourmet para amantes de la cocina,\" \"cestas regalo corporativas,\" \"regalos gourmet de inauguracion de casa\", estas consultas tienen alta intencion comercial.",
+            "El ecommerce alimentario es profundamente estacional. Los patrones de demanda estan impulsados por festividades, celebraciones culturales, ciclos de cosecha e incluso el clima. Un calendario SEO bien planificado asegura que tus paginas esten indexadas y posicionadas antes de cada pico de demanda en lugar de intentar ponerte al dia.\n\nMapea tu catalogo de productos a un calendario estacional anual completo. Cestas navidenas, chocolates de Pascua, cajas regalo de San Valentin, articulos para barbacoa de verano, paquetes de Ramadan, cada ocasion representa un cluster de palabras clave con picos de volumen de busqueda predecibles. Crea o actualiza paginas de aterrizaje dedicadas al menos 8-10 semanas antes de cada evento.\n\nManten las URLs estacionales año tras año. Una pagina en /cestas-navidenas-gourmet con tres años de historial de backlinks y senales de posicionamiento superara ampliamente a una pagina recien creada.\n\nCapitaliza los patrones de busqueda basados en el clima. Las busquedas de \"set regalo chocolate caliente\" se disparan cuando bajan las temperaturas; \"cafe cold brew\" alcanza su maximo en primavera y verano.\n\nCrea contenido de guias de regalos para cada gran ocasion de regalar. \"Mejores regalos gourmet para amantes de la cocina,\" \"cestas regalo corporativas,\" \"regalos gourmet de inauguracion de casa\", estas consultas tienen alta intencion comercial.",
           tip: "Empieza a indexar paginas festivas en septiembre para Navidad, en enero para San Valentin y en febrero para Semana Santa. Google necesita tiempo para descubrir, rastrear y posicionar estas paginas. Crear paginas en el ultimo momento significa que solo competiras en busqueda de pago durante el pico de demanda.",
           image: {
             src: "/images/academy/es/food-seasonal-calendar.svg",
-            alt: "Lebensmittel und Getraenke saisonaler SEO-Kalender mit acht Hauptsaisons und thematischen Content-Kategorien",
-            caption: "Planen Sie saisonalen Content 3 Monate im Voraus. Jede Saison bietet spezifische Keyword-Chancen.",
+            alt: "Calendario anual de SEO de alimentos y bebidas que muestra los picos de demanda estacionales para el Día de San Valentín, Pascua, temporada de barbacoas, Halloween, Acción de Gracias y Navidad con ventanas de preparación de contenido.",
+            caption: "Los picos de demanda del comercio electrónico de alimentos son predecibles. Cree o actualice las páginas de destino entre 8 y 10 semanas antes de cada evento para permitir que Google tenga tiempo de indexación.",
           },
           callout: {
             title: "Saisonale Planung",
-            text: "Der Valentinstag-Content muss bis November ranken, nicht erst im Februar. Lebensmittel-SEO erfordert die laengste Vorlaufzeit aller E-Commerce-Branchen, da Rezept-Content 3-4 Monate zum Ranken braucht.",
+            text: "Las búsquedas de \"set de regalo de chocolate caliente\" aumentan cuando bajan las temperaturas; El \"café preparado en frío\" alcanza su punto máximo en primavera y verano. Supervise los pronósticos meteorológicos junto con análisis para cronometrar las actualizaciones y promociones del contenido..",
           },
         },
         {
-          title: "SEO local y optimizacion orientada a la entrega",
+          title: "SEO local y optimización orientada a la entrega",
           content:
             "El ecommerce alimentario se situa en la interseccion del comercio online y la entrega local. Muchas marcas alimentarias ofrecen entrega local, servicio de granja a puerta o opciones de click-and-collect junto con envio nacional. Tu estrategia SEO debe capturar la demanda especifica de ubicacion donde exista.\n\nSi sirves zonas de entrega especificas, crea paginas de aterrizaje dirigidas por ubicacion. Una pagina optimizada para \"entrega de alimentos ecologicos Madrid\" o \"entrega de cajas de comida Barcelona\" captura compradores que incluyen la ubicacion en su busqueda.\n\nReclama y optimiza tu Perfil de Empresa de Google si tienes presencia fisica, una tienda, almacen con recogida o puesto de mercado. Los negocios alimentarios con perfil GBP aparecen en resultados del paquete local y Google Maps.\n\nImplementa marcado schema LocalBusiness o FoodEstablishment en tu sitio para reforzar tu presencia local ante los motores de busqueda.\n\nPara modelos de caja de suscripcion y entrega recurrente, apunta a palabras clave que reflejen la intencion de suscripcion: \"entrega semanal de caja de verduras,\" \"suscripcion mensual de cafe,\" \"suscripcion de queso artesanal.\"\n\nAsociate con blogueros de comida locales y publicaciones regionales para backlinks. Un reportaje en una guia gastronomica local o un ranking \"mejores de\" de la ciudad aporta fuertes senales de relevancia local.",
           items: [
@@ -420,12 +418,12 @@ items: [
           tip: "Monitora quali pagine ricetta generano piu eventi di aggiunta al carrello, non solo traffico. Una pagina ricetta con 5.000 visite mensili e un tasso di aggiunta al carrello del 3% ha piu valore di una con 20.000 visite e nessuna conversione. Ottimizza i tuoi link interni a favore dei contenuti ricetta ad alta conversione.",
           image: {
             src: "/images/academy/it/food-recipe-content-funnel.svg",
-            alt: "Rezept-Content zu Produkt-Trichter: Von Rezeptsuche ueber Zutatenverlinkung zur Produktseite",
-            caption: "Rezept-Content baut thematische Autoritaet auf und verlinkt natuerlich auf Ihre Produkte fuer hoehere Konversion.",
+            alt: "Diagramma che mostra la canalizzazione dei contenuti delle ricette dalla scoperta al coinvolgimento fino all'acquisto, con raccolte di ricette organizzate per cucina, occasione, dieta e ingrediente",
+            caption: "Il contenuto della ricetta crea un percorso naturale dalla scoperta della ricerca all'acquisto del prodotto. Organizza le raccolte per cucina, occasione, dieta e ingrediente per massimizzare la copertura delle parole chiave.",
           },
           callout: {
             title: "Rezept-Content-Strategie",
-            text: "Rezepte mit Ihren Produkten als Zutaten erzeugen 3-5x mehr organischen Traffic als reine Produktseiten. Verlinken Sie jede Zutat direkt auf die entsprechende Produktseite fuer nahtlose Konversion.",
+            text: "Le pagine con lo schema completo delle ricette (immagine, valutazioni, tempo di cottura, calorie) registrano percentuali di clic notevolmente più elevate rispetto ai semplici collegamenti blu. Includi tutti i campi consigliati: prepTime, cookTime, ricettaYie",
           },
         },
         {
@@ -446,12 +444,12 @@ items: [
           tip: "Inizia a indicizzare le pagine festive a settembre per Natale, a gennaio per San Valentino e a febbraio per Pasqua. Google ha bisogno di tempo per scoprire, scansionare e posizionare queste pagine. Creare pagine all'ultimo momento significa competere solo sulla ricerca a pagamento durante il picco di domanda.",
           image: {
             src: "/images/academy/it/food-seasonal-calendar.svg",
-            alt: "Lebensmittel und Getraenke saisonaler SEO-Kalender mit acht Hauptsaisons und thematischen Content-Kategorien",
-            caption: "Planen Sie saisonalen Content 3 Monate im Voraus. Jede Saison bietet spezifische Keyword-Chancen.",
+            alt: "Calendario SEO annuale per alimenti e bevande che mostra i picchi della domanda stagionale per San Valentino, Pasqua, stagione dei barbecue, Halloween, Ringraziamento e Natale con finestre di preparazione dei contenuti",
+            caption: "I picchi della domanda dell’e-commerce alimentare sono prevedibili. Crea o aggiorna le pagine di destinazione 8-10 settimane prima di ogni evento per consentire il tempo di indicizzazione di Google.",
           },
           callout: {
             title: "Saisonale Planung",
-            text: "Der Valentinstag-Content muss bis November ranken, nicht erst im Februar. Lebensmittel-SEO erfordert die laengste Vorlaufzeit aller E-Commerce-Branchen, da Rezept-Content 3-4 Monate zum Ranken braucht.",
+            text: "Le ricerche di \"set regalo cioccolata calda\" aumentano quando le temperature scendono; Il picco del \"caffè freddo\" è in primavera ed estate. Monitora le previsioni meteorologiche insieme all'analisi per programmare gli aggiornamenti e la promozione dei contenuti.",
           },
         },
         {
@@ -516,12 +514,12 @@ items: [
           tip: "Houd bij welke receptpagina's de meeste winkelwagen-events genereren, niet alleen verkeer. Een receptpagina met 5.000 maandelijkse bezoeken en een winkelwagen-percentage van 3% is waardevoller dan een met 20.000 bezoeken en geen conversies. Optimaliseer je interne links ten gunste van hoog-converterende receptcontent.",
           image: {
             src: "/images/academy/nl/food-recipe-content-funnel.svg",
-            alt: "Rezept-Content zu Produkt-Trichter: Von Rezeptsuche ueber Zutatenverlinkung zur Produktseite",
-            caption: "Rezept-Content baut thematische Autoritaet auf und verlinkt natuerlich auf Ihre Produkte fuer hoehere Konversion.",
+            alt: "Diagram dat de trechter van de receptinhoud toont, van ontdekking via betrokkenheid tot aankoop, met receptencollecties gerangschikt op keuken, gelegenheid, dieet en ingrediënt",
+            caption: "Receptinhoud creëert een natuurlijk pad van zoeken naar producten tot productaankoop. Organiseer collecties op keuken, gelegenheid, dieet en ingrediënt om de zoekwoorddekking te maximaliseren.",
           },
           callout: {
             title: "Rezept-Content-Strategie",
-            text: "Rezepte mit Ihren Produkten als Zutaten erzeugen 3-5x mehr organischen Traffic als reine Produktseiten. Verlinken Sie jede Zutat direkt auf die entsprechende Produktseite fuer nahtlose Konversion.",
+            text: "Pagina's met een compleet receptschema (afbeelding, beoordelingen, kooktijd, calorieën) behalen aanzienlijk hogere klikfrequenties dan gewone blauwe links. Neem alle aanbevolen velden op: voorbereidingstijd, kooktijd, receptYie",
           },
         },
         {
@@ -542,12 +540,12 @@ items: [
           tip: "Begin met het indexeren van feestdagenpagina's in september voor Kerst, januari voor Valentijnsdag en februari voor Pasen. Google heeft tijd nodig om deze pagina's te ontdekken, te crawlen en te ranken. Pagina's op het laatste moment maken betekent dat je alleen concurreert op betaald zoeken tijdens de piekvraag.",
           image: {
             src: "/images/academy/nl/food-seasonal-calendar.svg",
-            alt: "Lebensmittel und Getraenke saisonaler SEO-Kalender mit acht Hauptsaisons und thematischen Content-Kategorien",
-            caption: "Planen Sie saisonalen Content 3 Monate im Voraus. Jede Saison bietet spezifische Keyword-Chancen.",
+            alt: "Jaarlijkse SEO-kalender voor eten en drinken met seizoenspieken in de vraag voor Valentijnsdag, Pasen, barbecueseizoen, Halloween, Thanksgiving en Kerstmis met voorbereidingsperioden voor de inhoud",
+            caption: "Pieken in de vraag naar voedsele-commerce zijn voorspelbaar. Maak of vernieuw landingspagina's 8-10 weken vóór elke gebeurtenis, zodat Google tijd heeft voor indexering.",
           },
           callout: {
             title: "Saisonale Planung",
-            text: "Der Valentinstag-Content muss bis November ranken, nicht erst im Februar. Lebensmittel-SEO erfordert die laengste Vorlaufzeit aller E-Commerce-Branchen, da Rezept-Content 3-4 Monate zum Ranken braucht.",
+            text: "Zoekopdrachten naar 'warme chocolade cadeauset' pieken wanneer de temperatuur daalt; \"cold brew coffee\" piekt in de lente en zomer. Houd naast analyses ook de weersvoorspellingen in de gaten om het vernieuwen van inhoud en promotie te timen.",
           },
         },
         {

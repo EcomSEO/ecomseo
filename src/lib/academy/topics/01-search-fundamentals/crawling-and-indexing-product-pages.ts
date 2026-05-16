@@ -210,8 +210,7 @@ export const crawlingAndIndexingProductPages: AcademyTopic = {
     fr: {
       badge: "Fondamentaux de la recherche",
       heading: "Crawl et indexation des pages produits",
-      intro:
-        "Le fait que Google explore vos pages ne garantit pas qu'elles appara\u00eetront dans les r\u00e9sultats de recherche. L'exploration et l'indexation sont deux processus distincts, et comprendre l'\u00e9cart entre les deux est essentiel pour toute boutique g\u00e9rant des milliers d'URLs de produits.",
+      intro: "Le fait que Google explore vos pages ne garantit pas qu'elles appara\u00eetront dans les r\u00e9sultats de recherche. L'exploration et l'indexation sont deux processus distincts, et comprendre l'\u00e9cart entre les deux est essentiel pour toute boutique g\u00e9rant des milliers d'URLs de produits.",
       readTime: "10 min de lecture",
       sections: [
         {
@@ -226,12 +225,12 @@ export const crawlingAndIndexingProductPages: AcademyTopic = {
           ],
           image: {
             src: "/images/academy/fr/crawled-vs-indexed-funnel.svg",
-            alt: "Trichterdiagramm das zeigt, wie 20.000 Shop-URLs sich auf nur 10.000 indexierte Seiten durch Entdeckungs-, Crawling- und Indexierungsstufen reduzieren",
-            caption: "Ein typischer Shop verliert 50\u00a0% seiner Seiten zwischen Entdeckung und Indexierung. Jede Stufe filtert URLs aus unterschiedlichen Gr\u00fcnden aus.",
+            alt: "Diagramme en entonnoir montrant comment 20 000 URL de magasin se réduisent à seulement 10 000 pages indexées via les étapes de découverte, d'exploration et d'indexation",
+            caption: "Une boutique typique perd 50 % de ses pages entre la découverte et l’indexation. Chaque étape filtre les URL pour différentes raisons.",
           },
           callout: {
             title: "Versteckte Chance",
-            text: "F\u00fcr einen Shop mit 20.000 Produktseiten sind 30\u201350\u00a0% typischerweise nicht indexiert. Das bedeutet 6.000 bis 10.000 Produkte sind in den Suchergebnissen unsichtbar und generieren null organischen Traffic.",
+            text: "Pour un magasin comportant 20 000 pages de produits, 30 à 50 % ne sont généralement pas indexées. Cela signifie que 6 000 à 10 000 produits sont invisibles dans les résultats de recherche, générant un trafic organique nul.",
           },
         },
         {
@@ -265,12 +264,12 @@ export const crawlingAndIndexingProductPages: AcademyTopic = {
           ],
           image: {
             src: "/images/academy/fr/index-bloat-filter-math.svg",
-            alt: "Diagramm das zeigt, wie Facettennavigationsfilter sich multiplizieren und 1.600 wertlose URLs aus einer einzigen Kategorie erzeugen",
-            caption: "Eine einzelne Kategorie mit 4 Filtertypen kann 1.600+ URLs erzeugen. Die meisten davon sollten von der Indexierung ausgeschlossen werden.",
+            alt: "Diagramme montrant comment les filtres de navigation à facettes se multiplient pour créer 1 600 URL de faible valeur à partir d'une seule catégorie",
+            caption: "Une seule catégorie avec 4 types de filtres peut générer plus de 1 600 URL. L'indexation de la plupart d'entre eux devrait être bloquée.",
           },
           callout: {
             title: "Filter-Mathematik",
-            text: "Eine Sofa-Kategorie mit 10 Farben, 8 Materialien, 5 Preisbereichen und 4 Sitz-Optionen erzeugt 1.600 Filter-URLs. \u00dcber 20 Kategorien sind das 32.000 wertlose Seiten, die mit Ihren echten Produktseiten um das Crawl-Budget konkurrieren.",
+            text: "Une catégorie de canapés avec 10 couleurs, 8 matériaux, 5 gammes de prix et 4 options de sièges génère 1 600 URL de filtres. Sur 20 catégories, soit 32 000 pages de faible valeur en concurrence avec vos vraies pages produits",
           },
         },
         {
@@ -311,8 +310,7 @@ export const crawlingAndIndexingProductPages: AcademyTopic = {
     es: {
       badge: "Fundamentos de b\u00fasqueda",
       heading: "Rastreo e indexaci\u00f3n de p\u00e1ginas de producto",
-      intro:
-        "Que Google rastree tus p\u00e1ginas no garantiza que aparecer\u00e1n en los resultados de b\u00fasqueda. El rastreo y la indexaci\u00f3n son dos procesos separados, y entender la brecha entre ambos es cr\u00edtico para cualquier tienda que gestione miles de URLs de producto.",
+      intro: "Qué Google rastree tus p\u00e1ginas no garantiza que aparecer\u00e1n en los resultados de b\u00fasqueda. El rastreo y la indexaci\u00f3n son dos procesos separados, y entender la brecha entre ambos es cr\u00edtico para cualquier tienda que gestione miles de URLs de producto.",
       readTime: "10 min de lectura",
       sections: [
         {
@@ -327,12 +325,12 @@ export const crawlingAndIndexingProductPages: AcademyTopic = {
           ],
           image: {
             src: "/images/academy/es/crawled-vs-indexed-funnel.svg",
-            alt: "Trichterdiagramm das zeigt, wie 20.000 Shop-URLs sich auf nur 10.000 indexierte Seiten durch Entdeckungs-, Crawling- und Indexierungsstufen reduzieren",
-            caption: "Ein typischer Shop verliert 50\u00a0% seiner Seiten zwischen Entdeckung und Indexierung. Jede Stufe filtert URLs aus unterschiedlichen Gr\u00fcnden aus.",
+            alt: "Diagrama de embudo que muestra cómo 20 000 URL de tiendas se reducen a solo 10 000 páginas indexadas a través de las etapas de descubrimiento, rastreo e indexación.",
+            caption: "Una tienda típica pierde el 50% de sus páginas entre el descubrimiento y la indexación. Cada etapa filtra las URL por diferentes motivos.",
           },
           callout: {
             title: "Versteckte Chance",
-            text: "F\u00fcr einen Shop mit 20.000 Produktseiten sind 30\u201350\u00a0% typischerweise nicht indexiert. Das bedeutet 6.000 bis 10.000 Produkte sind in den Suchergebnissen unsichtbar und generieren null organischen Traffic.",
+            text: "Para una tienda con 20.000 páginas de productos, entre el 30% y el 50% normalmente no están indexadas. Eso significa que entre 6.000 y 10.000 productos son invisibles en los resultados de búsqueda, lo que genera cero tráfico orgánico.",
           },
         },
         {
@@ -366,12 +364,12 @@ export const crawlingAndIndexingProductPages: AcademyTopic = {
           ],
           image: {
             src: "/images/academy/es/index-bloat-filter-math.svg",
-            alt: "Diagramm das zeigt, wie Facettennavigationsfilter sich multiplizieren und 1.600 wertlose URLs aus einer einzigen Kategorie erzeugen",
-            caption: "Eine einzelne Kategorie mit 4 Filtertypen kann 1.600+ URLs erzeugen. Die meisten davon sollten von der Indexierung ausgeschlossen werden.",
+            alt: "Diagrama que muestra cómo los filtros de navegación por facetas se multiplican para crear 1600 URL de bajo valor a partir de una sola categoría.",
+            caption: "Una sola categoría con 4 tipos de filtros puede generar más de 1600 URL. La mayoría de estos deberían bloquearse para que no puedan indexarse.",
           },
           callout: {
             title: "Filter-Mathematik",
-            text: "Eine Sofa-Kategorie mit 10 Farben, 8 Materialien, 5 Preisbereichen und 4 Sitz-Optionen erzeugt 1.600 Filter-URLs. \u00dcber 20 Kategorien sind das 32.000 wertlose Seiten, die mit Ihren echten Produktseiten um das Crawl-Budget konkurrieren.",
+            text: "Una categoría de sofá con 10 colores, 8 materiales, 5 rangos de precios y 4 opciones de asientos genera 1600 URL de filtro. En 20 categorías, es decir, 32.000 páginas de bajo valor que compiten con las páginas de sus productos reales.",
           },
         },
         {
@@ -428,12 +426,12 @@ export const crawlingAndIndexingProductPages: AcademyTopic = {
           ],
           image: {
             src: "/images/academy/it/crawled-vs-indexed-funnel.svg",
-            alt: "Trichterdiagramm das zeigt, wie 20.000 Shop-URLs sich auf nur 10.000 indexierte Seiten durch Entdeckungs-, Crawling- und Indexierungsstufen reduzieren",
-            caption: "Ein typischer Shop verliert 50\u00a0% seiner Seiten zwischen Entdeckung und Indexierung. Jede Stufe filtert URLs aus unterschiedlichen Gr\u00fcnden aus.",
+            alt: "Diagramma a canalizzazione che mostra come 20.000 URL di negozi restringono il campo a sole 10.000 pagine indicizzate attraverso le fasi di scoperta, scansione e indicizzazione",
+            caption: "Un tipico negozio perde il 50% delle sue pagine tra la scoperta e l'indicizzazione. Ogni fase filtra gli URL per motivi diversi.",
           },
           callout: {
             title: "Versteckte Chance",
-            text: "F\u00fcr einen Shop mit 20.000 Produktseiten sind 30\u201350\u00a0% typischerweise nicht indexiert. Das bedeutet 6.000 bis 10.000 Produkte sind in den Suchergebnissen unsichtbar und generieren null organischen Traffic.",
+            text: "Per un negozio con 20.000 pagine di prodotti, in genere il 30-50% non viene indicizzato. Ciò significa che dai 6.000 ai 10.000 prodotti sono invisibili nei risultati di ricerca, generando zero traffico organico.",
           },
         },
         {
@@ -467,12 +465,12 @@ export const crawlingAndIndexingProductPages: AcademyTopic = {
           ],
           image: {
             src: "/images/academy/it/index-bloat-filter-math.svg",
-            alt: "Diagramm das zeigt, wie Facettennavigationsfilter sich multiplizieren und 1.600 wertlose URLs aus einer einzigen Kategorie erzeugen",
-            caption: "Eine einzelne Kategorie mit 4 Filtertypen kann 1.600+ URLs erzeugen. Die meisten davon sollten von der Indexierung ausgeschlossen werden.",
+            alt: "Diagramma che mostra come i filtri di navigazione a faccette si moltiplicano per creare 1.600 URL di basso valore da una singola categoria",
+            caption: "Una singola categoria con 4 tipi di filtro può generare oltre 1.600 URL. Alla maggior parte di questi dovrebbe essere bloccata l'indicizzazione.",
           },
           callout: {
             title: "Filter-Mathematik",
-            text: "Eine Sofa-Kategorie mit 10 Farben, 8 Materialien, 5 Preisbereichen und 4 Sitz-Optionen erzeugt 1.600 Filter-URLs. \u00dcber 20 Kategorien sind das 32.000 wertlose Seiten, die mit Ihren echten Produktseiten um das Crawl-Budget konkurrieren.",
+            text: "Una categoria di divani con 10 colori, 8 materiali, 5 fasce di prezzo e 4 opzioni di seduta genera 1.600 URL di filtro. In 20 categorie, ovvero 32.000 pagine di basso valore in competizione con le pagine dei tuoi prodotti reali",
           },
         },
         {
@@ -529,12 +527,12 @@ export const crawlingAndIndexingProductPages: AcademyTopic = {
           ],
           image: {
             src: "/images/academy/nl/crawled-vs-indexed-funnel.svg",
-            alt: "Trichterdiagramm das zeigt, wie 20.000 Shop-URLs sich auf nur 10.000 indexierte Seiten durch Entdeckungs-, Crawling- und Indexierungsstufen reduzieren",
-            caption: "Ein typischer Shop verliert 50\u00a0% seiner Seiten zwischen Entdeckung und Indexierung. Jede Stufe filtert URLs aus unterschiedlichen Gr\u00fcnden aus.",
+            alt: "Trechterdiagram dat laat zien hoe 20.000 winkel-URL's worden teruggebracht tot slechts 10.000 geïndexeerde pagina's via ontdekkings-, crawl- en indexeringsfasen",
+            caption: "Een gemiddelde winkel verliest 50% van zijn pagina's tussen ontdekking en indexering. Elke fase filtert URL's om verschillende redenen uit.",
           },
           callout: {
             title: "Versteckte Chance",
-            text: "F\u00fcr einen Shop mit 20.000 Produktseiten sind 30\u201350\u00a0% typischerweise nicht indexiert. Das bedeutet 6.000 bis 10.000 Produkte sind in den Suchergebnissen unsichtbar und generieren null organischen Traffic.",
+            text: "Voor een winkel met 20.000 productpagina's wordt doorgaans 30-50% niet geïndexeerd. Dat betekent dat 6.000 tot 10.000 producten onzichtbaar zijn in de zoekresultaten en geen organisch verkeer genereren.",
           },
         },
         {
@@ -568,12 +566,12 @@ export const crawlingAndIndexingProductPages: AcademyTopic = {
           ],
           image: {
             src: "/images/academy/nl/index-bloat-filter-math.svg",
-            alt: "Diagramm das zeigt, wie Facettennavigationsfilter sich multiplizieren und 1.600 wertlose URLs aus einer einzigen Kategorie erzeugen",
-            caption: "Eine einzelne Kategorie mit 4 Filtertypen kann 1.600+ URLs erzeugen. Die meisten davon sollten von der Indexierung ausgeschlossen werden.",
+            alt: "Diagram dat laat zien hoe gefacetteerde navigatiefilters zich vermenigvuldigen om 1600 URL's met een lage waarde uit één categorie te creëren",
+            caption: "Eén categorie met vier filtertypen kan meer dan 1600 URL's genereren. De meeste hiervan moeten worden geblokkeerd voor indexering.",
           },
           callout: {
             title: "Filter-Mathematik",
-            text: "Eine Sofa-Kategorie mit 10 Farben, 8 Materialien, 5 Preisbereichen und 4 Sitz-Optionen erzeugt 1.600 Filter-URLs. \u00dcber 20 Kategorien sind das 32.000 wertlose Seiten, die mit Ihren echten Produktseiten um das Crawl-Budget konkurrieren.",
+            text: "Een bankcategorie met 10 kleuren, 8 materialen, 5 prijsklassen en 4 zitopties genereert 1.600 filter-URL's. In 20 categorieën zijn dat 32.000 pagina's met een lage waarde die concurreren met uw echte productpagina's",
           },
         },
         {

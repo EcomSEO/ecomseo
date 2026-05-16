@@ -152,8 +152,7 @@ items: [
     fr: {
       badge: "SEO par plateforme",
       heading: "Guide SEO WooCommerce",
-      intro:
-        "WooCommerce fonctionne sur WordPress, donnant aux proprietaires de boutiques acces a la boite a outils SEO la plus flexible disponible pour le commerce en ligne. Avec un controle total sur les URLs, la configuration serveur et des milliers de plugins, WooCommerce permet une optimisation granulaire que les plateformes hebergees ne peuvent pas offrir. Cette flexibilite implique egalement plus de decisions et plus de risques de mauvaise configuration. Pour un contexte plus large sur l'optimisation e-commerce, consultez notre aperçu du [SEO technique pour l'e-commerce](/blog/technical-seo-for-ecommerce).",
+      intro: "WooCommerce fonctionne sur WordPress, donnant aux proprietaires de boutiques acces a la boite a outils SEO la plus flexible disponible pour le commerce en ligne. Avec un contrôle total sur les URLs, la configuration serveur et des milliers de plugins, WooCommerce permet une optimisation granulaire que les plateformes hebergees ne peuvent pas offrir. Cette flexibilite implique egalement plus de décisions et plus de risques de mauvaise configuration. Pour un contexte plus large sur l'optimisation e-commerce, consultez notre aperçu du [SEO technique pour l'e-commerce](/blog/technical-seo-for-ecommerce).",
       readTime: "13 min de lecture",
       sections: [
         {
@@ -174,16 +173,16 @@ items: [
           ],
           image: {
             src: "/images/academy/fr/woocommerce-seo-plugins.svg",
-            alt: "WooCommerce SEO-Plugin-Vergleich: Yoast SEO, RankMath und SEOPress mit Funktionsmatrix",
-            caption: "Alle drei Plugins bieten solide WooCommerce-Integration. RankMath bietet das beste Preis-Leistungs-Verhaeltnis.",
+            alt: "Tableau de comparaison des fonctionnalités de Yoast, Rank Math et SEOPress pour WooCommerce SEO",
+            caption: "Les trois plugins répondent aux exigences de base du référencement. Rank Math offre le plus de fonctionnalités gratuites ; SEOPress est le plus léger en termes de charge de base de données.",
           },
           callout: {
             title: "Plugin-Wechsel",
-            text: "Der Wechsel zwischen SEO-Plugins kann Meta-Daten zuruecksetzen, wenn nicht sorgfaeltig migriert wird. Verwenden Sie Migrations-Tools und pruefen Sie alle Title-Tags und Meta-Beschreibungen nach dem Wechsel.",
+            text: "Pour les magasins proposant plus de 10 000 produits, SEOPress génère moins de requêtes de base de données que Yoast ou Rank Math. Cette différence devient perceptible dans les temps de chargement du panneau d'administration lors de la modification de produits en masse.chsel.",
           },
         },
         {
-          title: "Optimisation base de donnees et hebergement pour le SEO",
+          title: "Optimisation basé de données et hebergement pour le SEO",
           content:
             "La performance de WooCommerce depend fortement de votre environnement d'hebergement et de l'optimisation de la base de donnees. Contrairement aux plateformes hebergees comme Shopify, vous portez l'entiere responsabilite de la vitesse du serveur, qui impacte directement les Core Web Vitals et l'efficacite du crawl.\n\nChoisissez un hebergeur offrant un cache au niveau serveur (Varnish, LiteSpeed Cache ou NGINX FastCGI cache), PHP 8.1 ou plus recent, et MySQL ou MariaDB avec des caches de requetes correctement configures. L'hebergement mutualise produit frequemment des TTFB superieurs a 600 millisecondes.\n\nL'optimisation de la base de donnees devient cruciale a mesure que votre catalogue grandit. WooCommerce stocke les meta-donnees dans la table wp_postmeta, qui peut atteindre des millions de lignes pour les boutiques avec des milliers de produits. WordPress 6.1 a introduit le High-Performance Order Storage (HPOS) qui deplace les donnees de commandes dans des tables personnalisees.\n\nInstallez un plugin de cache de pages et une couche de cache d'objets (Redis ou Memcached). Le cache de pages sert du HTML pre-genere aux visiteurs et aux robots, reduisant drastiquement le temps de reponse du serveur. Les performances de WooCommerce dépendent fortement de votre environnement d'hébergement et de l'optimisation de la base de données, ce qui impacte directement l'[optimisation de la vitesse du site](/academy/site-speed-optimization).",
         },
@@ -205,12 +204,12 @@ items: [
           ],
           image: {
             src: "/images/academy/fr/woocommerce-image-pipeline.svg",
-            alt: "WooCommerce Bildoptimierungs-Pipeline: Upload, Komprimierung, Groessenanpassung, Konvertierung und Auslieferung",
-            caption: "Automatisieren Sie die Bildoptimierung mit Plugins wie ShortPixel oder Imagify fuer konsistente Leistung.",
+            alt: "Pipeline d'optimisation d'image WooCommerce, du téléchargement à la conversion WebP jusqu'à la livraison à chargement différé",
+            caption: "Chaque image de produit passe par la conversion, le redimensionnement et le chargement intelligent. Un produit avec 5 photos crée plus de 20 fichiers serveur.",
           },
           callout: {
             title: "Bild-SEO-Basics",
-            text: "Alt-Text und beschreibende Dateinamen sind die am haeufigsten uebersehenen SEO-Gewinne bei WooCommerce-Shops. Jedes Produktbild sollte Alt-Text mit dem Produktnamen und relevanten Keywords haben.",
+            text: "La conversion de JPEG en WebP réduit la taille du fichier de 25 à 35 % sans perte de qualité visible. Pour un magasin avec 5 000 images de produits, cela peut économiser 2 à 5 Go de bande passante par mois et améliorer considérablement le score LCP.",
           },
         },
         {
@@ -224,12 +223,11 @@ items: [
     es: {
       badge: "SEO por plataforma",
       heading: "Guia SEO para WooCommerce",
-      intro:
-        "WooCommerce funciona sobre WordPress, dando a los propietarios de tiendas acceso al conjunto de herramientas SEO mas flexible disponible para comercio electronico. Con control total sobre URLs, configuracion del servidor y miles de plugins, WooCommerce permite una optimizacion granular que las plataformas alojadas no pueden igualar. Esa flexibilidad tambien significa mas decisiones y mas potencial de errores de configuracion. Para un contexto mas amplio sobre optimizacion de ecommerce, consulta nuestra vision general de [SEO tecnico para ecommerce](/blog/technical-seo-for-ecommerce).",
+      intro: "WooCommerce funciona sobre WordPress, dando a los propietarios de tiendas acceso al conjunto de herramientas SEO mas flexible disponible para comercio electrónico. Con control total sobre URLs, configuración del servidor y miles de plugins, WooCommerce permite una optimización granular que las plataformas alojadas no pueden igualar. Esa flexibilidad tambien significa mas decisiones y mas potencial de errores de configuración. Para un contexto mas amplio sobre optimización de ecommerce, consulta nuestra vision general de [SEO técnico para ecommerce](/blog/technical-seo-for-ecommerce).",
       readTime: "13 min de lectura",
       sections: [
         {
-          title: "Estructura de enlaces permanentes y optimizacion de URLs",
+          title: "Estructura de enlaces permanentes y optimización de URLs",
           content:
             "WordPress permite definir estructuras de enlaces permanentes personalizadas a traves de Ajustes > Enlaces permanentes. Para tiendas WooCommerce, el patron de URL de producto por defecto es /product/nombre-producto/, pero puedes modificar el slug base /product/ o eliminarlo por completo usando plugins o reglas de reescritura personalizadas.\n\nEl enfoque mas amigable para SEO es mantener URLs cortas y descriptivas. Muchos propietarios eliminan los slugs base /product-category/ y /product/ para conseguir URLs mas limpias. Sin embargo, eliminar estas bases crea riesgo de conflictos de URL entre productos, categorias, paginas y entradas que comparten slugs similares.\n\nWooCommerce tambien genera URLs con parametros de consulta para listados de productos filtrados y ordenados. Estas URLs parametrizadas pueden crear contenido duplicado masivo si Google las indexa. Configura tu plugin SEO para agregar directivas noindex a URLs filtradas.\n\nPara tiendas con catalogos grandes, considera implementar navegacion facetada con filtrado basado en AJAX que no genere nuevas URLs.",
           tip: "Despues de cambiar la estructura de enlaces permanentes, usa una herramienta de buscar y reemplazar en base de datos como Better Search Replace para actualizar los enlaces internos en las descripciones de productos.",
@@ -246,16 +244,16 @@ items: [
           ],
           image: {
             src: "/images/academy/es/woocommerce-seo-plugins.svg",
-            alt: "WooCommerce SEO-Plugin-Vergleich: Yoast SEO, RankMath und SEOPress mit Funktionsmatrix",
-            caption: "Alle drei Plugins bieten solide WooCommerce-Integration. RankMath bietet das beste Preis-Leistungs-Verhaeltnis.",
+            alt: "Tabla comparativa de funciones de Yoast, Rank Math y SEOPress para WooCommerce SEO",
+            caption: "Los tres complementos manejan los requisitos básicos de SEO. Rank Math ofrece la mayor cantidad de funciones gratuitas; SEOPress es el más ligero en cuanto a carga de base de datos.",
           },
           callout: {
             title: "Plugin-Wechsel",
-            text: "Der Wechsel zwischen SEO-Plugins kann Meta-Daten zuruecksetzen, wenn nicht sorgfaeltig migriert wird. Verwenden Sie Migrations-Tools und pruefen Sie alle Title-Tags und Meta-Beschreibungen nach dem Wechsel.",
+            text: "Para tiendas con más de 10.000 productos, SEOPress genera menos consultas a la base de datos que Yoast o Rank Math. Esta diferencia se nota en los tiempos de carga del panel de administración cuando se editan productos de forma masiva.chsel.",
           },
         },
         {
-          title: "Optimizacion de base de datos y hosting para SEO",
+          title: "Optimización de base de datos y hosting para SEO",
           content:
             "El rendimiento de WooCommerce depende en gran medida del entorno de hosting y la optimizacion de la base de datos. A diferencia de plataformas alojadas como Shopify, tu llevas la responsabilidad total de la velocidad del servidor, que impacta directamente en los Core Web Vitals y la eficiencia del rastreo.\n\nElige un proveedor de hosting que ofrezca cache a nivel de servidor (Varnish, LiteSpeed Cache o NGINX FastCGI cache), PHP 8.1 o mas reciente, y MySQL o MariaDB con caches de consultas correctamente configurados. El hosting compartido frecuentemente produce valores de TTFB superiores a 600 milisegundos.\n\nLa optimizacion de la base de datos es cada vez mas relevante conforme crece el catalogo de productos. WooCommerce almacena meta-datos en la tabla wp_postmeta, que puede crecer a millones de filas. WordPress 6.1 introdujo el High-Performance Order Storage (HPOS) que mueve datos de pedidos a tablas personalizadas.\n\nInstala un plugin de cache de paginas y una capa de cache de objetos (Redis o Memcached). El cache de paginas sirve HTML pre-construido a visitantes y rastreadores, reduciendo drasticamente el tiempo de respuesta del servidor. El rendimiento de WooCommerce depende en gran medida de tu entorno de hosting y la optimizacion de la base de datos, lo que impacta directamente la [optimizacion de velocidad del sitio](/academy/site-speed-optimization).",
         },
@@ -266,7 +264,7 @@ items: [
           tip: "Prueba tu marcado schema en una pagina de producto, una pagina de producto variable y una pagina de categoria. Los productos variables a menudo producen errores de schema porque cada variacion necesita su propio elemento Oferta.",
         },
         {
-          title: "Optimizacion de imagenes y medios en WooCommerce",
+          title: "Optimización de imagenes y medios en WooCommerce",
           content:
             "Las imagenes de productos son tipicamente los archivos mas grandes en cualquier pagina de comercio electronico, haciendo la optimizacion de imagenes critica para el rendimiento de Core Web Vitals. WooCommerce genera multiples tamanos de imagen para cada foto de producto subida, lo que significa que un solo producto con cinco imagenes puede crear 20 o mas archivos.\n\nConvierte todas las imagenes de productos al formato WebP usando un plugin como ShortPixel, Imagify o EWWW Image Optimizer. Los archivos WebP son entre un 25 y un 35 por ciento mas pequenos que los archivos JPEG equivalentes sin perdida visible de calidad.\n\nImplementa carga diferida para imagenes de galeria, carruseles de productos relacionados y cualquier imagen debajo del pliegue. WordPress 5.5+ incluye carga diferida nativa, pero verifica que funcione en tus plantillas WooCommerce. La imagen principal del producto sobre el pliegue no debe cargarse de manera diferida.\n\nEstablece atributos de ancho y alto explicitos en todos los elementos de imagen para prevenir el Cumulative Layout Shift.",
           items: [
@@ -277,12 +275,12 @@ items: [
           ],
           image: {
             src: "/images/academy/es/woocommerce-image-pipeline.svg",
-            alt: "WooCommerce Bildoptimierungs-Pipeline: Upload, Komprimierung, Groessenanpassung, Konvertierung und Auslieferung",
-            caption: "Automatisieren Sie die Bildoptimierung mit Plugins wie ShortPixel oder Imagify fuer konsistente Leistung.",
+            alt: "Canal de optimización de imágenes de WooCommerce desde la carga hasta la conversión WebP y la entrega con carga diferida",
+            caption: "Cada imagen de producto pasa por conversión, cambio de tamaño y carga inteligente. Un producto con 5 fotos crea más de 20 archivos de servidor.",
           },
           callout: {
             title: "Bild-SEO-Basics",
-            text: "Alt-Text und beschreibende Dateinamen sind die am haeufigsten uebersehenen SEO-Gewinne bei WooCommerce-Shops. Jedes Produktbild sollte Alt-Text mit dem Produktnamen und relevanten Keywords haben.",
+            text: "La conversión de JPEG a WebP reduce el tamaño del archivo entre un 25 y un 35 % sin pérdida visible de calidad. Para una tienda con 5000 imágenes de productos, esto puede ahorrar entre 2 y 5 GB de ancho de banda por mes y mejorar considerablemente la puntuación LCP.",
           },
         },
         {
@@ -318,12 +316,12 @@ items: [
           ],
           image: {
             src: "/images/academy/it/woocommerce-seo-plugins.svg",
-            alt: "WooCommerce SEO-Plugin-Vergleich: Yoast SEO, RankMath und SEOPress mit Funktionsmatrix",
-            caption: "Alle drei Plugins bieten solide WooCommerce-Integration. RankMath bietet das beste Preis-Leistungs-Verhaeltnis.",
+            alt: "Tabella comparativa delle funzionalità di Yoast, Rank Math e SEOPress per WooCommerce SEO",
+            caption: "Tutti e tre i plugin gestiscono i requisiti SEO fondamentali. Rank Math offre le funzionalità più gratuite; SEOPress è il più leggero in termini di caricamento del database.",
           },
           callout: {
             title: "Plugin-Wechsel",
-            text: "Der Wechsel zwischen SEO-Plugins kann Meta-Daten zuruecksetzen, wenn nicht sorgfaeltig migriert wird. Verwenden Sie Migrations-Tools und pruefen Sie alle Title-Tags und Meta-Beschreibungen nach dem Wechsel.",
+            text: "Per i negozi con oltre 10.000 prodotti, SEOPress genera meno query sul database rispetto a Yoast o Rank Math. Questa differenza diventa evidente nei tempi di caricamento del pannello di amministrazione quando si modificano i prodotti in blocco.chsel.",
           },
         },
         {
@@ -349,12 +347,12 @@ items: [
           ],
           image: {
             src: "/images/academy/it/woocommerce-image-pipeline.svg",
-            alt: "WooCommerce Bildoptimierungs-Pipeline: Upload, Komprimierung, Groessenanpassung, Konvertierung und Auslieferung",
-            caption: "Automatisieren Sie die Bildoptimierung mit Plugins wie ShortPixel oder Imagify fuer konsistente Leistung.",
+            alt: "Pipeline di ottimizzazione delle immagini WooCommerce dal caricamento alla conversione WebP alla consegna con caricamento lento",
+            caption: "Ogni immagine del prodotto passa attraverso la conversione, il ridimensionamento e il caricamento intelligente. Un prodotto con 5 foto crea oltre 20 file sul server.",
           },
           callout: {
             title: "Bild-SEO-Basics",
-            text: "Alt-Text und beschreibende Dateinamen sind die am haeufigsten uebersehenen SEO-Gewinne bei WooCommerce-Shops. Jedes Produktbild sollte Alt-Text mit dem Produktnamen und relevanten Keywords haben.",
+            text: "La conversione da JPEG a WebP riduce le dimensioni del file del 25-35% senza perdita di qualità visibile. Per un negozio con 5.000 immagini di prodotti, ciò può far risparmiare 2-5 GB di larghezza di banda al mese e migliorare in modo misurabile il punteggio LCP",
           },
         },
         {
@@ -390,12 +388,12 @@ items: [
           ],
           image: {
             src: "/images/academy/nl/woocommerce-seo-plugins.svg",
-            alt: "WooCommerce SEO-Plugin-Vergleich: Yoast SEO, RankMath und SEOPress mit Funktionsmatrix",
-            caption: "Alle drei Plugins bieten solide WooCommerce-Integration. RankMath bietet das beste Preis-Leistungs-Verhaeltnis.",
+            alt: "Functievergelijkingstabel van Yoast, Rank Math en SEOPress voor WooCommerce SEO",
+            caption: "Alle drie de plug-ins voldoen aan de belangrijkste SEO-vereisten. Rank Math biedt de meest gratis functies; SEOPress is het lichtst wat betreft databasebelasting.",
           },
           callout: {
             title: "Plugin-Wechsel",
-            text: "Der Wechsel zwischen SEO-Plugins kann Meta-Daten zuruecksetzen, wenn nicht sorgfaeltig migriert wird. Verwenden Sie Migrations-Tools und pruefen Sie alle Title-Tags und Meta-Beschreibungen nach dem Wechsel.",
+            text: "Voor winkels met meer dan 10.000 producten genereert SEOPress minder databasequery's dan Yoast of Rank Math. Dit verschil wordt merkbaar in de laadtijden van het beheerderspaneel bij het bulksgewijs bewerken van producten.chsel.",
           },
         },
         {
@@ -421,12 +419,12 @@ items: [
           ],
           image: {
             src: "/images/academy/nl/woocommerce-image-pipeline.svg",
-            alt: "WooCommerce Bildoptimierungs-Pipeline: Upload, Komprimierung, Groessenanpassung, Konvertierung und Auslieferung",
-            caption: "Automatisieren Sie die Bildoptimierung mit Plugins wie ShortPixel oder Imagify fuer konsistente Leistung.",
+            alt: "WooCommerce-pijplijn voor beeldoptimalisatie, van uploaden via WebP-conversie tot luie levering",
+            caption: "Elke productafbeelding ondergaat conversie, formaatwijziging en slim laden. Eén product met 5 foto's creëert meer dan 20 serverbestanden.",
           },
           callout: {
             title: "Bild-SEO-Basics",
-            text: "Alt-Text und beschreibende Dateinamen sind die am haeufigsten uebersehenen SEO-Gewinne bei WooCommerce-Shops. Jedes Produktbild sollte Alt-Text mit dem Produktnamen und relevanten Keywords haben.",
+            text: "Het converteren van JPEG naar WebP verkleint de bestandsgrootte met 25-35% zonder zichtbaar kwaliteitsverlies. Voor een winkel met 5.000 productafbeeldingen kan dit 2-5 GB aan bandbreedte per maand besparen en de LCP-score meetbaar verbeteren",
           },
         },
         {

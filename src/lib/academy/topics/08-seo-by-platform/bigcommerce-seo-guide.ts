@@ -192,12 +192,11 @@ items: [
     fr: {
       badge: "SEO par plateforme",
       heading: "Guide SEO BigCommerce",
-      intro:
-        "BigCommerce dispose de fonctionnalites SEO natives qui rivalisent avec ou depassent celles de nombreuses plateformes e-commerce concurrentes. Ses structures d'URL propres, son CDN integre et ses options de personnalisation flexibles offrent aux marchands une base solide pour la recherche organique. Cependant, exploiter pleinement le potentiel SEO de BigCommerce necessite de comprendre son architecture unique, ses comportements par defaut et les domaines ou l'optimisation manuelle reste necessaire. Pour les fondamentaux techniques inter-plateformes, consultez notre guide sur le [SEO technique pour l'e-commerce](/blog/technical-seo-for-ecommerce).",
+      intro: "BigCommerce dispose de fonctionnalités SEO natives qui rivalisent avec ou depassent celles de nombreuses plateformes e-commerce concurrentes. Ses structures d'URL propres, son CDN integre et ses options de personnalisation flexibles offrent aux marchands une base solide pour la recherche organique. Cependant, exploiter pleinement le potentiel SEO de BigCommerce nécessite de comprendre son architecture unique, ses comportements par defaut et les domaines ou l'optimisation manuelle reste nécessaire. Pour les fondamentaux techniques inter-plateformes, consultez notre guide sur le [SEO technique pour l'e-commerce](/blog/technical-seo-for-ecommerce).",
       readTime: "10 min de lecture",
       sections: [
         {
-          title: "Structure URL de BigCommerce et controle des permaliens",
+          title: "Structure URL de BigCommerce et contrôle des permaliens",
           content:
             "BigCommerce offre l'une des structures d'URL les plus favorables au SEO parmi les plateformes e-commerce hebergees. Contrairement a Shopify, qui impose les prefixes /products/ et /collections/, BigCommerce permet des chemins d'URL entierement personnalisables. Les URLs de produits peuvent se situer directement sous le domaine racine (par ex. /chaussures-course-bleues/) sans prefixes de categorie ou de dossier obligatoires.\n\nLa plateforme propose trois options de format d'URL dans les parametres de la boutique : URLs optimisees pour le SEO, URLs courtes et URLs avec chemin de categorie. Le format optimise SEO est le choix par defaut et recommande, car il cree des slugs propres et riches en mots-cles sans imbrication inutile. Les URLs avec chemin de categorie peuvent etre utiles pour l'autorite thematique mais creent des URLs plus longues et des problemes potentiels de contenu duplique.\n\nBigCommerce genere automatiquement des balises canoniques pour les pages produit afin de gerer les scenarios ou le meme produit est accessible via differents chemins de categorie. Vous devriez auditer regulierement ces balises canoniques, en particulier apres la reorganisation de votre structure de categories.\n\nLes redirections d'URL personnalisees peuvent etre gerees via le panneau d'administration BigCommerce ou via l'API pour les operations en masse. La plateforme prend en charge nativement les redirections 301 et 302, essentielles lors de la gestion du cycle de vie des produits et de la restructuration du catalogue.",
           items: [
@@ -209,16 +208,16 @@ items: [
           tip: "Lors de la migration vers BigCommerce depuis une autre plateforme, utilisez la fonction d'importation CSV de redirections 301 pour mapper toutes les anciennes URLs avant le lancement. Testez chaque categorie de redirection avec un crawler pour detecter les chaines ou boucles de redirection.",
           image: {
             src: "/images/academy/fr/bigcommerce-url-formats.svg",
-            alt: "BigCommerce URL-Format-Optionen: SEO-optimiert, kurze URLs und Kategoriepfade mit Empfehlungen",
-            caption: "Waehlen Sie SEO-optimierte URLs in BigCommerce fuer flache, saubere URL-Strukturen ohne Duplikatrisiko.",
+            alt: "Comparaison des options de format d'URL BigCommerce : URL plates optimisées pour le référencement et URL classées par catégorie",
+            caption: "BigCommerce propose trois formats d'URL. La structure plate optimisée pour le référencement évite les préfixes forcés vus sur Shopify.",
           },
           callout: {
             title: "URL-Format-Warnung",
-            text: "Aendern Sie das URL-Format nicht nach dem Launch, ohne eine vollstaendige Redirect-Strategie. Eine nachtraegliche URL-Umstellung ohne 301-Redirects kann 30-50% des organischen Traffics kosten.",
+            text: "Contrairement aux chemins obligatoires /products/ et /collections/ de Shopify, BigCommerce permet aux produits de se trouver dans le domaine racine. Une URL telle que /blue-shoes/ est plus courte, plus propre et génère un CTR légèrement plus élevé dans les recherches.",
           },
         },
         {
-          title: "Fonctionnalites SEO integrees et configuration",
+          title: "Fonctionnalités SEO integrees et configuration",
           content:
             "BigCommerce est livre avec un ensemble robuste d'outils SEO natifs qui reduisent la dependance aux applications tierces. Chaque page produit, categorie et contenu expose des champs editables pour les titres de page, meta descriptions et slugs d'URL directement dans le panneau d'administration. La plateforme genere egalement automatiquement un sitemap XML complet qui se met a jour lorsque vous ajoutez ou supprimez des pages.\n\nLe sitemap integre inclut les pages produit, les pages de categorie, les pages de marque et les pages de contenu. Contrairement a certaines plateformes, BigCommerce vous permet de controler l'inclusion dans le sitemap au niveau de la page en basculant les parametres de visibilite. Les pages definies comme masquees sont automatiquement exclues du sitemap.\n\nBigCommerce fournit une optimisation automatique des images via son CDN Akamai, convertissant les images au format WebP et servant des versions de taille appropriee en fonction de l'appareil demandeur. Cette optimisation native des images impacte directement les scores Core Web Vitals sans necessite d'intervention manuelle.\n\nLa personnalisation du robots.txt est disponible via le panneau d'administration, vous permettant de bloquer des chemins specifiques du crawling. Ceci est particulierement utile pour filtrer les pages de resultats de recherche interne et les pages de compte client.",
           items: [
@@ -234,11 +233,11 @@ items: [
           },
           callout: {
             title: "Feature-Luecken",
-            text: "BigCommerce generiert automatisch grundlegendes Schema-Markup, aber fuer erweiterte Produktschemata mit Bewertungen, FAQ und Verfuegbarkeit benoetigen Sie eine App oder benutzerdefinierte Implementierung.",
+            text: "Le CDN Akamai de BigCommerce convertit automatiquement les images en WebP et propose des tailles adaptées à l'appareil. Cela gère l’optimisation des images que Shopify et WooCommerce nécessitent une configuration manuelle ou des plugins pour réaliser.ung.",
           },
         },
         {
-          title: "Personnalisation du theme et [donnees structurees](/academy/structured-data-for-products)",
+          title: "Personnalisation du theme et [données structurees](/academy/structured-data-for-products)",
           content:
             "Les themes BigCommerce sont construits sur le framework Stencil, qui utilise le templating Handlebars pour rendre les pages du storefront. Stencil donne aux developpeurs un controle granulaire sur la sortie HTML, la hierarchie des titres et le balisage des donnees structurees. Contrairement aux langages de template bases sur des balises, Handlebars separe la logique de la presentation, facilitant le maintien d'un HTML propre et semantique.\n\nLes donnees structurees sont le domaine ou BigCommerce se differencie reellement. La plateforme injecte automatiquement le schema JSON-LD Product sur les pages produit, incluant le prix, la disponibilite, le SKU, la marque et les donnees d'avis agreges lorsque les avis sont actives.\n\nToutefois, les donnees structurees par defaut n'incluent pas le schema breadcrumb, le schema FAQ ou le schema HowTo. Pour ceux-ci, vous devez modifier directement les templates du theme Stencil. Le schema breadcrumb peut etre ajoute au template de mise en page de base en iterant sur les donnees de navigation breadcrumb deja disponibles dans le contexte Stencil.\n\nLa hierarchie des titres necessite une attention particuliere dans les themes Stencil. Assurez-vous que le nom du produit utilise une balise H1, que les noms de categories utilisent H1 sur les pages de collection, et que le logo du site ou le nom de la boutique ne consomme pas l'element H1.",
           items: [
@@ -284,8 +283,7 @@ items: [
     es: {
       badge: "SEO por plataforma",
       heading: "Guia SEO para BigCommerce",
-      intro:
-        "BigCommerce cuenta con capacidades SEO nativas que igualan o superan a muchas plataformas de comercio electronico competidoras. Sus estructuras de URL limpias, CDN integrado y opciones de personalizacion flexibles brindan a los comerciantes una base solida para la busqueda organica. Sin embargo, desbloquear todo el potencial SEO de BigCommerce requiere comprender su arquitectura unica, comportamientos predeterminados y las areas donde la optimizacion manual sigue siendo necesaria. Para fundamentos tecnicos multiplataforma, consulta nuestra guia de [SEO tecnico para ecommerce](/blog/technical-seo-for-ecommerce).",
+      intro: "BigCommerce cuenta con capacidades SEO nativas que igualan o superan a muchas plataformas de comercio electrónico competidoras. Sus estructuras de URL limpias, CDN integrado y opciones de personalización flexibles brindan a los comerciantes una base solida para la busqueda organica. Sin embargo, desbloquear todo el potencial SEO de BigCommerce requiere comprender su arquitectura unica, comportamientos predeterminados y las areas donde la optimización manual sigue siendo necesaria. Para fundamentos técnicos multiplataforma, consulta nuestra guia de [SEO técnico para ecommerce](/blog/technical-seo-for-ecommerce).",
       readTime: "10 min de lectura",
       sections: [
         {
@@ -301,16 +299,16 @@ items: [
           tip: "Al migrar a BigCommerce desde otra plataforma, usa la funcion de importacion CSV de redirecciones 301 para mapear todas las URLs antiguas antes del lanzamiento. Prueba cada categoria de redireccion con un crawler para detectar cadenas o bucles de redireccion.",
           image: {
             src: "/images/academy/es/bigcommerce-url-formats.svg",
-            alt: "BigCommerce URL-Format-Optionen: SEO-optimiert, kurze URLs und Kategoriepfade mit Empfehlungen",
-            caption: "Waehlen Sie SEO-optimierte URLs in BigCommerce fuer flache, saubere URL-Strukturen ohne Duplikatrisiko.",
+            alt: "Comparación de las opciones de formato de URL de BigCommerce: URL planas optimizadas para SEO versus URL con ruta de categoría",
+            caption: "BigCommerce ofrece tres formatos de URL. La estructura plana optimizada para SEO evita los prefijos forzados que se ven en Shopify.",
           },
           callout: {
             title: "URL-Format-Warnung",
-            text: "Aendern Sie das URL-Format nicht nach dem Launch, ohne eine vollstaendige Redirect-Strategie. Eine nachtraegliche URL-Umstellung ohne 301-Redirects kann 30-50% des organischen Traffics kosten.",
+            text: "A diferencia de las rutas obligatorias /productos/ y /colecciones/ de Shopify, BigCommerce permite que los productos se encuentren en el dominio raíz. Una URL como /zapatos-azules/ es más corta, más limpia y obtiene un CTR ligeramente mayor en las búsquedas.",
           },
         },
         {
-          title: "Funciones SEO integradas y configuracion",
+          title: "Funciones SEO integradas y configuración",
           content:
             "BigCommerce incluye un conjunto robusto de herramientas SEO nativas que reducen la dependencia de aplicaciones de terceros. Cada pagina de producto, categoria y contenido expone campos editables para titulos de pagina, meta descripciones y slugs de URL directamente en el panel de administracion. La plataforma tambien genera automaticamente un mapa XML del sitio completo que se actualiza al agregar o eliminar paginas.\n\nEl sitemap integrado incluye paginas de producto, paginas de categoria, paginas de marca y paginas de contenido. A diferencia de algunas plataformas, BigCommerce permite controlar la inclusion en el sitemap a nivel de pagina alternando la configuracion de visibilidad. Las paginas marcadas como ocultas se excluyen automaticamente del sitemap.\n\nBigCommerce proporciona optimizacion automatica de imagenes a traves de su CDN Akamai, convirtiendo imagenes al formato WebP y sirviendo versiones de tamano apropiado segun el dispositivo solicitante. Esta optimizacion nativa de imagenes impacta directamente en las puntuaciones de Core Web Vitals sin requerir intervencion manual.\n\nLa personalizacion del robots.txt esta disponible a traves del panel de administracion, permitiendote bloquear rutas especificas del rastreo. Esto es particularmente util para filtrar paginas de resultados de busqueda interna y paginas de cuentas de clientes.",
           items: [
@@ -326,11 +324,11 @@ items: [
           },
           callout: {
             title: "Feature-Luecken",
-            text: "BigCommerce generiert automatisch grundlegendes Schema-Markup, aber fuer erweiterte Produktschemata mit Bewertungen, FAQ und Verfuegbarkeit benoetigen Sie eine App oder benutzerdefinierte Implementierung.",
+            text: "Akamai CDN de BigCommerce convierte automáticamente imágenes a WebP y ofrece tamaños apropiados para el dispositivo. Esto maneja la optimización de imágenes que Shopify y WooCommerce requieren configuración manual o complementos para lograr.ung.",
           },
         },
         {
-          title: "Personalizacion del tema y datos estructurados",
+          title: "Personalización del tema y datos estructurados",
           content:
             "Los temas de BigCommerce estan construidos sobre el framework Stencil, que utiliza el motor de plantillas Handlebars para renderizar las paginas del storefront. Stencil otorga a los desarrolladores control granular sobre la salida HTML, la jerarquia de encabezados y el marcado de [datos estructurados](/academy/structured-data-for-products). A diferencia de los lenguajes de plantillas basados en etiquetas, Handlebars separa la logica de la presentacion, facilitando el mantenimiento de HTML limpio y semantico.\n\nLos datos estructurados son donde BigCommerce realmente se diferencia. La plataforma inyecta automaticamente el schema JSON-LD Product en las paginas de producto, incluyendo precio, disponibilidad, SKU, marca y datos agregados de resenas cuando las resenas estan habilitadas.\n\nSin embargo, los datos estructurados predeterminados no incluyen schema de migas de pan, schema FAQ ni schema HowTo. Para estos, necesitas modificar directamente las plantillas del tema Stencil. El schema de migas de pan puede agregarse a la plantilla de diseno base iterando sobre los datos de navegacion de migas de pan ya disponibles en el contexto Stencil.\n\nLa jerarquia de encabezados requiere atencion cuidadosa en los temas Stencil. Asegurate de que el nombre del producto use una etiqueta H1, que los nombres de categorias usen H1 en las paginas de coleccion, y que el logotipo del sitio o el nombre de la tienda no consuma el elemento H1.",
           items: [
@@ -341,7 +339,7 @@ items: [
           ],
         },
         {
-          title: "Optimizacion de velocidad y Core Web Vitals",
+          title: "Optimización de velocidad y Core Web Vitals",
           content:
             "Las tiendas BigCommerce se benefician de un CDN global Akamai que entrega contenido desde servidores perimetrales mas cercanos al visitante. Esta ventaja de infraestructura significa que los tiempos de respuesta del servidor (Time to First Byte) son generalmente mas rapidos que las soluciones autoalojadas. Sin embargo, la velocidad de pagina aun depende en gran medida de la calidad del codigo del tema, los tamanos de imagen y la carga de scripts de terceros.\n\nEl Largest Contentful Paint (LCP) es la Core Web Vital mas impactante para el SEO de comercio electronico. En BigCommerce, el elemento LCP es tipicamente la imagen del banner hero o la imagen principal del producto. Optimizalos subiendo imagenes en las dimensiones exactas que tu tema requiere en lugar de depender unicamente del redimensionamiento automatico.\n\nLos problemas de Cumulative Layout Shift (CLS) en BigCommerce surgen comunmente de elementos cargados dinamicamente como banners promocionales, widgets de resenas y carruseles de recomendaciones de productos. Reserva dimensiones explicitas para estos elementos en tu CSS para evitar que el contenido se desplace al cargar la pagina.\n\nLos scripts de terceros de herramientas de analitica, widgets de chat y pixeles de marketing son la fuente principal de problemas de Total Blocking Time (TBT). Carga los scripts no esenciales de forma asincrona o difiere su ejecucion. El Script Manager de BigCommerce te permite controlar la ubicacion de scripts en el head o footer. Aplica los mismos principios de [optimizacion de velocidad del sitio](/academy/site-speed-optimization) que funcionan en todas las plataformas de ecommerce.",
           tip: "Usa la integracion de Google Lighthouse integrada en BigCommerce en el Page Builder para monitorizar las puntuaciones de Core Web Vitals mientras realizas cambios. Prueba tanto las puntuaciones moviles como de escritorio, ya que Google usa las puntuaciones moviles para el ranking.",
@@ -360,7 +358,7 @@ items: [
           tip: "Para tiendas con catalogos grandes, considera implementar un feed de productos a Google Merchant Center como senal de indexacion adicional. Google puede descubrir URLs de productos a traves del feed incluso si el acceso del rastreador a paginas profundamente paginadas es limitado.",
         },
         {
-          title: "Monitorizacion SEO de BigCommerce y optimizacion continua",
+          title: "Monitorizacion SEO de BigCommerce y optimización continua",
           content:
             "Un SEO efectivo en BigCommerce requiere monitorizacion continua mas alla de la configuracion inicial. Conecta Google Search Console y Google Analytics 4 para rastrear el estado de indexacion, tasas de clics y tendencias de trafico organico. BigCommerce proporciona una integracion nativa para ambas herramientas, haciendo que la configuracion sea sencilla a traves del panel de administracion.\n\nMonitoriza tu informe de cobertura de indice en Google Search Console semanalmente. Presta atencion especial a las paginas excluidas por noindex, paginas con errores de redireccion y paginas soft 404. Las tiendas BigCommerce comunmente generan problemas de soft 404 en paginas de productos agotados que muestran un estado vacio en lugar de un codigo de respuesta 404 correcto.\n\nConfigura alertas automatizadas para caidas significativas en paginas indexadas o trafico organico. Google Search Console proporciona notificaciones por correo electronico para problemas criticos, pero herramientas de monitorizacion de terceros como ContentKing o Lumar pueden proporcionar alertas en tiempo real.\n\nRealiza auditorias de contenido trimestrales para identificar paginas de productos delgadas que necesitan enriquecimiento de descripciones, paginas de categoria con poco contenido y publicaciones de blog que han perdido trafico. La funcion de exportacion CSV de BigCommerce permite extraer todos los datos de productos en una hoja de calculo para analisis masivo.\n\nRevisa tu estructura de enlaces internos regularmente. Asegurate de que los productos mas vendidos y las paginas de categorias estrategicas reciban la mayor cantidad de enlaces internos desde contenido relacionado, menus de navegacion y widgets de venta cruzada.",
           items: [
@@ -393,12 +391,12 @@ items: [
           tip: "Quando migri a BigCommerce da un'altra piattaforma, usa la funzione di importazione CSV per redirect 301 per mappare tutti i vecchi URL prima del lancio. Testa ogni categoria di redirect con un crawler per individuare catene o loop di redirect.",
           image: {
             src: "/images/academy/it/bigcommerce-url-formats.svg",
-            alt: "BigCommerce URL-Format-Optionen: SEO-optimiert, kurze URLs und Kategoriepfade mit Empfehlungen",
-            caption: "Waehlen Sie SEO-optimierte URLs in BigCommerce fuer flache, saubere URL-Strukturen ohne Duplikatrisiko.",
+            alt: "Confronto delle opzioni di formato URL di BigCommerce: URL flat ottimizzati per SEO e URL con percorso di categoria",
+            caption: "BigCommerce offre tre formati URL. La struttura piatta ottimizzata per SEO evita i prefissi forzati visti su Shopify.",
           },
           callout: {
             title: "URL-Format-Warnung",
-            text: "Aendern Sie das URL-Format nicht nach dem Launch, ohne eine vollstaendige Redirect-Strategie. Eine nachtraegliche URL-Umstellung ohne 301-Redirects kann 30-50% des organischen Traffics kosten.",
+            text: "A differenza dei percorsi obbligatori /products/ e /collections/ di Shopify, BigCommerce consente ai prodotti di risiedere nel dominio principale. Un URL come /scarpe-blu/ è più breve, più pulito e guadagna un CTR leggermente più alto nelle ricerche",
           },
         },
         {
@@ -418,7 +416,7 @@ items: [
           },
           callout: {
             title: "Feature-Luecken",
-            text: "BigCommerce generiert automatisch grundlegendes Schema-Markup, aber fuer erweiterte Produktschemata mit Bewertungen, FAQ und Verfuegbarkeit benoetigen Sie eine App oder benutzerdefinierte Implementierung.",
+            text: "Il CDN Akamai di BigCommerce converte automaticamente le immagini in WebP e fornisce dimensioni adeguate al dispositivo. Questo gestisce l'ottimizzazione delle immagini che Shopify e WooCommerce richiedono la configurazione manuale o plugin per essere ottenute.ung.",
           },
         },
         {
@@ -485,12 +483,12 @@ items: [
           tip: "Gebruik bij migratie naar BigCommerce vanaf een ander platform de CSV-importfunctie voor 301-redirects om alle oude URL's te mappen voor de lancering. Test elke redirectcategorie met een crawler om redirectketens of -lussen te detecteren.",
           image: {
             src: "/images/academy/nl/bigcommerce-url-formats.svg",
-            alt: "BigCommerce URL-Format-Optionen: SEO-optimiert, kurze URLs und Kategoriepfade mit Empfehlungen",
-            caption: "Waehlen Sie SEO-optimierte URLs in BigCommerce fuer flache, saubere URL-Strukturen ohne Duplikatrisiko.",
+            alt: "Vergelijking van BigCommerce URL-indelingsopties: SEO-geoptimaliseerde platte URL's versus categorie-pad-URL's",
+            caption: "BigCommerce biedt drie URL-formaten. De SEO-geoptimaliseerde platte structuur vermijdt de geforceerde voorvoegsels die je op Shopify ziet.",
           },
           callout: {
             title: "URL-Format-Warnung",
-            text: "Aendern Sie das URL-Format nicht nach dem Launch, ohne eine vollstaendige Redirect-Strategie. Eine nachtraegliche URL-Umstellung ohne 301-Redirects kann 30-50% des organischen Traffics kosten.",
+            text: "In tegenstelling tot de verplichte paden /products/ en /collections/ van Shopify, laat BigCommerce producten in het hoofddomein staan. Een URL zoals /blue-shoes/ is korter, overzichtelijker en genereert een iets hogere CTR in zoekresultaten",
           },
         },
         {
@@ -510,7 +508,7 @@ items: [
           },
           callout: {
             title: "Feature-Luecken",
-            text: "BigCommerce generiert automatisch grundlegendes Schema-Markup, aber fuer erweiterte Produktschemata mit Bewertungen, FAQ und Verfuegbarkeit benoetigen Sie eine App oder benutzerdefinierte Implementierung.",
+            text: "BigCommerce's Akamai CDN converteert afbeeldingen automatisch naar WebP en biedt apparaatgeschikte formaten. Dit zorgt voor beeldoptimalisatie waarvoor Shopify en WooCommerce handmatige installatie of plug-ins vereisen.ung.",
           },
         },
         {

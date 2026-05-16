@@ -158,8 +158,7 @@ items: [
     fr: {
       badge: "Mesurer les resultats",
       heading: "Analyse SEO avec GA4",
-      intro:
-        "Google Analytics 4 a transforme la facon dont les boutiques e-commerce mesurent la performance de la recherche organique. Le modele de donnees base sur les evenements offre une visibilite granulaire sur la facon dont les visiteurs organiques interagissent avec les pages produits, ajoutent des articles au panier et finalisent leurs achats. Maitriser les rapports e-commerce et les outils d'exploration de GA4 vous permet de lier chaque action SEO directement au chiffre d'affaires. Maîtriser les rapports e-commerce et les outils d'exploration de GA4 vous permet de lier chaque action SEO directement au chiffre d'affaires, ce qui est essentiel pour le [calcul du ROI SEO](/academy/calculating-seo-roi).",
+      intro: "Google Analytics 4 a transforme la façon dont les boutiques e-commerce mesurent la performance de la recherche organique. Le modèle de données base sur les evenements offre une visibilite granulaire sur la façon dont les visiteurs organiques interagissent avec les pages produits, ajoutent des articles au panier et finalisent leurs achats. Maitriser les rapports e-commerce et les outils d'exploration de GA4 vous permet de lier chaque action SEO directement au chiffre d'affaires. Maîtriser les rapports e-commerce et les outils d'exploration de GA4 vous permet de lier chaque action SEO directement au chiffre d'affaires, ce qui est essentiel pour le [calcul du ROI SEO](/academy/calculating-seo-roi).",
       readTime: "12 min de lecture",
       sections: [
         {
@@ -174,16 +173,16 @@ items: [
           ],
           image: {
             src: "/images/academy/fr/ga4-ecommerce-funnel.svg",
-            alt: "GA4 E-Commerce-Tracking-Trichter von Sitzungen ueber Produktaufrufe bis zum Kauf",
-            caption: "Konfigurieren Sie GA4 E-Commerce-Events, um jeden Schritt des Kauftrichters fuer organischen Traffic zu verfolgen.",
+            alt: "Diagramme en entonnoir montrant les événements de commerce électronique GA4 depuis le début de la session jusqu'à view_item, add_to_cart, begin_checkout, jusqu'à l'achat avec des pourcentages de remise",
+            caption: "Entonnoir d'événement de commerce électronique GA4 : suivez chaque étape, de l'atterrissage à l'achat, pour identifier où les visiteurs organiques tombent.",
           },
           callout: {
             title: "Event-Konfiguration zuerst",
-            text: "Ohne korrekt konfigurierte E-Commerce-Events in GA4 sind Ihre SEO-Umsatzdaten unvollstaendig. Implementieren Sie alle fuenf Kern-Events, bevor Sie Attributionsmodelle analysieren.",
+            text: "L'intégration GA4 intégrée de Shopify gère les événements d'achat mais manque souvent view_item et add_to_cart. Sans cela, vos rapports d'entonnoir n'affichent aucune donnée à mi-entonnoir. Utilisez Google Tag Manager pour remplir le",
           },
         },
         {
-          title: "Creer des segments de trafic organique",
+          title: "Créer des segments de trafic organique",
           content:
             "GA4 ne separe pas le trafic organique par defaut dans la plupart des rapports. Vous devez creer des segments et des comparaisons pour isoler les visiteurs de recherche organique des autres canaux. C'est fondamental pour comprendre votre performance SEO.\n\nCreez un segment ou Session source/medium correspond a google / organic. Vous pouvez elargir cela pour inclure d'autres moteurs de recherche en ajoutant des conditions pour bing / organic, yahoo / organic et d'autres pertinents pour votre marche. Sauvegardez-le comme segment reutilisable.\n\nPour une analyse plus approfondie, creez des sous-segments qui separent le trafic organique de marque du trafic non-marque. Utilisez un pattern regex correspondant a votre nom de marque et aux fautes d'orthographe courantes. Le trafic organique non-marque est la mesure la plus fidele du succes SEO.\n\nEnvisagez egalement de creer des segments par groupe de pages d'arrivee. Creez un segment pour les visiteurs organiques qui arrivent sur les pages produits, un autre pour les pages categories et un troisieme pour les pages blog ou contenu. La comparaison de ces segments revele quels types de pages convertissent le mieux depuis la recherche organique.",
           tip: "Nommez vos segments avec un prefixe coherent comme 'SEO -' suivi de la description. Cela regroupe tous vos segments lies au SEO dans le selecteur et les rend faciles a trouver.",
@@ -211,12 +210,12 @@ items: [
           ],
           image: {
             src: "/images/academy/fr/ga4-attribution-models.svg",
-            alt: "Vergleich der GA4-Attributionsmodelle: Letzter Klick, Erster Klick, Datengetrieben und Positionsbasiert",
-            caption: "Verschiedene Attributionsmodelle koennen den SEO-Umsatz um 20-40% veraendern. Verwenden Sie datengetriebene Attribution, wenn moeglich.",
+            alt: "Comparaison de quatre modèles d'attribution GA4 montrant comment chacun crédite le référencement différemment pour le même chemin de conversion",
+            caption: "Le même parcours client attribue au référencement entre 0 $ (dernier clic) et 120 $ (premier clic) selon le modèle d'attribution.",
           },
           callout: {
             title: "Mindestanforderung fuer datengetriebene Attribution",
-            text: "Das datengetriebene Modell von GA4 benoetigt mindestens 300 monatliche Conversions, um zuverlaessig zu funktionieren. Kleinere Shops sollten positionsbasierte Attribution als Naechstbestes verwenden.",
+            text: "L'attribution basée sur les données attribue généralement à la recherche organique 20 à 40 % de revenus supplémentaires par rapport au dernier clic. Pour un magasin réalisant 500 000 $/mois de revenus organiques au dernier clic, la véritable influence du référencement pourrait être de 6 $.",
           },
         },
         {
@@ -233,8 +232,7 @@ items: [
     es: {
       badge: "Medir resultados",
       heading: "Analitica SEO con GA4",
-      intro:
-        "Google Analytics 4 cambio la forma en que las tiendas de ecommerce miden el rendimiento de la busqueda organica. El modelo de datos basado en eventos proporciona visibilidad granular sobre como los visitantes organicos interactuan con las paginas de productos, agregan articulos al carrito y completan compras. Dominar los informes de ecommerce y las herramientas de exploracion de GA4 te permite vincular cada accion SEO directamente con los ingresos. Dominar los informes de ecommerce y las herramientas de exploracion de GA4 te permite vincular cada accion SEO directamente con los ingresos, lo cual es esencial para [calcular el ROI del SEO](/academy/calculating-seo-roi).",
+      intro: "Google Analytics 4 cambio la forma en que las tiendas de ecommerce miden el rendimiento de la busqueda organica. El modelo de datos basado en eventos proporciona visibilidad granular sobre como los visitantes organicos interactuan con las páginas de productos, agregan artículos al carrito y completan compras. Dominar los informes de ecommerce y las herramientas de exploracion de GA4 te permite vincular cada acción SEO directamente con los ingresos. Dominar los informes de ecommerce y las herramientas de exploracion de GA4 te permite vincular cada acción SEO directamente con los ingresos, lo cual es esencial para [calcular el ROI del SEO](/academy/calculating-seo-roi).",
       readTime: "12 min de lectura",
       sections: [
         {
@@ -249,16 +247,16 @@ items: [
           ],
           image: {
             src: "/images/academy/es/ga4-ecommerce-funnel.svg",
-            alt: "GA4 E-Commerce-Tracking-Trichter von Sitzungen ueber Produktaufrufe bis zum Kauf",
-            caption: "Konfigurieren Sie GA4 E-Commerce-Events, um jeden Schritt des Kauftrichters fuer organischen Traffic zu verfolgen.",
+            alt: "Diagrama de embudo que muestra los eventos de comercio electrónico de GA4 desde el inicio de la sesión hasta view_item, add_to_cart, begin_checkout, para comprar con porcentajes de entrega",
+            caption: "Embudo de eventos de comercio electrónico GA4: realice un seguimiento de cada paso desde el aterrizaje hasta la compra para identificar dónde abandonan los visitantes orgánicos.",
           },
           callout: {
             title: "Event-Konfiguration zuerst",
-            text: "Ohne korrekt konfigurierte E-Commerce-Events in GA4 sind Ihre SEO-Umsatzdaten unvollstaendig. Implementieren Sie alle fuenf Kern-Events, bevor Sie Attributionsmodelle analysieren.",
+            text: "La integración GA4 incorporada de Shopify maneja eventos de compra, pero a menudo omite view_item y add_to_cart. Sin estos, sus informes de embudo no muestran datos a mitad del embudo. Utilice Google Tag Manager para completar el",
           },
         },
         {
-          title: "Crear segmentos de trafico organico",
+          title: "Crear segmentos de tráfico organico",
           content:
             "GA4 no separa el trafico organico por defecto en la mayoria de los informes. Necesitas crear segmentos y comparaciones para aislar a los visitantes de busqueda organica de otros canales. Esto es fundamental para entender tu rendimiento SEO.\n\nCrea un segmento donde Session source/medium coincida con google / organic. Puedes ampliarlo para incluir otros motores de busqueda agregando condiciones para bing / organic, yahoo / organic y otros relevantes para tu mercado. Guardalo como segmento reutilizable.\n\nPara analisis mas profundos, crea subsegmentos que separen el trafico organico de marca del no relacionado con la marca. Usa un patron regex que coincida con tu nombre de marca y errores de escritura comunes. El trafico organico sin marca es la medida mas autentica del exito SEO.\n\nTambien considera crear segmentos por grupo de pagina de destino. Crea un segmento para visitantes organicos que aterrizan en paginas de producto, otro para paginas de categoria y un tercero para paginas de blog o contenido. Comparar estos segmentos revela que tipos de pagina convierten mejor desde la busqueda organica.",
           tip: "Nombra tus segmentos con un prefijo consistente como 'SEO -' seguido de la descripcion. Esto agrupa todos tus segmentos relacionados con SEO en el selector y los hace faciles de encontrar.",
@@ -269,7 +267,7 @@ items: [
             "El informe de Paginas de destino bajo Engagement muestra en que paginas llegan los visitantes organicos y como rinden. Agrega una comparacion para tu segmento de trafico organico, luego ordena por sesiones para encontrar tus principales puntos de entrada SEO. Las metricas clave a vigilar son la tasa de engagement, el tiempo de engagement promedio y las conversiones.\n\nEl informe de Compras de ecommerce bajo Monetizacion muestra ingresos a nivel de articulo, cantidad vendida y recuento de compras. Filtrado por trafico organico, este informe revela que productos generan mas ingresos gracias al SEO. Podrias descubrir que tus productos mas vendidos en general no son los mismos que tus principales generadores de ingresos organicos.\n\nEl informe de Ruta de conversion bajo Publicidad muestra el papel de la busqueda organica a lo largo de todo el recorrido del cliente. Las compras de ecommerce raramente ocurren en una sola sesion. Un cliente podria descubrir tu tienda a traves de una busqueda organica, regresar mediante una busqueda de marca y finalmente comprar a traves de una visita directa.\n\nUsa el informe de Adquisicion de usuarios para rastrear el crecimiento de nuevos usuarios desde la busqueda organica a lo largo del tiempo. Esta metrica es un indicador adelantado potente de la salud SEO.",
         },
         {
-          title: "Exploraciones personalizadas para analisis SEO",
+          title: "Exploraciones personalizadas para análisis SEO",
           content:
             "El espacio de trabajo de Exploraciones de GA4 es donde se realiza el analisis SEO serio. Los informes estandar proporcionan metricas generales, pero las exploraciones permiten construir analisis personalizados que responden a preguntas comerciales especificas.\n\nCrea una exploracion de forma libre con estas dimensiones: Pagina de destino, Session source/medium, Categoria de dispositivo y Pais. Agrega metricas para Sesiones, Sesiones con engagement, Compras de ecommerce e Ingresos por compras. Aplica tu segmento organico y tendras un panel completo de rendimiento SEO.\n\nCrea una exploracion de embudo para visualizar el recorrido del visitante organico. Define los pasos como: session_start en cualquier pagina de producto o categoria, luego view_item, add_to_cart, begin_checkout y purchase. Este embudo muestra exactamente donde abandonan los visitantes organicos.\n\nUna exploracion de ruta revela las paginas que los visitantes organicos consultan despues de llegar. Esto es valioso para entender los patrones de navegacion interna. Podrias descubrir que los visitantes organicos que llegan a articulos de blog navegan frecuentemente a categorias de productos especificas. Esto es valioso para comprender los patrones de navegacion interna y validar tus esfuerzos de [seguimiento de posiciones](/academy/rank-tracking-for-ecommerce).",
           tip: "Guarda tus exploraciones mas utilizadas como plantillas. GA4 permite duplicar exploraciones, asi que crea una version maestra con tus dimensiones, metricas y segmentos estandar, y clonala para cada nuevo periodo de analisis.",
@@ -277,7 +275,7 @@ items: [
         {
           title: "Rastrear ingresos y conversiones organicas",
           content:
-            "Atribuir ingresos a la busqueda organica requiere entender los modelos de atribucion de GA4. Por defecto, GA4 usa atribucion basada en datos, que distribuye el credito de conversion entre todos los puntos de contacto mediante machine learning. Para la mayoria de tiendas de ecommerce, esto da una imagen mas precisa de la contribucion del SEO que la atribucion de ultimo clic.\n\nPara ver los ingresos de busqueda organica, navega a la seccion Publicidad y usa el informe Comparacion de modelos. Compara la atribucion basada en datos con el ultimo clic para entender cuanto ingreso influye versus genera directamente la busqueda organica.\n\nConfigura eventos personalizados para rastrear micro-conversiones que indican engagement generado por el SEO. Adiciones a la lista de deseos, formularios de suscripcion por email completados desde paginas de destino organicas y uso de herramientas de comparacion de productos son senales de que los visitantes organicos interactuan con intencion comercial.\n\nCrea un informe mensual de ingresos organicos que rastree los ingresos organicos totales, la tasa de conversion organica, el valor medio de pedido del trafico organico y los ingresos por sesion organica. Compara estas metricas mes a mes y ano a ano. Para una mirada mas profunda sobre como construir marcos de medicion de [SEO para ecommerce](/blog/ecommerce-seo), explora como la atribucion de ingresos se conecta con la estrategia organica mas amplia.",
+            "Atribuir ingresos a la busqueda organica requiere entender los modelos de atribucion de GA4. Por defecto, GA4 usa atribucion basada en datos, que distribuye el credito de conversion entre todos los puntos de contacto mediante machine learning. Para la mayoria de tiendas de ecommerce, esto da una imagen mas precisa de la contribucion del SEO que la atribucion de ultimo clic.\n\nPara ver los ingresos de busqueda organica, navega a la seccion Publicidad y usa el informe Comparacion de modelos. Compara la atribucion basada en datos con el ultimo clic para entender cuanto ingreso influye versus genera directamente la busqueda organica.\n\nConfigura eventos personalizados para rastrear micro-conversiones que indican engagement generado por el SEO. Adiciones a la lista de deseos, formularios de suscripcion por email completados desde paginas de destino organicas y uso de herramientas de comparacion de productos son senales de que los visitantes organicos interactuan con intencion comercial.\n\nCrea un informe mensual de ingresos organicos que rastree los ingresos organicos totales, la tasa de conversion organica, el valor medio de pedido del trafico organico y los ingresos por sesion organica. Compara estas metricas mes a mes y año a año. Para una mirada mas profunda sobre como construir marcos de medicion de [SEO para ecommerce](/blog/ecommerce-seo), explora como la atribucion de ingresos se conecta con la estrategia organica mas amplia.",
           items: [
             "Compara la atribucion basada en datos con el ultimo clic para ver la influencia completa del SEO en los ingresos",
             "Rastrea micro-conversiones como adiciones a listas de deseos e inscripciones por email de visitantes organicos",
@@ -286,12 +284,12 @@ items: [
           ],
           image: {
             src: "/images/academy/es/ga4-attribution-models.svg",
-            alt: "Vergleich der GA4-Attributionsmodelle: Letzter Klick, Erster Klick, Datengetrieben und Positionsbasiert",
-            caption: "Verschiedene Attributionsmodelle koennen den SEO-Umsatz um 20-40% veraendern. Verwenden Sie datengetriebene Attribution, wenn moeglich.",
+            alt: "Comparación de cuatro modelos de atribución GA4 que muestra cómo cada uno atribuye al SEO de forma diferente la misma ruta de conversión",
+            caption: "El mismo recorrido del cliente asigna SEO entre $0 (último clic) y $120 (primer clic), según el modelo de atribución.",
           },
           callout: {
             title: "Mindestanforderung fuer datengetriebene Attribution",
-            text: "Das datengetriebene Modell von GA4 benoetigt mindestens 300 monatliche Conversions, um zuverlaessig zu funktionieren. Kleinere Shops sollten positionsbasierte Attribution als Naechstbestes verwenden.",
+            text: "La atribución basada en datos normalmente atribuye a la búsqueda orgánica entre un 20% y un 40% más de ingresos que el último clic. Para una tienda que obtiene 500.000 dólares al mes en ingresos orgánicos con el último clic, la influencia real del SEO podría ser de 6 dólares.",
           },
         },
         {
@@ -324,12 +322,12 @@ items: [
           ],
           image: {
             src: "/images/academy/it/ga4-ecommerce-funnel.svg",
-            alt: "GA4 E-Commerce-Tracking-Trichter von Sitzungen ueber Produktaufrufe bis zum Kauf",
-            caption: "Konfigurieren Sie GA4 E-Commerce-Events, um jeden Schritt des Kauftrichters fuer organischen Traffic zu verfolgen.",
+            alt: "Diagramma a imbuto che mostra gli eventi di e-commerce GA4 dall'inizio della sessione fino a view_item, add_to_cart, Begin_checkout, fino all'acquisto con percentuali di ritiro",
+            caption: "Funnel di eventi e-commerce GA4: monitora ogni passaggio dall'atterraggio all'acquisto per identificare dove abbandonano i visitatori organici.",
           },
           callout: {
             title: "Event-Konfiguration zuerst",
-            text: "Ohne korrekt konfigurierte E-Commerce-Events in GA4 sind Ihre SEO-Umsatzdaten unvollstaendig. Implementieren Sie alle fuenf Kern-Events, bevor Sie Attributionsmodelle analysieren.",
+            text: "L'integrazione GA4 integrata di Shopify gestisce gli eventi di acquisto ma spesso non vede view_item e add_to_cart. Senza questi, i rapporti sulla canalizzazione mostreranno zero dati a metà canalizzazione. Utilizza Google Tag Manager per riempire il file",
           },
         },
         {
@@ -361,12 +359,12 @@ items: [
           ],
           image: {
             src: "/images/academy/it/ga4-attribution-models.svg",
-            alt: "Vergleich der GA4-Attributionsmodelle: Letzter Klick, Erster Klick, Datengetrieben und Positionsbasiert",
-            caption: "Verschiedene Attributionsmodelle koennen den SEO-Umsatz um 20-40% veraendern. Verwenden Sie datengetriebene Attribution, wenn moeglich.",
+            alt: "Confronto di quattro modelli di attribuzione GA4 che mostrano come ciascuno attribuisce diverso credito alla SEO per lo stesso percorso di conversione",
+            caption: "Lo stesso percorso del cliente assegna la SEO ovunque da $ 0 (ultimo clic) a $ 120 (primo clic) a seconda del modello di attribuzione.",
           },
           callout: {
             title: "Mindestanforderung fuer datengetriebene Attribution",
-            text: "Das datengetriebene Modell von GA4 benoetigt mindestens 300 monatliche Conversions, um zuverlaessig zu funktionieren. Kleinere Shops sollten positionsbasierte Attribution als Naechstbestes verwenden.",
+            text: "L'attribuzione basata sui dati in genere attribuisce alla ricerca organica il 20-40% di entrate in più rispetto all'ultimo clic. Per un negozio che realizza $ 500.000 al mese in entrate organiche con l'ultimo clic, la reale influenza SEO potrebbe essere $ 6",
           },
         },
         {
@@ -399,12 +397,12 @@ items: [
           ],
           image: {
             src: "/images/academy/nl/ga4-ecommerce-funnel.svg",
-            alt: "GA4 E-Commerce-Tracking-Trichter von Sitzungen ueber Produktaufrufe bis zum Kauf",
-            caption: "Konfigurieren Sie GA4 E-Commerce-Events, um jeden Schritt des Kauftrichters fuer organischen Traffic zu verfolgen.",
+            alt: "Trechterdiagram met GA4 e-commercegebeurtenissen vanaf het begin van de sessie via view_item, add_to_cart, begin_checkout tot aankoop met drop-offpercentages",
+            caption: "GA4 e-commerce evenemententrechter: volg elke stap, van landing tot aankoop, om te identificeren waar organische bezoekers afhaken.",
           },
           callout: {
             title: "Event-Konfiguration zuerst",
-            text: "Ohne korrekt konfigurierte E-Commerce-Events in GA4 sind Ihre SEO-Umsatzdaten unvollstaendig. Implementieren Sie alle fuenf Kern-Events, bevor Sie Attributionsmodelle analysieren.",
+            text: "De ingebouwde GA4-integratie van Shopify verwerkt aankoopgebeurtenissen, maar mist vaak view_item en add_to_cart. Zonder deze tonen uw trechterrapporten geen gegevens uit het midden van de trechter. Gebruik Google Tag Manager om het",
           },
         },
         {
@@ -436,12 +434,12 @@ items: [
           ],
           image: {
             src: "/images/academy/nl/ga4-attribution-models.svg",
-            alt: "Vergleich der GA4-Attributionsmodelle: Letzter Klick, Erster Klick, Datengetrieben und Positionsbasiert",
-            caption: "Verschiedene Attributionsmodelle koennen den SEO-Umsatz um 20-40% veraendern. Verwenden Sie datengetriebene Attribution, wenn moeglich.",
+            alt: "Vergelijking van vier GA4-attributiemodellen die laten zien hoe elk SEO op een andere manier crediteert voor hetzelfde conversiepad",
+            caption: "In hetzelfde klanttraject wordt SEO ergens tussen € 0 (laatste klik) en € 120 (eerste klik) toegewezen, afhankelijk van het attributiemodel.",
           },
           callout: {
             title: "Mindestanforderung fuer datengetriebene Attribution",
-            text: "Das datengetriebene Modell von GA4 benoetigt mindestens 300 monatliche Conversions, um zuverlaessig zu funktionieren. Kleinere Shops sollten positionsbasierte Attribution als Naechstbestes verwenden.",
+            text: "Data-driven-attributie levert doorgaans 20-40% meer opbrengst op aan organische zoekresultaten dan aan de laatste klik. Voor een winkel die onder de laatste klik $500.000/maand aan organische omzet genereert, zou de echte SEO-invloed $6 kunnen zijn",
           },
         },
         {

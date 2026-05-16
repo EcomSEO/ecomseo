@@ -192,8 +192,7 @@ export const brokenLinkBuilding: AcademyTopic = {
     fr: {
       badge: "Netlinking",
       heading: "Broken Link Building",
-      intro:
-        "Le broken link building transforme les liens morts sur d'autres sites web en backlinks actifs pointant vers votre boutique e-commerce. Chaque site web accumule des liens sortants casses au fil du temps lorsque des pages sont supprimees, des domaines expirent ou des URLs changent. En trouvant ces liens morts sur des sites pertinents et en offrant votre contenu en remplacement, vous apportez une valeur genuine aux webmasters tout en obtenant des backlinks de haute qualite, ce qui en fait l'une des strategies de link building les plus ethiques et efficaces disponibles. En trouvant ces liens morts sur des sites pertinents et en proposant votre contenu en remplacement, vous apportez une valeur réelle aux webmasters tout en gagnant des backlinks de haute qualité, en faisant l'une des stratégies de [link building](/link-building) les plus éthiques et efficaces disponibles.",
+      intro: "Le broken link building transforme les liens morts sur d'autres sites web en backlinks actifs pointant vers votre boutique e-commerce. Chaque site web accumule des liens sortants casses au fil du temps lorsque des pages sont supprimees, des domaines expirent ou des URLs changent. En trouvant ces liens morts sur des sites pertinents et en offrant votre contenu en remplacement, vous apportez une valeur genuine aux webmasters tout en obtenant des backlinks de haute qualité, ce qui en fait l'une des stratégies de link building les plus ethiques et efficaces disponibles. En trouvant ces liens morts sur des sites pertinents et en proposant votre contenu en remplacement, vous apportez une valeur réelle aux webmasters tout en gagnant des backlinks de haute qualité, en faisant l'une des stratégies de [link building](/link-building) les plus éthiques et efficaces disponibles.",
       readTime: "8 min de lecture",
       sections: [
         {
@@ -210,11 +209,11 @@ export const brokenLinkBuilding: AcademyTopic = {
           tip: "Configurez des alertes Ahrefs pour les nouveaux backlinks casses de vos cinq principaux concurrents. Quand la page d'un concurrent tombe, vous serez immediatement notifie et pourrez contacter les sites liant avant que quelqu'un d'autre n'offre un remplacement.",
           callout: {
             title: "Wettbewerber-Goldgrube",
-            text: "Wenn ein Wettbewerber seinen Shop schliesst oder seine Domain ablaufen laesst wird jeder Backlink den er verdient hat zu einer Broken-Link-Moeglichkeit. Ein einzelner aufgeloester Wettbewerber mit 200 verweisenden Domains kann monatelange Outreach-Kampagnen befeuern.",
+            text: "Lorsqu'un concurrent ferme sa boutique ou laisse son domaine expirer, chaque backlink qu'il a gagné devient une opportunité de lien rompu. Un seul concurrent disparu avec 200 domaines référents peut alimenter des mois d'o verweisenden Domains kann monatelange Outreach-Kampagnen befeuern.",
           },
         },
         {
-          title: "Creer du contenu de remplacement adapte",
+          title: "Créer du contenu de remplacement adapte",
           content:
             "Offrir une page produit aleatoire en remplacement d'un lien casse echouera. Les webmasters avaient lie le contenu original pour une raison, votre remplacement doit servir le meme objectif et fournir une valeur egale ou superieure a leur audience.\n\nUtilisez la Wayback Machine pour visualiser les versions archivees de la page morte. Comprenez quelles informations elle fournissait, sa completude et pourquoi d'autres sites la trouvaient digne de liens. Votre contenu de remplacement devrait couvrir le meme sujet avec une profondeur similaire, mais avec des donnees mises a jour, une meilleure organisation ou des perspectives supplementaires qui le rendent genuinement superieur.\n\nPour les sites e-commerce, les types de contenu de remplacement les plus courants sont les guides d'achat, les articles comparatifs de produits, les pages de statistiques sectorielles et les guides pratiques lies a votre categorie de produit.\n\nN'essayez pas de remplacer du contenu informationnel par des pages produit. Si le lien casse pointait vers un article sur le choix des bonnes chaussures de course, votre remplacement devrait etre un guide complet de selection, pas votre fiche produit. Le contenu de remplacement peut lier internement vers vos produits, mais la page elle-meme doit etre suffisamment precieuse editorialement pour justifier le placement du lien.",
           items: [
@@ -226,7 +225,7 @@ export const brokenLinkBuilding: AcademyTopic = {
           tip: "Construisez une bibliotheque de cinq a dix pages de ressources completes sur votre site couvrant les principaux sujets de votre niche. Ces actifs evergreen servent de remplacements prets a l'emploi chaque fois que vous decouvrez des liens casses dans votre secteur."
         },
         {
-          title: "Modeles d'outreach qui obtiennent des resultats",
+          title: "Modèles d'outreach qui obtiennent des resultats",
           content:
             "L'outreach de broken link building a un taux de succes plus eleve que l'outreach a froid car vous resolvez un vrai probleme. Votre email notifie le webmaster d'un lien casse sur son site et offre une alternative fonctionnelle, c'est genuinement utile, pas auto-promotionnel. Formulez votre email en consequence.\n\nL'email d'outreach de broken link le plus efficace suit une structure en trois parties. Premierement, ouvrez avec un compliment specifique et genuine sur la page ou vous avez trouve le lien casse, cela prouve que vous avez reellement visite leur site. Deuxiemement, signalez le lien casse en fournissant l'URL exacte qui retourne une erreur 404 et decrivez ou sur leur page il apparait. Troisiemement, suggerez votre contenu en remplacement en expliquant ce qu'il couvre et pourquoi il conviendrait a leur audience.\n\nGardez l'email sous 120 mots. Les webmasters sont occupes et un email concis et utile surpasse un long argumentaire commercial a chaque fois. Ne demandez pas un lien directement, suggerez simplement votre page comme remplacement potentiel et laissez le webmaster decider.\n\nEvitez d'envoyer des emails modeles mentionnant plusieurs liens casses a la fois. Bien que cela puisse sembler efficace, les webmasters percoivent les notifications massives comme du spam automatise. Signalez un seul lien casse specifique par email. Pour plus de modèles de prospection et de stratégies de suivi, consultez notre sujet sur la [prospection par email pour les liens](/academy/email-outreach-for-links).",
           items: [
@@ -237,12 +236,12 @@ export const brokenLinkBuilding: AcademyTopic = {
           ],
           image: {
             src: "/images/academy/fr/outreach-email-structure.svg",
-            alt: "Diagramm das die dreiteilige Struktur einer effektiven Broken-Link-Building-Outreach-E-Mail zeigt",
-            caption: "Die dreiteilige E-Mail-Struktur: echtes Kompliment, Bericht ueber defekten Link und Ersatzvorschlag. Insgesamt unter 120 Woerter halten.",
+            alt: "Schéma montrant la structure en trois parties d'un e-mail de sensibilisation efficace à la création de liens rompus",
+            caption: "La structure de l'e-mail en trois parties : compliment authentique, rapport de lien rompu et suggestion de remplacement. Gardez moins de 120 mots au total.",
           },
           callout: {
             title: "Hoehere Erfolgsrate",
-            text: "Broken-Link-Outreach konvertiert besser als kalter Outreach weil Sie ein echtes Problem loesen. Ein spezifischer defekter Link pro E-Mail uebertrifft Massenbenachrichtigungen die Webmaster als automatisierten Spam wahrnehmen.",
+            text: "La diffusion de liens brisés convertit mieux que la diffusion à froid, car vous résolvez un problème réel. Un lien rompu spécifique par e-mail surpasse les notifications groupées que les webmasters perçoivent comme automatiséesisierten Spam wahrnehmen.",
           },
         },
         {
@@ -259,12 +258,12 @@ export const brokenLinkBuilding: AcademyTopic = {
           tip: "Creez une recherche sauvegardee dans Ahrefs Content Explorer pour vos mots-cles de niche filtres par pages 404. Verifiez cette recherche sauvegardee chaque semaine, de nouvelles opportunites de liens casses apparaissent constamment.",
           image: {
             src: "/images/academy/fr/broken-link-building-workflow.svg",
-            alt: "Diagramm das den vierstufigen Broken-Link-Building-Workflow zeigt: Finden, Recherchieren, Erstellen und Outreach mit woechentlichem Zeitbudget",
-            caption: "Ein strukturierter woechentlicher Workflow haelt Broken-Link-Building konsistent. Aehnliche Moeglichkeiten buendeln um den Content-Erstellungs-ROI zu maximieren.",
+            alt: "Diagramme montrant le flux de travail de création de liens brisés en quatre étapes : rechercher, rechercher, créer et sensibiliser avec un budget de temps hebdomadaire",
+            caption: "Un flux de travail hebdomadaire structuré maintient la cohérence de la création de liens rompus. Regroupez des opportunités similaires pour maximiser le retour sur investissement de la création de contenu.",
           },
         },
         {
-          title: "Mettre a l'echelle le processus de broken link building",
+          title: "Mettre a l'échelle le processus de broken link building",
           content:
             "Le broken link building peut passer d'une poignee de liens par mois a un pipeline constant de 20-30 nouveaux backlinks mensuels, mais la mise a l'echelle necessite la systematisation de chaque etape : decouverte, creation de contenu, outreach et suivi.\n\nA l'etape de decouverte, montez en echelle en elargissant votre univers de mots-cles. La plupart des sites e-commerce commencent avec leurs mots-cles produit principaux, mais le plus grand vivier d'opportunites provient des sujets adjacents. Un magasin vendant du materiel de cuisine devrait chercher des liens casses non seulement sur les couteaux et ustensiles, mais aussi sur les techniques de cuisine, les ressources de recettes et les guides de securite alimentaire.\n\nMontez en echelle la creation de contenu en construisant des pages de ressources modulaires. Au lieu de creer une nouvelle page pour chaque opportunite, construisez du contenu pilier complet couvrant des sujets larges dans votre niche. Un guide ultime de 3 000 mots sur le choix des couteaux de cuisine peut servir de remplacement pour des dizaines de liens casses differents.\n\nMontez en echelle l'outreach en embauchant un assistant virtuel pour gerer le prospecting et l'outreach initial sous votre direction. Formez-le a vos criteres de qualite, fournissez vos modeles d'email et faites-lui rapporter ses trouvailles pour votre revision avant envoi.\n\nSuivez les taux de conversion par type de contenu et segment de niche. Avec le temps, vous decouvrirez que certains types de contenu de remplacement convertissent a 20-30% tandis que d'autres atteignent a peine 5%.",
           items: [
@@ -284,8 +283,7 @@ export const brokenLinkBuilding: AcademyTopic = {
     es: {
       badge: "Link building",
       heading: "Broken Link Building",
-      intro:
-        "El broken [link building](/link-building) convierte enlaces muertos en otros sitios web en backlinks activos apuntando a tu tienda ecommerce. Cada sitio web acumula enlaces salientes rotos con el tiempo a medida que las paginas se eliminan, los dominios expiran o las URLs cambian. Al encontrar estos enlaces muertos en sitios relevantes y ofrecer tu contenido como reemplazo, proporcionas valor genuino a los webmasters mientras obtienes backlinks de alta calidad, convirtiendolo en una de las estrategias de link building mas eticas y efectivas disponibles.",
+      intro: "El broken [link building](/link-building) convierte enlaces muertos en otros sitios web en backlinks activos apuntando a tu tienda ecommerce. Cada sitio web acumula enlaces salientes rotos con el tiempo a medida que las páginas se eliminan, los dominios expiran o las URLs cambian. Al encontrar estos enlaces muertos en sitios relevantes y ofrecer tu contenido como reemplazo, proporcionas valor genuino a los webmasters mientras obtienes backlinks de alta calidad, convirtiendolo en una de las estrategias de link building mas eticas y efectivas disponibles.",
       readTime: "8 min de lectura",
       sections: [
         {
@@ -302,7 +300,7 @@ export const brokenLinkBuilding: AcademyTopic = {
           tip: "Configura alertas de Ahrefs para nuevos backlinks rotos en tus cinco principales competidores. Cuando la pagina de un competidor cae, seras notificado inmediatamente y podras contactar los sitios enlazantes antes de que alguien mas ofrezca un reemplazo.",
           callout: {
             title: "Wettbewerber-Goldgrube",
-            text: "Wenn ein Wettbewerber seinen Shop schliesst oder seine Domain ablaufen laesst wird jeder Backlink den er verdient hat zu einer Broken-Link-Moeglichkeit. Ein einzelner aufgeloester Wettbewerber mit 200 verweisenden Domains kann monatelange Outreach-Kampagnen befeuern.",
+            text: "Cuando un competidor cierra su tienda o deja que su dominio caduque, cada vínculo de retroceso que obtuvo se convierte en una oportunidad de vínculo roto. Un único competidor desaparecido con 200 dominios de referencia puede alimentar meses de verweisenden Domains kann monatelange Outreach-Kampagnen befeuern.",
           },
         },
         {
@@ -329,12 +327,12 @@ export const brokenLinkBuilding: AcademyTopic = {
           ],
           image: {
             src: "/images/academy/es/outreach-email-structure.svg",
-            alt: "Diagramm das die dreiteilige Struktur einer effektiven Broken-Link-Building-Outreach-E-Mail zeigt",
-            caption: "Die dreiteilige E-Mail-Struktur: echtes Kompliment, Bericht ueber defekten Link und Ersatzvorschlag. Insgesamt unter 120 Woerter halten.",
+            alt: "Diagrama que muestra la estructura de tres partes de un correo electrónico de divulgación de creación de enlaces rotos eficaz",
+            caption: "La estructura del correo electrónico de tres partes: elogio genuino, informe de enlace roto y sugerencia de reemplazo. Mantenga menos de 120 palabras en total.",
           },
           callout: {
             title: "Hoehere Erfolgsrate",
-            text: "Broken-Link-Outreach konvertiert besser als kalter Outreach weil Sie ein echtes Problem loesen. Ein spezifischer defekter Link pro E-Mail uebertrifft Massenbenachrichtigungen die Webmaster als automatisierten Spam wahrnehmen.",
+            text: "La divulgación mediante enlaces rotos genera mejores conversiones que la divulgación en frío porque está resolviendo un problema real. Un enlace roto específico por correo electrónico supera a las notificaciones masivas que los webmasters perciben como automatizadasisierten Spam wahrnehmen.",
           },
         },
         {
@@ -351,8 +349,8 @@ export const brokenLinkBuilding: AcademyTopic = {
           tip: "Crea una busqueda guardada en Ahrefs Content Explorer para tus keywords de nicho filtrados por paginas 404. Revisa esta busqueda guardada semanalmente, nuevas oportunidades de broken links aparecen constantemente a medida que los sitios se reestructuran.",
           image: {
             src: "/images/academy/es/broken-link-building-workflow.svg",
-            alt: "Diagramm das den vierstufigen Broken-Link-Building-Workflow zeigt: Finden, Recherchieren, Erstellen und Outreach mit woechentlichem Zeitbudget",
-            caption: "Ein strukturierter woechentlicher Workflow haelt Broken-Link-Building konsistent. Aehnliche Moeglichkeiten buendeln um den Content-Erstellungs-ROI zu maximieren.",
+            alt: "Diagrama que muestra el flujo de trabajo de construcción de enlaces rotos de cuatro pasos: buscar, investigar, crear y difundir con un presupuesto de tiempo semanal",
+            caption: "Un flujo de trabajo semanal estructurado mantiene constante la construcción de enlaces rotos. Agrupe oportunidades similares para maximizar el retorno de la inversión en la creación de contenido.",
           },
         },
         {
@@ -394,7 +392,7 @@ export const brokenLinkBuilding: AcademyTopic = {
           tip: "Imposta avvisi Ahrefs per nuovi backlink rotti sui tuoi cinque principali concorrenti. Quando la pagina di un concorrente va giu, sarai notificato immediatamente e potrai contattare i siti linkanti prima che qualcun altro offra un sostituto.",
           callout: {
             title: "Wettbewerber-Goldgrube",
-            text: "Wenn ein Wettbewerber seinen Shop schliesst oder seine Domain ablaufen laesst wird jeder Backlink den er verdient hat zu einer Broken-Link-Moeglichkeit. Ein einzelner aufgeloester Wettbewerber mit 200 verweisenden Domains kann monatelange Outreach-Kampagnen befeuern.",
+            text: "Quando un concorrente chiude il proprio negozio o lascia scadere il proprio dominio, ogni backlink guadagnato diventa un'opportunità di collegamento interrotto. Un singolo concorrente defunto con 200 domini di riferimento può alimentare mesi o verweisenden Domains kann monatelange Outreach-Kampagnen befeuern.",
           },
         },
         {
@@ -421,12 +419,12 @@ export const brokenLinkBuilding: AcademyTopic = {
           ],
           image: {
             src: "/images/academy/it/outreach-email-structure.svg",
-            alt: "Diagramm das die dreiteilige Struktur einer effektiven Broken-Link-Building-Outreach-E-Mail zeigt",
-            caption: "Die dreiteilige E-Mail-Struktur: echtes Kompliment, Bericht ueber defekten Link und Ersatzvorschlag. Insgesamt unter 120 Woerter halten.",
+            alt: "Diagramma che mostra la struttura in tre parti di un'efficace email di sensibilizzazione per la creazione di collegamenti interrotti",
+            caption: "La struttura dell'e-mail in tre parti: complimento genuino, segnalazione di collegamenti interrotti e suggerimento di sostituzione. Mantieni meno di 120 parole in totale.",
           },
           callout: {
             title: "Hoehere Erfolgsrate",
-            text: "Broken-Link-Outreach konvertiert besser als kalter Outreach weil Sie ein echtes Problem loesen. Ein spezifischer defekter Link pro E-Mail uebertrifft Massenbenachrichtigungen die Webmaster als automatisierten Spam wahrnehmen.",
+            text: "La comunicazione con collegamento interrotto converte meglio della comunicazione a freddo perché stai risolvendo un problema reale. Uno specifico collegamento interrotto per e-mail supera le notifiche collettive che i webmaster percepiscono come automatizzateisierten Spam wahrnehmen.",
           },
         },
         {
@@ -443,8 +441,8 @@ export const brokenLinkBuilding: AcademyTopic = {
           tip: "Crea una ricerca salvata in Ahrefs Content Explorer per le tue keyword di nicchia filtrate per pagine 404. Controlla questa ricerca salvata settimanalmente, nuove opportunita di broken link appaiono costantemente man mano che i siti si ristrutturano.",
           image: {
             src: "/images/academy/it/broken-link-building-workflow.svg",
-            alt: "Diagramm das den vierstufigen Broken-Link-Building-Workflow zeigt: Finden, Recherchieren, Erstellen und Outreach mit woechentlichem Zeitbudget",
-            caption: "Ein strukturierter woechentlicher Workflow haelt Broken-Link-Building konsistent. Aehnliche Moeglichkeiten buendeln um den Content-Erstellungs-ROI zu maximieren.",
+            alt: "Diagramma che mostra il flusso di lavoro di creazione di collegamenti interrotti in quattro fasi: trovare, ricercare, creare e raggiungere con un budget temporale settimanale",
+            caption: "Un flusso di lavoro settimanale strutturato mantiene coerente la creazione di collegamenti interrotti. Raggruppa opportunità simili per massimizzare il ROI sulla creazione di contenuti.",
           },
         },
         {
@@ -486,7 +484,7 @@ export const brokenLinkBuilding: AcademyTopic = {
           tip: "Stel Ahrefs-alerts in voor nieuwe gebroken backlinks bij je top vijf concurrenten. Wanneer een pagina van een concurrent uitvalt, word je onmiddellijk op de hoogte gesteld en kun je de linkende sites benaderen voordat iemand anders een vervanging aanbiedt.",
           callout: {
             title: "Wettbewerber-Goldgrube",
-            text: "Wenn ein Wettbewerber seinen Shop schliesst oder seine Domain ablaufen laesst wird jeder Backlink den er verdient hat zu einer Broken-Link-Moeglichkeit. Ein einzelner aufgeloester Wettbewerber mit 200 verweisenden Domains kann monatelange Outreach-Kampagnen befeuern.",
+            text: "Wanneer een concurrent zijn winkel sluit of zijn domein laat verlopen, wordt elke backlink die hij verdient een kans op verbroken links. Eén enkele ter ziele gegane concurrent met 200 verwijzende domeinen kan maandenlang brandstof opleveren verweisenden Domains kann monatelange Outreach-Kampagnen befeuern.",
           },
         },
         {
@@ -513,12 +511,12 @@ export const brokenLinkBuilding: AcademyTopic = {
           ],
           image: {
             src: "/images/academy/nl/outreach-email-structure.svg",
-            alt: "Diagramm das die dreiteilige Struktur einer effektiven Broken-Link-Building-Outreach-E-Mail zeigt",
-            caption: "Die dreiteilige E-Mail-Struktur: echtes Kompliment, Bericht ueber defekten Link und Ersatzvorschlag. Insgesamt unter 120 Woerter halten.",
+            alt: "Diagram dat de driedelige structuur toont van een effectieve outreach-e-mail voor het opbouwen van verbroken links",
+            caption: "De driedelige e-mailstructuur: oprecht compliment, rapport over verbroken link en vervangingssuggestie. Houd in totaal minder dan 120 woorden aan.",
           },
           callout: {
             title: "Hoehere Erfolgsrate",
-            text: "Broken-Link-Outreach konvertiert besser als kalter Outreach weil Sie ein echtes Problem loesen. Ein spezifischer defekter Link pro E-Mail uebertrifft Massenbenachrichtigungen die Webmaster als automatisierten Spam wahrnehmen.",
+            text: "Outreach met gebroken links converteert beter dan outreach met koude verbindingen, omdat je een echt probleem oplost. Eén specifieke verbroken link per e-mail presteert beter dan bulkmeldingen die webmasters als geautomatiseerd beschouwenisierten Spam wahrnehmen.",
           },
         },
         {
@@ -535,8 +533,8 @@ export const brokenLinkBuilding: AcademyTopic = {
           tip: "Maak een opgeslagen zoekopdracht in Ahrefs Content Explorer voor je top niche-zoekwoorden gefilterd op 404-pagina's. Controleer deze opgeslagen zoekopdracht wekelijks, nieuwe broken link-kansen verschijnen voortdurend naarmate sites herstructureren.",
           image: {
             src: "/images/academy/nl/broken-link-building-workflow.svg",
-            alt: "Diagramm das den vierstufigen Broken-Link-Building-Workflow zeigt: Finden, Recherchieren, Erstellen und Outreach mit woechentlichem Zeitbudget",
-            caption: "Ein strukturierter woechentlicher Workflow haelt Broken-Link-Building konsistent. Aehnliche Moeglichkeiten buendeln um den Content-Erstellungs-ROI zu maximieren.",
+            alt: "Diagram dat de workflow voor het bouwen van verbroken links in vier stappen toont: zoeken, onderzoeken, creëren en bereiken met een wekelijks tijdsbudget",
+            caption: "Een gestructureerde wekelijkse workflow zorgt ervoor dat het opbouwen van verbroken links consistent blijft. Combineer vergelijkbare mogelijkheden om de ROI voor het maken van inhoud te maximaliseren.",
           },
         },
         {

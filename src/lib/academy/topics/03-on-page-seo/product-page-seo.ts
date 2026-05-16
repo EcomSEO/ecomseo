@@ -186,8 +186,7 @@ export const productPageSeo: AcademyTopic = {
     fr: {
       badge: "SEO On-Page",
       heading: "SEO des pages produits",
-      intro:
-        "Vos pages produits sont l'endroit ou les transactions se concretisent, pourtant la plupart des boutiques en ligne les traitent comme un detail secondaire, copiant les descriptions du fabricant, telechargeant des images non optimisees et ajoutant des balises title generiques. Une page produit bien optimisee remplit trois fonctions simultanement : elle se positionne sur les requetes produits specifiques, elle convainc l'acheteur de passer a l'achat, et elle envoie des donnees structurees aux moteurs de recherche pour que vos annonces se demarquent dans les resultats. Nous considerons l'optimisation des pages produits comme l'une des activites au meilleur ROI du SEO ecommerce, car le trafic que ces pages attirent porte deja une forte intention d'achat. Vos pages produits sont là où les transactions se produisent, pourtant la plupart des boutiques e-commerce les traitent après coup, copiant les descriptions fabricant, téléchargeant des images non optimisées et ajoutant des [balises titre](/academy/title-tags-and-meta-descriptions) génériques. Nous considérons l'optimisation des pages produits comme l'une des activités au ROI le plus élevé en [SEO e-commerce](/blog/seo-for-ecommerce-product-pages), car le trafic que ces pages attirent porte déjà une forte intention d'achat.",
+      intro: "Vos pages produits sont l'endroit ou les transactions se concretisent, pourtant la plupart des boutiques en ligne les traitent comme un detail secondaire, copiant les descriptions du fabricant, telechargeant des images non optimisees et ajoutant des balises title generiques. Une page produit bien optimisee remplit trois fonctions simultanement : elle se positionne sur les requetes produits specifiques, elle convainc l'acheteur de passer a l'achat, et elle envoie des données structurees aux moteurs de recherche pour que vos annonces se demarquent dans les resultats. Nous considerons l'optimisation des pages produits comme l'une des activites au meilleur ROI du SEO ecommerce, car le trafic que ces pages attirent porte déjà une forte intention d'achat. Vos pages produits sont là où les transactions se produisent, pourtant la plupart des boutiques e-commerce les traitent après coup, copiant les descriptions fabricant, téléchargeant des images non optimisées et ajoutant des [balises titre](/academy/title-tags-and-meta-descriptions) génériques. Nous considérons l'optimisation des pages produits comme l'une des activités au ROI le plus élevé en [SEO e-commerce](/blog/seo-for-ecommerce-product-pages), car le trafic que ces pages attirent porte déjà une forte intention d'achat.",
       readTime: "10 min de lecture",
       sections: [
         {
@@ -209,7 +208,7 @@ export const productPageSeo: AcademyTopic = {
           },
           callout: {
             title: "Zusammengesetzter SEO-Effekt",
-            text: "Shops mit hohen Bewertungen bei allen 12 Produktseiten-Elementen verzeichnen 30-50\u00a0% mehr organischen Traffic pro Produktseite als Wettbewerber.",
+            text: "Les magasins obtenant des résultats élevés sur les 12 éléments de la page produit voient 30 à 50 % de trafic organique en plus par page produit que leurs concurrents dans le même créneau. Aucun élément n'est à l'origine de cette situation : c'est l'effet composé de l'accro",
           },
         },
         {
@@ -236,7 +235,7 @@ export const productPageSeo: AcademyTopic = {
           tip: "Ajoutez la propriete 'review' dans votre schema Produit uniquement quand de vrais avis clients sont affiches sur la page. Google a sevi contre le balisage d'avis qui ne correspond pas au contenu d'avis visible, et les violations peuvent entrainer la perte de tous les resultats enrichis sur l'ensemble de votre domaine.",
           callout: {
             title: "Rich-Results-ROI",
-            text: "Wir haben 15–35 % CTR-Verbesserungen nach Product-Schema-Implementierung gemessen. Wichtige Properties: name, description, image, brand, sku, offers und aggregateRating.",
+            text: "Nous avons mesuré des améliorations du CTR de 15 à 35 % après la mise en œuvre du schéma de produit dans les magasins clients. Propriétés essentielles : nom, description, image, marque, sku, offres (prix + disponibilité) et agrégatRati",
           },
         },
         {
@@ -256,7 +255,7 @@ export const productPageSeo: AcademyTopic = {
           ],
         },
         {
-          title: "Signaux de qualite de contenu du leak : contentEffort et originalContentScore",
+          title: "Signaux de qualité de contenu du leak : contentEffort et originalContentScore",
           content:
             "Deux attributs fuites recadrent ce que \"bon contenu PDP\" signifie pour Google. contentEffort est une estimation basee sur LLM de combien d'effort humain est entre dans une page - probablement le moteur derriere le Helpful Content System. originalContentScore (une echelle 0-512) mesure a quel point le contenu d'une page est unique par rapport a ce qui existe deja sur le web.\n\nPour les pages produits, les descriptions fournies par le fabricant copiees a travers des centaines de boutiques echouent aux deux. Le correctif n'est pas de spinner ou reecrire mecaniquement - cela declenche d'autres demotions. Le correctif est l'ajout de premiere main genuine : photographies testees, notes de taille de vrais clients, comparaisons de coupe, donnees internes sur quelles variantes vendent le mieux, video montrant le produit en utilisation. Ces ajouts elevent contentEffort et originalContentScore parce qu'ils ne peuvent pas etre auto-generes.\n\nUn test pratique : si une page se classerait toujours en remplacant l'image produit et le prix par ceux d'un concurrent, contentEffort est le plafond. La page est interchangeable. Les PDP qui gagnent sont celles qu'un concurrent ne peut pas trivialement cloner - c'est ce que le leak recompense.",
           items: [
@@ -274,13 +273,12 @@ export const productPageSeo: AcademyTopic = {
     },
     es: {
       badge: "SEO On-Page",
-      heading: "SEO de paginas de producto",
-      intro:
-        "Tus paginas de producto son donde ocurren las transacciones, sin embargo la mayoria de las tiendas online las tratan como algo secundario, copiando descripciones del fabricante, subiendo imagenes sin optimizar y usando etiquetas de titulo genericas. Una pagina de producto bien optimizada cumple tres funciones simultaneamente: se posiciona para consultas de producto especificas, convence al comprador de comprar, y envia datos estructurados a los motores de busqueda para que tus listados destaquen en los resultados. Consideramos la optimizacion de paginas de producto como una de las actividades con mayor ROI en SEO para ecommerce, porque el trafico que estas paginas atraen ya lleva una fuerte intencion de compra. Vemos la optimizacion de paginas de producto como una de las actividades de mayor ROI en el [SEO para ecommerce](/blog/seo-for-ecommerce-product-pages) porque el trafico que estas paginas atraen ya tiene una fuerte intencion de compra.",
+      heading: "SEO de páginas de producto",
+      intro: "Tus páginas de producto son donde ocurren las transacciones, sin embargo la mayoria de las tiendas online las tratan como algo secundario, copiando descripciones del fabricante, subiendo imagenes sin optimizar y usando etiquetas de título genericas. Una página de producto bien optimizada cumple tres funciones simultaneamente: se posiciona para consultas de producto especificas, convence al comprador de comprar, y envia datos estructurados a los motores de busqueda para que tus listados destaquen en los resultados. Consideramos la optimización de páginas de producto como una de las actividades con mayor ROI en SEO para ecommerce, porque el tráfico que estas páginas atraen ya lleva una fuerte intención de compra. Vemos la optimización de páginas de producto como una de las actividades de mayor ROI en el [SEO para ecommerce](/blog/seo-for-ecommerce-product-pages) porque el tráfico que estas páginas atraen ya tiene una fuerte intención de compra.",
       readTime: "10 min de lectura",
       sections: [
         {
-          title: "Anatomia de una pagina de producto bien optimizada",
+          title: "Anatomia de una página de producto bien optimizada",
           content:
             "Cada pagina de producto de alto rendimiento comparte un conjunto de elementos estructurales que satisfacen tanto a los motores de busqueda como a los compradores. En la parte superior, un H1 claro que coincide con el nombre del producto y la palabra clave principal. Debajo, imagenes del producto con texto alternativo descriptivo. Luego una descripcion unica que va mas alla de las especificaciones para abordar preguntas del comprador y casos de uso. Los elementos de soporte incluyen navegacion por migas de pan, resenas de clientes, enlaces a productos relacionados y marcado de datos estructurados.\n\nEl orden y la jerarquia visual de estos elementos importa. Los estudios de eye-tracking muestran consistentemente que los compradores escanean en patron de F: primero miran la imagen del producto, luego el titulo, luego el precio y finalmente la descripcion. Tus elementos SEO deben alinearse con este comportamiento de escaneo natural en lugar de contradecirlo. Una etiqueta de titulo atiborrada de palabras clave que no coincide con el H1 visible confunde tanto a usuarios como a motores de busqueda.\n\nAuditamos paginas de producto usando una lista de verificacion de 12 puntos que cubre SEO tecnico, calidad de contenido y elementos de conversion. Las tiendas que obtienen las puntuaciones mas altas en esta lista tienden a tener 30-50% mas de trafico organico por pagina de producto comparado con competidores en el mismo nicho. La diferencia no esta en ningun elemento individual, es el efecto compuesto de hacer bien cada elemento en miles de paginas de producto.",
           items: [
@@ -298,11 +296,11 @@ export const productPageSeo: AcademyTopic = {
           },
           callout: {
             title: "Zusammengesetzter SEO-Effekt",
-            text: "Shops mit hohen Bewertungen bei allen 12 Produktseiten-Elementen verzeichnen 30-50\u00a0% mehr organischen Traffic pro Produktseite als Wettbewerber.",
+            text: "Las tiendas con una puntuación alta en los 12 elementos de la página de producto obtienen entre un 30% y un 50% más de tráfico orgánico por página de producto que los competidores en el mismo nicho. Ningún elemento por sí solo impulsa esto: es el efecto compuesto acro.",
           },
         },
         {
-          title: "Etiquetas de titulo con atributos de producto",
+          title: "Etiquetas de título con atributos de producto",
           content:
             "Las [etiquetas de titulo](/academy/title-tags-and-meta-descriptions) de las paginas de producto deben equilibrar la inclusion de palabras clave con el atractivo al clic. La formula mas efectiva que hemos encontrado para paginas de producto es: Nombre del Producto + Atributo Clave + Marca + Nombre de la Tienda. Por ejemplo, \"Calcetines de Senderismo Lana Merino - Ligeros, Talla 42-45 | TrailGear\" agrupa la palabra clave del producto, un atributo diferenciador, informacion de talla y el nombre de la tienda en una sola etiqueta.\n\nIncluir atributos de producto como color, talla, material o numero de modelo en las etiquetas de titulo captura busquedas de cola larga que tus competidores pierden. Alguien que busca \"taza de cafe ceramica azul 350ml\" tiene una intencion de compra extremadamente especifica, y una etiqueta de titulo que coincida con esos atributos ganara el clic sobre un listado generico de \"Taza de Cafe\" siempre.\n\nPara tiendas con catalogos grandes, escribir manualmente etiquetas de titulo para cada producto no es realista. En su lugar, construye un sistema de plantillas que extraiga atributos de producto dinamicamente. La mayoria de las plataformas ecommerce soportan esto mediante variables de plantilla: {Nombre del Producto} - {Color} {Material} | {Marca} | {Nombre de la Tienda}. La clave es elegir que atributos importan mas para cada categoria. Los productos de ropa se benefician del material y la talla en el titulo. La electronica necesita numeros de modelo. Los muebles se benefician de las dimensiones.\n\nManten las etiquetas de titulo por debajo de 60 caracteres cuando sea posible. Google trunca los titulos mas largos en los resultados de busqueda, y un titulo cortado se ve poco profesional y pierde informacion. Si tu nombre de producto solo supera los 40 caracteres, tendras que priorizar que atributos incluir y cuales guardar para la meta descripcion.",
           tip: "Prueba diferentes formulas de etiquetas de titulo en categorias de productos ejecutando experimentos A/B en Google Search Console. Cambia las etiquetas de titulo de 50 productos en una categoria, espera 4-6 semanas y compara los cambios de CTR con un grupo de control de productos sin cambios en la misma categoria.",
@@ -325,7 +323,7 @@ export const productPageSeo: AcademyTopic = {
           tip: "Anade la propiedad 'review' dentro de tu esquema de Producto solo cuando las resenas reales de clientes se muestran en la pagina. Google ha tomado medidas contra el marcado de resenas que no corresponde al contenido de resenas visible, y las violaciones pueden resultar en la perdida de todos los resultados enriquecidos en todo tu dominio.",
           callout: {
             title: "Rich-Results-ROI",
-            text: "Wir haben 15–35 % CTR-Verbesserungen nach Product-Schema-Implementierung gemessen. Wichtige Properties: name, description, image, brand, sku, offers und aggregateRating.",
+            text: "Medimos mejoras en el CTR del 15 al 35 % después de implementar el esquema de producto en las tiendas de los clientes. Propiedades esenciales: nombre, descripción, imagen, marca, sku, ofertas (precio + disponibilidad) y agregadoRati",
           },
         },
         {
@@ -334,7 +332,7 @@ export const productPageSeo: AcademyTopic = {
             "Las imagenes de producto representan una oportunidad SEO significativa que la mayoria de las tiendas desperdician. Google Images genera una parte considerable del trafico ecommerce, hemos visto que representa del 10-25% de las visitas organicas para categorias de productos visuales como muebles, moda y decoracion del hogar. Optimizar el texto alternativo y los nombres de archivo de las imagenes es el punto de entrada para capturar este trafico.\n\nLos nombres de archivo deben describir el producto antes de que la imagen se suba. Renombra \"IMG_4582.jpg\" a \"bolso-bandolera-cuero-rojo-frente.jpg\" antes de ponerlo en tu sitio. Los motores de busqueda usan los nombres de archivo como senal de posicionamiento para la busqueda de imagenes, y los nombres descriptivos tambien ayudan a los lectores de pantalla a proporcionar contexto para compradores con discapacidad visual. Usa guiones para separar palabras, manten los nombres concisos e incluye la palabra clave principal del producto.\n\nEl texto alternativo cumple un doble proposito: accesibilidad y SEO. Escribe texto alternativo que describa lo que muestra la imagen como si estuvieras explicandoselo a alguien que no puede verla. \"Bolso bandolera de cuero rojo con correa de cadena dorada, vista frontal\" les dice tanto a los lectores de pantalla como a los motores de busqueda exactamente lo que hay en la imagen. Evita rellenar el texto alternativo con palabras clave, \"comprar bolso cuero rojo mejor bolso bandolera cuero rojo oferta\" es spam inutil.\n\nPara paginas de producto con multiples imagenes (frente, espalda, detalle, lifestyle), varia el texto alternativo para describir cada vista especifica. Esto crea multiples oportunidades de posicionamiento en busqueda de imagenes para diferentes consultas. La foto lifestyle de alguien llevando el bolso en un cafe podria posicionarse para \"outfit bolso bandolera\" mientras la foto de detalle se posiciona para \"correa cadena dorada bolso\". Nuestra guia completa sobre [optimizacion de imagenes para productos](/academy/image-optimization-for-products) cubre compresion, formatos y lazy loading en detalle.",
         },
         {
-          title: "Senales UX que afectan los rankings de paginas de producto",
+          title: "Senales UX que afectan los rankings de páginas de producto",
           content:
             "Google mide como los usuarios interactuan con tus paginas de producto despues de hacer clic desde los resultados de busqueda. Altas tasas de rebote, tiempo corto en la pagina y pogo-sticking (hacer clic para volver a los resultados de busqueda y elegir otro listado) senalan que tu pagina no satisfizo la intencion del buscador. Estas senales de comportamiento influyen en los rankings con el tiempo, lo que significa que UX y SEO estan profundamente conectados en las paginas de producto.\n\nLa velocidad de carga es el factor UX mas medible. Las paginas de producto cargadas con imagenes sin comprimir, JavaScript excesivo y scripts de rastreo de terceros a menudo tardan 4-6 segundos en cargar en movil. Los Core Web Vitals de Google, Largest Contentful Paint, Interaction to Next Paint y Cumulative Layout Shift, miden directamente el rendimiento de carga, la interactividad y la estabilidad visual. Apuntamos a menos de 2,5 segundos para LCP, menos de 200ms para INP y menos de 0,1 para CLS en todas las paginas de producto.\n\nLa usabilidad movil es igualmente critica. Mas del 60% del trafico ecommerce proviene de dispositivos moviles, y una pagina de producto dificil de navegar en un telefono perdera tanto rankings como ventas. Los objetivos de toque deben ser lo suficientemente grandes para los pulgares, las imagenes de producto deben ser ampliables y el boton de anadir al carrito debe ser visible sin desplazamiento excesivo. Prueba cada plantilla de pagina de producto en dispositivos moviles reales, no solo con herramientas de redimensionamiento del navegador.\n\nLos elementos de confianza reducen las tasas de rebote y aumentan el tiempo en la pagina. Los costos de envio visibles, las politicas de devolucion, las insignias de seguridad y las resenas de clientes dan a los compradores razones para quedarse en la pagina en lugar de volver a los resultados de busqueda. Una pagina de producto que responde inmediatamente \"cuanto cuesta el envio\" y \"puedo devolver esto\" mantiene a los usuarios comprometidos, lo que envia senales positivas a Google sobre la calidad y relevancia de tu pagina.",
           items: [
@@ -387,7 +385,7 @@ export const productPageSeo: AcademyTopic = {
           },
           callout: {
             title: "Zusammengesetzter SEO-Effekt",
-            text: "Shops mit hohen Bewertungen bei allen 12 Produktseiten-Elementen verzeichnen 30-50\u00a0% mehr organischen Traffic pro Produktseite als Wettbewerber.",
+            text: "I negozi che ottengono punteggi elevati su tutti e 12 gli elementi della pagina prodotto vedono il 30-50% in più di traffico organico per pagina prodotto rispetto ai concorrenti nella stessa nicchia. Nessun singolo elemento determina questo: è l'effetto composto acro",
           },
         },
         {
@@ -414,7 +412,7 @@ export const productPageSeo: AcademyTopic = {
           tip: "Aggiungi la proprieta 'review' nel tuo schema Prodotto solo quando le recensioni reali dei clienti sono mostrate sulla pagina. Google ha intensificato le azioni contro il markup delle recensioni che non corrisponde al contenuto delle recensioni visibili, e le violazioni possono comportare la perdita di tutti i risultati arricchiti su tutto il tuo dominio.",
           callout: {
             title: "Rich-Results-ROI",
-            text: "Wir haben 15–35 % CTR-Verbesserungen nach Product-Schema-Implementierung gemessen. Wichtige Properties: name, description, image, brand, sku, offers und aggregateRating.",
+            text: "Abbiamo misurato miglioramenti del CTR del 15-35% dopo aver implementato lo schema del prodotto nei negozi dei clienti. Proprietà essenziali: nome, descrizione, immagine, marca, sku, offerte (prezzo + disponibilità) e aggregatoRati",
           },
         },
         {
@@ -476,7 +474,7 @@ export const productPageSeo: AcademyTopic = {
           },
           callout: {
             title: "Zusammengesetzter SEO-Effekt",
-            text: "Shops mit hohen Bewertungen bei allen 12 Produktseiten-Elementen verzeichnen 30-50\u00a0% mehr organischen Traffic pro Produktseite als Wettbewerber.",
+            text: "Winkels die hoog scoren op alle twaalf productpagina-elementen zien 30-50% meer organisch verkeer per productpagina dan concurrenten in dezelfde niche. Geen enkel element drijft dit aan; het is het samengestelde effect acro",
           },
         },
         {
@@ -503,7 +501,7 @@ export const productPageSeo: AcademyTopic = {
           tip: "Voeg de 'review'-eigenschap alleen toe binnen je Product schema wanneer daadwerkelijke klantreviews op de pagina worden weergegeven. Google heeft het optreden tegen reviewmarkup die niet overeenkomt met zichtbare reviewcontent aangescherpt, en overtredingen kunnen leiden tot het verlies van alle rich results over je hele domein.",
           callout: {
             title: "Rich-Results-ROI",
-            text: "Wir haben 15–35 % CTR-Verbesserungen nach Product-Schema-Implementierung gemessen. Wichtige Properties: name, description, image, brand, sku, offers und aggregateRating.",
+            text: "We hebben 15-35% CTR-verbeteringen gemeten na de implementatie van het Productschema in de winkels van klanten. Essentiële eigenschappen: naam, beschrijving, afbeelding, merk, sku, aanbiedingen (prijs + beschikbaarheid) en aggregateRati",
           },
         },
         {

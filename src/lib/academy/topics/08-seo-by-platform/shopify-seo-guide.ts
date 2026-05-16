@@ -140,8 +140,7 @@ export const shopifySeoGuide: AcademyTopic = {
     fr: {
       badge: "SEO par plateforme",
       heading: "Guide SEO Shopify",
-      intro:
-        "Shopify alimente plus de quatre millions de boutiques en ligne, mais son architecture imposee cree des contraintes SEO specifiques que les proprietaires de boutiques doivent contourner. Comprendre comment Shopify gere les URLs, les templates et le rendu permet de maximiser la visibilite organique sans lutter contre la plateforme. Pour un guide complet, lisez également notre guide sur le [SEO e-commerce Shopify](/blog/shopify-ecommerce-seo).",
+      intro: "Shopify alimente plus de quatre millions de boutiques en ligne, mais son architecture imposee cree des contraintes SEO specifiques que les proprietaires de boutiques doivent contourner. Comprendre comment Shopify gere les URLs, les templates et le rendu permet de maximiser la visibilite organique sans lutter contre la plateforme. Pour un guide complet, lisez également notre guide sur le [SEO e-commerce Shopify](/blog/shopify-ecommerce-seo).",
       readTime: "12 min de lecture",
       sections: [
         {
@@ -151,16 +150,16 @@ export const shopifySeoGuide: AcademyTopic = {
           tip: "Utilisez la fonctionnalite de redirection en masse de Shopify pour nettoyer les anciennes URLs de produits apres suppression ou renommage d'articles. Les liens produits brises renvoyant des erreurs 404 erosionnent l'efficacite du crawl.",
           image: {
             src: "/images/academy/fr/shopify-url-structure.svg",
-            alt: "Shopify URL-Struktur fuer Produkte, Kollektionen, Seiten und Blog mit festen Praefixen",
-            caption: "Shopifys feste URL-Praefixe (/products/, /collections/) koennen nicht entfernt werden. Optimieren Sie den Handle-Teil.",
+            alt: "Diagramme montrant comment Shopify génère des URL de contexte de collection en double et les résout avec des balises canoniques",
+            caption: "Chaque produit accessible via une collection reçoit une URL secondaire. La balise canonique de Shopify renvoie à la version principale /products/.",
           },
           callout: {
             title: "URL-Einschraenkung",
-            text: "Sie koennen Shopifys /products/ und /collections/ Praefixe nicht entfernen. Konzentrieren Sie sich auf die Optimierung der Handles und nutzen Sie Kollektionen als Kategorieersatz fuer eine bessere URL-Hierarchie.",
+            text: "Chaque produit dans N collections crée N+1 URL explorables. Un magasin avec 2 000 produits comportant en moyenne 3 collections chacun génère 8 000 URL en double qui consomment le budget d'exploration si les balises canoniques échouent.-Hierarchie.",
           },
         },
         {
-          title: "Templates Liquid et controle SEO on-page",
+          title: "Templates Liquid et contrôle SEO on-page",
           content:
             "Les themes Shopify utilisent le langage de template Liquid, qui vous donne un controle direct sur les balises title, les meta descriptions, la hierarchie des titres et la sortie des [donnees structurees](/academy/structured-data-for-products). Chaque fichier de theme sous les repertoires /templates/ et /sections/ peut etre modifie pour injecter du balisage pertinent pour le SEO.\n\nPour les balises title, modifiez le fichier de mise en page theme.liquid ou utilisez l'objet title specifique au SEO fourni par Shopify. La variable {{ page_title }} affiche ce que vous definissez dans le panneau d'administration, mais vous pouvez ajouter le nom de votre boutique ou des separateurs avec la logique Liquid.\n\nLes donnees structurees necessitent plus d'efforts. Bien que Shopify injecte du JSON-LD basique pour les produits (prix, disponibilite, nom), il manque souvent les donnees d'avis agreges, le balisage fil d'Ariane et le schema FAQ. Vous devez les ajouter manuellement dans le template product.liquid ou product.json.\n\nLa hierarchie des titres est un autre domaine ou les themes Shopify echouent frequemment. De nombreux themes utilisent des balises H1 pour le nom de la boutique dans l'en-tete. Auditez la section header.liquid de votre theme et assurez-vous que chaque type de page possede exactement un H1. Notre [générateur de schéma](/tools/schema-generator) peut vous aider à créer des [données structurées valides pour les produits](/academy/structured-data-for-products).",
           items: [
@@ -182,12 +181,12 @@ export const shopifySeoGuide: AcademyTopic = {
           tip: "Executez un audit de vitesse du theme Shopify avec Lighthouse sur une page de collection et une page produit. Les pages de collection avec de nombreuses cartes produit obtiennent souvent des scores nettement inferieurs.",
           image: {
             src: "/images/academy/fr/shopify-speed-stack.svg",
-            alt: "Shopify Geschwindigkeitsoptimierungs-Stack auf Theme-, App- und Content-Ebene",
-            caption: "Die groessten Geschwindigkeitsgewinne bei Shopify kommen von der Theme-Optimierung und dem Entfernen ungenutzter Apps.",
+            alt: "Pile hiérarchisée d'optimisations de vitesse Shopify, de la sélection de thème au report JavaScript",
+            caption: "Abordez les améliorations de vitesse par ordre de priorité : le thème d'abord, puis les images, l'audit des applications et le report de JavaScript.",
           },
           callout: {
             title: "App-Ballast",
-            text: "Jede installierte Shopify-App fuegt JavaScript und CSS hinzu, auch wenn sie nicht sichtbar ist. Deinstallierte Apps koennen Skript-Reste hinterlassen. Pruefen Sie regelmaessig den Theme-Code auf verwaiste App-Skripte.",
+            text: "La suppression de seulement 3 applications Shopify inutilisées peut améliorer le LCP de plus de 800 ms. Chaque application injecte au moins un script de blocage de rendu, et l'effet cumulatif s'aggrave à chaque chargement de page.iste App-Skripte.",
           },
         },
         {
@@ -206,8 +205,7 @@ export const shopifySeoGuide: AcademyTopic = {
     es: {
       badge: "SEO por plataforma",
       heading: "Guia SEO para Shopify",
-      intro:
-        "Shopify alimenta mas de cuatro millones de tiendas online, pero su arquitectura predefinida crea restricciones SEO especificas que los propietarios de tiendas deben sortear. Comprender como Shopify gestiona URLs, plantillas y renderizado permite maximizar la visibilidad organica sin luchar contra la plataforma. Para un recorrido completo, lee tambien nuestra guia de [SEO para ecommerce en Shopify](/blog/shopify-ecommerce-seo).",
+      intro: "Shopify alimenta mas de cuatro millones de tiendas online, pero su arquitectura predefinida crea restricciones SEO especificas que los propietarios de tiendas deben sortear. Comprender como Shopify gestiona URLs, plantillas y renderizado permite maximizar la visibilidad organica sin luchar contra la plataforma. Para un recorrido completo, lee tambien nuestra guia de [SEO para ecommerce en Shopify](/blog/shopify-ecommerce-seo).",
       readTime: "12 min de lectura",
       sections: [
         {
@@ -217,12 +215,12 @@ export const shopifySeoGuide: AcademyTopic = {
           tip: "Utiliza la funcion de redireccion masiva de Shopify para limpiar URLs de productos antiguas despues de eliminar o renombrar articulos. Los enlaces de productos rotos que devuelven errores 404 erosionan la eficiencia del rastreo.",
           image: {
             src: "/images/academy/es/shopify-url-structure.svg",
-            alt: "Shopify URL-Struktur fuer Produkte, Kollektionen, Seiten und Blog mit festen Praefixen",
-            caption: "Shopifys feste URL-Praefixe (/products/, /collections/) koennen nicht entfernt werden. Optimieren Sie den Handle-Teil.",
+            alt: "Diagrama que muestra cómo Shopify genera URL de contexto de colección duplicadas y las resuelve con etiquetas canónicas",
+            caption: "Cada producto al que se accede a través de una colección obtiene una URL secundaria. La etiqueta canónica de Shopify apunta a la versión principal /products/.",
           },
           callout: {
             title: "URL-Einschraenkung",
-            text: "Sie koennen Shopifys /products/ und /collections/ Praefixe nicht entfernen. Konzentrieren Sie sich auf die Optimierung der Handles und nutzen Sie Kollektionen als Kategorieersatz fuer eine bessere URL-Hierarchie.",
+            text: "Cada producto de N colecciones crea N+1 URL rastreables. Una tienda con 2000 productos con un promedio de 3 colecciones cada una genera 8000 URL duplicadas que consumen el presupuesto de rastreo si las etiquetas canónicas fallan.-Hierarchie.",
           },
         },
         {
@@ -242,18 +240,18 @@ export const shopifySeoGuide: AcademyTopic = {
             "El ecosistema de aplicaciones de Shopify es tanto una fortaleza como una carga para el SEO. Apps como Yoast SEO para Shopify, Smart SEO y SEO Manager pueden automatizar meta tags, generar sitemaps y gestionar redirecciones. Sin embargo, cada app inyecta JavaScript en tu escaparate, aumentando los tiempos de carga.\n\nCada aplicacion instalada anade al menos una solicitud HTTP adicional, y muchas inyectan scripts que bloquean el renderizado. Hemos medido tiendas donde eliminar tres aplicaciones no utilizadas mejoro el Largest Contentful Paint en mas de 800 milisegundos.\n\nEl sitemap integrado de Shopify (sitemap.xml) se genera automaticamente y no puede editarse directamente. Incluye todos los productos publicados, colecciones, paginas y entradas de blog. El sitemap nativo tambien carece de entradas de sitemap de imagenes para galerias de productos.\n\nPara la gestion de redirecciones, Shopify soporta redirecciones 301 a traves del panel de administracion. Esta interfaz funciona para pequenas cantidades de redirecciones pero se vuelve inmanejable por encima de unos pocos cientos de entradas.",
         },
         {
-          title: "Optimizacion de velocidad en Shopify para SEO",
+          title: "Optimización de velocidad en Shopify para SEO",
           content:
             "Los Core Web Vitals influyen directamente en los rankings de Google, y las tiendas Shopify a menudo luchan con el Largest Contentful Paint (LCP) y el Cumulative Layout Shift (CLS). El cuello de botella principal suele ser el tema en si, combinado con imagenes no optimizadas y scripts de aplicaciones excesivos.\n\nShopify sirve automaticamente las imagenes a traves de su CDN y soporta la conversion al formato WebP. Usa el filtro Liquid image_url con parametros de ancho para servir imagenes dimensionadas apropiadamente. Esto evita que el navegador descargue imagenes de productos de alta resolucion de 4000 pixeles en dispositivos moviles.\n\nLa seleccion del tema es enormemente relevante. Los temas Online Store 2.0 de Shopify construidos sobre la arquitectura de plantillas JSON generalmente rinden mejor que los temas heredados basados solo en Liquid. Dawn, el tema de referencia de Shopify, obtiene buenas puntuaciones en Core Web Vitals de fabrica.\n\nLa carga diferida de imagenes debajo del pliegue, el aplazamiento de JavaScript no critico y la minimizacion de la complejidad de bucles Liquid en plantillas de coleccion contribuyen a cargas de pagina mas rapidas. Abordar estos problemas es una parte critica de la [optimizacion de velocidad del sitio](/academy/site-speed-optimization).",
           tip: "Ejecuta una auditoria de velocidad del tema Shopify con Lighthouse tanto en una pagina de coleccion como en una pagina de producto. Las paginas de coleccion con muchas tarjetas de producto a menudo obtienen puntuaciones significativamente peores.",
           image: {
             src: "/images/academy/es/shopify-speed-stack.svg",
-            alt: "Shopify Geschwindigkeitsoptimierungs-Stack auf Theme-, App- und Content-Ebene",
-            caption: "Die groessten Geschwindigkeitsgewinne bei Shopify kommen von der Theme-Optimierung und dem Entfernen ungenutzter Apps.",
+            alt: "Pila priorizada de optimizaciones de velocidad de Shopify desde la selección de temas hasta el aplazamiento de JavaScript",
+            caption: "Aborde las mejoras de velocidad en orden de prioridad: primero el tema, luego las imágenes, la auditoría de aplicaciones y el aplazamiento de JavaScript.",
           },
           callout: {
             title: "App-Ballast",
-            text: "Jede installierte Shopify-App fuegt JavaScript und CSS hinzu, auch wenn sie nicht sichtbar ist. Deinstallierte Apps koennen Skript-Reste hinterlassen. Pruefen Sie regelmaessig den Theme-Code auf verwaiste App-Skripte.",
+            text: "Eliminar solo 3 aplicaciones de Shopify no utilizadas puede mejorar el LCP en más de 800 ms. Cada aplicación inyecta al menos un script de bloqueo de renderizado y el efecto acumulativo se agrava en cada carga de página.iste App-Skripte.",
           },
         },
         {
@@ -283,12 +281,12 @@ export const shopifySeoGuide: AcademyTopic = {
           tip: "Utilizza la funzione di reindirizzamento in blocco di Shopify per ripulire i vecchi URL dei prodotti dopo la rimozione o la ridenominazione degli articoli. I link di prodotti non funzionanti che restituiscono errori 404 erodono l'efficienza del crawl.",
           image: {
             src: "/images/academy/it/shopify-url-structure.svg",
-            alt: "Shopify URL-Struktur fuer Produkte, Kollektionen, Seiten und Blog mit festen Praefixen",
-            caption: "Shopifys feste URL-Praefixe (/products/, /collections/) koennen nicht entfernt werden. Optimieren Sie den Handle-Teil.",
+            alt: "Diagramma che mostra come Shopify genera URL duplicati del contesto della raccolta e li risolve con tag canonici",
+            caption: "Ogni prodotto a cui si accede tramite una collezione ottiene un URL secondario. Il tag canonico di Shopify rimanda entrambi alla versione /products/ primaria.",
           },
           callout: {
             title: "URL-Einschraenkung",
-            text: "Sie koennen Shopifys /products/ und /collections/ Praefixe nicht entfernen. Konzentrieren Sie sich auf die Optimierung der Handles und nutzen Sie Kollektionen als Kategorieersatz fuer eine bessere URL-Hierarchie.",
+            text: "Ogni prodotto in N collezioni crea N+1 URL scansionabili. Un negozio con 2.000 prodotti con una media di 3 collezioni ciascuno genera 8.000 URL duplicati che consumano il budget di scansione se i tag canonici falliscono.-Hierarchie.",
           },
         },
         {
@@ -314,12 +312,12 @@ export const shopifySeoGuide: AcademyTopic = {
           tip: "Esegui un audit della velocita del tema Shopify con Lighthouse sia su una pagina di collezione che su una pagina prodotto. Le pagine di collezione con molte schede prodotto ottengono spesso punteggi significativamente peggiori.",
           image: {
             src: "/images/academy/it/shopify-speed-stack.svg",
-            alt: "Shopify Geschwindigkeitsoptimierungs-Stack auf Theme-, App- und Content-Ebene",
-            caption: "Die groessten Geschwindigkeitsgewinne bei Shopify kommen von der Theme-Optimierung und dem Entfernen ungenutzter Apps.",
+            alt: "Stack prioritario di ottimizzazioni della velocità di Shopify dalla selezione del tema al differimento di JavaScript",
+            caption: "Affronta i miglioramenti della velocità in ordine di priorità: prima il tema, poi le immagini, il controllo delle app e il differimento di JavaScript.",
           },
           callout: {
             title: "App-Ballast",
-            text: "Jede installierte Shopify-App fuegt JavaScript und CSS hinzu, auch wenn sie nicht sichtbar ist. Deinstallierte Apps koennen Skript-Reste hinterlassen. Pruefen Sie regelmaessig den Theme-Code auf verwaiste App-Skripte.",
+            text: "La rimozione di sole 3 app Shopify inutilizzate può migliorare l'LCP di oltre 800 ms. Ogni app inserisce almeno uno script di blocco del rendering e l'effetto cumulativo si accumula a ogni caricamento della pagina.iste App-Skripte.",
           },
         },
         {
@@ -349,12 +347,12 @@ export const shopifySeoGuide: AcademyTopic = {
           tip: "Gebruik de Shopify bulk-redirectfunctie om oude product-URL's op te ruimen na het verwijderen of hernoemen van artikelen. Kapotte productlinks die 404-fouten retourneren, ondermijnen de crawl-efficientie.",
           image: {
             src: "/images/academy/nl/shopify-url-structure.svg",
-            alt: "Shopify URL-Struktur fuer Produkte, Kollektionen, Seiten und Blog mit festen Praefixen",
-            caption: "Shopifys feste URL-Praefixe (/products/, /collections/) koennen nicht entfernt werden. Optimieren Sie den Handle-Teil.",
+            alt: "Diagram dat laat zien hoe Shopify dubbele collectiecontext-URL's genereert en deze oplost met canonieke tags",
+            caption: "Elk product dat via een collectie wordt benaderd, krijgt een secundaire URL. De canonieke tag van Shopify verwijst beide terug naar de primaire /products/-versie.",
           },
           callout: {
             title: "URL-Einschraenkung",
-            text: "Sie koennen Shopifys /products/ und /collections/ Praefixe nicht entfernen. Konzentrieren Sie sich auf die Optimierung der Handles und nutzen Sie Kollektionen als Kategorieersatz fuer eine bessere URL-Hierarchie.",
+            text: "Elk product in N collecties creëert N+1 crawlbare URL's. Een winkel met 2.000 producten, met elk gemiddeld drie collecties, genereert 8.000 dubbele URL's die het crawlbudget verbruiken als canonieke tags falen.-Hierarchie.",
           },
         },
         {
@@ -380,12 +378,12 @@ export const shopifySeoGuide: AcademyTopic = {
           tip: "Voer een Shopify-themasnelheidsaudit uit met Lighthouse op zowel een collectiepagina als een productpagina. Collectiepagina's met veel productkaarten scoren vaak aanzienlijk slechter.",
           image: {
             src: "/images/academy/nl/shopify-speed-stack.svg",
-            alt: "Shopify Geschwindigkeitsoptimierungs-Stack auf Theme-, App- und Content-Ebene",
-            caption: "Die groessten Geschwindigkeitsgewinne bei Shopify kommen von der Theme-Optimierung und dem Entfernen ungenutzter Apps.",
+            alt: "Geprioriteerde stapel Shopify-snelheidsoptimalisaties, van themaselectie tot JavaScript-uitstel",
+            caption: "Pak snelheidsverbeteringen aan in volgorde van prioriteit: eerst het thema, dan afbeeldingen, app-audit en uitstel van JavaScript.",
           },
           callout: {
             title: "App-Ballast",
-            text: "Jede installierte Shopify-App fuegt JavaScript und CSS hinzu, auch wenn sie nicht sichtbar ist. Deinstallierte Apps koennen Skript-Reste hinterlassen. Pruefen Sie regelmaessig den Theme-Code auf verwaiste App-Skripte.",
+            text: "Door slechts 3 ongebruikte Shopify-apps te verwijderen, kunt u de LCP met meer dan 800 ms verbeteren. Elke app injecteert ten minste één script dat het renderen blokkeert, en het cumulatieve effect wordt groter bij elke pagina die wordt geladen.iste App-Skripte.",
           },
         },
         {

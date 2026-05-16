@@ -190,8 +190,7 @@ export const emailOutreachForLinks: AcademyTopic = {
     fr: {
       badge: "Netlinking",
       heading: "Outreach par Email pour les Liens",
-      intro:
-        "L'outreach par email reste la methode la plus fiable pour obtenir des backlinks de haute qualite vers les sites e-commerce. Contrairement aux strategies passives qui dependent de la decouverte organique du contenu, l'outreach place vos meilleures pages directement devant les proprietaires de sites, redacteurs et blogueurs qui peuvent y creer des liens. Bien execute, une seule campagne d'outreach peut generer des dizaines de backlinks pertinents et autoritaires qui font evoluer les classements. Notre service de [link building](/link-building) utilise ces techniques exactes à grande échelle.",
+      intro: "L'outreach par email reste la methode la plus fiable pour obtenir des backlinks de haute qualité vers les sites e-commerce. Contrairement aux stratégies passives qui dependent de la decouverte organique du contenu, l'outreach place vos meilleures pages directement devant les proprietaires de sites, redacteurs et blogueurs qui peuvent y créer des liens. Bien execute, une seule campagne d'outreach peut generer des dizaines de backlinks pertinents et autoritaires qui font evoluer les classements. Notre service de [link building](/link-building) utilise ces techniques exactes à grande échelle.",
       readTime: "8 min de lecture",
       sections: [
         {
@@ -220,16 +219,16 @@ export const emailOutreachForLinks: AcademyTopic = {
           ],
           image: {
             src: "/images/academy/fr/outreach-email-funnel.svg",
-            alt: "Trichterdiagramm das E-Mail-Outreach-Konversionsraten von 100 Interessenten zu 3-7 platzierten Links zeigt",
-            caption: "Eine gut gezielte Kampagne konvertiert 100 Interessenten in 3-7 platzierte Links. Die meisten positiven Antworten kommen aus Follow-up-E-Mails, nicht aus dem ersten Kontakt.",
+            alt: "Diagramme en entonnoir montrant les taux de conversion de la diffusion par e-mail de 100 prospects à 3 à 7 liens placés",
+            caption: "Une campagne bien ciblée convertit 100 prospects en 3 à 7 liens placés. La plupart des réponses positives proviennent d'e-mails de suivi, et non du premier contact.",
           },
           callout: {
-            title: "Die 150-Woerter-Regel",
-            text: "E-Mails unter 150 Woertern uebertreffen laengere Pitches konsistent. Fuehren Sie mit Mehrwert, nicht mit dem was Sie wollen. Redakteure loeschen E-Mails die mit Ich haette gerne einen Link oeffnen, antworten aber auf E-Mails die zeigen wie Ihr Inhalt deren Lesern hilft.",
+            title: "La règle des 150 mots",
+            text: "Les e-mails de moins de 150 mots surpassent systématiquement les pitchs plus longs. Dirigez avec de la valeur, pas avec ce que vous voulez. Les éditeurs suppriment les e-mails qui s'ouvrent avec « J'aimerais un lien » mais répondent aux e-mails montrant comment voustworten aber auf E-Mails die zeigen wie Ihr Inhalt deren Lesern hilft.",
           },
         },
         {
-          title: "Personnalisation a grande echelle",
+          title: "Personnalisation a grande échelle",
           content:
             "La vraie personnalisation fait la difference entre un taux de reponse de 2% et de 15%. Cependant, rediger un email entierement sur mesure pour chacun des 200 prospects est impraticable. La solution est la personnalisation par paliers : creez des frameworks de templates permettant une personnalisation efficace aux points qui comptent le plus.\n\nCommencez par segmenter vos prospects en groupes bases sur le type d'opportunite, placements sur pages de ressources, pitchs d'articles invites, remplacements de liens casses ou mentions editoriales. Chaque groupe recoit un template unique avec le pitch principal adapte a ce type de lien. Dans chaque template, laissez des champs de fusion pour le nom du prospect, le nom de son site, une reference d'article specifique et la raison pour laquelle votre contenu convient a son audience.\n\nLe champ de reference d'article est l'element de personnalisation le plus important. Passez 60 a 90 secondes sur le site de chaque prospect pour trouver un article recent que vous pouvez genuinement referencer. Cette seule phrase separe votre email des centaines de messages d'outreach generiques qu'ils recoivent mensuellement. Des outils comme Pitchbox, BuzzStream ou meme un tableur bien structure avec publipostage peuvent gerer le cote mecanique de la personnalisation.\n\nCommencez par segmenter vos prospects en groupes basés sur le type d'opportunité, placements sur des pages de ressources, pitchs de [guest posting pour l'e-commerce](/academy/guest-posting-for-ecommerce), remplacements de [liens brisés](/academy/broken-link-building), ou mentions éditoriales.",
           tip: "Creez un fichier de vos meilleures variations d'emails. Apres chaque campagne, notez quelles lignes d'objet et phrases d'ouverture ont genere les taux de reponse les plus eleves, puis iterez sur ces gagnants pour les campagnes futures."
@@ -258,12 +257,12 @@ export const emailOutreachForLinks: AcademyTopic = {
           ],
           image: {
             src: "/images/academy/fr/follow-up-sequence.svg",
-            alt: "Diagramm das eine Drei-E-Mail-Follow-Up-Sequenz mit Timing und Antwortrate-Benchmarks zeigt",
-            caption: "50-70% der positiven Antworten kommen aus Follow-ups. Jede E-Mail fuegt einen neuen Blickwinkel hinzu. Nach drei aufhoeren um Professionalitaet zu wahren.",
+            alt: "Diagramme montrant une séquence de suivi de trois e-mails avec des références en matière de timing et de taux de réponse",
+            caption: "50 à 70 % des réponses positives proviennent de suivis. Chaque e-mail ajoute un nouvel angle. Arrêtez-vous après trois heures pour maintenir votre professionnalisme.",
           },
           callout: {
             title: "Follow-Up-ROI",
-            text: "Eine erste E-Mail mit 5% Antwortrate springt auf insgesamt 14% mit einer richtigen Follow-Up-Sequenz. Das bedeutet 64% Ihrer platzierten Links kommen aus E-Mail 2 und 3, nicht aus Ihrem ersten Pitch.",
+            text: "Un premier e-mail avec un taux de réponse de 5 % passe à 14 % au total avec une séquence de suivi appropriée. Cela signifie que 64 % de vos liens placés proviennent des e-mails 2 et 3, et non de votre argumentaire initial.",
           },
         },
         {
@@ -281,8 +280,7 @@ export const emailOutreachForLinks: AcademyTopic = {
     es: {
       badge: "Link building",
       heading: "Outreach por Email para Links",
-      intro:
-        "El outreach por email sigue siendo el metodo mas fiable para obtener backlinks de alta calidad hacia sitios ecommerce. A diferencia de las estrategias pasivas que dependen de que el contenido sea descubierto organicamente, el outreach coloca tus mejores paginas directamente frente a propietarios de sitios, editores y bloggers que pueden enlazarlas. Bien ejecutada, una sola campana de outreach puede generar docenas de backlinks relevantes y autoritarios que mueven rankings. Nuestro servicio de [link building](/link-building) utiliza estas mismas tecnicas a escala.",
+      intro: "El outreach por email sigue siendo el método mas fiable para obtener backlinks de alta calidad hacia sitios ecommerce. A diferencia de las estrategias pasivas que dependen de que el contenido sea descubierto organicamente, el outreach coloca tus mejores páginas directamente frente a propietarios de sitios, editores y bloggers que pueden enlazarlas. Bien ejecutada, una sola campana de outreach puede generar docenas de backlinks relevantes y autoritarios que mueven rankings. Nuestro servicio de [link building](/link-building) utiliza estas mismas técnicas a escala.",
       readTime: "8 min de lectura",
       sections: [
         {
@@ -311,16 +309,16 @@ export const emailOutreachForLinks: AcademyTopic = {
           ],
           image: {
             src: "/images/academy/es/outreach-email-funnel.svg",
-            alt: "Trichterdiagramm das E-Mail-Outreach-Konversionsraten von 100 Interessenten zu 3-7 platzierten Links zeigt",
-            caption: "Eine gut gezielte Kampagne konvertiert 100 Interessenten in 3-7 platzierte Links. Die meisten positiven Antworten kommen aus Follow-up-E-Mails, nicht aus dem ersten Kontakt.",
+            alt: "Diagrama de embudo que muestra las tasas de conversión de difusión por correo electrónico de 100 clientes potenciales a entre 3 y 7 enlaces colocados.",
+            caption: "Una campaña bien orientada convierte 100 clientes potenciales en entre 3 y 7 enlaces colocados. La mayoría de las respuestas positivas provienen de correos electrónicos de seguimiento, no del primer contacto.",
           },
           callout: {
-            title: "Die 150-Woerter-Regel",
-            text: "E-Mails unter 150 Woertern uebertreffen laengere Pitches konsistent. Fuehren Sie mit Mehrwert, nicht mit dem was Sie wollen. Redakteure loeschen E-Mails die mit Ich haette gerne einen Link oeffnen, antworten aber auf E-Mails die zeigen wie Ihr Inhalt deren Lesern hilft.",
+            title: "La regla de las 150 palabras",
+            text: "Los correos electrónicos de menos de 150 palabras superan constantemente a los mensajes más largos. Lidera con valor, no con lo que quieres. Los editores eliminan los correos electrónicos que se abren con \"Me encantaría un enlace\", pero responden a los correos electrónicos que muestran cómotworten aber auf E-Mails die zeigen wie Ihr Inhalt deren Lesern hilft.",
           },
         },
         {
-          title: "Personalizacion a escala",
+          title: "Personalización a escala",
           content:
             "La personalizacion real es la diferencia entre una tasa de respuesta del 2% y del 15%. Sin embargo, escribir un email completamente personalizado para cada uno de 200 prospectos es impractico. La solucion es la personalizacion por niveles: crea frameworks de plantillas que permitan personalizacion eficiente en los puntos que mas importan.\n\nComienza segmentando tus prospectos en grupos basados en el tipo de oportunidad, colocaciones en paginas de recursos, pitches de [guest posts](/academy/guest-posting-for-ecommerce), reemplazos de [enlaces rotos](/academy/broken-link-building) o menciones editoriales. Cada grupo recibe una plantilla unica con el pitch principal adaptado a ese tipo de enlace. Dentro de cada plantilla, deja campos de combinacion para el nombre del prospecto, el nombre de su sitio, una referencia de articulo especifica y la razon por la que tu contenido encaja con su audiencia.\n\nEl campo de referencia de articulo es el elemento de personalizacion mas importante. Dedica 60-90 segundos en el sitio de cada prospecto encontrando un post reciente que puedas referenciar genuinamente. Esa unica frase separa tu email de los cientos de mensajes de outreach genericos que reciben mensualmente. Herramientas como Pitchbox, BuzzStream o incluso una hoja de calculo bien estructurada con combinacion de correspondencia pueden manejar la parte mecanica de la personalizacion.",
           tip: "Crea un archivo con tus mejores variaciones de email. Despues de cada campana, anota que lineas de asunto y frases de apertura generaron las tasas de respuesta mas altas, y luego itera sobre esos ganadores para futuras campanas."
@@ -338,7 +336,7 @@ export const emailOutreachForLinks: AcademyTopic = {
           tip: "Programa los emails de seguimiento de martes a jueves por la manana en la zona horaria del destinatario. Las bandejas del lunes estan desbordadas, y los emails del viernes quedan enterrados durante el fin de semana."
         },
         {
-          title: "Seguimiento de tasas de respuesta y metricas de campana",
+          title: "Seguimiento de tasas de respuesta y métricas de campaña",
           content:
             "Sin seguimiento, no puedes mejorar. Cada campana de outreach debe medir cuatro metricas fundamentales: tasa de apertura, tasa de respuesta, tasa de colocacion de enlaces y coste por enlace. La tasa de apertura indica si tus lineas de asunto funcionan. La tasa de respuesta mide la efectividad del texto de tu email. La tasa de colocacion revela cuantas respuestas realmente se convierten en enlaces colocados. El coste por enlace tiene en cuenta tu tiempo y suscripciones a herramientas.\n\nCompara tus resultados con promedios del sector. Una campana de outreach ecommerce bien segmentada deberia alcanzar tasas de apertura del 40-60%, tasas de respuesta del 8-15%, y convertir el 30-50% de las respuestas positivas en enlaces colocados. Si tu tasa de apertura esta por debajo del 30%, tus lineas de asunto necesitan trabajo. Si tu tasa de respuesta esta por debajo del 5%, tus emails carecen de personalizacion o tus prospectos estan mal segmentados.\n\nUsa un CRM o herramienta de outreach dedicada para rastrear el estado de cada prospecto a traves del pipeline: contactado, abierto, respondido, enlace colocado o no responsivo. Despues de cada campana, analiza que segmentos de prospectos, plantillas de email y secuencias de seguimiento rindieron mejor, y aplica esas lecciones a la siguiente campana.",
           items: [
@@ -349,12 +347,12 @@ export const emailOutreachForLinks: AcademyTopic = {
           ],
           image: {
             src: "/images/academy/es/follow-up-sequence.svg",
-            alt: "Diagramm das eine Drei-E-Mail-Follow-Up-Sequenz mit Timing und Antwortrate-Benchmarks zeigt",
-            caption: "50-70% der positiven Antworten kommen aus Follow-ups. Jede E-Mail fuegt einen neuen Blickwinkel hinzu. Nach drei aufhoeren um Professionalitaet zu wahren.",
+            alt: "Diagrama que muestra una secuencia de seguimiento de tres correos electrónicos con puntos de referencia de tiempo y tasa de respuesta",
+            caption: "Entre el 50% y el 70% de las respuestas positivas provienen de seguimientos. Cada correo electrónico agrega un nuevo ángulo. Deténgase después de las tres para mantener el profesionalismo.",
           },
           callout: {
             title: "Follow-Up-ROI",
-            text: "Eine erste E-Mail mit 5% Antwortrate springt auf insgesamt 14% mit einer richtigen Follow-Up-Sequenz. Das bedeutet 64% Ihrer platzierten Links kommen aus E-Mail 2 und 3, nicht aus Ihrem ersten Pitch.",
+            text: "Un primer correo electrónico con una tasa de respuesta del 5 % aumenta al 14 % en total con una secuencia de seguimiento adecuada. Eso significa que el 64% de los enlaces colocados provienen de los correos electrónicos 2 y 3, no de su propuesta inicial.",
           },
         },
         {
@@ -402,12 +400,12 @@ export const emailOutreachForLinks: AcademyTopic = {
           ],
           image: {
             src: "/images/academy/it/outreach-email-funnel.svg",
-            alt: "Trichterdiagramm das E-Mail-Outreach-Konversionsraten von 100 Interessenten zu 3-7 platzierten Links zeigt",
-            caption: "Eine gut gezielte Kampagne konvertiert 100 Interessenten in 3-7 platzierte Links. Die meisten positiven Antworten kommen aus Follow-up-E-Mails, nicht aus dem ersten Kontakt.",
+            alt: "Diagramma a imbuto che mostra i tassi di conversione della portata e-mail da 100 potenziali clienti a 3-7 collegamenti inseriti",
+            caption: "Una campagna ben mirata converte 100 potenziali clienti in 3-7 collegamenti posizionati. Le risposte più positive provengono dalle e-mail di follow-up, non dal primo contatto.",
           },
           callout: {
-            title: "Die 150-Woerter-Regel",
-            text: "E-Mails unter 150 Woertern uebertreffen laengere Pitches konsistent. Fuehren Sie mit Mehrwert, nicht mit dem was Sie wollen. Redakteure loeschen E-Mails die mit Ich haette gerne einen Link oeffnen, antworten aber auf E-Mails die zeigen wie Ihr Inhalt deren Lesern hilft.",
+            title: "La regola delle 150 parole",
+            text: "Le e-mail inferiori a 150 parole superano costantemente le presentazioni più lunghe. Guida con valore, non con ciò che desideri. Gli editor eliminano le email che si aprono con \"Mi piacerebbe un collegamento\" ma rispondono alle email che mostrano come ti comportitworten aber auf E-Mails die zeigen wie Ihr Inhalt deren Lesern hilft.",
           },
         },
         {
@@ -440,12 +438,12 @@ export const emailOutreachForLinks: AcademyTopic = {
           ],
           image: {
             src: "/images/academy/it/follow-up-sequence.svg",
-            alt: "Diagramm das eine Drei-E-Mail-Follow-Up-Sequenz mit Timing und Antwortrate-Benchmarks zeigt",
-            caption: "50-70% der positiven Antworten kommen aus Follow-ups. Jede E-Mail fuegt einen neuen Blickwinkel hinzu. Nach drei aufhoeren um Professionalitaet zu wahren.",
+            alt: "Diagramma che mostra una sequenza di follow-up di tre e-mail con benchmark di tempistica e tasso di risposta",
+            caption: "Il 50-70% delle risposte positive provengono dai follow-up. Ogni email aggiunge una nuova prospettiva. Fermarsi dopo le tre per mantenere la professionalità.",
           },
           callout: {
             title: "Follow-Up-ROI",
-            text: "Eine erste E-Mail mit 5% Antwortrate springt auf insgesamt 14% mit einer richtigen Follow-Up-Sequenz. Das bedeutet 64% Ihrer platzierten Links kommen aus E-Mail 2 und 3, nicht aus Ihrem ersten Pitch.",
+            text: "Una prima email con un tasso di risposta del 5% sale al 14% totale con una corretta sequenza di follow-up. Ciò significa che il 64% dei link inseriti provengono dalle email 2 e 3, non dalla tua proposta iniziale.",
           },
         },
         {
@@ -493,12 +491,12 @@ export const emailOutreachForLinks: AcademyTopic = {
           ],
           image: {
             src: "/images/academy/nl/outreach-email-funnel.svg",
-            alt: "Trichterdiagramm das E-Mail-Outreach-Konversionsraten von 100 Interessenten zu 3-7 platzierten Links zeigt",
-            caption: "Eine gut gezielte Kampagne konvertiert 100 Interessenten in 3-7 platzierte Links. Die meisten positiven Antworten kommen aus Follow-up-E-Mails, nicht aus dem ersten Kontakt.",
+            alt: "Trechterdiagram dat de conversiepercentages voor e-mailoutreach toont van 100 prospects naar 3-7 geplaatste links",
+            caption: "Een goed gerichte campagne converteert 100 prospects naar 3-7 geplaatste links. De meeste positieve antwoorden komen uit vervolg-e-mails, niet uit de eerste aanraking.",
           },
           callout: {
-            title: "Die 150-Woerter-Regel",
-            text: "E-Mails unter 150 Woertern uebertreffen laengere Pitches konsistent. Fuehren Sie mit Mehrwert, nicht mit dem was Sie wollen. Redakteure loeschen E-Mails die mit Ich haette gerne einen Link oeffnen, antworten aber auf E-Mails die zeigen wie Ihr Inhalt deren Lesern hilft.",
+            title: "De 150-woordenregel",
+            text: "E-mails van minder dan 150 woorden presteren consistent beter dan langere pitches. Leid met waarde, niet met wat je wilt. Redacteuren verwijderen e-mails die openen met 'Ik zou graag een link willen', maar reageren op e-mails die laten zien hoe u dat doettworten aber auf E-Mails die zeigen wie Ihr Inhalt deren Lesern hilft.",
           },
         },
         {
@@ -531,12 +529,12 @@ export const emailOutreachForLinks: AcademyTopic = {
           ],
           image: {
             src: "/images/academy/nl/follow-up-sequence.svg",
-            alt: "Diagramm das eine Drei-E-Mail-Follow-Up-Sequenz mit Timing und Antwortrate-Benchmarks zeigt",
-            caption: "50-70% der positiven Antworten kommen aus Follow-ups. Jede E-Mail fuegt einen neuen Blickwinkel hinzu. Nach drei aufhoeren um Professionalitaet zu wahren.",
+            alt: "Diagram dat een vervolgreeks van drie e-mails toont met benchmarks voor timing en responspercentage",
+            caption: "50-70% van de positieve reacties komt uit follow-ups. Elke e-mail voegt een nieuwe invalshoek toe. Stop na drie uur om de professionaliteit te behouden.",
           },
           callout: {
             title: "Follow-Up-ROI",
-            text: "Eine erste E-Mail mit 5% Antwortrate springt auf insgesamt 14% mit einer richtigen Follow-Up-Sequenz. Das bedeutet 64% Ihrer platzierten Links kommen aus E-Mail 2 und 3, nicht aus Ihrem ersten Pitch.",
+            text: "Een eerste e-mail met een responspercentage van 5% springt naar een totaal van 14% met een goede vervolgvolgorde. Dat betekent dat 64% van uw geplaatste links afkomstig is uit e-mails 2 en 3, en niet uit uw eerste pitch.",
           },
         },
         {

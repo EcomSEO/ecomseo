@@ -174,8 +174,7 @@ export const imageOptimizationForProducts: AcademyTopic = {
     fr: {
       badge: "[SEO on-page](/blog/on-page-seo-for-ecommerce)",
       heading: "Optimisation des Images pour les Produits",
-      intro:
-        "Les images de produits sont le pont entre la navigation et l'achat en e-commerce. Elles representent egalement l'une des plus grandes opportunites SEO inexploitees pour la plupart des boutiques en ligne. Google Images genere 10 a 25 % du trafic organique pour les categories de produits visuellement orientees comme la mode, la decoration interieure et l'electronique. Au-dela du trafic de recherche d'images, les images mal optimisees sont la cause numero un des temps de chargement lents, ce qui nuit directement aux classements et aux taux de conversion. Une strategie complete d'optimisation des images aborde les formats de fichiers, la compression, le texte alternatif, le nommage des fichiers, le chargement differe et le dimensionnement adaptatif. Traiter les images est un élément clé de l'[optimisation de la vitesse du site](/academy/site-speed-optimization).",
+      intro: "Les images de produits sont le pont entre la navigation et l'achat en e-commerce. Elles representent egalement l'une des plus grandes opportunites SEO inexploitees pour la plupart des boutiques en ligne. Google Images genere 10 a 25 % du trafic organique pour les catégories de produits visuellement orientees comme la mode, la decoration interieure et l'electronique. Au-dela du trafic de recherche d'images, les images mal optimisees sont la cause numero un des temps de chargement lents, ce qui nuit directement aux classements et aux taux de conversion. Une stratégie complete d'optimisation des images aborde les formats de fichiers, la compression, le texte alternatif, le nommage des fichiers, le chargement differe et le dimensionnement adaptatif. Traiter les images est un élément clé de l'[optimisation de la vitesse du site](/academy/site-speed-optimization).",
       readTime: "9 min de lecture",
       sections: [
         {
@@ -202,12 +201,12 @@ export const imageOptimizationForProducts: AcademyTopic = {
           tip: "Configurez la conversion automatique en WebP dans votre pipeline d'images. La plupart des CDN comme Cloudinary, Cloudflare et Imgix peuvent servir le WebP aux navigateurs compatibles automatiquement sans changer les URLs d'images dans votre HTML. Ce seul changement peut reduire la charge totale d'images de 25-35 % sur l'ensemble de votre site.",
           image: {
             src: "/images/academy/fr/image-format-comparison.svg",
-            alt: "Vergleichstabelle der Dateigrößeneinsparungen bei JPEG, WebP und AVIF für Produktfotografie",
-            caption: "Der Wechsel von JPEG 100% zu WebP spart 73% Dateigröße. Bei einer Produktseite mit 6 Bildern sind das über 10 MB weniger Seitengewicht.",
+            alt: "Tableau comparatif montrant les économies de taille de fichier dans les formats JPEG, WebP et AVIF pour la photographie de produits",
+            caption: "Le passage de JPEG 100 % à WebP permet d'économiser 73 % de la taille du fichier. Pour une page produit avec 6 images, cela représente 10+ Mo de poids de page en moins.",
           },
           callout: {
             title: "Format-Wirkung",
-            text: "WebP liefert 25-35% kleinere Dateien als JPEG bei gleichwertiger visueller Qualität und hat 97% Browser-Unterstützung. Eine 6-Bilder-Produktseite sinkt von 14,4 MB auf 3,9 MB und verkürzt die Ladezeit von über 5 Sekunden auf unter 2 Sekunden auf Mobilgeräten.",
+            text: "WebP fournit des fichiers 25 à 35 % plus petits que JPEG avec une qualité visuelle équivalente et prend en charge 97 % du navigateur. Une page produit de 6 images passe de 14,4 Mo à 3,9 Mo, réduisant le temps de chargement de plus de 5 secondes à moins de 2",
           },
         },
         {
@@ -239,7 +238,7 @@ export const imageOptimizationForProducts: AcademyTopic = {
           ],
           callout: {
             title: "LCP-Prioritätsregel",
-            text: "Das Hauptproduktbild niemals lazy-loaden. Verwenden Sie fetchpriority=\"high\" fuer das erste sichtbare Bild, um die LCP-Zeit zu minimieren und bessere Core-Web-Vitals-Werte zu erzielen.",
+            text: "Ne chargez jamais paresseusement l’image principale du produit. Utilisez fetchpriority='high' sur l'image visible principale et chargement='lazy' uniquement sur les images situées en dessous de la ligne de flottaison. Le chargement paresseux de l'image du héros retarde le plus grand contenu de contenu",
           },
         },
         {
@@ -256,13 +255,12 @@ export const imageOptimizationForProducts: AcademyTopic = {
     },
     es: {
       badge: "SEO on-page",
-      heading: "Optimizacion de Imagenes para Productos",
-      intro:
-        "Las imagenes de productos son el puente entre navegar y comprar en el ecommerce. Tambien representan una de las mayores oportunidades SEO sin explotar para la mayoria de las tiendas online. Google Imagenes genera del 10 al 25% del trafico organico para categorias de productos visualmente orientadas como moda, decoracion del hogar y electronica. Mas alla del trafico de busqueda de imagenes, las imagenes mal optimizadas son la causa numero uno de tiempos de carga lentos, lo que perjudica directamente tanto los rankings como las tasas de conversion. Una estrategia integral de optimizacion de imagenes aborda formatos de archivo, compresion, texto alternativo, nombrado de archivos, carga diferida y dimensionamiento responsivo. Abordar las imagenes es una parte clave de la [optimizacion de velocidad del sitio](/academy/site-speed-optimization).",
+      heading: "Optimización de Imagenes para Productos",
+      intro: "Las imagenes de productos son el puente entre navegar y comprar en el ecommerce. Tambien representan una de las mayores oportunidades SEO sin explotar para la mayoria de las tiendas online. Google Imagenes genera del 10 al 25% del tráfico organico para categorías de productos visualmente orientadas como moda, decoracion del hogar y electrónica. Mas alla del tráfico de busqueda de imagenes, las imagenes mal optimizadas son la causa numero uno de tiempos de carga lentos, lo que perjudica directamente tanto los rankings como las tasas de conversion. Una estrategia integral de optimización de imagenes aborda formatos de archivo, compresion, texto alternativo, nombrado de archivos, carga diferida y dimensionamiento responsivo. Abordar las imagenes es una parte clave de la [optimización de velocidad del sitio](/academy/site-speed-optimization).",
       readTime: "9 min de lectura",
       sections: [
         {
-          title: "Por que la optimizacion de imagenes importa para el SEO de ecommerce",
+          title: "Por qué la optimización de imagenes importa para el SEO de ecommerce",
           content:
             "Las imagenes representan la mayor parte del peso de pagina en la mayoria de los sitios de ecommerce. Una sola [pagina de producto](/academy/product-page-seo) con seis fotografias de alta resolucion puede pesar facilmente 10-15 MB sin optimizacion, resultando en tiempos de carga de cinco segundos o mas en conexiones moviles. Los Core Web Vitals de Google -- particularmente el Largest Contentful Paint (LCP) -- se ven directamente impactados por los tamanos de archivo de imagen.\n\nMas alla de la velocidad de pagina, las imagenes de productos crean oportunidades de trafico de busqueda directo a traves de Google Imagenes. Cuando un comprador busca \"mesa de centro estilo mid-century\" en Google Imagenes y tu foto de producto aparece con un alt-tag optimizado y un nombre de archivo descriptivo, hace clic directamente a tu pagina de producto.\n\nLa optimizacion de imagenes tambien mejora tus listados de productos en Google Shopping y resultados de busqueda visual. Google Lens y herramientas de busqueda visual similares estan creciendo rapidamente, y los productos con imagenes correctamente optimizadas tienen mas probabilidades de aparecer en estos resultados.\n\nEl efecto compuesto de la optimizacion de imagenes a traves de un gran catalogo es sustancial. Reducir el tamano promedio de imagen un 60% en 5,000 paginas de producto mejora la velocidad de carga de cada pagina, lo que eleva rankings en todo el sitio y reduce las tasas de rebote. Esta es una de las mejoras de [SEO on-page](/blog/on-page-seo-for-ecommerce) de mayor impacto que puedes hacer.",
           items: [
@@ -273,7 +271,7 @@ export const imageOptimizationForProducts: AcademyTopic = {
           ],
         },
         {
-          title: "Formatos de archivo y tecnicas de compresion",
+          title: "Formatos de archivo y técnicas de compresion",
           content:
             "Elegir el formato de imagen correcto es la base de la optimizacion de imagenes. Para la fotografia de productos, tres formatos dominan: JPEG, PNG y WebP. JPEG es la opcion tradicional para fotografias con gradientes de color complejos. PNG es mejor para imagenes que requieren transparencia. WebP, desarrollado por Google, ofrece tamanos de archivo 25-35% mas pequenos que JPEG con calidad visual equivalente.\n\nLos sitios de ecommerce modernos deberian servir imagenes WebP como formato principal, con respaldos JPEG para navegadores mas antiguos. El elemento picture de HTML o la negociacion de contenido del lado del servidor puede servir WebP a navegadores compatibles y JPEG a otros automaticamente. AVIF es un formato aun mas nuevo que logra un 20% mejor compresion que WebP.\n\nLos ajustes de compresion importan tanto como la eleccion del formato. Un JPEG guardado al 100% de calidad es mucho mas grande de lo necesario -- la mayoria de las imagenes de productos se ven identicas al ojo humano al 75-85% de calidad pero son 40-60% mas pequenas. Herramientas como ShortPixel, TinyPNG, Squoosh e ImageOptim pueden comprimir imagenes por lotes antes de subirlas.\n\nNo comprimas imagenes multiples veces. Cada ronda de compresion con perdida degrada mas la calidad con reducciones de tamano cada vez menores. Empieza con el original de mayor calidad, comprime una vez a tu nivel de calidad objetivo y almacena el original por separado.",
           items: [
@@ -285,12 +283,12 @@ export const imageOptimizationForProducts: AcademyTopic = {
           tip: "Configura la conversion automatica a WebP en tu pipeline de imagenes. La mayoria de los CDN como Cloudinary, Cloudflare e Imgix pueden servir WebP a navegadores compatibles automaticamente sin cambiar ninguna URL de imagen en tu HTML. Este unico cambio puede reducir la carga total de imagenes un 25-35% en todo tu sitio.",
           image: {
             src: "/images/academy/es/image-format-comparison.svg",
-            alt: "Vergleichstabelle der Dateigrößeneinsparungen bei JPEG, WebP und AVIF für Produktfotografie",
-            caption: "Der Wechsel von JPEG 100% zu WebP spart 73% Dateigröße. Bei einer Produktseite mit 6 Bildern sind das über 10 MB weniger Seitengewicht.",
+            alt: "Tabla comparativa que muestra el ahorro de tamaño de archivo en los formatos JPEG, WebP y AVIF para fotografía de productos",
+            caption: "Cambiar de JPEG 100% a WebP ahorra un 73% del tamaño del archivo. Para una página de producto con 6 imágenes, eso significa más de 10 MB menos de peso de página.",
           },
           callout: {
             title: "Format-Wirkung",
-            text: "WebP liefert 25-35% kleinere Dateien als JPEG bei gleichwertiger visueller Qualität und hat 97% Browser-Unterstützung. Eine 6-Bilder-Produktseite sinkt von 14,4 MB auf 3,9 MB und verkürzt die Ladezeit von über 5 Sekunden auf unter 2 Sekunden auf Mobilgeräten.",
+            text: "WebP ofrece archivos entre un 25 y un 35 % más pequeños que JPEG con una calidad visual equivalente y tiene un 97 % de compatibilidad con el navegador. Una página de producto de 6 imágenes pasa de 14,4 MB a 3,9 MB, lo que reduce el tiempo de carga de más de 5 segundos a menos de 2",
           },
         },
         {
@@ -322,11 +320,11 @@ export const imageOptimizationForProducts: AcademyTopic = {
           ],
           callout: {
             title: "LCP-Prioritätsregel",
-            text: "Das Hauptproduktbild niemals lazy-loaden. Verwenden Sie fetchpriority=\"high\" fuer das erste sichtbare Bild, um die LCP-Zeit zu minimieren und bessere Core-Web-Vitals-Werte zu erzielen.",
+            text: "Nunca cargue de forma diferida la imagen principal del producto. Utilice fetchpriority='high' en la imagen principal visible y loading='lazy' solo en las imágenes de la mitad inferior de la página. La carga diferida de la imagen principal retrasa el mayor contenido de Pa",
           },
         },
         {
-          title: "SEO de imagenes para paginas de listado de productos y sitemaps",
+          title: "SEO de imagenes para páginas de listado de productos y sitemaps",
           content:
             "Las paginas de listado de productos (paginas de categoria) muestran docenas de miniaturas de productos en una cuadricula. Cada miniatura es una oportunidad de ranking en Google Imagenes, pero solo si las imagenes estan correctamente optimizadas. Asegura que cada miniatura de producto en tu cuadricula tenga un texto alternativo unico que incluya el nombre del producto.\n\nEl tamano de las miniaturas en paginas de categoria debe ser consistente y estar comprimido adecuadamente. No hay necesidad de cargar imagenes a tamano completo en una cuadricula donde se muestran a 200x200 o 300x300 pixeles. Genera versiones de miniaturas dedicadas al tamano de visualizacion exacto. Esto solo puede reducir el peso de las paginas de categoria un 70-80%.\n\nCrea un sitemap de imagenes o incluye etiquetas de imagen dentro de tu sitemap XML existente. Un sitemap de imagenes le dice a Google sobre todas las imagenes en tu sitio y proporciona metadatos como subtitulos. Para sitios de ecommerce, el sitemap de imagenes deberia incluir cada imagen de producto con su texto alternativo asociado y la URL de la pagina del producto.\n\nMonitorea tu rendimiento de busqueda de imagenes en Google Search Console. El informe de Rendimiento puede filtrarse para mostrar solo el trafico de Google Imagenes. Usa estos datos para identificar oportunidades.\n\nConsidera implementar datos estructurados para imagenes de productos. El esquema Product soporta la propiedad \"image\", que le dice a Google que imagenes estan asociadas con el producto.",
           tip: "Ejecuta una auditoria SEO de imagenes trimestral: rastrea tu sitio para identificar imagenes de productos con texto alternativo faltante, tamanos de archivo sobredimensionados, nombres de archivo predeterminados de la camara y atributos srcset faltantes. Prioriza la correccion de imagenes en tus 100 paginas de producto y categoria principales por volumen de trafico.",
@@ -368,12 +366,12 @@ export const imageOptimizationForProducts: AcademyTopic = {
           tip: "Configura la conversione automatica in WebP nella tua pipeline di immagini. La maggior parte dei CDN come Cloudinary, Cloudflare e Imgix possono servire WebP ai browser supportati automaticamente senza cambiare nessun URL di immagine nel tuo HTML. Questa singola modifica puo ridurre il payload totale delle immagini del 25-35% su tutto il tuo sito.",
           image: {
             src: "/images/academy/it/image-format-comparison.svg",
-            alt: "Vergleichstabelle der Dateigrößeneinsparungen bei JPEG, WebP und AVIF für Produktfotografie",
-            caption: "Der Wechsel von JPEG 100% zu WebP spart 73% Dateigröße. Bei einer Produktseite mit 6 Bildern sind das über 10 MB weniger Seitengewicht.",
+            alt: "Tabella comparativa che mostra il risparmio in termini di dimensioni dei file nei formati JPEG, WebP e AVIF per la fotografia di prodotti",
+            caption: "Il passaggio da JPEG 100% a WebP consente di risparmiare il 73% delle dimensioni del file. Per una pagina di prodotto con 6 immagini, ovvero 10+ MB in meno di peso della pagina.",
           },
           callout: {
             title: "Format-Wirkung",
-            text: "WebP liefert 25-35% kleinere Dateien als JPEG bei gleichwertiger visueller Qualität und hat 97% Browser-Unterstützung. Eine 6-Bilder-Produktseite sinkt von 14,4 MB auf 3,9 MB und verkürzt die Ladezeit von über 5 Sekunden auf unter 2 Sekunden auf Mobilgeräten.",
+            text: "WebP offre file più piccoli del 25-35% rispetto a JPEG con una qualità visiva equivalente e ha il 97% di supporto del browser. Una pagina di prodotto con 6 immagini scende da 14,4 MB a 3,9 MB, riducendo il tempo di caricamento da più di 5 secondi a meno di 2",
           },
         },
         {
@@ -405,7 +403,7 @@ export const imageOptimizationForProducts: AcademyTopic = {
           ],
           callout: {
             title: "LCP-Prioritätsregel",
-            text: "Das Hauptproduktbild niemals lazy-loaden. Verwenden Sie fetchpriority=\"high\" fuer das erste sichtbare Bild, um die LCP-Zeit zu minimieren und bessere Core-Web-Vitals-Werte zu erzielen.",
+            text: "Non caricare mai lentamente l'immagine del prodotto principale. Utilizza fetchpriority='high' sull'immagine visibile principale e load='lazy' solo sulle immagini lower-the-fold. Il caricamento lento dell'immagine dell'eroe ritarda il Pa più contenuto",
           },
         },
         {
@@ -451,12 +449,12 @@ export const imageOptimizationForProducts: AcademyTopic = {
           tip: "Stel automatische WebP-conversie in je beeldpipeline in. De meeste CDN's zoals Cloudinary, Cloudflare en Imgix kunnen WebP automatisch serveren aan ondersteunde browsers zonder beeldURL's in je HTML te wijzigen. Deze enkele wijziging kan de totale beeldbelasting met 25-35% verminderen over je hele site.",
           image: {
             src: "/images/academy/nl/image-format-comparison.svg",
-            alt: "Vergleichstabelle der Dateigrößeneinsparungen bei JPEG, WebP und AVIF für Produktfotografie",
-            caption: "Der Wechsel von JPEG 100% zu WebP spart 73% Dateigröße. Bei einer Produktseite mit 6 Bildern sind das über 10 MB weniger Seitengewicht.",
+            alt: "Vergelijkingstabel met besparingen op bestandsgrootte in JPEG-, WebP- en AVIF-formaten voor productfotografie",
+            caption: "Als u overschakelt van JPEG 100% naar WebP, bespaart u een bestandsgrootte van 73%. Voor een productpagina met 6 afbeeldingen is dat 10+ MB minder paginagewicht.",
           },
           callout: {
             title: "Format-Wirkung",
-            text: "WebP liefert 25-35% kleinere Dateien als JPEG bei gleichwertiger visueller Qualität und hat 97% Browser-Unterstützung. Eine 6-Bilder-Produktseite sinkt von 14,4 MB auf 3,9 MB und verkürzt die Ladezeit von über 5 Sekunden auf unter 2 Sekunden auf Mobilgeräten.",
+            text: "WebP levert 25-35% kleinere bestanden dan JPEG met een gelijkwaardige visuele kwaliteit en heeft 97% browserondersteuning. Een productpagina met zes afbeeldingen daalt van 14,4 MB naar 3,9 MB, waardoor de laadtijd wordt teruggebracht van 5+ seconden naar minder dan 2 seconden",
           },
         },
         {
@@ -488,7 +486,7 @@ export const imageOptimizationForProducts: AcademyTopic = {
           ],
           callout: {
             title: "LCP-Prioritätsregel",
-            text: "Das Hauptproduktbild niemals lazy-loaden. Verwenden Sie fetchpriority=\"high\" fuer das erste sichtbare Bild, um die LCP-Zeit zu minimieren und bessere Core-Web-Vitals-Werte zu erzielen.",
+            text: "Laad nooit de primaire productafbeelding lui. Gebruik fetchpriority='high' op de belangrijkste zichtbare afbeelding en load='lazy' alleen op afbeeldingen onder de vouw. Het lui laden van het heldenbeeld vertraagt ​​de grootste tevreden Pa",
           },
         },
         {

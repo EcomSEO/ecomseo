@@ -152,8 +152,7 @@ export const seasonalKeywordTrends: AcademyTopic = {
     fr: {
       badge: "Recherche de mots-clés",
       heading: "Tendances saisonnières des mots-clés",
-      intro:
-        "La demande e-commerce n'est jamais stable. Le volume de recherche pour « maillots de bain » explose en mai, « cadeaux de Noël » commence à grimper en septembre, et « logiciel d'impôts » atteint son pic chaque mars. Les boutiques qui anticipent ces changements et préparent leurs pages des mois à l'avance captent du trafic que les concurrents réactifs manquent totalement. La planification saisonnière des mots-clés transforme les cycles de demande prévisibles en un avantage de revenus fiable.",
+      intro: "La demande e-commerce n'est jamais stable. Le volume de recherche pour « maillots de bain » explose en mai, « cadeaux de Noël » commence à grimper en septembre, et « logiciel d'impôts » atteint son pic chaque mars. Les boutiques qui anticipent ces changements et préparent leurs pages des mois à l'avance captent du trafic que les concurrents réactifs manquent totalement. La planification saisonnière des mots-clés transforme les cycles de demande prévisibles en un avantage de revenus fiable.",
       readTime: "9 min de lecture",
       sections: [
         {
@@ -168,12 +167,12 @@ export const seasonalKeywordTrends: AcademyTopic = {
           ],
           image: {
             src: "/images/academy/fr/seasonal-keyword-timeline.svg",
-            alt: "Zeitstrahl mit saisonalen Keyword-Nachfragekurven für Sommer- und Feiertagsprodukte",
-            caption: "Beginnen Sie die SEO-Arbeit 3-4 Monate vor der Hochsaison. Bauen Sie Autorität in der Nebensaison auf.",
+            alt: "Chronologie montrant les courbes de demande saisonnière de mots clés pour les produits d'été et de vacances avec des fenêtres de préparation marquées 3 à 4 mois avant chaque pic",
+            caption: "Commencez le travail de référencement 3 à 4 mois avant la haute saison. Renforcez votre autorité hors saison, lorsque la concurrence est moindre et que les efforts coûtent moins cher.",
           },
           callout: {
             title: "Der 10x-Schwung",
-            text: "Saisonale Keywords können in der Spitze 10x mehr Suchvolumen haben als in der Nebensaison. Wer SEO-Arbeit erst im Peak beginnt, kommt zu spät.",
+            text: "\"Mobilier de jardin\" fait en moyenne 40 000 recherches mensuelles mais oscille entre 8 000 en décembre et 110 000 en mai. Si votre page n'est pas classée en avril, vous manquez la majorité d'une courbe de demande qui est 14 fois la t",
           },
         },
         {
@@ -224,8 +223,7 @@ export const seasonalKeywordTrends: AcademyTopic = {
     es: {
       badge: "Investigación de palabras clave",
       heading: "Tendencias estacionales de palabras clave",
-      intro:
-        "La demanda del comercio electrónico nunca es constante. El volumen de búsqueda de \"bañadores\" se dispara en mayo, \"regalos de Navidad\" comienza a subir en septiembre, y \"software de impuestos\" alcanza su pico cada marzo. Las tiendas que anticipan estos cambios y preparan sus páginas con meses de antelación capturan tráfico que los competidores reactivos pierden por completo. La planificación estacional de palabras clave convierte ciclos de demanda predecibles en una ventaja de ingresos fiable.",
+      intro: "La demanda del comercio electrónico nunca es constante. El volumen de búsqueda de \"bañadores\" se dispara en mayo, \"regalos de Navidad\" comienza a subir en septiembre, y \"software de impuestos\" alcanza su pico cada marzo. Las tiendas que anticipan estos cambios y preparan sus páginas con meses de antelación capturan tráfico que los competidores reactivos pierden por completo. La planificación estacional de palabras clave convierte ciclos de demanda predecibles en una ventaja de ingresos fiable.",
       readTime: "9 min de lectura",
       sections: [
         {
@@ -240,12 +238,12 @@ export const seasonalKeywordTrends: AcademyTopic = {
           ],
           image: {
             src: "/images/academy/es/seasonal-keyword-timeline.svg",
-            alt: "Zeitstrahl mit saisonalen Keyword-Nachfragekurven für Sommer- und Feiertagsprodukte",
-            caption: "Beginnen Sie die SEO-Arbeit 3-4 Monate vor der Hochsaison. Bauen Sie Autorität in der Nebensaison auf.",
+            alt: "Cronología que muestra las curvas de demanda estacional de palabras clave para productos de verano y vacaciones con ventanas de preparación marcadas de 3 a 4 meses antes de cada pico.",
+            caption: "Empiece a trabajar en SEO 3 o 4 meses antes de la temporada alta. Genere autoridad fuera de temporada, cuando la competencia es menor y el esfuerzo cuesta menos.",
           },
           callout: {
             title: "Der 10x-Schwung",
-            text: "Saisonale Keywords können in der Spitze 10x mehr Suchvolumen haben als in der Nebensaison. Wer SEO-Arbeit erst im Peak beginnt, kommt zu spät.",
+            text: "\"Muebles de jardín\" tiene un promedio de 40.000 búsquedas mensuales, pero oscila de 8.000 en diciembre a 110.000 en mayo. Si su página no está clasificada en abril, se perderá la mayor parte de una curva de demanda que es 14 veces mayor que la t.",
           },
         },
         {
@@ -312,12 +310,12 @@ export const seasonalKeywordTrends: AcademyTopic = {
           ],
           image: {
             src: "/images/academy/it/seasonal-keyword-timeline.svg",
-            alt: "Zeitstrahl mit saisonalen Keyword-Nachfragekurven für Sommer- und Feiertagsprodukte",
-            caption: "Beginnen Sie die SEO-Arbeit 3-4 Monate vor der Hochsaison. Bauen Sie Autorität in der Nebensaison auf.",
+            alt: "Cronologia che mostra le curve di domanda di parole chiave stagionali per prodotti estivi e festivi con finestre di preparazione contrassegnate 3-4 mesi prima di ciascun picco",
+            caption: "Inizia il lavoro SEO 3-4 mesi prima dell’alta stagione. Costruisci autorità in bassa stagione, quando la concorrenza è minore e lo sforzo costa meno.",
           },
           callout: {
             title: "Der 10x-Schwung",
-            text: "Saisonale Keywords können in der Spitze 10x mehr Suchvolumen haben als in der Nebensaison. Wer SEO-Arbeit erst im Peak beginnt, kommt zu spät.",
+            text: "\"Mobili da giardino\" conta in media 40.000 ricerche mensili ma oscilla dalle 8.000 di dicembre alle 110.000 di maggio. Se la tua pagina non si classifica entro aprile, perdi la maggior parte di una curva di domanda che è 14 volte la t",
           },
         },
         {
@@ -384,12 +382,12 @@ export const seasonalKeywordTrends: AcademyTopic = {
           ],
           image: {
             src: "/images/academy/nl/seasonal-keyword-timeline.svg",
-            alt: "Zeitstrahl mit saisonalen Keyword-Nachfragekurven für Sommer- und Feiertagsprodukte",
-            caption: "Beginnen Sie die SEO-Arbeit 3-4 Monate vor der Hochsaison. Bauen Sie Autorität in der Nebensaison auf.",
+            alt: "Tijdlijn met seizoensgebonden vraagcurven voor zoekwoorden voor zomer- en vakantieproducten, waarbij voorbereidingsperioden 3-4 maanden vóór elke piek worden gemarkeerd",
+            caption: "Begin 3-4 maanden vóór het hoogseizoen met SEO-werkzaamheden. Bouw autoriteit op buiten het seizoen, wanneer de concurrentie lager is en de inspanning minder kost.",
           },
           callout: {
             title: "Der 10x-Schwung",
-            text: "Saisonale Keywords können in der Spitze 10x mehr Suchvolumen haben als in der Nebensaison. Wer SEO-Arbeit erst im Peak beginnt, kommt zu spät.",
+            text: "'Tuinmeubelen' worden gemiddeld 40.000 keer per maand opgezocht, maar schommelt van 8.000 in december naar 110.000 in mei. Als uw pagina in april niet op de ranglijst staat, mist u het grootste deel van een vraagcurve die 14x de t is",
           },
         },
         {

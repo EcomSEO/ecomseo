@@ -207,9 +207,8 @@ items: [
     },
     fr: {
       badge: "SEO avance",
-      heading: "Strategie de domination des SERP",
-      intro:
-        "Se classer premier pour un mot-cle produit est bien. Occuper trois ou quatre emplacements distincts sur cette meme page de resultats est nettement mieux. La domination des SERP consiste a securiser une visibilite simultanee dans les listings organiques, les carrousels Google Shopping, les packs d'images, les featured snippets, les boites People Also Ask et les panneaux de marque. Chaque placement supplementaire amplifie les taux de clics et pousse les concurrents sous la ligne de flottaison. Pour les boutiques e-commerce, cette approche multi-format transforme un seul mot-cle en source de trafic composee. Une [stratégie SEO e-commerce](/blog/ecommerce-seo-strategy) bien planifiée devrait intégrer la domination des SERP dès le départ.",
+      heading: "Stratégie de domination des SERP",
+      intro: "Se classer premier pour un mot-cle produit est bien. Occuper trois ou quatre emplacements distincts sur cette meme page de resultats est nettement mieux. La domination des SERP consiste a securiser une visibilite simultanee dans les listings organiques, les carrousels Google Shopping, les packs d'images, les featured snippets, les boites People Also Ask et les panneaux de marque. Chaque placement supplementaire amplifie les taux de clics et pousse les concurrents sous la ligne de flottaison. Pour les boutiques e-commerce, cette approche multi-format transforme un seul mot-cle en source de trafic composee. Une [stratégie SEO e-commerce](/blog/ecommerce-seo-strategy) bien planifiée devrait intégrer la domination des SERP dès le départ.",
       readTime: "11 min de lecture",
       sections: [
         {
@@ -224,12 +223,12 @@ items: [
           ],
           image: {
             src: "/images/academy/fr/serp-domination-layout.svg",
-            alt: "SERP-Dominanz-Layout mit mehreren besetzten Positionen: Anzeige, Shopping, Snippet, organisch und Bilder",
-            caption: "SERP-Dominanz bedeutet, 3+ Elemente auf einer Suchergebnisseite zu besetzen fuer maximale Markensichtbarkeit.",
+            alt: "Diagramme montrant une mise en page SERP avec des emplacements Shopping, Featured Snippet, Organic, Image Pack et People Also Ask avec des pourcentages de CTR cumulés",
+            caption: "Posséder plusieurs emplacements SERP augmente les taux de clics de 12 % à 23-25 ​​% tout en poussant les concurrents en dessous du giron sur les écrans mobiles.",
           },
           callout: {
             title: "Dominanz-Definition",
-            text: "Echte SERP-Dominanz erfordert Praesenz in mindestens drei verschiedenen SERP-Elementen fuer ein Keyword. Das bedeutet organische Rankings, Featured Snippets, Bilder und Shopping-Ergebnisse gleichzeitig zu besetzen.",
+            text: "Une liste organique à 12 % de CTR plus Shopping à 8 % plus Image Pack à 3 à 5 % génère 23 à 25 % de tous les clics. Chaque placement supplémentaire déplace la visibilité des concurrents sur la même page.g zu besetzen.",
           },
         },
         {
@@ -269,12 +268,12 @@ items: [
           tip: "Creez plusieurs angles d'image pour chaque produit (face, dos, cote, en utilisation, reference d'echelle) et donnez a chacun un nom de fichier et un texte alternatif descriptifs distincts. Plus d'images indexees par page produit signifie plus d'opportunites d'apparaitre dans les resultats du pack d'images.",
           image: {
             src: "/images/academy/fr/serp-image-pack-seo.svg",
-            alt: "Bilderpaket-SEO fuer Produkte: On-Page-, technische und Content-Optimierungsfaktoren",
-            caption: "Bilderpakete erscheinen in 30%+ der Produktanfragen und haben eine hoehere CTR als Textergebnisse.",
+            alt: "Diagramme de liste de contrôle montrant les exigences SEO de l'image du produit, y compris le nom du fichier, le texte alternatif, les dimensions, le format et la connexion au schéma du produit.",
+            caption: "Les packs d'images apparaissent dans 30 à 40 % des recherches de produits. Les noms de fichiers descriptifs, le texte alternatif naturel, les images WebP de plus de 1 200 px et les liens de schéma de produit maximisent la visibilité de votre pack d'images.",
           },
           callout: {
             title: "Bild-SEO-Prioritaet",
-            text: "Produktbilder mit optimiertem Alt-Text, beschreibenden Dateinamen und Bild-Sitemaps erscheinen 3x haeufiger in SERP-Bilderpaketen. Die meisten E-Commerce-Shops uebersehen diese einfache Optimierung.",
+            text: "Les packs d'images apparaissent dans environ 30 à 40 % des recherches liées aux produits. Les pages avec un schéma de produit complet associé à des images de haute qualité au-dessus de la ligne de flottaison ont les plus grandes chances d'apparaître.",
           },
         },
         {
@@ -308,12 +307,11 @@ items: [
     es: {
       badge: "SEO avanzado",
       heading: "Estrategia de dominacion de SERPs",
-      intro:
-        "Posicionarse primero para una keyword de producto esta bien. Ocupar tres o cuatro posiciones distintas en esa misma pagina de resultados es significativamente mejor. La dominacion de SERPs significa asegurar visibilidad simultanea en listings organicos, carruseles de Google Shopping, packs de imagenes, featured snippets, cajas de People Also Ask y paneles de marca. Cada posicion adicional multiplica las tasas de clics y empuja a los competidores bajo el pliegue. Para tiendas de ecommerce, este enfoque multi-formato convierte una sola keyword en una fuente de trafico compuesta. Una [estrategia SEO para ecommerce](/blog/ecommerce-seo-strategy) bien planificada debe incorporar la dominacion de SERPs desde el principio.",
+      intro: "Posicionarse primero para una keyword de producto esta bien. Ocupar tres o cuatro posiciones distintas en esa misma página de resultados es significativamente mejor. La dominacion de SERPs significa asegurar visibilidad simultanea en listings organicos, carruseles de Google Shopping, packs de imagenes, featured snippets, cajas de People Also Ask y paneles de marca. Cada posicion adicional multiplica las tasas de clics y empuja a los competidores bajo el pliegue. Para tiendas de ecommerce, este enfoque multi-formato convierte una sola keyword en una fuente de tráfico compuesta. Una [estrategia SEO para ecommerce](/blog/ecommerce-seo-strategy) bien planificada debe incorporar la dominacion de SERPs desde el principio.",
       readTime: "11 min de lectura",
       sections: [
         {
-          title: "Que significa realmente la dominacion de SERPs",
+          title: "Qué significa realmente la dominacion de SERPs",
           content:
             "Las paginas de resultados de busqueda ya no son diez enlaces azules. Una consulta de producto tipica ahora muestra una mezcla de anuncios de Shopping, listings de Shopping gratuitos, resultados organicos, carruseles de imagenes, acordeones de People Also Ask, miniaturas de video, featured snippets y paneles de conocimiento. Cada uno representa un punto de entrada separado que tu tienda puede ocupar. La dominacion de SERPs es la practica de apuntar deliberadamente a tantas de estas ubicaciones como sea posible para tus consultas de mayor valor.\n\nLa matematica es directa. Si tu listing organico obtiene una tasa de clics del 12%, agregar un resultado de Shopping puede capturar otro 8%, y una aparicion en el pack de imagenes otro 3-5%. Combinados, capturas el 23-25% de todos los clics en esa pagina en lugar del 12%. Tambien desplazas la visibilidad de los competidores con cada espacio adicional que reclamas. En pantallas moviles, donde el espacio vertical es aun mas limitado, empujar a un competidor de la posicion cuatro bajo el pliegue puede reducir su trafico a la mitad.\n\nComienza auditando tus 50 keywords principales por ingresos. Para cada una, captura la SERP completa y cataloga cada tipo de resultado presente. Anota en cuales tipos aparece tu tienda actualmente y cuales estan ocupados por competidores. Este analisis de brechas se convierte en tu hoja de ruta.",
           items: [
@@ -324,16 +322,16 @@ items: [
           ],
           image: {
             src: "/images/academy/es/serp-domination-layout.svg",
-            alt: "SERP-Dominanz-Layout mit mehreren besetzten Positionen: Anzeige, Shopping, Snippet, organisch und Bilder",
-            caption: "SERP-Dominanz bedeutet, 3+ Elemente auf einer Suchergebnisseite zu besetzen fuer maximale Markensichtbarkeit.",
+            alt: "Diagrama que muestra un diseño SERP con ubicaciones de Compras, Fragmento destacado, Orgánico, Paquete de imágenes y La gente también pregunta con porcentajes de CTR acumulativos",
+            caption: "Poseer múltiples ubicaciones SERP aumenta las tasas de clics del 12% al 23-25%, al tiempo que empuja a los competidores a la mitad inferior de la página en las pantallas móviles.",
           },
           callout: {
             title: "Dominanz-Definition",
-            text: "Echte SERP-Dominanz erfordert Praesenz in mindestens drei verschiedenen SERP-Elementen fuer ein Keyword. Das bedeutet organische Rankings, Featured Snippets, Bilder und Shopping-Ergebnisse gleichzeitig zu besetzen.",
+            text: "El listado orgánico con un CTR del 12 % más Shopping al 8 % más Paquete de imágenes al 3-5 % produce entre el 23 y el 25 % de todos los clics. Cada ubicación adicional desplaza la visibilidad de la competencia en la misma página.g zu besetzen.",
           },
         },
         {
-          title: "Google Shopping: listings gratuitos y optimizacion del feed",
+          title: "Google Shopping: listings gratuitos y optimización del feed",
           content:
             "Los resultados de Google Shopping aparecen en la parte superior de las consultas comerciales y en la pestana de Shopping. Desde 2020, los listings de productos gratuitos estan disponibles junto a los anuncios de Shopping pagados. Enviar un feed de productos a traves de Google Merchant Center pone tus productos en estas superficies gratuitas. Si vendes productos fisicos y no has configurado Merchant Center, estas dejando una de las ubicaciones SERP de mayor visibilidad sin aprovechar.\n\nLa calidad del feed determina si tus productos aparecen y como rinden. Los titulos deben anteponer los atributos mas buscados: marca, tipo de producto, diferenciador clave, luego detalles de variante como color o talla. 'Nike Air Max 90 Hombre Zapatilla Running Blanco Talla 43' supera a 'Zapatillas de Running Increibles para Hombre' porque Google empareja los titulos del feed con las consultas de busqueda literalmente.\n\nLas imagenes de productos en tu feed necesitan fondos blancos o limpios, deben mostrar el producto real y tener al menos 800x800 pixeles. Google rechaza feeds con marcas de agua, superposiciones promocionales o imagenes de marcador de posicion. Manten los precios y la disponibilidad sincronizados entre tu feed y tu sitio web en vivo.\n\nUsa categorias de productos de la taxonomia de Google, no tus propias categorias internas. Agrega GTIN (numeros de codigo de barras) para cada producto que tenga uno. Los productos con GTIN obtienen una visibilidad significativamente mayor en los resultados de Shopping.",
           items: [
@@ -357,7 +355,7 @@ items: [
           ],
         },
         {
-          title: "Optimizacion del pack de imagenes para consultas de producto",
+          title: "Optimización del pack de imagenes para consultas de producto",
           content:
             "Los packs de imagenes aparecen en aproximadamente el 30-40% de las busquedas relacionadas con productos, frecuentemente cerca de la parte superior de la pagina. Hacer clic en una imagen lleva a Google Imagenes, que luego enlaza a tu pagina de producto. Para categorias visualmente impulsadas como moda, decoracion del hogar, joyeria y electronica, las apariciones en el pack de imagenes generan trafico significativo.\n\nEl SEO de imagenes para paginas de producto comienza con nombres de archivo y texto alternativo. Nombra los archivos descriptivamente: 'bolso-bandolera-cuero-rojo-frente.jpg' en lugar de 'IMG_4821.jpg.' El texto alternativo debe describir el producto con precision e incluir la keyword principal naturalmente: 'Bolso bandolera de cuero rojo con correa de cadena dorada.'\n\nLas dimensiones y calidad de las imagenes importan. Usa imagenes de alta resolucion (al menos 1200px en el lado mas largo) y sirvelas en formatos modernos como WebP con atributos srcset responsivos apropiados. Google prefiere imagenes colocadas prominentemente en la pagina, sobre el pliegue y directamente relevantes para el contenido de la pagina.\n\nAgrega [datos estructurados](/academy/structured-data-for-products) para reforzar la conexion entre tus imagenes e informacion de producto. El schema Product con la propiedad 'image' ayuda a Google a entender que una imagen especifica representa un producto especifico con precio, disponibilidad y calificacion.",
           items: [
@@ -369,12 +367,12 @@ items: [
           tip: "Crea multiples angulos de imagen para cada producto (frente, atras, lado, en uso, referencia de escala) y da a cada uno un nombre de archivo y texto alternativo descriptivo distinto. Mas imagenes indexadas por pagina de producto significa mas oportunidades de aparecer en resultados del pack de imagenes.",
           image: {
             src: "/images/academy/es/serp-image-pack-seo.svg",
-            alt: "Bilderpaket-SEO fuer Produkte: On-Page-, technische und Content-Optimierungsfaktoren",
-            caption: "Bilderpakete erscheinen in 30%+ der Produktanfragen und haben eine hoehere CTR als Textergebnisse.",
+            alt: "Diagrama de lista de verificación que muestra los requisitos de SEO de la imagen del producto, incluidos los nombres de archivos, el texto alternativo, las dimensiones, el formato y la conexión del esquema del producto.",
+            caption: "Los paquetes de imágenes aparecen en el 30-40% de las búsquedas de productos. Los nombres de archivos descriptivos, el texto alternativo natural, las imágenes WebP de más de 1200 px y los enlaces de esquemas de productos maximizan la visibilidad de su paquete de imágenes.",
           },
           callout: {
             title: "Bild-SEO-Prioritaet",
-            text: "Produktbilder mit optimiertem Alt-Text, beschreibenden Dateinamen und Bild-Sitemaps erscheinen 3x haeufiger in SERP-Bilderpaketen. Die meisten E-Commerce-Shops uebersehen diese einfache Optimierung.",
+            text: "Los paquetes de imágenes aparecen en aproximadamente el 30-40% de las búsquedas relacionadas con productos. Las páginas con un esquema de producto completo combinado con imágenes de alta calidad en la parte superior tienen mayores posibilidades de aparecer.",
           },
         },
         {
@@ -424,12 +422,12 @@ items: [
           ],
           image: {
             src: "/images/academy/it/serp-domination-layout.svg",
-            alt: "SERP-Dominanz-Layout mit mehreren besetzten Positionen: Anzeige, Shopping, Snippet, organisch und Bilder",
-            caption: "SERP-Dominanz bedeutet, 3+ Elemente auf einer Suchergebnisseite zu besetzen fuer maximale Markensichtbarkeit.",
+            alt: "Diagramma che mostra un layout SERP con posizionamenti Shopping, Snippet in primo piano, Organico, Pacchetto immagini e Persone chiedono anche con percentuali CTR cumulative",
+            caption: "Possedere più posizionamenti SERP aumenta le percentuali di clic dal 12% al 23-25%, spingendo i concorrenti sotto la piega sugli schermi mobili.",
           },
           callout: {
             title: "Dominanz-Definition",
-            text: "Echte SERP-Dominanz erfordert Praesenz in mindestens drei verschiedenen SERP-Elementen fuer ein Keyword. Das bedeutet organische Rankings, Featured Snippets, Bilder und Shopping-Ergebnisse gleichzeitig zu besetzen.",
+            text: "L'elenco organico al 12% di CTR più Shopping all'8% più Image Pack al 3-5% generano il 23-25% di tutti i clic. Ogni posizionamento aggiuntivo sposta la visibilità del concorrente sulla stessa pagina.g zu besetzen.",
           },
         },
         {
@@ -469,12 +467,12 @@ items: [
           tip: "Crea multiple angolazioni di immagine per ogni prodotto (fronte, retro, lato, in uso, riferimento di scala) e dai a ciascuna un nome di file e testo alternativo descrittivo distinto. Piu immagini indicizzate per pagina prodotto significa piu opportunita di apparire nei risultati del pack di immagini.",
           image: {
             src: "/images/academy/it/serp-image-pack-seo.svg",
-            alt: "Bilderpaket-SEO fuer Produkte: On-Page-, technische und Content-Optimierungsfaktoren",
-            caption: "Bilderpakete erscheinen in 30%+ der Produktanfragen und haben eine hoehere CTR als Textergebnisse.",
+            alt: "Diagramma dell'elenco di controllo che mostra i requisiti SEO dell'immagine del prodotto, inclusi denominazione dei file, testo alternativo, dimensioni, formato e connessione allo schema del prodotto",
+            caption: "I pacchetti di immagini compaiono nel 30-40% delle ricerche di prodotti. Nomi di file descrittivi, testo alternativo naturale, immagini WebP di oltre 1200 px e collegamento allo schema del prodotto massimizzano la visibilità del pacchetto di immagini.",
           },
           callout: {
             title: "Bild-SEO-Prioritaet",
-            text: "Produktbilder mit optimiertem Alt-Text, beschreibenden Dateinamen und Bild-Sitemaps erscheinen 3x haeufiger in SERP-Bilderpaketen. Die meisten E-Commerce-Shops uebersehen diese einfache Optimierung.",
+            text: "I pacchetti di immagini compaiono in circa il 30-40% delle ricerche relative ai prodotti. Le pagine con lo schema del prodotto completo abbinato a immagini di alta qualità, in alto, hanno le maggiori possibilità di essere visualizzate.",
           },
         },
         {
@@ -524,12 +522,12 @@ items: [
           ],
           image: {
             src: "/images/academy/nl/serp-domination-layout.svg",
-            alt: "SERP-Dominanz-Layout mit mehreren besetzten Positionen: Anzeige, Shopping, Snippet, organisch und Bilder",
-            caption: "SERP-Dominanz bedeutet, 3+ Elemente auf einer Suchergebnisseite zu besetzen fuer maximale Markensichtbarkeit.",
+            alt: "Diagram met een SERP-indeling met Shopping-, Featured Snippet-, Organic-, Image Pack- en People Also Ask-plaatsingen met cumulatieve CTR-percentages",
+            caption: "Het bezitten van meerdere SERP-plaatsingen verhoogt de klikfrequenties van 12% naar 23-25%, terwijl concurrenten op mobiele schermen onder de vouw worden geduwd.",
           },
           callout: {
             title: "Dominanz-Definition",
-            text: "Echte SERP-Dominanz erfordert Praesenz in mindestens drei verschiedenen SERP-Elementen fuer ein Keyword. Das bedeutet organische Rankings, Featured Snippets, Bilder und Shopping-Ergebnisse gleichzeitig zu besetzen.",
+            text: "Organische vermelding met een CTR van 12% plus Shopping met 8% plus Image Pack met 3-5% levert 23-25% van alle klikken op. Elke extra plaatsing verdringt de zichtbaarheid van concurrenten op dezelfde pagina.g zu besetzen.",
           },
         },
         {
@@ -569,12 +567,12 @@ items: [
           tip: "Maak meerdere beeldhoeken voor elk product (voor, achter, zijkant, in gebruik, schaalreferentie) en geef elk een aparte beschrijvende bestandsnaam en alt-tekst. Meer geindexeerde afbeeldingen per productpagina betekent meer kansen om te verschijnen in afbeeldingspakket-resultaten.",
           image: {
             src: "/images/academy/nl/serp-image-pack-seo.svg",
-            alt: "Bilderpaket-SEO fuer Produkte: On-Page-, technische und Content-Optimierungsfaktoren",
-            caption: "Bilderpakete erscheinen in 30%+ der Produktanfragen und haben eine hoehere CTR als Textergebnisse.",
+            alt: "Controlelijstdiagram met de SEO-vereisten voor productafbeeldingen, inclusief bestandsnaamgeving, alternatieve tekst, afmetingen, indeling en verbinding met het productschema",
+            caption: "Afbeeldingspakketten verschijnen in 30-40% van de productzoekopdrachten. Beschrijvende bestandsnamen, natuurlijke alternatieve tekst, 1200px+ WebP-afbeeldingen en koppelingen naar productschema's maximaliseren de zichtbaarheid van uw afbeeldingspakket.",
           },
           callout: {
             title: "Bild-SEO-Prioritaet",
-            text: "Produktbilder mit optimiertem Alt-Text, beschreibenden Dateinamen und Bild-Sitemaps erscheinen 3x haeufiger in SERP-Bilderpaketen. Die meisten E-Commerce-Shops uebersehen diese einfache Optimierung.",
+            text: "Afbeeldingspakketten verschijnen in ongeveer 30-40% van de productgerelateerde zoekopdrachten. Pagina's met een volledig productschema gecombineerd met hoogwaardige afbeeldingen boven de vouw hebben de grootste kans om te verschijnen.",
           },
         },
         {

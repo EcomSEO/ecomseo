@@ -152,8 +152,7 @@ items: [
     fr: {
       badge: "SEO Avance",
       heading: "SEO E-commerce International",
-      intro:
-        "Vendre au-dela des frontieres introduit une complexite technique et strategique que le SEO domestique n'aborde jamais. De l'implementation des balises hreflang aux pages d'atterrissage adaptees aux devises, le SEO e-commerce international exige une configuration precise pour que les bonnes pages produit apparaissent aux bonnes audiences dans chaque marche. De l'implémentation hreflang aux pages d'atterrissage adaptées aux devises, le [SEO e-commerce international](/blog/international-ecommerce-seo) nécessite une configuration précise pour s'assurer que les bonnes pages produit apparaissent aux bonnes audiences dans chaque marché.",
+      intro: "Vendre au-dela des frontieres introduit une complexite technique et strategique que le SEO domestique n'aborde jamais. De l'implémentation des balises hreflang aux pages d'atterrissage adaptees aux devises, le SEO e-commerce international exige une configuration precise pour que les bonnes pages produit apparaissent aux bonnes audiences dans chaque marché. De l'implémentation hreflang aux pages d'atterrissage adaptées aux devises, le [SEO e-commerce international](/blog/international-ecommerce-seo) nécessite une configuration précise pour s'assurer que les bonnes pages produit apparaissent aux bonnes audiences dans chaque marché.",
       readTime: "12 min de lecture",
       sections: [
         {
@@ -168,27 +167,27 @@ items: [
           ],
           image: {
             src: "/images/academy/fr/international-domain-structures.svg",
-            alt: "Internationale Domain-Struktur-Optionen: ccTLD, Unterverzeichnis und Subdomain mit Vor- und Nachteilen",
-            caption: "Unterverzeichnisse (beispiel.com/de/) bieten fuer die meisten E-Commerce-Shops das beste Verhaeltnis aus SEO-Signal und Verwaltbarkeit.",
+            alt: "Diagramme comparatif des approches ccTLD, sous-répertoire et sous-domaine montrant les avantages et les inconvénients de chacun pour le référencement international du commerce électronique",
+            caption: "Les sous-répertoires consolident tous les liens sous un seul domaine et constituent le choix préféré pour la plupart des opérations de commerce électronique. Les ccTLD offrent un ciblage géographique plus fort mais une autorité partagée.",
           },
           callout: {
-            title: "Domain-Strategie-Entscheidung",
-            text: "Unterverzeichnisse buendeln die gesamte Domain-Autoritaet an einem Ort, waehrend ccTLDs (beispiel.de) das staerkste Geo-Signal senden, aber separate Autoritaet aufbauen muessen. Fuer die meisten E-Commerce-Shops sind Unterverzeichnisse die beste Wahl.",
+            title: "Décision de stratégie de domaine",
+            text: "Un domaine unique avec une forte autorité élève tous les sous-répertoires régionaux. Les ccTLD commencent avec aucune autorité de domaine par marché et nécessitent un investissement distinct dans la création de liens dans chaque pays.merce-Shops sind Unterverzeichnisse die beste Wahl.",
           },
         },
         {
-          title: "Implementation du Hreflang",
+          title: "Implémentation du Hreflang",
           content:
             "Les balises hreflang indiquent aux moteurs de recherche quelle version linguistique et regionale d'une page servir pour une requete donnee. Sans elles, Google pourrait afficher votre page produit anglaise aux utilisateurs francais, ou pire, signaler vos variations regionales comme contenu duplique.\n\nL'attribut hreflang utilise les codes de langue ISO 639-1 et les codes de pays ISO 3166-1 Alpha-2 optionnels. Une page ciblant les francophones au Canada utiliserait hreflang=\"fr-CA\". Vous devez egalement inclure une balise x-default pointant vers votre page de repli.\n\nLe hreflang peut etre implemente via des elements link HTML dans le <head>, des en-tetes HTTP ou des sitemaps XML. Pour les boutiques avec des milliers de produits dans plusieurs langues, l'implementation via sitemap XML est l'approche la plus maintenable.\n\nL'erreur hreflang la plus courante est l'absence de balises retour. Si la page A reference la page B comme son alternative allemande, la page B doit referencer la page A en retour. Les annotations hreflang asymetriques sont completement ignorees par Google. Une bonne [configuration des balises canoniques](/academy/canonical-tags-for-ecommerce) fonctionne main dans la main avec hreflang pour prévenir ces problèmes.",
           tip: "Incluez toujours une balise hreflang auto-referencante sur chaque page. La page anglaise doit se declarer elle-meme comme alternative en. Les auto-references manquantes causent des echecs de validation dans tout le cluster hreflang.",
           image: {
             src: "/images/academy/fr/hreflang-implementation.svg",
-            alt: "Hreflang-Implementierungsablauf mit Selbstreferenzierung, bidirektionalen Verweisen und drei Implementierungsmethoden",
-            caption: "Jede Seite muss alle Sprachversionen referenzieren, einschliesslich sich selbst. Waehlen Sie eine Methode und bleiben Sie konsistent.",
+            alt: "Diagramme montrant les liens hreflang bidirectionnels entre les variantes de pages anglaises et allemandes avec solution de secours par défaut x",
+            caption: "Si la page A fait référence à la page B comme alternative allemande, la page B doit faire référence à la page A au verso. Les annotations hreflang asymétriques sont entièrement ignorées par Google.",
           },
           callout: {
             title: "Haeufigster Hreflang-Fehler",
-            text: "Fehlende Selbstreferenzierung ist der haeufigste Hreflang-Fehler. Jede Seite muss sich selbst UND alle anderen Sprachversionen referenzieren. Fehlende bidirektionale Verweise werden von Google ignoriert.",
+            text: "L'erreur hreflang la plus courante est l'absence de balises de retour. Utilisez la mise en œuvre d'un plan de site XML pour les magasins proposant des milliers de produits dans plusieurs langues afin de garantir la maintenance des annotations.rt.",
           },
         },
         {
@@ -197,7 +196,7 @@ items: [
             "Traduire automatiquement vos pages produit et appeler cela de la localisation est un raccourci qui coute des conversions et des classements. La vraie localisation signifie adapter les descriptions de produits, les guides de tailles, les references de paiement et le contexte culturel pour chaque marche cible.\n\nLa recherche de mots-cles doit etre repetee pour chaque marche. Ne supposez pas que les mots-cles traduits portent le meme volume de recherche ou la meme intention. Le marche espagnol pourrait preferer des noms de categories de produits differents de ce qu'une traduction directe suggere.\n\nLes avis, le contenu genere par les utilisateurs et les signaux de confiance necessitent egalement une localisation. Afficher des avis en anglais sur une page de boutique allemande sape la confiance. Integrez les plateformes d'avis locales et affichez les avis dans la langue locale.",
         },
         {
-          title: "Devise, tarification et donnees structurees",
+          title: "Devise, tarification et données structurees",
           content:
             "Les boutiques internationales doivent gerer la tarification multi-devises avec precision, tant pour l'experience utilisateur que pour l'exactitude des donnees structurees. Votre balisage Product schema doit refleter la devise et le prix reels affiches a l'utilisateur sur cette page regionale specifique.\n\nUtilisez le champ priceCurrency dans vos donnees structurees Product avec le code devise ISO 4217 correct pour chaque page regionale. Si vous proposez une conversion dynamique des devises, les donnees structurees doivent correspondre au prix affiche par defaut.\n\nLes donnees structurees des frais de livraison doivent egalement etre regionalisees. Declarer la livraison gratuite aux US sur une page ciblant les clients allemands est trompeur et peut entrainer des penalites marchands dans Google Shopping.\n\nLe traitement fiscal varie considerablement selon les pays. Les prix americains sont generalement affiches hors taxes, tandis que les reglementations europeennes exigent des prix TTC.",
           items: [
@@ -224,8 +223,7 @@ items: [
     es: {
       badge: "SEO Avanzado",
       heading: "SEO Internacional para Ecommerce",
-      intro:
-        "Vender a traves de fronteras introduce una capa de complejidad tecnica y estrategica que el SEO domestico nunca aborda. Desde la implementacion de hreflang hasta las paginas de destino con reconocimiento de divisa, el [SEO internacional para ecommerce](/blog/international-ecommerce-seo) requiere una configuracion precisa para que las paginas de producto correctas aparezcan ante las audiencias adecuadas en cada mercado.",
+      intro: "Vender a traves de fronteras introduce una capa de complejidad técnica y estrategica que el SEO domestico nunca aborda. Desde la implementación de hreflang hasta las páginas de destino con reconocimiento de divisa, el [SEO internacional para ecommerce](/blog/international-ecommerce-seo) requiere una configuración precisa para que las páginas de producto correctas aparezcan ante las audiencias adecuadas en cada mercado.",
       readTime: "12 min de lectura",
       sections: [
         {
@@ -240,27 +238,27 @@ items: [
           ],
           image: {
             src: "/images/academy/es/international-domain-structures.svg",
-            alt: "Internationale Domain-Struktur-Optionen: ccTLD, Unterverzeichnis und Subdomain mit Vor- und Nachteilen",
-            caption: "Unterverzeichnisse (beispiel.com/de/) bieten fuer die meisten E-Commerce-Shops das beste Verhaeltnis aus SEO-Signal und Verwaltbarkeit.",
+            alt: "Diagrama comparativo de enfoques de ccTLD, subdirectorio y subdominio que muestra los pros y los contras de cada uno para el SEO de comercio electrónico internacional",
+            caption: "Los subdirectorios consolidan todos los enlaces en un solo dominio y son la opción preferida para la mayoría de las operaciones de comercio electrónico. Los ccTLD ofrecen una orientación geográfica más sólida, pero tienen una autoridad dividida.",
           },
           callout: {
-            title: "Domain-Strategie-Entscheidung",
-            text: "Unterverzeichnisse buendeln die gesamte Domain-Autoritaet an einem Ort, waehrend ccTLDs (beispiel.de) das staerkste Geo-Signal senden, aber separate Autoritaet aufbauen muessen. Fuer die meisten E-Commerce-Shops sind Unterverzeichnisse die beste Wahl.",
+            title: "Decisión de estrategia de dominio",
+            text: "Un dominio único con autoridad sólida eleva todos los subdirectorios regionales. Los ccTLD comienzan con cero autoridad de dominio por mercado y requieren una inversión separada en construcción de enlaces en cada país.merce-Shops sind Unterverzeichnisse die beste Wahl.",
           },
         },
         {
-          title: "Implementacion de Hreflang",
+          title: "Implementación de Hreflang",
           content:
             "Las [etiquetas hreflang](/academy/canonical-tags-for-ecommerce) indican a los motores de busqueda que version de idioma y region de una pagina servir para una consulta determinada. Sin ellas, Google podria mostrar tu pagina de producto en ingles a usuarios franceses, o peor, marcar tus variaciones regionales como contenido duplicado.\n\nEl atributo hreflang utiliza codigos de idioma ISO 639-1 y codigos de pais ISO 3166-1 Alpha-2 opcionales. Una pagina dirigida a hispanohablantes en Mexico usaria hreflang=\"es-MX\". Tambien debes incluir una etiqueta x-default que apunte a tu pagina de respaldo.\n\nHreflang puede implementarse via elementos link HTML en el <head>, cabeceras HTTP o sitemaps XML. Para tiendas con miles de productos en multiples idiomas, la implementacion via sitemap XML es el enfoque mas mantenible.\n\nEl error hreflang mas comun es la falta de etiquetas de retorno. Si la pagina A referencia a la pagina B como su alternativa alemana, la pagina B debe referenciar a la pagina A de vuelta. Las anotaciones hreflang asimetricas son ignoradas completamente por Google.",
           tip: "Incluye siempre una etiqueta hreflang autorreferencial en cada pagina. La pagina en ingles debe declararse a si misma como la alternativa en. Las autorreferencias faltantes causan fallos de validacion en todo el cluster hreflang.",
           image: {
             src: "/images/academy/es/hreflang-implementation.svg",
-            alt: "Hreflang-Implementierungsablauf mit Selbstreferenzierung, bidirektionalen Verweisen und drei Implementierungsmethoden",
-            caption: "Jede Seite muss alle Sprachversionen referenzieren, einschliesslich sich selbst. Waehlen Sie eine Methode und bleiben Sie konsistent.",
+            alt: "Diagrama que muestra enlaces hreflang bidireccionales entre variantes de página en inglés y alemán con respaldo x-default",
+            caption: "Si la página A hace referencia a la página B como su alternativa en alemán, la página B debe hacer referencia a la página A hacia atrás. Google ignora por completo las anotaciones asimétricas de hreflang.",
           },
           callout: {
             title: "Haeufigster Hreflang-Fehler",
-            text: "Fehlende Selbstreferenzierung ist der haeufigste Hreflang-Fehler. Jede Seite muss sich selbst UND alle anderen Sprachversionen referenzieren. Fehlende bidirektionale Verweise werden von Google ignoriert.",
+            text: "El error más común de hreflang es que faltan etiquetas de retorno. Utilice la implementación de mapas de sitio XML para tiendas con miles de productos en varios idiomas para que las anotaciones sean fáciles de mantener.rt.",
           },
         },
         {
@@ -281,7 +279,7 @@ items: [
           tip: "Crea una plantilla de datos estructurados por region que extraiga automaticamente el codigo de divisa, tratamiento fiscal y destino de envio correctos.",
         },
         {
-          title: "Consideraciones tecnicas internacionales",
+          title: "Consideraciones técnicas internacionales",
           content:
             "La ubicacion del servidor y la configuracion CDN impactan directamente en la velocidad de carga para visitantes internacionales. Una tienda alojada en un unico servidor de US entregara tiempos de carga lentos a compradores europeos y asiaticos. Usa un CDN con nodos edge en tus mercados objetivo.\n\nEvita las redirecciones basadas en IP que fuerzan a los usuarios a una version regional sin consentimiento. Google rastrea principalmente desde direcciones IP de US, por lo que las redirecciones IP pueden impedir que Googlebot descubra tus paginas no-US.\n\nLos sitemaps XML deben estructurarse para ayudar a los motores de busqueda a descubrir eficientemente todas las variantes regionales. Crea un indice de sitemap que referencie sub-sitemaps regionales.\n\nMonitoriza el rendimiento de busqueda internacional por separado por mercado. Configura propiedades de Search Console para cada pais o subdirectorio objetivo.",
         },
@@ -312,12 +310,12 @@ items: [
           ],
           image: {
             src: "/images/academy/it/international-domain-structures.svg",
-            alt: "Internationale Domain-Struktur-Optionen: ccTLD, Unterverzeichnis und Subdomain mit Vor- und Nachteilen",
-            caption: "Unterverzeichnisse (beispiel.com/de/) bieten fuer die meisten E-Commerce-Shops das beste Verhaeltnis aus SEO-Signal und Verwaltbarkeit.",
+            alt: "Diagramma comparativo degli approcci ccTLD, sottodirectory e sottodominio che mostra i pro e i contro di ciascuno per la SEO dell'e-commerce internazionale",
+            caption: "Le sottodirectory consolidano tutti i collegamenti sotto un unico dominio e sono la scelta preferita per la maggior parte delle operazioni di e-commerce. I ccTLD forniscono un targeting geografico più forte ma un'autorità divisa.",
           },
           callout: {
-            title: "Domain-Strategie-Entscheidung",
-            text: "Unterverzeichnisse buendeln die gesamte Domain-Autoritaet an einem Ort, waehrend ccTLDs (beispiel.de) das staerkste Geo-Signal senden, aber separate Autoritaet aufbauen muessen. Fuer die meisten E-Commerce-Shops sind Unterverzeichnisse die beste Wahl.",
+            title: "Decisione sulla strategia del dominio",
+            text: "Un singolo dominio con forte autorità solleva tutte le sottodirectory regionali. I ccTLD iniziano con zero autorità di dominio per mercato e richiedono investimenti separati nella creazione di collegamenti in ciascun paese.merce-Shops sind Unterverzeichnisse die beste Wahl.",
           },
         },
         {
@@ -327,12 +325,12 @@ items: [
           tip: "Includi sempre un tag hreflang autoreferenziale su ogni pagina. La pagina inglese dovrebbe dichiarare se stessa come alternativa en. Le autoreferenze mancanti causano fallimenti di validazione nell'intero cluster hreflang.",
           image: {
             src: "/images/academy/it/hreflang-implementation.svg",
-            alt: "Hreflang-Implementierungsablauf mit Selbstreferenzierung, bidirektionalen Verweisen und drei Implementierungsmethoden",
-            caption: "Jede Seite muss alle Sprachversionen referenzieren, einschliesslich sich selbst. Waehlen Sie eine Methode und bleiben Sie konsistent.",
+            alt: "Diagramma che mostra i collegamenti hreflang bidirezionali tra le varianti di pagina inglese e tedesca con fallback x-default",
+            caption: "Se la pagina A fa riferimento alla pagina B come alternativa tedesca, la pagina B deve fare riferimento alla pagina A sul retro. Le annotazioni hreflang asimmetriche vengono completamente ignorate da Google.",
           },
           callout: {
             title: "Haeufigster Hreflang-Fehler",
-            text: "Fehlende Selbstreferenzierung ist der haeufigste Hreflang-Fehler. Jede Seite muss sich selbst UND alle anderen Sprachversionen referenzieren. Fehlende bidirektionale Verweise werden von Google ignoriert.",
+            text: "L'errore hreflang più comune è la mancanza dei tag di ritorno. Utilizza l'implementazione della mappa del sito XML per negozi con migliaia di prodotti in più lingue per mantenere le annotazioni gestibili.rt.",
           },
         },
         {
@@ -384,12 +382,12 @@ items: [
           ],
           image: {
             src: "/images/academy/nl/international-domain-structures.svg",
-            alt: "Internationale Domain-Struktur-Optionen: ccTLD, Unterverzeichnis und Subdomain mit Vor- und Nachteilen",
-            caption: "Unterverzeichnisse (beispiel.com/de/) bieten fuer die meisten E-Commerce-Shops das beste Verhaeltnis aus SEO-Signal und Verwaltbarkeit.",
+            alt: "Vergelijkingsdiagram van ccTLD-, subdirectory- en subdomeinbenaderingen met de voor- en nadelen van elk voor SEO voor internationale e-commerce",
+            caption: "Submappen consolideren alle link-equity onder één domein en hebben de voorkeur voor de meeste e-commerce-activiteiten. ccTLD's bieden sterkere geografische targeting, maar splitsen de autoriteit.",
           },
           callout: {
-            title: "Domain-Strategie-Entscheidung",
-            text: "Unterverzeichnisse buendeln die gesamte Domain-Autoritaet an einem Ort, waehrend ccTLDs (beispiel.de) das staerkste Geo-Signal senden, aber separate Autoritaet aufbauen muessen. Fuer die meisten E-Commerce-Shops sind Unterverzeichnisse die beste Wahl.",
+            title: "Domeinstrategie-beslissing",
+            text: "Eén domein met sterke autoriteit tilt alle regionale submappen op. ccTLD's beginnen met nul domeinautoriteit per markt en vereisen afzonderlijke investeringen in linkbuilding in elk land.merce-Shops sind Unterverzeichnisse die beste Wahl.",
           },
         },
         {
@@ -399,12 +397,12 @@ items: [
           tip: "Voeg altijd een zelfverwijzende hreflang-tag toe op elke pagina. De Engelse pagina moet zichzelf declareren als het en-alternatief. Ontbrekende zelfverwijzingen veroorzaken validatiefouten in het hele hreflang-cluster.",
           image: {
             src: "/images/academy/nl/hreflang-implementation.svg",
-            alt: "Hreflang-Implementierungsablauf mit Selbstreferenzierung, bidirektionalen Verweisen und drei Implementierungsmethoden",
-            caption: "Jede Seite muss alle Sprachversionen referenzieren, einschliesslich sich selbst. Waehlen Sie eine Methode und bleiben Sie konsistent.",
+            alt: "Diagram met bidirectionele hreflang-links tussen Engelse en Duitse paginavarianten met x-standaard fallback",
+            caption: "Als pagina A verwijst naar pagina B als Duits alternatief, moet pagina B verwijzen naar pagina A terug. Asymmetrische hreflang-annotaties worden door Google volledig genegeerd.",
           },
           callout: {
             title: "Haeufigster Hreflang-Fehler",
-            text: "Fehlende Selbstreferenzierung ist der haeufigste Hreflang-Fehler. Jede Seite muss sich selbst UND alle anderen Sprachversionen referenzieren. Fehlende bidirektionale Verweise werden von Google ignoriert.",
+            text: "De meest voorkomende hreflang-fout is het ontbreken van retourtags. Gebruik XML-sitemapimplementatie voor winkels met duizenden producten in meerdere talen om annotaties onderhoudbaar te houden.rt.",
           },
         },
         {

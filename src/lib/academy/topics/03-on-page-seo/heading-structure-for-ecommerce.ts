@@ -162,8 +162,7 @@ export const headingStructureForEcommerce: AcademyTopic = {
     fr: {
       badge: "SEO on-page",
       heading: "Structure des Titres pour l'E-commerce",
-      intro:
-        "La structure des titres est le squelette de vos pages e-commerce. Elle indique aux moteurs de recherche le sujet de chaque section de contenu, guide les acheteurs a travers les informations produit et cree une hierarchie logique qui rend les pages accessibles et faciles a scanner. La plupart des boutiques e-commerce se trompent avec les titres, soit en les utilisant uniquement pour le style visuel, soit en les ignorant completement sur les [pages produits](/academy/product-page-seo) et categories. Une strategie de titres deliberee dans votre boutique peut ameliorer a la fois les classements et l'experience utilisateur simultanement. Une stratégie de titres délibérée à travers votre boutique peut améliorer à la fois les classements et l'expérience utilisateur simultanément, en faisant l'une des tactiques de [SEO on-page](/blog/on-page-seo-for-ecommerce) les plus sous-estimées disponibles.",
+      intro: "La structure des titres est le squelette de vos pages e-commerce. Elle indique aux moteurs de recherche le sujet de chaque section de contenu, guide les acheteurs a travers les informations produit et cree une hierarchie logique qui rend les pages accessibles et faciles a scanner. La plupart des boutiques e-commerce se trompent avec les titres, soit en les utilisant uniquement pour le style visuel, soit en les ignorant complètement sur les [pages produits](/academy/product-page-seo) et catégories. Une stratégie de titres deliberee dans votre boutique peut améliorer a la fois les classements et l'expérience utilisateur simultanement. Une stratégie de titres délibérée à travers votre boutique peut améliorer à la fois les classements et l'expérience utilisateur simultanément, en faisant l'une des tactiques de [SEO on-page](/blog/on-page-seo-for-ecommerce) les plus sous-estimées disponibles.",
       readTime: "8 min de lecture",
       sections: [
         {
@@ -178,7 +177,7 @@ export const headingStructureForEcommerce: AcademyTopic = {
           ],
         },
         {
-          title: "Balises H1 sur les pages produits et categories",
+          title: "Balises H1 sur les pages produits et catégories",
           content:
             "Chaque page e-commerce devrait avoir exactement une balise H1 qui indique clairement le sujet de la page. Sur les pages produits, le H1 devrait etre le nom du produit, correspondant ou s'alignant etroitement avec le mot-cle principal pour lequel vous voulez que la page se classe. Si vous vendez une \"Botte de Randonnee Impermeble Homme - Cuir Marron\", cette phrase exacte devrait etre votre H1.\n\n[Les pages categories](/academy/category-page-seo) necessitent des balises H1 tout aussi specifiques. Le H1 d'une page categorie devrait correspondre au mot-cle de la categorie : \"Chaussures de Running Femme\", \"Produits de Soin Bio\" ou \"Ensembles de Meubles de Salon\". De nombreuses plateformes e-commerce affichent par defaut le nom de la categorie comme H1, ce qui est correct. Cependant, certains themes utilisent un niveau de titre different ou omettent entierement la balise de titre.\n\nUne erreur courante est d'avoir plusieurs balises H1 sur la meme page. Cela arrive quand le logo du site est encapsule dans un H1 sur l'ensemble du site, et le nom du produit est egalement un H1. Le resultat est deux balises H1 concurrentes qui diluent le focus thematique de la page. Le logo devrait typiquement etre une image liee ou un H1 uniquement sur la page d'accueil.\n\nUn autre probleme frequent sont les balises H1 generees dynamiquement qui incluent des prefixes ou suffixes inutiles. Certaines plateformes produisent des titres comme \"Acheter Botte de Randonnee Impermeable Homme - Cuir Marron En Ligne\" ou \"Acheter\" et \"En Ligne\" n'ajoutent rien pour le SEO ou l'experience utilisateur. Gardez les balises H1 propres, specifiques et alignees sur la facon dont les gens recherchent reellement le produit.",
           tip: "Auditez vos balises H1 sur tous les templates de page en lancant un crawl avec Screaming Frog ou un outil similaire. Filtrez les pages sans balise H1, avec plusieurs balises H1 ou avec des balises H1 identiques sur plusieurs pages. Corrigez d'abord les problemes au niveau du template, car ils affectent des centaines ou des milliers de pages simultanement.",
@@ -200,17 +199,17 @@ export const headingStructureForEcommerce: AcademyTopic = {
           },
           callout: {
             title: "Häufiger Template-Fehler",
-            text: "Viele Ecommerce-Themes verpacken das Seitenlogo in ein H1 auf jeder Seite, was zwei konkurrierende H1-Tags erzeugt.",
+            text: "De nombreux thèmes de commerce électronique enveloppent le logo du site dans un H1 sur chaque page, créant deux balises H1 concurrentes lorsqu'elles sont combinées avec le nom du produit H1. Le logo ne doit être que H1 sur la page d'accueil.",
           },
         },
         {
-          title: "Strategie de titres pour les pages categories",
+          title: "Stratégie de titres pour les pages catégories",
           content:
             "Les pages categories presentent un defi unique en matiere de titres car leur objectif principal est de lister des produits, pas de presenter du contenu long. Cependant, les pages categories les plus performantes dans les resultats de recherche combinent des listes de produits avec des sections de contenu strategiques utilisant des titres pour cibler des mots-cles pertinents et apporter de la valeur aux acheteurs.\n\nLe H1 devrait etre le nom de la categorie avec le mot-cle principal. Sous la grille de produits, ajoutez des sections H2 pour le contenu de soutien : une section \"Guide d'Achat\", une section \"Questions Frequemment Posees\" et une breve description de categorie. Ces sections H2 remplissent un double role -- elles fournissent du contenu riche en mots-cles qui aide la page a se classer, et elles repondent aux questions des acheteurs qui reduisent les taux de rebond.\n\nLes noms de produits dans la grille ne devraient generalement pas etre des balises de titre. Si chaque carte produit utilise un H2 pour le nom du produit, une page categorie affichant 40 produits aurait 40 balises H2 plus vos sections de contenu H2, creant une structure de titres plate et insignifiante. Les noms de produits dans la grille fonctionnent mieux comme liens styles ou balises paragraphe.\n\nLes liens de sous-categories sur une page categorie parente peuvent etre encapsules dans des balises H2 ou H3 s'ils representent des sections de navigation significatives. Par exemple, une page categorie \"Chaussures Homme\" pourrait avoir des sections H2 pour \"Chaussures de Running\", \"Chaussures Decontractees\" et \"Chaussures Habillees\". Cette approche donne a Google des signaux clairs sur la relation taxonomique entre les categories.\n\nPour les pages filtrees ou facettees, soyez prudent avec les balises de titre sur le contenu genere dynamiquement. Les selections de filtres comme \"Taille : 42\" ou \"Couleur : Bleu\" ne devraient pas generer de nouvelles balises de titre.",
           tip: "Ajoutez une section de contenu sous la grille de produits sur les pages categories avec 200-400 mots de contenu unique organise sous des titres H2 et H3. Cette section peut inclure des conseils d'achat, des guides de tailles ou des astuces specifiques a la categorie. Nous avons vu des pages categories gagner 10-20 positions apres l'ajout de sections de contenu bien structurees avec une hierarchie de titres correcte.",
         },
         {
-          title: "Mots-cles dans les titres sans bourrage",
+          title: "Mots-clés dans les titres sans bourrage",
           content:
             "Les titres sont un endroit precieux pour inclure des mots-cles pertinents, mais la limite entre placement strategique de mots-cles et bourrage de mots-cles est importante. Un titre comme \"Chaussures de Running Femme\" est une inclusion naturelle de mot-cle. Un titre comme \"Meilleures Chaussures de Running Femme - Acheter Chaussures de Running Femme En Ligne\" est du bourrage de mots-cles.\n\nLa meilleure approche est d'ecrire des titres qui decrivent precisement le contenu de la section tout en incorporant naturellement le mot-cle cible ou une variation proche. Pour une page produit sur une machine a expresso, les titres H2 pourraient etre : \"Comment Utiliser la Breville Barista Express\", \"Specifications et Dimensions\", \"Avis et Evaluations Clients\" et \"Accessoires Compatibles\".\n\nUtilisez des variations semantiques de mots-cles a travers vos titres plutot que de repeter le meme mot-cle principal. Si votre H1 est \"T-Shirts Coton Bio\", vos titres H2 pourraient referencer \"tissus durables\", \"mode eco-responsable\" et \"vetements en fibres naturelles\" plutot que de repeter \"coton bio\" dans chaque titre.\n\nConsiderez les questions que les acheteurs posent lors de la redaction des textes de titre. Des titres bases sur des questions comme \"Quelle Mouture Choisir pour l'Espresso ?\" ou \"Combien de Temps Dure la Livraison ?\" peuvent correspondre aux requetes de recherche vocale et aux opportunites de Featured Snippets. Google extrait frequemment des Featured Snippets du contenu organise sous des titres descriptifs bases sur des questions.\n\nEvitez les titres generiques comme \"Details\", \"Plus d'Informations\" ou \"Apercu\" qui n'apportent ni valeur de mot-cle ni valeur descriptive aux acheteurs.",
           items: [
@@ -221,11 +220,11 @@ export const headingStructureForEcommerce: AcademyTopic = {
           ],
           callout: {
             title: "Featured-Snippet-Tipp",
-            text: "Fragebasierte Überschriften haben 30-40\u00a0% höhere Chancen auf Featured Snippets in Suchergebnissen.",
+            text: "Des titres basés sur des questions comme « Quelle taille de mouture à expresso dois-je utiliser ? » faites correspondre les requêtes de recherche vocale et accédez aux extraits de code. Google extrait fréquemment les réponses du contenu organisé sous",
           },
         },
         {
-          title: "Auditer et corriger la structure des titres a grande echelle",
+          title: "Auditer et corriger la structure des titres a grande échelle",
           content:
             "Pour les boutiques e-commerce avec de grands catalogues, les problemes de structure de titres sont presque toujours des problemes au niveau du template. Un seul template de theme controle la structure des titres de chaque page produit, donc corriger le template corrige des milliers de pages simultanement. Commencez votre audit en identifiant chaque template de page que votre site utilise.\n\nCrawlez votre site avec un outil comme Screaming Frog, Sitebulb ou Ahrefs Site Audit et exportez les donnees de titres pour chaque page. Recherchez ces problemes courants : pages sans balise H1, pages avec plusieurs balises H1, pages ou le H1 est identique sur de nombreuses URLs, pages qui sautent des niveaux de titre et pages ou les titres sont utilises pour des elements non structurels comme des titres de widgets ou du contenu de pied de page.\n\nPriorisez les corrections par type de page et volume de trafic. Les templates de pages produits affectent typiquement le plus de pages, donc corrigez-les en premier. Ensuite passez aux templates de pages categories, et enfin aux templates secondaires. Pour chaque template, cartographiez la structure de titres ideale avant de faire des modifications.\n\nDocumentez vos standards de titres dans un guide de style que vos equipes de developpement et de contenu peuvent referencer. Incluez des specifications comme : un H1 par page correspondant au mot-cle principal, H2 pour les sections de contenu majeures uniquement, pas de balises de titre sur les elements decoratifs ou promotionnels. Cela empeche la structure des titres de se degrader au fil du temps.\n\nApres avoir corrige la structure des titres, surveillez l'impact via Google Search Console. Recherchez des ameliorations de classement sur les pages ou les problemes de titres etaient les plus severes.",
           tip: "Creez un document de template de structure de titres pour chaque type de page sur votre site. Partagez-le avec votre equipe de developpement et incluez-le dans votre checklist QA pour tout nouveau template de page ou refonte. La prevention est bien plus efficace que l'audit et la correction periodiques.",
@@ -239,8 +238,7 @@ export const headingStructureForEcommerce: AcademyTopic = {
     es: {
       badge: "SEO on-page",
       heading: "Estructura de Encabezados para Ecommerce",
-      intro:
-        "La estructura de encabezados es el esqueleto de tus paginas de ecommerce. Indica a los motores de busqueda de que trata cada seccion de contenido, guia a los compradores a traves de la informacion del producto y crea una jerarquia logica que hace las paginas accesibles y escaneables. La mayoria de las tiendas de ecommerce manejan mal los encabezados, ya sea usandolos puramente para estilo visual o ignorandolos por completo en las paginas de productos y categorias. Una estrategia de encabezados deliberada en tu tienda puede mejorar tanto los rankings como la experiencia del usuario simultaneamente. Una estrategia deliberada de encabezados en toda tu tienda puede mejorar tanto los rankings como la experiencia de usuario simultaneamente, convirtiendola en una de las tacticas de [SEO on-page](/blog/on-page-seo-for-ecommerce) mas infravaloradas disponibles.",
+      intro: "La estructura de encabezados es el esqueleto de tus páginas de ecommerce. Indica a los motores de busqueda de que trata cada seccion de contenido, guia a los compradores a traves de la información del producto y crea una jerarquia lógica que hace las páginas accesibles y escaneables. La mayoria de las tiendas de ecommerce manejan mal los encabezados, ya sea usandolos puramente para estilo visual o ignorandolos por completo en las páginas de productos y categorías. Una estrategia de encabezados deliberada en tu tienda puede mejorar tanto los rankings como la experiencia del usuario simultaneamente. Una estrategia deliberada de encabezados en toda tu tienda puede mejorar tanto los rankings como la experiencia de usuario simultaneamente, convirtiendola en una de las tacticas de [SEO on-page](/blog/on-page-seo-for-ecommerce) mas infravaloradas disponibles.",
       readTime: "8 min de lectura",
       sections: [
         {
@@ -255,13 +253,13 @@ export const headingStructureForEcommerce: AcademyTopic = {
           ],
         },
         {
-          title: "Etiquetas H1 en paginas de productos y categorias",
+          title: "Etiquetas H1 en páginas de productos y categorías",
           content:
             "Cada pagina de ecommerce deberia tener exactamente una etiqueta H1 que indique claramente de que trata la pagina. En las [paginas de producto](/academy/product-page-seo)s, el H1 deberia ser el nombre del producto, coincidiendo o alineandose estrechamente con la palabra clave principal por la que quieres que esa pagina se posicione. Si vendes una \"Bota de Senderismo Impermeable para Hombre - Cuero Marron\", esa frase exacta deberia ser tu H1.\n\nLas paginas de categoria necesitan etiquetas H1 igualmente especificas. El H1 para una pagina de categoria deberia coincidir con la palabra clave de la categoria: \"Zapatillas de Running Mujer\", \"Productos de Cuidado de la Piel Organicos\" o \"Conjuntos de Muebles de Salon\". Muchas plataformas de ecommerce muestran por defecto el nombre de la categoria como H1, lo cual es correcto. Sin embargo, algunos temas envuelven el nombre de la categoria en un nivel de encabezado diferente o omiten la etiqueta de encabezado por completo.\n\nUn error comun es tener multiples etiquetas H1 en la misma pagina. Esto sucede cuando el logotipo del sitio esta envuelto en un H1 en todo el sitio, y el nombre del producto tambien es un H1. El resultado son dos etiquetas H1 compitiendo que diluyen el enfoque tematico de la pagina. El logotipo deberia ser tipicamente una imagen enlazada o un H1 solo en la pagina de inicio.\n\nOtro problema frecuente son las etiquetas H1 generadas dinamicamente que incluyen prefijos o sufijos innecesarios. Algunas plataformas producen titulos como \"Comprar Bota de Senderismo Impermeable Hombre - Cuero Marron Online\" donde \"Comprar\" y \"Online\" no aportan nada para el SEO o la experiencia del usuario.",
           tip: "Audita tus etiquetas H1 en todas las plantillas de pagina ejecutando un rastreo con Screaming Frog o una herramienta similar. Filtra las paginas sin etiqueta H1, con multiples etiquetas H1 o con etiquetas H1 que se duplican entre paginas. Corrige primero los problemas a nivel de plantilla, ya que afectan a cientos o miles de paginas simultaneamente.",
         },
         {
-          title: "Jerarquia de subtitulos para paginas de productos",
+          title: "Jerarquia de subtitulos para páginas de productos",
           content:
             "Debajo del H1, las paginas de productos deberian usar etiquetas H2 a H4 para organizar las secciones de contenido en una jerarquia logica. Las secciones H2 tipicas en una pagina de producto incluyen: Descripcion del Producto, Especificaciones, Resenas de Clientes, Informacion de Envio y Productos Relacionados. Cada H2 introduce una seccion de contenido importante a la que un comprador podria querer navegar directamente.\n\nDentro de esas secciones H2, usa etiquetas H3 para subsecciones. Bajo el H2 \"Especificaciones\", podrias tener etiquetas H3 para \"Dimensiones\", \"Materiales\" e \"Instrucciones de Cuidado\". Bajo \"Resenas de Clientes\", las etiquetas H3 podrian separar \"Resenas Recientes\" de \"Resenas Mejor Valoradas\". Esta estructura anidada da a Google informacion detallada sobre la jerarquia del contenido.\n\nEvita saltar niveles de encabezado. Pasar de un H2 directamente a un H4 sin un H3 intermedio crea una jerarquia rota que confunde tanto a los lectores de pantalla como a los rastreadores de motores de busqueda. La estructura de encabezados deberia seguir un patron de anidamiento logico: H1 contiene H2s, que contienen H3s, que contienen H4s.\n\nNo uses etiquetas de encabezado para estilo visual. Si quieres que el texto aparezca grande y en negrita pero no es un encabezado de seccion estructural, usa clases CSS en lugar de una etiqueta H2. Los banners promocionales, anuncios de rebajas y elementos de texto decorativos nunca deberian estar envueltos en etiquetas de encabezado.",
           items: [
@@ -277,11 +275,11 @@ export const headingStructureForEcommerce: AcademyTopic = {
           },
           callout: {
             title: "Häufiger Template-Fehler",
-            text: "Viele Ecommerce-Themes verpacken das Seitenlogo in ein H1 auf jeder Seite, was zwei konkurrierende H1-Tags erzeugt.",
+            text: "Muchos temas de comercio electrónico envuelven el logotipo del sitio en un H1 en cada página, creando dos etiquetas H1 en competencia cuando se combinan con el nombre del producto H1. El logo solo debe ser H1 en la página de inicio.",
           },
         },
         {
-          title: "Estrategia de encabezados para paginas de categoria",
+          title: "Estrategia de encabezados para páginas de categoría",
           content:
             "Las [paginas de categoria](/academy/category-page-seo) presentan un desafio unico de encabezados porque su proposito principal es listar productos, no presentar contenido extenso. Sin embargo, las paginas de categoria con mejor rendimiento en los resultados de busqueda combinan listados de productos con secciones de contenido estrategicas que usan encabezados para apuntar a palabras clave relevantes y proporcionar valor a los compradores.\n\nEl H1 deberia ser el nombre de la categoria con la palabra clave principal. Debajo de la cuadricula de productos, anade secciones H2 para contenido de apoyo: una seccion de \"Guia de Compra\", una seccion de \"Preguntas Frecuentes\" y una breve descripcion de la categoria. Estas secciones H2 cumplen una doble funcion -- proporcionan contenido rico en palabras clave que ayuda al posicionamiento de la pagina, y responden preguntas de los compradores que reducen las tasas de rebote.\n\nLos nombres de productos dentro de la cuadricula generalmente no deberian ser etiquetas de encabezado. Si cada tarjeta de producto usa un H2 para el nombre del producto, una pagina de categoria mostrando 40 productos tendria 40 etiquetas H2 mas tus secciones de contenido H2, creando una estructura de encabezados plana y sin sentido.\n\nLos enlaces de subcategorias en una pagina de categoria padre pueden envolverse en etiquetas H2 o H3 si representan secciones de navegacion significativas. Por ejemplo, una pagina de categoria \"Zapatos de Hombre\" podria tener secciones H2 para \"Zapatillas de Running\", \"Zapatos Casuales\" y \"Zapatos de Vestir\".\n\nPara paginas filtradas o facetadas, ten cuidado con las etiquetas de encabezado en contenido generado dinamicamente. Las selecciones de filtros como \"Talla: 42\" o \"Color: Azul\" no deberian generar nuevas etiquetas de encabezado.",
           tip: "Anade una seccion de contenido debajo de la cuadricula de productos en las paginas de categoria con 200-400 palabras de contenido unico organizado bajo encabezados H2 y H3. Esta seccion puede incluir consejos de compra, guias de tallas o tips especificos de la categoria. Hemos visto paginas de categoria saltar 10-20 posiciones despues de anadir secciones de contenido bien estructuradas con jerarquia de encabezados correcta.",
@@ -298,7 +296,7 @@ export const headingStructureForEcommerce: AcademyTopic = {
           ],
           callout: {
             title: "Featured-Snippet-Tipp",
-            text: "Fragebasierte Überschriften haben 30-40\u00a0% höhere Chancen auf Featured Snippets in Suchergebnissen.",
+            text: "Títulos basados ​​en preguntas como \"¿Qué tamaño de molido de espresso debo usar?\" coincida con las consultas de búsqueda por voz y obtenga fragmentos destacados. Google extrae con frecuencia respuestas del contenido organizado en",
           },
         },
         {
@@ -354,7 +352,7 @@ export const headingStructureForEcommerce: AcademyTopic = {
           },
           callout: {
             title: "Häufiger Template-Fehler",
-            text: "Viele Ecommerce-Themes verpacken das Seitenlogo in ein H1 auf jeder Seite, was zwei konkurrierende H1-Tags erzeugt.",
+            text: "Molti temi di e-commerce racchiudono il logo del sito in un H1 su ogni pagina, creando due tag H1 concorrenti se combinati con il nome del prodotto H1. Il logo dovrebbe essere solo H1 sulla home page.",
           },
         },
         {
@@ -375,7 +373,7 @@ export const headingStructureForEcommerce: AcademyTopic = {
           ],
           callout: {
             title: "Featured-Snippet-Tipp",
-            text: "Fragebasierte Überschriften haben 30-40\u00a0% höhere Chancen auf Featured Snippets in Suchergebnissen.",
+            text: "Titoli basati su domande come \"Quale dimensione di macinatura per espresso dovrei usare?\" abbina le query di ricerca vocale e vieni inserito negli snippet in primo piano. Google estrae spesso le risposte dai contenuti organizzati in",
           },
         },
         {
@@ -431,7 +429,7 @@ export const headingStructureForEcommerce: AcademyTopic = {
           },
           callout: {
             title: "Häufiger Template-Fehler",
-            text: "Viele Ecommerce-Themes verpacken das Seitenlogo in ein H1 auf jeder Seite, was zwei konkurrierende H1-Tags erzeugt.",
+            text: "Bij veel e-commercethema's wordt het sitelogo op elke pagina in een H1 weergegeven, waardoor in combinatie met de productnaam H1 twee concurrerende H1-tags ontstaan. Het logo mag op de homepage alleen H1 zijn.",
           },
         },
         {
@@ -452,7 +450,7 @@ export const headingStructureForEcommerce: AcademyTopic = {
           ],
           callout: {
             title: "Featured-Snippet-Tipp",
-            text: "Fragebasierte Überschriften haben 30-40\u00a0% höhere Chancen auf Featured Snippets in Suchergebnissen.",
+            text: "Op vragen gebaseerde kopjes zoals 'Welke maat espressomaling moet ik gebruiken?' match gesproken zoekopdrachten en word meegetrokken in aanbevolen fragmenten. Google haalt regelmatig antwoorden uit de inhoud die is georganiseerd onder",
           },
         },
         {

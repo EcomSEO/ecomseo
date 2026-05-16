@@ -150,8 +150,7 @@ export const keywordMappingForStores: AcademyTopic = {
     fr: {
       badge: "Recherche de mots-clés",
       heading: "Mapping de mots-clés pour les boutiques en ligne",
-      intro:
-        "Un mapping de mots-clés attribue des mots-clés cibles spécifiques à des URLs spécifiques de votre boutique. Sans cela, vous vous retrouvez avec plusieurs pages en concurrence pour les mêmes termes, des efforts d'optimisation gaspillés et des opportunités manquées où aucune page ne cible un mot-clé éprouvé. Pour les boutiques comptant des centaines ou des milliers de produits, un mapping de mots-clés fait la différence entre une croissance SEO organisée et le chaos.",
+      intro: "Un mapping de mots-clés attribue des mots-clés cibles spécifiques à des URLs spécifiques de votre boutique. Sans cela, vous vous retrouvez avec plusieurs pages en concurrence pour les mêmes termes, des efforts d'optimisation gaspillés et des opportunités manquées où aucune page ne cible un mot-clé éprouvé. Pour les boutiques comptant des centaines ou des milliers de produits, un mapping de mots-clés fait la différence entre une croissance SEO organisée et le chaos.",
       readTime: "9 min de lecture",
       sections: [
         {
@@ -183,7 +182,7 @@ export const keywordMappingForStores: AcademyTopic = {
           ],
           image: {
             src: "/images/academy/fr/keyword-map-structure.svg",
-            alt: "Tabelle, die zeigt, wie verschiedene Seitentypen Keyword-Intentionsstufen zugeordnet werden",
+            alt: "Tableau montrant comment les différents types de pages correspondent aux niveaux d'intention des mots clés avec des exemples de mots clés et de plages de volumes",
             caption: "Jeder Seitentyp erfüllt eine bestimmte Rolle im Keyword-Trichter.",
           },
           callout: {
@@ -221,8 +220,7 @@ export const keywordMappingForStores: AcademyTopic = {
     es: {
       badge: "Investigación de palabras clave",
       heading: "Mapeo de palabras clave para tiendas online",
-      intro:
-        "Un mapa de palabras clave asigna palabras clave objetivo específicas a URLs específicas de tu tienda. Sin él, terminas con múltiples páginas compitiendo por los mismos términos, esfuerzo de optimización desperdiciado y oportunidades perdidas donde ninguna página apunta a una palabra clave probada. Para tiendas con cientos o miles de productos, un mapa de palabras clave es la diferencia entre un crecimiento SEO organizado y el caos.",
+      intro: "Un mapa de palabras clave asigna palabras clave objetivo específicas a URLs específicas de tu tienda. Sin él, terminas con múltiples páginas compitiendo por los mismos términos, esfuerzo de optimización desperdiciado y oportunidades perdidas donde ninguna página apunta a una palabra clave probada. Para tiendas con cientos o miles de productos, un mapa de palabras clave es la diferencia entre un crecimiento SEO organizado y el caos.",
       readTime: "9 min de lectura",
       sections: [
         {
@@ -254,7 +252,7 @@ export const keywordMappingForStores: AcademyTopic = {
           ],
           image: {
             src: "/images/academy/es/keyword-map-structure.svg",
-            alt: "Tabelle, die zeigt, wie verschiedene Seitentypen Keyword-Intentionsstufen zugeordnet werden",
+            alt: "Tabla que muestra cómo los diferentes tipos de páginas se asignan a los niveles de intención de las palabras clave con ejemplos de palabras clave y rangos de volumen.",
             caption: "Jeder Seitentyp erfüllt eine bestimmte Rolle im Keyword-Trichter.",
           },
           callout: {
@@ -325,7 +323,7 @@ export const keywordMappingForStores: AcademyTopic = {
           ],
           image: {
             src: "/images/academy/it/keyword-map-structure.svg",
-            alt: "Tabelle, die zeigt, wie verschiedene Seitentypen Keyword-Intentionsstufen zugeordnet werden",
+            alt: "Tabella che mostra in che modo i diversi tipi di pagina vengono associati ai livelli di intenzione delle parole chiave con parole chiave di esempio e intervalli di volume",
             caption: "Jeder Seitentyp erfüllt eine bestimmte Rolle im Keyword-Trichter.",
           },
           callout: {
@@ -396,7 +394,7 @@ export const keywordMappingForStores: AcademyTopic = {
           ],
           image: {
             src: "/images/academy/nl/keyword-map-structure.svg",
-            alt: "Tabelle, die zeigt, wie verschiedene Seitentypen Keyword-Intentionsstufen zugeordnet werden",
+            alt: "Tabel die laat zien hoe verschillende paginatypen verband houden met zoekwoordintentieniveaus, met voorbeeldzoekwoorden en volumebereiken",
             caption: "Jeder Seitentyp erfüllt eine bestimmte Rolle im Keyword-Trichter.",
           },
           callout: {
