@@ -1,25 +1,25 @@
 <svg viewBox="0 0 480 250" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <text x="240" y="22" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#a78bfa">FAQ Content Architecture</text>
+  <text x="240" y="22" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#a78bfa">Preguntas frecuentes sobre arquitectura de contenido</text>
   <!-- Top: FAQ de categoría pages -->
   <rect x="140" y="45" width="200" height="40" rx="8" fill="#a78bfa" opacity="0.15" stroke="#a78bfa" stroke-width="1.5"/>
-  <text x="240" y="70" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#a78bfa">FAQ de categoría Pages</text>
+  <text x="240" y="70" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#a78bfa">Páginas de preguntas frecuentes de la categoría</text>
   <!-- Split into specific pages -->
   <line x1="170" y1="85" x2="80" y2="115" stroke="#e2e8f0" stroke-width="1"/>
   <line x1="240" y1="85" x2="240" y2="115" stroke="#e2e8f0" stroke-width="1"/>
   <line x1="310" y1="85" x2="400" y2="115" stroke="#e2e8f0" stroke-width="1"/>
   <rect x="20" y="115" width="120" height="45" rx="6" fill="#60a5fa" opacity="0.12" stroke="#60a5fa" stroke-width="1.2"/>
-  <text x="80" y="135" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#60a5fa">Delivery &amp;</text>
-  <text x="80" y="148" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#60a5fa">Assembly FAQ</text>
+  <text x="80" y="135" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#60a5fa">Entrega y entrega</text>
+  <text x="80" y="148" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#60a5fa">Preguntas frecuentes sobre el montaje</text>
   <rect x="180" y="115" width="120" height="45" rx="6" fill="#4ade80" opacity="0.12" stroke="#4ade80" stroke-width="1.2"/>
-  <text x="240" y="135" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#4ade80">Materials &amp;</text>
-  <text x="240" y="148" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#4ade80">Care FAQ</text>
+  <text x="240" y="135" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#4ade80">Materiales y</text>
+  <text x="240" y="148" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#4ade80">Preguntas frecuentes sobre el cuidado</text>
   <rect x="340" y="115" width="120" height="45" rx="6" fill="#f97316" opacity="0.12" stroke="#f97316" stroke-width="1.2"/>
-  <text x="400" y="135" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#f97316">Returns &amp;</text>
-  <text x="400" y="148" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#f97316">Exchanges FAQ</text>
+  <text x="400" y="135" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#f97316">Devoluciones y</text>
+  <text x="400" y="148" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#f97316">Preguntas frecuentes sobre intercambios</text>
   <!-- Bottom: Producto-level FAQs -->
   <line x1="240" y1="160" x2="240" y2="185" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="4"/>
   <rect x="100" y="185" width="280" height="40" rx="8" fill="#a78bfa" opacity="0.08" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="4"/>
-  <text x="240" y="210" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Producto-Level FAQs (3-5 questions per product page)</text>
+  <text x="240" y="210" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Preguntas frecuentes a nivel de producto (de 3 a 5 preguntas por página de producto)</text>
   <!-- Annotation -->
-  <text x="240" y="245" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Respuestas: 80-150 words each | FAQPage JSON-LD on every page</text>
+  <text x="240" y="245" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Respuestas: 80-150 palabras cada una | Página de preguntas frecuentes JSON-LD en cada página</text>
 </svg>

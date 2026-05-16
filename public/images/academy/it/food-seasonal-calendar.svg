@@ -1,44 +1,44 @@
 <svg viewBox="0 0 420 220" xmlns="http://www.w3.org/2000/svg" fill="none">
-  <text x="210" y="18" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#a78bfa">Food &amp; Beverage Seasonal SEO Calendar</text>
+  <text x="210" y="18" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#a78bfa">Cibo e cibo Calendario SEO stagionale delle bevande</text>
   <!-- Timeline bar -->
   <rect x="30" y="40" width="360" height="14" rx="7" fill="#a78bfa" opacity="0.1" stroke="#a78bfa" stroke-width="1"/>
   <!-- Month labels -->
-  <text x="45" y="36" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">Jan</text>
-  <text x="75" y="36" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">Feb</text>
+  <text x="45" y="36" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">Gen</text>
+  <text x="75" y="36" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">Febbraio</text>
   <text x="105" y="36" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">Mar</text>
-  <text x="135" y="36" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">Apr</text>
-  <text x="165" y="36" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">May</text>
-  <text x="195" y="36" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">Jun</text>
-  <text x="225" y="36" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">Jul</text>
-  <text x="255" y="36" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">Aug</text>
-  <text x="285" y="36" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">Sep</text>
-  <text x="315" y="36" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">Oct</text>
-  <text x="345" y="36" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">Nov</text>
-  <text x="375" y="36" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">Dec</text>
+  <text x="135" y="36" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">aprile</text>
+  <text x="165" y="36" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">Maggio</text>
+  <text x="195" y="36" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">giugno</text>
+  <text x="225" y="36" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">Lug</text>
+  <text x="255" y="36" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">Agosto</text>
+  <text x="285" y="36" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">Settembre</text>
+  <text x="315" y="36" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">ottobre</text>
+  <text x="345" y="36" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">novembre</text>
+  <text x="375" y="36" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">dicembre</text>
   <!-- Event bars -->
   <rect x="55" y="65" width="30" height="18" rx="3" fill="#ef4444" opacity="0.3" stroke="#ef4444" stroke-width="1"/>
-  <text x="70" y="77" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#ef4444">Valentine's</text>
+  <text x="70" y="77" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#ef4444">San Valentino</text>
   <rect x="90" y="65" width="35" height="18" rx="3" fill="#f97316" opacity="0.3" stroke="#f97316" stroke-width="1"/>
-  <text x="107" y="77" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#f97316">Easter</text>
+  <text x="107" y="77" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#f97316">Pasqua</text>
   <rect x="165" y="65" width="70" height="18" rx="3" fill="#4ade80" opacity="0.3" stroke="#4ade80" stroke-width="1"/>
-  <text x="200" y="77" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#4ade80">BBQ / Summer</text>
+  <text x="200" y="77" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#4ade80">Barbecue / Estate</text>
   <rect x="285" y="65" width="30" height="18" rx="3" fill="#f97316" opacity="0.3" stroke="#f97316" stroke-width="1"/>
   <text x="300" y="77" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#f97316">Halloween</text>
   <rect x="320" y="65" width="25" height="18" rx="3" fill="#60a5fa" opacity="0.3" stroke="#60a5fa" stroke-width="1"/>
-  <text x="332" y="77" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#60a5fa">T-giving</text>
+  <text x="332" y="77" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#60a5fa">T-dare</text>
   <rect x="350" y="65" width="35" height="18" rx="3" fill="#a78bfa" opacity="0.3" stroke="#a78bfa" stroke-width="1"/>
-  <text x="367" y="77" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#a78bfa">Christmas</text>
+  <text x="367" y="77" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#a78bfa">Natale</text>
   <!-- Prep arrows -->
-  <text x="210" y="105" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#a78bfa" font-weight="bold">Content Prep Windows (8-10 weeks before)</text>
+  <text x="210" y="105" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#a78bfa" font-weight="bold">Windows di preparazione dei contenuti (8-10 settimane prima)</text>
   <rect x="30" y="115" width="50" height="22" rx="3" fill="#ef4444" opacity="0.12" stroke="#ef4444" stroke-width="1" stroke-dasharray="3,2"/>
-  <text x="55" y="129" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">Dec prep</text>
+  <text x="55" y="129" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">Preparazione di dicembre</text>
   <rect x="60" y="115" width="50" height="22" rx="3" fill="#f97316" opacity="0.12" stroke="#f97316" stroke-width="1" stroke-dasharray="3,2"/>
-  <text x="85" y="129" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">Jan prep</text>
+  <text x="85" y="129" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">Preparazione di gennaio</text>
   <rect x="130" y="115" width="55" height="22" rx="3" fill="#4ade80" opacity="0.12" stroke="#4ade80" stroke-width="1" stroke-dasharray="3,2"/>
-  <text x="157" y="129" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">Apr prep</text>
+  <text x="157" y="129" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">Preparazione di aprile</text>
   <!-- Key takeaway -->
   <rect x="60" y="155" width="300" height="50" rx="6" fill="#4ade80" opacity="0.08" stroke="#4ade80" stroke-width="1"/>
-  <text x="210" y="173" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#4ade80" font-weight="bold">Retain seasonal URLs year over year</text>
-  <text x="210" y="188" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">Update products and imagery, keep the URL and its accumulated</text>
-  <text x="210" y="200" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">backlinks and ranking signals intact</text>
+  <text x="210" y="173" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#4ade80" font-weight="bold">Conserva gli URL stagionali anno dopo anno</text>
+  <text x="210" y="188" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">Aggiorna prodotti e immagini, conserva l'URL e il suo accumulo</text>
+  <text x="210" y="200" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">backlink e segnali di ranking intatti</text>
 </svg>

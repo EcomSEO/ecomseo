@@ -1,43 +1,43 @@
 <svg viewBox="0 0 420 250" xmlns="http://www.w3.org/2000/svg" fill="none">
-  <text x="210" y="18" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#a78bfa">Variant URL Decision Tree</text>
+  <text x="210" y="18" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#a78bfa">Albero decisionale dell'URL delle varianti</text>
   <!-- Start node -->
   <rect x="140" y="30" width="140" height="28" rx="14" fill="#a78bfa" opacity="0.2" stroke="#a78bfa" stroke-width="1.5"/>
-  <text x="210" y="48" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Product Variant Type?</text>
+  <text x="210" y="48" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Tipo di variante del prodotto?</text>
   <!-- Branch: Color -->
   <line x1="170" y1="58" x2="100" y2="80" stroke="#60a5fa" stroke-width="1.5"/>
   <rect x="30" y="80" width="140" height="28" rx="4" fill="#60a5fa" opacity="0.15" stroke="#60a5fa" stroke-width="1"/>
-  <text x="100" y="98" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Color Variant</text>
+  <text x="100" y="98" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Variante di colore</text>
   <!-- Color sub-decision -->
   <line x1="60" y1="108" x2="40" y2="130" stroke="#4ade80" stroke-width="1"/>
   <line x1="140" y1="108" x2="155" y2="130" stroke="#f97316" stroke-width="1"/>
   <rect x="5" y="130" width="75" height="40" rx="4" fill="#4ade80" opacity="0.12" stroke="#4ade80" stroke-width="1"/>
-  <text x="42" y="147" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#4ade80" font-weight="bold">Has search vol?</text>
-  <text x="42" y="162" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">Own URL + photos</text>
+  <text x="42" y="147" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#4ade80" font-weight="bold">La ricerca ha un volume?</text>
+  <text x="42" y="162" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">Proprio URL + foto</text>
   <rect x="115" y="130" width="75" height="40" rx="4" fill="#f97316" opacity="0.12" stroke="#f97316" stroke-width="1"/>
-  <text x="152" y="147" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#f97316" font-weight="bold">No search vol?</text>
-  <text x="152" y="162" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">Swatch selector</text>
+  <text x="152" y="147" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#f97316" font-weight="bold">Nessuna ricerca vol?</text>
+  <text x="152" y="162" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">Selettore di campioni</text>
   <!-- Branch: Size -->
   <line x1="250" y1="58" x2="320" y2="80" stroke="#ef4444" stroke-width="1.5"/>
   <rect x="250" y="80" width="140" height="28" rx="4" fill="#ef4444" opacity="0.15" stroke="#ef4444" stroke-width="1"/>
-  <text x="320" y="98" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Size Variant</text>
+  <text x="320" y="98" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#e2e8f0">Variante di dimensione</text>
   <line x1="320" y1="108" x2="320" y2="130" stroke="#ef4444" stroke-width="1"/>
   <rect x="260" y="130" width="120" height="40" rx="4" fill="#ef4444" opacity="0.12" stroke="#ef4444" stroke-width="1"/>
-  <text x="320" y="147" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#ef4444" font-weight="bold">Never own URL</text>
-  <text x="320" y="162" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">Dropdown + canonical</text>
+  <text x="320" y="147" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#ef4444" font-weight="bold">Non possedere mai l'URL</text>
+  <text x="320" y="162" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">A discesa + canonico</text>
   <!-- Result boxes -->
   <rect x="5" y="185" width="120" height="50" rx="4" fill="#4ade80" opacity="0.1" stroke="#4ade80" stroke-width="1"/>
-  <text x="65" y="202" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#4ade80" font-weight="bold">/blazer/navy-blue</text>
-  <text x="65" y="215" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">Unique title, meta, photos</text>
-  <text x="65" y="226" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">Self-canonical</text>
+  <text x="65" y="202" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#4ade80" font-weight="bold">/blazer/blu navy</text>
+  <text x="65" y="215" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">Titolo unico, meta, foto</text>
+  <text x="65" y="226" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">Autocanonico</text>
   <line x1="42" y1="170" x2="65" y2="185" stroke="#4ade80" stroke-width="1" stroke-dasharray="3,2"/>
   <rect x="150" y="185" width="120" height="50" rx="4" fill="#f97316" opacity="0.1" stroke="#f97316" stroke-width="1"/>
-  <text x="210" y="202" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#f97316" font-weight="bold">/blazer (single URL)</text>
-  <text x="210" y="215" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">On-page color swatches</text>
-  <text x="210" y="226" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">No extra crawl cost</text>
+  <text x="210" y="202" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#f97316" font-weight="bold">/blazer (URL singolo)</text>
+  <text x="210" y="215" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">Campioni di colore sulla pagina</text>
+  <text x="210" y="226" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">Nessun costo di scansione aggiuntivo</text>
   <line x1="152" y1="170" x2="210" y2="185" stroke="#f97316" stroke-width="1" stroke-dasharray="3,2"/>
   <rect x="295" y="185" width="120" height="50" rx="4" fill="#ef4444" opacity="0.1" stroke="#ef4444" stroke-width="1"/>
-  <text x="355" y="202" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#ef4444" font-weight="bold">/blazer?size=m</text>
-  <text x="355" y="215" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">Block in robots.txt or</text>
-  <text x="355" y="226" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">canonical to /blazer</text>
+  <text x="355" y="202" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#ef4444" font-weight="bold">/giacca?taglia=m</text>
+  <text x="355" y="215" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">Blocca in robots.txt o</text>
+  <text x="355" y="226" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#e2e8f0">canonico in /blazer</text>
   <line x1="320" y1="170" x2="355" y2="185" stroke="#ef4444" stroke-width="1" stroke-dasharray="3,2"/>
 </svg>

@@ -1,22 +1,22 @@
 <svg viewBox="0 0 420 230" xmlns="http://www.w3.org/2000/svg" fill="none">
-  <text x="210" y="18" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#a78bfa">Fashion SEO Seasonal Cycle</text>
+  <text x="210" y="18" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#a78bfa">Ciclo stagionale SEO moda</text>
   <!-- Circular timeline -->
   <circle cx="210" cy="130" r="85" stroke="#a78bfa" stroke-width="1" opacity="0.3" fill="none"/>
   <!-- Season segments -->
   <path d="M210,45 A85,85 0 0,1 295,130" stroke="#f97316" stroke-width="3" fill="none"/>
-  <text x="278" y="78" font-family="Arial,sans-serif" font-size="9" fill="#f97316" font-weight="bold">Spring/Summer</text>
-  <text x="278" y="90" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">Feb-Jul</text>
+  <text x="278" y="78" font-family="Arial,sans-serif" font-size="9" fill="#f97316" font-weight="bold">Primavera/Estate</text>
+  <text x="278" y="90" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">Febbraio-lug</text>
   <path d="M295,130 A85,85 0 0,1 210,215" stroke="#ef4444" stroke-width="3" fill="none"/>
-  <text x="278" y="178" font-family="Arial,sans-serif" font-size="9" fill="#ef4444" font-weight="bold">Fall/Winter</text>
-  <text x="278" y="190" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">Aug-Jan</text>
+  <text x="278" y="178" font-family="Arial,sans-serif" font-size="9" fill="#ef4444" font-weight="bold">Autunno/Inverno</text>
+  <text x="278" y="190" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">Agosto-gennaio</text>
   <path d="M210,215 A85,85 0 0,1 125,130" stroke="#60a5fa" stroke-width="3" fill="none"/>
-  <text x="88" y="190" font-family="Arial,sans-serif" font-size="9" fill="#60a5fa" font-weight="bold" text-anchor="end">Sales &amp; Clearance</text>
-  <text x="88" y="202" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0" text-anchor="end">Jan, Jul</text>
+  <text x="88" y="190" font-family="Arial,sans-serif" font-size="9" fill="#60a5fa" font-weight="bold" text-anchor="end">Vendite e Liquidazione</text>
+  <text x="88" y="202" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0" text-anchor="end">Gennaio, luglio</text>
   <path d="M125,130 A85,85 0 0,1 210,45" stroke="#4ade80" stroke-width="3" fill="none"/>
-  <text x="88" y="78" font-family="Arial,sans-serif" font-size="9" fill="#4ade80" font-weight="bold" text-anchor="end">Trend Scouting</text>
-  <text x="88" y="90" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0" text-anchor="end">Ongoing</text>
+  <text x="88" y="78" font-family="Arial,sans-serif" font-size="9" fill="#4ade80" font-weight="bold" text-anchor="end">Scouting delle tendenze</text>
+  <text x="88" y="90" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0" text-anchor="end">In corso</text>
   <!-- Center label -->
-  <text x="210" y="125" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#a78bfa" font-weight="bold">Publish Pages</text>
-  <text x="210" y="138" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">8+ weeks before</text>
-  <text x="210" y="150" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">each season peak</text>
+  <text x="210" y="125" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#a78bfa" font-weight="bold">Pubblica pagine</text>
+  <text x="210" y="138" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">8+ settimane prima</text>
+  <text x="210" y="150" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">ogni picco stagionale</text>
 </svg>

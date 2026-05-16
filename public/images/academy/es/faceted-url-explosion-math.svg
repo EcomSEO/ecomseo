@@ -1,38 +1,38 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 280" fill="none">
   <!-- Title -->
-  <text x="340" y="24" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="700" fill="#a78bfa">Faceted Navegación: Combinatorial URL Explosion</text>
+  <text x="340" y="24" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="700" fill="#a78bfa">Navegación por facetas: explosión combinatoria de URL</text>
 
   <!-- Filtrar groups -->
   <rect x="30" y="50" width="110" height="56" rx="6" stroke="#60a5fa" stroke-width="1" fill="none"/>
   <text x="85" y="70" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="700" fill="#60a5fa">Marca</text>
   <text x="85" y="86" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" font-weight="700" fill="#e2e8f0">10</text>
-  <text x="85" y="100" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#94a3b8">options</text>
+  <text x="85" y="100" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#94a3b8">opciones</text>
 
   <text x="158" y="82" text-anchor="middle" font-family="Arial,sans-serif" font-size="16" fill="#a78bfa">x</text>
 
   <rect x="176" y="50" width="110" height="56" rx="6" stroke="#60a5fa" stroke-width="1" fill="none"/>
   <text x="231" y="70" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="700" fill="#60a5fa">Color</text>
   <text x="231" y="86" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" font-weight="700" fill="#e2e8f0">12</text>
-  <text x="231" y="100" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#94a3b8">options</text>
+  <text x="231" y="100" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#94a3b8">opciones</text>
 
   <text x="304" y="82" text-anchor="middle" font-family="Arial,sans-serif" font-size="16" fill="#a78bfa">x</text>
 
   <rect x="322" y="50" width="110" height="56" rx="6" stroke="#60a5fa" stroke-width="1" fill="none"/>
-  <text x="377" y="70" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="700" fill="#60a5fa">Talla</text>
+  <text x="377" y="70" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="700" fill="#60a5fa">Tamaño</text>
   <text x="377" y="86" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" font-weight="700" fill="#e2e8f0">8</text>
-  <text x="377" y="100" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#94a3b8">options</text>
+  <text x="377" y="100" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#94a3b8">opciones</text>
 
   <text x="450" y="82" text-anchor="middle" font-family="Arial,sans-serif" font-size="16" fill="#a78bfa">x</text>
 
   <rect x="468" y="50" width="110" height="56" rx="6" stroke="#60a5fa" stroke-width="1" fill="none"/>
   <text x="523" y="70" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="700" fill="#60a5fa">Precio</text>
   <text x="523" y="86" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" font-weight="700" fill="#e2e8f0">5</text>
-  <text x="523" y="100" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#94a3b8">ranges</text>
+  <text x="523" y="100" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#94a3b8">rangos</text>
 
   <text x="596" y="82" text-anchor="middle" font-family="Arial,sans-serif" font-size="16" fill="#a78bfa">x</text>
 
   <rect x="614" y="50" width="52" height="56" rx="6" stroke="#60a5fa" stroke-width="1" fill="none"/>
-  <text x="640" y="70" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="700" fill="#60a5fa">Sort</text>
+  <text x="640" y="70" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="700" fill="#60a5fa">Clasificar</text>
   <text x="640" y="86" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" font-weight="700" fill="#e2e8f0">4</text>
 
   <!-- Equals -->
@@ -41,9 +41,9 @@
   <!-- Resultado -->
   <rect x="180" y="155" width="320" height="56" rx="10" stroke="#ef4444" stroke-width="2" fill="none"/>
   <text x="340" y="178" text-anchor="middle" font-family="Arial,sans-serif" font-size="22" font-weight="700" fill="#ef4444">19,200+</text>
-  <text x="340" y="200" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#e2e8f0">crawlable URLs from ONE category page</text>
+  <text x="340" y="200" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#e2e8f0">URL rastreables desde UNA página de categoría</text>
 
   <!-- Bottom note -->
-  <text x="340" y="240" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#94a3b8">With multi-select enabled, this number grows exponentially to millions</text>
-  <text x="340" y="260" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#4ade80">Solution: Block Tier 3 filters, keep only high-value combinations indexable</text>
+  <text x="340" y="240" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#94a3b8">Con la selección múltiple habilitada, este número crece exponencialmente a millones</text>
+  <text x="340" y="260" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#4ade80">Solución: bloquear los filtros de nivel 3 y mantener indexables solo las combinaciones de alto valor</text>
 </svg>
