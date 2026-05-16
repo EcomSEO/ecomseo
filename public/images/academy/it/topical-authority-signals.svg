@@ -1,28 +1,28 @@
 <svg viewBox="0 0 480 240" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <text x="240" y="22" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#a78bfa">Google's Topical Authority Signals</text>
+  <text x="240" y="22" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#a78bfa">Segnali di autorità topici di Google</text>
   <!-- Three pillars -->
   <rect x="20" y="50" width="130" height="140" rx="10" fill="#a78bfa" opacity="0.12" stroke="#a78bfa" stroke-width="1.5"/>
-  <text x="85" y="75" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#a78bfa">Content Coverage</text>
-  <text x="85" y="100" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Full range of</text>
-  <text x="85" y="114" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">subtopics covered</text>
-  <text x="85" y="138" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Breadth + Depth</text>
-  <text x="85" y="158" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#4ade80">15-25 cluster pages</text>
-  <text x="85" y="178" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#4ade80">per category</text>
+  <text x="85" y="75" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#a78bfa">Copertura dei contenuti</text>
+  <text x="85" y="100" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Gamma completa di</text>
+  <text x="85" y="114" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">sottoargomenti trattati</text>
+  <text x="85" y="138" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Larghezza + Profondità</text>
+  <text x="85" y="158" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#4ade80">15-25 pagine di cluster</text>
+  <text x="85" y="178" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#4ade80">per categoria</text>
   <rect x="175" y="50" width="130" height="140" rx="10" fill="#60a5fa" opacity="0.12" stroke="#60a5fa" stroke-width="1.5"/>
-  <text x="240" y="75" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#60a5fa">External Validation</text>
-  <text x="240" y="100" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Niche backlinks</text>
-  <text x="240" y="114" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">from authority sites</text>
-  <text x="240" y="138" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Industry magazines</text>
-  <text x="240" y="158" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Associations</text>
-  <text x="240" y="178" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Review sites</text>
+  <text x="240" y="75" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#60a5fa">Convalida esterna</text>
+  <text x="240" y="100" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Backlink di nicchia</text>
+  <text x="240" y="114" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">dai siti delle autorità</text>
+  <text x="240" y="138" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Riviste di settore</text>
+  <text x="240" y="158" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Associazioni</text>
+  <text x="240" y="178" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Siti di recensioni</text>
   <rect x="330" y="50" width="130" height="140" rx="10" fill="#4ade80" opacity="0.12" stroke="#4ade80" stroke-width="1.5"/>
   <text x="395" y="75" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#4ade80">E-E-A-T</text>
-  <text x="395" y="100" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Original photography</text>
-  <text x="395" y="114" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Expert-written specs</text>
-  <text x="395" y="138" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Real customer reviews</text>
-  <text x="395" y="158" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Author bios</text>
-  <text x="395" y="178" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Transparent business</text>
+  <text x="395" y="100" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Fotografia originale</text>
+  <text x="395" y="114" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Specifiche scritte da esperti</text>
+  <text x="395" y="138" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Recensioni dei clienti reali</text>
+  <text x="395" y="158" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Biografia dell'autore</text>
+  <text x="395" y="178" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#e2e8f0">Affari trasparenti</text>
   <!-- Bottom outcome -->
   <rect x="120" y="205" width="240" height="28" rx="6" fill="#a78bfa" opacity="0.2" stroke="#a78bfa" stroke-width="1.5"/>
-  <text x="240" y="224" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#a78bfa">Faster indexing + Higher rankings</text>
+  <text x="240" y="224" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#a78bfa">Indicizzazione più rapida + ranking più alti</text>
 </svg>

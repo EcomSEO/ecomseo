@@ -1,24 +1,24 @@
 <svg viewBox="0 0 420 220" xmlns="http://www.w3.org/2000/svg" fill="none">
-  <text x="210" y="22" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#a78bfa">Executive SEO Report Structure</text>
+  <text x="210" y="22" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#a78bfa">Struttura del rapporto SEO esecutivo</text>
   <g transform="translate(30,38)">
     <rect width="360" height="34" rx="6" fill="#a78bfa" fill-opacity="0.15" stroke="#a78bfa" stroke-width="1.5"/>
-    <text x="18" y="14" font-family="Arial,sans-serif" font-size="9" fill="#a78bfa">SECTION 1</text>
-    <text x="18" y="27" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#e2e8f0">Headline KPIs: Revenue, Traffic, CVR, New Customers</text>
+    <text x="18" y="14" font-family="Arial,sans-serif" font-size="9" fill="#a78bfa">SEZIONE 1</text>
+    <text x="18" y="27" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#e2e8f0">KPI principali: entrate, traffico, CVR, nuovi clienti</text>
   </g>
   <g transform="translate(30,80)">
     <rect width="360" height="34" rx="6" fill="#4ade80" fill-opacity="0.12" stroke="#4ade80" stroke-width="1"/>
-    <text x="18" y="14" font-family="Arial,sans-serif" font-size="9" fill="#4ade80">SECTION 2</text>
-    <text x="18" y="27" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#e2e8f0">12-Month Trend Chart with Event Overlays</text>
+    <text x="18" y="14" font-family="Arial,sans-serif" font-size="9" fill="#4ade80">SEZIONE 2</text>
+    <text x="18" y="27" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#e2e8f0">Grafico delle tendenze di 12 mesi con sovrapposizioni di eventi</text>
   </g>
   <g transform="translate(30,122)">
     <rect width="360" height="34" rx="6" fill="#60a5fa" fill-opacity="0.12" stroke="#60a5fa" stroke-width="1"/>
-    <text x="18" y="14" font-family="Arial,sans-serif" font-size="9" fill="#60a5fa">SECTION 3</text>
-    <text x="18" y="27" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#e2e8f0">Competitive Share of Voice vs 2-3 Rivals</text>
+    <text x="18" y="14" font-family="Arial,sans-serif" font-size="9" fill="#60a5fa">SEZIONE 3</text>
+    <text x="18" y="27" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#e2e8f0">Share of Voice competitivo contro 2-3 rivali</text>
   </g>
   <g transform="translate(30,164)">
     <rect width="360" height="34" rx="6" fill="#f97316" fill-opacity="0.12" stroke="#f97316" stroke-width="1"/>
-    <text x="18" y="14" font-family="Arial,sans-serif" font-size="9" fill="#f97316">SECTION 4</text>
-    <text x="18" y="27" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#e2e8f0">3-5 Prioritized Next Steps with Projected Impact</text>
+    <text x="18" y="14" font-family="Arial,sans-serif" font-size="9" fill="#f97316">SEZIONE 4</text>
+    <text x="18" y="27" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#e2e8f0">3-5 passaggi successivi con priorità e impatto previsto</text>
   </g>
-  <text x="210" y="214" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#94a3b8">Send summary 24h before meeting for better stakeholder engagement</text>
+  <text x="210" y="214" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#94a3b8">Invia un riepilogo 24 ore prima della riunione per un migliore coinvolgimento delle parti interessate</text>
 </svg>
