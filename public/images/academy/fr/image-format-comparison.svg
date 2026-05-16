@@ -1,25 +1,25 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 300" fill="none">
-  <text x="340" y="24" text-anchor="middle" fill="#a78bfa" font-family="Arial,sans-serif" font-size="14" font-weight="700">Image Format Comparison for Product Photos</text>
+  <text x="340" y="24" text-anchor="middle" fill="#a78bfa" font-family="Arial,sans-serif" font-size="14" font-weight="700">Comparaison des formats d'image pour les photos de produits</text>
 
   <!-- Header row -->
   <text x="120" y="56" text-anchor="middle" fill="#94a3b8" font-family="Arial,sans-serif" font-size="10" font-weight="600">Format</text>
-  <text x="280" y="56" text-anchor="middle" fill="#94a3b8" font-family="Arial,sans-serif" font-size="10" font-weight="600">File Size (typical)</text>
-  <text x="440" y="56" text-anchor="middle" fill="#94a3b8" font-family="Arial,sans-serif" font-size="10" font-weight="600">Savings vs Original</text>
-  <text x="600" y="56" text-anchor="middle" fill="#94a3b8" font-family="Arial,sans-serif" font-size="10" font-weight="600">Browser Support</text>
+  <text x="280" y="56" text-anchor="middle" fill="#94a3b8" font-family="Arial,sans-serif" font-size="10" font-weight="600">Taille du fichier (typique)</text>
+  <text x="440" y="56" text-anchor="middle" fill="#94a3b8" font-family="Arial,sans-serif" font-size="10" font-weight="600">Économies par rapport à l'original</text>
+  <text x="600" y="56" text-anchor="middle" fill="#94a3b8" font-family="Arial,sans-serif" font-size="10" font-weight="600">Prise en charge du navigateur</text>
 
   <line x1="40" y1="64" x2="640" y2="64" stroke="#334155" stroke-width="0.8"/>
 
   <!-- Original JPEG 100% -->
   <rect x="40" y="72" width="600" height="36" rx="4" fill="#1a1a2e"/>
-  <text x="120" y="94" text-anchor="middle" fill="#ef4444" font-family="Arial,sans-serif" font-size="11" font-weight="600">JPEG 100%</text>
-  <text x="280" y="94" text-anchor="middle" fill="#e2e8f0" font-family="Arial,sans-serif" font-size="11">2.4 MB</text>
-  <text x="440" y="94" text-anchor="middle" fill="#ef4444" font-family="Arial,sans-serif" font-size="11">Baseline</text>
+  <text x="120" y="94" text-anchor="middle" fill="#ef4444" font-family="Arial,sans-serif" font-size="11" font-weight="600">JPEG100%</text>
+  <text x="280" y="94" text-anchor="middle" fill="#e2e8f0" font-family="Arial,sans-serif" font-size="11">2,4 Mo</text>
+  <text x="440" y="94" text-anchor="middle" fill="#ef4444" font-family="Arial,sans-serif" font-size="11">Référence</text>
   <text x="600" y="94" text-anchor="middle" fill="#e2e8f0" font-family="Arial,sans-serif" font-size="11">100%</text>
 
   <!-- JPEG 80% -->
   <rect x="40" y="114" width="600" height="36" rx="4" fill="#1e1e3a"/>
-  <text x="120" y="136" text-anchor="middle" fill="#f97316" font-family="Arial,sans-serif" font-size="11" font-weight="600">JPEG 80%</text>
-  <text x="280" y="136" text-anchor="middle" fill="#e2e8f0" font-family="Arial,sans-serif" font-size="11">960 KB</text>
+  <text x="120" y="136" text-anchor="middle" fill="#f97316" font-family="Arial,sans-serif" font-size="11" font-weight="600">JPEG 80 %</text>
+  <text x="280" y="136" text-anchor="middle" fill="#e2e8f0" font-family="Arial,sans-serif" font-size="11">960 Ko</text>
   <rect x="390" y="126" width="100" height="16" rx="3" fill="#f97316" fill-opacity="0.15"/>
   <text x="440" y="139" text-anchor="middle" fill="#f97316" font-family="Arial,sans-serif" font-size="11" font-weight="600">-60%</text>
   <text x="600" y="136" text-anchor="middle" fill="#e2e8f0" font-family="Arial,sans-serif" font-size="11">100%</text>
@@ -27,7 +27,7 @@
   <!-- WebP -->
   <rect x="40" y="156" width="600" height="36" rx="4" fill="#1a1a2e"/>
   <text x="120" y="178" text-anchor="middle" fill="#4ade80" font-family="Arial,sans-serif" font-size="11" font-weight="600">WebP</text>
-  <text x="280" y="178" text-anchor="middle" fill="#e2e8f0" font-family="Arial,sans-serif" font-size="11">650 KB</text>
+  <text x="280" y="178" text-anchor="middle" fill="#e2e8f0" font-family="Arial,sans-serif" font-size="11">650 Ko</text>
   <rect x="390" y="168" width="100" height="16" rx="3" fill="#4ade80" fill-opacity="0.15"/>
   <text x="440" y="181" text-anchor="middle" fill="#4ade80" font-family="Arial,sans-serif" font-size="11" font-weight="600">-73%</text>
   <text x="600" y="178" text-anchor="middle" fill="#e2e8f0" font-family="Arial,sans-serif" font-size="11">97%</text>
@@ -35,14 +35,14 @@
   <!-- AVIF -->
   <rect x="40" y="198" width="600" height="36" rx="4" fill="#1e1e3a"/>
   <text x="120" y="220" text-anchor="middle" fill="#60a5fa" font-family="Arial,sans-serif" font-size="11" font-weight="600">AVIF</text>
-  <text x="280" y="220" text-anchor="middle" fill="#e2e8f0" font-family="Arial,sans-serif" font-size="11">520 KB</text>
+  <text x="280" y="220" text-anchor="middle" fill="#e2e8f0" font-family="Arial,sans-serif" font-size="11">520 Ko</text>
   <rect x="390" y="210" width="100" height="16" rx="3" fill="#60a5fa" fill-opacity="0.15"/>
   <text x="440" y="223" text-anchor="middle" fill="#60a5fa" font-family="Arial,sans-serif" font-size="11" font-weight="600">-78%</text>
   <text x="600" y="220" text-anchor="middle" fill="#e2e8f0" font-family="Arial,sans-serif" font-size="11">92%</text>
 
   <!-- Impact bar -->
   <rect x="80" y="250" width="520" height="28" rx="6" fill="#1a1a2e" stroke="#4ade80" stroke-width="1"/>
-  <text x="340" y="268" text-anchor="middle" fill="#4ade80" font-family="Arial,sans-serif" font-size="10" font-weight="600">Switching to WebP: 6 images x 1.75 MB saved = 10.5 MB less per product page</text>
+  <text x="340" y="268" text-anchor="middle" fill="#4ade80" font-family="Arial,sans-serif" font-size="10" font-weight="600">Passage à WebP : 6 images x 1,75 Mo enregistrées = 10,5 Mo de moins par page produit</text>
 
-  <text x="340" y="296" text-anchor="middle" fill="#64748b" font-family="Arial,sans-serif" font-size="8">Serve WebP with JPEG fallback using the HTML picture element or CDN auto-conversion</text>
+  <text x="340" y="296" text-anchor="middle" fill="#64748b" font-family="Arial,sans-serif" font-size="8">Servir WebP avec une solution de secours JPEG à l'aide de l'élément d'image HTML ou de la conversion automatique CDN</text>
 </svg>

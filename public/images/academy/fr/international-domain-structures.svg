@@ -1,32 +1,32 @@
 <svg viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg" fill="none">
-  <text x="200" y="20" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#a78bfa">International Domain Structure Options</text>
+  <text x="200" y="20" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#a78bfa">Options de structure de domaine international</text>
   <!-- ccTLD -->
   <rect x="15" y="38" width="115" height="90" rx="6" stroke="#60a5fa" stroke-width="1.5"/>
   <text x="72" y="55" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#60a5fa">ccTLD</text>
   <text x="72" y="68" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">shop.de / shop.fr</text>
-  <text x="72" y="82" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#4ade80">+ Strong geo signal</text>
-  <text x="72" y="94" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#4ade80">+ Local trust</text>
-  <text x="72" y="106" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#ef4444">- Split authority</text>
-  <text x="72" y="118" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#ef4444">- High cost</text>
+  <text x="72" y="82" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#4ade80">+ Signal géo fort</text>
+  <text x="72" y="94" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#4ade80">+ Confiance locale</text>
+  <text x="72" y="106" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#ef4444">- Diviser l'autorité</text>
+  <text x="72" y="118" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#ef4444">- Coût élevé</text>
   <!-- Subdirectory -->
   <rect x="142" y="38" width="115" height="90" rx="6" stroke="#4ade80" stroke-width="2"/>
-  <text x="199" y="55" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#4ade80">Subdirectory</text>
+  <text x="199" y="55" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#4ade80">Sous-répertoire</text>
   <text x="199" y="68" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">shop.com/de/</text>
-  <text x="199" y="82" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#4ade80">+ Single authority</text>
-  <text x="199" y="94" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#4ade80">+ One crawl budget</text>
-  <text x="199" y="106" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#4ade80">+ Flexible targeting</text>
-  <text x="199" y="118" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#f97316">- Weaker local signal</text>
+  <text x="199" y="82" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#4ade80">+ Autorité unique</text>
+  <text x="199" y="94" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#4ade80">+ Un budget de crawl</text>
+  <text x="199" y="106" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#4ade80">+ Ciblage flexible</text>
+  <text x="199" y="118" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#f97316">- Signal local plus faible</text>
   <!-- Subdomain -->
   <rect x="270" y="38" width="115" height="90" rx="6" stroke="#ef4444" stroke-width="1.5"/>
   <text x="327" y="55" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#ef4444">Sous-domaine</text>
   <text x="327" y="68" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">de.shop.com</text>
-  <text x="327" y="82" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#ef4444">- Semi-separate</text>
-  <text x="327" y="94" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#ef4444">- Split budgets</text>
-  <text x="327" y="106" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#ef4444">- No local trust</text>
-  <text x="327" y="118" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#ef4444">- Worst of both</text>
+  <text x="327" y="82" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#ef4444">- Semi-séparé</text>
+  <text x="327" y="94" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#ef4444">- Diviser les budgets</text>
+  <text x="327" y="106" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#ef4444">- Pas de confiance locale</text>
+  <text x="327" y="118" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#ef4444">- Le pire des deux</text>
   <!-- Recommendation -->
   <rect x="100" y="145" width="200" height="28" rx="5" stroke="#4ade80" stroke-width="1.5"/>
-  <text x="200" y="163" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#4ade80">Recommended for most stores</text>
+  <text x="200" y="163" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="bold" fill="#4ade80">Recommandé pour la plupart des magasins</text>
   <path d="M200 140 L200 145" stroke="#4ade80" stroke-width="1.5"/>
-  <text x="200" y="190" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#94a3b8">Use Search Console international targeting for subdirectory geo-association</text>
+  <text x="200" y="190" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#94a3b8">Utiliser le ciblage international de la Search Console pour la géo-association de sous-répertoires</text>
 </svg>

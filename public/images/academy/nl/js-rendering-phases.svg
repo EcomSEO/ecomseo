@@ -1,61 +1,61 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 340" fill="none">
   <!-- Title -->
-  <text x="340" y="24" text-anchor="middle" fill="#a78bfa" font-family="Arial,sans-serif" font-size="14" font-weight="700">Googles tweefasig renderproces</text>
+  <text x="340" y="24" text-anchor="middle" fill="#a78bfa" font-family="Arial,sans-serif" font-size="14" font-weight="700">Het tweefasige weergaveproces van Google</text>
 
   <!-- Phase 1 Box -->
   <rect x="20" y="44" width="300" height="220" rx="10" fill="#1a1a2e" stroke="#ef4444" stroke-width="1" stroke-opacity="0.5"/>
   <rect x="20" y="44" width="300" height="30" rx="10" fill="#ef4444" fill-opacity="0.1"/>
   <rect x="20" y="64" width="300" height="1" fill="#ef4444" fill-opacity="0.2"/>
-  <text x="170" y="64" text-anchor="middle" fill="#ef4444" font-family="Arial,sans-serif" font-size="12" font-weight="700">PHASE 1: HTML Fetch</text>
+  <text x="170" y="64" text-anchor="middle" fill="#ef4444" font-family="Arial,sans-serif" font-size="12" font-weight="700">FASE 1: HTML ophalen</text>
 
-  <text x="170" y="90" text-anchor="middle" fill="#64748b" font-family="Arial,sans-serif" font-size="10">Happens immediately</text>
+  <text x="170" y="90" text-anchor="middle" fill="#64748b" font-family="Arial,sans-serif" font-size="10">Gebeurt onmiddellijk</text>
 
   <!-- What Google receives -->
   <rect x="40" y="105" width="260" height="50" rx="6" fill="#0f172a" stroke="#334155" stroke-width="1"/>
-  <text x="170" y="123" text-anchor="middle" fill="#94a3b8" font-family="monospace" font-size="10">&lt;html&gt;&lt;body&gt;</text>
-  <text x="170" y="143" text-anchor="middle" fill="#475569" font-family="monospace" font-size="10">&lt;div id="app"&gt;&lt;/div&gt;</text>
+  <text x="170" y="123" text-anchor="middle" fill="#94a3b8" font-family="monospace" font-size="10">&amp;lt;html&amp;gt;&amp;lt;body&amp;gt;</text>
+  <text x="170" y="143" text-anchor="middle" fill="#475569" font-family="monospace" font-size="10">&amp;lt;div id="app"&amp;gt;&amp;lt;/div&amp;gt;</text>
 
   <!-- What's missing -->
   <rect x="40" y="168" width="260" height="36" rx="6" fill="#ef4444" fill-opacity="0.08" stroke="#ef4444" stroke-width="0.8"/>
-  <text x="170" y="183" text-anchor="middle" fill="#ef4444" font-family="Arial,sans-serif" font-size="9">No title, no price, no description</text>
-  <text x="170" y="196" text-anchor="middle" fill="#ef4444" font-family="Arial,sans-serif" font-size="9">No reviews, no schema markup</text>
+  <text x="170" y="183" text-anchor="middle" fill="#ef4444" font-family="Arial,sans-serif" font-size="9">Geen titel, geen prijs, geen beschrijving</text>
+  <text x="170" y="196" text-anchor="middle" fill="#ef4444" font-family="Arial,sans-serif" font-size="9">Geen recensies, geen schema-opmaak</text>
 
   <!-- Result -->
   <rect x="40" y="216" width="260" height="32" rx="6" fill="#ef4444" fill-opacity="0.15" stroke="#ef4444" stroke-width="1"/>
-  <text x="170" y="237" text-anchor="middle" fill="#ef4444" font-family="Arial,sans-serif" font-size="11" font-weight="700">Google sees: EMPTY PAGE</text>
+  <text x="170" y="237" text-anchor="middle" fill="#ef4444" font-family="Arial,sans-serif" font-size="11" font-weight="700">Google ziet: LEGE PAGINA</text>
 
   <!-- Arrow between phases -->
   <line x1="330" y1="154" x2="350" y2="154" stroke="#a78bfa" stroke-width="2"/>
   <polygon points="348,148 360,154 348,160" fill="#a78bfa"/>
-  <text x="345" y="178" text-anchor="middle" fill="#f97316" font-family="Arial,sans-serif" font-size="10" font-weight="600">days to</text>
-  <text x="345" y="192" text-anchor="middle" fill="#f97316" font-family="Arial,sans-serif" font-size="10" font-weight="600">weeks</text>
+  <text x="345" y="178" text-anchor="middle" fill="#f97316" font-family="Arial,sans-serif" font-size="10" font-weight="600">dagen tot</text>
+  <text x="345" y="192" text-anchor="middle" fill="#f97316" font-family="Arial,sans-serif" font-size="10" font-weight="600">weken</text>
 
   <!-- Phase 2 Box -->
   <rect x="360" y="44" width="300" height="220" rx="10" fill="#1a1a2e" stroke="#4ade80" stroke-width="1" stroke-opacity="0.5"/>
   <rect x="360" y="44" width="300" height="30" rx="10" fill="#4ade80" fill-opacity="0.1"/>
   <rect x="360" y="64" width="300" height="1" fill="#4ade80" fill-opacity="0.2"/>
-  <text x="510" y="64" text-anchor="middle" fill="#4ade80" font-family="Arial,sans-serif" font-size="12" font-weight="700">PHASE 2: JS Rendering</text>
+  <text x="510" y="64" text-anchor="middle" fill="#4ade80" font-family="Arial,sans-serif" font-size="12" font-weight="700">FASE 2: JS-weergave</text>
 
-  <text x="510" y="90" text-anchor="middle" fill="#64748b" font-family="Arial,sans-serif" font-size="10">Delayed (render queue)</text>
+  <text x="510" y="90" text-anchor="middle" fill="#64748b" font-family="Arial,sans-serif" font-size="10">Vertraagd (weergavewachtrij)</text>
 
   <!-- What Google renders -->
   <rect x="380" y="105" width="260" height="50" rx="6" fill="#0f172a" stroke="#334155" stroke-width="1"/>
-  <text x="510" y="123" text-anchor="middle" fill="#e2e8f0" font-family="monospace" font-size="10">&lt;h1&gt;Running Shoes Pro&lt;/h1&gt;</text>
-  <text x="510" y="143" text-anchor="middle" fill="#e2e8f0" font-family="monospace" font-size="10">&lt;span&gt;$129.99&lt;/span&gt; In Stock</text>
+  <text x="510" y="123" text-anchor="middle" fill="#e2e8f0" font-family="monospace" font-size="10">&amp;lt;h1&amp;gt;Hardloopschoenen Pro&amp;lt;/h1&amp;gt;</text>
+  <text x="510" y="143" text-anchor="middle" fill="#e2e8f0" font-family="monospace" font-size="10">&amp;lt;span&amp;gt;$ 129,99&amp;lt;/span&amp;gt; Op voorraad</text>
 
   <!-- What's visible -->
   <rect x="380" y="168" width="260" height="36" rx="6" fill="#4ade80" fill-opacity="0.08" stroke="#4ade80" stroke-width="0.8"/>
-  <text x="510" y="183" text-anchor="middle" fill="#4ade80" font-family="Arial,sans-serif" font-size="9">Title, price, description loaded</text>
-  <text x="510" y="196" text-anchor="middle" fill="#4ade80" font-family="Arial,sans-serif" font-size="9">Reviews, schema, images rendered</text>
+  <text x="510" y="183" text-anchor="middle" fill="#4ade80" font-family="Arial,sans-serif" font-size="9">Titel, prijs, beschrijving geladen</text>
+  <text x="510" y="196" text-anchor="middle" fill="#4ade80" font-family="Arial,sans-serif" font-size="9">Recensies, schema, weergegeven afbeeldingen</text>
 
   <!-- Result -->
   <rect x="380" y="216" width="260" height="32" rx="6" fill="#4ade80" fill-opacity="0.15" stroke="#4ade80" stroke-width="1"/>
-  <text x="510" y="237" text-anchor="middle" fill="#4ade80" font-family="Arial,sans-serif" font-size="11" font-weight="700">Google sees: FULL CONTENT</text>
+  <text x="510" y="237" text-anchor="middle" fill="#4ade80" font-family="Arial,sans-serif" font-size="11" font-weight="700">Google ziet: VOLLEDIGE INHOUD</text>
 
   <!-- Solution bar -->
   <rect x="80" y="282" width="520" height="36" rx="8" fill="#a78bfa" fill-opacity="0.1" stroke="#a78bfa" stroke-width="1"/>
-  <text x="340" y="300" text-anchor="middle" fill="#a78bfa" font-family="Arial,sans-serif" font-size="11" font-weight="700">Solution: Server-Side Rendering (SSR) or Static Generation (SSG)</text>
-  <text x="340" y="313" text-anchor="middle" fill="#94a3b8" font-family="Arial,sans-serif" font-size="9">Eliminates Phase 2 delay. Google gets full content on first fetch.</text>
+  <text x="340" y="300" text-anchor="middle" fill="#a78bfa" font-family="Arial,sans-serif" font-size="11" font-weight="700">Oplossing: Server-Side Rendering (SSR) of Static Generation (SSG)</text>
+  <text x="340" y="313" text-anchor="middle" fill="#94a3b8" font-family="Arial,sans-serif" font-size="9">Elimineert fase 2-vertraging. Google krijgt de volledige inhoud bij de eerste keer ophalen.</text>
 
-  <text x="340" y="336" text-anchor="middle" fill="#64748b" font-family="Arial,sans-serif" font-size="8">Shopify Liquid = SSR by default | Next.js/Nuxt = configure SSR or SSG | React SPA = needs fixing</text>
+  <text x="340" y="336" text-anchor="middle" fill="#64748b" font-family="Arial,sans-serif" font-size="8">Shopify Liquid = standaard SSR | Next.js/Nuxt = SSR of SSG configureren | React SPA = moet worden gerepareerd</text>
 </svg>

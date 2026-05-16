@@ -1,5 +1,5 @@
 <svg viewBox="0 0 420 260" xmlns="http://www.w3.org/2000/svg" fill="none">
-  <text x="210" y="22" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#a78bfa">Matriz impacto-esfuerzo for SEO Tasks</text>
+  <text x="210" y="22" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#a78bfa">Matriz Impacto-Esfuerzo para Tareas SEO</text>
   <line x1="60" y1="240" x2="400" y2="240" stroke="#475569" stroke-width="1"/>
   <line x1="60" y1="40" x2="60" y2="240" stroke="#475569" stroke-width="1"/>
   <line x1="60" y1="140" x2="400" y2="140" stroke="#475569" stroke-width="0.5" stroke-dasharray="3,3" opacity="0.3"/>
@@ -11,25 +11,25 @@
   <text x="70" y="254" font-family="Arial,sans-serif" font-size="9" fill="#94a3b8">Bajo esfuerzo</text>
   <rect x="68" y="48" width="155" height="86" rx="8" fill="#4ade80" fill-opacity="0.08" stroke="#4ade80" stroke-width="1"/>
   <text x="145" y="65" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#4ade80">Victorias rápidas</text>
-  <text x="145" y="80" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">Title tag rewrites</text>
-  <text x="145" y="92" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">Schema on top pages</text>
-  <text x="145" y="104" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">Fix crawl errors</text>
-  <text x="145" y="126" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#4ade80">DO FIRST</text>
+  <text x="145" y="80" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">Reescritura de la etiqueta del título</text>
+  <text x="145" y="92" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">Esquema en las páginas superiores</text>
+  <text x="145" y="104" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">Corregir errores de rastreo</text>
+  <text x="145" y="126" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#4ade80">HACER PRIMERO</text>
   <rect x="238" y="48" width="155" height="86" rx="8" fill="#60a5fa" fill-opacity="0.08" stroke="#60a5fa" stroke-width="1"/>
-  <text x="315" y="65" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#60a5fa">Proyectos estratégicos</text>
-  <text x="315" y="80" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">Site architecture rebuild</text>
-  <text x="315" y="92" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">Content hub launch</text>
-  <text x="315" y="104" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">Platform migration</text>
-  <text x="315" y="126" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#60a5fa">PLAN QUARTERLY</text>
+  <text x="315" y="65" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#60a5fa">Proyectos Estratégicos</text>
+  <text x="315" y="80" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">Reconstrucción de la arquitectura del sitio</text>
+  <text x="315" y="92" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">Lanzamiento del centro de contenido</text>
+  <text x="315" y="104" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">Migración de plataforma</text>
+  <text x="315" y="126" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#60a5fa">PLANIFICAR TRIMESTRALMENTE</text>
   <rect x="68" y="148" width="155" height="86" rx="8" fill="#f97316" fill-opacity="0.08" stroke="#f97316" stroke-width="1"/>
-  <text x="145" y="165" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#f97316">Maintenance</text>
-  <text x="145" y="180" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">Corregir alt tags</text>
-  <text x="145" y="192" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">Clean redirects</text>
-  <text x="145" y="204" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">Update footers</text>
-  <text x="145" y="226" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#f97316">BATCH WEEKLY</text>
+  <text x="145" y="165" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#f97316">Mantenimiento</text>
+  <text x="145" y="180" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">Reparar etiquetas alternativas</text>
+  <text x="145" y="192" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">Redirecciones limpias</text>
+  <text x="145" y="204" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">Actualizar pies de página</text>
+  <text x="145" y="226" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#f97316">LOTE SEMANAL</text>
   <rect x="238" y="148" width="155" height="86" rx="8" fill="#ef4444" fill-opacity="0.08" stroke="#ef4444" stroke-width="1"/>
-  <text x="315" y="165" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#ef4444">Skip or Defer</text>
-  <text x="315" y="180" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">Rewrite 300 low-traffic</text>
-  <text x="315" y="192" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">product descriptions</text>
-  <text x="315" y="226" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#ef4444">REMOVE FROM LIST</text>
+  <text x="315" y="165" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#ef4444">Saltar o aplazar</text>
+  <text x="315" y="180" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">Reescribe 300 de poco tráfico</text>
+  <text x="315" y="192" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="#e2e8f0">descripciones de productos</text>
+  <text x="315" y="226" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" font-weight="bold" fill="#ef4444">ELIMINAR DE LA LISTA</text>
 </svg>
